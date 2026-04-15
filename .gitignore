@@ -1,12 +1,5 @@
 .env
-data/*.db
-data/*.db-journal
-data/cvm_pdfs/
-logs/
-reports/
 __pycache__/
 *.pyc
 .venv/
-.claude/
 .Rhistory
-docs/references/*.pdf

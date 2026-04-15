@@ -1,0 +1,8 @@
+{"ts": "2026-04-15T11:28:15Z", "event": "extract_start", "pending": 6}
+{"ts": "2026-04-15T11:28:41Z", "event": "extract_result", "event_id": 5, "ticker": "ITSA4", "date": "2026-03-25", "kind": "comunicado", "ok": true, "msg": "36313 chars"}
+{"ts": "2026-04-15T11:28:51Z", "event": "extract_result", "event_id": 1, "ticker": "ITSA4", "date": "2026-03-17", "kind": "comunicado", "ok": true, "msg": "9473 chars"}
+{"ts": "2026-04-15T11:28:55Z", "event": "extract_result", "event_id": 6, "ticker": "ITSA4", "date": "2026-03-16", "kind": "fato_relevante", "ok": true, "msg": "745 chars"}
+{"ts": "2026-04-15T11:29:20Z", "event": "extract_result", "event_id": 4, "ticker": "ITSA4", "date": "2026-02-10", "kind": "comunicado", "ok": true, "msg": "34583 chars"}
+{"ts": "2026-04-15T11:29:23Z", "event": "extract_result", "event_id": 3, "ticker": "ITSA4", "date": "2026-02-09", "kind": "comunicado", "ok": true, "msg": "1709 chars"}
+{"ts": "2026-04-15T11:30:00Z", "event": "extract_result", "event_id": 2, "ticker": "ITSA4", "date": "2026-01-27", "kind": "comunicado", "ok": true, "msg": "39198 chars"}
+{"ts": "2026-04-15T11:30:01Z", "event": "extract_done", "ok": 6, "fail": 0}
