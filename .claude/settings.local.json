@@ -63,7 +63,9 @@
       "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scripts/daily_update.py)",
       "Bash(gh repo *)",
       "Bash(curl -sI https://github.com/apaidusis-boop/Personal-Valuator)",
-      "Bash(curl -s https://api.github.com/repos/apaidusis-boop/Personal-Valuator)"
+      "Bash(curl -s https://api.github.com/repos/apaidusis-boop/Personal-Valuator)",
+      "Bash(git push:*)",
+      "Bash(git push)"
     ]
   }
 }
