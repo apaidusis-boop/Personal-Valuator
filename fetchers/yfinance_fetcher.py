@@ -104,6 +104,51 @@ def upsert_company(conn: sqlite3.Connection, entry: dict, currency: str) -> None
     )
 
 
+def _fetch_dividends_resilient(tk, ticker: str):
+    """Obtém dividendos com cascata de estratégias, resiliente a versões do yfinance.
+
+    Bug conhecido em yfinance ~0.2.40–0.2.55: `tk.dividends` pode levantar
+    `'PriceHistory' object has no attribute '_dividends'` quando o estado
+    interno do Ticker não foi inicializado. Solução: fallback em cascata.
+
+    Devolve (series | None, strategy_name).
+    """
+    # Estratégia 1: API directa (caminho rápido quando funciona).
+    try:
+        d = tk.dividends
+        if d is not None and len(d) > 0:
+            return d, "tk.dividends"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "tk.dividends", "err": str(exc)})
+
+    # Estratégia 2: history(max, actions=True) força lazy-load correcto.
+    try:
+        h = tk.history(period="max", actions=True, auto_adjust=False)
+        if h is not None and "Dividends" in h.columns:
+            d = h["Dividends"]
+            d = d[d > 0]
+            if len(d) > 0:
+                return d, "history_actions"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "history_actions", "err": str(exc)})
+
+    # Estratégia 3: tk.actions dataframe.
+    try:
+        a = tk.actions
+        if a is not None and "Dividends" in a.columns:
+            d = a["Dividends"]
+            d = d[d > 0]
+            if len(d) > 0:
+                return d, "tk.actions"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "tk.actions", "err": str(exc)})
+
+    return None, "none"
+
+
 def upsert_prices(conn: sqlite3.Connection, ticker: str, history) -> int:
     n = 0
     for ts, row in history.iterrows():
@@ -265,14 +310,18 @@ def run(ticker: str, market: str = "br", period: str = "10y") -> None:
 
     tk = yf.Ticker(symbol)
     hist = tk.history(period=period, auto_adjust=True)
-    try:
-        divs = tk.dividends  # pode vir vazia ou levantar AttributeError para alguns tickers
-    except (AttributeError, Exception) as exc:  # noqa: BLE001
-        _log({"event": "yf_dividends_unavailable", "ticker": ticker, "err": str(exc)})
-        divs = None
+    divs, div_strategy = _fetch_dividends_resilient(tk, ticker)
+    if divs is None:
+        _log({"event": "yf_dividends_unavailable", "ticker": ticker,
+              "reason": "all strategies failed"})
+    else:
+        _log({"event": "yf_dividends_strategy_ok", "ticker": ticker,
+              "strategy": div_strategy, "count": len(divs)})
 
     if hist is None or len(hist) == 0:
-        raise SystemExit(f"yfinance devolveu histórico vazio para {symbol}")
+        # RuntimeError (não SystemExit) para não abortar callers em lote
+        # como scripts/populate_br.py.
+        raise RuntimeError(f"yfinance devolveu histórico vazio para {symbol}")
 
     with sqlite3.connect(db) as conn:
         upsert_company(conn, entry, currency)

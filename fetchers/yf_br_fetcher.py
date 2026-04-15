@@ -46,13 +46,65 @@ def _yf_symbol(ticker: str) -> str:
     return ticker if ticker.endswith(".SA") else f"{ticker}.SA"
 
 
+def _fetch_dividends_resilient(tk, ticker: str):
+    """Obtém dividendos com cascata de estratégias, resiliente a versões do yfinance.
+
+    Bug conhecido em yfinance ~0.2.40–0.2.55: `tk.dividends` pode levantar
+    `'PriceHistory' object has no attribute '_dividends'` quando o estado
+    interno do Ticker não foi inicializado. Solução: fallback em cascata.
+
+    Devolve (series | None, strategy_name).
+    """
+    # Estratégia 1: API directa (caminho rápido quando funciona).
+    try:
+        d = tk.dividends
+        if d is not None and len(d) > 0:
+            return d, "tk.dividends"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "tk.dividends", "err": str(exc)})
+
+    # Estratégia 2: history(max, actions=True) força lazy-load correcto
+    # e devolve os dividendos como coluna.
+    try:
+        h = tk.history(period="max", actions=True, auto_adjust=False)
+        if h is not None and "Dividends" in h.columns:
+            d = h["Dividends"]
+            d = d[d > 0]
+            if len(d) > 0:
+                return d, "history_actions"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "history_actions", "err": str(exc)})
+
+    # Estratégia 3: tk.actions dataframe (última tentativa).
+    try:
+        a = tk.actions
+        if a is not None and "Dividends" in a.columns:
+            d = a["Dividends"]
+            d = d[d > 0]
+            if len(d) > 0:
+                return d, "tk.actions"
+    except Exception as exc:  # noqa: BLE001
+        _log({"event": "yf_dividends_strategy_failed", "ticker": ticker,
+              "strategy": "tk.actions", "err": str(exc)})
+
+    return None, "none"
+
+
 def fetch(ticker: str, period: str = "1y"):
     sym = _yf_symbol(ticker)
     tk = yf.Ticker(sym)
     # auto_adjust=False para preservar Close unadjusted; as colunas Dividends
     # e Stock Splits são os eventos que precisamos para computar TR nós.
     hist = tk.history(period=period, auto_adjust=False)
-    divs_series = tk.dividends  # série completa histórica
+    divs_series, div_strategy = _fetch_dividends_resilient(tk, ticker)
+    if divs_series is None:
+        _log({"event": "yf_dividends_unavailable", "ticker": ticker,
+              "reason": "all strategies failed"})
+    else:
+        _log({"event": "yf_dividends_strategy_ok", "ticker": ticker,
+              "strategy": div_strategy, "count": len(divs_series)})
     return hist, divs_series
 
 

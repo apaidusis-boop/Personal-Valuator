@@ -63,6 +63,10 @@ def _is_fii(ticker: str) -> bool:
 
 
 def process(ticker: str) -> tuple[str, bool, str]:
+    # Apanha tanto Exception como SystemExit — alguns fetchers (p.ex.
+    # yfinance_fetcher quando devolve histórico vazio) chamam sys.exit /
+    # raise SystemExit, que não é subclasse de Exception. Sem isto o
+    # loop de populate_br abortava no primeiro ticker problemático.
     try:
         if _is_fii(ticker):
             fii_statusinvest_scraper.run(ticker)
@@ -74,7 +78,9 @@ def process(ticker: str) -> tuple[str, bool, str]:
         scoring_engine.run(ticker, "br")
         valuation.run(ticker, "br")
         return ticker, True, "ok"
-    except Exception as exc:  # noqa: BLE001
+    except KeyboardInterrupt:
+        raise
+    except (Exception, SystemExit) as exc:  # noqa: BLE001
         return ticker, False, f"{type(exc).__name__}: {exc}"
 
 
@@ -105,7 +111,7 @@ def main() -> None:
             r = process(t)
         except KeyboardInterrupt:
             raise
-        except Exception:
+        except (Exception, SystemExit):
             traceback.print_exc()
             r = (t, False, "unexpected")
         results.append(r)
