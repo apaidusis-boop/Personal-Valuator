@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>US Portfolio Report — 2026-04-15</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body { font-family: -apple-system, system-ui, Segoe UI, sans-serif;
+           max-width: 1400px; margin: 2em auto; padding: 0 1em; color: #1d1d1f; }
+    h1, h2 { color: #0b2545; }
+    h1 { border-bottom: 3px solid #0b2545; padding-bottom: 0.3em; }
+    .kpis { display: flex; gap: 1em; flex-wrap: wrap; margin: 1em 0 2em; }
+    .kpi { flex: 1; min-width: 180px; background: #f5f7fa; padding: 1em;
+           border-radius: 8px; border-left: 4px solid #0b2545; }
+    .kpi .label { font-size: 0.85em; color: #666; text-transform: uppercase;
+                  letter-spacing: 0.5px; }
+    .kpi .value { font-size: 1.6em; font-weight: 600; margin-top: 0.3em; }
+    .kpi .sub { font-size: 0.85em; color: #888; margin-top: 0.2em; }
+    table { width: 100%; border-collapse: collapse; margin: 1em 0;
+             font-size: 0.88em; }
+    th { background: #0b2545; color: white; padding: 0.6em 0.5em;
+         text-align: left; font-weight: 500; }
+    td { padding: 0.5em; border-bottom: 1px solid #eee; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    tr:hover { background: #f9fafb; }
+    .gain { color: #28a745; font-weight: 600; }
+    .loss { color: #dc3545; font-weight: 600; }
+    .pass { background: #28a745; color: white; padding: 2px 8px;
+            border-radius: 4px; font-size: 0.78em; font-weight: 600; }
+    .fail { background: #dc3545; color: white; padding: 2px 8px;
+            border-radius: 4px; font-size: 0.78em; font-weight: 600; }
+    .na   { background: #adb5bd; color: white; padding: 2px 8px;
+            border-radius: 4px; font-size: 0.78em; font-weight: 600; }
+    .screen td { text-align: center; font-size: 1.2em; padding: 0.4em; }
+    .note { background: #fff3cd; border-left: 4px solid #ffc107;
+            padding: 0.8em 1em; margin: 1em 0; border-radius: 4px;
+            font-size: 0.9em; }
+    .footer { color: #999; font-size: 0.8em; margin-top: 3em;
+              text-align: center; padding: 1em 0; border-top: 1px solid #eee; }
+  </style>
+</head>
+<body>
+
+<h1>US Portfolio Report</h1>
+<p style="color:#666">Gerado em 2026-04-15 22:26. Fonte de holdings: export J.P. Morgan Securities.
+Scoring Buffett: <code>scoring/engine.py score_us()</code>. Fundamentals: yfinance <code>.info</code>.</p>
+
+<div class="kpis">
+  <div class="kpi">
+    <div class="label">Market Value</div>
+    <div class="value">$20,544</div>
+    <div class="sub">22 posições</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Cost Basis</div>
+    <div class="value">$16,132</div>
+  </div>
+  <div class="kpi">
+    <div class="label">P&amp;L Não Realizado</div>
+    <div class="value gain">+4,412</div>
+    <div class="sub">+27.35%</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Yield Efectivo</div>
+    <div class="value">2.07%</div>
+    <div class="sub">$426/ano est.</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Screen Buffett</div>
+    <div class="value">1 / 22</div>
+    <div class="sub">passam de 22 scoradas</div>
+  </div>
+</div>
+
+<div class="note">
+  <b>Como ler o screen Buffett.</b> Critérios: P/E ≤ 20, P/B ≤ 3, DY ≥ 2.5%,
+  ROE ≥ 15%, Aristocrat <i>ou</i> ≥ 10 anos de streak. Cada critério tem
+  verdict <b>pass / fail / n/a</b>. O score é a fração de pass sobre o total
+  de critérios aplicáveis (excluindo n/a). Passa o screen = <b>todos</b> os
+  critérios aplicáveis são pass.
+</div>
+
+<div>                            <div id="69c82beb-6419-4f1e-b0ad-dbb6749aafa4" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("69c82beb-6419-4f1e-b0ad-dbb6749aafa4")) {                    Plotly.newPlot(                        "69c82beb-6419-4f1e-b0ad-dbb6749aafa4",                        [{"hole":0.4,"labels":["Financials","Technology","Healthcare","Consumer Staples","REIT","Consumer Disc.","Energy","Holding","ETF","Communication"],"textinfo":"label+percent","values":[6387.4400000000005,3637.36,2401.0,2202.8,2191.02,1435.31,1343.3,477.54,362.7,105.1],"type":"pie"}],                        {"height":400,"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Aloca\u00e7\u00e3o por Sector"}},                        {"responsive": true}                    )                };            </script>        </div>
+
+<div>                            <div id="eb3af7ed-d485-455f-8b1c-81d2f7aee2a6" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("eb3af7ed-d485-455f-8b1c-81d2f7aee2a6")) {                    Plotly.newPlot(                        "eb3af7ed-d485-455f-8b1c-81d2f7aee2a6",                        [{"marker":{"color":"#2E86AB"},"text":["$2,401","$2,178","$2,109","$1,914","$1,899","$1,444","$1,343","$1,294","$1,093","$910","$759","$478","$425","$363","$343","$319","$277","$253","$248","$200","$190","$105"],"textposition":"outside","x":["JNJ","JPM","BLK","O","TSM","PG","TEN","AAPL","TSLA","GS","KO","BRK-B","XP","GREK","HD","BN","PLD","PLTR","TFC","NU","ACN","TTD"],"y":{"dtype":"f8","bdata":"AAAAAADCokBI4XoUrgOhQArXo3A9eqBAMzMzMzPpnUDNzMzMzK2dQDMzMzMzj5ZAMzMzMzP9lECamZmZmTiUQGZmZmZmEpFA16NwPQptjEAAAAAAALiHQHE9Ctej2H1AzczMzMyMekAzMzMzM6t2QI\u002fC9Shca3VAmpmZmZntc0DsUbgehUtxQBSuR+F6rG9AzczMzMz0bkCamZmZmfFoQKRwPQrXy2dAZmZmZmZGWkA="},"type":"bar"}],                        {"height":400,"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Market Value por Posi\u00e7\u00e3o"},"yaxis":{"title":{"text":"USD"}}},                        {"responsive": true}                    )                };            </script>        </div>
+
+<div>                            <div id="355ea1c6-c44f-4e72-8ca2-c6ce6643848a" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("355ea1c6-c44f-4e72-8ca2-c6ce6643848a")) {                    Plotly.newPlot(                        "355ea1c6-c44f-4e72-8ca2-c6ce6643848a",                        [{"marker":{"color":["#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#dc3545","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#28a745","#dc3545","#dc3545"]},"text":["+18","+32","+314","+7","+1387","+16","+506","+685","+533","+591","-1","+60","+78","+111","+51","+140","+58","+103","+82","+92","-109","-342"],"textposition":"outside","x":["JNJ","JPM","BLK","O","TSM","PG","TEN","AAPL","TSLA","GS","KO","BRK-B","XP","GREK","HD","BN","PLD","PLTR","TFC","NU","ACN","TTD"],"y":{"dtype":"f8","bdata":"MzMzMzMzMkAzMzMzM\u002fM\u002fQEjhehSum3NAmpmZmZmZHUBmZmZmZqyVQDMzMzMzMzBAhetRuB6df0CamZmZmWWFQIXrUbgeq4BAZmZmZmZ2gkDNzMzMzMzsv2ZmZmZmxk1AzczMzMxsU0DNzMzMzMxbQLgehetRWElAPQrXo3B9YUCkcD0K1yNNQClcj8L12FlAexSuR+F6VEDsUbgehQtXQD0K16NwXVvAMzMzMzNfdcA="},"type":"bar"}],                        {"height":400,"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"P&L N\u00e3o Realizado (USD)"},"yaxis":{"title":{"text":"USD"}}},                        {"responsive": true}                    )                };            </script>        </div>
+
+<h2>Posições</h2>
+<table>
+  <thead>
+    <tr>
+      <th>ticker</th><th>sector</th><th>nome</th>
+      <th>qty</th><th>mv</th><th>cost</th><th>pnl</th><th>pnl%</th>
+      <th>P/E</th><th>P/B</th><th>DY</th><th>ROE</th><th>streak</th>
+      <th>score</th><th>verdict</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+        <tr>
+          <td><b>JNJ</b></td>
+          <td>Healthcare</td>
+          <td>JOHNSON & JOHNSON COMMON STOCK</td>
+          <td class="num">10.0000</td>
+          <td class="num">$2,401.00</td>
+          <td class="num">$2,382.80</td>
+          <td class="num gain">+18.20</td>
+          <td class="num gain">+0.76%</td>
+          <td class="num">21.64</td>
+          <td class="num">7.04</td>
+          <td class="num">2.23%</td>
+          <td class="num">—</td>
+          <td class="num">65</td>
+          <td class="num">0.25</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>JPM</b></td>
+          <td>Financials</td>
+          <td>JPMORGAN CHASE & CO</td>
+          <td class="num">7.0000</td>
+          <td class="num">$2,177.84</td>
+          <td class="num">$2,145.89</td>
+          <td class="num gain">+31.95</td>
+          <td class="num gain">+1.49%</td>
+          <td class="num">14.64</td>
+          <td class="num">2.41</td>
+          <td class="num">1.93%</td>
+          <td class="num">16.47%</td>
+          <td class="num">43</td>
+          <td class="num">0.80</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>BLK</b></td>
+          <td>Financials</td>
+          <td>BLACKROCK INC COMMON STOCK</td>
+          <td class="num">2.0000</td>
+          <td class="num">$2,109.12</td>
+          <td class="num">$1,795.39</td>
+          <td class="num gain">+313.73</td>
+          <td class="num gain">+17.47%</td>
+          <td class="num">26.48</td>
+          <td class="num">2.92</td>
+          <td class="num">2.17%</td>
+          <td class="num">—</td>
+          <td class="num">24</td>
+          <td class="num">0.50</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>O</b></td>
+          <td>REIT</td>
+          <td>REALTY INCOME CORP</td>
+          <td class="num">30.0000</td>
+          <td class="num">$1,914.30</td>
+          <td class="num">$1,906.90</td>
+          <td class="num gain">+7.40</td>
+          <td class="num gain">+0.39%</td>
+          <td class="num">54.49</td>
+          <td class="num">1.51</td>
+          <td class="num">5.07%</td>
+          <td class="num">2.70%</td>
+          <td class="num">33</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>TSM</b></td>
+          <td>Technology</td>
+          <td>TAIWAN SEMICONDUCTOR MFG CO LTD-SPO</td>
+          <td class="num">5.0000</td>
+          <td class="num">$1,899.45</td>
+          <td class="num">$512.35</td>
+          <td class="num gain">+1,387.10</td>
+          <td class="num gain">+270.73%</td>
+          <td class="num">36.12</td>
+          <td class="num">57.52</td>
+          <td class="num">92.00%</td>
+          <td class="num">35.06%</td>
+          <td class="num">23</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>PG</b></td>
+          <td>Consumer Staples</td>
+          <td>PROCTER & GAMBLE CO</td>
+          <td class="num">10.0000</td>
+          <td class="num">$1,443.80</td>
+          <td class="num">$1,427.60</td>
+          <td class="num gain">+16.20</td>
+          <td class="num gain">+1.13%</td>
+          <td class="num">21.22</td>
+          <td class="num">6.38</td>
+          <td class="num">2.93%</td>
+          <td class="num">31.56%</td>
+          <td class="num">65</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>TEN</b></td>
+          <td>Energy</td>
+          <td>TSAKOS ENERGY NAVIGATION LIMITED CO</td>
+          <td class="num">35.0000</td>
+          <td class="num">$1,343.30</td>
+          <td class="num">$837.48</td>
+          <td class="num gain">+505.82</td>
+          <td class="num gain">+60.40%</td>
+          <td class="num">8.66</td>
+          <td class="num">0.62</td>
+          <td class="num">2.61%</td>
+          <td class="num">9.09%</td>
+          <td class="num">24</td>
+          <td class="num">0.80</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>AAPL</b></td>
+          <td>Technology</td>
+          <td>APPLE INC</td>
+          <td class="num">5.0000</td>
+          <td class="num">$1,294.15</td>
+          <td class="num">$609.45</td>
+          <td class="num gain">+684.70</td>
+          <td class="num gain">+112.35%</td>
+          <td class="num">33.64</td>
+          <td class="num">44.25</td>
+          <td class="num">40.00%</td>
+          <td class="num">1.52%</td>
+          <td class="num">15</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>TSLA</b></td>
+          <td>Consumer Disc.</td>
+          <td>TESLA INC COMMON STOCK</td>
+          <td class="num">3.0000</td>
+          <td class="num">$1,092.60</td>
+          <td class="num">$559.21</td>
+          <td class="num gain">+533.39</td>
+          <td class="num gain">+95.38%</td>
+          <td class="num">359.17</td>
+          <td class="num">17.88</td>
+          <td class="num">—</td>
+          <td class="num">4.93%</td>
+          <td class="num">—</td>
+          <td class="num">0.00</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>GS</b></td>
+          <td>Financials</td>
+          <td>GOLDMAN SACHS GROUP INC</td>
+          <td class="num">1.0000</td>
+          <td class="num">$909.63</td>
+          <td class="num">$318.83</td>
+          <td class="num gain">+590.80</td>
+          <td class="num gain">+185.30%</td>
+          <td class="num">16.43</td>
+          <td class="num">2.52</td>
+          <td class="num">1.98%</td>
+          <td class="num">13.86%</td>
+          <td class="num">28</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>KO</b></td>
+          <td>Consumer Staples</td>
+          <td>COCA COLA COMPANY (THE)</td>
+          <td class="num">10.0000</td>
+          <td class="num">$759.00</td>
+          <td class="num">$759.90</td>
+          <td class="num loss">-0.90</td>
+          <td class="num loss">-0.12%</td>
+          <td class="num">24.78</td>
+          <td class="num">10.07</td>
+          <td class="num">2.71%</td>
+          <td class="num">43.32%</td>
+          <td class="num">65</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>BRK-B</b></td>
+          <td>Holding</td>
+          <td>BERKSHIRE HATHAWAY INC DEL CL B</td>
+          <td class="num">1.0000</td>
+          <td class="num">$477.54</td>
+          <td class="num">$417.99</td>
+          <td class="num gain">+59.55</td>
+          <td class="num gain">+14.25%</td>
+          <td class="num">15.32</td>
+          <td class="num">0.00</td>
+          <td class="num">—</td>
+          <td class="num">9.81%</td>
+          <td class="num">—</td>
+          <td class="num">0.67</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>XP</b></td>
+          <td>Financials</td>
+          <td>XP INC CLASS A COMMON STOCK</td>
+          <td class="num">20.0000</td>
+          <td class="num">$424.80</td>
+          <td class="num">$347.10</td>
+          <td class="num gain">+77.70</td>
+          <td class="num gain">+22.39%</td>
+          <td class="num">10.77</td>
+          <td class="num">2.30</td>
+          <td class="num">85.00%</td>
+          <td class="num">23.71%</td>
+          <td class="num">3</td>
+          <td class="num">0.80</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>GREK</b></td>
+          <td>ETF</td>
+          <td>GLOBAL X FDS GLOBAL X MSCI GREECE E</td>
+          <td class="num">5.0000</td>
+          <td class="num">$362.70</td>
+          <td class="num">$251.50</td>
+          <td class="num gain">+111.20</td>
+          <td class="num gain">+44.21%</td>
+          <td class="num">11.55</td>
+          <td class="num">—</td>
+          <td class="num">3.59%</td>
+          <td class="num">—</td>
+          <td class="num">15</td>
+          <td class="num">1.00</td>
+          <td><span class="pass">PASS</span></td>
+        </tr>
+
+        <tr>
+          <td><b>HD</b></td>
+          <td>Consumer Disc.</td>
+          <td>HOME DEPOT INC</td>
+          <td class="num">1.0000</td>
+          <td class="num">$342.71</td>
+          <td class="num">$292.02</td>
+          <td class="num gain">+50.69</td>
+          <td class="num gain">+17.36%</td>
+          <td class="num">23.78</td>
+          <td class="num">26.29</td>
+          <td class="num">2.72%</td>
+          <td class="num">1.46%</td>
+          <td class="num">40</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>BN</b></td>
+          <td>Financials</td>
+          <td>BROOKFIELD CORP VTG SHS CL A</td>
+          <td class="num">7.0000</td>
+          <td class="num">$318.85</td>
+          <td class="num">$178.93</td>
+          <td class="num gain">+139.92</td>
+          <td class="num gain">+78.20%</td>
+          <td class="num">94.92</td>
+          <td class="num">2.38</td>
+          <td class="num">61.00%</td>
+          <td class="num">1.95%</td>
+          <td class="num">40</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>PLD</b></td>
+          <td>REIT</td>
+          <td>PROLOGIS INC</td>
+          <td class="num">2.0000</td>
+          <td class="num">$276.72</td>
+          <td class="num">$218.44</td>
+          <td class="num gain">+58.28</td>
+          <td class="num gain">+26.68%</td>
+          <td class="num">39.15</td>
+          <td class="num">2.44</td>
+          <td class="num">3.09%</td>
+          <td class="num">6.13%</td>
+          <td class="num">30</td>
+          <td class="num">0.60</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>PLTR</b></td>
+          <td>Technology</td>
+          <td>PALANTIR TECHNOLOGIES INC CLASS A C</td>
+          <td class="num">1.8673</td>
+          <td class="num">$253.39</td>
+          <td class="num">$150.00</td>
+          <td class="num gain">+103.39</td>
+          <td class="num gain">+68.93%</td>
+          <td class="num">228.99</td>
+          <td class="num">45.96</td>
+          <td class="num">—</td>
+          <td class="num">25.98%</td>
+          <td class="num">—</td>
+          <td class="num">0.33</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>TFC</b></td>
+          <td>Financials</td>
+          <td>TRUIST FINANCIAL CORPORATION COMMON</td>
+          <td class="num">5.0000</td>
+          <td class="num">$247.65</td>
+          <td class="num">$165.73</td>
+          <td class="num gain">+81.92</td>
+          <td class="num gain">+49.43%</td>
+          <td class="num">13.06</td>
+          <td class="num">1.04</td>
+          <td class="num">4.20%</td>
+          <td class="num">8.24%</td>
+          <td class="num">40</td>
+          <td class="num">0.80</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>NU</b></td>
+          <td>Financials</td>
+          <td>NU HOLDINGS LTD CLASS A ORDINARY SH</td>
+          <td class="num">13.0000</td>
+          <td class="num">$199.55</td>
+          <td class="num">$107.37</td>
+          <td class="num gain">+92.18</td>
+          <td class="num gain">+85.85%</td>
+          <td class="num">26.56</td>
+          <td class="num">6.63</td>
+          <td class="num">—</td>
+          <td class="num">30.28%</td>
+          <td class="num">—</td>
+          <td class="num">0.33</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>ACN</b></td>
+          <td>Technology</td>
+          <td>ACCENTURE PLC IRELAND SHS CL A</td>
+          <td class="num">1.0000</td>
+          <td class="num">$190.37</td>
+          <td class="num">$299.83</td>
+          <td class="num loss">-109.46</td>
+          <td class="num loss">-36.51%</td>
+          <td class="num">15.91</td>
+          <td class="num">3.82</td>
+          <td class="num">3.42%</td>
+          <td class="num">24.76%</td>
+          <td class="num">22</td>
+          <td class="num">0.80</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+
+        <tr>
+          <td><b>TTD</b></td>
+          <td>Communication</td>
+          <td>TRADE DESK INC (THE) CLASS A COMMON</td>
+          <td class="num">5.0000</td>
+          <td class="num">$105.10</td>
+          <td class="num">$447.05</td>
+          <td class="num loss">-341.95</td>
+          <td class="num loss">-76.49%</td>
+          <td class="num">24.63</td>
+          <td class="num">4.25</td>
+          <td class="num">—</td>
+          <td class="num">16.32%</td>
+          <td class="num">—</td>
+          <td class="num">0.33</td>
+          <td><span class="fail">FAIL</span></td>
+        </tr>
+  </tbody>
+</table>
+
+<h2>Screen Buffett — detalhe por critério</h2>
+
+        <table class="screen">
+          <thead>
+            <tr><th>ticker</th><th>pe</th><th>pb</th><th>dividend yield</th><th>roe</th><th>aristocrat</th><th>score</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><b>JNJ</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>❌</td><td title='ROE em falta'>⚪</td><td title=''>✅</td><td class='num'>0.25</td></tr><tr><td><b>JPM</b></td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.80</td></tr><tr><td><b>BLK</b></td><td title=''>❌</td><td title=''>✅</td><td title=''>❌</td><td title='ROE em falta'>⚪</td><td title=''>✅</td><td class='num'>0.50</td></tr><tr><td><b>O</b></td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>TSM</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>PG</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>TEN</b></td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.80</td></tr><tr><td><b>AAPL</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>TSLA</b></td><td title=''>❌</td><td title=''>❌</td><td title='DY em falta'>⚪</td><td title=''>❌</td><td title='histórico de dividendos em falta'>⚪</td><td class='num'>0.00</td></tr><tr><td><b>GS</b></td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>KO</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>BRK-B</b></td><td title=''>✅</td><td title=''>✅</td><td title='DY em falta'>⚪</td><td title=''>❌</td><td title='histórico de dividendos em falta'>⚪</td><td class='num'>0.67</td></tr><tr><td><b>XP</b></td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td class='num'>0.80</td></tr><tr><td><b>GREK</b></td><td title=''>✅</td><td title='P/B em falta'>⚪</td><td title=''>✅</td><td title='ROE em falta'>⚪</td><td title=''>✅</td><td class='num'>1.00</td></tr><tr><td><b>HD</b></td><td title=''>❌</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>BN</b></td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>PLD</b></td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.60</td></tr><tr><td><b>PLTR</b></td><td title=''>❌</td><td title=''>❌</td><td title='DY em falta'>⚪</td><td title=''>✅</td><td title='histórico de dividendos em falta'>⚪</td><td class='num'>0.33</td></tr><tr><td><b>TFC</b></td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td class='num'>0.80</td></tr><tr><td><b>NU</b></td><td title=''>❌</td><td title=''>❌</td><td title='DY em falta'>⚪</td><td title=''>✅</td><td title='histórico de dividendos em falta'>⚪</td><td class='num'>0.33</td></tr><tr><td><b>ACN</b></td><td title=''>✅</td><td title=''>❌</td><td title=''>✅</td><td title=''>✅</td><td title=''>✅</td><td class='num'>0.80</td></tr><tr><td><b>TTD</b></td><td title=''>❌</td><td title=''>❌</td><td title='DY em falta'>⚪</td><td title=''>✅</td><td title='histórico de dividendos em falta'>⚪</td><td class='num'>0.33</td></tr>
+          </tbody>
+        </table>
+
+<div class="footer">
+  Personal-Valuator · investment-intelligence · Claude Code generated
+</div>
+
+</body>
+</html>
