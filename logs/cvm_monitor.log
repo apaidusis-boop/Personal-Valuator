@@ -1,0 +1,3 @@
+{"ts": "2026-04-15T09:36:12Z", "event": "cvm_fetch_start", "ticker": "ITSA4", "year": 2026}
+{"ts": "2026-04-15T09:36:36Z", "event": "cvm_filtered", "ticker": "ITSA4", "total_rows": 14024, "matches": 6}
+{"ts": "2026-04-15T09:36:36Z", "event": "cvm_persisted", "ticker": "ITSA4", "inserted": 6, "already_in_db": 0}

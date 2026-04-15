@@ -1,0 +1,7 @@
+{"ts": "2026-04-15T08:41:02Z", "event": "fetch_start", "ticker": "ITSA4"}
+{"ts": "2026-04-15T08:45:13Z", "event": "fetch_start", "ticker": "ITSA4"}
+{"ts": "2026-04-15T08:45:14Z", "event": "raw_dumped", "ticker": "ITSA4", "path": "C:\\Users\\paidu\\investment-intelligence\\logs\\brapi_raw_ITSA4_20260415_114514.json"}
+{"ts": "2026-04-15T08:45:14Z", "event": "persisted", "ticker": "ITSA4", "prices_rows": 63, "fundamentals_period": "2026-04-15", "fundamentals": {"eps": 1.4770441, "bvps": null, "roe": null, "pe": 10.04062288422478, "pb": null, "dy": null, "net_debt_ebitda": null, "dividend_streak_years": null, "is_aristocrat": null}}
+{"ts": "2026-04-15T15:55:05Z", "event": "fetch_start", "ticker": "BBSE3"}
+{"ts": "2026-04-15T15:55:12Z", "event": "raw_dumped", "ticker": "BBSE3", "path": "C:\\Users\\paidu\\investment-intelligence\\logs\\brapi_raw_BBSE3_20260415_185512.json"}
+{"ts": "2026-04-15T15:55:12Z", "event": "persisted", "ticker": "BBSE3", "prices_rows": 1, "fundamentals_period": "2026-04-15", "fundamentals": {"eps": 4.6452085, "bvps": null, "roe": null, "pe": 7.545423232584172, "pb": null, "dy": null, "net_debt_ebitda": null, "dividend_streak_years": null, "is_aristocrat": null}}
