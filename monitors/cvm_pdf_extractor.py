@@ -45,15 +45,27 @@ def _log(event: dict) -> None:
     print(line)
 
 
-def download_pdf(url: str, target: Path) -> None:
-    r = requests.get(url, headers=HEADERS, timeout=60, allow_redirects=True)
-    r.raise_for_status()
-    # CVM às vezes devolve HTML de erro com status 200 — sanity check
-    if not r.content.startswith(b"%PDF"):
-        snippet = r.content[:200].decode("latin-1", errors="replace")
-        raise RuntimeError(f"resposta não é PDF (começa com: {snippet!r})")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_bytes(r.content)
+def download_pdf(url: str, target: Path, attempts: int = 3, base_timeout: int = 45) -> None:
+    """Download com retry exponencial. CVM RAD é conhecido por timeouts/SSL
+    transitórios. Aumenta timeout a cada tentativa."""
+    import time as _t
+    last_exc: Exception | None = None
+    for i in range(attempts):
+        timeout = base_timeout * (i + 1)
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+            r.raise_for_status()
+            if not r.content.startswith(b"%PDF"):
+                snippet = r.content[:200].decode("latin-1", errors="replace")
+                raise RuntimeError(f"resposta não é PDF (começa com: {snippet!r})")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(r.content)
+            return
+        except Exception as e:  # noqa: BLE001
+            last_exc = e
+            if i < attempts - 1:
+                _t.sleep(2 ** i * 3)  # 3s, 6s, 12s
+    raise last_exc or RuntimeError("download failed")
 
 
 def extract_text(pdf_path: Path) -> str:

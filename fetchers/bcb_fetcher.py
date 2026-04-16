@@ -29,14 +29,15 @@ LOG_DIR = ROOT / "logs"
 
 BCB_BASE = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{code}/dados"
 
-# series_id → (bcb_code, scale)
+# series_id → (bcb_code, scale, inception_date)
 # scale: 1.0 = valor directo; 0.01 = valor vem em % e queremos fracção
-SGS_MAP: dict[str, tuple[int, float]] = {
-    "SELIC_DAILY":  (11,  0.01),   # % a.d. → fracção diária
-    "SELIC_META":   (432, 1.0),    # % a.a. mantém-se em % a.a.
-    "CDI_DAILY":    (12,  0.01),
-    "IPCA_MONTHLY": (433, 0.01),
-    "USDBRL_PTAX":  (1,   1.0),
+# inception_date: dd/MM/yyyy — usado com --full para puxar desde o início da série
+SGS_MAP: dict[str, tuple[int, float, str]] = {
+    "SELIC_DAILY":  (11,  0.01, "04/06/1986"),   # % a.d. → fracção diária
+    "SELIC_META":   (432, 1.0,  "05/03/1999"),   # Plano Real + metas
+    "CDI_DAILY":    (12,  0.01, "04/03/1986"),
+    "IPCA_MONTHLY": (433, 0.01, "01/01/1980"),
+    "USDBRL_PTAX":  (1,   1.0,  "28/11/1984"),
 }
 
 
@@ -90,40 +91,71 @@ def persist(series_id: str, rows: list[dict], scale: float, source: str) -> int:
     return count
 
 
-def run(series_id: str, days: int = 365) -> int:
+def run(series_id: str, days: int | None = 365, since: str | None = None) -> int:
+    """Puxa série. Se `since` (dd/MM/yyyy) for dado, ignora `days`.
+    BCB SGS às vezes falha em ranges muito grandes; este wrapper chunka
+    em janelas de ~10 anos quando o range ultrapassa isso."""
     if series_id not in SGS_MAP:
         raise SystemExit(f"série desconhecida: {series_id}. Conhecidas: {list(SGS_MAP)}")
-    code, scale = SGS_MAP[series_id]
+    code, scale, _ = SGS_MAP[series_id]
     end_dt = datetime.now()
-    start_dt = end_dt - timedelta(days=days)
-    start = start_dt.strftime("%d/%m/%Y")
-    end = end_dt.strftime("%d/%m/%Y")
+    start_dt = (datetime.strptime(since, "%d/%m/%Y") if since
+                else end_dt - timedelta(days=days or 365))
 
-    _log({"event": "bcb_fetch_start", "series_id": series_id, "code": code, "start": start, "end": end})
-    rows = fetch_sgs(code, start, end)
-    n = persist(series_id, rows, scale, source=f"bcb_sgs:{code}")
-    _log({"event": "bcb_fetch_done", "series_id": series_id, "rows": n,
-          "first": rows[0] if rows else None, "last": rows[-1] if rows else None})
-    return n
+    # chunking: janelas de 10 anos. SGS aceita ranges maiores para séries
+    # pequenas (IPCA mensal), mas diárias longas podem truncar silent.
+    chunk_days = 3650
+    total = 0
+    cur = start_dt
+    first_row = None
+    last_row = None
+    while cur < end_dt:
+        chunk_end = min(cur + timedelta(days=chunk_days), end_dt)
+        start = cur.strftime("%d/%m/%Y")
+        end = chunk_end.strftime("%d/%m/%Y")
+        _log({"event": "bcb_fetch_start", "series_id": series_id, "code": code,
+              "start": start, "end": end})
+        try:
+            rows = fetch_sgs(code, start, end)
+        except Exception as e:
+            _log({"event": "bcb_fetch_chunk_error", "series_id": series_id,
+                  "start": start, "end": end, "error": str(e)[:120]})
+            rows = []
+        if rows:
+            if first_row is None:
+                first_row = rows[0]
+            last_row = rows[-1]
+        total += persist(series_id, rows, scale, source=f"bcb_sgs:{code}")
+        cur = chunk_end + timedelta(days=1)
+
+    _log({"event": "bcb_fetch_done", "series_id": series_id, "rows": total,
+          "first": first_row, "last": last_row})
+    return total
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("series_id", nargs="?")
     ap.add_argument("--days", type=int, default=365)
+    ap.add_argument("--since", default=None, help="dd/MM/yyyy explícito")
     ap.add_argument("--all", action="store_true", help="corre todas as séries conhecidas")
+    ap.add_argument("--full", action="store_true",
+                    help="puxa desde inception_date (ignora --days e --since)")
     args = ap.parse_args()
 
-    if args.all:
-        for sid in SGS_MAP:
-            try:
-                run(sid, days=args.days)
-            except Exception as e:
-                _log({"event": "bcb_fetch_error", "series_id": sid, "error": str(e)})
-    else:
-        if not args.series_id:
-            ap.error("indicar series_id ou --all")
-        run(args.series_id, days=args.days)
+    targets = list(SGS_MAP) if args.all or args.full else ([args.series_id] if args.series_id else [])
+    if not targets:
+        ap.error("indicar series_id ou --all ou --full")
+
+    for sid in targets:
+        try:
+            if args.full:
+                since = SGS_MAP[sid][2]
+                run(sid, since=since)
+            else:
+                run(sid, days=args.days, since=args.since)
+        except Exception as e:
+            _log({"event": "bcb_fetch_error", "series_id": sid, "error": str(e)})
 
 
 if __name__ == "__main__":
