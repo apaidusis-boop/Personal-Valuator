@@ -28,6 +28,12 @@ echo [CVM] cvm_monitor.py >> "%LOG%"
 echo CVM exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [CVM-PDF] cvm_pdf_extractor.py --limit 20  (best-effort, CVM RAD flaky) >> "%LOG%"
+"%PY%" monitors\cvm_pdf_extractor.py --limit 20 >> "%LOG%" 2>&1
+REM não propagamos exit code — extractor é best-effort
+echo CVM-PDF exit code (ignored): %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [US] daily_update_us.py >> "%LOG%"
 "%PY%" scripts\daily_update_us.py >> "%LOG%" 2>&1
 echo US exit code: %errorlevel% >> "%LOG%"
@@ -51,6 +57,16 @@ echo. >> "%LOG%"
 echo [NOTIFY] notify_events.py --hours 48 >> "%LOG%"
 "%PY%" scripts\notify_events.py --hours 48 >> "%LOG%" 2>&1
 echo NOTIFY exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [CSV] export_macro_csv.py >> "%LOG%"
+"%PY%" scripts\export_macro_csv.py >> "%LOG%" 2>&1
+echo CSV exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [ROTATE] rotate_logs.py --days 30 >> "%LOG%"
+"%PY%" scripts\rotate_logs.py --days 30 >> "%LOG%" 2>&1
+echo ROTATE exit code: %errorlevel% >> "%LOG%"
 
 echo Done %time% >> "%LOG%"
 endlocal
