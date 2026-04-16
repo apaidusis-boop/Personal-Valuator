@@ -6,3 +6,10 @@
 {"ts": "2026-04-15T11:29:23Z", "event": "extract_result", "event_id": 3, "ticker": "ITSA4", "date": "2026-02-09", "kind": "comunicado", "ok": true, "msg": "1709 chars"}
 {"ts": "2026-04-15T11:30:00Z", "event": "extract_result", "event_id": 2, "ticker": "ITSA4", "date": "2026-01-27", "kind": "comunicado", "ok": true, "msg": "39198 chars"}
 {"ts": "2026-04-15T11:30:01Z", "event": "extract_done", "ok": 6, "fail": 0}
+{"ts": "2026-04-16T17:24:20Z", "event": "extract_start", "pending": 5}
+{"ts": "2026-04-16T17:25:21Z", "event": "extract_result", "event_id": 134, "ticker": "PETR4", "date": "2026-04-09", "kind": "comunicado", "ok": false, "msg": "ReadTimeout: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Read timed out. (read timeout=60)"}
+{"ts": "2026-04-16T17:26:22Z", "event": "extract_result", "event_id": 133, "ticker": "PETR4", "date": "2026-04-08", "kind": "comunicado", "ok": false, "msg": "ReadTimeout: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Read timed out. (read timeout=60)"}
+{"ts": "2026-04-16T17:27:23Z", "event": "extract_result", "event_id": 141, "ticker": "PETR4", "date": "2026-04-06", "kind": "fato_relevante", "ok": false, "msg": "ReadTimeout: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Read timed out. (read timeout=60)"}
+{"ts": "2026-04-16T17:28:24Z", "event": "extract_result", "event_id": 132, "ticker": "PETR4", "date": "2026-04-06", "kind": "comunicado", "ok": false, "msg": "ReadTimeout: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Read timed out. (read timeout=60)"}
+{"ts": "2026-04-16T17:29:25Z", "event": "extract_result", "event_id": 131, "ticker": "PETR4", "date": "2026-04-06", "kind": "comunicado", "ok": false, "msg": "ReadTimeout: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Read timed out. (read timeout=60)"}
+{"ts": "2026-04-16T17:29:25Z", "event": "extract_done", "ok": 0, "fail": 5}

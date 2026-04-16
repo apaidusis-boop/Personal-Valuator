@@ -28,3 +28,13 @@
 {"ts": "2026-04-15T16:50:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
 {"ts": "2026-04-15T16:50:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "14/02/2026", "end": "15/04/2026"}
 {"ts": "2026-04-15T16:50:10Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "15/04/2026", "valor": "4.9928"}}
+{"ts": "2026-04-16T16:33:45Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:47Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T16:33:47Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:48Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "15/02/2026", "valor": "15.00"}, "last": {"data": "16/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-16T16:33:48Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:49Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T16:33:49Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:50Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-16T16:33:50Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:51Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}

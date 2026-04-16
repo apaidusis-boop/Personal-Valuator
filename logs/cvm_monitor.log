@@ -1,3 +1,30 @@
 {"ts": "2026-04-15T09:36:12Z", "event": "cvm_fetch_start", "ticker": "ITSA4", "year": 2026}
 {"ts": "2026-04-15T09:36:36Z", "event": "cvm_filtered", "ticker": "ITSA4", "total_rows": 14024, "matches": 6}
 {"ts": "2026-04-15T09:36:36Z", "event": "cvm_persisted", "ticker": "ITSA4", "inserted": 6, "already_in_db": 0}
+{"ts": "2026-04-16T16:42:36Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["ITSA4"]}
+{"ts": "2026-04-16T16:45:24Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["ITSA4"]}
+{"ts": "2026-04-16T16:47:37Z", "event": "cvm_download_done", "year": 2026, "total_rows": 14024}
+{"ts": "2026-04-16T16:47:37Z", "event": "cvm_ticker_done", "ticker": "ITSA4", "matches": 6, "inserted": 0}
+{"ts": "2026-04-16T16:47:37Z", "event": "cvm_all_done", "year": 2026, "tickers": 1, "total_inserted": 0}
+{"ts": "2026-04-16T16:47:42Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_download_done", "year": 2026, "total_rows": 14024}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "PRIO3", "matches": 51, "inserted": 51}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "VALE3", "matches": 37, "inserted": 37}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "BBDC4", "matches": 12, "inserted": 12}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "ITSA4", "matches": 6, "inserted": 0}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "PETR4", "matches": 35, "inserted": 35}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "AXIA7", "matches": 8, "inserted": 8}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "CPLE3", "matches": 10, "inserted": 10}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "ALOS3", "matches": 11, "inserted": 11}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "B3SA3", "matches": 10, "inserted": 10}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "ENGI11", "matches": 10, "inserted": 10}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "ITUB4", "matches": 6, "inserted": 6}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "EQTL3", "matches": 18, "inserted": 18}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "MOTV3", "matches": 11, "inserted": 11}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "MULT3", "matches": 9, "inserted": 9}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "PGMN3", "matches": 9, "inserted": 9}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "RAPT4", "matches": 6, "inserted": 6}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "RDOR3", "matches": 4, "inserted": 4}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "RENT3", "matches": 12, "inserted": 12}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_ticker_done", "ticker": "SUZB3", "matches": 10, "inserted": 10}
+{"ts": "2026-04-16T16:47:45Z", "event": "cvm_all_done", "year": 2026, "tickers": 21, "total_inserted": 269}
