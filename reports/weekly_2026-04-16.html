@@ -1,0 +1,172 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8"><title>Weekly Report 2026-04-16</title><style>
+:root {
+  --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8;
+  --card: #1e293b; --border: #334155;
+  --accent: #3b82f6; --pass: #10b981; --fail: #ef4444; --na: #6b7280;
+  --warn: #f59e0b; --buy: #10b981; --hold: #f59e0b; --sell: #ef4444;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f8fafc; --fg: #0f172a; --muted: #64748b;
+    --card: #ffffff; --border: #e2e8f0;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg); color: var(--fg);
+  max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; line-height: 1.5;
+}
+h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+h2 { font-size: 1.15rem; margin: 2rem 0 .75rem;
+     padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; color: var(--muted); }
+.subtitle { color: var(--muted); margin-bottom: 2rem; font-size: .9rem; }
+.card { background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 1rem 1.25rem; margin: .75rem 0; overflow-x: auto; }
+.stats { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.stat { text-align: center; }
+.stat .val { font-size: 1.6rem; font-weight: 700; }
+.stat .lbl { font-size: .75rem; color: var(--muted); text-transform: uppercase; }
+table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 600; text-transform: uppercase;
+  font-size: .7rem; letter-spacing: .04em; position: sticky; top: 0; background: var(--card); }
+.badge { display: inline-block; padding: .1rem .45rem; border-radius: 4px;
+  font-size: .75rem; font-weight: 600; }
+.b-pass { background: #10b98122; color: var(--pass); }
+.b-fail { background: #ef444422; color: var(--fail); }
+.b-na { background: #6b728022; color: var(--na); }
+.b-buy { background: #10b98122; color: var(--buy); }
+.b-hold { background: #f59e0b22; color: var(--hold); }
+.b-sell { background: #ef444422; color: var(--sell); }
+.b-gap { background: #ef444422; color: var(--fail); }
+.b-ok { background: #10b98122; color: var(--pass); }
+.b-warn { background: #f59e0b22; color: var(--warn); }
+.event { padding: .4rem 0; border-bottom: 1px dashed var(--border); font-size: .85rem; }
+.event:last-child { border-bottom: none; }
+.event .src { color: var(--muted); font-size: .75rem; }
+.num-r { text-align: right; }
+.muted { color: var(--muted); }
+footer { color: var(--muted); font-size: .75rem; margin-top: 2rem;
+  padding-top: .75rem; border-top: 1px solid var(--border); text-align: center; }
+</style></head><body><h1>Weekly Report — 2026-04-16</h1>
+<div class="subtitle">Investment Intelligence · 60 tickers BR + 0 tickers US · Gerado 04:19</div>
+<div class="stats">
+<div class="stat"><div class="val">4</div><div class="lbl">Holdings BR</div></div>
+<div class="stat"><div class="val">5</div><div class="lbl">FIIs</div></div>
+<div class="stat"><div class="val">0</div><div class="lbl">Holdings US</div></div>
+<div class="stat"><div class="val" style="color:var(--pass)">16</div><div class="lbl">Passam screen</div></div>
+<div class="stat"><div class="val" style="color:var(--buy)">4</div><div class="lbl">BUY (DDM)</div></div>
+<div class="stat"><div class="val">0</div><div class="lbl">Eventos 7d</div></div>
+<div class="stat"><div class="val" style="color:var(--fail)">27</div><div class="lbl">Gaps dados</div></div>
+</div>
+<h2>Carteira BR — Acções</h2>
+<div class="card"><table><thead><tr><th>Ticker</th><th>Empresa</th><th>Sector</th><th>Preço</th><th>DY</th><th>Score</th><th>Screen</th><th>Fair Value</th><th>Upside</th><th>Verdict</th><th>Ev 7d</th></tr></thead><tbody>
+<tr><td><strong>BBDC4</strong></td><td>Bradesco PN</td><td>Banks</td><td class='num-r'>R$ 20,76</td><td class='num-r'>5.98%</td><td class='num-r'>0.50</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 19,32</td><td class='num-r'>-7.04%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>ITSA4</strong></td><td>Itaúsa PN</td><td>Holding</td><td class='num-r'>R$ 14,93</td><td class='num-r'>8.54%</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td><td class='num-r'>R$ 22,83</td><td class='num-r'>53.96%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>PRIO3</strong></td><td>PetroRio</td><td>Oil & Gas</td><td class='num-r'>R$ 63,53</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 0,19</td><td class='num-r'>-99.71%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>VALE3</strong></td><td>Vale</td><td>Mining</td><td class='num-r'>R$ 88,44</td><td class='num-r'>6.20%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 100,95</td><td class='num-r'>14.33%</td><td><span class="badge b-hold">HOLD</span></td><td class='num-r'></td></tr>
+</tbody></table></div>
+<h2>Carteira BR — FIIs</h2>
+<div class="card"><table><thead><tr><th>Ticker</th><th>FII</th><th>Segmento</th><th>Preço</th><th>DY 12m</th><th>P/VP</th><th>Streak</th><th>Score</th><th>Screen</th></tr></thead><tbody>
+<tr><td><strong>BTLG11</strong></td><td>BTG Logística</td><td>Logística</td><td class='num-r'>R$ 103,98</td><td class='num-r'>9.11%</td><td class='num-r'>1,01</td><td class='num-r'>48 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>PVBI11</strong></td><td>VBI Prime Properties</td><td>Corporativo</td><td class='num-r'>R$ 77,68</td><td class='num-r'>7.27%</td><td class='num-r'>0,71</td><td class='num-r'>2 m</td><td class='num-r'>0.50</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>RBRX11</strong></td><td>RBR X</td><td>Híbrido</td><td class='num-r'>R$ 8,70</td><td class='num-r'>12.50%</td><td class='num-r'>0,87</td><td class='num-r'>37 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>VGIR11</strong></td><td>Valora CRI</td><td>Papel (CRI)</td><td class='num-r'>R$ 9,75</td><td class='num-r'>15.53%</td><td class='num-r'>1,00</td><td class='num-r'>32 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>XPML11</strong></td><td>XP Malls</td><td>Shopping</td><td class='num-r'>R$ 111,42</td><td class='num-r'>10.13%</td><td class='num-r'>0,99</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+</tbody></table></div>
+<h2>Watchlist BR — Acções</h2>
+<div class="card"><table><thead><tr><th>Ticker</th><th>Empresa</th><th>Sector</th><th>Preço</th><th>DY</th><th>Score</th><th>Screen</th><th>Fair Value</th><th>Upside</th><th>Verdict</th><th>Ev 7d</th></tr></thead><tbody>
+<tr><td><strong>PETR4</strong></td><td>Petrobras</td><td>Oil & Gas</td><td class='num-r'>R$ 47,50</td><td class='num-r'>6.87%</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td><td class='num-r'>R$ 43,60</td><td class='num-r'>-8.95%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>PLPL3</strong></td><td>Plano & Plano</td><td>Consumer Disc.</td><td class='num-r'>R$ 13,13</td><td class='num-r'>3.55%</td><td class='num-r'>0.80</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 19,83</td><td class='num-r'>43.69%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>RDOR3</strong></td><td>Rede D'Or</td><td>Healthcare</td><td class='num-r'>R$ 39,91</td><td class='num-r'>10.07%</td><td class='num-r'>0.80</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 56,88</td><td class='num-r'>34.11%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>ITUB4</strong></td><td>Itaú Unibanco</td><td>Banks</td><td class='num-r'>R$ 47,01</td><td class='num-r'>6.77%</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 62,78</td><td class='num-r'>34.92%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>ALOS3</strong></td><td>Allos</td><td>Real Estate</td><td class='num-r'>R$ 33,56</td><td class='num-r'>6.54%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 21,00</td><td class='num-r'>-36.94%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>B3SA3</strong></td><td>B3</td><td>Financials</td><td class='num-r'>R$ 19,66</td><td class='num-r'>3.08%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 3,28</td><td class='num-r'>-83.35%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>MULT3</strong></td><td>Multiplan</td><td>Real Estate</td><td class='num-r'>R$ 34,53</td><td class='num-r'>2.32%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 13,55</td><td class='num-r'>-60.51%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>SUZB3</strong></td><td>Suzano</td><td>Materials</td><td class='num-r'>R$ 48,07</td><td class='num-r'>2.30%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 14,79</td><td class='num-r'>-69.50%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>TTEN3</strong></td><td>3Tentos</td><td>Consumer Staples</td><td class='num-r'>R$ 16,08</td><td class='num-r'>1.12%</td><td class='num-r'>0.60</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 4,94</td><td class='num-r'>-69.77%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>MOTV3</strong></td><td>Motiva</td><td>Industrials</td><td class='num-r'>R$ 17,56</td><td class='num-r'>2.77%</td><td class='num-r'>0.40</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 3,50</td><td class='num-r'>-80.04%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>PGMN3</strong></td><td>Pague Menos</td><td>Consumer Staples</td><td class='num-r'>R$ 5,86</td><td class='num-r'>4.39%</td><td class='num-r'>0.40</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 6,77</td><td class='num-r'>15.26%</td><td><span class="badge b-hold">HOLD</span></td><td class='num-r'></td></tr>
+<tr><td><strong>RENT3</strong></td><td>Localiza</td><td>Industrials</td><td class='num-r'>R$ 51,31</td><td class='num-r'>4.04%</td><td class='num-r'>0.40</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 26,41</td><td class='num-r'>-48.20%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>AXIA7</strong></td><td>Axia Energia</td><td>Utilities</td><td class='num-r'>R$ 64,20</td><td class='num-r'>—</td><td class='num-r'>0.33</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>EQTL3</strong></td><td>Equatorial</td><td>Utilities</td><td class='num-r'>R$ 44,96</td><td class='num-r'>5.07%</td><td class='num-r'>0.25</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 31,44</td><td class='num-r'>-30.20%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>RAPT4</strong></td><td>Randoncorp</td><td>Industrials</td><td class='num-r'>R$ 5,56</td><td class='num-r'>0.84%</td><td class='num-r'>0.25</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 0,08</td><td class='num-r'>-98.56%</td><td><span class="badge b-sell">OVER</span></td><td class='num-r'></td></tr>
+<tr><td><strong>BBAS3</strong></td><td>BBAS3</td><td>—</td><td class='num-r'>R$ 24,45</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>BBSE3</strong></td><td>BB Seguridade</td><td>Insurance</td><td class='num-r'>R$ 35,08</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>BRKM5</strong></td><td>BRKM5</td><td>—</td><td class='num-r'>R$ 9,38</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>CPLE3</strong></td><td>CPLE3</td><td>—</td><td class='num-r'>R$ 16,72</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>EGIE3</strong></td><td>EGIE3</td><td>—</td><td class='num-r'>R$ 38,17</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>EZTC3</strong></td><td>EZTC3</td><td>—</td><td class='num-r'>R$ 15,74</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>GMAT3</strong></td><td>GMAT3</td><td>—</td><td class='num-r'>R$ 4,84</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>KLBN4</strong></td><td>KLBN4</td><td>—</td><td class='num-r'>R$ 3,85</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>PNVL3</strong></td><td>PNVL3</td><td>—</td><td class='num-r'>R$ 14,67</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>SEER3</strong></td><td>SEER3</td><td>—</td><td class='num-r'>R$ 13,18</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>SIMH3</strong></td><td>SIMH3</td><td>—</td><td class='num-r'>R$ 11,45</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>SLCE3</strong></td><td>SLCE3</td><td>—</td><td class='num-r'>R$ 18,46</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>TIMS3</strong></td><td>TIMS3</td><td>—</td><td class='num-r'>R$ 27,21</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>TUPY3</strong></td><td>TUPY3</td><td>—</td><td class='num-r'>R$ 15,36</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>UNIP6</strong></td><td>UNIP6</td><td>—</td><td class='num-r'>R$ 63,68</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>VAMO3</strong></td><td>VAMO3</td><td>—</td><td class='num-r'>R$ 4,30</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>VIVA3</strong></td><td>VIVA3</td><td>—</td><td class='num-r'>R$ 27,39</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+<tr><td><strong>WIZC3</strong></td><td>WIZC3</td><td>—</td><td class='num-r'>R$ 9,53</td><td class='num-r'>—</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>—</td><td class='num-r'>—</td><td><span class="muted">—</span></td><td class='num-r'></td></tr>
+</tbody></table></div>
+<h2>Watchlist BR — FIIs</h2>
+<div class="card"><table><thead><tr><th>Ticker</th><th>FII</th><th>Segmento</th><th>Preço</th><th>DY 12m</th><th>P/VP</th><th>Streak</th><th>Score</th><th>Screen</th></tr></thead><tbody>
+<tr><td><strong>BRCO11</strong></td><td>Bresco Logística</td><td>Logística</td><td class='num-r'>R$ 114,57</td><td class='num-r'>9.30%</td><td class='num-r'>0,99</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>HGLG11</strong></td><td>CSHG Logística</td><td>Logística</td><td class='num-r'>R$ 157,01</td><td class='num-r'>8.44%</td><td class='num-r'>0,94</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>KNCR11</strong></td><td>Kinea Rendimentos Imob.</td><td>Papel (CRI)</td><td class='num-r'>R$ 106,38</td><td class='num-r'>13.91%</td><td class='num-r'>1,03</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>MCCI11</strong></td><td>Mauá Capital CRI</td><td>Papel (CRI)</td><td class='num-r'>R$ 94,76</td><td class='num-r'>12.11%</td><td class='num-r'>1,00</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>RBRY11</strong></td><td>RBR CRI</td><td>Papel (CRI)</td><td class='num-r'>R$ 94,30</td><td class='num-r'>14.51%</td><td class='num-r'>0,97</td><td class='num-r'>49 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>RECR11</strong></td><td>REC Recebíveis Imob.</td><td>Papel (CRI)</td><td class='num-r'>R$ 81,21</td><td class='num-r'>13.63%</td><td class='num-r'>0,91</td><td class='num-r'>27 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>VGIP11</strong></td><td>Valora CRI Plus</td><td>Papel (CRI)</td><td class='num-r'>R$ 79,93</td><td class='num-r'>13.85%</td><td class='num-r'>0,87</td><td class='num-r'>32 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>VISC11</strong></td><td>Vinci Shopping Centers</td><td>Shopping</td><td class='num-r'>R$ 109,62</td><td class='num-r'>9.04%</td><td class='num-r'>0,92</td><td class='num-r'>48 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>VRTA11</strong></td><td>Fator Verita</td><td>Papel (CRI)</td><td class='num-r'>R$ 77,24</td><td class='num-r'>13.20%</td><td class='num-r'>0,91</td><td class='num-r'>45 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>XPLG11</strong></td><td>XP Log</td><td>Logística</td><td class='num-r'>R$ 100,57</td><td class='num-r'>9.84%</td><td class='num-r'>0,94</td><td class='num-r'>26 m</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td></tr>
+<tr><td><strong>GARE11</strong></td><td>Guardian Logística</td><td>Híbrido</td><td class='num-r'>R$ 8,38</td><td class='num-r'>11.77%</td><td class='num-r'>0,89</td><td class='num-r'>4 m</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>HGRU11</strong></td><td>CSHG Renda Urbana</td><td>Híbrido</td><td class='num-r'>R$ 129,57</td><td class='num-r'>9.68%</td><td class='num-r'>0,99</td><td class='num-r'>4 m</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>KNRI11</strong></td><td>Kinea Renda Imobiliária</td><td>Híbrido</td><td class='num-r'>R$ 169,29</td><td class='num-r'>7.40%</td><td class='num-r'>1,02</td><td class='num-r'>49 m</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>TRXF11</strong></td><td>TRX Real Estate</td><td>Híbrido</td><td class='num-r'>R$ 91,79</td><td class='num-r'>12.89%</td><td class='num-r'>0,91</td><td class='num-r'>4 m</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>PMLL11</strong></td><td>Plural Malls</td><td>Shopping</td><td class='num-r'>R$ 109,81</td><td class='num-r'>9.27%</td><td class='num-r'>0,93</td><td class='num-r'>7 m</td><td class='num-r'>0.67</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>BRBI11</strong></td><td>BRBI11</td><td>—</td><td class='num-r'>R$ 19,97</td><td class='num-r'>—</td><td class='num-r'>—</td><td class='num-r'>— m</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>ENGI11</strong></td><td>Energisa</td><td>Utilities</td><td class='num-r'>R$ 58,06</td><td class='num-r'>2.93%</td><td class='num-r'>—</td><td class='num-r'>13 m</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td></tr>
+<tr><td><strong>MCRF11</strong></td><td>Mauá Capital Recebíveis</td><td>Papel (CRI)</td><td class='num-r'>—</td><td class='num-r'>—</td><td class='num-r'>—</td><td class='num-r'>— m</td><td class='num-r'>0.00</td><td><span class="badge b-fail">FALHA</span></td></tr>
+</tbody></table></div>
+<h2>Top Oportunidades (BUY + maior upside)</h2>
+<div class="card"><table><thead><tr><th>Ticker</th><th>Empresa</th><th>Sector</th><th>Preço</th><th>DY</th><th>Score</th><th>Screen</th><th>Fair Value</th><th>Upside</th><th>Verdict</th><th>Ev 7d</th></tr></thead><tbody>
+<tr><td><strong>ITSA4</strong></td><td>Itaúsa PN</td><td>Holding</td><td class='num-r'>R$ 14,93</td><td class='num-r'>8.54%</td><td class='num-r'>1.00</td><td><span class="badge b-pass">PASSA</span></td><td class='num-r'>R$ 22,83</td><td class='num-r'>53.96%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>PLPL3</strong></td><td>Plano & Plano</td><td>Consumer Disc.</td><td class='num-r'>R$ 13,13</td><td class='num-r'>3.55%</td><td class='num-r'>0.80</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 19,83</td><td class='num-r'>43.69%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>ITUB4</strong></td><td>Itaú Unibanco</td><td>Banks</td><td class='num-r'>R$ 47,01</td><td class='num-r'>6.77%</td><td class='num-r'>0.75</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 62,78</td><td class='num-r'>34.92%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+<tr><td><strong>RDOR3</strong></td><td>Rede D'Or</td><td>Healthcare</td><td class='num-r'>R$ 39,91</td><td class='num-r'>10.07%</td><td class='num-r'>0.80</td><td><span class="badge b-fail">FALHA</span></td><td class='num-r'>R$ 56,88</td><td class='num-r'>34.11%</td><td><span class="badge b-buy">BUY</span></td><td class='num-r'></td></tr>
+</tbody></table></div>
+<h2>Gaps de Cobertura</h2>
+<h3>BR</h3>
+<div class="card"><table><thead><tr><th>Ticker</th><th>Tipo</th><th>Gaps</th><th>Campos em falta</th></tr></thead><tbody><tr><td><strong>AXIA7</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">dy, dividend_streak, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>BBAS3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>BBDC4</strong></td><td>stock</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">net_debt_ebitda</td></tr>
+<tr><td><strong>BBSE3</strong></td><td>stock</td><td><span class="badge b-gap">8 gaps</span></td><td class="muted">bvps, roe, pb, dy, net_debt_ebitda, dividend_streak, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>BRKM5</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>CPLE3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>EGIE3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>EQTL3</strong></td><td>stock</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">net_debt_ebitda</td></tr>
+<tr><td><strong>EZTC3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>GMAT3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>ITUB4</strong></td><td>stock</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">net_debt_ebitda</td></tr>
+<tr><td><strong>KLBN4</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>PNVL3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>PRIO3</strong></td><td>stock</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">dy</td></tr>
+<tr><td><strong>SEER3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>SIMH3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>SLCE3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>TIMS3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>TUPY3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>UNIP6</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>VAMO3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>VIVA3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>WIZC3</strong></td><td>stock</td><td><span class="badge b-gap">4 gaps</span></td><td class="muted">sector, fundamentals_row, has_div_annual, has_valuation</td></tr>
+<tr><td><strong>BRBI11</strong></td><td>fii</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">fii_fundamentals_row</td></tr>
+<tr><td><strong>ENGI11</strong></td><td>fii</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">fii_fundamentals_row</td></tr>
+<tr><td><strong>MCRF11</strong></td><td>fii</td><td><span class="badge b-gap">7 gaps</span></td><td class="muted">price, vpa, pvp, dy_12m, distribution_streak, adtv_daily, segment_anbima</td></tr>
+<tr><td><strong>PMLL11</strong></td><td>fii</td><td><span class="badge b-gap">1 gaps</span></td><td class="muted">adtv_daily</td></tr></tbody></table></div>
+<footer>Personal Investment Intelligence · Fontes: yfinance, brapi.dev, Status Invest, CVM, SEC EDGAR, BCB · Scoring: Graham (BR) / Buffett (US) · Valuation: Gordon DDM · Este relatório é informativo e pessoal, não constitui recomendação de investimento.</footer></body></html>
