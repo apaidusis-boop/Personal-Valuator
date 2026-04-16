@@ -97,6 +97,12 @@ def _is_holding_company(snap: dict) -> bool:
     return snap.get("sector", "").strip().lower() == "holding"
 
 
+def _is_bank(snap: dict) -> bool:
+    """Bancos comerciais — Graham Number e Dív/EBITDA não se aplicam
+    (estrutura de capital e receita totalmente diferentes)."""
+    return snap.get("sector", "").strip().lower() == "banks"
+
+
 def score_br(snap: dict) -> dict:
     """Aplica os 5 critérios BR. Devolve details conforme HANDOFF §4.3."""
     f = snap.get("fundamentals") or {}
@@ -152,6 +158,37 @@ def score_br(snap: dict) -> dict:
         "roe":             roe_v,
         "net_debt_ebitda": net_debt_ebitda,
         "dividend_streak": dividend_streak,
+    }
+
+
+# ---------- critérios BR banco ----------
+
+def score_br_bank(snap: dict) -> dict:
+    """Screen para bancos BR. Substitui Graham Number e Dív/EBITDA por
+    P/E e P/B, e relaxa ROE para 12% (realidade pós-Selic alta)."""
+    f = snap.get("fundamentals") or {}
+
+    pe = f.get("pe")
+    pe_v = _na(10, "P/E em falta") if pe is None else _v(pe, 10, "pass" if pe <= 10 else "fail")
+
+    pb = f.get("pb")
+    pb_v = _na(1.5, "P/B em falta") if pb is None else _v(pb, 1.5, "pass" if pb <= 1.5 else "fail")
+
+    dy = f.get("dy")
+    dy_v = _na(0.06, "DY em falta") if dy is None else _v(dy, 0.06, "pass" if dy >= 0.06 else "fail")
+
+    roe = f.get("roe")
+    roe_v = _na(0.12, "ROE em falta") if roe is None else _v(roe, 0.12, "pass" if roe >= 0.12 else "fail")
+
+    streak = f.get("dividend_streak_years")
+    streak_v = _na(5, "histórico de dividendos em falta") if streak is None else _v(streak, 5, "pass" if streak >= 5 else "fail")
+
+    return {
+        "pe":               pe_v,
+        "price_to_book":    pb_v,
+        "dividend_yield":   dy_v,
+        "roe":              roe_v,
+        "dividend_streak":  streak_v,
     }
 
 
@@ -318,7 +355,10 @@ def run(ticker: str, market: str) -> dict[str, Any]:
             snap = load_snapshot(conn, ticker)
             if snap is None:
                 raise SystemExit(f"{ticker} não encontrado em {db.name}")
-            details = (score_br if market == "br" else score_us)(snap)
+            if market == "br" and _is_bank(snap):
+                details = score_br_bank(snap)
+            else:
+                details = (score_br if market == "br" else score_us)(snap)
         score, passes = aggregate(details)
         run_date = persist_score(conn, ticker, score, passes, details)
         conn.commit()

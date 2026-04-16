@@ -28,7 +28,7 @@ br:
   holdings:
     stocks:
       - { ticker: PRIO3, name: "PetroRio",    sector: "Oil & Gas", is_holding: true,
-          sources: [BTG-Val, Suno-Acoes],            cvm_name: PETRO }
+          sources: [BTG-Val, Suno-Acoes],            cvm_name: "PRIO " }
       - { ticker: VALE3, name: "Vale",        sector: "Mining",    is_holding: true,
           sources: [XP, BTG-Div, BTG-EqBR, Suno-Div], cvm_name: VALE }
       - { ticker: BBDC4, name: "Bradesco PN", sector: "Banks",     is_holding: true,

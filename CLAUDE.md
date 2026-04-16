@@ -11,12 +11,21 @@ Sistema pessoal de inteligência de investimentos para um investidor pessoa fís
 
 ## Critérios de investimento
 
-### Brasil (Graham clássico ajustado a juros locais)
+### Brasil — empresas não-financeiras (Graham clássico ajustado a juros locais)
 - **Graham Number** ≤ 22.5  (`sqrt(22.5 × EPS × BVPS) ≥ preço`)
 - **Dividend Yield** ≥ 6%
 - **ROE** ≥ 15%
 - **Dívida líquida / EBITDA** < 3×
 - **Histórico de dividendos** ininterrupto ≥ 5 anos
+
+### Brasil — bancos (sector == "Banks" em universe.yaml)
+Bancos têm estrutura de capital e receita incomparáveis com empresas operacionais.
+Graham Number e Dív. líq./EBITDA não se aplicam.
+- **P/E** ≤ 10 (multiplos baixos típicos do sector)
+- **P/B** ≤ 1.5 (margem de segurança sobre o equity)
+- **Dividend Yield** ≥ 6%
+- **ROE** ≥ 12% (relaxado vs 15% para refletir era Selic alta)
+- **Histórico de dividendos** ≥ 5 anos
 
 ### EUA (Buffett — qualidade sobre preço)
 - **P/E** ≤ 20

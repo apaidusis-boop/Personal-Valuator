@@ -1,24 +1,19 @@
-"""Monitor de fatos relevantes da CVM (IPE) — piloto ITSA4.
+"""Monitor de fatos relevantes da CVM (IPE).
 
 Fonte: CVM Dados Abertos — ficheiro anual IPE (Informações Periódicas
 e Eventuais) em
   https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_<YYYY>.zip
 
 O ficheiro traz TODAS as entregas do ano para todas as empresas abertas.
-Filtramos pelo nome da companhia (piloto usa 'ITAUSA' para ITSA4) e
-escrevemos em events:
-    source='cvm', kind=Categoria (ou 'fato_relevante'), event_date=Data_Entrega.
+Mapeamos ticker -> nome_CVM via config/universe.yaml (campo `cvm_name`).
 
-Idempotente: desduplica pelo Protocolo_Entrega (guardado no campo url
-depois do '#' como âncora — ou preferencialmente via chave natural).
-Para simplificar e não mexer no schema, fazemos DELETE + INSERT das
-linhas do ticker com kind a começar por 'fato' antes de reinserir
-as de interesse — só para a janela corrente.
+Categorias filtradas: Fato Relevante, Comunicado ao Mercado.
+Idempotente: desduplica por (ticker, source, event_date, url).
 
 Uso:
-    python monitors/cvm_monitor.py              # ITSA4, ano corrente
-    python monitors/cvm_monitor.py PRIO3
-    python monitors/cvm_monitor.py ITSA4 --year 2025
+    python monitors/cvm_monitor.py                    # todos os stocks BR do universo
+    python monitors/cvm_monitor.py ITSA4              # só um ticker
+    python monitors/cvm_monitor.py --year 2025        # outro ano
 """
 from __future__ import annotations
 
@@ -27,30 +22,23 @@ import csv
 import io
 import json
 import sqlite3
+import sys
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+import yaml
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "br_investments.db"
 LOG_DIR = ROOT / "logs"
+UNIVERSE = ROOT / "config" / "universe.yaml"
 
 CVM_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.zip"
 
-# Mapeamento ticker -> substring a procurar em Nome_Companhia (UPPER).
-# Generalizar depois movendo para universe.yaml (campo `cvm_name`).
-TICKER_NAME = {
-    "ITSA4": "ITAUSA",
-    "PRIO3": "PETRORIO",
-    "VALE3": "VALE",
-    "BBDC4": "BRADESCO",
-}
-
-# Categorias IPE que consideramos "fatos relevantes" para o monitor.
-# O ficheiro IPE inclui muitas categorias (Assembleia, Aviso, etc.);
-# para o piloto foca-se em Fato Relevante e Comunicado ao Mercado.
 WATCHED_CATEGORIES = {"Fato Relevante", "Comunicado ao Mercado"}
 
 
@@ -63,9 +51,39 @@ def _log(event: dict) -> None:
     print(line)
 
 
+def load_ticker_map() -> dict[str, str]:
+    """Devolve {ticker: cvm_name_substring} lido de universe.yaml.
+    Só inclui entries com campo `cvm_name` (ignora FIIs e entries sem
+    mapeamento)."""
+    data = yaml.safe_load(UNIVERSE.read_text(encoding="utf-8"))
+    out: dict[str, str] = {}
+    br = data.get("br", {})
+    for bucket in ("holdings", "watchlist", "research_pool"):
+        g = br.get(bucket) or {}
+        for e in (g.get("stocks") or []):
+            name = e.get("cvm_name")
+            if name:
+                out[e["ticker"]] = str(name).upper()
+    return out
+
+
+def _session_with_retries() -> requests.Session:
+    s = requests.Session()
+    retry = Retry(total=5, backoff_factor=2,
+                  status_forcelist=(500, 502, 503, 504),
+                  allowed_methods=("GET",))
+    s.mount("https://", HTTPAdapter(max_retries=retry))
+    s.headers.update({
+        "User-Agent": "investment-intelligence/1.0 (apaidusis@gmail.com)",
+        "Accept": "application/zip, */*",
+    })
+    return s
+
+
 def download_ipe(year: int) -> list[dict]:
     url = CVM_URL.format(year=year)
-    r = requests.get(url, timeout=120)
+    sess = _session_with_retries()
+    r = sess.get(url, timeout=180)
     r.raise_for_status()
     with zipfile.ZipFile(io.BytesIO(r.content)) as z:
         name = next(n for n in z.namelist() if n.endswith(".csv"))
@@ -75,10 +93,7 @@ def download_ipe(year: int) -> list[dict]:
             return list(reader)
 
 
-def filter_for_ticker(rows: list[dict], ticker: str) -> list[dict]:
-    needle = TICKER_NAME.get(ticker.upper())
-    if not needle:
-        raise SystemExit(f"Sem mapeamento CVM para {ticker} em TICKER_NAME.")
+def filter_rows(rows: list[dict], needle: str) -> list[dict]:
     out = []
     for row in rows:
         name = (row.get("Nome_Companhia") or "").upper()
@@ -104,13 +119,10 @@ def normalise(row: dict) -> dict:
         "kind": kind,
         "url": row.get("Link_Download") or None,
         "summary": summary or None,
-        "protocolo": row.get("Protocolo_Entrega") or "",
     }
 
 
 def persist(conn: sqlite3.Connection, ticker: str, rows: list[dict]) -> int:
-    # Desduplica por (ticker, source, event_date, url). Schema não tem UNIQUE,
-    # fazemos check manual antes de inserir.
     inserted = 0
     for r in rows:
         n = normalise(r)
@@ -130,26 +142,62 @@ def persist(conn: sqlite3.Connection, ticker: str, rows: list[dict]) -> int:
     return inserted
 
 
-def run(ticker: str, year: int | None = None) -> None:
+def run_all(year: int | None = None, only: str | None = None) -> dict:
+    """Corre CVM monitor para todos os tickers em universe.yaml com cvm_name.
+    Download único do ZIP do ano. Devolve dict {ticker: inserted_count}."""
     year = year or datetime.now().year
-    _log({"event": "cvm_fetch_start", "ticker": ticker, "year": year})
-    rows = download_ipe(year)
-    matches = filter_for_ticker(rows, ticker)
-    _log({"event": "cvm_filtered", "ticker": ticker, "total_rows": len(rows), "matches": len(matches)})
+    ticker_map = load_ticker_map()
+    if only:
+        ticker_map = {only: ticker_map[only]} if only in ticker_map else {}
+        if not ticker_map:
+            raise SystemExit(f"{only} sem cvm_name em universe.yaml")
 
+    _log({"event": "cvm_fetch_start", "year": year, "tickers": list(ticker_map)})
+    rows = download_ipe(year)
+    _log({"event": "cvm_download_done", "year": year, "total_rows": len(rows)})
+
+    results: dict[str, int] = {}
     with sqlite3.connect(DB_PATH) as conn:
-        inserted = persist(conn, ticker, matches)
+        for ticker, needle in ticker_map.items():
+            matches = filter_rows(rows, needle)
+            inserted = persist(conn, ticker, matches)
+            results[ticker] = inserted
+            if matches:
+                _log({"event": "cvm_ticker_done", "ticker": ticker,
+                      "matches": len(matches), "inserted": inserted})
         conn.commit()
 
-    _log({"event": "cvm_persisted", "ticker": ticker, "inserted": inserted, "already_in_db": len(matches) - inserted})
+    total_inserted = sum(results.values())
+    _log({"event": "cvm_all_done", "year": year, "tickers": len(ticker_map),
+          "total_inserted": total_inserted})
+    return results
+
+
+def run(ticker: str, year: int | None = None) -> None:
+    """Compat — single ticker mode."""
+    results = run_all(year=year, only=ticker)
+    print(json.dumps(results, indent=2))
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("ticker", nargs="?", default="ITSA4")
+    ap.add_argument("ticker", nargs="?", default=None,
+                    help="ticker específico (omitir corre para todos)")
     ap.add_argument("--year", type=int, default=None)
     args = ap.parse_args()
-    run(args.ticker, args.year)
+
+    if args.ticker:
+        run(args.ticker, args.year)
+    else:
+        results = run_all(year=args.year)
+        new_events = {k: v for k, v in results.items() if v > 0}
+        print(f"\n=== CVM monitor ===")
+        print(f"Tickers processados: {len(results)}")
+        print(f"Novos eventos inseridos: {sum(results.values())}")
+        if new_events:
+            print("Por ticker com novidades:")
+            for t, n in sorted(new_events.items(), key=lambda x: x[1], reverse=True):
+                print(f"  {t}: {n}")
 
 
 if __name__ == "__main__":

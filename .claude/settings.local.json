@@ -73,7 +73,35 @@
       "Read(//c/Users/paidu/Downloads/**)",
       "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scripts/analyze_portfolio_csv.py \"C:/Users/paidu/Downloads/positions \\(1\\).csv\")",
       "Bash(.venv/Scripts/python.exe fetchers/yf_us_fetcher.py JNJ --period 5y)",
-      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scripts/us_portfolio_report.py)"
-    ]
-  }
+      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scripts/us_portfolio_report.py)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:statusinvest.com.br)",
+      "Bash(npm --version)",
+      "Read(//c/Users/paidu/mcp-status-invest/**)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(sqlite3 data/br_investments.db \"SELECT ticker, name, sector, is_holding, currency FROM companies WHERE ticker='BBDC3';\")",
+      "Bash(python -c \"import sqlite3; c=sqlite3.connect\\('data/br_investments.db'\\); print\\(c.execute\\(\\\\\"SELECT ticker,name,sector,is_holding,currency FROM companies WHERE ticker='BBDC3'\\\\\"\\).fetchall\\(\\)\\)\")",
+      "Bash(python -c \"import sqlite3; c=sqlite3.connect\\('data/br_investments.db'\\); [print\\(r\\) for r in c.execute\\('SELECT ticker, name, is_holding FROM companies ORDER BY ticker'\\).fetchall\\(\\)]\")",
+      "Bash(.venv/Scripts/python.exe -m pip install python-dotenv)",
+      "mcp__status-invest__get-acoes",
+      "mcp__status-invest__get-indicadores",
+      "mcp__status-invest__get-acoes-datas-pagamento",
+      "Skill(update-config)",
+      "Bash(*)",
+      "Write",
+      "Edit",
+      "Read",
+      "WebFetch",
+      "WebSearch",
+      "mcp__*",
+      "Skill(*)",
+      "mcp__claude_ai_Bigdata_com__bigdata_search"
+    ],
+    "defaultMode": "acceptEdits"
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "status-invest"
+  ]
 }

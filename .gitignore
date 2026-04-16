@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 .Rhistory
+.mcp.json
+# caches regeneráveis
+data/sec_cache/
+# lock files do Claude Code
+.claude/scheduled_tasks.lock
