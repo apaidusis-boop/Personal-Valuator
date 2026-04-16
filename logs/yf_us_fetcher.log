@@ -98,3 +98,7 @@
 {"ts": "2026-04-16T16:35:40Z", "event": "yf_us_persisted", "ticker": "ABBV", "prices": 62, "dividends": 54, "period_end": "2026-04-16", "pe": 87.90756, "pb": -113.09189, "dy": 0.0332, "roe": 62.25, "streak": 14}
 {"ts": "2026-04-16T16:35:40Z", "event": "yf_us_fetch_start", "ticker": "MSFT", "period": "3mo"}
 {"ts": "2026-04-16T16:35:42Z", "event": "yf_us_persisted", "ticker": "MSFT", "prices": 62, "dividends": 89, "period_end": "2026-04-16", "pe": 26.128437, "pb": 7.9455476, "dy": 0.89, "roe": 0.34390998, "streak": 24}
+{"ts": "2026-04-16T18:25:40Z", "event": "yf_us_fetch_start", "ticker": "O", "period": "1y"}
+{"ts": "2026-04-16T18:25:45Z", "event": "yf_us_persisted", "ticker": "O", "prices": 251, "dividends": 377, "period_end": "2026-04-16", "pe": 54.89316, "pb": 1.5209463, "dy": 0.0506, "roe": 0.02702, "streak": 33}
+{"ts": "2026-04-16T18:26:58Z", "event": "yf_us_fetch_start", "ticker": "PLD", "period": "1y"}
+{"ts": "2026-04-16T18:27:02Z", "event": "yf_us_persisted", "ticker": "PLD", "prices": 251, "dividends": 113, "period_end": "2026-04-16", "pe": 40.189606, "pb": 2.502186, "dy": 0.030600000000000002, "roe": 0.06127, "streak": 30}

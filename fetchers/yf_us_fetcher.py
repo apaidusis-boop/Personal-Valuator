@@ -149,31 +149,74 @@ def compute_dividend_streak_years(divs) -> int | None:
     return streak
 
 
-def extract_fundamentals(info: dict, divs) -> dict:
-    """Lê yfinance .info e normaliza para o schema `fundamentals`."""
-    def _f(v):
-        if v is None:
+def _f(v):
+    if v is None:
+        return None
+    try:
+        val = float(v)
+        if val != val:
             return None
-        try:
-            val = float(v)
-            if val != val:  # NaN
-                return None
-            return val
-        except (TypeError, ValueError):
-            return None
+        return val
+    except (TypeError, ValueError):
+        return None
 
+
+def _pick(df, keys: list[str]):
+    """Devolve o primeiro valor encontrado para qualquer key em df.index
+    na coluna mais recente (index[0]). yfinance renomeia campos entre versões."""
+    if df is None or df.empty:
+        return None
+    col = df.columns[0]
+    for k in keys:
+        if k in df.index:
+            v = df.loc[k, col]
+            return _f(v)
+    return None
+
+
+def extract_reit_metrics(cashflow, financials, balance_sheet, shares_out):
+    """FFO estimado, interest coverage, debt-to-assets.
+    FFO = Net Income + D&A imobiliária. Aproximação (ignora gains on sales)."""
+    net_income = _pick(cashflow, ["Net Income"]) or _pick(financials, ["Net Income"])
+    da = _pick(cashflow, ["Depreciation And Amortization",
+                          "Depreciation Amortization Depletion",
+                          "Depreciation"])
+    interest_exp = _pick(financials, ["Interest Expense"])
+    ebitda = _pick(financials, ["EBITDA", "Normalized EBITDA"])
+    total_debt = _pick(balance_sheet, ["Total Debt"])
+    total_assets = _pick(balance_sheet, ["Total Assets"])
+
+    ffo_per_share = None
+    if net_income is not None and da is not None and shares_out and shares_out > 0:
+        ffo_per_share = (net_income + da) / shares_out
+
+    interest_coverage = None
+    if ebitda is not None and interest_exp and interest_exp > 0:
+        interest_coverage = ebitda / interest_exp
+
+    debt_to_assets = None
+    if total_debt is not None and total_assets and total_assets > 0:
+        debt_to_assets = total_debt / total_assets
+
+    return {
+        "ffo_per_share": ffo_per_share,
+        "interest_coverage": interest_coverage,
+        "debt_to_assets": debt_to_assets,
+    }
+
+
+def extract_fundamentals(info: dict, divs, tk=None) -> dict:
+    """Lê yfinance .info e normaliza para o schema `fundamentals`.
+    Se tk (yf.Ticker) for fornecido, inclui métricas REIT (FFO, cobertura)."""
     pe = _f(info.get("trailingPE"))
     pb = _f(info.get("priceToBook"))
     dy = _f(info.get("dividendYield"))
-    # yfinance por vezes devolve DY já em fracção (0.025) e outras em pct (2.5).
-    # Heurística: se > 1, dividimos por 100.
     if dy is not None and dy > 1:
         dy = dy / 100.0
     roe = _f(info.get("returnOnEquity"))
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
 
-    # net_debt_ebitda: (totalDebt - totalCash) / ebitda
     total_debt = _f(info.get("totalDebt"))
     total_cash = _f(info.get("totalCash"))
     ebitda = _f(info.get("ebitda"))
@@ -184,6 +227,19 @@ def extract_fundamentals(info: dict, divs) -> dict:
 
     streak = compute_dividend_streak_years(divs)
 
+    reit_fields = {"ffo_per_share": None, "interest_coverage": None, "debt_to_assets": None}
+    if tk is not None:
+        try:
+            shares = _f(info.get("sharesOutstanding"))
+            reit_fields = extract_reit_metrics(
+                getattr(tk, "cashflow", None),
+                getattr(tk, "financials", None),
+                getattr(tk, "balance_sheet", None),
+                shares,
+            )
+        except Exception as e:  # noqa: BLE001
+            _log({"event": "yf_us_reit_metrics_error", "err": str(e)[:120]})
+
     return {
         "eps": eps,
         "bvps": bvps,
@@ -193,7 +249,8 @@ def extract_fundamentals(info: dict, divs) -> dict:
         "dy": dy,
         "net_debt_ebitda": net_debt_ebitda,
         "dividend_streak_years": streak,
-        "is_aristocrat": None,  # manter NULL — lista manual futura
+        "is_aristocrat": None,
+        **reit_fields,
     }
 
 
@@ -202,19 +259,25 @@ def upsert_fundamentals(conn: sqlite3.Connection, ticker: str, fields: dict) -> 
     conn.execute(
         """INSERT INTO fundamentals
              (ticker, period_end, eps, bvps, roe, pe, pb, dy,
-              net_debt_ebitda, dividend_streak_years, is_aristocrat)
-           VALUES (?,?,?,?,?,?,?,?,?,?,?)
+              net_debt_ebitda, dividend_streak_years, is_aristocrat,
+              ffo_per_share, interest_coverage, debt_to_assets)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
            ON CONFLICT(ticker, period_end) DO UPDATE SET
              eps=excluded.eps, bvps=excluded.bvps, roe=excluded.roe,
              pe=excluded.pe, pb=excluded.pb, dy=excluded.dy,
              net_debt_ebitda=excluded.net_debt_ebitda,
              dividend_streak_years=excluded.dividend_streak_years,
-             is_aristocrat=COALESCE(excluded.is_aristocrat, fundamentals.is_aristocrat)""",
+             is_aristocrat=COALESCE(excluded.is_aristocrat, fundamentals.is_aristocrat),
+             ffo_per_share=excluded.ffo_per_share,
+             interest_coverage=excluded.interest_coverage,
+             debt_to_assets=excluded.debt_to_assets""",
         (ticker, period,
          fields["eps"], fields["bvps"], fields["roe"],
          fields["pe"], fields["pb"], fields["dy"],
          fields["net_debt_ebitda"], fields["dividend_streak_years"],
-         fields["is_aristocrat"]),
+         fields["is_aristocrat"],
+         fields.get("ffo_per_share"), fields.get("interest_coverage"),
+         fields.get("debt_to_assets")),
     )
     return period
 
@@ -244,7 +307,7 @@ def run(ticker: str, period: str = "5y") -> dict:
         _log({"event": "yf_us_empty_history", "ticker": ticker})
         return {"ticker": ticker, "prices": 0, "dividends": 0, "fundamentals": None}
 
-    fields = extract_fundamentals(info, divs)
+    fields = extract_fundamentals(info, divs, tk=tk)
 
     with sqlite3.connect(DB_PATH) as conn:
         upsert_company(conn, entry)
