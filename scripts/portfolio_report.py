@@ -41,6 +41,27 @@ def _get_ptax() -> float:
     return r[0] if r else 5.0
 
 
+def _fixed_income(conn: sqlite3.Connection) -> list[dict]:
+    try:
+        rows = conn.execute(
+            "SELECT name, kind, indexador, spread_taxa, cdi_pct, maturity_date, "
+            "       valor_atual, valor_aplicado, entry_date "
+            "FROM fixed_income_positions ORDER BY valor_atual DESC"
+        ).fetchall()
+    except sqlite3.OperationalError:
+        return []
+    out = []
+    for name, kind, idx, spread, cdi_pct, mat, atual, aplic, ent in rows:
+        out.append({
+            "name": name, "kind": kind, "indexador": idx,
+            "spread": spread, "cdi_pct": cdi_pct,
+            "maturity": mat, "entry_date": ent,
+            "valor_atual": atual or 0, "valor_aplicado": aplic or 0,
+            "pnl": (atual or 0) - (aplic or 0),
+        })
+    return out
+
+
 def _holdings_with_mv(conn: sqlite3.Connection) -> list[dict]:
     rows = conn.execute("""
         SELECT pp.ticker, pp.quantity, pp.entry_price,
@@ -184,10 +205,13 @@ def build_report(days: int = 7) -> str:
 
     h_br = _holdings_with_mv(conn_br)
     h_us = _holdings_with_mv(conn_us)
+    fi_br = _fixed_income(conn_br)
     mv_br = sum(h["mv"] for h in h_br)
     mv_us = sum(h["mv"] for h in h_us)
+    mv_fi = sum(f["valor_atual"] for f in fi_br)
     cost_br = sum(h["cost"] for h in h_br)
     cost_us = sum(h["cost"] for h in h_us)
+    cost_fi = sum(f["valor_aplicado"] for f in fi_br)
 
     P("╔" + "═"*72 + "╗")
     P(f"║  PORTFOLIO BRIEFING  —  {today_iso}" + " " * 40 + "║")
@@ -195,15 +219,18 @@ def build_report(days: int = 7) -> str:
 
     # === 1. Snapshot consolidado ===
     P("\n[1] SNAPSHOT CONSOLIDADO")
-    P(f"  BR     MV R$ {mv_br:>12,.2f}   P&L R$ {mv_br-cost_br:>+11,.2f} ({(mv_br/cost_br-1)*100 if cost_br else 0:+5.1f}%)   "
+    P(f"  BR equity    MV R$ {mv_br:>12,.2f}   P&L R$ {mv_br-cost_br:>+11,.2f} ({(mv_br/cost_br-1)*100 if cost_br else 0:+5.1f}%)   "
       f"{len(h_br):>2} holdings")
-    P(f"  US     MV $  {mv_us:>12,.2f}   P&L $  {mv_us-cost_us:>+11,.2f} ({(mv_us/cost_us-1)*100 if cost_us else 0:+5.1f}%)   "
+    P(f"  BR renda fx  MV R$ {mv_fi:>12,.2f}   P&L R$ {mv_fi-cost_fi:>+11,.2f} ({(mv_fi/cost_fi-1)*100 if cost_fi else 0:+5.1f}%)   "
+      f"{len(fi_br):>2} títulos")
+    P(f"  US equity    MV $  {mv_us:>12,.2f}   P&L $  {mv_us-cost_us:>+11,.2f} ({(mv_us/cost_us-1)*100 if cost_us else 0:+5.1f}%)   "
       f"{len(h_us):>2} holdings")
-    total_brl = mv_br + mv_us * ptax
-    cost_total_brl = cost_br + cost_us * ptax
-    P(f"  TOTAL  MV R$ {total_brl:>12,.2f} (PTAX {ptax:.4f})   P&L R$ {total_brl-cost_total_brl:>+11,.2f} "
+    total_brl = mv_br + mv_fi + mv_us * ptax
+    cost_total_brl = cost_br + cost_fi + cost_us * ptax
+    P(f"  TOTAL        MV R$ {total_brl:>12,.2f} (PTAX {ptax:.4f})   P&L R$ {total_brl-cost_total_brl:>+11,.2f} "
       f"({(total_brl/cost_total_brl-1)*100:+5.1f}%)")
-    P(f"  Allocation BR={mv_br/total_brl*100:.1f}%  US={mv_us*ptax/total_brl*100:.1f}%")
+    P(f"  Allocation   BR-equity={mv_br/total_brl*100:.1f}%  BR-RF={mv_fi/total_brl*100:.1f}%  "
+      f"US-equity={mv_us*ptax/total_brl*100:.1f}%")
 
     # === 2. Eventos recentes (holdings) ===
     tickers_br = [h["ticker"] for h in h_br]
@@ -295,6 +322,32 @@ def build_report(days: int = 7) -> str:
                      "USDBRL_PTAX": "PTAX USD/BRL", "CDI_DAILY": "CDI diário (fator)"}.get(sid, sid)
             fmt = f"{v:.2f}%" if sid == "SELIC_META" else (f"R$ {v:.4f}" if sid=="USDBRL_PTAX" else f"{v*100:.2f}%")
             P(f"  {label:<22}: {fmt:<10}  ({d})")
+
+    # === 9. Renda Fixa detalhe ===
+    if fi_br:
+        P(f"\n[9] RENDA FIXA — {len(fi_br)} títulos  (MV R$ {mv_fi:,.0f})")
+        P(f"  {'Nome':<32}{'Kind':<10}{'Taxa':<16}{'Venc':<12}{'Aplicado':>12}{'Atual':>12}")
+        from datetime import date as _date
+        today_d = _date.today()
+        for f in fi_br:
+            if f["spread"]:
+                taxa = f"{f['indexador']}+{f['spread']*100:.2f}%"
+            elif f["cdi_pct"]:
+                taxa = f"{f['cdi_pct']*100:.1f}% CDI"
+            else:
+                taxa = f["indexador"] or "?"
+            # anos até vencimento
+            mat = f["maturity"]
+            yrs_tag = ""
+            if mat:
+                try:
+                    mat_d = _date.fromisoformat(mat)
+                    yrs = (mat_d - today_d).days / 365.25
+                    yrs_tag = f" ({yrs:.1f}y)"
+                except ValueError:
+                    pass
+            P(f"  {f['name'][:31]:<32}{f['kind']:<10}{taxa:<16}{(mat or '-')+yrs_tag:<12}"
+              f"R$ {f['valor_aplicado']:>8,.0f}R$ {f['valor_atual']:>8,.0f}")
 
     # === 8. Action items ===
     P(f"\n[8] ACTION ITEMS")
