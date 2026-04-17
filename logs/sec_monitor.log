@@ -36,3 +36,27 @@
 {"ts": "2026-04-16T17:46:47Z", "event": "sec_cik_map_loaded", "entries": 10391}
 {"ts": "2026-04-16T17:46:48Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 8, "inserted": 8}
 {"ts": "2026-04-16T17:46:48Z", "event": "sec_all_done", "tickers": 1, "total_inserted": 8}
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-17T13:03:44Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "O", "filings": 4, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 1}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:47Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:49Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 1}
+{"ts": "2026-04-17T13:03:50Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:54Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 4}
