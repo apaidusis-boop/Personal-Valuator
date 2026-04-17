@@ -54,6 +54,11 @@ echo [WEEKLY] weekly_report.py >> "%LOG%"
 echo WEEKLY exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [BRIEFING] portfolio_report.py --md >> "%LOG%"
+"%PY%" scripts\portfolio_report.py --md >> "%LOG%" 2>&1
+echo BRIEFING exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [NOTIFY] notify_events.py --hours 48 >> "%LOG%"
 "%PY%" scripts\notify_events.py --hours 48 >> "%LOG%" 2>&1
 echo NOTIFY exit code: %errorlevel% >> "%LOG%"
