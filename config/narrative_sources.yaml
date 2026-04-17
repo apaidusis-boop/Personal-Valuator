@@ -1,0 +1,127 @@
+# narrative_sources.yaml — fontes de onde o pipeline de narrativa lê.
+#
+# Filosofia idêntica ao universe.yaml: toda a edição (adicionar/remover
+# canais, mudar peso) é feita AQUI. Nenhum scraper em narrative/ tem URLs
+# hardcoded.
+#
+# Pesos:
+#   weight     — multiplicador no score agregado (1.0 = default).
+#                Usar 0.5 para fontes ruidosas/sensacionalistas e 1.5 para
+#                analistas de referência. Extremos (2.0+) apenas para fontes
+#                institucionais de alta confiança.
+#
+# Bias flags (informativo, não usado ainda — serve para o classifier saber
+# calibrar):
+#   bias: neutral | bullish | bearish | growth | value | retail | institutional
+#
+# enabled=false deixa a fonte no ficheiro mas desactiva scraping.
+
+# ============================================================================
+# MACRO ESTRUTURADO — não é narrativa, é input do regime.py. Já parcialmente
+# no pipeline via bcb_fetcher.py. Listado aqui para referência.
+# ============================================================================
+macro_sources:
+  br:
+    - { id: bcb_sgs,       name: "BCB SGS (SELIC/CDI/IPCA/PTAX)", status: "já implementado (bcb_fetcher.py)" }
+    - { id: bcb_focus,     name: "Boletim Focus",                  status: "TODO: API pública BCB" }
+    - { id: ibge_ibc_br,   name: "IBC-Br (proxy PIB mensal)",     status: "TODO: SIDRA/IBGE" }
+    - { id: copom_atas,    name: "Atas COPOM",                     status: "TODO: parser PDF" }
+  us:
+    - { id: fred,          name: "FRED (FEDFUNDS, UNRATE, CPI, DGS10, DGS2, DXY)", status: "TODO: fredapi" }
+    - { id: cboe_vix,      name: "CBOE VIX",                        status: "TODO: yfinance ^VIX" }
+    - { id: fomc_statements, name: "FOMC statements + minutes",     status: "TODO: federalreserve.gov" }
+    - { id: bls_jobs,      name: "BLS monthly jobs report",         status: "TODO" }
+
+# ============================================================================
+# RSS — fonte primária de narrativa. Baixo custo, alta cobertura.
+# ============================================================================
+rss:
+  br:
+    - { id: infomoney,       name: "InfoMoney",              url: "https://www.infomoney.com.br/feed/",                 lang: pt, weight: 1.0, bias: neutral,        enabled: true }
+    - { id: valor,           name: "Valor Econômico",        url: "https://valor.globo.com/rss/",                        lang: pt, weight: 1.5, bias: institutional, enabled: true,  note: "paywall parcial — headlines grátis" }
+    - { id: brazil_journal,  name: "Brazil Journal",         url: "https://braziljournal.com/feed/",                     lang: pt, weight: 1.5, bias: institutional, enabled: true }
+    - { id: money_times,     name: "Money Times",            url: "https://www.moneytimes.com.br/feed/",                 lang: pt, weight: 0.8, bias: retail,        enabled: true }
+    - { id: seu_dinheiro,    name: "Seu Dinheiro (Empiricus)", url: "https://www.seudinheiro.com/feed/",                 lang: pt, weight: 0.8, bias: retail,        enabled: true }
+    - { id: suno_noticias,   name: "Suno Notícias",          url: "https://www.suno.com.br/noticias/feed/",              lang: pt, weight: 1.0, bias: value,         enabled: true }
+    - { id: estadao_econ,    name: "Estadão Economia",       url: "https://www.estadao.com.br/rss/economia.xml",         lang: pt, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: folha_mercado,   name: "Folha Mercado",          url: "https://feeds.folha.uol.com.br/mercado/rss091.xml",   lang: pt, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: exame_invest,    name: "Exame Invest",           url: "https://exame.com/invest/feed/",                      lang: pt, weight: 0.8, bias: retail,        enabled: true }
+  us:
+    - { id: reuters_business, name: "Reuters Business",      url: "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best", lang: en, weight: 1.5, bias: institutional, enabled: true }
+    - { id: seeking_alpha,    name: "Seeking Alpha (market)",url: "https://seekingalpha.com/market_currents.xml",         lang: en, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: yahoo_finance,    name: "Yahoo Finance",          url: "https://finance.yahoo.com/news/rssindex",              lang: en, weight: 0.8, bias: neutral,       enabled: true }
+    - { id: cnbc_markets,     name: "CNBC Markets",           url: "https://www.cnbc.com/id/10000664/device/rss/rss.html", lang: en, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: marketwatch,      name: "MarketWatch Top",        url: "https://feeds.marketwatch.com/marketwatch/topstories/", lang: en, weight: 1.0, bias: neutral,      enabled: true }
+    - { id: wsj_markets,      name: "WSJ Markets",            url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",        lang: en, weight: 1.5, bias: institutional, enabled: true, note: "paywall — headlines apenas" }
+    - { id: ft_markets,       name: "FT Markets",             url: "https://www.ft.com/markets?format=rss",                lang: en, weight: 1.5, bias: institutional, enabled: false, note: "paywall forte — activar só se subscrito" }
+    - { id: zerohedge,        name: "ZeroHedge",              url: "https://cms.zerohedge.com/fullrss2.xml",               lang: en, weight: 0.5, bias: bearish,       enabled: true,  note: "útil para capturar pânico precocemente, mas viés forte" }
+    - { id: axios_markets,    name: "Axios Markets",          url: "https://api.axios.com/feed/markets",                   lang: en, weight: 1.0, bias: neutral,       enabled: true }
+
+# ============================================================================
+# YOUTUBE — alto sinal, alto custo (transcript + LLM). Rodar semanalmente,
+# não diário. Priorizar vídeos > 15min (análise densa) vs shorts.
+# ============================================================================
+youtube:
+  br:
+    - { id: thiago_nigro,    handle: "@OPrimoRico",        name: "Thiago Nigro / Primo Rico",      market_focus: br, lang: pt, weight: 1.0, bias: retail,        enabled: true }
+    - { id: irmaos_dias,     handle: "@IrmaosDiasPodcast", name: "Irmãos Dias Podcast",            market_focus: br, lang: pt, weight: 1.2, bias: neutral,       enabled: true }
+    - { id: clube_valor,     handle: "@ClubedoValor",      name: "Clube do Valor (Bruno Perini)",  market_focus: br, lang: pt, weight: 1.0, bias: value,         enabled: true }
+    - { id: market_makers,   handle: "@MarketMakers",      name: "Market Makers (BTG)",            market_focus: br, lang: pt, weight: 1.5, bias: institutional, enabled: true }
+    - { id: stock_pickers,   handle: "@StockPickers",      name: "Stock Pickers",                  market_focus: br, lang: pt, weight: 1.3, bias: institutional, enabled: true }
+    - { id: tio_tarso,       handle: "@InvestidorSolitario", name: "Investidor Solitário / Tio Tarso", market_focus: br, lang: pt, weight: 1.0, bias: value,     enabled: true }
+    - { id: louise_barsi,    handle: "@AGFBarsi",          name: "AGF / Louise Barsi",             market_focus: br, lang: pt, weight: 1.3, bias: value,         enabled: true }
+    - { id: central_mercado, handle: "@CentraldoMercado",  name: "Central do Mercado",             market_focus: br, lang: pt, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: eu_quero_investir, handle: "@EuQueroInvestir", name: "Eu Quero Investir (Empiricus)",  market_focus: br, lang: pt, weight: 0.8, bias: retail,        enabled: true }
+  us:
+    - { id: cnbc_yt,         handle: "@CNBC",              name: "CNBC",                           market_focus: us, lang: en, weight: 1.0, bias: neutral,       enabled: true }
+    - { id: bloomberg_yt,    handle: "@BloombergTelevision", name: "Bloomberg Television",         market_focus: us, lang: en, weight: 1.3, bias: institutional, enabled: true }
+    - { id: patrick_boyle,   handle: "@PBoyle",            name: "Patrick Boyle",                  market_focus: us, lang: en, weight: 1.4, bias: institutional, enabled: true }
+    - { id: damodaran,       handle: "@AswathDamodaranonValuation", name: "Aswath Damodaran",      market_focus: us, lang: en, weight: 1.5, bias: value,         enabled: true,  note: "valuation puro, sem especulação" }
+    - { id: lyn_alden,       handle: "@LynAldenOfficial",  name: "Lyn Alden",                       market_focus: us, lang: en, weight: 1.3, bias: macro,         enabled: true }
+    - { id: joseph_carlson,  handle: "@JosephCarlsonShow", name: "Joseph Carlson",                 market_focus: us, lang: en, weight: 0.8, bias: retail,        enabled: true }
+    - { id: ben_felix,       handle: "@BenFelixCSI",       name: "Ben Felix",                       market_focus: us, lang: en, weight: 1.2, bias: value,         enabled: true }
+    - { id: plain_bagel,     handle: "@ThePlainBagel",     name: "The Plain Bagel",                market_focus: us, lang: en, weight: 1.0, bias: neutral,       enabled: true }
+
+# ============================================================================
+# PODCASTS — futuro. Transcript via Whisper/LLM. Caro; activar pós-MVP.
+# ============================================================================
+podcasts:
+  enabled: false
+  br:
+    - { id: market_makers_pod,  name: "Market Makers Podcast" }
+    - { id: stock_pickers_pod,  name: "Stock Pickers Podcast" }
+    - { id: brunch_nuno,        name: "Brunch com o Nuno" }
+  us:
+    - { id: odd_lots,           name: "Bloomberg Odd Lots" }
+    - { id: macro_voices,       name: "MacroVoices" }
+    - { id: acquired,           name: "Acquired (deep dives)" }
+
+# ============================================================================
+# SETORIAL — fontes focadas em indústria. Adicionar quando holding concentra
+# num sector. Activar conforme necessidade.
+# ============================================================================
+sectorial:
+  banks_br:   [{ id: brazil_journal_banking, name: "Brazil Journal - Banking", enabled: false }]
+  fiis_br:    [{ id: clube_fii,              name: "Clube FII",                 enabled: false },
+               { id: suno_fii_yt,            handle: "@SunoFII",                name: "Suno FII YouTube", enabled: false }]
+  reits_us:   [{ id: nareit,                 name: "Nareit",                    enabled: false },
+               { id: seeking_alpha_reit,     name: "Seeking Alpha - REIT",      enabled: false }]
+  oil_gas:    [{ id: oilprice,               name: "OilPrice.com",              enabled: false },
+               { id: petronoticias,          name: "Petronotícias (BR)",        enabled: false }]
+  tech_us:    [{ id: stratechery,            name: "Stratechery (Ben Thompson)", enabled: false, note: "paywall" }]
+
+# ============================================================================
+# OFICIAIS — já (parcialmente) no pipeline via monitors/cvm_monitor.py e
+# monitors/sec_monitor.py. Não é narrativa; entra directamente em `events`.
+# ============================================================================
+official:
+  br: ["CVM (fatos relevantes)", "B3 (anúncios)", "COPOM (comunicados)"]
+  us: ["SEC EDGAR (8-K, 10-K)", "FOMC statements", "Treasury"]
+
+# ============================================================================
+# NÃO ACTIVAR (ruído alto, baixa razão sinal/ruído)
+# ============================================================================
+rejected:
+  - { id: reddit_investimentos, reason: "r/investimentos — varejo desinformado, útil só como proxy de pânico" }
+  - { id: twitter_ft_br,        reason: "FinTwit BR — muito ruído, viés forte, difícil autenticar identidade" }
+  - { id: tiktok,               reason: "sem contexto nem profundidade" }
