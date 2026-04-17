@@ -1,0 +1,3766 @@
+======================================== 
+daily_run.bat  17/04/2026 15:50:12.69 
+======================================== 
+[BR] daily_update.py 
+^C======================================== 
+daily_run.bat  17/04/2026 15:58:35.61 
+======================================== 
+[BR] daily_update.py 
+Universo: 39 stocks, 21 fiis
+
+============================================================
+== 1/5  BCB SGS  (macro, 60d)
+============================================================
+{"ts": "2026-04-17T12:58:36Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:37Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "16/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-17T12:58:37Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:38Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "16/02/2026", "valor": "15.00"}, "last": {"data": "17/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-17T12:58:38Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:39Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "16/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-17T12:58:39Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:40Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-17T12:58:40Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:42Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}
+
+============================================================
+== 2/5  yfinance BR  (period=3mo)
+============================================================
+{"ts": "2026-04-17T12:58:45Z", "event": "yf_br_fetch_start", "ticker": "PRIO3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:48Z", "event": "yf_br_persisted", "ticker": "PRIO3", "prices": 62, "dividends": 1, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 1}
+{"ts": "2026-04-17T12:58:48Z", "event": "yf_br_fetch_start", "ticker": "VALE3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:49Z", "event": "yf_br_persisted", "ticker": "VALE3", "prices": 62, "dividends": 38, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 38}
+{"ts": "2026-04-17T12:58:49Z", "event": "yf_br_fetch_start", "ticker": "BBDC4", "period": "3mo"}
+{"ts": "2026-04-17T12:58:49Z", "event": "yf_br_persisted", "ticker": "BBDC4", "prices": 62, "dividends": 262, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 262}
+{"ts": "2026-04-17T12:58:49Z", "event": "yf_br_fetch_start", "ticker": "ITSA4", "period": "3mo"}
+{"ts": "2026-04-17T12:58:50Z", "event": "yf_br_persisted", "ticker": "ITSA4", "prices": 62, "dividends": 139, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 139}
+{"ts": "2026-04-17T12:58:50Z", "event": "yf_br_fetch_start", "ticker": "PETR4", "period": "3mo"}
+{"ts": "2026-04-17T12:58:51Z", "event": "yf_br_persisted", "ticker": "PETR4", "prices": 62, "dividends": 59, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 59}
+{"ts": "2026-04-17T12:58:51Z", "event": "yf_br_fetch_start", "ticker": "AXIA7", "period": "3mo"}
+{"ts": "2026-04-17T12:58:51Z", "event": "yf_br_persisted", "ticker": "AXIA7", "prices": 62, "dividends": 0, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 0}
+{"ts": "2026-04-17T12:58:51Z", "event": "yf_br_fetch_start", "ticker": "CPLE3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:52Z", "event": "yf_br_persisted", "ticker": "CPLE3", "prices": 62, "dividends": 35, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 35}
+{"ts": "2026-04-17T12:58:52Z", "event": "yf_br_fetch_start", "ticker": "ALOS3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:52Z", "event": "yf_br_persisted", "ticker": "ALOS3", "prices": 62, "dividends": 21, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 21}
+{"ts": "2026-04-17T12:58:52Z", "event": "yf_br_fetch_start", "ticker": "B3SA3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:53Z", "event": "yf_br_persisted", "ticker": "B3SA3", "prices": 62, "dividends": 82, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 82}
+{"ts": "2026-04-17T12:58:53Z", "event": "yf_br_fetch_start", "ticker": "ENGI11", "period": "3mo"}
+{"ts": "2026-04-17T12:58:53Z", "event": "yf_br_persisted", "ticker": "ENGI11", "prices": 62, "dividends": 35, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 35}
+{"ts": "2026-04-17T12:58:53Z", "event": "yf_br_fetch_start", "ticker": "ITUB4", "period": "3mo"}
+{"ts": "2026-04-17T12:58:54Z", "event": "yf_br_persisted", "ticker": "ITUB4", "prices": 62, "dividends": 269, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 269}
+{"ts": "2026-04-17T12:58:54Z", "event": "yf_br_fetch_start", "ticker": "EQTL3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:55Z", "event": "yf_br_persisted", "ticker": "EQTL3", "prices": 62, "dividends": 28, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 28}
+{"ts": "2026-04-17T12:58:55Z", "event": "yf_br_fetch_start", "ticker": "MOTV3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:55Z", "event": "yf_br_persisted", "ticker": "MOTV3", "prices": 62, "dividends": 2, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 2}
+{"ts": "2026-04-17T12:58:55Z", "event": "yf_br_fetch_start", "ticker": "MULT3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_persisted", "ticker": "MULT3", "prices": 62, "dividends": 43, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 43}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_fetch_start", "ticker": "PGMN3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_persisted", "ticker": "PGMN3", "prices": 62, "dividends": 4, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 4}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_fetch_start", "ticker": "PLPL3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_persisted", "ticker": "PLPL3", "prices": 62, "dividends": 6, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 6}
+{"ts": "2026-04-17T12:58:56Z", "event": "yf_br_fetch_start", "ticker": "RAPT4", "period": "3mo"}
+{"ts": "2026-04-17T12:58:57Z", "event": "yf_br_persisted", "ticker": "RAPT4", "prices": 62, "dividends": 33, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 33}
+{"ts": "2026-04-17T12:58:57Z", "event": "yf_br_fetch_start", "ticker": "RDOR3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:57Z", "event": "yf_br_persisted", "ticker": "RDOR3", "prices": 62, "dividends": 20, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 20}
+{"ts": "2026-04-17T12:58:57Z", "event": "yf_br_fetch_start", "ticker": "RENT3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:58Z", "event": "yf_br_persisted", "ticker": "RENT3", "prices": 62, "dividends": 86, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 86}
+{"ts": "2026-04-17T12:58:58Z", "event": "yf_br_fetch_start", "ticker": "SUZB3", "period": "3mo"}
+{"ts": "2026-04-17T12:58:59Z", "event": "yf_br_persisted", "ticker": "SUZB3", "prices": 62, "dividends": 21, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 21}
+{"ts": "2026-04-17T12:58:59Z", "event": "yf_br_fetch_start", "ticker": "TTEN3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:00Z", "event": "yf_br_persisted", "ticker": "TTEN3", "prices": 62, "dividends": 5, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 5}
+{"ts": "2026-04-17T12:59:00Z", "event": "yf_br_fetch_start", "ticker": "WIZC3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:00Z", "event": "yf_br_persisted", "ticker": "WIZC3", "prices": 62, "dividends": 18, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 18}
+{"ts": "2026-04-17T12:59:00Z", "event": "yf_br_fetch_start", "ticker": "BBSE3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:01Z", "event": "yf_br_persisted", "ticker": "BBSE3", "prices": 62, "dividends": 28, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 28}
+{"ts": "2026-04-17T12:59:01Z", "event": "yf_br_fetch_start", "ticker": "BBAS3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:01Z", "event": "yf_br_persisted", "ticker": "BBAS3", "prices": 62, "dividends": 128, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 128}
+{"ts": "2026-04-17T12:59:01Z", "event": "yf_br_fetch_start", "ticker": "UNIP6", "period": "3mo"}
+{"ts": "2026-04-17T12:59:02Z", "event": "yf_br_persisted", "ticker": "UNIP6", "prices": 62, "dividends": 29, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 29}
+{"ts": "2026-04-17T12:59:02Z", "event": "yf_br_fetch_start", "ticker": "SEER3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:02Z", "event": "yf_br_persisted", "ticker": "SEER3", "prices": 62, "dividends": 20, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 20}
+{"ts": "2026-04-17T12:59:02Z", "event": "yf_br_fetch_start", "ticker": "SLCE3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:03Z", "event": "yf_br_persisted", "ticker": "SLCE3", "prices": 62, "dividends": 21, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 21}
+{"ts": "2026-04-17T12:59:03Z", "event": "yf_br_fetch_start", "ticker": "TUPY3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:04Z", "event": "yf_br_persisted", "ticker": "TUPY3", "prices": 62, "dividends": 32, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 32}
+{"ts": "2026-04-17T12:59:04Z", "event": "yf_br_fetch_start", "ticker": "EGIE3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:05Z", "event": "yf_br_persisted", "ticker": "EGIE3", "prices": 62, "dividends": 53, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 53}
+{"ts": "2026-04-17T12:59:05Z", "event": "yf_br_fetch_start", "ticker": "VAMO3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:05Z", "event": "yf_br_persisted", "ticker": "VAMO3", "prices": 62, "dividends": 6, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 6}
+{"ts": "2026-04-17T12:59:05Z", "event": "yf_br_fetch_start", "ticker": "KLBN4", "period": "3mo"}
+{"ts": "2026-04-17T12:59:06Z", "event": "yf_br_persisted", "ticker": "KLBN4", "prices": 62, "dividends": 58, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 58}
+{"ts": "2026-04-17T12:59:06Z", "event": "yf_br_fetch_start", "ticker": "BRBI11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:06Z", "event": "yf_br_persisted", "ticker": "BRBI11", "prices": 62, "dividends": 16, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 16}
+{"ts": "2026-04-17T12:59:06Z", "event": "yf_br_fetch_start", "ticker": "PNVL3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:07Z", "event": "yf_br_persisted", "ticker": "PNVL3", "prices": 62, "dividends": 45, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 45}
+{"ts": "2026-04-17T12:59:07Z", "event": "yf_br_fetch_start", "ticker": "SIMH3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_persisted", "ticker": "SIMH3", "prices": 62, "dividends": 7, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 7}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_fetch_start", "ticker": "GMAT3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_persisted", "ticker": "GMAT3", "prices": 62, "dividends": 8, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 8}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_fetch_start", "ticker": "TIMS3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_persisted", "ticker": "TIMS3", "prices": 62, "dividends": 44, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 44}
+{"ts": "2026-04-17T12:59:08Z", "event": "yf_br_fetch_start", "ticker": "VIVA3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:09Z", "event": "yf_br_persisted", "ticker": "VIVA3", "prices": 62, "dividends": 9, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 9}
+{"ts": "2026-04-17T12:59:09Z", "event": "yf_br_fetch_start", "ticker": "EZTC3", "period": "3mo"}
+{"ts": "2026-04-17T12:59:09Z", "event": "yf_br_persisted", "ticker": "EZTC3", "prices": 62, "dividends": 31, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 31}
+{"ts": "2026-04-17T12:59:09Z", "event": "yf_br_fetch_start", "ticker": "BRKM5", "period": "3mo"}
+{"ts": "2026-04-17T12:59:10Z", "event": "yf_br_persisted", "ticker": "BRKM5", "prices": 62, "dividends": 16, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 16}
+{"ts": "2026-04-17T12:59:10Z", "event": "yf_br_fetch_start", "ticker": "XPML11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:10Z", "event": "yf_br_persisted", "ticker": "XPML11", "prices": 62, "dividends": 49, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 49}
+{"ts": "2026-04-17T12:59:10Z", "event": "yf_br_fetch_start", "ticker": "RBRX11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:11Z", "event": "yf_br_persisted", "ticker": "RBRX11", "prices": 62, "dividends": 42, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 42}
+{"ts": "2026-04-17T12:59:11Z", "event": "yf_br_fetch_start", "ticker": "BTLG11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:11Z", "event": "yf_br_persisted", "ticker": "BTLG11", "prices": 62, "dividends": 50, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 50}
+{"ts": "2026-04-17T12:59:11Z", "event": "yf_br_fetch_start", "ticker": "VGIR11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:12Z", "event": "yf_br_persisted", "ticker": "VGIR11", "prices": 62, "dividends": 48, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 48}
+{"ts": "2026-04-17T12:59:12Z", "event": "yf_br_fetch_start", "ticker": "PVBI11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:12Z", "event": "yf_br_persisted", "ticker": "PVBI11", "prices": 62, "dividends": 65, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 65}
+{"ts": "2026-04-17T12:59:12Z", "event": "yf_br_fetch_start", "ticker": "PMLL11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:13Z", "event": "yf_br_persisted", "ticker": "PMLL11", "prices": 62, "dividends": 47, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 47}
+{"ts": "2026-04-17T12:59:13Z", "event": "yf_br_fetch_start", "ticker": "TRXF11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:13Z", "event": "yf_br_persisted", "ticker": "TRXF11", "prices": 62, "dividends": 48, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 48}
+{"ts": "2026-04-17T12:59:13Z", "event": "yf_br_fetch_start", "ticker": "GARE11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_persisted", "ticker": "GARE11", "prices": 62, "dividends": 24, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 24}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_fetch_start", "ticker": "VISC11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_persisted", "ticker": "VISC11", "prices": 62, "dividends": 49, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 49}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_fetch_start", "ticker": "RECR11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_persisted", "ticker": "RECR11", "prices": 62, "dividends": 46, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 46}
+{"ts": "2026-04-17T12:59:14Z", "event": "yf_br_fetch_start", "ticker": "HGRU11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:15Z", "event": "yf_br_persisted", "ticker": "HGRU11", "prices": 62, "dividends": 48, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 48}
+{"ts": "2026-04-17T12:59:15Z", "event": "yf_br_fetch_start", "ticker": "HGLG11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:15Z", "event": "yf_br_persisted", "ticker": "HGLG11", "prices": 62, "dividends": 51, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 51}
+{"ts": "2026-04-17T12:59:15Z", "event": "yf_br_fetch_start", "ticker": "MCRF11", "period": "3mo"}HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MCRF11.SA"}}}
+$MCRF11.SA: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+$MCRF11.SA: possibly delisted; no timezone found
+
+{"ts": "2026-04-17T12:59:18Z", "event": "yf_br_fetch_start", "ticker": "KNCR11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:19Z", "event": "yf_br_persisted", "ticker": "KNCR11", "prices": 62, "dividends": 51, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 51}
+{"ts": "2026-04-17T12:59:19Z", "event": "yf_br_fetch_start", "ticker": "VGIP11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:19Z", "event": "yf_br_persisted", "ticker": "VGIP11", "prices": 62, "dividends": 47, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 47}
+{"ts": "2026-04-17T12:59:19Z", "event": "yf_br_fetch_start", "ticker": "BRCO11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:20Z", "event": "yf_br_persisted", "ticker": "BRCO11", "prices": 62, "dividends": 50, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 50}
+{"ts": "2026-04-17T12:59:20Z", "event": "yf_br_fetch_start", "ticker": "MCCI11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:20Z", "event": "yf_br_persisted", "ticker": "MCCI11", "prices": 62, "dividends": 49, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 49}
+{"ts": "2026-04-17T12:59:20Z", "event": "yf_br_fetch_start", "ticker": "XPLG11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:21Z", "event": "yf_br_persisted", "ticker": "XPLG11", "prices": 62, "dividends": 47, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 47}
+{"ts": "2026-04-17T12:59:21Z", "event": "yf_br_fetch_start", "ticker": "KNRI11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:21Z", "event": "yf_br_persisted", "ticker": "KNRI11", "prices": 62, "dividends": 51, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 51}
+{"ts": "2026-04-17T12:59:21Z", "event": "yf_br_fetch_start", "ticker": "RBRY11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:22Z", "event": "yf_br_persisted", "ticker": "RBRY11", "prices": 62, "dividends": 49, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 49}
+{"ts": "2026-04-17T12:59:22Z", "event": "yf_br_fetch_start", "ticker": "VRTA11", "period": "3mo"}
+{"ts": "2026-04-17T12:59:23Z", "event": "yf_br_persisted", "ticker": "VRTA11", "prices": 62, "dividends": 50, "price_range": ["2026-01-16", "2026-04-16"], "div_count_all_time": 50}
+
+============================================================
+== 3/5  fiis.com.br + fallback Status Invest
+============================================================
+{"ts": "2026-04-17T12:59:23Z", "event": "fii_fetch_start", "ticker": "XPML11"}
+{"ts": "2026-04-17T12:59:25Z", "event": "fii_fetched", "ticker": "XPML11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 109.75, "vpa": 110.46, "pvp": 0.99, "dy_12m": 0.1013, "last_monthly_rendimento": 0.92, "adtv_daily": 10200000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Shoppings", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:25Z", "event": "fii_fetch_start", "ticker": "RBRX11"}
+{"ts": "2026-04-17T12:59:26Z", "event": "fii_fetched", "ticker": "RBRX11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 8.63, "vpa": 9.86, "pvp": 0.87, "dy_12m": 0.125, "last_monthly_rendimento": 0.09, "adtv_daily": 11400000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Títulos e Valores Mobiliários", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:26Z", "event": "fii_fetch_start", "ticker": "BTLG11"}
+{"ts": "2026-04-17T12:59:28Z", "event": "fii_fetched", "ticker": "BTLG11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 103.98, "vpa": 102.69, "pvp": 1.01, "dy_12m": 0.0911, "last_monthly_rendimento": 0.8, "adtv_daily": 8700000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:28Z", "event": "fii_fetch_start", "ticker": "VGIR11"}
+{"ts": "2026-04-17T12:59:31Z", "event": "fii_fetched", "ticker": "VGIR11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 9.83, "vpa": 9.79, "pvp": 1.0, "dy_12m": 0.1553, "last_monthly_rendimento": 0.12, "adtv_daily": 3400000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:31Z", "event": "fii_fetch_start", "ticker": "PVBI11"}
+{"ts": "2026-04-17T12:59:32Z", "event": "fii_fetched", "ticker": "PVBI11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 76.38, "vpa": 107.85, "pvp": 0.71, "dy_12m": 0.0727, "last_monthly_rendimento": 0.4, "adtv_daily": 3500000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Lajes Corporativas", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:32Z", "event": "fii_fetch_start", "ticker": "PMLL11"}
+{"ts": "2026-04-17T12:59:34Z", "event": "fii_fetch_parse_empty_primary", "ticker": "PMLL11"}
+{"ts": "2026-04-17T12:59:34Z", "event": "fii_fetch_fallback_statusinvest", "ticker": "PMLL11"}
+{"ts": "2026-04-17T12:59:37Z", "event": "fii_fetched", "ticker": "PMLL11", "period": "2026-04-17", "source": "statusinvest", "dividends_parsed": 0, "fields": {"price": 108.85, "vpa": 117.23, "pvp": 0.93, "dy_12m": 0.09348644924207626, "last_monthly_rendimento": null, "adtv_daily": null, "avg_monthly_rendimento_24m": 0.848, "segment_anbima": "Shoppings", "management_type": null, "distribution_streak_months": null}}
+{"ts": "2026-04-17T12:59:37Z", "event": "fii_fetch_start", "ticker": "TRXF11"}
+{"ts": "2026-04-17T12:59:40Z", "event": "fii_fetched", "ticker": "TRXF11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 91.8, "vpa": 100.95, "pvp": 0.91, "dy_12m": 0.12890000000000001, "last_monthly_rendimento": 0.93, "adtv_daily": 15500000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Híbrido", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:40Z", "event": "fii_fetch_start", "ticker": "GARE11"}
+{"ts": "2026-04-17T12:59:42Z", "event": "fii_fetched", "ticker": "GARE11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 8.4, "vpa": 9.48, "pvp": 0.89, "dy_12m": 0.1177, "last_monthly_rendimento": 0.08, "adtv_daily": 10000000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Híbrido", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:42Z", "event": "fii_fetch_start", "ticker": "VISC11"}
+{"ts": "2026-04-17T12:59:44Z", "event": "fii_fetched", "ticker": "VISC11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 108.76, "vpa": 118.07, "pvp": 0.92, "dy_12m": 0.0904, "last_monthly_rendimento": 0.84, "adtv_daily": 4300000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Shoppings", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:44Z", "event": "fii_fetch_start", "ticker": "RECR11"}
+{"ts": "2026-04-17T12:59:46Z", "event": "fii_fetched", "ticker": "RECR11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 81.84, "vpa": 89.49, "pvp": 0.91, "dy_12m": 0.1363, "last_monthly_rendimento": 0.73, "adtv_daily": 2000000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Títulos e Valores Mobiliários", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:46Z", "event": "fii_fetch_start", "ticker": "HGRU11"}
+{"ts": "2026-04-17T12:59:47Z", "event": "fii_fetched", "ticker": "HGRU11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 128.0, "vpa": 129.14, "pvp": 0.99, "dy_12m": 0.0968, "last_monthly_rendimento": 0.95, "adtv_daily": 2300000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:47Z", "event": "fii_fetch_start", "ticker": "HGLG11"}
+{"ts": "2026-04-17T12:59:49Z", "event": "fii_fetched", "ticker": "HGLG11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 156.5, "vpa": 165.74, "pvp": 0.94, "dy_12m": 0.08439999999999999, "last_monthly_rendimento": 1.1, "adtv_daily": 12100000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Logística", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:49Z", "event": "fii_fetch_start", "ticker": "MCRF11"}
+{"ts": "2026-04-17T12:59:50Z", "event": "fii_fetch_primary_http", "ticker": "MCRF11", "status": 404}
+{"ts": "2026-04-17T12:59:50Z", "event": "fii_fetch_fallback_statusinvest", "ticker": "MCRF11"}
+{"ts": "2026-04-17T12:59:52Z", "event": "fii_fetch_failed", "ticker": "MCRF11"}
+{"ts": "2026-04-17T12:59:52Z", "event": "fii_fetch_start", "ticker": "KNCR11"}
+{"ts": "2026-04-17T12:59:53Z", "event": "fii_fetched", "ticker": "KNCR11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 105.48, "vpa": 102.29, "pvp": 1.03, "dy_12m": 0.1391, "last_monthly_rendimento": 1.15, "adtv_daily": 14900000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Títulos e Valores Mobiliários", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:53Z", "event": "fii_fetch_start", "ticker": "VGIP11"}
+{"ts": "2026-04-17T12:59:55Z", "event": "fii_fetched", "ticker": "VGIP11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 79.9, "vpa": 91.5, "pvp": 0.87, "dy_12m": 0.13849999999999998, "last_monthly_rendimento": 0.74, "adtv_daily": 1700000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:55Z", "event": "fii_fetch_start", "ticker": "BRCO11"}
+{"ts": "2026-04-17T12:59:56Z", "event": "fii_fetched", "ticker": "BRCO11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 115.23, "vpa": 116.5, "pvp": 0.99, "dy_12m": 0.09300000000000001, "last_monthly_rendimento": 0.92, "adtv_daily": 5000000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Logística", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:56Z", "event": "fii_fetch_start", "ticker": "MCCI11"}
+{"ts": "2026-04-17T12:59:58Z", "event": "fii_fetched", "ticker": "MCCI11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 95.72, "vpa": 95.7, "pvp": 1.0, "dy_12m": 0.1211, "last_monthly_rendimento": 1.0, "adtv_daily": 3900000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:58Z", "event": "fii_fetch_start", "ticker": "XPLG11"}
+{"ts": "2026-04-17T12:59:59Z", "event": "fii_fetched", "ticker": "XPLG11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 100.05, "vpa": 106.03, "pvp": 0.94, "dy_12m": 0.0984, "last_monthly_rendimento": 0.82, "adtv_daily": 3700000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Logística", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T12:59:59Z", "event": "fii_fetch_start", "ticker": "KNRI11"}
+{"ts": "2026-04-17T13:00:00Z", "event": "fii_fetched", "ticker": "KNRI11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 168.0, "vpa": 164.0, "pvp": 1.02, "dy_12m": 0.07400000000000001, "last_monthly_rendimento": 1.1, "adtv_daily": 3900000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Híbrido", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T13:00:00Z", "event": "fii_fetch_start", "ticker": "RBRY11"}
+{"ts": "2026-04-17T13:00:02Z", "event": "fii_fetched", "ticker": "RBRY11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 96.97, "vpa": 100.18, "pvp": 0.97, "dy_12m": 0.1451, "last_monthly_rendimento": 1.09, "adtv_daily": 3500000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+{"ts": "2026-04-17T13:00:02Z", "event": "fii_fetch_start", "ticker": "VRTA11"}
+{"ts": "2026-04-17T13:00:03Z", "event": "fii_fetched", "ticker": "VRTA11", "period": "2026-04-17", "source": "fiis.com.br", "dividends_parsed": 6, "fields": {"price": 77.39, "vpa": 85.01, "pvp": 0.91, "dy_12m": 0.132, "last_monthly_rendimento": 0.85, "adtv_daily": 1300000.0, "avg_monthly_rendimento_24m": null, "segment_anbima": "Outros", "management_type": "Ativa", "distribution_streak_months": 6}}
+
+============================================================
+== 4/5  recompute FII streaks
+============================================================
+FIIs a processar: 21
+  BRCO11: streak=49m
+  BTLG11: streak=48m
+  GARE11: streak=4m
+  HGLG11: streak=49m
+  HGRU11: streak=4m
+  KNCR11: streak=49m
+  KNRI11: streak=49m
+  MCCI11: streak=49m
+  MCRF11: sem dividendos na DB — skip
+  PMLL11: streak=7m
+  PVBI11: streak=2m
+  RBRX11: streak=37m
+  RBRY11: streak=49m
+  RECR11: streak=27m
+  TRXF11: streak=4m
+  VGIP11: streak=32m
+  VGIR11: streak=32m
+  VISC11: streak=48m
+  VRTA11: streak=45m
+  XPLG11: streak=26m
+  XPML11: streak=49m
+
+============================================================
+== 5/5  scoring BR
+============================================================
+{
+  "ticker": "PRIO3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 41.4171,
+      "threshold": 64.25,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.0873,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 3.26,
+      "threshold": 3.0,
+      "verdict": "fail"
+    },
+    "dividend_streak": {
+      "value": 1,
+      "threshold": 5,
+      "verdict": "fail"
+    }
+  }
+}
+{
+  "ticker": "VALE3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 54.5723,
+      "threshold": 87.44000244140625,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.062,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.0731,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 0.8,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 19,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "BBDC4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 9.2,
+      "threshold": 10,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 1.23,
+      "threshold": 1.5,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.059800000000000006,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.13369999999999999,
+      "threshold": 0.12,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 20,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "ITSA4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "graham_number": {
+      "value": 16.5986,
+      "threshold": 14.8100004196167,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.08539999999999999,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.1766,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 0.25,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "holding company (EBITDA de equivalência patrimonial)"
+    },
+    "dividend_streak": {
+      "value": 20,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "PETR4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "graham_number": {
+      "value": 78.9029,
+      "threshold": 48.58000183105469,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0687,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.2637,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 0.94,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 8,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "AXIA7",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.3333,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 45.3642,
+      "threshold": 62.88999938964844,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.0553,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": -7.87,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "CPLE3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 16.799999237060547,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "ALOS3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 31.9928,
+      "threshold": 33.27000045776367,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0654,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.06,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": -1.07,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 6,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "B3SA3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 8.4169,
+      "threshold": 19.780000686645508,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0308,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.2626,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": -0.06,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 11,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "ENGI11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.08,
+      "verdict": "n/a",
+      "reason": "DY 12m em falta"
+    },
+    "price_to_book": {
+      "value": null,
+      "threshold": 1.05,
+      "verdict": "n/a",
+      "reason": "P/VP em falta"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": null,
+      "threshold": 12,
+      "verdict": "n/a",
+      "reason": "histórico de distribuição em falta"
+    },
+    "liquidity": {
+      "value": null,
+      "threshold": 500000,
+      "verdict": "n/a",
+      "reason": "liquidez em falta"
+    },
+    "spread_selic_real": {
+      "value": null,
+      "threshold": 0.0,
+      "verdict": "n/a",
+      "reason": "SELIC real ou DY em falta"
+    }
+  }
+}
+{
+  "ticker": "ITUB4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 11.44,
+      "threshold": 10,
+      "verdict": "fail"
+    },
+    "price_to_book": {
+      "value": 2.39,
+      "threshold": 1.5,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0677,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.2086,
+      "threshold": 0.12,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 18,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "EQTL3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.25,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 25.9483,
+      "threshold": 45.2599983215332,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0507,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.0592,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": 15,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "MOTV3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.4,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 17.1402,
+      "threshold": 17.280000686645508,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0277,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.2014,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 3.85,
+      "threshold": 3.0,
+      "verdict": "fail"
+    },
+    "dividend_streak": {
+      "value": 18,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "MULT3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 24.7666,
+      "threshold": 34.40999984741211,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0232,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.18109999999999998,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 2.17,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 17,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "PGMN3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.4,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 5.8811,
+      "threshold": 5.670000076293945,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.043899999999999995,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.08410000000000001,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 0.91,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 3,
+      "threshold": 5,
+      "verdict": "fail"
+    }
+  }
+}
+{
+  "ticker": "PLPL3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 14.976,
+      "threshold": 12.819999694824219,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0355,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.31679999999999997,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": -0.04,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 5,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "RAPT4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.25,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 5.460000038146973,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": 0.0084,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": -0.0528,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 4.2,
+      "threshold": 3.0,
+      "verdict": "fail"
+    },
+    "dividend_streak": {
+      "value": 9,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "RDOR3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 20.8667,
+      "threshold": 39.25,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.1007,
+      "threshold": 0.06,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.2168,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 0.47,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 6,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "RENT3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.4,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 29.2182,
+      "threshold": 50.779998779296875,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0404,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.07339999999999999,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 1.97,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 20,
+      "threshold": 5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "SUZB3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 91.1069,
+      "threshold": 47.529998779296875,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.023,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.30510000000000004,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 1.75,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 4,
+      "threshold": 5,
+      "verdict": "fail"
+    }
+  }
+}
+{
+  "ticker": "TTEN3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": 18.5574,
+      "threshold": 15.699999809265137,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.011200000000000002,
+      "threshold": 0.06,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.17350000000000002,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "net_debt_ebitda": {
+      "value": 1.93,
+      "threshold": 3.0,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 4,
+      "threshold": 5,
+      "verdict": "fail"
+    }
+  }
+}
+{
+  "ticker": "WIZC3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 9.529999732971191,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "BBSE3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 35.0099983215332,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "BBAS3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 24.280000686645508,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "UNIP6",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 62.470001220703125,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "SEER3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 13.449999809265137,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "SLCE3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 18.100000381469727,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "TUPY3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 15.100000381469727,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "EGIE3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 38.189998626708984,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "VAMO3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 4.150000095367432,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "KLBN4",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 3.799999952316284,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "BRBI11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.08,
+      "verdict": "n/a",
+      "reason": "DY 12m em falta"
+    },
+    "price_to_book": {
+      "value": null,
+      "threshold": 1.05,
+      "verdict": "n/a",
+      "reason": "P/VP em falta"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": null,
+      "threshold": 12,
+      "verdict": "n/a",
+      "reason": "histórico de distribuição em falta"
+    },
+    "liquidity": {
+      "value": null,
+      "threshold": 500000,
+      "verdict": "n/a",
+      "reason": "liquidez em falta"
+    },
+    "spread_selic_real": {
+      "value": null,
+      "threshold": 0.0,
+      "verdict": "n/a",
+      "reason": "SELIC real ou DY em falta"
+    }
+  }
+}
+{
+  "ticker": "PNVL3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 14.609999656677246,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "SIMH3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 11.1899995803833,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "GMAT3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 4.599999904632568,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "TIMS3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 26.540000915527344,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "VIVA3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 27.5,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "EZTC3",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 15.430000305175781,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "BRKM5",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "graham_number": {
+      "value": null,
+      "threshold": 9.369999885559082,
+      "verdict": "n/a",
+      "reason": "EPS/BVPS em falta ou não positivos"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.06,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "net_debt_ebitda": {
+      "value": null,
+      "threshold": 3.0,
+      "verdict": "n/a",
+      "reason": "Dív. líq/EBITDA em falta"
+    },
+    "dividend_streak": {
+      "value": null,
+      "threshold": 5,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "XPML11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1013,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.99,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 10200000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0048,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.1013,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "RBRX11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.125,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.87,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "FII de papel — vacância não aplicável"
+    },
+    "distribution_streak": {
+      "value": 37,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 11400000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0189,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.125,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "BTLG11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0911,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 1.01,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 48,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 8700000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.015,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.0911,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "VGIR11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1553,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 1.0,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 32,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 3400000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0492,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1553,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "PVBI11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.4,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0727,
+      "threshold": 0.08,
+      "verdict": "fail"
+    },
+    "price_to_book": {
+      "value": 0.71,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 2,
+      "threshold": 12,
+      "verdict": "fail"
+    },
+    "liquidity": {
+      "value": 3500000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0334,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.0727,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "PMLL11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.5,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.09348644924207626,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.93,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 7,
+      "threshold": 12,
+      "verdict": "fail"
+    },
+    "liquidity": {
+      "value": null,
+      "threshold": 500000,
+      "verdict": "n/a",
+      "reason": "liquidez em falta"
+    },
+    "spread_selic_real": {
+      "value": -0.0126,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.09348644924207626,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "TRXF11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.12890000000000001,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.91,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 4,
+      "threshold": 12,
+      "verdict": "fail"
+    },
+    "liquidity": {
+      "value": 15500000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0228,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.12890000000000001,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "GARE11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1177,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.89,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 4,
+      "threshold": 12,
+      "verdict": "fail"
+    },
+    "liquidity": {
+      "value": 10000000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0116,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1177,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "VISC11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0904,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.92,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 48,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 4300000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0157,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.0904,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "RECR11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1363,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.91,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "FII de papel — vacância não aplicável"
+    },
+    "distribution_streak": {
+      "value": 27,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 2000000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0302,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1363,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "HGRU11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0968,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.99,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 4,
+      "threshold": 12,
+      "verdict": "fail"
+    },
+    "liquidity": {
+      "value": 2300000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0093,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.0968,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "HGLG11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.08439999999999999,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.94,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 12100000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0217,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.08439999999999999,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "MCRF11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.08,
+      "verdict": "n/a",
+      "reason": "DY 12m em falta"
+    },
+    "price_to_book": {
+      "value": null,
+      "threshold": 1.05,
+      "verdict": "n/a",
+      "reason": "P/VP em falta"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": null,
+      "threshold": 12,
+      "verdict": "n/a",
+      "reason": "histórico de distribuição em falta"
+    },
+    "liquidity": {
+      "value": null,
+      "threshold": 500000,
+      "verdict": "n/a",
+      "reason": "liquidez em falta"
+    },
+    "spread_selic_real": {
+      "value": null,
+      "threshold": 0.0,
+      "verdict": "n/a",
+      "reason": "SELIC real ou DY em falta"
+    }
+  }
+}
+{
+  "ticker": "KNCR11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1391,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 1.03,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "FII de papel — vacância não aplicável"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 14900000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.033,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1391,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "VGIP11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.13849999999999998,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.87,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 32,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 1700000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0324,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.13849999999999998,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "BRCO11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.09300000000000001,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.99,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 5000000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0131,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.09300000000000001,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "MCCI11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1211,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 1.0,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 3900000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.015,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1211,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "XPLG11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0984,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.94,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 26,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 3700000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0077,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.0984,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "KNRI11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.07400000000000001,
+      "threshold": 0.08,
+      "verdict": "fail"
+    },
+    "price_to_book": {
+      "value": 1.02,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 3900000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": -0.0321,
+      "threshold": 0.0,
+      "verdict": "fail",
+      "dy": 0.07400000000000001,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "RBRY11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.1451,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.97,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 49,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 3500000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.039,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.1451,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+{
+  "ticker": "VRTA11",
+  "market": "br",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "dividend_yield": {
+      "value": 0.132,
+      "threshold": 0.08,
+      "verdict": "pass"
+    },
+    "price_to_book": {
+      "value": 0.91,
+      "threshold": 1.05,
+      "verdict": "pass"
+    },
+    "vacancy": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "vacância física em falta"
+    },
+    "distribution_streak": {
+      "value": 45,
+      "threshold": 12,
+      "verdict": "pass"
+    },
+    "liquidity": {
+      "value": 1300000.0,
+      "threshold": 500000,
+      "verdict": "pass"
+    },
+    "spread_selic_real": {
+      "value": 0.0259,
+      "threshold": 0.0,
+      "verdict": "pass",
+      "dy": 0.132,
+      "selic_real": 0.1061,
+      "proxy": "SELIC-IPCA (NTN-B mais fiel na Fase 2)"
+    }
+  }
+}
+
+============================================================
+== SUMÁRIO  (87.7s)
+============================================================
+[BCB]       OK 5  BAD 0
+            SELIC_DAILY: 41 rows
+            SELIC_META: 61 rows
+            CDI_DAILY: 41 rows
+            IPCA_MONTHLY: 2 rows
+            USDBRL_PTAX: 41 rows
+[yfinance]  OK 59  BAD 1
+            BAD MCRF11: 'PriceHistory' object has no attribute '_dividends'
+[fiis.com]  OK 20  BAD 1
+            BAD MCRF11
+[scoring]   PASS 10  FAIL 50  ERR 0
+  Passes screen:
+    ITSA4: score=1.0
+    PETR4: score=1.0
+    RBRX11: score=1.0
+    VGIR11: score=1.0
+    RECR11: score=1.0
+    KNCR11: score=1.0
+    VGIP11: score=1.0
+    MCCI11: score=1.0
+    RBRY11: score=1.0
+    VRTA11: score=1.0
+BR exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-04-17T13:00:03Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_download_done", "year": 2026, "total_rows": 14024}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "PRIO3", "matches": 16, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "VALE3", "matches": 37, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "BBDC4", "matches": 12, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "ITSA4", "matches": 6, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "PETR4", "matches": 35, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "AXIA7", "matches": 8, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "CPLE3", "matches": 10, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "ALOS3", "matches": 11, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "B3SA3", "matches": 10, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "ENGI11", "matches": 10, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "ITUB4", "matches": 6, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "EQTL3", "matches": 18, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "MOTV3", "matches": 11, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "MULT3", "matches": 9, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "PGMN3", "matches": 9, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "RAPT4", "matches": 6, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "RDOR3", "matches": 4, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "RENT3", "matches": 12, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "SUZB3", "matches": 10, "inserted": 0}
+{"ts": "2026-04-17T13:00:06Z", "event": "cvm_all_done", "year": 2026, "tickers": 21, "total_inserted": 0}
+
+=== CVM monitor ===
+Tickers processados: 21
+Novos eventos inseridos: 0
+CVM exit code: 0 
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20  (best-effort, CVM RAD flaky) 
+{"ts": "2026-04-17T13:00:07Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-04-17T13:00:10Z", "event": "extract_result", "event_id": 170, "ticker": "ALOS3", "date": "2026-04-10", "kind": "fato_relevante", "ok": true, "msg": "7371 chars"}
+{"ts": "2026-04-17T13:00:13Z", "event": "extract_result", "event_id": 208, "ticker": "EQTL3", "date": "2026-04-10", "kind": "comunicado", "ok": true, "msg": "2332 chars"}
+{"ts": "2026-04-17T13:00:16Z", "event": "extract_result", "event_id": 220, "ticker": "MOTV3", "date": "2026-04-10", "kind": "comunicado", "ok": true, "msg": "4667 chars"}
+{"ts": "2026-04-17T13:00:19Z", "event": "extract_result", "event_id": 134, "ticker": "PETR4", "date": "2026-04-09", "kind": "comunicado", "ok": true, "msg": "2718 chars"}
+{"ts": "2026-04-17T13:00:22Z", "event": "extract_result", "event_id": 18, "ticker": "PRIO3", "date": "2026-04-08", "kind": "comunicado", "ok": true, "msg": "5287 chars"}
+{"ts": "2026-04-17T13:00:24Z", "event": "extract_result", "event_id": 133, "ticker": "PETR4", "date": "2026-04-08", "kind": "comunicado", "ok": true, "msg": "1724 chars"}
+{"ts": "2026-04-17T13:00:35Z", "event": "extract_result", "event_id": 9, "ticker": "PRIO3", "date": "2026-04-07", "kind": "comunicado", "ok": true, "msg": "16027 chars"}
+{"ts": "2026-04-17T13:00:58Z", "event": "extract_result", "event_id": 228, "ticker": "MULT3", "date": "2026-04-07", "kind": "comunicado", "ok": true, "msg": "21506 chars"}
+{"ts": "2026-04-17T13:01:23Z", "event": "extract_result", "event_id": 229, "ticker": "MULT3", "date": "2026-04-07", "kind": "comunicado", "ok": true, "msg": "24572 chars"}
+{"ts": "2026-04-17T13:01:26Z", "event": "extract_result", "event_id": 90, "ticker": "VALE3", "date": "2026-04-06", "kind": "comunicado", "ok": true, "msg": "4110 chars"}
+{"ts": "2026-04-17T13:01:28Z", "event": "extract_result", "event_id": 103, "ticker": "BBDC4", "date": "2026-04-06", "kind": "comunicado", "ok": true, "msg": "2188 chars"}
+{"ts": "2026-04-17T13:01:31Z", "event": "extract_result", "event_id": 131, "ticker": "PETR4", "date": "2026-04-06", "kind": "comunicado", "ok": true, "msg": "1914 chars"}
+{"ts": "2026-04-17T13:01:34Z", "event": "extract_result", "event_id": 132, "ticker": "PETR4", "date": "2026-04-06", "kind": "comunicado", "ok": true, "msg": "2732 chars"}
+{"ts": "2026-04-17T13:01:36Z", "event": "extract_result", "event_id": 141, "ticker": "PETR4", "date": "2026-04-06", "kind": "fato_relevante", "ok": true, "msg": "1494 chars"}
+{"ts": "2026-04-17T13:01:41Z", "event": "extract_result", "event_id": 167, "ticker": "ALOS3", "date": "2026-04-06", "kind": "comunicado", "ok": true, "msg": "6925 chars"}
+{"ts": "2026-04-17T13:01:44Z", "event": "extract_result", "event_id": 291, "ticker": "PRIO3", "date": "2026-04-06", "kind": "fato_relevante", "ok": true, "msg": "6142 chars"}
+{"ts": "2026-04-17T13:01:49Z", "event": "extract_result", "event_id": 89, "ticker": "VALE3", "date": "2026-04-02", "kind": "comunicado", "ok": true, "msg": "35020 chars"}
+{"ts": "2026-04-17T13:01:52Z", "event": "extract_result", "event_id": 111, "ticker": "PETR4", "date": "2026-04-02", "kind": "comunicado", "ok": true, "msg": "7513 chars"}
+{"ts": "2026-04-17T13:01:55Z", "event": "extract_result", "event_id": 130, "ticker": "PETR4", "date": "2026-04-02", "kind": "comunicado", "ok": true, "msg": "3144 chars"}
+{"ts": "2026-04-17T13:01:59Z", "event": "extract_result", "event_id": 166, "ticker": "ALOS3", "date": "2026-04-02", "kind": "comunicado", "ok": true, "msg": "5773 chars"}
+{"ts": "2026-04-17T13:01:59Z", "event": "extract_done", "ok": 20, "fail": 0}
+CVM-PDF exit code (ignored): 0 
+ 
+[US] daily_update_us.py 
+Universo US: 27 tickers
+
+============================================================
+== 1/2  yfinance US  (period=3mo)
+============================================================
+{"ts": "2026-04-17T13:02:00Z", "event": "yf_us_fetch_start", "ticker": "JNJ", "period": "3mo"}
+{"ts": "2026-04-17T13:02:05Z", "event": "yf_us_persisted", "ticker": "JNJ", "prices": 61, "dividends": 257, "period_end": "2026-04-17", "pe": 21.28312, "pb": 6.925734, "dy": 0.0229, "roe": null, "streak": 65}
+{"ts": "2026-04-17T13:02:05Z", "event": "yf_us_fetch_start", "ticker": "JPM", "period": "3mo"}
+{"ts": "2026-04-17T13:02:09Z", "event": "yf_us_persisted", "ticker": "JPM", "prices": 61, "dividends": 170, "period_end": "2026-04-17", "pe": 14.837244, "pb": 2.414317, "dy": 0.0194, "roe": 0.16465001, "streak": 43}
+{"ts": "2026-04-17T13:02:09Z", "event": "yf_us_fetch_start", "ticker": "BLK", "period": "3mo"}
+{"ts": "2026-04-17T13:02:12Z", "event": "yf_us_persisted", "ticker": "BLK", "prices": 61, "dividends": 91, "period_end": "2026-04-17", "pe": 25.771936, "pb": 2.843868, "dy": 0.022400000000000003, "roe": null, "streak": 24}
+{"ts": "2026-04-17T13:02:12Z", "event": "yf_us_fetch_start", "ticker": "O", "period": "3mo"}
+{"ts": "2026-04-17T13:02:16Z", "event": "yf_us_persisted", "ticker": "O", "prices": 61, "dividends": 377, "period_end": "2026-04-17", "pe": 55.247864, "pb": 1.5307741, "dy": 0.05, "roe": 0.02702, "streak": 33}
+{"ts": "2026-04-17T13:02:16Z", "event": "yf_us_fetch_start", "ticker": "TSM", "period": "3mo"}
+{"ts": "2026-04-17T13:02:19Z", "event": "yf_us_persisted", "ticker": "TSM", "prices": 61, "dividends": 43, "period_end": "2026-04-17", "pe": 31.162094, "pb": 55.580597, "dy": 0.97, "roe": 0.36595002, "streak": 23}
+{"ts": "2026-04-17T13:02:19Z", "event": "yf_us_fetch_start", "ticker": "PG", "period": "3mo"}
+{"ts": "2026-04-17T13:02:22Z", "event": "yf_us_persisted", "ticker": "PG", "prices": 61, "dividends": 258, "period_end": "2026-04-17", "pe": 21.20148, "pb": 6.362424, "dy": 0.0298, "roe": 0.31562, "streak": 65}
+{"ts": "2026-04-17T13:02:22Z", "event": "yf_us_fetch_start", "ticker": "TEN", "period": "3mo"}
+{"ts": "2026-04-17T13:02:24Z", "event": "yf_us_persisted", "ticker": "TEN", "prices": 61, "dividends": 60, "period_end": "2026-04-17", "pe": 8.69663, "pb": 0.6193784, "dy": 0.0258, "roe": 0.09087, "streak": 24}
+{"ts": "2026-04-17T13:02:24Z", "event": "yf_us_fetch_start", "ticker": "AAPL", "period": "3mo"}
+{"ts": "2026-04-17T13:02:28Z", "event": "yf_us_persisted", "ticker": "AAPL", "prices": 61, "dividends": 90, "period_end": "2026-04-17", "pe": 33.34177, "pb": 43.914635, "dy": 0.39, "roe": 1.5202099, "streak": 15}
+{"ts": "2026-04-17T13:02:28Z", "event": "yf_us_fetch_start", "ticker": "TSLA", "period": "3mo"}
+{"ts": "2026-04-17T13:02:32Z", "event": "yf_us_persisted", "ticker": "TSLA", "prices": 61, "dividends": 0, "period_end": "2026-04-17", "pe": 356.78897, "pb": 17.760424, "dy": null, "roe": 0.049250003, "streak": null}
+{"ts": "2026-04-17T13:02:32Z", "event": "yf_us_fetch_start", "ticker": "GS", "period": "3mo"}
+{"ts": "2026-04-17T13:02:36Z", "event": "yf_us_persisted", "ticker": "GS", "prices": 61, "dividends": 108, "period_end": "2026-04-17", "pe": 16.447369, "pb": 2.5247355, "dy": 0.02, "roe": 0.14591, "streak": 28}
+{"ts": "2026-04-17T13:02:36Z", "event": "yf_us_fetch_start", "ticker": "KO", "period": "3mo"}
+{"ts": "2026-04-17T13:02:39Z", "event": "yf_us_persisted", "ticker": "KO", "prices": 61, "dividends": 257, "period_end": "2026-04-17", "pe": 24.730263, "pb": 10.05349, "dy": 0.0274, "roe": 0.43323, "streak": 65}
+{"ts": "2026-04-17T13:02:39Z", "event": "yf_us_fetch_start", "ticker": "BRK-B", "period": "3mo"}
+{"ts": "2026-04-17T13:02:43Z", "event": "yf_us_persisted", "ticker": "BRK-B", "prices": 61, "dividends": 0, "period_end": "2026-04-17", "pe": 15.311633, "pb": 0.00095278776, "dy": null, "roe": 0.09809, "streak": null}
+{"ts": "2026-04-17T13:02:43Z", "event": "yf_us_fetch_start", "ticker": "XP", "period": "3mo"}
+{"ts": "2026-04-17T13:02:46Z", "event": "yf_us_persisted", "ticker": "XP", "prices": 61, "dividends": 4, "period_end": "2026-04-17", "pe": 10.83077, "pb": 2.3251922, "dy": 0.85, "roe": 0.23715, "streak": 3}
+{"ts": "2026-04-17T13:02:46Z", "event": "yf_us_fetch_start", "ticker": "GREK", "period": "3mo"}
+{"ts": "2026-04-17T13:02:48Z", "event": "yf_us_persisted", "ticker": "GREK", "prices": 61, "dividends": 21, "period_end": "2026-04-17", "pe": 11.439788, "pb": null, "dy": 0.0359, "roe": null, "streak": 15}
+{"ts": "2026-04-17T13:02:48Z", "event": "yf_us_fetch_start", "ticker": "HD", "period": "3mo"}
+{"ts": "2026-04-17T13:02:51Z", "event": "yf_us_persisted", "ticker": "HD", "prices": 61, "dividends": 155, "period_end": "2026-04-17", "pe": 23.692904, "pb": 26.2088, "dy": 0.0276, "roe": 1.45541, "streak": 40}
+{"ts": "2026-04-17T13:02:51Z", "event": "yf_us_fetch_start", "ticker": "BN", "period": "3mo"}
+{"ts": "2026-04-17T13:02:55Z", "event": "yf_us_persisted", "ticker": "BN", "prices": 61, "dividends": 157, "period_end": "2026-04-17", "pe": 93.77551, "pb": 2.3550818, "dy": 0.61, "roe": 0.01951, "streak": 40}
+{"ts": "2026-04-17T13:02:55Z", "event": "yf_us_fetch_start", "ticker": "PLD", "period": "3mo"}
+{"ts": "2026-04-17T13:02:58Z", "event": "yf_us_persisted", "ticker": "PLD", "prices": 61, "dividends": 113, "period_end": "2026-04-17", "pe": 40.047886, "pb": 2.486359, "dy": 0.0301, "roe": 0.06844, "streak": 30}
+{"ts": "2026-04-17T13:02:58Z", "event": "yf_us_fetch_start", "ticker": "PLTR", "period": "3mo"}
+{"ts": "2026-04-17T13:03:01Z", "event": "yf_us_persisted", "ticker": "PLTR", "prices": 61, "dividends": 0, "period_end": "2026-04-17", "pe": 226.60316, "pb": 46.215603, "dy": null, "roe": 0.25983, "streak": null}
+{"ts": "2026-04-17T13:03:01Z", "event": "yf_us_fetch_start", "ticker": "TFC", "period": "3mo"}
+{"ts": "2026-04-17T13:03:16Z", "event": "yf_us_persisted", "ticker": "TFC", "prices": 61, "dividends": 154, "period_end": "2026-04-17", "pe": 12.939791, "pb": 1.0353568, "dy": 0.0421, "roe": 0.08236, "streak": 40}
+{"ts": "2026-04-17T13:03:16Z", "event": "yf_us_fetch_start", "ticker": "NU", "period": "3mo"}
+{"ts": "2026-04-17T13:03:19Z", "event": "yf_us_persisted", "ticker": "NU", "prices": 61, "dividends": 0, "period_end": "2026-04-17", "pe": 26.603449, "pb": 6.636559, "dy": null, "roe": 0.30278, "streak": null}
+{"ts": "2026-04-17T13:03:19Z", "event": "yf_us_fetch_start", "ticker": "ACN", "period": "3mo"}
+{"ts": "2026-04-17T13:03:22Z", "event": "yf_us_persisted", "ticker": "ACN", "prices": 61, "dividends": 49, "period_end": "2026-04-17", "pe": 15.90164, "pb": 3.8217564, "dy": 0.0336, "roe": 0.24763, "streak": 22}
+{"ts": "2026-04-17T13:03:22Z", "event": "yf_us_fetch_start", "ticker": "TTD", "period": "3mo"}
+{"ts": "2026-04-17T13:03:25Z", "event": "yf_us_persisted", "ticker": "TTD", "prices": 61, "dividends": 0, "period_end": "2026-04-17", "pe": 25.288889, "pb": 4.3601537, "dy": null, "roe": 0.16317, "streak": null}
+{"ts": "2026-04-17T13:03:25Z", "event": "yf_us_fetch_start", "ticker": "V", "period": "3mo"}
+{"ts": "2026-04-17T13:03:29Z", "event": "yf_us_persisted", "ticker": "V", "prices": 61, "dividends": 71, "period_end": "2026-04-17", "pe": 29.586857, "pb": 15.728262, "dy": 0.85, "roe": 0.53954, "streak": 19}
+{"ts": "2026-04-17T13:03:29Z", "event": "yf_us_fetch_start", "ticker": "MCD", "period": "3mo"}
+{"ts": "2026-04-17T13:03:33Z", "event": "yf_us_persisted", "ticker": "MCD", "prices": 61, "dividends": 177, "period_end": "2026-04-17", "pe": 25.708544, "pb": -121.85787, "dy": 0.0242, "roe": null, "streak": 51}
+{"ts": "2026-04-17T13:03:33Z", "event": "yf_us_fetch_start", "ticker": "PEP", "period": "3mo"}
+{"ts": "2026-04-17T13:03:37Z", "event": "yf_us_persisted", "ticker": "PEP", "prices": 61, "dividends": 217, "period_end": "2026-04-17", "pe": 24.863424, "pb": 10.609592, "dy": 0.0359, "roe": 0.43879002, "streak": 55}
+{"ts": "2026-04-17T13:03:37Z", "event": "yf_us_fetch_start", "ticker": "ABBV", "period": "3mo"}
+{"ts": "2026-04-17T13:03:39Z", "event": "yf_us_persisted", "ticker": "ABBV", "prices": 61, "dividends": 54, "period_end": "2026-04-17", "pe": 88.55509, "pb": -112.96757, "dy": 0.0331, "roe": 62.25, "streak": 14}
+{"ts": "2026-04-17T13:03:39Z", "event": "yf_us_fetch_start", "ticker": "MSFT", "period": "3mo"}
+{"ts": "2026-04-17T13:03:42Z", "event": "yf_us_persisted", "ticker": "MSFT", "prices": 61, "dividends": 89, "period_end": "2026-04-17", "pe": 26.315592, "pb": 7.987456, "dy": 0.87, "roe": 0.34390998, "streak": 24}
+
+============================================================
+== 2/2  scoring US
+============================================================
+{
+  "ticker": "JNJ",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.25,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 21.28312,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 6.925734,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0229,
+      "threshold": 0.025,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "aristocrat": {
+      "value": 65,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "JPM",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 14.837244,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 2.414317,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0194,
+      "threshold": 0.025,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.16465001,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 43,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "BLK",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.5,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 25.771936,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 2.843868,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.022400000000000003,
+      "threshold": 0.025,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "aristocrat": {
+      "value": 24,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "O",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8333,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.05,
+      "threshold": 0.03,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 33,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    },
+    "price_to_book": {
+      "value": 1.5307741,
+      "threshold": 1.5,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 5.681611353940902,
+      "threshold": 6.0,
+      "verdict": "pass"
+    },
+    "p_ffo": {
+      "value": 16.82,
+      "threshold": 18,
+      "verdict": "pass",
+      "ffo_per_share": 3.84
+    },
+    "interest_coverage": {
+      "value": 4.3252046774641055,
+      "threshold": 2.5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "TSM",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 31.162094,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 55.580597,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.97,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.36595002,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 23,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "PG",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 21.20148,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 6.362424,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0298,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.31562,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 65,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "TEN",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 8.69663,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 0.6193784,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0258,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.09087,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": 24,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "AAPL",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 33.34177,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 43.914635,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.39,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 1.5202099,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 15,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "TSLA",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.0,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 356.78897,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 17.760424,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.025,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.049250003,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": null,
+      "threshold": 10,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "GS",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 16.447369,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 2.5247355,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.02,
+      "threshold": 0.025,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": 0.14591,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": 28,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "KO",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 24.730263,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 10.05349,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0274,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.43323,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 65,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "BRK-B",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6667,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 15.311633,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 0.00095278776,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.025,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.09809,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": null,
+      "threshold": 10,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "XP",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 10.83077,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 2.3251922,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.85,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.23715,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 3,
+      "threshold": 10,
+      "verdict": "fail",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "GREK",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 1.0,
+  "passes_screen": true,
+  "details": {
+    "pe": {
+      "value": 11.439788,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": null,
+      "threshold": 3,
+      "verdict": "n/a",
+      "reason": "P/B em falta"
+    },
+    "dividend_yield": {
+      "value": 0.0359,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "aristocrat": {
+      "value": 15,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "HD",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 23.692904,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 26.2088,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0276,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 1.45541,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 40,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "BN",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 93.77551,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 2.3550818,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.61,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.01951,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": 40,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "PLD",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6667,
+  "passes_screen": false,
+  "details": {
+    "dividend_yield": {
+      "value": 0.0301,
+      "threshold": 0.03,
+      "verdict": "pass"
+    },
+    "dividend_streak": {
+      "value": 30,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    },
+    "price_to_book": {
+      "value": 2.486359,
+      "threshold": 1.5,
+      "verdict": "fail"
+    },
+    "net_debt_ebitda": {
+      "value": 5.233361005796931,
+      "threshold": 6.0,
+      "verdict": "pass"
+    },
+    "p_ffo": {
+      "value": 22.26,
+      "threshold": 18,
+      "verdict": "fail",
+      "ffo_per_share": 6.39
+    },
+    "interest_coverage": {
+      "value": 7.577819284779056,
+      "threshold": 2.5,
+      "verdict": "pass"
+    }
+  }
+}
+{
+  "ticker": "PLTR",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.3333,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 226.60316,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 46.215603,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.025,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.25983,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": null,
+      "threshold": 10,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "TFC",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 12.939791,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 1.0353568,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0421,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.08236,
+      "threshold": 0.15,
+      "verdict": "fail"
+    },
+    "aristocrat": {
+      "value": 40,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "NU",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.3333,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 26.603449,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 6.636559,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.025,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.30278,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": null,
+      "threshold": 10,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "ACN",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 15.90164,
+      "threshold": 20,
+      "verdict": "pass"
+    },
+    "pb": {
+      "value": 3.8217564,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0336,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.24763,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 22,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "TTD",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.3333,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 25.288889,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 4.3601537,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": null,
+      "threshold": 0.025,
+      "verdict": "n/a",
+      "reason": "DY em falta"
+    },
+    "roe": {
+      "value": 0.16317,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": null,
+      "threshold": 10,
+      "verdict": "n/a",
+      "reason": "histórico de dividendos em falta"
+    }
+  }
+}
+{
+  "ticker": "V",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 29.586857,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 15.728262,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.85,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.53954,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 19,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "MCD",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.5,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 25.708544,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": -121.85787,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0242,
+      "threshold": 0.025,
+      "verdict": "fail"
+    },
+    "roe": {
+      "value": null,
+      "threshold": 0.15,
+      "verdict": "n/a",
+      "reason": "ROE em falta"
+    },
+    "aristocrat": {
+      "value": 51,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "PEP",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 24.863424,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 10.609592,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.0359,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.43879002,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 55,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "ABBV",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.8,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 88.55509,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": -112.96757,
+      "threshold": 3,
+      "verdict": "pass"
+    },
+    "dividend_yield": {
+      "value": 0.0331,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 62.25,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 14,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+{
+  "ticker": "MSFT",
+  "market": "us",
+  "run_date": "2026-04-17",
+  "score": 0.6,
+  "passes_screen": false,
+  "details": {
+    "pe": {
+      "value": 26.315592,
+      "threshold": 20,
+      "verdict": "fail"
+    },
+    "pb": {
+      "value": 7.987456,
+      "threshold": 3,
+      "verdict": "fail"
+    },
+    "dividend_yield": {
+      "value": 0.87,
+      "threshold": 0.025,
+      "verdict": "pass"
+    },
+    "roe": {
+      "value": 0.34390998,
+      "threshold": 0.15,
+      "verdict": "pass"
+    },
+    "aristocrat": {
+      "value": 24,
+      "threshold": 10,
+      "verdict": "pass",
+      "kind": "streak"
+    }
+  }
+}
+
+============================================================
+== SUMÁRIO US  (102.9s)
+============================================================
+[yfinance]  OK 27  BAD 0
+[scoring]   PASS 1  FAIL 26  ERR 0
+  Passes screen:
+    GREK: score=1.0
+US exit code: 0 
+ 
+[SEC] sec_monitor.py --lookback-days 30 
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-17T13:03:44Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "O", "filings": 4, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 1}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:47Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:49Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 1}
+{"ts": "2026-04-17T13:03:50Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:54Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 4}
+
+=== SEC monitor ===
+Tickers processados: 27
+Novos eventos inseridos: 4
+Por ticker com novidades:
+  TSM: 1
+  BRK-B: 1
+  BN: 1
+  TFC: 1
+SEC exit code: 0 
+ 
+[REPORT US] us_portfolio_report.py 
+Relatório: reports\us_portfolio_2026-04-17.html
+Posições: 22  |  Scoradas: 22  |  Passam: 1
+REPORT-US exit code: 0 
+ 
+[WEEKLY] weekly_report.py 
+[ok] C:\Users\paidu\investment-intelligence\reports\weekly_2026-04-17.md
+[ok] C:\Users\paidu\investment-intelligence\reports\weekly_2026-04-17.html
+WEEKLY exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 48 
+[notify] eventos janela: 2  |  já vistos: 1  |  novos: 1
+  - BRK-B 2026-04-16 | 8-K — BRK-B: 8.01,9.01
+{'arguments': 'https://www.sec.gov/Archives/edgar/data/1067983/000119312526159326/d903301d8k.htm', 'user_input': {}}
+NOTIFY exit code: 0 
+ 
+[CSV] export_macro_csv.py 
+[ok] SELIC_DAILY       9995 linhas  →  data\macro_exports\SELIC_DAILY.csv
+[ok] SELIC_META        2604 linhas  →  data\macro_exports\SELIC_META.csv
+[ok] CDI_DAILY         9999 linhas  →  data\macro_exports\CDI_DAILY.csv
+[ok] IPCA_MONTHLY       555 linhas  →  data\macro_exports\IPCA_MONTHLY.csv
+[ok] USDBRL_PTAX      10370 linhas  →  data\macro_exports\USDBRL_PTAX.csv
+CSV exit code: 0 
+ 
+[ROTATE] rotate_logs.py --days 30 
+[rotate_logs] archived: 0  kept_recent: 2  large_rotated: 0
+ROTATE exit code: 0 
+Done 16:04:01.34 

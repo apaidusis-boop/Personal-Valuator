@@ -1,0 +1,72 @@
+{"ts": "2026-04-17T13:20:11Z", "event": "sec_facts_start", "tickers": 1, "dry_run": true}
+{"ts": "2026-04-17T13:20:12Z", "event": "sec_facts_streak", "ticker": "JNJ", "status": "ok", "streak": 19, "last_year": 2025, "is_aristocrat": false}
+{"ts": "2026-04-17T13:22:35Z", "event": "sec_facts_start", "tickers": 10, "dry_run": true}
+{"ts": "2026-04-17T13:22:35Z", "event": "sec_facts_streak", "ticker": "JNJ", "status": "ok", "yf_streak": null, "sec_streak": 19, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:36Z", "event": "sec_facts_streak", "ticker": "KO", "status": "ok", "yf_streak": null, "sec_streak": 19, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:37Z", "event": "sec_facts_streak", "ticker": "PG", "status": "ok", "yf_streak": null, "sec_streak": 19, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:38Z", "event": "sec_facts_streak", "ticker": "ACN", "status": "ok", "yf_streak": null, "sec_streak": 19, "last_year": 2026, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:38Z", "event": "sec_facts_streak", "ticker": "TFC", "status": "ok", "yf_streak": null, "sec_streak": 19, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:39Z", "event": "sec_facts_streak", "ticker": "O", "status": "ok", "yf_streak": null, "sec_streak": 18, "last_year": 2025, "final_streak": 18, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:39Z", "event": "sec_facts_streak", "ticker": "PLD", "status": "ok", "yf_streak": null, "sec_streak": 17, "last_year": 2025, "final_streak": 17, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:22:40Z", "event": "sec_facts_streak", "ticker": "BRK-B", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:22:40Z", "event": "sec_facts_streak", "ticker": "TSM", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:22:40Z", "event": "sec_facts_no_cik", "ticker": "GREK"}
+{"ts": "2026-04-17T13:23:28Z", "event": "sec_facts_start", "tickers": "all", "dry_run": false}
+{"ts": "2026-04-17T13:23:28Z", "event": "sec_schema_migration", "added": "dividend_streak_source"}
+{"ts": "2026-04-17T13:23:28Z", "event": "sec_facts_streak", "ticker": "JNJ", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:30Z", "event": "sec_facts_streak", "ticker": "JPM", "status": "ok", "yf_streak": 43, "sec_streak": 19, "last_year": 2025, "final_streak": 43, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:30Z", "event": "sec_facts_streak", "ticker": "BLK", "status": "ok", "yf_streak": 24, "sec_streak": 4, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:30Z", "event": "sec_facts_streak", "ticker": "O", "status": "ok", "yf_streak": 33, "sec_streak": 18, "last_year": 2025, "final_streak": 33, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:31Z", "event": "sec_facts_streak", "ticker": "TSM", "status": "ok", "yf_streak": 23, "sec_streak": 10, "last_year": 2024, "final_streak": 23, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:31Z", "event": "sec_facts_streak", "ticker": "PG", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:31Z", "event": "sec_facts_streak", "ticker": "TEN", "status": "ok", "yf_streak": 24, "sec_streak": 17, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:32Z", "event": "sec_facts_streak", "ticker": "AAPL", "status": "ok", "yf_streak": 15, "sec_streak": 14, "last_year": 2025, "final_streak": 15, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:32Z", "event": "sec_facts_streak", "ticker": "TSLA", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:23:33Z", "event": "sec_facts_streak", "ticker": "GS", "status": "ok", "yf_streak": 28, "sec_streak": 18, "last_year": 2025, "final_streak": 28, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:33Z", "event": "sec_facts_streak", "ticker": "KO", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:33Z", "event": "sec_facts_streak", "ticker": "BRK-B", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:23:34Z", "event": "sec_facts_streak", "ticker": "XP", "status": "ok", "yf_streak": 3, "sec_streak": 8, "last_year": 2024, "final_streak": 8, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:23:34Z", "event": "sec_facts_no_cik", "ticker": "GREK"}
+{"ts": "2026-04-17T13:23:34Z", "event": "sec_facts_streak", "ticker": "HD", "status": "ok", "yf_streak": 40, "sec_streak": 19, "last_year": 2026, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:35Z", "event": "sec_facts_streak", "ticker": "BN", "status": "ok", "yf_streak": 40, "sec_streak": 9, "last_year": 2025, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:35Z", "event": "sec_facts_streak", "ticker": "PLD", "status": "ok", "yf_streak": 30, "sec_streak": 17, "last_year": 2025, "final_streak": 30, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:35Z", "event": "sec_facts_streak", "ticker": "PLTR", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:23:35Z", "event": "sec_facts_streak", "ticker": "TFC", "status": "ok", "yf_streak": 40, "sec_streak": 19, "last_year": 2025, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:36Z", "event": "sec_facts_streak", "ticker": "NU", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:23:36Z", "event": "sec_facts_streak", "ticker": "ACN", "status": "ok", "yf_streak": 22, "sec_streak": 19, "last_year": 2026, "final_streak": 22, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:36Z", "event": "sec_facts_streak", "ticker": "TTD", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:23:37Z", "event": "sec_facts_streak", "ticker": "V", "status": "ok", "yf_streak": 19, "sec_streak": 18, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:37Z", "event": "sec_facts_streak", "ticker": "MCD", "status": "ok", "yf_streak": 51, "sec_streak": 19, "last_year": 2025, "final_streak": 51, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:38Z", "event": "sec_facts_streak", "ticker": "PEP", "status": "ok", "yf_streak": 55, "sec_streak": 19, "last_year": 2026, "final_streak": 55, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:39Z", "event": "sec_facts_streak", "ticker": "ABBV", "status": "ok", "yf_streak": 14, "sec_streak": 13, "last_year": 2025, "final_streak": 14, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:39Z", "event": "sec_facts_streak", "ticker": "MSFT", "status": "ok", "yf_streak": 24, "sec_streak": 18, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:23:39Z", "event": "sec_facts_done", "total": 27, "ok": 26, "aristocrats": 12}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_start", "tickers": 27, "dry_run": false}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_streak", "ticker": "JNJ", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_streak", "ticker": "JPM", "status": "ok", "yf_streak": 43, "sec_streak": 19, "last_year": 2025, "final_streak": 43, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_streak", "ticker": "BLK", "status": "ok", "yf_streak": 24, "sec_streak": 4, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_streak", "ticker": "O", "status": "ok", "yf_streak": 33, "sec_streak": 18, "last_year": 2025, "final_streak": 33, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:49Z", "event": "sec_facts_streak", "ticker": "TSM", "status": "ok", "yf_streak": 23, "sec_streak": 10, "last_year": 2024, "final_streak": 23, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "PG", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "TEN", "status": "ok", "yf_streak": 24, "sec_streak": 17, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "AAPL", "status": "ok", "yf_streak": 15, "sec_streak": 14, "last_year": 2025, "final_streak": 15, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "TSLA", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "GS", "status": "ok", "yf_streak": 28, "sec_streak": 18, "last_year": 2025, "final_streak": 28, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "KO", "status": "ok", "yf_streak": 65, "sec_streak": 19, "last_year": 2025, "final_streak": 65, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:50Z", "event": "sec_facts_streak", "ticker": "BRK-B", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "XP", "status": "ok", "yf_streak": 3, "sec_streak": 8, "last_year": 2024, "final_streak": 8, "is_aristocrat": false, "source": "sec_edgar"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_no_cik", "ticker": "GREK"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "HD", "status": "ok", "yf_streak": 40, "sec_streak": 19, "last_year": 2026, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "BN", "status": "ok", "yf_streak": 40, "sec_streak": 9, "last_year": 2025, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "PLD", "status": "ok", "yf_streak": 30, "sec_streak": 17, "last_year": 2025, "final_streak": 30, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "PLTR", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "TFC", "status": "ok", "yf_streak": 40, "sec_streak": 19, "last_year": 2025, "final_streak": 40, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:51Z", "event": "sec_facts_streak", "ticker": "NU", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "ACN", "status": "ok", "yf_streak": 22, "sec_streak": 19, "last_year": 2026, "final_streak": 22, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "TTD", "status": "ok", "yf_streak": null, "sec_streak": 0, "last_year": null, "final_streak": 0, "is_aristocrat": false, "source": "yfinance"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "V", "status": "ok", "yf_streak": 19, "sec_streak": 18, "last_year": 2025, "final_streak": 19, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "MCD", "status": "ok", "yf_streak": 51, "sec_streak": 19, "last_year": 2025, "final_streak": 51, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "PEP", "status": "ok", "yf_streak": 55, "sec_streak": 19, "last_year": 2026, "final_streak": 55, "is_aristocrat": true, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:52Z", "event": "sec_facts_streak", "ticker": "ABBV", "status": "ok", "yf_streak": 14, "sec_streak": 13, "last_year": 2025, "final_streak": 14, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:53Z", "event": "sec_facts_streak", "ticker": "MSFT", "status": "ok", "yf_streak": 24, "sec_streak": 18, "last_year": 2025, "final_streak": 24, "is_aristocrat": false, "source": "sec_edgar_validated"}
+{"ts": "2026-04-17T13:26:53Z", "event": "sec_facts_done", "total": 27, "ok": 26, "aristocrats": 12}

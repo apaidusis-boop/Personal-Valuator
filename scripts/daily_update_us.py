@@ -2,15 +2,17 @@
 
 Corre em sequência:
   1. yf_us_fetcher para cada ticker em us.holdings + us.watchlist
-  2. scoring US (critérios Buffett) contra todo o universo
+  2. sec_edgar_fetcher — cross-validation do streak + flag is_aristocrat
+  3. scoring US (critérios Buffett) contra todo o universo
 
 Reporta sumário final (OK/BAD + passes screen).
 Não aborta num erro individual.
 
 Uso:
-    python scripts/daily_update_us.py           # default: 3mo
-    python scripts/daily_update_us.py --full    # 5y
-    python scripts/daily_update_us.py --only yf
+    python scripts/daily_update_us.py               # default: 3mo
+    python scripts/daily_update_us.py --full        # 5y
+    python scripts/daily_update_us.py --only yf     # só 1 etapa
+    python scripts/daily_update_us.py --skip-sec    # salta SEC EDGAR
 """
 from __future__ import annotations
 
@@ -41,7 +43,7 @@ def _load_universe() -> list[str]:
 
 
 def step_yf(tickers: list[str], period: str) -> dict:
-    _section(f"1/2  yfinance US  (period={period})")
+    _section(f"1/3  yfinance US  (period={period})")
     from fetchers.yf_us_fetcher import run
     ok = []; bad = []
     for t in tickers:
@@ -53,8 +55,17 @@ def step_yf(tickers: list[str], period: str) -> dict:
     return {"ok": ok, "bad": bad}
 
 
+def step_sec(tickers: list[str]) -> dict:
+    _section("2/3  SEC EDGAR — cross-validate streak + is_aristocrat")
+    from fetchers.sec_edgar_fetcher import run_all as sec_run
+    results = sec_run(tickers, dry_run=False)
+    ok = [r for r in results if r["status"] == "ok"]
+    aristocrats = [r for r in ok if r.get("is_aristocrat")]
+    return {"results": results, "aristocrats": aristocrats}
+
+
 def step_scoring(tickers: list[str]) -> dict:
-    _section("2/2  scoring US")
+    _section("3/3  scoring US")
     from scoring.engine import run as score_run
     passed = []; failed = []; errors = []
     for t in tickers:
@@ -80,6 +91,12 @@ def summary(results: dict, start_ts: float) -> None:
     for t, err in yf["bad"]:
         print(f"            BAD {t}: {err}")
 
+    sec = results.get("sec")
+    if sec:
+        arists = [r["ticker"] for r in sec["aristocrats"]]
+        print(f"[sec_edgar] processados {len(sec['results'])}  aristocrats {len(arists)}: "
+              f"{', '.join(arists[:12])}{'...' if len(arists) > 12 else ''}")
+
     sc = results["scoring"]
     print(f"[scoring]   PASS {len(sc['passed'])}  FAIL {len(sc['failed'])}  ERR {len(sc['errors'])}")
     if sc["passed"]:
@@ -95,7 +112,8 @@ def summary(results: dict, start_ts: float) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true", help="fetch 5y histórico (default: 3mo)")
-    ap.add_argument("--only", choices=["yf", "scoring"], help="correr apenas uma etapa")
+    ap.add_argument("--only", choices=["yf", "sec", "scoring"], help="correr apenas uma etapa")
+    ap.add_argument("--skip-sec", action="store_true", help="salta cross-validation SEC")
     args = ap.parse_args()
 
     tickers = _load_universe()
@@ -111,6 +129,8 @@ def main() -> None:
         return fn(*a)
 
     results["yf"] = run_step("yf", step_yf, tickers, period) or {"ok": [], "bad": []}
+    if not args.skip_sec:
+        results["sec"] = run_step("sec", step_sec, tickers) or {"results": [], "aristocrats": []}
     results["scoring"] = run_step("scoring", step_scoring, tickers) or {"passed": [], "failed": [], "errors": []}
 
     summary(results, start)
