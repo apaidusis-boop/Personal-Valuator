@@ -203,6 +203,89 @@ CREATE TABLE IF NOT EXISTS events (
     FOREIGN KEY (ticker) REFERENCES companies(ticker)
 );
 CREATE INDEX IF NOT EXISTS idx_events_ticker_date ON events(ticker, event_date);
+
+-- ============================================================================
+-- Narrativa de mercado (sector-level). Pipeline:
+--   scrapers -> narrative_items (raw + classified)
+--             -> sector_sentiment (rolling agregado)
+--   series macro -> macro_regime (4D: rate/growth/fx/risk)
+--   join histórico -> sector_base_rates
+-- A combinação final (matriz fundamentals × sentiment × regime) vive em código,
+-- não em SQL — ver narrative/rules.py.
+-- ============================================================================
+
+-- Item bruto capturado (artigo, vídeo, transcript). Após classificação por LLM
+-- ganha sector/subsector/direction/thesis_tag. classified_at NULL = pendente.
+CREATE TABLE IF NOT EXISTS narrative_items (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    fetched_at    TEXT NOT NULL,
+    source        TEXT NOT NULL,          -- ex: 'rss:infomoney' | 'youtube:thiago_nigro' | 'transcript:JPM'
+    source_url    TEXT,
+    published_at  TEXT,                   -- timestamp original do conteúdo
+    raw_title     TEXT,
+    raw_text      TEXT,                   -- corpo do artigo ou transcript
+    lang          TEXT,
+    market        TEXT,                   -- 'br' | 'us' | 'global'
+    classified_at TEXT,
+    sector        TEXT,                   -- output classifier; NULL se pendente
+    subsector     TEXT,
+    direction     REAL,                   -- [-1, +1]
+    magnitude     INTEGER,                -- 1..3
+    thesis_tag    TEXT,                   -- macro|credit|governance|regulatory|earnings|panic|...
+    thesis_action TEXT,                   -- 'contrarian_ok' | 'pause' | 'neutral' (derivado de thesis_tag)
+    confidence    REAL,                   -- [0,1]
+    extra_json    TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_narrative_published ON narrative_items(published_at);
+CREATE INDEX IF NOT EXISTS idx_narrative_sector ON narrative_items(sector, published_at);
+CREATE INDEX IF NOT EXISTS idx_narrative_pending ON narrative_items(classified_at) WHERE classified_at IS NULL;
+
+-- Agregado rolling por (mercado, sector, subsector, janela). subsector NULL =
+-- rollup ao nível do sector.
+CREATE TABLE IF NOT EXISTS sector_sentiment (
+    as_of_date      TEXT NOT NULL,
+    market          TEXT NOT NULL,
+    sector          TEXT NOT NULL,
+    subsector       TEXT NOT NULL DEFAULT '',  -- '' = rollup do sector inteiro
+    window_days     INTEGER NOT NULL,          -- 7 | 30 | 90
+    score           REAL NOT NULL,              -- [-1, +1] médio ponderado por confiança
+    n_items         INTEGER NOT NULL,
+    confidence      REAL NOT NULL,
+    top_theses_json TEXT,                       -- {"credit": 12, "macro": 8, ...}
+    PRIMARY KEY (as_of_date, market, sector, subsector, window_days)
+);
+
+-- Regime macro 4D derivado de `series` (SELIC, IPCA, USDBRL, IBOV, VIX, etc).
+-- Recomputado diariamente. Histórico fica para join de base rates.
+CREATE TABLE IF NOT EXISTS macro_regime (
+    date            TEXT NOT NULL,
+    market          TEXT NOT NULL,              -- 'br' | 'us'
+    rate_regime     TEXT NOT NULL,              -- 'tightening' | 'easing' | 'hold'
+    growth_regime   TEXT NOT NULL,              -- 'expansion' | 'slowdown' | 'recession' | 'recovery'
+    fx_regime       TEXT NOT NULL,              -- 'strong_local' | 'weak_local' | 'neutral'
+    risk_regime     TEXT NOT NULL,              -- 'risk_on' | 'risk_off' | 'neutral'
+    details_json    TEXT,                       -- valores brutos que produziram a classificação
+    PRIMARY KEY (date, market)
+);
+
+-- Retorno forward histórico do sector dado (regime macro × regime narrativa).
+-- Em BR limitar lookback a 2010+ para evitar quebras estruturais (ver
+-- narrative/base_rates.py). n_obs é o sinal de confiança.
+CREATE TABLE IF NOT EXISTS sector_base_rates (
+    market              TEXT NOT NULL,
+    sector              TEXT NOT NULL,
+    subsector           TEXT NOT NULL DEFAULT '',
+    rate_regime         TEXT NOT NULL,
+    growth_regime       TEXT NOT NULL,
+    narrative_regime    TEXT NOT NULL,          -- 'very_neg' | 'neg' | 'neutral' | 'pos' | 'very_pos'
+    forward_horizon     TEXT NOT NULL,          -- '3m' | '6m' | '12m'
+    median_return       REAL NOT NULL,
+    p25_return          REAL,
+    p75_return          REAL,
+    n_obs               INTEGER NOT NULL,
+    last_computed_at    TEXT NOT NULL,
+    PRIMARY KEY (market, sector, subsector, rate_regime, growth_regime, narrative_regime, forward_horizon)
+);
 """
 
 

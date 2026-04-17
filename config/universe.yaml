@@ -12,6 +12,13 @@
 #   ticker          — símbolo na bolsa de origem (sem .SA para BR)
 #   name            — nome legível
 #   sector|segment  — sector (acções) ou segmento (FIIs)
+#   subsector       — OPCIONAL. Refina o sector para o pipeline de narrativa.
+#                     Bancos: Retail | IB | Regional | Fintech | Universal
+#                     Financials (não-banco): Exchange | AssetMgmt | Payments |
+#                                             Broker | AltAssets | Insurance
+#                     Outros: livre, mas manter consistência dentro do sector.
+#                     Usado por narrative/aggregator.py para sector_sentiment
+#                     ao nível de subsector (Itaú varejo ≠ BTG IB ≠ Nu fintech).
 #   is_holding      — true/false
 #   sources         — de quem vem a recomendação
 #                     (XP, BTG-Div, BTG-EqBR, BTG-Val, Suno-Div, Suno-Acoes, Suno-FII, user_pick)
@@ -31,7 +38,7 @@ br:
           sources: [BTG-Val, Suno-Acoes],            cvm_name: "PRIO " }
       - { ticker: VALE3, name: "Vale",        sector: "Mining",    is_holding: true,
           sources: [XP, BTG-Div, BTG-EqBR, Suno-Div], cvm_name: VALE }
-      - { ticker: BBDC4, name: "Bradesco PN", sector: "Banks",     is_holding: true,
+      - { ticker: BBDC4, name: "Bradesco PN", sector: "Banks",     subsector: "Retail", is_holding: true,
           sources: [BTG-EqBR],                        cvm_name: BRADESCO }
       - { ticker: ITSA4, name: "Itaúsa PN",   sector: "Holding",   is_holding: true,
           sources: [BTG-Div, BTG-EqBR, BTG-Val, Suno-Div, Suno-Tese], cvm_name: ITAUSA }
@@ -63,7 +70,7 @@ br:
           tier: 2, sources: [XP, BTG-EqBR, Suno-Acoes], suno_target: 16.90, cvm_name: B3 }
       - { ticker: ENGI11, name: "Energisa",            sector: "Utilities",        is_holding: false,
           tier: 2, sources: [XP, BTG-Val],             cvm_name: ENERGISA }
-      - { ticker: ITUB4, name: "Itaú Unibanco",        sector: "Banks",            is_holding: false,
+      - { ticker: ITUB4, name: "Itaú Unibanco",        sector: "Banks",            subsector: "Retail", is_holding: false,
           tier: 2, sources: [XP, BTG-Val],             cvm_name: ITAU }
       - { ticker: EQTL3, name: "Equatorial",           sector: "Utilities",        is_holding: false,
           tier: 2, sources: [BTG-EqBR, BTG-Val],       cvm_name: EQUATORIAL }
@@ -113,7 +120,7 @@ br:
     stocks:
       - { ticker: WIZC3, name: "Wiz Co",            sector: "Insurance Broker", sources: [Suno-Div],   suno_target: 10.00, suno_status: "Comprar" }
       - { ticker: BBSE3, name: "BB Seguridade",     sector: "Insurance",        sources: [Suno-Div],   suno_target: 30.50, suno_status: "Aguardar" }
-      - { ticker: BBAS3, name: "Banco do Brasil",   sector: "Banks",            sources: [Suno-Div],   suno_target: 25.00, suno_status: "Aguardar" }
+      - { ticker: BBAS3, name: "Banco do Brasil",   sector: "Banks",            subsector: "Retail", sources: [Suno-Div],   suno_target: 25.00, suno_status: "Aguardar" }
       - { ticker: UNIP6, name: "Unipar",            sector: "Chemicals",        sources: [Suno-Div],   suno_target: 70.00, suno_status: "Comprar" }
       - { ticker: SEER3, name: "Ser Educacional",   sector: "Education",        sources: [Suno-Div],   suno_target: 14.00, suno_status: "Comprar" }
       - { ticker: SLCE3, name: "SLC Agrícola",      sector: "Agribusiness",     sources: [Suno-Div],   suno_target: 20.40, suno_status: "Comprar" }
@@ -140,15 +147,15 @@ us:
   holdings:
     stocks:
       - { ticker: JNJ,   name: "Johnson & Johnson",   sector: "Healthcare",        is_holding: true, sources: [user_pick] }
-      - { ticker: JPM,   name: "JPMorgan Chase",      sector: "Financials",        is_holding: true, sources: [user_pick] }
-      - { ticker: BLK,   name: "BlackRock",           sector: "Financials",        is_holding: true, sources: [user_pick] }
+      - { ticker: JPM,   name: "JPMorgan Chase",      sector: "Financials",        subsector: "Universal", is_holding: true, sources: [user_pick] }
+      - { ticker: BLK,   name: "BlackRock",           sector: "Financials",        subsector: "AssetMgmt", is_holding: true, sources: [user_pick] }
       - { ticker: O,     name: "Realty Income",       sector: "REIT",              is_holding: true, sources: [user_pick] }
       - { ticker: TSM,   name: "Taiwan Semiconductor",sector: "Technology",        is_holding: true, sources: [user_pick] }
       - { ticker: PG,    name: "Procter & Gamble",    sector: "Consumer Staples",  is_holding: true, sources: [user_pick] }
       - { ticker: TEN,   name: "Tsakos Energy Navig.",sector: "Energy",            is_holding: true, sources: [user_pick] }
       - { ticker: AAPL,  name: "Apple",               sector: "Technology",        is_holding: true, sources: [user_pick] }
       - { ticker: TSLA,  name: "Tesla",               sector: "Consumer Disc.",    is_holding: true, sources: [user_pick] }
-      - { ticker: GS,    name: "Goldman Sachs",       sector: "Financials",        is_holding: true, sources: [user_pick] }
+      - { ticker: GS,    name: "Goldman Sachs",       sector: "Financials",        subsector: "IB", is_holding: true, sources: [user_pick] }
       - { ticker: KO,    name: "Coca-Cola",           sector: "Consumer Staples",  is_holding: true, sources: [user_pick] }
       - { ticker: "BRK-B", name: "Berkshire Hathaway B", sector: "Holding",        is_holding: true, sources: [user_pick] }
       - { ticker: XP,    name: "XP Inc",              sector: "Financials",        is_holding: true, sources: [user_pick] }
@@ -157,8 +164,8 @@ us:
       - { ticker: BN,    name: "Brookfield Corp",     sector: "Financials",        is_holding: true, sources: [user_pick] }
       - { ticker: PLD,   name: "Prologis",            sector: "REIT",              is_holding: true, sources: [user_pick] }
       - { ticker: PLTR,  name: "Palantir",            sector: "Technology",        is_holding: true, sources: [user_pick] }
-      - { ticker: TFC,   name: "Truist Financial",    sector: "Financials",        is_holding: true, sources: [user_pick] }
-      - { ticker: NU,    name: "Nu Holdings",         sector: "Financials",        is_holding: true, sources: [user_pick] }
+      - { ticker: TFC,   name: "Truist Financial",    sector: "Financials",        subsector: "Regional", is_holding: true, sources: [user_pick] }
+      - { ticker: NU,    name: "Nu Holdings",         sector: "Financials",        subsector: "Fintech",  is_holding: true, sources: [user_pick] }
       - { ticker: ACN,   name: "Accenture",           sector: "Technology",        is_holding: true, sources: [user_pick] }
       - { ticker: TTD,   name: "The Trade Desk",      sector: "Communication",     is_holding: true, sources: [user_pick] }
 
