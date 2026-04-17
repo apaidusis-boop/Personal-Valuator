@@ -54,6 +54,63 @@ def get_thesis(ticker: str, market: str | None = None) -> dict | None:
     return None
 
 
+def get_sector(sector_key: str) -> dict | None:
+    data = load_theses()
+    return (data.get("sectors") or {}).get(sector_key)
+
+
+def get_macro(macro_key: str) -> dict | None:
+    data = load_theses()
+    return (data.get("macro_themes") or {}).get(macro_key)
+
+
+def get_full_context(ticker: str, market: str | None = None) -> dict:
+    """Devolve tese completa de um ticker: ticker + sector + macros (herança)."""
+    th = get_thesis(ticker, market)
+    if not th:
+        return {}
+    out = {"ticker": th}
+    if th.get("sector"):
+        out["sector"] = get_sector(th["sector"])
+    if th.get("macro"):
+        out["macros"] = [get_macro(m) for m in th["macro"] if get_macro(m)]
+    return out
+
+
+def find_by_sector(sector_key: str) -> list[tuple[str, str, dict]]:
+    """Devolve todos os tickers em uma tese sectorial. (market, ticker, thesis)"""
+    data = load_theses()
+    out = []
+    for mk in ("br", "us"):
+        for t, th in (data.get(mk, {}) or {}).items():
+            if th.get("sector") == sector_key:
+                out.append((mk, t, th))
+    return out
+
+
+def find_by_macro(macro_key: str) -> dict[str, list[tuple[str, str]]]:
+    """Devolve tickers afectados por um tema macro. Divide por affects_positive/negative
+    olhando directamente no macro_theme + via ticker.macro field."""
+    data = load_theses()
+    macro = (data.get("macro_themes") or {}).get(macro_key) or {}
+    out = {"positive": [], "negative": [], "mentioned": []}
+
+    # do ponto de vista do macro (affects_positive/negative fields)
+    for t in macro.get("affects_positive", []):
+        mk = "br" if t in (data.get("br", {}) or {}) else "us"
+        out["positive"].append((mk, t))
+    for t in macro.get("affects_negative", []):
+        mk = "br" if t in (data.get("br", {}) or {}) else "us"
+        out["negative"].append((mk, t))
+
+    # do ponto de vista dos tickers (macro: [...] field)
+    for mk in ("br", "us"):
+        for t, th in (data.get(mk, {}) or {}).items():
+            if macro_key in (th.get("macro") or []):
+                out["mentioned"].append((mk, t))
+    return out
+
+
 def list_holdings_by_market() -> dict[str, list[str]]:
     out = {"br": [], "us": []}
     for db, mk in [(DB_BR, "br"), (DB_US, "us")]:
@@ -166,7 +223,69 @@ def main() -> None:
     ap.add_argument("--no-thesis", action="store_true",
                     help="Holdings sem tese documentada")
     ap.add_argument("--market", choices=["br", "us"])
+    ap.add_argument("--sector", metavar="KEY",
+                    help="Mostra tese sectorial e tickers afectados (ex: br.fii_papel)")
+    ap.add_argument("--macro", metavar="KEY",
+                    help="Mostra tema macro e tickers afectados (ex: selic_alta_br)")
+    ap.add_argument("--sectors-list", action="store_true",
+                    help="Lista todos os sectors e macro themes")
     args = ap.parse_args()
+
+    if args.sectors_list:
+        data = load_theses()
+        print(f"\n### MACRO THEMES ({len(data.get('macro_themes', {}))})")
+        for k, m in (data.get("macro_themes") or {}).items():
+            n_pos = len(m.get("affects_positive", []))
+            n_neg = len(m.get("affects_negative", []))
+            print(f"  {k:<28} {m.get('name','')[:50]}  (+{n_pos}/-{n_neg})")
+        print(f"\n### SECTORS ({len(data.get('sectors', {}))})")
+        for k, s in (data.get("sectors") or {}).items():
+            print(f"  {k:<28} {s.get('name','')[:40]:<40}  tickers: {', '.join(s.get('tickers', []))}")
+        return
+
+    if args.sector:
+        s = get_sector(args.sector)
+        if not s:
+            print(f"Sector {args.sector!r} não existe. Lista com --sectors-list")
+            return
+        print(f"\n╔{'═'*68}╗")
+        print(f"║  SECTOR — {s.get('name', args.sector):<56}║")
+        print(f"╚{'═'*68}╝")
+        print(f"\nTese:\n  {s.get('thesis', '')}")
+        if s.get("macro_exposure"):
+            print(f"\nMacro exposure: {', '.join(s['macro_exposure'])}")
+        print(f"\nDrivers (confirmação):")
+        for d in s.get("drivers", []):
+            print(f"  ✓ {d}")
+        print(f"\nRisks (abre conversa):")
+        for r in s.get("risks", []):
+            print(f"  ⚠ {r}")
+        affected = find_by_sector(args.sector)
+        print(f"\nTickers neste sector ({len(affected)}):")
+        for mk, t, th in affected:
+            print(f"  {mk.upper()} {t:<8}  intent={th.get('intent', '-'):<12}  {(th.get('thesis') or '')[:60]}")
+        return
+
+    if args.macro:
+        m = get_macro(args.macro)
+        if not m:
+            print(f"Macro theme {args.macro!r} não existe. Lista com --sectors-list")
+            return
+        print(f"\n╔{'═'*68}╗")
+        print(f"║  MACRO — {m.get('name', args.macro):<57}║")
+        print(f"╚{'═'*68}╝")
+        print(f"\nTese:\n  {m.get('thesis', '')}")
+        print(f"\nDrivers positivos (confirmação):")
+        for d in m.get("drivers_positivos", []):
+            print(f"  ✓ {d}")
+        print(f"\nDrivers negativos (invalidação):")
+        for d in m.get("drivers_negativos", []):
+            print(f"  ✗ {d}")
+        affected = find_by_macro(args.macro)
+        print(f"\nAffected positive: {', '.join(f'{mk.upper()}.{t}' for mk,t in affected['positive'])}")
+        print(f"Affected negative: {', '.join(f'{mk.upper()}.{t}' for mk,t in affected['negative'])}")
+        print(f"Tickers que linkam este macro: {', '.join(f'{mk.upper()}.{t}' for mk,t in affected['mentioned'])}")
+        return
 
     if args.ticker:
         th = get_thesis(args.ticker.upper(), args.market)
@@ -177,18 +296,44 @@ def main() -> None:
         print(f"║  TESE — {args.ticker.upper():<56}║")
         print(f"╚{'═'*68}╝")
         print(f"\nIntent     : {th.get('intent', '-')}")
+        print(f"Sector     : {th.get('sector', '-')}")
+        print(f"Macro      : {', '.join(th.get('macro', [])) or '-'}")
         print(f"Last review: {th.get('last_review', '-')}")
-        print(f"\nTese:\n  {th.get('thesis', '(vazia)')}")
+        print(f"\n### CAMADA TICKER")
+        print(f"Tese:\n  {th.get('thesis', '(vazia)')}")
         if th.get("why_hold"):
             print(f"\nWhy hold:\n  {th['why_hold']}")
         if th.get("triggers"):
-            print(f"\nTriggers (o que confirmaria):")
+            print(f"\nTriggers (ticker):")
             for tr in th["triggers"]:
                 print(f"  ✓ {tr}")
         if th.get("red_flags"):
-            print(f"\nRed flags (abre conversa de sair):")
+            print(f"\nRed flags (ticker):")
             for rf in th["red_flags"]:
                 print(f"  ⚠ {rf}")
+
+        # Sector herança
+        if th.get("sector"):
+            s = get_sector(th["sector"])
+            if s:
+                print(f"\n### CAMADA SECTOR — {s.get('name', th['sector'])}")
+                print(f"Tese:\n  {s.get('thesis', '')}")
+                if s.get("drivers"):
+                    print(f"\nDrivers sectoriais:")
+                    for d in s["drivers"][:4]:
+                        print(f"  ✓ {d}")
+                if s.get("risks"):
+                    print(f"\nRisks sectoriais:")
+                    for r in s["risks"][:4]:
+                        print(f"  ⚠ {r}")
+
+        # Macro herança
+        for mk in (th.get("macro") or []):
+            m = get_macro(mk)
+            if m:
+                print(f"\n### CAMADA MACRO — {m.get('name', mk)}")
+                print(f"Tese:\n  {m.get('thesis', '')}")
+
         if th.get("target_weight") is not None:
             print(f"\nTarget weight: {th['target_weight']}%")
         if th.get("ri_url"):
