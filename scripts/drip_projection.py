@@ -134,20 +134,28 @@ def derive_scenarios(ticker: str, last_price: float, ttm_div_ps: float,
     debug = {"kind": kind, "streak": fund.get("streak")}
 
     if kind == "fii":
-        # FII: g = crescimento do dividendo, limitado e centrado em IPCA (~4.5%)
+        # FII: distribuição ligada a IPCA (tijolo) ou CDI-IPCA (papel).
+        # Hist 4y pode ser negativo em períodos pós-corte de juros ou defaults
+        # de CRI — isso é *cíclico*, não estrutural. Forward-looking, o anchor
+        # é IPCA (~3-4%). Blend 50/50 entre hist e IPCA proxy.
         years = sorted(annual_divs.keys())
         hist_g = None
         if len(years) >= 5:
-            window = years[-4:]  # últimos 4 completos
+            window = years[-4:]
             first, last = annual_divs[window[0]], annual_divs[window[-1]]
             hist_g = _cagr(first, last, len(window) - 1)
-        base_g = hist_g if hist_g is not None else 0.03  # IPCA proxy
-        base_g = max(-0.03, min(base_g, 0.08))  # FIIs raramente crescem > 8%/ano
+        ipca_anchor = 0.035  # IPCA 12m proxy (verifica em series se quiseres)
+        if hist_g is not None:
+            base_g = 0.5 * hist_g + 0.5 * ipca_anchor
+        else:
+            base_g = ipca_anchor
+        base_g = max(0.0, min(base_g, 0.06))  # floor em 0 (sem decline real), cap 6%
         debug["hist_g"] = hist_g
+        debug["ipca_anchor"] = ipca_anchor
         return {
-            "conservador": {"g": max(-0.03, base_g * 0.5), "md": 0.0},
-            "base":        {"g": base_g,                    "md": 0.0},
-            "optimista":   {"g": min(0.10, base_g * 1.5),  "md": 0.02},
+            "conservador": {"g": max(0.0, base_g * 0.5),  "md": -0.01},
+            "base":        {"g": base_g,                   "md": 0.0},
+            "optimista":   {"g": min(0.08, base_g * 1.5), "md": 0.01},
             "debug": debug,
         }
 
