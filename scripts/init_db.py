@@ -203,6 +203,29 @@ CREATE TABLE IF NOT EXISTS events (
     FOREIGN KEY (ticker) REFERENCES companies(ticker)
 );
 CREATE INDEX IF NOT EXISTS idx_events_ticker_date ON events(ticker, event_date);
+
+-- Posições de renda fixa: Tesouro Direto, debêntures, CRAs, LCAs, CRIs.
+-- Modelagem mínima orientada a DRIP/consolidado: o que mete juros/cupons
+-- é separado das equities para não contaminar scoring ou dividendo history.
+CREATE TABLE IF NOT EXISTS fixed_income_positions (
+    id                INTEGER PRIMARY KEY AUTOINCREMENT,
+    name              TEXT NOT NULL,
+    kind              TEXT NOT NULL,         -- tesouro|debenture|cra|lca|cri
+    indexador         TEXT,                   -- IPCA|CDI|PREFIXADO|SELIC
+    spread_taxa       REAL,                   -- 0.0709 p/ IPCA+7.09%
+    cdi_pct           REAL,                   -- 0.87 p/ 87% CDI
+    entry_date        TEXT,
+    maturity_date     TEXT,
+    quantity          REAL,
+    entry_unit_price  REAL,
+    valor_aplicado    REAL,
+    valor_atual       REAL NOT NULL,
+    currency          TEXT NOT NULL DEFAULT 'BRL',
+    source            TEXT,                   -- XP|manual
+    fetched_at        TEXT NOT NULL,
+    notes             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_fi_maturity ON fixed_income_positions(maturity_date);
 """
 
 

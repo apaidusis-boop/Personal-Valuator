@@ -20,7 +20,7 @@ import csv
 import re
 import sqlite3
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
@@ -39,6 +39,29 @@ def ensure_schema(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE portfolio_positions ADD COLUMN quantity REAL")
     if "notes" not in cols:
         conn.execute("ALTER TABLE portfolio_positions ADD COLUMN notes TEXT")
+    # fixed_income_positions (idempotente)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS fixed_income_positions (
+            id                INTEGER PRIMARY KEY AUTOINCREMENT,
+            name              TEXT NOT NULL,
+            kind              TEXT NOT NULL,
+            indexador         TEXT,
+            spread_taxa       REAL,
+            cdi_pct           REAL,
+            entry_date        TEXT,
+            maturity_date     TEXT,
+            quantity          REAL,
+            entry_unit_price  REAL,
+            valor_aplicado    REAL,
+            valor_atual       REAL NOT NULL,
+            currency          TEXT NOT NULL DEFAULT 'BRL',
+            source            TEXT,
+            fetched_at        TEXT NOT NULL,
+            notes             TEXT
+        )
+    """)
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_fi_maturity "
+                 "ON fixed_income_positions(maturity_date)")
 
 
 def _parse_brl(v: object) -> float | None:
@@ -142,6 +165,165 @@ BR_ETF_ADDITIONS = [
 ]
 
 
+def _parse_br_date(s: str) -> str | None:
+    """'11/04/2024' ou '15/05/2045' → '2024-04-11'. Devolve None se não matchar."""
+    if not s:
+        return None
+    parts = s.strip().split("/")
+    if len(parts) != 3:
+        return None
+    d, m, y = parts
+    try:
+        return f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
+    except ValueError:
+        return None
+
+
+def _parse_tesouro_maturity(name: str) -> str | None:
+    """'NTN-B1 dez/2084' / 'NTNB PRINC ago/2040' → ISO approx '2084-12-15'.
+    Tesouro Direto paga no dia 15 do mês."""
+    import re
+    m = re.search(r'(\w{3,4})/(\d{4})', name.lower())
+    if not m:
+        return None
+    months = {"jan":1, "fev":2, "mar":3, "abr":4, "mai":5, "jun":6,
+              "jul":7, "ago":8, "set":9, "out":10, "nov":11, "dez":12}
+    mo = months.get(m.group(1)[:3])
+    yr = int(m.group(2))
+    return f"{yr:04d}-{mo:02d}-15" if mo else None
+
+
+def _classify_fi(name: str) -> str:
+    n = name.upper()
+    if n.startswith(("NTN", "LFT", "LTN", "NTNB", "NTN-B", "TESOURO")):
+        return "tesouro"
+    if n.startswith("DEB"):
+        return "debenture"
+    if n.startswith("CRA"):
+        return "cra"
+    if n.startswith("CRI"):
+        return "cri"
+    if n.startswith("LCA"):
+        return "lca"
+    if n.startswith("LCI"):
+        return "lci"
+    return "outro"
+
+
+def _parse_taxa(taxa_str: str) -> dict:
+    """'IPC-A +7,09%' → {indexador: 'IPCA', spread: 0.0709}
+    '87,00% CDI'    → {indexador: 'CDI',  cdi_pct: 0.87}
+    Retorna dict com chaves indexador, spread_taxa, cdi_pct (qualquer subset)."""
+    import re
+    if not taxa_str:
+        return {}
+    s = taxa_str.upper().replace(" ", "")
+    out: dict = {}
+    # IPCA+X% ou IPC-A+X%
+    m = re.match(r'IPC[-]?A\+?([\d,\.]+)%', s)
+    if m:
+        out["indexador"] = "IPCA"
+        out["spread_taxa"] = _parse_brl(m.group(1).replace("%", ""))
+        if out["spread_taxa"] is not None:
+            out["spread_taxa"] = out["spread_taxa"] / 100.0
+        return out
+    # X% CDI
+    m = re.match(r'([\d,\.]+)%CDI', s)
+    if m:
+        out["indexador"] = "CDI"
+        out["cdi_pct"] = _parse_brl(m.group(1))
+        if out["cdi_pct"] is not None:
+            out["cdi_pct"] = out["cdi_pct"] / 100.0
+        return out
+    # CDI+X%
+    m = re.match(r'CDI\+?([\d,\.]+)%', s)
+    if m:
+        out["indexador"] = "CDI"
+        out["spread_taxa"] = _parse_brl(m.group(1))
+        if out["spread_taxa"] is not None:
+            out["spread_taxa"] = out["spread_taxa"] / 100.0
+        return out
+    # Prefixado
+    m = re.match(r'([\d,\.]+)%', s)
+    if m:
+        out["indexador"] = "PREFIXADO"
+        out["spread_taxa"] = _parse_brl(m.group(1))
+        if out["spread_taxa"] is not None:
+            out["spread_taxa"] = out["spread_taxa"] / 100.0
+    return out
+
+
+def _load_br_fixed_income(xlsx_path: Path) -> list[dict]:
+    """Varre secções 'Tesouro Direto' e 'Renda Fixa' do xlsx XP.
+    Tesouro (7 cols): nome, pos_atual, alocação, valor_aplicado, qtd, disp, vencimento.
+    Renda Fixa (10): nome, pos, alocação, aplicado, aplicado_orig, taxa, aplic_date, venc, qtd, PU.
+    """
+    import openpyxl, warnings
+    warnings.filterwarnings("ignore")
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True)
+    ws = wb.active
+    rows = list(ws.iter_rows(values_only=True))
+
+    items: list[dict] = []
+    section = None
+    after_proventos = False
+    for i, row in enumerate(rows):
+        cells = [str(c).strip() if c is not None else "" for c in row]
+        if not any(cells):
+            continue
+        c0 = cells[0]
+        if c0.startswith("Dividendos") or c0 == "Proventos" or c0 == "Custódia Remunerada":
+            after_proventos = True
+            section = None
+            continue
+        if after_proventos:
+            continue
+        if c0 == "Tesouro Direto":
+            section = "tesouro"
+            continue
+        if c0 == "Renda Fixa":
+            section = "rf"
+            continue
+        if c0 in ("Ações", "Fundos Imobiliários", "Fundos de Investimentos"):
+            section = None
+            continue
+        if section == "tesouro":
+            # row: nome, pos, %, aplic, qtd, disp, venc
+            kind = _classify_fi(c0)
+            if kind != "tesouro":
+                continue
+            items.append({
+                "name": c0, "kind": "tesouro",
+                "indexador": "IPCA",  # NTN-B por default (principais são IPCA+)
+                "spread_taxa": None,  # Tesouro não expõe taxa na secção simples
+                "cdi_pct": None,
+                "valor_atual": _parse_brl(cells[1]),
+                "valor_aplicado": _parse_brl(cells[3]),
+                "quantity": _parse_brl(cells[4]),
+                "entry_date": None,
+                "maturity_date": _parse_br_date(cells[6]) or _parse_tesouro_maturity(c0),
+                "entry_unit_price": None,
+            })
+        elif section == "rf":
+            kind = _classify_fi(c0)
+            if kind == "outro":
+                continue
+            taxa = _parse_taxa(cells[5])
+            items.append({
+                "name": c0, "kind": kind,
+                "indexador": taxa.get("indexador"),
+                "spread_taxa": taxa.get("spread_taxa"),
+                "cdi_pct": taxa.get("cdi_pct"),
+                "valor_atual": _parse_brl(cells[1]),
+                "valor_aplicado": _parse_brl(cells[3]),
+                "quantity": _parse_brl(cells[8]),
+                "entry_date": _parse_br_date(cells[6]),
+                "maturity_date": _parse_br_date(cells[7]),
+                "entry_unit_price": _parse_brl(cells[9]),
+            })
+    return items
+
+
 def _load_br_stocks_fiis(xlsx_path: Path) -> tuple[list[dict], list[dict], dict]:
     """Devolve (acoes, fiis, meta). Só varre as secções 'Ações' e 'Fundos
     Imobiliários'. Header das duas:
@@ -208,7 +390,8 @@ def _load_br_stocks_fiis(xlsx_path: Path) -> tuple[list[dict], list[dict], dict]
 
 def import_br(xlsx_path: Path, dry_run: bool = False) -> dict:
     acoes, fiis, meta = _load_br_stocks_fiis(xlsx_path)
-    print(f"\n=== BR: Ações ({len(acoes)}) + FIIs ({len(fiis)}) ===")
+    fi = _load_br_fixed_income(xlsx_path)
+    print(f"\n=== BR: Ações ({len(acoes)}) + FIIs ({len(fiis)}) + Renda Fixa ({len(fi)}) ===")
     print(f"  total_patrimonio (XP): R$ {meta['total_patrimonio']:,.2f}")
 
     if dry_run:
@@ -218,7 +401,14 @@ def import_br(xlsx_path: Path, dry_run: bool = False) -> dict:
             last = a.get("ultimo") or 0
             pos = a.get("posicao") or 0
             print(f"  DRY  {a['ticker']:8s} qty={q:>9.2f}  pm=R${pm:<8.2f}  last=R${last:<8.2f}  pos=R${pos:>12,.2f}")
-        return {"acoes": acoes, "fiis": fiis, "meta": meta}
+        print(f"\n  -- Renda Fixa --")
+        for f in fi:
+            idx = f.get("indexador") or "?"
+            spread = f.get("spread_taxa")
+            cdi = f.get("cdi_pct")
+            taxa_s = f"{idx}+{spread*100:.2f}%" if spread else (f"{cdi*100:.1f}%{idx}" if cdi else idx)
+            print(f"  DRY  {f['kind']:<10} {f['name'][:30]:<30} venc={f.get('maturity_date') or '-':<12}  {taxa_s:<15}  atual=R${f.get('valor_atual') or 0:>11,.2f}")
+        return {"acoes": acoes, "fiis": fiis, "fi": fi, "meta": meta}
 
     with sqlite3.connect(DB_BR) as conn:
         ensure_schema(conn)
@@ -242,6 +432,25 @@ def import_br(xlsx_path: Path, dry_run: bool = False) -> dict:
                 "UPDATE companies SET is_holding=1 WHERE ticker=?", (a["ticker"],)
             )
 
+        # Renda fixa: substitui todos os registos XP (idempotente por source='XP')
+        conn.execute("DELETE FROM fixed_income_positions WHERE source='XP'")
+        now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        for f in fi:
+            if not f.get("valor_atual"):
+                continue
+            conn.execute(
+                """INSERT INTO fixed_income_positions
+                     (name, kind, indexador, spread_taxa, cdi_pct, entry_date,
+                      maturity_date, quantity, entry_unit_price, valor_aplicado,
+                      valor_atual, currency, source, fetched_at, notes)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                (f["name"], f["kind"], f.get("indexador"),
+                 f.get("spread_taxa"), f.get("cdi_pct"), f.get("entry_date"),
+                 f.get("maturity_date"), f.get("quantity"),
+                 f.get("entry_unit_price"), f.get("valor_aplicado"),
+                 f["valor_atual"], "BRL", "XP", now_iso, None),
+            )
+
         _recompute_weights(conn)
         conn.commit()
 
@@ -249,10 +458,15 @@ def import_br(xlsx_path: Path, dry_run: bool = False) -> dict:
             "SELECT sum(quantity * (select close from prices p where p.ticker=pp.ticker order by date desc limit 1)) "
             "FROM portfolio_positions pp WHERE active=1"
         ).fetchone()[0] or 0
-        print(f"  persistido: {len(acoes)+len(fiis)} posições")
-        print(f"  MV calculado (último close DB): R$ {total_mv:,.2f}")
+        fi_mv = conn.execute(
+            "SELECT sum(valor_atual) FROM fixed_income_positions WHERE source='XP'"
+        ).fetchone()[0] or 0
+        print(f"  persistido: {len(acoes)+len(fiis)} equity + {len(fi)} renda fixa")
+        print(f"  MV equity (último close DB): R$ {total_mv:,.2f}")
+        print(f"  MV renda fixa (XP snapshot): R$ {fi_mv:,.2f}")
+        print(f"  MV BR total                  : R$ {total_mv + fi_mv:,.2f}")
 
-    return {"acoes": acoes, "fiis": fiis, "meta": meta}
+    return {"acoes": acoes, "fiis": fiis, "fi": fi, "meta": meta}
 
 
 # ========== US — JPM CSV ==========

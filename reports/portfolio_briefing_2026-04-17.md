@@ -6,10 +6,11 @@
 ╚════════════════════════════════════════════════════════════════════════╝
 
 [1] SNAPSHOT CONSOLIDADO
-  BR     MV R$   358,826.83   P&L R$  +55,033.37 (+18.1%)   11 holdings
-  US     MV $     20,535.74   P&L $    +4,330.83 (+26.7%)   22 holdings
-  TOTAL  MV R$   461,519.92 (PTAX 5.0007)   P&L R$  +76,690.54 (+19.9%)
-  Allocation BR=77.7%  US=22.3%
+  BR equity    MV R$   358,826.83   P&L R$  +55,033.37 (+18.1%)   11 holdings
+  BR renda fx  MV R$   156,105.90   P&L R$   +7,331.08 ( +4.9%)   12 títulos
+  US equity    MV $     20,535.74   P&L $    +4,330.83 (+26.7%)   22 holdings
+  TOTAL        MV R$   617,625.82 (PTAX 5.0007)   P&L R$  +84,021.62 (+15.7%)
+  Allocation   BR-equity=58.1%  BR-RF=25.3%  US-equity=16.6%
 
 [2] EVENTOS holdings últimos 7d  —  17 filings
   2026-04-17  TSM      sec  6-K                   6-K
@@ -71,9 +72,9 @@
 
 [5] DRIP FORWARD — projecção Base, sem aportes (horizons 5/10/15y)
   Horizonte            BR (R$)          US ($)         Total BRL     CAGR
-  5y       R$        712,025  $       37,620  R$        900,153  14.29%
-  10y       R$      1,476,597  $       72,349  R$      1,838,391  14.82%
-  15y       R$      3,214,537  $      145,907  R$      3,944,175  15.38%
+  5y       R$        712,025  $       37,620  R$        900,153   7.82%
+  10y       R$      1,476,597  $       72,349  R$      1,838,391  11.52%
+  15y       R$      3,214,537  $      145,907  R$      3,944,175  13.16%
 
 [6] WATCHLIST NEAR-MISS — 1 critério a faltar
   BR  PLPL3     score 0.80  falha: dividend_yield          sector: Consumer Disc.
@@ -92,9 +93,25 @@
   Selic meta (a.a.)     : 14.75%      (2026-04-17)
   PTAX USD/BRL          : R$ 5.0007   (2026-04-16)
 
+[9] RENDA FIXA — 12 títulos  (MV R$ 156,106)
+  Nome                            Kind      Taxa            Venc            Aplicado       Atual
+  NTN-B1 dez/2084                 tesouro   IPCA            2084-12-15 (58.7y)R$   43,060R$   46,060
+  LCA BTG PACTUAL - SET/2026      lca       87.0% CDI       2026-09-16 (0.4y)R$   21,000R$   22,530
+  NTN-B - MAI/2045                tesouro   IPCA+7.09%      2045-05-15 (19.1y)R$   17,258R$   17,190
+  CRA KLABIN - MAI/2034           cra       IPCA+7.59%      2034-05-15 (8.1y)R$    9,909R$   11,460
+  DEB ELETROBRAS - SET/2031       debenture IPCA+7.34%      2031-09-15 (5.4y)R$   10,000R$   10,945
+  CRA MARFRIG - AGO/2030          cra       IPCA+9.85%      2030-08-15 (4.3y)R$    9,959R$   10,225
+  NTNB PRINC ago/2040             tesouro   IPCA            2040-08-15 (14.3y)R$    9,321R$    9,963
+  DEB CSN MINERACAO - JUL/2031    debenture IPCA+14.06%     2031-07-15 (5.2y)R$    9,688R$    9,004
+  NTN-B - MAI/2035                tesouro   IPCA+7.38%      2035-05-15 (9.1y)R$    8,925R$    8,794
+  NTN-B - MAI/2035                tesouro   IPCA+7.38%      2035-05-15 (9.1y)R$    8,151R$    8,794
+  NTNB PRINC mai/2035             tesouro   IPCA            2035-05-15 (9.1y)R$      505R$      613
+  DEB RAIZEN - MAR/2029           debenture IPCA+47.12%     2029-03-15 (2.9y)R$    1,000R$      530
+
 [8] ACTION ITEMS
   • 6 filings 8-K críticos (earnings/executive changes) — revisar
   • Underperformers (< −10%): ACN (-35%), TTD (-75%)
   • 9 near-miss no screen (potencial promote a holding)
-  • Holdings falhando screen agressivamente (<0.40): LFTB11 (0.00), PRIO3 (0.00), IVVB11 (0.00), JNJ (0.25), TSLA (0.00), PLTR (0.25), NU (0.25), TTD (0.25)
+  • Holdings com screen fraco (≥2 critérios fail, score<0.40): PRIO3 (0.00), JNJ (0.25), TSLA (0.00), PLTR (0.25), NU (0.25), TTD (0.25)
+  • Holdings sem fundamentals persistidos (ETFs/tickers novos): LFTB11, IVVB11
 ```
