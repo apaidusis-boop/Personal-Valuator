@@ -1,0 +1,372 @@
+# theses.yaml — livro de teses por ticker.
+#
+# Cada ticker com posição ou watchlist activa pode ter uma tese explícita.
+# A tese vive aqui (source-of-truth), é lida pelos scripts de análise e
+# reporting, e pode ser actualizada manualmente ou pela camada de LLM
+# synthesis quando houver eventos materiais.
+#
+# Campos:
+#   intent           — DRIP | GROWTH | COMPOUNDER | TURNAROUND | WIND_DOWN | ETF
+#   thesis           — 1-2 frases da tese fundamental
+#   why_hold         — razão específica de o ter (vs watchlist)
+#   triggers         — lista de eventos/métricas que confirmariam/invalidariam
+#   red_flags        — o que, se visto, abriria uma conversa sobre sair
+#   target_weight    — % alvo na carteira (opcional)
+#   last_review      — data da última validação consciente
+#   ri_url           — site de relações com investidores (para próxima fase)
+#   source           — quem recomendou/originou a tese (self, XP, BTG, Suno, etc.)
+
+br:
+  ITSA4:
+    intent: DRIP
+    thesis: "Holding company exemplar — exposição diversificada via Itaú/Alpargatas/Dexco/Aegea, DY 8% e streak 20a+."
+    why_hold: "Cumpre 4/5 critérios Graham adaptados (net_debt_ebitda n/a por estrutura holding). Score 1.00 no screen BR."
+    triggers:
+      - "Dividendo crescer > 15%/ano indica reset sustentável, não one-off"
+      - "Política de payout anunciada pela administração"
+    red_flags:
+      - "Corte de dividendo via deterioração de Itaú"
+      - "Reorganização societária que altere a estrutura"
+    last_review: 2026-04-17
+    ri_url: "https://www.itausa.com.br/ri"
+    source: [BTG-Div, BTG-EqBR, BTG-Val, Suno-Div, Suno-Tese]
+
+  BBDC4:
+    intent: DRIP
+    thesis: "Bradesco em ciclo de recuperação de rentabilidade. DY 7.2%, streak 20a, P/B ~0.96 (desconto)."
+    why_hold: "Score 0.80 screen banco BR. Recuperação de ROE em curso."
+    triggers:
+      - "ROE normalizar para 15%+"
+      - "Fim do ciclo de reorganização anunciado"
+    red_flags:
+      - "Aumento de provisões materiais (inadimplência)"
+      - "Corte do dividendo trimestral"
+    last_review: 2026-04-17
+    ri_url: "https://ri.bradesco.com.br"
+    source: [BTG-EqBR]
+
+  VALE3:
+    intent: DRIP
+    thesis: "Exposição à commodity mineral-iron com DY 6%+. Streak 19a."
+    why_hold: "Ciclo commodity + yield, score 0.60."
+    triggers:
+      - "Preço minério manter-se acima US$ 100/t"
+      - "Renovação contratos China"
+    red_flags:
+      - "Mudança abrupta política royalty/taxa"
+      - "ESG/ambiental event (Brumadinho 2.0)"
+    last_review: 2026-04-17
+    ri_url: "http://www.vale.com/ri"
+    source: [XP, BTG-Div, BTG-EqBR, Suno-Div]
+
+  PRIO3:
+    intent: WIND_DOWN
+    thesis: "Commodity growth — user está a desfazer-se progressivamente. Não é DRIP nem core."
+    why_hold: "Posição legada em redução."
+    triggers:
+      - "Rally de preço para +$70 (janela de saída oportunista)"
+      - "Barril acima US$ 90 por 30d (topo do ciclo)"
+    red_flags:
+      - "Fato relevante operacional adverso — acidente, acordo mal recebido"
+    target_weight: 0  # objectivo é zerar
+    last_review: 2026-04-17
+    ri_url: "https://ri.prio3.com.br"
+    source: [BTG-Val, Suno-Acoes]
+
+  XPML11:
+    intent: DRIP
+    thesis: "Shopping aristocrat — DY 9.9%, streak longo, P/VP 0.99."
+    why_hold: "FII de referência em shoppings, score 0.80."
+    triggers: []
+    red_flags:
+      - "Queda material de NOI portfolio"
+    last_review: 2026-04-17
+    source: [user_pick, Suno-FII]
+
+  RBRX11:
+    intent: DRIP
+    thesis: "FII híbrido com P/VP 0.87 (desconto), DY 11.6%, score 1.00."
+    why_hold: "Passa todos os critérios FII. Portfolio diversificado."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  BTLG11:
+    intent: DRIP
+    thesis: "FII logística de qualidade (BTG). DY 8.3%, streak positivo."
+    why_hold: "Score 0.80, P/VP ~1.01."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick, Suno-FII]
+
+  VGIR11:
+    intent: DRIP
+    thesis: "FII de papel (CRI) — DY 15.7% é resultado directo de Selic alta. Carry yield enquanto juros permanecerem elevados."
+    why_hold: "Score 1.00, yield sazonal ao ciclo de juros."
+    triggers:
+      - "Corte de Selic — reverte vantagem vs tijolo"
+    red_flags:
+      - "Default de CRI material (watch credit quality)"
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  PVBI11:
+    intent: TURNAROUND
+    thesis: "VBI Prime Properties em janela de recuperação. Prédio Faria Lima específico desocupado; administração cortou dividendos (R$ 0.50 → R$ 0.45, Jan/2026 skipped) para gestão de caixa. P/VP 0.71 (desconto forte). Quando imóvel for re-locado, espera-se normalização."
+    why_hold: "Contrarian entry em FII corporativo de qualidade. Tese temporária, não estrutural."
+    triggers:
+      - "Fato relevante anunciando novo inquilino (CVM IPE, cvm_name VBI)"
+      - "DY voltar para ≥ 8% (histórico do FII)"
+      - "P/VP convergir para ≥ 0.90"
+      - "Distribution streak retomar mensal ininterrupto"
+    red_flags:
+      - "Corte adicional do dividendo base"
+      - "Anúncio de venda do imóvel abaixo do valor patrimonial"
+      - "Outra vacância material noutro imóvel do portfólio"
+    last_review: 2026-04-17
+    source: [user_pick, Suno-FII]
+
+  LFTB11:
+    intent: ETF
+    thesis: "iShares Tesouro Selic — cash-equivalent com yield Selic. Âncora de liquidez."
+    why_hold: "Dry powder disponível ao mesmo tempo rendendo ~Selic."
+    triggers: []
+    red_flags:
+      - "Corte agressivo de Selic (reduz atractividade)"
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  IVVB11:
+    intent: ETF
+    thesis: "iShares S&P 500 (BRL) — exposure US via account BR. Diversificação cambial + geografia."
+    why_hold: "Posição pequena (R$ 4.4k) como âncora US dentro da carteira BR."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+us:
+  O:
+    intent: DRIP
+    thesis: "Realty Income — REIT mensal aristocrat 33a, DY 5%. Único holding US com score 0.83 (quase passa screen)."
+    why_hold: "Âncora de income mensal US."
+    triggers:
+      - "Acquisition news relevante (8-K 1.01/2.01)"
+      - "Guidance FFO acima consensus"
+    red_flags:
+      - "AFFO coverage cair abaixo 1.0"
+      - "Deterioração tenant mix (tenantes grandes em bankruptcy)"
+    last_review: 2026-04-17
+    ri_url: "https://www.realtyincome.com/investors"
+    source: [user_pick]
+
+  JNJ:
+    intent: DRIP
+    thesis: "Aristocrat 65a, healthcare blue chip. Compra recente (Fev/2026)."
+    why_hold: "Core defensivo. Kenvue spin-off absorvido sem disrupção de dividendo."
+    triggers: []
+    red_flags:
+      - "Guidance cut material"
+      - "Litigation reserve aumento > 5B"
+    last_review: 2026-04-17
+    ri_url: "https://www.jnj.com/ir"
+    source: [user_pick]
+
+  PG:
+    intent: DRIP
+    thesis: "Staples aristocrat 65a. Defensivo clássico. Earnings 23/Abr próximo."
+    why_hold: "Rocha defensiva."
+    triggers: []
+    red_flags:
+      - "Margin compression trimestral material"
+    last_review: 2026-04-17
+    ri_url: "https://www.pginvestor.com"
+    source: [user_pick]
+
+  KO:
+    intent: DRIP
+    thesis: "Staples aristocrat 65a. Compra recente."
+    why_hold: "Buffett top holding; marca global defensiva."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: "https://investors.coca-colacompany.com"
+    source: [user_pick]
+
+  JPM:
+    intent: DRIP
+    thesis: "Banco premium US, aristocrat 43a, Quality Score 97 (top da carteira)."
+    why_hold: "Compounder banking com payout 28% (muita folga)."
+    triggers: []
+    red_flags:
+      - "Credit loss provisions aumento"
+    last_review: 2026-04-17
+    ri_url: "https://www.jpmorganchase.com/ir"
+    source: [user_pick]
+
+  GS:
+    intent: DRIP
+    thesis: "IB premium, aristocrat 28a, growth 21% post-reorganização 2020."
+    why_hold: "Chowder 22.9, capacidade massiva de devolver capital."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: "https://www.goldmansachs.com/investor-relations"
+    source: [user_pick]
+
+  HD:
+    intent: DRIP
+    thesis: "Home Depot aristocrat 40a, consumer disc. 2ª melhor eficiência DRIP 15y (2.58x $1k)."
+    why_hold: "Compound king — growth 8.7% sustenta yield-on-cost ascendente."
+    triggers: []
+    red_flags:
+      - "Housing market collapse material"
+    last_review: 2026-04-17
+    ri_url: "https://ir.homedepot.com"
+    source: [user_pick]
+
+  PLD:
+    intent: DRIP
+    thesis: "Prologis — logistics REIT aristocrat 30a, growth 12.5%."
+    why_hold: "High-quality logistics exposure, complementa O (diversified REIT)."
+    triggers: []
+    red_flags:
+      - "AFFO vs dividend cover cair abaixo 1.1"
+    last_review: 2026-04-17
+    ri_url: "https://www.prologis.com/investors"
+    source: [user_pick]
+
+  TFC:
+    intent: DRIP
+    thesis: "Truist regional banking aristocrat 40a, DY 4.21% (alto para banco US)."
+    why_hold: "Yield-only (growth apenas 2.8%), mas streak longo + payout 54%."
+    triggers: []
+    red_flags:
+      - "Regional banking crisis repeat"
+    last_review: 2026-04-17
+    ri_url: "https://ir.truist.com"
+    source: [user_pick]
+
+  BN:
+    intent: DRIP
+    thesis: "Brookfield Corp (pós-split BAM Dez/2022). Aristocrat 40a, growth 13.4% ajustado post-split. User clarificou tese de dividendos."
+    why_hold: "DRIP candidate recuperado — Quality Score 94 com lens pós-split."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: "https://bn.brookfield.com"
+    source: [user_pick]
+
+  BLK:
+    intent: DRIP
+    thesis: "BlackRock asset manager premium, streak 24a, growth 6%."
+    why_hold: "Exposure a rei dos gestores de ativos."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: "https://ir.blackrock.com"
+    source: [user_pick]
+
+  ACN:
+    intent: DRIP
+    thesis: "Accenture em correcção de ciclo (AI disruption). Aristocrat 22a, P&L -35% actual. Tese intacta mas momentum adverso."
+    why_hold: "Quality 68.8, score 0.80, fundamentals sólidos (ROE 24%, payout 25%)."
+    triggers:
+      - "Stabilization earnings sem 8-K 5.02 novos"
+      - "Preço reagir +10% do fundo ($179)"
+    red_flags:
+      - "Outro executive exit (2ª onda)"
+      - "Guidance cut trimestral"
+    last_review: 2026-04-17
+    ri_url: "https://investor.accenture.com"
+    source: [user_pick]
+
+  BRK-B:
+    intent: COMPOUNDER
+    thesis: "Berkshire não paga dividendo por design — Buffett reinveste melhor. Compounder de capital."
+    why_hold: "Não é DRIP; é stake em compounder com decisões de alocação de Buffett."
+    triggers: []
+    red_flags:
+      - "Morte/retirada de Buffett sem sucessão clara"
+    last_review: 2026-04-17
+    ri_url: "https://www.berkshirehathaway.com"
+    source: [user_pick]
+
+  TSLA:
+    intent: GROWTH
+    thesis: "Growth speculative — AV/energy transition bet."
+    why_hold: "User explicitou: GROWTH speculative."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  TSM:
+    intent: GROWTH
+    thesis: "Taiwan Semi — AI compute monopoly. Entry 2023 (+255% P&L)."
+    why_hold: "Growth compounder com dividendo acessório (DY 0.93%). Não DRIP pure."
+    triggers: []
+    red_flags:
+      - "Escalada geopolítica Taiwan (força majeure)"
+    last_review: 2026-04-17
+    ri_url: "https://investor.tsmc.com"
+    source: [user_pick]
+
+  AAPL:
+    intent: GROWTH
+    thesis: "Growth puro. DY 0.39% é token."
+    why_hold: "Exposure a ecosystem Apple; não DRIP."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  NU:
+    intent: GROWTH
+    thesis: "Nubank growth fintech BR-em-US. Zero dividendos."
+    why_hold: "Exposure a fintech BR; não DRIP."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  PLTR:
+    intent: GROWTH
+    thesis: "Palantir — speculative data/AI growth."
+    why_hold: "Speculative position."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  XP:
+    intent: GROWTH
+    thesis: "XP Inc — fintech BR expansion em US. IPO 2019, não DRIP."
+    why_hold: "Exposure a crescimento XP Group."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  TEN:
+    intent: GROWTH
+    thesis: "Tsakos Energy shipping — cíclico no TOPO do ciclo. Growth 31.6% não sustentável; é pico."
+    why_hold: "User explicitou GROWTH com awareness de topo-de-ciclo."
+    triggers:
+      - "Cycle rollover: tanker rates caindo, novas ordens a subir"
+    red_flags:
+      - "Dividend cut (TEN corta quando rates caem)"
+      - "Preço abaixo de 52w-MA por 2 meses consecutivos"
+    last_review: 2026-04-17
+    source: [user_pick]
+
+  GREK:
+    intent: ETF
+    thesis: "iShares MSCI Greece ETF — tactical exposure a equity grega."
+    why_hold: "Diversification play."
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source: [user_pick]
