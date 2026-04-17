@@ -404,6 +404,25 @@ def build_report(days: int = 7) -> str:
             P(f"  {f['name'][:31]:<32}{f['kind']:<10}{taxa:<16}{(mat or '-')+yrs_tag:<12}"
               f"R$ {f['valor_aplicado']:>8,.0f}R$ {f['valor_atual']:>8,.0f}")
 
+    # === [T] Triggers/red-flags da tese activados ===
+    try:
+        from scripts.thesis_manager import check_trigger_activation, load_theses
+        # thesis alerts usam janela maior (30d) porque triggers estruturais
+        # tipicamente saem em filings mais esparsos que eventos diários
+        alerts = check_trigger_activation(30)
+        theses = load_theses()
+        if alerts:
+            P(f"\n[T] THESIS ALERTS — triggers/red-flags em eventos 30d ({len(alerts)})")
+            for a in alerts[:10]:
+                bullet = "⚠" if (a["flag_hits"] or a["is_critical"]) else "✓"
+                hits = a["flag_hits"] or a["trigger_hits"]
+                hit_tag = f" [{','.join(hits[:2])}]" if hits else (" [critical]" if a["is_critical"] else "")
+                P(f"  {bullet} {a['market'].upper()} {a['ticker']:<7} {a['date']}  "
+                  f"intent={a['thesis_intent']:<11}  {a['kind']}{hit_tag}")
+                P(f"      {(a['summary'] or '')[:75]}")
+    except Exception as e:
+        P(f"\n[T] thesis_manager error: {str(e)[:100]}")
+
     # === 8. Action items ===
     P(f"\n[8] ACTION ITEMS")
     # — eventos prioritários
@@ -419,11 +438,21 @@ def build_report(days: int = 7) -> str:
     # — near-miss candidates
     if nm_br or nm_us:
         P(f"  • {len(nm_br)+len(nm_us)} near-miss no screen (potencial promote a holding)")
-    # — screens failing among holdings (distingue falha real de "sem dados")
+    # — screens failing among holdings (distingue falha real vs tese deliberada vs sem dados)
     fails = []
     no_data = []
+    try:
+        from scripts.thesis_manager import load_theses as _lt
+        _theses = _lt()
+    except Exception:
+        _theses = {"br": {}, "us": {}}
+
     for h_list, conn, mk in [(h_br, conn_br, "br"), (h_us, conn_us, "us")]:
         for h in h_list:
+            # Skip tickers com intent non-DRIP (growth, turnaround, etc.)
+            th = _theses.get(mk, {}).get(h["ticker"])
+            if th and th.get("intent") in ("GROWTH", "TURNAROUND", "WIND_DOWN", "COMPOUNDER", "ETF"):
+                continue
             sc, passes, details = _screen_verdict(conn, h["ticker"], mk)
             if not details:
                 continue
@@ -434,9 +463,9 @@ def build_report(days: int = 7) -> str:
             elif not passes and sc < 0.4 and len([v for v in applicable if v=="fail"]) >= 2:
                 fails.append(f"{h['ticker']} ({sc:.2f})")
     if fails:
-        P(f"  • Holdings com screen fraco (≥2 critérios fail, score<0.40): " + ", ".join(fails[:10]))
+        P(f"  • Holdings DRIP com screen fraco (≥2 critérios fail, score<0.40): " + ", ".join(fails[:10]))
     if no_data:
-        P(f"  • Holdings sem fundamentals persistidos (ETFs/tickers novos): " + ", ".join(no_data[:10]))
+        P(f"  • Holdings sem fundamentals (ETFs/novos): " + ", ".join(no_data[:10]))
 
     conn_br.close(); conn_us.close()
     return "\n".join(out)
