@@ -41,6 +41,37 @@ def _get_ptax() -> float:
     return r[0] if r else 5.0
 
 
+def _cash_balance(conn: sqlite3.Connection) -> tuple[float, list[tuple]]:
+    """Devolve (total, lista de movimentações) da tabela cash_balance."""
+    try:
+        rows = conn.execute(
+            "SELECT date, amount, currency, source, related_ticker, notes "
+            "FROM cash_balance ORDER BY date DESC LIMIT 20"
+        ).fetchall()
+    except sqlite3.OperationalError:
+        return 0.0, []
+    total = sum(r[1] for r in rows)
+    return total, rows
+
+
+def _realized_pnl(conn: sqlite3.Connection) -> list[tuple]:
+    """Posições fechadas: ticker, entry_price, exit_price, qty, realized_pnl, exit_date."""
+    try:
+        rows = conn.execute(
+            "SELECT ticker, quantity, entry_price, exit_price, exit_date "
+            "FROM portfolio_positions WHERE active=0 AND exit_price IS NOT NULL "
+            "ORDER BY exit_date DESC"
+        ).fetchall()
+    except sqlite3.OperationalError:
+        return []
+    out = []
+    for t, q, ep, xp, xd in rows:
+        pnl = (xp - ep) * q
+        pct = (xp / ep - 1) * 100 if ep else 0
+        out.append((t, q, ep, xp, xd, pnl, pct))
+    return out
+
+
 def _fixed_income(conn: sqlite3.Connection) -> list[dict]:
     try:
         rows = conn.execute(
@@ -206,6 +237,10 @@ def build_report(days: int = 7) -> str:
     h_br = _holdings_with_mv(conn_br)
     h_us = _holdings_with_mv(conn_us)
     fi_br = _fixed_income(conn_br)
+    cash_br_total, cash_br_mvs = _cash_balance(conn_br)
+    cash_us_total, cash_us_mvs = _cash_balance(conn_us)
+    closed_br = _realized_pnl(conn_br)
+    closed_us = _realized_pnl(conn_us)
     mv_br = sum(h["mv"] for h in h_br)
     mv_us = sum(h["mv"] for h in h_us)
     mv_fi = sum(f["valor_atual"] for f in fi_br)
@@ -225,7 +260,15 @@ def build_report(days: int = 7) -> str:
       f"{len(fi_br):>2} títulos")
     P(f"  US equity    MV $  {mv_us:>12,.2f}   P&L $  {mv_us-cost_us:>+11,.2f} ({(mv_us/cost_us-1)*100 if cost_us else 0:+5.1f}%)   "
       f"{len(h_us):>2} holdings")
-    total_brl = mv_br + mv_fi + mv_us * ptax
+    if cash_br_total or cash_us_total:
+        cash_lines = []
+        if cash_br_total:
+            cash_lines.append(f"R$ {cash_br_total:,.2f}")
+        if cash_us_total:
+            cash_lines.append(f"$ {cash_us_total:,.2f}")
+        P(f"  CASH livre   {'  '.join(cash_lines)}  (realocar ou aguardar entrada)")
+    cash_brl_equiv = cash_br_total + cash_us_total * ptax
+    total_brl = mv_br + mv_fi + mv_us * ptax + cash_brl_equiv
     cost_total_brl = cost_br + cost_fi + cost_us * ptax
     P(f"  TOTAL        MV R$ {total_brl:>12,.2f} (PTAX {ptax:.4f})   P&L R$ {total_brl-cost_total_brl:>+11,.2f} "
       f"({(total_brl/cost_total_brl-1)*100:+5.1f}%)")
@@ -322,6 +365,18 @@ def build_report(days: int = 7) -> str:
                      "USDBRL_PTAX": "PTAX USD/BRL", "CDI_DAILY": "CDI diário (fator)"}.get(sid, sid)
             fmt = f"{v:.2f}%" if sid == "SELIC_META" else (f"R$ {v:.4f}" if sid=="USDBRL_PTAX" else f"{v*100:.2f}%")
             P(f"  {label:<22}: {fmt:<10}  ({d})")
+
+    # === Posições fechadas / P&L realizado ===
+    all_closed = [(*r, "BR", "R$") for r in closed_br] + [(*r, "US", "$") for r in closed_us]
+    if all_closed:
+        P(f"\n[R] POSIÇÕES FECHADAS — P&L realizado  ({len(all_closed)} vendas)")
+        P(f"  {'Data':<12}{'Ticker':<8}{'Qty':>8}{'Entry':>10}{'Exit':>10}{'Realized':>14}{'%':>7}")
+        for t, q, ep, xp, xd, pnl, pct, mkt, sym in all_closed:
+            P(f"  {xd:<12}{t:<8}{q:>8.2f}  {sym}{ep:>7.2f}  {sym}{xp:>7.2f}  {sym}{pnl:>+10,.2f}{pct:>+7.1f}%")
+        P(f"\n  Cash flows recentes:")
+        for d, amt, ccy, src, tk, nt in (cash_br_mvs + cash_us_mvs)[:10]:
+            sym = "R$" if ccy == "BRL" else "$"
+            P(f"    {d}  {sym} {amt:>+10,.2f}  {src:<16}  {tk or '':<8}  {(nt or '')[:55]}")
 
     # === 9. Renda Fixa detalhe ===
     if fi_br:

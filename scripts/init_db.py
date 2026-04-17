@@ -82,6 +82,10 @@ CREATE TABLE IF NOT EXISTS portfolio_positions (
     entry_date   TEXT NOT NULL,
     entry_price  REAL NOT NULL,
     active       INTEGER NOT NULL DEFAULT 1,
+    quantity     REAL,
+    notes        TEXT,
+    exit_date    TEXT,
+    exit_price   REAL,
     PRIMARY KEY (ticker, entry_date),
     FOREIGN KEY (ticker) REFERENCES companies(ticker)
 );
@@ -203,6 +207,19 @@ CREATE TABLE IF NOT EXISTS events (
     FOREIGN KEY (ticker) REFERENCES companies(ticker)
 );
 CREATE INDEX IF NOT EXISTS idx_events_ticker_date ON events(ticker, event_date);
+
+-- Caixa livre: aportes pendentes, proceeds de vendas, dividendos em cash
+-- que ainda não foram reinvestidos. Permite tracking do "dry powder".
+CREATE TABLE IF NOT EXISTS cash_balance (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    date        TEXT NOT NULL,          -- quando entrou no caixa
+    amount      REAL NOT NULL,          -- valor em moeda local (positivo = entrada)
+    currency    TEXT NOT NULL DEFAULT 'BRL',
+    source      TEXT NOT NULL,          -- 'sale_proceeds' | 'dividend' | 'aporte' | 'rebalance'
+    related_ticker TEXT,                -- ticker que originou (se aplicável)
+    notes       TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_cash_date ON cash_balance(date);
 
 -- Posições de renda fixa: Tesouro Direto, debêntures, CRAs, LCAs, CRIs.
 -- Modelagem mínima orientada a DRIP/consolidado: o que mete juros/cupons
