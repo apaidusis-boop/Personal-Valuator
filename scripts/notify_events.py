@@ -42,6 +42,56 @@ def _save_state(seen: set[str]) -> None:
     STATE_PATH.write_text(json.dumps({"seen": sorted(seen)}), encoding="utf-8")
 
 
+def collect_screen_transitions() -> list[dict]:
+    """Detecta transições de passes_screen entre as duas runs mais recentes.
+    Gera 2 tipos de alert:
+      - promote    : não-holding cujo screen acabou de passar (candidato a compra)
+      - break      : holding cujo screen acabou de falhar (risco de tese)
+    ID formato: 'screen-{br|us}-{ticker}-{run_date}' para dedupe."""
+    events: list[dict] = []
+    for db, mkt in [(DB_BR, "br"), (DB_US, "us")]:
+        with sqlite3.connect(db) as c:
+            # últimas 2 run_dates globais
+            runs = [r[0] for r in c.execute(
+                "SELECT DISTINCT run_date FROM scores ORDER BY run_date DESC LIMIT 2"
+            ).fetchall()]
+            if len(runs) < 2:
+                continue
+            today_run, prev_run = runs[0], runs[1]
+            rows = c.execute(
+                """SELECT a.ticker, a.passes_screen, a.score,
+                          b.passes_screen, b.score, co.name, co.is_holding
+                   FROM scores a
+                   JOIN scores b ON a.ticker=b.ticker
+                   JOIN companies co ON co.ticker=a.ticker
+                   WHERE a.run_date=? AND b.run_date=?""",
+                (today_run, prev_run),
+            ).fetchall()
+            for tk, pt, st, pp, sp, nm, is_hld in rows:
+                if pt == pp:
+                    continue  # sem transição
+                if pp == 0 and pt == 1:
+                    # watchlist (ou holding) acabou de passar screen
+                    events.append({
+                        "id": f"screen-{mkt}-{tk}-{today_run}",
+                        "ticker": tk, "date": today_run,
+                        "title": f"Screen PASS — {tk}",
+                        "body": f"score {sp:.2f} → {st:.2f}  "
+                                f"({'holding' if is_hld else 'watchlist'})  {nm or ''}"[:150],
+                        "url": None, "priority": "high",
+                    })
+                elif pp == 1 and pt == 0 and is_hld:
+                    # holding cujo screen quebrou — alerta de risco
+                    events.append({
+                        "id": f"screen-{mkt}-{tk}-{today_run}-break",
+                        "ticker": tk, "date": today_run,
+                        "title": f"⚠ Screen BROKE — {tk} (holding)",
+                        "body": f"score {sp:.2f} → {st:.2f}  {nm or ''}"[:150],
+                        "url": None, "priority": "high",
+                    })
+    return events
+
+
 def collect_events(hours: int) -> list[dict]:
     """Retorna eventos de HOLDINGS dos últimos N horas que são alta prioridade."""
     since = (date.today() - timedelta(days=max(1, hours // 24 + 1))).isoformat()
@@ -113,7 +163,7 @@ def send_toast(ev: dict) -> None:
 
 def run(hours: int = 48, dry_run: bool = False) -> int:
     seen = _load_state()
-    evs = collect_events(hours)
+    evs = collect_events(hours) + collect_screen_transitions()
     new = [e for e in evs if e["id"] not in seen]
 
     print(f"[notify] eventos janela: {len(evs)}  |  já vistos: {len(evs) - len(new)}  |  novos: {len(new)}")
