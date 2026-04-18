@@ -1,0 +1,62 @@
+# llm_routing.yaml — qual cliente LLM classifica cada item.
+#
+# Avaliação: regras em `routing.rules` são percorridas em ordem; primeira
+# que bate ganha. A última regra ("default") deve ser sempre true.
+#
+# Expressões suportadas na chave `if`:
+#   len_tokens         — estimativa via tiktoken ou fallback len(text)//4
+#   source             — string ex: 'rss:valor', 'youtube:@OPrimoRico'
+#   source.startswith('prefix')
+#   source in [a, b, c]
+#   true               — catch-all
+#
+# Clientes válidos: 'ollama' | 'claude'
+
+routing:
+  rules:
+    - { name: "long_content",    if: "len_tokens > 4000",                            client: claude }
+    - { name: "youtube_always",  if: "source.startswith('youtube:')",                client: claude }
+    - { name: "high_signal_rss", if: "source in [rss:brazil_journal, rss:valor, rss:wsj_markets, rss:wsj_business, rss:wsj_economy, rss:reuters_business, rss:ft_markets]", client: claude }
+    - { name: "default",         if: "true",                                         client: ollama }
+
+# Escalada: quando o cliente primário devolve baixa confiança, re-classifica
+# com o cliente alternativo. Respeita `max_per_day` para proteger quota MAX.
+escalation:
+  enabled: true
+  from_client: ollama
+  to_client:   claude
+  trigger:     "confidence < 0.4"
+  max_per_day: 200
+
+# SHADOW_MODE: fase de calibração (2 semanas primeiras). Classifica um sample
+# estratificado com AMBOS os clientes e grava `extra_json.shadow_<other>`.
+# metrics.py consome isto para F1 Ollama-vs-Claude por sector/thesis_tag.
+# Quando métricas estabilizarem, desligar.
+shadow_mode:
+  enabled: false          # activar só após implementar scrapers + classifier
+  sample_per_day: 50
+  stratify_by: source
+
+# Parâmetros por cliente.
+clients:
+  ollama:
+    host: "http://localhost:11434"
+    model: "qwen2.5:14b-instruct-q5_K_M"   # q5 > q4 para multi-label
+    temperature: 0.2
+    timeout_s: 30
+    # Número de conexões HTTP persistentes mantidas pelo pool.
+    pool_size: 2
+
+  claude:
+    sdk: "claude-agent-sdk"
+    model: "claude-sonnet-4-6"
+    max_tokens: 2000
+    temperature: 0.1
+    # Auth: tenta herdar Claude Code (MAX) first; cai para ANTHROPIC_API_KEY
+    # env var se não encontrar (ver plist launchd).
+    auth_order: [claude_code, env_api_key]
+    # Circuit breaker: após N rate limits consecutivos em `window_minutes`,
+    # defer items para o próximo run (evita job noturno morrer silenciosamente).
+    circuit_breaker:
+      max_consecutive_rate_limits: 3
+      window_minutes: 30

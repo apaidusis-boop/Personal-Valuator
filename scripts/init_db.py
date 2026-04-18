@@ -300,10 +300,35 @@ SERIES_META_SEED = [
 ]
 
 
+def _add_column_if_missing(conn: sqlite3.Connection, table: str, col: str, decl: str) -> bool:
+    """ALTER TABLE idempotente. Devolve True se adicionou a coluna."""
+    existing = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+    if col in existing:
+        return False
+    conn.execute(f"ALTER TABLE {table} ADD COLUMN {col} {decl}")
+    return True
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Migrations aditivas que CREATE TABLE IF NOT EXISTS não cobre.
+
+    Idempotente — seguro correr em cada invocação.
+    """
+    # narrative_items: colunas adicionadas após o scaffold inicial
+    _add_column_if_missing(conn, "narrative_items", "embedding_blob",   "BLOB")
+    _add_column_if_missing(conn, "narrative_items", "retry_after",      "TEXT")
+    _add_column_if_missing(conn, "narrative_items", "dedup_group_id",   "TEXT")
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_narrative_dedup "
+        "ON narrative_items(dedup_group_id, published_at)"
+    )
+
+
 def init(db_path: Path) -> None:
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_path) as conn:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         if "br_investments" in db_path.name:
             conn.executemany(
                 """INSERT INTO series_meta
