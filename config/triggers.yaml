@@ -37,6 +37,13 @@
 # Critérios de screen (Graham/Buffett) vivem em scoring/engine.py e continuam
 # independentes. Triggers são sobre *momentum de preço/yield*, não qualidade.
 # Um bom fluxo: screen identifica qualidade → trigger identifica momento.
+#
+# ⚠ Empirical caveat (validado em analytics/backtest_yield.py, 2026-04):
+# O sinal `dy_percentile_vs_own_history` NÃO gera alpha quando usado como
+# stock-picker em universe alargado (edge -1.4% BR, -1.8% US vs equal-weight).
+# Nem sequer com filtro de qualidade (screen>=0.6) recupera edge positivo.
+# Uso correcto: contexto observacional e entry-timing em posições já decididas
+# por outras razões (thesis, DRIP target, rebalance). NÃO é accionável sozinho.
 
 triggers:
 
