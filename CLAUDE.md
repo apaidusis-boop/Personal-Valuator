@@ -128,7 +128,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 
 ## Convenções
 
-- Datas em ISO 8601 (`YYYY-MM-DD`), UTC para timestamps de eventos.
+- Datas em ISO 8601 (`YYYY-MM-DD`) na DB e nos logs (machine-readable).
+  Na camada de apresentação ao utilizador, **dd/mm/yyyy** via helpers
+  `analytics.format.br_date(iso)` / `br_datetime(iso)`.
 - Moeda **nunca** convertida na DB — BRL na DB BR, USD na DB US. Conversão só na camada de relatório, se necessário.
 - Logs estruturados (1 linha JSON por evento) em `logs/`. Rotacionar manualmente.
 - Tickers BR sem sufixo `.SA` na DB; o fetcher acrescenta-o ao falar com APIs externas se preciso.

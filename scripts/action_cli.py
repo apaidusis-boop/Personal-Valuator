@@ -20,9 +20,13 @@ import argparse
 import json
 import sqlite3
 from datetime import UTC, datetime
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from analytics.format import br_date  # noqa: E402
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"
 
@@ -113,11 +117,11 @@ def cmd_list(args: argparse.Namespace) -> int:
           f"{'HINT':<7}  {'OPENED':<12}  DETALHE")
     print("-" * 92)
     for r in rows:
-        opened_short = (r["opened_at"] or "")[:10]
+        opened_br = br_date(r["opened_at"])
         detail = _summarize_snapshot(r["kind"], r["snapshot"])
         ref = f"{r['market']}/{r['id']}"
         print(f"{ref:<8}  {r['ticker']:<7}  {r['status']:<9}  "
-              f"{(r['action_hint'] or '-'):<7}  {opened_short:<12}  {detail}")
+              f"{(r['action_hint'] or '-'):<7}  {opened_br:<12}  {detail}")
         if r["notes"]:
             print(f"           note: {r['notes']}")
     print("-" * 90)

@@ -258,9 +258,11 @@ def _drip_forward(conn, holding, horizons, sector):
 
 
 def build_report(days: int = 7) -> str:
+    from analytics.format import br_date
     out: list[str] = []
     P = out.append
     today_iso = date.today().isoformat()
+    today_br = br_date(today_iso)
     ptax = _get_ptax()
 
     # === Conecta BR e US ===
@@ -282,7 +284,7 @@ def build_report(days: int = 7) -> str:
     cost_fi = sum(f["valor_aplicado"] for f in fi_br)
 
     P("╔" + "═"*72 + "╗")
-    P(f"║  PORTFOLIO BRIEFING  —  {today_iso}" + " " * 40 + "║")
+    P(f"║  PORTFOLIO BRIEFING  —  {today_br}" + " " * 40 + "║")
     P("╚" + "═"*72 + "╝")
 
     # === 1. Snapshot consolidado ===
@@ -316,7 +318,7 @@ def build_report(days: int = 7) -> str:
     if ev_br or ev_us:
         P(f"\n[2] EVENTOS holdings últimos {days}d  —  {len(ev_br)+len(ev_us)} filings")
         for d, t, src, kind, summ in (ev_br + ev_us)[:15]:
-            P(f"  {d}  {t:<8} {src:<4} {kind:<20}  {summ or ''}")
+            P(f"  {br_date(d)}  {t:<8} {src:<4} {kind:<20}  {summ or ''}")
     else:
         P(f"\n[2] EVENTOS — nada nos últimos {days}d a tocar holdings")
 
@@ -345,9 +347,9 @@ def build_report(days: int = 7) -> str:
     if upc_br or upc_us:
         P(f"\n[4] DIVIDEND CALENDAR — pagamentos próximos 45d")
         for ex, pay, t, amt in upc_br[:10]:
-            P(f"  ex {ex}  pay {pay or '-':<10}  {t:<8}  R$ {amt:.4f}/share")
+            P(f"  ex {br_date(ex)}  pay {br_date(pay):<12}  {t:<8}  R$ {amt:.4f}/share")
         for ex, pay, t, amt in upc_us[:10]:
-            P(f"  ex {ex}  pay {pay or '-':<10}  {t:<8}  $ {amt:.4f}/share")
+            P(f"  ex {br_date(ex)}  pay {br_date(pay):<12}  {t:<8}  $ {amt:.4f}/share")
     else:
         P("\n[4] DIVIDEND CALENDAR — sem datas confirmadas nos próximos 45d")
 
@@ -397,7 +399,7 @@ def build_report(days: int = 7) -> str:
             label = {"SELIC_META": "Selic meta (a.a.)", "IPCA_MONTHLY": "IPCA mensal",
                      "USDBRL_PTAX": "PTAX USD/BRL", "CDI_DAILY": "CDI diário (fator)"}.get(sid, sid)
             fmt = f"{v:.2f}%" if sid == "SELIC_META" else (f"R$ {v:.4f}" if sid=="USDBRL_PTAX" else f"{v*100:.2f}%")
-            P(f"  {label:<22}: {fmt:<10}  ({d})")
+            P(f"  {label:<22}: {fmt:<10}  ({br_date(d)})")
 
     # === Posições fechadas / P&L realizado ===
     all_closed = [(*r, "BR", "R$") for r in closed_br] + [(*r, "US", "$") for r in closed_us]
@@ -405,11 +407,11 @@ def build_report(days: int = 7) -> str:
         P(f"\n[R] POSIÇÕES FECHADAS — P&L realizado  ({len(all_closed)} vendas)")
         P(f"  {'Data':<12}{'Ticker':<8}{'Qty':>8}{'Entry':>10}{'Exit':>10}{'Realized':>14}{'%':>7}")
         for t, q, ep, xp, xd, pnl, pct, mkt, sym in all_closed:
-            P(f"  {xd:<12}{t:<8}{q:>8.2f}  {sym}{ep:>7.2f}  {sym}{xp:>7.2f}  {sym}{pnl:>+10,.2f}{pct:>+7.1f}%")
+            P(f"  {br_date(xd):<12}{t:<8}{q:>8.2f}  {sym}{ep:>7.2f}  {sym}{xp:>7.2f}  {sym}{pnl:>+10,.2f}{pct:>+7.1f}%")
         P(f"\n  Cash flows recentes:")
         for d, amt, ccy, src, tk, nt in (cash_br_mvs + cash_us_mvs)[:10]:
             sym = "R$" if ccy == "BRL" else "$"
-            P(f"    {d}  {sym} {amt:>+10,.2f}  {src:<16}  {tk or '':<8}  {(nt or '')[:55]}")
+            P(f"    {br_date(d):<12}{sym} {amt:>+10,.2f}  {src:<16}  {tk or '':<8}  {(nt or '')[:55]}")
 
     # === 9. Renda Fixa detalhe ===
     if fi_br:
@@ -434,7 +436,8 @@ def build_report(days: int = 7) -> str:
                     yrs_tag = f" ({yrs:.1f}y)"
                 except ValueError:
                     pass
-            P(f"  {f['name'][:31]:<32}{f['kind']:<10}{taxa:<16}{(mat or '-')+yrs_tag:<12}"
+            mat_disp = (br_date(mat) if mat else "-") + yrs_tag
+            P(f"  {f['name'][:31]:<32}{f['kind']:<10}{taxa:<16}{mat_disp:<16}"
               f"R$ {f['valor_aplicado']:>8,.0f}R$ {f['valor_atual']:>8,.0f}")
 
     # === [T] Triggers/red-flags da tese activados ===
@@ -450,7 +453,7 @@ def build_report(days: int = 7) -> str:
                 bullet = "⚠" if (a["flag_hits"] or a["is_critical"]) else "✓"
                 hits = a["flag_hits"] or a["trigger_hits"]
                 hit_tag = f" [{','.join(hits[:2])}]" if hits else (" [critical]" if a["is_critical"] else "")
-                P(f"  {bullet} {a['market'].upper()} {a['ticker']:<7} {a['date']}  "
+                P(f"  {bullet} {a['market'].upper()} {a['ticker']:<7} {br_date(a['date'])}  "
                   f"intent={a['thesis_intent']:<11}  {a['kind']}{hit_tag}")
                 P(f"      {(a['summary'] or '')[:75]}")
     except Exception as e:
@@ -489,7 +492,7 @@ def build_report(days: int = 7) -> str:
         P(f"\n[A] OPEN TRIGGERS / DECISION JOURNAL ({len(all_actions)}){tag}")
         for a in all_actions[:15]:
             age = (date.today() - date.fromisoformat((a["opened_at"] or "")[:10])).days
-            age_s = "today" if age == 0 else f"{age}d ago"
+            age_s = "hoje" if age == 0 else f"há {age}d ({br_date(a['opened_at'])})"
             bullet = "🆕" if a["is_today"] else " •"
             detail = _summarize_action_snapshot(a["kind"], a["snapshot"])
             P(f"  {bullet} {a['market']}/{a['id']:<3} {a['ticker']:<7} "
