@@ -141,16 +141,39 @@ class YearResult:
     excess: float | None       # high - equal
 
 
+def _quality_tickers(conn: sqlite3.Connection, min_score: float = 0.6) -> set[str]:
+    """Tickers com score de screen >= min_score na última run.
+
+    min_score default 0.6 = pelo menos 3 de 5 critérios passam. Pragmático:
+    passes_screen=1 (todos critérios) é demasiado restritivo (só 1 ticker US).
+
+    Caveat: isto usa o screen ACTUAL (não ponto no tempo) — aproximação
+    honesta dado que fundamentals históricos não estão disponíveis.
+    Interpretação: filtro de qualidade ex-post atenua o viés do trigger puro.
+    """
+    rows = conn.execute(
+        "SELECT ticker FROM scores WHERE score >= ? AND "
+        "run_date=(SELECT MAX(run_date) FROM scores)",
+        (min_score,),
+    ).fetchall()
+    return {r[0] for r in rows}
+
+
 def run_backtest(market: str, *, start_year: int, end_year: int,
                  top_n: int = 5, min_percentile: float = 75.0,
-                 min_history_years: int = 10) -> list[YearResult]:
+                 min_history_years: int = 10,
+                 quality_only: bool = False,
+                 quality_min_score: float = 0.6) -> list[YearResult]:
     out: list[YearResult] = []
     with sqlite3.connect(_db(market)) as conn:
+        quality = _quality_tickers(conn, quality_min_score) if quality_only else None
         for year in range(start_year, end_year):
             anchor = f"{year}-12-31"
             # elegibilidade muda a cada ano: ticker precisa ter history até antes de year-min_history
             earliest = f"{year - min_history_years}-01-01"
             universe = _eligible_tickers(conn, earliest)
+            if quality is not None:
+                universe = [t for t in universe if t in quality]
             candidates: list[tuple[str, float, float]] = []  # (tk, dy, pctl)
             for tk in universe:
                 hist = _dy_history_until(conn, tk, anchor, lookback_years=min_history_years)
@@ -250,6 +273,10 @@ def main() -> None:
     ap.add_argument("--top-n", type=int, default=5)
     ap.add_argument("--min-percentile", type=float, default=75.0)
     ap.add_argument("--min-history-years", type=int, default=10)
+    ap.add_argument("--quality-only", action="store_true",
+                    help="Restringe universe a tickers que passam o screen actual")
+    ap.add_argument("--quality-min-score", type=float, default=0.6,
+                    help="Threshold do screen score p/ quality-only (default 0.6)")
     args = ap.parse_args()
 
     results = run_backtest(
@@ -257,6 +284,8 @@ def main() -> None:
         start_year=args.start, end_year=args.end,
         top_n=args.top_n, min_percentile=args.min_percentile,
         min_history_years=args.min_history_years,
+        quality_only=args.quality_only,
+        quality_min_score=args.quality_min_score,
     )
     summary = summarize(results)
     _print(args.market, results, summary, args.top_n, args.min_percentile)
