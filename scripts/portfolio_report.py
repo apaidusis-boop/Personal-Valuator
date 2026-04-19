@@ -384,6 +384,23 @@ def build_report(days: int = 7) -> str:
         for t, sc, fail, sec in nm_us[:8]:
             P(f"  US  {t:<8}  score {sc:.2f}  falha: {fail:<22}  sector: {sec}")
 
+    # === 7.0 Regime macro (rule-based classifier) ===
+    try:
+        from analytics.regime import classify as _regime_classify
+        reg_lines = []
+        for mk in ("br", "us"):
+            rg = _regime_classify(mk)
+            emoji = {"expansion": "📈", "late_cycle": "⚠", "recession": "📉",
+                     "recovery": "🌱", "unknown": "?"}.get(rg.regime, "?")
+            note = rg.notes[0] if rg.notes else ""
+            reg_lines.append(f"  {emoji} {mk.upper()}: {rg.regime:<11} [conf {rg.confidence:<6}]  {note[:50]}")
+        if reg_lines:
+            P("\n[M] REGIME MACRO")
+            for ln in reg_lines:
+                P(ln)
+    except Exception as e:
+        P(f"\n[M] regime classifier error: {str(e)[:80]}")
+
     # === 7. Macro context ===
     macro = conn_br.execute("""
         SELECT series_id, date, value FROM series
