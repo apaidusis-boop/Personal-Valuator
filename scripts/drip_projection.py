@@ -256,6 +256,40 @@ def project_drip(shares: float, price: float, div_ps: float,
     return sh, px, total_divs, sh * px
 
 
+def payback_milestones(shares0: float, price0: float, div_ps0: float,
+                       g: float, md: float, cost_basis: float,
+                       max_years: int = 40) -> dict:
+    """Calcula 3 marcos de payback para um cenário.
+
+    - cash_payback_y   : anos até Σ cash_divs (sem reinvestir) ≥ cost_basis
+    - share_double_y   : anos até shares (com DRIP) ≥ 2× shares iniciais
+    - wealth_double_y  : anos até market value (com DRIP) ≥ 2× cost_basis
+    """
+    sh, px, d = shares0, price0, div_ps0
+    cash_cum = 0.0
+    marks: dict[str, int | None] = {
+        "cash_payback_y": None,
+        "share_double_y": None,
+        "wealth_double_y": None,
+    }
+    price_growth = g + md
+    for yr in range(1, max_years + 1):
+        px *= (1 + price_growth)
+        d *= (1 + g)
+        cash_cum += shares0 * d          # cash path: só shares originais, sem reinvest
+        if px > 0:
+            sh += (sh * d) / px          # DRIP reinvest
+        if marks["cash_payback_y"] is None and cash_cum >= cost_basis:
+            marks["cash_payback_y"] = yr
+        if marks["share_double_y"] is None and sh >= 2 * shares0:
+            marks["share_double_y"] = yr
+        if marks["wealth_double_y"] is None and sh * px >= 2 * cost_basis:
+            marks["wealth_double_y"] = yr
+        if all(marks.values()) and yr >= 5:
+            break
+    return marks
+
+
 def analyze_market(db_path: Path, ccy: str, horizons: list[int], as_of: str) -> dict:
     conn = sqlite3.connect(db_path)
     positions = conn.execute(
@@ -400,6 +434,131 @@ def print_report(markets: list[dict], horizons: list[int], fx_brl_usd: float) ->
     return "\n".join(out)
 
 
+def analyze_single_ticker(ticker: str, *, qty_override: float | None = None,
+                          entry_override: float | None = None,
+                          horizons: list[int] | None = None,
+                          as_of: str | None = None) -> dict | None:
+    """Retorna dict com tudo o que o single-ticker report precisa, ou None se não existir.
+
+    Tenta ambas as DBs (BR primeiro, depois US). Se --qty/--entry são passados,
+    sobrepõem a posição da carteira (útil para scenarios hipotéticos).
+    """
+    as_of = as_of or date.today().isoformat()
+    horizons = horizons or [5, 10, 15]
+    for db_path, ccy in [(DB_BR, "BRL"), (DB_US, "USD")]:
+        conn = sqlite3.connect(db_path)
+        last_px = _last_close(conn, ticker)
+        if not last_px:
+            conn.close()
+            continue
+        # qty/entry: override tem precedência; senão portfolio_positions; senão qty=0
+        pos = conn.execute(
+            "SELECT quantity, entry_price FROM portfolio_positions "
+            "WHERE ticker=? AND active=1 ORDER BY entry_date DESC LIMIT 1",
+            (ticker,),
+        ).fetchone()
+        qty = qty_override if qty_override is not None else (pos[0] if pos else 0)
+        entry_px = entry_override if entry_override is not None else (pos[1] if pos else last_px)
+
+        ttm_dps = _ttm_div_per_share(conn, ticker, as_of)
+        annual = _annual_divs_per_share(conn, ticker)
+        fund = _latest_fundamentals(conn, ticker)
+        sec_row = conn.execute("SELECT sector FROM companies WHERE ticker=?", (ticker,)).fetchone()
+        sector = sec_row[0] if sec_row else None
+        scenarios = derive_scenarios(ticker, last_px, ttm_dps, annual, fund, conn, sector)
+        conn.close()
+
+        cost_basis = qty * entry_px if qty and entry_px else 0.0
+        paybacks = {}
+        trajectories = {}
+        for sc_name in ("conservador", "base", "optimista"):
+            sc = scenarios[sc_name]
+            paybacks[sc_name] = payback_milestones(
+                qty, last_px, ttm_dps, sc["g"], sc["md"], cost_basis
+            ) if cost_basis > 0 else None
+            trajectories[sc_name] = {
+                h: project_drip(qty, last_px, ttm_dps, sc["g"], sc["md"], h)
+                for h in horizons
+            }
+        return {
+            "ticker": ticker, "ccy": ccy, "qty": qty, "entry_price": entry_px,
+            "cost_basis": cost_basis, "last_price": last_px,
+            "mv_now": qty * last_px, "ttm_div_ps": ttm_dps,
+            "current_yield": ttm_dps / last_px if last_px else 0,
+            "scenarios": scenarios, "paybacks": paybacks, "trajectories": trajectories,
+            "horizons": horizons, "fund": fund,
+        }
+    return None
+
+
+def print_single_ticker(data: dict, payback_mode: bool) -> str:
+    sym = "R$" if data["ccy"] == "BRL" else "US$"
+    out: list[str] = []
+    P = out.append
+    P("")
+    P("/" + "=" * 76 + "\\")
+    P(f"|   DRIP SCENARIO — {data['ticker']:<12}    moeda {data['ccy']}      data {date.today().isoformat()}".ljust(77) + "|")
+    P("\\" + "=" * 76 + "/")
+    P("")
+    P("  POSICAO")
+    P("  " + "-" * 60)
+    P(f"  Shares..............: {data['qty']:>14,.0f}".replace(",", "."))
+    P(f"  Entry price.........: {sym} {data['entry_price']:>11,.2f}")
+    P(f"  Cost basis..........: {sym} {data['cost_basis']:>11,.2f}")
+    P(f"  Price now...........: {sym} {data['last_price']:>11,.2f}")
+    unrl = (data["last_price"]/data["entry_price"]-1)*100 if data["entry_price"] else 0
+    P(f"  Market value now....: {sym} {data['mv_now']:>11,.2f}  [{unrl:+.1f}% nao-realizado]")
+    P(f"  DY t12m.............: {data['current_yield']*100:.2f}%  (R$/US$ {data['ttm_div_ps']:.4f}/share)")
+    P("")
+    kind = data["scenarios"]["debug"].get("kind", "?")
+    dbg = data["scenarios"]["debug"]
+    P(f"  kind={kind}  "
+      + "  ".join(f"{k}={v:.3f}" if isinstance(v, float) else f"{k}={v}"
+                  for k, v in dbg.items() if k != "kind" and v is not None))
+    P("")
+
+    P("  ASSUMPTIONS POR CENARIO")
+    P("  " + "-" * 74)
+    P("  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |")
+    P("  " + "-" * 74)
+    for sc_name in ("conservador", "base", "optimista"):
+        sc = data["scenarios"][sc_name]
+        tr = data["current_yield"] + sc["g"] + sc["md"]
+        P(f"  | {sc_name:<12} |  {sc['g']*100:>+6.2f}%  |  {sc['md']*100:>+6.2f}% |  {tr*100:>+6.2f}%       |")
+    P("  " + "-" * 74)
+    P("")
+
+    if payback_mode and data["cost_basis"] > 0:
+        P("  PAYBACK MILESTONES (anos)")
+        P("  " + "-" * 74)
+        P("  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |")
+        P("  " + "-" * 74)
+        for sc_name in ("conservador", "base", "optimista"):
+            pb = data["paybacks"][sc_name] or {}
+            f = lambda k: str(pb.get(k) or ">40")
+            P(f"  | {sc_name:<12} |   {f('cash_payback_y'):>4}       |     {f('share_double_y'):>4}       |     {f('wealth_double_y'):>4}       |")
+        P("  " + "-" * 74)
+        P("")
+        P("  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis")
+        P("  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0")
+        P("  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis")
+        P("")
+
+    P("  PROJECCAO DRIP — valor final de mercado por horizonte")
+    P("  " + "-" * 74)
+    hdr = "  | HORZ  | " + " | ".join(f"{sc:<12}" for sc in ("conservador","base","optimista")) + " |"
+    P(hdr)
+    P("  " + "-" * 74)
+    for h in data["horizons"]:
+        cells = []
+        for sc_name in ("conservador", "base", "optimista"):
+            _, _, _, mv = data["trajectories"][sc_name][h]
+            cells.append(f"{sym} {mv:>10,.0f}")
+        P(f"  | {h:>3}y  | " + " | ".join(cells) + " |")
+    P("  " + "-" * 74)
+    return "\n".join(out)
+
+
 def _ptax() -> float:
     conn = sqlite3.connect(DB_BR)
     r = conn.execute(
@@ -415,10 +574,33 @@ def main() -> None:
                     help="CSV de horizontes em anos, ex: 5,10,15,20")
     ap.add_argument("--md", action="store_true", help="Grava em reports/drip_projection_YYYY-MM-DD.md")
     ap.add_argument("--only", choices=["br", "us"], help="Só um mercado")
+    ap.add_argument("--ticker", help="Modo single-ticker: foca só neste símbolo")
+    ap.add_argument("--qty", type=float, help="Override de quantidade (só com --ticker)")
+    ap.add_argument("--entry", type=float, help="Override de preço de entrada (só com --ticker)")
+    ap.add_argument("--payback", action="store_true",
+                    help="Com --ticker: mostra marcos de payback (cash/2xSH/2xV)")
     args = ap.parse_args()
 
     horizons = [int(x) for x in args.horizons.split(",")]
     as_of = date.today().isoformat()
+
+    if args.ticker:
+        data = analyze_single_ticker(
+            args.ticker.upper(),
+            qty_override=args.qty, entry_override=args.entry,
+            horizons=horizons, as_of=as_of,
+        )
+        if not data:
+            print(f"[erro] ticker '{args.ticker}' sem dados de preço em nenhuma DB.")
+            return
+        report = print_single_ticker(data, payback_mode=args.payback)
+        print(report)
+        if args.md:
+            REPORTS.mkdir(exist_ok=True)
+            fp = REPORTS / f"drip_{args.ticker.upper()}_{as_of}.md"
+            fp.write_text(f"# DRIP — {args.ticker.upper()} {as_of}\n\n```\n{report}\n```\n", encoding="utf-8")
+            print(f"\n[md] gravado em {fp}")
+        return
 
     markets: list[dict] = []
     if args.only != "us":

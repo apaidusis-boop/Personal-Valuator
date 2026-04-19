@@ -89,6 +89,41 @@ python scripts/daily_update.py           # corre fetchers + scoring para BR e US
 python scripts/weekly_report.py          # gera reports/weekly_YYYY-MM-DD.md
 ```
 
+## Script catalog — consultar ANTES de criar novo
+
+**Política anti-queima-tokens**: antes de escrever um script novo para responder
+uma pergunta, verificar se já existe um que resolve (ou que possa ser estendido
+com uma flag). Reescrever do zero queima tokens e duplica lógica de derivação
+de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
+
+| Pergunta                                      | Comando existente |
+|---|---|
+| Quantas ações tenho de X / posição actual     | `sqlite3 data/<mkt>_investments.db "SELECT ticker, quantity, entry_price FROM portfolio_positions WHERE ticker='X' AND active=1"` |
+| Deep-dive em ticker X                         | `python scripts/analyze_ticker.py X` |
+| **Payback DRIP de X** (quantos anos p/ 2× shares, cash payback) | `python scripts/drip_projection.py --ticker X --payback` |
+| Projecção DRIP 5/10/15y single-ticker         | `python scripts/drip_projection.py --ticker X` |
+| Projecção DRIP agregada da carteira           | `python scripts/drip_projection.py --horizons 5,10,15,20` |
+| Briefing consolidado BR+US+RF                 | `python scripts/portfolio_report.py` |
+| Comparar ticker vs IBOV                       | `python scripts/compare_ibov.py X` |
+| Comparar ticker vs macro (Selic/CDI/USD)      | `python scripts/compare_ticker_vs_macro.py X` |
+| Tese qualitativa (macro / sector / ticker)    | `python scripts/thesis_manager.py X` |
+| Ranking DRIP quality BR                       | `python scripts/br_drip_optimizer.py` |
+| Trigger engine (buy/sell signals declarativos)| `python scripts/trigger_monitor.py [--dry-run] [--market br\|us]` |
+| **Gerir open triggers** (list/resolve/ignore) | `python scripts/action_cli.py [list\|resolve\|ignore\|note] [ref] [--note '...']` |
+| **Dividend safety score** (0-100, forward)    | `python -m scoring.dividend_safety X` ou `--all` |
+| **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
+| Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
+| Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |
+
+**Regras de extensão**:
+1. Se existe o script mas falta um ângulo (ex: single-ticker, formato payback),
+   **adicionar flag/modo** em vez de criar script novo.
+2. Scripts one-shot específicos de um ticker (ex: `itsa4_drip_scenario.py`) são
+   anti-padrão — generalizar e apagar o one-shot.
+3. Toda a lógica de *derivação de assumptions* (damper, Gordon, classify
+   equity/fii/compounder) vive em `scripts/drip_projection.py::derive_scenarios`
+   e é reutilizada. NÃO reimplementar à mão.
+
 ## Convenções
 
 - Datas em ISO 8601 (`YYYY-MM-DD`), UTC para timestamps de eventos.

@@ -205,6 +205,39 @@ def _upcoming_dividends(conn: sqlite3.Connection, tickers: list[str]) -> list[tu
     return conn.execute(q, (*tickers, today, future, today, future)).fetchall()
 
 
+def _open_actions(conn: sqlite3.Connection, market: str) -> list[dict]:
+    """Retorna todas as watchlist_actions com status='open'. Mais recentes primeiro."""
+    import json as _json
+    rows = conn.execute(
+        """SELECT id, ticker, kind, trigger_id, action_hint, opened_at,
+                  trigger_snapshot_json, notes
+           FROM watchlist_actions WHERE status='open' ORDER BY opened_at DESC"""
+    ).fetchall()
+    out = []
+    today = date.today().isoformat()
+    for r in rows:
+        snap = _json.loads(r[6]) if r[6] else {}
+        out.append({
+            "id": r[0], "ticker": r[1], "kind": r[2], "trigger_id": r[3],
+            "action_hint": r[4] or "-", "opened_at": r[5],
+            "is_today": (r[5] or "")[:10] == today,
+            "snapshot": snap, "notes": r[7], "market": market,
+        })
+    return out
+
+
+def _summarize_action_snapshot(kind: str, snap: dict) -> str:
+    """Uma linha ultra-curta. Fallback para JSON dump se kind desconhecido."""
+    if kind == "price_drop_from_high":
+        return f"drop {snap.get('drop_pct','?')}% (price {snap.get('price','?')})"
+    if kind == "dy_above_pct":
+        return f"DY {snap.get('dy_pct','?')}% ≥ {snap.get('threshold_pct','?')}%"
+    if kind == "dy_percentile_vs_own_history":
+        return (f"DY {snap.get('dy_now_pct','?')}% ≥ P{snap.get('percentile','?')} "
+                f"({snap.get('dy_threshold_pct','?')}%)")
+    return "—"
+
+
 def _drip_forward(conn, holding, horizons, sector):
     """Usa drip_projection.derive_scenarios para projectar um holding."""
     from scripts.drip_projection import (
@@ -422,6 +455,23 @@ def build_report(days: int = 7) -> str:
                 P(f"      {(a['summary'] or '')[:75]}")
     except Exception as e:
         P(f"\n[T] thesis_manager error: {str(e)[:100]}")
+
+    # === 7b. Open watchlist actions (trigger-driven decision journal) ===
+    actions_br = _open_actions(conn_br, "br")
+    actions_us = _open_actions(conn_us, "us")
+    all_actions = actions_br + actions_us
+    if all_actions:
+        new_today = sum(1 for a in all_actions if a["is_today"])
+        tag = f" — {new_today} NOVO(S) HOJE" if new_today else ""
+        P(f"\n[A] OPEN TRIGGERS / DECISION JOURNAL ({len(all_actions)}){tag}")
+        for a in all_actions[:15]:
+            age = (date.today() - date.fromisoformat((a["opened_at"] or "")[:10])).days
+            age_s = "today" if age == 0 else f"{age}d ago"
+            bullet = "🆕" if a["is_today"] else " •"
+            detail = _summarize_action_snapshot(a["kind"], a["snapshot"])
+            P(f"  {bullet} {a['market']}/{a['id']:<3} {a['ticker']:<7} "
+              f"[{a['action_hint']:<6}] {detail:<44} {age_s}")
+        P(f"  resolve: python scripts/action_cli.py resolve <ref> --note '...'")
 
     # === 8. Action items ===
     P(f"\n[8] ACTION ITEMS")
