@@ -456,6 +456,29 @@ def build_report(days: int = 7) -> str:
     except Exception as e:
         P(f"\n[T] thesis_manager error: {str(e)[:100]}")
 
+    # === 7a. Screen trend / quality drift ===
+    try:
+        from analytics.screen_trend import scan as _trend_scan, notable as _trend_notable
+        trend_signals = []
+        for mk in ("br", "us"):
+            trend_signals.extend(_trend_scan(mk))
+        key_signals = _trend_notable(trend_signals)
+        holding_signals = [s for s in key_signals if s.is_holding]
+        non_holding = [s for s in key_signals if not s.is_holding]
+        if holding_signals or non_holding:
+            P(f"\n[Q] QUALITY DRIFT — screens em mudança "
+              f"(hold={len(holding_signals)}, watch={len(non_holding)})")
+            icons = {"transition_fail": "⚠ DOWNGRADE", "transition_pass": "✓ UPGRADE ",
+                     "score_degrading": "↓ degrading", "score_improving": "↑ improving"}
+            for s in (holding_signals + non_holding)[:15]:
+                tag = icons.get(s.signal, s.signal)
+                base = f"{s.baseline_score:.2f}" if s.baseline_score is not None else "—"
+                flag = " [HOLDING]" if s.is_holding else ""
+                P(f"  {tag}  {s.market}/{s.ticker:<7} score {s.latest_score:.2f} "
+                  f"(baseline {base}, {s.history_len} runs){flag}")
+    except Exception as e:
+        P(f"\n[Q] screen_trend error: {str(e)[:100]}")
+
     # === 7b. Open watchlist actions (trigger-driven decision journal) ===
     actions_br = _open_actions(conn_br, "br")
     actions_us = _open_actions(conn_us, "us")
