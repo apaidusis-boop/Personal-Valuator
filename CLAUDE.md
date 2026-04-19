@@ -113,6 +113,7 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Dividend safety score** (0-100, forward)    | `python -m scoring.dividend_safety X` ou `--all` |
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |
+| **Backtest yield strategy**                   | `python -m analytics.backtest_yield --market br --start 2019 --top-n 5` |
 | Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
 | Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |
 
