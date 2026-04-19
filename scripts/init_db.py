@@ -243,6 +243,38 @@ CREATE TABLE IF NOT EXISTS fixed_income_positions (
     notes             TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_fi_maturity ON fixed_income_positions(maturity_date);
+
+-- Decision journal: cada vez que um trigger dispara, abre-se uma row aqui.
+-- O user resolve explicitamente ("bought 10 @ X", "ignored: wait Q earnings").
+-- Em 6 meses temos o track record das nossas decisões de compra/venda/trim.
+--   kind            : mesmo vocabulário do triggers.yaml
+--                     (price_drop_from_high | dy_above_pct | dy_percentile_vs_own_history | ...)
+--   trigger_id      : slug opcional (stable id) da entry em triggers.yaml
+--                     para dedupe por (ticker, trigger_id, status=open)
+--   action_hint     : BUY | SELL | TRIM | ADD | REVIEW  — sugestão, não execução
+--   trigger_snapshot_json : snapshot do que estava true no momento do fire
+--                           (price, dy, reference, threshold, etc.)
+--   status          : open | resolved | ignored
+CREATE TABLE IF NOT EXISTS watchlist_actions (
+    id                    INTEGER PRIMARY KEY AUTOINCREMENT,
+    ticker                TEXT NOT NULL,
+    market                TEXT NOT NULL,               -- 'br' | 'us'
+    kind                  TEXT NOT NULL,
+    trigger_id            TEXT,
+    action_hint           TEXT,
+    trigger_snapshot_json TEXT,
+    status                TEXT NOT NULL DEFAULT 'open',
+    opened_at             TEXT NOT NULL,               -- ISO 8601 UTC
+    resolved_at           TEXT,
+    notes                 TEXT,
+    FOREIGN KEY (ticker) REFERENCES companies(ticker)
+);
+CREATE INDEX IF NOT EXISTS idx_wa_ticker_status ON watchlist_actions(ticker, status);
+CREATE INDEX IF NOT EXISTS idx_wa_opened_at    ON watchlist_actions(opened_at);
+-- Idempotência por dia: não reabrir 2 vezes o mesmo trigger aberto para o mesmo ticker no mesmo dia.
+CREATE UNIQUE INDEX IF NOT EXISTS ux_wa_open_daily
+    ON watchlist_actions(ticker, kind, trigger_id, substr(opened_at,1,10))
+    WHERE status='open';
 """
 
 
