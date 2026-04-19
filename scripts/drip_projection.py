@@ -497,7 +497,8 @@ def print_single_ticker(data: dict, payback_mode: bool) -> str:
     P = out.append
     P("")
     P("/" + "=" * 76 + "\\")
-    P(f"|   DRIP SCENARIO — {data['ticker']:<12}    moeda {data['ccy']}      data {date.today().isoformat()}".ljust(77) + "|")
+    from analytics.format import br_date
+    P(f"|   DRIP SCENARIO — {data['ticker']:<12}    moeda {data['ccy']}      data {br_date(date.today().isoformat())}".ljust(77) + "|")
     P("\\" + "=" * 76 + "/")
     P("")
     P("  POSICAO")
