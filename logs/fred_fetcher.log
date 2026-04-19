@@ -1,0 +1,7 @@
+{"ts": "2026-04-19T19:50:22Z", "event": "fred_fetch_ok", "fred_id": "DFF", "series_id": "FRED_FEDFUNDS", "n_points": 26223, "range": ["1954-07-01", "2026-04-16"]}
+{"ts": "2026-04-19T19:50:24Z", "event": "fred_fetch_ok", "fred_id": "DGS10", "series_id": "FRED_DGS10", "n_points": 16057, "range": ["1962-01-02", "2026-04-16"]}
+{"ts": "2026-04-19T19:50:26Z", "event": "fred_fetch_ok", "fred_id": "DGS2", "series_id": "FRED_DGS2", "n_points": 12465, "range": ["1976-06-01", "2026-04-16"]}
+{"ts": "2026-04-19T19:50:27Z", "event": "fred_fetch_ok", "fred_id": "T10Y2Y", "series_id": "FRED_T10Y2Y", "n_points": 12466, "range": ["1976-06-01", "2026-04-17"]}
+{"ts": "2026-04-19T19:50:29Z", "event": "fred_fetch_ok", "fred_id": "CPIAUCSL", "series_id": "FRED_CPI_YOY", "n_points": 938, "range": ["1948-01-01", "2026-03-01"]}
+{"ts": "2026-04-19T19:50:30Z", "event": "fred_fetch_ok", "fred_id": "UNRATE", "series_id": "FRED_UNRATE", "n_points": 938, "range": ["1948-01-01", "2026-03-01"]}
+{"ts": "2026-04-19T19:50:31Z", "event": "fred_fetch_ok", "fred_id": "VIXCLS", "series_id": "FRED_VIX", "n_points": 9166, "range": ["1990-01-02", "2026-04-16"]}
