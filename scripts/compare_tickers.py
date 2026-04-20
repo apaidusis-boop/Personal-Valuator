@@ -24,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from analytics.dy_percentile import compute as dy_pctl_compute   # noqa: E402
 from scoring.dividend_safety import compute as safety_compute   # noqa: E402
 from scripts.drip_projection import (                            # noqa: E402
     _annual_divs_per_share, _latest_fundamentals, _ptax, _ttm_div_per_share,
@@ -48,41 +49,14 @@ def _detect_market(ticker: str) -> str | None:
 
 
 def _dy_percentile_now(conn: sqlite3.Connection, ticker: str, lookback_years: int = 10) -> tuple[float, float, int] | None:
-    """Devolve (dy_now_pct, percentile_actual, obs) usando série mensal t12m."""
-    end_row = conn.execute(
-        "SELECT MAX(date) FROM prices WHERE ticker=?", (ticker,)
-    ).fetchone()
-    if not end_row or not end_row[0]:
+    """Devolve (dy_now_pct, percentile_actual, obs) usando série mensal t12m.
+
+    Thin wrapper sobre analytics.dy_percentile.compute para back-compat tabular.
+    """
+    r = dy_pctl_compute(conn, ticker, lookback_years=lookback_years, min_obs=1)
+    if r is None:
         return None
-    end_dt = date.fromisoformat(end_row[0])
-    start_dt = date(end_dt.year - lookback_years, end_dt.month, 1)
-    cur = start_dt
-    hist: list[float] = []
-    while cur <= end_dt:
-        next_month = date(cur.year + (cur.month // 12), (cur.month % 12) + 1, 1)
-        month_end = (next_month - timedelta(days=1)).isoformat()
-        pr = conn.execute(
-            "SELECT close FROM prices WHERE ticker=? AND date<=? ORDER BY date DESC LIMIT 1",
-            (ticker, month_end),
-        ).fetchone()
-        if pr and pr[0] and pr[0] > 0:
-            since = (date.fromisoformat(month_end) - timedelta(days=365)).isoformat()
-            div = conn.execute(
-                "SELECT COALESCE(SUM(amount), 0) FROM dividends "
-                "WHERE ticker=? AND ex_date<=? AND ex_date>? AND amount>0",
-                (ticker, month_end, since),
-            ).fetchone()[0] or 0
-            if div > 0:
-                hist.append(100.0 * div / pr[0])
-        cur = next_month
-    if not hist:
-        return None
-    dy_now = hist[-1]
-    # percentile actual do último valor
-    sorted_hist = sorted(hist)
-    rank = sum(1 for v in sorted_hist if v < dy_now)
-    pct = 100 * rank / len(sorted_hist)
-    return (dy_now, pct, len(hist))
+    return (r.dy_now_pct, r.percentile, r.obs)
 
 
 def _total_return(conn: sqlite3.Connection, ticker: str, years: int) -> float | None:

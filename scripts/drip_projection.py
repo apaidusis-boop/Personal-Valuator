@@ -466,6 +466,8 @@ def analyze_single_ticker(ticker: str, *, qty_override: float | None = None,
         sec_row = conn.execute("SELECT sector FROM companies WHERE ticker=?", (ticker,)).fetchone()
         sector = sec_row[0] if sec_row else None
         scenarios = derive_scenarios(ticker, last_px, ttm_dps, annual, fund, conn, sector)
+        from analytics.dy_percentile import compute as _dy_pctl_compute
+        dy_pctl = _dy_pctl_compute(conn, ticker)
         conn.close()
 
         cost_basis = qty * entry_px if qty and entry_px else 0.0
@@ -486,7 +488,7 @@ def analyze_single_ticker(ticker: str, *, qty_override: float | None = None,
             "mv_now": qty * last_px, "ttm_div_ps": ttm_dps,
             "current_yield": ttm_dps / last_px if last_px else 0,
             "scenarios": scenarios, "paybacks": paybacks, "trajectories": trajectories,
-            "horizons": horizons, "fund": fund,
+            "horizons": horizons, "fund": fund, "dy_pctl": dy_pctl,
         }
     return None
 
@@ -510,6 +512,10 @@ def print_single_ticker(data: dict, payback_mode: bool) -> str:
     unrl = (data["last_price"]/data["entry_price"]-1)*100 if data["entry_price"] else 0
     P(f"  Market value now....: {sym} {data['mv_now']:>11,.2f}  [{unrl:+.1f}% nao-realizado]")
     P(f"  DY t12m.............: {data['current_yield']*100:.2f}%  (R$/US$ {data['ttm_div_ps']:.4f}/share)")
+    dypc = data.get("dy_pctl")
+    if dypc:
+        P(f"  DY vs own 10y.......: P{dypc.percentile:>2.0f} [{dypc.label}]  "
+          f"(actual {dypc.dy_now_pct:.2f}% em {dypc.obs} obs mensais) — entry-timing, NAO stock-picker")
     P("")
     kind = data["scenarios"]["debug"].get("kind", "?")
     dbg = data["scenarios"]["debug"]

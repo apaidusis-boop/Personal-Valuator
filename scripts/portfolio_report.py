@@ -322,11 +322,12 @@ def build_report(days: int = 7) -> str:
     else:
         P(f"\n[2] EVENTOS — nada nos últimos {days}d a tocar holdings")
 
-    # === 3. Holdings — screen + P&L ===
+    # === 3. Holdings — screen + P&L + entry-timing (DY-pctl) ===
+    from analytics.dy_percentile import compute as _dy_pctl_compute
     for h_list, conn, label, sym in [(h_br, conn_br, "BR", "R$"), (h_us, conn_us, "US", "$")]:
         mk = "br" if label == "BR" else "us"
         P(f"\n[3.{label}] HOLDINGS  —  {len(h_list)} posições")
-        P(f"  {'Ticker':<8}{'Screen':>8}{'MV':>14}{'P&L':>12}{'DY':>7}{'Streak':>7}  Sector")
+        P(f"  {'Ticker':<8}{'Screen':>8}{'MV':>14}{'P&L':>12}{'DY':>7}{'DY%ile':>9}{'Streak':>7}  Sector")
         for h in h_list:
             score, passes, _ = _screen_verdict(conn, h["ticker"], mk)
             sym_v = "✓" if passes else ("≈" if score >= 0.6 else "✗")
@@ -338,8 +339,13 @@ def build_report(days: int = 7) -> str:
             ).fetchone()
             streak, arist = (fund_row or (None, None))
             streak_tag = f"{streak}a" + ("★" if arist else "") if streak is not None else "-"
+            dypc = _dy_pctl_compute(conn, h["ticker"])
+            pctl_tag = f"P{dypc.percentile:>2.0f}{dypc.short}" if dypc else "   -"
             P(f"  {h['ticker']:<8}{sym_v}{score:>6.2f}  {sym} {h['mv']:>10,.0f}"
-              f"  {sym}{h['pnl']:>+9,.0f}{dy_eff*100:>6.2f}%{streak_tag:>7}  {h['sector']}")
+              f"  {sym}{h['pnl']:>+9,.0f}{dy_eff*100:>6.2f}%{pctl_tag:>9}{streak_tag:>7}  {h['sector']}")
+        # legend — só uma vez (no primeiro bloco)
+        if label == "BR":
+            P(f"  DY%ile legend: $=cheap (≥P75)  ·=fair  !=expensive (≤P25)  [vs own 10y history]")
 
     # === 4. Dividend calendar ===
     upc_br = _upcoming_dividends(conn_br, tickers_br)
