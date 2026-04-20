@@ -100,6 +100,7 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 |---|---|
 | Quantas ações tenho de X / posição actual     | `sqlite3 data/<mkt>_investments.db "SELECT ticker, quantity, entry_price FROM portfolio_positions WHERE ticker='X' AND active=1"` |
 | Deep-dive em ticker X                         | `python scripts/analyze_ticker.py X` |
+| **Research memo unificado** (Phase J, PT/EN)  | `python scripts/research.py X [--md]` |
 | **Payback DRIP de X** (quantos anos p/ 2× shares, cash payback) | `python scripts/drip_projection.py --ticker X --payback` |
 | Projecção DRIP 5/10/15y single-ticker         | `python scripts/drip_projection.py --ticker X` |
 | Projecção DRIP agregada da carteira           | `python scripts/drip_projection.py --horizons 5,10,15,20` |
@@ -111,6 +112,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | Trigger engine (buy/sell signals declarativos)| `python scripts/trigger_monitor.py [--dry-run] [--market br\|us]` |
 | **Gerir open triggers** (list/resolve/ignore) | `python scripts/action_cli.py [list\|resolve\|ignore\|note] [ref] [--note '...']` |
 | **Dividend safety score** (0-100, forward)    | `python -m scoring.dividend_safety X` ou `--all` |
+| **Altman Z-Score** (distress, veto R5)        | `python -m scoring.altman X` |
+| **Piotroski F-Score** (quality 0-9, veto F≤3) | `python -m scoring.piotroski X` |
+| **Fetch deep fundamentals** (yfinance)        | `python fetchers/yf_deep_fundamentals.py X` ou `--holdings` |
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |
 | **Backtest yield strategy**                   | `python -m analytics.backtest_yield --market br --start 2019 --top-n 5 [--quality-only]` |
