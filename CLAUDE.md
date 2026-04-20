@@ -114,7 +114,8 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |
 | **Backtest yield strategy**                   | `python -m analytics.backtest_yield --market br --start 2019 --top-n 5 [--quality-only]` |
-| **Regime macro classifier** (BR + US)         | `python -m analytics.regime [--market br\|us]` |
+| **Backtest regime overlay** (Phase H, null)   | `python -m analytics.backtest_regime --market us --start 2013 --min-history-years 1` |
+| **Regime macro classifier** (BR + US)         | `python -m analytics.regime [--market br\|us] [--as-of YYYY-MM-DD]` |
 | **Atualizar FRED macro (US)**                 | `python fetchers/fred_fetcher.py [--series DGS10]` |
 | Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
 | Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |

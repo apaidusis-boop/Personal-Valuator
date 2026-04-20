@@ -25,8 +25,17 @@ Heurística agregada (inspired Ray Dalio's big cycle):
   recovery    : vindo de recession, fed a cortar, unemployment a cair
 
 CLI:
-    python -m analytics.regime                 # BR + US
+    python -m analytics.regime                 # BR + US (today)
     python -m analytics.regime --market us
+    python -m analytics.regime --market us --as-of 2022-12-31   # histórico
+
+Empirical caveat (Phase H, 2026-04):
+  Overlay "cash quando regime ∈ {late_cycle, recession}" testado em
+  analytics/backtest_regime.py e DESTRÓI valor (-2.11%/y US 13y,
+  -3.03%/y BR 6y). O classifier é trigger-happy em late_cycle e
+  chamou 2022, 2023 (US) + 2021, 2024 (BR) como late_cycle — todos
+  anos positivos para equities. Uso correcto: contexto DESCRITIVO
+  no portfolio_report, NÃO accionável como timing signal standalone.
 """
 from __future__ import annotations
 
@@ -64,24 +73,27 @@ def _series_value_at(conn: sqlite3.Connection, series_id: str,
     return r[0] if r else None
 
 
-def _series_trend(conn: sqlite3.Connection, series_id: str, months: int) -> float | None:
-    """Diferença (valor_hoje - valor_há_N_meses). Em unidades da série."""
-    today = date.today()
-    target = (today - timedelta(days=months * 30)).isoformat()
-    now_v = _series_value_at(conn, series_id)
+def _series_trend(conn: sqlite3.Connection, series_id: str, months: int,
+                  as_of: str | None = None) -> float | None:
+    """Diferença (valor em as_of - valor há N meses antes). Em unidades da série."""
+    as_of_iso = as_of or date.today().isoformat()
+    as_of_dt = date.fromisoformat(as_of_iso)
+    target = (as_of_dt - timedelta(days=months * 30)).isoformat()
+    now_v = _series_value_at(conn, series_id, as_of_iso)
     past_v = _series_value_at(conn, series_id, target)
     if now_v is None or past_v is None:
         return None
     return now_v - past_v
 
 
-def _price_trend(conn: sqlite3.Connection, ticker: str, months: int) -> float | None:
-    """Retorno % do ticker nos últimos N meses. Usa prices table."""
-    today = date.today().isoformat()
-    target = (date.today() - timedelta(days=months * 30)).isoformat()
+def _price_trend(conn: sqlite3.Connection, ticker: str, months: int,
+                 as_of: str | None = None) -> float | None:
+    """Retorno % do ticker nos últimos N meses até as_of. Usa prices table."""
+    as_of_iso = as_of or date.today().isoformat()
+    target = (date.fromisoformat(as_of_iso) - timedelta(days=months * 30)).isoformat()
     p_now = conn.execute(
         "SELECT close FROM prices WHERE ticker=? AND date<=? ORDER BY date DESC LIMIT 1",
-        (ticker, today),
+        (ticker, as_of_iso),
     ).fetchone()
     p_past = conn.execute(
         "SELECT close FROM prices WHERE ticker=? AND date<=? ORDER BY date DESC LIMIT 1",
@@ -94,13 +106,13 @@ def _price_trend(conn: sqlite3.Connection, ticker: str, months: int) -> float | 
 
 # --- classifiers ------------------------------------------------------------
 
-def classify_br() -> Regime:
+def classify_br(as_of: str | None = None) -> Regime:
     r = Regime(market="br", regime="unknown", confidence="low")
     with sqlite3.connect(DB_BR) as conn:
-        selic_now = _series_value_at(conn, "SELIC_META")
-        selic_trend_6m = _series_trend(conn, "SELIC_META", 6)
-        ipca_last = _series_value_at(conn, "IPCA_MONTHLY")
-        ibov_trend_6m = _price_trend(conn, "^BVSP", 6)
+        selic_now = _series_value_at(conn, "SELIC_META", as_of)
+        selic_trend_6m = _series_trend(conn, "SELIC_META", 6, as_of)
+        ipca_last = _series_value_at(conn, "IPCA_MONTHLY", as_of)
+        ibov_trend_6m = _price_trend(conn, "^BVSP", 6, as_of)
 
     r.signals = {
         "selic_meta": round(selic_now, 2) if selic_now is not None else None,
@@ -138,16 +150,16 @@ def classify_br() -> Regime:
     return r
 
 
-def classify_us() -> Regime:
+def classify_us(as_of: str | None = None) -> Regime:
     r = Regime(market="us", regime="unknown", confidence="low")
     with sqlite3.connect(DB_US) as conn:
-        t10y2y = _series_value_at(conn, "FRED_T10Y2Y")
-        fedfunds = _series_value_at(conn, "FRED_FEDFUNDS")
-        fedfunds_trend_12m = _series_trend(conn, "FRED_FEDFUNDS", 12)
-        unrate = _series_value_at(conn, "FRED_UNRATE")
-        unrate_trend_6m = _series_trend(conn, "FRED_UNRATE", 6)
-        vix = _series_value_at(conn, "FRED_VIX")
-        cpi_yoy = _series_value_at(conn, "FRED_CPI_YOY")
+        t10y2y = _series_value_at(conn, "FRED_T10Y2Y", as_of)
+        fedfunds = _series_value_at(conn, "FRED_FEDFUNDS", as_of)
+        fedfunds_trend_12m = _series_trend(conn, "FRED_FEDFUNDS", 12, as_of)
+        unrate = _series_value_at(conn, "FRED_UNRATE", as_of)
+        unrate_trend_6m = _series_trend(conn, "FRED_UNRATE", 6, as_of)
+        vix = _series_value_at(conn, "FRED_VIX", as_of)
+        cpi_yoy = _series_value_at(conn, "FRED_CPI_YOY", as_of)
 
     r.signals = {
         "t10y2y_spread_pp": round(t10y2y, 2) if t10y2y is not None else None,
@@ -196,10 +208,10 @@ def classify_us() -> Regime:
     return r
 
 
-def classify(market: str) -> Regime:
+def classify(market: str, as_of: str | None = None) -> Regime:
     if market == "br":
-        return classify_br()
-    return classify_us()
+        return classify_br(as_of)
+    return classify_us(as_of)
 
 
 # --- CLI --------------------------------------------------------------------
@@ -223,10 +235,11 @@ def _print(r: Regime) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--market", choices=["br", "us"], help="Só um mercado")
+    ap.add_argument("--as-of", help="Data ISO (YYYY-MM-DD) para classificação histórica — default: hoje")
     args = ap.parse_args()
     markets = [args.market] if args.market else ["br", "us"]
     for m in markets:
-        _print(classify(m))
+        _print(classify(m, as_of=args.as_of))
 
 
 if __name__ == "__main__":
