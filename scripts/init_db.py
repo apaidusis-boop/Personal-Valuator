@@ -275,6 +275,45 @@ CREATE INDEX IF NOT EXISTS idx_wa_opened_at    ON watchlist_actions(opened_at);
 CREATE UNIQUE INDEX IF NOT EXISTS ux_wa_open_daily
     ON watchlist_actions(ticker, kind, trigger_id, substr(opened_at,1,10))
     WHERE status='open';
+
+-- Fundamentals profundos (Phase I): balance sheet + income + cashflow anuais.
+-- Necessário para Altman Z-Score (5 rácios) e Piotroski F-Score (9 critérios
+-- comparando 2 anos consecutivos). Fetched on-demand por research.py ou em
+-- batch. Fonte: yfinance .balance_sheet / .financials / .cashflow.
+CREATE TABLE IF NOT EXISTS deep_fundamentals (
+    ticker                TEXT NOT NULL,
+    period_end            TEXT NOT NULL,     -- ISO date (fim do ano fiscal)
+    period_type           TEXT NOT NULL,     -- 'annual' | 'quarterly'
+    -- balance sheet
+    total_assets          REAL,
+    current_assets        REAL,
+    current_liabilities   REAL,
+    total_liabilities     REAL,
+    long_term_debt        REAL,
+    total_debt            REAL,
+    stockholders_equity   REAL,
+    retained_earnings     REAL,
+    working_capital       REAL,
+    shares_outstanding    REAL,
+    -- income statement
+    total_revenue         REAL,
+    gross_profit          REAL,
+    ebit                  REAL,
+    net_income            REAL,
+    diluted_avg_shares    REAL,
+    -- cash flow
+    operating_cashflow    REAL,
+    capital_expenditure   REAL,
+    free_cash_flow        REAL,
+    -- meta
+    market_cap_at_fetch   REAL,              -- só preenchido na row mais recente
+    fetched_at            TEXT NOT NULL,
+    source                TEXT NOT NULL DEFAULT 'yfinance',
+    PRIMARY KEY (ticker, period_end, period_type),
+    FOREIGN KEY (ticker) REFERENCES companies(ticker)
+);
+CREATE INDEX IF NOT EXISTS idx_deep_fund_ticker_period
+    ON deep_fundamentals(ticker, period_end DESC);
 """
 
 
