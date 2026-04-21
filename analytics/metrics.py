@@ -147,10 +147,50 @@ def dy_5y_avg(conn: sqlite3.Connection, ticker: str) -> float | None:
     return sum(dys) / len(dys) if dys else None
 
 
+def _annual_regular_dividends(
+    conn: sqlite3.Connection, ticker: str, years: int
+) -> list[tuple[int, float]]:
+    """Como _annual_dividends mas exclui special dividends.
+    Heurística: payment individual > 2× mediana do ano é considerado special
+    e descartado. Preserva sum normal quarterly/annual.
+    Evita distorções tipo TROW 2021 ($3.00 special + 4 × $1.08 regulares)."""
+    r = conn.execute(
+        "SELECT MAX(ex_date) FROM dividends WHERE ticker=? AND amount>0",
+        (ticker,),
+    ).fetchone()
+    if not r or not r[0]:
+        return []
+    end = date.fromisoformat(r[0])
+    start_year = end.year - years
+    rows = conn.execute(
+        """SELECT substr(ex_date,1,4) y, amount
+           FROM dividends WHERE ticker=? AND amount>0
+             AND substr(ex_date,1,4) >= ?
+           ORDER BY ex_date""",
+        (ticker, str(start_year)),
+    ).fetchall()
+    by_year: dict[int, list[float]] = {}
+    for y, a in rows:
+        if not y:
+            continue
+        by_year.setdefault(int(y), []).append(float(a))
+    out = []
+    for y in sorted(by_year):
+        amounts = by_year[y]
+        if len(amounts) <= 1:
+            out.append((y, sum(amounts)))
+            continue
+        sorted_a = sorted(amounts)
+        median = sorted_a[len(sorted_a) // 2]
+        regular = [a for a in amounts if a <= 2.0 * median]  # exclui outliers >2× mediana
+        out.append((y, sum(regular) if regular else sum(amounts)))
+    return out
+
+
 def div_cagr_5y(conn: sqlite3.Connection, ticker: str) -> float | None:
-    """CAGR da soma anual de dividendos nos últimos 5 anos completos.
+    """CAGR dos dividendos regulares (excluindo specials) nos últimos 5 anos.
     Retorna percentagem (ex: 5.3 = +5.3%/ano)."""
-    hist = _annual_dividends(conn, ticker, 6)
+    hist = _annual_regular_dividends(conn, ticker, 6)
     today_year = date.today().year
     full_years = [(y, tot) for y, tot in hist if y < today_year and tot > 0]
     if len(full_years) < 3:
