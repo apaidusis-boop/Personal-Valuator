@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "us_investments.db"
 LOG_DIR = ROOT / "logs"
 UNIVERSE = ROOT / "config" / "universe.yaml"
+KINGS_ARISTOCRATS = ROOT / "config" / "kings_aristocrats.yaml"
 
 
 def _now_iso() -> str:
@@ -59,6 +60,18 @@ def load_us_entry(ticker: str) -> dict | None:
     for entry in pools:
         if entry.get("ticker") == ticker:
             return entry
+    if KINGS_ARISTOCRATS.exists():
+        ka = yaml.safe_load(KINGS_ARISTOCRATS.read_text(encoding="utf-8")) or {}
+        for entry in (ka.get("tickers") or []):
+            if entry.get("ticker") == ticker:
+                return {
+                    "ticker": entry["ticker"],
+                    "name": entry.get("name", entry["ticker"]),
+                    "sector": entry.get("sector"),
+                    "is_holding": entry.get("is_holding", False),
+                    "sources": ["kings_aristocrats"],
+                    "kind": entry.get("kind"),
+                }
     return None
 
 
@@ -205,6 +218,24 @@ def extract_reit_metrics(cashflow, financials, balance_sheet, shares_out):
     }
 
 
+def _ts_to_iso(ts) -> str | None:
+    """yfinance devolve timestamps unix ou strings ISO conforme versão.
+    Normaliza para 'YYYY-MM-DD' ou None."""
+    if ts is None:
+        return None
+    try:
+        if isinstance(ts, (int, float)):
+            from datetime import datetime, timezone as _tz
+            return datetime.fromtimestamp(float(ts), tz=_tz.utc).strftime("%Y-%m-%d")
+        if isinstance(ts, str):
+            return ts[:10] if len(ts) >= 10 else None
+        if isinstance(ts, (list, tuple)) and ts:
+            return _ts_to_iso(ts[0])
+    except Exception:
+        return None
+    return None
+
+
 def extract_fundamentals(info: dict, divs, tk=None) -> dict:
     """Lê yfinance .info e normaliza para o schema `fundamentals`.
     Se tk (yf.Ticker) for fornecido, inclui métricas REIT (FFO, cobertura)."""
@@ -213,6 +244,10 @@ def extract_fundamentals(info: dict, divs, tk=None) -> dict:
     dy = _f(info.get("dividendYield"))
     if dy is not None and dy > 1:
         dy = dy / 100.0
+    # sanity: DY > 25% é quase certamente bug yfinance (ex: XP=86%, TSM=96%)
+    if dy is not None and dy > 0.25:
+        _log({"event": "yf_us_dy_sanity_reject", "ticker": info.get("symbol"), "raw": dy})
+        dy = None
     roe = _f(info.get("returnOnEquity"))
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
@@ -227,15 +262,24 @@ def extract_fundamentals(info: dict, divs, tk=None) -> dict:
 
     streak = compute_dividend_streak_years(divs)
 
+    # novos campos (Sessão 1 MegaWatchlist)
+    pe_forward = _f(info.get("forwardPE"))
+    ev_ebitda = _f(info.get("enterpriseToEbitda"))
+    market_cap = _f(info.get("marketCap"))
+    fcf_ttm = _f(info.get("freeCashflow"))
+    shares_outstanding = _f(info.get("sharesOutstanding"))
+    next_ex_date = _ts_to_iso(info.get("exDividendDate"))
+    # earningsDate pode ser lista [start,end]; earningsTimestamp é o start
+    next_earnings_date = _ts_to_iso(info.get("earningsTimestamp") or info.get("earningsDate"))
+
     reit_fields = {"ffo_per_share": None, "interest_coverage": None, "debt_to_assets": None}
     if tk is not None:
         try:
-            shares = _f(info.get("sharesOutstanding"))
             reit_fields = extract_reit_metrics(
                 getattr(tk, "cashflow", None),
                 getattr(tk, "financials", None),
                 getattr(tk, "balance_sheet", None),
-                shares,
+                shares_outstanding,
             )
         except Exception as e:  # noqa: BLE001
             _log({"event": "yf_us_reit_metrics_error", "err": str(e)[:120]})
@@ -250,6 +294,13 @@ def extract_fundamentals(info: dict, divs, tk=None) -> dict:
         "net_debt_ebitda": net_debt_ebitda,
         "dividend_streak_years": streak,
         "is_aristocrat": None,
+        "pe_forward": pe_forward,
+        "ev_ebitda": ev_ebitda,
+        "market_cap": market_cap,
+        "fcf_ttm": fcf_ttm,
+        "shares_outstanding": shares_outstanding,
+        "next_ex_date": next_ex_date,
+        "next_earnings_date": next_earnings_date,
         **reit_fields,
     }
 
@@ -260,8 +311,10 @@ def upsert_fundamentals(conn: sqlite3.Connection, ticker: str, fields: dict) -> 
         """INSERT INTO fundamentals
              (ticker, period_end, eps, bvps, roe, pe, pb, dy,
               net_debt_ebitda, dividend_streak_years, is_aristocrat,
-              ffo_per_share, interest_coverage, debt_to_assets)
-           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+              ffo_per_share, interest_coverage, debt_to_assets,
+              pe_forward, ev_ebitda, market_cap, fcf_ttm,
+              shares_outstanding, next_ex_date, next_earnings_date)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
            ON CONFLICT(ticker, period_end) DO UPDATE SET
              eps=excluded.eps, bvps=excluded.bvps, roe=excluded.roe,
              pe=excluded.pe, pb=excluded.pb, dy=excluded.dy,
@@ -270,14 +323,25 @@ def upsert_fundamentals(conn: sqlite3.Connection, ticker: str, fields: dict) -> 
              is_aristocrat=COALESCE(excluded.is_aristocrat, fundamentals.is_aristocrat),
              ffo_per_share=excluded.ffo_per_share,
              interest_coverage=excluded.interest_coverage,
-             debt_to_assets=excluded.debt_to_assets""",
+             debt_to_assets=excluded.debt_to_assets,
+             pe_forward=excluded.pe_forward,
+             ev_ebitda=excluded.ev_ebitda,
+             market_cap=excluded.market_cap,
+             fcf_ttm=excluded.fcf_ttm,
+             shares_outstanding=excluded.shares_outstanding,
+             next_ex_date=excluded.next_ex_date,
+             next_earnings_date=excluded.next_earnings_date""",
         (ticker, period,
          fields["eps"], fields["bvps"], fields["roe"],
          fields["pe"], fields["pb"], fields["dy"],
          fields["net_debt_ebitda"], fields["dividend_streak_years"],
          fields["is_aristocrat"],
          fields.get("ffo_per_share"), fields.get("interest_coverage"),
-         fields.get("debt_to_assets")),
+         fields.get("debt_to_assets"),
+         fields.get("pe_forward"), fields.get("ev_ebitda"),
+         fields.get("market_cap"), fields.get("fcf_ttm"),
+         fields.get("shares_outstanding"),
+         fields.get("next_ex_date"), fields.get("next_earnings_date")),
     )
     return period
 

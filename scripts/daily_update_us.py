@@ -39,6 +39,15 @@ def _load_universe() -> list[str]:
         g = us.get(bucket) or {}
         for e in (g.get("stocks") or []):
             tickers.append(e["ticker"])
+    ka_path = ROOT / "config" / "kings_aristocrats.yaml"
+    if ka_path.exists():
+        ka = yaml.safe_load(ka_path.read_text(encoding="utf-8")) or {}
+        seen = set(tickers)
+        for e in (ka.get("tickers") or []):
+            t = e.get("ticker")
+            if t and t not in seen:
+                tickers.append(t)
+                seen.add(t)
     return tickers
 
 

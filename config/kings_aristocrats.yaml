@@ -1,0 +1,123 @@
+# kings_aristocrats.yaml — lista canónica US de Dividend Kings + S&P 500 Dividend Aristocrats.
+# Fonte: user-curated (21/04/2026), baseada em listas públicas Kings + S&P Aristocrats.
+#
+# kind:
+#   king            — ≥50 anos consecutivos de aumento de dividendo (não necessariamente no S&P 500)
+#   aristocrat      — S&P 500 + ≥25 anos consecutivos de aumento
+#   king_aristocrat — ambos os critérios
+#
+# NOTAS:
+# - Ticker BF-B (Brown-Forman class B) usa hífen no yfinance, não ponto.
+# - `streak_years` é o mínimo declarado pela fonte; o valor real é validado pelo
+#   fetcher (yf_deep_fundamentals) e cruzado com scoring.dividend_safety.
+# - `sector` inicial baseado em mapeamento manual; sobrescrito pelo yfinance.
+# - Holdings e watchlist existentes (universe.yaml) têm flag `in_universe: true`
+#   para não duplicar fetch.
+
+meta:
+  source: user_curated
+  date: "2026-04-21"
+  total: 87
+  kings: 54            # 20 king-only + 34 king_aristocrat
+  aristocrats_only: 33
+  note: "validar streak_years via fetch antes de promover triggers"
+
+tickers:
+  # ============================================================
+  # Dividend Kings (50+ anos, mas NÃO no S&P 500 Aristocrats index)
+  # ============================================================
+  - { ticker: AWR,   name: "American States Water",        kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: NWN,   name: "Northwest Natural Holding",     kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: ABM,   name: "ABM Industries",                kind: king, streak_years: 50, sector: "Industrials" }
+  - { ticker: CWT,   name: "California Water Service",      kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: CBSH,  name: "Commerce Bancshares",           kind: king, streak_years: 50, sector: "Financials" }
+  - { ticker: SCL,   name: "Stepan Company",                kind: king, streak_years: 50, sector: "Materials" }
+  - { ticker: FUL,   name: "H.B. Fuller",                   kind: king, streak_years: 50, sector: "Materials" }
+  - { ticker: TR,    name: "Tootsie Roll Industries",       kind: king, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: MSA,   name: "MSA Safety",                    kind: king, streak_years: 50, sector: "Industrials" }
+  - { ticker: NFG,   name: "National Fuel Gas",             kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: UVV,   name: "Universal Corporation",         kind: king, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: BKH,   name: "Black Hills Corporation",       kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: LEG,   name: "Leggett & Platt",               kind: king, streak_years: 50, sector: "Consumer Disc." }
+  - { ticker: TNC,   name: "Tennant",                       kind: king, streak_years: 50, sector: "Industrials" }
+  - { ticker: GRC,   name: "Gorman-Rupp",                   kind: king, streak_years: 50, sector: "Industrials" }
+  - { ticker: MSEX,  name: "Middlesex Water",               kind: king, streak_years: 50, sector: "Utilities" }
+  - { ticker: RPM,   name: "RPM International",             kind: king, streak_years: 50, sector: "Materials" }
+  - { ticker: TDS,   name: "Telephone and Data Systems",    kind: king, streak_years: 50, sector: "Communication" }
+  - { ticker: RLI,   name: "RLI Corp.",                     kind: king, streak_years: 50, sector: "Financials" }
+  - { ticker: MGEE,  name: "MGE Energy",                    kind: king, streak_years: 50, sector: "Utilities" }
+
+  # ============================================================
+  # King + Aristocrat (ambos)
+  # ============================================================
+  - { ticker: DOV,   name: "Dover Corporation",             kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: GPC,   name: "Genuine Parts Company",         kind: king_aristocrat, streak_years: 50, sector: "Consumer Disc." }
+  - { ticker: PG,    name: "Procter & Gamble",              kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples", in_universe: true, is_holding: true }
+  - { ticker: PH,    name: "Parker-Hannifin",               kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: EMR,   name: "Emerson Electric",              kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: CINF,  name: "Cincinnati Financial",          kind: king_aristocrat, streak_years: 50, sector: "Financials" }
+  - { ticker: JNJ,   name: "Johnson & Johnson",             kind: king_aristocrat, streak_years: 50, sector: "Healthcare", in_universe: true, is_holding: true }
+  - { ticker: KO,    name: "Coca-Cola",                     kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples", in_universe: true, is_holding: true }
+  - { ticker: CL,    name: "Colgate-Palmolive",             kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: NDSN,  name: "Nordson",                       kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: HRL,   name: "Hormel Foods",                  kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: FRT,   name: "Federal Realty Inv. Trust",     kind: king_aristocrat, streak_years: 50, sector: "REIT" }
+  - { ticker: SWK,   name: "Stanley Black & Decker",        kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: MO,    name: "Altria Group",                  kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: SYY,   name: "Sysco",                         kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: ITW,   name: "Illinois Tool Works",           kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: GWW,   name: "W.W. Grainger",                 kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: PPG,   name: "PPG Industries",                kind: king_aristocrat, streak_years: 50, sector: "Materials" }
+  - { ticker: TGT,   name: "Target",                        kind: king_aristocrat, streak_years: 50, sector: "Consumer Disc." }
+  - { ticker: ABBV,  name: "AbbVie",                        kind: king_aristocrat, streak_years: 50, sector: "Healthcare", in_universe: true }
+  - { ticker: ABT,   name: "Abbott Laboratories",           kind: king_aristocrat, streak_years: 50, sector: "Healthcare" }
+  - { ticker: BDX,   name: "Becton Dickinson",              kind: king_aristocrat, streak_years: 50, sector: "Healthcare" }
+  - { ticker: KMB,   name: "Kimberly-Clark",                kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: LOW,   name: "Lowe's",                        kind: king_aristocrat, streak_years: 50, sector: "Consumer Disc." }
+  - { ticker: PEP,   name: "PepsiCo",                       kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples", in_universe: true }
+  - { ticker: ADM,   name: "Archer-Daniels-Midland",        kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: BF-B,  name: "Brown-Forman (Class B)",        kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: ED,    name: "Consolidated Edison",           kind: king_aristocrat, streak_years: 50, sector: "Utilities" }
+  - { ticker: NUE,   name: "Nucor",                         kind: king_aristocrat, streak_years: 50, sector: "Materials" }
+  - { ticker: SPGI,  name: "S&P Global",                    kind: king_aristocrat, streak_years: 50, sector: "Financials" }
+  - { ticker: WMT,   name: "Walmart",                       kind: king_aristocrat, streak_years: 50, sector: "Consumer Staples" }
+  - { ticker: ADP,   name: "Automatic Data Processing",     kind: king_aristocrat, streak_years: 50, sector: "Industrials" }
+  - { ticker: APD,   name: "Air Products and Chemicals",    kind: king_aristocrat, streak_years: 50, sector: "Materials" }
+  - { ticker: MCD,   name: "McDonald's",                    kind: king_aristocrat, streak_years: 50, sector: "Consumer Disc.", in_universe: true }
+
+  # ============================================================
+  # Aristocrats only (S&P 500, ≥25 anos)
+  # ============================================================
+  - { ticker: MDT,   name: "Medtronic",                     kind: aristocrat, streak_years: 25, sector: "Healthcare" }
+  - { ticker: CLX,   name: "Clorox",                        kind: aristocrat, streak_years: 25, sector: "Consumer Staples" }
+  - { ticker: PNR,   name: "Pentair",                       kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: SHW,   name: "Sherwin-Williams",              kind: aristocrat, streak_years: 25, sector: "Materials" }
+  - { ticker: BEN,   name: "Franklin Resources",            kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: CTAS,  name: "Cintas",                        kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: XOM,   name: "Exxon Mobil",                   kind: aristocrat, streak_years: 25, sector: "Energy" }
+  - { ticker: ATO,   name: "Atmos Energy",                  kind: aristocrat, streak_years: 25, sector: "Utilities" }
+  - { ticker: AFL,   name: "Aflac",                         kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: ECL,   name: "Ecolab",                        kind: aristocrat, streak_years: 25, sector: "Materials" }
+  - { ticker: TROW,  name: "T. Rowe Price",                 kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: CVX,   name: "Chevron",                       kind: aristocrat, streak_years: 25, sector: "Energy" }
+  - { ticker: MKC,   name: "McCormick & Company",           kind: aristocrat, streak_years: 25, sector: "Consumer Staples" }
+  - { ticker: ERIE,  name: "Erie Indemnity",                kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: JKHY,  name: "Jack Henry & Associates",       kind: aristocrat, streak_years: 25, sector: "Technology" }
+  - { ticker: GD,    name: "General Dynamics",              kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: CB,    name: "Chubb",                         kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: LIN,   name: "Linde",                         kind: aristocrat, streak_years: 25, sector: "Materials" }
+  - { ticker: ROP,   name: "Roper Technologies",            kind: aristocrat, streak_years: 25, sector: "Technology" }
+  - { ticker: AOS,   name: "A. O. Smith",                   kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: BRO,   name: "Brown & Brown",                 kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: CAT,   name: "Caterpillar",                   kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: WST,   name: "West Pharmaceutical Services",  kind: aristocrat, streak_years: 25, sector: "Healthcare" }
+  - { ticker: ALB,   name: "Albemarle",                     kind: aristocrat, streak_years: 25, sector: "Materials" }
+  - { ticker: EXPD,  name: "Expeditors International",      kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: CHD,   name: "Church & Dwight",               kind: aristocrat, streak_years: 25, sector: "Consumer Staples" }
+  - { ticker: IBM,   name: "IBM",                           kind: aristocrat, streak_years: 25, sector: "Technology" }
+  - { ticker: NEE,   name: "NextEra Energy",                kind: aristocrat, streak_years: 25, sector: "Utilities" }
+  - { ticker: SJM,   name: "J.M. Smucker",                  kind: aristocrat, streak_years: 25, sector: "Consumer Staples" }
+  - { ticker: CHRW,  name: "C.H. Robinson",                 kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: FAST,  name: "Fastenal",                      kind: aristocrat, streak_years: 25, sector: "Industrials" }
+  - { ticker: FDS,   name: "FactSet",                       kind: aristocrat, streak_years: 25, sector: "Financials" }
+  - { ticker: ES,    name: "Eversource Energy",             kind: aristocrat, streak_years: 25, sector: "Utilities" }
