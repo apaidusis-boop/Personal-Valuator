@@ -49,6 +49,16 @@ def _load_universe() -> tuple[list[str], list[str]]:
             stocks.append(e["ticker"])
         for e in (g.get("fiis") or []):
             fiis.append(e["ticker"])
+    # merge br_dividend_compounders (equivalente BR aos Kings/Aristocrats US)
+    compounders_path = ROOT / "config" / "br_dividend_compounders.yaml"
+    if compounders_path.exists():
+        ck = yaml.safe_load(compounders_path.read_text(encoding="utf-8")) or {}
+        seen = set(stocks) | set(fiis)
+        for e in (ck.get("tickers") or []):
+            t = e.get("ticker")
+            if t and t not in seen:
+                stocks.append(t)
+                seen.add(t)
     return stocks, fiis
 
 

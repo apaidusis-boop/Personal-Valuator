@@ -142,6 +142,52 @@ triggers:
     action_hint: REVIEW
     note: "VALE3 cíclico — dip 15% pode ser thesis break ou oportunidade"
 
+  # === $3k candidates (Phase M/N 2026-04-21) — entry windows ===
+  # Alvos identificados no memo reports/3k_usd_decision_2026-04-21.md.
+  # Thresholds calibrados para disparar quando valuation melhora ~10-20% vs hoje.
+
+  - id: trow_dy_5p5
+    ticker: TROW
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 5.5
+    action_hint: BUY
+    note: "TROW (Aristocrat 41y) já passa screen 4/4; DY≥5.5% = cheap mesmo para o próprio histórico"
+
+  - id: mkc_dy_4p0
+    ticker: MKC
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 4.0
+    action_hint: BUY
+    note: "MKC (Aristocrat 41y) staples cheap; DY≥4% calibrado para price ~$47 (-10% vs hoje)"
+
+  - id: adp_dy_3p8
+    ticker: ADP
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 3.8
+    action_hint: BUY
+    note: "ADP (King 44y) industrials gap-filler; DY≥3.8% = price ~$180 (-12% vs hoje), aproxima P/E 19"
+
+  - id: abbv_drop_20
+    ticker: ABBV
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 180
+    threshold_pct: -20.0
+    action_hint: REVIEW
+    note: "ABBV (Aristocrat 53y) fica caro (P/E 86 post-Humira); drop 20% merece re-analysis do Rinvoq/Skyrizi ramp"
+
+  - id: tgt_drop_15
+    ticker: TGT
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 120
+    threshold_pct: -15.0
+    action_hint: ADD
+    note: "TGT (King 54y) quality turnaround; drop 15% em 120d = thesis ainda válida se Altman SAFE"
+
   # === Quality vetoes — estruturais, expandidos a todas as holdings ===
   # Usam scope:all_holdings + expansão automática em _expand_scoped_triggers.
   # Sectores excluídos (Banks, REITs, FIIs) são no-op (not_applicable).

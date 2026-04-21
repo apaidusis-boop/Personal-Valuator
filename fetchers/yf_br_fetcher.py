@@ -28,6 +28,21 @@ import yfinance as yf
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "br_investments.db"
 LOG_DIR = ROOT / "logs"
+COMPOUNDERS = ROOT / "config" / "br_dividend_compounders.yaml"
+
+
+def _lookup_compounder(ticker: str) -> dict | None:
+    if not COMPOUNDERS.exists():
+        return None
+    try:
+        import yaml as _yaml
+        data = _yaml.safe_load(COMPOUNDERS.read_text(encoding="utf-8")) or {}
+        for e in (data.get("tickers") or []):
+            if e.get("ticker") == ticker:
+                return e
+    except Exception:
+        pass
+    return None
 
 
 def _now_iso() -> str:
@@ -53,7 +68,85 @@ def fetch(ticker: str, period: str = "1y"):
     # e Stock Splits são os eventos que precisamos para computar TR nós.
     hist = tk.history(period=period, auto_adjust=False)
     divs_series = tk.dividends  # série completa histórica
-    return hist, divs_series
+    return hist, divs_series, tk
+
+
+def _f(v):
+    if v is None:
+        return None
+    try:
+        val = float(v)
+        if val != val:
+            return None
+        return val
+    except (TypeError, ValueError):
+        return None
+
+
+def _compute_streak(divs) -> int | None:
+    if divs is None or len(divs) == 0:
+        return None
+    import pandas as pd
+    if isinstance(divs, pd.DataFrame):
+        col = "Dividends" if "Dividends" in divs.columns else divs.columns[0]
+        divs = divs[col]
+    years = sorted({pd.Timestamp(ts).year for ts in divs.index}, reverse=True)
+    if not years:
+        return None
+    streak = 1
+    for i in range(1, len(years)):
+        if years[i - 1] - years[i] == 1:
+            streak += 1
+        else:
+            break
+    return streak
+
+
+def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, divs) -> None:
+    """Persiste fundamentals básicos vindos do yfinance.info para ticker BR.
+    Serve como fallback/complemento ao brapi_fetcher — especialmente útil
+    para compounders recém-adicionados que ainda não foram ao brapi."""
+    if not info:
+        return
+    pe = _f(info.get("trailingPE"))
+    pb = _f(info.get("priceToBook"))
+    dy = _f(info.get("dividendYield"))
+    if dy is not None and dy > 1:
+        dy = dy / 100.0
+    if dy is not None and dy > 0.25:  # sanity cap (mesmo do US)
+        dy = None
+    roe = _f(info.get("returnOnEquity"))
+    eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
+    bvps = _f(info.get("bookValue"))
+    total_debt = _f(info.get("totalDebt"))
+    total_cash = _f(info.get("totalCash"))
+    ebitda = _f(info.get("ebitda"))
+    nd_ebitda = None
+    if total_debt is not None and ebitda and ebitda > 0:
+        nd_ebitda = (total_debt - (total_cash or 0.0)) / ebitda
+    streak = _compute_streak(divs)
+    pe_forward = _f(info.get("forwardPE"))
+    ev_ebitda = _f(info.get("enterpriseToEbitda"))
+    market_cap = _f(info.get("marketCap"))
+
+    period = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    conn.execute(
+        """INSERT INTO fundamentals
+             (ticker, period_end, eps, bvps, roe, pe, pb, dy,
+              net_debt_ebitda, dividend_streak_years, is_aristocrat,
+              pe_forward, ev_ebitda, market_cap)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+           ON CONFLICT(ticker, period_end) DO UPDATE SET
+             eps=excluded.eps, bvps=excluded.bvps, roe=excluded.roe,
+             pe=excluded.pe, pb=excluded.pb, dy=excluded.dy,
+             net_debt_ebitda=excluded.net_debt_ebitda,
+             dividend_streak_years=excluded.dividend_streak_years,
+             pe_forward=excluded.pe_forward,
+             ev_ebitda=excluded.ev_ebitda,
+             market_cap=excluded.market_cap""",
+        (ticker, period, eps, bvps, roe, pe, pb, dy,
+         nd_ebitda, streak, None, pe_forward, ev_ebitda, market_cap),
+    )
 
 
 def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
@@ -116,18 +209,28 @@ def upsert_dividends(conn: sqlite3.Connection, ticker: str, divs) -> int:
 def run(ticker: str, period: str = "1y") -> dict:
     ticker = ticker.upper()
     _log({"event": "yf_br_fetch_start", "ticker": ticker, "period": period})
-    hist, divs = fetch(ticker, period=period)
+    hist, divs, tk = fetch(ticker, period=period)
 
+    meta = _lookup_compounder(ticker) or {}
     with sqlite3.connect(DB_PATH) as conn:
-        # garantir companies (não falha se já existir)
+        # garantir companies (não falha se já existir; actualiza name/sector
+        # se metadata disponível via br_dividend_compounders.yaml)
         conn.execute(
             """INSERT INTO companies (ticker, name, sector, is_holding, currency)
-               VALUES (?, ?, NULL, 0, 'BRL')
-               ON CONFLICT(ticker) DO NOTHING""",
-            (ticker, ticker),
+               VALUES (?, ?, ?, 0, 'BRL')
+               ON CONFLICT(ticker) DO UPDATE SET
+                 name=COALESCE(excluded.name, companies.name),
+                 sector=COALESCE(excluded.sector, companies.sector)""",
+            (ticker, meta.get("name") or ticker, meta.get("sector")),
         )
         n_prices = upsert_prices(conn, ticker, hist)
         n_divs = upsert_dividends(conn, ticker, divs)
+        # fundamentals via yfinance.info (fallback/complemento ao brapi)
+        try:
+            info = tk.info or {}
+            upsert_fundamentals_br(conn, ticker, info, divs)
+        except Exception as e:  # noqa: BLE001
+            _log({"event": "yf_br_fundamentals_skip", "ticker": ticker, "err": str(e)[:120]})
         conn.commit()
 
     result = {"ticker": ticker, "prices": n_prices, "dividends": n_divs,

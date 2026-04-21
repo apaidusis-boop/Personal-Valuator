@@ -1,0 +1,52 @@
+# br_dividend_compounders.yaml — empresas B3 com histórico consistente de
+# dividendos (≥10 anos ininterruptos). Equivalente BR aos Kings/Aristocrats US
+# mas sem certificação S&P.
+#
+# Fonte: user-curated (2026-04-21) baseado em prática de mercado brasileiro.
+# B3 não tem índice oficial de aristocrats. Esta lista é defensiva — inclui
+# nomes com track record de 10+ anos de payouts regulares, mesmo que sem
+# crescimento ano-a-ano.
+#
+# kind:
+#   stable_payer   — ≥10 anos ininterruptos com payouts regulares
+#   growing_payer  — ≥10 anos com tendência de crescimento
+#   cyclical_payer — ≥10 anos mas com oscilações materiais (ex: bancos/commodities)
+#
+# in_universe: true → já está em config/universe.yaml (holding, watchlist ou research_pool)
+# `streak_years` é aproximação — validar via fetchers + dividends table.
+
+meta:
+  source: user_curated
+  date: "2026-04-21"
+  total: 18
+  note: "B3 não tem Aristocrat oficial. Lista pragmática de dividend-reliable tickers."
+  selection_criteria: "≥10 anos de dividendos/JCP ininterruptos; sector bias utilities+banks"
+
+tickers:
+  # === Transmissão/Geração (cash flows regulados, core compounders BR) ===
+  - { ticker: TAEE11, name: "Taesa",                 kind: stable_payer,   streak_years: 14, sector: "Utilities" }
+  - { ticker: ISAE4,  name: "ISA Energia Brasil (ex-CTEEP)", kind: stable_payer, streak_years: 18, sector: "Utilities" }
+  - { ticker: EGIE3,  name: "Engie Brasil",          kind: stable_payer,   streak_years: 18, sector: "Utilities", in_universe: true }
+  - { ticker: ALUP11, name: "Alupar",                kind: stable_payer,   streak_years: 13, sector: "Utilities" }
+
+  # === Utilities (distribuição/saneamento) ===
+  - { ticker: CPLE3,  name: "Copel",                 kind: cyclical_payer, streak_years: 15, sector: "Utilities", in_universe: true }
+  - { ticker: CMIG4,  name: "Cemig",                 kind: cyclical_payer, streak_years: 12, sector: "Utilities" }
+  - { ticker: CSMG3,  name: "Copasa",                kind: stable_payer,   streak_years: 12, sector: "Utilities" }
+  - { ticker: SAPR11, name: "Sanepar",               kind: stable_payer,   streak_years: 10, sector: "Utilities" }
+
+  # === Banks + Holdings (regulated, consistent payout history) ===
+  - { ticker: ITSA4,  name: "Itaúsa",                kind: growing_payer,  streak_years: 20, sector: "Holding",    in_universe: true, is_holding: true }
+  - { ticker: ITUB4,  name: "Itaú Unibanco",         kind: growing_payer,  streak_years: 20, sector: "Banks",      in_universe: true }
+  - { ticker: BBDC4,  name: "Bradesco",              kind: stable_payer,   streak_years: 20, sector: "Banks",      in_universe: true, is_holding: true }
+  - { ticker: BBAS3,  name: "Banco do Brasil",       kind: cyclical_payer, streak_years: 20, sector: "Banks",      in_universe: true }
+  - { ticker: SANB11, name: "Santander BR",          kind: stable_payer,   streak_years: 11, sector: "Banks" }
+
+  # === Insurance (stable float = consistent dividends) ===
+  - { ticker: BBSE3,  name: "BB Seguridade",         kind: growing_payer,  streak_years: 12, sector: "Insurance",  in_universe: true }
+  - { ticker: PSSA3,  name: "Porto Seguro",          kind: stable_payer,   streak_years: 20, sector: "Insurance" }
+
+  # === Consumer / Telecom (defensivos) ===
+  - { ticker: VIVT3,  name: "Telefônica Vivo",       kind: stable_payer,   streak_years: 18, sector: "Telecom" }
+  - { ticker: ABEV3,  name: "Ambev",                 kind: stable_payer,   streak_years: 20, sector: "Consumer Staples" }
+  - { ticker: GRND3,  name: "Grendene",              kind: stable_payer,   streak_years: 15, sector: "Consumer Disc." }
