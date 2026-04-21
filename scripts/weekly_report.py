@@ -216,6 +216,59 @@ def holdings_block() -> list[str]:
     return lines
 
 
+def quality_vetoes_block() -> list[str]:
+    """Holdings em zonas estruturais de risco (Altman distress ou Piotroski weak).
+
+    Lê scoring/altman e scoring/piotroski em memória — não escreve em DB.
+    Skipa sectores excluídos (Banks, REITs, FIIs) silenciosamente.
+    """
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT))
+    try:
+        from scoring.altman import compute as altman_compute
+        from scoring.piotroski import compute as piotroski_compute
+    except Exception as e:
+        return ["## QUALITY VETOES", "", f"[indisponível: {e}]", ""]
+
+    lines = ["## QUALITY VETOES — Altman Z / Piotroski F", ""]
+    lines.append("```")
+    lines.append("Holdings em distress (Z<1.81) ou quality weak (F≤3).")
+    lines.append("Sectores excluídos (Banks/REITs/FIIs) omitidos — não aplicáveis.")
+    lines.append("")
+
+    any_flag = False
+    for db_path, market in ((DB_BR, "br"), (DB_US, "us")):
+        with sqlite3.connect(db_path) as c:
+            tickers = [r[0] for r in c.execute(
+                "SELECT DISTINCT ticker FROM portfolio_positions "
+                "WHERE active=1 ORDER BY ticker"
+            )]
+        flagged = []
+        for t in tickers:
+            a = altman_compute(t, market)
+            p = piotroski_compute(t, market)
+            if (a.applicable and a.is_distress) or (p.applicable and p.is_weak):
+                flagged.append((t, a, p))
+        if not flagged:
+            continue
+        any_flag = True
+        lines.append(f">{market.upper()}  ({len(flagged)} flagged)")
+        lines.append(f"  {'TICKER':<8} {'Z':>6}  {'ZONE':<9} {'F':>3}  {'LABEL':<8}")
+        for t, a, p in flagged:
+            z = f"{a.z:.2f}" if a.applicable and a.z is not None else "  --"
+            zone = a.zone or "--" if a.applicable else "--"
+            f_sc = f"{p.f_score}" if p.applicable and p.f_score is not None else "--"
+            lbl = p.label if p.applicable else "--"
+            lines.append(f"  {t:<8} {z:>6}  {zone:<9} {f_sc:>3}  {lbl:<8}")
+        lines.append("")
+    if not any_flag:
+        lines.append("  sem holdings em distress / weak — OK")
+        lines.append("")
+    lines.append("```")
+    lines.append("")
+    return lines
+
+
 def footer_block() -> list[str]:
     return [
         "```",
@@ -278,6 +331,7 @@ def run(days: int = 7, write_html: bool = True) -> Path:
     lines.extend(events_block(today, days))
     lines.extend(scoring_block())
     lines.extend(holdings_block())
+    lines.extend(quality_vetoes_block())
     lines.extend(footer_block())
     md = "\n".join(lines)
 

@@ -235,6 +235,10 @@ def _summarize_action_snapshot(kind: str, snap: dict) -> str:
     if kind == "dy_percentile_vs_own_history":
         return (f"DY {snap.get('dy_now_pct','?')}% ≥ P{snap.get('percentile','?')} "
                 f"({snap.get('dy_threshold_pct','?')}%)")
+    if kind == "altman_distress":
+        return f"Altman Z={snap.get('z_score','?')} <{snap.get('threshold_z','?')} ({snap.get('zone','?')})"
+    if kind == "piotroski_weak":
+        return f"Piotroski F={snap.get('f_score','?')}/9 ({snap.get('label','?')})"
     return "—"
 
 

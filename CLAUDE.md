@@ -101,6 +101,7 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | Quantas ações tenho de X / posição actual     | `sqlite3 data/<mkt>_investments.db "SELECT ticker, quantity, entry_price FROM portfolio_positions WHERE ticker='X' AND active=1"` |
 | Deep-dive em ticker X                         | `python scripts/analyze_ticker.py X` |
 | **Research memo unificado** (Phase J, PT/EN)  | `python scripts/research.py X [--md]` |
+| **Batch research scan** (todas holdings, BR+US) | `python scripts/research.py --holdings [--md]` |
 | **Payback DRIP de X** (quantos anos p/ 2× shares, cash payback) | `python scripts/drip_projection.py --ticker X --payback` |
 | Projecção DRIP 5/10/15y single-ticker         | `python scripts/drip_projection.py --ticker X` |
 | Projecção DRIP agregada da carteira           | `python scripts/drip_projection.py --horizons 5,10,15,20` |

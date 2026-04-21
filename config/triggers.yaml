@@ -33,10 +33,28 @@
 #             lookback_years (int, default 10),
 #             min_years (int, default 5)
 #
+# altman_distress
+#     Dispara quando Altman Z-Score < threshold_z (default 1.81 = distress zone).
+#     Signal estrutural de risco de insolvência. Skips sectores excluídos
+#     (Banks, REITs, FIIs — rácios não aplicáveis).
+#     Params: threshold_z (float, default 1.81)
+#
+# piotroski_weak
+#     Dispara quando Piotroski F-Score ≤ threshold_f (default 3).
+#     Quality red flag cumulativo (9 critérios YoY). Mesmas exclusões de sector.
+#     Params: threshold_f (int, default 3)
+#
+# === Campo `scope` (opcional) ===
+# Se presente em vez de `ticker`, expande para uma sub-trigger por holding
+# activa. `scope: all_holdings` = todos os tickers em portfolio_positions
+# (filtrados por `market` se declarado). Útil para vetos estruturais que
+# se aplicam universalmente.
+#
 # --- Notas de design ---
 # Critérios de screen (Graham/Buffett) vivem em scoring/engine.py e continuam
-# independentes. Triggers são sobre *momentum de preço/yield*, não qualidade.
-# Um bom fluxo: screen identifica qualidade → trigger identifica momento.
+# independentes. Triggers sobre *preço/yield* → oportunidade táctica; triggers
+# de *qualidade estrutural* (Altman/Piotroski) → veto de risco. São camadas
+# complementares no mesmo journal.
 #
 # ⚠ Empirical caveat (validado em analytics/backtest_yield.py, 2026-04):
 # O sinal `dy_percentile_vs_own_history` NÃO gera alpha quando usado como
@@ -123,3 +141,21 @@ triggers:
     threshold_pct: -15.0
     action_hint: REVIEW
     note: "VALE3 cíclico — dip 15% pode ser thesis break ou oportunidade"
+
+  # === Quality vetoes — estruturais, expandidos a todas as holdings ===
+  # Usam scope:all_holdings + expansão automática em _expand_scoped_triggers.
+  # Sectores excluídos (Banks, REITs, FIIs) são no-op (not_applicable).
+
+  - id: quality/altman-distress
+    scope: all_holdings
+    kind: altman_distress
+    threshold_z: 1.81
+    action_hint: REVIEW
+    note: "Altman Z abaixo de 1.81 (distress zone) — rever balance sheet, capex e dívida antes de nova entrada"
+
+  - id: quality/piotroski-weak
+    scope: all_holdings
+    kind: piotroski_weak
+    threshold_f: 3
+    action_hint: REVIEW
+    note: "Piotroski F ≤ 3 — deterioração cumulativa em rentabilidade/liquidez/eficiência vs ano anterior"
