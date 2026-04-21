@@ -978,3 +978,5 @@
 {"ts": "2026-04-21T18:30:50Z", "event": "yf_br_persisted", "ticker": "ABEV3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}
 {"ts": "2026-04-21T18:30:50Z", "event": "yf_br_fetch_start", "ticker": "GRND3", "period": "5y"}
 {"ts": "2026-04-21T18:30:51Z", "event": "yf_br_persisted", "ticker": "GRND3", "prices": 1248, "dividends": 70, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 70}
+{"ts": "2026-04-21T18:50:35Z", "event": "yf_br_fetch_start", "ticker": "ABEV3", "period": "5y"}
+{"ts": "2026-04-21T18:50:38Z", "event": "yf_br_persisted", "ticker": "ABEV3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}

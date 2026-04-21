@@ -236,18 +236,43 @@ def _ts_to_iso(ts) -> str | None:
     return None
 
 
-def extract_fundamentals(info: dict, divs, tk=None) -> dict:
+def _compute_dy_from_db(conn: sqlite3.Connection, ticker: str, months: int = 12) -> float | None:
+    """DY = soma dividendos trailing-N-months / current_price (nossos dados)."""
+    px_row = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? ORDER BY date DESC LIMIT 1", (ticker,)
+    ).fetchone()
+    if not px_row or not px_row[0] or px_row[0] <= 0:
+        return None
+    from datetime import date, timedelta
+    since = (date.today() - timedelta(days=int(30.4 * months))).isoformat()
+    r = conn.execute(
+        "SELECT SUM(amount) FROM dividends WHERE ticker=? AND amount>0 AND ex_date>=?",
+        (ticker, since),
+    ).fetchone()
+    tot = r[0] if r and r[0] else None
+    if tot and tot > 0:
+        return tot / px_row[0]
+    return None
+
+
+def extract_fundamentals(info: dict, divs, tk=None, conn: sqlite3.Connection = None,
+                         ticker: str = None) -> dict:
     """Lê yfinance .info e normaliza para o schema `fundamentals`.
-    Se tk (yf.Ticker) for fornecido, inclui métricas REIT (FFO, cobertura)."""
+    Se tk (yf.Ticker) for fornecido, inclui métricas REIT (FFO, cobertura).
+    Se conn+ticker forem fornecidos, prefere DY computado dos nossos dividendos."""
     pe = _f(info.get("trailingPE"))
     pb = _f(info.get("priceToBook"))
-    dy = _f(info.get("dividendYield"))
-    if dy is not None and dy > 1:
-        dy = dy / 100.0
-    # sanity: DY > 25% é quase certamente bug yfinance (ex: XP=86%, TSM=96%)
-    if dy is not None and dy > 0.25:
-        _log({"event": "yf_us_dy_sanity_reject", "ticker": info.get("symbol"), "raw": dy})
-        dy = None
+    dy = None
+    if conn is not None and ticker:
+        dy = _compute_dy_from_db(conn, ticker)
+    if dy is None:
+        dy = _f(info.get("dividendYield"))
+        if dy is not None and dy > 1:
+            dy = dy / 100.0
+        # sanity: DY > 25% é quase certamente bug yfinance (ex: XP=86%, TSM=96%)
+        if dy is not None and dy > 0.25:
+            _log({"event": "yf_us_dy_sanity_reject", "ticker": ticker, "raw": dy})
+            dy = None
     roe = _f(info.get("returnOnEquity"))
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
@@ -371,12 +396,12 @@ def run(ticker: str, period: str = "5y") -> dict:
         _log({"event": "yf_us_empty_history", "ticker": ticker})
         return {"ticker": ticker, "prices": 0, "dividends": 0, "fundamentals": None}
 
-    fields = extract_fundamentals(info, divs, tk=tk)
-
     with sqlite3.connect(DB_PATH) as conn:
         upsert_company(conn, entry)
         n_prices = upsert_prices(conn, ticker, hist)
         n_divs = upsert_dividends(conn, ticker, divs)
+        # extract precisa de conn para computar DY dos nossos dividendos
+        fields = extract_fundamentals(info, divs, tk=tk, conn=conn, ticker=ticker)
         period_end = upsert_fundamentals(conn, ticker, fields)
         conn.commit()
 

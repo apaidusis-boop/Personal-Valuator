@@ -102,6 +102,24 @@ def _compute_streak(divs) -> int | None:
     return streak
 
 
+def _compute_dy_from_divs(conn: sqlite3.Connection, ticker: str, current_price: float,
+                          months: int = 12) -> float | None:
+    """DY = soma dividendos trailing-N-months / current_price.
+    Ground truth baseado nos nossos dados, evita bugs yfinance.info."""
+    if not current_price or current_price <= 0:
+        return None
+    from datetime import date, timedelta
+    since = (date.today() - timedelta(days=int(30.4 * months))).isoformat()
+    r = conn.execute(
+        "SELECT SUM(amount) FROM dividends WHERE ticker=? AND amount>0 AND ex_date>=?",
+        (ticker, since),
+    ).fetchone()
+    tot = r[0] if r and r[0] else None
+    if tot and tot > 0:
+        return tot / current_price
+    return None
+
+
 def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, divs) -> None:
     """Persiste fundamentals básicos vindos do yfinance.info para ticker BR.
     Serve como fallback/complemento ao brapi_fetcher — especialmente útil
@@ -110,11 +128,19 @@ def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, di
         return
     pe = _f(info.get("trailingPE"))
     pb = _f(info.get("priceToBook"))
-    dy = _f(info.get("dividendYield"))
-    if dy is not None and dy > 1:
-        dy = dy / 100.0
-    if dy is not None and dy > 0.25:  # sanity cap (mesmo do US)
-        dy = None
+    # DY: sempre re-computar dos nossos dividendos vs price actual (evita bugs
+    # yfinance.info — ex: ABEV3 retornava 15.59% quando real é ~10%).
+    px_row = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? ORDER BY date DESC LIMIT 1", (ticker,)
+    ).fetchone()
+    current_price = px_row[0] if px_row else None
+    dy = _compute_dy_from_divs(conn, ticker, current_price)
+    if dy is None:  # fallback para yfinance se dividends table vazia
+        dy = _f(info.get("dividendYield"))
+        if dy is not None and dy > 1:
+            dy = dy / 100.0
+        if dy is not None and dy > 0.25:
+            dy = None
     roe = _f(info.get("returnOnEquity"))
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
