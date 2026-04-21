@@ -1,0 +1,70 @@
+# intents.yaml — classificação explícita de cada holding pela lens de avaliação.
+#
+# O sistema de scoring default assume DRIP (Buffett/Graham + dividend streak).
+# Algumas holdings são deliberadamente growth ou compounder-sem-dividendo
+# (ex: BRK-B, AAPL). Aplicar-lhes o screen DRIP e declarar AVOID por falhar
+# DY é ruído — a intenção é outra.
+#
+# Categorias:
+#   drip       — default; avaliar pelo screen Buffett/Graham completo.
+#                Critérios DY/ROE/PE são load-bearing para o verdict.
+#   growth     — growth pick; falhas em DY/PE/PB não devem gerar AVOID.
+#                Só vetos estruturais (Altman distress / Piotroski weak)
+#                disparam AVOID. Screen DRIP é informativo, não accionável.
+#   compounder — ex: BRK-B. Sem dividendos por design (Buffett reinveste).
+#                Tratado como growth para efeitos de verdict.
+#   wind_down  — posição em redução progressiva. Não reforçar mesmo que
+#                métricas melhorem. Tratado como drip para verdict (AVOID
+#                em distress é apropriado — confirma tese de saída).
+#
+# Tickers omitidos herdam intent=drip por default.
+# Editar livremente — sem lógica em código depende do conjunto exacto.
+
+intents:
+  # === US ===
+  # DRIP clássicos — aristocrats + core income
+  O: drip
+  JNJ: drip
+  PG: drip
+  KO: drip
+  JPM: drip
+  GS: drip
+  TFC: drip
+  PLD: drip
+  HD: drip
+  BLK: drip
+  BN: drip            # post-split BAM 2023; user explicitou tese dividendos
+
+  # Growth picks — não aplicar screen DRIP como veto
+  TSLA: growth
+  PLTR: growth
+  NU: growth
+  AAPL: growth        # DY 0.4% token, tese growth
+  TSM: growth         # growth + some div, mas tese é AI/semi
+  XP: growth          # IPO 2019, young
+  TEN: growth         # shipping cíclico — topo do ciclo
+
+  # Compounder Buffett — sem dividendo por design
+  BRK-B: compounder
+
+  # ETF tactical (sector check já apanha; aqui é explícito)
+  GREK: drip          # paga dividendos do MSCI Greece
+
+  ACN: drip
+
+  # === BR ===
+  # DRIP clássicos
+  ITSA4: drip
+  BBDC4: drip
+  VALE3: drip
+  # FIIs — todos DRIP (renda mensal é a tese)
+  XPML11: drip
+  RBRX11: drip
+  VGIR11: drip
+  BTLG11: drip
+  PVBI11: drip        # PVBI11 tier C mas tese contrarian deliberada (memory)
+  # Wind-down
+  PRIO3: wind_down    # user a desfazer-se aos poucos
+  # ETFs — N/A via sector (ETF-US, ETF-RF)
+  IVVB11: drip
+  LFTB11: drip

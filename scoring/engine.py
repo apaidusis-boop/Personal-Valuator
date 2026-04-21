@@ -101,6 +101,23 @@ def load_snapshot(conn: sqlite3.Connection, ticker: str) -> dict | None:
                 "interest_coverage": fund[11],
                 "debt_to_assets": fund[12],
             })
+        # Fallback: se ROE não foi populado pelo fetcher, derivar de deep_fundamentals
+        # (net_income / stockholders_equity do último annual). Mantém flag auditável.
+        if fundamentals["roe"] is None:
+            try:
+                deep = conn.execute(
+                    "SELECT net_income, stockholders_equity FROM deep_fundamentals "
+                    "WHERE ticker=? AND period_type='annual' "
+                    "AND net_income IS NOT NULL AND stockholders_equity IS NOT NULL "
+                    "AND stockholders_equity > 0 "
+                    "ORDER BY period_end DESC LIMIT 1",
+                    (ticker,),
+                ).fetchone()
+                if deep:
+                    fundamentals["roe"] = deep[0] / deep[1]
+                    fundamentals["roe_derived_from_deep"] = True
+            except sqlite3.OperationalError:
+                pass  # DB sem deep_fundamentals ainda
 
     return {
         "ticker": co[0],

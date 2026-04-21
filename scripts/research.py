@@ -227,19 +227,70 @@ def _piotroski(ticker: str, market: str):
     return piotroski_compute(ticker, market)
 
 
+_INTENTS_CACHE: dict[str, str] | None = None
+
+
+def _load_intents() -> dict[str, str]:
+    """Lê config/intents.yaml. Cacheia na primeira chamada. Tickers omitidos
+    mapeiam para 'drip' por default (aplica screen completo)."""
+    global _INTENTS_CACHE
+    if _INTENTS_CACHE is not None:
+        return _INTENTS_CACHE
+    fp = ROOT / "config" / "intents.yaml"
+    try:
+        import yaml
+        data = yaml.safe_load(fp.read_text(encoding="utf-8")) or {}
+        _INTENTS_CACHE = dict(data.get("intents") or {})
+    except Exception:
+        _INTENTS_CACHE = {}
+    return _INTENTS_CACHE
+
+
+def _intent_for(ticker: str) -> str:
+    return _load_intents().get(ticker, "drip")
+
+
 # --- verdict engine ---------------------------------------------------------
 
 def _final_verdict(*, screen_score, screen_passes, altman, piotroski,
-                   safety, dy_pctl, is_holding) -> tuple[str, list[str], int]:
-    """Aplica regras determinísticas. Devolve (verdict, reasons, confidence_pct)."""
+                   safety, dy_pctl, is_holding, sector=None,
+                   intent=None) -> tuple[str, list[str], int]:
+    """Aplica regras determinísticas. Devolve (verdict, reasons, confidence_pct).
+
+    Considera intent do user (growth/drip/compounder) para evitar falsos
+    positivos AVOID em growth picks que falham critérios DRIP por design.
+    """
     reasons = []
-    # vetos estruturais (hard floors)
+
+    # Non-equity (ETFs/RF) SEM dados: critérios de empresa não aplicáveis → N/A.
+    # ETFs com screen funcional (ex: GREK com div yield próprio) passam pelo
+    # fluxo normal — o screen já lida com dividends directamente.
+    sector_upper = (sector or "").upper()
+    is_non_equity = "ETF" in sector_upper or sector_upper in ("RF", "CASH")
+    if is_non_equity and (screen_score is None or screen_score == 0.0):
+        reasons.append(f"sector={sector!r} sem fundamentais — não-avaliável (ETF/RF)")
+        return "N/A", reasons, 0
+
+    # vetos estruturais (hard floors) — aplicam-se a TODAS as intents,
+    # incluindo growth (distress real é distress real).
     if altman.applicable and altman.is_distress:
         reasons.append(f"Altman Z={altman.z:.2f} < 1.81 (distress zone) → veto estrutural")
         return "AVOID", reasons, 85
     if piotroski.applicable and piotroski.is_weak:
         reasons.append(f"Piotroski F={piotroski.f_score}/9 ≤ 3 (quality degradada) → veto estrutural")
         return "AVOID", reasons, 80
+
+    # Growth pick: o screen DRIP não se aplica (design: sem div, high P/E OK).
+    # Só damos AVOID por veto estrutural, não por falha de critérios DRIP.
+    if intent == "growth":
+        if screen_score is None:
+            reasons.append("growth pick — screen DRIP não avaliável; fundamentais OK em Altman/Piotroski")
+            return "HOLD-GROWTH", reasons, 55
+        reasons.append(f"growth pick — screen DRIP {screen_score:.2f} esperado baixo (sem div, multiplos altos)")
+        if altman.applicable and altman.is_safe and piotroski.applicable and piotroski.f_score >= 6:
+            reasons.append(f"Altman SAFE + Piotroski F={piotroski.f_score} → qualidade estrutural forte")
+            return "HOLD-GROWTH", reasons, 70
+        return "HOLD-GROWTH", reasons, 50
 
     if screen_score is None:
         reasons.append("screen score indisponível — não há dados suficientes")
@@ -305,6 +356,7 @@ def build_memo(ticker: str, market: str) -> str:
         screen_score=screen_score, screen_passes=screen_passes,
         altman=altman, piotroski=piotroski, safety=safety,
         dy_pctl=dy_pctl, is_holding=ci["is_holding"],
+        sector=ci["sector"], intent=_intent_for(ticker),
     )
 
     P("=" * 78)
@@ -469,10 +521,12 @@ def evaluate(ticker: str, market: str) -> dict:
     safety = _safety(ticker, market)
     dy_pctl = _dy_pctl(ticker, market)
 
+    intent = _intent_for(ticker)
     verdict, reasons, conf = _final_verdict(
         screen_score=screen_score, screen_passes=screen_passes,
         altman=altman, piotroski=piotroski, safety=safety,
         dy_pctl=dy_pctl, is_holding=ci["is_holding"],
+        sector=ci["sector"], intent=intent,
     )
 
     if altman.applicable:
@@ -485,6 +539,7 @@ def evaluate(ticker: str, market: str) -> dict:
         "market": market,
         "name": ci["name"],
         "sector": ci["sector"],
+        "intent": intent,
         "is_holding": ci["is_holding"],
         "mv": ci["mv"],
         "currency": ci["currency"],
@@ -530,11 +585,11 @@ def render_batch_table(results: list[dict]) -> str:
     P(f"  RESEARCH BATCH SCAN — {date.today().isoformat()}   ({len(results)} holdings)")
     P("=" * 110)
     P("")
-    P(f"  {'Ticker':<8}{'Mkt':<5}{'Screen':<8}{'Altman':<14}{'Piotroski':<12}"
-      f"{'Safety':<8}{'DY-pct':<10}{'Verdict':<9}{'Conf':<5}")
-    P("  " + "-" * 100)
+    P(f"  {'Ticker':<8}{'Mkt':<5}{'Intent':<11}{'Screen':<8}{'Altman':<14}{'Piotroski':<12}"
+      f"{'Safety':<8}{'DY-pct':<10}{'Verdict':<13}{'Conf':<5}")
+    P("  " + "-" * 110)
 
-    order = {"AVOID": 0, "WATCH": 1, "HOLD": 2, "BUY": 3}
+    order = {"AVOID": 0, "WATCH": 1, "HOLD": 2, "HOLD-GROWTH": 3, "N/A": 4, "BUY": 5}
     results_sorted = sorted(results, key=lambda r: (order.get(r.get("verdict", ""), 9), r["ticker"]))
 
     for r in results_sorted:
@@ -548,21 +603,24 @@ def render_batch_table(results: list[dict]) -> str:
         dy = (f"P{r['dy_pctl_value']:.0f} {r['dy_pctl_label'][:4]}"
               if r['dy_pctl_value'] is not None else "-")
         P(f"  {r['ticker']:<8}{r['market'].upper():<5}"
+          f"{r.get('intent','drip'):<11}"
           f"{_fmt(r['screen_score'], '.2f'):<8}"
           f"{altman:<14}"
           f"{piot:<12}"
           f"{_fmt(r['safety'], '.0f'):<8}"
           f"{dy:<10}"
-          f"{r['verdict']:<9}"
+          f"{r['verdict']:<13}"
           f"{r['confidence']}")
 
     P("")
     P("  SUMMARY")
-    counts = {"BUY": 0, "HOLD": 0, "AVOID": 0, "WATCH": 0}
+    counts: dict[str, int] = {}
     for r in results:
-        counts[r.get("verdict", "WATCH")] = counts.get(r.get("verdict", "WATCH"), 0) + 1
-    for k in ("BUY", "HOLD", "AVOID", "WATCH"):
-        P(f"    {k:<6}: {counts[k]:>3}")
+        v = r.get("verdict", "WATCH")
+        counts[v] = counts.get(v, 0) + 1
+    for k in ("BUY", "HOLD", "HOLD-GROWTH", "AVOID", "WATCH", "N/A"):
+        if counts.get(k):
+            P(f"    {k:<12}: {counts[k]:>3}")
 
     avoids = [r for r in results_sorted if r.get("verdict") == "AVOID"]
     if avoids:
