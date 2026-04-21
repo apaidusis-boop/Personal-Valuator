@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import sqlite3
+import sys
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from statistics import quantiles
@@ -30,6 +31,7 @@ from typing import Any
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"
 CFG_PATH = ROOT / "config" / "triggers.yaml"
@@ -209,11 +211,110 @@ def _eval_dy_percentile(conn: sqlite3.Connection, t: dict) -> dict:
     }
 
 
+def _eval_altman_distress(conn: sqlite3.Connection, t: dict) -> dict:
+    """Dispara quando Altman Z-Score cai abaixo de 1.81 (distress zone).
+
+    Usa scoring.altman.compute (lê deep_fundamentals). Skips tickers em
+    sectores excluídos (Banks, REITs, FIIs) — retorna fired=False com reason.
+    """
+    from scoring.altman import compute as altman_compute
+
+    ticker = t["ticker"]
+    market = t["market"]
+    threshold = float(t.get("threshold_z", 1.81))
+    score = altman_compute(ticker, market)
+    if not score.applicable:
+        return {"fired": False, "snapshot": {
+            "reason": "not_applicable",
+            "detail": score.reason_if_not_applicable,
+        }}
+    if score.z is None:
+        return {"fired": False, "snapshot": {"reason": "no_z_score"}}
+    fired = score.z < threshold
+    return {
+        "fired": fired,
+        "snapshot": {
+            "z_score": round(score.z, 3),
+            "zone": score.zone,
+            "threshold_z": threshold,
+            "period_end": score.period_end,
+            "confidence": score.confidence,
+        },
+    }
+
+
+def _eval_piotroski_weak(conn: sqlite3.Connection, t: dict) -> dict:
+    """Dispara quando Piotroski F-Score ≤ 3 (quality red flag)."""
+    from scoring.piotroski import compute as piotroski_compute
+
+    ticker = t["ticker"]
+    market = t["market"]
+    threshold = int(t.get("threshold_f", 3))
+    score = piotroski_compute(ticker, market)
+    if not score.applicable:
+        return {"fired": False, "snapshot": {
+            "reason": "not_applicable",
+            "detail": score.reason_if_not_applicable,
+        }}
+    if score.f_score is None:
+        return {"fired": False, "snapshot": {"reason": "no_f_score"}}
+    fired = score.f_score <= threshold
+    return {
+        "fired": fired,
+        "snapshot": {
+            "f_score": score.f_score,
+            "label": score.label,
+            "threshold_f": threshold,
+            "period_t": score.period_t,
+            "period_t_minus_1": score.period_t_minus_1,
+        },
+    }
+
+
 EVALUATORS = {
     "price_drop_from_high": _eval_price_drop_from_high,
     "dy_above_pct": _eval_dy_above_pct,
     "dy_percentile_vs_own_history": _eval_dy_percentile,
+    "altman_distress": _eval_altman_distress,
+    "piotroski_weak": _eval_piotroski_weak,
 }
+
+
+def _expand_scoped_triggers(triggers: list[dict]) -> list[dict]:
+    """Expande triggers com `scope: all_holdings` para 1 trigger por holding activa.
+
+    Scope resolve-se consultando portfolio_positions em cada DB. Permite
+    declarar um veto global (ex: `altman_distress` em todas as holdings)
+    sem replicar a entry por ticker.
+
+    O trigger_id original fica inalterado mas a expansão adiciona sufixo
+    `/<ticker>` para garantir dedupe único por ticker no dia.
+    """
+    expanded: list[dict] = []
+    for t in triggers:
+        scope = t.get("scope")
+        if not scope:
+            expanded.append(t)
+            continue
+        if scope != "all_holdings":
+            # scope desconhecido — deixa passar para o loop apanhar como erro
+            expanded.append(t)
+            continue
+        markets = [t["market"]] if t.get("market") in ("br", "us") else ["br", "us"]
+        for mk in markets:
+            with sqlite3.connect(_db_for(mk)) as conn:
+                tickers = [row[0] for row in conn.execute(
+                    "SELECT DISTINCT ticker FROM portfolio_positions "
+                    "WHERE active=1 ORDER BY ticker"
+                )]
+            for ticker in tickers:
+                child = dict(t)
+                child["ticker"] = ticker
+                child["market"] = mk
+                child.pop("scope", None)
+                child["id"] = f"{t['id']}/{ticker}"
+                expanded.append(child)
+    return expanded
 
 
 def _insert_action(
@@ -247,6 +348,7 @@ def _insert_action(
 def run(*, cfg_path: Path, market_filter: str | None, dry_run: bool) -> int:
     cfg = yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}
     triggers = cfg.get("triggers") or []
+    triggers = _expand_scoped_triggers(triggers)
     if market_filter:
         triggers = [t for t in triggers if t.get("market") == market_filter]
 

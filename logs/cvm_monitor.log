@@ -72,3 +72,4 @@
 {"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "RENT3", "matches": 12, "inserted": 0}
 {"ts": "2026-04-17T13:00:06Z", "event": "cvm_ticker_done", "ticker": "SUZB3", "matches": 10, "inserted": 0}
 {"ts": "2026-04-17T13:00:06Z", "event": "cvm_all_done", "year": 2026, "tickers": 21, "total_inserted": 0}
+{"ts": "2026-04-21T05:10:10Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}

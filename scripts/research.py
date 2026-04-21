@@ -70,11 +70,18 @@ def _has_deep_fundamentals(ticker: str, market: str) -> bool:
 
 
 def _ensure_deep_fundamentals(ticker: str, market: str) -> bool:
-    """Se não há histórico, pulls via fetcher. Devolve True se agora há dados."""
+    """Se não há histórico, pulls via fetcher. Devolve True se agora há dados.
+
+    Silencioso em falhas de fetcher (ETFs/FIIs sem balance no yfinance,
+    yfinance não instalado, etc.) — scorers a jusante lidam com applicable=False.
+    """
     if _has_deep_fundamentals(ticker, market):
         return True
-    from fetchers.yf_deep_fundamentals import fetch_and_persist
-    n = fetch_and_persist(ticker, market)
+    try:
+        from fetchers.yf_deep_fundamentals import fetch_and_persist
+        n = fetch_and_persist(ticker, market)
+    except Exception:
+        return False
     return n > 0 and _has_deep_fundamentals(ticker, market)
 
 
@@ -443,12 +450,170 @@ def build_memo(ticker: str, market: str) -> str:
     return "\n".join(out)
 
 
+# --- batch evaluation (holdings mode) ---------------------------------------
+
+def evaluate(ticker: str, market: str) -> dict:
+    """Corre o pipeline completo e devolve um dict estruturado com o verdict.
+
+    Usado pelo modo --holdings; build_memo() continua a usar os helpers
+    directamente para ter acesso aos objectos raw (thesis, drip, regime).
+    """
+    ci = _company_info(ticker, market)
+    if not ci:
+        return {"ticker": ticker, "market": market, "error": "not_found"}
+    _ensure_deep_fundamentals(ticker, market)
+
+    screen_score, screen_passes, _ = _screen(ticker, market)
+    altman = _altman(ticker, market)
+    piotroski = _piotroski(ticker, market)
+    safety = _safety(ticker, market)
+    dy_pctl = _dy_pctl(ticker, market)
+
+    verdict, reasons, conf = _final_verdict(
+        screen_score=screen_score, screen_passes=screen_passes,
+        altman=altman, piotroski=piotroski, safety=safety,
+        dy_pctl=dy_pctl, is_holding=ci["is_holding"],
+    )
+
+    if altman.applicable:
+        altman_zone = "SAFE" if altman.is_safe else ("DISTRESS" if altman.is_distress else "GREY")
+    else:
+        altman_zone = "N/A"
+
+    return {
+        "ticker": ticker,
+        "market": market,
+        "name": ci["name"],
+        "sector": ci["sector"],
+        "is_holding": ci["is_holding"],
+        "mv": ci["mv"],
+        "currency": ci["currency"],
+        "screen_score": screen_score,
+        "altman_z": altman.z if altman.applicable else None,
+        "altman_zone": altman_zone,
+        "piotroski_f": piotroski.f_score if piotroski.applicable else None,
+        "piotroski_label": piotroski.label,
+        "safety": safety["total"] if safety else None,
+        "dy_pctl_label": dy_pctl["label"] if dy_pctl else None,
+        "dy_pctl_value": dy_pctl["percentile"] if dy_pctl else None,
+        "verdict": verdict,
+        "confidence": conf,
+        "reasons": reasons,
+    }
+
+
+def _list_holdings() -> list[tuple[str, str]]:
+    """Devolve [(ticker, market)] de todas as holdings activas (BR + US)."""
+    rows: list[tuple[str, str]] = []
+    for mk in ("br", "us"):
+        with sqlite3.connect(_db(mk)) as c:
+            for (t,) in c.execute(
+                "SELECT DISTINCT ticker FROM portfolio_positions "
+                "WHERE active=1 ORDER BY ticker"
+            ):
+                rows.append((t, mk))
+    return rows
+
+
+def _fmt(v, spec: str, na: str = "-") -> str:
+    if v is None:
+        return na
+    return format(v, spec)
+
+
+def render_batch_table(results: list[dict]) -> str:
+    """Tabela compacta + summary por verdict + lista de AVOID com razões."""
+    out: list[str] = []
+    P = out.append
+
+    P("=" * 110)
+    P(f"  RESEARCH BATCH SCAN — {date.today().isoformat()}   ({len(results)} holdings)")
+    P("=" * 110)
+    P("")
+    P(f"  {'Ticker':<8}{'Mkt':<5}{'Screen':<8}{'Altman':<14}{'Piotroski':<12}"
+      f"{'Safety':<8}{'DY-pct':<10}{'Verdict':<9}{'Conf':<5}")
+    P("  " + "-" * 100)
+
+    order = {"AVOID": 0, "WATCH": 1, "HOLD": 2, "BUY": 3}
+    results_sorted = sorted(results, key=lambda r: (order.get(r.get("verdict", ""), 9), r["ticker"]))
+
+    for r in results_sorted:
+        if r.get("error"):
+            P(f"  {r['ticker']:<8}{r['market'].upper():<5}[erro: {r['error']}]")
+            continue
+        altman = (f"{r['altman_z']:.2f} {r['altman_zone'][:4]}"
+                  if r['altman_z'] is not None else r['altman_zone'])
+        piot = (f"F={r['piotroski_f']} {r['piotroski_label'][:3]}"
+                if r['piotroski_f'] is not None else r['piotroski_label'])
+        dy = (f"P{r['dy_pctl_value']:.0f} {r['dy_pctl_label'][:4]}"
+              if r['dy_pctl_value'] is not None else "-")
+        P(f"  {r['ticker']:<8}{r['market'].upper():<5}"
+          f"{_fmt(r['screen_score'], '.2f'):<8}"
+          f"{altman:<14}"
+          f"{piot:<12}"
+          f"{_fmt(r['safety'], '.0f'):<8}"
+          f"{dy:<10}"
+          f"{r['verdict']:<9}"
+          f"{r['confidence']}")
+
+    P("")
+    P("  SUMMARY")
+    counts = {"BUY": 0, "HOLD": 0, "AVOID": 0, "WATCH": 0}
+    for r in results:
+        counts[r.get("verdict", "WATCH")] = counts.get(r.get("verdict", "WATCH"), 0) + 1
+    for k in ("BUY", "HOLD", "AVOID", "WATCH"):
+        P(f"    {k:<6}: {counts[k]:>3}")
+
+    avoids = [r for r in results_sorted if r.get("verdict") == "AVOID"]
+    if avoids:
+        P("")
+        P("  CRITICAL — AVOID verdicts (motivos)")
+        for r in avoids:
+            reasons_str = " ; ".join(r.get("reasons", [])) or "(sem razões registadas)"
+            P(f"    • {r['ticker']:<7}({r['market'].upper()})  {reasons_str}")
+
+    P("")
+    P("=" * 110)
+    return "\n".join(out)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("ticker")
+    ap.add_argument("ticker", nargs="?", help="Ticker para single-memo; omitir se --holdings")
     ap.add_argument("--market", choices=["br", "us"])
-    ap.add_argument("--md", action="store_true", help="Grava reports/research_TICKER_YYYY-MM-DD.md")
+    ap.add_argument("--md", action="store_true", help="Grava em reports/")
+    ap.add_argument("--holdings", action="store_true",
+                    help="Batch scan de todas as posições activas (BR+US)")
     args = ap.parse_args()
+
+    if args.holdings:
+        holdings = _list_holdings()
+        print(f"[batch] {len(holdings)} holdings activas — a avaliar...")
+        results: list[dict] = []
+        for t, mk in holdings:
+            try:
+                results.append(evaluate(t, mk))
+                r = results[-1]
+                verdict = r.get("verdict", r.get("error", "?"))
+                print(f"  {t:<8} {mk.upper()}  {verdict}")
+            except Exception as e:
+                results.append({"ticker": t, "market": mk, "error": str(e)})
+                print(f"  {t:<8} {mk.upper()}  [erro: {e}]")
+        table = render_batch_table(results)
+        print("\n" + table)
+        if args.md:
+            REPORTS.mkdir(exist_ok=True)
+            fp = REPORTS / f"research_batch_{date.today().isoformat()}.md"
+            fp.write_text(
+                f"# Research Batch Scan — {date.today().isoformat()}\n\n```\n{table}\n```\n",
+                encoding="utf-8",
+            )
+            print(f"\n[md] gravado em {fp}")
+        return
+
+    if not args.ticker:
+        print("[erro] passar ticker OU --holdings")
+        return
 
     ticker = args.ticker.upper()
     market = args.market or _detect_market(ticker)
