@@ -932,3 +932,49 @@
 {"ts": "2026-04-21T05:09:42Z", "event": "yf_br_persisted", "ticker": "RBRY11", "prices": 62, "dividends": 49, "price_range": ["2026-01-20", "2026-04-20"], "div_count_all_time": 49}
 {"ts": "2026-04-21T05:09:42Z", "event": "yf_br_fetch_start", "ticker": "VRTA11", "period": "3mo"}
 {"ts": "2026-04-21T05:09:43Z", "event": "yf_br_persisted", "ticker": "VRTA11", "prices": 62, "dividends": 50, "price_range": ["2026-01-20", "2026-04-20"], "div_count_all_time": 50}
+{"ts": "2026-04-21T18:27:43Z", "event": "yf_br_fetch_start", "ticker": "TAEE11", "period": "5y"}
+{"ts": "2026-04-21T18:27:45Z", "event": "yf_br_persisted", "ticker": "TAEE11", "prices": 1248, "dividends": 57, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 57}
+{"ts": "2026-04-21T18:27:45Z", "event": "yf_br_fetch_start", "ticker": "TRPL4", "period": "5y"}
+{"ts": "2026-04-21T18:27:47Z", "event": "yf_br_fetch_start", "ticker": "ALUP11", "period": "5y"}
+{"ts": "2026-04-21T18:27:48Z", "event": "yf_br_persisted", "ticker": "ALUP11", "prices": 1248, "dividends": 26, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 26}
+{"ts": "2026-04-21T18:27:48Z", "event": "yf_br_fetch_start", "ticker": "CMIG4", "period": "5y"}
+{"ts": "2026-04-21T18:27:49Z", "event": "yf_br_persisted", "ticker": "CMIG4", "prices": 1248, "dividends": 51, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 51}
+{"ts": "2026-04-21T18:27:50Z", "event": "yf_br_fetch_start", "ticker": "CSMG3", "period": "5y"}
+{"ts": "2026-04-21T18:27:50Z", "event": "yf_br_persisted", "ticker": "CSMG3", "prices": 1248, "dividends": 66, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 66}
+{"ts": "2026-04-21T18:27:51Z", "event": "yf_br_fetch_start", "ticker": "SAPR11", "period": "5y"}
+{"ts": "2026-04-21T18:27:51Z", "event": "yf_br_persisted", "ticker": "SAPR11", "prices": 1248, "dividends": 20, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 20}
+{"ts": "2026-04-21T18:27:52Z", "event": "yf_br_fetch_start", "ticker": "SANB11", "period": "5y"}
+{"ts": "2026-04-21T18:27:52Z", "event": "yf_br_persisted", "ticker": "SANB11", "prices": 1248, "dividends": 66, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 66}
+{"ts": "2026-04-21T18:27:53Z", "event": "yf_br_fetch_start", "ticker": "PSSA3", "period": "5y"}
+{"ts": "2026-04-21T18:27:54Z", "event": "yf_br_persisted", "ticker": "PSSA3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}
+{"ts": "2026-04-21T18:27:54Z", "event": "yf_br_fetch_start", "ticker": "VIVT3", "period": "5y"}
+{"ts": "2026-04-21T18:27:55Z", "event": "yf_br_persisted", "ticker": "VIVT3", "prices": 1248, "dividends": 110, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 110}
+{"ts": "2026-04-21T18:27:55Z", "event": "yf_br_fetch_start", "ticker": "ABEV3", "period": "5y"}
+{"ts": "2026-04-21T18:27:56Z", "event": "yf_br_persisted", "ticker": "ABEV3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}
+{"ts": "2026-04-21T18:27:56Z", "event": "yf_br_fetch_start", "ticker": "GRND3", "period": "5y"}
+{"ts": "2026-04-21T18:27:57Z", "event": "yf_br_persisted", "ticker": "GRND3", "prices": 1248, "dividends": 70, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 70}
+{"ts": "2026-04-21T18:28:07Z", "event": "yf_br_fetch_start", "ticker": "TRPL4", "period": "5y"}
+{"ts": "2026-04-21T18:29:09Z", "event": "yf_br_fetch_start", "ticker": "ISAE4", "period": "5y"}
+{"ts": "2026-04-21T18:29:11Z", "event": "yf_br_persisted", "ticker": "ISAE4", "prices": 1246, "dividends": 88, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 88}
+{"ts": "2026-04-21T18:30:34Z", "event": "yf_br_fetch_start", "ticker": "TAEE11", "period": "5y"}
+{"ts": "2026-04-21T18:30:36Z", "event": "yf_br_persisted", "ticker": "TAEE11", "prices": 1248, "dividends": 57, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 57}
+{"ts": "2026-04-21T18:30:37Z", "event": "yf_br_fetch_start", "ticker": "ISAE4", "period": "5y"}
+{"ts": "2026-04-21T18:30:38Z", "event": "yf_br_persisted", "ticker": "ISAE4", "prices": 1246, "dividends": 88, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 88}
+{"ts": "2026-04-21T18:30:38Z", "event": "yf_br_fetch_start", "ticker": "ALUP11", "period": "5y"}
+{"ts": "2026-04-21T18:30:39Z", "event": "yf_br_persisted", "ticker": "ALUP11", "prices": 1248, "dividends": 26, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 26}
+{"ts": "2026-04-21T18:30:40Z", "event": "yf_br_fetch_start", "ticker": "CMIG4", "period": "5y"}
+{"ts": "2026-04-21T18:30:41Z", "event": "yf_br_persisted", "ticker": "CMIG4", "prices": 1248, "dividends": 51, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 51}
+{"ts": "2026-04-21T18:30:41Z", "event": "yf_br_fetch_start", "ticker": "CSMG3", "period": "5y"}
+{"ts": "2026-04-21T18:30:42Z", "event": "yf_br_persisted", "ticker": "CSMG3", "prices": 1248, "dividends": 66, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 66}
+{"ts": "2026-04-21T18:30:43Z", "event": "yf_br_fetch_start", "ticker": "SAPR11", "period": "5y"}
+{"ts": "2026-04-21T18:30:44Z", "event": "yf_br_persisted", "ticker": "SAPR11", "prices": 1248, "dividends": 20, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 20}
+{"ts": "2026-04-21T18:30:44Z", "event": "yf_br_fetch_start", "ticker": "SANB11", "period": "5y"}
+{"ts": "2026-04-21T18:30:45Z", "event": "yf_br_persisted", "ticker": "SANB11", "prices": 1248, "dividends": 66, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 66}
+{"ts": "2026-04-21T18:30:45Z", "event": "yf_br_fetch_start", "ticker": "PSSA3", "period": "5y"}
+{"ts": "2026-04-21T18:30:46Z", "event": "yf_br_persisted", "ticker": "PSSA3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}
+{"ts": "2026-04-21T18:30:47Z", "event": "yf_br_fetch_start", "ticker": "VIVT3", "period": "5y"}
+{"ts": "2026-04-21T18:30:48Z", "event": "yf_br_persisted", "ticker": "VIVT3", "prices": 1248, "dividends": 110, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 110}
+{"ts": "2026-04-21T18:30:48Z", "event": "yf_br_fetch_start", "ticker": "ABEV3", "period": "5y"}
+{"ts": "2026-04-21T18:30:50Z", "event": "yf_br_persisted", "ticker": "ABEV3", "prices": 1248, "dividends": 52, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 52}
+{"ts": "2026-04-21T18:30:50Z", "event": "yf_br_fetch_start", "ticker": "GRND3", "period": "5y"}
+{"ts": "2026-04-21T18:30:51Z", "event": "yf_br_persisted", "ticker": "GRND3", "prices": 1248, "dividends": 70, "price_range": ["2021-04-20", "2026-04-20"], "div_count_all_time": 70}
