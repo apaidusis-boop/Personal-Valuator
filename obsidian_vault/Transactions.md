@@ -3,7 +3,7 @@ tags: [transactions, log]
 ---
 # 📜 Log de transacções
 
-_Gerado: 2026-04-23. Fonte: `portfolio_positions` em ambas as DBs._
+_Gerado: 2026-04-24. Fonte: `portfolio_positions` em ambas as DBs._
 
 ## Posições activas (32)
 

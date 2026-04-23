@@ -1,15 +1,16 @@
 # 🏠 Investment Intelligence Vault
 
-_Export: 2026-04-23 18:49 UTC_
+_Export: 2026-04-23 21:02 UTC_
 
 ## 🚀 Começa aqui
 - [[My Portfolio|💼 A minha carteira AGORA]] — overview + totals + holdings table
-- [[briefings/2026-04-23|🌅 Morning Briefing de hoje]] — diff, moves, earnings
+- [[briefings/2026-04-24|🌅 Morning Briefing de hoje]] — diff, moves, earnings
 - [[Holdings|📋 Holdings completo]] — tabela unificada BR+US em BRL
 - [[Allocation|📊 Alocação]] — por market/sector/concentração
 - [[TaxLots|📜 Tax Lots JPM]] — breakdown lote-a-lote + short/long term
 - [[Rebalance|🔄 Rebalance]] — drift vs target
 - [[Transactions|📜 Transacções]] — log entries/exits
+- [[wiki/Index|📚 Wiki — Finance Map]] — methods, macro, history (31 notas)
 
 ## Dashboards (Dataview)
 - [[dashboards/Portfolio|📊 Portfolio Dashboard]]

@@ -33,14 +33,10 @@
             "id": "91505c9ed2fd4ea0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tickers/ABBV.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ABBV"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -111,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "db601c83fe6990cc",
@@ -214,37 +209,45 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "note-metrics:Daily note dashboard": false
     }
   },
   "active": "91505c9ed2fd4ea0",
   "lastOpenFiles": [
-    "dashboards/Portfolio.md",
-    "TaxLots.md",
-    "Earnings Surprise.md",
-    "Rebalance.md",
-    "markets/US.md",
-    "tickers/KO.md",
-    "tickers/TTD.md",
-    "videos/VS-8e2uZJH0.md",
-    "My Portfolio.md",
-    "Transactions.md",
-    "Allocation.md",
-    "Holdings.md",
-    "Home.md",
-    "sectors/Banks.md",
-    "tickers/BBDC4.md",
+    "wiki/Index.md",
+    "wiki/history/2020_COVID_crash.md",
+    "wiki/history/2008_GFC.md",
+    "wiki/history/Brazilian_inflation_hist.md",
+    "wiki/history/Fed_funds_history.md",
+    "wiki/history/Selic_history.md",
+    "wiki/history",
+    "wiki/macro/Iron_ore.md",
+    "wiki/macro/Brent_WTI.md",
+    "wiki/macro/VIX.md",
+    "wiki/macro/2s10s.md",
+    "wiki/macro/10Y_Treasury.md",
+    "wiki/macro/Fed_funds.md",
+    "wiki/macro/USDBRL_PTAX.md",
+    "wiki/macro/IPCA.md",
+    "wiki/macro/CDI.md",
+    "wiki/macro/Selic.md",
+    "wiki/macro",
+    "wiki/methods/ROIC_interpretation.md",
+    "wiki/methods/FCF_yield.md",
+    "wiki/methods/P_B_interpretation.md",
+    "wiki/methods/P_E_interpretation.md",
+    "wiki/methods/Moat_types.md",
+    "wiki/methods/Kelly_criterion.md",
+    "wiki/methods/DRIP_compounding.md",
+    "wiki/methods/Aristocrats_Kings.md",
+    "wiki/methods/DDM_Gordon.md",
+    "wiki/methods/DCF_simplified.md",
+    "wiki/methods",
+    "wiki",
     "Untitled.base",
-    "2026-04-23.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "videos/fEp2ANi7dXk.md",
-    "tickers/ACN.md",
-    "tickers/ADP.md",
-    "markets/BR.md",
-    "dashboards/Briefing.md",
-    "tickers/EQTL3.md",
-    "tickers/ABBV.md"
+    "Untitled.canvas"
   ]
 }
