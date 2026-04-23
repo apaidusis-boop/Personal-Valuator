@@ -122,6 +122,34 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Backtest regime overlay** (Phase H, null)   | `python -m analytics.backtest_regime --market us --start 2013 --min-history-years 1` |
 | **Regime macro classifier** (BR + US)         | `python -m analytics.regime [--market br\|us] [--as-of YYYY-MM-DD]` |
 | **Atualizar FRED macro (US)**                 | `python fetchers/fred_fetcher.py [--series DGS10]` |
+| **YouTube ingest** 1 vídeo (cache-first)      | `python scripts/yt_ingest.py <url>` |
+| **YouTube batch** (lista/canal)               | `python scripts/yt_ingest_batch.py --channel-last <id> --count N` |
+| **YouTube re-extract** (só Ollama, 0 rede)    | `python scripts/yt_reextract.py --all` ou `--video X` |
+| **YouTube digest** (SQL-only, 0 LLM)          | `python scripts/yt_digest.py --channel "X" --days 30` |
+| **Refresh preço intraday** (yfinance live)    | `python scripts/refresh_ticker.py X` ou `--all-holdings` |
+| **Notes por ticker** (tese, observações)      | `python scripts/notes_cli.py add X "texto" --tags a,b` |
+| **Obsidian vault export**                     | `python scripts/obsidian_bridge.py [--refresh] [--holdings-only]` |
+| **Research memo com preço live**              | `python scripts/research.py X --intraday` |
+| **Verdict engine** (BUY/HOLD/SELL aggregado)  | `ii verdict ACN [--narrate] [--write]` |
+| **Streamlit dashboard** (localhost:8501)      | `ii dashboard` |
+| **Agent matinal** (cron 09:30)                | `ii agent [--quick] [--dry-run]` |
+| **Snapshot MV diário**                        | `ii snapshot [--backfill 90]` |
+| **Earnings react** (refetch on new filing)    | `ii react [--dry-run]` |
+| **Telegram push**                             | `ii telegram --setup`  depois  `ii telegram "msg"` |
+| **Peer compare** (percentil vs sector)        | `ii peers ACN [--write]` |
+| **Rebalance assistant**                       | `ii rebalance [--cash-add 5000] [--md]` |
+| **Position size Kelly-lite**                  | `ii size ACN --cash 10000 [--force]` |
+| **Verdict history + backtest**                | `ii vh record` (daily) / `ii vh backtest` / `ii vh show ACN` |
+| **Earnings surprise** (YT targets vs real)    | `ii surprise [--ticker X] [--md]` |
+| **News fetch + classify**                     | `ii news [--classify]` / `ii news --digest --days 7` |
+| **Morning briefing consolidado**              | `python scripts/morning_briefing.py` ou `ii brief` (legacy) |
+| **Daily diff** (o que mudou vs ontem)         | `python scripts/daily_diff.py --since 1` |
+| **Vault semantic ask** (Qwen 14B sobre vault) | `ii vault "pergunta em PT"` |
+| **Earnings calendar** (yfinance)              | `python fetchers/earnings_calendar.py --holdings` + `--upcoming 30` |
+| **FX total BR+US em BRL**                     | `ii fx --total` |
+| **Backtest triggers históricos**              | `python -m analytics.backtest_triggers --market us --start 2020 --kind price_drop --threshold -20` |
+| **Memory cleanup** (stale/broken/orphan)      | `python scripts/memory_cleanup.py [--fix]` |
+| **CLI unificada (tudo)**                      | `ii help` |
 | Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
 | Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |
 

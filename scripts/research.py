@@ -491,6 +491,24 @@ def build_memo(ticker: str, market: str) -> str:
         P(f"  {market.upper()}: {regime['regime']} (conf {regime['confidence']}) — {regime['note']}")
         P(f"  NOTA: classifier é descritivo, não timing signal (ver Phase H null).")
 
+    # [8] User notes (from notes_cli)
+    try:
+        from scripts.notes_cli import read_note
+        note = read_note(ticker)
+    except Exception:  # noqa: BLE001
+        note = None
+    if note:
+        fm, body = note
+        if body and body.strip():
+            P("")
+            P("[8] USER NOTES")
+            P("-" * 78)
+            tags = fm.get("tags", "")
+            if tags:
+                P(f"  Tags: {tags}")
+            for line in body.strip().splitlines():
+                P(f"  {line}")
+
     # closing
     P("")
     P("=" * 78)
@@ -642,7 +660,19 @@ def main() -> None:
     ap.add_argument("--md", action="store_true", help="Grava em reports/")
     ap.add_argument("--holdings", action="store_true",
                     help="Batch scan de todas as posições activas (BR+US)")
+    ap.add_argument("--intraday", action="store_true",
+                    help="Refresh preço intraday via yfinance antes de gerar o memo")
     args = ap.parse_args()
+
+    if args.intraday:
+        import subprocess as _sp
+        cmd = [sys.executable, str(Path(__file__).parent / "refresh_ticker.py")]
+        if args.holdings:
+            cmd.append("--all-holdings")
+        elif args.ticker:
+            cmd.append(args.ticker.upper())
+        cmd.append("--quiet")
+        _sp.call(cmd)
 
     if args.holdings:
         holdings = _list_holdings()

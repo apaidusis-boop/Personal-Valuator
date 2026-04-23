@@ -154,6 +154,26 @@ def _eval_price_drop_from_high(conn: sqlite3.Connection, t: dict) -> dict:
     }
 
 
+def _eval_price_below(conn: sqlite3.Connection, t: dict) -> dict:
+    """Dispara se preço actual ≤ threshold_price absoluto (ex: ACN ≤ $170)."""
+    ticker = t["ticker"]
+    threshold = float(t["threshold_price"])
+    latest = _latest_price(conn, ticker)
+    if not latest:
+        return {"fired": False, "snapshot": {"reason": "no_price"}}
+    d_latest, p_latest = latest
+    fired = p_latest <= threshold
+    return {
+        "fired": fired,
+        "snapshot": {
+            "price": round(p_latest, 4),
+            "price_date": d_latest,
+            "threshold_price": threshold,
+            "margin_pct": round((p_latest / threshold - 1) * 100, 2),
+        },
+    }
+
+
 def _eval_dy_above_pct(conn: sqlite3.Connection, t: dict) -> dict:
     ticker = t["ticker"]
     threshold = float(t["threshold_pct"])
@@ -273,6 +293,7 @@ def _eval_piotroski_weak(conn: sqlite3.Connection, t: dict) -> dict:
 
 EVALUATORS = {
     "price_drop_from_high": _eval_price_drop_from_high,
+    "price_below": _eval_price_below,
     "dy_above_pct": _eval_dy_above_pct,
     "dy_percentile_vs_own_history": _eval_dy_percentile,
     "altman_distress": _eval_altman_distress,

@@ -1,0 +1,46 @@
+# youtube_sources.yaml — canais/playlists curados para ingestão batch.
+#
+# Usado pelo Phase 2 (batch + polling): scripts/yt_poll.py (a construir)
+# lê este ficheiro, enumera vídeos novos desde o último run (por channel),
+# e invoca yt_ingest.py para cada um. Dedup por video_id.
+#
+# Estrutura:
+#   channels:
+#     - name:       nome legível
+#       handle:     "@handle" do YouTube (preferido — estável)
+#       channel_id: UC... (opcional; handle é suficiente)
+#       lang:       pt | en
+#       priority:   high | medium | low — ordem de processamento
+#       market:     br | us | global — contexto macro dominante
+#       skip_kinds: [shorts, live]  — formatos a ignorar
+#       min_duration_sec: 300  — ignorar vídeos curtos (shorts ou quick takes)
+#
+# Adicionar canais incrementalmente. NÃO adicionar canais sem
+# confirmar que (a) publica análise substantiva, não apenas entertainment,
+# e (b) está em PT/EN (Whisper precisa lang detection estável).
+
+channels:
+  - name: "O Primo Rico"
+    handle: "@primorico"
+    lang: pt
+    priority: high
+    market: br
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600   # 10min+ (evita quick news takes)
+    notes: >
+      Análise macro BR denso (Selic, fiscal, inflação) + tickers brasileiros
+      específicos. Videos testados: 7ltdn-65JDw, wBohSlq8p6w, Nyms4ooHFYg,
+      dgqAHfvcPYs, 7EBNjOuA-mI, HEFngcQ3mSA, qEhSi9EKs2Y, fEp2ANi7dXk.
+      Formato varia: análise de conjuntura (óptimo), coaching pessoal
+      (skip — sem factos sobre tickers), educação (selectivo).
+
+  - name: "Virtual Asset"
+    # handle desconhecido — confirmar depois
+    lang: pt
+    priority: medium
+    market: br
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600
+    notes: >
+      Análise de fatos relevantes + dividendos BR. Videos testados:
+      eM1acX1fYb4 (SAPR11/ITSA4/PETR4 — AGEA insight chave).

@@ -1,0 +1,272 @@
+Batch: 1 videos. force_retranscribe=False force_extract=False
+
+[1/1] VS-8e2uZJH0
+
+=== 1/6 Download ===
+[download]   0.0% of   83.68MiB at   27.14KiB/s ETA 52:37[download]   0.0% of   83.68MiB at   80.85KiB/s ETA 17:39[download]   0.0% of   83.68MiB at  188.02KiB/s ETA 07:35[download]   0.0% of   83.68MiB at  400.79KiB/s ETA 03:33[download]   0.0% of   83.68MiB at  170.52KiB/s ETA 08:22[download]   0.1% of   83.68MiB at  219.38KiB/s ETA 06:30[download]   0.1% of   83.68MiB at  301.73KiB/s ETA 04:43[download]   0.3% of   83.68MiB at  459.27KiB/s ETA 03:06[download]   0.6% of   83.68MiB at  722.61KiB/s ETA 01:57[download]   1.2% of   83.68MiB at    1.07MiB/s ETA 01:16[download]   2.4% of   83.68MiB at    1.27MiB/s ETA 01:04[download]   4.3% of   83.68MiB at    1.85MiB/s ETA 00:43[download]   8.0% of   83.68MiB at    2.11MiB/s ETA 00:36[download]  11.0% of   83.68MiB at    2.25MiB/s ETA 00:33[download]  11.9% of   83.68MiB at    2.29MiB/s ETA 00:32[download]  11.9% of   83.68MiB at   25.29KiB/s ETA 49:45[download]  11.9% of   83.68MiB at   75.25KiB/s ETA 16:43[download]  11.9% of   83.68MiB at  174.76KiB/s ETA 07:11[download]  11.9% of   83.68MiB at  373.09KiB/s ETA 03:22[download]  11.9% of   83.68MiB at  172.33KiB/s ETA 07:17[download]  12.0% of   83.68MiB at  207.11KiB/s ETA 06:04[download]  12.0% of   83.68MiB at  297.84KiB/s ETA 04:13[download]  12.2% of   83.68MiB at  452.88KiB/s ETA 02:46[download]  12.5% of   83.68MiB at  734.17KiB/s ETA 01:42[download]  13.1% of   83.68MiB at    1.10MiB/s ETA 01:06[download]  14.3% of   83.68MiB at    1.32MiB/s ETA 00:54[download]  16.3% of   83.68MiB at    1.65MiB/s ETA 00:42[download]  19.1% of   83.68MiB at    2.16MiB/s ETA 00:31[download]  23.3% of   83.68MiB at    2.35MiB/s ETA 00:27[download]  23.3% of   83.68MiB at  146.88KiB/s ETA 07:27[download]  23.3% of   83.68MiB at  423.74KiB/s ETA 02:35[download]  23.3% of   83.68MiB at  973.19KiB/s ETA 01:07[download]  23.4% of   83.68MiB at    2.00MiB/s ETA 00:32[download]  23.4% of   83.68MiB at    2.54MiB/s ETA 00:25[download]  23.4% of   83.68MiB at    2.67MiB/s ETA 00:24[download]  23.5% of   83.68MiB at    2.73MiB/s ETA 00:23[download]  23.6% of   83.68MiB at    2.73MiB/s ETA 00:23[download]  23.9% of   83.68MiB at    2.74MiB/s ETA 00:23[download]  24.5% of   83.68MiB at    2.76MiB/s ETA 00:22[download]  25.7% of   83.68MiB at    2.76MiB/s ETA 00:22[download]  28.1% of   83.68MiB at    2.76MiB/s ETA 00:21[download]  31.4% of   83.68MiB at    2.76MiB/s ETA 00:20[download]  34.7% of   83.68MiB at    2.68MiB/s ETA 00:20[download]  35.2% of   83.68MiB at    2.72MiB/s ETA 00:19[download]  35.2% of   83.68MiB at  209.86KiB/s ETA 04:24[download]  35.2% of   83.68MiB at  598.99KiB/s ETA 01:32[download]  35.2% of   83.68MiB at    1.34MiB/s ETA 00:40[download]  35.2% of   83.68MiB at    2.79MiB/s ETA 00:19[download]  35.2% of   83.68MiB at    2.68MiB/s ETA 00:20[download]  35.3% of   83.68MiB at    2.79MiB/s ETA 00:19[download]  35.3% of   83.68MiB at    2.80MiB/s ETA 00:19[download]  35.5% of   83.68MiB at    2.77MiB/s ETA 00:19[download]  35.8% of   83.68MiB at    2.75MiB/s ETA 00:19[download]  36.4% of   83.68MiB at    2.42MiB/s ETA 00:22[download]  37.6% of   83.68MiB at    2.75MiB/s ETA 00:18[download]  40.0% of   83.68MiB at    2.75MiB/s ETA 00:18[download]  43.3% of   83.68MiB at    2.36MiB/s ETA 00:20[download]  45.6% of   83.68MiB at    2.44MiB/s ETA 00:18[download]  46.6% of   83.68MiB at    2.47MiB/s ETA 00:18[download]  46.6% of   83.68MiB at   27.37KiB/s ETA 27:51[download]  46.6% of   83.68MiB at   81.53KiB/s ETA 09:21[download]  46.6% of   83.68MiB at  189.65KiB/s ETA 04:01[download]  46.6% of   83.68MiB at  404.97KiB/s ETA 01:52[download]  46.7% of   83.68MiB at  178.30KiB/s ETA 04:16[download]  46.7% of   83.68MiB at  229.50KiB/s ETA 03:19[download]  46.8% of   83.68MiB at  309.74KiB/s ETA 02:27[download]  46.9% of   83.68MiB at  467.70KiB/s ETA 01:37[download]  47.2% of   83.68MiB at  741.59KiB/s ETA 01:00[download]  47.8% of   83.68MiB at    1.10MiB/s ETA 00:39[download]  49.0% of   83.68MiB at    1.34MiB/s ETA 00:31[download]  51.0% of   83.68MiB at    1.65MiB/s ETA 00:24[download]  53.8% of   83.68MiB at    2.16MiB/s ETA 00:17[download]  58.1% of   83.68MiB at    2.36MiB/s ETA 00:14[download]  58.1% of   83.68MiB at  150.93KiB/s ETA 03:58[download]  58.1% of   83.68MiB at  419.65KiB/s ETA 01:25[download]  58.1% of   83.68MiB at  952.26KiB/s ETA 00:37[download]  58.1% of   83.68MiB at    1.95MiB/s ETA 00:18[download]  58.1% of   83.68MiB at    2.38MiB/s ETA 00:14[download]  58.1% of   83.68MiB at    2.57MiB/s ETA 00:13[download]  58.2% of   83.68MiB at    2.68MiB/s ETA 00:13[download]  58.3% of   83.68MiB at    2.70MiB/s ETA 00:12[download]  58.6% of   83.68MiB at    2.76MiB/s ETA 00:12[download]  59.2% of   83.68MiB at    2.76MiB/s ETA 00:12[download]  60.4% of   83.68MiB at    2.77MiB/s ETA 00:11[download]  62.8% of   83.68MiB at    2.77MiB/s ETA 00:11[download]  66.1% of   83.68MiB at    2.77MiB/s ETA 00:10[download]  69.4% of   83.68MiB at    2.77MiB/s ETA 00:09[download]  69.6% of   83.68MiB at    2.77MiB/s ETA 00:09[download]  69.6% of   83.68MiB at   27.89KiB/s ETA 15:33[download]  69.6% of   83.68MiB at   83.05KiB/s ETA 05:13[download]  69.6% of   83.68MiB at  193.17KiB/s ETA 02:14[download]  69.7% of   83.68MiB at  412.47KiB/s ETA 01:03[download]  69.7% of   83.68MiB at  178.63KiB/s ETA 02:25[download]  69.7% of   83.68MiB at  218.99KiB/s ETA 01:58[download]  69.8% of   83.68MiB at  303.17KiB/s ETA 01:25[download]  69.9% of   83.68MiB at  461.60KiB/s ETA 00:55[download]  70.2% of   83.68MiB at  730.57KiB/s ETA 00:34[download]  70.8% of   83.68MiB at    1.09MiB/s ETA 00:22[download]  72.0% of   83.68MiB at    1.32MiB/s ETA 00:17[download]  74.0% of   83.68MiB at    1.64MiB/s ETA 00:13[download]  76.8% of   83.68MiB at    2.15MiB/s ETA 00:09[download]  81.2% of   83.68MiB at    2.36MiB/s ETA 00:06[download]  81.2% of   83.68MiB at   27.72KiB/s ETA 09:40[download]  81.2% of   83.68MiB at   82.35KiB/s ETA 03:15[download]  81.2% of   83.68MiB at  191.29KiB/s ETA 01:24[download]  81.3% of   83.68MiB at  408.01KiB/s ETA 00:39[download]  81.3% of   83.68MiB at  161.12KiB/s ETA 01:39[download]  81.3% of   83.68MiB at  207.48KiB/s ETA 01:17[download]  81.4% of   83.68MiB at  248.64KiB/s ETA 01:04[download]  81.5% of   83.68MiB at  382.86KiB/s ETA 00:41[download]  81.8% of   83.68MiB at  594.74KiB/s ETA 00:26[download]  82.4% of   83.68MiB at  946.92KiB/s ETA 00:15[download]  83.6% of   83.68MiB at    1.39MiB/s ETA 00:09[download]  86.0% of   83.68MiB at    1.75MiB/s ETA 00:06[download]  88.9% of   83.68MiB at    2.05MiB/s ETA 00:04[download]  92.3% of   83.68MiB at    2.22MiB/s ETA 00:02[download]  92.8% of   83.68MiB at    2.24MiB/s ETA 00:02[download]  92.8% of   83.68MiB at   22.22KiB/s ETA 04:39[download]  92.8% of   83.68MiB at   66.01KiB/s ETA 01:33[download]  92.8% of   83.68MiB at  153.30KiB/s ETA 00:40[download]  92.8% of   83.68MiB at  326.73KiB/s ETA 00:18[download]  92.8% of   83.68MiB at  176.03KiB/s ETA 00:35[download]  92.8% of   83.68MiB at  222.62KiB/s ETA 00:27[download]  92.9% of   83.68MiB at  306.64KiB/s ETA 00:19[download]  93.1% of   83.68MiB at  466.25KiB/s ETA 00:12[download]  93.4% of   83.68MiB at  655.12KiB/s ETA 00:08[download]  94.0% of   83.68MiB at  952.22KiB/s ETA 00:05[download]  95.2% of   83.68MiB at    1.39MiB/s ETA 00:02[download]  97.5% of   83.68MiB at    1.75MiB/s ETA 00:01[download] 100.0% of   83.68MiB at    2.04MiB/s ETA 00:00[download] 100% of   83.68MiB in 00:00:40 at 2.05MiB/s                                                         video: 'RISCO GUERRA, DÓLAR EM QUEDA E PETRÓLEO EM ALTA: ONDE INVESTIR AGORA? | Market Makers #350' (5903s) — Market Makers
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 19:46:28,156 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 19:46:28,318 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 19:46:29,694 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 19:46:37,687 INFO faster_whisper Processing audio with duration 01:38:22.699
+2026-04-23 19:46:49,592 INFO faster_whisper VAD filter removed 00:31.451 of audio
+2026-04-23 19:46:52,557 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 19:48:52,881 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=5902.7s chunks=4295 chars=100257
+lang=pt duration=5903s chunks=4295 chars=100257
+
+=== 3/6 Router (aliases) ===
+2026-04-23 19:48:53,054 INFO youtube.router router_done tickers=6 themes=9
+tickers matched: ['B3SA3', 'BBDC4', 'ITUB4', 'PETR4', 'RENT3', 'VALE3']
+themes matched:  ['banking_br', 'fed_path', 'ipca_inflacao', 'oil_cycle', 'real_estate_cycle', 'selic_cycle', 'semis_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 19:49:18,053 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 3 insights (raw)
+2026-04-23 19:49:19,382 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBDC4    → 0 insights (raw)
+2026-04-23 19:49:41,588 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 5 insights (raw)
+2026-04-23 19:49:43,699 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  B3SA3    → 0 insights (raw)
+2026-04-23 19:49:55,372 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITUB4    → 2 insights (raw)
+2026-04-23 19:49:56,855 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  RENT3    → 0 insights (raw)
+2026-04-23 19:50:06,556 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:selic_cycle              → 2 themes (raw)
+2026-04-23 19:50:16,755 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:16,755 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Economia Brasileira', 'description': 'Discussões sobre a economia brasileira, incluindo inflação, juros e petróleo.'}, {'name': 'Investimentos Estrangeiros', 'description': 'Análise de como os investidores estrangeiros veem o Brasil e suas oportunidades de investimento.'}, {'name': 'Eleições Brasileiras', 'description': 'Impacto das eleições brasileiras no mercado financeiro e na economia do país.'}, {'name': 'Gestão de Riscos', 'description': 'Técnicas e estratégias para g
+2026-04-23 19:50:27,026 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:ipca_inflacao            → 0 themes (raw)
+2026-04-23 19:50:50,948 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:50,948 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Gestão de Ativos e Estratégias', 'description': 'Discute a gestão de fundos de investimento, estratégias de alocação de ativos e o desafio de conciliar a gestão do fundo com atividades comerciais.'}, {'name': 'Impacto da Tecnologia na Gestão', 'description': 'Explora como as novas tecnologias, incluindo inteligência artificial, estão influenciando a gestão de portfólio e estratégias de investimento.'}, {'name': 'Desempenho dos Índices de Bolsa', 'description': 'Análise do d
+2026-04-23 19:50:56,541 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-04-23 19:51:06,458 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:fed_path                 → 1 themes (raw)
+2026-04-23 19:51:07,547 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-04-23 19:51:08,298 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:real_estate_cycle        → 0 themes (raw)
+2026-04-23 19:51:21,260 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:21,260 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Performance da Bolsa Brasileira', 'description': 'Discussão sobre como a Bolsa Brasileira está performando em relação aos outros emergentes e fatores que podem influenciar isso, incluindo o petróleo e as eleições.'}, {'name': 'Expectativas de Juros', 'description': 'Análise das expectativas de queda dos juros no Brasil e como isso pode afetar a performance da Bolsa Brasileira.'}, {'name': 'Impacto do Petróleo na Economia Brasileira', 'description': 'Discussão sobre o impact
+2026-04-23 19:51:26,814 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:oil_cycle                → 0 themes (raw)
+2026-04-23 19:51:31,762 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 0 themes (raw)
+2026-04-23 19:51:42,169 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:banking_br               → 2 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 10,
+  "themes_in": 5,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 9,
+  "themes_out": 4
+}
+
+=== 6/6 Persist ===
+2026-04-23 19:51:42,246 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 4, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 9,
+  "us_insights": 0,
+  "themes": 4,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 19:51:42,253 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\VS-8e2uZJH0.webm
+
+Done in 359.1s.
+
+=== DONE 1 videos in 6.0min ===
+[
+  {
+    "video_id": "VS-8e2uZJH0",
+    "rc": 0,
+    "elapsed_sec": 360.9
+  }
+]

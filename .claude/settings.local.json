@@ -96,7 +96,8 @@
       "WebSearch",
       "mcp__*",
       "Skill(*)",
-      "mcp__claude_ai_Bigdata_com__bigdata_search"
+      "mcp__claude_ai_Bigdata_com__bigdata_search",
+      "PowerShell(Get-ScheduledTask *)"
     ],
     "defaultMode": "acceptEdits"
   },

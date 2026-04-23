@@ -314,6 +314,71 @@ CREATE TABLE IF NOT EXISTS deep_fundamentals (
 );
 CREATE INDEX IF NOT EXISTS idx_deep_fund_ticker_period
     ON deep_fundamentals(ticker, period_end DESC);
+
+-- YouTube ingestion (Phase Q): metadata + transcript cache + structured facts.
+-- Áudio NÃO é persistido. Transcript É — permite re-correr extractor/validator
+-- sem re-descarregar/re-transcrever (ganho ~30s GPU/vídeo por iteração).
+-- Ver scripts/yt_ingest.py, scripts/yt_reextract.py.
+CREATE TABLE IF NOT EXISTS videos (
+    video_id              TEXT PRIMARY KEY,  -- YouTube video id (11 chars)
+    url                   TEXT NOT NULL,
+    title                 TEXT,
+    channel               TEXT,
+    channel_id            TEXT,
+    published_at          TEXT,              -- ISO 8601
+    duration_sec          INTEGER,
+    lang                  TEXT,              -- detected by Whisper
+    processed_at          TEXT NOT NULL,     -- ISO 8601 UTC
+    status                TEXT NOT NULL,     -- pending|completed|skipped_no_relevance|error
+    error_msg             TEXT,
+    tickers_seen          TEXT,              -- JSON array of matched tickers
+    transcript_text       TEXT,              -- full transcript (Whisper)
+    transcript_chunks_json TEXT              -- JSON [[text, ts_start, ts_end], ...]
+);
+CREATE INDEX IF NOT EXISTS idx_videos_processed_at ON videos(processed_at);
+CREATE INDEX IF NOT EXISTS idx_videos_status       ON videos(status);
+
+-- Factos extraídos ligados a um ticker do universo.
+-- kind ∈ guidance|capex|dividend|balance_sheet|thesis_bull|thesis_bear|
+--        catalyst|risk|operational|management|valuation
+CREATE TABLE IF NOT EXISTS video_insights (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    video_id        TEXT NOT NULL,
+    ticker          TEXT NOT NULL,
+    kind            TEXT NOT NULL,
+    claim           TEXT NOT NULL,
+    claim_norm      TEXT NOT NULL,         -- lowercased, stripped, for dedup
+    evidence_quote  TEXT NOT NULL,         -- verbatim transcript substring ≤300 chars
+    ts_seconds      INTEGER,               -- timestamp dentro do vídeo
+    confidence      REAL NOT NULL,         -- 0-1
+    created_at      TEXT NOT NULL,
+    FOREIGN KEY (video_id) REFERENCES videos(video_id),
+    FOREIGN KEY (ticker)   REFERENCES companies(ticker)
+);
+CREATE UNIQUE INDEX IF NOT EXISTS ux_insights_dedup
+    ON video_insights(video_id, ticker, kind, claim_norm);
+CREATE INDEX IF NOT EXISTS idx_insights_ticker_created
+    ON video_insights(ticker, created_at DESC);
+
+-- Factos macro/sector sem ticker (theme ∈ selic_cycle|fed_path|usdbrl|
+-- pulp_cycle|real_estate_cycle|oil_cycle|semis_cycle|...)
+CREATE TABLE IF NOT EXISTS video_themes (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    video_id        TEXT NOT NULL,
+    theme           TEXT NOT NULL,
+    stance          TEXT,                  -- bullish|bearish|neutral
+    summary         TEXT NOT NULL,
+    summary_norm    TEXT NOT NULL,         -- for dedup
+    evidence_quote  TEXT NOT NULL,
+    ts_seconds      INTEGER,
+    confidence      REAL NOT NULL,
+    created_at      TEXT NOT NULL,
+    FOREIGN KEY (video_id) REFERENCES videos(video_id)
+);
+CREATE UNIQUE INDEX IF NOT EXISTS ux_themes_dedup
+    ON video_themes(video_id, theme, summary_norm);
+CREATE INDEX IF NOT EXISTS idx_themes_theme_created
+    ON video_themes(theme, created_at DESC);
 """
 
 
@@ -328,10 +393,107 @@ SERIES_META_SEED = [
 ]
 
 
+def _add_column_if_missing(conn: sqlite3.Connection, table: str, col: str, ddl: str) -> None:
+    """Idempotent ALTER TABLE ... ADD COLUMN (SQLite não tem IF NOT EXISTS em ADD)."""
+    cols = {row[1] for row in conn.execute(f"PRAGMA table_info({table})")}
+    if col not in cols:
+        conn.execute(f"ALTER TABLE {table} ADD COLUMN {col} {ddl}")
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Migrações pontuais para DBs existentes."""
+    # Phase Q v2: transcript cache em videos
+    _add_column_if_missing(conn, "videos", "transcript_text", "TEXT")
+    _add_column_if_missing(conn, "videos", "transcript_chunks_json", "TEXT")
+
+    # Phase R (2026-04-23): portfolio_snapshots + fundamentals_history + earnings_calendar
+    conn.executescript("""
+    CREATE TABLE IF NOT EXISTS portfolio_snapshots (
+        date          TEXT NOT NULL,
+        ticker        TEXT NOT NULL,
+        quantity      REAL NOT NULL,
+        price_close   REAL NOT NULL,
+        mv_native     REAL NOT NULL,
+        mv_brl        REAL NOT NULL,
+        fx_rate       REAL NOT NULL,
+        created_at    TEXT NOT NULL,
+        PRIMARY KEY (date, ticker)
+    );
+    CREATE INDEX IF NOT EXISTS idx_snap_date ON portfolio_snapshots(date);
+    CREATE INDEX IF NOT EXISTS idx_snap_ticker ON portfolio_snapshots(ticker);
+
+    CREATE TABLE IF NOT EXISTS fundamentals_history (
+        ticker         TEXT NOT NULL,
+        period_end     TEXT NOT NULL,
+        altman_z       REAL,
+        altman_zone    TEXT,
+        piotroski_f    INTEGER,
+        div_safety     REAL,
+        screen_score   REAL,
+        screen_passes  INTEGER,
+        pe             REAL,
+        pb             REAL,
+        dy             REAL,
+        roe            REAL,
+        source_event   TEXT,
+        recorded_at    TEXT NOT NULL,
+        PRIMARY KEY (ticker, period_end, recorded_at)
+    );
+    CREATE INDEX IF NOT EXISTS idx_fh_ticker ON fundamentals_history(ticker, recorded_at DESC);
+
+    CREATE TABLE IF NOT EXISTS verdict_history (
+        ticker          TEXT NOT NULL,
+        date            TEXT NOT NULL,
+        action          TEXT NOT NULL,
+        total_score     REAL NOT NULL,
+        confidence_pct  INTEGER NOT NULL,
+        quality_score   REAL,
+        valuation_score REAL,
+        momentum_score  REAL,
+        narrative_score REAL,
+        price_at_verdict REAL,
+        recorded_at     TEXT NOT NULL,
+        PRIMARY KEY (ticker, date)
+    );
+    CREATE INDEX IF NOT EXISTS idx_vh_date ON verdict_history(date);
+    CREATE INDEX IF NOT EXISTS idx_vh_action ON verdict_history(action);
+
+    -- Tax lots (FIFO-ready); cada row = 1 compra individual.
+    CREATE TABLE IF NOT EXISTS tax_lots (
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        ticker            TEXT NOT NULL,
+        acquisition_date  TEXT NOT NULL,
+        quantity          REAL NOT NULL,
+        unit_cost         REAL NOT NULL,
+        total_cost        REAL NOT NULL,
+        tax_term          TEXT,        -- Short | Long
+        days_held         INTEGER,
+        source            TEXT NOT NULL DEFAULT 'jpm_import',
+        imported_at       TEXT NOT NULL,
+        active            INTEGER NOT NULL DEFAULT 1,
+        sold_date         TEXT,
+        sold_price        REAL,
+        notes             TEXT
+    );
+    CREATE INDEX IF NOT EXISTS idx_lots_ticker ON tax_lots(ticker);
+    CREATE INDEX IF NOT EXISTS idx_lots_acq ON tax_lots(acquisition_date);
+
+    -- Cash balance por broker/moeda (JPM Chase Sweep, XP, etc.)
+    CREATE TABLE IF NOT EXISTS broker_cash (
+        broker      TEXT NOT NULL,
+        currency    TEXT NOT NULL,
+        amount      REAL NOT NULL,
+        as_of       TEXT NOT NULL,
+        PRIMARY KEY (broker, currency)
+    );
+    """)
+
+
 def init(db_path: Path) -> None:
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_path) as conn:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         if "br_investments" in db_path.name:
             conn.executemany(
                 """INSERT INTO series_meta

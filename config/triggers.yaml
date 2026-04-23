@@ -205,3 +205,20 @@ triggers:
     threshold_f: 3
     action_hint: REVIEW
     note: "Piotroski F ≤ 3 — deterioração cumulativa em rentabilidade/liquidez/eficiência vs ano anterior"
+
+  # === ACN buy-zone (2026-04-23 após Q2 derating -41% do cost basis) ===
+  - id: acn_buyzone_170
+    ticker: ACN
+    market: us
+    kind: price_below
+    threshold_price: 170.00
+    action_hint: REVIEW
+    note: "ACN ≤ $170: DY percentile perto de P75 (CHEAP); screen ainda falha P/B mas near-zone entry; validar Piotroski estabilizou ≥6 antes de adicionar"
+
+  - id: acn_buyzone_150
+    ticker: ACN
+    market: us
+    kind: price_below
+    threshold_price: 150.00
+    action_hint: ADD
+    note: "ACN ≤ $150: screen passa 4/5 (P/B ≤3, P/E, ROE, streak ✓); margem de segurança Graham se Piotroski ≥6 e Altman continua SAFE"

@@ -1,0 +1,73 @@
+Processing 4 video(s). dry_run=False skip_themes=False
+
+[1/4] DPYjtKsW7Ek
+2026-04-23 15:02:54,810 INFO youtube.router router_done tickers=8 themes=3
+2026-04-23 15:02:55,983 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:56,824 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:58,356 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:59,136 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:17,509 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:42,197 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:59,585 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:00,250 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:05,378 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:06,885 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:18,961 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O ramo de seguros prestamista da Caixa Seguridade continua em declínio, com uma 
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=A Caixa Seguridade está mostrando crescimento em prêmios habitacionais, reforçan
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=A sinistralidade da Caixa Seguridade caiu 4,8% em comparação com janeiro de 2025
+2026-04-23 15:04:18,979 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 3, 'themes_db': 'br_investments.db'}
+{"video_id": "DPYjtKsW7Ek", "status": "completed", "tickers": ["B3SA3", "BBAS3", "BBSE3", "CXSE3", "GS", "ITUB4", "KLBN4", "VALE3"], "themes": ["real_estate_cycle", "selic_cycle", "yield_curve"], "kept_insights": 9, "kept_themes": 3, "cleared": {"br_insights_deleted": 9, "us_insights_deleted": 0, "br_themes_deleted": 3, "us_themes_deleted": 0}, "persist": {"br_insights": 9, "us_insights": 0, "themes": 3, "themes_db": "br_investments.db"}, "elapsed_sec": 84.2}
+
+[2/4] eM1acX1fYb4
+2026-04-23 15:04:19,012 INFO youtube.router router_done tickers=8 themes=4
+2026-04-23 15:04:20,085 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:44,120 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:58,615 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:11,886 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:12,724 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:28,913 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:35,802 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:36,660 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:37,610 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:39,418 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:45,861 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:53,373 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:53,395 INFO youtube.persistence persist_done {'br_insights': 13, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+{"video_id": "eM1acX1fYb4", "status": "completed", "tickers": ["B3SA3", "IRBR3", "ITSA4", "KLBN4", "PETR4", "SAPR11", "SBSP3", "VALE3"], "themes": ["oil_cycle", "real_estate_cycle", "usdbrl", "yield_curve"], "kept_insights": 13, "kept_themes": 2, "cleared": {"br_insights_deleted": 15, "us_insights_deleted": 0, "br_themes_deleted": 3, "us_themes_deleted": 0}, "persist": {"br_insights": 13, "us_insights": 0, "themes": 2, "themes_db": "br_investments.db"}, "elapsed_sec": 94.4}
+
+[3/4] RAQn1Uok7d4
+2026-04-23 15:05:53,427 INFO youtube.router router_done tickers=5 themes=3
+2026-04-23 15:05:55,411 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:02,208 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:02,976 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:12,448 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:45,044 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:00,141 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:00,142 ERROR youtube.extractor ollama_error theme=selic_cycle err=Unterminated string starting at: line 8 column 25 (char 228)
+2026-04-23 15:48:01,271 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:02,548 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:02,574 INFO youtube.persistence persist_done {'br_insights': 7, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+{"video_id": "RAQn1Uok7d4", "status": "completed", "tickers": ["EGIE3", "ITUB4", "KLBN4", "TAEE11", "VALE3"], "themes": ["selic_cycle", "usdbrl", "yield_curve"], "kept_insights": 7, "kept_themes": 0, "cleared": {"br_insights_deleted": 11, "us_insights_deleted": 0, "br_themes_deleted": 0, "us_themes_deleted": 0}, "persist": {"br_insights": 7, "us_insights": 0, "themes": 0, "themes_db": "br_investments.db"}, "elapsed_sec": 2529.2}
+
+[4/4] Wf4pWQXguPg
+2026-04-23 15:48:02,602 INFO youtube.router router_done tickers=11 themes=3
+2026-04-23 15:48:08,284 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:32,376 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:33,709 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:02,518 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:22,048 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:37,487 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:51,547 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:00,198 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:01,208 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:02,221 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:02,923 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:04,069 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:05,732 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:16,145 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:16,188 INFO youtube.persistence persist_done {'br_insights': 14, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+{"video_id": "Wf4pWQXguPg", "status": "completed", "tickers": ["B3SA3", "BBDC4", "CPLE3", "EGIE3", "GS", "JPM", "PETR4", "PRIO3", "TAEE11", "VALE3", "XP"], "themes": ["oil_cycle", "usdbrl", "yield_curve"], "kept_insights": 14, "kept_themes": 2, "cleared": {"br_insights_deleted": 22, "us_insights_deleted": 3, "br_themes_deleted": 4, "us_themes_deleted": 0}, "persist": {"br_insights": 14, "us_insights": 0, "themes": 2, "themes_db": "br_investments.db"}, "elapsed_sec": 133.6}
+
+=== DONE 4 videos in 2841.4s ===
+Totals: insights_kept=43 themes_kept=7

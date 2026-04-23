@@ -1,0 +1,385 @@
+# aliases.yaml — mapping entre tickers/temas e variantes em linguagem natural.
+#
+# Crítico para o router em PT: falantes dizem "Itaúsa" não "ITSA4",
+# "Klabin" não "KLBN4", "a Coca" não "KO". Sem isto o router não apanha.
+#
+# Estrutura:
+#   tickers:
+#     <TICKER>:
+#       market: br|us
+#       names:    [variantes do nome da empresa — PT e EN]
+#       products: [produtos/marcas emblemáticas]
+#       people:   [CEO, CFO, fundador — se costumam ser citados]
+#   themes:
+#     <slug>:
+#       keywords: [palavras/expressões que sinalizam o tema]
+#
+# Regras de matching (implementadas em youtube/router.py):
+#  - case-insensitive, whole-word (regex \b)
+#  - acentos contam (Itaúsa ≠ Itausa → listar AMBAS)
+#  - match em qualquer variant da lista → hit no ticker/tema
+#
+# Primeira versão gerada a partir de config/universe.yaml.
+# Adicionar à mão apelidos/jargão de lives conforme forem aparecendo.
+
+tickers:
+  # === BR holdings ===
+  PRIO3:
+    market: br
+    names: ["PetroRio", "Prio", PRIO3, "PRIO 3"]
+    products: []
+    people: []
+  VALE3:
+    market: br
+    names: [Vale, "Vale do Rio Doce", VALE3, "VALE 3"]
+    products: ["minério de ferro"]
+    people: []
+  BBDC4:
+    market: br
+    names: [Bradesco, BBDC4, "BBDC 4", BBDC3, "BBDC 3"]
+    products: []
+    people: []
+  ITSA4:
+    market: br
+    names: [Itaúsa, Itausa, "a Itaúsa", "holding Itaúsa", Aegea, AGEA,
+            ITSA4, "ITSA 4", ITSA3, "ITSA 3", "Itaú SA", "Ita usa"]
+    products: []
+    people: ["Alfredo Setubal"]
+  XPML11:
+    market: br
+    names: ["XP Malls", "XPML"]
+    products: []
+    people: []
+  RBRX11:
+    market: br
+    names: ["RBR X", "RBRX"]
+    products: []
+    people: []
+  BTLG11:
+    market: br
+    names: ["BTG Logística", "BTLG", "BTG Log"]
+    products: []
+    people: []
+  VGIR11:
+    market: br
+    names: ["Valora CRI", "VGIR"]
+    products: []
+    people: []
+  PVBI11:
+    market: br
+    names: ["VBI Prime", "VBI Prime Properties", "PVBI"]
+    products: ["FL 4440", "Faria Lima 4440"]
+    people: []
+
+  # === BR watchlist — tickers prováveis em lives ===
+  PETR4:
+    market: br
+    names: [Petrobras, "Petrobrás", PETR4, "PETR 4", PETR3, "PETR 3"]
+    products: [pré-sal]
+    people: []
+  CPLE3:
+    market: br
+    names: [Copel, CPLE3, "CPLE 3", CPLE6, "CPLE 6"]
+    products: []
+    people: []
+  ALOS3:
+    market: br
+    names: [Allos]
+    products: []
+    people: []
+  B3SA3:
+    market: br
+    names: ["B3", "bolsa brasileira", B3SA3, "B3SA 3"]
+    products: []
+    people: []
+  ENGI11:
+    market: br
+    names: [Energisa]
+    products: []
+    people: []
+  ITUB4:
+    market: br
+    names: ["Itaú", "Itaú Unibanco", "Itau", ITUB4, "ITUB 4", ITUB3, "ITUB 3"]
+    products: []
+    people: []
+  EQTL3:
+    market: br
+    names: [Equatorial]
+    products: []
+    people: []
+  MULT3:
+    market: br
+    names: [Multiplan]
+    products: []
+    people: []
+  RENT3:
+    market: br
+    names: [Localiza]
+    products: []
+    people: []
+  SUZB3:
+    market: br
+    names: [Suzano, SUZB3, "SUZB 3"]
+    products: [celulose, "fibra curta", BHKP]
+    people: []
+  KLBN4:
+    market: br
+    names: [Klabin, KLBN4, "KLBN 4", KLBN11, "KLBN 11"]
+    products: [celulose, papel, "Puma II", cartão]
+    people: []
+  BBAS3:
+    market: br
+    names: ["Banco do Brasil", BBAS3, "BBAS 3"]
+    products: []
+    people: []
+  EGIE3:
+    market: br
+    names: ["Engie", "Engie Brasil", EGIE3, "EGIE 3"]
+    products: []
+    people: []
+  TIMS3:
+    market: br
+    names: [TIM, "TIM Brasil"]
+    products: []
+    people: []
+
+  # === BR tickers populares em lives YouTube (2026-04) ===
+  TAEE11:
+    market: br
+    names: [Taesa, "Taesa Transmissão", TAEE11, "TAEE 11"]
+    products: []
+    people: []
+  CXSE3:
+    market: br
+    names: ["Caixa Seguridade", CXSE3, "CXSE 3"]
+    products: []
+    people: []
+  SAPR11:
+    market: br
+    names: [Sanepar, SAPR11, "SAPR 11", SAPR4, "SAPR 4"]
+    products: []
+    people: []
+  VIVT3:
+    market: br
+    names: ["Telefônica Brasil", Telefônica, "Telefonica", Vivo, VIVT3, "VIVT 3"]
+    products: []
+    people: []
+  IRBR3:
+    market: br
+    names: ["IRB", "IRB Brasil", "IRB Re", IRBR3, "IRBR 3"]
+    products: []
+    people: []
+  ISAE4:
+    market: br
+    names: ["ISA CTEEP", "ISA Energia", CTEEP, ISAE4, "ISAE 4", ISAE3, "ISAE 3"]
+    products: []
+    people: []
+  SBSP3:
+    market: br
+    names: [Sabesp, SBSP3, "SBSP 3"]
+    products: []
+    people: []
+  CMIG4:
+    market: br
+    names: [Cemig, CMIG4, "CMIG 4", CMIG3, "CMIG 3"]
+    products: []
+    people: []
+  POMO4:
+    market: br
+    names: [Marcopolo, POMO4, "POMO 4", POMO3, "POMO 3"]
+    products: []
+    people: []
+  LEVE3:
+    market: br
+    names: ["Metal Leve", Mahle, LEVE3, "LEVE 3"]
+    products: []
+    people: []
+  EMBR3:
+    market: br
+    names: [Embraer, EMBR3, "EMBR 3"]
+    products: []
+    people: []
+  BBSE3:
+    market: br
+    names: ["BB Seguridade", BBSE3, "BBSE 3"]
+    products: []
+    people: []
+
+  # === US holdings ===
+  JNJ:
+    market: us
+    names: ["Johnson", "Johnson & Johnson", "J&J", JNJ]
+    products: []
+    people: []
+  JPM:
+    market: us
+    names: ["JPMorgan", "JP Morgan", "Chase", JPM]
+    products: []
+    people: ["Jamie Dimon"]
+  BLK:
+    market: us
+    names: [BlackRock, BLK]
+    products: [iShares]
+    people: ["Larry Fink"]
+  O:
+    market: us
+    names: ["Realty Income", "the monthly dividend company"]
+    products: []
+    people: []
+  TSM:
+    market: us
+    names: [TSMC, "Taiwan Semi", "Taiwan Semiconductor", TSM]
+    products: []
+    people: []
+  PG:
+    market: us
+    names: ["Procter", "Procter & Gamble", "P&G", PG]
+    products: []
+    people: []
+  TEN:
+    market: us
+    names: ["Tsakos", "Tsakos Energy", "Tsakos Energy Navigation"]
+    products: [tanker, tankers]
+    people: []
+  AAPL:
+    market: us
+    names: [Apple, AAPL]
+    products: [iPhone, iPad, Mac, "Apple Watch"]
+    people: ["Tim Cook"]
+  TSLA:
+    market: us
+    names: [Tesla, TSLA]
+    products: ["Model 3", "Model Y", "Cybertruck"]
+    people: ["Elon Musk", Elon]
+  GS:
+    market: us
+    names: ["Goldman", "Goldman Sachs", GS]
+    products: []
+    people: []
+  KO:
+    market: us
+    names: ["Coca-Cola", "Coca Cola", "Coke"]
+    products: []
+    people: []
+  "BRK-B":
+    market: us
+    names: [Berkshire, "Berkshire Hathaway", "BRK", "BRK.B"]
+    products: []
+    people: ["Warren Buffett", Buffett]
+  XP:
+    market: us
+    names: ["XP Inc", "XP Investimentos"]
+    products: []
+    people: []
+  GREK:
+    market: us
+    names: ["Global X Greece", "Greece ETF", GREK]
+    products: []
+    people: []
+  HD:
+    market: us
+    names: ["Home Depot", HD]
+    products: []
+    people: []
+  BN:
+    market: us
+    names: ["Brookfield", "Brookfield Corp"]
+    products: []
+    people: ["Bruce Flatt"]
+  PLD:
+    market: us
+    names: [Prologis, PLD]
+    products: []
+    people: []
+  PLTR:
+    market: us
+    names: [Palantir, PLTR]
+    products: [Gotham, Foundry, AIP]
+    people: ["Alex Karp", Karp]
+  TFC:
+    market: us
+    names: [Truist, "Truist Financial"]
+    products: []
+    people: []
+  NU:
+    market: us
+    names: ["Nubank", "Nu Holdings", Nu]
+    products: []
+    people: ["David Vélez"]
+  ACN:
+    market: us
+    names: [Accenture, ACN]
+    products: []
+    people: []
+  TTD:
+    market: us
+    names: ["Trade Desk", "The Trade Desk", TTD]
+    products: []
+    people: []
+  V:
+    market: us
+    names: [Visa]
+    products: []
+    people: []
+  MCD:
+    market: us
+    names: ["McDonald", "McDonald's", "Mc Donalds", MCD]
+    products: []
+    people: []
+  PEP:
+    market: us
+    names: [PepsiCo, Pepsi]
+    products: []
+    people: []
+  ABBV:
+    market: us
+    names: [AbbVie, ABBV]
+    products: [Humira, Skyrizi, Rinvoq]
+    people: []
+  MSFT:
+    market: us
+    names: [Microsoft, MSFT]
+    products: [Azure, Office, Copilot]
+    people: ["Satya Nadella"]
+
+themes:
+  # === Macro BR ===
+  selic_cycle:
+    keywords: [Selic, Copom, "corte de juros", "alta de juros", "ciclo de juros",
+               "taxa básica", "política monetária"]
+  ipca_inflacao:
+    keywords: [IPCA, inflação, "meta de inflação", "expectativa de inflação"]
+  fiscal_br:
+    keywords: ["arcabouço fiscal", "dívida pública", "déficit primário",
+               "risco fiscal", "LDO", "PEC"]
+  usdbrl:
+    keywords: ["dólar", "real", "câmbio", "USD/BRL", "PTAX", "desvalorização do real"]
+
+  # === Macro US ===
+  fed_path:
+    keywords: [Fed, FOMC, "Jerome Powell", "rate cuts", "rate hikes",
+               "federal funds", "Fed funds"]
+  us_inflation:
+    keywords: [CPI, "core CPI", PCE, "core PCE", "US inflation"]
+  yield_curve:
+    keywords: [yield, "10-year", "2-year", "yield curve", "inversion",
+               "Treasury", treasuries]
+  recession_us:
+    keywords: [recession, "soft landing", "hard landing", "labor market",
+               unemployment, jobless]
+
+  # === Sector / cycle ===
+  pulp_cycle:
+    keywords: [celulose, "fibra curta", "fibra longa", BHKP, "preço da celulose",
+               "pulp price", Suzano, Klabin, Arauco]
+  real_estate_cycle:
+    keywords: ["imóveis", "imobiliário", vacância, "cap rate", "laje corporativa",
+               "Faria Lima", "real estate"]
+  oil_cycle:
+    keywords: [petróleo, "preço do petróleo", Brent, WTI, OPEP, OPEC]
+  semis_cycle:
+    keywords: [semicondutores, "cycle semis", chips, AI, "AI capex", nanometer,
+               "3nm", "5nm", fab, fabs]
+  banking_br:
+    keywords: ["crédito em atraso", inadimplência, NIM, "margem financeira",
+               PDD, Basileia]
