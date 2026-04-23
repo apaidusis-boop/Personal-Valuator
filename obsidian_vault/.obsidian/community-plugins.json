@@ -1,3 +1,6 @@
 [
-  "dataview"
+  "dataview",
+  "obsidian-chartsview-plugin",
+  "note-metrics",
+  "obsidian-plotly"
 ]

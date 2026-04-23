@@ -1183,6 +1183,7 @@ def export_vault(
         "- [[TaxLots|📜 Tax Lots JPM]] — breakdown lote-a-lote + short/long term",
         "- [[Rebalance|🔄 Rebalance]] — drift vs target",
         "- [[Transactions|📜 Transacções]] — log entries/exits",
+        "- [[wiki/Index|📚 Wiki — Finance Map]] — methods, macro, history (31 notas)",
         "",
         "## Dashboards (Dataview)",
         "- [[dashboards/Portfolio|📊 Portfolio Dashboard]]",
