@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "5673a41357af37f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e23abac5e0f05e2",
+        "type": "tabs",
+        "dimension": 39.45221445221445,
+        "children": [
+          {
+            "id": "898a718c1739525d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dashboards/Portfolio.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portfolio"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f574e60a6fbc23a2",
+        "type": "tabs",
+        "dimension": 60.54778554778555,
+        "children": [
+          {
+            "id": "91505c9ed2fd4ea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tickers/ABBV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ABBV"
+            }
+          },
+          {
+            "id": "94dbe215ee7c3fe4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ab214c602932ecd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1a12bba774ba822",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8bea89a0e4ad264",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e8d8ca305c7abf7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5baf1a5f5d0207b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "db601c83fe6990cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7a58c30cd8f7f7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14bcb5407745a2d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dashboards/Portfolio.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Portfolio"
+            }
+          },
+          {
+            "id": "27ee478e133374b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dashboards/Portfolio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Portfolio"
+            }
+          },
+          {
+            "id": "48069d870648275f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "92b7146751b12127",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f3d305e3ea8be140",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dashboards/Portfolio.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Portfolio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "91505c9ed2fd4ea0",
+  "lastOpenFiles": [
+    "dashboards/Portfolio.md",
+    "TaxLots.md",
+    "Earnings Surprise.md",
+    "Rebalance.md",
+    "markets/US.md",
+    "tickers/KO.md",
+    "tickers/TTD.md",
+    "videos/VS-8e2uZJH0.md",
+    "My Portfolio.md",
+    "Transactions.md",
+    "Allocation.md",
+    "Holdings.md",
+    "Home.md",
+    "sectors/Banks.md",
+    "tickers/BBDC4.md",
+    "Untitled.base",
+    "2026-04-23.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "videos/fEp2ANi7dXk.md",
+    "tickers/ACN.md",
+    "tickers/ADP.md",
+    "markets/BR.md",
+    "dashboards/Briefing.md",
+    "tickers/EQTL3.md",
+    "tickers/ABBV.md"
+  ]
+}

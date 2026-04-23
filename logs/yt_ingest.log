@@ -1,0 +1,1331 @@
+2026-04-23 07:15:21,146 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-04-23 07:15:21,411 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6EBE270>
+2026-04-23 07:15:21,411 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x00000222C64A3070> server_hostname='huggingface.co' timeout=None
+2026-04-23 07:15:21,587 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6EF1A90>
+2026-04-23 07:15:21,587 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:21,588 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:21,588 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:21,588 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:21,588 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'103'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-4829ae154809a70655a41b4b;263ef6e5-b324-468b-b6ff-fb800db57511'), (b'RateLimit', b'"api";r=499;t=297'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'pXx_j0sslGOTLYsg2w5v1aMy6xGTL-rhaap7eO68RiXL9BBLe2kLvA==')])
+2026-04-23 07:15:21,809 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:21,809 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:21,810 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:21,810 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:21,810 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:21,810 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:21,978 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'763'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'ETag', b'W/"2fb-78NnryatfTkedUBOzbZpAmsMj8o"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-68a2ba8a206546482117a6b2;263ef6e5-b324-468b-b6ff-fb800db57511'), (b'RateLimit', b'"api";r=498;t=297'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'hroHPkNxuv0paC78QEKBCspOc1rbmOx0M5Ynx9tJO_dCpyPVf6BjRQ==')])
+2026-04-23 07:15:21,978 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 07:15:21,979 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:21,979 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:21,979 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:21,979 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:21,998 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:21,998 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-04-23 07:15:21,999 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-04-23 07:15:21,999 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:21,999 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-04-23 07:15:22,000 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,000 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-04-23 07:15:22,000 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,000 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,132 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6EF2D50>
+2026-04-23 07:15:22,132 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222E6060C30>
+2026-04-23 07:15:22,133 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222E6062060>
+2026-04-23 07:15:22,133 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6F34DD0>
+2026-04-23 07:15:22,133 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x00000222C64A3070> server_hostname='huggingface.co' timeout=10
+2026-04-23 07:15:22,133 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x00000222C64A3070> server_hostname='huggingface.co' timeout=10
+2026-04-23 07:15:22,133 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x00000222C64A3070> server_hostname='huggingface.co' timeout=10
+2026-04-23 07:15:22,133 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x00000222C64A3070> server_hostname='huggingface.co' timeout=10
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'139'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-4ba7ea29321bfcab1ff5364f;e9b08925-0d41-4b13-83c5-3ef98da506d5'), (b'RateLimit', b'"resolvers";r=2999;t=297'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'34OrxhtVUZq8-414cWblYU1r-zkMIzbBk6IqyBm7YXMQRpWcfAFVlQ==')])
+2026-04-23 07:15:22,148 INFO httpx HTTP Request: HEAD https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,148 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,149 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,149 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,149 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,149 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,276 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6F0DF20>
+2026-04-23 07:15:22,276 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,276 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,276 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,276 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,276 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222C6F0E140>
+2026-04-23 07:15:22,277 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222E6039D50>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,277 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,278 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000222E6039F50>
+2026-04-23 07:15:22,278 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,278 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,278 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,278 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,278 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,296 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'324'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json?%2Fdropbox-dash%2Ffaster-whisper-large-v3-turbo%2Fresolve%2F0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf%2Fconfig.json=&etag=%220351d1d6870005e865747b781b5d7c23ea0459cd%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-3030828438ebde671dcf93b2;8444b07e-4f1f-49ee-a976-69b3b81be75c'), (b'RateLimit', b'"resolvers";r=2998;t=297'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'config.json; filename="config.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"0351d1d6870005e865747b781b5d7c23ea0459cd"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'CIfL-PmIgBztaZEzo-yNA8nIoqWslZSQXcnkhdMZZxtFAv8vSD-qRA==')])
+2026-04-23 07:15:22,296 INFO httpx HTTP Request: HEAD https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,297 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,427 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'137'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/model.bin'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-55a7211f1ed99842278185d4;4a6dd79f-51ac-4cfe-8d97-cbecd24025cc'), (b'RateLimit', b'"resolvers";r=2999;t=273'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 2f77ee6d00910cc9164b3833771289c2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'WG1edWFE3GQJsWOVNx-gnPskHL1Q48XK_n4kgXJP743r9VTByKxIkA==')])
+2026-04-23 07:15:22,427 INFO httpx HTTP Request: HEAD https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/model.bin "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,428 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,430 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'142'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-6f7d11926db5637f7d5eb17d;e08472a2-6234-4502-a1f5-41d19ef3eea7'), (b'RateLimit', b'"resolvers";r=2999;t=135'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a830c4d835a3be700150fe894f9bffd4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'nxQqXPwk0RfruWp-j4X8EF6L17_LYN914m7Eo8PaNCUX9Qn_994qgA==')])
+2026-04-23 07:15:22,430 INFO httpx HTTP Request: HEAD https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,431 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,433 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'2263'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:34 GMT'), (b'ETag', b'"0351d1d6870005e865747b781b5d7c23ea0459cd"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4946-12754abb681b972016e8363e;d9c1558e-9b86-43cc-bc07-20746365bc62'), (b'RateLimit', b'"resolvers";r=2957;t=125'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'config.json; filename="config.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'-FGXEwwsL8tZSk9q2RYqtWIE7G81I1CFJxzSCpwVFrg6GZUkFOB1gQ=='), (b'Age', b'14570387')])
+2026-04-23 07:15:22,433 INFO httpx HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,433 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,433 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,433 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,433 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,435 DEBUG filelock Attempting to acquire lock 2348389494672 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0351d1d6870005e865747b781b5d7c23ea0459cd.lock
+2026-04-23 07:15:22,435 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'143'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-1df10d4625047cba5f27406f;85209116-11a2-4c5c-88d0-0daed6cedbc2'), (b'RateLimit', b'"resolvers";r=2999;t=259'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 6f6a74f12dc7de2c455092348b6c9f28.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'lMk30pr3v5lso7OEiXMcE_HIjEZp2ij6okgzMvs6YDQexBEaIbA40g==')])
+2026-04-23 07:15:22,435 DEBUG filelock Lock 2348389494672 acquired on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0351d1d6870005e865747b781b5d7c23ea0459cd.lock
+2026-04-23 07:15:22,436 INFO httpx HTTP Request: HEAD https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,436 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,437 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,439 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'152'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:21 GMT'), (b'Location', b'/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cd9-3b16ef4a7574e62954298b2a;0431b397-0068-42b2-9d98-f21ceace3840'), (b'RateLimit', b'"resolvers";r=2998;t=47'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 35f02b3211065bf08280b7b1b4bbd0ce.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'nWYopjIvxZPevrIl0ZL3xcUCRt0zRVg2ycxbs_xvLpuRNG3nTbHwOw==')])
+2026-04-23 07:15:22,439 INFO httpx HTTP Request: HEAD https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,440 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,573 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:37 GMT'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'config.json; filename="config.json";'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4949-536d0635589512543c9f7e56;bf1975a8-5ace-4b3b-8b4b-7fb823079f93'), (b'RateLimit', b'"resolvers";r=2909;t=35'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"0351d1d6870005e865747b781b5d7c23ea0459cd"'), (b'Vary', b'Origin,accept-encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 6f6a74f12dc7de2c455092348b6c9f28.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b't_SYGpccUE2LCX7zbEWjNsriHlEofsqUOUxk7io99QEyGutrLz5JAw=='), (b'Age', b'14570385')])
+2026-04-23 07:15:22,573 INFO httpx HTTP Request: GET https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,573 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,573 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,573 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,573 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,581 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 302, b'Found', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1388'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:22 GMT'), (b'Location', b'https://cas-bridge.xethub.hf.co/xet-bridge-us/6704ed1bd7e8a1ef378bf28d/b5de55e781fd93b7d472c8ca3f7d40d870a3be764f8bb1a9c4a0511c55f9ca5b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20260423%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260423T040941Z&X-Amz-Expires=3600&X-Amz-Signature=42b5d30e6be9284bfd44237b811ca0e9557812e398173889d2ba4ecd307a7b2d&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.bin%3B+filename%3D%22model.bin%22%3B&response-content-type=application%2Foctet-stream&x-amz-checksum-mode=ENABLED&x-id=GetObject&Expires=1776920981&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3NjkyMDk4MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NzA0ZWQxYmQ3ZThhMWVmMzc4YmYyOGQvYjVkZTU1ZTc4MWZkOTNiN2Q0NzJjOGNhM2Y3ZDQwZDg3MGEzYmU3NjRmOGJiMWE5YzRhMDUxMWM1NWY5Y2E1YioifV19&Signature=gbOCY1rBf8ejrV0Bz-RDa8neLh7OPiW4hh8Nn0pnKzyTujc7wbGUSmk1Cluma-8vCD%7ESu%7EuCNiVHOkeJu3hNszSrO2UYY8MrkUlAhdzpJ67bd%7Eio4UPaw7wR9PfXZX8bonozaB-EvUyWr20xj41Y9oWDAJ%7E9QShRPEgnAm%7E4Xy3f13ukpmZ4TcOv2XWGStt0FV6rsNjSgODG448voRz-g2O8Wbni9Jt6kXkYQ3SZa8q5WJcC5zjY50H15u3SlPgWRj-XQu3zH6z7uSXwqys%7E0%7E2GycOSeJdmVFWYhTLgukM10hjW%7EQh73exuGUILS5GUgVzpKZyDjEiNi3QILvLgSQ__&Key-Pair-Id=K2L8F4GPSG1IFC'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cda-1e4af42f2203c74664b36a1d;71b77c6f-e940-4089-947a-2681f528754c'), (b'RateLimit', b'"resolvers";r=2998;t=272'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'HIT'), (b'X-Linked-Size', b'1617884929'), (b'X-Linked-ETag', b'"e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da"'), (b'X-Xet-Hash', b'b5de55e781fd93b7d472c8ca3f7d40d870a3be764f8bb1a9c4a0511c55f9ca5b'), (b'Link', b'<https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/xet-read-token/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/b5de55e781fd93b7d472c8ca3f7d40d870a3be764f8bb1a9c4a0511c55f9ca5b>; rel="xet-reconstruction-info"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 2f77ee6d00910cc9164b3833771289c2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'h8y2-GZUNOkiDlrOdEztRS4Fi5xdO-INETueewGo7UFJwtXxjhiKOw==')])
+2026-04-23 07:15:22,581 INFO httpx HTTP Request: HEAD https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/model.bin "HTTP/1.1 302 Found"
+2026-04-23 07:15:22,581 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,581 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,582 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,582 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,582 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'330'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:22 GMT'), (b'Location', b'/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json?%2Fdropbox-dash%2Ffaster-whisper-large-v3-turbo%2Fresolve%2F0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf%2Ftokenizer.json=&etag=%2217456db595adc78a973f97d69d8cb50bc87c0b1c%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cda-632a67b461062d204badca81;54b8f0fb-3c88-48ca-badb-8647555d585f'), (b'RateLimit', b'"resolvers";r=2998;t=134'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-HF-Warning', b'unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'tokenizer.json; filename="tokenizer.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"17456db595adc78a973f97d69d8cb50bc87c0b1c"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a830c4d835a3be700150fe894f9bffd4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'doQTIeWok-3uEcKNY6GHNiGWKYy_9byWx49asrD1T4puXqjXX3V-gg==')])
+2026-04-23 07:15:22,582 INFO httpx HTTP Request: HEAD https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,582 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,582 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,583 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,583 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,583 WARNING huggingface_hub.utils._http Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-23 07:15:22,583 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,583 DEBUG filelock Attempting to acquire lock 2348911319056 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da.lock
+2026-04-23 07:15:22,583 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,584 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,584 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,584 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'332'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:22 GMT'), (b'Location', b'/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json?%2Fdropbox-dash%2Ffaster-whisper-large-v3-turbo%2Fresolve%2F0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf%2Fvocabulary.json=&etag=%220adcd01e7c237205d593b707e66dd5d7bc785d2d%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cda-52527926392c30530a272fb3;4c81a690-10b3-43f5-9f0d-39605aab91c0'), (b'RateLimit', b'"resolvers";r=2997;t=296'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'vocabulary.json; filename="vocabulary.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"0adcd01e7c237205d593b707e66dd5d7bc785d2d"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'D0KKfHl1_v7avCJSXKcCa0WwOpdyObsUBe8Eg7XTGFx_PDcdz-RC1Q==')])
+2026-04-23 07:15:22,584 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,584 INFO httpx HTTP Request: HEAD https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,584 DEBUG filelock Lock 2348911319056 acquired on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da.lock
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,585 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,587 DEBUG filelock Attempting to release lock 2348389494672 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0351d1d6870005e865747b781b5d7c23ea0459cd.lock
+2026-04-23 07:15:22,587 DEBUG filelock Lock 2348389494672 released on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0351d1d6870005e865747b781b5d7c23ea0459cd.lock
+2026-04-23 07:15:22,604 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'350'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:22 GMT'), (b'Location', b'/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json?%2Fdropbox-dash%2Ffaster-whisper-large-v3-turbo%2Fresolve%2F0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf%2Fpreprocessor_config.json=&etag=%22931c77a740890c46365c7ae0c9d350ba3cca908f%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cda-458a668443ba9f53687af1a0;b939b4df-d1d3-412f-b440-a9d33f628768'), (b'RateLimit', b'"resolvers";r=2997;t=46'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'preprocessor_config.json; filename="preprocessor_config.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"931c77a740890c46365c7ae0c9d350ba3cca908f"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 35f02b3211065bf08280b7b1b4bbd0ce.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'zAbl76q63wcFsJC3Kcs-Ne7_cVkbuFtluCRlfqzUfQ--s8iA_A0J-w==')])
+2026-04-23 07:15:22,604 INFO httpx HTTP Request: HEAD https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:15:22,604 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 send_request_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,605 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,615 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,615 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,615 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,615 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,615 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'2710337'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:34 GMT'), (b'ETag', b'"17456db595adc78a973f97d69d8cb50bc87c0b1c"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4946-3fdd7cd752da82923c873ee2;e939346c-83d7-4f4e-8fad-d8f7ae464432'), (b'RateLimit', b'"resolvers";r=2956;t=125'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'tokenizer.json; filename="tokenizer.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 2f77ee6d00910cc9164b3833771289c2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'8qAdkStIKjLYxxLTNHAagfHZsDnhWoWZxTNCFUBZ95GeixImvL1mOw=='), (b'Age', b'14570388')])
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1068114'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:34 GMT'), (b'ETag', b'"0adcd01e7c237205d593b707e66dd5d7bc785d2d"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4946-1b5b51ce4136a93d02cd3683;471530aa-2c44-4c69-92bd-f56241a3f357'), (b'RateLimit', b'"resolvers";r=2954;t=125'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'vocabulary.json; filename="vocabulary.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'MxK4qoXmPOSh7mKjkZoo_3BRXftoGupuKCYttD_S4Fh7_PuuGHAKoA=='), (b'Age', b'14570388')])
+2026-04-23 07:15:22,722 INFO httpx HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,722 INFO httpx HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,722 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,723 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,723 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,723 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,723 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,724 DEBUG filelock Attempting to acquire lock 2348911320336 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0adcd01e7c237205d593b707e66dd5d7bc785d2d.lock
+2026-04-23 07:15:22,724 DEBUG filelock Attempting to acquire lock 2348911303584 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\17456db595adc78a973f97d69d8cb50bc87c0b1c.lock
+2026-04-23 07:15:22,724 DEBUG filelock Lock 2348911320336 acquired on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0adcd01e7c237205d593b707e66dd5d7bc785d2d.lock
+2026-04-23 07:15:22,724 DEBUG filelock Lock 2348911303584 acquired on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\17456db595adc78a973f97d69d8cb50bc87c0b1c.lock
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,725 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,726 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,741 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'340'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:34 GMT'), (b'ETag', b'"931c77a740890c46365c7ae0c9d350ba3cca908f"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4946-1b2d61c57c0dda9b68dc41a3;7c016e83-8670-4679-b95d-9097d99e4b4d'), (b'RateLimit', b'"resolvers";r=2955;t=125'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'preprocessor_config.json; filename="preprocessor_config.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 35f02b3211065bf08280b7b1b4bbd0ce.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'xOhJ1LBttqAGpMNMb7852e1DQrnuPAkviFDPXeQkzqRPZcRd2FHWSA=='), (b'Age', b'14570388')])
+2026-04-23 07:15:22,742 INFO httpx HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,742 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'HEAD']>
+2026-04-23 07:15:22,742 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,742 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,742 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,742 DEBUG filelock Attempting to acquire lock 2348388704048 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\931c77a740890c46365c7ae0c9d350ba3cca908f.lock
+2026-04-23 07:15:22,743 DEBUG filelock Lock 2348388704048 acquired on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\931c77a740890c46365c7ae0c9d350ba3cca908f.lock
+2026-04-23 07:15:22,743 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,743 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-23 07:15:22,743 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,743 DEBUG httpcore.http11 send_request_body.complete
+2026-04-23 07:15:22,743 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-23 07:15:22,765 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'399'), (b'Connection', b'keep-alive'), (b'Date', b'Thu, 23 Apr 2026 04:15:22 GMT'), (b'ETag', b'W/"18f-NGqIUKKALMWykNUlJwfPV6Puj3c"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69e99cda-5b9d4be64771d75a30262fa3;e5fdee9a-e47c-4b60-8f6e-c94bcd3bbc11'), (b'RateLimit', b'"api";r=499;t=134'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Xet-Cas-Url', b'https://cas-server.xethub.hf.co'), (b'X-Xet-Token-Expiration', b'1776918622'), (b'X-Xet-Access-Token', b'eyJhbGciOiJIUzI1NiJ9.eyJyZXBvSWQiOiI2NzA0ZWQxYmQ3ZThhMWVmMzc4YmYyOGQiLCJ1c2VySWQiOiJwdWJsaWMiLCJhY2Nlc3MiOiJSRUFEIiwiaGZDZG5UaWVyIjoidW5hdXRoZW50aWNhdGVkIiwicmVwb19zdG9yYWdlX3R5cGUiOiJnaXQiLCJpYXQiOjE3NzY5MTc3MjIsImV4cCI6MTc3NjkxODYyMiwiaXNzIjoiaHR0cHM6Ly9odWdnaW5nZmFjZS5jbyJ9.v45EOYuDYuVzJ5zmXxJcQZFUJNojUnxUTZbRwXL9220'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a830c4d835a3be700150fe894f9bffd4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'vyHFogMOdIy4OGYGOfPYIXLjLLJ3Xz-uDgwFL51VZ2kXzDameZSriQ==')])
+2026-04-23 07:15:22,765 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/xet-read-token/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,765 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,765 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,765 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,765 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,861 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:37 GMT'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'vocabulary.json; filename="vocabulary.json";'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4949-60ee2a2d0bffbf300595f2d2;780d6685-7035-4bf2-b70a-866867f20988'), (b'RateLimit', b'"resolvers";r=2908;t=35'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"0adcd01e7c237205d593b707e66dd5d7bc785d2d"'), (b'Vary', b'Origin,accept-encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 422bc44e4c277c4908c02cee9cf0a588.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'qvLQrJE4mq4NAnKJWf-M08Qyu_I1yNamJ8YEuxunVNn_IoKxeHJsvA=='), (b'Age', b'14570385')])
+2026-04-23 07:15:22,861 INFO httpx HTTP Request: GET https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,862 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,862 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:37 GMT'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'tokenizer.json; filename="tokenizer.json";'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4949-67cde7f91e15d1c5635494fd;faf1d710-b8b1-4f84-ab3d-9dbe4b0912fe'), (b'RateLimit', b'"resolvers";r=2906;t=35'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"17456db595adc78a973f97d69d8cb50bc87c0b1c"'), (b'Vary', b'Origin,accept-encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 2f77ee6d00910cc9164b3833771289c2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'Aczz9hkOLN9iAka57J-XI1-3tYRia6lm8jYaL8brYFoICWThsysPwA=='), (b'Age', b'14570385')])
+2026-04-23 07:15:22,862 INFO httpx HTTP Request: GET https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,863 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,880 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'340'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 05 Nov 2025 12:55:37 GMT'), (b'ETag', b'"931c77a740890c46365c7ae0c9d350ba3cca908f"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-690b4949-49827ca446ea115d6a34a416;12d91117-5edc-46b8-b320-6517a50afd85'), (b'RateLimit', b'"resolvers";r=2907;t=35'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'preprocessor_config.json; filename="preprocessor_config.json";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 35f02b3211065bf08280b7b1b4bbd0ce.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'WGTeKkt3mmWMdgNTF5hTwmw43kgygQ096LuTxvb5_PqZSeKIvts6vg=='), (b'Age', b'14570385')])
+2026-04-23 07:15:22,880 INFO httpx HTTP Request: GET https://huggingface.co/api/resolve-cache/models/dropbox-dash/faster-whisper-large-v3-turbo/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-04-23 07:15:22,880 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-23 07:15:22,881 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:22,881 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:22,881 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:22,883 DEBUG filelock Attempting to release lock 2348388704048 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\931c77a740890c46365c7ae0c9d350ba3cca908f.lock
+2026-04-23 07:15:22,883 DEBUG filelock Lock 2348388704048 released on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\931c77a740890c46365c7ae0c9d350ba3cca908f.lock
+2026-04-23 07:15:23,373 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:23,373 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:23,373 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:23,374 DEBUG filelock Attempting to release lock 2348911320336 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0adcd01e7c237205d593b707e66dd5d7bc785d2d.lock
+2026-04-23 07:15:23,375 DEBUG filelock Lock 2348911320336 released on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\0adcd01e7c237205d593b707e66dd5d7bc785d2d.lock
+2026-04-23 07:15:23,586 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-23 07:15:23,586 DEBUG httpcore.http11 response_closed.started
+2026-04-23 07:15:23,586 DEBUG httpcore.http11 response_closed.complete
+2026-04-23 07:15:23,588 DEBUG filelock Attempting to release lock 2348911303584 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\17456db595adc78a973f97d69d8cb50bc87c0b1c.lock
+2026-04-23 07:15:23,588 DEBUG filelock Lock 2348911303584 released on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\17456db595adc78a973f97d69d8cb50bc87c0b1c.lock
+2026-04-23 07:25:47,975 DEBUG filelock Attempting to release lock 2348911319056 on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da.lock
+2026-04-23 07:25:47,975 DEBUG filelock Lock 2348911319056 released on C:\Users\paidu\.cache\huggingface\hub\.locks\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da.lock
+2026-04-23 07:25:49,345 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 07:25:51,150 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 07:25:52,470 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 07:25:52,471 DEBUG faster_whisper VAD filter kept the following audio segments: [00:00.000 -> 00:38.704], [00:44.560 -> 22:00.816], [22:00.944 -> 22:12.496]
+2026-04-23 07:25:52,914 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.started
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.complete
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.started
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.complete
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.started
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.complete
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.started
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.complete
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.started
+2026-04-23 07:25:52,924 DEBUG httpcore.connection close.complete
+2026-04-23 07:35:04,185 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:35:04,343 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 07:35:05,564 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 07:35:07,338 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 07:35:08,582 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 07:35:09,051 WARNING youtube.transcriber whisper_cuda_runtime_fail err=Library cublas64_12.dll is not found or cannot be loaded — falling back to CPU int8
+2026-04-23 07:35:09,223 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:35:09,404 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 07:35:12,865 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 07:35:14,053 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 07:35:17,322 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 07:39:26,473 INFO youtube.transcriber whisper_done device=cpu-int8 lang=pt duration=1340.5s chunks=1285 chars=24933
+2026-04-23 07:39:26,598 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 07:40:00,011 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:40:00,013 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 07:40:46,981 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:40:47,143 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 07:40:48,409 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 07:40:50,203 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 07:40:51,450 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 07:40:51,901 WARNING youtube.transcriber whisper_cuda_runtime_fail err=Library cublas64_12.dll is not found or cannot be loaded — falling back to CPU int8
+2026-04-23 07:40:52,061 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 07:40:52,218 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 07:40:55,743 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 07:40:56,961 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 07:41:00,470 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 07:45:10,051 INFO youtube.transcriber whisper_done device=cpu-int8 lang=pt duration=1340.5s chunks=1289 chars=25029
+2026-04-23 07:45:10,170 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 07:45:14,052 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:45:34,193 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:45:34,194 WARNING youtube.extractor extractor_parse_fail err=1 validation error for ExtractorOutput
+insights.3.evidence_quote
+  String should have at most 300 characters [type=string_too_long, input_value='Ela fez questão de dize...s e controles internos.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long raw={'insights': [{'ticker': 'ITSA4', 'kind': 'risk', 'claim': 'A revisão contábil da AGEA pode impactar negativamente a confiança do mercado na Itaúsa.', 'evidence_quote': 'O maior problema parece estar na narrativa de crescimento. A AGEA era vista como uma aposta estratégica com potencial de captura de valor inclusive via IPO. Só que com a crise contábil bagunçou esse cronograma.', 'ts_seconds': None, 'confidence': 0.8}, {'ticker': 'ITSA4', 'kind': 'valuation', 'claim': 'A Itaúsa tem um histórico 
+2026-04-23 07:45:34,195 INFO youtube.extractor extractor_retry_fallback ticker=ITSA4
+2026-04-23 07:45:53,617 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:16,522 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:39,792 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:40,536 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:41,605 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:43,216 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:48,659 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:54,135 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 07:46:54,155 INFO youtube.persistence persist_done {'br_insights': 10, 'us_insights': 0, 'themes': 1, 'themes_db': 'br_investments.db'}
+2026-04-23 07:46:54,157 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 09:30:21,607 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 09:30:21,764 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 09:30:23,180 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 09:30:25,147 INFO faster_whisper Processing audio with duration 22:59.405
+2026-04-23 09:30:26,466 INFO faster_whisper VAD filter removed 00:04.349 of audio
+2026-04-23 09:30:32,651 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 09:30:56,187 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1379.4s chunks=449 chars=25394
+2026-04-23 09:30:56,245 INFO youtube.router router_done tickers=1 themes=6
+2026-04-23 09:31:08,130 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:31:23,574 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:31:40,824 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:31:54,165 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:32:11,015 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:32:16,861 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:32:22,272 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:32:22,296 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 14, 'themes_db': 'br_investments.db'}
+2026-04-23 09:32:22,298 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\7ltdn-65JDw.webm
+2026-04-23 09:33:30,366 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 09:33:30,518 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 09:33:31,851 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 09:33:33,730 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 09:33:35,014 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 09:33:35,769 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 09:34:05,720 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1340.5s chunks=920 chars=25233
+2026-04-23 09:34:05,779 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 09:34:06,785 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:34:32,045 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:34:46,738 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:04,295 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:05,066 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:05,932 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:07,623 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:13,622 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:19,958 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:35:19,970 INFO youtube.persistence persist_done {'br_insights': 10, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 09:35:19,971 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 09:38:05,451 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 09:38:05,606 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 09:38:06,920 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 09:38:08,788 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 09:38:10,062 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 09:38:10,662 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 09:38:40,259 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1340.5s chunks=920 chars=25233
+2026-04-23 09:38:40,318 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 09:38:41,275 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:02,332 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:16,593 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:29,867 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:30,673 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:31,513 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:33,205 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:39,087 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:45,362 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:39:45,379 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A Petrobras reconhece que as tensões geopolíticas podem impactar negativamente s
+2026-04-23 09:39:45,379 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A Petrobras confirmou a distribuição de dividendos e JCP totalizando R$41,2 bilh
+2026-04-23 09:39:45,380 INFO youtube.validator drop_cross_contam ticker=B3SA3 claim=A B3 enfrenta riscos geopolíticos que podem afetar o preço do petróleo e a previ
+2026-04-23 09:39:45,380 INFO youtube.validator drop_cross_contam ticker=B3SA3 claim=A B3 confirmou um dividendo de R$8 bilhões e reforçou a distribuição total de R$
+2026-04-23 09:39:45,388 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 09:39:45,389 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 09:48:48,356 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 09:48:48,510 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 09:48:49,771 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 09:48:52,665 INFO faster_whisper Processing audio with duration 32:52.071
+2026-04-23 09:48:54,459 INFO faster_whisper VAD filter removed 00:04.215 of audio
+2026-04-23 09:48:55,379 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 09:49:36,603 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1972.1s chunks=1436 chars=36718
+2026-04-23 09:49:36,681 INFO youtube.router router_done tickers=5 themes=6
+2026-04-23 09:49:56,265 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:49:57,080 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:50:10,560 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:50:11,685 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:50:21,504 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:50:37,594 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:50:54,456 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:03,350 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:09,268 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:10,069 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:23,058 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:23,058 WARNING youtube.extractor extractor_parse_fail err=15 validation errors for ExtractorOutput
+themes.0.summary
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...ra a economia mundial.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...ra a economia mundial.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...ra a economia mundial.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'theme': 'Inflação e J...idores e investidores.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'theme': 'Inflação e J...idores e investidores.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'theme': 'Inflação e J...idores e investidores.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'theme': 'Oportunidades ...do petróleo elevados.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'theme': 'Oportunidades ...do petróleo elevados.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'theme': 'Oportunidades ...do petróleo elevados.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...preços dos alimentos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...preços dos alimentos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'theme': 'Impacto da Gue...preços dos alimentos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'theme': 'Estratégias d...s de crise econômica.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'theme': 'Estratégias d...s de crise econômica.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'theme': 'Estratégias d...s de crise econômica.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'theme': 'Impacto da Guerra nos Preços do Petróleo', 'description': 'Este tema explora como a guerra global afeta os preços do petróleo e as consequências para a economia mundial.'}, {'theme': 'Inflação e Juros Altos por Mais Tempo', 'description': 'Este tema aborda o impacto da inflação e juros altos em longo prazo na economia brasileira, incluindo os desafios para consumidores e investidores.'}, {'theme': 'Oportunidades de Investimento em Petróleo', 'description': 'Este tema explo
+2026-04-23 09:51:31,656 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:51:31,656 ERROR youtube.extractor fallback_theme_error theme=oil_cycle err='str' object has no attribute 'get'
+2026-04-23 09:51:31,673 INFO youtube.validator drop_cross_contam ticker=PRIO3 claim=A PRIO3 beneficia-se do preço alto do barril de petróleo, gerando mais caixa.
+2026-04-23 09:51:31,674 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=O retorno de caixa da Petrobras depende do preço do barril e pode diminuir se o 
+2026-04-23 09:51:31,682 INFO youtube.persistence persist_done {'br_insights': 5, 'us_insights': 0, 'themes': 8, 'themes_db': 'br_investments.db'}
+2026-04-23 09:51:31,684 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\wBohSlq8p6w.webm
+2026-04-23 09:51:53,885 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 09:51:54,051 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 09:51:55,360 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 09:51:58,865 INFO faster_whisper Processing audio with duration 42:49.404
+2026-04-23 09:52:01,397 INFO faster_whisper VAD filter removed 00:04.492 of audio
+2026-04-23 09:52:02,503 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 09:53:03,944 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=2569.4s chunks=2212 chars=46425
+2026-04-23 09:53:04,028 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 09:53:09,430 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:53:18,935 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:53:34,436 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:53:53,770 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:53:58,708 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:54:16,216 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:54:33,829 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:54:48,529 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:54:56,619 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 09:54:56,625 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=Empresas públicas como a Petrobras têm problemas financeiros que são pagos pelos
+2026-04-23 09:54:56,626 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=O Itaú Unibanco tem uma posição de poder significativa na recuperação judicial d
+2026-04-23 09:54:56,626 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Raizen enfrenta riscos significativos devido à alta dívida e ao aumento da tax
+2026-04-23 09:54:56,627 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Raizen investiu em várias iniciativas que não geraram o retorno esperado, incl
+2026-04-23 09:54:56,627 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Raizen enfrenta concorrência do etanol de milho, que é mais barato e ameaça su
+2026-04-23 09:54:56,634 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 10, 'themes_db': 'br_investments.db'}
+2026-04-23 09:54:56,637 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\Nyms4ooHFYg.webm
+2026-04-23 10:04:10,192 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:04:10,349 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:04:11,557 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:04:13,279 INFO faster_whisper Processing audio with duration 19:38.343
+2026-04-23 10:04:14,360 INFO faster_whisper VAD filter removed 00:04.311 of audio
+2026-04-23 10:04:14,901 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:04:35,931 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1178.3s chunks=509 chars=23278
+2026-04-23 10:04:35,990 INFO youtube.router router_done tickers=5 themes=7
+2026-04-23 10:04:40,653 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:04:46,123 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:04:54,718 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:04:55,549 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:02,013 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:09,190 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:15,853 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:20,355 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:38,339 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:49,726 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:05:55,097 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:06:06,019 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:06:06,023 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A alta do real frente ao dólar favorece a Klabin, uma vez que a empresa é export
+2026-04-23 10:06:06,023 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Klabin pode enfrentar riscos devido à instabilidade geopolítica e econômica gl
+2026-04-23 10:06:06,031 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 1, 'themes': 11, 'themes_db': 'br_investments.db'}
+2026-04-23 10:06:06,033 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\dgqAHfvcPYs.webm
+2026-04-23 10:06:18,819 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:06:18,972 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:06:20,381 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:06:22,313 INFO faster_whisper Processing audio with duration 20:38.483
+2026-04-23 10:06:23,533 INFO faster_whisper VAD filter removed 00:04.291 of audio
+2026-04-23 10:06:24,149 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:06:46,335 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1238.5s chunks=450 chars=23764
+2026-04-23 10:06:46,411 INFO youtube.router router_done tickers=3 themes=5
+2026-04-23 10:06:59,121 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:00,449 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:08,969 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:15,991 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:23,071 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:30,841 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:40,986 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:56,777 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:07:56,781 INFO youtube.validator drop_cross_contam ticker=PRIO3 claim=A guerra entre Estados Unidos, Israel e Irã está beneficiando a Prio3 devido ao 
+2026-04-23 10:07:56,794 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 2, 'themes': 7, 'themes_db': 'br_investments.db'}
+2026-04-23 10:07:56,796 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\7EBNjOuA-mI.webm
+2026-04-23 10:08:09,796 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:08:09,950 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:08:11,287 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:08:13,149 INFO faster_whisper Processing audio with duration 20:24.319
+2026-04-23 10:08:14,312 INFO faster_whisper VAD filter removed 00:04.271 of audio
+2026-04-23 10:08:14,971 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:08:37,880 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1224.3s chunks=491 chars=24452
+2026-04-23 10:08:37,939 INFO youtube.router router_done tickers=2 themes=7
+2026-04-23 10:08:43,627 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:08:45,482 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:00,580 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:11,464 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:26,253 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:32,600 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:33,373 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:39,206 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:44,874 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:09:44,885 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 0, 'themes': 11, 'themes_db': 'br_investments.db'}
+2026-04-23 10:09:44,887 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\HEFngcQ3mSA.webm
+2026-04-23 10:09:56,584 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:09:56,738 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:09:58,015 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:09:59,373 INFO faster_whisper Processing audio with duration 15:10.071
+2026-04-23 10:10:00,276 INFO faster_whisper VAD filter removed 00:04.231 of audio
+2026-04-23 10:10:00,749 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:10:16,569 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=910.1s chunks=303 chars=17227
+2026-04-23 10:10:16,637 INFO youtube.router router_done tickers=3 themes=5
+2026-04-23 10:10:22,454 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:10:23,264 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:10:40,131 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:10:46,120 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:10:52,238 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:10:57,274 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:11:05,329 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:11:21,697 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:11:21,708 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 7, 'themes_db': 'br_investments.db'}
+2026-04-23 10:11:21,709 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\qEhSi9EKs2Y.webm
+2026-04-23 10:11:33,410 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:11:33,566 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:11:34,847 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:11:36,616 INFO faster_whisper Processing audio with duration 18:08.610
+2026-04-23 10:11:37,650 INFO faster_whisper VAD filter removed 00:04.274 of audio
+2026-04-23 10:11:38,180 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:11:57,989 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1088.6s chunks=392 chars=22125
+2026-04-23 10:11:58,050 INFO youtube.router router_done tickers=3 themes=6
+2026-04-23 10:12:04,082 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:09,455 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:10,905 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:26,340 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:32,896 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:46,121 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:47,167 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:12:53,298 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:13:07,332 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:13:07,335 INFO youtube.validator drop_cross_contam ticker=VALE3 claim=As grandes empresas, como a Vale, estão fugindo dos bancos e buscando financiame
+2026-04-23 10:13:07,349 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 0, 'themes': 10, 'themes_db': 'br_investments.db'}
+2026-04-23 10:13:07,351 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\fEp2ANi7dXk.webm
+2026-04-23 10:19:56,837 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:19:56,992 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:19:58,165 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:19:59,784 INFO faster_whisper Processing audio with duration 20:16.435
+2026-04-23 10:20:00,910 INFO faster_whisper VAD filter removed 00:13.763 of audio
+2026-04-23 10:20:01,456 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:20:20,410 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1216.4s chunks=417 chars=21945
+2026-04-23 10:20:20,465 INFO youtube.router router_done tickers=10 themes=3
+2026-04-23 10:20:29,136 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:20:57,398 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:20:58,742 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:21:21,160 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:21:41,307 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:21:55,686 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:09,837 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:15,845 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:20,113 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:23,436 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:24,657 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:26,351 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:37,346 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:22:37,351 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A Petrobras tem um dividend yield estimado de 6,5% para 2026, acima dos pares em
+2026-04-23 10:22:37,351 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A Petrobras tem um PVP que mostra que ela está 50% acima do valor patrimonial.
+2026-04-23 10:22:37,352 INFO youtube.validator drop_cross_contam ticker=CPLE3 claim=A Copel anunciou R$ 700 milhões em dividendos sob a forma de JCP, pagando R$ 0,2
+2026-04-23 10:22:37,353 INFO youtube.validator drop_cross_contam ticker=CPLE3 claim=A Copel tem múltiplos elevados (P/L e P/VP) devido à precificação do mercado par
+2026-04-23 10:22:37,353 INFO youtube.validator drop_cross_contam ticker=B3SA3 claim=A B3 registrou um volume de negociações recorde em março, com um aumento de 48,3
+2026-04-23 10:22:37,353 INFO youtube.validator drop_cross_contam ticker=B3SA3 claim=A B3 está negociando com múltiplos esticados, mas os analistas reconhecem que os
+2026-04-23 10:22:37,353 INFO youtube.validator drop_cross_contam ticker=B3SA3 claim=A B3 tem um monopólio do mercado e está mostrando forte crescimento em várias li
+2026-04-23 10:22:37,358 INFO youtube.validator drop_cross_contam ticker=EGIE3 claim=A repactuação reduziu o saldo contábil das operações de R$4,44 bilhões para R$2,
+2026-04-23 10:22:37,363 INFO youtube.validator drop_cross_contam ticker=JPM claim=O JP Morgan reconheceu que os números da B3 foram muito fortes e que o consenso 
+2026-04-23 10:22:37,369 INFO youtube.persistence persist_done {'br_insights': 8, 'us_insights': 2, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 10:22:37,371 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\Wf4pWQXguPg.webm
+2026-04-23 10:22:49,807 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:22:49,959 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:22:51,306 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:22:53,048 INFO faster_whisper Processing audio with duration 21:34.293
+2026-04-23 10:22:54,253 INFO faster_whisper VAD filter removed 00:13.989 of audio
+2026-04-23 10:22:54,977 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:23:24,096 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1294.3s chunks=827 chars=22830
+2026-04-23 10:23:36,620 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:23:36,786 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:23:37,949 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:23:39,638 INFO faster_whisper Processing audio with duration 20:53.390
+2026-04-23 10:23:40,819 INFO faster_whisper VAD filter removed 00:14.206 of audio
+2026-04-23 10:23:41,387 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:24:05,826 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1253.4s chunks=726 chars=21451
+2026-04-23 10:24:05,899 INFO youtube.router router_done tickers=4 themes=3
+2026-04-23 10:24:30,924 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:24:31,673 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:24:42,836 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:24:57,116 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:24:58,457 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:24:59,203 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:25:20,406 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:25:20,410 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Bradesco espera um crescimento da carteira de crédito expandida entre 8,5% a 1
+2026-04-23 10:25:20,410 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Bradesco está sendo negligenciado pelo mercado, mas pode ser um dos bancos mai
+2026-04-23 10:25:20,410 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Bradesco pagou dividendos de R$14,5 bilhões em 2025, um aumento significativo 
+2026-04-23 10:25:20,411 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O BBAS3 é um dos bancos mais baratos do mercado brasileiro, avaliado entre 10 e 
+2026-04-23 10:25:20,411 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O BBAS3 paga dividendos mensais em forma de JCP, ajustando a taxa para compensar
+2026-04-23 10:25:20,424 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 10:25:20,425 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\yS2rb3Ksu18.webm
+2026-04-23 10:25:32,355 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:25:32,512 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:25:33,785 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:25:35,600 INFO faster_whisper Processing audio with duration 21:31.494
+2026-04-23 10:25:36,835 INFO faster_whisper VAD filter removed 00:13.974 of audio
+2026-04-23 10:25:37,422 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:26:03,126 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1291.5s chunks=580 chars=23656
+2026-04-23 10:26:15,037 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:26:15,191 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:26:16,374 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:26:17,926 INFO faster_whisper Processing audio with duration 18:38.586
+2026-04-23 10:26:18,969 INFO faster_whisper VAD filter removed 00:14.314 of audio
+2026-04-23 10:26:19,486 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:26:43,688 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1118.6s chunks=728 chars=20466
+2026-04-23 10:26:43,759 INFO youtube.router router_done tickers=4 themes=4
+2026-04-23 10:26:45,097 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:14,088 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:18,474 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:22,766 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:27,903 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:28,627 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:29,976 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:48,002 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:27:48,006 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Klabin reduziu significativamente o CAPEX em 2025, de R$9,7 bilhões para R$2,8
+2026-04-23 10:27:48,006 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Klabin tem uma alavancagem líquida de apenas 3,3 vezes e um prazo médio de dív
+2026-04-23 10:27:48,006 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A Klabin reduziu a alavancagem e aumentou o fluxo de caixa operacional, com expe
+2026-04-23 10:27:48,018 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 1, 'themes': 4, 'themes_db': 'br_investments.db'}
+2026-04-23 10:27:48,019 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\UZHTffhDF8Y.webm
+2026-04-23 10:28:00,364 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 10:28:00,518 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 10:28:01,772 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 10:28:03,677 INFO faster_whisper Processing audio with duration 22:48.410
+2026-04-23 10:28:04,959 INFO faster_whisper VAD filter removed 00:08.074 of audio
+2026-04-23 10:28:05,560 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 10:28:27,814 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1368.4s chunks=434 chars=24240
+2026-04-23 10:28:27,873 INFO youtube.router router_done tickers=4 themes=1
+2026-04-23 10:28:29,440 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:28:30,353 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:29:05,777 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:29:30,051 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:29:31,770 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 10:29:31,774 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=A Itaúsa aprovou um pagamento de R$1,3 bilhão em dividendos em forma de JCP.
+2026-04-23 10:29:31,774 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=A Itaúsa está sendo precificada abaixo do valor real das suas participações, com
+2026-04-23 10:29:31,774 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=O Bradesco BBI recomenda a compra das ações ITSA 4 com um preço-alvo de R$15,40 
+2026-04-23 10:29:31,774 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=O IPO da AGEA pode ajudar a reavaliar o valor justo da Itaúsa, potencialmente au
+2026-04-23 10:29:31,780 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 10:29:31,782 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\9NoUlvsLR2M.webm
+2026-04-23 14:50:36,031 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:50:36,190 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:50:37,568 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:50:39,458 INFO faster_whisper Processing audio with duration 22:48.277
+2026-04-23 14:50:40,944 INFO faster_whisper VAD filter removed 00:13.957 of audio
+2026-04-23 14:50:41,561 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:51:13,500 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1368.3s chunks=1030 chars=24971
+2026-04-23 14:51:13,561 INFO youtube.router router_done tickers=7 themes=3
+2026-04-23 14:51:22,214 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:51:29,195 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:51:30,713 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:51:46,462 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:05,341 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:24,003 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:24,689 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:30,686 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:32,119 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:44,220 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:52:44,226 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A contratação da Itaú Corretora como formadora de mercado para as ações CX e C3 
+2026-04-23 14:52:44,226 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=Apesar do crescimento em diversas linhas de negócio, o investidor ainda precisa 
+2026-04-23 14:52:44,235 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 3, 'themes_db': 'br_investments.db'}
+2026-04-23 14:52:44,237 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\DPYjtKsW7Ek.webm
+2026-04-23 14:52:58,162 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:52:58,316 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:52:59,605 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:53:01,492 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 14:53:02,921 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 14:53:03,418 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:53:34,633 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1340.5s chunks=920 chars=25233
+2026-04-23 14:53:34,706 INFO youtube.router router_done tickers=8 themes=4
+2026-04-23 14:53:35,733 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:53:56,251 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:11,539 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:27,789 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:28,619 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:44,403 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:50,970 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:51,728 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:52,575 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:54:54,243 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:55:00,128 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:55:05,049 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:55:05,070 INFO youtube.persistence persist_done {'br_insights': 11, 'us_insights': 0, 'themes': 1, 'themes_db': 'br_investments.db'}
+2026-04-23 14:55:05,071 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+2026-04-23 14:55:16,519 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:55:16,730 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:55:17,893 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:55:19,774 INFO faster_whisper Processing audio with duration 23:05.488
+2026-04-23 14:55:21,035 INFO faster_whisper VAD filter removed 00:14.176 of audio
+2026-04-23 14:55:21,587 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:55:50,938 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1385.5s chunks=891 chars=25302
+2026-04-23 14:55:51,026 INFO youtube.router router_done tickers=5 themes=3
+2026-04-23 14:55:52,772 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:55:59,566 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:56:15,086 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:56:28,060 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:56:58,656 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:57:07,244 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:57:08,288 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:57:09,571 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:57:09,609 INFO youtube.persistence persist_done {'br_insights': 11, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 14:57:09,611 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\RAQn1Uok7d4.webm
+2026-04-23 14:57:20,220 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:57:20,377 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:57:21,702 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:57:23,330 INFO faster_whisper Processing audio with duration 20:16.435
+2026-04-23 14:57:24,423 INFO faster_whisper VAD filter removed 00:13.763 of audio
+2026-04-23 14:57:24,838 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:57:45,511 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1216.4s chunks=417 chars=21945
+2026-04-23 14:57:45,576 INFO youtube.router router_done tickers=11 themes=3
+2026-04-23 14:57:51,181 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:58:15,415 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:58:16,849 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:58:34,348 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:58:48,097 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:08,966 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:25,333 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:37,199 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:42,635 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:46,834 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:50,163 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:51,323 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 14:59:53,011 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:00:03,649 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:00:03,688 INFO youtube.persistence persist_done {'br_insights': 14, 'us_insights': 1, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 15:00:03,690 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\Wf4pWQXguPg.webm
+2026-04-23 15:00:05,784 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:00:05,970 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:00:07,134 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:00:08,913 INFO faster_whisper Processing audio with duration 21:34.293
+2026-04-23 15:00:10,102 INFO faster_whisper VAD filter removed 00:13.989 of audio
+2026-04-23 15:00:10,551 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:00:38,762 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1294.3s chunks=827 chars=22830
+2026-04-23 15:02:20,899 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:02:21,054 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:02:22,268 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:02:24,071 INFO faster_whisper Processing audio with duration 21:34.293
+2026-04-23 15:02:25,318 INFO faster_whisper VAD filter removed 00:13.989 of audio
+2026-04-23 15:02:25,959 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:02:54,810 INFO youtube.router router_done tickers=8 themes=3
+2026-04-23 15:02:55,983 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:56,458 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1294.3s chunks=846 chars=22868
+2026-04-23 15:02:56,824 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:58,356 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:02:59,136 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:17,509 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:42,197 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:03:59,585 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:00,250 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:05,378 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:06,885 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:18,961 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O ramo de seguros prestamista da Caixa Seguridade continua em declínio, com uma 
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=A Caixa Seguridade está mostrando crescimento em prêmios habitacionais, reforçan
+2026-04-23 15:04:18,966 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=A sinistralidade da Caixa Seguridade caiu 4,8% em comparação com janeiro de 2025
+2026-04-23 15:04:18,979 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 3, 'themes_db': 'br_investments.db'}
+2026-04-23 15:04:19,012 INFO youtube.router router_done tickers=8 themes=4
+2026-04-23 15:04:20,085 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:44,120 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:04:58,615 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:11,886 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:12,724 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:28,913 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:35,802 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:36,660 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:37,610 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:39,418 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:45,861 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:53,373 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:05:53,395 INFO youtube.persistence persist_done {'br_insights': 13, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 15:05:53,427 INFO youtube.router router_done tickers=5 themes=3
+2026-04-23 15:05:55,411 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:02,208 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:02,976 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:12,448 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:06:45,044 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:00,141 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:00,142 ERROR youtube.extractor ollama_error theme=selic_cycle err=Unterminated string starting at: line 8 column 25 (char 228)
+2026-04-23 15:48:01,271 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:02,548 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:02,574 INFO youtube.persistence persist_done {'br_insights': 7, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 15:48:02,602 INFO youtube.router router_done tickers=11 themes=3
+2026-04-23 15:48:08,284 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:32,376 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:48:33,709 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:02,518 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:22,048 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:37,487 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:49:51,547 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:00,198 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:01,208 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:02,221 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:02,923 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:04,069 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:05,732 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:16,145 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:50:16,188 INFO youtube.persistence persist_done {'br_insights': 14, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 15:51:29,732 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:51:29,883 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:51:31,179 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:51:32,915 INFO faster_whisper Processing audio with duration 20:53.390
+2026-04-23 15:51:34,120 INFO faster_whisper VAD filter removed 00:14.206 of audio
+2026-04-23 15:51:34,838 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:51:59,976 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1253.4s chunks=726 chars=21451
+2026-04-23 15:52:00,063 INFO youtube.router router_done tickers=4 themes=3
+2026-04-23 15:52:21,562 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:22,321 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:28,861 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:42,621 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:43,936 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:44,670 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:58,138 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:52:58,146 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O Bradesco é um dos bancos mais baratos do mercado brasileiro, avaliado entre 10
+2026-04-23 15:52:58,146 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O Bradesco paga dividendos mensais em forma de JCP e ajustou a taxa para compens
+2026-04-23 15:52:58,146 INFO youtube.validator drop_cross_contam ticker=BBAS3 claim=O Bradesco oferece oportunidades para dividendos sintéticos, como visto recentem
+2026-04-23 15:52:58,156 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 3, 'themes_db': 'br_investments.db'}
+2026-04-23 15:52:58,157 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\yS2rb3Ksu18.webm
+2026-04-23 15:53:08,709 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:53:08,875 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:53:10,094 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:53:11,599 INFO faster_whisper Processing audio with duration 18:38.586
+2026-04-23 15:53:12,600 INFO faster_whisper VAD filter removed 00:14.314 of audio
+2026-04-23 15:53:13,042 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:53:36,440 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1118.6s chunks=728 chars=20466
+2026-04-23 15:53:36,515 INFO youtube.router router_done tickers=5 themes=4
+2026-04-23 15:53:37,930 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:09,487 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:10,389 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:16,799 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:17,457 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:22,179 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:22,859 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:24,139 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:39,654 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:54:39,678 INFO youtube.persistence persist_done {'br_insights': 5, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 15:54:39,679 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\UZHTffhDF8Y.webm
+2026-04-23 15:54:51,736 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:54:51,890 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:54:53,133 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:54:55,017 INFO faster_whisper Processing audio with duration 22:48.410
+2026-04-23 15:54:56,261 INFO faster_whisper VAD filter removed 00:08.074 of audio
+2026-04-23 15:54:56,731 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:55:18,327 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1368.4s chunks=434 chars=24240
+2026-04-23 15:55:18,390 INFO youtube.router router_done tickers=4 themes=1
+2026-04-23 15:55:20,002 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:55:20,900 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:55:53,223 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:56:18,170 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:56:19,894 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 15:56:19,909 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=A Itaúsa aprovou um pagamento de R$1,3 bilhão em dividendos em forma de JCP.
+2026-04-23 15:56:19,909 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=A Itaúsa está sendo precificada abaixo do valor real das suas participações, com
+2026-04-23 15:56:19,909 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=O Bradesco BBI recomenda a compra das ações ITSA 4 com preço-alvo de R$15,40 até
+2026-04-23 15:56:19,909 INFO youtube.validator drop_cross_contam ticker=ITUB4 claim=Um possível IPO da AGEA pode ajudar a reavaliar o valor dessa fatia dentro da It
+2026-04-23 15:56:19,917 INFO youtube.persistence persist_done {'br_insights': 5, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 15:56:19,919 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\9NoUlvsLR2M.webm
+2026-04-23 16:45:40,924 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:45:41,102 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:45:42,384 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:45:45,725 INFO faster_whisper Processing audio with duration 40:07.915
+2026-04-23 16:45:48,524 INFO faster_whisper VAD filter removed 00:19.419 of audio
+2026-04-23 16:45:49,593 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:46:32,750 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=2407.9s chunks=1172 chars=40237
+2026-04-23 16:46:32,868 INFO youtube.router router_done tickers=7 themes=7
+2026-04-23 16:46:37,432 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:46:47,963 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:46:51,194 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:46:56,435 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:00,034 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:00,832 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:11,819 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:26,026 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:43,514 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:47:56,880 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:01,930 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:14,143 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:14,143 WARNING youtube.extractor extractor_parse_fail err=16 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Preço do Petróleo e Impacto na Economia', 'description': 'O preço do petróleo está influenciando diretamente a inflação, as expectativas de juros futuros e o câmbio. A normalização dos preços pode abrir espaço para políticas monetárias mais flexíveis no futuro.'}, {'name': 'Política Monetária Global', 'description': 'Os bancos centrais estão reagindo com cautela ao choque de preços do petróleo, mantendo as taxas de juros estáveis ou ajustando-as de forma gradual. Isso afeta
+2026-04-23 16:48:26,961 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:26,962 WARNING youtube.extractor extractor_parse_fail err=16 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Impacto da guerra na economia global', 'description': 'A discussão abrange como a guerra afetou as condições financeiras globais, inflação e preços do petróleo.'}, {'name': 'Política monetária em resposta ao conflito', 'description': 'Análise sobre como os bancos centrais reagiram à crise econômica causada pela guerra, incluindo taxas de juros e cortes na política monetária.'}, {'name': 'Previsões para o câmbio e inflação', 'description': 'Projeções futuras sobre a taxa de 
+2026-04-23 16:48:36,759 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:46,162 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:46,168 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A inflação no Brasil pode continuar elevada, afetando as decisões do Banco Centr
+2026-04-23 16:48:46,204 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 3, 'themes': 12, 'themes_db': 'br_investments.db'}
+2026-04-23 16:48:46,207 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\WIRWPyYNJzE.webm
+2026-04-23 16:49:06,061 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:49:06,234 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:49:07,448 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:49:09,652 INFO faster_whisper Processing audio with duration 25:07.179
+2026-04-23 16:49:11,279 INFO faster_whisper VAD filter removed 00:15.051 of audio
+2026-04-23 16:49:12,010 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:49:35,607 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1507.2s chunks=485 chars=23284
+2026-04-23 16:50:47,667 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:50:47,837 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:50:49,070 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:50:51,241 INFO faster_whisper Processing audio with duration 25:07.179
+2026-04-23 16:50:52,936 INFO faster_whisper VAD filter removed 00:15.051 of audio
+2026-04-23 16:50:53,674 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:51:17,662 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1507.2s chunks=490 chars=23321
+2026-04-23 16:51:29,633 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:51:29,799 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:51:31,093 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:51:31,847 INFO faster_whisper Processing audio with duration 07:48.741
+2026-04-23 16:51:32,374 INFO faster_whisper VAD filter removed 00:03.093 of audio
+2026-04-23 16:51:32,694 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:51:40,302 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=468.7s chunks=136 chars=8179
+2026-04-23 16:51:40,362 INFO youtube.router router_done tickers=2 themes=1
+2026-04-23 16:51:51,556 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:52:08,175 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:52:09,022 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:52:09,034 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 16:52:09,035 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\3PrOCCKmUBM.webm
+2026-04-23 16:52:18,837 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:52:19,003 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:52:20,203 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:52:20,777 INFO faster_whisper Processing audio with duration 06:30.467
+2026-04-23 16:52:21,198 INFO faster_whisper VAD filter removed 00:02.707 of audio
+2026-04-23 16:52:21,512 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:52:29,414 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=390.5s chunks=226 chars=7222
+2026-04-23 16:52:29,461 INFO youtube.router router_done tickers=1 themes=1
+2026-04-23 16:52:37,035 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:52:37,718 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:52:37,726 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 16:52:37,727 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\YpWzUjgAcvc.webm
+2026-04-23 16:52:46,796 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:52:46,976 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:52:48,178 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:52:48,595 INFO faster_whisper Processing audio with duration 05:05.876
+2026-04-23 16:52:48,922 INFO faster_whisper VAD filter removed 00:00.805 of audio
+2026-04-23 16:52:49,196 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:52:53,608 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=305.9s chunks=99 chars=5017
+2026-04-23 16:52:53,653 INFO youtube.router router_done tickers=2 themes=1
+2026-04-23 16:53:06,133 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:53:06,849 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:53:21,990 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:53:22,000 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+2026-04-23 16:53:22,000 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\MB0Wuzw6mhs.webm
+2026-04-23 16:53:34,422 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:53:34,588 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:53:35,767 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:53:36,462 INFO faster_whisper Processing audio with duration 07:23.385
+2026-04-23 16:53:36,895 INFO faster_whisper VAD filter removed 00:00.281 of audio
+2026-04-23 16:53:37,206 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:53:44,862 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=443.4s chunks=224 chars=7486
+2026-04-23 16:53:44,921 INFO youtube.router router_done tickers=6 themes=1
+2026-04-23 16:53:45,763 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:53:57,045 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:12,545 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:24,431 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:25,294 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:34,883 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:47,789 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Banco do Brasil é esperado para apresentar os piores resultados entre os grand
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O crédito rural, que representa 30% da carteira do Banco do Brasil, é uma preocu
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Goldman Sachs reduziu a estimativa de lucro líquido para o Banco do Brasil, ag
+2026-04-23 16:54:47,807 INFO youtube.persistence persist_done {'br_insights': 7, 'us_insights': 2, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 16:54:47,808 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\6_On_fZLA_E.webm
+2026-04-23 16:54:56,846 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:54:57,021 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:54:58,199 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:54:58,641 INFO faster_whisper Processing audio with duration 05:22.618
+2026-04-23 16:54:58,982 INFO faster_whisper VAD filter removed 00:00.208 of audio
+2026-04-23 16:54:59,280 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:55:03,489 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=322.6s chunks=69 chars=5172
+2026-04-23 16:55:03,531 INFO youtube.router router_done tickers=4 themes=0
+2026-04-23 16:55:28,982 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:55:29,808 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:55:30,534 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:55:31,341 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:55:31,344 INFO youtube.validator drop_cross_contam ticker=VALE3 claim=O BTG Pactual citou fundamentos mais fracos para o minério de ferro e incertezas
+2026-04-23 16:55:31,349 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+2026-04-23 16:55:31,350 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\ZHRmPOdCBqo.webm
+2026-04-23 19:46:28,156 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 19:46:28,318 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 19:46:29,694 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 19:46:37,687 INFO faster_whisper Processing audio with duration 01:38:22.699
+2026-04-23 19:46:49,592 INFO faster_whisper VAD filter removed 00:31.451 of audio
+2026-04-23 19:46:52,557 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 19:48:52,881 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=5902.7s chunks=4295 chars=100257
+2026-04-23 19:48:53,054 INFO youtube.router router_done tickers=6 themes=9
+2026-04-23 19:49:18,053 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:49:19,382 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:49:41,588 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:49:43,699 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:49:55,372 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:49:56,855 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:06,556 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:16,755 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:16,755 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Economia Brasil...o, juros e petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Investimentos E...dades de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Eleições Bras... na economia do país.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... o uso de derivativos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Inovação Tecn...eiras de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Economia Brasileira', 'description': 'Discussões sobre a economia brasileira, incluindo inflação, juros e petróleo.'}, {'name': 'Investimentos Estrangeiros', 'description': 'Análise de como os investidores estrangeiros veem o Brasil e suas oportunidades de investimento.'}, {'name': 'Eleições Brasileiras', 'description': 'Impacto das eleições brasileiras no mercado financeiro e na economia do país.'}, {'name': 'Gestão de Riscos', 'description': 'Técnicas e estratégias para g
+2026-04-23 19:50:27,026 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:50,948 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:50:50,948 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Ativ...atividades comerciais.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Impacto da Tecn...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Desempenho dos ...ores macroeconômicos.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Juros e Inflaç...gias de investimento.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Gestão de Risc... situação do Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Gestão de Ativos e Estratégias', 'description': 'Discute a gestão de fundos de investimento, estratégias de alocação de ativos e o desafio de conciliar a gestão do fundo com atividades comerciais.'}, {'name': 'Impacto da Tecnologia na Gestão', 'description': 'Explora como as novas tecnologias, incluindo inteligência artificial, estão influenciando a gestão de portfólio e estratégias de investimento.'}, {'name': 'Desempenho dos Índices de Bolsa', 'description': 'Análise do d
+2026-04-23 19:50:56,541 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:06,458 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:07,547 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:08,298 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:21,260 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:21,260 WARNING youtube.extractor extractor_parse_fail err=20 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Performance da ...óleo e as eleições.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Expectativas de...e da Bolsa Brasileira.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Impacto do Petr... ao superávit fiscal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Eleições Pres... veem essa situação.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.theme
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.summary
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.evidence_quote
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.4.confidence
+  Field required [type=missing, input_value={'name': 'Riscos para a E...eços das commodities.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Performance da Bolsa Brasileira', 'description': 'Discussão sobre como a Bolsa Brasileira está performando em relação aos outros emergentes e fatores que podem influenciar isso, incluindo o petróleo e as eleições.'}, {'name': 'Expectativas de Juros', 'description': 'Análise das expectativas de queda dos juros no Brasil e como isso pode afetar a performance da Bolsa Brasileira.'}, {'name': 'Impacto do Petróleo na Economia Brasileira', 'description': 'Discussão sobre o impact
+2026-04-23 19:51:26,814 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:31,762 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:42,169 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 19:51:42,246 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 4, 'themes_db': 'br_investments.db'}
+2026-04-23 19:51:42,253 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\VS-8e2uZJH0.webm

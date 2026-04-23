@@ -1,0 +1,40 @@
+# target_allocation.yaml — alvo de alocação para rebalance assistant.
+# Usado por scripts/rebalance.py. Edita para ajustar à tua estratégia.
+
+# Total em BRL. Não precisa somar 100% nos campos abaixo — são independentes.
+# Rebalance resolve na ordem: market → sector → ticker.
+
+# ------------------------ Por mercado (%) -------------------------------------
+by_market:
+  br: 70.0      # % do total BRL (inclui renda fixa + equity BR)
+  us: 30.0      # % do total BRL (equity US convertido via PTAX)
+
+# ------------------------ Por tipo (%) ----------------------------------------
+# Interpretação solta — usar conforme estratégia DRIP + hedge inflação.
+by_asset_type:
+  renda_fixa: 25.0       # LFTB11, tesouro, CDB
+  equity_br: 30.0
+  fii_br: 15.0
+  equity_us: 20.0
+  etf_us_br: 5.0         # IVVB11 (ETF US em BRL) + outros
+  sector_rotation: 5.0   # reserva tactical
+
+# ------------------------ Por sector (dentro do equity BR) --------------------
+by_sector_br:
+  Banks: 20.0
+  Mining: 12.0
+  "Oil & Gas": 10.0
+  Holding: 15.0
+  Utilities: 8.0
+  Consumer: 10.0
+  outros: 25.0
+
+# ------------------------ Limites por ticker ----------------------------------
+ticker_limits:
+  max_weight_pct: 12.0      # sem ticker > 12% (concentração)
+  min_weight_pct: 0.2       # sem holding < 0.2% (ruído; agregue ou saia)
+
+# ------------------------ Tolerâncias rebalance -------------------------------
+tolerance:
+  drift_pct: 5.0            # só sugerir rebalance se drift > 5pp vs target
+  min_trade_brl: 500.0      # não sugerir trades < R$500 (custo × benefício)

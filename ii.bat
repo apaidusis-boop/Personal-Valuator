@@ -1,0 +1,143 @@
+@echo off
+REM ii — wrapper para os scripts Python do investment-intelligence.
+REM Uso: ii <comando> [args]
+REM Exemplos:
+REM   ii research ACN --intraday
+REM   ii refresh ACN
+REM   ii digest --channel "Virtual Asset" --days 30
+REM   ii vault "tickers com tese turnaround"
+REM   ii fx --total
+REM   ii notes add ACN "texto" --tags bull
+REM   ii portfolio   (briefing completo)
+REM   ii brief       (alias portfolio)
+REM   ii obsidian --refresh --holdings-only
+REM   ii help
+
+setlocal enabledelayedexpansion
+set "ROOT=%~dp0"
+set "PY=%ROOT%.venv\Scripts\python.exe"
+if not exist "%PY%" set "PY=python"
+
+set "CMD=%~1"
+if "%CMD%"=="" goto :HELP
+
+REM Rebuild args without the first token (the command itself)
+set "ARGS="
+:COLLECT_ARGS
+shift
+if "%~1"=="" goto :DONE_ARGS
+if defined ARGS (set "ARGS=!ARGS! %1") else (set "ARGS=%1")
+goto :COLLECT_ARGS
+:DONE_ARGS
+
+REM map shortcuts → python scripts
+if /i "%CMD%"=="help" goto :HELP
+if /i "%CMD%"=="research" (set "SCRIPT=scripts\research.py") & goto :RUN
+if /i "%CMD%"=="analyze" (set "SCRIPT=scripts\analyze_ticker.py") & goto :RUN
+if /i "%CMD%"=="refresh" (set "SCRIPT=scripts\refresh_ticker.py") & goto :RUN
+if /i "%CMD%"=="digest" (set "SCRIPT=scripts\yt_digest.py") & goto :RUN
+if /i "%CMD%"=="ingest" (set "SCRIPT=scripts\yt_ingest.py") & goto :RUN
+if /i "%CMD%"=="batch" (set "SCRIPT=scripts\yt_ingest_batch.py") & goto :RUN
+if /i "%CMD%"=="reextract" (set "SCRIPT=scripts\yt_reextract.py") & goto :RUN
+if /i "%CMD%"=="vault" (set "SCRIPT=scripts\vault_ask.py") & goto :RUN
+if /i "%CMD%"=="obsidian" (set "SCRIPT=scripts\obsidian_bridge.py") & goto :RUN
+if /i "%CMD%"=="notes" (set "SCRIPT=scripts\notes_cli.py") & goto :RUN
+if /i "%CMD%"=="tx" (set "SCRIPT=scripts\tx_cli.py") & goto :RUN
+if /i "%CMD%"=="diff" (set "SCRIPT=scripts\daily_diff.py") & goto :RUN
+if /i "%CMD%"=="earnings" (set "SCRIPT=fetchers\earnings_calendar.py") & goto :RUN
+if /i "%CMD%"=="verdict" (set "SCRIPT=scripts\verdict.py") & goto :RUN
+if /i "%CMD%"=="snapshot" (set "SCRIPT=scripts\snapshot_portfolio.py") & goto :RUN
+if /i "%CMD%"=="react" (set "SCRIPT=scripts\earnings_react.py") & goto :RUN
+if /i "%CMD%"=="agent" (set "SCRIPT=scripts\agent_morning.py") & goto :RUN
+if /i "%CMD%"=="peers" (set "SCRIPT=scripts\peer_compare.py") & goto :RUN
+if /i "%CMD%"=="rebalance" (set "SCRIPT=scripts\rebalance.py") & goto :RUN
+if /i "%CMD%"=="size" (set "SCRIPT=scripts\position_size.py") & goto :RUN
+if /i "%CMD%"=="vh" (set "SCRIPT=scripts\verdict_history.py") & goto :RUN
+if /i "%CMD%"=="surprise" (set "SCRIPT=scripts\earnings_surprise.py") & goto :RUN
+if /i "%CMD%"=="news" (set "SCRIPT=fetchers\news_fetch.py") & goto :RUN
+if /i "%CMD%"=="lots" (set "SCRIPT=scripts\tax_lots_page.py") & goto :RUN
+if /i "%CMD%"=="import-lots" (set "SCRIPT=scripts\import_taxlots.py") & goto :RUN
+if /i "%CMD%"=="import-positions" (set "SCRIPT=scripts\import_positions.py") & goto :RUN
+if /i "%CMD%"=="dashboard" ("%PY%" -m streamlit run "%ROOT%scripts\dashboard_app.py" %ARGS%) & goto :EOF
+if /i "%CMD%"=="telegram" ("%PY%" -X utf8 -m notifiers.telegram %ARGS%) & goto :EOF
+if /i "%CMD%"=="portfolio" (set "SCRIPT=scripts\portfolio_report.py") & goto :RUN
+if /i "%CMD%"=="brief" (set "SCRIPT=scripts\portfolio_report.py") & goto :RUN
+if /i "%CMD%"=="drip" (set "SCRIPT=scripts\drip_projection.py") & goto :RUN
+if /i "%CMD%"=="triggers" (set "SCRIPT=scripts\trigger_monitor.py") & goto :RUN
+if /i "%CMD%"=="actions" (set "SCRIPT=scripts\action_cli.py") & goto :RUN
+if /i "%CMD%"=="compare" (set "SCRIPT=scripts\compare_tickers.py") & goto :RUN
+if /i "%CMD%"=="weekly" (set "SCRIPT=scripts\weekly_report.py") & goto :RUN
+if /i "%CMD%"=="daily" (set "SCRIPT=scripts\daily_update.py") & goto :RUN
+if /i "%CMD%"=="megawatch" (set "SCRIPT=scripts\megawatchlist.py") & goto :RUN
+if /i "%CMD%"=="fx" ("%PY%" -X utf8 -m analytics.fx %ARGS%) & goto :EOF
+if /i "%CMD%"=="altman" ("%PY%" -X utf8 -m scoring.altman %ARGS%) & goto :EOF
+if /i "%CMD%"=="piotroski" ("%PY%" -X utf8 -m scoring.piotroski %ARGS%) & goto :EOF
+if /i "%CMD%"=="safety" ("%PY%" -X utf8 -m scoring.dividend_safety %ARGS%) & goto :EOF
+if /i "%CMD%"=="regime" ("%PY%" -X utf8 -m analytics.regime %ARGS%) & goto :EOF
+if /i "%CMD%"=="screen-trend" ("%PY%" -X utf8 -m analytics.screen_trend %ARGS%) & goto :EOF
+if /i "%CMD%"=="backtest-yield" ("%PY%" -X utf8 -m analytics.backtest_yield %ARGS%) & goto :EOF
+
+echo Unknown command: %CMD%
+echo Run 'ii help' for list.
+exit /b 1
+
+:RUN
+"%PY%" -X utf8 "%ROOT%%SCRIPT%" %ARGS%
+goto :EOF
+
+:HELP
+echo ii - investment-intelligence CLI
+echo.
+echo ANALYSIS:
+echo   ii research ^<TK^> [--intraday] [--md]     Unified memo (PT)
+echo   ii analyze ^<TK^>                          Deep dive (legacy)
+echo   ii portfolio                             Daily briefing BR+US+RF
+echo   ii compare ^<TK1^> ^<TK2^> ...              Side-by-side
+echo   ii drip --ticker ^<TK^>                    DRIP projection
+echo.
+echo DATA:
+echo   ii refresh ^<TK^>                          Intraday quote (yfinance)
+echo   ii refresh --all-holdings                Refresh all holdings
+echo   ii fx --total                            Portfolio total BRL
+echo   ii fx --usd 1000                         Convert USD to BRL
+echo   ii daily                                 Daily fetchers + scoring
+echo.
+echo QUALITY SCORES:
+echo   ii altman ^<TK^>                           Altman Z-Score
+echo   ii piotroski ^<TK^>                        Piotroski F-Score
+echo   ii safety ^<TK^>                           Dividend Safety
+echo.
+echo YOUTUBE:
+echo   ii ingest ^<url^>                          Single video
+echo   ii batch --channel-last ^<id^> --count N   Batch from channel
+echo   ii reextract --all                       Re-run on cached transcripts
+echo   ii digest --channel "Virtual Asset" --days 30
+echo.
+echo OBSIDIAN ^& MEMORY:
+echo   ii obsidian --refresh --holdings-only    Export vault
+echo   ii vault "^<pergunta em PT^>"              Semantic search
+echo   ii notes add ^<TK^> "texto" --tags a,b
+echo   ii notes show ^<TK^>
+echo.
+echo TRANSACTIONS:
+echo   ii tx buy ACN 2 176.50 "thesis turnaround"
+echo   ii tx sell TEN 35 38.76 "distress signal"
+echo   ii tx list --recent 30
+echo   ii diff --since 1                        Daily diff
+echo   ii earnings --upcoming 30                Earnings ahead
+echo.
+echo TRIGGERS:
+echo   ii triggers                              Dry-run monitor
+echo   ii actions list                          Open actions
+echo   ii screen-trend                          Quality drift
+echo.
+echo BACKTEST:
+echo   ii backtest-yield --market br --start 2019
+echo   ii regime --market us
+echo.
+echo WATCHLIST:
+echo   ii megawatch                             Unified watchlist
+echo   ii weekly                                Weekly report
+
+:EOF
+endlocal
