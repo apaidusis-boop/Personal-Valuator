@@ -312,9 +312,25 @@ def _fundamentals_trend(ticker: str, market: str) -> list[tuple]:
 
 
 def _income_trend(ticker: str, market: str) -> list[tuple]:
-    """Quarter/annual trend: (period_end, revenue, ebitda, net_income)."""
+    """Annual deep_fundamentals trend: (period_end, revenue, net_income, fcf).
+    Source: deep_fundamentals (populated by fetchers/yf_deep_fundamentals.py).
+    Fallback: income_statements table (BR legacy data)."""
     db = DB_BR if market == "br" else DB_US
     with sqlite3.connect(db) as c:
+        # Preferência 1: deep_fundamentals (mais colunas, cross-market)
+        try:
+            rows = list(c.execute(
+                """SELECT period_end, total_revenue, net_income, free_cash_flow
+                   FROM deep_fundamentals
+                   WHERE ticker=? AND period_type='annual'
+                   ORDER BY period_end ASC""",
+                (ticker,),
+            ))
+            if rows:
+                return rows
+        except sqlite3.OperationalError:
+            pass
+        # Fallback: income_statements (BR legacy)
         try:
             return list(c.execute(
                 """SELECT period_end, revenue, ebitda, net_income
@@ -527,11 +543,11 @@ def _render_ticker_md(ticker: str, market: str) -> str:
         out.append(hist_md)
         out.append("")
 
-    # Income statement trend (revenue + EBITDA + net income)
+    # Income statement trend (revenue + net income + FCF)
     inc = _income_trend(ticker, market)
     if len(inc) >= 2:
-        out.append("## 💰 Income statement trend (annual)\n")
-        out.append("| Period | Revenue | EBITDA | Net Income |")
+        out.append("## 💰 Financials trend (annual)\n")
+        out.append("| Period | Revenue | Net Income | Free Cash Flow |")
         out.append("|---|---|---|---|")
         cur_sym = "R$" if market == "br" else "$"
         def _fmt(v):
@@ -547,8 +563,8 @@ def _render_ticker_md(ticker: str, market: str) -> str:
             except Exception:
                 return str(v)
         for row in inc[-8:]:
-            pe, rev, ebitda, ni = row
-            out.append(f"| {pe} | {_fmt(rev)} | {_fmt(ebitda)} | {_fmt(ni)} |")
+            pe, rev, ni, third = row
+            out.append(f"| {pe[:10]} | {_fmt(rev)} | {_fmt(ni)} | {_fmt(third)} |")
         out.append("")
 
     # Charts (requires plugin "Charts" — https://github.com/phibr0/obsidian-charts)
