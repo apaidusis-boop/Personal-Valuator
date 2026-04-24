@@ -27,7 +27,7 @@ try:
 except (AttributeError, ValueError):
     pass
 
-from fetchers.subscriptions import SessionManager  # noqa: E402
+from fetchers.subscriptions import SessionManager, PlaywrightSession  # noqa: E402
 from fetchers.subscriptions.suno import SunoAdapter  # noqa: E402
 from fetchers.subscriptions.xp import XPAdapter  # noqa: E402
 from fetchers.subscriptions.wsj import WSJAdapter  # noqa: E402
@@ -59,10 +59,29 @@ def _get_db(source: str) -> Path:
     return DB_US if source in ("wsj", "fool") else DB_BR
 
 
-def _make_adapter(source: str):
+def _make_adapter(source: str, *, force_playwright: bool = False, headless: bool | None = None):
+    """Constrói adapter com a session certa.
+
+    Sites que precisam de browser real (WAF/SPA/JWT) usam PlaywrightSession.
+    Sites que funcionam com requests+cookies ficam com SessionManager.
+
+    `headless` override: se None, usa default por site (XP=False; outros=True).
+    """
     cls = ADAPTERS[source]
-    session = SessionManager(source, COOKIES_DIR)
-    # Fool + WSJ são HTML-primary; Suno + XP são PDF-primary (quando possível).
+    # Default: XP/Suno/Finclass → Playwright; Fool/WSJ → requests
+    playwright_sources = {"suno", "xp", "finclass"}
+    use_pw = force_playwright or source in playwright_sources
+    # WAF-heavy sites requerem headful (Imperva bloqueia headless)
+    headless_by_source = {"xp": False, "suno": True, "finclass": True}
+    effective_headless = headless if headless is not None else headless_by_source.get(source, True)
+    if use_pw:
+        try:
+            session = PlaywrightSession(source, COOKIES_DIR, headless=effective_headless)
+        except RuntimeError as e:
+            print(f"[{source}] Playwright unavailable, falling back to requests: {e}")
+            session = SessionManager(source, COOKIES_DIR)
+    else:
+        session = SessionManager(source, COOKIES_DIR)
     html_sources = {"wsj", "fool"}
     storage = (HTML_DIR if source in html_sources else PDF_DIR) / source
     return cls(session, storage)
@@ -80,9 +99,49 @@ def cmd_setup(_args):
     print("Próximo: ii subs test --source suno")
 
 
+def cmd_login(args):
+    """Abre browser VISÍVEL para login manual. Session persiste em profile_dir.
+
+    Usa-se para sites onde Cookie-Editor não captura auth (SPA JWT em
+    localStorage: Suno member, Finclass). Login uma vez, depois Playwright
+    reusa persistent context.
+    """
+    src = args.source
+    if src not in ADAPTERS:
+        print(f"source '{src}' desconhecido")
+        return
+    print(f"[{src}] abrindo browser para login manual...")
+    print("Faz login normalmente. Quando o dashboard carregar, fecha o terminal (Ctrl+C) ou espera 5 min.")
+    session = PlaywrightSession(src, COOKIES_DIR, headless=False, rate_limit_sec=0)
+    urls = {
+        "suno": "https://investidor.suno.com.br/",
+        "finclass": "https://app.finclass.com/",
+        "xp": "https://conteudos.xpi.com.br/",
+        "wsj": "https://www.wsj.com/",
+        "fool": "https://www.fool.com/",
+    }
+    try:
+        session.get(urls.get(src, "about:blank"), timeout=60)
+        print("\n▶ Browser aberto. Faz login manualmente.")
+        print("▶ Quando terminares, fecha a janela OU pressiona Ctrl+C aqui.")
+        print("▶ Session guardada em: ", session.profile_dir)
+        # manter o browser aberto — user fecha
+        import time
+        while True:
+            time.sleep(5)
+            if session._ctx is None:
+                break
+    except KeyboardInterrupt:
+        print("\n[!] interrompido — session guardada")
+    finally:
+        session.close()
+    print(f"✓ session persistida para {src}. Próxima run usa-a auto.")
+
+
 def cmd_test(args):
     sources = list(ADAPTERS) if args.source == "all" else [args.source]
     for src in sources:
+        adapter = None
         try:
             adapter = _make_adapter(src)
             ok, msg = adapter.test_access()
@@ -91,6 +150,13 @@ def cmd_test(args):
             print(f"[{src:<10}] ✗ {e}")
         except Exception as e:
             print(f"[{src:<10}] ✗ error: {e}")
+        finally:
+            # fechar Playwright sessions para não contaminar próxima iteração
+            if adapter is not None and hasattr(adapter.session, "close"):
+                try:
+                    adapter.session.close()
+                except Exception:
+                    pass
 
 
 def cmd_fetch(args):
@@ -108,7 +174,8 @@ def cmd_fetch(args):
         print(f"[{src}] discover (last {args.days}d) ...")
         db = _get_db(src)
         new = 0
-        with sqlite3.connect(db) as c:
+        try:
+          with sqlite3.connect(db) as c:
             for report in adapter.discover(since_days=args.days):
                 # dedup check
                 row = c.execute(
@@ -141,6 +208,12 @@ def cmd_fetch(args):
                 new += 1
                 print(f"  + {report.published_at} {report.title[:70]}")
             c.commit()
+        finally:
+            if hasattr(adapter.session, "close"):
+                try:
+                    adapter.session.close()
+                except Exception:
+                    pass
         print(f"[{src}] {new} new reports")
         total_new += new
     print(f"\ntotal: {total_new} new reports")
@@ -291,6 +364,9 @@ def main():
 
     sub.add_parser("setup")
 
+    lp2 = sub.add_parser("login")
+    lp2.add_argument("--source", required=True, choices=list(ADAPTERS))
+
     tp = sub.add_parser("test")
     tp.add_argument("--source", default="all", choices=["all", *ADAPTERS])
 
@@ -313,6 +389,7 @@ def main():
     args = ap.parse_args()
     {
         "setup": cmd_setup,
+        "login": cmd_login,
         "test": cmd_test,
         "fetch": cmd_fetch,
         "extract": cmd_extract,

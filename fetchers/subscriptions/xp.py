@@ -23,7 +23,6 @@ from __future__ import annotations
 import hashlib
 import re
 from datetime import datetime, timedelta
-from pathlib import Path
 from typing import Iterator
 
 try:
@@ -40,40 +39,45 @@ class XPAdapter(BaseAdapter):
     base_url = "https://conteudos.xpi.com.br"
     rss_url = "https://conteudos.xpi.com.br/feed/"
 
+    # URLs confirmadas via probe Playwright (2026-04-24).
+    # Requer PlaywrightSession com headless=False — Imperva bloqueia headless.
     LISTING_PATHS = [
-        "/categoria/renda-variavel/",
-        "/categoria/fundos-imobiliarios/",
-        "/categoria/morning-call/",
-        "/categoria/top-picks/",
+        "/acoes/",
+        "/acoes/relatorios/",
+        "/fundos-imobiliarios/",
+        "/fundos-imobiliarios/relatorios/",
+        "/renda-fixa/",
+        "/economia/",
     ]
 
+    # Artigos seguem padrão /<categoria>/relatorios/<slug>/ ou /<categoria>/<slug>/
+    ARTICLE_RX = re.compile(
+        r"https?://conteudos\.xpi\.com\.br/(acoes|fundos-imobiliarios|renda-fixa|economia|cripto|internacional)/(?:relatorios/)?[^\"/]+/?$"
+    )
+
     def test_access(self) -> tuple[bool, str]:
-        # NOTA (2026-04-24): conteudos.xpi.com.br bloqueia requests com WAF
-        # "Acesso Bloqueado" (Imperva/Akamai). Mesmo com browser headers +
-        # cookies válidas, retorna 403. **Requer Playwright** para bypass.
+        # Probe página de acoes — é onde estão os reports. WAF bloqueia /feed/.
         try:
-            r = self.session.get(self.rss_url, timeout=15)
+            r = self.session.get(self.base_url + "/acoes/", timeout=30)
             if r.status_code == 403 or "acesso bloqueado" in r.text.lower():
-                return (False, "xp: ✗ WAF block (403) — requer Playwright upgrade")
-            ok = r.status_code == 200 and ("<rss" in r.text or "<feed" in r.text)
-            return (ok, f"xp rss: {'✓ ok' if ok else f'✗ status {r.status_code}'}")
+                return (False, "xp: ✗ WAF block — precisa PlaywrightSession headless=False")
+            ok = r.status_code == 200 and len(r.text) > 50_000
+            return (ok, f"xp: {'✓ access ok (Playwright)' if ok else f'✗ status {r.status_code}'}")
         except Exception as e:
             return (False, f"xp test failed: {e}")
 
     def discover(self, since_days: int = 7) -> Iterator[Report]:
+        # XP via Playwright não tem acesso fiável a RSS (/feed/ é filtrado).
+        # Listing scraping via HTML rendered pages funciona.
+        if not _HAS_BS4:
+            raise RuntimeError("beautifulsoup4 required for xp adapter")
         cutoff = (datetime.now() - timedelta(days=since_days)).date()
-        # Primeiro RSS (rápido, ~20 items últimos)
-        try:
-            yield from self._discover_rss(cutoff)
-        except Exception as e:
-            print(f"  [xp] rss failed: {e}")
-        # Fallback: HTML listings (se BS4 disponível)
-        if _HAS_BS4:
-            for path in self.LISTING_PATHS:
-                try:
-                    yield from self._discover_listing(path, cutoff)
-                except Exception as e:
-                    print(f"  [xp] listing {path} failed: {e}")
+        seen: set[str] = set()
+        for path in self.LISTING_PATHS:
+            try:
+                yield from self._discover_listing(path, cutoff, seen)
+            except Exception as e:
+                print(f"  [xp] listing {path} failed: {e}")
 
     def _discover_rss(self, cutoff):
         import xml.etree.ElementTree as ET
@@ -103,26 +107,38 @@ class XPAdapter(BaseAdapter):
                 tags=["br-equity", "xp"],
             )
 
-    def _discover_listing(self, path: str, cutoff):
-        html = self.session.get_text(self.base_url + path)
+    def _discover_listing(self, path: str, cutoff, seen: set):
+        """Scrape listing via Playwright-rendered page + regex sobre anchors."""
+        html = self.session.get_text(self.base_url + path, timeout=30)
         soup = BeautifulSoup(html, "html.parser")
-        for art in soup.find_all("article"):
-            a = art.find("a", href=True)
-            if not a:
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not href.startswith("http"):
+                href = self.base_url + href
+            # filtra só artigos (não category/tag pages)
+            if not self.ARTICLE_RX.match(href.rstrip("/") + "/"):
                 continue
-            url = a["href"] if a["href"].startswith("http") else self.base_url + a["href"]
-            title = (a.get_text(strip=True) or art.get_text(strip=True))[:200]
-            sid = hashlib.sha1(url.encode()).hexdigest()[:16]
-            # extrair data de <time datetime="...">
-            t = art.find("time")
+            if href in seen:
+                continue
+            seen.add(href)
+            title = a.get_text(strip=True)[:200]
+            if not title or len(title) < 10:
+                continue
+            # data via <time> adjacente ou parent article
+            parent_art = a.find_parent("article") or a.find_parent("div")
+            t = parent_art.find("time") if parent_art else None
             pub_iso = datetime.now().date().isoformat()
             if t and t.get("datetime"):
                 try:
                     pub_iso = t["datetime"][:10]
-                except Exception:
+                    pub_date = datetime.fromisoformat(pub_iso).date()
+                    if pub_date < cutoff:
+                        continue
+                except ValueError:
                     pass
+            sid = hashlib.sha1(href.encode()).hexdigest()[:16]
             yield Report(
-                source=self.source, source_id=sid, url=url, title=title,
+                source=self.source, source_id=sid, url=href, title=title,
                 published_at=pub_iso, content_type="html", language="pt",
                 tags=["br-equity", "xp"],
             )
