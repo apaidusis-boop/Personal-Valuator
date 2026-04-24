@@ -41,6 +41,9 @@ Entry point único. Tudo navegável daqui.
 ### Cycles (5)
 - [[wiki/cycles/Oil_cycle]] · [[wiki/cycles/Semi_cycle]] · [[wiki/cycles/Pulp_cycle]] · [[wiki/cycles/Real_estate_cycle]] · [[wiki/cycles/Shipping_cycle]]
 
+### Holdings thesis (20) ⭐
+Ver [[wiki/holdings/_README|índice]]. BR: [[ITSA4]] · [[BBDC4]] · [[PRIO3]] · [[VALE3]] · [[PVBI11]] · [[BTLG11]] · [[VGIR11]] · [[XPML11]]. US: [[JNJ]] · [[KO]] · [[PG]] · [[JPM]] · [[BLK]] · [[BN]] · [[BRK-B]] · [[ACN]] · [[O]] · [[TSM]] · [[AAPL]] · [[PLD]] · [[HD]] · [[NU]] · [[TEN]] ⚠️
+
 ### Playbooks (5)
 - 🚨 [[wiki/playbooks/Token_discipline]]
 - [[wiki/playbooks/Buy_checklist]] · [[wiki/playbooks/Sell_triggers]]

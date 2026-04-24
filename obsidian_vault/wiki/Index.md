@@ -116,11 +116,21 @@ Checklists operacionais destilados do código/scoring.
 - [[Tax_lot_selection_practical]] — JPM UI steps + scenarios (TLH, partial exit, charitable)
 - [[Web_scraping_subscriptions]] — ingest Suno/XP/WSJ/Finclass via cookies + Ollama extract (0 tokens)
 
+## 💼 Holdings thesis (Fase B.2 — 20 notas)
+
+Ver [[wiki/holdings/_README|secção README + índice completo]].
+
+### BR (8)
+- [[ITSA4]] · [[BBDC4]] · [[PRIO3]] · [[VALE3]] · [[PVBI11]] (turnaround) · [[BTLG11]] · [[VGIR11]] · [[XPML11]]
+
+### US (12)
+- [[JNJ]] · [[KO]] · [[PG]] · [[JPM]] · [[BLK]] · [[BN]] · [[BRK-B]] · [[ACN]] · [[O]] · [[TSM]] · [[AAPL]] · [[PLD]] · [[HD]] · [[NU]] · [[TEN]] ⚠️
+
 ## 🗺 Próximas fases (roadmap)
 
-### Fase B.2 — Holdings deep (pending)
-- 32 holdings expanded com business model + moat + mix narrative.
-- 50 priority watchlist enrichment.
+### Fase B.3 — Watchlist deep (pending)
+- 50 priority watchlist names expanded com thesis light.
+- Holdings sem thesis ainda: ABBV, GS, PLTR, TSLA, XP, GREK.
 
 ### Fase C.2 — Analyst tracking infra (pending)
 - DB schema novo: `analyst_calls` + `yt_predictions`.
@@ -150,14 +160,17 @@ Checklists operacionais destilados do código/scoring.
 
 ## 📊 Vault stats (2026-04-24)
 
-- **Wiki notes**: 53 (16 methods + 11 macro + 5 history + 8 sectors + 5 cycles + 5 tax + 4 playbooks)
+- **Wiki notes**: 76 (16 methods + 11 macro + 5 history + 8 sectors + 5 cycles + 5 tax + 6 playbooks + **20 holdings thesis** + 1 section index)
 - **Ticker notes**: 34 (auto-generated via `obsidian_bridge.py`)
-- **Video notes**: 14 (Phase Q YouTube pipeline)
+- **Video notes**: 21 (Phase Q YouTube pipeline)
+- **Analyst reports**: 125 ingeridos (Fool 18 + WSJ/MW 20 + XP 87) — Phase U
 - **Dashboards**: 3 (Portfolio, Sectors, Briefing)
-- **Total**: ~104 markdown notes + frontmatter indexable via Dataview
+- **Total**: ~130+ markdown notes + 125 analyst reports em SQLite
 
 ---
 
 *Phase A: 2026-04-23 — 31 notas initial.*
 *Phase B.1+C.1+D+E: 2026-04-24 — +22 notas (sectors + cycles + tax + playbooks).*
+*Phase U: 2026-04-24 — Token discipline + scraping infra + Playwright + 125 analyst reports.*
+*Phase B.2: 2026-04-24 — +20 holdings thesis deep (BR 8 + US 12).*
 *Continuous expansion.*
