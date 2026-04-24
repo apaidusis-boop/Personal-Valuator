@@ -4,7 +4,7 @@ name: Agents layer — autonomy framework
 tags: [playbook, agents, autonomy, meta]
 related: ["[[Token_discipline]]", "[[Analysis_workflow]]", "[[Web_scraping_subscriptions]]"]
 ---
-
+Novam
 # 🤖 Agents Layer — autonomy framework
 
 > Sistema de agentes autónomos que trabalham em cron + event-driven, respeitando REGRA #1 [[Token_discipline]] (Ollama 95%, Claude só via budget-cap escalation).
@@ -145,12 +145,45 @@ WHERE type = "agent_status"
 SORT last_run DESC
 ```
 
+## Production agents — ampliado Phase V.1 (7 total)
+
+**Originais (Phase V)**:
+- morning_briefing, watchdog, thesis_refresh, subscription_fetch
+
+**Novos (Phase V.1 — inspirados em crítica externa, adaptados ao nosso schema)**:
+
+### 🛡 risk_auditor (`daily:21:00`)
+Drift detection via **regras deterministic** (P/E expansion >40%, drawdown -20%/-30%, YoY +60% euphoria, DY compression). Ollama **só escreve a narrativa**, não decide. Outputs:
+- `watchlist_actions` rows (integra com trigger system)
+- Telegram alert TOP flags
+- Dedup por 7 dias (não duplica flag mesmo ticker)
+
+### 👹 devils_advocate (`weekly:wed:10:00`)
+Para holdings com sentimento **≥60% bull** nos últimos 60 dias, Ollama gera bear case contrafactual baseado em:
+- Bear insights existentes no DB
+- Fundamentals atuais (P/E, ROE, ND/EBITDA, streak)
+- Injecta `## ⚠️ Bear case (Devil's Advocate)` na thesis note (idempotent entre markers)
+
+**NÃO faz web search** (TOS grey + infra não temos). Usa só DB + Ollama + wiki.
+
+### 🏢 meta_agent (`daily:23:00`) — Compliance Officer
+Audita outros agents. Policies:
+- Auto-disable após **3 failures consecutive** (edita `config/agents.yaml`)
+- Detect **zombies** — 2× schedule interval sem run
+- Founder alert Telegram se **≥50% cohort** não-ok
+- Dashboard health em `obsidian_vault/agents/_dashboard.md`
+- **Nunca self-audita** (evita paradoxo — failsafe: `ii agents status` humano)
+
 ## Próximos agents planeados (backlog)
 
-- **analyst_backtest** — `weekly:wed:20:00` — tracks analyst predictions vs price moves 30/90/180d depois
-- **wiki_curator** — `monthly:1:18:00` — detecta topics recurring em reports sem wiki note, draft via Ollama
-- **news_digest** — `daily:18:00` — scan news_fetch + Ollama resume market close BR+US
-- **cash_reminder** — `daily:09:00` — alerta cash idle > target threshold (opportunity cost)
+- **analyst_backtest** — `weekly:wed:20:00` — usa nova table `predictions` para tracking real moves 30/90/180d. Feed back em source credibility.
+- **wiki_curator** — `monthly:1:18:00` — detecta topics recurring em reports sem wiki note, draft via Ollama.
+- **news_digest** — `daily:18:00` — scan news_fetch + Ollama resume market close BR+US.
+- **cash_reminder** — `daily:09:00` — alerta cash idle > target threshold.
+- **data_quality_guardian** — detect stale fundamentals (>45d), price gaps, schema drift.
+- **concentration_auditor** — weights drift, sector concentration, currency exposure.
+- **dividend_calendar** — upcoming ex-dates, estimated receipts, DRIP opportunities.
+- **macro_regime_changer** — Selic/Fed shifts → alerta holdings impactadas.
 
 ## Related
 
