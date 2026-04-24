@@ -1,0 +1,62 @@
+# config/agents.yaml — declarative agent registry.
+#
+# Cada agent precisa:
+#   name        — slug único (file name em data/agents/<name>.json)
+#   class       — dotted path module:ClassName
+#   enabled     — bool (desliga sem remover)
+#   schedule    — 'manual' | 'daily:HH:MM' | 'every:Nm' | 'every:Nh' | 'weekly:DOW:HH:MM'
+#   description — 1-linha humano
+#   config      — dict agent-specific (opcional)
+#
+# Cron runner (scripts/agent_runner.py) é chamado a cada minuto.
+# Cada agent verifica se seu schedule match e decide correr.
+# Logs vão para logs/agents/<name>_YYYY-MM-DD.log.
+# Status vai para obsidian_vault/agents/<name>.md.
+
+agents:
+
+  # ─── Morning Digest ────────────────────────────────────────────────
+  # Cron 07:00 local. Compila resumo overnight via Ollama → Telegram.
+  - name: morning_briefing
+    class: agents.morning_briefing:MorningBriefingAgent
+    enabled: true
+    schedule: "daily:07:00"
+    description: "Compila briefing matinal via Ollama + Telegram push"
+    config:
+      push_telegram: true
+      max_triggers: 10
+      max_analyst_insights: 15
+      lookback_hours: 24
+
+  # ─── Event Watchdog ────────────────────────────────────────────────
+  # Poll 15min. Processa novos analyst reports → Ollama extract.
+  # Verifica triggers recém-disparados → Telegram alert.
+  - name: watchdog
+    class: agents.watchdog:WatchdogAgent
+    enabled: true
+    schedule: "every:15m"
+    description: "Poll 15min — auto-extract novos reports + alerts triggers"
+    config:
+      auto_extract: true
+      max_extract_per_run: 5
+      alert_new_triggers: true
+
+  # ─── Thesis Refresh (weekly) ───────────────────────────────────────
+  # Domingo 22:00 local — refresh Live snapshot em todas as theses.
+  - name: thesis_refresh
+    class: agents.thesis_refresh:ThesisRefreshAgent
+    enabled: true
+    schedule: "weekly:sun:22:00"
+    description: "Re-injecta Live Snapshot em wiki/holdings/*.md (weekly)"
+    config: {}
+
+  # ─── Subscription Fetch (weekly) ───────────────────────────────────
+  # Segunda 09:00 — fetch novos reports Fool/XP/WSJ.
+  - name: subscription_fetch
+    class: agents.subscription_fetch:SubscriptionFetchAgent
+    enabled: true
+    schedule: "weekly:mon:09:00"
+    description: "Fetch weekly subscription reports (Fool/XP/WSJ)"
+    config:
+      sources: [fool, xp, wsj]
+      days: 7
