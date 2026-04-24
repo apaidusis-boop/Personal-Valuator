@@ -104,11 +104,12 @@ Compliance + optimization cross-jurisdiction.
 - [[CVM_vs_SEC]] — Fato Relevante vs 8-K; Form 4 vs FR; BDR vs ADR
 - [[Tax_lot_selection]] — FIFO vs LIFO vs Spec ID vs HIFO strategies
 
-## 📋 Playbooks (7)
+## 📋 Playbooks (8)
 
 Checklists operacionais destilados do código/scoring.
 
 - 🚨 [[Token_discipline]] — **REGRA #1** — in-house first, tokens last. Meta-regra que governa todas as outras.
+- 🤖 [[Agents_layer]] — **autonomy framework** — 4 production agents + scaffolder `ii agents create`
 - [[Analysis_workflow]] — fluxo canónico por caso de uso (panorama → decisão → journal); anti-padrões
 - [[Buy_checklist]] — 7-step pipeline (screen → quality → safety → intent → timing → size → journal)
 - [[Sell_triggers]] — 5 categorias (thesis-broken / quality / valuation / drift / personal)

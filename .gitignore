@@ -21,3 +21,7 @@ data/subscriptions/html/
 
 # Playwright persistent profiles — contêm sessions completas (login state)
 .playwright-profiles/
+
+# agents runtime state + logs
+data/agents/
+logs/agents/
