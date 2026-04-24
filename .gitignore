@@ -8,3 +8,13 @@ __pycache__/
 data/sec_cache/
 # lock files do Claude Code
 .claude/scheduled_tasks.lock
+
+# Obsidian UI state — muda a cada abertura do vault
+obsidian_vault/.obsidian/workspace.json
+obsidian_vault/.obsidian/workspaces.json
+obsidian_vault/.obsidian/graph.json
+
+# subscription fetchers — cookies + PDFs cached (sensíveis)
+data/subscriptions/cookies/
+data/subscriptions/pdfs/
+data/subscriptions/html/

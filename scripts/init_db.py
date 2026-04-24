@@ -379,6 +379,52 @@ CREATE UNIQUE INDEX IF NOT EXISTS ux_themes_dedup
     ON video_themes(video_id, theme, summary_norm);
 CREATE INDEX IF NOT EXISTS idx_themes_theme_created
     ON video_themes(theme, created_at DESC);
+
+-- Analyst reports ingested from paid subscriptions (Suno, XP, WSJ, Finclass, etc).
+-- Each row = one document (article or PDF). Insights extracted by Ollama are
+-- stored in analyst_insights (linked by report_id). Cookies stored externally
+-- in data/subscriptions/cookies/ (gitignored).
+CREATE TABLE IF NOT EXISTS analyst_reports (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    source          TEXT NOT NULL,                -- suno|xp|wsj|finclass|other
+    source_id       TEXT NOT NULL,                -- site-specific ID (slug, url hash)
+    url             TEXT,
+    title           TEXT NOT NULL,
+    author          TEXT,
+    published_at    TEXT NOT NULL,                -- ISO date
+    fetched_at      TEXT NOT NULL,
+    content_type    TEXT NOT NULL,                -- html|pdf|rss_item
+    local_path      TEXT,                         -- file path if downloaded (PDF/HTML snapshot)
+    raw_text        TEXT,                         -- extracted plain text (limited size)
+    language        TEXT DEFAULT 'pt',
+    tags_json       TEXT,                         -- ["br-equity", "sector:banks", ...]
+    summary         TEXT,                         -- Ollama 2-3 sentence summary
+    extracted_at    TEXT,                         -- when Ollama processed (null = pending)
+    extract_status  TEXT DEFAULT 'pending'        -- pending|done|failed|skipped
+);
+CREATE UNIQUE INDEX IF NOT EXISTS ux_reports_source_sid
+    ON analyst_reports(source, source_id);
+CREATE INDEX IF NOT EXISTS idx_reports_pub ON analyst_reports(published_at DESC);
+CREATE INDEX IF NOT EXISTS idx_reports_source_pub ON analyst_reports(source, published_at DESC);
+
+-- Structured insights extracted from analyst_reports.
+-- kind taxonomy aligns with video_insights for unified queries:
+--   thesis|catalyst|risk|numerical|rating|price_target|sector_view
+CREATE TABLE IF NOT EXISTS analyst_insights (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id       INTEGER NOT NULL,
+    ticker          TEXT,                         -- null se view sectorial/macro
+    kind            TEXT NOT NULL,
+    claim           TEXT NOT NULL,
+    stance          TEXT,                         -- bull|bear|neutral (quando aplicável)
+    price_target    REAL,                         -- se rating/PT
+    confidence      REAL NOT NULL DEFAULT 0.5,    -- 0-1 (Ollama self-report)
+    evidence_quote  TEXT,
+    created_at      TEXT NOT NULL,
+    FOREIGN KEY (report_id) REFERENCES analyst_reports(id)
+);
+CREATE INDEX IF NOT EXISTS idx_ainsights_ticker ON analyst_insights(ticker, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_ainsights_report ON analyst_insights(report_id);
 """
 
 
