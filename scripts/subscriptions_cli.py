@@ -106,7 +106,11 @@ def cmd_login(args):
     localStorage: Suno member, Finclass). Login uma vez, depois Playwright
     reusa persistent context.
 
-    Termina quando user fecha a janela do browser OU pressiona Ctrl+C.
+    Features:
+    - Poll automático de localStorage/cookies; avisa quando login detectado.
+    - Captura state.json explícito (session_state.json) — backup em caso de
+      Chromium não flush.
+    - Termina quando user fecha a janela OU pressiona Ctrl+C.
     """
     import time
     src = args.source
@@ -122,33 +126,76 @@ def cmd_login(args):
         "wsj": "https://www.wsj.com/",
         "fool": "https://www.fool.com/",
     }
+    # Markers específicos por site para detectar logged-in
+    login_markers = {
+        "suno": ["cognitoidentityserviceprovider", "accesstoken", "idtoken"],
+        "finclass": ["auth", "token", "jwt"],
+        "xp": ["user", "customer"],
+    }
     browser_closed = False
+    login_detected = False
+    last_storage_snapshot: dict = {}
     try:
         session.get(urls.get(src, "about:blank"), timeout=60)
         print("\n▶ Browser aberto. Faz login manualmente.")
-        print("▶ Fecha a janela do Chromium quando terminares.")
-        print(f"▶ Session será guardada em: {session.profile_dir}\n")
-        # Poll se browser ainda tem pages abertas. Quando user fecha, sai loop.
+        print("▶ IMPORTANTE: espera até veres o DASHBOARD com os teus dados.")
+        print("▶ Quando fechares a janela, session é guardada automaticamente.")
+        print(f"▶ Profile dir: {session.profile_dir}\n")
+        markers = login_markers.get(src, [])
+        state_file = session.profile_dir / "session_state.json"
+        tick = 0
         while True:
             time.sleep(3)
+            tick += 1
             try:
                 pages = session._ctx.pages if session._ctx else []
                 if not pages:
                     browser_closed = True
                     break
-                # Test if page is still alive
-                pages[0].evaluate("() => true")
+                page = pages[0]
+                page.evaluate("() => true")
+                # Poll localStorage para detectar login
+                if not login_detected and markers:
+                    try:
+                        keys = page.evaluate("() => Object.keys(localStorage)")
+                        keys_lc = [k.lower() for k in keys]
+                        if any(any(m in k for m in markers) for k in keys_lc):
+                            login_detected = True
+                            print(f"✓ login detectado ({len(keys)} localStorage keys)")
+                            # Dump storage_state para backup — funciona mesmo se Chromium falhar flush
+                            try:
+                                session._ctx.storage_state(path=str(state_file))
+                                print(f"✓ state snapshot: {state_file.name}")
+                            except Exception as e:
+                                print(f"  (state dump failed: {e})")
+                    except Exception:
+                        pass
+                # Snapshot periódico a cada 30s mesmo sem marker detection
+                if tick % 10 == 0 and login_detected:
+                    try:
+                        session._ctx.storage_state(path=str(state_file))
+                    except Exception:
+                        pass
             except Exception:
                 browser_closed = True
                 break
     except KeyboardInterrupt:
-        print("\n[!] interrompido — session guardada até este ponto")
+        print("\n[!] interrompido")
     finally:
         if not browser_closed:
+            # Save state antes de close
+            try:
+                state_file = session.profile_dir / "session_state.json"
+                session._ctx.storage_state(path=str(state_file))
+            except Exception:
+                pass
             session.close()
-    print(f"✓ session persistida para {src}.")
-    print(f"  Próximo: `ii subs test --source {src}` para validar,")
-    print(f"          depois `ii subs fetch --source {src}` para ingerir relatórios.")
+    if login_detected:
+        print(f"✓ session com login persistida para {src}.")
+    else:
+        print(f"⚠ login NÃO foi detectado (nenhum marker encontrado em localStorage).")
+        print(f"  Verifica se chegaste ao dashboard antes de fechar.")
+    print(f"  Próximo: `ii subs test --source {src}`")
 
 
 def cmd_test(args):
