@@ -76,6 +76,31 @@ US market cap ranking: top-3 always. Often #1 by revenue + profit among banks.
 
 JPM vs others = premium justified by ROE + diversification + leadership.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -6.91%
+- **Drawdown 5y**: -6.91%
+- **YTD**: -4.30%
+- **YoY (1y)**: +29.31%
+- **CAGR 3y**: +30.32%  |  **5y**: +15.71%  |  **10y**: +17.22%
+- **Vol annual**: +25.20%
+- **Sharpe 3y** (rf=4%): +1.13
+
+### Dividendos
+- **DY 5y avg**: +2.27%
+- **Div CAGR 5y**: +10.67%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 16 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_Banks]] — comparativo BR vs US banks (structural differences)

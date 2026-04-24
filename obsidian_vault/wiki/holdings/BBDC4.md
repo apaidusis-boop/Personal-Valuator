@@ -68,6 +68,31 @@ related: ["[[BR_Banks]]", "[[ITSA4]]", "[[Selic]]", "[[Dividend_Safety]]"]
 | [[SANB11]] | 1.1× | 15% | Santander BR |
 | [[BPAC11]] | 3.0× | 25% | wealth growth |
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -8.23%
+- **Drawdown 5y**: -22.76%
+- **YTD**: +9.60%
+- **YoY (1y)**: +51.86%
+- **CAGR 3y**: +14.22%  |  **5y**: -1.37%  |  **10y**: +4.45%
+- **Vol annual**: +28.17%
+- **Sharpe 3y** (rf=4%): +0.35
+
+### Dividendos
+- **DY 5y avg**: +6.92%
+- **Div CAGR 5y**: +1.01%
+- **Frequency**: irregular
+- **Streak** (sem cortes): 11 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_Banks]] — framework bancário + por que scoring especial

@@ -240,6 +240,90 @@ def div_frequency(conn: sqlite3.Connection, ticker: str) -> str:
 # fundamentals-derived
 # ---------------------------------------------------------------------------
 
+def price_cagr(conn: sqlite3.Connection, ticker: str, years: int) -> float | None:
+    """CAGR preço price-only (sem reinvestimento divs) últimos N anos.
+    Retorna percentagem (ex: 8.3 = +8.3%/ano)."""
+    latest = _latest_close(conn, ticker)
+    if not latest:
+        return None
+    end_date, close = latest
+    ref = (date.fromisoformat(end_date) - timedelta(days=365 * years)).isoformat()
+    r = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? AND date<=? ORDER BY date DESC LIMIT 1",
+        (ticker, ref),
+    ).fetchone()
+    p0 = r[0] if r and r[0] else None
+    if not p0 or p0 <= 0:
+        return None
+    return 100.0 * ((close / p0) ** (1.0 / years) - 1.0)
+
+
+def volatility_annualized(conn: sqlite3.Connection, ticker: str, lookback_days: int = 252) -> float | None:
+    """Annualized vol (%) de log-returns diários. ~252 trading days = 1y.
+    Retorna percentagem (ex: 25.0 = 25% annual vol)."""
+    import math
+    latest = _latest_close(conn, ticker)
+    if not latest:
+        return None
+    end_date, _ = latest
+    start = (date.fromisoformat(end_date) - timedelta(days=int(lookback_days * 1.6))).isoformat()
+    rows = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? AND date>=? AND date<=? ORDER BY date ASC",
+        (ticker, start, end_date),
+    ).fetchall()
+    closes = [r[0] for r in rows if r and r[0] and r[0] > 0]
+    if len(closes) < 30:
+        return None
+    raw_returns = [math.log(closes[i] / closes[i - 1]) for i in range(1, len(closes))]
+    # Winsorize: |return| > 50% single-day = data anomaly (corporate action,
+    # stale close, split unadjusted). FIIs sofrem disto particularmente.
+    returns = [r for r in raw_returns if abs(r) < 0.5]
+    n = len(returns)
+    if n < 20:
+        return None
+    mean = sum(returns) / n
+    var = sum((r - mean) ** 2 for r in returns) / (n - 1) if n > 1 else 0
+    daily_vol = math.sqrt(var)
+    return 100.0 * daily_vol * math.sqrt(252)
+
+
+def sharpe_ratio(
+    conn: sqlite3.Connection,
+    ticker: str,
+    years: int = 3,
+    risk_free_pct: float = 4.0,
+) -> float | None:
+    """Sharpe approx = (CAGR - rf) / vol_annual. Dimensionless.
+    `risk_free_pct` = taxa livre risco em %/ano (US 10Y ~4% default)."""
+    cagr = price_cagr(conn, ticker, years)
+    vol = volatility_annualized(conn, ticker, lookback_days=252 * years)
+    if cagr is None or vol is None or vol <= 0:
+        return None
+    return (cagr - risk_free_pct) / vol
+
+
+def dividend_streak_years(conn: sqlite3.Connection, ticker: str) -> int | None:
+    """Anos consecutivos sem cortar dividendo anual (vs ano anterior).
+    Se hist insuficiente, None. Se último ano cortou, streak = 0."""
+    hist = _annual_regular_dividends(conn, ticker, 30)
+    today_year = date.today().year
+    full = [(y, v) for y, v in hist if y < today_year and v > 0]
+    if len(full) < 2:
+        return None
+    streak = 0
+    for i in range(len(full) - 1, 0, -1):
+        y_curr, v_curr = full[i]
+        y_prev, v_prev = full[i - 1]
+        # gap entre anos consecutivos = break
+        if y_curr - y_prev > 1:
+            break
+        if v_curr >= v_prev * 0.95:  # aceita flat ou +; corte se cai >5%
+            streak += 1
+        else:
+            break
+    return streak
+
+
 def pe_vs_own_avg(
     conn: sqlite3.Connection, ticker: str, min_obs: int = 20
 ) -> float | None:
@@ -270,24 +354,71 @@ class TickerMetrics:
     drawdown_5y: float | None
     ytd: float | None
     yoy: float | None
+    cagr_3y: float | None
+    cagr_5y: float | None
+    cagr_10y: float | None
+    vol_annual_pct: float | None
+    sharpe_3y: float | None
     dy_5y_avg_pct: float | None
     div_cagr_5y_pct: float | None
     div_frequency: str
+    div_streak_years: int | None
     pe_vs_own_avg_pct: float | None
 
 
-def compute_all(conn: sqlite3.Connection, ticker: str) -> TickerMetrics:
+def compute_all(conn: sqlite3.Connection, ticker: str, risk_free_pct: float = 4.0) -> TickerMetrics:
     return TickerMetrics(
         ticker=ticker,
         drawdown_52w=drawdown_52w(conn, ticker),
         drawdown_5y=drawdown_5y(conn, ticker),
         ytd=ytd_return(conn, ticker),
         yoy=yoy_return(conn, ticker),
+        cagr_3y=price_cagr(conn, ticker, 3),
+        cagr_5y=price_cagr(conn, ticker, 5),
+        cagr_10y=price_cagr(conn, ticker, 10),
+        vol_annual_pct=volatility_annualized(conn, ticker),
+        sharpe_3y=sharpe_ratio(conn, ticker, years=3, risk_free_pct=risk_free_pct),
         dy_5y_avg_pct=dy_5y_avg(conn, ticker),
         div_cagr_5y_pct=div_cagr_5y(conn, ticker),
         div_frequency=div_frequency(conn, ticker),
+        div_streak_years=dividend_streak_years(conn, ticker),
         pe_vs_own_avg_pct=pe_vs_own_avg(conn, ticker),
     )
+
+
+def render_markdown_snapshot(m: TickerMetrics, currency: str = "") -> str:
+    """Renderiza TickerMetrics como bloco markdown injectável em thesis notes."""
+    def fmt(v, suffix="%", precision=2):
+        if v is None:
+            return "n/a"
+        if isinstance(v, int):
+            return f"{v}{suffix}" if suffix != "%" else str(v)
+        return f"{v:+.{precision}f}{suffix}"
+    def sharpe_fmt(v):
+        return f"{v:+.2f}" if v is not None else "n/a"
+    streak = m.div_streak_years if m.div_streak_years is not None else "n/a"
+    lines = [
+        "## 📈 Live snapshot (auto-gerado)",
+        "",
+        "### Preço",
+        f"- **Drawdown 52w**: {fmt(m.drawdown_52w)}",
+        f"- **Drawdown 5y**: {fmt(m.drawdown_5y)}",
+        f"- **YTD**: {fmt(m.ytd)}",
+        f"- **YoY (1y)**: {fmt(m.yoy)}",
+        f"- **CAGR 3y**: {fmt(m.cagr_3y)}  |  **5y**: {fmt(m.cagr_5y)}  |  **10y**: {fmt(m.cagr_10y)}",
+        f"- **Vol annual**: {fmt(m.vol_annual_pct)}",
+        f"- **Sharpe 3y** (rf=4%): {sharpe_fmt(m.sharpe_3y)}",
+        "",
+        "### Dividendos",
+        f"- **DY 5y avg**: {fmt(m.dy_5y_avg_pct)}",
+        f"- **Div CAGR 5y**: {fmt(m.div_cagr_5y_pct)}",
+        f"- **Frequency**: {m.div_frequency}",
+        f"- **Streak** (sem cortes): {streak} years",
+        "",
+        "### Valuation",
+        f"- **P/E vs own avg**: {fmt(m.pe_vs_own_avg_pct)}",
+    ]
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------

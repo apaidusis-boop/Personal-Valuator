@@ -60,6 +60,31 @@ Holding de participações com core position no **Itaú Unibanco** (~37% do NAV)
 - Intent: **não trimmar**, reinvestir mensal JCP em mais ITSA4 ou BBSE3 / bancos
 - Target: manter ~10-12% do sleeve BR equity
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -6.04%
+- **Drawdown 5y**: -6.04%
+- **YTD**: +21.75%
+- **YoY (1y)**: +39.68%
+- **CAGR 3y**: +23.29%  |  **5y**: +12.44%  |  **10y**: +10.67%
+- **Vol annual**: +23.75%
+- **Sharpe 3y** (rf=4%): +0.88
+
+### Dividendos
+- **DY 5y avg**: +7.68%
+- **Div CAGR 5y**: -1.32%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BBDC4]] — comparar peer (Bradesco vs Itaú via Itaúsa)

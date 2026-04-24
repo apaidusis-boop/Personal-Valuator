@@ -78,6 +78,8 @@ if /i "%CMD%"=="screen-trend" ("%PY%" -X utf8 -m analytics.screen_trend %ARGS%) 
 if /i "%CMD%"=="backtest-yield" ("%PY%" -X utf8 -m analytics.backtest_yield %ARGS%) & goto :EOF
 if /i "%CMD%"=="panorama" (set "SCRIPT=scripts\panorama.py") & goto :RUN
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
+if /i "%CMD%"=="stats" ("%PY%" -X utf8 -m analytics.metrics %ARGS%) & goto :EOF
+if /i "%CMD%"=="refresh-thesis" (set "SCRIPT=scripts\thesis_refresh.py") & goto :RUN
 
 echo Unknown command: %CMD%
 echo Run 'ii help' for list.

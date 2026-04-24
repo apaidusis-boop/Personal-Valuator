@@ -78,6 +78,31 @@ related: ["[[Consumer_Staples_moats]]", "[[Moat_types]]", "[[wiki/tax/Dividend_w
 
 LOW has longer streak (aristocrat) despite smaller; HD has better economics. Trade-off.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -19.87%
+- **Drawdown 5y**: -21.34%
+- **YTD**: -1.89%
+- **YoY (1y)**: -4.80%
+- **CAGR 3y**: +4.00%  |  **5y**: +0.93%  |  **10y**: +9.60%
+- **Vol annual**: +24.10%
+- **Sharpe 3y** (rf=4%): -0.00
+
+### Dividendos
+- **DY 5y avg**: +2.28%
+- **Div CAGR 5y**: +8.66%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 29 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Moat_types]] — scale + network (Pro customer stickiness)

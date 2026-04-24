@@ -69,6 +69,31 @@ Cenário ferro 3-5y:
 - Trim em DY < 3% (cycle peak) → redeploy [[ITSA4]] / [[BBDC4]]
 - Accumulate em DY > 12% (cycle trough) → capital gain ready se ciclo reverte
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -4.57%
+- **Drawdown 5y**: -27.59%
+- **YTD**: +18.78%
+- **YoY (1y)**: +57.86%
+- **CAGR 3y**: +6.11%  |  **5y**: -4.46%  |  **10y**: +16.89%
+- **Vol annual**: +25.19%
+- **Sharpe 3y** (rf=4%): +0.08
+
+### Dividendos
+- **DY 5y avg**: +11.12%
+- **Div CAGR 5y**: -15.08%
+- **Frequency**: semiannual
+- **Streak** (sem cortes): 1 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Iron_ore]] — benchmark + drivers (China demand sub-60% marginal)

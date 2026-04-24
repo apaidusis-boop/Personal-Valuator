@@ -56,6 +56,31 @@ related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[Selic]]", "[[IP
 - **Cyclical** — accumulate em Selic peak, trim em Selic bottom
 - Current: hold, reinvest para [[BTLG11]] (logística mais secular)
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.55%
+- **Drawdown 5y**: -8.30%
+- **YTD**: +1.25%
+- **YoY (1y)**: +5.22%
+- **CAGR 3y**: +3.81%  |  **5y**: +1.02%  |  **10y**: n/a
+- **Vol annual**: +9.79%
+- **Sharpe 3y** (rf=4%): -0.02
+
+### Dividendos
+- **DY 5y avg**: +9.33%
+- **Div CAGR 5y**: +16.59%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — shopping vs retail REITs US

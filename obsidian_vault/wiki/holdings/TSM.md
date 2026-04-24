@@ -88,6 +88,31 @@ Revenue ~$70B+/y, growing 20%+/y in AI upcycle.
 | ASML | EUV lithography | Monopoly |
 | AMAT, LRCX, KLA | Wafer fab equipment | High switching cost |
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.81%
+- **Drawdown 5y**: -1.81%
+- **YTD**: +19.12%
+- **YoY (1y)**: +141.26%
+- **CAGR 3y**: +65.07%  |  **5y**: +26.26%  |  **10y**: +31.30%
+- **Vol annual**: +38.11%
+- **Sharpe 3y** (rf=4%): +1.61
+
+### Dividendos
+- **DY 5y avg**: +1.61%
+- **Div CAGR 5y**: +13.33%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 6 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Semiconductors_cycle]] — sector deep-dive (stack + AI supercycle)

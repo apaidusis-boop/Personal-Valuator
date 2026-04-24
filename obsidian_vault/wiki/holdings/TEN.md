@@ -72,6 +72,31 @@ All 4 must flip:
 
 Unlikely — cycle timing is 12-24 months.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -5.26%
+- **Drawdown 5y**: -5.26%
+- **YTD**: +76.20%
+- **YoY (1y)**: +146.30%
+- **CAGR 3y**: +26.89%  |  **5y**: +33.20%  |  **10y**: +1.96%
+- **Vol annual**: +42.55%
+- **Sharpe 3y** (rf=4%): +0.55
+
+### Dividendos
+- **DY 5y avg**: +3.74%
+- **Div CAGR 5y**: +56.51%
+- **Frequency**: semiannual
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Shipping_cycle]] — canonical framework + distress signals

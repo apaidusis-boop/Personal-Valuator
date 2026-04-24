@@ -58,6 +58,31 @@ related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[Selic]]"]
 - Target 6-8% sleeve BR
 - Reinvest mensal no próprio OR diversificar [[VGIR11]] (papel, anti-cíclico)
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -0.86%
+- **Drawdown 5y**: -9.67%
+- **YTD**: -0.23%
+- **YoY (1y)**: +2.34%
+- **CAGR 3y**: +3.25%  |  **5y**: -1.49%  |  **10y**: +7.06%
+- **Vol annual**: +6.11%
+- **Sharpe 3y** (rf=4%): -0.07
+
+### Dividendos
+- **DY 5y avg**: +8.60%
+- **Div CAGR 5y**: +12.82%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — structural framework
