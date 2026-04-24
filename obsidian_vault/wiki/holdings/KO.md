@@ -74,6 +74,31 @@ related: ["[[Consumer_Staples_moats]]", "[[Buffett_quality]]", "[[Aristocrats_Ki
 
 KO vs PEP debate: **KO better brand**, **PEP better growth** (snacks). Both valid core holdings.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -6.15%
+- **Drawdown 5y**: -6.15%
+- **YTD**: +10.74%
+- **YoY (1y)**: +4.43%
+- **CAGR 3y**: +6.18%  |  **5y**: +7.04%  |  **10y**: +5.52%
+- **Vol annual**: +16.88%
+- **Sharpe 3y** (rf=4%): +0.14
+
+### Dividendos
+- **DY 5y avg**: +2.95%
+- **Div CAGR 5y**: +4.97%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 23 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Consumer_Staples_moats]] — canonical case (brand + DSD)

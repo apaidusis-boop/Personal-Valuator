@@ -79,6 +79,31 @@ Top products:
 | LLY | 10y+ | 30%+ | 0.6% | GLP-1 (Mounjaro) + pipeline |
 | PFE | 14y | 8% (compressed) | 5.8% | Post-COVID revenue cliff |
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.09%
+- **Drawdown 5y**: -7.09%
+- **YTD**: +11.38%
+- **YoY (1y)**: +48.63%
+- **CAGR 3y**: +12.16%  |  **5y**: +6.89%  |  **10y**: +7.36%
+- **Vol annual**: +18.99%
+- **Sharpe 3y** (rf=4%): +0.47
+
+### Dividendos
+- **DY 5y avg**: +2.77%
+- **Div CAGR 5y**: +5.24%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 29 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Consumer_Staples_moats]] — framework defensivo US

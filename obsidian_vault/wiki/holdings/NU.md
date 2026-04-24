@@ -75,6 +75,31 @@ related: ["[[BR_Banks]]", "[[ITSA4]]", "[[BBDC4]]", "[[Moat_types]]"]
 
 Complementary — disruption (NU) + incumbents (ITSA/BBDC).
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -23.03%
+- **Drawdown 5y**: -23.03%
+- **YTD**: -15.16%
+- **YoY (1y)**: +25.67%
+- **CAGR 3y**: +43.18%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +40.23%
+- **Sharpe 3y** (rf=4%): +0.93
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_Banks]] — sector context (NU is disruptor)

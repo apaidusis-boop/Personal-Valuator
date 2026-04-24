@@ -82,6 +82,31 @@ Segments operating:
 
 Hold **BN** if you want full Brookfield exposure. Hold **BAM** if you want clean fee-income. We hold BN (upside + insurance + hard assets).
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.54%
+- **Drawdown 5y**: -7.54%
+- **YTD**: -2.50%
+- **YoY (1y)**: +33.72%
+- **CAGR 3y**: +26.89%  |  **5y**: +13.39%  |  **10y**: +14.29%
+- **Vol annual**: +33.30%
+- **Sharpe 3y** (rf=4%): +0.74
+
+### Dividendos
+- **DY 5y avg**: +0.89%
+- **Div CAGR 5y**: -3.72%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 2 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BLK]] — peer asset manager

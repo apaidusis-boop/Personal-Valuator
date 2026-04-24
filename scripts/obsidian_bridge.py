@@ -432,6 +432,12 @@ def _render_ticker_md(ticker: str, market: str) -> str:
             for v in videos[:5]
         )
         out.append(f"- Vídeos: {vid_links}")
+    # Link auto para thesis note se existir em wiki/holdings/
+    thesis_path = vault_path / "wiki" / "holdings" / f"{ticker}.md" if (vault_path := globals().get("_current_vault_path")) else None
+    # fallback: check relativo ao ROOT default
+    default_vault = ROOT / "obsidian_vault"
+    if (default_vault / "wiki" / "holdings" / f"{ticker}.md").exists():
+        out.append(f"- 🎯 **Thesis**: [[wiki/holdings/{ticker}|thesis deep]]")
     out.append("")
 
     # Snapshot

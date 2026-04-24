@@ -56,6 +56,31 @@ related: ["[[BR_FIIs_vs_US_REITs]]", "[[CDI]]", "[[Selic]]"]
 - Target 5-7% sleeve BR (complementar a tijolo, não core)
 - **Reduzir gradualmente** à medida Selic cai → redeploy para tijolo ([[BTLG11]], [[XPML11]]) que revaluation em ciclo baixo
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.51%
+- **Drawdown 5y**: -3.81%
+- **YTD**: -0.31%
+- **YoY (1y)**: +6.64%
+- **CAGR 3y**: +1.58%  |  **5y**: +0.86%  |  **10y**: n/a
+- **Vol annual**: +9.17%
+- **Sharpe 3y** (rf=4%): -0.23
+
+### Dividendos
+- **DY 5y avg**: +13.37%
+- **Div CAGR 5y**: +9.12%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — papel vs tijolo framework

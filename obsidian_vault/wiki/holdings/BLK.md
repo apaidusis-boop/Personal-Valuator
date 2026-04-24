@@ -76,6 +76,31 @@ Largest holder of many S&P 500 constituents globally (passive flows).
 
 BLK is the only **diversified** winner (passive + active + alts + software).
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -12.26%
+- **Drawdown 5y**: -12.26%
+- **YTD**: -2.75%
+- **YoY (1y)**: +18.22%
+- **CAGR 3y**: +16.10%  |  **5y**: +5.35%  |  **10y**: +11.24%
+- **Vol annual**: +28.92%
+- **Sharpe 3y** (rf=4%): +0.51
+
+### Dividendos
+- **DY 5y avg**: +2.19%
+- **Div CAGR 5y**: +5.98%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 22 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[JPM]] — peer US financial

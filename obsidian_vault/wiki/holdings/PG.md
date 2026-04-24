@@ -79,6 +79,31 @@ Revenue $84B, ~180 países.
 | CHD | 28y | 20% | 1.2% | R&D-driven (Arm & Hammer) |
 | KVUE | 2y | TBD | 3.6% | JNJ consumer spin, rebuilding |
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -14.29%
+- **Drawdown 5y**: -18.96%
+- **YTD**: +2.70%
+- **YoY (1y)**: -12.13%
+- **CAGR 3y**: -2.34%  |  **5y**: +1.69%  |  **10y**: +5.99%
+- **Vol annual**: +19.16%
+- **Sharpe 3y** (rf=4%): -0.37
+
+### Dividendos
+- **DY 5y avg**: +2.46%
+- **Div CAGR 5y**: +5.28%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 22 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Consumer_Staples_moats]] — canonical framework

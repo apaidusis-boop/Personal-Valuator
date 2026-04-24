@@ -78,6 +78,31 @@ Revenue $65B+/y. 730K+ employees across 120+ countries.
 
 ACN premium vs TCS/INFY justified by: Fortune 500 strategy access + global labor mix + breadth.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -44.83%
+- **Drawdown 5y**: -57.08%
+- **YTD**: -31.41%
+- **YoY (1y)**: -38.12%
+- **CAGR 3y**: -13.68%  |  **5y**: -9.38%  |  **10y**: +4.57%
+- **Vol annual**: +35.34%
+- **Sharpe 3y** (rf=4%): -0.63
+
+### Dividendos
+- **DY 5y avg**: +1.38%
+- **Div CAGR 5y**: +5.31%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Consulting_IT_Services]] — canonical sector deep-dive

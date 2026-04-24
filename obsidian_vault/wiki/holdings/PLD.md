@@ -85,6 +85,31 @@ Same as [[O]] — US withhold 30% REIT dividends (ordinary income).
 
 Both logistics-themed. PLD = USD diversification; BTLG = BR tax edge + monthly DRIP.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.61%
+- **Drawdown 5y**: -17.48%
+- **YTD**: +10.62%
+- **YoY (1y)**: +40.68%
+- **CAGR 3y**: +5.04%  |  **5y**: +4.44%  |  **10y**: +12.04%
+- **Vol annual**: +26.44%
+- **Sharpe 3y** (rf=4%): +0.04
+
+### Dividendos
+- **DY 5y avg**: +2.74%
+- **Div CAGR 5y**: +12.52%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 16 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — structural comparison

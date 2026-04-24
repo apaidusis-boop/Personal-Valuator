@@ -77,6 +77,31 @@ Market cap ~$900B+ (2026).
 
 BRK unique combo: holdco + insurance float + stock portfolio + operating businesses. No peer exact.
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -12.55%
+- **Drawdown 5y**: -12.55%
+- **YTD**: -4.99%
+- **YoY (1y)**: -10.40%
+- **CAGR 3y**: +13.13%  |  **5y**: +11.66%  |  **10y**: +12.44%
+- **Vol annual**: +17.92%
+- **Sharpe 3y** (rf=4%): +0.58
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Buffett_quality]] — the framework named after BRK's approach

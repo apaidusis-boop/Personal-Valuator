@@ -68,6 +68,31 @@ Ver [[Oil_cycle]]:
 - Target 5-7% sleeve BR equity
 - **Não reinvest dividendos automaticamente** — capital gain é o driver; hold se tese intacta
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -13.01%
+- **Drawdown 5y**: -13.01%
+- **YTD**: +50.19%
+- **YoY (1y)**: +88.63%
+- **CAGR 3y**: +21.43%  |  **5y**: +27.84%  |  **10y**: +66.63%
+- **Vol annual**: +35.83%
+- **Sharpe 3y** (rf=4%): +0.51
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: annual
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Oil_and_Gas_cycle]] — sector framework (E&P vs majors)

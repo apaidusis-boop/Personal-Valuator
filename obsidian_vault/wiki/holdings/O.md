@@ -89,6 +89,31 @@ Net-lease REIT:
 
 For BR resident tax edge, BR FIIs dominate. O holds place as USD diversifier + different sector (triple-net retail not available BR).
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -5.31%
+- **Drawdown 5y**: -14.62%
+- **YTD**: +11.63%
+- **YoY (1y)**: +10.21%
+- **CAGR 3y**: +1.00%  |  **5y**: -0.99%  |  **10y**: +0.91%
+- **Vol annual**: +16.74%
+- **Sharpe 3y** (rf=4%): -0.17
+
+### Dividendos
+- **DY 5y avg**: +5.09%
+- **Div CAGR 5y**: +5.90%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 1 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — structural comparison

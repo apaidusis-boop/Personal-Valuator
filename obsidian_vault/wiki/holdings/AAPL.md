@@ -78,6 +78,31 @@ Historical P/E range 15-30×. Current 30-35× premium vs historic.
 
 Base case: hold, expect 8-12% TSR long-term (EPS growth + buyback + small dividend).
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -4.25%
+- **Drawdown 5y**: -4.25%
+- **YTD**: +1.11%
+- **YoY (1y)**: +33.93%
+- **CAGR 3y**: +18.34%  |  **5y**: +15.33%  |  **10y**: +26.43%
+- **Vol annual**: +30.83%
+- **Sharpe 3y** (rf=4%): +0.56
+
+### Dividendos
+- **DY 5y avg**: +0.49%
+- **Div CAGR 5y**: +4.46%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 13 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[Moat_types]] — ecosystem + switching cost + brand = triple moat

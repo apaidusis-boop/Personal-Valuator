@@ -71,6 +71,31 @@ related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[Selic]]", "[[wi
   - Bear: tenant falha → activate invalidation trigger, exit 100%
   - Bull: múltiplo re-leasing + Selic corte agressivo → hold full, DY recupera para 9%+
 
+
+<!-- LIVE_SNAPSHOT:BEGIN -->
+_Atualizado: 2026-04-24 14:07_
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.23%
+- **Drawdown 5y**: -28.28%
+- **YTD**: -3.26%
+- **YoY (1y)**: +0.84%
+- **CAGR 3y**: -5.62%  |  **5y**: -3.99%  |  **10y**: n/a
+- **Vol annual**: +16.70%
+- **Sharpe 3y** (rf=4%): -0.57
+
+### Dividendos
+- **DY 5y avg**: +7.57%
+- **Div CAGR 5y**: -1.98%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+<!-- LIVE_SNAPSHOT:END -->
+
 ## Related
 
 - [[BR_FIIs_vs_US_REITs]] — framework FII tijolo
