@@ -105,13 +105,15 @@ def cmd_login(args):
     Usa-se para sites onde Cookie-Editor não captura auth (SPA JWT em
     localStorage: Suno member, Finclass). Login uma vez, depois Playwright
     reusa persistent context.
+
+    Termina quando user fecha a janela do browser OU pressiona Ctrl+C.
     """
+    import time
     src = args.source
     if src not in ADAPTERS:
         print(f"source '{src}' desconhecido")
         return
     print(f"[{src}] abrindo browser para login manual...")
-    print("Faz login normalmente. Quando o dashboard carregar, fecha o terminal (Ctrl+C) ou espera 5 min.")
     session = PlaywrightSession(src, COOKIES_DIR, headless=False, rate_limit_sec=0)
     urls = {
         "suno": "https://investidor.suno.com.br/",
@@ -120,22 +122,33 @@ def cmd_login(args):
         "wsj": "https://www.wsj.com/",
         "fool": "https://www.fool.com/",
     }
+    browser_closed = False
     try:
         session.get(urls.get(src, "about:blank"), timeout=60)
         print("\n▶ Browser aberto. Faz login manualmente.")
-        print("▶ Quando terminares, fecha a janela OU pressiona Ctrl+C aqui.")
-        print("▶ Session guardada em: ", session.profile_dir)
-        # manter o browser aberto — user fecha
-        import time
+        print("▶ Fecha a janela do Chromium quando terminares.")
+        print(f"▶ Session será guardada em: {session.profile_dir}\n")
+        # Poll se browser ainda tem pages abertas. Quando user fecha, sai loop.
         while True:
-            time.sleep(5)
-            if session._ctx is None:
+            time.sleep(3)
+            try:
+                pages = session._ctx.pages if session._ctx else []
+                if not pages:
+                    browser_closed = True
+                    break
+                # Test if page is still alive
+                pages[0].evaluate("() => true")
+            except Exception:
+                browser_closed = True
                 break
     except KeyboardInterrupt:
-        print("\n[!] interrompido — session guardada")
+        print("\n[!] interrompido — session guardada até este ponto")
     finally:
-        session.close()
-    print(f"✓ session persistida para {src}. Próxima run usa-a auto.")
+        if not browser_closed:
+            session.close()
+    print(f"✓ session persistida para {src}.")
+    print(f"  Próximo: `ii subs test --source {src}` para validar,")
+    print(f"          depois `ii subs fetch --source {src}` para ingerir relatórios.")
 
 
 def cmd_test(args):

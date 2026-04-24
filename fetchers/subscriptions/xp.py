@@ -146,8 +146,17 @@ class XPAdapter(BaseAdapter):
     def fetch_one(self, report: Report) -> Report:
         if not _HAS_BS4:
             raise RuntimeError("beautifulsoup4 required")
-        html = self.session.get_text(report.url)
+        html = self.session.get_text(report.url, timeout=30)
         soup = BeautifulSoup(html, "html.parser")
+
+        # Prefer title real do h1 do artigo (listing text é ruidoso com
+        # "23 Abr • 14 mins de leitura..." prefixos).
+        h1 = soup.find("h1")
+        if h1:
+            real_title = h1.get_text(strip=True)
+            if real_title and len(real_title) > 10:
+                report.title = real_title[:200]
+
         # PDF link dentro do artigo?
         pdf_link = None
         for a in soup.find_all("a", href=True):
@@ -156,18 +165,33 @@ class XPAdapter(BaseAdapter):
                 break
         if pdf_link:
             pdf_url = pdf_link if pdf_link.startswith("http") else self.base_url + pdf_link
+            # XP CDN exige Referer do artigo (Imperva WAF). Playwright via
+            # page-context shares cookies+referer; passar explicit headers.
             try:
-                pdf_bytes = self.session.get_bytes(pdf_url)
+                pdf_bytes = self.session.get_bytes(
+                    pdf_url,
+                    extra_headers={"Referer": report.url, "Accept": "application/pdf,*/*;q=0.9"},
+                )
                 local = self.storage_dir / f"{report.source_id}.pdf"
                 local.write_bytes(pdf_bytes)
                 report.raw_bytes = pdf_bytes
                 report.local_path = local
                 report.content_type = "pdf"
+                # guardar HTML também (tem title + summary)
+                article = soup.find("article") or soup.find("main")
+                if article:
+                    report.raw_text = article.get_text(separator="\n", strip=True)[:50_000]
                 return report
             except Exception as e:
                 print(f"  [xp] PDF failed: {e}")
+
         # HTML article
-        article = soup.find("article") or soup.find("main") or soup.body
+        article = (
+            soup.find("article")
+            or soup.find("div", class_="post-content")
+            or soup.find("main")
+            or soup.body
+        )
         text = article.get_text(separator="\n", strip=True) if article else ""
         local = self.storage_dir / f"{report.source_id}.html"
         local.write_text(html, encoding="utf-8")

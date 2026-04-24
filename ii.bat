@@ -98,8 +98,9 @@ echo   ii portfolio                             Daily briefing BR+US+RF
 echo   ii compare ^<TK1^> ^<TK2^> ...              Side-by-side
 echo   ii drip --ticker ^<TK^>                    DRIP projection
 echo.
-echo SUBSCRIPTIONS (Suno, XP, WSJ, Finclass):
+echo SUBSCRIPTIONS (Suno, XP, WSJ, Fool, Finclass):
 echo   ii subs setup                            Prepare dirs + instructions
+echo   ii subs login --source ^<X^>               Manual login headful (Suno/Finclass)
 echo   ii subs test [--source X]                Validate cookies
 echo   ii subs fetch [--source X] [--days 7]    Download new reports
 echo   ii subs extract [--source X]             Ollama extract insights
