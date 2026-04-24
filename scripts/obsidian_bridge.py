@@ -311,6 +311,37 @@ def _fundamentals_trend(ticker: str, market: str) -> list[tuple]:
             return []
 
 
+def _income_trend(ticker: str, market: str) -> list[tuple]:
+    """Quarter/annual trend: (period_end, revenue, ebitda, net_income)."""
+    db = DB_BR if market == "br" else DB_US
+    with sqlite3.connect(db) as c:
+        try:
+            return list(c.execute(
+                """SELECT period_end, revenue, ebitda, net_income
+                   FROM income_statements
+                   WHERE ticker=? AND period_type='annual'
+                   ORDER BY period_end ASC""",
+                (ticker,),
+            ))
+        except sqlite3.OperationalError:
+            return []
+
+
+def _historical_metrics(ticker: str, market: str) -> str | None:
+    """Call analytics.metrics and render markdown snapshot block."""
+    try:
+        from analytics.metrics import compute_all, render_markdown_snapshot
+    except Exception:
+        return None
+    db = DB_BR if market == "br" else DB_US
+    try:
+        with sqlite3.connect(db) as c:
+            m = compute_all(c, ticker)
+        return render_markdown_snapshot(m)
+    except Exception:
+        return None
+
+
 def _render_chart_block(
     chart_type: str, labels: list, series: list[dict],
     title: str = "", width: str = "80%",
@@ -490,10 +521,42 @@ def _render_ticker_md(ticker: str, market: str) -> str:
             out.append(f"- `{dt or '??'}` **{ch}** — [{kind} conf={conf:.2f}] {claim}")
         out.append("")
 
+    # Historical metrics block (CAGR, vol, Sharpe, drawdowns, div streak)
+    hist_md = _historical_metrics(ticker, market)
+    if hist_md:
+        out.append(hist_md)
+        out.append("")
+
+    # Income statement trend (revenue + EBITDA + net income)
+    inc = _income_trend(ticker, market)
+    if len(inc) >= 2:
+        out.append("## 💰 Income statement trend (annual)\n")
+        out.append("| Period | Revenue | EBITDA | Net Income |")
+        out.append("|---|---|---|---|")
+        cur_sym = "R$" if market == "br" else "$"
+        def _fmt(v):
+            if v is None:
+                return "n/a"
+            try:
+                v = float(v)
+                if abs(v) >= 1e9:
+                    return f"{cur_sym}{v/1e9:.2f}B"
+                if abs(v) >= 1e6:
+                    return f"{cur_sym}{v/1e6:.1f}M"
+                return f"{cur_sym}{v:,.0f}"
+            except Exception:
+                return str(v)
+        for row in inc[-8:]:
+            pe, rev, ebitda, ni = row
+            out.append(f"| {pe} | {_fmt(rev)} | {_fmt(ebitda)} | {_fmt(ni)} |")
+        out.append("")
+
     # Charts (requires plugin "Charts" — https://github.com/phibr0/obsidian-charts)
+    # ℹ Se não vês os gráficos, activar plugin: Settings → Community plugins → Charts
     price_rows = _price_series(ticker, market, days=365)
     if len(price_rows) >= 10:
         out.append("## 📈 Price history 1y\n")
+        out.append("_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._\n")
         # down-sample para ~60 pontos
         step = max(1, len(price_rows) // 60)
         sampled = price_rows[::step]

@@ -23,6 +23,11 @@ import logging
 import sqlite3
 import sys
 import traceback
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except (AttributeError, ValueError):
+    pass
 from datetime import datetime, timezone
 from pathlib import Path
 
