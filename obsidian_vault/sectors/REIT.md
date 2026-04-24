@@ -1,13 +1,13 @@
 ---
 type: sector
 name: REIT
-count: 2
+count: 3
 tags: [sector]
 ---
 
 # 🏢 REIT
 
-Total tickers: **2**
+Total tickers: **3**
 Holdings: **2**
 
 ## Tabela live (Dataview)
@@ -23,3 +23,4 @@ SORT is_holding DESC, pnl_pct ASC
 
 - ★ [[O]] _(us)_
 - ★ [[PLD]] _(us)_
+- [[FRT]] _(us)_

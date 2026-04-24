@@ -16,7 +16,7 @@ streak_years: 65
 aristocrat: true
 screen_score: 0.4
 screen_pass: false
-altman_z: 5.343
+altman_z: 5.38
 piotroski: 5
 div_safety: 95
 div_safety_verdict: SAFE
@@ -24,7 +24,7 @@ position_qty: 10
 entry_price: 142.76
 pnl_pct: 2
 market_value: 1456.2
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, consumer_staples]
 ---
 
@@ -34,7 +34,7 @@ tags: [holding, us, consumer_staples]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.4/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 5.4/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,7 +45,7 @@ tags: [holding, us, consumer_staples]
 
 ### Detalhes
 
-- **Quality**: Altman Z 5.342804396557909 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 95.0/100
+- **Quality**: Altman Z 5.379707039232729 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 95.0/100
 - **Valuation**: Screen 0.40, DY percentil P2 (EXPENSIVE)
 - **Momentum**: 1d 2.32%, 30d 1.72%, YTD 2.7%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -62,12 +62,13 @@ tags: [holding, us, consumer_staples]
 - Sector: [[sectors/Consumer_Staples|Consumer Staples]]
 - Market: [[markets/US|US]]
 - Peers: [[KO]] · [[ADM]] · [[BF-B]] · [[CHD]] · [[CL]]
+- 🎯 **Thesis**: [[wiki/holdings/PG|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: $145.62  (2026-04-23)    _+2.32% 1d_
 - **Screen**: 0.4  ✗ fail
-- **Altman Z**: 5.343 (safe)
+- **Altman Z**: 5.38 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 95.0/100 (SAFE)
 - **Posição**: 10.0 sh @ $142.76  →  P&L 2.0%
@@ -94,7 +95,39 @@ tags: [holding, us, consumer_staples]
 - **2026-01-22** `8-K` — 8-K | 7.01,9.01
 - **2026-01-13** `8-K` — 8-K | 7.01,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -14.29%
+- **Drawdown 5y**: -18.96%
+- **YTD**: +2.70%
+- **YoY (1y)**: -12.13%
+- **CAGR 3y**: -2.34%  |  **5y**: +1.69%  |  **10y**: +5.99%
+- **Vol annual**: +19.16%
+- **Sharpe 3y** (rf=4%): -0.37
+
+### Dividendos
+- **DY 5y avg**: +2.46%
+- **Div CAGR 5y**: +5.28%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 22 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-06-30 | n/a | n/a | n/a |
+| 2022-06-30 | $80.19B | $14.74B | $13.57B |
+| 2023-06-30 | $82.01B | $14.65B | $13.79B |
+| 2024-06-30 | $84.04B | $14.88B | $16.52B |
+| 2025-06-30 | $84.28B | $15.97B | $14.04B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -141,4 +174,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

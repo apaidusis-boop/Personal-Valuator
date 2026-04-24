@@ -22,7 +22,7 @@ position_qty: 7
 entry_price: 306.5557
 pnl_pct: 1.61
 market_value: 2180.39
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:15Z"
 tags: [holding, us, financials]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, us, financials]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.2/10  |  **Confiança**: 60%  |  _2026-04-24 00:02_
+> **Score**: 6.2/10  |  **Confiança**: 60%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -58,7 +58,8 @@ tags: [holding, us, financials]
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[GS]] · [[NU]] · [[TFC]]
-- Vídeos: [[videos/WIRWPyYNJzE|Turbulência global, petróleo e oportunid]] · [[videos/7EBNjOuA-mI|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
+- Vídeos: [[videos/2026-04-10_btg-pactual_turbulencia-global-petroleo-e-oportunidades-em-tecnologia-radar-do-inv|Turbulência global, petróleo e oportunid]] · [[videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
+- 🎯 **Thesis**: [[wiki/holdings/JPM|thesis deep]]
 
 ## Snapshot
 
@@ -97,7 +98,39 @@ tags: [holding, us, financials]
 - `2026-03-17` **O Primo Rico** — [thesis_bull conf=0.80] O JP Morgan recomenda diversificação geográfica de carteiras, indicando que a Europa e os mercados emergentes estão descontados em relação aos EUA.
 - `2026-03-17` **O Primo Rico** — [management conf=0.70] O JP Morgan Private Bank recomenda aos clientes que saiam da dependência total de um único mercado e diversifiquem geograficamente.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -6.91%
+- **Drawdown 5y**: -6.91%
+- **YTD**: -4.30%
+- **YoY (1y)**: +29.31%
+- **CAGR 3y**: +30.32%  |  **5y**: +15.71%  |  **10y**: +17.22%
+- **Vol annual**: +25.20%
+- **Sharpe 3y** (rf=4%): +1.13
+
+### Dividendos
+- **DY 5y avg**: +2.27%
+- **Div CAGR 5y**: +10.67%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 16 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $127.73B | $37.68B | $107.12B |
+| 2023-12-31 | $154.95B | $49.55B | $12.97B |
+| 2024-12-31 | $169.44B | $58.47B | $-42.01B |
+| 2025-12-31 | $181.85B | $57.05B | $-147.78B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -144,4 +177,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

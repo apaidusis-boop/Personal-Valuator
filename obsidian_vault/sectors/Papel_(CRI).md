@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Papel (CRI)
-count: 1
+count: 8
 tags: [sector]
 ---
 
 # 🏢 Papel (CRI)
 
-Total tickers: **1**
+Total tickers: **8**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,10 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[VGIR11]] _(br)_
+- [[KNCR11]] _(br)_
+- [[MCCI11]] _(br)_
+- [[MCRF11]] _(br)_
+- [[RBRY11]] _(br)_
+- [[RECR11]] _(br)_
+- [[VGIP11]] _(br)_
+- [[VRTA11]] _(br)_

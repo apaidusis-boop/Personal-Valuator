@@ -16,7 +16,7 @@ streak_years: 40
 aristocrat: true
 screen_score: 0.6
 screen_pass: false
-altman_z: 5.777
+altman_z: 5.712
 piotroski: 4
 div_safety: 80
 div_safety_verdict: SAFE
@@ -24,7 +24,7 @@ position_qty: 1
 entry_price: 292.02
 pnl_pct: 16.19
 market_value: 339.3
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:15Z"
 tags: [holding, us, consumer_disc.]
 ---
 
@@ -34,7 +34,7 @@ tags: [holding, us, consumer_disc.]
 
 ## 🎯 Verdict — 🟡 WATCH
 
-> **Score**: 6.6/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 6.6/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,7 +45,7 @@ tags: [holding, us, consumer_disc.]
 
 ### Detalhes
 
-- **Quality**: Altman Z 5.777184938374351 (SAFE), Piotroski 4/9 (NEUTRAL), DivSafety 80.0/100
+- **Quality**: Altman Z 5.711518479962093 (SAFE), Piotroski 4/9 (NEUTRAL), DivSafety 80.0/100
 - **Valuation**: Screen 0.60, DY percentil P94 (CHEAP)
 - **Momentum**: 1d -1.34%, 30d 2.54%, YTD -1.89%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -62,12 +62,13 @@ tags: [holding, us, consumer_disc.]
 - Sector: [[sectors/Consumer_Disc.|Consumer Disc.]]
 - Market: [[markets/US|US]]
 - Peers: [[TSLA]] · [[GPC]] · [[LEG]] · [[LOW]] · [[MCD]]
+- 🎯 **Thesis**: [[wiki/holdings/HD|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: $339.30  (2026-04-23)    _-1.34% 1d_
 - **Screen**: 0.6  ✗ fail
-- **Altman Z**: 5.777 (safe)
+- **Altman Z**: 5.712 (safe)
 - **Piotroski**: 4/9
 - **Div Safety**: 80.0/100 (SAFE)
 - **Posição**: 1.0 sh @ $292.02  →  P&L 16.19%
@@ -94,7 +95,39 @@ tags: [holding, us, consumer_disc.]
 - **2025-11-25** `10-Q` — 10-Q
 - **2025-11-24** `8-K` — 8-K | 5.03,8.01,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -19.87%
+- **Drawdown 5y**: -21.34%
+- **YTD**: -1.89%
+- **YoY (1y)**: -4.80%
+- **CAGR 3y**: +4.00%  |  **5y**: +0.93%  |  **10y**: +9.60%
+- **Vol annual**: +24.10%
+- **Sharpe 3y** (rf=4%): -0.00
+
+### Dividendos
+- **DY 5y avg**: +2.28%
+- **Div CAGR 5y**: +8.66%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 29 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2022-01-31 | n/a | n/a | n/a |
+| 2023-01-31 | $157.40B | $17.11B | $11.50B |
+| 2024-01-31 | $152.67B | $15.14B | $17.95B |
+| 2025-01-31 | $159.51B | $14.81B | $16.32B |
+| 2026-01-31 | $164.68B | $14.16B | $12.65B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -141,4 +174,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

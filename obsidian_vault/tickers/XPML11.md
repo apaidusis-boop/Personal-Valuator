@@ -18,7 +18,7 @@ position_qty: 147
 entry_price: 108.58
 pnl_pct: 1.55
 market_value: 16208.22
-updated: "2026-04-23T21:02:31Z"
+updated: "2026-04-24T11:37:13Z"
 tags: [holding, br, shopping]
 ---
 
@@ -28,7 +28,7 @@ tags: [holding, br, shopping]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.4/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 5.4/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -56,6 +56,7 @@ tags: [holding, br, shopping]
 - Sector: [[sectors/Shopping|Shopping]]
 - Market: [[markets/BR|BR]]
 - Peers: [[PMLL11]] · [[VISC11]]
+- 🎯 **Thesis**: [[wiki/holdings/XPML11|thesis deep]]
 
 ## Snapshot
 
@@ -80,7 +81,39 @@ tags: [holding, br, shopping]
 - 2026-01-19: R$0.9198
 - 2025-12-17: R$0.9198
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.55%
+- **Drawdown 5y**: -8.30%
+- **YTD**: +1.25%
+- **YoY (1y)**: +5.22%
+- **CAGR 3y**: +3.81%  |  **5y**: +1.02%  |  **10y**: n/a
+- **Vol annual**: +9.79%
+- **Sharpe 3y** (rf=4%): -0.02
+
+### Dividendos
+- **DY 5y avg**: +9.33%
+- **Div CAGR 5y**: +16.59%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-06-30 | R$-30.7M | R$-44.0M | R$40.6M |
+| 2022-06-30 | R$116.9M | R$97.4M | R$93.6M |
+| 2023-06-30 | R$554.6M | R$526.9M | R$157.0M |
+| 2024-06-30 | R$852.1M | R$817.6M | R$144.2M |
+| 2025-06-30 | n/a | n/a | n/a |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -112,4 +145,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

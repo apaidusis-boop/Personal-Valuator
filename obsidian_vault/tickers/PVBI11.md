@@ -19,7 +19,7 @@ position_qty: 201
 entry_price: 79.08
 pnl_pct: -1.18
 market_value: 15708.15
-updated: "2026-04-23T21:02:30Z"
+updated: "2026-04-24T11:37:11Z"
 tags: [holding, br, corporativo]
 ---
 
@@ -29,7 +29,7 @@ tags: [holding, br, corporativo]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.5/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 3.5/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -55,6 +55,7 @@ tags: [holding, br, corporativo]
 
 - Sector: [[sectors/Corporativo|Corporativo]]
 - Market: [[markets/BR|BR]]
+- 🎯 **Thesis**: [[wiki/holdings/PVBI11|thesis deep]]
 
 ## Snapshot
 
@@ -79,7 +80,38 @@ tags: [holding, br, corporativo]
 - 2025-11-03: R$0.4500
 - 2025-10-01: R$0.4500
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.23%
+- **Drawdown 5y**: -28.28%
+- **YTD**: -3.26%
+- **YoY (1y)**: +0.84%
+- **CAGR 3y**: -5.62%  |  **5y**: -3.99%  |  **10y**: n/a
+- **Vol annual**: +16.70%
+- **Sharpe 3y** (rf=4%): -0.57
+
+### Dividendos
+- **DY 5y avg**: +7.57%
+- **Div CAGR 5y**: -1.98%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-06-30 | R$51.1M | R$88.5M | R$43.8M |
+| 2022-06-30 | R$83.5M | R$60.0M | R$73.4M |
+| 2023-06-30 | R$325.1M | R$115.5M | R$79.2M |
+| 2024-06-30 | R$131.5M | R$231.6M | R$121.4M |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -111,4 +143,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

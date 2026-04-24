@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Technology
-count: 4
+count: 8
 tags: [sector]
 ---
 
 # 🏢 Technology
 
-Total tickers: **4**
+Total tickers: **8**
 Holdings: **4**
 
 ## Tabela live (Dataview)
@@ -25,3 +25,7 @@ SORT is_holding DESC, pnl_pct ASC
 - ★ [[ACN]] _(us)_
 - ★ [[PLTR]] _(us)_
 - ★ [[TSM]] _(us)_
+- [[IBM]] _(us)_
+- [[JKHY]] _(us)_
+- [[MSFT]] _(us)_
+- [[ROP]] _(us)_

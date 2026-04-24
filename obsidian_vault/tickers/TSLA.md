@@ -15,7 +15,7 @@ streak_years: 0
 aristocrat: false
 screen_score: 0
 screen_pass: false
-altman_z: 17.606
+altman_z: 16.869
 piotroski: 5
 div_safety: 30.8
 div_safety_verdict: RISK
@@ -23,7 +23,7 @@ position_qty: 3
 entry_price: 186.4033
 pnl_pct: 100.33
 market_value: 1120.29
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, consumer_disc.]
 ---
 
@@ -33,7 +33,7 @@ tags: [holding, us, consumer_disc.]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 3.0/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -44,7 +44,7 @@ tags: [holding, us, consumer_disc.]
 
 ### Detalhes
 
-- **Quality**: Altman Z 17.605654072370243 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 30.8/100
+- **Quality**: Altman Z 16.868733177825185 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 30.8/100
 - **Valuation**: Screen 0.00, DY percentil - (-)
 - **Momentum**: 1d -3.36%, 30d -2.51%, YTD -14.76%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -65,7 +65,7 @@ tags: [holding, us, consumer_disc.]
 
 - **Preço**: $373.43  (2026-04-23)    _-3.36% 1d_
 - **Screen**: 0.0  ✗ fail
-- **Altman Z**: 17.606 (safe)
+- **Altman Z**: 16.869 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 30.8/100 (RISK)
 - **Posição**: 3.0 sh @ $186.40333333333334  →  P&L 100.33%
@@ -84,7 +84,39 @@ tags: [holding, us, consumer_disc.]
 - **2026-01-02** `8-K` — 8-K | 2.02,9.01
 - **2025-11-07** `8-K` — 8-K | 5.02,5.07,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -23.77%
+- **Drawdown 5y**: -23.77%
+- **YTD**: -14.76%
+- **YoY (1y)**: +48.93%
+- **CAGR 3y**: +31.95%  |  **5y**: +8.96%  |  **10y**: +36.37%
+- **Vol annual**: +55.86%
+- **Sharpe 3y** (rf=4%): +0.48
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $81.46B | $12.58B | $7.55B |
+| 2023-12-31 | $96.77B | $15.00B | $4.36B |
+| 2024-12-31 | $97.69B | $7.13B | $3.58B |
+| 2025-12-31 | $94.83B | $3.79B | $6.22B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -131,4 +163,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

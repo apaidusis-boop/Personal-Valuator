@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Logística
-count: 1
+count: 4
 tags: [sector]
 ---
 
 # 🏢 Logística
 
-Total tickers: **1**
+Total tickers: **4**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,6 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[BTLG11]] _(br)_
+- [[BRCO11]] _(br)_
+- [[HGLG11]] _(br)_
+- [[XPLG11]] _(br)_

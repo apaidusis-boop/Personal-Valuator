@@ -22,7 +22,7 @@ position_qty: 1
 entry_price: 417.99
 pnl_pct: 12.93
 market_value: 472.04
-updated: "2026-04-23T21:02:32Z"
+updated: "2026-04-24T11:37:13Z"
 tags: [holding, us, holding]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, us, holding]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 4.3/10  |  **Confiança**: 60%  |  _2026-04-24 00:02_
+> **Score**: 4.3/10  |  **Confiança**: 60%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -58,6 +58,7 @@ tags: [holding, us, holding]
 
 - Sector: [[sectors/Holding|Holding]]
 - Market: [[markets/US|US]]
+- 🎯 **Thesis**: [[wiki/holdings/BRK-B|thesis deep]]
 
 ## Snapshot
 
@@ -82,7 +83,39 @@ tags: [holding, us, holding]
 - **2026-03-02** `10-K` — 10-K
 - **2026-03-02** `8-K` — 8-K | 2.02,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -12.55%
+- **Drawdown 5y**: -12.55%
+- **YTD**: -4.99%
+- **YoY (1y)**: -10.40%
+- **CAGR 3y**: +13.13%  |  **5y**: +11.66%  |  **10y**: +12.44%
+- **Vol annual**: +17.92%
+- **Sharpe 3y** (rf=4%): +0.58
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $234.12B | $-22.76B | $21.89B |
+| 2023-12-31 | $439.34B | $96.22B | $29.79B |
+| 2024-12-31 | $424.23B | $89.00B | $11.62B |
+| 2025-12-31 | $410.52B | $66.97B | $25.04B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -129,4 +162,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

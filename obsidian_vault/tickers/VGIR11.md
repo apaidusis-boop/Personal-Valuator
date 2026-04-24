@@ -18,7 +18,7 @@ position_qty: 1638
 entry_price: 9.71
 pnl_pct: 0.93
 market_value: 16052.4
-updated: "2026-04-23T21:02:30Z"
+updated: "2026-04-24T11:37:11Z"
 tags: [holding, br, papel_(cri)]
 ---
 
@@ -28,7 +28,7 @@ tags: [holding, br, papel_(cri)]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.8/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 5.8/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -57,6 +57,7 @@ tags: [holding, br, papel_(cri)]
 - Sector: [[sectors/Papel_(CRI)|Papel (CRI)]]
 - Market: [[markets/BR|BR]]
 - Peers: [[KNCR11]] · [[MCCI11]] · [[MCRF11]] · [[RBRY11]] · [[RECR11]]
+- 🎯 **Thesis**: [[wiki/holdings/VGIR11|thesis deep]]
 
 ## Snapshot
 
@@ -81,7 +82,29 @@ tags: [holding, br, papel_(cri)]
 - 2026-01-14: R$0.1300
 - 2025-12-11: R$0.1300
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.51%
+- **Drawdown 5y**: -3.81%
+- **YTD**: -0.31%
+- **YoY (1y)**: +6.64%
+- **CAGR 3y**: +1.58%  |  **5y**: +0.86%  |  **10y**: n/a
+- **Vol annual**: +9.17%
+- **Sharpe 3y** (rf=4%): -0.23
+
+### Dividendos
+- **DY 5y avg**: +13.37%
+- **Div CAGR 5y**: +9.12%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -113,4 +136,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

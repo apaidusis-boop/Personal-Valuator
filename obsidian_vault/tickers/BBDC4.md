@@ -21,7 +21,7 @@ position_qty: 1828
 entry_price: 16.08
 pnl_pct: 24.19
 market_value: 36505.16
-updated: "2026-04-23T21:02:24Z"
+updated: "2026-04-24T11:37:05Z"
 tags: [holding, br, banks]
 ---
 
@@ -31,7 +31,7 @@ tags: [holding, br, banks]
 
 ## 🎯 Verdict — 🟡 WATCH
 
-> **Score**: 7.1/10  |  **Confiança**: 60%  |  _2026-04-24 00:02_
+> **Score**: 7.1/10  |  **Confiança**: 60%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -59,7 +59,8 @@ tags: [holding, br, banks]
 - Sector: [[sectors/Banks|Banks]]
 - Market: [[markets/BR|BR]]
 - Peers: [[BBAS3]] · [[ITUB4]] · [[SANB11]]
-- Vídeos: [[videos/yS2rb3Ksu18|BBDC3 OU BBDC4? O BANCO MAIS BARATO COM ]]
+- Vídeos: [[videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al|BBDC3 OU BBDC4? O BANCO MAIS BARATO COM ]]
+- 🎯 **Thesis**: [[wiki/holdings/BBDC4|thesis deep]]
 
 ## Snapshot
 
@@ -100,7 +101,39 @@ tags: [holding, br, banks]
 - `2026-04-16` **Virtual Asset** — [valuation conf=0.80] O Bradesco está sendo negociado com um P/L de 8 vezes, considerado baixo em comparação ao benchmark do mercado.
 - `2026-04-16` **Virtual Asset** — [thesis_bull conf=0.70] O Bradesco tem uma carteira de crédito trilionária e cresceu 11% no ano, indicando um bom desempenho para o futuro.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -8.23%
+- **Drawdown 5y**: -22.76%
+- **YTD**: +9.60%
+- **YoY (1y)**: +51.86%
+- **CAGR 3y**: +14.22%  |  **5y**: -1.37%  |  **10y**: +4.45%
+- **Vol annual**: +28.17%
+- **Sharpe 3y** (rf=4%): +0.35
+
+### Dividendos
+- **DY 5y avg**: +6.92%
+- **Div CAGR 5y**: +1.01%
+- **Frequency**: irregular
+- **Streak** (sem cortes): 11 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | R$108.85B | R$21.22B | R$40.36B |
+| 2023-12-31 | R$98.33B | R$14.25B | R$-9.32B |
+| 2024-12-31 | R$105.33B | R$17.25B | R$42.18B |
+| 2025-12-31 | R$117.81B | R$23.67B | R$-74.16B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -162,4 +195,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

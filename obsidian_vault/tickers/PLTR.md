@@ -15,7 +15,7 @@ streak_years: 0
 aristocrat: false
 screen_score: 0.25
 screen_pass: false
-altman_z: 149.307
+altman_z: 145.273
 piotroski: 8
 div_safety: 44.4
 div_safety_verdict: RISK
@@ -23,7 +23,7 @@ position_qty: 1.8673
 entry_price: 80.329
 pnl_pct: 76.99
 market_value: 265.49
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, technology]
 ---
 
@@ -33,7 +33,7 @@ tags: [holding, us, technology]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 4.6/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 4.6/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -44,7 +44,7 @@ tags: [holding, us, technology]
 
 ### Detalhes
 
-- **Quality**: Altman Z 149.30650478034661 (SAFE), Piotroski 8/9 (STRONG), DivSafety 44.4/100
+- **Quality**: Altman Z 145.272924089584 (SAFE), Piotroski 8/9 (STRONG), DivSafety 44.4/100
 - **Valuation**: Screen 0.25, DY percentil - (-)
 - **Momentum**: 1d -2.6%, 30d -8.14%, YTD -15.3%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -65,7 +65,7 @@ tags: [holding, us, technology]
 
 - **Preço**: $142.18  (2026-04-23)    _-2.60% 1d_
 - **Screen**: 0.25  ✗ fail
-- **Altman Z**: 149.307 (safe)
+- **Altman Z**: 145.273 (safe)
 - **Piotroski**: 8/9
 - **Div Safety**: 44.4/100 (RISK)
 - **Posição**: 1.8673199999999999 sh @ $80.32902769744875  →  P&L 76.99%
@@ -83,7 +83,39 @@ tags: [holding, us, technology]
 - **2025-11-04** `10-Q` — 10-Q
 - **2025-11-03** `8-K` — 8-K | 2.02,7.01,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -31.38%
+- **Drawdown 5y**: -31.38%
+- **YTD**: -15.30%
+- **YoY (1y)**: +41.02%
+- **CAGR 3y**: +159.88%  |  **5y**: +43.44%  |  **10y**: n/a
+- **Vol annual**: +57.42%
+- **Sharpe 3y** (rf=4%): +2.43
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $1.91B | $-373.7M | $183.7M |
+| 2023-12-31 | $2.23B | $209.8M | $697.1M |
+| 2024-12-31 | $2.87B | $462.2M | $1.14B |
+| 2025-12-31 | $4.48B | $1.63B | $2.10B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -130,4 +162,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

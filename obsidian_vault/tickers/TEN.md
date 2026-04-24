@@ -16,7 +16,7 @@ streak_years: 24
 aristocrat: false
 screen_score: 0.6
 screen_pass: false
-altman_z: 1.017
+altman_z: 1.006
 piotroski: 3
 div_safety: 65
 div_safety_verdict: WATCH
@@ -24,7 +24,7 @@ position_qty: 35
 entry_price: 23.928
 pnl_pct: 61.19
 market_value: 1349.95
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, energy]
 ---
 
@@ -34,7 +34,7 @@ tags: [holding, us, energy]
 
 ## 🎯 Verdict — ⛔ AVOID
 
-> **Score**: 4.0/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 4.0/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,14 +45,14 @@ tags: [holding, us, energy]
 
 ### Detalhes
 
-- **Quality**: Altman Z 1.0174747449842618 (DISTRESS), Piotroski 3/9 (WEAK), DivSafety 65.0/100
+- **Quality**: Altman Z 1.0060151318410075 (DISTRESS), Piotroski 3/9 (WEAK), DivSafety 65.0/100
 - **Valuation**: Screen 0.60, DY percentil P17 (EXPENSIVE)
 - **Momentum**: 1d 0.34%, 30d -2.43%, YTD 76.2%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- Altman 1.02 < 1.81 (distress veto)
+- Altman 1.01 < 1.81 (distress veto)
 - quality frágil
 
 
@@ -61,12 +61,13 @@ tags: [holding, us, energy]
 - Sector: [[sectors/Energy|Energy]]
 - Market: [[markets/US|US]]
 - Peers: [[CVX]] · [[XOM]]
+- 🎯 **Thesis**: [[wiki/holdings/TEN|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: $38.57  (2026-04-23)    _+0.34% 1d_
 - **Screen**: 0.6  ✗ fail
-- **Altman Z**: 1.017 (distress)
+- **Altman Z**: 1.006 (distress)
 - **Piotroski**: 3/9
 - **Div Safety**: 65.0/100 (WATCH)
 - **Posição**: 35.0 sh @ $23.928  →  P&L 61.19%
@@ -93,7 +94,39 @@ tags: [holding, us, energy]
 - **2025-11-21** `6-K` — 6-K
 - **2025-10-30** `6-K` — 6-K
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -5.26%
+- **Drawdown 5y**: -5.26%
+- **YTD**: +76.20%
+- **YoY (1y)**: +146.30%
+- **CAGR 3y**: +26.89%  |  **5y**: +33.20%  |  **10y**: +1.96%
+- **Vol annual**: +42.55%
+- **Sharpe 3y** (rf=4%): +0.55
+
+### Dividendos
+- **DY 5y avg**: +3.74%
+- **Div CAGR 5y**: +56.51%
+- **Frequency**: semiannual
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $860.4M | $204.2M | $-44.8M |
+| 2023-12-31 | $889.6M | $300.2M | $96.9M |
+| 2024-12-31 | $804.1M | $176.2M | $-342.3M |
+| 2025-12-31 | $798.7M | $160.9M | $-224.1M |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -140,4 +173,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

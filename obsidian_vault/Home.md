@@ -1,6 +1,6 @@
 # 🏠 Investment Intelligence Vault
 
-_Export: 2026-04-23 21:02 UTC_
+_Export: 2026-04-24 11:37 UTC_
 
 ## 🚀 Começa aqui
 - [[My Portfolio|💼 A minha carteira AGORA]] — overview + totals + holdings table
@@ -22,31 +22,38 @@ _Export: 2026-04-23 21:02 UTC_
 - [[markets/US|🇺🇸 United States]]
 
 ## Sectors
-- [[sectors/Banks|Banks]] (1 tickers)
-- [[sectors/Communication|Communication]] (1 tickers)
-- [[sectors/Consumer_Disc.|Consumer Disc.]] (2 tickers)
-- [[sectors/Consumer_Staples|Consumer Staples]] (2 tickers)
+- [[sectors/Banks|Banks]] (4 tickers)
+- [[sectors/Communication|Communication]] (2 tickers)
+- [[sectors/Consumer_Disc.|Consumer Disc.]] (9 tickers)
+- [[sectors/Consumer_Staples|Consumer Staples]] (20 tickers)
 - [[sectors/Corporativo|Corporativo]] (1 tickers)
 - [[sectors/ETF|ETF]] (1 tickers)
 - [[sectors/ETF-RF|ETF-RF]] (1 tickers)
 - [[sectors/ETF-US|ETF-US]] (1 tickers)
-- [[sectors/Energy|Energy]] (1 tickers)
-- [[sectors/Financials|Financials]] (7 tickers)
-- [[sectors/Healthcare|Healthcare]] (2 tickers)
+- [[sectors/Energy|Energy]] (3 tickers)
+- [[sectors/Financials|Financials]] (20 tickers)
+- [[sectors/Healthcare|Healthcare]] (7 tickers)
 - [[sectors/Holding|Holding]] (2 tickers)
-- [[sectors/Híbrido|Híbrido]] (1 tickers)
-- [[sectors/Logística|Logística]] (1 tickers)
+- [[sectors/Híbrido|Híbrido]] (5 tickers)
+- [[sectors/Industrials|Industrials]] (23 tickers)
+- [[sectors/Insurance|Insurance]] (2 tickers)
+- [[sectors/Logística|Logística]] (4 tickers)
+- [[sectors/Materials|Materials]] (11 tickers)
 - [[sectors/Mining|Mining]] (1 tickers)
-- [[sectors/Oil_&_Gas|Oil & Gas]] (1 tickers)
-- [[sectors/Papel_(CRI)|Papel (CRI)]] (1 tickers)
-- [[sectors/REIT|REIT]] (2 tickers)
-- [[sectors/Shopping|Shopping]] (1 tickers)
-- [[sectors/Technology|Technology]] (4 tickers)
+- [[sectors/Oil_&_Gas|Oil & Gas]] (2 tickers)
+- [[sectors/Papel_(CRI)|Papel (CRI)]] (8 tickers)
+- [[sectors/REIT|REIT]] (3 tickers)
+- [[sectors/Real_Estate|Real Estate]] (2 tickers)
+- [[sectors/Shopping|Shopping]] (3 tickers)
+- [[sectors/Technology|Technology]] (8 tickers)
+- [[sectors/Telecom|Telecom]] (1 tickers)
+- [[sectors/Uncategorized|Uncategorized]] (17 tickers)
+- [[sectors/Utilities|Utilities]] (22 tickers)
 
-## Tickers — **34** exportados
+## Tickers — **183** exportados
 - Pasta: [[tickers/]]
 
-## Videos YouTube — **14** ingeridos
+## Videos YouTube — **21** ingeridos
 - Pasta: [[videos/]]
 
 ## Graph View

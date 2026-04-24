@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Banks
-count: 1
+count: 4
 tags: [sector]
 ---
 
 # 🏢 Banks
 
-Total tickers: **1**
+Total tickers: **4**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,6 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[BBDC4]] _(br)_
+- [[BBAS3]] _(br)_
+- [[ITUB4]] _(br)_
+- [[SANB11]] _(br)_
