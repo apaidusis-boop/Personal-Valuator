@@ -38,32 +38,35 @@ class WSJAdapter(BaseAdapter):
     source = "wsj"
     base_url = "https://www.wsj.com"
 
+    # NOTA (2026-04-24): feeds.a.dj.com/rss/* devolve items de 2025-01 (stale!).
+    # O feed actual que funciona é MarketWatch (Dow Jones sibling, freemium):
+    # feeds.content.dowjones.io/public/rss/mw_topstories retorna items do próprio dia.
+    # WSJ puro (pay-walled) não tem RSS fresh público — requer Playwright para
+    # discover. Este adapter usa MarketWatch como proxy + fetch de WSJ article
+    # individual via cookies para content premium.
     RSS_FEEDS = [
-        ("markets", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
-        ("tech", "https://feeds.a.dj.com/rss/RSSWSJD.xml"),
-        ("world", "https://feeds.a.dj.com/rss/RSSWorldNews.xml"),
-        ("business", "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"),
-        ("opinion", "https://feeds.a.dj.com/rss/RSSOpinion.xml"),
+        ("mw_topstories", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+        ("mw_marketpulse", "https://feeds.content.dowjones.io/public/rss/mw_marketpulse"),
+        ("mw_bulletins", "https://feeds.content.dowjones.io/public/rss/mw_bulletins"),
     ]
 
-    # Default keywords para auto-filter; user pode override por CLI
-    DEFAULT_KEYWORDS = [
-        "Federal Reserve", "Treasury", "earnings", "Apple", "Microsoft",
-        "Tesla", "Nvidia", "semiconductors", "OPEC", "dividend",
-        "interest rates", "recession", "inflation",
-    ]
+    # Default vazio — WSJ RSS é high-volume, user afina keywords se quiser.
+    # Para já, aceitar tudo; filtro pode ir em extract stage.
+    DEFAULT_KEYWORDS: list[str] = []
 
     def __init__(self, session, storage_dir, keywords=None):
         super().__init__(session, storage_dir)
-        self.keywords = keywords or self.DEFAULT_KEYWORDS
+        self.keywords = keywords if keywords is not None else self.DEFAULT_KEYWORDS
 
     def test_access(self) -> tuple[bool, str]:
+        # Markers confirmados via probe (2026-04-24): "logout", "customer center"
         try:
-            r = self.session.get("https://www.wsj.com/")
+            r = self.session.get("https://www.wsj.com/", timeout=20)
+            if r.status_code != 200:
+                return (False, f"wsj: ✗ status {r.status_code}")
             html = r.text.lower()
-            # WSJ mostra "sign in" quando logged out, "my wsj" ou username quando in
-            signed_in = "my wsj" in html or "sign out" in html
-            return (signed_in, f"wsj: {'✓ logged in' if signed_in else '✗ paywall active — refresh cookies'}")
+            signed_in = "logout" in html or "customer center" in html
+            return (signed_in, f"wsj: {'✓ logged in' if signed_in else '✗ not logged in — refresh cookies'}")
         except Exception as e:
             return (False, f"wsj test: {e}")
 
@@ -94,29 +97,46 @@ class WSJAdapter(BaseAdapter):
                 if keywords_lc and not any(k in hay for k in keywords_lc):
                     continue
                 sid = hashlib.sha1(link.encode()).hexdigest()[:16]
+                # Guardar description do RSS como raw_text — fallback se o
+                # artigo estiver behind paywall MarketWatch (cookies WSJ não
+                # autenticam em marketwatch.com).
+                clean_desc = re.sub(r"<[^>]+>", " ", desc).strip() if desc else ""
                 yield Report(
                     source=self.source, source_id=sid, url=link, title=title,
                     published_at=pub_iso, content_type="html", language="en",
+                    raw_text=clean_desc[:5000] if clean_desc else None,
                     tags=["us-equity", "wsj", f"section:{section}"],
                 )
 
     def fetch_one(self, report: Report) -> Report:
         if not _HAS_BS4:
             raise RuntimeError("beautifulsoup4 required for wsj adapter")
-        html = self.session.get_text(report.url)
+        rss_desc = report.raw_text  # preserva fallback já set em discover
+        try:
+            html = self.session.get_text(report.url)
+        except Exception as e:
+            # MarketWatch articles retornam 401 com WSJ cookies — usar RSS desc
+            report.tags.append("paywall_cross_domain")
+            if not rss_desc:
+                report.raw_text = f"(fetch failed: {e})"
+            return report
         soup = BeautifulSoup(html, "html.parser")
-        # WSJ: <section name="articleBody"> ou <article> com class articleBody
+        # WSJ: <section name="articleBody"> / MarketWatch: <div class="article__body">
         body = (
             soup.find("section", attrs={"name": "articleBody"})
+            or soup.find("div", class_="article__body")
             or soup.find("article")
             or soup.find("main")
         )
         text = body.get_text(separator="\n", strip=True) if body else ""
-        # detectar paywall (artigo truncado < 1000 chars sem sinais de completo)
-        if len(text) < 1000 and "subscribe" in html.lower():
+        # Se não encontrou corpo decente, fica com RSS description.
+        if len(text) < 500 and rss_desc:
+            text = rss_desc
+            report.tags.append("rss_description_only")
+        if "subscribe to continue" in html.lower() and len(text) < 1000:
             report.tags.append("paywall_partial")
         local = self.storage_dir / f"{report.source_id}.html"
         local.write_text(html, encoding="utf-8")
         report.local_path = local
-        report.raw_text = text[:50_000]
+        report.raw_text = text[:50_000] if text else rss_desc
         return report
