@@ -7,8 +7,8 @@ tags: [wiki, index]
 
 > Fundações conceptuais. Cada nota é um nó do grafo. Links aggressivos cross-wiki.
 >
-> Fase A concluída: 31 notas (16 methods + 10 macro + 5 history).
-> Próxima fase: companies deep + sectors + analyst tracking.
+> **Status**: Fases A + B.1 + C.1 + D + E concluídas → **53 notas**.
+> Fase C.2 (analyst tracking infra) + Fase B.2 (holdings/watchlist deep) pendentes.
 
 ## 🧪 Methodology (16)
 
@@ -38,9 +38,9 @@ Frameworks e ferramentas de análise.
 ### Risk management
 - [[Kelly_criterion]] — position sizing optimal
 
-## 🌐 Macro indicators (10)
+## 🌐 Macro indicators (11)
 
-Séries que driva valuation + regime.
+Séries que drivam valuation + regime.
 
 ### Brasil
 - [[Selic]] — taxa básica BR
@@ -58,6 +58,9 @@ Séries que driva valuation + regime.
 - [[Brent_WTI]] — oil benchmarks
 - [[Iron_ore]] — VALE3 driver
 
+### Cross-market
+- [[BR_vs_US_equity_culture]] — **comparação estrutural tax/retail/governance/currency**
+
 ## 📜 Historical context (5)
 
 Como interest rates + crises evolved.
@@ -68,42 +71,90 @@ Como interest rates + crises evolved.
 - [[2008_GFC]] — Global Financial Crisis
 - [[2020_COVID_crash]] — fastest bear ever
 
+## 🏢 Setores (8)
+
+Deep-dives com framework + peer tables + links para tickers.
+
+- [[BR_Banks]] — por que bancos precisam scoring separado; Big 5 + boutique + digital + seguradora
+- [[BR_Utilities]] — transmissão vs distribuição vs geração; RAP, PLD, hidrologia
+- [[BR_FIIs_vs_US_REITs]] — structural diff (tax, mandate, cadência); tijolo/papel vs REIT types
+- [[Consulting_IT_Services]] — ACN/IBM/TCS/INFY; strategy/implement/managed mix
+- [[Oil_and_Gas_cycle]] — upstream/midstream/downstream; majors vs E&P vs PETR4
+- [[Semiconductors_cycle]] — fabless/foundry/IDM; NVDA/TSM/ASML/AVGO; AI supercycle
+- [[Pulp_and_Paper_cycle]] — BEKP cash cost; SUZB3 + KLBN4 + FX lever
+- [[Consumer_Staples_moats]] — PG/KO/CL; brand + DSD + private label threat + GLP-1
+
+## 🔄 Cycles (5)
+
+Frameworks para timing de entrada/saída cyclical.
+
+- [[Oil_cycle]] — 4 fases (Discovery → Oversupply → Discipline → Shortage); indicators
+- [[Semi_cycle]] — 3-4y cycle; memory/logic/equipment desincronizados; AI supercycle
+- [[Pulp_cycle]] — BEKP spot + port inventory; BR structural low-cost advantage
+- [[Real_estate_cycle]] — 6-10y long cycle; sector-specific (office decline, industrial bull, DC secular)
+- [[Shipping_cycle]] — 4-6y; tanker peak 2026 ([[TEN]] distress case)
+
+## 💰 Tax & Regulatory (5)
+
+Compliance + optimization cross-jurisdiction.
+
+- [[BR_dividend_isencao]] — 0% IR residente PF; JCP trick; PL 1.087/2025 watch
+- [[US_LTCG_STCG]] — LT/ST holding periods; brackets; wash sale; state tax
+- [[Dividend_withholding_BR_US]] — BR resident holding US stocks; W-8BEN; Irish UCITS alternative
+- [[CVM_vs_SEC]] — Fato Relevante vs 8-K; Form 4 vs FR; BDR vs ADR
+- [[Tax_lot_selection]] — FIFO vs LIFO vs Spec ID vs HIFO strategies
+
+## 📋 Playbooks (4)
+
+Checklists operacionais destilados do código/scoring.
+
+- [[Buy_checklist]] — 7-step pipeline (screen → quality → safety → intent → timing → size → journal)
+- [[Sell_triggers]] — 5 categorias (thesis-broken / quality / valuation / drift / personal)
+- [[Rebalance_cadence]] — trimestral drift check; semestral execution; rebalance-by-contribution
+- [[Tax_lot_selection_practical]] — JPM UI steps + scenarios (TLH, partial exit, charitable)
+
 ## 🗺 Próximas fases (roadmap)
 
-### Fase B — Company + Sector deep (planeado)
-- 32 holdings expanded com business model + moat + mix
-- 50 priority watchlist
-- 20 sector deep-dives (Banks BR, Consulting, FIIs BR vs REITs US, Oil cycle, etc.)
+### Fase B.2 — Holdings deep (pending)
+- 32 holdings expanded com business model + moat + mix narrative.
+- 50 priority watchlist enrichment.
 
-### Fase C — Cycles & analyst tracking
-- Oil/semis/pulp/real estate cycles detailed
-- Analyst firm track records (Bradesco BBI, XP, BTG, Goldman, JPM)
-- YouTube channel accuracy tracking
+### Fase C.2 — Analyst tracking infra (pending)
+- DB schema novo: `analyst_calls` + `yt_predictions`.
+- Track record de firms (Bradesco BBI, XP, BTG, Goldman, JPM).
+- YouTube channel accuracy tracking (leverage phase Q pipeline).
+- Integration com `ii surprise` (earnings targets vs real).
 
-### Fase D — Tax / regulatory
-- BR dividend tax (isenção + JCP)
-- US LTCG vs STCG
-- CVM vs SEC differences
-
-### Fase E — Personal playbooks
-- Buy/Sell checklists
-- Rebalance cadence
-- Tax lot selection
+### Fase F — Trade journal reflexivo (ideia)
+- Journal estruturado de entries/exits com 6-month lookback.
+- "O que acertei / errei" — lição aprendida.
+- Link para teses específicas.
 
 ## 🔗 Como usar
 
-1. **Entry point**: abrir qualquer nota → seguir backlinks + forwardlinks
-2. **Search**: `Ctrl+O` → procurar conceito
-3. **Graph view** (ícone canto esquerdo) — visualizar conexões
-4. **Dataview queries** em `dashboards/*` — filtrar por tag/type
+1. **Entry point**: abrir qualquer nota → seguir backlinks + forwardlinks.
+2. **Search**: `Ctrl+O` → procurar conceito.
+3. **Graph view** (ícone canto esquerdo) — visualizar conexões.
+4. **Dataview queries** em `dashboards/*` — filtrar por tag/type.
+5. **Smart Chat** (Smart Connections plugin + Ollama) — pergunta livre sobre vault.
 
 ## 💡 Convenção
 
-- `type: method | macro | history | sector | company | analyst | tax`
-- Frontmatter YAML estruturado (Dataview-friendly)
-- Links internos sempre: `[[Note_name]]`
-- Tags taxonomia: `#method/valuation`, `#macro/br`, `#sector/banks`
+- `type: method | macro | history | sector | cycle | tax | playbook | company | analyst | wiki_index`
+- Frontmatter YAML estruturado (Dataview-friendly).
+- Links internos sempre: `[[Note_name]]`.
+- Tags taxonomia: `#method/valuation`, `#macro/br`, `#sector/banks`, `#cycle/oil`, `#playbook/buy`.
+
+## 📊 Vault stats (2026-04-24)
+
+- **Wiki notes**: 53 (16 methods + 11 macro + 5 history + 8 sectors + 5 cycles + 5 tax + 4 playbooks)
+- **Ticker notes**: 34 (auto-generated via `obsidian_bridge.py`)
+- **Video notes**: 14 (Phase Q YouTube pipeline)
+- **Dashboards**: 3 (Portfolio, Sectors, Briefing)
+- **Total**: ~104 markdown notes + frontmatter indexable via Dataview
 
 ---
 
-*Populated 2026-04-23 — 31 notas initial. Continuous expansion.*
+*Phase A: 2026-04-23 — 31 notas initial.*
+*Phase B.1+C.1+D+E: 2026-04-24 — +22 notas (sectors + cycles + tax + playbooks).*
+*Continuous expansion.*
