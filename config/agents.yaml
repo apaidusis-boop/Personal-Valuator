@@ -60,3 +60,33 @@ agents:
     config:
       sources: [fool, xp, wsj]
       days: 7
+
+  # ─── Risk Auditor (daily) ──────────────────────────────────────────
+  # Daily 21:00 — detecta drift de tese em holdings (P/E expansion,
+  # drawdowns, euphoria, DY compression). Cria watchlist_actions.
+  - name: risk_auditor
+    class: agents.risk_auditor:RiskAuditorAgent
+    enabled: true
+    schedule: "daily:21:00"
+    description: "Drift detection em holdings via regras deterministic + Ollama narrativa"
+    config: {}
+
+  # ─── Devil's Advocate (weekly) ─────────────────────────────────────
+  # Quarta 10:00 — para holdings com sentimento muito positivo, Ollama
+  # gera bear case contrafactual + injecta em wiki/holdings/<X>.md.
+  - name: devils_advocate
+    class: agents.devils_advocate:DevilsAdvocateAgent
+    enabled: true
+    schedule: "weekly:wed:10:00"
+    description: "Anti-confirmation-bias: injecta bear case em theses bullish"
+    config: {}
+
+  # ─── Meta Agent (compliance officer) ───────────────────────────────
+  # Daily 23:00 — audita outros agents. Auto-disable failures >=3 consec.
+  # Dashboard health em obsidian_vault/agents/_dashboard.md.
+  - name: meta_agent
+    class: agents.meta_agent:MetaAgent
+    enabled: true
+    schedule: "daily:23:00"
+    description: "Compliance officer — audita outros agents, auto-disable, dashboard health"
+    config: {}

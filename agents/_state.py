@@ -38,9 +38,14 @@ class AgentState:
         self._data["run_count"] = self._data.get("run_count", 0) + 1
         self._data["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         self._data["last_status"] = status
+        # consecutive_failures — resetado quando status != failed.
+        # Usado pelo MetaAgent para auto-disable (>3 failures consecutive).
         if status == "failed":
             self._data["failed_count"] = self._data.get("failed_count", 0) + 1
+            self._data["consecutive_failures"] = self._data.get("consecutive_failures", 0) + 1
             self._data["last_error"] = error
+        else:
+            self._data["consecutive_failures"] = 0
         self.save()
 
     def get(self, key: str, default=None):

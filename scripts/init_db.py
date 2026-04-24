@@ -425,6 +425,49 @@ CREATE TABLE IF NOT EXISTS analyst_insights (
 );
 CREATE INDEX IF NOT EXISTS idx_ainsights_ticker ON analyst_insights(ticker, created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_ainsights_report ON analyst_insights(report_id);
+
+-- Predictions log — para learning loop (Phase V.backlog analyst_backtest).
+-- Grava cada prediction (analyst insight OR verdict OR YouTube claim) com
+-- price-at-prediction; agent backtest compara com preço N dias depois
+-- e computa accuracy por source. Feeds back em source credibility weights.
+CREATE TABLE IF NOT EXISTS predictions (
+    id               INTEGER PRIMARY KEY AUTOINCREMENT,
+    source           TEXT NOT NULL,                -- 'analyst:xp' | 'analyst:fool' | 'youtube:channel' | 'verdict'
+    source_ref       TEXT,                         -- report_id | video_id | run_id
+    ticker           TEXT NOT NULL,
+    prediction_date  TEXT NOT NULL,                -- ISO date when prediction was made
+    price_at_pred    REAL,                         -- from prices table at pred date
+    predicted_stance TEXT NOT NULL,                -- bull | bear | neutral
+    price_target     REAL,                         -- nullable
+    horizon_days     INTEGER DEFAULT 90,           -- when to evaluate
+    confidence       REAL DEFAULT 0.5,             -- source confidence 0-1
+    claim            TEXT,                         -- original claim text (short)
+    evaluated_at     TEXT,                         -- when backtest agent ran
+    price_at_eval    REAL,                         -- price N days later
+    outcome          TEXT,                         -- 'correct' | 'wrong' | 'neutral' | 'pending'
+    FOREIGN KEY (ticker) REFERENCES companies(ticker)
+);
+CREATE INDEX IF NOT EXISTS idx_pred_ticker_date ON predictions(ticker, prediction_date DESC);
+CREATE INDEX IF NOT EXISTS idx_pred_eval_pending ON predictions(evaluated_at) WHERE evaluated_at IS NULL;
+CREATE INDEX IF NOT EXISTS idx_pred_source ON predictions(source);
+
+-- Agent audit trail — cada run de agent registado persistentemente
+-- (vai além do agent state JSON; permite queries históricas cross-agent).
+CREATE TABLE IF NOT EXISTS agent_runs (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    agent           TEXT NOT NULL,
+    status          TEXT NOT NULL,                 -- ok|no_action|failed|skipped
+    started_at      TEXT NOT NULL,
+    finished_at     TEXT,
+    duration_sec    REAL,
+    summary         TEXT,
+    actions_json    TEXT,                          -- JSON array de actions
+    errors_json     TEXT,                          -- JSON array de errors
+    data_json       TEXT,                          -- JSON payload agent-specific
+    reason          TEXT                           -- scheduled|manual|triggered
+);
+CREATE INDEX IF NOT EXISTS idx_agent_runs_agent ON agent_runs(agent, started_at DESC);
+CREATE INDEX IF NOT EXISTS idx_agent_runs_status ON agent_runs(status);
 """
 
 
@@ -538,6 +581,10 @@ def _migrate(conn: sqlite3.Connection) -> None:
 def init(db_path: Path) -> None:
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_path) as conn:
+        # WAL mode — permite multi-agent concurrent writes sem lock contention.
+        # Persistente no DB file (só precisa setar 1×).
+        conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA synchronous=NORMAL")  # WAL + normal = safe + fast
         conn.executescript(SCHEMA)
         _migrate(conn)
         if "br_investments" in db_path.name:
