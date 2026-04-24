@@ -194,6 +194,42 @@ class PlaywrightSession:
         if not self._cookies_imported_file.exists() and self.cookies_path.exists():
             self._import_cookies()
             self._cookies_imported_file.touch()
+        # Restore session_state.json backup se existir — recovery path para
+        # SPAs onde Chromium profile não fluiu localStorage correctamente.
+        state_backup = self.profile_dir / "session_state.json"
+        restore_marker = self.profile_dir / ".state_restored"
+        if state_backup.exists() and not restore_marker.exists():
+            try:
+                self._restore_state(state_backup)
+                restore_marker.touch()
+                print(f"[pw:{self.source}] session_state.json restored from backup")
+            except Exception as e:
+                print(f"[pw:{self.source}] state restore failed: {e}")
+
+    def _restore_state(self, state_path: "Path") -> None:
+        """Re-injecta cookies + localStorage de um storage_state.json dump."""
+        import json as _json
+        state = _json.loads(state_path.read_text(encoding="utf-8"))
+        # Cookies
+        if state.get("cookies"):
+            try:
+                self._ctx.add_cookies(state["cookies"])
+            except Exception as e:
+                print(f"  cookie restore partial: {e}")
+        # localStorage — requer navegar ao origin primeiro
+        for origin_entry in state.get("origins", []):
+            origin = origin_entry.get("origin")
+            if not origin:
+                continue
+            try:
+                self._page.goto(origin, wait_until="commit", timeout=15000)
+                for item in origin_entry.get("localStorage", []):
+                    k, v = item["name"], item["value"]
+                    self._page.evaluate(
+                        f"() => localStorage.setItem({k!r}, {v!r})"
+                    )
+            except Exception as e:
+                print(f"  localStorage restore for {origin} failed: {e}")
 
     def _import_cookies(self) -> None:
         """Lê Cookie-Editor JSON e injecta no contexto Playwright."""
