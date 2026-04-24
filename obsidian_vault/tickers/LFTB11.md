@@ -14,7 +14,7 @@ position_qty: 1026
 entry_price: 120.27
 pnl_pct: 0.45
 market_value: 123951.06
-updated: "2026-04-23T21:02:28Z"
+updated: "2026-04-24T11:37:09Z"
 tags: [holding, br, etf-rf]
 ---
 
@@ -24,7 +24,7 @@ tags: [holding, br, etf-rf]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -67,6 +67,26 @@ tags: [holding, br, etf-rf]
 - ROE: n/a% | EPS: n/a | BVPS: n/a
 - Streak div: n/ay | Aristocrat: n/a
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: +0.00%
+- **Drawdown 5y**: +0.00%
+- **YTD**: +0.11%
+- **YoY (1y)**: n/a
+- **CAGR 3y**: n/a  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: n/a
+- **Sharpe 3y** (rf=4%): n/a
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

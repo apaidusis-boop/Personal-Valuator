@@ -22,7 +22,7 @@ position_qty: 30
 entry_price: 63.5633
 pnl_pct: 0.65
 market_value: 1919.25
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, reit]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, us, reit]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.6/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 5.6/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -60,6 +60,7 @@ tags: [holding, us, reit]
 - Sector: [[sectors/REIT|REIT]]
 - Market: [[markets/US|US]]
 - Peers: [[PLD]] · [[FRT]]
+- 🎯 **Thesis**: [[wiki/holdings/O|thesis deep]]
 
 ## Snapshot
 
@@ -92,7 +93,39 @@ tags: [holding, us, reit]
 - **2026-03-25** `proxy` — DEF 14A
 - **2026-03-02** `8-K` — 8-K | 5.02,7.01,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -5.31%
+- **Drawdown 5y**: -14.62%
+- **YTD**: +11.63%
+- **YoY (1y)**: +10.21%
+- **CAGR 3y**: +1.00%  |  **5y**: -0.99%  |  **10y**: +0.91%
+- **Vol annual**: +16.74%
+- **Sharpe 3y** (rf=4%): -0.17
+
+### Dividendos
+- **DY 5y avg**: +5.09%
+- **Div CAGR 5y**: +5.90%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 1 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $3.34B | $869.4M | $2.56B |
+| 2023-12-31 | $4.08B | $872.3M | $2.96B |
+| 2024-12-31 | $5.27B | $860.8M | $3.57B |
+| 2025-12-31 | $5.75B | $1.06B | $3.99B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -139,4 +172,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

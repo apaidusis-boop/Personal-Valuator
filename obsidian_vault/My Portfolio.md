@@ -3,7 +3,7 @@ tags: [portfolio, landing]
 ---
 # 💼 Minha Carteira — 2026-04-24
 
-_Actualizado: 2026-04-23 21:02 UTC_
+_Actualizado: 2026-04-24 11:37 UTC_
 _Refresh: `ii obsidian --refresh --holdings-only`_
 
 ## Totais consolidados

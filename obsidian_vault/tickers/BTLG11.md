@@ -21,7 +21,7 @@ position_qty: 154
 entry_price: 103.29
 pnl_pct: 0.15
 market_value: 15931.3
-updated: "2026-04-23T21:02:24Z"
+updated: "2026-04-24T11:37:05Z"
 tags: [holding, br, logística]
 ---
 
@@ -31,7 +31,7 @@ tags: [holding, br, logística]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.0/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 5.0/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -59,6 +59,7 @@ tags: [holding, br, logística]
 - Sector: [[sectors/Logística|Logística]]
 - Market: [[markets/BR|BR]]
 - Peers: [[BRCO11]] · [[HGLG11]] · [[XPLG11]]
+- 🎯 **Thesis**: [[wiki/holdings/BTLG11|thesis deep]]
 
 ## Snapshot
 
@@ -83,7 +84,29 @@ tags: [holding, br, logística]
 - 2026-01-16: R$0.7900
 - 2025-12-16: R$0.7900
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -0.86%
+- **Drawdown 5y**: -9.67%
+- **YTD**: -0.23%
+- **YoY (1y)**: +2.34%
+- **CAGR 3y**: +3.25%  |  **5y**: -1.49%  |  **10y**: +7.06%
+- **Vol annual**: +6.11%
+- **Sharpe 3y** (rf=4%): -0.07
+
+### Dividendos
+- **DY 5y avg**: +8.60%
+- **Div CAGR 5y**: +12.82%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -115,4 +138,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

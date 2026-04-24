@@ -19,7 +19,7 @@ altman_z: 2.793
 piotroski: 6
 div_safety: 61.5
 div_safety_verdict: WATCH
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, communication]
 ---
 
@@ -29,7 +29,7 @@ tags: [holding, us, communication]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.6/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 3.6/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -79,7 +79,39 @@ tags: [holding, us, communication]
 - **2026-03-25** `8-K` — 8-K | 3.01,5.02,9.01
 - **2026-03-09** `8-K` — 8-K | 5.02
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -74.15%
+- **Drawdown 5y**: -83.37%
+- **YTD**: -38.43%
+- **YoY (1y)**: -51.22%
+- **CAGR 3y**: -28.01%  |  **5y**: -19.82%  |  **10y**: n/a
+- **Vol annual**: +73.95%
+- **Sharpe 3y** (rf=4%): -0.52
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $1.58B | $53.4M | $456.8M |
+| 2023-12-31 | $1.95B | $178.9M | $543.3M |
+| 2024-12-31 | $2.44B | $393.1M | $632.4M |
+| 2025-12-31 | $2.90B | $443.3M | $783.0M |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -126,4 +158,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

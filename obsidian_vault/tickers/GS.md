@@ -22,7 +22,7 @@ position_qty: 1
 entry_price: 318.83
 pnl_pct: 192.27
 market_value: 931.85
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:15Z"
 tags: [holding, us, financials]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, us, financials]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.5/10  |  **Confiança**: 60%  |  _2026-04-24 00:02_
+> **Score**: 6.5/10  |  **Confiança**: 60%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -58,7 +58,7 @@ tags: [holding, us, financials]
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[JPM]] · [[NU]] · [[TFC]]
-- Vídeos: [[videos/UZHTffhDF8Y|KLABIN MUDOU O PLANO? NOVA ORDEM DE DIVI]] · [[videos/dgqAHfvcPYs|POR QUE O DÓLAR ESTÁ CAINDO TANTO? (vai ]] · [[videos/6_On_fZLA_E|BANCO DO BRASIL (BBAS3) vai DECEPCIONAR?]]
+- Vídeos: [[videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4|KLABIN MUDOU O PLANO? NOVA ORDEM DE DIVI]] · [[videos/2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais|POR QUE O DÓLAR ESTÁ CAINDO TANTO? (vai ]] · [[videos/2025-08-01_suno-noticias_banco-do-brasil-bbas3-vai-decepcionar-projecoes-para-grandes-bancos|BANCO DO BRASIL (BBAS3) vai DECEPCIONAR?]]
 
 ## Snapshot
 
@@ -98,7 +98,39 @@ tags: [holding, us, financials]
 - `2025-08-01` **Suno Notícias** — [guidance conf=0.80] Goldman Sachs tem uma avaliação mais conservadora para os resultados do Itaú, estimando um lucro líquido de R$11,3 bilhões.
 - `2025-08-01` **Suno Notícias** — [guidance conf=0.80] Goldman Sachs reduziu a estimativa de lucro líquido para o Banco do Brasil, agora projetando R$4,9 bilhões.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -4.51%
+- **Drawdown 5y**: -4.51%
+- **YTD**: +1.92%
+- **YoY (1y)**: +76.05%
+- **CAGR 3y**: +39.41%  |  **5y**: +22.39%  |  **10y**: +18.89%
+- **Vol annual**: +31.82%
+- **Sharpe 3y** (rf=4%): +1.27
+
+### Dividendos
+- **DY 5y avg**: +2.13%
+- **Div CAGR 5y**: +21.14%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 15 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $47.37B | $11.26B | $4.96B |
+| 2023-12-31 | $46.25B | $8.52B | $-14.90B |
+| 2024-12-31 | $53.51B | $14.28B | $-15.30B |
+| 2025-12-31 | $58.28B | $17.18B | $-47.22B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -145,4 +177,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

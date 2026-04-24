@@ -15,7 +15,7 @@ roe_pct: 17.57
 streak_years: 20
 screen_score: 1
 screen_pass: true
-altman_z: 7.374
+altman_z: 7.155
 piotroski: 5
 div_safety: 55
 div_safety_verdict: RISK
@@ -23,7 +23,7 @@ position_qty: 2472
 entry_price: 7.75
 pnl_pct: 82.71
 market_value: 35003.52
-updated: "2026-04-23T21:02:27Z"
+updated: "2026-04-24T11:37:08Z"
 tags: [holding, br, holding]
 ---
 
@@ -33,7 +33,7 @@ tags: [holding, br, holding]
 
 ## 🎯 Verdict — 🟢 ADD
 
-> **Score**: 7.6/10  |  **Confiança**: 80%  |  _2026-04-24 00:02_
+> **Score**: 7.6/10  |  **Confiança**: 80%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -44,7 +44,7 @@ tags: [holding, br, holding]
 
 ### Detalhes
 
-- **Quality**: Altman Z 7.374147288658429 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 55.0/100
+- **Quality**: Altman Z 7.155057658469749 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 55.0/100
 - **Valuation**: Screen 1.00, DY percentil P79 (CHEAP)
 - **Momentum**: 1d -1.73%, 30d 3.43%, YTD 21.75%
 - **Narrativa**: user_note=False, YT insights 60d=7
@@ -60,13 +60,14 @@ tags: [holding, br, holding]
 
 - Sector: [[sectors/Holding|Holding]]
 - Market: [[markets/BR|BR]]
-- Vídeos: [[videos/eM1acX1fYb4|DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! I]] · [[videos/9NoUlvsLR2M|ITSA4: DESCONTO EXAGERADO É CILADA? COMO]]
+- Vídeos: [[videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co|DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! I]] · [[videos/2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com|ITSA4: DESCONTO EXAGERADO É CILADA? COMO]]
+- 🎯 **Thesis**: [[wiki/holdings/ITSA4|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: R$14.16  (2026-04-23)    _-1.73% 1d_
 - **Screen**: 1.0  ✓ PASS
-- **Altman Z**: 7.374 (safe)
+- **Altman Z**: 7.155 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 55.0/100 (RISK)
 - **Posição**: 2472.0 sh @ R$7.75  →  P&L 82.71%
@@ -101,7 +102,39 @@ tags: [holding, br, holding]
 - `2026-04-07` **Virtual Asset** — [valuation conf=0.80] O Bradesco BBI recomenda compra das ações ITSA4 com preço-alvo de R$15,40 até o final do ano de 2026.
 - `2026-04-07` **Virtual Asset** — [guidance conf=0.70] O CEO da Itaúsa, Alfredo Setúbal, afirma que a empresa está redonda e com muito caixa, o que pode resultar em mais dividendos para os acionistas.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -6.04%
+- **Drawdown 5y**: -6.04%
+- **YTD**: +21.75%
+- **YoY (1y)**: +39.68%
+- **CAGR 3y**: +23.29%  |  **5y**: +12.44%  |  **10y**: +10.67%
+- **Vol annual**: +23.75%
+- **Sharpe 3y** (rf=4%): +0.88
+
+### Dividendos
+- **DY 5y avg**: +7.68%
+- **Div CAGR 5y**: -1.32%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | R$8.49B | R$13.67B | R$-1.35B |
+| 2023-12-31 | R$7.38B | R$13.47B | R$-965.0M |
+| 2024-12-31 | R$8.23B | R$14.78B | R$-742.0M |
+| 2025-12-31 | R$8.25B | R$16.49B | R$-765.0M |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -163,4 +196,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

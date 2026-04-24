@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Energy
-count: 1
+count: 3
 tags: [sector]
 ---
 
 # 🏢 Energy
 
-Total tickers: **1**
+Total tickers: **3**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,5 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[TEN]] _(us)_
+- [[CVX]] _(us)_
+- [[XOM]] _(us)_

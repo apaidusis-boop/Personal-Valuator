@@ -16,7 +16,7 @@ streak_years: 15
 aristocrat: false
 screen_score: 0.4
 screen_pass: false
-altman_z: 10.704
+altman_z: 10.702
 piotroski: 8
 div_safety: 75
 div_safety_verdict: WATCH
@@ -24,7 +24,7 @@ position_qty: 5
 entry_price: 121.89
 pnl_pct: 124.82
 market_value: 1370.15
-updated: "2026-04-23T21:02:32Z"
+updated: "2026-04-24T11:37:13Z"
 tags: [holding, us, technology]
 ---
 
@@ -34,7 +34,7 @@ tags: [holding, us, technology]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.6/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 5.6/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,7 +45,7 @@ tags: [holding, us, technology]
 
 ### Detalhes
 
-- **Quality**: Altman Z 10.70368137726246 (SAFE), Piotroski 8/9 (STRONG), DivSafety 75.0/100
+- **Quality**: Altman Z 10.702066138022928 (SAFE), Piotroski 8/9 (STRONG), DivSafety 75.0/100
 - **Valuation**: Screen 0.40, DY percentil P2 (EXPENSIVE)
 - **Momentum**: 1d 2.95%, 30d 8.9%, YTD 1.11%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -62,12 +62,13 @@ tags: [holding, us, technology]
 - Sector: [[sectors/Technology|Technology]]
 - Market: [[markets/US|US]]
 - Peers: [[ACN]] · [[PLTR]] · [[TSM]] · [[IBM]] · [[JKHY]]
+- 🎯 **Thesis**: [[wiki/holdings/AAPL|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: $274.03  (2026-04-23)    _+2.95% 1d_
 - **Screen**: 0.4  ✗ fail
-- **Altman Z**: 10.704 (safe)
+- **Altman Z**: 10.702 (safe)
 - **Piotroski**: 8/9
 - **Div Safety**: 75.0/100 (WATCH)
 - **Posição**: 5.0 sh @ $121.89000000000001  →  P&L 124.82%
@@ -94,7 +95,39 @@ tags: [holding, us, technology]
 - **2026-01-29** `8-K` — 8-K | 2.02,9.01
 - **2026-01-08** `proxy` — DEF 14A
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -4.25%
+- **Drawdown 5y**: -4.25%
+- **YTD**: +1.11%
+- **YoY (1y)**: +33.93%
+- **CAGR 3y**: +18.34%  |  **5y**: +15.33%  |  **10y**: +26.43%
+- **Vol annual**: +30.83%
+- **Sharpe 3y** (rf=4%): +0.56
+
+### Dividendos
+- **DY 5y avg**: +0.49%
+- **Div CAGR 5y**: +4.46%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 13 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-09-30 | n/a | n/a | n/a |
+| 2022-09-30 | $394.33B | $99.80B | $111.44B |
+| 2023-09-30 | $383.29B | $97.00B | $99.58B |
+| 2024-09-30 | $391.04B | $93.74B | $108.81B |
+| 2025-09-30 | $416.16B | $112.01B | $98.77B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -141,4 +174,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

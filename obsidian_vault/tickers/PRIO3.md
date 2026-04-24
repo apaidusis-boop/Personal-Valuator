@@ -14,7 +14,7 @@ roe_pct: 8.71
 streak_years: 1
 screen_score: 0
 screen_pass: false
-altman_z: 1.727
+altman_z: 1.739
 piotroski: 2
 div_safety: 23.1
 div_safety_verdict: RISK
@@ -22,7 +22,7 @@ position_qty: 503
 entry_price: 39.85
 pnl_pct: 57.39
 market_value: 31548.16
-updated: "2026-04-23T21:02:30Z"
+updated: "2026-04-24T11:37:11Z"
 tags: [holding, br, "oil_&_gas"]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, br, "oil_&_gas"]
 
 ## 🎯 Verdict — ⛔ AVOID
 
-> **Score**: 2.1/10  |  **Confiança**: 80%  |  _2026-04-24 00:02_
+> **Score**: 2.1/10  |  **Confiança**: 80%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -43,14 +43,14 @@ tags: [holding, br, "oil_&_gas"]
 
 ### Detalhes
 
-- **Quality**: Altman Z 1.7270143924044132 (DISTRESS), Piotroski 2/9 (WEAK), DivSafety 23.1/100
+- **Quality**: Altman Z 1.7391617437135007 (DISTRESS), Piotroski 2/9 (WEAK), DivSafety 23.1/100
 - **Valuation**: Screen 0.00, DY percentil - (-)
 - **Momentum**: 1d 0.03%, 30d -7.26%, YTD 50.19%
 - **Narrativa**: user_note=False, YT insights 60d=6
 
 ### Razões
 
-- Altman 1.73 < 1.81 (distress veto)
+- Altman 1.74 < 1.81 (distress veto)
 - quality frágil
 - valuation caro
 
@@ -60,13 +60,14 @@ tags: [holding, br, "oil_&_gas"]
 - Sector: [[sectors/Oil_&_Gas|Oil & Gas]]
 - Market: [[markets/BR|BR]]
 - Peers: [[PETR4]]
-- Vídeos: [[videos/Wf4pWQXguPg|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/wBohSlq8p6w|SE PREPARE, TUDO VAI FICAR MAIS CARO]] · [[videos/HEFngcQ3mSA|FIQUE RICO COM AS ELEIÇÕES EM 2026 | Ond]] · [[videos/qEhSi9EKs2Y|A GREVE DOS CAMINHONEIROS VAI PARALISAR ]] · [[videos/7EBNjOuA-mI|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
+- Vídeos: [[videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro|SE PREPARE, TUDO VAI FICAR MAIS CARO]] · [[videos/2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise|FIQUE RICO COM AS ELEIÇÕES EM 2026 | Ond]] · [[videos/2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b|A GREVE DOS CAMINHONEIROS VAI PARALISAR ]] · [[videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
+- 🎯 **Thesis**: [[wiki/holdings/PRIO3|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: R$62.72  (2026-04-23)    _+0.03% 1d_
 - **Screen**: 0.0  ✗ fail
-- **Altman Z**: 1.727 (distress)
+- **Altman Z**: 1.739 (distress)
 - **Piotroski**: 2/9
 - **Div Safety**: 23.1/100 (RISK)
 - **Posição**: 503.0 sh @ R$39.85  →  P&L 57.39%
@@ -97,7 +98,39 @@ tags: [holding, br, "oil_&_gas"]
 - `2026-03-31` **O Primo Rico** — [valuation conf=0.80] As ações da Prio subiram mais de 60% em três meses após recomendação da Finclass.
 - `2026-03-18` **O Primo Rico** — [valuation conf=0.80] As ações da PRIO3 subiram significativamente em dois meses, de R$40 para R$60.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -13.01%
+- **Drawdown 5y**: -13.01%
+- **YTD**: +50.19%
+- **YoY (1y)**: +88.63%
+- **CAGR 3y**: +21.43%  |  **5y**: +27.84%  |  **10y**: +66.63%
+- **Vol annual**: +35.83%
+- **Sharpe 3y** (rf=4%): +0.51
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: annual
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | R$6.36B | R$3.43B | R$1.20B |
+| 2023-12-31 | R$11.91B | R$5.18B | R$-5.58B |
+| 2024-12-31 | R$14.36B | R$10.30B | R$-5.14B |
+| 2025-12-31 | R$15.58B | R$2.25B | R$-9.02B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -159,4 +192,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

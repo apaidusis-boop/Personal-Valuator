@@ -15,7 +15,7 @@ roe_pct: 5.87
 streak_years: 18
 screen_score: 0.6
 screen_pass: false
-altman_z: 5.102
+altman_z: 5.048
 piotroski: 5
 div_safety: 50
 div_safety_verdict: RISK
@@ -23,7 +23,7 @@ position_qty: 500
 entry_price: 61.81
 pnl_pct: 39.09
 market_value: 42985
-updated: "2026-04-23T21:02:30Z"
+updated: "2026-04-24T11:37:11Z"
 tags: [holding, br, mining]
 ---
 
@@ -33,7 +33,7 @@ tags: [holding, br, mining]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.4/10  |  **Confiança**: 80%  |  _2026-04-24 00:02_
+> **Score**: 6.4/10  |  **Confiança**: 80%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -44,7 +44,7 @@ tags: [holding, br, mining]
 
 ### Detalhes
 
-- **Quality**: Altman Z 5.1024745526751785 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 50.0/100
+- **Quality**: Altman Z 5.048221672575513 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 50.0/100
 - **Valuation**: Screen 0.60, DY percentil P50 (fair-rich)
 - **Momentum**: 1d -1.43%, 30d 10.08%, YTD 18.78%
 - **Narrativa**: user_note=False, YT insights 60d=9
@@ -58,13 +58,14 @@ tags: [holding, br, mining]
 
 - Sector: [[sectors/Mining|Mining]]
 - Market: [[markets/BR|BR]]
-- Vídeos: [[videos/VS-8e2uZJH0|RISCO GUERRA, DÓLAR EM QUEDA E PETRÓLEO ]] · [[videos/Wf4pWQXguPg|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/ZHRmPOdCBqo|Vale a pena INVESTIR EM VALE (VALE3) apó]]
+- Vídeos: [[videos/2026-04-21_market-makers_risco-guerra-dolar-em-queda-e-petroleo-em-alta-onde-investir-agora-mar|RISCO GUERRA, DÓLAR EM QUEDA E PETRÓLEO ]] · [[videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais|Vale a pena INVESTIR EM VALE (VALE3) apó]]
+- 🎯 **Thesis**: [[wiki/holdings/VALE3|thesis deep]]
 
 ## Snapshot
 
 - **Preço**: R$85.97  (2026-04-23)    _-1.43% 1d_
 - **Screen**: 0.6  ✗ fail
-- **Altman Z**: 5.102 (safe)
+- **Altman Z**: 5.048 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 50.0/100 (RISK)
 - **Posição**: 500.0 sh @ R$61.81  →  P&L 39.09%
@@ -99,7 +100,39 @@ tags: [holding, br, mining]
 - `2026-04-20` **Virtual Asset** — [operational conf=0.90] A Vale aumentou a produção de minério de ferro em 3% e as vendas totais cresceram 3,9%. O preço do cobre subiu 47,8%, contribuindo para uma geração de caixa mais robusta.
 - `2026-04-20` **Virtual Asset** — [risk conf=0.70] A volatilidade das commodities e a execução de projetos são fatores de atenção para os investidores na Vale.
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -4.57%
+- **Drawdown 5y**: -27.59%
+- **YTD**: +18.78%
+- **YoY (1y)**: +57.86%
+- **CAGR 3y**: +6.11%  |  **5y**: -4.46%  |  **10y**: +16.89%
+- **Vol annual**: +25.19%
+- **Sharpe 3y** (rf=4%): +0.08
+
+### Dividendos
+- **DY 5y avg**: +11.12%
+- **Div CAGR 5y**: -15.08%
+- **Frequency**: semiannual
+- **Streak** (sem cortes): 1 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | R$43.84B | R$18.79B | R$6.04B |
+| 2023-12-31 | R$41.78B | R$7.98B | R$7.25B |
+| 2024-12-31 | R$38.06B | R$6.17B | R$2.92B |
+| 2025-12-31 | R$38.40B | R$2.35B | R$2.79B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -161,4 +194,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

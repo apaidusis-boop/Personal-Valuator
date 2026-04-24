@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Financials
-count: 7
+count: 20
 tags: [sector]
 ---
 
 # 🏢 Financials
 
-Total tickers: **7**
+Total tickers: **20**
 Holdings: **7**
 
 ## Tabela live (Dataview)
@@ -28,3 +28,16 @@ SORT is_holding DESC, pnl_pct ASC
 - ★ [[NU]] _(us)_
 - ★ [[TFC]] _(us)_
 - ★ [[XP]] _(us)_
+- [[AFL]] _(us)_
+- [[B3SA3]] _(br)_
+- [[BEN]] _(us)_
+- [[BRO]] _(us)_
+- [[CB]] _(us)_
+- [[CBSH]] _(us)_
+- [[CINF]] _(us)_
+- [[ERIE]] _(us)_
+- [[FDS]] _(us)_
+- [[RLI]] _(us)_
+- [[SPGI]] _(us)_
+- [[TROW]] _(us)_
+- [[V]] _(us)_

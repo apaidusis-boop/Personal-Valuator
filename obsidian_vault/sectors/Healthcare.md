@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Healthcare
-count: 2
+count: 7
 tags: [sector]
 ---
 
 # 🏢 Healthcare
 
-Total tickers: **2**
+Total tickers: **7**
 Holdings: **2**
 
 ## Tabela live (Dataview)
@@ -23,3 +23,8 @@ SORT is_holding DESC, pnl_pct ASC
 
 - ★ [[ABBV]] _(us)_
 - ★ [[JNJ]] _(us)_
+- [[ABT]] _(us)_
+- [[BDX]] _(us)_
+- [[MDT]] _(us)_
+- [[RDOR3]] _(br)_
+- [[WST]] _(us)_

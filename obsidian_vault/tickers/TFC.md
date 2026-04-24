@@ -18,7 +18,7 @@ screen_score: 0.8
 screen_pass: false
 div_safety: 75
 div_safety_verdict: WATCH
-updated: "2026-04-23T21:02:33Z"
+updated: "2026-04-24T11:37:16Z"
 tags: [holding, us, financials]
 ---
 
@@ -28,7 +28,7 @@ tags: [holding, us, financials]
 
 ## 🎯 Verdict — 🟡 WATCH
 
-> **Score**: 6.2/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 6.2/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -86,7 +86,39 @@ tags: [holding, us, financials]
 - **2026-01-27** `8-K` — 8-K | 8.01,9.01
 - **2026-01-21** `8-K` — 8-K | 2.02,9.01
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.70%
+- **Drawdown 5y**: -23.58%
+- **YTD**: +3.57%
+- **YoY (1y)**: +38.70%
+- **CAGR 3y**: +17.42%  |  **5y**: -2.22%  |  **10y**: +3.81%
+- **Vol annual**: +28.18%
+- **Sharpe 3y** (rf=4%): +0.41
+
+### Dividendos
+- **DY 5y avg**: +4.50%
+- **Div CAGR 5y**: +2.83%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 11 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $19.97B | $6.26B | $11.08B |
+| 2023-12-31 | $20.02B | $-1.09B | $8.63B |
+| 2024-12-31 | $13.28B | $4.82B | $2.16B |
+| 2025-12-31 | $20.32B | $5.31B | $5.74B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -133,4 +165,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

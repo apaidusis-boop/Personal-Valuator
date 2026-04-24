@@ -14,7 +14,7 @@ position_qty: 11
 entry_price: 145.55
 pnl_pct: 173.79
 market_value: 4383.5
-updated: "2026-04-23T21:02:27Z"
+updated: "2026-04-24T11:37:08Z"
 tags: [holding, br, etf-us]
 ---
 
@@ -24,7 +24,7 @@ tags: [holding, br, etf-us]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 2.7/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 2.7/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -67,7 +67,29 @@ tags: [holding, br, etf-us]
 - ROE: n/a% | EPS: n/a | BVPS: n/a
 - Streak div: n/ay | Aristocrat: n/a
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -7.98%
+- **Drawdown 5y**: -7.98%
+- **YTD**: -5.01%
+- **YoY (1y)**: +15.88%
+- **CAGR 3y**: +20.02%  |  **5y**: +9.86%  |  **10y**: +17.99%
+- **Vol annual**: +15.85%
+- **Sharpe 3y** (rf=4%): +1.04
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -84,4 +106,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

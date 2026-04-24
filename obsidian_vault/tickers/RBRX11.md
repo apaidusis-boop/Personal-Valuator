@@ -19,7 +19,7 @@ position_qty: 1847
 entry_price: 8.46
 pnl_pct: 3.07
 market_value: 16105.84
-updated: "2026-04-23T21:02:30Z"
+updated: "2026-04-24T11:37:11Z"
 tags: [holding, br, híbrido]
 ---
 
@@ -29,7 +29,7 @@ tags: [holding, br, híbrido]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.2/10  |  **Confiança**: 50%  |  _2026-04-24 00:02_
+> **Score**: 5.2/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -81,7 +81,38 @@ tags: [holding, br, híbrido]
 - 2026-01-16: R$0.0900
 - 2025-12-15: R$0.0900
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.47%
+- **Drawdown 5y**: -12.71%
+- **YTD**: +4.18%
+- **YoY (1y)**: +9.00%
+- **CAGR 3y**: +0.95%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +12.28%
+- **Sharpe 3y** (rf=4%): -0.21
+
+### Dividendos
+- **DY 5y avg**: +11.79%
+- **Div CAGR 5y**: +21.04%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 0 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | R$112.8M | R$16.0M | R$-11.9M |
+| 2022-12-31 | R$103.2M | R$27.4M | R$-10.2M |
+| 2023-12-31 | R$170.8M | R$169.7M | R$-7.2M |
+| 2024-12-31 | R$37.2M | R$35.6M | R$-5.4M |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -113,4 +144,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*

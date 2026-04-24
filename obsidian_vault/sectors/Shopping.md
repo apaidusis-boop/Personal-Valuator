@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Shopping
-count: 1
+count: 3
 tags: [sector]
 ---
 
 # 🏢 Shopping
 
-Total tickers: **1**
+Total tickers: **3**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,5 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[XPML11]] _(br)_
+- [[PMLL11]] _(br)_
+- [[VISC11]] _(br)_

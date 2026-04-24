@@ -15,6 +15,13 @@ Entry point único. Tudo navegável daqui.
 3. **Decisão**: [[wiki/playbooks/Buy_checklist]] / [[wiki/playbooks/Sell_triggers]]
 4. **Após trade**: `ii notes add ...` → vault atualiza
 
+## 🏢 A Empresa Sintética (agents)
+
+- [[agents/_MOC|🏢 Organização — 12 funcionários]]
+- [[agents/_org_chart|📊 Organograma]] · [[agents/_flow_diagram|🔀 Fluxo de informação]] · [[agents/_information_levels|🧠 Níveis de acesso]]
+- [[agents/_dashboard|🩺 Health dashboard]] · [[agents/_performance_ranking|📊 Performance ranking]]
+- [[wiki/playbooks/Telegram_setup|📱 Telegram setup]] — delegação remota via Zé Mensageiro
+
 ## 📊 Portfolio
 
 - [[My Portfolio]] — overview BR+US em BRL

@@ -1,13 +1,13 @@
 ---
 type: sector
 name: "Oil & Gas"
-count: 1
+count: 2
 tags: [sector]
 ---
 
 # 🏢 Oil & Gas
 
-Total tickers: **1**
+Total tickers: **2**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -22,3 +22,4 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - ★ [[PRIO3]] _(br)_
+- [[PETR4]] _(br)_

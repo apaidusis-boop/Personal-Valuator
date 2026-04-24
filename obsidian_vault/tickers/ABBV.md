@@ -16,7 +16,7 @@ streak_years: 14
 aristocrat: false
 screen_score: 0.8
 screen_pass: false
-altman_z: 1.991
+altman_z: 1.955
 piotroski: 8
 div_safety: 43.8
 div_safety_verdict: RISK
@@ -24,7 +24,7 @@ position_qty: 7.466
 entry_price: 200.91
 pnl_pct: -0
 market_value: 1499.96
-updated: "2026-04-23T21:02:32Z"
+updated: "2026-04-24T11:37:13Z"
 tags: [holding, us, healthcare]
 ---
 
@@ -34,7 +34,7 @@ tags: [holding, us, healthcare]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.2/10  |  **Confiança**: 70%  |  _2026-04-24 00:02_
+> **Score**: 5.2/10  |  **Confiança**: 70%  |  _2026-04-24 14:37_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,7 +45,7 @@ tags: [holding, us, healthcare]
 
 ### Detalhes
 
-- **Quality**: Altman Z 1.9907168095721692 (GREY), Piotroski 8/9 (STRONG), DivSafety 43.8/100
+- **Quality**: Altman Z 1.9554801983700232 (GREY), Piotroski 8/9 (STRONG), DivSafety 43.8/100
 - **Valuation**: Screen 0.80, DY percentil P25 (EXPENSIVE)
 - **Momentum**: 1d -2.05%, 30d -2.09%, YTD -12.39%
 - **Narrativa**: user_note=False, YT insights 60d=0
@@ -65,7 +65,7 @@ tags: [holding, us, healthcare]
 
 - **Preço**: $200.90  (2026-04-23)    _-2.05% 1d_
 - **Screen**: 0.8  ✗ fail
-- **Altman Z**: 1.991 (grey)
+- **Altman Z**: 1.955 (grey)
 - **Piotroski**: 8/9
 - **Div Safety**: 43.8/100 (RISK)
 - **Posição**: 7.46602 sh @ $200.91  →  P&L -0.0%
@@ -92,7 +92,39 @@ tags: [holding, us, healthcare]
 - **2026-02-26** `8-K` — 8-K | 8.01,9.01
 - **2026-02-20** `10-K` — 10-K
 
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -17.79%
+- **Drawdown 5y**: -17.79%
+- **YTD**: -12.39%
+- **YoY (1y)**: +13.47%
+- **CAGR 3y**: +6.98%  |  **5y**: +12.52%  |  **10y**: +12.66%
+- **Vol annual**: +27.13%
+- **Sharpe 3y** (rf=4%): +0.12
+
+### Dividendos
+- **DY 5y avg**: +3.50%
+- **Div CAGR 5y**: +5.98%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 12 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $58.05B | $11.84B | $24.25B |
+| 2023-12-31 | $54.32B | $4.86B | $22.06B |
+| 2024-12-31 | $56.33B | $4.28B | $17.83B |
+| 2025-12-31 | $61.16B | $4.23B | $17.82B |
+
 ## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
 ```chart
 type: line
@@ -139,4 +171,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-23 21:02 UTC*
+*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*
