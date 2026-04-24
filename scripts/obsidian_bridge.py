@@ -21,9 +21,11 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sqlite3
 import subprocess
 import sys
+import unicodedata
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
@@ -68,6 +70,27 @@ def _yaml_val(v) -> str:
     if any(c in s for c in ":#[]{},&*!|>%@`") or s.startswith(("-", "?")):
         return f'"{s}"'
     return s
+
+
+def _slugify(s: str, maxlen: int = 60) -> str:
+    """ASCII slug, lowercase, hyphens, truncated. Safe for filenames."""
+    if not s:
+        return ""
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^\w\s-]", "", s).strip().lower()
+    s = re.sub(r"[\s_]+", "-", s)
+    s = re.sub(r"-+", "-", s)
+    return s[:maxlen].rstrip("-")
+
+
+def _video_slug_name(video_id: str, published_at: str | None, channel: str | None, title: str | None) -> str:
+    """Filename stem (sem .md) para uma nota de vídeo. Legível humanamente."""
+    date_part = (published_at or "")[:10]
+    ch = _slugify(channel or "", maxlen=25)
+    ti = _slugify(title or video_id, maxlen=70)
+    pieces = [p for p in (date_part, ch, ti) if p]
+    stem = "_".join(pieces) if pieces else video_id
+    return stem
 
 
 def _frontmatter(data: dict) -> str:
@@ -404,7 +427,10 @@ def _render_ticker_md(ticker: str, market: str) -> str:
         peer_links = " · ".join(f"[[{p}]]" for p in peers)
         out.append(f"- Peers: {peer_links}")
     if videos:
-        vid_links = " · ".join(f"[[videos/{v[0]}|{(v[3] or v[0])[:40]}]]" for v in videos[:5])
+        vid_links = " · ".join(
+            f"[[videos/{_video_slug_name(v[0], v[1], v[2], v[3])}|{(v[3] or v[0])[:40]}]]"
+            for v in videos[:5]
+        )
         out.append(f"- Vídeos: {vid_links}")
     out.append("")
 
@@ -604,6 +630,7 @@ def _render_video_page(video_id: str, market_hint: str = "br") -> str | None:
     tickers_mentioned = sorted({i[0] for i in insights})
     fm = {
         "type": "video",
+        "aliases": [meta[0]],
         "video_id": meta[0],
         "channel": meta[3] or "",
         "published_at": meta[5] or "",
@@ -1149,13 +1176,24 @@ def export_vault(
         if rows:
             (markets_dir / f"{mk.upper()}.md").write_text(_render_market_page(mk, rows), encoding="utf-8")
 
-    # Video pages
+    # Video pages — filename legível humanamente; video_id preservado como alias.
     video_written = 0
     for vid in all_video_ids:
         md = _render_video_page(vid)
-        if md:
-            (videos_dir / f"{vid}.md").write_text(md, encoding="utf-8")
-            video_written += 1
+        if not md:
+            continue
+        # extrai published_at, channel, title do frontmatter escrito
+        date_m = re.search(r"^published_at:\s*(.+)$", md, re.MULTILINE)
+        chan_m = re.search(r"^channel:\s*(.+)$", md, re.MULTILINE)
+        title_m = re.search(r"^#\s+🎬\s*(.+?)\s*$", md, re.MULTILINE)
+        stem = _video_slug_name(
+            vid,
+            (date_m.group(1).strip().strip("\"'") if date_m else None),
+            (chan_m.group(1).strip().strip("\"'") if chan_m else None),
+            (title_m.group(1).strip() if title_m else None),
+        )
+        (videos_dir / f"{stem}.md").write_text(md, encoding="utf-8")
+        video_written += 1
 
     # Dashboards
     (vault_path / "dashboards" / "Portfolio.md").write_text(_render_portfolio_dashboard(), encoding="utf-8")

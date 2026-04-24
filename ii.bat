@@ -76,6 +76,8 @@ if /i "%CMD%"=="safety" ("%PY%" -X utf8 -m scoring.dividend_safety %ARGS%) & got
 if /i "%CMD%"=="regime" ("%PY%" -X utf8 -m analytics.regime %ARGS%) & goto :EOF
 if /i "%CMD%"=="screen-trend" ("%PY%" -X utf8 -m analytics.screen_trend %ARGS%) & goto :EOF
 if /i "%CMD%"=="backtest-yield" ("%PY%" -X utf8 -m analytics.backtest_yield %ARGS%) & goto :EOF
+if /i "%CMD%"=="panorama" (set "SCRIPT=scripts\panorama.py") & goto :RUN
+if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
 
 echo Unknown command: %CMD%
 echo Run 'ii help' for list.
@@ -89,11 +91,20 @@ goto :EOF
 echo ii - investment-intelligence CLI
 echo.
 echo ANALYSIS:
+echo   ii panorama ^<TK^> [--write]               ** SUPER-COMMAND ** (verdict+peers+triggers+notes+videos+analyst)
 echo   ii research ^<TK^> [--intraday] [--md]     Unified memo (PT)
 echo   ii analyze ^<TK^>                          Deep dive (legacy)
 echo   ii portfolio                             Daily briefing BR+US+RF
 echo   ii compare ^<TK1^> ^<TK2^> ...              Side-by-side
 echo   ii drip --ticker ^<TK^>                    DRIP projection
+echo.
+echo SUBSCRIPTIONS (Suno, XP, WSJ, Finclass):
+echo   ii subs setup                            Prepare dirs + instructions
+echo   ii subs test [--source X]                Validate cookies
+echo   ii subs fetch [--source X] [--days 7]    Download new reports
+echo   ii subs extract [--source X]             Ollama extract insights
+echo   ii subs query ^<TK^> [--days 90]           Views on ticker
+echo   ii subs latest [--source X]              Recent reports
 echo.
 echo DATA:
 echo   ii refresh ^<TK^>                          Intraday quote (yfinance)

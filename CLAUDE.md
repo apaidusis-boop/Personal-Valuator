@@ -98,6 +98,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 
 | Pergunta                                      | Comando existente |
 |---|---|
+| **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
+| **Ingest relatórios subscriptions** (Suno/XP/WSJ) | `ii subs fetch --source all && ii subs extract` |
+| **Views de analistas sobre ticker**           | `ii subs query X --days 90` |
 | Quantas ações tenho de X / posição actual     | `sqlite3 data/<mkt>_investments.db "SELECT ticker, quantity, entry_price FROM portfolio_positions WHERE ticker='X' AND active=1"` |
 | Deep-dive em ticker X                         | `python scripts/analyze_ticker.py X` |
 | **Research memo unificado** (Phase J, PT/EN)  | `python scripts/research.py X [--md]` |
