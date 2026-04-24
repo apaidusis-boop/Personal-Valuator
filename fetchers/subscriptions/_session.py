@@ -89,7 +89,9 @@ class SessionManager:
         r = self.session.get(url, timeout=kwargs.pop("timeout", 30), **kwargs)
         return r
 
-    def get_bytes(self, url: str, **kwargs) -> bytes:
+    def get_bytes(self, url: str, extra_headers: dict | None = None, **kwargs) -> bytes:
+        if extra_headers:
+            kwargs.setdefault("headers", {}).update(extra_headers)
         r = self.get(url, **kwargs)
         r.raise_for_status()
         return r.content
@@ -241,12 +243,19 @@ class PlaywrightSession:
     def get_text(self, url: str, **kwargs) -> str:
         return self.get(url, **kwargs).text
 
-    def get_bytes(self, url: str, **kwargs) -> bytes:
-        """Para downloads binários (PDF) — usa request context do Playwright."""
+    def get_bytes(self, url: str, extra_headers: dict | None = None, **kwargs) -> bytes:
+        """Para downloads binários (PDF) — usa request context do Playwright.
+
+        `extra_headers`: p.ex. `{"Referer": article_url}` — CDNs com WAF
+        requerem Referer válido do article page.
+        """
         self._ensure_started()
         self._rate_limit()
         api = self._ctx.request
-        r = api.get(url, timeout=kwargs.pop("timeout", 30) * 1000)
+        opts = {"timeout": kwargs.pop("timeout", 30) * 1000}
+        if extra_headers:
+            opts["headers"] = extra_headers
+        r = api.get(url, **opts)
         if r.status >= 400:
             raise RuntimeError(f"HTTP {r.status} @ {url}")
         return r.body()
