@@ -45,9 +45,20 @@ class SessionManager:
         self.rate_limit_sec = rate_limit_sec
         self._last_request_at: float = 0.0
         self.session = requests.Session()
+        # Browser-like header set. Alguns sites (WSJ, XP) rejeitam requests
+        # sem Sec-Fetch-* headers (Cloudflare/Akamai bot detection).
         self.session.headers.update({
             "User-Agent": DEFAULT_UA,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
             "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+            # `br` (brotli) requer `pip install brotli`; manter sem para robustez
+            "Accept-Encoding": "gzip, deflate",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+            "Cache-Control": "max-age=0",
         })
         self._load_cookies()
 

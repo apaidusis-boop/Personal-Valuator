@@ -32,6 +32,7 @@ from fetchers.subscriptions.suno import SunoAdapter  # noqa: E402
 from fetchers.subscriptions.xp import XPAdapter  # noqa: E402
 from fetchers.subscriptions.wsj import WSJAdapter  # noqa: E402
 from fetchers.subscriptions.finclass import FinclassAdapter  # noqa: E402
+from fetchers.subscriptions.fool import FoolAdapter  # noqa: E402
 
 SUBS_DIR = ROOT / "data" / "subscriptions"
 COOKIES_DIR = SUBS_DIR / "cookies"
@@ -44,6 +45,7 @@ ADAPTERS = {
     "suno": SunoAdapter,
     "xp": XPAdapter,
     "wsj": WSJAdapter,
+    "fool": FoolAdapter,
     "finclass": FinclassAdapter,
 }
 
@@ -53,14 +55,16 @@ def _now_iso() -> str:
 
 
 def _get_db(source: str) -> Path:
-    # Suno/XP/Finclass → BR. WSJ → US.
-    return DB_US if source == "wsj" else DB_BR
+    # Suno/XP/Finclass → BR. WSJ/Fool → US.
+    return DB_US if source in ("wsj", "fool") else DB_BR
 
 
 def _make_adapter(source: str):
     cls = ADAPTERS[source]
     session = SessionManager(source, COOKIES_DIR)
-    storage = (PDF_DIR if source != "wsj" else HTML_DIR) / source
+    # Fool + WSJ são HTML-primary; Suno + XP são PDF-primary (quando possível).
+    html_sources = {"wsj", "fool"}
+    storage = (HTML_DIR if source in html_sources else PDF_DIR) / source
     return cls(session, storage)
 
 
@@ -94,7 +98,7 @@ def cmd_fetch(args):
     total_new = 0
     for src in sources:
         if src == "finclass":
-            print(f"[{src}] skip (skeleton)")
+            print(f"[{src}] skip (SPA skeleton — requer Playwright)")
             continue
         try:
             adapter = _make_adapter(src)

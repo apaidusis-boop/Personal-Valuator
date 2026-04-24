@@ -48,8 +48,13 @@ class XPAdapter(BaseAdapter):
     ]
 
     def test_access(self) -> tuple[bool, str]:
+        # NOTA (2026-04-24): conteudos.xpi.com.br bloqueia requests com WAF
+        # "Acesso Bloqueado" (Imperva/Akamai). Mesmo com browser headers +
+        # cookies válidas, retorna 403. **Requer Playwright** para bypass.
         try:
-            r = self.session.get(self.rss_url)
+            r = self.session.get(self.rss_url, timeout=15)
+            if r.status_code == 403 or "acesso bloqueado" in r.text.lower():
+                return (False, "xp: ✗ WAF block (403) — requer Playwright upgrade")
             ok = r.status_code == 200 and ("<rss" in r.text or "<feed" in r.text)
             return (ok, f"xp rss: {'✓ ok' if ok else f'✗ status {r.status_code}'}")
         except Exception as e:

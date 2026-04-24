@@ -1,19 +1,26 @@
 """Suno adapter — suno.com.br research reports.
 
-Strategy:
-1. Fetch listing pages (relatórios) → parse HTML para cards.
-2. Para cada card: extrair URL do PDF (usualmente via link /download/ ou similar).
+⚠ LIMITAÇÃO ACTUAL: Suno member portal (investidor.suno.com.br) é SPA
+React + AWS Cognito JWT auth. Cookies sozinhas funcionam para cookies domain
+(.suno.com.br) mas as API calls do portal precisam do idToken como Bearer
+header. Este adapter na v1 só cobre:
+  - www.suno.com.br/relatorios/ (marketing + alguns relatórios públicos)
+  - Artigos públicos / semi-públicos
+Para member content (Suno Premium, FIIs, Dividendos) upgrade necessário:
+  opção A — extrair Cognito idToken do cookie e chamar directamente api
+            endpoints (requer reverse-engineer das chamadas).
+  opção B — Playwright com persistent profile (faz login real no SPA).
+
+**Status actual**: funcional para content semi-público. Member-only = future work.
+
+Strategy v1:
+1. Fetch listing pages (relatórios) → parse HTML.
+2. Para cada card: extrair URL do PDF (<a href="...pdf">).
 3. Download PDF binário → guardar em storage_dir.
 
 Setup user:
-- Login em suno.com.br.
+- Login em investidor.suno.com.br.
 - Cookie-Editor → Export → guardar em `data/subscriptions/cookies/suno.json`.
-- `ii subs test --source suno` para validar acesso.
-
-URLs típicas (ajustar se mudarem):
-- Lista: https://www.suno.com.br/relatorios/
-- Artigo: https://www.suno.com.br/artigos/<slug>/
-- PDF: variável — procurar <a href="...pdf"> dentro do artigo.
 
 TOS: uso pessoal. Não redistribuir.
 """
@@ -37,17 +44,29 @@ from ._base import BaseAdapter, Report
 class SunoAdapter(BaseAdapter):
     source = "suno"
     base_url = "https://www.suno.com.br"
-    probe_url = "https://www.suno.com.br/conta/"
-    login_indicator = "sair"  # "Sair" link aparece quando logged
+    probe_url = "https://www.suno.com.br/"
 
+    # URLs confirmadas via probe (2026-04-24):
+    #   /artigos/  → artigos editoriais
+    #   /noticias/ → news feed
+    #   /relatorios/ ❌ 404 — não existe nessa URL
+    # Member content (Suno Premium) fica em investidor.suno.com.br (SPA React).
+    # Este adapter só cobre conteúdo semi-público do www.
     LISTING_PATHS = [
-        "/relatorios/",
-        "/materiais/",
+        "/artigos/",
+        "/noticias/",
     ]
 
     def test_access(self) -> tuple[bool, str]:
-        ok = self.session.is_logged_in(self.probe_url, self.login_indicator)
-        return (ok, f"suno login: {'✓ ok' if ok else '✗ not logged in — refresh cookies'}")
+        # www.suno.com.br não distingue visivelmente logged vs non-logged no HTML
+        # (JS controla UI). Como proxy: verificar se request devolve HTML decente
+        # (> 50k) e status 200 — significa que passámos pelo WAF.
+        try:
+            r = self.session.get(self.probe_url, timeout=15)
+            ok = r.status_code == 200 and len(r.text) > 50_000
+            return (ok, f"suno: {'✓ access ok (public content)' if ok else f'✗ status {r.status_code}'}")
+        except Exception as e:
+            return (False, f"suno test: {e}")
 
     def discover(self, since_days: int = 7) -> Iterator[Report]:
         if not _HAS_BS4:
