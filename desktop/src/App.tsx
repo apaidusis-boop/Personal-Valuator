@@ -2,10 +2,14 @@ import { NavLink, Route, Routes, Navigate } from 'react-router-dom';
 import { Portfolio } from './routes/Portfolio';
 import { Ticker } from './routes/Ticker';
 import { Agents } from './routes/Agents';
+import { Actions } from './routes/Actions';
+import { Signals } from './routes/Signals';
 import './App.css';
 
 const NAV = [
   { to: '/portfolio', label: 'Portfolio' },
+  { to: '/actions',   label: 'Actions' },
+  { to: '/signals',   label: 'Signals' },
   { to: '/ticker',    label: 'Ticker' },
   { to: '/agents',    label: 'Agents' },
 ];
@@ -41,6 +45,8 @@ export function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/portfolio" replace />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/actions" element={<Actions />} />
+          <Route path="/signals" element={<Signals />} />
           <Route path="/ticker" element={<Ticker />} />
           <Route path="/ticker/:symbol" element={<Ticker />} />
           <Route path="/agents" element={<Agents />} />

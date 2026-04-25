@@ -27,6 +27,7 @@ from fastapi import FastAPI  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
 from desktop.backend.routers import positions, ticker, agents as agents_router  # noqa: E402
+from desktop.backend.routers import actions, signals  # noqa: E402
 
 app = FastAPI(
     title="Helena Backend",
@@ -34,10 +35,11 @@ app = FastAPI(
     description="Local-only sidecar exposing investment-intelligence as REST.",
 )
 
-# Tauri webview origin is `tauri://localhost` on prod, http://localhost:1420 on dev.
+# Tauri webview origin is `tauri://localhost` on prod.
+# Dev: Vite serves on either 127.0.0.1:1420 or localhost:1420 — accept both.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:1420", "tauri://localhost"],
+    allow_origin_regex=r"^(http://(localhost|127\.0\.0\.1):1420|tauri://localhost)$",
     allow_credentials=False,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
@@ -46,6 +48,8 @@ app.add_middleware(
 app.include_router(positions.router, prefix="/api", tags=["positions"])
 app.include_router(ticker.router, prefix="/api", tags=["ticker"])
 app.include_router(agents_router.router, prefix="/api", tags=["agents"])
+app.include_router(actions.router, prefix="/api", tags=["actions"])
+app.include_router(signals.router, prefix="/api", tags=["signals"])
 
 
 @app.get("/api/health")
