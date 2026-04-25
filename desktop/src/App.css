@@ -118,3 +118,87 @@
 .holdings-table .pnl--positive { color: var(--positive); }
 .holdings-table .pnl--negative { color: var(--negative); }
 .holdings-table td.num { text-align: right; }
+
+/* Action cards (Actions page) */
+.actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.action-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--warning);
+  border-radius: var(--radius-card);
+  padding: 14px 18px;
+}
+.action-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.action-card__lead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.action-card__ticker {
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.action-card__ticker:hover { color: var(--accent); }
+.action-card__market {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+.action-card__kind {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+.action-card__meta {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+}
+.action-card__notes {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-top: 8px;
+  font-style: italic;
+}
+.action-card__snapshot {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  margin-top: 6px;
+  letter-spacing: 0.02em;
+}
+.action-card__controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  align-items: center;
+}
+.action-card__note-input {
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-button);
+  color: var(--text);
+  padding: 6px 10px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+}
+.action-card__note-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
