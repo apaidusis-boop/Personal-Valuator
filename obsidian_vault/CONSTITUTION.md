@@ -3,8 +3,8 @@ type: constitution
 tags: [constitution, master, history, governance]
 created: 2026-04-25
 last_updated: 2026-04-25
-phases_done: [W, X, Y, Y.8]
-current_phase: Z (UI Friendly Layer)
+phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s3)]
+current_phase: Z.Design — Helena s3 done (zero st.metric raw)
 ---
 
 # 📜 The Constitution — Investment Intelligence Project
@@ -184,6 +184,21 @@ Eliminar comandos terminal do flow normal. Backend não muda; só wrapping.
 
 **Critério sucesso**: 0 comandos terminal no morning flow. Validar resolvendo os 20 triggers abertos via UI Z.1.
 
+#### Z.8 — Helena Design System (2026-04-25 noite)
+
+Phase paralela após sprints 0-7: hire de **Helena Linha** (Head of Design) + sistema visual fechado.
+
+| Sessão | Output | Artefactos |
+|---|---|---|
+| s1 | Plotly template `ii_dark` + dark CSS injection + sidebar brand | `scripts/_theme.py` (304 LOC) |
+| s2 | Design System v1.0 (5 princípios + UX agentic patterns + 8 anti-padrões) + 5 componentes reutilizáveis + 8 `st.metric` → `kpi_tile()` (Portfolio + Verdict) | `obsidian_vault/skills/Design_System.md`, `scripts/_components.py` (163 LOC) |
+| s3 | **14 `st.metric` raw → `kpi_tile()`** em 6 pages (Actions Queue, Perpetuum Health, Paper Signals, RI Timeline, YouTube, Screener). Tones semânticos: warning para coisas que pedem atenção, positive/negative para deltas YoY, accent para counts informacionais. `grep '\.metric('` agora devolve **0 matches** | `scripts/dashboard_app.py` |
+| Continuous | `scripts/design_research.py` — weekly Sunday scout de novos design skills (GitHub + 5 RSS) | `obsidian_vault/skills/Design_Watch.md` |
+
+**Princípio constitucional emergente**: "Engenheiros não escolhem cores." Toda nova UI passa por `_components.py`; `Tone Literal` torna paletas fora-do-design impossíveis em compile-time.
+
+**Próximo gap conhecido**: `st.bar_chart` em YouTube usa azul default fora da paleta — refactor para `px.bar(template="ii_dark")`.
+
 ## 🧠 Decision Log
 
 | Data | Decisão | Racional |
@@ -197,6 +212,8 @@ Eliminar comandos terminal do flow normal. Backend não muda; só wrapping.
 | 2026-04-25 | Frontend cliquetó (Streamlit + Obsidian) prioritário sobre CLI | User vibe-coder; ler > digitar |
 | 2026-04-25 | Phase Z = expand Streamlit (não rewrite React/Next) | 80% scaffold já existe; single-user local |
 | 2026-04-25 | Streamlit UI chama scripts existentes via subprocess | Não duplicar lógica; CLI continua canónico |
+| 2026-04-25 | Helena Linha hired (Head of Design) — toda UI nova passa por design review | Sem cadeira dedicada, cada feature herdava estilo do engenheiro que a escreveu |
+| 2026-04-25 | `_components.py` + `Tone Literal` como compile-time guard contra cores ad-hoc | "Engenheiros não escolhem cores"; paleta restrita é não-negociável |
 
 ## 🔁 Estado actual dos perpetuums (live)
 
@@ -285,15 +302,21 @@ User explicitamente pediu (sessão 25/04 final):
 
 ## 📝 Changelog
 
-| Data                   | Phase            | Mudança principal                                       | Tokens Claude pipeline |
-| ---------------------- | ---------------- | ------------------------------------------------------- | ---------------------: |
-| 2026-04-24 morning     | W                | Skills arsenal evaluated, baseline frozen               |                      0 |
-| 2026-04-24 afternoon   | X                | Perpetuum engine (3 perpetuums initial)                 |                      0 |
-| 2026-04-24 evening     | X+Lib            | 4 books ingested, RAG built, 154 paper signals          |                      0 |
-| 2026-04-24 night       | Overnight        | 5 phases autónomas: thesis populate, methods, RAG batch |                      0 |
-| 2026-04-25 morning     | Y                | RI Knowledge Base v1 (CVM pipeline)                     |                      0 |
-| 2026-04-25 afternoon   | Y.8              | Single-Q view, DFP backfill, FII module, watchlist auto |                      0 |
-| **2026-04-25 evening** | **Constitution** | **Este documento criado**                               |                      0 |
+| Data                              | Phase            | Mudança principal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Tokens Claude pipeline |     |
+| --------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------: | --- |
+| 2026-04-24 morning                | W                | Skills arsenal evaluated, baseline frozen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                      0 |     |
+| 2026-04-24 afternoon              | X                | Perpetuum engine (3 perpetuums initial)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                      0 |     |
+| 2026-04-24 evening                | X+Lib            | 4 books ingested, RAG built, 154 paper signals                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                      0 |     |
+| 2026-04-24 night                  | Overnight        | 5 phases autónomas: thesis populate, methods, RAG batch                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                      0 |     |
+| 2026-04-25 morning                | Y                | RI Knowledge Base v1 (CVM pipeline)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                      0 |     |
+| 2026-04-25 afternoon              | Y.8              | Single-Q view, DFP backfill, FII module, watchlist auto                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                      0 |     |
+| **2026-04-25 evening**            | **Constitution** | **Este documento criado**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                      0 |     |
+| 2026-04-25 late evening           | **AA**           | Critical Thinking Stack: Synthetic IC (5 personas), Variant Perception, Earnings Prep cockpit, Portfolio Stress, Decision Journal Intelligence                                                                                                                                                                                                                                                                                                                                                                                |                      0 |     |
+| 2026-04-25 night                  | **FIX**          | Quick-fixes: 5 watchlist matches corrigidos manualmente; variant_perception substring bug ("trim" matchava "patrimonial") → word-boundary regex; bank schema BBDC4+ITUB4 (`cvm_parser_bank.py` ds_conta-based). +15 tickers em quarterly_history, +26 bank rows, 4→0 HIGH variance falsos                                                                                                                                                                                                                                     |                      0 |     |
+| 2026-04-25 afternoon (autonomous) | **AUTO**         | **11 sprints autónomos** (user out 3h): ITRs 2019-2023 backfill (+292 quarterly rows), Synthetic IC × 33 holdings, vault timelines × 20 tickers, bank single-Q view, earnings prep 60d, perpetuum master full run (3,665 subjects scored), conviction scoring engine (composite 0-100), `library/ri/catalog.py` canonical accessor (eliminou bug recorrente "watchlist not in loop"), compare_releases→quarterly_single (sem YTD distortion), RBRX11 ingerido (5/5 FII holdings). Top conviction: ITSA4 90, ACN 86, BBDC4 76. |                      0 |     |
+| 2026-04-25 evening                | **Z (UI)**       | Sprints Z.0-Z.7: 7 dashboard pages novas (Actions Queue, Ask Library, Perpetuum Health, Paper Signals, RI Timeline) + Home.md morning landing + `start_dashboard.bat` one-click launcher. ~440 LOC. |                      0 |     |
+| 2026-04-25 night                  | **Z.8 Helena s1-s2** | Helena Linha hired (Head of Design). `_theme.py` (plotly `ii_dark` + dark CSS + brand sidebar). Design_System v1.0 + `_components.py` v1 (5 helpers). 8 `st.metric` raw → `kpi_tile()` (Portfolio + Verdict). `design_research.py` weekly scout. |                      0 |     |
+| **2026-04-25 night**              | **Z.8 Helena s3** | **14 `st.metric` raw → `kpi_tile()`** em 6 pages (Actions Queue, Perpetuum Health, Paper Signals, RI Timeline, YouTube, Screener). Tones semânticos: warning para attention items, positive/negative para YoY, accent para counts. `grep '\.metric('` = 0 matches. Compile-time enforcement de paleta via `Tone Literal`. |                      0 |     |
 
 ## 🧭 Como usar este documento
 
