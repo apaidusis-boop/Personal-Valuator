@@ -1,66 +1,119 @@
-# 🏠 Investment Intelligence Vault
+# 🏠 Investment Intelligence — Morning Landing
 
-_Export: 2026-04-24 11:37 UTC_
+> **Dashboard interactivo**: <http://localhost:8501> _(corre `ii dashboard` ou usa o launcher do Desktop)_
 
-## 🚀 Começa aqui
-- [[My Portfolio|💼 A minha carteira AGORA]] — overview + totals + holdings table
-- [[briefings/2026-04-24|🌅 Morning Briefing de hoje]] — diff, moves, earnings
-- [[Holdings|📋 Holdings completo]] — tabela unificada BR+US em BRL
-- [[Allocation|📊 Alocação]] — por market/sector/concentração
-- [[TaxLots|📜 Tax Lots JPM]] — breakdown lote-a-lote + short/long term
-- [[Rebalance|🔄 Rebalance]] — drift vs target
-- [[Transactions|📜 Transacções]] — log entries/exits
-- [[wiki/Index|📚 Wiki — Finance Map]] — methods, macro, history (31 notas)
+## 🔥 Decisões de hoje
 
-## Dashboards (Dataview)
-- [[dashboards/Portfolio|📊 Portfolio Dashboard]]
-- [[dashboards/Sectors|🏢 Sectors agregado]]
-- [[dashboards/Briefing|📰 Daily Briefing layout]]
+> Para approve/ignore com clique → abre o **dashboard** → tab "🎯 Actions Queue".
+> Para ler tese de cada decisão → clica nos tickers abaixo.
 
-## Markets
-- [[markets/BR|🇧🇷 Brazil]]
-- [[markets/US|🇺🇸 United States]]
+```dataview
+TABLE
+  market AS "Mkt",
+  sector AS "Sector",
+  round(price, 2) AS "Px",
+  dy_pct + "%" AS "DY",
+  altman_z AS "Altman Z",
+  piotroski AS "Piotroski",
+  screen_pass AS "Pass"
+FROM "tickers"
+WHERE is_holding = true AND (
+  altman_z < 1.81
+  OR piotroski <= 3
+  OR dy_pct >= 8
+  OR screen_pass = false
+)
+SORT altman_z ASC
+LIMIT 15
+```
 
-## Sectors
-- [[sectors/Banks|Banks]] (4 tickers)
-- [[sectors/Communication|Communication]] (2 tickers)
-- [[sectors/Consumer_Disc.|Consumer Disc.]] (9 tickers)
-- [[sectors/Consumer_Staples|Consumer Staples]] (20 tickers)
-- [[sectors/Corporativo|Corporativo]] (1 tickers)
-- [[sectors/ETF|ETF]] (1 tickers)
-- [[sectors/ETF-RF|ETF-RF]] (1 tickers)
-- [[sectors/ETF-US|ETF-US]] (1 tickers)
-- [[sectors/Energy|Energy]] (3 tickers)
-- [[sectors/Financials|Financials]] (20 tickers)
-- [[sectors/Healthcare|Healthcare]] (7 tickers)
-- [[sectors/Holding|Holding]] (2 tickers)
-- [[sectors/Híbrido|Híbrido]] (5 tickers)
-- [[sectors/Industrials|Industrials]] (23 tickers)
-- [[sectors/Insurance|Insurance]] (2 tickers)
-- [[sectors/Logística|Logística]] (4 tickers)
-- [[sectors/Materials|Materials]] (11 tickers)
-- [[sectors/Mining|Mining]] (1 tickers)
-- [[sectors/Oil_&_Gas|Oil & Gas]] (2 tickers)
-- [[sectors/Papel_(CRI)|Papel (CRI)]] (8 tickers)
-- [[sectors/REIT|REIT]] (3 tickers)
-- [[sectors/Real_Estate|Real Estate]] (2 tickers)
-- [[sectors/Shopping|Shopping]] (3 tickers)
-- [[sectors/Technology|Technology]] (8 tickers)
-- [[sectors/Telecom|Telecom]] (1 tickers)
-- [[sectors/Uncategorized|Uncategorized]] (17 tickers)
-- [[sectors/Utilities|Utilities]] (22 tickers)
+---
 
-## Tickers — **183** exportados
-- Pasta: [[tickers/]]
+## 📜 Read first
 
-## Videos YouTube — **21** ingeridos
-- Pasta: [[videos/]]
+- [[CONSTITUTION|📜 The Constitution]] — master doc + 6 não-negociáveis + decision log
+- [[../PHASE_Z_ROADMAP|🎨 Phase Z Roadmap (UI Layer)]] — current sprint
 
-## Graph View
-Ver ícone do canto superior esquerdo (3 bolas ligadas). Clusters emergem por sector + market + peers.
+## 🌅 Today
 
-## Plugins recomendados
-- **Dataview** ⭐ essencial (Community plugins → Browse → Dataview)
-- **Charts** — gráficos inline
-- **Templater** — snippets
-- **Calendar** — eventos datados
+- [[briefings/2026-04-23|🌅 Latest morning briefing]]
+- [[briefings/metrics_2026-04-24|📊 Metrics report 2026-04-24]]
+- [[briefings/overnight_research_2026-04-24/index|🦉 Overnight RAG research]]
+
+## 💼 Portfolio at a glance
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Ticker",
+  market AS "Mkt",
+  sector AS "Sector",
+  position_qty AS "Qty",
+  round(market_value, 0) AS "MV",
+  round(pnl_pct, 1) + "%" AS "P&L",
+  dy_pct + "%" AS "DY"
+FROM "tickers"
+WHERE is_holding = true
+SORT market_value DESC
+LIMIT 15
+```
+
+## 🎯 Screen passers (top quality)
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Ticker",
+  market AS "Mkt",
+  sector AS "Sector",
+  pe AS "P/E",
+  dy_pct + "%" AS "DY",
+  roe_pct + "%" AS "ROE",
+  streak_years AS "Streak"
+FROM "tickers"
+WHERE screen_pass = true
+SORT roe_pct DESC
+LIMIT 20
+```
+
+## 🧰 Quick jump
+
+| | | |
+|---|---|---|
+| [[My Portfolio\|💼 Portfolio]] | [[Holdings\|📋 Holdings]] | [[Allocation\|📊 Allocation]] |
+| [[TaxLots\|📜 Tax Lots]] | [[Rebalance\|🔄 Rebalance]] | [[Transactions\|📜 Tx]] |
+| [[wiki/Index\|📚 Wiki]] | [[skills/_MOC\|🧰 Skills]] | [[skills/Phase_X_Perpetuum_Engine\|🔁 Perpetuum]] |
+
+## 📈 Markets & sectors
+
+- [[markets/BR|🇧🇷 Brazil]] · [[markets/US|🇺🇸 United States]]
+- Sectors: [[sectors/Banks|Banks]] · [[sectors/Financials|Financials]] · [[sectors/Technology|Technology]] · [[sectors/Healthcare|Healthcare]] · [[sectors/Consumer_Staples|Consumer Staples]] · [[sectors/REIT|REIT]] · [[sectors/Energy|Energy]] · [[sectors/Materials|Materials]] · [[sectors/Logística|Logística]] · [[sectors/Shopping|Shopping]] · [[sectors/Papel_(CRI)|Papel (CRI)]] · [[sectors/Híbrido|Híbrido]]
+
+## 🩺 Perpetuum engine
+
+> 9 perpetuums autónomos correm diariamente. Health visível no dashboard tab "🩺 Perpetuum Health".
+
+```dataview
+LIST
+FROM "agents"
+WHERE contains(file.name, "perpetuum") OR contains(file.name, "Perpetuum")
+SORT file.name ASC
+LIMIT 12
+```
+
+## 📚 Knowledge base
+
+- [[skills/Library_First_Harvest_2026-04-24|📚 Library — books harvested]]
+- 1704 chunks indexados (Damodaran + 3 Dalio) — RAG via dashboard tab "📚 Ask Library"
+- 16 YAML methods activos → paper signals em "📈 Paper Signals" tab
+
+## 🎬 YouTube digest
+
+- 14 vídeos ingeridos — pasta [[videos/]]
+- Insights por canal: dashboard tab "📺 YouTube Digest"
+
+## 🗺️ Graph view
+
+Abre o **graph view** (canto superior esquerdo, 3 bolas) — clusters emergem por sector + market + peers. Ticker → notes wiki, perpetuum logs, briefings.
+
+---
+
+_Last refresh: ver `python scripts/obsidian_bridge.py --refresh` (corre via dashboard tab Portfolio→Refresh ou cron 23:30)._
