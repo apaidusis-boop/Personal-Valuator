@@ -78,5 +78,14 @@ echo [ROTATE] rotate_logs.py --days 30 >> "%LOG%"
 "%PY%" scripts\rotate_logs.py --days 30 >> "%LOG%" 2>&1
 echo ROTATE exit code: %errorlevel% >> "%LOG%"
 
+REM Weekly tasks — only on Sunday (DayOfWeek 0)
+for /f %%a in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek.value__"') do set DOW=%%a
+if "%DOW%"=="0" (
+    echo. >> "%LOG%"
+    echo [WEEKLY-SUNDAY] design_research.py  ^(Helena Linha continuous scout^) >> "%LOG%"
+    "%PY%" scripts\design_research.py >> "%LOG%" 2>&1
+    echo DESIGN-RESEARCH exit code: %errorlevel% >> "%LOG%"
+)
+
 echo Done %time% >> "%LOG%"
 endlocal
