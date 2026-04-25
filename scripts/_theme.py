@@ -125,27 +125,39 @@ h3 {{ font-size: 1.0rem; margin: 0.8rem 0 0.3rem 0; color: var(--muted); font-we
   font-weight: 400;
 }}
 
-/* Metric cards — flatten and align */
+/* Metric cards — Helena polish 2026-04-25 */
 [data-testid="stMetric"] {{
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 14px 16px;
+  border-left: 2px solid var(--accent);
+  border-radius: 4px;
+  padding: 14px 18px;
+  transition: border-left-color 0.15s ease;
+}}
+[data-testid="stMetric"]:hover {{
+  border-left-color: var(--positive);
 }}
 [data-testid="stMetricLabel"] {{
   color: var(--muted) !important;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-weight: 500;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  margin-bottom: 4px;
 }}
 [data-testid="stMetricValue"] {{
   color: var(--text) !important;
   font-family: ui-monospace, "SF Mono", "Cascadia Mono", monospace;
+  font-feature-settings: "tnum" 1;  /* tabular numerals */
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.45rem;
+  letter-spacing: -0.01em;
 }}
-[data-testid="stMetricDelta"] {{ font-size: 0.8rem; }}
+[data-testid="stMetricDelta"] {{
+  font-size: 0.78rem;
+  font-family: ui-monospace, monospace;
+  opacity: 0.85;
+}}
 
 /* Containers with border */
 [data-testid="stVerticalBlockBorderWrapper"] {{
@@ -192,10 +204,28 @@ h3 {{ font-size: 1.0rem; margin: 0.8rem 0 0.3rem 0; color: var(--muted); font-we
   box-shadow: 0 0 0 1px var(--accent) !important;
 }}
 
-/* Dataframes */
+/* Dataframes — Helena polish: tabular numerals, header weight */
 [data-testid="stDataFrame"] {{
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 4px;
+}}
+[data-testid="stDataFrame"] [data-testid="stStyledFullScreenButton"] {{ display: none; }}
+[data-testid="stDataFrame"] table {{
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", monospace;
+  font-feature-settings: "tnum" 1;
+  font-size: 0.84rem;
+}}
+[data-testid="stDataFrame"] thead th {{
+  background: var(--surface-2) !important;
+  color: var(--muted) !important;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+}}
+[data-testid="stDataFrame"] tbody tr:hover {{
+  background: var(--surface-2) !important;
 }}
 
 /* Dividers softer */

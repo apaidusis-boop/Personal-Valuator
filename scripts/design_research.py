@@ -1,21 +1,22 @@
 """design_research.py — Helena Linha continuous design scout.
 
-Pesquisa GitHub semanalmente por novos Claude Code skills/agents focados em
-design, UX, design systems, dashboard polish. Rankia por stars + recency,
-filtra contra inventory já instalado, escreve em
-`obsidian_vault/skills/Design_Watch.md` (overwrite, prepend new finds).
+Multi-source weekly scout: GitHub + design blog RSS + (deferred) YouTube.
+Filtra contra inventory já instalado, escreve em
+`obsidian_vault/skills/Design_Watch.md` (overwrite).
 
 Uso:
-    python scripts/design_research.py                   # full run
+    python scripts/design_research.py                   # full run all sources
     python scripts/design_research.py --dry-run         # print only
     python scripts/design_research.py --since-days 30   # widen window
+    python scripts/design_research.py --source github   # single source
 
 Cron:
-    Weekly Sunday 23:00 (add to existing scheduled task)
+    Weekly Sunday 23:30 (wired in scripts/daily_run.bat).
 
 Depends:
-    - urllib (stdlib)  — no external deps, GitHub API unauth (rate-limited 60/h)
-    - GITHUB_TOKEN env var (optional, raises to 5000/h)
+    - urllib (stdlib)
+    - GITHUB_TOKEN env var (optional, raises GitHub to 5000/h)
+    - YOUTUBE_API_KEY env var (optional, enables YouTube source)
 """
 from __future__ import annotations
 
@@ -165,13 +166,95 @@ def _classify(repo: dict) -> str:
     return "skip"
 
 
-def collect(since_days: int = 30) -> list[dict]:
-    """Run all queries, dedupe, filter, classify."""
+# ─────────────── source: design blog RSS feeds ───────────────
+
+RSS_FEEDS = [
+    ("Smashing Magazine",   "https://www.smashingmagazine.com/feed/"),
+    ("CSS-Tricks",          "https://css-tricks.com/feed/"),
+    ("A List Apart",        "https://alistapart.com/main/feed/"),
+    ("Nielsen Norman",      "https://www.nngroup.com/feed/rss/"),
+    ("Refactoring UI blog", "https://www.refactoringui.com/blog/feed.xml"),
+]
+
+
+def _fetch_rss(name: str, url: str, cutoff_iso: str) -> list[dict]:
+    """Minimal RSS/Atom parser (no external deps). Returns recent items."""
+    import re as _re
+    headers = {"User-Agent": "design-research-helena/1.0"}
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            xml = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        _log(f"rss FAIL {name}: {type(e).__name__}: {e}")
+        return []
+
+    items = []
+    item_re = _re.compile(r"<item>(.*?)</item>|<entry>(.*?)</entry>", _re.DOTALL)
+    title_re = _re.compile(r"<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", _re.DOTALL)
+    link_re = _re.compile(r'<link[^>]*?href="([^"]+)"|<link>(.*?)</link>', _re.DOTALL)
+    date_re = _re.compile(r"<(?:pubDate|published|updated|dc:date)>(.*?)</", _re.DOTALL)
+
+    for m in item_re.finditer(xml):
+        block = m.group(1) or m.group(2) or ""
+        t = title_re.search(block)
+        l = link_re.search(block)
+        d = date_re.search(block)
+        title = (t.group(1) if t else "").strip()
+        link = ""
+        if l:
+            link = (l.group(1) or l.group(2) or "").strip()
+        date_str = (d.group(1) if d else "").strip()[:10]
+        if not title or not link:
+            continue
+        if date_str and date_str < cutoff_iso:
+            continue
+        items.append({"source": name, "title": title[:200], "url": link, "date": date_str or "—"})
+    _log(f"rss {name}: {len(items)} items in window")
+    return items
+
+
+# ─────────────── source: YouTube (deferred — needs API key) ───────────────
+
+def _fetch_youtube(cutoff_iso: str) -> list[dict]:
+    """YouTube Data API search for design tutorials. Stub if no API key."""
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        _log("youtube SKIP: no YOUTUBE_API_KEY env var")
+        return []
+    queries = ["claude code design skill", "claude code dashboard", "design system tutorial 2026"]
+    out = []
+    for q in queries:
+        qs = urllib.parse.urlencode({
+            "part": "snippet", "q": q, "type": "video", "order": "date",
+            "maxResults": 5, "key": api_key,
+            "publishedAfter": f"{cutoff_iso}T00:00:00Z",
+        })
+        try:
+            with urllib.request.urlopen(f"https://www.googleapis.com/youtube/v3/search?{qs}", timeout=10) as r:
+                data = json.loads(r.read())
+            for it in data.get("items", []):
+                sn = it["snippet"]
+                out.append({
+                    "source": f"YouTube · {sn['channelTitle']}",
+                    "title": sn["title"][:200],
+                    "url": f"https://youtu.be/{it['id']['videoId']}",
+                    "date": sn["publishedAt"][:10],
+                })
+        except Exception as e:
+            _log(f"youtube FAIL {q!r}: {e}")
+    return out
+
+
+# ─────────────── orchestration ───────────────
+
+def collect_github(since_days: int) -> list[dict]:
+    """GitHub source — repos with design relevance."""
     seen: dict[str, dict] = {}
     cutoff = (date.today() - timedelta(days=since_days)).isoformat()
     for q in SEARCH_QUERIES:
         items = _gh_search(q)
-        _log(f"query={q[:60]!r} returned={len(items)}")
+        _log(f"gh query={q[:60]!r} returned={len(items)}")
         for it in items:
             full = it["full_name"]
             if full in KNOWN:
@@ -196,11 +279,29 @@ def collect(since_days: int = 30) -> list[dict]:
     return sorted(seen.values(), key=lambda r: (r["tier"] != "install", -r["stars"]))
 
 
-def render(rows: list[dict]) -> str:
+def collect_blogs(since_days: int) -> list[dict]:
+    cutoff = (date.today() - timedelta(days=since_days)).isoformat()
+    out = []
+    for name, url in RSS_FEEDS:
+        out.extend(_fetch_rss(name, url, cutoff))
+    return sorted(out, key=lambda x: x.get("date", ""), reverse=True)
+
+
+def collect_youtube(since_days: int) -> list[dict]:
+    cutoff = (date.today() - timedelta(days=since_days)).isoformat()
+    return _fetch_youtube(cutoff)
+
+
+# Backward-compat alias used by old callers
+def collect(since_days: int = 30) -> list[dict]:
+    return collect_github(since_days)
+
+
+def render(gh_rows: list[dict], blog_rows: list[dict], yt_rows: list[dict]) -> str:
     today = date.today().isoformat()
     installed = _list_installed()
-    install_rows = [r for r in rows if r["tier"] == "install"]
-    consider_rows = [r for r in rows if r["tier"] == "consider"]
+    install_rows = [r for r in gh_rows if r["tier"] == "install"]
+    consider_rows = [r for r in gh_rows if r["tier"] == "consider"]
 
     out = [
         "---",
@@ -212,7 +313,9 @@ def render(rows: list[dict]) -> str:
         "",
         "# Design Watch — Helena Linha continuous scout",
         "",
-        f"> Auto-refreshed weekly. Last run: **{today}**. Total finds: **{len(rows)}** ({len(install_rows)} install / {len(consider_rows)} consider).",
+        f"> Auto-refreshed weekly. Last run: **{today}**. ",
+        f"> GitHub: **{len(gh_rows)}** ({len(install_rows)} install / {len(consider_rows)} consider) · "
+        f"Blogs: **{len(blog_rows)}** · YouTube: **{len(yt_rows)}**",
         "",
         "## Currently installed (`~/.claude/skills/`)",
         "",
@@ -224,9 +327,9 @@ def render(rows: list[dict]) -> str:
         out.append("- _(empty)_")
     out += [
         "",
-        "## New: install tier",
+        "## GitHub · install tier",
         "",
-        "Stars ≥1000, design-relevant description, pushed in window.",
+        "Stars ≥1000 com design-keyword forte, pushed em window.",
         "",
     ]
     if install_rows:
@@ -236,30 +339,51 @@ def render(rows: list[dict]) -> str:
             desc = r["description"][:120].replace("|", "\\|")
             out.append(f"| [{r['full_name']}]({r['url']}) | {r['stars']} | {r['pushed_at']} | {desc} |")
     else:
-        out.append("_(no new install-tier finds this week)_")
+        out.append("_(no new install-tier finds)_")
 
-    out += ["", "## New: consider tier", "", "Stars ≥100 (or ≥5 with strong design keyword). Helena triages.", ""]
+    out += ["", "## GitHub · consider tier", "", "Stars ≥50 com design strong, ou ≥100 + Claude-Code spec.", ""]
     if consider_rows:
         out.append("| Repo | Stars | Pushed | Description |")
         out.append("|---|---:|---|---|")
-        for r in consider_rows[:30]:  # cap
+        for r in consider_rows[:30]:
             desc = r["description"][:100].replace("|", "\\|")
             out.append(f"| [{r['full_name']}]({r['url']}) | {r['stars']} | {r['pushed_at']} | {desc} |")
     else:
-        out.append("_(no new consider-tier finds this week)_")
+        out.append("_(no new consider-tier finds)_")
+
+    out += ["", "## Design blogs · latest posts", "", "RSS feeds in window — Helena triages para padrões emergentes.", ""]
+    if blog_rows:
+        out.append("| Source | Date | Title |")
+        out.append("|---|---|---|")
+        for r in blog_rows[:25]:
+            t = r["title"].replace("|", "\\|")
+            out.append(f"| {r['source']} | {r.get('date','—')} | [{t}]({r['url']}) |")
+    else:
+        out.append("_(blogs offline ou sem posts em window)_")
+
+    out += ["", "## YouTube · latest videos", ""]
+    if yt_rows:
+        out.append("| Source | Date | Title |")
+        out.append("|---|---|---|")
+        for r in yt_rows[:15]:
+            t = r["title"].replace("|", "\\|")
+            out.append(f"| {r['source']} | {r['date']} | [{t}]({r['url']}) |")
+    else:
+        out.append("_(YouTube source desactivado — exporta `YOUTUBE_API_KEY` para activar)_")
 
     out += [
         "",
         "## Helena's recommendation this week",
         "",
-        "_(Auto-generated stub — Helena writes here on review)_",
+        "_(Helena reescreve esta secção semanalmente após review)_",
         "",
-        "## Notes",
+        "## Sources & tuning",
         "",
-        "- Source: GitHub search API. Queries in `scripts/design_research.py::SEARCH_QUERIES`.",
-        "- Adicionar repo à blacklist: editar `KNOWN` no script.",
-        "- Rate limit 60/h sem token; 5000/h com `GITHUB_TOKEN`.",
-        f"- Log: `logs/design_research.log`",
+        "- **GitHub** — 9 queries em `SEARCH_QUERIES`. Inventory: `KNOWN` set.",
+        "- **RSS** — Smashing Mag, CSS-Tricks, A List Apart, NN/g, Refactoring UI.",
+        "- **YouTube** — opt-in via `YOUTUBE_API_KEY` env. 3 queries.",
+        "- Rate limits: GitHub 60/h sem token; 5000/h com `GITHUB_TOKEN`. YouTube 10k units/dia free tier.",
+        "- Log: `logs/design_research.log`",
     ]
     return "\n".join(out)
 
@@ -268,10 +392,14 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--since-days", type=int, default=30)
+    ap.add_argument("--source", choices=["github", "blogs", "youtube", "all"], default="all")
     args = ap.parse_args()
 
-    rows = collect(since_days=args.since_days)
-    md = render(rows)
+    gh_rows = collect_github(args.since_days) if args.source in ("github", "all") else []
+    blog_rows = collect_blogs(args.since_days) if args.source in ("blogs", "all") else []
+    yt_rows = collect_youtube(args.since_days) if args.source in ("youtube", "all") else []
+
+    md = render(gh_rows, blog_rows, yt_rows)
 
     if args.dry_run:
         print(md)
@@ -279,9 +407,9 @@ def main() -> int:
 
     VAULT.mkdir(parents=True, exist_ok=True)
     WATCH_FILE.write_text(md, encoding="utf-8")
-    install_n = sum(1 for r in rows if r["tier"] == "install")
-    consider_n = sum(1 for r in rows if r["tier"] == "consider")
-    msg = f"wrote {WATCH_FILE.relative_to(ROOT)} · {len(rows)} finds ({install_n} install / {consider_n} consider)"
+    install_n = sum(1 for r in gh_rows if r["tier"] == "install")
+    msg = (f"wrote {WATCH_FILE.relative_to(ROOT)} · "
+           f"gh={len(gh_rows)} ({install_n} install) blogs={len(blog_rows)} yt={len(yt_rows)}")
     _log(msg)
     print(msg)
     return 0
