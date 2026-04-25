@@ -153,3 +153,19 @@ Founder disse "Helena, pode fazer tudo". Fiz 4 entregas:
 4. **Design_Watch updated** — 3 leituras Smashing marcadas concluídas (destiladas no Design_System). Install command para `pbakaus/impeccable` deixado para o user (sandbox bloqueia clone autónomo). A/B agendado para 2026-05-02.
 
 Próxima vez que tocar dashboard: ainda há 6+ `st.metric` raw em outras pages (Actions Queue, Perpetuum Health, Paper Signals). Substituir incrementalmente.
+
+## Sessão 3 (2026-04-25, noite) — st.metric ZERO
+
+Founder voltou: "vamos continuar". Acabei o varrimento.
+
+**14 `st.metric` raw → 14 `kpi_tile()`** em 6 pages:
+- **Actions Queue** (4 KPIs): perpetuum-pending vira `warning` quando >0
+- **Perpetuum Health** (4 KPIs): flagged → `warning`; fresh today → `positive` se 100%, `warning` caso contrário
+- **Paper Signals** (4 KPIs): open vira `warning` quando >0 (decisão pendente)
+- **RI Timeline** (8 KPIs): Revenue/EBIT/NI/Equity ganham tone semântico via YoY (positive/negative); margens ficam neutral
+- **YouTube Digest** (1 KPI): vídeos no período → accent
+- **Screener** (1 KPI): candidates → accent
+
+`grep '\.metric('` agora devolve **zero matches** no dashboard_app.py. Princípio "engenheiros não escolhem cores" agora é compile-time enforcement em todo o app — só accent/positive/negative/warning/neutral via Tone Literal.
+
+Próximo: charts plotly inconsistentes (`st.bar_chart` em YouTube usa default azul fora da paleta). Refactor para `px.bar` com `template="ii_dark"`. Deixar para próxima sessão.

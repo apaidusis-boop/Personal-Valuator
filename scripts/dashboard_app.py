@@ -354,11 +354,16 @@ elif page == "Actions Queue":
         st.stop()
 
     # KPIs
+    perp_n = int(actions["is_perpetuum"].sum())
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total open", len(actions))
-    c2.metric("BR", int((actions["market"] == "br").sum()))
-    c3.metric("US", int((actions["market"] == "us").sum()))
-    c4.metric("Perpetuum", int(actions["is_perpetuum"].sum()))
+    with c1:
+        kpi_tile("Total open", str(len(actions)), tone="accent")
+    with c2:
+        kpi_tile("BR", str(int((actions["market"] == "br").sum())), tone="neutral")
+    with c3:
+        kpi_tile("US", str(int((actions["market"] == "us").sum())), tone="neutral")
+    with c4:
+        kpi_tile("Perpetuum", str(perp_n), tone="warning" if perp_n else "neutral")
 
     # Filters
     fc1, fc2, fc3 = st.columns(3)
@@ -612,12 +617,19 @@ elif page == "Perpetuum Health":
         lambda d: "🟢 fresh" if d <= 1 else "🟡 1-3d" if d <= 3 else "🔴 stale"
     )
 
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Perpetuums", len(summary))
-    c2.metric("Total subjects", int(summary["subjects"].sum()))
-    c3.metric("Flagged", int(summary["flagged"].sum()))
+    flagged_total = int(summary["flagged"].sum())
     fresh_count = int((summary["stale_days"] <= 1).sum())
-    c4.metric("Fresh today", f"{fresh_count}/{len(summary)}")
+    all_fresh = fresh_count == len(summary)
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        kpi_tile("Perpetuums", str(len(summary)), tone="accent")
+    with c2:
+        kpi_tile("Total subjects", f"{int(summary['subjects'].sum()):,}", tone="neutral")
+    with c3:
+        kpi_tile("Flagged", str(flagged_total), tone="warning" if flagged_total else "neutral")
+    with c4:
+        kpi_tile("Fresh today", f"{fresh_count}/{len(summary)}",
+                 tone="positive" if all_fresh else "warning")
 
     st.divider()
     st.subheader("Summary")
@@ -686,10 +698,14 @@ elif page == "Paper Signals":
     open_n = int((ps["status"] == "open").sum())
     closed_n = int((ps["status"] != "open").sum())
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total signals", len(ps))
-    c2.metric("Open", open_n)
-    c3.metric("Closed", closed_n)
-    c4.metric("Methods active", ps["method_id"].nunique())
+    with c1:
+        kpi_tile("Total signals", f"{len(ps):,}", tone="accent")
+    with c2:
+        kpi_tile("Open", str(open_n), tone="warning" if open_n else "neutral")
+    with c3:
+        kpi_tile("Closed", str(closed_n), tone="neutral")
+    with c4:
+        kpi_tile("Methods active", str(ps["method_id"].nunique()), tone="neutral")
 
     # Filters
     st.divider()
@@ -770,11 +786,12 @@ elif page == "RI Timeline":
     latest = qh.iloc[-1]
     prev = qh.iloc[-5] if len(qh) > 4 else None  # YoY
 
-    def _yoy(metric: str) -> str:
+    def _yoy(metric: str) -> tuple[str | None, str]:
         if prev is None or pd.isna(prev[metric]) or prev[metric] == 0:
-            return ""
+            return None, "neutral"
         delta = (latest[metric] - prev[metric]) / abs(prev[metric]) * 100
-        return f"{delta:+.1f}% YoY"
+        tone = "positive" if delta >= 0 else "negative"
+        return f"{delta:+.1f}% YoY", tone
 
     def _scale(v):
         if pd.isna(v):
@@ -785,18 +802,30 @@ elif page == "RI Timeline":
             return f"{v/1e6:.1f}M"
         return f"{v:,.0f}"
 
+    def _pct(v):
+        return f"{v*100:.1f}%" if not pd.isna(v) else "—"
+
     st.markdown(f"### {ticker} — último trimestre: **{latest['period_end']}** ({latest['source']})")
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Revenue", _scale(latest["revenue"]), _yoy("revenue"))
-    c2.metric("EBIT", _scale(latest["ebit"]), _yoy("ebit"))
-    c3.metric("Net Income", _scale(latest["net_income"]), _yoy("net_income"))
-    c4.metric("Equity", _scale(latest["equity"]), _yoy("equity"))
+    for col, label, key in (
+        (c1, "Revenue", "revenue"),
+        (c2, "EBIT", "ebit"),
+        (c3, "Net Income", "net_income"),
+        (c4, "Equity", "equity"),
+    ):
+        d, tone = _yoy(key)
+        with col:
+            kpi_tile(label, _scale(latest[key]), delta=d, tone=tone)
 
     c5, c6, c7, c8 = st.columns(4)
-    c5.metric("Gross margin", f"{latest['gross_margin']*100:.1f}%" if not pd.isna(latest["gross_margin"]) else "—")
-    c6.metric("EBIT margin", f"{latest['ebit_margin']*100:.1f}%" if not pd.isna(latest["ebit_margin"]) else "—")
-    c7.metric("Net margin", f"{latest['net_margin']*100:.1f}%" if not pd.isna(latest["net_margin"]) else "—")
-    c8.metric("Debt total", _scale(latest["debt_total"]))
+    with c5:
+        kpi_tile("Gross margin", _pct(latest["gross_margin"]), tone="neutral")
+    with c6:
+        kpi_tile("EBIT margin", _pct(latest["ebit_margin"]), tone="neutral")
+    with c7:
+        kpi_tile("Net margin", _pct(latest["net_margin"]), tone="neutral")
+    with c8:
+        kpi_tile("Debt total", _scale(latest["debt_total"]), tone="neutral")
 
     st.divider()
 
@@ -882,7 +911,7 @@ elif page == "YouTube Digest":
                 "WHERE channel=? AND published_at >= ? ORDER BY published_at DESC",
                 c, params=[channel, cutoff],
             )
-    st.metric("Vídeos no período", len(vids))
+    kpi_tile("Vídeos no período", str(len(vids)), tone="accent")
 
     if not vids.empty:
         ids = vids["video_id"].tolist()
@@ -987,7 +1016,7 @@ elif page == "Screener":
     filt = filt[filt["dy"].fillna(0) >= dy_min]
     filt = filt[filt["roe"].fillna(0) >= roe_min]
 
-    st.metric("Candidates", len(filt))
+    kpi_tile("Candidates", f"{len(filt):,}", tone="accent")
     st.dataframe(
         filt.sort_values("screen_score", ascending=False),
         use_container_width=True, height=500,
