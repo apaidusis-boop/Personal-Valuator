@@ -3,7 +3,7 @@ type: persona
 employee: Helena Linha
 title: Head of Design
 department: Design
-agent: null
+agent: helena_mega
 reports_to: founder
 collaborates_with: vitoria_vitrine
 schedule: "on_demand"
@@ -153,6 +153,27 @@ Founder disse "Helena, pode fazer tudo". Fiz 4 entregas:
 4. **Design_Watch updated** — 3 leituras Smashing marcadas concluídas (destiladas no Design_System). Install command para `pbakaus/impeccable` deixado para o user (sandbox bloqueia clone autónomo). A/B agendado para 2026-05-02.
 
 Próxima vez que tocar dashboard: ainda há 6+ `st.metric` raw em outras pages (Actions Queue, Perpetuum Health, Paper Signals). Substituir incrementalmente.
+
+## Sessão 4 (2026-04-25, noite) — Mega Helena
+
+Founder pediu **"a mega Helena"** depois de avaliar dump de 30+ community skills.
+Construí a versão pipeline:
+
+- **`agents/helena_mega.py`** — orchestrator (`MegaHelenaAgent`, BaseAgent subclass)
+- **`agents/helena/`** package com 4 módulos:
+  - `audit.py` — design system linter (DS001-DS009, 9 regras automáticas)
+  - `curate.py` — go/no-go matrix de 39 community skills vs arsenal in-house
+  - `spike.py` — 4 paths de plataforma (Streamlit / Tauri / Next.js / Obsidian-native) com stack + file tree + build + custos honestos
+  - `report.py` — consolidador master
+- **Outputs**: `obsidian_vault/skills/Helena_Mega/{00_MASTER, 01_Audit, 02_Curation, 03_Spikes}.md`
+- **Registo**: `config/agents.yaml` department Design, schedule manual
+
+Primeira run apanhou **16 violações reais** (4 errors / 12 warns) em scripts/ —
+pior ficheiro `dashboard_app.py` com 6 hits. Errors: 2× `cmap=RdYlGn`, 2× `px.pie`.
+Fix em ≤1h se founder aprovar.
+
+Recomendação Helena: Path B (Tauri). 3-4 semanas, tecto 10/10, reusa 100%
+backend Python via FastAPI sidecar.
 
 ## Sessão 3 (2026-04-25, noite) — st.metric ZERO
 

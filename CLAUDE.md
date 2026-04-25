@@ -98,6 +98,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 
 | Pergunta                                      | Comando existente |
 |---|---|
+| **Mega Helena** (design audit + skill curate + 4-path spikes) | `python agents/helena_mega.py [audit\|curate\|spike\|report\|all] [--dry-run]` — outputs em `obsidian_vault/skills/Helena_Mega/` |
+| **Helena audit** (design system linter, DS001-DS009) | `python -m agents.helena.audit` |
+| **Helena Linha scout** (weekly, GitHub+RSS+YouTube) | `python scripts/design_research.py [--source github\|blogs\|youtube\|all]` |
 | **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
 | **Ingest relatórios subscriptions** (Suno/XP/WSJ) | `ii subs fetch --source all && ii subs extract` |
 | **Views de analistas sobre ticker**           | `ii subs query X --days 90` |
