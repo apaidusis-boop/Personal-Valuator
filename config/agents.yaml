@@ -181,6 +181,23 @@ agents:
       lookback_hours: 6
 
   # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Design
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: helena_mega
+    employee_name: "Helena Linha (Mega)"
+    title: "Head of Design — Mega mode"
+    bio: "Auditoria + curadoria + spikes de plataforma num só pipeline. On-demand quando o founder pede revisão geral."
+    department: "Design"
+    class: agents.helena_mega:MegaHelenaAgent
+    enabled: true
+    schedule: "manual"
+    reports_to: "founder"
+    description: "Mega Helena — design audit + skill curation + 4-path spikes + master report"
+    config:
+      stages: [audit, curate, spike, report]
+
+  # ══════════════════════════════════════════════════════════════════
   # DEPARTMENT: Data Stewardship
   # ══════════════════════════════════════════════════════════════════
 
