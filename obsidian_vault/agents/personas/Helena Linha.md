@@ -109,10 +109,31 @@ Junto com Vitória, decidimos:
 - **Artefactos**: `scripts/_theme.py` (Plotly template + cores) · CSS embutido em `scripts/dashboard_app.py` topo · Future: `scripts/_components.py` (cards, KPI tiles)
 - **Convocar**: founder diz "feio", "Helena", "design", "professional", "clean"
 
+## Routine: continuous design scout
+
+**Script**: `scripts/design_research.py`  ·  **Output**: `obsidian_vault/skills/Design_Watch.md`  ·  **Cadência**: weekly (Sunday)
+
+Helena não pára. Toda semana scaneia GitHub por novos Claude Code skills/agents focados em design (queries em `SEARCH_QUERIES`), filtra contra inventory (`KNOWN`), classifica em install/consider/skip. Resultado em `Design_Watch.md` (overwrite com data).
+
+**Princípio**: o ecossistema melhora com o tempo. O que era fronteira em Abril 2026 é baseline em Outubro. Se Helena pára, a casa fica para trás.
+
+**Tuning**: Helena edita `_classify` quando ruído sobe (false positives) ou quando quer relaxar/apertar (precision vs recall). Cada tune entra no log `logs/design_research.log`.
+
+**Manual run**:
+```bash
+python scripts/design_research.py                 # weekly default (30d window)
+python scripts/design_research.py --dry-run       # preview
+python scripts/design_research.py --since-days 90 # widen lookback
+```
+
+**Cron**: agendado em `obsidian_vault/skills/Design_Watch.md` / wired no scheduled task de 23:30 (filtra weekday=Sunday).
+
 ## Próximo review agendado
 
 - **Continuous** — review obrigatório antes de cada commit que toque UI
+- **Sundays 23:00** — `design_research.py` corre, Helena revê o `Design_Watch.md` na segunda manhã
 - **2026-05-02** — junto com Vitória, primeira retrospective de friction + visual debt
+- **2026-05-09** — primeira revisão dos finds da Helena (3+ semanas de Design_Watch acumulado)
 
 ## Nota de chegada (2026-04-25)
 
