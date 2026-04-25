@@ -1,0 +1,2 @@
+/* KPITile-specific overrides; base styles in tokens.css */
+.kpi-tile { transition: border-left-color 0.15s ease; }

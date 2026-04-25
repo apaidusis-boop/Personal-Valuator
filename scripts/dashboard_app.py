@@ -222,15 +222,26 @@ if page == "Portfolio":
     else:
         st.info("Sem snapshots ainda. Corre: `python scripts/snapshot_portfolio.py --backfill 90`")
 
-    # Allocation pies
-    col1, col2 = st.columns(2)
+    # Allocation — horizontal bars sorted (Helena DS004: pie banido, anti-padrão #6)
+    col1, col2 = st.columns([3, 2])
     with col1:
-        sec_agg = df.groupby("sector")["mv_brl"].sum().reset_index().sort_values("mv_brl", ascending=False)
-        fig_sec = px.pie(sec_agg, values="mv_brl", names="sector", title="Alocação por Sector")
+        sec_agg = (df.groupby("sector")["mv_brl"].sum()
+                   .reset_index().sort_values("mv_brl", ascending=True))
+        fig_sec = px.bar(sec_agg, x="mv_brl", y="sector", orientation="h",
+                         title="Alocação por sector",
+                         labels={"mv_brl": "MV (BRL)", "sector": ""})
+        fig_sec.update_traces(marker_color=COLORS["accent"])
+        fig_sec.update_layout(showlegend=False)
         st.plotly_chart(fig_sec, use_container_width=True)
     with col2:
-        fig_mkt = px.pie(df.groupby("market")["mv_brl"].sum().reset_index(),
-                         values="mv_brl", names="market", title="Alocação BR vs US")
+        mkt_agg = (df.groupby("market")["mv_brl"].sum()
+                   .reset_index().sort_values("mv_brl", ascending=True))
+        mkt_agg["market"] = mkt_agg["market"].str.upper()
+        fig_mkt = px.bar(mkt_agg, x="mv_brl", y="market", orientation="h",
+                         title="Alocação BR vs US",
+                         labels={"mv_brl": "MV (BRL)", "market": ""})
+        fig_mkt.update_traces(marker_color=COLORS["positive"])
+        fig_mkt.update_layout(showlegend=False)
         st.plotly_chart(fig_mkt, use_container_width=True)
 
     st.divider()
@@ -239,12 +250,17 @@ if page == "Portfolio":
                   "mv_brl", "weight", "pnl_pct", "screen_score", "screen_pass"]].copy()
     display.columns = ["Ticker", "Mkt", "Sector", "Qty", "Entry", "Now", "MV (BRL)", "Weight %", "P&L %", "Screen", "Pass"]
     display = display.sort_values("MV (BRL)", ascending=False)
+    def _pnl_tone(v):
+        if pd.isna(v):
+            return ""
+        return f"color: {COLORS['positive' if v >= 0 else 'negative']}"
+
     st.dataframe(
         display.style.format({
             "Qty": "{:g}", "Entry": "{:,.2f}", "Now": "{:,.2f}",
             "MV (BRL)": "R$ {:,.0f}", "Weight %": "{:.1f}%", "P&L %": "{:+.2f}%",
             "Screen": "{:.2f}",
-        }).background_gradient(subset=["P&L %"], cmap="RdYlGn", vmin=-50, vmax=100),
+        }).map(_pnl_tone, subset=["P&L %"]),
         use_container_width=True,
         height=min(600, 40 * len(df) + 50),
     )
@@ -633,11 +649,26 @@ elif page == "Perpetuum Health":
 
     st.divider()
     st.subheader("Summary")
+
+    def _score_tone(v):
+        if pd.isna(v):
+            return ""
+        if v >= 70:
+            return f"color: {COLORS['positive']}"
+        if v >= 40:
+            return f"color: {COLORS['warning']}"
+        return f"color: {COLORS['negative']}"
+
+    def _flagged_tone(v):
+        if pd.isna(v) or v == 0:
+            return ""
+        return f"color: {COLORS['negative']}; font-weight: 600"
+
     st.dataframe(
         summary[["perpetuum_name", "status", "subjects", "flagged", "avg_score", "last_run", "stale_days"]]
         .style.format({"avg_score": "{:.1f}", "stale_days": "{:.0f}"})
-        .background_gradient(subset=["avg_score"], cmap="RdYlGn", vmin=0, vmax=100)
-        .background_gradient(subset=["flagged"], cmap="Reds", vmin=0, vmax=summary["flagged"].max() or 1),
+        .map(_score_tone, subset=["avg_score"])
+        .map(_flagged_tone, subset=["flagged"]),
         use_container_width=True,
     )
 
