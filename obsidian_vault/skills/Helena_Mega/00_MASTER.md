@@ -14,7 +14,7 @@ tags: [helena, mega, master, design, platform]
 ## TL;DR
 
 1. **Design system v1.0 está aplicado em 1/1** páginas Streamlit. Helena fez o trabalho.
-2. **16 violações** detectáveis automaticamente (**4 errors / 12 warns / 0 info**) em 67 ficheiros. Pior ficheiro: `scripts/dashboard_app.py` com 6 hits — fix em ≤1h.
+2. **12 violações** detectáveis automaticamente (**0 errors / 12 warns / 0 info**) em 67 ficheiros. Pior ficheiro: `scripts/us_portfolio_report.py` com 5 hits — fix em ≤1h.
 3. **39 skills da comunidade triados**: 4 install, 16 consider, 19 skip. **Não instalar tudo** — excesso é o slop.
 4. **4 paths de plataforma** com tecto e custo honestos. Recomendação: **Path B (Tauri)** para 'top quality'; Path A+D combinado se 4 semanas demasiado.
 
@@ -27,16 +27,16 @@ tags: [helena, mega, master, design, platform]
 | Páginas com `inject_css()` | 1 |
 | Páginas com `kpi_tile` import | 1 |
 | Total ficheiros .py em scope | 67 |
-| Total LoC analisadas | 18465 |
+| Total LoC analisadas | 18496 |
 
 ### Violações por regra
 
 | Regra | Severidade | Hits |
 |---|---|---:|
-| `DS001` Rainbow/sequential cmap em styler | error 🔴 | 2 |
+| `DS001` Rainbow/sequential cmap em styler | error 🟢 | 0 |
 | `DS002` st.metric() cru | error 🟢 | 0 |
 | `DS003` Emoji-prefix em heading | error 🟢 | 0 |
-| `DS004` px.pie() banido | error 🔴 | 2 |
+| `DS004` px.pie() banido | error 🟢 | 0 |
 | `DS005` Plotly template cru | warn 🟡 | 5 |
 | `DS006` Hex literal fora dos 5 tokens | warn 🟡 | 5 |
 | `DS007` Cor por nome | warn 🟢 | 0 |
@@ -104,9 +104,9 @@ Detalhe em [[03_Spikes]]. Cada path: stack, file tree, build, custo honesto.
 
 Helena precisa de aprovação em 3 pontos antes de avançar:
 
-- [x] **Path** — A / B / C / D / hybrid? (recomendação Helena: B)
-- [x] **Skills install agora** — confirmar 4 INSTALL automáticos OU Helena para de instalar e founder revê 1-a-1?
-- [x] **Audit fixes** — Helena Mega faz auto-fix dos 4 errors do audit (opt-in com `--apply`)? Ou só relata?
+- [ ] **Path** — A / B / C / D / hybrid? (recomendação Helena: B)
+- [ ] **Skills install agora** — confirmar 4 INSTALL automáticos OU Helena para de instalar e founder revê 1-a-1?
+- [ ] **Audit fixes** — Helena Mega faz auto-fix dos 4 errors do audit (opt-in com `--apply`)? Ou só relata?
 
 ## 5 · Próximos passos imediatos (próximas 24h, sem aprovação adicional)
 

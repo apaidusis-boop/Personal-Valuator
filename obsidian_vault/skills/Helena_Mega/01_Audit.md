@@ -7,7 +7,7 @@ tags: [design, audit, helena, mega]
 
 # 01 — Design audit
 
-> Helena Mega · run **2026-04-25** · 67 ficheiros · **16** violações (4 errors / 12 warns / 0 info)
+> Helena Mega · run **2026-04-25** · 67 ficheiros · **12** violações (0 errors / 12 warns / 0 info)
 
 ## Resumo executivo
 
@@ -15,10 +15,10 @@ Distribuição por regra:
 
 | Regra | Severidade | Descrição | Hits |
 |---|---|---|---:|
-| `DS001` | error 🔴 | Rainbow/sequential cmap em styler | 2 |
+| `DS001` | error 🟢 | Rainbow/sequential cmap em styler | 0 |
 | `DS002` | error 🟢 | st.metric() cru | 0 |
 | `DS003` | error 🟢 | Emoji-prefix em heading | 0 |
-| `DS004` | error 🔴 | px.pie() banido (anti-padrão #6 ornamental) | 2 |
+| `DS004` | error 🟢 | px.pie() banido (anti-padrão #6 ornamental) | 0 |
 | `DS005` | warn 🟡 | Plotly template cru (plotly_white/plotly_dark) | 5 |
 | `DS006` | warn 🟡 | Hex literal fora dos 5 tokens | 5 |
 | `DS007` | warn 🟢 | Cor por nome (black/red/blue/…) | 0 |
@@ -29,30 +29,12 @@ Top 10 ficheiros com mais violações:
 
 | Ficheiro | Violações | Linhas |
 |---|---:|---:|
-| `scripts/dashboard_app.py` | 6 | 1024 |
 | `scripts/us_portfolio_report.py` | 5 | 375 |
 | `scripts/compare_ibov.py` | 4 | 187 |
+| `scripts/dashboard_app.py` | 2 | 1055 |
 | `scripts/compare_ticker_vs_macro.py` | 1 | 76 |
 
 ## Detalhe por regra
-
-### `DS001` — Rainbow/sequential cmap em styler  _(error, 2 hits)_
-
-**Fix sugerido**: Cor é binária (pass/fail) ou axial. Substituir por threshold numérico ou status_pill().
-
-| Ficheiro | Linha | Trecho |
-|---|---:|---|
-| `scripts/dashboard_app.py` | 247 | `}).background_gradient(subset=["P&L %"], cmap="RdYlGn", vmin=-50, vmax=100),` |
-| `scripts/dashboard_app.py` | 639 | `.background_gradient(subset=["avg_score"], cmap="RdYlGn", vmin=0, vmax=100)` |
-
-### `DS004` — px.pie() banido (anti-padrão #6 ornamental)  _(error, 2 hits)_
-
-**Fix sugerido**: Substituir por bar horizontal ordenada ou treemap se hierarquia.
-
-| Ficheiro | Linha | Trecho |
-|---|---:|---|
-| `scripts/dashboard_app.py` | 229 | `fig_sec = px.pie(sec_agg, values="mv_brl", names="sector", title="Alocação por Sector")` |
-| `scripts/dashboard_app.py` | 232 | `fig_mkt = px.pie(df.groupby("market")["mv_brl"].sum().reset_index(),` |
 
 ### `DS005` — Plotly template cru (plotly_white/plotly_dark)  _(warn, 5 hits)_
 
@@ -84,14 +66,14 @@ Top 10 ficheiros com mais violações:
 
 | Ficheiro | Linha | Trecho |
 |---|---:|---|
-| `scripts/dashboard_app.py` | 508 | `section_caption("RAG local · Damodaran + Dalio · Qwen 14B")` |
-| `scripts/dashboard_app.py` | 756 | `section_caption("Quarterly history · CVM oficial · 5 stocks BR")` |
+| `scripts/dashboard_app.py` | 524 | `section_caption("RAG local · Damodaran + Dalio · Qwen 14B")` |
+| `scripts/dashboard_app.py` | 787 | `section_caption("Quarterly history · CVM oficial · 5 stocks BR")` |
 
 ## Cobertura de design system por ficheiro
 
 | Ficheiro | inject_css? | kpi_tile import? | Streamlit page? | LoC |
 |---|---|---|---|---:|
-| `scripts/dashboard_app.py` | ✅ | ✅ | ✅ | 1024 |
+| `scripts/dashboard_app.py` | ✅ | ✅ | ✅ | 1055 |
 
 ## Cross-links
 

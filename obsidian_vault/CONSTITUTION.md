@@ -26,6 +26,11 @@ Sistema pessoal de inteligência de investimentos para **um investidor pessoa f�
 
 ## 🛡️ Os 6 não-negociáveis (constitutional rules)
 
+> **Princípio de superfícies (2026-04-26)**: Terminal/CLI = **sala do chefe**
+> (acção directa, raw, sem cerimónia). Obsidian + desktop app + reports HTML =
+> **Escritório** (consumível, polido, narrável). Helena Design System aplica-se
+> ao Escritório. CLI optimiza para velocidade, não estética.
+
 1. **In-house first** — Tudo que rode localmente (SQL, Ollama, scripts) NÃO usa tokens Claude. Claude é último recurso. Esta é a meta-regra que governa todas as outras.
 
 2. **Carteiras isoladas** — Dinheiro USD fica em US, BRL em BR. Nunca sugerir conversão entre contas.
@@ -214,6 +219,10 @@ Phase paralela após sprints 0-7: hire de **Helena Linha** (Head of Design) + si
 | 2026-04-25 | Streamlit UI chama scripts existentes via subprocess | Não duplicar lógica; CLI continua canónico |
 | 2026-04-25 | Helena Linha hired (Head of Design) — toda UI nova passa por design review | Sem cadeira dedicada, cada feature herdava estilo do engenheiro que a escreveu |
 | 2026-04-25 | `_components.py` + `Tone Literal` como compile-time guard contra cores ad-hoc | "Engenheiros não escolhem cores"; paleta restrita é não-negociável |
+| 2026-04-26 | Mega Helena (`agents/helena_mega.py`) ship — pipeline audit+curate+spike+report | User: "vamos fazer a mega Helena"; consolidar Helena num único orchestrator |
+| 2026-04-26 | **Princípio de superfícies**: Terminal=sala-do-chefe, Obsidian/desktop=Escritório | User: "O terminal é a sala do chefe, o Obsidian é o Escritório" — cada superfície optimiza para o seu uso |
+| 2026-04-26 | Path B (Tauri desktop app) escolhido para Phase Z UI | "O mais elaborado"; tecto 10/10, reusa 100% backend Python via FastAPI sidecar |
+| 2026-04-26 | CLI `ii *` mantém-se intacto independentemente do Path B | Princípio das superfícies — Tauri é Escritório, não substitui sala-do-chefe |
 
 ## 🔁 Estado actual dos perpetuums (live)
 
