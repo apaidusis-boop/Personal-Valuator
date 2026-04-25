@@ -106,7 +106,11 @@ Junto com Vitória, decidimos:
 ## Instância técnica
 
 - **Class**: nenhuma (Helena é consultiva)
-- **Artefactos**: `scripts/_theme.py` (Plotly template + cores) · CSS embutido em `scripts/dashboard_app.py` topo · Future: `scripts/_components.py` (cards, KPI tiles)
+- **Artefactos**:
+  - `scripts/_theme.py` — tokens, Plotly template `ii_dark`, CSS injection global
+  - `scripts/_components.py` — `kpi_tile`, `status_pill`, `section_header`, `agent_attribution`, `divider` (v1, 2026-04-25)
+  - [[Design_System]] — constituição visual v1.0 (5 princípios + UX agentic patterns + componentes + anti-padrões)
+  - [[Design_Watch]] — research weekly (Sundays 23:00, sources GitHub + 5 RSS + YouTube opt-in)
 - **Convocar**: founder diz "feio", "Helena", "design", "professional", "clean"
 
 ## Routine: continuous design scout
@@ -132,9 +136,20 @@ python scripts/design_research.py --since-days 90 # widen lookback
 
 - **Continuous** — review obrigatório antes de cada commit que toque UI
 - **Sundays 23:00** — `design_research.py` corre, Helena revê o `Design_Watch.md` na segunda manhã
-- **2026-05-02** — junto com Vitória, primeira retrospective de friction + visual debt
-- **2026-05-09** — primeira revisão dos finds da Helena (3+ semanas de Design_Watch acumulado)
+- **2026-05-02** — junto com Vitória, primeira retrospective de friction + visual debt; A/B `hue` vs `impeccable` se user instalou.
+- **2026-05-09** — primeira revisão dos finds da Helena (3+ semanas de Design_Watch acumulado); revisão do Design_System v1 → v1.1 com aprendizagens reais.
 
 ## Nota de chegada (2026-04-25)
 
 Cheguei e a primeira coisa que vi: 4 page titles com emoji-prefix e captions condescendentes ("zero tokens Claude", "9 perpetuums autónomos"). Ninguém precisa que lhe digam que é zero tokens; isso é uma decisão arquitectural, não um label. Cortei. Próximo passo: paleta consistente em plotly. Já está em `_theme.py`.
+
+## Sessão 2 (2026-04-25, tarde) — sistema fechado
+
+Founder disse "Helena, pode fazer tudo". Fiz 4 entregas:
+
+1. **Design_System v1.0** publicado em `obsidian_vault/skills/Design_System.md`. 5 princípios não-negociáveis, UX patterns para AI agentic (3 momentos de transparência + tiers T1-T5 + consent fatigue), componentes catalogados, 8 anti-padrões já apanhados.
+2. **`scripts/_components.py`** v1 — 5 helpers reutilizáveis (`kpi_tile`, `status_pill`, `section_header`, `agent_attribution`, `divider`). Todos respeitam tokens; impossível introduzir cor fora da paleta.
+3. **Dashboard refactor parcial** — 8 `st.metric` substituídos por `kpi_tile()` (Portfolio: 4 cards; Ticker Deep Dive: 4 verdict scores). Emojis 🇧🇷/🇺🇸 removidos dos labels (não permitidos pelos princípios).
+4. **Design_Watch updated** — 3 leituras Smashing marcadas concluídas (destiladas no Design_System). Install command para `pbakaus/impeccable` deixado para o user (sandbox bloqueia clone autónomo). A/B agendado para 2026-05-02.
+
+Próxima vez que tocar dashboard: ainda há 6+ `st.metric` raw em outras pages (Actions Queue, Perpetuum Health, Paper Signals). Substituir incrementalmente.

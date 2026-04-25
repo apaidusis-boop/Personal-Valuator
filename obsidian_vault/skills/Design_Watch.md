@@ -74,15 +74,29 @@ _(YouTube source desactivado — exporta `YOUTUBE_API_KEY` para activar)_
 
 ## Helena's recommendation this week
 
-**3 leituras Smashing aplicáveis ao nosso flow agentic:**
+**3 leituras Smashing aplicáveis ao nosso flow agentic — destiladas:** já no novo [[Design_System]] v1.0 (secção *Padrões UX para AI agentic*).
 
-1. [A Practical Guide To Design Principles](https://smashingmagazine.com/2026/04/practical-guide-design-principles/) — vou destilar 5 princípios concretos para o `Design_System.md` da casa esta semana.
-2. [Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability](https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/) — diretamente aplicável à nossa Actions Queue e perpetuums T2-T5.
-3. [Identifying Necessary Transparency Moments In Agentic AI](https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/) — pair com #2; ajuda a decidir onde mostrar "porquê" vs "what" no dashboard.
+1. ✅ [A Practical Guide To Design Principles](https://smashingmagazine.com/2026/04/practical-guide-design-principles/) — destilados em 5 princípios não-negociáveis no Design_System.
+2. ✅ [Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability](https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/) — quadro de tiers T1-T5 em Design_System; consent fatigue mitigation prevista.
+3. ✅ [Identifying Necessary Transparency Moments In Agentic AI](https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/) — codificado nos 3 momentos obrigatórios (Why, What, Who paid). Helper `agent_attribution()` em `scripts/_components.py` aplica.
 
-**Skill candidate next**: [`pbakaus/impeccable`](https://github.com/pbakaus/impeccable) (21k stars). 45× mais stars que o `hue` actual, mesma categoria. A/B test próxima sessão.
+**Skill A/B pending**: [`pbakaus/impeccable`](https://github.com/pbakaus/impeccable) (21k stars). 45× mais stars que o `hue` actual, mesma categoria. **Install command** (manual, sandbox bloqueia clone autónomo de external):
 
-**Polish aplicado hoje**: accent left-border 2px nos KPI cards + monospaced numeric tabular alignment + improved table header weight. Baseado em "hierarquia tipográfica > cor" + Rams' "less but better".
+```bash
+git clone --depth 1 https://github.com/pbakaus/impeccable.git ~/.claude/skills/impeccable
+```
+
+Depois Helena compara output em 1 brief gerado por cada skill (`hue` vs `impeccable`), reporta vencedor na Design_Watch da próxima semana.
+
+**Polish aplicado hoje (2026-04-25, sessão 2)**:
+- `obsidian_vault/skills/Design_System.md` v1.0 publicado (5 princípios + UX agentic + componentes catalogados + anti-padrões).
+- `scripts/_components.py` v1 publicado: `kpi_tile`, `status_pill`, `section_header`, `agent_attribution`, `divider`. Todos respeitam tokens em `_theme.py`.
+- Dashboard portfolio + ticker deep dive: 8 `st.metric` substituídos por `kpi_tile()` (4 KPIs portfolio + 4 verdict scores). Emojis 🇧🇷/🇺🇸 removidos dos labels (não estavam na lista de badges semânticos permitidos).
+
+## Cross-links
+
+- [[Design_System]] v1.0 — constituição visual da casa (princípios + componentes + anti-padrões)
+- [[Helena Linha]] — persona owner
 
 ## Sources & tuning
 

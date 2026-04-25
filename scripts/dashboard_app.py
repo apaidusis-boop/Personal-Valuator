@@ -38,6 +38,7 @@ st.set_page_config(
 )
 
 from scripts._theme import inject_css, brand_sidebar, section_caption, COLORS  # noqa: E402
+from scripts._components import kpi_tile, section_header  # noqa: E402
 
 inject_css()
 
@@ -192,10 +193,16 @@ if page == "Portfolio":
     us_mv = df.loc[df["market"] == "us", "mv_brl"].sum()
 
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Total BRL", f"R$ {total_brl:,.0f}")
-    col2.metric("Total USD", f"$ {total_brl / fx_rate:,.0f}")
-    col3.metric("🇧🇷 BR", f"R$ {br_mv:,.0f}", f"{br_mv/total_brl*100:.1f}%")
-    col4.metric("🇺🇸 US", f"R$ {us_mv:,.0f}", f"{us_mv/total_brl*100:.1f}%")
+    with col1:
+        kpi_tile("Total BRL", f"R$ {total_brl:,.0f}", tone="accent")
+    with col2:
+        kpi_tile("Total USD", f"$ {total_brl / fx_rate:,.0f}", tone="accent")
+    with col3:
+        kpi_tile("BR", f"R$ {br_mv:,.0f}",
+                 delta=f"{br_mv/total_brl*100:.1f}% of total", tone="positive")
+    with col4:
+        kpi_tile("US", f"R$ {us_mv:,.0f}",
+                 delta=f"{us_mv/total_brl*100:.1f}% of total", tone="positive")
 
     st.divider()
 
@@ -266,10 +273,14 @@ elif page == "Ticker Deep Dive":
                  "HOLD": "🟠", "SELL": "🔴", "AVOID": "⛔", "SKIP": "⚪"}.get(v["action"], "•")
         st.markdown(f"### {color} {v['action']}  —  Score **{v['total_score']:.1f}/10**  (conf {v['confidence_pct']}%)")
         c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Quality", f"{v['quality_score']:.1f}/10")
-        c2.metric("Valuation", f"{v['valuation_score']:.1f}/10")
-        c3.metric("Momentum", f"{v['momentum_score']:.1f}/10")
-        c4.metric("Narrativa", f"{v['narrative_score']:.1f}/10")
+        with c1:
+            kpi_tile("Quality", f"{v['quality_score']:.1f}/10", tone="positive")
+        with c2:
+            kpi_tile("Valuation", f"{v['valuation_score']:.1f}/10", tone="accent")
+        with c3:
+            kpi_tile("Momentum", f"{v['momentum_score']:.1f}/10", tone="warning")
+        with c4:
+            kpi_tile("Narrativa", f"{v['narrative_score']:.1f}/10", tone="neutral")
         with st.expander("Razões"):
             for r in v["reasons"]:
                 st.write(f"- {r}")
