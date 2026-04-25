@@ -317,6 +317,7 @@ User explicitamente pediu (sessão 25/04 final):
 | 2026-04-25 evening                | **Z (UI)**       | Sprints Z.0-Z.7: 7 dashboard pages novas (Actions Queue, Ask Library, Perpetuum Health, Paper Signals, RI Timeline) + Home.md morning landing + `start_dashboard.bat` one-click launcher. ~440 LOC. |                      0 |     |
 | 2026-04-25 night                  | **Z.8 Helena s1-s2** | Helena Linha hired (Head of Design). `_theme.py` (plotly `ii_dark` + dark CSS + brand sidebar). Design_System v1.0 + `_components.py` v1 (5 helpers). 8 `st.metric` raw → `kpi_tile()` (Portfolio + Verdict). `design_research.py` weekly scout. |                      0 |     |
 | **2026-04-25 night**              | **Z.8 Helena s3** | **14 `st.metric` raw → `kpi_tile()`** em 6 pages (Actions Queue, Perpetuum Health, Paper Signals, RI Timeline, YouTube, Screener). Tones semânticos: warning para attention items, positive/negative para YoY, accent para counts. `grep '\.metric('` = 0 matches. Compile-time enforcement de paleta via `Tone Literal`. |                      0 |     |
+| 2026-04-25 night                  | **Z.8 Helena s4**    | **Live launcher + Claude Design avaliação.** `scripts/launch_dashboard.bat` idempotente (detecta porta 8501; arranca minimizado com `--server.runOnSave true` para hot-reload em qualquer save). Desktop `.lnk` aponta a `.bat` versionado em git → atalho não fica obsoleto. `obsidian_vault/skills/Claude_Design_Integration.md`: research preview Anthropic Labs avaliada — web-only, sem API; workflow proposto = Helena prototipa em claude.ai (com Design_System como contexto) → handoff Claude Code → implementação Streamlit reusando `_components.py`. Política dura: nunca HTML directo para produção. |                      0 |     |
 
 ## 🧭 Como usar este documento
 
@@ -333,6 +334,10 @@ User explicitamente pediu (sessão 25/04 final):
 - [[skills/Phase_X_Perpetuum_Engine|🔁 Perpetuum Engine]]
 - [[skills/Phase_Y_Roadmap|🏗️ Phase Y Roadmap]]
 - [[skills/Library_Books_and_Options|📚 Library + Options strategy]]
+- [[skills/Design_System|🎨 Design System v1.0 (Helena)]]
+- [[skills/Design_Watch|🔍 Design Watch (research weekly)]]
+- [[skills/Claude_Design_Integration|🧪 Claude Design integration plan]]
+- [[agents/personas/Helena Linha|👤 Helena Linha (Head of Design)]]
 - [[skills/Session_2026-04-24_Final_State|🏆 Session 24/04 final]]
 - [[wiki/Index|📚 Wiki Index]]
 
