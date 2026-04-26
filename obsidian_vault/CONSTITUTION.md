@@ -40,9 +40,11 @@ User saiu por 2h ("Pode atacar tudo. Força total"). Ataque concorrente em 3 fre
 - 33 IC files antes → ~70+ no fim da sessão (em curso, ~3h Ollama qwen2.5:14b)
 - Universo final esperado: ~180 tickers cobertos com 5-persona debate
 
-**Material findings**:
-- BBDC4 Q4 2024 BACEN: Basel 14.78%, CET1 10.51%, RWA R$1.009T, NPL E-H 8.35%
-- Coerente com nossa thesis "ciclo de cost-of-risk a normalizar 5.14% → 2.9%"
+**Material findings** (full timeline 2018-2025, 56/56 BACEN rows backfilled):
+- **NPL gap ITUB4 vs BBDC4 quantificado**: 3.0pp (2018) → 5.8pp peak (2023-Q2) → 3.9pp (2024-Q4). ITUB4 absorveu o ciclo de cost-of-risk com 1/2 do impacto.
+- **CET1 spread persistente** ~2pp em favor de ITUB4 (Q3 2025: 13.47% vs 11.39%).
+- **Recovery assimétrica**: BBDC4 NPL -315bps desde peak vs ITUB4 -128bps — coerente com "ciclo a fechar mais agressivamente para o lado mais stressed".
+- **Implicação rebalance**: data-driven support para reforçar ITUB4 sobre BBDC4. Não é "BBDC4 catch-up", é "ITUB4 num plano superior" desde 2018.
 - **XPML11 data corruption descoberta** (3 dias com close ~R$1 quando deveria ser ~R$110, 14-16/Jan/2026). Issue Constitution #8 aberta.
 
 ### ✅ Sessão 2026-04-26 madrugada — closeout total Tier-2

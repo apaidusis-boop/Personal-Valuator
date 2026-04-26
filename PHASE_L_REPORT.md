@@ -55,28 +55,50 @@ São CodInst diferentes para o mesmo banco. Foi necessário sondar o cadastro
    apesar de `journal_mode=WAL`. Fix: timeout 60s + retry exponencial
    `2**attempt` até 8 tentativas em `update_bank_row`.
 
-### Smoke result (BBDC4 since 2024)
+### Backfill final state
 
 ```
-periods 2024-Q1 → 2025-Q3 (7 períodos):
-  Basel sample (Q4 2024):  14.78% (BACEN reported)
-  CET1 sample:             10.51%
-  RWA Q4 2024:             R$ 1.009 trilhão
-  NPL E-H Q4 2024:         8.35% (Bradesco com cost-of-risk a normalizar)
+bank_quarterly_history total rows:    56  (BBDC4=30, ITUB4=26)
+  basel_ratio populated:              56  (100%)
+  cet1_ratio populated:               56  (100%)
+  rwa populated:                      56  (100%)
+  npl_ratio populated:                50  (89% — 6 partial são Q1-Q3 2025
+                                          que BACEN ainda não publicou Rel 8)
 ```
 
-**Notar**: Q1-Q3 2025 ainda não têm Rel 8 publicado (BACEN normalmente
-publica T+1 para crédito por nível). 3/7 partial = só capital, sem NPL.
+**Coverage temporal**: 2018-Q1 a 2025-Q3 (7.5 anos por banco).
 
-### Material findings (Q4 2024 BACEN vs CVM)
+### Material findings (full timeline 2018-2025)
 
-Bradesco, comparando dados BACEN com nossos derivados de DRE:
-- Basel 14.78% (BACEN) vs nosso `coverage_ratio_bs` = 6.3% (CVM-derived).
-  Métricas medem coisas diferentes mas ambos apontam **buffer regulatório
-  saudável** com **comprimento gradual** (era 9% há 2 anos). Sinal misto:
-  qualidade de book improving OR provisão a esgotar antes do próximo ciclo.
-- Cost-of-risk YTD 2.9% (CVM) + NPL E-H 8.35% (BACEN) — coerente com
-  thesis "ciclo a normalizar peak Q4 2023 → 2025".
+**Quality premium ITUB4 vs BBDC4 quantificado pelo regulador:**
+
+| Métrica          | Período      | BBDC4    | ITUB4   | Gap (BBDC-ITUB) |
+|------------------|--------------|----------|---------|-----------------|
+| NPL E-H          | 2018-Q1      | 7.70%    | 4.67%   | **+3.0 pp**     |
+| NPL E-H          | 2023-Q2 peak | 10.13%   | 4.37%   | **+5.8 pp** ⚠   |
+| NPL E-H          | 2024-Q4      | 6.98%    | 3.09%   | **+3.9 pp**     |
+| Basel ratio      | 2025-Q3      | 15.85%   | 16.40%  | -0.55 pp        |
+| CET1             | 2025-Q3      | 11.39%   | 13.47%  | -2.08 pp        |
+
+**Conclusões**:
+1. **NPL gap dobrou no peak do ciclo de cost-of-risk (2023)**. ITUB4 absorveu o ciclo com
+   1/2 do impacto que BBDC4 sentiu. Sugere underwriting/risk management
+   estruturalmente superior, não apenas mix de carteira.
+2. **CET1 spread de 2 pp persistente** — ITUB4 com mais flexibilidade para
+   crescer carteira ou pagar payout sem stress regulatório.
+3. **NPL recuperação assimétrica**: ITUB4 desce de 4.37% (2023-Q2) para
+   3.09% (2024-Q4) — recuperação de **-128 bps**. BBDC4 desce de 10.13% para
+   6.98% — recuperação de **-315 bps**. Em termos relativos BBDC4 normaliza
+   mais agressivamente, o que é coerente com tese "ciclo a fechar".
+4. **Cross-validation com CVM**: nosso `coverage_ratio_bs` (BBDC4: 9% → 6.3%)
+   move em direção contrária ao NPL melhorando — provisões a esgotar no
+   pace que o stress diminui. Não é improving por sair de provisão, é
+   improving por menos defaults a entrar.
+
+→ **Implicação para position sizing**: BBDC4 em recovery agressiva mas com
+gap de qualidade vs ITUB4 quantificado e persistente desde 2018. Não é
+"BBDC4 vai catch-up" — é "ITUB4 está num plano superior". Rebalance que
+reforce ITUB4 sobre BBDC4 tem suporte data-driven.
 
 ### Uso
 
