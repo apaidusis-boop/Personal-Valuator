@@ -25,8 +25,6 @@ import sqlite3
 import sys
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
-from statistics import quantiles
-from typing import Any
 
 import yaml
 

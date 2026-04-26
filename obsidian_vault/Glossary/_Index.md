@@ -1,16 +1,17 @@
 ---
 type: glossary_index
 date: 2026-04-26
-entries: 16
+entries: 29
 tags: [glossary, tutor, index]
 ---
 
 # 📚 Glossary — Índice
 
-> 16 entradas. Cada uma explica **fórmula + leitura + thresholds BR/US + contraméricas + fontes**. Use [[Glossary/<slug>]] para hover-preview em qualquer dossier.
+> 29 entradas. Cada uma explica **fórmula + leitura + thresholds BR/US + contraméricas + fontes**. Use [[Glossary/<slug>]] para hover-preview em qualquer dossier.
 
 ## balance_sheet
 
+- [[Glossary/Coverage_Ratio|Coverage Ratio — Interest Coverage]]
 - [[Glossary/Net_Debt_EBITDA|Net Debt / EBITDA — Alavancagem]]
 
 ## banks_credit
@@ -32,22 +33,43 @@ tags: [glossary, tutor, index]
 ## fundamentals
 
 - [[Glossary/BVPS|BVPS — Book Value per Share]]
+- [[Glossary/EBITDA|EBITDA — Earnings Before Interest, Taxes, Depreciation, Amortization]]
 - [[Glossary/EPS|EPS — Earnings per Share]]
+- [[Glossary/FCF|FCF — Free Cash Flow (Fluxo de Caixa Livre)]]
 
 ## income
 
 - [[Glossary/DY|DY — Dividend Yield]]
 - [[Glossary/Dividend_Streak|Dividend Streak — Anos Consecutivos a Pagar]]
+- [[Glossary/Payout_Ratio|Payout Ratio — % do lucro distribuído como dividendo]]
+- [[Glossary/Total_Shareholder_Yield|Total Shareholder Yield (TSY)]]
+
+## macro_br
+
+- [[Glossary/CDI|CDI — Certificado de Depósito Interbancário]]
+- [[Glossary/IPCA|IPCA — Índice de Preços ao Consumidor (BR)]]
+- [[Glossary/Selic|Selic — Taxa Básica de Juros (BR)]]
 
 ## quality
 
 - [[Glossary/ROE|ROE — Return on Equity]]
 
+## real_estate
+
+- [[Glossary/Cap_Rate|Cap Rate — Capitalization Rate (REITs/FIIs)]]
+
+## risk
+
+- [[Glossary/Beta|Beta — Sensibilidade ao mercado]]
+
 ## valuation
 
+- [[Glossary/DCF|DCF — Discounted Cash Flow]]
 - [[Glossary/Graham_Number|Graham Number — Margem de Segurança Quantitativa]]
+- [[Glossary/NAV|NAV — Net Asset Value (Patrimônio Líquido)]]
 - [[Glossary/PB|P/B (P/VP) — Price / Book Value]]
 - [[Glossary/PE|P/E — Price / Earnings]]
+- [[Glossary/WACC|WACC — Weighted Average Cost of Capital]]
 
 ## Como usar (Tutor mode)
 

@@ -9,7 +9,7 @@ screen_score: 0
 screen_pass: false
 div_safety: 0
 div_safety_verdict: N/A
-updated: "2026-04-24T11:37:11Z"
+updated: "2026-04-26T10:59:42Z"
 tags: [watchlist, br, papel_(cri)]
 ---
 
@@ -59,4 +59,4 @@ tags: [watchlist, br, papel_(cri)]
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*
+*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*

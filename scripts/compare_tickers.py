@@ -18,7 +18,7 @@ from __future__ import annotations
 import argparse
 import sqlite3
 import sys
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,10 +26,7 @@ sys.path.insert(0, str(ROOT))
 
 from analytics.dy_percentile import compute as dy_pctl_compute   # noqa: E402
 from scoring.dividend_safety import compute as safety_compute   # noqa: E402
-from scripts.drip_projection import (                            # noqa: E402
-    _annual_divs_per_share, _latest_fundamentals, _ptax, _ttm_div_per_share,
-    derive_scenarios,
-)
+from scripts.drip_projection import _annual_divs_per_share, _latest_fundamentals, _ttm_div_per_share, derive_scenarios
 
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"

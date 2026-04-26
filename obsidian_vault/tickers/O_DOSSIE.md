@@ -36,6 +36,9 @@ Realty Income negoceia a P/E 54.13 (REITs comparam-se via P/AFFO, não EPS) com 
 
 → Detalhe: [[O_IC_DEBATE]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

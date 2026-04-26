@@ -1,27 +1,27 @@
 ---
 ticker: PETR4
-name: PETR4
+name: Petrobras
 market: br
 sector: "Oil & Gas"
 is_holding: false
 currency: BRL
-price: 47.77
-price_date: 2026-04-23
-change_1d_pct: 0.21
-pe: 6.269
-pb: 1.4808
-dy_pct: 6.67
+price: 47.16
+price_date: 2026-04-24
+change_1d_pct: -1.28
+pe: 6.1647
+pb: 1.4619
+dy_pct: 6.76
 roe_pct: 28.18
 streak_years: 9
-screen_score: 0.8
-screen_pass: false
+screen_score: 1
+screen_pass: true
 div_safety: 78
 div_safety_verdict: WATCH
-updated: "2026-04-24T11:37:11Z"
+updated: "2026-04-26T10:59:42Z"
 tags: [watchlist, br, "oil_&_gas"]
 ---
 
-# PETR4 — PETR4
+# PETR4 — Petrobras
 
 #watchlist #br #oil_&_gas
 
@@ -34,16 +34,16 @@ tags: [watchlist, br, "oil_&_gas"]
 
 ## Snapshot
 
-- **Preço**: R$47.77  (2026-04-23)    _+0.21% 1d_
-- **Screen**: 0.8  ✗ fail
+- **Preço**: R$47.16  (2026-04-24)    _-1.28% 1d_
+- **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 78.0/100 (WATCH)
 
 ## Fundamentals
 
-- P/E: 6.269029 | P/B: 1.4807812 | DY: 6.67%
-- ROE: 28.18% | EPS: 7.62 | BVPS: 32.26
+- P/E: 6.1647058 | P/B: 1.4618723 | DY: 6.76%
+- ROE: 28.18% | EPS: 7.65 | BVPS: 32.26
 - Streak div: 9y | Aristocrat: None
 
 ## Dividendos recentes
@@ -56,11 +56,11 @@ tags: [watchlist, br, "oil_&_gas"]
 
 ## Eventos (SEC/CVM)
 
-- **2026-04-09** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras assina contrato
-- **2026-04-08** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras arquiva Form 20
-- **2026-04-06** `fato_relevante` — Petrobras informa sobre novo Presidente do Conselho de Administração
-- **2026-04-06** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras informa recebim
-- **2026-04-06** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras informa sobre a
+- **2026-04-17** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Participação em novo bloc
+- **2026-04-16** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras informa sobre r
+- **2026-04-14** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras informa sobre v
+- **2026-04-13** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras aprova novos in
+- **2026-04-13** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Petrobras informa sobre P
 
 ## YouTube insights
 
@@ -73,13 +73,13 @@ tags: [watchlist, br, "oil_&_gas"]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.04%
-- **Drawdown 5y**: -4.04%
-- **YTD**: +55.55%
-- **YoY (1y)**: +56.26%
-- **CAGR 3y**: +20.65%  |  **5y**: +15.06%  |  **10y**: +17.74%
-- **Vol annual**: +26.04%
-- **Sharpe 3y** (rf=4%): +0.58
+- **Drawdown 52w**: -5.26%
+- **Drawdown 5y**: -5.26%
+- **YTD**: +53.57%
+- **YoY (1y)**: +54.98%
+- **CAGR 3y**: +20.30%  |  **5y**: +14.76%  |  **10y**: +17.17%
+- **Vol annual**: +26.02%
+- **Sharpe 3y** (rf=4%): +0.57
 
 ### Dividendos
 - **DY 5y avg**: +26.81%
@@ -107,10 +107,10 @@ _Charts plugin requerido. Se não vês o gráfico: Settings → Community plugin
 ```chart
 type: line
 title: "PETR4 — 1y close"
-labels: ['2025-04-24', '2025-04-30', '2025-05-07', '2025-05-13', '2025-05-19', '2025-05-23', '2025-05-29', '2025-06-04', '2025-06-10', '2025-06-16', '2025-06-23', '2025-06-27', '2025-07-03', '2025-07-09', '2025-07-15', '2025-07-21', '2025-07-25', '2025-07-31', '2025-08-06', '2025-08-12', '2025-08-18', '2025-08-22', '2025-08-28', '2025-09-03', '2025-09-09', '2025-09-15', '2025-09-19', '2025-09-25', '2025-10-01', '2025-10-07', '2025-10-13', '2025-10-17', '2025-10-23', '2025-10-29', '2025-11-04', '2025-11-10', '2025-11-14', '2025-11-21', '2025-11-27', '2025-12-03', '2025-12-09', '2025-12-15', '2025-12-19', '2025-12-29', '2026-01-06', '2026-01-12', '2026-01-16', '2026-01-22', '2026-01-28', '2026-02-03', '2026-02-09', '2026-02-13', '2026-02-23', '2026-02-27', '2026-03-05', '2026-03-11', '2026-03-17', '2026-03-23', '2026-03-27', '2026-04-02', '2026-04-09', '2026-04-15', '2026-04-22']
+labels: ['2025-04-28', '2025-05-05', '2025-05-09', '2025-05-15', '2025-05-21', '2025-05-27', '2025-06-02', '2025-06-06', '2025-06-12', '2025-06-18', '2025-06-25', '2025-07-01', '2025-07-07', '2025-07-11', '2025-07-17', '2025-07-23', '2025-07-29', '2025-08-04', '2025-08-08', '2025-08-14', '2025-08-20', '2025-08-26', '2025-09-01', '2025-09-05', '2025-09-11', '2025-09-17', '2025-09-23', '2025-09-29', '2025-10-03', '2025-10-09', '2025-10-15', '2025-10-21', '2025-10-27', '2025-10-31', '2025-11-06', '2025-11-12', '2025-11-18', '2025-11-25', '2025-12-01', '2025-12-05', '2025-12-11', '2025-12-17', '2025-12-23', '2026-01-02', '2026-01-08', '2026-01-14', '2026-01-20', '2026-01-26', '2026-01-30', '2026-02-05', '2026-02-11', '2026-02-19', '2026-02-25', '2026-03-03', '2026-03-09', '2026-03-13', '2026-03-19', '2026-03-25', '2026-03-31', '2026-04-07', '2026-04-13', '2026-04-17', '2026-04-24']
 series:
   - title: PETR4
-    data: [30.43, 29.99, 30.29, 32.13, 31.98, 31.4, 31.24, 29.35, 30.05, 32.21, 32.0, 31.21, 32.16, 32.32, 31.95, 31.05, 31.98, 32.64, 32.35, 30.8, 30.36, 30.47, 30.93, 31.06, 30.95, 31.45, 31.06, 32.36, 31.38, 30.83, 30.23, 29.73, 30.19, 30.02, 30.25, 32.36, 32.7, 32.57, 32.4, 32.31, 31.86, 31.7, 31.01, 30.73, 29.64, 30.36, 32.04, 33.58, 37.34, 37.58, 37.32, 36.89, 38.59, 39.33, 40.69, 44.8, 46.38, 46.03, 49.41, 48.15, 47.9, 46.89, 47.67]
+    data: [30.4, 29.66, 30.91, 31.87, 31.75, 31.53, 31.08, 29.67, 31.75, 32.91, 31.21, 31.49, 32.06, 32.63, 31.47, 31.99, 32.44, 32.16, 30.53, 30.18, 30.22, 30.43, 31.17, 30.59, 31.39, 31.72, 31.9, 31.81, 31.0, 30.21, 29.75, 29.51, 30.0, 29.75, 31.01, 32.35, 32.99, 32.28, 31.85, 31.37, 31.41, 31.08, 30.31, 30.71, 30.2, 31.99, 32.29, 35.36, 37.76, 37.0, 38.08, 37.81, 39.57, 40.95, 43.16, 44.67, 46.78, 47.5, 48.67, 48.51, 49.78, 46.22, 47.16]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,10 +137,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
 series:
   - title: P/E
-    data: [5.6, 6.1787124, 6.269029]
+    data: [5.6, 6.1787124, 6.269029, 6.221636, 6.1647058]
 width: 80%
 beginAtZero: false
 fill: false
@@ -150,12 +150,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
 series:
   - title: ROE %
-    data: [26.37, 28.18, 28.18]
+    data: [26.37, 28.18, 28.18, 28.18, 28.18]
   - title: DY %
-    data: [6.87, 5.39, 6.67]
+    data: [6.87, 5.39, 6.67, 6.76, 6.76]
 width: 80%
 beginAtZero: false
 fill: false
@@ -164,4 +164,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*
+*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*

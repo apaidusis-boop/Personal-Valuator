@@ -456,6 +456,334 @@ ENTRIES: dict[str, dict] = {
             "[[Clippings/Buffett's Moat Google's Competitive Advantage]]",
         ],
     },
+    "EBITDA": {
+        "title": "EBITDA — Earnings Before Interest, Taxes, Depreciation, Amortization",
+        "category": "fundamentals",
+        "formula": "Lucro operacional + depreciação + amortização (proxy de cash flow operacional)",
+        "leitura": (
+            "Métrica de **rentabilidade operacional pura** — exclui efeitos de "
+            "estrutura de capital (juros), regime fiscal (impostos) e contabilidade "
+            "(depreciação). Útil para comparar empresas com diferentes níveis de dívida."
+        ),
+        "thresholds": {
+            "growth":   "Margem EBITDA crescente YoY = operacional saudável",
+            "comparison": "Sempre comparar dentro do sector (varies massively)",
+            "vs_lucro": "EBITDA >> Net Income = grande dep/amort (capex-heavy biz)",
+        },
+        "good_bad": (
+            "**EBITDA crescente com margem expanding** = operacional ganhando alavancagem. "
+            "**EBITDA inflado por items não-recorrentes** (asset sales, one-off gains) = sinal falso. "
+            "Charlie Munger chama 'bullshit earnings' — sempre validar contra FCF."
+        ),
+        "counter": (
+            "❌ EBITDA ignora capex de manutenção — empresa com EBITDA alto mas FCF baixo "
+            "está a queimar caixa em capex (cyclicals, telcos).\n"
+            "❌ Adjustments não-GAAP podem mascarar problemas (stock-based comp excluded).\n"
+            "❌ Para bancos NÃO se aplica (estrutura de receita diferente)."
+        ),
+        "sources": [],
+    },
+    "FCF": {
+        "title": "FCF — Free Cash Flow (Fluxo de Caixa Livre)",
+        "category": "fundamentals",
+        "formula": "Cash from Operations − Capex (capital expenditures)",
+        "leitura": (
+            "**Caixa real disponível** depois de manter o negócio. É o que paga "
+            "dividendos, recompras, M&A e dívida. **Buffett: 'EPS é opinião, FCF é facto'**."
+        ),
+        "thresholds": {
+            "yield_attractive": "FCF Yield ≥ 6% (FCF/Market Cap)",
+            "growth_premium":   "FCF crescente 5y CAGR ≥ 8% (compounder candidate)",
+            "warning":          "FCF negativo sustentado = burn ou subinvestido",
+        },
+        "good_bad": (
+            "**FCF > Net Income** = qualidade alta (pouco non-cash, pouco capex). "
+            "**FCF < Net Income** = ou capex pesado ou earnings inflados por accruals. "
+            "**FCF Yield > DY** = dividendo coberto + capacidade de aumento."
+        ),
+        "counter": (
+            "❌ FCF pode ser maquiado via timing (working capital pulls forward).\n"
+            "❌ Capex de crescimento vs manutenção é difícil separar — empresas reportam "
+            "junto. SaaS/tech declaram FCF alto mas excluem stock comp.\n"
+            "❌ FCF YoY volátil em cyclicals (working capital swings)."
+        ),
+        "sources": [],
+    },
+    "Payout_Ratio": {
+        "title": "Payout Ratio — % do lucro distribuído como dividendo",
+        "category": "income",
+        "formula": "Dividendos pagos ÷ Lucro líquido (12m). Pode usar FCF no denominador.",
+        "leitura": (
+            "Indica **sustentabilidade do dividendo**. Alto = pouco buffer para downturn; "
+            "baixo = espaço para aumentos OU empresa não compromete-se com income."
+        ),
+        "thresholds": {
+            "saudavel":     "30-60% (espaço para aumentar + buffer)",
+            "alto":         "60-90% (sustentável só com lucro estável; cyclicals em risco)",
+            "insustentavel": "> 100% (paga mais do que ganha — só caixa ou dívida sustenta)",
+            "fiis":         "FII regulação: ≥ 95% do lucro semestral (regra)",
+        },
+        "good_bad": (
+            "**Payout estável 40-60%** + ROE alto = ideal Buffett. "
+            "**Payout > 100%** = red flag salvo se temporário (cyclical trough). "
+            "**Payout 0%** em empresa madura = capital allocator escolhe buyback ou cash hoard (BRK-B)."
+        ),
+        "counter": (
+            "❌ Payout sobre EPS GAAP pode ser inflado por one-offs.\n"
+            "❌ FIIs por regra distribuem 95%+ do lucro caixa — não compará com equities.\n"
+            "❌ Bancos têm payout regulado pelo Basel (CET1 mínimo) — verificar capital."
+        ),
+        "sources": [],
+    },
+    "Selic": {
+        "title": "Selic — Taxa Básica de Juros (BR)",
+        "category": "macro_br",
+        "formula": "Taxa-meta definida pelo COPOM/BCB (8x/ano, atualmente ~10-15% range)",
+        "leitura": (
+            "**Custo do dinheiro no Brasil**. Sobe → renda fixa atrai capital, equity sofre, "
+            "DY threshold sobe (precisa render mais do que CDI). Cai → equity rally."
+        ),
+        "thresholds": {
+            "baixa":   "< 8% — equity bull market histórico, DRIP ganha vs renda fixa",
+            "neutra":  "8-12% — equity competitivo se DY > Selic + 2-3pp",
+            "alta":    "> 12% — renda fixa esmaga equity income; selectividade extrema",
+            "regime":  "Ver `python -m analytics.regime --market br`",
+        },
+        "good_bad": (
+            "**Selic em queda** = catalyst para FIIs, utilities, bonds proxies. "
+            "**Selic em alta** = banks ROE expansion + duration risk em FIIs CRI."
+        ),
+        "counter": (
+            "❌ Selic não é o único custo — IPCA + curva juros longa importam mais para FIIs longos.\n"
+            "❌ Decisão de COPOM já está precificada na curva — surprise é o que move.\n"
+            "❌ Selic alta + IPCA alta = juros real moderado (não tão punitivo)."
+        ),
+        "sources": [
+            "[[Clippings/MacroLab Suno 14]]",
+        ],
+    },
+    "CDI": {
+        "title": "CDI — Certificado de Depósito Interbancário",
+        "category": "macro_br",
+        "formula": "Taxa interbancária diária, ~99-100% da Selic",
+        "leitura": (
+            "**Benchmark de renda fixa BR**. Quase todos os papéis CDI+spread referenciam-no. "
+            "FIIs CRI papel rendem CDI+X% — quando Selic cai, esses FIIs sofrem mark-down."
+        ),
+        "thresholds": {
+            "fii_papel_cdi": "FIIs CRI tipo VGIR11/VGIP11 dependem fortemente CDI",
+            "ipca_vs_cdi":   "FIIs CRI IPCA+ vs CDI+ — perfil de duration distinto",
+            "vs_drip":       "DRIP equity competitivo se DY > 80% do CDI líquido",
+        },
+        "good_bad": (
+            "**CDI alto** = papel CRI (e bancos) ganham. **CDI cair** = renda fixa pré comprime."
+        ),
+        "counter": (
+            "❌ CDI bruto vs líquido: IR e IOF reduzem retorno final.\n"
+            "❌ CDI volátil intra-mês não muda decisões longas — usa average.\n"
+            "❌ Para investidor PJ ou offshore, benchmarks diferentes."
+        ),
+        "sources": [],
+    },
+    "IPCA": {
+        "title": "IPCA — Índice de Preços ao Consumidor (BR)",
+        "category": "macro_br",
+        "formula": "Variação cesta consumo, mensal acumulado 12m. Meta: 3% ± 1.5pp.",
+        "leitura": (
+            "**Inflação BR oficial**. Alvo do BCB para política monetária. "
+            "FIIs IPCA+ acompanham — mas re-precing pode ser negativo se IPCA esfria."
+        ),
+        "thresholds": {
+            "meta":       "3.0% ± 1.5pp (limite superior 4.5%)",
+            "abaixo_3":   "Selic tende a cortar; benefício para equity longa duration",
+            "acima_4.5":  "Pressão por Selic ↑; FIIs IPCA+ ganham nominalmente",
+            "stagflation": "IPCA alto + crescimento fraco = pior cenário para risk assets",
+        },
+        "good_bad": (
+            "**IPCA convergindo para meta** = janela COPOM cortar Selic = bull equity. "
+            "**IPCA acima 5%** = COPOM hawk = tightening = equity sofre."
+        ),
+        "counter": (
+            "❌ IPCA agregado mascara setoriais (IPCA-Habitação importa para FIIs).\n"
+            "❌ Ancorada vs desancorada — expectativas Focus matter mais que number atual.\n"
+            "❌ IGP-M usado em alguns contratos (mais volátil que IPCA)."
+        ),
+        "sources": [],
+    },
+    "NAV": {
+        "title": "NAV — Net Asset Value (Patrimônio Líquido)",
+        "category": "valuation",
+        "formula": "Activos − Passivos. Para FIIs: valor dos imóveis + caixa − dívida.",
+        "leitura": (
+            "**Valor patrimonial real** dos activos. Para FIIs, comparar com cota = "
+            "preço/NAV (P/VP) — cota < NAV = desconto sobre tijolo. Para holdings, "
+            "soma de partes (sum-of-parts) = NAV implícito."
+        ),
+        "thresholds": {
+            "fii_desconto":   "Cota / NAV < 0.95 = desconto significativo",
+            "fii_premio":     "Cota / NAV > 1.10 = pago premio (justifica só com qualidade)",
+            "holding_disc":   "ITSA4 historicamente 10-25% desconto vs NAV (Itaú+participações)",
+        },
+        "good_bad": (
+            "**Desconto persistente** = oportunidade OU bandeira vermelha (Mr Market vê algo). "
+            "**Premio** = margem de erro pequena, exigir qualidade extrema."
+        ),
+        "counter": (
+            "❌ NAV é estimativa — laudos de imóveis lagam mercado.\n"
+            "❌ Holdings: NAV ignora desconto burocrático/governance que persiste.\n"
+            "❌ NAV ajustado por goodwill é mais conservador (deflate intangible)."
+        ),
+        "sources": [],
+    },
+    "Cap_Rate": {
+        "title": "Cap Rate — Capitalization Rate (REITs/FIIs)",
+        "category": "real_estate",
+        "formula": "NOI (Net Operating Income) ÷ Property Value",
+        "leitura": (
+            "**Yield implícito** de uma propriedade. REIT cap rate vs 10y Treasury "
+            "spread é o métrica chave de valuation imobiliário (Realty Income, Prologis)."
+        ),
+        "thresholds": {
+            "reit_us_atrac":  "Cap rate > 10y treasury + 200bps = atractivo",
+            "fii_br":         "8-12% típico shopping/logística; 10-15% papel CRI",
+            "compression":    "Cap rate falling = preços subindo (bull cycle)",
+        },
+        "good_bad": (
+            "**Cap rate spread vs treasury contracting** = REIT premium vs bonds desaparece "
+            "= sinal de overheating. **Spread expanding** = oportunidade de entrada."
+        ),
+        "counter": (
+            "❌ NOI inclui assumptions de occupancy + rent escalators — não é cash garantido.\n"
+            "❌ Cap rate para imóvel novo pode incluir lease-up risk (ramp).\n"
+            "❌ Cap rate de mercado vs cap rate efectivo (com financing costs) divergem."
+        ),
+        "sources": [],
+    },
+    "WACC": {
+        "title": "WACC — Weighted Average Cost of Capital",
+        "category": "valuation",
+        "formula": "(E/V × Re) + (D/V × Rd × (1−t)) — pesos equity/dívida × custo respectivo",
+        "leitura": (
+            "**Custo composto do capital** que a empresa precisa render para criar valor. "
+            "Usado como discount rate em DCF. Comparar ROIC vs WACC = value creation."
+        ),
+        "thresholds": {
+            "value_creator": "ROIC > WACC sustentado = compounder",
+            "destroyer":     "ROIC < WACC = empresa destrói valor (ainda que lucrativa)",
+            "us_typical":    "8-12% para empresas mature; 12-18% emerging/cyclical",
+            "br_typical":    "12-18% (Selic alta puxa para cima)",
+        },
+        "good_bad": (
+            "**WACC baixo** + ROIC alto = wide moat compounder. "
+            "**WACC subindo** (rates up) = comprime fair values em DCF — equity duration risk."
+        ),
+        "counter": (
+            "❌ WACC é estimado — beta histórico vs forward divergem em regimes de stress.\n"
+            "❌ Equity risk premium é assumption (~5-7%); 1pp mudança altera DCF 20%+.\n"
+            "❌ Para bancos não se aplica (cost of equity sim, WACC menos)."
+        ),
+        "sources": [],
+    },
+    "DCF": {
+        "title": "DCF — Discounted Cash Flow",
+        "category": "valuation",
+        "formula": "Σ FCF_t / (1+WACC)^t + Terminal Value / (1+WACC)^N",
+        "leitura": (
+            "**Método de avaliação intrinsic** (Damodaran framework). Projecta FCF "
+            "futuros + terminal value, desconta a presente value via WACC. "
+            "Mais teórico que prático — sensible a assumptions."
+        ),
+        "thresholds": {
+            "margin_safety": "Preço actual ≤ 70% do DCF = entrada Graham-style",
+            "sensitivity":   "Sempre fazer ±2% no growth + ±1% no WACC para range",
+            "terminal":      "Terminal value tipicamente 60-80% do DCF total — fragil",
+        },
+        "good_bad": (
+            "**DCF útil** para empresas estáveis com previsibilidade (Coca-Cola, JNJ). "
+            "**DCF inútil** para growth high-uncertainty, cyclical, financials, REITs (use NAV/AFFO)."
+        ),
+        "counter": (
+            "❌ Garbage in, garbage out — assumptions de growth + WACC dominam resultado.\n"
+            "❌ Terminal value > 60% do DCF = essencialmente apostando em perpetuidade.\n"
+            "❌ Buffett: 'preferir empresa boa a preço justo do que empresa medíocre a preço barato' — "
+            "DCF muito sensível ignora isto."
+        ),
+        "sources": [],
+    },
+    "Beta": {
+        "title": "Beta — Sensibilidade ao mercado",
+        "category": "risk",
+        "formula": "Covariância(retorno acção, retorno mercado) ÷ Variância(retorno mercado)",
+        "leitura": (
+            "**Risco sistémico**. Beta = 1 → move como mercado. > 1 → amplifica. "
+            "< 1 → defensive. Usado em CAPM para custo de equity (Re = Rf + β × ERP)."
+        ),
+        "thresholds": {
+            "defensive":   "Beta < 0.8 (utilities, staples, healthcare)",
+            "market":      "Beta ~ 1.0 (broad index proxies)",
+            "aggressive":  "Beta > 1.3 (tech, cyclicals, levered)",
+            "negative":    "Beta < 0 (raro — gold, certain hedges)",
+        },
+        "good_bad": (
+            "**Beta baixo** = posição defensive — protege em selloff mas underperform em rally. "
+            "**Beta alto** = leverage no ciclo — buy in fear, sell in greed amplifica."
+        ),
+        "counter": (
+            "❌ Beta histórico não é beta forward (regime change).\n"
+            "❌ Beta calculado em janelas curtas (1y) é noisy — usar 3-5y.\n"
+            "❌ Beta de cap pequeno é unreliable (low liquidity inflates noise)."
+        ),
+        "sources": [],
+    },
+    "Coverage_Ratio": {
+        "title": "Coverage Ratio — Interest Coverage",
+        "category": "balance_sheet",
+        "formula": "EBIT ÷ Interest Expense (vezes que o operacional cobre os juros)",
+        "leitura": (
+            "Mede **capacidade de pagar juros** com lucro operacional. "
+            "Junto com Net Debt/EBITDA, é o principal sinal de risco de crédito corporativo."
+        ),
+        "thresholds": {
+            "saudavel":     "> 5× (investment-grade típico)",
+            "stress":       "2-5× (high yield; vulnerável a downturn)",
+            "alarme":       "< 2× (distress eminente)",
+            "fii":          "Não aplicável (FIIs não têm dívida significativa típica)",
+        },
+        "good_bad": (
+            "**Cobertura ↑** = balance sheet a desalavancar (recovery cycle). "
+            "**Cobertura ↓** + Net Debt/EBITDA ↑ = double red flag = downgrade risk."
+        ),
+        "counter": (
+            "❌ EBIT pode ser inflado por one-offs.\n"
+            "❌ Juros podem subir refinanciamento (taxa flutuante) → cobertura muda rápido.\n"
+            "❌ Empresa com leverage alto mas perpetual cash flow estável (REITs) tolera cobertura baixa."
+        ),
+        "sources": [],
+    },
+    "Total_Shareholder_Yield": {
+        "title": "Total Shareholder Yield (TSY)",
+        "category": "income",
+        "formula": "(Dividendos + Buybacks − Issuance) ÷ Market Cap",
+        "leitura": (
+            "**Yield total devolvido aos accionistas**. DY isolado ignora buybacks "
+            "(que comprimem share count → EPS aumenta). Total Shareholder Yield captura ambos."
+        ),
+        "thresholds": {
+            "atrac":     "TSY > 6% (US) / 8% (BR) sustentado",
+            "buyback_heavy": "Empresas como AAPL, GS — TSY 5-7% mas DY só 1-2%",
+            "issuance":  "TSY negativo = dilution (pior que zero income)",
+        },
+        "good_bad": (
+            "**TSY > DY puro** = empresa retorna via buyback (tax-efficient para accionista US). "
+            "**TSY < DY** = empresa emite acções para pagar dividendo (dilution disfarçada)."
+        ),
+        "counter": (
+            "❌ Buyback no top do ciclo = destroi capital (compra caro).\n"
+            "❌ TSY ignora capex ROIC — dividendo financiado por dívida é inssustentável.\n"
+            "❌ Comparar TSY entre empresas com FCF coverage similar."
+        ),
+        "sources": [],
+    },
 }
 
 

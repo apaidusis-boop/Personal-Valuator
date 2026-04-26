@@ -176,7 +176,7 @@ def _drip_base(ticker: str, market: str, last_px: float | None, sector: str | No
     try:
         from scripts.drip_projection import (
             _ttm_div_per_share, _annual_divs_per_share, _latest_fundamentals,
-            derive_scenarios, project_drip,
+            derive_scenarios,
         )
         as_of = date.today().isoformat()
         with sqlite3.connect(_db(market)) as conn:

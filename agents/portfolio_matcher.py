@@ -11,7 +11,6 @@ Schedule: every:30m — barato, incremental.
 from __future__ import annotations
 
 import sqlite3
-import json
 from datetime import datetime, timedelta, timezone
 
 from ._base import AgentContext, AgentResult, BaseAgent

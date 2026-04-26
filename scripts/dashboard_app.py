@@ -15,7 +15,7 @@ from __future__ import annotations
 
 import sqlite3
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -37,10 +37,18 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from scripts._theme import inject_css, brand_sidebar, section_caption, COLORS  # noqa: E402
-from scripts._components import kpi_tile, section_header  # noqa: E402
+from scripts._theme import section_caption, COLORS  # noqa: E402
+from scripts._components import kpi_tile
+from scripts import _captains_log as cl  # noqa: E402
+from scripts._editorial import (  # noqa: E402
+    inject_editorial_css, ED, EDITORIAL_TEMPLATE,
+    lede, quiet_stats, eyebrow as ed_eyebrow, deck as ed_deck,
+    section_h, brand_block, nav_section, cart_meta, footer as ed_footer,
+)
+from scripts import _carteiras as cart  # noqa: E402
 
-inject_css()
+# inject_css() é dark v1.0; não chamar — substituído por inject_editorial_css (Hara v2.0)
+inject_editorial_css()
 
 
 @st.cache_data(ttl=60)
@@ -151,29 +159,419 @@ def load_verdict(ticker: str) -> dict | None:
 # ============================= SIDEBAR =====================================
 
 with st.sidebar:
-    brand_sidebar()
-    page = st.radio(
+    brand_block()
+
+    nav_section("Páginas")
+    primary = st.radio(
         "nav",
-        ["Portfolio", "Ticker Deep Dive", "Actions Queue", "Ask Library",
-         "Perpetuum Health", "Paper Signals", "RI Timeline",
-         "YouTube Digest", "Triggers", "Screener"],
+        ["Início", "Carteira", "Empresa", "Decisões", "Pergunta"],
         label_visibility="collapsed",
+        key="nav_primary",
     )
-    _border = COLORS["border"]
-    _muted = COLORS["muted"]
-    _text = COLORS["text"]
-    st.markdown(
-        f"<div style='height:1px;background:{_border};margin:18px 0;'></div>",
-        unsafe_allow_html=True,
-    )
+    # Map Portuguese labels to internal page names
+    _NAV_MAP = {
+        "Início": "Home", "Carteira": "Portfolio", "Empresa": "Ticker",
+        "Decisões": "Actions", "Pergunta": "Ask",
+    }
+    secondary = ""
+    with st.expander("Mais páginas", expanded=False):
+        secondary = st.radio(
+            "nav-more",
+            ["—", "Perpetuum Health", "Paper Signals", "RI Timeline",
+             "YouTube Digest", "Triggers", "Screener"],
+            label_visibility="collapsed",
+            key="nav_secondary",
+        )
+    page = secondary if secondary and secondary != "—" else _NAV_MAP[primary]
+
     fx_rate = load_fx()
-    st.markdown(
-        f"""<div style='font-size:0.75rem;color:{_muted};line-height:1.6;'>
-        <div>USDBRL <span style='color:{_text};font-family:ui-monospace,monospace;'>{fx_rate:.4f}</span></div>
-        <div>{date.today().isoformat()}</div>
-        </div>""",
-        unsafe_allow_html=True,
+
+    # ─── Carteiras recomendadas (só na Home) ───
+    if page == "Home":
+        nav_section("Recomendadas — abril 2026")
+
+        if "selected_carteira" not in st.session_state:
+            st.session_state["selected_carteira"] = None
+
+        for c in cart.load_carteiras():
+            if st.button(c.name, key=f"cart_btn_{c.id}", use_container_width=True):
+                st.session_state["selected_carteira"] = c.id
+                # Bind directo à widget key — multiselect lê esta key como init
+                st.session_state["multi_picked"] = list(c.tickers)
+                st.rerun()
+            cart_meta(f'{c.fonte} · {c.n_holdings} ativos · base {c.data_base[8:]}·{c.data_base[5:7]}')
+
+        if st.session_state["selected_carteira"]:
+            st.markdown('<div style="height:18px;"></div>', unsafe_allow_html=True)
+            if st.button("Limpar selecção", key="clear_cart"):
+                st.session_state["selected_carteira"] = None
+                st.session_state["multi_picked"] = []
+                st.rerun()
+
+    # ─── In-page assistant — apontar falhas em qualquer página ───
+    st.markdown('<div style="height:24px;"></div>', unsafe_allow_html=True)
+    nav_section("Apontar falha")
+    with st.form(key="feedback_form", clear_on_submit=True):
+        issue = st.text_area(
+            "Descreve o problema",
+            placeholder="O que está mal? (ex: 'tickers não carregam', 'cor errada', 'falta deltas vs IBOV')",
+            label_visibility="collapsed",
+            height=100,
+        )
+        submitted = st.form_submit_button("Enviar")
+        if submitted and issue.strip():
+            from datetime import datetime as _dt
+            fb_dir = ROOT / "obsidian_vault" / "feedback"
+            fb_dir.mkdir(exist_ok=True)
+            ts = _dt.now().strftime("%Y-%m-%d_%H%M%S")
+            fb_file = fb_dir / f"{ts}.md"
+            fb_file.write_text(
+                f"---\ntype: ui_feedback\npage: {page}\ncarteira_active: "
+                f"{st.session_state.get('selected_carteira') or '—'}\nts: {ts}\n---\n\n"
+                f"# Problema apontado\n\n{issue.strip()}\n",
+                encoding="utf-8",
+            )
+            st.success(f"Registado em feedback/{ts}.md")
+
+    # ─── Footer ───
+    ed_footer(
+        f'Dólar &nbsp; <span style="color:{ED["ink"]}">{fx_rate:.4f}</span><br>'
+        f'Fechamento &nbsp; <span style="color:{ED["ink"]}">{date.today().strftime("%d·%m·%y")}</span>'
     )
+
+
+# ============================= PAGE 0: Captain's Log =======================
+
+@st.cache_data(ttl=120)
+def _cl_pulse():
+    return cl.pulse()
+
+
+@st.cache_data(ttl=120)
+def _cl_top_conviction(n: int):
+    return cl.top_conviction(n)
+
+
+@st.cache_data(ttl=120)
+def _cl_open_actions(n: int):
+    return cl.open_actions(n)
+
+
+@st.cache_data(ttl=300)
+def _cl_recent_ic(n: int):
+    return cl.recent_ic_debates(n)
+
+
+@st.cache_data(ttl=300)
+def _cl_high_variance(n: int, min_mag: int):
+    return cl.high_variance_views(n, min_magnitude=min_mag)
+
+
+@st.cache_data(ttl=300)
+def _cl_ri_changes(n: int):
+    return cl.recent_ri_changes(n)
+
+
+@st.cache_data(ttl=120)
+def _cl_alerts(n: int):
+    return cl.recent_alerts(n)
+
+
+def _ago(iso_ts: str) -> str:
+    if not iso_ts:
+        return ""
+    try:
+        d = datetime.fromisoformat(iso_ts.replace("Z", "+00:00").split("+")[0])
+        delta = (datetime.now() - d).total_seconds()
+        if delta < 3600:
+            return f"{int(delta // 60)}m ago"
+        if delta < 86400:
+            return f"{int(delta // 3600)}h ago"
+        return f"{int(delta // 86400)}d ago"
+    except Exception:
+        return iso_ts[:10]
+
+
+if page == "Home":
+    today = date.today()
+
+    # ─── Real data ───
+    df_h = load_holdings()
+    df_h["mv_brl"] = df_h.apply(
+        lambda r: r["market_value_native"] * (fx_rate if r["market"] == "us" else 1.0),
+        axis=1,
+    )
+    total_brl = df_h["mv_brl"].sum()
+    snaps = load_snapshots(8)
+    delta_7d = None
+    if not snaps.empty:
+        daily_total = snaps.groupby("date")["mv_brl"].sum().sort_index()
+        if len(daily_total) >= 2:
+            delta_7d = (daily_total.iloc[-1] / daily_total.iloc[0] - 1) * 100
+    p = _cl_pulse()
+
+    # ─── LEDE: editorial sentence (NÃO stat bar) ───
+    PT_MONTHS = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
+                 "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+    today_pt = f"{today.day} de {PT_MONTHS[today.month-1]} de {today.year}"
+
+    delta_phrase = ""
+    if delta_7d is not None:
+        sign_word = "alta" if delta_7d >= 0 else "queda"
+        cls = "pos" if delta_7d >= 0 else "neg"
+        delta_phrase = f', com <span class="{cls}">{sign_word} de {abs(delta_7d):.2f}%</span> em sete pregões'
+
+    pending_clause = ""
+    if p.open_actions_count > 0 or p.perpetuum_alerts_count > 0:
+        parts = []
+        if p.open_actions_count > 0:
+            n = p.open_actions_count
+            parts.append(f"{n} {'decisão pendente' if n == 1 else 'decisões pendentes'} de revisão")
+        if p.perpetuum_alerts_count > 0:
+            n = p.perpetuum_alerts_count
+            parts.append(f"{n} {'alerta aberto' if n == 1 else 'alertas abertos'}")
+        pending_clause = f" Há {' e '.join(parts)}."
+
+    lede_html = (
+        f'A carteira encerra em <strong>R$ {total_brl:,.0f}</strong>{delta_phrase}, '
+        f'distribuída por <strong>{p.holdings_count} posições</strong> entre Brasil e Estados Unidos.'
+        f'{pending_clause}'
+    ).replace(",", ".")
+    lede(lede_html)
+
+    # ─── Quiet stat grid ───
+    open_tone = "warn" if p.open_actions_count > 0 else "neutral"
+    alert_tone = "neg" if p.perpetuum_alerts_count > 0 else "neutral"
+    quiet_stats([
+        ("Posições", str(p.holdings_count), "neutral"),
+        ("Decisões pendentes", str(p.open_actions_count), open_tone),
+        ("Alertas", str(p.perpetuum_alerts_count), alert_tone),
+        ("Atualização", today.strftime("%d·%m·%Y"), "neutral"),
+    ])
+
+    # ─── Selected carteira → headline + deck ───
+    if "multi_picked" not in st.session_state:
+        st.session_state["multi_picked"] = []
+
+    selected_cart = st.session_state.get("selected_carteira")
+    cart_obj = cart.get_carteira(selected_cart) if selected_cart else None
+
+    if cart_obj:
+        ed_eyebrow(f'Carteira recomendada · {cart_obj.fonte}')
+        # Title (split for break)
+        name_parts = cart_obj.name.split(" — ", 1) if " — " in cart_obj.name else [cart_obj.name]
+        if len(name_parts) == 2:
+            st.markdown(f"# {name_parts[1]}", unsafe_allow_html=False)
+        else:
+            st.markdown(f"# {cart_obj.name}", unsafe_allow_html=False)
+
+        d_dt = cart_obj.data_base
+        d_pt = f"{d_dt[8:]} de {PT_MONTHS[int(d_dt[5:7])-1]} de {d_dt[:4]}"
+        ed_deck(
+            f'Composição da casa em <em>{d_pt}</em>. '
+            f'{cart_obj.n_holdings} ativos. Base de cem em abril de 2021.'
+        )
+    else:
+        ed_eyebrow("Início")
+        st.markdown("# Carteiras recomendadas")
+        ed_deck(
+            'Selecione uma carteira na coluna à esquerda para ver o histórico '
+            'de cinco anos e a composição actual. As fontes são <em>XP</em>, '
+            '<em>BTG Portfolio Solutions</em> e <em>Suno Research</em>, '
+            'consolidadas mensalmente.'
+        )
+
+    # ─── Section: Histórico de cinco anos ───
+    section_h(
+        "Histórico de cinco anos",
+        "Cada linha representa um ativo da carteira, normalizado a cem no início "
+        "do período. A linha tracejada é o índice de referência."
+    )
+
+    # Tickers selector — key= binds to st.session_state["multi_picked"]
+    col_sel, col_idx = st.columns([3, 1])
+    with col_sel:
+        # Options: union of currently picked + all carteira tickers (so can re-add)
+        current_picked = st.session_state.get("multi_picked", [])
+        all_options = sorted(set(list(current_picked) + (cart_obj.tickers if cart_obj else [])))
+        picked = st.multiselect(
+            "Ativos",
+            options=all_options,
+            label_visibility="collapsed",
+            placeholder="Adicionar ou remover ativos…",
+            key="multi_picked",
+        )
+    with col_idx:
+        compare_index = st.selectbox(
+            "Índice",
+            options=["IBOV (^BVSP)", "S&P 500 (^GSPC)", "Sem índice"],
+            label_visibility="collapsed",
+            key="compare_index",
+        )
+
+    # ─── Editorial chart ───
+    if picked:
+        prices = cart.fetch_prices(picked, market="br", years=5)
+        if prices.empty:
+            st.markdown(
+                f'<div style="border:1px solid {ED["rule"]};padding:32px;'
+                f'text-align:center;color:{ED["muted"]};font-style:italic;">'
+                f'Sem dados de preço para {", ".join(picked)} na base local.</div>',
+                unsafe_allow_html=True,
+            )
+        else:
+            normalized = cart.normalize_to_100(prices)
+
+            fig = go.Figure()
+            # All tickers in muted ink, 1 highlight in clay (the most-recent winner)
+            ranked = normalized.iloc[-1].sort_values(ascending=False).dropna()
+            highlight = ranked.index[0] if len(ranked) > 0 else None
+
+            for col in normalized.columns:
+                series = normalized[col].dropna()
+                if series.empty:
+                    continue
+                is_hi = (col == highlight)
+                fig.add_trace(go.Scatter(
+                    x=series.index, y=series.values,
+                    mode="lines", name=col,
+                    line={
+                        "width": 1.4 if is_hi else 0.6,
+                        "color": ED["clay"] if is_hi else ED["ink"],
+                    },
+                    opacity=1.0 if is_hi else 0.35,
+                    hovertemplate=f"<b>{col}</b>  %{{y:.1f}}  <span style='color:#786f64'>%{{x|%d·%m·%Y}}</span><extra></extra>",
+                ))
+                # Inline label at end
+                last_x = series.index[-1]
+                last_y = series.values[-1]
+                fig.add_annotation(
+                    x=last_x, y=last_y,
+                    text=col, showarrow=False,
+                    xshift=14, yshift=0,
+                    font={
+                        "family": "'IBM Plex Mono', monospace",
+                        "size": 10,
+                        "color": ED["clay"] if is_hi else ED["muted"],
+                    },
+                    align="left", xanchor="left",
+                )
+
+            # IBOV/SP overlay — very faint dotted
+            idx_ret_5y = None
+            if not compare_index.startswith("Sem"):
+                idx_ticker = "^BVSP" if "BVSP" in compare_index else "^GSPC"
+                idx_label = "IBOV" if idx_ticker == "^BVSP" else "S&P"
+                idx = cart.fetch_index(idx_ticker, years=5)
+                if not idx.empty and len(idx) >= 2:
+                    idx_norm = (idx / idx.iloc[0]) * 100
+                    idx_ret_5y = (idx.iloc[-1] / idx.iloc[0] - 1) * 100
+                    fig.add_trace(go.Scatter(
+                        x=idx_norm.index, y=idx_norm.values,
+                        mode="lines", name=idx_label,
+                        line={"width": 0.6, "dash": "dot", "color": ED["muted_2"]},
+                        opacity=0.5,
+                        hovertemplate=f"<b>{idx_label}</b>  %{{y:.1f}}<extra></extra>",
+                    ))
+                    fig.add_annotation(
+                        x=idx_norm.index[-1], y=idx_norm.values[-1],
+                        text=idx_label, showarrow=False,
+                        xshift=14, yshift=0,
+                        font={"family": "'Source Serif 4', serif", "size": 11,
+                              "color": ED["muted"], "style": "italic"},
+                        xanchor="left",
+                    )
+
+            # Single horizontal at base 100
+            fig.add_hline(y=100, line={"color": ED["rule"], "width": 0.6})
+
+            fig.update_layout(
+                template=EDITORIAL_TEMPLATE,
+                height=440,
+                showlegend=False,
+                hovermode="x unified",
+            )
+            fig.update_yaxes(title="", showgrid=False, zeroline=False)
+            fig.update_xaxes(title="", showgrid=False, zeroline=False)
+
+            # Use plotly events for click → drilldown (Streamlit 1.36+)
+            try:
+                event = st.plotly_chart(
+                    fig, use_container_width=True, theme=None,
+                    on_select="rerun", key="home_chart",
+                )
+                if event and event.selection and event.selection.get("points"):
+                    pt = event.selection["points"][0]
+                    sel_curve = pt.get("curve_number")
+                    if sel_curve is not None and sel_curve < len(normalized.columns):
+                        st.info(
+                            f'Selecionado: **{list(normalized.columns)[sel_curve]}** · '
+                            f'em {pt.get("x", "—")[:10]} → {pt.get("y", 0):.1f} '
+                            f'(abrir página da empresa em breve)'
+                        )
+            except TypeError:
+                # Older Streamlit without on_select
+                st.plotly_chart(fig, use_container_width=True, theme=None)
+
+            # ─── Composição section ───
+            if cart_obj:
+                section_h(
+                    "Composição",
+                    f"Pesos definidos pela {cart_obj.fonte} em "
+                    f"{cart_obj.data_base[8:]} de {PT_MONTHS[int(cart_obj.data_base[5:7])-1]}. "
+                    f"Cotações ao fechamento de {today.strftime('%d·%m·%Y')}."
+                )
+
+                rows = ['<table class="ed-table"><thead><tr>'
+                        '<th>Ativo</th>'
+                        '<th>Peso</th>'
+                        '<th>Cotação</th>'
+                        '<th>Cinco anos</th>'
+                        '<th>Frente ao IBOV</th>'
+                        '</tr></thead><tbody>']
+                for h in cart_obj.holdings:
+                    last = cart.latest_close(h.ticker, market="br")
+                    r5 = cart.return_5y(h.ticker, market="br")
+                    vs_idx = (r5 - idx_ret_5y) if (r5 is not None and idx_ret_5y is not None) else None
+
+                    last_str = f'R$ {last:.2f}'.replace(".", ",") if last else '—'
+                    weight_str = f'{h.peso:+.1f}%'.replace(".", ",")
+                    if h.peso < 0:
+                        weight_str += " short"
+
+                    if r5 is not None:
+                        r5_cls = "ed-pos" if r5 >= 0 else "ed-neg"
+                        r5_str = f'<span class="{r5_cls}">{("+" if r5 >= 0 else "")}{r5:.0f}%</span>'
+                    else:
+                        r5_str = '<span class="ed-dim">—</span>'
+
+                    if vs_idx is not None:
+                        vs_cls = "ed-pos" if vs_idx >= 0 else "ed-neg"
+                        vs_str = f'<span class="{vs_cls}">{("+" if vs_idx >= 0 else "")}{vs_idx:.0f} pp</span>'
+                    else:
+                        vs_str = '<span class="ed-dim">—</span>'
+
+                    rows.append(
+                        f'<tr>'
+                        f'<td>{h.ticker}</td>'
+                        f'<td class="ed-dim">{weight_str}</td>'
+                        f'<td class="ed-dim">{last_str}</td>'
+                        f'<td>{r5_str}</td>'
+                        f'<td>{vs_str}</td>'
+                        f'</tr>'
+                    )
+                rows.append('</tbody></table>')
+                st.markdown("".join(rows), unsafe_allow_html=True)
+    else:
+        st.markdown(
+            f'<div style="margin:48px 0;padding:32px;border-top:1px solid {ED["rule"]};'
+            f'border-bottom:1px solid {ED["rule"]};color:{ED["muted"]};font-style:italic;'
+            f'font-family:Source Serif 4,serif;font-size:16px;text-align:center;">'
+            f'Selecione uma carteira na coluna à esquerda, '
+            f'ou adicione ativos directamente no campo acima.'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
 
 
 # ============================= PAGE 1: Portfolio ===========================
@@ -268,7 +666,7 @@ if page == "Portfolio":
 
 # ============================= PAGE 2: Ticker Deep Dive ====================
 
-elif page == "Ticker Deep Dive":
+elif page == "Ticker":
     st.title("Ticker deep dive")
     section_caption("Verdict, fundamentals, charts e insights por ticker")
     df = load_holdings()
@@ -337,7 +735,7 @@ elif page == "Ticker Deep Dive":
 
 # ============================= PAGE 3: Actions Queue =======================
 
-elif page == "Actions Queue":
+elif page == "Actions":
     import json as _json
     import subprocess as _subprocess
 
@@ -516,7 +914,7 @@ elif page == "Actions Queue":
 
 # ============================= PAGE 4: Ask Library =========================
 
-elif page == "Ask Library":
+elif page == "Ask":
     import os as _os
     import subprocess as _subprocess
 

@@ -77,6 +77,7 @@ Estratégia de compounding: cada distribuição compra mais acções, que geram 
 - [[NU_DOSSIE]]
 - [[O_DOSSIE]]
 - [[PEP_DOSSIE]]
+- [[PETR4_DOSSIE]]
 - [[PG_DOSSIE]]
 - [[PGMN3_DOSSIE]]
 - [[PLD_DOSSIE]]

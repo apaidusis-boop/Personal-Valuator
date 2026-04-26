@@ -47,6 +47,9 @@ BLK negoceia a P/E 26.32 com DY 2.04% e P/B 2.90, IC HOLD com confiança média 
 
 → Vault: [[BLK]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

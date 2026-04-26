@@ -63,6 +63,9 @@ PLPL3 negocia P/E baixíssimo de 6.52 com ROE excepcional de 41.08% e DY 4.20%, 
 | Data coverage | 50 |
 | Paper track | 90 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

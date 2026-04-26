@@ -19,7 +19,6 @@ Uso:
 from __future__ import annotations
 
 import argparse
-import json
 import sqlite3
 import sys
 from datetime import date, datetime, timedelta

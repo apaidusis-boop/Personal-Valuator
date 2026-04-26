@@ -1,27 +1,27 @@
 ---
 ticker: B3SA3
-name: B3SA3
+name: B3
 market: br
 sector: Financials
 is_holding: false
 currency: BRL
-price: 19.03
-price_date: 2026-04-23
-change_1d_pct: -0.21
-pe: 22.6548
-pb: 5.4936
-dy_pct: 3.18
+price: 18.98
+price_date: 2026-04-24
+change_1d_pct: -0.26
+pe: 22.5952
+pb: 5.4792
+dy_pct: 3.19
 roe_pct: 25.59
 streak_years: 19
 screen_score: 0.6
 screen_pass: false
 div_safety: 75
 div_safety_verdict: WATCH
-updated: "2026-04-24T11:37:05Z"
+updated: "2026-04-26T10:59:36Z"
 tags: [watchlist, br, financials]
 ---
 
-# B3SA3 — B3SA3
+# B3SA3 — B3
 
 #watchlist #br #financials
 
@@ -29,11 +29,12 @@ tags: [watchlist, br, financials]
 
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/BR|BR]]
+- Peers: [[BRBI11]]
 - Vídeos: [[videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co|DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! I]] · [[videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais|POR QUE O DÓLAR ESTÁ CAINDO TANTO? (vai ]]
 
 ## Snapshot
 
-- **Preço**: R$19.03  (2026-04-23)    _-0.21% 1d_
+- **Preço**: R$18.98  (2026-04-24)    _-0.26% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +42,7 @@ tags: [watchlist, br, financials]
 
 ## Fundamentals
 
-- P/E: 22.654764 | P/B: 5.493649 | DY: 3.18%
+- P/E: 22.595238 | P/B: 5.4792147 | DY: 3.19%
 - ROE: 25.59% | EPS: 0.84 | BVPS: 3.464
 - Streak div: 19y | Aristocrat: None
 
@@ -55,11 +56,11 @@ tags: [watchlist, br, financials]
 
 ## Eventos (SEC/CVM)
 
+- **2026-04-15** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Dados Operacionais - març
 - **2026-03-19** `fato_relevante` — Alteração na Administração da B3
 - **2026-03-16** `comunicado` — Outros Comunicados Não Considerados Fatos Relevantes | Dados Operacionais - feve
 - **2026-03-04** `comunicado` — Aquisição/Alienação de Participação Acionária (art. 12 da Instr. CVM nº 358) | D
 - **2026-02-26** `fato_relevante` — Descumprimento da Projeção de Distribuição do Lucro Líquido para 2025
-- **2026-02-26** `comunicado` — Apresentações a analistas/agentes do mercado | Apresentação de Resultados do 4T2
 
 ## YouTube insights
 
@@ -72,12 +73,12 @@ tags: [watchlist, br, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.08%
-- **Drawdown 5y**: -4.08%
-- **YTD**: +41.70%
-- **YoY (1y)**: +50.43%
-- **CAGR 3y**: +17.40%  |  **5y**: +1.22%  |  **10y**: +13.09%
-- **Vol annual**: +33.82%
+- **Drawdown 52w**: -4.33%
+- **Drawdown 5y**: -4.33%
+- **YTD**: +41.33%
+- **YoY (1y)**: +43.03%
+- **CAGR 3y**: +17.17%  |  **5y**: +1.17%  |  **10y**: +13.02%
+- **Vol annual**: +33.76%
 - **Sharpe 3y** (rf=4%): +0.40
 
 ### Dividendos
@@ -106,10 +107,10 @@ _Charts plugin requerido. Se não vês o gráfico: Settings → Community plugin
 ```chart
 type: line
 title: "B3SA3 — 1y close"
-labels: ['2025-04-24', '2025-04-30', '2025-05-07', '2025-05-13', '2025-05-19', '2025-05-23', '2025-05-29', '2025-06-04', '2025-06-10', '2025-06-16', '2025-06-23', '2025-06-27', '2025-07-03', '2025-07-09', '2025-07-15', '2025-07-21', '2025-07-25', '2025-07-31', '2025-08-06', '2025-08-12', '2025-08-18', '2025-08-22', '2025-08-28', '2025-09-03', '2025-09-09', '2025-09-15', '2025-09-19', '2025-09-25', '2025-10-01', '2025-10-07', '2025-10-13', '2025-10-17', '2025-10-23', '2025-10-29', '2025-11-04', '2025-11-10', '2025-11-14', '2025-11-21', '2025-11-27', '2025-12-03', '2025-12-09', '2025-12-15', '2025-12-19', '2025-12-29', '2026-01-06', '2026-01-12', '2026-01-16', '2026-01-22', '2026-01-28', '2026-02-03', '2026-02-09', '2026-02-13', '2026-02-23', '2026-02-27', '2026-03-05', '2026-03-11', '2026-03-17', '2026-03-23', '2026-03-27', '2026-04-02', '2026-04-09', '2026-04-15', '2026-04-22']
+labels: ['2025-04-28', '2025-05-05', '2025-05-09', '2025-05-15', '2025-05-21', '2025-05-27', '2025-06-02', '2025-06-06', '2025-06-12', '2025-06-18', '2025-06-25', '2025-07-01', '2025-07-07', '2025-07-11', '2025-07-17', '2025-07-23', '2025-07-29', '2025-08-04', '2025-08-08', '2025-08-14', '2025-08-20', '2025-08-26', '2025-09-01', '2025-09-05', '2025-09-11', '2025-09-17', '2025-09-23', '2025-09-29', '2025-10-03', '2025-10-09', '2025-10-15', '2025-10-21', '2025-10-27', '2025-10-31', '2025-11-06', '2025-11-12', '2025-11-18', '2025-11-25', '2025-12-01', '2025-12-05', '2025-12-11', '2025-12-17', '2025-12-23', '2026-01-02', '2026-01-08', '2026-01-14', '2026-01-20', '2026-01-26', '2026-01-30', '2026-02-05', '2026-02-11', '2026-02-19', '2026-02-25', '2026-03-03', '2026-03-09', '2026-03-13', '2026-03-19', '2026-03-25', '2026-03-31', '2026-04-07', '2026-04-13', '2026-04-17', '2026-04-24']
 series:
   - title: B3SA3
-    data: [13.27, 13.49, 13.15, 14.95, 14.82, 14.39, 14.1, 13.95, 13.14, 13.47, 13.4, 14.12, 14.62, 14.48, 13.73, 13.1, 13.07, 12.58, 12.72, 12.65, 13.16, 12.56, 13.03, 12.95, 13.01, 13.37, 13.66, 12.95, 13.09, 12.24, 12.71, 12.56, 12.59, 12.64, 12.84, 13.12, 14.44, 13.89, 14.73, 14.79, 14.12, 14.41, 13.39, 13.79, 14.5, 14.49, 15.24, 15.62, 16.51, 16.45, 17.62, 17.46, 17.86, 17.9, 17.56, 17.99, 17.6, 17.26, 17.21, 18.59, 19.16, 19.84, 19.07]
+    data: [13.42, 13.21, 14.53, 14.77, 14.5, 14.38, 13.71, 13.57, 12.98, 13.79, 13.61, 14.5, 14.65, 13.73, 13.74, 13.39, 12.71, 12.68, 12.88, 12.85, 12.33, 12.44, 12.98, 13.38, 13.12, 13.72, 13.34, 13.4, 12.75, 12.79, 12.64, 12.33, 12.53, 12.66, 13.1, 14.12, 14.05, 14.17, 14.89, 14.01, 14.3, 13.25, 13.53, 13.43, 14.38, 14.73, 14.67, 15.68, 16.15, 16.26, 17.29, 17.75, 18.14, 17.54, 17.32, 16.88, 16.92, 18.0, 18.4, 18.05, 19.26, 19.43, 18.98]
 width: 80%
 beginAtZero: false
 fill: false
@@ -136,10 +137,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
 series:
   - title: P/E
-    data: [21.66, 23.192772, 22.654764]
+    data: [21.66, 23.192772, 22.654764, 22.86747, 22.595238]
 width: 80%
 beginAtZero: false
 fill: false
@@ -149,12 +150,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
 series:
   - title: ROE %
-    data: [26.26, 25.59, 25.59]
+    data: [26.26, 25.59, 25.59, 25.59, 25.59]
   - title: DY %
-    data: [3.08, 3.15, 3.18]
+    data: [3.08, 3.15, 3.18, 3.19, 3.19]
 width: 80%
 beginAtZero: false
 fill: false
@@ -163,4 +164,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*
+*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*

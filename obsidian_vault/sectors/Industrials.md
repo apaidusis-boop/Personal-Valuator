@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Industrials
-count: 23
+count: 26
 tags: [sector]
 ---
 
 # 🏢 Industrials
 
-Total tickers: **23**
+Total tickers: **26**
 ## Tabela live (Dataview)
 
 ```dataview
@@ -40,5 +40,8 @@ SORT is_holding DESC, pnl_pct ASC
 - [[PNR]] _(us)_
 - [[RAPT4]] _(br)_
 - [[RENT3]] _(br)_
+- [[SIMH3]] _(br)_
 - [[SWK]] _(us)_
 - [[TNC]] _(us)_
+- [[TUPY3]] _(br)_
+- [[VAMO3]] _(br)_

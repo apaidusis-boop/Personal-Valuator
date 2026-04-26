@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Real Estate
-count: 2
+count: 3
 tags: [sector]
 ---
 
 # 🏢 Real Estate
 
-Total tickers: **2**
+Total tickers: **3**
 ## Tabela live (Dataview)
 
 ```dataview
@@ -20,4 +20,5 @@ SORT is_holding DESC, pnl_pct ASC
 ## Tickers neste sector
 
 - [[ALOS3]] _(br)_
+- [[EZTC3]] _(br)_
 - [[MULT3]] _(br)_

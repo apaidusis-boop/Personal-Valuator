@@ -57,6 +57,9 @@ VALE3 negocia P/E 31.0 com ROE de apenas 5.87% e DY 6.38% sustentado por streak 
 | Data coverage | 100 |
 | Paper track | 50 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

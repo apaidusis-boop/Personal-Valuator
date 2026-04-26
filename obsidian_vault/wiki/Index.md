@@ -129,9 +129,13 @@ Ver [[wiki/holdings/_README|secção README + índice completo]].
 
 ## 🗺 Próximas fases (roadmap)
 
+### ✅ Fase B.2 closeout (2026-04-25, Phase I) — wiki/holdings/ stubs completos
+Todos os 33 holdings (12 BR + 21 US) agora têm `wiki/holdings/<TICKER>.md`. 10 stubs auto-gerados via `agents/holding_wiki_synthesizer.py` (Ollama 14B local) marcados `auto_draft: true` para refinamento humano:
+- BR (4): IVVB11, KLBN11, LFTB11, RBRX11
+- US (6): ABBV, GS, PLTR, TSLA, XP, GREK
+
 ### Fase B.3 — Watchlist deep (pending)
 - 50 priority watchlist names expanded com thesis light.
-- Holdings sem thesis ainda: ABBV, GS, PLTR, TSLA, XP, GREK.
 
 ### Fase C.2 — Analyst tracking infra (pending)
 - DB schema novo: `analyst_calls` + `yt_predictions`.

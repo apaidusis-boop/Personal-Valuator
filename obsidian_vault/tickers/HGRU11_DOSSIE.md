@@ -63,6 +63,9 @@ HGRU11 (CSHG Renda Urbana, segmento Híbrido) negoceia a BRL 132.16 com DY 8.66%
 | Data coverage | 50 |
 | Paper track | 30 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

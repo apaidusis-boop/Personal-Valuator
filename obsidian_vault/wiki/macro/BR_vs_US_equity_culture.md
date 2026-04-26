@@ -10,19 +10,19 @@ related: ["[[Selic]]", "[[Fed_funds]]", "[[BR_dividend_isencao]]", "[[US_LTCG_ST
 
 ## Quadro-comparativo executivo
 
-| Dimensão | 🇧🇷 Brasil | 🇺🇸 United States |
-|---|---|---|
-| Market cap / GDP | ~40-60% | **~180-220%** |
-| Dividend yield dominant culture | ✅ High-dividend | ~ Buyback-dominant |
-| Taxa juros real (10y avg) | 4-6% | 0-2% |
-| Dividend tax PF residente | **0%** (isento) | 15-37% |
-| Buyback prevalence | Nascent (~2020+) | **Massive** (~50% S&P cash return) |
-| Capital gains tax PF | 15-22.5% | 0/15/20% LT, ordinary ST |
-| Retail participation | ~12% population active | ~58% households own stocks |
-| Corporate governance | Mixed (Novo Mercado tiers) | Strong (SOX, Dodd-Frank) |
-| Shareholder rights | Limitado legado | Forte (class actions, proxy) |
-| Currency risk BRL | Significant (depreciação secular) | Minimal (USD reserve) |
-| Aristocrat tradition | Nascent (10y+ rare) | **Strong** (Kings 50y+, Aristocrats 25y+) |
+| Dimensão                        | 🇧🇷 Brasil                       | 🇺🇸 United States                        |
+| ------------------------------- | --------------------------------- | ----------------------------------------- |
+| Market cap / GDP                | ~40-60%                           | **~180-220%**                             |
+| Dividend yield dominant culture | ✅ High-dividend                   | ~ Buyback-dominant                        |
+| Taxa juros real (10y avg)       | 4-6%                              | 0-2%                                      |
+| Dividend tax PF residente       | **0%** (isento)                   | 15-37%                                    |
+| Buyback prevalence              | Nascent (~2020+)                  | **Massive** (~50% S&P cash return)        |
+| Capital gains tax PF            | 15-22.5%                          | 0/15/20% LT, ordinary ST                  |
+| Retail participation            | ~12% population active            | ~58% households own stocks                |
+| Corporate governance            | Mixed (Novo Mercado tiers)        | Strong (SOX, Dodd-Frank)                  |
+| Shareholder rights              | Limitado legado                   | Forte (class actions, proxy)              |
+| Currency risk BRL               | Significant (depreciação secular) | Minimal (USD reserve)                     |
+| Aristocrat tradition            | Nascent (10y+ rare)               | **Strong** (Kings 50y+, Aristocrats 25y+) |
 
 ## Macro pane — por que divergem
 

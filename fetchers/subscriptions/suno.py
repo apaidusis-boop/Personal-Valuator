@@ -29,7 +29,6 @@ from __future__ import annotations
 import hashlib
 import re
 from datetime import datetime, timedelta
-from pathlib import Path
 from typing import Iterator
 
 try:

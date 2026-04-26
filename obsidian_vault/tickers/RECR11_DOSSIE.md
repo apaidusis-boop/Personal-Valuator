@@ -59,6 +59,9 @@ RECR11 (REC Recebíveis Imob., segmento Papel/CRI) negoceia a BRL 82.76 com DY 1
 | Data coverage | 50 |
 | Paper track | 50 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

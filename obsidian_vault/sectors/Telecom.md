@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Telecom
-count: 1
+count: 2
 tags: [sector]
 ---
 
 # 🏢 Telecom
 
-Total tickers: **1**
+Total tickers: **2**
 ## Tabela live (Dataview)
 
 ```dataview
@@ -19,4 +19,5 @@ SORT is_holding DESC, pnl_pct ASC
 
 ## Tickers neste sector
 
+- [[TIMS3]] _(br)_
 - [[VIVT3]] _(br)_

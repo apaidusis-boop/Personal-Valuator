@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Consumer Staples
-count: 20
+count: 23
 tags: [sector]
 ---
 
 # 🏢 Consumer Staples
 
-Total tickers: **20**
+Total tickers: **23**
 Holdings: **2**
 
 ## Tabela live (Dataview)
@@ -29,13 +29,16 @@ SORT is_holding DESC, pnl_pct ASC
 - [[CHD]] _(us)_
 - [[CL]] _(us)_
 - [[CLX]] _(us)_
+- [[GMAT3]] _(br)_
 - [[HRL]] _(us)_
 - [[KMB]] _(us)_
 - [[MKC]] _(us)_
 - [[MO]] _(us)_
 - [[PEP]] _(us)_
 - [[PGMN3]] _(br)_
+- [[PNVL3]] _(br)_
 - [[SJM]] _(us)_
+- [[SLCE3]] _(br)_
 - [[SYY]] _(us)_
 - [[TR]] _(us)_
 - [[TTEN3]] _(br)_

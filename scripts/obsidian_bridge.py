@@ -25,12 +25,13 @@ import re
 import sqlite3
 import subprocess
 import sys
-import unicodedata
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+
+from agents._common import slugify as _slugify  # noqa: E402  shared utility
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -70,17 +71,6 @@ def _yaml_val(v) -> str:
     if any(c in s for c in ":#[]{},&*!|>%@`") or s.startswith(("-", "?")):
         return f'"{s}"'
     return s
-
-
-def _slugify(s: str, maxlen: int = 60) -> str:
-    """ASCII slug, lowercase, hyphens, truncated. Safe for filenames."""
-    if not s:
-        return ""
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    s = re.sub(r"[^\w\s-]", "", s).strip().lower()
-    s = re.sub(r"[\s_]+", "-", s)
-    s = re.sub(r"-+", "-", s)
-    return s[:maxlen].rstrip("-")
 
 
 def _video_slug_name(video_id: str, published_at: str | None, channel: str | None, title: str | None) -> str:
@@ -759,7 +749,7 @@ def _render_video_page(video_id: str, market_hint: str = "br") -> str | None:
 
 def _portfolio_live_snapshot() -> dict:
     """Snapshot vivo para a landing page (não depende de Dataview)."""
-    from analytics.fx import fx_rate, total_portfolio_brl
+    from analytics.fx import total_portfolio_brl
     fx = total_portfolio_brl()
     holdings: list[dict] = []
     for market, db in (("br", DB_BR), ("us", DB_US)):

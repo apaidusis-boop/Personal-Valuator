@@ -8,9 +8,7 @@ bom o suficiente para o contexto e NÃO precisa de re-fetch.
 """
 from __future__ import annotations
 
-import sqlite3
 from datetime import datetime, timedelta, timezone
-from pathlib import Path
 from typing import Literal
 
 

@@ -13,7 +13,7 @@ Schedule: weekly:sat:03:00 (quando ninguém usa).
 from __future__ import annotations
 
 import sqlite3
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from ._base import AgentContext, AgentResult, BaseAgent

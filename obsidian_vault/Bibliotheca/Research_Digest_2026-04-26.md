@@ -154,4 +154,4 @@ Tópicos prontos para `ii vault` ou `python -m library.rag ask`:
 - `python -m library.rag ask "diferença entre value e growth investing na prática?" --k 6`
 
 ---
-*Gerado por `scripts/research_digest.py` em 2026-04-26 21:13*
+*Gerado por `scripts/research_digest.py` em 2026-04-26 22:46*

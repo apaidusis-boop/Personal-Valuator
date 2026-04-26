@@ -19,7 +19,6 @@ import argparse
 import os
 import re
 import sys
-import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,6 +29,8 @@ try:
 except (AttributeError, ValueError):
     pass
 
+from agents._common import slugify as _slugify  # noqa: E402  shared utility
+
 
 def _vault_path(override: str | None = None) -> Path:
     if override:
@@ -38,17 +39,6 @@ def _vault_path(override: str | None = None) -> Path:
     if envp:
         return Path(envp).expanduser().resolve()
     return ROOT / "obsidian_vault"
-
-
-def _slugify(s: str, maxlen: int = 60) -> str:
-    """ASCII-safe slug, lowercase, hyphens, truncated."""
-    if not s:
-        return ""
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    s = re.sub(r"[^\w\s-]", "", s).strip().lower()
-    s = re.sub(r"[\s_]+", "-", s)
-    s = re.sub(r"-+", "-", s)
-    return s[:maxlen].rstrip("-")
 
 
 def _parse_video_md(path: Path) -> dict | None:

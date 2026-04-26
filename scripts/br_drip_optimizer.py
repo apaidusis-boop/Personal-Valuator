@@ -30,10 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scripts.drip_projection import (
-    derive_scenarios, _annual_divs_per_share, _ttm_div_per_share,
-    _latest_fundamentals, project_drip,
-)
+from scripts.drip_projection import _annual_divs_per_share, _ttm_div_per_share, _latest_fundamentals
 
 DB_BR = ROOT / "data" / "br_investments.db"
 

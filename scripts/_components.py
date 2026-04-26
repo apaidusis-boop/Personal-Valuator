@@ -142,6 +142,183 @@ def agent_attribution(agent: str, tier: str, why: str) -> None:
     )
 
 
+_VERDICT_TONE: dict[str, Tone] = {
+    "BUY": "positive",
+    "ACCUMULATE": "positive",
+    "HOLD": "warning",
+    "TRIM": "warning",
+    "AVOID": "negative",
+    "SELL": "negative",
+    "EXIT": "negative",
+    "REJECT": "negative",
+    "UNKNOWN": "neutral",
+}
+
+
+def verdict_pill(verdict: str) -> str:
+    """Semantic-coloured pill for BUY/HOLD/AVOID/SELL/etc.
+
+    Returns HTML string. Use with `unsafe_allow_html=True` ou em st.markdown.
+    Unknown verdicts fall back to neutral tone.
+    """
+    v = (verdict or "UNKNOWN").upper().strip()
+    tone = _VERDICT_TONE.get(v, "neutral")
+    return status_pill(v, tone=tone)
+
+
+def story_card(
+    title: str,
+    subtitle: Optional[str] = None,
+    body: Optional[list[str]] = None,
+    pill_html: Optional[str] = None,
+    footer: Optional[str] = None,
+    tone: Tone = "accent",
+) -> None:
+    """Card narrativo — para IC debates, variant views, RI changes, etc.
+
+    Diferente do kpi_tile (que é métrica + delta + footnote),
+    story_card carrega prosa curta: 2-4 linhas de body + 1 footer factual.
+
+    Args:
+        title: identifier (ticker, perpetuum name, decision label).
+        subtitle: contexto secundário em muted (sector, market, date).
+        body: lista de linhas curtas (≤90 chars cada). Cada linha vira <li>-style.
+        pill_html: badge HTML (de status_pill ou verdict_pill) renderizado no header.
+        footer: linha factual final em muted (source, ago, link).
+        tone: cor do accent left-border.
+    """
+    accent = _TONE_COLOR.get(tone, COLORS["accent"])
+    sub_html = (
+        f'<div style="color:{COLORS["muted"]};font-size:.75rem;letter-spacing:.02em;'
+        f'margin-top:2px;">{subtitle}</div>' if subtitle else ""
+    )
+    body_html = ""
+    if body:
+        items = "".join(
+            f'<li style="margin:4px 0;line-height:1.45;">{line}</li>' for line in body
+        )
+        body_html = (
+            f'<ul style="margin:10px 0 0 0;padding-left:18px;color:{COLORS["text"]};'
+            f'font-size:.85rem;list-style:square;">{items}</ul>'
+        )
+    pill_block = (
+        f'<div style="margin-left:auto;">{pill_html}</div>' if pill_html else ""
+    )
+    footer_html = (
+        f'<div style="color:{COLORS["muted"]};font-size:.7rem;'
+        f'font-family:ui-monospace,monospace;letter-spacing:.02em;'
+        f'margin-top:10px;padding-top:8px;border-top:1px solid {COLORS["border"]};">'
+        f'{footer}</div>' if footer else ""
+    )
+    st.markdown(
+        f"""
+        <div style="
+            background:{COLORS['surface']};
+            border:1px solid {COLORS['border']};
+            border-left:2px solid {accent};
+            border-radius:4px;
+            padding:14px 18px;
+            margin-bottom:10px;
+        ">
+          <div style="display:flex;align-items:flex-start;gap:10px;">
+            <div style="flex:1;">
+              <div style="color:{COLORS['text']};font-weight:600;font-size:.95rem;
+                          letter-spacing:-0.01em;">{title}</div>
+              {sub_html}
+            </div>
+            {pill_block}
+          </div>
+          {body_html}
+          {footer_html}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def hero(
+    big_number: str,
+    eyebrow: Optional[str] = None,
+    delta_text: Optional[str] = None,
+    delta_tone: Tone = "neutral",
+    caption_chips: Optional[list[str]] = None,
+) -> None:
+    """Hero number — Apple Newsroom-style landing element.
+
+    Big tabular number (3.2rem), small uppercase eyebrow above, semantic delta
+    + neutral caption chips below. Massive top/bottom padding deliberately —
+    breathing room is the entire point.
+
+    Args:
+        big_number: the headline figure, already formatted (R$ 287,432).
+        eyebrow: tiny uppercase label above (date, "PORTFOLIO", "TODAY").
+        delta_text: optional change indicator next to chips ("+1.2% 7d").
+        delta_tone: semantic colour for the delta_text.
+        caption_chips: list of factual stats joined by " · " in muted (≤4 chips).
+    """
+    eyebrow_html = (
+        f'<div style="font-size:.72rem;color:{COLORS["muted"]};text-transform:uppercase;'
+        f'letter-spacing:.08em;font-weight:600;margin-bottom:10px;">{eyebrow}</div>'
+        if eyebrow else ""
+    )
+    delta_color = _TONE_COLOR.get(delta_tone, COLORS["muted"])
+    chips_parts: list[str] = []
+    if delta_text:
+        chips_parts.append(f'<span style="color:{delta_color};font-weight:600;">{delta_text}</span>')
+    if caption_chips:
+        chips_parts.extend(caption_chips)
+    chips_html = (
+        f'<div style="font-size:.86rem;color:{COLORS["muted"]};margin-top:18px;'
+        f'font-family:ui-monospace,\'SF Mono\',monospace;letter-spacing:.02em;'
+        f'font-feature-settings:\'tnum\' 1;">'
+        f'{"&nbsp;&nbsp;·&nbsp;&nbsp;".join(chips_parts)}</div>'
+        if chips_parts else ""
+    )
+    st.markdown(
+        f"""
+        <div style="padding:36px 0 28px 0;">
+          {eyebrow_html}
+          <div style="font-size:3.4rem;font-weight:700;letter-spacing:-.025em;
+                      color:{COLORS['text']};line-height:1.05;
+                      font-family:ui-monospace,'SF Mono','Cascadia Mono',monospace;
+                      font-feature-settings:'tnum' 1;">
+            {big_number}
+          </div>
+          {chips_html}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def ask_box(
+    placeholder: str = "Pergunta qualquer coisa ao cérebro local…",
+    caption: Optional[str] = None,
+    disabled: bool = True,
+    key: str = "ask_box",
+) -> Optional[str]:
+    """Prominent text input for the Home page Ask experience.
+
+    When disabled=True (default), it's a placeholder for U.3 wiring.
+    When disabled=False, returns the user input string for routing into
+    `library.rag ask`.
+    """
+    val = st.text_input(
+        "Ask",
+        placeholder=f"🔍   {placeholder}",
+        key=key,
+        label_visibility="collapsed",
+        disabled=disabled,
+    )
+    if caption:
+        st.markdown(
+            f'<div style="color:{COLORS["muted"]};font-size:.74rem;'
+            f'margin-top:-8px;letter-spacing:.02em;">{caption}</div>',
+            unsafe_allow_html=True,
+        )
+    return val if val and not disabled else None
+
+
 def divider(label: Optional[str] = None) -> None:
     """Separador horizontal com label opcional centrado em cima."""
     if label:

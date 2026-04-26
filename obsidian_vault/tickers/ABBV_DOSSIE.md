@@ -47,6 +47,9 @@ AbbVie transaciona a P/E 84.20 com DY 3.39% e streak de 14y (herdou Aristocrat s
 
 → Vault: [[ABBV]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
