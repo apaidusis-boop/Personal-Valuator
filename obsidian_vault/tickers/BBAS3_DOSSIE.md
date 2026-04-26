@@ -20,7 +20,7 @@ tags: [research, dossie, br, banks]
 
 ## TL;DR
 
-<!-- TODO_CLAUDE_TLDR: 3 frases sobre BBAS3 a partir das tabelas abaixo. Citar PE, DY, IC verdict, e o achado mais importante. -->
+BBAS3 trade a **PE 9.5× / PB 0.70×** (cheapest-by-PB do quarteto bancos BR) mas com **DY 3.7% e ROE 11.1%** falha 2/5 critérios do BR Banks screen — Buffett-Graham aceita só metade da equação. **YoY -18.1%** (único negativo do quarteto: ABCB4 +21%, BBDC4 +49%, ITUB4 +31%) reflete deterioração estrutural de Basel: caiu de 18.86% (2018) para mínimo 13.75% (Q4 24) e só agora recupera para 15.13% (Q4 25). Synthetic IC = **HOLD 60% medium** — comité reconhece valuation atractiva mas pinta picture de re-rating só justificável se ROE voltar ≥12% e NPL resfriar.
 
 ## 1. Fundamentals snapshot
 
@@ -46,15 +46,15 @@ tags: [research, dossie, br, banks]
 
 ### Fundamentals
 
-| Métrica | BBAS3 | ABCB4 | BBDC4 | ITUB4 |
-|---|---|---|---|---|
+| Métrica    | BBAS3      | ABCB4    | BBDC4      | ITUB4      |
+| ---------- | ---------- | -------- | ---------- | ---------- |
 | Market cap | R$ 129.58B | R$ 6.52B | R$ 210.57B | R$ 489.02B |
-| P/E | 9.46 | 4.73 | 9.35 | 11.06 |
-| P/B | 0.70 | 0.90 | 1.18 | 2.39 |
-| ROE | 11.06% | 15.46% | 13.75% | 21.01% |
-| DY | 3.67% | 10.30% | 7.56% | 7.68% |
-| Streak div | 19y | 16y | 19y | 19y |
-| YoY price | -18.1% | +21.0% | +48.9% | +31.5% |
+| P/E        | 9.46       | 4.73     | 9.35       | 11.06      |
+| P/B        | 0.70       | 0.90     | 1.18       | 2.39       |
+| ROE        | 11.06%     | 15.46%   | 13.75%     | 21.01%     |
+| DY         | 3.67%      | 10.30%   | 7.56%      | 7.68%      |
+| Streak div | 19y        | 16y      | 19y        | 19y        |
+| YoY price  | -18.1%     | +21.0%   | +48.9%     | +31.5%     |
 
 ### BACEN regulatório (latest non-NULL)
 
@@ -102,7 +102,10 @@ tags: [research, dossie, br, banks]
 | 2025-09-30 | 14.81% | 11.16% | pending |
 | 2025-12-31 | 15.13% | 12.23% | pending |
 
-<!-- TODO_CLAUDE_BACEN_INSIGHT: 3-4 bullets sobre tendência Basel/NPL + comparação peer. Identificar peak ciclo + recovery. -->
+- **Basel: 7-year erosion** — caiu de **19.3% (Q1 2019)** → **13.75% (Q4 2024)** = -560bps. Bottom em Q4 2024 coincide com YoY price drawdown. Q4 2025 mostra recovery a **15.13%** (+138bps) mas ainda **abaixo dos 16-17% de ABCB4/ITUB4**.
+- **CET1 acompanhou queda**: 13.62% (Q4 2020 peak) → 10.89% (Q4 2024) → 12.23% (Q4 2025). Dilution + payout sustentado em janela de stress.
+- **NPL estrutural alto 5-7%** todo o período — perfil agro/corporate concentrado, não pulveriza como BBDC4. **Peak Q3 2024 = 6.88%** (próximo a BBDC4 peak Q1 23 9.57% mas BB nunca passou os 7%). Coverage não publicada, mas imp leitura é "ciclo de credit ainda em curso".
+- **Posição vs peers**: BBAS3 tier "**volume**" (alto NPL + Basel apertado) junto com BBDC4. Quartet split é claro: ABCB4+ITUB4 = quality (NPL <4%, Basel ≥16%) vs BBAS3+BBDC4 = volume (NPL 6-7%, Basel 14-15%). BBAS3 é o **mais alavancado regulatório do quarteto**.
 
 ## 5. Synthetic IC
 
@@ -138,17 +141,35 @@ tags: [research, dossie, br, banks]
 
 ## 8. Riscos identificados
 
-<!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->
+| Risco | Severidade | Trigger condition |
+|---|---|---|
+| **ROE estagnado <12%** estrutural (não reflete só ciclo) | 🔴 Alta | `fundamentals.roe < 0.12` por 3 quarters consecutivos. Já está em 11.06% — confirmar se Q4 2025 puxa para ≥12% senão é regime, não ciclo. |
+| **Basel buffer apertado vs peers** (15.1% vs 16.5% ITUB4) | 🟡 Média | `bank_quarterly_history.basel_ratio < 0.14` exigiria reforço de capital → potencial dilution ou cap em payout. |
+| **Concentração agro/corporate** num ciclo de stress de commodities ou seca | 🟡 Média | Cross-check NPL Q1-Q2 2025 quando publicado: se >7% (acima do peak Q3 24) = stress confirmando, não normalizando. |
+| **Exposição soberana** — BB é controlado pelo Tesouro; mudança política (intervenção em juros/spread) | 🟡 Média | Tracking discricionário: monitorizar 8-K equivalente CVM por nomeações ou agenda de subsídio. |
+| **DY 3.67% abaixo do threshold DRIP 6%** | 🟢 Baixa | `fundamentals.dy < 0.055` — já abaixo de threshold DRIP-friendly. Por design, BBAS3 não é prioridade DRIP no portfolio. |
 
 ## 9. Position sizing
 
 **Status atual**: watchlist
 
-<!-- TODO_CLAUDE_SIZING: guidance breve para entrada/aumento/redução. Considerar BR/US isolation, market cap, weight prudente, DRIP/cash deploy. -->
+**Não recomendado entrada agora**, mas razões nuançadas:
+
+- Carteira BR já tem **BBDC4 a 10.1% weight** — adicionar BBAS3 do "volume tier" duplicaria exposure ao mesmo perfil de risco (NPL alto + Basel apertado + ciclo de crédito). Princípio de **não over-concentration sectoral**: 1 posição "volume tier" + 1 "quality tier" (já tem ITSA4 indirect ITUB4 exposure) é suficiente.
+- BBAS3 falha 2/5 critérios DRIP (DY <6%, ROE <12%) — não cabe na thesis core. Para deep value contrarian play, **BBDC4** já joga esse role melhor (NPL recovery -315bps mais agressiva que BBAS3 +21bps de deterioração 2024).
+- **Re-entry trigger**: se ROE Q3 2026 ≥12% **AND** Basel ≥15.5%, reavaliar como **3-4% weight watchlist→holding**. Antes disso = price-trap sinal.
 
 ## 10. Tracking triggers (auto-monitoring)
 
-<!-- TODO_CLAUDE_TRIGGERS: 3-5 condições mensuráveis em SQL/data que indicariam re-avaliação. Ex: 'NPL > 4%', 'DY < 5.5%', 'thesis_health score < 60'. Citar tabela/coluna a monitorar. -->
+| # | Condição (SQL-friendly) | Tabela/coluna | Implicação |
+|---|---|---|---|
+| 1 | `fundamentals.roe >= 0.12` em 2 quarters | `fundamentals` | Quality tier upgrade — re-screen como holding-eligible |
+| 2 | `bank_quarterly_history.basel_ratio < 0.14` | `bank_quarterly_history` | Capital stress; possível dilution annunciada |
+| 3 | `bank_quarterly_history.npl_ratio > 0.075` | `bank_quarterly_history` | Acima do peak Q3 24 — ciclo NÃO normalizando, escalating |
+| 4 | `fundamentals.dy >= 0.06` | `fundamentals` | DRIP threshold met — passa a ser DRIP candidate |
+| 5 | `thesis_health.thesis_score < 60` por 30d | `thesis_health` | Perpetuum invalidação — thesis morta, abrir AVOID |
+
+**Auto-monitoring**: o perpetuum `ri_freshness` vai alertar quando Q1 2026 BACEN sair (esperado ~Maio 2026). Triggers acima podem ser wired no `agents/perpetuum/conviction.py` para ajustar score automaticamente.
 
 ## 11. Compute trail
 
