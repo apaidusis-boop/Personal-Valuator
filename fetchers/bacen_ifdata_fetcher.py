@@ -47,6 +47,7 @@ OLINDA_BASE = "https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata"
 BANK_CODE_MAP: dict[str, dict[str, str]] = {
     "BBDC4": {"prudencial": "C0080075", "financeiro": "C0010045"},
     "ITUB4": {"prudencial": "C0080099", "financeiro": "C0010069"},
+    "ABCB4": {"prudencial": "C0080312", "financeiro": "C0041856"},
 }
 
 # nome de coluna BACEN → coluna na bank_quarterly_history
