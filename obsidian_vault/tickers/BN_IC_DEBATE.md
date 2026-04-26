@@ -13,55 +13,55 @@ tags: [synthetic_ic, debate, multi_persona]
 
 **Committee verdict**: **AVOID** (high confidence, 80% consensus)  
 **Votes**: BUY=0 | HOLD=1 | AVOID=4  
-**Avg conviction majority**: 5.0/10  
+**Avg conviction majority**: 3.5/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟡 Warren Buffett — **HOLD** (conv 5/10, size: small)
+### 🔴 Warren Buffett — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- P/E elevado
-- ROE baixo
-- Dividendos consistentes
+- Multiplo P/E muito alto
+- ROE baixo e insatisfatório
+- Falta de moat duradouro
 
-**Key risk**: Multiplo P/E muito alto sugere que o mercado já precificou um crescimento futuro otimista.
+**Key risk**: Preço atual não reflete valor intrínseco da empresa, risco de correção significativa
 
 ### 🔴 Stan Druckenmiller — **AVOID** (conv 2/10, size: none)
+
+**Rationale**:
+- Multiplo P/E muito elevado
+- ROE fraco
+- Dividend yield baixo
+
+**Key risk**: Valuation gap is too wide, high risk of multiple contraction
+
+### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
 - Multiplo P/E muito alto
 - ROE fraco
 - Dividend yield baixo
 
-**Key risk**: Valuation premium não justificado pelos fundamentos atuais
-
-### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
-
-**Rationale**:
-- Multiplo P/E extremamente alto
-- ROE fraco e dividendos baixos
-- Falta de antifragilidade
-
-**Key risk**: Exposição a riscos ocultos como alta volatilidade e fragilidade financeira
+**Key risk**: Overvaluation e fragilidade financeira (alta dívida relativa ao EBITDA)
 
 ### 🔴 Seth Klarman — **AVOID** (conv 10/10, size: none)
 
 **Rationale**:
-- Multiplo P/E elevado de 92,81
-- Margem de segurança insuficiente
-- ROE fraco em 1,95%
+- P/E muito alto (92.82)
+- ROE baixo (1.95%)
+- Margem de segurança inexistente
 
 **Key risk**: Perda permanente do capital devido ao sobrevalorização e falta de margem de segurança
 
-### 🔴 Ray Dalio — **AVOID** (conv 7/10, size: none)
+### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- P/E muito alto
-- ROE baixo
-- Dividend yield fraco
+- P/E elevado
+- ROE fraco
+- Dividendos sólidos
 
-**Key risk**: Sobrereação do mercado e potencial reversão de tendência
+**Key risk**: Multiplo P/E muito alto pode indicar bolha ou sobreavaliação do mercado
 
 ## 📊 Context provided
 

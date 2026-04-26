@@ -23,27 +23,27 @@ tags: [synthetic_ic, debate, multi_persona]
 **Rationale**:
 - P/E muito alto
 - ROE baixo
-- Nenhuma moat duradoura
+- Avaliação elevada
 
-**Key risk**: Avaliação elevada e potencial de queda significativa no preço das ações
+**Key risk**: Avaliação atual não reflete valor intrínseco da empresa
 
-### 🟡 Stan Druckenmiller — **HOLD** (conv 4/10, size: small)
+### 🟡 Stan Druckenmiller — **HOLD** (conv 2/10, size: small)
 
 **Rationale**:
 - P/E muito alto
 - ROE baixo
 - Potencial de crescimento futuro
 
-**Key risk**: Avaliação atual é extremamente alta, qualquer desaceleração no crescimento pode impactar negativamente.
+**Key risk**: Avaliação atual é extremamente elevada, com risco significativo de correção.
 
 ### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- P/E muito alto
+- P/E extremamente alto
 - ROE baixo
 - Avaliação elevada
 
-**Key risk**: Volatilidade excessiva e risco de black swan (crash tecnológico ou regulatório)
+**Key risk**: Overvaluation and potential for a significant decline in stock price
 
 ### 🔴 Seth Klarman — **AVOID** (conv 10/10, size: none)
 
@@ -52,16 +52,16 @@ tags: [synthetic_ic, debate, multi_persona]
 - ROE baixo
 - Margem de segurança inexistente
 
-**Key risk**: Perda permanente do capital devido à avaliação excessiva e potencial desvalorização da ação
+**Key risk**: Perda permanente do capital em uma empresa sobreavaliada e com margens de segurança insuficientes
 
 ### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- P/E muito alto
+- P/E e P/B elevados
 - ROE baixo
 - Dívida líquida negativa
 
-**Key risk**: Avaliação elevada e potencial de correção do mercado
+**Key risk**: Avaliação atualmente muito alta, potencial de correção no mercado
 
 ## 📊 Context provided
 

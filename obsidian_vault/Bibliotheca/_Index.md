@@ -94,16 +94,33 @@ python -m library.rag query "margem de segurança" --k 5
 
 Ou via wrapper: `ii vault "pergunta em PT"` (mesma RAG + vault context).
 
-## Stats
+## Stats (atualizado 2026-04-27)
 
-| Asset | Count |
-|---|---:|
-| Clippings | 24 |
-| Books | 4 |
-| Methods | 17 |
-| Glossary entries | 16 |
-| Total RAG chunks | 1949 |
-| Tavily cache | 101 entries |
+| Asset | Count | Onde |
+|---|---:|---|
+| Clippings | 24 | `obsidian_vault/Clippings/` |
+| Books | 4 | `library/books/` |
+| Methods | 17 | `library/methods/*.yaml` |
+| Glossary entries | **29** | `obsidian_vault/Glossary/` ([[Glossary/_Index|_Index]]) |
+| Knowledge Cards | **12** | `obsidian_vault/Bibliotheca/Knowledge/` ([[Bibliotheca/Knowledge/_Index|_Index]]) |
+| Total RAG chunks | 1949 | `library/chunks_index.db` (Ollama nomic-embed) |
+| Tavily cache | 101 entries | `data/tavily_cache/` (TTL 7d) |
+| Daily Research Digests | 2026-04-26 + ... | `obsidian_vault/Bibliotheca/Research_Digest_*.md` |
+| Cleanup reports (one-time) | 4 | `obsidian_vault/Bibliotheca/Cleanup_*.md` |
+| Test reports (one-time) | 1 | [[Bibliotheca/Test_Run_2026-04-26]] |
+| Midnight Work reports | 1 | [[Bibliotheca/Midnight_Work_2026-04-27]] |
+
+## Pipeline daily (cron 23:30)
+
+```
+[CLIPPINGS-INGEST]  novos clippings → RAG (Ollama embed)
+[GLOSSARY]          rebuild entries + index (idempotente)
+[TUTOR]             re-inject ## Tutor section em todos os DOSSIE.md
+[KNOWLEDGE-CARDS]   skip-if-exists; gera só novas perguntas
+[RESEARCH-DIGEST]   gera Research_Digest_<DATE>.md
+```
+
+Plus: synthetic_ic + variant_perception + earnings_prep corem manualmente / weekly.
 
 ---
-*Auto-build via [[Bibliotheca/_Index]]. Última actualização: 2026-04-26.*
+*Auto-build via [[Bibliotheca/_Index]]. Última actualização: 2026-04-27 (midnight work).*
