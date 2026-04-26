@@ -29,6 +29,7 @@ import argparse
 import json
 import sqlite3
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterator
@@ -39,16 +40,39 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "br_investments.db"
 LOG_DIR = ROOT / "logs"
+CODINST_YAML = ROOT / "config" / "bank_codinst.yaml"
 
 OLINDA_BASE = "https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata"
 
+
+def _load_bank_code_map() -> dict[str, dict[str, str]]:
+    """Carrega map de config/bank_codinst.yaml; hardcoded fallback se ausente."""
+    fallback = {
+        "BBDC4": {"prudencial": "C0080075", "financeiro": "C0010045"},
+        "ITUB4": {"prudencial": "C0080099", "financeiro": "C0010069"},
+        "ABCB4": {"prudencial": "C0080312", "financeiro": "C0041856"},
+    }
+    if not CODINST_YAML.exists():
+        return fallback
+    try:
+        import yaml
+        raw = yaml.safe_load(CODINST_YAML.read_text(encoding="utf-8")) or {}
+        out: dict[str, dict[str, str]] = {}
+        for ticker, entry in raw.items():
+            if isinstance(entry, dict) and "prudencial" in entry and "financeiro" in entry:
+                out[ticker] = {"prudencial": entry["prudencial"],
+                               "financeiro": entry["financeiro"]}
+        # Merge fallback for any missing keys (defensive)
+        for k, v in fallback.items():
+            out.setdefault(k, v)
+        return out
+    except Exception:
+        return fallback
+
+
 # ticker → {prudencial, financeiro}
 # Prudencial cobre Capital/Basel; Financeiro cobre operações de crédito.
-BANK_CODE_MAP: dict[str, dict[str, str]] = {
-    "BBDC4": {"prudencial": "C0080075", "financeiro": "C0010045"},
-    "ITUB4": {"prudencial": "C0080099", "financeiro": "C0010069"},
-    "ABCB4": {"prudencial": "C0080312", "financeiro": "C0041856"},
-}
+BANK_CODE_MAP: dict[str, dict[str, str]] = _load_bank_code_map()
 
 # nome de coluna BACEN → coluna na bank_quarterly_history
 # (substring match case-insensitive — BACEN tem newlines/whitespace nos nomes)
@@ -176,13 +200,42 @@ def update_bank_row(conn: sqlite3.Connection, ticker: str, period_end: str,
         f"database remained locked após 8 retries para {ticker}@{period_end}")
 
 
-def fetch_ticker(ticker: str, since: str | None = None) -> dict:
+def _populated_periods(ticker: str) -> set[str]:
+    """Períodos com basel_ratio NOT NULL — skip-cached anchors.
+
+    NB: NPL (Rel 8) tem lag T+1 vs Capital (Rel 5). Para Q recente, basel
+    chega mas NPL não. Não bloqueamos cache em NPL — quem precisar do
+    backfill de NPL pendente usa `--no-skip-cached` ou a perpetuum
+    `ri_freshness` re-dispara periodicamente.
+    """
+    with sqlite3.connect(DB_PATH, timeout=30) as conn:
+        rows = conn.execute(
+            "SELECT period_end FROM bank_quarterly_history "
+            "WHERE ticker = ? AND basel_ratio IS NOT NULL",
+            (ticker,)
+        ).fetchall()
+    return {r[0] for r in rows}
+
+
+def _fetch_period(ticker: str, period_end: str, codes: dict[str, str]) -> tuple[str, dict, dict]:
+    """Pure I/O — pode rodar paralelo em ThreadPoolExecutor."""
+    anomes = _period_end_to_anomes(period_end)
+    cap_rows = _fetch(tipo=1, relatorio="5", anomes=anomes,
+                      cod_inst=codes["prudencial"])
+    npl_rows = _fetch(tipo=2, relatorio="8", anomes=anomes,
+                      cod_inst=codes["financeiro"])
+    return period_end, _extract_capital(cap_rows), _extract_npl(npl_rows)
+
+
+def fetch_ticker(ticker: str, since: str | None = None,
+                 max_workers: int = 5, skip_cached: bool = True,
+                 verbose: bool = True) -> dict:
     if ticker not in BANK_CODE_MAP:
         raise SystemExit(f"ticker {ticker!r} não está em BANK_CODE_MAP. "
                          f"Conhecidos: {list(BANK_CODE_MAP)}")
     codes = BANK_CODE_MAP[ticker]
     stats = {"ticker": ticker, "periods_total": 0, "periods_updated": 0,
-             "periods_partial": 0, "periods_empty": 0,
+             "periods_partial": 0, "periods_empty": 0, "periods_skipped": 0,
              "first_period": None, "last_period": None,
              "sample_basel": None, "sample_npl": None}
 
@@ -191,18 +244,37 @@ def fetch_ticker(ticker: str, since: str | None = None) -> dict:
         periods = _periods_for_ticker(conn, ticker, since=since)
     stats["periods_total"] = len(periods)
 
-    for period_end in periods:
-        anomes = _period_end_to_anomes(period_end)
-        cap_rows = _fetch(tipo=1, relatorio="5", anomes=anomes,
-                          cod_inst=codes["prudencial"])
-        npl_rows = _fetch(tipo=2, relatorio="8", anomes=anomes,
-                          cod_inst=codes["financeiro"])
-        capital = _extract_capital(cap_rows)
-        npl = _extract_npl(npl_rows)
+    if skip_cached:
+        cached = _populated_periods(ticker)
+        to_fetch = [p for p in periods if p not in cached]
+        stats["periods_skipped"] = len(periods) - len(to_fetch)
+    else:
+        to_fetch = periods
+
+    if not to_fetch:
+        if verbose:
+            print(f"  [{ticker}] all {len(periods)} periods cached — skip", flush=True)
+        _log({"event": "bacen_ticker_done", **stats})
+        return stats
+
+    # Parallel fetch (Olinda OData aguenta ~5 concurrent calls sem rate-limit)
+    results: list[tuple[str, dict, dict]] = []
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = {ex.submit(_fetch_period, ticker, p, codes): p for p in to_fetch}
+        for fut in as_completed(futures):
+            try:
+                results.append(fut.result())
+            except Exception as e:
+                _log({"event": "bacen_period_error",
+                      "ticker": ticker, "period": futures[fut],
+                      "error": str(e)[:200]})
+
+    # Sequential UPDATEs (curto + safe)
+    results.sort(key=lambda x: x[0])  # cronológico para sample_first/last
+    for period_end, capital, npl in results:
         if not (capital or npl):
             stats["periods_empty"] += 1
             continue
-        # Open short-lived conn per UPDATE — minimiza window de lock
         with sqlite3.connect(DB_PATH, timeout=30) as conn:
             conn.execute("PRAGMA busy_timeout=30000")
             wrote = update_bank_row(conn, ticker, period_end, capital, npl)
@@ -218,11 +290,11 @@ def fetch_ticker(ticker: str, since: str | None = None) -> dict:
                 stats["sample_npl"] = npl["npl_ratio"]
             if not (capital and npl):
                 stats["periods_partial"] += 1
-        # Per-period log line (helps observability)
-        print(f"  [{ticker}] {period_end} -> "
-              f"basel={capital.get('basel_ratio',0):.2%} "
-              f"cet1={capital.get('cet1_ratio',0):.2%} "
-              f"npl={npl.get('npl_ratio',0):.2%}", flush=True)
+        if verbose:
+            print(f"  [{ticker}] {period_end} -> "
+                  f"basel={capital.get('basel_ratio',0):.2%} "
+                  f"cet1={capital.get('cet1_ratio',0):.2%} "
+                  f"npl={npl.get('npl_ratio',0):.2%}", flush=True)
 
     _log({"event": "bacen_ticker_done", **stats})
     return stats
@@ -230,11 +302,15 @@ def fetch_ticker(ticker: str, since: str | None = None) -> dict:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ticker", help="Single bank ticker (BBDC4|ITUB4)")
+    ap.add_argument("--ticker", help="Single bank ticker (BBDC4|ITUB4|ABCB4)")
     ap.add_argument("--all", action="store_true",
                     help="Run all banks in BANK_CODE_MAP")
     ap.add_argument("--since", default=None,
                     help="Only periods >= YYYY-MM-DD")
+    ap.add_argument("--workers", type=int, default=5,
+                    help="Parallel HTTP workers (default 5)")
+    ap.add_argument("--no-skip-cached", action="store_true",
+                    help="Force re-fetch mesmo de períodos já populados")
     args = ap.parse_args()
 
     if not args.ticker and not args.all:
@@ -243,13 +319,15 @@ def main() -> None:
     targets = [args.ticker] if args.ticker else list(BANK_CODE_MAP)
     summary = []
     for t in targets:
-        summary.append(fetch_ticker(t, since=args.since))
+        summary.append(fetch_ticker(t, since=args.since,
+                                    max_workers=args.workers,
+                                    skip_cached=not args.no_skip_cached))
 
     print("\n=== Summary ===")
     for s in summary:
         print(f"  {s['ticker']}: {s['periods_updated']}/{s['periods_total']} "
               f"updated ({s['periods_partial']} partial, "
-              f"{s['periods_empty']} empty) | "
+              f"{s['periods_empty']} empty, {s.get('periods_skipped',0)} cached) | "
               f"basel sample={s['sample_basel']} npl sample={s['sample_npl']}")
 
 

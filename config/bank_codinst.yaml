@@ -1,0 +1,20 @@
+BBDC4:
+  prudencial: C0080075
+  financeiro: C0010045
+  name: Banco Bradesco S.A.
+  added_at: '2026-04-26'
+ITUB4:
+  prudencial: C0080099
+  financeiro: C0010069
+  name: Itaú Unibanco Holding S.A.
+  added_at: '2026-04-26'
+ABCB4:
+  prudencial: C0080312
+  financeiro: C0041856
+  name: Banco ABC Brasil S.A.
+  added_at: '2026-04-26'
+BBAS3:
+  prudencial: C0080329
+  financeiro: C0049906
+  name: BANCO DO BRASIL S.A.
+  added_at: '2026-04-26'
