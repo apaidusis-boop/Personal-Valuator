@@ -77,6 +77,7 @@ if /i "%CMD%"=="regime" ("%PY%" -X utf8 -m analytics.regime %ARGS%) & goto :EOF
 if /i "%CMD%"=="screen-trend" ("%PY%" -X utf8 -m analytics.screen_trend %ARGS%) & goto :EOF
 if /i "%CMD%"=="backtest-yield" ("%PY%" -X utf8 -m analytics.backtest_yield %ARGS%) & goto :EOF
 if /i "%CMD%"=="panorama" (set "SCRIPT=scripts\panorama.py") & goto :RUN
+if /i "%CMD%"=="dossier" (set "SCRIPT=scripts\dossier.py") & goto :RUN
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
 if /i "%CMD%"=="stats" ("%PY%" -X utf8 -m analytics.metrics %ARGS%) & goto :EOF
 if /i "%CMD%"=="refresh-thesis" (set "SCRIPT=scripts\thesis_refresh.py") & goto :RUN
@@ -95,6 +96,8 @@ goto :EOF
 echo ii - investment-intelligence CLI
 echo.
 echo ANALYSIS:
+echo   ii dossier ^<TK^>                          ** SKELETON-FIRST RESEARCH DOSSIER ** (in-house data, ~5s cached / ~90s new bank)
+echo   ii dossier --list                        List existing dossiers
 echo   ii panorama ^<TK^> [--write]               ** SUPER-COMMAND ** (verdict+peers+triggers+notes+videos+analyst)
 echo   ii research ^<TK^> [--intraday] [--md]     Unified memo (PT)
 echo   ii analyze ^<TK^>                          Deep dive (legacy)
