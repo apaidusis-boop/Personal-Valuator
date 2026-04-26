@@ -3,13 +3,138 @@ type: constitution
 tags: [constitution, master, history, governance]
 created: 2026-04-25
 last_updated: 2026-04-25
-phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s3)]
-current_phase: Z.Design — Helena s3 done (zero st.metric raw)
+phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide)]
+current_phase: L — BACEN IF.Data fetcher shipped + Quant stack (vectorbt/pyfolio) + Synthetic IC universe-wide running
 ---
 
 # 📜 The Constitution — Investment Intelligence Project
 
 > **Documento mestre vivo.** Cada phase concluída adiciona uma secção "Changelog". Cada decisão estratégica entra na "Decision Log". Quando voltares ao projecto após pausa, **lê esta página primeiro**.
+
+## 🚪 Voltamos — sintetizador de retomada
+
+> **Quando o user diz "Voltamos" numa nova conversa**: lê esta secção primeiro. Tem tudo que precisas para continuar do ponto certo sem queimar tokens em re-audits.
+
+**Última sessão**: 2026-04-26 tarde (~2h work). 1 phase shipped (L) + IC universe-wide em curso.
+
+### ✅ Sessão 2026-04-26 tarde — Phase L (BACEN + Quant + IC universe)
+
+User saiu por 2h ("Pode atacar tudo. Força total"). Ataque concorrente em 3 frentes:
+
+**1. BACEN IF.Data fetcher** (`fetchers/bacen_ifdata_fetcher.py`):
+- API Olinda OData → popular CET1, basel_ratio, RWA, NPL nos bancos
+- Mapping crítico: Rel 5 (Capital) usa **Conglomerado Prudencial** + Tipo 1; Rel 8 (NPL) usa **Conglomerado Financeiro** + Tipo 2 (CodInst diferentes para o mesmo banco)
+- BBDC4 + ITUB4 cobertos; BBAS3/SANB11 ainda pendentes (não estão em `library/ri/catalog.yaml`)
+- Bug fix: `requests.get(params=)` substitui ` ` por `+` no $filter mas BACEN só aceita `%20`. Resolvido com `urllib.parse.quote(safe="")`
+- Bug fix: DB lock contention via timeout=60 + retry exponencial 8x
+
+**2. Phase W.11 Quant stack** (`analytics/quant_smoke.py`):
+- Pkgs instalados: vectorbt, pyfolio-reloaded, alphalens-reloaded, empyrical
+- Tearsheet: CAGR, Sharpe, Sortino, Calmar, MaxDD, correlation matrix
+- HTML report Helena `ii_dark` standalone em `reports/quant_smoke_{br,us}_*.html`
+- US: CAGR 18.3%, Sharpe 0.92, MDD -34%; BR: CAGR 6.6%, Sharpe 0.56, MDD -28% (winsorized)
+- Winsorize 50% protege métricas contra data corruption (XPML11 case)
+
+**3. Synthetic IC universe-wide** (`agents/synthetic_ic.py`):
+- Flags novos: `--watchlist`, `--all`, `--skip-existing`, `--limit`
+- 33 IC files antes → ~70+ no fim da sessão (em curso, ~3h Ollama qwen2.5:14b)
+- Universo final esperado: ~180 tickers cobertos com 5-persona debate
+
+**Material findings**:
+- BBDC4 Q4 2024 BACEN: Basel 14.78%, CET1 10.51%, RWA R$1.009T, NPL E-H 8.35%
+- Coerente com nossa thesis "ciclo de cost-of-risk a normalizar 5.14% → 2.9%"
+- **XPML11 data corruption descoberta** (3 dias com close ~R$1 quando deveria ser ~R$110, 14-16/Jan/2026). Issue Constitution #8 aberta.
+
+### ✅ Sessão 2026-04-26 madrugada — closeout total Tier-2
+
+Bulk thesis **completou 100% (184/184)**. Bank parser extension shipped (user/linter editou cvm_parser_bank.py adicionando 10 colunas + BACEN-target NULL columns; 50 rows populados com loan_book/pdd_reserve/coverage/CoR/E/A). Conviction score expanded universe-wide (33→184). Bug fix CRLF poison nos tickers (companies table tinha \r — strip aplicado em thesis perpetuum subjects()).
+
+**Estado quantitativo final 26-04-2026:**
+```
+Thesis coverage:                 184/184 (100% universe)
+conviction_scores:               184 total, 86 high (≥70)
+bank_quarterly_history rows:     50 com novas BS columns populadas
+code_health:                     178 subjects, 0 flags
+Top-5 conviction:                BBDC4=92, ITSA4=90, ACN=87, JPM=83, PG=82
+```
+
+**Material findings:**
+- BBDC4 NII trajetória clara: cost-of-risk peak Q4 2023 (5.14% YTD) → 2.9% Q3 2025 (ciclo a normalizar)
+- BBDC4 coverage ratio comprimindo 9% → 6.3% (provisões a esgotar — sinal de qualidade improving OU complacência)
+- 86 de 184 tickers em high-conviction zone (47%)
+
+### 📊 Estado quantitativo (snapshot fim de sessão)
+
+```
+Holdings com thesis:               33/33 (100%)
+Wiki/holdings/ coverage:           34/33 (10 stubs auto_draft:true)
+Open watchlist_actions:            18 (era 98)
+Active perpetuums:                 9/10 (library_signals frozen)
+T2+ perpetuums:                    4 (vault, ri_freshness, content_quality, token_economy)
+thesis perpetuum subjects:         184 (33 holdings + 151 watchlist)
+Constitution open issues:          5 (eram 7)
+predictions table eval cron:       wired (primeiros fechos Jul 2026)
+paper_trade_close cron:            wired (primeiros fechos May 2026)
+Telegram push cron:                wired (daily 23:30, --silent)
+code_health:                       176 subjects, 0 flags ✓
+```
+
+### 🎯 Próxima ordem de prioridade (Tier-2)
+
+1. **Variant_perception source-weighting** — predictions infra já está wired (G2). Integrar win_rate como peso em `agents/variant_perception.py::magnitude_calc()`. **Bloqueado** até primeiros predictions fecharem (~Jul/2026 quando horizons expirarem). Building infra agora seria dead code 3 meses.
+
+2. **BACEN fetcher** para popular CET1/RWA/basel_ratio/npl_ratio (4 cols NULL hoje). Schema já existe (`bank_quarterly_history`); falta scrape do site BACEN ou 4-pillar reports. Pure code, ~2-3h.
+
+3. **Synthetic IC para watchlist** (151 tickers × 5 personas × ~30s = ~6h Ollama). Geraria IC_DEBATE.md para todos os tickers com thesis, completando o 5-persona signal universe-wide. Risk: longo, supervisionado.
+
+4. **Variant_perception para watchlist** (151 tickers, ~30min Ollama por batch). Mas só funciona se ticker tem analyst_insights — muitos watchlist não têm.
+
+5. **Phase W gold skills** (precisam user input):
+   - W.2/W.5/W.10: Tavily / Firecrawl / Bigdata MCP — **precisa API keys**
+   - W.7: Google Calendar/Drive — **precisa OAuth no browser**
+   - W.6: Observability (LangFuse/Instructor/DSPy) — pure infra
+   - W.11: Quant stack (pyfolio/vectorbt/Alphalens) — pure infra
+
+6. **Catalog expansion** — 36 BR tickers em universe.yaml mas NÃO em catalog.yaml (22 stocks + 14 FIIs). Auto-populator tem track-record 60% accuracy (AXIA7 fail). **Precisa user-supervised** validação de CVM codes.
+
+7. **Watchlist deep wiki Phase B.3** — 50 priority watchlist names com thesis light. **Precisa user**: lista de prioridades.
+
+8. **Review humana dos 10 wiki/holdings auto_draft** (não-urgente).
+
+### 🚫 Que NÃO fazer (token economy)
+
+- Não spawn sub-agents para audits — última sessão já fez audit completo (4 agents paralelos, ~150K tokens)
+- Não re-ler Constitution inteiro — esta secção tem o essencial
+- Não criar mais scripts de planeamento — execute direct
+- Não duplicar Phase F/G/H/I work — já feito
+
+### 🔧 Comandos canónicos para inspecionar estado
+
+```bash
+# Verificar bulk progress
+tail -30 logs/thesis_bulk_*.log
+
+# Quantos thesis valid agora
+.venv/Scripts/python.exe -c "import sqlite3; c=sqlite3.connect('data/br_investments.db'); print(c.execute(\"SELECT COUNT(*) FROM perpetuum_health WHERE perpetuum_name='thesis' AND score>=0 AND run_date=(SELECT MAX(run_date) FROM perpetuum_health WHERE perpetuum_name='thesis')\").fetchone())"
+
+# Open actions
+.venv/Scripts/python.exe -c "import sqlite3; print(sum(sqlite3.connect(d).execute(\"SELECT COUNT(*) FROM watchlist_actions WHERE status='open'\").fetchone()[0] for d in ['data/br_investments.db','data/us_investments.db']))"
+
+# Code health
+.venv/Scripts/python.exe -c "from agents.perpetuum.code_health import CodeHealthPerpetuum; p=CodeHealthPerpetuum(); print(f'{sum(1 for _ in p.subjects())} subjects, {sum(1 for s in p.subjects() if 0<=p.score(s).score<100)} flags')"
+
+# Captain's Log dashboard
+scripts\launch_dashboard.bat   # browser → Captain's Log
+
+# Manual Telegram brief
+.venv/Scripts/python.exe scripts/captains_log_telegram.py --dry-run
+```
+
+### 💡 Hint para próxima sessão
+
+Se o bulk completou e há nova thesis_health data, o **maior leverage** é #2 (variant_perception source-weighting) — é tudo backend, sem precisar do user, e fecha o loop de "we vs consensus" que está hoje a usar weights uniformes. ~30-60 min de trabalho.
+
+---
 
 ## 🎯 Identity & Purpose
 
@@ -277,13 +402,15 @@ python -m library.ingest && python -m library.extract_insights --book <slug> --m
 
 ## 🚧 Open issues / known limitations
 
-1. **Watchlist BR auto-populator ~40% match errado** (ITUB4, SUZB3, TTEN3, EQTL3, ENGI11) — user precisa revisar manualmente.
-2. **RBRX11 não resolvido** no FII module.
+1. ~~**Watchlist BR auto-populator ~40% match errado**~~ ✅ RESOLVIDO 2026-04-26. Phase FIX corrigiu 5 (ITUB4, SUZB3, TTEN3, EQTL3, ENGI11); sessão 26/04 validou + corrigiu os restantes 10 (AXIA7 CVM 3328→2437; PGMN3 sector Consumer Staples→Healthcare; outros 8 confirmados correctos). Catálogo `library/ri/catalog.yaml` agora sem `auto_populated: true`.
+2. ~~**RBRX11 não resolvido** no FII module.~~ ✅ RESOLVIDO. Verificado 2026-04-26: `fii_monthly` tem 24 rows para RBRX11 (AUTO_RUN_REPORT estava certo).
 3. **fii_monthly DY display em decimal vs %** — bug cosmético.
 4. **Frontend é tudo CLI** — user vibe-coder não consegue ler outputs facilmente. **PHASE Z proposed**: UI friendly layer.
-5. **ITRs 2019-2023 não baixados** (só DFPs). Para 24Q full coverage por ticker, baixar.
+5. ~~**ITRs 2019-2023 não baixados**~~ ✅ RESOLVIDO. Verificado 2026-04-26: `quarterly_history` tem 60 ITRs por ano de 2018-2025 (AUTO_RUN_REPORT estava certo, esta entry estava obsoleta).
 6. **Bank-specific schema** (BBDC4/ITUB4) — DRE bancária diferente; parser actual genérico funciona mas ignora detalhes BACEN.
 7. **Quarterly_single para watchlist novos** — só ingere 5 holdings principais; novos 15 watchlist precisam ingest específico.
+8. **XPML11 data corruption** (descoberta Phase L) — 14-16/Jan/2026 close ~R$1 (deveria ser ~R$110), volume 10× acima. Provável evento corporativo não-ajustado pela fonte. Mitigação: winsorize em quant_smoke.py. Fix permanente: refetch yfinance ou DELETE rows manuais.
+9. **BBAS3/SANB11 fora do BACEN map** — `library/ri/catalog.yaml` só tem BBDC4+ITUB4. Para os ingerir falta CodInst Prudencial+Financeiro (descoberta via IfDataCadastro) + entries em `BANK_CODE_MAP` no fetcher + CVM ingest. ~30min cada.
 
 ## 📄 Reports gerados
 
@@ -326,7 +453,15 @@ User explicitamente pediu (sessão 25/04 final):
 | 2026-04-25 evening                | **Z (UI)**       | Sprints Z.0-Z.7: 7 dashboard pages novas (Actions Queue, Ask Library, Perpetuum Health, Paper Signals, RI Timeline) + Home.md morning landing + `start_dashboard.bat` one-click launcher. ~440 LOC. |                      0 |     |
 | 2026-04-25 night                  | **Z.8 Helena s1-s2** | Helena Linha hired (Head of Design). `_theme.py` (plotly `ii_dark` + dark CSS + brand sidebar). Design_System v1.0 + `_components.py` v1 (5 helpers). 8 `st.metric` raw → `kpi_tile()` (Portfolio + Verdict). `design_research.py` weekly scout. |                      0 |     |
 | **2026-04-25 night**              | **Z.8 Helena s3** | **14 `st.metric` raw → `kpi_tile()`** em 6 pages (Actions Queue, Perpetuum Health, Paper Signals, RI Timeline, YouTube, Screener). Tones semânticos: warning para attention items, positive/negative para YoY, accent para counts. `grep '\.metric('` = 0 matches. Compile-time enforcement de paleta via `Tone Literal`. |                      0 |     |
+| 2026-04-26 afternoon              | **L (BACEN+Quant+IC)** | **Phase L shipped autonomously (user out 2h).** (1) `fetchers/bacen_ifdata_fetcher.py` — Olinda OData → CET1/Basel/RWA/NPL, BBDC4+ITUB4 cobertos. URL-encoding bug fix + retry-on-lock 8×. (2) **W.11 Quant stack** — vectorbt/pyfolio-reloaded/alphalens-reloaded/empyrical instalados; `analytics/quant_smoke.py` produz tearsheet + HTML Helena. US Sharpe 0.92, BR Sharpe 0.56 (winsorized). (3) **Synthetic IC universe-wide** — flags `--watchlist`/`--all`/`--skip-existing`/`--limit`; 33 → ~70+ ICs (mid-run, ~3h Ollama). (4) **XPML11 data corruption descoberta** (issue #8). | 0 | |
 | 2026-04-25 night                  | **Z.8 Helena s4**    | **Live launcher + Claude Design avaliação.** `scripts/launch_dashboard.bat` idempotente (detecta porta 8501; arranca minimizado com `--server.runOnSave true` para hot-reload em qualquer save). Desktop `.lnk` aponta a `.bat` versionado em git → atalho não fica obsoleto. `obsidian_vault/skills/Claude_Design_Integration.md`: research preview Anthropic Labs avaliada — web-only, sem API; workflow proposto = Helena prototipa em claude.ai (com Design_System como contexto) → handoff Claude Code → implementação Streamlit reusando `_components.py`. Política dura: nunca HTML directo para produção. |                      0 |     |
+| 2026-04-25 (CATALOG_FIX)          | **CATALOG_FIX**  | Watchlist BR auto-populator validado: 10/10 tickers `auto_populated: false` agora; AXIA7 CVM 3328→2437 (subsidiária Nordeste→holding), PGMN3 sector Consumer Staples→Healthcare (rede farmácias). 6 RI URLs preenchidos (CPLE3/B3SA3/MULT3/RENT3/MOTV3/ALOS3/RDOR3 etc.). | 0 | |
+| 2026-04-25 (BB)                   | **BB**           | 10º perpetuum `code_health` (170 subjects scan, AST/regex CH001-CH004). Apanhou 4 issues no caminho — corrigi: ri_freshness 5→20 subjects, cvm_codes.validate_catalog (root cause AXIA7 hidden), 2 dead CATALOG constants. T1 Observer. | 0 | |
+| 2026-04-25 (CC)                   | **CC**           | Captain's Log unified Streamlit page (primeira nav). 6 secções: Pulse, Top Conviction, Decisions Pending, Committee Latest, Variant View, RI Material Changes, Alerts. Componentes novos: `story_card()`, `verdict_pill()`. Data layer puro `_captains_log.py`. | 0 | |
+| **2026-04-25 (F — T0 cleanup)**   | **F**            | **F1** `paper_trade_close.py` (cron wired) — sem este, win_rate undefined eternamente. **F2** Engine `enabled` flag; library_signals FROZEN; content_quality+token_economy promovidos T2; vault threshold 50→30. **F3** Bulk-ignore 80 vault drift actions BR (98→18 open). **F4** Thesis perpetuum subjects 33→184 (companies UNION watchlist, 156 sentinels visíveis). | 0 | |
+| 2026-04-25 (G)                    | **G**            | Holdings thesis 100% (28→33): `agents/thesis_synthesizer.py` Ollama Qwen 14B local com philosophy-aware prompt (BR/BR_BANK/FII/US/REIT/ETF). 5 holdings escritos: XPML11, GREK, GS, HD, O. Bug fix line-based parser (regex catastrophic backtracking pré-fix). `predictions_evaluate.py` shipped (counterpart paper_trade_close). Wiki Phase C.2 `Analyst_Tracking.md` documenta schema `predictions` que já existia. Constitution open issues #2 RBRX11 + #5 ITRs verified resolved. | 0 | |
+| 2026-04-25 (H)                    | **H**            | Telegram morning brief: `scripts/captains_log_telegram.py` empacota Captain's Log em push compact (~1160 chars), wired em `daily_run.bat`. Mobile-friendly, semantic emojis (🟢🟡🔴 score, BUY/HOLD/AVOID). Underscore-escaping bug fix (Telegram Markdown). | 0 | |
+| 2026-04-25 (I)                    | **I**            | Wiki holdings B.2 closeout: `agents/holding_wiki_synthesizer.py` gera `wiki/holdings/<TICKER>.md` AUTO-DRAFT marcado para 6 holdings ainda sem nota deep (ABBV, GS, PLTR, TSLA, XP, GREK). Reusa context layer + portfolio_positions data + philosophy-aware prompt. | 0 | |
 
 ## 🧭 Como usar este documento
 
