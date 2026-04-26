@@ -63,6 +63,13 @@ MCCI11 (Mauá Capital CRI) é fundo papel high-grade com DY 12,14%, P/E 9,20 e c
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 12.14%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **12.14%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **IPCA reset risk** — carteira mista IPCA+/CDI+; desinflação corta DY IPCA. Trigger: IPCA YoY < 4%.

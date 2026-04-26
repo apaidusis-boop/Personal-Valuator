@@ -46,6 +46,19 @@ BRK-B negoceia a P/E 15.13 com market cap USD 1.01T e ROE modesto 9.81%, reflexo
 
 → Vault: [[BRK-B]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 15.13** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 15.13** passa.
+- **P/B = 0.00** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **0.00** OK.
+- **ROE = 9.81%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **9.81%** abaixo do critério.
+- **Graham Number ≈ R$ 18655.88** vs preço **R$ 469.32** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Sucessão Buffett/Munger** — transição executiva para Greg Abel + Ajit Jain; risco de re-rating se mercado perceber perda do "Buffett premium". Trigger: `events` com kind='8-K' e summary contendo 'CEO' ou 'leadership transition'.

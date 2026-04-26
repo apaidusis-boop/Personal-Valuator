@@ -48,6 +48,21 @@ JPM negoceia a P/E 14.75 e P/B 2.40 com DY 1.91% e ROE 16.5%, IC HOLD com **alta
 
 → Vault: [[JPM]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 14.75** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 14.75** passa.
+- **P/B = 2.40** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **2.40** OK.
+- **DY = 1.91%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **1.91%** fraco; verificar se é growth pick.
+- **ROE = 16.47%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **16.47%** compounder-grade.
+- **Graham Number ≈ R$ 245.70** vs preço **R$ 308.28** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 43y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Sensibilidade a taxas (Fed pivot)** — NIM comprime se Fed cortar agressivamente. Trigger: `fundamentals` NII trimestral YoY < -5%.

@@ -36,6 +36,22 @@ HD negoceia P/E 23.59, DY 2.75% e ROE 145.5% (alavancado pelo buyback agressivo 
 
 → Detalhe: [[HD_IC_DEBATE]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 23.59** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 23.59** esticado vs critério.
+- **P/B = 26.11** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **26.11** esticado.
+- **DY = 2.75%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.75%** OK.
+- **ROE = 145.54%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **145.54%** compounder-grade.
+- **Graham Number ≈ R$ 64.19** vs preço **R$ 335.89** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 40y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🔴 **Housing turnover deprimido** — existing home sales em mínimos multi-anos pesa em remodels e Pro mix. Trigger: NAR existing home sales < 4M annualized por 6m.

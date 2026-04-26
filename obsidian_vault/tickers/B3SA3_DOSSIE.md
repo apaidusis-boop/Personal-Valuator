@@ -62,6 +62,21 @@ B3SA3 negocia a P/E 22.60 com DY 3.19% mas ROE excepcional de 25.59% e net_debt/
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 22.60** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 22.60** fora do screen.
+- **P/B = 5.48** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **5.48** — verificar consistência com ROE.
+- **DY = 3.19%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **3.19%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 25.59%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **25.59%** compounder-grade.
+- **Graham Number ≈ R$ 8.09** vs preço **R$ 18.98** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Volume B3 estrutural baixo** — Selic alta empurra capital para RF, contraindo ADTV equities. Trigger: ADTV B3 < R$15B/dia média trimestral (proxy via `events` macro ou snapshot externo).

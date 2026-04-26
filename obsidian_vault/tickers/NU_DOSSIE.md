@@ -47,6 +47,19 @@ NU cota P/E 25.02, P/B 6.24, sem dividendo, ROE 30.28% — neobank LATAM em fase
 
 → Vault: [[NU]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 25.02** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 25.02** esticado vs critério.
+- **P/B = 6.24** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **6.24** esticado.
+- **ROE = 30.28%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **30.28%** compounder-grade.
+- **Graham Number ≈ R$ 5.51** vs preço **R$ 14.51** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **NPL EM credit cycle** — base BR + MX exposta a deterioração de crédito unsecured; NPL spike compromete ROE. Trigger: NPL 90+ ratio > 7% ou cost-of-risk YoY > +30%.

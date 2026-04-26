@@ -18,3 +18,8 @@ BBAS3:
   financeiro: C0049906
   name: BANCO DO BRASIL S.A.
   added_at: '2026-04-26'
+BPAC11:
+  prudencial: C0080336
+  financeiro: C0049944
+  name: BTG PACTUAL - PRUDENCIAL
+  added_at: '2026-04-26'

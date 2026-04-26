@@ -47,6 +47,21 @@ BN cota P/E 92.82, DY 0.55% e ROE 1.95% (depressed por accounting GAAP que masca
 
 → Vault: [[BN]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 92.82** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 92.82** esticado vs critério.
+- **P/B = 2.33** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **2.33** OK.
+- **DY = 0.55%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.55%** fraco; verificar se é growth pick.
+- **ROE = 1.95%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **1.95%** abaixo do critério.
+- **Graham Number ≈ R$ 14.67** vs preço **R$ 45.48** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 40y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Real estate writedowns** — exposição commercial RE (escritórios LA / NY) ainda a marcar para baixo; NAV pode contrair. Trigger: `events.kind = '8-K'` com summary contendo 'impairment' ou 'writedown'.

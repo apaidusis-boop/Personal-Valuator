@@ -36,6 +36,22 @@ Realty Income negoceia a P/E 54.13 (REITs comparam-se via P/AFFO, não EPS) com 
 
 → Detalhe: [[O_IC_DEBATE]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 54.13** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 54.13** esticado vs critério.
+- **P/B = 1.50** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **1.50** OK.
+- **DY = 5.11%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **5.11%** OK.
+- **ROE = 2.70%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **2.70%** abaixo do critério.
+- **Graham Number ≈ R$ 33.34** vs preço **R$ 63.33** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 33y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🟡 **Cap rate spread vs 10y Treasury** — REIT compete com risk-free rate; spread comprimido reduz attractiveness. Trigger: spread `(DY - DGS10)` < 100 bps.

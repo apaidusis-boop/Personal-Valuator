@@ -47,6 +47,17 @@ AbbVie transaciona a P/E 84.20 com DY 3.39% e streak de 14y (herdou Aristocrat s
 
 → Vault: [[ABBV]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 3.39%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **3.39%** OK.
+- **Streak div = 14y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Humira biosimilar erosion** — em fase de lapping mas declínio continua; magnitude residual ainda relevante. Trigger: events com kind='earnings' AND summary LIKE '%Humira%decline%' > -25% YoY.

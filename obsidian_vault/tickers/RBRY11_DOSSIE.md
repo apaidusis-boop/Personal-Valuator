@@ -63,6 +63,13 @@ RBRY11 (RBR CRI) é fundo papel high-yield agressivo com DY 15,06% — o mais al
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 15.06%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **15.06%** OK. ⚠️ DY > 15% frequentemente sinaliza **distress**, não oportunidade.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **DY 15% = sinal de risco** — yield muito acima de peers (KNCR 13,7% / MCCI 12,1%) sugere CRI high-yield/subordinado ou PDD subreportada. Trigger: PDD/PL > 3% nos relatórios mensais.

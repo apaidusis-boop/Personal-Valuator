@@ -65,6 +65,13 @@ TRXF11 (TRX Real Estate, segmento Híbrido) negoceia a BRL 91.77 com DY 11.85% e
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 11.85%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **11.85%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Segment mix shift** — híbrido permite gestor mudar peso entre logística/varejo/escritório; rotação para classes piores penaliza yield. Trigger: relatório trimestral mostra desinvestimento de tier-A.

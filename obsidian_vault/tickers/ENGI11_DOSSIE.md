@@ -65,6 +65,16 @@ ENGI11 negocia a P/E elevado de 40.07 mas P/B exactamente 1.00 e ROE de 14.49%, 
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 40.07** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 40.07** fora do screen.
+- **P/B = 1.00** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.00** — verificar consistência com ROE.
+- **DY = 2.80%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **2.80%** baixo para FII; verificar reset/cycle.
+- **ROE = 14.49%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **14.49%** abaixo do critério.
+- **Streak div = 16y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **DY estruturalmente baixo** — 2.80% bem abaixo do mínimo 6% para utility BR. Trigger: `fundamentals.dy` < 4% mantém-se 4 trimestres consecutivos.

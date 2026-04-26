@@ -47,6 +47,18 @@ BLK negoceia a P/E 26.32 com DY 2.04% e P/B 2.90, IC HOLD com confiança média 
 
 → Vault: [[BLK]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 2.04%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.04%** fraco; verificar se é growth pick.
+- **Graham Number ≈ R$ 567.47** vs preço **R$ 1044.97** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 24y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Sensibilidade a mercados (AUM-driven)** — receita base é AUM × bps; bear market corta top-line. Trigger: AUM YoY < 0 em earnings.

@@ -58,6 +58,17 @@ RBRX11 é FII Híbrido (RBR) com **DY 12.31%** e streak de 5 anos, market cap mo
 | Data coverage | 83 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 12.31%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **12.31%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
 ## 5. Riscos identificados
 
 - 🟡 **Híbrido = exposição mista (tijolo + papel)** — segments mistos diluem foco; difícil pricing puro. Trigger: relatório gerencial mostrando rotação > 30% da carteira em 1 trimestre.

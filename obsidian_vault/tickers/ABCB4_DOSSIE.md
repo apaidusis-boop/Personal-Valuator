@@ -139,6 +139,19 @@ ABCB4 passa **5/5 critérios** do screen BR Banks (P/E 4.73, P/B 0.90, DY 10.30%
 | Data coverage | 50 |
 | Paper track | 30 |
 
+
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 4.73** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 4.73** passa.
+- **P/B = 0.90** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **0.90** OK.
+- **DY = 10.30%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **10.30%** passa.
+- **ROE = 15.46%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **15.46%** OK.
+- **Streak div = 16y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+- **Basel = 16.71%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **premium** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
+- **CET1 = 11.88%** → [[Glossary/CET1|capital high-quality]]. Tier **saudável** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
+
 ## 8. Riscos identificados
 
 - 🟡 **Concentração corporate small-cap** — carteira de crédito mais cíclica que big banks; NPL spike 2023-24 mostrou a sensibilidade. Trigger: `bank_quarterly_history.npl_ratio > 4%` por 2 trimestres.

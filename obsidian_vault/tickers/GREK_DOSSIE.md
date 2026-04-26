@@ -36,6 +36,18 @@ GREK (ETF Grécia) cota P/E 11.22, DY 3.25% e YoY +41.8% — beta Greek banking 
 
 → Detalhe: [[GREK_IC_DEBATE]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 3.25%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **3.25%** OK.
+- **Streak div = 15y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🔴 **Concentração Greek banks** — top holdings dominados por NBG, Eurobank, Alpha; spike de NPL ou contágio EU periférico colapsa o ETF. Trigger: ECB report mostrando Greek bank NPL > 8%.

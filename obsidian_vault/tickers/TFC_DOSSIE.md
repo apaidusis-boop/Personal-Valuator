@@ -34,6 +34,22 @@ TFC negoceia P/E 12.56, P/B 1.06, DY 4.10% e ROE 8.58% com streak dividendos 40y
 
 _(IC ainda não gerado para TFC. Execute `python -m agents.synthetic_ic TFC` para popular antes do dossier ser refinado.)_
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 12.56** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 12.56** passa.
+- **P/B = 1.06** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **1.06** OK.
+- **DY = 4.10%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **4.10%** OK.
+- **ROE = 8.58%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.58%** abaixo do critério.
+- **Graham Number ≈ R$ 65.88** vs preço **R$ 50.73** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 40y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🔴 **Credit quality regional bank** — exposure CRE / commercial loans southeast US; NPL spike afecta materialmente. Trigger: NPL ratio > 1.2% ou charge-offs YoY > +25%.

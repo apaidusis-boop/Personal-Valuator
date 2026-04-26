@@ -65,6 +65,16 @@ HGLG11 (CSHG Logística, segmento Logística) negoceia a BRL 158.01 com DY 8.35%
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 9.59** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 9.59** passa.
+- **P/B = 1.00** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.00** — verificar consistência com ROE.
+- **DY = 8.35%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **8.35%** OK.
+- **ROE = 12.24%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **12.24%** abaixo do critério.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Contract churn logística** — renovações em ambiente Selic alta podem render cap rates piores. Trigger: relatório trimestral renovação > 10% portfolio com cap < anterior.

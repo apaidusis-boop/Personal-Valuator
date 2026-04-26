@@ -65,6 +65,21 @@ RDOR3 negocia P/E 18.17 e P/B 4.41 com ROE 20.05% e DY excepcional de 11.03% (ac
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 18.17** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 18.17** passa.
+- **P/B = 4.41** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **4.41** — verificar consistência com ROE.
+- **DY = 11.03%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **11.03%** passa.
+- **ROE = 20.05%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **20.05%** compounder-grade.
+- **Graham Number ≈ R$ 20.50** vs preço **R$ 38.71** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 6y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **DY 11% pode ser não-recorrente** — provável evento extraordinário (M&A Sul América); base sustentável é provavelmente 4-6%. Trigger: dividendo trimestral próximo ano <60% do anualizado actual.

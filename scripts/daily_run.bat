@@ -64,6 +64,36 @@ echo [TRIGGERS] trigger_monitor.py >> "%LOG%"
 echo TRIGGERS exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [PERPETUUM] perpetuum_master.py  ^(11 perpetuums incl. autoresearch K^) >> "%LOG%"
+"%PY%" agents\perpetuum_master.py >> "%LOG%" 2>&1
+echo PERPETUUM exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [PAPER-CLOSE] paper_trade_close.py  ^(F1: fecha signals expirados^) >> "%LOG%"
+"%PY%" scripts\paper_trade_close.py >> "%LOG%" 2>&1
+echo PAPER-CLOSE exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [PRED-EVAL] predictions_evaluate.py  ^(C.2: track record analysts^) >> "%LOG%"
+"%PY%" scripts\predictions_evaluate.py >> "%LOG%" 2>&1
+echo PRED-EVAL exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [CLIPPINGS-INGEST] library.clippings_ingest --rag-build  ^(novos clippings -> RAG^) >> "%LOG%"
+"%PY%" -m library.clippings_ingest --rag-build >> "%LOG%" 2>&1
+echo CLIPPINGS-INGEST exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [RESEARCH-DIGEST] research_digest.py  ^(Bibliotheca daily report^) >> "%LOG%"
+"%PY%" scripts\research_digest.py --quiet >> "%LOG%" 2>&1
+echo RESEARCH-DIGEST exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [TELEGRAM-BRIEF] captains_log_telegram.py  ^(Phase H: morning push^) >> "%LOG%"
+"%PY%" scripts\captains_log_telegram.py --silent >> "%LOG%" 2>&1
+echo TELEGRAM-BRIEF exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [NOTIFY] notify_events.py --hours 48 >> "%LOG%"
 "%PY%" scripts\notify_events.py --hours 48 >> "%LOG%" 2>&1
 echo NOTIFY exit code: %errorlevel% >> "%LOG%"

@@ -56,6 +56,21 @@ consistentes. Valuation actual oferece margem de segurança após 2024 drawdown.
 
 → Vault: [[ACN]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 14.62** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 14.62** passa.
+- **P/B = 3.51** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **3.51** esticado.
+- **DY = 1.74%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **1.74%** fraco; verificar se é growth pick.
+- **ROE = 24.76%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **24.76%** compounder-grade.
+- **Graham Number ≈ R$ 118.04** vs preço **R$ 178.36** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 22y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **GenAI substitution risk** — paradoxo: ACN vende AI mas serviços legacy (testing, RPA) podem ser comoditizados pelos próprios LLMs. Trigger: revenue growth segments legacy YoY < 0% por 2 quarters.

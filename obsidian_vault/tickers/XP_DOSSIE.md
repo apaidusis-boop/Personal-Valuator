@@ -48,6 +48,21 @@ XP negoceia P/E 10.12, DY 0.91% e ROE 23.71% com YoY +23.7% — broker BR listad
 
 → Vault: [[XP]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 10.12** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 10.12** passa.
+- **P/B = 2.17** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **2.17** OK.
+- **DY = 0.91%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.91%** fraco; verificar se é growth pick.
+- **ROE = 23.71%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **23.71%** compounder-grade.
+- **Graham Number ≈ R$ 19.96** vs preço **R$ 19.74** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 8y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Ciclo Selic / take-rate** — receita ligada a volume de trading e net interest; Selic em pico comprime equities flow. Trigger: `macro_exports/SELIC_DAILY.csv` Selic > 14% por 6m + revenue YoY < 5%.

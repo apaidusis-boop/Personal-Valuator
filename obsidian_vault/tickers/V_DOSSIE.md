@@ -36,6 +36,21 @@ Visa negoceia a P/E 29.08 com DY 0.81% — fora do screen US (P/E≤20, DY≥2.5
 
 → Detalhe: [[V_IC_DEBATE]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 29.08** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 29.08** esticado vs critério.
+- **P/B = 15.44** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **15.44** esticado.
+- **DY = 0.81%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.81%** fraco; verificar se é growth pick.
+- **ROE = 53.95%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **53.95%** compounder-grade.
+- **Graham Number ≈ R$ 69.25** vs preço **R$ 309.42** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🟡 **Cap regulatório de interchange** — pressão DOJ/FTC e EU sobre fees pode comprimir take-rate. Trigger: events table com kind='regulatory' AND summary LIKE '%interchange%'.

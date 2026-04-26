@@ -47,6 +47,21 @@ AAPL negoceia a P/E 34.35 com DY 0.38% e ROE 152.02% (alavancado por buybacks), 
 
 → Vault: [[AAPL]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 34.35** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 34.35** esticado vs critério.
+- **P/B = 45.19** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **45.19** esticado.
+- **DY = 0.38%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.38%** fraco; verificar se é growth pick.
+- **ROE = 152.02%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **152.02%** compounder-grade.
+- **Graham Number ≈ R$ 32.64** vs preço **R$ 271.06** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 15y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Services growth deceleration** — Services tem sido o multiple-driver; uma queda <10% YoY pressiona o múltiplo. Trigger: Services revenue YoY < 10%.

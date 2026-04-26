@@ -46,6 +46,21 @@ TEN negoceia a P/E 8.82 com DY 1.53% e P/B 0.63 — métricas ópticamente "bara
 
 → Vault: [[TEN]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 8.82** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 8.82** passa.
+- **P/B = 0.63** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **0.63** OK.
+- **DY = 1.53%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **1.53%** fraco; verificar se é growth pick.
+- **ROE = 9.09%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **9.09%** abaixo do critério.
+- **Graham Number ≈ R$ 79.09** vs preço **R$ 39.27** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 24y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Cycle peak em Abril 2026** — 4 sinais convergentes: YoY +132% (típico topo), tanker rates rolling over, NAV em queda, comparáveis sector contracting. Trigger: TCE rates Suezmax/Aframax YoY < 0.

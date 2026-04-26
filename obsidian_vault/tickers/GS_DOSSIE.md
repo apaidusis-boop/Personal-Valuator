@@ -36,6 +36,21 @@ GS negoceia a P/E 16.92 com DY 1.67% e ROE 14.59%, IC HOLD com alta confiança (
 
 → Detalhe: [[GS_IC_DEBATE]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 16.92** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 16.92** passa.
+- **P/B = 2.58** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **2.58** OK.
+- **DY = 1.67%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **1.67%** fraco; verificar se é growth pick.
+- **ROE = 14.59%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **14.59%** abaixo do critério.
+- **Graham Number ≈ R$ 665.91** vs preço **R$ 926.91** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 28y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🟡 **Sensibilidade a ciclo capital markets** — IB/M&A volátil; recessão fecha pipeline. Trigger: IB revenue YoY < -15%.

@@ -53,6 +53,21 @@ Microsoft transaciona a P/E 26.59 com DY apenas 0.82% e streak de 24y — falha 
 
 → Vault: [[MSFT]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 26.59** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 26.59** esticado vs critério.
+- **P/B = 8.07** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **8.07** esticado.
+- **DY = 0.82%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.82%** fraco; verificar se é growth pick.
+- **ROE = 34.39%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **34.39%** compounder-grade.
+- **Graham Number ≈ R$ 137.51** vs preço **R$ 424.62** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 24y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Azure growth deceleration** — segmento sustenta múltiplo; queda abaixo de 25% YoY constant currency é red flag. Trigger: revenue growth Azure YoY < 25% por 2Q em earnings transcripts (yt_digest).

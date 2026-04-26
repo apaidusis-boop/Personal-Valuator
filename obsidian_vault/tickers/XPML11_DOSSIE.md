@@ -47,6 +47,17 @@ XPML11 é o FII de Shopping (XP Malls) com **DY 9.94%** e streak de 5 anos de di
 | Data coverage | 83 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 9.94%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **9.94%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
 ## 4. Riscos identificados
 
 - 🟡 **Vacância pós-recessão** — Shoppings sensíveis a desemprego e renda real; vacância nas malls do portfólio pode subir se Selic mantida alta sufocar consumo discretionary. Trigger: relatório gerencial mensal com vacância > 8% por 2 meses consecutivos.

@@ -62,6 +62,21 @@ PGMN3 negocia P/E 13.57 e P/B 1.22 (perto do livro) com DY 4.50% e ROE 8.97% —
 | Data coverage | 50 |
 | Paper track | 70 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 13.57** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 13.57** passa.
+- **P/B = 1.22** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.22** — verificar consistência com ROE.
+- **DY = 4.50%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **4.50%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 8.97%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.97%** abaixo do critério.
+- **Graham Number ≈ R$ 6.65** vs preço **R$ 5.70** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 3y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Margem retalho farma sob pressão** — sector altamente competitivo (RaiaDrogasil, Pague Menos, redes regionais); ROE 8.97% reflecte essa compressão. Trigger: `fundamentals.roe < 7%` em 2 trimestres.

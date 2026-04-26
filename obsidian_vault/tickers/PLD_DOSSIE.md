@@ -45,6 +45,22 @@ PLD cota P/E 39.80 (GAAP REIT, normal), DY 2.89% e streak 30y — REIT logístic
 
 → Vault: [[PLD]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 39.80** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 39.80** esticado vs critério.
+- **P/B = 2.49** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **2.49** OK.
+- **DY = 2.89%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.89%** OK.
+- **ROE = 6.84%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **6.84%** abaixo do critério.
+- **Graham Number ≈ R$ 67.77** vs preço **R$ 142.10** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 30y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Cap rate spread vs 10y** — REITs sofrem quando spread cap-rate vs UST 10y comprime; atualmente apertado. Trigger: `macro_exports/DGS10` > 4.7% por 6m + cap rate < 5%.

@@ -61,6 +61,21 @@ ALOS3 negocia a P/E 19.27 e P/B 1.20 com DY 7.17% (acima do floor 6%) e streak 6
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 19.27** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 19.27** passa.
+- **P/B = 1.20** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.20** — verificar consistência com ROE.
+- **DY = 7.17%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **7.17%** passa.
+- **ROE = 6.74%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **6.74%** abaixo do critério.
+- **Graham Number ≈ R$ 31.18** vs preço **R$ 31.61** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 6y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **ROE estruturalmente baixo** — 6.74% vs critério 15%; sustenta tese de que valuation a 1.2× P/B já é fair value. Trigger: `fundamentals.roe < 8%` em 2 trimestres consecutivos.

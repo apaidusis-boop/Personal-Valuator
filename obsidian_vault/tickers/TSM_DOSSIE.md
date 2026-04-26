@@ -47,6 +47,21 @@ TSM negoceia a P/E 34.49 com DY 0.84% e ROE 36.21%, IC HOLD com confiança médi
 
 → Vault: [[TSM]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 34.49** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 34.49** esticado vs critério.
+- **P/B = 89.28** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **89.28** esticado.
+- **DY = 0.84%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **0.84%** fraco; verificar se é growth pick.
+- **ROE = 36.21%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **36.21%** compounder-grade.
+- **Graham Number ≈ R$ 34.41** vs preço **R$ 402.46** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 23y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Geopolítica China/Taiwan** — risco existencial; uma escalada militar invalida a tese. Trigger: `events` table tagged geopolitical action; Pentagon/MOFA escalation.

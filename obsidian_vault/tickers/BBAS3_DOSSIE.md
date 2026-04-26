@@ -139,6 +139,18 @@ BBAS3 trade a **PE 9.5× / PB 0.70×** (cheapest-by-PB do quarteto bancos BR) ma
 | Data coverage | 50 |
 | Paper track | 70 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 9.46** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 9.46** passa.
+- **P/B = 0.70** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **0.70** OK.
+- **DY = 3.67%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **3.67%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 11.06%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **11.06%** fraco.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+- **Basel = 15.13%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **saudável** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
+- **CET1 = 12.23%** → [[Glossary/CET1|capital high-quality]]. Tier **saudável** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
+
 ## 8. Riscos identificados
 
 | Risco | Severidade | Trigger condition |

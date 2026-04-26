@@ -59,6 +59,13 @@ BRCO11 (Bresco Logística) é FII tijolo logístico premium com DY 9,16% e cota 
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 9.16%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **9.16%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Churn inquilino-âncora** — concentração em poucos retailers (Magalu, Carrefour). Trigger: vacância física > 5% nos relatórios trimestrais.

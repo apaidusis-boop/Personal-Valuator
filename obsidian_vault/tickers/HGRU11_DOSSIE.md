@@ -63,6 +63,13 @@ HGRU11 (CSHG Renda Urbana, segmento Híbrido) negoceia a BRL 132.16 com DY 8.66%
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 8.66%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **8.66%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **IC AVOID 100% consenso** — todas personas convergem contra; raríssimo. Trigger: ler `[[HGRU11_IC_DEBATE]]` para razões.
