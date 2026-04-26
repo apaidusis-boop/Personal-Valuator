@@ -36,6 +36,9 @@ Visa negoceia a P/E 29.08 com DY 0.81% — fora do screen US (P/E≤20, DY≥2.5
 
 → Detalhe: [[V_IC_DEBATE]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

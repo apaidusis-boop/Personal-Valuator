@@ -70,12 +70,12 @@ ii agents disable <name>        # humano
 
 ## Budget de escalation Claude
 
-| Tier | Quem pode chamar Claude | Budget cap |
-|---|---|---|
-| L0 Founder | sempre | N/A (conversacional) |
-| L1 Heads | via `escalate_to_claude()` em `_llm.py` | 50K tokens/dia **shared** (global) |
-| L2 Specialists | proibido por default | — |
-| L3 Janitors | proibido | — |
+| Tier           | Quem pode chamar Claude                 | Budget cap                         |
+| -------------- | --------------------------------------- | ---------------------------------- |
+| L0 Founder     | sempre                                  | N/A (conversacional)               |
+| L1 Heads       | via `escalate_to_claude()` em `_llm.py` | 50K tokens/dia **shared** (global) |
+| L2 Specialists | proibido por default                    | —                                  |
+| L3 Janitors    | proibido                                | —                                  |
 
 **Default**: 100% Ollama Qwen 14B local.
 

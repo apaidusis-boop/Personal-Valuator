@@ -281,7 +281,7 @@ def cmd_fetch(args):
 
 def cmd_extract(args):
     from fetchers.subscriptions._pdf_extract import (
-        extract_pdf_text, extract_html_text, extract_insights,
+        extract_pdf_text, extract_insights,
     )
 
     # universe de tickers para hint do prompt

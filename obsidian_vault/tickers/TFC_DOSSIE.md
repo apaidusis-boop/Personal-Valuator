@@ -34,6 +34,9 @@ TFC negoceia P/E 12.56, P/B 1.06, DY 4.10% e ROE 8.58% com streak dividendos 40y
 
 _(IC ainda não gerado para TFC. Execute `python -m agents.synthetic_ic TFC` para popular antes do dossier ser refinado.)_
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

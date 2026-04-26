@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Consumer Disc.
-count: 9
+count: 11
 tags: [sector]
 ---
 
 # 🏢 Consumer Disc.
 
-Total tickers: **9**
+Total tickers: **11**
 Holdings: **2**
 
 ## Tabela live (Dataview)
@@ -29,4 +29,6 @@ SORT is_holding DESC, pnl_pct ASC
 - [[LOW]] _(us)_
 - [[MCD]] _(us)_
 - [[PLPL3]] _(br)_
+- [[SEER3]] _(br)_
 - [[TGT]] _(us)_
+- [[VIVA3]] _(br)_

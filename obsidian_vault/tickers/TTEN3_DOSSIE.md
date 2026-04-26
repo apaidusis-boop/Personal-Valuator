@@ -62,6 +62,9 @@ TTEN3 negocia P/E 9.52 e P/B 1.63 com ROE 18.49% e streak 5y, mas DY 1.19% fica 
 | Data coverage | 50 |
 | Paper track | 90 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

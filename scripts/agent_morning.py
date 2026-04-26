@@ -25,7 +25,7 @@ import json
 import subprocess
 import sys
 import time
-from datetime import UTC, date, datetime, timedelta
+from datetime import UTC, date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

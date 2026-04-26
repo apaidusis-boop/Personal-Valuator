@@ -45,6 +45,9 @@ PLD cota P/E 39.80 (GAAP REIT, normal), DY 2.89% e streak 30y — REIT logístic
 
 → Vault: [[PLD]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

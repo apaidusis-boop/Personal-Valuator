@@ -1,17 +1,18 @@
 ---
 type: design_watch
-updated: 2026-04-25
+updated: 2026-04-26
 owner: helena_linha
 tags: [design, watch, research, helena]
 ---
 
 # Design Watch — Helena Linha continuous scout
 
-> Auto-refreshed weekly. Last run: **2026-04-25**. 
-> GitHub: **6** (5 install / 1 consider) · Blogs: **76** · YouTube: **0**
+> Auto-refreshed weekly. Last run: **2026-04-26**. 
+> GitHub: **7** (5 install / 2 consider) · Blogs: **76** · YouTube: **0**
 
 ## Currently installed (`~/.claude/skills/`)
 
+- `designer-skills`
 - `huashu-design`
 - `hue`
 - `ui-ux-pro-max-skill`
@@ -22,11 +23,11 @@ Stars ≥1000 com design-keyword forte, pushed em window.
 
 | Repo | Stars | Pushed | Description |
 |---|---:|---|---|
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 21833 | 2026-04-25 | The design language that makes your AI harness better at design. |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 16059 | 2026-04-24 | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirr |
-| [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 2247 | 2026-04-24 | Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides /  |
-| [KAOPU-XiaoPu/web-design](https://github.com/KAOPU-XiaoPu/web-design) | 187 | 2026-04-16 | A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. |
-| [likaku/Mck-ppt-design-skill](https://github.com/likaku/Mck-ppt-design-skill) | 109 | 2026-04-21 | Consulting firm-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦麸风格PPT设计系统。 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 21922 | 2026-04-25 | The design language that makes your AI harness better at design. |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 16133 | 2026-04-24 | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirr |
+| [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 2373 | 2026-04-25 | Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides /  |
+| [KAOPU-XiaoPu/web-design](https://github.com/KAOPU-XiaoPu/web-design) | 191 | 2026-04-16 | A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. |
+| [likaku/Mck-ppt-design-skill](https://github.com/likaku/Mck-ppt-design-skill) | 110 | 2026-04-21 | Consulting firm-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦麸风格PPT设计系统。 |
 
 ## GitHub · consider tier
 
@@ -35,6 +36,7 @@ Stars ≥50 com design strong, ou ≥100 + Claude-Code spec.
 | Repo | Stars | Pushed | Description |
 |---|---:|---|---|
 | [AgriciDaniel/skill-forge](https://github.com/AgriciDaniel/skill-forge) | 48 | 2026-04-10 | Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production |
+| [cindiekinzz-coder/NESTstack](https://github.com/cindiekinzz-coder/NESTstack) | 8 | 2026-04-25 | An emotional operating system for AI companions. Start here. NEST is a modular infrastructure stack  |
 
 ## Design blogs · latest posts
 
@@ -74,29 +76,7 @@ _(YouTube source desactivado — exporta `YOUTUBE_API_KEY` para activar)_
 
 ## Helena's recommendation this week
 
-**3 leituras Smashing aplicáveis ao nosso flow agentic — destiladas:** já no novo [[Design_System]] v1.0 (secção *Padrões UX para AI agentic*).
-
-1. ✅ [A Practical Guide To Design Principles](https://smashingmagazine.com/2026/04/practical-guide-design-principles/) — destilados em 5 princípios não-negociáveis no Design_System.
-2. ✅ [Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability](https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/) — quadro de tiers T1-T5 em Design_System; consent fatigue mitigation prevista.
-3. ✅ [Identifying Necessary Transparency Moments In Agentic AI](https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/) — codificado nos 3 momentos obrigatórios (Why, What, Who paid). Helper `agent_attribution()` em `scripts/_components.py` aplica.
-
-**Skill A/B pending**: [`pbakaus/impeccable`](https://github.com/pbakaus/impeccable) (21k stars). 45× mais stars que o `hue` actual, mesma categoria. **Install command** (manual, sandbox bloqueia clone autónomo de external):
-
-```bash
-git clone --depth 1 https://github.com/pbakaus/impeccable.git ~/.claude/skills/impeccable
-```
-
-Depois Helena compara output em 1 brief gerado por cada skill (`hue` vs `impeccable`), reporta vencedor na Design_Watch da próxima semana.
-
-**Polish aplicado hoje (2026-04-25, sessão 2)**:
-- `obsidian_vault/skills/Design_System.md` v1.0 publicado (5 princípios + UX agentic + componentes catalogados + anti-padrões).
-- `scripts/_components.py` v1 publicado: `kpi_tile`, `status_pill`, `section_header`, `agent_attribution`, `divider`. Todos respeitam tokens em `_theme.py`.
-- Dashboard portfolio + ticker deep dive: 8 `st.metric` substituídos por `kpi_tile()` (4 KPIs portfolio + 4 verdict scores). Emojis 🇧🇷/🇺🇸 removidos dos labels (não estavam na lista de badges semânticos permitidos).
-
-## Cross-links
-
-- [[Design_System]] v1.0 — constituição visual da casa (princípios + componentes + anti-padrões)
-- [[Helena Linha]] — persona owner
+_(Helena reescreve esta secção semanalmente após review)_
 
 ## Sources & tuning
 

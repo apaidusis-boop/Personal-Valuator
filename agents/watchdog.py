@@ -13,7 +13,7 @@ import os
 import sqlite3
 import subprocess
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from ._base import AgentContext, AgentResult, BaseAgent

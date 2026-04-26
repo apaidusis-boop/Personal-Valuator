@@ -1,0 +1,485 @@
+<!--
+PROTÓTIPO C · KENYA HARA / MUJI (Filosofia Oriental, Banca Privada PT-BR)
+
+Filosofia: Kenya Hara's emptiness ("the void as a vessel for meaning"),
+MUJI's contemplative restraint, vibe de carta trimestral de gestor de
+patrimónios. NÃO é dashboard — é um documento. Voz PT-BR plena com formato
+de relatório de banca privada brasileira. Whitespace é design.
+
+Referências:
+  - Kenya Hara, "Designing Design" (2007), "White" (2010)
+  - MUJI brand identity (Hara as art director, 2002–presente)
+  - Tetsuya Ohara typography
+  - Itaú Private Bank quarterly letters
+  - Pictet & Cie. asset management reports
+
+Decisões-chave:
+  - Bg cream warm #f4eee5 (extensão justificada — Hara's "off-white that breathes")
+  - Source Serif 4 para títulos e body (voz humana, não UI)
+  - Inter para micro-labels (sans serif neutro)
+  - Mono SÓ para números, e em tamanho menor (números servem o texto)
+  - 1 accent terracotta #b85c38 — usado raramente
+  - Header como uma manchete editorial: "Carteira recomendada — Abril de 2026"
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>II · Carteira Recomendada · Hara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:    #f4eee5;
+    --paper-2:  #ede5d8;
+    --ink:     #2a2622;
+    --ink-2:   #4a423a;
+    --muted:   #786f64;
+    --rule:    #d8d0c4;
+    --rule-soft: #e7e0d2;
+    --clay:    #b85c38;        /* the singular accent */
+    --pos:     #527a45;        /* sage green */
+    --neg:     #a0473d;        /* clay red */
+    --serif: 'Source Serif 4', Georgia, serif;
+    --sans:  'Inter', -apple-system, sans-serif;
+    --mono:  'IBM Plex Mono', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'tnum' 1;
+  }
+
+  .layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+
+  /* ── Sidebar ── */
+  aside {
+    background: var(--paper);
+    padding: 56px 32px 32px 40px;
+  }
+  .brand-mark {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .brand-tag {
+    font-family: var(--sans);
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    margin-bottom: 56px;
+  }
+
+  .nav-section { margin-bottom: 44px; }
+  .nav-h {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .nav-i {
+    font-family: var(--serif);
+    font-size: 16px;
+    padding: 4px 0;
+    color: var(--ink-2);
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  .nav-i.active {
+    color: var(--clay);
+    font-style: italic;
+  }
+  .nav-i:hover { color: var(--ink); }
+
+  .cart-row {
+    padding: 11px 0;
+    cursor: pointer;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .cart-row:last-child { border: none; }
+  .cart-n {
+    font-family: var(--serif);
+    font-size: 14.5px;
+    font-weight: 400;
+    color: var(--ink);
+    line-height: 1.35;
+  }
+  .cart-row.active .cart-n { font-style: italic; color: var(--clay); }
+  .cart-row:hover .cart-n { color: var(--clay); }
+  .cart-meta {
+    font-family: var(--sans);
+    font-size: 10.5px;
+    color: var(--muted);
+    margin-top: 3px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer {
+    margin-top: 72px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  /* ── Main ── */
+  main {
+    padding: 56px 80px 96px 64px;
+    max-width: 1180px;
+  }
+
+  /* Editorial-style top: NOT a dashboard status bar — a SENTENCE. */
+  .lede {
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--ink-2);
+    margin-bottom: 32px;
+    max-width: 720px;
+    font-variation-settings: "opsz" 30;
+  }
+  .lede strong {
+    font-weight: 600;
+    color: var(--ink);
+    font-feature-settings: 'tnum' 1;
+  }
+  .lede .pos { color: var(--pos); font-weight: 500; }
+
+  /* Quiet stat grid below lede */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 36px;
+    padding: 18px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 56px;
+  }
+  .s-l {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .s-v {
+    font-family: var(--mono);
+    font-size: 14px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .s-v.warn { color: #a8763d; }
+  .s-v.neg { color: var(--neg); }
+
+  /* Headline */
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 10.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  h1.hl {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--ink);
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    margin-bottom: 12px;
+    max-width: 14ch;
+    font-variation-settings: "opsz" 60;
+  }
+  .deck {
+    font-family: var(--serif);
+    font-size: 17px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    margin-bottom: 48px;
+    max-width: 60ch;
+  }
+  .deck em { color: var(--clay); font-style: italic; }
+
+  /* Section */
+  .section { margin-bottom: 56px; }
+  .section-h {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+  }
+  .section-deck {
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 22px;
+    max-width: 60ch;
+    line-height: 1.55;
+  }
+
+  svg.chart { display: block; width: 100%; height: 360px; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: var(--muted);
+    text-align: right;
+    padding: 12px 18px 14px 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  thead th:first-child { text-align: left; padding-left: 0; }
+  tbody td {
+    padding: 14px 18px 14px 0;
+    text-align: right;
+    border-bottom: 1px solid var(--rule-soft);
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+  tbody td:first-child {
+    text-align: left;
+    padding-left: 0;
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  tbody tr:hover td { color: var(--ink); }
+  .pos { color: var(--pos); }
+  .neg { color: var(--neg); }
+  .dim { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside>
+    <div class="brand-mark"><i>Investment</i><br>Intelligence</div>
+    <div class="brand-tag">Carteira pessoal · BR · EUA</div>
+
+    <div class="nav-section">
+      <div class="nav-h">Páginas</div>
+      <div class="nav-i active">Início</div>
+      <div class="nav-i">Carteira</div>
+      <div class="nav-i">Empresa</div>
+      <div class="nav-i">Decisões</div>
+      <div class="nav-i">Pergunta</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-h">Recomendadas — abril 2026</div>
+      <div id="cart-list"></div>
+    </div>
+
+    <div class="footer">
+      Dólar &nbsp; 5,0421<br>
+      Fechamento &nbsp; 26·04·26
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Lede sentence (NOT a stat bar — a paragraph) -->
+    <div class="lede">
+      A carteira encerra a semana em <strong>R$ 287.432</strong>, com <span class="pos">+1,24%</span>
+      em sete pregões, distribuída por <strong>33 posições</strong> entre Brasil e Estados Unidos.
+      Há três decisões pendentes de revisão e um alerta aberto.
+    </div>
+
+    <div class="stats">
+      <div><div class="s-l">Posições</div><div class="s-v">33</div></div>
+      <div><div class="s-l">Decisões pendentes</div><div class="s-v warn">3</div></div>
+      <div><div class="s-l">Alertas</div><div class="s-v neg">1</div></div>
+      <div><div class="s-l">Atualização</div><div class="s-v">26·04·2026</div></div>
+    </div>
+
+    <!-- Headline -->
+    <div class="eyebrow">Carteira recomendada · XP Investimentos</div>
+    <h1 class="hl">Top Dividendos<br>—  abril de 2026</h1>
+    <div class="deck">
+      A carteira da XP para o mês reduz <em>Itaú</em> de quinze para dez por cento
+      e abre espaço a <em>Roxo</em>, em movimento que reflete a leitura da casa
+      sobre o ciclo de juros doméstico. Doze ativos. Base de cem em abril de 2021.
+    </div>
+
+    <!-- Chart -->
+    <div class="section">
+      <div class="section-h">Histórico de cinco anos</div>
+      <div class="section-deck">Cada linha representa um ativo da carteira, normalizado a cem
+        no início do período. A linha tracejada é o IBOV.</div>
+      <svg id="chart" class="chart" viewBox="0 0 1080 360" preserveAspectRatio="none"></svg>
+    </div>
+
+    <!-- Composition -->
+    <div class="section">
+      <div class="section-h">Composição</div>
+      <div class="section-deck">Pesos definidos pela XP em 02 de abril. Cotações ao
+        fechamento de 26 de abril.</div>
+      <table id="holdings">
+        <thead>
+          <tr>
+            <th>Ativo</th>
+            <th>Peso</th>
+            <th>Cotação</th>
+            <th>Cinco anos</th>
+            <th>Frente ao IBOV</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
+
+<script>
+const CARTEIRAS = [
+  { id:'xp_topdiv', name:'XP — Top Dividendos', src:'12 ativos · base 02·04', active:true },
+  { id:'btg_div',   name:'BTG — Portfolio Dividendos', src:'10 ativos · base 15·04' },
+  { id:'btg_eqbr',  name:'BTG — Equity Brazil', src:'20 ativos · base 15·04' },
+  { id:'btg_value', name:'BTG — Value', src:'23 ativos · base 15·04' },
+  { id:'suno_val',  name:'Suno — Valor', src:'13 ativos · base 14·04' },
+  { id:'suno_div',  name:'Suno — Dividendos', src:'13 ativos · base 14·04' },
+  { id:'suno_fii',  name:'Suno — Fundos Imobiliários', src:'20 FIIs · base 14·04' },
+  { id:'suno_rt',   name:'Suno — Renda Total', src:'12 ativos · base 14·04' },
+];
+
+const HOLDINGS = [
+  { t:'CPLE3',  w:15.0, p:11.82, e5:175 },
+  { t:'B3SA3',  w:12.5, p:14.21, e5:145 },
+  { t:'VALE3',  w:12.5, p:62.40, e5:95  },
+  { t:'PETR4',  w:10.0, p:38.15, e5:110 },
+  { t:'ITUB4',  w:10.0, p:48.62, e5:165 },
+  { t:'ROXO34', w:7.5,  p:23.04, e5:220 },
+  { t:'ALOS3',  w:7.5,  p:25.18, e5:88  },
+  { t:'VIVT3',  w:5.0,  p:32.55, e5:135 },
+  { t:'ENGI11', w:5.0,  p:74.21, e5:155 },
+  { t:'AXIA7',  w:5.0,  p:42.30, e5:145 },
+  { t:'CXSE3',  w:5.0,  p:17.45, e5:130 },
+  { t:'SANB11', w:5.0,  p:36.92, e5:120 },
+];
+const IBOV_END = 118;
+
+function gen(end, n=60, seed=1){
+  const arr = [];
+  for(let i=0;i<n;i++){
+    const t = i/(n-1);
+    const trend = 100 + (end-100)*t;
+    const noise = 6*Math.sin(i*0.55+seed) + 3*Math.cos(i*1.3+seed*1.7);
+    arr.push(Math.max(30, trend+noise));
+  }
+  return arr;
+}
+HOLDINGS.forEach((h,i)=>h.series=gen(h.e5,60,i));
+const ibov=gen(IBOV_END,60,99);
+
+function renderChart(){
+  const svg=document.getElementById('chart');
+  const W=1080,H=360,padL=12,padR=80,padT=12,padB=28;
+  const ymin=60,ymax=240;
+  const x=i=>padL+(i/(60-1))*(W-padL-padR);
+  const y=v=>padT+(1-(v-ymin)/(ymax-ymin))*(H-padT-padB);
+
+  let html='';
+  // Single horizontal at base 100 — Hara's "minimum punctuation"
+  html+=`<line x1="${padL}" y1="${y(100)}" x2="${W-padR}" y2="${y(100)}" stroke="#d8d0c4" stroke-width="0.6"/>`;
+
+  // Year markers in serif italic, very small
+  for(let yr=0;yr<=5;yr++){
+    const xp=padL+(yr/5)*(W-padL-padR);
+    html+=`<text x="${xp}" y="${H-8}" fill="#786f64" font-family="Source Serif 4" font-style="italic" font-size="11" text-anchor="middle">${2021+yr}</text>`;
+  }
+
+  // IBOV — very faint dotted
+  const ibovPath=ibov.map((v,i)=>`${i===0?'M':'L'}${x(i).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+  html+=`<path d="${ibovPath}" fill="none" stroke="#a89b88" stroke-width="0.5" stroke-dasharray="2 2"/>`;
+  html+=`<text x="${x(59)+6}" y="${y(IBOV_END)+3}" fill="#786f64" font-family="Source Serif 4" font-style="italic" font-size="12">IBOV</text>`;
+
+  // Tickers — calligraphic line work, all charcoal, 1 in clay accent
+  HOLDINGS.forEach((h,i)=>{
+    const path=h.series.map((v,j)=>`${j===0?'M':'L'}${x(j).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+    const isHi=h.t==='ROXO34';
+    const stroke=isHi?'#b85c38':'#3a342d';
+    const sw=isHi?1.1:0.5;
+    const op=isHi?0.95:0.4;
+    html+=`<path d="${path}" fill="none" stroke="${stroke}" stroke-width="${sw}" opacity="${op}"/>`;
+    html+=`<text x="${x(59)+6}" y="${y(h.series[59])+3}" fill="${isHi?stroke:'#786f64'}" font-family="IBM Plex Mono" font-size="9.5" font-weight="${isHi?500:400}">${h.t}</text>`;
+  });
+  svg.innerHTML=html;
+}
+
+function renderCarteiras(){
+  document.getElementById('cart-list').innerHTML=CARTEIRAS.map(c=>`
+    <div class="cart-row ${c.active?'active':''}">
+      <div class="cart-n">${c.name}</div>
+      <div class="cart-meta">${c.src}</div>
+    </div>
+  `).join('');
+}
+
+function renderTable(){
+  const tbody=document.querySelector('#holdings tbody');
+  tbody.innerHTML=HOLDINGS.map(h=>{
+    const ret=h.e5-100;
+    const vsIbov=ret-(IBOV_END-100);
+    return `<tr>
+      <td>${h.t}</td>
+      <td class="dim">${h.w.toFixed(1).replace('.',',')}%</td>
+      <td class="dim">R$ ${h.p.toFixed(2).replace('.',',')}</td>
+      <td class="${ret>=0?'pos':'neg'}">${ret>=0?'+':''}${ret.toFixed(0)}%</td>
+      <td class="${vsIbov>=0?'pos':'neg'}">${vsIbov>=0?'+':''}${vsIbov.toFixed(0)} pp</td>
+    </tr>`;
+  }).join('');
+}
+
+renderCarteiras();
+renderChart();
+renderTable();
+</script>
+
+<!--
+ANTI-SLOP CHECK:
+1. NÃO É DASHBOARD. É um documento. Lede sentence ("A carteira encerra a semana em R$ 287.432...") substitui a "stat bar" típica — voz humana, não label/value pairs.
+2. Cream warm #f4eee5 — extensão à paleta JUSTIFICADA pela referência Hara/MUJI explícita. Cremes não são "fashion choice", são a tradição visual de relatórios financeiros impressos (Itaú PB, Pictet).
+3. Source Serif 4 com optical-size 60 no headline (variable font feature) — faz que "Top Dividendos — abril de 2026" tenha peso editorial real, não SaaS-display-font.
+4. Mono SÓ em números, e em tamanho menor (13-14px) que serve o texto. Os números nunca dominam — o context narrativo domina.
+5. 1 accent terracotta usado com extrema disciplina: ROXO34 line no chart, page-active nav, italic eyebrow no headline. 3 sítios em toda a página.
+6. Voz PT-BR formal e completa: "Composição", "Frente ao IBOV", "Cinco anos", "Atualização", "Pergunta" (em vez de "Ask"). "Roxo" em vez de ROXO34 no body. Datas formato pt-BR (02·04·2026 ou "02 de abril").
+7. Zero emojis. Zero icons. Zero bordas decorativas. Zero gradientes.
+8. Identidade: claramente "carta trimestral de banca privada brasileira" — não pode ser confundido com Notion template.
+-->
+
+</body>
+</html>

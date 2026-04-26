@@ -34,6 +34,9 @@ TTD negoceia P/E 26.63, sem dividendo, ROE 16.32% — DSP independente líder em
 
 _(IC ainda não gerado para TTD. Execute `python -m agents.synthetic_ic TTD` para popular antes do dossier ser refinado.)_
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

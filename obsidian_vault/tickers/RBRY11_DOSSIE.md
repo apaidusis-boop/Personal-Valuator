@@ -63,6 +63,9 @@ RBRY11 (RBR CRI) é fundo papel high-yield agressivo com DY 15,06% — o mais al
 | Data coverage | 50 |
 | Paper track | 30 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

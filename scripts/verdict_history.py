@@ -14,7 +14,6 @@ from __future__ import annotations
 import argparse
 import sqlite3
 import sys
-from dataclasses import asdict
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 

@@ -1,1 +1,8 @@
-{}
+{
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#453a5f",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "helena"
+  ]
+}

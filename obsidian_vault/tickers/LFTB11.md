@@ -1,30 +1,30 @@
 ---
 ticker: LFTB11
-name: iShares Tesouro Selic ETF
+name: LFTB11
 market: br
 sector: ETF-RF
 is_holding: true
 currency: BRL
 price: 120.81
-price_date: 2026-04-23
-change_1d_pct: 0.11
+price_date: 2026-04-26
+change_1d_pct: 0
 div_safety: 0
 div_safety_verdict: N/A
-position_qty: 1026
+position_qty: 873
 entry_price: 120.27
 pnl_pct: 0.45
-market_value: 123951.06
-updated: "2026-04-24T11:37:09Z"
+market_value: 105467.13
+updated: "2026-04-26T10:59:40Z"
 tags: [holding, br, etf-rf]
 ---
 
-# LFTB11 — iShares Tesouro Selic ETF
+# LFTB11 — LFTB11
 
 #holding #br #etf-rf
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-24 14:37_
+> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -37,7 +37,7 @@ tags: [holding, br, etf-rf]
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 0.0/100
 - **Valuation**: Screen 0.00, DY percentil - (-)
-- **Momentum**: 1d 0.11%, 30d 0.11%, YTD 0.11%
+- **Momentum**: 1d 0.0%, 30d 0.11%, YTD 0.11%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
@@ -51,21 +51,22 @@ tags: [holding, br, etf-rf]
 
 - Sector: [[sectors/ETF-RF|ETF-RF]]
 - Market: [[markets/BR|BR]]
+- 🎯 **Thesis**: [[wiki/holdings/LFTB11|thesis deep]]
 
 ## Snapshot
 
-- **Preço**: R$120.81  (2026-04-23)    _+0.11% 1d_
+- **Preço**: R$120.81  (2026-04-26)    _+0.00% 1d_
 - **Screen**: n/a  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 0.0/100 (N/A)
-- **Posição**: 1026.0 sh @ R$120.27  →  P&L 0.45%
+- **Posição**: 873.0 sh @ R$120.27  →  P&L 0.45%
 
 ## Fundamentals
 
-- P/E: n/a | P/B: n/a | DY: n/a%
-- ROE: n/a% | EPS: n/a | BVPS: n/a
-- Streak div: n/ay | Aristocrat: n/a
+- P/E: None | P/B: None | DY: None%
+- ROE: None% | EPS: None | BVPS: None
+- Streak div: Noney | Aristocrat: None
 
 ## 📈 Live snapshot (auto-gerado)
 
@@ -89,4 +90,4 @@ tags: [holding, br, etf-rf]
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-24 11:37 UTC*
+*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*

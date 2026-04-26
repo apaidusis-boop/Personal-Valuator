@@ -61,26 +61,43 @@ def load_snapshot(conn: sqlite3.Connection, ticker: str) -> dict | None:
     if not co:
         return None
 
-    # Tenta carregar campos REIT (só existem na DB US); cai em SELECT antigo para BR.
+    # Schema evoluiu em camadas. Tenta primeiro o set completo (US bank cols
+    # adicionadas em 2026-04-26 pelo backfill_us_bank_tangibles), cai em REIT
+    # cols, e finalmente no schema legacy BR. Failure mode: OperationalError
+    # quando a coluna não existe na DB.
+    has_us_bank_cols = False
+    has_reit_cols = False
     try:
         fund = conn.execute(
             """SELECT period_end, eps, bvps, roe, pe, pb, dy,
                       net_debt_ebitda, dividend_streak_years, is_aristocrat,
-                      ffo_per_share, interest_coverage, debt_to_assets
+                      ffo_per_share, interest_coverage, debt_to_assets,
+                      tbvps, rotce, cet1_ratio, efficiency_ratio
                FROM fundamentals WHERE ticker=?
                ORDER BY period_end DESC LIMIT 1""",
             (ticker,),
         ).fetchone()
+        has_us_bank_cols = True
         has_reit_cols = True
     except sqlite3.OperationalError:
-        fund = conn.execute(
-            """SELECT period_end, eps, bvps, roe, pe, pb, dy,
-                      net_debt_ebitda, dividend_streak_years, is_aristocrat
-               FROM fundamentals WHERE ticker=?
-               ORDER BY period_end DESC LIMIT 1""",
-            (ticker,),
-        ).fetchone()
-        has_reit_cols = False
+        try:
+            fund = conn.execute(
+                """SELECT period_end, eps, bvps, roe, pe, pb, dy,
+                          net_debt_ebitda, dividend_streak_years, is_aristocrat,
+                          ffo_per_share, interest_coverage, debt_to_assets
+                   FROM fundamentals WHERE ticker=?
+                   ORDER BY period_end DESC LIMIT 1""",
+                (ticker,),
+            ).fetchone()
+            has_reit_cols = True
+        except sqlite3.OperationalError:
+            fund = conn.execute(
+                """SELECT period_end, eps, bvps, roe, pe, pb, dy,
+                          net_debt_ebitda, dividend_streak_years, is_aristocrat
+                   FROM fundamentals WHERE ticker=?
+                   ORDER BY period_end DESC LIMIT 1""",
+                (ticker,),
+            ).fetchone()
 
     price = conn.execute(
         "SELECT close, date FROM prices WHERE ticker=? ORDER BY date DESC LIMIT 1",
@@ -100,6 +117,13 @@ def load_snapshot(conn: sqlite3.Connection, ticker: str) -> dict | None:
                 "ffo_per_share": fund[10],
                 "interest_coverage": fund[11],
                 "debt_to_assets": fund[12],
+            })
+        if has_us_bank_cols:
+            fundamentals.update({
+                "tbvps":            fund[13],
+                "rotce":            fund[14],
+                "cet1_ratio":       fund[15],
+                "efficiency_ratio": fund[16],
             })
         # Fallback: se ROE não foi populado pelo fetcher, derivar de deep_fundamentals
         # (net_income / stockholders_equity do último annual). Mantém flag auditável.
@@ -141,6 +165,34 @@ def _is_bank(snap: dict) -> bool:
     """Bancos comerciais — Graham Number e Dív/EBITDA não se aplicam
     (estrutura de capital e receita totalmente diferentes)."""
     return snap.get("sector", "").strip().lower() == "banks"
+
+
+_US_BANK_TICKERS = frozenset({
+    "JPM", "BAC", "WFC", "C", "GS", "MS",                # money-center + IB
+    "USB", "PNC", "TFC", "BK", "NTRS", "STT",            # super-regional + trust
+    "CFG", "RF", "KEY", "FITB", "MTB", "HBAN", "CMA",    # regional
+    "CBSH", "WAL", "ZION",                                # community / mid
+    "COF", "DFS", "AXP",                                  # card / consumer credit (close cousins)
+})
+
+
+def _is_us_bank(snap: dict) -> bool:
+    """US bank gating. Whitelist de tickers (mais robusto que name-matching)
+    + fallback para sector == Banks ou Financials com nome banco-like.
+    Trata via score_us_bank (P/TBV, ROTCE, post-GFC streak — não Aristocrat strict)."""
+    ticker = (snap.get("ticker") or "").upper()
+    if ticker in _US_BANK_TICKERS:
+        return True
+    sector = snap.get("sector", "").strip().lower()
+    name = (snap.get("name") or "").lower()
+    if sector == "banks":
+        return True
+    if sector == "financials":
+        for marker in ("bank", "jpmorgan", "chase", "goldman", "morgan stanley",
+                       "citigroup", "wells fargo", "bancorp", "truist"):
+            if marker in name:
+                return True
+    return False
 
 
 def _is_reit(snap: dict) -> bool:
@@ -439,6 +491,83 @@ def score_us(snap: dict) -> dict:
     }
 
 
+def score_us_bank(snap: dict) -> dict:
+    """Screen para bancos US (Buffett-bank framework, post-GFC).
+    Paralelo a score_br_bank com 7 critérios:
+      - P/E ≤ 12
+      - P/TBV ≤ 1.8 (preferred), com fallback para P/B ≤ 1.8
+      - ROTCE ≥ 15% (preferred), com fallback para ROE ≥ 12%
+      - DY ≥ 2.5%
+      - CET1 ≥ 11% (Basel III + buffer; n/a se não populado)
+      - Efficiency ratio ≤ 60% (n/a se não populado)
+      - Streak pós-2009 ≥ 10y (Aristocrat strict não aplica em US banks)
+
+    TBVPS/ROTCE backfill: scripts/backfill_us_bank_tangibles.py (yfinance).
+    CET1/efficiency: ainda exigem 10-Q XBRL parser — n/a até lá."""
+    f = snap.get("fundamentals") or {}
+    p = snap.get("price") or {}
+    price = p.get("close")
+
+    # 1. P/E ≤ 12
+    pe = f.get("pe")
+    pe_v = _na(12, "P/E em falta") if pe is None else _v(pe, 12, "pass" if pe <= 12 else "fail")
+
+    # 2. P/TBV ≤ 1.8 (preferred). Calcula price / tbvps. Fallback: P/B raw com a mesma threshold.
+    tbvps = f.get("tbvps")
+    if tbvps is not None and price is not None and tbvps > 0:
+        ptbv = price / tbvps
+        ptbv_v = _v(round(ptbv, 4), 1.8, "pass" if ptbv <= 1.8 else "fail", kind="p_tbv")
+    else:
+        pb = f.get("pb")
+        if pb is None:
+            ptbv_v = _na(1.8, "P/TBV e P/B em falta")
+        else:
+            ptbv_v = _v(pb, 1.8, "pass" if pb <= 1.8 else "fail", kind="p_b_proxy")
+
+    # 3. DY ≥ 2.5%
+    dy = f.get("dy")
+    dy_v = _na(0.025, "DY em falta") if dy is None else _v(dy, 0.025, "pass" if dy >= 0.025 else "fail")
+
+    # 4. ROTCE ≥ 15% (preferred). Fallback: ROE ≥ 12% (mais relaxado para refletir efeito intangíveis).
+    rotce = f.get("rotce")
+    if rotce is not None:
+        rotce_v = _v(rotce, 0.15, "pass" if rotce >= 0.15 else "fail", kind="rotce")
+    else:
+        roe = f.get("roe")
+        if roe is None:
+            rotce_v = _na(0.15, "ROTCE e ROE em falta")
+        else:
+            rotce_v = _v(roe, 0.12, "pass" if roe >= 0.12 else "fail", kind="roe_proxy")
+
+    # 5. CET1 ≥ 11% (n/a se não temos)
+    cet1 = f.get("cet1_ratio")
+    cet1_v = _na(0.11, "CET1 não populado (10-Q XBRL parser pendente)") if cet1 is None \
+             else _v(cet1, 0.11, "pass" if cet1 >= 0.11 else "fail")
+
+    # 6. Efficiency ratio ≤ 60% (n/a se não temos)
+    eff = f.get("efficiency_ratio")
+    eff_v = _na(0.60, "Efficiency ratio não populado (10-Q XBRL parser pendente)") if eff is None \
+            else _v(eff, 0.60, "pass" if eff <= 0.60 else "fail")
+
+    # 7. Streak pós-2009 ≥ 10y. Threshold 16 distingue "sobreviveu 2009 sem cortar" de "pagou em 2009".
+    streak = f.get("dividend_streak_years")
+    if streak is None:
+        streak_v = _na(10, "histórico de dividendos em falta")
+    else:
+        verdict = "pass" if streak >= 16 else "fail"
+        streak_v = _v(streak, 10, verdict, kind="streak_post_gfc")
+
+    return {
+        "pe": pe_v,
+        "price_to_tangible_book": ptbv_v,
+        "dividend_yield": dy_v,
+        "rotce": rotce_v,
+        "cet1": cet1_v,
+        "efficiency_ratio": eff_v,
+        "dividend_streak_post_gfc": streak_v,
+    }
+
+
 # ---------- agregação ----------
 
 def aggregate(details: dict) -> tuple[float, bool]:
@@ -493,6 +622,8 @@ def run(ticker: str, market: str) -> dict[str, Any]:
                 details = score_br_bank(snap)
             elif market == "us" and _is_reit(snap):
                 details = score_us_reit(snap)
+            elif market == "us" and _is_us_bank(snap):
+                details = score_us_bank(snap)
             else:
                 details = (score_br if market == "br" else score_us)(snap)
         score, passes = aggregate(details)

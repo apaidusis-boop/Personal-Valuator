@@ -1,0 +1,498 @@
+<!--
+PROTÓTIPO B · MASSIMO VIGNELLI / UNIMARK (Minimalismo Suíço-Italiano)
+
+Filosofia: "Form follows meaning." Vignelli's design system principles —
+limited typeface palette (3 families, each with explicit role),
+strict 12-column grid VISIBLE at edges, color reduced to black + 1 red accent,
+big bold display headlines com negative letter-spacing,
+white space as compositional element. NYC Subway / American Airlines /
+Unimark aesthetic translated to brazilian portfolio analytics.
+
+Referências:
+  - Massimo Vignelli, "The Vignelli Canon" (2010)
+  - Unimark International identity work (Knoll, American Airlines, Bloomingdale's)
+  - NYC Subway diagram (1972)
+  - Bodoni 1798 typeface (Italy)
+  - Müller-Brockmann grid systems
+
+Decisões-chave:
+  - LIGHT THEME (Vignelli usou paper-warm white em quase tudo)
+  - 3 typefaces APENAS: Bodoni Moda (display, italic), Helvetica Neue (UI), Plex Mono (data)
+  - 1 accent: vermelho Vignelli (#cc2936) — extensão à paleta justificada
+  - Grid 12-col visível como linhas verticais subtis nas margens
+  - "Composição", "Recomendadas pelos analistas" — voz portuguesa formal
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>II · Carteiras · Vignelli</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400;1,6..96,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:    #fafaf7;
+    --ink:     #0e0e0e;
+    --ink-2:   #2a2a2a;
+    --rule:    #1a1a1a;
+    --rule-soft: #d8d6d0;
+    --rule-grid: #ebe9e3;
+    --muted:   #707070;
+    --red:     #cc2936;        /* Vignelli accent */
+    --pos:     #2d6a4f;
+    --neg:     #b03434;
+    --bg-row:  #f3f1eb;
+    --helv: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --bod:  'Bodoni Moda', 'Bodoni 72', serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--helv);
+    font-size: 13px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'tnum' 1;
+  }
+  /* Vignelli grid — visible vertical rules on the page edge */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 280px;
+    width: 1px;
+    background: var(--rule-soft);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .layout { display: grid; grid-template-columns: 280px 1fr; min-height: 100vh; }
+
+  /* ── Sidebar ── */
+  aside {
+    background: var(--paper);
+    padding: 32px 28px;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .brand-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 28px; }
+  .brand-mark {
+    font-family: var(--bod);
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--ink);
+    letter-spacing: -0.04em;
+  }
+  .brand-text {
+    font-family: var(--helv);
+    font-size: 9px;
+    color: var(--ink-2);
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-weight: 600;
+  }
+
+  .nav-section { margin-bottom: 32px; }
+  .nav-h {
+    font-family: var(--helv);
+    font-size: 8.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--rule);
+  }
+  .nav-i {
+    font-size: 14px;
+    padding: 5px 0;
+    color: var(--ink-2);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .nav-i.active { color: var(--red); font-weight: 600; }
+  .nav-i:hover { color: var(--ink); }
+
+  .cart-row {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    cursor: pointer;
+  }
+  .cart-row:last-child { border: none; }
+  .cart-row.active .cart-n { color: var(--red); font-weight: 600; }
+  .cart-row:hover .cart-n { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .cart-n {
+    font-family: var(--helv);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  .cart-meta {
+    font-family: var(--helv);
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 2px;
+  }
+
+  .footer {
+    margin-top: 28px;
+    padding-top: 14px;
+    border-top: 2px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-2);
+    line-height: 1.7;
+  }
+
+  /* ── Main ── */
+  main {
+    padding: 36px 56px 64px 56px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Status bar Vignelli-style: 4 cells in a strict row, no inline separators */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 2px solid var(--rule);
+    border-bottom: 1px solid var(--rule-soft);
+    padding: 14px 0;
+    margin-bottom: 36px;
+  }
+  .s {
+    padding: 0 12px;
+    border-right: 1px solid var(--rule-grid);
+  }
+  .s:first-child { padding-left: 0; }
+  .s:last-child { border: none; padding-right: 0; }
+  .s-l {
+    font-family: var(--helv);
+    font-size: 8.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .s-v {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .s-v.pos { color: var(--pos); }
+  .s-v.neg { color: var(--neg); }
+  .s-v.warn { color: #b87f00; }
+
+  .page-title {
+    font-family: var(--bod);
+    font-style: italic;
+    font-size: 56px;
+    font-weight: 400;
+    color: var(--ink);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .page-sub {
+    font-family: var(--helv);
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 30px;
+  }
+
+  .selected-row {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--rule);
+    margin-bottom: 22px;
+  }
+  .selected-row .dot {
+    width: 8px; height: 8px;
+    background: var(--red);
+    border-radius: 50%;
+  }
+  .selected-name {
+    font-family: var(--helv);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .selected-meta {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin-left: auto;
+  }
+
+  /* Chart */
+  .chart-h {
+    font-family: var(--helv);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  svg.chart { display: block; width: 100%; height: 420px; margin-bottom: 36px; }
+
+  /* Table */
+  .tbl-h {
+    font-family: var(--helv);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--rule);
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    font-family: var(--helv);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 700;
+    color: var(--ink);
+    text-align: right;
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  thead th:first-child { text-align: left; }
+  tbody td {
+    padding: 11px 16px;
+    text-align: right;
+    border-bottom: 1px solid var(--rule-grid);
+    font-family: var(--mono);
+    font-size: 13px;
+  }
+  tbody td:first-child {
+    text-align: left;
+    font-family: var(--helv);
+    font-weight: 600;
+    font-size: 13px;
+  }
+  tbody tr:nth-child(even) { background: var(--bg-row); }
+  .pos { color: var(--pos); font-weight: 500; }
+  .neg { color: var(--neg); font-weight: 500; }
+  .dim { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside>
+    <div class="brand-row">
+      <span class="brand-mark"><i>I</i><i>I</i></span>
+      <span class="brand-text">Investment<br>Intelligence</span>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-h">Navegação</div>
+      <div class="nav-i active">Home</div>
+      <div class="nav-i">Portfolio</div>
+      <div class="nav-i">Ticker</div>
+      <div class="nav-i">Actions</div>
+      <div class="nav-i">Ask</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-h">Carteiras<br>Recomendadas · Abril 2026</div>
+      <div id="cart-list"></div>
+    </div>
+
+    <div class="footer">
+      USDBRL 5,0421<br>
+      26 abril 2026
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Status bar -->
+    <div class="stats">
+      <div class="s"><div class="s-l">Mercado·Valor</div><div class="s-v">R$ 287.432</div></div>
+      <div class="s"><div class="s-l">7 dias</div><div class="s-v pos">+1,24%</div></div>
+      <div class="s"><div class="s-l">Posições</div><div class="s-v">33</div></div>
+      <div class="s"><div class="s-l">Decisões</div><div class="s-v warn">3</div></div>
+      <div class="s"><div class="s-l">Alertas</div><div class="s-v neg">1</div></div>
+      <div class="s"><div class="s-l">USD·BRL</div><div class="s-v">5,0421</div></div>
+      <div class="s"><div class="s-l">Encerramento</div><div class="s-v">26·04·26</div></div>
+    </div>
+
+    <!-- Title -->
+    <div class="page-title">Carteiras</div>
+    <div class="page-sub">Recomendadas pelos analistas — base mensal · Abril de 2026</div>
+
+    <!-- Selected -->
+    <div class="selected-row">
+      <span class="dot"></span>
+      <span class="selected-name">XP — Top Dividendos</span>
+      <span class="selected-meta">Atualizada em 02·04·2026 · 12 ativos</span>
+    </div>
+
+    <!-- Chart -->
+    <div class="chart-h">Histórico — cinco anos · normalizado a cem</div>
+    <svg id="chart" class="chart" viewBox="0 0 1100 420" preserveAspectRatio="none"></svg>
+
+    <!-- Holdings -->
+    <div class="tbl-h">Composição da carteira</div>
+    <table id="holdings">
+      <thead>
+        <tr>
+          <th>Ativo</th>
+          <th>Peso</th>
+          <th>Cotação</th>
+          <th>5 anos</th>
+          <th>vs IBOV</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </main>
+</div>
+
+<script>
+const CARTEIRAS = [
+  { id:'xp_topdiv', name:'XP — Top Dividendos', src:'XP · 12 ativos', active:true },
+  { id:'btg_div',   name:'BTG — Portfolio Dividendos', src:'BTG · 10 ativos' },
+  { id:'btg_eqbr',  name:'BTG — Equity Brazil', src:'BTG · 20 ativos' },
+  { id:'btg_value', name:'BTG — Value', src:'BTG · 23 ativos' },
+  { id:'suno_val',  name:'Suno — Valor', src:'Suno · 13 ativos' },
+  { id:'suno_div',  name:'Suno — Dividendos', src:'Suno · 13 ativos' },
+  { id:'suno_fii',  name:'Suno — FIIs', src:'Suno · 20 FIIs' },
+  { id:'suno_rt',   name:'Suno — Renda Total', src:'Suno · 12 ativos' },
+];
+
+const HOLDINGS = [
+  { t:'CPLE3',  w:15.0, p:11.82, e5:175 },
+  { t:'B3SA3',  w:12.5, p:14.21, e5:145 },
+  { t:'VALE3',  w:12.5, p:62.40, e5:95  },
+  { t:'PETR4',  w:10.0, p:38.15, e5:110 },
+  { t:'ITUB4',  w:10.0, p:48.62, e5:165 },
+  { t:'ROXO34', w:7.5,  p:23.04, e5:220 },
+  { t:'ALOS3',  w:7.5,  p:25.18, e5:88  },
+  { t:'VIVT3',  w:5.0,  p:32.55, e5:135 },
+  { t:'ENGI11', w:5.0,  p:74.21, e5:155 },
+  { t:'AXIA7',  w:5.0,  p:42.30, e5:145 },
+  { t:'CXSE3',  w:5.0,  p:17.45, e5:130 },
+  { t:'SANB11', w:5.0,  p:36.92, e5:120 },
+];
+const IBOV_END = 118;
+
+function gen(end, n=60, seed=1){
+  const arr = [];
+  for(let i=0;i<n;i++){
+    const t = i/(n-1);
+    const trend = 100 + (end-100)*t;
+    const noise = 6*Math.sin(i*0.55 + seed) + 3*Math.cos(i*1.3 + seed*1.7);
+    arr.push(Math.max(30, trend + noise));
+  }
+  return arr;
+}
+HOLDINGS.forEach((h,i)=>h.series=gen(h.e5,60,i));
+const ibov = gen(IBOV_END,60,99);
+
+function renderChart(){
+  const svg=document.getElementById('chart');
+  const W=1100,H=420,padL=44,padR=80,padT=14,padB=30;
+  const ymin=60,ymax=240;
+  const x=i=>padL+(i/(60-1))*(W-padL-padR);
+  const y=v=>padT+(1-(v-ymin)/(ymax-ymin))*(H-padT-padB);
+
+  let html='';
+  // Vignelli: VERY restrained grid — only horizontal lines at 100, 150, 200
+  [100,150,200].forEach(lv=>{
+    html+=`<line x1="${padL}" y1="${y(lv)}" x2="${W-padR}" y2="${y(lv)}" stroke="#d8d6d0" stroke-width="0.6"/>`;
+    html+=`<text x="${padL-10}" y="${y(lv)+3.5}" fill="#0e0e0e" font-family="Bodoni Moda" font-style="italic" font-size="11" text-anchor="end">${lv}</text>`;
+  });
+  // Year markers
+  for(let yr=0;yr<=5;yr++){
+    const xp=padL+(yr/5)*(W-padL-padR);
+    html+=`<text x="${xp}" y="${H-8}" fill="#707070" font-family="Helvetica Neue" font-size="10" text-anchor="middle" letter-spacing="0.1em">${2021+yr}</text>`;
+  }
+
+  // IBOV reference: thin charcoal solid line, italic label
+  const ibovPath=ibov.map((v,i)=>`${i===0?'M':'L'}${x(i).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+  html+=`<path d="${ibovPath}" fill="none" stroke="#7a7a7a" stroke-width="0.6" stroke-dasharray="4 3"/>`;
+  html+=`<text x="${x(59)+6}" y="${y(IBOV_END)+3}" fill="#707070" font-family="Bodoni Moda" font-style="italic" font-size="11">IBOV</text>`;
+
+  // Tickers — all in charcoal, 2 highlighted in Vignelli red
+  HOLDINGS.forEach((h,i)=>{
+    const path=h.series.map((v,j)=>`${j===0?'M':'L'}${x(j).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+    const isHi=h.t==='ROXO34'||h.t==='CPLE3';
+    const stroke=isHi?'#cc2936':'#2a2a2a';
+    const sw=isHi?1.4:0.6;
+    const op=isHi?1:0.45;
+    html+=`<path d="${path}" fill="none" stroke="${stroke}" stroke-width="${sw}" opacity="${op}"/>`;
+    html+=`<text x="${x(59)+6}" y="${y(h.series[59])+3}" fill="${isHi?stroke:'#555'}" font-family="IBM Plex Mono" font-size="9" font-weight="${isHi?600:400}">${h.t}</text>`;
+  });
+  svg.innerHTML=html;
+}
+
+function renderCarteiras(){
+  document.getElementById('cart-list').innerHTML=CARTEIRAS.map(c=>`
+    <div class="cart-row ${c.active?'active':''}">
+      <div class="cart-n">${c.name}</div>
+      <div class="cart-meta">${c.src}</div>
+    </div>
+  `).join('');
+}
+
+function renderTable(){
+  const tbody=document.querySelector('#holdings tbody');
+  tbody.innerHTML=HOLDINGS.map(h=>{
+    const ret=h.e5-100;
+    const vsIbov=ret-(IBOV_END-100);
+    return `<tr>
+      <td>${h.t}</td>
+      <td class="dim">${h.w.toFixed(1).replace('.',',')}%</td>
+      <td class="dim">R$ ${h.p.toFixed(2).replace('.',',')}</td>
+      <td class="${ret>=0?'pos':'neg'}">${ret>=0?'+':''}${ret.toFixed(0)}%</td>
+      <td class="${vsIbov>=0?'pos':'neg'}">${vsIbov>=0?'+':''}${vsIbov.toFixed(0)} pp</td>
+    </tr>`;
+  }).join('');
+}
+
+renderCarteiras();
+renderChart();
+renderTable();
+</script>
+
+<!--
+ANTI-SLOP CHECK:
+1. Light theme — não é dark "modern dashboard" defaultismo. Paper warm #fafaf7 evoca papel de relatório.
+2. 3 typefaces apenas, com role explícito:
+   - Bodoni Moda italic = display (page title "Carteiras", italic numbers no chart)
+   - Helvetica Neue = UI (labels, nav, table headers)
+   - Plex Mono = data (preços, percentagens, números do chart)
+3. 1 accent vermelho Vignelli (#cc2936) — extensão JUSTIFICADA pela referência específica e usada com disciplina (active nav, dot, 1 ticker highlight).
+4. Grid 12-col visível como linha vertical subtil entre sidebar e main.
+5. Voz portuguesa formal e completa: "Recomendadas pelos analistas", "Atualizada em", "Composição da carteira", "Cotação", "Ativo". Sem misturas.
+6. Page title "Carteiras" em Bodoni italic 56px é signature Vignelli — não é "hero number" SaaS.
+7. Datas no formato pt-BR (02·04·2026) com bullet separator (typographic detail, não arbitrário).
+8. Identidade: este layout é claramente Vignelli/Unimark — Bloomberg em paper-warm, com hierarquia tipográfica de relatório financeiro 1970s.
+-->
+
+</body>
+</html>

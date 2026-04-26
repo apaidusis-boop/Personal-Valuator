@@ -39,7 +39,7 @@ Todos os **sábados às 03:00** (ninguém usa):
 ## Integra com
 - Aristóteles Backtest lê `predictions` — Noé não toca em predictions por design (histórico precisa persistir para learning loop)
 - Regina Ordem audita Noé (reports_to hierarchy)
-
+/
 ## Instância técnica
 
 - Class: `agents.data_janitor:DataJanitorAgent`

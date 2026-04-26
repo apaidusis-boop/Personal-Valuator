@@ -48,6 +48,9 @@ PG negoceia a P/E 21.92 com DY 2.87% e ROE 31.12%, IC HOLD com alta confiança (
 
 → Vault: [[PG]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

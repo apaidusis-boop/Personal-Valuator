@@ -102,7 +102,15 @@ class TelegramControllerAgent(BaseAgent):
                 continue
 
             if not text.startswith("/"):
-                self._reply(token, chat_id, "Usa comandos /help para ver opções.")
+                # Natural-language dispatch (Ollama 14B local, 0 tokens Claude)
+                try:
+                    from ._nl_dispatch import handle as nl_handle
+                    reply = nl_handle(text)
+                except Exception as e:
+                    reply = f"❌ NL dispatcher falhou: {type(e).__name__}: {e}"
+                self._reply(token, chat_id, reply[:4000])
+                actions.append(f"nl({text[:30]})")
+                processed += 1
                 continue
 
             # Parse command

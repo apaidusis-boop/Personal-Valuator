@@ -22,7 +22,6 @@ import sqlite3
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))

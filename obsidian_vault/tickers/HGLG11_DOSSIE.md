@@ -65,6 +65,9 @@ HGLG11 (CSHG Logística, segmento Logística) negoceia a BRL 158.01 com DY 8.35%
 | Data coverage | 50 |
 | Paper track | 90 |
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

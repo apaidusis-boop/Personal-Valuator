@@ -47,6 +47,9 @@ NU cota P/E 25.02, P/B 6.24, sem dividendo, ROE 30.28% — neobank LATAM em fase
 
 → Vault: [[NU]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

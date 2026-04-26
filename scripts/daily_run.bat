@@ -84,6 +84,21 @@ echo [CLIPPINGS-INGEST] library.clippings_ingest --rag-build  ^(novos clippings 
 echo CLIPPINGS-INGEST exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [GLOSSARY] build_glossary.py  ^(idempotent — re-build entries + index^) >> "%LOG%"
+"%PY%" scripts\build_glossary.py --backlinks --quiet >> "%LOG%" 2>&1
+echo GLOSSARY exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [TUTOR] dossier_tutor.py  ^(re-inject tutor sections idempotently^) >> "%LOG%"
+"%PY%" scripts\dossier_tutor.py --quiet >> "%LOG%" 2>&1
+echo TUTOR exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [KNOWLEDGE-CARDS] build_knowledge_cards.py  ^(skip-existing, only new^) >> "%LOG%"
+"%PY%" scripts\build_knowledge_cards.py --quiet >> "%LOG%" 2>&1
+echo KNOWLEDGE-CARDS exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [RESEARCH-DIGEST] research_digest.py  ^(Bibliotheca daily report^) >> "%LOG%"
 "%PY%" scripts\research_digest.py --quiet >> "%LOG%" 2>&1
 echo RESEARCH-DIGEST exit code: %errorlevel% >> "%LOG%"

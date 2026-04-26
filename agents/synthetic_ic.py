@@ -153,15 +153,14 @@ def _thesis_health(market: str, ticker: str) -> dict | None:
 
 
 def _vault_thesis(ticker: str) -> str | None:
-    p = TICKERS_DIR / f"{ticker}.md"
-    if not p.exists():
-        return None
-    content = p.read_text(encoding="utf-8", errors="ignore")
-    if "## Thesis" in content:
-        after = content.split("## Thesis", 1)[1]
-        end = after.find("\n## ")
-        return (after[:end].strip() if end > 0 else after.strip())[:1500]
-    return None
+    """Thin wrapper around the canonical reader (Phase Cleanup 2026-04-27).
+
+    Note: this now also reads from <TICKER>_DOSSIE.md (numbered '## N. Thesis')
+    in addition to legacy '## Thesis' wiki notes. Behaviour bonus from
+    centralisation — was previously missing dossier-resident theses (Phase G+).
+    """
+    from agents._common import read_vault_thesis
+    return read_vault_thesis(ticker, max_chars=1500)
 
 
 def _tavily_recent_news(ticker: str, market: str, max_hits: int = 4) -> list[dict]:

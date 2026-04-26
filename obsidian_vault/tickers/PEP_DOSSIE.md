@@ -50,6 +50,9 @@ PepsiCo transaciona a P/E 24.40 com DY 3.66% e Dividend King de 55y — DY clara
 
 → Vault: [[PEP]]
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

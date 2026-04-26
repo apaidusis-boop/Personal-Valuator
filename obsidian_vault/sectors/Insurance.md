@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Insurance
-count: 2
+count: 3
 tags: [sector]
 ---
 
 # 🏢 Insurance
 
-Total tickers: **2**
+Total tickers: **3**
 ## Tabela live (Dataview)
 
 ```dataview
@@ -21,3 +21,4 @@ SORT is_holding DESC, pnl_pct ASC
 
 - [[BBSE3]] _(br)_
 - [[PSSA3]] _(br)_
+- [[WIZC3]] _(br)_

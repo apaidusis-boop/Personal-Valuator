@@ -3,53 +3,54 @@ tags: [allocation, portfolio]
 ---
 # 📊 Alocação
 
-_Total: **R$ 465,208.46** |  PTAX: 4.9539_
+_Total: **R$ 472,996.50** |  PTAX: 5.0083_
 
 ## Por mercado
 
 | Mercado | Holdings | MV (BRL) | % |
 |---|---:|---:|---:|
-| 🇧🇷 BR | 11 | R$ 354,382 | 76.2% |
-| 🇺🇸 US | 21 | R$ 110,826 | 23.8% |
+| 🇧🇷 BR | 12 | R$ 360,791 | 76.3% |
+| 🇺🇸 US | 21 | R$ 112,206 | 23.7% |
 
 ## Por sector
 
 | Sector | Holdings | MV (BRL) | % |
 |---|---:|---:|---:|
-| [[sectors/ETF-RF|ETF-RF]] | 1 | R$ 123,951 | 26.6% |
-| [[sectors/Mining|Mining]] | 1 | R$ 42,985 | 9.2% |
-| [[sectors/Holding|Holding]] | 2 | R$ 37,342 | 8.0% |
-| [[sectors/Banks|Banks]] | 1 | R$ 36,505 | 7.8% |
-| [[sectors/Oil_&_Gas|Oil & Gas]] | 1 | R$ 31,548 | 6.8% |
-| [[sectors/Financials|Financials]] | 6 | R$ 30,335 | 6.5% |
-| [[sectors/Technology|Technology]] | 4 | R$ 21,336 | 4.6% |
-| [[sectors/Healthcare|Healthcare]] | 2 | R$ 18,871 | 4.1% |
-| [[sectors/Shopping|Shopping]] | 1 | R$ 16,208 | 3.5% |
-| [[sectors/Híbrido|Híbrido]] | 1 | R$ 16,106 | 3.5% |
-| [[sectors/Papel_(CRI)|Papel (CRI)]] | 1 | R$ 16,052 | 3.5% |
-| [[sectors/Logística|Logística]] | 1 | R$ 15,931 | 3.4% |
-| [[sectors/Corporativo|Corporativo]] | 1 | R$ 15,708 | 3.4% |
-| [[sectors/Consumer_Staples|Consumer Staples]] | 2 | R$ 11,374 | 2.4% |
-| [[sectors/REIT|REIT]] | 2 | R$ 10,922 | 2.3% |
-| [[sectors/Consumer_Disc.|Consumer Disc.]] | 2 | R$ 7,231 | 1.6% |
-| [[sectors/Energy|Energy]] | 1 | R$ 6,688 | 1.4% |
-| [[sectors/ETF-US|ETF-US]] | 1 | R$ 4,384 | 0.9% |
-| [[sectors/ETF|ETF]] | 1 | R$ 1,731 | 0.4% |
+| [[sectors/ETF-RF|ETF-RF]] | 1 | R$ 105,467 | 22.3% |
+| [[sectors/Mining|Mining]] | 1 | R$ 42,935 | 9.1% |
+| [[sectors/Holding|Holding]] | 2 | R$ 37,502 | 7.9% |
+| [[sectors/Banks|Banks]] | 1 | R$ 36,414 | 7.7% |
+| [[sectors/Oil_&_Gas|Oil & Gas]] | 1 | R$ 31,503 | 6.7% |
+| [[sectors/Financials|Financials]] | 6 | R$ 30,433 | 6.4% |
+| [[sectors/Technology|Technology]] | 4 | R$ 22,050 | 4.7% |
+| [[sectors/Healthcare|Healthcare]] | 2 | R$ 18,824 | 4.0% |
+| [[sectors/Materials|Materials]] | 1 | R$ 17,940 | 3.8% |
+| [[sectors/Shopping|Shopping]] | 1 | R$ 17,649 | 3.7% |
+| [[sectors/Híbrido|Híbrido]] | 1 | R$ 17,640 | 3.7% |
+| [[sectors/Papel_(CRI)|Papel (CRI)]] | 1 | R$ 17,387 | 3.7% |
+| [[sectors/Corporativo|Corporativo]] | 1 | R$ 17,143 | 3.6% |
+| [[sectors/Logística|Logística]] | 1 | R$ 17,128 | 3.6% |
+| [[sectors/Consumer_Staples|Consumer Staples]] | 2 | R$ 11,632 | 2.5% |
+| [[sectors/REIT|REIT]] | 2 | R$ 10,939 | 2.3% |
+| [[sectors/Consumer_Disc.|Consumer Disc.]] | 2 | R$ 7,336 | 1.6% |
+| [[sectors/Energy|Energy]] | 1 | R$ 6,884 | 1.5% |
+| [[sectors/ETF-US|ETF-US]] | 1 | R$ 4,433 | 0.9% |
+| [[sectors/ETF|ETF]] | 1 | R$ 1,758 | 0.4% |
 
 ## Top 10 concentrações
 
 | # | Ticker | MV (BRL) | % | Cumulative % |
 |---:|---|---:|---:|---:|
-| 1 | [[LFTB11]] | R$ 123,951 | 26.6% | 26.6% |
-| 2 | [[VALE3]] | R$ 42,985 | 9.2% | 35.9% |
-| 3 | [[BBDC4]] | R$ 36,505 | 7.8% | 43.7% |
-| 4 | [[ITSA4]] | R$ 35,004 | 7.5% | 51.3% |
-| 5 | [[PRIO3]] | R$ 31,548 | 6.8% | 58.0% |
-| 6 | [[XPML11]] | R$ 16,208 | 3.5% | 61.5% |
-| 7 | [[RBRX11]] | R$ 16,106 | 3.5% | 65.0% |
-| 8 | [[VGIR11]] | R$ 16,052 | 3.5% | 68.4% |
-| 9 | [[BTLG11]] | R$ 15,931 | 3.4% | 71.9% |
-| 10 | [[PVBI11]] | R$ 15,708 | 3.4% | 75.2% |
+| 1 | [[LFTB11]] | R$ 105,467 | 22.3% | 22.3% |
+| 2 | [[VALE3]] | R$ 42,935 | 9.1% | 31.4% |
+| 3 | [[BBDC4]] | R$ 36,414 | 7.7% | 39.1% |
+| 4 | [[ITSA4]] | R$ 35,152 | 7.4% | 46.5% |
+| 5 | [[PRIO3]] | R$ 31,503 | 6.7% | 53.2% |
+| 6 | [[KLBN11]] | R$ 17,940 | 3.8% | 57.0% |
+| 7 | [[XPML11]] | R$ 17,649 | 3.7% | 60.7% |
+| 8 | [[RBRX11]] | R$ 17,640 | 3.7% | 64.4% |
+| 9 | [[VGIR11]] | R$ 17,387 | 3.7% | 68.1% |
+| 10 | [[PVBI11]] | R$ 17,143 | 3.6% | 71.7% |
 
 ## Por quality bucket (Dataview)
 

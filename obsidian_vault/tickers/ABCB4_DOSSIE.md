@@ -140,6 +140,9 @@ ABCB4 passa **5/5 critérios** do screen BR Banks (P/E 4.73, P/B 0.90, DY 10.30%
 | Paper track | 30 |
 
 
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

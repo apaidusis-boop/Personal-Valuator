@@ -15,7 +15,6 @@ from __future__ import annotations
 import re
 import subprocess
 import sys
-from datetime import datetime, timedelta, timezone
 
 from ._base import AgentContext, AgentResult, BaseAgent
 from ._personas import format_signature
