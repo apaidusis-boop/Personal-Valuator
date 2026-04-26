@@ -1,6 +1,8 @@
-# 📋 HAND-OFF — Nova conversa Phase Z (UI Friendly Layer)
+# 📋 HAND-OFF — Phase Z (UI Friendly Layer) — ✅ SHIPPED
 
-> **Como usar**: copia tudo abaixo a partir da linha "BEGIN PROMPT" e cola numa conversa Claude Code nova (`cd C:\Users\paidu\investment-intelligence` antes). É self-contained.
+> **STATUS (2026-04-26)**: Phase Z completa. Z.0-Z.7 (9 dashboard pages), Z.8 Helena Linha s1-s4 (Design System + components), e Phase CC (Captain's Log unified Home) shipped. Ver `obsidian_vault/CONSTITUTION.md` para changelog completo.
+>
+> Este documento ficou mantido como referência histórica do prompt original. NÃO usar para abrir nova conversa — usar a Constitution + recent memory entries.
 
 ---
 
