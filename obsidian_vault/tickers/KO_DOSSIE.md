@@ -20,14 +20,14 @@ tags: [research, dossie, us, consumer staples]
 
 ## TL;DR
 
-<!-- TODO_CLAUDE_TLDR: 3 frases sobre KO a partir das tabelas abaixo. Citar PE, DY, IC verdict, e o achado mais importante. -->
+KO negoceia a P/E 25.21 com DY 2.69% e ROE 43.32%, IC HOLD com confiança média (60% consenso). Achado-chave: **Dividend King com 65 anos consecutivos** e brand power inquestionável (Buffett-favourite). P/E ligeiramente acima do screen US (≤20), mas a defensividade e moat justificam o premium; manter DRIP e adicionar em dips.
 
 ## 1. Fundamentals snapshot
 
 - **Período**: 2026-04-25
 - **EPS**: 3.04  |  **BVPS**: 7.48
 - **ROE**: 43.32%  |  **P/E**: 25.21  |  **P/B**: 10.25
-- **DY**: 2.69%  |  **Streak div**: 65y  |  **Market cap**: R$ 329.83B
+- **DY**: 2.69%  |  **Streak div**: 65y  |  **Market cap**: USD 329.83B
 - **Last price**: USD 76.63 (2026-04-26)  |  **YoY**: +6.6%
 
 ## 2. Synthetic IC
@@ -49,17 +49,24 @@ tags: [research, dossie, us, consumer staples]
 
 ## 4. Riscos identificados
 
-<!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->
+- 🟡 **Volume decline + GLP-1 staples impact** — sugary beverages têm exposição directa à demand reduction GLP-1. Trigger: unit case volume YoY < 0 por 2 quarters.
+- 🟡 **Pricing power vs private label** — Coca-Cola ainda forte, mas em recessão trade-down acelera. Trigger: organic sales growth < 4%.
+- 🟡 **FX EM headwind** — receita ~60% ex-US, real/peso/lira voláteis. Trigger: FX impact > -300 bps em earnings.
+- 🟢 **Health/sugar regulation** — sugar taxes + bans em mercados emergentes; slow-burn risk.
 
 ## 5. Position sizing
 
 **Status atual**: holding (in portfolio)
 
-<!-- TODO_CLAUDE_SIZING: guidance breve para entrada/aumento/redução. Considerar BR/US isolation, market cap, weight prudente, DRIP/cash deploy. -->
+**Manter DRIP ligado** — Dividend King clássico, sleeve defensivo US. Adicionar em dips -10% para acelerar reinvestimento. USD em conta US.
 
 ## 6. Tracking triggers (auto-monitoring)
 
-<!-- TODO_CLAUDE_TRIGGERS: 3-5 condições mensuráveis em SQL/data que indicariam re-avaliação. Ex: 'NPL > 4%', 'DY < 5.5%', 'thesis_health score < 60'. Citar tabela/coluna a monitorar. -->
+- **ROE quebra screen** — `fundamentals.roe < 0.30` por 2 trimestres → moat erosion sinal.
+- **PE overstretch** — `fundamentals.pe > 28` → premium difícil de sustentar.
+- **DY break aristocrat streak** — qualquer corte rompe streak 65y → tese DRIP comprometida.
+- **Volume decline** — unit case volume YoY < 0 por 2 quarters → GLP-1/health risk a materialize.
+- **Conviction drop** — `conviction_scores.composite_score < 60` → trim.
 
 ## 7. Compute trail
 

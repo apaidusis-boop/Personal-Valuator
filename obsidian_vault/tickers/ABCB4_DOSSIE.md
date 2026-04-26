@@ -20,7 +20,7 @@ tags: [research, dossie, br, banks]
 
 ## TL;DR
 
-<!-- TODO_CLAUDE_TLDR: 3 frases sobre ABCB4 a partir das tabelas abaixo. Citar PE, DY, IC verdict, e o achado mais importante. -->
+ABCB4 passa **5/5 critérios** do screen BR Banks (P/E 4.73, P/B 0.90, DY 10.30%, ROE 15.46%, streak 16y) — único no peer set ABCB4/BBDC4/ITUB4 a passar tudo. IC **BUY high (80% consensus)** alinha com a leitura quantitativa, ainda que composite conviction (61) seja moderado por paper track fraco (30). Achado-chave: BACEN NPL caiu de 4.69% (1T24) para 2.55% (4T24) — recuperação rápida do ciclo de crédito small-cap, com Basel a recuperar para 17%+ em 2025.
 
 ## 1. Fundamentals snapshot
 
@@ -101,7 +101,10 @@ tags: [research, dossie, br, banks]
 | 2025-06-30 | 17.30% | 11.80% | pending |
 | 2025-09-30 | 16.71% | 11.88% | pending |
 
-<!-- TODO_CLAUDE_BACEN_INSIGHT: 3-4 bullets sobre tendência Basel/NPL + comparação peer. Identificar peak ciclo + recovery. -->
+- **Basel cycle**: 4T23 trough (14.94%) → recovery a 17.30% no 2T25 (+236bps). Reconstrução de capital pós-pico de provisões 2023-24.
+- **NPL E-H ciclo**: peak 4.69% no 1T24 com origem na carteira corporate small-cap pós-Selic alta. Recovery materializada — caiu para 2.55% no 4T24 (-214bps em 9 meses), abaixo do nível pré-pandémico (~2.5%).
+- **CET1**: estável em 11.6-11.9% durante todo o ciclo — buffer modesto vs ITUB4 (13.47%) mas suficiente vs mínimo regulatório (~8.5%). Não distribui em excesso.
+- **Peer position**: melhor recovery NPL do trio (BBDC4 ainda em recovery; ITUB4 sem dados NPL recentes). ABCB4 small-cap = mais sensível ao ciclo, mas também mais rápido a virar.
 
 ## 5. Synthetic IC
 
@@ -138,17 +141,25 @@ tags: [research, dossie, br, banks]
 
 ## 8. Riscos identificados
 
-<!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->
+- 🟡 **Concentração corporate small-cap** — carteira de crédito mais cíclica que big banks; NPL spike 2023-24 mostrou a sensibilidade. Trigger: `bank_quarterly_history.npl_ratio > 4%` por 2 trimestres.
+- 🟡 **Liquidez baixa (market cap R$ 6.5B)** — 75x menor que ITUB4; spread bid-ask alargado, exposição a bloqueio em sell-off. Trigger: ADTV diário < R$30M sustentado.
+- 🟡 **Selic cut speed** — banco beneficia de spread alto mas pressão por NIM compression num corte agressivo. Trigger: macro Selic < 10% AND `fundamentals.roe < 13%` no trimestre seguinte.
+- 🟢 **CET1 modesto (11.88%)** — buffer < ITUB4 (13.47%). Sem urgência regulatória mas limita payout extraordinário. Trigger: `cet1_ratio < 11%` por 2 trimestres.
+- 🟢 **Paper track fraco (30 conviction)** — método matcher ainda sem suficiente histórico. Trigger: `conviction_scores.paper_track > 60` para confirmação.
 
 ## 9. Position sizing
 
 **Status atual**: watchlist
 
-<!-- TODO_CLAUDE_SIZING: guidance breve para entrada/aumento/redução. Considerar BR/US isolation, market cap, weight prudente, DRIP/cash deploy. -->
+**Watchlist** — entrada compatível com Buffett/Graham screen (5/5 passa) mas market cap de R$ 6.5B exige sizing conservador (3-5% da sleeve BR máximo). Cash em BRL fica em BR (não converter). DRIP-friendly (DY 10.30% + 16y streak). Considerar entry inicial 2% se conviction subir acima de 70 (paper track precisa amadurecer); reforço se Selic < 12% sem deterioração de NPL.
 
 ## 10. Tracking triggers (auto-monitoring)
 
-<!-- TODO_CLAUDE_TRIGGERS: 3-5 condições mensuráveis em SQL/data que indicariam re-avaliação. Ex: 'NPL > 4%', 'DY < 5.5%', 'thesis_health score < 60'. Citar tabela/coluna a monitorar. -->
+- **NPL re-spike** — `bank_quarterly_history.npl_ratio > 4%` por 2 trimestres consecutivos (sinal de novo ciclo de provisões).
+- **DY breach floor** — `fundamentals.dy < 0.07` (perda do critério screen + tese DRIP).
+- **ROE compression** — `fundamentals.roe < 0.12` (perda do critério bank screen).
+- **Basel deterioration** — `bank_quarterly_history.basel_ratio < 14%` (cushion regulatório a estreitar).
+- **Conviction drop** — `conviction_scores.composite_score < 55` (re-avaliar tese).
 
 ## 11. Compute trail
 
