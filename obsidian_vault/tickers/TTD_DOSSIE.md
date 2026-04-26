@@ -34,6 +34,19 @@ TTD negoceia P/E 26.63, sem dividendo, ROE 16.32% — DSP independente líder em
 
 _(IC ainda não gerado para TTD. Execute `python -m agents.synthetic_ic TTD` para popular antes do dossier ser refinado.)_
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 26.63** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 26.63** esticado vs critério.
+- **P/B = 4.59** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **4.59** esticado.
+- **ROE = 16.32%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **16.32%** compounder-grade.
+- **Graham Number ≈ R$ 10.28** vs preço **R$ 23.97** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 3. Riscos identificados
 
 - 🔴 **Connected TV growth deceleração** — vector central da tese; ramp da CTV abaixo do esperado pesou no -55% YoY. Trigger: CTV revenue YoY < 25% ou guidance cut adicional em earnings call.

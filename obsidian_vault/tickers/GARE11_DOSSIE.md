@@ -65,6 +65,13 @@ GARE11 (Guardian Logística, segmento Híbrido) negoceia a BRL 8.38 com DY 10.89
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 10.89%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **10.89%** OK.
+- **Streak div = 3y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
 ## 5. Riscos identificados
 
 - 🟡 **Streak curto (3y)** — sem track record de stress (2020 covid, 2022 ciclo Selic). Trigger: comparar resiliência distribuição vs HGLG11 em proximo episódio macro.

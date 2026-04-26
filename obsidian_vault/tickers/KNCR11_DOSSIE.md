@@ -62,6 +62,16 @@ KNCR11 (Kinea Rendimentos) é fundo papel CDI+ com DY 13,70%, P/E 8,86 e P/B 1,0
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 8.86** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 8.86** passa.
+- **P/B = 1.06** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.06** — verificar consistência com ROE.
+- **DY = 13.70%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **13.70%** OK.
+- **ROE = 15.48%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **15.48%** compounder-grade.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Reversão Selic (CDI+)** — fundo majoritariamente CDI+; corte agressivo da Selic comprime DY. Trigger: `SELIC_META` cair > 200bps em 6m.

@@ -57,6 +57,20 @@ PRIO3 negocia a P/E 22.61 e P/B 1.97 com ROE de apenas 8.71% — múltiplos esti
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 22.61** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 22.61** fora do screen.
+- **P/B = 1.97** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.97** — verificar consistência com ROE.
+- **ROE = 8.71%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.71%** abaixo do critério.
+- **Graham Number ≈ R$ 44.54** vs preço **R$ 62.63** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 1y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Ciclo de petróleo (commodity)** — receita e EBITDA dependem do Brent; cycle peak risk após +79.6% YoY. Trigger: `prices` Brent < 70 USD/barril sustentado 30d.

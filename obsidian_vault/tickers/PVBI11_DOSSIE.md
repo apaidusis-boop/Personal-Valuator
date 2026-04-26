@@ -58,6 +58,13 @@ PVBI11 é FII Corporativo (VBI Prime, lajes Faria Lima/SP) com **DY 5.95%** abai
 | Data coverage | 83 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 5.95%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **5.95%** baixo para FII; verificar reset/cycle.
+- **Streak div = 7y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **Vacância prédio FL (Faria Lima) prolongada** — eixo da tese turnaround; se re-absorção falhar, distribuição estagna. Trigger: relatório gerencial reportando vacância prédio FL > 30% por 3 trimestres consecutivos.

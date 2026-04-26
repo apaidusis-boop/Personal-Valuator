@@ -57,6 +57,20 @@ BTLG11 é FII Logística (BTG) com **DY 9.19%**, P/B 1.00 (cota = NAV), streak 5
 | Data coverage | 100 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 95.27** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 95.27** fora do screen.
+- **P/B = 1.00** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.00** — verificar consistência com ROE.
+- **DY = 9.19%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **9.19%** OK.
+- **ROE = 8.62%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.62%** abaixo do critério.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
 ## 5. Riscos identificados
 
 - 🔴 **IC AVOID com consensus 22** — sinal forte de re-pricing pelos personas; thesis health 100 contradiz mas IC é o vector mais sensível a deterioração. Trigger: `ic_consensus_pct ≤ 22 por 2 runs consecutivos`.

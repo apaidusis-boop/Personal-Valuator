@@ -59,6 +59,13 @@ VISC11 (Vinci Shopping Centers, segmento Shopping) negoceia a BRL 110.37 com DY 
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 8.22%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **8.22%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Vacância de shopping** — subida pressiona NOI e distribuição. Trigger: relatório trimestral vacancy > 7%.

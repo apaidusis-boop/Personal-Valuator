@@ -64,6 +64,21 @@ PETR4 negocia a P/E 6.16 e DY 6.76% com ROE excepcional de 28.18% e dívida líq
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 6.16** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 6.16** passa.
+- **P/B = 1.46** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.46** — verificar consistência com ROE.
+- **DY = 6.76%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **6.76%** passa.
+- **ROE = 28.18%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **28.18%** compounder-grade.
+- **Graham Number ≈ R$ 74.52** vs preço **R$ 47.16** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 9y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Governança política** — interferência em pricing combustíveis ou redirecionamento de capex social compromete margens e payout. Trigger: anúncio de mudança em política de paridade de preços ou troca de CEO por indicação política.

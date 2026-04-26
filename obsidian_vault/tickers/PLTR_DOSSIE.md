@@ -47,6 +47,19 @@ PLTR negoceia P/E 227.13 e P/B 46.32, sem dividendo, ROE 25.98% — pure-growth 
 
 → Vault: [[PLTR]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 227.13** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 227.13** esticado vs critério.
+- **P/B = 46.32** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **46.32** esticado.
+- **ROE = 25.98%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **25.98%** compounder-grade.
+- **Graham Number ≈ R$ 6.62** vs preço **R$ 143.09** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Valuation stretch (P/E 227, P/B 46)** — qualquer miss de revenue ou guidance desencadeia re-rating violento. Trigger: `fundamentals.pe > 250` ou earnings revenue miss > 5%.

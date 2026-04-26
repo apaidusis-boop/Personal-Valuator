@@ -62,6 +62,21 @@ TTEN3 negocia P/E 9.52 e P/B 1.63 com ROE 18.49% e streak 5y, mas DY 1.19% fica 
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 9.52** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 9.52** passa.
+- **P/B = 1.63** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.63** — verificar consistência com ROE.
+- **DY = 1.19%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **1.19%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 18.49%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **18.49%** compounder-grade.
+- **Graham Number ≈ R$ 18.45** vs preço **R$ 15.32** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Preço de grãos (soja/milho)** — modelo agro depende de margens insumos×grãos; queda de preço comprime ambos os lados. Trigger: soja CME YoY <-15% sustentado.

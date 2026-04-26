@@ -61,6 +61,21 @@ SUZB3 negocia P/E baixíssimo de 4.22 e P/B 1.29 com ROE robusto de 35.19%, mas 
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 4.22** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 4.22** passa.
+- **P/B = 1.29** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.29** — verificar consistência com ROE.
+- **DY = 2.45%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **2.45%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 35.19%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **35.19%** compounder-grade.
+- **Graham Number ≈ R$ 92.90** vs preço **R$ 45.64** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 4y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Preço BHKP / ciclo celulose** — receita altamente sensível a preço FOB China; queda de 20% destrói lucro. Trigger: BHKP spot China YoY <-15% (vault commodity note ou release).

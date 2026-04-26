@@ -63,6 +63,21 @@ CPLE3 negocia a P/E 18.43 e DY 4.97% com ROE moderado de 10.96%; preço subiu +5
 | Data coverage | 50 |
 | Paper track | 70 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 18.43** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 18.43** passa.
+- **P/B = 2.13** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **2.13** — verificar consistência com ROE.
+- **DY = 4.97%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **4.97%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 10.96%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **10.96%** abaixo do critério.
+- **Graham Number ≈ R$ 12.56** vs preço **R$ 16.59** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 1y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Dividend streak imaturo** — apenas 1 ano pós-privatização; tese DRIP não qualificada (mínimo 5y). Trigger: `fundamentals.dividend_streak_years` < 3 mantém-se como veto.

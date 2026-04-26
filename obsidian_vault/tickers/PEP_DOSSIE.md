@@ -50,6 +50,21 @@ PepsiCo transaciona a P/E 24.40 com DY 3.66% e Dividend King de 55y — DY clara
 
 → Vault: [[PEP]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 24.40** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 24.40** esticado vs critério.
+- **P/B = 9.94** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **9.94** esticado.
+- **DY = 3.66%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **3.66%** OK.
+- **ROE = 43.88%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **43.88%** compounder-grade.
+- **Graham Number ≈ R$ 47.33** vs preço **R$ 155.44** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 55y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Volume decline persistente** — Frito-Lay e Beverages com volumes negativos enquanto pricing sustenta receita. Trigger: volume growth YoY negativo por 3 quarters em earnings transcripts (yt_digest).

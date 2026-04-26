@@ -59,6 +59,21 @@ EQTL3 negocia a P/E esticado de 45.95 com DY apenas 5.18% e ROE fraco de 6.98%, 
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 45.95** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 45.95** fora do screen.
+- **P/B = 2.16** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **2.16** — verificar consistência com ROE.
+- **DY = 5.18%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **5.18%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 6.98%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **6.98%** abaixo do critério.
+- **Graham Number ≈ R$ 21.03** vs preço **R$ 44.11** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 18y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **P/E premium injustificado** — 45.95 contra ROE 6.98% sinaliza overvaluation severa. Trigger: `fundamentals.pe` > 30 mantém-se enquanto `roe` < 10%.

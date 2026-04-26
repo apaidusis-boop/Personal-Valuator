@@ -62,6 +62,13 @@ XPLG11 (XP Log) é FII tijolo logístico com DY 9,73% e P/E 19,98 — múltiplo 
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 9.73%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **9.73%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Vacância spec / oversupply SP-Cajamar** — XP Log tem mais exposição a galpões spec que BRCO. Trigger: vacância física > 7% nos relatórios trimestrais.

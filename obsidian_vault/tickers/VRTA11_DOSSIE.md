@@ -59,6 +59,16 @@ VRTA11 (Fator Verita) é fundo papel CRI com DY 12,91%, P/E 11,73 e P/B 0,87 —
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 11.73** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 11.73** passa.
+- **P/B = 0.87** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **0.87** — verificar consistência com ROE.
+- **DY = 12.91%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **12.91%** OK.
+- **ROE = 8.19%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.19%** abaixo do critério.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **Underperformance YoY -4,6%** — único FII negativo da watchlist; provável NAV drag por marcação CRI ou PDD recente. Trigger: `fundamentals.bvps` cair > 5% YoY.

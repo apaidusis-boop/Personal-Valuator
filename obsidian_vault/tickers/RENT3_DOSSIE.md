@@ -64,6 +64,21 @@ RENT3 negocia P/E elevado de 28.01 e P/B 2.11 com ROE apenas 7.21% (abaixo dos 1
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 28.01** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 28.01** fora do screen.
+- **P/B = 2.11** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **2.11** — verificar consistência com ROE.
+- **DY = 4.18%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **4.18%** abaixo do floor — DRIP não-óbvio.
+- **ROE = 7.21%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **7.21%** abaixo do critério.
+- **Graham Number ≈ R$ 30.39** vs preço **R$ 49.29** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 20y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **ROE comprimido pelo ciclo** — 7.21% vs floor 15%; carry de frota com Selic alta e CAPEX renovação destroem retorno. Trigger: `fundamentals.roe < 6%` em release seguinte → erosão estrutural.

@@ -62,6 +62,16 @@ KNRI11 (Kinea Renda Imobiliária) é FII híbrido (lajes + logística) com DY 7,
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 11.34** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 11.34** passa.
+- **P/B = 1.04** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.04** — verificar consistência com ROE.
+- **DY = 7.38%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **7.38%** baixo para FII; verificar reset/cycle.
+- **ROE = 7.61%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **7.61%** abaixo do critério.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🟡 **DY baixo 7,38% vs Selic ~11%** — yield real negativo se desconsiderar valorização. Trigger: `SELIC_META > 11%` 6m + DY flat.

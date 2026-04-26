@@ -132,6 +132,18 @@ ITUB4 negocia a P/E 11.06 (acima do limite 10) e P/B 2.39 (acima do limite 1.5),
 | Data coverage | 50 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 11.06** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 11.06** NÃO passa.
+- **P/B = 2.39** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **2.39** caro vs equity (mas verificar ROE).
+- **DY = 7.68%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **7.68%** passa.
+- **ROE = 21.01%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **21.01%** OK.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+- **Basel = 16.40%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **premium** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
+- **CET1 = 13.47%** → [[Glossary/CET1|capital high-quality]]. Tier **premium** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
+
 ## 8. Riscos identificados
 
 - 🔴 **P/B premium vs peers** — 2.39 contra BBDC4 1.18 e ABCB4 0.90; pouco margem de segurança. Trigger: `fundamentals.pb` > 2.5 sem expansão proporcional de ROE.

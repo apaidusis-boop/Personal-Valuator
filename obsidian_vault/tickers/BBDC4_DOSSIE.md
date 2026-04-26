@@ -133,6 +133,22 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 | Data coverage | 100 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 9.35** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 9.35** passa.
+- **P/B = 1.18** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **1.18** OK.
+- **DY = 7.56%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **7.56%** passa.
+- **ROE = 13.75%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **13.75%** OK.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+- **Basel = 15.85%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **saudável** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
+- **CET1 = 11.39%** → [[Glossary/CET1|capital high-quality]]. Tier **saudável** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
 ## 8. Riscos identificados
 
 - 🔴 **Reversão do credit cycle** — NPL caiu rapidamente; choque macro (recessão/Selic prolongada) pode reverter. Trigger: `bank_quarterly_history.npl_eh > 8%` em 2 quarters consecutivos.

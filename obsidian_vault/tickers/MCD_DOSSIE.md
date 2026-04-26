@@ -51,6 +51,17 @@ McDonald's transaciona a P/E 25.07 com DY 2.43% e streak de 51y (Dividend King) 
 
 → Vault: [[MCD]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 2.43%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.43%** fraco; verificar se é growth pick.
+- **Streak div = 51y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Same-store sales fraqueza** — comp negativos em US e China em ciclos recentes. Trigger: events com kind='earnings' AND summary LIKE '%comp%negative%' por 2 quarters.

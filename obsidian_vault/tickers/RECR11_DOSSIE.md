@@ -59,6 +59,13 @@ RECR11 (REC Recebíveis Imob., segmento Papel/CRI) negoceia a BRL 82.76 com DY 1
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 11.12%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **11.12%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **Default rate CRIs** — papel é cesta de CRIs; default mata principal. Trigger: relatório gerencial mostra inadimplência > 3%.

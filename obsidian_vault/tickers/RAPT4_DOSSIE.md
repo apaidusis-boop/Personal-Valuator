@@ -61,6 +61,17 @@ RAPT4 está em prejuízo (EPS -0.72, ROE -1.30%, P/E n/a) com DY 0.88% e P/B 0.5
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 0.88%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **0.88%** abaixo do floor — DRIP não-óbvio.
+- **Streak div = 9y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Prejuízo operacional actual** — ROE -1.30% e EPS -0.72; risco de continuar a queimar equity. Trigger: `fundamentals.roe < 0` em mais 1 trimestre → distress confirmado.

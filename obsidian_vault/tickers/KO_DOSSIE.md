@@ -47,6 +47,22 @@ KO negoceia a P/E 25.21 com DY 2.69% e ROE 43.32%, IC HOLD com confiança média
 
 → Vault: [[KO]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 25.21** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 25.21** esticado vs critério.
+- **P/B = 10.25** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **10.25** esticado.
+- **DY = 2.69%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.69%** OK.
+- **ROE = 43.32%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **43.32%** compounder-grade.
+- **Graham Number ≈ R$ 22.62** vs preço **R$ 76.63** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 65y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Volume decline + GLP-1 staples impact** — sugary beverages têm exposição directa à demand reduction GLP-1. Trigger: unit case volume YoY < 0 por 2 quarters.

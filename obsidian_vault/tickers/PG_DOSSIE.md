@@ -48,6 +48,22 @@ PG negoceia a P/E 21.92 com DY 2.87% e ROE 31.12%, IC HOLD com alta confiança (
 
 → Vault: [[PG]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 21.92** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 21.92** esticado vs critério.
+- **P/B = 6.59** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **6.59** esticado.
+- **DY = 2.87%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.87%** OK.
+- **ROE = 31.12%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **31.12%** compounder-grade.
+- **Graham Number ≈ R$ 58.49** vs preço **R$ 148.18** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 65y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (US holding com DY ≥ 2.5%) — ver [[Glossary/DRIP]] para mecanismo + [[Glossary/Aristocrat]] para membership formal.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🟡 **Volume decline + private label trade-down** — consumidor em recessão troca para marca branca. Trigger: organic volume YoY < 0 por 2 quarters.

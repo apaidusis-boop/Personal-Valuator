@@ -57,6 +57,22 @@ VALE3 negocia P/E 31.0 com ROE de apenas 5.87% e DY 6.38% sustentado por streak 
 | Data coverage | 100 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 31.00** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 31.00** fora do screen.
+- **P/B = 1.99** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.99** — verificar consistência com ROE.
+- **DY = 6.38%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **6.38%** passa.
+- **ROE = 5.87%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **5.87%** abaixo do critério.
+- **Graham Number ≈ R$ 51.87** vs preço **R$ 85.87** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 18y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Deteriorating quality (Phase Y RI)** — YoY EBIT -25% sinaliza compressão de margens; ROE caiu para 5.87%. Trigger: `quarterly_history` EBIT YoY < -10% no próximo Q.

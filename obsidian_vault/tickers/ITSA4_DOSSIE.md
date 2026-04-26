@@ -71,6 +71,22 @@ holding + quality do Itaú como banco #1 BR.
 | Data coverage | 100 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 9.61** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 9.61** passa.
+- **P/B = 1.80** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.80** — verificar consistência com ROE.
+- **DY = 8.63%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **8.63%** passa.
+- **ROE = 17.57%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **17.57%** compounder-grade.
+- **Graham Number ≈ R$ 16.24** vs preço **R$ 14.22** → [[Glossary/Graham_Number|conceito]]. ✅ Tem margem de segurança Graham.
+- **Streak div = 20y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **Concentração no Itaú (~85% NAV)** — qualquer choque ITUB4 propaga-se directamente. Trigger: ITUB4 ROE < 15% em 2 quarters (per disconfirmation trigger da thesis).

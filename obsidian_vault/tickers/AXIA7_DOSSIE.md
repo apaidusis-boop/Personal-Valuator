@@ -67,6 +67,17 @@ AXIA7 (CVM 2437) negocia a P/B 1.45 com ROE fraco de 5.46%; P/E e DY ainda n/a n
 | Data coverage | 50 |
 | Paper track | 30 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/B = 1.45** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.45** — verificar consistência com ROE.
+- **ROE = 5.46%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **5.46%** abaixo do critério.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 5. Riscos identificados
 
 - 🔴 **ROE persistentemente baixo** — actual 5.46% bem abaixo do mínimo de 15% (utilities). Trigger: `fundamentals.roe` < 8% por 4 trimestres consecutivos invalida turnaround.

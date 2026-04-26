@@ -59,6 +59,13 @@ VGIP11 (Valora CRI Plus) é fundo papel high-yield com DY 13,50% e P/E 8,04 — 
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 13.50%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **13.50%** OK.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
 ## 5. Riscos identificados
 
 - 🔴 **Liquidez baixa** — market cap R$ 0,97B; spread bid/ask alto e dificuldade para sair em volume. Trigger: `prices.volume` mediano 30d < R$ 1M/dia.

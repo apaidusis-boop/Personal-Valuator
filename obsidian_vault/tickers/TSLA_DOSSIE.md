@@ -48,6 +48,19 @@ TSLA negoceia a P/E 345.23 (!) com DY n/a e ROE de apenas 4.90%, IC marca **AVOI
 
 → Vault: [[TSLA]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 345.23** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 345.23** esticado vs critério.
+- **P/B = 17.19** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **17.19** esticado.
+- **ROE = 4.90%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **4.90%** abaixo do critério.
+- **Graham Number ≈ R$ 23.18** vs preço **R$ 376.30** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 4. Riscos identificados
 
 - 🔴 **Margem auto compression** — preço cuts vs concorrência BYD/Xiaomi pressionam gross margin auto. Trigger: gross margin auto < 15% por 2 quarters.
