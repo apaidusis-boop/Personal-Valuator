@@ -4,64 +4,64 @@ ticker: TEN
 market: us
 date: 2026-04-26
 committee_verdict: HOLD
-confidence: high
-consensus_pct: 80.0
+confidence: medium
+consensus_pct: 60.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — TEN
 
-**Committee verdict**: **HOLD** (high confidence, 80% consensus)  
-**Votes**: BUY=0 | HOLD=4 | AVOID=1  
-**Avg conviction majority**: 4.5/10  
+**Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
+**Votes**: BUY=2 | HOLD=3 | AVOID=0  
+**Avg conviction majority**: 5.0/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🔴 Warren Buffett — **AVOID** (conv 7/10, size: none)
+### 🟡 Warren Buffett — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- ROE baixo
-- Dividend yield baixo
-- Nível de dívida elevado
+- P/E baixo e ROE sólido
+- Histórico de dividendos consistente
+- Baixa avaliação pelo mercado
 
-**Key risk**: Risco de endividamento elevado pode comprometer a saúde financeira da empresa.
+**Key risk**: Dependência do setor de energia e flutuações cíclicas
 
-### 🟡 Stan Druckenmiller — **HOLD** (conv 4/10, size: small)
+### 🟢 Stan Druckenmiller — **BUY** (conv 7/10, size: medium)
 
 **Rationale**:
-- PE baixo, mas ROE fraco
-- Dividend yield atraente, mas alavancagem elevada
-- Mercado de liquidez neutro
+- P/E baixo indica valor subavaliado
+- ROE forte sugere eficiência operacional
+- Dividendos sustentáveis e histórico positivo
 
-**Key risk**: Alavancagem corporativa pode aumentar risco em condições adversas
+**Key risk**: Volatilidade do setor de energia pode afetar consistentemente o desempenho da empresa
 
 ### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- PE baixo, mas ROE fraco
-- Dividendos atraentes, mas não compensam riscos
-- Nível de dívida moderado, mas não oferece oportunidades especulativas
+- P/E baixo e ROE sólido
+- Histórico de dividendos consistente
+- Setor favorável
 
-**Key risk**: Fragilidade financeira em caso de deterioração econômica
+**Key risk**: Volatilidade do setor de energia e exposição a riscos ocultos
 
-### 🟡 Seth Klarman — **HOLD** (conv 4/10, size: small)
+### 🟢 Seth Klarman — **BUY** (conv 7/10, size: medium)
 
 **Rationale**:
-- P/E baixo, mas ROE fraco
-- Patrimônio líquido subavaliado
-- Renda dividendos moderada
+- P/E baixo de 8,64x
+- ROE sólido de 9,09%
+- Histórico consistente de dividendos
 
-**Key risk**: Dívida líquida alta em relação ao EBITDA pode comprometer a margem de segurança
+**Key risk**: A deterioração das condições do setor poderia afetar significativamente o desempenho da empresa
 
 ### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- P/E baixo e dividendos atraentes
-- Dívida/EBITDA moderada
-- Renda fixa é defensiva em tempos incertos
+- P/E baixo indica valor subavaliado
+- ROE forte sugere eficiência operacional
+- Dividendos consistentes atrativos
 
-**Key risk**: Ciclo de dívidas globais pode entrar em estresse, afetando renda fixa
+**Key risk**: Dependência do setor de energia e condições macroeconômicas
 
 ## 📊 Context provided
 
@@ -76,6 +76,13 @@ FUNDAMENTALS LATEST:
   net_debt_ebitda: 4.20440617464603
 
 THESIS HEALTH: score=-1/100  contradictions=0  risk_flags=0  regime_shift=0
+
+VAULT THESIS:
+**Core thesis (2026-04-24)**: Tsakos Energy Navigation é uma posição atraente para investidores de longo prazo que buscam dividendos sustentáveis e crescimento acionário. A empresa apresenta um P/E baixo de 8,64x, indicando que o mercado está avaliando suas ações abaixo do valor intrínseco. Além disso, seu ROE de 9,09% sugere uma eficiência operacional sólida e lucratividade elevada. A empresa tem um histórico consistente de dividendos por 24 anos consecutivos, com um yield atual de 1,56%, o que é atraente para investidores em busca de renda regular.
+
+**Key assumptions**:
+1. O setor de energia continuará a apresentar condições favoráveis para empresas como Tsakos Energy Navigation.
+2. A empresa manterá seu ROE acima de 9% nos próximos anos, refletindo sua eficiência operacional e gestão só
 ```
 
 ---

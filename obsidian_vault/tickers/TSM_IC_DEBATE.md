@@ -4,64 +4,64 @@ ticker: TSM
 market: us
 date: 2026-04-26
 committee_verdict: HOLD
-confidence: medium
-consensus_pct: 60.0
+confidence: high
+consensus_pct: 80.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — TSM
 
-**Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
-**Votes**: BUY=0 | HOLD=3 | AVOID=2  
-**Avg conviction majority**: 4.0/10  
+**Committee verdict**: **HOLD** (high confidence, 80% consensus)  
+**Votes**: BUY=0 | HOLD=4 | AVOID=1  
+**Avg conviction majority**: 4.5/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟡 Warren Buffett — **HOLD** (conv 5/10, size: medium)
+### 🟡 Warren Buffett — **HOLD** (conv 6/10, size: medium)
 
 **Rationale**:
 - ROE alto e consistência em dividendos
-- P/B elevado sugere valorização de ativos líquidos
-- Geração de caixa livre crescente
+- P/B elevado sugere valorização atual
+- Histórico de pagamentos de dividendos
 
-**Key risk**: Multiplicador P/E alto pode indicar sobrevalorização
+**Key risk**: Multiplicador P/E alto pode indicar sobrevalorização relativa
 
 ### 🟡 Stan Druckenmiller — **HOLD** (conv 2/10, size: small)
 
 **Rationale**:
-- P/B elevado indica sobreavaliação
-- ROE forte, mas dividendos baixos
-- Setor cíclico e vulnerável a mudanças macro
+- P/B elevado sugere sobreavaliação
+- ROE forte, mas mercado já precifica isso
+- Dividendos consistentes, mas não atrativos
 
-**Key risk**: Vulnerabilidade à contração econômica global
+**Key risk**: Mercado pode reavaliar rapidamente em caso de desaceleração econômica
 
-### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
+### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- P/E alto sugere sobreavaliação
-- Dividend yield baixo para o setor
-- Lack of optionality and convexity
+- P/B alto sugere sobreavaliação
+- ROE forte, mas PE elevado indica risco de correção
+- Dividendos consistentes, mas não oferecem opções suficientes
 
-**Key risk**: Overvaluation exposes to tail risk with limited upside
+**Key risk**: Sobreavaliação do mercado e potencial queda súbita no preço
 
 ### 🔴 Seth Klarman — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
 - P/B muito alto (89.28) indica sobrevalorização
-- ROE não reflete margem de segurança significativa
-- Dividend yield baixo e P/E elevado
+- ROE forte, mas não justifica múltiplos atuais
+- Dividend yield baixo (0.84%)
 
-**Key risk**: Perda permanente do capital em caso de reavaliação negativa
+**Key risk**: Perda permanente de capital em caso de reavaliação negativa
 
 ### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- P/B elevado sugere alta valorização
-- ROE forte indica solidez financeira
-- Dividendos consistentes
+- P/B alto indica valorização significativa
+- ROE forte e dividendos consistentes
+- Mercado pode reavaliar positivamente
 
-**Key risk**: Bubble risk com P/E e P/B acima da média, potencial reversão de mercado
+**Key risk**: Bubbles: alta P/E (34.49) sugere potencial sobrevalorização
 
 ## 📊 Context provided
 

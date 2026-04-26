@@ -3,70 +3,83 @@ type: synthetic_ic_debate
 ticker: ABCB4
 market: us
 date: 2026-04-26
-committee_verdict: HOLD
-confidence: medium
-consensus_pct: 60.0
+committee_verdict: BUY
+confidence: high
+consensus_pct: 80.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — ABCB4
 
-**Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
-**Votes**: BUY=0 | HOLD=3 | AVOID=2  
-**Avg conviction majority**: 4.7/10  
+**Committee verdict**: **BUY** (high confidence, 80% consensus)  
+**Votes**: BUY=4 | HOLD=1 | AVOID=0  
+**Avg conviction majority**: 7.8/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🔴 Warren Buffett — **AVOID** (conv 10/10, size: none)
+### 🟢 Warren Buffett — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
-- Falta de moat duradouro
-- Gestão sem histórico comprovado
-- ROIC abaixo dos padrões desejados
+- Histórico de dividendos forte
+- Taxa Selic favorável
+- ROE acima de 15%
 
-**Key risk**: Complexidade operacional e exposição a ciclos econômicos
+**Key risk**: Aumento significativo da dívida líquida ou queda acentuada do ROE
 
-### 🟡 Stan Druckenmiller — **HOLD** (conv 4/10, size: small)
-
-**Rationale**:
-- Liquidity regime neutro
-- Earnings power misto
-- Market positioning moderado
-
-**Key risk**: Volatilidade macroeconômica pode afetar negativamente o setor
-
-### 🔴 Nassim Taleb — **AVOID** (conv 10/10, size: none)
+### 🟢 Stan Druckenmiller — **BUY** (conv 7/10, size: medium)
 
 **Rationale**:
-- Overvalued growth
-- Hidden risks: leverage and opacity
-- Lack of convex payoffs
+- Histórico de dividendos forte
+- Taxa Selic favorável
+- ROE acima de 15%
 
-**Key risk**: High exposure to hidden risks and fragility due to leverage and complex derivatives
+**Key risk**: Aumento inesperado da dívida líquida ou queda acentuada do ROE
 
-### 🟡 Seth Klarman — **HOLD** (conv 5/10, size: small)
-
-**Rationale**:
-- Preço atual próximo ao valor intrínseco
-- Necessidade de mais tempo para validação da posição
-- Liquidez do ativo
-
-**Key risk**: Perda permanente do capital se o preço atual não refletir adequadamente o valor intrínseco
-
-### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
+### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- Debt/GDP em nível elevado
-- Fluxo de capital instável
-- Posição geopolítica frágil
+- Baixa dívida líquida e histórico de dividendos
+- Potencial valorização atrativa para value-investors
+- Ambiente macro favorável com Selic estável ou em queda
 
-**Key risk**: Aumento da volatilidade dos fluxos de capital pode levar a uma queda repentina no preço
+**Key risk**: Aumento significativo da dívida líquida ou queda acentuada do ROE
+
+### 🟢 Seth Klarman — **BUY** (conv 8/10, size: medium)
+
+**Rationale**:
+- Histórico de dividendos forte
+- Taxa Selic favorável
+- ROE acima de 15%
+
+**Key risk**: Aumento significativo da dívida líquida ou queda acentuada no ROE
+
+### 🟢 Ray Dalio — **BUY** (conv 8/10, size: medium)
+
+**Rationale**:
+- Histórico de dividendos forte
+- Taxa Selic favorável
+- ROE acima de 15%
+
+**Key risk**: Aumento significativo da dívida líquida ou queda acentuada do ROE
 
 ## 📊 Context provided
 
 ```
 TICKER: US:ABCB4
+
+VAULT THESIS:
+**Core thesis (2026-04-25)**: A empresa ABCB4 é um banco brasileiro com forte histórico de dividendos e baixa dívida líquida em relação ao EBITDA. Apresenta um Graham Number ajustado que indica valorização acima do recomendado, oferecendo uma oportunidade de investimento atrativa para value-investors.
+
+**Key assumptions**:
+1. A empresa mantém seu histórico de pagamentos de dividendos por mais cinco anos ininterruptos
+2. A taxa Selic permanece estável ou em queda nos próximos dois anos, favorecendo a rentabilidade do banco
+3. O ROE da empresa se manterá acima de 15% ao longo dos próximos trimestres
+4. A dívida líquida da empresa não aumentará significativamente e permanecerá abaixo de três vezes o EBITDA
+
+**Disconfirmation triggers**:
+- ROE cai abaixo de 12% por dois quarters consecutivos
+-
 ```
 
 ---

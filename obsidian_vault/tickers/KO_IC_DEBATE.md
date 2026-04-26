@@ -4,64 +4,64 @@ ticker: KO
 market: us
 date: 2026-04-26
 committee_verdict: HOLD
-confidence: high
-consensus_pct: 80.0
+confidence: medium
+consensus_pct: 60.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — KO
 
-**Committee verdict**: **HOLD** (high confidence, 80% consensus)  
-**Votes**: BUY=1 | HOLD=4 | AVOID=0  
-**Avg conviction majority**: 4.8/10  
+**Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
+**Votes**: BUY=2 | HOLD=3 | AVOID=0  
+**Avg conviction majority**: 5.0/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟢 Warren Buffett — **BUY** (conv 8/10, size: large)
+### 🟢 Warren Buffett — **BUY** (conv 9/10, size: large)
 
 **Rationale**:
-- ROIC alto e estável
-- Geração de caixa livre crescente
-- Management com skin in the game
+- ROE de 43,32% indicando eficiência operacional
+- Dividendos consistentes por 65 anos
+- Moat duradouro através da marca Coca-Cola
 
-**Key risk**: Aumento da concorrência ou mudança no comportamento do consumidor
+**Key risk**: Aumento súbito da concorrência ou mudança na preferência do consumidor
 
-### 🟡 Stan Druckenmiller — **HOLD** (conv 5/10, size: small)
+### 🟡 Stan Druckenmiller — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- PE elevado
-- ROE forte
-- Dívida moderada
+- ROE forte e histórico de dividendos
+- P/E dentro da faixa razoável
+- Liquidez macro não favorece
 
-**Key risk**: Multiplo de preço-earnings elevado pode indicar sobreavaliação
+**Key risk**: A liquidez do mercado pode mudar rapidamente, afetando o preço das ações
 
 ### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
-- P/E alto, mas ROE forte
-- Dividendos atraentes
-- Capitalização alta, mas sem dívida significativa
+- ROE forte e histórico de dividendos
+- P/E dentro da faixa razoável
+- Consistência operacional
 
-**Key risk**: Overvaluation e potencial queda de lucros em recessão
+**Key risk**: Sobervalorização do risco de mudanças estruturais no consumo de refrigerantes
 
-### 🟡 Seth Klarman — **HOLD** (conv 4/10, size: none)
-
-**Rationale**:
-- P/E alto
-- P/B alto
-- Dividendos baixos
-
-**Key risk**: Perda permanente de capital com preço atual acima do valor intrínseco estimado
-
-### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
+### 🟡 Seth Klarman — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- PE alto, mas ROE forte
-- Dividendos atraentes
-- Nível de dívida controlado
+- ROE de 43,32% indica eficiência operacional
+- Dividendos consistentes por 65 anos
+- P/E razoável dentro do intervalo considerado
 
-**Key risk**: Mercados em ciclo avançado podem pressionar valuation múltiplos
+**Key risk**: Avaliação P/B elevada sugere que o preço atual pode estar próximo ao valor intrínseco
+
+### 🟢 Ray Dalio — **BUY** (conv 8/10, size: medium)
+
+**Rationale**:
+- ROE de 43,32% indica eficiência operacional
+- Dividendos sustentáveis e histórico de crescimento
+- P/E razoável dentro do intervalo de valor
+
+**Key risk**: Aumento da inflação pode pressionar margens e reduzir o poder de compra dos dividendos
 
 ## 📊 Context provided
 
@@ -76,6 +76,14 @@ FUNDAMENTALS LATEST:
   net_debt_ebitda: 1.9970145540727788
 
 THESIS HEALTH: score=-1/100  contradictions=0  risk_flags=0  regime_shift=0
+
+VAULT THESIS:
+**Core thesis (2026-04-24)**: A Coca-Cola é uma excelente posição de longo prazo para um investidor Buffett/Graham, oferecendo um sólido retorno sobre o patrimônio líquido (ROE) de 43.32% e um dividendo anual sustentável com uma renda de 2.76%. Com uma relação P/E de 24.57, a empresa está dentro do intervalo considerado razoável para investimentos de valor. Além disso, sua consistência em dividendos por 65 anos e classificação como Dividend Aristocrat reforçam sua capacidade de gerar renda e valor ao longo do tempo.
+
+**Key assumptions**:
+1. A Coca-Cola continuará a crescer seus lucros por ação (EPS) acima da média do setor.
+2. O mercado manterá uma relação P/E razoável para a empresa, refletindo sua solidez financeira e consistência em dividendos.
+3. A taxa de crescimento dos dividendos pe
 ```
 
 ---

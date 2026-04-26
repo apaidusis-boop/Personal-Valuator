@@ -14,6 +14,8 @@ _Export: 2026-04-26 10:59 UTC_
 - [[Bibliotheca/_Index|📚 Bibliotheca]] — clippings, books, methods, daily research digest
 - [[Glossary/_Index|📖 Glossary]] — 29 métricas com fórmula + contraméricas + thresholds
 - [[Bibliotheca/Knowledge/_Index|🧠 Knowledge Cards]] — perguntas conceptuais sintetizadas via RAG
+- [[briefings/drip_scenarios/_Index|💰 DRIP Scenarios]] — cenários 5/10/15/20y por holding + entry-timing
+- [[Bibliotheca/Midnight_Work_2026-04-27|🌙 Midnight Work Report]] — o que foi feito enquanto dormias
 
 ## Dashboards (Dataview)
 - [[dashboards/Portfolio|📊 Portfolio Dashboard]]

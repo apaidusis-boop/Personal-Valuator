@@ -12,56 +12,56 @@ tags: [synthetic_ic, debate, multi_persona]
 # 🏛️ Synthetic IC Debate — BLK
 
 **Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
-**Votes**: BUY=0 | HOLD=3 | AVOID=2  
-**Avg conviction majority**: 5.0/10  
+**Votes**: BUY=1 | HOLD=3 | AVOID=1  
+**Avg conviction majority**: 5.3/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟡 Warren Buffett — **HOLD** (conv 5/10, size: medium)
+### 🟡 Warren Buffett — **HOLD** (conv 6/10, size: medium)
+
+**Rationale**:
+- Dividend yield atraente
+- Baixo nível de endividamento
+- Histórico consistente de dividendos
+
+**Key risk**: Volatilidade do mercado financeiro pode afetar demanda por serviços da BlackRock
+
+### 🟡 Stan Druckenmiller — **HOLD** (conv 5/10, size: medium)
+
+**Rationale**:
+- Dividend yield atraente
+- Baixo risco de endividamento
+- Potencial para crescimento orgânico
+
+**Key risk**: Volatilidade do mercado financeiro pode afetar demanda por serviços
+
+### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
 - P/E alto
-- Moat sólido, mas não inabalável
-- Geração de caixa estável
+- Falta de anti-fragilidade
+- Risco sistêmico
 
-**Key risk**: Preço atual elevado pode limitar margem de segurança
+**Key risk**: Volatilidade do mercado financeiro pode levar a perdas significativas
 
-### 🟡 Stan Druckenmiller — **HOLD** (conv 5/10, size: small)
-
-**Rationale**:
-- P/E elevado
-- PB razoável
-- Dividendos moderados
-
-**Key risk**: Valuation premium pode ser penalizado por mudanças na liquidez macro
-
-### 🔴 Nassim Taleb — **AVOID** (conv 7/10, size: none)
+### 🟡 Seth Klarman — **HOLD** (conv 5/10, size: small)
 
 **Rationale**:
 - P/E alto
-- Lack of convexity
-- Overvalued
-
-**Key risk**: High valuation and lack of optionality (hidden risks)
-
-### 🔴 Seth Klarman — **AVOID** (conv 10/10, size: none)
-
-**Rationale**:
-- Preço elevado em relação ao valor intrínseco
-- Margem de segurança insuficiente
-- Lack of opportunistic investment opportunities
-
-**Key risk**: Perda permanente do capital devido a preço acima da avaliação
-
-### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
-
-**Rationale**:
-- PE está elevado
-- PB é razoável
+- PB acima da média
 - Dividend yield atraente
 
-**Key risk**: Mercados de ações em ciclo tardio e potencial bolha
+**Key risk**: Preço atual não oferece margem de segurança significativa (≥30%)
+
+### 🟢 Ray Dalio — **BUY** (conv 7/10, size: medium)
+
+**Rationale**:
+- Dividend yield atrativo
+- Baixo nível de endividamento
+- Potencial de crescimento global
+
+**Key risk**: Aumento da volatilidade no mercado financeiro pode afetar a demanda por serviços
 
 ## 📊 Context provided
 
@@ -75,6 +75,14 @@ FUNDAMENTALS LATEST:
   net_debt_ebitda: 0.07215028811467121
 
 THESIS HEALTH: score=-1/100  contradictions=0  risk_flags=0  regime_shift=0
+
+VAULT THESIS:
+**Core thesis (2026-04-24)**: A BlackRock, com seu dividend yield de 2.05% e P/E de 26.24, oferece uma combinação atraente de renda e valor potencial para investidores Buffett/Graham em busca de long-term growth. Sua consistência no pagamento de dividendos por 24 anos consecutivos e um patrimônio líquido por ação (BVPS) de US$360,41 refletem uma sólida gestão financeira e capacidade operacional. Além disso, sua relação dívida líquida/EBITDA de 7.2% indica baixo risco de endividamento.
+
+**Key assumptions**:
+1. A BlackRock continuará a crescer organicamente através da expansão global de seus serviços financeiros.
+2. O mercado financeiro manterá sua volatilidade, mantendo a demanda por soluções de gestão de ativos e consultoria oferecidas pela empresa.
+3. A taxa de crescimento do lucro (EPS)
 ```
 
 ---

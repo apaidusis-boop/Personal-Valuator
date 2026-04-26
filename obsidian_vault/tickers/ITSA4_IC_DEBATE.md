@@ -4,64 +4,64 @@ ticker: ITSA4
 market: br
 date: 2026-04-26
 committee_verdict: BUY
-confidence: medium
-consensus_pct: 60.0
+confidence: high
+consensus_pct: 100.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — ITSA4
 
-**Committee verdict**: **BUY** (medium confidence, 60% consensus)  
-**Votes**: BUY=3 | HOLD=2 | AVOID=0  
+**Committee verdict**: **BUY** (high confidence, 100% consensus)  
+**Votes**: BUY=5 | HOLD=0 | AVOID=0  
 **Avg conviction majority**: 8.0/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟢 Warren Buffett — **BUY** (conv 8/10, size: medium)
+### 🟢 Warren Buffett — **BUY** (conv 9/10, size: medium)
 
 **Rationale**:
-- ROIC alto e estável
-- Geração de caixa livre crescente
-- Preço justo com base em indicadores financeiros
+- Desconto persistente vs NAV
+- ROE consolidado alto e consistente
+- Payout estável e disciplinada gestão
 
-**Key risk**: Volatilidade nos fluxos de caixa trimestrais pode afetar a consistência da geração de cash
+**Key risk**: Itaú ROE cair abaixo de 12% por dois trimestres consecutivos
 
 ### 🟢 Stan Druckenmiller — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
-- pe baixo e dividend yield atraente
-- forte geração de caixa livre
-- posição de dívida controlada
+- Desconto persistente vs NAV
+- ROE consolidado ~17%
+- Payout estável e alto
 
-**Key risk**: volatilidade cambial impactando resultados internacionais
+**Key risk**: Itaú ROE cair abaixo de 12% em dois trimestres consecutivos
 
-### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
+### 🟢 Nassim Taleb — **BUY** (conv 7/10, size: medium)
 
 **Rationale**:
-- P/E baixo e dividendos atrativos
-- ROE forte
-- FCF inconsistente
+- Desconto persistente vs NAV
+- ROE consolidado alto
+- Payout estável e atraente
 
-**Key risk**: Volatilidade nos fluxos de caixa e endividamento elevado
+**Key risk**: Itaú ROE <12% em dois trimestres consecutivos
 
 ### 🟢 Seth Klarman — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
-- P/E baixo de 9,6
-- Dividend yield alto de 8,63%
-- FCF positivo e crescente
+- Desconto significativo vs NAV
+- ROE sólido e payout estável
+- Capital allocator disciplinado
 
-**Key risk**: Possível aumento da dívida em um ambiente econômico desafiador
+**Key risk**: Itaú ROE caindo abaixo de 12% por dois trimestres consecutivos
 
-### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
+### 🟢 Ray Dalio — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
-- P/EBIT forte e dividendos atrativos
-- Margens consistentes
-- CF Livre variável
+- Desconto persistente vs NAV
+- ROE consolidado ~17%
+- Payout estável e alto
 
-**Key risk**: Fluxo de caixa livre volátil pode comprometer capacidade de pagamento de dívida
+**Key risk**: Itaú ROE cair abaixo de 12% em dois trimestres consecutivos
 
 ## 📊 Context provided
 
@@ -84,6 +84,27 @@ QUARTERLY TRAJECTORY (single-Q, R$ bi):
   2024-06-30: rev=2.0 ebit=4.2 ni=3.8 em%=212.0 debt=12 fcf=0.1
 
 THESIS HEALTH: score=100/100  contradictions=0  risk_flags=0  regime_shift=0
+
+VAULT THESIS:
+**Core thesis (2026-04-24)**: ITSA4 é holding do Itaú Unibanco com desconto
+persistente vs NAV (~15-20%). Capital allocator disciplinado (Rodolfo Villela),
+payout policy estável. ROE consolidado ~17% via ITUB + participações (Alpargatas, Dexco, Aegea).
+DY actual 8.91% alinhado com Selic de mercado. Margin of safety vem do desconto
+holding + quality do Itaú como banco #1 BR.
+
+**Key assumptions**:
+1. Itaú mantém ROE ≥15% (core driver, ~85% do NAV)
+2. Desconto holding não supera 25% (ponto de TRIM se chegar lá)
+3. Payout ≥90% do lucro recorrente
+4. Capital allocation continua disciplinada (Villela)
+
+**Disconfirmation triggers**:
+- Itaú ROE < 12% em 2 quarters consecutivos
+- Desconto NAV > 25% sem catalisador
+- Mudança gestão Itaúsa / Villela sair
+- Payout < 70% sem expansão clara
+
+**Intent**:
 ```
 
 ---

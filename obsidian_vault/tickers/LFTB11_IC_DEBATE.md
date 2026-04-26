@@ -21,46 +21,44 @@ tags: [synthetic_ic, debate, multi_persona]
 ### 🔴 Warren Buffett — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- Score baixo na análise fundamentalista
-- Nenhum sinal claro de moat duradouro
-- Falta de dados sobre gestão
+- Thesis health score é muito baixo
+- Falta de informações fundamentais claras
 
-**Key risk**: Possível deterioração da situação financeira sem indicação clara de melhora
+**Key risk**: Risco de investimento em empresa com pouca transparência e histórico duvidoso
 
 ### 🔴 Stan Druckenmiller — **AVOID** (conv 2/10, size: none)
 
 **Rationale**:
 - Thesis health score é muito baixo
-- Nenhuma contradição ou risco flag indicado
+- Nenhuma contradição ou bandeiras de risco identificadas
 
-**Key risk**: Abaixo do esperado desempenho fundamental pode levar a ajustes bruscos de preço
+**Key risk**: Potencialmente sobrevalorizado com falta de indicadores claros para entrada
 
 ### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- Thesis health score is -1/100
-- No contradictions but no regime shift either
-- Hidden risks and fragility not assessed
+- Thesis health score is extremely low
+- No skin in the game observed
+- High risk of hidden fragility
 
-**Key risk**: Overvalued growth potential and lack of skin in the game by management
+**Key risk**: Potential for significant tail risks and black swan events (opacity, leverage)
 
 ### 🔴 Seth Klarman — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- Thesis health score é muito baixo
-- Nenhuma contradição identificada nas fundamentais
-- Sem bandeiras de risco
+- Thesis health score is very low
+- No clear value or margin of safety identified
 
-**Key risk**: Perda permanente do capital se investir em um ativo com baixa confiança
+**Key risk**: Permanent loss of capital due to lack of intrinsic value and margin of safety
 
 ### 🔴 Ray Dalio — **AVOID** (conv 8/10, size: none)
 
 **Rationale**:
-- score baixo
-- contradições e riscos ausentes
-- shift de regime não identificado
+- score negativo indica fraca fundamentação
+- contradições e riscos não identificados
+- regime atual pode ser adverso
 
-**Key risk**: potencial bolha no mercado, falta de diversificação adequada
+**Key risk**: Possível sobrevalorização e exposição a fatores macro adversos
 
 ## 📊 Context provided
 

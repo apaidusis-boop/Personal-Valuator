@@ -252,7 +252,11 @@ Reply JSON ONLY."""
         r = requests.post(
             OLLAMA,
             json={"model": MODEL, "prompt": prompt, "stream": False,
-                  "options": {"temperature": 0.4, "num_predict": 500}},
+                  # Lower temp + fixed seed → reduce verdict variance run-to-run.
+                  # 2026-04-27 (midnight): observed ABCB4 verdict drift BUY high → HOLD medium
+                  # between runs; lower temp + seed makes results more reproducible without
+                  # killing personality (5 personas still differ via prompts).
+                  "options": {"temperature": 0.15, "num_predict": 500, "seed": 42}},
             timeout=timeout,
         )
         r.raise_for_status()

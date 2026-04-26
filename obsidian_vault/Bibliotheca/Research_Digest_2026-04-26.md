@@ -22,7 +22,7 @@ tags: [bibliotheca, research_digest, daily]
 - Tavily web searches: **101**
 - Methods extraídos: **1**
 - Books processados: **0**
-- Perpetuum runs hoje: **10**
+- Perpetuum runs hoje: **11**
 - Bibliotheca catálogo (RAG cumulativo): **24 clips / 245 chunks**
 
 ## 1. Clippings novos
@@ -97,6 +97,7 @@ _(nenhum book novo — total: 4)_
 
 | Name | Subjects | Alerts | Summary |
 |---|---|---|---|
+| autoresearch | 30 | 0 | autoresearch: scored 30/30 subjects, 0 alerts, 0 errors |
 | bibliotheca | 184 | 0 | bibliotheca: scored 184/184 subjects, 0 alerts, 0 errors |
 | code_health | 176 | 0 | code_health: scored 176/176 subjects, 0 alerts, 0 errors |
 | content_quality | 39 | 0 | content_quality: scored 39/39 subjects, 0 alerts, 0 errors |
@@ -154,4 +155,4 @@ Tópicos prontos para `ii vault` ou `python -m library.rag ask`:
 - `python -m library.rag ask "diferença entre value e growth investing na prática?" --k 6`
 
 ---
-*Gerado por `scripts/research_digest.py` em 2026-04-26 22:46*
+*Gerado por `scripts/research_digest.py` em 2026-04-26 23:06*

@@ -4,64 +4,64 @@ ticker: NU
 market: us
 date: 2026-04-26
 committee_verdict: HOLD
-confidence: medium
-consensus_pct: 60.0
+confidence: high
+consensus_pct: 80.0
 tags: [synthetic_ic, debate, multi_persona]
 ---
 
 # 🏛️ Synthetic IC Debate — NU
 
-**Committee verdict**: **HOLD** (medium confidence, 60% consensus)  
-**Votes**: BUY=0 | HOLD=3 | AVOID=2  
-**Avg conviction majority**: 5.0/10  
+**Committee verdict**: **HOLD** (high confidence, 80% consensus)  
+**Votes**: BUY=0 | HOLD=4 | AVOID=1  
+**Avg conviction majority**: 4.8/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟡 Warren Buffett — **HOLD** (conv 6/10, size: medium)
+### 🟡 Warren Buffett — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- ROE de 30,28% indicativo de eficiência
+- ROE de 30,28% indica alta geração de lucros
 - P/B razoável sugerindo valor potencial
-- Crescimento projetado sugere subavaliação
+- PEG abaixo de 1 sugere crescimento sustentado
 
-**Key risk**: Multiplo P/E elevado pode indicar sobreavaliação no curto prazo
+**Key risk**: Multiplo P/E elevado pode indicar sobreavaliação
 
 ### 🟡 Stan Druckenmiller — **HOLD** (conv 4/10, size: small)
 
 **Rationale**:
 - ROE de 30,28% indica forte geração de lucros
-- P/B de 6,24 sugere valorização potencial
+- P/B baixo sugere valorização potencial
 - PEG abaixo de 1 sinaliza crescimento sustentável
 
-**Key risk**: Dependência excessiva do cenário macro favorável para manter o ROE e PEG
+**Key risk**: Múltiplo P/E de 25,02 pode indicar sobreavaliação relativa
 
 ### 🔴 Nassim Taleb — **AVOID** (conv 1/10, size: none)
 
 **Rationale**:
-- Multiplos altos
+- Multiplo P/E elevado
 - Falta de anti-fragilidade
 - Risco oculto
 
-**Key risk**: Volatilidade e potenciais eventos raros podem devastar o valor da posição
+**Key risk**: Leverage e opacidade financeira podem esconder fragilidades fundamentais
 
-### 🔴 Seth Klarman — **AVOID** (conv 1/10, size: none)
+### 🟡 Seth Klarman — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- P/B muito alto
-- ROE elevado mas não sustentável
-- Multiplo P/E caro
+- ROE de 30,28% indica eficiência operacional
+- PEG abaixo de 1 sugere crescimento sustentável
+- Ganho significativo desde a entrada
 
-**Key risk**: Perda permanente de capital se o ROE cair significativamente
+**Key risk**: Multiplo P/E elevado (25,02) pode indicar sobreavaliação
 
 ### 🟡 Ray Dalio — **HOLD** (conv 5/10, size: medium)
 
 **Rationale**:
-- ROE acima de 30% indica alta geração de lucros
-- PEG abaixo de 1 sugere subavaliação pelo mercado
-- P/B razoável, mas não oferece margem significativa
+- ROE alto e crescimento sustentável
+- PEG abaixo de 1 sugerindo subavaliação
+- P/B razoável
 
-**Key risk**: O crescimento projetado pode não ser sustentável em um cenário econômico adverso
+**Key risk**: Possível sobreavaliação com P/E acima da média
 
 ## 📊 Context provided
 
