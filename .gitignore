@@ -4,8 +4,12 @@ __pycache__/
 .venv/
 .Rhistory
 .mcp.json
+node_modules/
+
 # caches regeneráveis
 data/sec_cache/
+data/tavily_cache/
+
 # lock files do Claude Code
 .claude/scheduled_tasks.lock
 
@@ -25,3 +29,6 @@ data/subscriptions/html/
 # agents runtime state + logs
 data/agents/
 logs/agents/
+
+# Phase U — código deprecated, fora do tracking activo
+_deprecated/

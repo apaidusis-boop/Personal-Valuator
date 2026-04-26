@@ -3,8 +3,8 @@ type: constitution
 tags: [constitution, master, history, governance]
 created: 2026-04-25
 last_updated: 2026-04-25
-phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide)]
-current_phase: L — BACEN IF.Data fetcher shipped + Quant stack (vectorbt/pyfolio) + Synthetic IC universe-wide running
+phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised)]
+current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, React desktop deprecated, layer markers no vault, helena.css snippet, vault auto-commit script. Próximo: U.1 Home minimalista.
 ---
 
 # 📜 The Constitution — Investment Intelligence Project
@@ -424,19 +424,42 @@ MORNING_REPORT.md       — Overnight 24→25
 
 Plus 26+ docs em `obsidian_vault/skills/` e 5 timelines em `obsidian_vault/tickers/*_RI.md`.
 
-## 🔮 Próxima fase proposta — Phase Z (UI Friendly Layer)
+## 🔮 Phase U — Unification (em curso, 2026-04-26)
 
-User explicitamente pediu (sessão 25/04 final):
-> "Eu sou bem leigo em comandos. Quero abrir documentos, de maneira user-friendly, seja em HTML, seja no Obsidian, sem pulls/cats/python commands. Backend pode ser tudo isso, frontend tem que ser friendly."
+**Decisão arquitectural confirmada**: brain = 3 camadas, não 1 só.
 
-**Direcções possíveis**:
-- Aproveitar **Streamlit dashboard** (`ii dashboard`) já existente — expandir
-- Static HTML reports auto-gerados (Jinja2 + cron)
-- Obsidian dashboards via Dataview queries pré-escritas
-- Skills do Tier S Phase W: Frontend Design + Canvas Design + Web Artifacts Builder
-- Templated daily/weekly reports renderizados em HTML
+```
+L1 — VERDADE (SQLite + YAML)            ← scripts read/write, humano não toca
+L2 — PROJECÇÃO (vault auto-gerada)       ← regenerable, frontmatter tipado
+L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescrevem
+```
 
-→ Hand-off prompt em `HANDOFF_PHASE_Z_UI.md` (criado em paralelo).
+**Surfaces consolidadas (3 papéis claros, 0 sobreposição):**
+- **CLI `ii`** = sala do chefe (acção raw)
+- **Streamlit** = cara (projecção interactiva sobre L1)
+- **Obsidian** = cérebro (L1 + L2 + L3, leitura profunda)
+
+**Mortos formalizados**:
+- React/Vite desktop → `_deprecated/desktop_2026-04-26/` (zombie processes killed, node_modules removidos)
+- HTML reports estáticos → continuam mas não-prioritários
+
+**Roadmap Phase U** (7 sprints curtos):
+
+| Sprint | Nome | Status | O que entrega |
+|---|---|---|---|
+| **U.0** | Sweep + 3-layer formalisation | ✅ SHIPPED | Root limpo (PHASE/HANDOFF moves), React deprecated, `_LAYER.md` markers, `helena.css` snippet, `vault_autocommit.bat` |
+| **U.1** | Home minimalista (Apple Newsroom-style) | pending | Streamlit Home: 1 KPI hero + Captain's Log + Ask box + 3 cards. Resto colapsa em "More". |
+| **U.2** | Streamlit consolidation | pending | Páginas redundantes mortas, navegação plana ≤5, mobile breakpoints. |
+| **U.3** | Ask box wired | pending | Text input → `library.rag ask` → markdown render + sources expandíveis. |
+| **U.4** | Action loop visual | pending | T2 actions na Home (não enterradas). Approve/reject buttons → `perpetuum_action_run.py`. |
+| **U.5** | Charts com identidade | pending | Helena Linha enforced em todos plotly. `chart_with_benchmark()` helper. |
+| **U.6** | Telegram visual card | pending | matplotlib (Helena tokens) → PNG card diário. Push 08:00 cron. |
+| **U.7** | Obsidian = cérebro | pending | Home.md vault redesenhada; Dataview upgrades; Charts embeds; Syncthing setup mobile. |
+
+**Os 3 riscos mitigados (ver decisão U.0):**
+1. Dataview die → script Python regenera blocos estáticos
+2. Vault scaling → `_archive/YYYY/` policy via bibliotheca perpetuum
+3. Bidirectional editing → header `<!-- AUTO -->` + perpetuum diff-detect
 
 ## 📝 Changelog
 
@@ -464,6 +487,7 @@ User explicitamente pediu (sessão 25/04 final):
 | 2026-04-25 (G)                    | **G**            | Holdings thesis 100% (28→33): `agents/thesis_synthesizer.py` Ollama Qwen 14B local com philosophy-aware prompt (BR/BR_BANK/FII/US/REIT/ETF). 5 holdings escritos: XPML11, GREK, GS, HD, O. Bug fix line-based parser (regex catastrophic backtracking pré-fix). `predictions_evaluate.py` shipped (counterpart paper_trade_close). Wiki Phase C.2 `Analyst_Tracking.md` documenta schema `predictions` que já existia. Constitution open issues #2 RBRX11 + #5 ITRs verified resolved. | 0 | |
 | 2026-04-25 (H)                    | **H**            | Telegram morning brief: `scripts/captains_log_telegram.py` empacota Captain's Log em push compact (~1160 chars), wired em `daily_run.bat`. Mobile-friendly, semantic emojis (🟢🟡🔴 score, BUY/HOLD/AVOID). Underscore-escaping bug fix (Telegram Markdown). | 0 | |
 | 2026-04-25 (I)                    | **I**            | Wiki holdings B.2 closeout: `agents/holding_wiki_synthesizer.py` gera `wiki/holdings/<TICKER>.md` AUTO-DRAFT marcado para 6 holdings ainda sem nota deep (ABBV, GS, PLTR, TSLA, XP, GREK). Reusa context layer + portfolio_positions data + philosophy-aware prompt. | 0 | |
+| **2026-04-26 evening**            | **U.0 (Unification Sweep)** | **3-layer brain formalisado.** (1) `desktop/` (React app + Vite + FastAPI sidecar) → `_deprecated/desktop_2026-04-26/`; 2 zombie processes killed (Vite 1420 + FastAPI 8765); node_modules apagados. (2) Root limpo: 11 ficheiros (PHASE_*_REPORT, HANDOFF*, MORNING_REPORT*, AUTO_RUN_REPORT) → `reports/_phases/`. (3) `.gitignore` actualizado: `node_modules/`, `_deprecated/`. (4) `_LAYER.md` markers em 11 vault folders (3 L2 + 8 L3). (5) `obsidian_vault/.obsidian/snippets/helena.css` espelha `_theme.py` tokens (paleta + tipografia + tabelas + callouts + sidebar). (6) `scripts/vault_autocommit.bat` pronto (Scheduled Task pendente confirmação user). | 0 | |
 
 ## 🧭 Como usar este documento
 
