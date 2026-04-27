@@ -175,6 +175,26 @@ def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, di
     )
 
 
+def _is_suspicious_close(conn: sqlite3.Connection, ticker: str,
+                         date_iso: str, close: float) -> bool:
+    """Reject obviously corrupt prices: >50% drop/jump vs previous close
+    when no split is on file. Catches Yahoo glitches like XPML11 Jan 2026
+    (close went R$110 → R$1.07 → R$110 over 3 days; no corporate action).
+    """
+    if close <= 0:
+        return True
+    row = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? AND date<? "
+        "ORDER BY date DESC LIMIT 1", (ticker, date_iso),
+    ).fetchone()
+    if not row or not row[0] or row[0] <= 0:
+        return False  # no previous close to compare; accept
+    prev = float(row[0])
+    ratio = close / prev
+    # Suspicious if dropped to less than half or jumped to more than double in one session.
+    return ratio < 0.5 or ratio > 2.0
+
+
 def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
     if hist is None or len(hist) == 0:
         return 0
@@ -185,11 +205,17 @@ def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
         vol = row.get("Volume")
         if close is None or (isinstance(close, float) and close != close):  # NaN
             continue
+        close_f = float(close)
+        if _is_suspicious_close(conn, ticker, date, close_f):
+            # Skip suspect row; do not poison the time series.
+            # If it really is a 50%+ legit move, downstream tooling will surface
+            # the gap and a manual override can re-insert.
+            continue
         conn.execute(
             """INSERT INTO prices (ticker, date, close, volume) VALUES (?,?,?,?)
                ON CONFLICT(ticker, date) DO UPDATE SET
                  close=excluded.close, volume=excluded.volume""",
-            (ticker, date, float(close), int(vol) if vol is not None and vol == vol else None),
+            (ticker, date, close_f, int(vol) if vol is not None and vol == vol else None),
         )
         n += 1
     return n

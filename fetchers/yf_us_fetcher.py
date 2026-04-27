@@ -90,6 +90,24 @@ def upsert_company(conn: sqlite3.Connection, entry: dict) -> None:
     )
 
 
+def _is_suspicious_close(conn: sqlite3.Connection, ticker: str,
+                         date_iso: str, close: float) -> bool:
+    """Reject obvious data-feed glitches (>50% intraday move with no split).
+    Mirrors the BR fetcher guard added 2026-04-27.
+    """
+    if close <= 0:
+        return True
+    row = conn.execute(
+        "SELECT close FROM prices WHERE ticker=? AND date<? "
+        "ORDER BY date DESC LIMIT 1", (ticker, date_iso),
+    ).fetchone()
+    if not row or not row[0] or row[0] <= 0:
+        return False
+    prev = float(row[0])
+    ratio = close / prev
+    return ratio < 0.5 or ratio > 2.0
+
+
 def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
     if hist is None or len(hist) == 0:
         return 0
@@ -100,11 +118,14 @@ def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
         vol = row.get("Volume")
         if close is None or (isinstance(close, float) and close != close):
             continue
+        close_f = float(close)
+        if _is_suspicious_close(conn, ticker, date, close_f):
+            continue
         conn.execute(
             """INSERT INTO prices (ticker, date, close, volume) VALUES (?,?,?,?)
                ON CONFLICT(ticker, date) DO UPDATE SET
                  close=excluded.close, volume=excluded.volume""",
-            (ticker, date, float(close),
+            (ticker, date, close_f,
              int(vol) if vol is not None and vol == vol else None),
         )
         n += 1
