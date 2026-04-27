@@ -1,0 +1,30 @@
+olve the problem of differences across firms, the conclusion holds only if these firms are of equivalent
+risk. Implicitly, this approach also assumes a linear relationship between growth rates and PE.
+
+Sector Regressions
+When firms differ on more than one variable, it becomes difficult to modify the multiple to account
+for the differences across firms. You can run a regression of the multiple against the variables and
+then use this regression to find the predicted value for each firm. This approach works reasonably
+well when the number of comparable firms is large and the relationship between the multiple and the
+variables is stable. When these conditions do not hold, a few outliers can cause the coefficients to
+change dramatically and make the predictions much less reliable.
+ILLUSTRATION 17.2: Revisiting the Beverage Sector in
+2001: Sector Regression
+The price-earnings ratio is a function of the expected growth rate, risk, and the payout ratio. While there is not a wide
+variation in payout ratios across beverage companies, they differ in terms of risk and growth. The following table
+summarizes the price-earnings ratios, standard deviation in stock prices, and expected growth rates for the firms on the list:
+Since these firms differ on both risk and expected growth, a regression of PE ratios on both variables is run:
+The numbers in brackets are t-statistics and suggest that the relationships between PE ratios and both variables in the
+regression are statistically significant. The R-squared indicates the percentage of the differences in PE ratios that is
+explained by the independent variables. Finally, the regression itself can be used to get predicted PE ratios for the companies
+in the list.
+5
+ Thus, the predicted PE ratio for Coca-Cola, based on its standard deviation of 35.51% and the expected growth
+rate of 19%, would be:
+Since the actual PE ratio for Coca-Cola was 44.33, this would suggest that the stock was overvalued, given how the rest of
+the sector was priced.
+If you are uncomfortable with the assumption that the relationship between PE and growth is linear, which is what we have
+assumed in the preceding regression, you could either run nonlinear regressions or modify the variables in the regression to
+make the relationship more linear. For instance, using the ln(growth rate) instead of the growth rate in the regression yields
+much better-behaved residuals.
+Market Regressions

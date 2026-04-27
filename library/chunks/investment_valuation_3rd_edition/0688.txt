@@ -1,0 +1,75 @@
+llowing table summarizes the expected revenue growth rates and revenues each year for the
+next 10 years and for a terminal year (year 11):
+Revenue 
+Growth Rate
+$ Revenues
+Current
+$ 117
+1
+150.00%
+$ 292
+
+2
+100.00%
+$ 584
+3
+80.00%
+$1,051
+4
+60.00%
+$1,681
+5
+40.00%
+$2,354
+6
+30.00%
+$3,060
+7
+20.00%
+$3,672
+8
+15.00%
+$4,222
+9
+10.00%
+$4,645
+10
+5.00%
+$4,877
+Terminal year (11)
+3.50%
+$5,047
+Note that even with the high growth rate, the projected revenues of $5.05 billion in year 11 will still make Tesla only a small
+automobile firm; in contrast, Ford had revenues of $129 billion, and Volvo had revenues of $38 billion in 2010.
+In estimating revenue growth rates by year, we started with what we visualize as revenues for a successful Tesla Motors
+($5 billion in 11 years) and work backwards to estimate revenue growth rates in the earlier years, following two simple
+principles. The first is that revenue growth in the earlier years can be tied to revenue growth rates in the recent past; Tesla's
+revenues grew 179% a year from 2008 to 2010. The second is that the revenue growth rate should decrease over time as
+revenues become larger. Thus, the key numbers to focus on are the starting and ending revenues (in year 11) rather than the
+year-by-year growth rates. The valuation is very sensitive to the former and is less affected by the latter.
+Step 3: Estimate a Sustainable Operating Margin in Stable Growth
+For a firm losing money, high revenue growth alone will accomplish little more than make the losses
+become larger over time. A key component for a young firm to be valuable is the expectation that the
+operating margin, while negative now, will become positive in the future. In many ways the true test
+in valuation is being able to evaluate what a young, high-growth firm will have as an operating
+margin when growth stabilizes. In the absence of comparables, the difficulty of this task is magnified.
+Again, a few guidelines help:
+Looking at the underlying business that this firm is in, consider its true competitors.
+ For
+instance, while Tesla is considered to be an electric automobile or even a technology
+company, it is ultimately in the automobile business. At least from the perspective of
+margins, is seems reasonable to argue that Tesla's margins will approach those of other
+automobile manufacturers.
+Deconstruct the firm's current income statement to get a truer measure of its operating
+margin.
+ Many young start-up firms that report losses do so not because their operating
+expenses from generating current revenues are large, but because a significant portion of
+operating expenses are in pursuit of future growth and should really be considered to be
+capital expenses. Since many of these expenses are treated as selling, general, and
+administrative (SG&A) expenses in income statements, estimating margins and profitability
+prior to these expenses is a useful exercise in figuring out how profitable a company's
+products truly are.
+ILLUSTRATION 23.2: Estimating Sustainable Margin and
+Path to Margin: Tesla Motors
+Tesla Motors reported an operating loss of $81 million in 2010 on revenues of $117 million, resulting in an operating margin
+of –69.28%. That is not surprising, though, given that it is making substantial investments in both R&D and infrastructure

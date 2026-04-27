@@ -1,0 +1,20 @@
+te, we estimated a pretax cost of debt of 3.25%.
+Assuming that the current debt ratio is a sustainable one, we estimated a cost of capital of 5.09%; the
+marginal tax rate for Japan in 2009 was 40.7%. 
+
+We did examine the cost of capital for Toyota over time, and since neither the debt ratio nor the cost of
+capital has moved substantially over time, we will use this as the normalized cost of capital.
+Since Toyota was already the largest automobile firm in the world in terms of market share, we assumed that
+the firm was in stable growth, growing at 1.50% (capped at the risk-free rate) in perpetuity. We also assumed
+that the firm will be able to generate a return on capital equal to its cost of capital on its investments. The
+reinvestment rate that emerges from these two assumptions is 29.46%: 
+Bringing together the normalized operating income (1,660.7 billion yen), the marginal tax rate for Japan (40.7%), the
+reinvestment rate (29.46%), the stable growth rate of 1.5%, and the cost of capital of 5.09%, we estimated the value of the
+operating assets at Toyota:
+
+Adding in cash (2,288 billion yen) and nonoperating assets (6,845 billion yen), subtracting out debt (11,862 billion yen) and
+minority interests in consolidated subsidiaries (583 billion yen), and dividing by the number of shares (3.448 billion) yielded a
+value per share of 4,735 yen/share.
+Based on the normalized income, Toyota looked significantly undervalued at its stock price of 3,060 yen per share in early
+2009.
+normearn.xls:

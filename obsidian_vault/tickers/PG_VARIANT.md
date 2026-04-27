@@ -2,9 +2,9 @@
 type: variant_perception
 ticker: PG
 market: us
-date: 2026-04-26
-variance: unmeasurable
-magnitude: 0
+date: 2026-04-27
+variance: medium_variance_long
+magnitude: 2
 weight_skew: False
 tags: [variant_perception, edge_detection]
 ---
@@ -13,8 +13,19 @@ tags: [variant_perception, edge_detection]
 
 **Our stance**: bullish  
 **Analyst consensus** (0 insights, last 90d): no_data (0% bull)  
-**Variance type**: `unmeasurable` (magnitude 0/5)  
-**Interpretation**: missing thesis or no analyst data
+**Variance type**: `medium_variance_long` (magnitude 2/5)  
+**Interpretation**: moderate edge
+
+## 🌐 Tavily web consensus (last 30d)
+
+**Web stance**: neutral (1 bull / 2 bear / 2 neutral)  
+**Cached**: False
+
+- 🟡 [neutral] [Options Volatility and Implied Earnings Moves Today, April 24, 2026 - TipRanks](https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-april-24-2026) (Fri, 24 Ap)
+- 🟢 [bull] [Procter & Gamble earnings beat estimates as sales grow 7% - CNBC](https://www.cnbc.com/2026/04/24/procter-gamble-pg-q3-2026-earnings.html) (Fri, 24 Ap)
+- 🔴 [bear] [P&G Tops Estimates on Beauty Products Demand, Warns of Profit Hit From Middle East War - The Business of Fashion](https://www.businessoffashion.com/news/beauty/pg-tops-estimates-on-beauty-demand/) (Fri, 24 Ap)
+- 🟡 [neutral] [P&G CFO Andre Schulten on Q3 results: We are building broad-based momentum - CNBC](https://www.cnbc.com/video/2026/04/24/pg-cfo-andre-schulten-on-q3-results-we-are-building-broad-based-momentum.html) (Fri, 24 Ap)
+- 🔴 [bear] [P&G warns of $1 billion profit hit in fiscal 2027 from higher oil prices - Reuters](https://www.reuters.com/business/energy/pg-tops-estimates-beauty-products-demand-flags-hit-higher-input-cost-2026-04-24/) (Fri, 24 Ap)
 
 ## 📜 Our thesis
 

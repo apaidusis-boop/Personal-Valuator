@@ -1,0 +1,48 @@
+ave the Federal Reserve the ability to set the reserve requirement. 31 In conjunction with 
+Roosevelt’s economic recovery program in the spring of 1938, the central bank lowered reserve requirements. 
+
+Principles For Navigating Big Debt Crises
+215
+In the 1940s, the Federal Reserve made a series of adjustments to the reserve requirements: in 1942, reserve 
+requirements were eased three times. During the war, the Federal Reserve held requirements steady, and 
+following the war (in 1948) the requirements were tightened three times—back to the statutory caps. Between 
+1949 and 1951, the reserve requirements were adjusted nine times; the Federal Reserve eased them in 1949 and 
+tightened them in 1951.
+n  During periods of tightening interest rates, the Federal Reserve also raised the reserve requirements in 1966–69, 
+1973, and 1979–80.32 
+n  Eventually, new funding instruments were invented to continue lending and bypass the reserve requirement. 
+These included commercial paper, eurodollars, repurchase agreements, and large-denomination certificates of 
+deposits.33
+n  In 1969, the Federal Reserve attempted to address the loopholes that were enabling banks to skirt the reserve 
+requirements. New bank borrowing from overseas branches was capped at 10%; this was done to stop banks 
+from borrowing eurodollars through their overseas branches (which were not subject to reserve requirements). 
+Additionally, the Fed set a 10 percent limit on assets sales by banks to their overseas branches.34 
+ –  In 1970, the limits on both borrowing from and selling assets to overseas branches were increased to 20 
+percent. However, in 1973, these requirements were both lowered down to 8 percent. This was the same 
+requirement as was in place for large-denomination certificates of deposits.35
+n  In the late 1960s, the Federal Home Loan Bank Board (FHLBB) used reserve requirements to affect mortgage 
+lending. The FHLBB reduced requirements when savings declined, thereby increasing liquidity in mortgage 
+lending, and raised requirements when lending was high, or liquidity already abundant. 36
+n  As part of the Paul Volcker’s effort to rein in inflation, the Federal Reserve increased interest rates and reserve 
+requirements in October 1979. Reserve requirements on wholesale liabilities rose to 8 percent (wholesale 
+liabilities included large time deposits, eurodollar borrowings, repos with government or agency collateral 
+backing, and federal funds borrowings). 37  
+ –  In March 1980, the reserve requirements were increased to 10%. One month later, the central bank lowered 
+the requirements to 5 percent and eventually eliminated them entirely in July.
+n  The FHLBB eased the reserve requirements in 1968–69 and 1973–74, when liquidity for mortgage lending was 
+squeezed. It had “at most a limited, positive impact on mortgage lending.”38  
+n  In 1980, the Fed imposed unprecedented asset-based reserve requirements to reduce inflation. This fell under 
+their control due to the 1969 Credit Control Act.39 The exact requirements were as follows:
+ –  All lenders were required to hold a special deposit of 15 percent on specific types of consumer credit. 
+Money-market funds were subject to the same reserve requirements. Both were later lowered to 7.5 percent.
+ –  Money-market funds were also required to file monthly reports.
+ –  By August, the Fed removed all of the restrictions completely, and by the end of 1980, Congress terminated 
+the Credit Control Act. 
+n  The Federal Reserve lowered reserve requirements in 1990 and 1992 to promote credit availability.40
+n  To briefly provide some perspective from Europe, liquidity ratios and reserve requirements there have also been 
+used as macroprudential tools. France and Italy would particularly use different reserve requirements to help direct 
+credit—for instance, giving public banks more lenient requirements, or excluding long-term or export loans.41  
+n  Regulators more often used some types of caps on the amount of loans, or the ability of banks to access central 
+bank financing for lending—tools which had similar net effects of putting downward pressure on the supply 
+of credit. For instance, until 1972 France had a “rediscount ceiling,” a cap that limited how much a financial 
+institution could borrow from the central bank.42

@@ -1,0 +1,46 @@
+$200 million
+Expected growth rate—next five years
+20%
+10%
+Expected growth rate—after year 5
+6%
+6%
+Debt/(Debt + Equity)
+30%
+30%
+After-tax cost of debt
+6%
+5.40%
+Beta for equity—next five years
+1.20
+1.00
+
+Beta for equity—after year 5
+1.00
+1.00
+The Treasury bond rate is 7 percent, and the market premium is 5.5 percent. The calculations for the
+weighted average cost of capital and the value of the firms are shown in 
+Table 25.3
+.
+Table 25.3
+ Value of Lube & Auto, Dalton Motors, and Combined Firm
+The cost of equity and debt for the combined firm is obtained by taking the weighted average of the
+individual firm's costs of equity (debt); the weights are based on the relative market values of equity
+(debt) of the two firms. Since these relative market values change over time, the costs of equity and
+debt for the combined firm also change over time. The value of the combined firm is exactly the same
+as the sum of the values of the independent firms, indicating that there is no value gain from
+diversification.
+This equality does not imply, however, that the shareholders in the bidding and target firms are
+indifferent about such takeovers, since the bidding firm pays a significant premium over the market
+price. To the extent that these firms were correctly valued before the merger (market value of Lube &
+Auto = $4,020.91; market value of Dalton Motors = $5,760.47), the payment of a premium over the
+market price will transfer wealth from the bidding firm to the target firm.
+The absence of added value from this merger may seem puzzling, given the fact that the two firms
+are in unrelated businesses and thus should gain some diversification benefit. In fact, if the earnings of
+the two firms are not highly correlated, the variance in earnings of the combined firm should be
+significantly lower than the variance in earnings of the individual firms operating independently. This
+reduction in earnings variance does not affect value, however, because it is firm-specific risk, which
+is assumed to have no effect on the cost of equity. (The betas, which are measures of market risk, are
+always value-weighted averages of the betas of the two merging firms.) But what about the impact of
+reduced variance on debt capacity? Firms with lower variability in earnings can increase debt
+capacity and thus value. This can be a real benefit of conglomerate mergers, and will be considered

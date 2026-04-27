@@ -1,0 +1,80 @@
+sands) indicated that the restaurant generated $400,000 in operating income
+and $240,000 in net income on revenues of $1.2 million in the most recent year:
+Stated
+Adjusted
+Revenues
+$1,200.00
+$1,200.00
+
+– Operating lease expense
+$ 120.00
+– Imputed depreciation on leased asset
+$ 50.38
+– Wages
+$ 200.00
+$ 350.00
+– Material
+$ 300.00
+$ 300.00
+– Other operating expenses
+$ 180.00
+$ 180.00
+Operating income
+$ 400.00
+$ 319.62
+– Imputed interest expenses
+$ 0.00
+$ 69.62
+Taxable income
+$ 400.00
+$ 300.38
+– Taxes
+$ 160.00
+$ 120.15
+Net income
+$ 240.00
+$ 180.23
+We made two key adjustments. First, we noticed that the owner (and chef) was not paying himself a salary. We added
+$150,000 to wages to reflect the expected expense associated with a new chef. Second, we converted operataing lease
+expenses into financial expenses, by capitalizing the lease commitments ($120,000/year for the next 12 years), using the
+pretax cost of debt of 7.5% that we estimated in Illustration 24.5:
+This conversion then results in two new items on the income statement:
+These two adjustments reduce the operating income to $319,620 and the net income to $180,230.
+InfoSoft, though a private firm, has essentially been run like a public firm, probably as a lead-in to the initial public offering.
+This table reflects the operating income for InfoSoft.
+Income Statement—InfoSoft (in '000s)
+Sales and other operating revenues
+$10,000
+– Operating costs and expenses
+$ 
+8,300
+– Depreciation
+$ 
+200
+Operating income
+$ 
+1,500
+– Interest expenses
+$ 
+0
+Taxable income
+$ 
+1,500
+– Taxes
+$ 
+600
+Net income
+$ 
+900
+Growth
+The growth rate for a private firm can be estimated by looking at the past (historical growth) or from
+fundamentals (the reinvestment rate and return on capital). This section will consider some of the
+issues in estimating private firm growth.
+Estimating Growth
+In estimating growth for publicly traded firms, we noted that we could draw on three sources—
+historical growth, analyst estimates, and fundamentals. With private firms, we will not find analyst
+estimates of growth, and historical growth numbers have to be used with caution. The shifting
+accounting standards that characterize many private firms will mean that reported earnings changes
+over time may not reflect actual earnings changes. Furthermore, the fact that earnings are measured
+annually, rather than quarterly, and the reality that private firms tend to be younger than publicly
+traded firms will mean far less data in the historical growth estimate.

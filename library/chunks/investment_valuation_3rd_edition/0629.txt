@@ -1,0 +1,38 @@
+eriod.
+Note that the terminal price is discounted back at the compounded cost of equity for the eighth year. In January 2001, at the
+time of this valuation, State Bank was trading at Rs 235 per share.
+
+Valuing a Non-Dividend-Paying Financial Service Firm
+While many financial service firms do pay dividends, a large number of young, high-growth financial
+service firms in recent years have chosen not to pay dividends and to reinvest all of their earnings
+back into their operations. In fact, some of these firms lose money. While it may seem inappropriate
+to use the dividend discount model to value such firms, we will argue that the model is flexible
+enough to deal with them. How, if dividends are zero, will we ever be able to get a positive value for
+a share? The answer is simple, at least for firms that have positive earnings currently. While
+dividends are zero currently and are expected to be zero for the foreseeable future when the firm is
+growing, the growth will ultimately subside. As the growth drops, the firm's capacity to pay out
+dividends will increase. In fact, using the fundamental equation for growth from the preceding
+section, we can estimate the expected payout ratio in future periods to be:
+The equity will derive its value from expected future dividends.
+If earnings are negative currently, the mechanics become a little more involved. We first have to
+estimate earnings in future periods. Presumably, we would expect earnings to become positive during
+some period in the future. (If we did not, the value of equity would be zero and the valuation exercise
+would be unnecessary.) Once earnings become positive, the rest of the analysis resembles what we
+did before.
+Cash Flow to Equity Models
+At the beginning of this discussion, we noted the difficulty in estimating cash flows when net capital
+expenditures and noncash working capital cannot be easily identified. It is possible, however, to
+estimate cash flows to equity even for financial service firms if we define reinvestment differently.
+Defining Cash Flow to Equity
+The cash flow to equity is the cash flow left over for equity investors after debt payments have been
+made and reinvestment needs met. With financial service firms, the reinvestment generally does not
+take the form of plant, equipment, or other fixed assets. Instead, the investment is in human capital and
+regulatory capital; the latter is the capital as defined by the regulatory authorities, which, in turn,
+determines the limits on future growth. There are ways in which we could incorporate both of these
+items into the reinvestment.
+Capitalize Training and Employee Development Expenses
+If human capital is a large factor in determining the success or failure of a financial service firm, we
+could capitalize the expenses associated with developing this capital. The process for doing so
+closely mirrors the process for capitalizing research and development expenses for technology firms
+and involves the following five steps:
+1.

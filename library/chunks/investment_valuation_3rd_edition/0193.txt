@@ -1,0 +1,6 @@
+ndicate the statistical significance of the independent variable
+used. Substituting the current Treasury bond rate into this equation should yield an updated estimate
+19
+of the implied equity premium.
+
+histimpl.xls:

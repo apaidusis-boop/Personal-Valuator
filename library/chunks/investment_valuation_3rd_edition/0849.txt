@@ -1,0 +1,62 @@
+ou miss the option component of value. Again, the difference will be greatest for firms with
+significant undeveloped reserves and with commodities whose price volatility is highest.
+OTHER APPLICATIONS
+
+While patents and undeveloped reserves of natural resource companies lend themselves best to
+applying option pricing, there are other assets referenced in earlier chapters that can also be valued
+as options.
+Chapter 26, in the context of real estate valuation, noted that vacant land could be viewed as
+an option on commercial development.
+Chapter 27 presented an argument that copyrights and licenses could be viewed as options,
+even if they are not commercially viable today.
+Table 28.1
+ presents the inputs you would use to value each of these options in an option pricing
+model. Much of what we have said about the other option applications apply here as well. The value
+is derived from the exclusivity that you have to commercially develop the asset. That exclusivity is
+obtained by legal sanction in the case of licenses and copyrights, and from the scarcity of land in the
+case of undeveloped land.
+Table 28.1
+ Inputs to Value Other Options to Delay
+Undeveloped Land
+License/Copyright
+Value of the
+underlying asset
+Present value of the cash flows that would be obtained from commercial development of
+land today.
+Present value of the cash flows that would be obtained from
+commercially utilizing the license or copyright today.
+Variance in value
+of underlying
+asset
+Variance in the values of commercial property in the area where the real estate is located.
+Variance in the present values from commercial utilization
+of copyright or license (from a simulation).
+Exercise price
+Cost of commercially developing land today.
+Up-front cost of commercially utilizing copyright or
+license today.
+Life of the option
+If land is under long-term lease, you could use the lease period. If not, you should set the
+option life equal to the period when the loan that you used to buy the land comes due.
+Period for which you have rights to copyright or license.
+Cost of delay
+Property taxes and other costs associated with holding land.
+Cash flow you could generate in next year as a percent of
+present value of the cash flows today.
+CONCLUSION
+In traditional investment analysis, we compute the net present value of a project's cash flows and
+conclude that firms should not invest in a project with a negative net present value. This is generally
+good advice, but it does not imply that the rights to this project are not valuable. Projects that have
+negative net present values today may have positive net present values in the future, and the
+likelihood of this occurring is directly a function of the volatility in the present value of the cash
+flows from the project.
+This chapter valued the option to delay an investment and considered the implications of this option
+for three valuation scenarios—the value of a firm that derives all or a significant portion of value
+from patents that have not yet been commercially exploited, the value of a natural resource company
+with undeveloped reserves of the resource, and the value of a real estate firm with undeveloped land.
+In each case, using discounted cash flow valuation would result in an understatement of the values of
+these firms.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ A company is considering delaying a project with after-tax cash flows of $25 million but that

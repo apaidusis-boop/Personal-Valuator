@@ -1,0 +1,34 @@
+fy the business or businesses the firm operates in.
+Step 2:
+ Find other publicly traded firms in each business and obtain their regression betas, which
+we use to compute an average beta for the firms.
+
+Step 3:
+ Estimate the average unlevered beta for the business by unlevering the average (or median)
+beta for the firms by their average (or median) debt-to-equity ratio. Alternatively, we could
+estimate the unlevered beta for each firm and then compute the average of the unlevered betas. The
+first approach is preferable because unlevering an erroneous regression beta is likely to compound
+the error.
+Step 4:
+ Estimate an unlevered beta for the firm being analyzed, taking a weighted average of the
+unlevered betas for the businesses it operates in, using the proportion of firm value derived from
+each business as the weights. If values are not available, use operating income or revenues as
+weights. This weighted average is called the bottom-up unlevered beta.
+where the firm is assumed to operating in k different businesses.
+Step 5:
+ Finally, estimate the current market values of debt and equity at the firm and use this debt-
+to-equity ratio to estimate a levered beta.
+The betas estimated using this processs are called bottom-up betas.
+The Case for Bottom-Up Betas
+At first sight, the use of bottom-up betas may seem to leave us exposed to all of the problems noted
+with regression betas. After all, the betas for other publicly traded firms in the business are obtained
+from regressions. Notwithstanding this, bottom-up betas represent a significant improvement on
+regression betas for the following reasons:
+Although each regression beta is estimated with standard error, the average across a number
+of regression betas has much lower standard error. The intuition is simple. A high standard
+error on a beta estimate indicates that it can be significantly higher or lower than the true
+beta. Averaging across these individual regression betas results in an average beta that is
+far more precise than the individual betas that went into it. In fact, if the estimation errors on
+individual firm betas are uncorrelated across firms, the savings in standard error can be
+stated as a function of the average standard error or beta estimates and the number of firms
+in the sample.

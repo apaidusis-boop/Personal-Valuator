@@ -1,0 +1,65 @@
+the distribution of noncash working capital as a percent of
+revenues for U.S. firms in January 2011.
+Figure 10.2
+ Noncash Working Capital as Percent of Revenues—U.S. firms in 2011
+Source:
+ Value Line.
+
+ILLUSTRATION 10.7: Working Capital versus Noncash
+Working Capital: Marks and Spencer
+Marks and Spencer operates retail stores in the United Kingdom and has substantial holdings in retail firms in other parts of
+the world. The following table breaks down the components of working capital for the firm for 1999 and 2000 and reports
+both the total working capital and noncash working capital in each year:
+1999
+2000
+Cash and near cash
+$ 282
+$ 301
+Marketable securities
+$ 204
+$ 386
+Trade debtors (accounts receivable)
+$1,980
+$2,186
+Stocks (inventory)
+$ 515
+$ 475
+Other current assets
+$ 271
+$ 281
+Total current assets
+$3,252
+$3,629
+Noncash current assets
+$2,766
+$2,942
+Trade creditors (accounts payable)
+$ 215
+$ 219
+Short-term debt
+$ 913
+$1,169
+Other short-term liabilities
+$ 903
+$ 774
+Total current liabilities
+$2,031
+$2,162
+Nondebt current liabilities
+$1,118
+$ 993
+Working capital
+$1,221
+$1,467
+Noncash working capital
+$1,648
+$1,949
+The noncash working capital is substantially higher than the working capital in both years. We would suggest that the former
+is a much better measure of cash tied up in working capital.
+Estimating Expected Changes in Noncash Working Capital
+ While we can estimate the noncash
+working capital change fairly simply for any year using financial statements, this estimate has to be
+used with caution. Changes in noncash working capital are unstable, with big increases in some years
+followed by big decreases in subsequent years. To ensure that the projections are not the result of an
+unusual base year, you should tie the changes in working capital to expected changes in revenues or
+costs of goods sold at the firm over time. The noncash working capital as a percent of revenues can

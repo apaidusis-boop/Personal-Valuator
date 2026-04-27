@@ -1,0 +1,22 @@
+is statement is based on the assumption that the quality of research is the same at both firms,
+though the research is in different businesses, and that the only difference is in the volatility of the
+
+underlying businesses.
+4
+ You can value the capped call by valuing the expansion option twice in the Black-Scholes model,
+once with a strike price of $1,000 (yielding the original expansion option value of $218 million)
+and once with the strike price of $2,000 (yield an option value of $76 million). The difference
+between the two is the value of the expansion option with a cap on the present value. You could
+also value it explicitly in the binomial by setting the value to $2,000 whenever it exceeds that
+number in the binomial tree.
+5
+ The values that we derive for d1 and d2 are as follows: 
+6
+ We are assuming that the project that a firm is unable to take because it lacks financial flexibility
+is lost forever, and that the excess returns on this project would also have lasted forever. Both
+assumptions are strong and may result in overstatement of the lost value.
+7
+ The binomial model yields a value of $46.44 million for this option.
+8
+ There are 99.4 million households in the United States. Each rating point represents 1 percent of
+roughly 994,000 households.

@@ -1,0 +1,47 @@
+00s, a number of new channels for increasing leverage popped up, and a number of existing 
+less-regulated channels became larger. Many of these were short-term in nature and unregulated and thus were 
+
+Principles For Navigating Big Debt Crises
+113
+particularly vulnerable. During the bubble, there were five key components that 
+helped fuel leveraging outside the traditional banking system:
+1) Use of repo agreements and commercial paper. These developed into 
+huge channels through which banks and corporations could borrow 
+over short periods of time. Ben Bernanke notes that “repo liabilities of 
+US broker dealers increased by a factor of 2.5 in the four years before 
+the crisis.”6  
+2) Large institutional depositors outside the protected banking system. 
+Demand for Treasury securities, especially from foreign investors, 
+outstripped supply, so there was a shortage of safe assets for investors. 
+This led to demand for substitutes like asset-backed commercial paper 
+and repo.
+3) Development of money market funds, a short-term savings vehicle 
+which promised higher returns than bank accounts without much 
+additional risk. 
+4) Globalization of dollar lending, leading to the explosion of dollar 
+borrowing and lending outside of US banks.
+5) Securitization of lending, where banks take their traditional loans (auto 
+loans, home loans, etc.) and sell them to other investors. This creates a 
+“moral hazard” problem in which banks have an incentive to make risky 
+loans since they can sell them and not bear the consequences (as long as 
+investors remain willing to buy). 
+0
+500
+1, 000
+1, 500
+2, 000
+2, 500
+00 01 02 03 04 05 06 07
+Securitized Product Issuance (USD Bln) 
+500
+6 0 0
+700
+800
+9 0 0
+1, 000
+1 , 100
+1 , 200
+1 , 300
+01 02 03 04 05 06 07
+Asset-Backed Commerc ia l Paper
+Outstanding ( USD B l n)CDO2 CDO RMBS ABS

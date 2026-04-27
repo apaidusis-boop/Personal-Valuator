@@ -1,0 +1,14 @@
+---
+id: damodaran_auto_geometric_mean_growth
+name: Arithmetic versus Geometric Averages
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: geometric_mean_check
+  description: Calculate the geometric mean growth rate and ensure it is positive
+  check: (1 + lpa) * (1 + vpa)**(0.5) - 1 > 0
+caveats:
+- This rule assumes that only two consecutive periods' growth rates are available
+  for calculation.

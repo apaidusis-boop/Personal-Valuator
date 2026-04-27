@@ -1,0 +1,16 @@
+[KNOWLEDGE-CARDS start] Sun Apr 26 22:41:21 GTBST 2026
+  gen    buffett_moat_detection ... OK (2230 chars)
+  gen    graham_margin_of_safety ... OK (1588 chars)
+  gen    drip_vs_cash_dividends ... OK (2222 chars)
+  gen    dalio_bubble_framework ... OK (2193 chars)
+  gen    dalio_debt_crisis_signals ... OK (1945 chars)
+  gen    dcf_practical_pitfalls ... OK (2123 chars)
+  gen    bank_screening_checklist ... OK (1990 chars)
+  gen    fii_paper_vs_brick ... OK (2056 chars)
+  gen    aristocrat_quality_signal ... OK (742 chars)
+  gen    variant_perception_edge ... OK (1790 chars)
+  gen    value_trap_signals ... OK (2161 chars)
+  gen    drip_compounding_math ... OK (1744 chars)
+
+[summary] generated=12 skipped=0 errors=0 of 12
+[KNOWLEDGE-CARDS exit] 0 at Sun Apr 26 22:43:08 GTBST 2026

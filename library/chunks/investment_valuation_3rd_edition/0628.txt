@@ -1,0 +1,33 @@
+onomy by allowing for a country risk premium in estimating the cost of equity.
+Using the approach developed earlier in the book, we estimate a risk premium for India based on its rating of BB+ in 2001
+
+and the relative equity market volatility of the Indian market.
+To estimate the cost of equity during the high growth period—the next four years—we estimate the average beta for Asian
+commercial banks as 0.80 and assume that State Bank of India will have a similar beta. In conjunction with the risk-free rate
+in Indian rupees of 12.00%, we estimate a cost of equity as 20.34%.
+With these estimates of expected growth, payout ratio, and the cost of equity, we can estimate the present value of expected
+dividends per share over the next four years:
+TRANSITION PHASE
+We expect State Bank to continue growing beyond year 4 but at a declining rate. Each year, we reduce the expected growth
+rate linearly from 18.46% to a stable growth rate of 10.00%—these growth rates are all in nominal rupees. As the growth
+rate declines, we allow the return on equity to decline (as competition increases) to 18% and the payout ratio to rise to
+reflect the lesser need for reinvestment.
+1
+ To illustrate, the payout ratio in year 8, when the expected growth rate is 10%, can
+be computed to be:
+We also adjust the country risk premium down from 6.43% to 3.00% to reflect our expectation that there will be less risk in
+investing in India as the country's economy matures. The following table summarizes expected dividends during the transition
+phase:
+Note that the cost of equity in year 8 reflects the lower country risk premium:
+The beta and the mature market risk premium of 4% have been left unchanged. To compute the present values of the
+expected dividends over the transition period, we compound the cost of equity and discount the cash flows.
+2
+STABLE GROWTH
+In stable growth, we assume that State Bank's earnings and dividends will grow in perpetuity at 10% a year, and discount
+them at the stable period cost of equity of 17.60%. The present value of these dividends in perpetuity, which yield the
+terminal price per share, can be computed to be:
+FINAL VALUATION
+The final value per share for State Bank can be computed by adding the present values of the dividends during the high-
+growth phase, the dividends during the transition period, and the terminal price at the end of the transition period.
+Note that the terminal price is discounted back at the compounded cost of equity for the eighth year. In January 2001, at the
+time of this valuation, State Bank was trading at Rs 235 per share.

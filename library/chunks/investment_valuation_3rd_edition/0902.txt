@@ -1,0 +1,37 @@
+summarizes the effect on value of changing noncash working capital as a percent of revenues, assuming
+(unrealistically) that it has no effect on revenues or growth:
+Figure 31.4
+ Noncash WC and Value
+
+cfbasics.xls:
+
+This dataset on the Web summarizes operating margins, tax rates, and noncash working
+capital as a percent of revenues by industry group for the United States.
+Increase Expected Growth
+A firm with low current cash flows can still have high value if it is able to grow quickly, while
+earning more than its cost of capital. For profitable firms, the growth will be defined in terms of
+earnings, but for money-losing firms, you have to consider the nexus of revenue growth and higher
+margins.
+Profitable Firms
+Higher growth arises from either increases in reinvestment or a higher return on capital. It does not
+always translate into higher value, though, since higher growth can be offset by changes elsewhere in
+the valuation. Thus, higher reinvestment rates usually result in higher expected growth but at the
+expense of lower cash flows, since reinvestment reduces the free cash flows. Higher returns on
+capital also cause expected growth to increase, but value can still go down if the new investments are
+in riskier businesses and there is a more than proportionate increase in the cost of capital.
+The trade-off from increasing the reinvestment rate is listed in 
+Table 31.1
+. The positive effect of
+reinvesting more, higher growth, has to be compared to the negative effect of reinvesting more, the
+drop in free cash flows.
+Table 31.1
+ Trade-Off on Reinvestment Rate
+Negative Effects
+Positive Effects
+Reduces free cash flow to firm: 
+FCFF = EBIT(1 - Tax rate) 
+(1 - Reinvestment rate)
+Increases expected growth: 
+Expected growth = Reinvestment rate 
+× Return on capital
+We could work through the entire valuation and determine whether the present value of the

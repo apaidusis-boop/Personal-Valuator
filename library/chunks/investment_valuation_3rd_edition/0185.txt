@@ -1,0 +1,39 @@
+onds, you could argue that default spreads
+understate equity risk premiums.
+Relative Standard Deviations
+There are some analysts who believe that investors in equity markets choose among these markets
+
+based on their assessed riskiness and that the risk premiums should reflect the differences in equity
+risk. A conventional measure of equity risk is the standard deviation in stock prices; higher standard
+deviations are generally associated with more risk. If you scale the standard deviation of one market
+against another, you obtain a measure of relative risk.
+This relative standard deviation, when multiplied by the premium used for U.S. stocks, should yield a
+measure of the total risk premium for any market.
+Assume, for the moment, that you are using a mature market premium for the United States of 4.31
+percent and that the annual standard deviation of U.S. stocks is 20 percent. If the annual standard
+deviation of Indonesian stocks is 35 percent, the estimate of a total risk premium for Indonesia would
+be:
+The country risk premium can be isolated as follows:
+While this approach has intuitive appeal, there are problems with using standard deviations
+computed in markets with widely different market structures and liquidity. There are very risky
+emerging markets that have low standard deviations for their equity markets because the markets are
+illiquid. This approach will understate the equity risk premiums in those markets. The second
+problem is related to currencies, since the standard deviations are usually measured in local currency
+terms; the standard deviation in the U.S. market is a dollar standard deviation, whereas the standard
+deviation in the Indonesian market is a rupiah standard deviation. This is a relatively simple problem
+to fix, though, since the standard deviations can be measured in the same currency—you could
+estimate the standard deviation in dollar returns for the Indonesian market.
+THE DANGER OF DOUBLE COUNTING RISK
+When assessing country risk, there is a substantial chance that the same risk may be counted more than once in a valuation.
+For instance, there are analysts who use the dollar-denominated bonds issued by a country—the Brazilian dollar bond, for
+instance—as the risk-free rate when estimating cost of equity for Brazilian companies. The interest rate on this bond already
+incorporates the default spreads discussed in the preceding section. If the risk premium is also adjusted upward to reflect
+country risk, there has been a double counting of the risk. This effect is made worse when betas are adjusted upward and
+cash flows are adjusted downward (a process called “haircutting”) because of country risk.
+Default Spreads + Relative Standard Deviations
+The country default spreads that come with country ratings provide an important first step, but still
+only measure the premium for default risk. Intuitively, we would expect the country equity risk
+premium to be larger than the country default risk spread. To address the issue of how much higher,
+one can look at the volatility of the equity market in a country relative to the volatility of the country
+bond used to estimate the spread. This yields the following estimate for the country equity risk
+premium:

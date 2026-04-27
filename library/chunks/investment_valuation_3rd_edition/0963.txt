@@ -1,0 +1,22 @@
+nt
+for only one type. It would follow that a discount rate of 8 percent may be the right one for
+the first set of cash flows, whereas a 12 percent discount rate may be more appropriate for
+the second.
+
+Reviewing the discussion, decision trees are not alternatives to risk-adjusted valuation. Instead,
+they can be viewed as a different way of adjusting for discrete risk that may be difficult to bring into
+expected cash flows or into risk-adjusted discount rates.
+SIMULATIONS
+If scenario analysis and decision trees are techniques that help us to assess the effects of discrete risk,
+simulations provide a way of examining the consequences of continuous risk. To the extent that most
+risks that we face in the real world can generate hundreds of possible outcomes, a simulation will
+give us a fuller picture of the risk in an asset or investment.
+Steps in Simulation
+Unlike scenario analysis, where we look at the values under discrete scenarios, simulations allow for
+more flexibility in how we deal with uncertainty. In its classic form, distributions of values are
+estimated for each parameter in the valuation (growth, market share, operating margin, beta, etc.). In
+each simulation, we draw one outcome from each distribution to generate a unique set of cash flows
+and value. Across a large number of simulations, we can derive a distribution for the value of
+investment or an asset that will reflect the underlying uncertainty we face in estimating the inputs to
+the valuation. The steps associated with running a simulation are as follows:
+1.

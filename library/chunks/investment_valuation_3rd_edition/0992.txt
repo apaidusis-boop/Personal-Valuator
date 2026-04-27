@@ -1,0 +1,34 @@
+ge.
+These factors are summarized and presented in 
+Figure 34.8
+, with the appropriate discounted cash
+flow model indicated for each combination of the factors.
+Figure 34.8
+ Discounted Cash Flow Models
+
+CHOOSING THE RIGHT RELATIVE VALUATION
+MODEL
+Many analysts choose to value assets using relative valuation models. In making this choice, two
+basic questions have to be answered: Which multiple will be used in the valuation? Will this multiple
+be arrived at using the sector or the entire market?
+Which Multiple Should I Use?
+The chapters on multiples presented a variety of multiples. Some were based on earnings, some on
+book value, and some on revenues. For some multiples, current values were used, and for others
+forward or forecast values were used. Since the values you obtain are likely to be different using
+different multiples, deciding which multiple to use can make a big difference to your estimate of
+value. There are three ways you can answer this question: One is to adopt the cynical view that you
+should use the multiple that reflects your biases; the second is to value your firm with different
+multiples and try to use all of the values that you obtain; and the third is to pick the best multiple and
+base your valuation on it.
+STATUS QUO VERSUS OPTIMAL MANAGEMENT
+The chapters on valuing acquisitions and troubled firms noted that the value of a firm can be substantially higher if you
+assume that it is optimally run than if it is run by incumbent management. A question that you are often faced with in
+valuation is whether you should value the firm with incumbent management or with the optimal management. The answer is
+simple in some cases and complicated in others:
+If you are interested in acquiring the firm and intend to change the management, you should value the firm
+with the optimal management policies in place. Whether you will pay that amount in the acquisition will
+depend on your bargaining power and how long you think it will take you to change the way the firm is run.
+If you are a small investor looking at buying stock in the firm, you cannot change incumbent management
+yourself but you can still pay a premium if you believe that there is a possibility of change. If there are strong
+mechanisms for corporate governance—hostile takeovers are common and poor managers get replaced
+quickly—you can assume that the value will quickly converge on the optimal value. If, however, it is difficult

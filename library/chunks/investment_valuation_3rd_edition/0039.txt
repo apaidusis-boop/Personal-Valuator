@@ -1,0 +1,27 @@
+securities is examined later in this section.
+Inventory
+Three basic approaches to valuing inventory are allowed by GAAP: first in, first out (FIFO); last in,
+first out (LIFO); and weighted average.
+1.
+
+First in, first out (FIFO).
+ Under FIFO, the cost of goods sold is based on the cost of material
+bought earliest in the period, while the cost of inventory is based on the cost of material bought
+later in the year. This results in inventory being valued close to current replacement cost. During
+periods of inflation, the use of FIFO will result in the lowest estimate of cost of goods sold among
+the three valuation approaches, and the highest net income.
+2.
+
+Last in, first out (LIFO).
+ Under LIFO, the cost of goods sold is based on the cost of material
+bought toward the end of the period, resulting in costs that closely approximate current costs. The
+inventory, however, is valued on the basis of the cost of materials bought earlier in the year.
+During periods of inflation, the use of LIFO will result in the highest estimate of cost of goods
+sold among the three approaches, and the lowest net income.
+3.
+
+Weighted average.
+ Under the weighted average approach, both inventory and the cost of goods
+sold are based on the average cost of all material bought during the period. When inventory turns
+over rapidly, this approach will more closely resemble FIFO than LIFO.
+Firms often adopt the LIFO approach for its tax benefits during periods of high inflation. The cost of

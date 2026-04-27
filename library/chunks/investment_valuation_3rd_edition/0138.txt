@@ -1,0 +1,30 @@
+to use a smaller sample. When this choice is random, this does limited damage to the
+results of the study. If the choice is biased, it can provide results that are not true in the larger
+universe.
+4.
+
+Failure to control for market performance.
+ A failure to control for overall market
+performance can lead you to conclude that your investment scheme works just because it makes
+good returns (most schemes will make good returns if the overall market does well; the question
+is whether they made better returns than expected) or does not work just because it makes bad
+returns (most schemes will do badly if the overall market performs poorly). It is crucial therefore
+that investment schemes control for market performance during the period of the test.
+5.
+
+Failure to control for risk.
+ A failure to control for risk leads to a bias toward accepting high-
+risk investment schemes and rejecting low-risk investment schemes, since the former should make
+higher returns than the market and the latter lower, without implying any excess returns.
+6.
+
+Mistaking correlation for causation.
+ Consider the study on PE stocks cited in the earlier
+section. We concluded that low-PE stocks have higher excess returns than high-PE stocks. It
+would be a mistake to conclude that a low price-earnings ratio causes excess returns, since the
+high returns and the low PE ratio themselves might have been caused by the high risk associated
+with investing in the stock. In other words, high risk is the causative factor that leads to both the
+observed phenomena—low PE ratios on the one hand and high returns on the other. This insight
+would make us more cautious about adopting a strategy of buying low-PE stocks in the first place.
+SOME LESSER SINS THAT CAN BE A PROBLEM
+1.

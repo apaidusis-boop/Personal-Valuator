@@ -1,0 +1,54 @@
+e in earnings
+per share.
+b.
+ Now assume that you expect the return on equity to increase to 25% on both new and existing
+investments next year. Estimate the expected growth rate in earnings per share.
+
+3.
+ You are trying to estimate the expected growth in net income at Metallica Corporation, a
+manufacturing firm that reported $150 million in net income in the just-completed financial year;
+the book value of equity at the beginning of the year was $1 billion. The firm had capital
+expenditures of $160 million, depreciation of $100 million, and an increase in working capital of
+$40 million during the year. The debt outstanding increased by $40 million during the year.
+Estimate the equity reinvestment rate and expected growth in net income.
+4.
+ You are trying to estimate a growth rate for HipHop Inc., a record producer and distributor.
+The firm earned $100 million in after-tax operating income on capital invested of $800 million
+last year. In addition, the firm reported net capital expenditures of $25 million and an increase in
+noncash working capital of $15 million.
+a.
+ Assuming that the firm's return on capital and reinvestment rate remain unchanged, estimate the
+expected growth in operating income next year.
+b.
+ How would your answer to (a) change if you were told that the firm's return on capital next
+year will increase by 2.5%? (Next year's return on capital = This year's return on capital +
+2.5%.)
+5.
+ InVideo Inc. is an online retailer of videos and DVDs. The firm reported an operating loss of
+$10 million on revenues of $100 million in the most recent financial year. You expect revenue
+growth to be 100% next year, 75% in year 2, 50% in year 3, and 30% in years 4 and 5. You also
+expect the pretax operating margin to improve to 8% of revenues by year 5. Estimate the expected
+revenues and operating income (or loss) each year for the next five years.
+6.
+ SoftTech Inc. is a small manufacturer of entertainment software that reported revenues of $25
+million in the most recent financial year. You expect the firm to grow significantly over time and
+capture 8% of the overall entertainment software market in 10 years. If the total revenues from
+entertainment software in the most recent year amounted to $2 billion and you expect an annual
+growth rate of 6% in these revenues for the next 10 years, estimate the compounded annual
+revenue growth rate at SoftTech for the next 10 years.
+1
+ An ordinary least squares (OLS) regression estimates regression coefficients by minimizing the
+squared differences of predicted values from actual values.
+2
+ Griffin, P.A., “The Time-Series Behavior of Quarterly Earnings: Preliminary Evidence,” Journal
+of Accounting Research 15 (Spring 1977): 71–83.
+3
+ Watts, R.L., “The Time-Series Behavior of Quarterly Earnings,” Working Paper, University of
+Newcastle, 1975.
+4
+ Time series models generally can be run as long as there are at least 30 observations, but the
+estimation error declines as the number of observations increases.
+5
+ Sell-side analysts work for brokerage houses and investment banks, and their research is offered
+to clients of these firms as a service. In contrast, buy-side analysts work for institutional investors,
+and their research is generally proprietary.

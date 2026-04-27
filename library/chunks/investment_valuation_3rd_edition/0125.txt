@@ -1,0 +1,58 @@
+RT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ The following are prices of options traded on Microsoft Corporation, which pays no dividends.
+
+The stock is trading at $83, and the annualized riskless rate is 3.8%. The standard deviation in
+ln(stock prices) (based on historical data) is 30%.
+a.
+ Estimate the value of a three-month call with a strike price of $85.
+b.
+ Using the inputs from the Black-Scholes model, specify how you would replicate this call.
+c.
+ What is the implied standard deviation in this call?
+d.
+ Assume now that you buy a call with a strike price of $85 and sell a call with a strike price of
+$90. Draw the payoff diagram on this position.
+e.
+ Using put-call parity, estimate the value of a three-month put with a strike price of $85.
+2.
+ You are trying to value three-month call and put options on Merck with a strike price of $30.
+The stock is trading at $28.75, and the company expects to pay a quarterly dividend per share of
+$0.28 in two months. The annualized riskless interest rate is 3.6%, and the standard deviation in
+log stock prices is 20%.
+a.
+ Estimate the value of the call and put options, using the Black-Scholes model.
+b.
+ What effect does the expected dividend payment have on call values? On put values? Why?
+3.
+ There is the possibility that the options on Merck described in the preceding problem could be
+exercised early.
+a.
+ Use the pseudo-American call option technique to determine whether this will affect the value
+of the call.
+b.
+ Why does the possibility of early exercise exist? What types of options are most likely to be
+exercised early?
+4.
+ You have been provided the following information on a three-month call:
+a.
+ If you wanted to replicate buying this call, how much money would you need to borrow?
+b.
+ If you wanted to replicate buying this call, how many shares of stock would you need to buy?
+5.
+ Go Video, a manufacturer of video recorders, was trading at $4 per share in May 1994. There
+were 11 million shares outstanding. At the same time, it had 550,000 one-year warrants
+outstanding, with a strike price of $4.25. The stock has had a standard deviation of 60%. The
+stock does not pay a dividend. The riskless rate is 5%.
+a.
+ Estimate the value of the warrants, ignoring dilution.
+b.
+ Estimate the value of the warrants, allowing for dilution.
+c.
+ Why does dilution reduce the value of the warrants?
+6.
+ You are trying to value a long-term call option on the NYSE Composite index, expiring in five
+years, with a strike price of 275. The index is currently at 250, and the annualized standard
+deviation in stock prices is 15%. The average dividend yield on the index is 3% and is expected
+to remain unchanged over the next five years. The five-year Treasury bond rate is 5%.

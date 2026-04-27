@@ -1,0 +1,55 @@
+io was comparable to 1992 levels. (The Treasury bond rate in 1992 and 1993 was 7%, and the
+risk premium was 5.5%.)
+a.
+ Estimate the price-sales ratio, based on 1992 profit margins and expected growth.
+
+b.
+ Estimate the price-sales ratio, based on 1993 profit margins and expected growth. (Assume
+that the extraordinary growth period remains five years, but that the growth rate will be impacted
+by the lower margins.)
+5.
+ Gillette Inc. was faced with a significant corporate strategy decision early in 1994 on whether
+it would continue its high-margin strategy or shift to a lower margin to increase sales revenues in
+the face of intense generic competition. The two strategies being considered are as follows:
+Status Quo High-Margin Strategy
+Maintain profit margins at 1993 levels from 1994 to 2003. (In 1993, net income was $575
+million on revenues of $5,750 million.)
+The sales/book value ratio, which was 3 in 1993, can then be expected to decline to 2.5
+between 1994 and 2003.
+Low-Margin Higher-Sales Strategy
+Reduce net profit margin to 8% from 1994 to 2003.
+The sales/book value ratio will then stay at 1993 levels from 1994 to 2003.
+The book value per share at the end of 1993 was $9.75. The dividend payout ratio, which was
+33% in 1993, was expected to remain unchanged from 1994 to 2003 under either strategy, as is
+the beta, which was 1.30 in 1993. (The T-bond rate was 7%, and the risk premium was 5.5%.)
+After 2003, the earnings growth rate was expected to drop to 6%, and the dividend payout ratio
+was expected to be 60% under either strategy. The beta would decline to 1.0.
+a.
+ Estimate the price-sales ratio under the status quo strategy.
+b.
+ Estimate the price-sales ratio under the low-margin strategy.
+c.
+ Which strategy would you recommend and why?
+d.
+ How much would sales have to drop under the status quo strategy for the two strategies to be
+equivalent?
+6.
+ You have regressed price-sales ratios against fundamentals for NYSE stocks in 1994 and come
+up with the following regression: 
+For instance, a firm with a 35% payout, a 15% growth rate, a beta of 1.25, and a profit margin of
+10% would have had a price-sales ratio of: 
+a.
+ What do the coefficients on this regression tell you about the independent variable’s
+relationship with the dependent variable? What statistical concerns might you have with this
+regression?
+b.
+ Estimate the price-sales ratios for all the retail chains described in question 2. Why might this
+answer be different from the one obtained from the regression of only the retail firms? Which
+one would you consider more reliable and why?
+7.
+ Ulysses Inc. is a retail firm that reported $1.5 billion in after-tax operating income on $15
+billion in revenues in the just-ended financial year; the firm also had a capital turnover ratio of
+1.5. The firm’s cost of capital is 10%.
+a.
+ If you expect operating income to grow 5% a year in perpetuity, estimate the value-to-sales
+ratio for the firm.

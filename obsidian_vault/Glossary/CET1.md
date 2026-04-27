@@ -3,7 +3,7 @@ type: glossary
 slug: CET1
 title: CET1 — Common Equity Tier 1
 category: banks_regulatory
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, banks_regulatory]
 ---
 
@@ -45,4 +45,4 @@ Capital de **maior qualidade** — equity puro, sem hybrids. Métrica principal 
 - [[SANB11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

@@ -1,0 +1,26 @@
+low cash flows relative to obligations. Thus, firms
+with significant existing investments that generate high cash flows will have lower default risk than
+will firms that do not have such investments.
+
+In addition to the magnitude of a firm’s cash flows, the default risk is also affected by the volatility
+in these cash flows. The more stability there is in cash flows, the lower is the default risk in the firm.
+Firms that operate in predictable and stable businesses will have lower default risk than will
+otherwise similar firms that operate in cyclical or volatile businesses.
+Most models of default risk use financial ratios to measure the cash flow coverage (i.e., the
+magnitude of cash flows relative to obligations) and control for industry effects in order to evaluate
+the variability in cash flows.
+Bond Ratings and Interest Rates
+The most widely used measure of a firm’s default risk is its bond rating, which is generally assigned
+by an independent ratings agency. The two best known are Standard & Poor’s (S&P) and Moody’s.
+Thousands of companies are rated by these two agencies, and their views carry significant weight
+with financial markets.
+The Ratings Process
+The process of rating a bond starts when the issuing company requests a rating from a bond ratings
+agency. The ratings agency then collects information from both publicly available sources, such as
+financial statements, and the company itself and makes a decision on the rating. If the company
+disagrees with the rating, it is given the opportunity to present additional information. This process is
+presented schematically for one ratings agency, Standard & Poor’s, in 
+Figure 4.5
+.
+Figure 4.5
+ The Ratings Process

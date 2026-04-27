@@ -68,6 +68,8 @@ RDOR3 negocia P/E 18.17 e P/B 4.41 com ROE 20.05% e DY excepcional de 11.03% (ac
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

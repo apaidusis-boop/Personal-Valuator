@@ -1,0 +1,34 @@
+tistical significance of the independent variable
+used. Substituting the current Treasury bond rate into this equation should yield an updated estimate
+19
+of the implied equity premium.
+
+histimpl.xls:
+
+This dataset on the Web shows the inputs used to calculate the premium in each year for
+the U.S. market.
+HISTORICAL VERSUS IMPLIED EQUITY PREMIUMS:
+EFFECT OF MARKET VIEWS
+As you can see from the preceding discussion, historical premiums can be very different from implied equity premiums. At
+the end of 2000, the historical risk premium for stocks over bonds in the United States was 5.51 percent, whereas the implied
+equity risk premium was 2.87 percent. In contrast, at the end of 2008, the historical risk premium was 3.88%, whereas the
+implied premium was 6.43%. When doing discounted cash flow valuation, you have to decide which risk premium you will
+use in the valuation, and your choice will be determined by both your market views and your valuation mission.
+Market Views:
+ If you believe that the 
+market is right in the aggregate
+, though it may make mistakes on individual stocks,
+the risk premium you should use is the current implied equity risk premium. If you believe that the market often makes
+mistakes in the aggregate and that 
+risk premiums in markets tend to move back to historical norms
+ (mean reversion),
+you should go with the historical premium (4.31 percent at the end of 2000). A way to split the difference is to assume that
+markets are right across time
+, though they may make mistakes at individual points in time. If you make this assumption,
+you should use an average implied equity risk premium over time. The average implied equity risk premium from 1960 to
+2010 is 3.95 percent. While this book uses the historical premium a few times in its valuations, it sticks with the average
+implied premium in most of the valuations.
+Valuation mission:
+ If your valuation requires you to be market neutral, you should use the current implied equity risk
+premium. This is often the case if you are an equity research analyst or if you have to value a company for an acquisition.
+implprem.xls:

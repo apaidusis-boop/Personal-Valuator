@@ -1,0 +1,22 @@
+distress-adjusted value:
+Going Concern
+Distress/Default
+Probability
+64.58%
+35.42%
+Value of firm
+$22,079
+$11,531
+Debt outstanding
+$10,952
+$12,048
+Value of equity
+$11,127
+$0
+Value per share
+$22.77
+$0.00
+
+Value of equity = $22.77(.6458) + $0.00(.3542) = $14.71
+Since the stock price was $15.13 in May 2011, the stock looks fairly valued.
+dbtfund.xls:

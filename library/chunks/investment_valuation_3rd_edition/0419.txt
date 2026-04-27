@@ -1,0 +1,23 @@
+%.
+a.
+ Estimate the equity reinvestment rate, return on equity, and expected growth rate for Oneida
+Steel. (You can assume that the firm will continue to maintain the same debt ratio that it used last
+
+year to finance its reinvestment needs.)
+b.
+ If this growth rate is expected to last five years and then drop to a 4% stable growth rate after
+that and the return on equity after year 5 is expected to be 12%, estimate the value of equity
+today, using the projected free cash flows to equity.
+8.
+ Luminos Corporation, a manufacturer of lightbulbs, is a firm in stable growth. The firm
+reported net income of $100 million on a book value of equity of $1 billion. However, the firm
+also had a cash balance of $200 million on which it earned after-tax interest income of $10
+million last year. (This interest income is included in the net income, and the cash is part of the
+book value of equity.) The cost of equity for the firm is 9%.
+a.
+ Estimate the noncash return on equity at Luminos Corporation.
+b.
+ If you expect the cash flows from the operating assets of Luminos to increase 3% a year in
+perpetuity, estimate the value of equity at Luminos.
+1
+ The mix has to be fixed in book value terms. It can be varying in market value terms.

@@ -1,0 +1,19 @@
+venue growth rate
+differences across peer group companies. The caveats about structural shifts making historical
+data unreliable and peer group companies not being truly comparable continue to apply. 
+
+In summary, the probability distributions will be discrete for some inputs and continuous for
+others, and be based on historical data for some and statistical distributions for others.
+3.
+
+Check for correlation across variables:
+ While it is tempting to jump to running simulations
+right after the distributions have been specified, it is important that you check for correlations
+across variables. Assume, for instance, that you are developing probability distributions for both
+interest rates and inflation. While both inputs may be critical in determining value, they are likely
+to be correlated with each other; high inflation is usually accompanied by high interest rates.
+When there is strong correlation, positive or negative, across inputs, you have two choices. One is
+to pick only one of the two inputs to vary; it makes sense to focus on the input that has the bigger
+impact on value. The other is to build the correlation explicitly into the simulation; this requires
+more sophisticated simulation packages and adds more detail to the estimation process.
+4.

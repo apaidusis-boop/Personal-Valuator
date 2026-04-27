@@ -1,0 +1,57 @@
+?
+3.
+ The risk for real estate can be viewed as a derived demand. If this is the case, the risk of real
+estate can be estimated from the underlying business it supports. Under this view, what would be
+
+the appropriate proxy to use for risk in the following types of real estate investments:
+a.
+ Commercial real estate in New York City.
+b.
+ Commercial real estate in Houston, Texas.
+c.
+ Commercial real estate in San Jose, California (Silicon Valley).
+d.
+ Hotel complex in Orlando, Florida.
+4.
+ Would your valuation of real estate by affected by who the potential investors in the property
+are? (For instance, would your analysis be any different if the primary investors were individuals
+involved primarily in real estate or if they were institutional investors?)
+5.
+ How would you factor in the absence of liquidity into your valuation?
+6.
+ You have been asked to value an office building in Orlando, Florida, with the following
+characteristics:
+The building was built in 1988, and has 300,000 square feet of rentable area.
+There would be an initial construction and renovation cost of $3.0 million.
+It will take two years to fill the building. The expected vacancy rates in the first two years
+are:
+Year
+Vacancy Rate
+1
+30%
+2
+20%
+After year 2
+10%
+The market rents in the building were expected to average $15.00 per square foot in the
+current year based on average rents in the surrounding buildings.
+The market rents were assumed to grow 5% a year for five years and at 3% a year after
+that forever.
+The variable operating expenses were assumed to be $3.00 per square foot, and are
+expected to grow at the same rate as rents. The fixed operating expense in 1994 amounted
+to $300,000 and was expected to grow at 3% forever.
+The real estate taxes are expected to amount to $300,000 in the first year, and grow 3% a
+year after that. It is assumed that all tenants will pay their pro rate share of increases in
+real estate taxes that exceed 3% a year.
+The tax rate on income was assumed to be 42%.
+The cost of borrowing was assumed to be 8.25%, pretax. It was also assumed that the
+building would be financed with 30% equity and 70% debt.
+A survey suggests that equity investors in real estate require a return of 12.5% of their
+investments.
+a.
+ Estimate the value of the building, based on expected cash flows.
+b.
+ Estimate the value of just the equity stake in this building.
+7.
+ You are trying to value the same building based on comparable properties sold in recent years.
+There have been six property sales of buildings of comparable size in the surrounding area.

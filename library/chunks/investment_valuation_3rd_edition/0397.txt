@@ -1,0 +1,40 @@
+face of declining earnings and FCFE. 
+Figure 14.2
+reports the number of dividend changes (increases, decreases, no change) between 1988 and 2008.
+Figure 14.2
+ Dividend Changes by Year: U.S. Companies
+
+The number of firms increasing dividends outnumbers those decreasing dividends seven to one. The
+number of firms, however, that do not change dividends outnumbers firms that do about four to one.
+Dividends are also less variable than either FCFE or earnings, but this reduced volatility is a result
+of keeping dividends significantly below the FCFE.
+Future Investment Needs
+A firm might hold back on paying its entire FCFE as dividends if it expects substantial increases in
+capital expenditure needs in the future. Since issuing stocks is expensive (with floatation costs and
+issuance fees), it may choose to keep the excess cash to finance these future needs. Thus, to the degree
+that a firm is unsure about its future financing needs, it will retain some cash to take on unexpected
+investments or meet unanticipated needs.
+Tax Factors
+If dividends are taxed at a higher tax rate than capital gains, a firm may choose to retain the excess
+cash and pay out much less in dividends than it has available. This is likely to be accentuated if the
+stockholders in the firm are in high tax brackets, as is the case with many family-controlled firms. If,
+however, investors in the firm like dividends or tax laws favor dividends, the firm may pay more out
+in dividends than it has available in FCFE, often borrowing or issuing new stock to do so.
+Signaling Prerogatives
+Firms often use dividends as signals of future prospects, with increases in dividends being viewed as
+positive signals and decreases as negative signals. The empirical evidence is consistent with this
+signaling story, since stock prices generally go up on dividend increases and down on dividend
+decreases. The use of dividends as signals may lead to differences between dividends and FCFE.
+Managerial Self-interest
+The managers of a firm may gain by retaining cash rather than paying it out as a dividend. The desire
+for empire building may make increasing the size of the firm an objective on its own. Or management
+may feel the need to build up a cash cushion to tide over periods when earnings may dip; in such
+periods, the cash cushion may reduce or obscure the earnings drop and may allow managers to remain
+in control.
+FCFE VALUATION MODELS
+The free cash flow to equity model does not represent a radical departure from the traditional
+dividend discount model. In fact, one way to describe a free cash flow to equity model is that it
+represents a model where we discount potential dividends rather than actual dividends.
+Consequently, the three versions of the FCFE valuation model presented in this section are simple
+variants on the dividend discount model, with one significant change—free cash flows to equity
+replace dividends in the models.

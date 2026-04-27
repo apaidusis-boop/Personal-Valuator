@@ -1,0 +1,58 @@
+ck to local currency by a domestic 
+investor; stocks and bonds modeled as full default at time of revolution. Annualized returns assume a full 10-year period even if markets closed during 
+the decade.
+
+31
+THE CHANGING WORLD ORDER
+WORST INVESTOR EXPERIENCES (ACROSS MAJOR COUNTRIES)
+Major Cases of 60/40 Real Returns Below -40% over a 20-Year Window
+Country 20yr Window
+Worst 20yr 
+Return 
+(Real, Cumul)
+Detail
+Russia 1900–1918 -100%
+The Russian Civil War ended with communist rule, 
+debt repudiation, and the destruction of financial 
+markets.
+China 1930–1950 -100%
+Asset markets closed during WWII and were de-
+stroyed when communist rule took hold in the late 
+1940s. 
+Germany 1903–1923 -100% Weimar Republic hyperinflation led to a collapse in 
+assets following WWI.
+Japan 1928–1948 -96% Japanese markets and currency collapsed as  
+markets reopened post-WWII and inflation soared. 
+Austria 1903–1923 -95% Similar to Weimar Germany (though less infamous); 
+hyperinflation led to poor asset returns post-WWI.
+France 1930–1950 -93%
+The Great Depression, followed by WWII and 
+German occupation, led to poor returns and high 
+inflation.
+Italy 1928–1948 -87% Similar to those of other Axis powers, Italian markets 
+collapsed as WWII concluded.
+Italy 1907–1927 -84% Post-WWI, Italy suffered from economic depression 
+and high inflation, helping lead to Mussolini’s rise.
+France 1906–1926 -75% The early 20th century saw WWI, followed by France’s 
+inflationary currency crisis in the early 1920s.
+Italy 1960–1980 -72%
+Italy endured a series of recessions, high  
+unemployment rate and inflation, and currency 
+declines in the 1960–70s.
+India 1955–1975 -66%
+Post-independence, a series of major droughts 
+caused weak Indian economic growth and  
+high inflation. 
+Spain 1962–1982 -59% The post-Franco transition to democracy coupled 
+with the inflationary 1970s strained Spain’s economy.
+Germany 1929–1949 -50% The Great Depression followed by the devastation of 
+WWII led to a terrible period for German assets. 
+France 1961–1981 -48% Like other European nations, the 1960–70s saw weak-
+er growth, currency declines, and high inflation.
+UK 1901–1921 -46% The early 20th century saw World War I, followed by 
+the depression of 1920–21.
+5
+5 Cases of poor asset returns in smaller countries such as Belgium, Greece, New Zealand, Norway, Sweden, Switzerland, and across the emerg -
+ing world are excluded from this table. Note that for conciseness the worst 20-year window is shown for each country/time period (i.e., including 
+Germany in 1903–23 precludes including Germany from 1915–35). For our 60/40 portfolios, we assumed monthly rebalancing across the 20-year 
+window.

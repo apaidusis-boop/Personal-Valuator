@@ -1,0 +1,61 @@
+d here?
+21.
+ Southwestern Bell, a phone company, is considering expanding its operations into the media
+business. The beta for the company at the end of 1995 was 0.90, and the debt-to-equity ratio was
+
+1. The media business is expected to be 30% of the overall firm value in 1999, and the average
+beta of comparable firms is 1.20; the average debt-to-equity ratio for these firms is 50%. The
+marginal corporate tax rate is 36%.
+a.
+ Estimate the beta for Southwestern Bell in 1999, assuming that it maintains its current debt-to-
+equity ratio.
+b.
+ Estimate the beta for Southwestern Bell in 1999, assuming that it decides to finance its media
+operations with a debt-to-equity ratio of 50%.
+22.
+ The chief financial officer of Adobe Systems, a growing software manufacturing firm, has
+approached you for some advice regarding the beta of his company. He subscribes to a service
+that estimates Adobe Systems' beta each year, and he has noticed that the beta estimates have gone
+down every year since 1991—from 2.35 in 1991 to 1.40 in 1995. He would like the answers to
+the following questions:
+a.
+ Is this decline in beta unusual for a growing firm?
+b.
+ Why would the beta decline over time?
+c.
+ Is the beta likely to keep decreasing over time?
+23.
+ You are analyzing Tiffany & Company, an upscale retailer, and find that the regression
+estimate of the firm's beta is 0.75; the standard error for the beta estimate is 0.50. You also note
+that the average unlevered beta of comparable specialty retailing firms is 1.15.
+a.
+ If Tiffany has a debt/equity ratio of 20%, estimate the beta for the company based on
+comparable firms. (The tax rate is 40%.)
+b.
+ Estimate a range for the beta from the regression.
+c.
+ Assume that Tiffany is rated BBB and that the default spread for BBB-rated firms is 1% over
+the Treasury bond rate. If the Treasury bond rate is 6.5%, estimate the cost of capital for the
+firm.
+24.
+ You have been asked to estimate the cost of capital for NewTel, a telecom firm. The firm has
+the following characteristics:
+There are 100 million shares outstanding, trading at $250 per share.
+The firm has a book value of debt with a maturity of six years of $10 billion, and
+interest expenses of $600 million on the debt. The firm is not rated, but it had operating
+income of $2.5 billion last year. (Firms with an interest coverage ratio of 3.5 to 4.5
+were rated BBB, and the default spread was 1%.)
+The 
+tax rate for the firm is 35%.
+The Treasury bond rate is 6%, and the unlevered beta of other telecom firms is 0.80.
+a.
+ Estimate the market value of debt for this firm.
+b.
+ Based on the synthetic rating, estimate the cost of debt for this firm.
+c.
+ Estimate the cost of capital for this firm.
+1
+ The regression is sometimes calculated using returns in excess of the riskless rate for both the
+stock and the market. In that case, the intercept of the regression should be zero if the actual returns
+equal the expected returns from the CAPM, greater than zero if the stock does better than expected,
+and less than zero if it does worse than expected.

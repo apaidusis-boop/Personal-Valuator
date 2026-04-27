@@ -1,0 +1,42 @@
+then used Titan's market values of equity (566.95 million Gdr) and debt (13.38 million Gdr) to estimate a levered beta for
+its equity:
+We used Titan's marginal tax rate of 24.14% in this calculation.
+
+HOW WELL DO BETAS TRAVEL?
+Often, when analyzing firms in small or emerging markets, we have to estimate betas by looking at firms in the same
+business but traded on other markets. This is what we did when estimating the beta for Titan Cement. Is this appropriate?
+Should the beta for a steel company in the United States be comparable to that of a steel company in Indonesia? We see no
+reason why it should not be. But the company in Indonesia has much more risk, you might argue. We do not disagree, but
+the fact that we use similar betas does not mean that we believe that the costs of equity are identical across all steel
+companies. In fact, using the approach described in the preceding chapter, the risk premium used to estimate the cost of
+equity for the Indonesian company will incorporate a country risk premium, whereas the cost of equity for the U.S. company
+will not. Thus, even if the betas used for the two companies are identical, the cost of equity for the Indonesian company will
+be much higher.
+There are a few exceptions to this proposition. Recall that one of the key determinants of betas is the degree to which a
+product or service is discretionary. It is entirely possible that products or services that are discretionary in one market (and
+command high betas) may be nondiscretionary in another market (and have low betas). For instance, phone service is
+viewed as a nondiscretionary product in most developed markets, but is a discretionary product in emerging markets.
+Consequently, the average beta estimated by looking at telecom firms in developed markets will understate the true beta of a
+telecom firm in an emerging market. For the latter beta, the comparable firms should be restricted to include only telecom
+firms in emerging markets.
+Calculating Betas after a Major Restructuring
+The bottom-up process of estimating betas provides a solution when firms go through major
+restructurings that change both their business mix and their leverage. In these cases, the regression
+betas are misleading because they do not reflect fully the effects of these changes. Boeing's beta
+estimated using the bottom-up approach is likely to provide a more precise estimate than the
+historical beta from a regression of Boeing's stock prices, given Boeing's acquisitions of Rockwell
+and McDonnell Douglas and its increase in leverage. In fact, a firm's beta can be estimated using the
+bottom-up approach even before the restructuring becomes effective. Illustration 8.7, for instance,
+estimates Boeing's beta just before and after its acquisition of McDonnell Douglas, allowing for the
+changes in both the business mix and the leverage.
+ILLUSTRATION 8.7: Beta of a Firm after an Acquisition:
+Boeing and McDonnell Douglas
+In 1997, Boeing announced that it was acquiring McDonnell Douglas, another company involved in the aerospace and
+defense business. At the time of the acquisition, the two firms had the following market values and betas:
+Note that the market values of equity used for the two firms reflect the market values after the acquisition announcement
+and reflect the acquisition price agreed on for McDonnell Douglas shares.
+In order to evaluate the effects of the acquisition on Boeing's beta, we first examine the effects of the merger on the
+business risk of the combined firm by estimating the unlevered betas of the two companies and calculating the combined
+firm's unlevered beta. (We used a marginal tax rate of 35% for both firms.)
+The unlevered beta for the combined firm can be calculated as the weighted average of the two unlevered betas, with the
+weights based on the market values of the two firms.

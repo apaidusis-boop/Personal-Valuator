@@ -1,0 +1,73 @@
+of the price-earnings
+ratio on the growth rate, the payout ratio, and the beta for stocks for the time period from 1961 to
+1965.
+Year
+Equation
+R-Squared
+1961
+PE = 4.73 + 3.28 g + 2.05 π − 0.85 β
+0.70
+
+1962
+PE = 11.06 + 1.75 g + 0.78 π − 1.61 β
+0.70
+1963
+PE = 2.94 + 2.55 g + 7.62 π − 0.27 β
+0.75
+1964
+PE = 6.71 + 2.05 g + 5.23 π − 0.89 β
+0.75
+1965
+PE = 0.96 + 2.74 g + 5.01 π − 0.35 β
+0.85
+where PE = Price-earnings ratio at the start of the year 
+g = Growth rate in earnings 
+π = Earnings payout ratio at the start of the year 
+β = Beta of the stock
+They concluded that while such models were useful in explaining PE ratios, they were of little use in
+predicting performance. In both these studies, the three variables used—payout, risk, and growth—
+represent the three variables that were identified as the determinants of PE ratios in an earlier
+section.
+The regressions were updated from 1987 to 1991 in the first edition of this book using a much
+broader sample of stocks.
+3
+ The results are summarized as follows:
+Year
+Regression
+R-Squared
+1987
+PE = 7.1839 + 13.05 Payout − 0.6259 Beta + 6.5659 EGR
+0.9287
+1988
+PE = 2.5848 + 29.91 Payout − 4.5157 Beta + 19.9143 EGR
+0.9465
+1989
+PE = 4.6122 + 59.74 Payout − 0.7546 Beta + 9.0072 EGR
+0.5613
+1990
+PE = 3.5955 + 10.88 Payout − 0.2801 Beta + 5.4573 EGR
+0.3497
+1991
+PE = 2.7711 + 22.89 Payout − 0.1326 Beta + 13.8653 EGR
+0.3217
+where EGR is a historical growth rate in EPS. Note the volatility in the R-squared over time and the
+changes in the coefficients on the independent variables. For instance, the R-squared in the
+regressions reported declines from 0.93 in 1987 to 0.32 in 1991, and the coefficients change
+dramatically over time. Part of the reason for these shifts is that earnings are volatile, and price-
+earnings ratios reflect this volatility. The low R-squared for the 1991 regression can be ascribed to
+the recession's effects on earnings in that year. These regressions are clearly not stable, and the
+predicted values are likely to be noisy.
+Updated Market Regressions
+The data needed to run market regressions is much more easily available today than it was for these
+earlier studies. In this section, the results of two regressions are presented. In the first regression, run
+in January 2011, the PE ratio was regressed against payout ratios, betas, and expected growth for all
+firms in the market:
+4
+With the sample size about 1,600 firms, this regression represents the broadest measure of relative
+value.
+This regression has a low R-squared, but it is more a reflection of the noise in PE ratios than it is
+on the regression methodology. As you will see, the market regressions for price-to-book value and
+price-to-sales ratios tend to be better behaved and have a higher R-squared than PE ratio regressions.
+The other disquieting finding is that the coefficients on the variables do not always have the signs you
+would expect them to have. For instance, higher-risk stocks (higher betas) have higher PE ratios,
+when fundamentals would lead you to expect the opposite.

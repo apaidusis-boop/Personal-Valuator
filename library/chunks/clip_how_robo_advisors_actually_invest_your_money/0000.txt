@@ -1,0 +1,19 @@
+Robo-advisors are [automated investment platforms](https://www.investopedia.com/automate-your-wealth-simply-with-a-robo-advisor-11778718) that use machine learning and algorithms to build and manage portfolios based on your financial goals and risk profile. Designed to streamline the investing process, they automatically handle tasks like asset allocation and portfolio rebalancing.
+
+Robo-advisors have grown to manage more than a trillion in assets as of 2025.1 This article explores the mechanics behind these platforms—how they select investments, manage risk, and where human oversight still plays a role.
+
+### Key Takeaways
+
+- Robo-advisors like Betterment and Wealthfront use advanced algorithms for portfolio management.
+- Rebalancing and tax-loss harvesting are key automated features.
+- Human oversight is limited but important for system design and edge cases.
+- Common portfolio-building strategies include modern portfolio theory and asset allocation models.
+- Robo-advisors lower the barrier to investing, but aren’t substitutes for advisors for complex financial planning.
+
+## The Technical Aspects of Robo-Advisors
+
+Although robo-advisors appear simple on the surface, they operate on sophisticated software and financial logic designed to manage money efficiently and at scale. These platforms use a combination of financial models, real-time data, and secure infrastructure to automate portfolio management. Let’s break them down.
+
+Every robo-advisor starts with data. To keep things running smoothly, platforms use centralized data repositories called “data lakes.”2 These storage centers consolidate client profiles, transaction histories, market feeds, and risk models in a single location. This centralization makes it easier for algorithms to analyze your information and respond to market conditions.
+
+Robo-advisors are based on algorithms that do the following:3

@@ -1,0 +1,56 @@
+her efforts, there are some costs that may affect the
+value of the franchise. Among these costs are the following:
+The problems of the franchisor can spill over onto the franchisee. For instance, when
+
+Daewoo, the Korean automaker, borrowed too much and got into financial trouble, its
+dealers around the world felt the repercussions. Similarly, McDonald's franchisees around
+the world have been targeted by antiglobalization activists. Thus, an efficient and well-run
+franchise's value can be affected by actions that it has little or no control over.
+Since franchisors tend to be large corporations and franchisees tend to be small
+businesspeople, the former often have much more bargaining power and sometimes take
+advantage of it to change the terms of franchise agreements in their favor. Franchisees can
+increase their power by banding together and bargaining as a collective unit.
+The value of a franchise derives from the exclusive rights it grants the franchisee to sell the
+products of a firm. This value can be diluted if a franchise is granted to a competitor. For
+instance, the value of a Days Inn franchise may be diluted if another Days Inn is allowed to
+open five miles down the highway.
+ILLUSTRATION 27.1: Valuing a New York City Cab
+Medallion—June 1994
+BACKGROUND
+In 1994, New York City had 11,787 cab medallions outstanding.
+1
+ The owner of a cab medallion has the right
+to operate a yellow cab in the five boroughs of New York City—Manhattan, Brooklyn, the Bronx, Queens,
+and Staten Island.
+New York City restricts non–medallion owners from picking up customers on the street, though they can still
+be summoned in other ways.
+All yellow cabs in the city are regulated by the Taxi and Limousine Commission, which sets fares and
+reserves the right to fine owners who do not follow its numerous requirements.
+CASH FLOWS ON A CAB MEDALLION
+The typical New York City cab is a Chevrolet Caprice. The cost of acquiring one in 1994 was approximately
+$15,000, and it has an expected life of 10 years. The cab can be depreciated over the life down to a salvage
+value of zero.
+A cab can be expected to be on the road 330 days of the year, with an expected down time (for
+maintenance) of 35 days, and generate $250 a day in revenues prior to meeting operating and maintenance
+expenses and covering the cost of time for the driver.
+The annual cost of fuel and operating expenses is expected to be 25% of revenues, and the maintenance
+expenses are expected to amount to $1,500 a year.
+The cost of automobile insurance, covering the cost of collision, theft, and bodily harm, is $2,000 per year.
+The annual fee to be paid to the Taxi and Limousine Commission is $500. Other licensing costs are expected
+to amount to $500 a year.
+The total cost per day, inclusive of benefits, of the driver of the cab is expected to amount to $100. (This also
+includes the 35 days where the car is down for maintenance.)
+ESTIMATING RISK AND DISCOUNT RATES
+The capacity of a cab to pull in the expected revenues is a function of several variables:
+State of the city's economy.
+ The more buoyant the economy of the city, the greater are the potential
+revenues from owning and operating a cab in it. Since the condition of New York City's economy is, in large
+part, driven by the state of the financial services sector, there is in all likelihood a positive correlation between
+cab revenues and financial service sector health.
+Scarcity of cabs.
+ The value of a cab medallion is derived directly from the fact that there are a limited
+number of medallions that are sold. To the extent that the city can either issue more medallions or allow gypsy
+cabs (unlicensed taxis) to operate within the environs of the city, it can affect the expected revenues.
+Fare structure.
+ Since the fare structure is regulated, the expected revenues from owning a cab in the future
+will be dependent on the generosity of raises that the Taxi and Limousine Commission allows.

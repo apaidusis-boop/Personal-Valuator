@@ -1,0 +1,23 @@
+This spreadsheet allows you to compute the optimal debt ratio firm value for any firm,
+using the same information used for Disney. It has updated interest coverage ratios and default
+spreads built in.
+
+DEFAULT RISK, OPERATING INCOME, AND
+OPTIMAL LEVERAGE
+The Disney analysis just completed assumed that operating income would remain constant while the debt ratios changed.
+While this assumption simplifies the analysis substantially, it is not realistic. The operating income, for many firms, will drop
+as the default risk increases; this, in fact, is the cost we label as an indirect bankruptcy cost. The drop is likely to become
+more pronounced as the default risk falls below an acceptable level; for instance, a bond rating below investment grade may
+trigger significant losses in revenues and increases in expenses.
+  A general model for optimal capital structure would allow both operating income and cost of capital to change as the debt
+ratio changes. We have already described how we can estimate cost of capital at different debt ratios, but we could also
+attempt to do the same with operating income. For instance, we could estimate how the operating income for Disney would
+change as debt ratios and default risk changes by looking at the effects of rating downgrades on the operating income of
+other retailers.
+  If both operating income and cost of capital change, the optimal debt ratio may no longer be the point at which the cost of
+capital is minimized. Instead, the optimal debt ratio has to be defined as that debt ratio at which the value of the firm is
+maximized.
+ADJUSTED PRESENT VALUE AND FINANCIAL
+LEVERAGE
+In the adjusted present value (APV) approach, we begin with the value of the firm without debt. As
+we add debt to the firm, we consider the net effect on value by considering both the benefits and the

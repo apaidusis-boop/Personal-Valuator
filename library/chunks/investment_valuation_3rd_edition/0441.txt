@@ -1,0 +1,37 @@
+PV
+approach is more useful for transactions that are funded disproportionately with debt and where debt
+repayment schedules are negotiated or known; this is why it has acquired a footing in leveraged-
+
+buyout circles. Finally, there is a subtle distinction in how the tax benefits from debt are incorporated
+in value in the two approaches. While the conventional APV approach uses the pre-tax cost of debt as
+the discount rate to estimate the value of the tax savings from debt, there are variations on the APV
+that discount the tax savings back at the cost of capital or the unlevered cost of equity that yield values
+that are closer to those obtained in the cost of capital approach.
+APV WITHOUT BANKRUPTCY COSTS
+There are many who believe that adjusted present value is a more flexible way of approaching valuation than traditional
+discounted cash flow models. This may be true in a generic sense, but APV valuation in practice has significant flaws. The
+first and most important is that most practitioners who use the adjusted present value model ignore expected bankruptcy
+costs. Adding the tax benefits to unlevered firm value to get to levered firm value makes debt seem like an unmixed blessing.
+Firm value will be overstated, especially at very high debt ratios, where the cost of bankruptcy is clearly not zero.
+EFFECT OF LEVERAGE ON FIRM VALUE
+Both the cost of capital approach and the APV approach make the value of a firm a function of its
+leverage. It follows directly, then, that there is some mix of debt and equity at which firm value is
+maximized. The rest of this chapter considers how best to make this link.
+Cost of Capital and Optimal Leverage
+In order to understand the relationship between the cost of capital and optimal capital structure, we
+rely on the relationship between firm value and the cost of capital. The earlier section noted that the
+value of the entire firm can be estimated by discounting the expected cash flows to the firm at the
+firm's cost of capital.
+The firm value can then be written as follows:
+and is a function of the firm's cash flows and its cost of capital. If we assume that the cash flows to
+the firm are unaffected by the choice of financing mix, and the cost of capital is reduced as a
+consequence of changing the financing mix, the value of the firm will increase. If the objective in
+choosing the financing mix for the firm is the maximization of firm value, we can accomplish it, in this
+case, by minimizing the cost of capital. In the more general case where the cash flows to the firm are
+a function of the debt-equity mix, the optimal financing mix is the mix that maximizes firm value.
+8
+ILLUSTRATION 15.6: WACC, Firm Value, and Leverage
+Assume that you are given the costs of equity and debt at different debt levels for Strunks Inc., a leading manufacturer of
+chocolates and other candies, and that the cash flows to this firm are currently $200 million. Strunks is in a relatively stable
+market, and these cash flows are expected to grow at 6% forever and to be unaffected by the debt ratio of the firm. The
+cost of capital schedule is provided in the following table, along with the value of the firm at each level of debt.

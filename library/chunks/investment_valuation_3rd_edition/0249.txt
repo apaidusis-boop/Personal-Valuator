@@ -1,0 +1,57 @@
+.
+The cost of capital is a weighted average of the costs of the different components of financing, with
+the weights based on the market values of each component. The cost of debt is the market rate at
+
+which the firm can borrow, adjusted for any tax advantages of borrowing. The cost of preferred stock,
+however, is the preferred dividend yield.
+The cost of capital is useful at two levels. On a composite basis, it is what these firms have to make
+collectively on their investments to break even. It is also the appropriate discount rate to use to
+discount expected future cash flows to arrive at an estimate of firm value.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified and a tax
+rate of 40 percent where no tax rate is provided.
+1.
+ In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time
+was 5.8%, and the Treasury bond rate was 6.4%. The firm had debt outstanding of $1.7 billion
+and a market value of equity of $1.5 billion; the corporate marginal tax rate was 36%. (The
+historical risk premium for stocks over Treasury bills is 8.5% and the risk premium for stocks
+over Treasury bonds is 5.5%.)
+a.
+ Estimate the expected return on the stock for a short-term investor in the company.
+b.
+ Estimate the expected return on the stock for a long-term investor in the company.
+c.
+ Estimate the cost of equity for the company.
+2.
+ Continuing problem 1, Boise Cascade also had debt outstanding of $1.7 billion and a market
+value of equity of $1.5 billion; the corporate marginal tax rate was 36%.
+a.
+ Assuming that the current beta of 0.95 for the stock is a reasonable one, estimate the unlevered
+beta for the company.
+b.
+ How much of the risk in the company can be attributed to business risk and how much to
+financial leverage risk?
+3.
+ Biogen Inc., a biotechnology firm, had a beta of 1.70 in 1995. It had no debt outstanding at the
+end of that year.
+a.
+ Estimate the cost of equity for Biogen if the Treasury bond rate is 6.4%.
+b.
+ What effect will an increase in long-term bond rates to 7.5% have on Biogen's cost of equity?
+c.
+ How much of Biogen's risk can be attributed to business risk?
+4.
+ Genting Berhad is a Malaysian conglomerate with holdings in plantations and tourist resorts.
+The beta estimated for the firm relative to the Malaysian stock exchange is 1.15, and the long-term
+government borrowing rate in Malaysia is 11.5%. (The Malaysian risk premium is 12% and the
+default spread on Malaysian local currency debt is 2%.)
+a.
+ Estimate the expected return on the stock.
+b.
+ If you were an international investor, what concerns, if any, would you have about using the
+beta estimated relative to the Malaysian Index? If you do have concerns, how would you modify
+the beta?
+5.
+ You have just done a regression of monthly stock returns of HeavyTech Inc., a manufacturer of
+heavy machinery, on monthly market returns over the past five years and have come up with the
+following regression:

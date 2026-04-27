@@ -1,0 +1,45 @@
+up a bit (by 1 to 2 percent of GDP).
+ • Capital inflows start to return a few years later (on average four to five). Equities take about the same 
+amount of time to recover in foreign currency terms. 
+
+Part 1: The Archetypal Big Debt Cycle 
+58
+The Spiral from a More Transitory Inflationary 
+Depression to Hyperinflation
+While in many cases policy makers are able to engineer a recovery in which incomes and spending pick up and 
+inflation rates return to more typical levels (transitory balance of payments crises), a subset of inflationary depres -
+sions do spiral into hyperinflations. Hyperinflations consist of extreme levels of inflation (goods and services 
+prices more than doubling every year or worse) coupled with extreme losses of wealth and severe economic 
+hardship. Because these cases are more common than one might think, it is worth walking through how inflation -
+ary depressions spiral into hyperinflations. 
+The most important characteristic of cases that spiral into hyperinf lations is that policy makers don’t close 
+the imbalance between external income, external spending, and debt service, and keep funding external 
+spending over sustained periods of time by printing lots of money. In some cases, it’s not voluntary. Weimar 
+Germany had a crushing external debt service burden (war reparations) that for the most part couldn’t be defaulted 
+on. The amount of capital that needed to flow out of the country was so great that it was all but destined that 
+Weimar would face big inflation problems (see our case study for more color). In other cases, policy makers choose 
+to keep printing money to cover external spending—in effect, aiming to prop up growth rather than bringing 
+spending in line with income. If this is done repeatedly over years and on a large scale, a country might face a 
+hyperinflation that could have otherwise been avoided.
+As stated earlier, contrary to popular belief, it’s not so easy to stop printing money during a crisis. Stopping 
+printing when capital is flowing out can cause an extreme tightness of liquidity and often a deep economic 
+contraction. And the longer the crisis goes on, the harder it becomes to stop printing money. For instance, in 
+Weimar Germany there was literally a shortage of cash because the hyperinflation meant that the existing stock of 
+money could buy less and less. (By late October 1923, toward the end of the crisis, Germany’s entire 1913 stock of 
+money would have just about gotten you a one-kilo loaf of rye bread.) To stop printing would have meant there 
+was so little cash that commerce would have virtually ground to a halt (at least until they came up with an 
+alternate currency). In an inflation spiral, printing money can seem like the prudent choice at the time—but 
+continuing to print money time and time again feeds the inflation spiral until there is no way out.
+How the Spiral Plays Out
+Over time, as the currency declines and printing is used more and more, people begin to shift their behavior and 
+an inflationary psychology sets in. Currency declines inspire additional capital flight, which causes an escalating 
+feedback loop of depreciation, inflation, and money printing. Eventually, the linkages that drove growth in earlier 
+rounds decline and money printing become less effective. 
+With each round of printing, more of the printed money is transferred to real or foreign assets instead of 
+being spent on goods and services that fuel economic activity. Since investors that shorted cash and bought 
+real/foreign assets were repeatedly better off than those who saved and invested domestically, domestic currency 
+holders shift from investing the printed money in productive assets to real assets (like gold) and foreign currency, 
+in order to hedge inflation and a deterioration in their real wealth. Foreign investors stay away. Because the 
+economy is weak and investors are buying real assets, stocks suffer and no longer provide the wealth effect that 
+drove earlier rounds of spending. The result is a currency devaluation that doesn’t stimulate growth. This dynamic 
+is important to inflationary deleveragings, so we’ll walk through it in detail.

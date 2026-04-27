@@ -1,0 +1,45 @@
+value per share of
+$42.55.
+Boeing
+Home Depot
+Cost of capital
+9.17%
+9.51%
+Return on capital
+6.59%
+16.38%
+Reinvestment rate
+65.98%
+88.62%
+Expected growth rate
+4.35%
+14.51%
+Value per share
+$13.14
+$42.55
+
+If the Home Depot could increase its reinvestment rates without affecting its returns on capital, the effect on value will be
+positive, because it is earning excess returns. For Boeing, the effect of increasing the reinvestment rate at the current return
+on capital will be negative, since the firm’s return on capital is less than its cost of capital. 
+Figure 31.5
+ summarizes the
+impact on the value of equity of changing the reinvestment rate at both firms, keeping the cost of capital.
+Figure 31.5
+ Effect of Changes in the Reinvestment Rate on the Value of Equity
+To illustrate, we reduced the reinvestment rate at Boeing from 65.98% to 45.98% and examined the percentage effect on
+value of equity; the change was +4.49%. The effect of a similar change at the Home Depot was negative. The effects of
+changes in the reinvestment rate were dramatic at the Home Depot, because the high growth period lasts 10 years.
+fundgrEB.xls:
+
+This dataset on the Web summarizes returns on capital and reinvestment rates by
+industry group for the United States.
+Negative Earnings Firms
+For young firms with negative earnings, expected future cash flows are derived from assumptions
+made about three variables—the expected growth rate in revenues, the target operating margin, and
+the sales-to-capital ratio. The first two variables determine the operating earnings in future years, and
+the last variable determines reinvestment needs. 
+Figure 31.6
+ summarizes the impact of each of these
+variables on the cash flows.
+Figure 31.6
+ Determinants of Growth

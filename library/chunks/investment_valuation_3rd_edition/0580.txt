@@ -1,0 +1,41 @@
+n's Q resembles the value-to-book value ratio described in the preceding section.
+Description
+If we use the strict definition of Tobin's Q, we cannot get a cross-sectional distribution of the multiple
+
+because the information to estimate it is neither easily accessible nor even available. This is a serious
+impediment to using the multiple because we have no sense of what a high, low, or average number
+for the multiple would be. For instance, assume that you find a firm trading at 1.2 times the
+replacement cost of the assets. You would have no way of knowing whether you were paying too
+much or too little for this firm without knowing the summary statistics for the market.
+Analysis
+The value obtained from Tobin's Q is determined by two variables—the market value of the firm and
+the replacement cost of assets in place. In inflationary times, when the cost of replacing assets
+increases over time, Tobin's Q will generally be lower than the unadjusted price–book value ratio,
+and the difference will increase for firms with older assets. Conversely, if the cost of replacing assets
+declines much faster than the book value (because of technological changes), Tobin's Q will generally
+be higher than the unadjusted price–book value ratio.
+Tobin's Q is also determined by how efficiently a firm manages its assets and extracts value from
+them relative to the next best bidder. To see why, note that the market value of an asset will be equal
+to its replacement cost when assets earn their required return. (If the return earned on capital is equal
+to the cost of capital, investments have a zero net present value, and the present value of the cash
+flows from the investment will be equal to the replacement cost.) Carrying this logic forward, Tobin's
+Q will be less than 1 if a firm earns less than its required return on investments, and more than 1 if it
+earns positive excess returns.
+Applications
+Tobin's Q is a practical measure of value for a mature firm with most or all of its assets in place,
+where replacement cost can be estimated for the assets. Consider, for example, a steel company with
+little or no growth potential. The market value of this firm can be used as a proxy for the market value
+of its assets, and you could adjust the book value of the assets owned by the firm for inflation. In
+contrast, estimating the market value of assets owned would be difficult for a high-growth firm, since
+the market value of equity for this firm will include a premium for future growth.
+Tobin's Q is more a measure of the perceived quality of a firm's management than it is of
+misvaluation, with poorly managed firms trading at market values that are lower than the replacement
+cost of the assets that they own. In fact, several studies have examined whether such firms are more
+likely to be taken over. Lang, Stulz, and Walkling (1991) concluded that firms with low Tobin's Q are
+more likely to be taken over for purposes of restructuring and increasing value. They also find that
+shareholders of high Tobin's Q bidders gain significantly more from successful tender offers than
+shareholders of low Tobin's Q bidders.
+CONCLUSION
+The relationship between price and book value is much more complex than most investors realize.
+The price–book value ratio of a firm is determined by its expected payout ratio, its expected growth
+rate in earnings, and its riskiness. The most important determinant, however, is the return on equity

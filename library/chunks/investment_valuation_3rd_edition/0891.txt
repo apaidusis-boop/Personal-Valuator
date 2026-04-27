@@ -1,0 +1,51 @@
+values of equity and debt in the individual firms and the combined firm using the
+option pricing model:
+The combined value of the equity prior to the merger is $210.42 million; it declines to $207.58
+
+million after that. The wealth of the bondholders increases by an equal amount. There is a transfer of
+wealth from stockholders to bondholders as a consequence of the merger. Thus conglomerate mergers
+that are not followed by increases in leverage are likely to result in a wealth transfer from
+stockholders to bondholders.
+IS EQUITY NOT A CALL OPTION IN EVERY FIRM?
+Looking at the framework employed in this chapter, you are probably wondering why equity in every firm cannot be viewed
+as a call option and why therefore we should not add a premium to discounted cash flow values for all firms. It is true that
+equity is a call option in every firm, but in most firms the value of the firm as a going concern will be greater than the value
+you obtain from a liquidation option. Consider, for instance, a high-growth firm with very little in assets in place and a high
+proportion of value from growth potential. If this firm liquidates, it will get the value of its assets in place; this will become
+the value of the underlying asset in the option pricing model and determine the value of equity as a call option on the firm.
+This value will be much lower than the value you would obtain if you valued the firm as a going concern and considered the
+cash flows from expected growth. For some mature firms that derive most of their value from assets in place and substantial
+debt, the equity value as a call option on liquidation can be the higher value. For other firms, though, the equity value as a
+going concern will be greater.
+CONCLUSION
+The value of equity in deeply troubled firms—firms with negative earnings and high leverage—can
+be viewed as a call option. The option rests in the hands of equity investors, who can choose to
+liquidate the firm and claim the difference between firm value and debt oustanding. With limited
+liability, they do not have to make up the difference if firm value falls below the value of the
+outstanding debt. The equity will retain value even when the value of the assets of the firm is lower
+than the debt outstanding, because of the time premium on the option.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Designate the following statements as true or false:
+a.
+ Equity can be viewed as an option because equity investors have limited liability (limited to
+their equity investment in the firm). 
+True ____ 
+False ____
+b.
+ Equity investors will sometimes take bad projects (with negative net present value) because
+they can add to the value of the firm. 
+True ____ 
+False ____
+c.
+ Investing in a good project (with positive NPV)—which is less risky than the average risk of
+the firm—can negatively impact equity investors. 
+True ____ 
+False ____
+d.
+ The value of equity in a firm is an increasing function of the duration of the debt in the firm
+(i.e., equity will be more valuable in a firm with longer-term debt than in an otherwise similar
+firm with short-term debt). 
+True ____ 
+False ____

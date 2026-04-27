@@ -1,0 +1,25 @@
+ms, to calculate the average PBV ratio for this group, and to base the PBV ratio estimate for a firm
+on this average. The adjustments made to reflect differences in fundamentals between the firm being
+
+valued and the comparable group are usually made subjectively. There are several problems with this
+approach. First, the definition of a comparable firm is essentially a subjective one. The use of other
+firms in the industry as the control group is often not a complete solution because firms within the
+same industry can have very different business mixes and risk and growth profiles. There is also
+plenty of potential for bias. Second, even when a legitimate group of comparable firms can be
+constructed, differences will continue to persist in fundamentals between the firm being valued and
+this group. Adjusting for differences subjectively does not provide a satisfactory solution to this
+problem, since these judgments are only as good as the analysts making them.
+Given the relationship between price–book value ratios and returns on equity, it should not be
+surprising to see firms that have high returns on equity sell for well above book value and firms that
+have low returns on equity sell at or below book value. The firms that should draw attention from
+investors are those that provide mismatches of price–book value ratios and returns on equity—low
+PBV ratios and high ROE, or high PBV ratios and low ROE. There are two ways in which we can
+bring home these mismatches—a matrix approach and a sector regression.
+Matrix Approach
+If the essence of misvaluation is finding firms that have price-to-book ratios that do not go with their
+equity return spreads, the mismatch can be brought home by plotting the price-to-book value ratios of
+firms against their excess returns, i.e., the difference between return and cost of equity. 
+Figure 19.5
+presents such a plot.
+Figure 19.5
+ Price-to-Book Ratios and Return on Equity

@@ -1,0 +1,31 @@
+l be sold to the public, and the current owners will retain all
+of the voting shares.
+To value the voting and nonvoting shares, we need to value InfoSoft under optimal management. Assume that the firm
+
+would be worth $20 million under optimal management.
+4
+ The value of the voting and nonvoting shares can then be
+computed.
+Assume that the fact that incumbent managers will retain the voting shares reduces the probability of management change to
+25%.
+VALUING VENTURE CAPITAL AND PRIVATE
+EQUITY STAKES
+In the previous illustrations we looked at two extremes in the private company valuation spectrum: a
+private-to-private transaction, where the buyer and the seller were completely undiversified (and thus
+exposed to total risk) and a private-to-public transaction, an IPO, or sale of a private to a public
+company, where more conventional valuation approaches work.
+There is an intermediate case, where venture capitalists and private equity investors take stakes in
+private businesses, with the intent of cashing out when the company goes public or is sold to a public
+entity. Venture capitalists and private equity investors are more diversified than private owners, but
+they are not as diversified as investors in public markets are for two reasons. The first is that they
+specialize in a few businesses: Many venture capitalists invest only in biotechnology companies or
+software businesses. The second is that the size of their positions (which tend to be large) and the
+need for oversight restrict them from having more than a handful of open positions at any time.
+In a sense, if you think of total beta as the appropriate measure for the completely undiversified end
+of the spectrum and market beta as the right risk measure for the completely diversified buyer, venture
+capitalists and private equity investors fall in the middle of the spectrum. In fact, we can modify the
+total beta equation to reflect these differences:
+Thus, we are replacing the correlation of the private firm with the market with the correlation of the
+investor's portfolio. At the limit, a private equity investor like Blackstone or KKR may have so many
+holdings spread over so many different businesses that the correlation of their portfolios with the
+market will approach 1 and the beta that they should use is a market beta.

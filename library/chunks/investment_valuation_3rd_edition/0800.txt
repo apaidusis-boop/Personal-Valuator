@@ -1,0 +1,49 @@
+and lower value. Uncertainty about rent control laws, in terms of both how much the cap will be
+and whether the laws will be revised, will add to the estimation error in the valuation.
+Terminal Value
+
+In all discounted cash flow valuation models, a key input is the estimate of terminal value, that is, the
+value of the asset being valued at the end of the investment time horizon. There are three basic
+approaches that can be used to estimate the terminal value:
+1.
+ The current value of the property can be assumed to increase at the expected inflation rate to
+arrive at a terminal value. Thus the terminal value of a property, worth $10 million now, in 10
+years will be $13.44 million if the expected inflation rate is 3 percent (terminal value = $10 ×
+1.03
+10
+). The danger of this approach is that it starts off with the assumption that the current value
+of the asset is reasonable, and tries to then assess the true value of the asset.
+2.
+ An alternative to this approach is to assume that the cash flows in the terminal year (the last
+year of the investment horizon) will continue to grow at a constant rate forever after that. If this
+assumption is made, the terminal value of the asset is:
+where r is the discount rate (cost of equity if it is the terminal value of equity, and cost of capital if it
+is the terminal value of the asset) and CF
+t
+ is the cash flow (cash flow to equity if terminal value is for
+equity and to firm if terminal value is total terminal value).
+Thus if the property described earlier had produced a net cash flow, prior to debt payments, of $1.2
+million in year 10, this cash flow was expected to grow 3 percent a year forever after that and the
+cost of capital was 13 percent, the terminal value of the property can be written as:
+The assumption of perpetual cash flows may make some analysts uncomfortable, but one way to
+compensate is to require that more cash be set aside each year to ensure that the property life can be
+extended. If you use this approach, for instance, you could assume that the cash flow from
+depreciation be reinvested back into the building in the form of maintenance capital expenditures.
+3.
+ A close variation on the infinite growth model is the capitalization rate (cap rate) used by many
+real estate appraisers to value properties. In its most general form, the cap rate is the rate by
+which operating income is divided to get the value of the property.
+The capitalization rate is, in fact, the inverse of the value-to-EBIT multiple used to value publicly
+traded companies in Chapter 18.
+There are three ways in which capitalization rates are estimated. One is to use the average
+capitalization rate of similar properties that have sold recently. This is the equivalent of using the
+industry-average earnings multiple to estimate terminal value in a publicly traded company. The
+second is to use the surveys mentioned earlier to obtain an average cap rate used by other real estate
+investors. The third is to estimate the cap rate from a discounted cash flow model. To see the linkage
+with the infinite growth model, assume that the net operating income (prior to debt payments) is also
+the free cash flow to the firm (note that this essentially is the equivalent of assuming that capital
+maintenance expenditures equal depreciation). Then the capitalization rate can be written as a
+function of the discount rate and the expected growth rate:
+where r is the discount rate (the cost of equity if net income is being capitalized and the cost of
+capital if operating income is being capitalized) and g is the expected growth rate forever. In this
+example, the capitalization rate would have been:

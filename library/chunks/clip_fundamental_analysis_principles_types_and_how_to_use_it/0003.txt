@@ -1,0 +1,12 @@
+eriods of economic uncertainty or market volatility.
+
+## Where to Find Fundamentals for a Company
+
+Some of the most common and reliable sources for the fundamentals of a company include the following:
+
+- **Company filings**: Public companies are required to file regular reports with the Securities and Exchange Commission (SEC), such as [Form 10-K](https://www.investopedia.com/articles/fundamental-analysis/09/form-10k.asp) (annual report), Form 10-Q (quarterly report), and Form 8-K (current events report).2 These filings contain detailed financial statements, management discussions and analyses, and other important information about the company. You can access these filings for free on the SEC's EDGAR database.3
+- **Company website**:Most publicly traded companies have an investor relations section that provides financial statements, earnings releases, investor presentations, and other relevant information for shareholders and potential investors. Earnings call transcripts can be particularly helpful because companies use them to address their soft spots for analysts.
+- **Financial platforms**: Yahoo! Finance, Google Finance, and MarketWatch, among others, provide financial news, analysis, and fundamental data on publicly traded companies, including financial statements, key ratios, and analyst ratings.
+- **Broker research reports**: Many brokerage firms supply research reports on companies they and their affiliates cover, often with detailed fundamental analysis and investment recommendations.
+- **Financial data providers**: Subscription-based financial data providers such as Bloomberg, FactSet, and Morningstar offer extensive fundamental data and analysis on companies, industries, and markets. Subscriptions are often pricey, so they are more typically used by professional investors and analysts.
+- **Industry trade journals**: Trade publications covering specific industries can provide valuable insights on industry trends, competitive dynamics, and company-specific developments that inform your fundamental analysis.

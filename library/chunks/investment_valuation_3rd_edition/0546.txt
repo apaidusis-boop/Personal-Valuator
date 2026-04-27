@@ -1,0 +1,30 @@
+of the return on capital.
+Figure 18.17
+ EV/EBITDA and Net Cap Ex Ratios
+
+In short, firms with low returns on capital and high reinvestment rates should trade at low multiples of EBITDA.
+firmmult.xls:
+
+This spreadsheet allows you to estimate firm value multiples for a stable-growth or high-
+growth firm, given its fundamentals.
+Application
+Having established the fundamentals that determine the enterprise value to EBITDA multiple, we can
+now examine how best to apply the multiple. The multiple is most widely used in capital-intensive
+firms with heavy infrastructure investments. The rationale that is given for using the multiple—that
+EBITDA is the operating cash flow of the firm—does not really hold up, because many of these firms
+also tend to have capital expenditure needs that drain cash flows. There are, however, good reasons
+for using this multiple when depreciation methods vary widely across firms and the bulk of the
+investment in infrastructure has already been made.
+ILLUSTRATION 18.16: Comparing the EV-to-EBITDA
+Multiples: Steel Companies in 2001
+The following table summarizes the enterprise value to EBITDA multiples for steel companies in the United States in March
+2001:
+
+The enterprise value to EBITDA multiples vary widely across these firms, and many of these firms have negative net capital
+expenditures (depreciation > Cap Ex), partly reflecting the industry's maturity and partly the lumpy nature of reinvestments.
+Many of them also pay no taxes because they lose money. We regressed the EV/EBITDA multiple against the tax rate and
+depreciation as a percent of EBITDA:
+We did not use expected growth or cost of capital as independent variables because they are very similar across these firms.
+Using this regression, the predicted value to EBITDA multiple for Birmingham Steel would be:
+At 5.60 times EBITDA, the firm is overvalued.
+vebitda.xls:

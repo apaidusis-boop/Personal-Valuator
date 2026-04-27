@@ -1,0 +1,44 @@
+of positive
+correlation. A 1966 study by Niederhoffer and Osborne of price changes in the Dow 30 stocks
+assuming daily, four-day, nine-day, and 16-day return intervals provided the following results:
+
+Based on these results, there is evidence of positive correlation in daily returns but no evidence of
+deviations from normality for longer return intervals.
+Again, while the evidence is dated, it serves to illustrate the point that long strings of positive and
+negative changes are, by themselves, insufficient evidence that markets are not random, since such
+behavior is consistent with price changes following a random walk. It is the recurrence of these
+strings that can be viewed as evidence against randomness in price behavior.
+Longer-term Price Movements
+While most of the earlier studies of price behavior focused on shorter return intervals, more attention
+has been paid to price movements over longer periods (one-year to five-year periods) in recent years.
+Here, there is an interesting dichotomy in the results. When 
+long term
+ is defined as months rather than
+years, there seems to be a tendency toward positive serial correlation or price momentum. However,
+when 
+long term
+ is defined in terms of years, there is substantial negative correlation in the returns,
+suggesting that markets reverse themselves over long periods.
+Weekly and Monthly Price Momentum
+In the preceding section, we noted that the evidence of short-term price patterns is weak and that any
+price dependence over very short time periods (minutes or hours) can be attributed more to market
+structure (liquidity, bid-ask spreads) than to inefficiency. We also argued that while chartists who
+track these short-term price movements abound, few seem to emerge as consistent winners. As we
+extend our time periods from minutes to days and from days to weeks, there is some evidence of price
+momentum. Put differently, stocks that have gone up in the last few weeks or months seem to have a
+tendency to continue to outperform the market in the next few weeks or months, and stocks that have
+gone down in the recent weeks or months continue to languish in the next few weeks or months.
+Jegadeesh and Titman (1993, 2001) present evidence of what they call price momentum in stock
+prices over time periods of up to eight months — stocks that have gone up in the last six months tend
+to continue to go up, whereas stocks that have gone down in the last six months tend to continue to go
+down. The momentum effect is just as strong in the European markets, though it seems to be weaker in
+emerging markets. What may cause this momentum? One potential explanation is that mutual funds are
+more likely to buy past winners and dump past losers, thus generating price continuity.
+Annual or Multi-year Price Reversal
+When the long term is defined in terms of years, there is negative correlation in returns, suggesting
+that markets reverse themselves over very long periods. Fama and French (1988) examined five-year
+returns on stocks from 1941 to 1985 and present evidence of this phenomenon. They found that serial
+correlation is more negative in five-year returns than in one-year returns, and is much more negative
+for smaller stocks rather than larger stocks. 
+Figure 6.2
+ summarizes one-year and five-years serial

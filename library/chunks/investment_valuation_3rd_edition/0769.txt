@@ -1,0 +1,44 @@
+est bank mergers in 1995
+10
+ and concluded that only two (Chase/Chemical, First
+Chicago/NBD) subsequently outperformed the bank-stock index. The largest, Wells Fargo's acquisition of First Interstate,
+
+was a significant failure. Sirower (1996) takes a detailed look at the promises and failures of synergy and draws the gloomy
+conclusion that synergy is often promised but seldom delivered.
+  The most damaging piece of evidence on the outcome of acquisitions is the large number of acquisitions that are reversed
+within fairly short time periods. Mitchell and Lehn (1990) note that 20.2 percent of the acquisitions made between 1982 and
+1986 were divested by 1988. Studies that have tracked acquisitions for longer time periods (10 years or more) have found
+the divestiture rate of acquisitions rises to almost 50 percent, suggesting that few firms enjoy the promised benefits from
+acquisitions. In another study, Kaplan and Weisbach (1992) found that 44 percent of the mergers they studied were
+reversed, either because the acquirer paid too much or because the operations of the two firms did not mesh.
+This can be seen in the previous example. Dalton Motors, with projected growth in cash flows of
+10 percent, acquires Lube & Auto, which is expected to grow 20 percent. The fair market value for
+Lube & Auto is $4,020.91. If Dalton Motors pays more than this amount to acquire Lube & Auto, its
+stock price will decline, even though the combined firm will grow at a faster rate than Dalton Motors
+alone. Similarly, Dalton Motors, which sells at a lower multiple of earnings than Lube & Auto, will
+increase its PE ratio after the acquisition, but the effect on the stockholders in the firm will still be
+determined by whether the price paid on the acquisition exceeds the fair value. Interestingly, there is
+an alternate rationale that is provided for acquisitions that is almost the inverse of this higher
+growth/PE strategy, and that is the accretive acquisition strategy. In this strategy, an acquisition is
+considered to be accretive (good) if it increases the earnings per share of the acquiring company and
+dilutive (bad) if it decreases earnings per share. That strategy makes no sense either, since Lube &
+Auto (as the higher PE ratio company) will see its earnings per share go up when it buys Dalton. But
+that higher earnings per share will be accompanied by a lower PE ratio and a price that can be higher
+or lower, depending on the price paid for Dalton.
+TAKEOVER VALUATION: BIASES AND COMMON
+ERRORS
+The process of takeover valuation has potential pitfalls and biases that arise from the desire of the
+management of both the bidder and target firms to justify their points of view to their stockholders.
+The bidder firm aims to convince its stockholders that it is getting a bargain (i.e., that it is paying less
+than what the target firm is truly worth). In friendly takeovers, the target firm attempts to show its
+stockholders that the price it is receiving is a fair price (i.e., it is receiving at least what it is worth).
+In hostile takeovers, there is a role reversal, with bidding firms trying to convince target firm
+stockholders that they are not being cheated out of their fair share, and target firms arguing otherwise.
+Along the way, there are a number of common errors and biases in takeover valuation.
+Use of Comparable Firms and Multiples
+The prices paid in most takeovers are justified using the following sequence of actions: The acquirer
+assembles a group of firms comparable to the one being valued, selects a multiple to value the target
+firm, computes an average multiple for the comparable firms, and then makes subjective adjustments
+to this average. Each of these steps provides an opening for bias to enter into the process. Since no
+two firms are identical, the choice of comparable firms is a subjective one and can be tailored to
+justify the conclusion we want to reach. Similarly, in selecting a multiple, there are a number of

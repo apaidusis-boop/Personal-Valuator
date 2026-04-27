@@ -1,0 +1,35 @@
+urrent and future prospects. The magnitude of the information, and the size of the market reaction,
+should depend on how much the earnings report exceeds or falls short of investor expectations. In an
+
+efficient market, there should be an instantaneous reaction to the earnings report, if it contains
+surprising information, and prices should increase following positive surprises and decline following
+negative surprises.
+Since actual earnings are compared to investor expectations, one of the key parts of an earnings
+event study is the measurement of these expectations. Some of the earlier studies used earnings from
+the same quarter in the prior year as a measure of expected earnings (i.e., firms that report increases
+in quarter-to-quarter earnings provide positive surprises, and those that report decreases in quarter-
+to-quarter earnings provide negative surprises). In more recent studies, analyst estimates of earnings
+have been used as a proxy for expected earnings and compared to the actual earnings.
+Figure 6.6
+ provides a graph of price reactions to earnings surprises, classified on the basis of
+magnitude into different classes from “most negative” earnings reports (group 1) to most positive
+earnings reports (group 10). The evidence contained in this graph is consistent with the evidence in
+most earnings announcement studies:
+Figure 6.6
+ Post-Announcement Drift after Unexpected Quarterly Earnings Surprises: U.S. Companies
+from 1988 to 2002
+Source:
+ Updated version of Rendleman, Jones, and Latrané (1982).
+The earnings announcement clearly conveys valuable information to financial markets; there
+are positive excess returns (cumulative abnormal returns) around positive announcements
+and negative excess returns around negative announcements.
+There is some evidence of a market reaction in the days immediately prior to the earnings
+announcement that is consistent with the nature of the announcement (i.e., prices tend to go
+up on the day before positive announcements and down on the day before negative
+announcements). This can be viewed as evidence of either insider trading, information
+leakage, or getting the announcement date wrong.
+10
+There is some evidence, albeit weak, of a price drift in the days following an earnings
+announcement. Thus a positive report evokes a positive market reaction on the
+announcement date, and there are mildly positive excess returns in the days following the
+earnings announcement. Similar conclusions emerge for negative earnings reports.

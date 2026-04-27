@@ -1,0 +1,54 @@
+xchange.
+b.
+ What growth rate in dividends/earnings would justify the PE ratio on March 11, 1994?
+c.
+ Would it matter whether this higher growth comes from higher inflation or higher real growth?
+Why?
+
+3.
+ International Flavors and Fragrances, a leading creator and manufacturer of flavors and
+fragrances, paid out dividends of $0.91 per share on earnings per share of $1.64 in 1992. The firm
+was expected to have a return on equity of 20% between 1993 and 1997, after which the firm was
+expected to have stable growth of 6% a year. (The return on equity was expected to drop to 15%
+in the stable growth phase.) The dividend payout ratio was expected to remain at the current level
+from 1993 to 1997. The stock had a beta of 1.10, which was not expected to change. The Treasury
+bond rate was 7%, and the risk premium is 5.5%.
+a.
+ Estimate the PE ratio for International Flavors based on fundamentals.
+b.
+ Estimate how much of this PE ratio can be ascribed to the extraordinary growth in earnings
+that the firm expects to have between 1993 and 1997.
+4.
+ Cracker Barrel, which operates restaurants and gift shops, reported dramatic growth in earnings
+and revenues between 1983 and 1992. During this period, earnings grew from $0.08 per share in
+1983 to $0.78 per share in 1993. The dividends paid in 1993 amounted to only $0.02 per share.
+The earnings growth rate was expected to ease to 15% a year from 1994 to 1998, and to 6% a
+year after that. The payout ratio was expected to increase to 10% from 1994 to 1998, and to 50%
+after that. The beta of the stock was 1.55, but it was expected to decline to 1.25 for the 1994–1998
+time period and to 1.10 after that. (The Treasury bond rate was 7%, and the risk premium is
+5.5%.)
+a.
+ Estimate the PE ratio for Cracker Barrel.
+b.
+ Estimate how much higher the PE ratio would have been if it had been able to maintain the
+growth rate in earnings that it had posted between 1983 and 1993. (Assume that the dividend
+payout ratios are unaffected.)
+c.
+ Now assume that disappointing earnings reports in the near future lower the expected growth
+rate between 1994 and 1998 to 10%. Estimate the PE ratio. (Again, assume that the dividend
+payout ratio is unaffected.)
+5.
+ The S&P 500 was trading at 21.2 times earnings on December 31, 1993. On the same day, the
+dividend yield on the index was 2.74%, and the Treasury bond rate was 6%. The expected growth
+rate in real GNP was 2.5%.
+a.
+ Assuming that the S&P 500 is correctly priced, what is the inflation rate implied in the PE
+ratio? (Assume stable growth and a 5.5% risk premium.)
+b.
+ By February 1994, Treasury bond rates had increased to 7%. If payout ratios and expected
+growth remain unchanged, what would the effect on the PE ratio be?
+c.
+ Does an increase in interest rates always imply lower prices (and PE ratios)?
+6.
+ The following were the PE ratios of firms in the aerospace/defense industry at the end of
+December 1993, with additional data on expected growth and risk.

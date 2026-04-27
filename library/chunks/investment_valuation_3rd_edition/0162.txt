@@ -1,0 +1,37 @@
+ld widely by institutions—
+earn higher returns than widely followed and held stocks.
+Money Managers
+Professional money managers operate as the experts in the field of investments. They are supposed to
+
+be better informed, have lower transaction costs, and be better investors overall than smaller
+investors. The earliest study of mutual funds by Jensen (1968) suggested that this supposition might
+not hold in practice. His findings, summarized in 
+Figure 6.22
+ as excess returns on mutual funds, were
+that the average portfolio manager actually underperformed the market between 1955 and 1964.
+Figure 6.22
+ Mutual Fund Performance, 1955 to 1964—the Jensen Study
+Source:
+ Jensen (1968).
+These results have been replicated with mild variations in their conclusions. In the studies that are
+most favorable for professional money managers, they break even against the market after adjusting
+for transaction costs, and in those that are least favorable they underpeform the market even before
+adjusting for transaction costs.
+The results, when categorized on a number of different bases, do not offer much solace. For
+instance, 
+Figure 6.23
+ shows excess returns from 1983 to 1990 and the percentage of money managers
+beating the market, categorized by investment style. Money managers in every investment style
+underperform the market index and updated studies since have yielded similar findings.
+Figure 6.23
+ Performance of Equity Funds, 1983 to 1990
+
+Figure 6.24
+ looks at the payoff to active portfolio management by measuring the added value from
+trading actively during the course of the year, and finds that returns drop between 0.5 percent and 1.5
+percent a year as a consequence.
+Figure 6.24
+ The Payoff to Active Money Management: Equity Funds
+Note:
+ This chart measures the difference between actual return on equity funds and return on hypothetical portfolio frozen at
+beginning of period.

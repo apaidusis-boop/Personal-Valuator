@@ -1,0 +1,65 @@
+firms, we generally use either the yields on bonds issued by these firms or the ratings for these
+bonds to get default spreads. Private firms generally are not rated and do not have bonds outstanding.
+
+Consequently, we have to use one of the following alternative approaches:
+If the private firm has borrowed money recently (in the past few weeks or months), we can
+use the interest rate on the borrowing as a cost of debt. Since the cost of debt has to be
+current, the book interest rate
+1
+ on debt issued in the past is generally not a good measure of
+the cost of debt.
+If the private firm is being valued for an initial public offering, we can assume that the cost
+of debt for the private firm will move toward the average cost of debt for the industry to
+which the firm belongs. We are essentially assuming that the private firm, once public, will
+structure its debt policy to resemble those of comparable firms.
+When estimating the cost of debt for publicly traded firms in Chapter 8, we used the interest
+coverage ratios of these firms to estimate synthetic ratings, and then used the default spreads
+on these ratings to arrive at the costs of debt. To allow for the fact that private firms tend to
+be smaller and riskier than most publicly traded firms, we would use the relationship
+between interest coverage ratios and ratings for a subset of smaller, publicly traded firms,
+summarized in 
+Table 24.1
+.
+Table 24.1
+ Interest Coverage Ratios and Bond Ratings
+Interest Coverage Ratio
+Rating
+> 12.50
+AAA
+9.50–12.50
+AA
+7.50–9.50
+A+
+6.00–7.50
+A
+4.50–6.00
+A−
+3.50–4.50
+BBB
+3.00–3.50
+BB
+2.50–3.00
+B+
+2.00–2.50
+B
+1.50–2.00
+B−
+1.25–1.50
+CCC
+0.80–1.25
+CC
+0.50–0.80
+C
+< 0.50
+D
+To estimate the cost of debt for a private firm with an interest coverage ratio of 5.1, for instance,
+we would use a synthetic rating of A− and the default spread associated with that rating. Thus, if
+firms that are rated A− typically pay 1.25 percent above the riskless rate to borrow, we would add
+that default spread to the riskless rate to estimate the cost of debt for the private firm.
+This approach may underestimate the cost of debt if banks charge higher interest rates for private
+firms than for otherwise similar publicly traded firms. In that case, you would add an additional
+spread to reflect this difference, if you were valuing the firm for sale in a private transaction, but not
+if you were valuing it for sale to a publicly traded firm or an initial public offering.
+Debt Ratios
+The debt ratio represents the proportion of the market value of a firm that comes from debt financing.
+For publicly traded firms, we use the market prices of publicly traded stocks and bonds to arrive at

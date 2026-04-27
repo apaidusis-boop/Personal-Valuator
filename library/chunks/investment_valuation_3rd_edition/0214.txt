@@ -1,0 +1,41 @@
+hich the firm
+uses financial leverage. This section examines an alternative way of estimating betas, where we are
+less reliant on historical betas and more cognizant of their fundamental determinants.
+
+Determinants of Betas
+The beta of a firm is determined by three variables: (1) the type of business or businesses the firm is
+in, (2) the degree of operating leverage of the firm, and (3) the firm's financial leverage. Although we
+will use these determinants to find betas in the capital asset pricing model, the same analysis can be
+used to calculate the betas for the arbitrage pricing and the multifactor models as well.
+Type of Business
+Since betas measure the risk of a firm relative to a market index, the more sensitive a business is to
+market conditions, the higher its beta. Thus, other things remaining equal, cyclical firms can be
+expected to have higher betas than noncyclical firms. Companies involved in housing and
+automobiles, two sectors of the economy that are very sensitive to economic conditions, should have
+higher betas than companies in food processing and tobacco, which are relatively insensitive to
+business cycles.
+This view can be extended to a company's products. The degree to which a product's purchase is
+discretionary will affect the beta of the firm manufacturing the product. Firms whose products are
+much more discretionary to their customers—they can defer or delay buying these products—should
+have higher betas than firms whose products are viewed as necessary or less discretionary. Thus, the
+beta of Procter & Gamble, which sells diapers and daily household products, should be lower than
+the beta of Gucci, which manufactures luxury products.
+Degree of Operating Leverage
+The degree of operating leverage is a function of the cost structure of a firm and is usually defined in
+terms of the relationship between fixed costs and total costs. A firm that has high fixed costs relative
+to total costs is said to have high operating leverage. A firm with high operating leverage will also
+have higher variability in operating income than would a firm producing a similar product with low
+operating leverage. Other things remaining equal, the higher variance in operating income will lead to
+a higher beta for the firm with high operating leverage.
+Can firms change their operating leverage? While some of a firm's cost structure is determined by
+the business it is in (an energy utility has to build expensive power plants, and airlines have to buy or
+lease expensive planes), firms in the United States have become increasingly inventive in lowering
+the fixed cost component in their total costs. For instance, firms have made cost structures more
+flexible by:
+Negotiating labor contracts that emphasize flexibility and allow the firm to make its labor
+costs more sensitive to its financial success.
+Entering into joint venture agreements, where the fixed costs are borne by someone else.
+Subcontracting manufacturing and outsourcing, which reduce the need for expensive plant
+and equipment.
+While the arguments for such actions may be couched in terms of competitive advantage and
+flexibility, they do also reduce the operating leverage of the firm and its exposure to market risk.

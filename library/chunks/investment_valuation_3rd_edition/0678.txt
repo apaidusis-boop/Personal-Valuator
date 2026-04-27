@@ -1,0 +1,59 @@
+here are many cases where traditional discounted cash flow valuation has to be modified or adapted
+to provide reasonable estimates of value. Some of these cases are presented in this chapter. Cyclical
+
+firms can be difficult to value because their earnings track the economy. The same can be said about
+commodity firms in relation to the commodity price cycle. A failure to adjust the earnings for these
+cyclical ups and downs can lead to significant undervaluation of these firms at the depth of a
+recession and a significant overvaluation at the peak of a boom.
+When a firm's earnings are negative because of long-term strategic, operating, or financial
+problems, the process of valuing these firms becomes more complicated. You have to make a
+judgment of whether the firm's problems will be solved and, if so, when. For those firms where there
+is a significant chance of bankruptcy, you might have to consider the liquidation value of the assets or
+adjust going concern valuations for the likelihood and consequences of distress. Valuing firms early
+in their life cycles poses similar problems, but they are accentuated when earnings, cash flow, and
+book value are all negative. In most these cases, discounted cash flow valuation is flexible enough to
+be used to estimate value.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Intermet Corporation, the largest independent iron foundry organization in the country, reported
+a deficit per share of $0.15 in 1993. The earnings per share from 1984 to 1992 were as follows:
+Year
+EPS
+1984
+$0.69
+1985
+$0.71
+1986
+$0.90
+1987
+$1.00
+1988
+$0.76
+1989
+$0.68
+1990
+$0.09
+1991
+$0.16
+1992
+-$0.07
+The firm had capital expenditures of $1.60 per share and depreciation per share of $1.20 in 1993.
+Working capital was expected to increase $0.10 per share in 1994. The stock has a beta of 1.2,
+which is expected to remain unchanged; the company finances its capital expenditure and working
+capital requirements with 40% debt [D/(D + E)]. The firm was expected, in the long term, to grow
+at the same rate as the economy (6%).
+a.
+ Estimate the normalized earnings per share in 1994, using the average earnings approach.
+b.
+ Estimate the normalized free cash flow to equity per share in 1994, using the average earnings
+approach.
+2.
+ General Motors Corporation reported a deficit per share in 1993 of $4.85, following losses in
+the two earlier years. (The average earnings per share is negative.) The company had assets with
+a book value of $25 billion, and spent almost $7 billion on capital expenditures in 1993, which
+was partially offset by a depreciation charge of $6 billion. The firm had $19 billion in debt
+outstanding, on which it paid interest expenses of $1.4 billion. It intended to maintain a debt ratio
+[D/(D + E)] of 50%. The working capital requirements of the firm were negligible, and the stock
+has a beta of 1.10. In the last normal period of operations for the firm between 1986 and 1989, the
+firm earned an average return on capital of 12%. The Treasury bond rate was 7%, and the market

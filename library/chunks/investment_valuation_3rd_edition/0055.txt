@@ -1,0 +1,53 @@
+er that maximizes its ROC. The return on capital varies widely
+across firms in different businesses, largely as a consequence of differences in profit margins and
+
+capital turnover ratios.
+mgnroc.xls:
+
+This is a dataset on the Web that summarizes the operating margins, turnover ratios, and
+returns on capital of firms in the United States, classified by industry.
+Return on Equity
+While the return on capital measures the profitability of the overall firm, the return on equity (ROE)
+examines profitability from the perspective of the equity investor, by relating the equity investor's
+profits (net profit after taxes and interest expenses) to the book value of the equity investment.
+Since preferred stockholders have a different type of claim on the firm than do common stockholders,
+the net income should be estimated after preferred dividends, and the book value should be that of
+only common equity.
+Determinants of Noncash ROE
+Since the ROE is based on earnings after interest payments, it is affected by the financing mix the firm
+uses to fund its projects. In general, a firm that borrows money to finance projects and that earns a
+ROC on those projects that exceeds the after-tax interest rate it pays on its debt will be able to
+increase its ROE by borrowing. The return on equity, not including cash, can be written as follows:
+7
+where ROC = EBIT(1 – t)/(BV of debt + BV of equity – Cash) 
+D/E = BV of debt/BV of equity 
+i = Interest expense on debt/BV of debt 
+t = Tax rate on ordinary income
+The second term captures the benefit of financial leverage.
+ILLUSTRATION 3.5: Return on Equity Computations:
+Boeing and the Home Depot in 1998
+The following table summarizes the return on equity for Boeing and the Home Depot in 1998:
+Boeing
+Home Depot
+Return Ratios
+(in $millions)
+(in $millions)
+Net income
+$ 1,120
+$1,614
+Book value of equity—beginning
+$12,953
+$7,214
+Book value of equity—ending
+$12,316
+$8,740
+Book value of equity—average
+$12,635
+$7,977
+Return on equity (based on average)
+8.86%
+20.23%
+Return on equity (based on beginning)
+8.65%
+22.37%
+The results again indicate that Boeing had a substandard year in 1998, while the Home Depot reported healthier returns on

@@ -1,0 +1,48 @@
+rs who:
+Recognize the potential for excess return.
+Can replicate the beat-the-market scheme that earns the excess return.
+Have the resources to trade on the stock(s) until the inefficiency disappears.
+
+The internal contradiction of claiming that there is no possibility of beating the market in an
+efficient market and requiring profit-maximizing investors to constantly seek out ways of beating the
+market and thus making it efficient has been explored by many. If markets were in fact efficient,
+investors would stop looking for inefficiencies, which would lead to markets becoming inefficient
+again. It makes sense to think about an efficient market as a self-correcting mechanism, where
+inefficiencies appear at regular intervals but disappear almost instantaneously as investors find them
+and trade on them.
+PROPOSITIONS ABOUT MARKET EFFICIENCY
+A reading of the conditions under which markets become efficient leads to general propositions about
+where investors are most likely to find inefficiencies in financial markets.
+Proposition 1:
+ The probability of finding inefficiencies in an asset market decreases as the ease of
+trading on the asset increases. To the extent that investors have difficulty trading on an asset, either
+because open markets do not exist or because there are significant barriers to trading, inefficiencies
+in pricing can continue for long periods.
+This proposition can be used to shed light on the differences between different asset markets. For
+instance, it is far easier to trade on stocks than it is on real estate, since markets are much more open,
+prices are in smaller units (reducing the barriers to entry for new traders), and the asset itself does
+not vary from transaction to transaction (one share of IBM is identical to another share, whereas one
+piece of real estate can be very different from another piece that is a stone’s throw away). Based on
+these differences, there should be a greater likelihood of finding inefficiencies (both under- and
+overvaluation) in the real estate market.
+Proposition 2:
+ The probability of finding an inefficiency in an asset market increases as the
+transactions and information cost of exploiting the inefficiency increases. The cost of collecting
+information and trading varies widely across markets and even across investments in the same
+markets. As these costs increase, it pays less and less to try to exploit these inefficiencies.
+Consider, for instance, the perceived wisdom that investing in “loser” stocks (i.e., stocks that have
+done very badly in some prior time period) should yield excess returns. This may be true in terms of
+raw returns, but transaction costs are likely to be much higher for these stocks since:
+They tend to be low-priced stocks, leading to higher brokerage commissions and expenses.
+The bid-ask spread, a transaction cost paid at the time of purchase, becomes a much higher
+fraction of the total price paid.
+Trading is often thin on these stocks, and small trades can cause prices to change, resulting
+in a higher buy price or a lower sell price.
+Corollary 1:
+ Investors who can establish a cost advantage (either in information collection or in
+transaction costs) will be more able to exploit small inefficiencies than other investors who do not
+possess this advantage.
+There are a number of studies that look at the effect of block trades on prices and conclude that
+while block trades do affect prices, investors will not exploit these inefficiencies because of the
+number of times they will have to trade and their associated transaction costs. These concerns are
+unlikely to hold for a specialist on the floor of the exchange, who can trade quickly, often and at no or

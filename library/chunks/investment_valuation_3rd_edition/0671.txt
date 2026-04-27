@@ -1,0 +1,56 @@
+F
+Discounted cash flow valuation will yield too high a value for a firm where there is a significant
+likelihood of distress or default, because we assume that the firm will survive as a going concern.
+
+One way of counteracting this bias is to first value the firm using a DCF approach, assuming that it
+makes it back to financial health and profitability. We then follow this up by estimating two inputs:
+1.
+
+The probability that the firm will not make it as a going concern
+ (i.e., the probability of
+default). This can be estimated in one of three ways.
+a.
+ If the company has traded bonds outstanding, it can be backed out of the price of the bonds.
+We are solving for an annualized probability of default over the life of the bond, and ignoring the
+possibility that the annualized probability of default will be higher in the earlier years and
+decline in the later years.
+b.
+ If the company has a bond rating, we can use historical data to evaluate the likelihood of
+default. 
+Table 22.1
+ summarizes the probability of default over 5- and 10-year periods for bonds
+in different ratings classes. Based on this table, a CCC-rated company has a 61.67% probability
+of default over 10 years.
+Table 22.1
+ Probability of Default by Bond Ratings Class
+Source:
+ Altman (2010).
+Cumulative Probability of Default
+Bond Rating
+5 years
+10 years
+AAA
+0.03%
+0.06%
+AA
+0.39%
+0.47%
+A
+0.61%
+1.19%
+BBB
+6.41%
+7.72%
+BB
+11.63%
+19.48%
+B
+29.38%
+38.68%
+CCC
+48.53%
+61.67%
+c.
+ If neither bonds nor ratings exist, we can use statistical techniques (such as probits) to
+estimate the probability of bankruptcy.
+2.

@@ -1,0 +1,44 @@
+te (i.e., the percentage of the space that will not be rented out at any point in time) has to be
+projected in conjunction with market rents. Even in tight markets, there will be periods of time where
+
+space cannot be rented out, leading to a vacancy rate. Thus, no building, no matter how sought after,
+can be expected to have a 100 percent occupancy rate in perpetuity. With new buildings, the
+projections also have to factor in how long it will take initially to get occupants to rent/lease space.
+Clearly, the longer it takes, the smaller is the discounted cash flow value of the building.
+In the case of leased property, the terms of the lease can affect the projected lease revenues. If
+income properties are subject to existing leases, the terms of the lease such as the length of the lease,
+the contracted lease income future increases, additional reimbursable expenses, and provisions on
+lease renewal will determine cash flow estimates. The leases may also be net leases, where the
+tenant is responsible for paying taxes, insurance, and maintenance.
+Cash Outflows
+Expenses on real estate investments include property taxes, insurance, repairs and maintenance, and
+advertising—which are unrelated to occupancy and are fixed—as well as items such as utility
+expenses, which are a function of occupancy and are variable. In addition, the following factors will
+affect projected expenses:
+Reimbursability.
+ Some expenses incurred by the owner in connection with a property may
+be reimbursed by the tenant as part of a contractual agreement.
+Expense stops.
+ Many office leases include provisions to protect the owner from increases
+in operating expenses beyond an agreed-on level. Any increases beyond that level have to
+be paid by the tenant.
+Finally real estate taxes represent a large item of expenditures, and they can be volatile, not only
+because the tax laws change but because they are based often on assessed values.
+Expected Growth
+To estimate future cash flows, we need estimates of the expected growth rate in both rents/leases and
+expenses. A key factor in estimating the growth rate is the expected inflation rate. In a stable real
+estate market, the expected growth in cash flows should be close to the expected inflation rate. In tight
+markets with low vacancy rates, the expected growth rate in rents may be higher than the expected
+inflation rate at least until the market shortages disappear. The reverse is likely to be true in markets
+with high vacancy rates.
+The surveys used to estimate discount rates mentioned earlier in the chapter, also collect
+information on investors’ expectations of expected growth. It is interesting that while there are
+significant differences between investors on discount rates, the expected growth rates in cash inflows
+and outflows fall within a tight band. In 2000, for instance, the Cushman and Wakefield survey of
+investors in a wide range of markets found that they all estimated expected growth in cash flows to be
+between 4 percent and 6 percent.
+How will rent control affect these estimates? By putting a cap on how high the increases can be
+without limiting the downside, it will generally lower the expected growth rate in cash flows over
+time and lower value. Uncertainty about rent control laws, in terms of both how much the cap will be
+and whether the laws will be revised, will add to the estimation error in the valuation.
+Terminal Value

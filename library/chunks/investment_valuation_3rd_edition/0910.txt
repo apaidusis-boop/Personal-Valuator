@@ -1,0 +1,9 @@
+ines. If this is the case, the objective function when
+designing the financing mix for a firm has to be restated in terms of firm value maximization rather
+than cost of capital minimization.
+wacc.xls:
+
+This dataset on the Web summarizes debt ratios and costs of capital by industry group for the
+United States.
+Change Financing Type
+A fundamental principle in corporate finance is that the financing of a firm should be designed to

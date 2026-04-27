@@ -1,0 +1,5 @@
+million
+Source: Corporate Finance: Theory and Practice, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley & Sons, Inc. This material is used by permission
+of John Wiley & Sons, Inc.
+
+exchratio.xls:

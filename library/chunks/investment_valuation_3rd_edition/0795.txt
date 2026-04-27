@@ -1,0 +1,41 @@
+s liquid
+than financial assets; transactions occur less frequently, transactions costs are higher, and there are
+fewer buyers and sellers. The less liquid an asset, it is argued, the more risky it is.
+
+Again as we noted in chapter 24, the link between illiquidity and risk is difficult to quantify for
+several reasons. One is that it depends on the time horizon of the investor. An investor who intends to
+hold long-term will care less about liquidity than one who is uncertain about his or her time horizon
+or wants to trade short-term. Another is that it is affected by the external economic conditions. For
+instance, real estate is much more liquid during economic booms, when prices are rising, than during
+recessions, when prices are depressed.
+The alternative to trying to view the absence of liquidity as an additional risk factor and building
+into discount rates is to value the illiquid asset as if it were liquid and then applying a illiquidity
+discount to it. This is often the practice in valuing closely held and illiquid businesses and allows for
+the illiquidity discount to be a function of the investor and external economic conditions at the time of
+the valuation. The process of estimating the discount was examined in more detail in Chapter 24.
+Exposure to Legal Changes
+The values of all investments are affected by changes in the tax law—changes in depreciation
+methods and changes in tax rates on ordinary income and capital gains. Real estate investments are
+particularly exposed to changes in the tax law, because they derive a significant portion of their value
+from tax treatment and tend to be highly levered.
+Unlike manufacturing or service businesses, which can move operations from one locale to another
+to take advantage of locational differences in tax rates and other legal restrictions, real estate is not
+mobile and is therefore much more exposed to changes in local laws (such as zoning requirements,
+property taxes, and rent control).
+The question becomes whether this additional sensitivity to changes in tax and local laws is an
+additional source of risk, and, if so, how this risk should be priced. Again, the answer will depend on
+whether the marginal investor is diversified not only across asset classes but also across real estate
+investments in different locations. For instance, a real estate investor who holds real estate in New
+York, Miami, Los Angeles, and Houston is less exposed to legal risk than one who holds real estate
+in only one of these locales. The trade-off, however, is that the localized knowledge that allows a
+real estate investor to do well in one market may not carry well into other markets.
+Information Costs and Risk
+Real estate investments often require specific information about local conditions that is difficult (and
+costly) to obtain. The information is also likely to contain more error. There are some who argue that
+this higher cost of acquiring information and the greater error in this information should be built into
+the risk and discount rates used to value real estate. This argument is not restricted to real estate. It
+has been used as an explanation for the small stock premium—that is small stocks make higher returns
+than larger stocks, after adjusting for risk (using the CAPM). Small stocks, it is argued, generally
+have less information available on them than larger stocks, and the information tends to be more
+noisy.
+An Alternative Approach to Estimating Discount Rates: The Survey

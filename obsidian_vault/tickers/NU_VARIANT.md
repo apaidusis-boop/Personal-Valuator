@@ -2,9 +2,9 @@
 type: variant_perception
 ticker: NU
 market: us
-date: 2026-04-26
-variance: unmeasurable
-magnitude: 0
+date: 2026-04-27
+variance: low_consensus_long
+magnitude: 1
 weight_skew: False
 tags: [variant_perception, edge_detection]
 ---
@@ -13,8 +13,19 @@ tags: [variant_perception, edge_detection]
 
 **Our stance**: bullish  
 **Analyst consensus** (0 insights, last 90d): no_data (0% bull)  
-**Variance type**: `unmeasurable` (magnitude 0/5)  
-**Interpretation**: missing thesis or no analyst data
+**Variance type**: `low_consensus_long` (magnitude 1/5)  
+**Interpretation**: consensus pick — no edge
+
+## 🌐 Tavily web consensus (last 30d)
+
+**Web stance**: bullish (3 bull / 0 bear / 2 neutral)  
+**Cached**: False
+
+- 🟡 [neutral] [Here are Thursday's biggest analyst calls: Nvidia, Apple, Tesla, CoreWeave, Meta, Dick's, ResMed & more - CNBC](https://www.cnbc.com/2026/04/16/thursday-street-analyst-calls-stocks-include-nvidia-apple-tesla-meta.html) (Thu, 16 Ap)
+- 🟢 [bull] [Here are Tuesday's biggest analyst calls: Apple, Broadcom, Intel, Morgan Stanley, Oracle, Wingstop & more - CNBC](https://www.cnbc.com/2026/04/07/tuesday-stocks-from-analyst-calls-like-apple.html) (Tue, 07 Ap)
+- 🟡 [neutral] [Here are Friday's biggest analyst calls: Nvidia, Tesla, Apple, Nike, Netflix, Shake Shack & more - CNBC](https://www.cnbc.com/2026/04/10/friday-analyst-calls-with-stocks-like-nvidia.html) (Fri, 10 Ap)
+- 🟢 [bull] [Here are Monday's biggest analyst calls: Nvidia, Apple, Tesla, CoreWeave, Blackstone, Starbucks, Netflix & more - CNBC](https://www.cnbc.com/2026/04/13/monday-stocks-by-analyst-calls-like-nvidia.html) (Mon, 13 Ap)
+- 🟢 [bull] [Top Wall Street analysts see strong growth potential in these 3 stocks - CNBC](https://www.cnbc.com/2026/04/05/top-wall-street-analysts-see-strong-growth-potential-in-these-3-stocks.html) (Sun, 05 Ap)
 
 ## 📜 Our thesis
 

@@ -1,0 +1,51 @@
+rch expenses as operating expenses
+gives these firms an advantage when it comes to managing earnings.
+Does managing earnings really increase a firm's stock price? It might be possible to beat analysts
+
+quarter after quarter, but are markets as gullible? They are not, and the advent of so-called whispered
+earnings estimates is in reaction to the consistent delivery of earnings that are above expectations.
+What are whispered earnings? Whispered earnings are implicit earnings estimates that firms have to
+beat to surprise the market, and these estimates are usually a few cents higher than analyst estimates.
+For instance, on April 10, 1997, Intel reported earnings per share of $2.10 per share, higher than
+analyst estimates of $2.06 per share, but saw its stock price drop 5 points because the whispered
+earnings estimate had been $2.15. In other words, markets had built into expectations the amount by
+which Intel had beaten earnings estimates historically.
+Why Do Firms Manage Earnings?
+Firms generally manage earnings because they believe that they will be rewarded by markets for
+delivering earnings that are smoother and come in consistently above analyst estimates. As evidence,
+they point to the success of firms like Microsoft and Intel, and the brutal punishment meted out for
+firms that do not meet expectations.
+Many financial managers also seem to believe that investors take earnings numbers at face value,
+and the managers work at delivering bottom lines that reflect this belief. This may explain why any
+efforts by the Financial Accounting Standards Board (FASB) to change the way earnings are
+measured are fought with vigor, even when the changes make sense. For instance, any attempts by
+FASB to value the options granted by firms to their managers at a fair value and charge them against
+earnings or change the way mergers are accounted for have been consistently opposed by technology
+firms.
+It may also be in the best interests of the managers of firms to manage earnings. Managers know that
+they are more likely to be fired when earnings drop significantly relative to prior periods.
+Furthermore, there are firms where managerial compensation is still built around profit targets, and
+meeting these targets can lead to lucrative bonuses.
+Techniques for Managing Earnings
+How do firms manage earnings? One aspect of good earnings management is the care and nurturing of
+analyst expectations, a practice that Microsoft perfected during the 1990s. Executives at the firm
+monitored analyst estimates of earnings, and stepped in to lower expectations when they believed that
+the estimates were too high.
+7
+ There are several other techniques that are used, and some of the most
+common are considered in this section. Not all the techniques are hurtful to the firm, and some may
+indeed be considered prudent management.
+Planning ahead.
+ Firms can plan investments and asset sales to keep earnings rising
+smoothly.
+Revenue recognition.
+ Firms have some leeway when it comes to when revenues have to be
+recognized. As an example, Microsoft, in 1995, adopted an extremely conservative
+approach to accounting for revenues from its sale of Windows 95, and chose not to show
+large chunks of revenues that it was entitled (though not obligated) to show.
+8
+ In fact, the firm
+had accumulated $1.1 billion in unearned revenues by the end of 1996 that it could borrow
+on to supplement earnings in a weaker quarter.
+Booking revenues early.
+ In an opposite phenomenon, firms sometimes ship products during

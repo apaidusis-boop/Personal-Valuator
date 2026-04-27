@@ -1,0 +1,33 @@
+this figure, S is the
+current stock price; the price moves up to Su with probability p and down to Sd with probability 1 –
+p in any time period.
+Figure 5.3
+ General Formulation for Binomial Price Path
+
+Creating a Replicating Portfolio
+The objective in creating a replicating portfolio is to use a combination of risk-free
+borrowing/lending and the underlying asset to create the same cash flows as the option being valued.
+The principles of arbitrage apply then, and the value of the option must be equal to the value of the
+replicating portfolio. In the case of the general formulation shown in 
+Figure 5.3
+, where stock prices
+can move either up to Su or down to Sd in any time period, the replicating portfolio for a call with
+strike price K will involve borrowing $B and acquiring Δ of the underlying asset, where:
+where C
+u
+ = Value of the call if the stock price is Su 
+C
+d
+ = Value of the call if the stock price is Sd
+In a multiperiod binomial process, the valuation has to proceed iteratively (i.e., starting with the
+final time period and moving backward in time until the current point in time). The portfolios
+replicating the option are created at each step and valued, providing the values for the option in that
+time period. The final output from the binomial option pricing model is a statement of the value of the
+option in terms of the replicating portfolio, composed of 
+Δ
+ shares (option delta) of the underlying
+asset and risk-free borrowing/lending.
+ILLUSTRATION 5.1: 
+Binomial Option Valuation
+Assume that the objective is to value a call with a strike price of $50, which is expected to expire in two time periods, on an
+underlying asset whose price currently is $50 and is expected to follow a binomial process:

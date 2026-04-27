@@ -1,0 +1,171 @@
+{
+  "ticker": "ITSA4",
+  "latest_period": "2025-09-30",
+  "qoq": {
+    "label": "Q-o-Q",
+    "comparable_period": "2025-06-30",
+    "metrics": {
+      "revenue": {
+        "current": 2128000.0,
+        "comparable": 2121000.0,
+        "pct_chg": 0.0033003300330033004,
+        "material": false
+      },
+      "ebit": {
+        "current": 4671000.0,
+        "comparable": 4386000.0,
+        "pct_chg": 0.06497948016415869,
+        "material": false
+      },
+      "net_income": {
+        "current": 4217000.0,
+        "comparable": 4093000.0,
+        "pct_chg": 0.030295626679697044,
+        "material": false
+      },
+      "debt_total": {
+        "current": 9689000.0,
+        "comparable": 11434000.0,
+        "pct_chg": -0.15261500787126114,
+        "material": false
+      },
+      "fco": {
+        "current": -206000.0,
+        "comparable": 189000.0,
+        "pct_chg": -2.0899470899470898,
+        "material": true
+      },
+      "fcf_proxy": {
+        "current": 2654000.0,
+        "comparable": 56000.0,
+        "pct_chg": 46.392857142857146,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.23073308270676693,
+        "comparable": 0.22913719943422914,
+        "abs_chg_pp": 0.0015958832725377903,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 2.195018796992481,
+        "comparable": 2.067892503536068,
+        "abs_chg_pp": 0.12712629345641302,
+        "material": true
+      },
+      "net_margin": {
+        "current": 1.981672932330827,
+        "comparable": 1.9297501178689298,
+        "abs_chg_pp": 0.05192281446189728,
+        "material": true
+      }
+    }
+  },
+  "yoy": {
+    "label": "YoY",
+    "comparable_period": "2024-09-30",
+    "metrics": {
+      "revenue": {
+        "current": 2128000.0,
+        "comparable": 2240000.0,
+        "pct_chg": -0.05,
+        "material": false
+      },
+      "ebit": {
+        "current": 4671000.0,
+        "comparable": 4314000.0,
+        "pct_chg": 0.08275382475660639,
+        "material": false
+      },
+      "net_income": {
+        "current": 4217000.0,
+        "comparable": 3877000.0,
+        "pct_chg": 0.08769667268506577,
+        "material": false
+      },
+      "debt_total": {
+        "current": 9689000.0,
+        "comparable": 13181000.0,
+        "pct_chg": -0.26492678855928986,
+        "material": true
+      },
+      "fco": {
+        "current": -206000.0,
+        "comparable": 379000.0,
+        "pct_chg": -1.5435356200527703,
+        "material": true
+      },
+      "fcf_proxy": {
+        "current": 2654000.0,
+        "comparable": 1451000.0,
+        "pct_chg": 0.8290833907649897,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.23073308270676693,
+        "comparable": 0.2982142857142857,
+        "abs_chg_pp": -0.06748120300751878,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 2.195018796992481,
+        "comparable": 1.925892857142857,
+        "abs_chg_pp": 0.26912593984962396,
+        "material": true
+      },
+      "net_margin": {
+        "current": 1.981672932330827,
+        "comparable": 1.7308035714285714,
+        "abs_chg_pp": 0.25086936090225564,
+        "material": true
+      }
+    }
+  },
+  "material_flags": [
+    {
+      "comparison": "QOQ",
+      "metric": "fco",
+      "change": "-209.0%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "fcf_proxy",
+      "change": "+4639.3%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "ebit_margin",
+      "change": "+12.7pp"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "net_margin",
+      "change": "+5.2pp"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "debt_total",
+      "change": "-26.5%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "fco",
+      "change": "-154.4%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "fcf_proxy",
+      "change": "+82.9%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "ebit_margin",
+      "change": "+26.9pp"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "net_margin",
+      "change": "+25.1pp"
+    }
+  ]
+}

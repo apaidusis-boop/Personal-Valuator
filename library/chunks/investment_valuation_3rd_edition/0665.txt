@@ -1,0 +1,42 @@
+% growth rate.
+3
+Adding the current cash balance ($32,007 million), subtracting out debt ($9,400 million), and dividing by the number of shares
+(4,941.63 million) yields the value per share of $69.43.
+
+At its current stock price of $64.83, the stock looks slightly undervalued.
+Firms with Long-Term Problems
+In all of the valuations presented in the last section, earnings were adjusted either instantaneously to
+reflect normal levels or very quickly, reflecting our belief that the negative earnings will soon pass.
+In some cases, though, the negative earnings are a manifestation of more long-term problems at the
+firm. In such cases, we will be forced to make judgments on whether the problem will be overcome,
+and if so, when this will occur. This section presents a range of solutions for companies in this
+position.
+MULTIPLES AND NORMALIZED EARNINGS
+Would you have to make these adjustments to earnings if you were doing relative valuation rather than discounted cash flow
+valuation? The answer is generally yes, and when adjustments are not made, you are implicitly assuming normalization of
+earnings.
+  To see why, assume that you are comparing steel companies using price-earnings ratios and that one of the firms in your
+group has just reported very low earnings because of a strike during the past year. If you do not normalize the earnings, this
+firm will look overvalued relative to the sector, because the market price will be based on the expectation that the labor
+troubles, though costly, are in the past. If you use a multiple such as price-to-sales to make your relative valuation judgments
+and you compare this firm's price-to-sales ratio to the industry average, you are assuming that the firm's margins will
+converge on industry averages sooner rather than later.
+  What if an entire sector's earnings are affected by an event? Would you still need to normalize? We believe so. Though the
+earnings of all automobile stocks may be affected by a recession, the degree to which they are affected can vary widely
+depending on differences in operating and financial leverage. Furthermore, you will find yourself unable to compute multiples
+such as price-earnings ratios for many of the firms in the group that lose money during recessions. Using normalized
+earnings will yield multiples that are more reliable measures of true value.
+Strategic Problems
+Firms can sometimes make mistakes in terms of the product mixes they offer, the marketing strategies
+they adopt, or even the markets that they choose to target. They often end up paying a substantial cost
+in terms of negative or lower earnings and perhaps a permanent loss of market share. Consider the
+following examples:
+IBM found its dominant position in the mainframe computer business and the extraordinary
+profitability of that business challenged by the explosion of the personal computer market in
+the 1980s. While IBM could have developed the operating system for personal computers
+early in the process, it ceded that business to an upstart called Microsoft. By 1989, IBM had
+lost more than half its market value and its return on equity had dropped into the single
+digits.
+4
+For decades, Xerox dominated the copier business to the extent that its name became
+synonymous with the product. In the 1970s and 1980s it was challenged for the market by

@@ -1,0 +1,43 @@
+y looking at
+aerospace firms globally.
+Embraer's debt-to-equity ratio at the time of this analysis was 26.84%,
+10
+ resulting in a levered beta for Embraer (with a
+marginal tax rate of 34% for Brazil):
+
+To estimate the cost of equity for Embraer in U.S. dollar terms, we began with the Treasury bond rate of 3.8% at the time
+of the analysis, but incorporated the country risk associated with Brazil into the risk premium. Using the approach described
+in Chapter 7, we estimated a country risk premium of 3.66% in March 2008; the default spread for Brazil at the time was
+2.00% and the Bovespa was approximately 1.83 times more volatile than the Brazilian government bond. In conjunction with
+a mature market risk premium of 4% estimated for the United States at the time, this yields a cost of equity of 10.54%.
+Again, there are several points that are worth making on this estimate. The first is that this cost of equity can be expected to
+change over time as Brazil matures as a market and country risk declines. The second is that we have assumed that betas
+measure exposure to country risk. A company like Embraer that derives the bulk of its revenues outside Brazil could argue
+that it is less exposed to country risk. In the preceding section, we introduced the concept of lambda and came up with two
+estimates for Embraer: 0.15, using revenue exposure, and 0.27, using the regression of Embraer stock returns against the
+Brazilian dollar bond. We will use the latter to compute the cost of equity:
+The final point is that the cost of equity in dollar terms can be converted into a nominal Brazilian real (BR) cost of equity
+fairly simply by considering the differences in expected inflation rates in Brazil and the United States. For instance, if the
+expected inflation rate in Brazil is 6% and the expected inflation rate in the United States is 2%, the cost of equity in nominal
+BR is as follows:
+Implicitly, we assume that BR risk-free rates around the world are the same with this approach and that the risk premium
+scales up with inflation as well. The alternative is to estimate a cost of equity from scratch, beginning with a nominal BR
+risk-free rate (which was 8% at the time of this analysis) and adding the premiums from before:
+Substituting a real risk-free rate in the equation would yield a real cost of equity. Thus, if we assume that the real risk-free
+rate is 1.5% (the rate on an inflation-adjusted TIPS bond), the real cost of equity would have been:
+COST OF EQUITY AND A SMALL FIRM PREMIUM
+Chapter 6 presented evidence of a small firm premium—small market-cap stocks earn higher returns than large market-cap
+stocks with equivalent betas. The magnitude and persistence of the small firm premium can be viewed as evidence that the
+capital asset pricing model understates the risk of smaller companies, and that a cost of equity based purely on a CAPM
+beta will therefore yield too low a number for these firms. There are some analysts who argue that you should therefore add
+a premium to the estimated cost of equity for smaller firms. Since small cap stocks have earned about 4 percent more than
+large cap stocks over the past few decades, you could consider this a reasonable estimate for the small firm premium. To
+estimate the cost of equity for a small cap stock with a beta of 1.2 (assuming a risk-free rate of 3.5 percent and a market
+risk premium of 4 percent), for instance, you would do the following:
+We would introduce four notes of caution with this approach. First, this opens the door to a series of adjustments that you
+could make to the cost of equity, reflecting the numerous inefficiencies cited in Chapter 6. For instance, you could estimate a
+low PE premium, a low price-to-book premium, and a high dividend yield premium and add them all to the cost of equity. If
+our objective in valuation is to uncover market mistakes, it would be a mistake to start off with the presumption that markets
+are right in their assessments in the first place. Second, a better way of incorporating the small firm premium would be to
+identify the reasons for the premium and then develop more direct measures of risk. For instance, assume that the higher
+risk of small cap stocks comes from the higher operating leverage that these firms have, relative to their larger competitors.

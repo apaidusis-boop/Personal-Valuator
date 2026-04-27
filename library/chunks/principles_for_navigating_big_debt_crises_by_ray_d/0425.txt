@@ -1,0 +1,48 @@
+Germany, Italy, and  
+Japan were excluded because of data inadequacies�
+Glossary of Key Economic Terms ���������������������������������5
+Appendix: Macroprudential Policies �����������������������209
+
+Principles For Navigating Big Debt Crises
+5
+Glossary of Key Economic Terms
+Below we explain some of the economic concepts used in Part 3 (and other parts of the books as well). These explanations are simplified 
+for brevity.
+balance of payments:  The balance of all of the transactions (i.e., purchases of goods, services, financial assets, and 
+other payments) between people/organizations in a particular country/currency and the rest of the world. Think of 
+the transaction balance for a particular type of good—e.g., when someone in a country buys oil, they give up some 
+form of capital to get the oil. When the balance of payments worsens, it’s like when a family’s financial condition 
+worsens because inflows (the revenue and lending it gets) goes down relative to its expenditures, and when the 
+balance of payments improves, the reverse is true.
+balance-of-payments crisis:  A type of economic crisis in which there is a worsening of the balance of payments so 
+that a country’s entities lack adequate buying power in world markets to meet its needs. The country has essen -
+tially run out of cash and credit.
+bubble: A stage of the debt cycle that typically sees self-reinforcing and unsustainable rises in debt, asset prices, 
+and growth. The key word here is “unsustainable,” so that the temporary boom conditions will be followed by a 
+bust. Imagine borrowing a lot of money to live an expensive life style; it can continue for the near term but is 
+unsustainable and will result in bad times when the adjustment happens. 
+capital inf lows/outf lows: The movement of money and credit across borders to buy capital/investment assets (like 
+bonds, currency, equities, a factory, etc.). Foreigners buying/selling a country’s assets are “inflows” and domestic 
+players buying/selling foreign assets are “outflows.”
+core inf lation: Inflation that excludes the prices of especially volatile goods, such as commodities.
+currency peg:  An exchange rate policy in which a country tries to keep its currency at a fixed value to another 
+currency, a mix of currencies, or an asset such as gold. 
+current account balance:  Exports minus imports plus net income receipts. Think of it as essentially being net 
+income (income minus expenses). If a country has a current account deficit, its expenses are more than its income, 
+so it has to make up the difference with capital transactions (like borrowing or selling equity) that are accounted 
+for in the capital account balance. 
+debt service:  The cost of maintaining debts over a given period, including interest and principal payments.
+deleveraging:  The process of reducing debt burdens.
+deleveraging attribution:  Bridgewater analysis of what led to increases or decreases in debt burdens. The black dot 
+represents the annualized change in debt as a percentage of GDP over the period. (A positive percentage means a 
+country’s debt levels have increased, and vice versa.) We then show what caused this change: above 0 represents 
+something that increased debt burdens, and below 0 represents something that decreased debt burdens. We show 
+factors that increase or decrease GDP (e.g., inflation and real growth), and factors that increase or decrease debt 
+(e.g., a country borrowing to cover interest payments or other new borrowing). Note that the attribution method -
+ology differs between countries, mostly depending on data availability.
+depression: A severe economic downturn at the stage of a debt crisis that typically involves self-reinforcing 
+declines in asset prices and growth. This most classically occurs when central banks are limited in their abilities to 
+ease monetary policy to relieve the economic downturn. 
+easing: Central bank monetary policy moves that have the effect of making money and credit more available, 
+usually either by lowering interest rates, printing money, changing regulations, or central government fiscal policy 
+moves of changing spending, taxation, or regulations.

@@ -1,0 +1,28 @@
+than the dividend discount model for stable firms that pay out dividends that are unsustainably high
+(because they exceed FCFE by a significant amount) or are significantly lower than the FCFE. Note,
+
+though, that if the firm is stable and pays out its FCFE as dividends the value obtained from this
+model will be the same as the one obtained from the Gordon growth model.
+ILLUSTRATION 14.2: Stable Growth FCFE Model—
+Volkswagen
+Volkswagen is a mature German automobile company. Notwithstanding the cyclical swings in net income that are
+characteristic of the business, the firm is assumed to be in stable growth, and the following inputs were used to value it in
+May 2011:
+1.
+ The net income, not including the interest income from cash, for the company in 2010 was 5,279 million euros, and we
+will use this as the base year income. (We did check the level to see if it was an outlier, in either direction. If it had been,
+we would have use a normalized value.)
+2.
+ The expected growth in net income over time is assumed to be 3% and the noncash return on equity that Volkswagen is
+expected to deliver is 10%. The resulting equity reinvestment rate for the stable growth model is 30%:
+The firm did report capital expenditures of 11,462 million euros, depreciation of 10,089 million euros, and an increase in
+noncash working capital of 423 million euros in 2010. The reinvestment rate using those inputs was 20.41%,
+We could have used this reinvestment rate in the valuation, but with an expected growth rate in perpetuity of 2.04%:
+3.
+ Volkswagen's cost of equity is estimated using a beta of 1.20, reflecting the average beta across European auto
+companies, a euro risk-free rate of 3.2%, and an equity risk premium of 5%:
+With the inputs, we can estimate the overall value of equity:
+Note that this is the value of the equity in the non-cash operating assets, since we took out the income from cash from our
+base FCFE. Adding the cash balance of 18,670 million euros yields an overall value of equity of 80,062 million errors,
+significantly higher than the market capitalization of 53,560 million euros in May 2011.
+FCFEst.xls:

@@ -62,6 +62,8 @@ BRCO11 (Bresco Logística) é FII tijolo logístico premium com DY 9,16% e cota 
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

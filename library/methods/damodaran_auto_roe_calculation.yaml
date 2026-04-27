@@ -1,0 +1,16 @@
+---
+id: damodaran_auto_roe_calculation
+name: Return on Equity Calculation
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: roe_rule_a
+  description: Calculate the new book value of equity
+  check: bvps + eps - dy * price >= bvps
+- id: roe_rule_b
+  description: Check if return on equity is above a certain threshold
+  check: roe >= 0.15
+caveats:
+- This method assumes that the provided financial metrics are accurate and up-to-date.

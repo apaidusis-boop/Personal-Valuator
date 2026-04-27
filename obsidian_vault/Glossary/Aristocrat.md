@@ -3,7 +3,7 @@ type: glossary
 slug: Aristocrat
 title: Dividend Aristocrat / King
 category: concept
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, concept]
 ---
 
@@ -116,4 +116,4 @@ Categorias formais (S&P) que sinalizam **disciplina extrema** de distribuição.
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

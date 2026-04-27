@@ -2,9 +2,9 @@
 type: variant_perception
 ticker: TSM
 market: us
-date: 2026-04-26
-variance: unmeasurable
-magnitude: 0
+date: 2026-04-27
+variance: low_consensus_long
+magnitude: 1
 weight_skew: False
 tags: [variant_perception, edge_detection]
 ---
@@ -13,8 +13,19 @@ tags: [variant_perception, edge_detection]
 
 **Our stance**: bullish  
 **Analyst consensus** (0 insights, last 90d): no_data (0% bull)  
-**Variance type**: `unmeasurable` (magnitude 0/5)  
-**Interpretation**: missing thesis or no analyst data
+**Variance type**: `low_consensus_long` (magnitude 1/5)  
+**Interpretation**: consensus pick — no edge
+
+## 🌐 Tavily web consensus (last 30d)
+
+**Web stance**: bullish (3 bull / 1 bear / 1 neutral)  
+**Cached**: False
+
+- 🟢 [bull] [Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Up 2% on Analyst Upgrade - MarketBeat](https://www.marketbeat.com/instant-alerts/taiwan-semiconductor-manufacturing-nysetsm-shares-up-2-on-analyst-upgrade-2026-04-17/) (Fri, 17 Ap)
+- 🟡 [neutral] [Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Down 1.3% - What's Next? - MarketBeat](https://www.marketbeat.com/instant-alerts/taiwan-semiconductor-manufacturing-nysetsm-stock-price-down-13-whats-next-2026-04-23/) (Thu, 23 Ap)
+- 🟢 [bull] [Mivtachim The Workers Social Insurance Fund Ltd. Under Special Management Sells 24,000 Shares of Taiwan Semiconductor Ma](https://www.marketbeat.com/instant-alerts/filing-mivtachim-the-workers-social-insurance-fund-ltd-under-special-management-sells-24000-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-04-25/) (Sat, 25 Ap)
+- 🟢 [bull] [1,419 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Acquired by Watershed Private Wealth LLC - MarketBe](https://www.marketbeat.com/instant-alerts/filing-1419-shares-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-acquired-by-watershed-private-wealth-llc-2026-04-13/) (Mon, 13 Ap)
+- 🔴 [bear] [Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Down 3.1% - Time to Sell? - MarketBeat](https://www.marketbeat.com/instant-alerts/taiwan-semiconductor-manufacturing-nysetsm-shares-down-31-time-to-sell-2026-03-30/) (Mon, 30 Ma)
 
 ## 📜 Our thesis
 

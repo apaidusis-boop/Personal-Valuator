@@ -1,0 +1,63 @@
+private party. We made
+similar arguments about the cost of debt and cash flows. 
+Table 24.2
+ summarizes the differences in the
+way we estimate the inputs to valuation for different valuation motives.
+
+Table 24.2
+ Estimation of Inputs for Valuation: Valuation Motives
+Valuation for Sale to a Private Entity
+Valuation for Sale to a Publicly Traded Firm or for an Initial Public
+Offering
+Cost of equity
+Based on total beta, with correlation reflecting diversification of
+potential buyer
+Based on market beta, since marginal investor is diversified
+Cost of debt
+May reflect additional spread associated with being a private business
+Based on synthetic rating, estimated by looking at publicly traded firms
+Operating cash
+flows
+Private business tax rate used in valuation
+Corporate marginal tax rates used in valuation
+Firm life
+Finite life terminal value or liquidation value
+Perpetual life when estimating terminal value
+Illiquidity discount
+Value discounted for illiquidity
+No illiquidity discount
+The results of using different approaches to estimating discount rates and cash flows, depending on
+the potential buyer, can have significant effects on value. In general, a private business that is up for
+sale will be valued much more highly by a publicly traded firm than by a private entity. This can be
+traced to the fact that the discount rates are higher when we assume that the buyer is not diversified.
+Thus the owners of private businesses who are interested in selling their businesses will be well
+served looking for potential buyers who are publicly traded firms. While they might not be able to
+extract the entire value, they can try to obtain at least a share of the additional value created because
+the marginal investors are diversified.
+The same implications arise when looking at the alternative of going public. The value that a firm
+can obtain from a public offering will exceed the value that it will receive from a private entity. The
+values obtained from an initial public offering and sale to a publicly traded firm will be based on
+similar discount rates, but may vary because of cost and revenue synergies. If the potential for these
+synergies is large, selling to a publicly traded firm may result in a higher value than going public.
+ILLUSTRATION 24.11: Valuing Chez Pierre for a private
+sale
+To value Chez Pierre for a private sale, we draw on the inputs that we have estimated in prior illustrations:
+After-tax operating income in most recent year = $319,620 (1 – .40) = $191,770
+(from illustration 24.7)
+Cost of capital = 15.27% (from illustration 24.6)
+Expected Growth rate = 2% a year for the next 12 years (from illustration 24.8)
+Reinvestment rate = 0% (from illustration 24.8)
+Pre-tax operating income in most recent year = $319,620 (from illustration 24.7)
+FCFF in most recent year = $319,620 (1 – .40) (1 – 0) = $191,770
+At the end of year 12, we assume that the restaurant will be closed and that the liquidation proceeds will be $500,000. (from
+illustration 24.9)
+The present value of the operating cash flows over the next 12 years is estimated first:
+Adding the present value of the liquidation proceeds (discounted back 12 years at 15.27%) and subtracting out the present
+value of lease commitments yields the value of equity:
+PV of operating cash flows for next 12 years
+= $1,134,121
++ PV of liquidation value = $500,000/1.1527
+10
+= $ 90,821
+– PV of operating lease commitments
+= $ 928,333

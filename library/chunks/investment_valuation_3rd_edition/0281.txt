@@ -1,0 +1,38 @@
+instance, the federal corporate tax rate on marginal
+income is 35 percent; with the addition of state and local taxes, most profitable firms face a marginal
+corporate tax rate of 40 percent or higher.
+
+While the marginal tax rates for most firms in the United States should be fairly similar, there are
+wide differences in effective tax rates across firms. 
+Figure 10.1
+ provides a distribution of effective
+tax rates for moneymaking firms in the United States in January 2011. Note that a number of firms
+report effective tax rates of less than 10 percent as well as that a few firms have effective tax rates
+that exceed 50 percent. In addition, it is worth noting that this figure does not include about 2,000
+firms that did not pay taxes during the most recent financial year (and most of these are money-losing
+companies) or that have a negative effective tax rate.
+1
+Figure 10.1
+ Effective Tax Rates for U.S. Companies—January 2011
+Source: Value Line.
+Reasons for Differences between Marginal and Effective Tax Rates
+Given that most of the taxable income of publicly traded firms is at the highest marginal tax bracket,
+why would a firm's effective tax rate be different from its marginal tax rate? There are at least four
+reasons:
+1.
+ Many firms, at least in the United States, follow different accounting standards for tax and for
+reporting purposes. For instance, firms often use straight-line depreciation for reporting purposes
+and accelerated depreciation for tax purposes. As a consequence, the reported income is
+significantly higher than the taxable income, on which taxes are based.
+2
+2.
+ Firms sometimes use tax credits to reduce the taxes they pay. These credits, in turn, can reduce
+the effective tax rate below the marginal tax rate.
+3.
+ Firms can sometimes defer taxes on income to future periods. If firms defer taxes, the taxes paid
+in the current period will be at a rate lower than the marginal tax rate. In a later period, however,
+when the firm pays the deferred taxes, the effective tax rate will be higher than the marginal tax
+rate.
+4.
+ Firms that generate substantial income for foreign domiciles with lower tax rates do not have to
+pay domestic taxes until that income is repatriated back to the domestic country.

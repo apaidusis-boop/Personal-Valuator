@@ -1,0 +1,29 @@
+may be shown on the books at values that are not reflective of their true
+value. If there are only one or two large holdings, you should value those holdings using cash flow–
+based approaches as well.
+
+ILLUSTRATION 23.5: Estimating Firm Value—Tesla
+Motors
+To estimate firm value, we begin by discounting the free cash flows to the firm estimated in Illustration 23.3 at the cost of
+capital estimated in Illustration 23.4 in the table following:
+Note that the changing costs of capital over time require us to compute a cumulated cost of capital. The present value of the
+free cash flows during the high growth period amounts to –$1,306 million.
+At the end of year 10, we assume that Tesla Motors is in stable growth, growing at 3.5% a year, while maintaining a return
+on capital of 10%. The stable period reinvestment rate is computed to be 35%:
+The terminal value (at the end of year 10) can then be computed using the operating income in year 11 (see Illustration
+23.2):
+Discounting the terminal value back at the cumulated cost of capital in year 10 and adding to the present value of FCFF over
+the next 10 years, we get:
+Adding the current cash balance of $196 million to this estimate, we get the value of the firm:
+Step 7: Estimate the Value of Equity and Per-Share Value
+To get from firm value to equity value, we generally subtract out all nonequity claims on the firm. For
+mature firms, the nonequity claims take the form of bank debt and bonds outstanding. For young firms,
+there can also be preferred equity claims that have to be valued and subtracted to get to the value of
+the common equity.
+To get from equity value to value per share, you have to consider equity options outstanding on the
+firm. In Chapter 16, we argued that this is something that needs to be done for all firms, but it
+becomes particularly important with young start-up firms, because the value of the options outstanding
+can be a much larger share of the overall equity value. Given the importance of these claims, we
+would suggest that the options—vested as well as nonvested—be valued using an option pricing
+model, and that the value of the options be subtracted from the value of the equity to arrive at the
+value of equity in common stock. This value should then be divided by the actual number of shares

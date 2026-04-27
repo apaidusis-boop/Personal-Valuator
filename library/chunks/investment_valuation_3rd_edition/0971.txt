@@ -1,0 +1,45 @@
+ould have inserted an oil view into the distribution by choosing a
+higher or lower mean value.
+7
+Figure 33.9
+ Oil Price Distribution—Historical data
+Figure 33.9
+ Oil Price Distribution—Historical Data
+
+Step 2: 
+Link the operating results to commodity price:
+ To link the operating income to commodity prices, we used the
+regression results from earlier in the illustration:
+As we noted in the earlier section, the regression approach works well for Exxon but may not for smaller, more volatile
+commodity companies.
+Step 3: 
+Estimate the value as a function of the operating results.
+ As the operating income changes, there are two levels
+at which the value of the firm is affected. The first is that lower operating income, other things remaining equal, lowers the
+free cash flow, and reduces value. The second is that the return on capital is recomputed, holding the capital invested fixed,
+as the operating income changes. As operating income declines, the return on capital drops, and the firm will have to reinvest
+more to sustain the stable growth rate of 2 percent. While we could also have allowed the cost of capital and the growth rate
+to vary, we feel comfortable with both numbers and have left them fixed.
+Step 4: 
+Develop a distribution for the value:
+ We ran 10,000 simulations, letting the oil price vary and valuing the firm and
+equity value per share in each simulation. The results are summarized in 
+Figure 33.10
+.
+The average value per share across the simulations was $69.59, with a minimum value of $2.25 and a maximum value of
+$324.42; there is, however, a greater than 50% chance that the value per share will be less than $64.83 (the current stock
+price). Put differently, this approach yields not only the value per share for the company but also the likelihood that the firm
+is really undervalued (less than 50%). That information can feed into the investment decision.
+Use in Decision Making
+A well-done simulation provides us with more than just an expected value for an asset or investment.
+Better input estimation.
+ In an ideal simulation, analysts will examine both the historical and
+cross-sectional data on each input variable before making a judgment on what distribution to
+use and the parameters of the distribution. In the process, they may be able to avoid the
+sloppiness that is associated with the use of point estimates; many discounted cash flow
+valuations are based upon expected growth rates that are obtained from managers or
+analysts, often with no basis in fact.
+It yields a distribution for expected value rather than a point estimate.
+ Consider the
+valuation of Exxon Mobil that we completed in the last illustration. In addition to reporting
+an expected value of $69.59/share, we also estimated a standard deviation in that value and

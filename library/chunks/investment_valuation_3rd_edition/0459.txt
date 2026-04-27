@@ -1,0 +1,51 @@
+the firm.
+b.
+ Estimate the levered value of the firm, using the adjusted present value approach, at a debt
+ratio of 50%. At that debt ratio, the firm's bond rating will be CCC, and the probability of
+
+default will increase to 46.61% of unlevered firm value.
+1
+ The equity reinvestment rate and firm reinvestment rate will adjust to ensure that this happens.
+The equity reinvestment rate will be a lower number than the firm reinvestment rate in stable
+growth for any levered firm.
+2
+ Carried to its logical extreme, this will push net working capital to a very large (potentially
+infinite) negative number.
+3
+ In Microsoft Excel, it is easy to set this process up. You should first go into calculation options
+and put a check mark in the iteration box. You can then make the cost of capital a function of your
+estimated values for debt and equity.
+4
+ Cost of equity in stable growth = 3% + 1.20(6%) + 0.625(3%) = 12.08%. 
+Cost of debt in stable growth = 8% (1 - .34) = 5.28%. 
+Cost of capital in stable growth = 12.08%(.50) + 5.28%(.50) = 8.68%
+5
+ Optimally, we would have liked to value the consolidated holdings and estimate the value of the
+minority interests. Since we were missing much of the information necessary to do this, we applied
+a price-to-book ratio of 1.20 (based on the price-to-book ratios of businesses that the cross
+holdings were in) to the book value of the minority interests.
+6
+ This study estimated default rates over 10 years for only some of the ratings classes. We
+extrapolated the rest of the ratings.
+7
+ In Warner’s 1977 study of railroad bankruptcies, the direct cost of bankruptcy seems to be about
+5 percent.
+8
+ In other words, the value of the firm might not be maximized at the point that cost of capital is
+minimized, if firm cash flows are much lower at that level.
+9
+ Consider, for instance, a debt ratio of 40%. At this level the firm's debt will take on some of the
+characteristics of equity. Assume that the beta of debt at a 40% debt ratio is 0.10. The equity beta
+at that debt ratio can be computed as follows:
+In the unadjusted approach, the levered beta would have been 1.0364.
+10
+ The present value of operating leases ($1,720 million) was multiplied by the pretax cost of debt
+of 6% to arrive at an interest expense of $103 million, which is added to both operating income
+and interest expense. Multiplying the pretax cost of debt by the present value of operating leases
+yields an approximation. The full adjustment would require us to add back the entire operating
+lease expense and to subtract out the depreciation on the leased asset.
+11
+ Because the interest expense rises, it is possible for the rating to drop again. Thus, a third
+iteration might be necessary in some cases.
+12
+ If they do not have protective puts, it is in the best interests of the stockholders not to refinance

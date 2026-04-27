@@ -1,0 +1,45 @@
+that gets used by analysts depends on their biases. For instance, in periods of rising earnings,
+the forward PE yields consistently lower values than the trailing PE, which, in turn, is lower than the
+
+current PE. A bullish analyst will tend to use the forward PE to make the case that the stock is trading
+at a low multiple of earnings, while a bearish analyst will focus on the current PE to make the case
+that the multiple is too high. The first step when discussing a valuation based on a multiple is to
+ensure that everyone in the discussion is using the same definition for that multiple.
+Consistency
+Every multiple has a numerator and a denominator. The numerator can be either an equity value (such
+as market price or value of equity) or a firm value (such as enterprise value, which is the sum of the
+values of debt and equity, net of cash). The denominator can be an equity measure (such as earnings
+per share, net income, or book value of equity) or a firm measure (such as operating income,
+EBITDA, or book value of capital).
+One of the key tests to run on a multiple is to examine whether the numerator and denominator are
+defined consistently. 
+If the numerator for a multiple is an equity value, then the denominator
+should be an equity value as well. If the numerator is a firm value, then the denominator should be
+a firm value as well.
+ To illustrate, the price-earnings ratio is a consistently defined multiple, since
+the numerator is the price per share (which is an equity value) and the denominator is earnings per
+share (which is also an equity value). So is the enterprise value to EBITDA multiple, since the
+numerator and denominator are both firm value measures.
+Are there any multiples in use that are inconsistently defined? Consider the Price-to-EBITDA
+multiple, a multiple that acquired a few adherents in the past few years. The numerator in this
+multiple is an equity value, and the denominator is a measure of earnings to the firm. The analysts
+who use this multiple will probably argue that the inconsistency does not matter since the multiple is
+computed the same way for all of the comparable firms; but they would be wrong. If some firms on
+the list have no debt and others carry significant amounts of debt, the latter will look cheap on a
+Price-to-EBITDA basis, when in fact they might be overpriced or correctly priced.
+Uniformity
+In relative valuation, the multiple is computed for all of the firms in a group and then compared
+across these firms to make judgments on which firms are overpriced and which are underpriced. For
+this comparison to have any merit, the multiple has to be defined uniformly across all of the firms in
+the group. Thus, if the trailing PE is used for one firm, it has to be used for all of the others as well. In
+fact, one of the problems with using the current PE to compare firms in a group is that different firms
+can have different fiscal year-ends. This can lead to some firms having their prices divided by
+earnings from July to June, with other firms having their prices divided by earnings from January to
+December. While the differences can be minor in mature sectors, where earnings do not make
+quantum jumps over six months, they can be large in high-growth sectors.
+With both earnings and book value measures, there is another component to be concerned about,
+and that is the accounting standards used to estimate earnings and book values. Differences in
+accounting standards can result in very different earnings and book value numbers for similar firms.
+This makes comparisons of multiples across firms in different markets, with different accounting
+standards, very difficult. Even with the same accounting standards, the fact that some firms use
+different accounting rules (on depreciation and expensing) for reporting purposes and tax purposes

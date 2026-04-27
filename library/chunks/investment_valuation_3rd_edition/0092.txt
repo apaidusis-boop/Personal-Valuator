@@ -1,0 +1,34 @@
+ting, it is given the opportunity to present additional information. This process is
+presented schematically for one ratings agency, Standard & Poor’s, in 
+Figure 4.5
+.
+Figure 4.5
+ The Ratings Process
+
+The ratings assigned by these agencies are letter ratings. A rating of AAA from Standard & Poor’s
+and Aaa from Moody’s represents the highest rating, granted to firms that are viewed as having the
+lowest default risk. As the default risk increases, the ratings decline toward D for firms in default
+(Standard & Poor’s). A rating at or above BBB by Standard & Poor’s (or Baa by Moody’s) is
+categorized as above investment grade, reflecting the view of the ratings agency that there is
+relatively little default risk in investing in bonds issued by these firms.
+Determinants of Bond Ratings
+The bond ratings assigned by ratings agencies are primarily based on publicly available information,
+though private information conveyed by the firm to the ratings agency does play a role. The rating
+assigned to a company’s bonds will depend in large part on financial ratios that measure the capacity
+of the company to meet debt payments and generate stable and predictable cash flows. While a
+multitude of financial ratios exist, 
+Table 4.2
+ summarizes some of the key ratios used to measure
+default risk.
+Table 4.2
+ Definition of Financial Ratios: S&P
+Financial Ratio
+Definition
+EBITDA/Revenues
+EBITDA/Revenues
+ROIC
+ROIC = EBIT/(BV of debt + BV of equity – Cash)
+EBIT/Interest expenses
+Interest coverage ratio
+EBITDA/Interest
+EBITDA/Interest expenses

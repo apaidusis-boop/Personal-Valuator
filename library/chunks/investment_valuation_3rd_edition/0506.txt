@@ -1,0 +1,9 @@
+ds or stock buybacks.
+4
+ Finding these firms manually may be tedious when your universe includes 10,000 stocks. You
+could draw on statistical techniques such as cluster analysis to find similar firms.
+
+5
+ Both approaches described assume that the relationship between a multiple and the variables
+driving value are linear. Since this is not always true, you might have to run nonlinear versions of
+these regressions.

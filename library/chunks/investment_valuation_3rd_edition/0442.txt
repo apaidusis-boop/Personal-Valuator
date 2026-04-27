@@ -1,0 +1,26 @@
+ected to grow at 6% forever and to be unaffected by the debt ratio of the firm. The
+cost of capital schedule is provided in the following table, along with the value of the firm at each level of debt.
+
+Note that:
+The value of the firm increases as the cost of capital decreases, and decreases as the cost of capital increases. This is
+illustrated in 
+Figure 15.2
+. While this illustration makes the choice of an optimal financing mix seem easy, it obscures problems
+that will arise in its practice. First, we typically do not have the benefit of having the entire schedule of costs of financing
+prior to an analysis. In most cases, the only level of debt at which we have information on the cost of debt and equity
+financing is the current level. Second, the analysis assumes implicitly that the level of operating income of the firm is
+unaffected by the financing mix of the firm and, consequently, by the default risk (or bond rating) for the firm. While this
+may be reasonable in some cases, it will not be in others. Firms that borrow too much might find that there are indirect
+bankruptcy costs that affect revenues and operating income.
+Figure 15.2
+ Cost of Capital and Firm Value
+Source: Applied Corporate Finance
+, Third Edition, by Aswath Damodaran, copyright © 2010 by John Wiley & Sons,
+Inc. This material is used by permission of John Wiley & Sons, Inc.
+Steps in Cost of Capital Approach
+We need three basic inputs to compute the cost of capital—the cost of equity, the after-tax cost of
+debt, and the weights on debt and equity. The costs of equity and debt change as the debt ratio
+changes, and the primary challenge of this approach is in estimating each of these inputs.
+Let us begin with the cost of equity. We argued that the beta of equity will change as the debt ratio
+changes. In fact, we estimated the levered beta as a function of the market debt to equity ratio of a
+firm, the unlevered beta, and the firm's marginal tax rate:

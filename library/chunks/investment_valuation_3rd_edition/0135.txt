@@ -1,0 +1,37 @@
+tatistics are computed using the averages and standard errors for each trading day. The following
+table summarizes the average excess returns and t statistics around option listing announcement dates:
+
+Based on these excess returns, there is no evidence of an announcement effect on the announcement day alone, but there is
+mild evidence of a positive effect over the entire announcement period.
+5
+Portfolio Study
+In some investment strategies, firms with specific characteristics are viewed as more likely to be
+undervalued, and therefore to have excess returns, than firms without these characteristics. In these
+cases, the strategies can be tested by creating portfolios of firms possessing these characteristics at
+the beginning of a time period and then examining returns over the time period. To ensure that these
+results are not colored by the idiosyncracies of one time period, this analysis is repeated for a number
+of periods. The seven steps in doing a portfolio study are:
+1.
+ The variable on which firms will be classified is defined, using the investment strategy as a
+guide. This variable has to be observable, though it does not have to be numerical. Examples
+would include market value of equity, bond ratings, stock prices, price-earnings ratios, and price–
+book value ratios.
+2.
+ The data on the variable is collected for every firm in the defined universe
+6
+ at the 
+start
+ of the
+testing period, and firms are classified into portfolios based on the magnitude of the variable.
+Thus, if the price-earnings ratio is the screening variable, firms are classified on the basis of PE
+ratios into portfolios from lowest PE to highest PE classes. The number of classes will depend on
+the size of the universe, since there have to be sufficient firms in each portfolio to get some
+measure of diversification.
+3.
+ The returns are collected for each firm in each portfolio for the testing period, and the returns
+for each portfolio are computed, making the decision to weight them either equally or based on
+value.
+4.
+ The beta (if using a single-factor model) or betas (if using a multifactor model) of each
+portfolio are estimated, either by taking the average of the betas of the individual stocks in the
+portfolio or by regressing the portfolio’s returns against market returns over a prior time period

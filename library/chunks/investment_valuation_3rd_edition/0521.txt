@@ -1,0 +1,20 @@
+h firm in
+the sector, and these predicted values can be compared to the actual PE ratios to make judgments on
+whether stocks are under- or overpriced.
+ILLUSTRATION 18.8: Comparing PE Ratios for Global
+
+Telecom Firms—September 2000
+The following table summarizes the trailing PE ratios for global telecom firms with American depositary receipts (ADRs)
+listed in the United States in September 2000. The earnings per share used are those estimated using generally accepted
+accounting principles in the United States and thus should be much more directly comparable than the earnings reported by
+these firms in their local markets.
+The earnings per share represent trailing earnings, and the price-earnings ratios for the firms are reported in the second
+column. The analyst estimates of expected growth in earnings per share over the next five years are shown in the next
+column. In the last column, we introduce a dummy variable indicating whether the firm is from an emerging market or a
+developed one, since emerging market telecom firms are likely to be exposed to far more risk. Not surprisingly, the firms
+with the lowest PE ratios, such as Telebras and PT Indosat, are from emerging markets.
+Regressing the PE ratio for the sector against the expected growth rate and the emerging market dummy yields the
+following results:
+Firms with higher growth have significantly higher PE ratios than firms with lower expected growth. In addition, this
+regression indicates that an emerging market telecom firm should trade at a much lower PE ratio than one in a developed
+market. Using this regression to get predicted values, we get:

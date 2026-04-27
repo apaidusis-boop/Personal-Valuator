@@ -1,0 +1,23 @@
+rpetuity will require them
+to branch out into other businesses, you should adjust the beta upward toward 1; invoking another rule
+of thumb, stable period betas should not be lower than 8.
+4
+betas.xls:
+
+This dataset on the Web summarizes the average levered and unlevered betas, by industry
+group, for firms in the United States.
+Project Returns
+High growth firms tend to have high returns on capital (and equity) and earn excess returns. In stable
+growth, it becomes much more difficult to sustain excess returns. There are some who believe that the
+only assumption consistent with stable growth is to assume no excess returns; the return on capital is
+set equal to the cost of capital. While, in principle, excess returns in perpetuity may not seem
+reasonable, it is difficult in practice to assume that firms will suddenly lose the capacity to earn
+excess returns at a point in time (say 5 years or 10 years). To provide a simple example, consider
+Proctor and Gamble, a company that we estimated a high growth period of 5 years for in illustration
+12.1. While the growth rate for P&G may drop to a stable level by year 6, the strong brand name and
+other competitive advantages are likely to persist for much longer (say 30 to 40 years). Rather than
+estimate cash flows for 30 to 40 years, we would stop estimating cash flows in year 5 but still allow
+the company to continue earning more than its cost of capital in perpetuity. Since entire industries
+often earn excess returns over long periods, assuming a firm's returns on equity and capital will move
+toward industry averages will yield more reasonable estimates of value.
+eva.xls:

@@ -1,0 +1,13 @@
+nvestment that earns its required return—a zero net present value
+investment.
+  If you choose not to consider acquisitions when valuing a firm, you have to remain internally consistent. The portion of
+
+growth that is due to acquisitions should not be considered in the valuation. A common mistake that is made in valuing
+companies that have posted impressive historic growth numbers from an acquisition-based strategy is to extrapolate from
+this growth and ignore acquisitions at the same time. This will result in an overvaluation of your firm, since you have counted
+the benefits of the acquisitions but have not paid for them.
+  What is the cost of ignoring acquisitions? Not all acquisitions are fairly priced, and not all synergy and control value ends up
+with the target company stockholders. Ignoring the costs and benefits of acquisitions will result in an misvaluation of a firm
+that has established a reputation for growing through acquisitions. We undervalue firms that create value by making good
+acquisitions and overvalue firms that destroy value by overpaying on acquisitions.
+capex.xls:

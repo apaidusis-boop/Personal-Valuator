@@ -1,0 +1,54 @@
+nomic growth, with more upwardly sloped
+curves going with higher growth.
+Based on this regression, the predicted EP ratio at the beginning of 2011, with the T-bill rate at 0.13% and the T-bond rate at
+
+3.29%, would have been:
+Since the S&P 500 was trading at a multiple of 15 times earnings in early 2011, this would have indicated an undervalued
+market. This regression can be enriched by adding other variables that should be correlated to the price-earnings ratio, such
+as expected growth in gross national product (GNP) and payout ratios, as independent variables. In fact, an argument can be
+made that the influx of technology stocks into the S&P 500 over the past two decades, the increase in return on equity at
+U.S. companies over the same period, and a decline in risk premiums could all explain the increase in PE ratios over the
+period.
+Comparing PE Ratios across Countries
+Comparisons are often made between price-earnings ratios in different countries with the intention of
+finding undervalued and overvalued markets. Markets with lower PE ratios are viewed as
+undervalued and those with higher PE ratios are considered overvalued. Given the wide differences
+that exist between countries on fundamentals, it is misleading to draw these conclusions. For instance,
+you would expect to see the following, other things remaining equal:
+Countries with higher real interest rates should have lower PE ratios than countries with
+lower real interest rates.
+Countries with higher expected real growth should have higher PE ratios than countries with
+lower real growth.
+Countries that are viewed as riskier (and thus command higher risk premiums) should have
+lower PE ratios than safer countries.
+Countries where companies are more efficient in their investments (and earn a higher return
+on these investments) should trade at higher PE ratios.
+ILLUSTRATION 18.5: PE Ratios in Markets with Different
+Fundamentals
+The following are the summary economic statistics for stock markets in two different countries—country 1 and country 2.
+The key difference between the two countries is that interest rates are much higher in country 1.
+Country 1
+Country 2
+T-bond rate
+10.00%
+5.00%
+Market premium
+4.00%
+5.50%
+Expected inflation
+4.00%
+4.00%
+Expected growth in real GNP
+2.00%
+3.00%
+Average payout ratio
+50%
+50%
+Expected PE ratio
+(0.5 × 1.06)/(.14 − .06) = 6.625
+(0.5 × 1.07)/(.105 − .07) = 15.29
+In this case, the expected PE ratio in country 2 is significantly higher than the PE ratio in country 1, but it can be justified on
+the basis of differences in financial fundamentals. (Note that nominal growth = real growth rate + expected inflation.)
+ILLUSTRATION 18.6: Comparing PE Ratios across
+Markets—July 2000
+This principle can be extended to broader comparisons of PE ratios across countries. The following table summarizes PE

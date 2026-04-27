@@ -1,0 +1,31 @@
+re are 102 firms where enterprise value
+is negative (because cash exceeds the combined market values of debt and equity).
+Figure 19.9
+ EV/Invested Capital and Value to Book: U.S. Firms in January 2011
+
+One of the interesting by-products of switching from price-to-book ratios to value-to-book ratios is
+that we lose no firms in the sample with value-to-book ratios and only 102 firms with EV/invested
+capital.
+pbvdata.xls:
+
+This dataset on the Web summarizes value-to-book multiples and fundamentals by industry
+group in the United States for the most recent year.
+Analysis
+The value-to-book ratio is a firm value multiple. To analyze it, we go back to a free cash flow to the
+firm valuation model, and use it to value a stable growth firm:
+The value-to-book ratio is fundamentally determined by its return on capital—firms with high
+returns on capital tend to have high value-to-book ratios. In fact, the determinants of value-to-book
+mirror the determinants of price-to-book equity, but we replace equity measures with firm value
+measures—the ROE with the ROC, the cost of equity with the cost of capital, and the payout ratio
+with (1 – Reinvestment rate). In fact, if we substitute in the fundamental equation for the reinvestment
+rate:
+
+The analysis can be extended to cover high-growth firms, with the value-to-book capital ratio
+determined by the return on capital, cost of capital, growth rate, and reinvestment—in the high growth
+and stable growth periods:
+where ROC = Return on capital (hg: high-growth period; st: stable-growth period) 
+RIR = Reinvestment rate (hg: high-growth period; st: stable-growth period) 
+k
+c
+ = Cost of capital (hg: high-growth period; st: stable-growth period)
+firmmult.xls:

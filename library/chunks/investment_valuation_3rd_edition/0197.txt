@@ -1,0 +1,36 @@
+o can vary for bonds with the same rating but different maturities. This section considers
+how default spreads vary across time and for bonds with varying maturities.
+Default Spreads and Bond Maturity
+
+Empirically, the default spread for corporate bonds of a given ratings class seems to increase with the
+maturity of the bond. 
+Figure 7.2
+ presents the default spreads estimated for Aaa, Baa, and Caa-rated
+bonds for maturities ranging from 1 to 30 years in January 2011.
+Figure 7.2
+ Default Spreads by Maturity—January 2011
+Source:
+ BondsOnline.com.
+At least there seems to be no perceptible pattern to default spreads over maturity in 2011. Thus, the
+default spread on the 10-year bond is not noticeably larger than the default spread on a 1-year bond.
+This has not always been the case. There have been some periods in history where default spreads
+were an increasing function of maturity and other periods where they were a decreasing function.
+Default Spreads over Time
+The default spreads presented in 
+Table 7.6
+, after a year of declining markets and a slowing economy,
+were significantly higher than the default spreads a year earlier. This phenomenon is not new.
+Historically, default spreads for every ratings class have increased during recessions and decreased
+during economic booms. 
+Figure 7.3
+ graphs the spread between 10-year Moody’s Baa-rated bonds and
+the 10-year Treasury bond rate each year from 1960 to 2010 and contrasts it with the implied equity
+risk premium each year. The default spreads did increase during periods of low economic growth;
+note the increase during 1973–1974 and 1979–1981 in particular. Although default spreads and
+equity risk premiums in most periods have generally moved in tandem, there have been exceptional
+periods when they moved in different directions. In the late 1990s, for instance, the dot-com boom in
+stock prices resulted in declining equity risk premiums, while default spreads stayed relatively
+stable. In contrast, the subprime boom in 2004 to 2007 lowered default spreads, while equity risk
+premiums stayed unchanged.
+Figure 7.3
+ Baa Bond Default Spread and Implied Equity Risk Premiums: 1960 to 2010

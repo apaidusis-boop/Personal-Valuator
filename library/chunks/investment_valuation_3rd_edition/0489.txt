@@ -1,0 +1,50 @@
+and is fairly valued, estimate how much the firm earned
+in operating income in the current year. (The return on capital is 15%, the tax rate is 30%, and
+earnings are growing 6% a year in perpetuity.)
+
+5.
+ Lava Lamps Inc. had $800 million in earnings before interest and taxes last year. It has just
+acquired a 50% stake in General Lamps Inc., which had $400 million in earnings before interest
+and taxes last year. Because Lava Lamps has a majority active stake, it has been asked to
+consolidate last year’s income statements for the two firms.
+a.
+ What earnings before interest and taxes would you see in the consolidated statement?
+b.
+ If both firms have a 5% stable growth rate, a 10% cost of capital, a 40% tax rate, and a return
+on capital of 11%, estimate the value of equity in Lava Lamps.
+c.
+ How would your answer change if you were told that General Lamps has a 9% cost of capital
+and a 15% return on capital?
+6.
+ Genome Sciences is a biotechnology firm that had after-tax operating income of $300 million
+last year; these earnings are expected to grow 6% a year forever, the reinvestment rate is 40%,
+and the firm has a cost of capital of 12%. Genome also owns 10% of the stock of Gene Therapies
+Inc., another publicly traded firm. Gene Therapies has 100 million shares outstanding, trading at
+$50 per share. If Genome has $800 million in debt outstanding, estimate the value of equity per
+share in Genome Sciences. (Genome has 50 million shares outstanding.)
+7.
+ Fedders Asia Closed End fund is a closed-end equity fund that holds Asian securities with a
+market value of $1 billion. Over the past 10 years, the fund has earned a return of 9% a year, 3%
+less than the return earned by index funds investing in Asia. You expect annual returns in the future
+to be similar to those earned in the past, both for your fund and for index funds in general.
+a.
+ Assuming no growth in the fund and investment in perpetuity, estimate the discount at which
+you would expect the fund to trade.
+b.
+ How would your answer change if you expect the fund to be liquidated in 10 years?
+8.
+ You have been asked to review another analyst’s valuation of System Logic Inc., a technology
+firm. The analyst estimated a value per share of $11 while the stock was trading at $12.50 per
+share. In making this estimate, however, the analyst divided the value of equity by the fully diluted
+1.4 million shares outstanding. Reviewing this number, you discover that the firm has only 1
+million shares outstanding and that the remaining 400,000 shares represent options with an
+average maturity of three years and an average exercise price of $5.
+a.
+ Estimate the correct value per share, using the treasury stock approach.
+b.
+ If the standard deviation in the stock price is 80%, estimate the value of the options using an
+option pricing model (and the current stock price) and the correct value per share.
+c.
+ Will your value per share increase or decrease if you reestimate the value of the options using
+your estimated value per share?
+1

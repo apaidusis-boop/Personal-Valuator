@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: ITSA4
 market: br
-date: 2026-04-26
+date: 2026-04-27
 variance: low_consensus_long
 magnitude: 1
 weight_skew: False

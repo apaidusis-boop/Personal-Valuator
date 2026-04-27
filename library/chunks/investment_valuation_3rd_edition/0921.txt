@@ -1,0 +1,58 @@
+s the value of the firm?
+c.
+ How much value is being created or destroyed by the firm’s new investments?
+8.
+ Coca-Cola is considered to have one of the most valuable brand names in the world. The firm
+
+has an after-tax operating margin of 20% on revenues of $25 billion. The capital invested in the
+firm is $10 billion. In addition, Coca-Cola reinvests 50% of its after-tax operating earnings.
+a.
+ Estimate the expected growth in operating earnings, assuming Coca-Cola can sustain these
+values for the foreseeable future.
+b.
+ Assume generic soft drink manufacturers have after-tax operating margins of only 7.5%. If
+Coca-Cola maintains its existing reinvestment rate but loses its brand name value, estimate the
+expected growth rate in operating earning. (You can assume that with the loss in brand name
+value Coca-Cola’s operating margins would drop to 7.5% as well.)
+9.
+ BioMask Genetics is a biotechnology firm with only one patent to its name. The after-tax
+operating earnings in the current year are $10 million, and the firm has no reinvestment needs. The
+patent will expire in three years, and the firm will have a 15% growth rate in earnings during that
+period. After year 3, operating earnings are expected to remain constant forever. The firm’s
+management is considering an advertising plan designed to build up the brand name of its patented
+product. The advertising campaign will cost $50 million (pretax) a year over the next three years;
+the firm’s tax rate is 40%. The firm believes this campaign will allow it to maintain a 15%
+growth rate for 10 years, as the brand name compensates for the loss of the patent protection.
+After year 10, the operating earnings are expected to remain constant forever. The firm has a cost
+of capital of 10%.
+a.
+ Estimate the value of the firm assuming it does not embark on the advertising campaign.
+b.
+ Estimate the value of the firm with the advertising campaign.
+c.
+ Assume there is no guarantee the growth rate will last 10 years as a result of the campaign.
+What would the probability of success need to be for the campaign to be financially viable?
+10.
+ Sunmask is a cosmetics firm that has seen its stock price fall and its earnings decline in the
+past year. You have been hired as the new CEO of the company, and a careful analysis of
+Sunmask’s current financials reveals the following:
+The firm currently has after-tax operating earnings of $300 million on revenues of $10
+billion, and a capital turnover ratio (sales–book value of capital) of 2.5.
+The firm is expected to reinvest 60% of its after-tax operating income.
+The firm is all equity financed and has a cost of capital of 10%.
+a.
+ Estimate the value of the firm, assuming existing policies continue forever. (Returns on capital
+and reinvestment rates remain constant forever as well.)
+b.
+ Assume that you can increase operating margins from 3% to 5% without affecting the capital
+turnover ratio, that you can lower the reinvestment rate to 40%, and that the cost of capital will
+become 9% if you shift to your optimal debt ratio. How much would your firm value increase if
+you were able to make these changes?
+1
+ This is backed up empirically. Stock prices do tend to increase, on average, when stocks are
+split.
+2
+ In 1999, Lockheed, Boeing’s leading competitor in the sector, announced plans to divest itself of
+approximately 15% of its assets as a remedy for its poor stock price performance.
+3
+ Taxes are only one aspect of transfer pricing. Brickley, Smith, and Zimmerman (1995) look at the

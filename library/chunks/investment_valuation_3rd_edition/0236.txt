@@ -1,0 +1,86 @@
+nstitutions. By looking at the most recent borrowings made by a firm, we can get a
+sense of the types of default spreads being charged the firm and use these spreads to come up with
+a cost of debt.
+2.
+
+Estimate a synthetic rating.
+ An alternative is to play the role of a ratings agency and assign a
+rating to a firm based on its financial ratios; this rating is called a synthetic rating. To make this
+assessment, we begin with rated firms and examine the financial characteristics shared by firms
+within each ratings class. To illustrate, 
+Table 8.1
+ lists the range of interest coverage ratios for
+small (less than $5 billion in market cap) nonfinancial service firms in each S&P ratings class.
+11
+Table 8.1
+ Interest Coverage Ratios and Ratings: Low Market Cap Firms
+Source for raw data:
+ Capital IQ, BondsOnline.com.
+Interest Coverage Ratio
+Rating
+Spread
+More than 12.5
+AAA
+0.50%
+9.5 to 12.5
+AA
+0.65%
+7.5 to 9.5
+A+
+0.85%
+6 to 7.5
+A
+1.00%
+4.5 to 6
+A–
+1.10%
+3.5 to 4.5
+BBB
+1.60%
+3 to 3.5
+BB
+3.35%
+2.5 to 3
+B+
+3.75%
+2 to 2.5
+B
+5.00%
+1.5 to 2
+B–
+5.25%
+1.25 to 1.5
+CCC
+8.00%
+0.8 to 1.25
+CC
+10.00%
+0.5 to 0.8
+C
+12.00%
+Less than 0.5
+D
+15.00%
+Now consider a small firm that is not rated but has an interest coverage ratio of 6.15. Based on this
+ratio, a synthetic rating of A would be assessed for the firm, and a default spread of 1.00% would be
+added to the risk-free rate to arrive at the pretax cost of debt.
+The interest coverage ratios tend to be lower for larger (market cap greater than $5 billion) firms
+for any given rating. 
+Table 8.2
+ summarizes these ratios.
+Table 8.2
+ Interest Coverage Ratios and Ratings: High Market Cap Firms
+Source:
+ Capital IQ, BondsOnline.com.
+Interest Coverage Ratio
+Rating
+Spread
+More than 8.5
+AAA
+0.50%
+6.5 to 8.5
+AA
+0.65%
+5.5 to 6.5
+A+
+0.85%

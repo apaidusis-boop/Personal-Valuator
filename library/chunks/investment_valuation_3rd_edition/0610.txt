@@ -1,0 +1,36 @@
+ent
+revenues are only $117 million but which we expect to grow to $4,877 billion in 10 years. If the
+average EV-to-sales ratio of more mature automobile firms is 0.82, the estimated value of Tesla can
+
+be estimated as follows:
+This could be discounted back at Tesla’s cost of capital to the present to yield a value for the firm
+today.
+We are ignoring the cash flows over the next 10 years in this computation. Adding the current cash
+balance ($196 million), subtracting out debt outstanding ($106 million), netting out the value of
+management options ($152 million), and dividing by the number of shares (94.908 million) yields a
+value per share of $15.59:
+The second approach is to forecast the expected revenue in five years for each of the comparable
+firms, and to divide each firm’s current value by these revenues. This multiple of current value to
+future revenues can be used to estimate the value today. To illustrate, if current value is 0.4 times
+revenues in 10 years for other automobile firms, the value of Tesla Motors can be estimated as
+follows:
+In the third approach, you can adjust the multiple of future revenues for differences in operating
+margin, growth and risk for differences between the firm and comparable firms. For instance, Tesla
+Motors, 10 years from now will have an expected operating margin of 10% and an expected growth
+rate of 3.5% in subsequent years.
+You could run a regression of EV/sales ratios against expected growth rates and operating margins
+at automobile companies today and then plug in the values for Tesla Motors into the regression to get
+the predicted EV to sales ratio for the firm in 10 years. That predicted EV would be used instead of
+the industry average to estimate the future value.
+SECTOR-SPECIFIC MULTIPLES
+The value of a firm can be standardized using a number of sector-specific multiples. The value of
+steel companies can be compared based on market value per ton of steel produced, and the value of
+electricity generators can be computed on the basis of kilowatt hour (kwh) of power produced. In the
+past few years, analysts following new technology firms have become particularly inventive with
+multiples that range from value per subscriber for online service providers to value per web site
+visitor for Internet portals to value per member for social media companies.
+Why Analysts Use Sector-Specific Multiples
+The increase in the use of sector-specific multiples in the last few years has opened up a debate about
+whether they yield good estimates of relative value. There are several reasons why analysts use
+sector-specific multiples:
+They link firm value to operating details and output. For analysts who begin with these

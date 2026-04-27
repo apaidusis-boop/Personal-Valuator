@@ -1,0 +1,54 @@
+rough clever monetary policies if the debt is in their own 
+currency. Similarly, if a cash-flow problem exists, fiscal and/or monetary policy can provide either cash or guaran -
+tees that resolve it. 
+
+Principles For Navigating Big Debt Crises
+25
+A good example of how these forces are relevant is highlighted by the differences between the debt/banking crises of 
+the 1980s and 2008. In the 1980s, there was not as much mark-to-market accounting (because the crisis involved loans 
+that weren’t traded every day in public markets), so the banks were not as “insolvent” as they were in 2008. With more 
+mark-to-market accounting in 2008, the banks required capital injections and/or guarantees to improve their balance 
+sheets. Both crises were successfully managed, though the ways they were managed had to be different.
+Going into the “depression” phase of the cycle (by which I mean the severe contraction phase) some protections 
+learned from past depressions (e.g., bank-deposit insurance, the ability to provide lender-of-last-resort financial 
+supports and guarantees and to inject capital into systemically important institutions or nationalize them) are 
+typically in place and are helpful, but they are rarely adequate, because the exact nature of the debt crisis hasn’t 
+been well thought through. Typically, quite a lot of lending has taken place in the relatively unregulated “shadow 
+banking system,” or in new instruments that have unanticipated risks and inadequate regulations. What happens 
+in response to these new realities depends on the capabilities of the policy makers in the decision roles and the 
+freedom of the system to allow them to do what is best. 
+Some people mistakenly think that depressions are psychological: that investors move their money from riskier 
+investments to safer ones (e.g., from stocks and high-yield lending to government bonds and cash) because they’re 
+scared, and that the economy will be restored if they can only be coaxed into moving their money back into riskier 
+investments. This is wrong for two reasons: First, contrary to popular belief, the deleveraging dynamic is not 
+primarily psychological. It is mostly driven by the supply and demand of, and the relationships between, credit, 
+money, and goods and services—though psychology of course also does have an effect, especially in regard to the 
+various players’ liquidity positions. Still, if everyone went to sleep and woke up with no memory of what had 
+happened, we would be in the same position, because debtors’ obligations to deliver money would be too large 
+relative to the money they are taking in. The government would still be faced with the same choices that would 
+have the same consequences, and so on. 
+Related to this, if the central bank produces more money to alleviate the shortage, it will cheapen the value of 
+money, making a reality of creditors’ worries about being paid back an amount of money that is worth less than 
+what they loaned. While some people think that the amount of money in existence remains the same and simply 
+moves from riskier assets to less risky ones, that’s not true. Most of what people think is money is really credit, 
+and credit does appear out of thin air during good times and then disappear at bad times. For example, when you 
+buy something in a store on a credit card, you essentially do so by saying, “I promise to pay.” Together you and the 
+store owner create a credit asset and a credit liability. So where do you take the money from? Nowhere. You 
+created credit. It goes away in the same way. Suppose the store owner rightly believes that you and others won’t 
+pay the credit card company and that the credit card company won’t pay him. Then he correctly believes that the 
+credit “asset” he has isn’t really there. It didn’t go somewhere else; it’s simply gone.
+As this implies, a big part of the deleveraging process is people discovering that much of what they thought of as 
+their wealth was merely people’s promises to give them money. Now that those promises aren’t being kept, that 
+wealth no longer exists. When investors try to convert their investments into money in order to raise cash, they 
+test their ability to get paid, and in cases where it fails, panic-induced “runs” and sell-offs of securities occur. 
+Naturally those who experience runs, especially banks (though this is true of most entities that rely on short-term 
+funding), have problems raising money and credit to meet their needs, so debt defaults cascade. 
+Debt defaults and restructurings hit people, especially leveraged lenders (e.g., banks), and fear cascades through 
+the system. These fears feed on themselves and lead to a scramble for cash that results in a shortage (i.e., a 
+liquidity crisis). The dynamic works like this: Initially, the money coming in to debtors via incomes and borrowing 
+is not enough to meet the debtors’ obligations; assets need to be sold and spending needs to be cut in order to raise 
+cash. This leads asset values to fall, which reduces the value of collateral, and in turn reduces incomes. Since 
+borrowers’ creditworthiness is judged by both a) the values of their assets/collaterals in relation to their debts (i.e., 
+their net worth) and b) the sizes of their incomes relative to the sizes of their debt-service payments, and since 
+both their net worth and their income fall faster than their debts, borrowers become less creditworthy and lenders 
+more reluctant to lend. This goes on in a self-reinforcing manner.

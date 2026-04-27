@@ -1,0 +1,47 @@
+a decline
+in expected nominal growth rates for cash flows, and the value will remain unchanged.
+If the difference in interest rates across two currencies does not adequately reflect the difference in
+
+expected inflation in these currencies, the values obtained using the different currencies can be
+different. In particular, firms will be valued more highly when the currency used is the one with low
+interest rates relative to inflation. The risk, however, is that the interest rates will have to rise at some
+point to correct for this divergence, at which point the values will also converge.
+Real versus Nominal Risk-Free Rates
+Under conditions of high and unstable inflation, valuation is often done in real terms. Effectively, this
+means that cash flows are estimated using real growth rates and without allowing for the growth that
+comes from price inflation. To be consistent, the discount rates used in these cases have to be real
+discount rates. To get a real expected rate of return, we need to start with a real risk-free rate. While
+government bills and bonds offer returns that are risk free in nominal terms, they are not risk free in
+real terms, since expected inflation can be volatile. The standard approach of subtracting an expected
+inflation rate from the nominal interest rate to arrive at a real risk-free rate provides at best an
+estimate of the real risk-free rate.
+Until recently, there were few traded default-free securities that could be used to estimate real risk-
+free rates, but the introduction of inflation-indexed Treasuries (TIPs) has filled this void. An
+inflation-indexed Treasury security does not offer a guaranteed nominal return to buyers, but instead
+provides a guaranteed real return. Thus, an inflation-indexed Treasury that offers a 3 percent real
+return will yield approximately 7 percent in nominal terms if inflation is 4 percent and only 5 percent
+in nominal terms if inflation is only 2 percent.
+The only problem is that real valuations are seldom called for or done in the United States, which
+has historically had stable and low expected inflation. The markets where we would most need to do
+real valuations, unfortunately, are markets without inflation-indexed default-free securities. The real
+risk-free rates in these markets can be estimated by using one of two arguments:
+1.
+ The first argument is that as long as capital can flow freely to those economies with the highest
+real returns, there can be no differences in real risk-free rates across markets. Using this argument,
+the real risk-free rate for the United States, estimated from the inflation-indexed Treasury, can be
+used as the real risk-free rate in any market.
+2.
+ The second argument applies if there are frictions and constraints in capital flowing across
+markets. In that case, the expected real return on an economy, in the long term, should be equal to
+the expected real growth rate, again in the long term, of that economy, for equilibrium. Thus, the
+real risk-free rate for a mature economy like Germany should be much lower than the real risk-
+free rate for a economy with greater growth potential, such as Hungary’s.
+Risk-Free Rates When There Is No Default-Free Entity
+Our discussion, hitherto, has been predicated on the assumption that governments do not default, at
+least on local borrowing. There are many emerging market economies and quite a few devloped
+markets where this assumption might not be viewed as reasonable. Governments in these markets are
+perceived as capable of defaulting even on local borrowing. When this is coupled with the fact that
+some governments do not borrow long-term in the local currency, there are scenarios where obtaining
+a local risk-free rate, especially for the long term, becomes difficult. We 
+consider four alternatives in
+the section following.

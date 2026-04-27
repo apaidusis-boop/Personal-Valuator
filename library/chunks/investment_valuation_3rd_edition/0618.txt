@@ -1,0 +1,31 @@
+he firm also had a capital turnover ratio of
+1.5. The firm’s cost of capital is 10%.
+a.
+ If you expect operating income to grow 5% a year in perpetuity, estimate the value-to-sales
+ratio for the firm.
+
+b.
+ How would your answer change if you were told that the operating income will grow 10% a
+year for the next five years and then grow 5% in perpetuity?
+8.
+ You have run a regression of value/sales ratios against operating margins for cosmetics firms: 
+You are trying to estimate the brand name value of Estée Lauder. The firm earned $80 million
+after interest and after taxes on revenues of $500 million. In contrast, GenCosmetics, a
+manufacturer of generic cosmetics, had an after-tax operating margin of 5%. Estimate the brand
+name value for Estée Lauder.
+9.
+ You are trying to estimate the brand name value for Steinway, one of the world’s best-known
+piano manufacturers. The firm reported operating income of $30 million on revenues of $100
+million in the most recent year; the tax rate is 40%. The book value of capital at the firm is $90
+million, and the cost of capital is 10%. The firm is in stable growth and expects to grow 5% a
+year in perpetuity.
+a.
+ Estimate the value/sales ratio for this firm.
+b.
+ Assume now that the operating profit margin (EBIT/sales) for generic piano manufacturers is
+half of the operating profit margin for Steinway. Assuming generic piano manufacturers have the
+same stable growth rate, capital turnover ratio, and cost of capital as Steinway, what is the value
+of the Steinway brand name?
+1
+ For purposes of simplicity, it has been assumed that the cash flow is the same in each year. This
+can be generalized to allow cash flows to grow over time.

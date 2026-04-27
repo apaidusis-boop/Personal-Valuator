@@ -1,0 +1,59 @@
+for equities, and estimate the expected growth and cash flows, collectively, on equity
+investments. It has the advantages of not requiring historical data and of reflecting current market
+perceptions.
+
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Assume that you are valuing an Indonesian firm in U.S. dollars. What would you use as the
+riskless rate?
+2.
+ Explain why a six-month Treasury bill rate is not an appropriate riskless rate in discounting a
+five-year cash flow.
+3.
+ You have been asked to estimate a riskless rate in Indonesian rupiah. The Indonesian
+government has rupiah-denominated bonds outstanding, with an interest rate of 17%. S&P has a
+rating of BB on these bonds, and the typical spread for a BB-rated country is 5% over a riskless
+rate. Estimate the rupiah riskless rate.
+4.
+ You are valuing an Indian company in rupees. The current exchange rate is Rs 45 per dollar and
+you have been able to obtain a 10-year forward rate of Rs 70 per dollar. If the U.S. Treasury bond
+rate is 5%, estimate the riskless rate in Indian rupees.
+5.
+ You are attempting to do a valuation of a Chilean company in real terms. While you have been
+unable to get a real riskless rate in Latin America, you know that inflation-indexed Treasury bonds
+in the United States are yielding 3%. Could you use this as a real riskless rate? Why or why not?
+What are the alternatives?
+6.
+ Assume you have estimated the historical risk premium, based on 50 years of data, to be 6%. If
+the annual standard deviation in stock prices is 30%, estimate the standard error in the risk
+premium estimate.
+7.
+ When you use a historical risk premium as your expected future risk premium, what are the
+assumptions that you are making about investors and markets? Under what conditions would a
+historical risk premium give you too high a number (to use as an expected premium)?
+8.
+ You are trying to estimate a country equity risk premium for Poland. You find that S&P has
+assigned an A rating to Poland and that Poland has issued euro-denominated bonds that yield
+7.6% in the market currently. (Germany, a AAA-rated country, has euro-denominated bonds
+outstanding that yield 5.1%.)
+a.
+ Estimate the country risk premium, using the default spread on the country bond as the proxy.
+b.
+ If you were told that the standard deviation in the Polish equity market was 25% and that the
+standard deviation in the Polish euro bond was 15%, estimate the country risk premium.
+9.
+ The standard deviation in the Mexican Equity Index is 48%, and the standard deviation in the
+S&P 500 is 20%. You use an equity risk premium of 5.5% for the United States.
+a.
+ Estimate the country equity risk premium for Mexico using relative equity standard deviations.
+b.
+ Now assume that you are told that Mexico is rated BBB by Standard & Poor’s and that it has
+dollar-denominated bonds outstanding that trade at a spread of about 3% above the Treasury
+bond rate. If the standard deviation in these bonds is 24%, estimate the country risk premium for
+Mexico.
+10.
+ The S&P 500 is at 1,400. The expected dividends and cash flows next year on the stocks in
+the index are expected to be 5% of the index. If the expected growth rate in dividends and cash
+flows over the long term is expected to be 6% and the riskless rate is 5.5%, estimate the implied
+equity risk premium.

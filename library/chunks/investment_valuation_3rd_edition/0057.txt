@@ -1,0 +1,30 @@
+th the return on capital and the book interest rate. This approach results in a return
+on equity that is different from the one estimated using the net income and the book value of equity.
+rocroe.xls:
+
+This is a dataset on the Web that summarizes the return on capital, debt equity ratios, book
+interest rates, and returns on equity of firms in the United States, classified by industry.
+MEASURING RISK
+How risky are the investments the firm has made over time? How much risk do equity investors in a
+firm face? These are two more questions that we would like to find the answers to in the course of an
+investment analysis. Accounting statements do not really claim to measure or quantify risk in a
+systematic way, other than to provide footnotes and disclosures where there might be risk embedded
+in the firm. This section examines some of the ways in which accountants try to assess risk.
+Accounting Principles Underlying Risk Measurement
+To the extent that accounting statements and ratios do attempt to measure risk, there seem to be two
+common themes.
+The first is that the risk being measured is the risk of default—that is, the risk that a fixed
+obligation, such as interest or principal due on outstanding debt, will not be met. The broader equity
+notion of risk, which measures the variance of actual returns around expected returns, does not seem
+to receive much attention. Thus, an all-equity-financed firm with positive earnings and few or no
+fixed obligations will generally emerge as a low-risk firm from an accounting standpoint, in spite of
+the fact that its earnings are unpredictable.
+The second theme is that accounting risk measures generally take a static view of risk, by looking at
+the capacity of a firm at a point in time to meet its obligations. For instance, when ratios are used to
+assess a firm's risk, the ratios are almost always based on one period's income statement and balance
+sheet.
+Accounting Measures of Risk
+Accounting measures of risk can be broadly categorized into two groups. The first is disclosures
+about potential obligations or losses in values that show up as footnotes on balance sheets, which are
+designed to alert potential or current investors to the possibility of significant losses. The second
+measure is ratios that are designed to measure both liquidity and default risk.

@@ -1,0 +1,34 @@
+trading at $5.80 on March 8, 2001.
+optst.xls:
+
+This spreadsheet allows you to estimate the value of a short-term option when the expected
+dividends during the option life can be estimated.
+optlt.xls:
+
+This spreadsheet allows you to estimate the value of an option when the underlying asset has a
+constant dividend yield.
+Early Exercise
+The Black-Scholes model was designed to value European options that can be exercised only at
+expiration. In contrast, most options that we encounter in practice are American options and can be
+exercised at any time until expiration. As mentioned earlier, the possibility of early exercise makes
+American options more valuable than otherwise similar European options; it also makes them more
+difficult to value. In general, though, with traded options, it is almost always better to sell the option
+to someone else rather than exercise early, since options have a time premium (i.e., they sell for more
+than their exercise value). There are two exceptions. One occurs when the underlying asset pays large
+dividends, thus reducing the expected value of the asset. In this case, call options may be exercised
+just 
+before an ex-dividend 
+date
+, if the time premium on the options is less than the expected decline
+in asset value as a consequence of the dividend payment. The other exception arises when an investor
+holds both the underlying asset and 
+deep in-the-money puts
+ (i.e., puts with strike prices well above
+the current price of the underlying asset) on that asset at a time when interest rates are high. In this
+case, the time premium on the put may be less than the potential gain from exercising the put early and
+earning interest on the exercise price.
+There are two basic ways of dealing with the possibility of early exercise. One is to continue to use
+the unadjusted Black-Scholes model and to regard the resulting value as a floor or conservative
+estimate of the true value. The other is to try to adjust the value of the option for the possibility of
+early exercise. There are two approaches for doing so. One uses the Black-Scholes model to value
+the option to each potential exercise date. With options on stocks, this basically requires that the

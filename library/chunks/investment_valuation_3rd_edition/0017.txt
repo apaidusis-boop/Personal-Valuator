@@ -1,0 +1,43 @@
+ent is flawed because:
+a.
+ Value is determined by earnings and cash flows, and investor perceptions do not matter.
+b.
+ Perceptions do matter, but they can change. Value must be based on something more
+
+substantial.
+c.
+ Investors are irrational. Therefore, their perceptions should not determine value.
+d.
+ Value is determined by investor perceptions, but it is also determined by the underlying
+earnings and cash flows. Perceptions must be based on reality.
+3.
+ You use a valuation model to arrive at a value of $15 for a stock. The market price of the stock
+is $25. The difference may be explained by:
+a.
+ A market inefficiency; the market is overvaluing the stock.
+b.
+ The use of the wrong valuation model to value the stock.
+c.
+ Errors in the inputs to the valuation model.
+d.
+ All of the above.
+1
+ This is most visible in takeovers, where the decision to acquire a firm often seems to precede the
+valuation of the firm. It should come as no surprise, therefore, that the analysis almost invariably
+supports the decision.
+2
+ In most years buy recommendations outnumber sell recommendations by a margin of 10 to 1. In
+recent years this trend has become even stronger.
+3
+ This is extracted from Mr. Buffett's letter to stockholders in Berkshire Hathaway for 1993.
+4
+ On a chart, the support line usually refers to a lower bound below which prices are unlikely to
+move, and the resistance line refers to the upper bound above which prices are unlikely to venture.
+While these levels are usually estimated using past prices, the range of values obtained from a
+valuation model can be used to determine these levels (i.e., the maximum value will become the
+resistance line and the minimum value will become the support line).
+5
+ Most corporate financial theory is constructed on this premise.
+6
+ The motivation for this has been the fear of hostile takeovers. Companies have increasingly turned
+to “value consultants” to tell them how to restructure, increase value, and avoid being taken over.

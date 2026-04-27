@@ -1,0 +1,64 @@
+pensates for risk. This section
+looks at the estimation of an appropriate equity risk premium (ERP) to use in risk and return models,
+in general, and in the capital asset pricing model, in particular.
+
+Competing Views on Risk Premiums
+In Chapter 4, we considered several competing models of risk ranging from the capital asset pricing
+model to multifactor models. Notwithstanding their different conclusions, they all share some
+common views about risk. First, they all define risk in terms of variance in actual returns around an
+expected return; thus, an investment is riskless when actual returns are always equal to the expected
+return. Second, they all argue that risk has to be measured from the perspective of the marginal
+investor in an asset, and that this marginal investor is well diversified. Therefore, the argument goes,
+it is only the risk that an investment adds on to a diversified portfolio that should be measured and
+compensated. In fact, it is this view of risk that leads models of risk to break the risk in any
+investment into two components. There is a firm-specific component that measures risk that relates
+only to that investment or to a few investments like it, and a market component that contains risk that
+affects a large subset or all investments. It is the latter risk that is not diversifiable and should be
+rewarded.
+While all risk and return models agree on this fairly crucial distinction, they part ways when it
+comes to how to measure this market risk. 
+Table 7.1
+ summarizes four models and the way each model
+attempts to measure risk.
+Table 7.1
+ Comparing Risk and Return Models
+Model
+Assumptions
+Measure of Market Risk
+Capital asset pricing
+model (CAPM)
+There are no transaction costs or private information. Therefore, the diversified portfolio
+includes all traded investments, held in proportion to their market value.
+Beta measured against this market portfolio
+Arbitrage pricing
+model (APM)
+Investments with the same exposure to market risk have to trade at the same price (no
+arbitrage).
+Betas measured against multiple (unspecified) market
+risk factors
+Multifactor model
+There is the same no-arbitrage assumption as with the APM.
+Betas measured against multiple specified
+macroeconomic factors
+Proxy model
+Over very long periods, higher returns on investments must be compensation for higher
+market risk.
+Proxies for market risk, for example, include market
+capitalization and price book value ratios.
+In the first three models, the expected return on any investment can be written as:
+where β
+j
+ = Beta of investment relative to factor j 
+Risk premium
+j
+ = Risk premium for factor j
+Note that in the special case of a single-factor model, like the CAPM, each investment’s expected
+return will be determined by its beta relative to the risk premium for that factor.
+Assuming that the risk-free rate is known, these models all require two inputs. The first is the beta
+or betas of the investment being analyzed, and the second is the appropriate risk premium(s) for the
+factor or factors in the model. The issue of beta estimation is examined in the next chapter, this
+section concentrates on the measurement of the risk premium.
+What We Would Like to Measure
+As far as the risk premium is concerned, we would like to know for each factor what investors, on
+average, require as a premium over the risk-free rate for an investment with average risk.
+Without any loss of generality, let us consider the estimation of the beta and the equity risk premium

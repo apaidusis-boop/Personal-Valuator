@@ -1,0 +1,17 @@
+r a energia gerada pelas usinas para todas as regiões do Brasil. As redes de linhas de transmissão e as subestações que se espalham por todo o Brasil fazem parte do Sistema Interligado Nacional (SIN).
+
+**Participação na extensão das linhas de transmissão brasileiras** — *Fonte: Companhias e ONS. Elaboração: Suno Research.*
+
+O SIN é um sistema de geração e transmissão de energia elétrica operado por empresas públicas e privadas, e gerenciado pelo Operador Nacional do Sistema Elétrico (ONS).
+
+Esse sistema, representado na sequência, atende 98% do mercado brasileiro de energia elétrica:
+
+*Fonte: ONS.*
+
+Nas subestações, o nível de tensão é aumentado enquanto o nível da corrente baixa, fazendo com que o transporte de energia seja facilitado com menos perdas durante o percurso. No Brasil, as tensões de transmissão usualmente adotadas podem variar de 138 kV até 765 kV, sendo que as redes iguais ou superiores a 230 kV são as chamadas redes básicas de transmissão de corrente alternada.
+
+As linhas de transmissão em corrente contínua (600 e 800 kV DC) são vantajosas apenas em aplicações específicas, como nos casos de distâncias acima de 600 km e na interligação de sistemas com frequências diferentes. Os custos de implementação em DC (*Direct Current*, ou corrente contínua em tradução livre) são menores, porém, as estações conversoras apresentam custos relativamente altos, elevando os gastos da transmissão em DC.
+
+Para uma companhia prestar serviços de transmissão, é necessário um contrato de concessão obtido por meio dos leilões realizados pela Aneel.
+
+Após essa etapa, as empresas contam com 42 a 60 meses de prazo (a critério da Aneel) para que os projetos estejam prontos para energização, levando em conta as etapas de homologação dos resultados do leilão, licenciamento ambiental e construção. Os contratos são de longo prazo e duram 30 anos.

@@ -1,0 +1,40 @@
+tments in year 4 = [(.1625 - .11)(10)/.11]/1.11
+3
+$ 
+3.49
++ PV of EVA from investments in year 5 = [(.1625 - .11)(10)/.11]/1.11
+4
+$ 
+3.14
+Value of firm
+$167.31
+Figure 32.2
+ EVA: Higher Risk and Return
+
+This risk shifting can be dangerous for firms that adopt economic value added based on objective
+functions. When managers are judged based on year-to-year economic value added changes, there
+will be a tendency to shift into riskier investments. This tendency will be exaggerated if the measured
+cost of capital does not reflect the changes in risk or lags it.
+4
+In closing, economic value added is an approach skewed toward assets in place and away from
+future growth. It should not be surprising, therefore, that when economic value added is computed at
+the divisional level of a firm, the higher-growth divisions end up with the lowest economic value
+added, and in some cases with negative economic value added. Again, while these divisional
+managers may still be judged based on changes in economic value added from year to year, the
+temptation at the firm level to reduce or eliminate capital invested in these divisions will be strong,
+since it will make the firm’s overall economic value added look much better.
+EVA and Market Value
+Will increasing economic value added cause market value to increase? While an increase in
+economic value added will generally lead to an increase in firm value, barring the growth and risk
+games described earlier, it may or may not increase the stock price. This is so because the market
+value has built into it expectations of future economic value added. Thus a firm like Apple is priced
+on the assumption that it will earn large and increasing economic value added over time. Whether a
+firm’s market value increases or decreases on the announcement of higher economic value added will
+depend in large part on what the expected change in economic value added was. For mature firms,
+where the market might have expected no increase or even a decrease in economic value added, the
+announcement of an increase will be good news and cause the market value to increase. For firms that
+are perceived to have good growth opportunities and are expected to report an increase in economic
+value added, the market value will decline if the announced increase in economic value added does
+not measure up to expectations. This should be no surprise to investors, who have recognized this
+phenomenon with earnings per share for decades; the earnings announcements of firms are judged
+against expectations, and the earnings surprise is what drives prices.

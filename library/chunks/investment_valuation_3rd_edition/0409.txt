@@ -1,0 +1,43 @@
+growth period.
+Compute the appropriate reinvestment rate = g/ROE.
+The growth rate in the stable growth period is too high for stable firm.
+Use a growth rate closer to GNP growth (risk free rate).
+Risk
+
+As the growth characteristics of a firm change, so do its risk characteristics. In the context of the
+CAPM, as the growth rate declines the beta of the firm can be expected to change. The tendency of
+betas to converge toward one in the long term has been confirmed by empirical observation of
+portfolios of firms with high betas. Over time, as these firms get larger and more diversified, the
+average betas of these portfolios move toward 1.
+Firms Model Works Best For
+Since the model allows for three stages of growth and for a gradual decline from high to stable
+growth, it is the appropriate model to use to value firms with very high growth rates currently. The
+assumptions about growth are similar to the ones made by the three-stage dividend discount model,
+but the focus is on FCFE instead of dividends, making it more suited to value firms whose dividends
+are significantly higher or lower than the FCFE.
+ILLUSTRATION 14.5: Three-Stage FCFE Model: Tsingtao
+Breweries (China) in 2001
+Tsingtao Breweries produces and distributes beer and other alcoholic beverages in China and around the world under the
+Tsingtao brand name. The firm has 653.15 million shares listed on the Shanghai and Hong Kong exchanges.
+RATIONALE FOR USING THE THREE-STAGE FCFE MODEL
+Why three-stage?
+ Tsingtao is a small firm serving a huge and growing market—China, in particular, and the
+rest of Asia in general. The firm's current return on equity is low, and we anticipate that it will improve over
+the next five years. As it increases, earnings growth will be pushed up.
+Why FCFE?
+ Corporate governance in China tends to be weak and dividends are unlikely to reflect free cash
+flow to equity. In addition, the firm consistently funds a portion of its reinvestment needs with new debt
+issues.
+BACKGROUND INFORMATION
+In 2000, Tsingtao Breweries earned 72.36 million CY (Chinese yuan) in net income on a book value of equity of 2,588 million
+CY, giving it a return on equity of 2.80%. The firm had capital expenditures of 335 million CY and depreciation of 204
+million CY during the year, and noncash working capital dropped by 1.2 million CY during the year. The total reinvestment in
+2000 was therefore:
+The working capital changes over the past four years have been volatile, and we normalize the change using noncash
+working capital as a percent of revenues in 2000:
+The normalized reinvestment in 2000 can then be estimated as follows:
+As with working capital, debt issues have been volatile. We estimate the firm's book debt to capital ratio of 40.94% at the
+end of 2000 and use it to estimate the normalized equity reinvestment in 2000:
+As a percent of net income,
+ESTIMATION
+To estimate free cash flows to equity for the high-growth period, we make the assumption that the return on equity, which is

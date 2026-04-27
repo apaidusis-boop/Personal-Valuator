@@ -1,0 +1,36 @@
+rmed 0.36% better than expected, when expectations are based on the CAPM, on a
+monthly basis between January 1996 and December 2000. This results in an annualized excess return of approximately
+4.41%.
+
+Note, however, that this does not imply that Boeing would be a good investment in the future. The performance measure
+also does not provide a breakdown of how much of this excess return can be attributed to the performance of the entire
+sector (aerospace and defense) and how much is specific to the firm. To make that breakdown, we would need to compute
+the excess over the same period for other firms in the aerospace and defense industry and compare them with Boeing's
+excess return. The difference would then be attributable to firm-specific actions. In this case, for instance, the average
+annualized excess return on other aerospace/defense firms between 1996 and 2000 was –0.85%, suggesting that the firm-
+specific component of performance for Boeing is actually 5.26% [firm-specific Jensen's alpha = 4.41% – (–0.85%)].
+(c) R-squared of the regression = 9.43%.
+ This statistic suggests that 9.43% of the risk (variance) in Boeing comes from
+market sources, and that the balance of 90.57% of the risk comes from firm-specific components. The latter risk should be
+diversifiable and therefore will not be rewarded with a higher expected return. Boeing's R-squared is lower than the median
+R-squared of companies listed on the New York Stock Exchange, which was approximately 19% in 2000.
+(d) Standard error of beta estimate = 0.23.
+ This statistic implies that the true beta for Boeing could range from 0.33 to
+0.79 (subtracting and adding one standard error to beta estimate of 0.56) with 67% confidence and from 0.10 to 1.02
+(subtracting and adding two standard errors to beta estimate of 0.56) with 95% confidence. While these ranges may seem
+large, they are not unusual for most U.S. companies. This suggests that we should consider estimates of betas from
+regressions with caution.
+Figure 8.1
+ Boeing versus S&P 500 from 1996 to 2000
+Using a Service Beta
+Most of us who use betas obtain them from an estimation service; Merrill Lynch, Barra, Value Line,
+Standard & Poor's, Morningstar, and Bloomberg are some of the well-known services. All these
+services begin with the regression beta just described and adjust them to reflect what they feel are
+better estimates of future risk. Although many of these services do not reveal their estimation
+procedures, Bloomberg is an exception. 
+Figure 8.2
+ is the beta calculation page from Bloomberg for
+Boeing, using the same period as our regression (January 1996 to December 2000).
+Figure 8.2
+ Beta Estimate for Boeing 
+Copyright 2001 Bloomberg LP. Reprinted with permission. All rights reserved.

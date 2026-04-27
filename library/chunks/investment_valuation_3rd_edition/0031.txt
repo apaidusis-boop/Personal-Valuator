@@ -1,0 +1,51 @@
+e are three basic, though not mutually exclusive, approaches to valuation. The first is discounted
+cash flow valuation, where cash flows are discounted at a risk-adjusted discount rate to arrive at an
+
+estimate of value. The analysis can be done purely from the perspective of equity investors by
+discounting expected cash flows to equity at the cost of equity, or it can be done from the viewpoint
+of all claimholders in the firm, by discounting expected cash flows to the firm at the weighted average
+cost of capital. The second is relative valuation, where the value of an asset is based on the pricing of
+similar assets. The third is contingent claim valuation, where an asset with the characteristics of an
+option is valued using an option pricing model. There should be a place for each among the tools
+available to any analyst interested in valuation.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Discounted cash flow valuation is based on the notion that the value of an asset is the present
+value of the expected cash flows on that asset, discounted at a rate that reflects the riskiness of
+those cash flows. Specify whether the following statements about discounted cash flow valuation
+are true or false, assuming that all variables are constant except for the one mentioned:
+a.
+ As the discount rate increases, the value of an asset increases. 
+True____False____
+b.
+ As the expected growth rate in cash flows increases, the value of an asset increases. 
+True____False____
+c.
+ As the life of an asset is lengthened, the value of that asset increases. 
+True____False____
+d.
+ As the uncertainty about the expected cash flow increases, the value of an asset increases. 
+True____False____
+e.
+ An asset with an infinite life (i.e., it is expected to last forever) will have an infinite value. 
+True____False____
+2.
+ Why might discounted cash flow valuation be difficult to do for the following types of firms?
+a.
+ A private firm, where the owner is planning to sell the firm.
+b.
+ A biotechnology firm with no current products or sales, but with several promising product
+patents in the pipeline.
+c.
+ A cyclical firm during a recession.
+d.
+ A troubled firm that has made significant losses and is not expected to get out of trouble for a
+few years.
+e.
+ A firm that is in the process of restructuring, where it is selling some of its assets and
+changing its financial mix.
+f.
+ A firm that owns a lot of valuable land that is currently unutilized.
+3.
+ The following are the projected cash flows to equity and to the firm over the next five years:

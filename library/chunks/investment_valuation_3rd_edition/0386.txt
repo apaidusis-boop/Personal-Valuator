@@ -1,0 +1,34 @@
+whether this is because the model is good at
+finding undervalued stocks or because it proxies for well-known empirical irregularities in returns
+relating to price-earnings ratios and dividend yields.
+
+Simple Test of the Dividend Discount Model
+A simple study of the dividend discount model was conducted by Sorensen and Williamson, where
+they valued 150 stocks from the S&P 400 in December 1980 using the dividend discount model. They
+used the difference between the market price at that time and the model value to form five portfolios
+based on the degree of under or over valuation. They made fairly broad assumptions in using the
+dividend discount model:
+The average of the earnings per share between 1976 and 1980 was used as the current
+earnings per share.
+The cost of equity was estimated using the CAPM.
+The extraordinary growth period was assumed to be five years for all stocks, and the
+I/B/E/S consensus forecast of earnings growth was used as the growth rate for this period.
+The stable growth rate, after the extraordinary growth period, was assumed to be 8 percent
+for all stocks.
+The payout ratio was assumed to be 45 percent for all stocks.
+The returns on these five portfolios were estimated for the following two years (January 1981 to
+January 1983) and excess returns were estimated relative to the S&P 500 index using the betas
+estimated at the first stage and the CAPM. 
+Figure 13.6
+ illustrates the excess returns earned by the
+portfolio that was undervalued by the dividend discount model relative to both the market and the
+overvalued portfolio.
+Figure 13.6
+ Performance of the Dividend Discount Model, 1981–1983
+The undervalued portfolio had a positive excess return of 16 percent per annum between 1981 and
+1983, while the overvalued portfolio had a negative excess return of 15 percent per annum during the
+same time period. Other studies that focus only on the dividend discount model come to similar
+conclusions. In the long term, undervalued and overvalued stocks from the dividend discount model
+outperform and underperform, respectively, the market index on a risk-adjusted basis.
+Caveats on the Use of the Dividend Discount Model
+The dividend discount model provides impressive results in the long term. There are, however, three

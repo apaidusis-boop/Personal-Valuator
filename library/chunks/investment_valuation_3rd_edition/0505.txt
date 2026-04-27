@@ -1,0 +1,56 @@
+by the market. The reverse would occur,if an entire sector or market
+were underpriced.
+CONCLUSION
+In relative valuation, you estimate the value of an asset by looking at how similar assets are priced.
+
+To make this comparison, you begin by converting prices into multiples—standardizing prices—and
+then comparing these multiples across firms that you define as comparable. Prices can be
+standardized based on earnings, book value, revenue, or sector-specific variables.
+While the allure of multiples remains their simplicity, there are four steps in using them soundly.
+First, you have to define the multiple consistently and measure it uniformly across the firms being
+compared. Second, you need to have a sense of how the multiple varies across firms in the market. In
+other words, you need to know what a high value, a low value, and a typical value are for the
+multiple in question. Third, you need to identify the fundamental variables that determine each
+multiple and how changes in these fundamentals affect the value of the multiple. Finally, you need to
+find truly comparable firms and adjust for differences between the firms on fundamental
+characteristics.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ You can compute the PE ratio using current earnings, trailing earnings, and forward earnings.
+a.
+ What is the difference between the ratios?
+b.
+ Which one is likely to yield the highest value and why?
+2.
+ An analyst has computed a ratio of firm value (which he has defined as the market value of
+equity plus long-term debt minus cash) to earnings after all interest expenses and taxes.
+a.
+ Explain why this ratio is not consistently estimated.
+b.
+ Explain why this might be a problem when comparing firms using this multiple.
+3.
+ The chapter noted that multiples have skewed distributions.
+a.
+ What is meant by skewed distributions?
+b.
+ Why do multiples generally have skewed distributions?
+c.
+ What are the implications for analysts who might use industry averages to compare firms?
+4.
+ Generally, we cannot compute PE ratios for firms that have negative earnings. What are the
+implications for statistics such as industry-average PE ratios?
+1
+ Firms that adopt different rules for reporting and tax purposes generally report higher earnings to
+their stockholders than they do to the tax authorities. When they are compared on a price-earnings
+basis to firms that do not maintain different reporting and tax books, they will look cheaper (lower
+PE).
+2
+ With the median, half of all firms in the group fall below this value and half lie above.
+3
+ The return on equity of 40 percent becomes a proxy for cash flow potential. With a 20 percent
+growth rate and a 40 percent return on equity, this firm will be able to return half of its earnings to
+its stockholders in the form of dividends or stock buybacks.
+4
+ Finding these firms manually may be tedious when your universe includes 10,000 stocks. You
+could draw on statistical techniques such as cluster analysis to find similar firms.

@@ -1,0 +1,42 @@
+pital that we invest. This ratio, called the sales-to-capital ratio, allows us to estimate how much
+additional investment the firm has to make to generate the projected revenue growth. This investment
+
+can be in internal projects, acquisitions, or working capital. To estimate the reinvestment needs in any
+year then, you divide the revenue growth that you have projected (in dollar terms) by the sales-to-
+capital ratio. Thus, if you expect revenues to grow by $1 billion and you use a sales-to-capital ratio
+of 2.5, you would estimate a reinvestment need for this firm of $400 million ($1 billion/2.5). Lower
+sales-to-capital ratios increase reinvestment needs (and reduce cash flows) whereas higher sales-to-
+capital ratios decrease reinvestment needs (and increase cash flows).
+To estimate the sales-to-capital ratio, you should look at both a firm's past and the business it
+operates in. To measure this ratio for a firm, you divide changes in revenue each year by the
+reinvestment made that year. You should also look at the average ratio of sales to book capital
+invested in the business in which the firm operates.
+Linking operating margins to reinvestment needs is much more difficult to do, since a firm's
+capacity to earn operating income and sustain high returns comes from the competitive advantages that
+it acquires, partly through internal investment and partly through acquisitions. Firms that adopt a two-
+track strategy in investing, where one track focuses on generating higher revenues and the other on
+building up competitive strengths, should have higher operating margins and values than firms that
+concentrate on only revenue growth.
+Imputed Return on Capital
+One of the dangers that you face when using a sales-to-capital ratio to generate reinvestment needs is
+that you might underestimate or overestimate your reinvestment needs. You can keep tabs on whether
+this is happening and correct it when it does by also estimating the after-tax return on capital of the
+firm each year through the analysis. To estimate the return on capital in a future year, you divide the
+estimated after-tax operating income in that year by the total capital invested in that firm in that year.
+The former number comes from your estimates of revenue growth and operating margins, while the
+latter can be estimated by aggregating the reinvestment made by the firm all the way through the future
+year. For instance, a firm that has $500 million in capital invested today and is assumed to reinvest
+$300 million next year and $400 million the year after will have capital invested of $1.2 billion at the
+end of the second year.
+For firms losing money today, the return on capital will be a negative number when the estimation
+begins but improve as margins improve. If you reinvest too little, the return on capital in the later
+years will be too high, while if you don't reinvest enough, it will be too low. Too low or high relative
+to what, you ask? There are two comparisons that are worth making. The first is to the average return
+on capital for mature firms in the business in which your firm operates—mature automobile
+companies in the case of Tesla Motors. The second is to the firm's own cost of capital. A projected
+return on capital of 40 percent for a firm with a cost of capital of 10 percent in a sector where returns
+on capital hover around 15 percent is an indicator that the firm is investing too little for the projected
+revenue growth and operating margins. Decreasing the sales-to-capital ratio until the return on capital
+converges on 15 percent would be prudent.
+ILLUSTRATION 11.14: Estimated Sales-to-Capital Ratios
+and Implied Return on Capital

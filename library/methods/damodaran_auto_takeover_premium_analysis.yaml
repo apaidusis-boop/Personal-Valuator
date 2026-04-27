@@ -1,0 +1,23 @@
+---
+id: damodaran_auto_takeover_premium_analysis
+name: Takeover Premium Analysis
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: rule_1960s_premium
+  description: Checks if the premium paid is above the historical average for the
+    1960s.
+  check: price > (market_cap_usd * 1.19) / shares_outstanding
+- id: rule_1970s_premium
+  description: Checks if the premium paid is above the historical average for the
+    1970s.
+  check: price > (market_cap_usd * 1.35) / shares_outstanding
+- id: rule_1980s_to_1985_premium
+  description: Checks if the premium paid is above the historical average for the
+    period between 1980-1985.
+  check: price > (market_cap_usd * 1.3) / shares_outstanding
+caveats:
+- This analysis assumes that current market conditions are similar to those in past
+  decades, which may not be accurate.

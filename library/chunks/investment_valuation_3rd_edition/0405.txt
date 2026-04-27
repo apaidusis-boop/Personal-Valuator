@@ -1,0 +1,15 @@
+th rate of 4%. We also assume that the cost of equity remains unchanged but that the
+return on equity drops to 15%. The equity reinvestment rate in stable growth can be estimated as follows:
+VALUATION
+
+The first component of value is the present value of the expected FCFE during the high-growth period, (see table) assuming
+earnings, net capital expenditures, and working capital grow at 7.27% and 33.92% of reinvestment needs come from debt (in
+Sfr):
+Note that the change in working capital each year is computed based on the existing working capital of Sfr 149.74 per share,
+and that the present value is computed using the cost of equity of 8.47%.
+To estimate the terminal value, we first estimate the free cash flows to equity in year 11:
+The value per share can be estimated as the sum of the present value of FCFE during the high growth phase and the present
+value of the terminal value of equity:
+The stock was trading at 3,390 Sfr per share in May 2001 at the time of this valuation, making the stock slightly under
+valued.
+FCFE2st.xls:

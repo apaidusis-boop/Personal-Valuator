@@ -1,0 +1,30 @@
+extended time periods. The same cannot be said for individual real estate investments. A piece of
+property does not get bought and sold very frequently, though similar properties might. Consequently,
+
+price indexes are available for classes of assets (for example, downtown Manhattan office
+buildings), and risk parameters can be estimated for these classes.
+Even when price indices are available for classes of real estate investments, questions remain
+about the comparability of assets within a class (Is one downtown building the same as any other?
+How does one control for differences in age and quality of construction? What about location?) and
+about the categorization itself (office buildings versus residential buildings; single-family versus
+multifamily residences)?
+There have been attempts to estimate market indices and risk parameters for classes of real estate
+investments. The obvious and imperfect solution to the nontrading problem in real estate is to
+construct indices of real estate investment trusts (REITs), which are traded and have market prices.
+The reason this might not be satisfactory is because the properties owned by real estate investment
+trusts may not be representative of the real estate property market, and the securitization of real estate
+may result in differences between real estate and REIT returns. An alternative index more closely tied
+to real estate property values is the National Council of Real Estate Investment Fiduciaries
+(NCREIF) which estimates annual returns for commercial property as well as for farmland. Since
+transactions on individual properities are infrequent, NCREIF uses appraised values for properties to
+measure returns. Finally, Case and Shiller constructed an index using actual transaction prices, rather
+than appraised values, to estimate the value of residential real estate. 
+Table 26.1
+ summarizes the
+returns on real estate indexes, the S&P 500, and an index of bonds.
+Table 26.1
+ Returns by Asset Class
+There are several interesting results that emerge from this table. First, not all real estate series
+behave the same way. Returns on REITs seem to have more in common with returns on the stock
+market than returns on other real estate indexes. Second, there is high positive serial correlation in
+many of the real estate return series, especially those based on appraised data. This can be attributed

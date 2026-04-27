@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: BBDC4
 market: br
-date: 2026-04-26
+date: 2026-04-27
 variance: medium_variance_long
 magnitude: 2
 weight_skew: False
@@ -19,11 +19,11 @@ tags: [variant_perception, edge_detection]
 
 ## 🔍 Specific divergence analysis
 
-Diverge: A NOSSA thesis assume que o P/E da Bradesco permanecerá abaixo de 10 nos próximos três anos, enquanto o consenso analista indica uma projeção de múltiplo P/L de cerca de 7,8x para 2026E. Isso sugere que a NOSSA thesis é mais otimista em relação à avaliação atual e futura da empresa.
+Diverge: A NOSSA THESIS prevê que o P/E da Bradesco permanecerá abaixo de 10 nos próximos três anos, enquanto o consenso analista aponta que as ações do Bradesco negociam atualmente em cerca de 7,8x P/L 2026E, sugerindo uma possível compressão múltiplo que não é tão otimista quanto nossa previsão.
 
-Alinhado: Ambos reconhecem o sólido histórico de dividendos do Bradesco, embora a nossa thesis enfatize especificamente a importância deste fator para investidores Buffett/Graham buscando valor a longo prazo.
+Alinhado: Ambos reconhecem o histórico sólido de dividendos e a eficiência operacional do Bradesco, refletida em um ROE alto. No entanto, enquanto nosso foco está na sustentabilidade desse rendimento por pelo menos mais cinco anos, o consenso analista não especifica uma projeção tão longa-termista.
 
-Diverge: A NOSSA thesis baseia-se na manutenção do ROE acima de 12%, enquanto o consenso analista não fornece uma projeção específica, mas menciona riscos relacionados à qualidade dos ativos que podem impactar negativamente a eficiência operacional.
+Diverge: A NOSSA THESIS assume que a taxa ROE se manterá acima de 12% durante os próximos três anos, enquanto o consenso analista não fornece uma previsão específica para o ROE, mas menciona potenciais riscos macroeconômicos e pressão sobre a qualidade dos ativos que podem impactar negativamente essas métricas financeiras.
 
 ## 📰 Recent analyst insights
 

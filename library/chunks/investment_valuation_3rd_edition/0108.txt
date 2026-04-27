@@ -1,0 +1,34 @@
+ock price is $35 at t = 1, then the call is worth nothing.
+Step 2: Move backward to the earlier time period and create a replicating portfolio that will provide the cash flows the option
+will provide.
+
+In other words, borrowing $22.50 and buying five-sevenths of a share will provide the same cash flows as a call with a strike
+price of $50 over the call’s lifetime. The value of the call therefore has to be the same as the cost of creating this position.
+The Determinants of Value
+The binomial model provides insight into the determinants of option value. The value of an option is
+not determined by the 
+expected
+ price of the asset but by its 
+current
+ price, which, of course, reflects
+expectations about the future. This is a direct consequence of arbitrage. If the option value deviates
+from the value of the replicating portfolio, investors can create an arbitrage position (i.e., one that
+requires no investment, involves no risk, and delivers positive returns). To illustrate, if the portfolio
+that replicates the call costs more than the call does in the market, an investor could buy the call, sell
+the replicating portfolio, and be guaranteed the difference as a profit. The cash flows on the two
+positions will offset each other, leading to no cash flows in subsequent periods. The call option value
+also increases as the time to expiration is extended, as the price movements (u and d) increase, and
+with increases in the interest rate.
+While the binomial model provides an intuitive feel for the determinants of option value, it requires
+a large number of inputs, in terms of expected future prices at each node. As time periods are made
+shorter in the binomial model, you can make one of two assumptions about asset prices.You can
+assume that price changes become smaller as periods get shorter; this leads to price changes
+becoming infinitesimally small as time periods approach zero, leading to a continuous price process.
+Alternatively, you can assume that price changes stay large even as the period gets shorter; this leads
+to a jump price process, where prices can jump in any period. This section considers the option
+pricing models that emerge with each of these assumptions.
+Black-Scholes Model
+When the price process is continuous (i.e., price changes become smaller as time periods get
+shorter), the binomial model for pricing options converges on the Black-Scholes model. The model,
+named after its cocreators, Fischer Black and Myron Scholes, allows us to estimate the value of any
+option using a small number of inputs, and has been shown to be robust in valuing many listed

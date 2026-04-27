@@ -1,0 +1,74 @@
+ancing. You have outlined the following scenarios (with consequences
+for growth (g), return on invested capital (ROC) and cost of capital (r)):
+Government 
+Subsidies Continue
+Government 
+Subsidies End
+
+Oil prices > $100/barrel
+g = 4%, ROC = 12%,
+g = 4%, ROC = 12%,
+(30% probability)
+r = 8%
+r = 10%
+Oil prices between $60
+g = 3%, ROC = 10%,
+g = 3%, ROC = 10%,
+and $100/barrel
+r = 8%
+r = 10%
+(50% probability)
+Oil prices < $60/barrel
+g = 2%, ROC = 8%,
+g = 2%, ROC = 8%,
+(20% probability)
+r = 8%
+r = 10%
+a.
+ Estimate the value of the firm under each scenario. (You can leave the after-tax operating
+income for next year unchanged at $50 million under all the scenarios.)
+b.
+ If the probability that the government will end subsidies is 40%, estimate the value of the firm
+across the scenarios.
+5.
+ Chavez Enterprises is a small Venezuelan company. The firm is profitable and is expected to
+generate 120 million bolivars in after-tax operating income next year on capital invested (book
+value) of 600 million bolivars. You have estimated a cost of capital of 12% for the firm and
+expect it to grow 4 percent a year in perpetuity.
+a.
+ Estimate the value of the firm today.
+b.
+ Now assume that you are concerned that the firm may be nationalized. If nationalization
+occurs, you will be paid book value for the assets. Assuming a 30% probability for
+nationalization, estimate the value of the firm today.
+6.
+ Loral Drugs is a biotechnology firm that is working on a new drug to treat insomnia. The drug is
+working its way through the FDA approval process and is expected to generate $150 million in
+after-tax cash flows each year for 15 years, once it is approved. There are two more hurdles that
+the drug has to cross before approval:
+A small sample test on laboratory animals that will take a year to complete and is
+expected to cost $100 million (to be spent today); there is an 80 percent chance that it will
+succeed.
+If the lab animal test succeeds, it will be followed by a study on human subjects that will
+take two additional years to complete and cost $250 million (to be spent at the end of year
+1); there is a 60 percent chance that this study will yield favorable results.
+The cost of capital for biotechnology firms is 10%.
+a.
+ Outline the decision tree for the insomnia drug.
+b.
+ Estimate the expected value of the drug to the company today.
+7.
+ You are a venture capitalist who is interested in investing $50 million in Friends Online, a
+social media company. The business will take three years to become operational (during which
+period it will generate no positive cash flows), and once operational, it will generate $27 million
+in after-tax cash flows, growing 3% in perpetuity. The cost of capital for established social media
+companies is 12%, but there is a 60 percent chance that the business will not survive (in which
+case it will have no assets of value to liquidate).
+a.
+ Estimate the value of Friends Online, once it is operational.
+b.
+ Given the likelihood of failure, estimate the proportion of equity in Friends Online you would
+demand today in return for your $50 million investment. (You can assume that Friends Online
+has no debt or cash.)
+c.
+ Estimate the target return you would demand over the next three years, with the risk of failure

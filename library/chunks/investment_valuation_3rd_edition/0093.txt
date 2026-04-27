@@ -1,0 +1,48 @@
+P
+Financial Ratio
+Definition
+EBITDA/Revenues
+EBITDA/Revenues
+ROIC
+ROIC = EBIT/(BV of debt + BV of equity – Cash)
+EBIT/Interest expenses
+Interest coverage ratio
+EBITDA/Interest
+EBITDA/Interest expenses
+
+FFO/debt
+(Net Income + Depreciation)/Debt
+Free operating CF/Debt
+Funds from operations/Debt
+Discounted CF/Debt
+Discounted cash flows/Debt
+Debt/EBITDA
+BV of Debt/EBITDA
+D/(D+E)
+BV of Debt/(BV of Debt + BV of equity)
+There is a strong relationship between the bond rating a company receives and its performance on
+these financial ratios. 
+Table 4.3
+ provides a summary of the median ratios
+6
+ from 2007 to 2009 for
+different S&P ratings classes for manufacturing firms.
+Table 4.3
+ Financial Ratios and S&P Ratings
+Not surprisingly, firms that generate income and cash flows significantly higher than debt payments,
+that are profitable, and that have low debt ratios are more likely to be highly rated than are firms that
+do not have these characteristics. There will be individual firms whose ratings are not consistent with
+their financial ratios, however, because the ratings agency does add subjective judgments into the
+final mix. Thus a firm that performs poorly on financial ratios but is expected to improve its
+performance dramatically over the next period may receive a higher rating than is justified by its
+current financials. For most firms, however, the financial ratios should provide a reasonable basis for
+estimating the bond rating.
+Bond Ratings and Interest Rates
+The interest rate on a corporate bond should be a function of its default risk, which is measured by its
+rating. If the rating is a good measure of the default risk, higher-rated bonds should be priced to yield
+lower interest rates than those of lower-rated bonds. In fact, the difference between the interest rate
+on a bond with default risk and a default-free government bond is the default spread. This default
+spread will vary by maturity of the bond and can also change from period to period, depending on
+economic conditions. Chapter 7 considers how best to estimate these default spreads and how they
+might vary over time.
+CONCLUSION

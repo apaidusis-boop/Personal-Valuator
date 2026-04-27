@@ -1,0 +1,25 @@
+m firm-specific information seems to deteriorate
+as the time horizon for forecasting is extended.
+In valuation, the focus is more on long-term growth rates in earnings than on next quarter's earnings.
+
+There is little evidence to suggest that analysts provide superior forecasts of earnings when the
+forecasts are over three or five years. An early study by Cragg and Malkiel (1968) compared long-
+term forecasts by five investment management firms in 1962 and 1963 with actual growth over the
+following three years to conclude that analysts were poor long-term forecasters. This view is
+contested by Vander Weide and Carleton (1988), who found that the consensus prediction of five-
+year growth in the I/B/E/S is superior to historically oriented growth measures in predicting future
+growth. There is an intuitive basis for arguing that analyst predictions of growth rates must be better
+than time series or other historical data–based models simply because they use more information. The
+evidence indicates, however, that this superiority in forecasting is surprisingly small for long-term
+forecasts and that past growth rates play a significant role in determining analyst forecasts.
+There is one final consideration. Analysts generally forecast earnings per share, and most services
+report these estimates. When valuing a firm, you need forecasts of operating income and the growth in
+earnings per share will usually not be equal to the growth in operating income. In general, the growth
+rate in operating income should be lower than the growth rate in earnings per share. Thus, even if you
+decide to use analyst forecasts, you will have to adjust them if you are trying to forecast growth rates
+in operating income or revenues.
+How Do You Use Analyst Forecasts in Estimating Future Growth?
+The information in the growth rates estimated by other analysts can and should be incorporated into
+the estimation of expected future growth. There are four factors that determine the weight assigned to
+analyst forecasts in predicting future growth:
+1.

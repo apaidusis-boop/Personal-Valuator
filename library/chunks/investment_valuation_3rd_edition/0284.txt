@@ -1,0 +1,6 @@
+ng
+to a present value of $167.45 million.
+Note that the payments do not start until the sixth year, and hence get discounted back an additional five years. The value of
+the firm can then be estimated:
+
+taxrate.xls:

@@ -1,0 +1,14 @@
+ect them to have less exposure to market risk and betas that are closer to 1—the average for the
+market. One option is to set the beta in stable growth to 1 for all firms, arguing that firms in stable
+
+growth should all be average risk. Another is to allow for small differences to persist even in stable
+growth, with firms in more volatile businesses having higher betas than firms in stable businesses.
+We would recommend that, as a rule of thumb, stable period betas not exceed 1.2.
+3
+But what about firms that have betas well below 1, such as commodity companies? If you are
+assuming that these firms will stay in their existing businesses, there is no harm in assuming that the
+beta remains at existing levels. However, if your estimates of growth in perpetuity will require them
+to branch out into other businesses, you should adjust the beta upward toward 1; invoking another rule
+of thumb, stable period betas should not be lower than 8.
+4
+betas.xls:

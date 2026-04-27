@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: VALE3
 market: br
 earnings_date: 2026-04-28
-generated: 2026-04-26
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — VALE3 (2026-04-28)
 
-_Auto-generated 2 days before call. 100% Ollama local._
+_Auto-generated 1 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- Margem EBIT de 28.4% no Q3/2025 (vs média de 17.6% nos últimos 4Q)
-- Fluxo de caixa livre de R$6,9 bi no Q3/2025 (vs negativo em Q2/2025)
-- P/L de 31x (acima da média histórica)
+- EBITDA de R$4.8 bi (excedeu expectativas)
+- Fluxo de caixa livre (FCF) positivo ou negativo
+- Previsão de produção de minério de ferro
 
 ## ❓ Specific questions to listen for management
-1. Como a empresa planeja manter as margens elevadas no próximo trimestre?
-2. Quais são os planos para reduzir o endividamento em relação ao EBITDA?
-3. Qual é a previsão de produção de minério para 2026?
-4. Impacto das condições do mercado sobre os dividendos futuros
-5. Como a empresa está lidando com as flutuações da demanda global?
+1. Como a empresa planeja lidar com os desafios operacionais no Omã?
+2. Quais são as expectativas para o preço do níquel nos próximos trimestres?
+3. Qual é a atualização sobre o crescimento de recursos na mineração de metais básicos?
+4. Como está a demanda global por minério de ferro afetando os resultados da Vale?
+5. Quais são as perspectivas para a expansão das operações no Brasil e Canadá?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar se o EBIT continuará em alta após Q3/2025
-- Verificar se há uma reversão na geração de caixa livre negativa do Q2/2025
+- Confirmar se o EBITDA continuará em alta
+- Mudança na direção do FCF, especialmente após o resultado negativo no Q2
 
 ## 🚨 Red flags potenciais
-- Margem EBIT caindo para abaixo dos 17.6% médios nos últimos 4Q
-- Aumento da dívida líquida em relação ao EBITDA acima de 1x
+- Aumento significativo da dívida líquida
+- Previsões de lucro abaixo das expectativas dos analistas
 
 ## 🎯 Decision framework
-- BUY MORE if: Margem EBIT > 25% e FCF positivo no próximo trimestre
-- HOLD if: P/L < 30x e margens mantidas nos próximos trimestres
-- TRIM if: Dívida líquida/EBITDA > 1.5x ou queda acentuada nas margens
+- BUY MORE if: EBITDA mantém tendência ascendente e FCF positivo
+- HOLD if: Margens operacionais estagnadas ou ligeiramente em queda
+- TRIM if: Previsões de lucro revisadas para baixo
 
 ---
 ## 📊 Context provided to LLM
@@ -66,4 +66,20 @@ ANALYST INSIGHTS (last 60d):
   [bull] [BTG Portfolio Dividendos] VALE3 — peso 9.0%, setor Materials
   [bull] [BTG Equity Brazil] VALE3 — peso 9.0%
   [bull] Vale (VALE3) ADICIONADA ao portfolio Dividendos (substituindo GGBR4) — preços minério resilientes.
+
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  Vale's earnings results for the last quarter showed a $3.8 billion net loss due to nickel asset impairment, but analysts highlighted a $4.8 billion EBITDA that exceeded expectations, leading to a positive share reaction. Despite the loss, the company's net revenue of $11.1 billion for the quarter was nearly in line with analyst forecasts.
+
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Vale's forward guidance for FY26 outlook remains unchanged despite operational disruptions in Oman. The company plans to redirect pellet feed to Brazilian plants and expects higher realized prices and premiums in iron ore and copper, maintaining its production guidance of 335 to 345 million tons of iron ore. Vale also reported its best first-quarter iron ore sales in eight years, with a 3.9% increase to 68.7 million metric tons. The most recent analyst rating on VALE stock is a Hold with a $16.50 price target.
+
+WEB EARNINGS HEADLINES:
+  - Vale posts $3.8 billion loss on nickel impairment; analysts welcome core profit - Reuters
+  - Vale Posts Strong 1Q26 Output Despite Oman Disruption - The Globe and Mail
+  - Vale books best first-quarter iron ore sales in eight years - KITCO
+
+WEB GUIDANCE HEADLINES:
+  - Vale Posts Strong 1Q26 Output Despite Oman Disruption - The Globe and Mail
+  - Vale books best first-quarter iron ore sales in eight years - KITCO
+  - Vale Base Metals grows resou
 ```

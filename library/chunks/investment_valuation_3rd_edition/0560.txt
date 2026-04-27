@@ -1,0 +1,44 @@
+tential payout ratio
+62.83%
+75.00%
+Expected growth rate
+7.94%
+2.50%
+Cost of equity
+6.90%
+6.90%
+Expected growth rate = ROE × (1 – Potential payout ratio)
+Plugging back into the two-stage model, we get:
+
+In this illustration, we assumed that Nestle's expected ROE for the next five years will be equal to its current ROE of
+21.35%. Note that the stable period return on equity of 10% gets used only to compute the payout ratio in stable growth and
+that the high growth period ROE is used everywhere else. Lowering this high growth period return on equity will reduce the
+price-to-book ratio for the firm.
+PBV Ratios and Return on Equity
+The ratio of price to book value is strongly influenced by the return on equity. A lower return on
+equity affects the price–book value ratio directly through the formulation specified in the prior section
+and indirectly by lowering the expected growth or payout.
+The effects of lower return on equity on the price–book value ratio can be seen by going back to
+Illustration 19.3 and changing the return on equity for the firm valued in that example.
+ILLUSTRATION 19.5: Return on Equity and Price–Book
+Value
+In Illustration 19.3, we estimated a price-to-book ratio for the firm of 7.89, based on a return on equity of 25%. This return
+on equity, in turn, allowed the firm to generate growth rates of 20% in high growth and 8% in stable growth:
+If the firm's return on equity drops to 12%, the price–book value ratio will reflect the drop. The lower return on equity will
+also lower expected growth in the initial high growth period:
+After year 5, either the retention ratio has to increase or the expected growth rate has to be lower than 8%. If the retention
+ratio is adjusted,
+The new price–book value ratio can then be calculated as follows:
+The drop in the ROE has a two-layered impact. First, it lowers the growth rate in earnings and/or the expected payout ratio,
+thus having an indirect effect on the PBV ratio. Second, it reduces the PBV ratio directly.
+The price–book value ratio is also influenced by the cost of equity, with higher costs of equity
+leading to lower price–book value ratios. The influence of the return on equity and the cost of equity
+can be consolidated in one measure by taking the difference between the two—a measure of excess
+equity return. The larger the return on equity relative to the cost of equity, the greater the price–book
+value ratio. In Illustrations 19.3 and 19.5, for instance, the firm, which had a cost of equity of 11.5
+percent, went from having a return on equity that was 13.5 percent greater than the required rate of
+return to a return on equity that barely broke even (0.5 percent greater than the required rate of
+return). Consequently, its price–book value ratio declined from 7.89 to 1.25. 
+Figure 19.2
+ shows the
+price–book value ratio as a function of the difference between the return on equity and the cost of

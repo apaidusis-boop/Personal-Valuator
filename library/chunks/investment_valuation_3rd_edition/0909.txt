@@ -1,0 +1,37 @@
+nd
+the degree to which these products or services are discretionary to the customer. The more
+discretionary they are, the greater the operating risk faced by the firm. Both the cost of equity and cost
+
+of debt of a firm are affected by the operating risk of the business or businesses in which it operates.
+In the case of equity, only that portion of the operating risk that is not diversifiable will affect value.
+Firms can reduce their operating risk by making their products and services less discretionary to
+their customers. Advertising clearly plays a role, but finding new uses for a product or service is
+another way. Reducing operating risk will result in a lowered unlevered beta (cost of equity) and a
+lower cost of debt default risk (cost of debt).
+Reduce Operating Leverage
+The operating leverage of a firm measures the proportion of its costs that are fixed. Other things
+remaining equal, the greater the proportion of the costs of a firm that are fixed, the more volatile its
+earnings will be, and the higher its cost of capital. Reducing the proportion of the costs that are fixed
+will make firms much less risky and reduce their cost of capital. Firms can reduce their fixed costs by
+using outside contractors for some services; if business does not measure up, the firm is not stuck
+with the costs of providing this service. They can also tie expenses to revenues; for instance, tying
+wages paid to revenues made will reduce the proportion of costs that are fixed.
+This basic idea of tying expenses to revenues is often described as making the cost structure more
+flexible. A more flexible cost structure influences three inputs in a valuation. It leads to a lower
+unlevered beta (due to the lower operating leverage), reduces the cost of debt (because of the
+reduction in default risk) and increases the optimal debt ratio. All three reduce the cost of capital and
+increase firm value.
+Change the Financing Mix
+A third way to reduce the cost of capital is to change the mix of debt and equity used to finance the
+firm. As we argued in Chapter 15, debt is always cheaper than equity, partly because lenders bear
+less risk and partly because of the tax advantage associated with debt. This benefit has to be weighed
+off against the additional risk of bankruptcy created by the borrowing; this higher risk increases both
+the beta for equity and the cost of borrowing. The net effect will determine whether the cost of capital
+will increase or decrease as the firm takes on more debt.
+Note, however, that firm value will increase as the cost of capital decreases, if and only if the
+operating cash flows are unaffected by the higher debt ratio. If, as the debt ratio increases, the
+riskiness of the firm increases, and this, in turn, affects the firm’s operations and cash flows, the firm
+value may decrease even as cost of capital declines. If this is the case, the objective function when
+designing the financing mix for a firm has to be restated in terms of firm value maximization rather
+than cost of capital minimization.
+wacc.xls:

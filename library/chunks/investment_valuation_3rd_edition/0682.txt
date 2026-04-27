@@ -1,0 +1,42 @@
+in
+interest payments, Hyundai is receiving tax benefits on 89 billion krw.
+6
+ You could discount the expected cash flows on the debt at a pretax cost of debt that reflects the
+firm's current standing.
+
+CHAPTER 
+23
+Valuing Young or Start-Up Firms
+Many of the firms that we have valued in this book are publicly traded firms with established
+operations. But what about young firms that have just come into being? There are many analysts who
+argue that these firms cannot be valued because they have no history and in some cases no products or
+services to sell. This chapter presents a dissenting point of view. While conceding that valuing young
+firms is more difficult to do than valuing established firms, we argue that the fundamentals of
+valuation do not change. The value of a young start-up firm is the present value of the expected cash
+flows from its operations, though estimates of these expected cash flows may require us to go outside
+our normal sources of information.
+INFORMATION CONSTRAINTS
+When valuing a firm, you draw on information from three sources. The first is the current financial
+statements for the firm. You use these to determine how profitable a firm's investments are or have
+been, how much it reinvests back to generate future growth and for all of the inputs that are required
+in any valuation. The second is the past history of the firm, in terms of both earnings and market
+prices. A firm's earnings and revenue history over time let you make judgments on how cyclical a
+firm's business has been and how much growth it has shown, while a firm's price history can help you
+measure its risk. Finally, you can look at the firm's competitors or peer group to get a measure of how
+much better or worse a firm is than its competition, and also to estimate key inputs on risk, growth,
+and cash flows.
+While you would optimally like to have substantial information from all three sources, you may
+often have to substitute more of one type of information for less of the other if you have no choice.
+Thus the fact that there exists 75 years or more of history on each of the large automakers in the
+United States compensates for the fact that there are only a few of them. In contrast, there may be only
+a few years of information on the current version of Abercombie & Fitch, but the firm is in a sector
+(specialty retailing) where there are more than 200 comparable firms. The ease with which you can
+obtain industry averages and the precision of these averages compensate for the lack of history at the
+firm.
+There are some firms, especially in new sectors of the economy, where you might run into
+information problems. First, these firms usually have not been in existence for more than a year or
+two, leading to a very limited history. Second, their current financial statements reveal very little
+about the component of their assets—expected growth—that contributes the most to their value. Third,
+these firms often represent the first of their kind of business. In many cases, there are no competitors
+or a peer group against which they can be measured. When valuing these firms, therefore, you may
+find yourself constrained on all three counts when it comes to information. How have investors

@@ -1,0 +1,55 @@
+e
+period of the regression?
+b.
+ You now realize that MAD Inc. went through a major restructuring at the end of last month
+(which was the last month of your regression), and made the following changes:
+
+The firm sold off its magazine division, which had an unlevered beta of 0.6, for $20
+million.
+It borrowed an additional $20 million, and bought back stock worth $40 million.
+After the sale of the division and the share repurchase, MAD Inc. had $40 million in debt and
+$120 million in equity outstanding. If the firm's tax rate is 40%, reestimate the beta after these
+changes.
+17.
+ Time Warner Inc., the entertainment conglomerate, had a beta of 1.61 in 1995. Part of the
+reason for the high beta was the debt left over from the leveraged buyout of Time by Warner in
+1989, which amounted to $10 billion in 1995. The market value of equity at Time Warner in 1995
+was also $10 billion. The marginal tax rate was 40%.
+a.
+ Estimate the unlevered beta for Time Warner.
+b.
+ Estimate the effect of reducing the debt ratio by 10% each year for the next two years on the
+beta of the stock.
+18.
+ Chrysler, the automotive manufacturer, had a beta of 1.05 in 1995. It had $13 billion in debt
+outstanding in that year, and 355 million shares trading at $50 per share. The firm had a cash
+balance of $8 billion at the end of 1995. The marginal tax rate was 36%.
+a.
+ Estimate the unlevered beta of the firm.
+b.
+ Estimate the effect of paying out a special dividend of $5 billion on this unlevered beta.
+c.
+ Estimate the beta for Chrysler after the special dividend.
+19.
+ You are trying to estimate the beta of a private firm that manufactures home appliances. You
+have managed to obtain betas for publicly traded firms that also manufacture home appliances.
+The private firm has a debt equity ratio of 25% and faces a tax rate of 40%. The publicly traded
+firms all have marginal tax rates of 40% as well.
+a.
+ Estimate the beta for the private firm.
+b.
+ What concerns, if any, would you have about using betas of comparable firms?
+20.
+ As the result of stockholder pressure, RJR Nabisco is considering spinning off its food
+division. You have been asked to estimate the beta for the division, and decide to do so by
+obtaining the beta of comparable publicly traded firms. The average beta of comparable publicly
+traded firms is 0.95,and the average debt-to-equity ratio of these firms is 35%. The division is
+expected to have a debt ratio of 25%. The marginal corporate tax rate is 36%.
+a.
+ What is the beta for the division?
+b.
+ Would it make any difference if you knew that RJR Nabisco had a much higher fixed cost
+structure than the comparable firms used here?
+21.
+ Southwestern Bell, a phone company, is considering expanding its operations into the media
+business. The beta for the company at the end of 1995 was 0.90, and the debt-to-equity ratio was

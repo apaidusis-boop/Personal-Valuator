@@ -1,0 +1,26 @@
+---
+id: damodaran_auto_three_stage_fcfemodel
+name: Three-Stage FCFE Model
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: cost_of_equity_check
+  description: Ensure the cost of equity is less than the required return.
+  check: beta_levered * (market_cap_usd / shares_outstanding) < roe
+- id: growth_stage_one
+  description: Check if the company has a high enough earnings growth rate in the
+    first stage.
+  check: (eps > 0.15)
+- id: stable_growth_rate_check
+  description: Ensure that the stable growth rate is realistic and less than the cost
+    of equity.
+  check: (roe < beta_levered * (market_cap_usd / shares_outstanding))
+caveats:
+- This model assumes accurate projections for FCFE in each stage which may not be
+  available or reliable.
+Note: The provided YAML rule template is a simplified representation and does not
+  include the actual calculation of Free Cash Flow to Equity (FCFE) values over three
+  stages due to complexity. It focuses on ensuring prerequisites are met for applying
+  such a model effectively.

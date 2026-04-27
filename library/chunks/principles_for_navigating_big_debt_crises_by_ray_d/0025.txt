@@ -1,0 +1,52 @@
+4%
+5%
+6%
+-60 -48 -36 -24 -12 0 12 24 36 48 60 72 84
+Tight
+Easy
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Top
+(3)
+Depression
+(4)
+Beautiful
+Deleveraging
+(5)
+Pushing on a String/
+Normalization
+(6)/(7)
+
+As the depression begins, debt defaults and restructurings hit the various players, especially leveraged lenders (e.g., 
+banks), like an avalanche. Both lenders’ and depositors’ justified fears feed on themselves, leading to runs on 
+financial institutions that typically don’t have the cash to meet them unless they are under the umbrella of 
+government protections. Cutting interest rates doesn’t work adequately because the floors on risk-free rates have 
+already been hit and because as credit spreads rise, the interest rates on risky loans go up, making it difficult for 
+those debts to be serviced. Interest rate cuts also don’t do much to help lending institutions that have liquidity 
+problems and are suffering from runs. At this phase of the cycle, debt defaults and austerity (i.e., the forces of 
+deflation) dominate, and are not sufficiently balanced with the stimulative and inflationary forces of printing 
+money to cover debts (i.e., debt monetization). 
+With investors unwilling to continue lending and borrowers scrambling to find cash to cover their debt payments, 
+liquidity—i.e., the ability to sell investments for money—becomes a major concern. As an illustration, when you 
+own a $100,000 debt instrument, you presume that you will be able to exchange it for $100,000 in cash and, in 
+turn, exchange the cash for $100,000 worth of goods and services. However since the ratio of financial assets to 
+money is high, when a large number of people rush to convert their financial assets into money and buy goods and 
+services in bad times, the central bank either has to provide the liquidity that’s needed by printing more money or 
+allow a lot of defaults. 
+The depression can come from, or cause, either solvency problems or cash-flow problems. Usually a lot of both 
+types of problems exist during this phase. A solvency problem means that, according to accounting and regulatory 
+rules, the entity does not have enough equity capital to operate—i.e., it is “broke” and must be shut down. So, the 
+accounting laws have a big impact on the severity of the debt problem at this moment. A cash-flow problem 
+means that an entity doesn’t have enough cash to meet its needs, typically because its own lenders are taking 
+money away from it—i.e., there is a “run.” A cash-flow problem can occur even when the entity has adequate 
+capital because the equity is in illiquid assets. Lack of cash flow is an immediate and severe problem—and as a 
+result, the trigger and main issue of most debt crises. 
+Each kind of problem requires a different approach. If a solvency problem exists (i.e., the debtor doesn’t have 
+enough equity capital), it has an accounting/regulatory problem that can be dealt with by either a) providing 
+enough equity capital or b) changing the accounting/regulatory rules, which hides the problem. Governments can 
+do this directly through fiscal policy or indirectly through clever monetary policies if the debt is in their own 
+currency. Similarly, if a cash-flow problem exists, fiscal and/or monetary policy can provide either cash or guaran -
+tees that resolve it.

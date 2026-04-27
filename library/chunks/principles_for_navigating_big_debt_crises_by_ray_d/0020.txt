@@ -1,0 +1,38 @@
+market? Yes Yes N/A Yes No Yes Yes Yes N/A Yes
+6 Is there broad bullish sentiment? Yes Yes N/A Yes No No No N/A N/A Yes
+7 Does tightening risk popping the bubble? Yes Yes Yes Yes Yes Yes No No Yes Yes
+
+At this point I want to emphasize that it is a mistake to think that any one metric can serve as an indicator of an 
+impending debt crisis. The ratio of debt to income for the economy as a whole, or even debt service payments to 
+income for the economy as a whole, which is better, are useful but ultimately inadequate measures. To anticipate a 
+debt crisis well, one has to look at the specific debt-service abilities of the individual entities, which are lost in 
+these averages. More specifically, a high level of debt or debt service to income is less problematic if the average is 
+well distributed across the economy than if it is concentrated—especially if it is concentrated in key entities. 
+3) The Top 
+When prices have been driven by a lot of leveraged buying and the market gets fully long, leveraged, and 
+overpriced, it becomes ripe for a reversal. This reflects a general principle: When things are so good that they 
+can’t get better—yet everyone believes that they will get better—tops of markets are being made.
+While tops are triggered by different events, most often they occur when the central bank starts to tighten and 
+interest rates rise. In some cases the tightening is brought about by the bubble itself, because growth and inflation 
+are rising while capacity constraints are beginning to pinch. In other cases, the tightening is externally driven. For 
+example, for a country that has become reliant on borrowing from external creditors, the pulling back of lending 
+due to exogenous causes will lead to liquidity tightening. A tightening of monetary policy in the currency in which 
+debts are denominated can be enough to cause foreign capital to pull back. This can happen for reasons unrelated to 
+conditions in the domestic economy (e.g., cyclical conditions in a reserve currency country leads to a tightening in 
+liquidity in that currency, or a financial crisis results in a pullback of capital, etc.). Also, a rise in the currency the 
+debt is in relative to the currency incomes are in can cause an especially severe squeeze. Sometimes unanticipated 
+shortfalls in cash flows due to any number of reasons can trigger the debt crises.
+Whatever the cause of the debt-service squeeze, it hurts asset prices (e.g., stock prices), which has a negative 
+“wealth effect”6 as lenders begin to worry that they might not be able to get their cash back from those they lent it 
+to. Borrowers are squeezed as an increasing share of their new borrowing goes to pay debt service and/or isn’t 
+rolled over and their spending slows down. This is classically the result of people buying investment assets at high 
+prices with leverage, based on overly optimistic assumptions about future cash flow. Typically, these types of 
+credit/debt problems start to emerge about half a year ahead of the peak in the economy, at first in its most 
+vulnerable and frothy pockets. The riskiest debtors start to miss payments, lenders begin to worry, credit spreads 
+start to tick up, and risky lending slows. Runs from risky assets to less risky assets pick up, contributing to a 
+broadening of the contraction. 
+Typically, in the early stages of the top, the rise in short rates narrows or eliminates the spread with long rates (i.e., 
+the extra interest rate earned for lending long term rather than short term), lessening the incentive to lend relative 
+to the incentive to hold cash. As a result of the yield curve being flat or inverted (i.e., long-term interest rates are 
+6  A negative “wealth effect” occurs when one’s wealth declines, which leads to less lending and spending� This is due to both negative psychology of worry and 
+worse financial conditions leading to borrowers having less collateral, which leads to less lending�

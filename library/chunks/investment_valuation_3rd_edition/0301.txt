@@ -1,0 +1,44 @@
+40%, and the firm's pretax cost of debt is 6%.
+Estimate the free cash flows to the firm last year.
+4.
+ The following is the balance sheet for Ford Motor Company as of December 31, 1994 (in
+millions).
+
+The firm had revenues of $154,951 million in 1994 and cost of goods sold of $103,817 million.
+a.
+ Estimate the net working capital.
+b.
+ Estimate the noncash working capital.
+c.
+ Estimate noncash working capital as a percent of revenues.
+5.
+ Continuing problem 4, assume that you expect Ford's revenues to grow 10% a year for the next
+five years.
+a.
+ Estimate the expected changes in noncash working capital each year, assuming that noncash
+working capital as a percent of revenues remains at 1994 levels.
+b.
+ Estimate the expected changes in noncash working capital each year, assuming that noncash
+working capital as a percent of revenues will converge on the industry average of 4.3% of
+revenues.
+6.
+ Newell Stores is a retail firm that reported $1 billion in revenues, $80 million in after-tax
+operating income, and noncash working capital of –$50 million last year.
+a.
+ Assuming that working capital as a percent of revenues remains unchanged next year and that
+there are no net capital expenditures, estimate the free cash flow to the firm if revenues are
+expected to grow 10%.
+b.
+ If you are projecting free cash flows to the firm for the next 10 years, would you make the
+same assumptions about working capital? Why or why not?
+1
+ A negative effective tax rate usually arises because a firm is reporting an income in its tax books
+(on which it pays taxes) and a loss in its reporting books.
+2
+ Since the effective tax rate is based on the taxes paid (which comes from the tax statement) and
+the reported income, the effective tax rate will be lower than the marginal tax rate for firms that
+change accounting methods to inflate reported earnings.
+3
+ It is only the tax-deductible amortization that really matters. To the extent that amortization is not
+tax deductible, you would look at the EBIT before the amortization and not consider it while
+estimating net capital expenditures.

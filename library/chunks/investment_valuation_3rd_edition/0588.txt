@@ -1,0 +1,34 @@
+r the dividends
+in making this estimate. Doing so will yield a more reasonable estimate of the price-to-sales ratio for
+firms that pay out dividends that are far lower than they can afford to pay out.
+
+As with the price-to-book ratio, the firm can have a different net margin during the stable growth
+phase. That margin, though, will affect only the payout ratio during the stable phase.
+ILLUSTRATION 20.1: 
+Estimating the Price-to-Sales Ratio
+for a High-Growth Firm in the Two-Stage Model
+Assume that you have been asked to estimate the PS ratio for a firm that is expected to be in high growth for the next five
+years. The following is a summary of the inputs for the valuation:
+Growth rate in first five years = 20%
+Cost of equity = 6% + 1(5.5%) = 11.5%
+Growth rate after five years = 8%
+Payout ratio in first five years = 20%
+Beta = 1.0
+Payout ratio after five years = 50%
+Net profit margin = 10%
+Risk-free rate = T-bond rate = 6%
+This firm’s price-to-sales ratio can be estimated as follows:
+Based on this firm’s fundamentals, you would expect its equity to trade at 2.35 times revenues.
+ILLUSTRATION 20.2: Estimating the Intrinsic Price-to-
+Sales Ratio for a High Growth Firm: Whole Foods Markets
+in May 2011
+Whole Foods Markets was founded as a grocery chain designed to provide alternatives for health-conscious shoppers,
+willing to pay a premium for organic food. The retailer grew significantly between 2005 and 2010 and had more than 300
+stores open by May 2011. The firm reported net income of $246 million in 2010 on revenues of $9,006 million, giving it a net
+profit margin of 2.73%:
+Based on its book value of equity of $1,628 million at the end of 2009, the firm generated a return on equity of 15.11%:
+We will assume that the firm will be able to maintain a growth rate in net income of 10% a year for the next 10 years, while
+preserving its current net margin and return on equity. After the tenth year, we will assume that the firm will be in stable
+growth, growing 3% a year in perpetuity, with a net margin of 2.5% and a return on equity of 10%. To estimate the cost of
+equity, we will assume that the firm has a beta of 1.00 for the high growth period and 0.90 in stable growth; the risk-free
+rate is 3.5% and the equity risk premium is 5%. The inputs used in the estimation are summarized below:

@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: NU
 market: us
 earnings_date: 2026-05-14
-generated: 2026-04-25
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — NU (2026-05-14)
 
-_Auto-generated 19 days before call. 100% Ollama local._
+_Auto-generated 17 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- ROE acima de 25% (número-alvo: 30%)
-- Razão PEG abaixo de 1 (número-alvo: 0.87)
-- Preço-benefício (P/B) inferior a 8 (número-alvo: 6.47)
+- Resultados do EPS (objetivo: superar as expectativas atuais de $17.35 por ação)
+- Crescimento da receita (alvo: expansão acima do esperado para o ano fiscal)
+- Margem líquida e lucratividade
 
 ## ❓ Specific questions to listen for management
-1. Como a empresa planeja manter seu ROE acima de 30%?
-2. Quais são as expectativas para o crescimento futuro que sustentem a razão PEG abaixo de 1?
-3. Qual é a estratégia da empresa para manter sua relação preço-benefício (P/B) em níveis aceitáveis?
-4. Como a companhia está lidando com os desafios atuais no setor?
-5. Quais são as perspectivas de dividendos futuros?
+1. Como a empresa planeja atender às metas revisadas de EPS para 2026?
+2. Quais são as perspectivas futuras para a expansão da receita?
+3. Qual é o impacto esperado do crescimento na lucratividade sobre os dividendos e reinvestimentos?
+4. Como estão as estratégias de redução de custos?
+5. O que pode ser feito para melhorar a rentabilidade em segmentos menos favoráveis?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar que o ROE continua acima de 30%
-- Verificar se há mudanças na projeção do crescimento que possam afetar a razão PEG
+- Confirmar continuidade do crescimento da receita acima das metas
+- Mudança na direção da lucratividade e margens operacionais
 
 ## 🚨 Red flags potenciais
-- Deterioração significativa da margem operacional
-- Aumento substancial da dívida líquida
+- Dívida líquida em alta ou falta de controle sobre os custos
+- Revisão para baixo nas estimativas de EPS
 
 ## 🎯 Decision framework
-- BUY MORE if: ROE > 30% e PEG < 1
-- HOLD if: P/B próximo a 8
-- TRIM if: ROE abaixo de 25% ou PEG acima de 1
+- BUY MORE if: EPS supera as expectativas e a receita continua forte
+- HOLD if: A empresa mantém suas metas, mas não apresenta novos impulsos de crescimento
+- TRIM if: Há sinais de desaceleração na lucratividade ou aumento da dívida
 
 ---
 ## 📊 Context provided to LLM
@@ -50,20 +50,19 @@ FUNDAMENTALS:
 
 THESIS HEALTH: -1/100 (contras=0, risk_flags=0)
 
-OUR THESIS:
-**Core thesis (2026-04-24)**: Nu Holdings é uma excelente posição de longo prazo para um investidor Buffett/Graham, com um ROE de 30.28% e um preço-benefício (P/B) de 6.47, indicando que a empresa está gerando lucros significativos em relação ao seu patrimônio líquido. Apesar do múltiplo P/E de 25.95, o crescimento projetado da empresa sugere uma razão PEG de 0.87, sugerindo que a empresa pode estar sendo subavaliada pelo mercado atualmente. A posição atual apresenta um ganho de 74.47% desde a entrada no preço de US$ 8.26.
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  Nu (NU) earnings results last quarter beat guidance on revenue but missed on earnings per share.
 
-**Key assumptions**:
-1. O ROE continuará acima de 30% nos próximos anos.
-2. A razão PEG permanecerá abaixo de 1, indicando um crescimento sustentável e subavaliação do mercado.
-3. A empresa manterá sua margem de segurança com uma relação preço-benefício (P/B) inferior a 8.
-4. O beta ajustado continuará em torno de 1.109, mantendo o risco dentro dos limites aceitáveis para um investidor de valor.
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Based on the most recent data, UnitedHealth Group has raised its full year 2026 earnings outlook to greater than $17.35 per share, with adjusted earnings expected to exceed $18.25 per share. Debenhams Group has also exceeded its FY26 guidance, showing a 36% year-on-year increase in adjusted EBITDA. Northern Tech (NTIC) indicated a strong revenue backlog for the second half of fiscal 2026, with expectations of continued sales growth and improved profitability.
 
-**Disconfirmation triggers**:
-- ROE caindo abaixo de 25%
-- Razão PEG aumentando acima de 1
-- Preço-benefício (P/B) subindo acima de 8
-- Dividend Safety Rating piorando para RISK ou WORSE
+WEB EARNINGS HEADLINES:
+  - Earnings playbook: Tesla and Boeing lead a big week of reports - CNBC
+  - Nuwellis 10-K: $8.27M Revenue, $(25.39) Loss Per Share - TradingView
+  - AbbVie (ABBV) Q4 Earnings: What To Expect - The Chronicle-Journal
 
-**Intent**: Value deep — A empresa apresenta um forte potencial de valorização em 
+WEB GUIDANCE HEADLINES:
+  - Debenhams Group smashes FY26 guidance as marketplace model accelerates turnaround - InternetRetailin
+  - goeasy Ltd. Reports Results for the Fourth Quarter and Full Year 2025 – Company Announcement - Finan
+  - UnitedHealth Group Reports First Quarter 2026 Results - UnitedHealth Group
 ```

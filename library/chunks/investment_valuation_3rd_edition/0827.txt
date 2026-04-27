@@ -1,0 +1,40 @@
+4
+ This is the card that sold for $640,000 in 1996 to Michael Gidwitz, an investor from Chicago.
+The card had been earlier owned by Wayne Gretzky, the hockey great, who bought it for $451,000
+in 1991.
+
+CHAPTER 
+28
+The Option to Delay and Valuation Implications
+In traditional investment analysis, a project or new investment should be accepted only if the returns
+on the project exceed the hurdle rate; in the context of cash flows and discount rates, this translates
+into investing in projects with positive net present values (NPVs). The limitation of this view of the
+world, which analyzes projects on the basis of expected cash flows and discount rates, is that it fails
+to consider fully the options that are usually associated with many investments.
+This chapter considers an option that is embedded in many projects, namely the option to wait and
+take the project in a later period. Why might a firm want to do this? If the present value of the cash
+flows on the project are volatile and can change over time, a project or technology that does not pass
+muster now may become valuable in the future. Furthermore, a firm may gain by waiting on a project
+even after a project has a positive net present value, because the project may have a higher value
+taken at a future date. This option is most valuable in projects where a firm has the exclusive right to
+invest in a project and becomes less valuable as the barriers to entry decline.
+There are at least three cases where the option to delay can make a difference when valuing a firm.
+The first is undeveloped land in the hands of real estate investor or company. The choice of when to
+develop rests in the hands of the owner, and presumably development will occur when real estate
+values increase enough to justify it. The second is a firm that owns a patent or patents. Since a patent
+provides a firm with the exclusive rights to produce the patented product or service, it can and should
+be valued as an option. The third is a natural resource company that has undeveloped reserves that it
+can choose to develop at a time of its choosing—presumably when the price of the resource is high.
+THE OPTION TO DELAY A PROJECT
+Projects are typically analyzed based on their expected cash flows and discount rates at the time of
+the analysis; the net present value computed on that basis is a measure of its value and acceptability at
+that time. Expected cash flows and discount rates change over time, however, and so does the net
+present value. Thus, a project that has a negative net present value now may have a positive net
+present value in the future. In a competitive environment, in which individual firms have no special
+advantages over their competitors on these projects, the fact that net present values can be positive in
+the future may not be significant (since they will be positive for the competitors as well). In an
+environment in which a project can be taken by only one firm because of legal restrictions or other
+barriers to entry to competitors, however, the changes in the project's value over time give it the
+characteristics of a call option.
+Payoff on the Option to Delay
+Assume that a project requires an initial up-front investment of X, and that the present value of

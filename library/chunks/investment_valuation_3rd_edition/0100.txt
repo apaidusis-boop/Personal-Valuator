@@ -1,0 +1,40 @@
+hich can be deferred or delayed without legal
+consequences, though there may be economic consequences.
+6
+ See the Standard & Poor’s online site (
+www.standardandpoors.com/ratings/criteria/index.htm
+).
+
+CHAPTER 5
+Option Pricing Theory and Models
+In general, the value of any asset is the present value of the expected cash flows on that asset. This
+chapter considers an exception to that rule when it looks at assets with two specific characteristics:
+1.
+ The assets derive their value from the values of other assets.
+2.
+ The cash flows on the assets are contingent on the occurrence of specific events.
+These assets are called options, and the present value of the expected cash flows on these assets
+will understate their true value. This chapter describes the cash flow characteristics of options,
+considers the factors that determine their value, and examines how best to value them.
+BASICS OF OPTION PRICING
+An option provides the holder with the right to buy or sell a specified quantity of an underlying asset
+at a fixed price (called a strike price or an exercise price) at or before the expiration date of the
+option. Since it is a right and not an obligation, the holder can choose not to exercise the right and can
+allow the option to expire. There are two types of options—call options and put options.
+Call and Put Options: Description and Payoff Diagrams
+A call option gives the buyer of the option the right to buy the underlying asset at the strike price or
+the exercise price at any time prior to the expiration date of the option. The buyer pays a price for this
+right. If at expiration the value of the asset is less than the strike price, the option is not exercised and
+expires worthless. If, however, the value of the asset is greater than the strike price, the option is
+exercised—the buyer of the option buys the stock at the exercise price, and the difference between the
+asset value and the exercise price comprises the gross profit on the investment. The net profit on the
+investment is the difference between the gross profit and the price paid for the call initially.
+A payoff diagram illustrates the cash payoff on an option at expiration. For a call, the net payoff is
+negative (and equal to the price paid for the call) if the value of the underlying asset is less than the
+strike price. If the price of the underlying asset exceeds the strike price, the gross payoff is the
+difference between the value of the underlying asset and the strike price, and the net payoff is the
+difference between the gross payoff and the price of the call. This is illustrated in 
+Figure 5.1
+.
+Figure 5.1
+ Payoff on Call Option

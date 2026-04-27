@@ -1,0 +1,46 @@
+summary, the Gordon growth model is best suited for firms growing at a rate equal to or lower than
+the nominal growth in the economy with well-established dividend payout policies that they intend to
+
+continue into the future. The dividend payout and cost of equity of the firm have to be consistent with
+the assumption of stability, since stable firms generally pay substantial dividends and have betas
+close to 1.
+1
+ In particular, this model will underestimate the value of the stock in firms that consistently
+pay out less than they can afford to and accumulate cash in the process.
+ILLUSTRATION 13.1: 
+Valuing a Regulated Monopoly:
+Consolidated Edison in May 2011
+Consolidated Edison (Con Ed) is the electric utility that supplies power to residences and businesses in New York City. It is
+a quasi-monopoly whose prices and profits are regulated by the state of New York.
+We will be valuing Con Ed using a stable growth dividend discount model because it fits the criteria for the model:
+The firm operates in a region where the population and power usage have leveled off over the past few
+decades.
+The regulatory authorities will restrict price increases to be about the inflation rate.
+The firm has had a stable mix of debt and equity funding its operations for decades.
+Con Ed has a clientele of dividend-loving investors, and attempts to pay out as much as it can in dividends.
+During the period 2006–2010, the firm returned about 95% of its free cash flows to equity (FCFE) as
+dividends.
+To value the company using the stable growth dividend discount model, we start with the earnings per share of $3.47 that the
+firm reported for 2010 and the dividends per share of $2.22 it paid out for the year. Using the average beta of 0.80 for
+power utilities and an equity risk premium of 5% for mature markets allows us to estimate a cost of equity of 7.5% (the risk-
+free rate was 3.5%)
+Capping the growth rate at the risk-free rate of 3.5%, we generated a value per share of $57.46.
+We check to see whether the expected growth rate was consistent with fundamentals for Con Ed.
+Retention ratio = 1 - ($2.22/$3.47) = 36%
+Return on equity = 9.79%
+Expected growth rate = .36 × .0979 = .0352
+The fundamental growth rate is very close to our estimate of growth of 3.5%.
+The stock was trading at $53.47 a share in May 2011, making it slightly under valued.
+IMPLIED GROWTH RATE
+The value for Con Ed is different from the market price, and this is likely to be the case with almost any company that you
+value. There are three possible explanations for this deviation. One is that you are right and the market is wrong. While this
+may be the correct explanation, you should probably make sure that the other two explanations do not hold—that the market
+is right and you are wrong or that the difference is too small to draw any conclusions.
+To examine the magnitude of the difference between the market price and your estimate of value, you can hold the other
+variables constant and change the growth rate in your valuation until the value converges on the price. 
+Figure 13.2
+ estimates
+value as a function of the expected growth rate (assuming a beta of 0.80 and current dividends per share of $2.22). Solving
+for the expected growth rate that provides the current price, we get:
+Figure 13.2
+ Con Ed: Value versus Growth Rate

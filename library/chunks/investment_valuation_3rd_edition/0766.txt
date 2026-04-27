@@ -1,0 +1,36 @@
+act of
+reduced variance on debt capacity? Firms with lower variability in earnings can increase debt
+capacity and thus value. This can be a real benefit of conglomerate mergers, and will be considered
+
+separately later in this section.
+Cash Slack
+Managers may reject profitable investment opportunities if they have to raise new capital to finance
+them. Myers and Majluf (1984) suggest that since managers have more information than investors
+about prospective projects, new stock may have to be issued at less than true value to finance these
+projects, leading to the rejection of good projects and to capital rationing for some firms. It may
+therefore make sense for a company with excess cash and no investment opportunities to take over a
+cash-poor firm with good investment opportunities, or vice versa. The additional value of combining
+these two firms is the present value of the projects that would not have been taken if they had stayed
+apart, but can now be taken because of the availability of cash.
+Cash slack can be a potent rationale for publicly traded firms that have ready access to capital or
+huge cash balances to acquire small or private firms that have capital constraints. It may also explain
+why acquisition strategies concentrating on buying smaller, private firms have worked fairly well in
+practice. Blockbuster Inc. (video rental), Browning and Ferris (waste disposal), and Service
+Merchandise (funeral homes) were all built by rolling up smaller, private businesses into one
+publicly traded, corporate entity.
+Tax Benefits
+Several possible tax benefits accrue from takeovers. If one of the firms has tax deductions that it
+cannot use because it is losing money, whereas the other firm has income on which it pays significant
+taxes, combining the two firms can result in tax benefits that can be shared by the two firms. The
+value of this synergy is the present value of the tax savings that result from this merger. In addition,
+the assets of the firm being taken over can be written up to reflect new market values in some forms of
+mergers, leading to higher tax savings from depreciation in future years.
+ILLUSTRATION 25.4: Tax Benefits of Writing Up Asset
+Values after Takeover: Congoleum Inc.
+One of the earliest leveraged buyouts (LBOs) occurred in 1979 and involved Congoleum Inc., a diversified firm in
+shipbuilding, flooring, and automotive accessories. Congoleum's own management bought out the firm. The favorable
+treatment that would be accorded the firm's assets by tax authorities was a major reason behind the takeover. After the
+takeover—estimated to cost approximately $400 million—the firm was allowed to write up its assets to reflect the new
+market values and to claim depreciation on these new values. The estimated change in depreciation and the present value
+effect of this depreciation tax benefit, based on a tax rate of 48%, discounted at the firm's cost of capital of 14.5%, are
+shown in the following table:

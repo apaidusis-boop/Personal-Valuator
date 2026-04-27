@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: XP
 market: us
 earnings_date: 2026-05-19
-generated: 2026-04-25
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — XP (2026-05-19)
 
-_Auto-generated 24 days before call. 100% Ollama local._
+_Auto-generated 22 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- P/E múltiplo (alvo: <15x)
-- ROE (alvo: >20%)
-- Dividend payout ratio (alvo: <70%)
+- Lucro líquido de $54,8 milhões (vs previsão anterior)
+- Previsões de entregas de veículos entre 61,000 e 66,000 unidades (abaixo das expectativas anteriores)
+- Margem bruta projetada em 42,7%
 
 ## ❓ Specific questions to listen for management
-1. Como XP Inc planeja continuar expandindo seus serviços digitais no Brasil?
-2. Quais são as expectativas para o crescimento do EPS nos próximos anos?
-3. O que a empresa está fazendo para manter seu ROE acima de 20%?
-4. Há planos para aumentar os dividendos em 2026?
-5. Como XP Inc lida com possíveis desafios regulatórios no setor financeiro?
+1. Como a empresa planeja recuperar o ritmo de entregas de veículos?
+2. Quais são os detalhes sobre a consolidação da fabricação na Ásia?
+3. Qual é o impacto do mercado RF no futuro financeiro da XPeng?
+4. Como as mudanças na estrutura de dívida afetam a flexibilidade operacional?
+5. O que impulsiona a previsão de aumento nas encomendas?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar que o crescimento do EPS continua acima das expectativas
-- Mudança na estratégia de expansão internacional
+- Confirmar se o crescimento nas encomendas mantém-se em 28%
+- Verificar mudanças na estratégia após saída do mercado RF
 
 ## 🚨 Red flags potenciais
-- P/E múltiplo superior a 15 vezes
-- ROE caindo abaixo de 18%
+- Dívida líquida não cai pela metade conforme previsto
+- Previsões de entregas de veículos continuam abaixo das expectativas
 
 ## 🎯 Decision framework
-- BUY MORE if: P/E < 12x e dividend payout ratio < 60%
-- HOLD if: P/E entre 12x e 15x, ou ROE entre 18% e 20%
-- TRIM if: P/E > 15x ou ROE < 18%
+- BUY MORE if: Lucro líquido supera estimativa atual e crescimento nas encomendas mantém-se forte
+- HOLD if: Dados mistos, sem mudanças significativas nos indicadores financeiros
+- TRIM if: Previsões de entregas de veículos continuam fracos ou dívida não é reduzida conforme planejado
 
 ---
 ## 📊 Context provided to LLM
@@ -44,30 +44,26 @@ TICKER: US:XP
 EARNINGS DATE: 2026-05-19
 
 FUNDAMENTALS:
-  pe: 10.175258
+  pe: 10.123076
   pb: 2.173262
   dy: 0.91%
   roe: 23.71%
 
 THESIS HEALTH: -1/100 (contras=0, risk_flags=0)
 
-OUR THESIS:
-**Core thesis (2026-04-24)**: XP Inc é uma empresa sólida no setor financeiro com um histórico de crescimento sustentado e dividendos consistentes, o que a torna atrativa para investidores Buffett/Graham. Com um P/E de 10,41 vezes e um ROE de 23,71%, XP Inc oferece uma combinação equilibrada entre valor e crescimento. A empresa mantém um rendimento anual de dividendos de 8,91% e já estendeu seu streak de pagamentos por oito anos consecutivos, demonstrando sua capacidade de gerar lucros consistentes.
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  XPeng (XP) earnings results last quarter beat guidance on net profit but missed on vehicle delivery expectations. The company reported a net profit of $54.8 million, a significant improvement from the $1.33 billion loss in the prior year. However, XPeng's vehicle delivery forecast for the first quarter was between 61,000 and 66,000 cars, a decline of between 29.8% and 35.1%, missing earlier guidance.
 
-**Key assumptions**:
-1. XP Inc continuará a expandir seus serviços financeiros digitais no Brasil.
-2. A empresa manterá um crescimento sustentável em EPS nos próximos anos.
-3. O ROE permanecerá acima dos 20% ao longo do tempo, refletindo eficiência operacional.
-4. XP Inc continuará a aumentar seus dividendos anualmente.
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Based on the most recent data, XP Power Ltd. (XPP) provided forward guidance for FY26 with a 28% increase in order intake, a 4% decline in revenue, a gross margin of 42.7%, and net debt halved. The company also exited the RF market and consolidated manufacturing in Asia.
 
-**Disconfirmation triggers**:
-- P/E múltiplo superior a 15 vezes
-- ROE caindo abaixo de 18%
-- Dividend payout ratio acima de 70%
-- Redução significativa no crescimento do EPS por dois trimestres consecutivos
+WEB EARNINGS HEADLINES:
+  - This Chinese EV Brand Just Reported Its First-Ever Quarterly Profit - Investor's Business Daily
+  - AbbVie (ABBV) Q4 Earnings: What To Expect - The Chronicle-Journal
+  - FedEx beats on top and bottom lines, raises guidance on strong performance - CNBC
 
-**Intent**: Value deep — XP Inc oferece um excelente valor com indicadores fundamentais sólidos e potencial de dividendos crescentes.
-
----
-*Gerado por obsidian_br
+WEB GUIDANCE HEADLINES:
+  - Xeris Biopharma Reports Record Performance for Fourth Quarter and Full Year 2025 and Provides Full Y
+  - Debenhams Group smashes FY26 guidance as marketplace model accelerates turnaround - InternetRetailin
+  - XPP: Order intake up 28%, revenue down 4%, gross margin 42.7%, net debt halved, RF exit, Asia consol
 ```

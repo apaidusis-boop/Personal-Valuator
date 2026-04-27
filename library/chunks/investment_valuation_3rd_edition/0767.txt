@@ -1,0 +1,36 @@
+d change in depreciation and the present value
+effect of this depreciation tax benefit, based on a tax rate of 48%, discounted at the firm's cost of capital of 14.5%, are
+shown in the following table:
+
+Note that the increase in depreciation occurs in the first seven years, primarily as a consequence of higher book values and
+accelerated depreciation. After year 7, however, the old and new depreciation schedules converge. The present value of the
+additional tax benefits from the higher depreciation, based amounted to $41.76 million, about 10% of the overall price paid on
+the transaction.
+In recent years, the tax code covering asset revaluations has been significantly tightened. While acquiring firms can still
+reassess the value of the acquired firm's assets, they can do so only up to fair value.
+Debt Capacity
+If the cash flows of the acquiring and target firms are less than perfectly correlated, the cash flows of
+the combined firm will be less variable than the cash flows of the individual firms. This decrease in
+variability can result in an increase in debt capacity and in the value of the firm. The increase in
+value, however, has to be weighed against the immediate transfer of wealth to existing bondholders in
+both firms from the stockholders of both the acquiring and target firms. The bondholders in the
+premerger firms find themselves lending to a safer firm after the takeover. The interest rates they are
+receiving are based on the riskier premerger firms, however. If the interest rates are not renegotiated,
+the bonds will increase in price, increasing the bondholders' wealth at the expense of the
+stockholders.
+There are several models available for analyzing the benefits of higher debt ratios as a consequence
+of takeovers. Lewellen (1971) analyzes the benefits in terms of reduced default risk, since the
+combined firm has less variable cash flows than do the individual firms. He provides a rationale for
+an increase in the value of debt after the merger, but at the expense of equity investors. It is not clear,
+therefore, that the value of the firm will increase after the merger. Stapleton (1985) evaluates the
+benefits of higher debt capacity after mergers using option pricing. He shows that the effect of a
+merger on debt capacity is always positive, even when the earnings of the two firms are perfectly
+correlated. The debt capacity benefits increase as the earnings of the two firms become less
+correlated and as investors become more risk averse.
+Consider again the merger of Lube & Auto and Dalton Motors. The value of the combined firm was
+the same as the sum of the values of the independent firms. The fact that the two firms were in
+different business lines reduced the variance in earnings, but value was not affected, because the
+capital structure of the firm remained unchanged after the merger and the costs of equity and debt
+were the weighted averages of the individual firms' costs.
+The reduction in variance in earnings can increase debt capacity, which can increase value. If, after
+the merger of these two firms, the debt capacity for the combined firm were increased to 40 percent

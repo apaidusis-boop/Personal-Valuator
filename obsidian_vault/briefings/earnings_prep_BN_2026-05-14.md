@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: BN
 market: us
 earnings_date: 2026-05-14
-generated: 2026-04-25
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — BN (2026-05-14)
 
-_Auto-generated 19 days before call. 100% Ollama local._
+_Auto-generated 17 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- ROE manter-se acima de 1% (número-alvo: >1%)
-- Múltiplo P/B permanecer abaixo de 3 (número-alvo: <3)
-- Dividendos continuarem crescendo (número-alvo: crescimento contínuo)
+- Distributable earnings before realizations (target: $5.4B)
+- Free cash flow generation
+- Guidance for FY26 growth
 
 ## ❓ Specific questions to listen for management
-1. Como a empresa planeja manter seu ROE acima de 1% nos próximos três anos?
-2. Quais são as expectativas para o múltiplo P/B em relação ao crescimento futuro da empresa?
-3. O que está sendo feito para garantir um crescimento contínuo dos dividendos?
-4. Como a empresa planeja gerenciar sua dívida líquida/EBITDA nos próximos trimestres?
-5. Quais são as perspectivas de expansão em novas áreas ou mercados?
+1. Como a empresa planeja sustentar o crescimento nas áreas de Beauty e Nutrition?
+2. Quais são os próximos passos estratégicos para capital deployment?
+3. Qual é a expectativa da companhia em relação ao endividamento no próximo ano fiscal?
+4. Como as mudanças na liderança afetam a estratégia atual?
+5. O que pode ser feito para melhorar o retorno sobre o patrimônio?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar que o ROE continua acima de 1%
-- Mudança na tendência do múltiplo P/B para cima
+- Confirmar se a tendência de crescimento nas distribuções de lucros continua
+- Mudança no endividamento, esperando uma redução
 
 ## 🚨 Red flags potenciais
-- Declínio no ROE para menos de 1% por dois trimestres consecutivos
-- Múltiplo P/B aumentando acima de 3,5
+- Possível queda na geração de caixa livre
+- Aumento inesperado do endividamento relativo ao EBITDA
 
 ## 🎯 Decision framework
-- BUY MORE if: ROE > 1%, múltiplo P/B < 3 e dividendos continuam crescendo
-- HOLD if: ROE entre 0.8% - 1%, múltiplo P/B entre 2.7 - 3,5
-- TRIM if: ROE abaixo de 0.8%, múltiplo P/B acima de 3,5 ou dividendos congelados/cortados
+- BUY MORE if: distribuções de lucros superam expectativas e crescimento sustentável é confirmado
+- HOLD if: guidance para FY26 está em linha com as estimativas atuais
+- TRIM if: sinais de estresse financeiro ou desaceleração na geração de caixa
 
 ---
 ## 📊 Context provided to LLM
@@ -52,20 +52,19 @@ FUNDAMENTALS:
 
 THESIS HEALTH: -1/100 (contras=0, risk_flags=0)
 
-OUR THESIS:
-**Core thesis (2026-04-24)**: Brookfield Corp é uma excelente posição long-term para um investidor Buffett/Graham devido à sua consistência em dividendos, com 40 anos de crescimento contínuo e status de Dividend Aristocrat. Apesar do múltiplo P/E elevado (94.78), a empresa mantém um sólido ROE de 1.95% e uma relação patrimônio líquido/Patrimônio Líquido (P/B) de 2.38, indicando que o valor intrínseco pode estar subestimado em relação ao seu crescimento futuro. A empresa também possui um sólido coeficiente de endividamento EBITDA de 8.27 e uma razão corrente de 1.265, sugerindo capacidade financeira robusta.
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  Brookfield Corporation's earnings results for the last quarter surpassed analysts' guidance, reporting record distributable earnings before realizations of $5.4 billion, marking an 11% increase over the prior year.
 
-**Key assumptions**:
-1. Brookfield Corp continuará a aumentar seus dividendos por pelo menos mais cinco anos.
-2. A empresa manterá um ROE acima de 1% nos próximos três anos.
-3. O múltiplo P/B permanecerá abaixo de 3, refletindo o crescimento contínuo da empresa.
-4. A relação dívida líquida/EBITDA não excederá 9.
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Brookfield (BN) has provided a positive forward guidance for FY26, indicating a strong performance in the second half of FY25 that has set the stage for solid growth and operational improvements in FY26. The company has highlighted its renewed momentum across its subscriptions-led Beauty and Nutrition businesses, with Jefferies noting that Brookfield is back into growth and poised to generate solid free cash flow. Peel Hunt and JP Morgan have also commented on the improving operational picture and the strength of the underlying business model, suggesting that Brookfield is setting up for susta
 
-**Disconfirmation triggers**:
-- ROE caindo para menos de 1% por dois trimestres consecutivos
-- Múltiplo P/B aumentando acima de 3,5
-- Dividendos sendo cortados ou congelados
-- Redução significativa na razão corrente abaixo de 1.2
+WEB EARNINGS HEADLINES:
+  - Brookfield Surges in 2025: Record Earnings, Dividend Boost, and Strategic Capital Deployment - Insur
+  - AbbVie (ABBV) Q4 Earnings: What To Expect - The Chronicle-Journal
+  - FedEx beats on top and bottom lines, raises guidance on strong performance - CNBC
 
-**Intent**: Value deep — A empresa ofe
+WEB GUIDANCE HEADLINES:
+  - Record second half sees THG return to growth and strengthen FY26 guidance - InternetRetailing
+  - Top 6 Defence Stocks with Strong Growth Guidance for FY26 to Keep an Eye On - Trade Brains
+  - BHP reports 3% dip in YTD March FY26 copper output - Mining Technology
 ```

@@ -1,0 +1,45 @@
+illion.) The technology
+is rapidly evolving, and a simulation of alternative scenarios yields a wide range of present
+values, with an annualized standard deviation of 60%. The 10-year bond rate is 6%.
+
+a.
+ Estimate the value of this company.
+b.
+ How sensitive is this value estimate to the variance in project cash flows? What broader
+lessons would you draw from this analysis?
+1
+ In practical terms, the probability distributions for inputs like market size and market share can
+often be obtained from market testing.
+2
+ A value-creating cash flow is one that adds to the net present value because it is in excess of the
+required return for investments of equivalent risk.
+3
+ With a binomial model, we estimate a value of $915 million for the same option.
+4
+ To be honest, this is not an estimate based on any significant facts other than Biogen's history of
+success in coming up with new products. You can obtain an estimate of this number from the return
+and cost of capital. For instance, if you assume a return on capital of 15% and cost of capital of
+10% in perpetuity, $1 invested would yield the following: 
+5
+ This discount rate was estimated by looking at the costs of equity of young publicly traded
+biotechnology firms with little or no revenue from commercial products.
+6
+ The following is a simplified version of the illustration provided by Siegel, Smith, and Paddock
+(1993) to value an offshore oil property.
+7
+ For simplicity, we will assume that while this marginal value per barrel of oil will grow over
+time, the present value of the marginal value will remain unchanged at $12 per barrel. If we do not
+make this assumption, we will have to estimate the present value of the oil that will be extracted
+over the extraction period.
+8
+ In this example, we assume that the only uncertainty is in the price of oil, and the variance
+therefore becomes the variance in ln(oil prices).
+9
+ With a binomial model, we arrive at an estimate of value of $99.15 million.
+10
+ This is the variance of a product of two variables.
+11
+ If you own some reserves in perpetuity, you should cap the life of the reserve at a large value—
+say, 30 years—in making this estimate.
+12
+ With a binomial model, we estimate the value of the reserves to be $13.73 billion.

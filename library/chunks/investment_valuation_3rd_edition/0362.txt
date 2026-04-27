@@ -1,0 +1,46 @@
+he
+equity in a business, consider how you get your returns. Assuming that your investment is a good
+investment, the bulk of the returns come not while you hold the equity (from dividends or other cash
+
+flows) but when you sell it (from price appreciation). The terminal value is designed to capture the
+latter. Consequently, the greater the growth potential in a business, the higher the proportion of the
+value that comes from the terminal value.
+Is it easy to manipulate the terminal value? We concede that terminal value is manipulated often and
+easily, but it is because analysts either use multiples to get these values or because they violate one or
+both of two basic propositions in stable growth models. One is that the growth rate cannot exceed the
+growth rate of the economy. The other is that firms have to reinvest enough in stable growth to
+generate the growth rate. In fact, as we showed earlier in the chapter, it is not the stable growth rate
+that drives value as much as what we assume about excess returns in perpetuity. When excess returns
+are zero, changes in the stable growth rate have no impact on value.
+CONCLUSION
+The value of a firm is the present value of its expected cash flows over its life. Since firms have
+infinite lives, you apply closure to a valuation by estimating cash flows for a period and then
+estimating a value for the firm at the end of the period—a terminal value. Many analysts estimate the
+terminal value using a multiple of earnings or revenues in the final estimation year. If you assume that
+firms have infinite lives, an approach that is more consistent with discounted cash flow valuation is to
+assume that the cash flows of the firm will grow at a constant rate forever beyond a point in time.
+When the firm that you are valuing will approach this growth rate, which you label a stable growth
+rate, is a key part of any discounted cash flow valuation. Small firms that are growing fast and have
+significant competitive advantages should be able to grow at high rates for much longer periods than
+larger and more mature firms, without these competitive advantages. If you do not want to assume an
+infinite life for a firm, you can estimate a liquidation value based on what others will pay for the
+assets that the firm has accumulated during the high-growth phase.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Ulysses Inc. is a shipping company with $100 million in earnings before interest and taxes that
+is expected to have earnings growth of 10% for the next five years. At the end of the fifth year, you
+estimate the terminal value using a multiple of 8 times operating income (which is the average for
+the sector).
+a.
+ Estimate the terminal value of the firm.
+b.
+ If the cost of capital for Ulysses is 10%, the tax rate is 40%, and you expect the stable growth
+rate to be 5%, what is the return on capital that you are assuming in perpetuity if you use a
+multiple of 8 times operating income?
+2.
+ Genoa Pasta manufactures Italian food products and currently earns $80 million in earnings
+before interest and taxes. You expect the firm's earnings to grow 20 percent a year for the next six
+years and 5% thereafter. The firm's current after-tax return on capital is 28%, but you expect it to
+be halved after the sixth year. If the cost of capital for the firm is expected to be 10% in
+perpetuity, estimate the terminal value for the firm. (The tax rate for the firm is 40%.)

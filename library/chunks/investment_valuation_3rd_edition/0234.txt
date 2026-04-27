@@ -1,0 +1,43 @@
+evelop more direct measures of risk. For instance, assume that the higher
+risk of small cap stocks comes from the higher operating leverage that these firms have, relative to their larger competitors.
+
+You could adjust the betas for operating leverage (as we did a few pages ago for Vans Shoes) and use the higher betas for
+small firms. Third, the small cap premium of 4 percent that we estimated from historical data comes with a significant
+standard error (of approximately 2 percent). Thus, the true small cap premium can be 8 percent or 0 percent. Fourth, even if
+your company is a small company today and deserves a small cap premium, assuming a high growth rate for your firm will
+make it a large cap firm eventually. It follows that you would expect the small cap premium to fade over time.
+FROM COST OF EQUITY TO COST OF CAPITAL
+Although equity is undoubtedly an important and indispensable ingredient of the financing mix for
+every business, it is but one ingredient. Most businesses finance some or much of their operations
+using debt or some security that is a combination of equity and debt. The costs of these sources of
+financing are generally very different from the cost of equity, and the cost of financing for a firm
+should reflect their costs as well, in proportion to their use in the financing mix. Intuitively, the cost of
+capital is the weighted average of the costs of the different components of financing—including debt,
+equity, and hybrid securities—used by a firm to fund its financial requirements. This section examines
+the process of estimating the cost of financing other than equity, and the weights for computing the
+cost of capital.
+Calculating the Cost of Debt
+The cost of debt measures the current cost to the firm of borrowing funds to finance projects. In
+general terms, it is determined by the following variables:
+The riskless rate.
+ As the riskless rate increases, the cost of debt for firms will also
+increase.
+The default risk (and associated default spread) of the company.
+ As the default risk of a
+firm increases, the cost of borrowing money will also increase. Chapter 7 looked at how the
+default spread has varied across time and can vary across maturity.
+The tax advantage associated with debt.
+ Since interest is tax deductible, the after-tax cost
+of debt is a function of the tax rate. The tax benefit that accrues from paying interest makes
+the after-tax cost of debt lower than the pretax cost. Furthermore, this benefit increases as
+the tax rate increases.
+This section focuses on how best to estimate the default risk in a firm and to convert that default
+risk into a default spread that can be used to come up with a cost of debt.
+Estimating the Default Risk and Default Spread of a Firm
+The simplest scenario for estimating the cost of debt occurs when a firm has long-term bonds
+outstanding that are widely traded. The market price of the bond in conjunction with its coupon and
+maturity can serve to compute a yield that is used as the cost of debt. For instance, this approach
+works for a firm that has dozens of outstanding bonds that are liquid and trade frequently.
+Some firms have bonds outstanding that do not trade on a regular basis. Since these firms are
+usually rated, we can estimate their costs of debt by using their ratings and associated default spreads.
+Thus, a firm with an A rating can be expected to have a cost of debt approximately 1.00 percent

@@ -1,0 +1,23 @@
+ios and returns on equity can be seen when we plot the two on a scatter plot
+for commercial banks in May 2011 the United States in 
+Figure 21.1
+.
+Figure 21.1
+ PBV Ratios and ROE—U.S. Banks in May 2011
+
+Banks such as WestAmerica Bancord (WABC) and Bank of Hawaii (BOH) trade at high price-to-
+book ratios and also have high returns on equity. At the other end of the spectrum, Susquehanna
+Bancshares (SUSQ) and BancorpSouth (BXS) trade at well below book value, but also have negative
+returns on equity.
+While emphasizing the relationship between price-to-book ratios and returns on equity, we should
+not ignore the other fundamentals. For instance, banks vary in terms of risk, and we would expect for
+any given return on equity, riskier banks should have lower price-to-book value ratios. Similarly,
+banks with much greater potential for growth should have much higher price-to-book ratios, for any
+given level of the other fundamentals.
+ILLUSTRATION 21.7: PBV and ROE for European Banks
+in May 2011
+The following table summarizes the price-to-book ratios for European banks in May 2011, with the betas, analyst estimates
+of expected growth rates (over the next five years), and returns on equity in 2010.
+
+While 37 of the 55 banks trade at less than book value, many of these firms have returns on equity that are less than 8% and
+low expected growth. Alpha Bank, a Greek bank, trades at 0.42 times book value, but it has a return on equity of 2.64% and

@@ -1,0 +1,19 @@
+rm value for other firms in the sector. Thus the value of
+equity in a deeply troubled steel company can be estimated using the average variance in firm value
+of all traded steel companies.
+optvar.xls:
+
+This dataset on the Web summarizes standard deviations in equity and firm value, by
+industry, for firms in the United States.
+Maturity of the Debt
+Most firms have more than one debt issue on their books, and much of the debt comes with coupons.
+Since the option pricing model allows for only one input for the time to expiration, we have to
+convert these multiple bonds issues and coupon payments into one equivalent zero coupon bond.
+One solution, which takes into account both the coupon payments and the maturity of the
+bonds, is to estimate the duration of each debt issue and calculate a face-value-weighted
+average of the durations of the different issues. This value-weighted duration is then used as
+a measure of the time to expiration of the option.
+An approximation is to use the face-value-weighted maturity of the debt coming for the
+maturity of the zero coupon bond in the option pricing model.
+Face Value of Debt
+When a distressed firm has multiple debt issues outstanding, you have three choices when it comes to

@@ -1,0 +1,45 @@
+rrowed so much that repayment becomes difficult. Any one of these shocks would create a gap between 
+the amount of money coming in and the amount of money being spent, which has to be closed somehow. 
+
+Part 1: The Archetypal Big Debt Cycle 
+46
+In the typical cycle, the crisis arises because the unsustainable pace of capital that drove the bubble slows, but in 
+many cases, there is some sort of a shock (like a decline in oil prices for an oil producer). Generally the causes of 
+the top-reversal fall into a few categories:
+1) The income from selling goods and services to foreigners drops (e.g., the currency has risen to a point where it’s made 
+the country’s exports expensive; commodity-exporting countries may suffer from a fall in commodity prices). 
+2) The costs of items bought from abroad or the cost of borrowing rises .
+3) Declines in capital flows coming into the country (e.g., foreign investors reduce their net lending or net 
+investment into the country). This occurs because: 
+a)  The unsustainable pace naturally slows, 
+b)  Something leads to greater worries about economic or political conditions, or 
+c)   A tightening of monetary policy in the local currency and/or in the currency those debts are denominated in (or 
+in some cases, tightening abroad creates pressure for foreign capital to pull out of the country).
+4) A country’s own citizens or companies want to get their money out of their country/currency.
+Weakening capital flows are often the first shoe to drop in a balance of payments crisis. They directly cause 
+growth to weaken because the investment and consumption they had been financing is reduced. This makes 
+domestic borrowers seem less creditworthy, which makes foreigners less willing to lend and provide capital. So, 
+the weakening is self-reinforcing.
+ • Growth slows relative to potential as the pace of capital inflows slows.
+ • Domestic capital outflows pick up a bit.
+ • Export earnings fall, due to falling prices or falling quantities sold. Typically exports are flat, no longer rising.
+54321
+-10%
+-5%
+0%
+5%
+10%
+15%
+-60 -48 -36 -24 -12 0 12 24 36 48 60 72 84
+Capital Inﬂows (%PGDP)
+Top
+(3)
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Depression
+(4)
+Normalization
+(5)

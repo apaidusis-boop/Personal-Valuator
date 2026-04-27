@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: AAPL
 market: us
 earnings_date: 2026-04-30
-generated: 2026-04-26
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — AAPL (2026-04-30)
 
-_Auto-generated 4 days before call. 100% Ollama local._
+_Auto-generated 3 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- Crescimento das vendas do iPhone em China (alvo de 26% YOY)
-- Margens brutas e custos operacionais
-- Perspectivas para o mercado global
+- Crescimento das vendas do iPhone (meta: +26% YOY)
+- Margens brutas (expectativa: manutenção ou superação de 48.2%)
+- Custos operacionais e desafios da cadeia de suprimentos
 
 ## ❓ Specific questions to listen for management
 1. Como a Apple planeja lidar com os aumentos nos custos?
-2. Quais são as expectativas de crescimento do iPhone no segundo semestre?
-3. Qual é a previsão de margem bruta para o próximo trimestre?
-4. Impacto da força do dólar sobre as exportações
-5. Como a empresa está lidando com os desafios na cadeia de suprimentos?
+2. Quais são as perspectivas para o crescimento do iPhone na China?
+3. Qual é o impacto esperado dos gargalos da cadeia de suprimentos no próximo trimestre?
+4. Como a empresa está reagindo à concorrência crescente em dispositivos móveis?
+5. Quais novas iniciativas estão sendo implementadas para melhorar as margens operacionais?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar continuação das vendas fortes do iPhone em China
-- Mudança nas perspectivas para margens brutas e custos operacionais
+- Confirmar se o crescimento das vendas do iPhone continua forte
+- Mudança na direção da gestão de custos e eficiência operacional
 
 ## 🚨 Red flags potenciais
-- Aumento significativo nos custos operacionais
-- Previsões de receita abaixo do esperado
+- Deterioração nas margens brutas ou EBITDA
+- Aumento significativo no endividamento neto
 
 ## 🎯 Decision framework
-- BUY MORE if: Margem bruta superior a 48% e crescimento das vendas do iPhone em China acima de 25%
-- HOLD if: Perspectivas de custos operacionais elevados ou estagnação nas margens brutas
-- TRIM if: Previsões de receita abaixo do esperado ou sinais de desaceleração no crescimento das vendas do iPhone
+- BUY MORE if: Margem bruta superior a 48.5% e crescimento das vendas do iPhone acima de 26%
+- HOLD if: Crescimento moderado nas vendas do iPhone (10%-20%) com estabilidade em margens
+- TRIM if: Deterioração nas margens brutas ou aumento nos custos operacionais
 
 ---
 ## 📊 Context provided to LLM

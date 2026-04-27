@@ -62,6 +62,8 @@ VRTA11 (Fator Verita) é fundo papel CRI com DY 12,91%, P/E 11,73 e P/B 0,87 —
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

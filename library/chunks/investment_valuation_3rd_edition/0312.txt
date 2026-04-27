@@ -1,0 +1,23 @@
+tween
+2000 and 2010, and the compounded annual growth rate in operating income at Cisco between 2000 and 2010 was only
+7.12%, both steep drop-offs from the growth rate in the prior decade.
+histgr.xls:
+
+This dataset on the Web summarizes historical growth rates in earnings and revenues by
+industry group for the United States.
+HISTORICAL GROWTH AT HIGH-GROWTH AND
+YOUNGER FIRMS
+The presence of negative earnings, volatile growth rates over time, and the rapid changes that high-growth firms go through
+over time make historical growth rates unreliable indicators of future growth for these firms. Notwithstanding this, you can
+still find ways to incorporate information from historical growth into estimates of future growth, if you follow these general
+guidelines:
+Focus on revenue growth, rather than earnings growth, to get a measure of both the pace of growth and the
+momentum that can be carried forward into future years. Revenue growth is less volatile than earnings
+growth and is much less likely to be swayed by accounting adjustments and choices.
+Rather than looking at average growth over the past few years, look at growth each year. This can provide
+information on how the growth is changing as the firm becomes larger, and can help when making projections
+for the future.
+Use historical growth rates as the basis for projections only in the near future (next year or two), since
+technologies can change rapidly and undercut future estimates.
+Consider historical growth in the overall market and in other firms that are serving it. This information can be
+useful in deciding what the growth rates of the firm that you are valuing will converge on over time.

@@ -1,0 +1,68 @@
+the expected return on Bethlehem Steel,
+and have derived the following estimates for the factor betas and risk premium:
+Factor
+Beta
+Risk Premium
+1
+1.2
+2.5%
+2
+0.6
+1.5%
+3
+1.5
+1.0%
+4
+2.2
+0.8%
+5
+0.5
+1.2%
+
+a.
+ Which risk factor is Bethlehem Steel most exposed to? Is there any way, within the arbitrage
+pricing model, to identify the risk factor?
+b.
+ If the risk-free rate is 5%, estimate the expected return on Bethlehem Steel.
+c.
+ Now assume that the beta in the capital asset pricing model for Bethlehem Steel is 1.1, and
+that the risk premium for the market portfolio is 5%. Estimate the expected return using the
+CAPM.
+d.
+ Why are the expected returns different using the two models?
+14.
+ You are using the multifactor model to estimate the expected return on Emerson Electric, and
+have derived the following estimates for the factor betas and risk premiums:
+With a riskless rate of 6%, estimate the expected return on Emerson Electric.
+15.
+ The following equation is reproduced from the study by Fama and French of returns between
+1963 and 1990.
+where MV is the market value of equity in hundreds of millions of dollars and BV is the book
+value of equity in hundreds of millions of dollars. The return is a monthly return.
+a.
+ Estimate the expected annual return on Lucent Technologies if the market value of its equity is
+$180 billion and the book value of its equity is $73.5 billion.
+b.
+ Lucent Technologies has a beta of 1.55. If the riskless rate is 6% and the risk premium for the
+market portfolio is 5.5%, estimate the expected return.
+c.
+ Why are the expected returns different under the two approaches?
+1
+ A utility function is a way of summarizing investor preferences into a generic term called “utility”
+on the basis of some choice variables. In this case, for instance, the investors’ utility or satisfaction
+is stated as a function of wealth. By doing so, we effectively can answer questions such as, Will
+investors be twice as happy if they have twice as much wealth? Does each marginal increase in
+wealth lead to less additional utility than the prior marginal increase? In one specific form of this
+function, the quadratic utility function, the entire utility of an investor can be compressed into the
+expected wealth measure and the standard deviation in that wealth.
+2
+ The significance of introducing the riskless asset into the choice mix and the implications for
+portfolio choice were first noted in Sharpe (1964) and Lintner (1965). Hence, the model is
+sometimes called the Sharpe-Lintner model.
+3
+ In a paper in 
+Nature
+ (Gabaix, X., Gopikrishnan, P., Plerou, V., and Stanley, H.E., 2003,
+ A theory
+of power law distributions in financial market fluctuations,
+ Nature 423, 267–70), researchers

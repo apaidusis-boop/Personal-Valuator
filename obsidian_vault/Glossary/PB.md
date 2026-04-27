@@ -3,7 +3,7 @@ type: glossary
 slug: PB
 title: P/B (P/VP) — Price / Book Value
 category: valuation
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, valuation]
 ---
 
@@ -115,4 +115,4 @@ Quanto o mercado paga por cada R$1 de patrimônio líquido contábil. P/B = 1 �
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

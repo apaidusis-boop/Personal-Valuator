@@ -1,0 +1,17 @@
+/e/emergingmarketeconomy.asp) equities, 30% in domestic blue chips, and 40% in [government bonds](https://www.investopedia.com/terms/g/government-bond.asp) with a corridor of ±5% for each asset class.
+
+The use of rebalancing bands means that, given the ±5% corridor, emerging market and domestic blue-chip holdings can fluctuate between 25% and 35%. Government bonds can fluctuate between 35% and 45%. When the weight of a holding moves outside of the allowable band, the entire portfolio is [rebalanced](https://www.investopedia.com/terms/r/rebalancing.asp) to reflect the initial target composition.
+
+### Tip
+
+In the past, this type of subtle rebalancing was frowned upon because it was time-consuming and generated transaction fees. Now, low-fee robo-advisors are designed to handle rebalancing automatically.
+
+Another type of rebalancing commonly found with robo-advisors—made cost-effective through algorithms—is tax-loss harvesting. [Tax-loss harvesting](https://www.investopedia.com/terms/r/robo-tax-loss-harvesting.asp) is a strategy that involves selling securities at a loss to offset a capital-gains tax liability.
+
+This strategy is typically employed to limit the recognition of [short-term capital gains](https://www.investopedia.com/terms/s/short-term-gain.asp). Robo-advisors do this by maintaining two or more stable ETFs for each asset class. So, for example, if the S&P 500 ETF loses value, a robo-advisor will automatically sell it to lock in a capital loss; simultaneously, it buys a different S&P 500 ETF.
+
+It's worth bearing in mind that the IRS [wash-sale rule](https://www.investopedia.com/terms/w/washsale.asp) prevents investors from re-purchasing the same security or a security that is substantially identical within 30 days from its sell date. However, robo-investment platforms should have algorithms in place that incorporate rules like this.
+
+### Warning
+
+Make sure your robo-advisor is programmed to select ETFs appropriately so that you avoid wash-sale violations.

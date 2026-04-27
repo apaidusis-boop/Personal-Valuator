@@ -1,0 +1,38 @@
+or instance, you could have a firm that is expected to see its earnings decline
+5 percent a year for the next five years (which would be the extraordinary growth period) and grow 2 percent thereafter.
+
+THE SURVIVAL ISSUE
+Implicit in the use of a terminal value in discounted cash flow valuation is the assumption that the
+value of a firm comes from it being a going concern with a perpetual life. For many risky firms, there
+is the very real possibility that they might not be in existence in 5 or 10 years, with volatile earnings
+and shifting technology. Should the valuation reflect this chance of failure, and, if so, how can the
+likelihood that a firm will not survive be built into a valuation?
+Life Cycle and Firm Survival
+There is a link between where a firm is in the life cycle and survival. Young firms with negative
+earnings and cash flows can run into serious cash flow problems and end up being acquired by firms
+with more resources at bargain basement prices. Why are young firms more exposed to this problem?
+The negative cash flows from operations, when combined with significant reinvestment needs, can
+result in a rapid depletion of cash reserves. When financial markets are accessible and additional
+equity (or debt) can be raised at will, raising more funds to meet these funding needs is not a
+problem. However, when stock prices drop and access to markets becomes more limited, these firms
+can be in trouble.
+A widely used measure of the potential for a cash flow problem for firms with negative earnings is
+the cash burn ratio, which is estimated as the cash balance of the firm divided by its earnings before
+interest, taxes, depreciation, and amortization (EBITDA).
+where EBITDA is a negative number and the absolute value of EBITDA is used to estimate this ratio.
+Thus a firm with a cash balance of $1 billion and EBITDA of –$1.5 billion will burn through its cash
+balance in eight months.
+Likelihood of Failure and Valuation
+One view of survival is that the expected cash flows that you use in a valuation reflect cash flows
+under a wide range of scenarios from very good to abysmal and the probabilities of the scenarios
+occurring. Thus, the expected value already has built into it the likelihood that the firm will not
+survive. Any market risk associated with survival or failure is assumed to be incorporated into the
+cost of capital. Firms with a high likelihood of failure will therefore have higher discount rates and
+lower expected cash flows.
+Another view of survival is that discounted cash flow valuations tend to have an optimistic bias and
+that the likelihood that the firm will not survive is not considered adequately in the value. With this
+view, the discounted cash flow value that emerges from the analysis in the prior section overstates the
+value of operating assets and has to be adjusted to reflect the likelihood that the firm will not survive
+to deliver its terminal value or even the positive cash flows that you have forecast in future years.
+Should You or Should You Not Discount Value for Survival?
+For firms that have substantial assets in place and relatively small probabilities of distress, the first

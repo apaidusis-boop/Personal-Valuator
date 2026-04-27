@@ -1,0 +1,33 @@
+ssible for the rating to drop again. Thus, a third
+iteration might be necessary in some cases.
+12
+ If they do not have protective puts, it is in the best interests of the stockholders not to refinance
+
+the debt if debt ratios are increased.
+13
+ This will have the effect of reducing interest cost, when debt is increased, and thus interest
+coverage ratios. This will lead to higher ratings, at least in the short term, and a higher optimal
+debt ratio.
+14
+ To estimate the beta of debt, we used the default spread at each level of debt, and assumed that
+25% this risk is market risk. Thus, at an A- rating, the default spread is 3%. Based on the market
+risk premium of 6% that we used elsewhere, we estimated the beta at a A rating to be:
+The assumption that 25% of the default risk is market risk is made to ensure that at a D rating, the
+beta of debt (0.83) is close to the unlevered beta of Disney (1.09).
+15
+ No company can grow at a rate higher than the long-term nominal growth rate of the economy.
+The risk-free rate is a reasonable proxy for the long-term nominal growth rate in the economy
+because it is composed of two components—the expected inflation rate and the expected real rate
+of return. The latter has to equate to real growth in the long term.
+16
+ The cost of equity is an implicit cost and does not show up in the income statement of the firm.
+The savings in the cost of capital are therefore unlikely to show up as higher aggregate earnings. In
+fact, as the firm's debt ratio increases the earnings will decrease but the per share earnings will
+increase.
+17
+ To compute this change in value per share, we first compute how many shares we would buy
+back with the additional debt taken on of $ 8,068 million (debt at 40% optimal of $24,750 million
+– Current debt of $16,682 million) and the stock price of $24.34. We then divide the increase in
+firm value of $1,763 million by the remaining shares outstanding:
+18
+ See Inselbag and Kaufold (1997).

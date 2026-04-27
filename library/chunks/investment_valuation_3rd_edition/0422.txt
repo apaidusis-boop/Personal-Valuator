@@ -1,0 +1,41 @@
+ns laid out in Chapter 11:
+We also defined the return on equity in terms of the return on capital:
+When a firm borrows money and invests in projects that earn more than the after-tax cost of debt, the
+
+return on equity will be higher than the return on capital. This, in turn, will translate into a higher
+growth rate in equity income at least in the short term.
+In stable growth, though, the growth rates in equity income and operating income have to converge.
+To see why, assume that you have a firm whose revenues and operating income are growing at 5
+percent a year forever. If you assume that the same firm's net income grows at 6 percent a year
+forever, the net income will catch up with operating income at some point in time in the future and
+exceed revenues at a later point in time. In stable growth, therefore, even if return on equity exceeds
+the return on capital, the expected growth will be the same in all measures of income.
+1
+FIRM VALUATION: THE COST OF CAPITAL
+APPROACH
+The value of the firm is obtained by discounting the free cash flow to the firm at the weighted average
+cost of capital. Embedded in this value are the tax benefits of debt (in the use of the after-tax cost of
+debt in the cost of capital) and expected additional risk associated with debt (in the form of higher
+costs of equity and debt at higher debt ratios). Just as with the dividend discount model and the FCFE
+model, the version of the model used will depend on assumptions made about future growth.
+Stable Growth Firm
+As with the dividend discount and FCFE models, a firm that is growing at a rate that it can sustain in
+perpetuity—a stable growth rate—can be valued using a stable growth model.
+The Model
+A firm with free cash flows to the firm growing at a stable growth rate can be valued using the
+following equation:
+where FCFF
+1
+ = Expected FCFF next year 
+WACC = Weighted average cost of capital 
+g
+n
+ = Growth rate in the FCFF forever
+The Caveats
+There are two conditions that need to be met in using this model. First, the growth rate used in the
+model has to be less than or equal to the growth rate in the economy—nominal growth, if the cost of
+capital is in nominal terms, or real growth, if the cost of capital is a real cost of capital. Second, the
+characteristics of the firm have to be consistent with assumptions of stable growth. In particular, the
+reinvestment rate used to estimate free cash flows to the firm should be consistent with the stable
+growth rate. The best way of enforcing this consistency is to derive the reinvestment rate from the
+stable growth rate:

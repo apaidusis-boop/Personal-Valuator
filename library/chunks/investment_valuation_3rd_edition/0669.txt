@@ -1,0 +1,47 @@
+to this unlevered firm value the costs (expected bankruptcy costs) and benefits (tax benefits)
+of debt. As noted in Chapter 15, though, estimating the expected bankruptcy cost can be difficult to
+do.
+
+ILLUSTRATION 22.7: Adjust Debt Ratio over Time:
+Hyundai
+Hyundai Corporation is a Korean company that is part of the Hyundai Group and handles the trading operations for the firm.
+Like many other Korean companies, Hyundai borrowed large amounts to fund expansion until the late 1990s. By the end of
+2000, Hyundai had debt outstanding of 848 billion Korean won (krw) and had a market value of equity of 163 billion krw,
+resulting a debt-to-capital ratio of 83.85%. The high leverage has three consequences:
+1.
+ The bottom-up beta for the firm is 2.60, reflecting the firm's high debt-to-equity ratio. With a risk-free rate of 9% in
+Korean won and the risk premium of 7% (4% as the mature market premium and 3% for Korean country risk), we
+estimate a cost of equity in Korean won for the firm of 27.20%.
+2.
+ The firm has high default risk, leading to a pretax cost of borrowing in Korean won terms of 12.5%; the tax rate for the
+firm is 30%.
+3.
+ The firm reported pretax operating income of 89.42 billion krw, but the interest expenses of the firm amounted to 99
+billion krw, resulting in a loss for the firm. Note, though, that the firm is still obtaining the tax benefits of almost all of its
+interest payments.
+5
+We assume that the operating income will grow 10% a year for the next six years and 8% a year beyond that point in time.
+Over that period, we assume that the firm's capital expenditures (which are currently 12 billion krw), depreciation (which is
+currently 4 billion krw), and noncash working capital (which is currently 341 billion krw) will grow at the same rate as
+operating income, yielding the following estimates for the cash flows:
+Over the next six years, we assume that the firm will reduce its debt ratio from 83.85% to 50%, which will result in the beta
+decreasing from 2.60 to 1.00 and the pretax cost of debt dropping from 12.5% to 10.5% (we assume that the changes occur
+linearly over the period). The costs of capital for Hyundai are estimated each year for the next six years:
+To estimate the terminal value, we assume a growth rate of 8% in perpetuity after year 6, and a return on capital of 16%.
+This allows us to estimate a reinvestment rate and terminal value for the firm at the end of year 6:
+Discounting the cash flows over the next six years and the terminal value using the cumulated cost of capital yields the
+following:
+Present value of FCFF in high-growth phase
+132.34 billion krw
+Present value of terminal value
+819.19 billion krw
+Value of the operating assets
+951.52 billion krw
++ Cash and marketable securities
+80.46 billion krw
+– Market value of debt
+847.73 billion krw
+Market value of equity
+184.25 billion krw
+Dividing by the number of shares results in an estimated value of equity for the firm of 2,504 krw per share, a little higher
+than the actual trading price of 2,220 krw per share.

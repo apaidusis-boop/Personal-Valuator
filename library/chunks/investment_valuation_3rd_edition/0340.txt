@@ -1,0 +1,18 @@
+nd investment banks, and their research is offered
+to clients of these firms as a service. In contrast, buy-side analysts work for institutional investors,
+and their research is generally proprietary.
+
+6
+
+7
+ Note that 17.22% is halfway between the current return on capital and the industry average (22.27
+percent).
+8
+ You are allowing for a compounded growth rate over time. Thus, if earnings are expected to grow
+25 percent over three years, you estimate the expected growth rate each year to be: Expected
+growth rate each year = (1.25)
+1/3
+ – 1.
+9
+ The margin each year is computed as follows for Linkedin: (Margin this year + Target margin)/2.
+For Tesla Motors, the margin each year is computed as: (Margin this year – Target margin)/3.

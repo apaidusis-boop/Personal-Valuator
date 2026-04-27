@@ -1,0 +1,33 @@
+l.
+Which of these three scenarios gets chosen depends on the firm being valued. Since the firm goes
+from high growth to stable growth in one year in the two-stage model, this model is more appropriate
+
+for firms with moderate growth rates, where the shift will not be too dramatic. For firms with very
+high growth rates in operating income, a transition phase allows for a gradual adjustment not just of
+growth rates but also of risk characteristics, returns on capital and reinvestment rates toward stable
+growth levels. For very young firms or for firms with negative operating margins, allowing for
+changes in each year (in an n-stage model) is prudent.
+ILLUSTRATION 12.4: Choosing a Growth Pattern
+Consider the three firms analyzed in Illustration 12.3. We assumed a growth rate of 10% and a high-growth period of five
+years for P&G, a growth rate of 7.5% and a high growth period of 10years for Coca-Cola, and a growth rate of 5.78% and
+a high-growth period of 10 years for Amgen. For Procter & Gamble, we will use a two-stage model—growth of 10% for
+five years and 3% thereafter. For both Coca-Cola and Amgen, we will allow for a transition phase between years 6 and 10
+in which the inputs will change gradually from high growth to stable growth levels. 
+Figure 12.1
+ reports on how the equity
+reinvestment rate and expected growth change at Coca-Cola from years 6 through 10, as well as the change in the expected
+growth rate and reinvestment rate at Amgen over the same period.
+Figure 12.1
+ Transition Period Estimates: Coca-Cola and Amgen
+EXTRAORDINARY GROWTH PERIODS WITHOUT A
+HIGH GROWTH RATE OR A NEGATIVE GROWTH
+RATE
+Can you have extraordinary growth periods for firms that have expected growth rates that are less than or equal to the
+growth rate of the economy? The answer is yes, for some firms. This is because stable growth requires not just that the
+growth rate be less than the growth rate of the economy, but that the other inputs into the valuation are also appropriate for a
+stable growth firm. Consider, for instance, a firm whose operating income is growing at 2 percent a year but whose current
+return on capital is 20 percent and whose beta is 1.5. You would still need a transition period in which the return on capital
+declined to more sustainable levels (say 12 percent) and the beta moved toward 1.
+  By the same token, you can have an extraordinary growth period, where the growth rate is less than the stable growth rate
+and then moves up to the stable growth rate. For instance, you could have a firm that is expected to see its earnings decline
+5 percent a year for the next five years (which would be the extraordinary growth period) and grow 2 percent thereafter.

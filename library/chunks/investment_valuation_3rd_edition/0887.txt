@@ -1,0 +1,21 @@
+(as the leverage
+decreases).
+The long-term bond rate at the time of the valuation was 6% and the risk premium was 5.5%. Based on these assumptions,
+we estimated the cash flows in the following table:
+
+The value of the assets of the firm is £2,278 million.
+The final input we estimated was the standard deviation in firm value. Since there are no directly comparable firms, we
+estimated the standard deviations in Eurotunnel stock and debt using the data over the previous years:
+We also estimated a correlation of 0.50 between Eurotunnel stock and bond prices, and the average market debt-to-capital
+ratio during the two-year period was 85%. Combining these inputs, we estimated the standard deviation in firm value to be:
+In summary, the inputs to the option pricing model were as follows:
+Based on these inputs, we estimate the following value for the call:
+Eurotunnel’s equity was trading at £150 million in 1997.
+The option pricing framework, in addition to yielding a value for Eurotunnel equity, also yields some valuable insight into the
+drivers of value for this equity. While it is certainly important that the firm try to bring costs under control and increase
+operating margins, the two most critical variables determining equity value are the duration of the debt and the variance in
+firm value. Any action that increases or decreases the debt duration will have a positive or negative effect on equity value.
+For instance, when the French government put pressure on the bankers who had lent money to Eurotunnel to ease
+restrictions and allow the firm more time to repay its debt, equity investors benefited as their options became more long-
+term. Similarly, an action that increases the volatility of expected firm value will increase the value of the option.
+equity.xls:

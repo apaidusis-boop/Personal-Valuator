@@ -2,7 +2,7 @@
 type: synthetic_ic_debate
 ticker: ITSA4
 market: br
-date: 2026-04-26
+date: 2026-04-27
 committee_verdict: BUY
 confidence: high
 consensus_pct: 100.0
@@ -13,12 +13,12 @@ tags: [synthetic_ic, debate, multi_persona]
 
 **Committee verdict**: **BUY** (high confidence, 100% consensus)  
 **Votes**: BUY=5 | HOLD=0 | AVOID=0  
-**Avg conviction majority**: 8.0/10  
+**Avg conviction majority**: 7.8/10  
 **Panel**: 5 personas (failed: 0)
 
 ## 🗣️ Each persona's verdict
 
-### 🟢 Warren Buffett — **BUY** (conv 9/10, size: medium)
+### 🟢 Warren Buffett — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
 - Desconto persistente vs NAV
@@ -27,32 +27,32 @@ tags: [synthetic_ic, debate, multi_persona]
 
 **Key risk**: Itaú ROE cair abaixo de 12% por dois trimestres consecutivos
 
-### 🟢 Stan Druckenmiller — **BUY** (conv 8/10, size: medium)
+### 🟢 Stan Druckenmiller — **BUY** (conv 7/10, size: medium)
 
 **Rationale**:
 - Desconto persistente vs NAV
 - ROE consolidado ~17%
 - Payout estável e alto
 
-**Key risk**: Itaú ROE cair abaixo de 12% em dois trimestres consecutivos
+**Key risk**: Itaú ROE cair abaixo de 12% por dois trimestres seguidos
 
-### 🟢 Nassim Taleb — **BUY** (conv 7/10, size: medium)
+### 🟢 Nassim Taleb — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
 - Desconto persistente vs NAV
-- ROE consolidado alto
-- Payout estável e atraente
+- ROE consolidado ~17%
+- Payout estável e alto
 
-**Key risk**: Itaú ROE <12% em dois trimestres consecutivos
+**Key risk**: Itaú ROE < 12% em 2 quarters consecutivos
 
 ### 🟢 Seth Klarman — **BUY** (conv 8/10, size: medium)
 
 **Rationale**:
-- Desconto significativo vs NAV
-- ROE sólido e payout estável
-- Capital allocator disciplinado
+- Desconto persistente vs NAV
+- ROE consolidado ~17%
+- Payout estável e alto
 
-**Key risk**: Itaú ROE caindo abaixo de 12% por dois trimestres consecutivos
+**Key risk**: Itaú ROE < 12% em 2 quarters consecutivos
 
 ### 🟢 Ray Dalio — **BUY** (conv 8/10, size: medium)
 
@@ -61,7 +61,7 @@ tags: [synthetic_ic, debate, multi_persona]
 - ROE consolidado ~17%
 - Payout estável e alto
 
-**Key risk**: Itaú ROE cair abaixo de 12% em dois trimestres consecutivos
+**Key risk**: Itaú ROE < 12% em dois trimestres consecutivos
 
 ## 📊 Context provided
 
@@ -105,6 +105,12 @@ holding + quality do Itaú como banco #1 BR.
 - Payout < 70% sem expansão clara
 
 **Intent**:
+
+RECENT MATERIAL NEWS (last 14d via Tavily):
+  - Bank creditors for Brazil's Raizen make restructuring proposal, Bloomberg reports - Reuters [Sun, 19 Ap]
+    REUTERS/Amanda Perobelli Purchase Licensing Rights, opens new tab. April 19 (Reuters) - Brazilian fuel and sugar ​giant Raizen's (RAIZ4.SA), opens new tab bank ‌creditors have presented the company wi
+  - Griffin Mining Starts Ore Production from New Zone at Caijiaying Mine - TipRanks [Tue, 21 Ap]
+    Image 4: Radhika Saraogi[Premium Stock Market Today: S&P 500 Sector Leaders and Losers
 ```
 
 ---

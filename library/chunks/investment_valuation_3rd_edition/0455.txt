@@ -1,0 +1,32 @@
+al computed using the cost of capital approach.
+These results are, however, very sensitive to both the estimate of bankruptcy cost as a percent of firm value and the
+probabilities of default.
+apv.xls:
+
+This spreadsheet allows you to compute the value of a firm, with leverage, using the adjusted
+present value approach.
+VALUING THE PIECES RATHER THAN THE WHOLE
+The adjusted present value model values debt separately from the operating assets, and firm value is the sum of the two
+components. In fact, one of the biggest benefits of discounted cash flow valuation is that breaking up cash flows into
+individual components and valuing them separately should not change the value. Thus, you could value a firm like General
+Electric (GE) by valuing each of its divisions separately and adding them up, or Coca-Cola by valuing its operations in each
+country separately and summing those up.
+  The advantage of piecewise valuation is that you can estimate cash flows and discount rates separately for each piece and
+thus get more precise estimates of value. For example, you would use very different assumptions about operating margins,
+reinvestment needs, and costs of capital when valuing the appliance and aircraft engine divisions of GE. Similarly, you could
+apply different country risk premiums for each country that Coca-Cola operates in to value the firm. Since this is always the
+case, you might ask why we do not do this for all firms. The problem is with the information. Many firms do not break down
+their earnings and cash flows in sufficient detail to allow for piecewise valuation. Even firms that do, like GE, often have
+large centralized expenses that get allocated, often arbitrarily, to individual divisions.
+  The benefits of breaking a firm down into pieces clearly increase as a firm becomes more diverse in its operations. These
+benefits have to be weighed against the costs associated with more imprecise information and greater estimation problems.
+Benefits and Limitations of the Adjusted Present Value Approach
+The advantage of the APV approach is that it separates the effects of debt into different components
+and allows the analyst to use different discount rates for each component. In addition, we do not
+assume that the debt ratio stays unchanged forever, which is an implicit assumption in the cost of
+capital approach. Instead, we have the flexibility to keep the dollar value of debt fixed and to
+calculate the benefits and costs of the fixed dollar debt.
+These advantages have to be weighed against the difficulty of estimating probabilities of default
+and the cost of bankruptcy. In fact, many analyses that use the adjusted present value approach ignore
+the expected bankruptcy costs, leading them to the conclusion that firm value increases as firms
+borrow money. Not surprisingly, this will yield the conclusion that the optimal debt ratio for a firm is

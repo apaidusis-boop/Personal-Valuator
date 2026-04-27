@@ -1,0 +1,21 @@
+ate from its target mix, such as market movements, new deposits, or dividend payments. When that happens, it rebalances by selling and buying ETFs to align the portfolio with your original allocation.
+
+For instance, Betterment and Wealthfront monitor your portfolio daily to ensure it maintains your target allocation. They also offer threshold-based and event-driven rebalancing (such as updating your risk profile).1112 These adjustments can help manage risk, reduce taxes, and support your long-term goals.
+
+### Tip
+
+In a market drawdown, robo-advisors still adhere to their models. They can rebalance your portfolio and harvest tax losses, but will not offer personal guidance unless your plan includes it.7
+
+## The Role of Human Oversight
+
+Though robo-advisors are designed to operate automatically, human oversight is sometimes necessary. It occurs in the background to determine what the software can do and check that things are working as intended.
+
+For example, investment committees determine what funds to add to each portfolio. Human engineers and analysts stress-test algorithms before launch and regularly audit them to ensure their reliability. After that, the system is regularly audited by engineers and analysts to detect errors and improve outcomes.13
+
+Human oversight also shows up in client support:
+
+- Betterment provides access to certified financial planners for premium users14
+- [Wealthfront](https://www.investopedia.com/wealthfront-review-4587933) escalates complex cases to human review 15
+- Vanguard Personal Advisor provides a hybrid model with dedicated advisors16
+
+In situations involving life changes, tax complexities, or multiple goals, human advisors can step in to ensure that your portfolio is aligned with your needs.

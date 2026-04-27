@@ -1,0 +1,44 @@
+ent also
+applies here. The companies that have the greatest increases in value are not necessarily those that
+spend the most on R&D, but those that have the most productive R&D departments not only in
+
+generating patents but also in converting patents into commercial products.
+The competitive advantage from exclusive licensing or a legal monopoly is a mixed blessing and
+may not lead to value enhancement. When a firm is granted these rights by another entity, say the
+government, that entity usually preserves the right to control the prices charged and margins earned
+through regulation. In the United States, for instance, much of the regulation of power and phone
+utilities was driven by the objective of ensuring that these firms did not earn excess returns. In these
+circumstances, firms may actually gain in value by giving up their legal monopolies, if they get
+pricing freedom in return. We could argue that this has already occurred, in great part, in the
+telecommunications businesses, and will occur in the future in other regulated businesses. In the
+aftermath of deregulation, the firms that retain competitive advantages will gain value at the expense
+of others in the business.
+Switching Costs
+There are some businesses where neither brand name nor a patent provides adequate protection
+against competition. Products have short life cycles, competition is fierce, and customers develop
+little loyalty to companies or products. This describes the computer software business in the 1980s,
+and it still applies to a significant portion of that business today. How, then, did Microsoft succeed so
+well in establishing its presence in the market? Although many would attribute its success entirely to
+its ownership of the operating system needed to run the software, there is another reason. Microsoft
+recognized earlier than most firms that the most significant barrier to entry in the software business is
+the cost to the end user of switching from its products to those of a competitor. In fact, Microsoft
+Excel, early in its life, had to overcome the obstacle that most users were working with Lotus
+spreadsheets and did not want to bear the switching cost. Microsoft made it easy for end users to
+switch to its products (by allowing Excel to open Lotus spreadsheets, for instance), and it made it
+more and more expensive for them to switch to a competitor by creating the Microsoft Office Suite.
+Thus, a user who has Microsoft Office installed on his or her system and who wants to try to switch
+from Microsoft Word to WordPerfect has to overcome multiple barriers: Will the conversion work
+well on the hundreds of Word files that exist already? Will the user still be able to cut and paste from
+Microsoft Excel and PowerPoint into WordPerfect documents? The end result, of course, is that it
+becomes very difficult for competitors that do not have Microsoft’s resources to compete with it in
+this arena.
+There are a number of other businesses where the switching cost concept can be used to augment an
+argument for value enhancement or debunk it. For instance, there are many who argue that the
+valuations of social media companies such as Twitter and Facebook reflect their first-mover
+advantage—that is, the fact that they are pioneers in the online business. However, the switching costs
+in social media seem to be minimal, and these companies have to come up with a way of increasing
+switching costs if they want to earn high returns in the future.
+Cost Advantages
+There are several ways in which firms can establish a cost advantage over their competitors and use
+it as a barrier to entry:
+In businesses where scale can be used to reduce costs, economies of scale can give bigger

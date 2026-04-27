@@ -1,0 +1,22 @@
+in 1999.
+3
+ Note that this assumption is purely for convenience, since it makes the net present value easier to
+compute. This also allows us to assume the depreciation is offset by capital maintenance
+
+expenditures.
+4
+ In fact, beta estimates that are based on historical returns will lag changes in risk. With a five-
+year return estimation period, for instance, the lag might be as long as three years and the full effect
+will not show up for five years after the change.
+5
+ A 1997 study by Kramer and Pushner found that differences in net operating taxes (NOPAT)
+explained differences in market value better than differences in EVA. O’Byrne (1996), however,
+finds that changes in EVA explain more than 55 percent of changes in market value over five-year
+periods.
+6
+ See Quantitative Viewpoint, Merrill Lynch, December 19, 1997.
+7
+ See Quantitative Viewpoint, Merrill Lynch, February 3, 1998.
+8
+ With an 11.71 percent rate, the economic depreciation works out to $105.37 million, and the
+CFROI to 11.71 percent.

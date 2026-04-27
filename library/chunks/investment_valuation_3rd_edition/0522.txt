@@ -1,0 +1,30 @@
+In addition, this
+regression indicates that an emerging market telecom firm should trade at a much lower PE ratio than one in a developed
+market. Using this regression to get predicted values, we get:
+
+Based on the predicted PE ratios, Telecom Corporation of New Zealand is the most undervalued firm in this group and
+Telecom unicaciones de Chile is the most overvalued firm.
+Comparing PE Ratios across Firms in the Market
+ In the preceding section, comparable firms were
+narrowly defined to be other firms in the same business. This section considers ways in which we can
+expand the number of comparable firms by looking at an entire sector or even the market. There are
+two advantages in doing this. The first is that the estimates may become more precise as the number
+of comparable firms increase. The second is that it allows you to pinpoint when firms in a small
+subgroup are being under- or overvalued relative to the rest of the sector or the market. Since the
+differences across firms will increase when you loosen the definition of comparable firms, you have
+to adjust for these differences. The simplest way of doing this is with a multiple regression, with the
+PE ratio as the dependent variable, and proxies for risk, growth, and payout forming the independent
+variables.
+Past Studies
+One of the earliest regressions of PE ratios against fundamentals across the entire market was done by
+Kisor and Whitbeck in 1963. Using data from the Bank of New York as of June 1962 for 135 stocks,
+they arrived at the following regression:
+Cragg and Malkiel followed up by estimating the coefficients for a regression of the price-earnings
+ratio on the growth rate, the payout ratio, and the beta for stocks for the time period from 1961 to
+1965.
+Year
+Equation
+R-Squared
+1961
+PE = 4.73 + 3.28 g + 2.05 π − 0.85 β
+0.70

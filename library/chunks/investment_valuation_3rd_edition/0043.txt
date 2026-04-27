@@ -1,0 +1,44 @@
+0
+Inventories
+$ 8,349
+$ 4,293
+Other current assets
+$         0
+$    109
+Total current assets
+$16,375
+$ 4,933
+Total assets
+$36,672
+$13,465
+There are five points worth noting about these asset values:
+
+1.
+
+Goodwill.
+ Boeing, which acquired Rockwell in 1996 and McDonnell Douglas in 1997, used purchase accounting for the
+Rockwell acquisition and pooling for McDonnell Douglas. The goodwill on the balance sheet reflects the excess of
+acquisition value over book value for Rockwell and is being amortized over 30 years (which Boeing would not be able to
+do under current rules). With McDonnell Douglas, there is no recording of the premium paid on the acquisition among the
+assets, suggesting that the acquisition was structured to qualify for pooling, which would also not be allowed under current
+rules.
+2.
+
+Customer financing and accounts receivable.
+ Boeing often either provides financing to its customers to acquire its
+planes or acts as the lessor on the planes. Since these contracts tend to run over several years, the present value of the
+payments due in future years on the financing and the lease payments is shown as customer financing. The current portion
+of these payments is shown as accounts receivable. The Home Depot provides credit to its customers as well, but all these
+payments due are shown as accounts receivable, since they are all short-term.
+3.
+
+Inventories.
+ Boeing values inventories using the weighted average cost method, while the Home Depot uses the FIFO
+approach for valuing inventories.
+4.
+
+Marketable securities.
+ Boeing classifies its short-term investments as trading investments and records them at market
+value. The Home Depot has a mix of trading, available-for-sale, and held-to-maturity investments and therefore uses a mix
+of book and market value to value these investments.
+5.

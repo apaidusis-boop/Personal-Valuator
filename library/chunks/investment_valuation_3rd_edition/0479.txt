@@ -1,0 +1,42 @@
+equity today is the
+firm value less the current debt (which is zero).
+MANAGEMENT AND EMPLOYEE OPTIONS
+Firms use options to reward managers as well as other employees. There are two effects that these
+
+options have on value per share. One is created by options that have already been granted. These
+options, some of which have exercise prices well below the stock price, reduce the value of equity
+per share, since a portion of the existing equity in the firm has to be set aside to meet these eventual
+option exercises. The other is the likelihood that these firms will use options on a continuing basis to
+reward employees or to compensate them. These expected option grants reduce the portion of the
+expected future cash flows that accrue to existing stockholders.
+Magnitude of the Option Overhang
+The use of options in management compensation packages is not new to firms. Many firms in the
+1970s and 1980s initiated option-based compensation packages to induce top managers to think like
+stockholders in their decision making. In most cases, though, the drain on value created by these
+options was small enough that it could be ignored without affecting the value per share substantially.
+In the 1990s, however, the surge in both the number and the value of technology firms has highlighted
+the importance of dealing with these options in valuation.
+What is different about technology firms? One is that management contracts at these firms are much
+more heavily weighted toward options than are those at other firms. The second is that the paucity of
+cash at these firms has meant that options are granted not just to top managers but to employees all
+through the organization, making the total option grants much larger. The third is that some of the
+smaller firms have used options to meet operating expenses and pay for supplies.
+Characteristics of Option Grants
+Firms that use employee options usually restrict when and whether these options can be exercised. It
+is standard, for instance, that the options granted to an employee cannot be exercised until they are
+vested. For this to occur, the employee usually has to remain for a period that is specified in the
+contract. While firms do this to keep employee turnover low, it also has implications for the value of
+these options. Firms that issue options generally do not face any tax consequences in the year in which
+they make the issue. When the options are exercised, however, they are allowed to treat the difference
+between the stock price and the exercise price as an employee expense and claim it as a tax
+deduction.
+Options in Existence
+Given the large number of options outstanding at many firms, our first task is to consider ways in
+which we can incorporate their effect into value per share. The section begins by presenting the
+argument for why these outstanding options matter when computing value per share, and then
+considers four ways in which we can incorporate their effect on value.
+Why Options Affect Value per Share
+Why do existing options affect value per share? Note that not all options do. In fact, options issued
+and listed by the options exchanges have no effect on the value per share of the firms on which they
+are issued. The options issued by firms themselves do have an effect on value per share, since there is
+a chance that they will be exercised in the near or far future. Given that these options offer the right to

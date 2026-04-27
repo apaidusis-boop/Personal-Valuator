@@ -1,0 +1,27 @@
+oy using three different assumptions about tax rates—the effective tax rate forever, the marginal tax rate forever, and
+an approach that combines the two rates.
+Approach 1:
+ Effective Tax Rate Forever
+
+We first estimate the value of Convoy assuming that the tax rate remains at 20% forever:
+This value is based on the implicit assumption that deferred taxes will never have to be paid by the firm.
+Approach 2:
+ Marginal Tax Rate Forever
+We next estimate the value of Convoy assuming that the tax rate is the marginal tax rate of 40% forever:
+This firm value is based on the implicit assumption that the firm cannot defer taxes from this point on. In fact, an even more
+conservative reading would suggest that we should reduce this value by the amount of the cumulated deferred taxes from
+the past. Thus, if the firm has $200 million in deferred taxes from prior years, and expects to pay these taxes over the next
+four years in equal annual installments of $50 million, we would first compute the present value of these tax payments:
+Present value of deferred tax payments = $50 million(PV of annuity, 9%, 4 years) = $161.99 million
+The value of the firm would then be $1,794.95 million.
+Approach 3:
+ Blended Tax Rates
+In the final approach, we will assume that the effective tax will remain 20% for five years and we will use the marginal tax
+rate to compute the terminal value:
+Note, however, that the use of the effective tax rate for the first five years will increase the deferred tax liability to the firm.
+Assuming that the firm ended the current year with a cumulated deferred tax liability of $200 million, we can compute the
+deferred tax liability by the end of the fifth year:
+We will assume that the firm will pay this deferred tax liability after year 5, but spread the payments over 10 years, leading
+to a present value of $167.45 million.
+Note that the payments do not start until the sixth year, and hence get discounted back an additional five years. The value of
+the firm can then be estimated:

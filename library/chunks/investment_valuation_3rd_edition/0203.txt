@@ -1,0 +1,39 @@
+pts (ADRs) listed on them. This
+estimate may be biased as a consequence.
+19
+ On April 30, 2011, for instance, I substituted the Treasury bond rate of 3.5 percent 
+into the
+regression equation to get: 
+
+CHAPTER 8
+Estimating Risk Parameters and Costs of Financing
+The preceding chapter laid the groundwork for estimating the costs of equity and capital for firms by
+looking at how best to estimate a riskless rate that operates as a base for all costs, an equity risk
+premium for estimating the cost of equity, and default spreads for estimating the cost of debt. It did
+not, however, consider how to estimate the risk parameters for individual firms. This chapter
+examines the process of estimating risk parameters for individual firms, for estimating both the cost of
+equity and the cost of debt.
+For the cost of equity, we look at the standard process of estimating the beta for a firm and consider
+alternative approaches. For the cost of debt, we examine bond ratings as measures of default risk and
+the determinants of these ratings.
+The chapter closes by bringing together the risk parameter estimates for individual firms and the
+economy-wide estimates of the risk-free rate and risk premiums to estimate a cost of capital for the
+firm. To do this, the sources of capital have to be weighted by their relative market values.
+THE COST OF EQUITY AND CAPITAL
+Firms raise money from both equity investors and lenders to fund investments. Both groups of
+investors make their investments expecting to make a return. Chapter 4 argued that the expected return
+for equity investors would include a premium for the equity risk in the investment. We label this
+expected return the cost of equity. Similarly, the expected return that lenders hope to make on their
+investments includes a premium for default risk, and we call that expected return the cost of debt. If
+we consider all of the financing that the firm takes on, the composite cost of financing will be a
+weighted average of the costs of equity and debt, and this weighted cost is the cost of capital.
+The chapter begins by estimating the equity risk in a firm and using the equity risk to estimate the
+cost of equity, and follows up by measuring the default risk to estimate a cost of debt. It concludes by
+determining the weights we should attach to each of these costs to arrive at a cost of capital.
+COST OF EQUITY
+The cost of equity is the rate of return investors require on an equity investment in a firm. The risk and
+return models described in Chapter 4 need a riskless rate and a risk premium (in the CAPM) or
+premiums (in the APM and multifactor models), which were estimated in the last chapter. They also
+need measures of a firm's exposure to market risk in the form of betas. These inputs are used to arrive
+at an expected return on an equity investment:
+This expected return to equity investors includes compensation for the market risk in the investment

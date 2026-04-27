@@ -1,0 +1,79 @@
+he variables do not always have the signs you
+would expect them to have. For instance, higher-risk stocks (higher betas) have higher PE ratios,
+when fundamentals would lead you to expect the opposite.
+
+The coefficient on the expected growth rate in the regressions offers some useful insight into how
+the market is pricing growth differences across stocks. In the following table, we report this number
+each year from January 2000 to January 2011, in conjunction with the implied equity risk premiums
+that we computed in Chapter 7 (as a price of risk):
+Time
+PE Value of Extra
+Equity Risk
+Period
+1% of Growth
+Premium
+Jan-11
+0.836
+5.20%
+Jan-10
+0.550
+4.36%
+Jan-09
+0.780
+6.43%
+Jan-08
+1.427
+4.37%
+Jan-07
+1.178
+4.16%
+Jan-06
+1.131
+4.07%
+Jan-05
+0.914
+3.65%
+Jan-04
+0.812
+3.69%
+Jan-03
+2.621
+4.10%
+Jan-02
+1.003
+3.62%
+Jan-01
+1.457
+2.75%
+Jan-00
+2.105
+2.05%
+In January 2000, at the peak of the dot-com boom, the market was paying a very high price for
+growth, while charging very little for risk; not surprisingly, high-growth, high-risk firms traded at sky-
+high PE ratios. By January 2002, the wheel had turned, with the price for growth dropping by more
+than 50 percent and the price of risk increasing almost 80 percent. In January 2009, right after the
+banking crisis, the market price for risk was 6.43 percent (the highest level in 30 years), and the price
+paid for growth was low; the median PE ratio for U.S. firms was in single digits as a consequence.
+Problems with the Regression Methodology
+The regression methodology is a convenient way of compressing large amounts of data into one
+equation capturing the relationship between PE ratios and financial fundamentals. But it does have its
+limitations. First, the independent variables are correlated with each other.
+5
+ For example, high-
+growth firms tend to have high risk and low payout ratios, as is clear from 
+Table 18.2
+, which
+summarizes the correlations between beta, growth, and payout ratios for all U.S. firms. Note the
+negative correlation between payout ratios and growth, and the positive correlation between beta and
+growth. This multicollinearity makes the coefficients of the regressions unreliable (increased
+standard error) and may explain the wrong signs on the coefficients (such as beta having a positive
+coefficient) and the large changes in these coefficients from period to period. Second, the regression
+is based on a linear relationship between PE ratios and the fundamentals, and that might not be
+appropriate. An analysis of the residuals from a regression may suggest transformations of the
+independent variables (squared or natural logs) that work better in explaining PE ratios. Third, the
+basic relationship between PE ratios and financial variables itself is not stable, and if it shifts from
+year to year, the predictions from the regression equation may not be reliable for extended periods.
+For all these reasons, the regression approach is useful but it has to be viewed as one more tool in the
+search for true value.
+Table 18.2
+ Correlations between Independent Variables

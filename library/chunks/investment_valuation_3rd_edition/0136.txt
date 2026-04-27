@@ -1,0 +1,52 @@
+ch
+portfolio are estimated, either by taking the average of the betas of the individual stocks in the
+portfolio or by regressing the portfolio’s returns against market returns over a prior time period
+
+(for instance, the year before the testing period). If you want to control for any other variables that
+have been shown to be correlated with returns such as market capitalization or price to book ratio,
+they can be incorporated into the expected return as well.
+5.
+ The excess returns earned by each portfolio are computed, in conjunction with the standard
+error of the excess returns.
+6.
+ There are a number of statistical tests available to check whether the average excess returns
+are, in fact, different across the portfolios. Some of these tests are parametric
+7
+ (they make certain
+distributional assumptions about excess returns), and some are nonparametric.
+8
+7.
+ As a final test, the extreme portfolios can be matched against each other to see whether there
+are statistically significant differences across these portfolios.
+ILLUSTRATION 6.2: Example of a Portfolio Study—Price-
+Earnings Ratios
+Practitioners have claimed that low price-earnings ratio stocks are generally bargains and do much better than the market or
+stocks with high price-earnings ratios. This hypothesis can be tested using a portfolio approach:
+Step 1:
+ Using data on price-earnings ratios from the end of 1987, firms on the New York Stock Exchange were classified
+into five groups, the first group consisting of stocks with the lowest PE ratios and the fifth group consisting of stocks with the
+highest PE ratios. Firms with negative price-earnings ratios were ignored (which may bias the results).
+Step 2:
+ The returns on each portfolio were computed using data from 1988 to 1992. Stocks that went bankrupt or were
+delisted were assigned a return of –100%.
+Step 3:
+ The betas for each stock in each portfolio were computed using monthly returns from 1983 to 1987, and the average
+beta for each portfolio was estimated. The portfolios were assumed to be equally weighted.
+Step 4:
+ The returns on the market index were computed from 1988 to 1992.
+Step 5:
+ The excess returns on each portfolio were computed from 1988 to 1992. The following table summarizes the excess
+returns each year from 1988 to 1992 for each portfolio.
+Step 6:
+ While the ranking of the returns across the portfolio classes seems to confirm our hypothesis that low-PE stocks
+earn a higher return, we have to consider whether the differences across portfolios are statistically significant. There are
+several tests available, but these are a few:
+An F test can be used to accept or reject the hypothesis that the average returns are the same across all
+portfolios. A high F score would lead us to conclude that the differences are too large to be random.
+A chi-squared test is a nonparametric test that can be used to test the hypothesis that the means are the same
+across the five portfolio classes.
+We could isolate just the lowest-PE and highest-PE stocks and estimate a t statistic that the averages are
+different across these two portfolios.
+CARDINAL SINS IN TESTING MARKET
+EFFICIENCY
+In the process of testing investment strategies, there are a number of pitfalls that have to be avoided.

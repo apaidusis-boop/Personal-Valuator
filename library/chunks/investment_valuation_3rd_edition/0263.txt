@@ -1,0 +1,65 @@
+vides this information (in millions of dollars)
+for each of the years:
+Year
+R&D Expenses
+Current (2008)
+$3,030
+–1
+$3,266
+–2
+$3,366
+–3
+$2,314
+–4
+$2,028
+–5
+$1,655
+–6
+$1,117
+–7
+$ 
+864
+–8
+$ 
+845
+–9
+$ 
+823
+
+–10
+$ 
+663
+The current year's information reflects the R&D in the most recent financial year (which was calendar year 2008).
+The portion of the expenses in prior years that would have been amortized already and the amortization this year from each
+of these expenses is considered. To make estimation simpler, these expenses are amortized linearly over time; with a 10-
+year life, 10% is amortized each year. This allows you to estimate the value of the research asset created at each of these
+firms, and the amortization of R&D expenses in the current year. The procedure is illustrated in the following table:
+Note that none of the current year's expenditure has been amortized because it is assumed to occur at the end of the year
+(which is assumed to be right now) but that 50 percent of the expense from five years ago has been amortized. The sum of
+the dollar values of unamortized R&D from prior years is $13.284 billion. This can be viewed as the value of Amgen's
+research asset and would be also added to the book value of equity for computing return on equity and capital measures.
+The sum of the amortization in the current year for all prior year expenses is $1,694 million.
+The final step in the process is the adjustment of the operating income to reflect the capitalization of research and
+development expenses. We make the adjustment by adding back current year's R&D expenses to the operating income (to
+reflect its reclassification as a capital expense) and subtracting out the amortization of the research asset, estimated in the
+last step. For Amgen, which reported operating income of $5,594 million in its income statement for 2008, the adjusted
+operating earnings would be:
+The stated net income of $4,196 million can be adjusted similarly.
+In the last section, we explained why there is no tax effect to consider.
+Both the book value of equity and capital are augmented by the value of the research asset. Since measures of return on
+capital and equity are based on the prior year's values, we computed the value of the research asset at the end of 2007,
+using the same approach that we used in 2008.
+The returns on equity and capital are reported with both the unadjusted and adjusted numbers:
+Unadjusted
+Adjusted for R&D
+Return on equity
+4,196/17,869 = 23.48%
+5,532/29,817 = 18.55%
+Pretax return on capital
+5,594/21,985 = 25.44%
+6,930/33,843 = 20.48%
+While the profitability ratios for Amgen remain impressive even after the adjustment, they decline 
+from the unadjusted
+numbers. This is likely to happen for most firms that earn high returns on equity and capital and have substantial R&D
+expenses.
+2

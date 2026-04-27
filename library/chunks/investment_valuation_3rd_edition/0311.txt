@@ -1,0 +1,19 @@
+m a firm with $28 million in revenues and net income of about $4 million in 1989 to revenues in excess
+of $12 billion and net income of more than $2 billion in 1999 is reported in the following table:
+
+While this table presents the results of a phenomenally successful decade for Cisco, it does suggest that you should be
+cautious about assuming that the firm will continue to grow at a similar rate in the future for two reasons. First, the growth
+rates tapered off as the firm became larger toward the end of the 1990s. Second, if you assume that Cisco will maintain its
+historic growth of 1990 to 1999 (estimated using the geometric average) for the following five years, the revenue and
+earnings will be immense. That is to say, if operating income continued to grow at 86.57% from 2000 to 2005, Cisco's
+operating income would have been $78 billion in 2005. Third, Cisco's growth came primarily from aquiring of small firms with
+promising technologies and using its capabilities to commercially develop these technologies. In 1999, for instance, Cisco
+acquired 15 firms and these acquisitions accounted for almost 80% of its reinvestment that year. If you assume that Cisco
+will continue to grow at historical rates, you are assuming that the number of acquisitions also will grow at the same rate.
+Thus Cisco would have to acquire almost 80 firms five years later to maintain the growth rate it had between 1990 and 1999.
+The difficulties of scaling up growth are clear when we look at Cisco between 2000 and 2010. While Cisco's game plan did
+not change—it continued to acquire companies and push for higher growth—the aggregate revenues and earnings were not
+responsive to the company's efforts. The compounded annual growth rate in revenues at Cisco declined to 7.78% between
+2000 and 2010, and the compounded annual growth rate in operating income at Cisco between 2000 and 2010 was only
+7.12%, both steep drop-offs from the growth rate in the prior decade.
+histgr.xls:

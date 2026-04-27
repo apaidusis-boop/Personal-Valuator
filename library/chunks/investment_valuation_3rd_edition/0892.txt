@@ -1,0 +1,63 @@
+ing function of the duration of the debt in the firm
+(i.e., equity will be more valuable in a firm with longer-term debt than in an otherwise similar
+firm with short-term debt). 
+True ____ 
+False ____
+
+2.
+ XYZ Corporation has $500 million in zero coupon debt outstanding, due in five years. The firm
+had earnings before interest and taxes of $40 million in the most recent year (the tax rate is 40%).
+These earnings are expected to grow 5% a year in perpetuity, and the firm paid no dividends. The
+firm had a return on capital of 12% and a cost of capital of 10%. The annualized standard
+deviation in firm values of comparable firms is 12.5%. The five-year bond rate is 5%.
+a.
+ Estimate the value of the firm.
+b.
+ Estimate the value of equity, using an option pricing model.
+c.
+ Estimate the market value of debt and the appropriate interest rate on the debt.
+3.
+ McCaw Cellular Communications reported earnings before interest and taxes of $850 million
+in 1993, with a depreciation allowance of $400 million and capital expenditures of $550 million
+in that year; the working capital requirements were negligible. The earnings before interest and
+taxes and net cap ex are expected to grow 20% a year for the next five years. The cost of capital is
+10% and the return on capital is expected to be 15% in perpetuity after year 5; the growth rate in
+perpetuity is 5%. The firm has $10 billion in debt outstanding with the following characteristics:
+Duration
+Debt
+1 year
+$2 billion
+2 years
+$4 billion
+5 years
+$4 billion
+The annualized standard deviation in the firm’s stock price is 35%, while the annualized standard
+deviation in the traded bonds is 15%. The correlation between stock and bond prices has been
+0.5, and the average debt ratio over the past few years has been 60%. The three-year bond rate is
+5%, and the tax rate is 40%.
+a.
+ Estimate the value of the firm.
+b.
+ Estimate the value of the equity.
+c.
+ The stock was trading at $30, and there were 210 million shares outstanding in January 1994.
+Estimate the implied standard deviation in firm value.
+d.
+ Estimate the market value of the debt.
+4.
+ You have been asked to analyze the value of equity in a company that has the following
+features:
+The earnings before interest and taxes is $25 million, and the corporate tax rate is 40%.
+The earnings are expected to grow 4% a year in perpetuity, and the return on capital is
+10%. The cost of capital of comparable firms is 9%.
+The firm has two types of debt outstanding—two-year zero coupon bonds with a face
+value of $250 million and bank debt with 10 years to maturity with a face value of $250
+million. (The duration of this debt is four years.)
+The firm is in two businesses—food processing and auto repair. The average standard
+deviation in firm value for firms in food processing is 25%, whereas the standard
+deviation for firms in auto repair is 40%. The correlation between the businesses is 0.5.
+The riskless rate is 7%.
+Use the option pricing model to value equity as an option.
+5.
+ You are valuing the equity in a firm with $800 million (face value) in debt with an average
+duration of six years and assets with an estimated value of $400 million. The standard deviation

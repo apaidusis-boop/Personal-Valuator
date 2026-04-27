@@ -1,0 +1,10 @@
+ce-to-book ratio is much
+lower at 1.79.
+Figure 19.1
+ Price to Book Value—U.S. Companies in January 2011
+Another point worth making about price-to-book ratios is that there are firms with negative book
+
+values of equity—the result of continuously losing money—for which price-to-book ratios cannot be
+computed. In this sample of 5,928 firms, there were 843 firms where this occurred. In contrast,
+though, 2,512 firms had negative earnings and PE ratios could not be computed for them.
+pbvdata.xls:

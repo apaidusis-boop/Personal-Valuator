@@ -3,7 +3,7 @@ type: glossary
 slug: FCF
 title: FCF — Free Cash Flow (Fluxo de Caixa Livre)
 category: fundamentals
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, fundamentals]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, fundamentals]
 ❌ FCF YoY volátil em cyclicals (working capital swings).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

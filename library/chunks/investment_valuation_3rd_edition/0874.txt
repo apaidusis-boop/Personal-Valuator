@@ -1,0 +1,43 @@
+nt may be made in stages rather than as an initial lump
+sum. While there is a cost to building in this flexibility, the gains may be much larger, especially in
+volatile businesses.
+Customer Incentives
+
+On the other side of the transaction, offering abandonment options to customers and partners in joint
+ventures can have a negative impact on value. As an example, assume that a firm that sells its
+products on multiyear contracts offers customers the option to cancel the contract at any time. While
+this may increase sales, there is likely to be a substantial cost. In the event of a recession, customers
+that are unable to meet their obligations are likely to cancel their contracts. Any benefits gained by the
+initial sale (obtained by offering the inducement of cancellation by the buyer) may be offset by the
+cost of the option provided to customers.
+RECONCILING NET PRESENT VALUE AND REAL
+OPTION VALUATIONS
+Why does an investment sometimes have higher value when you value it using real option approaches
+than with traditional discounted cash flow models? The answer lies in the flexibility that firms have
+to change the way they invest in and run a project, based on what they observe in the market. Thus, an
+oil company will not produce the same amount of oil or drill as many new wells if oil prices go to
+$15 a barrel as it would if oil prices go up to $95 a barrel.
+In traditional net present value, we consider the expected actions and the cash flow consequences
+of those actions to estimate the value of an investment. If there is a potential for further investments,
+expansion, or abandonment down the road, all you can do is consider the probabilities of such actions
+and build them into your cash flows. Analysts often allow for flexibility by using decision trees and
+mapping out the optimal path, given each outcome. You can then estimate the value of a project today,
+using the probabilities of each branch and estimating the present value of the cash flows from each
+branch.
+This decision tree does bear a significant resemblance to the binomial tree approach that we use to
+value real options, but there are two differences. The first is that the probabilities of the outcomes are
+not used directly to value the real option, and the second is that you have only two branches at each
+node in the binomial tree. Notwithstanding this, you might wonder why the two approaches will yield
+different values for the project. The answer is surprisingly simple. It lies in the discount rate
+assumptions we make to compute the value. In the real options approach, you use a replicating
+portfolio to compute value. In the decision tree, you used the cost of capital for the project as the
+discount rate all through the process. If the exposure to market risk, which is what determines the cost
+of capital, changes at each node, you can argue that using the same cost of capital all the way through
+is incorrect and that you should be modifying the discount rate as you move through time. If you do,
+you will obtain the same value with both approaches. The real options approach does allow for far
+more complexity and is simpler to employ with continuous distributions (as opposed to the discrete
+outcomes that we assume in decision trees). We will return to examine decision trees and other
+probabilistic approaches in Chapter 33.
+CONCLUSION
+This chapter considered two options that are embedded in many investments—the option to expand an
+investment and the option to abandon it. When a firm has an option to expand an investment, the value

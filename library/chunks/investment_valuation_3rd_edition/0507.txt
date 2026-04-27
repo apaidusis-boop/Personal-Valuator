@@ -1,0 +1,29 @@
+ches described assume that the relationship between a multiple and the variables
+driving value are linear. Since this is not always true, you might have to run nonlinear versions of
+these regressions.
+
+CHAPTER 
+18
+Earnings Multiples
+Earnings multiples remain the most commonly used measures of relative value. This chapter begins
+with a detailed examination of the price-earnings ratio and then moves on to consider variants of the
+multiple—the PEG ratio and relative PE. It also looks at value multiples, and, in particular, the
+Enterprise Value to EBITDA multiple in the last part of the chapter. The four-step process described
+in Chapter 17 is used to look at each of these multiples.
+PRICE-EARNINGS RATIO
+The price-earnings (PE) multiple is the most widely used and misused of all multiples. Its simplicity
+makes it an attractive choice in applications ranging from pricing initial public offerings to making
+judgments on relative value, but its relationship to a firm's financial fundamentals is often ignored,
+leading to significant errors in applications. This chapter provides some insight into the determinants
+of price-earnings ratios and how best to use them in valuation.
+Definitions of PE Ratio
+The price-earnings ratio is the ratio of the market price per share to the earnings per share:
+The PE ratio is consistently defined, with the numerator being the value of equity per share and the
+denominator measuring earnings per share, which is a measure of equity earnings. The biggest
+problem with PE ratios is the variations on earnings per share used in computing the multiple. In
+Chapter 17, we saw that PE ratios could be computed using current earnings per share, trailing
+earnings per share, forward earnings per share, fully diluted earnings per share, and primary earnings
+per share.
+Especially with high-growth (and high-risk) firms, the PE ratio can be very different depending on
+which measure of earnings per share is used. This can be explained by two factors:
+1.

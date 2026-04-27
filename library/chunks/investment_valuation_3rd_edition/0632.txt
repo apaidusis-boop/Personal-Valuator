@@ -1,0 +1,25 @@
+ncrease the equity capital of the firm and allow it to expand its activities. For instance, a bank
+that has a 5 percent equity capital ratio can make $100 in loans for every $5 in equity capital. When
+
+this bank reports net income of $15 million and pays out only $5 million, it is increasing its equity
+capital by $10 million. This, in turn, will allow it to make $200 million in additional loans and
+presumably increase its growth rate in future periods.
+Using this argument, the portion of net income that does not get paid out can be viewed as
+reinvestment. It works, however, only if the firm takes advantage of its larger capital base and grows.
+If it does not, the equity retained is more akin to cash accumulating in the firm rather than
+reinvestment. A firm that reports an equity capital ratio that rises over time, well above the regulatory
+constraint, is not using its equity capital to grow.
+ILLUSTRATION 
+21.3: Valuing Deutsche Bank in Early
+2009 with an FCFE Model
+For much of the last century, Deutsche Bank has been a profitable commercial bank. During 2008, the landscape for
+financial service firms changed, as banks entered crisis mode and financial markets collapsed. After taking billions of dollars
+of write-offs, Deutsche Bank reported a loss of 3,835 million euros for 2008 and cut dividends to 285 million euros. While
+neither of these numbers represents a stable starting point, we made the following four assumptions to value Deutsche Bank:
+1.
+
+Net income bounce-back.
+ We will assume that net income will bounce back to 3.147 billion euros in 2009, and base
+this assumption on the improved earnings for the first quarter of 2009 reported by Deutsche Bank (1.12 billion euros in
+quarterly profits) and the average net income between 2003 and 2007 (approximately 3.95 billion euros).
+2.

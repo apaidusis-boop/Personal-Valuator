@@ -1,0 +1,41 @@
+ratio.
+How would such a PE ratio be used? The PE ratio for all of the comparable firms would also have
+to be estimated using expected earnings per share in five years, and the resulting values can be
+
+compared across firms. Assuming that all of the firms in the sample share the same risk, growth, and
+payout characteristics after year 5, firms with low price-to-future-earnings ratios will be considered
+undervalued. An alternative approach is to estimate a target price for the negative-earnings firm in
+five years, dividing that price by earnings in that year and comparing this PE ratio to the PE ratio of
+comparable firms today.
+RELATIVE PE RATIOS AND MARKET GROWTH
+As the expected growth rate on the market increases, the divergence in PE ratios increases, resulting in a bigger range for
+relative PE ratios. This can be illustrated very simply, if you consider the relative PE for a company that grows at half the
+rate of the market. When the market growth rate is 4 percent, this firm will trade at a PE that is roughly 80 percent of the
+market PE. When the market growth rate increases to 10 percent, the firm will trade at a PE that is 60 percent of the
+market PE.
+  This has consequences for analysts who use relative PE ratios. Stocks of firms whose earnings grow at a rate much lower
+than the market growth rate will often look cheap on a relative PE basis when the market growth rate is high and expensive
+when the market growth rate is low.
+While this modified version of the PE ratio increases the reach of PE ratios to cover many firms
+that have negative earnings today, it is difficult to control for differences between the firm being
+valued and the comparable firms, since you are comparing firms at different points in time.
+Price to Earnings before R&D Expenses
+In the discussion of cash flows and capital expenditures in Chapter 4, it was argued that research and
+development expenses should be capitalized, since they represent investments for the future. Since
+accounting standards require that R&D be expensed, rather than capitalized, the earnings of high-
+growth firms with substantial research expenses are likely to be understated, and the PE ratio is,
+therefore, likely to be overstated. This will especially be true if you are comparing technology firms,
+which have substantial research expenditures, to nontechnology firms, which usually do not. Even
+when comparing only across technology stocks, firms that are growing faster with larger R&D
+expenses will end up with lower earnings and higher PE ratios than more stable firms in the sector
+with lower R&D expenses. There are some analysts who argue that the PE ratio should be estimated
+using earnings prior to R&D expenses:
+The PE ratios that emerge from this calculation are likely to be much lower than the PE ratios using
+conventional definitions of earnings per share.
+While the underlying logic behind this approach is sound, adding back R&D to earnings represents
+only a partial adjustment. To complete the adjustment, you would need to capitalize R&D expenses
+and compute the amortization of R&D expenses, as was done in Chapter 9. The adjusted PE would
+then be:
+These adjusted PE ratios can then be computed across firms in the sample.
+This adjustment to the PE ratio, while taking care of one problem—the expensing of R&D—will
+still leave you exposed to all of the other problems associated with PE ratios. Earnings will continue

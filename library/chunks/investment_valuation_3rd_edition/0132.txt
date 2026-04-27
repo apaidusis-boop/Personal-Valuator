@@ -1,0 +1,30 @@
+depend in great part on the investment scheme being tested. A scheme based on trading on information
+events (stock splits, earnings announcements, or acquisition announcements) is likely to be tested
+
+using an “event study” in which returns around the event are scrutinized for evidence of excess
+returns. A scheme based on trading on an observable characteristic of a firm (price-earnings ratios,
+price–book value ratios, or dividend yields) is likely to be tested using a portfolio approach, where
+portfolios of stocks with these characteristics are created and tracked over time to see whether in fact
+they make excess returns. The following pages summarize the key steps involved in each of these
+approaches, and some potential pitfalls to watch out for when conducting or using these tests.
+Event Study
+An event study is designed to examine market reactions to and excess returns around specific
+information events. The information events can be marketwide, such as macroeconomic
+announcements, or firm-specifc, such as earnings or dividend announcements. The five steps in an
+event study are:
+1.
+ The event to be studied is clearly identified, and the date on which the event was announced is
+pinpointed. The presumption in event studies is that the timing of the event is known with a fair
+degree of certainty. Since financial markets react to the information about an event rather than the
+event itself, most event studies are centered around the announcement date for the event.
+3
+2.
+ Once the event dates are known, returns are collected around these dates for each of the firms in
+the sample. In doing so, two decisions have to be made. First, the researcher has to decide
+whether to collect weekly, daily, or shorter-interval returns around the event. This will be
+determined in part by how precisely the event date is known (the more precise, the more likely it
+is that shorter return intervals can be used) and by how quickly information is reflected in prices
+(the faster the adjustment, the shorter the return interval to use). Second, the analyst has to
+determine how many periods of returns before and after the announcement date will be considered
+as part of the event window. That decision also will be determined by the precision of the event
+date, since more imprecise dates will require longer windows.

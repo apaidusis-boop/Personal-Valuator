@@ -1,0 +1,40 @@
+ameters be estimated from historical prices on the asset being analyzed and make assumptions
+about the profiles of investors in the firm that may not fit private businesses. One solution is to look at
+
+the riskiness of comparable firms that are publicly traded. The other is to relate the measure of risk to
+accounting variables, which are available for the private firm. Chapter 24 looks at adaptations to
+valuation models that are needed to value private businesses.
+The point is not that discounted cash flow valuation cannot be done in these cases, but that we have to
+be flexible enough to adapt our models. The fact is that valuation is simple for firms with well-
+defined assets that generate cash flows that can be easily forecasted. The real challenge in valuation
+is to extend the valuation framework to cover firms that vary to some extent or the other from this
+idealized framework. Much of this book is spent considering how to value such firms.
+RELATIVE VALUATION
+While we tend to focus most on discounted cash flow valuation when discussing valuation, the reality
+is that most valuations are relative valuations. The values of most assets, from the house you buy to
+the stocks you invest in, are based on how similar assets are priced in the marketplace. This section
+begins with a basis for relative valuation, moves on to consider the underpinnings of the model, and
+then considers common variants within relative valuation.
+Basis for Relative Valuation
+In relative valuation, the value of an asset is derived from the pricing of comparable assets,
+standardized using a common variable such as earnings, cash flows, book value, or revenues. One
+illustration of this approach is the use of an industry-average price-earnings ratio to value a firm, the
+assumption being that the other firms in the industry are comparable to the firm being valued and that
+the market, on average, prices these firms correctly. Another multiple in wide use is the price–book
+value ratio, with firms selling at a discount on book value relative to comparable firms being
+considered undervalued. Revenue multiple are also used to value firms, with the average price-sales
+ratios of firms with similar characteristics being used for comparison. While these three multiples are
+among the most widely used, there are others that also play a role in analysis—EV to EBITDA, EV to
+invested capital, and market value to replacement value (Tobin's Q), to name a few.
+Underpinnings of Relative Valuation
+Unlike discounted cash flow valuation, which is a search for intrinsic value, relative valuation relies
+much more on the market being right. In other words, we assume that the market is correct in the way
+it prices stocks on average, but that it makes errors on the pricing of individual stocks. We also
+assume that a comparison of multiples will allow us to identify these errors, and that these errors will
+be corrected over time.
+The assumption that markets correct their mistakes over time is common to both discounted cash
+flow and relative valuation, but those who use multiples and comparables to pick stocks argue, with
+some basis, that errors made in pricing individual stocks in a sector are more noticeable and more
+likely to be corrected quickly. For instance, they would argue that a software firm that trades at a
+price-earnings ratio of 10 when the rest of the sector trades at 25 times earnings is clearly
+undervalued and that the correction toward the sector average should occur sooner rather than later.

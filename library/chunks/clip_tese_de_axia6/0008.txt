@@ -1,0 +1,26 @@
+ução de energia:
+
+- **Hidrelétrica:** 30 anos.
+- **Térmicas:** 15 a 30 anos.
+- **Energia eólica e solar:** 35 anos.
+
+A comercialização do segmento da energia pode ser feita a partir de dois ambientes:
+
+- **Ambiente de Contratação Regulada (ACR):** contratos de comercialização de energia entre as geradoras e as distribuidoras, feitos por meio de leilões realizados pela Aneel. Os preços são determinados no momento da assinatura do contrato.
+- **Ambiente de Contratação Livre (ACL):** contratos de comercialização de energia entre as geradoras e os comercializadores, feitos por meio de leilões realizados pela Câmara de Comercialização de Energia Elétrica (CCEE). É permitida a livre concorrência de preços.
+
+No mercado regulado, a competição entre geradoras acontece quando uma habilita e concorre com novos empreendimentos nos leilões para atender as distribuidoras e obter contrato de venda da energia. Já no ACL, a competição é exercida entre os geradores e as comercializadoras.
+
+Abaixo, a matriz de geração centralizada do Brasil e dados históricos do segmento, que demonstram que a capacidade instalada do país (sem considerar autoprodução e geração distribuída – GD) cresceu em torno de 3,4% ao ano nos últimos dez anos:
+
+**Matriz de geração brasileira (MW)** — *Fonte: Aneel.*
+
+**Evolução da capacidade instalada centralizada de geração no Brasil (MW)** — *Fonte: ONS.*
+
+Conforme traça o Plano de Expansão de Energia (PDE 2031), elaborado sob as diretrizes do Ministério de Minas e Energia (MME), a expectativa é de que a capacidade instalada centralizada cresça a uma taxa de 2,0% ao ano entre 2023 e 2031:
+
+**Projeção de capacidade instalada centralizada no Brasil (MW)** — *Fonte: PDE 2031.*
+
+### Transmissão
+
+O segmento de Transmissão é o responsável por transportar a energia gerada pelas usinas para todas as regiões do Brasil. As redes de linhas de transmissão e as subestações que se espalham por todo o Brasil fazem parte do Sistema Interligado Nacional (SIN).

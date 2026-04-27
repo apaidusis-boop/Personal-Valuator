@@ -1,0 +1,37 @@
+yields the following:
+Based on this regression, the beta for the defense division is 0.65.
+accbeta.xls:
+
+This spreadsheet allows you to estimate the accounting beta on a division or firm.
+spearn.xls:
+
+This dataset on the Web has earnings changes, by year, for the S&P 500 going back to 1960.
+Market, Bottom-Up, and Accounting Betas: Which One Do We Use?
+For most publicly traded firms, betas can be estimated using accounting data or market data or from
+the bottom-up approach. Since the betas will almost never be the same using these different
+approaches, the question is, which one do we use? We would almost never use accounting betas, for
+all the reasons specified earlier. We are almost as reluctant to use historical market betas for
+individual firms because of the standard errors in beta estimates, the failures of the local indexes (as
+is the case with most emerging market companies), and the inability of these regressions to reflect the
+effects of major changes in the business mix and financial risk at the firm. Bottom-up betas, in our
+view, provide us with the best beta estimates for three reasons:
+1.
+ They allow us to consider changes in business and financial mix, even before they occur.
+2.
+ They use average betas across large numbers of firms, which tend to be less noisy than
+individual firm betas.
+3.
+ They allow us to calculate betas by area of business for a firm, which is useful both in the
+context of investment analysis and in valuation.
+Measuring Country Risk Exposure (Lambda)
+Chapter 7 introduced the concept of country risk exposure and the notion of lambda—a measure of a
+company's exposure to country risk. In this section, we want to consider intuitively what factors
+determine this exposure and how best to estimate lambda. A company's exposure to country risk is
+affected by almost every aspect of its operations, beginning with where its factories are located and
+who its customers are and continuing with what currency its contracts are denominated in and how
+well it manages its exposure to exchange rate risk. Much of this information, however, is internal
+information and not available to someone valuing the firm from the outside. As a practical matter,
+then, we can estimate lambda using one of the following approaches:
+Revenue breakdown
+. 
+The simplest way of estimating lambda is to use the proportion of a

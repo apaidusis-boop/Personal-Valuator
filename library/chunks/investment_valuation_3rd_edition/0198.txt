@@ -1,0 +1,6 @@
+In contrast, the subprime boom in 2004 to 2007 lowered default spreads, while equity risk
+premiums stayed unchanged.
+Figure 7.3
+ Baa Bond Default Spread and Implied Equity Risk Premiums: 1960 to 2010
+
+ratings.xls:

@@ -1,0 +1,22 @@
+value-to-book ratios can be compared across firms just as the price-to-book value of equity ratio
+was in the preceding section. The key variable to control for in making this comparison is the return
+
+on capital. The value matrix developed for price-to-book ratios can be adapted for the value-to-book
+ratio in 
+Figure 19.10
+. Firms with high return on capital will tend to have high value-to-book value
+ratios, whereas firms with low return on capital will generally have lower value-to-book ratios.
+Figure 19.10
+ Valuation Matrix: Value to Book and Excess Returns
+This matrix also yields an interesting link to a widely used value enhancement measure—economic
+value added (EVA). One of the biggest sales pitches for EVA, which is computed as the product of
+the return spread (ROC minus cost of capital) and capital invested, is its high correlation with market
+value added (MVA) which is defined as the difference between market value and book value of
+capital. This is not surprising, since MVA is a variant on the value-to-book ratio and EVA is a
+variant on the return spread.
+Is the link between value-to-book and return on capital stronger or weaker than the link between
+price-to-book and return on equity? To examine this question, we regressed the EV/invested capital
+(IC) against return on capital using data on all U.S. firms from January 2011:
+where D/C = Total debt/(Total debt + Market value of equity) 
+ROC = Return on capital
+The regression yields results similar to those obtained for price-to-book ratios.

@@ -1,0 +1,39 @@
+creases to earnings reflecting income or losses from these holdings. The effect on earnings will
+vary depending on how the holding is categorized. Chapter 3 differentiated among three
+classifications:
+
+1.
+ A minority passive holding, where only the dividends received from the holding are recorded
+in income.
+2.
+ A minority active interest, where the portion of the net income (or loss) from the subsidiary is
+shown in the income statement as an adjustment to net income (but not to operating income).
+3.
+ A majority active interest, where the income statements are consolidated and the entire
+operating income of the subsidiary (or holding) are shown as part of the operating income of the
+firm. In such cases, the net income is usually adjusted for the portion of the subsidiary owned by
+others (minority interests).
+The safest route to take with the first two types of holdings is to ignore the income shown from the
+holding when valuing a firm, to value the holding separately and to add it to the value obtained for the
+other assets. As a simple example, consider a firm (Holding Inc.) that generates $100 million in after-
+tax cash flows from its operating assets, and assume that these cash flows will grow at 5 percent a
+year forever. In addition, assume that the firm owns 10 percent of another firm (Subsidiary Inc.) with
+after-tax cash flows of $50 million growing at 4 percent a year forever. Finally, assume that the cost
+of capital for both firms is 10 percent. The firm value for Holding Inc. can be estimated as follows:
+Value of operating assets of Holding Inc. = 100(1.05)/(.10 – .05)
+$2,100 million
+Value of operating assets of Subsidiary Inc. = 50(1.04)/(.10 – .04)
+$ 
+867 million
+Value of Holding Inc. = $2,100 + .10(867)
+$2,187 million
+When earnings are consolidated, you can value the combined firm with the consolidated income
+statement and then subtract out the value of the minority holdings. To do this, though, you have to
+assume that the two firms are in the same business and are of equivalent risk since the same cost of
+capital will be applied to both firm's cash flows. Alternatively, you can strip the entire operating
+income of the subsidiary from the consolidated operating income and follow the process just laid out
+to value the holding. We will return to examine this issue is more detail in chapter 16.
+ILLUSTRATION 9.6: Adjusting Earnings for One-Time
+Charges
+Between 1997 and 1999, Xerox's reported earnings included a significant number of one-time, extraordinary, and unusual
+items. The summary of the earnings is provided in the following table:

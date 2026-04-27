@@ -3,7 +3,7 @@ type: glossary
 slug: BVPS
 title: BVPS — Book Value per Share
 category: fundamentals
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, fundamentals]
 ---
 
@@ -109,4 +109,4 @@ Equity contábil por acção. Componente do P/B e Graham.
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

@@ -1,0 +1,37 @@
+st of debt, based on its S&P rating of B+, was 8.50%, and its after-tax cost of debt was
+5.10%. Not surprisingly, its preferred stock was less expensive than equity, but much more expensive than debt.
+
+Calculating the Cost of Other Hybrid Securities
+A convertible bond is a bond that can be converted into equity at the option of the bondholder. A
+convertible bond can be viewed as a combination of a straight bond (debt) and a conversion option
+(equity). Instead of trying to calculate the cost of these hybrid securities individually, we can break
+down hybrid securities into their debt and equity components and treat the components separately.
+ILLUSTRATION 8.14: Breaking Down a Convertible Bond
+into Debt and Equity Components: MGM Resorts
+In 2010, MGM Resorts, the casino company, issued 5-year convertible bonds with a coupon rate of 4.25% and a 10-year
+maturity. Since the firm was losing money, it was rated CCC+ by S&P and would have had to pay 10% if it had issued
+straight bonds at the same time. A year later, the bonds were trading at a price that was 112% of par, and the total par value
+of the convertible bond issue was $1.15 billion. The convertible bond can be broken down into straight bond and conversion
+option components.
+The straight bond component of $818 is treated as debt, and has the same cost as the rest of debt. The conversion option of
+$302 is treated as equity, with the same cost of equity as other equity issued by the firm. For the entire bond issue of $1,150
+million, with an overall market value of $1,288 million, the value of debt is $916 million, and the value of equity is $372 million.
+Calculating the Weights of Debt and Equity Components
+Now that we have the costs of debt, equity, and hybrid securities, we have to estimate the weights that
+should be attached to each. Before we discuss how best to estimate weights, we define what we
+include in debt. We then make the argument that weights used should be based on market value and
+not book value. This is so because the cost of capital measures the cost of issuing securities—stocks
+as well as bonds—to finance projects, and these securities are issued at market value, not at book
+value.
+What Is Debt?
+The answer to this question may seem obvious since the balance sheet for a firm shows the
+outstanding liabilities of the firm. There are, however, limitations with using these liabilities as debt
+in the cost of capital computation. The first is that some of the liabilities on a firm's balance sheet,
+such as accounts payable and supplier credit, are not interest-bearing. Consequently, applying an
+after-tax cost of debt to these items can provide a misleading view of the true cost of capital for a
+firm. The second is that there are items off the balance sheet that create fixed commitments for the
+firm and provide the same tax deductions that interest payments on debt do. The most prominent of
+these off-balance sheet items are operating leases. Chapter 3 contrasted operating and capital leases
+and noted that operating leases are treated as operating expenses rather than financing expenses.
+Consider, though, what an operating lease involves. A retail firm leases a store space for 12 years
+and enters into a lease agreement with the owner of the space agreeing to pay a fixed amount each

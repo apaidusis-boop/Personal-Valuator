@@ -1,0 +1,15 @@
+requirements. Companies may also simply lack the internal resources or headcount with the necessary skill sets to perform the analysis needed to re-engineer products.
+
+## Example of Value Engineering
+
+The initial design for the Golden Gate Bridge faced significant challenges, including spanning a 4,200-foot-wide strait with strong ocean currents and high winds. However, financial resources were limited due to the Great Depression, and initial cost estimates were prohibitively high.
+
+Chief Engineer Joseph Strauss and his team led the value engineering process, striving to reduce costs without compromising safety or performance. Strauss and his team focused on essential functions such as providing a safe, durable, and efficient means of transportation across the strait. They substituted expensive materials with high-strength silicon steel, simplified the design by eliminating unnecessary elements, and employed innovative construction techniques. Pre-fabrication of components off-site further reduced labor costs and construction time.
+
+Through these value engineering efforts, the final cost of the Golden Gate Bridge was significantly reduced to approximately $35 million from the original budget of $100 million. The bridge met all functional requirements (i.e. millions of travelers have successfully capitalized on the value of the bridge's transportation capability).45
+
+## What Is the Role of Value Engineering?
+
+Value engineering is the process of designing a product to ensure the value a customer receives is maximized. This is a careful activity of balancing the functions of the product along with the financial consideration of a product. In general, value engineering strives to maximize the benefit a consumer receives while minimizing costs.
+
+## What Are the Phases of Value Engineering?

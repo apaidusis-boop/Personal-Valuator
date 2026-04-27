@@ -1,0 +1,17 @@
+ed by cumulating the outstanding debt and market value of equity at
+the two firms, is 13.64%:
+Based on these assumptions, the cash flows and value of the combined firm, with synergy, can be estimated:
+
+The value of the combined firm, with synergy, is $45,510.58 million. This can be compared to the value of the combined firm
+without synergy of $43,078.50 million, and the difference is the value of the synergy in the merger.
+Value of combined firm (with synergy)
+$45,510.58 million
+Value of combined firm (with no synergy)
+$43,078.50 million
+Value of synergy
+$2,422.08 million
+This valuation is based on the presumption that synergy will be created instantaneously. In reality, it can take years before
+the firms are able to see the benefits of synergy. A simple way to account for the delay is to consider the present value of
+synergy. Thus, if it will take Compaq and Digital three years to create the synergy, the present value of synergy can be
+estimated, using the combined firm's cost of capital as the discount rate:
+synergy.xls:

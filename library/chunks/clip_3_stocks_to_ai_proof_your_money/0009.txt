@@ -1,0 +1,19 @@
+lt, cooled, and powered. That makes Comfort Systems not a casualty of disruption, but one of its greatest beneficiaries.
+
+---
+
+## 3\. Vertex Pharmaceuticals (VRTX): How AI Is Powering Its Next Chapter
+
+There is a particular kind of company that thrives not just because it adopts new technology, but because the technology solves its most expensive problems. For Vertex Pharmaceuticals, artificial intelligence is doing exactly that. It’s compressing the timelines, cost, and uncertainty that define drug development, and in doing so, expanding the boundaries of what this Boston-based biotech can realistically achieve.
+
+### From Cystic Fibrosis Champion to Multi-Disease Powerhouse
+
+Vertex built one of the most enviable franchises in all of biotech by cracking the code on cystic fibrosis. Its TRIKAFTA therapy became one of the most transformative medicines in recent memory, and its CF portfolio now generates revenues that few specialty biotechs can rival. For 2025, Vertex logged revenue of $12 billion in 2025, and for 2026, it is projecting $12.95 billion to $13.1 billion, with more than $500 million expected from non-CF products, a revenue source that barely existed two years ago.
+
+That diversification is no accident. It’s the result of a company using its CF cash engine to systematically fund AI-assisted drug discovery across entirely new disease territories — pain management, kidney disease, Type 1 diabetes, gene editing, and beyond. AI has not just improved Vertex's efficiency; it has expanded its ambition.
+
+### The AI Toolkit: Where It's Actually Being Used
+
+Vertex's application of AI runs across the full drug development lifecycle, not just in headline-grabbing data science projects.
+
+In target identification, machine learning models analyze vast genomic and proteomic datasets to pinpoint which proteins and genes are most likely involved in disease pathways. This is work that previously required years of manual lab experimentation. AI condenses it to weeks.

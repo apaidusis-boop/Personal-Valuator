@@ -1,0 +1,17 @@
+e through these categories can provide insight into the sustainability of Google's dominance—the [strength of its moat](https://www.investopedia.com/terms/w/wide-economic-moat.asp).
+
+### Key Takeaways
+
+- Google has what Warren Buffett calls a strong moat: competitive advantages that protect it from rivals and enable its large profits.
+- Advantages of scale, seen in the dominance of Google's search engine, are a key part of its moat.
+- Google's intellectual property—specifically, its search engine algorithm—also contributes to the depth of its moat.
+- Though strong, Google's brand name is a less significant part of its moat.
+- It is likely that Google's competitive advantages will have to sustain themselves in spite of regulation.
+
+## Scale Advantage
+
+Competitive advantages that accrue from scale typically refer to [supply-side](https://www.investopedia.com/terms/s/supply-sidetheory.asp) advantages, such as the purchasing power of a large restaurant or retail chain. But advantages of scale exist on the demand side, too; they are commonly referred to as [network effects](https://www.investopedia.com/terms/n/network-effect.asp). They are at work when a service becomes more valuable to all of its users as the service adds more users. The result can often be a winner-take-all dynamic in the industry.
+
+The network effect is clearly the case with Google's search business, and the company's advantage here is significant and sustainable. Google's search engine service improves as more searches are conducted by users and as websites optimize themselves to figure prominently in Google search results.
+
+Scale is also at work in Google's advertising network, which delivers advertising relevant to Internet users based on profiles of their interests. The more that Google learns about its users through their searches, the better its targeting ability becomes.

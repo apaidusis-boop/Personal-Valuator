@@ -1,0 +1,41 @@
+debt 
+is denominated in EUR (17%).
+This page reflects our estimate of the power of the Eurozone in aggregate. For most stats, we’re using a aggregate across 
+the eight major countries in the Eurozone.
+
+COUNTRY POWER INDEX 2022
+11
+EUROZONE—KEY DRIVERS OF OUR COUNTRY POWER SCORE
+Overall Empire Score (0–1) Level: 0.58 Rank: 3
+The Big Cycles Level Z-Score Rank Trajectory
+Economic/Financial Position Moderately Unfavorable -0.9 17
+Debt Burden  Moderately High Debt -0.6 17
+Expected Growth 0.3% -1.0 20
+Internal Order Low Risk 0.2 5
+Wealth/Opportunity/Values Gap Typical 0.1 9
+Internal Conflict Average 0.3 4
+External Order At Risk 0.3 -
+Eight Key Measures of Power
+Trade Strong 1.3 2
+Markets & Financial Center Average 0.4 2
+Reserve Currency Status Average 0.3 2
+Economic Output Strong 1.0 3
+Education Average 0.4 3
+Innovation & Technology Average 0.2 3
+Military Strength Average 0.4 4
+Cost Competitiveness Weak -0.6 19
+Additional Measures of Power
+Infrastructure & Investment Average 0.4 3
+Governance/Rule of Law Average -0.5 12 -
+Resource-Allocation Efficiency Weak -0.8 18
+Geology Weak -0.6 19
+Character/Determination/Civility Weak -1.0 21
+Acts of Nature Average 0.1 9 -
+  Getting better   Getting worse   Flat
+Note: With this page, I am calling out a few of the major gauges and a few of the stats within each gauge that reflect 
+the broad trends we are seeing. The aggregate gauges and final country power score I am showing include hundreds of 
+individual stats that we aggregate based on relevance, quality, and consistency across countries and time. To best capture 
+the overall strength of a country, I gave considerations to both quantity and quality, but structured things to best capture 
+who would win in a competition or war.
+Note: All ranks shown are out of 24, except in the case of Internal Conflict & Internal Order (out of 10) and Reserve 
+Status (out of 19).

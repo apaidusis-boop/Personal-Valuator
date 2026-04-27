@@ -1,0 +1,59 @@
+market price is $2 per share. The firm has
+$20 million in debt outstanding. (The firm has a tax rate of 36%.)
+a.
+ What would an investor in Mapco's stock require as a return if the T-bond rate is 6%?
+
+b.
+ What proportion of this firm's risk is diversifiable?
+c.
+ Assume now that Mapco has three divisions of equal size (in market value terms). It plans to
+divest itself of one of the divisions for $20 million in cash and acquire another for $50 million
+(it will borrow $30 million to complete this acquisition). The division it is divesting is in a
+business line where the average unlevered beta is 0.20, and the division it is acquiring is in a
+business line where the average unlevered beta is 0.80. What will the beta of Mapco be after
+this acquisition?
+14.
+ You have just run a regression of monthly returns of American Airlines (AMR Corporation)
+against the S&P 500 over the past five years. You have misplaced some of the output and are
+trying to derive it from what you have.
+a.
+ You know the R-squared of the regression is 0.36, and that your stock has a variance of 67%.
+The market variance is 12%. What is the beta of AMR?
+b.
+ You also remember that AMR was not a very good investment during the period of the
+regression and that it did worse than expected (after adjusting for risk) by 0.39% a month for the
+five years of the regression. During this period, the average risk-free rate was 4.84%. What was
+the intercept on the regression?
+c.
+ You are comparing AMR to another firm, which also has an R-squared of 0.48. Will the two
+firms have the same beta? If not, why not?
+15.
+ You have run a regression of monthly returns on Amgen, a large biotechnology firm, against
+monthly returns on the S&P 500 index, and come up with the following output:
+The current one-year Treasury bill rate is 4.8% and the current 30-year bond rate is 6.4%. The
+firm has 265 million shares outstanding, selling for $30 per share.
+a.
+ What is the expected return on this stock over the next year?
+b.
+ Would your expected return estimate change if the purpose was to get a discount rate to value
+the company?
+c.
+ An analyst has estimated, correctly, that the stock did 51.1% better than expected, annually,
+during the period of the regression. Can you estimate the annualized risk-free rate that she used
+for her estimate?
+d.
+ The firm has a debt/equity ratio of 3% and faces a tax rate of 40%. It is planning to issue $2
+billion in new debt and acquire a new business for that amount, with the same risk level as the
+firm's existing business. What will the beta be after the acquisition?
+16.
+ You have just run a regression of monthly returns on MAD Inc., a newspaper and magazine
+publisher, against returns on the S&P 500, and arrived at the following result:
+The regression has an R-squared of 22%. The current T-bill rate is 5.5%, and the current T-bond
+rate is 6.5%. The risk-free rate during the period of the regression was 6%. Answer the following
+questions relating to the regression:
+a.
+ Based on the intercept, how well or badly did MAD do, relative to expectations, during the
+period of the regression?
+b.
+ You now realize that MAD Inc. went through a major restructuring at the end of last month
+(which was the last month of your regression), and made the following changes:

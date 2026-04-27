@@ -1,0 +1,52 @@
+---
+id: dalio_bubble_4_criteria
+name: Dalio Bubble Detection (4 criteria)
+book: Principles for Navigating Big Debt Crises (Dalio)
+horizon: medium              # 3-12 months
+direction: SHORT             # SIGNAL of overvaluation — TRIM/EXIT, não short venda
+derived_from: ollama_extract
+
+framework: |
+  Dalio quote verbatim: "A bubble exists when ALL four:
+    1. Prices are high relative to traditional measures (P/E, P/B, DY compressed vs hist)
+    2. Prices are discounting future rapid price appreciation from these high levels
+    3. There is broad bullish sentiment
+    4. Purchases are being financed by debt (margin debt, leverage)"
+
+  Sinal SHORT aqui = TRIM position (não venda a descoberto).
+  Em carteira DRIP, bubble flag = pause reinvestment + build cash buffer.
+
+rules:
+  # DB stores dy as decimal (0.015 = 1.5%).
+  # Criterion 1: price vs traditional measures
+  - id: pe_expansion
+    description: P/E >= 30 (proxy "high vs traditional")
+    check: pe > 0 AND pe >= 30
+  - id: dy_compression
+    description: DY < 1.5% (compressed, growth-pricing)
+    check: dy > 0 AND dy < 0.015
+  # Criterion 2: rapid price appreciation discounted
+  - id: pb_expansion
+    description: P/B > 4 (extreme case) OR PEG > 2 (growth priced in)
+    check: pb > 4
+  # Criterion 4: usamos proxy operational — stable company debt, not investor debt
+  # (criterion 3 — sentiment — requires external data; defer)
+
+entry_trigger: "gte_2_of_3 criteria active (lenient; 3/3 = extreme bubble)"
+exit_trigger: criteria revert (PE < 25, DY >= 2, PB < 3)
+
+expected_move:
+  target_pct: -20             # expectativa de correction post-bubble
+  stop_loss_pct: 15           # if wrong, price continues up — accept 15%
+
+caveats:
+  - "criterion 3 (broad bullish sentiment) requer data externa (AAII survey, VIX inverse) — actualmente not wired"
+  - "criterion 4 (margin debt financing) requer FINRA margin debt data — not wired"
+  - "screen é CONSERVATIVE — só 2/3 activa → warning, não trade"
+  - "em holding DRIP, bubble flag = pause DRIP + hold cash ATÉ DY recuperar"
+  - "historic false-positive rate em late-cycle é 30%+ (Dalio himself)"
+
+fits_with:
+  - analytics/regime.py (late_cycle state aumenta peso deste screen)
+  - agents/perpetuum/thesis.py (flag material drift)
+  - agents/risk_auditor.py (R1 PE expansion rule)

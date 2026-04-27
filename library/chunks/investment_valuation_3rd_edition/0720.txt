@@ -1,0 +1,42 @@
+that earnings are measured
+annually, rather than quarterly, and the reality that private firms tend to be younger than publicly
+traded firms will mean far less data in the historical growth estimate.
+
+As a consequence of these gaps in past growth and analyst estimates, there should be an even
+greater reliance on fundamentals in private firms. The expected growth rate in operating income is the
+product of the reinvestment rate and the return on capital, though changes in return on capital in
+existing assets can create an additional impact.
+In making the estimates of reinvestment rates and returns on capital for private firms, we can look at
+both the histories of these firms and the industry averages for publicly traded companies in the same
+businesses.
+ILLUSTRATION 24.8: Estimating Growth
+The process of estimating growth is different for the two firms under consideration in this chapter. With Chez Pierre, we are
+looking at a well-run restaurant operating at close to capacity and that is unlikely to grow at rate higher than the inflation
+rate. Consequently, we will assume a growth rate of 2% in nominal terms for the next 12 years, which is the remaining lease
+term. At the end of year 12, we assume that the business will be liquidated. Since we are assuming a finite life and no real
+growth, we also assume a reinvestment rate of zero for the firm.
+To estimate the growth rate at InfoSoft, we follow a more conventional route. We first estimate the return that the firm
+earns on its capital invested currently, by dividing the after-tax operating income from the most recent year by the book
+value capital invested
+3
+ at the beginning of the year. We use the operating income from Illustration 24.7 and a corporate
+marginal tax rate of 40%.
+We then estimate InfoSoft's reinvestment rate by dividing its reinvestment (in capital expenditures and working capital) in the
+most recent year by the after-tax operating income. Given that the firm reported capital expenditures of $960,000,
+depreciation of $200,000 and an increase in non cash working capital from $100,000 to $150,000, we estimated a
+reinvestment rate of:
+The expected growth rate in operating income for InfoSoft for the immediate future is based on the assumption that the
+return on capital and reinvestment rate will remain unchanged over the next five years.
+If we had expected the return on capital or the reinvestment rate to change over time, we would have reflected those
+changes in this growth rate.
+Persistence of Growth
+In valuing publicly traded firms, we generally assumed infinite lives, even though we did allow for
+the risk that the firms would not survive. With private firms, the perpetual life assumption has to be
+made with far more caution. Unlike publicly traded firms, where the transition from one CEO to
+another is common, the transition is much more complicated in a private firm where the owner-
+manager often looks to the next generation in his or her family for the successor, a process that is not
+always successful.
+What are the implications for valuation? One is that the terminal value for a private firm will be
+lower than the terminal value for a publicly traded firm. If we assume, in fact, that the firm will cease
+operations at some point in time in the future—say when the current owner retires—we would use a
+liquidation value for the assets as the terminal value. In general, liquidation values are lower than the

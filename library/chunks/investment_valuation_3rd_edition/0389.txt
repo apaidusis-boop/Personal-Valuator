@@ -1,0 +1,56 @@
+. Tests of the model also seem to
+indicate its usefulness in gauging value, though much of its effectiveness may be derived from its
+finding low-PE-ratio, high-dividend-yield stocks to be undervalued.
+
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Respond true or false to the following statements relating to the dividend discount model:
+a.
+ The dividend discount model cannot be used to value a high-growth company that pays no
+dividends. 
+True ____ 
+False ____
+b.
+ The dividend discount model will undervalue stocks, because it is too conservative. 
+True ____ 
+False ____
+c.
+ The dividend discount model will find more undervalued stocks when the overall stock
+market is depressed. 
+True ____ 
+False ____
+d.
+ Stocks that are undervalued using the dividend discount model have generally made
+significant positive excess returns over long time periods (five years or more). 
+True ____ 
+False ____
+e.
+ Stocks that pay high dividends and have low price-earnings ratios are more likely to come out
+as undervalued using the dividend discount model. 
+True ____ 
+False ____
+2.
+ Ameritech Corporation paid dividends per share of $3.56 in 1992, and dividends are expected
+to grow 5.5% a year forever. The stock has a beta of 0.90, and the Treasury bond rate is 6.25%.
+(Risk premium is 5.5%.)
+a.
+ What is the value per share, using the Gordon growth model?
+b.
+ The stock was trading for $80 per share. What would the growth rate in dividends have to be
+to justify this price?
+3.
+ Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of
+$1.50 in 1993 and paid dividends per share of $0.42. In 1993, the firm also reported the
+following:
+The firm faced a corporate tax rate of 38.5%. (The market value debt-to-equity ratio is 5%. The
+Treasury bond rate is 7%.)
+The firm expected to maintain these financial fundamentals from 1994 to 1998, after which it was
+expected to become a stable firm, with an earnings growth rate of 6%. The firm’s financial
+characteristics were expected to approach industry averages after 1998. The industry averages
+were as follows:
+Church & Dwight had a beta of 0.85 in 1993, and the unlevered beta was not expected to change
+over time.
+a.
+ What is the expected growth rate in earnings, based on fundamentals, for the high-growth
+period (1994 to 1998)?

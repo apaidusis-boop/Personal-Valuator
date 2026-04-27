@@ -1,0 +1,8 @@
+e aggregate reinvestment rate over
+the period was 83.53%.
+We did a similar computation with the return on capital between 2005 and 2009.
+The average return on capital between 2005 and 2009 was 14.98%.
+
+Using these averages for the reinvestment rate and return on capital generates a growth rate of 12.51%:
+This does seem like a more sustainable value for the future.
+fundgrEB.xls:

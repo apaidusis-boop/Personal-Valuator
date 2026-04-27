@@ -1,0 +1,73 @@
+d have concluded that Cisco's net capital expenditures in 1999 were
+$98 million.
+The first adjustment we make to this number is to incorporate the effect of research and development expenses. We use a
+
+five-year amortizable life and estimate the value of the research asset and the amortization in 1999 in the following table:
+The net capital expenditures for Cisco were adjusted by adding back the R&D expenses in the most recent financial year
+($1,594 million) and subtracting the amortization of the research asset ($485 million).
+The second adjustment is to bring in the effect of acquisitions that Cisco made during the last financial year. The following
+table summarizes the acquisitions made during the year and the prices paid on these acquisitions:
+Acquired
+Method of Acquisition
+Price Paid
+GeoTel
+Pooling
+$1,344
+Fibex
+Pooling
+318
+Sentient
+Pooling
+103
+American Internet Corporation
+Purchase
+58
+Summa Four
+Purchase
+129
+Clarity Wireless
+Purchase
+153
+Selsius Systems
+Purchase
+134
+PipeLinks
+Purchase
+118
+Amteva Technologies
+Purchase
+159
+Total
+$2,516
+Dollars in millions.
+Note that both purchase and pooling transactions are included, and that the sum total of these acquisitions is added to net
+capital expenditures in 1999. We are assuming, given Cisco's track record, that its acquisitions in 1999 are not unusual and
+reflect Cisco's reinvestment policy. The amortization associated with these acquisitions is already included as part of
+depreciation by the firm.
+3
+ The following table summarizes the final net capital expenditures for Cisco in 1999.
+Capital expenditures
+$ 584.00
+– Depreciation
+$ 486.00
+Net cap ex (from financials)
+$ 98.00
++ R&D expenditures
+$1,594.00
+– Amortization of R&D
+$ 484.60
++ Acquisitions
+$2,516.00
+Adjusted net cap ex
+$3,723.40
+IGNORING ACQUISITIONS IN VALUATION: A
+POSSIBILITY?
+Incorporating acquisitions into net capital expenditures and value can be difficult, and especially so for firms that do large
+acquisitions infrequently. Predicting whether there will be acquisitions, how much they will cost, and what they will deliver in
+terms of higher growth can be close to impossible. There is one way in which you can ignore acquisitions, but it does come
+with a cost. If you assume that firms pay a fair price on acquisitions (i.e., a price that reflects the fair value of the target
+company) and you assume that the target company stockholders claim any or all synergy or control value, acquisitions have
+no effect on value no matter how large they might be and how much they might seem to deliver in terms of higher growth.
+The reason is simple: A fair-value acquisition is an investment that earns its required return—a zero net present value
+investment.
+  If you choose not to consider acquisitions when valuing a firm, you have to remain internally consistent. The portion of

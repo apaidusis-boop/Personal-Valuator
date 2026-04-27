@@ -49,6 +49,8 @@ TEN negoceia a P/E 8.82 com DY 1.53% e P/B 0.63 — métricas ópticamente "bara
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

@@ -1,0 +1,44 @@
+at the volatility of the equity market in a country relative to the volatility of the country
+bond used to estimate the spread. This yields the following estimate for the country equity risk
+premium:
+
+To illustrate, consider the case of Brazil. In January 2011, Brazil was rated Baa3 by Moody’s,
+resulting in a default spread of 2.00 percent. The annualized standard deviation in the Brazilian equity
+index over the previous two years was 
+17.65 percent, while the annualized standard deviation in the
+Brazilian dollar- denominated bond was 7.32 percent. The resulting country equity risk premium for
+Brazil is as follows:
+Note that this country risk premium will increase if the country rating drops or if the relative volatility
+of the equity market increases. Adding this premium to the mature market (U.S.) premium of 4.31
+percent would yield a total equity risk premium for Brazil of 9.13 percent.
+Why should equity risk premiums have any relationship to country bond spreads? A simple
+explanation is that an investor who can make 11 percent on a dollar-denominated Brazilian
+government bond would not settle for an expected return of 10.5 percent (in dollar terms) on
+Brazilian equity. Playing devil’s advocate, however, a critic could argue that the interest rate on a
+country bond, from which default spreads are extracted, is not really an expected return since it is
+based on the promised cash flows (coupon and principal) on the bond rather than the expected cash
+flows. In fact, if we wanted to estimate a risk premium for bonds, we would need to estimate the
+expected return based on expected cash flows, allowing for the default risk. This would result in a
+much lower default spread and equity risk premium.
+Both this approach and the previous one use the standard deviation in equity of a market to make a
+judgment about country risk premium, but they measure it relative to different bases. This approach
+uses the country bond as a base, whereas the previous one uses the standard deviation in the U.S.
+market. This approach assumes that investors are more likely to choose between Brazilian bonds and
+Brazilian equity, whereas the previous approach assumes that the choice is across equity markets.
+Choosing among the Approaches
+The three approaches to estimating country risk premiums will generally give you different estimates,
+with the bond default spread and relative equity standard deviation approaches yielding lower
+country risk premiums than the melded approach that uses both the country bond default spread and
+the equity standard deviation. We believe that the larger country risk premiums that emerge from the
+last approach are the most realistic for the immediate future, but that country risk premiums will
+change over time. Just as companies mature and become less risky over time, countries can mature
+and become less risky as well.
+One way to adjust country risk premiums over time is to begin with the premium that emerges from
+the melded approach and to adjust this premium down toward either the country bond default spread
+or the country premium estimated from equity standard deviations. Another way of presenting this
+argument is to note that the differences between standard deviations in equity and bond prices narrow
+over longer periods, and the resulting relative volatility will generally be smaller.
+13
+ Thus, the equity
+risk premium will converge on the country bond spread as we look at longer-term expected returns.
+For example, the country risk premium for Brazil would be 4.82 percent for the next year but decline

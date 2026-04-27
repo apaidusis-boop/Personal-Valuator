@@ -1,0 +1,29 @@
+en the banking crisis of 2008 created only a momentary blip in
+buybacks in 2009, before they returned in force in 2010.
+Figure 13.3
+ Stock Buybacks and Dividends: Aggregate for U.S. Firms—1989 to 2010
+
+What are the implications for the dividend discount model? Focusing strictly on dividends paid as
+the only cash returned to stockholders exposes us to the risk that we might be missing significant cash
+returned to stockholders in the form of stock buybacks. The simplest way to incorporate stock
+buybacks into a dividend discount model is to add them onto the dividends and compute an augmented
+payout ratio:
+While this adjustment is straightforward, the resulting ratio for any one year can be skewed by the
+fact that stock buybacks, unlike dividends, are not smoothed out. In other words, a firm may buy back
+$3 billion in stock in one year, and not buy back stock for the next three years. Consequently, a much
+better estimate of the modified payout ratio can be obtained by looking at the average value over a
+four- or five-year period. In addition, firms may sometimes buy back stock as a way of increasing
+financial leverage. We could adjust for this by netting out new debt issued from the earlier
+calculation:
+Adjusting the payout ratio to include stock buybacks will have ripple effects on estimated growth
+and the terminal value. In particular, the modified growth rate in earnings per share can be written as:
+Even the return on equity can be affected by stock buybacks. Since the book value of equity is
+reduced by the market value of equity bought back, a firm that buys back stock can reduce its book
+equity (and increase its return on equity) dramatically. If we use this return on equity as a measure of
+the marginal return on equity (on new investments), we will overstate the value of a firm. Adding
+back stock buybacks in recent years to the book equity and reestimating the return on equity can
+sometimes yield a more reasonable estimate of the return on equity on investments.
+ILLUSTRATION 13.4: 
+Augmented versus Conventional
+Dividend Payout Ratios: Coca-Cola
+To illustrate the effect of using augmented dividends versus actual dividends, we will look at Coca-Cola, a company that has

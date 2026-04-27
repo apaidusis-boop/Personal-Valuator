@@ -1,0 +1,97 @@
+hat the average
+covariance is 10. What is the expected variance of a portfolio of 5, 10, 20, 50, and 100
+securities? How many securities need to be held before the risk of a portfolio is only 10% more
+
+than the minimum?
+9.
+ Assume you have all your wealth (a million dollars) invested in the Vanguard 500 index fund,
+and that you expect to earn an annual return of 12%, with a standard deviation in returns of 25%.
+Since you have become more risk averse, you decide to shift $200,000 from the Vanguard 500
+index fund to Treasury bills. The T-bill rate is 5%. Estimate the expected return and standard
+deviation of your new portfolio.
+10.
+ Every investor in the capital asset pricing model owns a combination of the market portfolio
+and a riskless asset. Assume that the standard deviation of the market portfolio is 30% and that the
+expected return on the portfolio is 15%. What proportion of the following investors’ wealth
+would you suggest investing in the market portfolio and what proportion in the riskless asset?
+(The riskless asset has an expected return of 5%.)
+a.
+ An investor who desires a portfolio with no standard deviation.
+b.
+ An investor who desires a portfolio with a standard deviation of 15%.
+c.
+ An investor who desires a portfolio with a standard deviation of 30%.
+d.
+ An investor who desires a portfolio with a standard deviation of 45%.
+e.
+ An investor who desires a portfolio with an expected return of 12%.
+11.
+ The following table lists returns on the market portfolio and on Scientific Atlanta, each year
+from 1989 to 1998.
+Year
+Scientific Atlanta
+Market Portfolio
+1989
+80.95%
+31.49%
+1990
+–47.37%
+–3.17%
+1991
+31.00%
+30.57%
+1992
+132.44%
+7.58%
+1993
+32.02%
+10.36%
+1994
+25.37%
+2.55%
+1995
+–28.57%
+37.57%
+1996
+0.00%
+22.68%
+1997
+11.67%
+33.10%
+1998
+36.19%
+28.32%
+a.
+ Estimate the covariance in returns between Scientific Atlanta and the market portfolio.
+b.
+ Estimate the variances in returns on both investments.
+c.
+ Estimate the beta for Scientific Atlanta.
+12.
+ United Airlines has a beta of 1.5. The standard deviation in the market portfolio is 22%, and
+United Airlines has a standard deviation of 66%.
+a.
+ Estimate the correlation between United Airlines and the market portfolio.
+b.
+ What proportion of United Airlines’ risk is market risk?
+13.
+ You are using the arbitrage pricing model to estimate the expected return on Bethlehem Steel,
+and have derived the following estimates for the factor betas and risk premium:
+Factor
+Beta
+Risk Premium
+1
+1.2
+2.5%
+2
+0.6
+1.5%
+3
+1.5
+1.0%
+4
+2.2
+0.8%
+5
+0.5
+1.2%

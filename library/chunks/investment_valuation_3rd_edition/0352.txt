@@ -1,0 +1,14 @@
+ntire industries
+often earn excess returns over long periods, assuming a firm's returns on equity and capital will move
+toward industry averages will yield more reasonable estimates of value.
+eva.xls:
+
+This dataset on the Web summarizes the returns on capital (equity), costs of capital (equity), and
+excess returns, by industry group, for firms in the United States.
+Debt Ratios and Costs of Debt
+High growth firms tend to use less debt than stable growth firms. As firms mature, their debt capacity
+increases. When valuing firms, this will change the debt ratio that we use to compute the cost of
+capital. When valuing equity, changing the debt ratio will change both the cost of equity and the
+expected cash flows. The question of whether the debt ratio for a firm should be moved toward a
+more sustainable level in stable growth cannot be answered without looking at the incumbent
+managers' views on debt, and how much power stockholders have in these firms. If managers are

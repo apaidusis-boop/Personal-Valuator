@@ -1,0 +1,25 @@
+iques,
+but they also require historical price information. In the absence of such information, as is the case
+with private firms, there are three ways in which we can estimate betas: accounting betas,
+
+fundamental betas, and bottom-up betas.
+Accounting Betas
+While price information is not available for private firms, accounting earnings information is. We
+could regress changes in a private firm's accounting earnings against changes in earnings for an equity
+index (such as the S&P 500) to estimate an accounting beta:
+The slope of the regression (b) is the accounting beta for the firm. Using operating earnings would
+yield an unlevered beta, whereas using net income would yield a levered or equity beta.
+There are two significant limitations with this approach. The first is that private firms usually
+measure earnings only once a year, leading to regressions with few observations and limited
+statistical power. The second is that earnings are often smoothed out and subject to accounting
+judgments, leading to mismeasurement of accounting betas.
+ILLUSTRATION 24.1: Estimating an Accounting Beta—
+Infosoft
+InfoSoft, even though it is a private business, has been in existence since 1992 and has accounting earnings going back to
+that year. This table summarizes the annual accounting earnings changes at InfoSoft and for the S&P 500 for each year
+between 1992 and 2010.
+Regressing the changes in earnings at InfoSoft against changes in earnings for the S&P 500 yields the following.
+Based on this regression, the beta for InfoSoft is 1.84. In calculating this beta, we used net income to arrive at an equity
+beta. Using operating earnings for both the firm and the S&P 500 should yield the equivalent of an unlevered beta.
+Fundamental Betas
+There have been attempts made by researchers to relate the betas of publicly traded firms to

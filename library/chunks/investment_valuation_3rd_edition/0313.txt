@@ -1,0 +1,33 @@
+rical growth in the overall market and in other firms that are serving it. This information can be
+useful in deciding what the growth rates of the firm that you are valuing will converge on over time.
+
+ANALYST ESTIMATES OF GROWTH
+Equity research analysts provide not only recommendations on the firms they follow but also
+estimates of earnings and earnings growth for the future. How useful are these estimates of expected
+growth from analysts and how, if at all, can they be used in valuing firms? This section considers the
+process that analysts follow to estimate expected growth and follows up by examining why such
+growth rates may not be appropriate when valuing some firms.
+Who Do Analysts Follow?
+The number of analysts tracking firms varies widely across firms. At one extreme are firms like
+Apple, GE, and Microsoft that are followed by dozens of analysts. At the other extreme, there are
+hundreds of firms that are not followed by any analysts.
+Why are some firms more heavily followed than others? These seem to be some of the
+determinants:
+Market capitalization.
+ The larger the market capitalization of a firm, the more likely it is to
+be followed by analysts.
+Institutional holding.
+ The greater the percent of a firm's stock that is held by institutions,
+the more likely it is to be followed by analysts. The open question, though, is whether
+analysts follow institutions or whether institutions follow analysts. Given that institutional
+investors are the biggest clients of equity research analysts, the causality probably runs both
+ways.
+Trading volume.
+ Analysts are more likely to follow liquid stocks. Here again, though, it is
+worth noting that the presence of analysts and buy (or sell) recommendations on a stock may
+play a role in increasing trading volume.
+Information in Analyst Forecasts
+There is a simple reason to believe that analyst forecasts of growth should be better than using
+historical growth rates. Analysts, in addition to using historical data, can avail themselves of five
+other types of information that may be useful in predicting future growth:
+1.

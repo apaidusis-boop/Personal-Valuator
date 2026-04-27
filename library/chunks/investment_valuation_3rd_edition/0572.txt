@@ -1,0 +1,32 @@
+ustain a strong record of high ROE and high price-
+to-book ratios from 2001 to 2010. 
+Figure 19.8
+ illustrates both PBV and ROE between 1983 and 2010 for IBM.
+Figure 19.8
+ IBM: The Fall and Rise Again
+
+An investor buying IBM at its low point would have obtained a stock with a low price-to-book and a low return on equity, but
+the bet would have paid off. As the return on equity improved, IBM migrated from the bottom-left quadrant to the top-right
+quadrant in the matrix. As its price-to-book ratio improved, the investor would have seen substantial price appreciation and
+profits.
+USE IN INVESTMENT STRATEGIES
+Investors have used the relationship between price and book value in a number of investment
+strategies ranging from the simple to the sophisticated. Some have used low price–book value ratios
+as a screen to pick undervalued stocks. Others combine price-to-book value ratios with other
+fundamentals to make the same judgment. Finally, the sheer persistence of higher returns earned by
+low price-to-book stocks is viewed by some as an indication that the price-to-book value ratio is a
+proxy for equity risk.
+The Link to Excess Returns
+Several studies have established a relationship between price–book value ratios and excess returns.
+Rosenberg, Reid, and Lanstein (1985) found that the average returns on U.S. stocks are positively
+related to the ratio of a firm's book value to market value. Between 1973 and 1984, the strategy of
+picking stocks with high book–price ratios (low price–book values) yielded an excess return of 36
+basis points a month. Fama and French (1992), in examining the cross section of expected stock
+returns between 1963 and 1990, established that the positive relationship between book-to-price
+ratios and average returns persists in both the univariate and multivariate tests, and is even stronger
+than the small firm effect in explaining returns. When they classified firms on the basis of book-to-
+price ratios into 12 portfolios, firms in the lowest book-to-price (highest PBV) class earned an
+average monthly return of 0.30 percent, while firms in the highest book-to-price (lowest PBV) class
+earned an average monthly return of 1.83 percent for the 1963 to 1990 period.
+Chan, Hamao, and Lakonishok (1991) found that the book-to-market ratio has a strong role in
+explaining the cross section of average returns on Japanese stocks. Capaul, Rowley, and Sharpe

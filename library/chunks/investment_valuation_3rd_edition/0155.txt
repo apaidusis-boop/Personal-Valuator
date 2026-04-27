@@ -1,0 +1,47 @@
+estimates of the return
+differential earned by stocks with low price–book value ratios, over the market index, were:
+Country
+Added Return to Low 
+Price–Book Value Portfolio
+France
+3.26%
+Germany
+1.39%
+
+Switzerland
+1.17%
+United Kingdom
+1.09%
+Japan
+3.43%
+United States
+1.06%
+Europe
+1.30%
+Global
+1.88%
+A caveat is in order. Fama and French pointed out that low price–book value ratios may operate as
+a measure of risk, since firms with prices well below book value are more likely to be in trouble and
+go out of business. Investors therefore have to evaluate for themselves whether the additional returns
+made by such firms justify the additional risk taken on by investing in them.
+Temporal Anomalies
+There are a number of peculiarities in return differences across calendar time that not only are
+difficult to rationalize but are also suggestive of inefficiencies. Furthermore, some of these temporal
+anomalies are related to the small firm effect described in the previous section.
+January Effect
+Studies of returns in the United States and other major financial markets [Roll (1983); Haugen and
+Lakonishok (1988)] consistently reveal strong differences in return behavior across the months of the
+year. 
+Figure 6.12
+ reports average returns by months of the year from 1926 to 1983. Returns in January
+are significantly higher than returns in any other month of the year. This phenomenon is called the
+year-end or January effect, and it can be traced to the first two weeks in January.
+Figure 6.12
+ Returns by Month of the Year: U.S. stocks from 1927 to 2010
+The relationship between the January effect and the small firm effect [(Keum (1983) and Reinganum
+(1983)] adds to the complexity of this phenomenon. The January effect is much more accentuated for
+small firms than for larger firms, and roughly half of the small firm premium described in the prior
+section is earned in the first two weeks of January. 
+Figure 6.13
+ graphs returns in January by size and
+risk class for data from 1935 to 1986.

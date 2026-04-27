@@ -1,0 +1,35 @@
+shown for each country/time period (i.e., including 
+Germany in 1903–23 precludes including Germany from 1915–35). For our 60/40 portfolios, we assumed monthly rebalancing across the 20-year 
+window.
+
+32
+THE CHANGING WORLD ORDER
+PERIODS OF WEALTH CONFISCATION
+1900 1920 1940 1960 1980 2000
+UK
+USA Yes Yes
+China Yes Yes
+Germany Yes
+France
+Russia Yes Yes Yes
+Austria-Hungary
+Italy Yes
+Netherlands
+Japan Yes
+6
+PERIODS OF STRICT/RISING CAPITAL CONTROLS
+1900 1920 1940 1960 1980 2000
+UK Yes Yes Yes Yes
+USA Yes Yes
+China Yes Yes Yes
+Germany Yes Yes Yes Yes
+France Yes Yes
+Russia Yes Yes Yes Yes Yes Yes
+Austria-Hungary Yes
+Italy Yes
+Netherlands Yes
+Japan Yes Yes
+6 While this diagram is not exhaustive, I include instances where I could find clear evidence of each occurring in the 20-year period. For this analysis, wealth 
+confiscation was defined as extensive seizure of private assets, including large-scale forced, non-economic sales by a government (or revolutionaries in the 
+case of revolution). Relevant capital controls were defined as meaningful restrictions on investors moving their money to and from other countries and assets 
+(although this does not include targeted measures directed only at single countries, such as sanctions).

@@ -1,0 +1,22 @@
+ance in the value should reflect the combined effect of the variances in each input.
+10
+ This
+would be the variance we would use in the option pricing model to estimate a new value for the reserve.
+2.
+
+Keep the variances separate and value the option as a rainbow option.
+ A rainbow option allows explicitly for more
+than one source of variance and allows us to keep the variances separate and still value the option. While option pricing
+becomes more complicated, you may need to do this if you expect the two sources of uncertainty to evolve differently
+over time—the variance from one source (say, oil prices) may increase over time whereas the variance from the other
+source (say, oil reserves) may decrease over time.
+Valuing a Firm with Undeveloped Reserves
+The examples provided earlier illustrate the use of option pricing theory in valuing individual mines
+and oil tracts. Since the assets owned by a natural resource firm can be viewed primarily as options,
+the firm itself can be valued using option pricing models.
+Individual Reserves versus Aggregate Reserves
+The preferred approach would be to consider each reserve separately, value it, and cumulate the
+values of the reserves to get the value of the firm. Since this information is likely to be difficult to
+obtain for large natural resource firms, such as oil companies, which own hundreds of such reserves,
+a variant of this approach is to value the entire firm's undeveloped reserves as one option. A purist
+would probably disagree, arguing that valuing an option on a portfolio of assets (as in this approach)

@@ -1,0 +1,19 @@
+2,661 billion yen = 1,360 billion yen), this would understate the normalized operating
+income, since it will not reflect the fact that Toyota has been among the most profitable firms in the sector.
+3.
+
+Historical margin:
+ Averaging the pretax operating margin from 1998 to 2008 yields an average operating margin of
+7.33%. Applying this margin to the revenues in 2009 yields a normalized operating income of 1,660.7 billion yen (7.33% of
+22,661 billion yen), an estimate that captures both the larger scale of the firm today and its success in this business. We
+will use this value as our normalized operating income.
+To value the firm, we made the following assumptions.
+To estimate Toyota's cost of equity, we used a bottom-up beta (estimated from the automobile sector) of
+1.10. Using the 10-year Japanese yen government bond rate of 1.50% as the risk-free rate and an equity risk
+premium of 6.5% (reflecting a mature market premium of 6% in early 2009 and an additional 0.50% for
+exposure to emerging market risk), we computed a cost of equity of 8.65%. 
+In early 2009, Toyota had 11,862 billion yen in debt outstanding, and the market value of equity for the firm
+was 10,551 billion (3.448 billion shares outstanding at 3,060 yen/share). Using a rating of AA and an
+associated default spread of 1.75% over the risk-free rate, we estimated a pretax cost of debt of 3.25%.
+Assuming that the current debt ratio is a sustainable one, we estimated a cost of capital of 5.09%; the
+marginal tax rate for Japan in 2009 was 40.7%.

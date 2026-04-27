@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: PLTR
 market: us
-date: 2026-04-26
+date: 2026-04-27
 variance: medium_variance_long
 magnitude: 2
 weight_skew: False
@@ -19,7 +19,7 @@ tags: [variant_perception, edge_detection]
 
 ## 🔍 Specific divergence analysis
 
-Diverge: A NOSSA THESIS enfatiza a margem de segurança e potencial de crescimento sustentável da Palantir, enquanto o consenso dos analistas não considera a queda nas ações como uma oportunidade de compra, focando mais na desaceleração das taxas de crescimento. A NOSSA THESIS tem evidência mais robusta no aspecto da geração de valor para acionistas através do ROE e BVPS, contrastando com o foco dos analistas em múltiplos P/E altos e preocupações sobre a desaceleração do crescimento futuro. Alinhado: Ambas reconhecem o forte crescimento da receita recente da Palantir, mas divergem na interpretação de sua sustentabilidade e valorização atual.
+A NOSSA thesis DIVERGE do consenso em relação à avaliação das ações da Palantir Technologies como uma oportunidade de compra, pois enquanto os analistas veem a desaceleração no crescimento futuro como um fator negativo que penaliza as ações, nossa tese enfatiza a margem de segurança e o potencial de crescimento sustentável da empresa. Além disso, divergimos na avaliação do múltiplo P/E elevado: enquanto os analistas podem considerar este múltiplo como uma barreira para investir, nossa tese argumenta que a posição dominante da Palantir em mercados estratégicos justifica uma avaliação premium.
 
 ## 📰 Recent analyst insights
 

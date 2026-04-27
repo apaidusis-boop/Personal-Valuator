@@ -1,0 +1,48 @@
+ignificantly different from the market value of equity. The
+follwing table summarizes the difference at the end of 1998 (in millions of dollars):
+Boeing
+Home Depot
+Book value of equity
+$12,316
+$ 8,740
+
+Market value of equity
+$32,595
+$85,668
+One final point needs to be made about the Home Depot's liabilities. The Home Depot has substantial operating leases.
+Because these leases are treated as operating expenses, they do not show up in the balance sheet. Since they represent
+commitments to make payments in the future, we would argue that operating leases should be capitalized and treated as part
+of the liabilities of the firm. How best to do this is considered in Chapter 9.
+MEASURING EARNINGS AND PROFITABILITY
+How profitable is a firm? What did it earn on the assets that it invested in? These are fundamental
+questions we would like financial statements to answer. Accountants use the income statement to
+provide information about a firm's operating activities over a specific time period. The income
+statement is designed to measure the earnings from assets in place. This section examines the
+principles underlying earnings and return measurement in accounting, and the way they are put into
+practice.
+Accounting Principles Underlying Measurement of Earnings and
+Profitability
+Two primary principles underlie the measurement of accounting earnings and profitability. The first
+is the principle of accrual accounting. In accrual accounting, the revenue from selling a good or
+service is recognized in the period in which the good is sold or the service is performed (in whole or
+substantially). A corresponding effort is made on the expense side to match expenses to revenues.
+6
+This is in contrast to a cash-based system of accounting, where revenues are recognized when
+payment is received and expenses are recorded when paid.
+The second principle is the categorization of expenses into operating, financing, and capital
+expenses. Operating expenses are expenses that, at least in theory, provide benefits only for the
+current period; the cost of labor and materials expended to create products that are sold in the current
+period is a good example. Financing expenses are expenses arising from the nonequity financing used
+to raise capital for the business; the most common example is interest expenses. Capital expenses are
+expenses that are expected to generate benefits over multiple periods; for instance, the cost of buying
+land and buildings is treated as a capital expense.
+Operating expenses are subtracted from revenues in the current period to arrive at a measure of
+operating earnings of the firm. Financing expenses are subtracted from operating earnings to estimate
+earnings to equity investors or net income. Capital expenses are written off over their useful lives (in
+terms of generating benefits) as depreciation or amortization.
+Measuring Accounting Earnings and Profitability
+Since income can be generated from a number of different sources, generally accepted accounting
+principles (GAAP) require that income statements be classified into four sections—income from
+continuing operations, income from discontinued operations, extraordinary gains or losses, and
+adjustments for changes in accounting principles.
+Generally accepted accounting principles require the recognition of revenues when the service for

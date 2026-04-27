@@ -1,0 +1,46 @@
+t Crises
+139
+0%
+5%
+1 0 %
+1 5 %
+2 0 %
+May-08 Jun-08 Jul-08 Aug - 0 8
+$ 110
+$ 120
+$ 1 3 0
+$ 1 4 0
+$ 1 50
+May-08 Jun-08 Jul-08 Aug - 0 8
+S&P  5 00  (In d ex ed
+to F e d  Annou nceme n t ) Spot Oi l Price
+
+Taking Control of Fannie and Freddie
+Of all the interventions, the guarantee to use public funds to support Fannie 
+Mae and Freddie Mac was the most unprecedented. Fannie Mae and Freddie 
+Mac were two government-sponsored enterprises (GSEs), created by Congress 
+in 1938 and 1970 respectively, with the former being part of Roosevelt’s New 
+Deal following the Great Depression. They were created to stabilize the US 
+mortgage market and promote affordable housing. They did this primarily by 
+buying mortgages from approved private lenders, packaging many together, 
+guaranteeing timely payment on them, and then selling them back to investors. 
+At first glance, everyone looked to benefit from this arrangement. Private 
+lenders had a ready buyer for about as many mortgages as they could originate. 
+Fannie and Freddie profited greatly from buying riskier mortgages and turning 
+them into a safe asset (i.e., buying something cheap and selling it for more). 
+Banks and other investors were happy to have a greater supply of safe assets to 
+invest in, earning slightly more than they would on equivalent treasury bonds. 
+And households benefited from cheaper borrowing rates. 
+Of course, all this was based on an implicit guarantee that the government 
+would backstop Fannie and Freddie—it was only that guarantee that allowed 
+the securities issued by GSEs to be seen as about as safe as treasuries, giving 
+them very low borrowing rates. At times, the spread on their debt to treasuries 
+essentially hit 0 percent. 
+Agency 10Yr Spread to Treasuries
+Fannie Mae Freddie Mac
+0.0%
+0.5%
+1.0%
+1.5%
+2.0%
+00 02 04 06 08

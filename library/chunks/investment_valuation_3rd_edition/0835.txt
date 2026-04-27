@@ -1,0 +1,43 @@
+can happen because the firm may gain by waiting and accepting the project in a future period, for the
+same reasons that investors do not always exercise an option that is in the money. A firm is more
+
+likely to wait if it has the rights to the project for a long time, protection against competition and the
+variance in project inflows is high. To illustrate, assume a firm has the patent rights to produce a new
+type of disk drive for computer systems and building a new plant will yield a positive net present
+value today. If the technology for manufacturing the disk drive is in flux, however, the firm may delay
+investing in the project in the hopes that the improved technology will increase the expected cash
+flows and consequently the value of the project. It has to weigh this benefit against the cost of
+delaying the project, which will be the cash flows that will be forsaken by not investing in it.
+Third, factors that can make a project less attractive in a static analysis can actually make the rights
+to the project more valuable. As an example, consider the effect of uncertainty about the size of the
+potential market and the magnitude of excess returns. In a static analysis, increasing this uncertainty
+increases the riskiness of the project and may make it less attractive. When the project is viewed as
+an option, an increase in the uncertainty may actually make the option more valuable, not less. The
+chapter will consider two cases, product patents and natural resource reserves, where the project
+delay option allows value to be estimated more precisely.
+Option Pricing Models
+Once you have identified the option to delay a project as a call option and identified the inputs
+needed to value the option, it may seem like a trivial task to actually value the option. There are,
+however, some serious estimation issues that we have to deal with in valuing these options. Chapter 5
+noted that while the more general model for valuing options is the binomial model, many practitioners
+use the Black-Scholes model, which makes far more restrictive assumptions about price processes
+and early exercise to value options. With listed options on traded assets, you can do this at fairly low
+cost. With real options, there can be a substantial cost to this practice for the following reasons:
+Unlike listed options, real options tend to be exercised early, if they are in the money. While
+there are ways in which the Black-Scholes model can be adjusted to allow for this early
+exercise, the binomial model allows for much more flexibility.
+The binomal option pricing model allows for a much wider range of price processes for the
+underlying asset than the Black-Scholes model, which assumes that prices are not only
+continuous but log-normally distributed. With real options, where the present value of the
+cash flows is often equivalent to the price, the assumptions of nonnormality and continuous
+distributions may be difficult to sustain.
+The biggest problem with the binomial model is that the prices at each node of the binomial tree
+have to be estimated. As the number of periods expands, this will become more and more difficult to
+do. You can, however, use the variance estimate in the Black-Scholes to come up with measures of
+the magnitude of the up and down movements, which can be used to obtain the binomial tree.
+Having made a case for the binomial model, you may find it surprising that we use the Black-
+Scholes model to value any real options. We do so not only because the model is more compact and
+elegant to present, but because we believe that it will provide a lower bound on the value in most
+cases. To provide a frame of reference, we will present the values that we would have obtained using
+a binomial model in each case.
+From Black-Scholes to Binomial

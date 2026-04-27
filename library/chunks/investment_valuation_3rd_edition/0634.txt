@@ -1,0 +1,34 @@
+ion, we will also assume that the beta
+will decrease to 1, resulting in a drop in cost of equity to 9.60%.
+The return on equity after year 5 will be equal to the stable period cost of equity of 9.60%.
+
+Given the expected growth rate of 3% after year five and the stable ROE of 9.60%, the payout ratio in stable growth is
+68.75%.
+The value of equity at the end of year 5 can be estimated as follows:
+Discounting the terminal value back at the cost of equity for the high growth period:
+Adding the present value of dividends to this number yields the value of equity for Deutsche Bank in early 2009:
+Dividing by the number of shares outstanding at the start of 2009 (581.85 million), we can obtain the value of equity per
+share:
+In June 2009, Deutsche Bank was trading at 48.06 euros per share and looked slightly undervalued.
+WHY EARNINGS ARE NOT CASH FLOWS
+There are some analysts who value banks by discounting their earnings back to the present. They make the argument that
+banks have little or no net capital expenditure needs and that working capital needs (inventory, accounts receivable, etc.) are
+nonexistent. The problem, though, is that they couple the discounting of earnings with an expected growth rate in these
+earnings. This is clearly not consistent.
+  To see why, consider a bank that does pay out 100 percent of its earnings as dividends. If this firm issues no new equity, its
+book equity will stay frozen at current levels forever. If this bank continues to grow its loan portfolio, it will end up with
+capital ratios that are lower than the regulatory minimum sooner rather than later.
+  That is why reinvestment has to include investments in regulatory capital, acquisitions, and other such investments that
+banks need to make to continue to grow. That is also why even mature banks with low growth rates cannot afford to pay out
+100 percent of their earnings as dividends.
+Excess Return Models
+The third approach to valuing financial service firms is to use an excess return model. In such a
+model, the value of a firm can be written as the sum of capital invested currently in the firm and the
+present value of dollar excess returns that the firm expects to make in the future. This section
+considers how this model can be applied to valuing equity in a bank.
+Basic Model
+Given the difficulty associated with defining total capital in a financial service firm, it makes far
+more sense to focus on just equity when using an excess return model to value a financial service
+firm. The value of equity in a firm can be written as the sum of the equity invested in a firm's current
+investments and the expected excess returns to equity investors from these and future investments.
+The most interesting aspect of this model is its focus on excess returns. A firm that invests its equity

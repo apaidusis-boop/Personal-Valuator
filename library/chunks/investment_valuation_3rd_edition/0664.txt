@@ -1,0 +1,19 @@
+ices for Exxon Mobil: 1985 to 2008
+We estimated a bottom–up beta of 0.90 for Exxon Mobil, and then used the Treasury bond rate of 2.5% and
+an equity risk premium of 6.5% to estimate a cost of equity. 
+
+Exxon has $9.4 billion of debt outstanding and a market capitalization of $320.4 billion (4941.63 million shares,
+trading at $64.83/share), resulting in a debt ratio of 2.85 percent. As a AAA-rated company, its cost of debt is
+expected to be 3.75%, reflecting a default spread of 1.25% over the risk-free rate. Using a marginal tax rate
+of 38% (rather than the effective tax rate), we estimate a cost of capital of 8.18% for the firm. 
+Exxon Mobil is assumed to be in stable growth with the operating income growing at 2% a year in perpetuity.
+New investments are expected to generate a return on capital that reflects the normalized operating income
+and current capital invested; this return on capital is used to compute a reinvestment rate.
+Exxon reported pretax operating income in excess of $60 billion in 2008, but that reflects the fact that the average oil price
+during the year was $86.55. By March 2009, the price per barrel of oil had dropped to $45, and the operating income for
+2009 will be much lower. Using the regression results, the expected operating income at this oil price is $34,614 billion:
+This operating income translates into a return on capital of approximately 21% and a reinvestment rate of 9.52%, based on a
+2% growth rate.
+3
+Adding the current cash balance ($32,007 million), subtracting out debt ($9,400 million), and dividing by the number of shares
+(4,941.63 million) yields the value per share of $69.43.

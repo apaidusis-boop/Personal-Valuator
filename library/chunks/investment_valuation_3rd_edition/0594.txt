@@ -1,0 +1,39 @@
+ax operating income by the denominator should yield
+the companion variable. With EV-to-sales, for instance, dividing the after-tax operating income by sales results in the after-
+tax operating margin.
+
+Marketing Strategy and Value
+At the risk of oversimplifying pricing strategy, you can argue that every firm has to decide whether it
+wants to go with a low-price, high-volume strategy (volume leader) or with a high-price, lower-
+volume strategy (price leader). In terms of the variables that link growth to value, this choice will
+determine the profit margin and turnover ratio to use in valuation.
+You could analyze the alternative pricing strategies that are available to a firm by examining the
+impact that each strategy will have on margins and turnover, and valuing the firm under each strategy.
+The strategy that yields the highest value for the firm is, in a sense, the optimal strategy.
+Note that the effect of price changes on turnover ratios will depend in large part on how elastic or
+inelastic the demand for the firm’s products are. Increases in the price of a product will have a
+minimal effect on turnover ratios if demand is inelastic. In this case, the value of the firm will
+generally be higher with a price leader strategy. On the other hand, the turnover ratio could drop more
+than proportionately if the product price is increased and demand is elastic. In this case, firm value
+will increase with a volume leader strategy.
+ILLUSTRATION 20.5: 
+Choosing between a High-Margin
+and a Low-Margin Strategy
+Assume that a firm has to choose between the two pricing strategies. In the first strategy, the firm will charge higher prices
+(resulting in higher net margins) and sell less (resulting in lower turnover ratios). In the second strategy, the firm will charge
+lower prices and sell more. Assume that the firm has done market testing and arrived at the following inputs:
+High Margin,
+Low Margin,
+Low Volume
+High Volume
+Net profit margin
+10%
+5%
+Sales/book value of equity
+2.5
+4.0
+Assume, in addition, that the firm is expected to pay out 20% of its earnings as dividends over the next five years, and 50%
+of earnings as dividends after that. The growth rate after year 5 is expected to be 8%. The book value of equity per share is
+$10. The cost of equity for the firm is 11.5%.
+HIGH-MARGIN STRATEGY
+LOW-MARGIN STRATEGY

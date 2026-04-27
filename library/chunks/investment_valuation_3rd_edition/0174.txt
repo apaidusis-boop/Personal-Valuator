@@ -1,0 +1,42 @@
+the
+currencies involved, since interest rate parity governs the relationship between spot and forward
+rates. For instance, the forward 
+rate between the Thai baht and the U.S. dollar can be written as
+
+follows:
+For example, if the current spot rate is 38.10 Thai baht per U.S. dollar, the 10-year forward rate is
+61.36 baht per dollar, and the current 10-year U.S. Treasury bond rate is 5 percent, the 10-year Thai
+risk-free rate (in nominal baht) can be estimated as follows:
+Solving for the Thai interest rate yields a 10-year risk-free rate of 10.12 percent. The biggest
+limitation of this approach, however, is that forward rates are difficult to come by for periods beyond
+a year
+5
+ for many of the emerging 
+markets, where we would be most interested in using them.
+Risk-Free Rate Conversion
+If the only reason for differences in risk-free rates in different currencies is 
+expected inflation, you
+can convert the risk-free rate in a mature market currency (U.S. dollars, euros) into a risk-free rate in
+an emerging market 
+currency, using differences in inflation across currencies.
+For example, assume that the risk-free rate in U.S. dollars is 4 percent and that the 
+expected
+inflation rate in Indonesian rupiah is 11 percent (compared to the 2 percent inflation rate in U.S.
+dollars). The Indonesian risk-free rate can be written as follows:
+To make this conversion, we still have to estimate the expected inflation in the local currency and
+the mature market currency.
+What if none of these choices listed work? In other words, what if the government has no local
+currency bonds outstanding, there are no forward or futures contract on the currency, and/or expected
+inflation in the local currency is difficult to estimate? Faced with these problems, it is best to switch
+and do your valuation in a different currency. Thus, rather than value a Nigerian or Vietnamese
+company in the local currency, you would value it in euros or dollars. You will still have to estimate
+expected exchange rates in the future in order to convert local currency cash flows to foreign currency
+cash flows, but that may be a more manageable exercise.
+EQUITY RISK PREMIUM
+The notion that risk matters, and that riskier investments should have a higher expected return than
+safer investments to be considered good investments, is intuitive. Thus, the expected return on any
+investment can be written as the sum of the risk-free rate and an extra return to compensate for the
+risk. The disagreement, in both theoretical and practical terms, remains on how to measure this risk,
+and how to convert the risk measure into an expected return that compensates for risk. This section
+looks at the estimation of an appropriate equity risk premium (ERP) to use in risk and return models,
+in general, and in the capital asset pricing model, in particular.

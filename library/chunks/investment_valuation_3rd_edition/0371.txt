@@ -1,0 +1,40 @@
+, and its free cash flows to equity over this four-year period are higher than what it paid out.
+DDMst.xls:
+
+This spreadsheet allows you to value a stable growth firm, with stable firm characteristics
+
+(beta and return on equity) and dividends that roughly match cash flows.
+Two-Stage Dividend Discount Model
+The two-stage growth model allows for two stages of growth—an initial phase where the growth rate
+is not a stable growth rate and a subsequent steady state where the growth rate is stable and is
+expected to remain so for the long term. While, in most cases, the growth rate during the initial phase
+is higher than the stable growth rate, the model can be adapted to value companies that are expected
+to post low or even negative growth rates for a few years and then revert back to stable growth.
+The Model
+The model is based on two stages of growth, an extraordinary growth phase that lasts n years, and a
+stable growth phase that lasts forever after that:
+where DPS
+t
+ = Expected dividends per share in year t 
+k
+e
+ = Cost of equity (hg: high growth period; st: stable growth period) 
+P
+n
+ = Price at the end of year n 
+g = Extraordinary growth rate for the first n years 
+g
+n
+ = Growth rate forever after year n
+In the case where the extraordinary growth rate (g) and payout ratio are unchanged for the first n
+years, this formula can be simplified as follows:
+where the inputs are as defined previously.
+Calculating the Terminal Price
+The same constraint that applies to the growth rate for the Gordon growth model (i.e., that the growth
+rate in the firm is comparable to the nominal growth rate in the economy) applies for the terminal
+growth rate (g
+n
+) in this model as well.
+In addition, the payout ratio has to be consistent with the estimated growth rate. If the growth rate is
+expected to drop significantly after the initial growth phase, the payout ratio should be higher in the
+stable phase than in the growth phase. A stable firm can pay out more of its earnings in dividends than

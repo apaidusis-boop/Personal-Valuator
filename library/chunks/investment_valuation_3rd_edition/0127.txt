@@ -1,0 +1,37 @@
+xercise the option. The more uncertain you are about the stock price,
+the more margin for error you have to give yourself when you exercise the option, to ensure that
+you are in fact earning a profit.
+
+CHAPTER 6
+Market Efficiency—Definition, Tests, and Evidence
+What is an efficient market? What does it imply for investment and valuation models? Clearly, market
+efficiency is a concept that is controversial and attracts strong views, pro and con, partly because of
+differences between individuals about what it really means, and partly because whether markets are
+efficient or not is a core belief that in large part determines how an investor approaches investing.
+This chapter provides a definition of market efficiency, considers the implications of an efficient
+market for investors, and summarizes some of the basic approaches that are used to test investment
+schemes, thereby proving or disproving market efficiency. It also provides a summary of the
+voluminous research on whether markets are efficient.
+MARKET EFFICIENCY AND INVESTMENT
+VALUATION
+The question of whether markets are efficient, and, if not, where the inefficiencies lie, is central to
+investment valuation. If markets are in fact efficient, the market price provides the best estimate of
+value, and the process of valuation becomes one of justifying the market price. If markets are not
+efficient, the market price may deviate from the true value, and the process of valuation is directed
+toward obtaining a reasonable estimate of this value. Those who do valuation well, then, will be able
+to make higher returns than other investors because of their capacity to spot under- and overvalued
+firms. To make these higher returns, though, markets have to correct their mistakes (i.e., become
+efficient) over time. Whether these corrections occur over six months or over five years can have a
+profound impact on which valuation approach an investor chooses to use and the time horizon that is
+needed for it to succeed.
+There is also much that can be learned from studies of market efficiency, which highlight segments
+where the market seems to be inefficient. These inefficiencies can provide the basis for screening all
+stocks to come up with a subsample that is more likely to contain undervalued stocks. Given the size
+of the universe of stocks, this not only saves time for the analyst, but it increases the odds significantly
+of finding under- and overvalued stocks. For instance, some efficiency studies suggest that stocks that
+are neglected by institutional investors are more likely to be undervalued and earn excess returns. A
+strategy that screens firms for low institutional investment (as a percentage of the outstanding stock)
+may yield a subsample of neglected firms, which can then be valued to arrive at a portfolio of
+undervalued firms. If the research is correct, the odds of finding undervalued firms should increase in
+this subsample.
+WHAT IS AN EFFICIENT MARKET?

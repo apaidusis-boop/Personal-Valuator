@@ -1,0 +1,81 @@
+firm. In
+contrast, when an intangible asset is acquired from an external party, it is treated as an asset.
+Intangible assets have to be amortized over their expected lives, with a maximum amortization
+
+period of 40 years. The standard practice is to use straight-line amortization. For tax purposes,
+however, firms are generally not allowed to amortize goodwill or other intangible assets with no
+specific lifetime, though recent changes in the tax law allow for some flexibility in this regard.
+Goodwill
+Goodwill is the by-product of acquisitions. When a firm acquires another firm, the purchase price is
+first allocated to tangible assets, and the excess price is then allocated to any intangible assets such as
+patents or trade names. Any residual becomes goodwill. While accounting principles suggest that
+goodwill captures the value of any intangibles that are not specifically identifiable, it is really a
+reflection of the difference between the book value of assets of the acquired firm and the market value
+paid in the acquisition. This approach is called purchase accounting, and goodwill is amortized over
+time. Until 2000, firms that did not want to see this charge against their earnings often used an
+alternative approach called pooling accounting, in which the purchase price never shows up in the
+balance sheet. Instead, the book values of the two companies involved in the merger were aggregated
+to create the consolidated balance of the combined firm. The rules on acquisition accounting have
+changed substantially in the past decade both in the United States and internationally. Not only is
+purchase accounting required on all acquisitions, but firms are no longer allowed to automatically
+amortize goodwill over long periods (as they were used to doing). Instead, acquiring firms are
+required to reassess the values of the acquired entities every year; if the values have dropped since
+the acquisition, the value of goodwill must be reduced (impaired) to reflect the decline in value. If the
+acquired firm's values have gone up, though, the goodwill cannot be increased to reflect this change.
+3
+ILLUSTRATION 3.1: Asset Values for Boeing and the Home
+Depot in 1998
+The following table summarizes asset values, as measured in the balance sheets of Boeing, the aerospace giant, and the
+Home Depot, a building supplies retailer, at the end of the 1998 financial year (in millions of dollars):
+Boeing
+Home Depot
+Net fixed assets
+$ 8,589
+$ 8,160
+Goodwill
+$ 2,312
+$    140
+Investments and notes receivable
+$        41
+$         0
+Deferred income taxes
+$    411
+$         0
+Prepaid pension expense
+$ 3,513
+$         0
+Customer financing
+$ 4,930
+$         0
+Other assets
+$    542
+$    191
+Current Assets
+Cash
+$ 2,183
+$        62
+Short-term marketable investments
+$    279
+$         0
+Accounts receivables
+$ 3,288
+$    469
+Current portion of customer financing
+$    781
+$         0
+Deferred income taxes
+$ 1,495
+$         0
+Inventories
+$ 8,349
+$ 4,293
+Other current assets
+$         0
+$    109
+Total current assets
+$16,375
+$ 4,933
+Total assets
+$36,672
+$13,465
+There are five points worth noting about these asset values:

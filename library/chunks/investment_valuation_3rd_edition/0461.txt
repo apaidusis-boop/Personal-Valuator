@@ -1,0 +1,37 @@
+– Current debt of $16,682 million) and the stock price of $24.34. We then divide the increase in
+firm value of $1,763 million by the remaining shares outstanding:
+18
+ See Inselbag and Kaufold (1997).
+
+CHAPTER 16
+Estimating Equity Value per Share
+Chapter 15 considered how best to estimate the value of the operating assets of the firm. To get from
+that value to the firm value, you have to consider the value of cash, marketable securities, and other
+nonoperating assets held by a firm. In particular, you have to value holdings in other firms and deal
+with a variety of accounting techniques used to record such holdings. To get from firm value to equity
+value, you have to determine the value of the nonequity claims in the firm that have to be netted out.
+Once you have valued the equity in a firm, it may appear to be a relatively simple exercise to
+estimate the value per share. It seems that all you need to do is divide the value of the equity by the
+number of shares outstanding. But, in the case of some firms, even this simple exercise can become
+complicated by the presence of management and employee options. This chapter discusses the
+magnitude of this option overhang on valuation and then considers ways of incorporating the effect
+into the value per share.
+VALUE OF NONOPERATING ASSETS
+Firms have a number of assets on their books that can be categorized as nonoperating assets. The first
+and most obvious one is cash and near-cash investments—investments in riskless or very low-risk
+investments that most companies with large cash balances make. The second is investments in
+equities and bonds of other firms, sometimes for investment reasons and sometimes for strategic ones.
+The third is holdings in other firms, private and public, which are categorized in a variety of ways by
+accountants. Finally, there are assets that firms own that do not generate cash flows but nevertheless
+could have value—say, undeveloped land in New York City or Tokyo.
+Cash and Near-Cash Investments
+Investments in short-term government securities or commercial paper, which can be converted into
+cash quickly and with very low cost, are considered near-cash investments. This section considers
+how best to deal with these investments in valuation.
+Operating Cash Requirements
+If a firm needs cash for its operations—an operating cash balance—and this cash does not earn a fair
+market return you should consider such cash part of working capital requirements rather than as a
+source of additional value. Any cash and near-cash investments that exceed the operating cash
+requirements can be then viewed as non-operating assets and added to the value of operating assets.
+How much cash does a firm need for its operations? The answer depends on both the firm and the
+economy in which the firm operates. A small retail firm in an emerging market, where cash

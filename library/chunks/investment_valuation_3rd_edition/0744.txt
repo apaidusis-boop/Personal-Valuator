@@ -1,0 +1,40 @@
+ft was revalued at its optimal debt ratio. We assumed that the existing investment policy
+was optimal.
+5
+ BIZCOMPS, IBA Market Data and Pratt Stats all provide transaction data for private businesses.
+
+CHAPTER 
+25
+Aquisitions and Takeovers
+Firms are acquired for a number of reasons. In the 1960s and 1970s, firms such as Gulf & Western
+and ITT built themselves into conglomerates by acquiring firms in other lines of business. In the
+1980s, corporate giants like Time Inc., Beatrice Foods, and RJR Nabisco were acquired by other
+firms, their own management, or wealthy raiders, who saw potential value in restructuring or
+breaking up these firms. The 1990s saw a wave of consolidation in the media business as
+telecommunications firms acquired entertainment firms, and entertainment firms acquired cable
+businesses. Through time, firms have also acquired or merged with other firms to gain the benefits of
+synergy, in the form of either higher growth or lower costs.
+Acquisitions seem to offer firms a shortcut to their strategic objectives, but the process has its
+costs. This chapter examines the four basic steps in an acquisition, starting with establishing an
+acquisition motive, continuing with the identification and valuation of a target firm, and following up
+with structuring and paying for the deal. The final, and often the most difficult, step is making the
+acquisition work after the deal is consummated.
+BACKGROUND ON ACQUISITIONS
+When we talk about acquisitions or takeovers, we are talking about a number of different types of
+transactions. These transactions can range from one firm merging with another firm to create a new
+firm to managers of a firm acquiring the firm from their own stockholders and creating a private firm.
+This section begins by looking at the different forms taken by acquisitions, continues by providing an
+overview on the acquisition process, and concludes by examining the history of the acquisitions in the
+United States.
+Classifying Acquisitions
+There are several ways in which an acquisition can be structured. In a merger, the boards of directors
+of two firms agree to combine and seek stockholder approval for the combination. In most cases, at
+least 50 percent of the shareholders of the target and the bidding firm have to agree to the merger. The
+target firm ceases to exist and becomes part of the acquiring firm; Digital Equipment Corporation was
+absorbed by Compaq after it was acquired in 1997. In a consolidation, a new firm is created after the
+merger, and both the acquiring firm and target firm stockholders receive stock in this firm; Citigroup,
+for instance, was the firm created after the consolidation of Citicorp and Travelers Group.
+In a tender offer, one firm offers to buy the outstanding stock of the other firm at a specific price and
+communicates this offer in advertisements and mailings to stockholders. By doing so, it bypasses the
+incumbent management and board of directors of the target firm. Consequently, tender offers are often
+used to carry out hostile takeovers. The acquired firm will continue to exist as long as there are

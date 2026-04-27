@@ -1,0 +1,21 @@
+ado, capturando assim o aumento e diminuição dos investimentos em manutenção conforme projetamos crescimento e términos de concessões.
+
+**Projeções de CapEx de geração** — *Elaboração: Suno Research.*
+
+Assim, para de fato determinar os resultados da companhia em geração, partimos de uma receita bruta formada pela energia comercializada pelo preço médio de cada ano, aplicando deduções de 15% conforme observado entre 2019 e 2023.
+
+Para determinar a margem operacional, observamos os custos e despesas operacionais conforme a evolução da sua capacidade instalada de 2019 a 2023, inflacionando o patamar de 2022 (mais elevado no período) com uma relação de custos e despesas operacionais por MW instalado, capturando assim o aumento e diminuição da linha conforme projetamos crescimento e términos de concessões.
+
+**Projeções dos custos e despesas operacionais** — *Elaboração: Suno Research.*
+
+Assim, considerando o patamar médio de depreciação e amortização em 7% da receita líquida, bem como IR e CSLL em 20% do resultado operacional (média dos últimos cinco anos + 5 p.p.) e uma taxa de desconto de 12,00%, apresentamos nossas estimativas para a próxima década:
+
+**Projeções de geração** — *Elaboração: Suno Research.*
+
+Deste modo, replicando as mesmas premissas até o término das respectivas concessões (última em 2058) e descontando todos os fluxos a 12%, chegamos a um valor presente líquido de R$ 137,0 bilhões estimado para a parcela de geração da Axia.
+
+### Transmissão
+
+**No segmento, partimos do princípio que cada ciclo da Receita Anual Permitida (RAP) vai de julho de um ano até junho do ano seguinte, de modo a projetar a receita bruta no final de cada ano sendo composta por metade do ciclo anterior (1T e 2T) + metade do ciclo vigente (3T e 4T).**
+
+Por exemplo, a RAP recebida pelas empresas de transmissão em 2022 foi metade do ciclo 2021-2022 (1T22 e 2T22) e metade do ciclo 2022-2023 (3T22 e 4T22).

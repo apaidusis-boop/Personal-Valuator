@@ -1,0 +1,16 @@
+vate steel firm can be
+estimated by looking at the average betas for publicly traded steel companies. Any differences in
+financial or even operating leverage can be adjusted for in the final estimate.
+
+In making the adjustment of unlevered betas for financial leverage, we do run into a problem with
+private firms, since the debt-to-equity ratio that should be used is a market value ratio. While many
+analysts use the book value debt-to-equity ratio to substitute for the market ratio for private firms, we
+would suggest one of the following alternatives:
+Assume that the private firm's market debt-to-equity ratio will resemble the average for the
+industry. If this is the case, the levered beta for the private firm can be written as: 
+Use the private firm's target debt-to-equity ratio (if management is willing to specify such a
+target) or its optimal debt ratio (if one can be estimated) to estimate the beta: 
+The adjustment for operating leverage is simpler and is based on the proportion of the private firm's
+costs that are fixed. If this proportion is greater than is typical in the industry, the beta used for the
+private firm should be higher than the average for the industry.
+spearn.xls:

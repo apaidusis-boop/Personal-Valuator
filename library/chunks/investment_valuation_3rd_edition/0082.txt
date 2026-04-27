@@ -1,0 +1,47 @@
+ssets in the portfolio. This property, in conjunction with the absence of arbitrage, leads to the
+conclusion that expected returns should be linearly related to betas. To see why, assume that there is
+
+only one factor and three portfolios. Portfolio A has a beta of 2.0 and an expected return of 20
+percent; portfolio B has a beta of 1.0 and an expected return of 12 percent; and portfolio C has a beta
+of 1.5 and an expected return of 14 percent. Note that investors can put half of their wealth in
+portfolio A and half in portfolio B and end up with portfolios with a beta of 1.5 and an expected
+return of 16 percent. Consequently no investor will choose to hold portfolio C until the prices of
+assets in that portfolio drop and the expected return increases to 16 percent. By the same rationale,
+the expected returns of every portfolio should be a linear function of the beta. If they were not, we
+could combine two other portfolios, one with a higher beta and one with a lower beta, to earn a
+higher return than the portfolio in question, creating an opportunity for arbitrage. This argument can be
+extended to multiple factors with the same results. Therefore, the expected return on an asset can be
+written as:
+where R
+f
+ = Expected return on a zero-beta portfolio 
+E(R
+j
+) = Expected return on a portfolio with a factor beta of 1 for factor j, and zero for all other
+factors (where j = 1, 2, ... , K factors)
+The terms in the brackets can be considered to be risk premiums for each of the factors in the model.
+The capital asset pricing model can be considered to be a special case of the arbitrage pricing
+model, where there is only one economic factor driving marketwide returns, and the market portfolio
+is the factor.
+The APM in Practice
+The arbitrage pricing model requires estimates of each of the factor betas and factor risk premiums in
+addition to the riskless rate. In practice, these are usually estimated using historical data on asset
+returns and a factor analysis. Intuitively, in a factor analysis, we examine the historical data looking
+for common patterns that affect broad groups of assets (rather than just one sector or a few assets). A
+factor analysis provides two output measures:
+1.
+ It specifies the number of common factors that affected the historical return data.
+2.
+ It measures the beta of each investment relative to each of the common factors and provides an
+estimate of the actual risk premium earned by each factor.
+The factor analysis does not, however, identify the factors in economic terms. In summary, in the
+arbitrage pricing model the market risk is measured relative to multiple unspecified macroeconomic
+variables, with the sensitivity of the investment relative to each factor being measured by a beta. The
+number of factors, the factor betas, and the factor risk premiums can all be estimated using the factor
+analysis.
+Multifactor Models for Risk and Return
+The arbitrage pricing model’s failure to identify the factors specifically in the model may be a
+statistical strength, but it is an intuitive weakness. The solution seems simple: Replace the
+unidentified statistical factors with specific economic factors, and the resultant model should have an
+economic basis while still retaining much of the strength of the arbitrage pricing model. That is
+precisely what multifactor models try to do.

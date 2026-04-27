@@ -1,0 +1,41 @@
+debt ratio represents the proportion of the market value of a firm that comes from debt financing.
+For publicly traded firms, we use the market prices of publicly traded stocks and bonds to arrive at
+
+this ratio. Since neither input will be available for private firms, we have to consider one of the
+following options:
+In estimating levered betas, we suggested that the industry-average or target debt ratios
+could be used in the computation. Consistency demands that we use the same debt ratio for
+computing the cost of capital. Thus, if the industry-average debt-to-equity ratio is used to
+estimate the levered beta, the industry-average debt-to-capital ratio should be used to
+estimate the cost of capital. If the target debt-to-equity ratio is used for the levered beta
+computation, the target debt-to-capital ratio should be used in the cost of capital calculation.
+While market values of equity and debt are not available for private firms, we can use our
+estimated values of equity and debt from the valuation, though this creates circular reasoning
+in the analysis. You need the cost of capital (and the debt ratio) to estimate firm and equity
+value, and you need the equity value to estimate the cost of capital. You could overcome this
+problem by iterating toward a value—you could start with the book-debt ratio and cost of
+capital, estimate a firm and equity value, use these values to arrive at a new debt ratio and
+cost of capital, and reestimate firm and equity value. You would continue until the debt and
+equity values in the cost of capital computation converge on the estimated values.
+2
+IILLUSTRATION 24.5: Estimating Cost of Debt
+InfoSoft has no debt, and we did not estimate a cost of debt for the firm. For Chez Pierre, we estimated an interest coverage
+ratio based on the operating income of $400,000 and its annual lease expenses of $120,000:
+That interest-coverage ratio yielded a synthetic rating of BB based on 
+Table 24.1
+.
+Adding the default spread of 4%, for a BB rated bond, to the risk-free rate of 3.5% provides a pretax cost of debt of 7.5%
+for the firm.
+Aftertax cost of debt = 7.5%(1 − .40) = 4.5%
+ILLUSTRATION 24.6: Estimating Cost of Capital
+To estimate the cost of capital for Chez Pierre and InfoSoft, we will stay consistent with the assumptions we have made
+about leverage so far in this chapter. Chez Pierre, we assumed, would stay close to industry average debt-to-equity ratio of
+22.08%, which translates into a market debt to capital ratio of 18.09%. For InfoSoft, we stayed with the assumption that the
+firm has a debt ratio of 0%.
+For Chez Pierre, given that we are valuing the firm for sale to an undiversified individual, we estimated a total beta of 2.83.
+Using the Treasury bond rate of 3.5% prevalent at the time of this valuation and a market risk premium of 5%, we estimate
+a cost of equity of 17.65%.
+Using the after-tax cost of debt of 4.5% estimated in Illustration 24.5, we can estimate the cost of capital.
+For InfoSoft, where we are pricing an initial public offering, we use the market beta estimate of 1.60. Using the Treasury
+bond rate of 3.5% and a risk premium of 5% yields a cost of equity of 11.50%.
+Since the firm has no debt, the cost of capital is also 11.50%.

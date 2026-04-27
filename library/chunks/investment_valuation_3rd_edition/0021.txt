@@ -1,0 +1,33 @@
+asset 
+CF to firm
+t
+ = Expected cash flow to firm in period t 
+WACC = Weighted average cost of capital
+While these approaches use different definitions of cash flow and discount rates, they will yield
+
+consistent estimates of value for equity as long as you are consistent in your assumptions in valuation.
+The key error to avoid is mismatching cash flows and discount rates, since discounting cash flows to
+equity at the cost of capital will lead to an upwardly biased estimate of the value of equity, while
+discounting cash flows to the firm at the cost of equity will yield a downwardly biased estimate of the
+value of the firm. Illustration 2.1 shows the equivalence of equity and firm valuation.
+ILLUSTRATION 2.1:  Effects of Mismatching Cash Flows
+and Discount Rates
+Assume that you are analyzing a company with the following cash flows for the next five years. Assume also that the cost
+of equity is 13.625% and the firm can borrow long term at 10%. (The tax rate for the firm is 50%.) The current market
+value of equity is $1,073, and the value of debt outstanding is $800.
+The cost of equity is given as an input and is 13.625%, and the after-tax cost of debt is 5%.
+Given the market values of equity and debt, we can estimate the cost of capital.
+METHOD 1: DISCOUNT CASH FLOWS TO EQUITY AT COST OF EQUITY TO GET VALUE OF EQUITY
+We discount cash flows to equity at the cost of equity:
+METHOD 2: DISCOUNT CASH FLOWS TO FIRM AT COST OF CAPITAL TO GET VALUE OF FIRM
+Note that the value of equity is $1,073 under both approaches. It is easy to make the mistake of discounting cash flows to
+equity at the cost of capital or the cash flows to the firm at the cost of equity.
+ERROR 1: DISCOUNT CASH FLOWS TO EQUITY AT COST OF CAPITAL TO GET TOO HIGH A VALUE
+FOR EQUITY
+ERROR 2: DISCOUNT CASH FLOWS TO FIRM AT COST OF EQUITY TO GET TOO LOW A VALUE
+FOR THE FIRM
+The effects of using the wrong discount rate are clearly visible in the last two calculations (Error 1 and Error 2). When the
+cost of capital is mistakenly used to discount the cash flows to equity, the value of equity increases by $175 over its true
+value ($1,073). When the cash flows to the firm are erroneously discounted at the cost of equity, the value of the firm is
+understated by $260. It must be pointed out, though, that getting the values of equity to agree with the firm and equity
+valuation approaches can be much more difficult in practice than in this example. We return to this subject in Chapters 14

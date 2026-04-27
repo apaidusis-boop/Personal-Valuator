@@ -1,0 +1,44 @@
+from the operation of real estate held less than four years and income from the sale of securities
+held less than one year. REITs cannot engage in active real estate operations. They cannot operate a
+
+business, develop or trade properties for sale, or sell more than five properties per year. A REIT is
+prohibited from entering into tax-free exchanges to acquire properties. Although no dividend payout
+restrictions exist for MLPs, a high payout ratio is likely, since partners are taxed regardless of
+whether they actually receive the income or the MLP retains it and the evidence suggests that MLPs
+pay out a high proportion of their earnings as dividends. Although MLPs are restricted to engaging in
+real estate activities, there are no restrictions on the nature or management of these activities.
+Consequently, MLPs can actively and directly engage in the real estate trade or business. There are
+no MLP restrictions on the number of properties that can be sold in any given year. Business trusts
+and corporations have no restrictions on dividend payout and can engage in any real estate or non–
+real estate activity except those prohibited in the declaration of trust or corporate charter,
+respectively.
+The implications for valuation are significant. When valuing REITs and MLPs, you have to assume
+much of the earnings will be paid out in dividends. If you do not assume external financing, your
+estimates of expected growth in per share earnings will be low, no matter how well managed the
+entities are. If you do allow for external financing, you can have high expected growth in net income
+but the number of shares in the firm will have to increase proportionately, thus limiting the potential
+price appreciation on a per-share basis. The restrictions on investment policy will constrain how
+much returns on capital can be changed over time.
+CONCLUSION
+There is much that is said in this chapter that repeats what was said in earlier chapters on stock
+valuation. This is because a real estate investment can (and should) be valued with the same
+approaches used to value financial assets. While the structure and caveats of discounted cash flow
+models remain unchanged for real estate investments, there are some practical problems that have to
+be faced and overcome. In particular, real estate investments do not trade regularly, and risk
+parameters (and discount rates) are difficult to estimate. A real estate investment can also be valued
+using comparable investments, but the difficulties in identifying comparable assets and controlling for
+differences across them remain significant problems.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ An analyst who looks at real estate decides to apply the capital asset pricing model to estimate
+the risk (beta) for real estate. He regresses returns on a real estate index (based on appraised
+values) against returns on a stock index, and estimates a beta of 0.20 for real estate. Would you
+agree with this estimate? If you do not, what might be the sources of your disagreement?
+2.
+ An alternative way of estimating risk for real estate is to use prices on traded REITs to compute
+returns, and to regress these returns against a stock index to arrive at a beta estimate. Would this
+beta be a more reliable estimate of risk? Why or why not?
+3.
+ The risk for real estate can be viewed as a derived demand. If this is the case, the risk of real
+estate can be estimated from the underlying business it supports. Under this view, what would be

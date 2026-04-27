@@ -1,0 +1,51 @@
+n the market.
+It is unclear how much the model adds in value to investment strategies that use PE ratios or
+dividend yields to screen stocks. Jacobs and Levy (1988b) indicate that the marginal gain is
+
+relatively small.
+Attribute
+Average Excess Return per Quarter: 1982–1987
+Dividend discount model
+0.06% per quarter
+Low P/E ratio
+0.92% per quarter
+Book/price ratio
+0.01% per quarter
+Cash flow/price
+0.18% per quarter
+Sales/price ratio
+0.96% per quarter
+Dividend yield
+–0.51% per quarter
+This suggests that using low PE ratios to pick stocks adds 0.92 percent to your quarterly returns,
+whereas using the dividend discount model adds only a further 0.06 percent to quarterly returns. If, in
+fact, the gain from using the dividend discount model is that small, screening stocks on the basis of
+observables (such as PE ratio or cash flow measures) may provide a much larger benefit in terms of
+excess returns.
+Tax Disadvantages from High-Dividend Stocks
+Portfolios created with the dividend discount model are generally characterized by high dividend
+yield, which can create a tax disadvantage if dividends are taxed at a rate greater than capital gains or
+if there is a substantial tax timing liability associated with dividends.
+5
+ Since the excess returns
+uncovered in the studies presented earlier are pretax to the investor, the introduction of personal taxes
+may significantly reduce or even eliminate these excess returns.
+In summary, the dividend discount model’s impressive results in studies looking at past data have to
+be considered with caution. For a tax-exempt investment with a long time horizon, the dividend
+discount model is a good tool (though it may not be the only one) to pick stocks. For a taxable
+investor, the benefits are murkier, since the tax consequences of the strategy have to be considered.
+For investors with shorter time horizons, the dividend discount model may not deliver on its
+promised excess returns because of the year-to-year volatility in its performance.
+CONCLUSION
+When you buy stock in a publicly traded firm, the only cash flow you receive directly from this
+investment in expected dividends. The dividend discount model builds on this simple proposition and
+argues that the value of a stock then has to be the present value of expected dividends over time.
+Dividend discount models can range from simple growing perpetuity models such as the Gordon
+growth model, where a stock’s value is a function of its expected dividends next year, the cost of
+equity, and the stable growth rate, to complex three-stage models, where payout ratios and growth
+rates change over time. While the model is often criticized as being of limited value, it has proven to
+be surprisingly adaptable and useful in a wide range of circumstances. It may be a conservative
+model that finds fewer and fewer undervalued firms as market prices rise relative to fundamentals
+(earnings, dividends, etc.); but that can also be viewed as a strength. Tests of the model also seem to
+indicate its usefulness in gauging value, though much of its effectiveness may be derived from its
+finding low-PE-ratio, high-dividend-yield stocks to be undervalued.

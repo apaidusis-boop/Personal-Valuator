@@ -1,0 +1,18 @@
+t
+firms that operate in stable businesses should be much more willing to take on financial leverage.
+Utilities, for instance, have historically had high debt ratios but have not had high betas, mostly
+
+because their underlying businesses have been stable and fairly predictable.
+ILLUSTRATION 8.3: Effects of Leverage on Betas: Boeing
+From the regression for the period from 1996 to 2000, Boeing had a historical beta of 0.56. Since this regression uses stock
+prices of Boeing over this period, we began by estimating the average debt-to-equity ratio between 1996 and 2000, using
+market values for debt and equity.
+The beta over the 1996–2000 period reflects this average leverage. To estimate the unlevered beta over the period, a
+marginal tax rate of 35% is used:
+The unlevered beta for Boeing over the 1996–2000 period is 0.51. The levered beta at different levels of debt can then be
+estimated:
+For instance, if Boeing were to increase its debt equity ratio to 10%, its equity beta will be:
+If the debt equity ratio were raised to 25%, the equity beta would be:
+The following table summarizes the beta estimates for different levels of financial leverage ranging from 0% to 90% debt.
+As Boeing's financial leverage increases, the beta increases concurrently.
+levbeta.xls.

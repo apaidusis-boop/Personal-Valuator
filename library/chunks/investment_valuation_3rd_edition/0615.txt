@@ -1,0 +1,43 @@
+de
+at a higher value per subscriber than comparable firms.
+You could make similar statements about value per customer.
+ILLUSTRATION 20.16: Cascading Values: Value per
+Member and Social Media Companies
+
+In May 2011, Linkedin became the first of the major social media companies to go public to a rapturous response: The stock
+price doubled on the offering day and the company was valued at about $10 billion, even though it had revenues of only $243
+million. At about the same time, Microsoft acquired Skype for $8.5 billion, though Skype reported an operating loss of $7
+million in the prior year. Facebook and Twitter, while not public, also commanded lofty valuations in private markets for
+shares in the companies.
+One justification for the high valuations was the number of members/users of the resources offered by these companies.
+The following table lists the four social media companies, the market (or estimated) values of these companies, the value per
+user/member, and a more conventional EV/sales multiple:
+Note that the values for Skype and Linkedin represent public transactions, whereas the estimated values for Facebook and
+Twitter are based on private transactions. All four of the companies look hopelessly overvalued on the EV/sales multiple,
+with Twitter trading at 4,615 times revenues in 2010. On the value/member dimension, though, Twitter looks cheap, and
+Microsoft seems to have bought Skype at a bargain.
+In making these comparisons, though, note that we are assuming that the revenue models for all four firms are similar and
+will generate roughly the same value per member (user). It is possible that Linkedin, as a professional, business-oriented site,
+can generate higher value per member and that it will be tougher for Twitter to commercialize its site, but at this stage in the
+process, it is entirely speculative.
+CONCLUSION
+The price-to-sales multiple and value-to-sales ratio are widely used to value technology firms and to
+compare value across these firms. An analysis of the fundamentals highlights the importance of profit
+margins in determining these multiples, in addition to the standard variables—the dividend payout
+ratio, the cost of equity, and the expected growth rates in net income for price to sales, and the
+reinvestment rate, cost of capital, and growth in property income for value to sales. Comparisons of
+revenue multiples across firms have to take into account differences in profit margins. One approach
+is to look for mismatches—low margins and high revenue multiples suggesting overvalued firms and
+high margins and low revenue multiples suggesting undervalued firms. Another approach that controls
+for differences in fundamentals is the cross-sectional regression approach, where revenue multiples
+are regressed against fundamentals across firms in a business, an entire sector, or the market.
+Sector-specific multiples relate value to sector-specific variables, but they have to be used with
+caution. It is often difficult to compare these multiples across firms without making stringent
+assumptions about their operations and growth potential.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Longs Drug Stores, a large U.S. drugstore chain operating primarily in Northern California, had
+sales per share of $122 in 1993, on which it reported earnings per share of $2.45 and paid a
+dividend per share of $1.12. The company is expected to grow 6% in the long term, and has a beta
+of 0.90. The current T-bond rate is 7%, and the market risk premium is 5.5%.

@@ -1,0 +1,39 @@
+and 2009 was 14.98%.
+
+Using these averages for the reinvestment rate and return on capital generates a growth rate of 12.51%:
+This does seem like a more sustainable value for the future.
+fundgrEB.xls:
+
+This dataset on the Web summarizes reinvestment rates and return on capital by industry
+group in the United States for the most recent quarter.
+NEGATIVE REINVESTMENT RATES: CAUSES AND
+CONSEQUENCES
+The reinvestment rate for a firm can be negative if its depreciation exceeds its capital expenditures or if the working capital
+declines substantially during the course of the year. For most firms, this negative reinvestment rate will be a temporary
+phenomenon reflecting lumpy capital expenditures or volatile working capital. For these firms, the current year's
+reinvestment rate (which is negative) can be replaced with an average reinvestment rate over the past few years or an
+industry average reinvestment rate. For other firms, the negative reinvestment rate may reflect our failure to incorporate
+acquisitions into capital expenditures (if the firm grows through acquisitions) or to capitalize R&D (or like expenses). For
+some firms, though, the negative reinvestment rate may be deliberate and how we deal with it will depend on why the firm is
+embarking on this path:
+Firms that have overinvested in capital equipment or working capital in the past may be able to live off past
+investment for a number of years, reinvesting little and generating higher cash flows for that period. If this is
+the case, we should use the negative reinvestment rate in forecasts and estimate growth based on
+improvements in return on capital. Once the firm has reached the point where it is efficiently using its
+resources, though, we should change the reinvestment rate to reflect expected growth.
+The more extreme scenario is a firm that has decided to liquidate itself over time, by not replacing assets as
+they become run-down and by drawing down working capital. In this case, the expected growth should be
+estimated using the negative reinvestment rate. Not surprisingly, this will lead to a negative expected growth
+rate and declining earnings over time.
+Positive and Changing Return on Capital Scenario
+The analysis in the preceding section is based on the assumption that the return on capital remains
+stable over time. If the return on capital changes over time, the expected growth rate for the firm will
+have a second component, which will increase the growth rate if the return on capital increases and
+decrease the growth rate if the return on capital decreases.
+For example, a firm that sees its return on capital improve from 10 to 11 percent while maintaining a
+reinvestment rate of 40 percent will have an expected growth rate of:
+In effect, the improvement in the return on capital increases the earnings on existing assets and this
+improvement translates into an additional growth of 10 percent for the firm.
+Marginal and Average Returns on Capital
+So far, we have looked at the return on capital as the measure that determines return. In reality,
+however, there are two measures of returns on capital. One is the return earned by firm collectively

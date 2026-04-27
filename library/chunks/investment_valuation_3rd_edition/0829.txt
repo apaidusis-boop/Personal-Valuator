@@ -1,0 +1,47 @@
+the
+project now, not including the up-front investment. This present value can be obtained from a
+standard investment analysis, discounting expected cash flows at a risk adjusted discount rate. There
+
+is likely to be a substantial amount of error in the cash flow estimates and the present value,
+especially if the project is in a new business or involves an untested technology. Rather than being
+viewed as a problem, this uncertainty should be viewed as the reason the project delay option has
+value. If the expected cash flows on the project were known with certainty and were not expected to
+change, there would be no need to adopt an option pricing framework, since there would be no value
+to the option.
+Variance in the Value of the Asset
+As noted in the prior section, there is likely to be considerable uncertainty associated with the cash
+flow estimates and the present value that measures the value of the project now. This is partly
+because the potential market for the product may be unknown, and partly because technological shifts
+can change the cost structure and profitability of the product. The variance in the present value of cash
+flows from the project can be estimated in one of three ways.
+1.
+ If we have invested in similar projects in the past, the variance in the cash flows from those
+projects can be used as an estimate. This may be the way that a consumer product company like
+Gillette might estimate the variance associated with introducing a new blade for its razors.
+2.
+ We can assign probabilities to various market scenarios, estimate cash flows and a present
+value under each scenario, and then calculate the variance across present values. Alternatively,
+the probability distributions can be estimated for each of the inputs into the project analysis—the
+size of the market, the market share, and the profit margin, for instance—and simulations used to
+estimate the variance in the present values that emerge. This approach tends to work best when
+there are only one or two sources
+1
+ of significant uncertainty about future cash flows. We will
+review these approaches in more detail in chapter 33.
+3.
+ We can use the variance in the value of firms involved in the same business (as the project
+being considered) as an estimate of the variance in present value for the project. Thus, the average
+variance in the value of firms involved in the software business can be used as the variance in
+present value of a software project.
+The value of the option is largely derived from the variance in cash flows; the higher the variance,
+the higher the value of the project delay option. Thus, the value of an option to invest in a project in a
+stable business will be less than the value of one in an environment where technology, competition,
+and markets are all changing rapidly.
+Exercise Price on Option
+The option to delay a project is exercised when the firm owning the rights to the project decides to
+invest in it. The cost of making this initial investment is the exercise price of the option. The
+underlying assumption is that this cost remains constant (in present value dollars) and that any
+uncertainty associated with the investment is reflected in the present value of cash flows on the
+product. That is more an assumption of convenience than necessity, since it makes valuing the option
+a little easier.
+Expiration of the Option and the Riskless Rate

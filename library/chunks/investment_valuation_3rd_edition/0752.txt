@@ -1,0 +1,42 @@
+o increase its depreciation charges after an acquisition will save in taxes,
+and increase its value. In most cases, goodwill amortization is not tax deductible and hence
+does not provide tax benefits.
+
+Clearly, there is potential for synergy in many mergers. The more important issues are whether that
+synergy can be valued and, if so, how to value it.
+Empirical Evidence on Synergy
+Synergy is a stated motive in many mergers and acquisitions. Bhide (1993) examined the motives
+behind 77 acquisitions in 1985 and 1986, and reported that operating synergy was the primary motive
+in one-third of these takeovers. A number of studies examine whether synergy exists and, if it does,
+how much it is worth. If synergy is perceived to exist in a takeover, the value of the combined firm
+should be greater than the sum of the values of the bidding and target firms, operating independently.
+where V(AB) = Value of a firm created by combining A and B (synergy) 
+V(A) = Value of firm A, operating independently 
+V(B) = Value of firm B, operating independently
+Studies of stock returns around merger announcements generally conclude that the value of the
+combined firm does increase in most takeovers and that the increase is significant. Bradley, Desai,
+and Kim (1988) examined a sample of 236 interfirm tender offers between 1963 and 1984 and
+reported that the combined value of the target and bidder firms increased 7.48 percent ($117 million
+in 1984 dollars), on average, on the announcement of the merger. This result has to be interpreted
+with caution, however, since the increase in the value of the combined firm after a merger is also
+consistent with a number of other hypotheses explaining acquisitions, including undervaluation and a
+change in corporate control. It is thus a weak test of the synergy hypothesis.
+The existence of synergy generally implies that the combined firm will become more profitable or
+grow at a faster rate after the merger than will the firms operating separately. A stronger test of
+synergy is to evaluate whether merged firms improve their performance (profitability and growth)
+relative to their competitors
+, after takeovers. On this test, as shown later in this chapter, many
+mergers fail.
+Take Over Poorly Managed Firms and Change Management
+Some firms are not managed optimally, and other individuals often believe they can run them better
+than the current managers. Acquiring poorly managed firms and removing incumbent management, or
+at least changing existing management policy or practices, should make these firms more valuable,
+allowing the acquirer to claim the increase in value. This value increase is often termed the value of
+control.
+Prerequisites for Success
+While this corporate control story can be used to justify large premiums over the market price, the
+potential for its success rests on the following:
+The poor performance of the firm being acquired should be attributable to bad management,
+rather than to market or industry factors that are not under management control.
+The acquisition has to be followed by a change in management practices, and the change has
+to increase value. Using the framework for intrinsic value developed in this book, actions

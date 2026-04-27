@@ -49,6 +49,8 @@ BRK-B negoceia a P/E 15.13 com market cap USD 1.01T e ROE modesto 9.81%, reflexo
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

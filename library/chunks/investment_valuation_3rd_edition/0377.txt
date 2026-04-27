@@ -1,0 +1,31 @@
+nd the riskless rate is 5.4 percent. If you use a market risk premium of 4
+percent, the value of the index can be estimated as follows:
+At its existing level of 700, the market is slightly overpriced.
+
+ILLUSTRATION 13.5: 
+Valuing the S&P 500 Using
+Dividends and Augmented Dividends
+On January 1, 2011, the S&P 500 was trading at 1,257.64, and the dividends on the index amounted to 23.12 over the
+previous year. On the same date, analysts were estimating an expected growth rate of 6.95% in earnings for the index for
+the following five years. Assuming that dividends grow at the same rate as earnings, we obtain the following:
+To estimate the cost of equity, we assume a beta of 1 for the index and use the risk-free rate on January 1, 2011, of 3.29%
+and an equity risk premium of 5%:
+After year 5, earnings and dividends are expected to grow at 3.29%, the same nominal rate as the economy (assumed to be
+equal to the risk-free rate). The value that we obtained for the index follows:
+This suggest that the index was massively over valued on January 1, 2011.
+Since many of the companies in the index have chosen to return cash in the form of stock buybacks, rather than dividends, a
+more realistic estimate of value would incorporate these expected buybacks. To do so, we added the buybacks in 2010 to the
+dividends to arrive at a value of 53.96 for augmented dividends on the index. Applying the same parameters that we used for
+conventional dividends (growth rate of 6.95% for the next five years and 3.29% beyond year 5), we estimate a new value
+for the index:
+With buybacks incorporated, the index looks slightly undervalued (by about 4%).
+The Value of Growth
+Investors pay a premium when they acquire companies with high growth potential. This premium
+takes the form of higher price-earnings or price–book value ratios. While no one will contest the
+proposition that growth is valuable, it is possible to pay too much for growth. In fact, empirical
+studies that show low price-earnings ratio stocks earning return premiums over high price-earnings
+ratio stocks in the long term support the notion that investors overpay for growth. This section uses
+the two-stage dividend discount model to examine the value of growth, and it provides a benchmark
+that can be used to compare the actual prices paid for growth.
+Estimating the Value of Growth
+The value of the equity in any firm can be written in terms of three components:

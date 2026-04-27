@@ -1,0 +1,17 @@
+=== Perpetuum Master ===
+Running 1 perpetuum(s): ['thesis']
+
+--- [thesis] Valida thesis explícita de cada holding contra fundamentals + regime + risk rules
+    subjects=325 alerts=0 errors=0 duration=2.07s
+    worst-5:
+      br:RAPT4                                  score= 91  flags=2
+      br:TUPY3                                  score= 91  flags=2
+      us:ALB                                    score= 91  flags=2
+      br:PGMN3                                  score= 92  flags=2
+      us:MSFT                                   score= 92  flags=2
+
+=== Summary ===
+Perpetuums run: 1
+Total subjects scored: 325
+Total decay alerts: 0
+Total errors: 0

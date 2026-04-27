@@ -39,6 +39,8 @@ HD negoceia P/E 23.59, DY 2.75% e ROE 145.5% (alavancado pelo buyback agressivo 
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

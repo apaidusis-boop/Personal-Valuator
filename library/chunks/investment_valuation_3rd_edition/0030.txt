@@ -1,0 +1,41 @@
+ould miss the
+fact that the oil company will develop this reserve only if oil prices go up and will not if oil prices
+decline. An option pricing model would yield a value that incorporates this right.
+
+When we use option pricing models to value assets such as patents and undeveloped natural
+resource reserves, we are assuming that markets are sophisticated enough to recognize such options
+and incorporate them into the market price. If the markets do not do so right now, we assume that they
+will eventually; the payoff to using such models comes about when this correction occurs.
+Categorizing Option Pricing Models
+The first categorization of options is based on whether the underlying asset is a financial asset or a
+real asset. Most listed options, whether they be options listed on the Chicago Board Options
+Exchange or callable fixed income securities, are on financial assets such as stocks and bonds. In
+contrast, options can be on real assets such as commodities, real estate, or even investment projects;
+such options are often called real options.
+A second and overlapping categorization is based on whether the underlying asset is traded. The
+overlap occurs because most financial assets are traded, whereas relatively few real assets are
+traded. Options on traded assets are generally easier to value, and the inputs to the option pricing
+models can be obtained from financial markets. Options on nontraded assets are much more difficult
+to value, since there are no market inputs available on the underlying assets.
+Applicability and Limitations of Option Pricing Models
+There are several direct examples of securities that are options—LEAPS, which are long-term equity
+options on traded stocks; contingent value rights, which provide protection to stockholders in
+companies against stock price declines; and warrants, which are long-term call options issued by
+firms.
+There are other assets that generally are not viewed as options but still share several option
+characteristics. Equity, for instance, can be viewed as a call option on the value of the underlying
+firm, with the face value of debt representing the strike price and the term of the debt measuring the
+life of the option. A patent can be analyzed as a call option on a product, with the investment outlay
+needed to get the project going considered the strike price and the patent life becoming the time to
+expiration of the option.
+There are limitations in using option pricing models to value long-term options on nontraded assets.
+The assumptions made about constant variance and dividend yields, which are not seriously contested
+for short-term options, are much more difficult to defend when options have long lifetimes. When the
+underlying asset is not traded, the inputs for the value of the underlying asset and the variance in that
+value cannot be extracted from financial markets and have to be estimated. Thus the final values
+obtained from these applications of option pricing models have much more estimation error
+associated with them than the values obtained in their more standard applications (to value short-term
+traded options).
+CONCLUSION
+There are three basic, though not mutually exclusive, approaches to valuation. The first is discounted
+cash flow valuation, where cash flows are discounted at a risk-adjusted discount rate to arrive at an

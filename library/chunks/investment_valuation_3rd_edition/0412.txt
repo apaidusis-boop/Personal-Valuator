@@ -1,0 +1,8 @@
+on) is too long.
+Use a shorter growth period.
+The growth rate in the stable growth period is too high for stable firm.
+Use a growth rate lower than or equal to GNP growth (riskfree rate).
+FCFE3st.xls:
+
+This spreadsheet allows you to value a firm with a temporary period of high growth in
+FCFE, followed by a transition period, followed by stable growth.

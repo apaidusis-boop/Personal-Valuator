@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: PLTR
 market: us
 earnings_date: 2026-05-04
-generated: 2026-04-26
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — PLTR (2026-05-04)
 
-_Auto-generated 8 days before call. 100% Ollama local._
+_Auto-generated 7 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- Crescimento da receita no Q1/2026 (alvo >50%)
-- Margem operacional e lucratividade
-- Dívida líquida em relação a EBITDA
+- Crescimento da receita QoQ (objetivo: >50%)
+- Margem operacional (alvo: >26%)
+- Endividamento líquido/EBITDA (-4,8x atualmente)
 
 ## ❓ Specific questions to listen for management
-1. Como a empresa planeja manter o ritmo de crescimento da receita?
-2. Quais são as expectativas para novos produtos ou serviços no próximo ano?
-3. Como está a situação financeira da Palantir em relação ao endividamento?
-4. Qual é o impacto do mercado atual nas estratégias futuras da empresa?
-5. Como a Palantir pretende lidar com possíveis desacelerações de crescimento?
+1. Como a empresa planeja lidar com potenciais desacelerações no crescimento futuro?
+2. Quais novos produtos ou serviços estão sendo desenvolvidos para impulsionar o crescimento?
+3. Qual é o impacto do uso de IA em novas contratações e eficiência operacional?
+4. Como a Palantir está se preparando para desafios macroeconômicos futuros?
+5. Quais são as expectativas para a adoção de tecnologia por parte das agências governamentais?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar continuidade no ritmo de crescimento acelerado
-- Mudança na orientação financeira ou em práticas contábeis
+- Confirmar continuação do forte crescimento da receita
+- Mudança na tendência de desaceleração nas margens operacionais
 
 ## 🚨 Red flags potenciais
-- Dívida líquida negativa aumentando
-- Previsões de receita abaixo do esperado
+- Margem EBITDA mais baixa que o esperado
+- Aumento significativo no endividamento líquido
 
 ## 🎯 Decision framework
-- BUY MORE if: Crescimento da receita >50% e margens operacionais estáveis
-- HOLD if: Crescimento entre 30%-49%
-- TRIM if: Dívida líquida em relação a EBITDA piora ou crescimento abaixo de 30%
+- BUY MORE if: Crescimento da receita QoQ >50% e margens operacionais estabilizadas ou melhorando
+- HOLD if: Crescimento da receita entre 30%-50%, com sinais mistos sobre as margens
+- TRIM if: Crescimento da receita <30% e sinais de desaceleração nas margens operacionais
 
 ---
 ## 📊 Context provided to LLM
@@ -57,4 +57,20 @@ ANALYST INSIGHTS (last 60d):
   [bear] A desaceleração nas taxas de crescimento dos indicadores futuros da Palantir pode levar a uma penalização das ações.
   [?] A receita da Palantir para o ano de 2025 aumentou 56% para US$4,48 bilhões.
   [bear] O relatório não considera a queda nas ações da Palantir como uma oportunidade de compra.
+
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  Palantir Technologies (PLTR) reported its latest earnings results, surpassing Wall Street's expectations. The company posted a net profit of $609 million and achieved record revenue of $1.41 billion for the quarter, beating its own guidance of $1.327 billion to $1.331 billion. This strong performance was driven by robust demand for its AI technology from both U.S. government agencies and commercial businesses.
+
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Palantir Technologies' forward guidance for fiscal year 2026 suggests a potential for significant growth, with some analysts projecting a share price of $230 per share. Despite high valuation multiples and execution risks, Palantir's strong revenue growth and continued adoption by government agencies and Fortune 500 companies indicate a promising outlook. However, there are also concerns about AI agent disruption and macroeconomic headwinds that could impact future performance.
+
+WEB EARNINGS HEADLINES:
+  - Palantir Technologies (PLTR) Reports Earnings Tomorrow: What To Expect - Yahoo Finance
+  - Palantir immigration enforcement bombshell hits just before earnings - thestreet.com
+  - Palantir surges 10% after beating earnings estimates. Here's what's happening - CNBC
+
+WEB GUIDANCE HEADLINES:
+  - Is Palantir Stock Entering A New Growth Phase? - Forbes
+  - Palantir Is Trading at 106 Times Forward Earnings. Here's Why This Artificial Intelligence (AI) Stoc
+  - Palantir: This Could End Badly (NASDAQ:PLTR) - Seeking Alpha
 ```

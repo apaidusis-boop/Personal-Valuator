@@ -1,0 +1,42 @@
+Stable Growth Phase 
+Forever after year 10
+Growth inputs
+- Reinvestment rate
+50.00%
+30.00%
+- Return on capital
+35.00%
+10.00%
+- Expected growth rate
+17.50%
+3.00%
+Cost of capital inputs
+- Beta
+1.40
+1.10
+
+- Cost of debt
+NA
+5.00%
+- Debt ratio
+0.00%
+20.00%
+- Cost of capital
+10.50%
+7.80%
+General information
+- Tax rate
+40%
+40%
+The risk-free rate was 3.5% and the equity risk premium was estimated to be 5%. During the transition period, we adjust the
+growth rate, reinvestment rate and cost of capital in linear increments from high growth levels to stable growth values. With
+these inputs, we can estimate the free cash flows to the firm in the following table:
+The sum of the present value of the cash flows over the growth period is $789.123 million. The terminal value is estimated
+based on the cash flow in the terminal year and the cost of capital of 7.80%.
+The discounted cash flow estimate of the value of the operating assets in Lululemon is shown here:
+In the following table, we estimate the EVA for Lululemon each year for the next 10 years, and the present value of the
+EVA. To make these estimates, we begin with the current capital invested in the firm of $353,394 (in thousands) and add the
+reinvestment each year to obtain the capital invested at the start of the next year
+The sum of the present values of the EVA for the high growth period is $990,704 (in thousands). At the end of year 10, the
+firm continues to earn excess returns (albeit at a lower pace), with a return on capital of 10% in perpetuity and a cost of
+capital of 7.80%. We compute the present value of the EVA after year 10 as follows:

@@ -1,0 +1,50 @@
+firm is run.
+13
+ Nonvoting shareholders do not participate in these
+decisions.
+warrants.xls:
+
+This spreadsheet allows you to value the options outstanding in a firm, allowing for the
+dilution effect.
+
+To estimate the value of the voting versus nonvoting shares, we go through the following four-step
+sequence:
+1.
+ Value the firm under existing management (status quo value); this will lock in current
+investment, financing and dividend policies, even if these policies are suboptimal.
+2.
+ Divide the status quo value by the total number of shares (voting and nonvoting) to get the value
+per nonvoting share. 
+3.
+ Value the firm under new and presumably better management (optimal value); this will require
+reassessing how much and how well the firm invests, how much debt it uses in its capital
+structure, and how much cash it returns to stockholders.
+4.
+ Estimate a probability that the firm’s management will change (
+π
+change
+) and divide the expected
+value of changing management by the number of voting shares:
+The value per voting share will be the sum of the values of the non-voting share and the control
+premium. Thus, the value per voting share will be determined by how badly the firm is managed (the
+worse run a firm, the greater the premium) and the likelihood of management change (the higher the
+likelihood, the greater the premium).
+ILLUSTRATION 16.10: Estimating the Value of Voting and
+Nonvoting Shares
+Adris Grupa is a Croatia-based tobacco company, with holdings in other businesses. In June 2010, we estimated the status
+quo and optimal values for the firm:
+The status quo value for equity was 5,484 million HRK. In deriving this value, we assumed that the firm
+would continue to finance itself almost entirely with equity (its debt ratio in 2010 was 2.6% and its cost of
+capital was 10.55%) and that it would continue its aggressive investment strategy (it generated a return on
+capital of 9.69% and reinvested 70.83% of its operating income back in 2009, resulting in a growth rate of
+6.86%).
+The optimal value for equity was 5,726 million HRK. To arrive at this value, we assumed a higher debt ratio
+(10%), resulting in a slightly lower cost of capital (10.45%). We also assumed that the firm would maintain its
+reinvestment rate of 70.83%, while earning a return on capital equal to its cost of capital (10.45%).
+The firm has 9.616 million voting shares and 6.748 million nonvoting shares. The value for the nonvoting shares is computed
+by dividing the status quo value by the total number of shares:
+To estimate the value per voting share, we estimate the premium, with a 30% probability attached to a change in management
+(we assess a low likelihood of management changing because the company is family controlled):
+CONCLUSION
+Incorporating the value of nonoperating assets into firm value can be very simple to do in some cases
+—cash and near-cash investments—and very complicated in other cases—holdings in other

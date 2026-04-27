@@ -1,0 +1,35 @@
+er all
+scenarios, both optimistic and pessimistic and incorporate the likelihood that the firm will not
+make it. For young firms, this will become progressively more difficult to do as you get further
+
+and further into the future.
+2.
+ The second is to estimate a discounted cash flow value across only the scenarios where the
+firm is a going concern, and then apply a probability that the firm will be a going concern to this
+value. Once we have estimated the probability of surviving as a going concern, the value of a firm
+can then be estimated as follows: 
+One approach to estimating the probability of survival is to look at the empirical data. Knaup
+(2005) and Knaup and Piazza (2008) used data from the U.S. Bureau of Labor Statistics Quarterly
+Census of Employment and Wages (QCEW) to compute survival statistics across firms. This census
+contains information on more than 8.9 million U.S. businesses in both the public sector and private
+sector. Using a seven-year database from 1998 to 2005, the authors concluded that only 44 percent of
+all businesses that were founded in 1998 survived at least four years and only 31 percent made it
+through all seven years. In addition, they categorized firms into 10 sectors and estimated survival
+rates for each. 
+Table 23.1
+ presents their findings on the proportion of firms that made it through each
+year for each sector and the average for the entire sample. Note that survival rates vary across
+sectors, with 25 percent of firms in the information sector (which includes technology) surviving
+seven years, whereas almost 44 percent of health services businesses made it through that period.
+Table 23.1
+ Survival of New Establishments Founded in 1998
+Value of Nonoperating Assets
+As with the valuation of any firm, you have to consider cash, marketable securities, and holdings in
+other companies when you value a firm. The only note of caution that we would add is that young
+firms can burn through significant cash balances in short periods because their operations drain cash
+rather than generate it. Thus, the cash balance from the last financial statements, especially if those
+statements are more than a few months old, can be very different from the current cash balances.
+To the extent that young firms often have holdings in other young firms, there is also the danger that
+investments in other firms may be shown on the books at values that are not reflective of their true
+value. If there are only one or two large holdings, you should value those holdings using cash flow–
+based approaches as well.

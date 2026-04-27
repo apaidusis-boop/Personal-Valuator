@@ -1,0 +1,37 @@
+the 35% tax rate and the pretax cost of debt,
+we compute the interest expenses and tax benefits each year, and discount these benefits back to today using the pretax
+cost of debt as the discount rate.
+
+Note that the value of tax benefits in perpetuity is computed in two steps. First, we compute the present value of $12.25
+million in tax savings in perpetuity ($12.25/.07 = $175 million). Next, we discount that value back to today at the pretax cost
+of debt ($175/1.07
+10
+ = $88.96 million)
+As the final piece of the analysis, we assume that bankruptcy costs (BC), direct and indirect, would amount to 30% of firm
+value and that the high debt level taken in the deal increases the probability of bankruptcy (
+π
+BC
+) to 20%. The expected
+bankruptcy cost is then:
+The value for J. Crew can now be computed using all three components:
+At $2.7 billion, the private equity investors are paying too much for the firm unless they can increase operating income
+substantially.
+Cost of Capital versus APV Valuation
+In an APV valuation, the value of a levered firm is obtained by adding the net effect of debt to the
+unlevered firm value.
+In the cost of capital approach, the effects of leverage show up in the cost of capital, with the tax
+benefit incorporated in the after-tax cost of debt and the bankruptcy costs in both the levered beta and
+the pretax cost of debt. Will the two approaches yield the same value? Not necessarily. The first
+reason for differences is that the models consider bankruptcy costs very differently, with the adjusted
+present value approach providing more flexibility in allowing you to consider indirect bankruptcy
+costs. To the extent that these costs do not show up or show up inadequately in the pretax cost of debt,
+the APV approach will yield a more conservative estimate of value. The second reason is that the
+APV approach considers the tax benefit from a dollar debt value, usually based on existing debt. The
+cost of capital approach estimates the tax benefit from a debt ratio that may require the firm to borrow
+increasing amounts in the future. For instance, assuming a market debt-to-capital ratio of 30percent in
+perpetuity for a growing firm will require it to borrow more in the future, and the tax benefit from
+expected future borrowings is incorporated into value today. Generally speaking, the cost-of-capital
+approach is a more practical choice when valuing ongoing firms that are not going through contortions
+on financial leverage; it is easier to work with a debt ratio than with dollar-debt levels. The APV
+approach is more useful for transactions that are funded disproportionately with debt and where debt
+repayment schedules are negotiated or known; this is why it has acquired a footing in leveraged-

@@ -1,0 +1,31 @@
+e following reasons:
+Firms often grow by acquiring other firms, and they do not account for acquisitions the same
+way. While all companies now have to use purchase accounting and record goodwill as an
+
+asset, there is enough discretion in the process to make a material difference in reported
+earnings. These differences lead to different measures of earnings per share and different PE
+ratios.
+Using diluted earnings per share in estimating PE ratios might bring the shares that are
+covered by management options into the multiple, but they treat options that are deep in-the-
+money or only slightly in-the-money as equivalent.
+Firm often have discretion in whether they expense or capitalize items, at least for reporting
+purposes. The expensing of a capital expense gives firms a way of shifting earnings from
+period to period, and penalizes those firms that are reinvesting more.
+Cross-Sectional Distribution of PE Ratios
+A critical step in using PE ratios is to understand how the cross-sectional multiple is distributed
+across firms in the sector and the market. In this section, the distribution of PE ratios across the entire
+market is examined.
+Market Distribution
+Figure 18.1
+ presents the distribution of PE ratios for U.S. stocks in January 2011. The current PE,
+trailing PE, and forward PE ratios are all presented in this figure.
+Figure 18.1
+ PE Ratios for U.S. Companies—January 2011
+Table 18.1
+ presents summary statistics on all three measures of the price-earnings ratio, starting
+with the mean and the median and the 25th and 75th percentile values. In computing these values, the
+PE ratio is set at 200 if it is greater than 200, to prevent outliers from having too large an influence on
+the summary statistics.
+1
+Table 18.1
+ Distribution for PE ratios—U.S. Companies in January 2011

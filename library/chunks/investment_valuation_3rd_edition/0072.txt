@@ -1,0 +1,26 @@
+l to the expected return. The return
+distribution for this investment is shown in 
+Figure 4.1
+. This is a riskless investment.
+Figure 4.1
+ Probability Distribution of Returns on a Risk-Free Investment
+
+To provide a contrast to the riskless investment, consider an investor who buys stock in a firm, say
+Boeing. This investor, having done her research, may conclude that she can make an expected return
+of 30 percent on Boeing over her one-year holding period. The actual return over this period will
+almost certainly not be equal to 30 percent; it might be much greater or much lower. The distribution
+of returns on this investment is illustrated in 
+Figure 4.2
+.
+Figure 4.2
+ Return Distribution for Risky Investment
+In addition to the expected return, an investor now has to consider the following. First, note that the
+actual returns, in this case, are different from the expected return. The spread of the actual returns
+around the expected return is measured by the variance or standard deviation of the distribution; the
+greater the deviation of the actual returns from the expected return, the greater the variance. Second,
+the bias toward positive or negative returns is represented by the skewness of the distribution. The
+distribution in 
+Figure 4.2
+ is positively skewed, since there is a higher probability of large positive
+returns than large negative returns. Third, the shape of the tails of the distribution is measured by the
+kurtosis of the distribution; fatter tails lead to higher kurtosis. In investment terms, this represents the

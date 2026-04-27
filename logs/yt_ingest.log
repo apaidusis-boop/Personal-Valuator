@@ -1329,3 +1329,15 @@ themes.4.confidence
 2026-04-23 19:51:42,169 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2026-04-23 19:51:42,246 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 4, 'themes_db': 'br_investments.db'}
 2026-04-23 19:51:42,253 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\VS-8e2uZJH0.webm
+2026-04-24 22:09:46,817 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\pfPi04pIfaw.webm
+2026-04-24 22:10:34,567 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:10:34,725 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-24 22:10:36,426 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-24 22:10:38,304 INFO faster_whisper Processing audio with duration 19:33.525
+2026-04-24 22:10:39,881 INFO faster_whisper VAD filter removed 00:05.664 of audio
+2026-04-24 22:10:40,318 WARNING youtube.transcriber whisper_cuda_runtime_fail err=Library cublas64_12.dll is not found or cannot be loaded — falling back to CPU int8
+2026-04-24 22:10:40,493 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:10:40,642 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-24 22:10:44,136 INFO faster_whisper Processing audio with duration 19:33.525
+2026-04-24 22:10:45,545 INFO faster_whisper VAD filter removed 00:05.664 of audio
+2026-04-24 22:10:48,932 INFO faster_whisper Detected language 'en' with probability 1.00

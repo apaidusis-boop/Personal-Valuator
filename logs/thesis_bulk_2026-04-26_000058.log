@@ -1,0 +1,199 @@
+======================================== 
+thesis_bulk launch 26/04/2026  0:00:58.86 
+======================================== 
+Synthesizing thesis for 151 ticker(s):
+  br:ABCB4
+  br:ABEV3
+  br:ALOS3
+  br:ALUP11
+  br:AXIA7
+  br:B3SA3
+  br:BBAS3
+  br:BBSE3
+  br:BPAC11
+  br:BRBI11
+  br:BRCO11
+  br:BRKM5
+  br:CMIG4
+  br:CPLE3
+  br:CSMG3
+  br:EGIE3
+  br:ENGI11
+  br:EQTL3
+  br:EZTC3
+  br:GARE11
+  br:GMAT3
+  br:GRND3
+  br:HGLG11
+  br:HGRU11
+  br:ISAE4
+  br:ITUB4
+  br:KLBN4
+  br:KNCR11
+  br:KNRI11
+  br:MCCI11
+  br:MCRF11
+  br:MOTV3
+  br:MULT3
+  br:PETR4
+  br:PGMN3
+  br:PLPL3
+  br:PMLL11
+  br:PNVL3
+  br:PSSA3
+  br:RAPT4
+  br:RBRY11
+  br:RDOR3
+  br:RECR11
+  br:RENT3
+  br:SANB11
+  br:SAPR11
+  br:SEER3
+  br:SIMH3
+  br:SLCE3
+  br:SUZB3
+  br:TAEE11
+  br:TIMS3
+  br:TRXF11
+  br:TTEN3
+  br:TUPY3
+  br:UNIP6
+  br:VAMO3
+  br:VGIP11
+  br:VISC11
+  br:VIVA3
+  br:VIVT3
+  br:VRTA11
+  br:WIZC3
+  br:XPLG11
+  us:ABM
+  us:ABT
+  us:ADM
+  us:ADP
+  us:AFL
+  us:ALB
+  us:AOS
+  us:APD
+  us:ATO
+  us:AWR
+  us:BDX
+  us:BEN
+  us:BF-B
+  us:BKH
+  us:BRO
+  us:CAT
+  us:CB
+  us:CBSH
+  us:CHD
+  us:CHRW
+  us:CINF
+  us:CL
+  us:CLX
+  us:CTAS
+  us:CVX
+  us:CWT
+  us:DOV
+  us:ECL
+  us:ED
+  us:EMR
+  us:ERIE
+  us:ES
+  us:EXPD
+  us:FAST
+  us:FDS
+  us:FRT
+  us:FUL
+  us:GD
+  us:GPC
+  us:GRC
+  us:GWW
+  us:HRL
+  us:IBM
+  us:ITW
+  us:JKHY
+  us:KMB
+  us:LEG
+  us:LIN
+  us:LOW
+  us:MCD
+  us:MDT
+  us:MGEE
+  us:MKC
+  us:MO
+  us:MSA
+  us:MSEX
+  us:MSFT
+  us:NDSN
+  us:NEE
+  us:NFG
+  us:NUE
+  us:NWN
+  us:PEP
+  us:PH
+  us:PNR
+  us:PPG
+  us:RLI
+  us:ROP
+  us:RPM
+  us:SCL
+  us:SHW
+  us:SJM
+  us:SPGI
+  us:SWK
+  us:SYY
+  us:TDS
+  us:TFC
+  us:TGT
+  us:TNC
+  us:TR
+  us:TROW
+  us:TTD
+  us:UVV
+  us:V
+  us:WMT
+  us:WST
+  us:XOM
+
+[ABCB4] Calling Qwen 14B...
+  → exists
+
+[ABEV3] Calling Qwen 14B...
+  → exists
+
+[ALOS3] Calling Qwen 14B...
+  → exists
+
+[ALUP11] Calling Qwen 14B...
+  → exists
+
+[AXIA7] Calling Qwen 14B...
+  → exists
+
+[B3SA3] Calling Qwen 14B...
+  → exists
+
+[BBAS3] Calling Qwen 14B...
+  → exists
+
+[BBSE3] Calling Qwen 14B...
+  → exists
+
+[BPAC11] Calling Qwen 14B...
+  → exists
+
+[BRBI11] Calling Qwen 14B...
+  → exists
+
+[BRCO11] Calling Qwen 14B...
+  → exists
+
+[BRKM5] Calling Qwen 14B...
+  → exists
+
+[CMIG4] Calling Qwen 14B...
+  → exists
+
+[CPLE3] Calling Qwen 14B...
+  → exists
+
+[CSMG3] Calling Qwen 14B...

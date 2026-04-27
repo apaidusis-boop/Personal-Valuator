@@ -1,0 +1,40 @@
+s, family members
+are hired to fill phantom positions in order to distribute income or to reduce taxes.
+If personal expenses are consolidated with business expenses or are otherwise a part of business
+
+expenses, the operating income for a private firm has to be estimated prior to these expenses. The
+problem with making these adjustments, however, is that private firm owners are usually not
+forthcoming about the extent of these expenses, and there may be tax consequences.
+Tax Effects
+When valuing publicly traded firms, the tax rate that we use in valuation is centered on the marginal
+corporate tax rate. While different firms may face different marginal tax rates, the differences in tax
+rates across potential buyers of a private firm will be much larger. In fact, the tax rate can vary from
+the corporate tax rate (if the potential buyer is a corporation) to the highest marginal tax rate for
+individuals (if the potential buyer is a wealthy individual) to zero if the potential buyer is an
+individual with lower income a non-profit. The tax rate will affect both the cash flows (through the
+after-tax operating income) and the cost of capital (through the cost of debt). As a consequence, the
+value of a private firm can vary across different buyers.
+TO PRETAX OR AFTER-TAX
+Private businesses can be organized in many different ways, with very different tax consequences. In its simplest form, a
+private business can be a sole proprietorship, where the line between business and the individual is blurred and the income
+from the business is reported on the owner's tax returns. Here, the solution is simple. Compute the cash flows, after taking
+into account the owner's tax liability, and discount those cash flows back at a rate of return that the owner would need on an
+after-tax basis, to compensate for the risk taken. It is possible, however, that this business could be worth a different amount
+to a potential buyer who faces a different tax rate.
+Things become more interesting when you have a partnership, where income is split among the partners based on the
+proportion of the partnership that they own and is shown as income (and taxed) on their individual tax returns. To the extent
+that they face similar tax rates, you can use a consensus tax rate that reflects the partners' standing, and compute after-tax
+cash flows and discount back at a risk-adjusted after-tax rate of return.
+Finally, consider a subchapter S corporation. The entity is not taxed on its income, but the stockholders in the corporation are
+taxed on their share of the income, even if it is not paid out as dividends. (A stockholder in a publicly traded company is
+taxed only on the dividend paid, and can defer paying capital gains taxes until he or she sells the stock.) You can value this
+firm, using one of two approaches:
+1.
+ You can use the same logic that we used for partnerships and find a tax rate that reflects what the stockholders pay.
+You can then estimate after-tax cash flows and discount back at a rate of return that is risk-adjusted and after-taxes.
+2.
+ You can hone in on pretax cash flows and discount them back at a risk-adjusted pretax rate of return.
+The key in all of these valuations is to use the appropriate discount rate, given the cash flows.
+When you use the CAPM or its variants to estimate discount rates for publicly traded companies, you are estimating a 
+post-
+corporate tax and pre-personal tax

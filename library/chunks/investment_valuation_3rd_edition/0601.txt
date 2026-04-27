@@ -1,0 +1,29 @@
+ify under- or overvalued firms
+in a sector or industry by plotting them on this matrix, and looking for potential mismatches between
+margins and revenue multiples.
+Figure 20.3
+ Value/Sales and Margins
+
+While intuitively appealing, there are at least three practical problems associated with this
+approach. The first is that data is more easily available on historical (current) profit margins than on
+expected profit margins. If a firm’s current margins are highly correlated with future margins (a firm
+that has earned high margins historically will continue to do so, and one that have earned low margins
+historically will also continue to do so), using current margins and current revenue multiples 
+to
+identify under- or overvalued securities is reasonable. If the current margins 
+of firms are not highly
+correlated with expected future margins, it is no longer appropriate to argue that firms are overvalued
+just because they have low current margins and trade at high price-to-sales ratios. The second
+problem with this approach is that it assumes that revenue multiples are linearly related to margins. In
+other words, as margins double, you would expect revenue multiples to double as well. The third
+problem is that it ignores differences on other fundamentals, especially risk. Thus a firm that looks
+undervalued because it has a high current margin and is trading at a low multiple of revenues may in
+fact be a fairly valued firm with very high risk.
+ILLUSTRATION 20.9: 
+Revenue Multiples and Margins:
+Specialty Retailers in July 2000
+In the first comparison, we look at specialty retailers in the United States. In 
+Figure 20.4
+ the EV-to-sales ratios of these
+firms are plotted against the operating margins of these firms in July 2000 (with the stock symbols for each firm next to each
+observation).

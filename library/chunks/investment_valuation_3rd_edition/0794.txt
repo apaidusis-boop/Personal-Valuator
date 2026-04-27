@@ -1,0 +1,39 @@
+r quarterly).
+The risk parameters of traded real estate securities (REITs and master limited partnerships
+[MLPs]) can be used as a proxy for the risk in real estate investment. The limitations of this
+
+approach are that securitized real estate investments may behave differently from direct
+investments in real estate and that it is much more difficult to estimate risk parameters for
+different classes of real estate investment (unless one can find REITs that restrict
+themselves to one class of investments, such as commercial property).
+The demand for real estate is in some cases a derived demand. For instance, the value of a
+shopping mall is derived from the value of retail space, which should be a function of how
+well retailing is doing as a business. It can be argued, in such a case, that the risk
+parameters of a mall should be related to the risk parameters of publicly traded retail stores.
+Corrections should obviously be made for differences in operating and financial leverage.
+Other Risk Factors
+Does investing in real estate investments expose investors to more (and different) types of risk than
+investing in financial assets? If so, how is this risk measured, and is it rewarded? The following are
+some of the issues related to real estate investments that might affect the measurement of risk and
+expected returns.
+Diversifiable versus Nondiversifiable Risk
+As stated earlier, using risk and return models that assume that the marginal investor is well
+diversified may be reasonable even though many investors in real estate choose not to be diversified.
+Part of the justification for this statement is the presence of firms with diversified investors, such as
+real estate investment trusts and master limited partnerships, in the real estate market. But what if no
+such investors exist and the marginal investor in real estate is not well diversified? How would we
+modify our estimates of cost of equity?
+Chapter 24 examined how to adjust the cost of equity for a private business for the fact that its
+owner was not diversified. In particular, we recommended the use of a total beta that reflected not
+just the market risk but also the extent of nondiversification on the part of the potential investor:
+This measure could be adapted to estimate a total beta for real estate. For instance, assume that the
+marginal investor in commercial real estate has a portfolio that has a correlation of 0.50 with the
+market and that commercial real estate as a property class has a beta of 0.40. The beta you would use
+to estimate the cost of equity for an investment would be 0.80.
+Using this higher beta would result in a higher cost of equity and a lower value for the real estate
+investment.
+Lack of Liquidity
+Another critique of traditional risk measures is that they assume that all assets are liquid (or, at least,
+that there are no differences in liquidity across assets). Real estate investments are often less liquid
+than financial assets; transactions occur less frequently, transactions costs are higher, and there are
+fewer buyers and sellers. The less liquid an asset, it is argued, the more risky it is.

@@ -1,0 +1,54 @@
+he expected bankruptcy costs, leading them to the conclusion that firm value increases as firms
+borrow money. Not surprisingly, this will yield the conclusion that the optimal debt ratio for a firm is
+
+100 percent debt.
+In general, with the same assumptions, the APV and the cost of capital conclusions give very
+similar answers. However, the APV approach is more practical when firms are evaluating a dollar
+amount of debt, while the cost of capital approach is easier when firms are analyzing debt
+proportions.
+18
+CONCLUSION
+This chapter developed an alternative approach to discounted cash flow valuation. The cash flows to
+the firm are discounted at the weighted average cost of capital to obtain the value of the firm, which
+when reduced by the market value of outstanding debt yields the value of equity. Since the cash flow
+to the firm is a cash flow prior to debt payments, this approach is more straightforward to use when
+leverage changes over time, though the weighted average cost of capital, used to discount free cash
+flows to the firm, has to be adjusted for changes in leverage. Finally, the costs of capital can be
+estimated at different debt ratios and used to estimate the optimal debt ratio for a firm.
+The alternative approach to firm valuation is the APV approach, where the effect on value of debt
+(tax benefits minus bankruptcy costs) is added to the unlevered firm value. This approach can also be
+used to estimate the optimal debt ratio for the firm.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Respond true or false to the following statements about the free cash flow to the firm:
+a.
+ The free cash flow to the firm is always higher than the free cash flow to equity. 
+True ____ 
+False ____
+b.
+ The free cash flow to the firm is the cumulated cash flow to all investors in the firm, though
+the form of their claims may be different. 
+True ____ 
+False ____
+c.
+ The free cash flow to the firm is a predebt, pretax cash flow. 
+True ____ 
+False ____
+d.
+ The free cash flow to the firm is an after-debt, after-tax cash flow. 
+True ____ 
+False ____
+e.
+ The free cash flow to the firm cannot be estimated for a firm with debt without knowing
+interest and principal payments. 
+True ____ 
+False ____
+2.
+ Union Pacific Railroad reported net income of $770 million in 1993 after interest expenses of
+$320 million. (The corporate tax rate was 36%.) It reported depreciation of $960 million in that
+year, and capital spending was $1.2 billion. The firm also had $4 billion in debt outstanding on
+the books, rated AA (carrying a yield to maturity of 8%) and trading at par (up from $3.8 billion
+at the end of 1992). The beta of the stock was 1.05, and there were 200 million shares outstanding
+(trading at $60 per share), with a book value of $5 billion. Union Pacific's working capital
+requirements were negligible. (The Treasury bond rate was 7%, and the risk premium was 5.5%.)

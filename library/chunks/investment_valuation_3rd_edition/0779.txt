@@ -1,0 +1,46 @@
+lue. Chapter 24 noted that investments in private businesses are much more difficult to liquidate
+than investments in publicly traded firms. This can create a significant discount on value. One reason
+
+this discount may be smaller in the case of buyouts is that many of them are done with the clear
+intention, once the affairs of the firm have been put in order, of taking the firm public again.
+IMPROVING THE ODDS OF SUCCESS ON MERGERS
+The evidence on mergers adding value is murky at best and negative at worst. Considering all the contradictory evidence
+contained in different studies,
+11
+ we conclude that:
+Mergers of equals (firms of equal size) seem to have a lower probability of succeeding than acquisitions of a
+smaller firm by a much larger firm.
+12
+Cost-saving mergers, where the cost savings are concrete and immediate, seem to have a better chance of
+delivering on synergy than mergers based on growth synergy.
+Acquisition programs that focus on buying small private businesses for consolidations have had more success
+than acquisition programs that concentrate on acquiring publicly traded firms.
+Hostile acquisitions seem to do better at delivering improved postacquisition performance than friendly
+mergers.
+If going private is expected to increase managers' responsiveness to value maximization in the long
+term—since they are part owners of the firm—the way to incorporate this in value is to include it in
+the cash flows. The increased efficiency can be expected to increase cash flows if it increases
+operating margins. The emphasis on long-term value should be visible in investment choices and
+should lead to a higher return on capital and higher growth. This advantage has to be weighed against
+the capital rationing the firm might face because of limited access to financial markets, which might
+reduce future growth and profits. The net effect will determine the change in value. The empirical
+evidence on going-private transactions, however, is clear-cut. DeAngelo, DeAngelo, and Rice (1984)
+reported, for example, an average abnormal return of 30 percent for 81 firms in their sample that went
+private. Thus financial markets, at least, seem to believe that there is value to be gained for some
+public firms in going private.
+Valuing a Leveraged Buyout
+We have seen that leveraged buyouts are financed disproportionately with debt. This high leverage is
+justified in several ways. First, if the target firm initially has too little debt relative to its optimal debt
+ratio, the increase in debt can be explained partially by the increase in value moving to the optimal
+ratio provides. The debt level in most leveraged buyouts exceeds the optimal debt ratio, however,
+which means that some of the debt will have to be paid off quickly in order for the firm to reduce its
+cost of capital and its default risk. A second explanation is provided by Michael Jensen, who
+proposes that managers cannot be trusted to invest free cash flows wisely for their stockholders; they
+need the discipline of debt payments to maximize cash flows on projects and firm value. A third
+rationale is that the high debt ratio is temporary and will disappear once the firm liquidates assets and
+pays off a significant portion of the debt.
+The extremely high leverage associated with leveraged buyouts creates two problems in valuation,
+however. First, it significantly increases the riskiness of the cash flows to equity investors in the firm
+by increasing the fixed payments to debt holders in the firm. Thus, the cost of equity has to be adjusted
+to reflect the higher financial risk the firm will face after the leveraged buyout. Second, the expected
+decrease in this debt over time, as the firm liquidates assets and pays off debt, implies that the cost of

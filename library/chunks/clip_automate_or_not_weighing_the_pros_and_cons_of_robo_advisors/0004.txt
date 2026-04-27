@@ -1,0 +1,17 @@
+-advisor offers.
+
+If you want a relationship with your financial advisor, then a robo-advisors may not be right for you. Personal contact is more common with the traditional financial advisory models.
+
+A human financial advisor can be assuage your fears and explain how the investment markets work. And a human [financial planner](https://www.investopedia.com/terms/f/financialplanner.asp) can integrate your finances, taxes, and [estate plans](https://www.investopedia.com/terms/e/estateplanning.asp), whereas robo-advisors cannot take a holistic view of your specific financial situation.
+
+Robo-advisors often charge fees, which vary based on your account balance. For example, Betterment charges a monthly fee of $4 for accounts with low balances. This fee automatically switches to 0.25% annually once the account grows to above $20,000 or if there are monthly recurring deposits of $250 or more.
+
+### Important
+
+Robo-advisors often invest in ETFs, which tend to have a low [expense ratio](https://www.investopedia.com/terms/e/expenseratio.asp), but still entail an additional cost that should be factored into your total cost.
+
+## History of Robo-Advisors
+
+The first robo-advisors launched after the financial crisis that led to the [Great Recession](https://www.investopedia.com/terms/g/great-recession.asp). The goal was to provide investors with low-cost alternatives to invest their money. Robo-advisors sought to use [artificial intelligence (AI)](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) and machine learning to create and manage investment portfolios instead of the human touch.
+
+Betterment and Wealthfront are commonly credited as being trailblazers when it comes to being the first companies to offer algorithmic trading services to investors who demanded more [transparency](https://www.investopedia.com/terms/t/transparency.asp) and control over their finances. Larger, more traditional firms like Charles Schwab began to offer these services as well.

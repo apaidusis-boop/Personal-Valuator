@@ -1,0 +1,29 @@
+present value of cash flows on the
+product. That is more an assumption of convenience than necessity, since it makes valuing the option
+a little easier.
+Expiration of the Option and the Riskless Rate
+
+The project delay option expires when the rights to the project lapse. Investments made after the
+project rights expire are assumed to deliver a net present value of zero as competition drives returns
+down to the required rate. The riskless rate to use in pricing the option should be the rate that
+corresponds to the expiration of the option. While expiration dates can be estimated easily when
+firms have the explicit right to a project (through a license or a patent, for instance), they become far
+more difficult to obtain when the right is less clearly defined. If, for instance, a firm has a competitive
+advantage on a product or project, the option life can be defined as the expected period over which
+the advantage can be sustained.
+Cost of Delay
+Chapter 5 noted that an American option generally will not be exercised prior to expiration. When
+you have the exclusive rights to a project, though, and the net present value turns positive, you would
+not expect the owner of the rights to wait until the rights expire to exercise the option (invest in the
+project). Note that there is a cost to delaying investing in a project, once the net present value turns
+positive. If you wait an additional period, you may gain if the variance pushes value higher but you
+also lose one period of protection against competition. You have to consider this cost when analyzing
+the option, and there are two ways of estimating it:
+1.
+ Since the project rights expire after a fixed period, and excess profits (which are the source of
+positive present value) are assumed to disappear after that time as new competitors emerge, each
+year of delay translates into one less year of value-creating cash flows.
+2
+ If the cash flows are
+evenly distributed over time, and the life of the patent is n years, the cost of delay can be written
+as:

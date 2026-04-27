@@ -1,0 +1,27 @@
+irm's individual characteristics (growth, risk, or cash flows) may explain the difference. Thus, a
+firm may have a PE ratio of 22 in a sector where the average PE is only 15, but you may conclude that
+
+this difference can be justified because the firm has higher growth potential than the average firm in
+the industry. If, in your judgment, the difference on the multiple cannot be explained by the
+fundamentals, the firm will be viewed as overvalued (if its multiple is higher than the average) or
+undervalued (if its multiple is lower than the average).
+Modified Multiples
+In this approach, you modify the multiple to take into account the most important variable determining
+it—the companion variable. Thus, the PE ratio is divided by the expected growth rate in EPS for a
+company to determine a growth-adjusted PE ratio or the PEG ratio. These modified ratios are then
+compared across companies in a sector. The implicit assumption you make is that these firms are
+comparable on all the measures of value, other the one being controlled for. In addition, you are
+assuming that the relationship between the multiples and fundamentals is linear.
+ILLUSTRATION 17.1: Comparing PE Ratios and Growth
+Rates across Firms: Beverage Companies in 2001
+The PE ratios in 2001 and expected growth rates in EPS over the next five years (2002–2006), based on consensus
+estimates from analysts, for the firms that are categorized as beverage firms are summarized in the following table:
+Andres Wines undervalued on a relative basis? A simple view of multiples would lead you to conclude this because its PE
+ratio of 8.96 was significantly lower than the average for the industry.
+In making this comparison, we are assuming that Andres Wines had growth and risk characteristics similar to the average
+for the sector. One way of bringing growth into the comparison is to compute the PEG ratio, which is reported in the last
+column. Based on the average PEG ratio of 2.00 for the sector and the estimated growth rate for Andres Wines, you obtain
+the following value for the PE ratio for Andres:
+Based on this adjusted PE, Andres Wines looks overvalued even though it had a low PE ratio. While this may seem like an
+easy adjustment to resolve the problem of differences across firms, the conclusion holds only if these firms are of equivalent
+risk. Implicitly, this approach also assumes a linear relationship between growth rates and PE.

@@ -1,0 +1,36 @@
+em
+individually. We do this almost always when we use the firm valuation approaches described in the
+preceding chapter. This is because we use operating income to estimate free cash flows to the firm,
+
+and operating income generally does not include income from financial assets. If, however, this is not
+the case and some of the investment income has found its way into the operating income, you would
+need to back it out before you did the valuation. Once you value the operating assets, you can add the
+value of the cash and marketable securities to it to arrive at firm value.
+We also followed this practice with the FCFE models in chapter 14. While net income includes
+income from financial assets, we can still separate cash and marketable securities from operating
+assets if we wanted to. To do this, we would first back out the portion of the net income that
+represents the income from financial investments (interest on bonds, dividends on stock) and use this
+adjusted net income to estimate free cash flows to equity. These free cash flows to equity would be
+discounted back using a cost of equity that would be estimated using a beta that reflected only the
+operating assets. Once the equity in the operating assets has been valued, you could add the value of
+cash and marketable securities to it to estimate the total value of equity.
+ILLUSTRATION 16.1: 
+Consolidated versus Separate
+Valuation
+To examine the effects of a cash balance on firm value, consider a firm with investments of $1,200 million in noncash assets
+and $200 million in cash. For simplicity, let us assume the following:
+The noncash assets have a beta of 1 are expected to earn $120 million in net income each year in perpetuity,
+and there are no reinvestment needs.
+The cash is invested at the riskless rate, which we assume to be 4.5%.
+The market risk premium is assumed to be 5.5%.
+Under these conditions, we can value the equity using both the consolidated and separate approaches.
+Let us first consider the consolidated approach. Here, we will estimate a cost of equity for all of the assets (including cash) by
+computing a weighted average beta of the noncash and cash assets:
+The equity is worth $1,400 million.
+Now, let us try to value them separately, beginning with the noncash investments:
+To this we can add the value of the cash, which is $200 million, to get a value for the equity of $1,400 million.
+To see the potential for problems with the consolidated approach, note that if you had discounted the total FCFE of $129
+million at the cost of equity of 10% (which reflects only the operating assets) you would valued the firm at $1,290 million.
+The loss in value of $110 million can be traced to the mishandling of cash:
+If you discount the cash at 10%, you would value the cash at $90 million instead of the correct value of $200 million—hence
+the loss in value of $110 million.

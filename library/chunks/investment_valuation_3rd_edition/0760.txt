@@ -1,0 +1,57 @@
+ting assets, higher expected growth rates (market power, higher growth potential), a
+longer growth period (from increased competitive advantages), or a lower cost of capital (higher
+debt capacity).
+2.
+
+When will the synergy start affecting cash flows?
+ Synergies can sometimes show up
+instantaneously, but they are more likely to show up over time. Since the value of synergy is the
+present value of the cash flows created by it, the longer it takes for it to show up, the smaller its
+value.
+Once we answer these questions, we can estimate the value of synergy using discounted cash flow
+techniques. First, we value the firms involved in the merger independently, by discounting expected
+cash flows to each firm at the weighted average cost of capital for that firm. Second, we estimate the
+value of the combined firm, with no synergy, by adding the values obtained for each firm in the first
+step. Third, we build in the effects of synergy into expected growth rates and cash flows, and we
+value the combined firm with synergy. The difference between the value of the combined firm with
+synergy and the value of the combined firm without synergy provides a value for synergy.
+Table 25.2
+ summarizes the effects of synergy and control in valuing a target firm for an acquisition.
+Notice the difference between 
+Figure 25.2
+, which is based on the market price of the target firm
+before and after the acquisition, and 
+Table 25.2
+, where we are looking at the value of the target firm
+with and without the premiums for control and synergy. A fair-value acquisition, which would leave
+the acquiring firm neither better nor worse off, would require that the total price (in 
+Figure 25.2
+) be
+equal to the consolidated value (in 
+Table 25.2
+) with the synergy and control benefits built in.
+Table 25.2
+ Valuing an Acquisition
+Component
+Valuation Guidelines
+Should You Pay?
+Synergy
+Value the combined firm with synergy built in. 
+This value may include: 
+A higher growth rate in revenues: 
+growth synergy.
+Higher margins because of 
+economies of scale
+.
+Lower taxes because of tax benefits: 
+tax synergy
+.
+Lower cost of debt: 
+financing synergy
+.
+Higher debt ratio because of lower risk: 
+debt capacity
+.
+Subtract the value of the target firm (with control premium) + value of the bidding firm
+(preacquisition). This is the value of synergy.
+Which firm is indispensable for synergy?

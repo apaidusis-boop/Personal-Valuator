@@ -1,0 +1,84 @@
+eory of rational option pricing. 
+Bell Journal of Economics
+ 4(1):141–183.
+Merton, R. C. Option pricing when the underlying stock returns are discontinuous. 
+Journal of
+Financial Economics
+ 3:125–144.
+
+Chapter 6 Market Efficiency—Definitions, Tests, and Evidence
+Alexander, S. S. 1964. Price movements in speculative markets: Trends or random walks? In 
+The
+random character of stock market prices
+. Cambridge, MA: MIT Press.
+Arbel, A., and P. J. Strebel. 1983. Pay attention to neglected stocks. 
+Journal of Porfolio
+Management
+ 9:37–42.
+Banz, R. 1981. The relationship between return and market value of common stocks. 
+Journal of
+Financial Economics
+ 9:3–18.
+Basu, S. 1977. The investment performance of common stocks in relation to their price-earnings: A
+test of the efficient market hypothesis. 
+Journal of Finance
+ 32:663–682.
+Basu, S. 1983. The relationship between earnings yield, market value and return for NYSE common
+stocks: Further evidence. 
+Journal of Financial Economics
+ 12:129–156.
+Bernstein, R. 1995. 
+Style investing
+. New York: John Wiley & Sons.
+Capaul, C., I. Rowley, and W. F. Sharpe. 1993. International value and growth stock returns.
+Financial Analysts Journal
+ 49:27–36.
+Carhart, M. M. 1997. On the persistence of mutual fund performance. 
+Journal of Finance
+ 52:57–82.
+Chambers, A. E., and S. H. Penman. 1984. Timeliness of reporting and the stock price reaction to
+earnings announcements. 
+Journal of Accounting Research
+ 22:21–47.
+Chan, L. K., Y. Hamao, and J. Lakonishok. 1991. Fundamentals and stock returns in Japan. 
+Journal of
+Finance
+ 46:1739–1789.
+Chan, S. H., J. Martin, and J. Kensinger. 1990. Corporate research and development expenditures and
+share value. 
+Journal of Financial Economics
+ 26:255–276.
+Conrad, J. 1989. The price effect of option introduction. 
+Journal of Finance
+ 44:487–498.
+Cootner, P. H. 1961. Common elements in futures markets for commodities and bonds. 
+American
+Economic Review
+ 51(2):173–183.
+Cootner, P. H. 1962. Stock prices: Random versus systematic changes. 
+Industrial Management
+Review
+ 3:24–45.
+Damodaran, A. 1989. The weekend effect in information releases: A study of earnings and dividend
+announcements. 
+Review of Financial Studies
+ 2:607–623.
+DeBondt, W. F. M., and R. Thaler. 1985. Does the stock market overreact? 
+Journal of Finance
+40:793–805.
+DeBondt , W. F. M., and R. Thaler. 1987. Further evidence on investor overreaction and stock market
+seasonality. 
+Journal of Finance
+ 42:557–581.
+Dimson, E., and P. R. Marsh. 1984. An analysis of brokers' and analysts' unpublished forecasts of UK
+stock returns. 
+Journal of Finance
+ 39:1257–1292.
+Dimson, E., and P. R. Marsh. 1986. Event studies and the size effect: The case of UK press
+recommendations. 
+Journal of Financial Economics
+ 17:113–142.
+Dimson, E., and P. R. Marsh. 2001. Murphy's law and market anomalies. 
+Journal of Portfolio
+Management
+ 25:53–69.

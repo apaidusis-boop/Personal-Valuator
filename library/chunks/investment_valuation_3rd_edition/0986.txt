@@ -1,0 +1,38 @@
+eliable is relative
+valuation. For businesses that are truly unique, discounted cash flow valuation will yield much better
+estimates of value.
+Figure 34.4
+ Uniqueness of Asset and Valuation Approaches
+
+Analyst Characteristics and Beliefs
+The valuation approach that you choose to use will depend on your time horizon, the reason that you
+are doing the valuation in the first place, and what you think about markets—whether they are
+efficient, and if they are not, what form the inefficiency takes.
+Ti me Horizon
+At one extreme, in discounted cash flow valuation, you consider a firm as a going concern that may
+last into perpetuity. At the other extreme, with liquidation valuation, you are estimating value on the
+assumption that the firm will cease operations today. With relative valuation and contingent claim
+valuation, you take an intermediate position between the two. (See 
+Figure 34.5
+.) Not surprisingly,
+then, you should be using discounted cash flow valuation if you have a long time horizon, and relative
+valuation if you have a shorter time horizon. This may explain why discounted cash flow valuation is
+more prevalent when valuing a firm for an acquisition, and relative valuation is more common in
+equity research and portfolio management.
+Figure 34.5
+ Investor Time Horizon and Valuation Approaches
+Reason for Doing the Valuation
+Analysts value businesses for a number of reasons, and the valuation approach used will vary
+depending on the reason. (See 
+Figure 34.6
+.) If you are an equity research analyst following steel
+companies, your job description is simple. You are asked to find the most under- and overvalued
+companies in the sector, and not take a stand on whether the sector overall is under- or overvalued.
+You can see why multiples would be your weapon of choice when valuing companies. This effect is
+likely to be exaggerated if the way you are judged and rewarded is on a relative basis (i.e., your
+recommendations are compared to those made by other steel company analysts). But if you are an
+individual investor setting money aside for retirement or a private businessperson valuing a business
+for purchase, you want to estimate intrinsic value. Consequently, discounted cash flow valuation is
+likely to be more appropriate for your needs.
+Figure 34.6
+ Market Neutrality and Valuation Approaches

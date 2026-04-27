@@ -1,0 +1,46 @@
+stages. While doing so may reduce potential upside, it also protects the firm against downside risk by
+allowing it at each stage to gauge demand and decide whether to go on to the next stage. In other
+
+words, a standard project can be recast as a series of options to expand, with each option being
+dependent on the previous one. There are two propositions that follow:
+1.
+ Some projects that are unattractive on a full-investment basis may be value-creating if the firm
+can invest in stages.
+2.
+ Some projects that look attractive on a full-investment basis may become even more attractive
+if taken in stages.
+The gain in value from the options created by multistage investments has to be weighed against the
+cost. Taking investments in stages may allow competitors who decide to enter the market on a full
+scale to capture the market. It may also lead to higher costs at each stage, since the firm is not taking
+full advantage of economies of scale.
+Several implications emerge from viewing this choice between multistage and one-time investments
+in an option framework. The projects where the gains will be largest from making the investment in
+multiple stages include:
+Projects where there are significant barriers to entry to competitors entering the market
+and taking advantage of delays in full-scale production.
+ Thus a firm with a patent on a
+product or other legal protection against competition pays a much smaller price for starting
+small and expanding as it learns more about the market.
+Projects where there is uncertainty about the size of the market and the eventual success
+of the project.
+ Here, starting small and expanding in stages allows the firm to reduce its
+losses if the product does not sell as well as anticipated, and to learn more about the market
+at each stage. This information can be useful in both product design and marketing in
+subsequent stages.
+Projects where there is a substantial investment needed in infrastructure and high
+operating leverage (fixed costs).
+ Since the savings from doing a project in multiple stages
+can be traced to the investments needed at each stage, the benefit is likely to be greater in
+firms where those costs are large. Capital-intensive projects as well as projects that require
+large initial marketing expenses (a new brand name product for a consumer product
+company), for example, will gain more from the options created by investing in the projects
+in multiple stages.
+WHEN ARE EXPANSION OPTIONS VALUABLE?
+While the argument that some or many investments have valuable strategic or expansion options
+embedded in them has great allure, there is a danger that this argument can be used to justify poor
+investments. In fact, acquirers have long justified huge premiums on acquisitions on synergistic and
+strategic grounds. We need to be more rigorous in our measurement of the value of real options and in
+our use of real options as justification for paying high prices or making poor investments.
+SEQUENTIAL AND COMPOUND OPTIONS: SOME
+THOUGHTS
+A compound option is an option on an option. A simple example would be a call option on a small company that has only one

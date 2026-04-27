@@ -1,0 +1,17 @@
+ez Pierre the fact that it has positive earnings
+and the cash as a percent of revenues held by the firm (1%): 
+Based on this approach, we would estimate an illiquidity discount of 12.94%.
+liqdisc.xls:
+
+This spreadsheet allows you to estimate the illiquidity discount for private firms using both
+the restricted stock approach and the bid-ask spread approach.
+VALUATION MOTIVES AND VALUE ESTIMATES
+In the preceding section, we considered how best to estimate the inputs to use in valuing a private
+firm. As we considered each input, though, we noted that the process of estimation might be different
+depending on the potential buyer of the firm. With betas, for instance, we argued that the market beta
+should be used if the potential buyer is a publicly traded firm or a stock market investor (in an initial
+public offering) and that a total beta should be used if the potential buyer is a private party. We made
+similar arguments about the cost of debt and cash flows. 
+Table 24.2
+ summarizes the differences in the
+way we estimate the inputs to valuation for different valuation motives.

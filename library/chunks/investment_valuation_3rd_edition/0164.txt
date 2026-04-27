@@ -1,0 +1,46 @@
+future. It is unclear, however, how
+long this momentum lasts, before there is reversal. This evidence mirrors our earlier
+analysis of stock prices showing momentum over weeks and months and reversing
+
+themselves in the long term. Even this good news has to be taken with an ounce of caution,
+since it is possible that sheer chance and selection bias can still explain these positive runs
+of superior performance.
+Skill versus luck:
+ There is some debate as to whether the differences in returns that money
+managers earn over long periods can be entirely attributed to luck. Fama and French (2010)
+argue that when returns are measured net of costs, there is little evidence that mutual funds
+beat the market. However, when they look at gross returns, there is some evidence of
+differences in skill; they estimate that superior managers generate about 1.25% more than
+the average.
+Tax, liquidity, and time horizon arbitrage:
+ A money manager with a tax rate much lower
+than that of other money managers, lower need for liquidity or lower transactions costs than
+other investors, and/or a longer time horizon may be able to exploit these differences to get
+investments at bargain prices and earn excess returns. Although there is anecdotal evidence
+that such investors exist, many of them are undone by their own success; as they attract more
+money, they lose their focus and their competitive edge.
+The bottom line: It is possible to beat the market, but it is hard work. There are no magic bullets or
+simple formulae for investment success. The money managers who beat the market consistently over
+time tend to be few and far between. Although they may adopt different strategies and have different
+views on markets, they share some common characteristics. They have well thought out investment
+philosophies, play to their strengths, and stay disciplined.
+CONCLUSION
+The question of whether markets are efficient will always be a provocative one, given the
+implications that efficient markets have for investment management and research. If an efficient
+market is defined as one where the market price is an unbiased estimate of the true value, it is quite
+clear that some markets will always be more efficient than others and that markets will always be
+more efficient to some investors than to others. The capacity of a market to correct inefficiencies
+quickly will depend, in part, on the ease of trading, the transaction costs, and the vigilance of profit-
+seeking investors in that market.
+While market efficiency can be tested in a number of different ways, the two most widely used tests
+to test efficiency are event studies, which examine market reactions to information events, and
+portfolio studies, which evaluate the returns of portfolios created on the basis of observable
+characteristics. It does make sense to be vigilant, because bias can enter these studies, intentionally or
+otherwise, in a number of different ways and can lead to unwarranted conclusions and, worse still,
+wasteful investment strategies.
+There is substantial evidence of irregularities in market behavior related to systematic factors such
+as size, price-earnings ratios, and price–book value ratios, as well as to time—the January and the
+weekend effects. While these irregularities may be inefficiencies, there is also the sobering evidence
+that professional money managers, who are in a position to exploit these inefficiencies, have a very
+difficult time consistently beating financial markets. Read together, the persistence of the
+irregularities and the inability of money managers to beat the market are testimony to the gap between

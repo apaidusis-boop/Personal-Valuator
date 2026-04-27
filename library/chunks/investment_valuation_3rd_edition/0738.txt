@@ -1,0 +1,30 @@
+a large dataset of companies and collect all transaction data. This will then allow you
+to screen the data for transactions that look suspicious (and are thus likely to fail the arm's-length
+test).
+4.
+
+Adjust for timing differences.
+ Even with large datasets of private transactions, there will
+timing differences across transactions. While this is not an issue in a period where markets are
+stable, you should make adjustments to the value (even if they are crude) to account for the timing
+differences. For instance, using June 2008 and December 2008 as the transaction dates, you would
+reduce the transaction prices from June 2008 by the drop in the public market (a small cap index
+like the Russell 5000 dropped by about 40 percent over that period) to make the prices
+comparable.
+5.
+
+Focus on differences in fundamentals.
+ The notion that the value of a business depends on its
+fundamentals—growth, cash flows, and risk—cannot be abandoned just because you are doing
+relative valuation. The estimated value is likely to be more reliable if you can collect other
+measures of the transacted private businesses that reflect these fundamentals. For instance, it
+would be useful to obtain not only the transaction prices of private businesses but also the growth
+in revenues recorded in these businesses in the period prior to the transactions and the age of the
+business (to reflect maturity and risk). You can explore the data to see if there is a relationship
+between transaction value and these variables, and if there is one, to build it into the valuation.
+Public Multiples
+It is far easier to obtain timely data on pricing and multiples for publicly traded firms. In fact, for
+those analysts who do not have access to private transaction data, this is the only option when it
+comes to relative valuation. The peril, though, is that you are extending the pricing lessons that you
+learn from looking at more mature, publicly traded firms to a private business.
+Problems

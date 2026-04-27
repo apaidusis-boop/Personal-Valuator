@@ -1,0 +1,27 @@
+e-to-sales (P/S) ratio</td><td>Market Price per Share / Revenue per Share</td></tr><tr><td></td><td>Dividend yield</td><td>Annual Dividends per Share / Market Price per Share</td></tr></tbody></table>
+
+## Fundamental Analysis vs. Technical Analysis
+
+Fundamental analysis contrasts starkly with [technical analysis,](https://www.investopedia.com/terms/t/technicalanalysis.asp) which attempts to forecast prices by analyzing historical market data such as price and volume.7 Technical analysis uses price trends and action, often plotted on charts, to create indicators and identify patterns. Some indicators develop patterns that have names resembling their shapes, such as the "head and shoulders" pattern.9
+
+A major distinction is where "value" comes from. The market sets prices for technical analysts, and the changes there give a company its value. For fundamental analysts, there is an intrinsic value that the market can often miss.
+
+### Fundamental vs. Technical Analysis
+
+Fundamental Analysis
+
+- Estimates the intrinsic value of a company from its operations
+- Considers a company's financial statements and qualitative factors
+- Longer-term focus (months/years)
+- Best for buy-and-hold investing
+
+Technical Analysis
+
+- Looks at price and market trends to uncover market psychology
+- Considers historical prices and chart patterns
+- Shorter-term focus (days/weeks)
+- Best for short-term or swing trading
+
+## Limitations of Fundamental Analysis
+
+Though fundamental analysis can provide investors with insights into the future of a company, it does come with some downsides. Keep these things in mind when performing fundamental analysis:

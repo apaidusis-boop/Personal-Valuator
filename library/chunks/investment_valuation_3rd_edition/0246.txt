@@ -1,0 +1,6 @@
+in the firm, and netting
+out one against the other can provide a misleading view of the firm's default risk. In general, using net debt ratios will
+overstate the value of riskier firms.
+wacccalc.xls:
+
+This spreadsheet allows you to convert book values of debt into market values.

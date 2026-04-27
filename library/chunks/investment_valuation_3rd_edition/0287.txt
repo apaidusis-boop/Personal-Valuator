@@ -1,0 +1,37 @@
+R&D expensing allows us to add the difference between R&D
+expense and amortization directly to the after-tax operating income (and to net income).
+ILLUSTRATION 10.3: Tax Benefit from Expensing: Amgen
+
+in 2011
+In Chapter 9, we capitalize, R&D expenses for Amgen and estimated the value of the research asset to Amgen and
+adjusted operating income. Reviewing Illustration 9.2, we see the following adjustments:
+To estimate the tax benefit from expensing for Amgen, first assume that the tax rate for Amgen is 35% and note that
+Amgen can deduct the entire $3,030 million for tax purposes:
+If only the amortization had been eligible for a tax deduction in 2010, the tax benefit would have been:
+By expensing instead of capitalizing, Amgen was able to derive a much larger tax benefit. The differential tax benefit can be
+written as:
+Thus, Amgen derives a tax benefit of $468 million because it can expense R&D expenses rather than capitalize them.
+Completing the analysis, we computed the adjusted after-tax operating income for Amgen. Note that in Illustration 9.2, we
+estimated the adjusted pretax operating income to be the following:
+You could convert this pretax operating income into an after-tax value and add back the tax benefit from R&D:
+You can also arrive at the same answer by computing the unadjusted after-tax operating income and adjusting it for R&D:
+Tax Books and Reporting Books
+It is no secret that many firms in the United States maintain two sets of books—one for tax purposes
+and one for reporting purposes—and that this practice not only is legal but is also widely accepted.
+While the details vary from company to company, the income reported to stockholders generally is
+much higher than the income reported for tax purposes. When valuing firms, we generally have access
+to only the former and not the latter, and this can affect our estimates in a number of ways:
+Dividing the taxes payable, which is computed on the taxable income, by the reported
+income, which is generally much higher, will yield a tax rate that is lower than the true tax
+rate. If we use this tax rate as the forecasted tax rate, we could over value the company. This
+is another reason for shifting to marginal tax rates in future periods.
+If we base the projections on the reported income, we will overstate expected future
+income. The effect on cash flows is likely to be muted. To see why, consider one very
+common difference between reporting and tax income: Straight-line depreciation is used to
+compute the former and accelerated depreciation is used for the latter. Since we add
+depreciation back to after-tax income to get to cash flows, the drop in depreciation will
+offset the increase in earnings. The problem, however, is that we understate the tax benefits
+from depreciation.
+Some companies capitalize expenses for reporting purposes (and for depreciating them in
+subsequent periods) but expense them for tax purposes. Here again, using the income and the
+capital expenditures from reporting books will result in an understatement of the tax benefits

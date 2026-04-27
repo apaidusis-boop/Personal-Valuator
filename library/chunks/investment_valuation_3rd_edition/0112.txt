@@ -1,0 +1,18 @@
+ines. Consequently, call options become less valuable and put options more valuable as
+expected dividend payments increase. There are two ways of dealing with dividends in the Black-
+Scholes model:
+1.
+
+Short-term options.
+ One approach to dealing with dividends is to estimate the present value of
+expected dividends that will be paid by the underlying asset during the option life and subtract it
+from the current value of the asset to use as S in the model.
+2.
+
+Long-term options.
+ Since it becomes less practical to estimate the present value of dividends
+the longer the option life, an alternate approach can be used. If the dividend yield (y 
+=
+Dividends/Current value of the asset) on the underlying asset is expected to remain unchanged
+during the life of the option, the Black-Scholes model can be modified to take dividends into
+account.

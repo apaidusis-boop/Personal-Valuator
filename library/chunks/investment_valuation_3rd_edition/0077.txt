@@ -1,0 +1,52 @@
+le asset B has an expected return of 
+μ
+Β
+ and a variance in returns of 
+σ
+2
+B
+. The correlation in
+returns between the two assets, which measures how the assets move together, is 
+ρ
+AB
+. The expected
+
+returns and variances of a two-asset portfolio can be written as a function of these inputs and the
+proportion of the portfolio going to each asset.
+where w
+A
+ = Proportion of the portfolio in asset A
+The last term in the variance formulation is sometimes written in terms of the covariance in returns
+between the two assets, which is:
+The savings that accrue from diversification are a function of the correlation coefficient. Other
+things remaining equal, the higher the correlation in returns between the two assets, the smaller are
+the potential benefits from diversification. It is worth adding, though, that the benefits of correlation
+exist even for positively correlated assets and are non-existent only when the correlation is equal to
+one.
+Mean-Variance Models Measuring Market Risk
+While most risk and return models in use in finance agree on the first two steps of the risk analysis
+process (i.e., that risk comes from the distribution of actual returns around the expected return and that
+risk should be measured from the perspective of a marginal investor who is well diversified), they
+part ways when it comes to measuring nondiversifiable or market risk. This section will discuss the
+different models that exist in finance for measuring market risk and why they differ. It begins with
+what still is the most widely used model for measuring market risk in finance—the capital asset
+pricing model (CAPM)—and then discusses the alternatives to this model that have developed over
+the past two decades. While the discussion will emphasize the differences, it will also look at what
+the models have in common.
+Capital Asset Pricing Model
+The risk and return model that has been in use the longest and is still the standard for most
+practitioners is the capital asset pricing model (CAPM). This section will examine the assumptions
+on which the model is based and the measures of market risk that emerge from these assumptions.
+WHY IS THE MARGINAL INVESTOR ASSUMED TO BE
+DIVERSIFIED?
+The argument that diversification reduces an investor’s exposure to risk is clear both intuitively and statistically, but risk and
+return models in finance go further. These models look at risk through the eyes of the investor most likely to be trading on
+the investment at any point in time—the marginal investor. They argue that this investor, who sets prices for investments, is
+well diversified; thus, the only risk that he or she cares about is the risk added to a diversified portfolio or market risk. This
+argument can be justified simply. The risk in an investment will always be perceived to be higher for an undiversified
+investor than for a diversified one, since the latter does not shoulder any firm-specific risk and the former does. If both
+investors have the same expectations about future earnings and cash flows on an asset, the diversified investor will be willing
+to pay a higher price for that asset because of his or her perception of lower risk. Consequently, the asset, over time, will
+end up being held by diversified investors.
+This argument is powerful, especially in markets where assets can be traded easily and at low cost. Thus, it works well for a
+stock traded in developed markets, since investors can become diversified at fairly low cost. In addition, a significant

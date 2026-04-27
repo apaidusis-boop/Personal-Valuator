@@ -1,0 +1,73 @@
+[ 1/69] PRIO3 ... ok
+[ 2/69] VALE3 ... ok
+[ 3/69] BBDC4 ... {"ts": "2026-04-26T14:51:32Z", "event": "bacen_ticker_done", "ticker": "BBDC4", "periods_total": 30, "periods_updated": 0, "periods_partial": 0, "periods_empty": 0, "periods_skipped": 30, "first_period": null, "last_period": null, "sample_basel": null, "sample_npl": null}
+ok
+[ 4/69] ITSA4 ... ok
+[ 5/69] XPML11 ... ok
+[ 6/69] RBRX11 ... ok
+[ 7/69] BTLG11 ... ok
+[ 8/69] VGIR11 ... ok
+[ 9/69] PVBI11 ... ok
+[10/69] PETR4 ... ok
+[11/69] AXIA7 ... ok
+[12/69] CPLE3 ... ok
+[13/69] ALOS3 ... ok
+[14/69] B3SA3 ... ok
+[15/69] ENGI11 ... ok
+[16/69] ITUB4 ... {"ts": "2026-04-26T14:51:35Z", "event": "bacen_ticker_done", "ticker": "ITUB4", "periods_total": 26, "periods_updated": 0, "periods_partial": 0, "periods_empty": 0, "periods_skipped": 26, "first_period": null, "last_period": null, "sample_basel": null, "sample_npl": null}
+ok
+[17/69] EQTL3 ... ok
+[18/69] MOTV3 ... ok
+[19/69] MULT3 ... ok
+[20/69] PGMN3 ... ok
+[21/69] PLPL3 ... ok
+[22/69] RAPT4 ... ok
+[23/69] RDOR3 ... ok
+[24/69] RENT3 ... ok
+[25/69] SUZB3 ... ok
+[26/69] TTEN3 ... ok
+[27/69] PMLL11 ... ok
+[28/69] TRXF11 ... ok
+[29/69] GARE11 ... ok
+[30/69] VISC11 ... ok
+[31/69] RECR11 ... ok
+[32/69] HGRU11 ... ok
+[33/69] HGLG11 ... ok
+[34/69] MCRF11 ... ok
+[35/69] KNCR11 ... ok
+[36/69] VGIP11 ... ok
+[37/69] BRCO11 ... ok
+[38/69] MCCI11 ... ok
+[39/69] XPLG11 ... ok
+[40/69] KNRI11 ... ok
+[41/69] RBRY11 ... ok
+[42/69] VRTA11 ... ok
+[43/69] JNJ ... ok
+[44/69] JPM ... ok
+[45/69] BLK ... ok
+[46/69] O ... ok
+[47/69] TSM ... ok
+[48/69] PG ... ok
+[49/69] TEN ... ok
+[50/69] AAPL ... ok
+[51/69] TSLA ... ok
+[52/69] GS ... ok
+[53/69] KO ... ok
+[54/69] BRK-B ... ok
+[55/69] XP ... ok
+[56/69] GREK ... ok
+[57/69] HD ... ok
+[58/69] BN ... ok
+[59/69] PLD ... ok
+[60/69] PLTR ... ok
+[61/69] TFC ... ok
+[62/69] NU ... ok
+[63/69] ACN ... ok
+[64/69] TTD ... ok
+[65/69] V ... ok
+[66/69] MCD ... ok
+[67/69] PEP ... ok
+[68/69] ABBV ... ok
+[69/69] MSFT ... ok
+
+[summary] 69 ok, 0 failed (of 69)

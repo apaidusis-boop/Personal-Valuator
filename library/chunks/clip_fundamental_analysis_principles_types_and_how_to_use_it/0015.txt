@@ -1,0 +1,27 @@
+otal Liabilities</b></td><td>$500</td></tr><tr><td></td><td></td><td>.</td><td></td><td></td></tr><tr><td></td><td></td><td>.</td><td><b>Shareholder Equity</b></td><td>$1,000</td></tr></tbody></table>
+
+<table><thead><tr><th colspan="5">ABC Statement of Cash Flows & Stock Information</th></tr><tr><th><b>Cash Flows from:</b></th><th>($ millions)</th><th>.</th><th><b>Stock Information</b></th><th></th></tr></thead><tbody><tr><td>Operations</td><td>$250</td><td>.</td><td># Shares Outstanding</td><td>100 million</td></tr><tr><td>Investments</td><td>$100</td><td>.</td><td>Stock Price</td><td>$25.00</td></tr><tr><td>Financing</td><td>$150</td><td>.</td><td></td><td></td></tr></tbody></table>
+
+Now, let's calculate some key ratios:
+
+**Profitability ratios**:
+
+- Gross profit margin = ($1,000 - $600) / $1,000 = 40%
+- Operating profit margin = $200 / $1,000 = 20%
+- Net profit margin = $150 / $1,000 = 15%
+- Return on assets (ROA) = $150 / $1,500 = 10%
+- Return on equity (ROE) = $150 / $1,000 = 15%
+
+ABC Inc.'s profitability ratios suggest that the company is generating healthy profits from its operations. Its gross margin is 40%, operating margin is 20%, and net margin is 15%. Its ROA and ROE of 10% and 15% respectively indicate that the company is generating solid returns on its assets and equity.
+
+**Liquidity ratios**:
+
+- Current ratio = $750 / $250 = 3.00
+- Quick ratio = ($200 + $150 + $200) / $250 = 2.20
+
+Assuming ABC Inc.'s current assets are $750 million with $200 million in cash, $150 million in marketable securities, and $200 million in accounts receivable, and its current liabilities are $250 million, the company's liquidity ratios are strong. A current ratio of 3.0 and a quick ratio of 2.2 suggest that ABC Inc. has ample liquidity to cover its short-term obligations.
+
+**Solvency ratios**:
+
+- Debt-to-equity ratio = $500 / $1,000 = 0.50
+- Debt-to-assets ratio = $500 / $1,500 = 0.33

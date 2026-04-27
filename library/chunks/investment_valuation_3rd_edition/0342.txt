@@ -1,0 +1,41 @@
+mes that the cash flows of the firm will grow at a
+constant rate forever—a stable growth rate. With stable growth, the terminal value can be estimated
+using a perpetual growth model.
+Liquidation Value
+
+In some valuations, we can assume that the firm will cease operations at a point in time in the future
+and sell the assets it has accumulated to the highest bidders. The estimate that emerges is called a
+liquidation value. There are two ways in which the liquidation value can be estimated. One is to base
+it on the book value of the assets, adjusted for any inflation during the period. Thus, if the book value
+of assets 10 years from now is expected to be $2 billion, the average age of the assets at that point is
+five years and the expected inflation rate is 3 percent, the expected liquidation value can be estimated
+as:
+The limitation of this approach is that it is based on accounting book value and does not reflect the
+earning power of the assets.
+The alternative approach is to estimate the value based on the earning power of the assets. To make
+this estimate, we would first have to estimate the expected cash flows from the assets and then
+discount these cash flows back to the present, using an appropriate discount rate. In the preceding
+example, for instance, if we assumed that the assets in question could be expected to generate $400
+million in after-tax cash flows for 15 years (after the terminal year) and the cost of capital was 10
+percent, our estimate of the expected liquidation value would be:
+When valuing equity, there is one additional step that needs to be taken. The estimated value of debt
+outstanding in the terminal year has to be subtracted from the liquidation value to arrive at the
+liquidation proceeds for equity investors.
+Multiple Approach
+In this approach, the value of a firm in a future year is estimated by applying a multiple to the firm's
+earnings or revenues in that year. For instance, a firm with expected revenues of $6 billion, 10 years
+from now will have an estimated terminal value in that year of $12 billion, if a value-to-sales
+multiple of 2 is used. If valuing equity, we use equity multiples such as price-earnings ratios to arrive
+at the terminal value.
+Although this approach has the virtue of simplicity, the multiple determines the final value and
+where it is obtained can be critical. If, as is common, the multiple is estimated by looking at how
+comparable firms in the business today are priced by the market, the valuation becomes a relative
+valuation, rather than a discounted cash flow valuation. If the multiple is estimated using
+fundamentals, it converges on the stable growth model that is described in the next section.
+All in all, using multiples to estimate terminal value, when those multiples are estimated from
+comparable firms, results in a dangerous mix of relative and discounted cash flow valuation. While
+there are advantages to relative valuation, and we consider these in a later chapter, a discounted cash
+flow valuation should provide you with an estimate of intrinsic value, not relative value.
+Consequently, the only consistent way of estimating terminal value in a discounted cash flow model is
+to use either a liquidation value or a stable growth model.
+Stable Growth Model

@@ -1,0 +1,44 @@
+sted discount rate
+; the risk-free rate cannot be used to discount expected cash flows. In all three
+approaches, though, we still preserve the flexibility to change the risk-adjusted discount rate for
+
+different outcomes. Since all of these approaches will also provide a range for estimated value and a
+measure of variability (in terms of value at the end nodes in a decision tree or as a standard deviation
+in value in a simulation), it is important that we do not double count for risk. In other words, it is
+patently unfair to risky investments to discount their cash flows back at a risk-adjusted rate (in
+simulations and decision trees) and to then reject them because the variability in value is high.
+Both simulations and decision trees can be used as alternatives to risk-adjusted valuation, but there
+are constraints on the process. The first is that the cash flows will be discounted back at a riskfree
+rate to arrive at value. The second is that we now use the measure of variability in values that we
+obtain in both these approaches as a measure of risk in the investment. Comparing two assets with the
+same expected value (obtained with riskless rates as discount rates) from a simulation, we will pick
+the one with the lower variability in simulated values as the better investment. If we do this, we are
+assuming that all of the risks that we have built into the simulation are relevant for the investment
+decision. In effect, we are ignoring the line drawn between risks that could have been diversified
+away in a portfolio and asset-specific risk on which much of modern finance is built. For investors
+considering investing all of their wealth in one asset, this should be reasonable. For a portfolio
+managers comparing two risky stocks that they are considering adding to a diversified portfolio, it
+can yield misleading results; the rejected stock with the higher variance in simulated values may be
+uncorrelated with the other investments in the portfolio and thus have little marginal risk.
+The use of probabilistic approaches has become more common with the surge in data availability
+and computing power. It is not uncommon now to see a capital budgeting analysis, with a 20 to 30
+scenarios, or a Monte Carlo simulation attached to an equity valuation.
+CONCLUSION
+Estimating the risk-adjusted value for a risky asset or investment may seem like an exercise in futility.
+After all, the value is a function of the assumptions that we make about how the risk will unfold in the
+future. With probabilistic approaches to valuation, we estimate not only an expected value but also
+get a sense of the range of possible outcomes for value, across good and bad scenarios.
+In the most extreme form of scenario analysis, you look at the value in the best-case and
+worst-case scenarios and contrast them with the expected value. In its more general form,
+you estimate the value under a small number of likely scenarios, ranging from optimistic to
+pessimistic.
+Decision trees are designed for sequential and discrete risks, where the risk in an
+investment is considered in phases and the risk in each phase is captured in the possible
+outcomes and the probabilities that they will occur. A decision tree provides a complete
+assessment of risk and can be used to determine the optimal courses of action at each phase
+and an expected value for an asset today.
+Simulations provide the most complete assessments of risk since they are based on
+probability distributions for each input (rather than just discrete outcomes). The output from
+a simulation takes the form of an expected value across simulations and a distribution for the
+simulated values.
+With all three approaches, the keys are to avoid double counting risk (by using a risk-adjusted

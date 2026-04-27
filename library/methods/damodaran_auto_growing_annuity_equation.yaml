@@ -1,0 +1,25 @@
+---
+id: damodaran_auto_growing_annuity_equation
+name: Growing Annuity Equation
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: rule_pv_calculation
+  description: Calculates the present value of future cash flows with a constant growth
+    rate.
+  check: (pe < (1 / ((roe - net_debt_ebitda) - eps * 0.05)) and pe > 0)
+- id: rule_growth_rate_check
+  description: Ensures that the growth rate is positive and reasonable.
+  check: (eps >= 0.05 and roe >= 0.15)
+caveats:
+- This method assumes a constant growth rate, which may not be realistic for all companies.
+Note: The provided YAML rule template attempts to incorporate the concept of the Growing
+  Annuity Equation into investment screening criteria using available variables. However,
+  the actual formula implementation is complex and requires specific values for 'C'
+  (cash flow), 'r' (discount rate), 'g' (growth rate), and 'n' (number of periods)
+  which are not directly provided in the list of available variables. The rules here
+  aim to indirectly ensure conditions that would be favorable for a growing annuity
+  investment, such as reasonable P/E ratios relative to growth rates and profitability
+  metrics.

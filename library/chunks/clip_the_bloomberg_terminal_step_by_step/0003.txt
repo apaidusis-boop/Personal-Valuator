@@ -1,0 +1,25 @@
+he "Company Search" box at the top. The output provides all the terms of the deals.
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_screen_shot_3-5bfd930346e0fb0051d85b4b)
+
+bloomberg screenshot
+
+To build a list of securities that meet specified criteria, type EQS then hit GO. From here, you can select a list of criteria with specified parameters.6 Available criteria are listed under categories related to exchanges, sectors, indices, domicile, descriptions, geography, and fundamental characteristics. An output of results will be generated, and these results can be changed by selecting Edit Criteria. This output, like many outputs in Bloomberg, can also be exported to Excel.
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_ss_4-5bfd930146e0fb00264cbd90)
+
+bloomberg screenshot
+
+To analyze industries from a top-down perspective, type BI and hit GO. Everything from high-level news, industry primers, earnings, and valuations, to more specific data can be found here.8
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_ss5-5bfd92ff46e0fb0051ff2411)
+
+bloomberg screenshot
+
+## How to Get Bloomberg-Like Data without Bloomberg
+
+The Bloomberg terminal is a costly system and primarily available to professional investors.9 Most individual investors don't have access to it. But you may be able to find a terminal at a public or university library. If you can't get your hands on one, though, there are [publicly available substitutes](https://www.investopedia.com/terms/b/bloomberg_terminal.asp) that provide similar data. Keep in mind that the depth and breadth of the information these alternative sources offer may be lacking. That means you may have to put together your own mosaic of information.
+
+### 1994
+
+The year the first Bloomberg Terminal was released that ran on a customer-provided PC.4

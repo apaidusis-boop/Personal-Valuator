@@ -1,0 +1,47 @@
+section, for instance, you will be ready with
+a plan of action, no matter what the outcome of phase 3 happens to be.
+Value of information.
+ Decision trees provide a useful perspective on the value of
+
+information in decision making. While it is not as obvious in the drug development example,
+it can be seen clearly when a you consider whether to test market a product before
+commercially developing it. By test-marketing a product, you acquire more information on
+the chances of eventual success. You can measure the expected value of this improved
+information in a decision tree and compare it to the test marketing cost.
+Risk management.
+ Since decision trees provide a picture of how cash flows unfold over
+time, they are useful in deciding what risks should be protected against and the benefits of
+doing so. Consider a decision tree on an asset where the worst-case scenario unfolds if the
+dollar is weak against the euro. Since you can hedge against this risk, the cost of hedging the
+risk can be compared to the loss in cash flows in the worst-case scenario.
+In summary, decision trees provide a flexible and powerful approach for dealing with risk that
+occurs in phases, with decisions in each phase depending upon outcomes in the previous one. In
+addition to providing you with measures of risk exposure, they also force you to think through how
+you will react to both adverse and positive outcomes that may occur at each phase.
+Issues
+There are some types of risk that decision trees are capable of handling and others that they are not. In
+particular, decision trees are best suited for risk that is sequential; the FDA process where approval
+occurs in phases is a good example. Risks that affect an asset concurrently cannot be easily modeled
+in a decision tree.
+4
+As with scenario analysis, decision trees generally look at risk in terms of discrete outcomes.
+Again, this is not a problem with the FDA approval process where there are only two outcomes—
+success or failure. There is a much wider range of outcomes with most other risks, and you have to
+create discrete categories for the outcomes to stay within the decision-tree framework. For instance,
+when looking at a market test, you may conclude that selling more than 100,000 units in a test market
+qualifies as a great success, between 60,000 and 100,000 units as an average outcome, and below
+60,000 as a failure.
+Assuming risk is sequential and can be categorized into discrete boxes, you are faced with
+estimation questions to which there may be no easy answers. In particular, you have to estimate the
+cash flow under each outcome and the associated probability. With the drug development example,
+you had to estimate the cost and the probability of success of each phase. The advantage that you have
+when it comes to these estimates is that you can draw on empirical data on how frequently drugs that
+enter each phase make it to the next one and historical costs associated with drug testing. To the extent
+that there may be wide differences across different phase 1 drugs in terms of success—some may be
+longer shots than others—there can still be errors that creep into decision trees.
+The expected value of a decision tree is heavily dependent upon the assumption that you will stay
+disciplined at the decision points in the tree. In other words, if the optimal decision is to abandon if a
+test market fails and the expected value is computed, based on this assumption, the integrity of the
+process and the expected value will quickly fall apart, if you decide to overlook the market testing
+failure and go with a full launch of the product anyway.
+Risk-Adjusted Value and Decision Trees

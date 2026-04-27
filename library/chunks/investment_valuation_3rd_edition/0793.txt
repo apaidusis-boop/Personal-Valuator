@@ -1,0 +1,32 @@
+premium, the default spread on a Baa rated bond (the risk premium for bonds), and a real estate risk
+premium, computed by subtracting the risk-free rate from the capitalization rate (a required return
+
+measure used by real estate investors). Note that while stock and bond premiums have always moved
+together for the most part over the entire time period, the behavior of real estate has changed
+dramatically over the past three decades. In the early 1980s, real estate risk premiums followed a
+course completely unrelated to the paths followed by stocks and bonds, which is consistent with the
+low or negative correlations reported in 
+Table 26.2
+. Starting in the mid-1990s and accelerating
+through the last decade, real estate risk premiums have converged both in magnitude and direction
+with equity and bond risk premiums. In practical terms, this suggests that not only is the correlation
+between real estate and financial assets much higher today but that the former adage of diversifying
+your portfolio by adding real estate to it may no longer be good advice.
+Figure 26.1
+ Equity Risk Premium, Cap Rates, and Bond Spreads
+While few economists would argue with the value of incorporating real estate investments into the
+market portfolio, most are stymied by the measurement problems. These problems, while
+insurmountable until recently, are becoming more solvable as real estate investments get securitized
+and traded.
+Some Practical Solutions
+If one accepts the proposition that the risk of a real estate investment should be measured using
+traditional risk and return models, there are some practical approaches that can be used to estimate
+risk parameters:
+The risk of a class of real estate investments can be obtained by regressing returns on the
+class (using the NCREIF series, for instance, on commercial and residential property)
+against returns on a consolidated market portfolio. The primary problems with this approach
+are (1) these returns series are based on smoothed appraisals and may understate the true
+volatility in the market, and (2) the returns are available only for longer return intervals
+(annual or quarterly).
+The risk parameters of traded real estate securities (REITs and master limited partnerships
+[MLPs]) can be used as a proxy for the risk in real estate investment. The limitations of this

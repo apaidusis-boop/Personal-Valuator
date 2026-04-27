@@ -2,9 +2,9 @@
 type: variant_perception
 ticker: JPM
 market: us
-date: 2026-04-26
-variance: unmeasurable
-magnitude: 0
+date: 2026-04-27
+variance: low_consensus_long
+magnitude: 1
 weight_skew: False
 tags: [variant_perception, edge_detection]
 ---
@@ -13,8 +13,19 @@ tags: [variant_perception, edge_detection]
 
 **Our stance**: bullish  
 **Analyst consensus** (0 insights, last 90d): no_data (0% bull)  
-**Variance type**: `unmeasurable` (magnitude 0/5)  
-**Interpretation**: missing thesis or no analyst data
+**Variance type**: `low_consensus_long` (magnitude 1/5)  
+**Interpretation**: consensus pick — no edge
+
+## 🌐 Tavily web consensus (last 30d)
+
+**Web stance**: bullish (4 bull / 1 bear / 0 neutral)  
+**Cached**: False
+
+- 🟢 [bull] [JPMorgan just boosted its S&P 500 target on fresh AI excitement and big earnings expectations - Business Insider](https://www.businessinsider.com/stock-market-today-earnings-ai-trade-investing-bull-price-target-2026-4) (Tue, 21 Ap)
+- 🟢 [bull] [Tesla Heading Toward Buying Opportunity as Misunderstanding Prevails - tipranks.com](https://www.tipranks.com/news/tesla-heading-toward-buying-opportunity-as-misunderstanding-prevails) (Tue, 07 Ap)
+- 🔴 [bear] [Tesla Stock (TSLA) Is Likely to Fall 60%, Warns JPMorgan Chase - TipRanks](https://www.tipranks.com/news/tesla-stock-tsla-is-likely-to-fall-60-warns-jpmorgan-chase) (Mon, 06 Ap)
+- 🟢 [bull] [TSMC Q1 Revenue Surges 35% — Is TSM Stock Still a Buy Ahead of Earnings? - TipRanks](https://www.tipranks.com/news/tsmc-q1-revenue-surges-35-is-tsm-stock-still-a-buy-ahead-of-earnings) (Fri, 10 Ap)
+- 🟢 [bull] [JPMorgan Chase Q1 earnings beat, but NII outlook trimmed (JPM:NYSE) - Seeking Alpha](https://seekingalpha.com/news/4574690-jpmorgan-chase-q1-earnings-beat-but-nii-outlook-trimmed) (Tue, 14 Ap)
 
 ## 📜 Our thesis
 

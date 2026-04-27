@@ -1,0 +1,48 @@
+borrowing Ke
+–rt
+ N(d
+2
+). The portfolio will have the same cash flows as the call option, and
+thus the same value as the option. N(d
+1
+), which is the number of units of the underlying asset that are
+
+needed to create the replicating portfolio, is called the option delta.
+A NOTE ON ESTIMATING THE INPUTS TO THE
+BLACK-SCHOLES MODEL
+The Black-Scholes model requires inputs that are consistent on time measurement. There are two places where this affects
+estimates. The first relates to the fact that the model works in continuous time, rather than discrete time. That is why we use
+the continuous time version of present value (exp
+–rt
+) rather than the discrete version, (1 + r)
+–t
+. It also means that the inputs
+such as the riskless rate have to be modified to make them continuous time inputs. For instance, if the one-year Treasury
+bond rate is 6.2 percent, the risk-free rate that is used in the Black-Scholes model should be:
+The second relates to the period over which the inputs are estimated. For instance, the preceding rate is an annual rate. The
+variance that is entered into the model also has to be an annualized variance. The variance, estimated from ln(asset prices),
+can be annualized easily because variances are linear in time if the serial correlation is zero. Thus, if monthly or weekly
+prices are used to estimate variance, the variance is annualized by multiplying by 12 or 52, respectively.
+ILLUSTRATION 5.2: 
+Valuing an Option Using the Black-
+Scholes Model
+On March 6, 2001, Cisco Systems was trading at $13.62. We will attempt to value a July 2001 call option with a strike price
+of $15, trading on the CBOE on the same day for $2. The following are the other parameters of the options:
+The annualized standard deviation in Cisco Systems stock price over the previous year was 81%. This
+standard deviation is estimated using weekly stock prices over the year, and the resulting number was
+annualized as follows: 
+The option expiration date is Friday, July 20, 2001. There are 103 days to expiration, and the annualized
+Treasury bill rate corresponding to this option life is 4.63%.
+The inputs for the Black-Scholes model are as follows:
+Current stock price (S) = $13.62
+Strike price on the option = $15
+Option life = 103/365 = 0.2822
+Standard deviation in ln(stock prices) = 81%
+Riskless rate = 4.63%
+Inputting these numbers into the model, we get:
+Using the normal distribution, we can estimate the N(d
+1
+) and N(d
+2
+):
+The value of the call can now be estimated:

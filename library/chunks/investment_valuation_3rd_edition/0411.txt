@@ -1,0 +1,45 @@
+owth rate to get to a value.
+To estimate the value of equity today, we sum up the present value of the FCFE over the high growth period and add to it
+the present value of the terminal value of equity:
+
+The stock was trading at 10.10 yuan per share, which would make it overvalued based on this valuation.
+NEGATIVE FCFE, EQUITY DILUTION, AND VALUE
+PER SHARE
+Unlike dividends, free cash flows to equity can be negative. This can occur either because net income is negative or because
+a firm's reinvestment needs are significant; this is the case with Tsingtao in Illustration 14.5. The resulting net capital
+expenditure and working capital needs are much larger than the net income. In fact, this is likely to occur fairly frequently
+with high-growth firms.
+  The FCFE model is flexible enough to deal with this issue. The free cash flows to equity will be negative as the firm
+reinvests substantial amounts to generate high growth. As the growth declines, the reinvestment needs also drop off and free
+cash flows to equity turn positive.
+  Intuitively, though, consider what a negative free cash flow to equity implies. It indicates that the firm does not generate
+enough equity cash flows from current operations to meet its equity reinvestment needs. Since the free cash flow to equity is
+after net debt issues, the firm will have to issue new equity in years when the cash flow is negative. This expected dilution in
+future years will reduce the value of equity per share today. In the FCFE model, the negative free cash flows to equity in the
+earlier years will reduce the estimated value of equity today. Thus the dilution effect is captured in the present value, and no
+additional consideration is needed of new stock issues in future years and the effect on value per share today.
+A TROUBLESHOOTING GUIDE: WHAT IS WRONG
+WITH THIS VALUATION? (THREE-STAGE FCFE
+MODEL)
+If This Is Your Problem
+This May Be the Solution
+If you get an extremely low value from the three-stage FCFE,
+the likely culprits are:
+Capital expenditures are significantly higher than depreciation in stable growth
+phase.
+Reduce net cap ex in stable growth. Cap ex grows slower than depreciation
+during transition period.
+The beta in the stable period is too high for a stable firm.
+Use a beta closer to 1.
+Working capital as percent of revenue is too high to sustain.
+Use working capital ratio closer to industry average.
+If you get an extremely high value:
+Capital expenditures offset depreciation during high-growth period.
+Capital expenditures should be set higher.
+Capital expenditures are less than depreciation.
+Calculate reinvestment rate = g/ROC
+Growth period (high growth and transition) is too long.
+Use a shorter growth period.
+The growth rate in the stable growth period is too high for stable firm.
+Use a growth rate lower than or equal to GNP growth (riskfree rate).
+FCFE3st.xls:

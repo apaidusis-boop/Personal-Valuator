@@ -1,0 +1,57 @@
+Debt Crises
+47
+Top
+(3)
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Depression
+(4)
+Normalization
+(5)
+54321
+-10%
+-8%
+-6%
+-4%
+-2%
+0%
+2%
+4%
+-60 -48 -36 -24 -12 0 12 24 36 48 60 72 84
+Growth vs Potential
+
+The shift in capital and income flows drives asset prices down and interest rates up, slowing the economic growth 
+rates that were dependent on the inflows. This worsens the fundamentals of companies and further drives out 
+capital flows. The economy suffers a debt bust—asset prices fall and banks fail. 
+During this stage, worry increases on the part of both asset/currency holders and the policy makers who are trying to 
+support the currency. Asset/currency holders typically worry that policy makers will impose restrictions on their 
+ability to get their money out of the country, which encourages them to get their money out while they still can, 
+which further increases the balance of payments problem. Policy makers worry about capital outflows and the 
+possibility of a currency collapse. As the balance of payments deteriorate, the central bank’s job becomes more 
+difficult—i.e., it gets less economic growth per unit of inflation because the negative flows lead the currency to 
+depreciate, interest rates to rise, and/or reserves to decline, depending on how the central bank chooses to handle it.
+At this stage, central banks typically try to defend their currencies by a) filling the balance of payments deficit by 
+spending down reserves and/or b) raising rates. These currency defenses and managed currency declines rarely 
+work because the selling of reserves and/or the raising of interest rates creates more of an opportunity for sellers, 
+while it doesn’t move the currencies and interest rates to the levels that they need to be to bring about sustainable 
+economic conditions. Let’s look at this typical defense and why it fails.
+There is a critical relationship between a) the interest rate difference and b) the spot/forward currency relationship. 
+The amount the currency is expected to decline is priced into how much less the forward price is below the spot 
+price. For example, if the market expects the currency to fall by 5 percent over a year, it will need that currency to 
+yield a 5 percent higher interest rate. The math is even starker when depreciation is expected over short periods of 
+time. If the market expects a 5 percent depreciation over a month, than it will need that currency to yield a 5 
+percent higher interest rate over that month—and a 5 percent monthly interest is equivalent to an annual interest 
+rate of about 80 percent10—a level that’s likely to produce a very severe economic contraction in an already weak 
+economy. Because a small expected currency depreciation (say 5 to 10 percent in a year) would equal a large 
+interest rate premium (5 to 10 percent per year higher), this path is intolerable.
+Said differently, a managed currency decline accompanied by falling reserves causes the market to expect continued 
+future currency depreciation, which pushes up domestic interest rates (as described above), acting as a tightening at 
+a time when the economy is already weak. Also, the expectation of continued devaluation will encourage increased 
+capital withdrawals and devaluation speculation, widening the balance of payments gap and forcing the central bank 
+to spend down more reserves to defend the currency (or abandon the planned gradual depreciation). Also, a 
+currency defense by spending reserves will have to stop because no sensible policy maker will want to run out of 
+such “savings.” In such currency defenses, policy makers—especially those defending a peg—will typically make 
+10  It’s 80 percent instead of 60 percent (5 percent times 12 months) because of compounding�

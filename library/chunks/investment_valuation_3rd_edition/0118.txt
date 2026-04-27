@@ -1,0 +1,31 @@
+ime premium on the option is
+less than the expected drop in option value as a consequence of the dividend payment.
+Step 4:
+ Value the call at time 0, using the standard binomial approach.
+bstobin.xls:
+
+This spreadsheet allows you to estimate the parameters for a binomial model from the inputs
+to a Black-Scholes model.
+Impact of Exercise on Underlying Asset Value
+The Black-Scholes model is based on the assumption that exercising an option does not affect the
+value of the underlying asset. This may be true for listed options on stocks, but it is not true for some
+types of options. For instance, the exercise of warrants increases the number of shares outstanding
+and brings fresh cash into the firm, both of which will affect the stock price.
+3
+ The expected negative
+impact (dilution) of exercise will decrease the value of warrants, compared to otherwise similar call
+options. The adjustment for dilution to the stock price is fairly simple in the Black-Scholes valuation.
+The stock price is adjusted for the expected dilution from the exercise of the options. In the case of
+warrants, for instance:
+where S = Current value of the stock 
+n
+w
+ = Number of warrants outstanding 
+W = Value of warrants outstanding 
+n
+s
+ = Number of shares outstanding
+When the warrants are exercised, the number of shares outstanding will increase, reducing the stock
+price. The numerator reflects the market value of equity, including both stocks and warrants
+outstanding. The reduction in S will reduce the value of the call option.
+There is an element of circularity in this analysis, since the value of the warrant is needed to

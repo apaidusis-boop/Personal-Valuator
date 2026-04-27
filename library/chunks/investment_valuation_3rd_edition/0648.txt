@@ -1,0 +1,16 @@
+re losing money currently create several problems for the analysts who are attempting to
+value them. While none of these problems are conceptual, they are significant from a measurement
+standpoint:
+1.
+
+Earnings growth rates cannot be estimated or used in valuation.
+ The first and most obvious
+problem is that we can no longer estimate an expected growth rate to earnings and apply it to
+current earnings to estimate future earnings. When current earnings are negative, applying a
+growth rate will just make it more negative. In fact, even estimating an earnings growth rate
+becomes problematic, whether one uses historical growth, analyst projections, or fundamentals.
+Estimating historical growth when current earnings are negative is difficult, and the numbers,
+even if estimated, often are meaningless. To see why, assume that a firm's operating earnings
+have gone from –$200 million last year to –$100 million in the current year. The traditional
+
+historical growth equation yields the following:

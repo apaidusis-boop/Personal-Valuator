@@ -1,0 +1,43 @@
+n of whether the excess returns around the announcement are different from zero is
+answered by estimating the t statistic for each period, by dividing the average excess return by the
+standard error: 
+
+If the t statistics are statistically significant,
+4
+ the event affects returns; the sign of the excess return
+determines whether the effect is positive or negative.
+ILLUSTRATION 6.1: Example of an Event Study—Effects
+of Option Listing on Stock Prices
+Academics and practitioners have long argued about the consequences of option listing for stock price volatility. On the one
+hand, there are those who argue that options attract speculators and hence increase stock price volatility. On the other hand,
+there are others who argue that options increase the available choices for investors and increase the flow of information to
+financial markets, and thus lead to lower stock price volatility and higher stock prices.
+One way to test these alternative hypotheses is to do an event study, examining the effects of listing options on the
+underlying stocks’ prices. Conrad (1989) did such a study, following these steps:
+Step 1:
+ The date of the announcement that options on a particular stock would be listed on the Chicago Board Options
+Exchange was collected.
+Step 2:
+ The prices of the underlying stock (j) were collected for each of the 10 days prior to the option listing announcement
+date, for the day of the announcement, and for each of the 10 days after.
+Step 3:
+ The returns on the stock (R
+jt
+) were computed for each of these trading days.
+Step 4:
+ The beta for the stock (
+β
+j
+) was estimated using the returns from a time period outside the event window (using 100
+trading days from before the event and 100 trading days after the event).
+Step 5:
+ The returns on the market index (R
+mt
+) were computed for each of the 21 trading days.
+Step 6:
+ The excess returns were computed for each of the 21 trading days:
+The excess returns are cumulated for each trading day.
+Step 7:
+ The average and standard error of excess returns across all stocks with option listings were computed for each of
+the 21 trading days. The t statistics are computed using the averages and standard errors for each trading day. The following
+table summarizes the average excess returns and t statistics around option listing announcement dates:

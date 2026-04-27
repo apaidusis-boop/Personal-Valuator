@@ -1,0 +1,38 @@
+eet
+Note that while this summary does have some similarities with the accounting balance sheet, there
+are key differences. The most important one is that here we explicitly consider growth assets when
+
+we look at what a firm owns.
+When doing a financial analysis of a firm, we would like to be able to answer a number of
+questions relating to each of these items. 
+Figure 9.2
+ lists the questions. As we see in this chapter,
+accounting statements allow us to acquire some information about each of these questions, but they
+fall short in terms of both the timeliness with which they provide it and the way in which they
+measure asset value, earnings, and risk.
+Figure 9.2
+ Key Financial Questions
+ADJUSTING EARNINGS
+The income statement for a firm provides measures of both the operating and equity income of the
+firm in the form of the earnings before interest and taxes (EBIT) and net income. When valuing firms,
+there are two important considerations in using these measures. One is to obtain as updated an
+estimate as possible, given how much firms change over time. The second is that reported earnings at
+these firms may bear little resemblance to true earnings because of limitations in accounting rules and
+the firms' own actions.
+Importance of Updating Earnings
+Firms reveal their earnings in their financial statements and annual reports to stockholders. Annual
+reports are released only at the end of a firm's financial year, but you are often required to value firms
+all through the year. Consequently, the last annual report that is available for a firm being valued can
+contain information that is several months old. In the case of firms that are changing rapidly over time,
+it is dangerous to base value estimates on information that is this old. Instead, use more recent
+information. Since firms in the United States are required to file quarterly reports with the Securities
+and Exchange Commission (10-Qs) and reveal these reports to the public, a more recent estimate of
+key items in the financial statements can be obtained by aggregating the numbers over the most recent
+four quarters. The estimates of revenues and earnings that emerge from this exercise are called
+trailing 12-month revenues and earnings and can be very different from the values for the same
+variables in the most recent annual report.
+There is a price paid for the updating. Unfortunately, not all items in the annual report are updated
+in the quarterly reports. You have to either use the numbers in the last annual report (which does lead
+to inconsistent inputs) or estimate their values at the end of the last quarter (which leads to estimation
+error). For example, many firms do not reveal details about options outstanding (issued to managers
+and employees) in quarterly reports, while they do reveal them in annual reports. Since you need to

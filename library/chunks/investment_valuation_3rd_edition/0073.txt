@@ -1,0 +1,32 @@
+arge negative returns. Third, the shape of the tails of the distribution is measured by the
+kurtosis of the distribution; fatter tails lead to higher kurtosis. In investment terms, this represents the
+
+tendency of the price of this investment to jump (up or down from current levels) in either direction.
+In the special case where the distribution of returns is normal, investors do not have to worry about
+skewness and kurtosis, since there is no skewness (normal distributions are symmetric) and a normal
+distribution is defined to have a kurtosis of zero. 
+Figure 4.3
+ illustrates the return distributions on two
+investments with symmetric returns.
+Figure 4.3
+ Return Distribution Comparisons
+When return distributions are normal, the characteristics of any investment can be measured with
+two variables—the expected return, which represents the opportunity in the investment, and the
+standard deviation or variance, which represents the danger. In this scenario, a rational investor,
+faced with a choice between two investments with the same standard deviation but different expected
+returns, will always pick the one with the higher expected return.
+In the more general case, where distributions are neither symmetric nor normal, it is still
+conceivable that investors will choose between investments on the basis of only the expected return
+and the variance, if they possess utility functions that allow them to do so.
+1
+ It is far more likely,
+however, that they prefer positive skewed distributions to negatively skewed ones, and distributions
+with a lower likelihood of jumps (lower kurtosis) over those with a higher likelihood of jumps
+(higher kurtosis). In this world, investors will trade off the good (higher expected returns and more
+positive skewness) against the bad (higher variance and kurtosis) in making investments.
+In closing, it should be noted that the expected returns and variances that we run into in practice are
+almost always estimated using past returns rather than future returns. The assumption made when
+using historical variances is that past return distributions are good indicators of future return
+distributions. When this assumption is violated, as is the case when the asset’s characteristics have
+changed significantly over time, the historical estimates may not be good measures of risk.
+optvar.xls:

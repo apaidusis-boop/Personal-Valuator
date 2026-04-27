@@ -1,0 +1,40 @@
+sheets, which are
+designed to alert potential or current investors to the possibility of significant losses. The second
+measure is ratios that are designed to measure both liquidity and default risk.
+
+Disclosures in Financial Statements
+In recent years, the disclosures that firms have to make about future obligations have proliferated.
+Consider, for instance, the case of contingent liabilities. These refer to potential liabilities that will
+be incurred under certain contingencies, as is the case, for instance, when a firm is the defendant in a
+lawsuit. The general rule that has been followed is to ignore contingent liabilities that hedge against
+risk, since the obligations on the contingent claim will be offset by benefits elsewhere.
+8
+ In recent
+periods, however, significant losses borne by firms from supposedly hedged derivatives positions
+(such as options and futures) have led to FASB requirements that these derivatives be disclosed as
+part of a financial statement. In fact, pension fund and health care obligations have moved from mere
+footnotes to actual liabilities for firms.
+Financial Ratios
+Financial statements have long been used as the basis for estimating financial ratios that measure
+profitability, risk, and leverage. Earlier, the section on earnings looked at two of the profitability
+ratios—return on equity and return on capital. This section looks at some of the financial ratios that
+are often used to measure the financial risk in a firm.
+Short-Term Liquidity Risk
+Short-term liquidity risk arises primarily from the need to finance current operations. To the extent
+that the firm has to make payments to its suppliers before it gets paid for the goods and services it
+provides, there is a cash shortfall that has to be met, usually through short-term borrowing. Though
+this financing of working capital needs is done routinely in most firms, financial ratios have been
+devised to keep track of the extent of the firm's exposure to the risk that it will not be able to meet its
+short-term obligations. The two ratios most frequently used to measure short-term liquidity risk are
+the current ratio and the quick ratio.
+Current Ratios
+The current ratio is the ratio of the firm's current assets (cash, inventory, accounts receivable) to its
+current liabilities (obligations coming due within the next period).
+A current ratio below 1, for instance, would indicate that the firm has more obligations coming due in
+the next year than assets it can expect to turn into cash. That would be an indication of liquidity risk.
+While traditional analysis suggests that firms maintain a current ratio of 2 or greater, there is a
+trade-off here between minimizing liquidity risk and tying up more and more cash in net working
+capital (Net working capital = Current assets – Current liabilities). In fact, it can be reasonably
+argued that a very high current ratio is indicative of an unhealthy firm that is having problems
+reducing its inventory. In recent years firms have worked at reducing their current ratios and
+managing their net working capital better.

@@ -1,0 +1,34 @@
+to be capitalized
+and the other does not. You should expect to see lower price-to-book value ratios in the former, since
+the book value of equity will be augmented by the value of the research asset.
+
+ADJUSTING BOOK EQUITY FOR BUYBACKS AND
+ACQUISITIONS
+In recent years, firms in the United States have increasingly turned to buying back stock as a way of returning cash to
+stockholders. When a firm buys back stock, the book equity of the firm declines by the amount of the buyback. Although this
+is precisely what happens when firms pay a cash dividend as well, buybacks tend to be much larger than regular dividends
+and thus have a bigger impact on book equity. To illustrate, assume that you have a firm that has a market value of equity of
+$100 million and a book value of equity of $50 million; its price-to-book ratio is 2.00. If the firm borrows $25 million and buys
+back stock, its book equity will decline to $25 million and its market equity will drop to $75 million. The resulting price-to-
+book ratio is 3.
+  With acquisitions, the effect on price-to-book ratios can vary dramatically depending on how the acquisition is accounted
+for. While all firms are now required to show goodwill as an asset, when they do acquisition, there is some discretion in how
+the purchase price on an acquisition is allocated across the target firm's assets. Furthermore, the goodwill line item has to be
+revisited in subsequent years and impaired, if the value of the target company has declined since the acquisition. Both actions
+can affect book value of equity and the price-to-book ratio.
+  To compare price-to-book ratios across firms when some firms in the sample buy back stocks and some do not or when
+there are wide differences in both the magnitude and the accounting for acquisitions can be problematic. One way to adjust
+for the differences is to take out the goodwill from acquisitions and to add back the market value of buybacks to the book
+equity to come up with an adjusted book value of equity. The price-to-book ratios can then be computed based on this
+adjusted book value of equity.
+Description
+To get a sense of what comprises a high, low, or average price to book value ratio, we computed the
+ratio for every firm listed in the United States, and 
+Figure 19.1
+ summarizes the distribution of price-
+to-book ratios in January 2011. Note that this distribution is heavily skewed, as is evidenced by the
+fact that the average price-to-book ratio of firms is 4.59 while the median price-to-book ratio is much
+lower at 1.79.
+Figure 19.1
+ Price to Book Value—U.S. Companies in January 2011
+Another point worth making about price-to-book ratios is that there are firms with negative book

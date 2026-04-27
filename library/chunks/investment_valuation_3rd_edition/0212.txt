@@ -1,0 +1,6 @@
+t discount rates based on rules of thumb. Neither
+approach is appealing. The next section develops an approach for estimating betas that is general
+enough to apply to all of these companies.
+risk.xls.
+
+This spreadsheet allows you to run a regression of stock returns against market returns and

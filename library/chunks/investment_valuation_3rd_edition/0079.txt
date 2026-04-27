@@ -1,0 +1,59 @@
+lse.
+These results are predicated on two additional assumptions. First, there exists a riskless asset,
+where the expected returns are known with certainty. Second, investors can lend and borrow at the
+
+riskless rate to arrive at their optimal allocations. While lending at the riskless rate can be
+accomplished fairly simply by buying Treasury bills or bonds, borrowing at the riskless rate might be
+more difficult for individuals to do. There are variations of the CAPM that allow these assumptions
+to be relaxed and still arrive at conclusions that are consistent with the model.
+Measuring the Market Risk of an Individual Asset
+The risk of any asset to an investor is the risk added by that asset to the investor’s overall portfolio.
+In the CAPM world, where all investors hold the market portfolio, the risk to an investor of an
+individual asset will be the risk that this asset adds to the market portfolio. Intuitively, if an asset
+moves independently of the market portfolio, it will not add much risk to the market portfolio. In other
+words, most of the risk in this asset is firm-specific and can be diversified away. In contrast, if an
+asset tends to move up when the market portfolio moves up and down when it moves down, it will
+add risk to the market portfolio. This asset has more market risk and less firm-specific risk.
+Statistically, this added risk is measured by the covariance of the asset with the market portfolio.
+Measuring the Nondiversifiable Risk
+In a world in which investors hold a combination of only two assets—the riskless asset and the
+market portfolio—the risk of any individual asset will be measured relative to the market portfolio. In
+particular, the risk of any asset will be the risk it adds to the market portfolio. To arrive at the
+appropriate measure of this added risk, assume that σ
+2
+m
+ is the variance of the market portfolio prior to
+the addition of the new asset and that the variance of the individual asset being added to this portfolio
+is σ
+2
+i
+. The market value portfolio weight on this asset is w
+i
+, and the covariance in returns between the
+individual asset and the market portfolio is 
+σ
+im
+. The variance of the market portfolio prior to and after
+the addition of the individual asset can then be written as:
+The market value weight on any individual asset in the market portfolio should be small, since the
+market portfolio includes all traded assets in the economy. Consequently, the first term in the equation
+should approach zero, and the second term should approach 
+σ
+2
+m
+′
+ leaving the third term (
+σ
+im
+′
+ the
+covariance) as the measure of the risk added by asset i.
+Standardizing Covariances
+The covariance is a percentage value, and it is difficult to pass judgment on the relative risk of an
+investment by looking at this value. In other words, knowing that the covariance of Boeing with the
+market portfolio is 55 percent does not provide us a clue as to whether Boeing is riskier or safer than
+the average asset. We therefore standardize the risk measure by dividing the covariance of each asset
+with the market portfolio by the variance of the market portfolio. This yields a risk measure called the
+beta of the asset:
+Since the covariance of the market portfolio with itself is its variance, the beta of the market
+portfolio (and, by extension, the average asset in it) is 1. Assets that are riskier than average (using

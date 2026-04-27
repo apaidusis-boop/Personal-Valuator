@@ -1,0 +1,35 @@
+margins. Decreasing the sales-to-capital ratio until the return on capital
+converges on 15 percent would be prudent.
+ILLUSTRATION 11.14: Estimated Sales-to-Capital Ratios
+and Implied Return on Capital
+
+To estimate how much Tesla Motors and Linkedin have to invest to generate the expected revenue growth, we estimate the
+current sales-to-capital ratio for each firm, the marginal sales to capital ratio in the last year, and the average sales-to-capital
+ratio for the businesses that each operates in:
+Tesla Motors
+Linkedin
+Firm's sales to capital
+0.26
+1.93
+Marginal sales to capital: most recent year
+0.31
+2.15
+Industry average sales to capital
+1.69
+2.20
+Sales-to-capital ratio used in valuation
+2.00
+2.20
+We use the industry average of 2.20 for the sales to capital ratio for Linkedin, a little higher than its current sales-to-capital
+ratio and close to the marginal ratio in the most recent year. For Tesla, we use 2.00, a little higher than the industry average
+of 1.69, and assume that the current numbers are a reflection of its infrastructure investments, its start-up status, and its
+technology roots.
+Based on these estimates of the sales-to-capital ratio for each firm, we can now estimate how much each firm will have to
+reinvest each year for the next 10 years and the resulting return on capital:
+The returns on capital at both firms converge to sustainable levels, at least relative to industry averages, by the terminal year.
+This suggests that our estimates of sales-to-capital ratios are reasonable.
+margins.xls:
+
+This dataset on the Web summarizes operating and net margins, by industry, for the United
+States.
+QUALITATIVE ASPECTS OF GROWTH

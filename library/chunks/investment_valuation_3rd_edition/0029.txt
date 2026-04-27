@@ -1,0 +1,35 @@
+y
+come about because of the development of option pricing models. While these models were initially
+used to value traded options, there has been an attempt in recent years to extend the reach of these
+
+models into more traditional valuation. There are many who argue that assets such as patents or
+undeveloped reserves are really options and should be valued as such, rather than with traditional
+discounted cash flow models.
+Basis for Approach
+A contingent claim or option is a claim that pays off only under certain contingencies—if the value of
+the underlying asset exceeds a prespecified value for a call option or is less than a prespecified value
+for a put option. Much work has been done in the past 20 years in developing models that value
+options, and these option pricing models can be used to value any assets that have optionlike features.
+Figure 2.2
+ illustrates the payoffs on call and put options as a function of the value of the underlying
+asset. An option can be valued as a function of the following variables: the current value and the
+variance in value of the underlying asset, the strike price and the time to expiration of the option, and
+the riskless interest rate. This was first established by Fischer Black and Myron Scholes in 1972 and
+has been extended and refined subsequently in numerous variants. While the Black-Scholes option
+pricing model ignore dividends and assumes that options will not be exercised early, it can be
+modified to allow for both. A discrete-time variant, the binomial option pricing model, has also been
+developed to price options.
+Figure 2.2
+ Payoff Diagram on Call and Put Options
+An asset can be valued as an option if the payoffs are a function of the value of an underlying asset.
+It can be valued as a call option if when that value exceeds a prespecified level the asset is worth the
+difference. It can be valued as a put option if it gains value as the value of the underlying asset drops
+below a prespecified level, and if it is worth nothing when the underlying asset's value exceeds that
+specified level.
+Underpinnings of Contingent Claim Valuation
+The fundamental premise behind the use of option pricing models is that discounted cash flow models
+tend to understate the value of assets that provide payoffs that are contingent on the occurrence of an
+event. As a simple example, consider an undeveloped oil reserve belonging to Petrobras. You could
+value this reserve based on expectations of oil prices in the future, but this estimate would miss the
+fact that the oil company will develop this reserve only if oil prices go up and will not if oil prices
+decline. An option pricing model would yield a value that incorporates this right.

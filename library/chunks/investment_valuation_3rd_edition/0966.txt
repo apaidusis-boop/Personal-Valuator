@@ -1,0 +1,24 @@
+at is close in terms of characteristics. Note, though, that if you use this distribution,
+you are in effect assuming that the underlying distribution of margins is the same across software
+firms.
+iii.
+
+Statistical distribution and parameters
+: For most variables that you are trying to forecast,
+the historical and cross-sectional data will be insufficient or unreliable. In these cases, you have
+to pick a statistical distribution that best captures the variability in the input and estimate the
+parameters for that distribution. Thus, you may conclude that operating margins for software
+companies will be distributed uniformly, with a minimum of 0 percent and a maximum of 35
+percent, and that revenue growth is normally distributed with an expected value of 15 percent
+and a standard deviation of 10 percent. Many simulation packages available for personal
+computers now provide a rich array of distributions, but picking the right distribution and the
+parameters for the distribution remains difficult for two reasons. 
+The first is that few inputs that we see in practice meet the stringent requirements that statistical
+distributions demand; revenue growth, for instance, cannot really be normally distributed
+because the lowest value it can take on is –100 percent. Consequently, you have to settle for
+statistical distributions that are close enough to the real distribution that the resulting errors will
+not wreak havoc on your conclusion. The second is that the parameters still need to be estimated,
+once the distribution is picked. For this, you can draw on historical or cross-sectional data; for
+the revenue growth input, you can look at revenue growth in prior years or revenue growth rate
+differences across peer group companies. The caveats about structural shifts making historical
+data unreliable and peer group companies not being truly comparable continue to apply.

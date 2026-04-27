@@ -1,0 +1,51 @@
+York Times 
+
+Principles For Navigating Big Debt Crises
+147
+$0
+$5
+$10
+$15
+$20
+$25
+1-Aug 16-Aug 31-Aug 15-Sep
+1,150
+1,200
+1,250
+1,300
+1,350
+1-Aug 16-Aug 31-Aug 15-Sep
+Lehman Brothers Share Price S&P 500
+
+On Friday evening, reports surfaced that Fed officials had gathered the heads of Wall Street’s major banks—from 
+Goldman Sachs to the Bank of New York Mellon—to urge them to bail out Lehman. Whether there would be any 
+takers remained to be seen. Bank of America, Barclays, and HSBC had reportedly expressed interest, but none 
+wanted to do the deal without government support. And Treasury officials publicly insisted no support would come. 
+Paulson had hoped that by motivating a consortium of financial institutions to take on Lehman’s bad loans, a 
+potential acquisition of Lehman could be facilitated (as a potential buyer could leave a substantial portion of 
+Lehman’s bad assets behind when they acquired the firm). But while some progress was made with the consor -
+tium, no potential buyer emerged. Without a potential buyer, the Fed did not have any authorities which would 
+have been effective in preventing the failure of a nonbank in the midst of a panic-driven run, according to 
+Paulson, Bernanke, and Geithner. 39 
+Bernanke and Geithner had many conversations together and with Paulson about what they could do to help 
+prevent Lehman’s failure, but, as in the case of Bear Stearns, they did not believe that a Fed loan would be 
+effective. They believed that the legal requirement that a loan had to be “secured to their satisfaction” limited the 
+amount they could lend, and that meant they could not lend Lehman enough to save it or guarantee its trading 
+book. The weeks before that fateful weekend were consumed by the effort to figure out a way to prevent Lehman’s 
+failure despite those constraints. They were willing to be very creative with their authority and to take a lot of 
+risk, but only within the bounds of what the law allowed. They erred on the side of doing more, not less, but 
+Section 13(3) (the section of the Federal Reserve Act that allowed for emergency lending to a wider set of borrow -
+ers) did not make them alchemists. Loans were not equity, and they had to be guided by what would work in 
+practice. 
+Most everyone agrees that it would have been a lot better if these policy makers had the authority to liquidate 
+Lehman in an orderly way; this was another classic example of how political constraints together with imperfectly 
+thought-out legal constraints can get in the way of actions that are widely agreed to be beneficial.
+On Sunday afternoon the news broke that Lehman was headed for bankruptcy, and all hell broke loose. The 
+shock was way bigger than any before because of Lehman’s size and interconnectedness to other vulnerable 
+institutions, which made it clear that the contagion would spread. Even worse, the government’s failure to save it 
+raised doubts about whether it could save the system. Lehman’s failure was particularly scary because of its 
+large and poorly understood interconnectedness with the rest of the financial system.
+There were a couple of major channels of potential contagion. The most important (and least clear) was Lehman’s 
+substantial presence in derivatives markets. At the time of its bankruptcy, Lehman was a party to between $4 and 
+$6 trillion worth of exposure in CDS, accounting for about 8 percent of the total market. Though many of these 
+exposures were offsetting—Lehman did not actually owe huge sums on net—its failure sent clients scrambling to

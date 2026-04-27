@@ -1,0 +1,41 @@
+error). For example, many firms do not reveal details about options outstanding (issued to managers
+and employees) in quarterly reports, while they do reveal them in annual reports. Since you need to
+
+value these options, you can use the options outstanding as of the last annual report, or assume that the
+options outstanding today have changed to reflect changes in the other variables. (For instance, if
+revenues have doubled, you can assume that the options have doubled as well.)
+For younger firms, it is critical that you stay with the most updated numbers you can find, even if
+these numbers are estimates. These firms are often growing exponentially, and using numbers from the
+last financial year will lead to misleading estimates of value. Even firms that are not growing are
+changing substantially from quarter to quarter, and updated information might give you a chance to
+capture these changes.
+There are several financial markets where firms still file financial reports only once a year, thus
+denying us the option of using quarterly updates. When valuing firms in these markets, you may have
+to draw on unofficial sources to update their valuations.
+ILLUSTRATION 9.1: Updated Earnings for Apple—April
+2011
+Assume that you were valuing Apple in April 2011. The last 10-K was as of September 2010 and the firm had released two
+quarterly reports (10-Qs), one ending in December 2010 and one ending in March 2011. To illustrate how much the
+fundamental inputs to the valuation have changed in the six months, the information in the last 10-K is compared to the
+trailing 12-month information in the latest 10-Q for revenues, operating income, R&D expenses, and net income (in millions
+of dollars).
+The trailing 12-month revenues are 40 percent higher than the revenues reported in the latest 10-K, and the firm's operating
+income and net income have both increased substantially. Apple in April 2011 was a much more profitable firm than Apple
+in September 2010. Note that these are not the only inputs that will change. For younger firms, the number of shares
+outstanding can also change dramatically from period to period. Using the most updated numbers will give you a more
+realistic valuation.
+Correcting Earnings Misclassification
+Companies have three types of expenses:
+1.
+ Operating expenses are expenses that generate benefits for the firm only in the current period.
+For instance, the fuel used by an airline in the course of its flights is an operating expense, as is
+the labor cost for an automobile company associated with producing vehicles.
+2.
+ Capital expenses are expenses that generate benefits over multiple periods. For example, the
+expense associated with building and outfitting a new factory for an automobile manufacturer is a
+capital expense, since it will generate several years of revenues.
+3.
+ Financial expenses are expenses associated with nonequity capital raised by a firm. Thus, the
+interest paid on a bank loan would be a financial expense.
+The operating income for a firm, measured correctly, should be equal to its revenues less its
+operating expenses. Neither financial nor capital expenses should be included in the operating

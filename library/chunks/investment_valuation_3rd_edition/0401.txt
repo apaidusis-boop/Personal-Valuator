@@ -1,0 +1,15 @@
+he cash balance of 18,670 million euros yields an overall value of equity of 80,062 million errors,
+significantly higher than the market capitalization of 53,560 million euros in May 2011.
+FCFEst.xls:
+
+This spreadsheet allows you to value the equity in a firm in stable growth, with all of the
+inputs of a stable growth firm.
+LEVERAGE, FCFE, AND EQUITY VALUE
+Embedded in the FCFE computation seems to be the makings of a free lunch. Increasing the debt ratio increases free cash
+flow to equity because more of a firm's reinvestment needs will come from borrowing and less is needed from equity
+investors. The released cash can be paid out as additional dividends or used for stock buybacks.
+  If the free cash flow to equity increases as the leverage increases, does it follow that the value of equity will also increase
+with leverage? Not necessarily. The discount rate used is the cost of equity, which is estimated based on a beta or betas. As
+leverage increases, the beta will also increase, pushing up the cost of equity. In fact, in the levered beta equation that we
+introduced in Chapter 8 the levered beta is:
+This, in turn, will have a negative effect on equity value. The net effect on value will then depend on which effect—the

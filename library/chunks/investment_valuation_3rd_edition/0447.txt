@@ -1,0 +1,44 @@
+to the estimated interest rate.
+11
+ This process is repeated for
+each level of debt from 10% to 90%, and the iterated after-tax costs of debt are obtained at each level of debt in the
+following table:
+
+Note that the interest expenses increase more than proportionately as the debt increases, since the cost of debt rises with the
+debt ratio. There are three points to make about these computations.
+1.
+ At each debt ratio, we compute the dollar value of debt by multiplying the debt ratio by the existing market value of the
+firm ($61,875 million). In reality, the value of the firm will change as the cost of capital changes and the dollar debt that we
+will need to get to a specified debt ratio, say 30%, will be different from the values that we have estimated. The reason
+that we have not tried to incorporate this effect is that it leads to more circularity in our computations, since the value at
+each debt ratio is a function of the savings from the interest expenses at that debt ratio, which in turn will depend on the
+value.
+2.
+ We assume that at every debt level, all existing debt will be refinanced at the new interest rate that will prevail after the
+capital structure change. For instance, Disney's existing debt, which has an A rating, is assumed to be refinanced at the
+interest rate corresponding to an A– rating when Disney moves to a 50% debt ratio. This is done for two reasons. The
+first is that existing debt holders might have protective covenants that require a renegotiation of interest rates on the
+debt.
+12
+ The second is that the refinancing eliminates “wealth expropriation” effects—the effects of stockholders
+expropriating wealth from bondholders when debt is increased, and vice versa when debt is reduced. If firms can retain
+old debt at lower rates while borrowing more and becoming riskier, the lenders of the old debt will lose value. If we lock in
+current rates on existing bonds and recalculate the optimal debt ratio, we will allow for this wealth transfer.
+13
+3.
+ Although it is conventional to leave the marginal tax rate unchanged as the debt ratio is increased, we adjust the tax rate
+to reflect the potential loss of the tax benefits of debt at higher debt ratios, where the interest expenses exceed the EBIT.
+To illustrate this point, note that the EBIT at Disney is $6,829 million. As long as interest expenses are less than $6,829
+million, interest expenses remain fully tax-deductible and earn the 38% tax benefit. For instance, even at an 80% debt
+ratio, the interest expenses are $6,683 million, and the tax benefit is therefore 38% of this amount. At a 90% debt ratio,
+however, the interest expenses balloon to $7,518 million, which is greater than the EBIT of $6,829 million. We consider the
+tax benefit on the interest expenses up to this amount:
+As a proportion of the total interest expenses, the tax benefit is now only 34.52%:
+This in turn raises the after-tax cost of debt. This is a conservative approach, because losses can be carried forward.
+Given that this is a permanent shift in leverage, it does make sense to be conservative. We used this tax rate to recompute
+the levered beta at a 90% debt ratio, to reflect the fact that tax savings from interest are depleted.
+LEVERAGE AND COST OF CAPITAL
+Now that we have estimated the cost of equity and the cost of debt at each debt level, we can compute Disney's cost of
+capital. This is done for each debt level in the following table. The cost of capital, which is 7.90% when the firm is
+unlevered, decreases as the firm initially adds debt, reaches a minimum of 7.32% at a 40% debt ratio, and then starts to
+increase again. (See below for the full details of the numbers in this table.)

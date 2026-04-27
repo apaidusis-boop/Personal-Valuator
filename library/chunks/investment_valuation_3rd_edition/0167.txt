@@ -1,0 +1,52 @@
+Increase efficiency ____ Decrease efficiency ____ Leave unchanged ____
+8.
+ The following is a graph of cumulative abnormal returns around the announcement of asset
+divestitures by major corporations. 
+
+How best would you explain the:
+a.
+ Market behavior before the announcement?
+b.
+ Market reaction to the announcement?
+c.
+ Market reaction after the announcement?
+9.
+ What is the phenomenon of the size effect in stock performance? How does it relate to the turn-
+of-the-year effect? Can you suggest any good reasons why small stocks, after adjusting for beta,
+still do better than large stocks? What strategy would you follow to exploit this anomaly? What
+factors do you have to keep in mind?
+10.
+ A study examining market reactions to earnings surprises found that prices tend to drift after
+earnings surprises. What does this tell you about the market’s capacity to learn from events and
+new information? What cross-sectional differences would you expect to find in this learning
+behavior? (Would you expect to see a greater price drift in some types of firms than in others?
+Why?) How would you try to exploit this anomaly? What possible costs would you have to keep
+in mind?
+11.
+ One explanation of the turn-of-the-year or January effect has to do with sales and purchases
+related to the tax year.
+a.
+ Present the tax effect hypothesis.
+b.
+ Studies have shown that the January effect occurs internationally, even in countries where the
+tax year does not start in January. Speculate on a good reason for this.
+12.
+ The following are the expected price appreciation and dividend yield components of returns
+on two portfolios—a high dividend yield portfolio and a low dividend yield portfolio.
+Portfolio
+Expected Price Appreciation
+Expected Dividend Yield
+High yield
+9%
+5%
+Low yield
+12%
+1%
+You are a taxable investor who faces a tax rate of 40% on dividends. What would your tax rate on
+capital gains need to be for you to be indifferent between these two portfolios?
+13.
+ Answer true or false to the following questions:
+a.
+ Low price-earnings stocks, on average, earn returns in excess of expectations, while high
+price-earnings stocks earn less than expected. This is primarily because lower PE ratio stocks
+have lower risk.

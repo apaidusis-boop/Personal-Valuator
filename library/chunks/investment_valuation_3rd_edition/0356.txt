@@ -1,0 +1,9 @@
+ld establish the same proposition with equity income and cash flows,
+and show that a return on equity equal to the cost of equity in stable growth nullifies the positive
+effect of growth.
+divfund.xls:
+
+This dataset on the Web summarizes retention ratios, by industry group, for firms in the
+United States.
+
+capex.xls:

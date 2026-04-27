@@ -1,0 +1,17 @@
+ective is to value a call with a strike price of $50, which is expected to expire in two time periods, on an
+underlying asset whose price currently is $50 and is expected to follow a binomial process:
+
+Now assume that the interest rate is 11%. In addition, define:
+The objective is to combined 
+Δ
+ shares of stock and B dollars of borrowing to replicate the cash flows from the call with a
+strike price of $50. This can be done iteratively, starting with the last period and working back through the binomial tree.
+Step 1: Start with the end nodes and work backward:
+Thus, if the stock price is $70 at t = 1, borrowing $45 and buying one share of the stock will give the same cash flows as
+buying the call. The value of the call at t 
+= 
+1, if the stock price is $70, is therefore:
+Considering the other leg of the binomial tree at t = 1,
+If the stock price is $35 at t = 1, then the call is worth nothing.
+Step 2: Move backward to the earlier time period and create a replicating portfolio that will provide the cash flows the option
+will provide.

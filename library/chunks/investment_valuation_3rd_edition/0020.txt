@@ -1,0 +1,30 @@
+ches discount
+expected cash flows, the relevant cash flows and discount rates are different under each. 
+Figure 2.1
+captures the essence of the two approaches.
+Figure 2.1
+ Equity versus Firm Valuation
+
+The value of equity is obtained by discounting expected cash flows to equity (i.e., the residual cash
+flows after meeting all expenses, reinvestment needs, tax obligations, and interest and principal
+payments) at the cost of equity (i.e., the rate of return required by equity investors in the firm).
+where n = Life of the asset 
+CF to equity
+t
+ = Expected cash flow to equity in period t 
+k
+e
+ = Cost of equity
+The dividend discount model is a special case of equity valuation, where the value of equity is the
+present value of expected future dividends.
+The value of the firm is obtained by discounting expected cash flows to the firm (i.e., the residual
+cash flows after meeting all operating expenses, reinvestment needs, and taxes, but prior to any
+payments to either debt or equity holders) at the weighted average cost of capital (WACC), which is
+the cost of the different components of financing used by the firm, weighted by their market value
+proportions.
+where n = Life of the asset 
+CF to firm
+t
+ = Expected cash flow to firm in period t 
+WACC = Weighted average cost of capital
+While these approaches use different definitions of cash flow and discount rates, they will yield

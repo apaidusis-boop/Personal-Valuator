@@ -1,0 +1,25 @@
+holdings as a separate asset and give it a
+beta of zero. This beta would then be a beta for all of Boeing's assets and for Boeing's equity in those assets. Each beta has
+a use in valuation.
+betas.xls:
+
+This dataset on the Web has updated betas and unlevered betas by business sector in the
+United States.
+
+ILLUSTRATION 8.4: Estimating a Bottom-Up Beta for
+Vans Shoes—January 2001
+Vans Shoes is a shoe manufacturing firm with a market capitalization of $191 million. To estimate the bottom-up beta for
+Vans Shoes, consider the betas of all publicly traded shoe companies in the following table:
+In addition to the beta for each firm, the table reports the market debt-to-equity ratio, the effective tax rate, and a measure
+of operating leverage obtained by dividing selling, general, and administrative (SG&A) expenses (which we consider fixed)
+by other operating expenses (which we consider variable). We can estimate the unlevered beta for the business using the
+averages for these values:
+Using the average tax rate of 25.95%, we can estimate the unlevered beta.
+The beta for Vans Shoes can then be obtained using the firm's marginal tax rate of 34.06% and its market debt-to-equity
+ratio of 9.41%.
+This levered beta is based on the implicit assumption that all shoe manufacturers have similar operating leverage. In fact, we
+could adjust the unlevered beta for the average fixed cost/variable cost ratio for the business and then relever back at the
+operating leverage for Vans Shoes:
+We can then use Vans' fixed cost/variable cost ratio of 31.16% to estimate an adjusted unlevered and levered beta.
+By having a debt-to-equity ratio, and operating leverage, that is lower than the average for the industry, Vans Shoes ends up
+with a beta much lower than that of the industry.

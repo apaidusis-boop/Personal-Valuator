@@ -1,0 +1,10 @@
+d to get an estimate of how much
+financing the firm needs to raise to fund working capital needs.
+The greater the financing period for a firm, the greater is its short-term liquidity risk.
+wcdata.xls:
+
+This is a dataset on the Web that summarizes working capital ratios for firms in the United
+States, classified by industry.
+finratio.xls:
+
+This spreadsheet allows you to compute the working capital ratios for a firm, based upon

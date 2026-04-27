@@ -1,0 +1,28 @@
+sitive market reaction on the
+announcement date, and there are mildly positive excess returns in the days following the
+earnings announcement. Similar conclusions emerge for negative earnings reports.
+
+The management of a firm has some discretion on the timing of earnings reports, and there is some
+evidence that the timing affects expected returns. A 1989 study of earnings reports, classified by the
+day of the week that the earnings are reported, reveals that earnings and dividend reports on Fridays
+are much more likely to contain negative information than announcements on any other day of the
+week. This is shown in 
+Figure 6.7
+.
+Figure 6.7
+ Earnings and Dividend Reports by Day of the Week
+Source:
+ Damodaran (1989).
+There is also some evidence discussed by Chambers and Penman (1984) that earnings
+announcements that are delayed, relative to the expected announcement date, are much more likely to
+contain bad news than earnings announcements that are early or on time. This is graphed in 
+Figure
+6.8
+. Earnings announcements that are more than six days late relative to the expected announcement
+date are much more likely to contain bad news and evoke negative market reactions than earnings
+announcements that are on time or early.
+Figure 6.8
+ Cumulated Abnormal Returns and Earnings Delay
+Source:
+ Chambers and Penman (1984).
+Investment and Project Announcements

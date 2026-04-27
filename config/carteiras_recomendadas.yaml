@@ -1,0 +1,183 @@
+# Carteiras recomendadas — fonte canónica para o dashboard.
+# Sync mensal a partir de obsidian_vault/analysts/Carteiras_Recomendadas_YYYY-MM.md
+# Última actualização: 2026-04-26 (data-base PDFs: XP 02/04, BTG 15/04, Suno 14/04)
+
+carteiras:
+  - id: xp_top_dividendos
+    name: "XP Top Dividendos"
+    fonte: XP
+    data_base: "2026-04-02"
+    type: dividendos
+    holdings:
+      - {ticker: CPLE3, peso: 15.0}
+      - {ticker: B3SA3, peso: 12.5}
+      - {ticker: VALE3, peso: 12.5}
+      - {ticker: PETR4, peso: 10.0}
+      - {ticker: ITUB4, peso: 10.0}
+      - {ticker: ROXO34, peso: 7.5}
+      - {ticker: ALOS3, peso: 7.5}
+      - {ticker: VIVT3, peso: 5.0}
+      - {ticker: ENGI11, peso: 5.0}
+      - {ticker: AXIA7, peso: 5.0}
+      - {ticker: CXSE3, peso: 5.0}
+      - {ticker: SANB11, peso: 5.0}
+
+  - id: btg_dividendos
+    name: "BTG Portfolio Dividendos"
+    fonte: BTG
+    data_base: "2026-04-15"
+    type: dividendos
+    holdings:
+      - {ticker: ALOS3, peso: 9.6}
+      - {ticker: AXIA7, peso: 9.6}
+      - {ticker: CPLE3, peso: 9.6}
+      - {ticker: ITSA4, peso: 9.6}
+      - {ticker: PGMN3, peso: 9.6}
+      - {ticker: POMO4, peso: 9.6}
+      - {ticker: PETR4, peso: 9.6}
+      - {ticker: VALE3, peso: 9.0}
+      - {ticker: PLPL3, peso: 8.0}
+      - {ticker: SAPR11, peso: 8.0}
+
+  - id: btg_equity_brazil
+    name: "BTG Equity Brazil"
+    fonte: BTG
+    data_base: "2026-04-15"
+    type: long_only
+    holdings:
+      - {ticker: PETR4, peso: 13.5}
+      - {ticker: ITSA4, peso: 9.2}
+      - {ticker: VALE3, peso: 9.0}
+      - {ticker: AXIA7, peso: 8.3}
+      - {ticker: B3SA3, peso: 6.2}
+      - {ticker: EQTL3, peso: 6.0}
+      - {ticker: CPLE3, peso: 5.1}
+      - {ticker: BPAC11, peso: 4.8}
+      - {ticker: SBSP3, peso: 4.4}
+      - {ticker: SUZB3, peso: 4.1}
+      - {ticker: RENT3, peso: 3.4}
+      - {ticker: GOAU4, peso: 3.2}
+      - {ticker: BBDC4, peso: 3.1}
+      - {ticker: LREN3, peso: 3.0}
+      - {ticker: MOTV3, peso: 2.9}
+      - {ticker: MULT3, peso: 2.7}
+      - {ticker: CEAB3, peso: 2.7}
+      - {ticker: TTEN3, peso: 2.7}
+      - {ticker: RDOR3, peso: 2.5}
+      - {ticker: RAPT4, peso: 1.9}
+
+  - id: btg_value
+    name: "BTG Value (long/short)"
+    fonte: BTG
+    data_base: "2026-04-15"
+    type: long_short
+    holdings:
+      - {ticker: EQTL3, peso: 8.0}
+      - {ticker: ENEV3, peso: 7.6}
+      - {ticker: RENT3, peso: 6.2}
+      - {ticker: ITSA4, peso: 5.6}
+      - {ticker: AXIA7, peso: 4.9}
+      - {ticker: ENGI11, peso: 4.8}
+      - {ticker: CPLE3, peso: 4.3}
+      - {ticker: PETR4, peso: 4.1}
+      - {ticker: MULT3, peso: 3.8}
+      - {ticker: SMFT3, peso: 3.8}
+      - {ticker: CSAN3, peso: 3.2}
+      - {ticker: PLPL3, peso: 3.2}
+      - {ticker: SUZB3, peso: 3.0}
+      - {ticker: TTEN3, peso: 2.8}
+      - {ticker: TEND3, peso: 2.7}
+      - {ticker: GGBR4, peso: 2.7}
+      - {ticker: PRIO3, peso: 2.6}
+      - {ticker: ROXO34, peso: 2.6}
+      - {ticker: MOTV3, peso: 2.0}
+      - {ticker: RAPT4, peso: 2.0}
+      - {ticker: PGMN3, peso: 1.8}
+      - {ticker: RDOR3, peso: 1.7}
+      - {ticker: ITUB4, peso: -2.1}  # short
+
+  - id: suno_valor
+    name: "Suno Valor"
+    fonte: Suno
+    data_base: "2026-04-14"
+    type: valor
+    holdings:
+      - {ticker: WIZC3, peso: 10.0}
+      - {ticker: BBSE3, peso: 10.0}
+      - {ticker: BBAS3, peso: 10.0}
+      - {ticker: UNIP6, peso: 10.0}
+      - {ticker: TUPY3, peso: 7.5}
+      - {ticker: PETR4, peso: 7.5}
+      - {ticker: EGIE3, peso: 7.5}
+      - {ticker: SEER3, peso: 5.0}
+      - {ticker: SLCE3, peso: 5.0}
+      - {ticker: VALE3, peso: 5.0}
+      - {ticker: AXIA6, peso: 5.0}
+      - {ticker: ITSA4, peso: 5.0}
+      - {ticker: AGRO3, peso: 2.5}
+
+  - id: suno_dividendos
+    name: "Suno Dividendos"
+    fonte: Suno
+    data_base: "2026-04-14"
+    type: dividendos
+    holdings:
+      - {ticker: VAMO3, peso: 10.0}
+      - {ticker: B3SA3, peso: 10.0}
+      - {ticker: KLBN4, peso: 10.0}
+      - {ticker: TTEN3, peso: 10.0}
+      - {ticker: PRIO3, peso: 10.0}
+      - {ticker: SIMH3, peso: 10.0}
+      - {ticker: BRBI11, peso: 7.5}
+      - {ticker: PNVL3, peso: 6.0}
+      - {ticker: CHAT3, peso: 5.0}
+      - {ticker: TIMS3, peso: 5.0}
+      - {ticker: VIVA3, peso: 5.0}
+      - {ticker: EZTC3, peso: 3.5}
+      - {ticker: BRKM5, peso: 2.5}
+
+  - id: suno_fiis
+    name: "Suno FIIs"
+    fonte: Suno
+    data_base: "2026-04-14"
+    type: fiis
+    holdings:
+      - {ticker: KNUQ11, peso: 14.9}
+      - {ticker: VRTA11, peso: 13.2}
+      - {ticker: RBRY11, peso: 12.9}
+      - {ticker: MCCI11, peso: 12.7}
+      - {ticker: TRBF11, peso: 12.7}
+      - {ticker: HSAF11, peso: 12.2}
+      - {ticker: VGIR11, peso: 12.1}
+      - {ticker: FATN11, peso: 11.1}
+      - {ticker: PHLL11, peso: 11.0}
+      - {ticker: GARE11, peso: 11.0}
+      - {ticker: RECR11, peso: 11.0}
+      - {ticker: BRCO11, peso: 9.9}
+      - {ticker: XPLG11, peso: 9.6}
+      - {ticker: HGLG11, peso: 8.7}
+      - {ticker: KNRI11, peso: 7.6}
+      - {ticker: PVBI11, peso: 6.5}
+      - {ticker: BTLG11, peso: 6.2}
+      - {ticker: VISC11, peso: 6.2}
+      - {ticker: HGRU11, peso: 5.2}
+      - {ticker: XPML11, peso: 5.0}
+
+  - id: suno_renda_total
+    name: "Suno Renda Total"
+    fonte: Suno
+    data_base: "2026-04-14"
+    type: renda_total
+    holdings:
+      - {ticker: BBAS3, peso: 7.5}
+      - {ticker: B3SA3, peso: 7.5}
+      - {ticker: BTLG11, peso: 7.5}
+      - {ticker: HGRU11, peso: 7.5}
+      - {ticker: VGIP11, peso: 7.5}
+      - {ticker: PHLL11, peso: 7.5}
+      - {ticker: EGIE3, peso: 7.5}
+      - {ticker: KNUQ11, peso: 7.5}
+      - {ticker: PVBI11, peso: 7.5}
+      - {ticker: AGRO3, peso: 7.5}
+      - {ticker: IVVB11, peso: 7.5}
+      - {ticker: BBPO11, peso: 7.5}

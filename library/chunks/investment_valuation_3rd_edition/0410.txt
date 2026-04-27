@@ -1,0 +1,28 @@
+malized equity reinvestment in 2000:
+As a percent of net income,
+ESTIMATION
+To estimate free cash flows to equity for the high-growth period, we make the assumption that the return on equity, which is
+
+2.80% today, will drift up to 12% by the fifth year. In addition, we will assume that new investments from now on will earn a
+return on equity of 12%. Finally, we will assume that the equity reinvestment rate will remain at its current level (149.97%)
+each year for the next five years. The expected growth rate over the next five years can then be estimated as follows:
+After year 5, we will assume that the expected growth rate declines linearly each year from year 6 through 10 to reach a
+stable growth rate of 10% in year 10. (Note that the growth rate is in nominal CY; the higher stable growth rate reflects the
+higher expected inflation in that currency.) As the growth rate declines, the equity reinvestment rate also drops off to a
+stable period equity reinvestment rate of 50%, estimated using the 10% stable growth rate and an assumed return on equity
+in stable growth of 20%.
+To estimate the cost of equity, we used a risk-free rate of 10% (in nominal CY), a risk premium of 6.28% (4% for mature
+market risk and 2.28% as the country risk premium for China), and a beta of 0.75 (reflecting the bottom-up beta for
+breweries):
+In stable growth, we assume that the beta will drift up to 0.80 and that the country risk premium will drop to 0.95%:
+The cost of equity adjusts in linear increments from 14.71% in year 5 to 13.96% in year 10.
+VALUATION
+To value Tsingtao, we will begin by projecting the free cash flows to equity during the high growth and transition phases,
+using an expected growth rate of 44.91% in net income and an equity reinvestment rate of 149.97% for the first five years.
+The next five years represent a transition period, where the growth drops in linear increments from 44.91% to 10% and the
+equity reinvestment rate drops from 149.97% to 50%. The resulting free cash flows to equity are shown in the following
+table:
+To estimate the terminal value of equity, we use the net income in the year 11, reduce it by the equity reinvestment needs in
+that year, and then assume a perpetual growth rate to get to a value.
+To estimate the value of equity today, we sum up the present value of the FCFE over the high growth period and add to it
+the present value of the terminal value of equity:

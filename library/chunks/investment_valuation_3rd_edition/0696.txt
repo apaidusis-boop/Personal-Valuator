@@ -1,0 +1,46 @@
+g
+model, and that the value of the options be subtracted from the value of the equity to arrive at the
+value of equity in common stock. This value should then be divided by the actual number of shares
+
+outstanding to arrive at the equity value per share. Since Tesla will probably have to issue more
+shares in the next few years to cover its reinvestment needs, you may wonder why we do not
+incorporate these additional shares when computing value per share. The reduction in value of $1,306
+million in illustration 23.5, from bringing in the expected cash flows over the next 10 years, can be
+considered the dilution discount to current value, and incorporating the additional shares in the
+denominator would be double counting.
+ILLUSTRATION 23.6: Valuing Equity per Share—Tesla
+Motors
+In Illustration 23.5, we estimated the value of Tesla Motors as a firm to be $1,730 million. To get from firm value to equity
+value per share, we first subtract out the estimated value of debt claims. Tesla Motors has $110 million in debt outstanding
+(in conventional debt and present value of lease commitments).
+There are 95.63 million shares outstanding, but Tesla (reflecting its technology roots) also has 13.805 million options
+outstanding, with an average exercise price of $8.59 and 6.06 years left to expiration. Drawing on Chapter 16, there are
+three ways we can adjust for these options:
+1.
+ Fully diluted approach: We divide the value of equity by the fully diluted number of shares: 
+2.
+ Treasury stock approach: We add the exercise proceeds from the options to the equity value before dividing by the fully
+diluted number of shares: 
+3.
+ Option valuation approach: The standard deviation in Tesla Motor's stock in 2010 was 71%. Using this standard
+deviation in the dilution-adjusted Black-Scholes model, in conjunction with the market price of $29 yields a value of $328
+million for the options and a value per share of $15.35. 
+The estimated value per share of $13.57 is much lower than the prevailing stock price of $29, suggesting that the stock is
+significantly overvalued.
+VALUE DRIVERS
+What are the key inputs that determine the value of a young high-growth firm with negative earnings?
+In general, the inputs that have the greatest impact on value are the estimates of sustainable margins
+and revenue growth. To a lesser extent, assumptions about how long it will take the firm to reach a
+sustainable margin and reinvestment needs in stable growth also have an impact on value.
+SHOULD THERE BE A DISCOUNT FOR FLOAT?
+Some publicly traded stocks are lightly traded, and the number of shares available for trade (often referred to as the float) is
+small relative to the total number of shares outstanding.
+5
+ Investors who want to sell their stock quickly in these companies
+often have a price impact when they sell, and the impact will increase with the size of the holding.
+  Investors with longer time horizons and a lesser need to convert their holdings into cash quickly have a smaller problem
+associated with illiquidity than investors with shorter time horizons and a greater need for cash. Investors should consider the
+possibility that they will need to convert their holdings quickly into cash when they look at lightly traded stocks as potential
+investments and require much larger discounts on value before they take large positions. Assume, for instance, that an
+investor is looking at a young firm that she has valued at $19.05 per share. The stock would be underpriced if it were trading
+at $17, but it might not be underpriced enough for a short-term investor to take a large position in it. In contrast, a long-term

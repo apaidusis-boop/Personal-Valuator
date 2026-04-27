@@ -1,0 +1,63 @@
+obal markets, we ran regressions for the EV/Sales ratio for companies
+in European, emerging, and the Japanese markets. The results are summarized as follows:
+Region
+Regression — January 2010
+R-Squared
+
+Europe
+EV/Sales = 0.38 + 3.20 Expected 
+growth + 12.74 Operating margin 
+-2.50 Tax rate + 0.13 Reinvestment rate
+73.4%
+Japan
+EV/Sales = 0.01 + 6.72 Operating 
+margin - 1.99 Tax rate + 5.58 
+Debt/Capital
+26.4%
+Emerging Markets
+EV/Sales = 2.15 -3.50 Tax rate + 10.09 
+Operating margin - 2.01 Debt/Capital 
++ 0.16 Reinvestment rate
+40.7%
+The revenue multiples perform well across the globe with operating margins emerging as the
+dominant variable in all parts of the world.
+ILLUSTRATION 20.14: Valuing Whole Foods and Coca-
+Cola Using Market Regression in May 2011
+Earlier in this chapter, we estimated intrinsic price-to-sales and EV-to-sales multiples for Whole Foods and Coca-Cola in
+May 2011. We will now try to re-estimate the multiples, using the market regression from the last section.
+First, we plug the numbers for Whole Foods into the price-to-sales regression (Whole Food’s net margin = 2.73%; payout
+ratio = 23.12%; beta = 1.00; and expected growth rate = 10%):
+PS = -0.413 + 7.27 Expected growth
+EPS
+ + 0.16 Payout + 0.42 Beta + 14.44 Net margin
+PS
+WFM
+ = -0.413 + 7.27(.10) + 0.16(.2312) + 0.42 × (1.00) + 14.44(.0273) = 1.17
+This is slightly higher than the actual price-to-sales ratio for Whole Foods in May 2011 of 1.11; the stock looks undervalued,
+given how the rest of the market is being priced.
+Next, we estimate the EV-to-sales ratio for Coca-Cola, again drawing on the inputs that we used for the intrinsic valuation
+earlier (Coca-Cola’s expected growth rate = 9.60%; Debt-to-capital ratio = 7.23%; tax rate = 40%; and pretax operating
+margin = 24.06%):
+EV/S = 0.74 + 10.19 Expected growth
+Sales
+ - 1.03 DC - 2.25 Tax rate + 8.06 Operating Margin
+EV/S
+KO
+ = 0.74 + 10.19(.096) - 1.03(.0723) - 2.25(.40) + 8.06(.2406) = 2.68
+Coca-Cola looks over valued at its current EV/Sales ratio of 4.53, relative to the rest of the market.
+Multiples of Future Revenues
+Chapter 18 examined the use of market value of equity as a multiple of earnings in a future year.
+Revenue multiples can also be measured in terms of future revenues. Thus, you could estimate the
+value as a multiple of revenues five years from now. There are some advantages to doing this:
+For firms that have little in revenues currently but are expected to grow rapidly over time,
+the revenues in the future—say five years from now—are likely to better reflect the firm’s
+true potential than revenues today.
+It is easier to estimate multiples of revenues when growth rates have leveled off and the
+firm’s risk profile is stable. This is more likely to be the case five years from now than it is
+today.
+Assuming that revenues five years from now are to be used to estimate value, what multiple should
+be used on these revenues? You have three choices. One is to use the average multiples of value
+(today) to revenues today of comparable firms to estimate a value five years from now, and then
+discount that value back to the pres-ent. Consider, for example, a company like Tesla whose current
+revenues are only $117 million but which we expect to grow to $4,877 billion in 10 years. If the
+average EV-to-sales ratio of more mature automobile firms is 0.82, the estimated value of Tesla can

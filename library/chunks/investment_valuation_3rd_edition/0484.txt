@@ -1,0 +1,50 @@
+value of equity per share can now be computed, using the estimated value of equity of $113,331 million that we arrived
+at, using discounted cash flows:
+Value of equity
+$113,331
+Value of options
+$2,165
+
+Value of equity in common stock
+$111,166
+/Primary number of shares
+5528
+Value per share
+$20.10
+Thus, after incorporating the option value, we arrive at a value per share higher than that estimated using the fully diluted
+approach and lower than that estimated from the treasury stock approach. This value ($20.10) is still much higher than the
+price of $16.26 that the stock was trading at in May 2011.
+In valuing Cisco’s options, we used the current stock price rather than the estimated value per share. If we did use the
+estimated value per share, it would create an iterative process—the value of the options affects the value per share and the
+value per share affects the value of the options. Employing this iterative process would have increased the after-tax value of
+the options to $2,637 million and reduced the value per share to $20.00.
+Future Option Grants
+While incorporating options that are already outstanding is fairly straightforward, incorporating the
+effects of future option grants is much more complicated. In this section, the argument for why these
+option issues affect value is presented, as well as how to incorporate these effects into value.
+Why Future Options Issues Affect Value
+Just as options outstanding currently represent potential dilution or cash outflows to existing equity
+investors, expected option grants in the future will affect value per share by increasing the number of
+shares outstanding in future periods. The simplest way of thinking about this expected dilution is to
+consider the terminal value in the discounted cash flow model. As constructed in the previous
+chapter, the terminal value is discounted to the present and divided by the shares outstanding today to
+arrive at the value per share. However, expected option issues in the future will increase the number
+of shares outstanding in the terminal year, and therefore reduce the portion of the terminal value that
+belongs to existing equity investors.
+Ways of Incorporating Effect into Value per Share
+It is much more difficult to incorporate the effect of expected option issues into value than it is to
+consider existing options. This is because you have to forecast not only how many options will be
+issued by a firm in future periods, but also what the terms of these options will be. While this may be
+possible for a couple of periods with proprietary information (the firm lets you know how much it
+plans to issue and at what terms), it will become more difficult beyond that point.
+A more realistic approach to incorporating future option grants into value is to estimate the value of
+options that will be granted in future periods as a percentage of revenues or operating income. By
+doing so, you can avoid having to estimate the number and terms of future option issues. Estimation
+will also become easier since you can draw on the firm’s own history (by looking at the value of
+option grants in previous years as a proportion of firm value) and the experiences of more mature
+firms in the sector. Generally, as firms become larger, the value of options granted as a percent of
+revenues should become smaller.
+Since 2007, U.S. and international accounting standards have converged on the accounting for
+option grants. Both require that options be expensed when granted rather than when exercised (which
+used to be the practice until 2007). As a result, the current operating expenses for a firm include the
+value of options granted in the current year. If we then keep current operating margins, we are

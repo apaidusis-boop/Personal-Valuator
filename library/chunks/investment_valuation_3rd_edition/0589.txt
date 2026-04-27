@@ -1,0 +1,27 @@
+the firm has a beta of 1.00 for the high growth period and 0.90 in stable growth; the risk-free
+rate is 3.5% and the equity risk premium is 5%. The inputs used in the estimation are summarized below:
+
+Note that we are backing out a payout ratio from the expected growth rate and ROE, rather than use actual dividends paid.
+Consequently, we are effectively using FCFE instead of actual dividends. The price-to-sales ratio, based on these inputs, is
+estimated here.
+Whole Foods was trading at a price-to-sales ratio of 1.11 in May 2011, making it significantly overvalued.
+Value-to-Sales Ratios
+To analyze the relationship between value and sales, consider the value of a stable-growth firm:
+Dividing both sides by the revenue, you get:
+Just as the price-to-sales ratio is determined by net profit margins, payout ratios, and costs of
+equity, the value-to-sales ratio is determined by after-tax operating margins, reinvestment rates, and
+the cost of capital. Firms with higher operating margins (ATOM), lower reinvestment rates (for any
+given growth rate), and lower costs of capital will trade at higher value-to-sales multiples.
+This equation can be expanded to cover a firm in high growth by using a two-stage firm valuation
+model:
+where ATOM = After-tax operating margin = EBIT(1 - t)/Sales 
+RIR = Reinvestment rate (RIR
+n
+ is for stable growth period) 
+k
+c
+ = Cost of capital (hg: high growth and st: stable growth periods) 
+g = Growth rate in operating income in high growth and stable growth periods
+Note that the determinants of the EV-to-sales ratio remain the same as they were in the stable growth
+model—the growth rate, the reinvestment rate, the operating margin, and the cost of capital—but the
+number of estimates increases to reflect the existence of a high growth period.

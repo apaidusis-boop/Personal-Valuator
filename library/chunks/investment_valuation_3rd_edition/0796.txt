@@ -1,0 +1,49 @@
+stocks, it is argued, generally
+have less information available on them than larger stocks, and the information tends to be more
+noisy.
+An Alternative Approach to Estimating Discount Rates: The Survey
+
+Approach
+The 
+problems with the assumptions of traditional risk and return models and the 
+difficulties
+associated with the measurement of risk for nontraded real assets in these models have led to
+alternative approaches to estimating discount rates for these real estate investments. In the context of
+real estate, for instance, the costs of equity and capital are often obtained by surveying potential
+investors in real estate on what rates of return they would demand for investing in different types of
+property investments. In many cases, these surveys are done in terms of capitalization rates, which—
+as we noted earlier—are just required rates of return in another guise.
+DIVERSIFICATION IN REAL ESTATE: TRENDS AND
+IMPLICATIONS
+As we look at the additional risk factors—estimation errors, legal and tax changes, volatility in specific real estate markets—
+that are often built into discount rates and valuations, the rationale for diversification becomes stronger. A real estate firm
+that is diversified across holdings in multiple locations will be able to diversify away some of this risk. If the firm attracts
+investors who are diversified into other asset classes, you diversify away even more risk, thus reducing its exposure to risk
+and its cost of equity.
+Inexorably, then, you would expect to see diversified real estate investors—real estate corporations, REITs, and MLPs—
+drive local real estate investors who are not diversified (across either locations or asset classes) out of the market by bidding
+higher prices for the same properties. If this is true, you might ask, why has it not happened already? There are two reasons.
+The first is that knowledge of local real estate market conditions is still a critical component driving real estate values, and
+real estate investors with this knowledge may be able to compensate for their failure to diversify. The second is that a
+significant component of real estate success still comes from personal connections—to other developers, to zoning boards,
+and to politicians. Real estate investors with the right connections may be able to get much better deals on their investments
+than corporations bidding for the same business.
+As real estate corporations and REITs multiply, you should expect to see much higher correlation in real estate prices across
+different regions and a drop-off in the importance of local conditions. Furthermore, you should also expect to see these firms
+become much more savvy at dealing with the regulatory authorities in different regions.
+This approach is justified on the following grounds:
+These surveys are not based on some abstract models of risk and return (which may ignore
+risk characteristics that are unique to the real estate market) but on what actual investors in
+real estate want to make as a return.
+These surveys allow for the estimation of discount rates for specific categories of
+properties (hotels, apartments, etc.) by region, without requiring a dependence on past
+prices like risk and return models.
+There are relatively few large investors who invest directly in real estate (rather than in
+securitized real estate). It is therefore feasible to do such a survey.
+There are, however, grounds for contesting this approach, as well:
+Surveys, by their very nature, yield different “desired rates of return” for different investors
+for the same property class. Assuming that a range of desired returns can be obtained for a
+class of investments, it is not clear where one goes next. Presumably, those investors who
+demand returns at the high end of the scale will find themselves priced out of the market,
+and those whose desired returns are at the low end of the scale will find plenty of
+undervalued properties. The question of who the marginal investor in an investment should

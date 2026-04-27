@@ -1,0 +1,25 @@
+rrelation is more negative in five-year returns than in one-year returns, and is much more negative
+for smaller stocks rather than larger stocks. 
+Figure 6.2
+ summarizes one-year and five-years serial
+
+correlation by size class for stocks on the New York Stock Exchange.
+Figure 6.2
+ One-Year and Five-Year Correlations: Market Value Class, 1941 to 1985
+Source:
+ Fama and French (1988).
+Since there is evidence that prices reverse themselves in the long term, it might be worth examining
+whether such price reversals can be used by investors to profit. To isolate the effect of such price
+reversals on the extreme portfolios, DeBondt and Thaler constructed a winner portfolio of 35 stocks
+that had gone up the most over the prior year, and a loser portfolio of 35 stocks that had gone down
+the most over the prior year, each year from 1933 to 1978, and examined returns on these portfolios
+for the sixty months following the creation of the portfolio. 
+Figure 6.3
+ summarizes the excess returns
+for winner and loser portfolios. This analysis suggests that loser portfolios clearly outperform winner
+portfolios in the 60 months following creation. This evidence is consistent with market overreaction
+and correction in long return intervals.
+Figure 6.3
+ Excess Returns for Winner and Loser Portfolios
+Source:
+ DeBondt and Thaler (1985).

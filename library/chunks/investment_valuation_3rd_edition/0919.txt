@@ -1,0 +1,49 @@
+ions may not
+necessarily be rewarded immediately by financial markets. In some cases, markets may even
+punish such firms because of the effects of these actions on reported earnings. In the long term,
+
+markets most likely will recognize value-enhancing actions and reward them, but the manager who
+took these actions may not be around to share in the rewards.
+CONCLUSION
+Value enhancement is clearly on the minds of many managers today. Building on the discounted cash
+flow principles developed in the preceding chapter, the value of a firm can be increased by changing
+one of the four primary inputs into value: the cash flows from assets in place, the expected growth
+rate during the high-growth period, the length of the high-growth period, and the cost of capital.
+Conversely, actions that do not change any of these variables cannot create value. Cash flows from
+assets in place can be increased by cost cutting and more efficient operations, as well as by lowering
+taxes paid on income and reducing investment needs (capital maintenance and noncash working
+capital investments). Expected growth can be increased by increasing the reinvestment rate or the
+return on capital, but increases in the reinvestment rate will generate value only if the return on
+capital exceeds the cost of capital. High growth, at least the value-creating kind, can be made to last
+longer by generating new competitive advantages or augmenting existing ones. Finally, the cost of
+capital can be lowered by moving toward an optimal debt ratio, using debt that is more suited for the
+assets being financed and by reducing market risk.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Marion Manufacturing, a steel company, announces that it will be taking a major restructuring
+charge that will lower earnings this year by $500 million. Assume that the charge is not tax
+deductible and has no effects on operations.
+a.
+ What will the effect of this charge be on the value of the firm?
+b.
+ When the firm announces the charge, what effect would you expect it to have on the stock
+price? Is your answer consistent with your response to question (a)?
+2.
+ Universal Health Care (UHC) is a company whose stock price has declined by 40% in the past
+year. In the current year, UHC earned $300 million in pretax operating income on revenues of $10
+billion. The new CEO of the firm has proposed cost-cutting measures she anticipates will save the
+firm $100 million in expenses, without any effect on revenues. Assume the firm is growing at a
+stable rate of 5% a year and that its cost of capital is 10%; neither number is expected to change
+as a consequence of the cost cutting. The firm’s tax rate is 40%. (You can assume that the firm
+reinvests $100 million each year and that this reinvestment will not change as the firm cuts costs.)
+a.
+ What effect will the cost cutting have on value?
+b.
+ What effect will the cost cutting have on value if the expected growth rate will drop to 4.5%
+as a consequence? (Some of the costs cut were designed to generate future growth.)
+3.
+ Atlantic Cruise Lines operates cruise ships and is headquartered in Florida. The firm had $100
+million in pretax operating income in the current year, of which it reinvested $25 million. The
+firm expects its operating income to grow 4% in perpetuity, and expects to maintain its existing
+reinvestment rate. Atlantic has a capital structure composed 60% of equity and 40% of debt. Its

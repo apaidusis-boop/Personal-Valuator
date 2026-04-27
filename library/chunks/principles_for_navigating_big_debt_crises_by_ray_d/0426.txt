@@ -1,0 +1,47 @@
+and credit more available, 
+usually either by lowering interest rates, printing money, changing regulations, or central government fiscal policy 
+moves of changing spending, taxation, or regulations.
+
+Part 3: Glossary of Key Economic Terms
+6
+fiscal balance:  Whether a government is spending more than it earns in tax revenue. A government running a 
+deficit is spending more than it earns (and must either be borrowing or spending down savings), while a govern -
+ment running a surplus is earning more than it spends.
+foreign FX returns: The returns an investor experiences by investing in a foreign currency. Incorporates both the 
+change in the exchange rate and the interest that the investor earns above or below what he or she would earn at home.
+FX: Foreign exchange rate.
+FX debt: Debt denominated in a currency other than that of an investor’s home country.
+GDP: Gross domestic product; this represents the total value (i.e., price times quantity) of all final goods and 
+services produced in a country. GDP is the most commonly used means of representing the size of an economy. 
+Often, we’ll express other economic concepts as a percentage of GDP (e.g., debt), to give a sense of whether those 
+are large or small in the context of a particular economy.
+GDP gap: An imprecise measure of whether an economy is operating at a high rate of capacity or a low rate of 
+capacity. It is based on the difference between what an economy is producing today versus the level of production 
+it is estimated to be able to sustain over a longer period of time without negative consequences (known as an 
+economy’s “potential”). If an economy has a negative GDP gap, it is producing at a level that has slack (e.g., 
+factories aren’t running at full capacity). If an economy has a positive GDP gap, it is producing at a level in which 
+there is very little slack. This is often referred to as an “output gap” or “slack.”
+liquidity: A measure of whether money and credit are relatively scarce or readily available. When liquidity is low, 
+money and credit are scarce and, in order to borrow, even very creditworthy borrowers have to pay a higher interest 
+rate. When liquidity is high, creditworthy borrowers have no trouble borrowing and pay lower interest rates.
+long rate: Interest rates on longer-term debt. The nominal long rate we show for this is typically the 10-year 
+government bond yield.
+money 0: A measure of the total amount of money that has been printed in a certain currency, usually based on 
+the amount of physical currency in circulation plus reserves held at a central bank. Also referred to as M0.
+nominal growth:  The change in the value (i.e., price times quantity) of what a country produces (e.g., its GDP). 
+“Nominal” refers to the fact that this includes cases where prices rise from inflation, as opposed to real growth 
+(see below).
+potential: An imprecise measure of the level of production an economy is estimated to be able to sustain when 
+operating near capacity. GDP gap represents whether an economy’s current level of production is higher or lower 
+than potential.
+real: Economic terms that include the word “real” are adjusted to remove the impact of inflation. See the next few 
+items in the glossary for some examples. Importantly, there is often no precision to these measures (e.g., a country’s 
+precise real FX is unknowable).
+real FX:  An imprecise measure of whether the currency is cheap or expensive based on looking at the relative 
+currency levels and relative price levels of countries today relative to what they were in the past. A positive real FX 
+represents a currency that is more expensive and a negative one means it’s cheaper using this measure. Usually 
+measured versus a country’s trade partners (i.e., a trade-weighted index or TWI). 
+real GDP: An imprecise measure of the quantity of goods and services produced in a country (as opposed to the 
+total value of goods and services produced, which is influenced by inflation).
+real growth:  An imprecise measure of the change in the quantity of goods and services produced in a country (as 
+opposed to nominal growth, which is influenced by inflation).

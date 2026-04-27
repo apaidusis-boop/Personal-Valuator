@@ -1,0 +1,44 @@
+w long-term in the local currency, there are scenarios where obtaining
+a local risk-free rate, especially for the long term, becomes difficult. We 
+consider four alternatives in
+the section following.
+
+Local Currency Government Bond
+If the government issues long-term bonds denominated in the local currency and these bonds are
+traded, you can use the interest rates on these bonds as a starting point for estimating the risk-free rate
+in that currency. In early 2011, for instance, the Indian government issued 10-year rupee-denominated
+bonds that were trading at a yield of 8 percent. This rate, though, is not a risk-free rate, because
+investors perceive default risk in the Indian government. To back out how much of the yield can be
+attributed to the default risk, we used the local currency sovereign rating
+3
+ of Ba2 assigned to India by
+Moody’s and estimated a default spread of 2.40 percent for that rating.
+4
+The resulting risk-free rate in rupees is:
+It is true that this number assumes that the ratings agency is correct in its assessment of sovereign risk
+and that the default spread based on the rating is correct. An alternative approach to estimating default
+spreads that has become available in recent years is the credit default swap (CDS) market, where
+investors can buy insurance against default. While there were no traded CDSs on India in early 2011,
+there were CDS contracts traded on approximately 60 countries in March 2011. The Brazil CDS in
+March 2011 was trading at 75 basis points (0.75 percent), which can be used in conjunction with the
+10-year Brazilian real-denominated government bond rate of 8.25 percent to compute the risk-free
+rate in Brazilian real (BR):
+The CDS market does provide a more dynamic and updated measure of the default spread but,
+being a market-traded number, is much more volatile. It also provides a dollar or euro based spread
+which may not apply to the local currency bonds.
+Build-Up Approach
+There are countries where either the government does not issue bonds denominated in the local
+currency or these bonds do not trade. In this case, one alternative is to build up to a risk-free rate
+from fundamentals:
+Since the risk-free rate in any currency can be written as the sum of expected inflation in that
+currency and the expected real rate, we can try to estimate the two components separately. To
+estimate expected inflation, we can start with the current inflation rate and extrapolate from that to
+expected inflation in the future. For the real rate, we can use the rate on the inflation-indexed U.S.
+Treasury bond rate, with the rationale that real rates should be the same globally. In 2011, for
+instance, adding the expected inflation rate of 6 percent in India to the interest rate of 1 percent on the
+inflation-indexed U.S. Treasury would have yielded a risk-free rate of 7 percent in Indian rupees.
+Derivatives Markets
+Forward and futures contracts on exchange rates provide information about interest rates in the
+currencies involved, since interest rate parity governs the relationship between spot and forward
+rates. For instance, the forward 
+rate between the Thai baht and the U.S. dollar can be written as

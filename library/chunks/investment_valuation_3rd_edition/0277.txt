@@ -1,0 +1,74 @@
+by themselves, suggest that we distrust earnings for these firms, but combinations of the factors can
+be viewed as a warning signal that the earnings statement needs to be held up to higher scrutiny.
+
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Derra Foods is a specialty food retailer. In its balance sheet, the firm reports $1 billion in book
+value of equity and no debt, but it has operating leases on all its stores. In the most recent year, the
+firm made $85 million in operating lease payments, and its commitments to make lease payments
+for the next five years and beyond are:
+Year
+Operating Lease Expense
+1
+$90 million
+2
+$90 million
+3
+$85 million
+4
+$80 million
+5
+$80 million
+6–10
+$75 million annually
+If the firm's current cost of borrowing is 7%, estimate the debt value of operating leases. Estimate
+the book value debt-to-equity ratio.
+2.
+ Assume that Derra Foods, in the preceding problem, reported earnings before interest and taxes
+(with operating leases expensed) of $200 million. Estimate the adjusted operating income,
+assuming that operating leases are capitalized.
+3.
+ FoodMarkets Inc. is a grocery chain. It reported a book debt-to-capital ratio of 10% and a
+return on capital of 25% on a book value of capital invested of $1 billion. Assume that the firm
+has significant operating leases. If the operating lease expense in the current year is $100 million
+and the present value of lease commitments is $750 million, reestimate FoodMarkets' debt to
+capital and return on capital. (You can assume a pretax cost of debt of 8%.)
+4.
+ Zif Software is a firm with significant research and development expenses. In the most recent
+year, the firm had $100 million in R&D expenses. R&D expenses are amortizable over five years,
+and over the past five years they are:
+Year
+R&D Expenses
+–5
+$ 
+50 million
+–4
+$ 
+60 million
+–3
+$ 
+70 million
+–2
+$ 
+80 million
+–1
+$ 
+90 million
+Current year
+$100 million
+Assuming a linear amortization schedule (over five years), estimate:
+a.
+ The value of the research asset.
+b.
+ The amount of R&D amortization this year.
+c.
+ The adjustment to operating income.
+5.
+ Stellar Computers has a well-earned reputation for earning a high return on capital. The firm
+had a return on capital of 100% on capital invested of $1.5 billion last year. Assume that you have
+estimated the value of the research asset to be $1 billion. In addition, the R&D expense this year
+is $250 million, and the amortization of the research asset is $150 million. Reestimate Stellar
+Computers' return on capital.
+1
+ If only amortization were tax deductible, the tax benefit from R&D expenses would be:

@@ -1,0 +1,51 @@
+ld well be categorized as market risk. If only a few do, it would be
+closer to firm-specific risk. 
+Figure 4.4
+ summarizes the spectrum of firm-specific and market risks.
+Figure 4.4
+ Breakdown of Risk
+
+Why Diversification Reduces or Eliminates Firm-Specific Risk: An
+Intuitive Explanation
+As an investor, you could invest all your portfolio in one asset. If you do so, you are exposed to both
+firm-specific and market risk. If, however, you expand your portfolio to include other assets or
+stocks, you are diversifying, and by doing so you can reduce your exposure to firm-specific risk.
+There are two reasons why diversification reduces or, at the limit, eliminates firm-specific risk. The
+first is that each investment in a diversified portfolio is a much smaller percentage of that portfolio
+than would be the case if you were not diversified. Any action that increases or decreases the value
+of only that investment or a small group of investments will have only a small impact on your overall
+portfolio, whereas undiversified investors are much more exposed to changes in the values of the
+investments in their portfolios. The second reason is that the effects of firm-specific actions on the
+prices of individual assets in a portfolio can be either positive or negative for each asset for any
+period. Thus, in very large portfolios this risk will average out to zero and will not affect the overall
+value of the portfolio.
+In contrast, the effects of marketwide movements are likely to be in the same direction for most or
+all investments in a portfolio, though some assets may be affected more than others. For instance,
+other things being equal, an increase in interest rates will lower the values of most assets in a
+portfolio. Being more diversified does not eliminate this risk.
+A Statistical Analysis of Diversification-Reducing Risk
+The effects of diversification on risk can be illustrated fairly dramatically by examining the effects of
+increasing the number of assets in a portfolio on portfolio variance. The variance in a portfolio is
+partially determined by the variances of the individual assets in the portfolio and partially by how
+they move together; the latter is measured statistically with a correlation coefficient or the covariance
+across investments in the portfolio. It is the covariance term that provides an insight into why
+diversification will reduce risk and by how much.
+Consider a portfolio of two assets. Asset A has an expected return of 
+μ
+A
+ and a variance in returns
+of σ
+2
+A
+, while asset B has an expected return of 
+μ
+Β
+ and a variance in returns of 
+σ
+2
+B
+. The correlation in
+returns between the two assets, which measures how the assets move together, is 
+ρ
+AB
+. The expected

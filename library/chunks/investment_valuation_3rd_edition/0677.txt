@@ -1,0 +1,45 @@
+s. As a consequence, we would predict that far more of these firms will go bankrupt
+and that they would be well advised to rethink their policies on how much they should be borrowing
+as a consequence.
+
+Firms with Patents
+The value of a firm generally comes from two sources—assets in place and expected future growth
+opportunities. The value of the former is generally captured in current cash flows, while the value of
+the latter is reflected in the expected growth rate. In the special case of a firm that derives a large
+portion of its value from a product patent or patents, expected growth will be from developing the
+patents. Ignoring them in a discounted cash flow valuation will understate the value of the firm.
+There are three possible solutions to the problems associated with valuing firms with product
+options:
+1.
+ Value the product options on the open market and add them to the value from discounted cash
+flow (DCF) valuation. If there is an active market trading in product options, this offers a viable
+and simple way of valuing these options. In the absence of such a market, or when the product
+options are not separable and tradable, this approach becomes difficult to apply.
+2.
+ Use a higher growth rate than the one justified by existing projects and assets, to capture the
+additional value from product options. While this keeps the analysis within the traditional
+discounted cash flow valuation framework, the increase in the growth rate is essentially
+subjective and it converts contingent cash flows (where the product option will be exercised if
+and only if it makes economic sense) to expected cash flows.
+3.
+ Use an option pricing model to value product options and add the value to that obtained from
+DCF valuation of assets in place. The advantage of this approach is that it mirrors the cash flow
+profile of a product option much more precisely.
+The primary problem in valuing firms with product options is not that these options are ignored, but
+that they are often double counted. Analysts all too frequently use a higher growth rate to reflect the
+product options that a firm owns, but then add on a premium to the DCF value for the same product
+options. We will return to examine the valuation of these firms in Chapter 28.
+Young Start-Up Firms
+Many firms begin as ideas in the minds of entrepreneurs and develop into commercial ventures over
+time. During this transition from idea companies to commercial ventures, it is not unusual for these
+firms to lose money. This does not make them worthless. In fact, the boom in the market value of new
+economy companies in the late 1990s brought home the fact that good ideas can have substantial
+values, though the correction in 2000 also illustrated how volatile these values can be.
+Valuing young start-up firms is perhaps the most difficult exercise in valuation and one that was,
+until very recently, the domain of venture capitalists and private equity investors, who often
+compensated for uncertainty by demanding very high returns on these investments. The challenge
+becomes much more daunting if a young start-up firm is publicly traded. The next chapter will
+examine the estimation issues that we face in valuing such a firm.
+CONCLUSION
+There are many cases where traditional discounted cash flow valuation has to be modified or adapted
+to provide reasonable estimates of value. Some of these cases are presented in this chapter. Cyclical

@@ -1,0 +1,60 @@
+ce and expected future
+growth can be written in terms of the net present value created by each component:
+Substituting the economic value added version of net present value into this equation, we get:
+
+Thus the value of a firm can be written as the sum of three components: the capital invested in
+assets in place, the present value of the economic value added by these assets, and the expected
+present value of the economic value that will be added by future investments.
+ILLUSTRATION 32.1: 
+Discounted Cash Flow Value and
+Economic Value Added
+Consider a firm that has existing assets in which it has capital invested of $100 million. Assume these additional facts about
+the firm:
+The after-tax operating income on assets in place is $15 million. This return on capital of 15% is expected to
+be sustained in the future, and the company has a cost of capital of 10%.
+At the beginning of each of the next five years, the firm is expected to make new investments of $10 million
+each. These investments are also expected to earn 15% as a return on capital, and the cost of capital is
+expected to remain 10%.
+After year 5, the company will continue to make investments, and earnings will grow 5% a year, but the new
+investments will have a return on capital of only 10%, which is also the cost of capital.
+All assets and investments are expected to have infinite lives.
+3
+ Thus, the assets in place and the investments
+made in the first five years will make 15% a year in perpetuity, with no growth.
+This firm can be valued using an economic value added approach, as follows:
+Capital invested in assets in place
+$100
++ EVA from assets in place = (.15 - .10)(100)/.10
+$ 50
++ PV of EVA from new investments in year 1 = [(.15 - .10)(10)/.10]
+$ 
+5
++ PV of EVA from new investments in year 2 = [(.15 - .10)(10)/.10]/1.1
+$ 
+4.55
++ PV of EVA from new investments in year 3 = [(.15 - .10)(10)/.10]/1.1
+2
+$ 
+4.13
++ PV of EVA from new investments in year 4 = [(.15 - .10)(10)/.10]/1.1
+3
+$ 
+3.76
++ PV of EVA from new investments in year 5 = [(.15 - .10)(10)/.10]/1.1
+4
+$ 
+3.42
+Value of firm
+$170.85
+Note that the present values are computed assuming that the cash flows on investments are perpetuities and that the
+investments are made at the beginning of each year. In addition, the value of the economic value added by the investments
+made in future years is discounted to today, using the cost of capital. To illustrate, the present value of the economic value
+added by investments made at the beginning of year 2 is discounted back one year. The value of the firm, which is $170.85
+million, can be written using the earlier equation as follows:
+The value of existing assets is therefore $150 million, and the value of future growth opportunities is $20.85 million.
+Another way of presenting these results is in terms of market value added (MVA). The market value added, in this case, is
+the difference between the firm value of $170.85 million and the capital invested of $100 million, which yields $70.85 million.
+This value will be positive only if the return on capital is greater than the cost of capital and will be an increasing function of
+the spread between the two numbers. The number will be negative if the return on capital is less than the cost of capital.
+Note that although the firm continues to grow operating income and makes new investments after the fifth year, these
+marginal investments create no additional value because they earn the cost of capital. A direct implication is that it is not

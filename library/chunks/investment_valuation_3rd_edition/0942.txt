@@ -1,0 +1,31 @@
+ce, GI
+aip
+ is the gross investment in assets in
+place, and k
+c
+ is the real cost of capital.
+The present value of the excess cash flows from future investments, which can be written in
+real terms as 
+
+where CFROI
+t,NI
+ is the CFROI on new investments made in year t and 
+Δ
+GI
+t
+ is the new
+investment made in year t. Note that if CFROI
+t,NI
+ = k
+c
+, this present value is equal to zero.
+Thus, a firm’s value will depend on the CFROI it earns on assets in place and both the abruptness and
+the speed with which this CFROI fades toward the cost of capital. Thus, a firm can therefore
+potentially increase its value by doing either of the following:
+Increasing the CFROI from assets in place for a given gross investment.
+Reducing the speed at which the CFROI fades toward the real cost of capital.
+Note that this is no different from our earlier analysis of firm value in the discounted cash flow
+approach in Chapter 31, in terms of cash flows from existing investments (increase current CFROI),
+the length of the high growth period (reduce fade speed), and the growth rate during the growth period
+(keep excess returns from falling as steeply).
+cfroi.xls:

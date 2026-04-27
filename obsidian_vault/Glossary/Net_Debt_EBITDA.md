@@ -3,7 +3,7 @@ type: glossary
 slug: Net_Debt_EBITDA
 title: Net Debt / EBITDA — Alavancagem
 category: balance_sheet
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, balance_sheet]
 ---
 
@@ -60,4 +60,4 @@ Quantos anos de EBITDA seriam necessários para pagar a dívida líquida. **Maio
 - [[TTEN3_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

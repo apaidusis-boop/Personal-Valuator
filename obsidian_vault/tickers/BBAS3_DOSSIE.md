@@ -142,6 +142,8 @@ BBAS3 trade a **PE 9.5× / PB 0.70×** (cheapest-by-PB do quarteto bancos BR) ma
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

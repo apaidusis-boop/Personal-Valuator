@@ -1,0 +1,42 @@
+high-
+inflation currency is used to estimate cash flows and discount rates, the stable growth rate will be
+much higher, since the expected inflation rate is added on to real growth. If a low-inflation
+
+currency is used to estimate cash flows, the stable growth rate will be much lower. For instance,
+the stable growth rate that would be used to value Cemex, the Mexican cement company, will be
+much higher if the valuation is done in Mexican pesos than in U.S. dollars.
+Although the stable growth rate cannot exceed the growth rate of the economy in which a firm
+operates, it can be lower. There is nothing that prevents us from assuming that mature firms will
+become a smaller part of the economy and it may, in fact, be the more reasonable assumption to make.
+Note that the growth rate of an economy reflects the contributions of both young, higher-growth firms
+and mature, stable-growth firms. If the former grow at a rate much higher than the growth rate of the
+economy, the latter have to grow at a rate that is lower.
+Setting the stable growth rate to be less than or equal to the growth rate of the economy not only is
+the consistent thing to do but it also ensures that the growth rate will be less than the discount rate.
+This is because there is a link between the riskless rate that goes into the discount rate and the growth
+rate of the economy. Note that the riskless rate can be written as:
+In the long term, the real riskless rate will converge on the real growth rate of the economy, and the
+nominal riskless rate will approach the nominal growth rate of the economy. In fact, a simple rule of
+thumb on the stable growth rate is that it generally should not exceed the riskless rate used in the
+valuation.
+CAN THE STABLE GROWTH RATE BE NEGATIVE?
+The previous section noted that the stable growth rate has to be less than or equal to the growth rate of the economy. But
+can it be negative? There is no reason why not since the terminal value can still be estimated. For instance, a firm with $100
+million in after-tax cash flows growing at –5% a year forever and a cost of capital of 10 percent has a value of:
+Intuitively, though, what does a negative growth rate imply? It essentially allows a firm to partially liquidate itself each year
+until it just about disappears. Thus, it is an intermediate choice between complete liquidation and the going concern that gets
+larger each year forever.
+  This may be the right choice to make when valuing firms in industries that are being phased out because of technological
+advances (such as the manufacturers of landline phones, with the advent of the cellphones) or where an external and critical
+customer is scaling back purchases for the long term (as was the case with defense contractors after the end of the cold
+war).
+Key Assumptions about Stable Growth
+In every discounted cash flow valuation, there are three critical assumptions you need to make on
+stable growth. The first relates to when the firm that you are valuing will become a stable growth
+firm, if it is not one already. The second relates to what the characteristics of the firm will be in
+stable growth, in terms of return on investments and costs of equity and capital. The final assumption
+relates to how the firm that you are valuing will make the transition from high growth to stable
+growth.
+Length of the High Growth Period
+The question of how long a firm will be able to sustain high growth is perhaps one of the more
+difficult questions to answer in a valuation, but two points are worth making. One is that it is not a

@@ -1,0 +1,17 @@
+scount rate and pretax cash flows at the pretax rate. The failure to match cash flows with
+discount rates can lead to significant under- or overvaluation. Two of the more common mismatches
+include:
+1.
+
+Using the bidding firm's cost of equity or capital to discount the target firm's cash flows.
+ If
+the bidding firm raises the funds for the takeover, it is argued, its cost of equity should be used.
+This argument fails to take into account the fundamental investment principle that it is not who
+raises the money that determines the cost of equity as much as where the money is invested. The
+same firm will face a higher cost of equity for funds raised to finance riskier projects and a lower
+cost of equity to finance safer projects. Thus the cost of equity in valuing the target should reflect
+that firm's riskiness (i.e., it is the target firm's cost of equity). Note also that since the cost of
+equity, as we have defined it, includes only nondiversifiable risk, arguments that the risk will
+decrease after the merger cannot be used to reduce the cost of equity since the risk being
+decreased is firm-specific risk.
+2.

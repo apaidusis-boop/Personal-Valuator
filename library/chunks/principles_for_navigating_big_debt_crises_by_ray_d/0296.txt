@@ -1,0 +1,42 @@
+1 6
+1 8
+Jan - 0 4 Jan - 0 5 Jan - 0 6 Jan - 0 7
+80
+85
+9 0
+9 5
+1 0 0
+1 0 5
+1 1 0
+1 1 5
+1 2 0
+1 2 5
+130
+Jan - 0 4 Jan - 0 5 Jan - 0 6 Jan - 0 7
+Finan cial Equity Inde xNew Home  Sale s (Mln Annualized )
+
+I expected this debt crisis to be self-reinforcing because of the impact that 
+mark-to-market accounting and high leverage would have on lenders. Debt 
+crises and downturns are self-reinforcing behaviors because as losses occur, 
+both lenders and borrowers are less able to lend and borrow, which worsens 
+conditions. For example, when losses occur, one’s capital declines, and 
+because there are limits to how much one can hold in assets relative to one’s 
+capital, that means assets have to be sold, or the buying of assets has to be 
+curtailed. That in turn makes asset prices and lending weaker, producing 
+more losses and reinforcing the cycle further. Because we could get very 
+detailed financial information on banks that allowed us to know their 
+exposures, we could estimate what the values and losses on their positions 
+would be by knowing the pricing of analogous liquid assets. As a result, we 
+constantly did our mark-to-market stress tests, which showed us that the 
+financial sector and those dependent on it were incurring losses before they 
+reported them. We could also get detailed financial information on public 
+companies and our pro forma financial projections showed that many were 
+facing debt squeezes.
+Here is what I wrote to our clients and policy makers at the time.
+(BDO) July 26: Is This the Big One? 
+You know our view about the crazy lending and leveraging practices going on, 
+creating a pervasive fragility in the financial system, leading us to believe that 
+interest rates will rise until there is a cracking of the financial system, at which 
+News & 
+Bridgewater Daily Observations 
+(BDO)

@@ -1,0 +1,35 @@
+rizes debt ratios and costs of capital by industry group for the
+United States.
+Change Financing Type
+A fundamental principle in corporate finance is that the financing of a firm should be designed to
+
+ensure, as far as possible, that the cash flows on debt match as closely as possible the cash flows on
+the asset. By matching cash 
+flows on debt to cash flows on the asset, a firm reduces its risk of default
+and increases its capacity to carry debt, which, in turn, reduces its cost of capital, and increases
+value.
+WHAT ABOUT MILLER-MODIGLIANI?
+One of corporate finance’s best-known and most enduring propositions—the Miller-Modigliani theorem—argues that the
+value of a firm is independent of its capital structure. In other words, changing your financing mix should have no effect on
+your firm value. How would we reconcile our arguments in this section with the Miller-Modigliani theorem? Note that the
+original version of the theorem was derived for a world with no taxes and default. With these assumptions, debt creates no
+tax advantages and no bankruptcy costs and does not affect value. In a world with taxes and default risk, you are much
+more likely to have to make trade-offs, and debt can increase value, decrease value, or leave it unaffected, depending on
+how the trade-offs play out.
+Firms that mismatch cash flows on debt and cash flows on assets (by using short-term debt to
+finance long-term assets, debt in one currency to finance assets with cash flows in a different
+currency, or floating-rate debt to finance assets whose cash flows tend to be adversely impacted by
+higher inflation) will have higher default risk, higher costs of capital, and lower firm value. Firms can
+use derivatives and swaps to reduce 
+these mismatches and, in the process, increase firm value.
+Alternatively, they can replace their existing debt with debt that is more closely matched to their
+assets. 
+Finally, they can use innovative securities that allow them to pattern cash flows on debt to
+cash flows on investments. The use of catastrophe bonds by insurance companies and commodity
+bonds by natural resource firms are good examples.
+VALUE ENHANCEMENT CHAIN
+We can categorize the range of actions firms can take to increase value in several ways. One is in
+terms of whether they affect cash flows from assets in place, growth, the cost of capital, or the length
+of the growth period. There are two other levels at which we can distinguish between actions that
+create value:
+1.

@@ -1,0 +1,47 @@
+e
+paper, he used simulations to compare the distributions of returns of two investments; the investment
+with the higher expected return also had a higher chance of losing money (which was viewed as an
+
+indicator of its riskiness). In the aftermath, there were several analysts who jumped on the simulation
+bandwagon, with mixed results. In recent years, there has been a resurgence in interest in simulations
+as a tool for risk assessment, especially in the context of derivatives. There are several key issues,
+though, that we have to deal when using simulations in risk assessment:
+Garbage in, garbage out.
+ For simulations to have value, the distributions chosen for the
+inputs should be based on analysis and data, rather than guesswork. It is worth noting that
+simulations yield great-looking output, even when the inputs are random. Unsuspecting
+decision makers may therefore be getting meaningless pictures of the risk in an investment. It
+is also worth noting that simulations require more than a passing knowledge of statistical
+distributions and their characteristics; analysts who do not know the difference between
+normal and uniform distributions should not be doing simulations.
+Real data may not fit distributions.
+ The problem with the real world is that the data seldom
+fits the stringent requirements of statistical distributions. Using a probability distribution
+that bears little resemblance to the true distribution underlying an input variable will yield
+misleading results.
+Nonstationary distributions.
+ Even when the data fits a statistical distribution or where
+historical data distributions are available, shifts in the market structure can lead to shifts in
+the distribution as well. In some cases, this can change the form of the distribution and in
+others it can change the parameters of the distribution. Thus, the mean and variance
+estimated from historical data for an input that is normally distributed may change for the
+next period. What we would really like to use in simulations, but seldom can assess, are
+forward-looking probability distributions.
+Changing correlation across inputs.
+ Earlier in this chapter, we noted that correlation
+across input variables can be modeled into simulations. However, this works only if the
+correlations remain stable and predictable. To the extent that correlations between input
+variables change over time, it becomes far more difficult to model them.
+Risk-Adjusted Value and Simulations
+In our discussion of decision trees, we referred to the common misconception that decision trees are
+risk adjusted because they consider the likelihood of adverse events. The same misconception is
+prevalent in simulations, where the argument is that the cash flows from simulations are somehow
+risk adjusted because of the use of probability distributions and that the risk-free rate should be used
+in discounting these cash flows. With one exception, this argument does not make sense. Looking
+across simulations, the cash flows that we obtain are expected cash flows and are not risk adjusted.
+Consequently, we should be discounting these cash flows at a risk-adjusted rate.
+The exception occurs when you use the standard deviation in values from a simulation as a measure
+of investment or asset risk and make decisions based on that. In this case, using a risk-adjusted
+discount rate will result in a double-counting of risk. Consider a simple example. Assume that you are
+trying to choose between two assets, both of which you have valued using simulations and risk-
+adjusted discount rates. The following table below summarizes your findings.

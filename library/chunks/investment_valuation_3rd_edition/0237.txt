@@ -1,0 +1,79 @@
+Interest Coverage Ratios and Ratings: High Market Cap Firms
+Source:
+ Capital IQ, BondsOnline.com.
+Interest Coverage Ratio
+Rating
+Spread
+More than 8.5
+AAA
+0.50%
+6.5 to 8.5
+AA
+0.65%
+5.5 to 6.5
+A+
+0.85%
+
+4.25 to 5.5
+A
+1.00%
+3 to 4.25
+A–
+1.10%
+2.5 to 3
+BBB
+1.60%
+2 to 2.5
+BB
+3.35%
+1.75 to 2
+B+
+3.75%
+1.5 to 1.75
+B
+5.00%
+1.25 to 1.5
+B–
+5.25%
+0.8 to 1.25
+CCC
+8.00%
+0.65 to 0.8
+CC
+10.00%
+0.2 to 0.65
+C
+12.00%
+Less than 0.2
+D
+14.00%
+This approach can be expanded to allow for multiple ratios and qualitative variables as well. Once
+a synthetic rating is assessed, it can be used to estimate a default spread, which when added to the
+risk-free rate yields a pretax cost of debt for the firm.
+EXTENDING THE SYNTHETIC RATINGS APPROACH
+By basing the rating on the interest coverage ratio alone, we run the risk of missing the information that is available in the
+other financial ratios used by ratings agencies. The approach can be extended to incorporate other ratios. The first step
+would be to develop a score based on multiple ratios. For instance, the Altman Z score, which is used as a proxy for default
+risk, is a function of five financial ratios that are weighted to generate a Z score. The ratios used and their relative weights
+are usually estimated by looking at past defaults. The second step is to relate the level of the score to a bond rating, much as
+is done in Tables 8.1 and 8.2 with interest coverage ratios.
+  In making this extension, though, note that complexity comes at a cost. While credit or Z scores may, in fact, yield better
+estimates of synthetic ratings than those based on interest coverage ratios, changes in ratings arising from these scores are
+much more difficult to explain than those based on interest coverage ratios. That is a reason to prefer the flawed but simpler
+ratings derived from interest coverage ratios.
+Estimating a Tax Rate
+To estimate the after-tax cost of debt, consider the fact that interest expenses are tax deductible to the
+firm. While the computation is fairly simple and requires that the pretax cost be multiplied by (1 – tax
+rate), the question of what tax rate to use can be a difficult one to answer, because there are so many
+choices. For instance, firms often report an effective tax rate, estimated by dividing the taxes due by
+the taxable income. The effective tax rate, though, is usually very different from the marginal or
+statutory tax rate, which is the rate at which the last dollar of income is taxed. Since interest expenses
+save you taxes at the margin (they are deducted from your last dollar of income), the right tax rate to
+use is the marginal tax rate.
+The other caveat to keep in mind is that interest creates a tax benefit only if a firm has enough
+income to cover the interest expenses. Firms that have operating losses will not get a tax benefit from
+interest expenses, at least in the year of the loss. The after-tax cost of debt will be equal to the pretax
+cost of debt in that year. If you expect the firm to make money in future years, you would need to
+adjust the after-tax cost of debt for taxes in those years.
+We return to this issue and examine it in more detail in Chapter 10, where we look at the same issue
+in the context of estimating after-tax cash flows.

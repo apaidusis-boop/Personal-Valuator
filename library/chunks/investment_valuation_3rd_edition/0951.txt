@@ -1,0 +1,44 @@
+The third component is the estimation of asset cash flows under each scenario. It is to ease the
+estimation at this step that you focus on only two or three critical factors and build relatively few
+
+scenarios for each factor.
+4.
+ The final component is the assignment of probabilities to each scenario. For some scenarios,
+involving macro economic factors such as exchange rates, interest rates, and overall economic
+growth, you can draw on the expertise of services that forecast these variables. For other
+scenarios, involving either the sector or competitors, you have to draw on your knowledge about
+the industry. Note, though, that this makes sense only if the scenarios cover the full spectrum of
+possibilities. If the scenarios represent only a subset of the possible outcomes on an investment,
+the probabilities will not add up to 1.
+The output from a scenario analysis can be presented as values under each scenario and as an
+expected value across scenarios (if the probabilities can be estimated in the fourth step). If the
+scenarios are incomplete, the expected value cannot be computed.
+This quantitative view of scenario analysis will be challenged by strategists, who have traditionally
+viewed scenario analysis as a qualitative exercise whose primary benefit is to broaden the thinking of
+decision makers. As one strategist put it, scenario analysis is about devising “plausible future
+narratives” rather than probable outcomes; in other words, there are benefits to considering scenarios
+that have a very low probability of occurring. The benefit of the exercise is that it forces you to
+consider views of what may unfold that differ from the official view.
+Use in Valuation and Decision Making
+How useful is scenario analysis in value assessment and decision making? The answer, as with all
+tools, depends on how it is used. The most valuable information from a scenario analysis is the range
+of values across different scenarios, which provides a snapshot of the riskiness of the asset; riskier
+assets will have values that vary more across scenarios, and safer assets will have manifest more
+stability. In addition, scenario analysis can be useful in determining the inputs into an analysis that
+have the most effect on value. There is another advantage to doing scenario analysis: To the extent
+that value is much lower under some scenarios than others, investors can try to find ways to hedge
+against those scenarios’ occurring.
+If nothing else, the process of thinking through scenarios is a useful exercise in examining how the
+competition will react under different macro economic environments and what can be done to
+minimize the effect of downside risk and maximize the effect of potential upside on the value of a
+risky asset.
+Issues
+Multiple-scenario analysis provides more information than a best-case/worst-case analysis by
+providing asset values under each of the specified scenarios. It does, however, have its own set of
+problems:
+Garbage in, garbage out.
+ The key to doing scenario analysis well is the setting up of the
+scenarios and the estimation of cash flows under each one. Not only do the outlined
+scenarios have to be realistic, but they also have to try to cover the spectrum of
+possibilities. Once the scenarios have been laid out, the cash flows have to be estimated
+under each one; this trade-off has to be considered when determining how many scenarios to

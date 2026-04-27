@@ -1,0 +1,99 @@
+=== populate_thesis run 2026-04-24 (model=qwen2.5:14b-instruct-q4_K_M, dry_run=False) ===
+
+holdings without thesis: 31
+
+
+--- br:BBDC4  ctx_chars=794
+  OK (8.4s, 1370 chars)
+
+--- br:BTLG11  ctx_chars=806
+  OK (5.2s, 1239 chars)
+
+--- br:IVVB11  ctx_chars=455
+  OK (5.5s, 1389 chars)
+
+--- br:KLBN11  ctx_chars=576
+  OK (5.2s, 1243 chars)
+
+--- br:LFTB11  ctx_chars=463
+  OK (5.5s, 1473 chars)
+
+--- br:PRIO3  ctx_chars=836
+  OK (5.7s, 1360 chars)
+
+--- br:PVBI11  ctx_chars=684
+  OK (4.9s, 1207 chars)
+
+--- br:RBRX11  ctx_chars=675
+  OK (4.9s, 1171 chars)
+
+--- br:VALE3  ctx_chars=851
+  OK (5.8s, 1467 chars)
+
+--- br:VGIR11  ctx_chars=644
+  OK (5.0s, 1281 chars)
+
+--- br:XPML11  ctx_chars=655
+  FAIL (5.5s)
+
+--- us:AAPL  ctx_chars=863
+  OK (5.2s, 1249 chars)
+
+--- us:ABBV  ctx_chars=833
+  OK (5.2s, 1244 chars)
+
+--- us:BLK  ctx_chars=854
+  OK (5.5s, 1384 chars)
+
+--- us:BN  ctx_chars=910
+  OK (5.5s, 1334 chars)
+
+--- us:BRK-B  ctx_chars=900
+  OK (5.9s, 1499 chars)
+
+--- us:GREK  ctx_chars=684
+  FAIL (5.6s)
+
+--- us:GS  ctx_chars=874
+  FAIL (5.3s)
+
+--- us:HD  ctx_chars=875
+  FAIL (5.8s)
+
+--- us:JNJ  ctx_chars=865
+  OK (5.1s, 1218 chars)
+
+--- us:JPM  ctx_chars=858
+  OK (5.0s, 1215 chars)
+
+--- us:KO  ctx_chars=878
+  OK (5.4s, 1396 chars)
+
+--- us:NU  ctx_chars=801
+  OK (5.3s, 1292 chars)
+
+--- us:O  ctx_chars=875
+  FAIL (5.9s)
+
+--- us:PG  ctx_chars=872
+  OK (5.0s, 1180 chars)
+
+--- us:PLD  ctx_chars=879
+  OK (5.3s, 1429 chars)
+
+--- us:PLTR  ctx_chars=830
+  OK (5.5s, 1516 chars)
+
+--- us:TEN  ctx_chars=860
+  OK (5.2s, 1355 chars)
+
+--- us:TSLA  ctx_chars=869
+  OK (5.2s, 1250 chars)
+
+--- us:TSM  ctx_chars=893
+  OK (4.9s, 1237 chars)
+
+--- us:XP  ctx_chars=836
+  OK (4.8s, 1182 chars)
+
+=== done: ok=26 fail=5 ===

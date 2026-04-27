@@ -1,0 +1,29 @@
+a gamble where you can win $50, with a probability 50 percent or $10
+with probability 50 percent. The decision tree for this offered gamble is shown in 
+Figure 33.1
+.
+Figure 33.1
+ Simple Decision Tree
+
+Note the key elements in the decision tree. First, only the event nodes represent uncertain outcomes
+and have probabilities attached to them. Second, the decision node represents a choice. On a pure
+expected value basis, the gamble is better (with an expected value of $30) than the guaranteed amount
+of $20; the double slash on the latter branch indicates that it would not be selected. While this
+example may be simplistic, the elements of building a decision tree it contains.
+Step 1: Divide analysis into risk phases.
+ The key to developing a decision tree is outlining the
+phases of risk that you will be exposed to in the future. In some cases, such as the FDA approval
+process, this will be easy to do since there are only two outcomes—the drug gets approved to move
+on to the next phase, or it does not. In other cases, it will be more difficult. For instance, a test market
+of a new consumer product can yield hundreds of potential outcomes; here, you will have to create
+discrete categories for the success of the test market.
+Step 2: In each phase, estimate the probabilities of the outcomes.
+ Once the phases of risk have
+been outlined and the outcomes at each phase are defined, the probabilities of the outcomes have to
+be computed. In addition to the obvious requirement that the probabilities across outcomes have to
+sum up to one, you will also have to consider whether the probabilities of outcomes in 1 phase can be
+affected by outcomes in earlier phases. For example, how does the probability of a successful
+national product introduction change when the test market outcome is only average?
+Step 3: Define decision points.
+ Embedded in the decision tree will be decision points where you
+will get to determine what your best course of action will be, based on observing the outcomes at

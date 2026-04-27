@@ -1,0 +1,22 @@
+ding both stocks and warrants
+outstanding. The reduction in S will reduce the value of the call option.
+There is an element of circularity in this analysis, since the value of the warrant is needed to
+
+estimate the dilution-adjusted S and the dilution-adjusted S is needed to estimate the value of the
+warrant. This problem can be resolved by starting the process off with an assumed value for the
+warrant (e.g., the exercise value or the current market price of the warrant). This will yield a value
+for the warrant, and this estimated value can then be used as an input to reestimate the warrant’s value
+until there is convergence.
+FROM BLACK-SCHOLES TO BINOMIAL
+The process of converting the continuous variance in a Black-Scholes model to a binomial tree is a fairly simple one.
+Assume, for instance, that you have an asset that is trading at $30 currently and that you estimate the annualized standard
+deviation in the asset value to be 40 percent; the annualized riskless rate is 5 percent. For simplicity, let us assume that the
+option that you are valuing has a four-year life and that each period is a year. To estimate the prices at the end of each of
+the four years, we begin by first estimating the up and down movements in the binomial:
+Based on these estimates, we can obtain the prices at the end of the first node of the tree (the end of the first year):
+Progressing through the rest of the tree, we obtain the following numbers:
+ILLUSTRATION 5.6: 
+Valuing a Warrant on Avatek
+Corporation
+Avatek Corporation is a real estate firm with 19.637 million shares outstanding, trading at $0.38 a share. In March 2001 the
+company had 1.8 million options outstanding, with four years to expiration and with an exercise price of $2.25. The stock

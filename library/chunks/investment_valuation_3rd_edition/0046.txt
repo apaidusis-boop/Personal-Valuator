@@ -1,0 +1,47 @@
+elow the principal (face value) due at maturity. The difference between the issue price and the face
+value is amortized each period and is treated as a noncash interest expense that is tax deductible.
+
+In all these cases, the value of debt is unaffected by changes in interest rates during the life of the
+loan or bond. Note that as market interest rates rise or fall, the present value of the loan obligations
+should decrease or increase. This updated market value for debt is not shown on the balance sheet. If
+debt is retired prior to maturity, the difference between book value and the amount paid at retirement
+is treated as an extraordinary gain or loss in the income statement.
+Finally, companies that have long-term debt denominated in nondomestic currencies have to adjust
+the book value of debt for changes in exchange rates. Since exchange rate changes reflect underlying
+changes in interest rates, it does imply that this debt is likely to be valued much nearer to market
+value than is debt in the domestic currency.
+Other Long-Term Liabilities
+Firms often have long-term obligations that are not captured in the long-term debt item. These include
+obligations to lessors on assets that firms have leased, to employees in the form of pension fund and
+health care benefits yet to be paid, and to the government in the form of taxes deferred. In the past two
+decades accountants have increasingly moved toward quantifying these liabilities and showing them
+as long-term liabilities.
+Leases
+Firms often choose to lease long-term assets rather than buy them. Lease payments create the same
+kind of obligation that interest payments on debt create, and they must be viewed in a similar light. If
+a firm is allowed to lease a significant portion of its assets and keep it off its financial statements, a
+perusal of the statements will give a very misleading view of the company's financial strength.
+Consequently, accounting rules have been devised to force firms to reveal the extent of their lease
+obligations on their books.
+There are two ways of accounting for leases. In an operating lease, the lessor (or owner) transfers
+only the right to use the property to the lessee. At the end of the lease period, the lessee returns the
+property to the lessor. Since the lessee does not assume the risk of ownership, the lease expense is
+treated as an operating expense in the income statement and the lease does not affect the balance
+sheet. In a capital lease, the lessee assumes some of the risks of ownership and enjoys some of the
+benefits. Consequently, the lease, when signed, is recognized both as an asset and as a liability (for
+the lease payments) on the balance sheet. The firm gets to claim depreciation each year on the asset
+and also deducts the interest expense component of the lease payment each year. In general, capital
+leases recognize expenses sooner than equivalent operating leases.
+Since firms prefer to keep leases off the books and sometimes to defer expenses, they have a strong
+incentive to report all leases as operating leases. Consequently the Financial Accounting Standards
+Board has ruled that a lease should be treated as a capital lease if it meets any one of the following
+four conditions:
+1.
+ The lease life exceeds 75 percent of the life of the asset.
+2.
+ There is a transfer of ownership to the lessee at the end of the lease term.
+3.
+ There is an option to purchase the asset at a bargain price at the end of the lease term.
+4.
+ The present value of the lease payments, discounted at an appropriate discount rate, exceeds 90
+percent of the fair market value of the asset.

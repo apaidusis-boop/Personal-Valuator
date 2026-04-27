@@ -1,0 +1,38 @@
+t would qualify as very high when the stable growth rate is 6 to 8 percent.
+5
+ Investors do not have a choice of when they receive dividends, whereas they have a choice on the
+timing of capital gains.
+
+CHAPTER 14
+Free Cash Flow to Equity Discount Models
+The dividend discount model is based on the premise that the only cash flows received by
+stockholders are dividends. Even if we use the modified version of the model and treat stock
+buybacks as dividends, we may misvalue firms that consistently fail to return what they can afford to
+their stockholders.
+This chapter uses a more expansive definition of cash flows to equity as the cash flows left over
+after meeting all financial obligations, including debt payments, and after covering capital
+expenditure and working capital needs. It discusses the reasons for differences between dividends
+and free cash flows to equity (FCFE), and presents the discounted free cash flow to equity model for
+valuation.
+MEASURING WHAT FIRMS CAN RETURN TO
+THEIR STOCKHOLDERS
+Given what firms are returning to their stockholders in the form of dividends or stock buybacks, how
+do we decide whether they are returning too much or too little? We propose a simple measure how
+much cash is available to be paid out to stockholders after meeting reinvestment needs and compare
+this amount to the amount actually returned to stockholders.
+Free Cash Flows to Equity
+To estimate how much cash a firm can afford to return to its stockholders, we begin with the net
+income—the accounting measure of the stockholders' earnings during the period—and convert it to a
+cash flow by subtracting out a firm's reinvestment needs. First, any capital expenditures, defined
+broadly to include acquisitions, are subtracted from the net income, since they represent cash
+outflows. Depreciation and amortization, on the other hand, are added back in because they are
+accounting but not cash expenses. The difference between capital expenditures and depreciation (net
+capital expenditures) is usually a function of the growth characteristics of the firm. High-growth firms
+tend to have high net capital expenditures relative to earnings, whereas low-growth firms may have
+low, and sometimes even negative, net capital expenditures.
+Second, increases in working capital drain a firm's cash flows, while decreases in working capital
+increase the cash flows available to equity investors. Firms that are growing fast, in industries with
+high working capital requirements (retailing, for instance), typically have large increases in working
+capital. Since we are interested in the cash flow effects, we consider only changes in noncash
+working capital in this analysis.
+Finally, equity investors also have to consider the effect of changes in the levels of debt on their

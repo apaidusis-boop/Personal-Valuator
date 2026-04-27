@@ -1,0 +1,38 @@
+stable growth levels. The resulting FCFE are shown in the following table, with the present value
+computed using the cumulated cost of equity (since the cost of equity changes from period to period).
+
+At the end of year 10, the terminal value of equity is computed using the stable growth inputs:
+Discounting the terminal value back at the cumulated cost of equity for year 10 and adding to the present value of FCFE
+over the next 10 years yields an overall value for equity from operating assets. Note, though, that cash has been set apart in
+this model and needs to be added back at this stage to get to the value of equity for Coca-Cola.
+Dividing by the number of shares outstanding today (2,289.254 million) yields a value per share of $95.54.
+The FCFE model suggests that Coca-Cola is significantly undervalued at $68.22 a share.
+So, why are they different? The FCFE model does use a lower growth rate than the dividend
+discount model, but it allows for more cash to be returned to stockholders. In effect, we are
+incorporating the fact that Coca-Cola does not pay out its FCFE as dividends. The net effect, at least
+in this case, is an increase in value per share. For companies that pay out more dividends than they
+have available in FCFE, the value per share might drop with the FCFE model. In either case, we
+would argue that the FCFE estimate of value per share is a more realistic one than the dividend
+discount model estimate of value per share.
+CONCLUSION
+The primary difference between the dividend discount models described in the previous chapter and
+the free cash flow to equity models described in this one lies in the definition of cash flows; the
+dividend discount model uses a strict definition of cash flow to equity (i.e., the expected dividends on
+the stock), while the FCFE model uses an expansive definition of cash flow to equity as the residual
+cash flow after meeting all financial obligations and investment needs. When dividends are different
+from the FCFE, the values from the two models will be different. In valuing firms for takeovers or in
+valuing firms where there is a reasonable chance of changing corporate control, the value from the
+FCFE model provides the better estimate of value.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Respond true or false to the following statements relating to the calculation and use of FCFE:
+a.
+ The free cash flow to equity will generally be more volatile than dividends. 
+True ____ False ____
+b.
+ The free cash flow to equity will always be higher than dividends. 
+True ____ False ____
+c.
+ The free cash flow to equity will always be higher than net income. 
+True ____ False ____

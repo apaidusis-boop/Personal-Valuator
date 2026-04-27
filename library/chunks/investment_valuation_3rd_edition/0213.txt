@@ -1,0 +1,32 @@
+elops an approach for estimating betas that is general
+enough to apply to all of these companies.
+risk.xls.
+
+This spreadsheet allows you to run a regression of stock returns against market returns and
+
+estimate risk parameters.
+The Limitations of Regression Betas
+Much of what has been presented in this section represents an indictment of regression betas. In the
+case of Boeing, the biggest problem was that the beta had high standard error. In fact, this is not a
+problem unique to Boeing. 
+Figure 8.7
+ presents the distribution of standard errors on beta estimates for
+U.S. companies.
+Figure 8.7
+ Distribution of Standard Errors on Beta—U.S. Firms from 2008 to 2010
+With the Nokia regression, we seem to cure the standard error problem but at a very large cost. The
+low standard errors reflect the domination of the index by a stock and result in betas that may be
+precise but bear no resemblance to true risk.
+Changing the market index, the return period, and the return interval offers no respite. If the index
+becomes a more representative index, the standard errors on betas will increase, reflecting the fact
+that more of the risk in the stock is firm-specific. If the beta changes as the return period or interval
+changes, it creates more uncertainty about the true beta of the company.
+In short, regression betas will almost always be either too noisy or skewed by estimation choices to
+be useful measures of the equity risk in a company. The cost of equity is far too important an input
+into a discounted cash flow valuation to be left to statistical chance.
+Fundamental Betas
+A second way to estimate betas is to look at the fundamentals of the business. The beta for a firm may
+be estimated from a regression, but it is determined by decisions the firm has made on what business
+to be in and how much operating leverage to use in the business, and by the degree to which the firm
+uses financial leverage. This section examines an alternative way of estimating betas, where we are
+less reliant on historical betas and more cognizant of their fundamental determinants.

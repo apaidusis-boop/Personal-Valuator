@@ -1,0 +1,31 @@
+First, retail customers are difficult to retain, especially online, and
+Amazon faces serious competition not only from other online retailers but also from traditional retailers like Wal Mart setting
+
+up their online operations. Consequently, the customers that Amazon might attract with its advertising or sales promotions
+are unlikely to stay for an extended period just because of the initial inducements. Second, as the company has become
+larger, its selling, general, and administrative expenses seem increasingly directed toward generating revenues in current
+periods rather than future periods.
+ILLUSTRATION 9.4: Capitalizing Recruitment and
+Training Expenses: Cyber Health Consulting
+Cyber Health Consulting (CHC) is a firm that specializes in offering management consulting services to health-care firms.
+CHC reported operating income (EBIT) of $51.5 million and net income of $23 million in the most recent year. However, the
+firm's expenses include the cost of recruiting new consultants ($5.5 million) and the cost of training ($8.5 million). A
+consultant who joins CHC stays with the firm, on average, four years.
+To capitalize the cost of recruiting and training, we obtained these costs from each of the prior four years. The following
+table reports on these human capital expenses, and amortizes each of these expenses over four years.
+The adjustments to operating and net income are as follows:
+As with R&D expenses, the fact that training and recruiting expenses are fully tax deductible dispenses with the need to
+consider the tax effect when adjusting net income.
+Adjustments for Financing Expenses
+The second adjustment is for financing expenses that accountants treat as operating expenses. The
+most significant example is operating lease expenses, which are treated as operating expenses, in
+contrast to capital leases, which are presented as debt.
+Converting Operating Leases into Debt
+In Chapter 8, the basic approach for converting operating leases into debt was presented. You
+discount future operating lease commitments back at the firm's pretax cost of debt. The present value
+of the operating lease commitments is then added to the conventional debt of the firm to arrive at the
+total debt outstanding.
+Once operating leases are recategorized as debt, the operating incomes can be adjusted in two
+steps. First, the operating lease expense is added back to the operating income, since it is a financial
+expense. Next, the depreciation on the leased asset is subtracted out to arrive at adjusted operating
+income:

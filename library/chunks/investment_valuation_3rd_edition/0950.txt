@@ -1,0 +1,46 @@
+rst-case scenario. In practice, there are two ways in which this analysis can be structured. In
+the first, each input into asset value is set to its best (or worst) possible outcome and the cash flows
+
+are estimated with those values. Thus, when valuing a firm, you may set the revenue growth rate and
+operating margin at the highest possible level while setting the discount rate at its lowest level, and
+compute the value as the best-case scenario. The problem with this approach is that it may not be
+feasible; after all, to get the high revenue growth, the firm may have to lower prices and accept lower
+margins. In the second, the best possible scenario is defined in terms of what is feasible while
+allowing for the relationship between the inputs. Thus, instead of assuming that revenue growth and
+margins will both be maximized, we choose that combination of growth and margin that is feasible
+and yields the maximum value. While this approach is more realistic, it does require more work to
+put into practice.
+How useful is best-case/worst-case analysis? There are two ways in which the results from this
+analysis can be useful to decision makers. First, the difference between the best-case and worst-case
+value can be used as a measure of risk on an asset; the range in value (scaled to size) should be higher
+for riskier investments. Second, investors who are concerned about the potential spill-over effects on
+their portfolio of an investment going bad may be able to gauge the effects by looking at the worst-
+case outcome on that investment.
+In general, though, best-case/worse-case analyses are not very informative. After all, there should
+be no surprise in knowing that an asset will be worth a lot in the best case and not very much in the
+worst case. Thus, an equity research analyst who uses this approach to value a stock, priced at $50
+may arrive at values of $80 for the best case and $10 for the worst case; with a range that large, it
+will be difficult to make a judgment on whether the stock is a good investment.
+Multiple-Scenario Analysis
+Scenario analysis does not have to be restricted to the best and worst cases. In its most general form,
+the value of a risky asset can be computed under a number of different scenarios, varying the
+assumptions about both macro economic and asset-specific variables.
+Steps in Scenario Analysis
+While the concept of sensitivity analysis is a simple one, it has four critical components:
+1.
+ The first is the determination of which factors the scenarios will be built around. These factors
+can range from the state of the economy for an automobile firm considering a new plant, to the
+response of competitors for a consumer product firm introducing a new product, to the behavior of
+regulatory authorities for a regulated company considering a new product or service. In general,
+you should focus on the two or three most critical factors that will determine the value of the asset
+and build scenarios around these factors.
+2.
+ The second component is determining the number of scenarios to analyze for each factor. While
+more scenarios may be more realistic than fewer, it becomes more difficult to collect information
+and differentiate between the scenarios in terms of asset cash flows. Thus, estimating cash flows
+under each scenario will be easier if you lay out five scenarios, for instance, than if you lay out 15
+scenarios. The question of how many scenarios to consider will depend then upon how different
+the scenarios are and how well you can forecast cash flows under each scenario.
+3.
+ The third component is the estimation of asset cash flows under each scenario. It is to ease the
+estimation at this step that you focus on only two or three critical factors and build relatively few

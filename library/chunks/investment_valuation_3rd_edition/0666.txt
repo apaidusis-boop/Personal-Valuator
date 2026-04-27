@@ -1,0 +1,50 @@
+ed into the single
+digits.
+4
+For decades, Xerox dominated the copier business to the extent that its name became
+synonymous with the product. In the 1970s and 1980s it was challenged for the market by
+
+Asian firms with lower cost structures, like Ricoh and Canon. After initial losses Xerox
+was able to recoup some of its market share. However, the last part of the 1990s saw a
+steady decline in Xerox's fortunes as technology (in the form of e-mails, faxes, and low-cost
+printers) took its toll. By the end of 2000, there were questions about whether Xerox had a
+future.
+Under the leadership of Michael Armstrong, AT&T tried to shed its image as a stodgy
+phone company and become a technology firm. After some initial successes, a series of
+miscues and poor acquisitions saw the firm enter the new millennium with a vastly reduced
+market capitalization and no clear vision on where to go next.
+When firms have low or negative earnings that can be traced to strategic missteps, you have to
+determine whether the shift is a permanent one. If it is, you will have to value the firm on the
+assumption that it will never recover lost ground, and scale down your expectations of revenue
+growth and expected margins. If, on the other hand, you are more optimistic about the firm's recovery
+or its entry into new markets, you can assume that the firm will be able to revert to its traditional
+margins and high growth.
+Operating Problems
+Firms that are less efficient in the delivery of goods and services than their competitors will also be
+less profitable and less valuable. But how and why do firms become less efficient? In some cases, the
+reasons can be traced to a failure to keep up with the times and replenish assets and keep up with the
+latest technology. A steel company whose factories are decades old and whose equipment is outdated
+will generally bear higher costs for every ton of steel that it produces than its newer competitors. In
+other cases, the problem may be labor costs. A steel company with plants in the United States faces
+much higher labor costs than a similar company in Asia.
+The variable that best measures operating efficiency is the operating margin, with firms that have
+operating problems tending to have much lower margins than their competitors. One way to build in
+the effect of operating improvements over time is to increase the margin toward the industry average,
+but the speed with which the margins will converge will depend on several factors:
+Size of the firm.
+ Generally, the larger the firm, the longer it will take to eliminate
+inefficiencies. Not only is inertia a much stronger force in large firms, but the absolute
+magnitude of the changes that have to be made are much larger. A firm with $10 billion in
+revenues will have to cut costs by $300 million to achieve a 3 percent improvement in
+pretax operating margin, whereas a firm with $100 million in revenues will have to cut
+costs by $3 million to accomplish the same objective.
+Nature of the inefficiency.
+ Some inefficiencies can be fixed far more quickly than others.
+For instance, a firm can replace outdated equipment or a poor inventory system quickly, but
+retraining a labor force will take much more time.
+External constraints.
+ Firms are often restricted in terms of how much and how quickly they
+can move to fix inefficiencies by contractual obligations and social pressure. For instance,
+laying off a large portion of the workforce may seem an obvious solution for a firm that is
+overstaffed, but union contracts and the potential for negative publicity may make firms
+reluctant to do so.

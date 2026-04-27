@@ -1,0 +1,48 @@
+as a function of the expected
+growth rate and return on equity:
+Substituting back into the equation,
+The price-earnings ratio for a high-growth firm can also be related to fundamentals. Using the two-
+
+stage dividend discount model, this relationship can be made explicit fairly simply. When a firm is
+expected to be in high growth for the next n years and stable growth thereafter, the dividend discount
+model can be written as follows:
+where EPS
+0
+ = Earnings per share in year 0 (current year) 
+g = Growth rate in the first n years 
+k
+e,hg
+ = Cost of equity in high growth period 
+k
+e,st
+ = Cost of equity in stable growth period 
+Payout = Payout ratio in the first n years 
+g
+n
+ = Growth rate after n years, forever (stable growth rate) 
+Payout
+n
+ = Payout ratio after n years for the stable firm
+Bringing EPS
+0
+ to the left-hand side of the equation,
+Here again, we can substitute in the fundamental equation relating ROE for payout ratios:
+where ROE
+hg
+ is the return on equity in the high growth period and ROE
+st
+ is the return on equity in
+stable growth.
+The left-hand side of the equation is the price-earnings ratio. It is determined by:
+Payout ratio (and return on equity) during the high growth period and in the stable
+period.
+ The PE ratio increases as the payout ratio increases, for any given growth rate. An
+alternative way of stating the same proposition is that the PE ratio increases as the return on
+equity increases, for any given growth rate, and decreases as the return on equity decreases.
+Riskiness (through the discount rate).
+ The PE ratio becomes lower as riskiness increases.
+Put differently, the PE ratio will be higher for a firm where is growth is more predictable
+and stable than for an otherwise similar firm with unstable growth.
+Expected growth rate in earnings in both the high-growth and stable phases.
+ The PE
+increases as the growth rate increases, assuming that the ROE > cost of equity.

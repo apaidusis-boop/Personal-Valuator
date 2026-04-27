@@ -1,0 +1,38 @@
+se estimates of future growth.
+As noted in Chapter 11, it is an open question as to whether the long-term forecasts from analysts
+are any better than historical growth for estimating future growth.
+3.
+
+Fundamental growth.
+ In Chapter 11, we suggested that the expected growth in earnings per
+share be written as a function of the retention ratio and the return on equity (ROE):
+This equation allows you to estimate the expected growth rate for firms with stable returns on equity.
+If you consider stock buybacks in addition to dividends when looking at payout, the retention ratio
+should be defined consistently as well.
+If the return on equity is expected to change over time, the expected growth rate in earnings per
+share can be written as:
+In both formulations, the expected growth rate is a function of the retention ratio, which measures
+the quantity of reinvestment, and the return on equity, which measures their quality. How well do
+fundamental growth models work for financial service firms? Surprisingly well. The retention ratio in
+a bank measures the equity reinvested back into the firms, which in turn, given the regulatory focus on
+capital ratios, determines, in large part, how much these firms can expand in the future. The return on
+equity is also a more meaningful measure of investment quality because financial assets are much
+more likely to be marked up to market.
+Stable Growth
+To get closure with dividend discount models, you have to assume that the financial service firms that
+you are valuing will be in stable growth at some point in time in the future, where stable growth is
+defined to be growth that is less than or equal to the growth rate of the economy (or the risk free rate).
+In some cases, especially with larger firms in more mature businesses, the expected growth rate today
+may already be a stable growth rate.
+In making the judgment of when a financial service firm will become a stable growth firm, you have
+to consider three factors. The first is the size of the firm, relative to the market that it serves. Larger
+financial service firms will find it more difficult to sustain high growth for long periods, especially in
+mature markets. The second is the nature of the competition. If competition is intense, stable growth
+will arrive sooner rather than later. If competition is restricted, high growth and excess returns can
+last much longer. Finally, the way in which financial service firms are regulated can affect the
+convergence to stable growth, since regulation can operate both as a help and as a hindrance. By
+restricting new entrants, regulations may help financial service firms maintain high growth for long
+periods. At the same time, though, regulatory restrictions may prevent firms from entering new and
+potentially lucrative businesses, and thus reduce the length of the high growth period.
+As noted in prior chapters, it is not only the growth rate that changes in stable growth. The payout
+ratio has to adjust to reflect the stable growth rate (g), and can be estimated from the payout ratio:

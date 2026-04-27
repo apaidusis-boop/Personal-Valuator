@@ -1,0 +1,47 @@
+e unsustainable (because they are higher than FCFE) or which pay less in dividends than they
+can afford to (i.e., dividends are less than FCFE).
+ILLUSTRATION 14.4: Two-Stage FCFE Model: Nestlé in
+2001
+
+Nestlé has operations all over the world, with 97% of its revenues coming from markets outside Switzerland, where it is
+headquartered. The firm, like many large European corporations, has a weak corporate governance system, and
+stockholders have little power over managers.
+RATIONALE FOR USING THE MODEL
+Why two-stage?
+ Nestlé has a long and impressive history of growth, and while we believe that its growth will
+be moderate, we assume that it will be able to maintain high growth for 10 years.
+Why FCFE?
+ Given its weak corporate governance structure and a history of accumulating cash, the
+dividends paid by Nestlé bear little resemblance to what the firm could have paid out.
+BACKGROUND INFORMATION
+Current net income = Sfr 5,763 million
+Earnings per share = Sfr 148.33
+Current capital spending = Sfr 5,058 million
+Capital expenditures/share = Sfr 130.18
+Current depreciation = Sfr 3,330 million
+Depreciation/share = Sfr 85.71
+Current revenues = Sfr 81,422 million
+Revenue/share = Sfr 2,095.64
+Noncash working capital = Sfr 5,818 million
+Working capital/share = Sfr 149.74
+Change in working capital = Sfr 368 million
+Change in working capital/share = Sfr 9.47
+Net debt issues = Sfr 272 million
+ESTIMATES
+We will begin by estimating the cost of equity for Nestlé during the high growth period in Swiss francs. We will use the 10-
+year Swiss government Sfr bond rate of 4% as the risk-free rate. To estimate the risk premium, we used the breakdown of
+Nestlé's revenues by region:
+The risk premiums for each region represent an average of the risk premiums of the countries in the region. Using a bottom-
+up beta of 0.85 for Nestlé, we estimated a cost of equity of:
+We will assume that this cost of equity will remain unchanged in perpetuity. To estimate the expected growth rate in free
+cash flows to equity, we first computed the free cash flows to equity in the current year:
+The equity reinvestment rate can be estimated from this value:
+The return on equity in 2000 was estimated using the net income from 2000 and the book value of equity from the end of the
+previous year:
+The expected growth rate in FCFE is a product of the equity reinvestment rate and the return on equity:
+We will assume that net capital expenditures and working capital will grow at the same rate as earnings for the high growth
+period and that the firm will raise 33.92% of its reinvestment needs from debt (which is its current book value debt-to-capital
+ratio).
+In stable growth, we assume a growth rate of 4%. We also assume that the cost of equity remains unchanged but that the
+return on equity drops to 15%. The equity reinvestment rate in stable growth can be estimated as follows:
+VALUATION

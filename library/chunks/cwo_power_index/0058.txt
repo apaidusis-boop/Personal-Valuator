@@ -1,0 +1,3 @@
+the countries that share the euro, which is why those measures are 
+displayed as dashes.
+4 Because the notion of competitiveness is inherently relative, we only show the total score for this measure.

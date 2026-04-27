@@ -61,6 +61,8 @@ PMLL11 (Plural Malls, segmento Shopping) negoceia a BRL 110.23 com DY 8.94% e st
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

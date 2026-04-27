@@ -1,0 +1,48 @@
+n  Congress, in 1947, encouraged banks to “restrict voluntarily their lending and investing programs.”23 This 
+guideline was put in place after the Fed’s limits on consumer installment loans expired. 
+
+Part 3: Appendix
+214
+n  During the Korean War, Congress enacted the Defense Production Act of 1950. This gave the Federal Reserve 
+the authority to establish “voluntary” credit restraints.24 
+ –  The Federal Reserve asked lenders to “screen loan applications on the basis of their [loan’s] purpose, in 
+addition to the usual tests of credit worthiness.” The program was in place for about a year.
+n  In 1965, the cabinet-level Committee on the Balance of Payments recommended “voluntary” lending restraints, 
+to be monitored by the Federal Reserve.25 
+ – This policy sought to reduce net capital outflows by over 15 percent from the previous year. 
+ –  The program called for an initial 5 percent ceiling on foreign loan growth, the first time such a quantitative 
+credit target was put in place. 
+ –  In 1968, President Johnson passed an Executive Order which allowed the Federal Reserve to make the 
+program mandatory. However, the Fed chose not to, citing the high voluntary participation. The programs 
+continued until 1974.
+n  In 1966, the Fed prompted banks to slow business loans. At the time, business credit creation was high and 
+inflation was rising. For banks that did not cooperate, the Fed limited their ability to borrow at the discount 
+window. After the economy slowed, the policy was ended.26
+n  From March to July 1980, President Carter established the “voluntary” Special Credit Restraint Program. Under 
+the program, banks, bank holding companies, finance companies, and foreign bank branches were asked to limit 
+loan growth to 6-9%.27  
+ –  From a high level, the program was designed to restrain certain types of speculative or inflationary 
+lending, while maintaining availability of funds to small businesses, farmers, and home buyers. Banks were 
+encouraged to “maintain availability of funds to small business, farmers, home buyers and others without 
+access to other forms of financing” and ensure that “credit for automobiles, home mortgage and home 
+improvement loans should be treated normally in the light of general market conditions.”  
+ –  Conversely, banks were encouraged to restrain credit card lending and to limit other unsecured consumer 
+loans. The program also asked banks to limit credit used to support “essentially speculative uses of funds, 
+including voluntary buildup of inventories by businesses beyond operating needs, or to finance transactions 
+such as takeovers or mergers that can be reasonably postponed, that do not contribute to economic efficiency 
+or productivity, or may be financed from other sources of funds.” Speculative lending also covered “financing 
+of purely speculative holdings of commodities or precious metals.” 
+ – The Special Credit Restraint Program called for periodic reports on lending activities. 
+n   Similar tools were used in Europe. National credit councils in France and Italy would announce which sectors 
+they thought needed more credit or were already over-burdened, especially in the post-war period.28 
+Macroprudential Measures Aimed at Supply of Credit: Reserve Requirements
+n  State governments instituted the first reserve requirements in the 1800s, to ensure that state-chartered banks had 
+enough reserves (typically gold or other specie) to meet their obligations (in the form of circulating bank notes) 
+and to meet deposit withdrawals. The National Bank Act, passed in 1863, introduced the first nationwide reserve 
+requirements for banks.29
+n  Congress eased reserve requirements in the Federal Reserve Act of 1913. 30 This is because, with the Federal 
+Reserve now serving as a lender of last resort for national banks, Congress viewed reserve requirements as less 
+critical.
+n  In the 1930s and afterwards, reserve requirements were again seen as a more useful counter-cyclical policy tool. 
+In 1935, Congress gave the Federal Reserve the ability to set the reserve requirement. 31 In conjunction with 
+Roosevelt’s economic recovery program in the spring of 1938, the central bank lowered reserve requirements.

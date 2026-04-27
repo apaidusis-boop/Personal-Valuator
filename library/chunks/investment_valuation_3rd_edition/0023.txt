@@ -1,0 +1,42 @@
+nd principal payments, they are usually cash flows to the firm. Needless to say,
+there are other items that need to be considered when estimating these cash flows, and they are considered in extensive
+
+detail in the coming chapters.
+We then add the present value of these excess returns to the investment in the asset:
+Value of asset
+= Present value of excess return + Investment in the asset 
+= $2 million/.1 + $100 million = $120 million
+Note that the answers in the two approaches are equivalent. Why, then, would we want to use an
+excess return model? By focusing on excess returns, this model brings home the point that it is not
+earnings per se that create value, but earnings in excess of a required return. Chapter 32 considers
+special versions of these excess return models. As in this simple example, with consistent
+assumptions, total cash flow and excess return models are equivalent.
+Applicability and Limitations of Discounted Cash Flow Valuation
+Discounted cash flow valuation is based on expected future cash flows and discount rates. Given
+these estimation requirements, this approach is easiest to use for assets (firms) whose cash flows are
+currently positive and can be estimated with some reliability for future periods, and where a proxy
+for risk that can be used to obtain discount rates is available. The further we get from this idealized
+setting, the more difficult (and more useful) discounted cash flow valuation becomes. Here are some
+scenarios where discounted cash flow valuation might run into trouble and need to be adapted.
+Firms in Trouble
+A distressed firm generally has negative earnings and cash flows, and expects to lose money for some
+time in the future. For these firms, estimating future cash flows is difficult to do, since there is a
+strong probability of bankruptcy. For firms that are expected to fail, discounted cash flow valuation
+does not work very well, since the method values the firm as a going concern providing positive cash
+flows to its investors. Even for firms that are expected to survive, cash flows will have to be
+estimated until they turn positive, since obtaining a present value of negative cash flows will yield a
+negative value for equity
+1
+ or for the firm. We will examine these firms in more detail in chapters 22
+and 30.
+Cyclical Firms
+The earnings and cash flows of cyclical firms tend to follow the economy—rising during economic
+booms and falling during recessions. If discounted cash flow valuation is used on these firms,
+expected future cash flows are usually smoothed out, unless the analyst wants to undertake the
+onerous task of predicting the timing and duration of economic recessions and recoveries. In the
+depths of a recession many cyclical firms look like troubled firms, with negative earnings and cash
+flows. Estimating future cash flows then becomes entangled with analyst predictions about when the
+economy will turn and how strong the upturn will be, with more optimistic analysts arriving at higher
+estimates of value. This is unavoidable, but the economic biases of the analysts have to be taken into
+account before using these valuations.
+Firms with Unutilized Assets

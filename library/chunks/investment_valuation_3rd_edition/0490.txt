@@ -1,0 +1,44 @@
+del (and the current stock price) and the correct value per share.
+c.
+ Will your value per share increase or decrease if you reestimate the value of the options using
+your estimated value per share?
+1
+
+Note that if the cash is invested in riskless assets such as Treasury bills, the riskless rate is a fair
+rate of return.
+2
+
+The unlevered beta that you can back out of a regression beta reflects the average cash balance
+(as a percent of firm value) over the period of the regression. Thus, if a firm maintains this ratio at
+a constant level, you might be able to arrive at the correct unlevered beta.
+3
+
+While this assumption is straightforward with cash, it is less so with real assets, where the
+liquidation value may reflect the poor earning power of the asset. Thus, the potential surplus from
+
+liquidation may not be as easily claimed.
+4
+
+Firms with large cash balances are attractive targets, since the cash balance reduces the cost of
+making the acquisition.
+5
+
+One of Microsoft’s oddest investments was in one of its primary competitors, Apple Computer,
+early in 1998. The investment may have been intended to fight the antitrust suit brought against
+Microsoft by the Justice Department.
+6
+
+Firms have evaded the requirements of consolidation by keeping their share of ownership in other
+firms below 50 percent.
+7
+ Consolidation in the United States requires that you consider 100 percent of the subsidiary, even
+if you own less. There are other markets in the world where consolidation requires only that you
+consider the portion of the firm that you own.
+8
+
+Estimating market value for preferred stock is relatively simple. Preferred stock generally is
+perpetual, and the estimated market value of the preferred stock is therefore: 
+
+The cost of preferred stock should be higher than the pretax cost of debt, since debt has a prior
+claim on the cash flows and assets of the firm.
+9

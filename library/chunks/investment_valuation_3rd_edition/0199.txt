@@ -1,0 +1,30 @@
+the subprime boom in 2004 to 2007 lowered default spreads, while equity risk
+premiums stayed unchanged.
+Figure 7.3
+ Baa Bond Default Spread and Implied Equity Risk Premiums: 1960 to 2010
+
+ratings.xls:
+
+This dataset on the Web summarizes default spreads by bond rating class for the most recent
+period.
+CONCLUSION
+The risk-free rate is the starting point for all expected return models. For an asset to be risk free, it
+has to be free of both default and reinvestment risk. Using these criteria, the appropriate risk-free rate
+to use to obtain expected returns should be a default-free (government) zero coupon rate that is
+matched up to when the cash flow that is being discounted occurs. In practice, however, it is usually
+appropriate to match up the duration of the risk-free asset to the duration of the cash flows being
+analyzed. In valuation, this will lead us toward long-term government bond rates as risk-free rates. It
+is also important that the risk-free rate be consistent with the cash flows being discounted. In
+particular, the currency in which the risk-free rate is denominated and whether it is a real or nominal
+risk-free rate should be determined by the currency in which the cash flows are estimated and
+whether the estimation is done in real or nominal terms.
+The risk premium is a fundamental and critical component in portfolio management, corporate
+finance, and valuation. Given its importance, it is surprising that more attention has not been paid in
+practical terms to estimation issues. This chapter considered the conventional approach to estimating
+risk premiums, which is to use historical returns on equity and government securities, and evaluated
+some of its weaknesses. It also examined how to extend this approach to emerging markets, where
+historical data tends to be both limited and volatile. The alternative to historical premiums is to
+estimate the equity premium implied by equity prices. This approach does require that we start with a
+valuation model for equities, and estimate the expected growth and cash flows, collectively, on equity
+investments. It has the advantages of not requiring historical data and of reflecting current market
+perceptions.

@@ -1,0 +1,44 @@
+er of times they will have to trade and their associated transaction costs. These concerns are
+unlikely to hold for a specialist on the floor of the exchange, who can trade quickly, often and at no or
+
+very low costs. It should be pointed out, however, that if the market for specialists is efficient, the
+value of a seat on the exchange should reflect the present value of potential benefits from being a
+specialist.
+This corollary also suggests that investors who work at establishing a cost advantage, especially in
+relation to information, may be able to generate excess returns on the basis of these advantages. Thus
+John Templeton, who started investing in Japanese and other Asian markets well before other
+portfolio managers, might have been able to exploit the informational advantages he had over his
+peers to make excess returns on his portfolios, at least for a few years.
+Proposition 3:
+ The speed with which an inefficiency is resolved will be directly related to how
+easily the scheme to exploit the inefficiency can be replicated by other investors. The ease with
+which a scheme can be replicated is related to the time, resources, and information needed to execute
+it. Since very few investors single-handedly possess the resources to eliminate an inefficiency
+through trading, it is much more likely that an inefficiency will disappear quickly if the scheme used
+to exploit the inefficiency is transparent and can be copied by other investors.
+To illustrate this point, assume that stocks are consistently found to earn excess returns in the month
+following a stock split. Since firms announce stock splits publicly and any investor can buy stocks
+right after these splits, it would be surprising if this inefficiency persisted over time. This can be
+contrasted with the excess returns made by some arbitrage funds in index arbitrage, where index
+futures are bought (or sold), and stocks in the index are sold short or (bought). This strategy requires
+that investors be able to obtain information on the index and spot prices instantaneously, have the
+capacity (in terms of margin requirements and resources) to trade index futures and to sell short on
+stocks, and to have the resources to take and hold very large positions until the arbitrage unwinds.
+Consequently, inefficiencies in index futures pricing are likely to persist at least for the most efficient
+arbitrageurs, with the lowest execution costs and the speediest execution times.
+TESTING MARKET EFFICIENCY
+Tests of market efficiency look at the whether specific investment strategies earn excess returns.
+Some tests also account for transactions costs and execution feasibility. Since an excess return on an
+investment is the difference between the actual and expected return on that investment, there is
+implicit in every test of market efficiency a model for this expected return. In some cases, this
+expected return adjusts for risk using the capital asset pricing model or the arbitrage pricing model,
+and in others the expected return is based on returns on similar or equivalent investments. In every
+case, a test of market efficiency is a joint test of market efficiency and the efficacy of the model used
+for expected returns. When there is evidence of excess returns in a test of market efficiency, it can
+indicate that markets are inefficient or that the model used to compute expected returns is wrong (or
+both). Although this may seem to present an insoluble dilemma, if the conclusions of the study are
+insensitive to different model specifications, it is much more likely that the results are being driven by
+true market inefficiencies and not just by model misspecifications.
+There are a number of different ways of testing for market efficiency, and the approach used will
+depend in great part on the investment scheme being tested. A scheme based on trading on information
+events (stock splits, earnings announcements, or acquisition announcements) is likely to be tested

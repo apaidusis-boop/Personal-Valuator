@@ -1,0 +1,44 @@
+can create them on paper (as we did in Illustration 28.1) and value the
+options. The difficulties in creating arbitrage positions may result in prices that deviate by a large amounts from this value.
+
+Increasing the riskless rate to reflect the higher risk associated with real options may seem like an obvious fix, but doing this
+will only make call options (such as the one valued in Illustration 28.1) more valuable, not less.
+  If you want to be more conservative in your estimate of value for real options to reflect the difficulty of arbitrage, you have
+two choices. One is to use a higher discount rate in computing the present value of the cash flows that you would expect to
+make from investing in the project today, thus lowering the value of the underlying asset (S) in the model. In Illustration 28.1,
+using a 20 percent discount rate rather than a 15 percent rate would result in a present value of $29.1 million, which would
+replace the $33.5 million as S in the model. The other choice is to value the option and then apply an illiquidity discount to it
+(similar to the one we used in valuing private companies) because you cannot trade it easily.
+Problems in Valuing the Option to Delay
+While it is quite clear that the option to delay is embedded in many projects, several problems are
+associated with the use of option pricing models to value these options. First, the underlying asset in
+this option, which is the project, is not traded, making it difficult to estimate its value and variance.
+The value can be estimated from the expected cash flows and the discount rate for the project, albeit
+with error. The variance is even more difficult to estimate, however, since we are attempting the
+estimate a variance in project value over time.
+Second, the behavior of prices over time may not conform to the price path assumed by the option
+pricing models. In particular, the assumption that value follows a diffusion process, and that the
+variance in value remains unchanged over time, may be difficult to justify in the context of a project.
+For instance, a sudden technological change may dramatically change the value of a project, either
+positively or negatively.
+Third, there may be no specific period for which the firm has rights to the project. Unlike the case
+of a patent, in which the firm has exclusive rights to produce the patented product for a specified
+period, the firm's rights to a specific project often are less clearly defined, in terms of both
+exclusivity and time. For instance, a firm may have significant advantages over its competitors, which
+may, in turn, provide it with the virtually exclusive rights to a project for a period of time. An
+example would be a company with strong brand name recognition in retailing or consumer products.
+The rights are not legal restrictions, however, and will erode over time. In such cases, the expected
+life of the project itself is uncertain and only an estimate. In the valuation of the rights to the product
+in the previous section a life of five years for the option was used, but competitors could in fact enter
+sooner than anticipated. Alternatively, the barriers to entry may turn out to be greater than expected,
+and allow the firm to earn excess returns for longer than five years. Ironically, uncertainty about the
+expected life of the option can increase the variance in present value, and through it, the expected
+value of the rights to the project.
+Implications and Extensions of Delay Options
+Several interesting implications emerge from the analysis of the option to delay a project as an
+option. First, a project may have a negative net present value currently based on expected cash flows,
+but the rights to it may still be valuable because of the option characteristics. By the same token, the
+exclusive rights to a non-viable technology in a risky business can be worth a great deal.
+Second, a project may have a positive net present value but still not be accepted right away. This
+can happen because the firm may gain by waiting and accepting the project in a future period, for the
+same reasons that investors do not always exercise an option that is in the money. A firm is more

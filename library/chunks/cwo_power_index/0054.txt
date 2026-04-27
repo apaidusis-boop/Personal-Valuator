@@ -1,0 +1,48 @@
+e Very Weak -2.0 21 -
+  Getting better   Getting worse   Flat
+Note: All ranks shown are out of 24, except in the case of Internal Conflict & Internal Order (out of 10) and Reserve 
+Status (out of 19).
+
+THE CHANGING WORLD ORDER
+54
+MORE DETAIL ON EACH OF THE GAUGES
+	■  Education: This gauge measures basic and higher education, split about evenly between the two. Half 
+of the measure captures the absolute quantity of educated people at various levels and about half is 
+placed on quality such as higher education rankings, test scores, and average years of education. The 
+US ranks highest in this gauge (driven by strong absolute and relative measures of higher education), 
+with China close behind (due to its large number of educated people).
+	■  Innovation & Technology: This gauge measures inventiveness, technological advancement, and entre-
+preneurship. It gives about half its weight to the country’s absolute share of key innovation metrics (e.g., 
+patents, researchers, R&D spending, and venture capital funding) and half to a combination of exter -
+nal rankings and measures of innovation per capita (to help capture how widespread innovation is in 
+the economy). The US is at the top of this measure due to its strength across a variety of metrics, while 
+China ranks second due to its large share of global research spending, researchers, and patents. China 
+is rising quickly in this area.
+	■  Cost Competitiveness: This gauge measures what one gets for what one pays. We want to see this be-
+cause countries that produce the best at costs that are too expensive aren’t in good shape, even though 
+they rank high in quality. We look at quality-adjusted and productivity-adjusted labor costs, along 
+with other productivity measures. Major developing economies (particularly India) rank highest in this 
+gauge, while the US ranks around the middle of the pack and European countries rank lowest (due to 
+high labor costs). 
+	■  Infrastructure & Investment: This gauge measures the quantity of infrastructure and investment spend-
+ing and the quality of it. It captures a country’s absolute share of global investment, as well as the extent to 
+which a country prioritizes quality of infrastructure and productivity-enhancing investments. The gauge 
+weighs measures of investment as a share of world investment, overall infrastructure quality, investment 
+and savings as a share of GDP, and logistics performance. China is currently the strongest according to 
+this gauge (having risen sharply over the past 20 years) because of its high rates of productive investment 
+relative to both the world and the size of its own past investment; the US is second, due largely to its high 
+share of global productive investment, though it is worsening.
+	■  Economic Output: This gauge measures the strength of a country’s economic resources. We measure out-
+put primarily through GDP levels as a share of world total (adjusted for price differences across countries). 
+We allocate some weight to GDP per capita rather than total GDP to capture quality. China ranks first in 
+this gauge, insignificantly ahead of the US but also rising fastest, due its large PPP-adjusted GDP share. 
+Europe ranks third.
+	■  Expected Growth (Big Economic Cycle): This gauge measures how well a country is positioned to 
+grow its economy over the next 10 years. We look at a variety of metrics to estimate forward-looking 
+10-year economic growth, placing two-thirds weight on metrics that predict productivity and one-third 
+on metrics that predict the impact of indebtedness on growth. Currently India is predicted to grow the 
+fastest, followed by China, with the US predicted to grow a bit slower than average, and with Japan 
+and a number of European countries predicted to grow least.
+	■  Trade: This gauge measures how strong of an exporter a country is. It looks at the absolute level of a 
+country’s exports as a share of the world. China scores highest (being the largest exporter in the world), 
+followed by Europe and the US.

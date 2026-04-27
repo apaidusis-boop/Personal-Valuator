@@ -3,7 +3,7 @@ type: glossary
 slug: EPS
 title: EPS — Earnings per Share
 category: fundamentals
-date: 2026-04-26
+date: 2026-04-27
 tags: [glossary, tutor, fundamentals]
 ---
 
@@ -114,4 +114,4 @@ Lucro líquido normalizado por acção. Base para P/E e DCF. **Crescimento de EP
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-26.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*

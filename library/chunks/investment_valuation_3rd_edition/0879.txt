@@ -1,0 +1,25 @@
+quity can thus be viewed as a call option on the firm, where exercising the option requires that the
+firm be liquidated and the face value of the debt (which corresponds to the exercise price) be paid
+
+off. The firm is the underlying asset and the option expires when the debt comes due. The payoffs are
+shown in 
+Figure 30.1
+.
+Figure 30.1
+ Payoff on Equity as Option on a Firm
+IMPORTANCE OF LIMITED LIABILITY
+The argument that equity is a call option holds only if equity has limited liability—that is, the most that an equity investor can
+lose is what he or she has invested in a firm. This is clearly the case in publicly traded companies. In private companies,
+however, the owners often have unlimited liability. If these firms get into financial trouble and are unable to make their debt
+payments, the owner’s personal assets can be put at risk. You should not value equity as a call option in these cases.
+ILLUSTRATION 30.1: 
+Valuing Equity as an Option
+Assume that you are valuing the equity in a firm whose assets are currently valued at $100 million; the standard deviation in
+this asset value is 40%. The face value of debt is $80 million (it is zero coupon debt with 10 years left to maturity). The 10-
+year Treasury bond rate is 10%. We can value equity as a call option on the firm, using the following inputs for the option
+pricing model:
+Based on these inputs, the Black-Scholes model provides the following value for the call:
+Since the call value represents the value of equity and the firm value is $100 million, the estimated value of the outstanding
+debt is:
+The debt is a 10-year zero coupon bond, and the market interest rate on the bond is:
+Thus the default spread on this bond should be 2.77%.

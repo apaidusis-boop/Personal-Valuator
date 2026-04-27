@@ -1,0 +1,51 @@
+mmerce, risk management, financial engineering, valuation,
+and financial instrument analysis, as well as much more.
+For a list of available titles, please visit our Web site at 
+www.WileyFinance.com
+.
+
+Copyright © 2012 by Aswath Damodaran. All rights reserved.
+Published by John Wiley & Sons, Inc., Hoboken, New Jersey. 
+Published simultaneously in Canada.
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form
+or by any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as
+permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior
+written permission of the Publisher, or authorization through payment of the appropriate per-copy fee
+to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400,
+fax (978) 646-8600, or on the Web at 
+www.copyright.com
+. Requests to the Publisher for permission
+should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street,
+Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at
+http://www.wiley.com/go/permissions
+.
+Limit of Liability/Disclaimer of Warranty: While the publisher and author have used their best efforts
+in preparing this book, they make no representations or warranties with respect to the accuracy or
+completeness of the contents of this book and specifically disclaim any implied warranties of
+merchantability or fitness for a particular purpose. No warranty may be created or extended by sales
+representatives or written sales materials. The advice and strategies contained herein may not be
+suitable for your situation. You should consult with a professional where appropriate. Neither the
+publisher nor author shall be liable for any loss of profit or any other commercial damages, including
+but not limited to special, incidental, consequential, or other damages.
+For general information on our other products and services or for technical support, please contact
+our Customer Care Department within the United States at (800) 762-2974, outside the United States
+at (317) 572-3993 or fax (317) 572-4002.
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in print
+may not be available in electronic books. For more information about Wiley products, visit our web
+site at 
+www.wiley.com
+.
+Library of Congress Cataloging-in-Publication Data:
+Damodaran, Aswath. 
+Investment valuation : tools and techniques for determining the value of any asset / Aswath
+Damodaran.—3rd ed. 
+p. cm.—(Wiley finance series) 
+Includes bibliographical references and index. 
+ISBN 978-1-118-01152-2 (cloth); ISBN 978-1-118-20654-6 (ebk); 
+ISBN 978-1-118-20655-3 (ebk); ISBN 978-1-118-20656-0 (ebk) 
+ISBN 978-1-118-13073-5 (paper); ISBN 978-1-118-20657-7 (ebk); 
+ISBN 978-1-118-20658-4 (ebk); ISBN 978-1-118-20659-1 (ebk) 
+1.Corporations—Valuation—Mathematical models. I. Title. 
+HG4028.V3 D353 2012 
+658.15—dc23 
+2011052858

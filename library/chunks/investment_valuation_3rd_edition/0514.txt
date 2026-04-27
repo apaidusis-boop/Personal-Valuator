@@ -1,0 +1,27 @@
+es. Consequently, the effect of
+changes in the growth rate on the present value tends to be smaller.
+There is a possible link between this finding and how markets react to earnings surprises from high
+
+growth firms. When a firm reports earnings that are significantly higher than expected (a positive
+surprise) or lower than expected (a negative surprise), investors' perceptions of the expected growth
+rate for this firm can change concurrently, leading to a value effect. You would expect to see much
+greater price reactions for a given earnings surprise, positive or negative, in a low-interest-rate
+environment than you would in a high-interest-rate environment.
+PE Ratios and Risk
+The PE ratio is a function of the perceived risk of a firm, and the effect shows up in the cost of equity.
+A firm with a higher cost of equity will trade at a lower multiple of earnings than a similar firm with
+a lower cost of equity.
+Again, the effect of higher risk on PE ratios can be seen using the firm in Illustration 18.1. Recall
+that the firm, which has an expected growth rate of 25 percent for the next five years and 8 percent
+thereafter, has an estimated PE ratio of 28.75, if its beta is assumed to be 1.
+If you assume that the beta is 1.5, the cost of equity increases to 14.25 percent, leading to a PE ratio
+of 14.87:
+The higher cost of equity reduces the value created by expected growth.
+In 
+Figure 18.4
+, you can see the impact of changing the beta on the price earnings ratio for four high
+growth scenarios—8 percent, 15 percent, 20 percent, and 25 percent for the next five years.
+Figure 18.4
+ PE Ratios and Beta: Growth Rate Scenarios
+As the beta increases, the PE ratio decreases in all four scenarios. However, the difference
+between the PE ratios across the four growth classes is less when the beta is very high, and increases

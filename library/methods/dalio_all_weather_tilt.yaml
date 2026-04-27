@@ -1,0 +1,60 @@
+---
+id: dalio_all_weather_tilt
+name: Dalio All Weather — Regime Tilt
+book: Principles for Navigating Big Debt Crises (Dalio, 2018) + The Changing World Order (2021)
+horizon: medium            # 3-12 months re-eval
+direction: TILT            # overlay, não directional trade
+derived_from: seed
+
+framework: |
+  Four economic environments based on growth (+/-) and inflation (+/-):
+    rising_growth_falling_inflation → equities + riskier credits
+    rising_growth_rising_inflation  → commodities + inflation-linked
+    falling_growth_falling_inflation → nominal bonds + gold
+    falling_growth_rising_inflation  → gold + defensive equities
+
+rules:
+  - id: growth_signal
+    description: 6m trend of industrial production / PMI / employment
+    check: "use GROWTH_COMPOSITE from FRED (INDPRO, UNRATE inverted, PMI)"
+  - id: inflation_signal
+    description: CPI YoY vs 12m MA
+    check: "CPI_YoY > CPI_YoY_12m_MA → rising"
+
+tilts:
+  rising_growth_falling_inflation:
+    equities: +5
+    commodities: 0
+    long_bonds: -3
+    gold: -2
+  rising_growth_rising_inflation:
+    equities: 0
+    commodities: +5
+    long_bonds: -5
+    gold: +3
+  falling_growth_falling_inflation:
+    equities: -5
+    commodities: -3
+    long_bonds: +5
+    gold: +3
+  falling_growth_rising_inflation:
+    equities: -5
+    commodities: +3
+    long_bonds: -5
+    gold: +7
+
+signal_generation:
+  horizon_days: 90
+  re_eval_monthly: true
+  output: "tilt JSON with +/- weights per asset class"
+
+caveats:
+  - "overlay não é timing signal standalone — coexiste com Graham/Buffett picks"
+  - "empirical: regime calls têm false-positive rate 30% em 2020-2024"
+  - "paper trade the tilts for 6m minimum before adjusting real allocation"
+  - "currency hedging is SEPARATE decision — não incluir neste método"
+
+fits_with:
+  - analytics/regime.py (já classifica BR+US)
+  - SKL_openbb (para macro data feeds)
+  - perpetuum_method_discovery (challenges assumptions quarterly)

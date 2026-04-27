@@ -1,0 +1,44 @@
+ting
+standards, very difficult. Even with the same accounting standards, the fact that some firms use
+different accounting rules (on depreciation and expensing) for reporting purposes and tax purposes
+
+and others do not can throw off comparisons of earnings multiples.
+1
+Descriptional Tests
+When using a multiple, it is always useful to have a sense of what a high value, a low value, or a
+typical value for that multiple is in the market. In other words, knowing the distributional
+characteristics of a multiple is a key part of using that multiple to identify under- or overvalued firms.
+In addition, you need to understand the effects of outliers on averages and unearth any biases in these
+values introduced in the process of estimating multiples.
+Distributional Characteristics
+Many analysts who use multiples have a sector focus and have a sense of how different firms in their
+sector rank on specific multiples. What is often lacking, however, is a sense of how the multiple is
+distributed across the entire market. Why, you might ask, should a software analyst care about price-
+earnings ratios of utility stocks? Because both software and utility stocks are competing for the same
+investment dollar, they have to, in a sense, play by the same rules. Furthermore, an awareness of how
+multiples vary across sectors can be very useful in detecting when the sector you are analyzing is
+over- or undervalued.
+What are the distributional characteristics that matter? The standard statistics—the average and
+standard deviation—are where you should start, but they represent the beginning of the exploration.
+The fact that multiples such as the price-earnings ratio can never be less than zero and are
+unconstrained in terms of a maximum results in distributions for these multiples that are skewed
+toward the positive values. Consequently, the average values for these multiples will be higher than
+median values,
+2
+ and the latter are much more representative of the typical firm in the group. While the
+maximum and minimum values are usually of limited use, the percentile values (10th percentile, 25th
+percentile, 75th percentile, 90th percentile, and so on) can be useful in judging what is a high or low
+value for the multiple in the group.
+Outliers and Averages
+As noted earlier, multiples are unconstrained on the upper end, and firms can have price-earnings
+ratios of 500 or 2,000 or even 10,000. This can occur not only because of high stock prices but also
+because earnings at firms can sometimes drop to a fraction of a cent. These outliers will result in
+averages that are not representative of the sample. In most cases, services that compute and report
+average values for multiples either throw out these outliers when computing the averages or constrain
+the multiples to be less than or equal to a fixed number. For instance, any firm that has a price-
+earnings ratio greater than 500 may be given a price-earnings ratio of 500.
+When using averages obtained from a service, it is important that you know how the service dealt
+with outliers in computing the averages. In fact, the sensitivity of the estimated average to outliers is
+another reason for looking at the median values for multiples.
+Biases in Estimating Multiples
+With every multiple, there are firms for which the multiple cannot be computed. Consider again the

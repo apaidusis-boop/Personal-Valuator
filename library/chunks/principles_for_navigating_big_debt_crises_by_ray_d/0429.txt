@@ -1,0 +1,43 @@
+details described in Part 2. I hope seeing the cases at this level helps you more easily see the principle-level commonalities 
+and differences explained in the “Archetypal Big Debt Crisis” template. 
+
+Principles For Navigating Big Debt Crises
+11
+United States 1926–1936 Case Auto-Summary
+As shown in the charts to the right, the United States experi -
+enced a classic deflationary deleveraging cycle between 1926 
+and 1936.
+The Bubble Phase
+Between 1926 and 1929, the United States experienced a bubble 
+that was driven by a self-reinforcing cycle of rising debt, strong 
+equity returns, and strong growth. By the bubble’s end, debts had 
+reached a pre-crisis peak of 125% of GDP. In this case, the debt 
+was in the United States’s domestic currency, and the majority 
+was owned domestically, too. Aided by that rising debt, growth 
+was strong (at 3%), while levels of economic activity were high 
+(the GDP gap peaked at 13%). Furthermore, strong asset returns 
+(equities averaged 31% annualized returns over the bubble period) 
+encouraged more borrowing and helped to stimulate growth. 
+During this bubble period, policy makers initiated a moderate 
+tightening (with short rates rising around 250 bps). Taken 
+together, these bubble pressures, combined with tightening 
+money and credit, created an unsustainable situation.
+The Depression Phase 
+Eventually the dynamic turned, producing a self-reinforcing 
+bust and an “ugly deleveraging,” which ran from 1929 to 1933. 
+High debt levels left the United States vulnerable to a shock—
+which came in the form of the 1929 stock market crash. The 
+United States suffered from self-reinforcing declines in GDP 
+(falling by 26%), in stock prices (falling by 84%) and in home 
+prices (falling by 24%). Unemployment rates increased by 23%. 
+The United States’s financial institutions also came under 
+considerable pressure. As shown in the attribution chart to the 
+right, even though the United States needed a deleveraging, its 
+debt as a % GDP went up by 98% (26% annualized), driven by 
+a mix of falling real incomes, deflation, and interest payments 
+financed with new debt. 
+* The first two charts show gauges which measure bubble/depression conditions and tightness/easiness of money and credit� For each gauge, the difference from 
+zero conveys the extent of the bubble while the crossing above/below zero represents the shifting into or out of the bubble�
+The gauges below are composed from a compendium of stats 
+shown in the chart deck that follows. Note these are meant to 
+be rough measures.

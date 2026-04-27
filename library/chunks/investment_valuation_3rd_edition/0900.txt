@@ -1,0 +1,31 @@
+al tax rate (to compute the after-tax cost of debt).
+In the second, we change only the effective tax rate but leave the marginal tax rate at 30%.
+Figure 31.3
+ Tax Rate and Operating Asset Value—Telesp
+
+The value of Telesp increases as tax rates decrease under both scenarios. However, the increase in value is greater if
+Telesp reduces its effective tax rate while keeping its marginal tax rate intact. That allows Telesp to increase its after-tax
+cash flows while keeping the tax benefits of debt unaffected.
+Reduce Net Capital Expenditures on Existing Investments
+The net capital expenditures is the difference between capital expenditures and depreciation, and, as
+a cash outflow, it reduces the free cash flow to the firm. Part of the net capital expenditure is designed
+to generate future growth, but part is to maintain existing assets. If a firm can reduce its net capital
+expenditures on existing assets, it will increase value. During short periods, the capital expenditures
+can even be lower than depreciation for those assets, creating a cash inflow from net capital
+expenditures.
+There is generally a trade-off between capital maintenance expenditures and the life of existing
+assets. A firm that does not make any capital expenditures on its assets will generate much higher
+after-tax cash flows from these assets, but the assets will have a far shorter life. At the other extreme,
+a firm that reinvests all the cash flows it gets from depreciation into capital maintenance may be able
+to extend the life of its assets in place significantly. Firms often ignore this trade-off when they
+embark on cost cutting and reduce or eliminate capital maintenance expenditures. Although these
+actions increase current cash flows from existing assets, the firm might actually lose value as it
+depletes these assets at a faster rate.
+Reduce Noncash Working Capital
+The noncash working capital in a firm is the difference between noncash current assets, generally
+inventory and accounts receivable, and the nondebt portion of current liabilities, generally accounts
+payable. Money invested in noncash working capital is tied up and cannot be used elsewhere; thus,
+increases in noncash working capital are cash outflows, whereas decreases are cash inflows. For
+retailers and service firms, noncash working capital may be a much larger drain on cash flows than
+traditional capital expenditures.
+The path to value creation seems simple. Reducing noncash working capital as a percent of

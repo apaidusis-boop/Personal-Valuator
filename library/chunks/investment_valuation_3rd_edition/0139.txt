@@ -1,0 +1,27 @@
+on the one hand and high returns on the other. This insight
+would make us more cautious about adopting a strategy of buying low-PE stocks in the first place.
+SOME LESSER SINS THAT CAN BE A PROBLEM
+1.
+
+Survival bias.
+ Most researchers start with an existing universe of publicly traded companies
+and work back through time to test investment strategies. This can create a subtle bias since it
+automatically eliminates firms that failed during the period, with obvious negative consequences
+for returns. If the investment scheme is particularly susceptible to picking firms that have high
+bankruptcy risk, this may lead to an overstatement of returns on the scheme. 
+For example, assume that the investment scheme recommends investing in stocks that have very
+
+negative earnings, using the argument that these stocks are the most likely to benefit from a
+turnaround. Some of the firms in this portfolio will go bankrupt, and a failure to consider these
+firms will overstate the returns from this strategy.
+2.
+
+Not allowing for transaction costs.
+ Some investment schemes are more expensive than others
+because of transaction costs—execution fees, bid-ask spreads, and price impact. A complete test
+will take these into account before it passes judgment on the strategy. This is easier said than
+done, because different investors have different transaction costs, and it is unclear which
+investor’s trading cost schedule should be used in the test. Most researchers who ignore
+transaction costs argue that individual investors can decide for themselves, given their transaction
+costs, whether the excess returns justify the investment strategy.
+3.

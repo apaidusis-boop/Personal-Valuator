@@ -1,0 +1,39 @@
+at a
+price-earnings ratio of 10 when the rest of the sector trades at 25 times earnings is clearly
+undervalued and that the correction toward the sector average should occur sooner rather than later.
+
+Proponents of discounted cash flow valuation would counter that this is small consolation if the entire
+sector is overpriced by 50 percent.
+Categorizing Relative Valuation Models
+Analysts and investors are endlessly inventive when it comes to using relative valuation. Some
+compare multiples across companies, while other compare the multiple of a company to the multiples
+it used to trade at in the past. While most relative valuations are based on the pricing of comparable
+assets at the same time, there are some relative valuations that are based on fundamentals.
+Fundamentals versus Comparables
+In discounted cash flow valuation, the value of a firm is determined by its expected cash flows. Other
+things remaining equal, higher cash flows, lower risk, and higher growth should yield higher value.
+Some analysts who use multiples go back to these discounted cash flow models to extract multiples.
+Other analysts compare multiples across firms or time and make explicit or implicit assumptions
+about how firms are similar or vary on fundamentals.
+Using Fundamentals
+The first approach relates multiples to fundamentals about the firm being valued—growth rates in
+earnings and cash flows, reinvestment and risk. This approach to estimating multiples is equivalent to
+using discounted cash flow models, requiring the same information and yielding the same results. Its
+primary advantage is that it shows the relationship between multiples and firm characteristics, and
+allows us to explore how multiples change as these characteristics change. For instance, what will be
+the effect of changing profit margins on the price-sales ratio? What will happen to price-earnings
+ratios as growth rates decrease? What is the relationship between price–book value ratios and return
+on equity?
+Using Comparables
+The more common approach to using multiples is to compare how a firm is valued with how similar
+firms are priced by the market or, in some cases, with how the firm was valued in prior periods. As
+we see in the later chapters, finding similar and comparable firms is often a challenge, and frequently
+we have to accept firms that are different from the firm being valued on one dimension or the other.
+When this is the case, we have to either explicitly or implicitly control for differences across firms on
+growth, risk, and cash flow measures. In practice, controlling for these variables can range from the
+naive (using industry averages) to the sophisticated (multivariate regression models where the
+relevant variables are identified and controlled for).
+Cross-Sectional versus Time Series Comparisons
+In most cases, analysts price stocks on a relative basis, by comparing the multiples they are trading at
+to the multiples at which other firms in the same business are trading at contemporaneously. In some
+cases, however, especially for mature firms with long histories, the comparison is done across time.

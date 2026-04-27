@@ -1,0 +1,74 @@
+---
+id: us_buffett_bank_screen
+name: US Buffett Bank Screen (post-GFC)
+book: Berkshire shareholder letters (1989-2024) + JPM/BAC/GS/WFC 10-Ks
+chapter: synthesis
+horizon: long              # >180d, ideal hold através de rate cycle completo
+direction: LONG
+derived_from: seed         # seeded manually 2026-04-26 from BR_Banks template + Buffett bank holdings analysis
+                           # extract_methods.py pode enriquecer quando user adicionar Buffett letters PDF
+
+# US banks têm dinâmica diferente de operacional E de bancos BR.
+# ROTCE > ROE (intangíveis grandes pós-aquisições).
+# P/TBV > P/B (goodwill sobrestima book).
+# CET1 substitui Basel ratio.
+# Streak pós-2009 — quase todos cortaram em 2009.
+
+rules:
+  - id: pe_mid_cycle
+    description: P/E ≤ 12 (mid-cycle típico de top-tier US bank)
+    check: pe <= 12
+
+  - id: ptbv_fortress
+    description: P/TBV ≤ 1.8 (Tangible Book; P/B raw sobrestima por causa de goodwill)
+    check: p_tbv <= 1.8
+
+  - id: rotce_quality
+    description: ROTCE ≥ 15% (Return on Tangible Common Equity; ROE ≥ 12% como fallback)
+    check: rotce >= 0.15 OR roe >= 0.12
+
+  - id: dividend_yield
+    description: DY ≥ 2.5% (Buffett US standard; bancos US pagam menos que BR porque buyback domina)
+    check: dy >= 0.025
+
+  - id: cet1_capital
+    description: CET1 ≥ 11% (Basel III mínimo regulatório + buffer; GSIB surcharge varia)
+    check: cet1 >= 0.11
+
+  - id: efficiency
+    description: Efficiency ratio ≤ 60% (cost-to-income; lower is better)
+    check: efficiency_ratio <= 0.60
+
+  - id: post_gfc_streak
+    description: Dividend streak pós-2009 ≥ 10y (GFC reset clock — Aristocrat strict não aplica)
+    check: dividend_streak_years_post_2009 >= 10
+
+entry_trigger: all rules pass (preferencialmente em curve-positivada + cut cycle inicial)
+exit_trigger: rule break por 2 quarters consecutivos OR P/TBV > 2.5x (overvaluation acima do quality premium)
+
+expected_move:
+  target_pct: 80            # over 5y (compounder + DRIP)
+  stop_loss_pct: -25        # vs entry (banco é cíclico — drawdown -30% é normal em recession)
+
+caveats:
+  - "Aristocrat strict (25y consecutive raises) excluiria toda a Big 4 US — usar streak pós-2009 honesto"
+  - "Trading-heavy banks (GS, MS) têm ROE volátil — média 5y é mais informativa que TTM"
+  - "OCI hidden losses (HTM bonds) re-emergem se Fed re-hike — verificar accumulated other comprehensive income"
+  - "CRE concentration > 25% loan book = NYCB-style fragility, vetar"
+  - "Buyback discipline matters: recompras a P/TBV > 2x destroem valor (verifica diluição esperada)"
+
+watchlist_seed_2026:
+  - ticker: JPM
+    note: "fortress BS, ROTCE 21%, mas $300+ paga premium franchise. Entry zone <$240"
+  - ticker: BAC
+    note: "P/TBV 1.4, ROTCE 14%, sensível a rates (HTM losses). Cheaper alternative"
+  - ticker: USB
+    note: "super-regional, P/TBV 1.6, ROTCE 15%, DY 4.5% — best fit for DRIP"
+  - ticker: GS
+    note: "IB cíclico — comprar em down-cycle (ROE ~10%), vender em up-cycle (ROE >18%)"
+  - ticker: WFC
+    note: "asset cap removed 2025 — unlock story; consensus underweight"
+
+related_methods:
+  - graham_defensive
+  - dalio_all_weather_tilt

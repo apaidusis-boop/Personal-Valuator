@@ -1,0 +1,53 @@
+lion) and equity ($2,149 million) invested at the end of the previous year:
+We assumed that the firm would maintain this return on capital forever and grow 10% a year, in real terms, for the next five
+
+years and 3% a year in real terms in perpetuity after that. The following table summarizes projections of free cash flows to
+the firm for Aracruz for the next five years and for the first year of stable growth (six years from now):
+Note that the reinvestment rate each year is computed based on the expected growth rate and return on capital:
+As expected growth declines in year 6 (the terminal year), the reinvestment rate also declines.
+The cost of capital was estimated in real terms, using a bottom-up beta of 0.70 estimated by looking at paper and pulp firms
+and an additional risk premium for exposure to Brazilian country risk—10.24% for the next five years and 5% after five
+years. This is in addition to the mature market premium of 4%. We use a real risk-free rate of 4%. To estimate the real cost
+of debt, we assume a pretax real cost of borrowing of 7.5% for Aracruz for both the high-growth and stable-growth periods:
+The current market values of equity (3,749 million BR) and debt (1,395 million BR) were used to compute a market debt to
+capital ratio of 27.11%, and the costs of capital for both periods are shown in the following table:
+High Growth
+Stable Growth
+Beta
+0.7
+0.7
+Risk-free rate
+4%
+4%
+Mature market premium
+4%
+4%
+Country premium
+10.24%
+5%
+Cost of equity
+4% + 0.7(4% + 10.24%) = 13.97%
+4% + 0.7(4% + 5%) = 10.30%
+After-tax cost of debt
+5.03%
+5.03%
+Debt ratio
+27.11%
+27.11%
+Cost of capital
+11.54%
+8.87%
+The terminal value is first estimated using the terminal year's cash flows estimated in the table and the perpetual growth rate
+of 3%:
+The value of the operating assets of the firm can be computed today as the present value of the cash flows for the next five
+years and the present value of the terminal value, using the high-growth period cost of capital as the discount rate:
+We added back the value of cash and marketable securities (849 million BR) and subtracted outstanding debt (1,395 million
+BR) to estimate a value of equity:
+This would suggest that the firm was undervalued at its then prevaling market cap of 2,149 million BR.
+ILLUSTRATION 22.5: Valuing a Commodity Company with
+commodity price swings: Exxon Mobil in March 2009
+Exxon Mobil may be the largest of the oil companies, but it is as dependent upon oil prices as the rest of the companies in its
+sector. In following figure, we graph Exxon's operating income as a function of the average oil price each year from 1985 to
+2008.
+The operating income clearly increases (decreases) as the oil price increases (decreases). We regressed the operating
+income against the oil price per barrel over the period and obtained the following:

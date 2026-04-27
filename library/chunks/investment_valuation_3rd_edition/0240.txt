@@ -1,0 +1,28 @@
+mpanies (generally large companies with significant foreign
+operations) to which, rather than add the entire default spread for the country to the cost of debt, we may add only a portion.
+ratings.xls:
+
+This spreadsheet allows you to estimate the synthetic rating and cost of debt for any firm.
+Calculating the Cost of Hybrid Securities
+While debt and equity represent the fundamental financing choices available for firms, there are some
+types of financing that share characteristics with both debt and equity. These are called hybrid
+securities. This section considers how best to estimate the costs of such securities.
+Cost of Preferred Stock
+Preferred stock shares some of the characteristics of debt (the preferred dividend is prespecified at
+the time of the issue and is paid out before the common dividend) and some of the characteristics of
+equity (the preferred dividend is not tax deductible). If preferred stock is viewed as perpetual (as it
+usually is), the cost of preferred stock can be written as follows:
+This approach assumes the dividend is constant in dollar terms forever and that the preferred stock
+has no special features (convertibility, callability, etc.). If such special features exist, they will have
+to be valued separately to estimate the cost of preferred stock. In terms of risk, preferred stock is
+safer than common equity, because preferred dividends are paid before dividends on common equity.
+It is, however, riskier than debt since interest payments are made prior to preferred dividend
+payments. Consequently, on a pretax basis, it should command a higher cost than debt and a lower
+cost than equity.
+ILLUSTRATION 8.13: Calculating the Cost of Preferred
+Stock: Ford in 2011
+In April 2011, Ford Motor Company had preferred stock that paid a dividend of $1.875 annually and traded at $26.475 per
+share. The cost of preferred stock can be estimated as follows:
+At the same time, Ford's cost of equity, using an estimated beta of 1.40, a risk-free rate of 3.5% and an equity risk premium
+of 5%, was 10.5%; its pretax cost of debt, based on its S&P rating of B+, was 8.50%, and its after-tax cost of debt was
+5.10%. Not surprisingly, its preferred stock was less expensive than equity, but much more expensive than debt.

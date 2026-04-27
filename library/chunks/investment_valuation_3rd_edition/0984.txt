@@ -1,0 +1,29 @@
+Contingent claim models can also be used in a variety of scenarios. When you consider the option
+that a firm has to delay making investment decisions, you can value a patent or an undeveloped natural
+
+resource reserve as an option. The option to expand may make young firms with potentially large
+markets trade at a premium on their discounted cash flow values. Finally, equity investors may derive
+value from the option to liquidate troubled firms with substantial debt. (See 
+Figure 34.1
+.)
+Figure 34.1
+ The Choices in Valuation Models
+WHICH APPROACH SHOULD YOU USE?
+The values that you obtain from the four approaches can be very different, and deciding which one to
+use can be a critical step. This judgment, however, will depend on several factors, some of which
+relate to the business being valued but many of which relate to you as the analyst.
+Asset or Business Characteristics
+The approach you use to value a business will depend on how marketable its assets are, whether it
+generates cash flows, and how unique it is in terms of its operations.
+Marketability of Assets
+Liquidation valuation and replacement cost valuation are easiest to do for firms that have assets that
+are separable and marketable. (See 
+Figure 34.2
+.) For instance, you can estimate the liquidation value
+for a real estate company because its properties can be sold individually, and you can estimate the
+value of each property easily. The same can be said about a closed-end mutual fund. At the other
+extreme, consider a brand-name consumer product like Proctor and Gamble. Its assets are not only
+intangible but difficult to separate out. For instance, you cannot separate the razor business easily
+from the shaving cream business, and brand name value is inherent in both businesses.
+Figure 34.2
+ Asset Marketability and Valuation Approaches

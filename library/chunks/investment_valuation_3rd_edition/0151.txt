@@ -1,0 +1,65 @@
+ket reactions than earnings
+announcements that are on time or early.
+Figure 6.8
+ Cumulated Abnormal Returns and Earnings Delay
+Source:
+ Chambers and Penman (1984).
+Investment and Project Announcements
+
+Firms frequently make announcements of their intentions of investing resources in projects and
+research and development. There is evidence that financial markets react to these announcements. The
+question of whether markets have a long-term or short-term perspective can be partially answered by
+looking at these market reactions. If financial markets are as short-term as some of their critics claim,
+they should react negatively to announcements by the firm that it plans to invest in research and
+development. As 
+Table 6.2
+, which looks at market reactions to various investment announcements
+makes clear, the evidence suggests that the market reaction to investment announcements is generally
+positive, albeit discriminating.
+Table 6.2
+ Market Reactions to Investment Announcements
+Source:
+ Chan, Martin, and Kensinger (1990); McConnell and Muscarella (1985).
+Abnormal Returns
+On
+In
+Type of Announcement
+Announcement Day
+Announcement Month
+Joint venture formations
+0.399%
+1.412%
+R&D expenditures
+0.251%
+1.456%
+Product strategies
+0.440%
+–0.35%
+Capital expenditures
+0.290%
+1.499%
+All announcements
+0.355%
+0.984%
+This table excludes the largest investments that most firms make, which are acquisitions of other
+firms. Here the evidence is not so favorable. In about 55 percent of all acquisitions, the stock price of
+the acquiring firm drops on the announcement of the acquisition, reflecting the market’s beliefs that
+firms tend to overpay on acquisitions.
+MARKET ANOMALIES
+Merriam-Webster’s Collegiate Dictionary
+ defines an anomaly as a “deviation from the common
+rule.” Studies of market efficiency have uncovered numerous examples of market behavior that are
+inconsistent with existing models of risk and return and often defy rational explanation. The
+persistence of some of these patterns of behavior suggests that the problem, in at least some of these
+anomalies, lies in the models being used for risk and return rather than in the behavior of financial
+markets. The following section summarizes some of the more widely noticed anomalies in financial
+markets in the United States and elsewhere.
+Anomalies Based on Firm Characteristics
+There are a number of anomalies that have been related to observable firm characteristics, including
+the market value of equity, price-earnings ratios, and price–book value ratios.
+The Small Firm Effect
+Studies such as Banz (1981) and Keim (1983) have consistently found that smaller firms (in terms of
+market value of equity) earn higher returns than larger firms of equivalent risk, where risk is defined
+in terms of the market beta. 
+Figure 6.9
+ summarizes returns for stocks in 10 market value classes for

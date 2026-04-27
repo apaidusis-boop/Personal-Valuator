@@ -1,0 +1,19 @@
+agem é especialmente adequada para empresas de setores cíclicos como o agronegócio, pois evita que o investidor ancore seu *valuation* em um momento pontualmente bom ou ruim do ciclo de *commodities.*
+
+A premissa central é: qual seria o lucro econômico normalizado da SLC Agrícola caso os preços das *commodities,* a produtividade e os custos se mantivessem em patamares sustentáveis? Para responder, projetamos os *unit economics* de cada cultura individualmente, considerando um câmbio de R$ 5,50 por dólar.
+
+### Projeções por cultura
+
+Abaixo, consolidamos as premissas utilizadas para cada uma das culturas da companhia:
+
+*Fonte e elaboração: Suno Research*
+
+As premissas utilizadas são conservadoras e refletem patamares normalizados de produtividade e preço. A soja foi projetada com produtividade de 67 sacas/hectare (em linha com a média histórica) e preço de US$ 11,5/bushel. O algodão em pluma foi projetado a US$ 85 *cents* /lp, com produtividade de 1,8 tonelada/hectare. O milho foi projetado a R$ 65/saca com 129 sacas/hectare. Todas as conversões consideram um câmbio de R$ 5,50/dólar.
+
+A consolidação das quatro linhas de produto resulta numa receita normalizada de R$ 9,4 bilhões e um lucro bruto de próximo de R$ 3,7 bilhões.
+
+A partir disso, temos como resumo:
+
+*Fonte: Suno Research*
+
+Algumas considerações importantes sobre as premissas. As despesas com vendas e administrativas somam R$ 848 milhões, representando 9% da receita — em linha com o histórico recente da companhia, que tem visto uma elevação natural do SG&A à medida que a operação cresce geograficamente. O CapEx de manutenção de R$ 849 milhões é um valor relevante e reflete a intensidade de capital do negócio agrícola de larga escala: manutenção de máquinas, correção de solo, reposição de equipamentos e infraestrutura nas fazendas. O resultado financeiro negativo de R$ 735 milhões embute um endividamento líquido de R$ 5,25 bilhões, patamar acima do histórico e que reflete o ciclo de aquisições recente.

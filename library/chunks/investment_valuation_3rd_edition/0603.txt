@@ -1,0 +1,29 @@
+ly 2000 of Internet retailers are plotted against the net margins
+earned by these firms in the most recent year in 
+Figure 20.5
+.
+Figure 20.5
+ Price-to-Sales Ratios versus Net Margins: Internet Stocks
+
+Here there seems to be almost no relationship between price-to-sales ratios and net margins. This should not be surprising.
+Most Internet firms have negative net income and net margins. The market values of these firms are based not on what they
+earn now but what they are expected to earn in the future, and there is little correlation between current and expected future
+margins.
+Statistical Approaches
+When analyzing price-earnings and price-to-book value ratios, we used regressions to control for
+differences in risk, growth, and payout ratios across firms. We could also use regressions to control
+for differences across firms to analyze revenue multiples. In this section, we begin by applying this
+approach to comparables defined narrowly as firms in the same business, and then expanded to cover
+the entire sector and the market.
+Comparable Firms in the Same Business
+In the last section, we examined firms in the same business looking for mismatches—firms with high
+margins and low revenue multiples were viewed as undervalued. In a simple extension of this
+approach, we could regress revenue multiples against profit margins across firms in a sector:
+These regressions can be used to estimate predicted values for firms in the sample, helping to identify
+undervalued and overvalued firms.
+If the number of firms in the sample is large enough to allow for it, this regression can be extended
+to add other independent variables. For instance, the standard deviation in stock prices or the beta
+can be used as an independent variable to capture differences in risk, and analyst estimates of
+expected growth can control for differences in growth. The regression can also be modified to
+account for nonlinear relationships between revenue multiples and any or all of these variables.
+Can this approach be used for sectors such as the Internet where there seems to be little or no

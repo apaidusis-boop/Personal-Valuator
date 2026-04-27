@@ -1,0 +1,44 @@
+es in the regression to
+make the relationship more linear. For instance, using the ln(growth rate) instead of the growth rate in the regression yields
+much better-behaved residuals.
+Market Regressions
+
+Searching for comparable firms within the sector in which a firm operates is fairly restrictive,
+especially when there are relatively few firms in the sector or when a firm operates in more than one
+sector. Since the definition of a comparable firm is not one that is in the same business but one that
+has the same growth, risk, and cash flow characteristics as the firm being analyzed, you need not
+restrict your choice of comparable firms to those in the same industry. The regression introduced in
+the previous section controls for differences on those variables that you believe cause multiples to
+vary across firms. Based on the variables that determine each multiple, you should be able to regress
+any multiple (PE, EV/EBITDA, PBV) against the variables, using all of the firms in the market in your
+sample. You can then use the market regression to get predicted values for individual companies. A
+company that trades at a PE ratio lower (higher) than the predicted PE from the market regression is
+undervalued (over valued) relative to the market.
+The first advantage of this approach over the subjective comparison across firms in the same sector
+is that it does quantify, based on actual market data, the degree to which higher growth or risk should
+affect the multiples. It is true that these estimates can have error associated with them, but this error is
+a reflection of the reality that many analysts choose not to face when they make subjective judgments.
+Second, by looking at all firms in the market, this approach allows you to make more meaningful
+comparisons of firms that operate in industries with relatively few firms. Third, it allows you to
+examine whether all firms in an industry are under- or overvalued by estimating their values relative
+to other firms in the market.
+RECONCILING RELATIVE AND DISCOUNTED
+CASH FLOW VALUATIONS
+The two approaches to valuation—discounted cash flow valuation and relative valuation—will
+generally yield different estimates of value for the same firm. Furthermore, even within relative
+valuation, you can arrive at different estimates of value, depending on which multiple you use and
+what firms you based the relative valuation on.
+The differences in value between discounted cash flow valuation and relative valuation come from
+different views of market efficiency, or, put more precisely, market inefficiency. In discounted cash
+flow valuation, you assume that markets make mistakes, that they correct these mistakes over time,
+and that these mistakes can often occur across entire sectors or even the entire market. In relative
+valuation, you assume that while markets make mistakes on individual stocks, they are correct on
+average. In other words, when you value Adobe Systems relative to other 
+software companies, you
+are assuming that the market has priced these companies correctly on average even though it might
+have made mistakes in the pricing of each of them individually. Thus, a stock may be overvalued on a
+discounted cash flow basis but undervalued on a relative basis, if the firms used in the relative
+valuation are all overpriced by the market. The reverse would occur,if an entire sector or market
+were underpriced.
+CONCLUSION
+In relative valuation, you estimate the value of an asset by looking at how similar assets are priced.

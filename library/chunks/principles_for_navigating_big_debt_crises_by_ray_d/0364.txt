@@ -1,0 +1,29 @@
+phase on Wednesday when many 
+credit markets stopped working normally as 
+investors around the world frantically moved their 
+money into the safest investments, like Treasury 
+bills.” 
+–New York Times
+
+Part 2: US Debt Crisis and Adjustment (2007–2011)
+150
+GE admitted to regulators that even they were having trouble borrowing in the commercial paper market, which 
+could put them in a cash-flow bind and force them to default. Prime money market funds started to register 
+increasing stress, high redemptions, and losses (we’ll discuss this in more detail a little later). By the end of the 
+day, credit spreads on Morgan Stanley widened to levels greater than those for Lehman on Friday. 
+Throughout the day, regulators scrambled to keep up with AIG’s rapid decline. AIG was one of the largest 
+insurers, with around $1 trillion in assets at peak. Its problems centered around it having issued hundreds of 
+billions of dollars of insurance contracts on bonds (called CDS and CDOs), which required it to pay out if a bond 
+faced losses. Many of these insured bonds were repackaged subprime mortgages, so AIG was exposed to a 
+staggering amount of losses. Since many other financial institutions were counting on these insurance contracts, 
+AIG was systemically important. And it looked to be heading toward failure fast. On Sunday, it had said it would 
+need $40 billion in funding. Now, just a day later, it was suggesting it would need $85 billion. 41 
+$0
+$200
+$400
+$600
+$800
+$1,000
+$1,200
+Sep-07 Dec-07 Mar-08 Jun-08 Sep-08
+AIG Share Price

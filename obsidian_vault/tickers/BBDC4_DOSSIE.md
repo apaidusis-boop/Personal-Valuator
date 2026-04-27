@@ -136,6 +136,8 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

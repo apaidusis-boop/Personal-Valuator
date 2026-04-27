@@ -1,0 +1,53 @@
+model,
+named after its cocreators, Fischer Black and Myron Scholes, allows us to estimate the value of any
+option using a small number of inputs, and has been shown to be robust in valuing many listed
+
+options.
+The Model
+While the derivation of the Black-Scholes model is far too complicated to present here, it is based on
+the idea of creating a portfolio of the underlying asset and the riskless asset with the same cash flows,
+and hence the same cost, as the option being valued. The value of a call option in the Black-Scholes
+model can be written as a function of the five variables:
+S = Current value of the underlying asset
+K = Strike price of the option
+t = Life to expiration of the option
+r = Riskless interest rate corresponding to the life of the option
+σ
+2
+ = Variance in the ln(value) of the underlying asset
+The value of a call is then:
+Note that e
+–rt
+ is the present value factor, and reflects the fact that the exercise price on the call option
+does not have to be paid until expiration, since the model values European options. N(d
+1
+) and N(d
+2
+)
+are probabilities, estimated by using a cumulative standardized normal distribution, and the values of
+d
+1
+ and d
+2
+ obtained for an option. The cumulative distribution is shown in 
+Figure 5.4
+.
+Figure 5.4
+ Cumulative Normal Distribution
+In approximate terms, N(d
+2
+) yields the likelihood that an option will generate positive cash flows
+for its owner at exercise (i.e., that S 
+> K in the case of a call option and that K 
+> S in the case of a put
+option). The portfolio that replicates the call option is created by buying N(d
+1
+) units of the underlying
+asset, and borrowing Ke
+–rt
+ N(d
+2
+). The portfolio will have the same cash flows as the call option, and
+thus the same value as the option. N(d
+1
+), which is the number of units of the underlying asset that are

@@ -1,0 +1,54 @@
+w price-earnings stocks, on average, earn returns in excess of expectations, while high
+price-earnings stocks earn less than expected. This is primarily because lower PE ratio stocks
+have lower risk. 
+
+True ____ False ____
+b.
+ The small firm effect, which refers the positive excess returns earned, on average, by small
+firms, is primarily caused by a few small firms that make very high positive returns. 
+True ____ False ____
+c.
+ Investors generally cannot make money on analyst recommendations, because stock prices are
+not affected by these recommendations. 
+True ____ False ____
+14.
+ You are examining the performance of two mutual funds. AD Value Fund has been in existence
+since January 1, 1988, and invests primarily in stocks with low price-earnings ratios and high
+dividend yields. AD Growth Fund has also been in existence since January 1, 1988, but it invests
+primarily in high-growth stocks, with high PE ratios and low or no dividends. The performance of
+these funds over the past five years is summarized as follows:
+The average risk-free rate during the period was 6%. The current risk-free rate is 3%.
+a.
+ How well or badly did these funds perform after adjusting for risk?
+b.
+ Assume that the front-end load on each of these funds is 5% (i.e., if you put $1,000 in each of
+these funds today, you would only be investing $950 after the initial commission). Assume also
+that the excess returns you have calculated in part (a) will continue into the future and that you
+choose to invest in the fund that outperformed the market. How many years would you have to
+hold this fund to break even?
+1
+ Since returns are positively skewed—that is, large positive returns are more likely than large
+negative returns (you cannot lose more than 100% on a stock)—less than half of all investors will
+probably beat the market.
+2
+ One of the enduring pieces of evidence against market efficiency lies in the performance records
+posted by many of the investors who learned their lessons from Benjamin Graham in the 1950s. No
+probability statistics could ever explain the consistency and superiority of their records.
+3
+ In most financial transactions, the announcement date tends to precede the event date by several
+days and, sometimes, weeks.
+4
+ The standard levels of significance for t statistics are:
+Level
+One-Tailed
+Two-Tailed
+1%
+2.33
+2.55
+5%
+1.66
+1.96
+5
+ The t statistics are marginally significant at the 5% level.
+6
+ Though there are practicial limits on how big the universe can be, care should be taken to make

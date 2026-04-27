@@ -1,0 +1,35 @@
+for
+Boeing, using the same period as our regression (January 1996 to December 2000).
+Figure 8.2
+ Beta Estimate for Boeing 
+Copyright 2001 Bloomberg LP. Reprinted with permission. All rights reserved.
+
+While the time period used is identical to the one used in our earlier regression, there are subtle
+differences between this regression and the one in 
+Figure 8.1
+. First, Bloomberg uses price
+appreciation in the stock and the market index in estimating betas and ignores dividends.
+4
+ The fact that
+dividends are ignored does not make much difference for a company like Boeing, but it could make a
+difference for a company that either pays no dividends or pays significantly higher dividends than the
+market. This explains the mild differences in the intercept (0.50% versus 0.54%) and the beta (0.57
+versus 0.56).
+Second, Bloomberg also computes what it calls an adjusted beta, which is estimated as follows:
+These weights (0.67 and 0.33) do not vary across stocks, and this process pushes all estimated betas
+toward 1. Most services employ similar procedures to adjust betas toward 1. In doing so, they are
+drawing on empirical evidence that suggests that the betas for most companies, over time, tend to
+move toward the average beta, which is 1. This may be explained by the fact that firms get more
+diversified in their product mix and client base as they get larger. While we agree with the notion that
+betas move toward 1 over time, the weighting process used by most services strikes us as arbitrary
+and not particularly useful.
+Estimation Choices for Beta Estimation
+There are three decisions that must be made in setting up the regression described earlier. The first
+concerns the length of the estimation period. Most estimates of betas, including those by Value Line
+and Standard & Poor's, use five years of data, while Bloomberg uses two years of data. The trade-off
+is simple: A longer estimation period provides more data, but the firm itself might have changed in its
+risk characteristics over the time period. Boeing, during the period of our analysis, acquired both
+Rockwell and McDonnell Douglas, changing its business mix and its basic risk characteristics.
+The second estimation issue relates to the return interval. Returns on stocks are available on an
+annual, a monthly, a weekly, a daily, and even an intraday basis. Using daily or intraday returns
+increases the number of observations in the regression, but it exposes the estimation process to a

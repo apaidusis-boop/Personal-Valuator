@@ -1,0 +1,81 @@
+nce
+ 12(1): 100–112.
+Bruner, R. F., K. M. Eades, R. S. Harris, and R.C. Higgins. 1998. Best practices in estimating the
+cost of capital: Survey and synthesis. 
+Financial Practice and Education
+ 14–28.
+
+Chan, K. C., G. A. Karolyi, and R. M. Stulz. 1992. Global financial markets and the risk premium on
+U.S. equity. 
+Journal of Financial Economics
+ 32:132–167.
+Damodaran, A. 1999. 
+Estimating the equity risk premium
+. Working paper.
+www.stern.nyu.edu/~adamodar/New_Home_Page/papers.html
+.
+Dimson, Marsh, and Staunton 2010
+Elton, E., M. J. Gruber, and J. Mei. 1994. Cost of capital using arbitrage pricing theory: A case study
+of nine New York utilities. 
+Financial Markets, Institutions and Instruments
+ 3:46–73.
+Fama, E. F., and K. R. French. 1988. Permanent and temporary components of stock prices. 
+Journal
+of Political Economy
+ 96:246–273.
+Godfrey, S., and R. Espinosa. 1996. A practical approach to calculating the cost of equity for
+investments in emerging markets. 
+Journal of Applied Corporate Finance
+ 9(3):80–81.
+Ibbotson, R. G., and G. P. Brinson. 1993. 
+Global investing
+. New York: McGraw-Hill.
+Indro, D. C., and W. Y. Lee. 1997. Biases in arithmetic and geometric averages as estimates of long-
+run expected returns and risk premium. 
+Financial Management
+ 26:81–90.
+Pettit, J. 1999. Corporate capital costs: A practitioner's guide. 
+Journal of Applied Corporate
+Finance
+ 12(1):113–120.
+Rosenberg, B., and V. Marathe. 1979. Tests of capital asset pricing hypotheses. 
+Research in Finance
+1:115–124.
+Siegel, J. 
+Stocks for the Very Long Run: The Definitive Guide to Investment Strategies 
+(New York,
+McGraw-Hill, 2007).
+Stocks, bonds, bills and inflation.
+ 1999. Chicago: Ibbotson Associates.
+Stulz, R. M. 1999. Globalization, corporate finance, and the cost of capital. 
+Journal of Applied
+Corporate Finance
+ 12(1).
+Chapter 8 Estimating Risk Parameters and Costs of Financing
+Blume, M. 1979. Betas and their regression tendencies: Some further evidence. 
+Journal of Finance
+34(1):265–267.
+Brown, S. J., and J. B. Warner. 1980. Measuring security price performance. 
+Journal of Financial
+Economics
+ 8(3):205–258.
+Brown, S. J., and J. B. Warner. 1985. Using daily stock returns: The case of event studies. 
+Journal of
+Financial Economics
+ 14(1):3–31.
+Bruner, R. F., K. M. Eades, R. S. Harris, and R. C. Higgins. 1998. Best practices in estimating the
+cost of capital: Survey and synthesis.
+ Financial Practice and Education
+ 14–28.
+Dimson, E. 1979. Risk measurement when shares are subject to infrequent trading. 
+Journal of
+Financial Economics
+ 7(2):197–226.
+Hamada, R. S. 1972. The effect of the firm's capital structure on the systematic risk of common
+stocks. 
+Journal of Finance
+ 27:435–452.
+Scholes, M., and J. T. Williams. 1977. Estimating betas from nonsynchronous data. 
+Journal of
+Financial Economics
+ 5(3):309–327.

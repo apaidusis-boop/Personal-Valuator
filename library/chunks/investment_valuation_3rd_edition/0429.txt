@@ -1,0 +1,45 @@
+e restated numbers to estimate the value of the firm and equity per share. The valuation, where we assume 10
+years of high growth, is summarized in 
+Figure 15.1
+.
+Figure 15.1
+ Valuing Amgen—March 2009
+
+The transition period, as in the prior chapter, exists primarily so as to allow us to adjust our high growth inputs to stable
+growth levels. The cost of capital for instance, which is 11.23% for the next five years, drops in linear increments to the
+stable growth cost of capital of 8.23%; the compounded cost of capital is therefore used to discount cash flows in those
+years. Our estimate of value of equity per share is $67.16 a share, well above the prevailing stock price of $47.47 in March
+2009.
+An intriguing question is how the capitalization of R&D expenses affected value. To investigate, we compare the valuation
+fundamentals for Amgen, with conventional accounting, and with R&D treated as capital expenses in the following table:
+Valuation Fundamentals—With and Without R&D Capitalization
+Conventional
+Capitalized R&D
+After-tax ROC
+20.44%
+17.17%
+Reinvestment rate
+14.47%
+34.13%
+Growth rate
+2.96%
+5.86%
+Value per share
+$48.24
+$67.17
+We then revalue the firm, using both sets of fundamentals. As the table indicates, the value per share would have been
+$48.24 if we had used conventional accounting numbers. Clearly, capitalization matters, and the degree to which it matters
+will vary across firms. In general, the effect will be negative for firms that invest large amounts in R&D, with little to show
+(yet) in terms of earnings and cash flows in subsequent periods. It will be positive for firms that reinvest large amounts in
+R&D and report large increases in earnings in subsequent periods. In the case of Amgen, capitalizing R&D has a positive
+effect on value per share, because of its track record of successful R&D.
+ILLUSTRATION 15.4: Valuing an Emerging Market
+Company with Developed Market Exposure: Gerdau Steel
+(Brazil) in March 2009
+Gerdau Steel is a Brazilian steel company that derived about 51% of its revenues in Brazil in 2008 and the rest in North
+America. We chose to value Gerdau Steel in U.S. dollars, partly because of the difficulties we face in estimating risk-free
+rates and risk premiums in Brazilian reais (R$).
+To estimate the cost of capital in U.S. dollar terms, we start with the U.S. Treasury bond rate of 3%. In March 2009, the
+equity risk premium that we were using for mature markets (like the United States) was 6% and the additional country risk
+premium for Brazil was 4.75%. For Gerdau Steel, we use the average unlevered beta of 1.01 for steel companies listed
+globally, using the argument that steel is a commodity that is bought and sold on a world market. Since Gerdau has a very

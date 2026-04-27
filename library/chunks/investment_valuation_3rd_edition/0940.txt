@@ -1,0 +1,43 @@
+over time. This may be a reasonable assumption for investments in mature sectors, but will understate
+project returns if there is real growth. In these cases, the CFROI approach has to be modified to
+
+allow for growth.
+The second difference is that the internal rate of return on a project or asset is based on incremental
+future cash flows. It does not consider cash flows that have occurred already, since these are viewed
+as “sunk.” The CFROI, on the other hand, tries to reconstruct a project or asset, using both cash flows
+that have occurred already and cash flows that are yet to occur. To illustrate, consider the project
+described in the previous section. At the time of the original investment, assuming that the inputs for
+initial investment, after-tax cash flows, and salvage value are unchanged, both the internal rate of
+return and the CFROI of this project would have been 11.71 percent. The CFROI is, however, being
+computed three years into the project life and remains at 11.71 percent since none of the original
+inputs have changed. The IRR of this project will change, though. It will now be based on the current
+market value of the asset, the expected cash flows over the remaining life of the asset, and a life of
+seven years. Thus, if the market value of the asset has increased to $2.5 billion, the internal rate of
+return on this project would be computed to be only 6.80 percent.
+Given the real cost of capital of 8 percent, this would mean that the CFROI is greater than the cost
+of capital, while the internal rate of return is lower. Why is there a difference between the two
+measures, and what are the implications? The reason for the difference is that IRR is based entirely
+on expected future cash flows, whereas the CFROI is not. A CFROI that exceeds the cost of capital is
+viewed as a sign that a firm is deploying its assets well. If the IRR is less than the cost of capital, that
+interpretation is false, because the owners of the firm would be better off selling the asset and getting
+the market value for it rather than continuing its operation.
+To link the cash flow return on investment with firm value, let us begin with a simple discounted
+cash flow model for a firm in stable growth:
+where FCFF is the expected free cash flow to the firm, k
+c
+ is the cost of capital, and g
+n
+ is the stable
+growth rate. Note that this can be rewritten, approximately, in terms of the CFROI as follows:
+where CFROI is the cash flow return on investment, GI is the gross investment, DA is the
+depreciation and amortization, CX is the capital expenditure and 
+Δ
+WC is the change in working
+capital. To illustrate, consider a firm with a CFROI of 30%, a gross investment of $100 million,
+capital expenditures of $15 million, depreciation of $10 million, and no working capital
+requirements. If we assume a 10 percent cost of capital, a 40 percent tax rate, and a 5 percent stable
+growth rate, it would be valued as follows:
+More important than the mechanics, however, is the fact that firm value, while a function of the
+CFROI, is also a function of the other variables in the equation—the gross investment, the tax rate, the
+growth rate, the cost of capital, and the firm’s reinvestment needs.
+Again, sophisticated users of CFROI do recognize the fact that value comes from the CFROI not

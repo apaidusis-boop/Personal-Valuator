@@ -1,0 +1,42 @@
+e practice has built it up over the past two decades, and the
+practice generated $500,000 in revenues last year. The expenditures associated with running this practice last year include
+the following:
+
+Employee expenses (including dental hygienists and secretarial help) amounted to $150,000 last year, and are
+expected to grow 3% a year for the next 10 years.
+The annual rent for the facilities last year was $50,000 and is expected to grow 3% a year for the next 10
+years.
+Rentals of medical equipment cost $40,000 last year, and this expense is expected to grow 3% for the next 10
+years.
+The cost of medical insurance last year was $60,000 and is expected to grow 3% a year for the next 10
+years.
+The tax rate on the income, including state and local taxes, is 40%.
+The cost of capital is 10%.
+To value the practice, assume that revenues would have grown 3% a year for the next 10 years if the current dentist
+continued to run the practice, but that there will be a drop-off of 20% in the first year's revenues if a new dentist comes into
+the practice. The growth rate of 3% will still occur in the following years but on the lower base revenues.
+First, value the practice with the current dentist. To make this estimate, begin by estimating the cash flows in the first year to
+the practice:
+Using the cost of capital as the discount rate and using the growing annuity equation for a 10-year period, you can estimate
+the value of the practice:
+Assume that the value of the practice fades after 10 years, and therefore attach no terminal value.
+Follow up by valuing the practice with a new dentist in place. The cash flow in year 1 will be lower because the revenues
+will be lower:
+Notice that the value is halved, and the difference can be viewed as the value of the key person.
+As a potential buyer, the new dentist should offer the latter value for the practice. However, if the buyer can arrange for a
+transition period where the current dentist stays with the practice after the transaction, he or she may be willing to pay a
+higher price.
+ILLUSTRATION 27.3: Valuing a Five-Star Restaurant:
+Lutèce in 1994
+Lutèce is a renowned restaurant located at 249 East 50th Street in Manhattan. In 1994, Lutèce was sold by its owner/chef
+Andre Soltner to Ark Restaurants, a publicly traded restaurant chain, for an undisclosed amount. The 
+New York Times
+,
+blanching as a result of the sale, ran the headline, “Lutèce, a Dining Landmark, Is Sold to a Chain Operator,” which was
+then followed by an article detailing the surprise marriage of the classic French restaurant to Ark, a company largely known
+for operating theme restaurants. Bryan Miller, the 
+Times'
+ former restaurant reviewer and writer of the piece, likened the
+addition of Lutèce to Ark's portfolio to “hanging a Van Gogh in a community art exhibit.”
+BACKGROUND
+Lutèce was founded in 1961 by Andre Soltner, and quickly acquired a reputation for serving food of exceptional quality. It

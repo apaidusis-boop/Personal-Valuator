@@ -1,0 +1,25 @@
+million in 2010 on revenues of $117 million, resulting in an operating margin
+of –69.28%. That is not surprising, though, given that it is making substantial investments in both R&D and infrastructure
+
+right now, with expectations of a payoff in the future. To estimate the expected operating margin, once the firm is in steady
+state, we looked at the pre-tax operating margin for automotive firms globally in 2010; the average across these firms was
+approximately 10%, and we will use that value as the target margin.
+We will assume that Tesla's operating margin will improve slowly as revenues pick up, with the following table summarizing
+our estimates for margins and operating income:
+Tesla's dollar losses are expected to widen over the next few years, and the expected operating income turns positive only in
+year 6.
+To estimate the after-tax operating income, we introduce two additional inputs. The first is that the marginal tax rate for the
+firm is assumed to be 40%, the composite tax rate for U.S. companies (including state and local taxes). The second is that
+Tesla has $141 million in net operating losses (NOLs) accumulated from its years of operations. The losses that the firm is
+expected to make in the first five years will add to the NOLs and reduce the taxable income and taxes in the first few years
+of profitability. The table following summarizes the expected taxes and after-tax operating income each period:
+Tesla is not expected to pay its full marginal tax rate until year 10.
+Step 4: Estimate Reinvestment to Generate Growth
+To grow, firms have to reinvest, and this principle cannot be set aside when you are looking at a
+young firm. Unlike a mature firm, though, there is likely to be little in the firm's history that will help
+in determining how much the firm will need to reinvest. As the firm grows, the nature of its
+reinvestment and the amount reinvested will probably change, and the challenge is to estimate this
+amount.
+Chapter 11 related growth in operating income to how much a firm reinvests and how well it
+reinvests (measured by the return on capital).
+In fact, this equation has been used to estimate growth in most of the valuations done so far in this

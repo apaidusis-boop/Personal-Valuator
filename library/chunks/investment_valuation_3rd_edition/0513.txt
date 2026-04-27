@@ -1,0 +1,22 @@
+ratio of a high growth firm is a function of the expected extraordinary growth rate—the higher
+the expected growth, the higher the PE ratio for a firm. In Illustration 18.1, for instance, the PE ratio
+
+that was estimated to be 28.75, with a growth rate of 25 percent, will change as that expected growth
+rate changes. 
+Figure 18.2
+ graphs the PE ratio as a function of the expected growth rate during the high
+growth period. As the firm's expected growth rate in the first five years declines from 25 percent to 5
+percent, the PE ratio for the firm also decreases from 28.75 to just above 10.
+Figure 18.2
+ PE Ratios and Expected Growth
+The effect of changes in the expected growth rate varies depending on the level of interest rates. In
+Figure 18.3
+, the PE ratios are estimated for different expected growth rates at four levels of riskless
+rates—4 percent, 6 percent, 8 percent, and 10 percent.
+Figure 18.3
+ PE Ratios and Expected Growth: Interest Rate Scenarios
+The PE ratio is much more sensitive to changes in expected growth rates when interest rates are
+low than when they are high. The reason is simple. Growth produces cash flows in the future, and the
+present value of these cash flows is much smaller at high interest rates. Consequently, the effect of
+changes in the growth rate on the present value tends to be smaller.
+There is a possible link between this finding and how markets react to earnings surprises from high

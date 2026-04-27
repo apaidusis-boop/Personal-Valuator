@@ -1,0 +1,34 @@
+gs from QE to households instead of to the government.
+ • Big debt write-down accompanied by big money creation (the “year of Jubilee”) as occurred in Ancient 
+Rome, the Great Depression, and Iceland.
+
+Part 1: The Archetypal Big Debt Cycle 
+38
+While I won’t offer opinions on each of these, I will say that the most effective approaches involve fiscal/monetary 
+coordination, because that ensures that both the providing and the spending of money will occur. If central banks 
+just give people money (helicopter money), that’s typically less adequate than giving them that money with 
+incentives to spend it. However, sometimes it is difficult for those who set monetary policy to coordinate with 
+those who set fiscal policy, in which case other approaches are used. 
+Also, keep in mind that sometimes the policies don’t fall exactly into these categories, as they have elements of 
+more than one of them. For example, if the government gives a tax break, that’s probably not helicopter money, 
+but it depends on how it’s financed. The government can also spend money directly without a loan financed by 
+the central bank—that is helicopter money through fiscal channels. 
+While central banks influence the costs and availabilities of credit for the economy as whole, they also have powers 
+to influence the costs and availabilities of credit for targeted parts of the financial system through their regulatory 
+authorities. These policies, which are called macroprudential policies, are especially important when it’s desirable to 
+differentiate entities—e.g., when it is desirable to restrict credit to an overly indebted area while simultaneously 
+stimulating the rest of the economy, or when its desirable to provide credit to some targeted entities but not provide it 
+broadly. Macroprudential policies take numerous forms that are valuable in different ways in all seven stages of the 
+big debt cycle. Because explaining them here would require too much of a digression, they are explained in some 
+depth in the Appendix.
+7) Normalization 
+Eventually the system gets back to normal, though the recovery in economic activity and capital formation tends 
+to be slow, even during a beautiful deleveraging. It typically takes roughly 5 to 10 years (hence the term “lost 
+decade”) for real economic activity to reach its former peak level. And it typically takes longer, around a decade, 
+for stock prices to reach former highs, because it takes a very long time for investors to become comfortable taking 
+the risk of holding equities again (i.e., equity risk premiums are high).
+Recovery Conditions
+Avg Range
+1 Length of equity drawdown (months) 119 60 to 249
+2 Length of GDP drawdown (months) 72 25 to 106
+3 Change in debt-to-GDP post-stimulation -54% -70% to -29%

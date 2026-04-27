@@ -1,0 +1,52 @@
+ainst
+time specified in the previous regression:
+The growth rate can then be approximated as follows:
+This assumes that the average EPS over the time period is positive. Another approach to estimating
+
+growth for these firms uses the higher of the two numbers (EPS
+t
+ or EPS
+t–1
+) in the denominator:
+Alternatively, you could use the absolute value of EPS in the previous period.
+Note that these approaches to estimating historical growth do not provide any information on
+whether these growth rates are useful in predicting future growth. It is not incorrect, and, in fact, it
+may be appropriate to conclude that the historical growth rate is not meaningful when earnings are
+negative and to ignore it in predicting future growth.
+ILLUSTRATION 11.3: Negative Earnings: Tesla Motors and
+Aracruz Celulose
+The problems with estimating earnings growth when earnings are negative can be seen even for firms that have only
+negative earnings. For instance, Tesla Motors, the electric automobile company, reported operating earnings (EBIT) of –$52
+million in 2009 and –$154 million in 2010. Clearly, the firm's earnings deteriorated, but estimating a standard earnings growth
+rate would lead us to the following growth rate:
+Now consider Aracruz, a Brazilian paper and pulp company, susceptible like other firms in the industry to the ebbs and flows
+of commodity prices. The following table reports the earnings per share at the firm from 1995 to 2000.
+Year
+EPS in Brazilian Reals
+1995
+0.302
+1996
+0.041
+1997
+0.017
+1998
+–0.067
+1999
+0.065
+2000
+0.437
+The negative net income (and earnings per share) numbers in 1998 make the estimation of a growth rate in 1999
+problematic. For instance, the firm has a loss per share of 0.067 BR in 1998 and a profit per share of 0.065 BR in 1999. The
+growth rate in earnings per share estimated using the conventional equation would be:
+This growth rate, a negative number, makes no sense given the improvement in earnings during the year. There are two
+fixes to this problem. One is to replace the actual earnings per share in the denominator with the absolute value:
+The other is to use the higher of the earnings per share from the two years, yielding:
+While the growth rate is now positive, as you would expect it to be, the values for the growth rates themselves are not very
+useful for making estimates for the future.
+Time Series Models to Predict Earnings per Share
+Time series models use the same historical information as the simpler models described in the
+previous section. They attempt to extract better predictions from this data, however, through the use of
+sophisticated statistical techniques.
+Box-Jenkins Models
+Box and Jenkins (1976) developed a procedure for analyzing and forecasting univariate time series
+data using an autoregressive integrated moving average (ARIMA) model. Autoregressive integrated

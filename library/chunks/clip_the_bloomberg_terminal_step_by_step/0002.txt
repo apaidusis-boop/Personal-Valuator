@@ -1,0 +1,23 @@
+d-assembled and released in 1983.4
+
+In an attempt to dwindle down the tremendous information base into available functions that are typically used every day, we compiled a list of five key categories.
+
+Type "N" then hit for general news. To access the top business or general headlines, type TOP and hit.5 The screen will appear with a toolbar at the top, a command line where new commands can be typed, the main or function area which contains the information required, and an information panel at the bottom.
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_screen_shot_1-5bfd930746e0fb002642df23)
+
+bloomberg screenshot
+
+In the EQUITY function (F8), a command can be entered to locate a description of the company, its price or trade data (current and historical), news, graphs, corporate structure, valuation, credit ratings, capital structure, comparison companies, and regulatory filings. You can also review analyst recommendations, earnings estimates, and bond information.
+
+For example, to look up a company's earnings estimates, click the ticker symbol, EQUITY, then hit GO.6
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_screen_shot_2-5bfd9305c9e77c0051d18365)
+
+bloomberg screenshot
+
+Deal data and specifics can be found using the MA function.7 If you're looking for a specific company, type the company name in the "Company Search" box at the top. The output provides all the terms of the deals.
+
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_screen_shot_3-5bfd930346e0fb0051d85b4b)
+
+bloomberg screenshot

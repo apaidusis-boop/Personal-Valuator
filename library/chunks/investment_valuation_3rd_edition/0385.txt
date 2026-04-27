@@ -1,0 +1,40 @@
+e
+it to possess. The model, they claim, is not really useful in valuation except for a limited number of
+stable, high-dividend-paying stocks. This section examines some of the areas where the dividend
+
+discount model is perceived to fall short.
+Valuing Non-Dividend-Paying or Low-Dividend-Paying Stocks
+The conventional wisdom is that the dividend discount model cannot be used to value a stock that
+pays low or no dividends. It is wrong. If the dividend payout ratio is adjusted to reflect changes in the
+expected growth rate, a value can be obtained even for non-dividend-paying firms. Thus, a high-
+growth firm, paying no dividends currently, can still be valued based on dividends that it is expected
+to pay out when the growth rate declines. If the payout ratio is not adjusted to reflect changes in the
+growth rate, however, the dividend discount model will underestimate the value of non-dividend-
+paying or low-dividend-paying stocks.
+Is the Model Too Conservative in Estimating Value?
+A standard critique of the dividend discount model is that it provides too conservative an estimate of
+value. This criticism is predicated on the notion that the value is determined by more than the present
+value of expected dividends. For instance, it is argued that the dividend discount model does not
+reflect the value of “unutilized assets.” There is no reason, however, that these unutilized assets
+cannot be valued separately and added on to the value from the dividend discount model. Some of the
+assets that are supposedly ignored by the dividend discount model, such as the value of brand names,
+can be dealt with fairly simply within the context of the model.
+A more legitimate criticism of the model is that it does not incorporate other ways of returning cash
+to stockholders (such as stock buybacks). If you use the augmented version of the dividend discount
+model, this criticism can also be countered.
+Contrarian Nature of the Model
+The dividend discount model is also considered by many to be a contrarian model. As the market
+rises, fewer and fewer stocks, they argue, will be found to be undervalued using the dividend
+discount model. This is not necessarily true. If the market increase is due to an improvement in
+economic fundamentals, such as higher expected growth in the economy and/or lower interest rates,
+there is no reason, a priori, to believe that the values from the dividend discount model will not
+increase by an equivalent amount. If the market increase is not due to fundamentals, the dividend
+discount model values will not follow suit, but that is more a sign of strength than weakness. The
+model is signaling that the market is overvalued relative to dividends and cash flows, and the
+cautious investor will pay heed.
+TESTS OF THE DIVIDEND DISCOUNT MODEL
+The ultimate test of a model lies in how well it works at identifying undervalued and overvalued
+stocks. The dividend discount model has been tested and the results indicate that it does, in the long
+term, provide for excess returns. It is unclear, however, whether this is because the model is good at
+finding undervalued stocks or because it proxies for well-known empirical irregularities in returns
+relating to price-earnings ratios and dividend yields.

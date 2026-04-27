@@ -1,0 +1,39 @@
+p if it was less than 1.
+10
+ Deviations in the market value of equity from book value are likely to be much larger than
+deviations for debt, and are likely to dominate in most debt ratio calculations.
+
+CHAPTER 4
+The Basics of Risk
+When valuing assets and firms, we need to use discount rates that reflect the riskiness of the cash
+flows. In particular, the cost of debt has to incorporate a default spread for the default risk in the debt,
+and the cost of equity has to include a risk premium for equity risk. But how do we measure default
+and equity risk? More importantly, how do we come up with the default and equity risk premiums?
+This chapter lays the foundations for analyzing risk in valuation. It presents alternative models for
+measuring risk and converting these risk measures into acceptable hurdle rates. It begins with a
+discussion of equity risk and presents the analysis in three steps. In the first step, risk is defined in
+statistical terms to be the variance in actual returns around an expected return. The greater this
+variance, the more risky an investment is perceived to be. The next step, the central one, is to
+decompose this risk into risk that can be diversified away by investors and risk that cannot. The third
+step looks at how different risk and return models in finance attempt to measure this nondiversifiable
+risk. It compares the most widely used model, the capital asset pricing model (CAPM), with other
+models and explains how and why they diverge in their measures of risk and the implications for the
+equity risk premium.
+The final part of this chapter considers default risk and how it is measured by ratings agencies. By
+the end of the chapter, we should have a way of estimating the equity risk and default risk for any
+firm.
+WHAT IS RISK?
+Risk, for most of us, refers to the likelihood that in life’s games of chance we will receive an outcome
+that we will not like. For instance, the risk of driving a car too fast is getting a speeding ticket or,
+worse still, getting into an accident. 
+Merriam-Webster’s Collegiate Dictionary
+, in fact, defines the
+verb to risk as “to expose to hazard or danger.” Thus risk is perceived almost entirely in negative
+terms.
+In finance, our definition of risk is both different and broader. Risk, as we see it, refers to the
+likelihood that we will receive a return on an investment that is different from the return we expect to
+make. Thus, risk includes not only the bad outcomes (returns that are lower than expected), but also
+good outcomes (returns that are higher than expected). In fact, we can refer to the former as downside
+risk and the latter as upside risk, but we consider both when measuring risk. In fact, the spirit of our
+definition of risk in finance is captured best by the Chinese symbols for risk:
+Loosely defined, the first symbol is the symbol for “danger,” while the second is the symbol for

@@ -1,0 +1,81 @@
+f 6%.
+You also know that the market value of equity is three times the book value of equity, while the
+market value of debt is equal to the book value of debt. Estimate the correct value for the firm.
+
+6.
+ Santa Fe Pacific, a major rail operator with diversified operations, had earnings before
+interest, taxes, and depreciation of $637 million in 1993, with depreciation amounting to $235
+million (offset by capital expenditure of an equivalent amount). The firm was in steady state and
+expected to grow 6% a year in perpetuity. Santa Fe Pacific had a beta of 1.25 in 1993, and debt
+outstanding of $1.34 billion. The stock price was $18.25 at the end of 1993, and there were 183.1
+million shares outstanding. The expected ratings and the costs of debt at different levels of debt
+for Santa Fe are shown in the following table:
+D/(D + E)
+Rating
+Cost of Debt (Pretax)
+0%
+AAA
+6.23%
+10%
+AAA
+6.23%
+20%
+A+
+6.93%
+30%
+A–
+7.43%
+40%
+BB
+8.43%
+50%
+B+
+8.93%
+60%
+B–
+10.93%
+70%
+CCC
+11.93%
+80%
+CCC
+11.93%
+90%
+CC
+13.43%
+The earnings before interest and taxes were expected to grow 3% a year in perpetuity, with
+capital expenditures offset by depreciation. (The tax rate was 40%, and the Treasury bond rate
+was 7% and the market risk premium was 5.5%.)
+a.
+ Estimate the cost of capital at the current debt ratio.
+b.
+ Estimate the costs of capital at debt ratios ranging from 0% to 90%.
+c.
+ Estimate the value of the firm at debt ratios ranging from 0% to 90%.
+7.
+ You have been asked to estimate the value of Cavanaugh Motels, a motel chain. The firm
+reported earnings of $200 million before interest and taxes in the most recent year and paid 40%
+of its taxable income in taxes. The book value of capital at the firm is $1.2 billion, and the firm
+expects to grow 4% a year in perpetuity. The firm has a beta of 1.2, a pretax cost of debt of 6%,
+equity with a market value of $1 billion, and debt with a market value of $500 million. (The risk-
+free rate is 5%, and the market risk premium is 5.5%.)
+a.
+ Estimate the value of the firm, using the cost of capital approach.
+b.
+ If you were told the probability of default at this firm at its current debt level is 10% and that
+the cost of bankruptcy is 25% of unlevered firm value, estimate the value of the firm using the
+adjusted present value approach.
+c.
+ How would you reconcile the two estimates of value?
+8.
+ Bethlehem Steel, one of the oldest and largest steel companies in the United States, is
+considering the question of whether it has any excess debt capacity. The firm has $527 million in
+market value of debt outstanding and $1.76 billion in market value of equity. The firm has
+earnings before interest and taxes of $131 million, and faces a corporate tax rate of 36%. The
+company's bonds are rated BBB, and the cost of debt is 8%. At this rating, the firm has a
+probability of default of 2.3%, and the cost of bankruptcy is expected to be 30% of firm value.
+a.
+ Estimate the unlevered value of the firm from the current market value of the firm.
+b.
+ Estimate the levered value of the firm, using the adjusted present value approach, at a debt
+ratio of 50%. At that debt ratio, the firm's bond rating will be CCC, and the probability of

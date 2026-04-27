@@ -1,0 +1,39 @@
+records them at market
+value. The Home Depot has a mix of trading, available-for-sale, and held-to-maturity investments and therefore uses a mix
+of book and market value to value these investments.
+5.
+
+Prepaid pension expense.
+ Boeing records the excess of its pension fund assets over its expected pension fund
+liabilities as an asset on the balance sheet.
+Finally, the balance sheet for Boeing fails to report the value of a very significant asset, which is the effect of past research
+and development (R&D) expenses. Since accounting convention requires that these be expensed in the year that they occur
+and not be capitalized, the research asset does not show up in the balance sheet. Chapter 9 considers how to capitalize
+research and development expenses and the effects on balance sheets.
+MEASURING FINANCING MIX
+The second set of questions that we would like to answer, and would like accounting statements to
+shed some light on, relate to the mix of debt and equity used by the firm, and the current values of
+each. The bulk of the information about these questions is provided on the liabilities side of the
+balance sheet and the footnotes to it.
+Accounting Principles Underlying Liability and Equity
+Measurement
+Just as with the measurement of asset value, the accounting categorization of liabilities and equity is
+governed by a set of fairly rigid principles. The first is a 
+strict categorization of financing into
+either a liability or an equity
+ based on the nature of the obligation. For an obligation to be
+recognized as a liability, it must meet three requirements:
+1.
+ The obligation must be expected to lead to a future cash outflow or the loss of a future cash
+inflow at some specified or determinable date.
+2.
+ The firm cannot avoid the obligation.
+3.
+ The transaction giving rise to the obligation has to have already happened.
+In keeping with the earlier principle of conservatism in estimating asset value, accountants recognize
+as liabilities only cash flow obligations that cannot be avoided.
+The second principle is that the values of both liabilities and equity in a firm are 
+better estimated
+using historical costs
+ with accounting adjustments, rather than with expected future cash flows or
+market value. The process by which accountants measure the value of liabilities and equities is

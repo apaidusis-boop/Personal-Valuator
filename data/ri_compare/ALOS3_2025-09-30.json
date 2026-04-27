@@ -1,0 +1,146 @@
+{
+  "ticker": "ALOS3",
+  "latest_period": "2025-09-30",
+  "qoq": {
+    "label": "Q-o-Q",
+    "comparable_period": "2025-06-30",
+    "metrics": {
+      "revenue": {
+        "current": 678318.0,
+        "comparable": 697884.0,
+        "pct_chg": -0.028036177932149183,
+        "material": false
+      },
+      "ebit": {
+        "current": 345758.0,
+        "comparable": 345599.0,
+        "pct_chg": 0.0004600707756677537,
+        "material": false
+      },
+      "net_income": {
+        "current": 155923.0,
+        "comparable": 229938.0,
+        "pct_chg": -0.32189111847541513,
+        "material": true
+      },
+      "debt_total": {
+        "current": 0.0,
+        "comparable": 0.0,
+        "pct_chg": null,
+        "material": false
+      },
+      "fco": {
+        "current": 352575.0,
+        "comparable": 491205.0,
+        "pct_chg": -0.28222432589244817,
+        "material": false
+      },
+      "fcf_proxy": {
+        "current": 400321.0,
+        "comparable": 679417.0,
+        "pct_chg": -0.4107874839752317,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.7627469711846067,
+        "comparable": 0.7406087544634925,
+        "abs_chg_pp": 0.022138216721114157,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 0.5097284754348256,
+        "comparable": 0.4952098056410521,
+        "abs_chg_pp": 0.014518669793773475,
+        "material": false
+      },
+      "net_margin": {
+        "current": 0.22986711247526972,
+        "comparable": 0.32947882456110184,
+        "abs_chg_pp": -0.09961171208583211,
+        "material": true
+      }
+    }
+  },
+  "yoy": {
+    "label": "YoY",
+    "comparable_period": "2024-09-30",
+    "metrics": {
+      "revenue": {
+        "current": 678318.0,
+        "comparable": 657380.0,
+        "pct_chg": 0.031850679972010104,
+        "material": false
+      },
+      "ebit": {
+        "current": 345758.0,
+        "comparable": 313401.0,
+        "pct_chg": 0.10324472480942945,
+        "material": false
+      },
+      "net_income": {
+        "current": 155923.0,
+        "comparable": 135065.0,
+        "pct_chg": 0.15442934883204384,
+        "material": false
+      },
+      "debt_total": {
+        "current": 0.0,
+        "comparable": 0.0,
+        "pct_chg": null,
+        "material": false
+      },
+      "fco": {
+        "current": 352575.0,
+        "comparable": 392403.0,
+        "pct_chg": -0.10149769497175098,
+        "material": false
+      },
+      "fcf_proxy": {
+        "current": 400321.0,
+        "comparable": -1777647.0,
+        "pct_chg": 1.22519712856377,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.7627469711846067,
+        "comparable": 0.7290912409869482,
+        "abs_chg_pp": 0.03365573019765844,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 0.5097284754348256,
+        "comparable": 0.47674252335026923,
+        "abs_chg_pp": 0.03298595208455635,
+        "material": false
+      },
+      "net_margin": {
+        "current": 0.22986711247526972,
+        "comparable": 0.20545955155313517,
+        "abs_chg_pp": 0.024407560922134558,
+        "material": false
+      }
+    }
+  },
+  "material_flags": [
+    {
+      "comparison": "QOQ",
+      "metric": "net_income",
+      "change": "-32.2%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "fcf_proxy",
+      "change": "-41.1%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "net_margin",
+      "change": "-10.0pp"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "fcf_proxy",
+      "change": "+122.5%"
+    }
+  ]
+}

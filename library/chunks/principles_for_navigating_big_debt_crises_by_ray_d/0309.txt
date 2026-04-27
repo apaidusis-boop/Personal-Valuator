@@ -1,0 +1,61 @@
+id, leaving 
+Wall Street with a sense that the worst of the 
+fallout from this summer’s credit crisis had 
+passed.” 
+–New York Times
+October 6, 2007
+A Big Loss at Merrill Stirs Unease 
+-New York Times
+
+Part 2: US Debt Crisis and Adjustment (2007–2011)
+124
+approach was that instead of losing 5 to 10 percent of GDP on the cost of the 
+financial rescue, we actually earned something like 2 percent of GDP, depend -
+ing on how you measure it. That’s a dramatic outlier in the history of financial 
+crises, and Geithner credits it to the Fed and Treasury’s very aggressive 
+response and their willingness to put moral hazard concerns aside. I agree. 
+On September 18, 2007, the Fed cut rates by 0.5 percent, compared to the 0.25 
+percent expected by the market. As Bernanke put it, “the hawks and doves 
+flocked together.”14 The Fed’s bigger-than-expected move sparked a stock 
+market rally that the New York Times described as “ecstatic,” which brought the 
+S&P 500 back to within 2 percent of its all-time high.
+More important than the stimulation that would come from the Fed’s interest 
+rate cuts was the message this sent the markets—that the Fed was willing to 
+take decisive action as needed to help contain the problems that had caused the 
+market turmoil in August. At the same time, it was clear to those who ran the 
+numbers that easing wouldn’t solve the more fundamental problems of 
+financial intermediaries, debtors, and creditors holding more debt assets 
+and liabilities than could be serviced .
+The banks’ (and investment banks’) balance sheet and liquidity problems were 
+on both the asset side and the liability side. On the asset side, the problems 
+stemmed from the banks’ ownership of subprime mortgages through securiti -
+zations. On the liability side, the banks had become dependent on risky sources 
+of funding. Banks had always relied on short-term funding, but historically this 
+had consisted largely of deposits, which could be controlled with guarantees. 
+Savers can always pull their deposits, and widespread fears about bank solvency 
+had led them to do just that in the Great Depression. This led to the founding 
+of the FDIC in 1933, which dealt with this problem by insuring bank deposits 
+(up to a certain amount). That mostly eliminated the incentives the depositors 
+had to flee, because even if a bank failed, their deposits would be protected. 
+But by relying on what was known as “short-term wholesale funding,” modern 
+banks had set themselves up for a similar situation to what banks had experi -
+enced between 1930 and 1933. Short-term wholesale funding took a variety of 
+forms, but at its core, it was a lot like an uninsured deposit—meaning the 
+depositor had a big incentive to pull it from the bank at the first sign of trouble. 
+Banks and investment banks had also gotten themselves into trouble by virtue 
+of their central role in what we’ll call the “securitization machine.” At its 
+heart, the securitization machine started with the issuance of risky 
+mortgages and ended with the sale of very safe bonds to institutional 
+investors. Lots of players were involved, but these financial intermediaries 
+played a major role. Basically a mortgage lender would make the loans and sell 
+them to a bank, which would package them up into a bundle of say 1,000 
+loans. The combined cash flows of these 1,000 loans were thought to be much 
+safer than any individual loan because they benefited from diversification—if 
+one borrower couldn’t repay their mortgage, that might create a loss on one 
+loan, but that wouldn’t affect the ability of the other 999 borrowers to repay 
+their loans. On average, most borrowers had historically been able to repay 
+their mortgage loans, so the result of the packaging was (supposedly) to reduce 
+the overall risk profile of the loans. 
+News & 
+Bridgewater Daily Observations 
+(BDO)

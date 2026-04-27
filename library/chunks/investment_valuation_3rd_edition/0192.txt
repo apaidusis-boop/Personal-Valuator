@@ -1,0 +1,47 @@
+d
+growth rates, and a two-stage dividend discount model was used. Looking at these numbers, the
+following conclusions would be drawn:
+Figure 7.1
+ Implied Premiums for U.S. Equity Market (1960 to 2010)
+
+The arithmetic average historical risk premium, which is used by many practitioners, has
+been higher than the implied premium over almost the entire 50-year period (with 2009 the
+only exception). The geometric premium does provide a more interesting mix of results,
+with implied premiums exceeding historical premiums in the mid-1970s and again
+following 2008.
+The implied equity premium did increase during the 1970s, as inflation increased. This does
+have interesting implications for risk premium estimation. Instead of assuming that the risk
+premium is a constant and unaffected by the level of inflation and interest rates, which is
+what we do with historical risk premiums, it may be more realistic to increase the risk
+premium if expected inflation and interest rates go up.
+While historical risk premiums have generally drifted down for the last few decades, there
+is a strong tendency toward mean reversion in implied equity premiums. Thus, the premium,
+which peaked at 6.5 percent in 1978, moved down toward the average in the 1980s. By the
+same token, the premium of 2 percent that we observed at the end of the dot-com boom in
+the 1990s quickly reverted back to the average during the market correction from 2000 to
+2003. Given this tendency, it is possible that we can end up with a far better estimate of the
+implied equity premium by looking at not just the current premium, but also at historical
+trend lines.
+Finally, the crisis of 2008 was unprecedented in terms of its impact on equity risk premiums.
+Implied equity risk premiums rose more during 2008 than in any one of the prior 50 years. Much of
+that change occurred in the last 15 weeks of the year when the US and other developed markets went
+through gyrations more typical of emerging markets. A large portion of that increase dissipated in
+2009 but returned again in 2010 and 2011.
+As a final point, there is a strong tendency toward mean reversion in financial markets. Given this
+tendency, it is possible that we can end up with a far better estimate of the implied equity premium by
+looking not just at the current premium but also at historical data. There are two ways in which we
+can do this:
+1.
+ We can use the average implied equity premium over longer periods, say 10 to 15 years. Note
+that we do not need as many years of data here as we did with the historical premium estimate,
+because the standard errors tend to be smaller.
+2.
+ A more rigorous approach would require relating implied equity risk premiums to fundamental
+macroeconomic data over the period. For instance, given that implied equity premiums tend to be
+higher during periods with higher inflation rates (and interest rates), we ran a regression of
+implied equity premiums against Treasury bond rates between 1960 and 2010:
+The regression has some explanatory power, with an R-squared of 15 percent, and the t statistics
+(in brackets under the coefficients) indicate the statistical significance of the independent variable
+used. Substituting the current Treasury bond rate into this equation should yield an updated estimate
+19
+of the implied equity premium.

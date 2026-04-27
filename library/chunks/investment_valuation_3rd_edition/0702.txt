@@ -1,0 +1,51 @@
+for historical data and
+allow analysts to estimate the inputs needed for valuation. The third group of firms where valuation
+can be difficult includes unique firms with few or no comparable companies.
+
+If all three problems come together for the same firm—negative earnings, limited history, and few
+comparables—the difficulty is compounded. This chapter has laid out a broad framework that can be
+used to value such firms. It should be noted again that the question is not whether these firms can be
+valued—they certainly can—but whether we are willing to live with noisy estimates of value. To
+those who argue that these valuations are too noisy to be useful, our counter would be that much of
+this noise stems from real uncertainty about the future. As we see it, investors who attempt to measure
+and confront this uncertainty are better prepared for the volatility that comes with investing in these
+stocks.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Intellitech is a technology firm that has been in operating for two years. In the most recent year,
+the firm reported revenues of $500 million, five times revenues in the previous year. The firm
+also reported an operating loss of $400 million. You expect revenues to grow 100% next year,
+80% the year after, and 40% a year for the following three years, and the pretax operating margin
+to improve—in linear increments—to 10% by the fifth year. Estimate the revenues and operating
+income each year for the next five years.
+2.
+ You are trying to estimate the trailing 12-month earnings for Fiber Networks. The firm has just
+reported an operating loss for the first quarter of 2001 of $180 million on revenues of $600
+million, a jump from the operating loss of $30 million on revenues of $120 million in the first
+quarter of 2000. In its annual report for 2000, Fiber Networks reported an operating loss of $330
+million on revenues of $1.1 billion. Estimate the operating loss and revenues for the past four
+quarters.
+3.
+ Verispace Software sells inventory management software and reported revenues of $25 million
+in the most recent financial year. You estimate that the total market for inventory management
+software to be $25 billion, growing at 5% a year for the foreseeable future. If you expect
+Verispace to have 10% market share of this market in 10 years, estimate the compounded revenue
+growth rate over that period.
+4.
+ Lumin Telecomm produces specialized telecommunication equipment and has made losses each
+year over the three years it has been in existence—it has an accumulated net operating loss of
+$180 million. In the most recent year, the firm reported an operating loss of $90 million on
+revenues of $1 billion. If you expect the growth rate in revenues to be 20% a year for the next five
+years, and the pretax operating margin to be −6% next year, −3% two years from now, 0% the
+year after, 6% in four years, and 10% in five years (tax rate = 40%), estimate:
+a.
+ The revenues and pretax operating income each year for the next five years.
+b.
+ The taxes you would have to pay and your after-tax operating income each year for the next
+five years.
+5.
+ In problem 4, assume that Lumin Telecomm has a beta of 2.0 currently and that you expect it to
+drop in linear increments to 1.2 by year 5. If the current cost of borrowing is 9% and you expect
+this to remain unchanged over the next five years, estimate the cost of capital for the firm each
+year for the next five years. (The risk-free rate is 5.6%, and the risk premium is 4%.) The debt

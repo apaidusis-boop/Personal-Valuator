@@ -1,0 +1,41 @@
+usiness can be far more difficult (and expensive) than liquidating a
+position in a publicly traded firm.
+4.
+ In publicly traded firms, the stockholders tend to hire managers to run the firms, and most
+
+stockholders hold equity in several firms in their portfolios. The owner of a private firm tends to
+be very involved with management, and often has all of his or her wealth invested in the firm. The
+absence of separation between the owner and management can result in an intermingling of
+personal expenses with business expenses, and a failure to differentiate between management
+salary and dividends (or their equivalent). The absence of diversification can affect our
+measurement of risk.
+Each of the differences cited can change value by affecting discount rates, cash flows, and expected
+growth rates.
+To examine the issues that arise in the context of valuing private firms, we will consider two firms.
+The first firm is Chez Pierre, an upscale French restaurant in New York City, and the second is a
+private software firm called InfoSoft. We will value Chez Pierre for sale in a private transaction,
+whereas we will value InfoSoft for sale in an initial public offering (IPO).
+ESTIMATING VALUATION INPUTS AT PRIVATE
+FIRMS
+The value of a private firm is the present value of expected cash flows, discounted back at an
+appropriate discount rate. Since this construct is not different from the one we used to value publicly
+traded firms, the differences between private firms and publicly traded firms have to show up in how
+we estimate these inputs to the discounted cash flow model.
+Discount Rates
+If we choose to value equity, we discount cash flows to equity at the cost of equity, whereas if we
+choose to value the firm, we discount cash flows at the cost of capital. While the fundamental
+definitions of these costs have not changed, the process of estimating them may have to be changed
+given the special circumstances surrounding private firms.
+Cost of Equity
+In assessing the cost of equity for publicly traded firms, we looked at the risk of investments through
+the eyes of the marginal investors in these firms. With the added assumption that these investors were
+well diversified, we were able to define risk in terms of risk added on to a diversified portfolio or
+market risk. The beta in the capital asset pricing model (CAPM) and betas (in the multifactor models)
+that measure this risk are usually estimated using historical stock prices. The absence of historical
+price information for private firm equity and the failure on the part of many private firm owners to
+diversify can create serious problems with estimating and using betas for these firms.
+Approaches to Estimating Market Betas
+The standard process of estimating the beta in the capital asset pricing model involves running a
+regression of stock returns against market returns. Multifactor models use other statistical techniques,
+but they also require historical price information. In the absence of such information, as is the case
+with private firms, there are three ways in which we can estimate betas: accounting betas,

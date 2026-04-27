@@ -1,0 +1,37 @@
+7
+ The binomial model yields a value of $46.44 million for this option.
+8
+ There are 99.4 million households in the United States. Each rating point represents 1 percent of
+roughly 994,000 households.
+
+CHAPTER 30
+Valuing Equity in Distressed Firms
+Chapter 22 examined how discounted cash flow models could be adapted to value firms with
+negative earnings. Most of the solutions estimated the expected cash flows into the future, and
+assumed that an improvement in margins or earnings would result in positive cash flows and firm
+value. In the special case where the firm has substantial amounts of debt, we argued that there is a
+very real possibility of defaulting on the debt and going bankrupt. In these cases, discounted cash
+flow valuation may be an inadequate tool for estimating value. This chapter looks at firms with
+negative earnings, significant assets in place, and substantial debt. We argue that the equity investors
+in this firm, given limited liability, have the option to liquidate the firm and pay off the debt. This call
+option on the underlying firm can add value to equity, especially when there is significant uncertainty
+about the value of the assets.
+EQUITY IN HIGHLY LEVERED DISTRESSED
+FIRMS
+In most publicly traded firms, equity has two features. The first is that the equity investors run the firm
+and can choose to liquidate its assets and pay off other claim holders at any time. The second is that
+the liability of equity investors in some private firms and almost all publicly traded firms is restricted
+to their equity investments in these firms. This combination of the option to liquidate and limited
+liability allows equity to have the features of a call option. In firms with substantial liabilities and
+negative earnings, the option value of equity may be in excess of the discounted cash flow value.
+Payoff on Equity as an Option
+The equity in a firm is a residual claim, that is, equity holders lay claim to all cash flows left after
+other financial claimholders (debt, preferred stock, etc.) have been satisfied. If a firm is liquidated,
+the same principle applies; equity investors receive the cash that is left in the firm after all
+outstanding debt and other financial claims have been paid off. With limited liability, if the value of
+the firm is less than the value of the outstanding debt, equity investors cannot lose more than their
+investment in the firm. The payoff to equity investors on liquidation can therefore be written as:
+where V = Liquidation value of the firm 
+D = Face value of the outstanding debt and other nonequity claims
+Equity can thus be viewed as a call option on the firm, where exercising the option requires that the
+firm be liquidated and the face value of the debt (which corresponds to the exercise price) be paid

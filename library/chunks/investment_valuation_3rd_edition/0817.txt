@@ -1,0 +1,49 @@
+g
+that key person. We suggested that the key person effect on value be estimated, by looking at the
+impact of the loss of that key person on cash flows. There are a number of examples we can offer for
+
+businesses with personal components. Consider the following:
+In chapter 24, we used the example of a restaurant with a star chef with drawing power.
+Thus when a chef is incapacitated or moves to a competitor the number of customers may
+drop off dramatically.
+Many service businesses, ranging from plumbing to dentistry to tax accounting, have a
+personal component. Hence, when the person providing the service moves on, a large
+portion of the value of the business could be lost. A dentist who pays a large amount for a
+thriving dental practice of another dentist may see a drop-off in business after the purchase.
+This effect will be accentuated if the seller can start a competing business.
+A mutual fund company may derive its value from its most recognized fund managers. If they
+move to a competitor or start their own funds, they could take a large portion of the money
+they manage with them.
+FRANCHISE VALUE: CAN THE FRANCHISEE MAKE A
+DIFFERENCE?
+We do not intend to leave you with the impression that the value of a franchise is entirely attributable to the franchisor and
+that the franchisee cannot affect the value. Clearly, franchisees can make a difference, which explains why the value of a
+McDonald's can increase when it passes from one franchisee to another. There are several factors that explain these
+differences:
+Efficiency.
+ Some franchisees do a much better job in controlling costs and generating higher margins than
+others. To illustrate, a large proportion of low-cost hotels and inns in the United States is owned by a group of
+immigrants from Asia. Since the owner's entire family often works at the hotel at low or no pay, employee
+costs tend to be lower, allowing the owner to turn a larger profit than a passive owner would have.
+Personal component.
+ There remains a personal component in many franchises that can make a significant
+difference to value. For instance, while there are thousands of automobile dealers around the country,
+relatively few of them account for a significant portion of the total revenues.
+Economies of scale.
+ There are economies of scale associated with owning several franchises from the same
+firm. For instance, you often see individuals who own more than one franchise of the same company. By
+pooling several franchises, you might be able to reduce your administrative costs and increase the profitability
+of each.
+So, how should we value these businesses and the component of value that is attributable to the key
+person? The answer depends on why you are doing the valuation in the first place. If the objective is
+to value the business for the existing owner, you may separate out the portion of value due to the
+owner's personal connections and skill, but there are no immediate consequences. If the objective is
+to value the business for a potential buyer, the simplest way to avoid overpaying is to do two
+valuations—one with the business as is, with the existing owner, and one without the owner, making
+reasonable assumptions about the degree to which business will drop off. The latter will be much
+lower than the former and will represent the price you would be willing to pay.
+ILLUSTRATION 27.2: Valuing a Dental Practice
+Assume that you are a young dentist specializing in pediatric dentistry, and that you are interested in buying a dental practice
+located in Chatham, New Jersey. The dentist who owns the practice has built it up over the past two decades, and the
+practice generated $500,000 in revenues last year. The expenditures associated with running this practice last year include
+the following:

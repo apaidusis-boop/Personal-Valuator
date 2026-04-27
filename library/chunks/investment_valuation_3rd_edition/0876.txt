@@ -1,0 +1,56 @@
+ws
+over 25 years. Disney will have a 40% share of the joint venture (requiring it to put up $400
+million of the initial investment and entitling it to 40% of the cash flows) but it will have the right
+
+to sell its share of the venture back to the developer for $300 million anytime over the next five
+years. (The project life is 25 years.)
+a.
+ If the standard deviation in real estate values in Vail is 30% and the riskless rate is 5%,
+estimate the value of the abandonment option to Disney.
+b.
+ Would you advise Disney to enter into the joint venture?
+c.
+ If you were advising the developer, how much would he need to generate in present value
+cash flows from the investment to make this a good investment?
+4.
+ Quality Wireless is considering making an investment in China. While it knows that the
+investment will cost $1 billion and generate only $800 million in cash flows (in present value
+terms), the proponents of expansion are arguing that the potential market is huge and that Quality
+should go ahead with its investment.
+a.
+ Under what conditions will the expansion potential have option value?
+b.
+ Assume now that there is an option value to expansion that exactly offsets the negative net
+present value on the initial investment. If the cost of the subsequent expansion in five years is
+$2.5 billion, what is your current estimate of the present value of the cash flows from expansion?
+(You can assume that the standard deviation in the present value of the cash flows is 25% and
+that the riskless rate is 6%.)
+5.
+ Reliable Machinery Inc. is considering expanding its operations in Thailand. The initial
+analysis of the project yields the following results:
+The project is expected to generate $85 million in after-tax cash flows every year for the
+next 10 years.
+The initial investment in the project is expected to be $750 million.
+The cost of capital for the project is 12%.
+If the project generates much higher cash flows than anticipated, you will have the exclusive right
+for the next 10 years (from a manufacturing license) to expand operations into the rest of Southeast
+Asia. A current analysis suggests the following about the expansion opportunity:
+The expansion will cost $2 billion (in current dollars).
+The expansion is expected to generate $150 million in after-tax cash flows each year for
+15 years. There is substantial uncertainty about these cash flows, and the standard
+deviation in the present value is 40%.
+The cost of capital for this investment is expected to be 12% as well. The risk-free rate is
+6.5%.
+a.
+ Estimate the net present value of the initial investment.
+b.
+ Estimate the value of the expansion option.
+1
+ Crystal Ball and @Risk are both add-on packages to Excel that allow you to run simulations.
+2
+ You could, for instance, be fairly certain about the size of the market today—the variance would
+be low or even zero—but be uncertain about what the market will look like a year from now or
+three years from now. It is the latter variance that determines the value of the option.
+3
+ This statement is based on the assumption that the quality of research is the same at both firms,
+though the research is in different businesses, and that the only difference is in the volatility of the

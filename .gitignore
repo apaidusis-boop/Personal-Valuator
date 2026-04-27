@@ -32,3 +32,42 @@ logs/agents/
 
 # Phase U — código deprecated, fora do tracking activo
 _deprecated/
+
+# AI tool autoinstalls — cada agente cria a sua dir; não pertencem ao repo
+.adal/
+.agents/
+.augment/
+.bob/
+.codebuddy/
+.commandcode/
+.continue/
+.cortex/
+.crush/
+.factory/
+.goose/
+.iflow/
+.junie/
+.kilocode/
+.kiro/
+.kode/
+.mcpjam/
+.mux/
+.neovate/
+.openhands/
+.pi/
+.pochi/
+.qoder/
+.qwen/
+.roo/
+.trae/
+.vibe/
+.windsurf/
+.zencoder/
+
+# Scratch files de code-health scans (root)
+_scan_*
+_apply_*
+
+# SQLite WAL / shared-memory — runtime only
+*.db-shm
+*.db-wal

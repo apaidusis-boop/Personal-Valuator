@@ -1,0 +1,27 @@
+y
+risk premium will converge on the country bond spread as we look at longer-term expected returns.
+For example, the country risk premium for Brazil would be 4.82 percent for the next year but decline
+
+over time to either the 2.00 percent (country default spread) or even lower.
+Estimating Asset Exposure to Country Risk Premiums
+Once country risk premiums have been estimated, the final question that has to be addressed relates to
+the exposure of individual companies within that country to country risk. There are three alternative
+views of country risk:
+1.
+
+Assume that all companies in a country are equally exposed to country risk.
+ Thus, for Brazil,
+with its estimated country risk premium of 4.82 percent, each company in the market will have an
+additional country risk premium of 4.82 percent added to its expected returns. For instance, the
+cost of equity for Petrobras, an integrated oil company listed in Brazil with a beta of 0.80, in U.S.
+dollar terms would be (assuming a U.S. Treasury bond rate of 3.50 percent and a mature market
+[U.S.] risk premium of 4.31 percent):
+Note that the risk-free rate used is the U.S. Treasury bond rate and that the 4.31 percent is the equity
+risk premium for a mature equity market (estimated from historical data in the U.S. market). The
+biggest limitation of this approach is that it assumes that all firms in a country, no matter what their
+business or size, are equally exposed to country risk. To convert this dollar cost of equity into a cost
+of equity in the local currency, all that we need to do is to scale the estimate by relative inflation. To
+illustrate, if the Brazilian inflation rate is 6 percent and the U.S. inflation rate is 2 percent, the cost of
+equity for Petrobras in Brazilian real (BR) terms can be written as:
+This will ensure consistency across estimates and valuations in different currencies.
+2.

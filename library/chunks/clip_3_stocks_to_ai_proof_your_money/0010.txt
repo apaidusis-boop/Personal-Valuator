@@ -1,0 +1,11 @@
+oteomic datasets to pinpoint which proteins and genes are most likely involved in disease pathways. This is work that previously required years of manual lab experimentation. AI condenses it to weeks.
+
+In lead optimization — the process of selecting which compounds to advance — Vertex has built a proprietary MLOps platform using AWS-native infrastructure, including Amazon SageMaker, to generate real-time predictive models of molecular activity. Rather than physically testing thousands of compounds for biological activity and toxicity, the system generates quantitative predictions in a fraction of the time and cost. This approach has been central to accelerating the company's pipeline expansion.
+
+In clinical trials, AI improves both the design and analysis of studies. Biomarker identification powered by machine learning helps Vertex predict which patient populations will respond to a given therapy, enabling more targeted trial design and reducing the risk of expensive late-stage failures.
+
+Then there is Vertex's long-running collaboration with Genomics plc, a partnership established in 2018 and subsequently extended, which uses large-scale human genetic data and machine learning to improve the identification of precision medicine targets. This is a longer-horizon bet using population genetics as a training set to identify disease drivers that conventional research might never surface.
+
+### CASGEVY: A Real-World AI Data Engine
+
+Perhaps the most strategically underappreciated aspect of Vertex's AI story is CASGEVY, the CRISPR gene-editing therapy it co-developed with CRISPR Therapeutics for sickle cell disease and beta thalassemia. CASGEVY generated over $100 million in revenue in 2025 and is in active global rollout, with more than 65 authorized treatment centers operating worldwide.

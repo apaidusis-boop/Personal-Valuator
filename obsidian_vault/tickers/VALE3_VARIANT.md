@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: VALE3
 market: br
-date: 2026-04-26
+date: 2026-04-27
 variance: low_consensus_long
 magnitude: 1
 weight_skew: False

@@ -1,0 +1,23 @@
+capturando assim o aumento e diminuição dos investimentos em manutenção conforme projetamos crescimento e términos de concessões.
+
+**Projeções do CapEx de transmissão** — *Elaboração: Suno Research.*
+
+Para determinar a margem operacional, como os resultados recentes divulgados estão bastante poluídos pela divulgação detalhada apenas pelo método IFRS, que não é o mais adequado para avaliar a geração de caixa nos modelos de negócio de transmissão, optamos por partir de uma relação de custos e despesas operacionais por km de linha que confira uma margem 5 p.p. inferior à média dos três pares especializados no segmento (Transmissão Paulista, Taesa e Alupar), também capturando os efeitos aumento e diminuição da extensão das linhas considerando construções e términos ao longo do tempo:
+
+**Projeções dos custos e despesas operacionais de transmissão** — *Elaboração: Suno Research.*
+
+Assim, considerando o patamar médio de depreciação e amortização em 7% da receita líquida, bem como IR e CSLL em 20% do resultado operacional (média dos últimos cinco anos + 5 p.p.) e uma taxa de desconto de 12,00%, apresentamos nossas estimativas para a próxima década:
+
+**Projeções de transmissão** — *Elaboração: Suno Research.*
+
+Deste modo, carregando as mesmas premissas até o término das respectivas concessões (última em 2025) e descontando todos os fluxos a 12,00%, chegamos a um valor presente líquido de R$ 61,2 bilhões estimado para a parcela de transmissão da Axia.
+
+Assim, considerando a taxa de desconto mencionada e descontando o endividamento líquido do valor justo do *equity* consolidado para os dois negócios em que a companhia opera, chegamos ao valor justo de R$ 54,70 por ação.
+
+Buscando uma margem de segurança adicional, pensando na natureza de risco da empresa e na necessidade de materialização das nossas premissas, definimos o preço em R$ 43,80.
+
+Abaixo, estão detalhadas as principais projeções consolidadas:
+
+**Projeções consolidadas da Axia** — *Elaboração: Suno Research.*
+
+---

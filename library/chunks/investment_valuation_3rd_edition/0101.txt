@@ -1,0 +1,34 @@
+e underlying asset and the strike price, and the net payoff is the
+difference between the gross payoff and the price of the call. This is illustrated in 
+Figure 5.1
+.
+Figure 5.1
+ Payoff on Call Option
+
+A put option gives the buyer of the option the right to sell the underlying asset at a fixed price, again
+called the strike or exercise price, at any time prior to the expiration date of the option. The buyer
+pays a price for this right. If the price of the underlying asset is greater than the strike price, the option
+will not be exercised and will expire worthless. But if the price of the underlying asset is less than
+the strike price, the owner of the put option will exercise the option and sell the stock at the strike
+price, claiming the difference between the strike price and the market value of the asset as the gross
+profit. Again, netting out the initial cost paid for the put yields the net profit from the transaction.
+A put has a negative net payoff if the value of the underlying asset exceeds the strike price, and has
+a gross payoff equal to the difference between the strike price and the value of the underlying asset if
+the asset value is less than the strike price. This is summarized in 
+Figure 5.2
+.
+Figure 5.2
+ Payoff on Put Option
+DETERMINANTS OF OPTION VALUE
+The value of an option is determined by six variables relating to the underlying asset and financial
+markets.
+1.
+
+Current value of the underlying asset.
+ Options are assets that derive value from an underlying
+asset. Consequently, changes in the value of the underlying asset affect the value of the options on
+that asset. Since calls provide the right to buy the underlying asset at a fixed price, an increase in
+the value of the asset will increase the value of the calls. Puts, on the other hand, become less
+valuable as the value of the asset increases.
+
+2.

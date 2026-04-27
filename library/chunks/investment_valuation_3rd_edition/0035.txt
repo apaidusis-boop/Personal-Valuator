@@ -1,0 +1,24 @@
+od. The
+statement of cash flows can be viewed as an attempt to explain what the cash flows during a period
+were, and why the cash balance changed during the period.
+Figure 3.3
+ Statement of Cash Flows
+
+ASSET MEASUREMENT AND VALUATION
+When analyzing any firm, we want to know the types of assets that it owns, the value of these assets,
+and the degree of uncertainty about this value. Accounting statements do a reasonably good job of
+categorizing the assets owned by a firm, a partial job of assessing the value of these assets, and a
+poor job of reporting uncertainty about asset value. This section begins by looking at the accounting
+principles underlying asset categorization and measurement, and the limitations of financial
+statements in providing relevant information about assets.
+Accounting Principles Underlying Asset Measurement
+An asset is any resource that has the potential either to generate future cash inflows or to reduce future
+cash outflows. While that is a general definition broad enough to cover almost any kind of asset,
+accountants add a caveat that for a resource to be an asset a firm has to have acquired it in a prior
+transaction and be able to quantify future benefits with reasonable precision. The accounting view of
+asset value is to a great extent grounded in the notion of historical cost, which is the original cost of
+the asset, adjusted upward for improvements made to the asset since purchase and downward for the
+loss in value associated with the aging of the asset. This historical cost is called the book value.
+While the generally accepted accounting principles (GAAP) for valuing an asset vary across different
+kinds of assets, three principles underlie the way assets are valued in accounting statements:
+1.

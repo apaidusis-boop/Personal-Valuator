@@ -1,0 +1,45 @@
+ssets.
+There are several practical problems associated with applying these steps to assets when cash
+flows are difficult to estimate and risk cannot be easily quantified (and converted into a discount
+
+rate). In most cases, these problems are not insurmountable and can be overcome. Since the problems
+and the solutions vary from case to case, we consider a series of examples, ranging from the valuation
+of a simple franchise to more complex businesses.
+Valuing a Franchise
+A franchise gives you the right to market or sell a product or service of a brand-name company.
+Examples of franchises would include the thousands of McDonald's restaurants around the world,
+dealerships for the automobile companies, and, loosely defined, even a New York City cab
+medallion. In each case, the franchisee (the person who buys the franchise) pays the franchisor
+(McDonald's or Ford) either an up-front price or an annual fee for running the franchise. In return, he
+or she gets the power of the brand name, corporate support, and advertising backing.
+Franchise Value and Excess Returns
+The acquisition of a franchise provides the franchisee with the opportunity to earn excess returns for
+the life of the franchise. While the sources of these above-market returns vary from case to case, they
+can arise from a number of factors:
+Brand name value.
+ The franchise might have a brand name value that enables the franchisee
+to charge higher prices and attract more customers than an otherwise similar business. Thus,
+an investor may be willing to pay a significant up-front fee to acquire a McDonald's
+franchise, in order to take advantage of the brand name value associated with the company.
+Exclusivity.
+ In some cases, a franchise has value because it enables a franchisee to produce
+a product, the rights to which are owned by the franchisor. For instance, an investor may pay
+a fee to Disney for the right to manufacture Mickey Mouse watches or toys, and hope to
+recoup the fee by selling more of the product or charging a higher price for it.
+Legal monopolies.
+ Sometimes, a franchise may have value because the franchisee is given
+the exclusive right to provide a service. For instance, a company may pay a large fee for the
+right to operate concession stands in a baseball stadium knowing that it will face no
+competition within the stadium. In a milder variant of this, multiple franchises are
+sometimes sold but the number of franchises is limited to ensure that the franchisees earn
+excess returns. New York City, for example, sells cab medallions that are a prerequisite for
+operating a yellow cab in the city, and also has tight restrictions on non–medallion owners
+offering the same service. Consequently, a market where cab medallions are bought and
+sold exists.
+In essence, the value of a franchise is directly tied to the capacity to generate excess returns. Any
+action or event that affects these excess returns will affect the value of the franchise.
+Special Issues in Valuing Franchises
+Buying a franchise is often a mixed blessing. While the franchisee gets the backing of a well-known
+firm with significant resources to back up his or her efforts, there are some costs that may affect the
+value of the franchise. Among these costs are the following:
+The problems of the franchisor can spill over onto the franchisee. For instance, when

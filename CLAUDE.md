@@ -34,6 +34,24 @@ Graham Number e Dív. líq./EBITDA não se aplicam.
 - **ROE** ≥ 15%
 - **Dividend Aristocrat** *ou* mínimo 10 anos consecutivos de dividendos
 
+### EUA — bancos (sector == "Banks", market == us)
+Bancos US têm dinâmica diferente dos bancos BR e das empresas operacionais.
+ROTCE > ROE como métrica primária (intangíveis grandes pós-aquisições);
+P/TBV é a referência de avaliação; CET1 substitui Basel ratio; o streak
+pós-GFC é o que conta (vários cortaram em 2009 — JPM, BAC, WFC, C).
+
+- **P/E** ≤ 12 (mid-cycle típico de top-tier US bank, mais conservador que Buffett genérico)
+- **P/TBV** ≤ 1.8 (Tangible Book; P/B simples sobrestima banco com goodwill)
+- **ROTCE** ≥ 15% (Return on Tangible Common Equity; ROE ≥ 12% é fallback se ROTCE indisponível)
+- **Dividend Yield** ≥ 2.5%
+- **CET1 ratio** ≥ 11% (Basel III mínimo regulatório + buffer)
+- **Efficiency ratio** ≤ 60% (cost-to-income; lower is better)
+- **Dividend streak pós-2009** ≥ 10 anos (GFC reset clock — Aristocrat strict não aplica a maioria dos bancos)
+
+Engine: `scoring/engine.py::score_us_bank` (paralelo a `score_br_bank`).
+Playbook narrativo: `obsidian_vault/wiki/sectors/US_Banks.md`.
+Method YAML: `library/methods/us_buffett_bank_screen.yaml`.
+
 ## Fontes de dados
 
 | Mercado | Fonte primária | Fallback | Notas |
@@ -102,6 +120,24 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Helena audit** (design system linter, DS001-DS009) | `python -m agents.helena.audit` |
 | **Helena Linha scout** (weekly, GitHub+RSS+YouTube) | `python scripts/design_research.py [--source github\|blogs\|youtube\|all]` |
 | **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
+| **Perpetuum Master** (Phase X — 3 perpetuums) | `python agents/perpetuum_master.py [--only NAME] [--dry-run]` — thesis + vault + data_coverage, 442 subjects/dia |
+| **Perpetuum individual** | `python agents/perpetuum_master.py --only {thesis\|vault\|data_coverage\|bibliotheca\|...}` |
+| **Bibliotheca autofix** (sector + name backfill) | `python scripts/bibliotheca_autofix.py [--apply]` — universe.yaml → companies; idempotente |
+| **Perpetuum review** (T2 actions open) | `python scripts/perpetuum_action_run.py list-open` |
+| **Perpetuum run action** (whitelisted) | `python scripts/perpetuum_action_run.py <id> [--market br\|us]` |
+| **Library ingest books** (PDF→chunks) | `python -m library.ingest` (processa library/books/) |
+| **Library extract methods** (Ollama) | `python -m library.extract_insights --book <slug> --max 40` |
+| **Library matcher** (methods vs portfolio) | `python -m library.matcher [--method X] [--dry-run]` |
+| **Library RAG build** (nomic-embed local) | `python -m library.rag build` |
+| **Library RAG query** (semantic search) | `python -m library.rag query "texto" --k 5` |
+| **Library RAG ask** (RAG + Qwen synth) | `python -m library.rag ask "pergunta PT" --k 6` |
+| **Paper trade signals** | `sqlite3 data/us_investments.db 'SELECT * FROM paper_trade_signals WHERE status="open"'` |
+| **Enrich fundamentals** (market_cap, cur_ratio, ltd, wc) | `python scripts/enrich_fundamentals_for_methods.py [--schema\|--backfill\|--ticker X]` |
+| **Ad Perpetuum Validator** (legacy, Phase W.5) | `python -c "from agents.perpetuum_validator import PerpetuumValidator; ..."` — thesis_health daily (agora wrappado em perpetuum.thesis) |
+| **Metrics baseline freeze** (Phase W before) | `python scripts/metrics_baseline.py --freeze` — uma vez |
+| **Metrics daily report** (tracking contínuo) | `python scripts/metrics_report.py --compare` — delta vs baseline |
+| **Phase W Roadmap** | `obsidian_vault/skills/Roadmap.md` — 11 sprints W.1–W.11 |
+| **Skills arsenal index** | `obsidian_vault/skills/_MOC.md` — 33 skills avaliadas + Gold extras |
 | **Ingest relatórios subscriptions** (Suno/XP/WSJ) | `ii subs fetch --source all && ii subs extract` |
 | **Views de analistas sobre ticker**           | `ii subs query X --days 90` |
 | Quantas ações tenho de X / posição actual     | `sqlite3 data/<mkt>_investments.db "SELECT ticker, quantity, entry_price FROM portfolio_positions WHERE ticker='X' AND active=1"` |

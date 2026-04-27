@@ -1,0 +1,74 @@
+. Working paper.
+www.stern.nyu.edu/~adamodar/New_Home_Page/papers.html
+.
+Chapter 18 Earnings Multiples
+Cragg, J. G., and B. G. Malkiel. 1968. The consensus and accuracy of predictions of the growth of
+
+corporate earnings. 
+Journal of Finance
+ 23:67–84.
+Goodman, D. A., and J. W. Peavy, III. 1983. Industry relative price-earnings ratios as indicators of
+investment returns. 
+Financial Analysts Journal
+ 39:60–66.
+Kisor, M., Jr., and V. S. Whitbeck. 1963. A new tool in investment decision-making. 
+Financial
+Analysts Journal
+ 19:55–62.
+Leibowitz, M. L., and S. Kogelman. 1992. Franchise value and the growth process. 
+Financial
+Analysts Journal
+ 48:53–62.
+Levy, H., and Z. Lerman. 1985. Testing P/E ratio filters with stochastic dominance. 
+Journal of
+Portfolio Management
+ 11:31–40.
+Peters, D. J. 1991. Valuing a growth stock. 
+Journal of Portfolio Management
+ 17:49–51.
+Chapter 19 Book Value Multiples
+Capaul, C., I. Rowley, and W. F. Sharpe. 1993. International value and growth stock returns.
+Financial Analysts Journal
+ 49:27–36.
+Chan, L. K., Y. Hamao, and J. Lakonishok. 1991. Fundamentals and stock returns in Japan. 
+Journal of
+Finance
+ 46:1739–1789.
+Fama, E. F., and K. R. French. 1992. The cross-section of expected returns. 
+Journal of Finance
+47:427–466.
+Graham, B.
+Jacobs, B. I., and K. N. Levy. 1988. On the value of “value.” 
+Financial Analysts Journal
+ 44:47–62.
+Lang, L. H. P., R. M. Stulz, and R. A. Walkling. 1991. A test of the free cash flow hypothesis: The
+case of bidder returns. 
+Journal of Financial Economics
+ 29:315–335.
+Porter, M. E. 1980. 
+Competitive strategy: Techniques for analyzing industries and competitors.
+New York: Free Press.
+Rosenberg, B., K. Reid, and R. Lanstein. 1985. Persuasive evidence of market inefficiency. 
+Journal
+of Portfolio Management
+ 11:9–17.
+Wilcox, J. W. 1984. The P/B-ROE valuation model. 
+Financial Analysts Journal
+ 40:58–66.
+Chapter 20 Revenue Multiples and Sector-Specific Multiples
+Itami, H. 1987. 
+Mobilizing invisible assets.
+ Cambridge, MA: Harvard University Press.
+Jacobs, B. I., and K. N. Levy. 1988. Disentangling equity return irregularities: New insights and
+investment opportunities. 
+Financial Analysts Journal
+ 44:18–44.
+Senchack, A. J., Jr., and J. D. Martin. 1987. The relative performance of the PSR and PER investment
+strategies. 
+Financial Analysts Journal
+ 43:46–56.
+Chapter 21 Valuing Financial Service Firms
+Copeland, T. E., T. Koller, and J. Murrin. 1999. 
+Valuation: Measuring and managing the value of
+companies.
+ New York: John Wiley & Sons.

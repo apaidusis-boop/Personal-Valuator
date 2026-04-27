@@ -1,0 +1,29 @@
+p by
+examining how best to deal with the debris left over by acquisition accounting. Then we consider
+how to deal with income from holdings in other companies and investments in marketable securities.
+
+Finally, we look at a series of tests that may help us gauge whether the reported earnings of a firm are
+reliable indicators of its true earnings.
+Extraordinary, Recurring, and Unusual Items
+The rule for estimating both operating and net income is simple. The operating income that is used as
+a base for projections should reflect continuing operations and should not include any items that are
+one-time or extraordinary. Putting this statement into practice is often a challenge because there are
+four types of extraordinary items:
+1.
+
+One-time expense or income that is truly one-time.
+ A large restructuring charge that has
+occurred only once in the past 10 years would be a good example. These expenses can be backed
+out of the analysis and the operating and net income calculated without them.
+2.
+
+Expenses and income that do not occur every year but seem to recur at regular intervals.
+Consider, for instance, a firm that has taken a restructuring charge every 3 years for the past 12
+years. While not conclusive, this would suggest that the extraordinary expenses are really ordinary
+expenses that are being bundled by the firm and taken once every three years. Ignoring such an
+expense would be dangerous because the expected operating income in future years would be
+overstated. What would make sense would be to take the expense and spread it out on an annual
+basis. Thus, if the restructuring expense every three years has amounted to $1.5 billion, on
+average, the operating income for the current year should be reduced by $0.5 billion to reflect the
+annual charge due to this expense.
+3.

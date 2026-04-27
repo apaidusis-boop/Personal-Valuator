@@ -1,0 +1,38 @@
+equity reinvestment and uses it to estimate the reinvestment rate for each of the
+firms. We also present the return on equity and the expected growth rate in net income at each of these firms in 2010:
+
+The pluses and minuses of this approach are visible in the table. The approach much more accurately captures the true
+reinvestment in the firm by focusing not on what was retained but on what was reinvested. The limitation of the approach is
+that the ingredients that go into the reinvestment—capital expenditures, working capital change, and net debt issued—are all
+volatile numbers. Note that Sony had more depreciation than capital expenditures in 2010 and a decrease in working capital,
+and paid off debt during the year. The net reinvestment rate is negative. If it continues on this path, it will have negative
+growth. In fact, it would probably be much more realistic to look at the average reinvestment rate over three or five years,
+rather than just the current year. We will return to examine this question in more depth when we look at growth in operating
+income.
+Determinants of Return on Equity
+Both earnings per share and net income growth are affected by the return on equity of a firm. The
+return on equity is affected by how much debt the firm chooses to use to fund its projects. In the
+broadest terms, increasing debt will lead to a higher return on equity if the after-tax return on capital
+exceeds the after-tax interest rate paid on debt. This is captured in the following formulation of return
+on equity:
+where ROC = EBIT(1 - t)/(BV of debt + BV of equity-Cash) 
+D/E = BV of debt/BV of equity 
+i = Interest expense on debt/BV of debt 
+t = Tax rate on ordinary income
+In keeping with the fact that return on equity is based on book value, all of the inputs are also stated
+in terms of book value. The derivation is simple and is provided in a footnote.
+6
+ Using this expanded
+version of ROE, the growth rate can be written as:
+The advantage of this formulation is that is allows use to model changes in leverage and evaluate the
+effects on growth.
+ILLUSTRATION 11.7: Breaking Down Return on Equity
+To consider the components of return on equity, the following table looks at Consolidated Edison, Procter & Gamble, and
+Intel, three firms whose returns on equity were shown in Illustration 11.5:
+Comparing these numbers to those reported in Illustration 11.5, you will note that the return on equity is close to our earlier
+estimates for Con Ed and P&G. The return on equity computed here is lower than the earlier estimate for Intel because it
+posted significant non operating profits in its net income. We have chosen to consider only operating income in the return on
+capital computation. To the extent that firms routinely report nonoperating income (or losses), the return on equity computed
+using the standard approach (net income divided by book equity) will be different from the return on equity computed heren.
+While this is not a serious concern for any of the three firms examined, we should be concerned if a high ROE is caused by
+a high D/E ratio, a low effective tax rate, or non operating profits. That ROE may not be sustainable. If the firm loses its tax

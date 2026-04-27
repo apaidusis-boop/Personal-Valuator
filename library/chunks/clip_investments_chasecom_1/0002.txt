@@ -1,0 +1,11 @@
+d><td></td><td>22,903.99</td><td><p>0.00</p></td><td>Gain of +4,691.82</td><td>Gain of +25.76%</td><td></td><td>18,212.17</td><td align="right">492.26</td><td align="center"></td></tr></tfoot></table>
+
+Where applicable, acquisition date, cost, and gain/loss values may reflect special calculations used for gifted securities.
+
+A (average cost)
+
+This security is held at average cost. Average cost is calculated by dividing the total amount purchased by the number of shares owned.
+
+Extended hours prices
+
+Trades executed outside of market hours (9:30 AM - 4 PM ET) will reflect up-to-date cost and quantity. However, the value, day’s gain/loss and total gain/loss for these trades will be calculated based on the price as of previous market close, unless otherwise indicated. Prices for these trades will update at the open of the next market hours trading session.

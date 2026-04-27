@@ -1,0 +1,24 @@
+of delay translates into one less year of value-creating cash flows.
+2
+ If the cash flows are
+evenly distributed over time, and the life of the patent is n years, the cost of delay can be written
+as: 
+
+Thus, if the project rights are for 20 years, the annual cost of delay works out to 
+ or 5% in the
+first year. Note, though, that this cost of delay rises each year, to 
+ in year 2, 
+ in year 3, and so
+on, making the cost of delaying exercise larger over time.
+2.
+ If the cash flows are uneven, the cost of delay can be more generally defined in terms of the
+cash flow that can be expected to occur over the next period as a percent of the present value
+today: 
+In either case, the likelihood that a firm will delay investing in a project is higher early in the
+exclusive rights period rather than later and will increase as the loss in cash flows from waiting a
+period increases.
+optvar.xls:
+
+This dataset on the Web summarizes standard deviations in firm value and equity value by
+industry group in the United States.
+ILLUSTRATION 28.1: Valuing the Option to Delay a

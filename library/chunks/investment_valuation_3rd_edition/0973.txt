@@ -1,0 +1,21 @@
+undred firms in the United States,
+some with significant market values, that have negative book values for equity. There are two types of
+restrictions on book value of equity that may affect value.
+1.
+
+Regulatory capital restrictions.
+ Financial service firms such as banks and insurance
+
+companies are required to maintain book equity as a fraction of loans or other assets at or above a
+floor ratio specified by the authorities. Firms that violate these capital constraints can be taken
+over by the regulatory authorities and will have to cease operating. Not surprisingly, financial
+service firms not only keep a close eye on their book value of equity (and the related ratios) but
+are also conscious of the possibility that the risk in their investments or positions can manifest
+itself as a drop in book equity. In fact, value at risk (VAR), a risk measurement device used by
+many financial service firms, represents the efforts to understand the potential risks in their
+investments and to be ready for the possibility of a catastrophic outcome, though the probability of
+it occurring might be very small. By simulating the values of their investments under a variety of
+scenarios, investors can identify not only the possibility of a bank falling below the regulatory
+ratios but also the valuation consequences, which can range from loss of all equity value, as a
+worst case, to dilution from new equity capital issues, as a best case.
+2.

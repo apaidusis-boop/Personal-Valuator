@@ -1,0 +1,5 @@
+ix of profit margin and capital turnover that maximizes its ROC. The return on capital varies widely
+across firms in different businesses, largely as a consequence of differences in profit margins and
+
+capital turnover ratios.
+mgnroc.xls:

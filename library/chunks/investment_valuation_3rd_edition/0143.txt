@@ -1,0 +1,29 @@
+(A 0.5 percent rule implies that a stock is bought
+when it rises 0.5 percent from a previous low and is sold when it falls 0.5 percent from a prior high.)
+Table 6.1
+ Returns on Filter Rule Strategies
+
+The only filter rule that beats the returns from the buy-and-hold strategy is the 0.5 percent rule, but it
+does so before transaction costs. This strategy creates 12,514 trades during the period, which
+generate enough transaction costs to wipe out the principal invested by the investor. While this test is
+dated, it also illustrates basic problems with strategies that require frequent short-term trading. Even
+though these strategies may earn excess returns prior to transaction costs, adjusting for these costs can
+wipe out the excess returns.
+One popular indicator among investors that is a variant on the filter rule is the relative strength
+measure, which relates recent prices on stocks or other investments either to average prices over a
+specified period, say over six months, or to the price at the beginning of the period. Stocks that score
+high on the relative strength measure are considered good investments. This investment strategy is
+also based upon the assumption of price momentum.
+Runs Tests
+A runs test is a nonparametric variation on the serial correlation, and it is based on a count of the
+number of runs (i.e., sequences of price increases or decreases) in the price changes. Thus, the
+following time series of price changes, where U is an increase and D is a decrease, would result in
+the following runs:
+There were 18 runs in this price series of 33 periods. The actual number of runs in the price series is
+compared against the number that can be expected in a series of this length, assuming that price
+changes are random.
+9
+ If the actual number of runs is greater than the expected number, there is
+evidence of negative correlation in price changes. If it is lower, there is evidence of positive
+correlation. A 1966 study by Niederhoffer and Osborne of price changes in the Dow 30 stocks
+assuming daily, four-day, nine-day, and 16-day return intervals provided the following results:

@@ -1,0 +1,23 @@
+s return on equity. In fact, the expected growth rate of a firm can
+be written as:
+The PEG ratio should therefore be higher for firms with higher returns on equity for a given growth rate.
+eqmult.xls:
+
+This spreadsheet allows you to estimate the PEG ratio for a stable-growth or high-growth
+firm, given its fundamentals.
+Using the PEG Ratio for Comparisons
+As with the PE ratio, the PEG ratio is used to compare the valuations of firms that are in the same
+business. As noted in the preceding section, the PEG ratio is a function of the risk, growth potential,
+and payout ratio of a firm. This section looks at ways of using the PEG ratio and examines some of
+the problems in comparing PEG ratios across firms.
+Direct Comparisons
+Most analysts who use PEG ratios compute them for firms within a sector (or comparable firm group)
+and compare these ratios. Firms with lower PEG ratios are usually viewed as undervalued, even if
+growth rates are different across the firms being compared. This approach is based on the incorrect
+perception that PEG ratios control for differences in growth. In fact, direct comparisons of PEG
+ratios work only if firms are similar in terms of growth potential, risk, and payout ratios (or returns
+on equity). If this were the case, however, you could just as easily compare PE ratios across firms.
+When PEG ratios are compared across firms with different risk, growth, and payout characteristics,
+and judgments are made about valuations based on this comparison, you will tend to find that:
+The relationship between growth and PEG ratios is a volatile one. Initially, as growth
+increases, PEG ratios decrease, but at some point the relationship reverses itself. Put

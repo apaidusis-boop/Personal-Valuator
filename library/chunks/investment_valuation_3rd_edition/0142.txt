@@ -1,0 +1,23 @@
+periods. For very short return intervals, this bias induced in serial correlations might dominate
+and create the mistaken view that price changes in consecutive time periods are negatively correlated.
+
+Filter Rules
+In a filter rule, an investor buys an investment if the price rises X percent from a previous low and
+holds the investment until the price drops X percent from a previous high. The magnitude of the
+change (X percent) that triggers the trades can vary from filter rule to filter rule, with smaller changes
+resulting in more transactions per period and higher transaction costs. 
+Figure 6.1
+ graphs out a typical
+filter rule.
+Figure 6.1
+ Filter Rule
+This strategy is based on the assumption that price changes are serially correlated and that there is
+price momentum (i.e., stocks that have gone up strongly in the past are more likely to keep going up
+than to go down). 
+Table 6.1
+ summarizes results—Fama and Blume (1966) and Jensen and Bennington
+(1970)—from a study on returns, before and after transactions costs, on a trading strategy based on
+filter rules ranging from 0.5 percent to 20 percent. (A 0.5 percent rule implies that a stock is bought
+when it rises 0.5 percent from a previous low and is sold when it falls 0.5 percent from a prior high.)
+Table 6.1
+ Returns on Filter Rule Strategies

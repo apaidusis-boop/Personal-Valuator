@@ -1,0 +1,23 @@
+Definition
+
+A robo-advisor is a digital platform that provides automated, algorithm-driven financial planning and investment services with little human intervention.
+
+A robo-advisor is an automated, algorithm-driven financial planning and investment service with little to no human supervision. A typical robo-advisor asks questions about your financial situation and future goals through an online survey. It then uses the data to offer advice and automatically invest for you.
+
+Other common designations for robo-advisors include "automated investment advisor," "automated investment management," and "digital advice platforms."
+
+The [best robo-advisors](https://www.investopedia.com/the-best-robo-advisors-8764849) offer easy account setup, robust goal planning, account services, and portfolio management. Additionally, they offer security features, comprehensive education, and low fees.
+
+### Key Takeaways
+
+- Robo-advisors are digital platforms that provide automated, algorithmic investment services with minimal human supervision.
+- They often automate and optimize passive indexing strategies based on [modern portfolio theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp).
+- Robo-advisors are often inexpensive and require low opening balances, making them available to retail investors.
+- They are best suited for traditional investing and aren't the best options for more complex issues, such as estate planning.
+- Robo-advisors have been criticized for their lack of empathy and complexity.
+
+:max_bytes(150000):strip_icc():format(webp)/Roboadvisor-roboadviser_final-9c0f2c35944e4da6aae8646a832069d1.png)
+
+Investopedia / Michela Buttignol
+
+## Robo-Advisors: History and Investing Strategy

@@ -1,0 +1,25 @@
+pected to follow the strict structure laid out in the model—it drops in linear increments each year
+based on the initial growth rate, the stable growth rate, and the length of the extraordinary growth
+
+period. While small deviations from this assumption do not affect the value significantly, large
+deviations can cause problems. Second, the assumption that the payout ratio is constant through both
+phases of growth exposes the model to an inconsistency—as growth rates decline, the payout ratio
+usually increases.
+Firms Model Works Best For
+The allowance for a gradual decrease in growth rates over time may make this a useful model for
+firms that are growing rapidly right now, but where the growth is expected to decline gradually over
+time as the firms get larger and the differential advantage they have over their competitors declines.
+The assumption that the payout ratio is constant, however, makes this an inappropriate model to use
+for any firm that has low or no dividends currently. Thus, the model, by requiring a combination of
+high growth and high payout, may be quite limited
+3
+ in its applicability.
+ILLUSTRATION 13.7: 
+Valuing with the H Model: Vodafone
+Vodafone, a UK-based telecommunications firm, paid dividends per share of 9.8 pence on earnings per share of 16.1 pence
+in 2010. The firm’s earnings per share had grown at 6% over the prior five years but the growth rate is expected to decline
+linearly over the next five years to 3%, while the payout ratio remains unchanged. The beta for the stock is 1, the risk-free
+rate in British pounds is 4% and the market risk premium is 5%.
+The stock can be valued using the H model:
+The stock was trading at 173.3 pence in May 2011, making it slightly under-valued.
+DDMH.xls:

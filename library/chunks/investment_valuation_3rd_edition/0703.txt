@@ -1,0 +1,23 @@
+xpect
+this to remain unchanged over the next five years, estimate the cost of capital for the firm each
+year for the next five years. (The risk-free rate is 5.6%, and the risk premium is 4%.) The debt
+
+ratio is expected to decline from 70% in the current year to 50% in year 5 in linear increments.
+6.
+ You have estimated the value of Vitale Systems, an Internet software firm, to be $700 million
+as a going concern, seven times its book value. However, you are concerned that Vitale might not
+survive the next five years and estimate the probability of failure at 40%. If the firm fails, you
+expect its assets to sell for 1.5 times book value. If there are 30 million shares outstanding,
+estimate the value per share. (The firm has no debt or options outstanding.)
+1
+ In 2011, for instance, the target rate of return for venture capitalists ranged from 30% to 70%,
+depending upon whether the company in question was in the earlier or later stages of the start up
+cycle. In contrast, using a conventional risk and return model, you would be hard pressed to get
+costs of equity that exceed 20%.
+2
+ One simple approach is to scale all of the inputs to reflect the growth in revenues that has
+occurred between the last financial year and the trailing 12 months.
+3
+ The conventional approach is to regress returns on a stock against returns on a market index over
+a past period, say two to five years.
+4

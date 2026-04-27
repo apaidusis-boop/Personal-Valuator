@@ -1,0 +1,66 @@
+st 80% of their operating income in the next five years and 50% of earnings
+after that. The growth rate after year 5, for both firms, is 6%. Both firms have total sales of $2.5 billion.
+VALUING FAMOUS
+
+VALUING NOFRILLS
+ILLUSTRATION 20.8: Valuing a Brand Name: Coca-Cola
+in May 2011
+We estimated an enterprise value to sales ratio of 3.51 for Coca-Cola in May 2011 in Illustration 20.3, based on its strong
+operating margin and return on capital. It is undeniable that Coca-Cola has one of the most recognizable and valuable brand
+names in the world, but there are two key questions that need to be answered:
+1.
+ Should we be adding a premium to the estimated EV/sales ratio for the strength of the brand name?
+2.
+ How much is the brand name adding to Coca-Cola’s overall value?
+The answer to the first question is no. After all, it is the strength of the brand name that has allowed Coca-Cola to generate
+an after-tax operating margin of 14.43% and a return on capital of 16%. Adding a premium to estimated value would amount
+to double counting. The answer to the second question is nuanced. A segment of the estimated enterprise value can be
+attributed to the strong brand name, and it becomes a matter of isolating its impact.
+The first step in estimating the value added by the brand name is finding out how much differential advantage Coca-Cola
+generates as a result of its brand name. In this pursuit, we were lucky to find a manufacturer of generics, Cott Corporation,
+that is publicly traded. In the following table, we summarize the values for Coca-Cola and Cott in 2010 (in millions for dollar
+values):
+Coca-Cola
+Cott
+Market value of equity
+$152,200
+$ 
+809
+Debt
+$ 11,859
+$ 
+345
+Cash
+$ 
+4,979
+$ 
+27
+Enterprise value
+$159,080
+$1,127
+Sales
+$ 35,119
+$1,803
+Pretax operating income
+$ 
+8,449
+$ 
+99
+EBITDA
+$ 
+9,892
+$ 
+173
+Capital Invested
+$ 31,679
+$ 
+626
+Tax rate
+40%
+40%
+Beta—High growth
+0.9
+1.25
+Pretax cost of debt
+4.50%
+6%

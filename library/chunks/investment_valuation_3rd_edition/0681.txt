@@ -1,0 +1,36 @@
+ter-tax EBIT for the firm each year for the next five
+years, assuming a corporate tax rate of 40%.
+b.
+ Estimate the FCFF each year for the next five years.
+c.
+ Estimate the terminal value of the firm.
+
+d.
+ Estimate the value of the firm today.
+e.
+ How would your valuation change if you were told that there is a 20% chance that the
+firm will go bankrupt and that assets will have a distress sale value amounting to 60% of
+the current book value of $1.25 billion?
+1
+ Germany has a particularly complicated tax structure since it has different tax rates for retained
+earnings and dividends, which makes the tax rate a function of a firm's dividend policy.
+2
+ The circular reasoning comes in because we use the current market value of equity and debt to
+compute the cost of capital. We then use the cost of capital to estimate the value of equity and debt.
+If this is unacceptable, the process can be iterated, with the cost of capital being recomputed using
+the estimated values of debt and equity, and continued until there is convergence.
+3
+ To compute the return on capital, we aggregated the book value of equity ($126,044 million), the
+book value of debt ($9,566 million) and netted out cash ($33,981 million) from the end of 2007, to
+arrive at an invested capital value of $101,629 million. The return on capital is computed as
+follows: 
+4
+ It is worth noting that IBM made a fulsome recovery in the following decades by going back to
+basics, cutting costs, and refocusing its efforts on business services.
+5
+ Without interest expenses, Hyundai would have paid taxes on its operating income of 89 billion
+krw. Because of its interest payments, Hyundai was able to not pay taxes. Of the 99 billion krw in
+interest payments, Hyundai is receiving tax benefits on 89 billion krw.
+6
+ You could discount the expected cash flows on the debt at a pretax cost of debt that reflects the
+firm's current standing.

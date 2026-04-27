@@ -1,0 +1,42 @@
+he value into US$ at the prevailing exchange rate of 2.252 yields a dollar value for the operating assets of
+$26,315 million, very close to our dollar-based estimate of $26,996 million.
+fcffginzu.xls:
+
+This spreadsheet allows you to estimate the value of a firm using the FCFF approach.
+NET DEBT VERSUS GROSS DEBT
+In valuing the companies in this chapter, we used total debt outstanding (gross debt) rather than net debt where cash was
+netted out against debt. What is the difference between the two approaches, and will the valuations from the two
+approaches agree?
+  A comparison of gross and net debt valuations reveals the differences in the way we approach the calculation of key inputs
+to the valuation, summarized as follows:
+Gross Debt
+Net Debt
+Levered beta
+Unlevered beta is levered using gross debt to market equity ratio.
+Unlevered beta is levered using net debt to market equity ratio.
+Cost of capital
+Debt-to-capital ratio used is based on gross debt.
+Debt-to-capital ratio used is based on net debt.
+Treatment of cash
+and debt
+Cash is added to value of operating assets and gross debt is subtracted
+to get to equity value.
+Cash is not added back to operating assets and net debt is subtracted
+to get to equity value.
+  While working with net debt in valuation is not difficult to do, the more interesting question is whether the value that
+emerges will be the same as the value that would have been estimated using gross debt. In general the answer is no, and the
+reason usually lies in the cost of debt used in the net debt valuation. Intuitively, what you are doing when you use net debt is
+break the firm into two parts—a cash business, which is funded 100 percent with riskless debt, and an operating business
+funded partly with risky debt. Carrying this to its logical conclusion, the cost of debt you would have for the operating
+business would be significantly higher than the firm's current cost of debt. This is because the current lenders to the firm will
+factor in the firm's cash holdings when setting the cost of debt.
+  To illustrate, assume that you have a firm with an overall value of $1 billion—$200 million in cash and $800 million in
+operating assets—with $400 million in debt and $600 million in equity. The firm's cost of debt is 7 percent, a 2 percent
+default spread over the risk-free rate of 5 percent; note that this cost of debt is set based on the firm's substantial cash
+holdings. If you net debt against cash, the firm would have $200 million in net debt and $600 million in equity. If you use the 7
+percent cost of debt to value the firm now, you will overstate its value. Instead, the cost of debt you should use in the
+valuation is 9 percent:
+  In general, we would recommend using gross debt rather than net debt for two other reasons. First, the net debt can be a
+negative number if cash exceeds the gross debt. If this occurs, you should set the net debt to zero and consider the excess
+cash just as you would cash in a gross debt valuation. Second, maintaining a stable net debt ratio in a growing firm will
+require that cash balances increase as the firm value increases.

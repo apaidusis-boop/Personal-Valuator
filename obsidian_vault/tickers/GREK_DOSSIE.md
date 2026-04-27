@@ -39,6 +39,8 @@ GREK (ETF Grécia) cota P/E 11.22, DY 3.25% e YoY +41.8% — beta Greek banking 
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

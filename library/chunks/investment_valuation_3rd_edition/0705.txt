@@ -1,0 +1,45 @@
+ions of the company (and pushed the stock price up tenfold in the process).
+9
+ In the 1990s, Microsoft developed a reputation for talking down expectations and then beating
+them on a consistent basis.
+
+CHAPTER 
+24
+Valuing Private Firms
+So far this book has concentrated on the valuation of publicly traded firms. In this chapter, we turn
+our attention to the thousands of firms that are private businesses. These businesses range in size from
+small family businesses to some that rival large publicly traded firms in revenues and profitability.
+The principles of valuation remain the same, but there are estimation problems that are unique to
+private businesses. The information available for valuation tends to be much more limited in terms of
+both history and depth, since private firms are often not governed by the standardized accounting and
+reporting standards of publicly traded firms. In addition, the standard techniques for estimating risk
+parameters such as beta and standard deviation require market prices for equity, an input that is
+lacking for private firms.
+When valuing private firms, the motive for the valuation matters and can affect the value. In
+particular, the value that is attached to a publicly traded firm may be different when it is being valued
+for sale to an individual, for sale to a publicly traded firm, or for an initial public offering. In
+particular, whether there should be a discount on value for illiquidity and nondiversifiable risk or a
+premium for control will depend on the motive for the valuation. Each of these components will be
+considered over the course of this chapter.
+WHAT MAKES PRIVATE FIRMS DIFFERENT?
+There are a number of common characteristics shared by private firms with publicly traded firms, but
+there are four significant differences that can affect how we estimate inputs for valuation.
+1.
+ Publicly traded firms are governed by a set of accounting standards that allow us not only to
+identify what each item in a financial statement includes but also to compare earnings across
+firms. Private firms, especially if they are not incorporated, operate under far looser standards,
+and there can be wide differences between firms on how items are accounted for.
+2.
+ There is far less information about private firms in terms of both the number of years of data
+that is typically available and, more importantly, the amount of information available each year.
+For instance, publicly traded firms have to break down operations by business segments in their
+filings with the SEC and provide information on revenues and earnings by segment. Private firms
+do not have to provide this information, and usually do not.
+3.
+ A constantly updated price for equity and historical data on this price are very useful pieces of
+information that we can obtain easily for publicly traded firms but not for private firms. In
+addition, the absence of a ready market for private firm equity also means that liquidating an
+equity position in a private business can be far more difficult (and expensive) than liquidating a
+position in a publicly traded firm.
+4.
+ In publicly traded firms, the stockholders tend to hire managers to run the firms, and most

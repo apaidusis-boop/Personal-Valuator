@@ -1,0 +1,39 @@
+=== Variant Perception scan — all holdings (weighted=True) ===
+  BR:BBDC4     ours=bullish    consenso=neutral     variance=medium_variance_long   mag=2
+  BR:BTLG11    ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:ITSA4     ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:IVVB11    ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:KLBN11    ours=neutral    consenso=no_data     variance=unmeasurable           mag=0
+  BR:LFTB11    ours=neutral    consenso=no_data     variance=unmeasurable           mag=0
+  BR:PRIO3     ours=bullish    consenso=neutral     variance=medium_variance_long   mag=2
+  BR:PVBI11    ours=bullish    consenso=neutral     variance=medium_variance_long   mag=2
+  BR:RBRX11    ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:VALE3     ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:VGIR11    ours=bullish    consenso=bullish     variance=low_consensus_long     mag=1
+  BR:XPML11    ours=neutral    consenso=bullish     variance=missing_upside         mag=2
+  US:AAPL      ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:ABBV      ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:ACN       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:BLK       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:BN        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:BRK-B     ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:GREK      ours=neutral    consenso=no_data     variance=unmeasurable           mag=0
+  US:GS        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:HD        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:JNJ       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:JPM       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:KO        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:NU        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:O         ours=neutral    consenso=no_data     variance=unmeasurable           mag=0
+  US:PG        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:PLD       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:PLTR      ours=bullish    consenso=neutral     variance=medium_variance_long   mag=2
+  US:TEN       ours=neutral    consenso=no_data     variance=unmeasurable           mag=0
+  US:TSLA      ours=bullish    consenso=neutral     variance=medium_variance_long   mag=2
+  US:TSM       ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+  US:XP        ours=bullish    consenso=no_data     variance=unmeasurable           mag=0
+
+=== Summary ===
+  HIGH variance (0):
+  Medium variance: 6
+  Low/aligned: 27

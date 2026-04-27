@@ -1,0 +1,23 @@
+cs of equity. In fact, equity continues
+to have value in this example even if the value of the assets drops to $10 million as shown in 
+Figure 30.2
+.
+Figure 30.2
+ Value of Equity as Firm Value Changes
+
+Increasing Risk Can Increase Equity Value
+In traditional discounted cash flow valuation, higher risk almost always translates into lower value
+for equity investors. When equity takes on the characteristics of a call option, you should not expect
+this relationship to continue to hold. Risk can become your ally, when you are an equity investor in a
+troubled firm. In essence, you have little to lose and much to gain from swings in firm value.
+ILLUSTRATION 30.3: 
+Equity Value and Volatility
+Let us revisit the valuation in Illustration 30.1. The value of the equity is a function of the standard deviation in firm value,
+which we assumed to be 40%. If we change this estimate, holding all else constant, the value of the equity will increase as
+evidenced in 
+Figure 30.3
+.
+Figure 30.3
+ Equity Value and Standard Deviation in Firm Value
+Note that the value of equity increases, if we hold firm value constant, as the standard deviation increases. The interest rate
+on debt also increases, as the standard deviation increases.

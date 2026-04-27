@@ -1,0 +1,55 @@
+very
+difficult time consistently beating financial markets. Read together, the persistence of the
+irregularities and the inability of money managers to beat the market are testimony to the gap between
+
+empirical tests on paper and real-world money management in some cases, and the failure of the
+models of risk and return in others.
+MARKET INEFFICIENCIES AND MONEY MANAGER
+PERFORMANCE
+The evidence on markets is contradictory. On the one hand, there seem to be numerous patterns in stock prices—stock
+prices reverse course in the long term and returns are higher in January—and evidence of market anomalies—small-market-
+cap firms with low price-to-book and price-to-earnings ratios seem to handily beat the market. On the other hand, there
+seems to be little evidence of money managers being able to exploit these findings to beat the market.
+There are a number of possible explanations. The most benign one is that the inefficiences show up mostly in hypothetical
+studies and that the transaction cost and execution problems associated with converting these inefficiencies into portfolios
+overwhelm the excess returns. A second possible explanation is that the studies generally look at the long term; many are
+over 20 to 50 years. Over shorter periods, there is substantially more uncertainty about whether small stocks will outperform
+large stocks and whether buying losers will generate excess returns. There are no investment strategies that are sure bets
+for short periods. Pradhuman (2000) illustrates this phenomenon by noting that small-cap stocks have underperformed large-
+cap stocks in roughly one out of every four years in the past 50 years. Bernstein (1998) notes that while value investing
+(buying low PE and low price-to-book value stocks) may earn excess returns over long periods, growth investing has
+outperformed value investing over many five-year periods during the past three decades. A third explanation is that portfolio
+managers do not consistently follow any one strategy but jump from one strategy to another, both increasing their expenses
+and reducing the likelihood that the strategy can generate excess returns in the long term.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Which of the following is an implication of market efficiency? (There may be more than one
+right answer.)
+a.
+ Resources are allocated among firms efficiently (i.e., put to best use).
+b.
+ No investor will do better than the market in any time period.
+c.
+ No investor will do better than the market consistently.
+d.
+ No investor will do better than the market consistently after adjusting for risk.
+e.
+ No investor will do better than the market consistently after adjusting for risk and transaction
+costs.
+f.
+ No group of investors will do better than the market consistently after adjusting for risk and
+transaction costs.
+2.
+ Suppose you are following a retailing stock that has a strong seasonal pattern to sales. Would
+you expect to see a seasonal pattern in the stock price as well?
+3.
+ Tests of market efficiency are often referred to as joint tests of two hypotheses—the hypothesis
+that the market is efficient and an expected returns model. Explain. Is it ever possible to test
+market efficiency alone (i.e., without jointly testing an asset pricing model)?
+4.
+ You are in a violent argument with a chartist. He claims that you are violating the fundamental
+laws of economics by trying to find intrinsic value. “Price is determined by demand and supply,
+not by some intrinsic value.” Is finding an intrinsic value inconsistent with demand and supply?
+5.
+ You are testing the effect of merger announcements on stock prices. (This is an event study.)

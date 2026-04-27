@@ -1,0 +1,22 @@
+etagem de seguros, dado que 84% do resultado líquido é oriundo dessa atividade, com o restante sendo obtido a partir da venda de consórcios, originação de crédito para o BB e da prestação de serviços.
+
+Podemos dividir as unidades de negócio da Wiz em **Seguros, Originação de Crédito, Run-off e Serviços.**
+
+### Seguros
+
+O carro-chefe da Wiz está na venda de seguros por meio de canais bancários, o chamado *bancassurance.* As principais operações da área são:
+
+- **1) Inter Seguros:** desfruta dos ventos favoráveis de crescimento de um banco digital que alcançou 36 milhões de clientes ativos em 2024. Modelo *asset light* e escalável, mas com *tickets* médios baixos. A expansão da base de clientes é impressionante. Desde a pandemia, o banco multiplicou por quase 4 vezes o número de clientes ativos, como indica o gráfico abaixo.
+
+*Fonte: Inter. Elaboração Suno Research.*
+
+- **2) BRB Seguros:** banco estatal de Brasília com foco em servidores de alta renda. Venda de seguros mais intensiva em pessoal e agências físicas.
+- **3) BMG Seguros:** canal bancário focado em aposentados, pensionistas e servidores de média-baixa renda. Opera com um modelo híbrido, combinando atendimento presencial por meio de pequenas agências e correspondentes bancários com uma crescente presença digital.
+
+### Originação de crédito e venda de consórcios
+
+As duas empresas que atuam na área são a Wiz Parceiros e a Promotiva, sendo a segunda mais relevante.
+
+A Promotiva é uma rede de correspondentes bancários com um contrato de exclusividade não-mútua com o Banco do Brasil até 2027. Isso significa que a empresa só pode conceder crédito para o banco estatal, enquanto o BB pode originar crédito por meio de outras redes de correspondentes.
+
+*Fonte: Wiz.*

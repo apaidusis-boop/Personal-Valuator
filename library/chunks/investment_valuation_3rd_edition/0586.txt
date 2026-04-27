@@ -1,0 +1,64 @@
+re are two things worth noting in this distribution. The first is that revenue multiples are skewed
+just like earnings or book value multiples. The second is that the price-to-sales ratio is generally
+
+lower than the EV-to-sales ratio, which should not be surprising since the former includes only equity
+while the latter considers enterprise value.
+Table 20.1
+ provides summary statistics on both the price to sales and the value to sales ratios. The
+average values for both multiples are much higher than the median values, largely as the result of
+outliers—there are firms that trade at multiples that exceed 100 or more.
+Table 20.1
+ Price-to-sales and EV/Sales Multiples: Distributional Statistics for U.S. firms in January
+2011
+PS Ratio
+EV/Sales Ratio
+Number of firms
+4,766
+4,766
+Average
+36.36
+34.45
+Median
+1.30
+1.48
+25th percentile
+0.55
+0.32
+75th percentile
+3.10
+3.29
+Analysis of Revenue Multiples
+The variables that determine the revenue multiples can be extracted by going back to the appropriate
+discounted cash flow models—dividend discount model (or an FCFE valuation model) for price-to-
+sales ratios and a firm valuation model for value-to-sales ratios.
+psdata.xls:
+
+This dataset on the Web summarizes price-to-sales and value-to-sales ratios and
+fundamentals by industry group in the United States for the most recent year.
+Price-to-Sales Ratios
+The price-to-sales ratio for a stable firm can be extracted from a stable growth dividend discount
+model:
+where P
+0
+ = Value of equity 
+DPS
+1
+ = Expected dividends per share next year 
+k
+e
+ = Cost of equity 
+g
+n
+ = Growth rate in dividends (forever)
+Substituting in for DPS
+1
+ = EPS
+0
+(1 + g
+n
+)(Payout ratio), the value of the equity can be written as:
+Defining the net profit margin = EPS
+0
+/Sales per share, the value of equity can be written as:
+Rewriting in terms of the price-sales ratio,
+The PS ratio is an increasing function of the profit margin, the payout ratio, and the growth rate, and a

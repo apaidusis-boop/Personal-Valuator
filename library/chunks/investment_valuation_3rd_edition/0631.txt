@@ -1,0 +1,41 @@
+in previous years will
+become the current year's amortization expense.
+4.
+
+Adjust the net income for the firm.
+ The net income for the firm is adjusted for the capitalization
+of employee expenses:
+5.
+
+Compute the value of the human capital.
+ The value of human capital in the firm can be
+computed by adding up the unamortized portion of the employee development expenses in each of
+the prior years.
+Employee development expenses are more difficult to capitalize than research and development
+expenses for two reasons. The first is that while research expenses are usually consolidated and
+reported as one item on a financial statement, employee development expenses tend to be widely
+spread across the firm and may be included in several different items in an income statement.
+Disentangling these expenses from employee salary and benefits may be difficult to do. The second is
+that the patents and licenses that emerge from R&D belong to the firm, and often give it exclusive
+rights in commercial use. A firm's employees, on the other hand, are mobile and may, and often do,
+move to competitors who offer them better terms.
+Assuming that we can get over these practical difficulties in valuing human capital, let us consider
+the factors that determine the value that human capital adds to a firm. The first is the employee
+turnover ratio; as this ratio rises, the amortizable life for employee expenses will fall and with it the
+value of human capital. The second relates to the resources spent by the firm in employee
+development and training; the greater the resources, the greater the value assigned to human capital.
+There is a third and often ignored factor. If we consider human capital as an asset, it is the excess
+returns that we make on the asset that create value. To create excess returns, a firm will have to pay
+an employee less than what he or she generates in value to the firm. To illustrate, an investment bank
+will generate value from a bond that works for it only if it pays that trader less than what he or she
+generates in profits for the firm. Why might the trader settle for less? One reason might be that the
+investment bank has some unique capability that allows the trader to earn these profits; this unique
+capability might come from proprietary information, client lists, or market position. Another reason
+might be noneconomic; the trader may have enough goodwill toward the investment bank that he or
+she might be willing to give up higher compensation elsewhere. Firms that treat their employees well
+and are loyal to them in bad times are more likely to earn this goodwill and have higher value as a
+consequence.
+Investments in Regulatory Capital
+For a financial service firm that is regulated based on capital ratios, equity earnings that are not paid
+out increase the equity capital of the firm and allow it to expand its activities. For instance, a bank
+that has a 5 percent equity capital ratio can make $100 in loans for every $5 in equity capital. When

@@ -1,0 +1,25 @@
+become internally inconsistent over time. To make sure that the expected return on capital as the firm
+matures is a number that we can live with, we estimated the imputed return on capital each year:
+
+The capital invested at the start of year 1 is the capital invested in the 2010 balance sheet, computed as follows:
+The capital invested in subsequent years is estimated by adding the reinvestment for the year to the capital invested at the
+start:
+The expected return on capital improves over time as margins improve. In fact, the return on capital peaks in year 8, partly
+because NOLs shelter the firm from taxes. In year 10, the return on capital is 9.79%, very close to the 10% return on capital
+that we will assume in perpetuity for Tesla Motors after year 10.
+Finally, bringing together the after-tax operating income and the reinvestment, we estimate the free cash flow to the firm
+each year for the next 10 years:
+The free cash flows to the firm are negative for the next seven years, partly because of operating losses (through year 5)
+and partly because of reinvestment needs. Based on our estimates, Tesla will need to raise about $2 billion in new capital
+(from debt and equity) over the next seven years.
+REINVESTMENT AND GROWTH: LAGGED EFFECTS
+In our valuation of Tesla, we have assumed that reinvestment and growth occur contemporaneously. In other words, the
+increase in revenues and the reinvestment that creates that increase occur simultaneously. This may seem like a radical
+assumption, but it is realistic in service businesses or when growth occurs through acquisitions.
+  If, in fact, there is a lag between reinvestment and growth, it is relatively simple to build this lag into the analysis. In the
+Tesla valuation, assuming a one-year lag, you could estimate the reinvestment in year 1 from expected revenue growth in
+year 2. The length of the lag will depend on both the firm being valued—it will be longer for firms that have to make capital-
+intensive and infrastructure investments—and the form of the reinvestment—whether it is internal or external (acquisitions).
+Step 5: Estimate Risk Parameters and Discount Rates
+In the standard approaches for estimating beta, we regress stock returns against market returns. Young
+start-up firms, even when publicly traded, have little historical data, and we cannot use the

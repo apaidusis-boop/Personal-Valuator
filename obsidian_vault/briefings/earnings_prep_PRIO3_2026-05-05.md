@@ -3,38 +3,38 @@ type: earnings_prep_brief
 ticker: PRIO3
 market: br
 earnings_date: 2026-05-05
-generated: 2026-04-26
+generated: 2026-04-27
 tags: [earnings, prep, brief]
 ---
 
 # 📞 Earnings Prep — PRIO3 (2026-05-05)
 
-_Auto-generated 9 days before call. 100% Ollama local._
+_Auto-generated 8 days before call. 100% Ollama local._
 
 ## 🔥 Top 3 things to watch
-- EBIT e FCF no Q4 (alvo > R$0.6 bi)
-- ROE em queda (alvo > 9%)
-- Dívida líquida/EBITDA alta (alvo < 2.5x)
+- EBIT e lucro líquido (objetivo: crescimento contínuo)
+- Fluxo de caixa livre (espera-se melhora após queda no Q1)
+- Dívida líquida/EBITDA (almeja redução para menos que 3.0)
 
 ## ❓ Specific questions to listen for management
-1. Como a empresa planeja melhorar o fluxo de caixa no curto prazo?
-2. Quais são os principais desafios enfrentados pelo setor neste trimestre?
-3. Como as margens operacionais devem evoluir nos próximos trimestres?
-4. Qual é a estratégia da empresa para reduzir o nível de endividamento?
-5. Como as recentes mudanças no mercado afetaram os resultados financeiros?
+1. Como a empresa planeja melhorar o fluxo de caixa livre?
+2. Quais são os planos estratégicos para aumentar a produção no próximo ano?
+3. Qual é a previsão para a dívida líquida em relação ao EBITDA nos próximos trimestres?
+4. Como as recentes parcerias com Petrobras impactam o desempenho financeiro da empresa?
+5. Quais são os principais riscos operacionais que podem afetar os resultados futuros?
 
 ## 📊 Trajectory check (vs trend)
-- Confirmar continuidade do crescimento nas receitas
-- Mudança na tendência negativa do FCF
+- Confirmar se a tendência de melhora no EBIT está continuando
+- Mudança esperada na direção do fluxo de caixa livre para positivo
 
 ## 🚨 Red flags potenciais
-- Dívida líquida/EBITDA acima de 3.5x
-- Margens operacionais abaixo de 20%
+- Dívida líquida/EBITDA permanecendo acima dos 3.0
+- Margens operacionais caindo significativamente
 
 ## 🎯 Decision framework
-- BUY MORE if: EBIT > R$0.7 bi e FCF positivo
-- HOLD if: ROE estabilizado acima de 8%
-- TRIM if: Dívida líquida/EBITDA > 4x
+- BUY MORE if: EBIT cresce mais de 15% e fluxo de caixa livre positivo
+- HOLD if: Dívida líquida/EBITDA estável ou ligeiramente em queda, mas sem grandes melhorias no fluxo de caixa
+- TRIM if: Margens operacionais declinam fortemente e dívida líquida aumenta
 
 ---
 ## 📊 Context provided to LLM
@@ -62,4 +62,20 @@ THESIS HEALTH: -1/100 (contras=0, risk_flags=0)
 ANALYST INSIGHTS (last 60d):
   [neutral] [Suno Dividendos] PRIO3 — peso 10.0%, rating Aguardar, PT R$62.75
   [bull] [BTG Value] PRIO3 — peso 2.6%
+
+WEB EARNINGS CONTEXT (Tavily synth, last 90d):
+  PetroRio (PRIO3) last quarter earnings results beat guidance. Petrobras, a major Brazilian oil company, reported a significant increase in oil and gas production and profits in 2025, contributing to the positive performance of PetroRio.
+
+WEB GUIDANCE CONTEXT (Tavily synth, last 60d):
+  Based on the most recent data, PetroRio's forward guidance for FY26 outlook on B3 Brazil is not directly available in the provided sources. However, Petrobras, a major player in the Brazilian oil and gas sector, reported a significant increase in net income for 2025, driven by higher production and operational performance. Petrobras's success could indicate a positive outlook for PetroRio, but specific forward guidance for PetroRio remains unavailable. For the most accurate and up-to-date information, it is recommended to refer directly to PetroRio's official announcements or financial reports
+
+WEB EARNINGS HEADLINES:
+  - FedEx beats on top and bottom lines, raises guidance on strong performance - CNBC
+  - Petrobras' Q4 oil and gas output rises 18% from year before - Reuters
+  - AbbVie (ABBV) Q4 Earnings: What To Expect - The Chronicle-Journal
+
+WEB GUIDANCE HEADLINES:
+  - Petrobras posts $19.6 billion profit in 2025 as production rises - World Oil
+  - Constellation locks in $1.1 billion Brazil deepwater rig extensions with Petrobras - World Oil
+  - Brazil's Petrobras sees profit soar on record output - averyjournal.com
 ```

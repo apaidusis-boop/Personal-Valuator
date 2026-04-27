@@ -1,0 +1,40 @@
+rages) and
+then relevering them, using a firm's current debt to equity ratio. With financial service firms, we
+would skip this step for two reasons. First, financial service firms tend to be much more
+
+homogeneous in terms of capital structure—they tend to all be highly levered. Second, and this is a
+point made earlier, debt is difficult to measure for financial service firms. In practical terms, this
+means that we will use the average levered beta for comparable firms as the bottom-up beta for the
+firm being analyzed.
+Payout Ratios
+The expected dividend per share in a future period can be written as the product of the expected
+earnings per share in that period and the expected payout ratio. There are two advantages of deriving
+dividends from expected earnings. The first is that it allows us to focus on expected growth in
+earnings, which is tied to the fundamentals of the firm more closely than dividends. The second is that
+the payout ratio can be changed over time, to reflect changes in growth and investment opportunities.
+The payout ratio for a bank, as it is for any other firm, is the dividend divided by the earnings. This
+said, financial service firms have conventionally paid out more in dividends than most other firms in
+the market. The dividend payout ratios and dividend yields for banks, insurance companies,
+investment banks, and investment firms are much higher than similar statistics for the rest of the
+market.
+Why do financial service firms pay out more in dividends than other firms? An obvious response
+would be that they operate in much more mature businesses than firms in sectors such as technology,
+but this is only part of the story. Even if we control for differences in expected growth rates, financial
+service firms pay out far more in dividends than other firms for two reasons. One is that banks and
+insurance companies need to invest less in net capital expenditures, at least as defined by accountants,
+than other firms. This, in turn, means that far more of the net income of these firms can be paid out as
+dividends than for a manufacturing firm. A second factor is history. Banks and insurance companies
+have developed a reputation as reliable payers of high dividends. Over time, they have attracted
+investors who like dividends, making it difficult for them to change dividend policy.
+In recent years, in keeping with a trend that is visible in other sectors as well, financial service
+firms have increased stock buybacks as a way of returning cash to stockholders. In this context,
+focusing purely on dividends paid can provide a misleading picture of the cash returned to
+stockholders. An obvious solution is to add the stock buybacks each year to the dividends paid and to
+compute the composite payout ratio. If we do so, however, we should look at the number over several
+years, since stock buybacks vary widely across time—a buyback of billions in one year may be
+followed by three years of relatively meager or no buybacks, for instance.
+Expected Growth
+If dividends are based on earnings, the expected growth rate that will determine value is the expected
+growth rate in earnings. For financial service firms, as with other firms, earnings growth can be
+estimated in one of three ways:
+1.

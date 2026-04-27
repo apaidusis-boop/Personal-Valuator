@@ -1,0 +1,27 @@
+value of equity) earn higher returns than larger firms of equivalent risk, where risk is defined
+in terms of the market beta. 
+Figure 6.9
+ summarizes returns for stocks in 10 market value classes for
+
+the period from 1927 to 2010.
+Figure 6.9
+ Annual Returns by Size Class, 1927 to 1983
+The size of the small firm premium, while it has varied across time, has been generally positive. It
+was highest during the 1970s and early 1980s and lowest during the 1990s before returning in the first
+half of the last decade. The persistence of this premium has led to several possible explanations.
+Figure 6.10
+ Returns on CRSP Small Stocks versus DFA Small Stock Fund
+1.
+ The transaction costs of investing in small stocks are significantly higher than the transaction
+costs of investing in larger stocks, and the premiums are estimated prior to these costs. While this
+is generally true, the differential transaction costs are unlikely to explain the magnitude of the
+premium across time, and are likely to become even less critical for longer investment horizons.
+The difficulties of replicating the small firm premiums that are observed in the studies in real time
+are illustrated in 
+Figure 6.10
+, which compares the returns on a hypothetical small firm portfolio
+(CRSP Small Stocks) with the actual returns on a small firm mutual fund (DFA Small Stock
+Fund), which passively invests in small stocks.
+2.
+ The capital asset pricing model may not be the right model for risk, and betas underestimate the
+true risk of small stocks. Thus, the small firm premium is really a measure of the failure of beta to

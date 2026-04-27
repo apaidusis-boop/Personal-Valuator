@@ -1,0 +1,52 @@
+down by double digits. Rates on commercial paper continued to rise, while yields on 
+three-month treasury bills fell to just above 0 percent (down from around 1.6 percent a week before) as investors 
+
+Principles For Navigating Big Debt Crises
+151
+fled to safety. Through this chaos, regulators announced a series of stabilizing measures. The SEC moved to 
+tighten controls over short sellers (a common crisis response), and bank regulators proposed revisions to accounting 
+rules to help dress up bank balance sheets.
+Let’s spend a minute on the importance of accounting, especially mark-to-market accounting. For banks, some 
+assets are “marked-to-market,” which means that every day banks take a look at what they could sell those assets 
+for, and value them at those prices. Other assets are allowed to be valued in different ways, often by an in-house 
+methodology that depends on the asset. When an asset that banks are required to mark-to-market is selling at 
+fire-sale prices, any bank holding it looks like they are taking significant losses, which reduces their capital and 
+thus requires them to raise money or sell assets, which further strains liquidity and puts further downward 
+pressure on assets. It also scares the hell out of people dealing with them. Accounting changes that allow banks to 
+realize losses over a longer time period (i.e., not marking assets to market) prevents some of these problems. Of 
+course, changing accounting rules to hide losses during a financial crisis doesn’t engender confidence either, so 
+regulators have to be careful.
+But accounting changes wouldn’t change the more fundamental issue—that overindebted US households and 
+financial institutions were defaulting on their debts because they were overlevered. It was clear that financial 
+institutions needed to be recapitalized (e.g., via an equity investment), and they needed to find buyers for their 
+more troubled assets. So Paulson turned to Congress for funding and authorization for the Treasury department to 
+play that role.
+The Government Comes Up with a Bailout Fund: September 18–31
+Paulson, Bernanke, and congressional leaders (most importantly, Barney Frank) thought the best way to restore 
+confidence was to buy troubled assets through what would become the Troubled Asset Relief Program. They could 
+have pursued nationalizing the banks, but there was no precedent for it in the US, and when banks were national -
+ized in other countries, they were penalized with harsh terms. For that reason, banks were reluctant to accept 
+capital and nationalization until just before or immediately after they failed. Paulson did not believe this was the 
+way to go, because it would be more damaging than helpful to the task of reviving capital flows. 
+Buying assets seemed sensible because a big source of the banks’ problems were the large amounts of complex, 
+highly illiquid mortgage securities on their balance sheets. The theory was that if the government provided some 
+market for them, prices would rise, capital would be freed up, and confidence would be restored, allowing the 
+banking system to begin to recapitalize. 
+When Wall Street learned about the possible TARP plan on Thursday, the market rose. The rally continued on 
+Friday, with stocks up 4 percent, as more of the details emerged. President Bush and Secretary Paulson 
+announced that the federal government was prepared to spend $500 billion to buy up troubled mortgages, while 
+congressional leaders promised to act quickly to pass any proposal. Then the Fed unveiled $180 billion in new 
+swap lines for global central banks, somewhat easing fears of a dollar liquidity crunch in foreign markets. The 
+SEC instituted a ban on the short-selling of nearly 800 financial stocks. And Goldman Sachs and Morgan 
+Stanley came under the government’s legal authority to provide a blanket of protection by voluntarily becoming 
+bank holding companies, giving them greater access to the Fed’s lending channels.
+The Treasury also unveiled a creative new move to shore up troubled money market funds, which held $3.5 
+trillion . Money market funds had become very popular as an alternative to bank deposits for both retail and 
+institutional investors. Most investors were attracted by their high interest rates and undeterred by their lack of 
+FDIC protection; they didn’t appreciate that they were delivering those higher interest rates by investing in 
+higher-yielding and higher-risk loans. They also believed that they would not lose money in them as their princi -
+pal was protected. 
+Prime money-market funds had been a crucial source of liquidity for all kinds of businesses, since they buy commer-
+cial paper, a type of short-term debt that businesses use to fund their operations. Because the commercial paper they 
+hold is generally diversified and highly rated, these funds are usually considered almost riskless—like CDs or bank 
+deposits. But a few prime funds took losses when Lehman failed, specifically the Reserve Primary Fund, which

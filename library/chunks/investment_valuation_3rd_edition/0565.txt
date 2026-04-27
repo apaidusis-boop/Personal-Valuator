@@ -1,0 +1,22 @@
+ok value ratios of
+firms against their excess returns, i.e., the difference between return and cost of equity. 
+Figure 19.5
+presents such a plot.
+Figure 19.5
+ Price-to-Book Ratios and Return on Equity
+
+If we assume that firms within a sector have similar costs of equity, we could replace the equity
+return spread with the raw return on equity. Though we often use current returns on equity in practice,
+the matrix is based on expected returns on equity in the future.
+Regression Approach
+If the price-to-book ratio is largely a function of the return on equity, we could regress the former
+against the latter:
+If the relationship is strong and linear, we could use this regression to obtain predicted price-to-book
+ratios for all of the firms in the sector, separating out those firms that are undervalued from those that
+are overvalued.
+This regression can be enriched in two ways. The first is to allow for nonlinear relationships
+between price-to-book and return on equity; this can be done either by transforming the variables
+(natural logs, exponentials, etc.) or by running nonlinear regressions. The second is to expand the
+regression to include other independent variables such as risk and growth.
+ILLUSTRATION 19.6: Comparing Price-to-Book Value
+Ratios: Integrated Oil Companies in 2000

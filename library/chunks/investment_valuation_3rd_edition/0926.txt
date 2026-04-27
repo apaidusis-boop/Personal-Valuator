@@ -1,0 +1,38 @@
+ld be made to capital invested, including adjusting for goodwill (recorded and
+unrecorded). He also suggests adjustments that need to be made to operating income, including the conversion of operating
+
+leases into financial expenses.
+Many firms that adopted EVA during this period also based management compensation on measured EVA. Consequently,
+how it was defined and measured became a matter of significant concern to managers at every level.
+To evaluate the return on this invested capital, we need an estimate of the after-tax operating
+income earned by a firm on these investments. Again, the accounting measure of operating income has
+to be adjusted for operating leases, R&D expenses, and one-time charges to compute the return on
+capital.
+The third and final component needed to estimate the economic value added is the cost of capital. In
+keeping with our arguments both in the investment analysis and the discounted cash flow valuation
+sections, the cost of capital should be estimated based on the market values of debt and equity in the
+firm, rather than book value. There is no contradiction between using book value for purposes of
+estimating capital invested and using market value for estimating cost of capital, since a firm has to
+earn more than its market value cost of capital to generate value. From a practical standpoint, using
+the book value cost of capital will tend to understate cost of capital for most firms, and will
+understate it more for more highly levered firms than for lightly levered firms. Understating the cost
+of capital will lead to overstating the economic value added.
+Economic Value Added, Net Present Value, and Discounted Cash
+Flow Valuation
+One of the foundations of investment analysis in traditional corporate finance is the net present value
+rule. The net present value (NPV) of a project, which reflects the present value of expected cash
+flows on a project, netted against any investment needs, is a measure of dollar surplus value on the
+project. Thus, investing in projects with positive net present value will increase the value of the firm,
+while investing in projects with negative net present value will reduce value. Economic value added
+is a simple extension of the net present value rule. The net present value of the project is the present
+value of the economic value added by that project over its life.
+2
+where EVA
+t
+ is the economic value added by the project in year t, and the project has a life of n years.
+This connection between economic value added and NPV allows us to link the value of a firm to the
+economic value added by that firm. To see this, let us begin with a simple formulation of firm value in
+terms of the value of assets in place and expected future growth:
+Note that in a discounted cash flow model, the values of both assets in place and expected future
+growth can be written in terms of the net present value created by each component:
+Substituting the economic value added version of net present value into this equation, we get:

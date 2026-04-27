@@ -1,0 +1,19 @@
+.
+While the generally accepted accounting principles (GAAP) for valuing an asset vary across different
+kinds of assets, three principles underlie the way assets are valued in accounting statements:
+1.
+
+An abiding belief in book value as the best estimate of value.
+ Accounting estimates of asset
+value begin with the book value, and unless a substantial reason is given to do otherwise,
+accountants view the historical cost as the best estimate of the value of an asset.
+2.
+
+A distrust of market or estimated value.
+ When a current market value exists for an asset that is
+different from the book value, accounting convention seems to view this market value with
+suspicion. The market price of an asset is often viewed as both much too volatile and too easily
+
+manipulated to be used as an estimate of value for an asset. This suspicion runs even deeper when
+a value is estimated for an asset based on expected future cash flows.
+3.

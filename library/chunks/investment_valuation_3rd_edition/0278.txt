@@ -1,0 +1,32 @@
+, and the amortization of the research asset is $150 million. Reestimate Stellar
+Computers' return on capital.
+1
+ If only amortization were tax deductible, the tax benefit from R&D expenses would be: 
+
+This extra tax benefit we get from the entire R&D being tax deductible is as follows: 
+
+If we subtract out (R&D – Amortization)(1 – Tax rate) and then add the differential tax benefit that
+is computed above, (1 – Tax rate) drops out of the equation.
+2
+ If the return on capital earned by a firm is well below the cost of capital, the adjustment could
+result in a higher return.
+3
+ As an example, Jamie Kiggen, an equity research analyst at Donaldson, Lufkin & Jenrette, valued
+an Amazon customer at $2,400 in an equity research report in 1999. This value was based on the
+assumption that the customer would continue to buy from Amazon.com and on an expected profit
+margin from such sales.
+4
+ The value is rounded to the nearest integer.
+5
+ The lease life is computed by adding the estimated annuity life of two years for the lump sum to
+the initial five years.
+6
+ I/B/E /S estimates.
+7
+ Microsoft preserved its credibility with analysts by also letting them know when their estimates
+were too low. Firms that are consistently pessimistic in their analyst presentations lose their
+credibility and consequently their effectiveness in managing earnings.
+8
+ Firms that bought Windows 95 in 1995 also bought the right to upgrades and support in 1996 and
+1997. Microsoft could have shown these as revenues in 1995.
+9

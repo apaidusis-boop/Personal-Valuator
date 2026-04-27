@@ -1,0 +1,45 @@
+=== Methods generation from Damodaran — 2026-04-24 overnight ===
+
+Candidates (top actionable): 25
+
+
+--- Processing: Portfolio variance calculation
+  skipped: {'_error': 'while constructing a mapping\n  in "<unicode string>", line 17, column 52:\n     ...  be expressed in rules, return: {{"skip": "reason"}}\n                                         ^\nfound unhashable key\n  in "<unicode string>", line 17, column 53:\n     ... be expressed in rules, return: {{"skip": "reason"}}\n                                         ^'}
+
+--- Processing: Arbitrage Pricing Theory (APT)
+  OK -> damodaran_auto_arbitrage_pricing_theory.yaml  (2 rules)
+
+--- Processing: Valuation Method
+  OK -> damodaran_auto_valuation_method.yaml  (1 rules)
+
+--- Processing: Takeover Premium Analysis
+  OK -> damodaran_auto_takeover_premium_analysis.yaml  (3 rules)
+
+--- Processing: Arithmetic versus Geometric Averages
+  OK -> damodaran_auto_geometric_mean_growth.yaml  (1 rules)
+
+--- Processing: H Model
+  OK -> damodaran_auto_h_model.yaml  (3 rules)
+
+--- Processing: Expected Return and Standard Deviation Calculation
+  OK -> damodaran_auto_expected_return_calculation.yaml  (2 rules)
+
+--- Processing: Return on Equity Calculation
+  OK -> damodaran_auto_roe_calculation.yaml  (2 rules)
+
+--- Processing: Three-Stage FCFE Model
+  OK -> damodaran_auto_three_stage_fcfemodel.yaml  (3 rules)
+
+--- Processing: Price-Book Value Ratio Calculation
+  OK -> damodaran_auto_price_book_value_ratio_calculation.yaml  (1 rules)
+
+--- Processing: Cost of Capital Calculation
+  skipped: {'_error': 'while scanning a simple key\n  in "<unicode string>", line 20, column 1:\n    Since the actual values for k_e, ... \n    ^\ncould not find expected \':\'\n  in "<unicode string>", line 20, column 297:\n     ... ints for a complete calculation.\n                                         ^'}
+
+--- Processing: Covariance and Variance Estimation
+  skipped: {'_error': 'while scanning a simple key\n  in "<unicode string>", line 20, column 1:\n    {note: The above YAML structure  ... \n    ^\ncould not find expected \':\'\n  in "<unicode string>", line 20, column 246:\n     ... is a conceptual representation.}\n                                         ^'}
+
+--- Processing: Growing Annuity Equation
+  OK -> damodaran_auto_growing_annuity_equation.yaml  (2 rules)
+
+=== Done. Generated 10 new methods.

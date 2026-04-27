@@ -1,0 +1,35 @@
+averaged out to 4.5% of revenues.
+The advantage of this approach is that it smooths out year-to-year shifts, but it may not be appropriate if there is a trend
+(upward or downward) in working capital.
+
+5.
+ The final approach is to ignore the working capital history of the firm and to base the projections on the industry
+average for noncash working capital as a percent of revenues. This approach is most appropriate when a firm's history
+reveals a working capital that is volatile and unpredictable. It is also the best way of estimating noncash working capital for
+very small firms that may see economies of scale as they grow. While these conditions do not apply for the Gap, we can
+still estimate noncash working capital requirements using the average noncash working capital as a percent of revenues
+for specialty retailers which is 7.54%.
+To illustrate how much of a change each of these assumptions can have on working capital requirements, the following table
+forecasts expected changes in noncash working capital (WC) using each of them. In making these estimates, we have
+assumed a 10% growth rate in revenues and earnings for the Gap for the next five years.
+The noncash working capital investment varies widely across the five approaches that have been described here.
+Negative Working Capital (or Changes)
+Can the change in noncash working capital be negative? The answer is clearly yes. Consider, though,
+the implications of such a change. When noncash working capital decreases, it releases tied-up cash
+and increases the cash flow of the firm. If a firm has bloated inventory or gives out credit too easily,
+managing one or both components more efficiently can reduce working capital and be a source of
+positive cash flows into the immediate future—three, four, or even five years. The question, however,
+becomes whether it can be a source of cash flows for longer than that. At some point in time, there
+will be no more inefficiencies left in the system, and any further decreases in working capital can
+have negative consequences for revenue growth and profits. Therefore, it appears that for firms with
+positive working capital, decreases in working capital are feasible only for short periods. In fact,
+once working capital is being managed efficiently, the working capital changes from year to year
+should be estimated using working capital as a percent of revenues. For example, consider a firm that
+has noncash working capital that represents 10 percent of revenues and that you believe that better
+management of working capital could reduce this to 6 percent of revenues. You could allow working
+capital to decline each year for the next four years from 10 percent to 6 percent, and, once this
+adjustment is made, begin estimating the working capital requirement each year as 6 percent of
+additional revenues. The following table provides estimates of the change in noncash working capital
+on this firm, assuming that current revenues are $1 billion and that revenues are expected to grow 10
+percent a year for the next 15 years.
+Can working capital itself be negative? Again, the answer is yes. Firms whose non-debt current

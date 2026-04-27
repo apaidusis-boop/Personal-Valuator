@@ -1,0 +1,13 @@
+ecause they are very similar across these firms.
+Using this regression, the predicted value to EBITDA multiple for Birmingham Steel would be:
+At 5.60 times EBITDA, the firm is overvalued.
+vebitda.xls:
+
+This dataset on the Web summarizes value-to-earnings multiples and fundamentals by
+industry group in the United States for the most recent year.
+VALUE MULTIPLES: VARIANTS
+While enterprise value to EBITDA may be the most widely used value multiple, there are close variants that are sometimes
+used by analysts—value/EBIT, value/after-tax EBIT, and value/FCFF. Each of these multiples is determined by many of the
+same variables that determine the EV/EBITDA multiple, but the actual relationship is slightly different. In particular, note
+that for a stable growth firm these multiples can be written as follows:
+where RIR is the reinvestment rate and t is the tax rate.

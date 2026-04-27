@@ -1,0 +1,26 @@
+in analysis and to make
+comparisons across firms, you would need to control for differences on these characteristics. This
+section examines different ways of comparing revenue multiples across firms.
+
+AN ASIDE ON BRAND NAME VALUE
+It is common to see brand name premiums attached to discounted cash flow valuations. As you can see from the preceding
+example, this is a mistake. Done right, the value of a brand name is already built into the valuation in a number of places—
+higher operating margins, higher turnover ratios, and consequently higher returns on capital. These, in turn, have ripple
+effects, increasing expected growth rates and value. Adding a brand name premium to this value would be double counting.
+What about firms that do not exploit a valuable brand name? You might add a premium to the values of these firms, but the
+premium is not for the brand name but rather for control. In fact, you could estimate similar premiums for any underutilized
+or mismanaged assets, but you would pay the premiums only if you could acquire control of the firm.
+Looking for Mismatches
+While growth, risk, and cash flow characteristics affect revenue multiples, the key determinants of
+revenue multiples are profit margins—net profit margin for equity multiples and operating margins for
+firm value multiples. Thus it is not surprising to find firms with low profit margins and low revenue
+multiples, and firms with high profit margins and high revenue multiples. However, firms with high
+revenue ratios and low profit margins as well as firms with low revenue multiples and high profit
+margins should attract investors’ attention as potentially overvalued and undervalued securities
+respectively. In 
+Figure 20.3
+, this is presented in a matrix. You can identify under- or overvalued firms
+in a sector or industry by plotting them on this matrix, and looking for potential mismatches between
+margins and revenue multiples.
+Figure 20.3
+ Value/Sales and Margins

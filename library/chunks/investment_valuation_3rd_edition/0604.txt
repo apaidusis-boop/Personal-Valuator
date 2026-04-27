@@ -1,0 +1,42 @@
+fied to
+account for nonlinear relationships between revenue multiples and any or all of these variables.
+Can this approach be used for sectors such as the Internet where there seems to be little or no
+
+relationship between revenue multiples and fundamentals? It can, but only if you adapt it to consider
+the determinants of value in these sectors.
+ILLUSTRATION 20.11: 
+Regression Approach—Specialty
+Retailers in July 2000
+Consider again the scatter plot of value-to-sales ratios and operating margins for retailers in Illustration 20.9. There is clearly
+a positive relationship and a regression of value to sales ratios against operating margins for specialty retailers yields the
+following:
+This regression has 162 observations and the t statisics are reported in brackets. To estimate the predicted value to sales
+ratio for Talbots, one of the specialty retailers in the group, which has an 11.22% after-tax operating margin:
+With an actual value-to-sales ratio of 1.27, Talbots be consider overvalued.
+This regression can be modified in two ways. One is to regress the value-to-sales ratio against the ln(Operating margins) to
+allow for the nonlinear relationship between the two variables:
+The other is to expand the regression to include proxies for risk and growth:
+where Operating Mgn = After-tax operating margin 
+σ
+OpInc
+ = Standard deviation in operating income over previous five years 
+Growth = Expected growth rate in earnings over next five years
+This regression has fewer observations (124) than the previous two but a higher R-squared of 50.09%. The predicted value-
+to-sales ratio for Talbots using this regression is:
+Talbots remained overvalued even after adjusting for differences in growth and risk.
+ILLUSTRATION 20.12: 
+Regression Approach—Internet
+Retailers in July 2000
+In the case of the Internet stocks graphed in Illustration 20.10, the regression of price-to-sales ratios against net margins
+yields the following:
+Not only is the R-squared close to zero, but the relationship between current net margins and price-to-sales ratios is
+negative. Thus there is little relationship between the pricing of these stocks and their current profitability.
+What variables might do a better job of explaining the differences in price-to-sales ratios across Internet stocks? Consider the
+following propositions.
+Since this sample contains some firms with very little in revenues and other firms with much higher revenues,
+you would expect the firms with less in revenues to trade at a much higher multiple of revenues than firms
+with higher revenues. Thus, Amazon with revenues of almost $2 billion can be expected to trade at a lower
+multiple of this value than iVillage with revenues of less than $60 million.
+There is a high probability that some or many of these Internet firms will not survive because they will run out
+of cash. A widely used measure of this potential for cash problems is the cash burn ratio, which is the ratio of
+the cash balance to the absolute value of EBITDA (which is usually a negative number). Firms with a low

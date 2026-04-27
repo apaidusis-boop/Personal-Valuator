@@ -1,0 +1,40 @@
+accounting balance sheet can be very different from a financial balance sheet, since accounting for
+growth assets tends to be both conservative and inconsistent.
+Figure 11.1
+ Financial View of a Firm
+
+For high-growth firms, accounting balance sheets do a poor job of summarizing the values of the
+assets of the firm because they mostly ignore the largest component of value, which is future growth.
+The problems are exacerbated for firms that invest in R&D, because the book value will not include
+the most important asset at these firms—the research asset.
+HISTORICAL GROWTH
+When estimating the expected growth for a firm, we generally begin by looking at the firm's history.
+How rapidly have the firm's operations, as measured by revenues or earnings, grown in the recent
+past? While past growth is not always a good indicator of future growth, it does convey information
+that can be valuable while making estimates for the future. This section begins by looking at
+measurement issues that arise when estimating past growth, and then considers how past growth can
+be used in projections.
+Estimating Historical Growth
+Given a firm's earnings history, estimating historical growth rates may seem like a simple exercise
+but there are several measurement problems that may arise. In particular, you can get very different
+values for historical growth, depending on how the average is estimated and whether you allow for
+compounding in values over time. Estimating growth rates can also be complicated by the presence of
+negative earnings in the past or in the current period.
+Arithmetic versus Geometric Averages
+The average growth rate can vary depending on whether it is an arithmetic average or a geometric
+average. The arithmetic average is the simple average of past growth rates, while the geometric mean
+takes into account the compounding that occurs from period to period:
+where g
+t
+ = Growth rate in year t
+where Earnings
+t
+ = earnings in year t
+The two estimates can be very different, especially for firms with volatile earnings. The geometric
+average is a much more accurate measure of true growth in past earnings, especially when year-to-
+year growth has been erratic.
+In fact, the point about arithmetic and geometric growth rates also applies to revenues, though the
+difference between the two growth rates tend to be smaller for revenues than for earnings. For firms
+with volatile earnings and revenues, the caveats about using arithmetic growth carry even more
+weight.
+ILLUSTRATION 11.1: Differences between Arithmetic and

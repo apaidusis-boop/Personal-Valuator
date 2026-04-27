@@ -1,0 +1,9 @@
+owth over time. This long-term focus might cause investors to miss short-term trading opportunities that technical analysis can identify, such as price patterns, volume spikes, or momentum indicators.
+
+## Example of Fundamental Analysis
+
+Let's analyze a hypothetical company we'll call ABC Inc. using fundamental analysis. We'll examine its financial statements and calculate key ratios to assess its financial health and performance.
+
+First, let's look at some data from ABC Inc.'s financial statements for the previous fiscal year:
+
+<table><thead><tr><th colspan="5">ABC Income Statement & Balance Sheet</th></tr><tr><th><b>Income Statement</b></th><th>($ millions)</th><th>.</th><th><b>Balance Sheet</b></th><th>($ millions)</th></tr></thead><tbody><tr><td>Revenue</td><td>$1,000</td><td>.</td><td><b>Assets</b></td><td></td></tr><tr><td>Cost of Goods Sold</td><td>$600</td><td>.</td><td>Current Assets</td><td>$750</td></tr><tr><td><b>Gross Profit</b></td><td>$400</td><td>.</td><td>Cash</td><td>$200</td></tr><tr><td>Operating Expenses</td><td>$200</td><td>.</td><td>Marketable Securities</td><td>$250</td></tr><tr><td>Operating Income</td><td>$200</td><td>.</td><td>Accounts Receivable</td><td>$300</td></tr><tr><td><b>Net Income</b></td><td>$150</td><td>.</td><td>Non-Current Assets</td><td>$750</td></tr><tr><td></td><td></td><td>.</td><td><b>Total Assets</b></td><td>$1,500</td></tr><tr><td></td><td></td><td>.</td><td>------------------</td><td></td></tr><tr><td></td><td></td><td>.</td><td><b>Liabilities</b></td><td></td></tr><tr><td></td><td></td><td>.</td><td>Current Liabilities</td><td>$250</td></tr><tr><td></td><td></td><td>.</td><td>Non-Current Liabilities</td><td>250</td></tr><tr><td></td><td></td><td>.</td><td><b>Total Liabilities</b></td><td>$500</td></tr><tr><td></td><td></td><td>.</td><td></td><td></td></tr><tr><td></td><td></td><td>.</td><td><b>Shareholder Equity</b></td><td>$1,000</td></tr></tbody></table>

@@ -1,0 +1,52 @@
+f net income is being capitalized and the cost of
+capital if operating income is being capitalized) and g is the expected growth rate forever. In this
+example, the capitalization rate would have been:
+
+If the capitalization rate is being applied to next year’s operating income rather than this year’s value,
+you can ignore the denominator and use a cap rate of 10 percent.
+A SPECULATIVE INVESTMENT IN UNDEVELOPED
+LAND
+Developers sometimes buy undeveloped land not with the intention of developing it, but to hold onto in the hope that the value
+of the land will appreciate significantly over the holding period. An investment in undeveloped land does not generate positive
+cash flows during the holding period. The only positive cash flow, in fact, is the estimated value of the land at the end of the
+holding period. If you have to pay property taxes and other expenses during the holding period, you will have negative cash
+flows during the holding period.
+There are two ways you can approach the analysis of this investment. The first with the traditional discounted cash flow
+approach. You could discount the expected property taxes and other expenses during the holding period and the estimated
+value of the land at the end of the period back to the present at the cost of capital and see if it exceeds the cost of the land
+today. In fact, the expected appreciation in the price of the land will have to be greater than the cost of capital and the
+expected annual property tax rate for this investment to have a positive net present value. To illustrate, if your cost of capital
+is 10 percent and the annual property tax rate is 2 percent of land value, you would need a price appreciation rate of 12
+percent a year for the present value of the inflow to exceed the present value of the outflows.
+2
+The other is to view the land as an option, and developing the property 
+as exercising the option. You would then consider the
+cost of the land as the price of the option. The interesting implication is that you might choose to buy the land even if the
+expected price appreciation rate is lower than your cost of capital, if there is substantial volatility in land prices. This
+application is considered in more detail in Chapter 28.
+DCF Valuation Models
+Once a discount rate has been chosen and cash flows estimated, the value of an income-producing
+real asset can be estimated either in whole (by discounting cash flows to the firm at the weighted
+average cost of capital) or to its equity investors (by discounting cash flows to equity at the cost of
+equity). The following illustrations provide examples of DCF valuation in real estate.
+ILLUSTRATION 26.1: 
+Valuing an Office Building in 2000
+In this illustration, we will be valuing an office building located at 711 Third Avenue in New York City. The operating details
+of the building are as follows:
+The building has a capacity of 528,357 square feet of rentable space. While 95% of this space is rented out
+for the next year, the occupancy rate is expected to climb 0.5% a year for the following four years to reach
+97% of capacity in year 5. This is expected to be the occupancy rate in steady state.
+The average rent per square foot
+3
+ was $28.07 in the most recent year and is expected to grow 3% a year in
+perpetuity. Historically, there has been a credit loss, associated with tenants failing to make payments, of
+2.5% of rental revenues.
+The building has a garage that generated $800,000 in income for the most recent year. This income is also
+expected to grow 3% a year in perpetuity.
+Real estate taxes were $5.24 a square foot in the most recent year, and are expected to grow 4% a year for
+the next five years and 3% a year thereafter.
+The land under the building is rented under a long-term lease, and the ground rent in the most recent year was
+$1.5 million. This rent is expected to remain unchanged for the next five years and grow 3% a year
+thereafter.
+Other expenses, including insurance, maintenance, and utilities, amounted to $6.50 a square foot in the most
+recent year and are expected grow 3% a year in perpetuity. Approximately 10% of these expenses will be

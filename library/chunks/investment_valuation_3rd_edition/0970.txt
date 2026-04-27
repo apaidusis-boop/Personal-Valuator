@@ -1,0 +1,31 @@
+of 1.25% over the riskfree rate. Using a marginal tax rate of 38%(rather than the effective tax
+rate) and Exxon’s debt to capital ratio of 2.85%, we estimated a cost of capital of 8.18% for the firm.
+
+Exxon Mobil is in stable growth with the operating income growing at 2% a year in perpetuity. New
+investments are expected to generate a return on capital that reflects the normalized operating income and
+current capital invested; this return on capital is used to compute a reinvestment rate.
+While Exxon reported operating income of more than $60 billion in 2008, the oil price had dropped to $45 by March 2009,
+and we estimated a normalized operating income of $34,614 million for the company:
+This operating income translates into a return on capital of approximately 21% and a reinvestment rate of 9.52%, based on a
+2% growth rate.
+6
+Adding the current cash balance ($32,007 million), subtracting out debt ($9,400 million) and dividing by the number of shares
+(4,941.63 million) yields the value per share.
+At its current stock price of $64.83, the stock looks slightly undervalued. However, that reflects the assumption that the
+current oil price (of $45 per barrel) is the normalized price.
+Since the value per share is so dependent on the oil price, it would make more sense to allow the oil price to vary and value
+the company as a function of this price, and simulations can help flesh out the numbers:
+Step 1: 
+Determine the probability distribution for the oil prices:
+ We used historical data on oil prices, adjusted for
+inflation, to both define the distribution and estimate its parameters. 
+Figure 33.9
+ summarizes the distribution. 
+Note that oil prices can vary from about $8 a barrel at the minimum to more than $120 a barrel. While we have used the
+current price of $45 as the mean of the distribution, we could have inserted an oil view into the distribution by choosing a
+higher or lower mean value.
+7
+Figure 33.9
+ Oil Price Distribution—Historical data
+Figure 33.9
+ Oil Price Distribution—Historical Data

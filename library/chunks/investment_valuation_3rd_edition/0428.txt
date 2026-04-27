@@ -1,0 +1,17 @@
+s 6.74%), which also lowers the value per share. The greater the change in the excess
+returns from the lease adjustment, the greater will be the impact of converting leases to debt on value per share.
+
+ILLUSTRATION 15.3: Valuing Amgen in March 2009: The
+Effect of R&D Capitalization
+In Illustration 9.2, we used Amgen to illustrate the effects of capitalizing R&D, using a 10-year amortizable life for R&D.
+Using data through 2008, we estimated the capital invested in R&D and the amortization as follows:
+Using the financial statements from 2008, we compute the adjusted operating income and return on capital at the firm, using
+Amgen's effective tax rate of 20% in 2008.
+Note that the capitalized R&D used in the return on capital computation was based on the R&D expenses through 2007 and
+that the adjusted after-tax earnings reflect the tax benefits of R&D expensing.
+We used the restated numbers to estimate the value of the firm and equity per share. The valuation, where we assume 10
+years of high growth, is summarized in 
+Figure 15.1
+.
+Figure 15.1
+ Valuing Amgen—March 2009

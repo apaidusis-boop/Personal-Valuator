@@ -1,0 +1,13 @@
+ty.
+
+:max_bytes(150000):strip_icc():format(webp)/Roboadvisor-roboadviser_final-9c0f2c35944e4da6aae8646a832069d1.png)
+
+Investopedia / Michela Buttignol
+
+## Robo-Advisors: History and Investing Strategy
+
+The first robo-advisors, Betterment and [Wealthfront](https://www.investopedia.com/wealthfront-review-4587933), launched in 2008. Wealthfront began as a mutual fund analysis company called kaChing. It planned to assist the tech community, then realized that computer software could make investment advice more accessible. Betterment, on the other hand, began with the initial purpose of rebalancing assets within [target-date funds (TDFs)](https://www.investopedia.com/terms/t/target-date_fund.asp). It sought to help manage passive, buy-and-hold investments through a simple online interface.
+
+Human wealth managers have been using automated [portfolio allocation](https://www.investopedia.com/terms/a/assetallocation.asp) software since the early 2000s. But, until Betterment and Wealthfront launched, wealth managers were the only ones who could buy the technology, so clients had to [employ a financial advisor](https://www.investopedia.com/articles/professionals/080615/5-biggest-financial-advisory-firms-us.asp) to benefit from the innovation.
+
+Today, most [robo-advisors use passive indexing strategies](https://www.investopedia.com/etfs-vs-robo-advisors-7571319) that are optimized using some variant of modern portfolio theory (MPT). Typically, the account holder can't choose which mutual funds or exchange-traded funds (ETFs) to invest in or purchase individual stocks or bonds in their account.

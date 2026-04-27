@@ -1,0 +1,47 @@
+e second, we estimate the value of the assets of the firm by discounting expected cash flows at
+the cost of capital. The one consideration that we need to keep in mind is that the value of the firm in
+
+an option pricing model should be the value obtained on liquidation. This may be less than the total
+firm value, which includes expected future growth potential, and it may also be reduced to reflect the
+cost of liquidation. If we estimate the firm value using a discounted cash flow model this would
+suggest that only existing investments should be considered while estimating firm value.
+1
+In the third approach, we estimate a multiple of revenues by looking at healthy mature firms (with
+little or no growth potential) in the same business and apply this multiple to the revenues of the firm
+you are valuing. Implicitly, we are assuming that a potential buyer, in the event of liquidation, will
+pay this value.
+Variance in Firm Value
+We can obtain the variance in firm value directly if both stocks and bonds in the firm are traded.
+Defining 
+σ
+e
+2
+ as the variance in the stock price and 
+σ
+d
+2
+ as the variance in the bond price, w
+e
+ as the
+market-value weight of equity, and w
+d
+ as the market-value weight of debt, we can write the variance
+in firm value as:
+2
+where ρ
+ed
+ is the correlation between the stock and the bond prices. When the bonds of the firm are not
+traded, we can use the variance of similarly rated bonds as the estimate of 
+σ
+d
+2
+ and the correlation
+between similarly rated bonds and the firm’s stock as the estimate of ρ
+ed
+.
+When companies get into financial trouble, this approach can yield misleading results as both its
+stock prices and its bond prices become more volatile. An alternative that often yields more reliable
+estimates is to use the average variance in firm value for other firms in the sector. Thus the value of
+equity in a deeply troubled steel company can be estimated using the average variance in firm value
+of all traded steel companies.
+optvar.xls:

@@ -1,0 +1,35 @@
+The motivation for this has been the fear of hostile takeovers. Companies have increasingly turned
+to “value consultants” to tell them how to restructure, increase value, and avoid being taken over.
+
+CHAPTER 2
+Approaches to Valuation
+Analysts use a wide range of models in practice, ranging from the simple to the sophisticated. These
+models often make very different assumptions, but they do share some common characteristics and
+can be classified in broader terms. There are several advantages to such a classification: It makes it
+easier to understand where individual models fit into the big picture, why they provide different
+results, and when they have fundamental errors in logic.
+In general terms, there are three approaches to valuation. The first, discounted cash flow (DCF)
+valuation, relates the value of an asset to the present value (PV) of expected future cash flows on that
+asset. The second, relative valuation, estimates the value of an asset by looking at the pricing of
+comparable assets relative to a common variable such as earnings, cash flows, book value, or sales.
+The third, contingent claim valuation, uses option pricing models to measure the value of assets that
+share option characteristics. Some of these assets are traded financial assets like warrants, and some
+of these options are not traded and are based on real assets, (projects, patents, and oil reserves are
+examples). The latter are often called real options. There can be significant differences in outcomes,
+depending on which approach is used. One of the objectives in this book is to explain the reasons for
+such differences in value across different models, and to help in choosing the right model to use for a
+specific task.
+DISCOUNTED CASH FLOW VALUATION
+While discounted cash flow valuation is only one of the three ways of approaching valuation and
+most valuations done in the real world are relative valuations, it is the foundation on which all other
+valuation approaches are built. To do relative valuation correctly, we need to understand the
+fundamentals of discounted cash flow valuation. To apply option pricing models to value assets, we
+often have to begin with a discounted cash flow valuation. This is why so much of this book focuses
+on discounted cash flow valuation. Anyone who understands its fundamentals will be able to analyze
+and use the other approaches. This section considers the basis of this approach, a philosophical
+rationale for discounted cash flow valuation, and an examination of the different subapproaches to
+discounted cash flow valuation.
+Basis for Discounted Cash Flow Valuation
+This approach has its foundation in the present value rule, where the value of any asset is the present
+value of expected future cash flows on it.
+where n = Life of the asset

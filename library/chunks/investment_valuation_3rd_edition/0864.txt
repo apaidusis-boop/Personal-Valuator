@@ -1,0 +1,43 @@
+option with the cap. For instance, if you assume that the present value of the cash flows
+from the expansion option cannot exceed $2 billion, the value of the expansion option drops to
+$142 million.
+4
+
+VALUING A FIRM WITH THE OPTION TO EXPAND
+Is there an option to expand embedded in some firms that can lead to these firms to trade at a premium
+over their discounted cash flow values? At least in theory, there is a rationale for making this
+argument for a small, high-growth firm in a large and evolving market. The discounted cash flow
+valuation is based on expected cash flows and expected growth and these expectations should reflect
+the probability that the firm could be hugely successful (or a huge failure). What the expectations
+might fail to consider is that, in the event of success, the firm could invest more, add new products or
+expand into new markets and augment this success. This is the real option that is creating the
+additional value.
+Relationship to Discounted Cash Flow Valuation
+If the value of this option to expand is estimated, the value of a firm can be written as the sum of two
+components—a discounted cash flow value based on expected cash flows and a value associated
+with the option to expand:
+The option pricing approach adds rigor to this argument by estimating the value of the option to
+expand, and it also provides insight into those occasions when it is most valuable. In general, the
+option to expand is clearly more valuable for more volatile businesses with higher returns on projects
+and greater barriers to competitive entry (such as new technology), than in stable businesses with
+lower returns (such as housing, utilities, or automobile production).
+Again, though, you have to be careful not to double count the value of the option. If you use a higher
+growth rate than would be justified based on expectations because of the option to expand, you have
+already counted the value of the option in the discounted cash flow valuation. Adding an additional
+component to reflect the value of the option would be double counting.
+Inputs for Valuing Expansion Option
+To value a firm with the option to expand, you have to begin by defining the market that the firm has
+the option to enter and specify the competitive advantages that you believe will give it some degree of
+exclusivity to make this entry. Once you are convinced that there is this exclusivity, you should then
+estimate the expected cash flows you would get if you entered the market today and the cost of
+entering that market. Presumably, the costs will exceed the expected cash flows, or you would have
+entered the market already. The cost of entering the market will become the exercise price of the
+option and the expected cash flows from entering the market today will become the value of the
+underlying asset.
+To estimate the variance in the value, you can either run simulations on how the market will evolve
+over time or use the variances of publicly traded firms that service that market today, and assume that
+this variance is a good proxy for the volatility in the underlying market. You also have to specify a
+period by which you have to make the decision of whether to enter the market; this will become the
+life of the option. You may tie this assumption to the assumptions you made about competitive
+advantages. For instance, if you have the exclusive license to enter a market for the next 10 years, you
+would use 10 years as your option life.

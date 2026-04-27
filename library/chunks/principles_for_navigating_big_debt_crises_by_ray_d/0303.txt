@@ -1,0 +1,36 @@
+uities 
+recovered a bit. Below is a chart of the stock market up until that time. Note 
+that it was still near its highs.
+1,300
+1,350
+1,400
+1,450
+1,500
+1,550
+Sep-06 Dec-06 Mar-07 Jun-07 Sep-07
+S&P 500
+
+Coming out of this episode, most policy makers and investors thought that the 
+problems in the risky part of the mortgage market would be contained, so the 
+flow-through to the real economy wouldn’t be substantial. Based on our 
+calculations, we saw it differently and wrote: “the day of reckoning will be 
+pushed forward, probably to when there is a big tightening by the Fed or a big 
+turndown in the economy.”
+Why Banks and Investors Were So Exposed to Risky Mortgage Securities  
+Why were investors, banks, rating agencies and policy makers misled into 
+thinking mortgage securities were less risky than they actually were? A key 
+reason is the way risk is analyzed. Consider the conventional way investors think 
+about risk. At the time, Value at Risk (VAR), which is a measure of recent 
+volatility in markets and portfolios, was commonly used by investment firms and 
+commercial banks to determine the likely magnitude and occurrence of losses. It 
+typically uses recent volatility as the main input to how much risk (i.e., what size 
+positions) one could comfortably take. As a simplifying illustration, imagine an 
+investor that never wants to lose more than 20 percent. If the most that a 
+subprime mortgage has ever lost in a month is 5 percent, then investors might 
+plug that 5 percent number into a model that then says its “safe” for them to 
+borrow until they own three times leveraged subprime.
+This way of thinking about risk caused many investors to increase their 
+exposures beyond what would normally be seen as prudent. They looked at the 
+News & 
+Bridgewater Daily Observations 
+(BDO)

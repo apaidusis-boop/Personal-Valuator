@@ -1,0 +1,16 @@
+e affected
+by these outliers.
+2
+ For purposes of simplicity, the beta and cost of equity are estimated to be the same in both the
+high growth and stable growth periods. They could have been different.
+
+3
+ These regressions look at all stocks listed on the Compustat database. The growth rate over the
+previous five years was used as the expected growth rate, and the betas were estimated from the
+CRSP tape.
+4
+ The t statistics are reported in brackets below the coefficients.
+5
+ In a multiple regression, the independent variables should be independent of each other.
+6
+ The PEG ratio is capped at 10.

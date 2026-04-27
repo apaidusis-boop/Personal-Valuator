@@ -1,0 +1,41 @@
+is the value
+of the Steinway brand name?
+1
+ For purposes of simplicity, it has been assumed that the cash flow is the same in each year. This
+can be generalized to allow cash flows to grow over time.
+
+CHAPTER 21
+Valuing Financial Service Firms
+Banks, insurance companies, and other financial service firms pose particular challenges for an
+analyst attempting to value them for two reasons. The first is that the nature of their businesses makes
+it difficult to define both debt and reinvestment, making the estimation of cash flows much more
+messy. The other is that they tend to be heavily regulated, and the effects of regulatory requirements
+on value have to be considered.
+This chapter begins by considering what makes financial service firms unique and ways of dealing
+with the differences. It then looks at how best we can adapt discounted cash flow models to value
+financial service firms, and looks at three alternatives—a traditional dividend discount model, a cash
+flow to equity discount model, and an excess return model. With each, we look at a variety of
+examples from the financial services arena. We move on to look at how relative valuation works with
+financial service firms, and what multiples may work best with these firms.
+The last part of the chapter examines a series of issues that, if not specific to financial service
+firms, are accentuated in those firms, ranging from the effect of changes in regulatory requirements on
+risk and value to how best to consider the quality of loan portfolios at banks.
+CATEGORIES OF FINANCIAL SERVICE FIRMS
+Any firm that provides financial products and services to individuals or other firms can be
+categorized as a financial service firm. We would break down financial service businesses into four
+groups from the perspective of how they make their money. A bank makes money on the spread
+between the interest it pays to those from whom it raises funds and the interest it charges those who
+borrow from it, and from other services it offers its depositors and its lenders. Insurance companies
+make their income in two ways. One is through the premiums they receive from those who buy claims
+from them, and the other is income from the investment portfolios that they maintain to service these
+claims. An investment bank provides advice and supporting products for non–financial service firms
+who are desirous of raising capital or to consummate deals such as acquisitions or divestitures.
+Investment firms provide investment advice or manage portfolios for clients. Their income comes
+from advisory fees for the advice, and management and sales fees for investment portfolios.
+With the consolidation in the financial services sector, an increasing number of firms operate in
+more than one of these businesses. For example, most large money-center banks in the United States
+operate in at least three of these businesses. At the same time, however, there remain a large number
+of small banks, boutique investment banks, and specialized insurance firms that still derive the bulk of
+their income from one source.
+In emerging markets, financial service firms tend to have an even higher profile and account for a
+larger proportion of overall market value than they do in the United States. If we bring these firms

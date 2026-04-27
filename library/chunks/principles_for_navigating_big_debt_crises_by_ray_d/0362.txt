@@ -1,0 +1,53 @@
+xposure in CDS, accounting for about 8 percent of the total market. Though many of these 
+exposures were offsetting—Lehman did not actually owe huge sums on net—its failure sent clients scrambling to 
+
+Part 2: US Debt Crisis and Adjustment (2007–2011)
+148
+find new counterparties. At the time, no one knew how large Lehman’s net exposure was, or who was on the 
+other side of it; we were crossing the line into a big, disastrous unknown. On September 11, we wrote in the Daily 
+Observations:
+The uncertainty of this situation is tremendous. What happens when you go to settle a currency forward transac -
+tion with a counterparty that suddenly doesn’t exist? Maybe everything goes fine, but maybe some unexpected 
+condition bites you in the ass. What if you haven’t been collecting mark-to-market gains from one of your dealers 
+(we collect constantly from everyone), they go down, and now you are a general creditor? Who do you transfer the 
+risk to? Maybe Merrill is right behind Lehman. What do you about that? And who might be behind it? If 
+everyone is asking these questions the natural path is to cut back on trading and concentrate positions with a few 
+firms. But these few firms have the incentive to ration their capacity to the highest quality financial institutions 
+and managers. The inevitable result is substantially lower liquidity, higher transactions cost, and higher volatility. 
+Higher volatility then feeds back into the real economy because people and businesses transact at these prices. And 
+capital constraints in the financial sector mean that credit growth remains low, which undermines economic 
+growth. We are getting very close to crossing this line.
+While Lehman’s bankruptcy was the largest in US history (and still is), with some $600 billion in reported assets, 
+it was only about two-thirds the size of Goldman Sachs, and a quarter as large as JPMorgan. They were all 
+connected and the losses and liquidity problems were spreading fast. 
+We called this stage of the crisis the “avalanche”—the point at which a smaller problem in one corner of the 
+financial system (subprime mortgages) was building in self-reinforcing ways into much bigger problems, and 
+fast. 
+Aftermath of the Lehman Collapse: September 15–18
+On Monday morning, September 15, Lehman Brothers filed for bankruptcy, and the stock market fell by nearly 5 
+percent. No industry was spared, though the financial sector took the brunt of the pain, with shares of banks and 
+insurers falling by about 10 percent. Credit spreads blew out and credit flow ground to a halt. Over the course of 
+the following week, markets, policy makers, and we at Bridgewater struggled to figure out the ripple effects from 
+Lehman, which of course we couldn’t because the interrelationships and exposures were too complex and too 
+opaque. It was clear to us that blanket protections would have to be put into place, because the consequences 
+of the uncertainties themselves would be devastating as everyone ran from any entity that could go under. 
+But if policy makers couldn’t or wouldn’t save Lehman Brothers, how could they save the system? 
+One of the Fed’s immediate responses, announced the night before, was an unprecedented expansion in the 
+“Primary Dealer Credit Facility”: They were willing to lend to investment banks against almost any collateral, 
+including extremely risky instruments—e.g., equities, subprime mortgages, and junk bonds. It should have been 
+seen as an enormous step for a central bank to take, and in a more normal environment, it would have been. But 
+the Lehman collapse overshadowed it.
+1,1 00
+1,1 50
+1,2 00
+1,2 50
+1,300
+1,350
+1-Aug 1 6-Aug 3 1-Aug 1 5 - Sep
+1 5
+1 6
+1 8
+1 9
+2 0
+1-Aug 1 6-Aug 3 1-Aug 1 5 - Sep
+S&P 5 00 Finan cial Equity Inde x

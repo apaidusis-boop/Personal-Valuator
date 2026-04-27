@@ -1,0 +1,103 @@
+of
+cost of debt and
+cost of equity and
+default-free entities and
+explanation of
+lack of default-free entity and
+nominal
+project delay option and
+real vs. nominal
+Riskless rates. 
+See
+ Risk-free rates
+
+Risk management
+decision tree analysis and
+tax rate and
+Risk measurement
+accounting principles underlying
+financial ratios and
+financial statement disclosure and
+for real assets in asset pricing models
+Risk premium. 
+See
+ Equity risk premium
+Risk proxy
+Risky securities
+accounting for marketable securities
+business investments and
+reasons for holding
+as strategic investments
+RJR Nabisco
+ROA. 
+See
+ Return on assets (ROA)
+ROC. 
+See
+ Return on capital (ROC)
+ROE. 
+See
+ Return on equity (ROE)
+R-squared (R
+2
+) of regression
+Runs test
+Salaries, in private firms
+Sales-to-capital ratio
+Samples, biased
+S&P 400
+S&P 500
+SAP
+Scaling variables
+Scenario analysis
+assessment of
+best case/worst case and
+explanation of
+issues related to
+multiple
+for valuation and decision making
+Scholes, Myron
+Sector regressions
+Sectors
+negative earnings in
+
+PE ratios across firms in
+Sector-specific multiples
+advantages and disadvantages of
+analysis using
+characteristics of
+explanation of
+value determinants and
+Sector valuation
+Secure Mail
+Securities and Exchange Commission (SEC)
+Segovia Entertainment
+Selling, general, and administrative (SG&A) expenses
+Sensitivity analysis
+Separate valuation
+Sequential options
+Serial correlation
+explanation of
+price reversal and
+Service beta
+Service businesses, valuation of
+Shiller, Robert
+Short-term borrowing
+Short-term debt
+Short-term liquidity risk
+Short-term options
+Short-term price movement
+filter rules and
+runs tests and
+serial correlation and
+Siemens
+Simulations
+assessment of
+with constraints
+for decision making
+explanation of
+issues related to
+margin of safety and
+Monte Carlo
+risk adjusted value and
+steps in

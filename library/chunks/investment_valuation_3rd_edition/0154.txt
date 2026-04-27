@@ -1,0 +1,59 @@
+Premium earned over an index of equally weighted stocks in that market between January 1, 1989, and
+December 31, 1994. These numbers were obtained from a Merrill Lynch Survey of Proprietary Indices.
+
+Annual Premium Earned by
+Country
+Lowest-PE Stocks (Bottom Quintile)
+Australia
+3.03%
+France
+6.40%
+Germany
+1.06%
+Hong Kong
+6.60%
+Italy
+14.16%
+Japan
+7.30%
+Switzerland
+9.02%
+United Kingdom
+2.40%
+The excess returns earned by low price-earnings ratio stocks are difficult to justify using a variation
+of the argument used for small stocks (i.e., that the risk of low PE ratios stocks is understated in the
+CAPM). Low PE ratio stocks generally are characterized by low growth, large size, and stable
+businesses, all of which should work toward reducing their risk rather than increasing it. The only
+explanation that can be given for this phenomenon, which is consistent with an efficient market, is that
+low PE ratio stocks generate large dividend yields, which would have created a larger tax burden
+because dividends are taxed at higher rates.
+Price–Book Value Ratios
+Another statistic that is widely used by investors in investment strategy is price–book value ratios. A
+low price–book value ratio has been considered a reliable indicator of undervaluation in firms. In
+studies that parallel those done on price-earnings ratios, the relationship between returns and price–
+book value ratios has been examined. The consistent finding from these studies is that there is a
+negative relationship between returns and price–book value ratios—low price–book value ratio
+stocks earn higher returns than high price–book value ratio stocks.
+Rosenberg, Reid, and Lanstein (1985) find that the average returns on U.S. stocks are positively
+related to the ratio of a firm’s book value to market value. Between 1973 and 1984, the strategy of
+picking stocks with high book-price ratios (low price-book values) yielded an excess return of 36
+basis points a month. Fama and French (1992), in examining the cross section of expected stock
+returns between 1963 and 1990, established that the positive relationship between book-to-price
+ratios and average returns persists in both the univariate and multivariate tests, and is even stronger
+than the size effect in explaining returns. When they classified firms on the basis of book-to-price
+ratios into 12 portfolios, firms in the lowest book-to-price (highest price-book) class earned an
+average monthly return of 0.30 percent, while firms in the highest book-to-price (lowest price-book)
+class earned an average monthly return of 1.83 percent for the 1963–1990 period.
+Chan, Hamao, and Lakonishok (1991) find that the book-to-market ratio has a strong role in
+explaining the cross section of average returns on Japanese stocks. Capaul, Rowley, and Sharpe
+(1993) extend the analysis of price–book value ratios across other international markets, and
+conclude that value stocks (i.e., stocks with low price–book value ratios) earned excess returns in
+every market that they analyzed between 1981 and 1992. Their annualized estimates of the return
+differential earned by stocks with low price–book value ratios, over the market index, were:
+Country
+Added Return to Low 
+Price–Book Value Portfolio
+France
+3.26%
+Germany
+1.39%

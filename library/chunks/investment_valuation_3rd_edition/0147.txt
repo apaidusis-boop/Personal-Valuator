@@ -1,0 +1,35 @@
+times 15), the second day was $3.36, and so
+on. The traders were allowed to trade each day. The results of 60 such experiments are summarized
+in 
+Figure 6.4
+.
+Figure 6.4
+ Trading Price by Trading Day
+
+There is clear evidence here of a speculative bubble forming during periods 3 to 5, where prices
+exceed expected values by a significant amount. The bubble ultimately bursts, and prices approach
+expected value by the end of the period. If this mispricing is feasible in a simple market, where every
+investor obtains the same information, it is clearly feasible in real financial markets, where there is
+much more differential information and much greater uncertainty about expected value.
+It should be pointed out that some of the experiments were run with students, and some with Tucson
+businessmen with real-world experience. The results were similar for both groups. Furthermore,
+when price curbs of 15 cents were introduced, the booms lasted even longer because traders knew
+that prices would not fall by more than 15 cents in a period. Thus, the notion that price limits can
+control speculative bubbles seems misguided.
+Behavioral Finance
+The irrationality sometimes exhibited by investors has given rise to a whole new area of finance
+called behavioral finance. Using evidence gathered from experimental psychology, researchers have
+tried to both model how investors react to information and predict how prices will change as a
+consequence. They have been far more successful at the first endeavor than the second. For instance,
+the evidence seems to suggest that:
+Investors do not like to admit their mistakes. Consequently, they tend to hold on to losing
+stocks far too long, or in some cases double up their bets (investments) as stocks drop in
+value.
+More information does not always lead to better investment decisions. Investors seem to
+suffer both from information overload and from a tendency to react to the latest piece of
+information. Both result in investment decisions that lower returns in the long term.
+If the evidence on how investors behave is so clear-cut, you might ask, why are the predictions that
+emerge from these models so noisy? The answer, perhaps, is that any model that tries to forecast
+human foibles and irrationalities is, by its very nature, unlikely to be a stable one. Behavioral finance
+may emerge ultimately as a trump card in explaining why and how stock prices deviate from true
+value, but its role in devising investment strategy still remains questionable.

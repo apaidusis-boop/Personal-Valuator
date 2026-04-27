@@ -1,0 +1,11 @@
+lyses, and outcomes. Documentation serves as a valuable resource for future projects, providing insights and lessons learned that can make future decision-making potentially more efficient and timely.
+
+## Exploring the Different Types of Value in Engineering
+
+When performing value engineering, analysts must often consider how to define 'value'. After all, one customer's perception of a product may be very compared to another customer based on their assigned value of the good. In general, there are four primary types of value recognized by value engineering:
+
+Use value is the primary type of value and it is determined by the attributes of the good. These attributes define what the product is able to do, how it is used, and what its purpose is. This heavily ties to [product differentiation](https://www.investopedia.com/terms/p/product_differentiation.asp) where consumers can only derive value from a specific good without competitors.
+
+The use value of a product is the primary purpose of value engineering. Without a use value, consumers would not initially purchase the good. For instance, if a type of shoe did not adequately protect someone's feet or make it so they could walk down the street, the shoe has little to no use value. Without use value, products will ultimately fail because they serve no purpose.
+
+Assuming we have a good generating use value, it's now time to consider how it takes to make that good.3 Let's assume the shoes from above are tremendous for hiking, rugged wear, and waterproof protection. This means the shoes may require experienced labor to craft, specifically-treated [raw materials](https://www.investopedia.com/terms/r/rawmaterials.asp) for its production, and premium quality control for consumer safety.

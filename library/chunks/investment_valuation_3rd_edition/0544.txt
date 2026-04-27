@@ -1,0 +1,42 @@
+, emerging market, and
+Japanese firms all have skewed distributions, with positive outliers pushing the average well above
+the median.
+Figure 18.13
+ EV/EBITDA Multiples: U.S. Companies in January 2011
+
+Figure 18.14
+ EV/EBITDA Multiples: Global Comparison in January 2011
+Analysis
+To analyze the determinants of enterprise value to EBITDA multiples, we will revert back to a free
+cash flow to the firm valuation model that we developed in Chapter 15. Specifically, we estimated
+the value of the operating assets (or enterprise value) of a firm to be:
+Chapter 15. Specifically, we estimated the value of the operating assets (or enterprise value) of a
+
+firm to be:
+We can write the free cash flow to the firm in terms of the EBITDA:
+Substituting back into the equation, we get:
+Dividing both sides by the EBITDA and removing the subscripts yields the following:
+The five determinants of the enterprise value to EBITDA multiple are visible in this equation:
+1.
+
+Tax rate.
+ Other things remaining equal, firms with lower tax rates should command higher
+enterprise value to EBITDA multiples than otherwise similar firms with higher tax rates.
+2.
+
+Depreciation and amortization.
+ Other things remaining equal, firms that derive a greater
+portion of their EBITDA from depreciation and amortization should trade at lower multiples of
+EBITDA than otherwise similar firms.
+3.
+
+Reinvestment requirements.
+ Other things remaining equal, the greater the portion of the
+EBITDA that needs to be reinvested to generate expected growth, the lower the value to EBITDA
+will be for firms.
+4.
+
+Cost of capital.
+ Other things remaining equal, firms with lower costs of capital should trade at
+much higher multiples of EBITDA.
+5.

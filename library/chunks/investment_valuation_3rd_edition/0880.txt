@@ -1,0 +1,32 @@
+$100 million, the estimated value of the outstanding
+debt is:
+The debt is a 10-year zero coupon bond, and the market interest rate on the bond is:
+Thus the default spread on this bond should be 2.77%.
+
+IMPLICATIONS OF VIEWING EQUITY AS AN
+OPTION
+When the equity in a firm takes on the characteristics of a call option, you have to change the way you
+think about its value and what determines its value. In this section, we will consider a number of
+potential implications for equity investors and bondholders in the firm.
+When Will Equity Be Worthless?
+In discounted cash flow valuation, we argue that equity is worthless if what you own (the value of the
+assets) is less than what you owe. The first implication of viewing equity as a call option is that
+equity will have value, even if the value of the assets falls well below the face value of the
+outstanding debt. While the firm will be viewed as troubled by investors, accountants, and analysts,
+its equity is not worthless. In fact, just as deep out-of-the-money traded options command value
+because of the possibility that the value of the underlying asset may increase above the strike price in
+the remaining lifetime of the option, equity commands value because of the time premium on the
+option (the time until the bonds mature and come due) and the possibility that the value of the assets
+may increase above the face value of the bonds before they come due.
+ILLUSTRATION 30.2: 
+Firm Value and Equity Value
+Revisiting the preceding example, assume that the value of the firm drops to $50 million, below the face value of the
+outstanding debt ($80 million). Assume that all the other inputs remain unchanged. The parameters of equity as a call option
+are as follows:
+Based on these inputs, the Black-Scholes model provides the following value for the call:
+As you can see, the equity in this firm retains value, because of the option characteristics of equity. In fact, equity continues
+to have value in this example even if the value of the assets drops to $10 million as shown in 
+Figure 30.2
+.
+Figure 30.2
+ Value of Equity as Firm Value Changes

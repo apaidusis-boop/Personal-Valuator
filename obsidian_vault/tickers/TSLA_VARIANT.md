@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: TSLA
 market: us
-date: 2026-04-26
+date: 2026-04-27
 variance: medium_variance_long
 magnitude: 2
 weight_skew: False
@@ -19,9 +19,11 @@ tags: [variant_perception, edge_detection]
 
 ## 🔍 Specific divergence analysis
 
-1. A NOSSA thesis diverge do consenso quanto à avaliação de que a posição financeira sólida e negativa relação dívida líquida sobre EBITDA indicam um potencial de crescimento futuro significativo para a Tesla, enquanto os analistas sugerem que o preço atual das ações já precifica o sucesso futuro projetado do Cybercab e do Robotaxi. A NOSSA thesis tem evidência mais robusta em relação à geração contínua de caixa livre positivo e capacidade de expansão produtiva global, apesar da avaliação elevada.
-2. Alinhado: Ambas as teses concordam que o aumento no número de assinaturas ativas do Full Self-Driving e nas milhas pagas do Robotaxi são indicadores positivos para o crescimento futuro, embora a NOSSA thesis enfatize mais a importância da posição financeira sólida e do fluxo de caixa livre positivo.
-3. A NOSSA thesis diverge do consenso ao prever que a Tesla continuará gerando mais caixa do que suas obrigações de dívida, enquanto os analistas alertam para o alto investimento projetado em capital no ano de 2026. A NOSSA thesis tem evidência mais robusta na manutenção da posição financeira sólida e capacidade de expansão produtiva global
+1. A NOSSA THESIS DIVERGE do consenso quanto à avaliação de que a posição financeira sólida e negativa relação dívida líquida sobre EBITDA indicam capacidade gerencial superior para lidar com obrigações de dívida, enquanto os analistas sugerem que o alto múltiplo P/E e investimentos significativos podem comprometer essa solidez financeira. O lado da NOSSA THESIS tem evidência mais robusta em relação à geração contínua de caixa livre.
+
+2. A NOSSA THESIS DIVERGE do consenso ao afirmar que o alto potencial de crescimento futuro, refletido no P/B elevado, sugere valorização futura apesar da avaliação atualmente alta, enquanto os analistas argumentam que o preço das ações já pode estar precificando o sucesso futuro. O lado da NOSSA THESIS tem evidência mais robusta ao considerar indicadores de crescimento como assinaturas ativas do Full Self-Driving e milhas pagas do Robotaxi.
+
+3. A NOSSA THESIS está ALINHADA com os analistas quanto à expansão global da capacidade produtiva, mas diverge na interpretação dos impactos financeiros imediatos versus futuros. Enquanto o consenso sugere que o início da produção do Cybertruck tem um impacto
 
 ## 📰 Recent analyst insights
 

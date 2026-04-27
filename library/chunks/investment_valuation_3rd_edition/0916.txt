@@ -1,0 +1,31 @@
+e cost of capital level over the next five years, we
+arrive at a value for the equity of $955 million and a value per share of only $5.13 (shown in 
+Figure 31.9
+).
+Figure 31.9
+ Blockbuster: Status Quo
+
+So, how would we restructure Blockbuster? The first and most important component is increasing the returns on existing
+assets to at least the cost of capital of 6.17%. This will require either generating more operating income (pretax operating
+income has to increase to $381.76 million) or releasing some of the existing capital tied up in the poorest return assets (which
+would require more than $1 billion in divestitures). If we also assume that the company can raise the return on capital on its
+new investments to the cost of capital immediately, the value of equity jumps to $2.323 billion, resulting in a value per share
+for the company is $12.47 (shown in 
+Figure 31.10
+).
+Figure 31.10
+ Blockbuster: Restructured
+It is worth noting that Blockbuster has two classes of shares—118 million class A shares with one voting right per share and
+63 million class B shares with two voting rights per share. At the time of this analysis, both classes were trading at roughly
+the same price of $9.50 per share.
+
+valenh.xls:
+
+This spreadsheet allows you to estimate the approximate effect that changing the way a firm
+is run has on its value.
+CLOSING THOUGHTS ON VALUE ENHANCEMENT
+Almost all firms claim to be interested in value enhancement, but very few are able to increase value
+consistently. If value enhancement is as simple as it is made out to be in this chapter, you might
+wonder why this is so. There are four basic propositions you need to consider in the context of value
+enhancement:
+1.

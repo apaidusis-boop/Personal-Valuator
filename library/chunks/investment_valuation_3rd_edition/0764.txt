@@ -1,0 +1,39 @@
+Thus, if it will take Compaq and Digital three years to create the synergy, the present value of synergy can be
+estimated, using the combined firm's cost of capital as the discount rate:
+synergy.xls:
+
+This spreadsheet allows you to estimate the approximate value of synergy in a merger or
+acquisition.
+Valuing Financial Synergy
+Synergy can also be created from purely financial factors. We will consider three legitimate sources
+of financial synergy: better use for excess cash or cash slack, a greater tax benefit from accumulated
+losses or tax deductions, and an increase in debt capacity and therefore firm value. The discussion
+begins, however, with diversification, which though a widely used rationale for mergers is not a
+source of increased value by itself.
+Diversification
+A takeover motivated only by diversification considerations has no effect on the combined value of
+the two firms involved in the takeover when the two firms are both publicly traded and when the
+investors in the firms can diversify on their own. Consider the following example. Dalton Motors,
+which is an automobile parts manufacturing firm in a cyclical business, plans to acquire Lube & Auto,
+which is an automobile service firm whose business is noncyclical and high-growth, solely for the
+diversification benefit. The characteristics of the two firms are as follows:
+Lube & Auto
+Dalton Motors
+Current free cash flow to the firm
+$100 million
+$200 million
+Expected growth rate—next five years
+20%
+10%
+Expected growth rate—after year 5
+6%
+6%
+Debt/(Debt + Equity)
+30%
+30%
+After-tax cost of debt
+6%
+5.40%
+Beta for equity—next five years
+1.20
+1.00

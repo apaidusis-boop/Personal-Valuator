@@ -1,0 +1,36 @@
+m the operating assets of Luminos to increase 3% a year in
+perpetuity, estimate the value of equity at Luminos.
+1
+ The mix has to be fixed in book value terms. It can be varying in market value terms.
+
+CHAPTER 15
+Firm Valuation: Cost of Capital and Adjusted Present
+Value Approaches
+The preceding two chapters examined two approaches to valuing the equity in the firm—the dividend
+discount model and the free cash flow to equity (FCFE) valuation model. This chapter examines
+approaches to valuation in which the entire firm is valued, by either discounting the cumulated cash
+flows to all claim holders in the firm by the weighted average cost of capital (the cost of capital
+approach) or by adding the marginal impact of debt on value to the unlevered firm value—the
+adjusted present value (APV) approach.
+In the process of looking at firm valuation, we also look at how leverage may or may not affect firm
+value. We note that in the presence of default risk, taxes, and agency costs, increasing leverage can
+sometimes increase firm value and sometimes decrease it. In fact, we argue that the optimal financing
+mix for a firm is the one that maximizes firm value.
+FREE CASH FLOW TO THE FIRM
+The free cash flow to the firm (FCFF) is the sum of the cash flows to all claim holders in the firm,
+including common stockholders, bondholders, and preferred stockholders. There are two ways of
+measuring the free cash flow to the firm.
+One is to add up the cash flows to the claim holders, which would include cash flows to equity
+(defined either as free cash flow to equity or as dividends); cash flows to lenders (which would
+include principal payments, interest expenses, and new debt issues); and cash flows to preferred
+stockholders (usually preferred dividends):
+Note, however, that we are reversing the process that we used to get to free cash flow to equity,
+where we subtracted out payments to lenders and preferred stockholders to estimate the cash flow left
+for stockholders. A simpler way of getting to free cash flow to the firm is to estimate the cash flows
+prior to any of these claims. Thus we could begin with the earnings before interest and taxes, net out
+taxes and reinvestment needs, and arrive at an estimate of the free cash flow to the firm:
+Since this cash flow is prior to debt payments, it is often referred to as an unlevered cash flow. Note
+that this free cash flow to the firm does not incorporate any of the tax benefits due to interest
+payments. This is by design, because the use of the after-tax cost of debt in the cost of capital already
+considers this benefit, and including it in the cash flows would double count it.
+FCFF and Other Cash Flow Measures

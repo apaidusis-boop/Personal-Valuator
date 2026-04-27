@@ -1,0 +1,39 @@
+petitors
+or a peer group against which they can be measured. When valuing these firms, therefore, you may
+find yourself constrained on all three counts when it comes to information. How have investors
+
+responded to this absence of information? Some have decided that these stocks cannot be valued and
+should not therefore be held in a portfolio. Others have argued that while these stocks cannot be
+valued with traditional models, the fault lies in the models. They have come up with new and
+inventive ways, based on the limited information available, of justifying the prices paid for them. We
+will argue in this chapter that discounted cash flow models can be used to value these firms.
+NEW PARADIGMS OR OLD PRINCIPLES: A LIFE
+CYCLE PERSPECTIVE
+The value of a firm is based on its capacity to generate cash flows and the uncertainty associated with
+these cash flows. Generally speaking, more profitable firms have been valued more highly than less
+profitable ones. However, young start-up firms often lose money but still sometimes have high values
+attached to them. This seems to contradict the proposition about value and profitability going hand in
+hand. There seems to be, at least from the outside, one more key difference between young start-up
+firms and other firms in the market. A young firm does not have significant investments in land,
+buildings, or other fixed assets, and seems to derive the bulk of its value from intangible assets.
+The negative earnings and the presence of intangible assets are used by analysts as a rationale for
+abandoning traditional valuation models and developing new ways that can be used to justify
+investing in young firms. For instance, as noted in Chapter 20, Internet companies in their infancy
+were compared based on their value per site visitor, computed by dividing the market value of a firm
+by the number of visitors to the web site. Implicit in these comparisons were the assumptions that
+more visitors to your site translated into higher revenues, which, in turn, would lead to greater profits
+in the future. All too often, though, these assumptions were neither made explicit nor tested, leading to
+unrealistic valuations. In fact, the cycle seems to be repeating itself with social media companies in
+2011.
+This search for new paradigms is misguided. The problem with young firms is not that they lose
+money, have no history, or do not have substantial tangible assets. It is that they are far earlier in their
+life cycles than established firms, and often have to be valued before they have an established market
+for their products. In fact, in some cases, the firms being valued have an interesting idea that could be
+a commercial success but has not been tested yet. The problem, however, is not a conceptual problem
+but one of estimation. The value of a firm is still the present value of the expected cash flows from its
+assets, but those cash flows are likely to be much more difficult to estimate.
+Figure 23.1
+ offers a view of the life cycle of the firm and how the availability of information and
+the source of value changes over that life cycle:
+Figure 23.1
+ Valuation Issues across the Life Cycle

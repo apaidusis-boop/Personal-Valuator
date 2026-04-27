@@ -1,0 +1,59 @@
+s dividends after that. The growth rate after year 5 is expected to be 8%. The book value of equity per share is
+$10. The cost of equity for the firm is 11.5%.
+HIGH-MARGIN STRATEGY
+LOW-MARGIN STRATEGY
+
+Sales/book value
+low margin
+ = 4.00
+Price
+low margin
+ = V/S × S/BV × BV = 0.9966 × 4 × $10 = $39.86
+The high-margin strategy is clearly the better one to follow here, if the objective is value maximization.
+ILLUSTRATION 20.6: Effects of Changing Pricing
+Strategy: Whole Foods in May 2011
+In Illustration 20.2, we estimated an intrinsic price-to-sales ratio of 0.55 for Whole Foods. While this is higher than the
+median for other grocery stores, it is still lower than the current price to sales ratio of 1.11 that the firm trades at. In making
+the estimate of 0.55, we assumed that Whole Foods would be able to sustain a net profit margin of 2.73% and a sales-to-
+book equity of 5.53.
+Assume now that concerned about sales erosion if the company continues with its premium pricing strategy, Whole Foods is
+considering reducing prices to get back market share. If it does cut prices by 10%, its net profit margin will drop to 2.5% but
+assume that same store sales will surge by 15%, increasing the sales-to-book ratio to 6.36 (5.53 × 1.15). Assuming that the
+stable growth inputs remain unchanged (growth rate = 3%; ROE = 10%), the effect of the strategy change the on price-to-
+sales ratio and more importantly on equity value can be summarized here:
+Premium Price Strategy (current)
+Lower Price Strategy
+Base revenues
+$9,006.00
+$10,356.90
+Expected net margin
+2.73%
+2.50%
+Expected sales/capital
+5.53
+6.36
+Expected ROE
+15.11%
+15.90%
+Expected growth rate
+10.00%
+10.00%
+Payout ratio
+33.82%
+37.10%
+PS
+0.55
+0.56
+Value of equity
+$4,967.36
+$5,812.63
+The new price-to-sales ratio is computed using the same two-stage model we used in Illustration 20.2:
+Note that the base revenues increase by 15% from the current level of $9,006 million to $10,357 million. While the net effect
+on the price-to-sales ratio is very small (increase from 0.55 to 0.56), the value of equity increases almost 20% from $4,967
+million to $5,812 million.
+Value of a Brand Name
+One of the critiques of traditional valuation is that it fails to consider the value of brand names and
+other intangibles. Hiroyumi Itami, in his 1987 book 
+Mobilizing Invisible Assets
+, provides a summary
+of this criticism. He says:

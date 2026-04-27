@@ -1,0 +1,42 @@
+he option
+overhang.
+2
+ As with the return on equity, if return on capital is defined in terms of contemporaneous earnings
+(ROC = EBIT
+0
+/Book capital), there will be an extra (1 + g) in the numerator.
+
+CHAPTER 20
+Revenue Multiples and Sector-Specific Multiples
+While earnings and book value multiples are intuitively appealing and widely used, analysts in recent
+years have increasingly turned to alternative multiples to value companies. For young firms that have
+negative earnings, multiples of revenues have replaced multiples of earnings. In addition, these firms
+are being valued on multiples of sector-specific measures such as the number of customers,
+subscribers, or even web site visitors (for new economy firms). In this chapter, the reasons for the
+increased use of revenue multiples are examined first, followed by an analysis of the determinants of
+these multiples and how best to use them in valuation. This is followed by a short discussion of the
+sector-specific multiples, the dangers associated with their use and the adjustments that might be
+needed to make them work.
+REVENUE MULTIPLES
+A revenue multiple measures the value of the equity or a business relative to the revenues that it
+generates. As with other multiples, other things remaining equal, firms that trade at low multiples of
+revenues are viewed as cheap relative to firms that trade at high multiples of revenues.
+Revenue multiples have proved attractive to analysts for a number of reasons. First, unlike earnings
+and book value ratios, which can become negative for many firms and thus not meaningful, revenue
+multiples are available even for the most troubled firms and for very young firms. Thus, the potential
+for bias created by eliminating firms in the sample is far lower. Second, unlike earnings and book
+value, which are heavily influenced by accounting decisions on depreciation, inventory, research and
+development (R&D), acquisition accounting, and extraordinary charges, revenue is relatively difficult
+to manipulate. Third, revenue multiples are not as volatile as earnings multiples, and hence are less
+likely to be affected by year-to-year swings in a firm’s fortunes. For instance, the price-earnings ratio
+of a cyclical firm changes much more than its price-sales ratios, because earnings are much more
+sensitive to economic changes than revenues are.
+The biggest disadvantage of focusing on revenues is that it can lull you into assigning high values to
+firms that are generating high revenue growth while losing significant amounts of money. Ultimately, a
+firm has to generate earnings and cash flows for it to have value. While it is tempting to use revenue
+multiples to value firms with negative earnings and book value, the failure to control for differences
+across firms in costs and profit margins can lead to misleading valuations.
+Definition of Revenue Multiple
+There are two basic revenue multiples in use. The first, and more popular, one is the multiple of the
+market value of equity to the revenues of a firm; this is termed the price-to-sales ratio. The second,
+and more robust, ratio is the multiple of the value of the operating assets to revenues; this is the EV-

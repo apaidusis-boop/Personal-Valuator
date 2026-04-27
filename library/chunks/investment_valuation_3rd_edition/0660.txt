@@ -1,0 +1,34 @@
+48 billion) yielded a
+value per share of 4,735 yen/share.
+Based on the normalized income, Toyota looked significantly undervalued at its stock price of 3,060 yen per share in early
+2009.
+normearn.xls:
+
+This spreadsheet allows you to normalize the earnings for a firm, using a variety of
+approaches.
+Valuing Commodity and Natural Resource Firms
+Commodity prices are not only volatile but go through cycles—periods of high prices followed by
+periods with lower prices.
+Some natural resource companies smooth out their earnings using futures and options contracts, but
+many let the price changes flow through into their bottom lines. As a consequence, the earnings of
+commodity companies tend to move up and down with commodity prices. To value natural resource
+companies—and that group would include not just oil and mining firms but also forest product firms
+(such as timber) and agricultural businesses—you have three choices:
+MACROECONOMIC VIEWS AND VALUATION
+The earnings of cyclical firms tend to be volatile, with the volatility linked to how well or badly the economy is performing.
+One way to incorporate these effects into value is to build in expectations of when future recessions and recoveries will
+occur into the cash flows. This exercise is fraught with danger, since the error in such predictions is likely to be very large.
+Economists seldom agree on when a recovery is imminent, and most categorizations of recessions occur after the fact.
+Furthermore, a valuation that is based on specific macroeconomic forecasts makes it difficult for users to separate how
+much of the final recommendation (i.e., that the firm is under- or overvalued) comes from the firm being mispriced and how
+much reflects the analyst's optimism or the pessimism about the overall economy.
+  The other way to incorporate earnings variability into the valuation is through the discount rate—cyclical firms tend to be
+more risky and require higher discount rates. This is what we do when we use higher unlevered betas and/or costs of debt
+for cyclical firms.
+1.
+ One is to try to forecast future commodity prices—the commodity price cycle—and build these
+forecasts into expected revenues in future years. This may be difficult to do since the cycles are
+unpredictable. However, you could use prices from the futures market as your forecasted prices.
+2.
+ You could value the firms using a normalized commodity price, estimated by looking at the
+average price of the commodity over a cycle. Thus, the average price of coffee over the past

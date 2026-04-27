@@ -1,0 +1,47 @@
+ers—which I’ll cover below. For now, suffice it to say that in times when money is flowing out of a currency, 
+real interest rates need to rise less if real exchange rates fall more (and vice versa). 
+
+Part 1: The Archetypal Big Debt Cycle 
+40
+Capital outflows tend to happen when an environment is inhospitable (e.g., because debt, economic, and/or 
+political problems exist), and they typically weaken the currency a lot. To make matters worse, those who fund 
+their activities in the country that has the weaker currency by borrowing the stronger currency see their debt costs 
+soar; that drives down the weaker currency relative to the stronger one even more. For these reasons, countries 
+with the worst debt problems, a lot of debt denominated in a foreign currency, and a high dependence on 
+foreign capital typically have significant currency weaknesses. The currency weakness is what causes inf la -
+tion when there is a depression. 
+Normally this all runs its course when the currency and the debt prices go down enough to make them very 
+cheap. More specifically, the squeeze ends when a) the debts are defaulted on and/or enough money is created to 
+alleviate the squeeze, b) the debt service requirements are reduced in some other way (e.g., forbearance) and/or c) 
+the currency depreciates much more than inflation picks up, so that the country’s assets and the items it sells to 
+the world become so competitively priced that its balance of payments improves. But a lot depends on politics. If 
+the markets are allowed to run their courses, the adjustments eventually take place and the problems are resolved, 
+but if the politics get so bad that productivity is thrown into a self-reinforcing downward spiral, that spiral can go 
+on for a long time. 
+Which Countries/Currencies Are Most Vulnerable to Severe Inflationary Deleveragings 
+or Hyperinflations?
+While inflationary depressions are possible in all countries/currencies, they are far more likely in countries that:
+ • Don’t have a reserve currency (so there is not a global bias to hold their currency/debt as a store hold of wealth)
+ • Have low foreign-exchange reserves (the cushion to protect against capital outflows is small)
+ • Have a large foreign debt (so there is a vulnerability to the cost of the debt rising via increases in either 
+interest rates or the value of the currency the debtor has to deliver, or a shortage of the availability of dollar 
+denominated credit)
+ • Have a large and increasing budget and/or current account deficit (causing the need to borrow or print money to 
+fund the deficits)
+ • Have negative real interest rates (i.e., interest rates that are significantly less than inflation rates), therefore 
+inadequately compensating lenders for holding the currency/debt
+ • Have a history of high inflation and negative total returns in the currency (increasing lack of trust in the value of 
+the currency/debt)
+Generally speaking, the greater the degree to which these things exist, the greater the degree of the inflationary 
+depression. The most iconic case is the German Weimar Republic in the early 1920s, which is examined at length 
+in Part 2. If you are interested in reviewing actual case studies showing the reasons why inflationary depressions 
+happen rather than deflationary ones, it is worth noting the differences between the Weimar case study and the 
+US Great Depression and 2007–2011 case studies, which are also examined in Part 2. 
+Can reserve-currency countries that don’t have significant foreign-currency debt have inflationary depressions? While 
+they are much less likely to have inflationary contractions that are as severe, they can have inflationary depressions, 
+though they emerge more slowly and later in the deleveraging process, after a sustained and repeated overuse of 
+stimulation to reverse deflationary deleveraging. Any country, including one with a reserve currency, can experience 
+some movement out of its currency, which changes the severity of the trade-off between inflation and growth 
+described earlier. If a reserve-currency country permits much higher inflation in order to keep growth stronger by 
+printing lots of money, it can further undermine demand for its currency, erode its reserve currency status (e.g., make 
+investors view it as less of a store hold of wealth), and turn its deleveraging into an inflationary one.

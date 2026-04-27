@@ -1,0 +1,48 @@
+ince the covariance of the market portfolio with itself is its variance, the beta of the market
+portfolio (and, by extension, the average asset in it) is 1. Assets that are riskier than average (using
+
+this measure of risk) will have betas that exceed 1, and assets that are safer than average will have
+betas that are lower than 1. The riskless asset will have a beta of zero.
+Getting Expected Returns
+The fact that every investor holds some combination of the riskless asset and the market portfolio
+leads to the next conclusion, which is that the expected return on an asset is linearly related to the beta
+of the asset. In particular, the expected return on an asset can be written as a function of the risk-free
+rate and the beta of that asset:
+where E(R
+i
+) = Expected return on asset i 
+R
+f
+ = Risk-free rate 
+E(R
+m
+) = Expected return on market portfolio 
+β
+i
+ = Beta of asset i
+To use the capital asset pricing model, we need three inputs. While the next chapter looks at the
+estimation process in far more detail, each of these inputs is estimated as follows:
+The riskless asset is defined to be an asset for which the investor knows the expected return
+with certainty for the time horizon of the analysis.
+The risk premium is the premium demanded by investors for investing in the market
+portfolio, which includes all risky assets in the market, instead of investing in a riskless
+asset.
+The beta, defined as the covariance of the asset divided by the market portfolio, measures
+the risk added by an investment to the market portfolio.
+In summary, in the capital asset pricing model all the market risk is captured in one beta measured
+relative to a market portfolio, which at least in theory should include all traded assets in the
+marketplace held in proportion to their market value.
+Arbitrage Pricing Model
+The restrictive assumptions on transaction costs and private information in the capital asset pricing
+model, and the model’s dependence on the market portfolio, have long been viewed with skepticism
+by both academics and practitioners. Ross (1976) suggested an alternative model for measuring risk
+called the arbitrage pricing model (APM).
+Assumptions
+If investors can invest risklessly and earn more than the riskless rate, they have found an arbitrage
+opportunity. The premise of the arbitrage pricing model is that investors take advantage of such
+arbitrage opportunities, and in the process eliminate them. If two portfolios have the same exposure to
+risk but offer different expected returns, investors will buy the portfolio that has the higher expected
+returns and sell the portfolio with the lower expected returns, and earn the difference as a riskless
+profit. To prevent this arbitrage from occurring, the two portfolios have to earn the same expected
+return.
+Like the capital asset pricing model, the arbitrage pricing model begins by breaking risk down into

@@ -1,0 +1,24 @@
+.
+3
+ In a paper in 
+Nature
+ (Gabaix, X., Gopikrishnan, P., Plerou, V., and Stanley, H.E., 2003,
+ A theory
+of power law distributions in financial market fluctuations,
+ Nature 423, 267–70), researchers
+
+looked at stock prices on 500 stocks between 1929 and 1987 and concluded that the exponent for
+stock returns is roughly 3.
+4
+ Graham, B., 1949, 
+The Intelligent Investor
+ (New York: HarperBusiness, reprinted in 2005).
+5
+ Financial obligation refers to any payment that the firm has legally obligated itself to make, such
+as interest and principal payments. It does not include discretionary cash flows, such as dividend
+payments or new capital expenditures, which can be deferred or delayed without legal
+consequences, though there may be economic consequences.
+6
+ See the Standard & Poor’s online site (
+www.standardandpoors.com/ratings/criteria/index.htm
+).

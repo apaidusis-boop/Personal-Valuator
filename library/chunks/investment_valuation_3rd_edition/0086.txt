@@ -1,0 +1,49 @@
+fs
+(skewness) or big jumps (kurtosis) that they argue should be considered, but only that portion of the
+skewness (co-skewness) and kurtosis (co-kurtosis) that is market-related and not diversifiable.
+
+Jump Process Models
+The normal, power law, and asymmetric distributions that form the basis for the models we have
+discussed in this section are all continuous distributions. Observing the reality that stock prices do
+jump, there are some who have argued for the use of jump process distributions to derive risk
+measures.
+Press (1967), in one of the earliest papers that attempted to model stock price jumps, argued that
+stock prices follow a combination of a continuous price distribution and a Poisson distribution,
+where prices jump at irregular intervals. The key parameters of the Poisson distribution are the
+expected size of the price jump (
+μ
+), the variance in this value (
+δ
+2
+), and the likelihood of a price jump
+in any specified time period (λ), and Press estimated these values for 10 stocks. In subsequent papers,
+Beckers (1981) and Ball and Torous (1983) suggest ways of refining these estimates. In an attempt to
+bridge the gap between the CAPM and jump process models, Jarrow and Rosenfeld (1984) derive a
+version of the capital asset pricing model that includes a jump component that captures the likelihood
+of market jumps and an individual asset’s correlation with these jumps.
+While jump process models have gained some traction in option pricing, they have had limited
+success in equity markets, largely because the parameters of jump process models are difficult to
+estimate with any degree of precision. Thus, while everyone agrees that stock prices jump, there is
+little consensus on the best way to measure how often this happens, whether these jumps are
+diversifiable, and how best to incorporate their effect into risk measures.
+Regression or Proxy Models
+The conventional models for risk and return in finance (CAPM, arbitrage pricing model, and even
+multifactor models) start by making assumptions about how investors behave and how markets work
+to derive models that measure risk and link those measures to expected returns. While these models
+have the advantage of a foundation in economic theory, they seem to fall short in explaining
+differences in returns across investments. The reasons for the failure of these models run the gamut:
+The assumptions made about markets are unrealistic (no transactions costs, perfect information) and
+investors don’t behave rationally (and behavioral finance research provides ample evidence of this).
+With proxy models, we essentially give up on building risk and return models from economic
+theory. Instead, we start with how investments are priced by markets and relate returns earned to
+observable variables. Rather than talk in abstractions, consider the work done by Fama and French in
+the early 1990s. Examining returns earned by individual stocks from 1962 to 1990, they concluded
+that CAPM betas did not explain much of the variation in these returns. They then took a different tack
+and looked for company-specific variables that did a better job of explaining return differences they
+pinpointed two variables—the market capitalization of a firm and its price-to-book ratio (the ratio of
+market cap to accounting book value for equity). Specifically, they concluded that small market cap
+stocks earned much higher annual returns than large market cap stocks and that low price to book ratio
+stocks earned much higher annual returns than stocks that traded at high price-to-book ratios. Rather
+than view this as evidence of market inefficiency (which is what prior studies that had found the same
+phenomena had done), they argued if these stocks earned higher returns over long time periods, they
+must be riskier than stocks that earned lower returns. In effect, market capitalization and price-to-

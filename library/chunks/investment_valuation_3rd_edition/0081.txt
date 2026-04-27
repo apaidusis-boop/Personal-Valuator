@@ -1,0 +1,50 @@
+To prevent this arbitrage from occurring, the two portfolios have to earn the same expected
+return.
+Like the capital asset pricing model, the arbitrage pricing model begins by breaking risk down into
+
+firm-specific and market risk components. As in the capital asset pricing model, firm-specific risk
+covers information that affects primarily the firm. Market risk affects many or all firms and would
+include unanticipated changes in a number of economic variables, including gross national product,
+inflation, and interest rates. Incorporating both types of risk into a return model, we get:
+where R is the actual return, E(R) is the expected return, m is the marketwide component of
+unanticipated risk, and 
+ε
+ is the firm-specific component. Thus, the actual return can be different from
+the expected return, because of either market risk or firm-specific actions.
+Sources of Marketwide Risk
+While both the capital asset pricing model and the arbitrage pricing model make a distinction
+between firm-specific and marketwide risk, they measure market risk differently. The CAPM assumes
+that market risk is captured in the market portfolio, whereas the arbitrage pricing model allows for
+multiple sources of marketwide risk and measures the sensitivity of investments to changes in each
+source. In general, the market component of unanticipated returns can be decomposed into economic
+factors:
+where β
+j
+ = Sensitivity of investment to unanticipated changes in market risk factor j 
+F
+j
+ = Unanticipated changes in market risk factor j
+Note that the measure of an investment’s sensitivity to any macroeconomic (or market) factor takes the
+form of a beta, called a factor beta. In fact, this beta has many of the same properties as the market
+beta in the CAPM.
+Effects of Diversification
+The benefits of diversification were discussed earlier, in the context of the breakdown of risk into
+market and firm-specific risk. The primary point of that discussion was that diversification eliminates
+firm-specific risk. The arbitrage pricing model uses the same argument and concludes that the return
+on a portfolio will not have a firm-specific component of unanticipated returns. The return on a
+portfolio can be written as the sum of two weighted averages—that of the anticipated returns in the
+portfolio and that of the market factors:
+where w
+j
+ = Portfolio weight on asset j (where there are n assets) 
+R
+j
+ = Expected return on asset j 
+β
+i,j
+ = Beta on factor i for asset j
+Expected Returns and Betas
+The final step in this process is estimating an expected return as a function of the betas just specified.
+To do this, we should first note that the beta of a portfolio is the weighted average of the betas of the
+assets in the portfolio. This property, in conjunction with the absence of arbitrage, leads to the
+conclusion that expected returns should be linearly related to betas. To see why, assume that there is

@@ -1,0 +1,58 @@
+t-based valuation models. The first is liquidation value, which is obtained by
+aggregating the estimated sale proceeds of the assets owned by a firm. The second is replacement cost, where you estimate
+
+what it would cost you to replace all of the assets that a firm has today. The third is the simplest: use accounting book value
+as the measure of the value of the assets, with adjustments to the book value made where necessary.
+  While analysts may use asset-based valuation approaches to estimate value, they are not alternatives to discounted cash
+flow, relative, or option pricing models since both replacement and liquidation values have to be obtained using one or another
+of these approaches. Ultimately, all valuation models attempt to value assets; the differences arise in how we identify the
+assets and how we attach value to each asset. In liquidation valuation, we look only at assets in place and estimate their
+value based on what similar assets are priced at in the market. In traditional discounted cash flow valuation, we consider all
+assets and include expected growth potential to arrive at value. The two approaches may, in fact, yield the same values if
+you have a firm that has no growth potential and the market assessments of value reflect expected cash flows.
+ILLUSTRATION 2.2: The Potential for Misuse with
+Comparable Firms
+Assume that an analyst is valuing an initial public offering (IPO) of a firm that manufactures computer software. At the
+same time,
+3
+ the price-earnings multiples of other publicly traded firms manufacturing software are:
+Firm
+Multiple
+Adobe Systems
+23.2
+Autodesk
+20.4
+Broderbund
+32.8
+Computer Associates
+18.0
+Lotus Development
+24.1
+Microsoft
+27.4
+Novell
+30.0
+Oracle
+37.8
+Software Publishing
+10.6
+System Software
+15.7
+Average PE ratio
+24.0
+  While the average PE ratio using the entire sample is 24, it can be changed markedly by removing a couple of firms from
+the group. For instance, if the two firms with the lowest PE ratios in the group (Software Publishing and System Software)
+are eliminated from the sample, the average PE ratio increases to 27. If the two firms with the highest PE ratios in the group
+(Broderbund and Oracle) are removed from the group, the average PE ratio drops to 21.
+The other problem with using multiples based on comparable firms is that it builds in errors
+(overvaluation or undervaluation) that the market might be making in valuing these firms. In
+Illustration 2.2, for instance, if the market has overvalued all computer software firms, using the
+average PE ratio of these firms to value an initial public offering will lead to an overvaluation of the
+IPO stock. In contrast, discounted cash flow valuation is based on firm-specific growth rates and cash
+flows, so it is less likely to be influenced by market errors in valuation.
+CONTINGENT CLAIM VALUATION
+Perhaps the most revolutionary development in valuation is the acceptance, at least in some cases,
+that the value of an asset may be greater than the present value of expected cash flows if the cash
+flows are contingent on the occurrence or nonoccurrence of an event. This acceptance has largely
+come about because of the development of option pricing models. While these models were initially
+used to value traded options, there has been an attempt in recent years to extend the reach of these

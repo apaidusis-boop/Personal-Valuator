@@ -1,0 +1,42 @@
+care plan without promising specific benefits (analogous to a defined contribution plan) or by
+promising specific health benefits and setting aside the funds to provide these benefits (analogous to a
+
+defined benefit plan). The accounting for health care benefits is very similar to the accounting for
+pension obligations.
+Deferred Taxes
+Firms often use different methods of accounting for tax and financial reporting purposes, leading to a
+question of how tax liabilities should be reported. Since accelerated depreciation and favorable
+inventory valuation methods for tax accounting purposes lead to a deferral of taxes, the taxes on the
+income reported in the financial statements will generally be much greater than the actual tax paid.
+The same principles of matching expenses to income that underlie accrual accounting suggest that the
+deferred income tax be recognized in the financial statements. Thus a company that pays taxes of
+$55,000 on its taxable income based on its tax accounting, and that would have paid taxes of $75,000
+on the income reported in its financial statements, will be forced to recognize the difference
+($20,000) as deferred taxes. Since the deferred taxes will be paid in later years, they will be
+recognized when paid.
+It is worth noting that companies that actually pay more in taxes than the taxes they report in the
+financial statements create an asset called a deferred tax asset. This reflects the fact that the firm's
+earnings in future periods will be greater as the firm is given credit for the deferred taxes.
+The question of whether the deferred tax liability is really a liability is an interesting one. On one
+hand, the firm does not owe the amount categorized as deferred taxes to any entity, and treating it as a
+liability makes the firm look more risky than it really is. On the other hand, the firm will eventually
+have to pay its deferred taxes, and treating the amount as a liability seems to be the conservative thing
+to do.
+Preferred Stock
+When a company issues preferred stock, it generally creates an obligation to pay a fixed dividend on
+the stock. Accounting rules have conventionally not viewed preferred stock as debt because the
+failure to meet preferred dividends does not result in bankruptcy. At the same time, the fact the
+preferred dividends are cumulative makes them more onerous than common equity. Thus, preferred
+stock is a hybrid security, sharing some characteristics with equity and some with debt.
+Preferred stock is valued on the balance sheet at its original issue price, with any cumulated unpaid
+dividends added on. Convertible preferred stock is treated similarly, but it is treated as equity on
+conversion.
+Equity
+The accounting measure of equity is a historical cost measure. The value of equity shown on the
+balance sheet reflects the original proceeds received by the firm when it issued the equity, augmented
+by any earnings made since (or reduced by losses, if any) and reduced by any dividends paid out
+during the period. While these three items go into what we can call the book value of equity, three
+other points need to be made about this estimate:
+1.
+ When companies buy back stock for short periods, with the intent of reissuing the stock or using
+it to cover option exercises, they are allowed to show the repurchased stock as treasury stock,

@@ -1,0 +1,41 @@
+ameters as the call described earlier, but with a strike price of 21.27% (15.45% + 5.82%).
+In this case, the effect of imposing this constraint on the value of flexibility is negligible.
+
+finflex.xls:
+
+This spreadsheet allows you to estimate the value of financial flexibility as an option.
+Implications of Financial Flexibility Option
+Looking at financial flexibility as an option yields valuable insights on when financial flexibility is
+most valuable. Using the approach developed earlier, for instance, we would argue that:
+Other things remaining equal, firms operating in businesses where projects earn
+substantially higher returns than their hurdle rates should value flexibility more than those
+that operate in stable businesses where excess returns are small. This would imply that
+firms such as Microsoft and Dell, which earn large excess returns on their projects, can use
+the need for financial flexibility as justification for holding large cash balances and
+maintaining excess debt capacity.
+Since a firm’s ability to fund these reinvestment needs is determined by its capacity to
+generate internal funds, other things remaining equal, financial flexibility should be worth
+less to firms with large and stable earnings as a percent of firm value. Firms that have small
+or negative earnings, and therefore much lower capacity to generate internal funds, will
+value flexibility more.
+Firms with limited internal funds can still get away with little or no financial flexibility if
+they can tap external markets for capital—bank debt, bonds, and new equity issues. Other
+things remaining equal, the greater the capacity (and the willingness) of a firm to raise funds
+from external capital markets, the less should be the value of flexibility. This may explain
+why private or small firms, which have far less access to capital, will value financial
+flexibility more than larger firms. The existence of corporate bond markets can also make a
+difference in how much flexibility is valued. In markets where firms cannot issue bonds and
+have to depend entirely on banks for financing, there is less access to capital and a greater
+need to maintain financial flexibility. In the Home Depot example, a willingness to tap
+external funds—debt or equity—would reduce the value of flexibility substantially.
+The need for and the value of flexibility is a function of how uncertain a firm is about future
+reinvestment needs. Firms with predictable reinvestment needs should value flexibility less
+than firms in businesses whose reinvestment needs are volatile on a period-to-period basis.
+In our analysis of Home Depot, we considered the firm’s gross debt ratio, which cannot be less than
+0 percent. If we consider a firm’s net debt ratio (gross debt minus cash), we see it is entirely possible
+for a firm to have a negative net debt ratio. Extending the financing flexibility argument, you could
+argue that in extreme circumstances—low or negative internal cash flows and no access to capital
+markets—firms not only will not use their debt capacity (thus driving the gross debt ratio to zero) but
+will accumulate cash. This may explain why many emerging market firms and young technology firms
+use no debt and accumulate large cash balances.
+THE OPTION TO ABANDON

@@ -1,0 +1,79 @@
+[DRIP-BATCH start] Sun Apr 26 22:58:16 GTBST 2026
+[DRIP-BATCH] portfolio aggregate...
+========================================================================================
+MV actual: R$ 472,996.50  (BR R$ 360,791 + US R$ 112,206)
+
+Horizonte          Conservador              Base         Optimista
+5y          R$        765,872R$        926,961R$      1,076,309
+10y          R$      1,273,191R$      1,898,252R$      2,584,447
+15y          R$      2,175,758R$      4,073,859R$      6,574,071
+20y          R$      3,830,424R$      9,179,288R$     17,752,497
+
+[md] gravado em C:\Users\paidu\investment-intelligence\reports\drip_projection_2026-04-26.md
+[1] AAPL @ 22:58:17
+  -> obsidian_vault/briefings/drip_scenarios/AAPL_drip.md
+[2] ABBV @ 22:58:17
+  -> obsidian_vault/briefings/drip_scenarios/ABBV_drip.md
+[3] ACN @ 22:58:17
+  -> obsidian_vault/briefings/drip_scenarios/ACN_drip.md
+[4] BBDC4 @ 22:58:17
+  -> obsidian_vault/briefings/drip_scenarios/BBDC4_drip.md
+[5] BLK @ 22:58:18
+  -> obsidian_vault/briefings/drip_scenarios/BLK_drip.md
+[6] BN @ 22:58:18
+  -> obsidian_vault/briefings/drip_scenarios/BN_drip.md
+[7] BRK-B @ 22:58:18
+  -> obsidian_vault/briefings/drip_scenarios/BRK-B_drip.md
+[8] BTLG11 @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/BTLG11_drip.md
+[9] GREK @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/GREK_drip.md
+[10] GS @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/GS_drip.md
+[11] HD @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/HD_drip.md
+[12] ITSA4 @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/ITSA4_drip.md
+[13] IVVB11 @ 22:58:19
+  -> obsidian_vault/briefings/drip_scenarios/IVVB11_drip.md
+[14] JNJ @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/JNJ_drip.md
+[15] JPM @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/JPM_drip.md
+[16] KLBN11 @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/KLBN11_drip.md
+[17] KO @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/KO_drip.md
+[18] LFTB11 @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/LFTB11_drip.md
+[19] NU @ 22:58:20
+  -> obsidian_vault/briefings/drip_scenarios/NU_drip.md
+[20] O @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/O_drip.md
+[21] PG @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/PG_drip.md
+[22] PLD @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/PLD_drip.md
+[23] PLTR @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/PLTR_drip.md
+[24] PRIO3 @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/PRIO3_drip.md
+[25] PVBI11 @ 22:58:21
+  -> obsidian_vault/briefings/drip_scenarios/PVBI11_drip.md
+[26] RBRX11 @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/RBRX11_drip.md
+[27] TEN @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/TEN_drip.md
+[28] TSLA @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/TSLA_drip.md
+[29] TSM @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/TSM_drip.md
+[30] VALE3 @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/VALE3_drip.md
+[31] VGIR11 @ 22:58:22
+  -> obsidian_vault/briefings/drip_scenarios/VGIR11_drip.md
+[32] XP @ 22:58:23
+  -> obsidian_vault/briefings/drip_scenarios/XP_drip.md
+[33] XPML11 @ 22:58:23
+  -> obsidian_vault/briefings/drip_scenarios/XPML11_drip.md
+[DRIP-BATCH end] Sun Apr 26 22:58:23 GTBST 2026

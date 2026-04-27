@@ -1,0 +1,47 @@
+y
+184.25 billion krw
+Dividing by the number of shares results in an estimated value of equity for the firm of 2,504 krw per share, a little higher
+than the actual trading price of 2,220 krw per share.
+
+CAN EQUITY VALUE BE NEGATIVE?
+We generally subtract the value of outstanding debt from firm value to get to the value of equity. But can the value of the
+outstanding debt exceed the value of the firm? If you are using market values for both the firm (obtained by adding the
+market values of debt and equity) and debt, this should not occur. This is because the market value of equity can never be
+less than zero. However, if you are using your estimated value for the firm, obtained by discounting cash flows to the firm at
+the cost of capital, the estimated firm value can be less than the market value of the outstanding debt. When this occurs,
+there are three possible interpretations:
+1.
+ The first and most obvious reading is that you have made a mistake in estimating firm value and that your estimate is
+too low. In this case, the obvious solution is to redo the firm valuation.
+2.
+ The second possibility is that the market value of debt is overstated. This can happen if you are using the book value of
+debt as a proxy for market value for troubled firms, or if the bond market is making a mistake pricing the debt. Estimating
+the correct market value of debt will eliminate the problem.
+6
+3.
+ The third and most intriguing possibility is that your estimate of firm value and the market value of debt are both correct,
+in which case the equity value is, in fact, negative. Since the market price of equity cannot be less than zero, the
+implication is that the equity in this firm is worth nothing. However, as you will see later, equity may still continue to
+command value, even under these circumstances, if it is viewed as a call option on the firm's assets.
+Overlevered with High Probability of Bankruptcy
+Discounted cash flow valuation is conditioned on a firm being a going concern, with cash flows
+continuing into the future. When a firm's financial problems are severe enough to suggest a strong
+likelihood of bankruptcy, two other approaches may need to be used to value a firm and the equity
+claim in it. One is to estimate a liquidation value for the assets today, and the other is to value the
+company on the assumption that it stays a going concern and then adjust that value for the likelihood
+and consequences of distress.
+Liquidation Value
+The liquidation value of a firm is the aggregate of the value that the assets of the firm would command
+on the market, net of transactions and legal costs. The value of equity can be obtained by subtracting
+the value of the outstanding debt from the asset value.
+Estimating liquidation value is complicated when the assets of the firm are not easily separated and
+thus cannot be valued individually. Furthermore, the likelihood that assets will fetch their fair market
+value will decrease as the urgency of the liquidation increases. A firm in a hurry to liquidate its
+assets may have to accept a discount on fair market value as a price for speedy execution.
+As a note of caution, it is almost never appropriate to treat the book value of the assets as the
+liquidation value. Most distressed firms earn subpar returns on their assets, and the liquidation value
+will reflect the earning capacity of the assets rather than the original capital invested in the assets
+(which is what the book value measures, net of depreciation).
+Distress-Adjusted DCF
+Discounted cash flow valuation will yield too high a value for a firm where there is a significant
+likelihood of distress or default, because we assume that the firm will survive as a going concern.

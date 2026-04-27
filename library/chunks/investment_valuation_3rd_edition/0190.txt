@@ -1,0 +1,46 @@
+ure.
+We could estimate the country risk premiums for each country in which they operate and a 
+λ
+ relative
+to each country, and use these to estimate a cost of equity for either company.
+ctryprem.xls:
+
+There is a dataset on the Web that contains the updated ratings for countries and the risk
+premiums associated with each.
+Alternative Approach: Implied Equity Premiums
+There is an alternative to estimating risk premiums that does not require historical data or corrections
+for country risk, but does assume that the market, overall, is correctly priced. Consider, for instance,
+a very simple valuation model for stocks:
+This is essentially the present value of dividends growing at a constant rate. Three of the four inputs
+in this model can be obtained externally—the current level of the market (value), the expected
+dividends next period, and the expected growth rate in earnings and dividends in the long term. The
+only unknown is then the required return on equity; when we solve for it, we get an implied expected
+return on stocks. Subtracting the risk-free rate will yield an implied equity risk premium.
+To illustrate, assume that the current level of the S&P 500 index is 900, the expected dividend yield
+on the index is 2 percent, and the expected growth rate in earnings and dividends in the long term is 7
+percent. Solving for the required return on equity yields the following:
+Solving for r,
+If the current risk-free rate is 6 percent, this will yield a premium of 3 percent.
+This approach can be generalized to allow for high growth for a period, and extended to cover cash
+flow–based, rather than dividend, models. To illustrate this, consider the S&P 500 index as of
+January 1, 2011. The index was at 1257.64, and the cash flows from dividends and stock buybacks
+during the course of 2010 were 53.96. In addition, the consensus estimate
+16
+ of growth in earnings for
+companies in the index was approximately 6.95 percent for the next five years. Since this is not a
+growth rate that can be sustained forever, we employ a two-stage valuation model, where we allow
+growth to continue at 6.95 percent for five years, and then lower the growth rate to the Treasury bond
+rate of 3.29 percent after that.
+17
+ The following table summarizes the expected cash flows for the next
+five years of high growth and the first year of stable growth thereafter:
+Year
+Cash Flow on Index
+1
+53.96(1.0695) = 57.72
+2
+57.72(1.0695) = 61.73
+3
+61.73(1.0695) = 66.02
+4
+66.02(1.0695) = 70.60

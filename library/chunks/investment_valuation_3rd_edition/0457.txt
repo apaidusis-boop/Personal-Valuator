@@ -1,0 +1,57 @@
+s outstanding
+(trading at $60 per share), with a book value of $5 billion. Union Pacific's working capital
+requirements were negligible. (The Treasury bond rate was 7%, and the risk premium was 5.5%.)
+
+a.
+ Estimate the free cash flow to the firm in 1993.
+b.
+ Estimate the value of the firm at the end of 1993.
+c.
+ Estimate the value of equity at the end of 1993, and the value per share, using the FCFF
+approach.
+3.
+ Lockheed Corporation, one of the largest defense contractors in the United States, reported
+EBITDA of $1,290 million in 1993, prior to interest expenses of $215 million and depreciation
+charges of $400 million. Capital expenditures in 1993 amounted to $450 million, and working
+capital was 7% of revenues (which were $13,500 million). The firm had debt outstanding of
+$3.068 billion (in book value terms), trading at a market value of $3.2 billion and yielding a
+pretax interest rate of 8%. There were 62 million shares outstanding, trading at $64 per share, and
+the most recent beta was 1.10. The tax rate for the firm was 40%. (The Treasury bond rate was
+7%, and the risk premium was 5.5%.) 
+The firm expected revenues, earnings, capital expenditures and depreciation to grow at 9.5% a
+year from 1994 to 1998, after which the growth rate was expected to drop to 4%. (Capital
+spending will be 120% of depreciation in the steady state period.) The company also planned to
+lower its debt/equity ratio to 50% for the steady state (which will result in the pretax interest rate
+dropping to 7.5%).
+a.
+ Estimate the value of the firm.
+b.
+ Estimate the value of the equity in the firm, and the value per share.
+4.
+ In the face of disappointing earnings results and increasingly assertive institutional
+stockholders, Eastman Kodak was considering a major restructuring in 1993. As part of this
+restructuring, it was considering the sale of its health division, which earned $560 million in
+earnings before interest and taxes in 1993, on revenues of $5.285 billion. The expected growth in
+earnings was expected to moderate to 6% between 1994 and 1998, and to 4% after that. Capital
+expenditures in the health division amounted to $420 million in 1993, while depreciation was
+$350 million. Both were expected to grow 4% a year in the long term. Working capital
+requirements were negligible. 
+The average beta of firms competing with Eastman Kodak's health division was 1.15. While
+Eastman Kodak had a debt ratio [D/(D + E)] of 50%, the health division could sustain a debt ratio
+[D/(D + E)] of only 20%, which was similar to the average debt ratio of firms competing in the
+health sector. At this level of debt, the health division could expect to pay 7.5% on its debt, before
+taxes. (The tax rate was 40%, the Treasury bond rate was 7%, and the risk premium was 5.5%.)
+a.
+ Estimate the cost of capital for the division.
+b.
+ Estimate the value of the division.
+c.
+ Why might an acquirer pay more than this estimated value for the division?
+5.
+ You are analyzing a valuation done on a stable firm by a well-known analyst. Based on the
+expected free cash flow to firm next year of $30 million and an expected growth rate of 5%, the
+analyst has estimated a value of $750 million. However, he has made the mistake of using the
+book values of debt and equity in his calculation. While you do not know the book value weights
+he used, you know that the firm has a cost of equity of 12% and an after-tax cost of debt of 6%.
+You also know that the market value of equity is three times the book value of equity, while the
+market value of debt is equal to the book value of debt. Estimate the correct value for the firm.

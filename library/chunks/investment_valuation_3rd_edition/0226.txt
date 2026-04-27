@@ -1,0 +1,66 @@
+ate of 35% for both firms.)
+The unlevered beta for the combined firm can be calculated as the weighted average of the two unlevered betas, with the
+weights based on the market values of the two firms.
+
+Boeing's acquisition of McDonnell Douglas was accomplished by issuing new stock in Boeing to cover the value of
+McDonnell Douglas' equity of $12,555 million. Since no new debt was used to finance the deal, the debt outstanding in the
+firm after the acquisition is just the sum of the debt outstanding at the two companies before the acquisition.
+The debt/equity ratio can then be computed as follows:
+This debt/equity ratio in conjunction with the new unlevered beta for the combined firm yields a new beta of:
+Accounting Betas
+A third approach is to estimate the market risk parameters from accounting earnings rather than from
+traded prices. Thus, changes in earnings at a division or a firm, on a quarterly or an annual basis, can
+be related to changes in earnings for the market, in the same periods, to arrive at an estimate of a
+accounting beta to use in the CAPM. While the approach has some intuitive appeal, it suffers from
+three potential pitfalls. First, accounting earnings tend to be smoothed out relative to the underlying
+value of the company, as accountants spread expenses and income over multiple periods. This results
+in betas that are “biased down,” especially for risky firms, or “biased up” for safer firms. In other
+words, betas are likely to be closer to 1 for all firms using accounting data.
+Second, accounting earnings can be influenced by nonoperating factors, such as changes in
+depreciation or inventory methods, and by allocations of corporate expenses at the divisional level.
+Finally, accounting earnings are measured, at most, once every quarter, and often only once every
+year, resulting in regressions with few observations and not much explanatory power (low R-
+squared, high standard errors).
+ILLUSTRATION 8.8: Estimating Accounting Betas: Defense
+Division of Boeing—1995
+Having operated in the defense business for decades, Boeing has a record of its profitability. These profits are reported in
+the following table, together with earnings changes for companies in the S&P 500 from 1980 to 1994.
+Year
+S&P 500
+Boeing's Defense Business
+1980
+–2.10%
+–12.70%
+1981
+–6.70%
+–35.56%
+1982
+–45.50%
+27.59%
+1983
+37.00%
+159.36%
+1984
+41.80%
+13.11%
+1985
+–11.80%
+–26.81%
+1986
+7.00%
+–16.83%
+1987
+41.50%
+20.24%
+1988
+41.80%
+18.81%
+1989
+2.60%
+–29.70%
+1990
+–18.00%
+–40.00%
+1991
+–47.40%
+–35.00%

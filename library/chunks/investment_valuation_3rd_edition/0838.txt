@@ -1,0 +1,34 @@
+s. If I is the present value of the costs of commercially
+developing the patent and V is the present value of the expected cash flows from development, then:
+Figure 28.3
+ Payoff to Introducing Product
+
+Thus a product patent can be viewed as a call option, where the product is the underlying asset.
+ILLUSTRATION 28.2: Valuing a Patent: Avonex in 1997
+Biogen is a biotechnology firm with a patent on a drug called Avonex, which has received FDA approval for use in treating
+multiple sclerosis (MS). Assume you are trying to value the patent and that you have the following estimates for use in the
+option pricing model:
+An internal analysis of the financial viability of the drug today, based on the potential market and the price that
+the firm can expect to charge for the drug, yields a present value of cash flows of $3.422 billion prior to
+considering the initial development cost.
+The initial cost of developing the drug for commercial use is estimated to be $2.875 billion, if the drug is
+introduced today.
+The firm has the patent on the drug for the next 17 years, and the current long-term Treasury bond rate is
+6.7%.
+The average variance in firm value for publicly traded biotechnology firms is 0.224.
+We assume that the potential for excess returns exists only during the patent life, and that competition will eliminate excess
+returns beyond that period. Thus, any delay in introducing the drug, once it becomes viable, will cost the firm one year of
+patent-protected returns. (For the initial analysis, the cost of delay will be 
+, next year it will be 
+, the year after 
+, and
+so on.)
+Based on these assumptions, we obtain the following inputs to the option pricing model.
+These yield the following estimates for d and N(d):
+Plugging back into the dividend-adjusted Black-Scholes option pricing model,
+3
+ we get:
+To provide a contrast, the net present value of this project is only $547 million:
+The time premium of $360 million on this option ($907 – $547) suggests that the firm will be better off waiting rather than
+developing the drug immediately, the cost of delay notwithstanding. However, the cost of delay will increase over time, and
+make exercise (development) more likely in future years.

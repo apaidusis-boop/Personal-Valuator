@@ -1,0 +1,42 @@
+t suited for firms that are growing at an extraordinary rate now and are expected to maintain this
+rate for an initial period, after which the differential advantage of the firm is expected to deplete
+
+leading to gradual declines in the growth rate to a stable growth rate. Practically speaking, this may
+be the more appropriate model to use for a firm whose earnings are growing at very high rates,
+4
+ are
+expected to continue growing at those rates for an initial period, but are expected to start declining
+gradually toward a stable rate as the firm become larger and loses its competitive advantages.
+ILLUSTRATION 13.8: Valuing Coca-Cola Using a Three-
+Stage Dividend Discount Model
+To value Coca-Cola in May 2011, we used a three-stage dividend discount model, partly because we expect the firm to
+maintain a growth rate higher than the economy for the next few years and partly because it has a history of paying
+substantial dividends. It has had a low debt ratio and has shown no indications that it plans to alter its approach to financing.
+In 2010, the company reported earnings per share of $3.56 and paid out $1.88 per share in dividends. To estimate the
+expected growth rate, we assumed that the firm would be able to generate 25% as a return on equity on future investments,
+lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed
+that the firm would reinvest about 36.40% of its earnings as dividends; while this is lower than the existing retention ratio of
+47.19%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
+Expected ROE for next 5 years = 25%
+Expected Retention Ratio for next 5 years = 36.40%
+Expected growth rate in EPS and DPS for next 5 years = 25% × 36.4% = 9.10%
+During this high growth phase, we will assume that the cost of equity for Coca-Cola will be 8.45%, estimated based upon a
+beta of 0.9, the U.S. treasury bond rate in 2011 of 3.5% and an equity risk premium of 5.5% (with the premium augmented
+to reflect Coca-Cola’s exposure in emerging markets).
+The expected dividends over the next 5 years are shown in the following table, with the present values computed using the
+cost of equity:
+After year 5, we allow for a transition period of 5 more years to stable growth after year 10. In the stable growth phase, we
+assume the following changes:
+Expected growth rate of 3% forever, set just below the risk-free rate.
+A return on equity of 15%; while this is lower than the current ROE, it is an 
+impressive return for a mature
+firm and reflects our belief that Coca-Cola’s 
+brand name will endure.
+A payout ratio of 80%, based on the return on equity and expected growth 
+rate: 
+A cost of equity of 9.00%, based upon the assumption that the beta will 
+increase to 1 in stable growth.
+The transition period (years 6–10) allow us to change each of the inputs (payout 
+ratio, cost of equity and growth rate) from
+high growth levels to stable growth levels in linear increments. The resulting dividends and present values are summarized
+here:

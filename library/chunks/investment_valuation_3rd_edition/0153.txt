@@ -1,0 +1,40 @@
+The capital asset pricing model may not be the right model for risk, and betas underestimate the
+true risk of small stocks. Thus, the small firm premium is really a measure of the failure of beta to
+
+capture risk. The additional risk associated with small stocks may come from several sources.
+First, the estimation risk associated with estimates of beta for small firms is much greater than the
+estimation risk associated with beta estimates for larger firms. The small firm premium may be a
+reward for this additional estimation risk. Second, there may be additional risk in investing in
+small stocks because far less information is available on these stocks. In fact, studies indicate that
+stocks that are neglected by analysts and institutional investors earn an excess return that parallels
+the small firm premium.
+There is evidence of a small firm premium in markets outside the United States as well. Dimson
+and Marsh (1986) examined stocks in the United Kingdom from 1955 to 1984 and found that the
+annual returns on small stocks exceeded those on large stocks by 6 percent annually over the period.
+Chan, Hamao, and Lakonishok (1991) report a small firm premium of about 5 percent for Japanese
+stocks between 1971 and 1988.
+Price-Earnings Ratios
+Investors have long argued that stocks with low price-earnings ratios are more likely to be
+undervalued and earn excess returns. For instance, Benjamin Graham, in his investment classic 
+The
+Intelligent Investor
+,
+11
+ used low price-earnings ratios as a screen for finding undervalued stocks.
+Studies [Basu (1977); Basu (1983)] that have looked at the relationship between PE ratios and excess
+returns confirm these priors. 
+Figure 6.11
+ summarizes annual returns by PE ratio classes for stocks
+from 1952 to 2010. Firms in the lowest PE ratio class earned an average return of 18.9 percent during
+the period, while firms in the highest PE ratio class earned an average return of only 11.4 percent.
+Figure 6.11
+ PE Ratios and Stock Returns, 1952 to 2010
+The excess returns earned by low PE ratio stocks also persist in other international markets. 
+Table
+6.3
+ summarizes the results of studies looking at this phenomenon in markets outside the United States.
+Table 6.3
+ Excess Returns on Low PE Ratio Stocks by Country, 1989–1994
+Annual premium:
+ Premium earned over an index of equally weighted stocks in that market between January 1, 1989, and
+December 31, 1994. These numbers were obtained from a Merrill Lynch Survey of Proprietary Indices.

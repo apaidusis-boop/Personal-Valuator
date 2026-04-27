@@ -1,0 +1,44 @@
+share and the time premium on the option. Once this value has been estimated, it is
+subtracted from the equity value, and then divided by the number of shares outstanding to arrive at
+value per share.
+
+In valuing these options, however, there are four measurement issues that you have to confront. One
+relates to the fact that not all of the options outstanding are vested and some of the nonvested options
+might never be vested. The second relates to the stock price to use in valuing these options. As the
+description in the preceding paragraph makes clear, the value per share is an input to the process as
+well as the output. The third issue is taxation. Since firms are allowed to deduct a portion of the
+expense associated with option exercises, there may be a potential tax saving when the options are
+exercised. The final issue relates to private firms or firms on the verge of a public offering. Key
+inputs to the option pricing model, including the stock price and the variance, cannot be obtained for
+these firms, but the options have to be valued nevertheless.
+Dealing with Vesting
+As noted earlier in the chapter, firms granting employee options usually require that the employee
+receiving the options stay with the firm for a specified period for the option to be vested.
+Consequently, when you examine the options outstanding at a firm, you are looking at a mix of vested
+and nonvested options. The nonvested options should be worth less than the vested options, but the
+probability of vesting will depend on how in-the-money the options are and the period left for an
+employee to vest. While there have been attempts to develop option pricing models that allow for the
+possibility that employees may leave a firm before vesting and forfeit the value of their options,
+10
+ the
+likelihood of such an occurrence when a manager’s holdings are substantial should be small.
+Carpenter (1998) developed a simple extension of the standard option pricing model to allow for
+early exercise and forfeiture, and used it to value executive options.
+Which Stock Price?
+The answer to this question may seem obvious. Since the stock is traded and you can find a stock
+price, it would seem that you should be using the current stock price to value options. However, you
+are valuing these options to arrive at a value per share that you will then compare to the market price
+to decide whether a stock is under- or overvalued. Thus, using the current market price to arrive at the
+value of the options and then using this option value to estimate an entirely different value per share
+seems inconsistent.
+There is a solution. You can value the options using the estimated value per share. However, this
+creates circular reasoning in your valuation. In other words, you need the option value to estimate
+value per share and value per share to estimate the option value. We would recommend that the value
+per share be initially estimated using the treasury stock approach, and that you then converge on the
+proper value per share by iterating.
+11
+There is another related issue. When options are exercised, they increase the number of shares
+outstanding, and by doing so, there can have an effect on the stock price. In conventional option
+pricing models, the exercise of the option does not affect the stock price. These models have to be
+adapted to allow for the dilutive effect of option exercise. This can be done fairly simply by adjusting
+the current stock price for the expected effects of dilution (as we did with warrants in Chapter 5).

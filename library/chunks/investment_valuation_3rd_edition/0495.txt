@@ -1,0 +1,30 @@
+nd profits? And how much value is created by an additional
+member on a social media site? The answer will not only vary from company to company, but will
+also be difficult to estimate looking forward.
+
+FOUR BASIC STEPS TO USING MULTIPLES
+Multiples are easy to use and easy to misuse. There are four basic steps to using multiples wisely and
+for detecting misuse in the hands of others. The first step is to ensure that the multiple is defined
+consistently and that it is measured uniformly across the firms being compared. The second step is to
+be aware of the cross-sectional distribution of the multiple, not only across firms in the sector being
+analyzed but also across the entire market. The third step is to analyze the multiple and understand not
+only what fundamentals determine the multiple but also how changes in these fundamentals translate
+into changes in the multiple. The final step is finding the right firms to use for comparison, and
+controlling for differences that may persist across these firms.
+Definitional Tests
+Even the simplest multiples can be defined differently by different analysts. Consider, for instance,
+the price-earnings (PE) ratio. Most analysts define it to be the market price divided by the earnings
+per share, but that is where the consensus ends. There are a number of variants on the PE ratio. While
+the current price is conventionally used in the numerator, there are some analysts who use the average
+price over the prior six months or year. The earnings per share in the denominator can be the earnings
+per share from the most recent financial year (yielding the current PE), the last four quarters of
+earnings (yielding the trailing PE), or expected earnings per share in the next financial year (resulting
+in a forward PE). In addition, earnings per share can be computed based on primary shares
+outstanding or fully diluted shares, and can include or exclude extraordinary items. 
+Figure 17.1
+provides the PE ratios for Apple in May 2011, using each of these measures.
+Figure 17.1
+ PE Ratios—Apple in May 2011
+Not only can these variants on earnings yield vastly different values for the price-earnings ratio, but
+the one that gets used by analysts depends on their biases. For instance, in periods of rising earnings,
+the forward PE yields consistently lower values than the trailing PE, which, in turn, is lower than the

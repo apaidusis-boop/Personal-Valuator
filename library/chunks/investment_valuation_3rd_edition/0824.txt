@@ -1,0 +1,52 @@
+sful enough to make it to Broadway
+and perhaps even into a blockbuster movie. In each of these cases, you could value these assets as
+options; the next three chapters will consider a few applications.
+
+THE VALUE OF GOLD
+While we have valued stocks, bonds, real estate and collectibles in this book, you may wonder why we have not talked about
+a widely held and even widely talked about asset that is many investor's portfolios: gold. Does gold have an intrinsic value? If
+it does, what determine it? If it does not, how do you value gold?
+On the first question, here is our definition of intrinsic value. It is the value that you would attach to an asset, based upon its
+fundamentals: cash flows, expected growth, and risk. The essence of intrinsic value is that you can estimate it in a vacuum
+for a specific asset, without any information on how the market is pricing other assets, though it does certainly help to have
+that information Only assets that are expected to generate cash flows can have intrinsic values. Thus, a bond (coupons), a
+stock (dividends), a business (operating cash flows) or commercial real estate (net rental income) all have intrinsic values,
+though computing those values can be easier for some assets than others. At the other extreme, fine art and baseball cards
+do not have intrinsic value, since they generate no cash flows (though they may generate a more amorphous utility for their
+owners) and value, in a sense, is in entirely in the eye of the beholder. Residential real estate is closer to the latter than the
+former and estimating the intrinsic value of your house is an exercise in futility.
+Using this template, gold does not have an intrinsic value but it does have a relative value. For centuries, gold (because of its
+durability and relative scarcity) has been an alternative to financial assets (that are tied to paper currency). Unlike the gold
+standard days, where the linkage between paper currency and gold was explicit, the value of paper currency rests entirely
+on trust in central banks and governments. As a consequence, the price of gold has varied inversely with the degree of trust
+that we have in these entities. Though not a perfect indicator, gold prices have surged when a subset of investors have lost
+that faith, i.e., they fear that the currency is being debased (inflation) or systematic government failures (default). Thus, as
+an investor, you should invest more (less) of your portfolio in gold if you expect investor faith in central banks and
+governments to recede (increase).
+CONCLUSION
+This chapter provides an insight into the breadth of use that valuation models can be put to, ranging
+from valuing a New York City cab medallion to a five-star restaurant. The basic models remain
+unchanged, but the inputs may be more difficult to get and have more noise associated with them. That
+should, however, not be viewed as a barrier to their use.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Cool Café is a well-regarded restaurant in the Denver area, owned and run by Joanne
+Arapacio, a star chef specializing in Southwestern cuisine. You are interested in buying the
+restaurant and have been provided the income statement for the firm for the most recent year is
+reported below (in '000s):
+Revenues
+$5,000
+− Operating expenses
+$3,500
+EBIT
+$1,500
+− Interest expenses
+$ 300
+− Taxes
+$ 480
+Net income
+$ 720
+The owner did not pay herself a salary last year, but you believe that you will have to pay
+$200,000 a year for a new chef. The restaurant is in stable growth and is expected to grow 5% a
+year for the next decade. You estimate the unlevered beta of publicly traded restaurants to be 0.80.

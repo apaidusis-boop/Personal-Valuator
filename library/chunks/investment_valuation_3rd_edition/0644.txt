@@ -1,0 +1,47 @@
+The present value of
+the negative excess returns can be computed and netted from the value of the firm.
+There are two advantages in separating the subsidy benefit value and the social investment cost
+
+from the rest of the valuation. The first is that it allows us to make specific assumptions that apply
+only to these items. For instance, the subsidy that the government grants may be expected to last only
+10 years and be guaranteed, in which case, we would compute the value of the subsidy using 10 years
+of expected cash flows and the risk-free rate as the discount rate. The second is that it allows firms to
+determine whether the trade-off is a favorable one for value, since the social investment requirements
+are often tied to the subsidy grants. In other words, a bank that is provided a subsidy by the
+government in return for providing loans at below-market interest rates to small businesses may find
+that the loss in value associated with the latter exceeds the subsidy benefits.
+CONCLUSION
+The basic principles of valuation apply just as much for financial service firms as they do for other
+firms. There are, however, a few aspects relating to financial service firms that can affect how they
+are valued. The first is that debt for a financial service firm is difficult to define and measure, making
+it difficult to estimate firm value or costs of capital. Consequently, it is far easier to value the equity
+directly in a financial service firm by discounting cash flows to equity at the cost of equity. The
+second is that capital expenditures and working capital, which are required inputs to estimating cash
+flows, are often not easily estimated at financial service firms. In fact, much of the reinvestment that
+occurs at these firms is categorized under operating expenses. To estimate cash flows to equity,
+therefore, we have to either use dividends (and assume that what is not paid out as dividend is the
+reinvestment) or modify our definition of reinvestment to consider investments in regulatory capital.
+Even if we choose to use multiples, we run into many of the same issues. The difficulties associated
+with defining debt make equity multiples such as price-earnings or price-to-book value ratios better
+suited for comparing financial service firms than value multiples. In making these comparisons, we
+have to control for differences in fundamentals—risk, growth, cash flows, loan quality—that affect
+value.
+DEPOSIT INSURANCE AND BANK VALUE
+In most countries, the state provides insurance to bank depositors by guaranteeing the deposits up to a specified limit. What
+effect will such deposit insurance have on value? If banks are charged a fair price for the insurance, it should have no effect
+on value. In practice, though, deposit insurance can skew value in two ways:
+1.
+ In many countries, including the United States, the deposit insurance rate does not vary across banks. Thus, banks with
+safe loan portfolios are charged the same rate as banks with risky loan portfolios. If the rate set is based on average
+default, this will result in the former being overcharged and the latter being undercharged. It will also create an incentive
+system for banks to take on more and more risk. In fact, you can consider deposit insurance to be a put option provided to
+the bank—the bank can put its deposit liabilities to the insurance agency if the value of its loan portfolio drops below the
+value of the liabilities. If the put price does not vary with the volatility in the value of the loan portfolio, banks with riskier
+portfolios will become more valuable (the value of the put will exceed the price paid), and banks with safer portfolios will
+become less valuable.
+2.
+ Even if deposit insurance rates vary across banks, the price of the insurance may not fully reflect the risk of the bank's
+assets for two reasons. The first is that the risk can change from period to period and the pricing may not keep up. The
+second is that the insurance may be subsidized by taxpayers, in which case all banks will become more valuable as a result
+of the insurance.
+Finally, regulatory considerations and constraints overlay financial firm valuations. In some cases,

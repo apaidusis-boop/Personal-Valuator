@@ -1,0 +1,18 @@
+g investments (increase current CFROI),
+the length of the high growth period (reduce fade speed), and the growth rate during the growth period
+(keep excess returns from falling as steeply).
+cfroi.xls:
+
+This spreadsheet allows you to estimate the cash flow return on investment for a firm or
+project.
+CFROI and Firm Value: Potential Conflicts
+The relationship between CFROI and firm value is less intuitive than the relationship between EVA
+and firm value, partly because it is a percentage return. Notwithstanding this fundamental weakness,
+managers can take actions that increase CFROI while reducing firm value.
+Reduce gross investment.
+ If the gross investment in existing assets is reduced, the CFROI
+may be increased. Since it is the product of CFROI and gross investment that determines
+value, it is possible for a firm to increase CFROI and end up with a lower value.
+Sacrifice future growth.
+ CFROI, even more than EVA, is focused on existing assets and
+does not look at future growth. To the extent that managers increase CFROI at the expense of

@@ -1,0 +1,46 @@
+erating assets.
+How much cash does a firm need for its operations? The answer depends on both the firm and the
+economy in which the firm operates. A small retail firm in an emerging market, where cash
+
+transactions are more common than credit card transactions, may require an operating cash balance
+that is substantial. In contrast, a manufacturing firm in a developed market may not need any operating
+cash. If the cash held by a firm is interest-bearing and the interest earned on the cash reflects a fair
+rate of return,
+1
+ you would not consider that cash to be part of working capital. Instead, you consider it
+to be part of non-operating assets and kept separate from the operating asset valuation.
+Dealing with Nonoperating Cash Holdings
+There are two ways in which we can deal with cash and marketable securities in valuation. One is to
+lump them in with the operating assets and value the firm (or equity) as a whole. The other is to value
+the operating assets and the cash and marketable securities separately.
+Consolidated Valuation
+Is it possible to consider cash as part of the total assets of the firm, and to value it on a consolidated
+basis? The answer is yes, and it is, in a sense, what we do when we forecast the total net income for a
+firm and estimate dividends and free cash flows to equity from those forecasts. The net income will
+then include income from investments in government securities, corporate bonds, and equity
+investments. While this approach has the advantage of simplicity and can be used when financial
+investments comprise a small percent of the total assets, it becomes much more difficult to use when
+financial investments represent a larger proportion of total assets for two reasons:
+First, the cost of equity or capital used to discount the cash flows has to be adjusted on an ongoing
+basis for the cash. In specific terms, you would need to use an unlevered beta that represents a
+weighted average of the unlevered beta for the operating assets of the firm and the unlevered beta for
+the cash and marketable securities. For instance, the unlevered beta for a steel company where cash
+represents 10 percent of the value would be a weighted average of the unlevered beta for steel
+companies and the beta of cash (which is usually zero). If the 10 percent were invested in riskier
+securities, you would need to adjust the beta accordingly. While this can be done if you use bottom-up
+betas, you can see that it would be much more difficult to do if you obtain a beta from a regression.
+2
+Second, as the firm grows, the proportion of income that is derived from operating assets is likely
+to change. When this occurs, you have to adjust the inputs to the valuation model—cash flows, growth
+rates, and discount rates—to maintain consistency.
+What will happen if you do not make these adjustments? You will tend to misvalue the financial
+assets. To see why, assume that you were valuing the aforementioned steel company with 10 percent
+of its value coming from cash. This cash is invested in government securities and earns an
+appropriate rate—say 3 percent. If this income is added onto the other income of the firm and
+discounted back at a cost of equity appropriate for a steel company—say 11 percent—the value of the
+cash will be discounted. A billion dollars in cash will be valued at $800 million, for instance,
+because the discount rate used is incorrect.
+Separate Valuation
+It is safer to separate cash and marketable securities from operating assets and to value them
+individually. We do this almost always when we use the firm valuation approaches described in the
+preceding chapter. This is because we use operating income to estimate free cash flows to the firm,

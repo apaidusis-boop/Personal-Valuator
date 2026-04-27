@@ -1,0 +1,52 @@
+pply,
+not by some intrinsic value.” Is finding an intrinsic value inconsistent with demand and supply?
+5.
+ You are testing the effect of merger announcements on stock prices. (This is an event study.)
+
+Your procedure goes through the following steps: 
+Step 1:
+ You choose the 20 biggest mergers of the year. 
+Step 2:
+ You isolate the date the merger became effective as the key day around which you will
+examine the data. 
+Step 3:
+ You look at the returns for the five days after the effective merger date.
+By looking at these returns (0.13%) you conclude that you could not have made money on merger
+announcements. Are there any flaws that you can detect in this test? How would you correct for
+them? Can you devise a stronger test?
+6.
+ In an efficient market, the market price is defined to be an “unbiased estimate” of the true value.
+This implies that (choose one):
+a.
+ The market price is always equal to true value.
+b.
+ The market price has nothing to do with true value.
+c.
+ Markets make mistakes about true value, and investors can exploit these mistakes to make
+money.
+d.
+ Market prices contain errors, but the errors are random and therefore cannot be exploited by
+investors.
+e.
+ No one can beat the market.
+7.
+ Evaluate whether the following actions are likely to increase stock market efficiency, decrease
+it, or leave it unchanged, and explain why.
+a.
+ The government imposes a transaction tax of 1% on all stock transactions. 
+Increase efficiency ____ Decrease efficiency ____ Leave unchanged ____
+b.
+ The securities exchange regulators impose a restriction on all short sales to prevent rampant
+speculation. 
+Increase efficiency ____ Decrease efficiency ____ Leave unchanged ____
+c.
+ An options market, trading call and put options, is opened up, with options traded on many of
+the stocks listed on the exchange. 
+Increase efficiency ____ Decrease efficiency ____ Leave unchanged ____
+d.
+ The stock market removes all restrictions on foreign investors acquiring and holding stock in
+companies. 
+Increase efficiency ____ Decrease efficiency ____ Leave unchanged ____
+8.
+ The following is a graph of cumulative abnormal returns around the announcement of asset
+divestitures by major corporations.

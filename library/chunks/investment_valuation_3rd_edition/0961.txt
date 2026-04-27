@@ -1,0 +1,39 @@
+the
+process and the expected value will quickly fall apart, if you decide to overlook the market testing
+failure and go with a full launch of the product anyway.
+Risk-Adjusted Value and Decision Trees
+
+Are decision trees an alternative or an addendum to discounted cash flow valuation? The question is
+an interesting one because there are some analysts who believe that decision trees, by factoring in the
+possibility of good and bad outcomes, are already risk adjusted. In fact, they go on to make the claim
+that the right discount rate to use estimating present value in decision trees is the risk-free rate; using
+a risk-adjusted discount rate, they argue, would be double counting the risk. Barring a few
+exceptional circumstance, they are incorrect in their reasoning.
+Expected values are not risk adjusted.
+ Consider decision trees, where you estimate
+expected cash flows by looking at the possible outcomes and their probabilities of
+occurrence. The probability-weighted expected value that you obtain is not risk adjusted.
+The only rationale that can be offered for using a risk-free rate is that the risk embedded in
+the uncertain outcomes is asset-specific and will be diversified away, in which case the
+risk-adjusted discount rate would be the riskfree rate. In the FDA drug development
+example, for instance, this may be offered as the rationale for why you would use the risk-
+free rate to discount cash flows for the first seven years, when the only risk you face is drug
+approval risk. After year 7, though, the risk is likely to contain a market element and the
+risk-adjusted rate will be higher than the risk-free rate.
+Double counting of risk.
+ You do have to be careful about making sure that you don’t double
+count for risk in decision trees by using risk-adjusted discount rates that are set high to
+reflect the possibility of failure at the earlier phases. One common example of this
+phenomenon is in venture capital valuation. In Chapter 23, we noted that venture capitalists
+often value young start-up companies by estimating an exit value, based on projected
+earnings and a multiple of those earnings in the future, and then discounting the exit value at
+a target rate of return. Using this approach, for instance, the value today for a firm that is
+losing money currently but is expected to make $10 million in 5 years (when the earnings
+multiple at which it will be taken public is estimated to be 40) can be computed as follows
+(if the target rate is 35 percent):
+Note, however, that the target rate is set at a high level (35 percent) because of the probability that
+this young firm will not survive. In fact, you could frame this as a simple decision tree in 
+Figure 33.5
+.
+Figure 33.5
+ Decision Tree for Start-Up Firm

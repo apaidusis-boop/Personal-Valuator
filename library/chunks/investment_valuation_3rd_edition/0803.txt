@@ -1,0 +1,21 @@
+to debt payments on the building for the
+next five years in the following table.
+Since all of the items grow at 3% beyond year 5, we estimated a cash flow for year 6 as the terminal year. The terminal
+
+value of the building was calculated based on this cash flow, a perpetual growth rate of 3%, and a cost of capital of 6.49%:
+The present value of the expected cash flows for the next five years and the terminal value, summarized in the following
+table, yields the value of the building:
+The sum of the present value of the cash flows is $101.48 million. This is the estimated value of the building.
+ILLUSTRATION 26.2: 
+Valuing the Equity Stake in a
+Building
+The preceding analysis can be done for just the equity stake in 711 Third Avenue. To do so, we will first estimate the dollar
+debt that will be borrowed to buy this building. Assuming that the building has a value of $101.48 million (from the previous
+illustration) and using a debt ratio of 60%, we estimate debt to be $60.89 million.
+Since this is a balloon payment loan, the interest payments on the debt will remain the same each year, based on the 6.5%
+interest rate:
+The appropriate discount rate to use while valuing the equity stake in the building is the cost of equity, estimated to be
+10.20% in this analysis.
+ESTIMATING CASH FLOWS TO EQUITY
+The estimated cash flows to equity are estimated each year by netting out interest expenses from income and adjusting the
+taxes accordingly. The following table summarizes cash flows to equity each year for the next five years.

@@ -1,0 +1,56 @@
+igure 20.9
+ Price-to-Sales Ratios and Net Margins: Grocery Sector in May 2011
+Regressing price-to-sales ratio against net margins, we get:
+Plugging Whole Foods’ net margin into the regression, we get:
+
+Whole Foods looks significantly overvalued in May 2011.
+In hindsight, these regressions would have suggested selling short on Whole Foods in January 2007, buying the stock again in
+January 2009, and reverting back to selling short in January 2010. The first two actions would have generated significant
+profits, but the last one would have been a money loser since the stock became even more overvalued between 2010 and
+2011.
+Market Regressions
+If you can control for differences across firms using a regression, you can extend this approach to
+look at much broader cross sections of firms. Here, the cross-sectional data is used to estimate the
+price-to-sales ratio as a function of fundamental variables—profit margin, dividend payout, beta, and
+growth rate in earnings.
+This approach can be extended to cover the entire market. In the first edition of this book,
+regressions of price-sales ratios on fundamentals—dividend payout ratio, growth rate in earnings,
+profit margin, and beta—were run for each year from 1987 to 1991.
+Year
+Regression
+R-Squared
+1987
+PS = 0.7894 + .0008 Payout - 0.2734 Beta 
++ 0.5022 EGR + 6.46 Margin
+0.4434
+1988
+PS = 0.1660 + .0006 Payout - 0.0692 Beta 
++ 0.5504 EGR + 10.31 Margin
+0.7856
+1989
+PS = 0.4911 + .0393 Payout - 0.0282 Beta 
++ 0.2836 EGR + 10.25 Margin
+0.4601
+1990
+PS = 0.0826 + .0105 Payout - 0.1073 Beta 
++ 0.5449 EGR + 10.36 Margin
+0.8885
+1991
+PS = 0.5189 + 0.2749 Payout - 0.2485 Beta 
++ 0.4948 EGR + 8.17 Margin
+0.4853
+where PS = Price-sales ratio at the end of the year 
+Payout = Payout ratio = Dividends/earnings at the end of the year 
+Beta = Beta of the stock 
+Margin = Profit margin for the year = Net income/sales for the year (in %) 
+EGR = Earnings growth rate over the previous five years
+These regressions were updated in May 2011 for both price-to-sales and EV/Sales ratios for
+companies listed and traded in the United States:
+where
+We switched from growth in equity earnings per share (EPS) for the equity multiple to growth in
+revenues for the enterprise value multiple to maintain consistency.
+Extending the analysis to global markets, we ran regressions for the EV/Sales ratio for companies
+in European, emerging, and the Japanese markets. The results are summarized as follows:
+Region
+Regression — January 2010
+R-Squared

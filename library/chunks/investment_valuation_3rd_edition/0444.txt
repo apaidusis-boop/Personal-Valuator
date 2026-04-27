@@ -1,0 +1,29 @@
+ing 73.04% was equity.
+The unlevered beta for Disney's stock in May 2009, estimated by breaking it down into its constituent businesses and
+weighting the unlevered betas for each business, was 0.7333.
+
+The Treasury bond rate at that time was 3.5%. Using an estimated equity risk premium of 6%, we estimated the cost of
+equity for Disney to be 8.91%:
+Disney's bond rating in May 2009 was A, and based on this rating, the estimated pretax cost of debt for Disney is 6%. Using
+a marginal tax rate of 38%, we estimate the after-tax cost of debt for Disney to be 3.72%.
+The cost of capital is calculated using these costs and the weights based on market value:
+DISNEY'S COST OF EQUITY AND LEVERAGE
+The cost of equity for Disney at different debt ratios can be computed using the unlevered beta of the firm, and the debt
+equity ratio at each level of debt. We use the levered betas that emerge to estimate the cost of equity. The first step in this
+process is to compute the levered beta at each debt ratio, using this unlevered beta and Disney's marginal tax rate of 38%:
+We continue to use the Treasury bond rate of 3.5% and the market premium of 6% to compute the cost of equity at each
+level of debt. If we keep the tax rate constant at 38%, we obtain the levered betas for Disney in the following table:
+In calculating the levered beta in this table, we assumed that all market risk is borne by the equity investors (this may be
+unrealistic) especially at higher levels of debt and that the firm will be able to get the full tax benefits of interest expenses
+even at very high debt ratios. We will also consider an alternative estimate of levered betas that apportions some of the
+market risk to the debt:
+The beta of debt can be based on the rating of the bond, estimated by regressing past returns on bonds in each rating class
+against returns on a market index or backed out of the default spread. The levered betas estimated using this approach will
+generally be lower than those estimated with the conventional model.
+9
+ We will also examine whether the full benefits of
+interest expenses will accrue at higher debt ratios.
+DISNEY'S COST OF DEBT AND LEVERAGE
+There are several financial ratios that are correlated with bond ratings, and we face two choices. One is to build a model
+that includes several financial ratios to estimate the synthetic ratings at each debt ratio. In addition to being more labor and
+data intensive, the approach will make the ratings process less transparent and more difficult to decipher. The other is to

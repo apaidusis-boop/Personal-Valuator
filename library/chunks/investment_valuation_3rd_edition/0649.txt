@@ -1,0 +1,30 @@
+ess. To see why, assume that a firm's operating earnings
+have gone from –$200 million last year to –$100 million in the current year. The traditional
+
+historical growth equation yields the following: 
+
+This clearly does not make sense since this firm has improved its earnings over the period. In
+fact, we looked at this problem in Chapter 11.
+An alternative approach to estimating earnings growth is to use analyst estimates of projected
+growth in earnings, especially over the next five years. The consensus estimate of this growth
+rate across all analysts following a stock is generally available as public information for many
+U.S. companies and is often used as the expected growth rate in valuation. For firms with
+negative earnings in the current period, this estimate of a growth rate will not be available or
+meaningful.
+A third approach to estimating earnings growth is to use fundamentals. This approach is also
+difficult to apply for firms that have negative earnings, since the two fundamental inputs—the
+return made on investments (return on equity or capital) and the reinvestment rate (or retention
+ratio)—are usually computed using current earnings. When current earnings are negative, both
+these inputs become meaningless from the perspective of estimating expected growth.
+2.
+
+Tax computation becomes more complicated.
+ The standard approach to estimating taxes is to
+apply the marginal tax rate on the pretax operating income to arrive at the after-tax operating
+income:
+This computation assumes that earnings create tax liabilities in the current period. While this is
+generally true, firms that are losing money can carry these losses forward in time and apply them to
+earnings in future periods. Thus analysts valuing firms with negative earnings have to keep track of
+the net operating losses of these firms and remember to use them to shield income in future periods
+from taxes.
+3.

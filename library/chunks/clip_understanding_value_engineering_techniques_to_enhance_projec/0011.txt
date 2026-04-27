@@ -1,0 +1,13 @@
+or process. Like many others in this section of the article, this matrix helps in visualizing the relationship between functions and their costs, highlighting areas where cost savings can be achieved.
+
+## Comparing Value Engineering and Value Analysis
+
+While value engineering is the technique often used before a product has been fabricated, [value analysis](https://www.investopedia.com/terms/v/valuation_analysis.asp) is the technique used to analyze an existing product. The goal of value analysis is often to review an existing set of costs and benefits with the intention of enhancing its value.
+
+While value engineering occurs earlier to prevent value loss, value analysis occurs after-the-fact and may be used to remediate product deficiencies. Value engineering is generally used to aid manufacturing, while value analysis may sometimes be used more heavily in the business or sales department.
+
+Though the two terms may often be used interchangeably, value engineering is the practice of preventing unnecessary costs or deficient value while value analysis is the practice of eliminating costs or negative value components. Changes made in response to value analysis may be brought about during different stages of a product's life span, while value engineering only occurs at the initial product stage.
+
+## Understanding the Challenges of Value Engineering
+
+The value engineering process involves a detailed approach to analyzing functions. Teams must gather and assess extensive data, hold numerous meetings to brainstorm and evaluate alternatives, and meticulously document their findings and decisions. This substantial initial time investment pulls valuable resources without the guarantee that products or processes will be re-engineered with success.

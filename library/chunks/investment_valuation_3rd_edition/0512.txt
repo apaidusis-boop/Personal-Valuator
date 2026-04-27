@@ -1,0 +1,50 @@
+e similar firm with unstable growth.
+Expected growth rate in earnings in both the high-growth and stable phases.
+ The PE
+increases as the growth rate increases, assuming that the ROE > cost of equity.
+
+This formula is general enough to be applied to any firm, even one that is not paying dividends right
+now. In fact, the ratio of FCFE to earnings can be substituted for the payout ratio for firms that pay
+significantly less in dividends than they can afford to.
+ILLUSTRATION 18.1: Estimating the PE Ratio for a High-
+Growth Firm in the Two-Stage Model
+Assume that you have been asked to estimate the PE ratio for a firm that has the following characteristics:
+Length of high growth = five years
+Growth rate in first five years = 25%
+Payout ratio in first five years = 20%
+Growth rate after five years = 8%
+Payout ratio after five years = 50%
+Beta = 1.0
+Risk-free rate = T-bond rate = 6%
+Cost of equity
+2
+ = 6% + 1(5.5%) = 11.5%
+Risk premium = 5.5%
+The estimated PE ratio for this firm is 28.75. Note that the return on equity implicit in these inputs can also be computed as
+follows:
+ILLUSTRATION 18.2: Estimating an Intrinsic PE Ratio—
+P&G in May 2011
+In Chapter 13, we valued P&G using a two-stage dividend discount model. We reproduce the inputs that we used in the
+valuation in the following table:
+High Growth
+Stable Growth
+Length of growth
+5 years
+After year 5
+Expected growth rate
+10.00%
+3.00%
+Payout ratio
+50.00%
+75.00%
+Cost of equity
+8.00%
+8.50%
+Note that we derived the payout ratio in stable growth from the stable growth rate and the stable period ROE:
+We plug these values into the two-stage PE ratio equation:
+Based on its fundamentals, we would expect P&G to trade at 18.04 times earnings. Not surprisingly, multiplying this intrinsic
+PE ratio by the current EPS of $3.82 yields $68.90, the same value that we estimated using the two-stage dividend discount
+model in Chapter 13.
+PE Ratios and Expected Extraordinary Growth
+The PE ratio of a high growth firm is a function of the expected extraordinary growth rate—the higher
+the expected growth, the higher the PE ratio for a firm. In Illustration 18.1, for instance, the PE ratio

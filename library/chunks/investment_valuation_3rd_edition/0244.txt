@@ -1,0 +1,52 @@
+00.75
+4
+$ 86
+$ 68.12
+5
+$ 61
+$ 45.58
+6 to 15
+$ —
+$ 0.00
+Present value of operating lease expenses
+$556.48
+Thus, Boeing has $556 million more in debt than is reported in the balance sheet.
+
+Oplease.xls:
+
+This spreadsheet allows you to convert operating lease expenses into debt.
+Book Value versus Market Value Debt Ratios
+ There are three standard arguments against using
+market value, and none of them is convincing. First, there are some financial managers who argue that
+book value is more reliable than market value because it is not as volatile. While it is true that book
+value does not change as much as market value, this is more a reflection of book value's weakness
+rather than its strength, since the true value of the firm changes over time as both firm-specific and
+market information is revealed. We would argue that market value, with its volatility, is a much better
+reflection of true value than is book value.
+13
+Second, the defenders of book value also suggest that using book value rather than market value is a
+more conservative approach to estimating debt ratios. This assumes that market value debt ratios are
+always lower than book value debt ratios, an assumption not based on fact. Furthermore, even if the
+market value debt ratios are lower than the book value ratios, the cost of capital calculated using
+book value ratios will be lower than those calculated using market value ratios, making it a less
+conservative estimate, not more. To illustrate this point, assume that the market value debt ratio is 10
+percent, while the book value debt ratio is 30 percent, for a firm with a cost of equity of 15 percent
+and an after-tax cost of debt of 5 percent. The cost of capital can be calculated as follows:
+Third, it is claimed that lenders will not lend on the basis of market value, but this claim again
+seems to be based more on perception than on fact. Any homeowner who has taken a second mortgage
+on a house that has appreciated in value knows that lenders do lend on the basis of market value. It is
+true, however, that the greater the perceived volatility in the market value of an asset, the lower the
+borrowing potential on that asset.
+Estimating the Market Values of Equity and Debt
+The market value of equity is generally the number of shares outstanding times the current stock price.
+If there are other equity claims in the firm such as warrants and management options, these should
+also be valued and added to the value of the equity in the firm.
+The market value of debt is usually more difficult to obtain directly, since very few firms have all
+their debt in the form of bonds outstanding trading in the market. Many firms have nontraded debt,
+such as bank debt, which is specified in book value terms but not market value terms. A simple way
+to convert book value debt into market value debt is to treat the entire debt on the books as one
+coupon bond, with a coupon set equal to the interest expenses on all the debt and the maturity set
+equal to the face-value weighted average maturity of the debt, and then to value this coupon bond at
+the current cost of debt for the company. Thus, the market value of $1 billion in debt, with interest
+expenses of $60 million (annually) and a maturity of six years, when the current cost of debt is 7.5
+percent, can be estimated as follows:

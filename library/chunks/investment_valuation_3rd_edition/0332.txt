@@ -1,0 +1,36 @@
+USTRATION 11.12: Estimating Revenues at Tesla
+Motors and Linkedin
+This illustration considers two young, high-growth companies: Tesla Motors, the electric automaker, and Linkedin, a social
+media firm.
+
+Estimates of growth for the firms in the initial years are based on the growth in revenues over the past year, but those
+growth rates start declining as the revenues scale up and approach the growth rate of the economy near year 10.
+As a check, we also examined how much the revenues at each of these firms would be in 10 years relative to more mature
+companies in the sector now.
+We compared revenues at Tesla Motors in 10 years to those of more established automobile companies such
+as Ford, Volvo, Toyota, and Fiat. With $5 billion-plus in revenues, Tesla Motors will remain a very small firm
+in a large market.
+It is difficult to find a company directly comparable to Linkedin, but Yahoo! revenues in 2010 were about $6
+billion. We are assuming that Linkedin will have revenues that are close (about $5.5 billion) in 10 years.
+Operating Margin Forecasts
+Before considering how to estimate the operating margins, let us begin with an assessment of where
+many high-growth firms, early in the life cycle, stand when the valuation begins. They usually have
+low revenues and negative operating margins. If revenue growth converts low revenues into high
+revenues and operating margins stay negative, these firms not only will be worth nothing but are
+unlikely to survive. For firms to be valuable, the higher revenues eventually have to deliver positive
+earnings. In a valuation model, this translates into positive operating margins in the future. A key input
+in valuing a high-growth firm then is the operating margin you would expect it to have as it matures.
+In estimating this margin, you should begin by looking at the business that the firm is in. While many
+new firms claim to be pioneers in their businesses and some believe that they have no competitors, it
+is more likely that they are the first to find a new way of delivering a product or service that was
+previously delivered through other channels. Thus, Amazon.com might have been one of the first
+online retailers, but retailing was already an established business with hundreds of players. In fact,
+one can consider online retailers as logical successors to catalog retailers such as L.L. Bean and
+Lillian Vernon. Similarly, Yahoo! might have been one of the first Internet portals, but it was
+following the lead of newspapers that have used content and features to attract readers and used their
+readership to attract advertising. Using the average operating margin of competitors in the business
+may strike some as conservative. After all, they would point out, Amazon can hold less inventory and
+does not have the burden of carrying the operating leases that a brick and mortar retailer does (on its
+stores) and should, therefore, be more efficient about generating its revenues. This may be true, but it
+is unlikely that the operating margins for online retailers can be persistently higher than their brick-
+and-mortar counterparts. If they were, you would expect to see a migration of traditional retailers to

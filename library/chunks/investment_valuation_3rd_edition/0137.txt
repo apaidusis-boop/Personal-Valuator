@@ -1,0 +1,33 @@
+averages are
+different across these two portfolios.
+CARDINAL SINS IN TESTING MARKET
+EFFICIENCY
+In the process of testing investment strategies, there are a number of pitfalls that have to be avoided.
+
+Six of them are:
+1.
+
+Using anecdotal evidence to support/reject an investment strategy.
+ Anecdotal evidence is a
+double-edged sword. It can be used to support or reject the same hypothesis. Since stock prices
+are noisy and all investment schemes (no matter how absurd) will succeed sometimes and fail at
+other times, there will always be cases where the scheme works or does not work.
+2.
+
+Testing an investment strategy on the same data and time period from which it was
+extracted.
+ This is the tool of choice for the unscrupulous investment strategist. An investment
+scheme is extracted from hundreds through an examination of the data for a particular time period.
+This investment scheme is then tested on the same time period, with predictable results. (The
+scheme does miraculously well and makes immense returns.) 
+An investment scheme should always be tested out on a time period different from the one it is
+extracted from or on a universe different from the one used to derive the scheme.
+3.
+
+Choosing a biased sample.
+ There may be bias in the sample on which the test is run. Since
+there are thousands of stocks that could be considered part of this universe, researchers often
+choose to use a smaller sample. When this choice is random, this does limited damage to the
+results of the study. If the choice is biased, it can provide results that are not true in the larger
+universe.
+4.

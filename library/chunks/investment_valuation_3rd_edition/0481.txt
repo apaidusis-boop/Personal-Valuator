@@ -1,0 +1,32 @@
+diluted approach, it does not consider the time premium on the options and there is no effective
+way of dealing with vesting. Generally this approach, by underestimating the value of options granted,
+
+will overestimate the value of equity per share.
+ILLUSTRATION 16.8: The Option Overhang at Cisco—
+Fully Diluted versus Treasury Stock Approaches
+Cisco Systems has used management options liberally over its lifetime to supplement compensation packages. After a
+troubled decade of failed acquisitions and stagnant stock prices, the company’s stock was trading at $16.26 a share in May
+2011. At that point in time, the company had 5,528 million shares outstanding but it also reported 732 million options that
+were outstanding, with the following breakdown on exercise prices and maturity:
+To evaluate Cisco, we first value the company using a discounted cash flow model, and estimate an aggregate value for the
+equity of $113,331 million. Note that it this value that has to be allocated across two claim holders — the owners of the
+common stock and the option holders.
+To estimate the value using the fully diluted approach, we divide the total value of equity by the fully diluted number of
+shares:
+Note that this is an extremely conservative estimate since not only are we ignoring the exercise proceeds from the options
+but also because of the fact that many of these options are out-of-the money currently.
+With the treasury stock approach, rather than add the exercise proceeds from all options outstanding, we incorporate only
+the 208 million options that are in-the-money and add the exercise proceeds of $3,135 million from these options being
+exercised (with an average exercise price of $15.07).
+Note that the treasury stock approach ignores the time premium on options in-the-money. It is therefore likely to give you too
+high an estimate of value of equity per share. (In fact, incorporating the out-of-the-money options into a treasury stock
+approach will push up the value per share.)
+The biggest advantage of this approach is that it does not require a value per share (or stock price)
+to incorporate the option value into per-share value. As you will see with the final (and
+recommended) approach, there is a circularity that is created when the stock price is an input when
+estimating value per share.
+Value Options Using Option Pricing Model
+The correct approach to dealing with options is to estimate the value of the options today, given
+today’s value per share and the time premium on the option. Once this value has been estimated, it is
+subtracted from the equity value, and then divided by the number of shares outstanding to arrive at
+value per share.

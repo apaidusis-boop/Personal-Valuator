@@ -1,0 +1,46 @@
+can be traced to the mishandling of cash:
+If you discount the cash at 10%, you would value the cash at $90 million instead of the correct value of $200 million—hence
+the loss in value of $110 million.
+
+Should You Ever Discount Cash?
+In Illustration 16.1, cash was reduced in value for the wrong reason—a riskless cash flow was
+discounted at a discount rate that reflects risky investments. However, there are two conditions under
+which you might legitimately apply a discount to a cash balance:
+1.
+ The cash held by a firm is invested at a rate that is lower than the market rate, given the
+riskiness of the investment.
+2.
+ The management is not trusted with the large cash balance because of its past track record on
+investments.
+Cash Invested at Below-Market Rates
+The first and most obvious condition occurs when much or all the cash balance does not earn a market
+interest rate. If this is the case, holding too much cash will clearly reduce the firm’s value. While
+most firms in the United States can invest in government bills and bonds with ease today, the options
+are much more limited for firms in many emerging markets. When this is the case, a large cash
+balance earning less than a fair return can destroy value over time.
+ILLUSTRATION 16.2: 
+Cash Invested at Below-Market
+Rates
+Illustration 16.1 assumed that cash was invested at the riskless rate. Assume, instead, that the firm was able to earn only 3%
+on its cash balance, while the riskless rate is 4.5%. The estimated value of the cash kept in the firm would then be:
+The firm would have been worth only $1,333 million instead of $1,400 million. The cash returned to stockholders would have
+a value of $200 million. In this scenario, returning the cash to stockholders would yield them a surplus value of $66.67 million.
+In fact, liquidating any asset that has a return less than the required return would yield the same result, as long as the entire
+investment can be recovered on liquidation.
+3
+Distrust of Management
+While making a large investment in low-risk or no-risk marketable securities by itself is value
+neutral, the burgeoning cash balance can tempt managers to accept large investments or make
+acquisitions even if these investments earn substandard returns. In some cases, managers may take
+these actions to prevent the firm from becoming a takeover target.
+4
+ To the extent that stockholders
+anticipate such substandard investments, the current value of the firm will reflect the cash at a
+discounted level. The discount is likely to be largest at firms with few investment opportunities and
+poor management, and there will be no discount in firms with significant investment opportunities and
+good management.
+ILLUSTRATION 16.3: 
+Discount for Poor Investments in the
+Future
+Return now to the firm described in Illustration 16.1, where the cash is invested at the riskless rate of 4.5%. Normally, we
+would expect this firm to trade at a total value of $1,400 million. Assume, however, that the managers of this firm have a

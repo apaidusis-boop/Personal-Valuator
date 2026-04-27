@@ -1,0 +1,67 @@
+on
+25%
+22%
+Correlation
+–0.4
+a.
+ If you were constrained to pick just one, which one would you choose?
+b.
+ A friend argues that this is wrong. He says that you are ignoring the big payoffs that you can
+
+get on the other asset. How would you go about alleviating his concern?
+c.
+ How would a portfolio composed of equal proportions in gold and stocks do in terms of mean
+and variance?
+d.
+ You now learn that GPEC (a cartel of gold-producing countries) is going to vary the amount of
+gold it produces in relation to stock prices in the United States. (GPEC will produce less gold
+when stock markets are up and more when they are down.) What effect will this have on your
+portfolio? Explain.
+5.
+ You are interested in creating a portfolio of two stocks—Coca-Cola and Texas Utilities. Over
+the past decade, an investment in Coca-Cola stock would have earned an average annual return of
+25%, with a standard deviation in returns of 36%. An investment in Texas Utilities stock would
+have earned an average annual return of 12%, with a standard deviation of 22%. The correlation
+in returns across the two stocks is 0.28.
+a.
+ Assuming that the average return and standard deviation, estimated using past returns, will
+continue to hold in the future, estimate the future average returns and standard deviation of a
+portfolio composed 60% of Coca-Cola and 40% of Texas Utilities stock.
+b.
+ Now assume that Coca-Cola’s international diversification will reduce the correlation to
+0.20, while increasing Coca-Cola’s standard deviation in returns to 45%. Assuming all of the
+other numbers remain unchanged, estimate one standard deviation of the portfolio in (a).
+6.
+ Assume that you have half your money invested in Times Mirror, the media company, and the
+other half invested in Unilever, the consumer product company. The expected returns and standard
+deviations on the two investments are:
+Times Mirror
+Unilever
+Expected return
+14%
+18%
+Standard deviation
+25%
+40%
+Estimate the variance of the portfolio as a function of the correlation coefficient (start with –1 and
+increase the correlation to +1 in 0.2 increments).
+7.
+ You have been asked to analyze the standard deviation of a portfolio composed of the
+following three assets:
+Expected Return
+Standard Deviation
+Sony Corporation
+11%
+23%
+Tesoro Petroleum
+9%
+27%
+Storage Technology
+16%
+50%
+You have also been provided with the correlations across these three investments:
+Estimate the variance of a portfolio, equally weighted across all three assets.
+8.
+ Assume that the average variance of return for an individual security is 50 and that the average
+covariance is 10. What is the expected variance of a portfolio of 5, 10, 20, 50, and 100
+securities? How many securities need to be held before the risk of a portfolio is only 10% more

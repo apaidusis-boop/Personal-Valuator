@@ -1,0 +1,42 @@
+sers,
+who try to overcome these problems (though not always successfully) and estimate a fair value. Like
+all analysts, however, they are susceptible to market moods, and bubbles and busts are just as
+
+common in this market as they are in others.
+So, what are the lessons for individual investors? The first is that while art and collectibles, as a
+class, may balance a portfolio, you have to spend substantially more time acquiring specialized
+knowledge to be successful with these investments than you would with financial investments. The
+second is that you should expect to have much higher transaction costs with investments in art and
+collectibles, especially at the high end of the market. The third is that you should collect baseball
+cards or old master paintings because you enjoy them and not just as investments. The psychological
+returns that you receive will then compensate for the substandard financial returns that you may well
+earn.
+Other Assets
+As any regular visitor to eBay will attest, even the most unconventional assets have to be priced, and
+the prices often are based on the pricing of comparable assets. Thus, you can attach a value to a
+baseball card (for instance, a Mickey Mantle rookie card) by looking at the prices at which similar
+cards have sold. In fact, there are publications that list prices for traded cards, categorized by the
+condition of the card.
+One case where a model for comparables seems to have fared remarkably well is in the area of
+valuing wine vintages. Professor Orley Ashenfelter at Princeton University has developed a
+regression model that factors in temperature and rainfall in wine-growing regions to evaluate wine
+vintages (Bordeaux, California cabernet sauvignon, red Burgundy, sauternes, and port wines) and has
+come up with estimates of value per bottle, which are published in his newsletter titled “Liquid
+Assets.” The analogue from stock valuation would be to compare price-earnings ratios across firms,
+controlling for risk and growth characteristics.
+ASSETS WITH OPTION CHARACTERISTICS
+Some assets derive their value not from the cash flows that they generate or from highly valued
+comparables, but from the potential that they possess to be valuable in the future, contingent on an
+event occurring. The values of these assets will exceed their discounted cash flow or relative values,
+with the difference coming from the option component.
+One example would be art produced by an unknown artist that could be valuable if the artist is
+discovered. Another example would be the copyrights and trademarks that we valued using
+traditional valuation approaches in an earlier section. You might be willing to pay a premium for
+some copyrights, licenses, or trademarks because of the option component. For instance, a publisher
+bidding for a book has to consider the possibility that the book could be a runaway success: think of
+Bloomsbury, the publisher that brought out the first Harry Potter book. A final example would be
+investing in an off-Broadway show or low-budget movie. While the expected cash flows from the
+investment may be lower than the cost—making it a poor investment on a discounted cash flow basis
+—there is a chance, albeit small, that the show could be successful enough to make it to Broadway
+and perhaps even into a blockbuster movie. In each of these cases, you could value these assets as
+options; the next three chapters will consider a few applications.

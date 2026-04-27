@@ -1,0 +1,45 @@
+low valuation. It also looks at the
+conditions under which firms using these approaches to judge performance and evaluate managers
+may end up making decisions that destroy value rather than create it.
+
+ECONOMIC VALUE ADDED
+The economic value added (EVA) is a measure of the dollar surplus value created by an investment
+or a portfolio of investments. It is computed as the product of the excess return made on an investment
+or investments and the capital invested in that investment or investments.
+This section begins by looking at the measurement of economic value added, then considers its links
+to discounted cash flow valuation, and closes with a discussion of its limitations as a value
+enhancement tool.
+Calculating EVA
+The definition of EVA outlines three basic inputs we need for its computation—the return on capital
+earned on investments, the cost of capital for those investments, and the capital invested in them. In
+measuring each of these, we will make many of the same adjustments that were discussed in the
+context of discounted cash flow valuation.
+How much capital is there invested in existing assets? One obvious answer is to use the market
+value of the firm, but market value includes capital invested not just in assets in place but in expected
+future growth.
+1
+ Since we want to evaluate the quality of assets in place, we need a measure of the
+capital invested in just these assets. Given the difficulty of estimating the value of assets in place, it is
+not surprising that we turn to the book value of capital as a proxy for the capital invested in assets in
+place. The book value, however, is a number that reflects not just the accounting choices made in the
+current period, but also accounting decisions made over time on how to depreciate assets, value
+inventory, and deal with acquisitions. At the minimum, the three adjustments we made to capital
+invested in the discounted cash flow valuation—converting operating leases into debt, capitalizing
+R&D expenses, and eliminating the effect of one-time or cosmetic charges—have to be made when
+computing EVA as well. The older the firm, the more extensive the adjustments that have to be made
+to book value of capital to get to a reasonable estimate of the market value of capital invested in
+assets in place. Since this requires that we know and take into account every accounting decision over
+time, there are cases where the book value of capital is too flawed to be fixable. Here, it is best to
+estimate the capital invested from the ground up, starting with the assets owned by the firm, estimating
+the market value of these assets (perhaps to the best potential buyers), and cumulating this market
+value.
+EVA COMPUTATION IN PRACTICE
+During the 1990s, EVA was promoted most heavily by Stern Stewart, a New York–based consulting firm. The firm’s
+founders, Joel Stern and Bennett Stewart, became the foremost evangelists for the measure. Their success spawned a
+whole host of imitators from other consulting firms, all of which were variants on the excess return measure.
+In the process of applying this measure to real firms, Stern Stewart found that it had to modify accounting measures of
+earnings and capital to get more realistic estimates of surplus value. In his book 1991 
+The Quest for Value
+, Bennett Stewart
+mentions some of the adjustments that should be made to capital invested, including adjusting for goodwill (recorded and
+unrecorded). He also suggests adjustments that need to be made to operating income, including the conversion of operating

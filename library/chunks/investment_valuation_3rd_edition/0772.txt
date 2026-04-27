@@ -1,0 +1,18 @@
+ned it, includes only nondiversifiable risk, arguments that the risk will
+decrease after the merger cannot be used to reduce the cost of equity since the risk being
+decreased is firm-specific risk.
+2.
+
+Using the cost of capital to discount the cash flows to equity.
+ If the bidding firm uses a mix of
+debt and equity to finance the acquisition of the equity in a target firm, the argument goes, the cost
+of capital should be used in discounting the target firm's cash flows to equity (cash flows left over
+after interest and principal payments). The bottom line is that discounting the cash flows to equity
+at the cost of capital to obtain the value of equity is always wrong and will result in a significant
+overvaluation of the equity in the target firm.
+Subsidizing the Target Firm
+The value of the target firm should not include any portion of the value that should be attributed to the
+acquiring firm. For instance, assume that a firm with excess debt capacity or a high debt rating uses a
+significant amount of low-cost debt to finance an acquisition. If we estimated a low cost of capital for
+the target firm with a high debt ratio and a low after-tax cost of debt, we would overestimate the
+value of the firm. If the acquiring firm paid this price on the acquisition, it would represent a transfer

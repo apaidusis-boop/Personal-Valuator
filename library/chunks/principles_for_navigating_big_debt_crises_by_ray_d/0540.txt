@@ -1,0 +1,44 @@
+our basic tests: 
+ –  How effective is general monetary policy in balancing the provision of credit to the economy?
+ – How potentially destabilizing is the growth of the credit in the specific sector?
+
+Principles For Navigating Big Debt Crises
+211
+ – How important is credit to the growth of the specific sector?
+ – How effective would it be to administer selective credit controls?
+How comfortable are you picking winners and losers as part of directing credit? What are the political costs?  
+ What policy tools will you choose to re-direct credit? Will you target demand for credit, or supply of credit, or both?
+How will you measure effectiveness of the policy?
+ What will be the second- and third-order consequences of the policy? How will you handle them? Often, these 
+can come years later.
+n  Regulation Q , which put caps on interest rates for deposits, was implemented during the Great Depression to 
+give smaller banks a leg up. By the 1950s, it started to create substantial distortions, driving deposits into shadow 
+banking systems.5
+n  Savings & Loan Associates (S&L, a small type of bank) were deregulated in the early 1980s, in part to help those 
+institutions cope with tight monetary policy, contributed to the S&L crisis that began in the mid-1980s.6
+ How will you ensure policy coordination between legislators, the executive branch, and the central bank? How 
+will you empower regulators to make changes?
+n  The most successful US cases represented broad coordination between different government agencies. The 
+Second World War effort was a good example—Congress revised several laws to give the Federal Reserve the 
+authority it needed, Roosevelt used executive orders to supplement the Fed’s efforts, etc.7
+n  In the most successful cases (Volcker’s time at the Fed, for instance), policy makers were given the ability to shift 
+policy nimbly as circumstances changed. Some of the biggest issues came from low flexibility—interest rates caps 
+were not flexibly adapted and negative second-order consequences emerged. 
+n  Today, this remains a key question and there are differences in how different governments have vested powers. In 
+the UK for example, much of the power for regulation and macroprudential policy has been vested in the BoE, 
+and the Financial Policy Committee (FPC) within it. In the US, it has been vested in a number of agencies and 
+a coordinating committee setup after the financial crisis, the Financial Stability Oversight Council (FSOC). 8
+Some Historical Cases of US Macroprudential Policies
+In the next few pages, we go through historical cases of US macroprudential policies from the last century. It’s a long 
+list, so we organized them into seven categories according to the type of policy, and we go through each category 
+chronologically. We relied on the excellent and authoritative paper, “The History of Cyclical Macroprudential Policy in 
+the United States” by Elliott, Feldberg, and Lehnert, for the below framework and historical details. 
+Macroprudential Measures Aimed at Demand for Credit: Margin Requirements
+The margin requirement is the amount of collateral—often cash—that investors need to provide in order to buy an 
+investment using credit. Increasing the requirement puts downward pressure on the amount of credit used to 
+purchase financial assets.
+After attaining the ability to set margin requirements from the Securities Exchange Act of 1934, the Fed used 
+this ability counter-cyclically.9 In practice, the Fed would increase the margin requirement when asset prices were 
+booming and the use of credit for asset purchases was rising, and decrease it in the opposite situation. 
+n   Specifically, Regulation T set margin requirements for brokers and Regulation U set the margin requirement for 
+banks.

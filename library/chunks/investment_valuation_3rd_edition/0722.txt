@@ -1,0 +1,27 @@
+ted $1 million in after-tax cash flow last year,
+has an expected growth rate of 2 percent and a cost of capital of 12 percent. The value of the
+restaurant should be $10 million, based on these inputs:
+
+It is likely, though, that some of the revenues/cash flows from this restaurant can be attributed to the
+chef and that his departure will cause a drop-off in cash flows. Assume that as the potential buyer,
+you survey customers in the restaurant and realize that there will be a 20 percent drop-off in cash
+flow if the current chef leaves. The value of the restaurant without the key person will be lower:
+This loss in value would be much greater if there is a likelihood that the chef could open a new
+competing restaurant.
+As the potential seller, the chef can reduce his loss by signing a non-compete legal agreement or
+offering to stay on as chef for a transition period.
+Even with larger, publicly traded companies, the loss of key personnel can have a significant
+impact on value.
+lliquidity Discounts
+When you take an equity position in an entity, you generally would like to have the option to liquidate
+that position if you need to. The need for liquidity arises not only because of cash flow considerations
+but also because you might want to change your portfolio holdings. With publicly traded firms,
+liquidation is simple and generally has a low cost—the transaction costs for liquid stocks are a small
+percent of the value. With equity in a private business, liquidation costs as a percent of firm value can
+be substantial. Consequently, the value of equity in a private business may need to be discounted for
+this potential illiquidity. This section will consider the determinants of this discount and how best to
+estimate it.
+Determinants of Illiquidity Discount
+The illiquidity discount is likely to vary across both firms and buyers, which renders rules of thumb
+useless. Let us consider four factors that may cause the discount to vary across firms:
+1.

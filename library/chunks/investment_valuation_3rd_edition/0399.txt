@@ -1,0 +1,49 @@
+a modified version of the return on equity that
+measures this:
+The product of the equity reinvestment rate and the modified ROE will yield the expected growth rate
+in FCFE:
+Constant Growth FCFE Model
+
+The constant growth FCFE model is designed to value firms that are growing at a stable growth rate
+and are hence in steady state.
+The Model
+The value of equity, under the constant growth model, is a function of the expected FCFE in the next
+period, the stable growth rate, and the required rate of return.
+where Value = Value of stock today 
+FCFE
+1
+ = Expected FCFE next year 
+k
+e
+ = Cost of equity of the firm 
+g
+n
+ = Growth rate in FCFE for the firm forever
+Caveats
+The model is very similar to the Gordon growth model in its underlying assumptions and works under
+some of the same constraints. The growth rate used in the model has to be reasonable, relative to the
+nominal growth rate in the economy in which the firm operates. As a general rule, a stable growth rate
+cannot exceed the growth rate of the economy in which the firm operates.
+The assumption that a firm is in steady state also implies that it possesses other characteristics
+shared by stable firms. This would mean, for instance, that capital expenditures are not
+disproportionately large, relative to depreciation, and the firm is of average risk. (If the capital asset
+pricing model is used, the beta of the equity should be close to 1.) To estimate the reinvestment for a
+stable growth firm, you can use one of two approaches:
+(a)
+ You can use the typical reinvestment rates for firms in the industry to which the firm belongs.
+A simple way to do this is to use the average capital expenditure to depreciation ratio for the
+industry (or better still, just stable firms in the industry) to estimate a normalized capital
+expenditure for the firm. The danger of doing so is that the industry itself may not be steady state
+and the average will therefore be skewed (high or low).
+(b)
+ Alternatively, you can use the relationship between growth and fundamentals to estimate the
+required reinvestment. The expected growth in net income can be written as:
+This allows us to estimate the equity reinvestment rate:
+To illustrate, a firm with a stable growth rate of 4 percent and a return on equity of 12 percent would
+need to reinvest about one-third of its net income back into net capital expenditures and working
+capital needs. Put differently, the free cash flows to equity should be two-thirds of net income.
+Best Suited for Firms
+This model, like the stable growth dividend discount model, is best suited for firms growing at a rate
+comparable to or lower than the nominal growth in the economy. It is, however, a better model to use
+than the dividend discount model for stable firms that pay out dividends that are unsustainably high
+(because they exceed FCFE by a significant amount) or are significantly lower than the FCFE. Note,

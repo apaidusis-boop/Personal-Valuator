@@ -1,0 +1,43 @@
+row operating income and makes new investments after the fifth year, these
+marginal investments create no additional value because they earn the cost of capital. A direct implication is that it is not
+
+growth that creates value, but growth in conjunction with excess returns. This provides a perspective, albeit not an unfamiliar
+one, on the quality of growth. A firm can be increasing its operating income at a healthy rate, but if it is doing so by investing
+large amounts at or below the cost of capital, it will not be creating value and may actually be destroying it.
+This firm could also have been valued using a discounted cash flow valuation, with free cash flows to the firm discounted at
+the cost of capital. The following table shows expected free cash flows and the firm value, using the cost of capital of 10%
+as the discount rate.
+In looking at this valuation, note the following:
+The capital expenditures occur at the beginning of each year and thus are shown in the previous year. The
+investment of $10 million in year 1 is shown in period 0, the year 2 investment in year 1, and so on.
+In year 5, the net investment needed to sustain growth is computed by using two assumptions—that growth in
+operating income would be 5% a year beyond year 5, and that the return on capital on new investments
+starting in year 6 (which is shown in year 5) would be 10%.
+The value of the firm obtained by discounting free cash flows to the firm at the cost of capital is $170.85, which is identical
+to the value obtained using the economic value added approach.
+ILLUSTRATION 32.2: 
+An EVA Valuation of Lululemon in
+2011
+Lululemon is a Canadian apparel company, specializing in exercise and leisure clothes. To illustrate the equivalence of FCFF
+and EVA valuations, we will begin with a discounted cash flow valuation of the company, using the following inputs:
+Length
+Summary of Inputs: Lululemon 
+High Growth Phase 
+10 years (5 years of constant 
+growth, 5 years of transition)
+Stable Growth Phase 
+Forever after year 10
+Growth inputs
+- Reinvestment rate
+50.00%
+30.00%
+- Return on capital
+35.00%
+10.00%
+- Expected growth rate
+17.50%
+3.00%
+Cost of capital inputs
+- Beta
+1.40
+1.10

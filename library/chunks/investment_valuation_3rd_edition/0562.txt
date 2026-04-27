@@ -1,0 +1,13 @@
+rong moat, which in turn makes it more valuable. In the framework developed
+in this chapter, the strength of the moat is measured by the level of the ROE and how long it can be
+maintained.
+eqmult.xls:
+
+This spreadsheet allows you to estimate the price-earnings ratio for a stable-growth or high-
+growth firm, given its fundamentals.
+APPLICATIONS OF PRICE–BOOK VALUE RATIOS
+There are several potential applications for the principles developed in the preceding section, and we
+will consider three in this section. We will first look at what causes price-to-book ratios for entire
+markets to change over time, and when a low or high price-to-book ratio for a market can be viewed
+as a sign of undervaluation (or overvaluation). We will next compare the price-to-book ratios of
+firms within a sector, and extend this to look at firms across the market and what you need to control

@@ -1,0 +1,20 @@
+ings
+per share.
+Especially with high-growth (and high-risk) firms, the PE ratio can be very different depending on
+which measure of earnings per share is used. This can be explained by two factors:
+1.
+
+The volatility in earnings per share at these firms.
+ Forward earnings per share can be
+substantially higher (or lower) than trailing earnings per share, which, in turn, can be significantly
+different from current earnings per share.
+2.
+
+Management options.
+ Since high-growth firms tend to have far more employee options
+outstanding, relative to the number of shares, the differences between diluted and primary earnings
+per share tend to be large.
+When the PE ratios of firms are compared, it is difficult to ensure that the earnings per share are
+uniformly estimated across the firms for the following reasons:
+Firms often grow by acquiring other firms, and they do not account for acquisitions the same
+way. While all companies now have to use purchase accounting and record goodwill as an

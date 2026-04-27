@@ -1,0 +1,21 @@
+atrix. If it
+succeeds in its endeavor, it should move from the low PBV/low ROE quadrant toward the high
+PBV/high ROE quadrant. (See 
+Figure 19.7
+.)
+Figure 19.7
+ Changes in ROE and Changes in PBV Ratio
+
+ILLUSTRATION 19.8: ROE and PBV Ratios: The Case of
+IBM
+IBM provides a classic example of the effects of returns on equity on price–book value ratios. In 1983, IBM was trading at
+three times its book value, one of the highest price–book value multiples among the Dow 30 stocks at that time. By 1992, the
+stock was trading at roughly book value, significantly lower than the average ratio for Dow 30 stocks. This decline in the
+price–book value ratio was triggered by the decline in return on equity at IBM, from 25% in 1983 to negative values in 1992
+and 1993. In the years following Lou Gerstner becoming CEO, the firm recovered dramatically and was trading at nine times
+book value in 1999. Even after the dot-com crash, IBM has been able to sustain a strong record of high ROE and high price-
+to-book ratios from 2001 to 2010. 
+Figure 19.8
+ illustrates both PBV and ROE between 1983 and 2010 for IBM.
+Figure 19.8
+ IBM: The Fall and Rise Again

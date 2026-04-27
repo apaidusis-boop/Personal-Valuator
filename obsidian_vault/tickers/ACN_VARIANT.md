@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: ACN
 market: us
-date: 2026-04-26
+date: 2026-04-27
 variance: aligned_neutral
 magnitude: 0
 weight_skew: False

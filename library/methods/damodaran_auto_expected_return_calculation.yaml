@@ -1,0 +1,17 @@
+---
+id: damodaran_auto_expected_return_calculation
+name: Expected Return and Standard Deviation Calculation
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: expected_return_rule
+  description: Calculates the expected return of an investment.
+  check: pe < 15 and pb < 1.5
+- id: risk_assessment_rule
+  description: Assesses the risk based on standard deviation proxy.
+  check: (net_debt_ebitda <= 2) or (current_ratio >= 1.5)
+caveats:
+- This method does not account for individual asset expected returns and standard
+  deviations, which are necessary to calculate E(Rp) and σp accurately.

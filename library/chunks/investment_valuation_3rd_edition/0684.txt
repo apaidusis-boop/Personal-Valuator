@@ -1,0 +1,34 @@
+gure 23.1
+ offers a view of the life cycle of the firm and how the availability of information and
+the source of value changes over that life cycle:
+Figure 23.1
+ Valuation Issues across the Life Cycle
+
+Start-up.
+ This represents the initial stage after a business has been formed. The product is
+generally still untested and does not have an established market. The firm has little in terms
+of current operations, no operating history, and no comparable firms. The value of this firm
+rests entirely on its future growth potential. Valuation poses the most challenges at this firm,
+since there is little useful information to go on. The inputs have to be estimated and are
+likely to have considerable error associated with them. The estimates of future growth are
+often based on assessments of the competence of existing managers and their capacity to
+convert a promising idea into commercial success. This is often the reason why firms in this
+phase try to hire managers with a successful track record in converting ideas into dollars,
+because it gives them credibility in the eyes of potential investors.
+Expansion.
+ Once a firm succeeds in attracting customers and establishing a presence in the
+market, its revenues increase rapidly, though it still might be reporting losses. The current
+operations of the firm provide useful clues on pricing, margins, and expected growth, but
+current margins cannot be projected into the future. The operating history of the firm is still
+limited, and shows large changes from period to period. Other firms generally are in
+operation, but usually are at the same stage of growth as the firm being valued. Most of the
+value for this firm also comes from its expected growth. Valuation becomes a little simpler
+at this stage, but the information is still limited and unreliable, and the inputs to the valuation
+model are likely to be shifting substantially over time.
+High growth.
+ While the firm's revenues are growing rapidly at this stage, earnings are likely
+to lag behind revenues. At this stage, both the current operations and operating history of the
+firm contain information that can be used in valuing the firm. The number of comparable
+firms is generally highest at this stage, and these firms are more diverse in where they are in
+the life cycle, ranging from small, high-growth competitors to larger, lower-growth
+competitors. The existing assets of this firm have significant value, but the larger proportion

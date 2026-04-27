@@ -61,6 +61,8 @@ PVBI11 é FII Corporativo (VBI Prime, lajes Faria Lima/SP) com **DY 5.95%** abai
 
 
 
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

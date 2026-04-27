@@ -1,0 +1,15 @@
+nt of modern portfolio theory (MPT). Typically, the account holder can't choose which mutual funds or exchange-traded funds (ETFs) to invest in or purchase individual stocks or bonds in their account.
+
+Some robo-advisors offer optimized portfolios for specific strategies such as socially responsible investing (SRI), halal investing, or tactical strategies that mimic hedge funds. They also can handle much more sophisticated tasks, such as [tax-loss harvesting](https://www.investopedia.com/terms/t/taxgainlossharvesting.asp), investment selection, and [retirement planning](https://www.investopedia.com/terms/r/retirement-planning.asp).
+
+## Explosive Growth
+
+The robo-advisor industry has experienced explosive growth. According to Polaris Market Research, the robo-advisory market size was valued at $8.3 billion in 2024 and was projected to grow to $33.6 billion by 2030, according to a [CAGR](https://www.investopedia.com/terms/c/cagr.asp) study.
+
+## Portfolio Rebalancing
+
+The majority of robo-advisors use modern portfolio theory (MPT) (or some variant) to [build passive, indexed portfolios](https://www.investopedia.com/robo-advisor-vs-index-funds-7568061) for their users.
+
+Once portfolios are established, robo-advisors continue to monitor them to ensure that the optimal asset-class weightings are maintained, even after market moves. Robo-advisors achieve this by using [rebalancing bands](https://www.investopedia.com/articles/stocks/11/rebalancing-strategies.asp).
+
+In rebalancing bands, every [asset class](https://www.investopedia.com/terms/a/assetclasses.asp) or individual security, is given a target weight and a corresponding tolerance range. For example, an allocation strategy might include the requirement to hold 30% in [emerging market](https://www.investopedia.com/terms/e/emergingmarketeconomy.asp) equities, 30% in domestic blue chips, and 40% in [government bonds](https://www.investopedia.com/terms/g/government-bond.asp) with a corridor of ±5% for each asset class.

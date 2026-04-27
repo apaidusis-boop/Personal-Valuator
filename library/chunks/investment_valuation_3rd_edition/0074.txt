@@ -1,0 +1,6 @@
+ibutions. When this assumption is violated, as is the case when the asset’s characteristics have
+changed significantly over time, the historical estimates may not be good measures of risk.
+optvar.xls:
+
+This is a dataset on the Web that summarizes standard deviations and variances of stocks in
+various sectors in the United States.

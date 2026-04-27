@@ -1,0 +1,10 @@
+r the next two years, assume that AT&T’s dividend yield will remain 2.51% over this period and that the risk-free rate
+for a two-year Treasury bond is 4.85%. The inputs to the Black-Scholes model are:
+
+The value from the Black-Scholes model is:
+The call was trading at $5.80 on March 8, 2001.
+optst.xls:
+
+This spreadsheet allows you to estimate the value of a short-term option when the expected
+dividends during the option life can be estimated.
+optlt.xls:

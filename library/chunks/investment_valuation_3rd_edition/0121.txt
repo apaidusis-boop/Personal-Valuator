@@ -1,0 +1,36 @@
+nt options), this calculation would have required an iterative
+process, where the option value is used to get the adjusted value per share and the value per share to get the option value.
+warrant.xls:
+
+This spreadsheet allows you to estimate the value of an option when there is a potential
+dilution from exercise.
+The Black-Scholes Model for Valuing Puts
+The value of a put can be derived from the value of a call with the same strike price and the same
+expiration date:
+where C is the value of the call and P is the value of the put. This relationship between the call and
+put values is called put-call parity, and any deviations from parity can be used by investors to make
+riskless profits. To see why put-call parity holds, consider selling a call and buying a put with
+exercise price K and expiration date t, and simultaneously buying the underlying asset at the current
+price S. The payoff from this position is riskless and always yields K at expiration (t). To see this,
+assume that the stock price at expiration is S*. The payoff on each of the positions in the portfolio can
+be written as follows:
+Position
+Payoffs at t if S* > K
+Payoffs at t if S* < K
+Sell call
+–(S* – K)
+0
+Buy put
+0
+K – S*
+Buy stock
+S*
+S*
+Total
+K
+K
+Since this position yields K with certainty, the cost of creating this position must be equal to the
+present value of K at the riskless rate (K e
+–rt
+).
+Substituting the Black-Scholes equation for the value of an equivalent call into this equation, we get:

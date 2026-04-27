@@ -1,0 +1,31 @@
+. Most researchers who ignore
+transaction costs argue that individual investors can decide for themselves, given their transaction
+costs, whether the excess returns justify the investment strategy.
+3.
+
+Not allowing for difficulties in execution.
+ Some strategies look good on paper but are difficult
+to execute in practice, either because of impediments to trading or because trading creates a price
+impact. Thus a strategy of investing in very small companies may seem to create excess returns on
+paper, but these excess returns may not exist in practice because the price impact is significant.
+EVIDENCE ON MARKET EFFICIENCY
+This section of the chapter attempts to summarize the evidence from studies of market efficiency.
+Without claiming to be comprehensive, the evidence is classified into four sections—the study of
+price changes and their time series properties, the research on the efficiency of market reaction to
+information announcements, the existence of return anomalies across firms and over time, and the
+analysis of the performance of insiders, analysts, and money managers.
+TIME SERIES PROPERTIES OF PRICE CHANGES
+Investors have used price charts and price patterns as tools for predicting future price movements for
+as long as there have been financial markets. It is not surprising, therefore, that the first studies of
+market efficiency focused on the relationship between price changes over time, to see if in fact such
+predictions were feasible. Some of this testing was spurred by the random walk theory of price
+movements, which contended that price changes over time followed a random walk. As the studies of
+the time series properties of prices have proliferated, the evidence can be classified into two
+categories—studies that focus on short-term price behavior (intraday, daily, and weekly price
+movements) price behavior and research that examines the longer term (monthly, annual, and multi-
+year).
+Short-Term Price Movements
+The notion that today’s price change conveys information about tomorrow’s price change is deeply
+rooted in most investors’ psyches. There are several ways in which this hypothesis can be tested in
+financial markets.
+Serial Correlation

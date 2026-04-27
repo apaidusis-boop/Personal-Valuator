@@ -1,0 +1,18 @@
+15
+ Using a 
+λ
+ of
+0.50, for instance, we get a cost of equity in U.S. dollar terms for Petrobras of:
+Note that the third approach essentially converts our expected return model to a two-factor model,
+
+with the second factor being country risk, with 
+λ
+ measuring exposure to country risk. This approach
+also seems to offer the most promise in analyzing companies with exposures in multiple countries like
+Coca-Cola and Nestlé. While these firms are ostensibly developed market companies, they have
+substantial exposure to risk in emerging markets, and their costs of equity should reflect this exposure.
+We could estimate the country risk premiums for each country in which they operate and a 
+λ
+ relative
+to each country, and use these to estimate a cost of equity for either company.
+ctryprem.xls:

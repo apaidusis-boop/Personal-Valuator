@@ -1,0 +1,35 @@
+r pharmaceutical firms. The license fees (pretax) on these products were expected to
+generate $50 million in after-tax cash flows each year for the next 12 years. To value these cash flows, which were
+
+guaranteed contractually, the pretax cost of debt of the licensing firms (7%) was used as the discount rate, since the
+primary risk is that of default by these firms: 
+2.
+ Biogen continued to fund research into new products, spending about $100 million on R&D in the most recent year.
+These R&D expenses were expected to grow 20% a year for the next 10 years and 5% thereafter. While it was difficult
+to forecast the specific patents that would emerge from this research, it was assumed that every dollar invested in
+research would create $1.25 in value in patents
+4
+ (valued using the option pricing model described earlier) for the next 10
+years, and break even after that (i.e., generate $1 in patent value for every $1 invested in R&D). There was a significant
+amount of risk associated with this component, and the cost of capital was estimated to be 15%.
+5
+ The value of this
+component was then estimated as follows: 
+The following table summarizes the value of patents generated each period and the R&D costs in that period. Note that
+there is no surplus value created after the tenth year:
+The total value created by new research is $318.3 million.
+The value of Biogen as a firm is the sum of all three components—the present value of cash flows from existing products,
+the value of Avonex (as an option), and the value created by new research:
+Since Biogen had no debt outstanding or a significant cash balance, this value was divided by the number of shares
+outstanding (35.5 million) to arrive at a value per share:
+IS THERE LIFE AFTER THE PATENT EXPIRES?
+In these valuations it has been assumed that the excess returns are restricted to the patent life and that they disappear the
+instant the patent expires. In the pharmaceutical sector, the expiration of a patent does not necessarily mean the loss of
+excess returns. In fact, many firms continue to be able to charge a premium price for their products and earn excess returns
+even after the patent expires, largely as a consequence of the brand name image that they built up over the project life. A
+simple way of adjusting for this reality is to increase the present value of the cash flows on the project (S) and decrease the
+cost of delay (y) to reflect this reality. The net effect is a greater likelihood that firms will delay commercial development
+while they wait to collect more information and assess market demand.
+  The other thing that might increase the value of the patent is the capacity that drug companies have shown to lobby
+legislators or use the legal system to extend the patent lives of profitable drugs. If we consider this as a possibility when we
+value a patent, it will increase the expected life of the patent and its value as an option.

@@ -1,0 +1,44 @@
+knotty 
+German financial problem, the Allies have 
+chosen two Americans whose business lives 
+exemplify success in its broadest meaning. Each is 
+an outstanding figure in America’s commercial 
+life.”
+
+Part 2: German Debt Crisis and Hyperinflation (1918–1924)
+38
+to “emergency money” as a last resort. These emergency bills were issued by local governments, trade associations, 
+or companies, and were usually at least theoretically backed by real assets. 129 This emergency money, though often 
+illegal, was easier to use than the paper mark, and by the fall of 1923, nearly 2,000 types of it were actively 
+circulating in Germany.130 
+Recognizing the need for a currency with a stable value, the government attempted to give a stamp of authority to 
+this informal system. Specifically, in August 1923 it began issuing very small-denomination debt, indexed to 
+dollars, which it hoped would be used as a temporary currency until a better solution could be found. 131 These 
+“Gold Loan” bills could either be circulated directly or used as a more secure backing for other emergency curren -
+cies.132 And, though they were ultimately backed by nothing more than a stamp claiming they were “wertbe -
+standig” (stable value) and a promise that the government could “raise supplements to the tax on capital” in order 
+to honor them, they did retain their value. 133 In fact, the public was so desperate for a reliable store of wealth that 
+the gold loan bills tended to be hoarded rather than used, and they disappeared almost entirely from circulation 
+shortly after being issued. 134 
+The second phase of the transition to a new currency began on October 15, 1923, when the government announced 
+the creation of a new national bank—the Rentenbank—and a new stable-value currency, the rentenmark, which 
+would enter circulation on November 15.135 Unlike previous efforts to create a currency with “stable value,” the more 
+ambitious rentenmark scheme was an immediate, “miraculous” success.136 Crucially, since rentenmarks could be 
+exchanged for either a fixed quantity of paper marks or a fixed quantity of hard assets (and vice versa), the hard 
+backing behind the rentenmark applied not only to newly issued bills (as had been the case with the gold loan bills), 
+but to all of the paper marks already in circulation. Specifically, the rentenmark was pegged to the paper mark at a 
+ratio of one to one trillion, and to the dollar at a ratio of 4.2 to one—a symbolically significant exchange rate, as it 
+set the gold value of the rentenmark equal to that of the pre-war, peace-time mark. 137 
+In the months that followed, both of these pegged rates held, and by December both the rentenmark and the 
+newly-pegged paper mark were trading at par in foreign markets, while inflation had fallen to sustainable levels. 138 
+0
+1 0
+10 0,000
+1, 000,00 0,000
+1 8 1 9 2 0 2 1 2 2 2 3 2 4 2 5
+0
+1 0
+10 0,000
+1, 000,00 0,000
+1 8 1 9 2 0 2 1 2 2 2 3 2 4 2 5
+Mark Exchange Rate vs USD (Log, Inv) Cons ume r  Price s  (Log)

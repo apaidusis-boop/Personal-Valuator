@@ -1,0 +1,38 @@
+approaches:
+1.
+
+Revenue-based approach:
+ Dividing Gerdau's Brazilian revenue proportion (51 percent) by the average revenue
+proportion for a Brazilian company (72 percent) yields a lambda of 0.79.
+2.
+
+Price-based approach:
+ Regressing the weekly returns on Gerdau stock, between January 2007 and January 2009, on
+the weekly returns on the Brazilian government dollar-denominated bond yields a lambda of 0.625:
+We use the latter estimate to compute a US$ cost of equity for Gerdau Steel of 17.61%:
+To estimate the cost of debt for Gerdau, we began with the interest coverage ratio for the firm, using the 2008 income
+statement:
+This interest coverage ratio, in conjunction with Table 8.1 (from Chapter 8), yields a rating of A– and a default spread of 3%
+(based on March 2009 spreads). Adding the default spread for Brazil (3%) at the time, we get a pretax cost of debt of 9%
+for Gerdau:
+Finally, incorporating Gerdau's current market debt to capital ratio of 58.45%, we estimate a US$ cost of capital of 10.79%:
+We use the 2008 financial statements and exchange rates at the time of the statements to estimate the cashflows in R$ and
+then convert these cash flows to U.S. dollars.
+Base year numbers:
+ In the 2008 financial year, Gerdau reported operating income of R$ 8,005 million, after depreciation of
+R$1,896 million. During the year, acquisitions and internal investments combined to create capital expenditures of R$6,818
+million and noncash working capital increased by R$1,083 million. Gerdau earned an after-tax return on capital of 18.68%,
+based on a marginal tax rate (for Brazil) of 34%, and start-of-the-year book value for equity of R$17,449 million, book value
+of debt of R$ 15,979 million and a cash balance of R$ 5,139 million:
+Forecasted growth and cash flows:
+ We do not believe that either the return on capital or the reinvestment rate is
+sustainable in the long term. Consequently, we use a reinvestment rate of 60% and a return on capital of 16% to estimate
+the expected growth rate of 9.60%, in R$, for the next five years.
+We use this expected growth rate to estimate expected cash flows for the next five years, in R$, in the following table:
+Again, the reinvestment each year is the consolidated value of net capital expenditures, acquisitions, and investments in
+working capital, and amounts to 60% of after-tax operating income each year.
+Conversion to U.S. dollars:
+ To convert the cash flows in R$ to U.S. dollars, we start with the prevailing exchange rate (in
+March 2009) of R$ 2.252/$ but forecast exchange rates for future years based on expected inflation rates of 2% in U.S.
+dollars and 5% in BR. The resulting expected exchange rates and cash flows in U.S. dollars are reported in the following
+table:

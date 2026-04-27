@@ -1,0 +1,64 @@
+a beta of 0.85 in 1993, and the unlevered beta was not expected to change
+over time.
+a.
+ What is the expected growth rate in earnings, based on fundamentals, for the high-growth
+period (1994 to 1998)?
+
+b.
+ What is the expected payout ratio after 1998?
+c.
+ What is the expected beta after 1998?
+d.
+ What is the expected price at the end of 1998?
+e.
+ What is the value of the stock, using the two-stage dividend discount model?
+f.
+ How much of this value can be attributed to extraordinary growth? To stable growth?
+4.
+ Oneida Inc, the world’s largest producer of stainless steel and silverplated flatware, reported
+earnings per share of $0.80 in 1993, and paid dividends per share of $0.48 in that year. The firm
+was expected to report earnings growth of 25% in 1994, after which the growth rate was expected
+to decline linearly over the following six years to 7% in 1999. The stock was expected to have a
+beta of 0.85. (The Treasury bond rate is 6.25%, and the risk premium is 5.5%.)
+a.
+ Estimate the value of stable growth, using the H model.
+b.
+ Estimate the value of extraordinary growth, using the H model.
+c.
+ What are the assumptions about dividend payout in the H model?
+5.
+ Medtronic Inc., the world’s largest manufacturer of implantable biomedical devices, reported
+earnings per share in 1993 of $3.95, and paid dividends per share of $0.68. Its earnings were
+expected to grow 16% from 1994 to 1998, but the growth rate was expected to decline each year
+after that to a stable growth rate of 6% in 2003. The payout ratio was expected to remain
+unchanged from 1994 to 1998, after which it would increase each year to reach 60% in steady
+state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta
+would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond
+rate is 6.25%, and the risk premium is 5.5%.)
+a.
+ Assuming that the growth rate declines linearly (and the payout ratio increases linearly) from
+1999 to 2003, estimate the dividends per share each year from 1994 to 2003.
+b.
+ Estimate the expected price at the end of 2003.
+c.
+ Estimate the value per share, using the three-stage dividend discount model.
+6.
+ Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned $100 million last year
+and paid out 20% of its earnings as dividends. The firm also has bought back $180 million of
+stock over the past four years, in varying amounts each year. The firm is in stable growth, expects
+to grow 5% a year in perpetuity, and has a cost of equity of 12%.
+a.
+ Assuming that the dividend payout ratio will not change over time, estimate the value of
+equity.
+b.
+ How would your answer change if your dividend payout ratio is modified to include stock
+buybacks?
+1
+ The average payout ratio for large stable firms in the United States is about 60 percent.
+2
+ The payout ratio used to calculate the value of the firm as a stable growth firm can be either the
+current payout ratio, if it is reasonable, or the new payout ratio calculated using the fundamental
+growth formula.
+3
+ Proponents of the model would argue that using a steady-state payout ratio for firms that pay little
+or no dividends is likely to cause only small errors in the valuation.

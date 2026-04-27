@@ -1,0 +1,14 @@
+ch provides
+a scatter plot of PEG ratios against growth rates for all U.S. stocks in July 2000, indicates the degree
+of nonlinearity.
+Figure 18.11
+ PEG Ratios versus Expected Growth Rates—January 2011
+
+In running the regression, especially when the sample contains firms with very different levels of
+growth, you could transform the growth rate to make the relationship more linear. A scatter plot of
+PEG ratios against the natural log of the expected growth rate, for instance, yields a much more linear
+relationship, as evidenced in 
+Figure 18.12
+.
+Figure 18.12
+ PEG Ratios versus ln(Expected Growth)—January 2011

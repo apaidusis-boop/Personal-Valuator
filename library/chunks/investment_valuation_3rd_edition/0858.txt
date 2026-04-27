@@ -1,0 +1,49 @@
+research and development expenses, and multistage projects.
+Strategic Considerations in Acquisitions
+In many acquisitions or investments, the acquiring firm believes that the transaction will give it
+
+competitive advantages in the future. These competitive advantages include:
+Entry into a large or growing market.
+ An investment or acquisition may allow the firm to
+enter a large or potentially large market much sooner than it otherwise would have been
+able to do so. A good example of this is the acquisition of a Mexican retail firm by a U.S.
+firm, with the intent of expanding into the Mexican market.
+Technological expertise.
+ In some cases, the acquisition is motivated by the desire to
+acquire a proprietary technology that will allow the acquirer to either expand its existing
+market or enter a new market.
+Brand name.
+ Firms sometime pay large premiums over market price to acquire firms with
+valuable brand names, because they believe that these brand names can be used for
+expansion into new markets in the future.
+While all these potential advantages may be used to justify large acquisition premiums, not all of
+them create valuable options. Even if these advantages can be viewed as valuable expansion options,
+the value has to be greater than the acquisition premium for stockholders to gain.
+Research, Development, and Test Market Expenses
+Firms that spend considerable amounts of money on research and development and test marketing are
+often stymied when they try to evaluate these expenses, since the payoffs are in terms of future
+investments. At the same time, there is the very real possibility that after the money has been spent,
+the products or projects may turn out not to be viable; consequently, the expenditure must be treated
+as a sunk cost. In fact, R&D has the characteristics of a call option—the amount spent on the R&D is
+the cost of the call option, and the projects or products that might emerge from the research provide
+the payoffs on the options. If these products are viable (i.e., the present value of the cash inflows
+exceeds the needed investment), the payoff is the difference between the two.
+Several logical implications emerge from this view of R&D. First, other things remaining equal,
+research expenditures should provide much higher value for firms that are in volatile businesses,
+since the variance in product or project cash flows is positively correlated with the value of the call
+option. Thus, Minnesota Mining and Manufacturing (3M), which expends a substantial amount on
+R&D on basic office products such as Post-it notes, should receive less option value for its research
+than does Amgen, whose research primarily concerns biotechnology products.
+3
+ Second, the value of
+research and the optimal amount to be spent on research will change over time as businesses mature.
+The best example is the pharmaceutical industry: Pharmaceutical companies spent most of the 1980s
+investing substantial amounts in research and earning high returns on new products as health-care
+costs expanded. In the 1990s, however, as health-care costs started leveling off and the business
+matured, many of these companies found that they were not getting the same payoffs on research and
+started cutting back. Some companies moved research dollars from conventional drugs to
+biotechnology products, where uncertainty about future cash flows remains high.
+Multistage Projects/Investments
+When entering new businesses or taking new investments, firms sometimes have the option to move in
+stages. While doing so may reduce potential upside, it also protects the firm against downside risk by
+allowing it at each stage to gauge demand and decide whether to go on to the next stage. In other

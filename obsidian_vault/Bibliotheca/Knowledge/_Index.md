@@ -1,6 +1,6 @@
 ---
 type: knowledge_index
-date: 2026-04-26
+date: 2026-04-27
 cards: 12
 tags: [bibliotheca, knowledge_index]
 ---
@@ -52,4 +52,4 @@ tags: [bibliotheca, knowledge_index]
 3. `--force` regenera todos (custo: ~30s × N cards via Ollama)
 
 ---
-*Auto-build em 2026-04-26.*
+*Auto-build em 2026-04-27.*

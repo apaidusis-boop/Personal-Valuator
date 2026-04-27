@@ -1,0 +1,32 @@
+ssumption to the assumptions you made about competitive
+advantages. For instance, if you have the exclusive license to enter a market for the next 10 years, you
+would use 10 years as your option life.
+
+ILLUSTRATION 29.2: Valuing the Option to Expand:
+Secure Mail
+Secure Mail is a young software company specializing in security software. Assume that you have completed a conventional
+discounted cash flow valuation of the company and estimated a value of $111.54 million for the firm. However, there is the
+possibility that the company could use the customer base that it develops for the antivirus software and the technology on
+which the software is based to create a database software program sometime in the next five years, and you have collected
+the following information on the potential:
+It will cost Secure Mail about $500 million to develop a new database program if it decides to do it today.
+Based on the information that Secure Mail has right now on the market for a database program, the company
+can expect to generate about $40 million a year in after-tax cash flows for 10 years. The cost of capital for
+private companies that provide database software is 12%.
+The annualized standard deviation in firm value at publicly traded database companies is 50%.
+The five-year Treasury bond rate is 3%.
+To value the expansion option, we used the information to derive the option inputs:
+K = Exercise price = Cost of entering the database software market = $500 million
+t = Life of the option = Period over which expansion opportunity exists = 5 years
+s = Standard deviation of underlying asset = 50%
+r = Riskless rate = 3%
+Inputting these numbers into the Black-Scholes model, we obtain the following:
+5
+Note that the numbers would not justify developing the database program today—the present value of the expected cash
+flows ($226 million) is well below the cost. However, Secure Mail has two factors in its favor. The first is that it can refine
+its assessments of the market, based on how its antivirus program performs. The second is that it can adapt the database
+program, based on the information it collects, to increase the potential market and cash flows.
+If we accept this value for the expansion option, we should add it to the value that we derived for Secure Mail earlier in the
+intrinsic valuation of $111.54 million. We would justify the use of the option pricing model in this case by arguing that Secure
+Mail derives its exclusivity from its proprietary technology and access to customer lists (from its antivirus program).
+expand.xls:

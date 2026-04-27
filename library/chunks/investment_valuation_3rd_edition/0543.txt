@@ -1,0 +1,37 @@
+pany. To do this, you would first need to estimate
+the market value of equity in LatinWorks, which is a private company. We will use the estimate of equity value that we
+obtained in Illustration 16.6:
+
+This will yield a EV/EBITDA for just the parent company. The alternative is to adjust just the denominator to make it
+consistent with the numerator. In other words, the EBITDA should include only 51% of the majority active holding's
+EBITDA and should add in the 15% of the EBITDA in the minority holdings:
+In the third approach, you estimate the EV-to-EBITDA multiple for the consolidated firm, correcting for just the minority
+holding. To accomplish this, you need to add the estimated value of the equity in the subsidiary that you have consolidated
+(since the market value of equity of the parent company reflects only the 51% of the subsidiary that you own) to the
+numerator and subtract the estimated value of equity in the minority holding in Latin Works from that value. The
+denominator can be left untouched since it already includes 100% of the EBITDA from the consolidated subsidiary; the
+same argument applies to the cash and debt items in Segovia:
+Note that 49% of the market value of equity in Seville is added back to the numerator, to stay consistent with equity value
+being measured in market terms. In practice, though, many analysts would have used the minority interests on Segovia's
+balance sheet, which is the book value measure of the 49% of Seville, to get to enterprise value. While this may be
+convenient, it does introduce an inconsistency into the estimate.
+Since the approaches yield very different values, you may wonder which one is correct. Since the only reason we compute
+the multiple is to compare it to values computed for similar companies, the answer depends on that comparison. If each of
+the three companies is in a different sector, it is best to use the first approach and get EV/EBITDA multiples for each
+company separately and compare that company to other companies in its sector. If you can find consolidated companies that
+look just like Segovia, in terms of both minority and majority holdings, you can use the second approach. If Segovia and
+Seville are both in the same sector, you can use the third approach, since you can compare the consolidated value to the
+values that other companies in the sector trade at.
+Description
+Figure 18.13
+ summarizes the enterprise value to EBITDA multiples for U.S. firms in January 2011.
+As with the price-earnings ratio, you have a heavily skewed distribution. The average EV/EBITDA
+multiple across U.S. firms in January 2011 was 54.8, while the median value is closer to 10. To
+illustrate that these distributional characteristics are not unique to the United States, we compare the
+distributions of EV/EBITDA multiples globally in 
+Figure 18.14
+. The European, emerging market, and
+Japanese firms all have skewed distributions, with positive outliers pushing the average well above
+the median.
+Figure 18.13
+ EV/EBITDA Multiples: U.S. Companies in January 2011

@@ -1,0 +1,48 @@
+tes
+In the standard approaches for estimating beta, we regress stock returns against market returns. Young
+start-up firms, even when publicly traded, have little historical data, and we cannot use the
+
+conventional approach to estimate risk parameters.
+3
+ In Chapter 7, though, we suggested alternative
+approaches for estimating betas that are useful to bridge this gap. One is the bottom-up approach. If
+there are comparable firms that have been listed for two or more years, the current risk parameters
+for the firm can be estimated by looking at the averages for these firms. If such firms do not exist, risk
+parameters can be estimated using the financial characteristics of the firm—the volatility in earnings,
+their size, cash flow characteristics, and financial leverage.
+4
+If a young firm has debt, we run into a different problem when estimating the cost of debt. The firm
+will generally not be rated, thus denying us a chance to estimate a cost of debt based on the rating. We
+could try estimating a synthetic rating, but the negative operating income will yield a negative interest
+coverage ratio and a default rating for the firm. One solution is to estimate an expected interest
+coverage ratio for the firm based on expected operating income in future periods (note that these
+forecasts were already made in steps 2 and 3) and to use this expected interest coverage ratio to
+estimate a synthetic rating.
+Whatever approach we use to estimate costs of equity and debt, they should not be left unchanged
+over the estimation period. As the firm matures and moves toward its sustainable margin and stable
+growth, the risk parameters should also approach those of an average firm—the betas should move
+toward 1 and the cost of debt should adjust toward a mature firm's cost of debt.
+In addition to estimating the cost of equity for these firms, we have to estimate how leverage will
+change over time. Again, targeting an industry average or an optimal debt ratio for this firm (as it will
+look in steady state) should yield reasonable estimates for the cost of capital over time.
+Operating Leverage and Risk
+One argument that is made for why young firms should have much higher betas than larger, more mature firms in their
+business is that they have much higher operating leverage. The costs for young firms are for the most part fixed and do not
+vary with revenues. If you are estimating a bottom-up beta for a young firm by looking at comparable firms, you have two
+choices:
+1.
+ You can use only small, publicly traded firms as your comparable firms. This will work only if there are significant
+numbers of publicly traded firms in the business.
+2.
+ The other and more promising approach is to adjust the bottom-up beta for differences in operating leverage. Chapter 7
+noted how betas can be adjusted for differences in fixed cost structures:
+ILLUSTRATION 23.4: Estimating Risk Parameters and
+Cost of Capital—Tesla Motors
+Tesla is currently a risky, money-losing company, but it is an automobile company with a technology overlay. Rather than
+trust a regression beta for Tesla, we estimate a bottom-up beta of 1.50 for the next five years, halfway between the bottom-
+up beta of 0.90 for automobiles and 2.10 for technology firms. Using a U.S. dollar risk-free rate of 3.5% and an equity risk
+premium of 5%, we obtain a cost of equity for the next five years:
+The cost of debt is more difficult to estimate because Tesla had no bond rating from S&P or Moody's in 2011 and was also
+reporting operating losses, thus making the interest coverage ratio negative (and short-circuiting the synthetic ratings
+process). The firm is expected to report operating losses for the next five years, making the average operating income over
+that period a negative number. Finally, we chose to use a CCC rating to reflect the fact that Tesla was a going concern, with

@@ -1,0 +1,166 @@
+{
+  "ticker": "PGMN3",
+  "latest_period": "2025-09-30",
+  "qoq": {
+    "label": "Q-o-Q",
+    "comparable_period": "2025-06-30",
+    "metrics": {
+      "revenue": {
+        "current": 3853222.0,
+        "comparable": 3693371.0,
+        "pct_chg": 0.04328051527994344,
+        "material": false
+      },
+      "ebit": {
+        "current": 251000.0,
+        "comparable": 229562.0,
+        "pct_chg": 0.09338653609918018,
+        "material": false
+      },
+      "net_income": {
+        "current": 75981.0,
+        "comparable": 50343.0,
+        "pct_chg": 0.5092664322745962,
+        "material": true
+      },
+      "debt_total": {
+        "current": 1748250.0,
+        "comparable": 1700639.0,
+        "pct_chg": 0.02799594740565164,
+        "material": false
+      },
+      "fco": {
+        "current": 27247.0,
+        "comparable": -80600.0,
+        "pct_chg": 1.3380521091811415,
+        "material": true
+      },
+      "fcf_proxy": {
+        "current": -40926.0,
+        "comparable": -123414.0,
+        "pct_chg": 0.6683844620545482,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.3213310834413382,
+        "comparable": 0.3302048453837971,
+        "abs_chg_pp": -0.008873761942458869,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 0.06514029038555266,
+        "comparable": 0.06215514228058865,
+        "abs_chg_pp": 0.0029851481049640097,
+        "material": false
+      },
+      "net_margin": {
+        "current": 0.019718822325835366,
+        "comparable": 0.013630637160469392,
+        "abs_chg_pp": 0.006088185165365974,
+        "material": false
+      }
+    }
+  },
+  "yoy": {
+    "label": "YoY",
+    "comparable_period": "2024-09-30",
+    "metrics": {
+      "revenue": {
+        "current": 3853222.0,
+        "comparable": 3271304.0,
+        "pct_chg": 0.17788563826535228,
+        "material": true
+      },
+      "ebit": {
+        "current": 251000.0,
+        "comparable": 173243.0,
+        "pct_chg": 0.44883198743960795,
+        "material": true
+      },
+      "net_income": {
+        "current": 75981.0,
+        "comparable": 40970.0,
+        "pct_chg": 0.8545521113009519,
+        "material": true
+      },
+      "debt_total": {
+        "current": 1748250.0,
+        "comparable": 1464953.0,
+        "pct_chg": 0.1933829959049881,
+        "material": false
+      },
+      "fco": {
+        "current": 27247.0,
+        "comparable": 169107.0,
+        "pct_chg": -0.8388771606142856,
+        "material": true
+      },
+      "fcf_proxy": {
+        "current": -40926.0,
+        "comparable": 149968.0,
+        "pct_chg": -1.2728982182865678,
+        "material": true
+      },
+      "gross_margin": {
+        "current": 0.3213310834413382,
+        "comparable": 0.31553105428294037,
+        "abs_chg_pp": 0.005800029158397835,
+        "material": false
+      },
+      "ebit_margin": {
+        "current": 0.06514029038555266,
+        "comparable": 0.05295839212742075,
+        "abs_chg_pp": 0.012181898258131915,
+        "material": false
+      },
+      "net_margin": {
+        "current": 0.019718822325835366,
+        "comparable": 0.012524057684641965,
+        "abs_chg_pp": 0.0071947646411934015,
+        "material": false
+      }
+    }
+  },
+  "material_flags": [
+    {
+      "comparison": "QOQ",
+      "metric": "net_income",
+      "change": "+50.9%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "fco",
+      "change": "+133.8%"
+    },
+    {
+      "comparison": "QOQ",
+      "metric": "fcf_proxy",
+      "change": "+66.8%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "revenue",
+      "change": "+17.8%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "ebit",
+      "change": "+44.9%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "net_income",
+      "change": "+85.5%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "fco",
+      "change": "-83.9%"
+    },
+    {
+      "comparison": "YOY",
+      "metric": "fcf_proxy",
+      "change": "-127.3%"
+    }
+  ]
+}

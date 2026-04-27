@@ -1,0 +1,42 @@
+n the asset is well
+diversified and that the risk is measured in terms of the variability of returns.
+If one assumes that these models apply for real assets as well, the risk of a real asset should be
+
+measured by its beta relative to the market portfolio in the CAPM and by its factor betas in
+multifactor models. If we do so, however, we are assuming, as we did with publicly traded stocks,
+that the marginal investor in real assets is well diversified.
+Are the Marginal Investors in Real Estate Well Diversified?
+Many analysts argue that real estate requires investments that are so large that investors in it may not
+be able to diversify sufficiently. In addition, they note that real estate investments require localized
+knowledge, and that those who develop this knowledge choose to invest primarily or only in real
+estate. Consequently, they note that the use of the capital asset pricing model or multifactor models,
+which assume that only nondiversifiable risk is rewarded, is inappropriate as a way of estimating
+cost of equity.
+There is a kernel of truth to this argument, but it can be countered fairly easily by noting that:
+Many investors who concentrate their holdings in real estate do so by choice. They see it as
+a way of leveraging their specialized knowledge of real estate. Thus, we would view them
+the same way we view investors who choose to hold only technology stocks in their
+portfolios.
+Even large real estate investments can be broken up into smaller pieces, allowing investors
+the option of holding real estate investments in conjunction with financial assets. This is
+especially true now with the securitization of real estate.
+Just as the marginal investor in stocks is often an institutional investor with the resources to
+diversify and keep transactions costs low, the marginal investor in many real estate markets
+today has sufficient resources to diversify.
+If real estate developers and private investors insist on higher expected returns because they are not
+diversified, real estate investments will increasingly be held by real estate investment trusts, limited
+partnerships, and corporations, which attract more diversified investors with lower required returns.
+This trend is well in place in the United States and may spread over time to other countries as well.
+Measuring Risk for Real Assets in Asset Pricing Models
+Even if it is accepted that the risk of a real asset is its market beta in the CAPM, and its factor betas
+in multifactor models, there are several issues related to the measurement and use of these risk
+parameters that need to be examined. To provide some insight into the measurement problems
+associated with real assets, consider the standard approach to estimating betas in the capital asset
+pricing model for a publicly traded stock. First, the prices of the stock are collected from historical
+data, and returns are computed on a periodic basis (daily, weekly, or monthly). Second, these stock
+returns are regressed against returns on a stock index over the same period to obtain the beta. For real
+estate, these steps are not as straightforward.
+Individual Assets: Prices and Risk Parameters
+The betas of individual stocks can be estimated fairly simply because stock prices are available for
+extended time periods. The same cannot be said for individual real estate investments. A piece of
+property does not get bought and sold very frequently, though similar properties might. Consequently,

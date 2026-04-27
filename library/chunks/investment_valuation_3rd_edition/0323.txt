@@ -1,0 +1,44 @@
+three firms examined, we should be concerned if a high ROE is caused by
+a high D/E ratio, a low effective tax rate, or non operating profits. That ROE may not be sustainable. If the firm loses its tax
+
+breaks and the sources of nonoperating income dry up, the firm could very easily find itself with a return on capital that is
+lower than its book interest rate. If this occurs, leverage could bring down the return on equity of the firm.
+AVERAGE AND MARGINAL RETURNS
+The return on equity is conventionally measured by dividing the net income in the most recent year by the book value of
+equity at the end of the previous year. Consequently, the return on equity measures the quality of both older projects that
+have been on the books for a substantial period and new projects from more recent periods. Since older investments
+represent a significant portion of the earnings, the average returns may not shift substantially for larger firms that are facing
+a decline in returns on new investments, because either of market saturation or competition. In other words, poor returns on
+new projects will have a lagged effect on the overall returns for the firm. In valuation, it is the returns that firms are making
+on their newer investments that convey the most information about a quality of a firm's projects. To measure these returns,
+we could compute a marginal return on equity by dividing the change in net income in the most recent year by the change in
+book value of equity in the prior year:
+Marginal return on equity = Δ Net income
+t
+/Δ Book value of equity
+t–1
+For example, Disney reported net income of $3.963 million on book value of equity of $35,425 million in 2010, resulting in an
+aggregate return on equity of 11.87 percent:
+The marginal return on equity is computed as follows:
+While we are not suggesting that Disney generated 37.32 percent on its new investments in 2010, it does show the
+momentum is upward in Disney's return on equity. Thus, a forward-looking estimate greater than 11.87 percent would be
+merited.
+The Effects of Changing Return on Equity
+ So far, this section has operated on the assumption that
+the overall return on equity remains unchanged over time. If we relax this assumption, we introduce a
+new component to growth—the effect of changing return on equity on existing investments over time.
+Consider, for instance, a firm that has a book value of equity of $100 million and a return on equity of
+10 percent. If this firm improves its return on equity to 11 percent, it will post an earnings growth rate
+of 10 percent even if it does not reinvest any money. This additional growth can be written as a
+function of the change in the return on equity:
+where ROE
+t
+ is the return on equity in period t. This will be in addition to the fundamental growth rate
+computed as the product of the return on equity and the retention ratio.
+While increasing return on equity will generate a spurt in the growth rate in the period of the
+improvement, a decline in the return on equity will create a more than proportional drop in the growth
+rate in the period of the decline.
+It is worth differentiating at this point between returns on equity on new investments and returns on
+equity on existing investments. The additional growth that we are estimating here comes not from new
+investments but by changing the return on existing investments. For lack of a better term, you could
+consider it “efficiency-generated growth.”

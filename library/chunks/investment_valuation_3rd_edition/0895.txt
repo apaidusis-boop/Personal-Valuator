@@ -1,0 +1,44 @@
+they can
+minimize negative effects on earnings in future periods. Prior to accounting changes barring the
+practice, many U.S. companies used pooling to account for acquisitions, in which the acquiring
+
+firm was allowed to pool assets and not show the premium paid as goodwill. To qualify for this
+practice, firms would often pay premiums and restructure deals to qualify for pooling, even though
+there was no impact on cash flow.
+4.
+ Over the years, firms have tried to garner favorable attention by changing their corporate names
+and logos to reflect market fads. In the late 1990s, for instance, at the peak of the technology
+boom, adding “.com” to a company’s name was a common exercise.
+Some would take issue with this proposition about what creates value. When a stock splits or a firm
+renames itself, they would argue, the stock price often goes up significantly.
+1
+ While this may be true,
+we would emphasize that it is value, not price, that we claim is unaffected by these actions.
+While paying stock dividends, splitting stock, and adding “.com” to a corporate name are value-
+neutral actions, they can still be useful tools for a firm that perceives itself to be undervalued by the
+market. These actions can change market perceptions about growth or cash flows and thus act as
+signals to financial markets. By increasing trading volume and liquidity, they may provide a side
+benefit to investors and affect the stock price. Finally, in some cases, cosmetic actions can lead to
+changes in operations and thus ultimately affect cash flows and value.
+WAYS OF INCREASING VALUE
+The value of a firm can be increased by increasing cash flows from assets in place, by increasing
+expected growth (while preserving excess returns) and the length of the growth period, and by
+reducing the cost of capital. In reality, however, none of these is easily accomplished, and they are
+likely to reflect all the qualitative factors that financial analysts are often accused of ignoring in
+valuation. This section will consider how actions taken by a firm on a variety of fronts—marketing,
+strategic, and financial—can have an effect on value.
+Increase Cash Flows from Existing Investments
+The first place to look for value is in the firm’s existing assets. These assets represent investments the
+firm has already made and they generate the current operating income for the firm. To the extent that
+these investments earn less than their cost of capital or are earning less than they could if optimally
+managed, there is potential for value creation.
+Poor Investments: Keep, Divest, or Liquidate
+Most firms have some investments that earn less than the cost of capital used to fund them and
+sometimes even lose money. At first sight, it would seem obvious that investments that do not earn
+their cost of capital should be either liquidated or divested. If, in fact, the firm could get back the
+original capital on liquidation, this statement would be true. In most cases, though, there are three
+different measures of value for an existing investment that we need to consider before making this
+judgment.
+The first is the continuing value, and it reflects the present value of the expected cash flows from
+continuing the investment through the end of its life. The second is the liquidation or salvage value,
+which is the net cash flow that the firm will receive if it terminated the project today. Finally, there is

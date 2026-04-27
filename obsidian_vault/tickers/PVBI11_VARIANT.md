@@ -2,7 +2,7 @@
 type: variant_perception
 ticker: PVBI11
 market: br
-date: 2026-04-26
+date: 2026-04-27
 variance: medium_variance_long
 magnitude: 2
 weight_skew: False
@@ -19,7 +19,7 @@ tags: [variant_perception, edge_detection]
 
 ## 🔍 Specific divergence analysis
 
-A nossa tese diverge do consenso em relação ao preço-alvo e potencial de upside para PVBI11 nos próximos 12 meses. Enquanto o consenso prevê um upside de +13% com um preço-alvo de R$99,7 por cota, nossa análise baseada em múltiplos históricos e dividendos sustentáveis sugere que o potencial de alta é mais modesto. Divergimos também sobre a recomendação imediata; enquanto os analistas recomendam "aguardar", nossa tese enfatiza a atratividade da posição atual para investidores de longo prazo, sugerindo uma ação com base sólida e potencial de retorno atrativo.
+A nossa tese diverge do consenso em relação ao preço-alvo e upside estimados para PVBI11. Enquanto o consenso prevê um upside de +13% com um preço-alvo de R$99,7 por cota nos próximos 12 meses, a nossa tese se baseia mais na valorização a longo prazo e no potencial de dividendos sustentáveis, sem fornecer uma estimativa específica de upside curto prazo. A evidência mais robusta para divergência parece estar do lado da nossa tese, considerando o histórico consistente de pagamentos de dividendos e o valuation atrativo em relação ao mercado brasileiro.
 
 ## 📰 Recent analyst insights
 

@@ -1,0 +1,37 @@
+perties for purposes of generating ongoing income. The values of these businesses will be
+determined by their capacity to gauge market demand and complete construction both quickly and
+at low cost.
+4.
+
+Real estate investment.
+ These are businesses that buy real estate property as income-generating
+investments. The simplest way of valuing these businesses is to value each of the properties that
+they own and to aggregate them. However, a premium may be attached to this value if a business
+has shown the capacity to repeatedly buy undervalued properties.
+Thus the factors we should think about when valuing real estate businesses are the same factors we
+think about in any valuation—the capacity to generate not just cash flows but also excess returns, and
+the uncertainty associated with these cash flows.
+Organizational Structure
+There are four basic organizational forms available to real estate business—the real estate investment
+trust (REIT), a master limited partnership (MLP), a business trust, and a real estate corporation. They
+differ in two major areas:
+Structure of Taxation
+Single taxation is a characteristic of REITs and MLPs, since both are taxed at the investor level, but
+not at the firm level. This tax benefit is given to REITs to compensate for certain investment and
+dividend policy restrictions to which REITs must adhere. MLPs receive single-taxation status only if
+they invest in certain activities, such as real estate or oil and gas. Otherwise, for tax purposes, MLPs
+are treated as corporations. This tax advantage does not exist for business trusts and corporations that
+are taxed at both the entity level on income and at the investor level on dividends.
+What are the implications for valuation? When valuing real estate investment trusts and master
+limited partnerships, the entity level tax rate used to estimate cash flows and discount rates is zero.
+That does not mean that there are no tax benefits from depreciation or interest expenses, since these
+benefits still flow through to the ultimate investors. When valuing real estate corporations, the
+corporate tax rate should be used for estimating cash flows and discount rates.
+Restrictions on Investment and Dividend Policy
+The tax code requires REITs to distribute 95 percent of their taxable income to shareholders, which
+effectively limits REITs’ use of internal financing (or retained earnings). Consequently, REITs must
+return to the capital markets on a regular basis, which in turn limits their growth potential. The code
+further requires that a minimum of 75 percent of a REIT’s gross income must come from real estate. A
+REIT must also be a passive investment conduit; that is, less than 30 percent of a REIT’s income must
+come from the operation of real estate held less than four years and income from the sale of securities
+held less than one year. REITs cannot engage in active real estate operations. They cannot operate a

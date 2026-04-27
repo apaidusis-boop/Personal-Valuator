@@ -1,0 +1,42 @@
+ial period of stable high growth, a second period of declining growth, and
+a third period of stable low growth that lasts forever. 
+Figure 13.5
+ graphs the expected growth over
+the three time periods.
+
+Figure 13.5
+ Expected Growth in the Three-Stage Dividend Discount Model
+The value of the stock is then the present value of expected dividends during the high-growth and
+the transitional periods, and of the terminal price at the start of the final stable growth phase.
+where EPS
+t
+ = Earnings per share in year t 
+DPS
+t
+ = Dividends per share in year t 
+g
+a
+ = Growth rate in high-growth phase (lasts n1 periods) 
+g
+n
+ = Growth rate in stable phase 
+Π
+a
+ = Payout ratio in high-growth phase 
+Π
+n
+ = Payout ratio in stable growth phase 
+k
+e
+ = Cost of equity in high growth (hg), transition (t), and stable growth (st)
+Assumptions
+This model removes many of the constraints imposed by other versions of the dividend discount
+model. In return, however, it requires a much larger number of inputs—year-specific payout ratios,
+growth rates, and betas. For firms where there is substantial noise in the estimation process, the
+errors in these inputs can overwhelm any benefits that accrue from the additional flexibility in the
+model.
+Firms Model Works Best For
+This model’s flexibility makes it a useful model for any firm that in addition to changing growth over
+time is expected to change on other dimensions as well—in particular, payout policies and risk. It is
+best suited for firms that are growing at an extraordinary rate now and are expected to maintain this
+rate for an initial period, after which the differential advantage of the firm is expected to deplete

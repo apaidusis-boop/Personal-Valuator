@@ -1,0 +1,48 @@
+y of the normal distribution and argues for measures that incorporate the asymmetry observed
+in actual return distributions into risk measures. The third group posits that distributions that allow for
+
+price jumps are more realistic and that risk measures should consider the likelihood and magnitude of
+price jumps.
+Fat Tails and Power Law Distributions
+Benoit Mandelbrot (1961; Mandelbrot and Hudson, 2004), a mathematician who also did pioneering
+work on the behavior of stock prices, was one of those who took issue with the use of normal and
+lognormal distributions. He argued, based on his observation of stock and real asset prices, that a
+power law distribution characterized them better. In a power-law distribution, the relationship
+between two variables, Y and X, can be written as follows:
+In this equation, 
+α
+ is a constant (constant of proportionality), and k is the power law exponent.
+Mandelbrot’s key point was that the normal and log normal distributions were best suited for series
+that exhibited mild and well-behaved randomness, whereas power law distributions were more
+suited for series that exhibited large movements and what he termed 
+wild randomness
+. Wild
+randomness occurs when a single observation can affect the population in a disproportionate way;
+stock and commodity prices exhibit wild randomness. Stock and commodity prices, with their long
+periods of relatively small movements, punctuated by wild swings in both directions, seem to fit
+better into the wild randomness group.
+What are the consequences for risk measures? If asset prices follow power law distributions, the
+standard deviation or volatility ceases to be a good risk measure and a good basis for computing
+probabilities. Assume, for instance, that the standard deviation in annual stock returns is 15 percent
+and that the average return is 10 percent. Using the normal distribution as the base for probability
+predictions, this will imply that the stock returns will exceed 40 percent (average plus two standard
+deviations) only once every 44 years and 55 percent only (average plus three standard deviations)
+only once every 740 years. In fact, stock returns will be greater than 85 percent (average plus five
+standard deviations) only once every 3.5 million years. In reality, stock returns exceed these values
+far more frequently, a finding consistent with power law distributions, where the probability of larger
+values declines linearly as a function of the power law exponent. As the value gets doubled, the
+probability of its occurrence drops by the square of the exponent. Thus, if the exponent in the
+distribution is 2, the likelihood of returns of 25 percent, 50 percent, and 100 percent can be computed
+as follows:
+Returns will exceed 25 percent: once every 6 years.
+Returns will exceed 50 percent: once every 24 years.
+Returns will exceed 100 percent: once every 96 years.
+Note that as the returns get doubled, the likelihood increases four-fold (the square of the exponent).
+As the exponent decreases, the likelihood of larger values increases; an exponent between 0 and 2
+will yield extreme values more often than a normal distribution. An exponent between 1 and 2 yields
+power law distributions called stable Paretian distributions, which have infinite variance. In an early
+study, Fama (1965) estimated the exponent for stocks to be between 1.7 and 1.9, but subsequent
+studies have found that the exponent is higher in both equity and currency markets.
+3
+In practical terms, the power law proponents argue that using measures such as volatility (and its
+derivatives such as beta) underestimate the risk of large movements. The power law exponents for

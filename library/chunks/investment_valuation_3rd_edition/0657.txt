@@ -1,0 +1,18 @@
+rnings in its 2008–2009 fiscal year (stretching from April 2008 to March 2009). To
+normalize Toyota's operating income, we looked at its operating performance from 1998 to 2008 in the following table:
+
+We considered three different normalization techniques:
+1.
+
+Average income:
+ Averaging the operating income from 1998 to 2008 yields an value of 1,306.9 billion yen. Since the
+revenues over the period more than doubled, this will understate the normalized operating income for the firm.
+2.
+
+Industry average margin:
+ The average pretax operating margin of automobile firms (global) over the same time period
+(1998–2008) is about 6%. In 2009, however, many of these firms were in far worse shape than Toyota, and many are
+likely to report large losses. While we could apply the industry average margin to Toyota's 2009 revenues to estimate a
+normalized operating income (6% of 22,661 billion yen = 1,360 billion yen), this would understate the normalized operating
+income, since it will not reflect the fact that Toyota has been among the most profitable firms in the sector.
+3.

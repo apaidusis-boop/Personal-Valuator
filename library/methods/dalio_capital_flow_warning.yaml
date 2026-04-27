@@ -1,0 +1,56 @@
+---
+id: dalio_capital_flow_warning
+name: Dalio Capital Flow Adversity — pre-crisis warning (BR focus)
+book: Principles for Navigating Big Debt Crises (Dalio)
+horizon: short               # 1-3 months
+direction: DEFENSIVE         # signal = cash/gold/defensive rotation
+derived_from: ollama_extract
+applies_to: emerging_markets  # especially BR
+
+framework: |
+  Dalio: "Weakening capital flows often precede balance of payments crises.
+  Countries without reserve currencies are more prone to inflationary depressions."
+
+  Pre-crisis signals:
+    S1. Currency depreciation accelerating (USDBRL trend)
+    S2. Current account deterioration (imports > exports growth)
+    S3. Foreign reserves declining
+    S4. Domestic borrowing costs rising faster than fundamentals justify (Selic spread vs CDI)
+    S5. Export prices declining (commodities for BR)
+
+  BR é particularmente vulnerável quando:
+    - commodity prices (iron ore, soy, oil) declining 6m
+    - Selic fica alta ATR 2y
+    - USDBRL depreciating 10%+ em 6m
+
+rules:
+  # Proxies usando nossas séries já existentes em `series` (BCB + FRED)
+  - id: selic_elevated
+    description: Selic >= 11% (já indicia tight regime)
+    check: "TRUE"              # stub — requires series lookup, matcher não faz hoje
+  - id: usdbrl_stress
+    description: USDBRL up >10% em 180 days
+    check: "TRUE"              # stub — requires series delta
+  - id: iron_ore_weak
+    description: Iron ore < 6m-ago MA (critical BR export)
+    check: "TRUE"              # stub
+
+entry_trigger: "gte_2_signals active (conservative) - TODO wire to series table"
+exit_trigger: signals revert OR regime flips to "recovery"
+
+expected_move:
+  target_pct: 0               # not directional — defensive tilt
+  stop_loss_pct: 0
+  defensive_tilt_pct: 10      # move ~10pp from risky assets to defensive
+
+caveats:
+  - "matcher hoje não lê series table — este method é STUB para framework futuro"
+  - "será properly active depois de library.matcher ganhar series adapter"
+  - "para já: CHECK manualmente `python -m analytics.regime --market br` antes de trade BR"
+  - "Dalio pessoalmente disse false-positive rate é alto em EM — use como WARNING, não trigger"
+
+fits_with:
+  - analytics/regime.py (BR classifier ainda mais crítico)
+  - fetchers/bcb_fetcher.py (Selic, USDBRL, iron ore)
+  - perpetuum_method_discovery (challenges as evidence accumulates)
+  - NOT wired hoje ao matcher — precisa extensão

@@ -1,0 +1,23 @@
+red valuation of SAP with this change and arrive at a value of 118.50 euros per share. The value of control in the
+case of SAP is a relatively paltry 12.4 euros per share or about 12% of equity value.
+
+Figure 31.8
+ SAP: Value with Changed Financing
+ILLUSTRATION 31.7: 
+The Value of Changing Management
+—Blockbuster in April 2005
+In April 2005, Carl Icahn shocked the management at Blockbuster, the video rental company, by contesting the management
+slate for seats on the board of directors. He based his challenge on the argument that Blockbuster was poorly managed and
+run, and could be worth more with significant management changes. While incumbent management contested him on this
+issue, Icahn was able to get enough stockholder support to get his representatives elected to the board.
+Looking at Blockbuster’s 2004 financial statements, there is a clear basis for stockholder dissatisfaction with the company.
+The company’s revenues have stagnated, going from $5,566 million in 2002 to $5,912 million in 2003 to $6,054 million in
+2004. Even more ominously, the company’s operating income has dropped from $468.20 million in 2002 to $251.20 million in
+2004, as competition has increased both from online rentals (Netflix) and from discount retailers (Walmart). The company
+earned a return on capital of 4.06% on its existing assets in 2004 while its cost of capital was 6.17%. Even if we assume
+that the return on capital on new investments will gradually increase to the cost of capital level over the next five years, we
+arrive at a value for the equity of $955 million and a value per share of only $5.13 (shown in 
+Figure 31.9
+).
+Figure 31.9
+ Blockbuster: Status Quo

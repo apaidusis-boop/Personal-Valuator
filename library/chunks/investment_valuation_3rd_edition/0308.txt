@@ -1,0 +1,45 @@
+use of seasonal
+moving average parameter:
+How Good Are Time Series Models at Predicting Earnings?
+Time series models do better than naive models (using past earnings) in predicting earnings per share
+
+in the next quarter. The forecast error (i.e., the difference between the actual earnings per share and
+forecasted earnings per share) from the time series models is, on average, smaller than the forecast
+error from naive models (such as simple averages of past growth). The superiority of the models over
+naive estimates declines with longer-term forecasts, suggesting that the estimated time series
+parameters are not stationary.
+Among the time series models themselves, there is no evidence that any one model is dominant, in
+terms of minimizing forecast error, for every firm in the sample. The gain from using the firm-specific
+best models, rather than using the same model for every firm is relatively small.
+Limitations in Using Time Series Models in Valuation
+There are several concerns in using time series models for forecasting earnings in valuation. First,
+time series models require a lot of data, which is why most of them are built around quarterly
+earnings per share. In most valuations, the focus is on predicting annual earnings per share and not on
+quarterly earnings. Second, even with quarterly earnings per share, the number of observations is
+limited for most firms to 10 to 15 years of data (40 to 60 quarters of data), leading to large estimation
+errors
+4
+ in time series model parameters and in the forecasts. Third, the superiority of earnings
+forecasts from time series models declines as the forecasting period is extended. Given that earnings
+forecasts in valuation have to be made for several years rather than a few quarters, the value of time
+series models may be limited. Finally, studies indicate that analyst forecasts dominate even the best
+time series models in forecasting earnings.
+In conclusion, time series models are likely to work best for firms that have a long history of
+earnings and where the parameters of the models have not shifted significantly over time. For the most
+part, however, the cost of using these models is likely to exceed their benefits, at least in the context
+of valuation.
+Usefulness of Historical Growth
+Is the growth rate in the past a good indicator of growth in the future? Not necessarily. In this section
+we consider how good historical growth is as a predictor of future growth for all firms, and why the
+changing size and volatile businesses of many firms can undercut growth projections.
+Higgledy-Piggledy Growth
+Past growth rates are useful in forecasting future growth, but they have considerable noise associated
+with them. In a study of the relationship between past growth rates and future growth rates, Little
+(1960) coined the term “higgledy-piggledy growth” because he found little evidence that firms that
+grew fast in one period continued to grow fast in the next period. In the process of running a series of
+correlations between growth rates in consecutive periods of different length, he frequently found
+negative correlations between growth rates in the two periods, and the average correlation across the
+two periods was close to zero (0.02).
+If past growth is not a reliable indicator of future growth at many firms, it becomes even less so at
+smaller firms. The growth rates at smaller firms tend to be more volatile than growth rates at other
+firms in the market. The correlation between growth rates in earnings in consecutive time periods

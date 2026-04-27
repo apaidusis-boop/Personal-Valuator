@@ -1,0 +1,19 @@
+ution can be used as the variance in the value to
+value options on the project.
+While the process of running these simulations is straightforward and there are a number of software packages that exist
+
+that allow you to do this,
+1
+ we would add the following notes of caution:
+The most difficult step is estimating the probability distributions and parameters for the key variables. It is
+easier to do when a firm has had experience with similar projects in the past—a retail store considering a new
+store, for instance—than for a new product or a new market. If the distributions that feed into a simulation
+are random, the output, impressive though it might look on paper, is meaningless.
+The standard deviation or variance that you want to use in option pricing models is a variance in value over
+time and not at a point in time. What is the difference, you might ask? Market testing, for instance, provides a
+distribution for the market potential today and reflects estimation uncertainty. The market itself will evolve
+over time, and it is the variance in that distribution that you would like to estimate.
+2
+You should estimate the standard deviation in the value of the project—the sum of the present value of the
+cash flows—rather than the standard deviation in annual income or annual cash flows.
+expand.xls:

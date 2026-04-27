@@ -1,0 +1,38 @@
+ns preventing firms from selectively revealing information to a few analysts
+or investors. Outside the United States, however, firms routinely convey private information to
+analysts following them.
+5.
+
+Public information other than earnings.
+ Models for forecasting earnings that depend entirely
+on past earnings data may ignore other publicly available information that is useful in forecasting
+future earnings. It has been shown, for instance, that other financial variables such as earnings
+retention, profit margins, and asset turnover are useful in predicting future growth. Analysts can
+incorporate information from these variables into their forecasts.
+Quality of Earnings Forecasts
+If firms are followed by a large number of analysts
+5
+ and these analysts are indeed better informed than
+the rest of the market, the forecasts of growth that emerge from analysts should be better than
+estimates based on either historical growth or other publicly available information. But is this
+presumption justified? Are analyst forecasts of growth superior to other forecasts?
+The general consensus from studies that have looked at short-term forecasts (one quarter ahead to
+four quarters ahead) of earnings is that analysts provide better forecasts of earnings than models that
+depend purely on historical data. The mean relative absolute error, which measures the absolute
+difference between the actual earnings and the forecast for the next quarter, in percentage terms, is
+smaller for analyst forecasts than it is for forecasts based on historical data. Two other studies shed
+further light on the value of analysts' forecasts. Crichfield, Dyckman, and Lakonishok (1978)
+examined the relative accuracy of forecasts in the “Earnings Forecaster,” a publication from Standard
+& Poor's that summarizes forecasts of earnings from more than 50 investment firms. They measured
+the squared forecast errors by month of the year and computed the ratio of analyst forecast error to the
+forecast error from time series models of earnings. They found that the time series models actually
+outperform analyst forecasts from April until August, but underperform them from September through
+January. They hypothesized that this is because there is more firm-specific information available to
+analysts during the latter part of the year. The other study, by O'Brien (1988), compared consensus
+analyst forecasts from the Institutions Brokers Estimate System (I/B/E/S) with time series forecasts
+from one quarter ahead to four quarters ahead. The analyst forecasts outperformed the time series
+model for one-quarter-ahead and two-quarters-ahead forecasts, did as well as the time series model
+for three-quarters-ahead forecasts, and did worse than the time series model for four-quarters-ahead
+forecasts. Thus, the advantage gained by analysts from firm-specific information seems to deteriorate
+as the time horizon for forecasting is extended.
+In valuation, the focus is more on long-term growth rates in earnings than on next quarter's earnings.

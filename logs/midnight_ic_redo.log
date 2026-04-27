@@ -1,0 +1,69 @@
+[IC-REDO start] Sun Apr 26 22:56:40 GTBST 2026
+[IC-REDO] holdings to re-sweep: 33
+[1] AAPL @ 22:56:40
+  -> committee: MIXED (low)  saved: obsidian_vault\tickers\AAPL_IC_DEBATE.md  (14.8s)
+[2] ABBV @ 22:56:55
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\ABBV_IC_DEBATE.md  (14.5s)
+[3] ACN @ 22:57:10
+  -> committee: BUY (high)  saved: obsidian_vault\tickers\ACN_IC_DEBATE.md  (14.8s)
+[4] BBDC4 @ 22:57:25
+  -> committee: BUY (high)  saved: obsidian_vault\tickers\BBDC4_IC_DEBATE.md  (14.8s)
+[5] BLK @ 22:57:40
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\BLK_IC_DEBATE.md  (14.4s)
+[6] BN @ 22:57:55
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\BN_IC_DEBATE.md  (14.4s)
+[7] BRK-B @ 22:58:10
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\BRK-B_IC_DEBATE.md  (14.1s)
+[8] BTLG11 @ 22:58:24
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\BTLG11_IC_DEBATE.md  (14.3s)
+[9] GREK @ 22:58:39
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\GREK_IC_DEBATE.md  (14.1s)
+[10] GS @ 22:58:53
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\GS_IC_DEBATE.md  (14.3s)
+[11] HD @ 22:59:08
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\HD_IC_DEBATE.md  (14.3s)
+[12] ITSA4 @ 22:59:22
+  -> committee: BUY (high)  saved: obsidian_vault\tickers\ITSA4_IC_DEBATE.md  (14.7s)
+[13] IVVB11 @ 22:59:38
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\IVVB11_IC_DEBATE.md  (14.3s)
+[14] JNJ @ 22:59:52
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\JNJ_IC_DEBATE.md  (14.4s)
+[15] JPM @ 23:00:07
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\JPM_IC_DEBATE.md  (14.5s)
+[16] KLBN11 @ 23:00:22
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\KLBN11_IC_DEBATE.md  (14.1s)
+[17] KO @ 23:00:36
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\KO_IC_DEBATE.md  (14.9s)
+[18] LFTB11 @ 23:00:51
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\LFTB11_IC_DEBATE.md  (14.0s)
+[19] NU @ 23:01:06
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\NU_IC_DEBATE.md  (14.8s)
+[20] O @ 23:01:21
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\O_IC_DEBATE.md  (13.9s)
+[21] PG @ 23:01:35
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\PG_IC_DEBATE.md  (14.2s)
+[22] PLD @ 23:01:50
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\PLD_IC_DEBATE.md  (14.5s)
+[23] PLTR @ 23:02:05
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\PLTR_IC_DEBATE.md  (14.2s)
+[24] PRIO3 @ 23:02:20
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\PRIO3_IC_DEBATE.md  (14.9s)
+[25] PVBI11 @ 23:02:35
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\PVBI11_IC_DEBATE.md  (14.4s)
+[26] RBRX11 @ 23:02:49
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\RBRX11_IC_DEBATE.md  (14.4s)
+[27] TEN @ 23:03:04
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\TEN_IC_DEBATE.md  (14.7s)
+[28] TSLA @ 23:03:20
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\TSLA_IC_DEBATE.md  (14.2s)
+[29] TSM @ 23:03:34
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\TSM_IC_DEBATE.md  (14.8s)
+[30] VALE3 @ 23:03:49
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\VALE3_IC_DEBATE.md  (14.6s)
+[31] VGIR11 @ 23:04:04
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\VGIR11_IC_DEBATE.md  (14.2s)
+[32] XP @ 23:04:19
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\XP_IC_DEBATE.md  (14.3s)
+[33] XPML11 @ 23:04:33
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\XPML11_IC_DEBATE.md  (14.2s)
+[IC-REDO end] Sun Apr 26 23:04:48 GTBST 2026

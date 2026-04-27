@@ -1,0 +1,38 @@
+/Civility Average 0.5 4
+Infrastructure & Investment Average -0.2 4
+Resource-Allocation Efficiency Average 0.1 6
+Geology Weak -1.1 11
+Acts of Nature Strong 1.5 1
+  Getting better   Getting worse   Flat
+
+106
+THE CHANGING WORLD ORDER
+INDIA—KEY DRIVERS OF OUR COUNTRY POWER SCORE
+Overall Empire Score (0–1) Level: 0.27 Rank: 6
+The Big Cycles Level Z-Score Rank Trajectory
+Economic/Financial Position Highly  
+Favorable 0.8 1
+Debt Burden Moderately Low 
+Debt 0.1 5
+Expected Growth 6.3% 1.1 1
+Internal Order High Risk -1.8 10
+Wealth/Opportunity/Values Gap Large -1.8 10
+Internal Conflict Very Low
+External Order
+Eight Key Measures of Power
+Cost Competitiveness Very Strong 2.4 1
+Military Strength Average 0.2 5
+Economic Output Average -0.2 5
+Reserve Currency Status Weak -0.8 6
+Trade Weak -0.8 9
+Markets & Financial Center Weak -0.8 10
+Innovation & Technology Weak -1.2 11
+Education Weak -1.2 11
+Additional Measures of Power
+Character/Determination/Civility Strong 1.3 2
+Geology Average 0.3 4
+Resource-Allocation Efficiency Average 0.2 5
+Infrastructure & Investment Average -0.3 6
+Governance/Rule of Law Weak -1.1 10
+Acts of Nature Very Weak -2.4 11
+  Getting better   Getting worse   Flat

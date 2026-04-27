@@ -1,0 +1,36 @@
+the gross debt ratio to zero) but
+will accumulate cash. This may explain why many emerging market firms and young technology firms
+use no debt and accumulate large cash balances.
+THE OPTION TO ABANDON
+
+When investing in new projects, firms worry about the risk that the investment will not pay off, and
+that actual cash flows will not measure up to expectations. Having the option to abandon a project that
+does not pay off can be valuable, especially on projects with a significant potential for losses. This
+section examines the value of the option to abandon and its determinants.
+Payoff on the Option to Abandon
+The option pricing approach provides a general way of estimating and building in the value of
+abandonment. To illustrate, assume that V is the remaining value on a project if it continues to the end
+of its life, and L is the liquidation or abandonment value for the same project at the same point in
+time. If the project has a remaining life of n years, the value of continuing the project can be compared
+to the liquidation (abandonment) value. If the value from continuing is higher, the project should be
+continued; if the value of abandonment is higher, the holder of the abandonment option could consider
+abandoning the project. The payoffs can be written as:
+These payoffs are graphed in 
+Figure 29.3
+, as a function of the expected stock price. Unlike the prior
+two cases, the option to abandon takes on the characteristics of a put option.
+Figure 29.3
+ The Option to Abandon a Project
+ILLUSTRATION 29.4: Valuing an Option to Abandon:
+Airbus and Lear Aircraft
+Assume that Lear Aircraft is interested in building a small passenger plane and that it approaches Airbus with a proposal for
+a joint venture. Each firm will invest $500 million in the joint venture and produce the planes. The investment is expected to
+have a 30-year life. Airbus works through a traditional investment analysis and concludes that its share of the present value
+of the expected cash flows would be only $480 million. The net present value of the project would therefore be negative and
+Airbus would not want to be part of this joint venture.
+On rejection of the joint venture, Lear approaches Airbus with a sweetener, offering to buy out Airbus’s 50% share of the
+joint venture any time over the next five years for $400 million. This is less than what Airbus will invest initially but it puts a
+floor on its losses and thus gives Airbus an abandonment option. To value this option to Airbus, note that the inputs are as
+follows:
+To estimate the variance, assume that Airbus employs a Monte Carlo simulation on the project analysis and estimates a
+standard deviation in project value of 25%. Finally, note that since the project is a finite-life project, the present value will

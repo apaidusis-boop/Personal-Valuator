@@ -1,0 +1,54 @@
+ons to influence the process. Thus, the economic value
+added will be overestimated for those divisions that are underallocated capital, and underestimated
+for divisions that are overallocated capital.
+
+The Future Growth Game
+The value of a firm is the value of its existing assets and the value of its future growth prospects.
+When managers are judged on the basis of economic value added in the current year, or on year-to-
+year changes, the economic value added that is being measured is just that from assets in place. Thus,
+managers may trade off the economic value added from future growth for higher economic value
+added from assets in place.
+Again, this point can be illustrated simply using the firm in Illustration 32.1. The firm earned a
+return on capital of 15 percent on both assets in place and future investments. Assume that there are
+actions the firm can take to increase the return on capital on assets in place to 16 percent, but that
+these actions reduce the return on capital on future investments to 12 percent. The value of this firm
+can then be estimated in 
+Table 32.3
+. Note that the value of the firm has decreased, but the economic
+value added in year 1 is higher now than it was before. The economic value added at this firm for
+each of the next five years is graphed in 
+Figure 32.1
+ for both the original firm and this one. The
+growth trade-off, while leading to a lower firm value, results in economic value added in each of the
+first three years that is larger than it would have been without the trade-off.
+Table 32.3
+ Trading Off Future Growth for Higher EVA
+Capital invested in assets in place
+$100.00
++ EVA from assets in place = (.16 - .10)(100)/.10
+$ 60.00
++ PV of EVA from new investments in year 1 = [(.12 - .10)(10)/.10]
+$ 
+2.00
++ PV of EVA from new investments in year 2 = [(.12 - .10)(10)/.10]/1.1
+$ 
+1.82
++ PV of EVA from new investments in year 3 = [(.12 - .10)(10)/.10]/1.1
+2
+$ 
+1.65
++ PV of EVA from new investments in year 4 = [(.12 - .10)(10)/.10]/1.1
+3
+$ 
+1.50
++ PV of EVA from new investments in year 5 = [(.12 - .10)(10)/.10]/1.1
+4
+$ 
+1.37
+Value of firm
+$168.34
+Figure 32.1
+ Annual EVA: With and Without Growth Trade-Off
+Compensation mechanisms based on EVA are sometimes designed to punish managers who give up
+future growth for current EVA. Managers are partly compensated based on the economic value added
+this year, but another part is held back in a compensation bank and is available to the manager only
