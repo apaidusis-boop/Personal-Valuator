@@ -120,6 +120,17 @@ python scoring/engine.py O --market us   # Graham não aplica — use Dividend_S
 python -m scoring.dividend_safety O      # FFO coverage + streak
 ```
 
+## Dividend Safety scoring para REITs (2026-04-27 update)
+
+`scoring.dividend_safety` agora detecta REITs (sector contém "REIT" ou "Real Estate") e aplica:
+
+1. **Payout ratio = div_ttm / FFO** (não EPS). Threshold: SAFE <70%, OK <85%, WATCH <100%, RISK ≥100%. EPS-based payout aparenta 250%+ para qualquer REIT saudável — distorção pura de D&A.
+2. **Net Debt / EBITDA softer**: SAFE <4x, OK <5.5x, WATCH <7x, RISK ≥9x. REITs operam estruturalmente alavancados (real estate é debt-financed); 5-6x é **normal**, não red flag.
+
+Resultado: O passa de 25 RISK (artificial) → 60 WATCH (realista). PLD passa de 35 RISK → 85 SAFE. FRT 85 SAFE.
+
+ROE permanece com thresholds standard — **REITs estruturalmente têm ROE baixo** (numerador deprimido por D&A, denominador é equity total). Para qualidade REIT, olhar **same-property NOI growth + AFFO/share growth**, não ROE.
+
 ---
 
 > Ver [[Dividend_Safety]] para scoring income. [[DDM_Gordon]] conceitualiza steady-state. [[DRIP_compounding]] para math payback cota-doubling via FIIs.
