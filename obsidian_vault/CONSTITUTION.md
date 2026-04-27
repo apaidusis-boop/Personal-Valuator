@@ -15,7 +15,27 @@ current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, R
 
 > **Quando o user diz "Voltamos" numa nova conversa**: lê esta secção primeiro. Tem tudo que precisas para continuar do ponto certo sem queimar tokens em re-audits.
 
-**Última sessão**: 2026-04-26 tarde (~2h work). 1 phase shipped (L) + IC universe-wide em curso.
+**Última sessão**: 2026-04-27 manhã (~2h workday autónomo). 5 commits incrementais: REIT-aware dividend safety, canonical Ollama wrapper, library dedup, IC majority-vote, fetcher guards, bibliotheca cleanup → 0 alerts.
+
+### ✅ Sessão 2026-04-27 manhã — Workday Work (workday autónomo)
+
+User saiu para o trabalho 8-9h ("Tudo que tens para fazer sozinho, pode prosseguir"). Foco em quick wins do midnight report + canonical refactors. Detalhe: [[Bibliotheca/Workday_Work_2026-04-27]].
+
+**5 commits, 1998 LoC adicionados, 111 removidos, zero broken.**
+
+**Highlights:**
+- **REIT-aware dividend_safety** — O 25 RISK → 60 WATCH; PLD 35 RISK → 85 SAFE (FFO em vez de EPS no payout; ND/EBITDA softer thresholds para REITs).
+- **Canonical `agents/_llm.py::ollama_call`** — refactored 5 modules (synthetic_ic, variant, thesis, earnings_prep, extract_insights). ~50 LoC saved.
+- **Library `_common.py`** — chunk_text/file_hash/slugify shared across ingest.py + clippings_ingest.py.
+- **Synthetic IC `--majority N=3`** — runs 3 seeds, majority verdict. Top-3 conviction unanimous BUY high (BBDC4/ITSA4/ACN).
+- **MCRF11 → MCRE11** (Mauá Capital Real Estate) — Yahoo 404 fixed. MCCI11 (Papel) já cobria CRI side.
+- **XPML11 corruption (issue #8)** — 3 corrupt rows deleted + new fetcher guards reject >50% intraday moves vs prior close.
+- **Bibliotheca 33 alerts → 0** — bibliotheca_autofix backfilled 33 BR names; legacy section catalogued 13 orphans; K&A.yaml integrated as US universe extension.
+- **code_health CH005-CH007** — 3 new checks (direct ollama URL, silent except, ad-hoc banner). 40 hits flagged.
+
+### ✅ Sessão 2026-04-26 tarde — Phase L (BACEN + Quant + IC universe)
+
+User saiu por 2h ("Pode atacar tudo. Força total"). Ataque concorrente em 3 frentes:
 
 ### ✅ Sessão 2026-04-26 tarde — Phase L (BACEN + Quant + IC universe)
 
@@ -411,7 +431,7 @@ python -m library.ingest && python -m library.extract_insights --book <slug> --m
 5. ~~**ITRs 2019-2023 não baixados**~~ ✅ RESOLVIDO. Verificado 2026-04-26: `quarterly_history` tem 60 ITRs por ano de 2018-2025 (AUTO_RUN_REPORT estava certo, esta entry estava obsoleta).
 6. **Bank-specific schema** (BBDC4/ITUB4) — DRE bancária diferente; parser actual genérico funciona mas ignora detalhes BACEN.
 7. **Quarterly_single para watchlist novos** — só ingere 5 holdings principais; novos 15 watchlist precisam ingest específico.
-8. **XPML11 data corruption** (descoberta Phase L) — 14-16/Jan/2026 close ~R$1 (deveria ser ~R$110), volume 10× acima. Provável evento corporativo não-ajustado pela fonte. Mitigação: winsorize em quant_smoke.py. Fix permanente: refetch yfinance ou DELETE rows manuais.
+8. ~~**XPML11 data corruption**~~ ✅ RESOLVIDO 2026-04-27 (Workday Work). 3 rows deletadas + log em events table. Fetcher guard `_is_suspicious_close` adicionado a yf_br_fetcher + yf_us_fetcher (rejeita >50% intraday move sem split na history). Future glitches handled durably.
 9. **BBAS3/SANB11 fora do BACEN map** — `library/ri/catalog.yaml` só tem BBDC4+ITUB4. Para os ingerir falta CodInst Prudencial+Financeiro (descoberta via IfDataCadastro) + entries em `BANK_CODE_MAP` no fetcher + CVM ingest. ~30min cada.
 
 ## 📄 Reports gerados
@@ -488,6 +508,7 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 | 2026-04-25 (H)                    | **H**            | Telegram morning brief: `scripts/captains_log_telegram.py` empacota Captain's Log em push compact (~1160 chars), wired em `daily_run.bat`. Mobile-friendly, semantic emojis (🟢🟡🔴 score, BUY/HOLD/AVOID). Underscore-escaping bug fix (Telegram Markdown). | 0 | |
 | 2026-04-25 (I)                    | **I**            | Wiki holdings B.2 closeout: `agents/holding_wiki_synthesizer.py` gera `wiki/holdings/<TICKER>.md` AUTO-DRAFT marcado para 6 holdings ainda sem nota deep (ABBV, GS, PLTR, TSLA, XP, GREK). Reusa context layer + portfolio_positions data + philosophy-aware prompt. | 0 | |
 | **2026-04-26 evening**            | **U.0 (Unification Sweep)** | **3-layer brain formalisado.** (1) `desktop/` (React app + Vite + FastAPI sidecar) → `_deprecated/desktop_2026-04-26/`; 2 zombie processes killed (Vite 1420 + FastAPI 8765); node_modules apagados. (2) Root limpo: 11 ficheiros (PHASE_*_REPORT, HANDOFF*, MORNING_REPORT*, AUTO_RUN_REPORT) → `reports/_phases/`. (3) `.gitignore` actualizado: `node_modules/`, `_deprecated/`. (4) `_LAYER.md` markers em 11 vault folders (3 L2 + 8 L3). (5) `obsidian_vault/.obsidian/snippets/helena.css` espelha `_theme.py` tokens (paleta + tipografia + tabelas + callouts + sidebar). (6) `scripts/vault_autocommit.bat` pronto (Scheduled Task pendente confirmação user). | 0 | |
+| **2026-04-27 morning**            | **Workday Work** (autonomous) | 5 commits, ~120 min. (1) **REIT-aware dividend_safety**: O 25 RISK → 60 WATCH; PLD 35 RISK → 85 SAFE (FFO + softer ND/EBITDA). (2) **Canonical `agents/_llm.py::ollama_call`**: refactored 5 modules (synthetic_ic, variant, thesis, earnings_prep, extract_insights), ~50 LoC saved. (3) **`library/_common.py`**: chunk_text/file_hash/slugify shared (ingest + clippings dedup). (4) **Synthetic IC `--majority N=3`**: ask_persona_majority + CLI flag; top-3 conviction unanimous (BBDC4/ITSA4/ACN BUY high). (5) **Fetcher guards**: BR + US `_is_suspicious_close` rejects >50% intraday moves. **Issue #8 (XPML11) resolved** — 3 corrupt rows deleted. (6) **MCRF11 → MCRE11** (Yahoo 404 fix). (7) **Bibliotheca 33 → 0 alerts**: autofix 33 names; legacy section catalogues 13 BR orphans; K&A.yaml integrated as US universe extension. (8) **code_health CH005-CH007**: 3 new checks (direct ollama URL, silent except, ad-hoc banner). 40 hits flagged. Detalhe: [[Bibliotheca/Workday_Work_2026-04-27]]. | 0 | |
 
 ## 🧭 Como usar este documento
 
