@@ -26,9 +26,7 @@ sys.path.insert(0, str(ROOT))
 
 import yaml  # noqa: E402
 
-
-def _section(label: str) -> None:
-    print(f"\n{'=' * 60}\n== {label}\n{'=' * 60}")
+from agents._common import section as _section  # noqa: E402  shared banner
 
 
 def _load_universe() -> list[str]:

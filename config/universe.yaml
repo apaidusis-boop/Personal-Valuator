@@ -87,7 +87,9 @@ br:
           tier: 2, sources: [BTG-EqBR, BTG-Val, Suno-Acoes], suno_target: 16.80, cvm_name: "3TENTOS" }
 
     # === FIIs: lista Suno (os 20 da Carteira Recomendada de FIIs) ===
-    # Correções aplicadas por user: PMLL11, TRXF11, MCRF11, VGIP11, KNRI11
+    # Correções aplicadas por user: PMLL11, TRXF11, VGIP11, KNRI11
+    # Correção 2026-04-27: MCRF11 → MCRE11 (Mauá Capital Real Estate, Tijolo) — MCRF11 não existe na B3.
+    #   MCCI11 abaixo (linha 103) é o Mauá Capital CRI (Papel) — funds distintos.
     fiis:
       - { ticker: PMLL11, name: "Plural Malls",          segment: "Shopping",    is_holding: false, sources: [Suno-FII], suno_target: 120.00, suno_status: "Comprar" }
       - { ticker: TRXF11, name: "TRX Real Estate",       segment: "Híbrido",     is_holding: false, sources: [Suno-FII], suno_target: 120.00, suno_status: "Comprar" }
@@ -96,7 +98,7 @@ br:
       - { ticker: RECR11, name: "REC Recebíveis Imob.",  segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_target: 95.00,  suno_status: "Comprar" }
       - { ticker: HGRU11, name: "CSHG Renda Urbana",     segment: "Híbrido",     is_holding: false, sources: [Suno-FII], suno_target: 140.00, suno_status: "Comprar" }
       - { ticker: HGLG11, name: "CSHG Logística",        segment: "Logística",   is_holding: false, sources: [Suno-FII], suno_target: 162.00, suno_status: "Comprar" }
-      - { ticker: MCRF11, name: "Mauá Capital Recebíveis", segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_target: 9.90,  suno_status: "Comprar" }
+      - { ticker: MCRE11, name: "Mauá Capital Real Estate", segment: "Tijolo",     is_holding: false, sources: [Suno-FII], suno_target: 9.90,  suno_status: "Comprar" }
       - { ticker: KNCR11, name: "Kinea Rendimentos Imob.", segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_target: 106.00, suno_status: "Comprar" }
       - { ticker: VGIP11, name: "Valora CRI Plus",       segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_target: 82.00,  suno_status: "Comprar" }
       - { ticker: BRCO11, name: "Bresco Logística",      segment: "Logística",   is_holding: false, sources: [Suno-FII], suno_target: 129.00, suno_status: "Comprar" }
@@ -123,6 +125,7 @@ br:
       - { ticker: EGIE3, name: "Engie Brasil",      sector: "Utilities",        sources: [Suno-Div],   suno_target: 28.60, suno_status: "Aguardar" }
       - { ticker: VAMO3, name: "Vamos",             sector: "Industrials",      sources: [Suno-Acoes], suno_target: 10.90, suno_status: "Comprar" }
       - { ticker: KLBN4, name: "Klabin",            sector: "Materials",        sources: [Suno-Acoes], suno_target: 9.90,  suno_status: "Comprar" }
+      - { ticker: KLBN11, name: "Klabin Unit",      sector: "Materials",        sources: [holding], is_holding: true }
       - { ticker: BRBI11, name: "BR Partners",      sector: "Financials",       sources: [Suno-Acoes], suno_target: 18.00, suno_status: "Aguardar" }
       - { ticker: PNVL3, name: "Panvel",            sector: "Consumer Staples", sources: [Suno-Acoes], suno_target: 13.12, suno_status: "Aguardar" }
       - { ticker: SIMH3, name: "Simpar",            sector: "Industrials",      sources: [Suno-Acoes], suno_target: 20.00, suno_status: "Comprar" }

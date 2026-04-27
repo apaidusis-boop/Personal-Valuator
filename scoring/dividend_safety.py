@@ -82,20 +82,44 @@ def _ttm_div_per_share(conn: sqlite3.Connection, ticker: str) -> float:
 def _latest_fund(conn: sqlite3.Connection, ticker: str) -> dict:
     r = conn.execute(
         "SELECT eps, bvps, roe, pe, pb, dy, net_debt_ebitda, "
-        "dividend_streak_years, is_aristocrat "
+        "dividend_streak_years, is_aristocrat, ffo_per_share "
         "FROM fundamentals WHERE ticker=? ORDER BY period_end DESC LIMIT 1",
         (ticker,),
     ).fetchone()
     if not r:
         return {}
     keys = ["eps", "bvps", "roe", "pe", "pb", "dy",
-            "net_debt_ebitda", "streak", "aristocrat"]
+            "net_debt_ebitda", "streak", "aristocrat", "ffo"]
     return dict(zip(keys, r))
+
+
+def _is_reit(conn: sqlite3.Connection, ticker: str) -> bool:
+    r = conn.execute("SELECT sector FROM companies WHERE ticker=?", (ticker,)).fetchone()
+    if not r or not r[0]:
+        return False
+    s = r[0].lower()
+    return "reit" in s or "real estate" in s
 
 
 # --- Scorers (cada um devolve Component) -----------------------------------
 
-def _score_payout(div_ttm: float, eps: float | None) -> Component:
+def _score_payout(
+    div_ttm: float,
+    eps: float | None,
+    *,
+    ffo: float | None = None,
+    is_reit: bool = False,
+) -> Component:
+    """For REITs use FFO instead of EPS (REIT structure has high non-cash D&A).
+    Falls back to EPS if FFO is unavailable.
+    """
+    if is_reit and ffo and ffo > 0 and div_ttm > 0:
+        payout = div_ttm / ffo
+        name = "payout_ratio_ffo"
+        if payout < 0.7:   return Component(name, 35, payout, 35, "SAFE")
+        if payout < 0.85:  return Component(name, 35, payout, 25, "OK")
+        if payout < 1.0:   return Component(name, 35, payout, 15, "WATCH")
+        return Component(name, 35, payout, 0, "RISK")
     if eps is None or eps <= 0 or div_ttm <= 0:
         return Component("payout_ratio", 35, None, None, "n/a")
     payout = div_ttm / eps
@@ -127,12 +151,20 @@ def _score_streak(streak: int | None, aristocrat: int | None) -> Component:
     return Component("streak_years", 25, s, 0, "RISK")
 
 
-def _score_leverage(net_debt_ebitda: float | None) -> Component:
+def _score_leverage(net_debt_ebitda: float | None, *, is_reit: bool = False) -> Component:
     if net_debt_ebitda is None:
         return Component("net_debt_ebitda", 20, None, None, "n/a")
     x = float(net_debt_ebitda)
     # Caixa líquida (valor negativo) é positivo para safety.
     if x < 0:   return Component("net_debt_ebitda", 20, x, 20, "SAFE")
+    if is_reit:
+        # REITs are structurally debt-financed (real estate). Industry norm
+        # is ~5-6x. Use softer thresholds anchored at real estate medians.
+        if x < 4:   return Component("net_debt_ebitda", 20, x, 20, "SAFE")
+        if x < 5.5: return Component("net_debt_ebitda", 20, x, 15, "OK")
+        if x < 7:   return Component("net_debt_ebitda", 20, x, 10, "WATCH")
+        if x < 9:   return Component("net_debt_ebitda", 20, x, 5, "RISK")
+        return Component("net_debt_ebitda", 20, x, 0, "RISK")
     if x < 1:   return Component("net_debt_ebitda", 20, x, 20, "SAFE")
     if x < 2:   return Component("net_debt_ebitda", 20, x, 15, "OK")
     if x < 3:   return Component("net_debt_ebitda", 20, x, 10, "WATCH")
@@ -150,15 +182,16 @@ def compute(ticker: str, market: str | None = None) -> SafetyScore | None:
     with sqlite3.connect(_db(mkt)) as conn:
         div_ttm = _ttm_div_per_share(conn, ticker)
         fund = _latest_fund(conn, ticker)
+        is_reit = _is_reit(conn, ticker)
 
     if not fund and div_ttm == 0:
         return SafetyScore(ticker, mkt, 0.0, "N/A")
 
     comps = [
-        _score_payout(div_ttm, fund.get("eps")),
+        _score_payout(div_ttm, fund.get("eps"), ffo=fund.get("ffo"), is_reit=is_reit),
         _score_roe(fund.get("roe")),
         _score_streak(fund.get("streak"), fund.get("aristocrat")),
-        _score_leverage(fund.get("net_debt_ebitda")),
+        _score_leverage(fund.get("net_debt_ebitda"), is_reit=is_reit),
     ]
 
     # re-normalização: se algum componente é n/a, distribui o peso nos outros
@@ -182,7 +215,7 @@ def _fmt_component(c: Component) -> str:
     if c.raw_value is None:
         return f"  {c.name:<18} weight={c.weight:>4}   value=—          score=n/a     [{c.verdict}]"
     # formato raw_value por tipo
-    if c.name == "payout_ratio":
+    if c.name in ("payout_ratio", "payout_ratio_ffo"):
         val = f"{c.raw_value*100:>6.1f}%"
     elif c.name == "roe_level":
         val = f"{c.raw_value*100:>6.1f}%"
@@ -223,6 +256,10 @@ def _print_all() -> None:
             if not s:
                 continue
             by = {c.name: c for c in s.components}
+            # REITs use payout_ratio_ffo; fall back to standard payout_ratio
+            payout_c = by.get("payout_ratio_ffo") or by.get("payout_ratio")
+            if payout_c:
+                by["payout_ratio"] = payout_c
             def _v(name, fmt_):
                 c = by.get(name)
                 if not c or c.raw_value is None: return "  —"
