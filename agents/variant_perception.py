@@ -24,13 +24,10 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-import requests
-
 ROOT = Path(__file__).resolve().parent.parent
 DBS = {"br": ROOT / "data" / "br_investments.db", "us": ROOT / "data" / "us_investments.db"}
 TICKERS_DIR = ROOT / "obsidian_vault" / "tickers"
 
-OLLAMA = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5:14b-instruct-q4_K_M"
 
 BULLISH_HINTS = ["compounder", "long-term hold", "drip", "quality", "moat", "buffett", "buy",
@@ -308,17 +305,17 @@ TAREFA: Identifica em 3 frases concisas (PT) onde a NOSSA thesis DIVERGE do cons
 - Se divergimos: diz EXACTAMENTE o ponto contestado + qual lado tem evidência mais robusta.
 
 Reply só o texto da análise, sem JSON."""
-    try:
-        r = requests.post(
-            OLLAMA,
-            json={"model": MODEL, "prompt": prompt, "stream": False,
-                  "options": {"temperature": 0.3, "num_predict": 300}},
-            timeout=timeout,
-        )
-        r.raise_for_status()
-        return r.json().get("response", "").strip()[:1200]
-    except Exception as e:
-        return f"(error: {e})"
+    from agents._llm import ollama_call
+    raw = ollama_call(
+        prompt,
+        model=MODEL,
+        max_tokens=300,
+        temperature=0.3,
+        timeout=timeout,
+    )
+    if raw.startswith("[LLM FAILED"):
+        return f"(error: {raw})"
+    return raw[:1200]
 
 
 def scan_ticker(ticker: str, market: str, verbose: bool = True,

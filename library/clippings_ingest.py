@@ -17,12 +17,13 @@ Uso:
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import re
 import sys
 import sqlite3
 from pathlib import Path
+
+from ._common import chunk_text as _chunk, file_hash as _file_hash, slugify as _slugify
 
 ROOT = Path(__file__).resolve().parent.parent
 CLIPPINGS_DIR = ROOT / "obsidian_vault" / "Clippings"
@@ -32,11 +33,6 @@ INDEX_DB = ROOT / "library" / "chunks_index.db"
 CHUNK_SIZE = 2000
 CHUNK_OVERLAP = 200
 SLUG_PREFIX = "clip_"
-
-
-def _slugify(s: str) -> str:
-    s = re.sub(r"[^\w\s-]", "", s.lower()).strip()
-    return re.sub(r"[-\s]+", "_", s)[:60]
 
 
 def _parse_frontmatter(text: str) -> tuple[dict, str]:
@@ -65,32 +61,6 @@ def _strip_md_artifacts(body: str) -> str:
     body = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", body)
     body = re.sub(r"\n{3,}", "\n\n", body)
     return body.strip()
-
-
-def _chunk(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list[str]:
-    if not text:
-        return []
-    paragraphs = re.split(r"\n\s*\n", text)
-    chunks, buf = [], ""
-    for p in paragraphs:
-        if len(buf) + len(p) + 2 > size:
-            if buf:
-                chunks.append(buf.strip())
-                tail = buf[-overlap:] if len(buf) > overlap else buf
-                buf = tail + "\n\n" + p
-            else:
-                for i in range(0, len(p), size - overlap):
-                    chunks.append(p[i:i + size].strip())
-                buf = ""
-        else:
-            buf = (buf + "\n\n" + p) if buf else p
-    if buf.strip():
-        chunks.append(buf.strip())
-    return chunks
-
-
-def _file_hash(path: Path) -> str:
-    return hashlib.sha1(path.read_bytes()).hexdigest()[:16]
 
 
 def ingest_clip(path: Path, force: bool = False) -> dict:
