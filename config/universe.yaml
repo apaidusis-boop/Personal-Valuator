@@ -172,3 +172,4 @@ us:
       - { ticker: PEP,  name: "PepsiCo",      sector: "Consumer Staples", is_holding: false, sources: [user_pick] }
       - { ticker: ABBV, name: "AbbVie",       sector: "Healthcare",       is_holding: false, sources: [user_pick] }
       - { ticker: MSFT, name: "Microsoft",    sector: "Technology",       is_holding: false, sources: [user_pick] }
+      - { ticker: IBM,  name: "IBM",          sector: "Technology",       is_holding: false, sources: [legacy] }
