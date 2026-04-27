@@ -41,6 +41,9 @@ br:
       - { ticker: BTLG11, name: "BTG Logística",         segment: "Logística",  is_holding: true, sources: [user_pick, Suno-FII] }
       - { ticker: VGIR11, name: "Valora CRI",            segment: "Papel (CRI)", is_holding: true, sources: [user_pick] }
       - { ticker: PVBI11, name: "VBI Prime Properties",  segment: "Corporativo", is_holding: true, sources: [user_pick, Suno-FII] }
+    etfs:
+      - { ticker: LFTB11, name: "iShares Tesouro Selic ETF",  segment: "ETF-RF",   is_holding: true, sources: [user_pick] }
+      - { ticker: IVVB11, name: "iShares S&P 500 (BRL hedged)", segment: "ETF-Eq", is_holding: true, sources: [user_pick] }
 
   # Watchlist — tickers activamente screenados (pipeline completo corre).
   watchlist:
@@ -112,6 +115,23 @@ br:
   # no consenso XP/BTG. Ficam aqui guardadas. NÃO são populadas na DB a menos
   # que sejam promovidas manualmente para a watchlist.
   research_pool:
+    # Legacy tracked tickers — explored em sessões prévias mas sem position
+    # actual. Ficam aqui para o bibliotheca perpetuum não os marcar como
+    # orphans + para preservar histórico de preços (4k+ rows cada).
+    legacy:
+      - { ticker: TAEE11, name: "Taesa",                    sector: "Utilities",        sources: [legacy] }
+      - { ticker: ALUP11, name: "Alupar",                   sector: "Utilities",        sources: [legacy] }
+      - { ticker: BPAC11, name: "BTG Pactual",              sector: "Banks",            sources: [legacy] }
+      - { ticker: ABCB4,  name: "Banco ABC Brasil",         sector: "Banks",            sources: [legacy] }
+      - { ticker: ABEV3,  name: "Ambev",                    sector: "Consumer Staples", sources: [legacy] }
+      - { ticker: CMIG4,  name: "Cemig",                    sector: "Utilities",        sources: [legacy] }
+      - { ticker: CSMG3,  name: "Copasa",                   sector: "Utilities",        sources: [legacy] }
+      - { ticker: GRND3,  name: "Grendene",                 sector: "Consumer Disc.",   sources: [legacy] }
+      - { ticker: ISAE4,  name: "ISA Energia Brasil",       sector: "Utilities",        sources: [legacy] }
+      - { ticker: PSSA3,  name: "Porto Seguro",             sector: "Insurance",        sources: [legacy] }
+      - { ticker: SANB11, name: "Santander BR",             sector: "Banks",            sources: [legacy] }
+      - { ticker: SAPR11, name: "Sanepar",                  sector: "Utilities",        sources: [legacy] }
+      - { ticker: VIVT3,  name: "Telefónica Vivo",          sector: "Telecom",          sources: [legacy] }
     stocks:
       - { ticker: WIZC3, name: "Wiz Co",            sector: "Insurance Broker", sources: [Suno-Div],   suno_target: 10.00, suno_status: "Comprar" }
       - { ticker: BBSE3, name: "BB Seguridade",     sector: "Insurance",        sources: [Suno-Div],   suno_target: 30.50, suno_status: "Aguardar" }
@@ -172,4 +192,4 @@ us:
       - { ticker: PEP,  name: "PepsiCo",      sector: "Consumer Staples", is_holding: false, sources: [user_pick] }
       - { ticker: ABBV, name: "AbbVie",       sector: "Healthcare",       is_holding: false, sources: [user_pick] }
       - { ticker: MSFT, name: "Microsoft",    sector: "Technology",       is_holding: false, sources: [user_pick] }
-      - { ticker: IBM,  name: "IBM",          sector: "Technology",       is_holding: false, sources: [legacy] }
+      - { ticker: IBM,  name: "International Business Machines", sector: "Technology", is_holding: false, sources: [legacy] }
