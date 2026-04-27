@@ -84,23 +84,94 @@ def _ollama_call(
     model: str | None = None,
     temperature: float = 0.3,
 ) -> str:
+    """Backward-compat wrapper. New code should call ollama_call directly."""
+    return ollama_call(
+        prompt,
+        system=system,
+        max_tokens=max_tokens,
+        model=model,
+        temperature=temperature,
+    )
+
+
+def ollama_call(
+    prompt: str,
+    *,
+    system: str | None = None,
+    max_tokens: int = 800,
+    model: str | None = None,
+    temperature: float = 0.3,
+    seed: int | None = None,
+    timeout: int = 180,
+    json_mode: bool = False,
+    extra_options: dict | None = None,
+) -> str:
+    """Canonical Ollama wrapper. Used by all agents/scripts that previously
+    rolled their own requests.post(OLLAMA, ...) calls.
+
+    Args:
+      prompt: user prompt text.
+      system: optional system prompt (concatenated to prompt).
+      max_tokens: num_predict cap.
+      model: defaults to DEFAULT_OLLAMA_MODEL (qwen2.5:14b-instruct-q4_K_M).
+      temperature: 0.0 = deterministic; default 0.3.
+      seed: fix RNG for reproducibility (default None = random).
+      timeout: HTTP timeout in seconds; default 180.
+      json_mode: if True, sets format="json" so Ollama returns valid JSON.
+      extra_options: merged into options dict (e.g. top_k, repeat_penalty).
+
+    Returns:
+      Response text (stripped). On error: "[LLM FAILED: <kind>: <msg>]".
+    """
     model = model or DEFAULT_OLLAMA_MODEL
     full_prompt = f"{system}\n\n{prompt}" if system else prompt
+    options: dict = {"temperature": temperature, "num_predict": max_tokens}
+    if seed is not None:
+        options["seed"] = seed
+    if extra_options:
+        options.update(extra_options)
+    payload: dict = {
+        "model": model,
+        "prompt": full_prompt,
+        "stream": False,
+        "options": options,
+    }
+    if json_mode:
+        payload["format"] = "json"
     try:
-        r = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": model,
-                "prompt": full_prompt,
-                "stream": False,
-                "options": {"temperature": temperature, "num_predict": max_tokens},
-            },
-            timeout=180,
-        )
+        r = requests.post(OLLAMA_URL, json=payload, timeout=timeout)
         r.raise_for_status()
         return r.json().get("response", "").strip()
     except Exception as e:
         return f"[LLM FAILED: {type(e).__name__}: {e}]"
+
+
+def ollama_call_json(
+    prompt: str,
+    *,
+    system: str | None = None,
+    max_tokens: int = 800,
+    model: str | None = None,
+    temperature: float = 0.3,
+    seed: int | None = None,
+    timeout: int = 180,
+) -> dict | list | None:
+    """Convenience wrapper: ollama_call(json_mode=True) + extract_json. Returns
+    parsed dict/list, or None on any failure (HTTP, parse, or LLM error).
+    """
+    raw = ollama_call(
+        prompt,
+        system=system,
+        max_tokens=max_tokens,
+        model=model,
+        temperature=temperature,
+        seed=seed,
+        timeout=timeout,
+        json_mode=True,
+    )
+    if raw.startswith("[LLM FAILED"):
+        return None
+    return extract_json(raw)
 
 
 def _claude_escalation(prompt: str, system: str | None = None, max_tokens: int = 800) -> str:

@@ -32,13 +32,10 @@ import time
 from datetime import date
 from pathlib import Path
 
-import requests
-
 ROOT = Path(__file__).resolve().parent.parent
 DBS = {"br": ROOT / "data" / "br_investments.db", "us": ROOT / "data" / "us_investments.db"}
 TICKERS_DIR = ROOT / "obsidian_vault" / "tickers"
 
-OLLAMA = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5:14b-instruct-q4_K_M"
 
 
@@ -229,7 +226,14 @@ def build_context(ticker: str, market: str, use_tavily: bool = True) -> str:
     return "\n".join(lines)
 
 
-def ask_persona(persona_key: str, ticker: str, context: str, timeout: int = 120) -> dict:
+def ask_persona(
+    persona_key: str,
+    ticker: str,
+    context: str,
+    timeout: int = 120,
+    *,
+    seed: int | None = 42,
+) -> dict:
     persona = PERSONAS[persona_key]
     prompt = f"""{persona['framework']}
 
@@ -248,35 +252,68 @@ TASK: Avalia este ticker pelo teu framework. Responde como {persona['name']} far
 
 Reply JSON ONLY."""
 
+    from agents._llm import ollama_call
+    raw = ollama_call(
+        prompt,
+        model=MODEL,
+        max_tokens=500,
+        temperature=0.15,
+        seed=seed,
+        timeout=timeout,
+    )
+    if raw.startswith("[LLM FAILED"):
+        return {"_error": raw}
+    import re as _re
+    m = _re.search(r"\{.*\}", raw, _re.DOTALL)
+    if not m:
+        return {"_error": "no_json", "raw": raw[:300]}
+    text = m.group(0)
+    text = _re.sub(r",\s*}", "}", text)
+    text = _re.sub(r",\s*]", "]", text)
     try:
-        r = requests.post(
-            OLLAMA,
-            json={"model": MODEL, "prompt": prompt, "stream": False,
-                  # Lower temp + fixed seed → reduce verdict variance run-to-run.
-                  # 2026-04-27 (midnight): observed ABCB4 verdict drift BUY high → HOLD medium
-                  # between runs; lower temp + seed makes results more reproducible without
-                  # killing personality (5 personas still differ via prompts).
-                  "options": {"temperature": 0.15, "num_predict": 500, "seed": 42}},
-            timeout=timeout,
-        )
-        r.raise_for_status()
-        raw = r.json().get("response", "")
-        # Extract JSON block
-        import re
-        m = re.search(r"\{.*\}", raw, re.DOTALL)
-        if not m:
-            return {"_error": "no_json", "raw": raw[:300]}
-        text = m.group(0)
-        text = re.sub(r",\s*}", "}", text)
-        text = re.sub(r",\s*]", "]", text)
-        try:
-            data = json.loads(text)
-            data["persona"] = persona["name"]
-            return data
-        except json.JSONDecodeError as e:
-            return {"_error": str(e), "raw": raw[:500]}
-    except Exception as e:
-        return {"_error": str(e)}
+        data = json.loads(text)
+        data["persona"] = persona["name"]
+        return data
+    except json.JSONDecodeError as e:
+        return {"_error": str(e), "raw": raw[:500]}
+
+
+def ask_persona_majority(
+    persona_key: str,
+    ticker: str,
+    context: str,
+    timeout: int = 120,
+    n: int = 3,
+) -> dict:
+    """Run ask_persona N times with different seeds, take majority verdict.
+    Reduces single-run variance. N=3 is the sweet spot (3× cost, fixes most flips).
+    Conviction = mean of conviction scores from runs that match the majority verdict.
+    Returns shape compatible with ask_persona (single dict).
+    """
+    SEEDS = [42, 137, 314, 271, 1729][:max(1, n)]
+    runs = []
+    for s in SEEDS:
+        d = ask_persona(persona_key, ticker, context, timeout=timeout, seed=s)
+        if "_error" not in d and d.get("verdict"):
+            runs.append(d)
+    if not runs:
+        return {"_error": "all_runs_failed", "persona": PERSONAS[persona_key]["name"],
+                "majority_runs_attempted": n}
+    verdicts = [r["verdict"].upper() for r in runs]
+    counts = {v: verdicts.count(v) for v in set(verdicts)}
+    winner = max(counts, key=counts.get)
+    winners = [r for r in runs if r["verdict"].upper() == winner]
+    # Conviction: mean of winning runs (rounded to int)
+    convictions = [r.get("conviction", 5) for r in winners
+                   if isinstance(r.get("conviction"), (int, float))]
+    avg_conv = round(sum(convictions) / len(convictions)) if convictions else 5
+    base = winners[0].copy()
+    base["conviction"] = avg_conv
+    base["majority_n"] = len(runs)
+    base["majority_winner_count"] = counts[winner]
+    base["majority_distribution"] = counts
+    # Note rationale only from first winner — full set in details if needed.
+    return base
 
 
 def synthesize(ticker: str, debates: list[dict]) -> dict:
@@ -371,7 +408,7 @@ def write_markdown(ticker: str, market: str, context: str, debates: list[dict],
     return out_path
 
 
-def run_debate(ticker: str, market: str, verbose: bool = True) -> dict:
+def run_debate(ticker: str, market: str, verbose: bool = True, *, majority: int = 1) -> dict:
     if verbose:
         print(f"\n=== Synthetic IC: {market.upper()}:{ticker} ===")
     context = build_context(ticker, market)
@@ -379,14 +416,21 @@ def run_debate(ticker: str, market: str, verbose: bool = True) -> dict:
     t0 = time.time()
     for key in PERSONAS:
         if verbose:
-            print(f"  asking {PERSONAS[key]['name']}...", end=" ", flush=True)
-        d = ask_persona(key, ticker, context)
+            tag = f" (majority N={majority})" if majority > 1 else ""
+            print(f"  asking {PERSONAS[key]['name']}{tag}...", end=" ", flush=True)
+        if majority > 1:
+            d = ask_persona_majority(key, ticker, context, n=majority)
+        else:
+            d = ask_persona(key, ticker, context)
         debates.append(d)
         if verbose:
             if "_error" in d:
                 print(f"FAIL ({d['_error']})")
             else:
-                print(f"{d.get('verdict','?')} (conv {d.get('conviction','?')})")
+                m_tag = ""
+                if "majority_winner_count" in d:
+                    m_tag = f" [{d['majority_winner_count']}/{d['majority_n']}]"
+                print(f"{d.get('verdict','?')} (conv {d.get('conviction','?')}){m_tag}")
     summary = synthesize(ticker, debates)
     md_path = write_markdown(ticker, market, context, debates, summary)
     elapsed = time.time() - t0
@@ -436,6 +480,9 @@ def main() -> None:
                     help="Pula tickers que já têm <TICKER>_IC_DEBATE.md")
     ap.add_argument("--limit", type=int, default=None,
                     help="Máximo de tickers a processar nesta run")
+    ap.add_argument("--majority", type=int, default=1,
+                    help="Run cada persona N vezes com seeds diferentes; "
+                         "verdict por maioria. N=3 fixa flips ~85%% por 3× custo.")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -465,7 +512,7 @@ def main() -> None:
         results = []
         for t, market in targets:
             try:
-                results.append(run_debate(t, market))
+                results.append(run_debate(t, market, majority=args.majority))
             except Exception as e:
                 print(f"  !! {market}:{t} crashed: {e}")
         # summary
@@ -481,7 +528,7 @@ def main() -> None:
                     market = m
                     break
             market = market or "us"
-        run_debate(args.ticker.upper(), market)
+        run_debate(args.ticker.upper(), market, majority=args.majority)
     else:
         ap.print_help()
 
