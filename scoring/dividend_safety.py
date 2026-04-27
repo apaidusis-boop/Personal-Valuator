@@ -80,16 +80,26 @@ def _ttm_div_per_share(conn: sqlite3.Connection, ticker: str) -> float:
 
 
 def _latest_fund(conn: sqlite3.Connection, ticker: str) -> dict:
+    """Read latest fundamentals row. ffo_per_share is US-only (REITs);
+    BR schema doesn't have it, so detect column presence first.
+    """
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(fundamentals)").fetchall()}
+    base = ["eps", "bvps", "roe", "pe", "pb", "dy",
+            "net_debt_ebitda", "dividend_streak_years", "is_aristocrat"]
+    select_cols = list(base)
+    if "ffo_per_share" in cols:
+        select_cols.append("ffo_per_share")
     r = conn.execute(
-        "SELECT eps, bvps, roe, pe, pb, dy, net_debt_ebitda, "
-        "dividend_streak_years, is_aristocrat, ffo_per_share "
+        f"SELECT {', '.join(select_cols)} "
         "FROM fundamentals WHERE ticker=? ORDER BY period_end DESC LIMIT 1",
         (ticker,),
     ).fetchone()
     if not r:
         return {}
     keys = ["eps", "bvps", "roe", "pe", "pb", "dy",
-            "net_debt_ebitda", "streak", "aristocrat", "ffo"]
+            "net_debt_ebitda", "streak", "aristocrat"]
+    if "ffo_per_share" in cols:
+        keys.append("ffo")
     return dict(zip(keys, r))
 
 
