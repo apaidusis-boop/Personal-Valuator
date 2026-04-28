@@ -252,30 +252,23 @@ TASK: Avalia este ticker pelo teu framework. Responde como {persona['name']} far
 
 Reply JSON ONLY."""
 
-    from agents._llm import ollama_call
-    raw = ollama_call(
+    from agents._llm import ollama_call_typed
+    from agents._schemas import PersonaVerdict
+
+    pv = ollama_call_typed(
         prompt,
+        PersonaVerdict,
         model=MODEL,
         max_tokens=500,
         temperature=0.15,
         seed=seed,
         timeout=timeout,
     )
-    if raw.startswith("[LLM FAILED"):
-        return {"_error": raw}
-    import re as _re
-    m = _re.search(r"\{.*\}", raw, _re.DOTALL)
-    if not m:
-        return {"_error": "no_json", "raw": raw[:300]}
-    text = m.group(0)
-    text = _re.sub(r",\s*}", "}", text)
-    text = _re.sub(r",\s*]", "]", text)
-    try:
-        data = json.loads(text)
-        data["persona"] = persona["name"]
-        return data
-    except json.JSONDecodeError as e:
-        return {"_error": str(e), "raw": raw[:500]}
+    if pv is None:
+        return {"_error": "ollama_or_validation_failed", "persona": persona["name"]}
+    data = pv.model_dump()
+    data["persona"] = persona["name"]
+    return data
 
 
 def ask_persona_majority(

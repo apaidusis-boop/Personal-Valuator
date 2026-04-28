@@ -12,8 +12,14 @@ import os
 import re
 from datetime import date
 from pathlib import Path
+from typing import TYPE_CHECKING, TypeVar
 
 import requests
+
+if TYPE_CHECKING:
+    from pydantic import BaseModel
+
+T = TypeVar("T", bound="BaseModel")
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 DEFAULT_OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
@@ -172,6 +178,41 @@ def ollama_call_json(
     if raw.startswith("[LLM FAILED"):
         return None
     return extract_json(raw)
+
+
+def ollama_call_typed(
+    prompt: str,
+    schema: type[T],
+    *,
+    system: str | None = None,
+    max_tokens: int = 800,
+    model: str | None = None,
+    temperature: float = 0.3,
+    seed: int | None = None,
+    timeout: int = 180,
+) -> T | None:
+    """Type-safe Ollama call: returns a validated Pydantic instance, or None.
+
+    Pipeline: ollama_call(json_mode=True) → extract_json → schema.model_validate.
+    Tolerant: returns None on HTTP failure, JSON parse failure, OR Pydantic
+    validation failure. Caller decides retry/fallback strategy. Use this
+    instead of hand-rolling json.loads + dict.get chains across agents.
+    """
+    raw_obj = ollama_call_json(
+        prompt,
+        system=system,
+        max_tokens=max_tokens,
+        model=model,
+        temperature=temperature,
+        seed=seed,
+        timeout=timeout,
+    )
+    if raw_obj is None:
+        return None
+    try:
+        return schema.model_validate(raw_obj)
+    except Exception:
+        return None
 
 
 def _claude_escalation(prompt: str, system: str | None = None, max_tokens: int = 800) -> str:

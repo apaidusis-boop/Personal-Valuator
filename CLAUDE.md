@@ -9,6 +9,20 @@ Sistema pessoal de inteligência de investimentos para um investidor pessoa fís
 - Fetchers são *independentes* e *idempotentes*. Cada fetcher sabe falar com **uma** fonte. O motor de scoring nunca chama a rede.
 - O motor de scoring é único, mas aplica critérios ajustados por mercado (BR vs US — ver abaixo).
 
+## Princípios de coding (edits autónomos)
+
+> Adoptados dos [Karpathy guidelines](https://github.com/forrestchang/andrej-karpathy-skills). Existem para **reduzir vai-e-vem e queima de tokens** em sessões autónomas (overnight, workday, perpetuum T2+ actions) — onde não há user a corrigir em real-time. Combinam com a regra-mãe `feedback_inhouse_first.md` (Claude API é último recurso, não primeiro).
+
+1. **Think before coding** — declarar assumptions explicitamente antes de mexer; surface múltiplas interpretações quando há ambiguidade. Se algo é unclear, **parar e nomear o que confunde** em vez de inventar. *Models make wrong assumptions and run along with them* — anti-padrão #1.
+2. **Simplicity first** — mínimo código que resolve o problema, nada especulativo. Antes de adicionar abstracção/parâmetro/flag, perguntar: "passa review de senior engineer?" Se 200 linhas podem ser 50, reescrever. Não generalizar para casos hipotéticos.
+3. **Surgical changes** — tocar apenas no que o pedido exige. Nada de drive-by refactor de código adjacente, comments, ou formatação só "porque está perto". Cleanup separado → commit separado. Style drift do file existente > consistência com preferência pessoal.
+4. **Goal-driven execution** — transformar pedidos vagos em critérios verificáveis *upfront*. Plano breve com steps de verificação explícita (test, query SQL, dry-run flag) antes de declarar "done". *LLMs são excepcionalmente bons a iterar até critério claro* — se o critério é vago, a iteração é desperdício.
+
+**Operacionalização no projecto**:
+- Princípios já parcialmente implícitos em `scripts/simplify` skill, `code_health` perpetuum (CH001–CH007), Constitution decision log, e memory `feedback_*` files.
+- **Workday/midnight work**: ao propor mudanças grandes, gerar 1 commit por preocupação (não commit-monstro). Cada commit deve declarar critério de done em 1 linha.
+- **Perpetuum T2+ actions**: quando o engine propõe action_hint, o action_hint **é** o critério verificável (`Surgical changes` + `Goal-driven`). Se não dá para medir done, não passa de T1.
+
 ## Critérios de investimento
 
 ### Brasil — empresas não-financeiras (Graham clássico ajustado a juros locais)
@@ -192,6 +206,8 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Backtest triggers históricos**              | `python -m analytics.backtest_triggers --market us --start 2020 --kind price_drop --threshold -20` |
 | **Memory cleanup** (stale/broken/orphan)      | `python scripts/memory_cleanup.py [--fix]` |
 | **CLI unificada (tudo)**                      | `ii help` |
+| **Test suite typed agents (W.6.2)**           | `pytest tests/ -v` — 7 tests, ~60s, 100% offline (Ollama qwen2.5:14b) |
+| **Mega Audit** (cruft detector, T1 audit-only) | `python -m agents.mega_auditor` — 8 categorias, output `obsidian_vault/Mega_Audit_<DATE>.md`. NUNCA apaga. |
 | Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
 | Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |
 

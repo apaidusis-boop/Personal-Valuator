@@ -264,28 +264,26 @@ Output JSON apenas (sem markdown, sem comentários):
 }}
 """
 
-    from agents._llm import ollama_call
-    raw = ollama_call(
+    from agents._llm import ollama_call_typed
+    from agents._schemas import ThesisDraft
+
+    td = ollama_call_typed(
         prompt,
+        ThesisDraft,
         model=MODEL,
         max_tokens=800,
         temperature=0.4,
         timeout=timeout,
-        json_mode=True,
     )
-    if raw.startswith("[LLM FAILED"):
-        return {"error": f"ollama_call_failed: {raw}"}
-    try:
-        parsed = json.loads(raw)
-    except json.JSONDecodeError:
-        return {"error": "non-json response", "raw": raw[:300]}
+    if td is None:
+        return {"error": "ollama_or_validation_failed"}
 
     return {
         "ticker": ticker, "market": market, "date": today,
-        "core_thesis": parsed.get("core_thesis", "").strip(),
-        "key_assumptions": parsed.get("key_assumptions", []),
-        "disconfirmation_triggers": parsed.get("disconfirmation_triggers", []),
-        "intent": parsed.get("intent", "").strip(),
+        "core_thesis": td.core_thesis,
+        "key_assumptions": td.key_assumptions,
+        "disconfirmation_triggers": td.disconfirmation_triggers,
+        "intent": td.intent,
     }
 
 

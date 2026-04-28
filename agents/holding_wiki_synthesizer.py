@@ -17,20 +17,17 @@ Uso:
 from __future__ import annotations
 
 import argparse
-import json
 import sqlite3
 import sys
 from datetime import date
 from pathlib import Path
-
-import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from agents.thesis_synthesizer import (
     _build_context, _resolve_market, _select_philosophy, _fundamentals,
-    SPECIAL_INTENT, OLLAMA, MODEL,
+    SPECIAL_INTENT, MODEL,
 )
 
 WIKI_HOLDINGS = ROOT / "obsidian_vault" / "wiki" / "holdings"
@@ -110,22 +107,19 @@ Output JSON apenas (sem markdown wrapper):
 }}
 """
 
-    try:
-        resp = requests.post(
-            OLLAMA,
-            json={"model": MODEL, "prompt": prompt, "stream": False,
-                  "format": "json", "options": {"temperature": 0.4}},
-            timeout=timeout,
-        )
-        resp.raise_for_status()
-    except Exception as e:
-        return {"error": f"ollama_call_failed: {e}"}
+    from agents._llm import ollama_call_typed
+    from agents._schemas import HoldingWikiStub
 
-    raw = resp.json().get("response", "")
-    try:
-        parsed = json.loads(raw)
-    except json.JSONDecodeError:
-        return {"error": "non-json", "raw": raw[:300]}
+    stub = ollama_call_typed(
+        prompt,
+        HoldingWikiStub,
+        model=MODEL,
+        max_tokens=800,
+        temperature=0.4,
+        timeout=timeout,
+    )
+    if stub is None:
+        return {"error": "ollama_or_validation_failed"}
 
     return {
         "ticker": ticker, "market": market, "date": today,
@@ -138,7 +132,7 @@ Output JSON apenas (sem markdown wrapper):
             "aristocrat": fund.get("is_aristocrat"),
         },
         "portfolio": portfolio,
-        **parsed,
+        **stub.model_dump(),
     }
 
 
