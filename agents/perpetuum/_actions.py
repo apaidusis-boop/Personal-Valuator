@@ -4,9 +4,13 @@ Quando um perpetuum tem tier T2+, resultados com score baixo + action_hint
 são auto-escritos em `watchlist_actions` table para user rever via action_cli
 ou skill `perpetuum-review`.
 
-Dedup: trigger_id = `perpetuum:<name>:<subject_id>:<run_date>` — re-runs
-no mesmo dia NÃO criam duplicados; runs em dias diferentes criam new rows
-se score continuar baixo.
+Dedup (2 níveis):
+  1. trigger_id = `perpetuum:<name>:<subject_id>:<run_date>` — re-runs no
+     mesmo dia são idempotent (same trigger_id → skip).
+  2. (kind, ticker_or_id, status='open') — runs em dias diferentes que
+     escolheriam piling up new rows quando já há uma open são skipped.
+     Mantém o queue limpo: uma open action por (perpetuum, subject) até
+     user resolver/ignorar.
 
 Safety: action_hint é escrito but NOT executed. User approves via CLI/skill.
 """
@@ -73,6 +77,14 @@ def write_action_from_result(
             return False, exists[0]
 
         ticker_or_id = identifier if market in ("br", "us") and ":" not in identifier else identifier[:32]
+
+        already_open = c.execute(
+            "SELECT id FROM watchlist_actions WHERE kind = ? AND ticker = ? AND status = 'open'",
+            (kind, ticker_or_id),
+        ).fetchone()
+        if already_open:
+            return False, already_open[0]
+
         cur = c.execute(
             """
             INSERT INTO watchlist_actions
