@@ -208,6 +208,27 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **CLI unificada (tudo)**                      | `ii help` |
 | **Test suite typed agents (W.6.2)**           | `pytest tests/ -v` — 7 tests, ~60s, 100% offline (Ollama qwen2.5:14b) |
 | **Mega Audit** (cruft detector, T1 audit-only) | `python -m agents.mega_auditor` — 8 categorias, output `obsidian_vault/Mega_Audit_<DATE>.md`. NUNCA apaga. |
+| **Mega Audit bury** (quarantine to cemetery)  | `python -m agents.mega_auditor --bury <ID...>` ou `--bury-preset {safe,verified-dead,safe-and-dead}` — reversível via cemetery/2026-04-28/manifest.md |
+| **Synthetic IC debate** (Phase AA)            | `python -m agents.synthetic_ic <TK> [--majority N] [--watchlist] [--all]` — 5 personas Buffett/Druck/Taleb/Klarman/Dalio |
+| **Variant perception** (Phase AA)             | `python -m agents.variant_perception <TK> [--write]` — we vs analyst consensus (com Tavily wire) |
+| **Decision journal intel** (Phase AA)         | `python -m agents.decision_journal_intel` — agrega P1-P5 patterns dos perpetuums |
+| **Holding wiki synthesizer** (Phase I)        | `python -m agents.holding_wiki_synthesizer <TK> [--missing] [--dry-run]` — Ollama-gen stubs auto_draft |
+| **Conviction score engine** (Phase L)         | `python -m analytics.conviction_score [--ticker X] [--top-n 20]` — 0-100 composite universe-wide |
+| **Portfolio stress test** (Phase AA)          | `python -m analytics.portfolio_stress [--shock pe_compress\|recession]` — concentration + factor + drawdown |
+| **Quant smoke tearsheet** (Phase L)           | `python -m analytics.quant_smoke --market {br,us}` — Sharpe/Sortino/Calmar/MDD HTML |
+| **Earnings prep brief** (Phase AA)            | `python -m library.earnings_prep [--ticker X] [--days 60]` — pre-call briefs LLM-grounded |
+| **RI bank quarterly** (Phase Y)               | `python -m library.ri.bank_quarterly_single <TK>` — single-quarter bank parser |
+| **RI CVM filings** (Phase Y)                  | `python -m library.ri.cvm_filings [--ticker X] [--year YYYY]` — CVM official filings |
+| **RI compare releases** (Phase Y)             | `python -m library.ri.compare_releases <TK> --quarters 4` — QoQ/YoY trend |
+| **CVM monitor** (BR fatos relevantes)         | `python -m monitors.cvm_monitor` — daily filings scrape |
+| **SEC monitor** (US 8-K/10-K/divs)            | `python -m monitors.sec_monitor [--ticker X]` — EDGAR daily |
+| **Captain's log Telegram push** (Phase H)     | `python scripts/captains_log_telegram.py` — daily brief Telegram (cron 23:30 wired) |
+| **Predictions evaluate** (Phase G)            | `python scripts/predictions_evaluate.py` — closes analyst predictions |
+| **Paper trade close** (Phase F)               | `python scripts/paper_trade_close.py` — daily cron close paper signals |
+| **Research digest** (Bibliotheca daily)       | `python scripts/research_digest.py` — outputs Bibliotheca/Research_Digest_<DATE>.md |
+| **Daily update US** (cron US side)            | `python scripts/daily_update_us.py` — fetchers + scoring US (paralelo a daily_update.py) |
+| **US portfolio report**                       | `python scripts/us_portfolio_report.py` — briefing US-only |
+| **Clippings ingest** (Bibliotheca v2)         | `python -m library.clippings_ingest` — vault/Clippings → chunks_index |
 | Importar nova carteira (XP/JPM)               | `python scripts/import_portfolio.py --br <x.xlsx> --us <y.csv>` |
 | Scoring ad-hoc                                | `python scoring/engine.py X [--market br\|us]` |
 
