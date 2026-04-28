@@ -132,6 +132,7 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 |---|---|
 | **Mega Helena** (design audit + skill curate + 4-path spikes) | `python agents/helena_mega.py [audit\|curate\|spike\|report\|all] [--dry-run]` — outputs em `obsidian_vault/skills/Helena_Mega/` |
 | **Helena audit** (design system linter, DS001-DS009) | `python -m agents.helena.audit` |
+| **Helena Mega master report** (consolidator) | `python -m agents.helena.report` — escreve `obsidian_vault/skills/Helena_Mega/00_MASTER.md` (audit+curate+spike summary) |
 | **Helena Linha scout** (weekly, GitHub+RSS+YouTube) | `python scripts/design_research.py [--source github\|blogs\|youtube\|all]` |
 | **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
 | **Perpetuum Master** (Phase X — 3 perpetuums) | `python agents/perpetuum_master.py [--only NAME] [--dry-run]` — thesis + vault + data_coverage, 442 subjects/dia |
@@ -145,6 +146,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Library RAG build** (nomic-embed local) | `python -m library.rag build` |
 | **Library RAG query** (semantic search) | `python -m library.rag query "texto" --k 5` |
 | **Library RAG ask** (RAG + Qwen synth) | `python -m library.rag ask "pergunta PT" --k 6` |
+| **Bibliotheca Glossary build** (métricas, thresholds, contraméricas) | `python scripts/build_glossary.py [--backlinks]` — gera/actualiza `obsidian_vault/Glossary/` |
+| **Bibliotheca Knowledge Cards** (RAG synth de filosofia) | `python scripts/build_knowledge_cards.py [--force]` — `obsidian_vault/Bibliotheca/Knowledge/<slug>.md` |
+| **Dossier Tutor** (injecta `## Tutor` em DOSSIE.md) | `python scripts/dossier_tutor.py [--ticker X]` — bullets explicativos com links Glossary; idempotente |
 | **Paper trade signals** | `sqlite3 data/us_investments.db 'SELECT * FROM paper_trade_signals WHERE status="open"'` |
 | **Enrich fundamentals** (market_cap, cur_ratio, ltd, wc) | `python scripts/enrich_fundamentals_for_methods.py [--schema\|--backfill\|--ticker X]` |
 | **Ad Perpetuum Validator** (legacy, Phase W.5) | `python -c "from agents.perpetuum_validator import PerpetuumValidator; ..."` — thesis_health daily (agora wrappado em perpetuum.thesis) |
@@ -172,6 +176,9 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Altman Z-Score** (distress, veto R5)        | `python -m scoring.altman X` |
 | **Piotroski F-Score** (quality 0-9, veto F≤3) | `python -m scoring.piotroski X` |
 | **Fetch deep fundamentals** (yfinance)        | `python fetchers/yf_deep_fundamentals.py X` ou `--holdings` |
+| **Fetch Kings/Aristocrats batch** (US)        | `python scripts/fetch_kings_aristocrats.py [--all] [--period 5y]` — popula companies+prices+divs+fundamentals para tickers em config/kings_aristocrats.yaml |
+| **Massive.com (ex-Polygon) fetcher** (fallback US, intraday/options/forex) | `python fetchers/massive_fetcher.py X [--previous-close\|--aggregates --from YYYY-MM-DD --to YYYY-MM-DD]` — rate-limited 5 req/min |
+| **Backfill US bank tangibles** (TBVPS+ROTCE) | `python scripts/backfill_us_bank_tangibles.py [TICKERS...] [--schema-only]` — closeout para schema US bank fundamentals |
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |
 | **Backtest yield strategy**                   | `python -m analytics.backtest_yield --market br --start 2019 --top-n 5 [--quality-only]` |
@@ -205,21 +212,32 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **FX total BR+US em BRL**                     | `ii fx --total` |
 | **Backtest triggers históricos**              | `python -m analytics.backtest_triggers --market us --start 2020 --kind price_drop --threshold -20` |
 | **Memory cleanup** (stale/broken/orphan)      | `python scripts/memory_cleanup.py [--fix]` |
+| **Macro CSV export** (BCB SGS → data/macro_exports/) | `python scripts/export_macro_csv.py` — diff-friendly CSVs (Selic/CDI/IPCA/USDBRL); idempotente |
+| **Notify priority events** (Windows Toast)    | `python scripts/notify_events.py [--hours N] [--dry-run]` — CVM holdings + SEC 8-K prioritários; state em `data/notify_state.json` |
+| **Rotate / archive logs** (>30d → gz)         | `python scripts/rotate_logs.py [--days N]` — wired no fim de daily_run.bat |
+| **Telegram long-poll loop** (Jarbas live)     | `python scripts/telegram_loop.py [--quiet]` — long-polling getUpdates timeout=25s; substitui cron 2m do controller |
+| **Vault clean video names** (videos/<id>.md → date_channel_slug.md) | `python scripts/vault_clean_video_names.py [--apply] [--vault PATH]` — preserva ID como alias Obsidian |
 | **CLI unificada (tudo)**                      | `ii help` |
 | **Test suite typed agents (W.6.2)**           | `pytest tests/ -v` — 7 tests, ~60s, 100% offline (Ollama qwen2.5:14b) |
 | **Mega Audit** (cruft detector, T1 audit-only) | `python -m agents.mega_auditor` — 8 categorias, output `obsidian_vault/Mega_Audit_<DATE>.md`. NUNCA apaga. |
 | **Mega Audit bury** (quarantine to cemetery)  | `python -m agents.mega_auditor --bury <ID...>` ou `--bury-preset {safe,verified-dead,safe-and-dead}` — reversível via cemetery/2026-04-28/manifest.md |
 | **Synthetic IC debate** (Phase AA)            | `python -m agents.synthetic_ic <TK> [--majority N] [--watchlist] [--all]` — 5 personas Buffett/Druck/Taleb/Klarman/Dalio |
-| **Variant perception** (Phase AA)             | `python -m agents.variant_perception <TK> [--write]` — we vs analyst consensus (com Tavily wire) |
+| **Variant perception** (Phase AA)             | `python -m agents.variant_perception <TK> [--market br\|us] [--all-holdings] [--no-weighting]` — we vs analyst consensus (com Tavily wire); writes vault by default |
 | **Decision journal intel** (Phase AA)         | `python -m agents.decision_journal_intel` — agrega P1-P5 patterns dos perpetuums |
 | **Holding wiki synthesizer** (Phase I)        | `python -m agents.holding_wiki_synthesizer <TK> [--missing] [--dry-run]` — Ollama-gen stubs auto_draft |
-| **Conviction score engine** (Phase L)         | `python -m analytics.conviction_score [--ticker X] [--top-n 20]` — 0-100 composite universe-wide |
-| **Portfolio stress test** (Phase AA)          | `python -m analytics.portfolio_stress [--shock pe_compress\|recession]` — concentration + factor + drawdown |
+| **Conviction score engine** (Phase L)         | `python -m analytics.conviction_score [--universe] [--top N]` — 0-100 composite universe-wide |
+| **Portfolio stress test** (Phase AA)          | `python -m analytics.portfolio_stress {concentration\|factor\|drawdown\|all}` — kind é positional |
 | **Quant smoke tearsheet** (Phase L)           | `python -m analytics.quant_smoke --market {br,us}` — Sharpe/Sortino/Calmar/MDD HTML |
-| **Earnings prep brief** (Phase AA)            | `python -m library.earnings_prep [--ticker X] [--days 60]` — pre-call briefs LLM-grounded |
+| **Earnings prep brief** (Phase AA)            | `python -m library.earnings_prep [--ticker X] [--upcoming N] [--market br\|us]` — pre-call briefs LLM-grounded; `--upcoming N` para próximos N dias |
 | **RI bank quarterly** (Phase Y)               | `python -m library.ri.bank_quarterly_single <TK>` — single-quarter bank parser |
 | **RI CVM filings** (Phase Y)                  | `python -m library.ri.cvm_filings [--ticker X] [--year YYYY]` — CVM official filings |
-| **RI compare releases** (Phase Y)             | `python -m library.ri.compare_releases <TK> --quarters 4` — QoQ/YoY trend |
+| **RI compare releases** (Phase Y)             | `python -m library.ri.compare_releases <TK>` ou `--all-catalog` — itera todos os quarters disponíveis (não há `--quarters`) |
+| **RI CVM parser** (DRE/BPA/BPP/DFC → quarterly_history) | `python -m library.ri.cvm_parser build` ou `show <TK>` — codigos de conta CVM standard (não-bancos) |
+| **RI CVM bank parser** (NII/PDD/fees/efficiency) | `python -m library.ri.cvm_parser_bank` — schema BACEN para bancos BR (BBDC4, ITUB4, etc.); ds_conta-based |
+| **RI quarterly single** (resolve YTD artifact) | `python -m library.ri.quarterly_single build` ou `show <TK>` — Qn single = ITRn − ITRn-1 |
+| **RI FII filings** (CVM inf_mensal NAV/DY/cotistas) | `python -m library.ri.fii_filings {download\|resolve-cnpjs\|ingest\|show} --year YYYY` |
+| **RI catalog autopopulate** (universe.yaml → catalog watchlist) | `python -m library.ri.catalog_autopopulate {plan\|apply}` — match BR tickers contra cad_cia_aberta.csv |
+| **CVM PDF extractor** (download + pdfplumber → events.full_text) | `python monitors/cvm_pdf_extractor.py [--ticker X] [--limit N]` — idempotente, processa só pendentes |
 | **CVM monitor** (BR fatos relevantes)         | `python -m monitors.cvm_monitor` — daily filings scrape |
 | **SEC monitor** (US 8-K/10-K/divs)            | `python -m monitors.sec_monitor [--ticker X]` — EDGAR daily |
 | **Captain's log Telegram push** (Phase H)     | `python scripts/captains_log_telegram.py` — daily brief Telegram (cron 23:30 wired) |
@@ -240,6 +258,17 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 3. Toda a lógica de *derivação de assumptions* (damper, Gordon, classify
    equity/fii/compounder) vive em `scripts/drip_projection.py::derive_scenarios`
    e é reutilizada. NÃO reimplementar à mão.
+
+### Legacy migrations (one-shot, já corridas — NÃO re-correr sem necessidade)
+
+Migrações idempotentes (`CREATE TABLE IF NOT EXISTS` / `ALTER TABLE` com guard
+contra "duplicate column name") guardadas para reseed/disaster-recovery. Já
+foram aplicadas às DBs em produção; correr de novo é no-op mas confirmar antes.
+
+| Script | O que faz |
+|---|---|
+| `scripts/migrate_fundamentals_extra.py` | ADD COLUMN `pe_forward`, `ev_ebitda`, `market_cap`, `fcf_ttm`, `shares_outstanding`, `next_ex_date`, `next_earnings_date` em `fundamentals` (BR + US) |
+| `scripts/migrate_thesis_health.py` | CREATE TABLE `thesis_health` (BR + US) — suporta Ad Perpetuum Validator (Phase W.5, hoje wrappado em `perpetuum.thesis`) |
 
 ## Convenções
 

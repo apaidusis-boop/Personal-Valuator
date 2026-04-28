@@ -104,18 +104,34 @@ Compliance + optimization cross-jurisdiction.
 - [[CVM_vs_SEC]] — Fato Relevante vs 8-K; Form 4 vs FR; BDR vs ADR
 - [[Tax_lot_selection]] — FIFO vs LIFO vs Spec ID vs HIFO strategies
 
-## 📋 Playbooks (8)
+## 📋 Playbooks (17)
 
-Checklists operacionais destilados do código/scoring.
+Checklists operacionais + arquitectura de pipelines, destilados do código.
 
+### Meta + workflow
 - 🚨 [[Token_discipline]] — **REGRA #1** — in-house first, tokens last. Meta-regra que governa todas as outras.
 - 🤖 [[Agents_layer]] — **autonomy framework** — 4 production agents + scaffolder `ii agents create`
+- 🔁 [[Perpetuum_Engine]] — pattern self-improvement; 12 perpetuums activos; T1-T5 autonomy tiers
+- ⏰ [[Daily_Orchestration]] — sequência cron 23:30 (`daily_run.bat` 19 steps); fetchers → close → reporting → perpetuum
 - [[Analysis_workflow]] — fluxo canónico por caso de uso (panorama → decisão → journal); anti-padrões
+- [[Analyst_Tracking]] — predições analistas + verdict tracking infra
+- [[Telegram_setup]] — bot Jarbas push notifications
+
+### Decisão / execução
+- 🎯 [[Verdict_Engine]] — BUY/HOLD/SELL/AVOID aggregator (Quality 35% + Valuation 30% + Momentum 20% + Narrativa 15%) + history + backtest
 - [[Buy_checklist]] — 7-step pipeline (screen → quality → safety → intent → timing → size → journal)
 - [[Sell_triggers]] — 5 categorias (thesis-broken / quality / valuation / drift / personal)
 - [[Rebalance_cadence]] — trimestral drift check; semestral execution; rebalance-by-contribution
 - [[Tax_lot_selection_practical]] — JPM UI steps + scenarios (TLH, partial exit, charitable)
-- [[Web_scraping_subscriptions]] — ingest Suno/XP/WSJ/Finclass via cookies + Ollama extract (0 tokens)
+- 🧠 [[Critical_Thinking_Stack]] — Synthetic IC + Variant Perception + Decision Journal + Earnings Prep + Stress Test
+
+### Ingest pipelines (zero Claude tokens)
+- 📺 [[Youtube_Pipeline]] — yt-dlp + Whisper + Ollama Qwen → `video_insights/themes`; cache-first
+- 📚 [[Library_Pipeline]] — book PDF → chunks → methods → matcher → `paper_trade_signals`; paper-only firewall
+- 📰 [[Web_scraping_subscriptions]] — ingest Suno/XP/WSJ/Finclass via cookies + Ollama extract
+- 🔬 [[RI_Knowledge_Base]] — CVM filings → `quarterly_history` + bank parser (`ds_conta`-based)
+- 📖 [[Bibliotheca_v2]] — Clippings RAG + Glossary tutor injector + Daily Research Digest + 12 Knowledge Cards
+- 🌐 [[Tavily_Integration]] — Layer 1 (autoresearch + 3 wires, cron) + Layer 2 (8 slash skills, on-demand)
 
 ## 💼 Holdings thesis (Fase B.2 — 20 notas)
 

@@ -1,7 +1,7 @@
 """PDF → structured insights via Ollama Qwen 14B local.
 
 Reutiliza pattern do `yt_reextract`: Ollama HTTP API em localhost:11434.
-Zero tokens Claude.
+Zero tokens Claude. Usa canonical `agents._llm.ollama_call` (CH005-compliant).
 
 Uso:
     from fetchers.subscriptions._pdf_extract import extract_pdf_text, extract_insights
@@ -15,9 +15,8 @@ import json
 import re
 from pathlib import Path
 
-import requests
+from agents._llm import ollama_call
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
 
 
@@ -92,22 +91,16 @@ def extract_insights(
         sample = ", ".join(ticker_universe[:50])
         universe_hint = f"\n\nUniverso de tickers do user (prioriza matches): {sample}"
     prompt = f"{SYSTEM_PROMPT}{universe_hint}\n\n---RELATÓRIO---\n{text}\n---FIM---"
-    try:
-        r = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": model,
-                "prompt": prompt,
-                "stream": False,
-                "format": "json",
-                "options": {"temperature": 0.2, "num_ctx": 16384},
-            },
-            timeout=600,
-        )
-        r.raise_for_status()
-        raw = r.json().get("response", "")
-    except Exception as e:
-        return {"error": f"ollama call failed: {e}"}
+    raw = ollama_call(
+        prompt,
+        model=model,
+        temperature=0.2,
+        json_mode=True,
+        timeout=600,
+        extra_options={"num_ctx": 16384},
+    )
+    if raw.startswith("[LLM FAILED"):
+        return {"error": raw}
     # format=json garante JSON válido mas não perfeito; tenta parse
     try:
         return json.loads(raw)
