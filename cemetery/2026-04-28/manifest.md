@@ -54,3 +54,31 @@ _Audit IDs: MA-CD-001, MA-CD-002, MA-VE-001, MA-VE-002, MA-VE-003, MA-VE-004, MA
   - Restore: `mkdir -p "data/subscriptions/pdfs/finclass"` (if needed)
 - **MA-FE-004** `reports/_archive` (FOLDER-EMPTY) — directory was empty, removed.
   - Restore: `mkdir -p "reports/_archive"` (if needed)
+
+## Burial @ 2026-04-28T21:57:47
+_Audit IDs: MA-UN-025, MA-UN-026, MA-UN-027, MA-UN-028, MA-UN-029, MA-UN-030_
+
+- **MA-UN-025** `scripts/overnight/ab_qwen3_vs_14b.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/ab_qwen3_vs_14b.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/ab_qwen3_vs_14b.py" "scripts/overnight/ab_qwen3_vs_14b.py"` (or `mv` if not staged)
+- **MA-UN-026** `scripts/overnight/fix_cr_pollution.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/fix_cr_pollution.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/fix_cr_pollution.py" "scripts/overnight/fix_cr_pollution.py"` (or `mv` if not staged)
+- **MA-UN-027** `scripts/overnight/generate_methods_from_damodaran.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/generate_methods_from_damodaran.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/generate_methods_from_damodaran.py" "scripts/overnight/generate_methods_from_damodaran.py"` (or `mv` if not staged)
+- **MA-UN-028** `scripts/overnight/orchestrator.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/orchestrator.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/orchestrator.py" "scripts/overnight/orchestrator.py"` (or `mv` if not staged)
+- **MA-UN-029** `scripts/overnight/populate_thesis.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/populate_thesis.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/populate_thesis.py" "scripts/overnight/populate_thesis.py"` (or `mv` if not staged)
+- **MA-UN-030** `scripts/overnight/rag_research_batch.py` → `cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/rag_research_batch.py`
+  - Category: CODE-UNDOCUMENTED
+  - Reason: has `__main__` but not in CLAUDE.md catalog or ii.bat dispatcher — add catalog entry OR delete
+  - Restore: `git mv "cemetery/2026-04-28/CODE-UNDOCUMENTED/scripts/overnight/rag_research_batch.py" "scripts/overnight/rag_research_batch.py"` (or `mv` if not staged)
