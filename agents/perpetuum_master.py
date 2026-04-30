@@ -17,10 +17,18 @@ import argparse
 import sys
 from pathlib import Path
 
+# Force stdout/stderr to UTF-8 — Windows console default cp1252 chokes on emoji/arrows.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from agents.perpetuum import get_all, get_by_name
+from agents._heartbeat import run_heartbeat, format_summary as fmt_heartbeat
 
 
 def main() -> None:
@@ -29,7 +37,19 @@ def main() -> None:
     ap.add_argument("--date", help="ISO date (default: today)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--verbose", action="store_true")
+    ap.add_argument("--skip-heartbeat", action="store_true",
+                    help="Skip HEARTBEAT.md checklist execution")
     args = ap.parse_args()
+
+    # Heartbeat first — ad-hoc tasks before scheduled perpetuums.
+    if not args.skip_heartbeat:
+        hb = run_heartbeat(dry_run=args.dry_run)
+        print(fmt_heartbeat(hb))
+        if hb.get("failed", 0) > 0 and args.verbose:
+            for item in hb.get("items", []):
+                if item.get("ok") is False:
+                    print(f"  FAIL: {item.get('body')} (exit={item.get('exit')})")
+        print()
 
     registry = get_all()
     if args.only:
