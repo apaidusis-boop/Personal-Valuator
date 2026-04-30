@@ -13,6 +13,9 @@ from .ri_freshness import RIFreshnessPerpetuum
 from .code_health import CodeHealthPerpetuum
 from .autoresearch import AutoresearchPerpetuum
 from .bibliotheca import BibliothecaPerpetuum
+from .dreaming import DreamingPerpetuum
+from .security_audit import SecurityAuditPerpetuum
+from .daily_delight import DailyDelightPerpetuum
 from .meta import MetaPerpetuum
 
 
@@ -30,7 +33,10 @@ def _build() -> dict[str, BasePerpetuum]:
         CodeHealthPerpetuum(),
         AutoresearchPerpetuum(),
         BibliothecaPerpetuum(),
-        MetaPerpetuum(),      # always last
+        DreamingPerpetuum(),     # opt-in; consolidates daily_logs → DREAMS.md
+        SecurityAuditPerpetuum(), # read-only host hygiene; writes SECURITY_AUDIT.md
+        DailyDelightPerpetuum(),  # opt-in; morning topic-of-the-day build
+        MetaPerpetuum(),         # always last
     ]
     return {p.name: p for p in instances}
 
