@@ -5,6 +5,9 @@ region: Global
 tags: [cycle, shipping, tankers, dry_bulk, commodity, transport]
 related: ["[[Oil_cycle]]", "[[TEN]]"]
 duration_typical_years: 4-6
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🚢 Shipping Cycle — framework

@@ -22,6 +22,7 @@ import re
 import shutil
 import stat
 import subprocess
+import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -32,13 +33,22 @@ ENV_PATH = ROOT / ".env"
 GITIGNORE_PATH = ROOT / ".gitignore"
 DIGEST_PATH = ROOT / "obsidian_vault" / "workspace" / "SECURITY_AUDIT.md"
 
-# Known credential patterns (very narrow; false-positive averse)
+# Known credential patterns (very narrow; false-positive averse).
+# Anchored: only specific real-token shapes, NOT generic key=value patterns.
 SECRET_PATTERNS = [
     re.compile(r"AKIA[0-9A-Z]{16}"),                           # AWS access key
-    re.compile(r"(?i)(api[_-]?key|secret|token|password)\s*[:=]\s*['\"][A-Za-z0-9_\-]{20,}['\"]"),
-    re.compile(r"sk-[A-Za-z0-9]{20,}"),                        # OpenAI / Anthropic tokens
-    re.compile(r"ghp_[A-Za-z0-9]{20,}"),                       # GitHub PAT
-    re.compile(r"(?i)bot[0-9]+:[A-Za-z0-9_-]{30,}"),           # Telegram bot token shape
+    re.compile(r"sk-(?!proj-)[A-Za-z0-9]{32,}"),               # OpenAI / Anthropic real tokens (excludes sk-proj-* template)
+    re.compile(r"sk-ant-[A-Za-z0-9_\-]{40,}"),                 # Anthropic API key explicit
+    re.compile(r"ghp_[A-Za-z0-9]{36,}"),                       # GitHub PAT (real shape is 36 chars)
+    re.compile(r"github_pat_[A-Za-z0-9_]{60,}"),               # GitHub fine-grained PAT
+    re.compile(r"\b\d{8,12}:AAE[A-Za-z0-9_\-]{30,}"),          # Telegram bot token (digits:AAE...)
+    re.compile(r"tvly-(?!YOUR|your)[A-Za-z0-9]{32,}"),         # Tavily real key (excludes placeholder)
+]
+# Placeholder substrings that disqualify a match (case-insensitive contains)
+PLACEHOLDER_DISQUALIFIERS = [
+    "your_", "your-", "yourkey", "yourtoken", "_here",
+    "example", "placeholder", "xxxxx", "<your", "<api",
+    "fake_", "test_", "dummy_", "sample_",
 ]
 
 
@@ -152,7 +162,11 @@ class SecurityAuditPerpetuum(BasePerpetuum):
         for pat in SECRET_PATTERNS:
             for m in pat.finditer(diff):
                 snippet = m.group(0)
-                # Truncate before reporting (don't expose full secret)
+                lower = snippet.lower()
+                # Skip well-known placeholders (your_token_here, sample_key, etc).
+                if any(d in lower for d in PLACEHOLDER_DISQUALIFIERS):
+                    continue
+                # Truncate before reporting (don't expose full secret).
                 hits.append(snippet[:8] + "..." + snippet[-4:] if len(snippet) > 16 else snippet[:6] + "...")
                 if len(hits) >= 5:
                     break
@@ -178,12 +192,24 @@ class SecurityAuditPerpetuum(BasePerpetuum):
         details: dict = {}
         score = 100
 
-        # Try pip-audit (preferred; CVE-aware)
+        # Try pip-audit — first as binary on PATH, fallback to `python -m pip_audit`
+        # (latter handles install-without-PATH-update common on Windows user-site).
+        cmd: list[str] | None = None
         if shutil.which("pip-audit"):
+            cmd = ["pip-audit", "--format", "json", "--progress-spinner", "off"]
+        else:
+            try:
+                __import__("pip_audit")
+                cmd = [sys.executable, "-m", "pip_audit",
+                       "--format", "json", "--progress-spinner", "off"]
+            except ImportError:
+                pass
+
+        if cmd:
             try:
                 r = subprocess.run(
-                    ["pip-audit", "--format", "json", "--progress-spinner", "off"],
-                    capture_output=True, text=True, timeout=180,
+                    cmd, capture_output=True, text=True, timeout=180,
+                    encoding="utf-8", errors="replace",
                 )
                 import json as _json
                 data = _json.loads(r.stdout) if r.stdout else {}

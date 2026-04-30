@@ -6,6 +6,9 @@ country: BR
 source: IBGE (mensal)
 tags: [macro, ipca, inflation, brazil]
 related: ["[[Selic]]", "[[USDBRL_PTAX]]", "[[IGP_M]]", "[[BR_inflation_history]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # IPCA — Índice de Preços ao Consumidor Amplo

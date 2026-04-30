@@ -5,6 +5,9 @@ region: US
 tags: [sector, banks, financials, us]
 related: ["[[BR_Banks]]", "[[P_E_interpretation]]", "[[P_B_interpretation]]", "[[Fed_Funds_Rate]]", "[[Yield_Curve]]"]
 holdings: ["[[JPM]]", "[[GS]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🏦 Setor: Bancos US

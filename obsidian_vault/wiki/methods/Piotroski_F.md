@@ -7,6 +7,9 @@ year: 2000
 tags: [method, quality, piotroski, veto, f_score]
 applies_to: [equity, non_financial]
 related: ["[[Altman_Z]]", "[[Dividend_Safety]]", "[[Graham_deep_value]]", "[[Quality_vs_deep_value]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Piotroski F-Score

@@ -6,6 +6,10 @@ sector: Consumer Staples
 intent: DRIP_core
 tags: [holding, thesis, us, staples, aristocrat, king, beverage]
 related: ["[[Consumer_Staples_moats]]", "[[Buffett_quality]]", "[[Aristocrats_Kings]]", "[[PG]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: KO
 ---
 
 # 🎯 Thesis: [[KO]] — Coca-Cola

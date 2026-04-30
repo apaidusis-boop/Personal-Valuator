@@ -6,6 +6,9 @@ country: US
 period: 1954-2026
 tags: [history, fed_funds, fomc, us, volcker]
 related: ["[[Fed_funds]]", "[[10Y_Treasury]]", "[[2008_GFC]]", "[[2020_COVID_crash]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Fed Funds — História 1954-2026

@@ -6,6 +6,10 @@ sector: Energy
 intent: EXIT_PENDING
 tags: [holding, thesis, us, shipping, tankers, distress_signal, exit]
 related: ["[[Shipping_cycle]]", "[[Oil_cycle]]", "[[wiki/playbooks/Sell_triggers]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: TEN
 ---
 
 # ⚠️ EXIT FLAG: [[TEN]] — Tsakos Energy Navigation

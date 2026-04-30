@@ -3,6 +3,9 @@ type: playbook
 name: Perpetuum Engine — autonomous self-improvement loops
 tags: [playbook, perpetuum, autonomy, agents]
 related: ["[[Agents_layer]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🔁 Perpetuum Engine — observação repetida → score → action

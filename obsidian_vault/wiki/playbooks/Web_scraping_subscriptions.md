@@ -3,6 +3,9 @@ type: playbook
 name: Web Scraping — paid subscriptions
 tags: [playbook, scraping, subscriptions, inhouse]
 related: ["[[Token_discipline]]", "[[Analysis_workflow]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🕸 Web Scraping — subscriptions

@@ -6,6 +6,9 @@ author: Benjamin Graham
 year: 1934
 tags: [method, valuation, graham, deep_value, contrarian]
 related: ["[[Graham_Number]]", "[[Altman_Z]]", "[[Moat_types]]", "[[Value_vs_growth]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Graham Deep Value

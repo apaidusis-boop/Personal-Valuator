@@ -3,6 +3,9 @@ type: playbook
 name: RI Knowledge Base — CVM official filings → quarterly_history
 tags: [playbook, ri, cvm, quarterly, bank_parser]
 related: ["[[CVM_vs_SEC]]", "[[BR_Banks]]", "[[Perpetuum_Engine]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🏛️ RI Knowledge Base — Phase Y, fonte oficial CVM

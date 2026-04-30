@@ -23,6 +23,12 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 ROOT = Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "obsidian_vault" / "wiki"
 
@@ -120,9 +126,12 @@ def lint_one(path: Path, opts: argparse.Namespace) -> dict:
 
 
 def apply_defaults_one(path: Path, lint_result: dict) -> bool:
-    """Add default source_class / confidence / freshness_check (today) if missing.
-    Never overwrites existing values. Returns True if file modified."""
-    if not lint_result["missing_recommended"]:
+    """Add default source_class / confidence / freshness_check (today) and
+    derive missing `name` from filename if needed. Never overwrites existing.
+    Returns True if file modified."""
+    needs_recommended = bool(lint_result["missing_recommended"])
+    needs_name = "name" in lint_result["missing_required"]
+    if not needs_recommended and not needs_name:
         return False
     try:
         text = path.read_text(encoding="utf-8")
@@ -134,6 +143,10 @@ def apply_defaults_one(path: Path, lint_result: dict) -> bool:
 
     note_type = fm.get("type", "")
     additions: list[str] = []
+    if needs_name:
+        # Filename → human-readable: "Pulp_cycle" → "Pulp cycle"
+        derived_name = path.stem.replace("_", " ").replace("-", " ")
+        additions.append(f"name: {derived_name}")
     if "source_class" in lint_result["missing_recommended"]:
         default_src = DEFAULT_SOURCE_CLASS_BY_TYPE.get(note_type, "derived")
         additions.append(f"source_class: {default_src}")

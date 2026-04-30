@@ -8,6 +8,9 @@ holdings_us: ["[[PG]]", "[[KO]]", "[[CL]]"]
 holdings_br: ["[[ABEV3]]"]
 peers_staples: [PG, KO, PEP, CL, CLX, CHD, HSY, KVUE, MDLZ, GIS, K, UL]
 peers_br: [ABEV3, MDIA3, JBSS3, BRFS3, NTCO3]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🛒 Setor: Consumer Staples

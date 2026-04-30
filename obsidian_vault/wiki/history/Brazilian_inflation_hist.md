@@ -6,6 +6,9 @@ country: BR
 period: 1960-2026
 tags: [history, inflation, brazil, plano_real, hyperinflation]
 related: ["[[IPCA]]", "[[Selic_history]]", "[[Selic]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Inflação Brasileira — História 1960-2026

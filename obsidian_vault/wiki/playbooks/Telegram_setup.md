@@ -3,6 +3,9 @@ type: playbook
 name: Telegram Setup — two-way remote control
 tags: [playbook, telegram, remote, setup, agents]
 related: ["[[Agents_layer]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📱 Telegram Setup — delegação remota

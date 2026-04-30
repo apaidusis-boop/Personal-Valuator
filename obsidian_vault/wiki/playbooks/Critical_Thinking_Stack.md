@@ -3,6 +3,9 @@ type: playbook
 name: Critical Thinking Stack (Phase AA)
 tags: [playbook, critical_thinking, synthetic_ic, variant, ollama]
 related: ["[[Token_discipline]]", "[[Perpetuum_Engine]]", "[[Tavily_Integration]]", "[[Agents_layer]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🧠 Critical Thinking Stack — anti-groupthink layer

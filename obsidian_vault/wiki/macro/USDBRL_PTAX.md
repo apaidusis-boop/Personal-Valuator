@@ -6,6 +6,9 @@ country: BR
 source: BCB SGS série 1 (daily)
 tags: [macro, usdbrl, ptax, forex, brazil]
 related: ["[[Selic]]", "[[IPCA]]", "[[Brazilian_inflation_hist]]", "[[Fed_funds]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # USDBRL PTAX — Câmbio oficial USD/BRL

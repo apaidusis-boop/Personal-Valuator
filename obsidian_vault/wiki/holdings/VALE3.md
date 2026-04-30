@@ -6,6 +6,10 @@ sector: Mining
 intent: DRIP_cyclical
 tags: [holding, thesis, br, mining, commodity, usd_exposure]
 related: ["[[Iron_ore]]", "[[USDBRL_PTAX]]", "[[PRIO3]]", "[[SUZB3]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: VALE3
 ---
 
 # 🎯 Thesis: [[VALE3]] — Vale

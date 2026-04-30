@@ -7,6 +7,9 @@ year: 1959
 tags: [method, valuation, ddm, gordon, dividend, drip]
 applies_to: [dividend_paying, mature]
 related: ["[[DCF_simplified]]", "[[Dividend_Safety]]", "[[DRIP_compounding]]", "[[Aristocrats_Kings]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Dividend Discount Model (Gordon)

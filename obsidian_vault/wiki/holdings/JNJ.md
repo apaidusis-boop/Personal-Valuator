@@ -6,6 +6,10 @@ sector: Healthcare
 intent: DRIP_core
 tags: [holding, thesis, us, healthcare, aristocrat, king, drip_core]
 related: ["[[Consumer_Staples_moats]]", "[[Buffett_quality]]", "[[Aristocrats_Kings]]", "[[Dividend_Safety]]", "[[wiki/tax/Dividend_withholding_BR_US]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: JNJ
 ---
 
 # 🎯 Thesis: [[JNJ]] — Johnson & Johnson

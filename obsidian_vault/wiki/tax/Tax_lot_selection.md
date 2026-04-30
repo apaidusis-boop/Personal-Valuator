@@ -4,6 +4,9 @@ name: Tax Lot Selection
 region: US
 tags: [tax, lot_selection, fifo, spec_id, optimization]
 related: ["[[US_LTCG_STCG]]", "[[Dividend_withholding_BR_US]]", "[[BR_dividend_isencao]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📋 Tax Lot Selection — método prático JPM/Fidelity

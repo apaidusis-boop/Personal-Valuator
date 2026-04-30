@@ -6,6 +6,10 @@ sector: Consumer Disc.
 intent: DRIP_core
 tags: [holding, thesis, us, retail, home_improvement]
 related: ["[[Consumer_Staples_moats]]", "[[Moat_types]]", "[[wiki/tax/Dividend_withholding_BR_US]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: HD
 ---
 
 # 🎯 Thesis: [[HD]] — Home Depot

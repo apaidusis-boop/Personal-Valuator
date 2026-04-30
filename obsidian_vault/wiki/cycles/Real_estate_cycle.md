@@ -5,6 +5,9 @@ region: BR+US
 tags: [cycle, real_estate, reit, fii]
 related: ["[[BR_FIIs_vs_US_REITs]]", "[[Selic]]", "[[10Y_Treasury]]", "[[DDM_Gordon]]"]
 duration_typical_years: 6-10 (long cycle)
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🏢 Real Estate Cycle — framework

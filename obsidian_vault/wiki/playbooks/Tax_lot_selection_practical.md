@@ -3,6 +3,9 @@ type: playbook
 name: Tax Lot Selection — Practical JPM Steps
 tags: [playbook, tax, jpm, spec_id, execution]
 related: ["[[Tax_lot_selection]]", "[[US_LTCG_STCG]]", "[[Sell_triggers]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📋 Tax Lot Selection — JPM UI steps

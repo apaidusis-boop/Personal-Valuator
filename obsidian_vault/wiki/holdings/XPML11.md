@@ -6,6 +6,10 @@ sector: Shopping
 intent: DRIP_cyclical
 tags: [holding, thesis, br, fii, shopping, consumer]
 related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[Selic]]", "[[IPCA]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: XPML11
 ---
 
 # 🎯 Thesis: [[XPML11]] — XP Malls

@@ -6,6 +6,9 @@ country: BR
 source: BCB SGS série 12 (daily)
 tags: [macro, cdi, brazil, interest_rates, fixed_income]
 related: ["[[Selic]]", "[[BR_stocks_tax]]", "[[BR_FIIs_tax]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # CDI — Taxa de Referência BR

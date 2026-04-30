@@ -4,6 +4,9 @@ name: P/E Ratio — interpretation
 category: valuation
 tags: [method, valuation, pe_ratio, multiples]
 related: ["[[P_B_interpretation]]", "[[FCF_yield]]", "[[Graham_Number]]", "[[Equity_risk_premium]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # P/E Ratio — quando faz sense, quando engana

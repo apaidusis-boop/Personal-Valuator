@@ -4,6 +4,9 @@ name: P/B Ratio — interpretation
 category: valuation
 tags: [method, valuation, pb_ratio, book_value, multiples]
 related: ["[[P_E_interpretation]]", "[[Graham_Number]]", "[[ROIC_interpretation]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # P/B Ratio — quando importa, quando não

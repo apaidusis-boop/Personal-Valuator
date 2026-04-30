@@ -3,6 +3,9 @@ type: playbook
 name: Bibliotheca v2 — clippings RAG + glossary tutor + research digest + perpetuum
 tags: [playbook, bibliotheca, clippings, rag, glossary]
 related: ["[[Library_Pipeline]]", "[[Perpetuum_Engine]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📚 Bibliotheca v2 — arquitectura

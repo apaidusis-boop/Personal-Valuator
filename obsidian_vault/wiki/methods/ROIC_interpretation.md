@@ -4,6 +4,9 @@ name: ROIC — Return on Invested Capital
 category: quality
 tags: [method, quality, roic, returns]
 related: ["[[Moat_types]]", "[[Buffett_quality]]", "[[WACC_calculation]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # ROIC — Return on Invested Capital

@@ -4,6 +4,9 @@ name: Iron Ore — Commodity driver VALE3
 category: commodity
 tags: [macro, commodity, iron_ore, vale, mining]
 related: ["[[USDBRL_PTAX]]", "[[Mining_iron_ore]]", "[[Brent_WTI]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Iron Ore — "Minério de ferro"

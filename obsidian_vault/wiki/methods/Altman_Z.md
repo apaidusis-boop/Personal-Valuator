@@ -7,6 +7,9 @@ year: 1968
 tags: [method, distress, altman, z_score, bankruptcy, veto]
 applies_to: [equity, non_financial, industrial]
 related: ["[[Piotroski_F]]", "[[Dividend_Safety]]", "[[Net_debt_EBITDA]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Altman Z-Score

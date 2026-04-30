@@ -5,6 +5,9 @@ category: quality
 author: Warren Buffett, Pat Dorsey, Hamilton Helmer
 tags: [method, quality, moat, competitive_advantage]
 related: ["[[Buffett_quality]]", "[[ROIC_interpretation]]", "[[Economic_moats_Damodaran]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Economic Moats

@@ -3,6 +3,9 @@ type: playbook
 name: Sell Triggers
 tags: [playbook, sell, triggers, exit]
 related: ["[[Buy_checklist]]", "[[Altman_Z]]", "[[Piotroski_F]]", "[[Dividend_Safety]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🚪 Sell Triggers — quando sair

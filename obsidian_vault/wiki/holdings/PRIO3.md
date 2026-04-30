@@ -6,6 +6,10 @@ sector: Oil & Gas
 intent: Compounder
 tags: [holding, thesis, br, oil_gas, cyclical]
 related: ["[[Oil_and_Gas_cycle]]", "[[Oil_cycle]]", "[[Brent_WTI]]", "[[VALE3]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: PRIO3
 ---
 
 # 🎯 Thesis: [[PRIO3]] — PetroRio

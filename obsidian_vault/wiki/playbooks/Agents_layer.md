@@ -3,6 +3,9 @@ type: playbook
 name: Agents layer — autonomy framework
 tags: [playbook, agents, autonomy, meta]
 related: ["[[Token_discipline]]", "[[Analysis_workflow]]", "[[Web_scraping_subscriptions]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 Novam
 # 🤖 Agents Layer — autonomy framework

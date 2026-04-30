@@ -6,6 +6,9 @@ country: BR
 source: BCB SGS série 11 (daily), 432 (meta)
 tags: [macro, selic, brazil, interest_rates, copom]
 related: ["[[CDI]]", "[[IPCA]]", "[[USDBRL_PTAX]]", "[[Real_rates_history]]", "[[Selic_history]]", "[[Banks_BR]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Selic — Taxa Básica de Juros BR

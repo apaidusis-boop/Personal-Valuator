@@ -4,6 +4,9 @@ name: US Capital Gains — LTCG vs STCG
 region: US
 tags: [tax, us, capital_gains, wash_sale, regulatory]
 related: ["[[Tax_lot_selection]]", "[[Dividend_withholding_BR_US]]", "[[BR_dividend_isencao]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🇺🇸 US — Long-term vs Short-term Capital Gains

@@ -7,6 +7,9 @@ year: 1934
 tags: [method, valuation, graham, deep_value]
 applies_to: [equity, non_financial]
 related: ["[[Graham_deep_value]]", "[[P_E_interpretation]]", "[[P_B_interpretation]]", "[[Buffett_quality]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Graham Number

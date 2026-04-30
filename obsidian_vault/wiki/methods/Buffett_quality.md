@@ -6,6 +6,9 @@ author: Warren Buffett
 year: 1965-present
 tags: [method, valuation, buffett, quality, moat]
 related: ["[[Graham_deep_value]]", "[[Moat_types]]", "[[ROIC_interpretation]]", "[[Aristocrats_Kings]]", "[[Economic_moats_Damodaran]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Buffett Quality Investing

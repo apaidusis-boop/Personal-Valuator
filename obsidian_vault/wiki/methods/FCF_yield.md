@@ -4,6 +4,9 @@ name: Free Cash Flow Yield
 category: valuation
 tags: [method, valuation, fcf, yield, quality]
 related: ["[[P_E_interpretation]]", "[[DCF_simplified]]", "[[Dividend_Safety]]", "[[Buffett_quality]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # FCF Yield

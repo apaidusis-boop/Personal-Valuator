@@ -8,6 +8,10 @@ auto_draft: true
 draft_date: 2026-04-25
 tags: [holding, thesis, us, auto_draft]
 related: []
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: ABBV
 ---
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via

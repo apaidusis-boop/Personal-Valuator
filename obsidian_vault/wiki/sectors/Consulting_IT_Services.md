@@ -6,6 +6,9 @@ tags: [sector, consulting, it_services, technology]
 related: ["[[Buffett_quality]]", "[[Moat_types]]", "[[ROIC_interpretation]]", "[[FCF_yield]]"]
 holdings: ["[[ACN]]"]
 peers_us: [ACN, IBM, CTSH, EPAM, GLOB, INFY, WIT, TCS]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 💼 Setor: Consulting & IT Services

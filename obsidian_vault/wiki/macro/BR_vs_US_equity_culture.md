@@ -4,6 +4,9 @@ name: BR vs US — equity culture comparison
 region: BR+US
 tags: [macro, comparison, br, us, equity, culture, structural]
 related: ["[[Selic]]", "[[Fed_funds]]", "[[BR_dividend_isencao]]", "[[US_LTCG_STCG]]", "[[USDBRL_PTAX]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🇧🇷🇺🇸 Equity culture — BR vs US structural comparison

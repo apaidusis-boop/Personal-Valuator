@@ -4,6 +4,9 @@ name: BR Dividend Isenção
 region: BR
 tags: [tax, br, dividend, jcp, isencao, regulatory]
 related: ["[[Dividend_withholding_BR_US]]", "[[CVM_vs_SEC]]", "[[Tax_lot_selection]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🇧🇷 BR — Isenção de IR sobre dividendos + JCP

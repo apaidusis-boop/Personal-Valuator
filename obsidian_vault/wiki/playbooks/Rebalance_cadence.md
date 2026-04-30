@@ -3,6 +3,9 @@ type: playbook
 name: Rebalance Cadence
 tags: [playbook, rebalance, allocation, drift]
 related: ["[[Buy_checklist]]", "[[Sell_triggers]]", "[[Kelly_criterion]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🔄 Rebalance Cadence

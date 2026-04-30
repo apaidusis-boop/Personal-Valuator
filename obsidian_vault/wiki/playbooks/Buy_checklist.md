@@ -3,6 +3,9 @@ type: playbook
 name: Buy Checklist
 tags: [playbook, buy, checklist, process]
 related: ["[[Graham_Number]]", "[[Buffett_quality]]", "[[Altman_Z]]", "[[Piotroski_F]]", "[[Dividend_Safety]]", "[[Kelly_criterion]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # ✅ Buy Checklist

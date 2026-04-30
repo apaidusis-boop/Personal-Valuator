@@ -6,6 +6,10 @@ sector: Banks
 intent: DRIP_core
 tags: [holding, thesis, br, banks]
 related: ["[[BR_Banks]]", "[[ITSA4]]", "[[Selic]]", "[[Dividend_Safety]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: BBDC4
 ---
 
 # 🎯 Thesis: [[BBDC4]] — Bradesco

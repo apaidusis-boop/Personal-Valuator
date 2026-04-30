@@ -6,6 +6,9 @@ author: John L. Kelly Jr.
 year: 1956
 tags: [method, position_sizing, kelly, risk_management]
 related: ["[[Position_sizing]]", "[[Risk_free_rate]]", "[[Moat_types]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Kelly Criterion

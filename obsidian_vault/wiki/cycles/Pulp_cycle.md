@@ -5,6 +5,9 @@ region: BR+Global
 tags: [cycle, pulp, commodity, br, fx]
 related: ["[[Pulp_and_Paper_cycle]]", "[[USDBRL_PTAX]]"]
 duration_typical_years: 3-5
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🌲 Pulp Cycle — framework

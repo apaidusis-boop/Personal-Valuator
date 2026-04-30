@@ -3,6 +3,9 @@ type: playbook
 name: Analysis Workflow — ideal flow
 tags: [playbook, workflow, tokens, efficiency]
 related: ["[[Token_discipline]]", "[[Buy_checklist]]", "[[Sell_triggers]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🔀 Analysis Workflow — do sinal à decisão

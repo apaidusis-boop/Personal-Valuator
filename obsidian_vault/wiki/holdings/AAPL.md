@@ -6,6 +6,10 @@ sector: Technology
 intent: Compounder
 tags: [holding, thesis, us, technology, consumer, compounder]
 related: ["[[Moat_types]]", "[[Buffett_quality]]", "[[TSM]]", "[[BRK-B]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: AAPL
 ---
 
 # 🎯 Thesis: [[AAPL]] — Apple

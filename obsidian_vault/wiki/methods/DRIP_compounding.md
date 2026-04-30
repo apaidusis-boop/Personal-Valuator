@@ -4,6 +4,9 @@ name: DRIP — Dividend Reinvestment Plan
 category: income
 tags: [method, drip, compound, income, long_term]
 related: ["[[DDM_Gordon]]", "[[Aristocrats_Kings]]", "[[Dividend_Safety]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # DRIP — Dividend Reinvestment

@@ -4,6 +4,9 @@ name: Token Discipline — In-house First
 priority: 1
 tags: [playbook, meta_rule, tokens, inhouse]
 related: ["[[Buy_checklist]]", "[[Sell_triggers]]", "[[Rebalance_cadence]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🚨 REGRA #1 — In-house First, Tokens Last

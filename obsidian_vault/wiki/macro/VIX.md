@@ -6,6 +6,9 @@ tags: [macro, vix, volatility, fear_index, sentiment]
 country: US (primary)
 source: CBOE
 related: ["[[Fed_funds]]", "[[10Y_Treasury]]", "[[Short_interest]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # VIX — "Fear Index"

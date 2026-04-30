@@ -6,6 +6,10 @@ sector: Logística
 intent: DRIP_core
 tags: [holding, thesis, br, fii, logistica]
 related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[Selic]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: BTLG11
 ---
 
 # 🎯 Thesis: [[BTLG11]] — BTG Pactual Logística

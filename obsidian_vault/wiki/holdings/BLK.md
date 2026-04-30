@@ -6,6 +6,10 @@ sector: Financials
 intent: Compounder
 tags: [holding, thesis, us, asset_manager, compounder]
 related: ["[[JPM]]", "[[Moat_types]]", "[[Buffett_quality]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: BLK
 ---
 
 # 🎯 Thesis: [[BLK]] — BlackRock

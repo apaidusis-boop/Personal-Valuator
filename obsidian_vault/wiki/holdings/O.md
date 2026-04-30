@@ -6,6 +6,10 @@ sector: REIT
 intent: DRIP_income
 tags: [holding, thesis, us, reit, monthly_dividend, aristocrat]
 related: ["[[BR_FIIs_vs_US_REITs]]", "[[Real_estate_cycle]]", "[[10Y_Treasury]]", "[[Dividend_withholding_BR_US]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: O
 ---
 
 # 🎯 Thesis: [[O]] — Realty Income

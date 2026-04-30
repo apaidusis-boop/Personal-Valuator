@@ -5,6 +5,9 @@ region: Global
 tags: [cycle, oil, commodity, macro]
 related: ["[[Oil_and_Gas_cycle]]", "[[Brent_WTI]]", "[[DCF_simplified]]"]
 duration_typical_years: 5-7
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🛢 Oil Cycle — framework

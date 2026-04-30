@@ -4,6 +4,9 @@ name: Dividend Aristocrats & Kings
 category: income
 tags: [method, dividend, aristocrats, kings, drip]
 related: ["[[Dividend_Safety]]", "[[DRIP_compounding]]", "[[Buffett_quality]]", "[[Kings_aristocrats_trap]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Dividend Aristocrats e Kings

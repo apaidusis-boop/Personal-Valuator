@@ -6,6 +6,9 @@ author: nosso (inspired Simply Safe Dividends)
 tags: [method, dividend, safety, income, drip]
 applies_to: [equity, dividend_paying]
 related: ["[[Piotroski_F]]", "[[Altman_Z]]", "[[Aristocrats_Kings]]", "[[DRIP_compounding]]", "[[Dividend_coverage]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Dividend Safety (nosso framework 0-100)

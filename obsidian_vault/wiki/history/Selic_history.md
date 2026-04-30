@@ -6,6 +6,9 @@ country: BR
 period: 1999-2026
 tags: [history, selic, brazil, interest_rates, copom]
 related: ["[[Selic]]", "[[CDI]]", "[[IPCA]]", "[[Brazilian_inflation_hist]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Selic — História 1999-2026

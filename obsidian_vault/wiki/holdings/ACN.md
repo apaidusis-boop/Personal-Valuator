@@ -6,6 +6,10 @@ sector: Technology
 intent: Compounder
 tags: [holding, thesis, us, consulting, ai, compounder]
 related: ["[[Consulting_IT_Services]]", "[[Buffett_quality]]", "[[ROIC_interpretation]]", "[[TSM]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: ACN
 ---
 
 # 🎯 Thesis: [[ACN]] — Accenture

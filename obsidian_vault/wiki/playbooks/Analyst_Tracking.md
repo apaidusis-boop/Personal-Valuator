@@ -7,6 +7,10 @@ tags: [analyst, tracking, accuracy, predictions, playbook/measurement]
 related:
   - "[[Index]]"
   - "[[wiki/methods/Variant_Perception]]"
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
+name: Analyst Tracking
 ---
 
 # Analyst Tracking — Playbook (Fase C.2)

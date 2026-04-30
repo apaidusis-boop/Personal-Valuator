@@ -6,6 +6,9 @@ country: US
 source: FRED (fred.stlouisfed.org) DFEDTARU
 tags: [macro, fed_funds, fomc, us, interest_rates]
 related: ["[[10Y_Treasury]]", "[[2s10s]]", "[[Selic]]", "[[CPI]]", "[[Core_CPI]]", "[[Fed_funds_history]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Fed Funds Rate — Benchmark US

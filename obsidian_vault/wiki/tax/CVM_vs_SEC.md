@@ -4,6 +4,9 @@ name: CVM vs SEC — regulatory filings
 region: BR-US
 tags: [regulatory, cvm, sec, filings, disclosure]
 related: ["[[BR_dividend_isencao]]", "[[US_LTCG_STCG]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📜 CVM (BR) vs SEC (US) — comparação regulatória

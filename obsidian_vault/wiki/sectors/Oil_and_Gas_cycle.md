@@ -8,6 +8,9 @@ holdings_br: ["[[PETR4]]"]
 holdings_us: ["[[CVX]]"]
 peers_us: [XOM, CVX, COP, OXY, EOG, HES, TTE, SHEL, BP]
 peers_br: [PETR4, PRIO3, RECV3, BRAV3]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🛢 Setor: Oil & Gas

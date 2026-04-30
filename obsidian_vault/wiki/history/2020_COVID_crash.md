@@ -6,6 +6,9 @@ country: US (global)
 period: 2020-2021
 tags: [history, crisis, covid, 2020, pandemic, recovery]
 related: ["[[Fed_funds_history]]", "[[VIX]]", "[[Selic_history]]", "[[2008_GFC]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # COVID-19 Crash 2020 — Fastest bear market ever

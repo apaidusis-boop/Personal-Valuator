@@ -6,6 +6,9 @@ tags: [sector, pulp, paper, commodity, cyclical, export]
 related: ["[[Pulp_cycle]]", "[[USDBRL_PTAX]]", "[[DCF_simplified]]"]
 holdings_br: ["[[SUZB3]]", "[[KLBN4]]"]
 peers: [SUZB3, KLBN4, FIBR3 (merged), IP, WRK, PKG, UPM, STERV, MERC]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🌲 Setor: Pulp & Paper

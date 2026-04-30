@@ -6,6 +6,10 @@ sector: Holding
 intent: DRIP_core
 tags: [holding, thesis, br, holding_company]
 related: ["[[BR_Banks]]", "[[Buffett_quality]]", "[[DDM_Gordon]]", "[[BBDC4]]", "[[wiki/tax/BR_dividend_isencao]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: ITSA4
 ---
 
 # 🎯 Thesis: [[ITSA4]] — Itaúsa

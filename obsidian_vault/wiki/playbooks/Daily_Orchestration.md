@@ -3,6 +3,9 @@ type: playbook
 name: Daily Orchestration — cron 23:30 sequence
 tags: [playbook, orchestration, cron, daily]
 related: ["[[Perpetuum_Engine]]", "[[Telegram_setup]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🕰️ Daily Orchestration — uma corrida, três camadas

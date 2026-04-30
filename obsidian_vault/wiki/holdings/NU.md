@@ -6,6 +6,10 @@ sector: Financials
 intent: Growth
 tags: [holding, thesis, us, br_exposure, fintech, growth]
 related: ["[[BR_Banks]]", "[[ITSA4]]", "[[BBDC4]]", "[[Moat_types]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: NU
 ---
 
 # 🎯 Thesis: [[NU]] — Nu Holdings (Nubank)

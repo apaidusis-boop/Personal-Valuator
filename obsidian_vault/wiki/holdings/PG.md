@@ -6,6 +6,10 @@ sector: Consumer Staples
 intent: DRIP_core
 tags: [holding, thesis, us, staples, aristocrat, king]
 related: ["[[Consumer_Staples_moats]]", "[[KO]]", "[[Buffett_quality]]", "[[Aristocrats_Kings]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: PG
 ---
 
 # 🎯 Thesis: [[PG]] — Procter & Gamble

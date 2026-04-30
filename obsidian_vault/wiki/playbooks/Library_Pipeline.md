@@ -3,6 +3,9 @@ type: playbook
 name: Library + Paper Trade pipeline
 tags: [playbook, library, paper_trade, ollama, rag]
 related: ["[[Token_discipline]]", "[[Youtube_Pipeline]]", "[[Agents_layer]]", "[[Analyst_Tracking]]", "[[Web_scraping_subscriptions]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📚 Library Pipeline — books → methods → paper signals, zero tokens

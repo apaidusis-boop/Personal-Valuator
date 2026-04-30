@@ -5,6 +5,9 @@ region: BR+US
 tags: [sector, reit, fii, real_estate, income, comparison]
 related: ["[[Selic]]", "[[10Y_Treasury]]", "[[Dividend_Safety]]", "[[DDM_Gordon]]", "[[DRIP_compounding]]"]
 holdings: ["[[KNRI11]]", "[[HGLG11]]", "[[XPLG11]]", "[[HGRU11]]", "[[VISC11]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🏢 FIIs BR vs REITs US — comparação estrutural

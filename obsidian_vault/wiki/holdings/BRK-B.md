@@ -6,6 +6,10 @@ sector: Holding
 intent: Compounder
 tags: [holding, thesis, us, holding_company, buffett]
 related: ["[[Buffett_quality]]", "[[Moat_types]]", "[[BN]]", "[[KO]]", "[[JPM]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: BRK B
 ---
 
 # 🎯 Thesis: [[BRK-B]] — Berkshire Hathaway Class B

@@ -3,6 +3,9 @@ type: playbook
 name: YouTube ingestion pipeline
 tags: [playbook, youtube, ingestion, ollama, whisper, video_insights]
 related: ["[[Token_discipline]]", "[[Agents_layer]]", "[[Web_scraping_subscriptions]]", "[[Analysis_workflow]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 📺 YouTube Pipeline — local ingest, zero tokens

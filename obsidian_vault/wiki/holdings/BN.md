@@ -6,6 +6,10 @@ sector: Financials
 intent: Growth
 tags: [holding, thesis, us, alternatives, growth]
 related: ["[[BRK-B]]", "[[BLK]]", "[[BR_FIIs_vs_US_REITs]]", "[[Moat_types]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: BN
 ---
 
 # 🎯 Thesis: [[BN]] — Brookfield Corporation

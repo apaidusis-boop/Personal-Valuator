@@ -4,6 +4,9 @@ name: Dividend Withholding BR → US
 region: BR-US
 tags: [tax, international, withholding, w8ben, treaty]
 related: ["[[BR_dividend_isencao]]", "[[US_LTCG_STCG]]", "[[Tax_lot_selection]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🌐 BR Residente investindo em US — Dividend Withholding

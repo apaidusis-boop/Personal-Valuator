@@ -3,6 +3,9 @@ type: playbook
 name: Verdict Engine — BUY/HOLD/SELL/AVOID aggregator
 tags: [playbook, verdict, decision_engine]
 related: ["[[Buy_checklist]]", "[[Sell_triggers]]", "[[Critical_Thinking_Stack]]", "[[Token_discipline]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Verdict Engine — agregador de decisão por ticker

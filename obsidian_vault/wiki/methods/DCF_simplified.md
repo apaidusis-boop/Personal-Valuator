@@ -4,6 +4,9 @@ name: DCF Simplified
 category: valuation
 tags: [method, valuation, dcf, intrinsic_value]
 related: ["[[DDM_Gordon]]", "[[WACC_calculation]]", "[[FCF_yield]]", "[[Risk_free_rate]]", "[[Equity_risk_premium]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # DCF Simplificado

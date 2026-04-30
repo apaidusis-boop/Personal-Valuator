@@ -5,6 +5,9 @@ region: US+Global
 tags: [sector, semiconductors, tech, cyclical, growth]
 related: ["[[Buffett_quality]]", "[[Moat_types]]", "[[Semi_cycle]]", "[[FCF_yield]]"]
 peers_us: [NVDA, AMD, TSM, INTC, AVGO, MU, AMAT, LRCX, KLAC, ASML, QCOM]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🔌 Setor: Semicondutores

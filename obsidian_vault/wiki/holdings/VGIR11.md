@@ -6,6 +6,10 @@ sector: Papel (CRI)
 intent: DRIP_hedge
 tags: [holding, thesis, br, fii, papel, cri]
 related: ["[[BR_FIIs_vs_US_REITs]]", "[[CDI]]", "[[Selic]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: VGIR11
 ---
 
 # 🎯 Thesis: [[VGIR11]] — Valora RE Investimentos

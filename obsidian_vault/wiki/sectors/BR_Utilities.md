@@ -5,6 +5,9 @@ region: BR
 tags: [sector, utilities, regulated, br]
 related: ["[[Selic]]", "[[IPCA]]", "[[DDM_Gordon]]", "[[Dividend_Safety]]"]
 holdings: ["[[EGIE3]]", "[[TAEE11]]", "[[ISAE4]]", "[[CMIG4]]", "[[CPLE3]]", "[[SAPR11]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # ⚡ Setor: Utilities BR

@@ -3,6 +3,9 @@ type: playbook
 name: Tavily web research integration
 tags: [playbook, tavily, web_research, autoresearch]
 related: ["[[Token_discipline]]", "[[Perpetuum_Engine]]", "[[Agents_layer]]"]
+source_class: founder
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Tavily Integration — web research em duas camadas

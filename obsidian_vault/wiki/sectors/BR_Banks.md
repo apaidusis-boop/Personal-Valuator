@@ -5,6 +5,9 @@ region: BR
 tags: [sector, banks, financials, br]
 related: ["[[Graham_Number]]", "[[P_E_interpretation]]", "[[P_B_interpretation]]", "[[Selic]]", "[[CDI]]"]
 holdings: ["[[BBAS3]]", "[[ITUB4]]", "[[SANB11]]", "[[BPAC11]]", "[[BBSE3]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🏦 Setor: Bancos BR

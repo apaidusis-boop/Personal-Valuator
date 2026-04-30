@@ -13,14 +13,12 @@ _Subjects scanned: 5/5, 0 alerts, 0 errors._
 
 ### 🟢 `env_secrets` — score 100
 
-### 🔴 `git_secrets` — score 20
-**Action**: Rotacionar credentials expostas + considerar rewrite history (git filter-repo). Rotação primeiro, history depois.
+### 🟢 `git_secrets` — score 100
 
-### 🟡 `dependencies` — score 70
-**Action**: pip install pip-audit  # para scans periódicos de CVEs.
+### 🟡 `dependencies` — score 50
+**Action**: pip-audit --fix (review changes) ou pip install -U <pkg> manualmente para CVEs críticas.
 
 ### 🟢 `file_permissions` — score 90
 
-### 🟡 `telegram_token` — score 60
-**Action**: Considerar rotacionar TELEGRAM_BOT_TOKEN via @BotFather → /revoke ou /token; actualizar TELEGRAM_TOKEN_ROTATED=YYYY-MM-DD em .env.
+### 🟢 `telegram_token` — score 100
 

@@ -4,6 +4,9 @@ name: Brent + WTI — Crude oil benchmarks
 category: commodity
 tags: [macro, oil, brent, wti, crude, commodity]
 related: ["[[USDBRL_PTAX]]", "[[Oil_cycles_decades]]", "[[Oil_Gas_integrated]]", "[[Shipping_tankers]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # Brent + WTI — Benchmarks do Petróleo

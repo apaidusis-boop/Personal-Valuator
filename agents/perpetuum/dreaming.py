@@ -39,7 +39,7 @@ class DreamingPerpetuum(BasePerpetuum):
     name = "dreaming"
     description = "Light/Deep/REM memory consolidation: daily_logs → DREAMS.md"
     autonomy_tier = "T1"   # observer — surfaces candidates, never auto-promotes to MEMORY.md
-    enabled = False        # opt-in; set True via config when ready
+    enabled = True         # activated 2026-04-30; runs alongside daily_run.bat cron 23:30
     drop_alert_threshold = 25  # signal-noise drop
 
     def subjects(self) -> list[PerpetuumSubject]:

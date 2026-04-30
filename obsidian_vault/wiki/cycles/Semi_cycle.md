@@ -5,6 +5,9 @@ region: Global
 tags: [cycle, semiconductors, technology, capex]
 related: ["[[Semiconductors_cycle]]", "[[Moat_types]]"]
 duration_typical_years: 3-4
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 🔌 Semi Cycle — framework

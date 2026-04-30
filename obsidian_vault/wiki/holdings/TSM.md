@@ -6,6 +6,10 @@ sector: Technology
 intent: Compounder
 tags: [holding, thesis, us, semiconductors, foundry, taiwan_risk]
 related: ["[[Semiconductors_cycle]]", "[[Semi_cycle]]", "[[Moat_types]]", "[[ACN]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: TSM
 ---
 
 # 🎯 Thesis: [[TSM]] — Taiwan Semiconductor (ADR)

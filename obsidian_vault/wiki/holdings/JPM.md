@@ -6,6 +6,10 @@ sector: Financials
 intent: DRIP_core
 tags: [holding, thesis, us, banks, financial]
 related: ["[[BR_Banks]]", "[[Buffett_quality]]", "[[BLK]]", "[[GS]]", "[[wiki/tax/Dividend_withholding_BR_US]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
+name: JPM
 ---
 
 # 🎯 Thesis: [[JPM]] — JPMorgan Chase

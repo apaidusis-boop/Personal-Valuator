@@ -6,6 +6,9 @@ country: US
 source: FRED DGS10
 tags: [macro, treasury, 10y, yield, benchmark]
 related: ["[[Fed_funds]]", "[[2s10s]]", "[[CPI]]", "[[Risk_free_rate]]", "[[Equity_risk_premium]]"]
+source_class: derived
+confidence: 0.7
+freshness_check: 2026-04-30
 ---
 
 # 10-Year Treasury Yield
