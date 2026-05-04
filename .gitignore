@@ -71,3 +71,4 @@ _apply_*
 # SQLite WAL / shared-memory — runtime only
 *.db-shm
 *.db-wal
+data/api_cache.db
