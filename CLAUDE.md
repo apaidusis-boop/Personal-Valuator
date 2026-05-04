@@ -180,6 +180,8 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Fetch deep fundamentals** (yfinance)        | `python fetchers/yf_deep_fundamentals.py X` ou `--holdings` |
 | **Fetch Kings/Aristocrats batch** (US)        | `python scripts/fetch_kings_aristocrats.py [--all] [--period 5y]` — popula companies+prices+divs+fundamentals para tickers em config/kings_aristocrats.yaml |
 | **Massive.com (ex-Polygon) fetcher** (fallback US, intraday/options/forex) | `python fetchers/massive_fetcher.py X [--previous-close\|--aggregates --from YYYY-MM-DD --to YYYY-MM-DD]` — rate-limited 5 req/min |
+| **Fetch unificado com fallback + quality** | `ii fetch <market> <kind> <ticker> [--quality]` — usa cascade `config/sources_priority.yaml` + cache TTL; com `--quality` devolve `FetchResult` (OK/WARNING/DEGRADED/CRITICAL + age_hours) |
+| **Data health monitor** | `ii data-health [--days N] [--json]` — API availability % + cache hit rate + p50/p95 latência + top errors lidos de `logs/fetchers_fallback.log` + `data/api_cache.db` |
 | **Backfill US bank tangibles** (TBVPS+ROTCE) | `python scripts/backfill_us_bank_tangibles.py [TICKERS...] [--schema-only]` — closeout para schema US bank fundamentals |
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |

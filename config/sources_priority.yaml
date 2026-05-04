@@ -28,16 +28,33 @@ us:
   prices:
     - yfinance        # yf_us_fetcher.py — primário (free, histórico longo)
     - massive         # fetchers/massive_fetcher.py — ex-Polygon, MASSIVE_API_KEY
+    - eodhd           # SKELETON em fetchers/_clients.py — requires EODHD_API_KEY
   fundamentals:
     - yfinance        # yf_us_fetcher.py (info dict)
     - yf_deep         # fetchers/yf_deep_fundamentals.py (DataFrames financials/balance_sheet/cashflow)
+    - fmp             # SKELETON em fetchers/_clients.py — requires FMP_API_KEY
   dividends:
     - yfinance        # yf_us_fetcher.py
     - sec_edgar       # fetchers/sec_edgar_fetcher.py (declared dividends)
+  analyst:
+    - fmp             # SKELETON — FMP analyst estimates
+    - benzinga        # SKELETON — via MASSIVE_API_KEY ou BENZINGA_API_KEY
   macro:
     - fred            # fetchers/fred_fetcher.py
   filings:
     - sec             # monitors/sec_monitor.py (8-K / 10-K / DEF 14A)
+
+# Cache TTLs: quanto tempo um valor cached é considerado fresh (live).
+# Após o TTL ele continua disponível como stale fallback (com flag DEGRADED).
+# Usado por fetchers/_cache.py.
+cache:
+  ttl_hours:
+    prices: 24       # market closes daily; 24h cobre weekend
+    fundamentals: 72 # quarterlies update infrequently
+    dividends: 168   # weekly update cycle
+    macro: 168       # central banks publish weekly
+    filings: 24      # CVM/SEC daily polling
+    analyst: 24      # consensus shifts on earnings dates
 
 # Guards: thresholds usados pelos fetchers para rejeitar valores absurdos.
 # Mantém-se aqui (não em código) para serem ajustáveis sem deploy.

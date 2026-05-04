@@ -84,6 +84,8 @@ if /i "%CMD%"=="antonio" ("%PY%" -X utf8 -m agents.chief_of_staff %ARGS%) & goto
 if /i "%CMD%"=="setup" (set "SCRIPT=scripts\localclaw_setup.py") & goto :RUN
 if /i "%CMD%"=="crew" (set "SCRIPT=scripts\crew_designer.py") & goto :RUN
 if /i "%CMD%"=="topics" ("%PY%" -X utf8 -m analytics.topic_scorer %ARGS%) & goto :EOF
+if /i "%CMD%"=="data-health" ("%PY%" -X utf8 -m analytics.data_health %ARGS%) & goto :EOF
+if /i "%CMD%"=="fetch" ("%PY%" -X utf8 -m fetchers._fallback %ARGS%) & goto :EOF
 if /i "%CMD%"=="missioncontrol" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="mission-control" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
