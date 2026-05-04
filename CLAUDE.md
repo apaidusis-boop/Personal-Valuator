@@ -182,6 +182,10 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Massive.com (ex-Polygon) fetcher** (fallback US, intraday/options/forex) | `python fetchers/massive_fetcher.py X [--previous-close\|--aggregates --from YYYY-MM-DD --to YYYY-MM-DD]` — rate-limited 5 req/min |
 | **Fetch unificado com fallback + quality** | `ii fetch <market> <kind> <ticker> [--quality]` — usa cascade `config/sources_priority.yaml` + cache TTL; com `--quality` devolve `FetchResult` (OK/WARNING/DEGRADED/CRITICAL + age_hours) |
 | **Data health monitor** | `ii data-health [--days N] [--json]` — API availability % + cache hit rate + p50/p95 latência + top errors lidos de `logs/fetchers_fallback.log` + `data/api_cache.db` |
+| **Strategy engine single** | `ii strategy <engine> <ticker> [--market br\|us]` — engine ∈ {graham, buffett, drip, macro, hedge, all}. Emite `StrategyOutput` (score 0-1, verdict BUY/HOLD/AVOID/N/A, rationale dict). |
+| **Allocation proposal** | `ii allocate [--market br\|us] [--top N] [--no-hedge] [--no-macro] [--json]` — corre 5 engines em paralelo, combina via bucket weights (graham 25 / buffett 30 / drip 20 / macro 15 / hedge 10), aplica overlay sectorial, emite `AllocationProposal` (target weights + conflitos + hedge proposal). |
+| **Hedge status** | `ii hedge [br\|us]` — status do hedge tactical (OFF em expansion/recovery; size 5% em late_cycle; size 10% em recession). Instruments default: SH/SPY puts (US), USDBRL_LONG/BOVA11_SHORT (BR). Override em `config/hedge_triggers.yaml`. |
+| **ROIC compute** | `ii roic <ticker> [--market br\|us]` — calcula ROIC = NOPAT / (equity + debt) de `deep_fundamentals` annual; tax_rate 21% US / 34% BR; threshold Buffett 15%. |
 | **Backfill US bank tangibles** (TBVPS+ROTCE) | `python scripts/backfill_us_bank_tangibles.py [TICKERS...] [--schema-only]` — closeout para schema US bank fundamentals |
 | **Comparar tickers** side-by-side             | `python scripts/compare_tickers.py JNJ PG KO [--vs SPY]` |
 | **Quality drift** (screen a degradar/melhorar)| `python -m analytics.screen_trend [--market br\|us] [--ticker X]` |

@@ -1,0 +1,69 @@
+# config/macro_overlays.yaml — regime → sector tilts.
+#
+# Read by strategies/macro.py to convert analytics.regime classification
+# into per-sector weight multipliers. A ticker's macro engine score becomes:
+#   score = sector_multiplier(regime, sector)
+# where multiplier ∈ {0.5 (tilt_down), 1.0 (neutral), 1.5 (tilt_up)}.
+#
+# Thresholds are heuristic + reviewable. Sectors are normalised lowercase
+# from companies.sector. Add as you find drift.
+
+regimes:
+  # BR — based on Selic + IPCA cycle
+  br:
+    expansion:                    # Selic rising slowly, IPCA controlled, GDP growing
+      tilt_up: ["consumer", "industrials", "tech", "real estate", "basic materials"]
+      tilt_down: ["utilities", "telecom"]
+      notes: "growth narrative; cyclicals over defensives"
+
+    late_cycle:                   # Selic high, inflation pressure, mid-stage
+      tilt_up: ["financials", "energy", "basic materials"]
+      tilt_down: ["consumer", "real estate", "tech"]
+      notes: "high real rates favor banks + commodities; consumer pinched"
+
+    recession:                    # GDP contracts, Selic peaks/cuts begin
+      tilt_up: ["utilities", "telecom", "consumer staples", "healthcare"]
+      tilt_down: ["consumer discretionary", "industrials", "real estate"]
+      notes: "defensives only; utilities are bond proxies"
+
+    recovery:                     # Selic cuts active, GDP rebounds
+      tilt_up: ["consumer discretionary", "real estate", "industrials", "tech"]
+      tilt_down: ["utilities", "energy"]
+      notes: "rate-sensitive sectors lead off the bottom"
+
+    unknown:                      # default neutral
+      tilt_up: []
+      tilt_down: []
+      notes: "no regime classification available; treat all as neutral"
+
+  # US — based on Fed funds + curve shape + unemployment
+  us:
+    expansion:                    # normal curve, unemployment stable/falling
+      tilt_up: ["technology", "discretionary", "industrials", "communication services"]
+      tilt_down: ["staples", "utilities"]
+      notes: "growth + productivity narrative"
+
+    late_cycle:                   # curve flat/inverted, Fed hiking, inflation persistent
+      tilt_up: ["energy", "financials", "healthcare"]
+      tilt_down: ["technology", "discretionary", "real estate"]
+      notes: "duration risk; banks + energy outperform"
+
+    recession:                    # curve un-inverts, unemployment rises, GDP contracts
+      tilt_up: ["staples", "healthcare", "utilities"]
+      tilt_down: ["discretionary", "industrials", "financials", "real estate"]
+      notes: "defensives + dividend payers; avoid leverage"
+
+    recovery:                     # Fed cutting, jobless claims falling, curve steepens
+      tilt_up: ["technology", "discretionary", "real estate", "small caps"]
+      tilt_down: ["staples", "utilities", "energy"]
+      notes: "duration on; risk-on rotation"
+
+    unknown:
+      tilt_up: []
+      tilt_down: []
+      notes: "no regime classification available"
+
+multipliers:
+  tilt_up: 1.5
+  neutral: 1.0
+  tilt_down: 0.5
