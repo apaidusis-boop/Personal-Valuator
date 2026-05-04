@@ -73,7 +73,7 @@ export function PriceChart({ ticker, days = 365, height = 220 }: {
           <Tooltip
             contentStyle={{ background: "#11112a", border: "1px solid #1f1f3d", fontSize: 11 }}
             labelStyle={{ color: "#a855f7", fontFamily: "monospace" }}
-            formatter={(v: number) => [`${cur}${v.toFixed(2)}`, "close"]}
+            formatter={(v: any) => [`${cur}${Number(v).toFixed(2)}`, "close"]}
           />
           <Line type="monotone" dataKey="close"
             stroke={positive ? "#4ade80" : "#f87171"}
@@ -150,7 +150,7 @@ function PFSubChart({ label, data, stroke, height }: {
           <YAxis stroke="#6b6b8c" fontSize={10} tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`} />
           <Tooltip
             contentStyle={{ background: "#11112a", border: "1px solid #1f1f3d", fontSize: 11 }}
-            formatter={(v: number, n: string) => [v.toFixed(0), n]}
+            formatter={(v: any, n: any) => [Number(v).toFixed(0), String(n)]}
           />
           <Legend wrapperStyle={{ fontSize: 10, fontFamily: "monospace" }} />
           <Area type="monotone" dataKey="cost" name="cost" stroke="#6b6b8c" fill="#6b6b8c20" strokeDasharray="4 4" />

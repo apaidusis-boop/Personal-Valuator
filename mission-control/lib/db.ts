@@ -191,3 +191,90 @@ export function upcomingDividends(days = 45): DividendEvent[] {
   }
   return out.sort((a, b) => a.ex_date.localeCompare(b.ex_date));
 }
+
+// ============================================================
+// Strategy runs (output of strategies/* engines, persisted by overnight backfill)
+// ============================================================
+export type StrategyRun = {
+  market: "br" | "us";
+  ticker: string;
+  engine: string;
+  score: number;
+  verdict: string;
+  weight_suggestion: number;
+  rationale: any;
+  run_id: string;
+  run_ts: string;
+};
+
+export function listStrategyRuns(
+  ticker: string | null = null,
+  market: "br" | "us" | null = null,
+  limit = 100
+): StrategyRun[] {
+  const out: StrategyRun[] = [];
+  const tk = ticker ? ticker.toUpperCase() : null;
+  for (const [m, file] of [
+    ["br", DB_BR],
+    ["us", DB_US],
+  ] as const) {
+    if (market && market !== m) continue;
+    try {
+      const db = openRO(file);
+      const where: string[] = [];
+      const params: any[] = [];
+      if (tk) {
+        where.push("ticker = ?");
+        params.push(tk);
+      }
+      // Only the latest run_id per ticker × engine
+      const sql = `
+        SELECT ticker, engine, score, verdict, weight_suggestion,
+               rationale_json, run_id, run_ts
+        FROM strategy_runs s1
+        WHERE run_ts = (
+          SELECT MAX(run_ts) FROM strategy_runs s2
+          WHERE s2.ticker = s1.ticker AND s2.engine = s1.engine
+        )
+        ${where.length ? "AND " + where.join(" AND ") : ""}
+        ORDER BY ticker, engine
+        LIMIT ?`;
+      params.push(limit);
+      const rows = db.prepare(sql).all(...params) as any[];
+      db.close();
+      for (const r of rows) {
+        let rationale: any = {};
+        try {
+          rationale = r.rationale_json ? JSON.parse(r.rationale_json) : {};
+        } catch {}
+        out.push({
+          market: m,
+          ticker: r.ticker,
+          engine: r.engine,
+          score: r.score ?? 0,
+          verdict: r.verdict ?? "N/A",
+          weight_suggestion: r.weight_suggestion ?? 0,
+          rationale,
+          run_id: r.run_id,
+          run_ts: r.run_ts,
+        });
+      }
+    } catch {
+      /* skip — strategy_runs table may not exist yet */
+    }
+  }
+  return out;
+}
+
+export function strategyVerdictByTicker(
+  market: "br" | "us" | null = null
+): Record<string, Record<string, string>> {
+  /** Returns { ticker: { engine: verdict } } — useful for quick badges. */
+  const runs = listStrategyRuns(null, market, 1000);
+  const out: Record<string, Record<string, string>> = {};
+  for (const r of runs) {
+    if (!out[r.ticker]) out[r.ticker] = {};
+    out[r.ticker][r.engine] = r.verdict;
+  }
+  return out;
+}

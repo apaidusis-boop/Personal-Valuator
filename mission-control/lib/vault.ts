@@ -559,3 +559,59 @@ export function listDeepdiveJSON(limit = 30): { ticker: string; ts: string; path
   }
   return out.sort((a, b) => b.ts.localeCompare(a.ts)).slice(0, limit);
 }
+
+// ============================================================
+// Allocation proposals (overnight backfill output)
+// ============================================================
+export type AllocationData = {
+  market: "br" | "us";
+  date: string;
+  target_weights: Record<string, number>;
+  bucket_weights: Record<string, number>;
+  conflicts: Array<{ ticker: string; verdicts: Record<string, string>; resolution?: string }>;
+  macro_overlay: any;
+  hedge_overlay: any;
+  notes: string[];
+  per_engine: Record<string, any[]>;
+};
+
+export function loadLatestAllocation(market: "br" | "us"): AllocationData | null {
+  if (!fs.existsSync(BIBLIOTHECA_DIR)) return null;
+  let files: string[];
+  try {
+    files = fs.readdirSync(BIBLIOTHECA_DIR);
+  } catch {
+    return null;
+  }
+  const prefix = `Allocation_${market.toUpperCase()}_`;
+  const matches = files
+    .filter((f) => f.startsWith(prefix) && f.endsWith(".json"))
+    .sort()
+    .reverse();
+  if (!matches.length) return null;
+  const file = path.join(BIBLIOTHECA_DIR, matches[0]);
+  let raw: string;
+  try {
+    raw = fs.readFileSync(file, "utf-8");
+  } catch {
+    return null;
+  }
+  let data: any;
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    return null;
+  }
+  const dm = matches[0].match(/_(\d{4}-\d{2}-\d{2})\.json$/);
+  return {
+    market,
+    date: dm ? dm[1] : "",
+    target_weights: data.target_weights || {},
+    bucket_weights: data.bucket_weights || {},
+    conflicts: data.conflicts || [],
+    macro_overlay: data.macro_overlay || {},
+    hedge_overlay: data.hedge_overlay || {},
+    notes: data.notes || [],
+    per_engine: data.per_engine || {},
+  };
+}

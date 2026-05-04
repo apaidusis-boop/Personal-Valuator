@@ -46,7 +46,7 @@ export default function DocsPage() {
                     <ScoreBox label="M" value={beneish} threshold={-2.22} kind="lo" />
                   </div>
                 )}
-                {fm.sector && (
+                {Boolean(fm.sector) && (
                   <div className="text-[10px] text-zinc-500 mt-2">{String(fm.sector)}</div>
                 )}
               </article>

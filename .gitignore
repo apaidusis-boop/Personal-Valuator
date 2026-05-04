@@ -72,3 +72,5 @@ _apply_*
 *.db-shm
 *.db-wal
 data/api_cache.db
+data/agent_decisions.db
+logs/overnight_*.json*

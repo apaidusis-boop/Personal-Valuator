@@ -90,6 +90,9 @@ if /i "%CMD%"=="allocate" ("%PY%" -X utf8 -m strategies.portfolio_engine %ARGS%)
 if /i "%CMD%"=="strategy" ("%PY%" -X utf8 -m strategies.cli %ARGS%) & goto :EOF
 if /i "%CMD%"=="roic" ("%PY%" -X utf8 -m scoring.roic %ARGS%) & goto :EOF
 if /i "%CMD%"=="hedge" ("%PY%" -X utf8 -c "from strategies.hedge import status; import sys; print(status(sys.argv[1] if len(sys.argv)>1 else 'us'))" %ARGS%) & goto :EOF
+if /i "%CMD%"=="overnight" ("%PY%" -X utf8 "%ROOT%scripts\overnight_backfill.py" %ARGS%) & goto :EOF
+if /i "%CMD%"=="agent" (set "SCRIPT=agents\_agent.py") & goto :RUN
+if /i "%CMD%"=="agent-stats" ("%PY%" -X utf8 -m agents._memory %ARGS%) & goto :EOF
 if /i "%CMD%"=="missioncontrol" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="mission-control" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
