@@ -90,22 +90,11 @@ def upsert_company(conn: sqlite3.Connection, entry: dict) -> None:
     )
 
 
-def _is_suspicious_close(conn: sqlite3.Connection, ticker: str,
-                         date_iso: str, close: float) -> bool:
-    """Reject obvious data-feed glitches (>50% intraday move with no split).
-    Mirrors the BR fetcher guard added 2026-04-27.
-    """
-    if close <= 0:
-        return True
-    row = conn.execute(
-        "SELECT close FROM prices WHERE ticker=? AND date<? "
-        "ORDER BY date DESC LIMIT 1", (ticker, date_iso),
-    ).fetchone()
-    if not row or not row[0] or row[0] <= 0:
-        return False
-    prev = float(row[0])
-    ratio = close / prev
-    return ratio < 0.5 or ratio > 2.0
+from fetchers._guards import (
+    is_extreme_metric,
+    is_suspicious_close,
+    is_suspicious_volume,
+)
 
 
 def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
@@ -119,14 +108,18 @@ def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
         if close is None or (isinstance(close, float) and close != close):
             continue
         close_f = float(close)
-        if _is_suspicious_close(conn, ticker, date, close_f):
+        if is_suspicious_close(conn, ticker, date, close_f):
+            _log({"event": "yf_us_close_reject", "ticker": ticker, "date": date, "close": close_f})
             continue
+        vol_int = int(vol) if vol is not None and vol == vol else None
+        if is_suspicious_volume(conn, ticker, date, vol_int):
+            _log({"event": "yf_us_volume_reject", "ticker": ticker, "date": date, "vol": vol_int})
+            vol_int = None  # keep price, drop volume (still useful for series)
         conn.execute(
             """INSERT INTO prices (ticker, date, close, volume) VALUES (?,?,?,?)
                ON CONFLICT(ticker, date) DO UPDATE SET
                  close=excluded.close, volume=excluded.volume""",
-            (ticker, date, close_f,
-             int(vol) if vol is not None and vol == vol else None),
+            (ticker, date, close_f, vol_int),
         )
         n += 1
     return n
@@ -281,7 +274,13 @@ def extract_fundamentals(info: dict, divs, tk=None, conn: sqlite3.Connection = N
     Se tk (yf.Ticker) for fornecido, inclui métricas REIT (FFO, cobertura).
     Se conn+ticker forem fornecidos, prefere DY computado dos nossos dividendos."""
     pe = _f(info.get("trailingPE"))
+    if is_extreme_metric("pe", pe):
+        _log({"event": "yf_us_pe_extreme_reject", "ticker": ticker, "raw": pe})
+        pe = None
     pb = _f(info.get("priceToBook"))
+    if is_extreme_metric("pb", pb):
+        _log({"event": "yf_us_pb_extreme_reject", "ticker": ticker, "raw": pb})
+        pb = None
     dy = None
     if conn is not None and ticker:
         dy = _compute_dy_from_db(conn, ticker)
@@ -289,11 +288,13 @@ def extract_fundamentals(info: dict, divs, tk=None, conn: sqlite3.Connection = N
         dy = _f(info.get("dividendYield"))
         if dy is not None and dy > 1:
             dy = dy / 100.0
-        # sanity: DY > 25% é quase certamente bug yfinance (ex: XP=86%, TSM=96%)
-        if dy is not None and dy > 0.25:
+        if is_extreme_metric("dy", dy):
             _log({"event": "yf_us_dy_sanity_reject", "ticker": ticker, "raw": dy})
             dy = None
     roe = _f(info.get("returnOnEquity"))
+    if is_extreme_metric("roe", roe):
+        _log({"event": "yf_us_roe_extreme_reject", "ticker": ticker, "raw": roe})
+        roe = None
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
 

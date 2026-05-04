@@ -1,0 +1,125 @@
+# config/models.yaml — declarative LLM/embedding model assignments.
+#
+# Quem usa: agents/_llm.py::resolve_model(task) lê este YAML e devolve o slug
+# Ollama. Agents existentes podem migrar para `model = resolve_model("synthesis")`
+# em vez de hard-coded `model = "qwen2.5:14b-..."`.
+#
+# Política raíz (CLAUDE.md:14-15 + memory feedback_inhouse_first.md):
+#   1. Ollama local é DEFAULT.
+#   2. Claude API é último recurso (placeholder em _llm.py:218-230, nunca chamada).
+#   3. Tavily só quando dados internos são insuficientes (DB analyst <3 insights).
+#
+# Tasks são agrupadas por padrão de uso, não por agent individual. Vários
+# agents podem partilhar a mesma task semantic ("synthesis", "extraction").
+
+defaults:
+  ollama_url: "http://localhost:11434"
+  embeddings_url: "http://localhost:11434/api/embeddings"
+
+# ============================================================
+# Tasks → modelo
+# ============================================================
+
+tasks:
+  # Síntese narrativa simples: briefings, dossiers, resumos.
+  # 14B chega; baixa temperatura; 800-2k tokens output.
+  synthesis:
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.3
+    max_tokens: 1500
+    rationale: "Default. Síntese de listas factuais em prosa PT."
+
+  # Tool-calling agentic loop (Antonio Carlos / Chief of Staff).
+  # Precisa de raciocínio mais robusto para escolher ferramentas + parsear JSON.
+  agentic:
+    model: qwen2.5:32b-instruct-q4_K_M
+    temperature: 0.2
+    max_tokens: 2000
+    rationale: "Tool routing + JSON estruturado. 14B faz erros frequentes em multi-tool."
+
+  # Extracção de campos de PDF / texto longo.
+  # JSON-mode obrigatório, temperature baixíssima.
+  extraction:
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.0
+    max_tokens: 1200
+    json_mode: true
+    rationale: "Campos estruturados de RIs / 10-K. Nunca criativo."
+
+  # Classificação binária ou multi-classe (sentiment, regime, etc.).
+  classification:
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.0
+    max_tokens: 200
+    rationale: "Output curto, determinístico."
+
+  # Multi-persona / debate (synthetic IC, council, variant perception).
+  # 14B com seed fixo para reprodutibilidade.
+  persona_debate:
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.4
+    max_tokens: 1200
+    seed: 42
+    rationale: "Deterministic debate. Higher temp para diversidade entre personas."
+
+  # RAG synthesis (library/rag.py::ask).
+  rag_synthesis:
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.2
+    max_tokens: 1500
+    rationale: "Resposta grounded em chunks. Baixa temperatura para fidelidade."
+
+# ============================================================
+# Embeddings
+# ============================================================
+embeddings:
+  default:
+    model: nomic-embed-text:latest
+    dimensions: 768
+    storage: "library/chunks_index.db (SQLite BLOB)"
+    rationale: "100% local. Free. Adequado para PT+EN financeiro."
+
+# ============================================================
+# Escalation (raramente usado)
+# ============================================================
+escalation:
+  claude:
+    model: claude-sonnet-4-6
+    daily_token_cap: 50000
+    triggers:
+      - "Ollama 3 retries consecutivos falharam"
+      - "User explicitamente pediu prefer='claude'"
+    status: "placeholder em agents/_llm.py:218-230. Nunca chamada em produção."
+
+  tavily:
+    triggers:
+      - "DB analyst_insights count < 3 para o ticker"
+      - "Pre-call brief sem insights internos suficientes"
+    rate_limits:
+      daily: 100
+      hourly: 50
+    cache_days: 7
+
+# ============================================================
+# Override por agent (override de task default)
+# ============================================================
+agent_overrides:
+  antonio_carlos:
+    task: agentic
+    # Já alinhado com config/agents.yaml:83
+  morning_briefing:
+    task: synthesis
+  council_narrative:
+    task: synthesis
+  synthetic_ic:
+    task: persona_debate
+  variant_perception:
+    task: classification
+  earnings_prep:
+    task: synthesis
+  thesis_synthesizer:
+    task: synthesis
+  holding_wiki:
+    task: synthesis
+  rag_ask:
+    task: rag_synthesis

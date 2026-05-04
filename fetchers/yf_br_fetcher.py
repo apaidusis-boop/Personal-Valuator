@@ -127,7 +127,13 @@ def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, di
     if not info:
         return
     pe = _f(info.get("trailingPE"))
+    if is_extreme_metric("pe", pe):
+        _log({"event": "yf_br_pe_extreme_reject", "ticker": ticker, "raw": pe})
+        pe = None
     pb = _f(info.get("priceToBook"))
+    if is_extreme_metric("pb", pb):
+        _log({"event": "yf_br_pb_extreme_reject", "ticker": ticker, "raw": pb})
+        pb = None
     # DY: sempre re-computar dos nossos dividendos vs price actual (evita bugs
     # yfinance.info — ex: ABEV3 retornava 15.59% quando real é ~10%).
     px_row = conn.execute(
@@ -139,9 +145,13 @@ def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, di
         dy = _f(info.get("dividendYield"))
         if dy is not None and dy > 1:
             dy = dy / 100.0
-        if dy is not None and dy > 0.25:
+        if is_extreme_metric("dy", dy):
+            _log({"event": "yf_br_dy_extreme_reject", "ticker": ticker, "raw": dy})
             dy = None
     roe = _f(info.get("returnOnEquity"))
+    if is_extreme_metric("roe", roe):
+        _log({"event": "yf_br_roe_extreme_reject", "ticker": ticker, "raw": roe})
+        roe = None
     eps = _f(info.get("trailingEps") or info.get("earningsPerShare"))
     bvps = _f(info.get("bookValue"))
     total_debt = _f(info.get("totalDebt"))
@@ -175,24 +185,11 @@ def upsert_fundamentals_br(conn: sqlite3.Connection, ticker: str, info: dict, di
     )
 
 
-def _is_suspicious_close(conn: sqlite3.Connection, ticker: str,
-                         date_iso: str, close: float) -> bool:
-    """Reject obviously corrupt prices: >50% drop/jump vs previous close
-    when no split is on file. Catches Yahoo glitches like XPML11 Jan 2026
-    (close went R$110 → R$1.07 → R$110 over 3 days; no corporate action).
-    """
-    if close <= 0:
-        return True
-    row = conn.execute(
-        "SELECT close FROM prices WHERE ticker=? AND date<? "
-        "ORDER BY date DESC LIMIT 1", (ticker, date_iso),
-    ).fetchone()
-    if not row or not row[0] or row[0] <= 0:
-        return False  # no previous close to compare; accept
-    prev = float(row[0])
-    ratio = close / prev
-    # Suspicious if dropped to less than half or jumped to more than double in one session.
-    return ratio < 0.5 or ratio > 2.0
+from fetchers._guards import (
+    is_extreme_metric,
+    is_suspicious_close,
+    is_suspicious_volume,
+)
 
 
 def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
@@ -206,16 +203,18 @@ def upsert_prices(conn: sqlite3.Connection, ticker: str, hist) -> int:
         if close is None or (isinstance(close, float) and close != close):  # NaN
             continue
         close_f = float(close)
-        if _is_suspicious_close(conn, ticker, date, close_f):
-            # Skip suspect row; do not poison the time series.
-            # If it really is a 50%+ legit move, downstream tooling will surface
-            # the gap and a manual override can re-insert.
+        if is_suspicious_close(conn, ticker, date, close_f):
+            _log({"event": "yf_br_close_reject", "ticker": ticker, "date": date, "close": close_f})
             continue
+        vol_int = int(vol) if vol is not None and vol == vol else None
+        if is_suspicious_volume(conn, ticker, date, vol_int):
+            _log({"event": "yf_br_volume_reject", "ticker": ticker, "date": date, "vol": vol_int})
+            vol_int = None
         conn.execute(
             """INSERT INTO prices (ticker, date, close, volume) VALUES (?,?,?,?)
                ON CONFLICT(ticker, date) DO UPDATE SET
                  close=excluded.close, volume=excluded.volume""",
-            (ticker, date, close_f, int(vol) if vol is not None and vol == vol else None),
+            (ticker, date, close_f, vol_int),
         )
         n += 1
     return n
