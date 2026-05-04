@@ -1,0 +1,182 @@
+# config/agents_governance.yaml — declarative role registry.
+#
+# Lê por agents/_agent.py::agent_call(role, task, input).
+# Cada "role" é um especialista com contrato rígido — input/output schemas,
+# modelo preferido, prompt template canónico, regras de retry/escalation.
+#
+# Filosofia: AGENTES DECIDEM, MODELOS EXECUTAM.
+#
+# Hoje a maioria dos chamadores usa ollama_call(prompt, model=...) direto.
+# A migração é gradual:
+#   1. Novo código deve usar agent_call(role, task, input)
+#   2. Código existente pode continuar como está
+#   3. Refactor opportunistic quando se tocar nesses módulos
+
+defaults:
+  retries: 2                  # tentativas extra após primeira falha
+  retry_on:                   # condições que disparam retry
+    - "invalid_json"
+    - "schema_validation_fail"
+    - "empty_response"
+  escalation_on_low_confidence: true
+  log_to_memory: true
+
+# ============================================================
+# Roles — 6 specialists + meta-evaluator
+# ============================================================
+roles:
+
+  # 1. RESEARCH — coleta de factos estruturados
+  research:
+    description: "Coleta facts estruturados a partir de RAG/DBs. Não interpreta."
+    input_schema: "ResearchRequest"
+    output_schema: "ResearchOutput"
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.0
+    max_tokens: 1500
+    json_mode: true
+    system_prompt: |
+      You are a research analyst. Your job is to collect FACTS from the
+      provided context. Never speculate. Never insert opinions.
+      Output STRICT JSON matching the schema. If a fact is unknown, use null.
+
+  # 2. SYNTHESIS — narrativa coerente a partir de facts + contexto
+  synthesis:
+    description: "Gera narrativa coerente a partir de facts. Sem invenção."
+    input_schema: "SynthesisRequest"
+    output_schema: "SynthesisOutput"
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.3
+    max_tokens: 1500
+    json_mode: false
+    system_prompt: |
+      You are a synthesis specialist. Convert structured facts into prose.
+      Stay grounded — every claim must trace to a fact in the input.
+      Output: Markdown, clear paragraphs, no bullet vomit.
+
+  # 3. CRITIC — apanha falhas, inconsistências, gaps
+  critic:
+    description: "Audita output de outros agentes. Aponta inconsistências."
+    input_schema: "CriticRequest"
+    output_schema: "CriticOutput"
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.0       # baixa para ser severo e determinístico
+    max_tokens: 1000
+    json_mode: true
+    system_prompt: |
+      You are a critic. Read the provided output and identify:
+      - factual errors (claim contradicts evidence)
+      - logical gaps (conclusion doesn't follow from premises)
+      - missing context (important caveat omitted)
+      - overconfidence (numerical certainty without source)
+      Be brutal. If the output is fine, return issues=[].
+      Output STRICT JSON.
+
+  # 4. DECISION — decisão final de múltiplas perspectivas (council resolution)
+  decision:
+    description: "Resolve conflitos entre outputs de múltiplos agents/personas."
+    input_schema: "DecisionRequest"
+    output_schema: "DecisionOutput"
+    model: qwen2.5:32b-instruct-q4_K_M    # 32B para reasoning robusto
+    temperature: 0.2
+    max_tokens: 1500
+    json_mode: true
+    system_prompt: |
+      You are the final decision maker. Multiple analysts have weighed in.
+      Your job: synthesize their views into ONE actionable decision with
+      reasoning. Cite which analyst's view drove each part of your conclusion.
+      Output STRICT JSON. Be decisive — say BUY/HOLD/SELL/AVOID, not "depends".
+
+  # 5. EXTRACTION — texto/PDF → JSON estruturado
+  extraction:
+    description: "Extrai campos estruturados de texto livre."
+    input_schema: "ExtractionRequest"
+    output_schema: "ExtractionOutput"
+    model: qwen2.5:14b-instruct-q4_K_M
+    temperature: 0.0
+    max_tokens: 1200
+    json_mode: true
+    system_prompt: |
+      You are an extraction specialist. Read the document and populate the
+      provided fields. If a field is not present, use null.
+      Do NOT invent values. Output STRICT JSON only.
+
+  # 6. CLASSIFICATION — texto curto → label enum
+  # Alvo: substituir variant_perception (e similares) que correm 14B para
+  # decisão {agree, neutral, disagree}. 3B é 10× mais rápido com paridade.
+  classification:
+    description: "Classifica texto curto em label fixo do enum."
+    input_schema: "ClassificationRequest"
+    output_schema: "ClassificationOutput"
+    model: qwen2.5:3b-instruct-q4_K_M
+    fallback_model: qwen2.5:14b-instruct-q4_K_M  # se 3B não estiver pulled
+    temperature: 0.0
+    max_tokens: 100
+    json_mode: true
+    system_prompt: |
+      Classify the input into one of the provided labels.
+      Output STRICT JSON: {"label": "<one of allowed>", "confidence": 0.0-1.0}.
+      If you can't decide, return label=null and confidence=0.0.
+
+# ============================================================
+# Meta-agent — Evaluator/Judge
+# ============================================================
+evaluator:
+  description: "Compara N outputs (de modelos/agents diferentes) e elege o melhor."
+  model: qwen2.5:32b-instruct-q4_K_M   # quality bar alto
+  temperature: 0.0
+  max_tokens: 1500
+  json_mode: true
+  rubric:
+    - "Factual accuracy (cited claims trace to evidence)"
+    - "Reasoning soundness (conclusions follow premises)"
+    - "Coverage (no important angle missed)"
+    - "Clarity (no padding, no jargon-vomit)"
+    - "Decisiveness (verdict actionable, not hedged)"
+
+# ============================================================
+# Escalation — quando 14B não chega
+# ============================================================
+escalation:
+  triggers:
+    - "schema_validation_fail x2"        # se 14B falha schema 2x
+    - "confidence < 0.4"                 # se output tem confidence baixo
+    - "user_explicit_force_32b"          # caller força explicitamente
+  target_model: qwen2.5:32b-instruct-q4_K_M
+
+  # Claude API só como último recurso (in-house first rule).
+  claude_path:
+    enabled: false                       # ligar manualmente quando necessário
+    model: claude-sonnet-4-6
+    daily_token_cap: 50000
+    triggers:
+      - "32B fails schema 2x"            # 14B fail + 32B fail = escalate to API
+
+# ============================================================
+# Operational memory — registo de decisões
+# ============================================================
+memory:
+  enabled: true
+  db_path: "data/agent_decisions.db"
+  retention_days: 90
+  index_by:
+    - role
+    - ticker         # quando aplicável
+    - market
+    - run_id
+  use_cases:
+    - "evitar re-decidir o mesmo case em <1h"
+    - "feed de aprendizagem para evaluator (qual modelo acertou mais)"
+    - "audit trail (que decisão foi tomada e porquê)"
+
+# ============================================================
+# Migration tracker — quem já usa agent_call e quem ainda não
+# ============================================================
+migration_status:
+  using_agent_call: []                   # vazio até primeira migração
+  pending_migration:
+    - agents/variant_perception.py       # → classification role (3B)
+    - agents/synthetic_ic.py             # → decision role (32B)
+    - agents/council/coordinator.py      # → orchestration via agent_call
+    - library/extract_insights.py        # → extraction role
+    - agents/holding_wiki_synthesizer.py # → synthesis role
