@@ -4,67 +4,134 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 type NavItem = { href: string; label: string; icon: string };
+type NavGroup = { label: string; items: NavItem[] };
 
-const NAV: NavItem[] = [
-  { href: "/",           label: "Home",      icon: "◇" },
-  { href: "/allocation", label: "Allocation",icon: "▲" },
-  { href: "/council",    label: "Council",   icon: "⚖" },
-  { href: "/tasks",      label: "Tasks",     icon: "▤" },
-  { href: "/content",    label: "Content",   icon: "❖" },
-  { href: "/calendar",   label: "Calendar",  icon: "▦" },
-  { href: "/projects",   label: "Projects",  icon: "❑" },
-  { href: "/memory",     label: "Memory",    icon: "✶" },
-  { href: "/docs",       label: "Docs",      icon: "≡" },
-  { href: "/team",       label: "Team",      icon: "◉" },
-  { href: "/visual",     label: "Visual",    icon: "▦" },
+const GROUPS: NavGroup[] = [
+  {
+    label: "Today",
+    items: [
+      { href: "/", label: "Home", icon: "◇" },
+      { href: "/tasks", label: "Tasks", icon: "▤" },
+    ],
+  },
+  {
+    label: "Decide",
+    items: [
+      { href: "/allocation", label: "Allocation", icon: "▲" },
+      { href: "/council", label: "Council", icon: "⚖" },
+    ],
+  },
+  {
+    label: "Research",
+    items: [
+      { href: "/content", label: "Content", icon: "❖" },
+      { href: "/memory", label: "Memory", icon: "✶" },
+      { href: "/docs", label: "Docs", icon: "≡" },
+    ],
+  },
+  {
+    label: "System",
+    items: [
+      { href: "/calendar", label: "Calendar", icon: "▦" },
+      { href: "/team", label: "Team", icon: "◉" },
+    ],
+  },
 ];
 
 export default function Sidebar() {
   const path = usePathname();
+  const isActive = (href: string) =>
+    path === href || (href !== "/" && path.startsWith(href));
 
   return (
-    <aside className="w-56 shrink-0 border-r border-[#1f1f3d] bg-[#08081a] flex flex-col">
-      <div className="px-4 py-6 border-b border-[#1f1f3d]">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-600 to-cyan-500 grid place-items-center text-2xl">
-            🐙
+    <aside
+      className="w-56 shrink-0 border-r border-[var(--border-subtle)] flex flex-col"
+      style={{ background: "var(--bg-deep)" }}
+    >
+      {/* Brand */}
+      <div className="px-4 py-5 border-b border-[var(--border-subtle)]">
+        <Link href="/" className="flex items-center gap-3 group">
+          <div
+            className="w-9 h-9 rounded grid place-items-center text-xl font-mono"
+            style={{
+              background:
+                "linear-gradient(135deg, var(--accent-primary), var(--accent-glow))",
+            }}
+          >
+            <span aria-hidden>◈</span>
           </div>
           <div>
-            <div className="font-mono text-[11px] tracking-[0.18em] text-purple-300">MISSION</div>
-            <div className="font-mono text-[11px] tracking-[0.18em] text-purple-300">CONTROL</div>
+            <div className="type-mono-sm text-[var(--text-secondary)]">
+              MISSION
+            </div>
+            <div className="type-mono-sm text-[var(--text-secondary)]">
+              CONTROL
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="mt-3 flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-cyan-400 dot-live animate-pulse"></span>
-          <span className="font-mono text-[10px] uppercase tracking-wider text-cyan-300">
-            Antonio Carlos · Online
+          <span
+            className="w-1.5 h-1.5 rounded-full bg-[var(--accent-glow)] dot-live animate-pulse"
+            aria-hidden
+          />
+          <span className="type-mono-sm text-[var(--accent-glow)]">
+            antonio carlos · online
           </span>
         </div>
       </div>
 
-      <nav className="flex-1 px-2 py-4 space-y-1">
-        {NAV.map((item) => {
-          const active = path === item.href || (item.href !== "/" && path.startsWith(item.href));
-          return (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={
-                "flex items-center gap-3 px-3 py-2 rounded-md text-sm transition-all " +
-                (active
-                  ? "bg-purple-900/40 border border-purple-700/40 text-purple-200"
-                  : "text-zinc-400 hover:text-zinc-100 hover:bg-zinc-900/40")
-              }
-            >
-              <span className="text-lg w-5 text-center">{item.icon}</span>
-              <span>{item.label}</span>
-            </Link>
-          );
-        })}
+      {/* Nav */}
+      <nav className="flex-1 px-2 py-4 space-y-5 overflow-y-auto">
+        {GROUPS.map((g) => (
+          <div key={g.label}>
+            <div className="px-3 mb-1.5">
+              <span className="type-h3">{g.label}</span>
+            </div>
+            <ul className="space-y-0.5">
+              {g.items.map((item) => {
+                const active = isActive(item.href);
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className={
+                        "flex items-center gap-3 px-3 py-1.5 rounded-md type-body-sm transition-colors " +
+                        (active
+                          ? "bg-[rgba(139,92,246,0.12)] text-[var(--text-primary)] border-l-2 border-[var(--accent-primary)] -ml-0.5 pl-[14px]"
+                          : "text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-overlay)]")
+                      }
+                    >
+                      <span
+                        className="w-4 text-center text-[var(--text-tertiary)]"
+                        aria-hidden
+                      >
+                        {item.icon}
+                      </span>
+                      <span>{item.label}</span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
       </nav>
 
-      <div className="px-4 py-3 border-t border-[#1f1f3d] text-[10px] font-mono text-zinc-600">
-        LocalClaw · Phase EE
+      {/* Footer — extras + version */}
+      <div className="px-4 py-3 border-t border-[var(--border-subtle)] space-y-2">
+        <Link
+          href="/visual"
+          className={
+            "flex items-center gap-2 type-mono-sm text-[var(--text-tertiary)] hover:text-[var(--accent-glow)] transition-colors " +
+            (isActive("/visual") ? "text-[var(--accent-glow)]" : "")
+          }
+        >
+          <span aria-hidden>▦</span>
+          <span>visual office</span>
+        </Link>
+        <div className="type-mono-sm text-[var(--text-disabled)]">
+          localclaw · phase ee
+        </div>
       </div>
     </aside>
   );

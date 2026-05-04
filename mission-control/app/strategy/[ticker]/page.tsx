@@ -1,27 +1,25 @@
 import Link from "next/link";
+
 import { listStrategyRuns } from "@/lib/db";
+import { formatDate } from "@/lib/format";
+import {
+  PageHeader,
+  Section,
+  Pill,
+  pillVariantFromVerdict,
+  pillVariantFromMarket,
+  EmptyState,
+} from "@/components/ui";
 
 export const dynamic = "force-dynamic";
 
-const VERDICT_COLOR: Record<string, string> = {
-  BUY: "text-emerald-400 border-emerald-700/40 bg-emerald-900/20",
-  HOLD: "text-yellow-400 border-yellow-700/40 bg-yellow-900/20",
-  AVOID: "text-red-400 border-red-700/40 bg-red-900/20",
-  "N/A": "text-zinc-500 border-zinc-700/40 bg-zinc-900/20",
-};
-
 const ENGINE_BLURB: Record<string, string> = {
-  graham: "Deep value (Graham number, low PE/PB, ROE 15%, debt < 3x EBITDA)",
-  buffett: "Quality compounding (PE ≤ 20, PB ≤ 3, ROE 15%, ROIC 15%, Aristocrat)",
-  drip: "Dividend safety (SAFE/WATCH/RISK) + yield floor (US 2.5%, BR 6%)",
-  macro: "Top-down sector tilt — multiplier from regime + sector",
-  hedge: "Tactical defensive overlay — quiet in expansion, on in late_cycle/recession",
+  graham: "Deep value · Graham number, low PE/PB, ROE 15%, debt < 3× EBITDA",
+  buffett: "Quality compounding · PE ≤ 20, PB ≤ 3, ROE 15%, ROIC 15%, Aristocrat",
+  drip: "Dividend safety · SAFE/WATCH/RISK + yield floor (US 2.5%, BR 6%)",
+  macro: "Top-down sector tilt · regime + sector multiplier",
+  hedge: "Tactical defensive · quiet in expansion, active in late_cycle/recession",
 };
-
-function pct(n: number, digits = 1) {
-  if (n == null || isNaN(n)) return "—";
-  return `${(n * 100).toFixed(digits)}%`;
-}
 
 export default async function StrategyTickerPage({
   params,
@@ -33,87 +31,215 @@ export default async function StrategyTickerPage({
   const { ticker } = await params;
   const { market } = await searchParams;
   const tk = ticker.toUpperCase();
-  const m = (market === "br" || market === "us") ? market : null;
+  const m = market === "br" || market === "us" ? market : null;
   const runs = listStrategyRuns(tk, m, 50);
+
+  const crumbs = [
+    { label: "Allocation", href: "/allocation" },
+    ...(m ? [{ label: m.toUpperCase() }] : []),
+    { label: tk },
+  ];
 
   if (!runs.length) {
     return (
-      <div className="p-8 max-w-4xl">
-        <Link href="/allocation" className="text-zinc-500 text-sm hover:text-zinc-300">
-          ← back to allocation
-        </Link>
-        <h1 className="text-3xl font-bold mt-4 text-purple-200">
-          {tk}
-        </h1>
-        <p className="mt-4 text-zinc-400">
-          No strategy runs found for this ticker.
-        </p>
-        <p className="text-xs text-zinc-500 font-mono mt-2">
-          Run <code>ii overnight</code> or <code>ii strategy all {tk}</code> to populate.
-        </p>
+      <div className="p-8 max-w-[1200px] space-y-8">
+        <PageHeader title={tk} crumbs={crumbs} />
+        <EmptyState
+          icon="◯"
+          title="Sem strategy runs"
+          description="Este ticker ainda não foi avaliado pelos engines. Aguarda o próximo overnight backfill."
+          action={
+            <div className="flex gap-2">
+              <Link
+                href={`/ticker/${tk}`}
+                className="pill pill-glow"
+              >
+                ver preço/fundamentals →
+              </Link>
+              <Link
+                href="/allocation"
+                className="pill pill-neutral"
+              >
+                ← allocation
+              </Link>
+            </div>
+          }
+        />
       </div>
     );
   }
 
-  // Group by market (in case ticker exists in both — unlikely)
+  // Group by market (in case ticker exists in both)
   const byMarket = runs.reduce<Record<string, typeof runs>>((acc, r) => {
     (acc[r.market] = acc[r.market] || []).push(r);
     return acc;
   }, {});
 
+  const latestTs = runs.reduce<string>((acc, r) => (r.run_ts > acc ? r.run_ts : acc), "");
+
   return (
-    <div className="p-8 max-w-5xl">
-      <Link href="/allocation" className="text-zinc-500 text-sm hover:text-zinc-300">
-        ← back to allocation
-      </Link>
-      <h1 className="text-3xl font-bold mt-4 mb-1 text-purple-200">{tk}</h1>
-      <p className="text-sm text-zinc-400 mb-6">
-        Last strategy outputs across all engines. Click each engine for rationale.
-      </p>
+    <div className="p-8 space-y-8 max-w-[1200px]">
+      <PageHeader
+        title={tk}
+        subtitle="Engine outputs across all 5 strategies"
+        crumbs={crumbs}
+        freshness={latestTs}
+        actions={
+          <Link
+            href={`/ticker/${tk}`}
+            className="pill pill-glow"
+          >
+            ticker page →
+          </Link>
+        }
+      />
 
       {Object.entries(byMarket).map(([mkt, rs]) => (
-        <section key={mkt} className="mb-8">
-          <h2 className="text-sm font-mono text-purple-300 uppercase tracking-wider mb-3">
-            {mkt} — last run {rs[0]?.run_ts.slice(0, 10)}
-          </h2>
+        <Section
+          key={mkt}
+          label={`${mkt} engines`}
+          meta={
+            <span className="flex items-center gap-2">
+              <Pill variant={pillVariantFromMarket(mkt)}>{mkt.toUpperCase()}</Pill>
+              <span>last run {formatDate(rs[0]?.run_ts, "relative")}</span>
+            </span>
+          }
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {rs.map((r) => (
               <details
                 key={r.engine}
-                className={`rounded-lg border ${
-                  VERDICT_COLOR[r.verdict] || "border-zinc-800 bg-zinc-900/30"
-                } p-4 group`}
+                className="card hover:border-[var(--border-strong)] transition-colors"
               >
-                <summary className="cursor-pointer flex items-baseline justify-between gap-3">
-                  <div>
-                    <span className="text-lg font-semibold capitalize">
-                      {r.engine}
-                    </span>
-                    <span className="ml-3 text-xs font-mono opacity-60">
+                <summary className="cursor-pointer p-4 flex items-baseline justify-between gap-3 list-none">
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <h3 className="type-h2 capitalize text-[var(--text-primary)]">
+                        {r.engine}
+                      </h3>
+                      <Pill variant={pillVariantFromVerdict(r.verdict)}>
+                        {r.verdict}
+                      </Pill>
+                    </div>
+                    <p className="type-caption text-[var(--text-tertiary)] truncate">
                       {ENGINE_BLURB[r.engine] || ""}
-                    </span>
+                    </p>
                   </div>
                   <div className="text-right shrink-0">
-                    <div className="font-mono text-sm">
-                      {pct(r.score, 0)}
+                    <div className="type-h2 tabular text-[var(--text-primary)]">
+                      {(r.score * 100).toFixed(0)}
+                      <span className="type-caption text-[var(--text-tertiary)] ml-1">/100</span>
                     </div>
-                    <div className="text-xs">{r.verdict}</div>
+                    {r.weight_suggestion > 0 && (
+                      <div className="type-mono-sm text-[var(--accent-primary)]">
+                        weight {(r.weight_suggestion * 100).toFixed(1)}%
+                      </div>
+                    )}
                   </div>
                 </summary>
-                <pre className="mt-3 text-xs text-zinc-300 overflow-x-auto whitespace-pre-wrap">
-                  {JSON.stringify(r.rationale, null, 2)}
-                </pre>
+                <div className="px-4 pb-4 border-t border-[var(--border-subtle)]">
+                  <RationaleView rationale={r.rationale} />
+                </div>
               </details>
             ))}
           </div>
-        </section>
+        </Section>
       ))}
-
-      <footer className="mt-8 pt-4 border-t border-zinc-800 text-xs text-zinc-500">
-        <Link href={`/ticker/${tk}`} className="hover:text-cyan-300">
-          → open price/fundamentals view
-        </Link>
-      </footer>
     </div>
   );
+}
+
+function RationaleView({ rationale }: { rationale: any }) {
+  if (!rationale || typeof rationale !== "object") {
+    return null;
+  }
+
+  // Pattern 1: details object with verdict/value/threshold per criterion (graham/buffett/drip)
+  const details = rationale.details;
+  if (details && typeof details === "object") {
+    const entries = Object.entries(details);
+    return (
+      <div className="mt-3 space-y-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5">
+          {entries.map(([key, val]: [string, any]) => (
+            <CriterionRow key={key} name={key} val={val} />
+          ))}
+        </div>
+        {rationale.passes !== undefined && (
+          <div className="mt-3 pt-2 border-t border-[var(--border-subtle)] type-mono-sm text-[var(--text-tertiary)]">
+            passes {rationale.passes}/{rationale.applicable} applicable criteria
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // Pattern 2: flat dict (macro/hedge)
+  return (
+    <div className="mt-3 space-y-1">
+      {Object.entries(rationale).map(([k, v]) => (
+        <div
+          key={k}
+          className="flex items-baseline justify-between type-mono-sm"
+        >
+          <span className="text-[var(--text-tertiary)]">{k}</span>
+          <span className="text-[var(--text-primary)]">
+            {Array.isArray(v) ? v.join(" · ") : String(v ?? "—")}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function CriterionRow({ name, val }: { name: string; val: any }) {
+  if (!val || typeof val !== "object") {
+    return (
+      <div className="flex items-baseline justify-between type-mono-sm">
+        <span className="text-[var(--text-tertiary)]">{name}</span>
+        <span className="text-[var(--text-primary)]">{String(val ?? "—")}</span>
+      </div>
+    );
+  }
+  const verdict = val.verdict;
+  const value = val.value;
+  const threshold = val.threshold;
+
+  const symbol =
+    verdict === "pass" ? "✓" : verdict === "fail" ? "✗" : "·";
+  const color =
+    verdict === "pass"
+      ? "text-[var(--verdict-buy)]"
+      : verdict === "fail"
+      ? "text-[var(--verdict-avoid)]"
+      : "text-[var(--text-tertiary)]";
+
+  return (
+    <div className="flex items-baseline justify-between type-mono-sm gap-3">
+      <span className="flex items-center gap-2 min-w-0">
+        <span className={`shrink-0 ${color}`} aria-hidden>
+          {symbol}
+        </span>
+        <span className="text-[var(--text-secondary)] truncate">{name}</span>
+      </span>
+      <span className="text-[var(--text-primary)] shrink-0">
+        {fmtVal(value)}{" "}
+        {threshold !== undefined && threshold !== null && (
+          <span className="text-[var(--text-tertiary)]">
+            ({verdict === "pass" ? "≥" : verdict === "fail" ? "✗" : ""} {fmtVal(threshold)})
+          </span>
+        )}
+      </span>
+    </div>
+  );
+}
+
+function fmtVal(v: any): string {
+  if (v === null || v === undefined) return "—";
+  if (typeof v === "number") {
+    if (Math.abs(v) < 1) return v.toFixed(3);
+    return v.toFixed(2);
+  }
+  if (typeof v === "boolean") return v ? "yes" : "no";
+  return String(v);
 }

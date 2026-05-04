@@ -4,6 +4,8 @@ import {
   readTopicScores,
   type Topic,
 } from "@/lib/vault";
+import { formatDate } from "@/lib/format";
+import { PageHeader, EmptyState } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -13,23 +15,23 @@ const TIER_META: Record<
 > = {
   make_now: {
     label: "MAKE NOW",
-    bg: "border-red-500/40 bg-gradient-to-r from-red-950/30 to-zinc-950",
-    pill: "bg-red-900/50 text-red-300 border-red-700/40",
+    bg: "border-[rgba(239,68,68,0.35)] bg-gradient-to-r from-[rgba(239,68,68,0.06)] to-transparent",
+    pill: "bg-[rgba(239,68,68,0.1)] text-[var(--verdict-avoid)] border-[rgba(239,68,68,0.35)]",
   },
   rising: {
     label: "RISING",
-    bg: "border-yellow-500/30 bg-gradient-to-r from-yellow-950/20 to-zinc-950",
-    pill: "bg-yellow-900/40 text-yellow-300 border-yellow-700/40",
+    bg: "border-[rgba(245,158,11,0.3)] bg-gradient-to-r from-[rgba(245,158,11,0.05)] to-transparent",
+    pill: "bg-[rgba(245,158,11,0.08)] text-[var(--verdict-hold)] border-[rgba(245,158,11,0.3)]",
   },
   watch: {
     label: "WATCH",
-    bg: "border-purple-500/30 bg-gradient-to-r from-purple-950/30 to-zinc-950",
-    pill: "bg-purple-900/40 text-purple-300 border-purple-700/40",
+    bg: "border-[rgba(139,92,246,0.3)] bg-gradient-to-r from-[rgba(139,92,246,0.05)] to-transparent",
+    pill: "bg-[rgba(139,92,246,0.08)] text-[var(--accent-primary)] border-[rgba(139,92,246,0.3)]",
   },
   background: {
     label: "BACKGROUND",
-    bg: "border-zinc-700 bg-zinc-900/40",
-    pill: "bg-zinc-800 text-zinc-400 border-zinc-700",
+    bg: "border-[var(--border-subtle)] bg-[var(--bg-elevated)]",
+    pill: "bg-[var(--bg-overlay)] text-[var(--text-tertiary)] border-[var(--border-subtle)]",
   },
 };
 
@@ -47,43 +49,32 @@ export default function ContentPage() {
   };
 
   return (
-    <div className="p-8 space-y-6">
-      <header className="border-b border-[#1f1f3d] pb-4">
-        <div className="flex items-end justify-between">
-          <div>
-            <h1 className="text-3xl font-light text-zinc-100">
-              <span className="text-purple-400">❖</span> Content
-            </h1>
-            <p className="text-xs font-mono text-zinc-500 mt-1">
-              Topic Watchlist · Research Digests · Knowledge Cards
-            </p>
-          </div>
-          {scores && (
-            <span className="text-[10px] font-mono text-zinc-500">
-              updated {scores.computed_at.slice(0, 16)}
-            </span>
-          )}
-        </div>
-      </header>
+    <div className="p-8 space-y-8 max-w-[1400px]">
+      <PageHeader
+        title="Content"
+        subtitle="Topic Watchlist · Research Digests · Knowledge Cards"
+        crumbs={[{ label: "Home", href: "/" }, { label: "Content" }]}
+        freshness={scores?.computed_at}
+      />
 
       {/* Topic Watchlist (primary) */}
       <section>
         <div className="flex items-center justify-between mb-3">
-          <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300">
-            Topic Watchlist <span className="text-zinc-500">({topics.length})</span>
-          </h2>
-          <div className="flex items-center gap-3 text-[10px] font-mono">
-            <span className="text-red-400">🔴 {counts.make_now} make now</span>
-            <span className="text-yellow-400">🟡 {counts.rising} rising</span>
-            <span className="text-purple-400">🟣 {counts.watch} watch</span>
-            <span className="text-zinc-500">⚪ {counts.background} bg</span>
+          <h2 className="type-h3">topic watchlist · {topics.length}</h2>
+          <div className="flex items-center gap-2">
+            <span className="pill pill-avoid">{counts.make_now} make now</span>
+            <span className="pill pill-hold">{counts.rising} rising</span>
+            <span className="pill pill-purple">{counts.watch} watch</span>
+            <span className="pill pill-neutral">{counts.background} bg</span>
           </div>
         </div>
 
         {topics.length === 0 ? (
-          <div className="card p-12 rounded-lg text-center text-zinc-500">
-            Sem scores. Corre <code>python -m analytics.topic_scorer</code>.
-          </div>
+          <EmptyState
+            icon="◯"
+            title="Sem topic scores"
+            description="O scorer corre durante o overnight batch. Aguarda a próxima execução."
+          />
         ) : (
           <div className="space-y-3">
             {topics.map((t) => (
@@ -96,25 +87,25 @@ export default function ContentPage() {
       {/* Research Digests */}
       <section>
         <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300 mb-3">
-          Research Digests ({digests.length})
+          research digests · {digests.length}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {digests.map((d) => (
-            <article key={d.path} className="card-purple p-4 rounded-lg">
+            <article key={d.path} className="card-purple p-4">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-zinc-100 font-medium text-sm">{d.title}</h3>
-                <span className="text-[10px] font-mono text-zinc-500">
-                  {new Date(d.modified).toISOString().slice(0, 10)}
+                <h3 className="type-body text-[var(--text-primary)] font-medium">{d.title}</h3>
+                <span className="type-mono-sm text-[var(--text-tertiary)]">
+                  {formatDate(d.modified, "relative")}
                 </span>
               </div>
-              <pre className="text-[11px] text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed line-clamp-6">
+              <p className="type-body-sm text-[var(--text-secondary)] line-clamp-5 leading-relaxed whitespace-pre-wrap">
                 {d.preview}
-              </pre>
+              </p>
             </article>
           ))}
           {digests.length === 0 && (
-            <div className="col-span-full card p-12 rounded-lg text-center text-zinc-500">
-              Sem digests. Corre <code>python scripts/research_digest.py</code>.
+            <div className="col-span-full">
+              <EmptyState icon="◯" title="Sem research digests" description="Os digests são gerados pelo daily research." />
             </div>
           )}
         </div>
@@ -122,20 +113,20 @@ export default function ContentPage() {
 
       {/* Knowledge Cards */}
       <section>
-        <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300 mb-3">
-          Knowledge Cards ({cards.length})
-        </h2>
+        <h2 className="type-h3 mb-3">knowledge cards · {cards.length}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cards.map((c) => (
             <article
               key={c.path}
-              className="card p-3 rounded-lg hover:border-purple-700/50 transition-colors"
+              className="card p-4 hover:border-[var(--border-strong)] transition-colors"
             >
-              <h3 className="text-zinc-200 font-medium text-sm truncate">{c.title}</h3>
-              <p className="text-xs text-zinc-400 line-clamp-3 mt-1">
+              <h3 className="type-body text-[var(--text-primary)] font-medium truncate mb-1">
+                {c.title}
+              </h3>
+              <p className="type-body-sm text-[var(--text-secondary)] line-clamp-3">
                 {c.preview.replace(/^---[\s\S]*?---/, "").trim().slice(0, 200)}
               </p>
-              <div className="text-[9px] font-mono text-zinc-600 mt-2">
+              <div className="type-mono-sm text-[var(--text-disabled)] mt-2">
                 {c.relpath.split("/").slice(-2).join("/")}
               </div>
             </article>

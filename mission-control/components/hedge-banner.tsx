@@ -11,22 +11,38 @@ export default function HedgeBanner() {
   }
   if (!banners.length) return null;
   return (
-    <div className="border-b border-red-800/40 bg-red-900/20 px-6 py-2">
+    <div
+      className="border-b px-6 py-2 flex flex-wrap gap-x-6 gap-y-1"
+      style={{
+        background: "rgba(239,68,68,0.06)",
+        borderColor: "rgba(239,68,68,0.25)",
+      }}
+    >
       {banners.map((b) => (
         <div
           key={b.market}
-          className="flex items-center gap-3 text-xs font-mono"
+          className="flex items-center gap-3 type-mono-sm"
         >
-          <span className="text-red-300 font-bold">[!]</span>
-          <span className="text-red-200">
-            HEDGE ON · {b.market.toUpperCase()}
+          <span
+            className="pill pill-avoid"
+            title={`Tactical hedge active in ${b.market.toUpperCase()}`}
+          >
+            <span aria-hidden>⚑</span> hedge on · {b.market.toUpperCase()}
           </span>
-          <span className="text-zinc-400">
-            regime={b.hedge.regime} · size=
-            {(b.hedge.hedge_size_pct * 100).toFixed(0)}%
+          <span className="text-[var(--text-secondary)]">
+            regime <span className="text-[var(--text-primary)]">{b.hedge.regime}</span>
           </span>
-          <span className="text-yellow-300">
-            via {(b.hedge.instruments || []).join(", ")}
+          <span className="text-[var(--text-secondary)]">
+            size{" "}
+            <span className="text-[var(--verdict-avoid)]">
+              {(b.hedge.hedge_size_pct * 100).toFixed(0)}%
+            </span>
+          </span>
+          <span className="text-[var(--text-secondary)]">
+            via{" "}
+            <span className="text-[var(--verdict-hold)]">
+              {(b.hedge.instruments || []).join(", ")}
+            </span>
           </span>
         </div>
       ))}

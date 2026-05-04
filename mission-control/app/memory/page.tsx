@@ -1,5 +1,7 @@
 import { listChatIds, listChiefMessages } from "@/lib/db";
 import { listAutoMemory, listDailyEntries, readAutoMemoryIndex } from "@/lib/vault";
+import { formatDate } from "@/lib/format";
+import { PageHeader } from "@/components/ui";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
@@ -15,26 +17,19 @@ export default async function MemoryPage({
   const tab: Tab = (sp.tab as Tab) || "daily";
 
   return (
-    <div className="p-8 space-y-6">
-      <header className="border-b border-[#1f1f3d] pb-4">
-        <div className="flex items-end justify-between">
-          <div>
-            <h1 className="text-3xl font-light text-zinc-100">
-              <span className="text-purple-400">✶</span> Memory
-            </h1>
-            <p className="text-xs font-mono text-zinc-500 mt-1">
-              Daily Log · Long-term · Antonio Carlos chats
-            </p>
-          </div>
-        </div>
+    <div className="p-8 space-y-6 max-w-[1400px]">
+      <PageHeader
+        title="Memory"
+        subtitle="Daily Log · Long-term · Antonio Carlos chats"
+        crumbs={[{ label: "Home", href: "/" }, { label: "Memory" }]}
+      />
 
-        {/* Tabs */}
-        <div className="flex items-center gap-1 mt-4">
-          <TabButton href="?tab=daily"    active={tab === "daily"}    label="Daily Log" />
-          <TabButton href="?tab=longterm" active={tab === "longterm"} label="Long-term" />
-          <TabButton href="?tab=chats"    active={tab === "chats"}    label="Chats" />
-        </div>
-      </header>
+      {/* Tabs */}
+      <div className="flex items-center gap-1 -mt-2">
+        <TabButton href="?tab=daily"    active={tab === "daily"}    label="Daily Log" />
+        <TabButton href="?tab=longterm" active={tab === "longterm"} label="Long-term" />
+        <TabButton href="?tab=chats"    active={tab === "chats"}    label="Chats" />
+      </div>
 
       {tab === "daily" && <DailyLog selectedPath={sp.entry} />}
       {tab === "longterm" && <LongTerm selectedName={sp.entry} />}
@@ -48,10 +43,10 @@ function TabButton({ href, active, label }: { href: string; active: boolean; lab
     <Link
       href={href}
       className={
-        "px-4 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md " +
+        "px-4 py-2 type-mono-sm rounded-md transition-colors " +
         (active
-          ? "bg-purple-900/40 border border-purple-700/40 text-purple-200"
-          : "text-zinc-500 hover:text-zinc-300 border border-transparent")
+          ? "bg-[rgba(139,92,246,0.12)] border border-[rgba(139,92,246,0.3)] text-[var(--text-primary)]"
+          : "text-[var(--text-tertiary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-overlay)] border border-transparent")
       }
     >
       {label}
@@ -83,16 +78,16 @@ function DailyLog({ selectedPath }: { selectedPath?: string }) {
                       : "text-zinc-300 hover:bg-zinc-900/40 border border-transparent")
                   }
                 >
-                  <div className="font-mono text-cyan-300">{e.date}</div>
-                  <div className="text-[10px] text-zinc-500 mt-0.5">{e.words} words</div>
-                  <div className="text-[11px] text-zinc-400 mt-1 line-clamp-1">{e.title}</div>
+                  <div className="type-mono text-[var(--accent-glow)]">{formatDate(e.date, "short")}</div>
+                  <div className="type-mono-sm text-[var(--text-tertiary)] mt-0.5">{e.words} words · {formatDate(e.date, "relative")}</div>
+                  <div className="type-body-sm text-[var(--text-secondary)] mt-1 line-clamp-1">{e.title}</div>
                 </Link>
               </li>
             );
           })}
           {entries.length === 0 && (
-            <li className="text-xs text-zinc-500 italic px-3 py-4">
-              Sem daily entries. Corre <code>python scripts/research_digest.py</code>.
+            <li className="type-body-sm text-[var(--text-tertiary)] italic px-3 py-4">
+              Nenhum daily log disponível ainda.
             </li>
           )}
         </ul>

@@ -1,30 +1,23 @@
+import Link from "next/link";
+
 import { listOpenActions, listPortfolio, upcomingDividends, listChatIds } from "@/lib/db";
-import { loadAgentStatus, listDepartments } from "@/lib/agents";
+import { loadAgentStatus } from "@/lib/agents";
 import {
-  listResearchDigests,
   listDossiers,
-  readBriefing,
+  readBriefingMeta,
   listCouncilOutputs,
   summariseCouncil,
 } from "@/lib/vault";
+import { formatCurrency, formatDate, formatNumber, formatPercent } from "@/lib/format";
+
 import HomeToolbar from "@/components/toolbar";
 import { PortfolioChart } from "@/components/charts";
 import StancePill from "@/components/stance-pill";
-import Link from "next/link";
+import TaskRowActions from "./tasks/row-actions";
+
+import { PageHeader, Section, Stat, Pill } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
-
-function statusDot(status: string | null | undefined) {
-  if (status === "ok") return "bg-green-400 dot-live";
-  if (status === "no_action") return "bg-zinc-500";
-  if (status === "failed") return "bg-red-400 dot-fail";
-  return "bg-zinc-700";
-}
-
-function fmt(n: number | null | undefined, d = 0) {
-  if (n == null) return "—";
-  return Number(n).toLocaleString("pt-BR", { maximumFractionDigits: d });
-}
 
 export default function Home() {
   const portfolio = listPortfolio();
@@ -33,7 +26,7 @@ export default function Home() {
   const status = loadAgentStatus();
   const chats = listChatIds();
   const dossiers = listDossiers(5);
-  const briefingRaw = readBriefing();
+  const { content: briefingRaw, mtime: briefingMtime } = readBriefingMeta();
   const councilAll = listCouncilOutputs(500);
   const councilSummary = summariseCouncil(councilAll);
   const councilLatest = councilAll.filter((e) => e.date === councilSummary.date);
@@ -64,312 +57,413 @@ export default function Home() {
   const pnlPctBR = totalsBR.cost ? ((totalsBR.mv - totalsBR.cost) / totalsBR.cost) * 100 : 0;
   const pnlPctUS = totalsUS.cost ? ((totalsUS.mv - totalsUS.cost) / totalsUS.cost) * 100 : 0;
 
-  const departments = listDepartments();
-  const totalAgents = departments.reduce((n, d) => n + d.members.length, 0);
   const okAgents = Object.values(status).filter((s) => s.last_status === "ok").length;
   const failedAgents = Object.values(status).filter((s) => s.last_status === "failed").length;
+  const totalAgents = Object.keys(status).length;
 
-  const lastBriefingPreview = briefingRaw
+  // Briefing preview — strip front matter + first heading line, keep paragraph
+  const briefingPreview = briefingRaw
     ? briefingRaw
         .split("\n")
-        .slice(0, 12)
         .filter((l) => !l.startsWith("---"))
+        .slice(0, 14)
         .join("\n")
-    : "(sem briefing — corre `python scripts/morning_briefing.py`)";
+        .trim()
+    : null;
 
   return (
-    <div className="p-8 space-y-6">
-      <header className="flex items-end justify-between border-b border-[#1f1f3d] pb-4">
-        <div>
-          <h1 className="text-3xl font-light tracking-wide text-zinc-100">
-            <span className="text-purple-400">◇</span> Home
-          </h1>
-          <p className="text-xs font-mono text-zinc-500 mt-1">
-            LocalClaw · Phase EE shipped {new Date().toISOString().slice(0, 10)}
-          </p>
-        </div>
-        <div className="text-right">
-          <div className="text-xs font-mono uppercase tracking-wider text-cyan-300">
-            {okAgents}/{totalAgents} agents ok
-          </div>
-          {failedAgents > 0 && (
-            <div className="text-xs font-mono text-red-400">{failedAgents} failed</div>
-          )}
-        </div>
-      </header>
+    <div className="p-8 space-y-8 max-w-[1400px]">
+      <PageHeader
+        title="Home"
+        subtitle={`${okAgents}/${totalAgents} agents online · ${chats.length} active chats`}
+        freshness={briefingMtime}
+        freshnessLabel={briefingMtime ? `briefing ${formatDate(briefingMtime, "relative")}` : undefined}
+        actions={
+          failedAgents > 0 ? (
+            <Pill variant="avoid">⚑ {failedAgents} failed</Pill>
+          ) : null
+        }
+      />
 
       <HomeToolbar />
 
-      <section className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <StatCard
+      {/* Stats — 4 quadrants */}
+      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <Stat
           label="Portfolio BR"
-          value={`R$ ${fmt(totalsBR.mv, 0)}`}
-          sub={`${pnlPctBR >= 0 ? "+" : ""}${fmt(pnlPctBR, 2)}% vs cost`}
-          tone={pnlPctBR >= 0 ? "ok" : "down"}
+          value={formatCurrency(totalsBR.mv, "BRL", 0)}
+          delta={{ value: pnlPctBR, format: "percent" }}
+          caption="vs cost"
+          icon="◇"
         />
-        <StatCard
+        <Stat
           label="Portfolio US"
-          value={`US$ ${fmt(totalsUS.mv, 0)}`}
-          sub={`${pnlPctUS >= 0 ? "+" : ""}${fmt(pnlPctUS, 2)}% vs cost`}
-          tone={pnlPctUS >= 0 ? "ok" : "down"}
+          value={formatCurrency(totalsUS.mv, "USD", 0)}
+          delta={{ value: pnlPctUS, format: "percent" }}
+          caption="vs cost"
+          icon="◇"
         />
-        <StatCard
+        <Stat
           label="Open Actions"
-          value={String(actions.length)}
-          sub="watchlist triggers"
-          tone="purple"
+          value={formatNumber(actions.length)}
+          caption="watchlist triggers"
+          icon="▤"
         />
-        <StatCard
-          label="Antonio Carlos"
-          value={`${chats.length} chats`}
-          sub={`${chats.reduce((n, c) => n + c.n_messages, 0)} msgs`}
-          tone="cyan"
+        <Stat
+          label="Council Today"
+          value={formatNumber(councilSummary.total)}
+          caption={
+            councilSummary.total > 0
+              ? `${councilSummary.avoid} AVOID · ${councilSummary.hold} HOLD · ${councilSummary.buy} BUY`
+              : "no run yet"
+          }
+          icon="⚖"
         />
       </section>
 
-      <section className="card p-5 rounded-lg">
-        <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300 mb-3">
-          📈 Portfolio P&amp;L over time
-        </h2>
-        <PortfolioChart />
-      </section>
-
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div className="card-purple p-5 lg:col-span-2 rounded-lg">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300">
-              ☀ Briefing matinal
-            </h2>
-            <span className="tag text-zinc-400">vault/dashboards</span>
-          </div>
-          <pre className="text-xs text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed max-h-64 overflow-y-auto">
-            {lastBriefingPreview}
-          </pre>
+      {/* Portfolio chart */}
+      <Section
+        label="Portfolio P&L"
+        meta="all positions · BRL+USD aggregated"
+      >
+        <div className="card p-5">
+          <PortfolioChart />
         </div>
+      </Section>
 
-        <div className="card p-5 rounded-lg">
-          <h2 className="text-sm font-mono uppercase tracking-wider text-zinc-400 mb-3">
-            ◉ Agents
-          </h2>
-          <div className="space-y-1.5 max-h-64 overflow-y-auto">
-            {Object.values(status)
-              .sort((a, b) => (b.last_run || "").localeCompare(a.last_run || ""))
-              .slice(0, 12)
-              .map((s) => (
-                <div
-                  key={s.name}
-                  className="flex items-center justify-between text-xs font-mono"
-                >
-                  <span className="flex items-center gap-2 truncate">
-                    <span
-                      className={`w-2 h-2 rounded-full inline-block ${statusDot(
-                        s.last_status
-                      )}`}
-                    ></span>
-                    <span className="text-zinc-300 truncate">{s.name}</span>
-                  </span>
-                  <span className="text-zinc-500 text-[10px]">
-                    {(s.last_run || "").slice(0, 16)}
-                  </span>
-                </div>
-              ))}
+      {/* Briefing + Actions row */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <Section
+          label="Briefing matinal"
+          meta={briefingMtime ? formatDate(briefingMtime, "relative") : "n/a"}
+        >
+          <div className="card-purple p-5">
+            {briefingPreview ? (
+              <pre className="type-body-sm text-[var(--text-primary)] whitespace-pre-wrap font-sans leading-relaxed max-h-72 overflow-y-auto">
+                {briefingPreview}
+              </pre>
+            ) : (
+              <p className="type-body-sm text-[var(--text-tertiary)] italic">
+                Sem briefing matinal disponível. Aurora gera às 07:00 (BRT).
+              </p>
+            )}
           </div>
-        </div>
-      </section>
+        </Section>
 
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div className="card p-5 rounded-lg">
-          <h2 className="text-sm font-mono uppercase tracking-wider text-zinc-400 mb-3">
-            ▤ Open actions <span className="text-purple-400">({actions.length})</span>
-          </h2>
-          <div className="space-y-2 max-h-72 overflow-y-auto">
-            {actions.slice(0, 10).map((a) => (
-              <Link
-                key={`${a.market}-${a.id}`}
-                href={`/ticker/${a.ticker}`}
-                className="block border-l-2 border-purple-700/50 pl-3 py-1 hover:bg-purple-900/10"
-              >
-                <div className="flex items-center gap-2 text-xs">
-                  <span className="font-mono text-cyan-300">{a.ticker}</span>
-                  <span className="tag text-purple-300">{a.kind}</span>
-                </div>
-                <div className="text-xs text-zinc-400 truncate">{a.description}</div>
-              </Link>
+        <Section
+          label="Actions priority"
+          meta={`${actions.length} open`}
+          action={
+            <Link
+              href="/tasks"
+              className="type-mono-sm text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+            >
+              view all →
+            </Link>
+          }
+        >
+          <div className="card p-4 space-y-2 max-h-72 overflow-y-auto">
+            {actions.slice(0, 5).map((a) => (
+              <ActionItem key={`${a.market}-${a.id}`} action={a} />
             ))}
             {actions.length === 0 && (
-              <div className="text-xs text-zinc-500 italic">Sem triggers abertos.</div>
+              <p className="type-body-sm text-[var(--text-tertiary)] italic px-2 py-3">
+                Nenhum trigger aberto.
+              </p>
             )}
           </div>
-        </div>
+        </Section>
 
-        <div className="card p-5 rounded-lg">
-          <h2 className="text-sm font-mono uppercase tracking-wider text-zinc-400 mb-3">
-            💸 Próximos dividendos (30d)
-          </h2>
-          <div className="space-y-1.5 max-h-72 overflow-y-auto">
-            {dividends.slice(0, 12).map((d, i) => (
-              <div
-                key={`${d.market}-${d.ticker}-${d.ex_date}-${i}`}
-                className="flex items-center justify-between text-xs font-mono"
-              >
-                <span className="text-zinc-300">
-                  <span className="text-purple-300">{d.ticker}</span>
-                </span>
-                <span className="text-zinc-400">{d.ex_date.slice(5)}</span>
-                <span className="text-cyan-300 tabular">
-                  {d.market === "br" ? "R$" : "$"}
-                  {fmt(d.amount, 4)}
-                </span>
-              </div>
-            ))}
-            {dividends.length === 0 && (
-              <div className="text-xs text-zinc-500 italic">Nenhum próximo.</div>
-            )}
-          </div>
-        </div>
-
-        <div className="card-cyan p-5 rounded-lg">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-sm font-mono uppercase tracking-wider text-cyan-300">
-              ⚖ Council · Night Shift
-            </h2>
+        <Section
+          label="Council snapshot"
+          meta={
+            councilSummary.total > 0
+              ? formatDate(councilSummary.date, "relative")
+              : "n/a"
+          }
+          action={
             <Link
               href="/council"
-              className="text-[10px] font-mono text-zinc-500 hover:text-cyan-300"
+              className="type-mono-sm text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
             >
-              all {councilSummary.total} →
+              full council →
             </Link>
+          }
+        >
+          <div className="card-cyan p-5">
+            {councilSummary.total > 0 ? (
+              <CouncilCard
+                avoid={councilAvoid}
+                flagged={councilFlagged}
+                buy={councilSummary.buy}
+                hold={councilSummary.hold}
+                avoidCount={councilSummary.avoid}
+                needs={councilSummary.needs_data}
+              />
+            ) : (
+              <div>
+                <p className="type-body-sm text-[var(--text-tertiary)] italic mb-3">
+                  Nenhum output do Council ainda.
+                </p>
+                {dossiers.length > 0 && (
+                  <ul className="space-y-1">
+                    {dossiers.map((d) => (
+                      <li
+                        key={d.path}
+                        className="type-mono-sm text-[var(--text-tertiary)]"
+                      >
+                        {d.title}{" "}
+                        <span className="text-[var(--text-disabled)]">
+                          · {formatDate(d.modified, "relative")}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            )}
           </div>
-          {councilSummary.total > 0 ? (
-            <>
-              <div className="text-[10px] font-mono text-zinc-500 mb-3">
-                run {councilSummary.date}
-              </div>
-              <div className="grid grid-cols-4 gap-1.5 mb-4">
-                <CountChip label="BUY" n={councilSummary.buy} tone="green" />
-                <CountChip label="HOLD" n={councilSummary.hold} tone="yellow" />
-                <CountChip label="AVOID" n={councilSummary.avoid} tone="red" />
-                <CountChip label="?" n={councilSummary.needs_data} tone="zinc" />
-              </div>
+        </Section>
+      </div>
 
-              {councilAvoid.length > 0 && (
-                <div className="mb-3">
-                  <div className="text-[10px] font-mono uppercase tracking-wider text-red-300 mb-1">
-                    AVOID
-                  </div>
-                  <div className="space-y-1">
-                    {councilAvoid.map((e) => (
-                      <Link
-                        key={e.ticker}
-                        href={`/council/${e.ticker}`}
-                        className="flex items-center justify-between text-xs hover:bg-red-900/10 px-1.5 py-0.5 rounded"
-                      >
-                        <span className="font-mono text-red-300">{e.ticker}</span>
-                        <span className="text-[10px] text-zinc-500">
-                          {e.dissent_count}d · {e.flag_count}⚑
-                        </span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
+      {/* Dividends + Agents row */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <Section
+          label="Próximos dividendos"
+          meta="next 30 days"
+        >
+          <div className="card p-4 max-h-80 overflow-y-auto">
+            {dividends.length > 0 ? (
+              <table className="w-full">
+                <thead className="type-mono-sm text-[var(--text-tertiary)]">
+                  <tr>
+                    <th className="text-left pb-2">ticker</th>
+                    <th className="text-left pb-2">ex-date</th>
+                    <th className="text-right pb-2">amount</th>
+                  </tr>
+                </thead>
+                <tbody className="type-mono">
+                  {dividends.slice(0, 16).map((d, i) => (
+                    <tr
+                      key={`${d.market}-${d.ticker}-${d.ex_date}-${i}`}
+                      className="border-t border-[var(--border-subtle)]"
+                    >
+                      <td className="py-1.5">
+                        <Link
+                          href={`/ticker/${d.ticker}`}
+                          className="text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+                        >
+                          {d.ticker}
+                        </Link>
+                        <Pill
+                          variant={d.market === "br" ? "mkt-br" : "mkt-us"}
+                          className="ml-2"
+                        >
+                          {d.market.toUpperCase()}
+                        </Pill>
+                      </td>
+                      <td className="py-1.5 text-[var(--text-secondary)]">
+                        {formatDate(d.ex_date, "short")}
+                      </td>
+                      <td className="py-1.5 text-right text-[var(--text-primary)]">
+                        {d.market === "br" ? "R$" : "$"}
+                        {d.amount.toFixed(d.market === "br" ? 4 : 3)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            ) : (
+              <p className="type-body-sm text-[var(--text-tertiary)] italic px-2 py-4">
+                Nenhum próximo dividendo em 30 dias.
+              </p>
+            )}
+          </div>
+        </Section>
 
-              {councilFlagged.length > 0 && (
-                <div>
-                  <div className="text-[10px] font-mono uppercase tracking-wider text-orange-300 mb-1">
-                    Flagged (3+)
-                  </div>
-                  <div className="space-y-1">
-                    {councilFlagged.map((e) => (
-                      <Link
-                        key={e.ticker}
-                        href={`/council/${e.ticker}`}
-                        className="flex items-center justify-between text-xs hover:bg-orange-900/10 px-1.5 py-0.5 rounded"
-                      >
-                        <span className="flex items-center gap-2">
-                          <span className="font-mono text-orange-300">{e.ticker}</span>
-                          <StancePill stance={e.stance} />
-                        </span>
-                        <span className="text-[10px] text-zinc-500">
-                          {e.dissent_count}d · {e.flag_count}⚑
-                        </span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </>
-          ) : (
-            <div className="text-xs text-zinc-500 italic">
-              Sem outputs do Council — corre <code>python -m agents.council.story &lt;TK&gt;</code>.
-            </div>
-          )}
-          {dossiers.length > 0 && councilSummary.total === 0 && (
-            <div className="mt-2 space-y-1">
-              {dossiers.map((d) => (
-                <div key={d.path} className="text-[10px] font-mono text-zinc-500">
-                  {d.title} · {new Date(d.modified).toISOString().slice(0, 10)}
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
+        <Section
+          label="Agents"
+          meta={`${okAgents}/${totalAgents} ok`}
+          action={
+            <Link
+              href="/team"
+              className="type-mono-sm text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+            >
+              org chart →
+            </Link>
+          }
+        >
+          <div className="card p-4 max-h-80 overflow-y-auto">
+            <ul className="space-y-1.5">
+              {Object.values(status)
+                .sort((a, b) => (b.last_run || "").localeCompare(a.last_run || ""))
+                .slice(0, 14)
+                .map((s) => (
+                  <li
+                    key={s.name}
+                    className="flex items-center justify-between type-mono-sm"
+                  >
+                    <span className="flex items-center gap-2 truncate min-w-0">
+                      <StatusDot status={s.last_status} />
+                      <span className="text-[var(--text-primary)] truncate">
+                        {s.name}
+                      </span>
+                    </span>
+                    <span className="text-[var(--text-tertiary)] shrink-0 ml-2">
+                      {s.last_run
+                        ? formatDate(s.last_run, "relative")
+                        : "—"}
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        </Section>
+      </div>
     </div>
   );
 }
 
-function CountChip({
+function StatusDot({ status }: { status: string | null | undefined }) {
+  const cls =
+    status === "ok"
+      ? "bg-[var(--verdict-buy)] dot-live"
+      : status === "no_action"
+      ? "bg-[var(--text-tertiary)]"
+      : status === "failed"
+      ? "bg-[var(--verdict-avoid)] dot-fail"
+      : "bg-[var(--text-disabled)]";
+  return <span className={`w-1.5 h-1.5 rounded-full inline-block shrink-0 ${cls}`} aria-hidden />;
+}
+
+function ActionItem({ action }: { action: { id: number; market: "br" | "us"; ticker: string; kind: string; description: string; created_at: string } }) {
+  return (
+    <div className="border-l-2 border-[var(--border-strong)] pl-3 py-2 hover:bg-[var(--bg-overlay)] rounded-r transition-colors">
+      <div className="flex items-center gap-2 mb-1">
+        <Link
+          href={`/ticker/${action.ticker}`}
+          className="type-mono text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+        >
+          {action.ticker}
+        </Link>
+        <Pill variant={action.market === "br" ? "mkt-br" : "mkt-us"}>
+          {action.market.toUpperCase()}
+        </Pill>
+        <Pill variant="purple">{action.kind}</Pill>
+        <span className="type-mono-sm text-[var(--text-tertiary)] ml-auto">
+          {formatDate(action.created_at, "relative")}
+        </span>
+      </div>
+      <p className="type-body-sm text-[var(--text-secondary)] line-clamp-2 mb-2">
+        {action.description}
+      </p>
+      <TaskRowActions
+        id={action.id}
+        market={action.market}
+        ticker={action.ticker}
+      />
+    </div>
+  );
+}
+
+function CouncilCard({
+  avoid,
+  flagged,
+  buy,
+  hold,
+  avoidCount,
+  needs,
+}: {
+  avoid: any[];
+  flagged: any[];
+  buy: number;
+  hold: number;
+  avoidCount: number;
+  needs: number;
+}) {
+  return (
+    <div className="space-y-4">
+      {/* counts row */}
+      <div className="grid grid-cols-4 gap-2 text-center">
+        <CountBox label="BUY" n={buy} variant="buy" />
+        <CountBox label="HOLD" n={hold} variant="hold" />
+        <CountBox label="AVOID" n={avoidCount} variant="avoid" />
+        <CountBox label="N/A" n={needs} variant="na" />
+      </div>
+
+      {avoid.length > 0 && (
+        <div>
+          <h4 className="type-h3 mb-1.5">avoid</h4>
+          <ul className="space-y-1">
+            {avoid.slice(0, 5).map((e) => (
+              <li key={e.ticker}>
+                <Link
+                  href={`/council/${e.ticker}`}
+                  className="flex items-center justify-between text-sm hover:bg-[var(--bg-overlay)] px-2 py-1 rounded transition-colors"
+                >
+                  <span className="type-mono text-[var(--verdict-avoid)]">
+                    {e.ticker}
+                  </span>
+                  <span className="type-mono-sm text-[var(--text-tertiary)]">
+                    {e.dissent_count}d · {e.flag_count}⚑
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {flagged.length > 0 && (
+        <div>
+          <h4 className="type-h3 mb-1.5">flagged (3+)</h4>
+          <ul className="space-y-1">
+            {flagged.slice(0, 4).map((e) => (
+              <li key={e.ticker}>
+                <Link
+                  href={`/council/${e.ticker}`}
+                  className="flex items-center justify-between text-sm hover:bg-[var(--bg-overlay)] px-2 py-1 rounded transition-colors"
+                >
+                  <span className="flex items-center gap-2">
+                    <span className="type-mono text-[var(--text-primary)]">
+                      {e.ticker}
+                    </span>
+                    <StancePill stance={e.stance} />
+                  </span>
+                  <span className="type-mono-sm text-[var(--text-tertiary)]">
+                    {e.dissent_count}d · {e.flag_count}⚑
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CountBox({
   label,
   n,
-  tone,
+  variant,
 }: {
   label: string;
   n: number;
-  tone: "green" | "yellow" | "red" | "zinc";
+  variant: "buy" | "hold" | "avoid" | "na";
 }) {
-  const c =
-    tone === "green"
-      ? "border-green-700/50 text-green-300 bg-green-900/20"
-      : tone === "yellow"
-        ? "border-yellow-700/50 text-yellow-300 bg-yellow-900/20"
-        : tone === "red"
-          ? "border-red-700/50 text-red-300 bg-red-900/20"
-          : "border-zinc-700/50 text-zinc-400 bg-zinc-900/40";
+  const cls =
+    variant === "buy"
+      ? "border-[rgba(34,197,94,0.3)] text-[var(--verdict-buy)]"
+      : variant === "hold"
+      ? "border-[rgba(245,158,11,0.3)] text-[var(--verdict-hold)]"
+      : variant === "avoid"
+      ? "border-[rgba(239,68,68,0.3)] text-[var(--verdict-avoid)]"
+      : "border-[var(--border-subtle)] text-[var(--text-tertiary)]";
   return (
-    <div className={`text-center px-1 py-1.5 rounded border ${c}`}>
-      <div className="text-[9px] font-mono uppercase tracking-wider opacity-80">{label}</div>
-      <div className="text-base font-light tabular">{n}</div>
-    </div>
-  );
-}
-
-function StatCard({
-  label,
-  value,
-  sub,
-  tone,
-}: {
-  label: string;
-  value: string;
-  sub: string;
-  tone: "ok" | "down" | "purple" | "cyan";
-}) {
-  const valueColor =
-    tone === "ok"
-      ? "text-green-400"
-      : tone === "down"
-      ? "text-red-400"
-      : tone === "cyan"
-      ? "text-cyan-300"
-      : "text-purple-300";
-  return (
-    <div className="card p-4 rounded-lg">
-      <div className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">
-        {label}
-      </div>
-      <div className={`text-2xl font-light ${valueColor} mt-1 tabular`}>{value}</div>
-      <div className="text-xs text-zinc-400 mt-1">{sub}</div>
+    <div className={`px-2 py-2 rounded border ${cls}`}>
+      <div className="type-mono-sm opacity-70">{label}</div>
+      <div className="type-h2 tabular">{n}</div>
     </div>
   );
 }

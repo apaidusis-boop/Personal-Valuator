@@ -1,16 +1,30 @@
 import Link from "next/link";
-import { listCouncilOutputs, summariseCouncil, type CouncilEntry, type CouncilStance } from "@/lib/vault";
+
+import {
+  listCouncilOutputs,
+  summariseCouncil,
+  type CouncilEntry,
+  type CouncilStance,
+} from "@/lib/vault";
+import { formatDate, formatPercent } from "@/lib/format";
+import {
+  PageHeader,
+  Section,
+  Pill,
+  pillVariantFromMarket,
+  EmptyState,
+} from "@/components/ui";
 import StancePill from "@/components/stance-pill";
 
 export const dynamic = "force-dynamic";
 
-const STANCE_ORDER: CouncilStance[] = ["BUY", "HOLD", "AVOID", "NEEDS_DATA", "UNKNOWN"];
+const STANCE_ORDER: CouncilStance[] = ["AVOID", "HOLD", "BUY", "NEEDS_DATA", "UNKNOWN"];
 const STANCE_LABEL: Record<CouncilStance, string> = {
-  BUY: "🟢 BUY",
-  HOLD: "🟡 HOLD",
-  AVOID: "🔴 AVOID",
-  NEEDS_DATA: "⚪ NEEDS DATA",
-  UNKNOWN: "· uncategorised",
+  BUY: "buy",
+  HOLD: "hold",
+  AVOID: "avoid",
+  NEEDS_DATA: "needs data",
+  UNKNOWN: "uncategorised",
 };
 
 export default function CouncilIndexPage() {
@@ -29,153 +43,180 @@ export default function CouncilIndexPage() {
   for (const e of latest) grouped[e.stance].push(e);
 
   return (
-    <div className="p-8 space-y-6">
-      <header className="border-b border-[#1f1f3d] pb-4">
-        <h1 className="text-3xl font-light text-zinc-100">
-          <span className="text-purple-400">⚖</span> Council
-        </h1>
-        <p className="text-xs font-mono text-zinc-500 mt-1">
-          Night Shift outputs · STORYT_3.0 · {latest.length} dossiers · {summary.date}
-        </p>
-      </header>
+    <div className="p-8 space-y-8 max-w-[1400px]">
+      <PageHeader
+        title="Council"
+        subtitle={`Synthetic IC dossiers · STORYT_3.0 · ${latest.length} reviewed`}
+        crumbs={[{ label: "Home", href: "/" }, { label: "Council" }]}
+        freshness={summary.date}
+      />
 
-      <section className="grid grid-cols-2 md:grid-cols-5 gap-3">
-        <SummaryStat label="total" value={summary.total} tone="zinc" />
-        <SummaryStat label="BUY" value={summary.buy} tone="green" />
-        <SummaryStat label="HOLD" value={summary.hold} tone="yellow" />
-        <SummaryStat label="AVOID" value={summary.avoid} tone="red" />
-        <SummaryStat label="needs data" value={summary.needs_data} tone="zinc" />
-      </section>
-
-      {STANCE_ORDER.map((st) => {
-        const items = grouped[st];
-        if (items.length === 0) return null;
-        return (
-          <section key={st}>
-            <h2 className="text-sm font-mono uppercase tracking-wider mb-3 text-zinc-400">
-              {STANCE_LABEL[st]} <span className="text-purple-400">({items.length})</span>
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {items
-                .sort((a, b) => a.ticker.localeCompare(b.ticker))
-                .map((e) => (
-                  <CouncilCard key={e.ticker} e={e} />
-                ))}
-            </div>
+      {latest.length === 0 ? (
+        <EmptyState
+          icon="◯"
+          title="Sem dossiers do Council"
+          description="O Council corre durante o overnight batch. Aguarda a próxima execução."
+        />
+      ) : (
+        <>
+          {/* Counts */}
+          <section className="grid grid-cols-2 md:grid-cols-5 gap-3">
+            <CountBox label="total" n={summary.total} />
+            <CountBox label="buy" n={summary.buy} variant="buy" />
+            <CountBox label="hold" n={summary.hold} variant="hold" />
+            <CountBox label="avoid" n={summary.avoid} variant="avoid" />
+            <CountBox label="needs data" n={summary.needs_data} />
           </section>
-        );
-      })}
 
-      {previous.length > 0 && (
-        <section>
-          <h2 className="text-sm font-mono uppercase tracking-wider mb-3 text-zinc-500">
-            Earlier runs <span className="text-zinc-600">({previous.length})</span>
-          </h2>
-          <div className="card p-3 rounded-lg max-h-72 overflow-y-auto">
-            <table className="w-full text-xs font-mono">
-              <thead>
-                <tr className="text-zinc-500 text-left">
-                  <th className="py-1">Date</th>
-                  <th className="py-1">Ticker</th>
-                  <th className="py-1">Stance</th>
-                  <th className="py-1">Conf</th>
-                  <th className="py-1">Sector</th>
-                </tr>
-              </thead>
-              <tbody>
-                {previous.slice(0, 100).map((e) => (
-                  <tr key={`${e.ticker}-${e.date}`} className="border-t border-[#1f1f3d]">
-                    <td className="py-1.5 text-zinc-500">{e.date}</td>
-                    <td className="py-1.5">
-                      <Link href={`/council/${e.ticker}`} className="text-cyan-300 hover:underline">
-                        {e.ticker}
-                      </Link>
-                    </td>
-                    <td className="py-1.5 text-zinc-300">{e.stance}</td>
-                    <td className="py-1.5 text-zinc-500">{e.confidence}</td>
-                    <td className="py-1.5 text-zinc-600">{e.sector || "—"}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
+          {STANCE_ORDER.map((st) => {
+            const items = grouped[st];
+            if (items.length === 0) return null;
+            return (
+              <Section
+                key={st}
+                label={STANCE_LABEL[st]}
+                meta={`${items.length}`}
+              >
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+                  {items
+                    .sort((a, b) => a.ticker.localeCompare(b.ticker))
+                    .map((e) => (
+                      <CouncilCard key={e.ticker} e={e} />
+                    ))}
+                </div>
+              </Section>
+            );
+          })}
 
-      {latest.length === 0 && (
-        <div className="card p-12 rounded-lg text-center text-zinc-500">
-          Sem outputs do Council ainda. Corre <code>python -m agents.council.story &lt;TK&gt;</code>.
-        </div>
+          {previous.length > 0 && (
+            <Section
+              label="Earlier runs"
+              meta={`${previous.length}`}
+            >
+              <div className="card overflow-hidden">
+                <div className="max-h-72 overflow-y-auto">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="border-b border-[var(--border-subtle)] sticky top-0 bg-[var(--bg-elevated)]">
+                        <th className="text-left type-h3 px-3 py-2">date</th>
+                        <th className="text-left type-h3 px-3 py-2">ticker</th>
+                        <th className="text-left type-h3 px-3 py-2">stance</th>
+                        <th className="text-left type-h3 px-3 py-2">conf</th>
+                        <th className="text-left type-h3 px-3 py-2">sector</th>
+                      </tr>
+                    </thead>
+                    <tbody className="type-mono-sm">
+                      {previous.slice(0, 100).map((e) => (
+                        <tr
+                          key={`${e.ticker}-${e.date}`}
+                          className="border-b border-[var(--border-subtle)] hover:bg-[var(--bg-overlay)] transition-colors"
+                        >
+                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
+                            {formatDate(e.date, "short")}
+                          </td>
+                          <td className="px-3 py-1.5">
+                            <Link
+                              href={`/council/${e.ticker}`}
+                              className="text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+                            >
+                              {e.ticker}
+                            </Link>
+                          </td>
+                          <td className="px-3 py-1.5 text-[var(--text-secondary)]">
+                            {e.stance}
+                          </td>
+                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
+                            {e.confidence}
+                          </td>
+                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
+                            {e.sector || "—"}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </Section>
+          )}
+        </>
       )}
     </div>
   );
 }
 
-function SummaryStat({
+function CountBox({
   label,
-  value,
-  tone,
+  n,
+  variant,
 }: {
   label: string;
-  value: number;
-  tone: "green" | "yellow" | "red" | "zinc";
+  n: number;
+  variant?: "buy" | "hold" | "avoid";
 }) {
-  const valueColor =
-    tone === "green"
-      ? "text-green-300"
-      : tone === "yellow"
-        ? "text-yellow-300"
-        : tone === "red"
-          ? "text-red-300"
-          : "text-zinc-200";
+  const cls =
+    variant === "buy"
+      ? "border-[rgba(34,197,94,0.3)] text-[var(--verdict-buy)]"
+      : variant === "hold"
+      ? "border-[rgba(245,158,11,0.3)] text-[var(--verdict-hold)]"
+      : variant === "avoid"
+      ? "border-[rgba(239,68,68,0.3)] text-[var(--verdict-avoid)]"
+      : "border-[var(--border-subtle)] text-[var(--text-primary)]";
   return (
-    <div className="card p-3 rounded-lg">
-      <div className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">{label}</div>
-      <div className={`text-2xl font-light tabular ${valueColor} mt-1`}>{value}</div>
+    <div className={`card p-3 ${cls}`}>
+      <div className="type-h3">{label}</div>
+      <div className="type-display tabular mt-1">{n}</div>
     </div>
   );
 }
 
 function CouncilCard({ e }: { e: CouncilEntry }) {
-  const mosPct =
+  const mos =
     e.margin_of_safety && e.margin_of_safety !== 0
-      ? `${(e.margin_of_safety * 100).toFixed(1)}% MoS`
+      ? formatPercent(e.margin_of_safety, 1, { fromFraction: true })
       : null;
   return (
     <Link
       href={`/council/${e.ticker}`}
-      className="card p-4 rounded-lg hover:border-cyan-500/50 transition-colors block"
+      className="card p-4 hover:border-[var(--border-strong)] transition-colors block group"
     >
-      <div className="flex items-center justify-between mb-2">
-        <h3 className="font-mono text-cyan-300 text-base">{e.ticker}</h3>
+      <header className="flex items-center justify-between mb-2">
+        <h3 className="type-mono text-[var(--accent-glow)] group-hover:text-[var(--text-primary)] transition-colors text-base">
+          {e.ticker}
+        </h3>
         <StancePill stance={e.stance} confidence={e.confidence} />
-      </div>
-      <div className="text-[10px] font-mono text-zinc-500 mb-2">
-        {e.market.toUpperCase()} · {e.modo ? `Modo ${e.modo}` : "—"}
-        {e.is_holding && <span className="text-purple-300 ml-1">· holding</span>}
+      </header>
+      <div className="flex items-center gap-2 flex-wrap mb-2">
+        <Pill variant={pillVariantFromMarket(e.market)}>
+          {e.market.toUpperCase()}
+        </Pill>
+        {e.modo && (
+          <span className="type-mono-sm text-[var(--text-tertiary)]">
+            modo {e.modo}
+          </span>
+        )}
+        {e.is_holding && <Pill variant="purple">holding</Pill>}
       </div>
       {(e.dissent_count > 0 || e.flag_count > 0) && (
-        <div className="flex gap-2 text-[10px] font-mono">
+        <div className="flex gap-2 mb-1.5">
           {e.dissent_count > 0 && (
-            <span className="text-orange-300">
-              ◇ {e.dissent_count} dissent
-            </span>
+            <Pill variant="hold">◇ {e.dissent_count} dissent</Pill>
           )}
           {e.flag_count > 0 && (
-            <span className="text-red-300">
-              ⚑ {e.flag_count} pre-pub
-            </span>
+            <Pill variant="avoid">⚑ {e.flag_count} pre-pub</Pill>
           )}
         </div>
       )}
       {e.seats.length > 0 && (
-        <div className="text-[10px] text-zinc-600 mt-2 truncate">
+        <p className="type-mono-sm text-[var(--text-tertiary)] truncate">
           {e.seats.slice(0, 4).join(" · ")}
           {e.seats.length > 4 && ` +${e.seats.length - 4}`}
-        </div>
+        </p>
       )}
-      {mosPct && (
-        <div className="text-[10px] font-mono text-zinc-500 mt-1">{mosPct}</div>
+      {mos && (
+        <p className="type-mono-sm text-[var(--text-secondary)] mt-1">
+          MoS {mos}
+        </p>
       )}
     </Link>
   );

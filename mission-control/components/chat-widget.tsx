@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
 
 type Msg = { role: "user" | "assistant" | "error"; text: string; ts: number };
 
-const STORAGE_KEY = "antonio-carlos-chat-v1";
+const STORAGE_KEY = "antonio-carlos-chat-v2";
 
 function loadMessages(): Msg[] {
   if (typeof window === "undefined") return [];
@@ -21,6 +21,25 @@ function saveMessages(msgs: Msg[]) {
   } catch {
     /* ignore */
   }
+}
+
+const SLASH_COMMANDS: { name: string; description: string; expand: string }[] = [
+  { name: "/allocate", description: "ver proposta de alocação", expand: "Mostra a allocation actual e top weights." },
+  { name: "/hedge", description: "estado do hedge tactical", expand: "O hedge tactical está activo? Qual instrument e size?" },
+  { name: "/strategy", description: "engines de um ticker — ex: /strategy ACN", expand: "Como é que cada engine vê o ticker {arg}? Score, verdict, rationale." },
+  { name: "/why", description: "porque este ticker está em XYZ — ex: /why JNJ", expand: "Porque é que {arg} tem este verdict no Council? Quais drivers, quais dissents?" },
+  { name: "/position", description: "minha posição em — ex: /position ITSA4", expand: "Qual minha posição actual em {arg}? PnL, YoC, custo, market value." },
+  { name: "/regime", description: "regime macro actual", expand: "Em que regime macro estamos (BR e US)? Sectores favorecidos, defesa em curso?" },
+];
+
+function expandCommand(text: string): string {
+  const trimmed = text.trim();
+  if (!trimmed.startsWith("/")) return text;
+  const [cmd, ...rest] = trimmed.split(/\s+/);
+  const arg = rest.join(" ").trim();
+  const match = SLASH_COMMANDS.find((c) => c.name === cmd);
+  if (!match) return text;
+  return match.expand.replace("{arg}", arg || "(specify)");
 }
 
 export default function ChatWidget() {
@@ -46,10 +65,33 @@ export default function ChatWidget() {
     if (open) inputRef.current?.focus();
   }, [open]);
 
+  // Cmd+K / Ctrl+K opens chat
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setOpen((v) => !v);
+      }
+      if (e.key === "Escape" && open) {
+        setOpen(false);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [open]);
+
+  const slashSuggestions = useMemo(() => {
+    const t = input.trim();
+    if (!t.startsWith("/")) return [];
+    const prefix = t.split(/\s+/)[0];
+    return SLASH_COMMANDS.filter((c) => c.name.startsWith(prefix)).slice(0, 5);
+  }, [input]);
+
   async function send() {
-    const text = input.trim();
-    if (!text || busy) return;
-    const userMsg: Msg = { role: "user", text, ts: Date.now() };
+    const raw = input.trim();
+    if (!raw || busy) return;
+    const expanded = expandCommand(raw);
+    const userMsg: Msg = { role: "user", text: raw, ts: Date.now() };
     setMessages((m) => [...m, userMsg]);
     setInput("");
     setBusy(true);
@@ -57,7 +99,7 @@ export default function ChatWidget() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ message: text, chat_id: "mission-control" }),
+        body: JSON.stringify({ message: expanded, chat_id: "mission-control" }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -88,10 +130,19 @@ export default function ChatWidget() {
     saveMessages([]);
   }
 
+  function pickSlash(name: string) {
+    setInput(name + " ");
+    inputRef.current?.focus();
+  }
+
   function keyHandler(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       send();
+    }
+    if (e.key === "Tab" && slashSuggestions.length > 0 && input.startsWith("/")) {
+      e.preventDefault();
+      pickSlash(slashSuggestions[0].name);
     }
   }
 
@@ -101,71 +152,135 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen((v) => !v)}
         className={
-          "fixed bottom-5 right-5 z-50 grid place-items-center w-14 h-14 rounded-full " +
-          "bg-gradient-to-br from-purple-600 to-cyan-500 shadow-[0_0_20px_rgba(168,85,247,0.5)] " +
-          "hover:scale-105 transition-transform text-2xl"
+          "fixed bottom-5 right-5 z-50 grid place-items-center w-12 h-12 rounded-full " +
+          "transition-all duration-200 hover:scale-105 type-h2 " +
+          (open
+            ? "bg-[var(--bg-overlay)] border border-[var(--border-strong)] text-[var(--text-secondary)]"
+            : "")
+        }
+        style={
+          !open
+            ? {
+                background:
+                  "linear-gradient(135deg, var(--accent-primary), var(--accent-glow))",
+                boxShadow: "0 0 24px rgba(139,92,246,0.4)",
+              }
+            : undefined
         }
         aria-label="Antonio Carlos"
+        title="Antonio Carlos · cmd+k"
       >
-        {open ? "×" : "🐙"}
+        <span aria-hidden>{open ? "×" : "◈"}</span>
       </button>
 
       {/* Panel */}
       {open && (
-        <div className="fixed bottom-24 right-5 z-50 w-[28rem] max-w-[calc(100vw-2rem)] h-[32rem] flex flex-col card-purple rounded-xl shadow-2xl overflow-hidden">
-          <header className="flex items-center justify-between px-4 py-3 border-b border-purple-800/40 bg-purple-950/40">
+        <div className="fixed bottom-20 right-5 z-50 w-[28rem] max-w-[calc(100vw-2rem)] h-[34rem] flex flex-col rounded-lg overflow-hidden border border-[var(--border-strong)] shadow-2xl"
+          style={{ background: "var(--bg-elevated)" }}
+        >
+          <header className="flex items-center justify-between px-4 py-3 border-b border-[var(--border-subtle)]">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-cyan-400 dot-live animate-pulse"></span>
-              <span className="font-mono text-sm text-purple-200">Antonio Carlos</span>
-              <span className="text-[10px] text-zinc-500 font-mono">Chief of Staff</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-glow)] dot-live animate-pulse" aria-hidden />
+              <span className="type-body text-[var(--text-primary)] font-medium">
+                Antonio Carlos
+              </span>
+              <span className="type-mono-sm text-[var(--text-tertiary)]">
+                · chief of staff
+              </span>
             </div>
-            <button
-              onClick={clearChat}
-              className="text-[10px] font-mono text-zinc-500 hover:text-red-400"
-              title="Clear local history"
-            >
-              CLEAR
-            </button>
+            <div className="flex items-center gap-2">
+              <span className="type-mono-sm text-[var(--text-disabled)] hidden sm:inline">
+                ⌘K
+              </span>
+              <button
+                onClick={clearChat}
+                className="type-mono-sm text-[var(--text-tertiary)] hover:text-[var(--verdict-avoid)] transition-colors"
+                title="Clear local history"
+              >
+                clear
+              </button>
+            </div>
           </header>
 
-          <div ref={scrollRef} className="flex-1 overflow-y-auto p-3 space-y-3 text-sm">
+          <div
+            ref={scrollRef}
+            className="flex-1 overflow-y-auto p-3 space-y-3"
+          >
             {messages.length === 0 && (
-              <div className="text-xs text-zinc-500 italic px-2 py-4 text-center">
-                Pergunta livre em PT-BR.<br />
-                Ex: <em>&ldquo;qual minha posição em ITSA4?&rdquo;</em><br />
-                <em>&ldquo;tô com 5k em caixa, onde adicionar?&rdquo;</em>
+              <div className="space-y-3 px-2 py-2">
+                <p className="type-body-sm text-[var(--text-secondary)] italic">
+                  Pergunta livre em PT-BR ou usa um shortcut:
+                </p>
+                <ul className="space-y-1">
+                  {SLASH_COMMANDS.map((c) => (
+                    <li key={c.name}>
+                      <button
+                        onClick={() => pickSlash(c.name)}
+                        className="w-full text-left px-2 py-1.5 rounded hover:bg-[var(--bg-overlay)] transition-colors"
+                      >
+                        <span className="type-mono text-[var(--accent-glow)]">
+                          {c.name}
+                        </span>
+                        <span className="type-body-sm text-[var(--text-tertiary)] ml-2">
+                          {c.description}
+                        </span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
             {messages.map((m, i) => (
               <Bubble key={i} msg={m} />
             ))}
             {busy && (
-              <div className="text-xs text-zinc-500 italic px-2 py-1 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                Antonio Carlos a pensar (Qwen 2.5 32B)…
+              <div className="type-body-sm text-[var(--text-tertiary)] italic px-2 py-1 flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-glow)] animate-pulse" aria-hidden />
+                a pensar (qwen 2.5 32B)…
               </div>
             )}
           </div>
 
-          <footer className="border-t border-purple-800/40 p-2 bg-zinc-950/60">
+          {/* Slash suggestions strip */}
+          {slashSuggestions.length > 0 && (
+            <div className="border-t border-[var(--border-subtle)] px-2 py-1.5 flex items-center gap-1 overflow-x-auto"
+              style={{ background: "var(--bg-overlay)" }}
+            >
+              {slashSuggestions.map((s) => (
+                <button
+                  key={s.name}
+                  onClick={() => pickSlash(s.name)}
+                  className="pill pill-glow whitespace-nowrap shrink-0 hover:bg-[rgba(6,182,212,0.12)]"
+                  title={s.description}
+                >
+                  {s.name}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <footer
+            className="border-t border-[var(--border-subtle)] p-2"
+            style={{ background: "var(--bg-deep)" }}
+          >
             <textarea
               ref={inputRef}
               rows={2}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={keyHandler}
-              placeholder={busy ? "aguarda…" : "pergunta em PT (Enter envia)"}
+              placeholder={busy ? "aguarda…" : "pergunta · ou /comando · enter envia"}
               disabled={busy}
-              className="w-full bg-transparent text-sm text-zinc-100 outline-none resize-none placeholder-zinc-600 px-2 py-1"
+              className="w-full bg-transparent type-body-sm text-[var(--text-primary)] outline-none resize-none placeholder-[var(--text-disabled)] px-2 py-1"
             />
             <div className="flex items-center justify-between mt-1 px-2">
-              <span className="text-[9px] font-mono text-zinc-600">
-                Shift+Enter = new line · {messages.length} msgs
+              <span className="type-mono-sm text-[var(--text-disabled)]">
+                shift+enter = new line · {messages.length} msgs
               </span>
               <button
                 onClick={send}
                 disabled={busy || !input.trim()}
-                className="px-3 py-1 text-xs font-mono rounded border border-purple-700/50 bg-purple-900/30 hover:bg-purple-900/50 disabled:opacity-40"
+                className="pill pill-purple disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[rgba(139,92,246,0.18)]"
               >
                 send →
               </button>
@@ -181,7 +296,14 @@ function Bubble({ msg }: { msg: Msg }) {
   if (msg.role === "user") {
     return (
       <div className="flex justify-end">
-        <div className="bg-cyan-900/40 border border-cyan-700/40 rounded-lg px-3 py-2 max-w-[85%] text-zinc-100 whitespace-pre-wrap">
+        <div
+          className="rounded-lg px-3 py-2 max-w-[85%] type-body-sm whitespace-pre-wrap"
+          style={{
+            background: "rgba(6,182,212,0.08)",
+            border: "1px solid rgba(6,182,212,0.2)",
+            color: "var(--text-primary)",
+          }}
+        >
           {msg.text}
         </div>
       </div>
@@ -189,14 +311,28 @@ function Bubble({ msg }: { msg: Msg }) {
   }
   if (msg.role === "error") {
     return (
-      <div className="bg-red-900/30 border border-red-700/40 rounded-lg px-3 py-2 text-red-300 text-xs whitespace-pre-wrap font-mono">
+      <div
+        className="rounded-lg px-3 py-2 type-mono-sm whitespace-pre-wrap"
+        style={{
+          background: "rgba(239,68,68,0.06)",
+          border: "1px solid rgba(239,68,68,0.25)",
+          color: "var(--verdict-avoid)",
+        }}
+      >
         {msg.text}
       </div>
     );
   }
   return (
     <div className="flex justify-start">
-      <div className="bg-purple-900/30 border border-purple-700/30 rounded-lg px-3 py-2 max-w-[88%] text-zinc-100 whitespace-pre-wrap leading-relaxed">
+      <div
+        className="rounded-lg px-3 py-2 max-w-[88%] type-body-sm whitespace-pre-wrap leading-relaxed"
+        style={{
+          background: "rgba(139,92,246,0.06)",
+          border: "1px solid rgba(139,92,246,0.18)",
+          color: "var(--text-primary)",
+        }}
+      >
         {msg.text}
       </div>
     </div>

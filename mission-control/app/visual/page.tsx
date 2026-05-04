@@ -1,4 +1,5 @@
 import { listDepartments } from "@/lib/agents";
+import { PageHeader } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -57,21 +58,14 @@ export default function VisualOfficePage() {
   const others = allAgents.filter((a) => a.name !== "antonio_carlos");
 
   return (
-    <div className="p-8 space-y-6">
-      <header className="flex items-end justify-between border-b border-[#1f1f3d] pb-4">
-        <div>
-          <h1 className="text-3xl font-light text-zinc-100">
-            <span className="text-cyan-400">▦</span> Agent Office
-          </h1>
-          <p className="text-xs font-mono text-zinc-500 mt-1">
-            Quem está a trabalhar, quem está em standby, quem precisa de atenção
-          </p>
-        </div>
-        <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-cyan-300 flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-cyan-400 dot-live animate-pulse"></span>
-          LIVE
-        </span>
-      </header>
+    <div className="p-8 space-y-6 max-w-[1400px]">
+      <PageHeader
+        title="Agent Office"
+        subtitle="Quem está a trabalhar, quem está em standby, quem precisa de atenção"
+        crumbs={[{ label: "Home", href: "/" }, { label: "Visual Office" }]}
+        freshnessLabel="live"
+        freshness={new Date()}
+      />
 
       {/* Chief of Staff feature */}
       {chief && (

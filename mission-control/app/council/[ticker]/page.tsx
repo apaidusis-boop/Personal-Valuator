@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import { readCouncilStory } from "@/lib/vault";
 import { DOSSIERS_DIR } from "@/lib/paths";
+import { formatDate } from "@/lib/format";
+import { PageHeader, Pill, EmptyState, pillVariantFromMarket } from "@/components/ui";
 import StancePill from "@/components/stance-pill";
 import Markdown from "@/components/markdown";
 
@@ -31,15 +33,25 @@ export default async function CouncilTickerPage({
 
   if (!data) {
     return (
-      <div className="p-8 space-y-4">
-        <Link href="/council" className="text-[10px] font-mono text-zinc-500 hover:text-cyan-300">
-          ← Council
-        </Link>
-        <h1 className="text-2xl text-zinc-100">{tk}</h1>
-        <p className="text-zinc-500">
-          Sem dossier do Council para este ticker. Corre{" "}
-          <code className="text-cyan-300">python -m agents.council.story {tk}</code>.
-        </p>
+      <div className="p-8 max-w-[1200px] space-y-6">
+        <PageHeader
+          title={tk}
+          crumbs={[
+            { label: "Home", href: "/" },
+            { label: "Council", href: "/council" },
+            { label: tk },
+          ]}
+        />
+        <EmptyState
+          icon="◯"
+          title="Sem dossier do Council"
+          description="Este ticker ainda não foi avaliado pelo Council. Aguarda o próximo overnight batch."
+          action={
+            <Link href={`/ticker/${tk}`} className="pill pill-glow">
+              ver ticker page →
+            </Link>
+          }
+        />
       </div>
     );
   }
@@ -49,36 +61,29 @@ export default async function CouncilTickerPage({
 
   return (
     <div className="p-8 space-y-6 max-w-5xl">
-      <header className="border-b border-[#1f1f3d] pb-4">
-        <div className="flex items-center justify-between">
-          <Link href="/council" className="text-[10px] font-mono text-zinc-500 hover:text-cyan-300">
-            ← Council index
-          </Link>
-          <Link
-            href={`/ticker/${tk}`}
-            className="text-[10px] font-mono text-zinc-500 hover:text-cyan-300"
-          >
-            ticker page →
-          </Link>
-        </div>
-        <div className="flex items-end justify-between mt-2">
-          <div>
-            <h1 className="text-3xl font-light text-zinc-100">
-              <span className="text-cyan-300 font-mono">{tk}</span>
-              <span className="ml-3 text-base text-zinc-400">
-                {entry.market.toUpperCase()}{entry.modo && ` · Modo ${entry.modo}`}
-                {entry.sector && ` · ${entry.sector}`}
-              </span>
-            </h1>
-            <div className="text-xs font-mono text-zinc-500 mt-1">
-              {entry.date}
-              {entry.elapsed_sec ? ` · ${entry.elapsed_sec.toFixed(1)}s` : ""}
-              {entry.is_holding && <span className="text-purple-300 ml-2">· holding</span>}
-            </div>
+      <PageHeader
+        title={tk}
+        subtitle={`${entry.sector || ""}${entry.modo ? ` · Modo ${entry.modo}` : ""}${entry.elapsed_sec ? ` · ${entry.elapsed_sec.toFixed(1)}s` : ""}`}
+        crumbs={[
+          { label: "Home", href: "/" },
+          { label: "Council", href: "/council" },
+          { label: tk },
+        ]}
+        freshness={entry.date}
+        actions={
+          <div className="flex items-center gap-2">
+            <Pill variant={pillVariantFromMarket(entry.market)}>{entry.market.toUpperCase()}</Pill>
+            {entry.is_holding && <Pill variant="purple">holding</Pill>}
+            <StancePill stance={entry.stance} confidence={entry.confidence} size="lg" />
+            <Link
+              href={`/ticker/${tk}`}
+              className="pill pill-glow"
+            >
+              ticker page →
+            </Link>
           </div>
-          <StancePill stance={entry.stance} confidence={entry.confidence} size="lg" />
-        </div>
-      </header>
+        }
+      />
 
       {entry.synthesis && (
         <section className="card-purple p-5 rounded-lg space-y-4">

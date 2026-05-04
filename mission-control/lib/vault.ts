@@ -388,6 +388,19 @@ export function readBriefing(): string | null {
   return safeRead(p);
 }
 
+export function readBriefingMeta(): { content: string | null; mtime: string | null } {
+  const p = path.join(DASHBOARDS_DIR, "Briefing.md");
+  const content = safeRead(p);
+  let mtime: string | null = null;
+  try {
+    const st = fs.statSync(p);
+    mtime = st.mtime.toISOString();
+  } catch {
+    /* missing */
+  }
+  return { content, mtime };
+}
+
 export type Topic = {
   id: string;
   name: string;

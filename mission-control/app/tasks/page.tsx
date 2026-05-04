@@ -1,4 +1,8 @@
+import Link from "next/link";
+
 import { listOpenActions } from "@/lib/db";
+import { formatDate } from "@/lib/format";
+import { PageHeader, Section, Pill, EmptyState } from "@/components/ui";
 import TaskRowActions from "./row-actions";
 
 export const dynamic = "force-dynamic";
@@ -12,71 +16,81 @@ export default function TasksPage() {
     byKind.get(k)!.push(a);
   }
 
-  return (
-    <div className="p-8 space-y-6">
-      <header className="flex items-end justify-between border-b border-[#1f1f3d] pb-4">
-        <div>
-          <h1 className="text-3xl font-light text-zinc-100">
-            <span className="text-purple-400">▤</span> Tasks
-          </h1>
-          <p className="text-xs font-mono text-zinc-500 mt-1">
-            Open watchlist actions — clica APROVAR ou IGNORAR para resolver
-          </p>
-        </div>
-        <div className="text-xs font-mono text-cyan-300 uppercase tracking-wider">
-          {actions.length} open
-        </div>
-      </header>
+  // Latest creation timestamp for freshness pill
+  const latestTs = actions.reduce<string>((acc, a) => {
+    return (a.created_at || "") > acc ? a.created_at : acc;
+  }, "");
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {[...byKind.entries()].map(([kind, items]) => (
-          <div key={kind} className="card p-4 rounded-lg">
-            <div className="flex items-center justify-between mb-3">
-              <h2 className="text-sm font-mono uppercase tracking-wider text-purple-300">
-                {kind}
-              </h2>
-              <span className="tag text-zinc-400">{items.length}</span>
-            </div>
-            <div className="space-y-2 max-h-[28rem] overflow-y-auto">
-              {items.map((a) => (
-                <div
-                  key={`${a.market}-${a.id}`}
-                  className="border-l-2 border-purple-700/40 pl-3 py-2 hover:bg-purple-900/10 rounded-r"
-                >
-                  <div className="flex items-center gap-2 text-xs">
-                    <span
-                      className={`px-1.5 py-0.5 rounded text-[9px] font-mono ${
-                        a.market === "br"
-                          ? "bg-green-900/30 text-green-400"
-                          : "bg-blue-900/30 text-blue-300"
-                      }`}
+  return (
+    <div className="p-8 space-y-8 max-w-[1400px]">
+      <PageHeader
+        title="Tasks"
+        subtitle="Watchlist actions abertas — clica APROVAR ou IGNORAR para resolver"
+        crumbs={[{ label: "Home", href: "/" }, { label: "Tasks" }]}
+        freshness={latestTs || null}
+        freshnessLabel={
+          actions.length > 0
+            ? `${actions.length} open · last ${formatDate(latestTs, "relative")}`
+            : undefined
+        }
+      />
+
+      {actions.length === 0 ? (
+        <EmptyState
+          icon="◯"
+          title="Nenhuma action aberta"
+          description="Quando os perpetuums ou triggers detectarem um sinal, vão aparecer aqui."
+        />
+      ) : (
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+          {[...byKind.entries()]
+            .sort((a, b) => b[1].length - a[1].length)
+            .map(([kind, items]) => (
+              <Section
+                key={kind}
+                label={kind}
+                meta={`${items.length}`}
+              >
+                <div className="card p-4 space-y-2 max-h-[28rem] overflow-y-auto">
+                  {items.map((a) => (
+                    <article
+                      key={`${a.market}-${a.id}`}
+                      className="border-l-2 border-[var(--border-strong)] pl-3 py-2 hover:bg-[var(--bg-overlay)] rounded-r transition-colors"
                     >
-                      {a.market.toUpperCase()}
-                    </span>
-                    <span className="font-mono text-cyan-300 font-medium">{a.ticker}</span>
-                    <span className="text-[9px] text-zinc-500 ml-auto font-mono">
-                      #{a.id}
-                    </span>
-                  </div>
-                  <div className="text-xs text-zinc-300 mt-1">{a.description}</div>
-                  <div className="flex items-center justify-between mt-2">
-                    <div className="text-[10px] text-zinc-500 font-mono">
-                      {(a.created_at || "").slice(0, 16)}
-                    </div>
-                    <TaskRowActions id={a.id} market={a.market} ticker={a.ticker} />
-                  </div>
+                      <header className="flex items-center gap-2 mb-1">
+                        <Pill variant={a.market === "br" ? "mkt-br" : "mkt-us"}>
+                          {a.market.toUpperCase()}
+                        </Pill>
+                        <Link
+                          href={`/ticker/${a.ticker}`}
+                          className="type-mono text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors font-medium"
+                        >
+                          {a.ticker}
+                        </Link>
+                        <span className="type-mono-sm text-[var(--text-disabled)] ml-auto">
+                          #{a.id}
+                        </span>
+                      </header>
+                      <p className="type-body-sm text-[var(--text-secondary)] mb-2 line-clamp-3">
+                        {a.description}
+                      </p>
+                      <footer className="flex items-center justify-between gap-2">
+                        <span className="type-mono-sm text-[var(--text-tertiary)]">
+                          {formatDate(a.created_at, "relative")}
+                        </span>
+                        <TaskRowActions
+                          id={a.id}
+                          market={a.market}
+                          ticker={a.ticker}
+                        />
+                      </footer>
+                    </article>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
-        ))}
-        {actions.length === 0 && (
-          <div className="card p-12 rounded-lg col-span-full text-center text-zinc-500">
-            <div className="text-4xl mb-2">▤</div>
-            <p>Sem actions abertas. Os perpetuums e triggers vão criar quando houver sinal.</p>
-          </div>
-        )}
-      </div>
+              </Section>
+            ))}
+        </div>
+      )}
     </div>
   );
 }
