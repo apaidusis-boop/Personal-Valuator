@@ -24,6 +24,7 @@ tier_target: gold
 - [[SKL_canvas_design]] 🎨 — briefings visuais + charts em Obsidian Canvas
 - [[SKL_pptx]] 🎬 — quarterly deck auto-gerado + annual review
 - [[SKL_remotion]] 🎥 — weekly video recap (60-90s MP4, TTS narrated)
+- [[SKL_google_stitch]] 🪡 — vibe design tool (Tier B observe-only; valida Helena Linha sem substituir)
 
 ### Scraping & Data (W.2)
 - [[SKL_playwright_mcp]] 🎭 — Investidor10, brokers, sites JS-heavy

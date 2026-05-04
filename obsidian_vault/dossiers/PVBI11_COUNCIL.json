@@ -1,0 +1,154 @@
+{
+  "ticker": "PVBI11",
+  "market": "br",
+  "modo": "D",
+  "sector": "Corporativo",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Lourdes Aluguel",
+      "agent_slug": "fiis_br_specialist",
+      "title": "FIIs BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "PVBI11 mantém atratividade com DY sustentável",
+      "stance": "BUY",
+      "main_argument": "Dividendos consistentes e P/E baixo sugerem valor atraente; entrada em R$79,04 mostra posição sólida.",
+      "supporting_metrics": [
+        "P/E de 8.10",
+        "DY de 6.2%",
+        "DivStreak de 7"
+      ],
+      "concerns": [
+        "Mercado brasileiro volátil",
+        "Dependência do setor imobiliário"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "Dividendos sustentáveis e crescimento acionário",
+      "stance": "BUY",
+      "main_argument": "PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete anos. Posição atual sugere valorização.",
+      "supporting_metrics": [
+        "P/E=8.10",
+        "DY=6%",
+        "DivStreak=7"
+      ],
+      "concerns": [
+        "Dependência do mercado brasileiro",
+        "Volatilidade cambial"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "PVBI11 mantém atratividade com dividendos sustentáveis",
+      "stance": "BUY",
+      "main_argument": "Dividend yield de 6% e P/E de 8,10 sugerem valorização atraente; sete anos consecutivos de pagamentos.",
+      "supporting_metrics": [
+        "P/E=8.10",
+        "DY=6.2%",
+        "DivStreak=7"
+      ],
+      "concerns": [
+        "Dependência do mercado imobiliário brasileiro",
+        "Possível volatilidade econômica"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "PVBI11 mantém atratividade com DY sustentável",
+      "stance": "BUY",
+      "main_argument": "Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M oferece base sólida.",
+      "supporting_metrics": [
+        "P/E=8.10",
+        "DY=6.2%",
+        "DivStreak=7"
+      ],
+      "concerns": [
+        "peso atual em carteira (4.6%) acima do inicial (3-7%)",
+        "impacto de mudanças no mercado imobiliário brasileiro"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "Dividendos sustentáveis e crescimento acionário - Mariana Macro",
+        "PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete anos - Valentina Prudente"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "Dividendos consistentes e P/E baixo sugerem valorização; sete anos consecutivos de pagamentos - Valentina Prudente"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M oferece base sólida.",
+        "Pedro Alocação"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "Dividendos consistentes e P/E baixo sugerem valorização; Lourdes Aluguel"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "Dividendos consistentes e P/E baixo sugerem valorização; sete anos consecutivos de pagamentos - Lourdes Aluguel, Mariana Macro, Valentina Prudente",
+      "Market cap de US$426M oferece base sólida - Pedro Alocação"
+    ],
+    "dissent_points": [],
+    "final_stance": "BUY",
+    "confidence": "high",
+    "pre_publication_flags": [
+      "Peso atual em carteira (4.6%) acima do inicial (3-7%) - Pedro Alocação",
+      "Dependência do mercado imobiliário brasileiro - Lourdes Aluguel, Mariana Macro, Valentina Prudente"
+    ],
+    "sizing_recommendation": "Considerar reduzir a posição para um peso dentro da faixa recomendada de 3-7% na carteira."
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Lourdes Aluguel\\reviews\\PVBI11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\PVBI11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\PVBI11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\PVBI11_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 49.87851881980896,
+  "date": "2026-04-30"
+}

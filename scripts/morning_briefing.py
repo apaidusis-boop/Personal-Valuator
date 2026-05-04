@@ -268,17 +268,21 @@ def main() -> int:
     print(text)
 
     if not args.stdout_only:
+        from analytics.obsidian_link import print_saved
         today = date.today().isoformat()
         # Também guarda no vault Obsidian se existir
         vault_dir = ROOT / "obsidian_vault" / "briefings"
         vault_dir.mkdir(parents=True, exist_ok=True)
-        (vault_dir / f"{today}.md").write_text(text, encoding="utf-8")
+        vault_md = vault_dir / f"{today}.md"
+        vault_md.write_text(text, encoding="utf-8")
         # E em reports/ também
         reports_dir = ROOT / "reports"
         reports_dir.mkdir(exist_ok=True)
-        (reports_dir / f"briefing_{today}.md").write_text(text, encoding="utf-8")
-        print(f"\n[saved] obsidian_vault/briefings/{today}.md")
-        print(f"[saved] reports/briefing_{today}.md")
+        reports_md = reports_dir / f"briefing_{today}.md"
+        reports_md.write_text(text, encoding="utf-8")
+        print()
+        print_saved(vault_md)
+        print_saved(reports_md)
     return 0
 
 

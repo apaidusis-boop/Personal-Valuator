@@ -102,14 +102,23 @@ class TelegramControllerAgent(BaseAgent):
                 continue
 
             if not text.startswith("/"):
-                # Natural-language dispatch (Ollama 14B local, 0 tokens Claude)
+                # Antonio Carlos — Chief of Staff. Tool-calling agentic loop on
+                # Ollama Qwen 2.5 32B, conversational memory per chat_id, ~15
+                # tools wrapping the ii catalog. Replaces the rigid intent
+                # classifier of _nl_dispatch (kept available as fallback if
+                # Antonio Carlos itself fails to load).
                 try:
-                    from ._nl_dispatch import handle as nl_handle
-                    reply = nl_handle(text)
+                    from .chief_of_staff import handle as antonio_handle
+                    reply = antonio_handle(text, chat_id=chat_id)
                 except Exception as e:
-                    reply = f"❌ NL dispatcher falhou: {type(e).__name__}: {e}"
+                    try:
+                        from ._nl_dispatch import handle as nl_handle
+                        reply = (f"⚠️ Antonio Carlos offline ({type(e).__name__}); "
+                                 f"fallback rápido:\n\n{nl_handle(text)}")
+                    except Exception as e2:
+                        reply = f"❌ NL dispatcher falhou: {type(e2).__name__}: {e2}"
                 self._reply(token, chat_id, reply[:4000])
-                actions.append(f"nl({text[:30]})")
+                actions.append(f"antonio({text[:30]})")
                 processed += 1
                 continue
 
@@ -118,10 +127,19 @@ class TelegramControllerAgent(BaseAgent):
             cmd = parts[0].lower()
             args = parts[1:] if len(parts) > 1 else []
 
-            try:
-                reply = self._dispatch(root, cmd, args)
-            except Exception as e:
-                reply = f"❌ Erro ao executar {cmd}: {type(e).__name__}: {e}"
+            # /reset needs chat_id — handle inline before _dispatch
+            if cmd == "/reset":
+                try:
+                    from .chief_of_staff import reset_chat
+                    n = reset_chat(chat_id)
+                    reply = f"🧹 Memória limpa ({n} mensagens removidas)."
+                except Exception as e:
+                    reply = f"❌ {type(e).__name__}: {e}"
+            else:
+                try:
+                    reply = self._dispatch(root, cmd, args)
+                except Exception as e:
+                    reply = f"❌ Erro ao executar {cmd}: {type(e).__name__}: {e}"
 
             self._reply(token, chat_id, reply[:4000])
             actions.append(f"{cmd}({' '.join(args)})")
@@ -144,15 +162,28 @@ class TelegramControllerAgent(BaseAgent):
         if cmd == "/help":
             return (
                 "📋 Comandos disponíveis:\n\n"
+                "*Conversa livre* — escreve qualquer pergunta em PT, "
+                "Antonio Carlos (Chief of Staff) responde e chama as tools certas.\n\n"
+                "*Slash commands*:\n"
                 "/status — health geral dos agents\n"
                 "/status <agent> — detalhe de um agent\n"
                 "/run <agent> — execução manual\n"
                 "/brief — briefing matinal imediato\n"
-                "/panorama <ticker> — análise de um ticker\n"
+                "/panorama <ticker> — verdict rápido\n"
                 "/approve <action_id> — marca trigger como executado\n"
                 "/ignore <action_id> — descarta trigger\n"
-                "/who — lista funcionários"
+                "/reset — limpa memória conversacional do Antonio Carlos\n"
+                "/who — lista funcionários da casa"
             )
+
+        if cmd == "/reset":
+            try:
+                from .chief_of_staff import reset_chat
+                # chat_id é o caller; passa-se via kwargs no caller
+                return ("Use a frase 'esquece o que falamos' ou envie /reset "
+                        "directamente do chat — a memória será limpa.")
+            except Exception as e:
+                return f"❌ {type(e).__name__}: {e}"
 
         if cmd == "/who":
             return self._list_personas()

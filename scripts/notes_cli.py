@@ -231,11 +231,12 @@ def main() -> int:
 
     args = ap.parse_args()
 
+    from analytics.obsidian_link import print_saved
     if args.cmd == "add":
         text = " ".join(args.text)
         tags = [t.strip() for t in (args.tags or "").split(",") if t.strip()]
         p = add_note(args.ticker, text, tags)
-        print(f"wrote {p}")
+        print_saved(p, prefix="wrote")
     elif args.cmd == "show":
         show_note(args.ticker)
     elif args.cmd == "list":
@@ -246,7 +247,7 @@ def main() -> int:
         if p is None:
             print(f"(nota de {args.ticker} não existe — usa 'add' primeiro)")
             return 1
-        print(f"updated {p}")
+        print_saved(p, prefix="updated")
     elif args.cmd == "archive":
         ok = archive_note(args.ticker)
         print("archived" if ok else "(nada a arquivar)")

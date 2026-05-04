@@ -1,0 +1,166 @@
+{
+  "ticker": "TEN",
+  "market": "us",
+  "modo": "A",
+  "sector": "Energy",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Charlie Compounder",
+      "agent_slug": "industrials_us_specialist",
+      "title": "Industrials & Consumer US Specialist (Buffett frame)"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "Tsakos Energy Navigation: Valor intrínseco subavaliado",
+      "stance": "BUY",
+      "main_argument": "P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; histórico de dividendos consistente.",
+      "supporting_metrics": [
+        "P/E=9.14",
+        "ROE=9.1%",
+        "DivStreak=24"
+      ],
+      "concerns": [
+        "Altman Z-Score em zona de estresse",
+        "F-Score baixo (3/9)"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "Baixa avaliação devido a risco operacional",
+      "stance": "AVOID",
+      "main_argument": "Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com potencial de insolvência. ROE baixo (9,1%) não justifica preço atual.",
+      "supporting_metrics": [
+        "Piotroski F-Score: 3/9",
+        "Altman Z-Score: 1.01",
+        "ROE: 9.1%"
+      ],
+      "concerns": [
+        "Fragilidade financeira indicada por métricas de qualidade",
+        "Baixo ROE não sustenta preço atual"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Risco operacional elevado apesar de fundamentos atraentes",
+      "stance": "HOLD",
+      "main_argument": "Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski F-Score fraco (3/9) indica fragilidade operacional.",
+      "supporting_metrics": [
+        "Piotroski F-Score: 3/9",
+        "Altman Z-Score: 1.01",
+        "Beneish M-Score: -2.24"
+      ],
+      "concerns": [
+        "Z-Score indicando zona de estresse",
+        "F-Score sugerindo fragilidade operacional"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Avaliação mista devido a baixo P/E e ROE sólido, mas preocupações com z-score",
+      "stance": "HOLD",
+      "main_argument": "Tsakos Energy Navigation apresenta um P/E baixo (9.14x) e ROE de 9.1%, sugerindo valorização. No entanto, o histórico de dividendos é consistente.",
+      "supporting_metrics": [
+        "P/E=9.14",
+        "ROE=9.1%",
+        "DivStreak=24"
+      ],
+      "concerns": [
+        "Altman Z-Score em zona de distress (1.01)",
+        "F-Score fraco (3/9)"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski F-Score fraco (3/9) indica fragilidade operacional.",
+        "Valentina Prudente"
+      ],
+      "challenge": [
+        "Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com potencial de insolvência. ROE baixo (9,1%) não justifica preço atual.",
+        "Mariana Macro - O P/E baixo e o histórico consistente de dividendos sugerem que a empresa pode estar subavaliada apesar do F-Score fraco."
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; histórico de dividendos consistente.",
+        "Charlie Compounder"
+      ],
+      "challenge": [
+        "Altman Z-Score em zona de estresse | F-Score baixo (3/9)",
+        "A fragilidade financeira indicada pelo Altman Z-Score e Piotroski F-Score não pode ser ignorada, pois sugere risco significativo de insolvência.",
+        "Valentina Prudente"
+      ],
+      "new_evidence": "",
+      "revised_stance": "AVOID"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com potencial de insolvência.",
+        "Mariana Macro"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "AVOID"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; histórico de dividendos consistente - Charlie Compounder"
+      ],
+      "challenge": [
+        "Fragilidade financeira indicada por métricas de qualidade | Baixo ROE não sustenta preço atual - Mariana Macro: O baixo Piotroski F-Score pode ser temporário e não reflete necessariamente a saúde operacional da empresa, especialmente em setores voláteis como o petróleo e gás"
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; histórico de dividendos consistente - Charlie Compounder, Pedro Alocação",
+      "Fragilidade financeira indicada por métricas de qualidade (Altman Z-Score em zona de estresse e Piotroski F-Score fraco) - Mariana Macro, Valentina Prudente"
+    ],
+    "dissent_points": [
+      "Charlie Compounder disse que o baixo P/E e histórico consistente de dividendos sugerem subavaliação apesar do F-Score fraco; Mariana Macro disse que a fragilidade financeira indicada pelo Altman Z-Score e Piotroski F-Score não pode ser ignorada, pois sugere risco significativo de insolvência"
+    ],
+    "final_stance": "HOLD",
+    "confidence": "low",
+    "pre_publication_flags": [
+      "Fragilidade financeira indicada por métricas de qualidade - Mariana Macro",
+      "Baixo Piotroski F-Score pode ser temporário e não reflete necessariamente a saúde operacional da empresa, especialmente em setores voláteis como o petróleo e gás - Pedro Alocação"
+    ],
+    "sizing_recommendation": "Considerar reduzir posição devido ao risco financeiro elevado indicado pelas métricas de qualidade"
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Charlie Compounder\\reviews\\TEN_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\TEN_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\TEN_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\TEN_2026-05-01.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 61.72460675239563,
+  "date": "2026-05-01"
+}

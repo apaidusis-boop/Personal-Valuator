@@ -6,7 +6,7 @@ tags: [moc, agents, company, organization]
 
 # 🏢 A Empresa Sintética
 
-> Uma analyst-CFO boutique de 12 funcionários que opera 24/7 enquanto o **Founder** decide só o estratégico. Todos os empregados são agentes Python herdando de `BaseAgent`; cada um tem nome, cargo, departamento e horário.
+> Uma analyst-CFO boutique de **23 funcionários** que opera 24/7 enquanto o **Founder** decide só o estratégico. 14 são agentes autónomos (cron-driven) e 9 são especialistas on-demand do Council STORYT_2.0. Todos têm nome, cargo, departamento.
 
 ## Navegação rápida
 
@@ -41,6 +41,31 @@ tags: [moc, agents, company, organization]
 
 ### 📞 Desk (Contact)
 - [[personas/Zé Mensageiro|Zé Mensageiro]] — Telegram Desk (`telegram_controller`)
+
+### 🎓 Specialists — Council STORYT_2.0 (on-demand)
+
+> Convocados quando o Council debate um ticker. Cada um defende framing correcto do seu Modo×Jurisdição e tem veto power sobre métricas inadequadas. Cada análise que fazem fica em `agents/<Nome>/reviews/<TICKER>_<DATE>.md`.
+
+**Sector specialists** (routados por Modo×Jurisdição):
+
+| Especialista | Modo×Jur | Cobre |
+|---|---|---|
+| [[personas/Tião Galpão\|Tião Galpão]] | A-BR | Industriais & Consumer BR (POMO3, RAPT4, RENT3, MULT3, ITSA4 industrial) |
+| [[personas/Charlie Compounder\|Charlie Compounder]] | A-US | Industrials/Consumer US Buffett-frame (JNJ, PG, KO, ACN, ABBV) |
+| [[personas/Diego Bancário\|Diego Bancário]] | B-BR | Bancos BR (BBDC4, ITUB4, BBAS3, ITSA4 holding bancária) |
+| [[personas/Hank Tier-One\|Hank Tier-One]] | B-US | Bancos US (JPM, BAC, GS, WFC, MS) |
+| [[personas/Aderbaldo Cíclico\|Aderbaldo Cíclico]] | C-BR | Commodities BR (VALE3, PRIO3, SUZB3, GGBR4) |
+| [[personas/Lourdes Aluguel\|Lourdes Aluguel]] | D-BR | FIIs BR (XPML11, RBRX11, BTLG11, VGIR11, PVBI11) |
+| [[personas/Walter Triple-Net\|Walter Triple-Net]] | D-US | REITs US (O, STAG, AMT, PLD) |
+
+**Cross-cutting** (vão a todo o council):
+
+- [[personas/Mariana Macro\|Mariana Macro]] — Chief Macro Strategist (Selic/Fed/câmbio/ciclo, NÃO escolhe ações)
+- [[personas/Pedro Alocação\|Pedro Alocação]] — Capital Allocator (sizing/correlação/fit)
+
+**Risk** (já existia, agora também integra Council):
+
+- [[personas/Valentina Prudente\|Valentina Prudente]] — usa o seu CRO frame no Council também
 
 ## 🎯 Funções delegadas (o que o Founder não faz mais)
 

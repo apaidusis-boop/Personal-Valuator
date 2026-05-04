@@ -43,13 +43,13 @@ Legenda:
 
 ## External reach (quem pode tocar em fontes externas)
 
-| Agent | brapi | yfinance | SEC EDGAR | CVM | Websites scraping | Telegram API |
-|---|---|---|---|---|---|---|
-| Wilson Vigil | — | — | — | — | via subscriptions_cli | — |
-| Sofia Clippings | — | — | — | — | ✏️ Fool/XP/WSJ | — |
-| Ulisses Navegador | — | — | 📖 monitor | 📖 monitor | — | — |
-| Zé Mensageiro | — | — | — | — | — | ✏️ long-poll |
-| (fetchers diretos) | 📖 | 📖 | 📖 | 📖 | — | — |
+| Agent | brapi | yfinance | SEC EDGAR | CVM | Massive.com | Websites scraping | Telegram API |
+|---|---|---|---|---|---|---|---|
+| Wilson Vigil | — | — | — | — | — | via subscriptions_cli | — |
+| Sofia Clippings | — | — | — | — | — | ✏️ Fool/XP/WSJ | — |
+| Ulisses Navegador | — | — | 📖 monitor | 📖 monitor | — | — | — |
+| Zé Mensageiro | — | — | — | — | — | — | ✏️ long-poll |
+| (fetchers diretos) | 📖 | 📖 | 📖 | 📖 | 📖 | — | — |
 
 ## Princípio de least privilege
 
@@ -83,13 +83,15 @@ Actualmente nenhum agent chama Claude — só o framework prepara o caminho. `LL
 
 ## Secret / credentials access
 
-| Credential | Quem precisa |
-|---|---|
-| `BRAPI_TOKEN` (.env) | fetchers BR |
-| `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` (.env) | Zé Mensageiro + notifiers.telegram |
-| Subscription cookies | Sofia Clippings (via `data/subscriptions/cookies/`) |
-| Playwright profile | Sofia Clippings (`.playwright-profiles/`) |
-| SQLite DB files | TODOS (single source of truth) |
+| Credential                                       | Quem precisa                                                                        |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| `BRAPI_TOKEN` (.env)                             | fetchers BR                                                                         |
+| `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` (.env) | Zé Mensageiro + notifiers.telegram                                                  |
+| `TAVILY_API_KEY` (.env)                          | `agents/autoresearch.py` + 3-wire (variant_perception, earnings_prep, synthetic_ic) |
+| `MASSIVE_API_KEY` (.env)                         | `fetchers/massive_fetcher.py` — Massive.com (ex-Polygon.io): prices, options, FX    |
+| Subscription cookies                             | Sofia Clippings (via `data/subscriptions/cookies/`)                                 |
+| Playwright profile                               | Sofia Clippings (`.playwright-profiles/`)                                           |
+| SQLite DB files                                  | TODOS (single source of truth)                                                      |
 
 Credenciais em `.env` + `data/subscriptions/cookies/` + `.playwright-profiles/` **gitignored** — nunca no repo.
 

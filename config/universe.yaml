@@ -78,6 +78,10 @@ br:
           tier: 2, sources: [BTG-Div, BTG-Val],        cvm_name: "PAGUE MENOS" }
       - { ticker: PLPL3, name: "Plano & Plano",        sector: "Consumer Disc.",   is_holding: false,
           tier: 2, sources: [BTG-Div, BTG-Val],        cvm_name: "PLANO E PLANO" }
+      - { ticker: POMO3, name: "Marcopolo ON",         sector: "Industrials",      is_holding: false,
+          tier: 2, sources: [user_pick],               cvm_name: MARCOPOLO }
+      - { ticker: POMO4, name: "Marcopolo PN",         sector: "Industrials",      is_holding: false,
+          tier: 2, sources: [BTG-Div, user_pick],      cvm_name: MARCOPOLO }
       - { ticker: RAPT4, name: "Randoncorp",           sector: "Industrials",      is_holding: false,
           tier: 2, sources: [BTG-EqBR, BTG-Val],       cvm_name: RANDON }
       - { ticker: RDOR3, name: "Rede D'Or",            sector: "Healthcare",       is_holding: false,

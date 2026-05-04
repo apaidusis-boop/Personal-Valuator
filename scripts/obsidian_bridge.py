@@ -944,8 +944,12 @@ def _render_allocation_page() -> str:
         h["weight_pct"] = h["mv_brl"] / total_brl * 100
 
     lines = ["---", "tags: [allocation, portfolio]", "---"]
-    lines.append("# 📊 Alocação\n")
-    lines.append(f"_Total: **R$ {fx['total_brl']:,.2f}** |  PTAX: {fx['fx_ptax']:.4f}_\n")
+    lines.append("# Alocação\n")
+    lines.append("> [!info] Resumo")
+    lines.append(f"> **Total:** R$ {fx['total_brl']:,.2f}  ")
+    lines.append(f"> **PTAX:** {fx['fx_ptax']:.4f}  ")
+    lines.append(f"> **Holdings:** {len(holdings)}\n")
+    lines.append("---\n")
 
     # By market
     lines.append("## Por mercado\n")
@@ -953,9 +957,10 @@ def _render_allocation_page() -> str:
     lines.append("|---|---:|---:|---:|")
     br_sum = sum(h["mv_brl"] for h in holdings if h["market"] == "br")
     us_sum = sum(h["mv_brl"] for h in holdings if h["market"] == "us")
-    lines.append(f"| 🇧🇷 BR | {sum(1 for h in holdings if h['market']=='br')} | R$ {br_sum:,.0f} | {br_sum/total_brl*100:.1f}% |")
-    lines.append(f"| 🇺🇸 US | {sum(1 for h in holdings if h['market']=='us')} | R$ {us_sum:,.0f} | {us_sum/total_brl*100:.1f}% |")
+    lines.append(f"| **BR** | {sum(1 for h in holdings if h['market']=='br')} | R$ {br_sum:,.0f} | {br_sum/total_brl*100:.1f}% |")
+    lines.append(f"| **US** | {sum(1 for h in holdings if h['market']=='us')} | R$ {us_sum:,.0f} | {us_sum/total_brl*100:.1f}% |")
     lines.append("")
+    lines.append("---\n")
 
     # By sector
     lines.append("## Por sector\n")
@@ -966,9 +971,9 @@ def _render_allocation_page() -> str:
         by_sector.setdefault(h["sector"] or "—", []).append(h)
     for sec, rows in sorted(by_sector.items(), key=lambda x: -sum(r["mv_brl"] for r in x[1])):
         mv = sum(r["mv_brl"] for r in rows)
-        tickers_links = ", ".join(f"[[{r['ticker']}]]" for r in rows)
         lines.append(f"| [[sectors/{_sector_slug(sec)}|{sec}]] | {len(rows)} | R$ {mv:,.0f} | {mv/total_brl*100:.1f}% |")
     lines.append("")
+    lines.append("---\n")
 
     # Top 10 concentrations
     lines.append("## Top 10 concentrações\n")
@@ -980,10 +985,14 @@ def _render_allocation_page() -> str:
         cum += h["weight_pct"]
         lines.append(f"| {i} | [[{h['ticker']}]] | R$ {h['mv_brl']:,.0f} | {h['weight_pct']:.1f}% | {cum:.1f}% |")
     lines.append("")
+    lines.append("---\n")
 
     # Dataview by quality (if frontmatter has altman/piotroski)
-    lines.append("## Por quality bucket (Dataview)\n")
-    lines.append("Altman Z ≥ 3 E Piotroski ≥ 6 = **Tier A**; Altman ≥ 1.8 E Piot ≥ 4 = **Tier B**; restante = **Tier C**.\n")
+    lines.append("## Por quality bucket\n")
+    lines.append("> [!note] Tiers")
+    lines.append("> **Tier A:** Altman Z ≥ 3 **e** Piotroski ≥ 6  ")
+    lines.append("> **Tier B:** Altman Z ≥ 1.8 **e** Piotroski ≥ 4  ")
+    lines.append("> **Tier C:** restante\n")
     lines.append("```dataview")
     lines.append("TABLE altman_z, piotroski, market_value, pnl_pct")
     lines.append('FROM "tickers"')

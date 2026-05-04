@@ -78,6 +78,14 @@ if /i "%CMD%"=="screen-trend" ("%PY%" -X utf8 -m analytics.screen_trend %ARGS%) 
 if /i "%CMD%"=="backtest-yield" ("%PY%" -X utf8 -m analytics.backtest_yield %ARGS%) & goto :EOF
 if /i "%CMD%"=="panorama" (set "SCRIPT=scripts\panorama.py") & goto :RUN
 if /i "%CMD%"=="dossier" (set "SCRIPT=scripts\dossier.py") & goto :RUN
+if /i "%CMD%"=="deepdive" (set "SCRIPT=scripts\deepdive.py") & goto :RUN
+if /i "%CMD%"=="beneish" ("%PY%" -X utf8 -m scoring.beneish %ARGS%) & goto :EOF
+if /i "%CMD%"=="antonio" ("%PY%" -X utf8 -m agents.chief_of_staff %ARGS%) & goto :EOF
+if /i "%CMD%"=="setup" (set "SCRIPT=scripts\localclaw_setup.py") & goto :RUN
+if /i "%CMD%"=="crew" (set "SCRIPT=scripts\crew_designer.py") & goto :RUN
+if /i "%CMD%"=="topics" ("%PY%" -X utf8 -m analytics.topic_scorer %ARGS%) & goto :EOF
+if /i "%CMD%"=="missioncontrol" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
+if /i "%CMD%"=="mission-control" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
 if /i "%CMD%"=="stats" ("%PY%" -X utf8 -m analytics.metrics %ARGS%) & goto :EOF
 if /i "%CMD%"=="refresh-thesis" (set "SCRIPT=scripts\thesis_refresh.py") & goto :RUN
@@ -96,7 +104,10 @@ goto :EOF
 echo ii - investment-intelligence CLI
 echo.
 echo ANALYSIS:
-echo   ii dossier ^<TK^>                          ** SKELETON-FIRST RESEARCH DOSSIER ** (in-house data, ~5s cached / ~90s new bank)
+echo   ii deepdive ^<TK^> [--save-obsidian]       ** ELITE DOSSIER ** (Piotroski+Altman+Beneish+Scout+Strategist 5k palavras Llama)
+echo   ii deepdive ^<TK^> --no-llm                Quick (3 scores+scout, no dossier)
+echo   ii antonio "pergunta livre"               Antonio Carlos (Chief of Staff CLI)
+echo   ii dossier ^<TK^>                          Skeleton research dossier (cached, ~5s)
 echo   ii dossier --list                        List existing dossiers
 echo   ii panorama ^<TK^> [--write]               ** SUPER-COMMAND ** (verdict+peers+triggers+notes+videos+analyst)
 echo   ii research ^<TK^> [--intraday] [--md]     Unified memo (PT)
@@ -124,6 +135,7 @@ echo.
 echo QUALITY SCORES:
 echo   ii altman ^<TK^>                           Altman Z-Score
 echo   ii piotroski ^<TK^>                        Piotroski F-Score
+echo   ii beneish ^<TK^>                          Beneish M-Score (manipulation detector)
 echo   ii safety ^<TK^>                           Dividend Safety
 echo.
 echo YOUTUBE:

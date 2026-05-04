@@ -122,12 +122,16 @@ class MorningBriefingAgent(BaseAgent):
 
         # ── 7. Write to vault ───────────────────────────────────
         if not ctx.dry_run:
+            from analytics.obsidian_link import vault_url
             vault = Path(os.environ.get("OBSIDIAN_VAULT_PATH") or (root / "obsidian_vault"))
             briefings_dir = vault / "briefings"
             briefings_dir.mkdir(parents=True, exist_ok=True)
             briefing_path = briefings_dir / f"{today_iso}.md"
             briefing_path.write_text(briefing_md, encoding="utf-8")
             actions.append(f"wrote {briefing_path}")
+            url = vault_url(briefing_path)
+            if url:
+                actions.append(f"open: {url}")
 
         # ── 8. Telegram push ────────────────────────────────────
         pushed = False

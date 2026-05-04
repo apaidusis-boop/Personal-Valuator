@@ -114,3 +114,98 @@ class HoldingWikiStub(BaseModel):
         if isinstance(v, str):
             return [v]
         return v or []
+
+
+# ──────────────────────────────────────────────────────────────────────
+# council/ — STORYT_2.0 pre-publication debate (Modo A-BR prototype)
+# ──────────────────────────────────────────────────────────────────────
+
+CouncilStance = Literal["BUY", "HOLD", "AVOID", "NEEDS_DATA"]
+
+
+class CouncilOpening(BaseModel):
+    """Round 1 — each council member's opening statement, blind to peers."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    headline: str = ""
+    stance: CouncilStance = "HOLD"
+    main_argument: str = ""
+    supporting_metrics: list[str] = Field(default_factory=list)
+    concerns: list[str] = Field(default_factory=list)
+    veto_signals: list[str] = Field(default_factory=list)
+
+    @field_validator("stance", mode="before")
+    @classmethod
+    def _upper(cls, v):
+        if isinstance(v, str):
+            return v.strip().upper()
+        return v
+
+    @field_validator("supporting_metrics", "concerns", "veto_signals", mode="before")
+    @classmethod
+    def _coerce_list(cls, v):
+        if isinstance(v, str):
+            return [v]
+        return v or []
+
+
+class CouncilResponse(BaseModel):
+    """Round 2 — each council member responds to peers' Round 1 statements."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    agree_with: list[str] = Field(default_factory=list)
+    challenge: list[str] = Field(default_factory=list)
+    new_evidence: str = ""
+    revised_stance: CouncilStance = "HOLD"
+
+    @field_validator("revised_stance", mode="before")
+    @classmethod
+    def _upper(cls, v):
+        if isinstance(v, str):
+            return v.strip().upper()
+        return v
+
+    @field_validator("agree_with", "challenge", mode="before")
+    @classmethod
+    def _coerce_list(cls, v):
+        if isinstance(v, str):
+            return [v]
+        return v or []
+
+
+class CouncilSynthesis(BaseModel):
+    """Coordinator output — preserves dissent, surfaces pre-publication flags."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    consensus_points: list[str] = Field(default_factory=list)
+    dissent_points: list[str] = Field(default_factory=list)
+    final_stance: CouncilStance = "HOLD"
+    confidence: Literal["high", "medium", "low"] = "low"
+    pre_publication_flags: list[str] = Field(default_factory=list)
+    sizing_recommendation: str = ""
+
+    @field_validator("final_stance", mode="before")
+    @classmethod
+    def _upper(cls, v):
+        if isinstance(v, str):
+            return v.strip().upper()
+        return v
+
+    @field_validator("confidence", mode="before")
+    @classmethod
+    def _lower(cls, v):
+        if isinstance(v, str):
+            return v.strip().lower()
+        return v
+
+    @field_validator(
+        "consensus_points", "dissent_points", "pre_publication_flags", mode="before"
+    )
+    @classmethod
+    def _coerce_list(cls, v):
+        if isinstance(v, str):
+            return [v]
+        return v or []

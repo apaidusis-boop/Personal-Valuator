@@ -74,6 +74,12 @@ RSS feeds in window — Helena triages para padrões emergentes.
 
 _(YouTube source desactivado — exporta `YOUTUBE_API_KEY` para activar)_
 
+### Manual ingests
+
+| Date | Channel | Video | Note |
+|---|---|---|---|
+| 2026-04-28 | Wanderloots | [Vibe Design First THEN Build Apps — Google Stitch + MCP](https://www.youtube.com/watch?v=sjL61D3oybY) | Avaliação: [[SKL_google_stitch]] · Tier B · valida Helena Linha existente |
+
 ## Helena's recommendation this week
 
 _(Helena reescreve esta secção semanalmente após review)_

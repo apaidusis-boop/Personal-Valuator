@@ -1,0 +1,161 @@
+{
+  "ticker": "TSM",
+  "market": "us",
+  "modo": "A",
+  "sector": "Technology",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Charlie Compounder",
+      "agent_slug": "industrials_us_specialist",
+      "title": "Industrials & Consumer US Specialist (Buffett frame)"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "Taiwan Semiconductor mantém forte ROE e pagamentos de dividendos",
+      "stance": "BUY",
+      "main_argument": "TSM apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos. No entanto, o P/E de 33,85 é acima do limite.",
+      "supporting_metrics": [
+        "ROE=36,2%",
+        "DivStreak=23",
+        "P/E=33,85"
+      ],
+      "concerns": [
+        "P/E acima da meta",
+        "P/B muito elevado"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "TSM mantém posição de compra com forte ROE e crescimento sustentável",
+      "stance": "BUY",
+      "main_argument": "Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de dividendos, indicando solidez financeira. P/B de 87,86 sugere valorização do ativo líquido.",
+      "supporting_metrics": [
+        "ROE=36,2%",
+        "P/B=87,86",
+        "DivStreak=23"
+      ],
+      "concerns": [
+        "ND/EBITDA=-0,83",
+        "P/E=33,85"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Strong fundamentals and consistent dividend payments support long-term investment",
+      "stance": "BUY",
+      "main_argument": "Taiwan Semiconductor demonstrates robust financial health with a high ROE of 36.2% and 23 consecutive years of dividend payments, indicating stability and growth potential.",
+      "supporting_metrics": [
+        "ROE=36.2%",
+        "Piotroski F-Score=8/9",
+        "Altman Z-Score=3.04"
+      ],
+      "concerns": [
+        "High P/B ratio of 87.86 may indicate overvaluation",
+        "Recent insider activity and legal issues could impact reputation"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Taiwan Semiconductor mantém posição BUY com forte ROE e crescimento sustentável",
+      "stance": "BUY",
+      "main_argument": "TSM apresenta um ROE de 36,21% e uma média de 23 anos de pagamentos de dividendos, indicando solidez financeira. A relação P/B de 87,86 sugere valorização do mercado.",
+      "supporting_metrics": [
+        "ROE=36,2%",
+        "P/B=87,86",
+        "DivStreak=23"
+      ],
+      "concerns": [
+        "peso na carteira acima da média (8,7%)",
+        "ND/EBITDA negativo (-0,83)"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de dividendos, indicando solidez financeira - Mariana Macro"
+      ],
+      "challenge": [
+        "P/B de 87,86 sugere valorização do ativo líquido - Valentina Prudente | Este P/B elevado pode sugerir que o mercado está sobreavaliando os ativos líquidos da empresa, potencialmente indicando um risco de correção"
+      ],
+      "new_evidence": "",
+      "revised_stance": "NEEDS_DATA"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "TSM apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos - Charlie Compounder"
+      ],
+      "challenge": [
+        "P/E acima da meta | P/B muito elevado - Razão: Embora o P/E esteja alto, a empresa tem um histórico comprovado de crescimento sustentável. O P/B alto pode ser justificado pela valorização do mercado dos ativos líquidos da TSM - Charlie Compounder"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "TSM apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos - Charlie Compounder"
+      ],
+      "challenge": [
+        "P/E acima da meta | P/B muito elevado - Charlie Compounder; Esses são indicadores de valorização do mercado, não necessariamente um sinal de risco permanente de perda de capital."
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "TSM apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos - Charlie Compounder"
+      ],
+      "challenge": [
+        "P/E acima da meta | P/B muito elevado - Charlie Compounder: Embora o P/E esteja alto (33,85), a empresa tem um histórico comprovado de crescimento e lucratividade que pode justificar essa avaliação. O mesmo se aplica ao P/B, onde a valorização do mercado sugere confiança na solidez financeira da TSM"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "Taiwan Semiconductor apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos - Charlie Compounder"
+    ],
+    "dissent_points": [
+      "Charlie Compounder disse que o P/B de 87,86 sugere valorização do ativo líquido pode indicar risco de correção; Mariana Macro, Valentina Prudente e Pedro Alocação disseram que embora o P/E esteja alto (33,85) e o P/B muito elevado (87,86), esses são indicadores da valorização do mercado que podem ser justificados pela solidez financeira e crescimento sustentável de TSM"
+    ],
+    "final_stance": "NEEDS_DATA",
+    "confidence": "low",
+    "pre_publication_flags": [
+      "P/B muito elevado pode sugerir sobreavaliação - Valentina Prudente",
+      "ND/EBITDA negativo (-0,83) e peso na carteira acima da média (8,7%) - Pedro Alocação"
+    ],
+    "sizing_recommendation": "Considerar reduzir a posição para um nível mais confortável entre 2-4% do portfólio dada a sobreavaliação potencial indicada pelo P/B e ND/EBITDA negativo"
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Charlie Compounder\\reviews\\TSM_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\TSM_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\TSM_2026-05-01.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\TSM_2026-05-01.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 62.78424644470215,
+  "date": "2026-05-01"
+}

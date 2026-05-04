@@ -70,10 +70,12 @@ Method YAML: `library/methods/us_buffett_bank_screen.yaml`.
 
 | Mercado | Fonte primária | Fallback | Notas |
 |---|---|---|---|
-| BR | [brapi.dev](https://brapi.dev) (token em `.env` como `BRAPI_TOKEN`) | scraping Status Invest | CVM API pública para fatos relevantes |
-| US | `yfinance` (sem auth) | — | SEC EDGAR para 8-K / 10-K / dividend declarations |
+| BR | `yfinance` (sem auth, com sufixo `.SA`) | Status Invest MCP (narrativa FII) | brapi.dev removido em c807140 (2026-04-19, never wired). CVM API pública p/ fatos relevantes |
+| US | `yfinance` (sem auth) | Massive.com (ex-Polygon, `MASSIVE_API_KEY`) | SEC EDGAR p/ 8-K / 10-K / dividend declarations |
 
-**Nunca** commitar `.env`. O token brapi é pessoal e tem rate limit.
+Cascade declarativa em `config/sources_priority.yaml`; orquestração via `fetchers/_fallback.py::fetch_with_fallback(market, kind, ticker)`.
+
+**Nunca** commitar `.env`. `MASSIVE_API_KEY` (US fallback) e `TAVILY_API_KEY` (web research) são pessoais e têm rate limits.
 
 ## Estrutura do projecto
 
@@ -218,6 +220,15 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Telegram long-poll loop** (Jarbas live)     | `python scripts/telegram_loop.py [--quiet]` — long-polling getUpdates timeout=25s; substitui cron 2m do controller |
 | **Vault clean video names** (videos/<id>.md → date_channel_slug.md) | `python scripts/vault_clean_video_names.py [--apply] [--vault PATH]` — preserva ID como alias Obsidian |
 | **CLI unificada (tudo)**                      | `ii help` |
+| **Antonio Carlos** (Chief of Staff Telegram/CLI) | `python -m agents.chief_of_staff "pergunta livre"` ou Telegram livre — tool-calling Qwen 2.5 32B sobre 16 tools (verdict/deepdive/posição/regime/portfolio/IC/variant/web). Memória conversacional por chat_id em `data/chief_memory.db`. Substitui `_nl_dispatch` rígido. `/reset` no Telegram limpa memória. |
+| **Mission Control Next.js** (Phase EE.3) | `ii missioncontrol` ou `cd mission-control && npm run dev` (localhost:3000) ou `npm run dev:remote` (0.0.0.0). 7 panes: Home/Tasks/Content/Calendar/Projects/Memory/Docs/Team. Lê SQLite + vault directo, zero mock data. Webpack mode (better-sqlite3 incompatível com Turbopack). Match aos screenshots Tina Huang (dark + roxo/cyan). |
+| **LocalClaw setup check** (Phase EE.4) | `ii setup` ou `python scripts/localclaw_setup.py` — detecta Ollama models, Tailscale install, Mission Control scaffold, Telegram wiring. Imprime comandos exactos para upgrade (pull 70B, install Tailscale, restart Jarbas). |
+| **Topic Watchlist scorer** (Phase EE.8) | `ii topics` ou `python -m analytics.topic_scorer [--vault]` — lê `config/topic_watchlist.yaml` (10 themes investing) + scoreia 0-100 por freshness/frequency/breadth/triggers. Output `data/topic_scores.json` consumido pelo Mission Control `/content`. |
+| **Crew designer** (Phase EE.9) | `ii crew [--dry-run]` ou `python scripts/crew_designer.py` — audita org chart actual + propõe 3-7 novos specialists com model tier/cadence/cost. Output em `vault/skills/Crew_Design.md`. Reproduces OpenClaw "Multi Agent Framework" prompt. |
+| **Visual Office** (Phase EE.6) | `localhost:3000/visual` — pixel-art rooms para os 14 agentes com live status (active / idle / alert). Antonio Carlos como mascote central. Reproduces Tina Huang screenshot 3. |
+| **Mission Control front-end COM ESCRITA** (Phase EE.10-12) | Antonio Carlos chat embedded (botão 🐙 bottom-right em todas as pages, talks via `/api/chat` → spawn Python). Action buttons na Tasks (approve/ignore/deepdive), Home toolbar (refresh briefing/topics/prices), `/ticker/<TK>` page (preço chart 365d + position + fundamentals + verdict + 5 action buttons). API routes: `/api/chat`, `/api/actions/[id]`, `/api/run/[script]`, `/api/prices/[tk]`, `/api/portfolio/timeseries`. |
+| **`ii deepdive <TK>`** (V10 Personal Equity Valuator) | Pipeline 4-camadas: Auditor (Piotroski+Altman+Beneish) ‖ Scout (yfinance: news/insider/short/consensus) → Historian delta → Strategist Llama dossier 5k palavras. `--no-llm` salta strategist. `--save-obsidian` escreve `obsidian_vault/dossiers/<TK>.md`. JSON sempre em `reports/deepdive/`. |
+| **Beneish M-Score** (manipulação contábil) | `ii beneish <TK>` ou `python -m scoring.beneish JNJ` — 8 índices via yfinance live. M < -2.22 clean / -2.22 a -1.78 grey / ≥ -1.78 RISK. Excludes banks/REITs. |
 | **Test suite typed agents (W.6.2)**           | `pytest tests/ -v` — 7 tests, ~60s, 100% offline (Ollama qwen2.5:14b) |
 | **Mega Audit** (cruft detector, T1 audit-only) | `python -m agents.mega_auditor` — 8 categorias, output `obsidian_vault/Mega_Audit_<DATE>.md`. NUNCA apaga. |
 | **Mega Audit bury** (quarantine to cemetery)  | `python -m agents.mega_auditor --bury <ID...>` ou `--bury-preset {safe,verified-dead,safe-and-dead}` — reversível via cemetery/2026-04-28/manifest.md |
