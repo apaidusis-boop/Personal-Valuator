@@ -5,16 +5,16 @@ market: br
 sector: Papel (CRI)
 is_holding: false
 currency: BRL
-price: 93.48
-price_date: 2026-04-24
-change_1d_pct: 1.07
+price: 93.45
+price_date: 2026-04-27
+change_1d_pct: -0.03
 dy_pct: 15.06
 streak_years: 5
 screen_score: 1
 screen_pass: true
 div_safety: 32
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, papel_(cri)]
 ---
 
@@ -26,11 +26,11 @@ tags: [watchlist, br, papel_(cri)]
 
 - Sector: [[sectors/Papel_(CRI)|Papel (CRI)]]
 - Market: [[markets/BR|BR]]
-- Peers: [[VGIR11]] · [[KNCR11]] · [[MCCI11]] · [[MCRF11]] · [[RECR11]]
+- Peers: [[VGIR11]] · [[KNCR11]] · [[MCCI11]] · [[RECR11]] · [[VGIP11]]
 
 ## Snapshot
 
-- **Preço**: R$93.48  (2026-04-24)    _+1.07% 1d_
+- **Preço**: R$93.45  (2026-04-27)    _-0.03% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -53,13 +53,13 @@ tags: [watchlist, br, papel_(cri)]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.03%
-- **Drawdown 5y**: -12.30%
-- **YTD**: -4.57%
-- **YoY (1y)**: +0.87%
-- **CAGR 3y**: +0.50%  |  **5y**: -2.05%  |  **10y**: n/a
-- **Vol annual**: +9.63%
-- **Sharpe 3y** (rf=4%): -0.28
+- **Drawdown 52w**: -6.06%
+- **Drawdown 5y**: -12.33%
+- **YTD**: -4.60%
+- **YoY (1y)**: +0.16%
+- **CAGR 3y**: +0.23%  |  **5y**: -1.85%  |  **10y**: n/a
+- **Vol annual**: +9.54%
+- **Sharpe 3y** (rf=4%): -0.30
 
 ### Dividendos
 - **DY 5y avg**: +13.03%
@@ -107,10 +107,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -120,12 +120,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [15.11, 15.22, 15.06, 15.06]
+    data: [15.11, 15.22, 15.06, 15.06, 15.06, 15.06]
 width: 80%
 beginAtZero: false
 fill: false
@@ -134,4 +134,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

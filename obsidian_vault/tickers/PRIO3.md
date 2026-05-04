@@ -1,15 +1,15 @@
 ---
 ticker: PRIO3
-name: PetroRio
+name: PRIO3
 market: br
 sector: "Oil & Gas"
 is_holding: true
 currency: BRL
-price: 62.63
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 22.6101
-pb: 1.9676
+price: 64.35
+price_date: 2026-04-27
+change_1d_pct: 2.75
+pe: 23.231
+pb: 2.0217
 roe_pct: 8.71
 streak_years: 1
 screen_score: 0
@@ -20,19 +20,19 @@ div_safety: 23.1
 div_safety_verdict: RISK
 position_qty: 503
 entry_price: 39.85
-pnl_pct: 57.16
-market_value: 31502.89
-updated: "2026-04-26T10:59:42Z"
+pnl_pct: 61.48
+market_value: 32368.05
+updated: "2026-04-28T18:40:39Z"
 tags: [holding, br, "oil_&_gas"]
 ---
 
-# PRIO3 — PetroRio
+# PRIO3 — PRIO3
 
 #holding #br #oil_&_gas
 
 ## 🎯 Verdict — ⛔ AVOID
 
-> **Score**: 2.1/10  |  **Confiança**: 80%  |  _2026-04-26 13:59_
+> **Score**: 2.1/10  |  **Confiança**: 80%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -45,7 +45,7 @@ tags: [holding, br, "oil_&_gas"]
 
 - **Quality**: Altman Z 1.7391617437135007 (DISTRESS), Piotroski 2/9 (WEAK), DivSafety 23.1/100
 - **Valuation**: Screen 0.00, DY percentil - (-)
-- **Momentum**: 1d 0.0%, 30d -8.92%, YTD 49.98%
+- **Momentum**: 1d 2.75%, 30d -9.14%, YTD 54.09%
 - **Narrativa**: user_note=False, YT insights 60d=6
 
 ### Razões
@@ -65,16 +65,16 @@ tags: [holding, br, "oil_&_gas"]
 
 ## Snapshot
 
-- **Preço**: R$62.63  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$64.35  (2026-04-27)    _+2.75% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: 1.739 (distress)
 - **Piotroski**: 2/9
 - **Div Safety**: 23.1/100 (RISK)
-- **Posição**: 503.0 sh @ R$39.85  →  P&L 57.16%
+- **Posição**: 503.0 sh @ R$39.85  →  P&L 61.48%
 
 ## Fundamentals
 
-- P/E: 22.61011 | P/B: 1.9676406 | DY: None%
+- P/E: 23.231047 | P/B: 2.0216777 | DY: None%
 - ROE: 8.71% | EPS: 2.77 | BVPS: 31.83
 - Streak div: 1y | Aristocrat: None
 
@@ -101,12 +101,12 @@ tags: [holding, br, "oil_&_gas"]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -13.13%
-- **Drawdown 5y**: -13.13%
-- **YTD**: +49.98%
-- **YoY (1y)**: +79.56%
-- **CAGR 3y**: +23.02%  |  **5y**: +28.30%  |  **10y**: +67.10%
-- **Vol annual**: +35.81%
+- **Drawdown 52w**: -10.75%
+- **Drawdown 5y**: -10.75%
+- **YTD**: +54.09%
+- **YoY (1y)**: +84.49%
+- **CAGR 3y**: +22.80%  |  **5y**: +28.38%  |  **10y**: +67.06%
+- **Vol annual**: +35.89%
 - **Sharpe 3y** (rf=4%): +0.56
 
 ### Dividendos
@@ -165,10 +165,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-22', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-22', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [25.22, 22.249098, 22.63538, 22.6426, 22.61011, 22.61011]
+    data: [25.22, 22.249098, 22.63538, 22.6426, 22.61011, 22.61011, 22.61011, 23.231047]
 width: 80%
 beginAtZero: false
 fill: false
@@ -178,12 +178,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-22', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-22', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [8.73, 8.71, 8.71, 8.71, 8.71, 8.71]
+    data: [8.73, 8.71, 8.71, 8.71, 8.71, 8.71, 8.71, 8.71]
   - title: DY %
-    data: [0, 0, 0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -192,4 +192,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

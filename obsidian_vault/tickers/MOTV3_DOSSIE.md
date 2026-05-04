@@ -66,6 +66,10 @@ MOTV3 negocia P/E 11.37 e P/B 2.10 com ROE forte de 20.78%, mas DY de apenas 2.3
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

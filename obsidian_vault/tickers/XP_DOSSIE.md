@@ -53,6 +53,10 @@ XP negoceia P/E 10.12, DY 0.91% e ROE 23.71% com YoY +23.7% — broker BR listad
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

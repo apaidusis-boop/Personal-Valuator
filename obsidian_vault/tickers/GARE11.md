@@ -5,16 +5,16 @@ market: br
 sector: Híbrido
 is_holding: false
 currency: BRL
-price: 8.38
-price_date: 2026-04-24
-change_1d_pct: -0.24
-dy_pct: 10.89
+price: 8.39
+price_date: 2026-04-27
+change_1d_pct: 0.12
+dy_pct: 10.88
 streak_years: 3
 screen_score: 0.8
 screen_pass: false
 div_safety: 0
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:35Z"
 tags: [watchlist, br, híbrido]
 ---
 
@@ -30,7 +30,7 @@ tags: [watchlist, br, híbrido]
 
 ## Snapshot
 
-- **Preço**: R$8.38  (2026-04-24)    _-0.24% 1d_
+- **Preço**: R$8.39  (2026-04-27)    _+0.12% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -38,7 +38,7 @@ tags: [watchlist, br, híbrido]
 
 ## Fundamentals
 
-- P/E: None | P/B: None | DY: 10.89%
+- P/E: None | P/B: None | DY: 10.88%
 - ROE: None% | EPS: None | BVPS: None
 - Streak div: 3y | Aristocrat: None
 
@@ -53,12 +53,12 @@ tags: [watchlist, br, híbrido]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -9.31%
-- **Drawdown 5y**: -9.31%
-- **YTD**: -7.10%
-- **YoY (1y)**: -3.68%
+- **Drawdown 52w**: -9.20%
+- **Drawdown 5y**: -9.20%
+- **YTD**: -6.98%
+- **YoY (1y)**: -4.33%
 - **CAGR 3y**: n/a  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +8.74%
+- **Vol annual**: +8.72%
 - **Sharpe 3y** (rf=4%): n/a
 
 ### Dividendos
@@ -107,10 +107,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -120,12 +120,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [10.82, 10.87, 10.89, 10.89]
+    data: [10.82, 10.87, 10.89, 10.89, 10.89, 10.88]
 width: 80%
 beginAtZero: false
 fill: false
@@ -134,4 +134,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

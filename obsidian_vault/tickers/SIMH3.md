@@ -1,27 +1,27 @@
 ---
 ticker: SIMH3
-name: Simpar
+name: SIMH3
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 11.62
-price_date: 2026-04-24
-change_1d_pct: -3.89
-pe: 116.2
-pb: 1.0989
-dy_pct: 1.19
+price: 11.2
+price_date: 2026-04-27
+change_1d_pct: -3.61
+pe: 112
+pb: 1.0592
+dy_pct: 1.23
 roe_pct: 3.28
 streak_years: 1
 screen_score: 0
 screen_pass: false
 div_safety: 5
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# SIMH3 — Simpar
+# SIMH3 — SIMH3
 
 #watchlist #br #industrials
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$11.62  (2026-04-24)    _-3.89% 1d_
+- **Preço**: R$11.20  (2026-04-27)    _-3.61% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, industrials]
 
 ## Fundamentals
 
-- P/E: 116.2 | P/B: 1.0989219 | DY: 1.19%
+- P/E: 112.0 | P/B: 1.0592017 | DY: 1.23%
 - ROE: 3.28% | EPS: 0.1 | BVPS: 10.574
 - Streak div: 1y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -20.30%
-- **Drawdown 5y**: -66.75%
-- **YTD**: +11.30%
-- **YoY (1y)**: +5.64%
-- **CAGR 3y**: -8.32%  |  **5y**: -9.70%  |  **10y**: n/a
-- **Vol annual**: +61.98%
-- **Sharpe 3y** (rf=4%): -0.22
+- **Drawdown 52w**: -23.18%
+- **Drawdown 5y**: -67.95%
+- **YTD**: +7.28%
+- **YoY (1y)**: -0.88%
+- **CAGR 3y**: -9.95%  |  **5y**: -11.71%  |  **10y**: n/a
+- **Vol annual**: +62.27%
+- **Sharpe 3y** (rf=4%): -0.25
 
 ### Dividendos
 - **DY 5y avg**: +3.15%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [128.5, 120.9, 116.2, 116.2]
+    data: [128.5, 120.9, 116.2, 116.2, 116.2, 112.0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [3.28, 3.28, 3.28, 3.28]
+    data: [3.28, 3.28, 3.28, 3.28, 3.28, 3.28]
   - title: DY %
-    data: [1.07, 1.14, 1.19, 1.19]
+    data: [1.07, 1.14, 1.19, 1.19, 1.19, 1.23]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

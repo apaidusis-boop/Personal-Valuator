@@ -3,7 +3,7 @@ type: glossary
 slug: Dividend_Streak
 title: Dividend Streak — Anos Consecutivos a Pagar
 category: income
-date: 2026-04-27
+date: 2026-04-30
 tags: [glossary, tutor, income]
 ---
 
@@ -115,4 +115,4 @@ Sinaliza disciplina de distribuição + capacidade de gerar caixa em ciclos comp
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-27.*
+*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*

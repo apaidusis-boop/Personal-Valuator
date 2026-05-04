@@ -1,0 +1,91 @@
+{
+  "ticker": "ITSA4",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "ITSA4",
+    "period_end": "2026-04-30",
+    "eps": 1.48,
+    "bvps": 7.917,
+    "roe": 0.17571,
+    "pe": 9.405405,
+    "pb": 1.7582418,
+    "dy": 0.08819303112581937,
+    "net_debt_ebitda": 4.034951540606407,
+    "dividend_streak_years": 20,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": 7.2374477,
+    "ev_ebitda": 106.152,
+    "market_cap": 156061958144.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 5,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 7.155057658469749,
+      "zone": "safe",
+      "confidence": "medium",
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) — conservative proxy"
+      ]
+    },
+    "beneish": {
+      "m": -1.744830523264568,
+      "zone": "risk",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Dividend/DRIP (5/12)",
+    "secondary": "",
+    "value": 0,
+    "growth": 2,
+    "dividend": 5,
+    "buffett": 3,
+    "macro_exposure": 1,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 13.920000076293945
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Tião Galpão",
+    "Diego Bancário",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Desconto NAV > 25% sem catalisador | Itaújo ROE < 12% em 2Q consecutivos | Mudança gestão Itaújoása / Villela sair"
+  ],
+  "consensus_points": [
+    "Itaújoása opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic",
+    "Desconto NAV persistente"
+  ],
+  "dissent_points": [],
+  "evidence_count": 32,
+  "research_hits_total": 45
+}

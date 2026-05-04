@@ -5,12 +5,12 @@ market: us
 sector: Healthcare
 is_holding: false
 currency: USD
-price: 198.71
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 84.1992
-pb: -107.4108
-dy_pct: 3.39
+price: 197.38
+price_date: 2026-04-27
+change_1d_pct: -0.67
+pe: 83.6356
+pb: -106.6919
+dy_pct: 3.41
 roe_pct: 6225
 streak_years: 14
 aristocrat: false
@@ -22,9 +22,9 @@ div_safety: 45
 div_safety_verdict: RISK
 position_qty: 7.466
 entry_price: 200.91
-pnl_pct: -1.1
-market_value: 1483.57
-updated: "2026-04-26T10:59:44Z"
+pnl_pct: -1.76
+market_value: 1473.64
+updated: "2026-04-28T18:40:41Z"
 tags: [watchlist, us, healthcare]
 ---
 
@@ -41,16 +41,16 @@ tags: [watchlist, us, healthcare]
 
 ## Snapshot
 
-- **Preço**: $198.71  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $197.38  (2026-04-27)    _-0.67% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: 1.955 (grey)
 - **Piotroski**: 8/9
 - **Div Safety**: 45.0/100 (RISK)
-- **Posição**: 7.46602 sh @ $200.91  →  P&L -1.1%
+- **Posição**: 7.46602 sh @ $200.91  →  P&L -1.76%
 
 ## Fundamentals
 
-- P/E: 84.19916 | P/B: -107.41081 | DY: 3.39%
+- P/E: 83.6356 | P/B: -106.691895 | DY: 3.41%
 - ROE: 6225.0% | EPS: 2.36 | BVPS: -1.85
 - Streak div: 14y | Aristocrat: False
 
@@ -73,13 +73,13 @@ tags: [watchlist, us, healthcare]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -18.69%
-- **Drawdown 5y**: -18.69%
-- **YTD**: -13.34%
-- **YoY (1y)**: +6.80%
-- **CAGR 3y**: +10.10%  |  **5y**: +12.26%  |  **10y**: +12.50%
-- **Vol annual**: +27.10%
-- **Sharpe 3y** (rf=4%): +0.25
+- **Drawdown 52w**: -19.23%
+- **Drawdown 5y**: -19.23%
+- **YTD**: -13.92%
+- **YoY (1y)**: +6.08%
+- **CAGR 3y**: +9.31%  |  **5y**: +12.01%  |  **10y**: +12.46%
+- **Vol annual**: +27.11%
+- **Sharpe 3y** (rf=4%): +0.22
 
 ### Dividendos
 - **DY 5y avg**: +3.50%
@@ -122,10 +122,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [87.90756, 88.55509, 87.55462, 86.31092, 86.91525, 83.84389, 84.19916]
+    data: [87.90756, 88.55509, 87.55462, 86.31092, 86.91525, 83.84389, 84.19916, 84.19916, 83.6356]
 width: 80%
 beginAtZero: false
 fill: false
@@ -135,12 +135,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0]
+    data: [6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0, 6225.0]
   - title: DY %
-    data: [3.32, 3.31, 3.32, 3.32, 3.29, 3.39, 3.39]
+    data: [3.32, 3.31, 3.32, 3.32, 3.29, 3.39, 3.39, 3.39, 3.41]
 width: 80%
 beginAtZero: false
 fill: false
@@ -149,4 +149,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

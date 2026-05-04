@@ -5,24 +5,24 @@ market: us
 sector: REIT
 is_holding: true
 currency: USD
-price: 63.33
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 54.1282
-pb: 1.4998
-dy_pct: 5.11
+price: 62.75
+price_date: 2026-04-27
+change_1d_pct: -0.92
+pe: 53.6325
+pb: 1.486
+dy_pct: 5.16
 roe_pct: 2.7
 streak_years: 33
 aristocrat: true
 screen_score: 1
 screen_pass: true
-div_safety: 25
-div_safety_verdict: RISK
+div_safety: 60
+div_safety_verdict: WATCH
 position_qty: 30
 entry_price: 63.5633
-pnl_pct: -0.37
-market_value: 1899.9
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: -1.28
+market_value: 1882.5
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, reit]
 ---
 
@@ -32,28 +32,27 @@ tags: [holding, us, reit]
 
 ## 🎯 Verdict — 🟡 WATCH
 
-> **Score**: 6.2/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 6.5/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
-| Quality    | 3.3/10 | 35% | `███░░░░░░░` |
+| Quality    | 5.3/10 | 35% | `█████░░░░░` |
 | Valuation  | 10.0/10 | 30% | `██████████` |
-| Momentum   | 7.3/10 | 20% | `███████░░░` |
+| Momentum   | 5.3/10 | 20% | `█████░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
-- **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 25.0/100
-- **Valuation**: Screen 1.00, DY percentil P77 (CHEAP)
-- **Momentum**: 1d 0.0%, 30d 4.35%, YTD 10.5%
+- **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 60.0/100
+- **Valuation**: Screen 1.00, DY percentil P78 (CHEAP)
+- **Momentum**: 1d -0.92%, 30d 2.62%, YTD 9.49%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
 - valuation atractiva mas quality ou momentum fraco
-- quality frágil
 - valuation barato
-- DY percentil P77 (historicamente CHEAP)
+- DY percentil P78 (historicamente CHEAP)
 
 
 ## Links
@@ -65,16 +64,16 @@ tags: [holding, us, reit]
 
 ## Snapshot
 
-- **Preço**: $63.33  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $62.75  (2026-04-27)    _-0.92% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
-- **Div Safety**: 25.0/100 (RISK)
-- **Posição**: 30.0 sh @ $63.56333333333334  →  P&L -0.37%
+- **Div Safety**: 60.0/100 (WATCH)
+- **Posição**: 30.0 sh @ $63.56333333333334  →  P&L -1.28%
 
 ## Fundamentals
 
-- P/E: 54.12821 | P/B: 1.4997513 | DY: 5.11%
+- P/E: 53.63248 | P/B: 1.486016 | DY: 5.16%
 - ROE: 2.7% | EPS: 1.17 | BVPS: 42.227
 - Streak div: 33y | Aristocrat: True
 
@@ -97,13 +96,13 @@ tags: [holding, us, reit]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.26%
-- **Drawdown 5y**: -15.48%
-- **YTD**: +10.50%
-- **YoY (1y)**: +11.32%
-- **CAGR 3y**: +0.55%  |  **5y**: -1.04%  |  **10y**: +0.95%
-- **Vol annual**: +16.79%
-- **Sharpe 3y** (rf=4%): -0.19
+- **Drawdown 52w**: -7.12%
+- **Drawdown 5y**: -16.26%
+- **YTD**: +9.49%
+- **YoY (1y)**: +10.30%
+- **CAGR 3y**: -0.05%  |  **5y**: -1.15%  |  **10y**: +0.90%
+- **Vol annual**: +16.82%
+- **Sharpe 3y** (rf=4%): -0.22
 
 ### Dividendos
 - **DY 5y avg**: +5.09%
@@ -146,10 +145,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [54.491455, 54.89316, 55.247864, 55.632477, 55.564106, 54.700855, 54.12821, 54.12821]
+    data: [54.491455, 54.89316, 55.247864, 55.632477, 55.564106, 54.700855, 54.12821, 54.12821, 54.12821, 53.63248]
 width: 80%
 beginAtZero: false
 fill: false
@@ -159,12 +158,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7]
+    data: [2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7]
   - title: DY %
-    data: [5.07, 5.06, 5.0, 4.97, 4.97, 5.06, 5.11, 5.11]
+    data: [5.07, 5.06, 5.0, 4.97, 4.97, 5.06, 5.11, 5.11, 5.11, 5.16]
 width: 80%
 beginAtZero: false
 fill: false
@@ -173,4 +172,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

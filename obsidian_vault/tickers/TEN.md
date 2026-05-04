@@ -5,12 +5,12 @@ market: us
 sector: Energy
 is_holding: true
 currency: USD
-price: 39.27
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 8.8247
-pb: 0.6285
-dy_pct: 1.53
+price: 39.8
+price_date: 2026-04-27
+change_1d_pct: 1.35
+pe: 8.9438
+pb: 0.637
+dy_pct: 1.51
 roe_pct: 9.09
 streak_years: 24
 aristocrat: false
@@ -22,9 +22,9 @@ div_safety: 65
 div_safety_verdict: WATCH
 position_qty: 35
 entry_price: 23.928
-pnl_pct: 64.12
-market_value: 1374.45
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: 66.33
+market_value: 1393
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, energy]
 ---
 
@@ -34,20 +34,20 @@ tags: [holding, us, energy]
 
 ## 🎯 Verdict — ⛔ AVOID
 
-> **Score**: 4.2/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 4.3/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 3.0/10 | 35% | `███░░░░░░░` |
 | Valuation  | 4.0/10 | 30% | `████░░░░░░` |
-| Momentum   | 6.7/10 | 20% | `███████░░░` |
+| Momentum   | 7.3/10 | 20% | `███████░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 1.0060151318410075 (DISTRESS), Piotroski 3/9 (WEAK), DivSafety 65.0/100
 - **Valuation**: Screen 0.60, DY percentil P17 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d 2.96%, YTD 79.4%
+- **Momentum**: 1d 1.35%, 30d 4.74%, YTD 81.82%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
@@ -65,16 +65,16 @@ tags: [holding, us, energy]
 
 ## Snapshot
 
-- **Preço**: $39.27  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $39.80  (2026-04-27)    _+1.35% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 1.006 (distress)
 - **Piotroski**: 3/9
 - **Div Safety**: 65.0/100 (WATCH)
-- **Posição**: 35.0 sh @ $23.928  →  P&L 64.12%
+- **Posição**: 35.0 sh @ $23.928  →  P&L 66.33%
 
 ## Fundamentals
 
-- P/E: 8.824719 | P/B: 0.62850106 | DY: 1.53%
+- P/E: 8.94382 | P/B: 0.63698345 | DY: 1.51%
 - ROE: 9.09% | EPS: 4.45 | BVPS: 62.482
 - Streak div: 24y | Aristocrat: False
 
@@ -97,13 +97,13 @@ tags: [holding, us, energy]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -3.54%
-- **Drawdown 5y**: -3.54%
-- **YTD**: +79.40%
-- **YoY (1y)**: +132.64%
-- **CAGR 3y**: +31.65%  |  **5y**: +34.60%  |  **10y**: +1.91%
-- **Vol annual**: +42.39%
-- **Sharpe 3y** (rf=4%): +0.67
+- **Drawdown 52w**: -2.24%
+- **Drawdown 5y**: -2.24%
+- **YTD**: +81.82%
+- **YoY (1y)**: +135.78%
+- **CAGR 3y**: +32.37%  |  **5y**: +34.75%  |  **10y**: +2.27%
+- **Vol annual**: +42.38%
+- **Sharpe 3y** (rf=4%): +0.68
 
 ### Dividendos
 - **DY 5y avg**: +3.74%
@@ -146,10 +146,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [8.65618, 8.774158, 8.69663, 8.853933, 8.822472, 8.638203, 8.824719, 8.824719]
+    data: [8.65618, 8.774158, 8.69663, 8.853933, 8.822472, 8.638203, 8.824719, 8.824719, 8.824719, 8.94382]
 width: 80%
 beginAtZero: false
 fill: false
@@ -159,12 +159,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09]
+    data: [9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09, 9.09]
   - title: DY %
-    data: [2.61, 2.58, 2.58, 2.54, 2.54, 1.56, 1.53, 1.53]
+    data: [2.61, 2.58, 2.58, 2.54, 2.54, 1.56, 1.53, 1.53, 1.53, 1.51]
 width: 80%
 beginAtZero: false
 fill: false
@@ -173,4 +173,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

@@ -1,16 +1,16 @@
 ---
 ticker: IBM
-name: IBM
+name: International Business Machines
 market: us
 sector: Technology
 is_holding: false
 currency: USD
-price: 231.98
-price_date: 2026-04-24
-change_1d_pct: 0.39
-pe: 20.5292
-pb: 6.6575
-dy_pct: 2.9
+price: 228.05
+price_date: 2026-04-27
+change_1d_pct: -1.69
+pe: 20.1814
+pb: 6.5447
+dy_pct: 2.95
 roe_pct: 35.77
 streak_years: 65
 aristocrat: true
@@ -18,11 +18,11 @@ screen_score: 0.6
 screen_pass: false
 div_safety: 75
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:47Z"
+updated: "2026-04-28T18:40:44Z"
 tags: [watchlist, us, technology]
 ---
 
-# IBM — IBM
+# IBM — International Business Machines
 
 #watchlist #us #technology
 
@@ -34,7 +34,7 @@ tags: [watchlist, us, technology]
 
 ## Snapshot
 
-- **Preço**: $231.98  (2026-04-24)    _+0.39% 1d_
+- **Preço**: $228.05  (2026-04-27)    _-1.69% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, us, technology]
 
 ## Fundamentals
 
-- P/E: 20.529203 | P/B: 6.6574826 | DY: 2.9%
+- P/E: 20.181416 | P/B: 6.5446978 | DY: 2.95%
 - ROE: 35.77% | EPS: 11.3 | BVPS: 34.845
 - Streak div: 65y | Aristocrat: True
 
@@ -54,16 +54,21 @@ tags: [watchlist, us, technology]
 - 2025-05-09: $1.6800
 - 2025-02-10: $1.6700
 
+## Eventos (SEC/CVM)
+
+- **2026-04-23** `10-Q` — 10-Q
+- **2026-04-22** `8-K` — 8-K | 2.02,9.01
+
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -26.35%
-- **Drawdown 5y**: -26.35%
-- **YTD**: -20.42%
-- **YoY (1y)**: +1.16%
-- **CAGR 3y**: +22.60%  |  **5y**: +11.24%  |  **10y**: +4.99%
-- **Vol annual**: +34.63%
-- **Sharpe 3y** (rf=4%): +0.69
+- **Drawdown 52w**: -27.60%
+- **Drawdown 5y**: -27.60%
+- **YTD**: -21.77%
+- **YoY (1y)**: -1.88%
+- **CAGR 3y**: +21.74%  |  **5y**: +10.78%  |  **10y**: +5.04%
+- **Vol annual**: +34.48%
+- **Sharpe 3y** (rf=4%): +0.66
 
 ### Dividendos
 - **DY 5y avg**: +3.75%
@@ -96,10 +101,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [22.951525, 20.529203, 20.529203]
+    data: [22.951525, 20.529203, 20.529203, 20.529203, 20.181416]
 width: 80%
 beginAtZero: false
 fill: false
@@ -109,12 +114,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [35.16, 35.77, 35.77]
+    data: [35.16, 35.77, 35.77, 35.77, 35.77]
   - title: DY %
-    data: [2.63, 2.9, 2.9]
+    data: [2.63, 2.9, 2.9, 2.9, 2.95]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,4 +128,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

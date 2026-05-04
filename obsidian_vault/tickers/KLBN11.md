@@ -1,16 +1,16 @@
 ---
 ticker: KLBN11
-name: Klabin Unit
+name: KLBN11
 market: br
 sector: Materials
 is_holding: true
 currency: BRL
-price: 17.94
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 27.1407
-pb: 2.7913
-dy_pct: 9.12
+price: 17.87
+price_date: 2026-04-27
+change_1d_pct: -0.39
+pe: 27.0348
+pb: 2.7805
+dy_pct: 9.16
 roe_pct: 14.57
 streak_years: 12
 screen_score: 0
@@ -21,37 +21,37 @@ div_safety: 35
 div_safety_verdict: RISK
 position_qty: 1000
 entry_price: 18.35
-pnl_pct: -2.23
-market_value: 17940
-updated: "2026-04-26T10:59:40Z"
+pnl_pct: -2.62
+market_value: 17870
+updated: "2026-04-28T18:40:37Z"
 tags: [holding, br, materials]
 ---
 
-# KLBN11 — Klabin Unit
+# KLBN11 — KLBN11
 
 #holding #br #materials
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.3/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 3.1/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 3.7/10 | 35% | `████░░░░░░` |
 | Valuation  | 2.0/10 | 30% | `██░░░░░░░░` |
-| Momentum   | 4.0/10 | 20% | `████░░░░░░` |
+| Momentum   | 3.3/10 | 20% | `███░░░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 2.339439214714321 (GREY), Piotroski 6/9 (NEUTRAL), DivSafety 35.0/100
 - **Valuation**: Screen 0.00, DY percentil P99 (CHEAP)
-- **Momentum**: 1d 0.0%, 30d -6.85%, YTD -6.02%
+- **Momentum**: 1d -0.39%, 30d -6.98%, YTD -6.39%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- holding + total 3.3 < 4
+- holding + total 3.1 < 4
 - quality frágil
 - valuation caro
 - DY percentil P99 (historicamente CHEAP)
@@ -66,16 +66,16 @@ tags: [holding, br, materials]
 
 ## Snapshot
 
-- **Preço**: R$17.94  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$17.87  (2026-04-27)    _-0.39% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: 2.339 (grey)
 - **Piotroski**: 6/9
 - **Div Safety**: 35.0/100 (RISK)
-- **Posição**: 1000.0 sh @ R$18.35  →  P&L -2.23%
+- **Posição**: 1000.0 sh @ R$18.35  →  P&L -2.62%
 
 ## Fundamentals
 
-- P/E: 27.140696 | P/B: 2.7913492 | DY: 9.12%
+- P/E: 27.034796 | P/B: 2.7804575 | DY: 9.16%
 - ROE: 14.57% | EPS: 0.661 | BVPS: 6.427
 - Streak div: 12y | Aristocrat: None
 
@@ -90,13 +90,13 @@ tags: [holding, br, materials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -14.65%
-- **Drawdown 5y**: -31.93%
-- **YTD**: -6.02%
-- **YoY (1y)**: -3.05%
-- **CAGR 3y**: +2.79%  |  **5y**: -7.40%  |  **10y**: +1.01%
+- **Drawdown 52w**: -14.99%
+- **Drawdown 5y**: -29.85%
+- **YTD**: -6.39%
+- **YoY (1y)**: -3.43%
+- **CAGR 3y**: +1.25%  |  **5y**: -6.78%  |  **10y**: +1.31%
 - **Vol annual**: +22.70%
-- **Sharpe 3y** (rf=4%): -0.06
+- **Sharpe 3y** (rf=4%): -0.13
 
 ### Dividendos
 - **DY 5y avg**: +5.95%
@@ -149,6 +149,36 @@ fill: false
 tension: 0.3
 ```
 
+## 📊 Fundamentals trend
+
+```chart
+type: line
+title: "P/E over time"
+labels: ['2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
+series:
+  - title: P/E
+    data: [27.140696, 27.140696, 27.140696, 27.034796]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+```chart
+type: line
+title: "ROE & DY %"
+labels: ['2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
+series:
+  - title: ROE %
+    data: [14.57, 14.57, 14.57, 14.57]
+  - title: DY %
+    data: [9.12, 9.12, 9.12, 9.16]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

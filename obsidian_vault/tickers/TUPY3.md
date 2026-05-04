@@ -1,14 +1,14 @@
 ---
 ticker: TUPY3
-name: Tupy
+name: TUPY3
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 14.39
-price_date: 2026-04-24
-change_1d_pct: -5.39
-pb: 0.7535
+price: 13.83
+price_date: 2026-04-27
+change_1d_pct: -3.89
+pb: 0.7242
 dy_pct: 14.66
 roe_pct: -21.77
 streak_years: 5
@@ -16,11 +16,11 @@ screen_score: 0.5
 screen_pass: false
 div_safety: 20
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# TUPY3 — Tupy
+# TUPY3 — TUPY3
 
 #watchlist #br #industrials
 
@@ -32,7 +32,7 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$14.39  (2026-04-24)    _-5.39% 1d_
+- **Preço**: R$13.83  (2026-04-27)    _-3.89% 1d_
 - **Screen**: 0.5  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -40,7 +40,7 @@ tags: [watchlist, br, industrials]
 
 ## Fundamentals
 
-- P/E: None | P/B: 0.7534821 | DY: 14.66%
+- P/E: None | P/B: 0.7241596 | DY: 14.66%
 - ROE: -21.77% | EPS: -4.96 | BVPS: 19.098
 - Streak div: 5y | Aristocrat: None
 
@@ -55,13 +55,13 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -36.75%
-- **Drawdown 5y**: -54.17%
-- **YTD**: +23.73%
-- **YoY (1y)**: -33.59%
-- **CAGR 3y**: -13.50%  |  **5y**: -9.39%  |  **10y**: -0.25%
-- **Vol annual**: +39.59%
-- **Sharpe 3y** (rf=4%): -0.55
+- **Drawdown 52w**: -38.42%
+- **Drawdown 5y**: -55.96%
+- **YTD**: +18.92%
+- **YoY (1y)**: -39.21%
+- **CAGR 3y**: -14.72%  |  **5y**: -10.06%  |  **10y**: +0.13%
+- **Vol annual**: +39.18%
+- **Sharpe 3y** (rf=4%): -0.59
 
 ### Dividendos
 - **DY 5y avg**: +4.05%
@@ -109,10 +109,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -122,12 +122,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [-21.77, -21.77, -21.77, -21.77]
+    data: [-21.77, -21.77, -21.77, -21.77, -21.77, -21.77]
   - title: DY %
-    data: [14.66, 14.66, 14.66, 14.66]
+    data: [14.66, 14.66, 14.66, 14.66, 14.66, 14.66]
 width: 80%
 beginAtZero: false
 fill: false
@@ -136,4 +136,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

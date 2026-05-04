@@ -1,27 +1,27 @@
 ---
 ticker: WIZC3
-name: Wiz Co
+name: WIZC3
 market: br
 sector: Insurance
 is_holding: false
 currency: BRL
-price: 9.19
-price_date: 2026-04-24
-change_1d_pct: 0.44
-pe: 7.2937
-pb: 2.1059
-dy_pct: 6.16
+price: 8.97
+price_date: 2026-04-27
+change_1d_pct: -2.39
+pe: 7.119
+pb: 2.0555
+dy_pct: 6.31
 roe_pct: 29.97
 streak_years: 11
 screen_score: 1
 screen_pass: true
 div_safety: 90
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:44Z"
+updated: "2026-04-28T18:40:41Z"
 tags: [watchlist, br, insurance]
 ---
 
-# WIZC3 — Wiz Co
+# WIZC3 — WIZC3
 
 #watchlist #br #insurance
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, insurance]
 
 ## Snapshot
 
-- **Preço**: R$9.19  (2026-04-24)    _+0.44% 1d_
+- **Preço**: R$8.97  (2026-04-27)    _-2.39% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, insurance]
 
 ## Fundamentals
 
-- P/E: 7.2936506 | P/B: 2.1058662 | DY: 6.16%
+- P/E: 7.119048 | P/B: 2.0554538 | DY: 6.31%
 - ROE: 29.97% | EPS: 1.26 | BVPS: 4.364
 - Streak div: 11y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, insurance]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -10.60%
-- **Drawdown 5y**: -50.43%
-- **YTD**: +4.79%
-- **YoY (1y)**: +50.66%
-- **CAGR 3y**: +16.78%  |  **5y**: -1.46%  |  **10y**: -2.11%
-- **Vol annual**: +29.86%
-- **Sharpe 3y** (rf=4%): +0.36
+- **Drawdown 52w**: -12.74%
+- **Drawdown 5y**: -51.62%
+- **YTD**: +2.28%
+- **YoY (1y)**: +47.78%
+- **CAGR 3y**: +14.92%  |  **5y**: -2.71%  |  **10y**: -2.50%
+- **Vol annual**: +29.97%
+- **Sharpe 3y** (rf=4%): +0.31
 
 ### Dividendos
 - **DY 5y avg**: +6.59%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [7.555556, 7.2619047, 7.2936506, 7.2936506]
+    data: [7.555556, 7.2619047, 7.2936506, 7.2936506, 7.2936506, 7.119048]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [29.97, 29.97, 29.97, 29.97]
+    data: [29.97, 29.97, 29.97, 29.97, 29.97, 29.97]
   - title: DY %
-    data: [5.95, 6.19, 6.16, 6.16]
+    data: [5.95, 6.19, 6.16, 6.16, 6.16, 6.31]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

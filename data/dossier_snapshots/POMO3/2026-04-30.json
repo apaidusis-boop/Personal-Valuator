@@ -1,0 +1,92 @@
+{
+  "ticker": "POMO3",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "POMO3",
+    "period_end": "2026-04-30",
+    "eps": 0.98,
+    "bvps": 3.089,
+    "roe": 0.30973,
+    "pe": 6.5714283,
+    "pb": 2.0848172,
+    "dy": 0.1585968930007784,
+    "net_debt_ebitda": 0.9931406677389282,
+    "dividend_streak_years": 19,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": null,
+    "ev_ebitda": 5.958,
+    "market_cap": 8330678784.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 6,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 3.266012744194686,
+      "zone": "safe",
+      "confidence": "medium",
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) — conservative proxy"
+      ]
+    },
+    "beneish": {
+      "m": -2.579316106404616,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Buffett/Quality (7/12)",
+    "secondary": "Value (6/12)",
+    "value": 6,
+    "growth": 3,
+    "dividend": 5,
+    "buffett": 7,
+    "macro_exposure": 1,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 7.780809003111361,
+    "pessimistic_value": 6.669805812512645,
+    "optimistic_value": 9.125187054379229,
+    "margin_of_safety_pct": 0.20820014502757667,
+    "current_price": 6.440000057220459
+  },
+  "council_stance": "AVOID",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Tião Galpão",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Valentina Prudente menciona que a comparação de P/E é enganosa em certos contextos, Pedro Alocação"
+  ],
+  "consensus_points": [
+    "POMO3 trades at a significant premium in terms of P/B (2.08x) compared to peers (1.35x), indicating overvaluation.",
+    "High P/E of 6.57x compared to sector median of 19.43x, coupled with a dividend yield of 15.9% which seems unusually high, raises concerns about valuation accuracy and sustainability."
+  ],
+  "dissent_points": [
+    "Valentina Prudente disse que o alto dividendo anual e ROE de 31% indicam solidez financeira, Pedro Alocação disse que a alta taxa de dividendos pode não ser sustentável dada a relação P/E elevada e o FCF Yield baixo."
+  ],
+  "evidence_count": 19,
+  "research_hits_total": 16
+}

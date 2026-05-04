@@ -5,17 +5,17 @@ market: br
 sector: Papel (CRI)
 is_holding: false
 currency: BRL
-price: 82.76
-price_date: 2026-04-24
-change_1d_pct: -0.23
-pe: 7.713
-dy_pct: 11.12
+price: 82.26
+price_date: 2026-04-27
+change_1d_pct: -0.6
+pe: 7.6664
+dy_pct: 11.19
 streak_years: 5
 screen_score: 1
 screen_pass: true
 div_safety: 38.3
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, papel_(cri)]
 ---
 
@@ -27,11 +27,11 @@ tags: [watchlist, br, papel_(cri)]
 
 - Sector: [[sectors/Papel_(CRI)|Papel (CRI)]]
 - Market: [[markets/BR|BR]]
-- Peers: [[VGIR11]] · [[KNCR11]] · [[MCCI11]] · [[MCRF11]] · [[RBRY11]]
+- Peers: [[VGIR11]] · [[KNCR11]] · [[MCCI11]] · [[RBRY11]] · [[VGIP11]]
 
 ## Snapshot
 
-- **Preço**: R$82.76  (2026-04-24)    _-0.23% 1d_
+- **Preço**: R$82.26  (2026-04-27)    _-0.60% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -39,7 +39,7 @@ tags: [watchlist, br, papel_(cri)]
 
 ## Fundamentals
 
-- P/E: 7.712955 | P/B: None | DY: 11.12%
+- P/E: 7.6663566 | P/B: None | DY: 11.19%
 - ROE: None% | EPS: 10.73 | BVPS: None
 - Streak div: 5y | Aristocrat: None
 
@@ -54,13 +54,13 @@ tags: [watchlist, br, papel_(cri)]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.29%
-- **Drawdown 5y**: -22.22%
-- **YTD**: +0.38%
-- **YoY (1y)**: +0.58%
-- **CAGR 3y**: +1.54%  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +47.56%
-- **Sharpe 3y** (rf=4%): -0.08
+- **Drawdown 52w**: -4.87%
+- **Drawdown 5y**: -22.69%
+- **YTD**: -0.23%
+- **YoY (1y)**: -1.19%
+- **CAGR 3y**: -0.23%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +47.70%
+- **Sharpe 3y** (rf=4%): -0.14
 
 ### Dividendos
 - **DY 5y avg**: +8.71%
@@ -108,10 +108,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [7.73905, 7.730662, 7.712955, 7.712955]
+    data: [7.73905, 7.730662, 7.712955, 7.712955, 7.712955, 7.6663566]
 width: 80%
 beginAtZero: false
 fill: false
@@ -121,12 +121,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [11.09, 11.1, 11.12, 11.12]
+    data: [11.09, 11.1, 11.12, 11.12, 11.12, 11.19]
 width: 80%
 beginAtZero: false
 fill: false
@@ -135,4 +135,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

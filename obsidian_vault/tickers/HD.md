@@ -5,12 +5,12 @@ market: us
 sector: Consumer Disc.
 is_holding: true
 currency: USD
-price: 335.89
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 23.5878
-pb: 26.1109
-dy_pct: 2.75
+price: 332.3
+price_date: 2026-04-27
+change_1d_pct: -1.07
+pe: 23.3357
+pb: 25.8318
+dy_pct: 2.78
 roe_pct: 145.54
 streak_years: 40
 aristocrat: true
@@ -22,9 +22,9 @@ div_safety: 80
 div_safety_verdict: SAFE
 position_qty: 1
 entry_price: 292.02
-pnl_pct: 15.02
-market_value: 335.89
-updated: "2026-04-26T10:59:46Z"
+pnl_pct: 13.79
+market_value: 332.3
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, consumer_disc.]
 ---
 
@@ -34,20 +34,20 @@ tags: [holding, us, consumer_disc.]
 
 ## 🎯 Verdict — 🟡 WATCH
 
-> **Score**: 6.9/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 6.6/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 7.7/10 | 35% | `████████░░` |
 | Valuation  | 8.0/10 | 30% | `████████░░` |
-| Momentum   | 6.0/10 | 20% | `██████░░░░` |
+| Momentum   | 4.7/10 | 20% | `█████░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 5.711518479962093 (SAFE), Piotroski 4/9 (NEUTRAL), DivSafety 80.0/100
 - **Valuation**: Screen 0.60, DY percentil P94 (CHEAP)
-- **Momentum**: 1d 0.0%, 30d 4.43%, YTD -2.87%
+- **Momentum**: 1d -1.07%, 30d 2.72%, YTD -3.91%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
@@ -66,16 +66,16 @@ tags: [holding, us, consumer_disc.]
 
 ## Snapshot
 
-- **Preço**: $335.89  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $332.30  (2026-04-27)    _-1.07% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 5.712 (safe)
 - **Piotroski**: 4/9
 - **Div Safety**: 80.0/100 (SAFE)
-- **Posição**: 1.0 sh @ $292.02  →  P&L 15.02%
+- **Posição**: 1.0 sh @ $292.02  →  P&L 13.79%
 
 ## Fundamentals
 
-- P/E: 23.587782 | P/B: 26.110853 | DY: 2.75%
+- P/E: 23.335674 | P/B: 25.831778 | DY: 2.78%
 - ROE: 145.54% | EPS: 14.24 | BVPS: 12.864
 - Streak div: 40y | Aristocrat: True
 
@@ -98,13 +98,13 @@ tags: [holding, us, consumer_disc.]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -20.67%
-- **Drawdown 5y**: -22.13%
-- **YTD**: -2.87%
-- **YoY (1y)**: -6.07%
-- **CAGR 3y**: +4.55%  |  **5y**: +0.94%  |  **10y**: +9.73%
-- **Vol annual**: +24.03%
-- **Sharpe 3y** (rf=4%): +0.02
+- **Drawdown 52w**: -21.52%
+- **Drawdown 5y**: -22.97%
+- **YTD**: -3.91%
+- **YoY (1y)**: -7.07%
+- **CAGR 3y**: +3.41%  |  **5y**: +0.78%  |  **10y**: +9.52%
+- **Vol annual**: +24.04%
+- **Sharpe 3y** (rf=4%): -0.03
 
 ### Dividendos
 - **DY 5y avg**: +2.28%
@@ -147,10 +147,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [23.780943, 23.800774, 23.692904, 24.571026, 24.460688, 24.185654, 23.620956, 23.587782]
+    data: [23.780943, 23.800774, 23.692904, 24.571026, 24.460688, 24.185654, 23.620956, 23.587782, 23.587782, 23.335674]
 width: 80%
 beginAtZero: false
 fill: false
@@ -160,12 +160,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54]
+    data: [145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54, 145.54]
   - title: DY %
-    data: [2.72, 2.75, 2.76, 2.67, 2.67, 2.68, 2.75, 2.75]
+    data: [2.72, 2.75, 2.76, 2.67, 2.67, 2.68, 2.75, 2.75, 2.75, 2.78]
 width: 80%
 beginAtZero: false
 fill: false
@@ -174,4 +174,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

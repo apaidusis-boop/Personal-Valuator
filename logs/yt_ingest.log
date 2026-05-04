@@ -1341,3 +1341,328 @@ themes.4.confidence
 2026-04-24 22:10:44,136 INFO faster_whisper Processing audio with duration 19:33.525
 2026-04-24 22:10:45,545 INFO faster_whisper VAD filter removed 00:05.664 of audio
 2026-04-24 22:10:48,932 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-04-28 20:27:34,826 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:27:35,004 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-28 20:27:36,424 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-28 20:27:38,376 INFO faster_whisper Processing audio with duration 21:08.181
+2026-04-28 20:27:39,783 INFO faster_whisper VAD filter removed 00:43.749 of audio
+2026-04-28 20:27:41,135 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-04-28 20:27:58,601 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=1268.2s chunks=262 chars=25907
+2026-04-28 20:27:58,670 INFO youtube.router router_done tickers=0 themes=2
+2026-04-28 20:28:14,335 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 20:28:16,720 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 20:28:16,729 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 0, 'themes_db': 'us_investments.db'}
+2026-04-28 20:28:16,731 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\sjL61D3oybY.webm
+2026-04-28 22:32:29,365 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-04-28 22:32:29,651 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA5D596660>
+2026-04-28 22:32:29,651 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA3DC05310> server_hostname='huggingface.co' timeout=None
+2026-04-28 22:32:29,997 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA5D5C5950>
+2026-04-28 22:32:29,997 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:29,997 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:32:29,997 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-28 22:32:29,997 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:32:29,997 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:30,155 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'103'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 28 Apr 2026 19:32:30 GMT'), (b'Location', b'/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69f10b4e-4f20335d38d3e0e96a8c08bb;2720ff85-68fc-4aa3-b3ca-6c0f3c27fe1d'), (b'RateLimit', b'"api";r=499;t=126'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 db8ed9452856968607345e917396a2bc.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'2wzXB5NKHYJy3J_xqYDnPDq08yvLuj0txziFlTa_vdfjBW-l-aqKjg==')])
+2026-04-28 22:32:30,155 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 22:32:30,155 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-28 22:32:30,155 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:32:30,155 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:32:30,156 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:30,319 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'763'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 28 Apr 2026 19:32:30 GMT'), (b'ETag', b'W/"2fb-sJBwMyhCQtcj8uOkECErL4OLdtA"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69f10b4e-379b2eda66169bdc5852a8b8;2720ff85-68fc-4aa3-b3ca-6c0f3c27fe1d'), (b'RateLimit', b'"api";r=498;t=126'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 db8ed9452856968607345e917396a2bc.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'_PzH_YtqihDVUwsHpsYm2XgCnaX1QvBKYA8Mqt10j_pTZf3K0o8TXA==')])
+2026-04-28 22:32:30,320 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-28 22:32:30,320 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-28 22:32:30,320 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:32:30,320 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:32:30,320 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:32:31,841 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-28 22:32:39,243 INFO faster_whisper Processing audio with duration 01:14:16.880
+2026-04-28 22:32:44,486 INFO faster_whisper VAD filter removed 00:34.016 of audio
+2026-04-28 22:32:44,486 DEBUG faster_whisper VAD filter kept the following audio segments: [00:00.000 -> 00:07.104], [00:07.104 -> 01:12.976], [01:13.232 -> 01:45.520], [01:45.712 -> 03:09.936], [03:09.936 -> 03:12.112], [03:12.112 -> 03:13.264], [03:13.712 -> 03:44.160], [03:44.160 -> 03:45.392], [03:45.392 -> 04:11.120], [04:12.752 -> 04:14.992], [04:15.472 -> 11:00.368], [11:00.720 -> 11:02.496], [11:02.496 -> 16:04.816], [16:04.816 -> 18:48.048], [18:48.112 -> 18:50.512], [18:50.608 -> 19:46.048], [19:46.048 -> 22:56.064], [22:56.064 -> 22:59.872], [22:59.872 -> 23:07.680], [23:07.680 -> 23:09.776], [23:09.840 -> 23:23.152], [23:23.472 -> 23:37.216], [23:37.216 -> 23:39.216], [23:39.216 -> 23:49.008], [23:49.008 -> 24:53.616], [24:55.088 -> 24:56.688], [24:56.688 -> 25:05.824], [25:05.824 -> 25:06.960], [25:06.960 -> 25:29.424], [25:30.512 -> 25:31.984], [25:31.984 -> 25:33.072], [25:33.264 -> 25:38.064], [25:38.064 -> 25:40.688], [25:40.912 -> 26:11.664], [26:11.760 -> 26:53.392], [26:53.488 -> 26:57.984], [26:57.984 -> 27:14.416], [27:14.896 -> 31:26.240], [31:26.240 -> 34:11.296], [34:11.296 -> 34:20.688], [34:23.088 -> 34:42.384], [34:44.112 -> 34:48.784], [34:50.992 -> 45:15.648], [45:15.648 -> 45:20.880], [45:21.584 -> 45:38.688], [45:38.688 -> 45:41.712], [45:42.128 -> 45:43.952], [45:44.304 -> 46:16.304], [46:16.304 -> 47:17.776], [47:17.776 -> 48:06.448], [48:06.448 -> 50:16.048], [50:17.424 -> 50:22.864], [50:22.864 -> 51:02.448], [51:02.448 -> 52:37.632], [52:37.632 -> 52:38.768], [52:38.768 -> 52:42.768], [52:44.080 -> 53:36.528], [53:36.528 -> 53:40.720], [53:42.480 -> 54:52.304], [54:52.304 -> 58:12.784], [58:13.328 -> 58:32.272], [58:32.272 -> 58:37.120], [58:37.120 -> 58:39.728], [58:39.728 -> 01:00:18.080], [01:00:18.080 -> 01:09:42.144], [01:09:42.144 -> 01:10:01.664], [01:10:01.664 -> 01:11:15.664], [01:11:15.664 -> 01:11:19.280], [01:11:19.632 -> 01:11:23.376], [01:11:26.192 -> 01:13:12.080], [01:13:14.000 -> 01:14:05.232], [01:14:05.488 -> 01:14:08.560]
+2026-04-28 22:32:46,415 WARNING youtube.transcriber whisper_cuda_runtime_fail err=Library cublas64_12.dll is not found or cannot be loaded — falling back to CPU int8
+2026-04-28 22:32:46,416 DEBUG httpcore.connection close.started
+2026-04-28 22:32:46,416 DEBUG httpcore.connection close.complete
+2026-04-28 22:32:46,416 DEBUG httpcore.connection connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-04-28 22:32:46,558 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DCAE0487D0>
+2026-04-28 22:32:46,559 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA3DC05310> server_hostname='huggingface.co' timeout=None
+2026-04-28 22:32:46,718 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA3DB79F30>
+2026-04-28 22:32:46,718 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:46,719 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:32:46,719 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-28 22:32:46,719 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:32:46,719 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:46,899 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'103'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 28 Apr 2026 19:32:46 GMT'), (b'Location', b'/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69f10b5e-73829ddf20d2f05000c6237e;1bf740dd-84bf-49df-8cf8-706613d6289d'), (b'RateLimit', b'"api";r=499;t=90'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 db8ed9452856968607345e917396a2bc.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'Ovj48TgxCOQOR7G4j-cVqPy0EPa0PVNzjYvaT4qfyn9zyQo-wDwGGw==')])
+2026-04-28 22:32:46,899 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:32:46,900 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2026-04-28 22:32:47,083 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'763'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 28 Apr 2026 19:32:46 GMT'), (b'ETag', b'W/"2fb-sJBwMyhCQtcj8uOkECErL4OLdtA"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69f10b5e-3abceb305fd99ee87d04c6d7;1bf740dd-84bf-49df-8cf8-706613d6289d'), (b'RateLimit', b'"api";r=498;t=90'), (b'RateLimit-Policy', b'"fixed window";"api";q=500;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 db8ed9452856968607345e917396a2bc.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'JFK50-P9'), (b'X-Amz-Cf-Id', b'pjwV3uY0jNDn5gAMgSWy8jUkDtl4ixqnIL_iJFj787Y11PVCWYLGsA==')])
+2026-04-28 22:32:47,083 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-28 22:32:47,083 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2026-04-28 22:32:47,084 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:32:47,084 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:32:47,084 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:32:56,101 INFO faster_whisper Processing audio with duration 01:14:16.880
+2026-04-28 22:33:01,407 INFO faster_whisper VAD filter removed 00:34.016 of audio
+2026-04-28 22:33:01,408 DEBUG faster_whisper VAD filter kept the following audio segments: [00:00.000 -> 00:07.104], [00:07.104 -> 01:12.976], [01:13.232 -> 01:45.520], [01:45.712 -> 03:09.936], [03:09.936 -> 03:12.112], [03:12.112 -> 03:13.264], [03:13.712 -> 03:44.160], [03:44.160 -> 03:45.392], [03:45.392 -> 04:11.120], [04:12.752 -> 04:14.992], [04:15.472 -> 11:00.368], [11:00.720 -> 11:02.496], [11:02.496 -> 16:04.816], [16:04.816 -> 18:48.048], [18:48.112 -> 18:50.512], [18:50.608 -> 19:46.048], [19:46.048 -> 22:56.064], [22:56.064 -> 22:59.872], [22:59.872 -> 23:07.680], [23:07.680 -> 23:09.776], [23:09.840 -> 23:23.152], [23:23.472 -> 23:37.216], [23:37.216 -> 23:39.216], [23:39.216 -> 23:49.008], [23:49.008 -> 24:53.616], [24:55.088 -> 24:56.688], [24:56.688 -> 25:05.824], [25:05.824 -> 25:06.960], [25:06.960 -> 25:29.424], [25:30.512 -> 25:31.984], [25:31.984 -> 25:33.072], [25:33.264 -> 25:38.064], [25:38.064 -> 25:40.688], [25:40.912 -> 26:11.664], [26:11.760 -> 26:53.392], [26:53.488 -> 26:57.984], [26:57.984 -> 27:14.416], [27:14.896 -> 31:26.240], [31:26.240 -> 34:11.296], [34:11.296 -> 34:20.688], [34:23.088 -> 34:42.384], [34:44.112 -> 34:48.784], [34:50.992 -> 45:15.648], [45:15.648 -> 45:20.880], [45:21.584 -> 45:38.688], [45:38.688 -> 45:41.712], [45:42.128 -> 45:43.952], [45:44.304 -> 46:16.304], [46:16.304 -> 47:17.776], [47:17.776 -> 48:06.448], [48:06.448 -> 50:16.048], [50:17.424 -> 50:22.864], [50:22.864 -> 51:02.448], [51:02.448 -> 52:37.632], [52:37.632 -> 52:38.768], [52:38.768 -> 52:42.768], [52:44.080 -> 53:36.528], [53:36.528 -> 53:40.720], [53:42.480 -> 54:52.304], [54:52.304 -> 58:12.784], [58:13.328 -> 58:32.272], [58:32.272 -> 58:37.120], [58:37.120 -> 58:39.728], [58:39.728 -> 01:00:18.080], [01:00:18.080 -> 01:09:42.144], [01:09:42.144 -> 01:10:01.664], [01:10:01.664 -> 01:11:15.664], [01:11:15.664 -> 01:11:19.280], [01:11:19.632 -> 01:11:23.376], [01:11:26.192 -> 01:13:12.080], [01:13:14.000 -> 01:14:05.232], [01:14:05.488 -> 01:14:08.560]
+2026-04-28 22:33:07,295 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-04-28 22:33:07,321 DEBUG faster_whisper Processing segment at 00:00.000
+2026-04-28 22:33:12,133 DEBUG faster_whisper Processing segment at 00:28.420
+2026-04-28 22:33:17,113 DEBUG faster_whisper Processing segment at 00:55.780
+2026-04-28 22:33:21,200 DEBUG faster_whisper Processing segment at 01:20.920
+2026-04-28 22:33:25,757 DEBUG faster_whisper Processing segment at 01:44.680
+2026-04-28 22:33:30,170 DEBUG faster_whisper Processing segment at 02:11.900
+2026-04-28 22:33:34,640 DEBUG faster_whisper Processing segment at 02:40.800
+2026-04-28 22:33:39,311 DEBUG faster_whisper Processing segment at 03:08.480
+2026-04-28 22:33:43,956 DEBUG faster_whisper Processing segment at 03:37.620
+2026-04-28 22:33:48,886 DEBUG faster_whisper Processing segment at 04:06.280
+2026-04-28 22:33:53,127 DEBUG faster_whisper Processing segment at 04:32.400
+2026-04-28 22:33:58,019 DEBUG faster_whisper Processing segment at 04:58.880
+2026-04-28 22:34:02,572 DEBUG faster_whisper Processing segment at 05:26.300
+2026-04-28 22:34:07,205 DEBUG faster_whisper Processing segment at 05:54.600
+2026-04-28 22:34:11,891 DEBUG faster_whisper Processing segment at 06:23.100
+2026-04-28 22:34:16,405 DEBUG faster_whisper Processing segment at 06:50.380
+2026-04-28 22:34:21,134 DEBUG faster_whisper Processing segment at 07:19.360
+2026-04-28 22:34:25,568 DEBUG faster_whisper Processing segment at 07:45.620
+2026-04-28 22:34:30,152 DEBUG faster_whisper Processing segment at 08:12.060
+2026-04-28 22:34:35,331 DEBUG faster_whisper Processing segment at 08:42.020
+2026-04-28 22:34:40,245 DEBUG faster_whisper Processing segment at 09:11.600
+2026-04-28 22:34:44,742 DEBUG faster_whisper Processing segment at 09:39.140
+2026-04-28 22:34:49,436 DEBUG faster_whisper Processing segment at 10:06.240
+2026-04-28 22:34:54,199 DEBUG faster_whisper Processing segment at 10:35.240
+2026-04-28 22:34:59,584 DEBUG faster_whisper Processing segment at 11:04.340
+2026-04-28 22:35:04,591 DEBUG faster_whisper Processing segment at 11:32.480
+2026-04-28 22:35:09,726 DEBUG faster_whisper Processing segment at 11:59.700
+2026-04-28 22:35:15,246 DEBUG faster_whisper Processing segment at 12:28.680
+2026-04-28 22:35:20,805 DEBUG faster_whisper Processing segment at 12:58.680
+2026-04-28 22:35:26,560 DEBUG faster_whisper Processing segment at 13:27.880
+2026-04-28 22:35:32,400 DEBUG faster_whisper Processing segment at 13:57.600
+2026-04-28 22:35:37,890 DEBUG faster_whisper Processing segment at 14:26.060
+2026-04-28 22:35:44,092 DEBUG faster_whisper Processing segment at 14:53.940
+2026-04-28 22:35:48,949 DEBUG faster_whisper Processing segment at 15:20.960
+2026-04-28 22:35:55,020 DEBUG faster_whisper Processing segment at 15:50.960
+2026-04-28 22:36:01,230 DEBUG faster_whisper Processing segment at 16:20.260
+2026-04-28 22:36:06,047 DEBUG faster_whisper Processing segment at 16:41.660
+2026-04-28 22:36:11,693 DEBUG faster_whisper Processing segment at 17:10.200
+2026-04-28 22:36:17,377 DEBUG faster_whisper Processing segment at 17:39.240
+2026-04-28 22:36:23,393 DEBUG faster_whisper Processing segment at 18:08.560
+2026-04-28 22:36:28,797 DEBUG faster_whisper Processing segment at 18:35.780
+2026-04-28 22:36:33,960 DEBUG faster_whisper Processing segment at 19:02.800
+2026-04-28 22:36:39,905 DEBUG faster_whisper Processing segment at 19:32.040
+2026-04-28 22:36:47,384 DEBUG faster_whisper Processing segment at 20:00.800
+2026-04-28 22:36:52,505 DEBUG faster_whisper Processing segment at 20:25.860
+2026-04-28 22:36:58,076 DEBUG faster_whisper Processing segment at 20:53.560
+2026-04-28 22:37:02,972 DEBUG faster_whisper Processing segment at 21:22.700
+2026-04-28 22:37:09,284 DEBUG faster_whisper Processing segment at 21:51.440
+2026-04-28 22:37:15,000 DEBUG faster_whisper Processing segment at 22:17.420
+2026-04-28 22:37:19,779 DEBUG faster_whisper Processing segment at 22:42.840
+2026-04-28 22:37:26,379 DEBUG faster_whisper Processing segment at 23:12.080
+2026-04-28 22:37:32,214 DEBUG faster_whisper Processing segment at 23:41.100
+2026-04-28 22:37:37,243 DEBUG faster_whisper Processing segment at 24:08.020
+2026-04-28 22:37:43,080 DEBUG faster_whisper Processing segment at 24:33.140
+2026-04-28 22:37:49,006 DEBUG faster_whisper Processing segment at 25:01.900
+2026-04-28 22:37:54,587 DEBUG faster_whisper Processing segment at 25:31.240
+2026-04-28 22:37:59,572 DEBUG faster_whisper Processing segment at 25:58.120
+2026-04-28 22:38:04,564 DEBUG faster_whisper Processing segment at 26:25.140
+2026-04-28 22:38:10,134 DEBUG faster_whisper Processing segment at 26:54.160
+2026-04-28 22:38:15,894 DEBUG faster_whisper Processing segment at 27:23.140
+2026-04-28 22:38:21,540 DEBUG faster_whisper Processing segment at 27:50.380
+2026-04-28 22:38:26,866 DEBUG faster_whisper Processing segment at 28:18.900
+2026-04-28 22:38:32,184 DEBUG faster_whisper Processing segment at 28:48.740
+2026-04-28 22:38:39,029 DEBUG faster_whisper Processing segment at 29:15.400
+2026-04-28 22:38:44,893 DEBUG faster_whisper Processing segment at 29:40.020
+2026-04-28 22:38:49,673 DEBUG faster_whisper Processing segment at 30:09.420
+2026-04-28 22:38:56,330 DEBUG faster_whisper Processing segment at 30:39.280
+2026-04-28 22:39:02,375 DEBUG faster_whisper Processing segment at 31:06.940
+2026-04-28 22:39:07,800 DEBUG faster_whisper Processing segment at 31:26.860
+2026-04-28 22:39:14,527 DEBUG faster_whisper Processing segment at 31:54.820
+2026-04-28 22:39:21,200 DEBUG faster_whisper Processing segment at 32:24.120
+2026-04-28 22:39:28,289 DEBUG faster_whisper Processing segment at 32:52.740
+2026-04-28 22:39:33,512 DEBUG faster_whisper Processing segment at 33:12.800
+2026-04-28 22:39:38,889 DEBUG faster_whisper Processing segment at 33:42.800
+2026-04-28 22:39:45,727 DEBUG faster_whisper Processing segment at 34:12.160
+2026-04-28 22:39:51,730 DEBUG faster_whisper Processing segment at 34:41.580
+2026-04-28 22:39:57,594 DEBUG faster_whisper Processing segment at 35:10.500
+2026-04-28 22:40:02,487 DEBUG faster_whisper Processing segment at 35:24.420
+2026-04-28 22:40:10,625 DEBUG faster_whisper Processing segment at 35:46.420
+2026-04-28 22:40:17,118 DEBUG faster_whisper Processing segment at 36:16.420
+2026-04-28 22:40:21,196 DEBUG faster_whisper Processing segment at 36:46.260
+2026-04-28 22:40:28,132 DEBUG faster_whisper Processing segment at 37:06.420
+2026-04-28 22:40:34,296 DEBUG faster_whisper Processing segment at 37:25.840
+2026-04-28 22:40:40,600 DEBUG faster_whisper Processing segment at 37:55.840
+2026-04-28 22:40:47,697 DEBUG faster_whisper Processing segment at 38:25.840
+2026-04-28 22:40:55,347 DEBUG faster_whisper Processing segment at 38:46.040
+2026-04-28 22:41:01,862 DEBUG faster_whisper Processing segment at 39:16.040
+2026-04-28 22:41:09,359 DEBUG faster_whisper Processing segment at 39:36.620
+2026-04-28 22:41:14,664 DEBUG faster_whisper Processing segment at 40:06.620
+2026-04-28 22:41:21,040 DEBUG faster_whisper Processing segment at 40:36.620
+2026-04-28 22:41:28,665 DEBUG faster_whisper Processing segment at 41:06.620
+2026-04-28 22:41:36,457 DEBUG faster_whisper Processing segment at 41:28.740
+2026-04-28 22:41:42,824 DEBUG faster_whisper Processing segment at 41:58.740
+2026-04-28 22:41:49,948 DEBUG faster_whisper Processing segment at 42:28.740
+2026-04-28 22:41:57,573 DEBUG faster_whisper Processing segment at 42:43.120
+2026-04-28 22:42:05,243 DEBUG faster_whisper Processing segment at 43:13.120
+2026-04-28 22:42:12,767 DEBUG faster_whisper Processing segment at 43:43.120
+2026-04-28 22:42:20,256 DEBUG faster_whisper Processing segment at 44:02.180
+2026-04-28 22:42:26,705 DEBUG faster_whisper Processing segment at 44:19.940
+2026-04-28 22:42:33,045 DEBUG faster_whisper Processing segment at 44:48.860
+2026-04-28 22:42:40,356 DEBUG faster_whisper Processing segment at 45:14.800
+2026-04-28 22:42:45,498 DEBUG faster_whisper Processing segment at 45:44.800
+2026-04-28 22:42:52,131 DEBUG faster_whisper Processing segment at 46:14.800
+2026-04-28 22:42:58,590 DEBUG faster_whisper Processing segment at 46:44.800
+2026-04-28 22:43:03,335 DEBUG faster_whisper Processing segment at 47:14.800
+2026-04-28 22:43:10,732 DEBUG faster_whisper Processing segment at 47:44.800
+2026-04-28 22:43:18,381 DEBUG faster_whisper Processing segment at 48:14.800
+2026-04-28 22:43:22,948 DEBUG faster_whisper Processing segment at 48:44.800
+2026-04-28 22:43:27,612 DEBUG faster_whisper Processing segment at 49:14.800
+2026-04-28 22:43:31,899 DEBUG faster_whisper Processing segment at 49:44.800
+2026-04-28 22:43:38,230 DEBUG faster_whisper Processing segment at 50:07.400
+2026-04-28 22:43:42,906 DEBUG faster_whisper Processing segment at 50:37.400
+2026-04-28 22:43:48,265 DEBUG faster_whisper Processing segment at 50:56.260
+2026-04-28 22:43:53,061 DEBUG faster_whisper Processing segment at 51:26.260
+2026-04-28 22:43:58,819 DEBUG faster_whisper Processing segment at 51:55.280
+2026-04-28 22:44:03,351 DEBUG faster_whisper Processing segment at 52:06.860
+2026-04-28 22:44:09,277 DEBUG faster_whisper Processing segment at 52:29.940
+2026-04-28 22:44:14,608 DEBUG faster_whisper Processing segment at 52:59.940
+2026-04-28 22:44:21,717 DEBUG faster_whisper Processing segment at 53:15.160
+2026-04-28 22:44:29,087 DEBUG faster_whisper Processing segment at 53:38.320
+2026-04-28 22:44:36,593 DEBUG faster_whisper Processing segment at 54:08.320
+2026-04-28 22:44:43,890 DEBUG faster_whisper Processing segment at 54:38.320
+2026-04-28 22:44:51,045 DEBUG faster_whisper Processing segment at 54:57.940
+2026-04-28 22:44:57,106 DEBUG faster_whisper Processing segment at 55:27.940
+2026-04-28 22:45:03,370 DEBUG faster_whisper Processing segment at 55:57.940
+2026-04-28 22:45:08,756 DEBUG faster_whisper Processing segment at 56:16.240
+2026-04-28 22:45:14,945 DEBUG faster_whisper Processing segment at 56:46.240
+2026-04-28 22:45:22,592 DEBUG faster_whisper Processing segment at 57:16.240
+2026-04-28 22:45:28,955 DEBUG faster_whisper Processing segment at 57:46.240
+2026-04-28 22:45:34,052 DEBUG faster_whisper Processing segment at 58:16.240
+2026-04-28 22:45:40,467 DEBUG faster_whisper Processing segment at 58:39.400
+2026-04-28 22:45:46,659 DEBUG faster_whisper Processing segment at 59:00.380
+2026-04-28 22:45:51,177 DEBUG faster_whisper Processing segment at 59:14.260
+2026-04-28 22:45:57,406 DEBUG faster_whisper Processing segment at 59:44.260
+2026-04-28 22:46:02,740 DEBUG faster_whisper Processing segment at 01:00:14.260
+2026-04-28 22:46:08,118 DEBUG faster_whisper Processing segment at 01:00:29.260
+2026-04-28 22:46:14,777 DEBUG faster_whisper Processing segment at 01:00:59.260
+2026-04-28 22:46:21,793 DEBUG faster_whisper Processing segment at 01:01:19.380
+2026-04-28 22:46:28,120 DEBUG faster_whisper Processing segment at 01:01:49.380
+2026-04-28 22:46:35,484 DEBUG faster_whisper Processing segment at 01:02:19.380
+2026-04-28 22:46:42,608 DEBUG faster_whisper Processing segment at 01:02:49.380
+2026-04-28 22:46:49,268 DEBUG faster_whisper Processing segment at 01:03:09.540
+2026-04-28 22:46:56,241 DEBUG faster_whisper Processing segment at 01:03:30.020
+2026-04-28 22:47:01,828 DEBUG faster_whisper Processing segment at 01:04:00.020
+2026-04-28 22:47:08,850 DEBUG faster_whisper Processing segment at 01:04:23.660
+2026-04-28 22:47:15,100 DEBUG faster_whisper Processing segment at 01:04:53.660
+2026-04-28 22:47:22,134 DEBUG faster_whisper Processing segment at 01:05:13.580
+2026-04-28 22:47:28,989 DEBUG faster_whisper Processing segment at 01:05:34.920
+2026-04-28 22:47:35,559 DEBUG faster_whisper Processing segment at 01:06:04.920
+2026-04-28 22:47:39,486 DEBUG faster_whisper Processing segment at 01:06:34.920
+2026-04-28 22:47:45,357 DEBUG faster_whisper Processing segment at 01:06:56.120
+2026-04-28 22:47:49,422 DEBUG faster_whisper Processing segment at 01:07:26.120
+2026-04-28 22:47:55,482 DEBUG faster_whisper Processing segment at 01:07:45.760
+2026-04-28 22:48:02,482 DEBUG faster_whisper Processing segment at 01:08:09.180
+2026-04-28 22:48:09,325 DEBUG faster_whisper Processing segment at 01:08:31.160
+2026-04-28 22:48:15,239 DEBUG faster_whisper Processing segment at 01:08:51.160
+2026-04-28 22:48:19,820 DEBUG faster_whisper Processing segment at 01:09:21.160
+2026-04-28 22:48:25,636 DEBUG faster_whisper Processing segment at 01:09:51.160
+2026-04-28 22:48:31,586 DEBUG faster_whisper Processing segment at 01:10:15.260
+2026-04-28 22:48:37,390 DEBUG faster_whisper Processing segment at 01:10:45.260
+2026-04-28 22:48:42,624 DEBUG faster_whisper Processing segment at 01:11:14.760
+2026-04-28 22:48:48,475 DEBUG faster_whisper Processing segment at 01:11:33.820
+2026-04-28 22:48:52,719 DEBUG faster_whisper Processing segment at 01:11:45.460
+2026-04-28 22:48:58,340 DEBUG faster_whisper Processing segment at 01:12:01.920
+2026-04-28 22:49:05,054 DEBUG faster_whisper Processing segment at 01:12:31.920
+2026-04-28 22:49:12,107 DEBUG faster_whisper Processing segment at 01:12:51.620
+2026-04-28 22:49:18,369 DEBUG faster_whisper Processing segment at 01:13:21.620
+2026-04-28 22:49:23,618 DEBUG faster_whisper Processing segment at 01:13:33.360
+2026-04-28 22:49:27,157 INFO youtube.transcriber whisper_done device=cpu-int8 lang=en duration=4456.9s chunks=6873 chars=64378
+2026-04-28 22:49:27,375 INFO youtube.router router_done tickers=2 themes=3
+2026-04-28 22:49:27,378 DEBUG httpcore.connection connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2026-04-28 22:49:27,379 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA5D60A190>
+2026-04-28 22:49:27,379 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:27,379 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:49:27,379 DEBUG httpcore.http11 send_request_body.started request=<Request [b'POST']>
+2026-04-28 22:49:27,379 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:49:27,379 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:38,944 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 28 Apr 2026 19:49:38 GMT'), (b'Content-Length', b'360')])
+2026-04-28 22:49:38,944 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 22:49:38,944 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'POST']>
+2026-04-28 22:49:38,944 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 send_request_body.started request=<Request [b'POST']>
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:49:38,945 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:39,677 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 28 Apr 2026 19:49:39 GMT'), (b'Content-Length', b'355')])
+2026-04-28 22:49:39,677 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 22:49:39,677 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'POST']>
+2026-04-28 22:49:39,677 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:49:39,677 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:49:39,677 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:49:39,678 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:39,678 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:49:39,678 DEBUG httpcore.http11 send_request_body.started request=<Request [b'POST']>
+2026-04-28 22:49:39,678 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:49:39,678 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 28 Apr 2026 19:49:42 GMT'), (b'Content-Length', b'357')])
+2026-04-28 22:49:42,249 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'POST']>
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 send_request_body.started request=<Request [b'POST']>
+2026-04-28 22:49:42,249 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:49:42,250 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:42,971 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 28 Apr 2026 19:49:42 GMT'), (b'Content-Length', b'354')])
+2026-04-28 22:49:42,972 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'POST']>
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 send_request_headers.complete
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 send_request_body.started request=<Request [b'POST']>
+2026-04-28 22:49:42,972 DEBUG httpcore.http11 send_request_body.complete
+2026-04-28 22:49:42,973 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'POST']>
+2026-04-28 22:49:43,654 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 28 Apr 2026 19:49:43 GMT'), (b'Content-Length', b'354')])
+2026-04-28 22:49:43,654 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-28 22:49:43,654 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'POST']>
+2026-04-28 22:49:43,654 DEBUG httpcore.http11 receive_response_body.complete
+2026-04-28 22:49:43,654 DEBUG httpcore.http11 response_closed.started
+2026-04-28 22:49:43,654 DEBUG httpcore.http11 response_closed.complete
+2026-04-28 22:49:43,675 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 0, 'themes_db': 'us_investments.db'}
+2026-04-28 22:49:43,681 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\TQks5LQ_mWg.webm
+2026-04-28 22:49:43,682 DEBUG httpcore.connection close.started
+2026-04-28 22:49:43,682 DEBUG httpcore.connection close.complete
+2026-04-30 06:37:51,110 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 06:37:51,278 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-30 06:37:52,961 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-30 06:37:55,562 INFO faster_whisper Processing audio with duration 26:02.041
+2026-04-30 06:37:57,627 INFO faster_whisper VAD filter removed 00:55.657 of audio
+2026-04-30 06:37:58,314 WARNING youtube.transcriber whisper_cuda_runtime_fail err=Library cublas64_12.dll is not found or cannot be loaded — falling back to CPU int8
+2026-04-30 06:37:58,771 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 06:37:58,933 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-30 06:38:04,375 INFO faster_whisper Processing audio with duration 26:02.041
+2026-04-30 06:38:06,304 INFO faster_whisper VAD filter removed 00:55.657 of audio
+2026-04-30 06:38:11,041 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-04-30 06:43:58,431 INFO youtube.transcriber whisper_done device=cpu-int8 lang=en duration=1562.0s chunks=335 chars=32769
+2026-04-30 06:43:58,611 INFO youtube.router router_done tickers=2 themes=2
+2026-04-30 06:44:06,251 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-30 06:44:07,081 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-30 06:44:08,320 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-30 06:44:10,889 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-30 06:44:10,904 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 0, 'themes_db': 'us_investments.db'}
+2026-04-30 06:44:10,907 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\oOCN30ulVyo.webm

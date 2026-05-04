@@ -64,6 +64,10 @@ VGIR11 é FII Papel/CRI (Valora) com **DY 15.63%** — top yield do bolso FII �
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

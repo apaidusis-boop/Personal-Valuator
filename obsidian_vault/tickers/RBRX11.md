@@ -5,11 +5,11 @@ market: br
 sector: Híbrido
 is_holding: true
 currency: BRL
-price: 8.82
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 33.9231
-dy_pct: 12.31
+price: 8.72
+price_date: 2026-04-27
+change_1d_pct: -1.13
+pe: 33.5385
+dy_pct: 12.46
 streak_years: 5
 screen_score: 1
 screen_pass: true
@@ -17,9 +17,9 @@ div_safety: 13.3
 div_safety_verdict: RISK
 position_qty: 2000
 entry_price: 8.48
-pnl_pct: 4.01
-market_value: 17640
-updated: "2026-04-26T10:59:42Z"
+pnl_pct: 2.83
+market_value: 17440
+updated: "2026-04-28T18:40:39Z"
 tags: [holding, br, híbrido]
 ---
 
@@ -29,25 +29,25 @@ tags: [holding, br, híbrido]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.4/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 5.2/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 3.3/10 | 35% | `███░░░░░░░` |
 | Valuation  | 8.0/10 | 30% | `████████░░` |
-| Momentum   | 6.0/10 | 20% | `██████░░░░` |
+| Momentum   | 5.3/10 | 20% | `█████░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 13.3/100
-- **Valuation**: Screen 1.00, DY percentil P18 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d 2.08%, YTD 5.38%
+- **Valuation**: Screen 1.00, DY percentil P25 (fair-rich)
+- **Momentum**: 1d -1.13%, 30d 0.11%, YTD 4.18%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 5.4 na zona neutra
+- total 5.2 na zona neutra
 - quality frágil
 - valuation barato
 
@@ -61,16 +61,16 @@ tags: [holding, br, híbrido]
 
 ## Snapshot
 
-- **Preço**: R$8.82  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$8.72  (2026-04-27)    _-1.13% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 13.3/100 (RISK)
-- **Posição**: 2000.0 sh @ R$8.48  →  P&L 4.01%
+- **Posição**: 2000.0 sh @ R$8.48  →  P&L 2.83%
 
 ## Fundamentals
 
-- P/E: 33.923077 | P/B: None | DY: 12.31%
+- P/E: 33.538464 | P/B: None | DY: 12.46%
 - ROE: None% | EPS: 0.26 | BVPS: None
 - Streak div: 5y | Aristocrat: None
 
@@ -85,13 +85,13 @@ tags: [holding, br, híbrido]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -0.34%
-- **Drawdown 5y**: -11.71%
-- **YTD**: +5.38%
-- **YoY (1y)**: +10.25%
-- **CAGR 3y**: +1.90%  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +12.32%
-- **Sharpe 3y** (rf=4%): -0.14
+- **Drawdown 52w**: -1.47%
+- **Drawdown 5y**: -12.71%
+- **YTD**: +4.18%
+- **YoY (1y)**: +9.00%
+- **CAGR 3y**: +1.58%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +12.36%
+- **Sharpe 3y** (rf=4%): -0.17
 
 ### Dividendos
 - **DY 5y avg**: +11.79%
@@ -148,10 +148,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [33.69231, 33.538464, 33.923077, 33.923077]
+    data: [33.69231, 33.538464, 33.923077, 33.923077, 33.923077, 33.538464]
 width: 80%
 beginAtZero: false
 fill: false
@@ -161,12 +161,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [12.4, 12.46, 12.31, 12.31]
+    data: [12.4, 12.46, 12.31, 12.31, 12.31, 12.46]
 width: 80%
 beginAtZero: false
 fill: false
@@ -175,4 +175,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

@@ -1,27 +1,27 @@
 ---
 ticker: RDOR3
-name: Rede D'Or
+name: RDOR3
 market: br
 sector: Healthcare
 is_holding: false
 currency: BRL
-price: 38.71
-price_date: 2026-04-24
-change_1d_pct: 2.25
-pe: 18.1737
-pb: 4.4134
-dy_pct: 11.03
+price: 38.43
+price_date: 2026-04-27
+change_1d_pct: -0.72
+pe: 18.0423
+pb: 4.3815
+dy_pct: 11.11
 roe_pct: 20.05
 streak_years: 6
 screen_score: 0.8
 screen_pass: false
 div_safety: 43
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, healthcare]
 ---
 
-# RDOR3 — Rede D'Or
+# RDOR3 — RDOR3
 
 #watchlist #br #healthcare
 
@@ -32,7 +32,7 @@ tags: [watchlist, br, healthcare]
 
 ## Snapshot
 
-- **Preço**: R$38.71  (2026-04-24)    _+2.25% 1d_
+- **Preço**: R$38.43  (2026-04-27)    _-0.72% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -40,7 +40,7 @@ tags: [watchlist, br, healthcare]
 
 ## Fundamentals
 
-- P/E: 18.173708 | P/B: 4.413408 | DY: 11.03%
+- P/E: 18.042253 | P/B: 4.3814845 | DY: 11.11%
 - ROE: 20.05% | EPS: 2.13 | BVPS: 8.771
 - Streak div: 6y | Aristocrat: None
 
@@ -63,13 +63,13 @@ tags: [watchlist, br, healthcare]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -18.40%
-- **Drawdown 5y**: -39.49%
-- **YTD**: -4.35%
-- **YoY (1y)**: +25.19%
-- **CAGR 3y**: +25.13%  |  **5y**: -7.79%  |  **10y**: n/a
-- **Vol annual**: +29.91%
-- **Sharpe 3y** (rf=4%): +0.61
+- **Drawdown 52w**: -18.99%
+- **Drawdown 5y**: -39.93%
+- **YTD**: -5.04%
+- **YoY (1y)**: +22.31%
+- **CAGR 3y**: +24.73%  |  **5y**: -7.90%  |  **10y**: n/a
+- **Vol annual**: +29.99%
+- **Sharpe 3y** (rf=4%): +0.60
 
 ### Dividendos
 - **DY 5y avg**: +4.07%
@@ -127,10 +127,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [20.71, 18.51643, 17.774647, 18.259434, 18.173708]
+    data: [20.71, 18.51643, 17.774647, 18.259434, 18.173708, 18.173708, 18.042253]
 width: 80%
 beginAtZero: false
 fill: false
@@ -140,12 +140,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [21.68, 20.05, 20.05, 20.05, 20.05]
+    data: [21.68, 20.05, 20.05, 20.05, 20.05, 20.05, 20.05]
   - title: DY %
-    data: [10.07, 10.83, 11.28, 11.03, 11.03]
+    data: [10.07, 10.83, 11.28, 11.03, 11.03, 11.03, 11.11]
 width: 80%
 beginAtZero: false
 fill: false
@@ -154,4 +154,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

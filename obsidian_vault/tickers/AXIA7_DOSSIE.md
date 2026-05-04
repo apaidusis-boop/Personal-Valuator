@@ -72,6 +72,10 @@ AXIA7 (CVM 2437) negocia a P/B 1.45 com ROE fraco de 5.46%; P/E e DY ainda n/a n
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

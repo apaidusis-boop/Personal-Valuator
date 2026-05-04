@@ -1,27 +1,27 @@
 ---
 ticker: PETR4
-name: Petrobras
+name: PETR4
 market: br
 sector: "Oil & Gas"
 is_holding: false
 currency: BRL
-price: 47.16
-price_date: 2026-04-24
-change_1d_pct: -1.28
-pe: 6.1647
-pb: 1.4619
-dy_pct: 6.76
+price: 47.37
+price_date: 2026-04-27
+change_1d_pct: 0.45
+pe: 6.1922
+pb: 1.4684
+dy_pct: 6.73
 roe_pct: 28.18
 streak_years: 9
 screen_score: 1
 screen_pass: true
 div_safety: 78
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, "oil_&_gas"]
 ---
 
-# PETR4 — Petrobras
+# PETR4 — PETR4
 
 #watchlist #br #oil_&_gas
 
@@ -34,7 +34,7 @@ tags: [watchlist, br, "oil_&_gas"]
 
 ## Snapshot
 
-- **Preço**: R$47.16  (2026-04-24)    _-1.28% 1d_
+- **Preço**: R$47.37  (2026-04-27)    _+0.45% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, br, "oil_&_gas"]
 
 ## Fundamentals
 
-- P/E: 6.1647058 | P/B: 1.4618723 | DY: 6.76%
+- P/E: 6.192157 | P/B: 1.4683819 | DY: 6.73%
 - ROE: 28.18% | EPS: 7.65 | BVPS: 32.26
 - Streak div: 9y | Aristocrat: None
 
@@ -73,13 +73,13 @@ tags: [watchlist, br, "oil_&_gas"]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -5.26%
-- **Drawdown 5y**: -5.26%
-- **YTD**: +53.57%
-- **YoY (1y)**: +54.98%
-- **CAGR 3y**: +20.30%  |  **5y**: +14.76%  |  **10y**: +17.17%
-- **Vol annual**: +26.02%
-- **Sharpe 3y** (rf=4%): +0.57
+- **Drawdown 52w**: -4.84%
+- **Drawdown 5y**: -4.84%
+- **YTD**: +54.25%
+- **YoY (1y)**: +55.21%
+- **CAGR 3y**: +25.97%  |  **5y**: +14.62%  |  **10y**: +16.56%
+- **Vol annual**: +26.12%
+- **Sharpe 3y** (rf=4%): +0.77
 
 ### Dividendos
 - **DY 5y avg**: +26.81%
@@ -137,10 +137,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [5.6, 6.1787124, 6.269029, 6.221636, 6.1647058]
+    data: [5.6, 6.1787124, 6.269029, 6.221636, 6.1647058, 6.1647058, 6.192157]
 width: 80%
 beginAtZero: false
 fill: false
@@ -150,12 +150,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [26.37, 28.18, 28.18, 28.18, 28.18]
+    data: [26.37, 28.18, 28.18, 28.18, 28.18, 28.18, 28.18]
   - title: DY %
-    data: [6.87, 5.39, 6.67, 6.76, 6.76]
+    data: [6.87, 5.39, 6.67, 6.76, 6.76, 6.76, 6.73]
 width: 80%
 beginAtZero: false
 fill: false
@@ -164,4 +164,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

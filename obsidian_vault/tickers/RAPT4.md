@@ -1,26 +1,26 @@
 ---
 ticker: RAPT4
-name: Randoncorp
+name: RAPT4
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 5.32
-price_date: 2026-04-24
-change_1d_pct: -2.56
-pb: 0.5738
-dy_pct: 0.88
+price: 5.28
+price_date: 2026-04-27
+change_1d_pct: -0.75
+pb: 0.5695
+dy_pct: 0.89
 roe_pct: -1.3
 streak_years: 9
 screen_score: 0.25
 screen_pass: false
 div_safety: 20
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# RAPT4 — Randoncorp
+# RAPT4 — RAPT4
 
 #watchlist #br #industrials
 
@@ -32,7 +32,7 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$5.32  (2026-04-24)    _-2.56% 1d_
+- **Preço**: R$5.28  (2026-04-27)    _-0.75% 1d_
 - **Screen**: 0.25  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -40,7 +40,7 @@ tags: [watchlist, br, industrials]
 
 ## Fundamentals
 
-- P/E: None | P/B: 0.57377046 | DY: 0.88%
+- P/E: None | P/B: 0.56945646 | DY: 0.89%
 - ROE: -1.3% | EPS: -0.72 | BVPS: 9.272
 - Streak div: 9y | Aristocrat: None
 
@@ -63,13 +63,13 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -42.67%
-- **Drawdown 5y**: -64.91%
-- **YTD**: -2.56%
-- **YoY (1y)**: -40.95%
-- **CAGR 3y**: -12.71%  |  **5y**: -18.11%  |  **10y**: +6.82%
-- **Vol annual**: +41.08%
-- **Sharpe 3y** (rf=4%): -0.47
+- **Drawdown 52w**: -43.10%
+- **Drawdown 5y**: -65.17%
+- **YTD**: -3.30%
+- **YoY (1y)**: -42.67%
+- **CAGR 3y**: -13.86%  |  **5y**: -17.97%  |  **10y**: +6.36%
+- **Vol annual**: +40.97%
+- **Sharpe 3y** (rf=4%): -0.50
 
 ### Dividendos
 - **DY 5y avg**: +5.11%
@@ -127,10 +127,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [-7.77, 0, 0, 0, 0]
+    data: [-7.77, 0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -140,12 +140,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [-5.28, -1.3, -1.3, -1.3, -1.3]
+    data: [-5.28, -1.3, -1.3, -1.3, -1.3, -1.3, -1.3]
   - title: DY %
-    data: [0.84, 0.84, 0.86, 0.88, 0.88]
+    data: [0.84, 0.84, 0.86, 0.88, 0.88, 0.88, 0.89]
 width: 80%
 beginAtZero: false
 fill: false
@@ -154,4 +154,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

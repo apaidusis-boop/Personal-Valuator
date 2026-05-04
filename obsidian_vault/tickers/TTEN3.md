@@ -1,27 +1,27 @@
 ---
 ticker: TTEN3
-name: 3Tentos
+name: TTEN3
 market: br
 sector: Consumer Staples
 is_holding: false
 currency: BRL
-price: 15.32
-price_date: 2026-04-24
-change_1d_pct: -2.54
-pe: 9.5155
-pb: 1.63
-dy_pct: 1.19
+price: 15.03
+price_date: 2026-04-27
+change_1d_pct: -1.89
+pe: 9.3354
+pb: 1.5991
+dy_pct: 1.21
 roe_pct: 18.49
 streak_years: 5
 screen_score: 0.8
 screen_pass: false
 div_safety: 73
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, consumer_staples]
 ---
 
-# TTEN3 — 3Tentos
+# TTEN3 — TTEN3
 
 #watchlist #br #consumer_staples
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: R$15.32  (2026-04-24)    _-2.54% 1d_
+- **Preço**: R$15.03  (2026-04-27)    _-1.89% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Fundamentals
 
-- P/E: 9.515528 | P/B: 1.6299605 | DY: 1.19%
+- P/E: 9.335403 | P/B: 1.5991062 | DY: 1.21%
 - ROE: 18.49% | EPS: 1.61 | BVPS: 9.399
 - Streak div: 5y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -13.64%
-- **Drawdown 5y**: -13.64%
-- **YTD**: -6.81%
-- **YoY (1y)**: -9.35%
-- **CAGR 3y**: +12.33%  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +31.14%
-- **Sharpe 3y** (rf=4%): +0.23
+- **Drawdown 52w**: -15.28%
+- **Drawdown 5y**: -15.28%
+- **YTD**: -8.58%
+- **YoY (1y)**: -7.22%
+- **CAGR 3y**: +11.47%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +30.99%
+- **Sharpe 3y** (rf=4%): +0.21
 
 ### Dividendos
 - **DY 5y avg**: +0.78%
@@ -120,10 +120,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [10.03, 9.950311, 9.763975, 9.515528, 9.515528]
+    data: [10.03, 9.950311, 9.763975, 9.515528, 9.515528, 9.515528, 9.335403]
 width: 80%
 beginAtZero: false
 fill: false
@@ -133,12 +133,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [17.35, 18.49, 18.49, 18.49, 18.49]
+    data: [17.35, 18.49, 18.49, 18.49, 18.49, 18.49, 18.49]
   - title: DY %
-    data: [1.12, 1.14, 1.16, 1.19, 1.19]
+    data: [1.12, 1.14, 1.16, 1.19, 1.19, 1.19, 1.21]
 width: 80%
 beginAtZero: false
 fill: false
@@ -147,4 +147,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

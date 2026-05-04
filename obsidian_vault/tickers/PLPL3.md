@@ -1,27 +1,27 @@
 ---
 ticker: PLPL3
-name: "Plano & Plano"
+name: PLPL3
 market: br
 sector: Consumer Disc.
 is_holding: false
 currency: BRL
-price: 11.74
-price_date: 2026-04-24
-change_1d_pct: -9.27
-pe: 6.5222
-pb: 2.328
-dy_pct: 4.2
+price: 10.65
+price_date: 2026-04-27
+change_1d_pct: -9.28
+pe: 5.9167
+pb: 2.1118
+dy_pct: 4.63
 roe_pct: 41.08
 streak_years: 5
 screen_score: 0.8
 screen_pass: false
 div_safety: 83
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, consumer_disc.]
 ---
 
-# PLPL3 — Plano & Plano
+# PLPL3 — PLPL3
 
 #watchlist #br #consumer_disc.
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Snapshot
 
-- **Preço**: R$11.74  (2026-04-24)    _-9.27% 1d_
+- **Preço**: R$10.65  (2026-04-27)    _-9.28% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Fundamentals
 
-- P/E: 6.522222 | P/B: 2.3279793 | DY: 4.2%
+- P/E: 5.9166665 | P/B: 2.111838 | DY: 4.63%
 - ROE: 41.08% | EPS: 1.8 | BVPS: 5.043
 - Streak div: 5y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_disc.]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -34.78%
-- **Drawdown 5y**: -34.78%
-- **YTD**: -10.11%
-- **YoY (1y)**: -1.68%
-- **CAGR 3y**: +27.61%  |  **5y**: +11.25%  |  **10y**: n/a
-- **Vol annual**: +44.54%
-- **Sharpe 3y** (rf=4%): +0.48
+- **Drawdown 52w**: -40.83%
+- **Drawdown 5y**: -40.83%
+- **YTD**: -18.45%
+- **YoY (1y)**: -7.71%
+- **CAGR 3y**: +20.28%  |  **5y**: +9.45%  |  **10y**: n/a
+- **Vol annual**: +45.52%
+- **Sharpe 3y** (rf=4%): +0.33
 
 ### Dividendos
 - **DY 5y avg**: +5.58%
@@ -120,10 +120,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [7.77, 7.372223, 7.188889, 6.522222, 6.522222]
+    data: [7.77, 7.372223, 7.188889, 6.522222, 6.522222, 6.522222, 5.9166665]
 width: 80%
 beginAtZero: false
 fill: false
@@ -133,12 +133,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [31.68, 41.08, 41.08, 41.08, 41.08]
+    data: [31.68, 41.08, 41.08, 41.08, 41.08, 41.08, 41.08]
   - title: DY %
-    data: [3.55, 3.71, 3.81, 4.2, 4.2]
+    data: [3.55, 3.71, 3.81, 4.2, 4.2, 4.2, 4.63]
 width: 80%
 beginAtZero: false
 fill: false
@@ -147,4 +147,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

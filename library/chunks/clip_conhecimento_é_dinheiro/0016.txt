@@ -1,0 +1,15 @@
+)** **Tributação:** Por operar no **Nordeste**, a companhia é beneficiada por diferentes subsídios, sendo o principal o conferido por atuar na área da SUDENE, que reduz em 75% o Imposto de Renda pago.
+
+**(9)** **Risco de reservas minerais:** A Ferbasa não divulga reservas provadas de cromita nem vida útil das minas, mas estimamos mais de 40 anos de operação mesmo com expansão da produção. O FRE 2025, contudo, aponta dificuldade crescente de reposição: Ipueira se aprofunda e encarece a operação, enquanto Pedrinhas apresenta relação estéril/minério cada vez maior.
+
+## Valuation
+
+Para precificar a companhia, utilizamos o modelo de **Fluxo de Caixa Descontado** em termos reais, isto é, já ajustando pelos efeitos da inflação. Nessa abordagem, crescimento zero equivale a um repasse inflacionário.
+
+Vale lembrar a máxima de **George Box**: " **Todos os modelos estão errados, mas alguns são úteis.**" Não acertaremos ciclos e margens exatas, mas buscamos uma estimativa conservadora que, mesmo assim, aponta para uma TIR atrativa e uma robusta margem de segurança.
+
+A **Ferbasa** é uma empresa cíclica e essa característica foi contemplada no modelo por meio dos preços por tonelada das ferroligas e da margem bruta:
+
+As cores representam cenários distintos: projetamos um ano mediano (amarelo) em 2026, dois anos bons (verde) em 2027 e 2028, o que consideramos plausível dado o período prolongado de preços baixos das ferroligas, e uma volta a números medianos em 2029, seguidos de dois anos fracos (vermelho). Na perpetuidade, assumimos margem bruta de 22% (bastante aquém do histórico) e crescimento real negativo de 1% ao ano, ou seja, a empresa encolhe em termos reais ao longo do tempo até a insignificância.
+
+Para a produção, consideramos crescimento de 0,5% a.a. até 2028, refletindo o Capex de expansão mais robusto até 2029 e estabilidade posterior. Nas receitas de energia eólica e demais produtos, assumimos crescimento zero.

@@ -5,10 +5,10 @@ market: br
 sector: Papel (CRI)
 is_holding: true
 currency: BRL
-price: 9.79
-price_date: 2026-04-26
-change_1d_pct: 0
-dy_pct: 15.63
+price: 9.77
+price_date: 2026-04-27
+change_1d_pct: -0.2
+dy_pct: 15.66
 streak_years: 5
 screen_score: 1
 screen_pass: true
@@ -16,9 +16,9 @@ div_safety: 32
 div_safety_verdict: RISK
 position_qty: 1776
 entry_price: 9.72
-pnl_pct: 0.72
-market_value: 17387.04
-updated: "2026-04-26T10:59:42Z"
+pnl_pct: 0.51
+market_value: 17351.52
+updated: "2026-04-28T18:40:39Z"
 tags: [holding, br, papel_(cri)]
 ---
 
@@ -28,25 +28,25 @@ tags: [holding, br, papel_(cri)]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.8/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 5.7/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 3.3/10 | 35% | `███░░░░░░░` |
 | Valuation  | 10.0/10 | 30% | `██████████` |
-| Momentum   | 5.3/10 | 20% | `█████░░░░░` |
+| Momentum   | 4.7/10 | 20% | `█████░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 32.0/100
 - **Valuation**: Screen 1.00, DY percentil P92 (CHEAP)
-- **Momentum**: 1d 0.0%, 30d 0.62%, YTD -0.41%
+- **Momentum**: 1d -0.2%, 30d 0.1%, YTD -0.61%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 5.8 na zona neutra
+- total 5.7 na zona neutra
 - quality frágil
 - valuation barato
 - DY percentil P92 (historicamente CHEAP)
@@ -56,21 +56,21 @@ tags: [holding, br, papel_(cri)]
 
 - Sector: [[sectors/Papel_(CRI)|Papel (CRI)]]
 - Market: [[markets/BR|BR]]
-- Peers: [[KNCR11]] · [[MCCI11]] · [[MCRF11]] · [[RBRY11]] · [[RECR11]]
+- Peers: [[KNCR11]] · [[MCCI11]] · [[RBRY11]] · [[RECR11]] · [[VGIP11]]
 - 🎯 **Thesis**: [[wiki/holdings/VGIR11|thesis deep]]
 
 ## Snapshot
 
-- **Preço**: R$9.79  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$9.77  (2026-04-27)    _-0.20% 1d_
 - **Screen**: 1.0  ✓ PASS
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 32.0/100 (RISK)
-- **Posição**: 1776.0 sh @ R$9.72  →  P&L 0.72%
+- **Posição**: 1776.0 sh @ R$9.72  →  P&L 0.51%
 
 ## Fundamentals
 
-- P/E: None | P/B: None | DY: 15.63%
+- P/E: None | P/B: None | DY: 15.66%
 - ROE: None% | EPS: None | BVPS: None
 - Streak div: 5y | Aristocrat: None
 
@@ -85,13 +85,13 @@ tags: [holding, br, papel_(cri)]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -1.61%
-- **Drawdown 5y**: -3.91%
-- **YTD**: -0.41%
-- **YoY (1y)**: +5.84%
-- **CAGR 3y**: +2.02%  |  **5y**: +1.12%  |  **10y**: n/a
-- **Vol annual**: +8.99%
-- **Sharpe 3y** (rf=4%): -0.19
+- **Drawdown 52w**: -1.81%
+- **Drawdown 5y**: -4.10%
+- **YTD**: -0.61%
+- **YoY (1y)**: +5.62%
+- **CAGR 3y**: +1.58%  |  **5y**: +1.02%  |  **10y**: n/a
+- **Vol annual**: +8.96%
+- **Sharpe 3y** (rf=4%): -0.23
 
 ### Dividendos
 - **DY 5y avg**: +13.37%
@@ -139,10 +139,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -152,12 +152,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [15.6, 15.61, 15.63, 15.63]
+    data: [15.6, 15.61, 15.63, 15.63, 15.63, 15.66]
 width: 80%
 beginAtZero: false
 fill: false
@@ -166,4 +166,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

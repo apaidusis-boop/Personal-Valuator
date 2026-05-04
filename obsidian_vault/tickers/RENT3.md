@@ -1,27 +1,27 @@
 ---
 ticker: RENT3
-name: Localiza
+name: RENT3
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 49.29
-price_date: 2026-04-24
-change_1d_pct: -0.2
-pe: 28.0057
-pb: 2.1137
-dy_pct: 4.18
+price: 48.32
+price_date: 2026-04-27
+change_1d_pct: -1.97
+pe: 27.4545
+pb: 2.0721
+dy_pct: 4.26
 roe_pct: 7.21
 streak_years: 20
 screen_score: 0.2
 screen_pass: false
 div_safety: 30
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# RENT3 — Localiza
+# RENT3 — RENT3
 
 #watchlist #br #industrials
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$49.29  (2026-04-24)    _-0.20% 1d_
+- **Preço**: R$48.32  (2026-04-27)    _-1.97% 1d_
 - **Screen**: 0.2  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, industrials]
 
 ## Fundamentals
 
-- P/E: 28.005682 | P/B: 2.113727 | DY: 4.18%
+- P/E: 27.454546 | P/B: 2.07213 | DY: 4.26%
 - ROE: 7.21% | EPS: 1.76 | BVPS: 23.319
 - Streak div: 20y | Aristocrat: None
 
@@ -64,13 +64,13 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.70%
-- **Drawdown 5y**: -32.71%
-- **YTD**: +13.47%
-- **YoY (1y)**: +18.49%
-- **CAGR 3y**: -4.21%  |  **5y**: -4.30%  |  **10y**: +17.39%
-- **Vol annual**: +36.66%
-- **Sharpe 3y** (rf=4%): -0.22
+- **Drawdown 52w**: -8.54%
+- **Drawdown 5y**: -34.04%
+- **YTD**: +11.23%
+- **YoY (1y)**: +12.87%
+- **CAGR 3y**: -5.84%  |  **5y**: -5.11%  |  **10y**: +17.14%
+- **Vol annual**: +36.74%
+- **Sharpe 3y** (rf=4%): -0.26
 
 ### Dividendos
 - **DY 5y avg**: +3.03%
@@ -128,10 +128,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [30.57, 29.53409, 28.0625, 28.005682, 28.005682]
+    data: [30.57, 29.53409, 28.0625, 28.005682, 28.005682, 28.005682, 27.454546]
 width: 80%
 beginAtZero: false
 fill: false
@@ -141,12 +141,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [7.34, 7.21, 7.21, 7.21, 7.21]
+    data: [7.34, 7.21, 7.21, 7.21, 7.21, 7.21, 7.21]
   - title: DY %
-    data: [4.04, 3.96, 4.17, 4.18, 4.18]
+    data: [4.04, 3.96, 4.17, 4.18, 4.18, 4.18, 4.26]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,4 +155,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

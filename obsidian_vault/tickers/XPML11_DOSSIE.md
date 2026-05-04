@@ -52,6 +52,10 @@ XPML11 é o FII de Shopping (XP Malls) com **DY 9.94%** e streak de 5 anos de di
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

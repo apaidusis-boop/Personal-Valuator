@@ -1,27 +1,27 @@
 ---
 ticker: EZTC3
-name: EZ Tec
+name: EZTC3
 market: br
 sector: Real Estate
 is_holding: false
 currency: BRL
-price: 15.51
-price_date: 2026-04-24
-change_1d_pct: 1.04
-pe: 8.1632
-pb: 0.8552
-dy_pct: 7.18
+price: 14.64
+price_date: 2026-04-27
+change_1d_pct: -5.61
+pe: 7.7053
+pb: 0.8072
+dy_pct: 7.61
 roe_pct: 10.95
 streak_years: 18
 screen_score: 0.8
 screen_pass: false
 div_safety: 80
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:35Z"
 tags: [watchlist, br, real_estate]
 ---
 
-# EZTC3 — EZ Tec
+# EZTC3 — EZTC3
 
 #watchlist #br #real_estate
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, real_estate]
 
 ## Snapshot
 
-- **Preço**: R$15.51  (2026-04-24)    _+1.04% 1d_
+- **Preço**: R$14.64  (2026-04-27)    _-5.61% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, real_estate]
 
 ## Fundamentals
 
-- P/E: 8.163158 | P/B: 0.85515803 | DY: 7.18%
+- P/E: 7.7052636 | P/B: 0.80718976 | DY: 7.61%
 - ROE: 10.95% | EPS: 1.9 | BVPS: 18.137
 - Streak div: 18y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, real_estate]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.00%
-- **Drawdown 5y**: -42.55%
-- **YTD**: +13.21%
-- **YoY (1y)**: +32.01%
-- **CAGR 3y**: +13.58%  |  **5y**: -10.44%  |  **10y**: +4.48%
-- **Vol annual**: +35.57%
-- **Sharpe 3y** (rf=4%): +0.23
+- **Drawdown 52w**: -11.27%
+- **Drawdown 5y**: -45.77%
+- **YTD**: +6.86%
+- **YoY (1y)**: +31.93%
+- **CAGR 3y**: +8.61%  |  **5y**: -10.84%  |  **10y**: +3.56%
+- **Vol annual**: +35.98%
+- **Sharpe 3y** (rf=4%): +0.11
 
 ### Dividendos
 - **DY 5y avg**: +5.57%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [8.560846, 8.078948, 8.163158, 8.163158]
+    data: [8.560846, 8.078948, 8.163158, 8.163158, 8.163158, 7.7052636]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [10.95, 10.95, 10.95, 10.95]
+    data: [10.95, 10.95, 10.95, 10.95, 10.95, 10.95]
   - title: DY %
-    data: [6.88, 7.25, 7.18, 7.18]
+    data: [6.88, 7.25, 7.18, 7.18, 7.18, 7.61]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

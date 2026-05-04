@@ -15,8 +15,8 @@ _Subjects scanned: 5/5, 0 alerts, 0 errors._
 
 ### 🟢 `git_secrets` — score 100
 
-### 🟡 `dependencies` — score 50
-**Action**: pip-audit --fix (review changes) ou pip install -U <pkg> manualmente para CVEs críticas.
+### 🟡 `dependencies` — score 70
+**Action**: pip install pip-audit  # para scans periódicos de CVEs.
 
 ### 🟢 `file_permissions` — score 90
 

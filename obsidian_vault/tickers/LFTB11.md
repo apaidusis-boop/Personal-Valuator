@@ -1,6 +1,6 @@
 ---
 ticker: LFTB11
-name: LFTB11
+name: iShares Tesouro Selic ETF
 market: br
 sector: ETF-RF
 is_holding: true
@@ -14,17 +14,17 @@ position_qty: 873
 entry_price: 120.27
 pnl_pct: 0.45
 market_value: 105467.13
-updated: "2026-04-26T10:59:40Z"
+updated: "2026-04-28T18:40:37Z"
 tags: [holding, br, etf-rf]
 ---
 
-# LFTB11 — LFTB11
+# LFTB11 — iShares Tesouro Selic ETF
 
 #holding #br #etf-rf
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -90,4 +90,4 @@ tags: [holding, br, etf-rf]
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

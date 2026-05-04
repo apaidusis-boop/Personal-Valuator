@@ -1,24 +1,24 @@
 ---
 ticker: BRKM5
-name: Braskem
+name: BRKM5
 market: br
 sector: Materials
 is_holding: false
 currency: BRL
-price: 8.58
-price_date: 2026-04-24
-change_1d_pct: 5.28
-pb: -0.4235
+price: 8.44
+price_date: 2026-04-27
+change_1d_pct: -1.63
+pb: -0.4166
 streak_years: 2
 screen_score: 0
 screen_pass: false
 div_safety: 0
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:36Z"
+updated: "2026-04-28T18:40:29Z"
 tags: [watchlist, br, materials]
 ---
 
-# BRKM5 — Braskem
+# BRKM5 — BRKM5
 
 #watchlist #br #materials
 
@@ -30,7 +30,7 @@ tags: [watchlist, br, materials]
 
 ## Snapshot
 
-- **Preço**: R$8.58  (2026-04-24)    _+5.28% 1d_
+- **Preço**: R$8.44  (2026-04-27)    _-1.63% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -38,7 +38,7 @@ tags: [watchlist, br, materials]
 
 ## Fundamentals
 
-- P/E: None | P/B: -0.4234737 | DY: None%
+- P/E: None | P/B: -0.41656384 | DY: None%
 - ROE: None% | EPS: -12.39 | BVPS: -20.261
 - Streak div: 2y | Aristocrat: None
 
@@ -53,13 +53,13 @@ tags: [watchlist, br, materials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -32.44%
-- **Drawdown 5y**: -87.77%
-- **YTD**: +10.71%
-- **YoY (1y)**: -26.42%
-- **CAGR 3y**: -23.85%  |  **5y**: -30.42%  |  **10y**: -10.11%
-- **Vol annual**: +63.90%
-- **Sharpe 3y** (rf=4%): -0.52
+- **Drawdown 52w**: -33.54%
+- **Drawdown 5y**: -87.97%
+- **YTD**: +8.90%
+- **YoY (1y)**: -25.24%
+- **CAGR 3y**: -24.73%  |  **5y**: -31.32%  |  **10y**: -10.13%
+- **Vol annual**: +64.06%
+- **Sharpe 3y** (rf=4%): -0.54
 
 ### Dividendos
 - **DY 5y avg**: +6.78%
@@ -107,10 +107,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -120,12 +120,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
   - title: DY %
-    data: [0, 0, 0, 0]
+    data: [0, 0, 0, 0, 0, 0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -134,4 +134,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

@@ -1,27 +1,27 @@
 ---
 ticker: MOTV3
-name: Motiva
+name: MOTV3
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 16.48
-price_date: 2026-04-24
-change_1d_pct: 0
-pe: 11.3655
-pb: 2.0983
-dy_pct: 2.35
+price: 16.08
+price_date: 2026-04-27
+change_1d_pct: -2.43
+pe: 11.0897
+pb: 2.0474
+dy_pct: 2.41
 roe_pct: 20.78
 streak_years: 2
 screen_score: 0.2
 screen_pass: false
 div_safety: 60
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# MOTV3 — Motiva
+# MOTV3 — MOTV3
 
 #watchlist #br #industrials
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$16.48  (2026-04-24)    _+0.00% 1d_
+- **Preço**: R$16.08  (2026-04-27)    _-2.43% 1d_
 - **Screen**: 0.2  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, industrials]
 
 ## Fundamentals
 
-- P/E: 11.365517 | P/B: 2.0982938 | DY: 2.35%
+- P/E: 11.089655 | P/B: 2.0473645 | DY: 2.41%
 - ROE: 20.78% | EPS: 1.45 | BVPS: 7.854
 - Streak div: 2y | Aristocrat: None
 
@@ -63,12 +63,12 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.42%
-- **Drawdown 5y**: -6.42%
-- **YTD**: +10.23%
-- **YoY (1y)**: +26.09%
+- **Drawdown 52w**: -8.69%
+- **Drawdown 5y**: -8.69%
+- **YTD**: +7.56%
+- **YoY (1y)**: +21.82%
 - **CAGR 3y**: n/a  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +27.20%
+- **Vol annual**: +27.27%
 - **Sharpe 3y** (rf=4%): n/a
 
 ### Dividendos
@@ -127,10 +127,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [10.8, 12.034483, 11.365517, 11.365517, 11.365517]
+    data: [10.8, 12.034483, 11.365517, 11.365517, 11.365517, 11.365517, 11.089655]
 width: 80%
 beginAtZero: false
 fill: false
@@ -140,12 +140,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [20.14, 20.78, 20.78, 20.78, 20.78]
+    data: [20.14, 20.78, 20.78, 20.78, 20.78, 20.78, 20.78]
   - title: DY %
-    data: [2.77, 6.38, 6.76, 1.98, 2.35]
+    data: [2.77, 6.38, 6.76, 1.98, 2.35, 2.35, 2.41]
 width: 80%
 beginAtZero: false
 fill: false
@@ -154,4 +154,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

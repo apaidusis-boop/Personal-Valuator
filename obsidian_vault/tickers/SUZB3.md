@@ -1,27 +1,27 @@
 ---
 ticker: SUZB3
-name: Suzano
+name: SUZB3
 market: br
 sector: Materials
 is_holding: false
 currency: BRL
-price: 45.64
-price_date: 2026-04-24
-change_1d_pct: -2.25
-pe: 4.2181
-pb: 1.2875
-dy_pct: 2.45
+price: 45.3
+price_date: 2026-04-27
+change_1d_pct: -0.74
+pe: 4.1867
+pb: 1.2779
+dy_pct: 2.46
 roe_pct: 35.19
 streak_years: 4
 screen_score: 0.4
 screen_pass: false
 div_safety: 60
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, materials]
 ---
 
-# SUZB3 — Suzano
+# SUZB3 — SUZB3
 
 #watchlist #br #materials
 
@@ -34,7 +34,7 @@ tags: [watchlist, br, materials]
 
 ## Snapshot
 
-- **Preço**: R$45.64  (2026-04-24)    _-2.25% 1d_
+- **Preço**: R$45.30  (2026-04-27)    _-0.74% 1d_
 - **Screen**: 0.4  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, br, materials]
 
 ## Fundamentals
 
-- P/E: 4.218115 | P/B: 1.2874833 | DY: 2.45%
+- P/E: 4.1866913 | P/B: 1.2778921 | DY: 2.46%
 - ROE: 35.19% | EPS: 10.82 | BVPS: 35.449
 - Streak div: 4y | Aristocrat: None
 
@@ -70,13 +70,13 @@ tags: [watchlist, br, materials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -22.62%
-- **Drawdown 5y**: -35.60%
-- **YTD**: -12.01%
-- **YoY (1y)**: -12.65%
-- **CAGR 3y**: +5.56%  |  **5y**: -8.21%  |  **10y**: +8.60%
-- **Vol annual**: +26.22%
-- **Sharpe 3y** (rf=4%): +0.06
+- **Drawdown 52w**: -23.19%
+- **Drawdown 5y**: -34.03%
+- **YTD**: -12.67%
+- **YoY (1y)**: -11.66%
+- **CAGR 3y**: +4.41%  |  **5y**: -7.68%  |  **10y**: +8.51%
+- **Vol annual**: +26.25%
+- **Sharpe 3y** (rf=4%): +0.02
 
 ### Dividendos
 - **DY 5y avg**: +3.03%
@@ -134,10 +134,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [4.57, 4.417745, 4.3191485, 4.2220163, 4.218115]
+    data: [4.57, 4.417745, 4.3191485, 4.2220163, 4.218115, 4.218115, 4.1866913]
 width: 80%
 beginAtZero: false
 fill: false
@@ -147,12 +147,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [30.51, 35.19, 35.19, 35.19, 35.19]
+    data: [30.51, 35.19, 35.19, 35.19, 35.19, 35.19, 35.19]
   - title: DY %
-    data: [2.3, 2.34, 2.39, 2.45, 2.45]
+    data: [2.3, 2.34, 2.39, 2.45, 2.45, 2.45, 2.46]
 width: 80%
 beginAtZero: false
 fill: false
@@ -161,4 +161,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

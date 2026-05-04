@@ -5,13 +5,13 @@ market: us
 sector: Consumer Staples
 is_holding: true
 currency: USD
-price: 148.18
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 21.9201
-pb: 6.5878
+price: 148.4
+price_date: 2026-04-27
+change_1d_pct: 0.15
+pe: 21.9527
+pb: 6.4295
 dy_pct: 2.87
-roe_pct: 31.12
+roe_pct: 31.11
 streak_years: 65
 aristocrat: true
 screen_score: 0.6
@@ -22,9 +22,9 @@ div_safety: 90
 div_safety_verdict: SAFE
 position_qty: 10
 entry_price: 142.76
-pnl_pct: 3.8
-market_value: 1481.8
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: 3.95
+market_value: 1484
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, consumer_staples]
 ---
 
@@ -34,25 +34,25 @@ tags: [holding, us, consumer_staples]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.8/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 6.6/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 8.7/10 | 35% | `█████████░` |
 | Valuation  | 6.0/10 | 30% | `██████░░░░` |
-| Momentum   | 6.7/10 | 20% | `███████░░░` |
+| Momentum   | 6.0/10 | 20% | `██████░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 5.379707039232729 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 90.0/100
 - **Valuation**: Screen 0.60, DY percentil P69 (fair-cheap)
-- **Momentum**: 1d 0.0%, 30d 3.83%, YTD 4.51%
+- **Momentum**: 1d 0.15%, 30d 2.54%, YTD 4.66%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 6.8 na zona neutra
+- total 6.6 na zona neutra
 - quality forte
 
 
@@ -65,17 +65,17 @@ tags: [holding, us, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: $148.18  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $148.40  (2026-04-27)    _+0.15% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 5.38 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 90.0/100 (SAFE)
-- **Posição**: 10.0 sh @ $142.76  →  P&L 3.8%
+- **Posição**: 10.0 sh @ $142.76  →  P&L 3.95%
 
 ## Fundamentals
 
-- P/E: 21.920116 | P/B: 6.587827 | DY: 2.87%
-- ROE: 31.12% | EPS: 6.76 | BVPS: 22.493
+- P/E: 21.952662 | P/B: 6.4295306 | DY: 2.87%
+- ROE: 31.11% | EPS: 6.76 | BVPS: 23.081
 - Streak div: 65y | Aristocrat: True
 
 ## Dividendos recentes
@@ -97,12 +97,12 @@ tags: [holding, us, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -12.78%
-- **Drawdown 5y**: -17.54%
-- **YTD**: +4.51%
-- **YoY (1y)**: -7.97%
-- **CAGR 3y**: -1.80%  |  **5y**: +2.47%  |  **10y**: +6.39%
-- **Vol annual**: +19.13%
+- **Drawdown 52w**: -12.65%
+- **Drawdown 5y**: -17.42%
+- **YTD**: +4.66%
+- **YoY (1y)**: -7.84%
+- **CAGR 3y**: -1.73%  |  **5y**: +2.46%  |  **10y**: +6.36%
+- **Vol annual**: +19.12%
 - **Sharpe 3y** (rf=4%): -0.34
 
 ### Dividendos
@@ -146,10 +146,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [21.215235, 21.217777, 21.20148, 21.799704, 21.405046, 21.084446, 21.95259, 21.920116]
+    data: [21.215235, 21.217777, 21.20148, 21.799704, 21.405046, 21.084446, 21.95259, 21.920116, 21.920116, 21.952662]
 width: 80%
 beginAtZero: false
 fill: false
@@ -159,12 +159,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [31.56, 31.56, 31.56, 31.56, 31.56, 31.56, 31.56, 31.12]
+    data: [31.56, 31.56, 31.56, 31.56, 31.56, 31.56, 31.56, 31.12, 31.12, 31.11]
   - title: DY %
-    data: [2.93, 2.97, 2.98, 2.9, 2.9, 2.23, 2.14, 2.87]
+    data: [2.93, 2.97, 2.98, 2.9, 2.9, 2.23, 2.14, 2.87, 2.87, 2.87]
 width: 80%
 beginAtZero: false
 fill: false
@@ -173,4 +173,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

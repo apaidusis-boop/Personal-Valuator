@@ -5,12 +5,12 @@ market: us
 sector: Financials
 is_holding: true
 currency: USD
-price: 19.74
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 10.1231
-pb: 2.1733
-dy_pct: 0.91
+price: 19.58
+price_date: 2026-04-27
+change_1d_pct: -0.81
+pe: 10.041
+pb: 2.1556
+dy_pct: 0.92
 roe_pct: 23.71
 streak_years: 8
 aristocrat: false
@@ -20,9 +20,9 @@ div_safety: 78.8
 div_safety_verdict: WATCH
 position_qty: 20
 entry_price: 17.355
-pnl_pct: 13.74
-market_value: 394.8
-updated: "2026-04-26T10:59:48Z"
+pnl_pct: 12.82
+market_value: 391.6
+updated: "2026-04-28T18:40:45Z"
 tags: [holding, us, financials]
 ---
 
@@ -32,25 +32,25 @@ tags: [holding, us, financials]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.1/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 5.0/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 5.3/10 | 35% | `█████░░░░░` |
 | Valuation  | 4.0/10 | 30% | `████░░░░░░` |
-| Momentum   | 7.3/10 | 20% | `███████░░░` |
+| Momentum   | 6.7/10 | 20% | `███████░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 78.8/100
 - **Valuation**: Screen 0.60, DY percentil P3 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d 11.53%, YTD 22.0%
+- **Momentum**: 1d -0.81%, 30d 10.43%, YTD 21.01%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 5.1 na zona neutra
+- total 5.0 na zona neutra
 
 
 ## Links
@@ -62,16 +62,16 @@ tags: [holding, us, financials]
 
 ## Snapshot
 
-- **Preço**: $19.74  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $19.58  (2026-04-27)    _-0.81% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 78.8/100 (WATCH)
-- **Posição**: 20.0 sh @ $17.355  →  P&L 13.74%
+- **Posição**: 20.0 sh @ $17.355  →  P&L 12.82%
 
 ## Fundamentals
 
-- P/E: 10.123076 | P/B: 2.173262 | DY: 0.91%
+- P/E: 10.041025 | P/B: 2.1556468 | DY: 0.92%
 - ROE: 23.71% | EPS: 1.95 | BVPS: 9.08312
 - Streak div: 8y | Aristocrat: False
 
@@ -93,13 +93,13 @@ tags: [holding, us, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -13.99%
-- **Drawdown 5y**: -61.42%
-- **YTD**: +22.00%
-- **YoY (1y)**: +23.68%
-- **CAGR 3y**: +12.03%  |  **5y**: -12.42%  |  **10y**: n/a
-- **Vol annual**: +45.36%
-- **Sharpe 3y** (rf=4%): +0.17
+- **Drawdown 52w**: -14.68%
+- **Drawdown 5y**: -61.74%
+- **YTD**: +21.01%
+- **YoY (1y)**: +22.68%
+- **CAGR 3y**: +11.07%  |  **5y**: -13.10%  |  **10y**: n/a
+- **Vol annual**: +45.26%
+- **Sharpe 3y** (rf=4%): +0.15
 
 ### Dividendos
 - **DY 5y avg**: +3.87%
@@ -142,10 +142,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [10.765464, 10.787179, 10.83077, 10.820513, 10.61282, 10.410255, 10.175258, 10.123076]
+    data: [10.765464, 10.787179, 10.83077, 10.820513, 10.61282, 10.410255, 10.175258, 10.123076, 10.123076, 10.041025]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,12 +155,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71]
+    data: [23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71, 23.71]
   - title: DY %
-    data: [85.0, 86.0, 85.0, 85.0, 85.0, 0.89, 0.91, 0.91]
+    data: [85.0, 86.0, 85.0, 85.0, 85.0, 0.89, 0.91, 0.91, 0.91, 0.92]
 width: 80%
 beginAtZero: false
 fill: false
@@ -169,4 +169,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

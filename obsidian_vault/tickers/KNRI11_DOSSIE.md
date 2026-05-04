@@ -67,6 +67,10 @@ KNRI11 (Kinea Renda Imobiliária) é FII híbrido (lajes + logística) com DY 7,
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

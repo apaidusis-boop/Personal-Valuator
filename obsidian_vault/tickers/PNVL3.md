@@ -1,27 +1,27 @@
 ---
 ticker: PNVL3
-name: Panvel
+name: PNVL3
 market: br
 sector: Consumer Staples
 is_holding: false
 currency: BRL
-price: 13.74
-price_date: 2026-04-24
-change_1d_pct: 0.44
-pe: 16.5542
-pb: 1.5938
-dy_pct: 2.52
+price: 13.48
+price_date: 2026-04-27
+change_1d_pct: -1.89
+pe: 16.241
+pb: 1.5636
+dy_pct: 2.56
 roe_pct: 9.9
 streak_years: 19
 screen_score: 0.2
 screen_pass: false
 div_safety: 70
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, consumer_staples]
 ---
 
-# PNVL3 — Panvel
+# PNVL3 — PNVL3
 
 #watchlist #br #consumer_staples
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: R$13.74  (2026-04-24)    _+0.44% 1d_
+- **Preço**: R$13.48  (2026-04-27)    _-1.89% 1d_
 - **Screen**: 0.2  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Fundamentals
 
-- P/E: 16.554216 | P/B: 1.5937825 | DY: 2.52%
+- P/E: 16.240963 | P/B: 1.5636235 | DY: 2.56%
 - ROE: 9.9% | EPS: 0.83 | BVPS: 8.621
 - Streak div: 19y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -15.91%
-- **Drawdown 5y**: -36.21%
-- **YTD**: +13.46%
-- **YoY (1y)**: +53.01%
-- **CAGR 3y**: +11.28%  |  **5y**: -6.91%  |  **10y**: +2.86%
-- **Vol annual**: +30.13%
-- **Sharpe 3y** (rf=4%): +0.25
+- **Drawdown 52w**: -17.50%
+- **Drawdown 5y**: -37.42%
+- **YTD**: +11.31%
+- **YoY (1y)**: +49.12%
+- **CAGR 3y**: +9.10%  |  **5y**: -7.27%  |  **10y**: +1.69%
+- **Vol annual**: +30.25%
+- **Sharpe 3y** (rf=4%): +0.18
 
 ### Dividendos
 - **DY 5y avg**: +2.26%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [17.578314, 16.481928, 16.554216, 16.554216]
+    data: [17.578314, 16.481928, 16.554216, 16.554216, 16.554216, 16.240963]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [9.9, 9.9, 9.9, 9.9]
+    data: [9.9, 9.9, 9.9, 9.9, 9.9, 9.9]
   - title: DY %
-    data: [2.37, 2.53, 2.52, 2.52]
+    data: [2.37, 2.53, 2.52, 2.52, 2.52, 2.56]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

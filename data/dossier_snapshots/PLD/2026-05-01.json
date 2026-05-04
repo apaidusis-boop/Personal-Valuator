@@ -1,0 +1,80 @@
+{
+  "ticker": "PLD",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "PLD",
+    "period_end": "2026-04-30",
+    "eps": 3.55,
+    "bvps": 57.453,
+    "roe": 0.06844,
+    "pe": 40.005634,
+    "pb": 2.4719336,
+    "dy": 0.028869172487379156,
+    "net_debt_ebitda": 5.212867380650456,
+    "dividend_streak_years": 30,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 6.387109063551133,
+    "interest_coverage": 7.577819284779056,
+    "debt_to_assets": 0.36141608400675107,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 41.79665,
+    "ev_ebitda": 26.394,
+    "market_cap": 132395401216.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 932230676.0,
+    "next_ex_date": "2026-06-16",
+    "next_earnings_date": "2026-04-16",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Dividend/DRIP (4/12)",
+    "secondary": "",
+    "value": 0,
+    "growth": 2,
+    "dividend": 4,
+    "buffett": 1,
+    "macro_exposure": 1,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 110.75839068763625,
+    "pessimistic_value": 86.34626211592224,
+    "optimistic_value": 146.1321034088883,
+    "margin_of_safety_pct": -0.2201211987351462,
+    "current_price": 142.02000427246094
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Walter Triple-Net",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "O P/E elevado e a expansão em novos setores como data centers devem ser mencionados como preocupações significativas antes da publicação - Valentina Prudente"
+  ],
+  "consensus_points": [
+    "Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBITDA de 5.21, além de um PE de 39.9775, dentro do intervalo aceitável para empresas com dividendos consistentes.",
+    "A empresa continua a expandir em setores promissores como data centers."
+  ],
+  "dissent_points": [
+    "Walter Triple-Net disse que o P/E alto pode ser justificado pelo histórico consistente e crescimento contínuo dos dividendos, enquanto Valentina Prudente disse que o P/E elevado é uma preocupação significativa.",
+    "Mariana Macro disse que a expansão em novos setores como data centers pode ser arriscada, enquanto Pedro Alocação concordou com essa avaliação mas sugeriu monitoramento de perto."
+  ],
+  "evidence_count": 20,
+  "research_hits_total": 25
+}

@@ -1,27 +1,27 @@
 ---
 ticker: MULT3
-name: Multiplan
+name: MULT3
 market: br
 sector: Real Estate
 is_holding: false
 currency: BRL
-price: 32.73
-price_date: 2026-04-24
-change_1d_pct: -0.37
-pe: 14.2304
-pb: 2.5425
-dy_pct: 3.31
+price: 32.49
+price_date: 2026-04-27
+change_1d_pct: -0.73
+pe: 14.1261
+pb: 2.5239
+dy_pct: 3.33
 roe_pct: 19.11
 streak_years: 18
 screen_score: 0.6
 screen_pass: false
-div_safety: 85
+div_safety: 95
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, real_estate]
 ---
 
-# MULT3 — Multiplan
+# MULT3 — MULT3
 
 #watchlist #br #real_estate
 
@@ -33,15 +33,15 @@ tags: [watchlist, br, real_estate]
 
 ## Snapshot
 
-- **Preço**: R$32.73  (2026-04-24)    _-0.37% 1d_
+- **Preço**: R$32.49  (2026-04-27)    _-0.73% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
-- **Div Safety**: 85.0/100 (SAFE)
+- **Div Safety**: 95.0/100 (SAFE)
 
 ## Fundamentals
 
-- P/E: 14.230434 | P/B: 2.5425308 | DY: 3.31%
+- P/E: 14.126088 | P/B: 2.5238874 | DY: 3.33%
 - ROE: 19.11% | EPS: 2.3 | BVPS: 12.873
 - Streak div: 18y | Aristocrat: None
 
@@ -64,13 +64,13 @@ tags: [watchlist, br, real_estate]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -8.58%
-- **Drawdown 5y**: -8.58%
-- **YTD**: +21.04%
-- **YoY (1y)**: +30.14%
-- **CAGR 3y**: +9.65%  |  **5y**: +6.79%  |  **10y**: +5.76%
-- **Vol annual**: +24.88%
-- **Sharpe 3y** (rf=4%): +0.22
+- **Drawdown 52w**: -9.25%
+- **Drawdown 5y**: -9.25%
+- **YTD**: +20.16%
+- **YoY (1y)**: +27.41%
+- **CAGR 3y**: +7.85%  |  **5y**: +6.29%  |  **10y**: +5.16%
+- **Vol annual**: +24.95%
+- **Sharpe 3y** (rf=4%): +0.15
 
 ### Dividendos
 - **DY 5y avg**: +3.53%
@@ -128,10 +128,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [15.43, 14.969565, 14.282608, 14.230434, 14.230434]
+    data: [15.43, 14.969565, 14.282608, 14.230434, 14.230434, 14.230434, 14.126088]
 width: 80%
 beginAtZero: false
 fill: false
@@ -141,12 +141,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [18.11, 19.11, 19.11, 19.11, 19.11]
+    data: [18.11, 19.11, 19.11, 19.11, 19.11, 19.11, 19.11]
   - title: DY %
-    data: [2.32, 3.15, 3.3, 3.31, 3.31]
+    data: [2.32, 3.15, 3.3, 3.31, 3.31, 3.31, 3.33]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,4 +155,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

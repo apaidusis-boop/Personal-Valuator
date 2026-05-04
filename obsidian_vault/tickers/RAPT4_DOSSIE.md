@@ -66,6 +66,10 @@ RAPT4 está em prejuízo (EPS -0.72, ROE -1.30%, P/E n/a) com DY 0.88% e P/B 0.5
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

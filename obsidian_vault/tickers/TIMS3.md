@@ -1,27 +1,27 @@
 ---
 ticker: TIMS3
-name: TIM
+name: TIMS3
 market: br
 sector: Telecom
 is_holding: false
 currency: BRL
-price: 26.1
-price_date: 2026-04-24
-change_1d_pct: 0.19
-pe: 14.6629
-pb: 2.6001
-dy_pct: 5.92
+price: 25.77
+price_date: 2026-04-27
+change_1d_pct: -1.26
+pe: 14.4775
+pb: 2.5672
+dy_pct: 5.99
 roe_pct: 17.12
 streak_years: 17
 screen_score: 0.6
 screen_pass: false
 div_safety: 75
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, telecom]
 ---
 
-# TIMS3 — TIM
+# TIMS3 — TIMS3
 
 #watchlist #br #telecom
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, telecom]
 
 ## Snapshot
 
-- **Preço**: R$26.10  (2026-04-24)    _+0.19% 1d_
+- **Preço**: R$25.77  (2026-04-27)    _-1.26% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, telecom]
 
 ## Fundamentals
 
-- P/E: 14.662922 | P/B: 2.6001196 | DY: 5.92%
+- P/E: 14.477529 | P/B: 2.5672445 | DY: 5.99%
 - ROE: 17.12% | EPS: 1.78 | BVPS: 10.038
 - Streak div: 17y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, telecom]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -7.94%
-- **Drawdown 5y**: -7.94%
-- **YTD**: +20.61%
-- **YoY (1y)**: +40.78%
-- **CAGR 3y**: +23.67%  |  **5y**: +16.35%  |  **10y**: +12.72%
-- **Vol annual**: +27.01%
-- **Sharpe 3y** (rf=4%): +0.78
+- **Drawdown 52w**: -9.10%
+- **Drawdown 5y**: -9.10%
+- **YTD**: +19.09%
+- **YoY (1y)**: +38.47%
+- **CAGR 3y**: +22.55%  |  **5y**: +16.13%  |  **10y**: +12.93%
+- **Vol annual**: +27.11%
+- **Sharpe 3y** (rf=4%): +0.73
 
 ### Dividendos
 - **DY 5y avg**: +7.46%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [15.0842705, 14.634831, 14.662922, 14.662922]
+    data: [15.0842705, 14.634831, 14.662922, 14.662922, 14.662922, 14.477529]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [17.12, 17.12, 17.12, 17.12]
+    data: [17.12, 17.12, 17.12, 17.12, 17.12, 17.12]
   - title: DY %
-    data: [5.75, 5.93, 5.92, 5.92]
+    data: [5.75, 5.93, 5.92, 5.92, 5.92, 5.99]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

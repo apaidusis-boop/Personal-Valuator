@@ -61,6 +61,10 @@ consistentes. Valuation actual oferece margem de segurança após 2024 drawdown.
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

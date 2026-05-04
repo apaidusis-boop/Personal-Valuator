@@ -62,6 +62,10 @@ PRIO3 negocia a P/E 22.61 e P/B 1.97 com ROE de apenas 8.71% — múltiplos esti
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

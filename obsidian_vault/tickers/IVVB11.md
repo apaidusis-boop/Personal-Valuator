@@ -14,7 +14,7 @@ position_qty: 11
 entry_price: 145.55
 pnl_pct: 176.88
 market_value: 4433
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:36Z"
 tags: [holding, br, etf-us]
 ---
 
@@ -24,7 +24,7 @@ tags: [holding, br, etf-us]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -107,4 +107,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

@@ -66,6 +66,10 @@ SUZB3 negocia P/E baixíssimo de 4.22 e P/B 1.29 com ROE robusto de 35.19%, mas 
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

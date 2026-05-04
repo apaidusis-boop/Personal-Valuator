@@ -1,27 +1,27 @@
 ---
 ticker: UNIP6
-name: Unipar
+name: UNIP6
 market: br
 sector: Materials
 is_holding: false
 currency: BRL
-price: 60.54
-price_date: 2026-04-24
-change_1d_pct: -0.54
-pe: 14.7659
-pb: 3.7463
-dy_pct: 16.81
+price: 59.88
+price_date: 2026-04-27
+change_1d_pct: -1.09
+pe: 14.6049
+pb: 3.7054
+dy_pct: 17
 roe_pct: 20.81
 streak_years: 14
 screen_score: 0.8
 screen_pass: false
 div_safety: 45
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, materials]
 ---
 
-# UNIP6 — Unipar
+# UNIP6 — UNIP6
 
 #watchlist #br #materials
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, materials]
 
 ## Snapshot
 
-- **Preço**: R$60.54  (2026-04-24)    _-0.54% 1d_
+- **Preço**: R$59.88  (2026-04-27)    _-1.09% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, materials]
 
 ## Fundamentals
 
-- P/E: 14.765854 | P/B: 3.746287 | DY: 16.81%
+- P/E: 14.604878 | P/B: 3.7054455 | DY: 17.0%
 - ROE: 20.81% | EPS: 4.1 | BVPS: 16.16
 - Streak div: 14y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, materials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -23.44%
-- **Drawdown 5y**: -42.01%
-- **YTD**: +4.04%
-- **YoY (1y)**: +11.47%
-- **CAGR 3y**: +0.95%  |  **5y**: -1.54%  |  **10y**: +30.72%
-- **Vol annual**: +35.38%
-- **Sharpe 3y** (rf=4%): -0.10
+- **Drawdown 52w**: -24.28%
+- **Drawdown 5y**: -42.64%
+- **YTD**: +2.90%
+- **YoY (1y)**: +10.15%
+- **CAGR 3y**: +0.31%  |  **5y**: -2.01%  |  **10y**: +30.64%
+- **Vol annual**: +35.12%
+- **Sharpe 3y** (rf=4%): -0.12
 
 ### Dividendos
 - **DY 5y avg**: +13.09%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [15.182927, 14.846341, 14.765854, 14.765854]
+    data: [15.182927, 14.846341, 14.765854, 14.765854, 14.765854, 14.604878]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [20.81, 20.81, 20.81, 20.81]
+    data: [20.81, 20.81, 20.81, 20.81, 20.81, 20.81]
   - title: DY %
-    data: [16.35, 16.72, 16.81, 16.81]
+    data: [16.35, 16.72, 16.81, 16.81, 16.81, 17.0]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

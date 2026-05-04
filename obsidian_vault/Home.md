@@ -1,21 +1,16 @@
 # 🏠 Investment Intelligence Vault
 
-_Export: 2026-04-26 10:59 UTC_
+_Export: 2026-04-28 18:40 UTC_
 
 ## 🚀 Começa aqui
 - [[My Portfolio|💼 A minha carteira AGORA]] — overview + totals + holdings table
-- [[briefings/2026-04-26|🌅 Morning Briefing de hoje]] — diff, moves, earnings
+- [[briefings/2026-04-28|🌅 Morning Briefing de hoje]] — diff, moves, earnings
 - [[Holdings|📋 Holdings completo]] — tabela unificada BR+US em BRL
 - [[Allocation|📊 Alocação]] — por market/sector/concentração
 - [[TaxLots|📜 Tax Lots JPM]] — breakdown lote-a-lote + short/long term
 - [[Rebalance|🔄 Rebalance]] — drift vs target
 - [[Transactions|📜 Transacções]] — log entries/exits
 - [[wiki/Index|📚 Wiki — Finance Map]] — methods, macro, history (31 notas)
-- [[Bibliotheca/_Index|📚 Bibliotheca]] — clippings, books, methods, daily research digest
-- [[Glossary/_Index|📖 Glossary]] — 29 métricas com fórmula + contraméricas + thresholds
-- [[Bibliotheca/Knowledge/_Index|🧠 Knowledge Cards]] — perguntas conceptuais sintetizadas via RAG
-- [[briefings/drip_scenarios/_Index|💰 DRIP Scenarios]] — cenários 5/10/15/20y por holding + entry-timing
-- [[Bibliotheca/Midnight_Work_2026-04-27|🌙 Midnight Work Report]] — o que foi feito enquanto dormias
 
 ## Dashboards (Dataview)
 - [[dashboards/Portfolio|📊 Portfolio Dashboard]]
@@ -46,12 +41,13 @@ _Export: 2026-04-26 10:59 UTC_
 - [[sectors/Materials|Materials]] (15 tickers)
 - [[sectors/Mining|Mining]] (1 tickers)
 - [[sectors/Oil_&_Gas|Oil & Gas]] (2 tickers)
-- [[sectors/Papel_(CRI)|Papel (CRI)]] (8 tickers)
+- [[sectors/Papel_(CRI)|Papel (CRI)]] (7 tickers)
 - [[sectors/REIT|REIT]] (3 tickers)
 - [[sectors/Real_Estate|Real Estate]] (3 tickers)
 - [[sectors/Shopping|Shopping]] (3 tickers)
 - [[sectors/Technology|Technology]] (8 tickers)
 - [[sectors/Telecom|Telecom]] (2 tickers)
+- [[sectors/Tijolo|Tijolo]] (1 tickers)
 - [[sectors/Utilities|Utilities]] (22 tickers)
 
 ## Tickers — **184** exportados

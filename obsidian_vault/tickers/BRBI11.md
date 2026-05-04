@@ -1,27 +1,27 @@
 ---
 ticker: BRBI11
-name: BR Partners
+name: BRBI11
 market: br
 sector: Financials
 is_holding: false
 currency: BRL
-price: 18.8
-price_date: 2026-04-24
-change_1d_pct: -2.19
-pe: 42.7273
-pb: 2.5201
-dy_pct: 8.94
+price: 18.32
+price_date: 2026-04-27
+change_1d_pct: -2.55
+pe: 41.6364
+pb: 2.4558
+dy_pct: 9.17
 roe_pct: 22.05
 streak_years: 4
 screen_score: 0
 screen_pass: false
 div_safety: 25
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:36Z"
+updated: "2026-04-28T18:40:29Z"
 tags: [watchlist, br, financials]
 ---
 
-# BRBI11 — BR Partners
+# BRBI11 — BRBI11
 
 #watchlist #br #financials
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, financials]
 
 ## Snapshot
 
-- **Preço**: R$18.80  (2026-04-24)    _-2.19% 1d_
+- **Preço**: R$18.32  (2026-04-27)    _-2.55% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, financials]
 
 ## Fundamentals
 
-- P/E: 42.727272 | P/B: 2.520107 | DY: 8.94%
+- P/E: 41.636364 | P/B: 2.455764 | DY: 9.17%
 - ROE: 22.05% | EPS: 0.44 | BVPS: 7.46
 - Streak div: 4y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -11.53%
-- **Drawdown 5y**: -33.66%
-- **YTD**: -2.29%
-- **YoY (1y)**: +29.03%
-- **CAGR 3y**: +23.09%  |  **5y**: n/a  |  **10y**: n/a
-- **Vol annual**: +31.18%
-- **Sharpe 3y** (rf=4%): +0.60
+- **Drawdown 52w**: -13.79%
+- **Drawdown 5y**: -35.36%
+- **YTD**: -4.78%
+- **YoY (1y)**: +25.22%
+- **CAGR 3y**: +21.28%  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +31.38%
+- **Sharpe 3y** (rf=4%): +0.55
 
 ### Dividendos
 - **DY 5y avg**: +11.10%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [44.909092, 43.681816, 42.727272, 42.727272]
+    data: [44.909092, 43.681816, 42.727272, 42.727272, 42.727272, 41.636364]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [22.05, 22.05, 22.05, 22.05]
+    data: [22.05, 22.05, 22.05, 22.05, 22.05, 22.05]
   - title: DY %
-    data: [8.5, 8.74, 8.94, 8.94]
+    data: [8.5, 8.74, 8.94, 8.94, 8.94, 9.17]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

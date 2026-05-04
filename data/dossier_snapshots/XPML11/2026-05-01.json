@@ -1,0 +1,74 @@
+{
+  "ticker": "XPML11",
+  "market": "br",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "XPML11",
+    "period_end": "2026-04-30",
+    "eps": -0.36,
+    "bvps": null,
+    "roe": null,
+    "pe": null,
+    "pb": null,
+    "dy": 0.09921409121028074,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 5,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": null,
+    "ev_ebitda": null,
+    "market_cap": 6311853568.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Dividend/DRIP (5/12)",
+    "secondary": "Growth (4/12)",
+    "value": 0,
+    "growth": 4,
+    "dividend": 5,
+    "buffett": 0,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 111.26000213623047
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Lourdes Aluguel",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Aplicação do Piotroski F-Score a FIIs pode não ser adequada",
+    "Falta de análise detalhada sobre o impacto da vacância física e financeira no desempenho futuro do fundo"
+  ],
+  "consensus_points": [
+    "Dividend yield de 9,9% e pagamentos consistentes sustentam posição",
+    "Position weight de 4.9% dentro do limite"
+  ],
+  "dissent_points": [
+    "Piotroski F-Score indica fragilidade financeira - Valentina Prudente vs Lourdes Aluguel e Pedro Alocação",
+    "Web context não relevante para XPML11 - Mariana Macro, Pedro Alocação vs Valentina Prudente"
+  ],
+  "evidence_count": 14,
+  "research_hits_total": 18
+}

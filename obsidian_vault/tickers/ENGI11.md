@@ -1,27 +1,27 @@
 ---
 ticker: ENGI11
-name: Energisa
+name: ENGI11
 market: br
 sector: Utilities
 is_holding: false
 currency: BRL
-price: 55.29
-price_date: 2026-04-24
-change_1d_pct: -0.38
-pe: 40.0652
-pb: 1.0009
-dy_pct: 2.8
+price: 54.3
+price_date: 2026-04-27
+change_1d_pct: -1.79
+pe: 39.3478
+pb: 0.983
+dy_pct: 2.85
 roe_pct: 14.49
 streak_years: 16
 screen_score: 0
 screen_pass: false
 div_safety: 35
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:35Z"
 tags: [watchlist, br, utilities]
 ---
 
-# ENGI11 — Energisa
+# ENGI11 — ENGI11
 
 #watchlist #br #utilities
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, utilities]
 
 ## Snapshot
 
-- **Preço**: R$55.29  (2026-04-24)    _-0.38% 1d_
+- **Preço**: R$54.30  (2026-04-27)    _-1.79% 1d_
 - **Screen**: 0.0  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, utilities]
 
 ## Fundamentals
 
-- P/E: 40.06522 | P/B: 1.0009233 | DY: 2.8%
+- P/E: 39.347824 | P/B: 0.9830012 | DY: 2.85%
 - ROE: 14.49% | EPS: 1.38 | BVPS: 55.239
 - Streak div: 16y | Aristocrat: None
 
@@ -64,13 +64,13 @@ tags: [watchlist, br, utilities]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.92%
-- **Drawdown 5y**: -4.92%
-- **YTD**: +17.41%
-- **YoY (1y)**: +35.00%
-- **CAGR 3y**: +13.47%  |  **5y**: +6.69%  |  **10y**: +15.33%
-- **Vol annual**: +25.71%
-- **Sharpe 3y** (rf=4%): +0.35
+- **Drawdown 52w**: -6.62%
+- **Drawdown 5y**: -6.62%
+- **YTD**: +15.31%
+- **YoY (1y)**: +31.27%
+- **CAGR 3y**: +12.63%  |  **5y**: +5.95%  |  **10y**: +15.12%
+- **Vol annual**: +25.76%
+- **Sharpe 3y** (rf=4%): +0.32
 
 ### Dividendos
 - **DY 5y avg**: +5.36%
@@ -128,10 +128,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [13.23, 41.644928, 40.217392, 40.06522, 40.06522]
+    data: [13.23, 41.644928, 40.217392, 40.06522, 40.06522, 40.06522, 39.347824]
 width: 80%
 beginAtZero: false
 fill: false
@@ -141,12 +141,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [10.45, 14.49, 14.49, 14.49, 14.49]
+    data: [10.45, 14.49, 14.49, 14.49, 14.49, 14.49, 14.49]
   - title: DY %
-    data: [2.93, 2.69, 2.79, 2.8, 2.8]
+    data: [2.93, 2.69, 2.79, 2.8, 2.8, 2.8, 2.85]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,4 +155,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

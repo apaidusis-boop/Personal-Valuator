@@ -15,7 +15,7 @@ roe_pct: 15.46
 streak_years: 16
 div_safety: 93.8
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:36Z"
+updated: "2026-04-28T18:40:29Z"
 tags: [watchlist, br, banks]
 ---
 
@@ -115,4 +115,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

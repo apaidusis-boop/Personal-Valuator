@@ -1,0 +1,27 @@
+fortes.
+
+*Fonte: Ferbasa e Bloomberg (ROE do Ibovespa). Cálculos e elaboração: Finclass.*
+
+## Endividamento
+
+A **Ferbasa** é **caixa líquido**, ou seja, **tem mais dinheiro em caixa do que dívidas**.
+
+Isso significa que a companhia não depende de capital de terceiros para financiar suas operações, o que a coloca em posição privilegiada em um setor (mineração, metalurgia e ferroligas) exposto a ciclos de commodities e variações cambiais.
+
+Por outro lado, nos anos de bons preços a companhia alcança rentabilidades inferiores às mineradoras que usam da alavancagem financeira para impulsionar a rentabilidade do capital próprio, um *trade-off* que julgamos razoável.
+
+A **dívida bruta** de R$ 364 milhões é inferior aos seus **R$ 990 milhões** de caixa, equivalentes e aplicações de curto prazo**,** resultando em um **caixa líquido** de **R$ 625 milhões**.
+
+Fonte: Ferbasa. Cálculo e elaboração: Finclass.
+
+Vale ressaltar que o cálculo da própria empresa difere do nosso, reportando um caixa líquido de R$ 718,4 milhões pois considera um adicional de segurança à tese que sequer contemplamos na precificação: R$ 82 milhões de aplicações financeiras com resgate superior a 1 ano.
+
+Fonte: Ferbasa, DFP 2025. Ajustes: Finclass.
+
+Essa estrutura financeira conservadora dá robustez à companhia para atravessar ciclos desafiadores e manter uma política de dividendos relativamente previsível a despeito da natureza cíclica do negócio.
+
+## Riscos
+
+**(1)** **Preço das ferroligas:** Os preços das ferroligas são definidos pelo mercado internacional — referenciados em cestas que incluem os mercados europeu, americano e, sobretudo, asiático. A Ferbasa é, portanto, diretamente exposta às oscilações de preço, que podem alterar significativamente as margens operacionais.
+
+**(2)** **Custos de energia:** A produção de ferroligas é intensiva em energia elétrica, que pode representar entre 40% e 60% do custo total do processo.

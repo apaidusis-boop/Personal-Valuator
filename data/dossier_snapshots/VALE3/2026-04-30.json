@@ -1,0 +1,89 @@
+{
+  "ticker": "VALE3",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "VALE3",
+    "period_end": "2026-04-30",
+    "eps": 3.3,
+    "bvps": 43.174,
+    "roe": 0.05867,
+    "pe": 24.6,
+    "pb": 1.8802984,
+    "dy": 0.06746930253030306,
+    "net_debt_ebitda": 0.9657447042528402,
+    "dividend_streak_years": 18,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": 7.3594365,
+    "ev_ebitda": 5.713,
+    "market_cap": 346599161856.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 5,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 5.048221672575513,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.8121523050156743,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Dividend/DRIP (7/12)",
+    "secondary": "",
+    "value": 0,
+    "growth": 0,
+    "dividend": 7,
+    "buffett": 3,
+    "macro_exposure": 2,
+    "macro_dependency": 2
+  },
+  "dcf": {
+    "base_value": 5.653587475268652,
+    "pessimistic_value": 4.84632518148394,
+    "optimistic_value": 6.630421492095797,
+    "margin_of_safety_pct": -0.9303573853903004,
+    "current_price": 81.18000030517578
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Aderbaldo Cíclico",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [],
+  "consensus_points": [
+    "A Vale apresenta uma geração de caixa robusta e um histórico de dividendos estáveis, com múltiplos P/E e P/B dentro do esperado para o setor.",
+    "Valentina Prudente",
+    "Mariana Macro"
+  ],
+  "dissent_points": [
+    "X disse A, Y disse B"
+  ],
+  "evidence_count": 33,
+  "research_hits_total": 50
+}

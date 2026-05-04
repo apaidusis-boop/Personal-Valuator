@@ -109,6 +109,8 @@ Ou via wrapper: `ii vault "pergunta em PT"` (mesma RAG + vault context).
 | Cleanup reports (one-time) | 4 | `obsidian_vault/Bibliotheca/Cleanup_*.md` |
 | Test reports (one-time) | 1 | [[Bibliotheca/Test_Run_2026-04-26]] |
 | Midnight Work reports | 1 | [[Bibliotheca/Midnight_Work_2026-04-27]] |
+| Workday Work reports | 1 | [[Bibliotheca/Workday_Work_2026-04-27]] |
+| Night Shift reports | 1 | [[Bibliotheca/Night_Shift_2026-04-27]] |
 
 ## Pipeline daily (cron 23:30)
 

@@ -52,6 +52,10 @@ JNJ negoceia a P/E 26.4 com DY 2.29% e ROE robusto de 26.4%, mas o IC fica MIXED
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

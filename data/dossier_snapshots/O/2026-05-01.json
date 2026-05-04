@@ -1,0 +1,78 @@
+{
+  "ticker": "O",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "O",
+    "period_end": "2026-04-30",
+    "eps": 1.17,
+    "bvps": 42.227,
+    "roe": 0.02702,
+    "pe": 54.905983,
+    "pb": 1.5213014,
+    "dy": 0.05037360067885462,
+    "net_debt_ebitda": 5.681611353940902,
+    "dividend_streak_years": 33,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 3.842337459336212,
+    "interest_coverage": 4.3252046774641055,
+    "debt_to_assets": 0.4031265785635541,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 35.3264,
+    "ev_ebitda": 17.356,
+    "market_cap": 59900624896.0,
+    "fcf_ttm": 2675889408.0,
+    "shares_outstanding": 932450634.0,
+    "next_ex_date": "2026-04-30",
+    "next_earnings_date": "2026-05-06",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Dividend/DRIP (6/12)",
+    "secondary": "Value (4/12)",
+    "value": 4,
+    "growth": 3,
+    "dividend": 6,
+    "buffett": 2,
+    "macro_exposure": 1,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 87.88539398670504,
+    "pessimistic_value": 68.51467611820608,
+    "optimistic_value": 115.95399140834304,
+    "margin_of_safety_pct": 0.368079030343044,
+    "current_price": 64.23999786376953
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "high",
+  "council_seats": [
+    "Walter Triple-Net",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "The focus on P/E ratio might overlook AFFO as a more relevant metric for REITs (Walter Triple-Net); Data on recent legal officer transition is limited and could pose risks (Valentina Prudente)"
+  ],
+  "consensus_points": [
+    "Realty Income offers a consistent 5% dividend yield with 113 consecutive quarterly increases, supported by a strong tenant base and diversified portfolio (Walter Triple-Net, Mariana Macro, Valentina Prudente, Pedro Alocação); P/E ratio of 54.91 raises concerns about valuation (Walter Triple-Net, Pedro Alocação, Valentina Prudente, Mariana Macro); Rising interest expense of $1.13 billion in 2025 is concerning (Mariana Macro, Valentina Prudente); Recent legal officer transition poses potential risk (Valentina Prudente); Strategic partnership with Apollo for a $1 billion investment may provide financial flexibility and support future growth initiatives (Mariana Macro, Pedro Alocação)"
+  ],
+  "dissent_points": [
+    "Walter Triple-Net challenged the focus on P/E and ROE, suggesting AFFO is more relevant metric; Valentina Prudente argued that while high P/E can indicate overvaluation, it's important to consider Realty Income's consistent dividend history and stable cash flows which may justify this multiple in the context of income-focused investors"
+  ],
+  "evidence_count": 20,
+  "research_hits_total": 26
+}

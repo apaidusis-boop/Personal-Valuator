@@ -5,11 +5,11 @@ market: us
 sector: Consumer Disc.
 is_holding: false
 currency: USD
-price: 11.34
-price_date: 2026-04-24
-change_1d_pct: -0.35
-pe: 6.7101
-pb: 1.5034
+price: 11.37
+price_date: 2026-04-27
+change_1d_pct: 0.26
+pe: 6.7278
+pb: 1.5074
 dy_pct: 1.76
 roe_pct: 27.49
 streak_years: 40
@@ -18,7 +18,7 @@ screen_score: 0.8
 screen_pass: false
 div_safety: 90
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:47Z"
+updated: "2026-04-28T18:40:44Z"
 tags: [watchlist, us, consumer_disc.]
 ---
 
@@ -34,7 +34,7 @@ tags: [watchlist, us, consumer_disc.]
 
 ## Snapshot
 
-- **Preço**: $11.34  (2026-04-24)    _-0.35% 1d_
+- **Preço**: $11.37  (2026-04-27)    _+0.26% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, us, consumer_disc.]
 
 ## Fundamentals
 
-- P/E: 6.710059 | P/B: 1.5033805 | DY: 1.76%
+- P/E: 6.7278104 | P/B: 1.5073577 | DY: 1.76%
 - ROE: 27.49% | EPS: 1.69 | BVPS: 7.543
 - Streak div: 40y | Aristocrat: True
 
@@ -57,13 +57,13 @@ tags: [watchlist, us, consumer_disc.]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -12.02%
-- **Drawdown 5y**: -80.43%
-- **YTD**: +3.18%
-- **YoY (1y)**: +52.83%
-- **CAGR 3y**: -28.72%  |  **5y**: -25.82%  |  **10y**: -13.53%
-- **Vol annual**: +55.91%
-- **Sharpe 3y** (rf=4%): -0.70
+- **Drawdown 52w**: -11.79%
+- **Drawdown 5y**: -80.38%
+- **YTD**: +3.46%
+- **YoY (1y)**: +55.97%
+- **CAGR 3y**: -29.40%  |  **5y**: -25.91%  |  **10y**: -13.64%
+- **Vol annual**: +56.08%
+- **Sharpe 3y** (rf=4%): -0.72
 
 ### Dividendos
 - **DY 5y avg**: +4.91%
@@ -96,10 +96,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [6.9053254, 6.710059, 6.710059]
+    data: [6.9053254, 6.710059, 6.710059, 6.710059, 6.7278104]
 width: 80%
 beginAtZero: false
 fill: false
@@ -109,12 +109,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [27.49, 27.49, 27.49]
+    data: [27.49, 27.49, 27.49, 27.49, 27.49]
   - title: DY %
-    data: [1.71, 1.76, 1.76]
+    data: [1.71, 1.76, 1.76, 1.76, 1.76]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,4 +123,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

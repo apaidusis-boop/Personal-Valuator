@@ -1,27 +1,27 @@
 ---
 ticker: VIVA3
-name: Vivara
+name: VIVA3
 market: br
 sector: Consumer Disc.
 is_holding: false
 currency: BRL
-price: 26.14
-price_date: 2026-04-24
-change_1d_pct: -0.61
-pe: 9.9392
-pb: 2.0832
-dy_pct: 2.67
+price: 25.46
+price_date: 2026-04-27
+change_1d_pct: -2.6
+pe: 9.6806
+pb: 2.029
+dy_pct: 2.74
 roe_pct: 22.75
 streak_years: 7
 screen_score: 0.8
 screen_pass: false
 div_safety: 78
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:44Z"
+updated: "2026-04-28T18:40:41Z"
 tags: [watchlist, br, consumer_disc.]
 ---
 
-# VIVA3 — Vivara
+# VIVA3 — VIVA3
 
 #watchlist #br #consumer_disc.
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Snapshot
 
-- **Preço**: R$26.14  (2026-04-24)    _-0.61% 1d_
+- **Preço**: R$25.46  (2026-04-27)    _-2.60% 1d_
 - **Screen**: 0.8  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Fundamentals
 
-- P/E: 9.939163 | P/B: 2.0832005 | DY: 2.67%
+- P/E: 9.680608 | P/B: 2.0290084 | DY: 2.74%
 - ROE: 22.75% | EPS: 2.63 | BVPS: 12.548
 - Streak div: 7y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_disc.]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -27.59%
-- **Drawdown 5y**: -27.59%
-- **YTD**: -18.97%
-- **YoY (1y)**: +27.51%
-- **CAGR 3y**: +8.88%  |  **5y**: +1.36%  |  **10y**: n/a
-- **Vol annual**: +37.26%
-- **Sharpe 3y** (rf=4%): +0.13
+- **Drawdown 52w**: -29.47%
+- **Drawdown 5y**: -29.47%
+- **YTD**: -21.08%
+- **YoY (1y)**: +20.44%
+- **CAGR 3y**: +6.11%  |  **5y**: +0.41%  |  **10y**: n/a
+- **Vol annual**: +36.78%
+- **Sharpe 3y** (rf=4%): +0.06
 
 ### Dividendos
 - **DY 5y avg**: +1.72%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [10.420454, 9.96212, 9.901514, 9.939163]
+    data: [10.420454, 9.96212, 9.901514, 9.939163, 9.939163, 9.680608]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [22.75, 22.75, 22.75, 22.75]
+    data: [22.75, 22.75, 22.75, 22.75, 22.75, 22.75]
   - title: DY %
-    data: [4.94, 2.65, 2.67, 2.67]
+    data: [4.94, 2.65, 2.67, 2.67, 2.67, 2.74]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

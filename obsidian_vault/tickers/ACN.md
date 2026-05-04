@@ -5,12 +5,12 @@ market: us
 sector: Technology
 is_holding: true
 currency: USD
-price: 178.36
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 14.6197
-pb: 3.5137
-dy_pct: 1.74
+price: 176.97
+price_date: 2026-04-27
+change_1d_pct: -0.78
+pe: 14.5057
+pb: 3.4863
+dy_pct: 1.76
 roe_pct: 24.76
 streak_years: 22
 aristocrat: false
@@ -22,9 +22,9 @@ div_safety: 95
 div_safety_verdict: SAFE
 position_qty: 4.3051
 entry_price: 213.71
-pnl_pct: -16.54
-market_value: 767.85
-updated: "2026-04-26T10:59:44Z"
+pnl_pct: -17.19
+market_value: 761.87
+updated: "2026-04-28T18:40:41Z"
 tags: [holding, us, technology, consulting, turnaround, watch]
 ---
 
@@ -34,25 +34,25 @@ tags: [holding, us, technology, consulting, turnaround, watch]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.4/10  |  **Confiança**: 80%  |  _2026-04-26 13:59_
+> **Score**: 6.2/10  |  **Confiança**: 80%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 8.7/10 | 35% | `█████████░` |
 | Valuation  | 6.0/10 | 30% | `██████░░░░` |
-| Momentum   | 2.7/10 | 20% | `███░░░░░░░` |
+| Momentum   | 1.3/10 | 20% | `█░░░░░░░░░` |
 | Narrativa  | 7.0/10 | 15% | `███████░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 4.204971537327859 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 95.0/100
 - **Valuation**: Screen 0.60, DY percentil P71 (fair-cheap)
-- **Momentum**: 1d 0.0%, 30d -7.39%, YTD -31.39%
+- **Momentum**: 1d -0.78%, 30d -10.42%, YTD -31.92%
 - **Narrativa**: user_note=True, YT insights 60d=0
 
 ### Razões
 
-- total 6.4 na zona neutra
+- total 6.1 na zona neutra
 - quality forte
 
 
@@ -65,16 +65,16 @@ tags: [holding, us, technology, consulting, turnaround, watch]
 
 ## Snapshot
 
-- **Preço**: $178.36  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $176.97  (2026-04-27)    _-0.78% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 4.205 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 95.0/100 (SAFE)
-- **Posição**: 4.30506 sh @ $213.71  →  P&L -16.54%
+- **Posição**: 4.30506 sh @ $213.71  →  P&L -17.19%
 
 ## Fundamentals
 
-- P/E: 14.619673 | P/B: 3.5136518 | DY: 1.74%
+- P/E: 14.505738 | P/B: 3.4862692 | DY: 1.76%
 - ROE: 24.76% | EPS: 12.2 | BVPS: 50.762
 - Streak div: 22y | Aristocrat: False
 
@@ -102,13 +102,13 @@ Compra inicial Mai/2024 @ $299.83 — tese consulting turnaround. -41% em Abr/20
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -44.82%
-- **Drawdown 5y**: -57.07%
-- **YTD**: -31.39%
-- **YoY (1y)**: -39.21%
-- **CAGR 3y**: -13.49%  |  **5y**: -9.28%  |  **10y**: +4.55%
-- **Vol annual**: +34.91%
-- **Sharpe 3y** (rf=4%): -0.63
+- **Drawdown 52w**: -45.25%
+- **Drawdown 5y**: -57.40%
+- **YTD**: -31.92%
+- **YoY (1y)**: -39.68%
+- **CAGR 3y**: -14.21%  |  **5y**: -9.42%  |  **10y**: +4.60%
+- **Vol annual**: +34.20%
+- **Sharpe 3y** (rf=4%): -0.66
 
 ### Dividendos
 - **DY 5y avg**: +1.38%
@@ -151,10 +151,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [15.909837, 15.878279, 15.90164, 16.200819, 16.02541, 15.949139, 14.631666, 14.619673]
+    data: [15.909837, 15.878279, 15.90164, 16.200819, 16.02541, 15.949139, 14.631666, 14.619673, 14.619673, 14.505738]
 width: 80%
 beginAtZero: false
 fill: false
@@ -164,12 +164,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76]
+    data: [24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76, 24.76]
   - title: DY %
-    data: [3.42, 3.36, 3.36, 3.3, 3.3, 1.6, 1.74, 1.74]
+    data: [3.42, 3.36, 3.36, 3.3, 3.3, 1.6, 1.74, 1.74, 1.74, 1.76]
 width: 80%
 beginAtZero: false
 fill: false
@@ -178,4 +178,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

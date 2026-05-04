@@ -1,16 +1,16 @@
 ---
 ticker: VALE3
-name: Vale
+name: VALE3
 market: br
 sector: Mining
 is_holding: true
 currency: BRL
-price: 85.87
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 31
-pb: 1.9889
-dy_pct: 6.38
+price: 85.5
+price_date: 2026-04-27
+change_1d_pct: -0.43
+pe: 30.8664
+pb: 1.9804
+dy_pct: 6.41
 roe_pct: 5.87
 streak_years: 18
 screen_score: 0.6
@@ -21,37 +21,37 @@ div_safety: 50
 div_safety_verdict: RISK
 position_qty: 500
 entry_price: 61.81
-pnl_pct: 38.93
-market_value: 42935
-updated: "2026-04-26T10:59:42Z"
+pnl_pct: 38.33
+market_value: 42750
+updated: "2026-04-28T18:40:39Z"
 tags: [holding, br, mining]
 ---
 
-# VALE3 — Vale
+# VALE3 — VALE3
 
 #holding #br #mining
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.5/10  |  **Confiança**: 80%  |  _2026-04-26 13:59_
+> **Score**: 6.4/10  |  **Confiança**: 80%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 6.3/10 | 35% | `██████░░░░` |
 | Valuation  | 6.0/10 | 30% | `██████░░░░` |
-| Momentum   | 7.3/10 | 20% | `███████░░░` |
+| Momentum   | 6.7/10 | 20% | `███████░░░` |
 | Narrativa  | 7.0/10 | 15% | `███████░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 5.048221672575513 (SAFE), Piotroski 5/9 (NEUTRAL), DivSafety 50.0/100
 - **Valuation**: Screen 0.60, DY percentil P50 (fair-rich)
-- **Momentum**: 1d 0.0%, 30d 8.82%, YTD 18.64%
+- **Momentum**: 1d -0.43%, 30d 8.23%, YTD 18.13%
 - **Narrativa**: user_note=False, YT insights 60d=9
 
 ### Razões
 
-- total 6.5 na zona neutra
+- total 6.4 na zona neutra
 
 
 ## Links
@@ -63,16 +63,16 @@ tags: [holding, br, mining]
 
 ## Snapshot
 
-- **Preço**: R$85.87  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$85.50  (2026-04-27)    _-0.43% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 5.048 (safe)
 - **Piotroski**: 5/9
 - **Div Safety**: 50.0/100 (RISK)
-- **Posição**: 500.0 sh @ R$61.81  →  P&L 38.93%
+- **Posição**: 500.0 sh @ R$61.81  →  P&L 38.33%
 
 ## Fundamentals
 
-- P/E: 31.000002 | P/B: 1.9889286 | DY: 6.38%
+- P/E: 30.866426 | P/B: 1.9803586 | DY: 6.41%
 - ROE: 5.87% | EPS: 2.77 | BVPS: 43.174
 - Streak div: 18y | Aristocrat: None
 
@@ -103,13 +103,13 @@ tags: [holding, br, mining]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.68%
-- **Drawdown 5y**: -27.67%
-- **YTD**: +18.64%
-- **YoY (1y)**: +59.46%
-- **CAGR 3y**: +6.17%  |  **5y**: -4.85%  |  **10y**: +15.81%
+- **Drawdown 52w**: -5.09%
+- **Drawdown 5y**: -27.98%
+- **YTD**: +18.13%
+- **YoY (1y)**: +58.77%
+- **CAGR 3y**: +5.70%  |  **5y**: -5.24%  |  **10y**: +15.82%
 - **Vol annual**: +25.19%
-- **Sharpe 3y** (rf=4%): +0.08
+- **Sharpe 3y** (rf=4%): +0.07
 
 ### Dividendos
 - **DY 5y avg**: +11.12%
@@ -167,10 +167,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [28.38, 32.148552, 31.148552, 31.339417, 31.000002]
+    data: [28.38, 32.148552, 31.148552, 31.339417, 31.000002, 31.000002, 30.866426]
 width: 80%
 beginAtZero: false
 fill: false
@@ -180,12 +180,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [7.31, 5.87, 5.87, 5.87, 5.87]
+    data: [7.31, 5.87, 5.87, 5.87, 5.87, 5.87, 5.87]
   - title: DY %
-    data: [6.2, 6.17, 6.37, 6.38, 6.38]
+    data: [6.2, 6.17, 6.37, 6.38, 6.38, 6.38, 6.41]
 width: 80%
 beginAtZero: false
 fill: false
@@ -194,4 +194,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

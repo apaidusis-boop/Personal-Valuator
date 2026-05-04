@@ -1,27 +1,27 @@
 ---
 ticker: GMAT3
-name: Grupo Mateus
+name: GMAT3
 market: br
 sector: Consumer Staples
 is_holding: false
 currency: BRL
-price: 4.85
-price_date: 2026-04-24
-change_1d_pct: 7.3
-pe: 5.9146
-pb: 1.0484
-dy_pct: 3.9
+price: 4.55
+price_date: 2026-04-27
+change_1d_pct: -6.19
+pe: 5.5488
+pb: 0.9836
+dy_pct: 4.16
 roe_pct: 17.94
 streak_years: 2
 screen_score: 0.6
 screen_pass: false
 div_safety: 70
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:35Z"
 tags: [watchlist, br, consumer_staples]
 ---
 
-# GMAT3 — Grupo Mateus
+# GMAT3 — GMAT3
 
 #watchlist #br #consumer_staples
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: R$4.85  (2026-04-24)    _+7.30% 1d_
+- **Preço**: R$4.55  (2026-04-27)    _-6.19% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Fundamentals
 
-- P/E: 5.914634 | P/B: 1.048422 | DY: 3.9%
+- P/E: 5.548781 | P/B: 0.9835712 | DY: 4.16%
 - ROE: 17.94% | EPS: 0.82 | BVPS: 4.626
 - Streak div: 2y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -41.00%
-- **Drawdown 5y**: -44.57%
-- **YTD**: +8.02%
-- **YoY (1y)**: -36.18%
-- **CAGR 3y**: -2.61%  |  **5y**: -9.30%  |  **10y**: n/a
-- **Vol annual**: +38.46%
-- **Sharpe 3y** (rf=4%): -0.18
+- **Drawdown 52w**: -44.65%
+- **Drawdown 5y**: -48.00%
+- **YTD**: +1.34%
+- **YoY (1y)**: -40.13%
+- **CAGR 3y**: -6.18%  |  **5y**: -10.22%  |  **10y**: n/a
+- **Vol annual**: +38.56%
+- **Sharpe 3y** (rf=4%): -0.27
 
 ### Dividendos
 - **DY 5y avg**: n/a
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [5.6829267, 5.512195, 5.914634, 5.914634]
+    data: [5.6829267, 5.512195, 5.914634, 5.914634, 5.914634, 5.548781]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [17.94, 17.94, 17.94, 17.94]
+    data: [17.94, 17.94, 17.94, 17.94, 17.94, 17.94]
   - title: DY %
-    data: [4.06, 4.19, 3.9, 3.9]
+    data: [4.06, 4.19, 3.9, 3.9, 3.9, 4.16]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

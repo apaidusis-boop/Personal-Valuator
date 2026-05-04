@@ -1,27 +1,27 @@
 ---
 ticker: B3SA3
-name: B3
+name: B3SA3
 market: br
 sector: Financials
 is_holding: false
 currency: BRL
-price: 18.98
-price_date: 2026-04-24
-change_1d_pct: -0.26
-pe: 22.5952
-pb: 5.4792
-dy_pct: 3.19
+price: 18.72
+price_date: 2026-04-27
+change_1d_pct: -1.37
+pe: 22.2857
+pb: 5.4042
+dy_pct: 3.24
 roe_pct: 25.59
 streak_years: 19
 screen_score: 0.6
 screen_pass: false
 div_safety: 75
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:36Z"
+updated: "2026-04-28T18:40:29Z"
 tags: [watchlist, br, financials]
 ---
 
-# B3SA3 — B3
+# B3SA3 — B3SA3
 
 #watchlist #br #financials
 
@@ -34,7 +34,7 @@ tags: [watchlist, br, financials]
 
 ## Snapshot
 
-- **Preço**: R$18.98  (2026-04-24)    _-0.26% 1d_
+- **Preço**: R$18.72  (2026-04-27)    _-1.37% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, br, financials]
 
 ## Fundamentals
 
-- P/E: 22.595238 | P/B: 5.4792147 | DY: 3.19%
+- P/E: 22.285715 | P/B: 5.4041567 | DY: 3.24%
 - ROE: 25.59% | EPS: 0.84 | BVPS: 3.464
 - Streak div: 19y | Aristocrat: None
 
@@ -73,13 +73,13 @@ tags: [watchlist, br, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -4.33%
-- **Drawdown 5y**: -4.33%
-- **YTD**: +41.33%
-- **YoY (1y)**: +43.03%
-- **CAGR 3y**: +17.17%  |  **5y**: +1.17%  |  **10y**: +13.02%
-- **Vol annual**: +33.76%
-- **Sharpe 3y** (rf=4%): +0.40
+- **Drawdown 52w**: -5.65%
+- **Drawdown 5y**: -5.65%
+- **YTD**: +39.39%
+- **YoY (1y)**: +39.81%
+- **CAGR 3y**: +17.03%  |  **5y**: +0.94%  |  **10y**: +12.57%
+- **Vol annual**: +33.69%
+- **Sharpe 3y** (rf=4%): +0.39
 
 ### Dividendos
 - **DY 5y avg**: +4.06%
@@ -137,10 +137,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [21.66, 23.192772, 22.654764, 22.86747, 22.595238]
+    data: [21.66, 23.192772, 22.654764, 22.86747, 22.595238, 22.595238, 22.285715]
 width: 80%
 beginAtZero: false
 fill: false
@@ -150,12 +150,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [26.26, 25.59, 25.59, 25.59, 25.59]
+    data: [26.26, 25.59, 25.59, 25.59, 25.59, 25.59, 25.59]
   - title: DY %
-    data: [3.08, 3.15, 3.18, 3.19, 3.19]
+    data: [3.08, 3.15, 3.18, 3.19, 3.19, 3.19, 3.24]
 width: 80%
 beginAtZero: false
 fill: false
@@ -164,4 +164,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

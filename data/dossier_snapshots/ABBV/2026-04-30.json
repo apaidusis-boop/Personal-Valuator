@@ -1,0 +1,99 @@
+{
+  "ticker": "ABBV",
+  "market": "us",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "ABBV",
+    "period_end": "2026-04-30",
+    "eps": 2.04,
+    "bvps": -1.85,
+    "roe": null,
+    "pe": 103.58824,
+    "pb": -114.22703,
+    "dy": 0.03189475566153621,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 14,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 6.9907638022990355,
+    "interest_coverage": 6.0936743864500515,
+    "debt_to_assets": 0.5038518960883845,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 13.090334,
+    "ev_ebitda": null,
+    "market_cap": 373774876672.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 1768762377.0,
+    "next_ex_date": "2026-04-15",
+    "next_earnings_date": "2026-04-29",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 8,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 1.9554801983700232,
+      "zone": "grey",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.868242911766007,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Dividend/DRIP (6/12)",
+    "secondary": "",
+    "value": 3,
+    "growth": 0,
+    "dividend": 6,
+    "buffett": 2,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 207.07149098663547,
+    "pessimistic_value": 161.43110356209561,
+    "optimistic_value": 273.2054189847446,
+    "margin_of_safety_pct": -0.02010465734588479,
+    "current_price": 211.32000732421875
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "valuation sem histórico de ROIC - Charlie Compounder",
+    "P/B negativo e pressões regulatórias no dividendo - Mariana Macro"
+  ],
+  "consensus_points": [
+    "A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando consistência no pagamento de dividendos apesar do P/E elevado.",
+    "Piotroski F-Score de 8/9 sugere saúde financeira sólida."
+  ],
+  "dissent_points": [
+    "High valuation metrics | Negative P/B ratio - Charlie Compounder disse que esses fatores são preocupantes, Mariana Macro argumentou que não refletem a consistência da AbbVie em manter um ROE elevado e crescimento sustentável.",
+    "P/B negativo | Pressões regulatórias no dividendo - Mariana Macro mencionou pressões regulatórias sobre o dividendo, Pedro Alocação ressaltou a importância de considerar essas preocupações."
+  ],
+  "evidence_count": 21,
+  "research_hits_total": 25
+}

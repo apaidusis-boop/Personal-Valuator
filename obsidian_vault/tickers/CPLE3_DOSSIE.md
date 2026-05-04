@@ -68,6 +68,10 @@ CPLE3 negocia a P/E 18.43 e DY 4.97% com ROE moderado de 10.96%; preço subiu +5
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

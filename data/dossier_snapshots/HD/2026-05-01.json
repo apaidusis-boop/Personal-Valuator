@@ -1,0 +1,99 @@
+{
+  "ticker": "HD",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "HD",
+    "period_end": "2026-04-30",
+    "eps": 14.24,
+    "bvps": 12.864,
+    "roe": 1.45541,
+    "pe": 23.089888,
+    "pb": 25.5597,
+    "dy": 0.028071777197910774,
+    "net_debt_ebitda": 2.579664948386075,
+    "dividend_streak_years": 40,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 18.34989204687326,
+    "interest_coverage": 10.420812603648425,
+    "debt_to_assets": 0.6218183548218279,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 20.167004,
+    "ev_ebitda": 15.435,
+    "market_cap": 327493877760.0,
+    "fcf_ttm": 8622749696.0,
+    "shares_outstanding": 996027658.0,
+    "next_ex_date": "2026-03-12",
+    "next_earnings_date": "2026-05-19",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 4,
+      "period_end": "2026-01-31"
+    },
+    "altman": {
+      "z": 5.711518479962093,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2026-01-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.4164420081595566,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2026-01-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Buffett/Quality (4/12)",
+    "secondary": "",
+    "value": 2,
+    "growth": 1,
+    "dividend": 2,
+    "buffett": 4,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 261.0170144970306,
+    "pessimistic_value": 203.48655673445003,
+    "optimistic_value": 344.3799166559867,
+    "margin_of_safety_pct": -0.2061526028359168,
+    "current_price": 328.79998779296875
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "escândalos operacionais afetam a reputação e custos operacionais",
+    "dúvida sobre a sustentabilidade dos múltiplos elevados em um contexto macro de taxas de juros baixas"
+  ],
+  "consensus_points": [
+    "Home Depot tem um ROE elevado e uma história consistente de dividendos; P/E e P/B acima da média do setor indicam sobreavaliação; escândalos operacionais podem afetar a reputação",
+    "Metrics: ROE=145.5%, DivStreak=40y, P/E=23.09x, P/B=25.56x"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que o P/E acima do frame Buffett pode ser justificado por dividendos e buybacks consistentes; Mariana Macro disse que a relação entre P/E e P/B deve ser analisada em contexto macro com taxas de juros baixas",
+    "Pedro Alocação disse que múltiplos elevados podem ser justificados pela posição de liderança no mercado, mas é um risco significativo"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 27
+}

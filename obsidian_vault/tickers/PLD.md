@@ -5,24 +5,24 @@ market: us
 sector: REIT
 is_holding: true
 currency: USD
-price: 142.1
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 39.8039
-pb: 2.4851
-dy_pct: 2.89
+price: 140.02
+price_date: 2026-04-27
+change_1d_pct: -1.46
+pe: 39.2213
+pb: 2.4371
+dy_pct: 2.93
 roe_pct: 6.84
 streak_years: 30
 aristocrat: true
 screen_score: 0.5
 screen_pass: false
-div_safety: 35
-div_safety_verdict: RISK
+div_safety: 85
+div_safety_verdict: SAFE
 position_qty: 2
 entry_price: 109.22
-pnl_pct: 30.1
-market_value: 284.2
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: 28.2
+market_value: 280.04
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, reit]
 ---
 
@@ -32,26 +32,25 @@ tags: [holding, us, reit]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 4.7/10  |  **Confiança**: 50%  |  _2026-04-26 13:59_
+> **Score**: 5.6/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
 
-| Dimensão | Score | Peso | Bar |
-|---|---:|---:|---|
-| Quality    | 3.3/10 | 35% | `███░░░░░░░` |
-| Valuation  | 5.0/10 | 30% | `█████░░░░░` |
-| Momentum   | 7.3/10 | 20% | `███████░░░` |
-| Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
+| Dimensão  |  Score | Peso | Bar          |
+| --------- | -----: | ---: | ------------ |
+| Quality   | 6.7/10 |  35% | `███████░░░` |
+| Valuation | 5.0/10 |  30% | `█████░░░░░` |
+| Momentum  | 6.0/10 |  20% | `██████░░░░` |
+| Narrativa | 4.0/10 |  15% | `████░░░░░░` |
 
 ### Detalhes
 
-- **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 35.0/100
-- **Valuation**: Screen 0.50, DY percentil P63 (fair-cheap)
-- **Momentum**: 1d 0.0%, 30d 10.24%, YTD 10.11%
+- **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 85.0/100
+- **Valuation**: Screen 0.50, DY percentil P65 (fair-cheap)
+- **Momentum**: 1d -1.46%, 30d 8.73%, YTD 8.5%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 4.7 na zona neutra
-- quality frágil
+- total 5.6 na zona neutra
 
 
 ## Links
@@ -63,17 +62,17 @@ tags: [holding, us, reit]
 
 ## Snapshot
 
-- **Preço**: $142.10  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $140.02  (2026-04-27)    _-1.46% 1d_
 - **Screen**: 0.5  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
-- **Div Safety**: 35.0/100 (RISK)
-- **Posição**: 2.0 sh @ $109.22  →  P&L 30.1%
+- **Div Safety**: 85.0/100 (SAFE)
+- **Posição**: 2.0 sh @ $109.22  →  P&L 28.2%
 
 ## Fundamentals
 
-- P/E: 39.803925 | P/B: 2.4851348 | DY: 2.89%
-- ROE: 6.84% | EPS: 3.57 | BVPS: 57.18
+- P/E: 39.22129 | P/B: 2.4371226 | DY: 2.93%
+- ROE: 6.84% | EPS: 3.57 | BVPS: 57.453
 - Streak div: 30y | Aristocrat: True
 
 ## Dividendos recentes
@@ -86,22 +85,22 @@ tags: [holding, us, reit]
 
 ## Eventos (SEC/CVM)
 
+- **2026-04-27** `8-K` — 8-K | 2.03,8.01,9.01
 - **2026-04-23** `8-K` — 8-K | 2.03,8.01,9.01
 - **2026-04-16** `8-K` — 8-K | 2.02,7.01,9.01
 - **2026-03-31** `8-K` — 8-K | 1.01,2.03,9.01
 - **2026-03-19** `proxy` — DEF 14A
-- **2026-02-13** `10-K` — 10-K
 
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -2.07%
-- **Drawdown 5y**: -17.87%
-- **YTD**: +10.11%
-- **YoY (1y)**: +38.99%
-- **CAGR 3y**: +5.16%  |  **5y**: +4.35%  |  **10y**: +12.03%
-- **Vol annual**: +26.33%
-- **Sharpe 3y** (rf=4%): +0.04
+- **Drawdown 52w**: -3.50%
+- **Drawdown 5y**: -19.07%
+- **YTD**: +8.50%
+- **YoY (1y)**: +36.95%
+- **CAGR 3y**: +3.79%  |  **5y**: +4.00%  |  **10y**: +11.92%
+- **Vol annual**: +26.36%
+- **Sharpe 3y** (rf=4%): -0.01
 
 ### Dividendos
 - **DY 5y avg**: +2.74%
@@ -144,10 +143,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [39.154495, 40.189606, 40.047886, 40.87324, 40.600002, 39.977467, 39.915733, 39.803925]
+    data: [39.154495, 40.189606, 40.047886, 40.87324, 40.600002, 39.977467, 39.915733, 39.803925, 39.803925, 39.22129]
 width: 80%
 beginAtZero: false
 fill: false
@@ -157,12 +156,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [6.13, 6.13, 6.84, 6.84, 6.84, 6.84, 6.84, 6.84]
+    data: [6.13, 6.13, 6.84, 6.84, 6.84, 6.84, 6.84, 6.84, 6.84, 6.84]
   - title: DY %
-    data: [3.09, 3.06, 3.01, 2.95, 2.95, 2.89, 2.89, 2.89]
+    data: [3.09, 3.06, 3.01, 2.95, 2.95, 2.89, 2.89, 2.89, 2.89, 2.93]
 width: 80%
 beginAtZero: false
 fill: false
@@ -171,4 +170,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

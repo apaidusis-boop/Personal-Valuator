@@ -5,12 +5,12 @@ market: us
 sector: Financials
 is_holding: false
 currency: USD
-price: 50.56
-price_date: 2026-04-24
-change_1d_pct: -1.96
-pe: 12.4226
-pb: 1.7339
-dy_pct: 2.1
+price: 51.02
+price_date: 2026-04-27
+change_1d_pct: 0.91
+pe: 12.5356
+pb: 1.7314
+dy_pct: 2.08
 roe_pct: 14.94
 streak_years: 39
 aristocrat: true
@@ -18,7 +18,7 @@ screen_score: 0.6
 screen_pass: false
 div_safety: 93.8
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:45Z"
+updated: "2026-04-28T18:40:42Z"
 tags: [watchlist, us, financials]
 ---
 
@@ -34,7 +34,7 @@ tags: [watchlist, us, financials]
 
 ## Snapshot
 
-- **Preço**: $50.56  (2026-04-24)    _-1.96% 1d_
+- **Preço**: $51.02  (2026-04-27)    _+0.91% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,8 +42,8 @@ tags: [watchlist, us, financials]
 
 ## Fundamentals
 
-- P/E: 12.422605 | P/B: 1.7338821 | DY: 2.1%
-- ROE: 14.94% | EPS: 4.07 | BVPS: 29.16
+- P/E: 12.535626 | P/B: 1.7313696 | DY: 2.08%
+- ROE: 14.94% | EPS: 4.07 | BVPS: 29.468
 - Streak div: 39y | Aristocrat: True
 
 ## Dividendos recentes
@@ -57,13 +57,13 @@ tags: [watchlist, us, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -19.70%
-- **Drawdown 5y**: -25.04%
-- **YTD**: -3.22%
-- **YoY (1y)**: -13.50%
-- **CAGR 3y**: +3.76%  |  **5y**: -4.47%  |  **10y**: +3.61%
-- **Vol annual**: +23.89%
-- **Sharpe 3y** (rf=4%): -0.01
+- **Drawdown 52w**: -18.97%
+- **Drawdown 5y**: -24.36%
+- **YTD**: -2.34%
+- **YoY (1y)**: -11.54%
+- **CAGR 3y**: +1.88%  |  **5y**: -4.39%  |  **10y**: +3.86%
+- **Vol annual**: +23.94%
+- **Sharpe 3y** (rf=4%): -0.08
 
 ### Dividendos
 - **DY 5y avg**: +1.72%
@@ -96,10 +96,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [12.522278, 12.453202, 12.422605]
+    data: [12.522278, 12.453202, 12.422605, 12.422605, 12.535626]
 width: 80%
 beginAtZero: false
 fill: false
@@ -109,12 +109,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [15.97, 14.94, 14.94]
+    data: [15.97, 14.94, 14.94, 14.94, 14.94]
   - title: DY %
-    data: [2.1, 2.1, 2.1]
+    data: [2.1, 2.1, 2.1, 2.1, 2.08]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,4 +123,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

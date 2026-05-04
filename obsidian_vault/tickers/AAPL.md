@@ -5,12 +5,12 @@ market: us
 sector: Technology
 is_holding: true
 currency: USD
-price: 271.06
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 34.3549
-pb: 45.1917
-dy_pct: 0.38
+price: 267.61
+price_date: 2026-04-27
+change_1d_pct: -1.27
+pe: 33.9176
+pb: 44.6165
+dy_pct: 0.39
 roe_pct: 152.02
 streak_years: 15
 aristocrat: false
@@ -22,9 +22,9 @@ div_safety: 75
 div_safety_verdict: WATCH
 position_qty: 5
 entry_price: 121.89
-pnl_pct: 122.38
-market_value: 1355.3
-updated: "2026-04-26T10:59:44Z"
+pnl_pct: 119.55
+market_value: 1338.05
+updated: "2026-04-28T18:40:41Z"
 tags: [holding, us, technology]
 ---
 
@@ -34,25 +34,25 @@ tags: [holding, us, technology]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 5.6/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 5.3/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 8.7/10 | 35% | `█████████░` |
 | Valuation  | 2.0/10 | 30% | `██░░░░░░░░` |
-| Momentum   | 6.7/10 | 20% | `███████░░░` |
+| Momentum   | 5.3/10 | 20% | `█████░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 10.702066138022928 (SAFE), Piotroski 8/9 (STRONG), DivSafety 75.0/100
 - **Valuation**: Screen 0.40, DY percentil P2 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d 8.95%, YTD 0.02%
+- **Momentum**: 1d -1.27%, 30d 8.51%, YTD -1.25%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 5.6 na zona neutra
+- total 5.3 na zona neutra
 - quality forte
 - valuation caro
 
@@ -66,16 +66,16 @@ tags: [holding, us, technology]
 
 ## Snapshot
 
-- **Preço**: $271.06  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $267.61  (2026-04-27)    _-1.27% 1d_
 - **Screen**: 0.4  ✗ fail
 - **Altman Z**: 10.702 (safe)
 - **Piotroski**: 8/9
 - **Div Safety**: 75.0/100 (WATCH)
-- **Posição**: 5.0 sh @ $121.89000000000001  →  P&L 122.38%
+- **Posição**: 5.0 sh @ $121.89000000000001  →  P&L 119.55%
 
 ## Fundamentals
 
-- P/E: 34.35488 | P/B: 45.19173 | DY: 0.38%
+- P/E: 33.917618 | P/B: 44.616535 | DY: 0.39%
 - ROE: 152.02% | EPS: 7.89 | BVPS: 5.998
 - Streak div: 15y | Aristocrat: False
 
@@ -98,13 +98,13 @@ tags: [holding, us, technology]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -5.29%
-- **Drawdown 5y**: -5.29%
-- **YTD**: +0.02%
-- **YoY (1y)**: +29.52%
-- **CAGR 3y**: +17.19%  |  **5y**: +15.06%  |  **10y**: +27.59%
-- **Vol annual**: +30.73%
-- **Sharpe 3y** (rf=4%): +0.52
+- **Drawdown 52w**: -6.49%
+- **Drawdown 5y**: -6.49%
+- **YTD**: -1.25%
+- **YoY (1y)**: +27.87%
+- **CAGR 3y**: +16.40%  |  **5y**: +14.91%  |  **10y**: +27.57%
+- **Vol annual**: +30.76%
+- **Sharpe 3y** (rf=4%): +0.49
 
 ### Dividendos
 - **DY 5y avg**: +0.49%
@@ -147,10 +147,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [33.642586, 33.34071, 33.34177, 34.249683, 34.543724, 33.73511, 34.31139, 34.35488]
+    data: [33.642586, 33.34071, 33.34177, 34.249683, 34.543724, 33.73511, 34.31139, 34.35488, 34.35488, 33.917618]
 width: 80%
 beginAtZero: false
 fill: false
@@ -160,12 +160,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02]
+    data: [152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02, 152.02]
   - title: DY %
-    data: [40.0, 39.0, 39.0, 38.0, 38.0, 0.39, 0.38, 0.38]
+    data: [40.0, 39.0, 39.0, 38.0, 38.0, 0.39, 0.38, 0.38, 0.38, 0.39]
 width: 80%
 beginAtZero: false
 fill: false
@@ -174,4 +174,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

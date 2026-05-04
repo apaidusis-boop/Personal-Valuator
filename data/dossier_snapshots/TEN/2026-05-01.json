@@ -1,0 +1,98 @@
+{
+  "ticker": "TEN",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "TEN",
+    "period_end": "2026-04-30",
+    "eps": 4.45,
+    "bvps": 62.482,
+    "roe": 0.09087,
+    "pe": 9.141574,
+    "pb": 0.65106755,
+    "dy": 0.014749262426226211,
+    "net_debt_ebitda": 4.20440617464603,
+    "dividend_streak_years": 24,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 10.263378736104562,
+    "interest_coverage": 4.331819438830862,
+    "debt_to_assets": 0.4523244021561916,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 13.860307,
+    "ev_ebitda": 7.459,
+    "market_cap": 1225590912.0,
+    "fcf_ttm": -276495008.0,
+    "shares_outstanding": 30127603.0,
+    "next_ex_date": "2026-02-11",
+    "next_earnings_date": "2026-03-06",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 3,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 1.0060151318410075,
+      "zone": "distress",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.2438987273947903,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Value (4/12)",
+    "secondary": "",
+    "value": 4,
+    "growth": 0,
+    "dividend": 2,
+    "buffett": 2,
+    "macro_exposure": 1,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 40.68000030517578
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "low",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Fragilidade financeira indicada por métricas de qualidade - Mariana Macro",
+    "Baixo Piotroski F-Score pode ser temporário e não reflete necessariamente a saúde operacional da empresa, especialmente em setores voláteis como o petróleo e gás - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; histórico de dividendos consistente - Charlie Compounder, Pedro Alocação",
+    "Fragilidade financeira indicada por métricas de qualidade (Altman Z-Score em zona de estresse e Piotroski F-Score fraco) - Mariana Macro, Valentina Prudente"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que o baixo P/E e histórico consistente de dividendos sugerem subavaliação apesar do F-Score fraco; Mariana Macro disse que a fragilidade financeira indicada pelo Altman Z-Score e Piotroski F-Score não pode ser ignorada, pois sugere risco significativo de insolvência"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 20
+}

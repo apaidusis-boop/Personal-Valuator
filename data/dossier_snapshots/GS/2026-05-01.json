@@ -1,0 +1,81 @@
+{
+  "ticker": "GS",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "GS",
+    "period_end": "2026-04-30",
+    "eps": 54.79,
+    "bvps": 359.766,
+    "roe": 0.14591,
+    "pe": 16.860193,
+    "pb": 2.5676968,
+    "dy": 0.016779068028063077,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 28,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 65.62168656331255,
+    "interest_coverage": null,
+    "debt_to_assets": 0.2134227223487277,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 14.13455,
+    "ev_ebitda": null,
+    "market_cap": 274131451904.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 294993942.0,
+    "next_ex_date": "2026-06-01",
+    "next_earnings_date": "2026-07-14",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "",
+    "secondary": "",
+    "value": 2,
+    "growth": 3,
+    "dividend": 2,
+    "buffett": 1,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 923.77001953125
+  },
+  "council_stance": "AVOID",
+  "council_confidence": "low",
+  "council_seats": [
+    "Hank Tier-One",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "P/B simples sobrestima o valor real - Hank Tier-One",
+    "Limites de P/E e P/B são rígidos demais para uma instituição financeira líder como GS - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "ROE de 14,6% está abaixo da mediana do setor (16,5%) - Mariana Macro, Valentina Prudente",
+    "P/E de 16,86 é ligeiramente acima da média - Mariana Macro, Pedro Alocação"
+  ],
+  "dissent_points": [
+    "Hank Tier-One disse que P/B simples sobrestima o valor real, enquanto Mariana Macro concorda com a avaliação de risco geopolítico",
+    "Pedro Alocação disse que os limites são rígidos demais para uma instituição financeira líder como GS, enquanto Hank Tier-One discorda"
+  ],
+  "evidence_count": 25,
+  "research_hits_total": 38
+}

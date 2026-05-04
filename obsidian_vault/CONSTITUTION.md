@@ -3,7 +3,7 @@ type: constitution
 tags: [constitution, master, history, governance]
 created: 2026-04-25
 last_updated: 2026-04-25
-phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised)]
+phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised), W.6.1 (Pydantic structured outputs + typed Ollama wrapper)]
 current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, React desktop deprecated, layer markers no vault, helena.css snippet, vault auto-commit script. Próximo: U.1 Home minimalista.
 ---
 
@@ -15,7 +15,32 @@ current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, R
 
 > **Quando o user diz "Voltamos" numa nova conversa**: lê esta secção primeiro. Tem tudo que precisas para continuar do ponto certo sem queimar tokens em re-audits.
 
-**Última sessão**: 2026-04-27 manhã (~2h workday autónomo). 5 commits incrementais: REIT-aware dividend safety, canonical Ollama wrapper, library dedup, IC majority-vote, fetcher guards, bibliotheca cleanup → 0 alerts.
+**Última sessão**: 2026-04-28 noite. Phase **W.6.1 shipped** — Pydantic-typed LLM outputs nos 3 agents que faziam `json.loads` à mão (synthetic_ic, thesis_synthesizer, holding_wiki_synthesizer). Novo helper `agents/_llm.py::ollama_call_typed[T]` + schemas em `agents/_schemas.py` (PersonaVerdict / ThesisDraft / HoldingWikiStub). Validação ao nível de Literal type — verdicts fora de `{BUY,HOLD,AVOID}` ou conviction fora de 1-10 já não passam silenciosamente. Live tests OK (KO Buffett: BUY 9 large; KO majority 3/3 BUY; KO thesis 4 assumptions + 4 triggers). Code_health: 100/100 nos 3 ficheiros (holding_wiki removeu CH001 violation). Phase Z YouTube digest aside: SKL_google_stitch.md avaliado Tier B observe-only (Helena Linha já cobre o terreno).
+
+### ✅ Sessão 2026-04-28 noite — Phase W.6.1 (structured outputs)
+
+Continuação do Roadmap após o detour Stitch. Sprint W.6 dividido em sub-sprints; **W.6.1 = Instructor/Pydantic schemas** (1º entregável dos 5 do W.6 original).
+
+**Ficheiros novos**:
+- `agents/_schemas.py` — PersonaVerdict, ThesisDraft, HoldingWikiStub. Literal types nos enum fields, conint(1,10) na conviction, validators que toleram input messy (single string → list, casing tolerance).
+- `agents/_llm.py::ollama_call_typed[T]` — pipeline ollama_call_json → schema.model_validate → instance | None. Caller decide retry.
+
+**3 refactors**:
+- `agents/synthetic_ic.py::ask_persona` — substituiu regex `{.*}` + sub trailing-comma + json.loads + dict["persona"]= chain por 4 linhas com `ollama_call_typed`. ~15 LoC removidas.
+- `agents/thesis_synthesizer.py::synthesize` — substituiu json.loads + parsed.get(field, default) chain. Schema garante list shape para assumptions/triggers.
+- `agents/holding_wiki_synthesizer.py::synthesize_wiki` — substituiu `requests.post(OLLAMA, ...)` direto (CH001 violation pré-existente) + json.loads. Eliminadas imports `requests` + `json`.
+
+**Validação live (zero token Claude, qwen2.5:14b)**:
+- KO Buffett (seed=42): BUY conviction 9 sizing large
+- KO majority (n=3, seeds 42/137/314): 3/3 BUY conviction 9
+- KO synthesize: 4 key_assumptions + 4 disconfirmation_triggers + intent populado
+
+**Não fizemos** (deferred para W.6.2+): Instructor SDK no hot path (overhead OpenAI client > ganho — Ollama format=json + Pydantic já é 90% do valor); LangFuse self-host; promptfoo test suite; DSPy.
+
+**Próximos sub-sprints W.6**:
+- W.6.2 — promptfoo test suite (3 agents acima primeiro; 100% offline porque Ollama)
+- W.6.3 — LangFuse self-host Docker (observability de prompts em prod)
+- W.6.4 — DSPy piloto em risk_auditor (agent mais crítico; benchmark quality pre/pos)
 
 ### ✅ Sessão 2026-04-27 manhã — Workday Work (workday autónomo)
 

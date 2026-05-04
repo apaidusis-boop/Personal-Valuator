@@ -1,27 +1,27 @@
 ---
 ticker: VAMO3
-name: Vamos
+name: VAMO3
 market: br
 sector: Industrials
 is_holding: false
 currency: BRL
-price: 4.18
-price_date: 2026-04-24
-change_1d_pct: -3.24
-pe: 13.4839
-pb: 1.7395
-dy_pct: 3.35
+price: 4.08
+price_date: 2026-04-27
+change_1d_pct: -2.39
+pe: 13.1613
+pb: 1.6979
+dy_pct: 3.43
 roe_pct: 13.14
 streak_years: 5
-screen_score: 0.2
+screen_score: 0.4
 screen_pass: false
 div_safety: 63
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, industrials]
 ---
 
-# VAMO3 — Vamos
+# VAMO3 — VAMO3
 
 #watchlist #br #industrials
 
@@ -33,15 +33,15 @@ tags: [watchlist, br, industrials]
 
 ## Snapshot
 
-- **Preço**: R$4.18  (2026-04-24)    _-3.24% 1d_
-- **Screen**: 0.2  ✗ fail
+- **Preço**: R$4.08  (2026-04-27)    _-2.39% 1d_
+- **Screen**: 0.4  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 63.0/100 (WATCH)
 
 ## Fundamentals
 
-- P/E: 13.4838705 | P/B: 1.7394922 | DY: 3.35%
+- P/E: 13.16129 | P/B: 1.6978775 | DY: 3.43%
 - ROE: 13.14% | EPS: 0.31 | BVPS: 2.403
 - Streak div: 5y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, industrials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -23.02%
-- **Drawdown 5y**: -76.98%
-- **YTD**: +28.62%
-- **YoY (1y)**: -23.02%
-- **CAGR 3y**: -31.10%  |  **5y**: -15.35%  |  **10y**: n/a
-- **Vol annual**: +59.59%
-- **Sharpe 3y** (rf=4%): -0.65
+- **Drawdown 52w**: -21.39%
+- **Drawdown 5y**: -77.53%
+- **YTD**: +25.54%
+- **YoY (1y)**: -23.88%
+- **CAGR 3y**: -30.41%  |  **5y**: -16.19%  |  **10y**: n/a
+- **Vol annual**: +59.57%
+- **Sharpe 3y** (rf=4%): -0.63
 
 ### Dividendos
 - **DY 5y avg**: +3.40%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [14.741936, 13.935484, 13.4838705, 13.4838705]
+    data: [14.741936, 13.935484, 13.4838705, 13.4838705, 13.4838705, 13.16129]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [13.14, 13.14, 13.14, 13.14]
+    data: [13.14, 13.14, 13.14, 13.14, 13.14, 13.14]
   - title: DY %
-    data: [3.07, 3.24, 3.35, 3.35]
+    data: [3.07, 3.24, 3.35, 3.35, 3.35, 3.43]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

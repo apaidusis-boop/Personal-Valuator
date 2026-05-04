@@ -1,0 +1,21 @@
+ideramos crescimento de 0,5% a.a. até 2028, refletindo o Capex de expansão mais robusto até 2029 e estabilidade posterior. Nas receitas de energia eólica e demais produtos, assumimos crescimento zero.
+
+Fonte dos dados históricos: Ferbasa. Cálculos, elaboração e projeções: Finclass.
+
+As despesas operacionais foram projetadas com crescimento de 0,5% a.a. acima da inflação até 2029 e estabilidade posterior, resultando em margens operacionais inferiores ao histórico.
+
+Cálculos, elaboração e projeções: Finclass.
+
+O **Capex** foi projetado em cerca de R$ 400 milhões/ano até 2029, refletindo as projeções da gestão, e R$ 300 milhões/ano posteriormente, entrando em um patamar de manutenção. O **capital de giro** foi estimado com base nos prazos médios de estocagem e recebimento.
+
+Na alíquota de impostos, partimos de 12% até 2034, refletindo o benefício da **SUDENE** que reduz o Imposto de Renda em 75%. Historicamente, a empresa pagou consideravelmente menos que isso. No ano final do modelo, elevamos a alíquota para **34%**, contemplando a possibilidade de perda dos incentivos e adicionando mais uma camada de margem de segurança.
+
+Com isso, temos os seguintes **fluxos de caixa ao acionista** (**FCFE**):
+
+Como as ações **FESA4** recebem dividendos 10% superiores às **FESA3**, incorporamos essa diferença na precificação. Afinal, para o acionista minoritário o que importa é o valor econômico dos proventos, não o direito a voto. Com isso, concluímos que a **Ferbasa** como um todo negocia próxima à nossa estimativa de valor justo, porém **FESA4** negocia com desconto expressivo frente ao seu **valor intrínseco** e **FESA3**, com ágio relevante.
+
+## Conclusão e recomendação
+
+Nosso valor justo por ação **FESA4** é de R$ **10,62**. Aplicando uma margem de segurança, estabelecemos o **preço máximo de compra** em **R$ 9,50**. Com isso, incluímos na carteira **FESA4**, substituindo **BMGB4**, que já cumpriu seu papel no portfólio.
+
+**Arca Renda**

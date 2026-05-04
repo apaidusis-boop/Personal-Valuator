@@ -1,0 +1,97 @@
+{
+  "ticker": "PRIO3",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "PRIO3",
+    "period_end": "2026-04-30",
+    "eps": 2.77,
+    "bvps": 31.83,
+    "roe": 0.08708999,
+    "pe": 23.974731,
+    "pb": 2.0863967,
+    "dy": null,
+    "net_debt_ebitda": 3.117970344299219,
+    "dividend_streak_years": 1,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": 6.4888754,
+    "ev_ebitda": 9.812,
+    "market_cap": 53779718144.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 2,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 1.7391617437135007,
+      "zone": "distress",
+      "confidence": "medium",
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) — conservative proxy"
+      ]
+    },
+    "beneish": {
+      "m": -1.991748032687662,
+      "zone": "grey",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "",
+    "secondary": "",
+    "value": 0,
+    "growth": 1,
+    "dividend": 0,
+    "buffett": 0,
+    "macro_exposure": 3,
+    "macro_dependency": 2
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 66.41000366210938
+  },
+  "council_stance": "NEEDS_DATA",
+  "council_confidence": "low",
+  "council_seats": [
+    "Aderbaldo Cíclico",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Aderbaldo Cíclico (Commodities BR Specialist)",
+    "Mariana Macro (Chief Macro Strategist)",
+    "Valentina Prudente (Chief Risk Officer)",
+    "Pedro Alocação (Capital Allocator)"
+  ],
+  "consensus_points": [
+    "P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation.",
+    "ROE at 8.7% is below peer median of 18%",
+    "High ND/EBITDA suggests high leverage"
+  ],
+  "dissent_points": [
+    "Valentina Prudente challenged that low ROE and high ND/EBITDA may not fully reflect long-term potential due to variability in operational performance",
+    "Pedro Alocação challenged the analysis for not considering variable operational context in the oil sector"
+  ],
+  "evidence_count": 30,
+  "research_hits_total": 44
+}

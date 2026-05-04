@@ -39,6 +39,10 @@ _(IC ainda não gerado para TTD. Execute `python -m agents.synthetic_ic TTD` par
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

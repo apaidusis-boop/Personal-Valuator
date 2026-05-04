@@ -1,16 +1,16 @@
 ---
 ticker: KLBN4
-name: Klabin
+name: KLBN4
 market: br
 sector: Materials
 is_holding: false
 currency: BRL
-price: 3.58
-price_date: 2026-04-24
-change_1d_pct: -1.38
-pe: 15.5652
-pb: 0.557
-dy_pct: 9.14
+price: 3.59
+price_date: 2026-04-27
+change_1d_pct: 0.28
+pe: 15.6087
+pb: 0.5586
+dy_pct: 9.11
 roe_pct: 14.57
 streak_years: 16
 screen_score: 0.6
@@ -19,11 +19,11 @@ altman_z: 1.066
 piotroski: 5
 div_safety: 40
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:40Z"
+updated: "2026-04-28T18:40:37Z"
 tags: [watchlist, br, materials]
 ---
 
-# KLBN4 — Klabin
+# KLBN4 — KLBN4
 
 #watchlist #br #materials
 
@@ -36,7 +36,7 @@ tags: [watchlist, br, materials]
 
 ## Snapshot
 
-- **Preço**: R$3.58  (2026-04-24)    _-1.38% 1d_
+- **Preço**: R$3.59  (2026-04-27)    _+0.28% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: 1.066 (distress)
 - **Piotroski**: 5/9
@@ -44,7 +44,7 @@ tags: [watchlist, br, materials]
 
 ## Fundamentals
 
-- P/E: 15.565217 | P/B: 0.557025 | DY: 9.14%
+- P/E: 15.608695 | P/B: 0.558581 | DY: 9.11%
 - ROE: 14.57% | EPS: 0.23 | BVPS: 6.427
 - Streak div: 16y | Aristocrat: None
 
@@ -67,13 +67,13 @@ tags: [watchlist, br, materials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -14.35%
-- **Drawdown 5y**: -31.31%
-- **YTD**: -6.04%
-- **YoY (1y)**: -2.28%
-- **CAGR 3y**: +2.72%  |  **5y**: -7.17%  |  **10y**: +2.83%
-- **Vol annual**: +22.22%
-- **Sharpe 3y** (rf=4%): -0.06
+- **Drawdown 52w**: -14.11%
+- **Drawdown 5y**: -28.52%
+- **YTD**: -5.77%
+- **YoY (1y)**: -2.27%
+- **CAGR 3y**: +1.54%  |  **5y**: -6.49%  |  **10y**: +3.60%
+- **Vol annual**: +22.29%
+- **Sharpe 3y** (rf=4%): -0.11
 
 ### Dividendos
 - **DY 5y avg**: +5.97%
@@ -131,10 +131,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [16.347826, 15.782609, 15.565217, 15.565217]
+    data: [16.347826, 15.782609, 15.565217, 15.565217, 15.565217, 15.608695]
 width: 80%
 beginAtZero: false
 fill: false
@@ -144,12 +144,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [14.57, 14.57, 14.57, 14.57]
+    data: [14.57, 14.57, 14.57, 14.57, 14.57, 14.57]
   - title: DY %
-    data: [8.7, 9.01, 9.14, 9.14]
+    data: [8.7, 9.01, 9.14, 9.14, 9.14, 9.11]
 width: 80%
 beginAtZero: false
 fill: false
@@ -158,4 +158,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

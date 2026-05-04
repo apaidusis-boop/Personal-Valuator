@@ -1,27 +1,27 @@
 ---
 ticker: SLCE3
-name: SLC Agrícola
+name: SLCE3
 market: br
 sector: Consumer Staples
 is_holding: false
 currency: BRL
-price: 17.37
-price_date: 2026-04-24
-change_1d_pct: -0.91
-pe: 15.5089
-pb: 1.7152
-dy_pct: 7.43
+price: 17.24
+price_date: 2026-04-27
+change_1d_pct: -0.75
+pe: 15.3929
+pb: 1.7024
+dy_pct: 7.49
 roe_pct: 11.58
 streak_years: 16
 screen_score: 0.4
 screen_pass: false
 div_safety: 40
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, consumer_staples]
 ---
 
-# SLCE3 — SLC Agrícola
+# SLCE3 — SLCE3
 
 #watchlist #br #consumer_staples
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: R$17.37  (2026-04-24)    _-0.91% 1d_
+- **Preço**: R$17.24  (2026-04-27)    _-0.75% 1d_
 - **Screen**: 0.4  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_staples]
 
 ## Fundamentals
 
-- P/E: 15.508929 | P/B: 1.7152169 | DY: 7.43%
+- P/E: 15.392857 | P/B: 1.7023798 | DY: 7.49%
 - ROE: 11.58% | EPS: 1.12 | BVPS: 10.127
 - Streak div: 16y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -10.09%
-- **Drawdown 5y**: -25.43%
-- **YTD**: +17.44%
-- **YoY (1y)**: -2.88%
-- **CAGR 3y**: +0.05%  |  **5y**: -1.29%  |  **10y**: +19.66%
-- **Vol annual**: +23.72%
-- **Sharpe 3y** (rf=4%): -0.17
+- **Drawdown 52w**: -10.77%
+- **Drawdown 5y**: -25.99%
+- **YTD**: +16.57%
+- **YoY (1y)**: -3.07%
+- **CAGR 3y**: -0.64%  |  **5y**: -1.37%  |  **10y**: +19.72%
+- **Vol annual**: +22.34%
+- **Sharpe 3y** (rf=4%): -0.20
 
 ### Dividendos
 - **DY 5y avg**: +5.72%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [15.9375, 15.651786, 15.508929, 15.508929]
+    data: [15.9375, 15.651786, 15.508929, 15.508929, 15.508929, 15.392857]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [11.58, 11.58, 11.58, 11.58]
+    data: [11.58, 11.58, 11.58, 11.58, 11.58, 11.58]
   - title: DY %
-    data: [7.23, 7.36, 7.43, 7.43]
+    data: [7.23, 7.36, 7.43, 7.43, 7.43, 7.49]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

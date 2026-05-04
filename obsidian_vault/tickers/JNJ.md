@@ -5,12 +5,12 @@ market: us
 sector: Healthcare
 is_holding: true
 currency: USD
-price: 227.5
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 26.3921
-pb: 6.7178
-dy_pct: 2.29
+price: 225.34
+price_date: 2026-04-27
+change_1d_pct: -0.95
+pe: 26.1415
+pb: 6.6541
+dy_pct: 2.31
 roe_pct: 26.42
 streak_years: 65
 aristocrat: true
@@ -22,9 +22,9 @@ div_safety: 90
 div_safety_verdict: SAFE
 position_qty: 10
 entry_price: 238.28
-pnl_pct: -4.52
-market_value: 2275
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: -5.43
+market_value: 2253.4
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, healthcare]
 ---
 
@@ -34,25 +34,25 @@ tags: [holding, us, healthcare]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 4.8/10  |  **Confiança**: 70%  |  _2026-04-26 13:59_
+> **Score**: 4.7/10  |  **Confiança**: 70%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
 | Quality    | 7.7/10 | 35% | `████████░░` |
 | Valuation  | 2.0/10 | 30% | `██░░░░░░░░` |
-| Momentum   | 4.7/10 | 20% | `█████░░░░░` |
+| Momentum   | 4.0/10 | 20% | `████░░░░░░` |
 | Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
 ### Detalhes
 
 - **Quality**: Altman Z 4.441920675325796 (SAFE), Piotroski 4/9 (NEUTRAL), DivSafety 90.0/100
 - **Valuation**: Screen 0.40, DY percentil P2 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d -5.39%, YTD 9.72%
+- **Momentum**: 1d -0.95%, 30d -7.07%, YTD 8.68%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
 
-- total 4.8 na zona neutra
+- total 4.7 na zona neutra
 - valuation caro
 
 
@@ -65,16 +65,16 @@ tags: [holding, us, healthcare]
 
 ## Snapshot
 
-- **Preço**: $227.50  (2026-04-26)    _+0.00% 1d_
+- **Preço**: $225.34  (2026-04-27)    _-0.95% 1d_
 - **Screen**: 0.4  ✗ fail
 - **Altman Z**: 4.442 (safe)
 - **Piotroski**: 4/9
 - **Div Safety**: 90.0/100 (SAFE)
-- **Posição**: 10.0 sh @ $238.28000000000003  →  P&L -4.52%
+- **Posição**: 10.0 sh @ $238.28000000000003  →  P&L -5.43%
 
 ## Fundamentals
 
-- P/E: 26.39211 | P/B: 6.7178497 | DY: 2.29%
+- P/E: 26.141531 | P/B: 6.654067 | DY: 2.31%
 - ROE: 26.42% | EPS: 8.62 | BVPS: 33.865
 - Streak div: 65y | Aristocrat: True
 
@@ -97,13 +97,13 @@ tags: [holding, us, healthcare]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -8.47%
-- **Drawdown 5y**: -8.47%
-- **YTD**: +9.72%
-- **YoY (1y)**: +47.17%
-- **CAGR 3y**: +11.75%  |  **5y**: +6.87%  |  **10y**: +7.30%
-- **Vol annual**: +18.96%
-- **Sharpe 3y** (rf=4%): +0.45
+- **Drawdown 52w**: -9.34%
+- **Drawdown 5y**: -9.34%
+- **YTD**: +8.68%
+- **YoY (1y)**: +45.78%
+- **CAGR 3y**: +11.24%  |  **5y**: +6.83%  |  **10y**: +7.23%
+- **Vol annual**: +18.99%
+- **Sharpe 3y** (rf=4%): +0.42
 
 ### Dividendos
 - **DY 5y avg**: +2.77%
@@ -146,10 +146,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [21.638838, 21.226656, 21.28312, 21.231188, 21.101995, 20.50408, 26.361528, 26.39211]
+    data: [21.638838, 21.226656, 21.28312, 21.231188, 21.101995, 20.50408, 26.361528, 26.39211, 26.39211, 26.141531]
 width: 80%
 beginAtZero: false
 fill: false
@@ -159,12 +159,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [0, 0, 0, 0, 0, 0, 0, 26.42]
+    data: [0, 0, 0, 0, 0, 0, 0, 26.42, 26.42, 26.42]
   - title: DY %
-    data: [2.23, 2.25, 2.29, 2.29, 2.29, 2.3, 2.29, 2.29]
+    data: [2.23, 2.25, 2.29, 2.29, 2.29, 2.3, 2.29, 2.29, 2.29, 2.31]
 width: 80%
 beginAtZero: false
 fill: false
@@ -173,4 +173,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

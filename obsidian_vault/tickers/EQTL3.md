@@ -1,27 +1,27 @@
 ---
 ticker: EQTL3
-name: Equatorial
+name: EQTL3
 market: br
 sector: Utilities
 is_holding: false
 currency: BRL
-price: 44.11
-price_date: 2026-04-24
-change_1d_pct: 0.43
-pe: 45.9479
-pb: 2.1551
-dy_pct: 5.18
+price: 43.39
+price_date: 2026-04-27
+change_1d_pct: -1.63
+pe: 45.1979
+pb: 2.1199
+dy_pct: 5.26
 roe_pct: 6.98
 streak_years: 18
 screen_score: 0.2
 screen_pass: false
 div_safety: 35
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:39Z"
+updated: "2026-04-28T18:40:35Z"
 tags: [watchlist, br, utilities]
 ---
 
-# EQTL3 — Equatorial
+# EQTL3 — EQTL3
 
 #watchlist #br #utilities
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, utilities]
 
 ## Snapshot
 
-- **Preço**: R$44.11  (2026-04-24)    _+0.43% 1d_
+- **Preço**: R$43.39  (2026-04-27)    _-1.63% 1d_
 - **Screen**: 0.2  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, utilities]
 
 ## Fundamentals
 
-- P/E: 45.947918 | P/B: 2.1550713 | DY: 5.18%
+- P/E: 45.197918 | P/B: 2.1198945 | DY: 5.26%
 - ROE: 6.98% | EPS: 0.96 | BVPS: 20.468
 - Streak div: 18y | Aristocrat: None
 
@@ -64,13 +64,13 @@ tags: [watchlist, br, utilities]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -2.73%
-- **Drawdown 5y**: -2.73%
-- **YTD**: +15.17%
-- **YoY (1y)**: +24.43%
-- **CAGR 3y**: +16.95%  |  **5y**: +11.80%  |  **10y**: +18.19%
-- **Vol annual**: +23.70%
-- **Sharpe 3y** (rf=4%): +0.52
+- **Drawdown 52w**: -4.32%
+- **Drawdown 5y**: -4.32%
+- **YTD**: +13.29%
+- **YoY (1y)**: +20.70%
+- **CAGR 3y**: +16.69%  |  **5y**: +11.28%  |  **10y**: +17.71%
+- **Vol annual**: +23.75%
+- **Sharpe 3y** (rf=4%): +0.51
 
 ### Dividendos
 - **DY 5y avg**: +2.86%
@@ -128,10 +128,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [33.79, 46.937504, 45.75, 45.947918, 45.947918]
+    data: [33.79, 46.937504, 45.75, 45.947918, 45.947918, 45.947918, 45.197918]
 width: 80%
 beginAtZero: false
 fill: false
@@ -141,12 +141,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [5.92, 6.98, 6.98, 6.98, 6.98]
+    data: [5.92, 6.98, 6.98, 6.98, 6.98, 6.98, 6.98]
   - title: DY %
-    data: [5.07, 5.07, 5.2, 5.18, 5.18]
+    data: [5.07, 5.07, 5.2, 5.18, 5.18, 5.18, 5.26]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,4 +155,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

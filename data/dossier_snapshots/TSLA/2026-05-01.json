@@ -1,0 +1,99 @@
+{
+  "ticker": "TSLA",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "TSLA",
+    "period_end": "2026-04-30",
+    "eps": 1.08,
+    "bvps": 21.897,
+    "roe": 0.04901,
+    "pe": 353.3611,
+    "pb": 17.428415,
+    "dy": null,
+    "net_debt_ebitda": -2.600775301126529,
+    "dividend_streak_years": 0,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 2.6471594668520826,
+    "interest_coverage": 34.80473372781065,
+    "debt_to_assets": 0.10680957287781374,
+    "dividend_streak_source": "yfinance",
+    "pe_forward": 150.523,
+    "ev_ebitda": 123.667,
+    "market_cap": 1433296830464.0,
+    "fcf_ttm": 5251999744.0,
+    "shares_outstanding": 3755723871.0,
+    "next_ex_date": null,
+    "next_earnings_date": "2026-04-22",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 5,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 16.868733177825185,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.874007179204779,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "",
+    "secondary": "",
+    "value": 0,
+    "growth": 0,
+    "dividend": 2,
+    "buffett": 2,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 34.07259693329326,
+    "pessimistic_value": 26.56269531822226,
+    "optimistic_value": 44.95461000790064,
+    "margin_of_safety_pct": -0.9107182441177393,
+    "current_price": 381.6300048828125
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Dados ausentes sobre o preço médio do cobre e outros metais preciosos utilizados na produção de veículos elétricos (Mariana Macro)"
+  ],
+  "consensus_points": [
+    "A Tesla tem um P/E de 351.29 e ROE baixo de 4.9%, indicando desafios na valorização imediata",
+    "A empresa possui uma relação dívida líquida sobre EBITDA negativa (-2.79) e seu F-Score de Piotroski é 5/9, indicando solideza financeira"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que a avaliação elevada com P/B de 17.65 não leva em conta o alto múltiplo P/E e a baixa rentabilidade",
+    "Mariana Macro disse que os indicadores de P/E e ROE não refletem completamente o potencial futuro da empresa",
+    "Pedro Alocação disse que a avaliação elevada com P/B de 17.65 e investimentos agressivos em IA e AV são preocupantes"
+  ],
+  "evidence_count": 27,
+  "research_hits_total": 35
+}

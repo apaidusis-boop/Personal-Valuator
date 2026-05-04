@@ -5,24 +5,24 @@ market: us
 sector: Financials
 is_holding: true
 currency: USD
-price: 308.28
-price_date: 2026-04-26
-change_1d_pct: 0
-pe: 14.7502
-pb: 2.4013
-dy_pct: 1.91
+price: 311.63
+price_date: 2026-04-27
+change_1d_pct: 1.09
+pe: 14.9105
+pb: 2.4274
+dy_pct: 1.89
 roe_pct: 16.47
 streak_years: 43
 aristocrat: true
-screen_score: 0.8
+screen_score: 0.4
 screen_pass: false
 div_safety: 100
 div_safety_verdict: SAFE
 position_qty: 7
 entry_price: 306.5557
-pnl_pct: 0.56
-market_value: 2157.96
-updated: "2026-04-26T10:59:47Z"
+pnl_pct: 1.66
+market_value: 2181.41
+updated: "2026-04-28T18:40:44Z"
 tags: [holding, us, financials]
 ---
 
@@ -32,7 +32,7 @@ tags: [holding, us, financials]
 
 ## 🎯 Verdict — 🟠 HOLD
 
-> **Score**: 6.4/10  |  **Confiança**: 60%  |  _2026-04-26 13:59_
+> **Score**: 6.4/10  |  **Confiança**: 60%  |  _2026-04-28 21:40_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -44,8 +44,8 @@ tags: [holding, us, financials]
 ### Detalhes
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 100.0/100
-- **Valuation**: Screen 0.80, DY percentil P12 (EXPENSIVE)
-- **Momentum**: 1d 0.0%, 30d 8.99%, YTD -5.28%
+- **Valuation**: Screen 0.80, DY percentil P10 (EXPENSIVE)
+- **Momentum**: 1d 1.09%, 30d 9.82%, YTD -4.26%
 - **Narrativa**: user_note=False, YT insights 60d=3
 
 ### Razões
@@ -63,16 +63,16 @@ tags: [holding, us, financials]
 
 ## Snapshot
 
-- **Preço**: $308.28  (2026-04-26)    _+0.00% 1d_
-- **Screen**: 0.8  ✗ fail
+- **Preço**: $311.63  (2026-04-27)    _+1.09% 1d_
+- **Screen**: 0.4  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 100.0/100 (SAFE)
-- **Posição**: 7.0 sh @ $306.55571428571426  →  P&L 0.56%
+- **Posição**: 7.0 sh @ $306.55571428571426  →  P&L 1.66%
 
 ## Fundamentals
 
-- P/E: 14.750239 | P/B: 2.4013085 | DY: 1.91%
+- P/E: 14.910527 | P/B: 2.427403 | DY: 1.89%
 - ROE: 16.47% | EPS: 20.9 | BVPS: 128.38
 - Streak div: 43y | Aristocrat: True
 
@@ -101,12 +101,12 @@ tags: [holding, us, financials]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -7.87%
-- **Drawdown 5y**: -7.87%
-- **YTD**: -5.28%
-- **YoY (1y)**: +26.58%
-- **CAGR 3y**: +31.03%  |  **5y**: +15.31%  |  **10y**: +17.10%
-- **Vol annual**: +25.12%
+- **Drawdown 52w**: -6.87%
+- **Drawdown 5y**: -6.87%
+- **YTD**: -4.26%
+- **YoY (1y)**: +27.95%
+- **CAGR 3y**: +31.12%  |  **5y**: +15.41%  |  **10y**: +17.30%
+- **Vol annual**: +25.14%
 - **Sharpe 3y** (rf=4%): +1.16
 
 ### Dividendos
@@ -150,10 +150,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [14.64272, 14.758852, 14.837244, 14.860633, 15.101054, 14.983246, 14.764368, 14.750239]
+    data: [14.64272, 14.758852, 14.837244, 14.860633, 15.101054, 14.983246, 14.764368, 14.750239, 14.750239, 14.910527]
 width: 80%
 beginAtZero: false
 fill: false
@@ -163,12 +163,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47]
+    data: [16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47, 16.47]
   - title: DY %
-    data: [1.93, 1.96, 1.94, 1.93, 1.93, 1.88, 1.91, 1.91]
+    data: [1.93, 1.96, 1.94, 1.93, 1.93, 1.88, 1.91, 1.91, 1.91, 1.89]
 width: 80%
 beginAtZero: false
 fill: false
@@ -177,4 +177,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

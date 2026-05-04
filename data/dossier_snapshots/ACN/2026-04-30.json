@@ -1,0 +1,97 @@
+{
+  "ticker": "ACN",
+  "market": "us",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "ACN",
+    "period_end": "2026-04-30",
+    "eps": 12.2,
+    "bvps": 50.762,
+    "roe": 0.24763,
+    "pe": 14.648361,
+    "pb": 3.520547,
+    "dy": 0.01740249500957954,
+    "net_debt_ebitda": -0.08309405074235562,
+    "dividend_streak_years": 22,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 14.735688807577626,
+    "interest_coverage": 51.923313863183914,
+    "debt_to_assets": 0.1251300388163315,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 11.988642,
+    "ev_ebitda": 8.73,
+    "market_cap": 109984415744.0,
+    "fcf_ttm": 12164313088.0,
+    "shares_outstanding": 613939268.0,
+    "next_ex_date": "2026-04-09",
+    "next_earnings_date": "2026-06-18",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 5,
+      "period_end": "2025-08-31"
+    },
+    "altman": {
+      "z": 4.204971537327859,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-08-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.7542451177222134,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-08-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Value (8/12)",
+    "secondary": "Buffett/Quality (6/12)",
+    "value": 8,
+    "growth": 3,
+    "dividend": 4,
+    "buffett": 6,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 359.31541317116967,
+    "pessimistic_value": 280.1191192409772,
+    "optimistic_value": 474.0725897870789,
+    "margin_of_safety_pct": 1.0106060079023444,
+    "current_price": 178.7100067138672
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "DY abaixo da média do setor (1.7%) | Pressão nos serviços legados pode afetar margens | Possível corte em orçamentos governamentais"
+  ],
+  "consensus_points": [
+    "ACN é líder global em transformação digital e implementação de IA, com ROE de 25%+, dividend streak de 20 anos e buybacks consistentes.",
+    "Valuation atual oferece margem de segurança."
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que a pressão nos serviços legados pode afetar margens, Mariana Macro concordou com isso mas Valentina Prudente argumenta que a empresa tem demonstrado resiliência ao diversificar seus negócios para áreas como IA e robótica."
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 22
+}

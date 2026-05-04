@@ -7,3 +7,5 @@ regenerable: false
 # Layer 3 — Narrativa (humano escreve)
 
 Web clippings importados manualmente. Sagrado.
+
+

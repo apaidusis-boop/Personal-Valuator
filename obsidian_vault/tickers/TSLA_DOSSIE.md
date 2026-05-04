@@ -53,6 +53,10 @@ TSLA negoceia a P/E 345.23 (!) com DY n/a e ROE de apenas 4.90%, IC marca **AVOI
 
 
 
+
+
+
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

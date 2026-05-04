@@ -1,0 +1,81 @@
+{
+  "ticker": "BLK",
+  "market": "us",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "BLK",
+    "period_end": "2026-04-30",
+    "eps": 39.7,
+    "bvps": 360.407,
+    "roe": null,
+    "pe": 26.841309,
+    "pb": 2.9566572,
+    "dy": 0.02004504550429898,
+    "net_debt_ebitda": 0.07215028811467121,
+    "dividend_streak_years": 24,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 42.989099891342946,
+    "interest_coverage": 15.242671009771987,
+    "debt_to_assets": 0.08821280250355887,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 17.56731,
+    "ev_ebitda": 16.394,
+    "market_cap": 165556895744.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 155364965.0,
+    "next_ex_date": "2026-03-06",
+    "next_earnings_date": "2026-04-14",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "",
+    "secondary": "",
+    "value": 0,
+    "growth": 2,
+    "dividend": 2,
+    "buffett": 2,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 470.6622939183075,
+    "pessimistic_value": 366.9241630041847,
+    "optimistic_value": 620.9811336055495,
+    "margin_of_safety_pct": -0.5583124017439037,
+    "current_price": 1065.5999755859375
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Hank Tier-One",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "P/B ratio",
+    "peso da posição (9.4%) acima do limite sugerido"
+  ],
+  "consensus_points": [
+    "A BlackRock apresenta um DY de 2.05% e P/E de 26.84, indicando uma combinação sólida de renda e valor potencial.",
+    "BlackRock mantém consistência no pagamento de dividendos por 24 anos consecutivos",
+    "A empresa possui baixo endividamento (ND/EBITDA=0.07)"
+  ],
+  "dissent_points": [
+    "Hank Tier-One disse que a BlackRock está sobrevalorizada com múltiplos P/E e P/B altos, Mariana Macro, Valentina Prudente e Pedro Alocação disseram que estes múltiplos refletem a natureza do negócio de serviços financeiros da empresa"
+  ],
+  "evidence_count": 19,
+  "research_hits_total": 24
+}

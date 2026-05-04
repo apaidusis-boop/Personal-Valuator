@@ -5,12 +5,12 @@ market: us
 sector: Consumer Staples
 is_holding: false
 currency: USD
-price: 95.02
-price_date: 2026-04-24
-change_1d_pct: 0.47
-pe: 31.4636
-pb: 5.6162
-dy_pct: 1.26
+price: 95.4
+price_date: 2026-04-27
+change_1d_pct: 0.4
+pe: 31.5894
+pb: 5.6386
+dy_pct: 1.25
 roe_pct: 17.62
 streak_years: 37
 aristocrat: true
@@ -18,7 +18,7 @@ screen_score: 0.4
 screen_pass: false
 div_safety: 95
 div_safety_verdict: SAFE
-updated: "2026-04-26T10:59:45Z"
+updated: "2026-04-28T18:40:42Z"
 tags: [watchlist, us, consumer_staples]
 ---
 
@@ -34,7 +34,7 @@ tags: [watchlist, us, consumer_staples]
 
 ## Snapshot
 
-- **Preço**: $95.02  (2026-04-24)    _+0.47% 1d_
+- **Preço**: $95.40  (2026-04-27)    _+0.40% 1d_
 - **Screen**: 0.4  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -42,7 +42,7 @@ tags: [watchlist, us, consumer_staples]
 
 ## Fundamentals
 
-- P/E: 31.463575 | P/B: 5.616171 | DY: 1.26%
+- P/E: 31.589405 | P/B: 5.638631 | DY: 1.25%
 - ROE: 17.62% | EPS: 3.02 | BVPS: 16.919
 - Streak div: 37y | Aristocrat: True
 
@@ -57,13 +57,13 @@ tags: [watchlist, us, consumer_staples]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -9.73%
-- **Drawdown 5y**: -16.06%
-- **YTD**: +14.98%
-- **YoY (1y)**: -5.18%
-- **CAGR 3y**: +0.91%  |  **5y**: +1.65%  |  **10y**: +7.52%
-- **Vol annual**: +22.45%
-- **Sharpe 3y** (rf=4%): -0.16
+- **Drawdown 52w**: -9.37%
+- **Drawdown 5y**: -15.72%
+- **YTD**: +15.44%
+- **YoY (1y)**: -3.94%
+- **CAGR 3y**: -0.59%  |  **5y**: +2.48%  |  **10y**: +7.49%
+- **Vol annual**: +22.46%
+- **Sharpe 3y** (rf=4%): -0.23
 
 ### Dividendos
 - **DY 5y avg**: +1.19%
@@ -96,10 +96,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [30.864239, 31.463575, 31.463575]
+    data: [30.864239, 31.463575, 31.463575, 31.463575, 31.589405]
 width: 80%
 beginAtZero: false
 fill: false
@@ -109,12 +109,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [17.62, 17.62, 17.62]
+    data: [17.62, 17.62, 17.62, 17.62, 17.62]
   - title: DY %
-    data: [1.28, 1.26, 1.26]
+    data: [1.28, 1.26, 1.26, 1.26, 1.25]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,4 +123,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

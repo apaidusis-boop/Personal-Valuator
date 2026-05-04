@@ -7,5 +7,7 @@
   "obsidian-chartsview-plugin",
   "obsidian-charts",
   "sqlseal-charts",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "terminal",
+  "notebook-navigator"
 ]

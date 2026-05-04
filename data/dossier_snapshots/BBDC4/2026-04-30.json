@@ -1,0 +1,74 @@
+{
+  "ticker": "BBDC4",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "BBDC4",
+    "period_end": "2026-04-30",
+    "eps": 2.13,
+    "bvps": 16.868,
+    "roe": 0.13754,
+    "pe": 9.070422,
+    "pb": 1.1453639,
+    "dy": 0.07793328280452125,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 19,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": 6.3729568,
+    "ev_ebitda": null,
+    "market_cap": 204226150400.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Dividend/DRIP (5/12)",
+    "secondary": "",
+    "value": 2,
+    "growth": 2,
+    "dividend": 5,
+    "buffett": 1,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 19.31999969482422
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Diego Bancário",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Ambiente regulatório favorável e dinâmica do setor fintech no Brasil podem oferecer oportunidades de crescimento adicionais para o Bradesco - Mariana Macro",
+    "A pressão macroeconômica é um risco conhecido, mas não há evidências concretas de deterioração na qualidade dos ativos da Bradesco que justifiquem uma mudança na posição - Valentina Prudente"
+  ],
+  "consensus_points": [
+    "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando uma avaliação atrativa em comparação à média do setor.",
+    "O histórico de dividendos da Bradesco é sólido, com um DY de 7.54% mantido por 19 anos consecutivos."
+  ],
+  "dissent_points": [
+    "Valentina Prudente disse que a margem EBIT tem sido baixa nos últimos trimestres e há pressão macroeconômica.",
+    "Diego Bancário, Mariana Macro e Pedro Alocação mencionaram preocupações com o ambiente macroeconômico desafiador e a qualidade dos ativos."
+  ],
+  "evidence_count": 33,
+  "research_hits_total": 43
+}

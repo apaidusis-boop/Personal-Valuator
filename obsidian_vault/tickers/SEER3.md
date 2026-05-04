@@ -1,27 +1,27 @@
 ---
 ticker: SEER3
-name: Ser Educacional
+name: SEER3
 market: br
 sector: Consumer Disc.
 is_holding: false
 currency: BRL
-price: 12.3
-price_date: 2026-04-24
-change_1d_pct: -0.57
-pe: 7.3214
-pb: 1.1811
-dy_pct: 5.14
+price: 12.67
+price_date: 2026-04-27
+change_1d_pct: 3.01
+pe: 7.5417
+pb: 1.2166
+dy_pct: 4.99
 roe_pct: 16.81
 streak_years: 2
 screen_score: 0.6
 screen_pass: false
 div_safety: 65
 div_safety_verdict: WATCH
-updated: "2026-04-26T10:59:42Z"
+updated: "2026-04-28T18:40:39Z"
 tags: [watchlist, br, consumer_disc.]
 ---
 
-# SEER3 — Ser Educacional
+# SEER3 — SEER3
 
 #watchlist #br #consumer_disc.
 
@@ -33,7 +33,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Snapshot
 
-- **Preço**: R$12.30  (2026-04-24)    _-0.57% 1d_
+- **Preço**: R$12.67  (2026-04-27)    _+3.01% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
@@ -41,7 +41,7 @@ tags: [watchlist, br, consumer_disc.]
 
 ## Fundamentals
 
-- P/E: 7.321429 | P/B: 1.1811024 | DY: 5.14%
+- P/E: 7.541667 | P/B: 1.2166315 | DY: 4.99%
 - ROE: 16.81% | EPS: 1.68 | BVPS: 10.414
 - Streak div: 2y | Aristocrat: None
 
@@ -56,13 +56,13 @@ tags: [watchlist, br, consumer_disc.]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -10.55%
-- **Drawdown 5y**: -35.87%
-- **YTD**: +27.99%
-- **YoY (1y)**: +109.18%
-- **CAGR 3y**: +59.35%  |  **5y**: -1.48%  |  **10y**: +0.60%
-- **Vol annual**: +58.24%
-- **Sharpe 3y** (rf=4%): +0.87
+- **Drawdown 52w**: -7.85%
+- **Drawdown 5y**: -33.94%
+- **YTD**: +31.84%
+- **YoY (1y)**: +113.66%
+- **CAGR 3y**: +57.71%  |  **5y**: -0.22%  |  **10y**: +1.53%
+- **Vol annual**: +58.37%
+- **Sharpe 3y** (rf=4%): +0.85
 
 ### Dividendos
 - **DY 5y avg**: +2.01%
@@ -110,10 +110,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [8.184525, 7.3630953, 7.321429, 7.321429]
+    data: [8.184525, 7.3630953, 7.321429, 7.321429, 7.321429, 7.541667]
 width: 80%
 beginAtZero: false
 fill: false
@@ -123,12 +123,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [16.81, 16.81, 16.81, 16.81]
+    data: [16.81, 16.81, 16.81, 16.81, 16.81, 16.81]
   - title: DY %
-    data: [4.59, 5.11, 5.14, 5.14]
+    data: [4.59, 5.11, 5.14, 5.14, 5.14, 4.99]
 width: 80%
 beginAtZero: false
 fill: false
@@ -137,4 +137,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

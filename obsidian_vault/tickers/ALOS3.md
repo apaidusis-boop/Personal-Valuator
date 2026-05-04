@@ -1,27 +1,27 @@
 ---
 ticker: ALOS3
-name: Allos
+name: ALOS3
 market: br
 sector: Real Estate
 is_holding: false
 currency: BRL
-price: 31.61
-price_date: 2026-04-24
-change_1d_pct: -0.88
-pe: 19.2744
-pb: 1.2003
-dy_pct: 7.17
+price: 31.27
+price_date: 2026-04-27
+change_1d_pct: -1.08
+pe: 19.0671
+pb: 1.1873
+dy_pct: 7.25
 roe_pct: 6.74
 streak_years: 6
 screen_score: 0.6
 screen_pass: false
-div_safety: 28
+div_safety: 38
 div_safety_verdict: RISK
-updated: "2026-04-26T10:59:36Z"
+updated: "2026-04-28T18:40:29Z"
 tags: [watchlist, br, real_estate]
 ---
 
-# ALOS3 — Allos
+# ALOS3 — ALOS3
 
 #watchlist #br #real_estate
 
@@ -33,15 +33,15 @@ tags: [watchlist, br, real_estate]
 
 ## Snapshot
 
-- **Preço**: R$31.61  (2026-04-24)    _-0.88% 1d_
+- **Preço**: R$31.27  (2026-04-27)    _-1.08% 1d_
 - **Screen**: 0.6  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
-- **Div Safety**: 28.0/100 (RISK)
+- **Div Safety**: 38.0/100 (RISK)
 
 ## Fundamentals
 
-- P/E: 19.274391 | P/B: 1.2002583 | DY: 7.17%
+- P/E: 19.067074 | P/B: 1.1873481 | DY: 7.25%
 - ROE: 6.74% | EPS: 1.64 | BVPS: 26.336
 - Streak div: 6y | Aristocrat: None
 
@@ -64,17 +64,17 @@ tags: [watchlist, br, real_estate]
 ## 📈 Live snapshot (auto-gerado)
 
 ### Preço
-- **Drawdown 52w**: -6.48%
-- **Drawdown 5y**: -6.48%
-- **YTD**: +10.72%
-- **YoY (1y)**: +49.88%
-- **CAGR 3y**: +20.67%  |  **5y**: +3.37%  |  **10y**: n/a
-- **Vol annual**: +24.00%
-- **Sharpe 3y** (rf=4%): +0.65
+- **Drawdown 52w**: -7.49%
+- **Drawdown 5y**: -7.49%
+- **YTD**: +9.53%
+- **YoY (1y)**: +48.06%
+- **CAGR 3y**: +18.82%  |  **5y**: +3.02%  |  **10y**: n/a
+- **Vol annual**: +24.07%
+- **Sharpe 3y** (rf=4%): +0.58
 
 ### Dividendos
 - **DY 5y avg**: +3.78%
-- **Div CAGR 5y**: +41.02%
+- **Div CAGR 5y**: +41.03%
 - **Frequency**: irregular
 - **Streak** (sem cortes): 1 years
 
@@ -116,7 +116,7 @@ title: "ALOS3 — dividend history"
 labels: ['2021', '2022', '2023', '2024', '2025', '2026']
 series:
   - title: Dividends
-    data: [0.2264, 0.3839, 0.519, 1.5274, 1.4824, 1.1699]
+    data: [0.2264, 0.3839, 0.519, 1.5274, 1.4825, 1.1699]
 width: 80%
 beginAtZero: false
 fill: false
@@ -128,10 +128,10 @@ tension: 0.3
 ```chart
 type: line
 title: "P/E over time"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: P/E
-    data: [20.13, 20.42683, 19.327272, 19.157576, 19.274391]
+    data: [20.13, 20.42683, 19.327272, 19.157576, 19.274391, 19.274391, 19.067074]
 width: 80%
 beginAtZero: false
 fill: false
@@ -141,12 +141,12 @@ tension: 0.3
 ```chart
 type: line
 title: "ROE & DY %"
-labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25']
+labels: ['2026-04-15', '2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27']
 series:
   - title: ROE %
-    data: [6.0, 6.74, 6.74, 6.74, 6.74]
+    data: [6.0, 6.74, 6.74, 6.74, 6.74, 6.74, 6.74]
   - title: DY %
-    data: [6.54, 6.2, 7.11, 7.17, 7.17]
+    data: [6.54, 6.2, 7.11, 7.17, 7.17, 7.17, 7.25]
 width: 80%
 beginAtZero: false
 fill: false
@@ -155,4 +155,4 @@ tension: 0.3
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-26 10:59 UTC*
+*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*

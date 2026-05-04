@@ -1,0 +1,27 @@
+e relativamente estáveis nos últimos anos, justamente porque a companhia compensou a queda do lucro com o aumento do *payout*.
+
+*Fonte: Kepler Weber. Cálculos e elaboração Finclass.*
+
+## Rentabilidade
+
+Nos últimos anos, o **Retorno sobre o capital investido** (**ROIC**) da companhia apresentou patamares elevados, atingindo níveis excepcionalmente altos em 2021 e 2022, reflexo de um ciclo particularmente favorável para o agronegócio, e consequentemente, o setor de armazenagem de grãos.
+
+Vale ressaltar que não há consenso entre analistas e gestores no cálculo do **ROIC**, especialmente quando se trata de denominador (Capital Investido).
+
+No gráfico a seguir, apresentamos o indicador calculado segundo nossas premissas, o reportado pela **Kepler Weber** e o da **Bloomberg**:
+
+*Fonte: Kepler Weber. Elaboração: Finclass.*
+
+Mesmo com as diferenças metodológicas e a ciclicidade, é notável a elevada rentabilidade auferida pela companhia.
+
+O **Retorno sobre o Patrimônio** (**ROE, de *Return on Equity***) também é considerável, se situando em patamares superiores à média do Ibovespa, especialmente desde 2020.
+
+*Dados: Kepler Weber e Bloomberg.* *Cálculos e elaboração: Finclass.*
+
+## Endividamento
+
+A **Kepler Weber** tem uma estrutura de capital conservadora. A empresa é caixa líquido, ou seja, tem mais dinheiro em caixa do que dívidas.
+
+Atualmente, a **dívida líquida** corresponde a **\-0,01x seu EBITDA**. Na prática, isso significa que a Kepler não depende de capital de terceiros para financiar suas operações, o que a coloca em posição privilegiada em um setor (agronegócio) altamente sensível a ciclos de crédito rural e taxas de juros. A empresa historicamente adotou uma postura conservadora em sua estrutura de capital, operando sem alavancagem financeira relevante. Esse perfil traz maior conforto e segurança ao acionista.
+
+Fonte: Kepler Weber. Cálculo e elaboração: Finclass.
