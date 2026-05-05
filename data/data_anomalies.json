@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-05T16:59:11+00:00",
+  "thresholds": {
+    "price_pct": 20.0,
+    "price_stale_days": 5,
+    "fund_holdings_days": 100,
+    "fund_watchlist_days": 200
+  },
+  "totals": {
+    "all": 0,
+    "by_kind": {},
+    "by_severity": {}
+  },
+  "anomalies": []
+}

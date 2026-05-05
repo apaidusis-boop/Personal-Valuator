@@ -223,3 +223,25 @@
 {"ts": "2026-04-30T20:33:37Z", "event": "extract_result", "event_id": 353, "ticker": "ENGI11", "date": "2026-04-22", "kind": "fato_relevante", "ok": true, "msg": "3683 chars"}
 {"ts": "2026-04-30T20:33:40Z", "event": "extract_result", "event_id": 354, "ticker": "EQTL3", "date": "2026-04-22", "kind": "comunicado", "ok": true, "msg": "6528 chars"}
 {"ts": "2026-04-30T20:33:40Z", "event": "extract_done", "ok": 20, "fail": 0}
+{"ts": "2026-05-04T20:31:52Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-04T20:31:59Z", "event": "extract_result", "event_id": 377, "ticker": "PETR4", "date": "2026-05-01", "kind": "comunicado", "ok": true, "msg": "3501 chars"}
+{"ts": "2026-05-04T20:32:02Z", "event": "extract_result", "event_id": 373, "ticker": "VALE3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "4158 chars"}
+{"ts": "2026-05-04T20:32:04Z", "event": "extract_result", "event_id": 374, "ticker": "BBDC4", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "907 chars"}
+{"ts": "2026-05-04T20:32:07Z", "event": "extract_result", "event_id": 375, "ticker": "BBDC4", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "1846 chars"}
+{"ts": "2026-05-04T20:32:13Z", "event": "extract_result", "event_id": 379, "ticker": "PETR4", "date": "2026-04-30", "kind": "fato_relevante", "ok": true, "msg": "38132 chars"}
+{"ts": "2026-05-04T20:32:16Z", "event": "extract_result", "event_id": 380, "ticker": "B3SA3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "915 chars"}
+{"ts": "2026-05-04T20:32:18Z", "event": "extract_result", "event_id": 383, "ticker": "EQTL3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "1540 chars"}
+{"ts": "2026-05-04T20:32:24Z", "event": "extract_result", "event_id": 385, "ticker": "MOTV3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "5493 chars"}
+{"ts": "2026-05-04T20:33:03Z", "event": "extract_result", "event_id": 388, "ticker": "MULT3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "18243 chars"}
+{"ts": "2026-05-04T20:33:06Z", "event": "extract_result", "event_id": 390, "ticker": "MULT3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "986 chars"}
+{"ts": "2026-05-04T20:33:12Z", "event": "extract_result", "event_id": 392, "ticker": "SUZB3", "date": "2026-04-30", "kind": "comunicado", "ok": true, "msg": "9385 chars"}
+{"ts": "2026-05-04T20:33:34Z", "event": "extract_result", "event_id": 372, "ticker": "VALE3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "21055 chars"}
+{"ts": "2026-05-04T20:33:36Z", "event": "extract_result", "event_id": 381, "ticker": "EQTL3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "2969 chars"}
+{"ts": "2026-05-04T20:33:40Z", "event": "extract_result", "event_id": 382, "ticker": "EQTL3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "21401 chars"}
+{"ts": "2026-05-04T20:33:44Z", "event": "extract_result", "event_id": 384, "ticker": "MOTV3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "5499 chars"}
+{"ts": "2026-05-04T20:33:47Z", "event": "extract_result", "event_id": 387, "ticker": "MOTV3", "date": "2026-04-29", "kind": "fato_relevante", "ok": true, "msg": "8614 chars"}
+{"ts": "2026-05-04T20:33:49Z", "event": "extract_result", "event_id": 389, "ticker": "MULT3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "776 chars"}
+{"ts": "2026-05-04T20:33:57Z", "event": "extract_result", "event_id": 391, "ticker": "RENT3", "date": "2026-04-29", "kind": "comunicado", "ok": true, "msg": "5013 chars"}
+{"ts": "2026-05-04T20:34:11Z", "event": "extract_result", "event_id": 376, "ticker": "PETR4", "date": "2026-04-28", "kind": "comunicado", "ok": true, "msg": "14644 chars"}
+{"ts": "2026-05-04T20:34:13Z", "event": "extract_result", "event_id": 378, "ticker": "PETR4", "date": "2026-04-27", "kind": "fato_relevante", "ok": true, "msg": "5185 chars"}
+{"ts": "2026-05-04T20:34:14Z", "event": "extract_done", "ok": 20, "fail": 0}

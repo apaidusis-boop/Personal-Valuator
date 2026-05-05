@@ -1,0 +1,177 @@
+{
+  "ticker": "KO",
+  "market": "us",
+  "timestamp": "2026-05-05T19:35:19.745820",
+  "audit": {
+    "piotroski": {
+      "ticker": "KO",
+      "applicable": true,
+      "f_score": 7,
+      "period_t": "2025-12-31",
+      "period_t_minus_1": "2024-12-31",
+      "criteria": {
+        "roa_positive": true,
+        "fcf_positive": true,
+        "delta_roa_positive": true,
+        "fcf_gt_netincome": false,
+        "leverage_not_up": true,
+        "liquidity_up": true,
+        "no_dilution": true,
+        "margin_up": true,
+        "turnover_up": false
+      },
+      "details": {
+        "roa_t": 0.1250477026408182,
+        "fcf_t": 5296000000.0,
+        "delta_roa": 0.019318157841764994,
+        "delta_ltd_ratio": -0.019598808908349752,
+        "delta_current_ratio": 0.4291410997896503,
+        "shares_delta_pct": -0.16203703703703276,
+        "delta_gross_margin": 0.005624474933010104,
+        "delta_turnover": -0.01065799719318078
+      }
+    },
+    "altman": {
+      "ticker": "KO",
+      "applicable": true,
+      "z": 4.991143258359641,
+      "zone": "safe",
+      "confidence": "high",
+      "x1": 0.09314417646160891,
+      "x2": 0.7668867348496413,
+      "x3": 0.16840940314455807,
+      "x4": 4.6543255445769125,
+      "x5": 0.45738246069302396,
+      "period_end": "2025-12-31"
+    },
+    "beneish": {
+      "ticker": "KO",
+      "applicable": true,
+      "m": -2.349869515214205,
+      "zone": "clean",
+      "confidence": "high",
+      "indices": {
+        "DSRI": 0.836,
+        "GMI": 0.991,
+        "AQI": 0.958,
+        "SGI": 1.019,
+        "DEPI": 0.959,
+        "SGAI": 0.978,
+        "TATA": 0.0544,
+        "LVGI": 0.899
+      },
+      "period_end": "2025-12-31"
+    },
+    "moat": {
+      "ticker": "KO",
+      "applicable": true,
+      "overall": 8.5,
+      "pricing_power": 10.0,
+      "capital_efficiency": 9.0,
+      "reinvestment_runway": 6.0,
+      "scale_durability": 9.0,
+      "years_used": 4,
+      "period_first": "2022-12-31",
+      "period_last": "2025-12-31",
+      "details": {
+        "gm_median": 0.6029,
+        "gm_cv": 0.0261,
+        "roic_median": 0.168,
+        "roic_persistence": 1.0,
+        "revenue_cagr": 0.0369,
+        "down_years": 0,
+        "fcf_to_ni_median": 0.678,
+        "op_margin_delta": 0.076,
+        "shares_delta_pct": -0.85,
+        "op_margin_median": 0.3149
+      },
+      "label": "STRONG"
+    }
+  },
+  "scout": {
+    "news": [
+      {
+        "title": "PepsiCo vs Coca-Cola: A Decade-Long Fight for Dominance",
+        "published": "2026-05-05T15:58:29Z"
+      },
+      {
+        "title": "The Best Stocks to Invest $500 in Right Now",
+        "published": "2026-05-05T15:05:00Z"
+      },
+      {
+        "title": "Coca-Cola Consolidated to invest $35m in US facility",
+        "published": "2026-05-05T12:14:02Z"
+      },
+      {
+        "title": "1 Consumer Stock for Long-Term Investors and 2 We Avoid",
+        "published": "2026-05-05T08:36:55Z"
+      },
+      {
+        "title": "Coca-Cola's Innovation Pipeline: Is it Enough to Drive Demand?",
+        "published": "2026-05-04T16:55:00Z"
+      },
+      {
+        "title": "Coca-Cola, Comcast advance long-time employees into top HR roles",
+        "published": "2026-05-04T16:34:00Z"
+      },
+      {
+        "title": "Can Productivity Savings Shield PepsiCo From Inflation Pressures?",
+        "published": "2026-05-04T15:56:00Z"
+      },
+      {
+        "title": "10 Years, Zero Regrets: The Dividend Stocks I Keep Buying",
+        "published": "2026-05-04T12:55:12Z"
+      }
+    ],
+    "short_interest": {
+      "shares_short": 41151710,
+      "pct_of_float": 0.96,
+      "days_to_cover": 2.76,
+      "signal": "low"
+    },
+    "insider": {
+      "insider_pct": 0.09896,
+      "institution_pct": 0.66846,
+      "recent_buys": 112,
+      "recent_sells": 0,
+      "signal": "bullish"
+    },
+    "analyst_consensus": {
+      "recommendation": "BUY",
+      "num_analysts": 23,
+      "target_mean": 85.75565,
+      "target_high": 92.0,
+      "target_low": 71.38,
+      "current_price": 78.54,
+      "upside_pct": 9.2
+    },
+    "multiples": {
+      "pe_trailing": 24.698112,
+      "pe_forward": 22.581554,
+      "pb": 10.048618,
+      "ev_ebitda": 22.092,
+      "ps": 6.856525,
+      "peg": 4.03,
+      "div_yield": 271.0,
+      "fcf_yield": 0.93
+    },
+    "profitability": {
+      "roe": 0.43372002,
+      "roa": 0.09512,
+      "gross_margin": 0.61744,
+      "net_margin": 0.278
+    },
+    "meta": {
+      "name": "The Coca-Cola Company",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "country": "United States",
+      "currency": "USD",
+      "market_cap": 337916985344,
+      "price": 78.54
+    }
+  },
+  "delta": "Delta Report \u2014 KO | hoje vs run anterior (2026-05-04)\n  Beneish M: -2.35 (novo \u2014 n\u00e3o compar\u00e1vel)",
+  "dossier": "_(dossier desactivado via --no-llm)_",
+  "model": null
+}
