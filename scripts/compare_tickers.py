@@ -30,6 +30,7 @@ from scripts.drip_projection import _annual_divs_per_share, _latest_fundamentals
 
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"
+VAULT_COMPARE_DIR = ROOT / "obsidian_vault" / "Bibliotheca"
 
 
 def _db(mkt: str) -> Path:
@@ -166,6 +167,223 @@ def collect(ticker: str) -> dict:
     }
 
 
+def collect_quality(ticker: str, market: str | None) -> dict:
+    """Pull Moat + Piotroski + Altman + Beneish + Conviction for the comparative view.
+
+    Each scorer is independent; failures degrade gracefully (returns None per axis).
+    """
+    out: dict = {}
+    try:
+        from scoring.moat import compute as moat_compute
+        m = moat_compute(ticker, market)
+        out["moat"] = {
+            "applicable": m.applicable,
+            "overall": m.overall, "label": m.label,
+            "pricing_power": m.pricing_power,
+            "capital_efficiency": m.capital_efficiency,
+            "reinvestment_runway": m.reinvestment_runway,
+            "scale_durability": m.scale_durability,
+        }
+    except Exception as e:  # noqa: BLE001
+        out["moat"] = {"applicable": False, "error": str(e)}
+    try:
+        from scoring.piotroski import compute as pio_compute
+        p = pio_compute(ticker, market)
+        out["piotroski"] = {
+            "applicable": p.applicable,
+            "f_score": p.f_score, "label": p.label,
+        }
+    except Exception as e:  # noqa: BLE001
+        out["piotroski"] = {"applicable": False, "error": str(e)}
+    try:
+        from scoring.altman import compute as alt_compute
+        a = alt_compute(ticker, market)
+        out["altman"] = {
+            "applicable": a.applicable,
+            "z": getattr(a, "z", None),
+            "zone": getattr(a, "zone", None),
+        }
+    except Exception as e:  # noqa: BLE001
+        out["altman"] = {"applicable": False, "error": str(e)}
+    try:
+        from scoring.beneish import compute as ben_compute
+        b = ben_compute(ticker, market)
+        out["beneish"] = {
+            "applicable": b.applicable,
+            "m": getattr(b, "m", None),
+            "zone": getattr(b, "zone", None),
+        }
+    except Exception as e:  # noqa: BLE001
+        out["beneish"] = {"applicable": False, "error": str(e)}
+    # Conviction score (universe table)
+    try:
+        if market:
+            with sqlite3.connect(_db(market)) as conn:
+                # Some DBs may not have this table — guard
+                t = conn.execute(
+                    "SELECT name FROM sqlite_master WHERE type='table' AND name='conviction_scores'"
+                ).fetchone()
+                if t:
+                    r = conn.execute(
+                        "SELECT score FROM conviction_scores WHERE ticker=? "
+                        "ORDER BY run_date DESC LIMIT 1", (ticker,),
+                    ).fetchone()
+                    out["conviction"] = float(r[0]) if r else None
+                else:
+                    out["conviction"] = None
+        else:
+            out["conviction"] = None
+    except Exception:  # noqa: BLE001
+        out["conviction"] = None
+    return out
+
+
+def render_md(rows: list[dict], quality: dict[str, dict],
+              benchmark: dict | None) -> str:
+    """Markdown comparative dossier — Moat + Quality + Multiples + Yield + Conviction."""
+    today = date.today().isoformat()
+    tickers = [r["ticker"] for r in rows]
+    lines = [
+        f"# Compare — {' · '.join(tickers)}",
+        "",
+        f"_Generated {today} · {len(rows)} ticker(s)_",
+        "",
+        "## Snapshot",
+        "",
+        "| Metric | " + " | ".join(tickers) + " |",
+        "|---|" + "---|" * len(tickers),
+    ]
+
+    def _row(label, formatter):
+        cells = [formatter(r) for r in rows]
+        return f"| {label} | " + " | ".join(cells) + " |"
+
+    def _pct(v): return "—" if v is None else f"{v*100:+.2f}%"
+    def _num(v, dec=2):
+        if v is None: return "—"
+        try: return f"{v:.{dec}f}"
+        except (TypeError, ValueError): return str(v)
+
+    lines += [
+        _row("Market",         lambda r: r["market"] or "?"),
+        _row("Sector",         lambda r: r.get("sector") or "—"),
+        _row("Price",          lambda r: _num(r["last_px"])),
+        _row("DY t12m",        lambda r: _pct(r["current_yield"])),
+        _row("DY pctl 10y",    lambda r: _num(r["dy_percentile"][1] if r["dy_percentile"] else None, 0) + "%" if r["dy_percentile"] else "—"),
+        _row("P/E",            lambda r: _num(r["pe"])),
+        _row("P/B",            lambda r: _num(r["pb"])),
+        _row("ROE",            lambda r: _pct(r["roe"]) if r["roe"] is not None and abs(r["roe"]) <= 1.5 else (f"{r['roe']:.1f}%" if r["roe"] is not None else "—")),
+        _row("ND/EBITDA",      lambda r: _num(r["nd_ebitda"])),
+        _row("Streak (yrs)",   lambda r: str(r["streak"]) if r["streak"] else "—"),
+        _row("Screen score",   lambda r: (f"{r['screen_score']:.2f} " + ("PASS" if r['screen_passes'] else "FAIL")) if r["screen_score"] is not None else "—"),
+        _row("Div CAGR 5y",    lambda r: _pct(r["dcagr_5y"])),
+        _row("TR 5y",          lambda r: _pct(r["tr_5y"])),
+        _row("TR 10y",         lambda r: _pct(r["tr_10y"])),
+        _row("TR fwd base",    lambda r: _pct(r["tr_base_forward"])),
+    ]
+
+    # Quality block — Moat + Piotroski + Altman + Beneish + Conviction
+    lines += ["", "## Quality & Moat", "",
+              "| Axis | " + " | ".join(tickers) + " |",
+              "|---|" + "---|" * len(tickers)]
+
+    def _moat_cell(r):
+        m = quality.get(r["ticker"], {}).get("moat", {})
+        if not m or not m.get("applicable"):
+            return "N/A"
+        ov = m.get("overall")
+        return f"**{ov:.2f}** {m.get('label')}" if ov is not None else "N/A"
+
+    def _moat_sub(r, key):
+        m = quality.get(r["ticker"], {}).get("moat", {})
+        v = m.get(key) if m and m.get("applicable") else None
+        return _num(v)
+
+    def _pio_cell(r):
+        p = quality.get(r["ticker"], {}).get("piotroski", {})
+        if not p or not p.get("applicable"):
+            return "N/A"
+        f = p.get("f_score")
+        label = p.get("label", "")
+        return f"{f}/9 {label}" if f is not None else "N/A"
+
+    def _alt_cell(r):
+        a = quality.get(r["ticker"], {}).get("altman", {})
+        if not a or not a.get("applicable"):
+            return "N/A"
+        z = a.get("z")
+        return f"Z={z:+.2f} ({a.get('zone')})" if z is not None else "N/A"
+
+    def _ben_cell(r):
+        b = quality.get(r["ticker"], {}).get("beneish", {})
+        if not b or not b.get("applicable"):
+            return "N/A"
+        mv = b.get("m")
+        return f"M={mv:+.2f} ({b.get('zone')})" if mv is not None else "N/A"
+
+    def _conv_cell(r):
+        c = quality.get(r["ticker"], {}).get("conviction")
+        return f"{c:.0f}" if c is not None else "—"
+
+    lines += [
+        _row("**Moat overall**",   _moat_cell),
+        _row("  Pricing power",    lambda r: _moat_sub(r, "pricing_power")),
+        _row("  Capital efficiency", lambda r: _moat_sub(r, "capital_efficiency")),
+        _row("  Reinvestment runway", lambda r: _moat_sub(r, "reinvestment_runway")),
+        _row("  Scale durability", lambda r: _moat_sub(r, "scale_durability")),
+        _row("Piotroski F",        _pio_cell),
+        _row("Altman Z",           _alt_cell),
+        _row("Beneish M",          _ben_cell),
+        _row("Conviction (0-100)", _conv_cell),
+    ]
+
+    # Winners summary
+    lines += ["", "## Winners (between tickers)", ""]
+    def _best(key, reverse=True):
+        vals = [(r["ticker"], r.get(key)) for r in rows if r.get(key) is not None]
+        if not vals: return None
+        return sorted(vals, key=lambda x: x[1], reverse=reverse)[0]
+
+    def _best_quality(axis, sub=None, reverse=True):
+        vals = []
+        for r in rows:
+            q = quality.get(r["ticker"], {}).get(axis, {})
+            if not q or not q.get("applicable"):
+                continue
+            v = q.get(sub) if sub else (q.get("overall") if axis == "moat" else q.get("f_score") if axis == "piotroski" else q.get("z") if axis == "altman" else None)
+            if v is None: continue
+            vals.append((r["ticker"], v))
+        if not vals: return None
+        return sorted(vals, key=lambda x: x[1], reverse=reverse)[0]
+
+    picks = [
+        ("DY t12m", _best("current_yield")),
+        ("ROE", _best("roe")),
+        ("ND/EBITDA (lower better)", _best("nd_ebitda", reverse=False)),
+        ("Screen score", _best("screen_score")),
+        ("Safety score", _best("safety_score")),
+        ("Div CAGR 5y", _best("dcagr_5y")),
+        ("TR 5y", _best("tr_5y")),
+        ("TR fwd base", _best("tr_base_forward")),
+        ("Moat overall", _best_quality("moat")),
+        ("Piotroski F", _best_quality("piotroski")),
+        ("Altman Z", _best_quality("altman")),
+    ]
+    for label, pick in picks:
+        if not pick: continue
+        name, val = pick
+        if isinstance(val, float) and abs(val) < 1:
+            val_s = f"{val*100:+.2f}%"
+        else:
+            val_s = f"{val:.2f}" if isinstance(val, float) else str(val)
+        lines.append(f"- **{label}**: {name} ({val_s})")
+
+    lines += ["", "---", "",
+              "_Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski,altman,beneish,dividend_safety} engines._",
+              ""]
+    return "\n".join(lines)
+
+
 def _fmt_pct(v: float | None, decimals: int = 2) -> str:
     if v is None: return "    —"
     return f"{v*100:>+{6+decimals}.{decimals}f}%"
@@ -235,6 +453,10 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("tickers", nargs="+", help="2+ tickers para comparar")
     ap.add_argument("--vs", help="Benchmark (ex: SPY, IBOV). Opcional.")
+    ap.add_argument("--md", action="store_true",
+                    help="Print full markdown comparative dossier (Moat + Quality + Multiples).")
+    ap.add_argument("--write", action="store_true",
+                    help="With --md, write to obsidian_vault/Bibliotheca/Compare_<TICKERS>_<DATE>.md.")
     args = ap.parse_args()
 
     if len(args.tickers) < 2:
@@ -250,6 +472,22 @@ def main() -> None:
         return
 
     bench = _index_row(args.vs.upper(), args.vs.upper()) if args.vs else None
+
+    if args.md:
+        quality = {r["ticker"]: collect_quality(r["ticker"], r["market"]) for r in rows}
+        md = render_md(rows, quality, bench)
+        if args.write:
+            VAULT_COMPARE_DIR.mkdir(parents=True, exist_ok=True)
+            slug = "_".join(r["ticker"] for r in rows[:4])
+            if len(rows) > 4:
+                slug += f"_plus{len(rows) - 4}"
+            out = VAULT_COMPARE_DIR / f"Compare_{slug}_{date.today().isoformat()}.md"
+            out.write_text(md, encoding="utf-8")
+            print(md)
+            print(f"\n[wrote] {out.relative_to(ROOT)}")
+        else:
+            print(md)
+        return
 
     print_table(rows, bench)
     # summary text com "winners" per metric
