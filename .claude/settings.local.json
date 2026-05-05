@@ -98,7 +98,9 @@
       "Skill(*)",
       "mcp__claude_ai_Bigdata_com__bigdata_search",
       "PowerShell(Get-ScheduledTask *)",
-      "PowerShell(sqlite3 *)"
+      "PowerShell(sqlite3 *)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -X utf8 scripts\\\\decide.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -X utf8 scripts\\\\decide.py list --tier T2; Write-Host \"---\"; .\\\\.venv\\\\Scripts\\\\python.exe -X utf8 scripts\\\\decide.py tier br/8; Write-Host \"---\"; .\\\\.venv\\\\Scripts\\\\python.exe -X utf8 scripts\\\\decide.py tier br/1; Write-Host \"---\"; .\\\\.venv\\\\Scripts\\\\python.exe -X utf8 scripts\\\\decide.py approve br/8 --dry-run)"
     ],
     "defaultMode": "acceptEdits"
   },
