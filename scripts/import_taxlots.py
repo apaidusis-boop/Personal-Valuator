@@ -154,7 +154,7 @@ def aggregate_to_positions(dry_run: bool = False) -> dict:
         inserted = 0
         if not dry_run:
             # Remove active JPM positions e re-insere
-            c.execute("DELETE FROM portfolio_positions WHERE active=1 AND notes LIKE 'JPM%' OR notes LIKE '%jpm%'")
+            c.execute("DELETE FROM portfolio_positions WHERE active=1 AND notes LIKE 'JPM tax-lot import%'")
             for tk, d in agg.items():
                 avg_cost = d["cost"] / d["qty"] if d["qty"] > 0 else 0
                 c.execute(

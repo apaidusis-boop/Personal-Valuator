@@ -85,7 +85,7 @@ def _snapshot_from_db(ticker: str, market: str) -> dict:
     with sqlite3.connect(db) as c:
         c.row_factory = sqlite3.Row
         row = c.execute(
-            "SELECT name, sector, is_holding, currency FROM companies WHERE ticker=?",
+            "SELECT name, sector, is_holding, currency, strategy_tag FROM companies WHERE ticker=?",
             (ticker,),
         ).fetchone()
         if row:
@@ -220,7 +220,8 @@ def render_panorama(ticker: str) -> str:
     out.append(f"generated_at: {datetime.now().isoformat(timespec='seconds')}")
     out.append(f"---\n")
     out.append(f"# 🎯 Panorama — {ticker}")
-    out.append(f"_{snap.get('name') or ticker}  ·  {snap.get('sector','?')}  ·  Mercado: {market.upper()}_\n")
+    strat = snap.get("strategy_tag") or "N/A"
+    out.append(f"_{snap.get('name') or ticker}  ·  {snap.get('sector','?')}  ·  Mercado: {market.upper()}_  ·  **Strategy: {strat}**\n")
 
     # Snapshot
     out.append("## 📸 Snapshot")
@@ -228,6 +229,7 @@ def render_panorama(ticker: str) -> str:
     price = snap.get("price")
     price_str = f"{cur}{price:.2f} ({snap.get('price_date','?')})" if price else "n/a"
     out.append(f"- **Preço**: {price_str}")
+    out.append(f"- **Strategy tag**: {strat}")
     if snap.get("position"):
         pos = snap["position"]
         out.append(f"- **Posição**: {pos['quantity']} @ {cur}{pos['entry_price']:.2f} (entry {pos['entry_date']})")

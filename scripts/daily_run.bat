@@ -34,6 +34,11 @@ REM não propagamos exit code — extractor é best-effort
 echo CVM-PDF exit code (ignored): %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [TAXLOTS] auto_import_taxlots.py  ^(picks up Downloads/taxlots.csv if newer^) >> "%LOG%"
+"%PY%" scripts\auto_import_taxlots.py --quiet >> "%LOG%" 2>&1
+echo TAXLOTS exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [US] daily_update_us.py >> "%LOG%"
 "%PY%" scripts\daily_update_us.py >> "%LOG%" 2>&1
 echo US exit code: %errorlevel% >> "%LOG%"
