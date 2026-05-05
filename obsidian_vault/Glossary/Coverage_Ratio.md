@@ -3,7 +3,7 @@ type: glossary
 slug: Coverage_Ratio
 title: Coverage Ratio — Interest Coverage
 category: balance_sheet
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, balance_sheet]
 ---
 
@@ -37,4 +37,4 @@ Mede **capacidade de pagar juros** com lucro operacional. Junto com Net Debt/EBI
 ❌ Empresa com leverage alto mas perpetual cash flow estável (REITs) tolera cobertura baixa.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

@@ -43,6 +43,7 @@ _(IC ainda não gerado para TFC. Execute `python -m agents.synthetic_ic TFC` par
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

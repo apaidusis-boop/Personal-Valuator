@@ -5,10 +5,12 @@ name: Bradesco
 market: br
 sector: Banks
 is_holding: True
-date: 2026-04-26
+date: 2026-05-05
 verdict: BUY
 verdict_confidence: high
 verdict_consensus_pct: 80.0
+strategy_primary: Dividend/DRIP (5/12)
+strategy_secondary: n/a
 sources: [in-house DB, BACEN IF.Data, Synthetic IC, vault thesis]
 tokens_claude_data_gather: 0
 tags: [research, dossie, br, banks]
@@ -16,45 +18,72 @@ tags: [research, dossie, br, banks]
 
 # 📑 BBDC4 — Bradesco
 
-> Generated **2026-04-26** by `ii dossier BBDC4`. Cross-links: [[BBDC4]] · [[BBDC4_IC_DEBATE]] · [[CONSTITUTION]]
+_Strategy: **Dividend/DRIP (5/12)**_
+
+> Generated **2026-05-05** by `ii dossier BBDC4`. Cross-links: [[BBDC4]] · [[BBDC4_IC_DEBATE]] · [[CONSTITUTION]]
 
 ## TL;DR
 
-BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE 13.75%, streak 19y. IC BUY (high confidence, 80% consensus); composite conviction 92 — top-tier. Phase FIX BR confirmou recovery: NII +16% YoY e Net income +31%, com NPL E-H em queda desde o pico de 10.14% (3T23) para 6.98% (4T24) — claramente em fase de saída do credit cycle.
+<!-- TODO_CLAUDE_TLDR: 3 frases sobre BBDC4 a partir das tabelas abaixo. Citar PE, DY, IC verdict, e o achado mais importante. -->
 
 ## 1. Fundamentals snapshot
 
-- **Período**: 2026-04-25
+- **Período**: 2026-05-04
 - **EPS**: 2.13  |  **BVPS**: 16.87
-- **ROE**: 13.75%  |  **P/E**: 9.35  |  **P/B**: 1.18
-- **DY**: 7.56%  |  **Streak div**: 19y  |  **Market cap**: R$ 210.57B
-- **Last price**: BRL 19.92 (2026-04-26)  |  **YoY**: +48.9%
+- **ROE**: 13.75%  |  **P/E**: 8.88  |  **P/B**: 1.12
+- **DY**: 7.96%  |  **Streak div**: 19y  |  **Market cap**: R$ 199.89B
+- **Last price**: BRL 18.91 (2026-05-04)  |  **YoY**: +40.7%
 
-## 2. Screen — BR Banks (CLAUDE.md)
+## 2. Strategy classification
+
+**Primary**: Dividend/DRIP (5/12)
+
+| Lente | Score | Sinais |
+|---|---|---|
+| Value (Graham) | **2/12** | +2 · P/B 1.12 < 1.5x |
+| Growth | **0/12** | — |
+| Dividend/DRIP | **5/12** | +2 · DY 8.0% > 5% · +2 · Histórico ininterrupto 19 anos ≥ 5 · +1 · JCP+Dividendo recurring BR market |
+| Buffett/Quality | **1/12** | +1 · Streak 19 anos ≥ 10 (consistência) |
+| Macro (Exp/Dep) | 0/6 + 0/6 = 0/12 | — |
+
+## 3. Multiples vs Sector (Banks)
+
+| Múltiplo | BBDC4 | Mediana setorial | Índice (Ibov/S&P) |
+|---|---|---|---|
+| P/E | 8.88x | 10.57x | 9.00x |
+| P/B | 1.12x | 0.90x | 1.60x |
+| DY | 8.0% | 8.0% | 6.0% |
+| FCF Yield | -35.1% | 5.7% | 5.0% |
+| ROE | 13.8% | 15.5% | 13.0% |
+| ND/EBITDA | — | — | — |
+
+_Peer set (db): 5 tickers — ITUB4, BBAS3, BPAC11, ABCB4, SANB11_
+
+## 4. Screen — BR Banks (CLAUDE.md)
 
 | Critério | Threshold | Valor | OK? |
 |---|---|---|---|
-| P/E ≤ 10 | ≤ 10 | **9.35** | ✅ |
-| P/B ≤ 1.5 | ≤ 1.5 | **1.18** | ✅ |
-| DY ≥ 6% | ≥ 6% | **7.56%** | ✅ |
+| P/E ≤ 10 | ≤ 10 | **8.88** | ✅ |
+| P/B ≤ 1.5 | ≤ 1.5 | **1.12** | ✅ |
+| DY ≥ 6% | ≥ 6% | **7.96%** | ✅ |
 | ROE ≥ 12% | ≥ 12% | **13.75%** | ✅ |
 | Streak div ≥ 5y | ≥ 5 | **19y** | ✅ |
 
 → **5/5 critérios** passam.
 
-## 3. Peer comparison
+## 5. Peer comparison
 
 ### Fundamentals
 
 | Métrica | BBDC4 | ABCB4 | ITUB4 |
 |---|---|---|---|
-| Market cap | R$ 210.57B | R$ 6.52B | R$ 489.02B |
-| P/E | 9.35 | 4.73 | 11.06 |
-| P/B | 1.18 | 0.90 | 2.39 |
+| Market cap | R$ 199.89B | R$ 6.52B | R$ 467.31B |
+| P/E | 8.88 | 4.73 | 10.57 |
+| P/B | 1.12 | 0.90 | 2.29 |
 | ROE | 13.75% | 15.46% | 21.01% |
-| DY | 7.56% | 10.30% | 7.68% |
+| DY | 7.96% | 10.30% | 8.04% |
 | Streak div | 19y | 16y | 19y |
-| YoY price | +48.9% | +21.0% | +31.5% |
+| YoY price | +40.7% | +21.0% | +23.1% |
 
 ### BACEN regulatório (latest non-NULL)
 
@@ -65,7 +94,7 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 | CET1 | 11.39% | 11.88% | 13.47% |
 | NPL E-H | n/a | n/a | n/a |
 
-## 4. BACEN timeline — capital + crédito
+## 6. BACEN timeline — capital + crédito
 
 | Período | Basel | CET1 | NPL E-H |
 |---|---|---|---|
@@ -100,18 +129,15 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 | 2025-06-30 | 15.47% | 11.06% | pending |
 | 2025-09-30 | 15.85% | 11.39% | pending |
 
-- **NPL peak identificado em 3T23** — NPL E-H subiu de 5.63% (3T21) até 10.14% (3T23), espelhando ciclo Selic alta + crise pós-Americanas; recovery clara para 6.98% em 4T24 (-316 bps em 5 trimestres).
-- **Capital sólido, mas inferior aos peers** — Basel 15.85% e CET1 11.39% (3T25) ficam abaixo de ABCB4 (16.71% / 11.88%) e ITUB4 (16.40% / 13.47%); BBDC4 é o menos capitalizado dos três mas dentro de regulamentação confortável.
-- **Recovery NII corroborada** — Phase FIX BR mostra NII +16% YoY e Net income +31% YoY; PDD ainda +16-18% (custo de crédito do sector ainda elevado).
-- **Cycle recovery play** — combinação NPL queda + NII recovery + P/B 1.18 (vs ITUB4 a 2.39) sugere re-rating em curso; thesis bate com IC BUY.
+<!-- TODO_CLAUDE_BACEN_INSIGHT: 3-4 bullets sobre tendência Basel/NPL + comparação peer. Identificar peak ciclo + recovery. -->
 
-## 5. Synthetic IC
+## 7. Synthetic IC
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
 → Detalhe: [[BBDC4_IC_DEBATE]]
 
-## 6. Thesis
+## 8. Thesis
 
 **Core thesis (2026-04-24)**: A Bradesco, com seu preço atual de R$19.96 e um P/E de 9.38, oferece uma oportunidade única para investidores Buffett/Graham em busca de valor a longo prazo. A empresa possui um sólido histórico de dividendos, mantendo-o por 19 anos consecutivos, com um rendimento atual de 7.54%. Além disso, o ROE de 13.75% e a relação Patrimônio Líquido/Patrimônio (PB) de 1.18 indicam uma gestão eficiente e sustentável do capital.
 
@@ -122,7 +148,7 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 
 → Vault: [[BBDC4]]
 
-## 7. Conviction breakdown
+## 9. Conviction breakdown
 
 | Component | Score |
 |---|---|
@@ -133,55 +159,21 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 | Data coverage | 100 |
 | Paper track | 90 |
 
+## 10. Riscos identificados
 
+<!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->
 
-
-
-
-
-
-
-
-## Tutor
-
-> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
-
-- **P/E = 9.35** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 9.35** passa.
-- **P/B = 1.18** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **1.18** OK.
-- **DY = 7.56%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **7.56%** passa.
-- **ROE = 13.75%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **13.75%** OK.
-- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
-- **Basel = 15.85%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **saudável** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
-- **CET1 = 11.39%** → [[Glossary/CET1|capital high-quality]]. Tier **saudável** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
-
-### Conceitos relacionados
-
-- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
-
-## 8. Riscos identificados
-
-- 🔴 **Reversão do credit cycle** — NPL caiu rapidamente; choque macro (recessão/Selic prolongada) pode reverter. Trigger: `bank_quarterly_history.npl_eh > 8%` em 2 quarters consecutivos.
-- 🟡 **ROE inferior a ITUB4 (13.75% vs 21.01%)** — gap estrutural; BBDC4 historicamente menos eficiente. Trigger: `fundamentals.roe < 0.12` 2Q seguidos.
-- 🟡 **CET1 11.39% — colchão menor** — abaixo de ITUB4 (13.47%); pouca margem se loss surge. Trigger: BACEN CET1 < 10.5%.
-- 🟡 **Rally YoY +48.9%** — re-rating já parcialmente preço-absorvido; risco de mean-reversion. Trigger: `prices.close` < 0.85 × pico 90d.
-- 🟢 **PDD ainda +16-18% YoY** — custo de crédito do sector ainda elevado, comprime ROE. Trigger: provisões trimestrais sobem >25% YoY.
-
-## 9. Position sizing
+## 11. Position sizing
 
 **Status atual**: holding (in portfolio)
 
-**Hold-to-add** — screen 5/5, conviction 92, IC BUY, recovery NII/NPL confirmados. Tese DRIP genuína (streak 19y, DY 7.56%); reinvestir dividendos via DRIP automático faz sentido. Cash em BRL fica em BR (não converter); considerar acréscimo em pullbacks (P/B < 1.05 ou DY > 8.5%) mantendo peso prudente <10% da sleeve BR para evitar concentração bancária excessiva (já há ITSA4 + outros). Trim só se NPL voltar acima de 8% sustentado.
+<!-- TODO_CLAUDE_SIZING: guidance breve para entrada/aumento/redução. Considerar BR/US isolation, market cap, weight prudente, DRIP/cash deploy. -->
 
-## 10. Tracking triggers (auto-monitoring)
+## 12. Tracking triggers (auto-monitoring)
 
-- **NPL re-inflate** — `SELECT npl_eh FROM bank_quarterly_history WHERE ticker='BBDC4' ORDER BY period_end DESC LIMIT 2` > 8% em 2 quarters
-- **CET1 erosão** — `bank_quarterly_history.cet1 < 10.5%`
-- **ROE colapsa** — `SELECT roe FROM fundamentals WHERE ticker='BBDC4' ORDER BY period_end DESC LIMIT 1` < 0.12
-- **DY trap** — `fundamentals.dy < 0.06` (sinal de payout reduction)
-- **P/B premium injustificado** — `fundamentals.pb > 1.5 AND fundamentals.roe < 0.13`
-- **Thesis health degrada** — `SELECT thesis_health FROM conviction_scores WHERE ticker='BBDC4'` < 70
+<!-- TODO_CLAUDE_TRIGGERS: 3-5 condições mensuráveis em SQL/data que indicariam re-avaliação. Ex: 'NPL > 4%', 'DY < 5.5%', 'thesis_health score < 60'. Citar tabela/coluna a monitorar. -->
 
-## 11. Compute trail
+## 13. Compute trail
 
 | Stage | Tool | Tokens Claude |
 |---|---|---|
@@ -194,4 +186,4 @@ BBDC4 passa 5/5 critérios do screen BR Banks: P/E 9.35, P/B 1.18, DY 7.56%, ROE
 → Re-run desta dossier (refresh): ~0.5s + 0 tokens (data layer só) ou ~600 tokens (re-fill narrativa).
 
 ---
-*Generated by `ii dossier BBDC4` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
+*Generated by `ii dossier BBDC4` on 2026-05-05. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*

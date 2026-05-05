@@ -1,0 +1,4051 @@
+{
+  "target_weights": {
+    "ACN": 0.1234,
+    "TSM": 0.112,
+    "IBM": 0.1097,
+    "MSFT": 0.1051,
+    "AAPL": 0.1029,
+    "TTD": 0.0898,
+    "GREK": 0.0853,
+    "PLTR": 0.0761,
+    "HD": 0.0701,
+    "PLD": 0.0607,
+    "PG": 0.0328,
+    "KO": 0.032
+  },
+  "per_engine": {
+    "buffett": [
+      {
+        "ticker": "AAPL",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 34.391636,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 45.24008,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.003832688323593613,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 1.5202099,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 15,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.6097,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 3,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ABBV",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.8,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 103.58824,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": -114.22703,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.03189475566153621,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 1.2866165413533834,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 14,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            }
+          },
+          "passes": 4,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ACN",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 14.648361,
+              "threshold": 20,
+              "verdict": "pass"
+            },
+            "pb": {
+              "value": 3.520547,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.01740249500957954,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.24763,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 22,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.2175,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 4,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BLK",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.3333,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 26.841309,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 2.9566572,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.02004504550429898,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.09935943315201833,
+              "threshold": 0.15,
+              "verdict": "fail"
+            },
+            "aristocrat": {
+              "value": 24,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.0918,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 2,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BN",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.3333,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 92.08163,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 2.3125417,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.00554078027300957,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.01951,
+              "threshold": 0.15,
+              "verdict": "fail"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "roic": {
+              "value": 0.0552,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 2,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BRK-B",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 15.257731,
+              "threshold": 20,
+              "verdict": "pass"
+            },
+            "pb": {
+              "value": 0.0009497396,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": null,
+              "threshold": 0.025,
+              "verdict": "n/a",
+              "reason": "DY em falta"
+            },
+            "roe": {
+              "value": 0.09809,
+              "threshold": 0.15,
+              "verdict": "fail"
+            },
+            "aristocrat": {
+              "value": 0,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.0817,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GREK",
+        "market": "us",
+        "engine": "buffett",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 11.177723,
+              "threshold": 20,
+              "verdict": "pass"
+            },
+            "pb": {
+              "value": null,
+              "threshold": 3,
+              "verdict": "n/a",
+              "reason": "P/B em falta"
+            },
+            "dividend_yield": {
+              "value": 0.032651895634677304,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": null,
+              "threshold": 0.15,
+              "verdict": "n/a",
+              "reason": "ROE em falta"
+            },
+            "aristocrat": {
+              "value": 15,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            }
+          },
+          "passes": 3,
+          "applicable": 3
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GS",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_bank",
+          "details": {
+            "pe": {
+              "value": 16.860193,
+              "threshold": 12,
+              "verdict": "fail"
+            },
+            "price_to_tangible_book": {
+              "value": 2.5676968,
+              "threshold": 1.8,
+              "verdict": "fail",
+              "kind": "p_b_proxy"
+            },
+            "dividend_yield": {
+              "value": 0.016779068028063077,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "rotce": {
+              "value": 0.14591,
+              "threshold": 0.12,
+              "verdict": "pass",
+              "kind": "roe_proxy"
+            },
+            "cet1": {
+              "value": null,
+              "threshold": 0.11,
+              "verdict": "n/a",
+              "reason": "CET1 não populado (10-Q XBRL parser pendente)"
+            },
+            "efficiency_ratio": {
+              "value": null,
+              "threshold": 0.6,
+              "verdict": "n/a",
+              "reason": "Efficiency ratio não populado (10-Q XBRL parser pendente)"
+            },
+            "dividend_streak_post_gfc": {
+              "value": 28,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak_post_gfc"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "HD",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 23.089888,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 25.5597,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.028071777197910774,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 1.45541,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "roic": {
+              "value": 0.2124,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 4,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "IBM",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 20.422634,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 6.5838156,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.029093428540568605,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 0.35772,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            }
+          },
+          "passes": 3,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JNJ",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 26.603008,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 6.813399,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.022623449475385787,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.26416,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "roic": {
+              "value": 0.2047,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 3,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JPM",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_bank",
+          "details": {
+            "pe": {
+              "value": 14.979915,
+              "threshold": 12,
+              "verdict": "fail"
+            },
+            "price_to_tangible_book": {
+              "value": 2.439866,
+              "threshold": 1.8,
+              "verdict": "fail",
+              "kind": "p_b_proxy"
+            },
+            "dividend_yield": {
+              "value": 0.01883599844542841,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "rotce": {
+              "value": 0.16465001,
+              "threshold": 0.12,
+              "verdict": "pass",
+              "kind": "roe_proxy"
+            },
+            "cet1": {
+              "value": null,
+              "threshold": 0.11,
+              "verdict": "n/a",
+              "reason": "CET1 não populado (10-Q XBRL parser pendente)"
+            },
+            "efficiency_ratio": {
+              "value": null,
+              "threshold": 0.6,
+              "verdict": "n/a",
+              "reason": "Efficiency ratio não populado (10-Q XBRL parser pendente)"
+            },
+            "dividend_streak_post_gfc": {
+              "value": 43,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak_post_gfc"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "KO",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 24.767296,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 10.076766,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.026155408127552314,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 0.43372002,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "roic": {
+              "value": 0.1796,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 4,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MCD",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 24.568201,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": -116.55022,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.024728362991103137,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": null,
+              "threshold": 0.15,
+              "verdict": "n/a",
+              "reason": "ROE em falta"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            }
+          },
+          "passes": 2,
+          "applicable": 4
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MSFT",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 25.550125,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 7.750261,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.00853401346416572,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.34390998,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 24,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "NU",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.25,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 24.965517,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 6.227957,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": null,
+              "threshold": 0.025,
+              "verdict": "n/a",
+              "reason": "DY em falta"
+            },
+            "roe": {
+              "value": 0.30278,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 0,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            }
+          },
+          "passes": 1,
+          "applicable": 4
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "O",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.7143,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_reit",
+          "details": {
+            "dividend_yield": {
+              "value": 0.05037360067885462,
+              "threshold": 0.03,
+              "verdict": "pass"
+            },
+            "dividend_streak": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "price_to_book": {
+              "value": 1.5213014,
+              "threshold": 1.5,
+              "verdict": "fail"
+            },
+            "net_debt_ebitda": {
+              "value": 5.681611353940902,
+              "threshold": 6.0,
+              "verdict": "pass"
+            },
+            "p_ffo": {
+              "value": 16.72,
+              "threshold": 18,
+              "verdict": "pass",
+              "ffo_per_share": 3.84
+            },
+            "interest_coverage": {
+              "value": 4.3252046774641055,
+              "threshold": 2.5,
+              "verdict": "pass"
+            },
+            "roic": {
+              "value": 0.026,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 5,
+          "applicable": 7
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PEP",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 24.880692,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 10.139467,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.03591393654311852,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 0.43879002,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            }
+          },
+          "passes": 3,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PG",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 21.504385,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 6.372774,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.028961860806727188,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "roe": {
+              "value": 0.31112,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "roic": {
+              "value": 0.1903,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 4,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLD",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4286,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_reit",
+          "details": {
+            "dividend_yield": {
+              "value": 0.028869172487379156,
+              "threshold": 0.03,
+              "verdict": "fail"
+            },
+            "dividend_streak": {
+              "value": true,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "aristocrat"
+            },
+            "price_to_book": {
+              "value": 2.4719336,
+              "threshold": 1.5,
+              "verdict": "fail"
+            },
+            "net_debt_ebitda": {
+              "value": 5.212867380650456,
+              "threshold": 6.0,
+              "verdict": "pass"
+            },
+            "p_ffo": {
+              "value": 22.24,
+              "threshold": 18,
+              "verdict": "fail",
+              "ffo_per_share": 6.39
+            },
+            "interest_coverage": {
+              "value": 7.577819284779056,
+              "threshold": 2.5,
+              "verdict": "pass"
+            },
+            "roic": {
+              "value": 0.0421,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 3,
+          "applicable": 7
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLTR",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.2,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 220.80952,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 45.033993,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": null,
+              "threshold": 0.025,
+              "verdict": "n/a",
+              "reason": "DY em falta"
+            },
+            "roe": {
+              "value": 0.25983,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 0,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.1467,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 1,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TEN",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 9.141574,
+              "threshold": 20,
+              "verdict": "pass"
+            },
+            "pb": {
+              "value": 0.65106755,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.014749262426226211,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.09087,
+              "threshold": 0.15,
+              "verdict": "fail"
+            },
+            "aristocrat": {
+              "value": 24,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.0567,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 3,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TFC",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.6,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_bank",
+          "details": {
+            "pe": {
+              "value": 12.747525,
+              "threshold": 12,
+              "verdict": "fail"
+            },
+            "price_to_tangible_book": {
+              "value": 1.0787147,
+              "threshold": 1.8,
+              "verdict": "pass",
+              "kind": "p_b_proxy"
+            },
+            "dividend_yield": {
+              "value": 0.04038834951456311,
+              "threshold": 0.025,
+              "verdict": "pass"
+            },
+            "rotce": {
+              "value": 0.08579001,
+              "threshold": 0.12,
+              "verdict": "fail",
+              "kind": "roe_proxy"
+            },
+            "cet1": {
+              "value": null,
+              "threshold": 0.11,
+              "verdict": "n/a",
+              "reason": "CET1 não populado (10-Q XBRL parser pendente)"
+            },
+            "efficiency_ratio": {
+              "value": null,
+              "threshold": 0.6,
+              "verdict": "n/a",
+              "reason": "Efficiency ratio não populado (10-Q XBRL parser pendente)"
+            },
+            "dividend_streak_post_gfc": {
+              "value": 40,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak_post_gfc"
+            }
+          },
+          "passes": 3,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSLA",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.0,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 353.3611,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 17.428415,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": null,
+              "threshold": 0.025,
+              "verdict": "n/a",
+              "reason": "DY em falta"
+            },
+            "roe": {
+              "value": 0.04901,
+              "threshold": 0.15,
+              "verdict": "fail"
+            },
+            "aristocrat": {
+              "value": 0,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.0458,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 0,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSM",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 33.851284,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 87.85817,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.008566883858292289,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.3621,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 23,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.2528,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 3,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TTD",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 26.211111,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 4.5191574,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": null,
+              "threshold": 0.025,
+              "verdict": "n/a",
+              "reason": "DY em falta"
+            },
+            "roe": {
+              "value": 0.16317,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 0,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.1594,
+              "threshold": 0.15,
+              "verdict": "pass"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "V",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.4,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 28.706701,
+              "threshold": 20,
+              "verdict": "fail"
+            },
+            "pb": {
+              "value": 16.46401,
+              "threshold": 3,
+              "verdict": "fail"
+            },
+            "dividend_yield": {
+              "value": 0.007640067996540033,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.60349,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 19,
+              "threshold": 10,
+              "verdict": "pass",
+              "kind": "streak"
+            }
+          },
+          "passes": 2,
+          "applicable": 5
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "XP",
+        "market": "us",
+        "engine": "buffett",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "kind": "us_company",
+          "details": {
+            "pe": {
+              "value": 9.876288,
+              "threshold": 20,
+              "verdict": "pass"
+            },
+            "pb": {
+              "value": 2.1094072,
+              "threshold": 3,
+              "verdict": "pass"
+            },
+            "dividend_yield": {
+              "value": 0.009394572099869412,
+              "threshold": 0.025,
+              "verdict": "fail"
+            },
+            "roe": {
+              "value": 0.23715,
+              "threshold": 0.15,
+              "verdict": "pass"
+            },
+            "aristocrat": {
+              "value": 8,
+              "threshold": 10,
+              "verdict": "fail",
+              "kind": "streak"
+            },
+            "roic": {
+              "value": 0.0337,
+              "threshold": 0.15,
+              "verdict": "fail"
+            }
+          },
+          "passes": 3,
+          "applicable": 6
+        },
+        "rank": null,
+        "message": ""
+      }
+    ],
+    "drip": [
+      {
+        "ticker": "AAPL",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.75,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 75.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.13181242078580482,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 0,
+              "weight": 20,
+              "value": 0.015202099,
+              "verdict": "RISK"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 15,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.15436031600455918,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.003832688323593613,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ABBV",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.25,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 25.0,
+          "safety_verdict": "RISK",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 0,
+              "weight": 35,
+              "value": 3.3039215686274512,
+              "verdict": "RISK"
+            },
+            {
+              "name": "roe_level",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "streak_years",
+              "score": 15,
+              "weight": 25,
+              "value": 14,
+              "verdict": "OK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.03189475566153621,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ACN",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.95,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 95.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.25491803278688524,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.24763,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 22,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -0.08309405074235562,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.01740249500957954,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BLK",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.812,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 81.2,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.5380352644836272,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 24,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.07215028811467121,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.02004504550429898,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BN",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.5,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 50.0,
+          "safety_verdict": "RISK",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.5102040816326531,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 0,
+              "weight": 20,
+              "value": 0.01951,
+              "verdict": "RISK"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 40,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 0,
+              "weight": 20,
+              "value": 8.274293585434183,
+              "verdict": "RISK"
+            }
+          ],
+          "dy": 0.00554078027300957,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BRK-B",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.462,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 46.2,
+          "safety_verdict": "RISK",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": 10,
+              "weight": 20,
+              "value": 0.09809,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "streak_years",
+              "score": 0,
+              "weight": 25,
+              "value": 0,
+              "verdict": "RISK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -2.151473114115567,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": null,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GREK",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.8,
+        "verdict": "BUY",
+        "weight_suggestion": 0.8,
+        "rationale": {
+          "safety_score": 80.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 15,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.032651895634677304,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GS",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.938,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 93.8,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.28289833911297685,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 15,
+              "weight": 20,
+              "value": 0.14591,
+              "verdict": "OK"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 28,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.016779068028063077,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "HD",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.8,
+        "verdict": "BUY",
+        "weight_suggestion": 0.8,
+        "rationale": {
+          "safety_score": 80.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.6481741573033708,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 1.4554099999999999,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 40,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 10,
+              "weight": 20,
+              "value": 2.579664948386075,
+              "verdict": "WATCH"
+            }
+          ],
+          "dy": 0.028071777197910774,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "IBM",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.75,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 75.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.5941644562334217,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.35772,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 65,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 5,
+              "weight": 20,
+              "value": 3.4928059239240326,
+              "verdict": "RISK"
+            }
+          ],
+          "dy": 0.029093428540568605,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JNJ",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.9,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 90.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.6018518518518519,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.26416,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 65,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.9595339068250398,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.022623449475385787,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JPM",
+        "market": "us",
+        "engine": "drip",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 100.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.2821616451458632,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.16465001,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 43,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.01883599844542841,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "KO",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.85,
+        "verdict": "BUY",
+        "weight_suggestion": 0.85,
+        "rationale": {
+          "safety_score": 85.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.6477987421383647,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.43372001999999993,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 65,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 15,
+              "weight": 20,
+              "value": 1.798767732942853,
+              "verdict": "OK"
+            }
+          ],
+          "dy": 0.026155408127552314,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MCD",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.688,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 68.8,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.6075313807531381,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 51,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 5,
+              "weight": 20,
+              "value": 3.703987841175171,
+              "verdict": "RISK"
+            }
+          ],
+          "dy": 0.024728362991103137,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MSFT",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.95,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 95.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.21804511278195488,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.34390998000000006,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 24,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.19294874431614215,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.00853401346416572,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "NU",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.444,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 44.4,
+          "safety_verdict": "RISK",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.30278,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 0,
+              "weight": 25,
+              "value": 0,
+              "verdict": "RISK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": null,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "O",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.6,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 60.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio_ffo",
+              "score": 25,
+              "weight": 35,
+              "value": 0.7721862099308081,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 0,
+              "weight": 20,
+              "value": 0.02702,
+              "verdict": "RISK"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 33,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 10,
+              "weight": 20,
+              "value": 5.681611353940902,
+              "verdict": "WATCH"
+            }
+          ],
+          "dy": 0.05037360067885462,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PEP",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.7,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 70.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 15,
+              "weight": 35,
+              "value": 0.893563579277865,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.43879002,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 55,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 10,
+              "weight": 20,
+              "value": 2.241121170488556,
+              "verdict": "WATCH"
+            }
+          ],
+          "dy": 0.03591393654311852,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PG",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.9,
+        "verdict": "BUY",
+        "weight_suggestion": 0.9,
+        "rationale": {
+          "safety_score": 90.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.6228070175438596,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.31112,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 65,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.9871416480454489,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.028961860806727188,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLD",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.85,
+        "verdict": "BUY",
+        "weight_suggestion": 0.85,
+        "rationale": {
+          "safety_score": 85.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio_ffo",
+              "score": 35,
+              "weight": 35,
+              "value": 0.6419179568104109,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 10,
+              "weight": 20,
+              "value": 0.06844,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 30,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 15,
+              "weight": 20,
+              "value": 5.212867380650456,
+              "verdict": "OK"
+            }
+          ],
+          "dy": 0.028869172487379156,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLTR",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.615,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 61.5,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.25983,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 0,
+              "weight": 25,
+              "value": 0,
+              "verdict": "RISK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -4.82425907121431,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": null,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TEN",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.65,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 65.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.1348314606741573,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 10,
+              "weight": 20,
+              "value": 0.09086999999999999,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 24,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 0,
+              "weight": 20,
+              "value": 4.20440617464603,
+              "verdict": "RISK"
+            }
+          ],
+          "dy": 0.014749262426226211,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TFC",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.75,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 75.0,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 25,
+              "weight": 35,
+              "value": 0.5148514851485149,
+              "verdict": "OK"
+            },
+            {
+              "name": "roe_level",
+              "score": 10,
+              "weight": 20,
+              "value": 0.08579001,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "streak_years",
+              "score": 25,
+              "weight": 25,
+              "value": 40,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.04038834951456311,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": true
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSLA",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.308,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 30.8,
+          "safety_verdict": "RISK",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": 0,
+              "weight": 20,
+              "value": 0.04901,
+              "verdict": "RISK"
+            },
+            {
+              "name": "streak_years",
+              "score": 0,
+              "weight": 25,
+              "value": 0,
+              "verdict": "RISK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -2.600775301126529,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": null,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSM",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.95,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 95.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.29,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.36210000000000003,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 23,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -0.8287645168907426,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.008566883858292289,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TTD",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.615,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 61.5,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": null,
+              "weight": 35,
+              "value": null,
+              "verdict": "n/a"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.16317,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 0,
+              "weight": 25,
+              "value": 0,
+              "verdict": "RISK"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": -1.2559349807022997,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": null,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "V",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.95,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 95.0,
+          "safety_verdict": "SAFE",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.21932114882506526,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.60349,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 20,
+              "weight": 25,
+              "value": 19,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": 20,
+              "weight": 20,
+              "value": 0.3310741660321202,
+              "verdict": "SAFE"
+            }
+          ],
+          "dy": 0.007640067996540033,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "XP",
+        "market": "us",
+        "engine": "drip",
+        "score": 0.788,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "safety_score": 78.8,
+          "safety_verdict": "WATCH",
+          "components": [
+            {
+              "name": "payout_ratio",
+              "score": 35,
+              "weight": 35,
+              "value": 0.09278350515463918,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "roe_level",
+              "score": 20,
+              "weight": 20,
+              "value": 0.23715,
+              "verdict": "SAFE"
+            },
+            {
+              "name": "streak_years",
+              "score": 8,
+              "weight": 25,
+              "value": 8,
+              "verdict": "WATCH"
+            },
+            {
+              "name": "net_debt_ebitda",
+              "score": null,
+              "weight": 20,
+              "value": null,
+              "verdict": "n/a"
+            }
+          ],
+          "dy": 0.009394572099869412,
+          "dy_floor": 0.025,
+          "has_yield_above_floor": false
+        },
+        "rank": null,
+        "message": ""
+      }
+    ],
+    "macro": [
+      {
+        "ticker": "AAPL",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ABBV",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "healthcare",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "ACN",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BLK",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BN",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "BRK-B",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "holding",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GREK",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "etf",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "GS",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "HD",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer disc.",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "IBM",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JNJ",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "healthcare",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "JPM",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "KO",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.3333,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer staples",
+          "tilt": "tilt_down",
+          "multiplier": 0.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MCD",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer disc.",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "MSFT",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "NU",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "O",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "reit",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PEP",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.3333,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer staples",
+          "tilt": "tilt_down",
+          "multiplier": 0.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PG",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.3333,
+        "verdict": "AVOID",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer staples",
+          "tilt": "tilt_down",
+          "multiplier": 0.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLD",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "reit",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "PLTR",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TEN",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "energy",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TFC",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSLA",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "consumer disc.",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TSM",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "technology",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "TTD",
+        "market": "us",
+        "engine": "macro",
+        "score": 1.0,
+        "verdict": "BUY",
+        "weight_suggestion": 1.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "communication",
+          "tilt": "tilt_up",
+          "multiplier": 1.5,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "V",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      },
+      {
+        "ticker": "XP",
+        "market": "us",
+        "engine": "macro",
+        "score": 0.6667,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "regime": "expansion",
+          "regime_confidence": "medium",
+          "sector": "financials",
+          "tilt": "neutral",
+          "multiplier": 1.0,
+          "regime_notes": "growth + productivity narrative"
+        },
+        "rank": null,
+        "message": ""
+      }
+    ],
+    "hedge": [
+      {
+        "ticker": "AAPL",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "ABBV",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "ACN",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "BLK",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "BN",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "BRK-B",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "GREK",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "GS",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "HD",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "IBM",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "JNJ",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "JPM",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "KO",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "MCD",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "MSFT",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "NU",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "O",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "PEP",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "PG",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "PLD",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "PLTR",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "TEN",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "TFC",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "TSLA",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "TSM",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "TTD",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "V",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      },
+      {
+        "ticker": "XP",
+        "market": "us",
+        "engine": "hedge",
+        "score": 1.0,
+        "verdict": "HOLD",
+        "weight_suggestion": 0.0,
+        "rationale": {
+          "market": "us",
+          "regime": "expansion",
+          "confidence": "medium",
+          "hedge_size_pct": 0.0,
+          "instruments": [],
+          "notional": null,
+          "rationale": [
+            "curva normal + labor estável = expansion"
+          ],
+          "cross_asset_alternatives": [
+            "GLD",
+            "TLT"
+          ],
+          "active": false
+        },
+        "rank": null,
+        "message": "No tactical hedge active in current regime"
+      }
+    ]
+  },
+  "bucket_weights": {
+    "graham": 0.25,
+    "buffett": 0.3,
+    "drip": 0.2,
+    "macro": 0.15,
+    "hedge": 0.1
+  },
+  "conflicts": [
+    {
+      "ticker": "AAPL",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "HOLD",
+        "macro": "BUY",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "KO",
+      "verdicts": {
+        "buffett": "HOLD",
+        "drip": "BUY",
+        "macro": "AVOID",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "MSFT",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "HOLD",
+        "macro": "BUY",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "PG",
+      "verdicts": {
+        "buffett": "HOLD",
+        "drip": "BUY",
+        "macro": "AVOID",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "PLD",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "BUY",
+        "macro": "HOLD",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "PLTR",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "HOLD",
+        "macro": "BUY",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "TSM",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "HOLD",
+        "macro": "BUY",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    },
+    {
+      "ticker": "TTD",
+      "verdicts": {
+        "buffett": "AVOID",
+        "drip": "HOLD",
+        "macro": "BUY",
+        "hedge": "HOLD"
+      },
+      "resolution": "averaged via bucket weights"
+    }
+  ],
+  "macro_overlay": {
+    "market": "us",
+    "regime": "expansion",
+    "confidence": "medium",
+    "tilt_up": [
+      "technology",
+      "discretionary",
+      "industrials",
+      "communication services"
+    ],
+    "tilt_down": [
+      "staples",
+      "utilities"
+    ],
+    "notes": "growth + productivity narrative"
+  },
+  "hedge_overlay": {
+    "market": "us",
+    "regime": "expansion",
+    "confidence": "medium",
+    "hedge_size_pct": 0.0,
+    "instruments": [],
+    "notional": null,
+    "rationale": [
+      "curva normal + labor estável = expansion"
+    ],
+    "cross_asset_alternatives": [
+      "GLD",
+      "TLT"
+    ],
+    "active": false
+  },
+  "notes": [
+    "Universe size: 28 | candidates: 12",
+    "Bucket weights: {'graham': 0.25, 'buffett': 0.3, 'drip': 0.2, 'macro': 0.15, 'hedge': 0.1}",
+    "Macro regime: expansion (medium)"
+  ]
+}

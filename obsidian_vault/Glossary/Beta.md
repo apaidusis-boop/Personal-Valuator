@@ -3,7 +3,7 @@ type: glossary
 slug: Beta
 title: Beta — Sensibilidade ao mercado
 category: risk
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, risk]
 ---
 
@@ -37,4 +37,4 @@ tags: [glossary, tutor, risk]
 ❌ Beta de cap pequeno é unreliable (low liquidity inflates noise).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

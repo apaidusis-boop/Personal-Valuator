@@ -56,6 +56,7 @@ KO negoceia a P/E 25.21 com DY 2.69% e ROE 43.32%, IC HOLD com confiança média
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

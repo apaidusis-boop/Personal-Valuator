@@ -3,7 +3,7 @@ type: glossary
 slug: NAV
 title: NAV — Net Asset Value (Patrimônio Líquido)
 category: valuation
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, valuation]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, valuation]
 ❌ NAV ajustado por goodwill é mais conservador (deflate intangible).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

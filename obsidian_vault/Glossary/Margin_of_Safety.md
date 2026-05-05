@@ -3,7 +3,7 @@ type: glossary
 slug: Margin_of_Safety
 title: Margin of Safety — Margem de Segurança (Graham/Buffett)
 category: concept
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, concept]
 ---
 
@@ -100,4 +100,4 @@ tags: [glossary, tutor, concept]
 - [[XP_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

@@ -60,6 +60,7 @@ McDonald's transaciona a P/E 25.07 com DY 2.43% e streak de 51y (Dividend King) 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

@@ -3,7 +3,7 @@ type: glossary
 slug: CDI
 title: CDI — Certificado de Depósito Interbancário
 category: macro_br
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, macro_br]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, macro_br]
 ❌ Para investidor PJ ou offshore, benchmarks diferentes.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

@@ -3,7 +3,7 @@ type: glossary
 slug: ROE
 title: ROE — Return on Equity
 category: quality
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, quality]
 ---
 
@@ -115,4 +115,4 @@ Taxa de retorno que a empresa gera sobre o capital dos accionistas. **Métrica c
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*

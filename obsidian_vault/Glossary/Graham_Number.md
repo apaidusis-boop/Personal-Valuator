@@ -3,7 +3,7 @@ type: glossary
 slug: Graham_Number
 title: Graham Number — Margem de Segurança Quantitativa
 category: valuation
-date: 2026-04-30
+date: 2026-05-04
 tags: [glossary, tutor, valuation]
 ---
 
@@ -100,4 +100,4 @@ Preço-tecto que combina P/E ≤ 15 com P/B ≤ 1.5 (15 × 1.5 = 22.5). Se Preç
 - [[XP_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-04-30.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*
