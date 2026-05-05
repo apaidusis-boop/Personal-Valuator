@@ -51,18 +51,24 @@ export default function ActionButton({
     ? "px-2 py-0.5 text-[10px]"
     : "px-3 py-1 text-xs";
 
+  // Editorial tone — borders carry the meaning, backgrounds stay calm
   const toneCls = {
-    primary: "border-purple-700/50 bg-purple-900/30 hover:bg-purple-900/50 text-purple-200",
-    ok:      "border-green-700/50 bg-green-900/30 hover:bg-green-900/50 text-green-200",
-    danger:  "border-red-700/50 bg-red-900/30 hover:bg-red-900/50 text-red-200",
-    ghost:   "border-zinc-700 bg-zinc-900/40 hover:bg-zinc-900/70 text-zinc-300",
+    primary:
+      "border-[var(--accent-primary)] text-[var(--accent-primary)] hover:bg-[var(--bg-overlay)]",
+    ok:
+      "border-[var(--verdict-buy)] text-[var(--verdict-buy)] hover:bg-[var(--bg-overlay)]",
+    danger:
+      "border-[var(--verdict-avoid)] text-[var(--verdict-avoid)] hover:bg-[var(--bg-overlay)]",
+    ghost:
+      "border-[var(--border-subtle)] text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]",
   }[tone];
 
   return (
     <button
       onClick={handle}
       disabled={busy}
-      className={`font-mono rounded border ${sz} ${toneCls} disabled:opacity-50`}
+      className={`font-mono border ${sz} ${toneCls} disabled:opacity-50 transition-colors`}
+      style={{ borderRadius: "var(--radius)" }}
       title={done?.message}
     >
       {busy ? busyLabel : done?.ok ? (doneLabel || "✓") : done && !done.ok ? "✗" : label}

@@ -3,6 +3,7 @@ import "./globals.css";
 import Sidebar from "@/components/sidebar";
 import ChatWidget from "@/components/chat-widget";
 import HedgeBanner from "@/components/hedge-banner";
+import ThemeInit from "@/components/theme-init";
 
 export const metadata: Metadata = {
   title: "Mission Control — LocalClaw",
@@ -13,7 +14,10 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR" className="h-full antialiased">
+    <html lang="pt-BR" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <ThemeInit />
+      </head>
       <body className="min-h-screen flex">
         <Sidebar />
         <main className="flex-1 overflow-y-auto">

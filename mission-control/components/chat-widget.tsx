@@ -148,45 +148,49 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Trigger button */}
+      {/* Trigger button — editorial pill, not a glowing orb */}
       <button
         onClick={() => setOpen((v) => !v)}
         className={
-          "fixed bottom-5 right-5 z-50 grid place-items-center w-12 h-12 rounded-full " +
-          "transition-all duration-200 hover:scale-105 type-h2 " +
+          "fixed bottom-5 right-5 z-50 px-3 py-2 type-mono-sm " +
+          "border transition-colors flex items-center gap-2 " +
           (open
-            ? "bg-[var(--bg-overlay)] border border-[var(--border-strong)] text-[var(--text-secondary)]"
-            : "")
-        }
-        style={
-          !open
-            ? {
-                background:
-                  "linear-gradient(135deg, var(--accent-primary), var(--accent-glow))",
-                boxShadow: "0 0 24px rgba(139,92,246,0.4)",
-              }
-            : undefined
+            ? "bg-[var(--bg-overlay)] border-[var(--border-strong)] text-[var(--text-secondary)]"
+            : "bg-[var(--bg-elevated)] border-[var(--border-strong)] text-[var(--text-primary)] hover:border-[var(--accent-primary)]")
         }
         aria-label="Antonio Carlos"
         title="Antonio Carlos · cmd+k"
       >
-        <span aria-hidden>{open ? "×" : "◈"}</span>
+        {!open && (
+          <span
+            className="w-1.5 h-1.5 rounded-full bg-[var(--verdict-buy)] dot-live"
+            aria-hidden
+          />
+        )}
+        <span>{open ? "close" : "antonio carlos"}</span>
+        {!open && (
+          <span className="text-[var(--text-disabled)]" aria-hidden>
+            ⌘K
+          </span>
+        )}
       </button>
 
       {/* Panel */}
       {open && (
-        <div className="fixed bottom-20 right-5 z-50 w-[28rem] max-w-[calc(100vw-2rem)] h-[34rem] flex flex-col rounded-lg overflow-hidden border border-[var(--border-strong)] shadow-2xl"
-          style={{ background: "var(--bg-elevated)" }}
+        <div
+          className="fixed bottom-16 right-5 z-50 w-[28rem] max-w-[calc(100vw-2rem)] h-[34rem] flex flex-col overflow-hidden border border-[var(--border-strong)] shadow-2xl"
+          style={{ background: "var(--bg-elevated)", borderRadius: "var(--radius)" }}
         >
           <header className="flex items-center justify-between px-4 py-3 border-b border-[var(--border-subtle)]">
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-glow)] dot-live animate-pulse" aria-hidden />
-              <span className="type-body text-[var(--text-primary)] font-medium">
+              <span
+                className="w-1.5 h-1.5 rounded-full bg-[var(--verdict-buy)] dot-live"
+                aria-hidden
+              />
+              <span className="serif text-[var(--text-primary)]" style={{ fontSize: 16, fontWeight: 600 }}>
                 Antonio Carlos
               </span>
-              <span className="type-mono-sm text-[var(--text-tertiary)]">
-                · chief of staff
-              </span>
+              <span className="type-byline">· chief of staff</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="type-mono-sm text-[var(--text-disabled)] hidden sm:inline">
@@ -297,10 +301,11 @@ function Bubble({ msg }: { msg: Msg }) {
     return (
       <div className="flex justify-end">
         <div
-          className="rounded-lg px-3 py-2 max-w-[85%] type-body-sm whitespace-pre-wrap"
+          className="px-3 py-2 max-w-[85%] type-body-sm whitespace-pre-wrap"
           style={{
-            background: "rgba(6,182,212,0.08)",
-            border: "1px solid rgba(6,182,212,0.2)",
+            background: "var(--bg-overlay)",
+            borderLeft: "2px solid var(--accent-glow)",
+            borderRadius: "var(--radius)",
             color: "var(--text-primary)",
           }}
         >
@@ -312,10 +317,11 @@ function Bubble({ msg }: { msg: Msg }) {
   if (msg.role === "error") {
     return (
       <div
-        className="rounded-lg px-3 py-2 type-mono-sm whitespace-pre-wrap"
+        className="px-3 py-2 type-mono-sm whitespace-pre-wrap"
         style={{
-          background: "rgba(239,68,68,0.06)",
-          border: "1px solid rgba(239,68,68,0.25)",
+          background: "var(--bg-overlay)",
+          borderLeft: "2px solid var(--verdict-avoid)",
+          borderRadius: "var(--radius)",
           color: "var(--verdict-avoid)",
         }}
       >
@@ -326,10 +332,11 @@ function Bubble({ msg }: { msg: Msg }) {
   return (
     <div className="flex justify-start">
       <div
-        className="rounded-lg px-3 py-2 max-w-[88%] type-body-sm whitespace-pre-wrap leading-relaxed"
+        className="px-3 py-2 max-w-[88%] type-body-sm whitespace-pre-wrap leading-relaxed"
         style={{
-          background: "rgba(139,92,246,0.06)",
-          border: "1px solid rgba(139,92,246,0.18)",
+          background: "var(--bg-overlay)",
+          borderLeft: "2px solid var(--accent-primary)",
+          borderRadius: "var(--radius)",
           color: "var(--text-primary)",
         }}
       >

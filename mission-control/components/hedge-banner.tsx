@@ -12,10 +12,11 @@ export default function HedgeBanner() {
   if (!banners.length) return null;
   return (
     <div
-      className="border-b px-6 py-2 flex flex-wrap gap-x-6 gap-y-1"
+      className="border-b border-t-2 px-6 py-2 flex flex-wrap gap-x-6 gap-y-1"
       style={{
-        background: "rgba(239,68,68,0.06)",
-        borderColor: "rgba(239,68,68,0.25)",
+        background: "var(--bg-overlay)",
+        borderTopColor: "var(--verdict-avoid)",
+        borderBottomColor: "var(--border-subtle)",
       }}
     >
       {banners.map((b) => (
@@ -27,7 +28,7 @@ export default function HedgeBanner() {
             className="pill pill-avoid"
             title={`Tactical hedge active in ${b.market.toUpperCase()}`}
           >
-            <span aria-hidden>⚑</span> hedge on · {b.market.toUpperCase()}
+            hedge on · {b.market.toUpperCase()}
           </span>
           <span className="text-[var(--text-secondary)]">
             regime <span className="text-[var(--text-primary)]">{b.hedge.regime}</span>

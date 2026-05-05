@@ -6,10 +6,16 @@ import { II_ROOT } from "@/lib/paths";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// Heuristic: where to find Python. Prefer the project's venv if present.
-function pythonExe(): string {
+// Resolve the project's venv Python. Fall back to system `python` ONLY if the
+// venv is genuinely missing (fresh checkout) — and never silently: the caller
+// surfaces a clear error if the venv is gone. We avoid the bare `python` on
+// Windows because the default PATH puts the Microsoft Store App Execution
+// Alias first, and that alias fails with 0xC0000142 STATUS_DLL_INIT_FAILED
+// when spawned by a long-running Node parent.
+function pythonExe(): { path: string; from_venv: boolean } {
   const venv = path.join(II_ROOT, ".venv", "Scripts", "python.exe");
-  return require("node:fs").existsSync(venv) ? venv : "python";
+  if (require("node:fs").existsSync(venv)) return { path: venv, from_venv: true };
+  return { path: "python", from_venv: false };
 }
 
 export async function POST(req: NextRequest) {
@@ -25,12 +31,38 @@ export async function POST(req: NextRequest) {
 
   return new Promise<Response>((resolve) => {
     const py = pythonExe();
-    const proc = spawn(py, [
+    if (!py.from_venv) {
+      resolve(
+        NextResponse.json(
+          {
+            error: `venv missing at ${path.join(II_ROOT, ".venv", "Scripts", "python.exe")}. ` +
+              `Run: cd ${II_ROOT} && python -m venv .venv && .venv\\Scripts\\pip install -r requirements.txt`,
+          },
+          { status: 500 }
+        )
+      );
+      return;
+    }
+    // Strip Store Python aliases from PATH so any indirect `python` lookup
+    // (subprocess libs, popen calls inside Python) doesn't hit them.
+    const filteredPath = (process.env.PATH || "")
+      .split(path.delimiter)
+      .filter((p) => !/WindowsApps/i.test(p))
+      .join(path.delimiter);
+    const proc = spawn(py.path, [
       "-X", "utf8",
       "-m", "agents.chief_of_staff",
       "--chat-id", chat_id,
       message,
-    ], { cwd: II_ROOT, env: { ...process.env, PYTHONIOENCODING: "utf-8" } });
+    ], {
+      cwd: II_ROOT,
+      env: {
+        ...process.env,
+        PATH: filteredPath,
+        PYTHONIOENCODING: "utf-8",
+        PYTHONUTF8: "1",
+      },
+    });
 
     let stdout = "";
     let stderr = "";

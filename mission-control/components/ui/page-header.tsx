@@ -15,6 +15,10 @@ type Props = {
   actions?: ReactNode;
 };
 
+/**
+ * Editorial-style page header.
+ * Title in serif. Subtitle as italic byline. Hard rule under — FT signature.
+ */
 export default function PageHeader({
   title,
   subtitle,
@@ -24,7 +28,8 @@ export default function PageHeader({
   staleHours = 24,
   actions,
 }: Props) {
-  const stale = freshness !== undefined && freshness !== null && isStale(freshness, staleHours);
+  const stale =
+    freshness !== undefined && freshness !== null && isStale(freshness, staleHours);
   return (
     <header className="mb-8">
       {crumbs && crumbs.length > 0 && (
@@ -44,41 +49,51 @@ export default function PageHeader({
                     {c.label}
                   </Link>
                 ) : (
-                  <span className={last ? "text-[var(--text-secondary)]" : "text-[var(--text-tertiary)]"}>
+                  <span
+                    className={
+                      last
+                        ? "text-[var(--text-secondary)]"
+                        : "text-[var(--text-tertiary)]"
+                    }
+                  >
                     {c.label}
                   </span>
                 )}
-                {!last && <span className="text-[var(--text-disabled)]">›</span>}
+                {!last && (
+                  <span className="text-[var(--text-disabled)]">›</span>
+                )}
               </span>
             );
           })}
         </nav>
       )}
-      <div className="flex items-start justify-between gap-6">
-        <div>
-          <h1 className="type-h1 text-[var(--text-primary)]">{title}</h1>
+      <div className="flex items-end justify-between gap-6">
+        <div className="min-w-0">
+          <h1 className="type-display">{title}</h1>
           {subtitle && (
-            <p className="type-body-sm text-[var(--text-secondary)] mt-1">
-              {subtitle}
-            </p>
+            <p className="type-byline mt-1.5">{subtitle}</p>
           )}
         </div>
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-3 shrink-0 pb-1">
           {freshness !== undefined && freshness !== null && (
             <span
-              className={
-                "pill " + (stale ? "pill-hold" : "pill-glow")
-              }
+              className={"pill " + (stale ? "pill-hold" : "pill-glow")}
               title={typeof freshness === "string" ? freshness : ""}
             >
-              {!stale && <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-glow)] dot-live" />}
-              {stale && <span aria-hidden>⚑</span>}
+              {!stale && (
+                <span
+                  className="w-1.5 h-1.5 rounded-full bg-current dot-live"
+                  aria-hidden
+                />
+              )}
+              {stale && <span aria-hidden>!</span>}
               {freshnessLabel || formatDate(freshness, "relative")}
             </span>
           )}
           {actions}
         </div>
       </div>
+      <div className="rule-hard" />
     </header>
   );
 }

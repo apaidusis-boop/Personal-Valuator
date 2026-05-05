@@ -1,77 +1,130 @@
 @import "tailwindcss";
 
 /* ============================================================
- * Mission Control v2 — design tokens
- * Documented in obsidian_vault/skills/Mission_Control_Design_v2.md
+ * Mission Control v3 — "Broadsheet"
+ *
+ * Editorial design language inspired by Financial Times and
+ * Wall Street Journal. Light theme = FT salmon paper. Dark theme
+ * = warm charcoal (not blue, not pure black). Serif headlines,
+ * sans body, mono numerics. Rules instead of cards.
+ *
+ * Tokens are theme-aware — light values live under :root,
+ * dark values override under [data-theme="dark"].
  * ============================================================ */
-:root {
-  /* Foundation surfaces */
-  --bg-canvas:        #0a0a14;
-  --bg-elevated:      #0f0f1f;
-  --bg-overlay:       #15152e;
-  --bg-deep:          #07070d;
 
-  --border-subtle:    #1a1a3a;
-  --border-strong:    #2a2a55;
+:root,
+[data-theme="light"] {
+  /* Surfaces — FT salmon broadsheet */
+  --bg-canvas:        #FFF1E5;   /* FT iconic paper */
+  --bg-elevated:      #FFFAF3;   /* slightly lifted from canvas */
+  --bg-overlay:       #F5E6D2;   /* hover, deeper salmon */
+  --bg-deep:          #F2DEC2;   /* sidebar, masthead */
 
-  /* Text scale */
-  --text-primary:     #e8e8f0;
-  --text-secondary:   #a0a0b8;
-  --text-tertiary:    #6c6c88;
-  --text-disabled:    #303048;
+  --border-subtle:    #E5D6BE;   /* warm tan rule */
+  --border-strong:    #B3A48A;   /* darker rule */
+  --rule:             #1A1A1A;   /* editorial hard rule (under titles) */
 
-  /* Accents — sparing use */
-  --accent-primary:   #8b5cf6;     /* purple — nav active */
-  --accent-glow:      #06b6d4;     /* cyan — links / focus */
+  /* Text — warm black, not pure */
+  --text-primary:     #1A1815;
+  --text-secondary:   #4A4540;
+  --text-tertiary:    #6B6359;
+  --text-disabled:    #A89E8E;
 
-  /* Verdicts (same color cross-page) */
-  --verdict-buy:      #22c55e;
-  --verdict-hold:     #f59e0b;
-  --verdict-avoid:    #ef4444;
-  --verdict-na:       #6c6c88;
+  /* Accents — FT-restrained */
+  --accent-primary:   #990F3D;   /* FT raspberry / claret */
+  --accent-glow:      #1F3864;   /* WSJ deep navy (links) */
+
+  /* Verdicts — restrained, not casino */
+  --verdict-buy:      #006F3C;   /* FT green */
+  --verdict-hold:     #B3741F;   /* umber */
+  --verdict-avoid:    #B22222;   /* firebrick (not vermillion) */
+  --verdict-na:       #6B6359;
 
   /* Financial gain/loss */
-  --gain:             #22c55e;
-  --loss:             #ef4444;
-  --neutral:          #6c6c88;
+  --gain:             #006F3C;
+  --loss:             #B22222;
+  --neutral:          #6B6359;
 
-  /* Markets — subtle */
-  --mkt-br:           #fbbf24;
-  --mkt-us:           #3b82f6;
+  /* Markets */
+  --mkt-br:           #006F3C;   /* green for BR */
+  --mkt-us:           #1F3864;   /* navy for US */
 
-  /* Quality flags (data layer) */
-  --qual-ok:          #22c55e;
-  --qual-warning:     #f59e0b;
-  --qual-degraded:    #f97316;
-  --qual-critical:    #ef4444;
+  /* Quality flags */
+  --qual-ok:          #006F3C;
+  --qual-warning:     #B3741F;
+  --qual-degraded:    #A04500;
+  --qual-critical:    #B22222;
+}
 
-  /* Spacing */
+[data-theme="dark"] {
+  /* Surfaces — warm charcoal, deliberately NOT blue or pure black */
+  --bg-canvas:        #1B1916;
+  --bg-elevated:      #232018;
+  --bg-overlay:       #2D2922;
+  --bg-deep:          #131210;
+
+  --border-subtle:    #36322B;
+  --border-strong:    #564F44;
+  --rule:             #BFB7A8;   /* light rule on dark */
+
+  /* Text — warm cream, NOT pure white */
+  --text-primary:     #F2EDE3;
+  --text-secondary:   #BFB7A8;
+  --text-tertiary:    #8A8275;
+  --text-disabled:    #4F4A40;
+
+  /* Accents */
+  --accent-primary:   #E8957B;   /* warm peach (analog to claret) */
+  --accent-glow:      #95B0DD;   /* soft navy at night */
+
+  /* Verdicts */
+  --verdict-buy:      #6FAE7E;
+  --verdict-hold:     #D4A55A;
+  --verdict-avoid:    #D97777;
+  --verdict-na:       #8A8275;
+
+  --gain:             #6FAE7E;
+  --loss:             #D97777;
+  --neutral:          #8A8275;
+
+  --mkt-br:           #6FAE7E;
+  --mkt-us:           #95B0DD;
+
+  --qual-ok:          #6FAE7E;
+  --qual-warning:     #D4A55A;
+  --qual-degraded:    #D9905A;
+  --qual-critical:    #D97777;
+}
+
+:root {
+  /* Spacing — tighter than v2, broadsheet density */
   --space-1: 4px;  --space-2: 8px;  --space-3: 12px;
   --space-4: 16px; --space-5: 20px; --space-6: 24px;
-  --space-8: 32px; --space-10: 40px; --space-12: 48px; --space-16: 64px;
+  --space-8: 32px; --space-10: 40px; --space-12: 48px;
 
-  /* Radius */
-  --radius-sm: 4px;
-  --radius:    8px;
-  --radius-lg: 12px;
+  /* Radius — sharp editorial */
+  --radius-sm: 0px;
+  --radius:    2px;
+  --radius-lg: 2px;
 
   /* Motion */
-  --motion-fast:  120ms ease-out;
-  --motion:       180ms ease-out;
-  --motion-slow:  320ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-fast:  100ms ease-out;
+  --motion:       160ms ease-out;
+  --motion-slow:  280ms cubic-bezier(0.16, 1, 0.3, 1);
 
-  /* Type families */
-  --font-sans: "Inter", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+  /* Type families — broadsheet stack */
+  --font-serif: "Source Serif 4", Charter, Cambria, Georgia, "Times New Roman", serif;
+  --font-sans:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:  "JetBrains Mono", "SFMono-Regular", "Menlo", "Consolas", monospace;
 
-  /* Aliases for backwards compat (existing code paths) */
+  /* Aliases for backwards compat with existing components */
   --background:    var(--bg-canvas);
   --foreground:    var(--text-primary);
   --card:          var(--bg-elevated);
   --card-border:   var(--border-subtle);
   --accent-cyan:   var(--accent-glow);
   --accent-purple: var(--accent-primary);
-  --accent-magenta:#f472b6;            /* legacy, deprecated */
+  --accent-magenta:var(--accent-primary);
   --accent-green:  var(--verdict-buy);
   --accent-red:    var(--verdict-avoid);
   --accent-yellow: var(--verdict-hold);
@@ -85,13 +138,19 @@
   --color-card-border:var(--border-subtle);
   --color-cyan:       var(--accent-glow);
   --color-purple:     var(--accent-primary);
-  --color-magenta:    #f472b6;
+  --color-magenta:    var(--accent-primary);
   --color-success:    var(--verdict-buy);
   --color-danger:     var(--verdict-avoid);
   --color-warn:       var(--verdict-hold);
   --color-muted:      var(--text-tertiary);
   --font-mono: var(--font-mono);
   --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+html {
+  /* Prevent flash by setting background early */
+  background: var(--bg-canvas);
 }
 
 body {
@@ -100,36 +159,74 @@ body {
   font-family: var(--font-sans);
   font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
-  letter-spacing: -0.005em;
-  /* Subtle ambient lighting; less aggressive than v1 */
-  background-image:
-    radial-gradient(at 18% 4%, rgba(139, 92, 246, 0.04) 0px, transparent 60%),
-    radial-gradient(at 92% 96%, rgba(6, 182, 212, 0.03) 0px, transparent 50%);
-  background-attachment: fixed;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.003em;
 }
 
 /* ============================================================
- * Typography utilities
+ * Typography utilities — editorial scale
+ * Headlines: serif. Body: sans. Numbers: mono.
  * ============================================================ */
-.type-display    { font-size: 32px; line-height: 1.1;  font-weight: 600; letter-spacing: -0.02em; }
-.type-h1         { font-size: 24px; line-height: 1.2;  font-weight: 600; letter-spacing: -0.01em; }
-.type-h2         { font-size: 18px; line-height: 1.3;  font-weight: 600; }
-.type-h3         { font-size: 11px; line-height: 1.4;  font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-tertiary); }
-.type-body       { font-size: 14px; line-height: 1.55; }
-.type-body-sm    { font-size: 13px; line-height: 1.5;  }
-.type-caption    { font-size: 12px; line-height: 1.4;  color: var(--text-secondary); }
-.type-mono       { font-family: var(--font-mono); font-size: 13px; line-height: 1.4; font-variant-numeric: tabular-nums; }
-.type-mono-sm    { font-family: var(--font-mono); font-size: 11px; line-height: 1.4; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+.type-display {
+  font-family: var(--font-serif);
+  font-size: 30px; line-height: 1.1; font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+}
+.type-h1 {
+  font-family: var(--font-serif);
+  font-size: 22px; line-height: 1.2; font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--text-primary);
+}
+.type-h2 {
+  font-family: var(--font-serif);
+  font-size: 16px; line-height: 1.3; font-weight: 600;
+  color: var(--text-primary);
+}
+.type-h3 {
+  font-family: var(--font-sans);
+  font-size: 10px; line-height: 1.4; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.type-byline {
+  font-family: var(--font-sans);
+  font-size: 12px; line-height: 1.4; font-style: italic;
+  color: var(--text-tertiary);
+}
+.type-body       { font-family: var(--font-sans); font-size: 14px; line-height: 1.55; }
+.type-body-sm    { font-family: var(--font-sans); font-size: 13px; line-height: 1.5;  }
+.type-caption    { font-family: var(--font-sans); font-size: 12px; line-height: 1.4; color: var(--text-secondary); }
+.type-mono       { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; font-variant-numeric: tabular-nums; }
+.type-mono-sm    { font-family: var(--font-mono); font-size: 10px; line-height: 1.4; letter-spacing: 0.02em; font-variant-numeric: tabular-nums; }
+
+/* Editorial drop-rule — appears under page titles */
+.rule-hard {
+  height: 2px;
+  background: var(--rule);
+  margin-top: 8px;
+}
+.rule-soft {
+  height: 1px;
+  background: var(--border-subtle);
+}
+.rule-section {
+  height: 1px;
+  background: var(--rule);
+  opacity: 0.3;
+}
 
 /* ============================================================
- * Status dots — kept from v1, refined glow
+ * Status dots — kept, but smaller & subtler
  * ============================================================ */
-.dot-live { box-shadow: 0 0 6px var(--accent-glow); }
-.dot-idle { box-shadow: 0 0 4px var(--text-tertiary); }
-.dot-fail { box-shadow: 0 0 6px var(--verdict-avoid); }
+.dot-live { box-shadow: 0 0 4px var(--verdict-buy); }
+.dot-idle { box-shadow: 0 0 3px var(--text-tertiary); }
+.dot-fail { box-shadow: 0 0 4px var(--verdict-avoid); }
 
 /* ============================================================
- * Cards (v2 — flatter, more restraint)
+ * Cards — flat, ruled, NOT rounded SaaS boxes
+ * Kept the class name for backwards compat, but redesigned.
  * ============================================================ */
 .card {
   background: var(--bg-elevated);
@@ -141,62 +238,73 @@ body {
   border-color: var(--border-strong);
 }
 
+/* Variants now inherit background; subtle accent on top border instead of gradients */
 .card-purple {
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), var(--bg-elevated));
-  border: 1px solid rgba(139, 92, 246, 0.18);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--accent-primary);
   border-radius: var(--radius);
 }
-
 .card-cyan {
-  background: linear-gradient(135deg, rgba(6, 182, 212, 0.04), var(--bg-elevated));
-  border: 1px solid rgba(6, 182, 212, 0.18);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--accent-glow);
+  border-radius: var(--radius);
+}
+.card-danger {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--verdict-avoid);
   border-radius: var(--radius);
 }
 
-.card-danger {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), var(--bg-elevated));
-  border: 1px solid rgba(239, 68, 68, 0.25);
-  border-radius: var(--radius);
+/* Editorial alternative — no background, just rules */
+.editorial {
+  background: transparent;
+  border-top: 1px solid var(--rule);
+  padding-top: var(--space-3);
 }
 
 /* ============================================================
- * Pills / tags
+ * Pills / tags — thinner, lowercase, restrained
  * ============================================================ */
 .pill {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 8px;
-  font-size: 11px;
-  font-family: var(--font-mono);
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  font-size: 10px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   border-radius: var(--radius-sm);
-  border: 1px solid transparent;
+  border: 1px solid currentColor;
   white-space: nowrap;
+  background: transparent;
 }
-.pill-buy     { color: var(--verdict-buy);     border-color: rgba(34,197,94,0.3);  background: rgba(34,197,94,0.08); }
-.pill-hold    { color: var(--verdict-hold);    border-color: rgba(245,158,11,0.3); background: rgba(245,158,11,0.08); }
-.pill-avoid   { color: var(--verdict-avoid);   border-color: rgba(239,68,68,0.3);  background: rgba(239,68,68,0.08); }
-.pill-na      { color: var(--verdict-na);      border-color: var(--border-subtle); background: var(--bg-overlay); }
-.pill-mkt-br  { color: var(--mkt-br);          border-color: rgba(251,191,36,0.3); background: rgba(251,191,36,0.06); }
-.pill-mkt-us  { color: var(--mkt-us);          border-color: rgba(59,130,246,0.3); background: rgba(59,130,246,0.06); }
-.pill-neutral { color: var(--text-secondary);  border-color: var(--border-subtle); background: var(--bg-overlay); }
-.pill-glow    { color: var(--accent-glow);     border-color: rgba(6,182,212,0.3);  background: rgba(6,182,212,0.06); }
-.pill-purple  { color: var(--accent-primary);  border-color: rgba(139,92,246,0.3); background: rgba(139,92,246,0.06); }
+.pill-buy     { color: var(--verdict-buy); }
+.pill-hold    { color: var(--verdict-hold); }
+.pill-avoid   { color: var(--verdict-avoid); }
+.pill-na      { color: var(--verdict-na); }
+.pill-mkt-br  { color: var(--mkt-br); }
+.pill-mkt-us  { color: var(--mkt-us); }
+.pill-neutral { color: var(--text-tertiary); }
+.pill-glow    { color: var(--accent-glow); }
+.pill-purple  { color: var(--accent-primary); }
 
 /* Legacy tag class — kept for backwards compat */
 .tag {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.125rem 0.5rem;
+  padding: 0.125rem 0.4rem;
   font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 0.25rem;
+  letter-spacing: 0.06em;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border-subtle);
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
 }
 
 /* ============================================================
@@ -205,23 +313,20 @@ body {
 .tabular { font-variant-numeric: tabular-nums; font-family: var(--font-mono); }
 
 /* ============================================================
- * Scrollbar — slightly visible
+ * Scrollbar — narrow, broadsheet-discreet
  * ============================================================ */
-::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
   background: var(--border-subtle);
   border-radius: var(--radius-sm);
-  border: 2px solid transparent;
-  background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--border-strong);
-  background-clip: content-box;
 }
 
 /* ============================================================
- * Focus ring — visible, semantic
+ * Focus ring
  * ============================================================ */
 :focus-visible {
   outline: 2px solid var(--accent-glow);
@@ -237,9 +342,26 @@ body {
 }
 
 /* ============================================================
- * Subtle utility — section separator
+ * Utility — section separator
  * ============================================================ */
 .divider-soft {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border-subtle), transparent);
+  background: var(--border-subtle);
+}
+
+/* ============================================================
+ * Editorial-only utilities
+ * ============================================================ */
+.serif { font-family: var(--font-serif); }
+.sans { font-family: var(--font-sans); }
+
+/* Drop cap — can be opted into for first paragraph of dossiers */
+.drop-cap::first-letter {
+  font-family: var(--font-serif);
+  font-size: 3em;
+  float: left;
+  line-height: 0.85;
+  margin: 0.05em 0.08em 0 0;
+  font-weight: 700;
+  color: var(--text-primary);
 }

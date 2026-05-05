@@ -52,9 +52,15 @@ const RECIPES: Record<
   }),
 };
 
-function pythonExe(): string {
+// Resolve the project's venv Python. We never silently fall back to the bare
+// `python` on Windows because PATH usually has the Microsoft Store App
+// Execution Alias first, which crashes with 0xC0000142 STATUS_DLL_INIT_FAILED
+// when spawned by a long-running Node parent. See chat/route.ts for the same
+// pattern.
+function pythonExe(): { path: string; from_venv: boolean } {
   const venv = path.join(II_ROOT, ".venv", "Scripts", "python.exe");
-  return fs.existsSync(venv) ? venv : "python";
+  if (fs.existsSync(venv)) return { path: venv, from_venv: true };
+  return { path: "python", from_venv: false };
 }
 
 export async function POST(
@@ -81,9 +87,31 @@ export async function POST(
   }
 
   return new Promise<Response>((resolve) => {
-    const proc = spawn(pythonExe(), ["-X", "utf8", ...resolved.args], {
+    const py = pythonExe();
+    if (!py.from_venv) {
+      resolve(
+        NextResponse.json(
+          {
+            error: `venv missing at ${path.join(II_ROOT, ".venv", "Scripts", "python.exe")}. ` +
+              `Run: cd ${II_ROOT} && python -m venv .venv && .venv\\Scripts\\pip install -r requirements.txt`,
+          },
+          { status: 500 }
+        )
+      );
+      return;
+    }
+    const filteredPath = (process.env.PATH || "")
+      .split(path.delimiter)
+      .filter((p) => !/WindowsApps/i.test(p))
+      .join(path.delimiter);
+    const proc = spawn(py.path, ["-X", "utf8", ...resolved.args], {
       cwd: II_ROOT,
-      env: { ...process.env, PYTHONIOENCODING: "utf-8" },
+      env: {
+        ...process.env,
+        PATH: filteredPath,
+        PYTHONIOENCODING: "utf-8",
+        PYTHONUTF8: "1",
+      },
     });
     let stdout = "";
     let stderr = "";
