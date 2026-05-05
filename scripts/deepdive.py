@@ -43,7 +43,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scoring import altman, piotroski, beneish
+from scoring import altman, piotroski, beneish, moat
 
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"
@@ -71,15 +71,19 @@ def _autodetect_model() -> str:
 # ─── Auditor (3 quality scores in parallel) ───────────────────────────────
 
 def _auditor(ticker: str, market: str | None) -> dict:
-    """Run all 3 scoring modules. Returns dict ready for JSON serialization."""
+    """Run all 4 scoring modules in parallel. Returns dict ready for JSON serialization."""
     out: dict = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
         f_p = ex.submit(piotroski.compute, ticker, market)
         f_a = ex.submit(altman.compute, ticker, market)
         f_b = ex.submit(beneish.compute, ticker, market)
+        f_m = ex.submit(moat.compute, ticker, market)
         out["piotroski"] = _score_to_dict(f_p.result())
         out["altman"] = _score_to_dict(f_a.result())
         out["beneish"] = _score_to_dict(f_b.result())
+        m_score = f_m.result()
+        out["moat"] = _score_to_dict(m_score)
+        out["moat"]["label"] = m_score.label  # @property, lost by asdict()
     return out
 
 
@@ -287,6 +291,9 @@ def _strategist(audit: dict, scout: dict, delta: str, model: str) -> str:
     p_score = ((audit.get("piotroski") or {}).get("f_score") or (audit.get("piotroski") or {}).get("score"))
     a_z = (audit.get("altman") or {}).get("z")
     b_m = (audit.get("beneish") or {}).get("m")
+    moat_obj = audit.get("moat") or {}
+    moat_overall = moat_obj.get("overall")
+    moat_label = moat_obj.get("label", "N/A")
 
     meta = scout.get("meta") or {}
     mults = scout.get("multiples") or {}
@@ -303,6 +310,11 @@ QUALITY SCORES
   Piotroski F-Score : {p_score}/9
   Altman Z-Score    : {a_z}  ({(audit.get('altman') or {}).get('zone')})
   Beneish M-Score   : {b_m}  ({(audit.get('beneish') or {}).get('zone')})
+  Moat Score        : {moat_overall}/10  ({moat_label})
+    pricing_power   : {moat_obj.get('pricing_power')}/10
+    capital_eff     : {moat_obj.get('capital_efficiency')}/10
+    reinvest_runway : {moat_obj.get('reinvestment_runway')}/10
+    scale_durability: {moat_obj.get('scale_durability')}/10
 
 MÚLTIPLOS
   P/E TTM: {mults.get('pe_trailing')} | P/E Fwd: {mults.get('pe_forward')}
@@ -389,6 +401,7 @@ def _save_obsidian(ticker: str, output: dict) -> Path:
     p = audit.get("piotroski") or {}
     a = audit.get("altman") or {}
     b = audit.get("beneish") or {}
+    m = audit.get("moat") or {}
     mults = scout.get("multiples") or {}
     prof = scout.get("profitability") or {}
 
@@ -401,6 +414,8 @@ def _save_obsidian(ticker: str, output: dict) -> Path:
           f"piotroski: {p.get('score')}",
           f"altman_z: {a.get('z')}",
           f"beneish_m: {b.get('m')}",
+          f"moat_score: {m.get('overall')}",
+          f"moat_label: \"{m.get('label','N/A')}\"",
           f"pe_trailing: {mults.get('pe_trailing')}",
           f"pb: {mults.get('pb')}",
           f"ev_ebitda: {mults.get('ev_ebitda')}",
@@ -417,6 +432,7 @@ def _save_obsidian(ticker: str, output: dict) -> Path:
         f"| Piotroski | {(p.get('f_score') or p.get('score','-'))}/9 | {p.get('zone','-')} |\n"
         f"| Altman Z | {a.get('z','-')} | {a.get('zone','-')} |\n"
         f"| Beneish M | {b.get('m','-')} | {b.get('zone','-')} |\n"
+        f"| Moat | {m.get('overall','-')}/10 | {m.get('label','-')} |\n"
     )
     body = output.get("dossier", "*(dossier não gerado — flag --no-llm ou erro LLM)*")
 
@@ -462,9 +478,11 @@ def deepdive(ticker: str, *, use_llm: bool = True, save_obsidian: bool = False,
     p = audit.get("piotroski", {})
     a = audit.get("altman", {})
     b = audit.get("beneish", {})
+    m = audit.get("moat", {})
     print(f"  ✓ Auditor  | Piotroski: {(p.get('f_score') or p.get('score','-'))}/9 ({p.get('zone','-')}) | "
           f"Altman: {a.get('z','-')} ({a.get('zone','-')}) | "
-          f"Beneish: {b.get('m','-')} ({b.get('zone','-')})")
+          f"Beneish: {b.get('m','-')} ({b.get('zone','-')}) | "
+          f"Moat: {m.get('overall','-')}/10 ({m.get('label','-')})")
     cons = scout.get("analyst_consensus", {})
     print(f"  ✓ Scout    | Consensus: {cons.get('recommendation','-')} "
           f"({cons.get('num_analysts',0)} analistas, upside {cons.get('upside_pct','?')}%)")

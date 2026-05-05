@@ -25,6 +25,7 @@ import json
 import sqlite3
 import sys
 import time
+from dataclasses import asdict, is_dataclass
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote
@@ -32,9 +33,12 @@ from urllib.parse import quote
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
 DBS = {"br": ROOT / "data" / "br_investments.db",
        "us": ROOT / "data" / "us_investments.db"}
 TICKERS_DIR = ROOT / "obsidian_vault" / "tickers"
+DOSSIE_DIR = ROOT / "obsidian_vault" / "dossiers"
 CODINST_YAML = ROOT / "config" / "bank_codinst.yaml"
 
 
@@ -196,6 +200,215 @@ def run_bacen_backfill(ticker: str, since: str = "2018-01-01") -> dict:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Quality scores (Piotroski / Altman / Beneish)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _score_to_dict(score) -> dict:
+    if score is None:
+        return {}
+    if is_dataclass(score):
+        return {k: v for k, v in asdict(score).items()
+                if v is not None and v != []}
+    if hasattr(score, "__dict__"):
+        return {k: v for k, v in score.__dict__.items()
+                if not k.startswith("_") and v is not None}
+    return {"raw": str(score)}
+
+
+def pull_quality_scores(ticker: str, market: str) -> dict:
+    """Compute Piotroski + Altman + Beneish in parallel. Returns dict with raw scores."""
+    import concurrent.futures
+    from scoring import altman, piotroski, beneish
+    out: dict = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
+        f_p = ex.submit(piotroski.compute, ticker, market)
+        f_a = ex.submit(altman.compute, ticker, market)
+        f_b = ex.submit(beneish.compute, ticker, market)
+        try:
+            out["piotroski"] = _score_to_dict(f_p.result(timeout=20))
+        except Exception as e:
+            out["piotroski"] = {"error": f"{type(e).__name__}: {e}"}
+        try:
+            out["altman"] = _score_to_dict(f_a.result(timeout=20))
+        except Exception as e:
+            out["altman"] = {"error": f"{type(e).__name__}: {e}"}
+        try:
+            out["beneish"] = _score_to_dict(f_b.result(timeout=20))
+        except Exception as e:
+            out["beneish"] = {"error": f"{type(e).__name__}: {e}"}
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Sector benchmark (peer_engine)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def pull_sector_benchmark(ticker: str, market: str, sector: str | None) -> dict | None:
+    """Peer sector medians (P/E, P/B, DY, ROE, ND/EBITDA, FCF Yield)."""
+    if not sector:
+        return None
+    try:
+        from agents.council.peer_engine import compute_sector_benchmark, compute_ticker_fcf_yield
+    except Exception:
+        return None
+    bench = compute_sector_benchmark(ticker, market, sector)
+    fcf_yield = compute_ticker_fcf_yield(ticker, market)
+    return {
+        "sector": bench.sector,
+        "n_peers": bench.n_peers,
+        "peers_used": bench.peers_used,
+        "source": bench.source,
+        "median_pe": bench.median_pe,
+        "median_pb": bench.median_pb,
+        "median_dy": bench.median_dy,
+        "median_roe": bench.median_roe,
+        "median_nde": bench.median_nde,
+        "median_fcf_yield": bench.median_fcf_yield,
+        "ticker_fcf_yield": fcf_yield,
+        "_obj": bench,  # keep for render_comparison_table call
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Fair value DCF (valuation)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def pull_fair_value(ticker: str, market: str, current_price: float | None) -> dict | None:
+    """3-scenario DCF + margin of safety. Skip for banks (FCF model doesn't fit)."""
+    try:
+        from agents.council.valuation import (
+            fetch_annual_evolution, compute_dcf, get_shares_outstanding,
+        )
+    except Exception:
+        return None
+    ev = fetch_annual_evolution(ticker, market, n=5)
+    if not ev:
+        return None
+    shares = get_shares_outstanding(ticker, market)
+    dcf = compute_dcf(ev, current_price, shares, market=market)
+    return {
+        "pessimistic": dcf.pessimistic_value,
+        "base": dcf.base_value,
+        "optimistic": dcf.optimistic_value,
+        "wacc": dcf.base_wacc,
+        "margin_of_safety_pct": dcf.margin_of_safety_pct,
+        "current_price": dcf.current_price,
+        "annual_evolution": [
+            {"period_end": r.period_end, "total_revenue": r.revenue, "ebit": r.ebit,
+             "net_income": r.net_income, "free_cash_flow": r.fcf,
+             "ebit_margin": r.ebit_margin, "net_margin": r.net_margin}
+            for r in ev
+        ],
+        "_dcf_obj": dcf,
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Philosophy classification (Buffett / Graham / DRIP / Growth tag)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def pull_philosophy(ticker: str, dossier_dict: dict, ev: list[dict] | None,
+                    dcf: dict | None) -> dict | None:
+    """Classify the stock into Value/Growth/Dividend/Buffett buckets."""
+    try:
+        from agents.council.philosophy import compute as compute_philo
+    except Exception:
+        return None
+    scores = compute_philo(dossier_dict, annual_evolution=ev, dcf=dcf)
+    return {
+        "primary": scores.primary,
+        "secondary": scores.secondary,
+        "value": scores.value,
+        "growth": scores.growth,
+        "dividend": scores.dividend,
+        "buffett": scores.buffett,
+        "macro_exposure": scores.macro_exposure,
+        "macro_dependency": scores.macro_dependency,
+        "breakdown": scores.breakdown,
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Competitors — top N peers in same sector with multiples (non-bank flow)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def pull_competitors(ticker: str, market: str, sector: str | None, n: int = 5) -> list[dict]:
+    """Return top N peers by market cap in same sector, with their multiples + price."""
+    if not sector:
+        return []
+    db = DBS[market]
+    if not db.exists():
+        return []
+    out: list[dict] = []
+    with sqlite3.connect(db, timeout=15) as c:
+        c.row_factory = sqlite3.Row
+        try:
+            rows = c.execute("""
+                SELECT c.ticker, c.name, f.pe, f.pb, f.dy, f.roe, f.net_debt_ebitda,
+                       f.market_cap, f.dividend_streak_years
+                FROM companies c
+                JOIN fundamentals f ON f.ticker = c.ticker
+                WHERE c.sector = ?
+                  AND c.ticker != ?
+                  AND f.period_end = (
+                      SELECT MAX(period_end) FROM fundamentals WHERE ticker = c.ticker
+                  )
+                ORDER BY f.market_cap DESC NULLS LAST
+                LIMIT ?
+            """, (sector, ticker, n)).fetchall()
+        except sqlite3.OperationalError:
+            return []
+        for r in rows:
+            d = dict(r)
+            # latest price + YoY
+            p = c.execute("SELECT close, date FROM prices WHERE ticker=? "
+                          "ORDER BY date DESC LIMIT 1", (d["ticker"],)).fetchone()
+            if p:
+                d["price"] = p[0]
+                d["price_date"] = p[1]
+                yr = c.execute(
+                    "SELECT close FROM prices WHERE ticker=? AND date <= "
+                    "date((SELECT MAX(date) FROM prices WHERE ticker=?),'-365 days') "
+                    "ORDER BY date DESC LIMIT 1",
+                    (d["ticker"], d["ticker"])).fetchone()
+                if yr and yr[0]:
+                    d["yoy_pct"] = (p[0] - yr[0]) / yr[0] * 100
+            out.append(d)
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Verdict (BUY/HOLD/AVOID) — light read of pre-computed scores table
+# ─────────────────────────────────────────────────────────────────────────────
+
+def pull_verdict_light(ticker: str, market: str) -> dict | None:
+    """Read latest verdict from scores table. Avoid running the full verdict.py
+    subprocess — too slow for a dossier."""
+    db = DBS[market]
+    if not db.exists():
+        return None
+    with sqlite3.connect(db, timeout=10) as c:
+        c.row_factory = sqlite3.Row
+        try:
+            row = c.execute(
+                "SELECT run_date, score, passes_screen, details_json "
+                "FROM scores WHERE ticker=? ORDER BY run_date DESC LIMIT 1",
+                (ticker,)).fetchone()
+        except sqlite3.OperationalError:
+            return None
+        if not row:
+            return None
+        out = {"run_date": row["run_date"], "screen_score": row["score"],
+               "passes_screen": bool(row["passes_screen"])}
+        if row["details_json"]:
+            try:
+                out["details"] = json.loads(row["details_json"])
+            except Exception:
+                pass
+        return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # In-house data pull
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -213,14 +426,18 @@ def pull_data(ticker: str, market: str) -> dict:
         # fundamentals (latest)
         f = c.execute(
             "SELECT period_end, eps, bvps, roe, pe, pb, dy, "
-            "dividend_streak_years, market_cap "
+            "dividend_streak_years, market_cap, net_debt_ebitda, "
+            "is_aristocrat "
             "FROM fundamentals WHERE ticker=? ORDER BY period_end DESC LIMIT 1",
             (ticker,)
         ).fetchone()
         if f:
             out["fundamentals"] = dict(zip(
                 ("period_end", "eps", "bvps", "roe", "pe", "pb", "dy",
-                 "div_streak", "market_cap"), f))
+                 "div_streak", "market_cap", "net_debt_ebitda",
+                 "is_aristocrat"), f))
+            # Add canonical key alias for philosophy.compute()
+            out["fundamentals"]["dividend_streak_years"] = out["fundamentals"]["div_streak"]
 
         # latest price
         p = c.execute("SELECT date, close FROM prices WHERE ticker=? "
@@ -384,6 +601,7 @@ def render_dossier(data: dict, peers: dict | None = None) -> str:
     fund = data.get("fundamentals") or {}
     ic = data.get("ic") or {}
     bacen = data.get("bacen") or []
+    philo = data.get("philosophy") or {}
     is_bank = (co.get("sector") or "").lower() == "banks"
     currency = co.get("currency") or ("BRL" if mkt == "br" else "USD")
 
@@ -402,6 +620,8 @@ def render_dossier(data: dict, peers: dict | None = None) -> str:
         f"verdict: {ic.get('verdict','TODO')}",
         f"verdict_confidence: {ic.get('confidence','n/a')}",
         f"verdict_consensus_pct: {ic.get('consensus_pct','n/a')}",
+        f"strategy_primary: {philo.get('primary') or 'n/a'}",
+        f"strategy_secondary: {philo.get('secondary') or 'n/a'}",
         "sources: [in-house DB, BACEN IF.Data, Synthetic IC, vault thesis]" if is_bank
         else "sources: [in-house DB, Synthetic IC, vault thesis]",
         "tokens_claude_data_gather: 0",
@@ -409,6 +629,10 @@ def render_dossier(data: dict, peers: dict | None = None) -> str:
         "---",
         "",
         f"# 📑 {t} — {co.get('name', t)}",
+        "",
+        (f"_Strategy: **{philo['primary']}**"
+         + (f"  ·  Secondary: {philo['secondary']}" if philo.get("secondary") else "")
+         + "_") if philo.get("primary") else "_(strategy: not classified)_",
         "",
         f"> Generated **{data['as_of']}** by `ii dossier {t}`. "
         f"Cross-links: [[{t}]] · "
@@ -444,6 +668,88 @@ def render_dossier(data: dict, peers: dict | None = None) -> str:
             body.append(f"- **Last price**: {currency} {last.get('close'):.2f} ({last.get('date')})  "
                         f"|  **YoY**: {data.get('yoy_pct',0):+.1f}%")
         sections.append(["Fundamentals snapshot", *body])
+
+    # ── Strategy classification (philosophy) ──
+    philo = data.get("philosophy") or {}
+    if philo.get("primary"):
+        body = [
+            f"**Primary**: {philo['primary']}"
+            + (f"  ·  **Secondary**: {philo['secondary']}" if philo.get("secondary") else ""),
+            "",
+            f"| Lente | Score | Sinais |",
+            "|---|---|---|",
+        ]
+        for lens_key, lens_label in [("value", "Value (Graham)"), ("growth", "Growth"),
+                                     ("dividend", "Dividend/DRIP"),
+                                     ("buffett", "Buffett/Quality")]:
+            score = philo.get(lens_key) or 0
+            reasons = (philo.get("breakdown") or {}).get(lens_key) or []
+            reason_str = " · ".join(reasons[:3]) if reasons else "—"
+            body.append(f"| {lens_label} | **{score}/12** | {reason_str} |")
+        macro = (philo.get("macro_exposure") or 0) + (philo.get("macro_dependency") or 0)
+        body.append(
+            f"| Macro (Exp/Dep) | {philo.get('macro_exposure', 0)}/6 + "
+            f"{philo.get('macro_dependency', 0)}/6 = {macro}/12 | — |"
+        )
+        sections.append(["Strategy classification", *body])
+
+    # ── Quality scores (Piotroski / Altman / Beneish) ──
+    qs = data.get("quality_scores") or {}
+    if qs:
+        body = ["| Score | Valor | Interpretação |", "|---|---|---|"]
+        # Piotroski
+        pio = qs.get("piotroski") or {}
+        if "f_score" in pio or "score" in pio:
+            v = pio.get("f_score", pio.get("score"))
+            interp = "✅ Strong (≥7)" if v and v >= 7 else \
+                     "🟡 Mid (4-6)" if v and v >= 4 else \
+                     "🔴 Weak (≤3)" if v is not None else "n/a"
+            body.append(f"| Piotroski F-Score | **{v}/9** | {interp} |")
+        elif pio.get("error"):
+            body.append(f"| Piotroski F-Score | error | {pio['error'][:60]} |")
+        # Altman
+        alt = qs.get("altman") or {}
+        z = alt.get("z") or alt.get("z_score") or alt.get("score")
+        if z is not None:
+            interp = "✅ Safe (>2.99)" if z > 2.99 else \
+                     "🟡 Grey (1.81-2.99)" if z >= 1.81 else "🔴 Distress (<1.81)"
+            body.append(f"| Altman Z-Score | **{z:+.2f}** | {interp} |")
+        elif alt.get("error"):
+            body.append(f"| Altman Z-Score | error | {alt['error'][:60]} |")
+        # Beneish
+        ben = qs.get("beneish") or {}
+        m = ben.get("m") or ben.get("m_score")
+        if m is not None:
+            zone = ben.get("zone")
+            interp = f"✅ {zone}" if zone == "clean" else \
+                     f"🟡 {zone}" if zone == "grey" else \
+                     f"🔴 {zone}" if zone else ""
+            body.append(f"| Beneish M-Score | **{m:+.2f}** | {interp} |")
+        elif ben.get("error"):
+            body.append(f"| Beneish M-Score | error | {ben['error'][:60]} |")
+        if len(body) > 2:
+            sections.append(["Quality scores (auditor)", *body])
+
+    # ── Multiples vs Sector benchmark ──
+    sb = data.get("sector_benchmark")
+    if sb and (sb.get("median_pe") or sb.get("median_dy") or sb.get("median_roe")):
+        ticker_metrics = {
+            "pe": fund.get("pe"),
+            "pb": fund.get("pb"),
+            "dy": fund.get("dy"),
+            "roe": fund.get("roe"),
+            "net_debt_ebitda": (data.get("fundamentals") or {}).get("net_debt_ebitda"),
+            "fcf_yield": sb.get("ticker_fcf_yield"),
+        }
+        body = [sb["_obj"].render_comparison_table(t, ticker_metrics), ""]
+        if sb.get("n_peers", 0) > 0:
+            body.append(
+                f"_Peer set ({sb['source']}): {sb['n_peers']} tickers — "
+                f"{', '.join(sb.get('peers_used', [])[:8])}_"
+            )
+        else:
+            body.append(f"_Source: {sb['source']} (DB n/a, fallback published medianas)._")
+        sections.append([f"Multiples vs Sector ({sb['sector']})", *body])
 
     # Screen pass (banks BR)
     if is_bank and mkt == "br":
@@ -533,6 +839,82 @@ def render_dossier(data: dict, peers: dict | None = None) -> str:
                  "<!-- TODO_CLAUDE_BACEN_INSIGHT: 3-4 bullets sobre tendência "
                  "Basel/NPL + comparação peer. Identificar peak ciclo + recovery. -->"]
         sections.append(["BACEN timeline — capital + crédito", *body])
+
+    # ── Fair value DCF + upside ──
+    fv = data.get("fair_value")
+    if fv and fv.get("base") is not None:
+        cur_sym = "R$" if currency == "BRL" else "$"
+        body = [
+            "| Cenário | Crescimento 5y | Perpetuidade | Valor por acção |",
+            "|---|---|---|---|",
+            f"| Pessimista | 5% a.a. | 3% | {cur_sym} {fv['pessimistic']:.2f} |",
+            f"| **Base** | **8% a.a.** | **4%** | **{cur_sym} {fv['base']:.2f}** |",
+            f"| Optimista | 11% a.a. | 5% | {cur_sym} {fv['optimistic']:.2f} |",
+        ]
+        cp = fv.get("current_price")
+        mos = fv.get("margin_of_safety_pct")
+        if cp and mos is not None:
+            tag = "✅ MoS > 25%" if mos > 0.25 else \
+                  "🟡 MoS 0-25%" if mos > 0 else "🔴 Sobre-precificado"
+            body += ["", (f"**Preço actual**: {cur_sym} {cp:.2f}  ·  "
+                          f"**Margem de segurança**: {mos*100:+.0f}%  ·  "
+                          f"**WACC**: {fv['wacc']*100:.0f}%  ·  {tag}")]
+            upside_pct = (fv["base"] - cp) / cp * 100 if cp > 0 else None
+            if upside_pct is not None:
+                body.append(f"**Upside vs base**: {upside_pct:+.1f}%")
+        sections.append(["Fair value (3-cenário DCF)", *body])
+    elif (data.get("fundamentals") or {}).get("pe") and not is_bank:
+        # No annual evolution data — show graham number proxy if possible
+        eps = (data.get("fundamentals") or {}).get("eps")
+        bvps = (data.get("fundamentals") or {}).get("bvps")
+        if eps and bvps and eps > 0 and bvps > 0:
+            import math
+            graham = math.sqrt(22.5 * eps * bvps)
+            cp = (data.get("last_price") or {}).get("close")
+            cur_sym = "R$" if currency == "BRL" else "$"
+            body = [
+                f"_(DCF skipped — annual FCF data not available)_",
+                "",
+                f"**Graham Number** (sqrt(22.5 × EPS × BVPS)): {cur_sym} {graham:.2f}",
+            ]
+            if cp and cp > 0:
+                mos = (graham - cp) / cp
+                body.append(
+                    f"**Preço actual**: {cur_sym} {cp:.2f}  ·  "
+                    f"**Graham MoS**: {mos*100:+.0f}%"
+                )
+            sections.append(["Fair value (Graham proxy)", *body])
+
+    # ── Competitors (top 5 by mkt cap, same sector) — non-bank ──
+    comps = data.get("competitors") or []
+    if comps:
+        cur_sym = "R$" if currency == "BRL" else "$"
+        body = [
+            "| Ticker | Nome | Mkt Cap | P/E | P/B | DY | ROE | ND/EBITDA | Streak |",
+            "|---|---|---|---|---|---|---|---|---|",
+        ]
+        # Anchor row first (the ticker itself)
+        anchor_mc = fund.get("market_cap")
+        anchor_streak = fund.get("div_streak")
+        body.append(
+            f"| **{t}** | _este_ | "
+            f"{_fmt_money(anchor_mc, currency=cur_sym) if anchor_mc else 'n/a'} | "
+            f"{_fmt_num(fund.get('pe'))} | {_fmt_num(fund.get('pb'))} | "
+            f"{_fmt_pct(fund.get('dy'))} | {_fmt_pct(fund.get('roe'))} | "
+            f"{_fmt_num((data.get('fundamentals') or {}).get('net_debt_ebitda'))} | "
+            f"{int(anchor_streak) if anchor_streak else 'n/a'}y |"
+        )
+        for c in comps:
+            name = (c.get("name") or "")[:22]
+            mc_s = _fmt_money(c.get("market_cap"), currency=cur_sym) if c.get("market_cap") else "n/a"
+            streak_s = f"{int(c['dividend_streak_years'])}y" if c.get("dividend_streak_years") else "n/a"
+            body.append(
+                f"| [[{c['ticker']}]] | {name} | {mc_s} | "
+                f"{_fmt_num(c.get('pe'))} | {_fmt_num(c.get('pb'))} | "
+                f"{_fmt_pct(c.get('dy'))} | {_fmt_pct(c.get('roe'))} | "
+                f"{_fmt_num(c.get('net_debt_ebitda'))} | {streak_s} |"
+            )
+        sections.append([f"Competitors ({(co.get('sector') or 'sector')}, top 5 by mkt cap)", *body])
 
     # Synthetic IC
     if ic:
@@ -666,6 +1048,49 @@ def run_dossier(ticker: str, refresh: bool = False, peers: list[str] | None = No
         if ticker not in chosen:
             chosen = [ticker] + chosen
         peers_data = pull_bank_peers(ticker, chosen)
+
+    # 3a. Quality scores (Piotroski / Altman / Beneish)
+    if not quiet:
+        print("  [pull] quality scores...")
+    data["quality_scores"] = pull_quality_scores(ticker, market)
+
+    # 3b. Sector benchmark (peer medians)
+    if not quiet:
+        print("  [pull] sector benchmark...")
+    data["sector_benchmark"] = pull_sector_benchmark(ticker, market, sector)
+
+    # 3c. Fair value DCF (skip banks — FCF model doesn't fit)
+    if cls != "bank":
+        if not quiet:
+            print("  [pull] fair value DCF...")
+        last_price = (data.get("last_price") or {}).get("close")
+        data["fair_value"] = pull_fair_value(ticker, market, last_price)
+    else:
+        data["fair_value"] = None
+
+    # 3d. Philosophy classification (Buffett/Graham/DRIP/Growth)
+    fund = data.get("fundamentals") or {}
+    co_dict = data.get("company") or {}
+    philo_input = {
+        "fundamentals": fund,
+        "quality_scores": data.get("quality_scores") or {},
+        "sector": sector,
+        "market": market,
+        "is_holding": bool(co_dict.get("is_holding")),
+    }
+    ev_for_philo = (data.get("fair_value") or {}).get("annual_evolution")
+    data["philosophy"] = pull_philosophy(ticker, philo_input, ev_for_philo, data.get("fair_value"))
+
+    # 3e. Competitors (non-bank flow — banks already get peer compare hardcoded)
+    if cls != "bank":
+        if not quiet:
+            print("  [pull] competitors...")
+        data["competitors"] = pull_competitors(ticker, market, sector, n=5)
+    else:
+        data["competitors"] = []
+
+    # 3f. Verdict light (from scores table)
+    data["verdict_light"] = pull_verdict_light(ticker, market)
 
     # 4. Render
     md = render_dossier(data, peers=peers_data)
