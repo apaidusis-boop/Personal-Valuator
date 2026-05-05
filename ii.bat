@@ -65,6 +65,7 @@ if /i "%CMD%"=="brief" (set "SCRIPT=scripts\portfolio_report.py") & goto :RUN
 if /i "%CMD%"=="drip" (set "SCRIPT=scripts\drip_projection.py") & goto :RUN
 if /i "%CMD%"=="triggers" (set "SCRIPT=scripts\trigger_monitor.py") & goto :RUN
 if /i "%CMD%"=="actions" (set "SCRIPT=scripts\action_cli.py") & goto :RUN
+if /i "%CMD%"=="decide" (set "SCRIPT=scripts\decide.py") & goto :RUN
 if /i "%CMD%"=="compare" (set "SCRIPT=scripts\compare_tickers.py") & goto :RUN
 if /i "%CMD%"=="weekly" (set "SCRIPT=scripts\weekly_report.py") & goto :RUN
 if /i "%CMD%"=="daily" (set "SCRIPT=scripts\daily_update.py") & goto :RUN
@@ -85,6 +86,7 @@ if /i "%CMD%"=="setup" (set "SCRIPT=scripts\localclaw_setup.py") & goto :RUN
 if /i "%CMD%"=="crew" (set "SCRIPT=scripts\crew_designer.py") & goto :RUN
 if /i "%CMD%"=="topics" ("%PY%" -X utf8 -m analytics.topic_scorer %ARGS%) & goto :EOF
 if /i "%CMD%"=="data-health" ("%PY%" -X utf8 -m analytics.data_health %ARGS%) & goto :EOF
+if /i "%CMD%"=="anomalies" ("%PY%" -X utf8 -m analytics.data_anomalies %ARGS%) & goto :EOF
 if /i "%CMD%"=="fetch" ("%PY%" -X utf8 -m fetchers._fallback %ARGS%) & goto :EOF
 if /i "%CMD%"=="allocate" ("%PY%" -X utf8 -m strategies.portfolio_engine %ARGS%) & goto :EOF
 if /i "%CMD%"=="strategy" ("%PY%" -X utf8 -m strategies.cli %ARGS%) & goto :EOF
@@ -100,6 +102,7 @@ if /i "%CMD%"=="stats" ("%PY%" -X utf8 -m analytics.metrics %ARGS%) & goto :EOF
 if /i "%CMD%"=="refresh-thesis" (set "SCRIPT=scripts\thesis_refresh.py") & goto :RUN
 if /i "%CMD%"=="agents" (set "SCRIPT=scripts\agents_cli.py") & goto :RUN
 if /i "%CMD%"=="agent-runner" (set "SCRIPT=scripts\agent_runner.py") & goto :RUN
+if /i "%CMD%"=="gemma" (call :GEMMA) & goto :EOF
 
 echo Unknown command: %CMD%
 echo Run 'ii help' for list.
@@ -107,6 +110,23 @@ exit /b 1
 
 :RUN
 "%PY%" -X utf8 "%ROOT%%SCRIPT%" %ARGS%
+goto :EOF
+
+:GEMMA
+REM Launch Open WebUI (requires Python 3.11; our .venv is 3.13).
+set "OWUI=%LOCALAPPDATA%\Programs\Python\Python311\Scripts\open-webui.exe"
+if not exist "%OWUI%" (
+    echo [gemma] open-webui nao encontrado em %OWUI%.
+    echo         Instala com: "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" -m pip install open-webui
+    exit /b 1
+)
+echo [gemma] A arrancar Open WebUI em http://localhost:8080 ...
+echo [gemma] Modelo: gemma4:31b (Ollama em localhost:11434)
+echo [gemma] Ctrl+C para parar.
+set "PYTHONIOENCODING=utf-8"
+set "PYTHONUTF8=1"
+start "" http://localhost:8080
+"%OWUI%" serve %ARGS%
 goto :EOF
 
 :HELP
@@ -178,6 +198,9 @@ echo.
 echo WATCHLIST:
 echo   ii megawatch                             Unified watchlist
 echo   ii weekly                                Weekly report
+echo.
+echo LOCAL LLM UI:
+echo   ii gemma                                 Launch Open WebUI (localhost:8080) com Gemma 3 27B QAT
 
 :EOF
 endlocal
