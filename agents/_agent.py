@@ -86,6 +86,32 @@ class AgentCallError(RuntimeError):
     """Raised when a role call exhausts retries + escalation."""
 
 
+class ModelRoutingError(ValueError):
+    """Raised when force_model is not declared in the role's allowed set.
+
+    Governance contract: roles declare exactly which models they may route to
+    (model + fallback_model + escalation target). Callers cannot smuggle in an
+    arbitrary model via force_model — that breaks cost/quality assumptions and
+    violates the "agentes decidem, modelos executam" principle.
+    """
+
+
+def _allowed_models(role: str, cfg: dict) -> set[str]:
+    """Models a role is allowed to route to. Single source of truth."""
+    allowed: set[str] = set()
+    if cfg.get("model"):
+        allowed.add(cfg["model"])
+    if cfg.get("fallback_model"):
+        allowed.add(cfg["fallback_model"])
+    if cfg.get("allowed_models"):
+        allowed.update(cfg["allowed_models"])
+    # Escalation target is allowed implicitly (the chain may upgrade to it).
+    esc = escalation_config().get("target_model")
+    if esc:
+        allowed.add(esc)
+    return allowed
+
+
 def agent_call(
     role: str,
     input: dict[str, Any],
@@ -121,6 +147,16 @@ def agent_call(
     cfg = role_config(role)
     defaults = defaults_config()
     role_module = _role_module(role)
+
+    if force_model is not None:
+        allowed = _allowed_models(role, cfg)
+        if force_model not in allowed:
+            raise ModelRoutingError(
+                f"force_model={force_model!r} not allowed for role={role!r}. "
+                f"Allowed: {sorted(allowed)}. "
+                f"Add it to role's `allowed_models` in config/agents_governance.yaml "
+                f"if this is intentional."
+            )
 
     input_hash = _memory.hash_input({"role": role, "input": input})
     primary_model = force_model or cfg["model"]

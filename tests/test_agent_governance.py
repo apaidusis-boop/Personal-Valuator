@@ -216,6 +216,70 @@ def test_escalation_to_fallback_model():
 # ============================================================
 # Memory stats
 # ============================================================
+# ============================================================
+# LLM routing enforcement (P3)
+# ============================================================
+def test_force_model_rejects_unknown_model():
+    """force_model must be in role's allowed set; rogue models raise."""
+    with pytest.raises(_agent.ModelRoutingError) as exc:
+        _agent.agent_call(
+            "classification",
+            {"text": "hi", "labels": ["a", "b"]},
+            force_model="claude-3-opus-rogue",
+            use_cache=False,
+        )
+    assert "claude-3-opus-rogue" in str(exc.value)
+    assert "classification" in str(exc.value)
+
+
+def test_force_model_accepts_role_primary():
+    """Forcing the role's own primary model is always allowed."""
+    cfg = _agent.role_config("classification")
+    canned = json.dumps({"label": "a", "confidence": 0.9})
+    with patch("agents._agent.ollama_call", side_effect=_mock_ollama([canned])):
+        out = _agent.agent_call(
+            "classification",
+            {"text": "hi", "labels": ["a", "b"]},
+            force_model=cfg["model"],
+            use_cache=False,
+        )
+    assert out["_meta"]["success"] is True
+    assert out["_meta"]["model"] == cfg["model"]
+
+
+def test_force_model_accepts_fallback_model():
+    """Forcing the role's declared fallback_model is allowed."""
+    cfg = _agent.role_config("classification")
+    fb = cfg.get("fallback_model")
+    if not fb:
+        pytest.skip("no fallback_model declared for classification")
+    canned = json.dumps({"label": "a", "confidence": 0.9})
+    with patch("agents._agent.ollama_call", side_effect=_mock_ollama([canned])):
+        out = _agent.agent_call(
+            "classification",
+            {"text": "hi", "labels": ["a", "b"]},
+            force_model=fb,
+            use_cache=False,
+        )
+    assert out["_meta"]["model"] == fb
+
+
+def test_force_model_accepts_escalation_target():
+    """The escalation target_model is allowed for any role (chain may upgrade)."""
+    esc = _agent.escalation_config().get("target_model")
+    if not esc:
+        pytest.skip("no escalation target_model configured")
+    canned = json.dumps({"label": "a", "confidence": 0.9})
+    with patch("agents._agent.ollama_call", side_effect=_mock_ollama([canned])):
+        out = _agent.agent_call(
+            "classification",
+            {"text": "hi", "labels": ["a", "b"]},
+            force_model=esc,
+            use_cache=False,
+        )
+    assert out["_meta"]["model"] == esc
+
+
 def test_memory_stats_aggregates():
     canned = json.dumps({"label": "neutral", "confidence": 0.5})
     with patch("agents._agent.ollama_call", side_effect=_mock_ollama([canned, canned, canned])):
