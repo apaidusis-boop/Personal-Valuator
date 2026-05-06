@@ -54,6 +54,11 @@ echo [BENCHMARKS] refresh_benchmarks.py  ^(Phase FF: SPY/BOVA11/sector ETFs^) >>
 echo BENCHMARKS exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [VH-RECORD] verdict_history record  ^(Phase FF: snapshot today's verdicts, idempotent per ticker+date^) >> "%LOG%"
+"%PY%" scripts\verdict_history.py record >> "%LOG%" 2>&1
+echo VH-RECORD exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [DECISION-QUALITY] decision_quality update --window 30  ^(Phase FF: closed-loop^) >> "%LOG%"
 "%PY%" -m analytics.decision_quality update --window 30 --market both >> "%LOG%" 2>&1
 echo DECISION-QUALITY exit code: %errorlevel% >> "%LOG%"
