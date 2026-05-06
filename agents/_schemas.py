@@ -52,8 +52,14 @@ class PersonaVerdict(BaseModel):
     @field_validator("would_size", mode="before")
     @classmethod
     def _lower_size(cls, v):
+        # Tolerate verbose outputs like "medium — proporção típica do meu book"
+        # by extracting the first sizing token.
         if isinstance(v, str):
-            return v.strip().lower()
+            s = v.strip().lower()
+            for kw in ("small", "medium", "large", "none"):
+                if kw in s:
+                    return kw
+            return s
         return v
 
     @field_validator("rationale", mode="before")

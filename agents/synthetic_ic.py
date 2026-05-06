@@ -38,10 +38,43 @@ TICKERS_DIR = ROOT / "obsidian_vault" / "tickers"
 
 MODEL = "qwen2.5:14b-instruct-q4_K_M"
 
+# Phase FF Bloco 2.1 — Multi-family personas (anti latent-space-echo-chamber).
+# Each persona is bound to a model family. Buffett/Klarman use Qwen 32B (slow,
+# careful); Druck/Dalio use Qwen 14B (fast, broad); Taleb uses Gemma — a
+# different model family entirely (Google, not Alibaba) — so the IC includes
+# at least one persona that doesn't share a latent space with the others.
+#
+# Falls back to MODEL (Qwen 14B) if the per-persona model isn't installed.
+MODEL_QWEN_14B = "qwen2.5:14b-instruct-q4_K_M"
+MODEL_QWEN_32B = "qwen2.5:32b-instruct-q4_K_M"
+MODEL_TALEB    = "gemma4:31b"  # different family on purpose
+
+# Cache of available Ollama models (lazy-loaded once per process)
+_AVAILABLE_MODELS: set[str] | None = None
+
+
+def _available_models() -> set[str]:
+    global _AVAILABLE_MODELS
+    if _AVAILABLE_MODELS is None:
+        try:
+            import requests
+            r = requests.get("http://localhost:11434/api/tags", timeout=5)
+            r.raise_for_status()
+            _AVAILABLE_MODELS = {m["name"] for m in r.json().get("models", [])}
+        except Exception:
+            _AVAILABLE_MODELS = set()
+    return _AVAILABLE_MODELS
+
+
+def _resolve_model(preferred: str) -> str:
+    """If preferred is installed, use it. Otherwise fall back to MODEL."""
+    return preferred if preferred in _available_models() else MODEL
+
 
 PERSONAS = {
     "buffett": {
         "name": "Warren Buffett",
+        "model": MODEL_QWEN_32B,
         "framework": """Você é Warren Buffett. Avalia investimentos com este framework:
 - Compre business excelente a preço justo (qualidade > barato)
 - Moat duradouro (brand, switching costs, network effects, cost advantage)
@@ -55,6 +88,7 @@ PERSONAS = {
     },
     "druckenmiller": {
         "name": "Stan Druckenmiller",
+        "model": MODEL_QWEN_14B,
         "framework": """Você é Stan Druckenmiller. Framework:
 - Macro liquidity é o motor #1 — quando central banks aliviam, longa equities/risk
 - Concentre quando convicção forte (5-10 positions max)
@@ -67,6 +101,7 @@ PERSONAS = {
     },
     "taleb": {
         "name": "Nassim Taleb",
+        "model": MODEL_TALEB,
         "framework": """Você é Nassim Taleb. Framework:
 - Tail risk + black swans são tudo o que importa long-term
 - Barbell strategy: 80% ultra-safe + 20% extremely speculative
@@ -80,6 +115,7 @@ PERSONAS = {
     },
     "klarman": {
         "name": "Seth Klarman",
+        "model": MODEL_QWEN_32B,
         "framework": """Você é Seth Klarman. Framework:
 - Margin of safety: comprar com desconto significativo do valor intrínseco (≥30%)
 - Cash é position em si quando não há valor
@@ -92,6 +128,7 @@ PERSONAS = {
     },
     "dalio": {
         "name": "Ray Dalio",
+        "model": MODEL_QWEN_14B,
         "framework": """Você é Ray Dalio. Framework:
 - Big debt cycles drivam tudo — onde estamos no ciclo?
 - Diversification across asset classes que perform em diferentes regimes
@@ -255,19 +292,24 @@ Reply JSON ONLY."""
     from agents._llm import ollama_call_typed
     from agents._schemas import PersonaVerdict
 
+    # Phase FF Bloco 2.1 — use persona-specific model with fallback
+    preferred = persona.get("model", MODEL)
+    model = _resolve_model(preferred)
+
     pv = ollama_call_typed(
         prompt,
         PersonaVerdict,
-        model=MODEL,
+        model=model,
         max_tokens=500,
         temperature=0.15,
         seed=seed,
         timeout=timeout,
     )
     if pv is None:
-        return {"_error": "ollama_or_validation_failed", "persona": persona["name"]}
+        return {"_error": "ollama_or_validation_failed", "persona": persona["name"], "model": model}
     data = pv.model_dump()
     data["persona"] = persona["name"]
+    data["_model"] = model  # transparency: which backend produced this verdict
     return data
 
 
