@@ -1,10 +1,16 @@
 """Data anomaly detector | scan BR+US DBs for suspicious data.
 
-Three classes of anomaly, all derivable purely from SQL (zero network):
+Five classes of anomaly, all derivable purely from SQL (zero network):
 
-  PRICE_JUMP — daily abs(return) > pct threshold (default 20%)
-  PRICE_STALE — no `prices` row for ticker in last N business days
-  FUND_STALE — `fundamentals` snapshot older than X days for a holding
+  PRICE_JUMP            — daily abs(return) > pct threshold (default 20%)
+  PRICE_STALE           — no `prices` row for ticker in last N business days
+  FUND_STALE            — `fundamentals` snapshot older than X days for holding
+  BENFORD_DEVIATION     — first-digit distribution of a metric deviates from
+                          Benford's Law (chi-square > critical at p<0.05).
+                          Aggregate per-metric, not per-ticker. (Phase FF Bloco 2.2)
+  CROSS_SECTIONAL_OUTLIER — ticker's log(P/E) is >MAD_THRESHOLD modified
+                          z-scores from the sector median (heavy-tailed safe
+                          via Median Absolute Deviation). (Phase FF Bloco 2.2)
 
 Holdings (companies.is_holding=1) are scrutinized stricter than watchlist:
 they MUST have fresh fundamentals; watchlist tolerates a longer window.
@@ -181,12 +187,180 @@ def detect_fundamentals_stale(conn: sqlite3.Connection, market: str,
 
 
 # ============================================================
+# Phase FF Bloco 2.2 — Benford's Law (aggregated chi-square)
+# ============================================================
+
+# Benford's Law: P(first digit = d) = log10(1 + 1/d)
+import math
+BENFORD_EXPECTED = {d: math.log10(1 + 1/d) for d in range(1, 10)}
+# Chi-square critical value @ df=8, p=0.05 -> 15.507; p=0.01 -> 20.090
+BENFORD_CHI2_WARN = 15.507
+BENFORD_CHI2_ALERT = 20.090
+BENFORD_MIN_SAMPLE = 30
+
+# Metrics suitable for Benford (large dynamic range, multiplicative process)
+BENFORD_METRICS = ("market_cap", "market_cap_usd", "shares_outstanding")
+
+
+def _first_digit(value: float | int) -> int | None:
+    """Returns first non-zero digit of |value|, or None if not extractable."""
+    if value is None:
+        return None
+    try:
+        v = abs(float(value))
+    except (ValueError, TypeError):
+        return None
+    if v == 0 or v != v:  # zero or NaN
+        return None
+    # scientific notation safe — log10 path
+    try:
+        exp = math.floor(math.log10(v))
+        first = int(v / (10 ** exp))
+        return first if 1 <= first <= 9 else None
+    except (ValueError, OverflowError):
+        return None
+
+
+def detect_benford_violations(conn: sqlite3.Connection, market: str) -> list[Anomaly]:
+    """For each numeric metric in BENFORD_METRICS, compute first-digit distribution
+    over latest fundamentals across the universe, run chi-square vs Benford expected.
+
+    Emits ONE Anomaly per metric that violates (ticker = "*ALL*"). This is the
+    *correct* way to apply Benford's Law: aggregate distribution, not per-row flag.
+    """
+    out: list[Anomaly] = []
+
+    # Get latest fundamentals row per ticker
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(fundamentals)").fetchall()]
+    avail = [c for c in BENFORD_METRICS if c in cols]
+    if not avail:
+        return out
+
+    select_cols = ", ".join(avail)
+    rows = conn.execute(
+        f"""
+        SELECT ticker, {select_cols}
+        FROM fundamentals f
+        WHERE (ticker, period_end) IN (
+            SELECT ticker, MAX(period_end) FROM fundamentals GROUP BY ticker
+        )
+        """
+    ).fetchall()
+
+    for idx, metric in enumerate(avail):
+        digits: list[int] = []
+        for row in rows:
+            d = _first_digit(row[idx + 1])
+            if d is not None:
+                digits.append(d)
+        n = len(digits)
+        if n < BENFORD_MIN_SAMPLE:
+            continue
+        observed = {d: digits.count(d) / n for d in range(1, 10)}
+        chi2 = sum(
+            ((observed[d] - BENFORD_EXPECTED[d]) ** 2) / BENFORD_EXPECTED[d]
+            for d in range(1, 10)
+        ) * n  # multiply by n: standard chi-square form on counts
+        if chi2 < BENFORD_CHI2_WARN:
+            continue
+        sev = "alert" if chi2 >= BENFORD_CHI2_ALERT else "warn"
+        out.append(Anomaly(
+            market=market, ticker="*ALL*", kind="BENFORD_DEVIATION", severity=sev,
+            detected_at=datetime.now(UTC).isoformat(timespec="seconds"),
+            detail={
+                "metric": metric,
+                "sample_size": n,
+                "chi_square": round(chi2, 2),
+                "critical_warn": BENFORD_CHI2_WARN,
+                "critical_alert": BENFORD_CHI2_ALERT,
+                "observed_freq": {d: round(observed[d], 4) for d in range(1, 10)},
+                "expected_freq": {d: round(BENFORD_EXPECTED[d], 4) for d in range(1, 10)},
+            },
+        ))
+    return out
+
+
+# ============================================================
+# Phase FF Bloco 2.2 — Cross-sectional outliers via MAD on log(metric)
+# ============================================================
+
+MAD_CONSTANT = 1.4826  # makes MAD a consistent estimator of std for normal dist
+MAD_THRESHOLD_WARN = 3.5
+MAD_THRESHOLD_ALERT = 5.0
+MAD_MIN_PEERS = 5
+
+
+def _median(xs: list[float]) -> float:
+    s = sorted(xs)
+    n = len(s)
+    return s[n // 2] if n % 2 == 1 else (s[n // 2 - 1] + s[n // 2]) / 2
+
+
+def detect_cross_sectional_outliers(conn: sqlite3.Connection, market: str,
+                                    threshold: float = MAD_THRESHOLD_WARN) -> list[Anomaly]:
+    """Within each sector, flag tickers whose log(P/E) is > threshold modified
+    z-scores from the sector median.
+
+    Uses MAD (not std) because P/E distributions are heavy-tailed and lognormal.
+    Tests on log(P/E) to handle multiplicative scale.
+    """
+    rows = conn.execute(
+        """
+        SELECT c.ticker, c.sector, f.pe
+          FROM companies c
+          JOIN fundamentals f ON f.ticker = c.ticker
+         WHERE (f.ticker, f.period_end) IN (
+                 SELECT ticker, MAX(period_end) FROM fundamentals GROUP BY ticker
+               )
+           AND c.sector IS NOT NULL AND c.sector != ''
+           AND f.pe IS NOT NULL AND f.pe > 0
+        """
+    ).fetchall()
+
+    by_sector: dict[str, list[tuple[str, float]]] = {}
+    for ticker, sector, pe in rows:
+        by_sector.setdefault(sector, []).append((ticker, pe))
+
+    out: list[Anomaly] = []
+    for sector, items in by_sector.items():
+        if len(items) < MAD_MIN_PEERS:
+            continue
+        log_pes = [math.log(pe) for _, pe in items]
+        med = _median(log_pes)
+        deviations = [abs(x - med) for x in log_pes]
+        mad = _median(deviations)
+        if mad == 0:
+            continue
+        for (ticker, pe), log_pe in zip(items, log_pes):
+            mod_z = abs(log_pe - med) / (MAD_CONSTANT * mad)
+            if mod_z < threshold:
+                continue
+            sev = "alert" if mod_z >= MAD_THRESHOLD_ALERT else "warn"
+            out.append(Anomaly(
+                market=market, ticker=ticker, kind="CROSS_SECTIONAL_OUTLIER",
+                severity=sev,
+                detected_at=datetime.now(UTC).isoformat(timespec="seconds"),
+                detail={
+                    "metric": "pe",
+                    "sector": sector,
+                    "ticker_pe": round(pe, 2),
+                    "sector_median_pe": round(math.exp(med), 2),
+                    "log_modified_z": round(mod_z, 2),
+                    "threshold": threshold,
+                    "n_peers": len(items),
+                },
+            ))
+    return out
+
+
+# ============================================================
 # Orchestrator
 # ============================================================
 def scan(price_pct: float = 20.0,
          price_stale_days: int = 5,
          fund_holdings_days: int = 100,
-         fund_watchlist_days: int = 200) -> dict[str, Any]:
+         fund_watchlist_days: int = 200,
+         mad_threshold: float = MAD_THRESHOLD_WARN) -> dict[str, Any]:
     anomalies: list[Anomaly] = []
     for db, market in [(DB_BR, "br"), (DB_US, "us")]:
         if not db.exists():
@@ -197,6 +371,8 @@ def scan(price_pct: float = 20.0,
             anomalies += detect_fundamentals_stale(
                 conn, market, fund_holdings_days, fund_watchlist_days
             )
+            anomalies += detect_benford_violations(conn, market)
+            anomalies += detect_cross_sectional_outliers(conn, market, mad_threshold)
 
     by_kind: dict[str, int] = {}
     by_severity: dict[str, int] = {}
@@ -232,7 +408,7 @@ def render_text(report: dict[str, Any]) -> str:
     if not report["anomalies"]:
         lines.append("(no anomalies)")
         return "\n".join(lines)
-    for kind in ("PRICE_JUMP", "PRICE_STALE", "FUND_STALE"):
+    for kind in ("PRICE_JUMP", "PRICE_STALE", "FUND_STALE", "BENFORD_DEVIATION", "CROSS_SECTIONAL_OUTLIER"):
         rows = [a for a in report["anomalies"] if a["kind"] == kind]
         if not rows:
             continue
@@ -243,15 +419,23 @@ def render_text(report: dict[str, Any]) -> str:
             sev = a["severity"]
             if kind == "PRICE_JUMP":
                 lines.append(f"  [{sev:5}] {ref:<10} {d['date']}  ret={d['return_pct']:+.2f}% "
-                             f"(close={d['close']} ← {d['prev_close']})")
+                             f"(close={d['close']} <- {d['prev_close']})")
             elif kind == "PRICE_STALE":
                 lines.append(f"  [{sev:5}] {ref:<10} last={d['last_price_date']}  rows={d['rows_total']}")
-            else:  # FUND_STALE
+            elif kind == "FUND_STALE":
                 age = d.get("age_days")
-                age_str = f"{age}d" if age is not None else "—"
+                age_str = f"{age}d" if age is not None else "-"
                 hold = "HOLD" if d.get("is_holding") else "wtch"
                 lines.append(f"  [{sev:5}] {ref:<10} last_pe={d['last_period_end']}  "
                              f"age={age_str}  ({hold})")
+            elif kind == "BENFORD_DEVIATION":
+                lines.append(f"  [{sev:5}] {ref:<10} metric={d['metric']:<20} "
+                             f"chi2={d['chi_square']:.2f} (n={d['sample_size']}, "
+                             f"warn>{d['critical_warn']:.1f} alert>{d['critical_alert']:.1f})")
+            else:  # CROSS_SECTIONAL_OUTLIER
+                lines.append(f"  [{sev:5}] {ref:<10} {d['metric']}={d['ticker_pe']:.2f} "
+                             f"(sector {d['sector']}: median {d['sector_median_pe']:.2f}, "
+                             f"log-MAD-z={d['log_modified_z']:.2f})")
         if len(rows) > 30:
             lines.append(f"  ... +{len(rows) - 30} more")
         lines.append("")
@@ -265,6 +449,8 @@ def main() -> int:
     ap.add_argument("--price-stale-days", type=int, default=5)
     ap.add_argument("--fund-holdings-days", type=int, default=100)
     ap.add_argument("--fund-watchlist-days", type=int, default=200)
+    ap.add_argument("--mad-threshold", type=float, default=MAD_THRESHOLD_WARN,
+                    help="modified-z threshold for CROSS_SECTIONAL_OUTLIER (default 3.5)")
     ap.add_argument("--json", action="store_true", help="print JSON")
     ap.add_argument("--no-write", action="store_true", help="don't write data_anomalies.json")
     args = ap.parse_args()
@@ -274,6 +460,7 @@ def main() -> int:
         price_stale_days=args.price_stale_days,
         fund_holdings_days=args.fund_holdings_days,
         fund_watchlist_days=args.fund_watchlist_days,
+        mad_threshold=args.mad_threshold,
     )
 
     if not args.no_write:

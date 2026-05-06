@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T16:59:11+00:00",
+  "generated_at": "2026-05-05T20:38:21+00:00",
   "thresholds": {
     "price_pct": 20.0,
     "price_stale_days": 5,
@@ -7,9 +7,127 @@
     "fund_watchlist_days": 200
   },
   "totals": {
-    "all": 0,
-    "by_kind": {},
-    "by_severity": {}
+    "all": 7,
+    "by_kind": {
+      "CROSS_SECTIONAL_OUTLIER": 7
+    },
+    "by_severity": {
+      "alert": 3,
+      "warn": 4
+    }
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "market": "br",
+      "ticker": "BPAC11",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "alert",
+      "detected_at": "2026-05-05T20:38:20+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Banks",
+        "ticker_pe": 99.15,
+        "sector_median_pe": 9.83,
+        "log_modified_z": 7.0,
+        "threshold": 3.5,
+        "n_peers": 6
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "PLTR",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "warn",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Technology",
+        "ticker_pe": 152.71,
+        "sector_median_pe": 23.35,
+        "log_modified_z": 4.95,
+        "threshold": 3.5,
+        "n_peers": 8
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "ABBV",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "alert",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Healthcare",
+        "ticker_pe": 101.03,
+        "sector_median_pe": 25.26,
+        "log_modified_z": 8.48,
+        "threshold": 3.5,
+        "n_peers": 6
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "BN",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "warn",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Financials",
+        "ticker_pe": 93.55,
+        "sector_median_pe": 14.81,
+        "log_modified_z": 4.41,
+        "threshold": 3.5,
+        "n_peers": 19
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "NFG",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "warn",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Utilities",
+        "ticker_pe": 11.09,
+        "sector_median_pe": 21.22,
+        "log_modified_z": 4.01,
+        "threshold": 3.5,
+        "n_peers": 11
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "GPC",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "warn",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Consumer Disc.",
+        "ticker_pe": 231.76,
+        "sector_median_pe": 22.18,
+        "log_modified_z": 4.7,
+        "threshold": 3.5,
+        "n_peers": 7
+      }
+    },
+    {
+      "market": "us",
+      "ticker": "TSLA",
+      "kind": "CROSS_SECTIONAL_OUTLIER",
+      "severity": "alert",
+      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detail": {
+        "metric": "pe",
+        "sector": "Consumer Disc.",
+        "ticker_pe": 353.97,
+        "sector_median_pe": 22.18,
+        "log_modified_z": 5.55,
+        "threshold": 3.5,
+        "n_peers": 7
+      }
+    }
+  ]
 }
