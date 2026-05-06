@@ -72,6 +72,7 @@ MULT3 negocia P/E 14.23 e P/B 2.54 com ROE 19.11% e streak excepcional de 18 ano
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

@@ -3,7 +3,7 @@ type: glossary
 slug: Net_Debt_EBITDA
 title: Net Debt / EBITDA — Alavancagem
 category: balance_sheet
-date: 2026-05-04
+date: 2026-05-05
 tags: [glossary, tutor, balance_sheet]
 ---
 
@@ -42,9 +42,11 @@ Quantos anos de EBITDA seriam necessários para pagar a dívida líquida. **Maio
 - [[ALOS3_DOSSIE]]
 - [[AXIA7_DOSSIE]]
 - [[B3SA3_DOSSIE]]
+- [[BBDC4_DOSSIE]]
 - [[BLK_DOSSIE]]
 - [[CPLE3_DOSSIE]]
 - [[ENGI11_DOSSIE]]
+- [[JNJ_DOSSIE]]
 - [[MCD_DOSSIE]]
 - [[MOTV3_DOSSIE]]
 - [[MULT3_DOSSIE]]
@@ -52,6 +54,7 @@ Quantos anos de EBITDA seriam necessários para pagar a dívida líquida. **Maio
 - [[PETR4_DOSSIE]]
 - [[PGMN3_DOSSIE]]
 - [[PLPL3_DOSSIE]]
+- [[PRIO3_DOSSIE]]
 - [[RAPT4_DOSSIE]]
 - [[RDOR3_DOSSIE]]
 - [[RENT3_DOSSIE]]
@@ -60,4 +63,4 @@ Quantos anos de EBITDA seriam necessários para pagar a dívida líquida. **Maio
 - [[TTEN3_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*

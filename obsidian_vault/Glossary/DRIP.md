@@ -3,7 +3,7 @@ type: glossary
 slug: DRIP
 title: DRIP — Dividend Reinvestment Plan
 category: concept
-date: 2026-05-04
+date: 2026-05-05
 tags: [glossary, tutor, concept]
 ---
 
@@ -108,4 +108,4 @@ Estratégia de compounding: cada distribuição compra mais acções, que geram 
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*

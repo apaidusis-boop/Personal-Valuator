@@ -159,6 +159,22 @@ _Peer set (db): 5 tickers — ITUB4, BBAS3, BPAC11, ABCB4, SANB11_
 | Data coverage | 100 |
 | Paper track | 90 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 8.88** → [[Glossary/PE|porquê isto importa?]]. Bancos BR têm spread alto e múltiplos comprimidos — target ≤ 10. **Actual 8.88** passa.
+- **P/B = 1.12** → [[Glossary/PB|leitura completa]]. Bancos: P/B ≤ 1.5 = margem sobre equity. **1.12** OK.
+- **DY = 7.96%** → [[Glossary/DY|leitura + contraméricas]]. BR DRIP: DY ≥ 6%. **7.96%** passa.
+- **ROE = 13.75%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Bancos BR (Selic alta): target ≥ 12%. **13.75%** OK.
+- **Streak div = 19y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+- **Basel = 15.85%** → [[Glossary/Basel_Ratio|capital regulatório]]. Tier **saudável** (mín BCB ~10.5%; saudável ≥14%; premium ≥16%).
+- **CET1 = 11.39%** → [[Glossary/CET1|capital high-quality]]. Tier **saudável** (≥11% médio peer BR; ≥13% leadership tipo ITUB4).
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
 ## 10. Riscos identificados
 
 <!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->

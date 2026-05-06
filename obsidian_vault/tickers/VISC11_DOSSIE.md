@@ -69,6 +69,7 @@ VISC11 (Vinci Shopping Centers, segmento Shopping) negoceia a BRL 110.37 com DY 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

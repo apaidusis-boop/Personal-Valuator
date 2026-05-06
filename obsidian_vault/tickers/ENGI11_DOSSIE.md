@@ -75,6 +75,7 @@ ENGI11 negocia a P/E elevado de 40.07 mas P/B exactamente 1.00 e ROE de 14.49%, 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

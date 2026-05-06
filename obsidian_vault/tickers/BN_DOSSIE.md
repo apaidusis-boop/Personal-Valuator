@@ -57,6 +57,7 @@ BN cota P/E 92.82, DY 0.55% e ROE 1.95% (depressed por accounting GAAP que masca
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

@@ -46,6 +46,7 @@ GS negoceia a P/E 16.92 com DY 1.67% e ROE 14.59%, IC HOLD com alta confiança (
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

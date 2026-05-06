@@ -57,6 +57,7 @@ AAPL negoceia a P/E 34.35 com DY 0.38% e ROE 152.02% (alavancado por buybacks), 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

@@ -63,6 +63,7 @@ Microsoft transaciona a P/E 26.59 com DY apenas 0.82% e streak de 24y — falha 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

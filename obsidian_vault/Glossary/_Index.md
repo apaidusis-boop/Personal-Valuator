@@ -1,6 +1,6 @@
 ---
 type: glossary_index
-date: 2026-05-04
+date: 2026-05-05
 entries: 29
 tags: [glossary, tutor, index]
 ---

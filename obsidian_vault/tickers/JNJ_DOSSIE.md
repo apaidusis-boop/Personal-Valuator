@@ -106,6 +106,21 @@ _Peer set (mixed): 5 tickers — ABBV, ABT, BDX, MDT, WST_
 
 → Vault: [[JNJ]]
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 25.98** → [[Glossary/PE|porquê isto importa?]]. Buffett quality: P/E ≤ 20. **Actual 25.98** esticado vs critério.
+- **P/B = 6.65** → [[Glossary/PB|leitura completa]]. US: P/B ≤ 3. **6.65** esticado.
+- **DY = 2.32%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **2.32%** fraco; verificar se é growth pick.
+- **ROE = 26.42%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **26.42%** compounder-grade.
+- **Graham Number ≈ R$ 80.93** vs preço **R$ 224.20** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 65y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**. Eligível [[Glossary/Aristocrat|Aristocrat]] se ≥ 25y.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 9. Riscos identificados
 
 <!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->

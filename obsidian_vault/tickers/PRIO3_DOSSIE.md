@@ -96,6 +96,20 @@ _(DCF skipped — annual FCF data not available)_
 | Data coverage | 50 |
 | Paper track | 50 |
 
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 25.33** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 25.33** fora do screen.
+- **P/B = 2.20** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **2.20** — verificar consistência com ROE.
+- **ROE = 8.71%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.71%** abaixo do critério.
+- **Graham Number ≈ R$ 44.54** vs preço **R$ 70.16** → [[Glossary/Graham_Number|conceito]]. ❌ Acima do tecto Graham.
+- **Streak div = 1y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; curto.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
 ## 9. Riscos identificados
 
 <!-- TODO_CLAUDE_RISKS: 3-5 riscos prioritizados, baseados em IC + thesis + peer compare. Severidade 🟢🟡🔴. Cite trigger condition específica. -->

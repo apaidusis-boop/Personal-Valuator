@@ -58,6 +58,7 @@ JPM negoceia a P/E 14.75 e P/B 2.40 com DY 1.91% e ROE 16.5%, IC HOLD com **alta
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

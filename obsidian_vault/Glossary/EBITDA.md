@@ -3,7 +3,7 @@ type: glossary
 slug: EBITDA
 title: EBITDA — Earnings Before Interest, Taxes, Depreciation, Amortization
 category: fundamentals
-date: 2026-05-04
+date: 2026-05-05
 tags: [glossary, tutor, fundamentals]
 ---
 
@@ -36,4 +36,4 @@ Métrica de **rentabilidade operacional pura** — exclui efeitos de estrutura d
 ❌ Para bancos NÃO se aplica (estrutura de receita diferente).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-04.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*

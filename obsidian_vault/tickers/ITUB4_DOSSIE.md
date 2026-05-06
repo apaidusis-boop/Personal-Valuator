@@ -142,6 +142,7 @@ ITUB4 negocia a P/E 11.06 (acima do limite 10) e P/B 2.39 (acima do limite 1.5),
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
