@@ -18,6 +18,7 @@ const GROUPS: NavGroup[] = [
   {
     label: "Decide",
     items: [
+      { href: "/portfolio", label: "Portfolio" },
       { href: "/allocation", label: "Allocation" },
       { href: "/council", label: "Council" },
     ],

@@ -278,3 +278,251 @@ export function strategyVerdictByTicker(
   }
   return out;
 }
+
+// ============================================================
+// Unified portfolio — equities + FIIs + ETFs + fixed income
+// ============================================================
+
+export type AssetClass =
+  | "equity"
+  | "fii"
+  | "etf"
+  | "tesouro"
+  | "debenture"
+  | "cra"
+  | "lca"
+  | "fundo";
+
+export type UnifiedPosition = {
+  id: string;
+  market: "br" | "us";
+  asset_class: AssetClass;
+  group_label: string;
+  ticker: string | null;
+  name: string;
+  sector: string | null;
+  quantity: number | null;
+  entry_unit: number | null;
+  current_unit: number | null;
+  cost_basis: number;
+  current_value: number;
+  pnl_abs: number;
+  pnl_pct: number | null;
+  maturity_date: string | null;
+  rate: string | null;
+  weight_pct: number;
+};
+
+const FII_SECTORS = new Set([
+  "Logística",
+  "Shopping",
+  "Papel (CRI)",
+  "Híbrido",
+  "Corporativo",
+  "Tijolo",
+  "Residencial",
+]);
+
+function classifyEquity(sector: string | null): "equity" | "fii" | "etf" {
+  if (!sector) return "equity";
+  if (sector.startsWith("ETF")) return "etf";
+  if (FII_SECTORS.has(sector)) return "fii";
+  return "equity";
+}
+
+const GROUP_LABELS: Record<string, string> = {
+  equity: "Ações",
+  fii: "FIIs",
+  etf: "ETFs",
+  us_equity: "US Equities",
+  tesouro: "Tesouro Direto",
+  debenture: "Debêntures",
+  cra: "CRAs",
+  lca: "LCAs",
+  fundo: "Fundos",
+};
+
+// Display order for groups
+const GROUP_ORDER: string[] = [
+  "Ações",
+  "US Equities",
+  "FIIs",
+  "ETFs",
+  "Tesouro Direto",
+  "Debêntures",
+  "CRAs",
+  "LCAs",
+  "Fundos",
+];
+
+export function listAllPositions(): UnifiedPosition[] {
+  const out: UnifiedPosition[] = [];
+
+  // BR equities / FIIs / ETFs
+  try {
+    const db = openRO(DB_BR);
+    const rows = db
+      .prepare(
+        `SELECT pp.ticker, pp.quantity, pp.entry_price,
+          (SELECT close FROM prices WHERE ticker=pp.ticker ORDER BY date DESC LIMIT 1) AS px,
+          c.name, c.sector
+         FROM portfolio_positions pp
+         LEFT JOIN companies c ON c.ticker = pp.ticker
+         WHERE pp.active = 1
+         ORDER BY pp.ticker`
+      )
+      .all() as any[];
+    for (const r of rows) {
+      const ac = classifyEquity(r.sector);
+      const cost = r.quantity * r.entry_price;
+      const mv = r.px != null ? r.quantity * r.px : cost;
+      out.push({
+        id: `br_${r.ticker}`,
+        market: "br",
+        asset_class: ac,
+        group_label: GROUP_LABELS[ac],
+        ticker: r.ticker,
+        name: r.name || r.ticker,
+        sector: r.sector,
+        quantity: r.quantity,
+        entry_unit: r.entry_price,
+        current_unit: r.px ?? null,
+        cost_basis: cost,
+        current_value: mv,
+        pnl_abs: mv - cost,
+        pnl_pct: r.px != null ? ((r.px / r.entry_price) - 1) * 100 : null,
+        maturity_date: null,
+        rate: null,
+        weight_pct: 0,
+      });
+    }
+    db.close();
+  } catch { /* skip */ }
+
+  // US equities
+  try {
+    const db = openRO(DB_US);
+    const rows = db
+      .prepare(
+        `SELECT pp.ticker, pp.quantity, pp.entry_price,
+          (SELECT close FROM prices WHERE ticker=pp.ticker ORDER BY date DESC LIMIT 1) AS px,
+          c.name, c.sector
+         FROM portfolio_positions pp
+         LEFT JOIN companies c ON c.ticker = pp.ticker
+         WHERE pp.active = 1
+         ORDER BY pp.ticker`
+      )
+      .all() as any[];
+    for (const r of rows) {
+      const cost = r.quantity * r.entry_price;
+      const mv = r.px != null ? r.quantity * r.px : cost;
+      out.push({
+        id: `us_${r.ticker}`,
+        market: "us",
+        asset_class: "equity",
+        group_label: "US Equities",
+        ticker: r.ticker,
+        name: r.name || r.ticker,
+        sector: r.sector,
+        quantity: r.quantity,
+        entry_unit: r.entry_price,
+        current_unit: r.px ?? null,
+        cost_basis: cost,
+        current_value: mv,
+        pnl_abs: mv - cost,
+        pnl_pct: r.px != null ? ((r.px / r.entry_price) - 1) * 100 : null,
+        maturity_date: null,
+        rate: null,
+        weight_pct: 0,
+      });
+    }
+    db.close();
+  } catch { /* skip */ }
+
+  // BR fixed income
+  try {
+    const db = openRO(DB_BR);
+    const rows = db
+      .prepare(
+        `SELECT id, name, kind, indexador, spread_taxa, cdi_pct,
+                entry_date, maturity_date, quantity, entry_unit_price,
+                valor_aplicado, valor_atual
+         FROM fixed_income_positions
+         ORDER BY kind, name`
+      )
+      .all() as any[];
+    for (const r of rows) {
+      let rate: string | null = null;
+      if (r.cdi_pct) {
+        rate = `${(r.cdi_pct * 100).toFixed(0)}% CDI`;
+      } else if (r.spread_taxa && r.indexador) {
+        rate = `${r.indexador} +${(r.spread_taxa * 100).toFixed(2)}%`;
+      } else if (r.indexador) {
+        rate = r.indexador;
+      }
+      const entry_unit =
+        r.entry_unit_price ??
+        (r.quantity ? r.valor_aplicado / r.quantity : null);
+      const current_unit = r.quantity ? r.valor_atual / r.quantity : null;
+      out.push({
+        id: `rf_${r.id}`,
+        market: "br",
+        asset_class: r.kind as AssetClass,
+        group_label: GROUP_LABELS[r.kind] ?? r.kind,
+        ticker: null,
+        name: r.name,
+        sector: null,
+        quantity: r.quantity ?? null,
+        entry_unit,
+        current_unit,
+        cost_basis: r.valor_aplicado,
+        current_value: r.valor_atual,
+        pnl_abs: r.valor_atual - r.valor_aplicado,
+        pnl_pct: r.valor_aplicado
+          ? ((r.valor_atual / r.valor_aplicado) - 1) * 100
+          : null,
+        maturity_date: r.maturity_date ?? null,
+        rate,
+        weight_pct: 0,
+      });
+    }
+    db.close();
+  } catch { /* skip */ }
+
+  // Compute weight_pct within each market separately (BRL vs USD can't sum)
+  const brTotal = out
+    .filter((p) => p.market === "br")
+    .reduce((s, p) => s + p.current_value, 0);
+  const usTotal = out
+    .filter((p) => p.market === "us")
+    .reduce((s, p) => s + p.current_value, 0);
+  for (const p of out) {
+    const total = p.market === "br" ? brTotal : usTotal;
+    p.weight_pct = total > 0 ? (p.current_value / total) * 100 : 0;
+  }
+
+  // Sort by group display order, then by current_value desc within group
+  out.sort((a, b) => {
+    const oa = GROUP_ORDER.indexOf(a.group_label);
+    const ob = GROUP_ORDER.indexOf(b.group_label);
+    if (oa !== ob) return (oa < 0 ? 99 : oa) - (ob < 0 ? 99 : ob);
+    return b.current_value - a.current_value;
+  });
+
+  return out;
+}
+
+export function getRFTotal(): number {
+  try {
+    const db = openRO(DB_BR);
+    const r = db
+      .prepare(
+        "SELECT COALESCE(SUM(valor_atual), 0) AS total FROM fixed_income_positions"
+      )
+      .get() as any;
+    db.close();
+    return r?.total ?? 0;
+  } catch {
+    return 0;
+  }
+}

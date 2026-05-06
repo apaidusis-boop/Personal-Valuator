@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { listOpenActions, listPortfolio, upcomingDividends, listChatIds } from "@/lib/db";
+import { listOpenActions, listPortfolio, upcomingDividends, listChatIds, getRFTotal } from "@/lib/db";
 import { loadAgentStatus } from "@/lib/agents";
 import {
   listDossiers,
@@ -21,6 +21,7 @@ export const dynamic = "force-dynamic";
 
 export default function Home() {
   const portfolio = listPortfolio();
+  const rfTotalBR = getRFTotal();
   const actions = listOpenActions(20);
   const dividends = upcomingDividends(30);
   const status = loadAgentStatus();
@@ -90,10 +91,10 @@ export default function Home() {
       {/* Stats — 4 quadrants */}
       <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <Stat
-          label="Portfolio BR"
-          value={formatCurrency(totalsBR.mv, "BRL", 0)}
+          label="Patrimônio BR"
+          value={formatCurrency(totalsBR.mv + rfTotalBR, "BRL", 0)}
           delta={{ value: pnlPctBR, format: "percent" }}
-          caption="vs cost"
+          caption={`equities+FIIs ${formatCurrency(totalsBR.mv, "BRL", 0)} · RF ${formatCurrency(rfTotalBR, "BRL", 0)}`}
           icon="◇"
         />
         <Stat
