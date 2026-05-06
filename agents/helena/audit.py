@@ -12,6 +12,7 @@ Rules (each has ID + severity):
     DS007 warn   — `color="black"|"red"|"green"|"blue"|…` (cor por nome)
     DS008 warn   — `section_caption()` ou `st.caption()` com >8 palavras
     DS009 info   — Page sem `inject_css()` (não aplica design tokens)
+    DS010 warn   — Skill file >500 body lines (progressive disclosure)
 
 Excluded files (são fonte do sistema, não alvo): `scripts/_theme.py`, `scripts/_components.py`.
 
@@ -81,6 +82,9 @@ _RULES_DOC = {
               "Captions ≤8 palavras factuais. Cortar adjectivos."),
     "DS009": ("info", "Página sem inject_css()",
               "Adicionar `from scripts._theme import inject_css; inject_css()` após set_page_config."),
+    "DS010": ("warn", "Skill file >500 body lines",
+              "Anthropic best practice: <500 lines per skill file. "
+              "Split into reference files via progressive disclosure."),
 }
 
 
@@ -186,6 +190,85 @@ def _scan_file(path: Path) -> tuple[list[Violation], dict]:
         "is_streamlit_page": is_streamlit_page,
         "lines": text.count("\n") + 1,
     }
+
+
+# ────────────────── DS010 — skill file length ──────────────────
+
+_SKILLS_ROOT = ROOT / "obsidian_vault" / "skills"
+_DS010_SKIP_DIR = _SKILLS_ROOT / "Helena_Mega"
+_DS010_SKIP_TYPES = {"roadmap", "master_plan"}
+_DS010_BODY_LIMIT = 500
+
+
+def _count_body_lines(text: str) -> int:
+    """Count non-blank lines, excluding YAML frontmatter (first --- ... --- block)."""
+    lines = text.splitlines()
+    in_front = False
+    front_done = False
+    body: list[str] = []
+    for i, ln in enumerate(lines):
+        if i == 0 and ln.strip() == "---":
+            in_front = True
+            continue
+        if in_front and ln.strip() == "---":
+            in_front = False
+            front_done = True
+            continue
+        if in_front:
+            continue
+        body.append(ln)
+    # if no closing --- found, treat whole file as body
+    if in_front:
+        body = lines
+    return sum(1 for ln in body if ln.strip())
+
+
+def _get_frontmatter_type(text: str) -> str | None:
+    """Extract 'type' field from YAML frontmatter, or None."""
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return None
+    for ln in lines[1:]:
+        if ln.strip() == "---":
+            break
+        m = re.match(r"^type\s*:\s*(.+)$", ln.strip())
+        if m:
+            return m.group(1).strip().strip('"\'')
+    return None
+
+
+def scan_skills_files() -> list[Violation]:
+    """DS010 — scan obsidian_vault/skills/**/*.md for files exceeding body line limit."""
+    violations: list[Violation] = []
+    if not _SKILLS_ROOT.is_dir():
+        return violations
+    for path in sorted(_SKILLS_ROOT.rglob("*.md")):
+        # skip Helena_Mega auto-generated reports
+        try:
+            path.relative_to(_DS010_SKIP_DIR)
+            continue
+        except ValueError:
+            pass
+        text = path.read_text(encoding="utf-8", errors="replace")
+        fm_type = _get_frontmatter_type(text)
+        if fm_type in _DS010_SKIP_TYPES:
+            continue
+        n = _count_body_lines(text)
+        if n > _DS010_BODY_LIMIT:
+            rel = path.relative_to(ROOT).as_posix()
+            violations.append(Violation(
+                file=rel,
+                line=1,
+                rule="DS010",
+                severity="warn",
+                text=(
+                    f"Skill file {rel} has {n} body lines — "
+                    "Anthropic best practice recommends <500. "
+                    "Consider progressive disclosure (split into reference files)."
+                ),
+                fix=_RULES_DOC["DS010"][2],
+            ))
+    return violations
 
 
 # ────────────────── targets ──────────────────
@@ -334,6 +417,8 @@ def run(paths: list[str] | None = None) -> tuple[list[Violation], dict, list[Pat
         v, meta = _scan_file(t)
         all_v.extend(v)
         file_meta[t.relative_to(ROOT).as_posix()] = meta
+    # DS010 — skill file length (separate scope: obsidian_vault/skills/)
+    all_v.extend(scan_skills_files())
     return all_v, file_meta, targets
 
 
