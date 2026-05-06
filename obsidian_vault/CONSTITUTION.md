@@ -203,7 +203,7 @@ Sistema pessoal de inteligência de investimentos para **um investidor pessoa f�
 
 **User profile**: vibe coder. Comandos terminal são deslike; prefere ler resultados em Obsidian/HTML/dashboards. Decisões são tomadas com clareza visual + contexto.
 
-## 🛡️ Os 6 não-negociáveis (constitutional rules)
+## 🛡️ Os 7 não-negociáveis (constitutional rules)
 
 > **Princípio de superfícies (2026-04-26)**: Terminal/CLI = **sala do chefe**
 > (acção directa, raw, sem cerimónia). Obsidian + desktop app + reports HTML =
@@ -223,6 +223,8 @@ Sistema pessoal de inteligência de investimentos para **um investidor pessoa f�
 6. **Tickers blacklist** — Memória persistente:
    - **TEN**: 4 sinais cycle peak Apr 2026 → NUNCA adicionar
    - **GREK**: dividendos irregulares → NÃO aplicar lógica DRIP
+
+7. **Verification before completion** *(2026-05-06, importado de obra/superpowers)* — Nenhuma claim de "done" sem evidência fresca: comando executado, output capturado, teste verificado. Aplica-se a perpetuum action_hints (T2+), implementações autónomas overnight/workday, e respostas a pedidos de status. Anti-padrão proibido: declarar trabalho concluído baseado em raciocínio sobre o que *deveria* funcionar. Operacionalização: cada commit autónomo precisa de 1 linha de evidência (test pass / sql query / dry-run output) no body.
 
 ## 🗺️ Architecture Map
 
@@ -402,6 +404,12 @@ Phase paralela após sprints 0-7: hire de **Helena Linha** (Head of Design) + si
 | 2026-04-26 | **Princípio de superfícies**: Terminal=sala-do-chefe, Obsidian/desktop=Escritório | User: "O terminal é a sala do chefe, o Obsidian é o Escritório" — cada superfície optimiza para o seu uso |
 | 2026-04-26 | Path B (Tauri desktop app) escolhido para Phase Z UI | "O mais elaborado"; tecto 10/10, reusa 100% backend Python via FastAPI sidecar |
 | 2026-04-26 | CLI `ii *` mantém-se intacto independentemente do Path B | Princípio das superfícies — Tauri é Escritório, não substitui sala-do-chefe |
+| 2026-05-06 | Adoptar 4 slash commands externos (security-review + 3 superpowers) em `.claude/commands/` | Editorial value alto, custo zero (só invocados on demand); reforça verification-before-completion |
+| 2026-05-06 | Adicionar CI workflows (`.github/workflows/test.yml` + `codeql.yml`) | Repo era zero-CI; pytest + CodeQL gatekeep main sem custo recorrente; complementa `code_health` perpetuum (CH at PR-time vs cron-time) |
+| 2026-05-06 | DS010 + CH008 — skill files >500 lines warn (best practice Anthropic) | Progressive disclosure principle; Helena audit + code_health perpetuum cobrem cron + linter |
+| 2026-05-06 | 7º não-negociável — "Verification before completion" | Importado de obra/superpowers; reforça anti-padrão LLM "I'm done sem evidência" que CLAUDE.md "Goal-driven execution" já apontava |
+| 2026-05-06 | claude-mem (cross-session memory passive) — **skip** | Existing file-based memory mais auditável + git-backed; AGPL/PolyForm sub-deps adicionais |
+| 2026-05-06 | gstack (Garry Tan agentic framework) — inspiração only | Mission Control já tem scaffold; cherry-pick é DESIGN_TASTE.md (preference journal lightweight) |
 
 ## 🔁 Estado actual dos perpetuums (live)
 
@@ -597,7 +605,7 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 2. **Quero arrancar nova phase** → revê "Decision Log" para não repetir decisões
 3. **Não sei o que mudou desde X** → "Changelog" tem timeline
 4. **Não lembro onde está Y** → "Architecture Map" + "Comandos canónicos"
-5. **User pergunta "ainda sigo a regra Z?"** → "6 não-negociáveis"
+5. **User pergunta "ainda sigo a regra Z?"** → "7 não-negociáveis"
 
 ## 🔗 Cross-links principais
 
