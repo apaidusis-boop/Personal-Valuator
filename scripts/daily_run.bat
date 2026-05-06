@@ -49,6 +49,21 @@ echo [SEC] sec_monitor.py --lookback-days 30 >> "%LOG%"
 echo SEC exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [BENCHMARKS] refresh_benchmarks.py  ^(Phase FF: SPY/BOVA11/sector ETFs^) >> "%LOG%"
+"%PY%" scripts\refresh_benchmarks.py --quiet >> "%LOG%" 2>&1
+echo BENCHMARKS exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [DECISION-QUALITY] decision_quality update --window 30  ^(Phase FF: closed-loop^) >> "%LOG%"
+"%PY%" -m analytics.decision_quality update --window 30 --market both >> "%LOG%" 2>&1
+echo DECISION-QUALITY exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [ANOMALIES] data_anomalies  ^(Phase FF Bloco 2.2: Benford + MAD^) >> "%LOG%"
+"%PY%" -m analytics.data_anomalies >> "%LOG%" 2>&1
+echo ANOMALIES exit code (informational): %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [REPORT US] us_portfolio_report.py >> "%LOG%"
 "%PY%" scripts\us_portfolio_report.py >> "%LOG%" 2>&1
 echo REPORT-US exit code: %errorlevel% >> "%LOG%"

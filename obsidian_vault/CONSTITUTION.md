@@ -4,7 +4,7 @@ tags: [constitution, master, history, governance]
 created: 2026-04-25
 last_updated: 2026-04-25
 phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised), W.6.1 (Pydantic structured outputs + typed Ollama wrapper)]
-current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, React desktop deprecated, layer markers no vault, helena.css snippet, vault auto-commit script. Próximo: U.1 Home minimalista.
+current_phase: FF — Calibration Loop (Blocos 1-3, 3 semanas). Triggered 2026-05-05 após external AI critique (4 attack vectors: calibration void, latent space echo chamber, decorator macro, L1 quicksand). Bloco 4 (Capital Deployment) DEFERRED como Phase GG, prerequisite ≥90 dias validated verdicts. Começa com Bloco 1.1: Decision Quality Engine + benchmark schema.
 ---
 
 # 📜 The Constitution — Investment Intelligence Project
@@ -15,7 +15,14 @@ current_phase: U — Unification (Sprints U.0–U.7). U.0 SHIPPED: root limpo, R
 
 > **Quando o user diz "Voltamos" numa nova conversa**: lê esta secção primeiro. Tem tudo que precisas para continuar do ponto certo sem queimar tokens em re-audits.
 
-**Última sessão**: 2026-04-28 noite. Phase **W.6.1 shipped** — Pydantic-typed LLM outputs nos 3 agents que faziam `json.loads` à mão (synthetic_ic, thesis_synthesizer, holding_wiki_synthesizer). Novo helper `agents/_llm.py::ollama_call_typed[T]` + schemas em `agents/_schemas.py` (PersonaVerdict / ThesisDraft / HoldingWikiStub). Validação ao nível de Literal type — verdicts fora de `{BUY,HOLD,AVOID}` ou conviction fora de 1-10 já não passam silenciosamente. Live tests OK (KO Buffett: BUY 9 large; KO majority 3/3 BUY; KO thesis 4 assumptions + 4 triggers). Code_health: 100/100 nos 3 ficheiros (holding_wiki removeu CH001 violation). Phase Z YouTube digest aside: SKL_google_stitch.md avaliado Tier B observe-only (Helena Linha já cobre o terreno).
+**Última sessão**: 2026-05-05 — **Phase FF (Calibration Loop) iniciada**. Após external AI critique em 4 rondas (briefing → 15 surgical questions → improvement roadmap → 4 attack vectors), formalizou-se o que faltava no sistema: *closed-loop validation*. Bloco 4 do roadmap externo (Capital Deployment) **deferred como Phase GG** com prerequisite explícito de ≥90 dias de validated verdicts. Começa com Bloco 1.1: schema migration `verdict_history` (8 outcome columns + `verdict_engine_breakdown` table) + `analytics/decision_quality.py` com benchmark comparison (SPY US / BOVA11 BR / sector ETFs). **Bloqueador imediato**: prices de SPY/BOVA11 com zero rows nas DBs — primeiro fetch antes do calibration_curve produzir números. Briefing externo + replies + roadmap em `EXTERNAL_AI_BRIEFING*.md` no root.
+
+**Contexto da decisão Phase FF**:
+- Critique mais aguda recebida: "If you had to prove to a skeptic today that this system isn't just retrofitting data to validate your pre-existing Buffett/Graham biases, what specific empirical evidence from your SQLite L1 layer could you point to?"
+- Resposta honesta hoje: nenhuma. Em 90 dias, com FF rodando, podemos apontar para calibration curve + hit rate por engine + sector tilt + anomalias L1.
+- Princípio: validação **antes** de capital. Bloco 4 (deploy) sem Bloco 1 (calibrate) seria confirmation bias retrofit.
+
+### ✅ Sessão 2026-04-28 noite — Phase W.6.1 (structured outputs)
 
 ### ✅ Sessão 2026-04-28 noite — Phase W.6.1 (structured outputs)
 
@@ -458,6 +465,9 @@ python -m library.ingest && python -m library.extract_insights --book <slug> --m
 7. **Quarterly_single para watchlist novos** — só ingere 5 holdings principais; novos 15 watchlist precisam ingest específico.
 8. ~~**XPML11 data corruption**~~ ✅ RESOLVIDO 2026-04-27 (Workday Work). 3 rows deletadas + log em events table. Fetcher guard `_is_suspicious_close` adicionado a yf_br_fetcher + yf_us_fetcher (rejeita >50% intraday move sem split na history). Future glitches handled durably.
 9. **BBAS3/SANB11 fora do BACEN map** — `library/ri/catalog.yaml` só tem BBDC4+ITUB4. Para os ingerir falta CodInst Prudencial+Financeiro (descoberta via IfDataCadastro) + entries em `BANK_CODE_MAP` no fetcher + CVM ingest. ~30min cada.
+10. **Longitudinal validation data — primeira amostra capturada** (Phase FF). 31 verdicts originais (2026-04-23) → 29 fechados em window de 11 dias com benchmark + sector cmp (Bloco 1.1 shipped 2026-05-05). Calibration curve US n=20: bin 60-80 hit rate 25%, bin 80-100 hit rate 100% (n=1). BR n=9: maioria HOLD com retornos modestos vs IBOV. **Ainda muito cedo** para validação real — janela de 11 dias é ruído, não signal. Próximo: window 30d em ~3 semanas, 90d em Aug/2026.
+11. ~~**Benchmark prices ausentes**~~ ✅ RESOLVIDO 2026-05-05. SPY (501 rows) + BOVA11 (499 rows) + 11 sector ETFs US (XLK/XLV/XLF/XLE/XLI/XLY/XLP/XLB/XLRE/XLU/XLC, 501 rows cada) — todos com 2 anos de história. **TODO**: wire em `daily_run.bat` para refresh diário (hoje só foi backfill one-shot).
+12. **`WATCH` action no `verdict_history`** — vocabulário oficial é `BUY/HOLD/AVOID/SELL`, mas há rows com `WATCH` (legacy). `_accuracy()` em `decision_quality.py` trata como HOLD (ban ±5%). Ou alinhar legacy → AVOID/HOLD, ou estender vocabulário oficial. Decidir antes de Bloco 1.2.
 
 ## 📄 Reports gerados
 
@@ -506,6 +516,50 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 2. Vault scaling → `_archive/YYYY/` policy via bibliotheca perpetuum
 3. Bidirectional editing → header `<!-- AUTO -->` + perpetuum diff-detect
 
+## 🏁 Phase FF — Calibration Loop (em curso, 2026-05-05)
+
+**Trigger**: external AI critique em 4 rondas (`EXTERNAL_AI_BRIEFING*.md`). Crítica central: sistema produz outputs eloquentes (verdicts, dossiers, IC debates) mas **nunca foi validado contra a realidade**. Sem closed-loop, o sistema é "confirmation bias engine" potencial.
+
+**Objetivo**: construir infraestrutura de closed-loop validation. **Não** deployar capital nesta phase.
+
+**4 attack vectors absorvidos**:
+1. **Calibration Void** — `verdict_history` é populada mas nunca cruzada com forward returns + benchmarks.
+2. **Latent Space Echo Chamber** — Synthetic IC (5 personas) usa só Qwen 14B; mudar prompt não muda latent space.
+3. **Decorator Macro Engine** — macro classifier observa mas hedge weight rígido a 10% torna-o ornamental.
+4. **L1 Data Quicksand** — yfinance pode corromper retroactivamente; CVM bank parser via `ds_conta` é frágil.
+
+**Roadmap (3 semanas, 15 dias)**:
+
+| Bloco | Sprint | Status | Entrega |
+|---|---|---|---|
+| **1.1** | Decision Quality Engine + benchmark cmp | ✅ SHIPPED 2026-05-05 | `scripts/migrate_decision_quality.py` (+11 cols + `verdict_engine_breakdown` table). `analytics/decision_quality.py` (4 cmds: update/calibration/post-mortem/engine-attribution + reset-accuracy). Backfill: SPY+BOVA11+11 sector ETFs (~5500 rows, 2y). Wired no `daily_run.bat`. 29/31 verdicts fechados em window 11d (window real fica activo após 30d). |
+| **1.2** | Verdict Engine Breakdown | ✅ SHIPPED 2026-05-05 | `scripts/verdict_history.py::record_verdict` agora popula 4 sub-engines (quality/valuation/momentum/narrative) com weight + per-engine verdict band. Backfill: 124 breakdown rows expandidas dos 31 verdicts existentes. **Finding empírico crítico** (n pequeno mas direccional): valuation engine BUY 0% hit US (n=3) / 16.7% BR (n=6) — primeiro sinal mensurável do "Buffett/Graham buy bias" que o external critique previu. |
+| **2.1** | Synthetic IC Multi-Model (3 famílias) | ✅ SHIPPED 2026-05-05 | `agents/synthetic_ic.py` refactored — Buffett/Klarman→Qwen 32B, Druck/Dalio→Qwen 14B, Taleb→**Gemma 4 31B** (família diferente, llama3.3:70b não instalado). Helper `_resolve_model()` faz fallback gracioso para Qwen 14B se modelo preferido ausente. Schema fix: `_lower_size` validator agora extrai keyword (32B é verbose). Live test KO: 2 BUY (Buffett/Dalio) / 1 HOLD (Druck) / 2 AVOID (Taleb/Klarman) — diversidade epistemológica real. |
+| **2.2** | L1 Anomaly Detector (Benford+MAD) | ✅ SHIPPED 2026-05-05 | Estendido `analytics/data_anomalies.py` com 2 novos detectores: (a) `detect_benford_violations` chi-square agregado em market_cap/shares_outstanding (3 metrics, n=72-107). Resultado: 0 violations — dados clean. (b) `detect_cross_sectional_outliers` MAD em log(P/E) por sector (threshold 3.5σ). Resultado: 7 outliers genuínos (BPAC11, PLTR, ABBV, BN, NFG, GPC, TSLA). Wired no `daily_run.bat`. |
+| **3.1** | Provenance Tracking | pending | `provenance` table + fetcher patches |
+| **3.2** | Tier Clarification | pending | T1-T5 → OBSERVE/PROPOSE/EXECUTE + `config/action_safety.yaml` (touches 12 perpetuums — pede user review antes) |
+| **3.3** | yfinance SPOF Mitigation | partial | Benchmark fallback já parcialmente activo via `refresh_benchmarks.py`. Spot-check cron + cache TTL yaml ainda pending. |
+
+**Bloco 4 deferred**: **Phase GG (Capital Deployment Engine)** — só arranca após ≥90 dias de Phase FF rodando + calibration curve estável + hit rate por engine claro. Tentar deployar antes seria retrofit.
+
+**Critério "done" Phase FF**:
+- Calibration curve com ≥30 observações fechadas
+- Hit rate per-engine respondível
+- Sector tilt da carteira recomendada vs benchmark mensurável
+- Synthetic IC com 3 model families em produção
+- Benford + MAD a correr como perpetuum T1
+- Resposta concreta à pergunta "evidência empírica que não é confirmation bias?"
+
+**Phase FF Decision Log**:
+
+| Data | Decisão | Racional |
+|---|---|---|
+| 2026-05-05 | Bloco 4 (capital deploy) deferred → Phase GG, prereq ≥90d validated verdicts | Validar **antes** de capital. Tentar fazer ambos em 4 semanas seria confirmation bias retrofit |
+| 2026-05-05 | IC multi-família = Qwen 32B + Qwen 14B + Llama 70B (não deterministic-as-persona) | Promover scoring engine a "persona" do IC seria circular — usamos engine para validar engine |
+| 2026-05-05 | Benford check chi-square agregado, não per-ticker first-digit-9 flag | Implementação correcta: distribuição de primeiros dígitos numa amostra grande, não valor individual |
+| 2026-05-05 | Cross-sectional outlier via MAD (Median Absolute Deviation), não z-score sobre PE raw | PE é heavy-tailed/lognormal; z-score com std populacional produz false positives em tech/biotech |
+| 2026-05-05 | Estender `analytics/data_anomalies.py` (Benford+MAD) em vez de criar novo perpetuum dedicado | Já existe + scaffolding (PRICE_JUMP/STALE/FUND_STALE); adicionar 2 detectors é menos cruft |
+
 ## 📝 Changelog
 
 | Data                              | Phase            | Mudança principal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Tokens Claude pipeline |     |
@@ -534,6 +588,8 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 | 2026-04-25 (I)                    | **I**            | Wiki holdings B.2 closeout: `agents/holding_wiki_synthesizer.py` gera `wiki/holdings/<TICKER>.md` AUTO-DRAFT marcado para 6 holdings ainda sem nota deep (ABBV, GS, PLTR, TSLA, XP, GREK). Reusa context layer + portfolio_positions data + philosophy-aware prompt. | 0 | |
 | **2026-04-26 evening**            | **U.0 (Unification Sweep)** | **3-layer brain formalisado.** (1) `desktop/` (React app + Vite + FastAPI sidecar) → `_deprecated/desktop_2026-04-26/`; 2 zombie processes killed (Vite 1420 + FastAPI 8765); node_modules apagados. (2) Root limpo: 11 ficheiros (PHASE_*_REPORT, HANDOFF*, MORNING_REPORT*, AUTO_RUN_REPORT) → `reports/_phases/`. (3) `.gitignore` actualizado: `node_modules/`, `_deprecated/`. (4) `_LAYER.md` markers em 11 vault folders (3 L2 + 8 L3). (5) `obsidian_vault/.obsidian/snippets/helena.css` espelha `_theme.py` tokens (paleta + tipografia + tabelas + callouts + sidebar). (6) `scripts/vault_autocommit.bat` pronto (Scheduled Task pendente confirmação user). | 0 | |
 | **2026-04-27 morning**            | **Workday Work** (autonomous) | 5 commits, ~120 min. (1) **REIT-aware dividend_safety**: O 25 RISK → 60 WATCH; PLD 35 RISK → 85 SAFE (FFO + softer ND/EBITDA). (2) **Canonical `agents/_llm.py::ollama_call`**: refactored 5 modules (synthetic_ic, variant, thesis, earnings_prep, extract_insights), ~50 LoC saved. (3) **`library/_common.py`**: chunk_text/file_hash/slugify shared (ingest + clippings dedup). (4) **Synthetic IC `--majority N=3`**: ask_persona_majority + CLI flag; top-3 conviction unanimous (BBDC4/ITSA4/ACN BUY high). (5) **Fetcher guards**: BR + US `_is_suspicious_close` rejects >50% intraday moves. **Issue #8 (XPML11) resolved** — 3 corrupt rows deleted. (6) **MCRF11 → MCRE11** (Yahoo 404 fix). (7) **Bibliotheca 33 → 0 alerts**: autofix 33 names; legacy section catalogues 13 BR orphans; K&A.yaml integrated as US universe extension. (8) **code_health CH005-CH007**: 3 new checks (direct ollama URL, silent except, ad-hoc banner). 40 hits flagged. Detalhe: [[Bibliotheca/Workday_Work_2026-04-27]]. | 0 | |
+| **2026-05-05** | **FF — Calibration Loop initiated** | Phase FF formalised after 4 rounds of external AI critique. Roadmap em 3 blocos / 15 dias. Bloco 4 (Capital Deployment) deferred → Phase GG (prereq ≥90d validated verdicts). Bloco 1.1 em curso: schema migration `verdict_history` (+8 outcome columns + `verdict_engine_breakdown` table) + `analytics/decision_quality.py` com benchmark comparison. Open issues #10 (no longitudinal validation data) + #11 (benchmark prices ausentes — SPY/BOVA11 zero rows). Briefing externo + replies em `EXTERNAL_AI_BRIEFING*.md` no root. | 0 | |
+| **2026-05-05 night** | **FF — Blocos 1.1, 1.2, 2.1, 2.2 SHIPPED** | Sessão autónoma extensa (5/7 sprints fechados). (1) **Migration + decision_quality.py** com `update`/`calibration`/`post-mortem`/`engine-attribution`/`reset-accuracy`. (2) **Benchmark backfill**: SPY + BOVA11 + 11 sector ETFs US (~5500 rows, 2y). Wired em `daily_run.bat` via `refresh_benchmarks.py`. Open issue #11 fechado. (3) **Engine breakdown**: 124 rows backfilled. **Finding empírico**: valuation BUY 0% hit US (n=3) — primeiro sinal mensurável de "Buffett/Graham buy bias" previsto pelo critique externo. (4) **Multi-família IC**: Buffett/Klarman→Qwen 32B, Druck/Dalio→Qwen 14B, Taleb→Gemma 31B (família Google ≠ Alibaba). Schema fix `_lower_size` validator. Live test KO: 5 personas / 3 verdicts distintos / 3 backends. (5) **Benford+MAD**: 0 Benford violations (clean data) + 7 cross-sectional outliers (BPAC11, PLTR, ABBV, TSLA, BN, NFG, GPC). (6) **WATCH/ADD/SKIP** vocabulary alignment em `_accuracy()`. Total 5 ficheiros novos, 4 ficheiros estendidos, ~700 LoC. Não-commitado. | 0 | |
 
 ## 🧭 Como usar este documento
 
