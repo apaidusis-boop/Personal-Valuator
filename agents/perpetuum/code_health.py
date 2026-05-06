@@ -18,6 +18,8 @@ Anti-patterns detectados (deduct pontos por sinal):
   CH006 — `except:` ou `except Exception:` sem log/raise (silent error swallow)
   CH007 — section banner ad-hoc (`print(f"\\n{'=' * 60}\\n== ...")`); usar
           agents._common.section
+  CH008 — Python file length warning: file > 500 source lines (excl. blank +
+          pure-comment lines). Soft signal; no auto-fix. Anthropic best practice.
 
 Score 0-100. <70 → action_hint com refactor concreto.
 
@@ -194,6 +196,72 @@ def _check_ch007_ad_hoc_banner(src: str, rel: str) -> tuple[int, str | None]:
     )
 
 
+# ---------------------------------------------------------------------------
+# CH008 — file length
+# ---------------------------------------------------------------------------
+
+# Sourced from anthropics/claude-code-security-review
+# .claude/commands/security-review.md (~18 categories). The list below
+# documents the hard-exclusion categories: findings in these categories should
+# NOT be raised as actionable security issues without additional exploit path
+# evidence.  Used here as a seed constant for future wiring (no CH001-CH007
+# changes).
+# TODO: backfill verbatim strings from upstream prompt once the file is copied
+#       to .claude/commands/security-review.md in this repo.
+SKIP_PATTERNS: tuple[str, ...] = (
+    "denial of service",                               # DoS without resource exhaustion proof
+    "missing rate limit",                              # rate-limiting absent but no exploit
+    "open redirect",                                   # redirect without phishing/token-leak context
+    "log injection without sensitive data leak",       # log injection, no credential exposure
+    "missing csrf for non-state-changing endpoints",   # CSRF on read-only endpoints
+    "weak crypto without exploitation context",        # e.g. MD5 hash for non-auth use
+    "verbose error messages",                          # stack traces without data leak
+    "session timeout misconfiguration",                # long session but no exploit path
+    "missing security headers without exploit path",   # CSP/X-Frame absent, no concrete attack
+    "outdated dependency without known cve",           # version bump noise, no CVE assigned
+    "use of http without tls in non-prod",             # http:// in dev/test configs
+    "race conditions without exploit path",            # TOCTOU without demonstrated impact
+    "lack of hsts",                                    # HSTS missing but no downgrade proof
+    "missing captcha",                                 # captcha absent without automated-abuse evidence
+    "weak password policy",                            # policy gap without account-takeover path
+    "mfa missing",                                     # MFA not enforced, no privilege escalation path
+    # TODO: backfill remaining 2 categories from upstream security-review.md
+)
+
+# Paths that CH008 should NOT flag (auto-generated / bundled output).
+CH008_SKIP_PREFIXES = (
+    "obsidian_vault/skills/Helena_Mega/",
+    "mission-control/.next/",
+)
+
+CH008_LINE_LIMIT = 500
+
+
+def _count_source_lines(src: str) -> int:
+    """Count non-blank, non-pure-comment lines."""
+    count = 0
+    for line in src.splitlines():
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#"):
+            count += 1
+    return count
+
+
+def _check_ch008_file_length(src: str, rel: str) -> tuple[int, str | None]:
+    """File > 500 source lines — soft warning, no auto-fix."""
+    for prefix in CH008_SKIP_PREFIXES:
+        if rel.startswith(prefix):
+            return 0, None
+    n = _count_source_lines(src)
+    if n <= CH008_LINE_LIMIT:
+        return 0, None
+    return -5, (
+        f"CH008: {rel} is {n} source lines — consider splitting "
+        f"(Anthropic best practice <{CH008_LINE_LIMIT}). "
+        "Review if a function-extraction or sub-module would help."
+    )
+
+
 CHECKS = [
     _check_ch001_direct_catalog_load,
     _check_ch002_stocks_only_loop,
@@ -202,6 +270,7 @@ CHECKS = [
     _check_ch005_ollama_direct,
     _check_ch006_silent_except,
     _check_ch007_ad_hoc_banner,
+    _check_ch008_file_length,
 ]
 
 
