@@ -33,6 +33,52 @@ def _db(market: str) -> Path:
     return DB_BR if market == "br" else DB_US
 
 
+# Phase FF Bloco 1.2 — engine breakdown weights (must sum to 1.0)
+# These mirror the weights in scripts/verdict.py::compute_verdict total formula.
+ENGINE_WEIGHTS = {
+    "quality":   0.35,
+    "valuation": 0.30,
+    "momentum":  0.20,
+    "narrative": 0.15,
+}
+
+
+def _score_to_engine_verdict(score: float | None) -> str:
+    """Maps a sub-score (0-10) to a per-engine verdict band."""
+    if score is None:
+        return "N/A"
+    if score >= 7.0:
+        return "BUY"
+    if score >= 4.0:
+        return "HOLD"
+    return "AVOID"
+
+
+def _record_engine_breakdown(conn: sqlite3.Connection, ticker: str, today: str, v) -> None:
+    """Populate verdict_engine_breakdown with the 4 sub-scores from compute_verdict.
+
+    Phase FF Bloco 1.2 — desbloqueia engine_attribution analysis em
+    `analytics.decision_quality`. Idempotente: usa INSERT OR REPLACE.
+    """
+    sub_scores = {
+        "quality":   v.quality_score,
+        "valuation": v.valuation_score,
+        "momentum":  v.momentum_score,
+        "narrative": v.narrative_score,
+    }
+    rows = []
+    for engine, score in sub_scores.items():
+        verdict_band = _score_to_engine_verdict(score)
+        weight = ENGINE_WEIGHTS[engine]
+        rows.append((ticker, today, engine, score, verdict_band, weight, None))
+    conn.executemany(
+        """INSERT OR REPLACE INTO verdict_engine_breakdown
+             (ticker, date, engine, score, verdict, weight, rationale)
+           VALUES (?,?,?,?,?,?,?)""",
+        rows,
+    )
+
+
 def record_verdict(ticker: str, replace: bool = False) -> dict:
     from scripts.verdict import compute_verdict
     from scripts.refresh_ticker import _market_of
@@ -45,6 +91,7 @@ def record_verdict(ticker: str, replace: bool = False) -> dict:
     with sqlite3.connect(_db(market)) as c:
         if replace:
             c.execute("DELETE FROM verdict_history WHERE ticker=? AND date=?", (ticker, today))
+            c.execute("DELETE FROM verdict_engine_breakdown WHERE ticker=? AND date=?", (ticker, today))
         try:
             c.execute(
                 """INSERT INTO verdict_history
@@ -56,6 +103,7 @@ def record_verdict(ticker: str, replace: bool = False) -> dict:
                  v.quality_score, v.valuation_score, v.momentum_score, v.narrative_score,
                  price, now),
             )
+            _record_engine_breakdown(c, ticker, today, v)
             c.commit()
             return {"ticker": ticker, "status": "inserted", "action": v.action, "score": v.total_score}
         except sqlite3.IntegrityError:
