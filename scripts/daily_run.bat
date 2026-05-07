@@ -49,6 +49,26 @@ echo [SEC] sec_monitor.py --lookback-days 30 >> "%LOG%"
 echo SEC exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [DIV-CAL] dividend_calendar.py --holdings  ^(forward ex/pay dates^) >> "%LOG%"
+"%PY%" fetchers\dividend_calendar.py --holdings >> "%LOG%" 2>&1
+echo DIV-CAL exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [EARN-CAL] earnings_calendar.py --holdings  ^(next earnings dates^) >> "%LOG%"
+"%PY%" fetchers\earnings_calendar.py --holdings >> "%LOG%" 2>&1
+echo EARN-CAL exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [FAIR-VALUE] scoring.fair_value --holdings  ^(target price + upside%%^) >> "%LOG%"
+"%PY%" -m scoring.fair_value --holdings >> "%LOG%" 2>&1
+echo FAIR-VALUE exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [AUTO-VERDICT] auto_verdict_on_filing.py --since-id  ^(re-verdict on new CVM/SEC filing^) >> "%LOG%"
+"%PY%" scripts\auto_verdict_on_filing.py --since-id >> "%LOG%" 2>&1
+echo AUTO-VERDICT exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [BENCHMARKS] refresh_benchmarks.py  ^(Phase FF: SPY/BOVA11/sector ETFs^) >> "%LOG%"
 "%PY%" scripts\refresh_benchmarks.py --quiet >> "%LOG%" 2>&1
 echo BENCHMARKS exit code: %errorlevel% >> "%LOG%"

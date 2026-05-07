@@ -46,6 +46,10 @@ if /i "%CMD%"=="tx" (set "SCRIPT=scripts\tx_cli.py") & goto :RUN
 if /i "%CMD%"=="diff" (set "SCRIPT=scripts\daily_diff.py") & goto :RUN
 if /i "%CMD%"=="earnings" (set "SCRIPT=fetchers\earnings_calendar.py") & goto :RUN
 if /i "%CMD%"=="verdict" (set "SCRIPT=scripts\verdict.py") & goto :RUN
+if /i "%CMD%"=="divcal" (set "SCRIPT=fetchers\dividend_calendar.py") & goto :RUN
+if /i "%CMD%"=="fairvalue" (set "MODULE=scoring.fair_value") & goto :RUN_MODULE
+if /i "%CMD%"=="fv" (set "MODULE=scoring.fair_value") & goto :RUN_MODULE
+if /i "%CMD%"=="autoverdict" (set "SCRIPT=scripts\auto_verdict_on_filing.py") & goto :RUN
 if /i "%CMD%"=="snapshot" (set "SCRIPT=scripts\snapshot_portfolio.py") & goto :RUN
 if /i "%CMD%"=="react" (set "SCRIPT=scripts\earnings_react.py") & goto :RUN
 if /i "%CMD%"=="agent" (set "SCRIPT=scripts\agent_morning.py") & goto :RUN
@@ -97,12 +101,15 @@ if /i "%CMD%"=="agent" (set "SCRIPT=agents\_agent.py") & goto :RUN
 if /i "%CMD%"=="agent-stats" ("%PY%" -X utf8 -m agents._memory %ARGS%) & goto :EOF
 if /i "%CMD%"=="missioncontrol" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
 if /i "%CMD%"=="mission-control" (cd /d "%ROOT%mission-control" ^&^& npm run dev) & goto :EOF
+if /i "%CMD%"=="mc" (cd /d "%ROOT%mc-app" ^&^& npm run dev) & goto :EOF
+if /i "%CMD%"=="mc-api" (cd /d "%ROOT%mission-control" ^&^& npm run api) & goto :EOF
 if /i "%CMD%"=="subs" (set "SCRIPT=scripts\subscriptions_cli.py") & goto :RUN
 if /i "%CMD%"=="stats" ("%PY%" -X utf8 -m analytics.metrics %ARGS%) & goto :EOF
 if /i "%CMD%"=="refresh-thesis" (set "SCRIPT=scripts\thesis_refresh.py") & goto :RUN
 if /i "%CMD%"=="agents" (set "SCRIPT=scripts\agents_cli.py") & goto :RUN
 if /i "%CMD%"=="agent-runner" (set "SCRIPT=scripts\agent_runner.py") & goto :RUN
 if /i "%CMD%"=="gemma" (call :GEMMA) & goto :EOF
+if /i "%CMD%"=="voice" (set "SCRIPT=scripts\voice_cli.py") & goto :RUN
 
 echo Unknown command: %CMD%
 echo Run 'ii help' for list.
@@ -110,6 +117,10 @@ exit /b 1
 
 :RUN
 "%PY%" -X utf8 "%ROOT%%SCRIPT%" %ARGS%
+goto :EOF
+
+:RUN_MODULE
+"%PY%" -X utf8 -m %MODULE% %ARGS%
 goto :EOF
 
 :GEMMA
@@ -166,6 +177,15 @@ echo   ii altman ^<TK^>                           Altman Z-Score
 echo   ii piotroski ^<TK^>                        Piotroski F-Score
 echo   ii beneish ^<TK^>                          Beneish M-Score (manipulation detector)
 echo   ii safety ^<TK^>                           Dividend Safety
+echo   ii fairvalue ^<TK^>                        Target price (Graham/Buffett/REIT/bank); --holdings, --all, --upside
+echo   ii fv --holdings                          Alias para fairvalue
+echo.
+echo CALENDAR ^& AUTO-VERDICT:
+echo   ii divcal --holdings                      Forward ex-dividend dates
+echo   ii divcal --upcoming 60                   Lista 60d sem fetch
+echo   ii earnings --holdings                    Próximas earnings dates
+echo   ii autoverdict --hours 48                 Re-verdict tickers com filing recente
+echo   ii autoverdict --since-id                 Watermark mode (cron-friendly)
 echo.
 echo YOUTUBE:
 echo   ii ingest ^<url^>                          Single video
@@ -198,6 +218,12 @@ echo.
 echo WATCHLIST:
 echo   ii megawatch                             Unified watchlist
 echo   ii weekly                                Weekly report
+echo.
+echo VOICE (local Whisper + Qwen intent + Windows TTS):
+echo   ii voice analyze ^<TK^>                    Record voice note for ticker (Whisper + Qwen parse)
+echo   ii voice note                            Free-form note (ticker auto-detected from speech)
+echo   ii voice brief                           Read morning brief aloud (TTS)
+echo   ii voice test                            Check mic + whisper + TTS + Ollama
 echo.
 echo LOCAL LLM UI:
 echo   ii gemma                                 Launch Open WebUI (localhost:8080) com Gemma 3 27B QAT

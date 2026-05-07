@@ -162,11 +162,63 @@ export function listChatIds(): { chat_id: string; n_messages: number; last_ts: s
   }
 }
 
+// ============================================================
+// Recent events — CVM fatos relevantes (BR) + SEC 8-K/10-K (US)
+// ============================================================
+export type FilingEvent = {
+  id: number;
+  market: "br" | "us";
+  ticker: string;
+  event_date: string;
+  source: "cvm" | "sec" | string;
+  kind: string;
+  summary: string | null;
+  url: string | null;
+};
+
+/** Pull the most recent N filings across both DBs, newest first. */
+export function listRecentEvents(limit = 12): FilingEvent[] {
+  const out: FilingEvent[] = [];
+  for (const [market, file] of [["br", DB_BR], ["us", DB_US]] as const) {
+    try {
+      const db = openRO(file);
+      const rows = db
+        .prepare(
+          `SELECT id, ticker, event_date, source, kind, summary, url
+           FROM events
+           ORDER BY event_date DESC, id DESC
+           LIMIT ?`
+        )
+        .all(limit * 2) as any[];
+      for (const r of rows) {
+        out.push({
+          id: r.id,
+          market,
+          ticker: r.ticker,
+          event_date: r.event_date,
+          source: r.source,
+          kind: r.kind,
+          summary: r.summary,
+          url: r.url,
+        });
+      }
+      db.close();
+    } catch {
+      /* table missing — skip */
+    }
+  }
+  return out
+    .sort((a, b) => (b.event_date || "").localeCompare(a.event_date || "") || b.id - a.id)
+    .slice(0, limit);
+}
+
 export type DividendEvent = {
   market: "br" | "us";
   ticker: string;
   ex_date: string;
+  pay_date: string | null;
   amount: number;
+  currency: string | null;
 };
 
 export function upcomingDividends(days = 45): DividendEvent[] {
@@ -178,9 +230,9 @@ export function upcomingDividends(days = 45): DividendEvent[] {
       const db = openRO(file);
       const rows = db
         .prepare(
-          `SELECT ticker, ex_date, amount FROM dividends
+          `SELECT ticker, ex_date, pay_date, amount, currency FROM dividends
            WHERE ex_date BETWEEN ? AND ?
-           ORDER BY ex_date LIMIT 30`
+           ORDER BY ex_date LIMIT 60`
         )
         .all(today, cutoff) as any[];
       for (const r of rows) out.push({ market, ...r });
@@ -190,6 +242,166 @@ export function upcomingDividends(days = 45): DividendEvent[] {
     }
   }
   return out.sort((a, b) => a.ex_date.localeCompare(b.ex_date));
+}
+
+// ============================================================
+// Upcoming filings — projected from earnings_calendar
+// ============================================================
+export type UpcomingFiling = {
+  market: "br" | "us";
+  ticker: string;
+  earnings_date: string;
+  projected_kind: string;     // "10-Q" / "10-K" / "ITR" / "DFP"
+  is_holding: boolean;
+  name: string | null;
+};
+
+/** Project the filing kind from market + earnings date. US: 10-K when month >= Q4 close
+ *  (Jan-Mar) and the prior period was annual; otherwise 10-Q. BR: ITR (Q1-Q3) / DFP (Q4). */
+function projectFilingKind(market: "br" | "us", isoDate: string): string {
+  const month = parseInt(isoDate.slice(5, 7), 10);
+  if (market === "us") {
+    // US 10-K is filed within ~60d of fiscal year-end. Most calendar-FY filers report
+    // Q4 in late Jan-early Mar (10-K) and Q1-Q3 quarterly (10-Q).
+    if (month >= 1 && month <= 3) return "10-K";
+    return "10-Q";
+  }
+  // BR ITRs are due 45d after Q1/Q2/Q3 end → reports land in May / Aug / Nov.
+  // DFPs are due 90d after Q4 end → reports land in March-April.
+  if (month >= 1 && month <= 4) return "DFP";
+  return "ITR";
+}
+
+export function upcomingFilings(days = 90): UpcomingFiling[] {
+  const today = new Date().toISOString().slice(0, 10);
+  const cutoff = new Date(Date.now() + days * 86400000).toISOString().slice(0, 10);
+  const out: UpcomingFiling[] = [];
+  for (const [market, file] of [["br", DB_BR], ["us", DB_US]] as const) {
+    try {
+      const db = openRO(file);
+      const rows = db
+        .prepare(
+          `SELECT e.ticker, e.earnings_date, c.is_holding, c.name
+           FROM earnings_calendar e LEFT JOIN companies c ON e.ticker = c.ticker
+           WHERE e.earnings_date BETWEEN ? AND ?
+           ORDER BY e.earnings_date ASC`
+        )
+        .all(today, cutoff) as any[];
+      for (const r of rows) {
+        out.push({
+          market,
+          ticker: r.ticker,
+          earnings_date: r.earnings_date,
+          projected_kind: projectFilingKind(market, r.earnings_date),
+          is_holding: !!r.is_holding,
+          name: r.name,
+        });
+      }
+      db.close();
+    } catch {
+      /* skip */
+    }
+  }
+  return out.sort((a, b) => a.earnings_date.localeCompare(b.earnings_date));
+}
+
+// ============================================================
+// Fair value — latest computed target price + upside %
+// ============================================================
+export type FairValueRow = {
+  market: "br" | "us";
+  ticker: string;
+  method: string;
+  fair_price: number;
+  current_price: number;
+  upside_pct: number;
+  computed_at: string;
+};
+
+export function listFairValue(market?: "br" | "us"): FairValueRow[] {
+  const out: FairValueRow[] = [];
+  for (const [m, file] of [["br", DB_BR], ["us", DB_US]] as const) {
+    if (market && market !== m) continue;
+    try {
+      const db = openRO(file);
+      const rows = db
+        .prepare(
+          `SELECT ticker, method, fair_price, current_price, upside_pct, computed_at
+           FROM fair_value
+           WHERE computed_at = (
+             SELECT MAX(computed_at) FROM fair_value f2
+             WHERE f2.ticker = fair_value.ticker AND f2.method = fair_value.method
+           )
+           ORDER BY upside_pct DESC`
+        )
+        .all() as any[];
+      for (const r of rows) out.push({ market: m, ...r });
+      db.close();
+    } catch {
+      /* table missing — skip */
+    }
+  }
+  return out;
+}
+
+export function fairValueByTicker(ticker: string): FairValueRow | null {
+  const t = ticker.toUpperCase();
+  for (const [m, file] of [["br", DB_BR], ["us", DB_US]] as const) {
+    try {
+      const db = openRO(file);
+      const r = db
+        .prepare(
+          `SELECT ticker, method, fair_price, current_price, upside_pct, computed_at
+           FROM fair_value WHERE ticker = ?
+           ORDER BY computed_at DESC LIMIT 1`
+        )
+        .get(t) as any;
+      db.close();
+      if (r) return { market: m, ...r };
+    } catch {
+      /* skip */
+    }
+  }
+  return null;
+}
+
+// ============================================================
+// Verdict deltas — what changed after a recent filing
+// ============================================================
+export type VerdictDelta = {
+  market: "br" | "us";
+  ticker: string;
+  date: string;
+  prior_action: string | null;
+  new_action: string;
+  prior_score: number | null;
+  new_score: number | null;
+  triggered_by: string;
+  triggered_url: string | null;
+};
+
+export function recentVerdictDeltas(days = 7): VerdictDelta[] {
+  const cutoff = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+  const out: VerdictDelta[] = [];
+  for (const [market, file] of [["br", DB_BR], ["us", DB_US]] as const) {
+    try {
+      const db = openRO(file);
+      const rows = db
+        .prepare(
+          `SELECT ticker, date, prior_action, new_action, prior_score, new_score,
+                  triggered_by, triggered_url
+           FROM verdict_delta
+           WHERE date >= ?
+           ORDER BY date DESC, computed_at DESC`
+        )
+        .all(cutoff) as any[];
+      for (const r of rows) out.push({ market, ...r });
+      db.close();
+    } catch {
+      /* table missing — skip */
+    }
+  }
+  return out;
 }
 
 // ============================================================
