@@ -1,0 +1,25 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 34 ticker(s)...
+  [1/34] AAPL: 1 date(s) → 2026-07-30
+  [2/34] ABBV: 1 date(s) → 2026-07-30
+  [3/34] ACN: 1 date(s) → 2026-06-18
+  [5/34] BLK: 1 date(s) → 2026-07-15
+  [6/34] BN: 1 date(s) → 2026-05-14
+  [7/34] BRK-B: 1 date(s) → 2026-08-01
+  [11/34] GS: 1 date(s) → 2026-07-14
+  [12/34] HD: 1 date(s) → 2026-05-19
+  [15/34] JNJ: 1 date(s) → 2026-07-15
+  [16/34] JPM: 1 date(s) → 2026-07-14
+  [18/34] KO: 1 date(s) → 2026-07-21
+  [20/34] NU: 1 date(s) → 2026-05-14
+  [21/34] O: 1 date(s) → 2026-05-06
+  [22/34] PG: 1 date(s) → 2026-07-29
+  [23/34] PLD: 1 date(s) → 2026-07-15
+  [24/34] PLTR: 1 date(s) → 2026-08-03
+  [25/34] PRIO3: 1 date(s) → 2026-08-04
+  [28/34] TEN: 1 date(s) → 2026-05-21
+  [29/34] TSLA: 1 date(s) → 2026-07-22
+  [30/34] TSM: 1 date(s) → 2026-07-16
+  [31/34] VALE3: 1 date(s) → 2026-04-28
+  [33/34] XP: 1 date(s) → 2026-05-19
+Persisted 22 row(s).

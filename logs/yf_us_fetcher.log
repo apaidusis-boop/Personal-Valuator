@@ -3136,3 +3136,227 @@
 {"ts": "2026-05-05T20:37:32Z", "event": "yf_us_persisted", "ticker": "FDS", "prices": 61, "dividends": 110, "period_end": "2026-05-05", "pe": 14.128783, "pb": 3.776072, "dy": 0.020052866815777486, "roe": 0.28084, "streak": 28}
 {"ts": "2026-05-05T20:37:32Z", "event": "yf_us_fetch_start", "ticker": "ES", "period": "3mo"}
 {"ts": "2026-05-05T20:37:35Z", "event": "yf_us_persisted", "ticker": "ES", "prices": 61, "dividends": 157, "period_end": "2026-05-05", "pe": 15.10965, "pb": 1.5969405, "dy": 0.04422351135733348, "roe": 0.10777, "streak": 28}
+{"ts": "2026-05-06T20:33:59Z", "event": "yf_us_fetch_start", "ticker": "JNJ", "period": "3mo"}
+{"ts": "2026-05-06T20:34:02Z", "event": "yf_us_persisted", "ticker": "JNJ", "prices": 61, "dividends": 257, "period_end": "2026-05-06", "pe": 25.997684, "pb": 6.658366, "dy": 0.02315020974551747, "roe": 0.26416, "streak": 65}
+{"ts": "2026-05-06T20:34:02Z", "event": "yf_us_fetch_start", "ticker": "JPM", "period": "3mo"}
+{"ts": "2026-05-06T20:34:04Z", "event": "yf_us_persisted", "ticker": "JPM", "prices": 61, "dividends": 170, "period_end": "2026-05-06", "pe": 15.081418, "pb": 2.4528935, "dy": 0.01873610706369045, "roe": 0.16465001, "streak": 43}
+{"ts": "2026-05-06T20:34:04Z", "event": "yf_us_fetch_start", "ticker": "BLK", "period": "3mo"}
+{"ts": "2026-05-06T20:34:06Z", "event": "yf_us_persisted", "ticker": "BLK", "prices": 61, "dividends": 91, "period_end": "2026-05-06", "pe": 27.008049, "pb": 2.978771, "dy": 0.019896235055604606, "roe": null, "streak": 24}
+{"ts": "2026-05-06T20:34:06Z", "event": "yf_us_fetch_start", "ticker": "O", "period": "3mo"}
+{"ts": "2026-05-06T20:34:08Z", "event": "yf_us_persisted", "ticker": "O", "prices": 61, "dividends": 378, "period_end": "2026-05-06", "pe": 54.709404, "pb": 1.5158548, "dy": 0.05058584427334758, "roe": 0.02702, "streak": 33}
+{"ts": "2026-05-06T20:34:08Z", "event": "yf_us_fetch_start", "ticker": "TSM", "period": "3mo"}
+{"ts": "2026-05-06T20:34:11Z", "event": "yf_us_persisted", "ticker": "TSM", "prices": 61, "dividends": 43, "period_end": "2026-05-06", "pe": 36.16379, "pb": 93.05788, "dy": 0.008088200238379022, "roe": 0.3621, "streak": 23}
+{"ts": "2026-05-06T20:34:11Z", "event": "yf_us_fetch_start", "ticker": "PG", "period": "3mo"}
+{"ts": "2026-05-06T20:34:13Z", "event": "yf_us_persisted", "ticker": "PG", "prices": 61, "dividends": 259, "period_end": "2026-05-06", "pe": 21.622807, "pb": 6.407868, "dy": 0.028803246624753656, "roe": 0.31112, "streak": 65}
+{"ts": "2026-05-06T20:34:13Z", "event": "yf_us_fetch_start", "ticker": "TEN", "period": "3mo"}
+{"ts": "2026-05-06T20:34:15Z", "event": "yf_us_persisted", "ticker": "TEN", "prices": 61, "dividends": 60, "period_end": "2026-05-06", "pe": 9.701123, "pb": 0.690919, "dy": 0.013898541242737759, "roe": 0.09087, "streak": 24}
+{"ts": "2026-05-06T20:34:15Z", "event": "yf_us_fetch_start", "ticker": "AAPL", "period": "3mo"}
+{"ts": "2026-05-06T20:34:17Z", "event": "yf_us_persisted", "ticker": "AAPL", "prices": 61, "dividends": 90, "period_end": "2026-05-06", "pe": 34.765415, "pb": 47.93431, "dy": 0.0036172653635530693, "roe": 1.4147099, "streak": 15}
+{"ts": "2026-05-06T20:34:17Z", "event": "yf_us_fetch_start", "ticker": "TSLA", "period": "3mo"}
+{"ts": "2026-05-06T20:34:19Z", "event": "yf_us_persisted", "ticker": "TSLA", "prices": 61, "dividends": 0, "period_end": "2026-05-06", "pe": 365.80734, "pb": 18.209345, "dy": null, "roe": 0.04901, "streak": null}
+{"ts": "2026-05-06T20:34:19Z", "event": "yf_us_fetch_start", "ticker": "GS", "period": "3mo"}
+{"ts": "2026-05-06T20:34:21Z", "event": "yf_us_persisted", "ticker": "GS", "prices": 61, "dividends": 108, "period_end": "2026-05-06", "pe": 17.114296, "pb": 2.6054435, "dy": 0.01653597952068111, "roe": 0.14548, "streak": 28}
+{"ts": "2026-05-06T20:34:21Z", "event": "yf_us_fetch_start", "ticker": "KO", "period": "3mo"}
+{"ts": "2026-05-06T20:34:24Z", "event": "yf_us_persisted", "ticker": "KO", "prices": 61, "dividends": 257, "period_end": "2026-05-06", "pe": 24.915094, "pb": 10.136899, "dy": 0.026000251328018212, "roe": 0.43372002, "streak": 65}
+{"ts": "2026-05-06T20:34:24Z", "event": "yf_us_fetch_start", "ticker": "BRK-B", "period": "3mo"}
+{"ts": "2026-05-06T20:34:26Z", "event": "yf_us_persisted", "ticker": "BRK-B", "prices": 61, "dividends": 0, "period_end": "2026-05-06", "pe": 13.978874, "pb": 0.00094217935, "dy": null, "roe": 0.10499, "streak": null}
+{"ts": "2026-05-06T20:34:26Z", "event": "yf_us_fetch_start", "ticker": "XP", "period": "3mo"}
+{"ts": "2026-05-06T20:34:28Z", "event": "yf_us_persisted", "ticker": "XP", "prices": 61, "dividends": 4, "period_end": "2026-05-06", "pe": 9.984694, "pb": 2.1545458, "dy": 0.009197751804135467, "roe": 0.23715, "streak": 3}
+{"ts": "2026-05-06T20:34:28Z", "event": "yf_us_fetch_start", "ticker": "GREK", "period": "3mo"}
+{"ts": "2026-05-06T20:34:30Z", "event": "yf_us_persisted", "ticker": "GREK", "prices": 61, "dividends": 21, "period_end": "2026-05-06", "pe": 11.515118, "pb": null, "dy": 0.031326291116166444, "roe": null, "streak": 15}
+{"ts": "2026-05-06T20:34:30Z", "event": "yf_us_fetch_start", "ticker": "HD", "period": "3mo"}
+{"ts": "2026-05-06T20:34:32Z", "event": "yf_us_persisted", "ticker": "HD", "prices": 61, "dividends": 155, "period_end": "2026-05-06", "pe": 22.702038, "pb": 25.112717, "dy": 0.028571429651051958, "roe": 1.45541, "streak": 40}
+{"ts": "2026-05-06T20:34:32Z", "event": "yf_us_fetch_start", "ticker": "BN", "period": "3mo"}
+{"ts": "2026-05-06T20:34:34Z", "event": "yf_us_persisted", "ticker": "BN", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 94.79592, "pb": 2.3807085, "dy": 0.0053821312356030085, "roe": 0.01951, "streak": 40}
+{"ts": "2026-05-06T20:34:34Z", "event": "yf_us_fetch_start", "ticker": "PLD", "period": "3mo"}
+{"ts": "2026-05-06T20:34:36Z", "event": "yf_us_persisted", "ticker": "PLD", "prices": 61, "dividends": 113, "period_end": "2026-05-06", "pe": 35.904522, "pb": 2.4872503, "dy": 0.028691393807686285, "roe": 0.06844, "streak": 30}
+{"ts": "2026-05-06T20:34:36Z", "event": "yf_us_fetch_start", "ticker": "PLTR", "period": "3mo"}
+{"ts": "2026-05-06T20:34:38Z", "event": "yf_us_persisted", "ticker": "PLTR", "prices": 61, "dividends": 0, "period_end": "2026-05-06", "pe": 152.03409, "pb": 43.31175, "dy": null, "roe": 0.32587, "streak": null}
+{"ts": "2026-05-06T20:34:39Z", "event": "yf_us_fetch_start", "ticker": "TFC", "period": "3mo"}
+{"ts": "2026-05-06T20:34:41Z", "event": "yf_us_persisted", "ticker": "TFC", "prices": 61, "dividends": 154, "period_end": "2026-05-06", "pe": 12.574257, "pb": 1.0640526, "dy": 0.04094488250469422, "roe": 0.08579001, "streak": 40}
+{"ts": "2026-05-06T20:34:41Z", "event": "yf_us_fetch_start", "ticker": "NU", "period": "3mo"}
+{"ts": "2026-05-06T20:34:42Z", "event": "yf_us_persisted", "ticker": "NU", "prices": 61, "dividends": 0, "period_end": "2026-05-06", "pe": 24.965517, "pb": 6.227957, "dy": null, "roe": 0.30278, "streak": null}
+{"ts": "2026-05-06T20:34:42Z", "event": "yf_us_fetch_start", "ticker": "ACN", "period": "3mo"}
+{"ts": "2026-05-06T20:34:44Z", "event": "yf_us_persisted", "ticker": "ACN", "prices": 61, "dividends": 49, "period_end": "2026-05-06", "pe": 14.2972975, "pb": 3.4389899, "dy": 0.01781520232295103, "roe": 0.24763, "streak": 22}
+{"ts": "2026-05-06T20:34:44Z", "event": "yf_us_fetch_start", "ticker": "TTD", "period": "3mo"}
+{"ts": "2026-05-06T20:34:46Z", "event": "yf_us_persisted", "ticker": "TTD", "prices": 61, "dividends": 0, "period_end": "2026-05-06", "pe": 26.677778, "pb": 4.599617, "dy": null, "roe": 0.16317, "streak": null}
+{"ts": "2026-05-06T20:34:46Z", "event": "yf_us_fetch_start", "ticker": "V", "period": "3mo"}
+{"ts": "2026-05-06T20:34:48Z", "event": "yf_us_persisted", "ticker": "V", "prices": 61, "dividends": 71, "period_end": "2026-05-06", "pe": 27.818499, "pb": 15.912947, "dy": 0.00790464271170709, "roe": 0.60349, "streak": 19}
+{"ts": "2026-05-06T20:34:48Z", "event": "yf_us_fetch_start", "ticker": "MCD", "period": "3mo"}
+{"ts": "2026-05-06T20:34:50Z", "event": "yf_us_pb_extreme_reject", "ticker": "MCD", "raw": -112.78285}
+{"ts": "2026-05-06T20:34:51Z", "event": "yf_us_persisted", "ticker": "MCD", "prices": 61, "dividends": 177, "period_end": "2026-05-06", "pe": 23.77406, "pb": null, "dy": 0.025554381710765336, "roe": null, "streak": 51}
+{"ts": "2026-05-06T20:34:51Z", "event": "yf_us_fetch_start", "ticker": "PEP", "period": "3mo"}
+{"ts": "2026-05-06T20:34:53Z", "event": "yf_us_persisted", "ticker": "PEP", "prices": 61, "dividends": 217, "period_end": "2026-05-06", "pe": 24.483519, "pb": 9.97761, "dy": 0.03649653600261032, "roe": 0.43879002, "streak": 55}
+{"ts": "2026-05-06T20:34:53Z", "event": "yf_us_fetch_start", "ticker": "ABBV", "period": "3mo"}
+{"ts": "2026-05-06T20:34:54Z", "event": "yf_us_pb_extreme_reject", "ticker": "ABBV", "raw": -110.82703}
+{"ts": "2026-05-06T20:34:55Z", "event": "yf_us_persisted", "ticker": "ABBV", "prices": 61, "dividends": 54, "period_end": "2026-05-06", "pe": 100.504906, "pb": null, "dy": 0.032873238258442496, "roe": null, "streak": 14}
+{"ts": "2026-05-06T20:34:55Z", "event": "yf_us_fetch_start", "ticker": "MSFT", "period": "3mo"}
+{"ts": "2026-05-06T20:34:57Z", "event": "yf_us_persisted", "ticker": "MSFT", "prices": 61, "dividends": 89, "period_end": "2026-05-06", "pe": 24.669844, "pb": 7.8677177, "dy": 0.008406609507763604, "roe": 0.34013999, "streak": 24}
+{"ts": "2026-05-06T20:34:57Z", "event": "yf_us_fetch_start", "ticker": "IBM", "period": "3mo"}
+{"ts": "2026-05-06T20:35:00Z", "event": "yf_us_persisted", "ticker": "IBM", "prices": 61, "dividends": 255, "period_end": "2026-05-06", "pe": 19.994686, "pb": 6.4344554, "dy": 0.029768759796559397, "roe": 0.35772, "streak": 65}
+{"ts": "2026-05-06T20:35:00Z", "event": "yf_us_fetch_start", "ticker": "AWR", "period": "3mo"}
+{"ts": "2026-05-06T20:35:02Z", "event": "yf_us_persisted", "ticker": "AWR", "prices": 61, "dividends": 156, "period_end": "2026-05-06", "pe": 22.50445, "pb": 2.8348222, "dy": 0.0260812248880841, "roe": 0.13272001, "streak": 40}
+{"ts": "2026-05-06T20:35:02Z", "event": "yf_us_fetch_start", "ticker": "NWN", "period": "3mo"}
+{"ts": "2026-05-06T20:35:04Z", "event": "yf_us_persisted", "ticker": "NWN", "prices": 61, "dividends": 146, "period_end": "2026-05-06", "pe": 17.566788, "pb": 1.3710904, "dy": 0.04046444731143412, "roe": 0.079229996, "streak": 37}
+{"ts": "2026-05-06T20:35:04Z", "event": "yf_us_fetch_start", "ticker": "ABM", "period": "3mo"}
+{"ts": "2026-05-06T20:35:06Z", "event": "yf_us_persisted", "ticker": "ABM", "prices": 61, "dividends": 167, "period_end": "2026-05-06", "pe": 16.0, "pb": 1.3810915, "dy": 0.02731299253618424, "roe": 0.08997, "streak": 43}
+{"ts": "2026-05-06T20:35:06Z", "event": "yf_us_fetch_start", "ticker": "CWT", "period": "3mo"}
+{"ts": "2026-05-06T20:35:09Z", "event": "yf_us_persisted", "ticker": "CWT", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 21.515, "pb": 1.5189918, "dy": 0.02870090715861694, "roe": 0.0716, "streak": 40}
+{"ts": "2026-05-06T20:35:09Z", "event": "yf_us_fetch_start", "ticker": "CBSH", "period": "3mo"}
+{"ts": "2026-05-06T20:35:11Z", "event": "yf_us_persisted", "ticker": "CBSH", "prices": 61, "dividends": 156, "period_end": "2026-05-06", "pe": 12.905405, "pb": 1.782442, "dy": 0.02019628689543859, "roe": 0.14938, "streak": 39}
+{"ts": "2026-05-06T20:35:11Z", "event": "yf_us_fetch_start", "ticker": "SCL", "period": "3mo"}
+{"ts": "2026-05-06T20:35:13Z", "event": "yf_us_persisted", "ticker": "SCL", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": null, "pb": 1.0146956, "dy": 0.029495179013091864, "roe": -0.011879999, "streak": 40}
+{"ts": "2026-05-06T20:35:13Z", "event": "yf_us_fetch_start", "ticker": "FUL", "period": "3mo"}
+{"ts": "2026-05-06T20:35:16Z", "event": "yf_us_persisted", "ticker": "FUL", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 21.089966, "pb": 1.6076704, "dy": 0.01558654615436274, "roe": 0.083179995, "streak": 40}
+{"ts": "2026-05-06T20:35:16Z", "event": "yf_us_fetch_start", "ticker": "TR", "period": "3mo"}
+{"ts": "2026-05-06T20:35:18Z", "event": "yf_us_persisted", "ticker": "TR", "prices": 61, "dividends": 159, "period_end": "2026-05-06", "pe": 31.458645, "pb": 3.3378541, "dy": 0.008344574539357528, "roe": 0.110419996, "streak": 41}
+{"ts": "2026-05-06T20:35:18Z", "event": "yf_us_fetch_start", "ticker": "MSA", "period": "3mo"}
+{"ts": "2026-05-06T20:35:20Z", "event": "yf_us_persisted", "ticker": "MSA", "prices": 61, "dividends": 145, "period_end": "2026-05-06", "pe": 23.477734, "pb": 4.965039, "dy": 0.01218600899651952, "roe": 0.22830999, "streak": 37}
+{"ts": "2026-05-06T20:35:20Z", "event": "yf_us_fetch_start", "ticker": "NFG", "period": "3mo"}
+{"ts": "2026-05-06T20:35:22Z", "event": "yf_us_persisted", "ticker": "NFG", "prices": 61, "dividends": 154, "period_end": "2026-05-06", "pe": 11.014865, "pb": 2.1585763, "dy": 0.026254446618997073, "roe": 0.20833, "streak": 40}
+{"ts": "2026-05-06T20:35:22Z", "event": "yf_us_fetch_start", "ticker": "UVV", "period": "3mo"}
+{"ts": "2026-05-06T20:35:24Z", "event": "yf_us_persisted", "ticker": "UVV", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 15.899705, "pb": 0.90588236, "dy": 0.06085343055927706, "roe": 0.06966, "streak": 41}
+{"ts": "2026-05-06T20:35:25Z", "event": "yf_us_fetch_start", "ticker": "BKH", "period": "3mo"}
+{"ts": "2026-05-06T20:35:27Z", "event": "yf_us_persisted", "ticker": "BKH", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 18.572865, "pb": 1.4591681, "dy": 0.036945347235510705, "roe": 0.08004, "streak": 39}
+{"ts": "2026-05-06T20:35:27Z", "event": "yf_us_fetch_start", "ticker": "LEG", "period": "3mo"}
+{"ts": "2026-05-06T20:35:28Z", "event": "yf_us_volume_reject", "ticker": "LEG", "date": "2026-04-13", "vol": 21788700}
+{"ts": "2026-05-06T20:35:28Z", "event": "yf_us_volume_reject", "ticker": "LEG", "date": "2026-04-14", "vol": 12984100}
+{"ts": "2026-05-06T20:35:29Z", "event": "yf_us_persisted", "ticker": "LEG", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 6.7278104, "pb": 1.5073577, "dy": 0.017590149693318635, "roe": 0.27487, "streak": 40}
+{"ts": "2026-05-06T20:35:29Z", "event": "yf_us_fetch_start", "ticker": "TNC", "period": "3mo"}
+{"ts": "2026-05-06T20:35:31Z", "event": "yf_us_volume_reject", "ticker": "TNC", "date": "2026-02-24", "vol": 1213900}
+{"ts": "2026-05-06T20:35:32Z", "event": "yf_us_persisted", "ticker": "TNC", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 51.916668, "pb": 2.5874395, "dy": 0.013872964722142039, "roe": 0.053319998, "streak": 40}
+{"ts": "2026-05-06T20:35:32Z", "event": "yf_us_fetch_start", "ticker": "GRC", "period": "3mo"}
+{"ts": "2026-05-06T20:35:34Z", "event": "yf_us_persisted", "ticker": "GRC", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 34.705357, "pb": 4.8222814, "dy": 0.009647543357465604, "roe": 0.14543, "streak": 40}
+{"ts": "2026-05-06T20:35:34Z", "event": "yf_us_fetch_start", "ticker": "MSEX", "period": "3mo"}
+{"ts": "2026-05-06T20:35:36Z", "event": "yf_us_persisted", "ticker": "MSEX", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 21.3125, "pb": 1.8964814, "dy": 0.02737047816688103, "roe": 0.09222999, "streak": 40}
+{"ts": "2026-05-06T20:35:36Z", "event": "yf_us_fetch_start", "ticker": "RPM", "period": "3mo"}
+{"ts": "2026-05-06T20:35:38Z", "event": "yf_us_persisted", "ticker": "RPM", "prices": 61, "dividends": 155, "period_end": "2026-05-06", "pe": 19.732178, "pb": 4.161655, "dy": 0.02079874937830978, "roe": 0.22903, "streak": 40}
+{"ts": "2026-05-06T20:35:39Z", "event": "yf_us_fetch_start", "ticker": "TDS", "period": "3mo"}
+{"ts": "2026-05-06T20:35:41Z", "event": "yf_us_persisted", "ticker": "TDS", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 116.71796, "pb": 1.3870437, "dy": 0.0035149384532291053, "roe": 0.02711, "streak": 40}
+{"ts": "2026-05-06T20:35:41Z", "event": "yf_us_fetch_start", "ticker": "RLI", "period": "3mo"}
+{"ts": "2026-05-06T20:35:43Z", "event": "yf_us_persisted", "ticker": "RLI", "prices": 61, "dividends": 156, "period_end": "2026-05-06", "pe": 11.424242, "pb": 2.532293, "dy": 0.0538665596901292, "roe": 0.23232001, "streak": 40}
+{"ts": "2026-05-06T20:35:43Z", "event": "yf_us_fetch_start", "ticker": "MGEE", "period": "3mo"}
+{"ts": "2026-05-06T20:35:45Z", "event": "yf_us_persisted", "ticker": "MGEE", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 20.717949, "pb": 2.2643838, "dy": 0.02320544466810152, "roe": 0.107250005, "streak": 40}
+{"ts": "2026-05-06T20:35:45Z", "event": "yf_us_fetch_start", "ticker": "DOV", "period": "3mo"}
+{"ts": "2026-05-06T20:35:48Z", "event": "yf_us_persisted", "ticker": "DOV", "prices": 61, "dividends": 174, "period_end": "2026-05-06", "pe": 28.3975, "pb": 4.0845017, "dy": 0.00913372685490542, "roe": 0.14998001, "streak": 45}
+{"ts": "2026-05-06T20:35:48Z", "event": "yf_us_fetch_start", "ticker": "GPC", "period": "3mo"}
+{"ts": "2026-05-06T20:35:50Z", "event": "yf_us_persisted", "ticker": "GPC", "prices": 61, "dividends": 171, "period_end": "2026-05-06", "pe": 239.75, "pb": 3.2439494, "dy": 0.03936866133378078, "roe": 0.01342, "streak": 44}
+{"ts": "2026-05-06T20:35:50Z", "event": "yf_us_fetch_start", "ticker": "PH", "period": "3mo"}
+{"ts": "2026-05-06T20:35:52Z", "event": "yf_us_persisted", "ticker": "PH", "prices": 61, "dividends": 162, "period_end": "2026-05-06", "pe": 33.259396, "pb": 7.9610176, "dy": 0.00797642546940226, "roe": 0.24841999, "streak": 42}
+{"ts": "2026-05-06T20:35:52Z", "event": "yf_us_fetch_start", "ticker": "EMR", "period": "3mo"}
+{"ts": "2026-05-06T20:35:55Z", "event": "yf_us_persisted", "ticker": "EMR", "prices": 61, "dividends": 215, "period_end": "2026-05-06", "pe": 34.256943, "pb": 4.1017184, "dy": 0.014636123519165975, "roe": 0.09646, "streak": 55}
+{"ts": "2026-05-06T20:35:55Z", "event": "yf_us_fetch_start", "ticker": "CINF", "period": "3mo"}
+{"ts": "2026-05-06T20:35:57Z", "event": "yf_us_persisted", "ticker": "CINF", "prices": 61, "dividends": 160, "period_end": "2026-05-06", "pe": 9.172669, "pb": 1.5783674, "dy": 0.022128031927136735, "roe": 0.18735, "streak": 41}
+{"ts": "2026-05-06T20:35:57Z", "event": "yf_us_fetch_start", "ticker": "CL", "period": "3mo"}
+{"ts": "2026-05-06T20:35:58Z", "event": "yf_us_pb_extreme_reject", "ticker": "CL", "raw": 1315.8209}
+{"ts": "2026-05-06T20:35:59Z", "event": "yf_us_persisted", "ticker": "CL", "prices": 61, "dividends": 212, "period_end": "2026-05-06", "pe": 34.170544, "pb": null, "dy": 0.02370689556695503, "roe": 3.6357698, "streak": 54}
+{"ts": "2026-05-06T20:35:59Z", "event": "yf_us_fetch_start", "ticker": "NDSN", "period": "3mo"}
+{"ts": "2026-05-06T20:36:02Z", "event": "yf_us_persisted", "ticker": "NDSN", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 31.054113, "pb": 5.1433077, "dy": 0.011291559114911538, "roe": 0.17473, "streak": 41}
+{"ts": "2026-05-06T20:36:02Z", "event": "yf_us_fetch_start", "ticker": "HRL", "period": "3mo"}
+{"ts": "2026-05-06T20:36:04Z", "event": "yf_us_persisted", "ticker": "HRL", "prices": 61, "dividends": 159, "period_end": "2026-05-06", "pe": 23.258429, "pb": 1.4347103, "dy": 0.05632850033936061, "roe": 0.061160002, "streak": 40}
+{"ts": "2026-05-06T20:36:04Z", "event": "yf_us_fetch_start", "ticker": "FRT", "period": "3mo"}
+{"ts": "2026-05-06T20:36:06Z", "event": "yf_us_persisted", "ticker": "FRT", "prices": 61, "dividends": 155, "period_end": "2026-05-06", "pe": 20.272568, "pb": 3.261094, "dy": 0.038451658209126174, "roe": 0.14783, "streak": 40}
+{"ts": "2026-05-06T20:36:06Z", "event": "yf_us_fetch_start", "ticker": "SWK", "period": "3mo"}
+{"ts": "2026-05-06T20:36:08Z", "event": "yf_us_persisted", "ticker": "SWK", "prices": 61, "dividends": 165, "period_end": "2026-05-06", "pe": 33.209015, "pb": 1.3874288, "dy": 0.040849068861712766, "roe": 0.04165, "streak": 42}
+{"ts": "2026-05-06T20:36:08Z", "event": "yf_us_fetch_start", "ticker": "MO", "period": "3mo"}
+{"ts": "2026-05-06T20:36:11Z", "event": "yf_us_persisted", "ticker": "MO", "prices": 61, "dividends": 258, "period_end": "2026-05-06", "pe": 14.649269, "pb": -33.542065, "dy": 0.05985464029638193, "roe": null, "streak": 65}
+{"ts": "2026-05-06T20:36:11Z", "event": "yf_us_fetch_start", "ticker": "SYY", "period": "3mo"}
+{"ts": "2026-05-06T20:36:13Z", "event": "yf_us_persisted", "ticker": "SYY", "prices": 61, "dividends": 156, "period_end": "2026-05-06", "pe": 20.369446, "pb": 15.38284, "dy": 0.02945588362286467, "roe": 0.81894994, "streak": 40}
+{"ts": "2026-05-06T20:36:13Z", "event": "yf_us_fetch_start", "ticker": "ITW", "period": "3mo"}
+{"ts": "2026-05-06T20:36:15Z", "event": "yf_us_persisted", "ticker": "ITW", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 24.189413, "pb": 23.31275, "dy": 0.024297559753343176, "roe": 0.96848, "streak": 40}
+{"ts": "2026-05-06T20:36:15Z", "event": "yf_us_fetch_start", "ticker": "GWW", "period": "3mo"}
+{"ts": "2026-05-06T20:36:18Z", "event": "yf_us_persisted", "ticker": "GWW", "prices": 61, "dividends": 165, "period_end": "2026-05-06", "pe": 33.03756, "pb": 14.848388, "dy": 0.007727420471846746, "roe": 0.46098998, "streak": 42}
+{"ts": "2026-05-06T20:36:18Z", "event": "yf_us_fetch_start", "ticker": "PPG", "period": "3mo"}
+{"ts": "2026-05-06T20:36:20Z", "event": "yf_us_persisted", "ticker": "PPG", "prices": 61, "dividends": 172, "period_end": "2026-05-06", "pe": 15.97851, "pb": 3.1379776, "dy": 0.025195015069986854, "roe": 0.20748, "streak": 44}
+{"ts": "2026-05-06T20:36:20Z", "event": "yf_us_fetch_start", "ticker": "TGT", "period": "3mo"}
+{"ts": "2026-05-06T20:36:22Z", "event": "yf_us_persisted", "ticker": "TGT", "prices": 61, "dividends": 172, "period_end": "2026-05-06", "pe": 16.01353, "pb": 3.6470854, "dy": 0.0348721093391429, "roe": 0.24034001, "streak": 44}
+{"ts": "2026-05-06T20:36:22Z", "event": "yf_us_fetch_start", "ticker": "ABT", "period": "3mo"}
+{"ts": "2026-05-06T20:36:25Z", "event": "yf_us_persisted", "ticker": "ABT", "prices": 61, "dividends": 175, "period_end": "2026-05-06", "pe": 24.173672, "pb": 2.88735, "dy": 0.028273463658357315, "roe": 0.123339996, "streak": 44}
+{"ts": "2026-05-06T20:36:25Z", "event": "yf_us_fetch_start", "ticker": "BDX", "period": "3mo"}
+{"ts": "2026-05-06T20:36:27Z", "event": "yf_us_persisted", "ticker": "BDX", "prices": 61, "dividends": 174, "period_end": "2026-05-06", "pe": 23.692307, "pb": 1.6303821, "dy": 0.024251810812511574, "roe": 0.0696, "streak": 44}
+{"ts": "2026-05-06T20:36:27Z", "event": "yf_us_fetch_start", "ticker": "KMB", "period": "3mo"}
+{"ts": "2026-05-06T20:36:29Z", "event": "yf_us_persisted", "ticker": "KMB", "prices": 61, "dividends": 166, "period_end": "2026-05-06", "pe": 19.185686, "pb": 18.331179, "dy": 0.0510132057208997, "roe": 1.11727, "streak": 42}
+{"ts": "2026-05-06T20:36:29Z", "event": "yf_us_fetch_start", "ticker": "LOW", "period": "3mo"}
+{"ts": "2026-05-06T20:36:32Z", "event": "yf_us_persisted", "ticker": "LOW", "prices": 61, "dividends": 164, "period_end": "2026-05-06", "pe": 19.69367, "pb": -13.2019005, "dy": 0.02056819685662531, "roe": null, "streak": 42}
+{"ts": "2026-05-06T20:36:32Z", "event": "yf_us_fetch_start", "ticker": "ADM", "period": "3mo"}
+{"ts": "2026-05-06T20:36:34Z", "event": "yf_us_persisted", "ticker": "ADM", "prices": 61, "dividends": 172, "period_end": "2026-05-06", "pe": 34.830357, "pb": 1.6473817, "dy": 0.026275315152582517, "roe": 0.047659997, "streak": 44}
+{"ts": "2026-05-06T20:36:34Z", "event": "yf_us_fetch_start", "ticker": "BF-B", "period": "3mo"}
+{"ts": "2026-05-06T20:36:36Z", "event": "yf_us_persisted", "ticker": "BF-B", "prices": 61, "dividends": 164, "period_end": "2026-05-06", "pe": 15.686046, "pb": 3.0318012, "dy": 0.03395107544631464, "roe": 0.20417, "streak": 42}
+{"ts": "2026-05-06T20:36:36Z", "event": "yf_us_fetch_start", "ticker": "ED", "period": "3mo"}
+{"ts": "2026-05-06T20:36:39Z", "event": "yf_us_persisted", "ticker": "ED", "prices": 61, "dividends": 254, "period_end": "2026-05-06", "pe": 18.948582, "pb": 1.5954081, "dy": 0.03216992525163901, "roe": 0.08767, "streak": 65}
+{"ts": "2026-05-06T20:36:39Z", "event": "yf_us_fetch_start", "ticker": "NUE", "period": "3mo"}
+{"ts": "2026-05-06T20:36:41Z", "event": "yf_us_persisted", "ticker": "NUE", "prices": 61, "dividends": 171, "period_end": "2026-05-06", "pe": 23.259186, "pb": 2.554087, "dy": 0.009478268245366956, "roe": 0.12285, "streak": 44}
+{"ts": "2026-05-06T20:36:41Z", "event": "yf_us_fetch_start", "ticker": "SPGI", "period": "3mo"}
+{"ts": "2026-05-06T20:36:43Z", "event": "yf_us_persisted", "ticker": "SPGI", "prices": 61, "dividends": 166, "period_end": "2026-05-06", "pe": 26.791271, "pb": 4.066025, "dy": 0.00908940655246405, "roe": 0.13939999, "streak": 42}
+{"ts": "2026-05-06T20:36:43Z", "event": "yf_us_fetch_start", "ticker": "WMT", "period": "3mo"}
+{"ts": "2026-05-06T20:36:45Z", "event": "yf_us_persisted", "ticker": "WMT", "prices": 61, "dividends": 207, "period_end": "2026-05-06", "pe": 47.648354, "pb": 10.405567, "dy": 0.007326260659480443, "roe": 0.21847, "streak": 53}
+{"ts": "2026-05-06T20:36:45Z", "event": "yf_us_fetch_start", "ticker": "ADP", "period": "3mo"}
+{"ts": "2026-05-06T20:36:48Z", "event": "yf_us_persisted", "ticker": "ADP", "prices": 61, "dividends": 173, "period_end": "2026-05-06", "pe": 19.328358, "pb": 13.071731, "dy": 0.031274131734754226, "roe": 0.71208, "streak": 44}
+{"ts": "2026-05-06T20:36:48Z", "event": "yf_us_fetch_start", "ticker": "APD", "period": "3mo"}
+{"ts": "2026-05-06T20:36:50Z", "event": "yf_us_persisted", "ticker": "APD", "prices": 61, "dividends": 171, "period_end": "2026-05-06", "pe": 31.667723, "pb": 4.271628, "dy": 0.023916592399871466, "roe": 0.12353, "streak": 44}
+{"ts": "2026-05-06T20:36:50Z", "event": "yf_us_fetch_start", "ticker": "MDT", "period": "3mo"}
+{"ts": "2026-05-06T20:36:53Z", "event": "yf_us_persisted", "ticker": "MDT", "prices": 61, "dividends": 178, "period_end": "2026-05-06", "pe": 21.675978, "pb": 2.0330634, "dy": 0.036597938863969365, "roe": 0.0939, "streak": 45}
+{"ts": "2026-05-06T20:36:53Z", "event": "yf_us_fetch_start", "ticker": "CLX", "period": "3mo"}
+{"ts": "2026-05-06T20:36:54Z", "event": "yf_us_pb_extreme_reject", "ticker": "CLX", "raw": -162.47292}
+{"ts": "2026-05-06T20:36:54Z", "event": "yf_us_roe_extreme_reject", "ticker": "CLX", "raw": 5.46099}
+{"ts": "2026-05-06T20:36:55Z", "event": "yf_us_persisted", "ticker": "CLX", "prices": 61, "dividends": 173, "period_end": "2026-05-06", "pe": 14.635773, "pb": null, "dy": 0.05510498702680866, "roe": null, "streak": 44}
+{"ts": "2026-05-06T20:36:55Z", "event": "yf_us_fetch_start", "ticker": "PNR", "period": "3mo"}
+{"ts": "2026-05-06T20:36:57Z", "event": "yf_us_persisted", "ticker": "PNR", "prices": 61, "dividends": 144, "period_end": "2026-05-06", "pe": 20.07789, "pb": 3.3713036, "dy": 0.013014640875221646, "roe": 0.1761, "streak": 37}
+{"ts": "2026-05-06T20:36:57Z", "event": "yf_us_fetch_start", "ticker": "SHW", "period": "3mo"}
+{"ts": "2026-05-06T20:36:59Z", "event": "yf_us_persisted", "ticker": "SHW", "prices": 61, "dividends": 163, "period_end": "2026-05-06", "pe": 31.11827, "pb": 17.333298, "dy": 0.009795136273436289, "roe": 0.60723, "streak": 42}
+{"ts": "2026-05-06T20:36:59Z", "event": "yf_us_fetch_start", "ticker": "BEN", "period": "3mo"}
+{"ts": "2026-05-06T20:37:02Z", "event": "yf_us_persisted", "ticker": "BEN", "prices": 61, "dividends": 160, "period_end": "2026-05-06", "pe": 23.78626, "pb": 1.3352188, "dy": 0.04172015424794578, "roe": 0.06704, "streak": 42}
+{"ts": "2026-05-06T20:37:02Z", "event": "yf_us_fetch_start", "ticker": "CTAS", "period": "3mo"}
+{"ts": "2026-05-06T20:37:04Z", "event": "yf_us_persisted", "ticker": "CTAS", "prices": 61, "dividends": 56, "period_end": "2026-05-06", "pe": 35.72996, "pb": 14.147524, "dy": 0.010273972565713656, "roe": 0.41303003, "streak": 40}
+{"ts": "2026-05-06T20:37:04Z", "event": "yf_us_fetch_start", "ticker": "XOM", "period": "3mo"}
+{"ts": "2026-05-06T20:37:06Z", "event": "yf_us_persisted", "ticker": "XOM", "prices": 61, "dividends": 256, "period_end": "2026-05-06", "pe": 24.989918, "pb": 2.3955598, "dy": 0.027170622998624463, "roe": 0.09873, "streak": 65}
+{"ts": "2026-05-06T20:37:06Z", "event": "yf_us_fetch_start", "ticker": "ATO", "period": "3mo"}
+{"ts": "2026-05-06T20:37:08Z", "event": "yf_us_persisted", "ticker": "ATO", "prices": 61, "dividends": 146, "period_end": "2026-05-06", "pe": 24.057291, "pb": 2.140011, "dy": 0.020242477328400354, "roe": 0.09237, "streak": 38}
+{"ts": "2026-05-06T20:37:09Z", "event": "yf_us_fetch_start", "ticker": "AFL", "period": "3mo"}
+{"ts": "2026-05-06T20:37:11Z", "event": "yf_us_persisted", "ticker": "AFL", "prices": 61, "dividends": 167, "period_end": "2026-05-06", "pe": 12.974829, "pb": 1.9323177, "dy": 0.02072310377759306, "roe": 0.16469, "streak": 43}
+{"ts": "2026-05-06T20:37:11Z", "event": "yf_us_fetch_start", "ticker": "ECL", "period": "3mo"}
+{"ts": "2026-05-06T20:37:13Z", "event": "yf_us_persisted", "ticker": "ECL", "prices": 61, "dividends": 159, "period_end": "2026-05-06", "pe": 35.64547, "pb": 7.6034064, "dy": 0.010477563811821638, "roe": 0.22427, "streak": 41}
+{"ts": "2026-05-06T20:37:13Z", "event": "yf_us_fetch_start", "ticker": "TROW", "period": "3mo"}
+{"ts": "2026-05-06T20:37:15Z", "event": "yf_us_persisted", "ticker": "TROW", "prices": 61, "dividends": 161, "period_end": "2026-05-06", "pe": 11.38734, "pb": 2.1359282, "dy": 0.04814849837222087, "roe": 0.18688999, "streak": 41}
+{"ts": "2026-05-06T20:37:15Z", "event": "yf_us_fetch_start", "ticker": "CVX", "period": "3mo"}
+{"ts": "2026-05-06T20:37:18Z", "event": "yf_us_persisted", "ticker": "CVX", "prices": 61, "dividends": 227, "period_end": "2026-05-06", "pe": 32.257843, "pb": 1.9665446, "dy": 0.03731907465615396, "roe": null, "streak": 43}
+{"ts": "2026-05-06T20:37:18Z", "event": "yf_us_fetch_start", "ticker": "MKC", "period": "3mo"}
+{"ts": "2026-05-06T20:37:20Z", "event": "yf_us_persisted", "ticker": "MKC", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 7.9491806, "pb": 1.8667232, "dy": 0.038358423089640346, "roe": 0.25347, "streak": 41}
+{"ts": "2026-05-06T20:37:20Z", "event": "yf_us_fetch_start", "ticker": "ERIE", "period": "3mo"}
+{"ts": "2026-05-06T20:37:22Z", "event": "yf_us_persisted", "ticker": "ERIE", "prices": 61, "dividends": 123, "period_end": "2026-05-06", "pe": 19.538883, "pb": 4.7448287, "dy": 0.02648436066987771, "roe": 0.2585, "streak": 31}
+{"ts": "2026-05-06T20:37:22Z", "event": "yf_us_fetch_start", "ticker": "JKHY", "period": "3mo"}
+{"ts": "2026-05-06T20:37:24Z", "event": "yf_us_persisted", "ticker": "JKHY", "prices": 61, "dividends": 140, "period_end": "2026-05-06", "pe": 20.499285, "pb": 4.680447, "dy": 0.01644736785897667, "roe": 0.24284, "streak": 36}
+{"ts": "2026-05-06T20:37:24Z", "event": "yf_us_fetch_start", "ticker": "GD", "period": "3mo"}
+{"ts": "2026-05-06T20:37:27Z", "event": "yf_us_persisted", "ticker": "GD", "prices": 61, "dividends": 215, "period_end": "2026-05-06", "pe": 21.854624, "pb": 3.6592484, "dy": 0.01753678749291589, "roe": 0.17974001, "streak": 48}
+{"ts": "2026-05-06T20:37:27Z", "event": "yf_us_fetch_start", "ticker": "CB", "period": "3mo"}
+{"ts": "2026-05-06T20:37:29Z", "event": "yf_us_persisted", "ticker": "CB", "prices": 61, "dividends": 131, "period_end": "2026-05-06", "pe": 11.390657, "pb": 1.6948081, "dy": 0.006026716485815962, "roe": 0.15433, "streak": 34}
+{"ts": "2026-05-06T20:37:29Z", "event": "yf_us_fetch_start", "ticker": "LIN", "period": "3mo"}
+{"ts": "2026-05-06T20:37:31Z", "event": "yf_us_persisted", "ticker": "LIN", "prices": 61, "dividends": 135, "period_end": "2026-05-06", "pe": 33.3247, "pb": 6.084674, "dy": 0.012154542131126288, "roe": 0.18229, "streak": 35}
+{"ts": "2026-05-06T20:37:31Z", "event": "yf_us_fetch_start", "ticker": "ROP", "period": "3mo"}
+{"ts": "2026-05-06T20:37:33Z", "event": "yf_us_persisted", "ticker": "ROP", "prices": 61, "dividends": 137, "period_end": "2026-05-06", "pe": 21.877577, "pb": 1.8780093, "dy": 0.009906926007116644, "roe": 0.09012, "streak": 35}
+{"ts": "2026-05-06T20:37:33Z", "event": "yf_us_fetch_start", "ticker": "AOS", "period": "3mo"}
+{"ts": "2026-05-06T20:37:35Z", "event": "yf_us_persisted", "ticker": "AOS", "prices": 61, "dividends": 163, "period_end": "2026-05-06", "pe": 16.282667, "pb": 4.552979, "dy": 0.023255813430445468, "roe": 0.28267, "streak": 41}
+{"ts": "2026-05-06T20:37:35Z", "event": "yf_us_fetch_start", "ticker": "BRO", "period": "3mo"}
+{"ts": "2026-05-06T20:37:38Z", "event": "yf_us_persisted", "ticker": "BRO", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 18.423454, "pb": 1.5050961, "dy": 0.0111386135909378, "roe": 0.11926, "streak": 40}
+{"ts": "2026-05-06T20:37:38Z", "event": "yf_us_fetch_start", "ticker": "CAT", "period": "3mo"}
+{"ts": "2026-05-06T20:37:40Z", "event": "yf_us_persisted", "ticker": "CAT", "prices": 61, "dividends": 209, "period_end": "2026-05-06", "pe": 46.161854, "pb": 23.01788, "dy": 0.006516133955881879, "roe": 0.51331, "streak": 45}
+{"ts": "2026-05-06T20:37:40Z", "event": "yf_us_fetch_start", "ticker": "WST", "period": "3mo"}
+{"ts": "2026-05-06T20:37:42Z", "event": "yf_us_persisted", "ticker": "WST", "prices": 61, "dividends": 158, "period_end": "2026-05-06", "pe": 41.840694, "pb": 7.4102607, "dy": 0.002783554739974211, "roe": 0.19131, "streak": 40}
+{"ts": "2026-05-06T20:37:42Z", "event": "yf_us_fetch_start", "ticker": "ALB", "period": "3mo"}
+{"ts": "2026-05-06T20:37:44Z", "event": "yf_us_persisted", "ticker": "ALB", "prices": 61, "dividends": 131, "period_end": "2026-05-06", "pe": null, "pb": 3.106663, "dy": 0.008410778229928188, "roe": -0.04656, "streak": 33}
+{"ts": "2026-05-06T20:37:44Z", "event": "yf_us_fetch_start", "ticker": "EXPD", "period": "3mo"}
+{"ts": "2026-05-06T20:37:46Z", "event": "yf_us_persisted", "ticker": "EXPD", "prices": 61, "dividends": 66, "period_end": "2026-05-06", "pe": 24.472494, "pb": 8.595624, "dy": 0.01018249103455373, "roe": 0.36641, "streak": 33}
+{"ts": "2026-05-06T20:37:46Z", "event": "yf_us_fetch_start", "ticker": "CHD", "period": "3mo"}
+{"ts": "2026-05-06T20:37:49Z", "event": "yf_us_persisted", "ticker": "CHD", "prices": 61, "dividends": 144, "period_end": "2026-05-06", "pe": 31.236843, "pb": 5.6126246, "dy": 0.012563184619860352, "roe": 0.16779, "streak": 37}
+{"ts": "2026-05-06T20:37:49Z", "event": "yf_us_fetch_start", "ticker": "NEE", "period": "3mo"}
+{"ts": "2026-05-06T20:37:51Z", "event": "yf_us_persisted", "ticker": "NEE", "prices": 61, "dividends": 172, "period_end": "2026-05-06", "pe": 24.210659, "pb": 3.6022053, "dy": 0.02436314094632646, "roe": 0.10325, "streak": 44}
+{"ts": "2026-05-06T20:37:51Z", "event": "yf_us_fetch_start", "ticker": "SJM", "period": "3mo"}
+{"ts": "2026-05-06T20:37:53Z", "event": "yf_us_persisted", "ticker": "SJM", "prices": 61, "dividends": 103, "period_end": "2026-05-06", "pe": null, "pb": 1.9731426, "dy": 0.04523391425358081, "roe": -0.20683001, "streak": 27}
+{"ts": "2026-05-06T20:37:53Z", "event": "yf_us_fetch_start", "ticker": "CHRW", "period": "3mo"}
+{"ts": "2026-05-06T20:37:55Z", "event": "yf_us_persisted", "ticker": "CHRW", "prices": 61, "dividends": 115, "period_end": "2026-05-06", "pe": 34.058586, "pb": 11.688969, "dy": 0.014828875107093912, "roe": 0.34838, "streak": 30}
+{"ts": "2026-05-06T20:37:55Z", "event": "yf_us_fetch_start", "ticker": "FAST", "period": "3mo"}
+{"ts": "2026-05-06T20:37:57Z", "event": "yf_us_persisted", "ticker": "FAST", "prices": 61, "dividends": 95, "period_end": "2026-05-06", "pe": 39.566372, "pb": 13.016011, "dy": 0.020577052534977727, "roe": 0.33842, "streak": 36}
+{"ts": "2026-05-06T20:37:57Z", "event": "yf_us_fetch_start", "ticker": "FDS", "period": "3mo"}
+{"ts": "2026-05-06T20:37:59Z", "event": "yf_us_persisted", "ticker": "FDS", "prices": 61, "dividends": 110, "period_end": "2026-05-06", "pe": 13.637476, "pb": 3.6447647, "dy": 0.020775296942644055, "roe": 0.28084, "streak": 28}
+{"ts": "2026-05-06T20:37:59Z", "event": "yf_us_fetch_start", "ticker": "ES", "period": "3mo"}
+{"ts": "2026-05-06T20:38:02Z", "event": "yf_us_persisted", "ticker": "ES", "prices": 61, "dividends": 157, "period_end": "2026-05-06", "pe": 15.026316, "pb": 1.588133, "dy": 0.044468770421463945, "roe": 0.10777, "streak": 28}

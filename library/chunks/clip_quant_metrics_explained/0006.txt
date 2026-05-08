@@ -1,0 +1,17 @@
+with seeing annual returns that fall within our expected return range or potentially enduring a one-year drawdown on the scale of our estimated maximum drawdown, the stock might not be right for you.
+
+Likewise, our quant estimates can also provide a useful comparison if you're trying to decide between a pair of potential investments.
+
+**To put recommendations in context:** Because our quant return and risk estimates are generated independently of our analyst team's recommendations, they can offer some interesting context and insight into one of our Foolish recommendations.
+
+For instance, a recommendation of a stock with a lower expected return band could suggest that our Foolish analyst team is forecasting a meaningful change to the business. But it also means that you should be prepared for returns to fall within that lower band before the investment thesis pays off.
+
+**With a grain of salt:** Like any market estimates, our quant metrics are subject to error, revisions, and statistical noise. We've designed these metrics to provide useful additional context in a weight-of-the-evidence approach to investing -- but they're not meant to perfectly predict the future.
+
+### How These Metrics Are Calculated
+
+Here are more details on how these numbers are calculated:
+
+**Market Map:** Market Map is a high-dimensional probability distribution of year-ahead returns for about 3,000 stocks. In essence, we are forecasting what the potential range of outcomes (returns) may be for each stock and forming a distribution based on those estimates. Once this process is completed for each constituent in our estimation universe, we have something that looks like the example below (although not quite so normal looking) for each of our ~3,000 stocks.
+
+This then provides the basis for the estimation of a variety of stock-related statistics (estimated annualized return ranges, expected max drawdowns, etc.).

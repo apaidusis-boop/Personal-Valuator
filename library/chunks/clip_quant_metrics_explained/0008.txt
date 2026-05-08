@@ -1,0 +1,9 @@
+on. These are not a guarantee of future performance, and actual performance might differ significantly from our estimates.
+
+### Want More Color?
+
+**Here it is, explained with some help from ChatGPT:**
+
+**Annualized Return Ranges:** Think of this as a video game in which you can choose from 3,000 paths (each path is a stock). The Market Map is like a guide that shows how well each path might do in a year. The 40th and 60th percentiles are like markers along each path. If you're at the 40th marker, you're doing better than many paths but not as well as others. This helps you guess how much money you might earn or lose in a year on each path.
+
+**Drawdowns:** This is like predicting the biggest scary drop on a roller coaster (which represents how much a stock's value might fall). Market Map helps make this prediction using what we know about an individual stock's return pattern through time (distribution) and some assumptions about the statistical properties of how returns generally behave. It's like trying to guess the scariest part of the roller coaster ride before you get on it.

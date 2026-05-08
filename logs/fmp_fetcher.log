@@ -1,0 +1,11 @@
+{"ts": "2026-05-07T07:08:22Z", "path": "/api/v3/key-metrics-ttm/AAPL", "error": "403 forbidden"}
+{"ts": "2026-05-07T07:11:14Z", "path": "/stable/ratios-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:15Z", "path": "/stable/key-metrics-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:16Z", "path": "/stable/price-target-consensus", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:17Z", "path": "/stable/analyst-estimates", "ok": true, "rows": 10}
+{"ts": "2026-05-07T07:11:30Z", "path": "/stable/ratios-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:31Z", "path": "/stable/key-metrics-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:32Z", "path": "/stable/price-target-consensus", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:11:33Z", "path": "/stable/analyst-estimates", "ok": true, "rows": 10}
+{"ts": "2026-05-07T07:12:31Z", "path": "/stable/price-target-consensus", "ok": true, "rows": 1}
+{"ts": "2026-05-07T07:12:32Z", "path": "/stable/analyst-estimates", "ok": true, "rows": 10}

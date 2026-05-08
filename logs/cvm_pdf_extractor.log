@@ -267,3 +267,27 @@
 {"ts": "2026-05-05T20:33:26Z", "event": "extract_result", "event_id": 149, "ticker": "AXIA7", "date": "2026-03-19", "kind": "fato_relevante", "ok": true, "msg": "1971 chars"}
 {"ts": "2026-05-05T20:33:29Z", "event": "extract_result", "event_id": 165, "ticker": "ALOS3", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "2655 chars"}
 {"ts": "2026-05-05T20:33:29Z", "event": "extract_done", "ok": 20, "fail": 0}
+{"ts": "2026-05-06T20:32:25Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-06T20:32:28Z", "event": "extract_result", "event_id": 180, "ticker": "B3SA3", "date": "2026-03-19", "kind": "fato_relevante", "ok": true, "msg": "2941 chars"}
+{"ts": "2026-05-06T20:32:31Z", "event": "extract_result", "event_id": 182, "ticker": "ENGI11", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "4996 chars"}
+{"ts": "2026-05-06T20:32:38Z", "event": "extract_result", "event_id": 206, "ticker": "EQTL3", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "8779 chars"}
+{"ts": "2026-05-06T20:32:43Z", "event": "extract_result", "event_id": 288, "ticker": "PRIO3", "date": "2026-03-19", "kind": "fato_relevante", "ok": true, "msg": "5656 chars"}
+{"ts": "2026-05-06T20:32:45Z", "event": "extract_result", "event_id": 316, "ticker": "AXIA7", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "1436 chars"}
+{"ts": "2026-05-06T20:32:47Z", "event": "extract_result", "event_id": 317, "ticker": "AXIA7", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "1069 chars"}
+{"ts": "2026-05-06T20:32:50Z", "event": "extract_result", "event_id": 318, "ticker": "AXIA7", "date": "2026-03-19", "kind": "comunicado", "ok": true, "msg": "907 chars"}
+{"ts": "2026-05-06T20:32:52Z", "event": "extract_result", "event_id": 324, "ticker": "AXIA7", "date": "2026-03-19", "kind": "fato_relevante", "ok": true, "msg": "1972 chars"}
+{"ts": "2026-05-06T20:32:55Z", "event": "extract_result", "event_id": 22, "ticker": "PRIO3", "date": "2026-03-18", "kind": "fato_relevante", "ok": true, "msg": "3425 chars"}
+{"ts": "2026-05-06T20:32:58Z", "event": "extract_result", "event_id": 125, "ticker": "PETR4", "date": "2026-03-18", "kind": "comunicado", "ok": true, "msg": "3941 chars"}
+{"ts": "2026-05-06T20:33:01Z", "event": "extract_result", "event_id": 126, "ticker": "PETR4", "date": "2026-03-18", "kind": "comunicado", "ok": true, "msg": "5041 chars"}
+{"ts": "2026-05-06T20:33:10Z", "event": "extract_result", "event_id": 151, "ticker": "CPLE3", "date": "2026-03-18", "kind": "comunicado", "ok": true, "msg": "6086 chars"}
+{"ts": "2026-05-06T20:33:24Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-06T20:33:33Z", "event": "extract_result", "event_id": 232, "ticker": "MULT3", "date": "2026-03-18", "kind": "comunicado", "ok": true, "msg": "2331 chars"}
+{"ts": "2026-05-06T20:33:36Z", "event": "extract_result", "event_id": 239, "ticker": "PGMN3", "date": "2026-03-18", "kind": "comunicado", "ok": true, "msg": "4182 chars"}
+{"ts": "2026-05-06T20:33:40Z", "event": "extract_result", "event_id": 86, "ticker": "VALE3", "date": "2026-03-17", "kind": "comunicado", "ok": true, "msg": "16561 chars"}
+{"ts": "2026-05-06T20:33:50Z", "event": "extract_result", "event_id": 191, "ticker": "ITUB4", "date": "2026-03-17", "kind": "comunicado", "ok": true, "msg": "9473 chars"}
+{"ts": "2026-05-06T20:33:53Z", "event": "extract_result", "event_id": 122, "ticker": "PETR4", "date": "2026-03-16", "kind": "comunicado", "ok": true, "msg": "4317 chars"}
+{"ts": "2026-05-06T20:33:55Z", "event": "extract_result", "event_id": 123, "ticker": "PETR4", "date": "2026-03-16", "kind": "comunicado", "ok": true, "msg": "3297 chars"}
+{"ts": "2026-05-06T20:33:57Z", "event": "extract_result", "event_id": 124, "ticker": "PETR4", "date": "2026-03-16", "kind": "comunicado", "ok": true, "msg": "8863 chars"}
+{"ts": "2026-05-06T20:33:58Z", "event": "extract_done", "ok": 19, "fail": 1}
+{"ts": "2026-05-07T20:32:10Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-07T20:32:16Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}

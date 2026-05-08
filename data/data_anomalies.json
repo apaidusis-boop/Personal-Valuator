@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T20:38:21+00:00",
+  "generated_at": "2026-05-06T20:39:23+00:00",
   "thresholds": {
     "price_pct": 20.0,
     "price_stale_days": 5,
@@ -7,28 +7,78 @@
     "fund_watchlist_days": 200
   },
   "totals": {
-    "all": 7,
+    "all": 11,
     "by_kind": {
+      "PRICE_STALE": 3,
+      "FUND_STALE": 1,
       "CROSS_SECTIONAL_OUTLIER": 7
     },
     "by_severity": {
-      "alert": 3,
-      "warn": 4
+      "alert": 5,
+      "warn": 6
     }
   },
   "anomalies": [
     {
       "market": "br",
+      "ticker": "BTLG12",
+      "kind": "PRICE_STALE",
+      "severity": "alert",
+      "detected_at": "2026-05-06T20:39:22+00:00",
+      "detail": {
+        "last_price_date": null,
+        "rows_total": 0,
+        "max_age_days": 5
+      }
+    },
+    {
+      "market": "br",
+      "ticker": "IVVB11",
+      "kind": "PRICE_STALE",
+      "severity": "warn",
+      "detected_at": "2026-05-06T20:39:22+00:00",
+      "detail": {
+        "last_price_date": "2026-04-30",
+        "rows_total": 2952,
+        "max_age_days": 5
+      }
+    },
+    {
+      "market": "br",
+      "ticker": "LFTB11",
+      "kind": "PRICE_STALE",
+      "severity": "warn",
+      "detected_at": "2026-05-06T20:39:22+00:00",
+      "detail": {
+        "last_price_date": "2026-04-30",
+        "rows_total": 5,
+        "max_age_days": 5
+      }
+    },
+    {
+      "market": "br",
+      "ticker": "BTLG12",
+      "kind": "FUND_STALE",
+      "severity": "alert",
+      "detected_at": "2026-05-06T20:39:22+00:00",
+      "detail": {
+        "last_period_end": null,
+        "is_holding": true,
+        "max_age_days": 100
+      }
+    },
+    {
+      "market": "br",
       "ticker": "BPAC11",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "alert",
-      "detected_at": "2026-05-05T20:38:20+00:00",
+      "detected_at": "2026-05-06T20:39:22+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Banks",
         "ticker_pe": 99.15,
-        "sector_median_pe": 9.83,
-        "log_modified_z": 7.0,
+        "sector_median_pe": 9.79,
+        "log_modified_z": 6.79,
         "threshold": 3.5,
         "n_peers": 6
       }
@@ -38,13 +88,13 @@
       "ticker": "PLTR",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "warn",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Technology",
-        "ticker_pe": 152.71,
-        "sector_median_pe": 23.35,
-        "log_modified_z": 4.95,
+        "ticker_pe": 152.03,
+        "sector_median_pe": 23.23,
+        "log_modified_z": 4.58,
         "threshold": 3.5,
         "n_peers": 8
       }
@@ -54,13 +104,13 @@
       "ticker": "ABBV",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "alert",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Healthcare",
-        "ticker_pe": 101.03,
-        "sector_median_pe": 25.26,
-        "log_modified_z": 8.48,
+        "ticker_pe": 100.5,
+        "sector_median_pe": 25.07,
+        "log_modified_z": 9.28,
         "threshold": 3.5,
         "n_peers": 6
       }
@@ -70,13 +120,13 @@
       "ticker": "BN",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "warn",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Financials",
-        "ticker_pe": 93.55,
-        "sector_median_pe": 14.81,
-        "log_modified_z": 4.41,
+        "ticker_pe": 94.8,
+        "sector_median_pe": 15.08,
+        "log_modified_z": 4.42,
         "threshold": 3.5,
         "n_peers": 19
       }
@@ -86,13 +136,13 @@
       "ticker": "NFG",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "warn",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Utilities",
-        "ticker_pe": 11.09,
-        "sector_median_pe": 21.22,
-        "log_modified_z": 4.01,
+        "ticker_pe": 11.01,
+        "sector_median_pe": 20.72,
+        "log_modified_z": 3.9,
         "threshold": 3.5,
         "n_peers": 11
       }
@@ -102,13 +152,13 @@
       "ticker": "GPC",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "warn",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Consumer Disc.",
-        "ticker_pe": 231.76,
-        "sector_median_pe": 22.18,
-        "log_modified_z": 4.7,
+        "ticker_pe": 239.75,
+        "sector_median_pe": 22.7,
+        "log_modified_z": 4.56,
         "threshold": 3.5,
         "n_peers": 7
       }
@@ -118,13 +168,13 @@
       "ticker": "TSLA",
       "kind": "CROSS_SECTIONAL_OUTLIER",
       "severity": "alert",
-      "detected_at": "2026-05-05T20:38:21+00:00",
+      "detected_at": "2026-05-06T20:39:23+00:00",
       "detail": {
         "metric": "pe",
         "sector": "Consumer Disc.",
-        "ticker_pe": 353.97,
-        "sector_median_pe": 22.18,
-        "log_modified_z": 5.55,
+        "ticker_pe": 365.81,
+        "sector_median_pe": 22.7,
+        "log_modified_z": 5.37,
         "threshold": 3.5,
         "n_peers": 7
       }

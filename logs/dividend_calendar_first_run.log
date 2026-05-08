@@ -1,0 +1,11 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 34 ticker(s)...
+  [1/34] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/34] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [11/34] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [13/34] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [15/34] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/34] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/34] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [30/34] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
