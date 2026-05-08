@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-30T06:34:38",
+  "computed_at": "2026-05-08T11:42:40",
   "n_topics": 10,
   "topics": [
     {
@@ -21,8 +21,8 @@
       ],
       "score": 100,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 203,
+      "weeks_tracked": 2,
+      "mentions_recent": 285,
       "holdings_hit": [
         "BBDC4",
         "HGLG11",
@@ -30,8 +30,8 @@
         "ITUB4",
         "PRIO3"
       ],
-      "open_triggers": 29,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "open_triggers": 45,
+      "last_mention_iso": "2026-05-06T23:40:23",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -63,16 +63,16 @@
       ],
       "score": 97,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 227,
+      "weeks_tracked": 2,
+      "mentions_recent": 262,
       "holdings_hit": [
         "BBAS3",
         "BBDC4",
         "ITUB4",
         "VALE3"
       ],
-      "open_triggers": 6,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "open_triggers": 10,
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -80,11 +80,11 @@
         "trigger": 10
       },
       "evidence_files": [
+        "CONSTITUTION.md",
+        "dossiers\\XPML11.md",
         "tickers\\XP_DOSSIE.md",
         "tickers\\XPML11_DOSSIE.md",
-        "tickers\\XPLG11_DOSSIE.md",
-        "tickers\\V_DOSSIE.md",
-        "tickers\\VRTA11_DOSSIE.md"
+        "tickers\\XPLG11_DOSSIE.md"
       ]
     },
     {
@@ -105,16 +105,16 @@
       ],
       "score": 97,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 644,
+      "weeks_tracked": 2,
+      "mentions_recent": 852,
       "holdings_hit": [
         "BBDC4",
         "ITSA4",
         "ITUB4",
         "VALE3"
       ],
-      "open_triggers": 15,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "open_triggers": 23,
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -122,11 +122,11 @@
         "trigger": 10
       },
       "evidence_files": [
-        "Bibliotheca\\Research_Digest_2026-04-30.md",
+        "CONSTITUTION.md",
+        "Bibliotheca\\Research_Digest_2026-05-06.md",
         "tickers\\XP_DOSSIE.md",
         "tickers\\XPML11_DOSSIE.md",
-        "tickers\\XPLG11_DOSSIE.md",
-        "tickers\\V_DOSSIE.md"
+        "tickers\\XPLG11_DOSSIE.md"
       ]
     },
     {
@@ -148,8 +148,8 @@
       ],
       "score": 92,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 40,
+      "weeks_tracked": 2,
+      "mentions_recent": 69,
       "holdings_hit": [
         "ACN",
         "GS",
@@ -159,7 +159,7 @@
         "PG"
       ],
       "open_triggers": 1,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-06T23:40:23",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -171,7 +171,7 @@
         "tickers\\O_DOSSIE.md",
         "tickers\\JPM_DOSSIE.md",
         "Glossary\\Basel_Ratio.md",
-        "wiki\\Index.md"
+        "dossiers\\AAPL_COUNCIL.md"
       ]
     },
     {
@@ -193,17 +193,18 @@
       ],
       "score": 92,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 351,
+      "weeks_tracked": 2,
+      "mentions_recent": 456,
       "holdings_hit": [
         "JNJ",
         "KO",
         "MCD",
+        "MMM",
         "PEP",
         "PG"
       ],
       "open_triggers": 1,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -211,11 +212,11 @@
         "trigger": 2
       },
       "evidence_files": [
+        "CONSTITUTION.md",
         "Bibliotheca\\Knowledge\\_Index.md",
         "tickers\\XPLG11_DOSSIE.md",
         "tickers\\VALE3_DOSSIE.md",
-        "tickers\\TFC_DOSSIE.md",
-        "tickers\\RBRX11_DOSSIE.md"
+        "tickers\\TFC_DOSSIE.md"
       ]
     },
     {
@@ -237,7 +238,7 @@
       "score": 90,
       "tier": "make_now",
       "weeks_tracked": 1,
-      "mentions_recent": 71,
+      "mentions_recent": 99,
       "holdings_hit": [
         "BAC",
         "C",
@@ -246,7 +247,7 @@
         "WFC"
       ],
       "open_triggers": 0,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -254,11 +255,11 @@
         "trigger": 0
       },
       "evidence_files": [
+        "CONSTITUTION.md",
         "tickers\\SANB11_DOSSIE.md",
         "tickers\\MCD_DOSSIE.md",
         "tickers\\JPM_DOSSIE.md",
-        "tickers\\ITUB4_DOSSIE.md",
-        "tickers\\HGLG11_DOSSIE.md"
+        "tickers\\ITUB4_DOSSIE.md"
       ]
     },
     {
@@ -276,12 +277,12 @@
       "score": 88,
       "tier": "make_now",
       "weeks_tracked": 1,
-      "mentions_recent": 24,
+      "mentions_recent": 31,
       "holdings_hit": [
         "TEN"
       ],
-      "open_triggers": 14,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "open_triggers": 22,
+      "last_mention_iso": "2026-05-06T23:40:23",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -290,10 +291,10 @@
       },
       "evidence_files": [
         "tickers\\TEN_DOSSIE.md",
-        "Bibliotheca\\Research_Digest_2026-04-28.md",
-        "wiki\\Index.md",
-        "Clippings\\Atualiza\u00e7\u00e3o de Tese e Valuation \u2013 Kepler Weber (KEPL3).md",
-        "tickers\\TEN.md"
+        "dossiers\\archive\\TEN_STORY_2026-05-01.md",
+        "dossiers\\TEN_STORY.md",
+        "dossiers\\TEN_COUNCIL.md",
+        "agents\\Pedro Aloca\u00e7\u00e3o\\reviews\\TEN_2026-05-01.md"
       ]
     },
     {
@@ -313,8 +314,8 @@
       ],
       "score": 87,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 137,
+      "weeks_tracked": 2,
+      "mentions_recent": 178,
       "holdings_hit": [
         "HGLG11",
         "KNRI11",
@@ -322,7 +323,7 @@
         "RBRX11"
       ],
       "open_triggers": 0,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -330,11 +331,11 @@
         "trigger": 0
       },
       "evidence_files": [
+        "CONSTITUTION.md",
         "Bibliotheca\\Knowledge\\_Index.md",
         "tickers\\XPML11_DOSSIE.md",
         "tickers\\XPLG11_DOSSIE.md",
-        "tickers\\VRTA11_DOSSIE.md",
-        "tickers\\VISC11_DOSSIE.md"
+        "tickers\\VRTA11_DOSSIE.md"
       ]
     },
     {
@@ -354,8 +355,8 @@
       ],
       "score": 87,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 95,
+      "weeks_tracked": 2,
+      "mentions_recent": 112,
       "holdings_hit": [
         "ACN",
         "META",
@@ -363,7 +364,7 @@
         "NVDA"
       ],
       "open_triggers": 0,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -371,11 +372,11 @@
         "trigger": 0
       },
       "evidence_files": [
+        "CONSTITUTION.md",
+        "Bibliotheca\\Tier_Clarification_Proposal.md",
+        "dossiers\\XPML11.md",
         "tickers\\XPLG11_DOSSIE.md",
-        "tickers\\TSM_DOSSIE.md",
-        "tickers\\TEN_DOSSIE.md",
-        "tickers\\RENT3_DOSSIE.md",
-        "tickers\\PLD_DOSSIE.md"
+        "tickers\\TSM_DOSSIE.md"
       ]
     },
     {
@@ -392,13 +393,13 @@
       ],
       "score": 78,
       "tier": "make_now",
-      "weeks_tracked": 1,
-      "mentions_recent": 40,
+      "weeks_tracked": 2,
+      "mentions_recent": 41,
       "holdings_hit": [
         "GREK"
       ],
       "open_triggers": 0,
-      "last_mention_iso": "2026-04-30T01:25:38",
+      "last_mention_iso": "2026-05-08T11:15:26",
       "components": {
         "freshness": 40,
         "frequency": 35,
@@ -406,11 +407,11 @@
         "trigger": 0
       },
       "evidence_files": [
+        "CONSTITUTION.md",
         "tickers\\GREK_DOSSIE.md",
         "Glossary\\Moat.md",
         "Glossary\\Margin_of_Safety.md",
-        "Glossary\\Aristocrat.md",
-        "Glossary\\NPL.md"
+        "Glossary\\Aristocrat.md"
       ]
     }
   ]
