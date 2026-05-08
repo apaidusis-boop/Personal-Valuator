@@ -21,7 +21,9 @@ Logs: logs/fetchers_fallback.log — JSON per attempt.
 """
 from __future__ import annotations
 
+import hashlib
 import json
+import sqlite3
 import time
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timezone
@@ -43,6 +45,8 @@ from fetchers._errors import (
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "sources_priority.yaml"
 LOG_PATH = ROOT / "logs" / "fetchers_fallback.log"
+DB_BR = ROOT / "data" / "br_investments.db"
+DB_US = ROOT / "data" / "us_investments.db"
 
 
 # ============================================================
@@ -123,6 +127,42 @@ def _log(event: dict) -> None:
     line = json.dumps({"ts": _now_iso(), **event}, ensure_ascii=False, default=str)
     with LOG_PATH.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
+
+
+def _record_provenance(result: "FetchResult") -> None:
+    """Phase FF Bloco 3.1 — append a provenance row per successful FetchResult.
+
+    Best-effort: DB write failures are logged but never break the fetch caller.
+    Skips CRITICAL (no value to attest). Hash is sha1 over canonical JSON of
+    the value so duplicate fetches collapse on the hash without comparing dicts.
+    """
+    if not result.success or result.value is None:
+        return
+    db_path = DB_BR if result.market == "br" else DB_US if result.market == "us" else None
+    if db_path is None:
+        return
+    try:
+        payload = json.dumps(result.value, sort_keys=True, default=str, ensure_ascii=False)
+        value_hash = hashlib.sha1(payload.encode("utf-8")).hexdigest()
+    except Exception:
+        value_hash = None
+    try:
+        with sqlite3.connect(db_path, timeout=5.0) as conn:
+            conn.execute(
+                "INSERT INTO provenance "
+                "(fetched_at, market, kind, ticker, source, quality, age_hours, value_hash, message) "
+                "VALUES (?,?,?,?,?,?,?,?,?)",
+                (_now_iso(), result.market, result.kind, result.ticker,
+                 result.source, result.quality, result.age_hours,
+                 value_hash, (result.message or "")[:500]),
+            )
+            conn.commit()
+    except sqlite3.OperationalError as e:
+        _log({"market": result.market, "kind": result.kind, "ticker": result.ticker,
+              "status": "provenance_write_fail", "error": str(e)[:200]})
+    except Exception as e:  # noqa: BLE001
+        _log({"market": result.market, "kind": result.kind, "ticker": result.ticker,
+              "status": "provenance_write_fail", "error": str(e)[:200]})
 
 
 def load_config() -> dict:
@@ -452,13 +492,15 @@ def fetch_with_quality(
                           "source": src, "status": "cache_write_fail",
                           "error": str(e)[:200]})
             quality = "OK" if idx == 0 else "WARNING"
-            return FetchResult(
+            result = FetchResult(
                 success=True, value=value,
                 market=market, kind=kind, ticker=ticker,
                 source=src, quality=quality, age_hours=0.0,
                 message="" if quality == "OK" else f"Primary {src_list[0]} failed; using {src}",
                 errors=errors,
             )
+            _record_provenance(result)
+            return result
         except Exception as e:  # noqa: BLE001
             _log({"market": market, "kind": kind, "ticker": ticker,
                   "source": src, "status": "fail",
@@ -473,7 +515,7 @@ def fetch_with_quality(
             _log({"market": market, "kind": kind, "ticker": ticker,
                   "source": f"cache:{fresh['source']}", "status": "cache_fresh",
                   "age_hours": round(fresh["age_hours"], 2)})
-            return FetchResult(
+            result = FetchResult(
                 success=True, value=fresh["value"],
                 market=market, kind=kind, ticker=ticker,
                 source=f"cache:{fresh['source']}", quality="DEGRADED",
@@ -481,12 +523,14 @@ def fetch_with_quality(
                 message=f"All live sources failed; cache fresh ({fresh['age_hours']:.1f}h old)",
                 errors=errors,
             )
+            _record_provenance(result)
+            return result
         stale = _cache.get_stale(market, kind, ticker)
         if stale:
             _log({"market": market, "kind": kind, "ticker": ticker,
                   "source": f"cache:{stale['source']}", "status": "cache_stale",
                   "age_hours": round(stale["age_hours"], 2)})
-            return FetchResult(
+            result = FetchResult(
                 success=True, value=stale["value"],
                 market=market, kind=kind, ticker=ticker,
                 source=f"cache:{stale['source']}", quality="DEGRADED",
@@ -494,6 +538,8 @@ def fetch_with_quality(
                 message=f"All live sources failed; stale cache ({stale['age_hours']:.1f}h old)",
                 errors=errors,
             )
+            _record_provenance(result)
+            return result
 
     # Truly nothing worked
     return FetchResult(
