@@ -59,7 +59,9 @@ CREATE TABLE IF NOT EXISTS bank_quarterly_history (
     other_op_income         REAL,                     -- 3.04.06
     other_op_expenses       REAL,                     -- 3.04.07
     pretax_income           REAL,                     -- 3.05
-    net_income              REAL,                     -- 3.07 or 3.09
+    net_income              REAL,                     -- 3.07 or 3.09 (consolidated total)
+    net_income_attributable REAL,                     -- 3.11.01 (atribuível aos controladores)
+    net_income_minorities   REAL,                     -- 3.11.02 (atribuível aos não-controladores)
     -- BP relevantes
     total_assets            REAL,
     equity                  REAL,
@@ -97,6 +99,9 @@ MIGRATION_COLUMNS = [
     ("rwa",               "REAL"),
     ("basel_ratio",       "REAL"),
     ("npl_ratio",         "REAL"),
+    # Phase LL Sprint 1.1.x — split consolidated NI into controladora vs minoritários
+    ("net_income_attributable", "REAL"),
+    ("net_income_minorities",   "REAL"),
 ]
 
 # BS lookups (ds_conta-based — bancos usam cd_conta diferentes mas descrição uniforme)
@@ -143,6 +148,25 @@ BANK_DRE_ACCOUNTS_BY_DESC = {
                              "lucro ou prejuízo das operações continuadas",
                              "lucro líquido do período",
                              "resultado líquido das operações continuadas"],
+    # 3.11.01 — what flows into EPS calc (excludes minorities)
+    "net_income_attributable": ["atribuído aos sócios da empresa controladora",   # BBDC4 actual
+                                "atribuível aos sócios da empresa controladora",
+                                "atribuído a sócios da empresa controladora",
+                                "atribuível a sócios da empresa controladora",
+                                "atribuível aos acionistas controladores",
+                                "atribuível ao acionista controlador",
+                                "atribuível à controladora",
+                                "atribuído à controladora",
+                                "atribuído à empresa controladora",
+                                "atribuível à empresa controladora"],
+    # 3.11.02 — minorities (informational, validates that total = attrib + minorities)
+    "net_income_minorities":   ["atribuído aos sócios não controladores",
+                                "atribuível aos sócios não controladores",
+                                "atribuído a sócios não controladores",
+                                "atribuível a sócios não controladores",
+                                "atribuível aos não controladores",
+                                "participação dos não controladores",
+                                "participação não controladora"],
 }
 
 BPA_ACCOUNTS = {

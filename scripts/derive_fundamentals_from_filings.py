@@ -68,6 +68,20 @@ except (AttributeError, ValueError):
 DB_BR = ROOT / "data" / "br_investments.db"
 DB_US = ROOT / "data" / "us_investments.db"
 
+# BR dual-class share pairs. yfinance.shares_outstanding for ticker BBDC4
+# reports PN-only (~5.28B); but net_income from filings covers ON+PN
+# combined. Dividing total NI by PN-only doubles the EPS. For these tickers,
+# we look up the partner class and sum.
+# Format: ticker -> partner_ticker (must exist in companies). Bidirectional.
+BR_DUAL_CLASS = {
+    "BBDC4": "BBDC3", "BBDC3": "BBDC4",
+    "ITUB4": "ITUB3", "ITUB3": "ITUB4",
+    "ITSA4": "ITSA3", "ITSA3": "ITSA4",
+    "PETR4": "PETR3", "PETR3": "PETR4",
+    "BBAS4": "BBAS3", "BBAS3": "BBAS4",  # Banco do Brasil rare PN
+    "BRAP4": "BRAP3", "BRAP3": "BRAP4",  # Bradespar
+}
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS fundamentals_from_filings (
     ticker              TEXT NOT NULL,
@@ -121,6 +135,54 @@ def _shares_from_yf(c: sqlite3.Connection, ticker: str) -> float | None:
         (ticker,),
     ).fetchone()
     return r[0] if r and r[0] else None
+
+
+# In-memory cache for partner-ticker share counts (cleared per process)
+_PARTNER_SHARES_CACHE: dict[str, float | None] = {}
+
+
+def _fetch_partner_shares_live(partner_ticker: str) -> float | None:
+    """Fetch shares_outstanding for a partner ticker not in our DB. Used for
+    BBDC3/ITUB3/ITSA3 etc. that we don't track but need for total share count.
+    """
+    if partner_ticker in _PARTNER_SHARES_CACHE:
+        return _PARTNER_SHARES_CACHE[partner_ticker]
+    try:
+        import yfinance as yf
+        t = yf.Ticker(f"{partner_ticker}.SA")
+        info = t.info
+        shares = info.get("sharesOutstanding") or info.get("impliedSharesOutstanding")
+        _PARTNER_SHARES_CACHE[partner_ticker] = shares
+        return shares
+    except Exception:
+        _PARTNER_SHARES_CACHE[partner_ticker] = None
+        return None
+
+
+def _total_shares_dual_class(c: sqlite3.Connection, ticker: str) -> tuple[float | None, str]:
+    """For dual-class BR tickers, sum ON + PN share counts so per-share
+    metrics match the consolidated filings NI denominator.
+
+    Lookup chain for partner shares:
+      1. fundamentals table (if we track partner ticker)
+      2. yfinance live (cached)
+
+    Returns (total_shares, basis) where basis explains the path taken.
+    """
+    own = _shares_from_yf(c, ticker)
+    partner = BR_DUAL_CLASS.get(ticker)
+    if partner is None:
+        return own, "single_class"
+    # 1. DB lookup
+    partner_shares = _shares_from_yf(c, partner)
+    basis = "dual_sum_db"
+    # 2. Live fallback for partners not tracked
+    if partner_shares is None:
+        partner_shares = _fetch_partner_shares_live(partner)
+        basis = "dual_sum_live"
+    if own and partner_shares:
+        return own + partner_shares, basis
+    return own, "pn_only_partner_unavailable"
 
 
 def _is_bank(c: sqlite3.Connection, ticker: str) -> bool:
@@ -256,7 +318,7 @@ def derive_br_nonbank(c: sqlite3.Connection, ticker: str,
     latest_ca = latest[6]
     latest_cl = latest[7]
 
-    shares = _shares_from_yf(c, ticker)
+    shares, shares_basis = _total_shares_dual_class(c, ticker)
     eps_ttm = (ni_ttm * 1000.0 / shares) if (ni_ttm and shares) else None
     bvps = (latest_equity * 1000.0 / shares) if (latest_equity and shares) else None
     roe_ttm = (ni_ttm / avg_equity) if (ni_ttm and avg_equity) else None
@@ -304,12 +366,17 @@ def derive_br_bank(c: sqlite3.Connection, ticker: str,
     Pulls 8 rows so we can resolve the latest 4 even if Q4 needs the
     prior Q3 (and Q3 needs prior Q2, etc.).
     """
-    flow_cols = (1, 4)  # net_income, nii — both YTD; rest are stock or ratios
+    flow_cols = (1, 4)  # net_income (attributable preferred), nii — both YTD
+    # Prefer net_income_attributable (3.11.01 — controladora, exclui minoritários);
+    # fall back to total net_income via COALESCE if attribuível column NULL
+    # (older parser runs before Sprint 1.1.x).
     if period_end:
         raw = c.execute(
-            """SELECT period_end, net_income, equity, total_assets, nii,
+            """SELECT period_end,
+                      COALESCE(net_income_attributable, net_income),
+                      equity, total_assets, nii,
                       cet1_ratio, npl_ratio, cost_to_income_ratio, loan_book,
-                      pdd_reserve
+                      pdd_reserve, net_income_attributable, net_income
                FROM bank_quarterly_history
                WHERE ticker=? AND period_end <= ? AND source != 'bacen_ifdata'
                ORDER BY period_end DESC LIMIT 8""",
@@ -317,9 +384,11 @@ def derive_br_bank(c: sqlite3.Connection, ticker: str,
         ).fetchall()
     else:
         raw = c.execute(
-            """SELECT period_end, net_income, equity, total_assets, nii,
+            """SELECT period_end,
+                      COALESCE(net_income_attributable, net_income),
+                      equity, total_assets, nii,
                       cet1_ratio, npl_ratio, cost_to_income_ratio, loan_book,
-                      pdd_reserve
+                      pdd_reserve, net_income_attributable, net_income
                FROM bank_quarterly_history WHERE ticker=?
                  AND source != 'bacen_ifdata'
                ORDER BY period_end DESC LIMIT 8""",
@@ -342,7 +411,7 @@ def derive_br_bank(c: sqlite3.Connection, ticker: str,
     latest_npl = latest[6]
     latest_c2i = latest[7]
 
-    shares = _shares_from_yf(c, ticker)
+    shares, shares_basis = _total_shares_dual_class(c, ticker)
     eps_ttm = (ni_ttm * 1000.0 / shares) if (ni_ttm and shares) else None
     bvps = (latest_equity * 1000.0 / shares) if (latest_equity and shares) else None
     roe_ttm = (ni_ttm / avg_equity) if (ni_ttm and avg_equity) else None
