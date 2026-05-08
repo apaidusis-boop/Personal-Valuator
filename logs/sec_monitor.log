@@ -373,3 +373,21 @@
 {"ts": "2026-05-06T20:39:05Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 0}
 {"ts": "2026-05-06T20:39:06Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 3, "inserted": 0}
 {"ts": "2026-05-06T20:39:06Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 3}
+{"ts": "2026-05-08T09:29:05Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T09:29:05Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T09:29:08Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:09Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:12Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:12Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T09:29:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 2}
+{"ts": "2026-05-08T09:29:17Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 2}
+{"ts": "2026-05-08T09:29:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 7}
+{"ts": "2026-05-08T09:47:36Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T09:47:36Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T09:47:38Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:39Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:42Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:42Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T09:47:45Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T09:47:46Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T09:47:47Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}

@@ -242,3 +242,5 @@
 {"ts": "2026-05-07T20:32:09Z", "event": "cvm_ticker_done", "ticker": "RENT3", "matches": 14, "inserted": 0}
 {"ts": "2026-05-07T20:32:09Z", "event": "cvm_ticker_done", "ticker": "SUZB3", "matches": 11, "inserted": 0}
 {"ts": "2026-05-07T20:32:09Z", "event": "cvm_all_done", "year": 2026, "tickers": 23, "total_inserted": 0}
+{"ts": "2026-05-08T09:29:19Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+{"ts": "2026-05-08T09:47:48Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
