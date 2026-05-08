@@ -74,6 +74,11 @@ echo [BENCHMARKS] refresh_benchmarks.py  ^(Phase FF: SPY/BOVA11/sector ETFs^) >>
 echo BENCHMARKS exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
+echo [CROSS-SOURCE] cross_source_spotcheck.py  ^(Phase FF Bloco 3.3: yfinance SPOF mitigation^) >> "%LOG%"
+"%PY%" scripts\cross_source_spotcheck.py --quiet >> "%LOG%" 2>&1
+echo CROSS-SOURCE exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
 echo [VH-RECORD] verdict_history record  ^(Phase FF: snapshot today's verdicts, idempotent per ticker+date^) >> "%LOG%"
 "%PY%" scripts\verdict_history.py record >> "%LOG%" 2>&1
 echo VH-RECORD exit code: %errorlevel% >> "%LOG%"
