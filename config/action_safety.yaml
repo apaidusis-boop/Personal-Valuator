@@ -1,0 +1,117 @@
+# config/action_safety.yaml — Phase FF Bloco 3.2 PROPOSAL (2026-05-08)
+#
+# Formaliza o que cada autonomy_tier (T1..T5) significa do ponto de vista de
+# blast radius e gating. Substituí a nomenclatura "Observer/Proposer/...
+# Autonomous" por uma taxonomia explícita que descreve **o que o perpetuum
+# pode fazer ao mundo**:
+#
+#   OBSERVE         — só lê + escreve relatórios. Nunca propõe acção concreta.
+#   PROPOSE         — escreve action rows em `actions` table com status='open'.
+#                     Humano aprova via `scripts/action_cli.py` ou MC UI.
+#   EXECUTE_WHITELIST — corre acções automaticamente, mas só de uma whitelist
+#                       fechada (por kind ou cmd) configurada aqui. Idempotente.
+#   EXECUTE_BROAD   — corre acções automaticamente em qualquer whitelist OU
+#                     deriva o cmd da action_hint do perpetuum. Reversível.
+#   AUTONOMOUS      — sem gate. Para perpetuums internos triviais (cleanup
+#                     temp files, log rotation, etc.).
+#
+# **Esta proposta NÃO toca nos 16 perpetuums actuais hoje.** É desenho.
+# Implementação requer:
+#   1) BasePerpetuum.action_safety() → derivar do tier
+#   2) _actions.py::can_auto_execute(action) → consultar este yaml
+#   3) Migração ticker-by-ticker dos 16 perpetuums (mantém retro-compat).
+#
+# Decision: pede user review antes de implementar (CLAUDE.md regra anti-blast).
+
+tier_semantics:
+  T1: OBSERVE
+  T2: PROPOSE
+  T3: EXECUTE_WHITELIST
+  T4: EXECUTE_BROAD
+  T5: AUTONOMOUS
+
+# Gates por tier — o que cada tier é autorizado a fazer.
+gates:
+  OBSERVE:
+    can_write_reports: true
+    can_write_actions: false
+    can_execute: false
+    requires_approval: n/a
+  PROPOSE:
+    can_write_reports: true
+    can_write_actions: true       # status='open', humano aprova
+    can_execute: false
+    requires_approval: human
+  EXECUTE_WHITELIST:
+    can_write_reports: true
+    can_write_actions: true
+    can_execute: true             # apenas kinds/cmds em whitelist abaixo
+    requires_approval: schema_match
+    whitelist_required: true
+  EXECUTE_BROAD:
+    can_write_reports: true
+    can_write_actions: true
+    can_execute: true             # qualquer cmd derivável da action_hint
+    requires_approval: cmd_validation
+    must_be_reversible: true
+  AUTONOMOUS:
+    can_write_reports: true
+    can_write_actions: true
+    can_execute: true
+    requires_approval: none
+    must_be_internal: true        # NUNCA externa: só housekeeping interno
+
+# Whitelist global (T3 EXECUTE_WHITELIST). Cada entry: kind → cmd template.
+# Templates usam {ticker}, {market}, {field} etc; substituídos pela action row.
+execute_whitelist:
+  data_coverage_refetch:
+    cmd: ".venv/Scripts/python.exe -m fetchers._fallback {market} {kind} {ticker} --quality"
+    side_effects: ["network_call", "db_write_provenance", "cache_write"]
+    cost_estimate_seconds: 5
+  bibliotheca_autofix:
+    cmd: ".venv/Scripts/python.exe scripts/bibliotheca_autofix.py --apply"
+    side_effects: ["db_write_companies"]
+    cost_estimate_seconds: 30
+    idempotent: true
+  vault_health_clean_orphan:
+    cmd: ".venv/Scripts/python.exe scripts/vault_clean_video_names.py --apply"
+    side_effects: ["filesystem_rename"]
+    cost_estimate_seconds: 10
+    reversible: true
+  ri_freshness_refetch_quarter:
+    cmd: ".venv/Scripts/python.exe -m library.ri.cvm_parser build --ticker {ticker}"
+    side_effects: ["db_write_quarterly_history"]
+    cost_estimate_seconds: 60
+
+# Mapeamento current → proposed (snapshot 2026-05-08, NÃO aplicar até user review).
+current_state:
+  observers_t1:    # 10 perpetuums
+    - autoresearch
+    - bibliotheca
+    - code_health
+    - daily_delight
+    - dreaming
+    - library_signals
+    - meta
+    - method_discovery
+    - security_audit
+    - thesis
+  proposers_t2:    # 5 perpetuums (T1+ proposer já em produção)
+    - content_quality       # promoted 2026-04-26
+    - data_coverage         # promoted 2026-04-24
+    - ri_freshness          # promoted Y.8.5
+    - token_economy         # promoted 2026-04-26
+    - vault_health          # promoted 2026-04-24
+
+# Migration plan (DRAFT — reqs user OK):
+# Phase 3.2.1  Add BasePerpetuum.action_safety() reading this yaml.
+#              No behavior change yet — only metadata exposed.
+# Phase 3.2.2  Patch agents/perpetuum/_actions.py::run_action() to consult
+#              gates[tier_semantics[tier]] and refuse exec if not authorized.
+# Phase 3.2.3  Promote candidates to T3 (EXECUTE_WHITELIST):
+#                - bibliotheca (autofix has been clean; idempotent)
+#                - data_coverage (refetch hint already structured)
+#              These would auto-run the whitelisted cmd above instead of
+#              parking actions for human approval.
+# Phase 3.2.4  T4/T5 deferred — no candidates today. T5 reserved for housekeeping
+#              perpetuums (log rotation, cache eviction) that don't exist yet.
