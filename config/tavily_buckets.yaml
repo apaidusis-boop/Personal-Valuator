@@ -1,0 +1,30 @@
+# Tavily quota bucket allocation (Phase HH-AOW)
+#
+# Daily cap is 100 (matches autoresearch.DAILY_LIMIT). The buckets below split
+# the budget so reactive events have reserved headroom even when perpetuums
+# burn through the autoresearch budget.
+#
+# Caller passes bucket name; helper checks if (sum_of_bucket_calls_today +
+# requested) <= bucket_cap. If yes, allows. Per-bucket counters live in
+# data/health/tavily_buckets.json (separate from global _ratelimit.json which
+# autoresearch maintains).
+#
+# Buckets without enforcement: still ok to call autoresearch.search() directly;
+# it just hits the 100/day global ceiling.
+
+buckets:
+  hourly_autoresearch:
+    daily_cap: 30
+    description: "Perpetuum top-30 conviction with 6d cooldown (existing behaviour)"
+  daily_wires:
+    daily_cap: 30
+    description: "variant_perception batch + earnings_prep + IC enrichment (daily tier)"
+  reactive:
+    daily_cap: 25
+    description: "Event-driven: 8-K react, fato_relevante react, paper_trade signal (Phase JJ-AOW)"
+  manual:
+    daily_cap: 15
+    description: "User-invoked: ii panorama, slash commands, ad-hoc"
+
+# Total = 100 (matches autoresearch.DAILY_LIMIT). Enforcement is opt-in:
+# callers query agents._health.tavily_bucket_check(bucket) before calling.

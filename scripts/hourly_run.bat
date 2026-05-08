@@ -25,6 +25,13 @@ if errorlevel 1 (
     goto :end
 )
 
+REM Health-first: skip tier if required services down (Phase HH-AOW)
+"%PY%" -m agents._health check --required ollama yfinance >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo Health check failed - required service down, aborting hourly tier >> "%LOG%"
+    goto :end
+)
+
 echo. >> "%LOG%"
 echo [SEC] sec_monitor.py --lookback-days 1 >> "%LOG%"
 "%PY%" monitors\sec_monitor.py --lookback-days 1 >> "%LOG%" 2>&1
@@ -34,6 +41,11 @@ echo. >> "%LOG%"
 echo [CVM] cvm_monitor.py >> "%LOG%"
 "%PY%" monitors\cvm_monitor.py >> "%LOG%" 2>&1
 echo CVM exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) >> "%LOG%"
+"%PY%" fetchers\news_fetch.py --classify >> "%LOG%" 2>&1
+echo NEWS exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
 echo [NOTIFY] notify_events.py --hours 4 >> "%LOG%"

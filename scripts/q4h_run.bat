@@ -26,6 +26,13 @@ if errorlevel 1 (
     goto :end
 )
 
+REM Health-first: skip tier if required services down (Phase HH-AOW)
+"%PY%" -m agents._health check --required ollama yfinance >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo Health check failed - required service down, aborting q4h tier >> "%LOG%"
+    goto :end
+)
+
 echo. >> "%LOG%"
 echo [CVM-PDF] cvm_pdf_extractor.py --limit 20 >> "%LOG%"
 "%PY%" monitors\cvm_pdf_extractor.py --limit 20 >> "%LOG%" 2>&1
