@@ -17,6 +17,8 @@ import {
   Users,
   Settings,
   User,
+  Activity,
+  ListChecks,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -63,6 +65,13 @@ const SECTIONS: NavSection[] = [
       { icon: FileText, label: "Filings (CVM/SEC)", href: "/filings" },
       { icon: Newspaper, label: "Calendário", href: "/events" },
       { icon: Users, label: "Council", href: "/council" },
+    ],
+  },
+  {
+    label: "PHASE FF",
+    items: [
+      { icon: Activity, label: "Calibration", href: "/calibration" },
+      { icon: ListChecks, label: "Decisions", href: "/decisions" },
     ],
   },
   {

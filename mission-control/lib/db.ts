@@ -407,6 +407,192 @@ export function recentVerdictDeltas(days = 7): VerdictDelta[] {
 // ============================================================
 // Strategy runs (output of strategies/* engines, persisted by overnight backfill)
 // ============================================================
+// ============================================================
+// Phase FF — Decision quality / calibration data
+// ============================================================
+export type CalibrationBin = {
+  bin_label: string;          // e.g. "60-80%"
+  n: number;
+  hit_rate_pct: number | null;
+  median_return_pct: number | null;
+  median_vs_bench_pct: number | null;
+};
+
+export type EngineHitRate = {
+  engine: string;             // quality | valuation | momentum | narrative
+  verdict: string;            // BUY | HOLD | AVOID
+  n: number;
+  hits: number;
+  hit_rate_pct: number;
+};
+
+export type CalibrationSummary = {
+  market: "br" | "us";
+  n_total: number;
+  n_closed: number;           // outcome populated
+  calibration: CalibrationBin[];
+  engine_attribution: EngineHitRate[];
+};
+
+export function getCalibrationData(market: "br" | "us"): CalibrationSummary {
+  const file = market === "us" ? DB_US : DB_BR;
+  const summary: CalibrationSummary = {
+    market,
+    n_total: 0,
+    n_closed: 0,
+    calibration: [],
+    engine_attribution: [],
+  };
+  try {
+    const db = openRO(file);
+    const total = db.prepare(`SELECT COUNT(*) AS n FROM verdict_history`).get() as any;
+    summary.n_total = total?.n || 0;
+    const closed = db
+      .prepare(`SELECT COUNT(*) AS n FROM verdict_history WHERE outcome_return IS NOT NULL`)
+      .get() as any;
+    summary.n_closed = closed?.n || 0;
+
+    // Calibration curve — bin by confidence_pct in 20pt buckets
+    const bins = [
+      { lo: 0, hi: 20 },
+      { lo: 20, hi: 40 },
+      { lo: 40, hi: 60 },
+      { lo: 60, hi: 80 },
+      { lo: 80, hi: 101 },
+    ];
+    for (const b of bins) {
+      const row = db
+        .prepare(
+          `SELECT
+              COUNT(*) AS n,
+              AVG(CASE WHEN accuracy = 1 THEN 100.0 WHEN accuracy = 0 THEN 0.0 ELSE NULL END) AS hit_rate,
+              AVG(outcome_return) AS med_ret,
+              AVG(return_vs_benchmark) AS med_vs_bench
+           FROM verdict_history
+           WHERE confidence_pct >= ? AND confidence_pct < ?
+             AND outcome_return IS NOT NULL`
+        )
+        .get(b.lo, b.hi) as any;
+      summary.calibration.push({
+        bin_label: `${b.lo}-${b.hi === 101 ? 100 : b.hi}%`,
+        n: row?.n || 0,
+        hit_rate_pct: row?.hit_rate ?? null,
+        median_return_pct: row?.med_ret ?? null,
+        median_vs_bench_pct: row?.med_vs_bench ?? null,
+      });
+    }
+
+    // Engine attribution — per-engine per-verdict hit rate
+    try {
+      const eng = db
+        .prepare(
+          `SELECT
+              veb.engine,
+              veb.verdict,
+              COUNT(*) AS n,
+              SUM(CASE
+                    WHEN veb.verdict = 'BUY'   AND vh.outcome_return > 0  THEN 1
+                    WHEN veb.verdict = 'AVOID' AND vh.outcome_return < 0  THEN 1
+                    WHEN veb.verdict = 'HOLD'  AND ABS(vh.outcome_return) < 5.0 THEN 1
+                    ELSE 0
+                 END) AS hits
+           FROM verdict_engine_breakdown veb
+           JOIN verdict_history vh
+             ON vh.ticker = veb.ticker AND vh.date = veb.date
+           WHERE vh.outcome_return IS NOT NULL
+           GROUP BY veb.engine, veb.verdict
+           ORDER BY veb.engine, veb.verdict`
+        )
+        .all() as any[];
+      for (const r of eng) {
+        const n = r.n || 0;
+        summary.engine_attribution.push({
+          engine: r.engine,
+          verdict: r.verdict,
+          n,
+          hits: r.hits || 0,
+          hit_rate_pct: n > 0 ? Math.round((r.hits / n) * 1000) / 10 : 0,
+        });
+      }
+    } catch {
+      /* table missing */
+    }
+
+    db.close();
+  } catch {
+    /* DB missing — return empty summary */
+  }
+  return summary;
+}
+
+export type VerdictRow = {
+  market: "br" | "us";
+  ticker: string;
+  date: string;
+  action: string;
+  total_score: number | null;
+  confidence_pct: number | null;
+  outcome_return_pct: number | null;
+  return_vs_benchmark_pct: number | null;
+  accuracy: number | null;        // 1 hit, 0 miss, null pending
+  benchmark_symbol: string | null;
+};
+
+export function listVerdicts(opts: {
+  market?: "br" | "us";
+  closed?: boolean;
+  limit?: number;
+} = {}): VerdictRow[] {
+  const out: VerdictRow[] = [];
+  const markets = opts.market ? [opts.market] : (["br", "us"] as const);
+  const lim = opts.limit ?? 200;
+  for (const m of markets) {
+    const file = m === "us" ? DB_US : DB_BR;
+    try {
+      const db = openRO(file);
+      const where = opts.closed === true
+        ? `WHERE outcome_return IS NOT NULL`
+        : opts.closed === false
+        ? `WHERE outcome_return IS NULL`
+        : ``;
+      const rows = db
+        .prepare(
+          `SELECT ticker, date, action, total_score, confidence_pct,
+                  outcome_return, return_vs_benchmark, accuracy, benchmark_symbol
+           FROM verdict_history
+           ${where}
+           ORDER BY date DESC, ticker
+           LIMIT ?`
+        )
+        .all(lim) as any[];
+      for (const r of rows) {
+        out.push({
+          market: m as "br" | "us",
+          ticker: r.ticker,
+          date: r.date,
+          action: r.action,
+          total_score: r.total_score ?? null,
+          confidence_pct: r.confidence_pct ?? null,
+          outcome_return_pct:
+            r.outcome_return !== null && r.outcome_return !== undefined
+              ? r.outcome_return    // already stored as percentage (5.0 = 5%)
+              : null,
+          return_vs_benchmark_pct:
+            r.return_vs_benchmark !== null && r.return_vs_benchmark !== undefined
+              ? r.return_vs_benchmark
+              : null,
+          accuracy: r.accuracy ?? null,
+          benchmark_symbol: r.benchmark_symbol ?? null,
+        });
+      }
+      db.close();
+    } catch {
+      /* skip */
+    }
+  }
+  return out;
+}
+
 export type StrategyRun = {
   market: "br" | "us";
   ticker: string;
