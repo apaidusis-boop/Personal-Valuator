@@ -81,11 +81,23 @@ def extract_insights(
     text: str,
     ticker_universe: list[str] | None = None,
     model: str = OLLAMA_MODEL,
+    use_claude_pdf: bool = False,
 ) -> dict:
     """Chama Ollama para extrair insights estruturados.
 
     Devolve dict com schema acima. Em erro, devolve {"error": "...", "raw": "..."}
+
+    Args:
+        use_claude_pdf: opt-in fallback to Claude API (Phase W.1). Default
+            False (in-house first). Caller passes True ONLY when:
+              - Ollama is unavailable (eg circuit breaker tripped), OR
+              - Layout is unusually complex and Ollama returned error/junk, OR
+              - User explicitly demanded higher quality on a one-off
+            Requires ANTHROPIC_API_KEY env var. Burns Claude tokens.
     """
+    if use_claude_pdf:
+        return _extract_via_claude(text, ticker_universe)
+
     universe_hint = ""
     if ticker_universe:
         sample = ", ".join(ticker_universe[:50])
@@ -113,6 +125,48 @@ def extract_insights(
             except json.JSONDecodeError:
                 pass
         return {"error": "json parse failed", "raw": raw[:500]}
+
+
+def _extract_via_claude(text: str, ticker_universe: list[str] | None) -> dict:
+    """Phase W.1 opt-in fallback. Burns Claude tokens. Caller already
+    decided this is worth the cost (Ollama failed/unavailable/insufficient)."""
+    import os
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        return {"error": "use_claude_pdf=True but ANTHROPIC_API_KEY not set"}
+    try:
+        import anthropic
+    except ImportError:
+        return {"error": "use_claude_pdf=True but anthropic SDK not installed (pip install anthropic)"}
+
+    universe_hint = ""
+    if ticker_universe:
+        sample = ", ".join(ticker_universe[:50])
+        universe_hint = f"\n\nUniverso de tickers do user (prioriza matches): {sample}"
+    user_msg = f"{universe_hint}\n\n---RELATÓRIO---\n{text}\n---FIM---"
+
+    client = anthropic.Anthropic(api_key=api_key)
+    try:
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",  # cheapest option for structured extraction
+            max_tokens=4000,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_msg}],
+        )
+    except Exception as e:
+        return {"error": f"claude api error: {e}"}
+
+    raw = resp.content[0].text if resp.content else ""
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        m = re.search(r"\{.*\}", raw, re.DOTALL)
+        if m:
+            try:
+                return json.loads(m.group(0))
+            except json.JSONDecodeError:
+                pass
+        return {"error": "json parse failed (claude path)", "raw": raw[:500]}
 
 
 def extract_html_text(html: str, max_chars: int = 50_000) -> str:

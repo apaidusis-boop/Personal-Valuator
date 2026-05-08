@@ -324,7 +324,11 @@ def cmd_extract(args):
                     )
                     continue
                 print(f"  … {row['published_at']} {row['title'][:60]}")
-                result = extract_insights(text, ticker_universe=ticker_universe)
+                result = extract_insights(
+                    text,
+                    ticker_universe=ticker_universe,
+                    use_claude_pdf=getattr(args, "use_claude", False),
+                )
                 if "error" in result:
                     print(f"    ✗ {result['error']}")
                     c.execute(
@@ -437,6 +441,13 @@ def main():
     ep = sub.add_parser("extract")
     ep.add_argument("--source", default="all", choices=["all", *ADAPTERS])
     ep.add_argument("--limit", type=int, default=20)
+    ep.add_argument(
+        "--use-claude",
+        action="store_true",
+        help="Phase W.1 opt-in: route extraction through Claude Haiku instead of "
+             "Ollama. Burns API tokens; only use when Ollama failed on a layout. "
+             "Requires ANTHROPIC_API_KEY.",
+    )
 
     qp = sub.add_parser("query")
     qp.add_argument("ticker")
