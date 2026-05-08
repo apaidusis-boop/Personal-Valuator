@@ -289,6 +289,57 @@ def _eval_piotroski_weak(conn: sqlite3.Connection, t: dict) -> dict:
     }
 
 
+def _eval_fii_cotistas_drop(conn: sqlite3.Connection, t: dict) -> dict:
+    """Dispara quando o número de cotistas de um FII caiu ≥ threshold_pct
+    nos últimos `lookback_months` meses.
+
+    Lê de `fii_monthly.total_cotistas` (CVM oficial, lag típico ~30-45d).
+    Sinal de saída líquida estrutural — antecipa pressão sobre cotação e
+    sugere algo está a degradar a tese do fundo.
+
+    Params:
+      lookback_months (int, default 3)
+      threshold_pct   (float, negativo — ex: -5.0)
+      min_cotistas    (int, default 1000) — ignora fundos pequenos onde
+                       variação % é ruidosa.
+    """
+    ticker = t["ticker"]
+    lookback = int(t.get("lookback_months", 3))
+    threshold = float(t["threshold_pct"])  # negativo
+    min_cotistas = int(t.get("min_cotistas", 1000))
+
+    rows = conn.execute(
+        "SELECT period_end, total_cotistas FROM fii_monthly "
+        "WHERE ticker=? AND total_cotistas IS NOT NULL "
+        "ORDER BY period_end DESC LIMIT ?",
+        (ticker, lookback + 1),
+    ).fetchall()
+    if not rows or len(rows) < 2:
+        return {"fired": False, "snapshot": {"reason": "insufficient_history", "obs": len(rows)}}
+    latest_date, latest_cot = rows[0]
+    base_date, base_cot = rows[-1]
+    if not base_cot or base_cot < min_cotistas:
+        return {"fired": False, "snapshot": {
+            "reason": "below_min_cotistas",
+            "base_cotistas": base_cot,
+            "min_cotistas": min_cotistas,
+        }}
+    drop_pct = (latest_cot - base_cot) / base_cot * 100.0
+    fired = drop_pct <= threshold
+    return {
+        "fired": fired,
+        "snapshot": {
+            "latest_period": latest_date,
+            "latest_cotistas": latest_cot,
+            "base_period": base_date,
+            "base_cotistas": base_cot,
+            "drop_pct": round(drop_pct, 2),
+            "lookback_months": lookback,
+            "threshold_pct": threshold,
+        },
+    }
+
+
 EVALUATORS = {
     "price_drop_from_high": _eval_price_drop_from_high,
     "price_below": _eval_price_below,
@@ -296,6 +347,7 @@ EVALUATORS = {
     "dy_percentile_vs_own_history": _eval_dy_percentile,
     "altman_distress": _eval_altman_distress,
     "piotroski_weak": _eval_piotroski_weak,
+    "fii_cotistas_drop": _eval_fii_cotistas_drop,
 }
 
 

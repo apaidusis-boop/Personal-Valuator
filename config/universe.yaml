@@ -114,6 +114,7 @@ br:
       - { ticker: KNRI11, name: "Kinea Renda Imobiliária", segment: "Híbrido",   is_holding: false, sources: [Suno-FII], suno_target: 164.00, suno_status: "Aguardar" }
       - { ticker: RBRY11, name: "RBR CRI",               segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_status: "Aguardar" }
       - { ticker: VRTA11, name: "Fator Verita",          segment: "Papel (CRI)", is_holding: false, sources: [Suno-FII], suno_status: "Aguardar" }
+      - { ticker: KNHF11, name: "Kinea Hedge Fund FII",  segment: "Híbrido",    is_holding: false, sources: [user_pick], cvm_name: "KINEA HEDGE FUND" }
 
   # Research pool — inventário de ideias das carteiras Suno que NÃO entraram
   # no consenso XP/BTG. Ficam aqui guardadas. NÃO são populadas na DB a menos

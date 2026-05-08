@@ -1,0 +1,54 @@
+{
+  "ticker": "KNHF11",
+  "market": "br",
+  "modo": "D",
+  "sector": "Híbrido",
+  "is_holding": false,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Lourdes Aluguel",
+      "agent_slug": "fiis_br_specialist",
+      "title": "FIIs BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {},
+  "responses": {},
+  "synthesis": {
+    "consensus_points": [],
+    "dissent_points": [],
+    "final_stance": "HOLD",
+    "confidence": "low",
+    "pre_publication_flags": [
+      "LLM synthesis failed — manual review needed"
+    ],
+    "sizing_recommendation": ""
+  },
+  "review_paths": [],
+  "failures": [
+    "R1:Lourdes Aluguel",
+    "R1:Mariana Macro",
+    "R1:Valentina Prudente",
+    "R1:Pedro Alocação"
+  ],
+  "elapsed_sec": 125.54795575141907,
+  "date": "2026-05-08"
+}

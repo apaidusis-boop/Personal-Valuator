@@ -44,6 +44,14 @@
 #     Quality red flag cumulativo (9 critérios YoY). Mesmas exclusões de sector.
 #     Params: threshold_f (int, default 3)
 #
+# fii_cotistas_drop
+#     FIIs only. Dispara quando total_cotistas (CVM `fii_monthly`) caiu
+#     ≥ threshold_pct nos últimos `lookback_months` meses. Sinal de saída
+#     líquida estrutural — frequentemente antecipa pressão de preço/distros.
+#     Params: lookback_months (int, default 3),
+#             threshold_pct (float, negativo — ex: -5),
+#             min_cotistas (int, default 1000) para ignorar fundos pequenos.
+#
 # === Campo `scope` (opcional) ===
 # Se presente em vez de `ticker`, expande para uma sub-trigger por holding
 # activa. `scope: all_holdings` = todos os tickers em portfolio_positions
@@ -222,3 +230,26 @@ triggers:
     threshold_price: 150.00
     action_hint: ADD
     note: "ACN ≤ $150: screen passa 4/5 (P/B ≤3, P/E, ROE, streak ✓); margem de segurança Graham se Piotroski ≥6 e Altman continua SAFE"
+
+  # === FII cotistas red flags — saída líquida >5% em 3m ===
+  # Lacuna identificada 2026-05-08 (RBRX11 -8% Jul→Dez/25 não foi sinalizado).
+  # Dados via CVM `fii_monthly.total_cotistas` (lag ~30-45d).
+  - id: rbrx11_cotistas_drop_5_6m
+    ticker: RBRX11
+    market: br
+    kind: fii_cotistas_drop
+    lookback_months: 6
+    threshold_pct: -5.0
+    min_cotistas: 1000
+    action_hint: REVIEW
+    note: "RBRX11 cotistas −5% em 6m — saída líquida persistente (Pátria-RBR integration angle); rever tese antes de adicionar"
+
+  - id: knhf11_cotistas_drop_5_6m
+    ticker: KNHF11
+    market: br
+    kind: fii_cotistas_drop
+    lookback_months: 6
+    threshold_pct: -5.0
+    min_cotistas: 1000
+    action_hint: REVIEW
+    note: "KNHF11 cotistas −5% em 6m — sinal saída líquida (FII Kinea); comparar contra Pátria/RBR cohort para isolar idiosyncratic vs sector"
