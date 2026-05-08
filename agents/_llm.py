@@ -16,6 +16,8 @@ from typing import TYPE_CHECKING, TypeVar
 
 import requests
 
+from agents._observability import trace_llm_call
+
 if TYPE_CHECKING:
     from pydantic import BaseModel
 
@@ -100,6 +102,7 @@ def _ollama_call(
     )
 
 
+@trace_llm_call(name="ollama_call")
 def ollama_call(
     prompt: str,
     *,
