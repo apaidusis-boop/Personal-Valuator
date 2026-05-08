@@ -1,16 +1,18 @@
+import type { Metadata } from "next";
 import { listAllPositions, UnifiedPosition } from "@/lib/db";
-import { formatCurrency, formatPercent, formatDate } from "@/lib/format";
-import { PageHeader } from "@/components/ui";
+import { formatCurrency, formatDate } from "@/lib/format";
+import PortfolioRowClick from "./row-click";
 
 export const dynamic = "force-dynamic";
+export const metadata: Metadata = { title: "Carteira · Mission Control" };
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 
-function pnlClass(v: number | null) {
-  if (v === null) return "text-[var(--text-tertiary)]";
-  if (v > 0) return "text-[var(--gain)]";
-  if (v < 0) return "text-[var(--loss)]";
-  return "text-[var(--neutral)]";
+function pnlColor(v: number | null): string {
+  if (v === null) return "var(--text-tertiary)";
+  if (v > 0) return "var(--gain)";
+  if (v < 0) return "var(--loss)";
+  return "var(--neutral)";
 }
 
 function fmtQty(n: number | null) {
@@ -21,13 +23,6 @@ function fmtQty(n: number | null) {
 function fmtUnit(n: number | null, currency: "BRL" | "USD" = "BRL") {
   if (n === null) return "—";
   return formatCurrency(n, currency, 2);
-}
-
-function fmtPnl(abs: number, pct: number | null) {
-  const absStr = formatCurrency(abs, "BRL", 0);
-  const sign = abs >= 0 ? "+" : "";
-  const pctStr = pct !== null ? ` (${abs >= 0 ? "+" : ""}${pct.toFixed(1)}%)` : "";
-  return `${sign}${absStr}${pctStr}`;
 }
 
 type GroupMeta = {
@@ -79,30 +74,30 @@ function buildGroups(positions: UnifiedPosition[]): GroupMeta[] {
   return groups;
 }
 
+const GROUP_COLORS: Record<string, string> = {
+  "Ações": "#2D6CDF",
+  "US Equities": "#1B4DB5",
+  "FIIs": "#4CAF50",
+  "ETFs": "#26A69A",
+  "Tesouro Direto": "#C9A15B",
+  "Debêntures": "#A07840",
+  "CRAs": "#806030",
+  "LCAs": "#604820",
+  "Fundos": "#9C27B0",
+};
+
 // ── sub-components ────────────────────────────────────────────────────────────
 
 function DistributionBar({ groups }: { groups: GroupMeta[] }) {
-  const COLORS: Record<string, string> = {
-    "Ações": "var(--accent-primary)",
-    "US Equities": "var(--accent-secondary, #6B7CF6)",
-    "FIIs": "var(--verdict-buy)",
-    "ETFs": "var(--accent-glow)",
-    "Tesouro Direto": "#C09A52",
-    "Debêntures": "#A07840",
-    "CRAs": "#806030",
-    "LCAs": "#604820",
-    "Fundos": "#503820",
-  };
-
   return (
     <div className="space-y-2">
-      <div className="flex h-3 rounded-sm overflow-hidden gap-px">
+      <div className="flex h-2 rounded-sm overflow-hidden gap-px">
         {groups.map((g) => (
           <div
             key={g.label}
             style={{
               width: `${g.weight_pct.toFixed(2)}%`,
-              background: COLORS[g.label] ?? "var(--text-secondary)",
+              background: GROUP_COLORS[g.label] ?? "var(--text-tertiary)",
             }}
             title={`${g.label}: ${g.weight_pct.toFixed(1)}%`}
           />
@@ -110,10 +105,16 @@ function DistributionBar({ groups }: { groups: GroupMeta[] }) {
       </div>
       <div className="flex flex-wrap gap-x-4 gap-y-1">
         {groups.map((g) => (
-          <span key={g.label} className="type-mono-sm text-[var(--text-secondary)] flex items-center gap-1.5">
+          <span
+            key={g.label}
+            className="text-[10px] flex items-center gap-1.5"
+            style={{ color: "var(--text-tertiary)" }}
+          >
             <span
               className="inline-block w-2 h-2 rounded-full"
-              style={{ background: COLORS[g.label] ?? "var(--text-secondary)" }}
+              style={{
+                background: GROUP_COLORS[g.label] ?? "var(--text-tertiary)",
+              }}
             />
             {g.label} {g.weight_pct.toFixed(1)}%
           </span>
@@ -123,21 +124,48 @@ function DistributionBar({ groups }: { groups: GroupMeta[] }) {
   );
 }
 
-function GroupHeader({ g }: { g: GroupMeta }) {
+function GroupCard({ g }: { g: GroupMeta }) {
+  const accent = GROUP_COLORS[g.label] ?? "var(--val-gold)";
   return (
-    <div className="flex items-baseline justify-between py-2 border-b border-[var(--rule)] mt-8">
-      <h2 className="type-h2 text-[var(--text-primary)] uppercase tracking-wider text-xs font-semibold">
-        {g.label}
-      </h2>
-      <div className="flex items-baseline gap-4 type-mono-sm text-[var(--text-secondary)]">
-        <span>{formatCurrency(g.total_value, g.currency, 0)}</span>
-        <span className={pnlClass(g.total_pnl)}>
-          {g.total_pnl >= 0 ? "+" : ""}
-          {formatCurrency(g.total_pnl, g.currency, 0)}
-          {" "}({g.total_pnl >= 0 ? "+" : ""}{g.pnl_pct.toFixed(1)}%)
-        </span>
-        <span className="text-[var(--text-tertiary)]">{g.weight_pct.toFixed(1)}% da carteira</span>
+    <div
+      className="rounded overflow-hidden"
+      style={{
+        background: "var(--bg-elevated)",
+        border: "1px solid var(--border-subtle)",
+        borderTop: `2px solid ${accent}`,
+      }}
+    >
+      <div
+        className="px-4 py-3 flex items-baseline justify-between flex-wrap gap-2"
+        style={{ borderBottom: "1px solid var(--border-subtle)" }}
+      >
+        <div className="flex items-baseline gap-3">
+          <h2
+            className="text-sm font-semibold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            {g.label}
+          </h2>
+          <span
+            className="text-[10px]"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            {g.positions.length} posições · {g.weight_pct.toFixed(1)}% da carteira
+          </span>
+        </div>
+        <div className="flex items-baseline gap-3 text-xs font-data">
+          <span style={{ color: "var(--text-primary)" }}>
+            {formatCurrency(g.total_value, g.currency, 0)}
+          </span>
+          <span style={{ color: pnlColor(g.total_pnl) }}>
+            {g.total_pnl >= 0 ? "+" : ""}
+            {formatCurrency(g.total_pnl, g.currency, 0)} (
+            {g.total_pnl >= 0 ? "+" : ""}
+            {g.pnl_pct.toFixed(1)}%)
+          </span>
+        </div>
       </div>
+      {g.is_rf ? <RFTable g={g} /> : <EquityTable g={g} />}
     </div>
   );
 }
@@ -145,157 +173,249 @@ function GroupHeader({ g }: { g: GroupMeta }) {
 function EquityTable({ g }: { g: GroupMeta }) {
   const cur = g.currency;
   return (
-    <table className="w-full type-mono-sm mt-1">
+    <table className="w-full">
       <thead>
-        <tr className="text-[var(--text-tertiary)] border-b border-[var(--border-subtle)]">
-          <th className="text-left py-1.5 pr-3 font-normal w-20">Ticker</th>
-          <th className="text-left py-1.5 pr-3 font-normal">Nome</th>
-          <th className="text-right py-1.5 px-2 font-normal">Qtd</th>
-          <th className="text-right py-1.5 px-2 font-normal">PM</th>
-          <th className="text-right py-1.5 px-2 font-normal">Preço</th>
-          <th className="text-right py-1.5 px-2 font-normal">Custo</th>
-          <th className="text-right py-1.5 px-2 font-normal">Valor</th>
-          <th className="text-right py-1.5 px-2 font-normal">P&amp;L</th>
-          <th className="text-right py-1.5 pl-2 font-normal">P&amp;L%</th>
-          <th className="text-right py-1.5 pl-2 font-normal">Peso</th>
+        <tr
+          className="text-[10px]"
+          style={{
+            color: "var(--text-label)",
+            background: "var(--bg-overlay)",
+            borderBottom: "1px solid var(--border-subtle)",
+          }}
+        >
+          <th className="text-left px-4 py-2 font-semibold">Ticker</th>
+          <th className="text-left px-3 py-2 font-semibold">Nome</th>
+          <th className="text-right px-3 py-2 font-semibold">Qtd</th>
+          <th className="text-right px-3 py-2 font-semibold">PM</th>
+          <th className="text-right px-3 py-2 font-semibold">Preço</th>
+          <th className="text-right px-3 py-2 font-semibold">Custo</th>
+          <th className="text-right px-3 py-2 font-semibold">Valor</th>
+          <th className="text-right px-3 py-2 font-semibold">P&amp;L</th>
+          <th className="text-right px-3 py-2 font-semibold">P&amp;L%</th>
+          <th className="text-right px-4 py-2 font-semibold">Peso</th>
         </tr>
       </thead>
-      <tbody className="divide-y divide-[var(--border-subtle)]">
+      <tbody>
         {g.positions.map((p) => (
-          <tr key={p.id} className="hover:bg-[var(--bg-raised)] transition-colors">
-            <td className="py-1.5 pr-3 text-[var(--accent-primary)] font-medium">
-              {p.ticker ?? "—"}
+          <tr
+            key={p.id}
+            className="transition-colors hover:bg-[var(--jpm-card-hover)]"
+            style={{ borderBottom: "1px solid var(--border-subtle)" }}
+          >
+            <td className="px-4 py-2 text-sm font-data font-bold">
+              <PortfolioRowClick ticker={p.ticker}>
+                <span
+                  className="hover:underline"
+                  style={{ color: "var(--accent-primary)" }}
+                >
+                  {p.ticker ?? "—"}
+                </span>
+              </PortfolioRowClick>
             </td>
-            <td className="py-1.5 pr-3 text-[var(--text-secondary)] truncate max-w-[180px]">
+            <td
+              className="px-3 py-2 text-xs truncate max-w-[200px]"
+              style={{ color: "var(--text-secondary)" }}
+              title={p.name}
+            >
               {p.name}
             </td>
-            <td className="py-1.5 px-2 text-right tabular">{fmtQty(p.quantity)}</td>
-            <td className="py-1.5 px-2 text-right tabular text-[var(--text-secondary)]">
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-primary)" }}
+            >
+              {fmtQty(p.quantity)}
+            </td>
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {fmtUnit(p.entry_unit, cur)}
             </td>
-            <td className="py-1.5 px-2 text-right tabular">
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-primary)" }}
+            >
               {fmtUnit(p.current_unit, cur)}
             </td>
-            <td className="py-1.5 px-2 text-right tabular text-[var(--text-secondary)]">
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {formatCurrency(p.cost_basis, cur, 0)}
             </td>
-            <td className="py-1.5 px-2 text-right tabular font-medium">
+            <td
+              className="px-3 py-2 text-right text-xs font-data font-medium"
+              style={{ color: "var(--text-primary)" }}
+            >
               {formatCurrency(p.current_value, cur, 0)}
             </td>
-            <td className={`py-1.5 px-2 text-right tabular ${pnlClass(p.pnl_abs)}`}>
-              {p.pnl_abs >= 0 ? "+" : ""}{formatCurrency(p.pnl_abs, cur, 0)}
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: pnlColor(p.pnl_abs) }}
+            >
+              {p.pnl_abs >= 0 ? "+" : ""}
+              {formatCurrency(p.pnl_abs, cur, 0)}
             </td>
-            <td className={`py-1.5 pl-2 text-right tabular ${pnlClass(p.pnl_pct)}`}>
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: pnlColor(p.pnl_pct) }}
+            >
               {p.pnl_pct !== null
                 ? `${p.pnl_pct >= 0 ? "+" : ""}${p.pnl_pct.toFixed(1)}%`
                 : "—"}
             </td>
-            <td className="py-1.5 pl-2 text-right tabular text-[var(--text-tertiary)]">
+            <td
+              className="px-4 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {p.weight_pct.toFixed(1)}%
             </td>
           </tr>
         ))}
       </tbody>
-      <tfoot>
-        <tr className="border-t border-[var(--rule)] text-[var(--text-secondary)] font-medium">
-          <td colSpan={5} className="py-2 pr-3 type-mono-sm text-[var(--text-tertiary)]">
-            {g.positions.length} posições
-          </td>
-          <td className="py-2 px-2 text-right tabular type-mono-sm">
-            {formatCurrency(g.total_cost, cur, 0)}
-          </td>
-          <td className="py-2 px-2 text-right tabular type-mono-sm">
-            {formatCurrency(g.total_value, cur, 0)}
-          </td>
-          <td className={`py-2 px-2 text-right tabular type-mono-sm ${pnlClass(g.total_pnl)}`}>
-            {g.total_pnl >= 0 ? "+" : ""}{formatCurrency(g.total_pnl, cur, 0)}
-          </td>
-          <td className={`py-2 pl-2 text-right tabular type-mono-sm ${pnlClass(g.pnl_pct)}`}>
-            {g.total_pnl >= 0 ? "+" : ""}{g.pnl_pct.toFixed(1)}%
-          </td>
-          <td className="py-2 pl-2 text-right tabular type-mono-sm text-[var(--text-tertiary)]">
-            {g.weight_pct.toFixed(1)}%
-          </td>
-        </tr>
-      </tfoot>
     </table>
   );
 }
 
 function RFTable({ g }: { g: GroupMeta }) {
   return (
-    <table className="w-full type-mono-sm mt-1">
+    <table className="w-full">
       <thead>
-        <tr className="text-[var(--text-tertiary)] border-b border-[var(--border-subtle)]">
-          <th className="text-left py-1.5 pr-3 font-normal">Ativo</th>
-          <th className="text-left py-1.5 pr-3 font-normal">Taxa</th>
-          <th className="text-right py-1.5 px-2 font-normal">Qtd</th>
-          <th className="text-left py-1.5 px-2 font-normal">Vencimento</th>
-          <th className="text-right py-1.5 px-2 font-normal">Investido</th>
-          <th className="text-right py-1.5 px-2 font-normal">Valor</th>
-          <th className="text-right py-1.5 px-2 font-normal">P&amp;L</th>
-          <th className="text-right py-1.5 pl-2 font-normal">P&amp;L%</th>
-          <th className="text-right py-1.5 pl-2 font-normal">Peso</th>
+        <tr
+          className="text-[10px]"
+          style={{
+            color: "var(--text-label)",
+            background: "var(--bg-overlay)",
+            borderBottom: "1px solid var(--border-subtle)",
+          }}
+        >
+          <th className="text-left px-4 py-2 font-semibold">Ativo</th>
+          <th className="text-left px-3 py-2 font-semibold">Taxa</th>
+          <th className="text-right px-3 py-2 font-semibold">Qtd</th>
+          <th className="text-left px-3 py-2 font-semibold">Vencimento</th>
+          <th className="text-right px-3 py-2 font-semibold">Investido</th>
+          <th className="text-right px-3 py-2 font-semibold">Valor</th>
+          <th className="text-right px-3 py-2 font-semibold">P&amp;L</th>
+          <th className="text-right px-3 py-2 font-semibold">P&amp;L%</th>
+          <th className="text-right px-4 py-2 font-semibold">Peso</th>
         </tr>
       </thead>
-      <tbody className="divide-y divide-[var(--border-subtle)]">
+      <tbody>
         {g.positions.map((p) => (
-          <tr key={p.id} className="hover:bg-[var(--bg-raised)] transition-colors">
-            <td className="py-1.5 pr-3 text-[var(--text-primary)] font-medium max-w-[220px] truncate">
+          <tr
+            key={p.id}
+            className="transition-colors hover:bg-[var(--jpm-card-hover)]"
+            style={{ borderBottom: "1px solid var(--border-subtle)" }}
+          >
+            <td
+              className="px-4 py-2 text-sm font-medium truncate max-w-[260px]"
+              style={{ color: "var(--text-primary)" }}
+              title={p.name}
+            >
               {p.name}
             </td>
-            <td className="py-1.5 pr-3 text-[var(--text-tertiary)]">
+            <td
+              className="px-3 py-2 text-xs"
+              style={{ color: "var(--val-gold)" }}
+            >
               {p.rate ?? "—"}
             </td>
-            <td className="py-1.5 px-2 text-right tabular text-[var(--text-secondary)]">
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {fmtQty(p.quantity)}
             </td>
-            <td className="py-1.5 px-2 text-[var(--text-secondary)]">
+            <td
+              className="px-3 py-2 text-xs font-data"
+              style={{ color: "var(--text-secondary)" }}
+            >
               {p.maturity_date ? formatDate(p.maturity_date, "medium") : "—"}
             </td>
-            <td className="py-1.5 px-2 text-right tabular text-[var(--text-secondary)]">
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {formatCurrency(p.cost_basis, "BRL", 0)}
             </td>
-            <td className="py-1.5 px-2 text-right tabular font-medium">
+            <td
+              className="px-3 py-2 text-right text-xs font-data font-medium"
+              style={{ color: "var(--text-primary)" }}
+            >
               {formatCurrency(p.current_value, "BRL", 0)}
             </td>
-            <td className={`py-1.5 px-2 text-right tabular ${pnlClass(p.pnl_abs)}`}>
-              {p.pnl_abs >= 0 ? "+" : ""}{formatCurrency(p.pnl_abs, "BRL", 0)}
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: pnlColor(p.pnl_abs) }}
+            >
+              {p.pnl_abs >= 0 ? "+" : ""}
+              {formatCurrency(p.pnl_abs, "BRL", 0)}
             </td>
-            <td className={`py-1.5 pl-2 text-right tabular ${pnlClass(p.pnl_pct)}`}>
+            <td
+              className="px-3 py-2 text-right text-xs font-data"
+              style={{ color: pnlColor(p.pnl_pct) }}
+            >
               {p.pnl_pct !== null
                 ? `${p.pnl_pct >= 0 ? "+" : ""}${p.pnl_pct.toFixed(1)}%`
                 : "—"}
             </td>
-            <td className="py-1.5 pl-2 text-right tabular text-[var(--text-tertiary)]">
+            <td
+              className="px-4 py-2 text-right text-xs font-data"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               {p.weight_pct.toFixed(1)}%
             </td>
           </tr>
         ))}
       </tbody>
-      <tfoot>
-        <tr className="border-t border-[var(--rule)] text-[var(--text-secondary)] font-medium">
-          <td colSpan={4} className="py-2 pr-3 type-mono-sm text-[var(--text-tertiary)]">
-            {g.positions.length} posições
-          </td>
-          <td className="py-2 px-2 text-right tabular type-mono-sm">
-            {formatCurrency(g.total_cost, "BRL", 0)}
-          </td>
-          <td className="py-2 px-2 text-right tabular type-mono-sm">
-            {formatCurrency(g.total_value, "BRL", 0)}
-          </td>
-          <td className={`py-2 px-2 text-right tabular type-mono-sm ${pnlClass(g.total_pnl)}`}>
-            {g.total_pnl >= 0 ? "+" : ""}{formatCurrency(g.total_pnl, "BRL", 0)}
-          </td>
-          <td className={`py-2 pl-2 text-right tabular type-mono-sm ${pnlClass(g.pnl_pct)}`}>
-            {g.total_pnl >= 0 ? "+" : ""}{g.pnl_pct.toFixed(1)}%
-          </td>
-          <td className="py-2 pl-2 text-right tabular type-mono-sm text-[var(--text-tertiary)]">
-            {g.weight_pct.toFixed(1)}%
-          </td>
-        </tr>
-      </tfoot>
     </table>
+  );
+}
+
+function GrandTotal({
+  label,
+  value,
+  pnl,
+  pnlPct,
+  cost,
+  currency,
+}: {
+  label: string;
+  value: number;
+  pnl: number;
+  pnlPct: number;
+  cost: number;
+  currency: "BRL" | "USD";
+}) {
+  return (
+    <div
+      className="p-4 rounded"
+      style={{
+        background: "var(--bg-elevated)",
+        border: "1px solid var(--border-subtle)",
+      }}
+    >
+      <p
+        className="text-[10px] font-semibold tracking-wider uppercase mb-1.5"
+        style={{ color: "var(--text-label)" }}
+      >
+        {label}
+      </p>
+      <p
+        className="text-2xl font-display font-bold mb-1"
+        style={{ color: "var(--text-primary)" }}
+      >
+        {formatCurrency(value, currency, 0)}
+      </p>
+      <p
+        className="text-xs font-data"
+        style={{ color: pnlColor(pnl) }}
+      >
+        {pnl >= 0 ? "+" : ""}
+        {formatCurrency(pnl, currency, 0)} ({pnl >= 0 ? "+" : ""}
+        {pnlPct.toFixed(1)}%) <span style={{ color: "var(--text-tertiary)" }}>vs custo {formatCurrency(cost, currency, 0)}</span>
+      </p>
+    </div>
   );
 }
 
@@ -309,78 +429,102 @@ export default function PortfolioPage() {
   const usPositions = positions.filter((p) => p.market === "us");
 
   const brValue = brPositions.reduce((s, p) => s + p.current_value, 0);
-  const brCost  = brPositions.reduce((s, p) => s + p.cost_basis, 0);
-  const brPnl   = brValue - brCost;
+  const brCost = brPositions.reduce((s, p) => s + p.cost_basis, 0);
+  const brPnl = brValue - brCost;
   const brPnlPct = brCost > 0 ? (brPnl / brCost) * 100 : 0;
 
   const usValue = usPositions.reduce((s, p) => s + p.current_value, 0);
-  const usCost  = usPositions.reduce((s, p) => s + p.cost_basis, 0);
-  const usPnl   = usValue - usCost;
+  const usCost = usPositions.reduce((s, p) => s + p.cost_basis, 0);
+  const usPnl = usValue - usCost;
   const usPnlPct = usCost > 0 ? (usPnl / usCost) * 100 : 0;
 
   const brGroups = groups.filter((g) => g.currency === "BRL");
   const usGroups = groups.filter((g) => g.currency === "USD");
 
   return (
-    <div className="p-8 space-y-6 max-w-[1400px]">
-      <PageHeader title="Carteira" subtitle="Posições consolidadas · todas as classes" />
-
-      {/* ── Grand totals ──────────────────────────────────────────── */}
-      <div className="grid grid-cols-2 gap-8 border-t-2 border-[var(--rule)] pt-5">
-        {/* BR total */}
-        <div>
-          <p className="type-h3 mb-1">Brasil · BRL</p>
-          <p className="type-display tabular text-[var(--text-primary)]">
-            {formatCurrency(brValue, "BRL", 0)}
-          </p>
-          <p className={`type-mono-sm mt-1 ${pnlClass(brPnl)}`}>
-            {brPnl >= 0 ? "+" : ""}{formatCurrency(brPnl, "BRL", 0)}
-            {" "}({brPnlPct >= 0 ? "+" : ""}{brPnlPct.toFixed(1)}%) vs custo {formatCurrency(brCost, "BRL", 0)}
-          </p>
-        </div>
-        {/* US total */}
-        <div>
-          <p className="type-h3 mb-1">EUA · USD</p>
-          <p className="type-display tabular text-[var(--text-primary)]">
-            {formatCurrency(usValue, "USD", 0)}
-          </p>
-          <p className={`type-mono-sm mt-1 ${pnlClass(usPnl)}`}>
-            {usPnl >= 0 ? "+" : ""}{formatCurrency(usPnl, "USD", 0)}
-            {" "}({usPnlPct >= 0 ? "+" : ""}{usPnlPct.toFixed(1)}%) vs custo {formatCurrency(usCost, "USD", 0)}
-          </p>
-        </div>
+    <div className="p-5 space-y-5">
+      {/* Header ----------------------------------------------- */}
+      <div>
+        <h1
+          className="font-display text-xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
+          Minha Carteira
+        </h1>
+        <p
+          className="text-xs mt-0.5"
+          style={{ color: "var(--text-tertiary)" }}
+        >
+          {positions.length} posições · {brGroups.length + usGroups.length} grupos · BRL e USD isolados
+        </p>
       </div>
 
-      {/* ── BR distribution bar ───────────────────────────────────── */}
+      {/* Grand totals (2 stat blocks) ------------------------- */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <GrandTotal
+          label="BRASIL · BRL"
+          value={brValue}
+          pnl={brPnl}
+          pnlPct={brPnlPct}
+          cost={brCost}
+          currency="BRL"
+        />
+        <GrandTotal
+          label="EUA · USD"
+          value={usValue}
+          pnl={usPnl}
+          pnlPct={usPnlPct}
+          cost={usCost}
+          currency="USD"
+        />
+      </div>
+
+      {/* BR section ------------------------------------------- */}
       {brGroups.length > 0 && (
-        <div>
-          <p className="type-h3 mb-2">Distribuição BR</p>
-          <DistributionBar groups={brGroups} />
-        </div>
+        <section className="space-y-4">
+          <div
+            className="p-4 rounded"
+            style={{
+              background: "var(--bg-elevated)",
+              border: "1px solid var(--border-subtle)",
+            }}
+          >
+            <h3
+              className="text-[10px] font-semibold tracking-wider uppercase mb-3"
+              style={{ color: "var(--text-label)" }}
+            >
+              Distribuição BR
+            </h3>
+            <DistributionBar groups={brGroups} />
+          </div>
+          {brGroups.map((g) => (
+            <GroupCard key={g.label} g={g} />
+          ))}
+        </section>
       )}
 
-      {/* ── BR groups ─────────────────────────────────────────────── */}
-      {brGroups.map((g) => (
-        <div key={g.label}>
-          <GroupHeader g={g} />
-          {g.is_rf ? <RFTable g={g} /> : <EquityTable g={g} />}
-        </div>
-      ))}
-
-      {/* ── US distribution bar ───────────────────────────────────── */}
+      {/* US section ------------------------------------------- */}
       {usGroups.length > 0 && (
-        <div className="mt-12">
-          <div className="border-t-2 border-[var(--rule)] pt-5 mb-4">
-            <p className="type-h3 mb-2">Distribuição US</p>
+        <section className="space-y-4">
+          <div
+            className="p-4 rounded"
+            style={{
+              background: "var(--bg-elevated)",
+              border: "1px solid var(--border-subtle)",
+            }}
+          >
+            <h3
+              className="text-[10px] font-semibold tracking-wider uppercase mb-3"
+              style={{ color: "var(--text-label)" }}
+            >
+              Distribuição US
+            </h3>
             <DistributionBar groups={usGroups} />
           </div>
           {usGroups.map((g) => (
-            <div key={g.label}>
-              <GroupHeader g={g} />
-              <EquityTable g={g} />
-            </div>
+            <GroupCard key={g.label} g={g} />
           ))}
-        </div>
+        </section>
       )}
     </div>
   );

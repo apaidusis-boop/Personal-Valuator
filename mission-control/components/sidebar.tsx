@@ -2,135 +2,264 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import ThemeToggle from "./theme-toggle";
+import {
+  LayoutDashboard,
+  Search,
+  BarChart3,
+  TrendingUp,
+  Flame,
+  Briefcase,
+  PieChart,
+  Shield,
+  Bell,
+  FileText,
+  Newspaper,
+  Users,
+  Settings,
+  User,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-type NavItem = { href: string; label: string };
-type NavGroup = { label: string; items: NavItem[] };
+type NavItem = {
+  icon: LucideIcon;
+  label: string;
+  href?: string;          // present when active
+  hidden?: boolean;       // true → "Não operacional · Ocultado"
+};
 
-const GROUPS: NavGroup[] = [
+type NavSection = {
+  label: string;
+  items: NavItem[];
+};
+
+/**
+ * Mirrors the zip layout exactly. 5 active routes (Dashboard, Screening,
+ * Portfolio, Alertas, Council) + 8 hidden placeholders that show "Não
+ * operacional · Ocultado" so the eventual feature set is visible without
+ * being interactive.
+ */
+const SECTIONS: NavSection[] = [
   {
-    label: "Today",
+    label: "ANÁLISE",
     items: [
-      { href: "/", label: "Home" },
-      { href: "/tasks", label: "Tasks" },
+      { icon: Search, label: "Buscar Ativos", href: "/screening" },
+      { icon: BarChart3, label: "Comparador", hidden: true },
+      { icon: TrendingUp, label: "Valuation", hidden: true },
+      { icon: Flame, label: "Monitor de Mercado", hidden: true },
     ],
   },
   {
-    label: "Decide",
+    label: "CARTEIRA",
     items: [
-      { href: "/portfolio", label: "Portfolio" },
-      { href: "/allocation", label: "Allocation" },
-      { href: "/council", label: "Council" },
+      { icon: Briefcase, label: "Minha Carteira", href: "/portfolio" },
+      { icon: PieChart, label: "Diversificação", hidden: true },
+      { icon: Shield, label: "Monitor de Risco", hidden: true },
     ],
   },
   {
-    label: "Research",
+    label: "INTELIGÊNCIA",
     items: [
-      { href: "/content", label: "Content" },
-      { href: "/memory", label: "Memory" },
-      { href: "/docs", label: "Docs" },
+      { icon: Bell, label: "Alertas", href: "/alertas" },
+      { icon: FileText, label: "Filings (CVM/SEC)", href: "/filings" },
+      { icon: Newspaper, label: "Calendário", href: "/events" },
+      { icon: Users, label: "Council", href: "/council" },
     ],
   },
   {
-    label: "System",
+    label: "CONFIGURAÇÕES",
     items: [
-      { href: "/calendar", label: "Calendar" },
-      { href: "/team", label: "Team" },
+      { icon: Settings, label: "Preferências", hidden: true },
+      { icon: User, label: "Minha Conta", hidden: true },
     ],
   },
 ];
 
-/**
- * Editorial-style sidebar — masthead at top, sections like FT supplements.
- * No icons (icons drift toward consumer SaaS); active state is a left rule.
- */
 export default function Sidebar() {
   const path = usePathname();
-  const isActive = (href: string) =>
-    path === href || (href !== "/" && path.startsWith(href));
+  const isActive = (href?: string) => {
+    if (!href) return false;
+    return path === href || (href !== "/" && path.startsWith(href));
+  };
 
   return (
     <aside
-      className="w-48 shrink-0 border-r border-[var(--border-subtle)] flex flex-col"
-      style={{ background: "var(--bg-deep)" }}
+      className="fixed left-0 top-0 h-screen w-[240px] flex flex-col overflow-y-auto z-50"
+      style={{
+        background: "var(--bg-canvas)",
+        borderRight: "1px solid var(--border-subtle)",
+      }}
     >
-      {/* Masthead — broadsheet vibe */}
-      <div className="px-4 pt-6 pb-4 border-b-2 border-[var(--rule)]">
-        <Link href="/" className="block group">
-          <div
-            className="serif text-[var(--text-primary)] leading-none"
-            style={{ fontSize: 22, fontWeight: 700, letterSpacing: "-0.01em" }}
-          >
-            Mission
-          </div>
-          <div
-            className="serif text-[var(--text-primary)] leading-none mt-0.5"
-            style={{ fontSize: 22, fontWeight: 700, letterSpacing: "-0.01em" }}
-          >
-            Control
-          </div>
-          <div className="type-byline mt-2">
-            est. 2026 · LocalClaw edition
+      {/* Masthead — gold logo + title -------------------------- */}
+      <div className="px-5 pt-6 pb-4">
+        <Link href="/" className="block">
+          <div className="flex items-center gap-2.5">
+            <div
+              className="w-9 h-9 rounded flex items-center justify-center shrink-0"
+              style={{
+                background:
+                  "linear-gradient(135deg, var(--val-gold), var(--val-gold-deep))",
+              }}
+            >
+              <span
+                className="font-display font-bold text-base"
+                style={{ color: "var(--val-navy)" }}
+              >
+                M
+              </span>
+            </div>
+            <div className="leading-tight">
+              <h1
+                className="font-display font-semibold text-[15px]"
+                style={{ color: "var(--text-primary)" }}
+              >
+                Mission Control
+              </h1>
+              <p
+                className="text-[10px] tracking-wider uppercase mt-0.5"
+                style={{ color: "var(--text-label)" }}
+              >
+                Hedge Fund OS
+              </p>
+            </div>
           </div>
         </Link>
-        <div className="mt-3 flex items-center gap-2">
-          <span
-            className="w-1.5 h-1.5 rounded-full bg-[var(--verdict-buy)] dot-live"
-            aria-hidden
-          />
-          <span className="type-mono-sm text-[var(--text-secondary)]">
-            antonio carlos · live
-          </span>
-        </div>
       </div>
 
-      {/* Nav — section labels small caps, items plain serif */}
-      <nav className="flex-1 px-3 py-4 space-y-5 overflow-y-auto">
-        {GROUPS.map((g) => (
-          <div key={g.label}>
-            <div className="px-1 mb-1.5">
-              <span className="type-h3">{g.label}</span>
-            </div>
+      {/* Standalone Dashboard link ----------------------------- */}
+      <div className="px-3 mb-2">
+        <Link
+          href="/"
+          className={
+            "flex items-center gap-3 px-3 py-2.5 rounded text-sm transition-colors " +
+            (path === "/"
+              ? "border-l-2 -ml-0.5 pl-[10px]"
+              : "")
+          }
+          style={
+            path === "/"
+              ? {
+                  background: "rgba(201,161,91,0.10)",
+                  borderLeftColor: "var(--val-gold)",
+                  color: "var(--val-gold)",
+                }
+              : { color: "var(--text-tertiary)" }
+          }
+        >
+          <LayoutDashboard size={17} />
+          <span className="font-medium">Dashboard</span>
+        </Link>
+      </div>
+
+      {/* Nav sections ------------------------------------------ */}
+      <nav className="flex-1 px-3 space-y-4 mt-2 pb-3">
+        {SECTIONS.map((section) => (
+          <div key={section.label}>
+            <p
+              className="px-3 text-[10px] font-semibold tracking-wider mb-1.5"
+              style={{ color: "var(--text-label)" }}
+            >
+              {section.label}
+            </p>
             <ul className="space-y-px">
-              {g.items.map((item) => {
-                const active = isActive(item.href);
-                return (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      className={
-                        "block px-2 py-1 type-body-sm transition-colors " +
-                        (active
-                          ? "text-[var(--text-primary)] border-l-2 border-[var(--accent-primary)] -ml-0.5 pl-[10px] font-medium"
-                          : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]")
-                      }
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                );
-              })}
+              {section.items.map((item) => (
+                <NavRow key={item.label} item={item} active={isActive(item.href)} />
+              ))}
             </ul>
           </div>
         ))}
       </nav>
 
-      {/* Footer — visual office + theme toggle + version */}
-      <div className="px-4 py-3 border-t border-[var(--border-subtle)] space-y-2">
-        <Link
-          href="/visual"
-          className={
-            "block type-mono-sm text-[var(--text-tertiary)] hover:text-[var(--accent-glow)] transition-colors " +
-            (isActive("/visual") ? "text-[var(--accent-glow)]" : "")
-          }
+      {/* Footer — Antonio Carlos avatar ------------------------ */}
+      <div
+        className="px-3 py-4"
+        style={{ borderTop: "1px solid var(--border-subtle)" }}
+      >
+        <div
+          className="flex items-center gap-2.5 px-2.5 py-2 rounded"
+          style={{ background: "var(--bg-elevated)" }}
         >
-          visual office
-        </Link>
-        <ThemeToggle />
-        <div className="type-mono-sm text-[var(--text-disabled)]">
-          v3 · broadsheet
+          <div
+            className="w-8 h-8 rounded-full flex items-center justify-center shrink-0"
+            style={{
+              background:
+                "linear-gradient(135deg, var(--val-gold), var(--val-gold-deep))",
+            }}
+          >
+            <span
+              className="text-[11px] font-bold"
+              style={{ color: "var(--val-navy)" }}
+            >
+              AC
+            </span>
+          </div>
+          <div className="leading-tight min-w-0">
+            <p
+              className="text-xs font-medium truncate"
+              style={{ color: "var(--text-primary)" }}
+            >
+              Antonio Carlos
+            </p>
+            <p
+              className="text-[10px]"
+              style={{ color: "var(--text-tertiary)" }}
+            >
+              Analista Principal
+            </p>
+          </div>
         </div>
       </div>
     </aside>
+  );
+}
+
+function NavRow({ item, active }: { item: NavItem; active: boolean }) {
+  const Icon = item.icon;
+
+  if (item.hidden) {
+    return (
+      <li>
+        <div
+          className="flex items-center gap-3 px-3 py-2 rounded text-sm select-none"
+          style={{ color: "var(--text-disabled)", cursor: "not-allowed" }}
+          title="Não operacional · Ocultado"
+        >
+          <Icon size={15} />
+          <span className="truncate">{item.label}</span>
+          <span
+            className="ml-auto text-[8px] tracking-wider uppercase font-semibold px-1.5 py-0.5 rounded shrink-0"
+            style={{
+              background: "var(--bg-elevated)",
+              color: "var(--text-disabled)",
+              border: "1px solid var(--border-subtle)",
+            }}
+          >
+            ocultado
+          </span>
+        </div>
+      </li>
+    );
+  }
+
+  return (
+    <li>
+      <Link
+        href={item.href!}
+        className={
+          "flex items-center gap-3 px-3 py-2 rounded text-sm transition-colors " +
+          (active ? "" : "hover:bg-[var(--bg-elevated)]")
+        }
+        style={
+          active
+            ? {
+                background: "rgba(201,161,91,0.10)",
+                color: "var(--val-gold)",
+              }
+            : { color: "var(--text-secondary)" }
+        }
+      >
+        <Icon size={15} />
+        <span>{item.label}</span>
+      </Link>
+    </li>
   );
 }

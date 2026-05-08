@@ -207,18 +207,36 @@ function inline(text: string, keyPrefix: string): React.ReactNode[] {
       case "txt":
         return <React.Fragment key={k}>{tok.s}</React.Fragment>;
       case "b":
-        return <strong key={k} className="text-zinc-100">{tok.s}</strong>;
+        return <strong key={k} style={{ color: "var(--text-primary)", fontWeight: 600 }}>{tok.s}</strong>;
       case "i":
-        return <em key={k} className="text-zinc-300">{tok.s}</em>;
+        return <em key={k} style={{ color: "var(--text-secondary)" }}>{tok.s}</em>;
       case "code":
         return (
-          <code key={k} className="px-1 py-0.5 rounded bg-purple-900/20 text-cyan-200 font-mono text-[12px]">
+          <code
+            key={k}
+            style={{
+              padding: "1px 5px",
+              borderRadius: 4,
+              background: "var(--bg-overlay)",
+              color: "var(--accent-primary)",
+              fontFamily: "var(--font-mono)",
+              fontSize: 12,
+            }}
+          >
             {tok.s}
           </code>
         );
       case "wiki":
         return (
-          <span key={k} className="text-purple-300 underline decoration-dotted underline-offset-2">
+          <span
+            key={k}
+            style={{
+              color: "var(--accent-primary)",
+              textDecoration: "underline",
+              textDecorationStyle: "dotted",
+              textUnderlineOffset: 2,
+            }}
+          >
             {tok.s.split("|").pop()}
           </span>
         );
@@ -229,7 +247,12 @@ function inline(text: string, keyPrefix: string): React.ReactNode[] {
             href={tok.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-cyan-300 underline decoration-dotted underline-offset-2 hover:text-cyan-200"
+            style={{
+              color: "var(--accent-primary)",
+              textDecoration: "underline",
+              textDecorationStyle: "dotted",
+              textUnderlineOffset: 2,
+            }}
           >
             {tok.s}
           </a>
@@ -241,30 +264,41 @@ function inline(text: string, keyPrefix: string): React.ReactNode[] {
 export default function Markdown({ source }: { source: string }) {
   const blocks = parseBlocks(source);
   return (
-    <div className="markdown space-y-3 text-[14px] leading-relaxed text-zinc-300">
+    <div
+      className="markdown"
+      style={{
+        fontSize: 14,
+        lineHeight: 1.6,
+        color: "var(--text-secondary)",
+        display: "flex",
+        flexDirection: "column",
+        gap: 12,
+      }}
+    >
       {blocks.map((b, i) => {
         const k = `b-${i}`;
-        if (b.kind === "hr") return <hr key={k} className="border-[#1f1f3d]" />;
+        if (b.kind === "hr")
+          return <hr key={k} style={{ borderTop: "1px solid var(--border-subtle)", borderBottom: 0 }} />;
         if (b.kind === "h") {
-          const sizes = {
-            1: "text-2xl font-light text-zinc-100 mt-6 mb-3",
-            2: "text-lg font-mono uppercase tracking-wider text-purple-300 mt-5 mb-2",
-            3: "text-sm font-mono uppercase tracking-wider text-cyan-300 mt-4 mb-1",
-            4: "text-xs font-mono uppercase tracking-wider text-zinc-400 mt-3 mb-1",
-          } as const;
+          const styles: Record<1 | 2 | 3 | 4, React.CSSProperties> = {
+            1: { fontSize: 22, fontWeight: 600, color: "var(--text-primary)", marginTop: 24, marginBottom: 6, letterSpacing: -0.005 },
+            2: { fontSize: 16, fontWeight: 600, color: "var(--text-primary)", marginTop: 20, marginBottom: 4 },
+            3: { fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--text-tertiary)", marginTop: 16, marginBottom: 2 },
+            4: { fontSize: 11, fontWeight: 600, color: "var(--text-tertiary)", marginTop: 12, marginBottom: 2 },
+          };
           const Tag = (`h${b.level}` as "h1" | "h2" | "h3" | "h4");
-          return React.createElement(Tag, { key: k, className: sizes[b.level] }, inline(b.text, k));
+          return React.createElement(Tag, { key: k, style: styles[b.level] }, inline(b.text, k));
         }
-        if (b.kind === "p") return <p key={k}>{inline(b.text, k)}</p>;
+        if (b.kind === "p") return <p key={k} style={{ margin: 0 }}>{inline(b.text, k)}</p>;
         if (b.kind === "ul")
           return (
-            <ul key={k} className="list-disc pl-5 space-y-1.5 marker:text-purple-400">
+            <ul key={k} style={{ paddingLeft: 20, listStyle: "disc", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
               {b.items.map((it, j) => <li key={`${k}-${j}`}>{inline(it, `${k}-${j}`)}</li>)}
             </ul>
           );
         if (b.kind === "ol")
           return (
-            <ol key={k} className="list-decimal pl-5 space-y-1.5 marker:text-purple-400">
+            <ol key={k} style={{ paddingLeft: 20, listStyle: "decimal", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
               {b.items.map((it, j) => <li key={`${k}-${j}`}>{inline(it, `${k}-${j}`)}</li>)}
             </ol>
           );
@@ -272,25 +306,68 @@ export default function Markdown({ source }: { source: string }) {
           return (
             <blockquote
               key={k}
-              className="border-l-4 border-purple-700/50 pl-4 italic text-zinc-300 bg-purple-900/5 py-2"
+              style={{
+                borderLeft: "3px solid var(--accent-primary)",
+                paddingLeft: 14,
+                fontStyle: "italic",
+                color: "var(--text-secondary)",
+                background: "var(--bg-overlay)",
+                padding: "10px 14px",
+                margin: 0,
+                borderRadius: 4,
+              }}
             >
               {inline(b.text, k)}
             </blockquote>
           );
         if (b.kind === "code")
           return (
-            <pre key={k} className="bg-[#0a0a1f] border border-[#1f1f3d] rounded p-3 text-[12px] font-mono text-zinc-300 overflow-x-auto">
+            <pre
+              key={k}
+              style={{
+                background: "var(--bg-overlay)",
+                border: "1px solid var(--border-subtle)",
+                borderRadius: 6,
+                padding: 12,
+                fontSize: 12,
+                fontFamily: "var(--font-mono)",
+                color: "var(--text-primary)",
+                overflowX: "auto",
+                margin: 0,
+              }}
+            >
               {b.text}
             </pre>
           );
         // table
         return (
-          <div key={k} className="overflow-x-auto">
-            <table className="text-xs font-mono w-full border border-[#1f1f3d]">
+          <div key={k} style={{ overflowX: "auto" }}>
+            <table
+              style={{
+                width: "100%",
+                fontSize: 12,
+                borderCollapse: "collapse",
+                border: "1px solid var(--border-subtle)",
+                fontFamily: "var(--font-mono)",
+              }}
+            >
               <thead>
-                <tr className="bg-purple-900/10 text-purple-300">
+                <tr
+                  style={{
+                    background: "var(--bg-overlay)",
+                    color: "var(--text-tertiary)",
+                  }}
+                >
                   {b.head.map((h, j) => (
-                    <th key={`${k}-h-${j}`} className="px-2 py-1.5 text-left border-b border-[#1f1f3d]">
+                    <th
+                      key={`${k}-h-${j}`}
+                      style={{
+                        padding: "6px 10px",
+                        textAlign: "left",
+                        borderBottom: "1px solid var(--border-subtle)",
+                        fontWeight: 600,
+                      }}
+                    >
                       {inline(h, `${k}-h-${j}`)}
                     </th>
                   ))}
@@ -298,9 +375,15 @@ export default function Markdown({ source }: { source: string }) {
               </thead>
               <tbody>
                 {b.rows.map((row, ri) => (
-                  <tr key={`${k}-r-${ri}`} className="border-b border-[#1f1f3d]/50">
+                  <tr
+                    key={`${k}-r-${ri}`}
+                    style={{ borderBottom: "1px solid var(--border-subtle)" }}
+                  >
                     {row.map((c, ci) => (
-                      <td key={`${k}-r-${ri}-c-${ci}`} className="px-2 py-1.5 text-zinc-300">
+                      <td
+                        key={`${k}-r-${ri}-c-${ci}`}
+                        style={{ padding: "6px 10px", color: "var(--text-primary)" }}
+                      >
                         {inline(c, `${k}-r-${ri}-c-${ci}`)}
                       </td>
                     ))}

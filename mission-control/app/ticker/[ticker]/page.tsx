@@ -1,25 +1,32 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Database from "better-sqlite3";
 
 import { DB_BR, DB_US } from "@/lib/paths";
 import { listStrategyRuns } from "@/lib/db";
 import { readCouncilStory } from "@/lib/vault";
-import { formatCurrency, formatDate, formatPercent, formatNumber } from "@/lib/format";
+import { formatCurrency, formatDate, formatPercent } from "@/lib/format";
 
 import { PriceChart } from "@/components/charts";
 import StancePill from "@/components/stance-pill";
 import {
-  PageHeader,
-  Section,
   Pill,
   pillVariantFromVerdict,
   pillVariantFromMarket,
-  EmptyState,
 } from "@/components/ui";
 
 import TickerActions from "./ticker-actions";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ ticker: string }>;
+}): Promise<Metadata> {
+  const { ticker } = await params;
+  return { title: `${ticker.toUpperCase()} · Mission Control` };
+}
 
 type Snapshot = {
   ticker: string;
@@ -41,6 +48,11 @@ type Snapshot = {
   } | null;
   score: { score: number; passes: boolean; run_date: string } | null;
   divs_12m: number | null;
+  fair_values: {
+    method: string;
+    fair_price: number | null;
+    upside_pct: number | null;
+  }[];
 };
 
 function fetchTicker(tk: string): Snapshot | null {
@@ -100,6 +112,28 @@ function fetchTicker(tk: string): Snapshot | null {
           .get(tk, cutoff) as { s: number } | undefined;
         divs_12m = d?.s || 0;
       } catch {/* */}
+
+      let fair_values: Snapshot["fair_values"] = [];
+      try {
+        const rows = db
+          .prepare(
+            `SELECT method, fair_price, upside_pct FROM fair_value
+             WHERE ticker = ?
+             ORDER BY computed_at DESC, method`
+          )
+          .all(tk) as any[];
+        // Keep one entry per method (first / freshest)
+        const seen = new Set<string>();
+        for (const r of rows) {
+          if (seen.has(r.method)) continue;
+          seen.add(r.method);
+          fair_values.push({
+            method: r.method,
+            fair_price: r.fair_price,
+            upside_pct: r.upside_pct,
+          });
+        }
+      } catch {/* */}
       db.close();
 
       return {
@@ -114,6 +148,7 @@ function fetchTicker(tk: string): Snapshot | null {
         fundamentals,
         score,
         divs_12m,
+        fair_values,
       };
     } catch {/* skip */}
   }
@@ -133,21 +168,55 @@ export default async function TickerPage({
 
   if (!snap) {
     return (
-      <div className="p-8 max-w-[1200px] space-y-6">
-        <PageHeader
-          title={tk}
-          crumbs={[{ label: "Home", href: "/" }, { label: tk }]}
-        />
-        <EmptyState
-          icon="◯"
-          title="Ticker não encontrado"
-          description="Não está em nenhuma das DBs (BR ou US)."
-          action={
-            <Link href="/" className="pill pill-glow">
-              ← back to home
-            </Link>
-          }
-        />
+      <div className="p-5 max-w-[1200px] space-y-5">
+        <div>
+          <h1
+            className="font-display text-xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            {tk}
+          </h1>
+          <p
+            className="text-xs mt-0.5"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            <Link
+              href="/"
+              className="hover:underline"
+              style={{ color: "var(--accent-glow)" }}
+            >
+              Home
+            </Link>{" "}
+            · {tk}
+          </p>
+        </div>
+        <div
+          className="p-12 rounded text-center space-y-3"
+          style={{
+            background: "var(--bg-elevated)",
+            border: "1px solid var(--border-subtle)",
+          }}
+        >
+          <p
+            className="text-sm"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            Ticker não encontrado
+          </p>
+          <p
+            className="text-xs italic"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            {tk} não está em nenhuma das DBs (BR ou US).
+          </p>
+          <Link
+            href="/"
+            className="inline-block text-[10px] hover:underline"
+            style={{ color: "var(--accent-glow)" }}
+          >
+            ← voltar à Home
+          </Link>
+        </div>
       </div>
     );
   }
@@ -168,77 +237,134 @@ export default async function TickerPage({
     .sort((a, b) => b.score - a.score)[0];
 
   return (
-    <div className="p-8 space-y-8 max-w-[1200px]">
-      {/* Header — ticker + price + delta */}
-      <PageHeader
-        title={tk}
-        subtitle={`${snap.name || ""} · ${snap.sector || "?"} · ${snap.is_holding ? "holding" : "watchlist"}`}
-        crumbs={[{ label: "Home", href: "/" }, { label: tk }]}
-        freshness={snap.price_date}
-        actions={
+    <div className="p-5 space-y-5 max-w-[1280px]">
+      {/* Header — ticker + price + delta ----------------------- */}
+      <div className="flex items-start justify-between gap-4 flex-wrap">
+        <div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <h1
+              className="font-display text-2xl font-bold"
+              style={{ color: "var(--text-primary)" }}
+            >
+              {tk}
+            </h1>
+            <Pill variant={pillVariantFromMarket(snap.market)}>
+              {snap.market.toUpperCase()}
+            </Pill>
+            {snap.is_holding && <span className="pill pill-gold">HOLDING</span>}
+          </div>
+          <p
+            className="text-xs mt-1"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            <Link
+              href="/"
+              className="hover:underline"
+              style={{ color: "var(--accent-glow)" }}
+            >
+              Home
+            </Link>{" "}
+            · {snap.name || tk} {snap.sector ? ` · ${snap.sector}` : ""}{" "}
+            {snap.price_date
+              ? ` · cotação ${formatDate(snap.price_date, "relative")}`
+              : ""}
+          </p>
+        </div>
+        {snap.price !== null && (
           <div className="text-right">
-            {snap.price !== null && (
-              <div className="type-display tabular text-[var(--text-primary)]">
-                {formatCurrency(snap.price, cur as any, 2)}
+            <div
+              className="font-display text-2xl font-bold tabular"
+              style={{ color: "var(--text-primary)" }}
+            >
+              {formatCurrency(snap.price, cur as "BRL" | "USD", 2)}
+            </div>
+            {pnlPct !== null && (
+              <div
+                className="text-xs font-data mt-1"
+                style={{
+                  color:
+                    pnlPct >= 0 ? "var(--gain)" : "var(--loss)",
+                }}
+              >
+                {pnlPct >= 0 ? "▲" : "▼"} {formatPercent(Math.abs(pnlPct), 1)} vs entry
               </div>
             )}
-            <div className="flex items-center gap-2 justify-end mt-1">
-              <Pill variant={pillVariantFromMarket(snap.market)}>
-                {snap.market.toUpperCase()}
-              </Pill>
-              {pnlPct !== null && (
-                <span
-                  className={`type-mono-sm ${
-                    pnlPct >= 0
-                      ? "text-[var(--gain)]"
-                      : "text-[var(--loss)]"
-                  }`}
-                >
-                  {pnlPct >= 0 ? "▲" : "▼"} {formatPercent(Math.abs(pnlPct), 1)} vs entry
-                </span>
-              )}
-            </div>
           </div>
-        }
-      />
+        )}
+      </div>
 
       <TickerActions ticker={tk} />
 
-      {/* Council strip */}
+      {/* Council strip ----------------------------------------- */}
       {council && (
         <Link
           href={`/council/${tk}`}
-          className="card-purple p-4 flex items-center justify-between hover:border-[rgba(139,92,246,0.4)] transition-colors group"
+          className="block p-4 rounded transition-colors group"
+          style={{
+            background: "var(--bg-elevated)",
+            border: "1px solid var(--border-subtle)",
+            borderTop: "2px solid var(--val-gold)",
+          }}
         >
-          <div className="flex items-center gap-4 flex-wrap">
-            <span className="type-h3">⚖ council</span>
-            <StancePill stance={council.entry.stance} confidence={council.entry.confidence} size="md" />
-            <span className="type-mono-sm text-[var(--text-tertiary)]">
-              {formatDate(council.entry.date, "relative")}
+          <div className="flex items-center justify-between gap-3 flex-wrap">
+            <div className="flex items-center gap-3 flex-wrap">
+              <span
+                className="text-[10px] font-semibold tracking-wider uppercase"
+                style={{ color: "var(--text-label)" }}
+              >
+                ⚖ Council
+              </span>
+              <StancePill
+                stance={council.entry.stance}
+                confidence={council.entry.confidence}
+                size="md"
+              />
+              <span
+                className="text-[10px]"
+                style={{ color: "var(--text-tertiary)" }}
+              >
+                {formatDate(council.entry.date, "relative")}
+              </span>
+              {council.entry.dissent_count > 0 && (
+                <span className="pill pill-hold">
+                  {council.entry.dissent_count} dissent
+                </span>
+              )}
+              {council.entry.flag_count > 0 && (
+                <span className="pill pill-avoid">
+                  ⚑ {council.entry.flag_count}
+                </span>
+              )}
+            </div>
+            <span
+              className="text-[10px] group-hover:underline"
+              style={{ color: "var(--accent-glow)" }}
+            >
+              ver dossier completo →
             </span>
-            {council.entry.dissent_count > 0 && (
-              <Pill variant="hold">
-                {council.entry.dissent_count} dissent
-              </Pill>
-            )}
-            {council.entry.flag_count > 0 && (
-              <Pill variant="avoid">
-                ⚑ {council.entry.flag_count}
-              </Pill>
-            )}
           </div>
-          <span className="type-mono-sm text-[var(--text-secondary)] group-hover:text-[var(--accent-glow)] transition-colors">
-            view storytelling →
-          </span>
         </Link>
       )}
 
-      {/* Price chart */}
-      <Section label="Price · 365D">
-        <div className="card p-5">
-          <PriceChart ticker={tk} days={365} height={280} />
-        </div>
-      </Section>
+      {/* Fair value strip --------------------------------------- */}
+      {snap.fair_values.length > 0 && (
+        <FairValueStrip
+          rows={snap.fair_values}
+          currentPrice={snap.price}
+          currency={cur as "BRL" | "USD"}
+        />
+      )}
+
+      {/* Price chart -------------------------------------------- */}
+      <div
+        className="rounded p-5"
+        style={{
+          background: "var(--bg-elevated)",
+          border: "1px solid var(--border-subtle)",
+        }}
+      >
+        <PriceChart ticker={tk} days={365 * 3} height={260} />
+      </div>
 
       {/* Stats grid: position / fundamentals / screen */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -284,43 +410,68 @@ export default async function TickerPage({
         )}
       </div>
 
-      {/* Strategy breakdown */}
+      {/* Strategy breakdown ------------------------------------ */}
       {strategyRuns.length > 0 && (
-        <Section
-          label="Strategy breakdown"
-          meta={
-            topStrategy
-              ? `top: ${topStrategy.engine} ${(topStrategy.score * 100).toFixed(0)}/100`
-              : ""
-          }
-          action={
+        <div
+          className="rounded p-4"
+          style={{
+            background: "var(--bg-elevated)",
+            border: "1px solid var(--border-subtle)",
+          }}
+        >
+          <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+            <div className="flex items-center gap-3 flex-wrap">
+              <h3
+                className="text-[10px] font-semibold tracking-wider uppercase"
+                style={{ color: "var(--text-label)" }}
+              >
+                Strategy engines
+              </h3>
+              {topStrategy && (
+                <span
+                  className="text-[10px]"
+                  style={{ color: "var(--text-tertiary)" }}
+                >
+                  top: {topStrategy.engine} {(topStrategy.score * 100).toFixed(0)}/100
+                </span>
+              )}
+            </div>
             <Link
               href={`/strategy/${tk}?market=${snap.market}`}
-              className="type-mono-sm text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
+              className="text-[10px] hover:underline"
+              style={{ color: "var(--accent-glow)" }}
             >
-              full engine breakdown →
+              breakdown completo →
             </Link>
-          }
-        >
-          <div className="card p-4">
-            <div className="flex flex-wrap gap-2">
-              {strategyRuns
-                .filter((r) => r.market === snap.market)
-                .map((r) => (
-                  <span
-                    key={r.engine}
-                    className="flex items-center gap-2 type-mono-sm px-3 py-1.5 rounded border border-[var(--border-subtle)]"
-                  >
-                    <span className="text-[var(--text-tertiary)] capitalize">{r.engine}</span>
-                    <span className="text-[var(--text-primary)]">
-                      {(r.score * 100).toFixed(0)}
-                    </span>
-                    <Pill variant={pillVariantFromVerdict(r.verdict)}>{r.verdict}</Pill>
-                  </span>
-                ))}
-            </div>
           </div>
-        </Section>
+          <div className="flex flex-wrap gap-2">
+            {strategyRuns
+              .filter((r) => r.market === snap.market)
+              .map((r) => (
+                <span
+                  key={r.engine}
+                  className="flex items-center gap-2 text-[11px] font-data px-3 py-1.5 rounded"
+                  style={{
+                    background: "var(--bg-overlay)",
+                    border: "1px solid var(--border-subtle)",
+                  }}
+                >
+                  <span
+                    className="capitalize"
+                    style={{ color: "var(--text-tertiary)" }}
+                  >
+                    {r.engine}
+                  </span>
+                  <span style={{ color: "var(--text-primary)" }}>
+                    {(r.score * 100).toFixed(0)}
+                  </span>
+                  <Pill variant={pillVariantFromVerdict(r.verdict)}>
+                    {r.verdict}
+                  </Pill>
+                </span>
+              ))}
+          </div>
+        </div>
       )}
     </div>
   );
@@ -407,8 +558,8 @@ function ScreenCard({ score }: { score: NonNullable<Snapshot["score"]> }) {
     <div
       className={`p-5 rounded-lg border ${
         passes
-          ? "border-[rgba(34,197,94,0.3)] bg-[rgba(34,197,94,0.04)]"
-          : "border-[rgba(239,68,68,0.3)] bg-[rgba(239,68,68,0.04)]"
+          ? "border-[var(--jpm-gain)] bg-[var(--jpm-gain-soft)]"
+          : "border-[var(--jpm-loss)] bg-[var(--jpm-loss-soft)]"
       } space-y-2.5`}
     >
       <h3 className="type-h3">screen</h3>
@@ -450,6 +601,132 @@ function KvRow({
     <div className="flex items-baseline justify-between type-mono-sm">
       <span className="text-[var(--text-tertiary)]">{k}</span>
       <span className={`tabular ${cl}`}>{v}</span>
+    </div>
+  );
+}
+
+function FairValueStrip({
+  rows,
+  currentPrice,
+  currency,
+}: {
+  rows: { method: string; fair_price: number | null; upside_pct: number | null }[];
+  currentPrice: number | null;
+  currency: "BRL" | "USD";
+}) {
+  // Average upside across methods (ignore nulls)
+  const valid = rows.filter((r) => r.upside_pct !== null);
+  const avgUpside =
+    valid.length > 0
+      ? valid.reduce((s, r) => s + (r.upside_pct ?? 0), 0) / valid.length
+      : null;
+  const avgFair =
+    rows.filter((r) => r.fair_price !== null).length > 0
+      ? rows.reduce((s, r) => s + (r.fair_price ?? 0), 0) /
+        rows.filter((r) => r.fair_price !== null).length
+      : null;
+
+  const accentColor =
+    avgUpside === null
+      ? "var(--text-tertiary)"
+      : avgUpside > 10
+      ? "var(--gain)"
+      : avgUpside < -10
+      ? "var(--loss)"
+      : "var(--neutral, var(--text-secondary))";
+
+  return (
+    <div
+      className="rounded p-5"
+      style={{
+        background: "var(--bg-elevated)",
+        border: "1px solid var(--border-subtle)",
+        borderTop: `2px solid ${accentColor}`,
+      }}
+    >
+      <div className="flex items-start justify-between gap-4 flex-wrap mb-4">
+        <div>
+          <h3
+            className="text-[10px] font-semibold tracking-wider uppercase"
+            style={{ color: "var(--text-label)" }}
+          >
+            ⚖ Fair value · upside vs preço actual
+          </h3>
+          <p className="type-byline mt-1">
+            {rows.length} método{rows.length === 1 ? "" : "s"} ·{" "}
+            {currentPrice !== null
+              ? `preço actual ${formatCurrency(currentPrice, currency, 2)}`
+              : "preço n/d"}
+          </p>
+        </div>
+        {avgUpside !== null && (
+          <div className="text-right">
+            <div
+              className="font-display text-2xl tabular font-bold"
+              style={{ color: accentColor }}
+            >
+              {avgUpside >= 0 ? "+" : ""}
+              {avgUpside.toFixed(1)}%
+            </div>
+            <p className="type-mono-sm" style={{ color: "var(--text-tertiary)" }}>
+              upside médio
+              {avgFair !== null
+                ? ` · alvo ${formatCurrency(avgFair, currency, 2)}`
+                : ""}
+            </p>
+          </div>
+        )}
+      </div>
+
+      <table className="data-table">
+        <thead>
+          <tr>
+            <th>Método</th>
+            <th className="num">Preço justo</th>
+            <th className="num">Upside</th>
+            <th className="num">Margem segurança</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => {
+            const ms =
+              currentPrice !== null && r.fair_price !== null && r.fair_price > 0
+                ? ((r.fair_price - currentPrice) / r.fair_price) * 100
+                : null;
+            const upColor =
+              r.upside_pct === null
+                ? "var(--text-tertiary)"
+                : r.upside_pct > 0
+                ? "var(--gain)"
+                : "var(--loss)";
+            return (
+              <tr key={r.method} style={{ cursor: "default" }}>
+                <td>
+                  <span
+                    className="font-data"
+                    style={{ color: "var(--text-primary)", fontWeight: 600 }}
+                  >
+                    {r.method}
+                  </span>
+                </td>
+                <td className="num">
+                  {r.fair_price !== null
+                    ? formatCurrency(r.fair_price, currency, 2)
+                    : "—"}
+                </td>
+                <td className="num" style={{ color: upColor, fontWeight: 600 }}>
+                  {r.upside_pct !== null
+                    ? `${r.upside_pct >= 0 ? "+" : ""}${r.upside_pct.toFixed(1)}%`
+                    : "—"}
+                </td>
+                <td className="num" style={{ color: "var(--text-secondary)" }}>
+                  {ms !== null ? `${ms.toFixed(1)}%` : "—"}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import {
@@ -6,26 +7,52 @@ import {
   type CouncilEntry,
   type CouncilStance,
 } from "@/lib/vault";
-import { formatDate, formatPercent } from "@/lib/format";
-import {
-  PageHeader,
-  Section,
-  Pill,
-  pillVariantFromMarket,
-  EmptyState,
-} from "@/components/ui";
-import StancePill from "@/components/stance-pill";
+import { formatDate } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
+export const metadata: Metadata = { title: "Council · Mission Control" };
 
-const STANCE_ORDER: CouncilStance[] = ["AVOID", "HOLD", "BUY", "NEEDS_DATA", "UNKNOWN"];
+const STANCE_ORDER: CouncilStance[] = [
+  "BUY",
+  "HOLD",
+  "AVOID",
+  "NEEDS_DATA",
+  "UNKNOWN",
+];
+
 const STANCE_LABEL: Record<CouncilStance, string> = {
-  BUY: "buy",
-  HOLD: "hold",
-  AVOID: "avoid",
-  NEEDS_DATA: "needs data",
-  UNKNOWN: "uncategorised",
+  BUY: "Buy",
+  HOLD: "Hold",
+  AVOID: "Avoid",
+  NEEDS_DATA: "Needs data",
+  UNKNOWN: "Uncategorised",
 };
+
+function stanceVariant(s: CouncilStance): "buy" | "hold" | "avoid" | "na" {
+  switch (s) {
+    case "BUY":
+      return "buy";
+    case "HOLD":
+      return "hold";
+    case "AVOID":
+      return "avoid";
+    default:
+      return "na";
+  }
+}
+
+function stanceColor(s: CouncilStance): string {
+  switch (s) {
+    case "BUY":
+      return "var(--verdict-buy)";
+    case "HOLD":
+      return "var(--verdict-hold)";
+    case "AVOID":
+      return "var(--verdict-avoid)";
+    default:
+      return "var(--verdict-na)";
+  }
+}
 
 export default function CouncilIndexPage() {
   const all = listCouncilOutputs(500);
@@ -43,101 +70,204 @@ export default function CouncilIndexPage() {
   for (const e of latest) grouped[e.stance].push(e);
 
   return (
-    <div className="p-8 space-y-8 max-w-[1400px]">
-      <PageHeader
-        title="Council"
-        subtitle={`Synthetic IC dossiers · STORYT_3.0 · ${latest.length} reviewed`}
-        crumbs={[{ label: "Home", href: "/" }, { label: "Council" }]}
-        freshness={summary.date}
-      />
+    <div className="p-5 space-y-5">
+      {/* Header --------------------------------------------- */}
+      <div>
+        <h1
+          className="font-display text-xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
+          Council
+        </h1>
+        <p
+          className="text-xs mt-0.5"
+          style={{ color: "var(--text-tertiary)" }}
+        >
+          Synthetic IC dossiers · STORYT 3.0 ·{" "}
+          {summary.date !== "—" ? formatDate(summary.date, "medium") : "sem run"} ·{" "}
+          {latest.length} reviewed
+        </p>
+      </div>
 
       {latest.length === 0 ? (
-        <EmptyState
-          icon="◯"
-          title="Sem dossiers do Council"
-          description="O Council corre durante o overnight batch. Aguarda a próxima execução."
-        />
+        <div
+          className="p-12 rounded text-center"
+          style={{
+            background: "var(--bg-elevated)",
+            border: "1px solid var(--border-subtle)",
+          }}
+        >
+          <p
+            className="text-sm italic"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            Sem dossiers do Council. Corre durante o overnight batch.
+          </p>
+        </div>
       ) : (
         <>
-          {/* Counts */}
-          <section className="grid grid-cols-2 md:grid-cols-5 gap-3">
-            <CountBox label="total" n={summary.total} />
-            <CountBox label="buy" n={summary.buy} variant="buy" />
-            <CountBox label="hold" n={summary.hold} variant="hold" />
-            <CountBox label="avoid" n={summary.avoid} variant="avoid" />
-            <CountBox label="needs data" n={summary.needs_data} />
-          </section>
+          {/* Stance counts -------------------------------------- */}
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+            <CountBlock label="TOTAL" n={summary.total} />
+            <CountBlock label="BUY" n={summary.buy} variant="buy" />
+            <CountBlock label="HOLD" n={summary.hold} variant="hold" />
+            <CountBlock label="AVOID" n={summary.avoid} variant="avoid" />
+            <CountBlock
+              label="NEEDS DATA"
+              n={summary.needs_data}
+              variant="na"
+            />
+          </div>
 
+          {/* Stance groups -------------------------------------- */}
           {STANCE_ORDER.map((st) => {
             const items = grouped[st];
             if (items.length === 0) return null;
+            const accent = stanceColor(st);
             return (
-              <Section
+              <section
                 key={st}
-                label={STANCE_LABEL[st]}
-                meta={`${items.length}`}
+                className="rounded overflow-hidden"
+                style={{
+                  background: "var(--bg-elevated)",
+                  border: "1px solid var(--border-subtle)",
+                  borderTop: `2px solid ${accent}`,
+                }}
               >
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+                <div
+                  className="px-4 py-3 flex items-center justify-between"
+                  style={{ borderBottom: "1px solid var(--border-subtle)" }}
+                >
+                  <div className="flex items-center gap-3">
+                    <h2
+                      className="text-sm font-semibold"
+                      style={{ color: "var(--text-primary)" }}
+                    >
+                      {STANCE_LABEL[st]}
+                    </h2>
+                    <span
+                      className={`pill pill-solid pill-${stanceVariant(st)}`}
+                    >
+                      {items.length}
+                    </span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-px"
+                  style={{ background: "var(--border-subtle)" }}
+                >
                   {items
                     .sort((a, b) => a.ticker.localeCompare(b.ticker))
                     .map((e) => (
                       <CouncilCard key={e.ticker} e={e} />
                     ))}
                 </div>
-              </Section>
+              </section>
             );
           })}
 
+          {/* Earlier runs --------------------------------------- */}
           {previous.length > 0 && (
-            <Section
-              label="Earlier runs"
-              meta={`${previous.length}`}
+            <section
+              className="rounded overflow-hidden"
+              style={{
+                background: "var(--bg-elevated)",
+                border: "1px solid var(--border-subtle)",
+              }}
             >
-              <div className="card overflow-hidden">
-                <div className="max-h-72 overflow-y-auto">
-                  <table className="w-full">
-                    <thead>
-                      <tr className="border-b border-[var(--border-subtle)] sticky top-0 bg-[var(--bg-elevated)]">
-                        <th className="text-left type-h3 px-3 py-2">date</th>
-                        <th className="text-left type-h3 px-3 py-2">ticker</th>
-                        <th className="text-left type-h3 px-3 py-2">stance</th>
-                        <th className="text-left type-h3 px-3 py-2">conf</th>
-                        <th className="text-left type-h3 px-3 py-2">sector</th>
-                      </tr>
-                    </thead>
-                    <tbody className="type-mono-sm">
-                      {previous.slice(0, 100).map((e) => (
-                        <tr
-                          key={`${e.ticker}-${e.date}`}
-                          className="border-b border-[var(--border-subtle)] hover:bg-[var(--bg-overlay)] transition-colors"
-                        >
-                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
-                            {formatDate(e.date, "short")}
-                          </td>
-                          <td className="px-3 py-1.5">
-                            <Link
-                              href={`/council/${e.ticker}`}
-                              className="text-[var(--accent-glow)] hover:text-[var(--text-primary)] transition-colors"
-                            >
-                              {e.ticker}
-                            </Link>
-                          </td>
-                          <td className="px-3 py-1.5 text-[var(--text-secondary)]">
-                            {e.stance}
-                          </td>
-                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
-                            {e.confidence}
-                          </td>
-                          <td className="px-3 py-1.5 text-[var(--text-tertiary)]">
-                            {e.sector || "—"}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+              <div
+                className="px-4 py-3 flex items-center justify-between"
+                style={{ borderBottom: "1px solid var(--border-subtle)" }}
+              >
+                <h2
+                  className="text-sm font-semibold"
+                  style={{ color: "var(--text-primary)" }}
+                >
+                  Earlier runs
+                </h2>
+                <span
+                  className="text-[10px]"
+                  style={{ color: "var(--text-tertiary)" }}
+                >
+                  {previous.length} entradas
+                </span>
               </div>
-            </Section>
+              <div className="max-h-[360px] overflow-y-auto">
+                <table className="w-full">
+                  <thead className="sticky top-0">
+                    <tr
+                      className="text-[10px]"
+                      style={{
+                        color: "var(--text-label)",
+                        background: "var(--bg-overlay)",
+                        borderBottom: "1px solid var(--border-subtle)",
+                      }}
+                    >
+                      <th className="text-left px-4 py-2 font-semibold">
+                        Data
+                      </th>
+                      <th className="text-left px-3 py-2 font-semibold">
+                        Ticker
+                      </th>
+                      <th className="text-center px-3 py-2 font-semibold">
+                        Stance
+                      </th>
+                      <th className="text-center px-3 py-2 font-semibold">
+                        Conf
+                      </th>
+                      <th className="text-left px-3 py-2 font-semibold">
+                        Setor
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {previous.slice(0, 120).map((e) => (
+                      <tr
+                        key={`${e.ticker}-${e.date}`}
+                        className="hover:bg-[var(--jpm-card-hover)] transition-colors"
+                        style={{
+                          borderBottom: "1px solid var(--border-subtle)",
+                        }}
+                      >
+                        <td
+                          className="px-4 py-1.5 text-xs font-data"
+                          style={{ color: "var(--text-tertiary)" }}
+                        >
+                          {formatDate(e.date, "short")}
+                        </td>
+                        <td className="px-3 py-1.5">
+                          <Link
+                            href={`/council/${e.ticker}`}
+                            className="text-xs font-data font-bold hover:underline"
+                            style={{ color: "var(--text-primary)" }}
+                          >
+                            {e.ticker}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-1.5 text-center">
+                          <span
+                            className={`pill pill-${stanceVariant(e.stance)}`}
+                          >
+                            {e.stance.replace("_", " ")}
+                          </span>
+                        </td>
+                        <td
+                          className="px-3 py-1.5 text-center text-xs font-data"
+                          style={{ color: "var(--text-secondary)" }}
+                        >
+                          {e.confidence}
+                        </td>
+                        <td
+                          className="px-3 py-1.5 text-xs"
+                          style={{ color: "var(--text-tertiary)" }}
+                        >
+                          {e.sector || "—"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
           )}
         </>
       )}
@@ -145,77 +275,115 @@ export default function CouncilIndexPage() {
   );
 }
 
-function CountBox({
+// ─── Components ──────────────────────────────────────────────────────
+
+function CountBlock({
   label,
   n,
   variant,
 }: {
   label: string;
   n: number;
-  variant?: "buy" | "hold" | "avoid";
+  variant?: "buy" | "hold" | "avoid" | "na";
 }) {
-  const cls =
+  const color =
     variant === "buy"
-      ? "border-[rgba(34,197,94,0.3)] text-[var(--verdict-buy)]"
+      ? "var(--verdict-buy)"
       : variant === "hold"
-      ? "border-[rgba(245,158,11,0.3)] text-[var(--verdict-hold)]"
+      ? "var(--verdict-hold)"
       : variant === "avoid"
-      ? "border-[rgba(239,68,68,0.3)] text-[var(--verdict-avoid)]"
-      : "border-[var(--border-subtle)] text-[var(--text-primary)]";
+      ? "var(--verdict-avoid)"
+      : variant === "na"
+      ? "var(--verdict-na)"
+      : "var(--text-primary)";
   return (
-    <div className={`card p-3 ${cls}`}>
-      <div className="type-h3">{label}</div>
-      <div className="type-display tabular mt-1">{n}</div>
+    <div
+      className="p-4 rounded"
+      style={{
+        background: "var(--bg-elevated)",
+        border: "1px solid var(--border-subtle)",
+      }}
+    >
+      <p
+        className="text-[10px] font-semibold tracking-wider uppercase mb-1.5"
+        style={{ color: "var(--text-label)" }}
+      >
+        {label}
+      </p>
+      <p className="text-2xl font-display font-bold" style={{ color }}>
+        {n}
+      </p>
     </div>
   );
 }
 
 function CouncilCard({ e }: { e: CouncilEntry }) {
-  const mos =
-    e.margin_of_safety && e.margin_of_safety !== 0
-      ? formatPercent(e.margin_of_safety, 1, { fromFraction: true })
-      : null;
+  const accent = stanceColor(e.stance);
   return (
     <Link
       href={`/council/${e.ticker}`}
-      className="card p-4 hover:border-[var(--border-strong)] transition-colors block group"
+      className="block p-4 hover:bg-[var(--jpm-card-hover)] transition-colors"
+      style={{ background: "var(--bg-elevated)" }}
     >
-      <header className="flex items-center justify-between mb-2">
-        <h3 className="type-mono text-[var(--accent-glow)] group-hover:text-[var(--text-primary)] transition-colors text-base">
+      <div className="flex items-center justify-between mb-2">
+        <h3
+          className="text-base font-data font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
           {e.ticker}
         </h3>
-        <StancePill stance={e.stance} confidence={e.confidence} />
-      </header>
+        <span className={`pill pill-solid pill-${stanceVariant(e.stance)}`}>
+          {e.stance.replace("_", " ")}
+        </span>
+      </div>
       <div className="flex items-center gap-2 flex-wrap mb-2">
-        <Pill variant={pillVariantFromMarket(e.market)}>
-          {e.market.toUpperCase()}
-        </Pill>
+        {e.market && (
+          <span
+            className={`pill pill-${e.market === "br" ? "mkt-br" : "mkt-us"}`}
+          >
+            {String(e.market).toUpperCase()}
+          </span>
+        )}
+        {e.is_holding && <span className="pill pill-gold">HOLDING</span>}
         {e.modo && (
-          <span className="type-mono-sm text-[var(--text-tertiary)]">
+          <span
+            className="text-[10px]"
+            style={{ color: "var(--text-tertiary)" }}
+          >
             modo {e.modo}
           </span>
         )}
-        {e.is_holding && <Pill variant="purple">holding</Pill>}
       </div>
       {(e.dissent_count > 0 || e.flag_count > 0) && (
         <div className="flex gap-2 mb-1.5">
           {e.dissent_count > 0 && (
-            <Pill variant="hold">◇ {e.dissent_count} dissent</Pill>
+            <span className="pill pill-hold">
+              ◇ {e.dissent_count} dissent
+            </span>
           )}
           {e.flag_count > 0 && (
-            <Pill variant="avoid">⚑ {e.flag_count} pre-pub</Pill>
+            <span className="pill pill-avoid">⚑ {e.flag_count} flag</span>
           )}
         </div>
       )}
-      {e.seats.length > 0 && (
-        <p className="type-mono-sm text-[var(--text-tertiary)] truncate">
-          {e.seats.slice(0, 4).join(" · ")}
-          {e.seats.length > 4 && ` +${e.seats.length - 4}`}
+      {e.philosophy_primary && (
+        <p
+          className="text-[11px] leading-snug truncate"
+          style={{ color: "var(--text-tertiary)" }}
+          title={e.philosophy_primary}
+        >
+          {e.philosophy_primary}
         </p>
       )}
-      {mos && (
-        <p className="type-mono-sm text-[var(--text-secondary)] mt-1">
-          MoS {mos}
+      {e.margin_of_safety !== null && (
+        <p
+          className="text-[11px] font-data mt-1"
+          style={{ color: "var(--text-secondary)" }}
+        >
+          MoS{" "}
+          <span style={{ color: accent }}>
+            {(e.margin_of_safety * 100).toFixed(1)}%
+          </span>
         </p>
       )}
     </Link>

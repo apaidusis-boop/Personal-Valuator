@@ -18,5 +18,8 @@ const SCRIPT = `
 `.trim();
 
 export default function ThemeInit() {
-  return <script dangerouslySetInnerHTML={{ __html: SCRIPT }} />;
+  // suppressHydrationWarning: browser extensions (anti-fingerprint, dark-mode forcers)
+  // routinely splice elements into <head> before React hydrates. The script content
+  // is static, so a mismatch here is always extension noise, not a real bug.
+  return <script suppressHydrationWarning dangerouslySetInnerHTML={{ __html: SCRIPT }} />;
 }
