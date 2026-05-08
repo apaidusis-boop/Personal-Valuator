@@ -6,7 +6,7 @@ supersedes:
   - skills/Roadmap.md (Phase W detail kept for reference)
   - skills/Phase_Y_Roadmap.md (mostly shipped)
   - skills/Mission_Control_Design_Roadmap.md (v3 superseded by v5 JPM)
-  - Roadmap_Always_On_Workforce.md (EE shipped today; rest queued here)
+  - Roadmap_Always_On_Workforce.md (EE+HH+II shipped; rest queued here)
 tags: [roadmap, master, canonical, governance]
 ---
 
@@ -28,7 +28,7 @@ tags: [roadmap, master, canonical, governance]
 
 ## 📊 Snapshot 2026-05-08
 
-**Status global**: sistema é maduro. 128 commits desde 2026-04-20. Closed-loop validation infra completa (Phase FF). Tiered scheduler shipped (Phase EE-AOW). Mission Control v6.1 com /calibration, /decisions, /perpetuums pages live.
+**Status global**: sistema é maduro. 132 commits desde 2026-04-20. Closed-loop validation infra completa (Phase FF). Tiered scheduler + budget/health + news stream shipped (Phase EE/HH/II-AOW). Mission Control v6.1 com /calibration, /decisions, /perpetuums pages live. Tier 1 queue: 6/7 done (só schtasks user action pendente).
 
 **Aguardando**:
 - ≥90 dias de validated verdicts → destrava Phase GG (Capital Deployment Engine). Estamos a ~13d in (window real Aug/2026).
@@ -45,6 +45,10 @@ tags: [roadmap, master, canonical, governance]
 
 | Data | Phase / Sprint | Resumo |
 |---|---|---|
+| **2026-05-08** | **W.7** skill_scout cron | `agents/skill_scout.py` audita SKL_*.md vs git activity. 19 skills scanned, 13 active, 3 backlog, 0 decay. Read-only/zero LLM. `ii skill-scout` shortcut. Commit `b76f2ff`. |
+| **2026-05-08** | **W.1** PDF Claude fallback | `_pdf_extract.py::extract_insights(use_claude_pdf=False)` opt-in via `claude-haiku-4-5-20251001`. `ii subs extract --use-claude` flag. Default OFF (in-house first). Commit `35b59cd`. |
+| **2026-05-08** | **W.6.3** LangFuse observability | `agents/_observability.py::trace_llm_call` decorator. JSONL traces em `data/traces/llm_traces_<DATE>.jsonl`. `ollama_call` wrapped. Optional LangFuse forward via env vars. `config/langfuse/docker-compose.yml`. Commit `bfd4905`. |
+| **2026-05-08** | **Phase HH-AOW + II-AOW Mini** | `agents/_health.py` (probes + circuit breaker + Tavily bucket allocation). `config/tavily_buckets.yaml` (4 buckets x 100/day). Health-first em hourly+q4h bats. News stream wired (RSS hourly + Qwen classify). `ii health` shortcut. Commit `d71ea1b`. |
 | **2026-05-08** | **Phase EE-AOW** Tiered Scheduler | `agents/_lock.py` + `hourly_run.bat` + `q4h_run.bat` + `daily_run.bat` refactor. Scheduler 3-tier com PID lockfiles. SEC inserted 7 events em smoke test. Doc: [[skills/Phase_EE_Tiered_Scheduler]]. Commit `ec40283`. |
 | **2026-05-08** | **Phase FF CLOSED** | Calibration Loop fechado. Blocos 1.1/1.2/2.1/2.2/3.1/3.2/3.3/4.1 todos shipped. Bonus: `decision_journal_intel` windowing fix. Commit `8059b98`. |
 | **2026-05-07/08** | **MC v6.1** /perpetuums | Health dashboard + Helena audit refresh. Commit `6336cdf`. |
@@ -109,12 +113,12 @@ Phases F (and earlier) shipped antes do Constitution ser criado. Detalhe não co
 | Prioridade | Phase | Effort | Done quando |
 |---|---|---|---|
 | **1** | **User register schtasks** (Phase EE pending) | 5min user action | hourly + q4h tasks visíveis em `schtasks /Query` |
-| **2** | **Phase HH-AOW** Budget & Health | 1-2d | Tavily quota allocation + `_health.py` + circuit breaker |
-| **3** | **Phase II-AOW** Stream Layer Mini (news RSS hourly) | 1d | News fetch hourly com classifier |
-| **4** | **W.1** PDF/XLSX Document Skills | 1-2d | Suno/XP PDF extraction via skill |
-| **5** | **W.6.3** LangFuse self-host | 1d | Docker compose + decorator no `ollama_call` |
-| **6** | **W.7** skill_scout cron mensal | 0.5d | `agents/skill_scout.py` + monthly report |
-| **7** | **U.1** Home minimalista (deprecated React, MC v6.1 cobre) | 0d | ✅ already covered by MC v6.1 |
+| ~~2~~ | ~~**Phase HH-AOW** Budget & Health~~ | ✅ shipped 2026-05-08 (`d71ea1b`) | done |
+| ~~3~~ | ~~**Phase II-AOW** Stream Layer Mini~~ | ✅ shipped 2026-05-08 (`d71ea1b`) | done |
+| ~~4~~ | ~~**W.1** PDF/XLSX Document Skills~~ | ✅ shipped 2026-05-08 (`35b59cd`) | done — XLSX still untouched (low priority) |
+| ~~5~~ | ~~**W.6.3** LangFuse self-host~~ | ✅ shipped 2026-05-08 (`bfd4905`) | done — user runs `docker compose up -d` when wanted |
+| ~~6~~ | ~~**W.7** skill_scout cron mensal~~ | ✅ shipped 2026-05-08 (`b76f2ff`) | done — first report 19 skills, 0 decay |
+| ~~7~~ | ~~**U.1** Home minimalista~~ | ✅ already covered by MC v6.1 | done |
 
 ### Tier 2 — Medium value, medium effort (1-3 months)
 
