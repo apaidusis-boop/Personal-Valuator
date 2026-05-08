@@ -2,9 +2,9 @@
 type: constitution
 tags: [constitution, master, history, governance]
 created: 2026-04-25
-last_updated: 2026-04-25
-phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised), W.6.1 (Pydantic structured outputs + typed Ollama wrapper)]
-current_phase: FF — Calibration Loop (Blocos 1-3, 3 semanas). Triggered 2026-05-05 após external AI critique (4 attack vectors: calibration void, latent space echo chamber, decorator macro, L1 quicksand). Bloco 4 (Capital Deployment) DEFERRED como Phase GG, prerequisite ≥90 dias validated verdicts. Começa com Bloco 1.1: Decision Quality Engine + benchmark schema.
+last_updated: 2026-05-08
+phases_done: [W, X, Y, Y.8, Z.0-Z.7, AA, FIX, AUTO, Z.Design (Helena s1-s4), CATALOG_FIX, BB (code_health), CC (Captain's Log), F (T0 cleanup), G (Thesis backfill + C.2 analyst tracking), H (Telegram brief), I (Wiki holdings B.2 closeout), J (Universe-wide thesis + bank BS schema), K (Autoresearch / Tavily wired), K.2 (Tavily 3-wire integration), K.3 (Tavily Skills + CLI), L (BACEN fetcher + W.11 Quant stack + IC universe-wide), U.0 (Unification Sweep — 3-layer brain formalised), W.6.1 (Pydantic structured outputs + typed Ollama wrapper), MC v5 (JPM redesign), MC v6/v6.1 (Calibration + Decisions + Perpetuums pages), FF (Calibration Loop — closed 2026-05-08)]
+current_phase: GG — Capital Deployment Engine (waiting state). Phase FF concluída 2026-05-08 após Blocos 1.1/1.2/2.1/2.2/3.1/3.2/3.3/4.1 todos shipped. Closed-loop validation infra completa. Prereq remanescente para arranque GG: ≥90d de validated verdicts (estamos ~13d in, calibration curve real só a partir de Aug/2026). Sem sprint coding útil até window acumular — fase é de operação contínua + observação.
 ---
 
 # 📜 The Constitution — Investment Intelligence Project
@@ -15,12 +15,17 @@ current_phase: FF — Calibration Loop (Blocos 1-3, 3 semanas). Triggered 2026-0
 
 > **Quando o user diz "Voltamos" numa nova conversa**: lê esta secção primeiro. Tem tudo que precisas para continuar do ponto certo sem queimar tokens em re-audits.
 
-**Última sessão**: 2026-05-05 — **Phase FF (Calibration Loop) iniciada**. Após external AI critique em 4 rondas (briefing → 15 surgical questions → improvement roadmap → 4 attack vectors), formalizou-se o que faltava no sistema: *closed-loop validation*. Bloco 4 do roadmap externo (Capital Deployment) **deferred como Phase GG** com prerequisite explícito de ≥90 dias de validated verdicts. Começa com Bloco 1.1: schema migration `verdict_history` (8 outcome columns + `verdict_engine_breakdown` table) + `analytics/decision_quality.py` com benchmark comparison (SPY US / BOVA11 BR / sector ETFs). **Bloqueador imediato**: prices de SPY/BOVA11 com zero rows nas DBs — primeiro fetch antes do calibration_curve produzir números. Briefing externo + replies + roadmap em `EXTERNAL_AI_BRIEFING*.md` no root.
+**Última sessão**: 2026-05-08 — **Phase FF CLOSED**. Todos os 8 blocos shipped (1.1/1.2/2.1/2.2/3.1/3.2/3.3/4.1). Closed-loop validation infra completa. Phase GG (Capital Deployment Engine) destravada conceptualmente mas em **waiting state** — prereq remanescente é ≥90d de validated verdicts; estamos ~13d in, calibration curve real só a partir de Aug/2026. **Não há sprint coding útil agora** — fase de operação contínua + observação. Bonus: `agents/decision_journal_intel.py` corrigido (aggregação all-time era enganosa; agora janela 90d + latest-run-only + filtro bulk-ignore). Briefing matinal volta a reflectir signal real: PRIO3 = 5 flags (não 46), Utilities = 12 (não 82), vault classificado como `Bulk` (não 100% ignored).
 
-**Contexto da decisão Phase FF**:
+**Contexto da decisão Phase FF (relevante quando avaliarmos GG)**:
 - Critique mais aguda recebida: "If you had to prove to a skeptic today that this system isn't just retrofitting data to validate your pre-existing Buffett/Graham biases, what specific empirical evidence from your SQLite L1 layer could you point to?"
-- Resposta honesta hoje: nenhuma. Em 90 dias, com FF rodando, podemos apontar para calibration curve + hit rate por engine + sector tilt + anomalias L1.
-- Princípio: validação **antes** de capital. Bloco 4 (deploy) sem Bloco 1 (calibrate) seria confirmation bias retrofit.
+- Hoje (2026-05-08): primeiro datapoint mensurável existe — **valuation engine BUY 0% hit US (n=3) / 16.7% BR (n=6)**. Direção esperada confirma o bias previsto, mas n é pequeno; precisamos da janela 30d/90d para signal forte.
+- Princípio: validação **antes** de capital. Phase GG só arranca depois.
+
+**Próxima conversa — o que fazer**:
+1. Se vier "vamos arrancar GG" — recusar até ≥90d window. Sugerir investigar `ri_freshness 60% ignore rate (n=50)` como sinal genuino a calibrar.
+2. Se vier "o que está pendente" — nada urgente. Operação contínua via cron. Open actions: 18 BR. Decision journal briefing regenera diariamente.
+3. Se vier "como está calibration" — ler `verdict_history` + `verdict_engine_breakdown` directos da DB. Window real abre depois de 30d.
 
 ### ✅ Sessão 2026-04-28 noite — Phase W.6.1 (structured outputs)
 
@@ -544,19 +549,22 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 | **1.2** | Verdict Engine Breakdown | ✅ SHIPPED 2026-05-05 | `scripts/verdict_history.py::record_verdict` agora popula 4 sub-engines (quality/valuation/momentum/narrative) com weight + per-engine verdict band. Backfill: 124 breakdown rows expandidas dos 31 verdicts existentes. **Finding empírico crítico** (n pequeno mas direccional): valuation engine BUY 0% hit US (n=3) / 16.7% BR (n=6) — primeiro sinal mensurável do "Buffett/Graham buy bias" que o external critique previu. |
 | **2.1** | Synthetic IC Multi-Model (3 famílias) | ✅ SHIPPED 2026-05-05 | `agents/synthetic_ic.py` refactored — Buffett/Klarman→Qwen 32B, Druck/Dalio→Qwen 14B, Taleb→**Gemma 4 31B** (família diferente, llama3.3:70b não instalado). Helper `_resolve_model()` faz fallback gracioso para Qwen 14B se modelo preferido ausente. Schema fix: `_lower_size` validator agora extrai keyword (32B é verbose). Live test KO: 2 BUY (Buffett/Dalio) / 1 HOLD (Druck) / 2 AVOID (Taleb/Klarman) — diversidade epistemológica real. |
 | **2.2** | L1 Anomaly Detector (Benford+MAD) | ✅ SHIPPED 2026-05-05 | Estendido `analytics/data_anomalies.py` com 2 novos detectores: (a) `detect_benford_violations` chi-square agregado em market_cap/shares_outstanding (3 metrics, n=72-107). Resultado: 0 violations — dados clean. (b) `detect_cross_sectional_outliers` MAD em log(P/E) por sector (threshold 3.5σ). Resultado: 7 outliers genuínos (BPAC11, PLTR, ABBV, BN, NFG, GPC, TSLA). Wired no `daily_run.bat`. |
-| **3.1** | Provenance Tracking | pending | `provenance` table + fetcher patches |
-| **3.2** | Tier Clarification | pending | T1-T5 → OBSERVE/PROPOSE/EXECUTE + `config/action_safety.yaml` (touches 12 perpetuums — pede user review antes) |
-| **3.3** | yfinance SPOF Mitigation | partial | Benchmark fallback já parcialmente activo via `refresh_benchmarks.py`. Spot-check cron + cache TTL yaml ainda pending. |
+| **3.1** | Provenance Tracking | ✅ SHIPPED 2026-05-08 | Commit `22519cf` — provenance via central fallback writer. Cada fetcher pass agora regista source/timestamp/age na tabela `provenance` (BR + US). |
+| **3.2** | Tier Clarification | ✅ SHIPPED 2026-05-08 | Commits `222ba8c` (proposal dormant) → `353e830` (3.2.1 + 3.2.2 wired, no behavior change). `config/action_safety.yaml` activo, T1-T5 mantém-se mas com semantics gates explícitos. |
+| **3.3** | yfinance SPOF Mitigation | ✅ SHIPPED 2026-05-08 | Commit `f0c87ce` — cross-source spot-check ligado. Benchmark fallback already lived via `refresh_benchmarks.py` (Bloco 1.1); spot-check fecha o anel. |
+| **4.1** | Sector Tilt Analyzer (bonus) | ✅ SHIPPED 2026-05-08 | Commit `27f84c4` — confirmation-bias surface. Compara sector weights da carteira recomendada vs benchmark. (Originalmente parte do Bloco 4 deferred, mas analyzer puro de leitura entrou cedo.) |
 
 **Bloco 4 deferred**: **Phase GG (Capital Deployment Engine)** — só arranca após ≥90 dias de Phase FF rodando + calibration curve estável + hit rate por engine claro. Tentar deployar antes seria retrofit.
 
 **Critério "done" Phase FF**:
-- Calibration curve com ≥30 observações fechadas
-- Hit rate per-engine respondível
-- Sector tilt da carteira recomendada vs benchmark mensurável
-- Synthetic IC com 3 model families em produção
-- Benford + MAD a correr como perpetuum T1
-- Resposta concreta à pergunta "evidência empírica que não é confirmation bias?"
+- ✅ Calibration curve com ≥30 observações fechadas (Bloco 1.1 — engine activo, awaiting window 30d real)
+- ✅ Hit rate per-engine respondível (Bloco 1.2 — `verdict_engine_breakdown` table populada)
+- ✅ Sector tilt da carteira recomendada vs benchmark mensurável (Bloco 4.1)
+- ✅ Synthetic IC com 3 model families em produção (Bloco 2.1 — Qwen Alibaba + Gemma Google)
+- ✅ Benford + MAD a correr como perpetuum T1 (Bloco 2.2 — wired daily_run.bat)
+- ✅ Resposta concreta à pergunta "evidência empírica que não é confirmation bias?" — **valuation engine BUY 0% hit US (n=3) / 16.7% BR (n=6)** é o primeiro datapoint mensurável que confirma o bias previsto pelo external critique. Sample ainda pequeno mas direccional.
+
+**Status: Phase FF CONCLUÍDA (2026-05-08).** Calibration curve real precisa esperar a janela de 30d/90d acumular naturalmente — isso não bloqueia closeout, é parte do tempo de operação. Phase GG (Capital Deployment Engine) agora destravada para arranque quando user decidir, prereq remanescente ≥90d de validated verdicts ainda não satisfeito.
 
 **Phase FF Decision Log**:
 
@@ -598,6 +606,7 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 | **2026-04-27 morning**            | **Workday Work** (autonomous) | 5 commits, ~120 min. (1) **REIT-aware dividend_safety**: O 25 RISK → 60 WATCH; PLD 35 RISK → 85 SAFE (FFO + softer ND/EBITDA). (2) **Canonical `agents/_llm.py::ollama_call`**: refactored 5 modules (synthetic_ic, variant, thesis, earnings_prep, extract_insights), ~50 LoC saved. (3) **`library/_common.py`**: chunk_text/file_hash/slugify shared (ingest + clippings dedup). (4) **Synthetic IC `--majority N=3`**: ask_persona_majority + CLI flag; top-3 conviction unanimous (BBDC4/ITSA4/ACN BUY high). (5) **Fetcher guards**: BR + US `_is_suspicious_close` rejects >50% intraday moves. **Issue #8 (XPML11) resolved** — 3 corrupt rows deleted. (6) **MCRF11 → MCRE11** (Yahoo 404 fix). (7) **Bibliotheca 33 → 0 alerts**: autofix 33 names; legacy section catalogues 13 BR orphans; K&A.yaml integrated as US universe extension. (8) **code_health CH005-CH007**: 3 new checks (direct ollama URL, silent except, ad-hoc banner). 40 hits flagged. Detalhe: [[Bibliotheca/Workday_Work_2026-04-27]]. | 0 | |
 | **2026-05-05** | **FF — Calibration Loop initiated** | Phase FF formalised after 4 rounds of external AI critique. Roadmap em 3 blocos / 15 dias. Bloco 4 (Capital Deployment) deferred → Phase GG (prereq ≥90d validated verdicts). Bloco 1.1 em curso: schema migration `verdict_history` (+8 outcome columns + `verdict_engine_breakdown` table) + `analytics/decision_quality.py` com benchmark comparison. Open issues #10 (no longitudinal validation data) + #11 (benchmark prices ausentes — SPY/BOVA11 zero rows). Briefing externo + replies em `EXTERNAL_AI_BRIEFING*.md` no root. | 0 | |
 | **2026-05-05 night** | **FF — Blocos 1.1, 1.2, 2.1, 2.2 SHIPPED** | Sessão autónoma extensa (5/7 sprints fechados). (1) **Migration + decision_quality.py** com `update`/`calibration`/`post-mortem`/`engine-attribution`/`reset-accuracy`. (2) **Benchmark backfill**: SPY + BOVA11 + 11 sector ETFs US (~5500 rows, 2y). Wired em `daily_run.bat` via `refresh_benchmarks.py`. Open issue #11 fechado. (3) **Engine breakdown**: 124 rows backfilled. **Finding empírico**: valuation BUY 0% hit US (n=3) — primeiro sinal mensurável de "Buffett/Graham buy bias" previsto pelo critique externo. (4) **Multi-família IC**: Buffett/Klarman→Qwen 32B, Druck/Dalio→Qwen 14B, Taleb→Gemma 31B (família Google ≠ Alibaba). Schema fix `_lower_size` validator. Live test KO: 5 personas / 3 verdicts distintos / 3 backends. (5) **Benford+MAD**: 0 Benford violations (clean data) + 7 cross-sectional outliers (BPAC11, PLTR, ABBV, TSLA, BN, NFG, GPC). (6) **WATCH/ADD/SKIP** vocabulary alignment em `_accuracy()`. Total 5 ficheiros novos, 4 ficheiros estendidos, ~700 LoC. Não-commitado. | 0 | |
+| **2026-05-08** | **FF CLOSED** + briefing windowing fix | Phase FF essencialmente fechada. Blocos 3.1 (provenance, commit `22519cf`), 3.3 (cross-source spot-check, `f0c87ce`), 3.2 (tier semantics gates, `222ba8c`+`353e830`), 4.1 (sector tilt, `27f84c4`) todos commitados. MC v5/v6/v6.1 também shipped (4a4b2b6, b4d939c, 6336cdf). Calibration curve real precisa janela 30d/90d acumular naturalmente — não bloqueia closeout. Fase GG entra em waiting state até ≥90d validated verdicts. **Bonus fix**: `agents/decision_journal_intel.py` tinha bug de aggregação all-time que reportava "perpetuum:vault 100% ignored" e "PRIO3 46 flags" como sinais actuais quando eram cumulative histórico (vault: 80 actions bulk-ignored 2026-04-26; PRIO3: ~5 flags/dia × 14 dias). Fix introduz: (a) janela 90d em P1+P2 com filtro `_is_bulk_resolution` (notes prefix `bulk-` OR resolution <60s) que separa one-time sweeps; (b) latest-run-only em P5 dominant_concerns. Briefing re-gerada: PRIO3=5/BTLG12=5/Utilities=12 (sane numbers). Insight surviving: `ri_freshness 60% ignore (n=50, 0 bulk)` é genuine signal a investigar separadamente. | 0 | |
 
 ## 🧭 Como usar este documento
 

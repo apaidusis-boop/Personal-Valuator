@@ -26,7 +26,7 @@ import re
 import sqlite3
 import sys
 from collections import Counter, defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,11 +34,59 @@ DBS = {"br": ROOT / "data" / "br_investments.db", "us": ROOT / "data" / "us_inve
 TICKERS_DIR = ROOT / "obsidian_vault" / "tickers"
 BRIEFINGS_DIR = ROOT / "obsidian_vault" / "briefings"
 
+# Recency window: actions opened/resolved more than RECENT_DAYS ago are excluded
+# from P1+P2 aggregation. Without this filter, one-time bulk-ignores (eg the
+# 80 vault drift items closed in T0 cleanup 2026-04-26) dominate the report
+# permanently and produce false "100% ignored" signals long after the fact.
+RECENT_DAYS = 90
 
-def pattern_action_resolution() -> dict:
-    """P1+P2: ignore rate por kind + average resolution time."""
-    out = {"by_kind": [], "overall": {}}
-    by_kind = defaultdict(lambda: {"open": 0, "resolved": 0, "ignored": 0, "resolution_days": []})
+
+def _within_window(iso: str | None, cutoff: datetime) -> bool:
+    if not iso:
+        return False
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    except Exception:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt >= cutoff
+
+
+def _is_bulk_resolution(notes: str | None, opened_at: str | None, resolved_at: str | None) -> bool:
+    """Detect one-time bulk-ignore/bulk-resolve sweeps.
+
+    Two heuristics, either is sufficient:
+      - notes prefix "bulk-" (eg "bulk-ignored 2026-04-26 T0 cleanup")
+      - resolution time < 60 seconds (impossibly fast for a real review)
+    """
+    if notes and notes.lower().lstrip().startswith("bulk"):
+        return True
+    if opened_at and resolved_at:
+        try:
+            oa = datetime.fromisoformat(opened_at.replace("Z", "+00:00"))
+            ra = datetime.fromisoformat(resolved_at.replace("Z", "+00:00"))
+            return (ra - oa).total_seconds() < 60
+        except Exception:
+            return False
+    return False
+
+
+def pattern_action_resolution(recent_days: int = RECENT_DAYS) -> dict:
+    """P1+P2: ignore rate por kind + avg resolution time, filtered to last N days.
+
+    An action counts toward the window if either opened_at OR resolved_at is
+    inside the window. Bulk-resolution events (notes starts with "bulk-" or
+    resolution <60s) are tracked separately and excluded from ignore_rate%
+    so one-time cleanup sweeps don't permanently distort behaviour signal.
+    """
+    out = {"by_kind": [], "overall": {}, "window_days": recent_days}
+    by_kind = defaultdict(lambda: {
+        "open": 0, "resolved": 0, "ignored": 0,
+        "bulk_resolved": 0, "bulk_ignored": 0,
+        "resolution_days": [],
+    })
+    cutoff = datetime.now(timezone.utc) - timedelta(days=recent_days)
     for db in DBS.values():
         if not db.exists():
             continue
@@ -46,37 +94,54 @@ def pattern_action_resolution() -> dict:
             c.row_factory = sqlite3.Row
             try:
                 rows = c.execute("""
-                    SELECT kind, status, opened_at, resolved_at FROM watchlist_actions
+                    SELECT kind, status, opened_at, resolved_at, notes FROM watchlist_actions
                 """).fetchall()
             except sqlite3.OperationalError:
                 continue
             for r in rows:
                 k = r["kind"] or "?"
                 s = r["status"] or "open"
-                if s in ("open", "resolved", "ignored"):
-                    by_kind[k][s] += 1
-                if s in ("resolved", "ignored") and r["opened_at"] and r["resolved_at"]:
+                in_window = _within_window(r["opened_at"], cutoff) or _within_window(r["resolved_at"], cutoff)
+                if not in_window:
+                    continue
+                bulk = s in ("resolved", "ignored") and _is_bulk_resolution(r["notes"], r["opened_at"], r["resolved_at"])
+                if s == "open":
+                    by_kind[k]["open"] += 1
+                elif s == "resolved":
+                    if bulk:
+                        by_kind[k]["bulk_resolved"] += 1
+                    else:
+                        by_kind[k]["resolved"] += 1
+                elif s == "ignored":
+                    if bulk:
+                        by_kind[k]["bulk_ignored"] += 1
+                    else:
+                        by_kind[k]["ignored"] += 1
+                if s in ("resolved", "ignored") and not bulk and r["opened_at"] and r["resolved_at"]:
                     try:
                         oa = datetime.fromisoformat(r["opened_at"].replace("Z", "+00:00"))
                         ra = datetime.fromisoformat(r["resolved_at"].replace("Z", "+00:00"))
-                        days = (ra - oa).total_seconds() / 86400
-                        by_kind[k]["resolution_days"].append(days)
+                        by_kind[k]["resolution_days"].append((ra - oa).total_seconds() / 86400)
                     except Exception:
                         pass
 
     for k, v in by_kind.items():
-        n = v["open"] + v["resolved"] + v["ignored"]
-        if n == 0:
+        n_active = v["open"] + v["resolved"] + v["ignored"]
+        n_bulk = v["bulk_resolved"] + v["bulk_ignored"]
+        n_total = n_active + n_bulk
+        if n_total == 0:
             continue
-        ignore_rate = v["ignored"] / n
-        avg_days = sum(v["resolution_days"]) / max(len(v["resolution_days"]), 1)
+        ignore_rate = v["ignored"] / n_active if n_active else None
+        avg_days = sum(v["resolution_days"]) / max(len(v["resolution_days"]), 1) if v["resolution_days"] else None
         out["by_kind"].append({
-            "kind": k, "n": n,
+            "kind": k, "n": n_total,
             "open": v["open"], "resolved": v["resolved"], "ignored": v["ignored"],
-            "ignore_rate_pct": round(ignore_rate * 100, 1),
-            "avg_resolution_days": round(avg_days, 1) if v["resolution_days"] else None,
+            "bulk": n_bulk,
+            "ignore_rate_pct": round(ignore_rate * 100, 1) if ignore_rate is not None else None,
+            "avg_resolution_days": round(avg_days, 1) if avg_days is not None else None,
         })
-    out["by_kind"].sort(key=lambda x: -x["ignore_rate_pct"])
+    # Sort: highest non-null ignore_rate first; then by activity volume
+    out["by_kind"].sort(key=lambda x: (-(x["ignore_rate_pct"] or -1), -x["n"]))
     return out
 
 
@@ -150,7 +215,14 @@ def pattern_paper_trade_outcomes() -> dict:
 
 
 def pattern_dominant_concerns() -> dict:
-    """P4+P5: tickers + sectors most flagged in perpetuum + risk_auditor."""
+    """P4+P5: tickers + sectors most flagged — latest run per perpetuum only.
+
+    Without the latest-run filter, daily perpetuum runs accumulate flag_count
+    per ticker indefinitely (eg PRIO3 with ~5 flags/day for 14 days = 70 cumulative)
+    which produces alarming-looking concentrations that are just elapsed time,
+    not signal intensity. We snapshot the most recent run per perpetuum and
+    sum across perpetuums for a given ticker to surface CURRENT concern.
+    """
     ticker_flags = Counter()
     sector_flags = Counter()
 
@@ -159,12 +231,17 @@ def pattern_dominant_concerns() -> dict:
             continue
         with sqlite3.connect(db) as c:
             c.row_factory = sqlite3.Row
-            # From perpetuum_health (low scores)
+            # Latest-run-only per perpetuum × subject (over filtered perpetuums)
             try:
                 rows = c.execute("""
                     SELECT subject_id, flag_count FROM perpetuum_health
                     WHERE perpetuum_name IN ('thesis', 'data_coverage', 'ri_freshness')
                       AND score >= 0 AND flag_count > 0
+                      AND (perpetuum_name, run_date) IN (
+                          SELECT perpetuum_name, MAX(run_date) FROM perpetuum_health
+                          WHERE perpetuum_name IN ('thesis', 'data_coverage', 'ri_freshness')
+                          GROUP BY perpetuum_name
+                      )
                 """).fetchall()
                 for r in rows:
                     subj = r["subject_id"]
@@ -203,17 +280,24 @@ def write_report(p1: dict, p2: dict, p3: dict, p4: dict) -> Path:
         "",
         "> Pattern mining em past decisions, actions, paper signals, e thesis decay. 100% local SQL.",
         "",
-        "## 🔁 Pattern 1+2 — Action resolution patterns",
+        f"## 🔁 Pattern 1+2 — Action resolution patterns (last {p1.get('window_days', RECENT_DAYS)}d)",
+        "",
+        f"> Window {p1.get('window_days', RECENT_DAYS)}d: action conta se foi aberta OU resolvida no período. "
+        "Exclui bulk-ignores históricos para que ignore-rate reflicta comportamento actual.",
         "",
     ]
     if p1["by_kind"]:
-        lines.append("| Kind | n | Open | Resolved | Ignored | Ignore% | Avg days |")
-        lines.append("|---|---:|---:|---:|---:|---:|---:|")
+        lines.append("| Kind | n | Open | Resolved | Ignored | Bulk | Ignore% | Avg days |")
+        lines.append("|---|---:|---:|---:|---:|---:|---:|---:|")
         for k in p1["by_kind"]:
-            avg = f"{k['avg_resolution_days']:.1f}d" if k['avg_resolution_days'] else "—"
-            lines.append(f"| {k['kind']} | {k['n']} | {k['open']} | {k['resolved']} | {k['ignored']} | {k['ignore_rate_pct']}% | {avg} |")
+            avg = f"{k['avg_resolution_days']:.1f}d" if k['avg_resolution_days'] is not None else "—"
+            rate = f"{k['ignore_rate_pct']}%" if k['ignore_rate_pct'] is not None else "—"
+            lines.append(f"| {k['kind']} | {k['n']} | {k['open']} | {k['resolved']} | {k['ignored']} | {k['bulk']} | {rate} | {avg} |")
+        lines.append("")
+        lines.append("> **Bulk** = one-time sweep (notes starts with `bulk-` ou resolução <60s). "
+                     "Excluído de Ignore% para preservar signal de comportamento real.")
     else:
-        lines.append("_No action history yet._")
+        lines.append(f"_No action activity in last {p1.get('window_days', RECENT_DAYS)} days._")
     lines.append("")
 
     lines.append("## 📉 Pattern 3 — Thesis decay leaders")
@@ -240,9 +324,12 @@ def write_report(p1: dict, p2: dict, p3: dict, p4: dict) -> Path:
         lines.append("> ⚠️ **Sistema novo — quase tudo open. Real intelligence emerge depois de 30+ closed signals/method.**")
     lines.append("")
 
-    lines.append("## 🚨 Pattern 5 — Dominant concerns (most-flagged)")
+    lines.append("## 🚨 Pattern 5 — Dominant concerns (latest run only)")
     lines.append("")
-    lines.append("### Top 15 tickers by flag count (perpetuums)")
+    lines.append("> Snapshot da run mais recente por perpetuum (thesis/data_coverage/ri_freshness). "
+                 "Exclui acumulação ao longo do tempo — só sinal actual.")
+    lines.append("")
+    lines.append("### Top 15 tickers by flag count (latest run, sum across perpetuums)")
     lines.append("")
     lines.append("| Ticker | Total flags |")
     lines.append("|---|---:|")
@@ -263,17 +350,23 @@ def write_report(p1: dict, p2: dict, p3: dict, p4: dict) -> Path:
     # Build insights from patterns
     insights = []
     if p1["by_kind"]:
-        high_ignore = [k for k in p1["by_kind"] if k["ignore_rate_pct"] >= 70 and k["n"] >= 3]
+        high_ignore = [
+            k for k in p1["by_kind"]
+            if k["ignore_rate_pct"] is not None and k["ignore_rate_pct"] >= 70
+            and (k["resolved"] + k["ignored"]) >= 5  # require ≥5 *non-bulk* decisions
+        ]
         for k in high_ignore:
-            insights.append(f"- **Action `{k['kind']}` é maioritariamente ignorada ({k['ignore_rate_pct']}%)** — considera silenciar este perpetuum ou ajustar threshold")
+            insights.append(f"- **Action `{k['kind']}` é maioritariamente ignorada ({k['ignore_rate_pct']}%, janela {p1.get('window_days', RECENT_DAYS)}d, n={k['resolved']+k['ignored']} excl. bulk)** — considera silenciar este perpetuum ou ajustar threshold")
     if p4["top_tickers"]:
         top1 = p4["top_tickers"][0]
-        if top1[1] > 5:
-            insights.append(f"- **{top1[0]}** acumula {top1[1]} flags — re-avaliar position size ou exit")
+        # Latest-run sums: ≥4 flags across thesis/data_coverage/ri_freshness é genuinamente alto
+        if top1[1] >= 4:
+            insights.append(f"- **{top1[0]}** lidera com {top1[1]} flags na última run — drill-down em thesis/data/RI signals")
     if p4["top_sectors"]:
         top_sect = p4["top_sectors"][0]
-        if top_sect[1] > 10:
-            insights.append(f"- **Sector {top_sect[0]}** concentra {top_sect[1]} flags — concentration risk a observar")
+        # Sector com ≥10 flags na latest run é concentração genuína
+        if top_sect[1] >= 10:
+            insights.append(f"- **Sector {top_sect[0]}** concentra {top_sect[1]} flags (latest run) — concentration risk a observar")
     if not insights:
         insights.append("_(no clear patterns yet — sistema precisa de mais dados ao longo do tempo)_")
     lines.extend(insights)
