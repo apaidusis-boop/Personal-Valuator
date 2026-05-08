@@ -273,26 +273,49 @@ def compute(ticker: str, market: str) -> dict | None:
     confidence = _confidence_for(market, ticker)
 
     # Phase LL Sprint 1.4 — confidence as GATE.
-    # When sources disagree, downgrade the action one step so the dashboard
-    # never shows a high-conviction BUY based on contradictory data:
-    #   disputed       STRONG_BUY/BUY → HOLD ; HOLD stays ; TRIM/SELL stay
-    #   single_source  STRONG_BUY → BUY (only the strongest is gated)
-    #   cross_validated no change
     raw_action = triplet["action"]
     gated_action = raw_action
+    gate_reasons: list[str] = []
+
+    # Confidence gate (sources disagree -> dampen conviction)
     if raw_action and confidence.get("label") == "disputed":
         if raw_action in ("STRONG_BUY", "BUY"):
             gated_action = "HOLD"
+            gate_reasons.append(f"confidence=disputed downgraded {raw_action}→HOLD")
     elif raw_action and confidence.get("label") == "single_source":
         if raw_action == "STRONG_BUY":
             gated_action = "BUY"
+            gate_reasons.append("confidence=single_source downgraded STRONG_BUY→BUY")
+
+    # Phase LL Sprint 1.6 — distress vetoes via Altman + Piotroski.
+    # Even if price screams BUY, distress signals override. TEN was the
+    # canonical false-positive (memory ten_distress_signal flagged 4
+    # distress signals but buffett_ceiling formula said BUY).
+    # Stays inside the 6-stance vocab (Phase FF Bloco 3.1):
+    #   altman_distress  → SELL  (don't hold a distressed name regardless of price)
+    #   piotroski_weak   → HOLD  (downgrade BUY signals to wait-and-see)
+    distress = _check_distress_vetoes(market, ticker, sector)
+    if distress["altman_distress"]:
+        if gated_action in ("STRONG_BUY", "BUY", "HOLD", "TRIM"):
+            gate_reasons.append(
+                f"altman_distress Z={distress['z']} forced {gated_action}→SELL"
+            )
+            gated_action = "SELL"
+    elif distress["piotroski_weak"]:
+        if gated_action in ("STRONG_BUY", "BUY"):
+            gate_reasons.append(
+                f"piotroski_weak F={distress['f']} forced {gated_action}→HOLD"
+            )
+            gated_action = "HOLD"
+
     triplet["action"] = gated_action
     inputs["action_pre_gate"] = raw_action
     inputs["action_post_gate"] = gated_action
-    inputs["gate_reason"] = (
-        f"confidence={confidence.get('label')} downgraded {raw_action}→{gated_action}"
-        if raw_action != gated_action else "no_gate_applied"
-    )
+    inputs["gate_reason"] = " | ".join(gate_reasons) if gate_reasons else "no_gate_applied"
+    if distress.get("z") is not None:
+        inputs["altman_z"] = distress["z"]
+    if distress.get("f") is not None:
+        inputs["piotroski_f"] = distress["f"]
 
     return {
         "ticker": ticker, "market": market, "sector": sector,
@@ -315,6 +338,40 @@ def compute(ticker: str, market: str) -> dict | None:
         "confidence_score": confidence["score"],
         "confidence_detail": confidence.get("detail"),
     }
+
+
+def _check_distress_vetoes(market: str, ticker: str, sector: str | None) -> dict:
+    """Run Altman Z-Score + Piotroski F-Score and return veto signals.
+
+    Returns dict with keys: altman_distress (bool), piotroski_weak (bool),
+    z (float|None), f (int|None). Both engines exclude FIIs/REITs/Banks
+    where the metrics don't apply, so banks like BBDC4 won't be vetoed
+    by Altman even if Z would be technically computed.
+    """
+    out = {"altman_distress": False, "piotroski_weak": False, "z": None, "f": None}
+    # Skip when ratios don't apply
+    s = (sector or "").lower()
+    skip = any(tok in s for tok in ("bank", "banks", "banco", "bancos", "reit", "reits"))
+    skip = skip or _is_fii(sector or "")
+    if skip:
+        return out
+    try:
+        from scoring.altman import compute as altman_compute
+        a = altman_compute(ticker, market)
+        if a and getattr(a, "applicable", False) and a.z is not None:
+            out["z"] = round(a.z, 2)
+            out["altman_distress"] = a.is_distress
+    except Exception:
+        pass
+    try:
+        from scoring.piotroski import compute as piotroski_compute
+        p = piotroski_compute(ticker, market)
+        if p and getattr(p, "applicable", False) and p.f_score is not None:
+            out["f"] = p.f_score
+            out["piotroski_weak"] = p.is_weak
+    except Exception:
+        pass
+    return out
 
 
 def _confidence_for(market: str, ticker: str) -> dict:
