@@ -1,146 +1,137 @@
 ---
 ticker: KNHF11
-name: Kinea Hedge Fund FII
+name: KNHF11
 market: br
 sector: Híbrido
-segment_anbima: "Híbrido / Hedge Fund Imobiliário"
-manager: Kinea (Itaú Unibanco group)
-is_holding: false
+is_holding: true
 currency: BRL
 price: 98.39
 price_date: 2026-05-07
-dy_12m: 12.15
-distros_12m_count: 12
-distro_cv: 0.014
-yoy_price_pct: 24.6
-market_cap_brl_m: 1935
-last_monthly_rendimento: 1.00
-research_status: initial_scaffold
-created: "2026-05-08"
-tags: [watchlist, br, híbrido, kinea, research_candidate]
-related: ["[[RBRX11]]", "[[KNCR11]]", "[[KNRI11]]", "[[sectors/Híbrido|Híbrido]]"]
+change_1d_pct: 0.6
+pe: 7.7108
+dy_pct: 11.18
+streak_years: 4
+screen_score: 0.8
+screen_pass: false
+div_safety: 25
+div_safety_verdict: RISK
+position_qty: 175
+entry_price: 98.56
+pnl_pct: -0.17
+market_value: 17218.25
+updated: "2026-05-08T15:30:27Z"
+tags: [holding, br, híbrido]
 ---
 
-# KNHF11 — Kinea Hedge Fund FII
+# KNHF11 — KNHF11
 
-#watchlist #br #híbrido #kinea
+#holding #br #híbrido
 
-> **Status**: research scaffold inicial (2026-05-08). Adicionado ao universe.yaml
-> watchlist; pipeline daily ainda não correu. Sem score, sem council debate ainda.
-> Dados deste ficheiro vêm de yfinance live + Carta do Gestor 12-2025 + WebSearch.
+## 🎯 Verdict — 🟠 HOLD
 
-## Contexto da inclusão
+> **Score**: 4.8/10  |  **Confiança**: 50%  |  _2026-05-08 18:30_
 
-Considerado como **alternativa ao [[RBRX11]]** após preocupações do user com a
-[[rbrx11_patria_acquisition|aquisição da divisão FIIs da RBR pela Pátria
-em Dez/2025]] e o sinal de saída líquida persistente (cotistas -10% Jun→Dez/25).
-KNHF11 é gerido pela Kinea (gestora independente, parte Itaú Unibanco), com
-estrutura de hedge fund imobiliário multi-estratégia.
+| Dimensão | Score | Peso | Bar |
+|---|---:|---:|---|
+| Quality    | 3.3/10 | 35% | `███░░░░░░░` |
+| Valuation  | 6.0/10 | 30% | `██████░░░░` |
+| Momentum   | 6.0/10 | 20% | `██████░░░░` |
+| Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
 
-## Snapshot (yfinance live, 2026-05-07)
+### Detalhes
 
-- **Preço**: R$ 98,39
-- **Market cap**: R$ 1.935 M
-- **YoY price**: +24,6%
-- **Distros últimos 12m**: 12 × ~R$ 1,00 = **R$ 11,95/cota**
-- **DY 12m computado**: 12,15%
-- **Estabilidade distros (CV)**: 0,014 (ultra-estável; <0,05 = excepcional)
-- **Liquidez**: ~2× a do RBRX11
+- **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 25.0/100
+- **Valuation**: Screen 0.80, DY percentil P24 (EXPENSIVE)
+- **Momentum**: 1d 0.6%, 30d 0.04%, YTD 3.51%
+- **Narrativa**: user_note=False, YT insights 60d=0
 
-## Mandate e estratégia (Carta do Gestor, Dez/2025)
+### Razões
 
-> "Gerar retorno absoluto, resultante de renda recorrente e ganhos de capital,
-> a partir de gestão activa multidisciplinar com carteira composta por diferentes
-> activos do setor imobiliário."
+- total 4.8 na zona neutra
+- quality frágil
 
-Diferentes equipas Kinea contribuem ao fundo. Universo de busca: **CRI, FII,
-Tijolo, Acções e Projectos de Desenvolvimento**.
 
-## Composição do portfólio (Dez/2025)
+## Links
 
-| Classe | % |
-|---|---:|
-| CRI (recebíveis imobiliários) | 62,2% |
-| Imóveis (tijolo) | 31,7% |
-| Cotas de FII | 16,3% |
-| (soma > 100% — pode incluir alavancagem ou caixa negativo) |  |
+- Sector: [[sectors/Híbrido|Híbrido]]
+- Market: [[markets/BR|BR]]
+- Peers: [[GARE11]] · [[HGRU11]] · [[KNRI11]] · [[RBRX11]] · [[TRXF11]]
 
-Carteira **transparente** — três classes distintas auditáveis, cada uma com mandate
-declarado. Contraste com o "multiestratégia" mais opaco do RBRX11.
+## Snapshot
 
-## Postura táctica recente (Dez/2025)
+- **Preço**: R$98.39  (2026-05-07)    _+0.60% 1d_
+- **Screen**: 0.8  ✗ fail
+- **Altman Z**: n/a ()
+- **Piotroski**: None/9
+- **Div Safety**: 25.0/100 (RISK)
+- **Posição**: 175.0 sh @ R$98.56  →  P&L -0.17%
 
-- Gestor reduziu posição em FIIs de 18,1% → 17,2%, **realizando lucros em CRI/Logística**
-  que se valorizaram em Dezembro.
-- Aumentou caixa para "iniciar 2026 com proteção e novas oportunidades".
-- Tese de cautela: alta de Dezembro vista como **fluxo, não fundamentos**.
-- Preocupação explícita com cenário fiscal e eleições BR 2026.
+## Fundamentals
 
-Esta postura activa, declarada, e discricionária é uma vantagem qualitativa
-sobre fundos passivos ou opacos.
+- P/E: 7.710815 | P/B: None | DY: 11.18%
+- ROE: None% | EPS: 12.76 | BVPS: None
+- Streak div: 4y | Aristocrat: None
 
-## Distribuições recentes (yfinance)
+## Dividendos recentes
 
-| Mês ref. | Distros (R$/cota) |
-|---|---:|
-| 2026-04 | 1,00 |
-| 2026-03 | 1,00 |
-| 2026-02 | 1,00 |
-| 2026-01 | 1,00 |
-| 2025-12 | 1,00 |
-| 2025-11 | 1,00 |
-| 2025-10 | 1,00 |
-| 2025-09 | 1,00 |
-| 2025-08 | 1,00 |
-| 2025-07 | 1,00 |
-| 2025-06 | 1,00 |
-| 2025-05 | 0,95 |
+- 2026-05-04: R$1.0000
+- 2026-03-02: R$1.0000
+- 2026-02-02: R$1.0000
+- 2026-01-02: R$1.0000
+- 2025-12-01: R$1.0000
 
-Padrão: R$ 1,00/mês desde Jun/2025, após bump up de R$ 0,95.
+## 📈 Live snapshot (auto-gerado)
 
-## Comparação directa vs [[RBRX11]]
+### Preço
+- **Drawdown 52w**: -1.60%
+- **Drawdown 5y**: -1.81%
+- **YTD**: +3.51%
+- **YoY (1y)**: +8.22%
+- **CAGR 3y**: n/a  |  **5y**: n/a  |  **10y**: n/a
+- **Vol annual**: +10.91%
+- **Sharpe 3y** (rf=4%): n/a
 
-| Dimensão | RBRX11 | KNHF11 |
-|---|---|---|
-| Gestora | RBR / Pátria *(em integração M&A)* | Kinea (Itaú, estável) |
-| Risco mudança ticker/regulamento 2026 | Sim (Pátria sinalizou consolidação) | Não |
-| Composição declarada | "multiestratégia" opaco | 62% CRI + 32% Tijolo + 16% FII |
-| DY 12m | 12,48% | 12,15% |
-| Estabilidade distros CV | 0,020 | 0,014 |
-| YoY price | +18,8% | +24,6% |
-| Market cap | R$ 989M | R$ 1.935M |
-| Streak distros | 5y | ~2,5y (FII mais novo, IPO ~mid-2023) |
-| Cotistas trend (CVM) | **−9,99% em 6m** 🔴 | n/a (não temos CVM ingerido) |
+### Dividendos
+- **DY 5y avg**: +12.46%
+- **Div CAGR 5y**: +93.02%
+- **Frequency**: irregular
+- **Streak** (sem cortes): 2 years
 
-## Lacunas conhecidas
+### Valuation
+- **P/E vs own avg**: n/a
 
-- [ ] Sem `prices` no DB (corrigido após próximo daily_update.py)
-- [ ] Sem `fii_monthly` ingerido (pendente — ver `library/ri/fii_filings.py`)
-- [ ] Sem `fii_fundamentals` (computado após preços disponíveis)
-- [ ] Sem score do nosso engine (`scoring/engine.py::score_fii`)
-- [ ] Sem council debate (corre após dados disponíveis)
-- [ ] Vacância física/financeira: irrelevante para hedge fund (carteira de papel/outros)
+## 📈 Price history 1y
 
-## Open actions
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
 
-- [ ] Trigger `knhf11_cotistas_drop_5_6m` aguarda fii_monthly populado para
-      poder avaliar (signal seria valioso para detectar deterioração simétrica
-      à do RBRX11).
-- [ ] Após `daily_update.py` correr e popular preço/dividendos, re-correr
-      `python scoring/engine.py KNHF11 --market br` para gerar score formal.
-- [ ] Após score, invocar `python -m agents.council.story KNHF11` para council
-      formal (Lourdes Aluguel + Mariana Macro + Valentina Prudente + Pedro Alocação).
-- [ ] Comparar relatório gerencial Mar/2026 (mais recente) para confirmar
-      postura defensiva descrita em Dez/2025.
+```chart
+type: line
+title: "KNHF11 — 1y close"
+labels: ['2025-05-08', '2025-05-14', '2025-05-20', '2025-05-26', '2025-05-30', '2025-06-05', '2025-06-11', '2025-06-17', '2025-06-24', '2025-06-30', '2025-07-04', '2025-07-10', '2025-07-16', '2025-07-22', '2025-07-28', '2025-08-01', '2025-08-07', '2025-08-13', '2025-08-19', '2025-08-25', '2025-08-29', '2025-09-04', '2025-09-10', '2025-09-16', '2025-09-22', '2025-09-26', '2025-10-02', '2025-10-08', '2025-10-14', '2025-10-20', '2025-10-24', '2025-10-30', '2025-11-05', '2025-11-11', '2025-11-17', '2025-11-24', '2025-11-28', '2025-12-04', '2025-12-10', '2025-12-16', '2025-12-22', '2025-12-30', '2026-01-07', '2026-01-13', '2026-01-19', '2026-01-23', '2026-01-29', '2026-02-04', '2026-02-10', '2026-02-18', '2026-02-24', '2026-03-02', '2026-03-06', '2026-03-12', '2026-03-18', '2026-03-24', '2026-03-30', '2026-04-06', '2026-04-10', '2026-04-16', '2026-04-23', '2026-04-29', '2026-05-06']
+series:
+  - title: KNHF11
+    data: [91.24, 90.24, 91.29, 91.39, 91.25, 90.89, 89.52, 90.3, 90.81, 93.98, 91.6, 92.51, 92.75, 91.77, 90.8, 88.9, 89.61, 90.45, 90.15, 89.89, 91.58, 90.23, 91.38, 93.38, 92.72, 93.75, 93.38, 92.77, 92.57, 92.83, 92.99, 92.89, 92.1, 91.69, 91.7, 91.76, 93.0, 93.48, 93.17, 93.5, 93.37, 96.11, 95.73, 96.4, 96.5, 97.75, 98.25, 97.95, 97.51, 98.45, 98.47, 98.0, 98.22, 98.45, 99.5, 98.73, 98.9, 99.02, 99.02, 99.49, 99.29, 99.57, 97.8]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
 
-## Sources
+## 💰 Dividendos anuais (10y)
 
-- [Kinea — KNHF11 página oficial](https://www.kinea.com.br/fundos/fundo-imobiliario-kinea-hedge-fund-knhf11/)
-- [Carta do Gestor — Dezembro 2025](https://www.kinea.com.br/wp-content/uploads/2026/01/KNHF_Carta-do-Gestor_12-2025.pdf)
-- [Relatório Gerencial 31/Dez/2025 — BrFiis](https://brfiis.com.br/fundos/KNHF11/documentos/2026-jan-13/relatorio-gerencial-1081276)
-- [Status Invest — KNHF11](https://statusinvest.com.br/fundos-imobiliarios/knhf11)
-- yfinance (KNHF11.SA) — preço e dividendos snapshot 2026-05-07
+```chart
+type: bar
+title: "KNHF11 — dividend history"
+labels: ['2023', '2024', '2025', '2026']
+series:
+  - title: Dividends
+    data: [3.1, 10.81, 11.55, 4.0]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
 
 ---
-*Created 2026-05-08 — sessão "test do sistema FII RBRX11 vs KNHF11".
-Será regenerado pelo `obsidian_bridge` após pipeline daily incluir KNHF11.*
+*Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*

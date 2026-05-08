@@ -1,10 +1,10 @@
 # 🏠 Investment Intelligence Vault
 
-_Export: 2026-04-28 18:40 UTC_
+_Export: 2026-05-08 15:30 UTC_
 
 ## 🚀 Começa aqui
 - [[My Portfolio|💼 A minha carteira AGORA]] — overview + totals + holdings table
-- [[briefings/2026-04-28|🌅 Morning Briefing de hoje]] — diff, moves, earnings
+- [[briefings/2026-05-08|🌅 Morning Briefing de hoje]] — diff, moves, earnings
 - [[Holdings|📋 Holdings completo]] — tabela unificada BR+US em BRL
 - [[Allocation|📊 Alocação]] — por market/sector/concentração
 - [[TaxLots|📜 Tax Lots JPM]] — breakdown lote-a-lote + short/long term
@@ -23,6 +23,7 @@ _Export: 2026-04-28 18:40 UTC_
 
 ## Sectors
 - [[sectors/Banks|Banks]] (6 tickers)
+- [[sectors/Benchmark|Benchmark]] (2 tickers)
 - [[sectors/Communication|Communication]] (2 tickers)
 - [[sectors/Consumer_Disc.|Consumer Disc.]] (11 tickers)
 - [[sectors/Consumer_Staples|Consumer Staples]] (23 tickers)
@@ -34,10 +35,10 @@ _Export: 2026-04-28 18:40 UTC_
 - [[sectors/Financials|Financials]] (21 tickers)
 - [[sectors/Healthcare|Healthcare]] (7 tickers)
 - [[sectors/Holding|Holding]] (2 tickers)
-- [[sectors/Híbrido|Híbrido]] (5 tickers)
-- [[sectors/Industrials|Industrials]] (26 tickers)
+- [[sectors/Híbrido|Híbrido]] (6 tickers)
+- [[sectors/Industrials|Industrials]] (27 tickers)
 - [[sectors/Insurance|Insurance]] (3 tickers)
-- [[sectors/Logística|Logística]] (4 tickers)
+- [[sectors/Logística|Logística]] (5 tickers)
 - [[sectors/Materials|Materials]] (15 tickers)
 - [[sectors/Mining|Mining]] (1 tickers)
 - [[sectors/Oil_&_Gas|Oil & Gas]] (2 tickers)
@@ -48,9 +49,10 @@ _Export: 2026-04-28 18:40 UTC_
 - [[sectors/Technology|Technology]] (8 tickers)
 - [[sectors/Telecom|Telecom]] (2 tickers)
 - [[sectors/Tijolo|Tijolo]] (1 tickers)
+- [[sectors/Uncategorized|Uncategorized]] (1 tickers)
 - [[sectors/Utilities|Utilities]] (22 tickers)
 
-## Tickers — **184** exportados
+## Tickers — **190** exportados
 - Pasta: [[tickers/]]
 
 ## Videos YouTube — **21** ingeridos

@@ -1,13 +1,13 @@
 ---
 type: sector
 name: Híbrido
-count: 5
+count: 6
 tags: [sector]
 ---
 
 # 🏢 Híbrido
 
-Total tickers: **5**
+Total tickers: **6**
 Holdings: **1**
 
 ## Tabela live (Dataview)
@@ -21,8 +21,9 @@ SORT is_holding DESC, pnl_pct ASC
 
 ## Tickers neste sector
 
-- ★ [[RBRX11]] _(br)_
+- ★ [[KNHF11]] _(br)_
 - [[GARE11]] _(br)_
 - [[HGRU11]] _(br)_
 - [[KNRI11]] _(br)_
+- [[RBRX11]] _(br)_
 - [[TRXF11]] _(br)_

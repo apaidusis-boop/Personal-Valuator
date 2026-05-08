@@ -5,16 +5,16 @@ market: br
 sector: ETF-RF
 is_holding: true
 currency: BRL
-price: 120.81
-price_date: 2026-04-26
-change_1d_pct: 0
+price: 120.95
+price_date: 2026-04-30
+change_1d_pct: 0.12
 div_safety: 0
 div_safety_verdict: N/A
 position_qty: 873
 entry_price: 120.27
-pnl_pct: 0.45
-market_value: 105467.13
-updated: "2026-04-28T18:40:37Z"
+pnl_pct: 0.57
+market_value: 105589.35
+updated: "2026-05-08T15:30:27Z"
 tags: [holding, br, etf-rf]
 ---
 
@@ -24,7 +24,7 @@ tags: [holding, br, etf-rf]
 
 ## 🎯 Verdict — 🔴 SELL
 
-> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-04-28 21:40_
+> **Score**: 3.0/10  |  **Confiança**: 50%  |  _2026-05-08 18:30_
 
 | Dimensão | Score | Peso | Bar |
 |---|---:|---:|---|
@@ -37,7 +37,7 @@ tags: [holding, br, etf-rf]
 
 - **Quality**: Altman Z None (N/A), Piotroski None/9 (N/A), DivSafety 0.0/100
 - **Valuation**: Screen 0.00, DY percentil - (-)
-- **Momentum**: 1d 0.0%, 30d 0.11%, YTD 0.11%
+- **Momentum**: 1d 0.12%, 30d 0.22%, YTD 0.22%
 - **Narrativa**: user_note=False, YT insights 60d=0
 
 ### Razões
@@ -55,12 +55,12 @@ tags: [holding, br, etf-rf]
 
 ## Snapshot
 
-- **Preço**: R$120.81  (2026-04-26)    _+0.00% 1d_
+- **Preço**: R$120.95  (2026-04-30)    _+0.12% 1d_
 - **Screen**: n/a  ✗ fail
 - **Altman Z**: n/a ()
 - **Piotroski**: None/9
 - **Div Safety**: 0.0/100 (N/A)
-- **Posição**: 873.0 sh @ R$120.27  →  P&L 0.45%
+- **Posição**: 873.0 sh @ R$120.27  →  P&L 0.57%
 
 ## Fundamentals
 
@@ -73,7 +73,7 @@ tags: [holding, br, etf-rf]
 ### Preço
 - **Drawdown 52w**: +0.00%
 - **Drawdown 5y**: +0.00%
-- **YTD**: +0.11%
+- **YTD**: +0.22%
 - **YoY (1y)**: n/a
 - **CAGR 3y**: n/a  |  **5y**: n/a  |  **10y**: n/a
 - **Vol annual**: n/a
@@ -90,4 +90,4 @@ tags: [holding, br, etf-rf]
 
 
 ---
-*Gerado por obsidian_bridge — 2026-04-28 18:40 UTC*
+*Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*

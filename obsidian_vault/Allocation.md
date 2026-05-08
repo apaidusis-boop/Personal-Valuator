@@ -4,8 +4,8 @@ tags: [allocation, portfolio]
 # Alocação
 
 > [!info] Resumo
-> **Total:** R$ 471,485.64  
-> **PTAX:** 4.9700  
+> **Total:** R$ 466,204.43  
+> **PTAX:** 4.9170  
 > **Holdings:** 33
 
 ---
@@ -14,35 +14,35 @@ tags: [allocation, portfolio]
 
 | Mercado | Holdings | MV (BRL) | % |
 |---|---:|---:|---:|
-| **BR** | 12 | R$ 360,126 | 76.4% |
-| **US** | 21 | R$ 111,360 | 23.6% |
+| **BR** | 12 | R$ 353,478 | 75.8% |
+| **US** | 21 | R$ 112,726 | 24.2% |
 
 ---
 
 ## Por sector
 
-| Sector                     |           Holdings | MV (BRL) |          % |       |
-| -------------------------- | -----------------: | -------: | ---------: | ----- |
-| [[sectors/ETF-RF           |           ETF-RF]] |        1 | R$ 105,467 | 22.4% |
-| [[sectors/Mining           |           Mining]] |        1 |  R$ 42,750 | 9.1%  |
-| [[sectors/Holding          |          Holding]] |        2 |  R$ 37,205 | 7.9%  |
-| [[sectors/Banks            |            Banks]] |        1 |  R$ 36,066 | 7.6%  |
-| [[sectors/Oil_&_Gas        |        Oil & Gas]] |        1 |  R$ 32,368 | 6.9%  |
-| [[sectors/Financials       |       Financials]] |        6 |  R$ 30,459 | 6.5%  |
-| [[sectors/Technology       |       Technology]] |        4 |  R$ 21,828 | 4.6%  |
-| [[sectors/Healthcare       |       Healthcare]] |        2 |  R$ 18,523 | 3.9%  |
-| [[sectors/Materials        |        Materials]] |        1 |  R$ 17,870 | 3.8%  |
-| [[sectors/Shopping         |         Shopping]] |        1 |  R$ 17,542 | 3.7%  |
-| [[sectors/Híbrido          |          Híbrido]] |        1 |  R$ 17,440 | 3.7%  |
-| [[sectors/Papel_(CRI)      |      Papel (CRI)]] |        1 |  R$ 17,352 | 3.7%  |
-| [[sectors/Logística        |        Logística]] |        1 |  R$ 17,186 | 3.6%  |
-| [[sectors/Corporativo      |      Corporativo]] |        1 |  R$ 16,796 | 3.6%  |
-| [[sectors/Consumer_Staples | Consumer Staples]] |        2 |  R$ 11,489 | 2.4%  |
-| [[sectors/REIT             |             REIT]] |        2 |  R$ 10,748 | 2.3%  |
-| [[sectors/Consumer_Disc.   |   Consumer Disc.]] |        2 |   R$ 7,298 | 1.5%  |
-| [[sectors/Energy           |           Energy]] |        1 |   R$ 6,923 | 1.5%  |
-| [[sectors/ETF-US           |           ETF-US]] |        1 |   R$ 4,433 | 0.9%  |
-| [[sectors/ETF              |              ETF]] |        1 |   R$ 1,742 | 0.4%  |
+| Sector | Holdings | MV (BRL) | % |
+|---|---:|---:|---:|
+| [[sectors/ETF-RF|ETF-RF]] | 1 | R$ 105,589 | 22.6% |
+| [[sectors/Mining|Mining]] | 1 | R$ 40,115 | 8.6% |
+| [[sectors/Holding|Holding]] | 2 | R$ 35,361 | 7.6% |
+| [[sectors/Banks|Banks]] | 1 | R$ 34,021 | 7.3% |
+| [[sectors/Oil_&_Gas|Oil & Gas]] | 1 | R$ 32,393 | 6.9% |
+| [[sectors/Financials|Financials]] | 6 | R$ 30,454 | 6.5% |
+| [[sectors/Technology|Technology]] | 4 | R$ 22,306 | 4.8% |
+| [[sectors/Healthcare|Healthcare]] | 2 | R$ 18,571 | 4.0% |
+| [[sectors/Materials|Materials]] | 1 | R$ 18,024 | 3.9% |
+| [[sectors/Shopping|Shopping]] | 1 | R$ 17,582 | 3.8% |
+| [[sectors/Papel_(CRI)|Papel (CRI)]] | 1 | R$ 17,565 | 3.8% |
+| [[sectors/Híbrido|Híbrido]] | 1 | R$ 17,218 | 3.7% |
+| [[sectors/Logística|Logística]] | 1 | R$ 17,106 | 3.7% |
+| [[sectors/Corporativo|Corporativo]] | 1 | R$ 16,384 | 3.5% |
+| [[sectors/Consumer_Staples|Consumer Staples]] | 2 | R$ 11,546 | 2.5% |
+| [[sectors/REIT|REIT]] | 2 | R$ 10,847 | 2.3% |
+| [[sectors/Consumer_Disc.|Consumer Disc.]] | 2 | R$ 7,470 | 1.6% |
+| [[sectors/Energy|Energy]] | 1 | R$ 7,429 | 1.6% |
+| [[sectors/ETF-US|ETF-US]] | 1 | R$ 4,429 | 1.0% |
+| [[sectors/ETF|ETF]] | 1 | R$ 1,792 | 0.4% |
 
 ---
 
@@ -50,16 +50,16 @@ tags: [allocation, portfolio]
 
 | # | Ticker | MV (BRL) | % | Cumulative % |
 |---:|---|---:|---:|---:|
-| 1 | [[LFTB11]] | R$ 105,467 | 22.4% | 22.4% |
-| 2 | [[VALE3]] | R$ 42,750 | 9.1% | 31.4% |
-| 3 | [[BBDC4]] | R$ 36,066 | 7.6% | 39.1% |
-| 4 | [[ITSA4]] | R$ 34,855 | 7.4% | 46.5% |
-| 5 | [[PRIO3]] | R$ 32,368 | 6.9% | 53.3% |
-| 6 | [[KLBN11]] | R$ 17,870 | 3.8% | 57.1% |
-| 7 | [[XPML11]] | R$ 17,542 | 3.7% | 60.9% |
-| 8 | [[RBRX11]] | R$ 17,440 | 3.7% | 64.6% |
-| 9 | [[VGIR11]] | R$ 17,352 | 3.7% | 68.2% |
-| 10 | [[BTLG11]] | R$ 17,186 | 3.6% | 71.9% |
+| 1 | [[LFTB11]] | R$ 105,589 | 22.6% | 22.6% |
+| 2 | [[VALE3]] | R$ 40,115 | 8.6% | 31.3% |
+| 3 | [[BBDC4]] | R$ 34,021 | 7.3% | 38.6% |
+| 4 | [[ITSA4]] | R$ 33,051 | 7.1% | 45.6% |
+| 5 | [[PRIO3]] | R$ 32,393 | 6.9% | 52.6% |
+| 6 | [[KLBN11]] | R$ 18,024 | 3.9% | 56.5% |
+| 7 | [[XPML11]] | R$ 17,582 | 3.8% | 60.2% |
+| 8 | [[VGIR11]] | R$ 17,565 | 3.8% | 64.0% |
+| 9 | [[KNHF11]] | R$ 17,218 | 3.7% | 67.7% |
+| 10 | [[BTLG11]] | R$ 17,106 | 3.7% | 71.4% |
 
 ---
 
