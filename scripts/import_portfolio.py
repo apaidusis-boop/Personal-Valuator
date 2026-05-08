@@ -416,7 +416,11 @@ def import_br(xlsx_path: Path, dry_run: bool = False) -> dict:
         for tk, nm, sec in BR_ETF_ADDITIONS:
             _upsert_company(conn, tk, nm, "BRL", sec)
 
-        # Limpa imports anteriores da mesma data (permite re-correr)
+        # Cada import é o snapshot canónico do dia: marca tudo como inactivo
+        # antes de inserir as linhas de hoje. Isto evita o bug em que
+        # entry_date varia entre dias e o ON CONFLICT (ticker, entry_date)
+        # criava duplicados em vez de actualizar (snapshot 2026-05-07).
+        conn.execute("UPDATE portfolio_positions SET active=0 WHERE active=1")
         conn.execute("DELETE FROM portfolio_positions WHERE entry_date = ?", (TODAY,))
 
         for a in acoes + fiis:
@@ -511,6 +515,9 @@ def import_us(csv_path: Path, dry_run: bool = False) -> dict:
     with sqlite3.connect(DB_US) as conn:
         ensure_schema(conn)
 
+        # Same idempotency fix as BR side: deactivate all prior rows so each
+        # import is the canonical snapshot of the day.
+        conn.execute("UPDATE portfolio_positions SET active=0 WHERE active=1")
         conn.execute("DELETE FROM portfolio_positions WHERE entry_date = ?", (TODAY,))
 
         for p in positions:
