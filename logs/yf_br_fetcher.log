@@ -3097,3 +3097,5 @@
 {"ts": "2026-05-07T20:31:42Z", "event": "yf_br_persisted", "ticker": "RBRY11", "prices": 59, "dividends": 49, "price_range": ["2026-02-09", "2026-05-07"], "div_count_all_time": 49}
 {"ts": "2026-05-07T20:31:42Z", "event": "yf_br_fetch_start", "ticker": "VRTA11", "period": "3mo"}
 {"ts": "2026-05-07T20:31:43Z", "event": "yf_br_persisted", "ticker": "VRTA11", "prices": 59, "dividends": 51, "price_range": ["2026-02-09", "2026-05-07"], "div_count_all_time": 51}
+{"ts": "2026-05-08T12:51:45Z", "event": "yf_br_fetch_start", "ticker": "KNHF11", "period": "2y"}
+{"ts": "2026-05-08T12:51:47Z", "event": "yf_br_persisted", "ticker": "KNHF11", "prices": 500, "dividends": 31, "price_range": ["2024-05-07", "2026-05-07"], "div_count_all_time": 31}

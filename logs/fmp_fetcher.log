@@ -9,3 +9,9 @@
 {"ts": "2026-05-07T07:11:33Z", "path": "/stable/analyst-estimates", "ok": true, "rows": 10}
 {"ts": "2026-05-07T07:12:31Z", "path": "/stable/price-target-consensus", "ok": true, "rows": 1}
 {"ts": "2026-05-07T07:12:32Z", "path": "/stable/analyst-estimates", "ok": true, "rows": 10}
+{"ts": "2026-05-08T12:51:25Z", "path": "/stable/ratios-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-08T12:51:26Z", "path": "/stable/key-metrics-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-08T12:52:11Z", "path": "/stable/ratios-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-08T12:52:12Z", "path": "/stable/key-metrics-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-08T12:52:19Z", "path": "/stable/ratios-ttm", "ok": true, "rows": 1}
+{"ts": "2026-05-08T12:52:21Z", "path": "/stable/key-metrics-ttm", "ok": true, "rows": 1}
