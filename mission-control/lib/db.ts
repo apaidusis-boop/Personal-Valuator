@@ -593,6 +593,129 @@ export function listVerdicts(opts: {
   return out;
 }
 
+// ============================================================
+// Perpetuum health (Phase X — 16 perpetuums state)
+// ============================================================
+export type PerpetuumStatus = {
+  name: string;
+  last_run: string | null;
+  duration_sec: number | null;
+  subjects_count: number | null;
+  alerts_count: number | null;
+  errors_count: number | null;
+  tier: string | null;
+  median_score: number | null;
+  low_subjects: number;
+  open_actions: number;
+};
+
+export function listPerpetuumStatus(): PerpetuumStatus[] {
+  // perpetuum_health + perpetuum_run_log live in BR DB (shared store).
+  const out: PerpetuumStatus[] = [];
+  try {
+    const db = openRO(DB_BR);
+    // Latest run per perpetuum
+    const lastRuns = db
+      .prepare(
+        `SELECT perpetuum_name, run_date, duration_sec, subjects_count,
+                alerts_count, errors_count
+         FROM perpetuum_run_log
+         WHERE (perpetuum_name, started_at) IN (
+             SELECT perpetuum_name, MAX(started_at)
+             FROM perpetuum_run_log
+             GROUP BY perpetuum_name
+         )
+         ORDER BY perpetuum_name`
+      )
+      .all() as any[];
+
+    // Latest health snapshot per perpetuum: median score + low subjects + tier
+    const healthAgg = db
+      .prepare(
+        `SELECT perpetuum_name,
+                MAX(run_date) AS last_health_date,
+                COUNT(*) AS n_subjects,
+                AVG(score) AS avg_score,
+                SUM(CASE WHEN score < 60 THEN 1 ELSE 0 END) AS low_subjects,
+                MAX(tier) AS tier
+         FROM perpetuum_health
+         WHERE run_date >= date('now', '-7 days')
+         GROUP BY perpetuum_name`
+      )
+      .all() as any[];
+
+    const healthMap = new Map<string, any>();
+    for (const h of healthAgg) healthMap.set(h.perpetuum_name, h);
+
+    // Open watchlist_actions (proposed by T2+ perpetuums) — count per perpetuum
+    let actionsByPerp = new Map<string, number>();
+    try {
+      const acts = db
+        .prepare(
+          `SELECT kind AS perpetuum_name, COUNT(*) AS n
+           FROM watchlist_actions
+           WHERE status = 'open'
+           GROUP BY kind`
+        )
+        .all() as any[];
+      for (const a of acts) actionsByPerp.set(a.perpetuum_name, a.n);
+    } catch {
+      /* table missing */
+    }
+
+    for (const r of lastRuns) {
+      const h = healthMap.get(r.perpetuum_name);
+      out.push({
+        name: r.perpetuum_name,
+        last_run: r.run_date,
+        duration_sec: r.duration_sec ?? null,
+        subjects_count: r.subjects_count ?? null,
+        alerts_count: r.alerts_count ?? null,
+        errors_count: r.errors_count ?? null,
+        tier: h?.tier ?? null,
+        median_score: h?.avg_score !== undefined ? Math.round(h.avg_score * 10) / 10 : null,
+        low_subjects: h?.low_subjects ?? 0,
+        open_actions: actionsByPerp.get(r.perpetuum_name) ?? 0,
+      });
+    }
+
+    db.close();
+  } catch {
+    /* DB missing */
+  }
+  return out.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export type PerpetuumRun = {
+  perpetuum_name: string;
+  run_date: string;
+  started_at: string;
+  duration_sec: number | null;
+  subjects_count: number | null;
+  alerts_count: number | null;
+  errors_count: number | null;
+  summary: string | null;
+};
+
+export function listRecentPerpetuumRuns(limit = 50): PerpetuumRun[] {
+  try {
+    const db = openRO(DB_BR);
+    const rows = db
+      .prepare(
+        `SELECT perpetuum_name, run_date, started_at, duration_sec,
+                subjects_count, alerts_count, errors_count, summary
+         FROM perpetuum_run_log
+         ORDER BY started_at DESC
+         LIMIT ?`
+      )
+      .all(limit) as any[];
+    db.close();
+    return rows;
+  } catch {
+    return [];
+  }
+}
+
 export type StrategyRun = {
   market: "br" | "us";
   ticker: string;

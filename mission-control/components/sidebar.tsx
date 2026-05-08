@@ -19,6 +19,7 @@ import {
   User,
   Activity,
   ListChecks,
+  Cpu,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -72,6 +73,7 @@ const SECTIONS: NavSection[] = [
     items: [
       { icon: Activity, label: "Calibration", href: "/calibration" },
       { icon: ListChecks, label: "Decisions", href: "/decisions" },
+      { icon: Cpu, label: "Perpetuums", href: "/perpetuums" },
     ],
   },
   {
