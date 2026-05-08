@@ -102,9 +102,35 @@ def _yf_snapshot(c: sqlite3.Connection, ticker: str) -> dict | None:
 
 
 def _cvm_ttm(c: sqlite3.Connection, ticker: str) -> dict | None:
-    """Sum last 4 quarters of net_income from quarterly_single (single-quarter
-    resolved values; quarterly_history is YTD/cumulative for BR ITRs which
-    causes double-counting if summed naively)."""
+    """Read the canonical filings-derived TTM. Phase LL upgrade (2026-05-08):
+    delegate to fundamentals_from_filings, which already resolves YTD for
+    banks (was a bug here before — banks live in bank_quarterly_history
+    YTD-cumulative; this module used to read quarterly_single only and
+    return None for banks → BBDC4 was wrongly flagged 'disputed' for
+    that reason, not real disagreement).
+    """
+    try:
+        r = c.execute(
+            """SELECT period_end, net_income_ttm, equity, eps_ttm, roe_ttm,
+                      n_quarters, source
+               FROM fundamentals_from_filings WHERE ticker=?
+               ORDER BY computed_at DESC LIMIT 1""",
+            (ticker,),
+        ).fetchone()
+    except sqlite3.OperationalError:
+        r = None
+    if r and r[1] is not None and r[2] is not None:
+        return {
+            "latest_period": r[0],
+            "ni_ttm": r[1],
+            "equity_avg": r[2],          # use latest equity (close to avg for stable companies)
+            "eps_cvm_ready": r[3],       # may already have EPS_TTM with proper shares
+            "roe_cvm_ready": r[4],
+            "n_quarters": r[5] or 4,
+            "source": r[6],
+        }
+    # Fallback: legacy direct read of quarterly_single (non-bank only). Kept
+    # for tickers whose derive_fundamentals_from_filings hasn't run yet.
     rows = c.execute(
         """SELECT period_end, net_income, equity
            FROM quarterly_single
@@ -113,24 +139,17 @@ def _cvm_ttm(c: sqlite3.Connection, ticker: str) -> dict | None:
         (ticker,),
     ).fetchall()
     if not rows:
-        # Fallback: maybe this ticker hasn't had quarterly_single built yet.
-        # Don't fall back to quarterly_history (YTD bug); just signal absence.
         return None
-    latest_period = rows[0][0]
-    nis = [r[1] for r in rows if r[1] is not None]
-    eqs = [r[2] for r in rows if r[2] is not None]
+    nis = [rr[1] for rr in rows if rr[1] is not None]
+    eqs = [rr[2] for rr in rows if rr[2] is not None]
     if not nis or not eqs:
         return None
-    ni_ttm = sum(nis)
-    eq_avg = sum(eqs) / len(eqs)
-    # CVM values are in thousand BRL. yfinance roe is a fraction. The TTM/equity
-    # ratio is dimensionless (both in thousand BRL), so units cancel for ROE.
-    # For EPS we multiply ni_ttm × 1000 to get BRL/share (shares are in units).
     return {
-        "latest_period": latest_period,
-        "ni_ttm": ni_ttm,
-        "equity_avg": eq_avg,
+        "latest_period": rows[0][0],
+        "ni_ttm": sum(nis),
+        "equity_avg": sum(eqs) / len(eqs),
         "n_quarters": len(rows),
+        "source": "quarterly_single_legacy",
     }
 
 
@@ -194,16 +213,18 @@ def evaluate(ticker: str, market: str) -> dict:
         return out
 
     # --- Numeric cross-check ---
-    # ROE: yf.roe is fraction; CVM derived = ni_ttm / equity_avg
-    # CVM amounts are in thousands but ratio is dimensionless.
-    roe_cvm = cvm["ni_ttm"] / cvm["equity_avg"] if cvm["equity_avg"] else None
+    # Prefer the canonical TTM values from fundamentals_from_filings when the
+    # deriver has run; fallback to inline computation otherwise.
+    roe_cvm = cvm.get("roe_cvm_ready")
+    if roe_cvm is None and cvm.get("equity_avg"):
+        roe_cvm = cvm["ni_ttm"] / cvm["equity_avg"]
     roe_yf = yf.get("roe")
     roe_delta = _rel_delta(roe_yf, roe_cvm)
 
-    # EPS: yf.eps is BRL/share; CVM derived = ni_ttm * 1000 / shares (CVM in
-    # thousand BRL, so multiply by 1000 to get BRL).
-    shares = yf.get("shares_outstanding")
-    eps_cvm = (cvm["ni_ttm"] * 1000.0 / shares) if (shares and shares > 0) else None
+    eps_cvm = cvm.get("eps_cvm_ready")
+    if eps_cvm is None:
+        shares = yf.get("shares_outstanding")
+        eps_cvm = (cvm["ni_ttm"] * 1000.0 / shares) if (shares and shares > 0) else None
     eps_yf = yf.get("eps")
     eps_delta = _rel_delta(eps_yf, eps_cvm)
 

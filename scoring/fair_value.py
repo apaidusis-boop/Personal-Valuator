@@ -272,6 +272,28 @@ def compute(ticker: str, market: str) -> dict | None:
     # Confidence label (BR uses CVM cross-check; US is single-source today).
     confidence = _confidence_for(market, ticker)
 
+    # Phase LL Sprint 1.4 — confidence as GATE.
+    # When sources disagree, downgrade the action one step so the dashboard
+    # never shows a high-conviction BUY based on contradictory data:
+    #   disputed       STRONG_BUY/BUY → HOLD ; HOLD stays ; TRIM/SELL stay
+    #   single_source  STRONG_BUY → BUY (only the strongest is gated)
+    #   cross_validated no change
+    raw_action = triplet["action"]
+    gated_action = raw_action
+    if raw_action and confidence.get("label") == "disputed":
+        if raw_action in ("STRONG_BUY", "BUY"):
+            gated_action = "HOLD"
+    elif raw_action and confidence.get("label") == "single_source":
+        if raw_action == "STRONG_BUY":
+            gated_action = "BUY"
+    triplet["action"] = gated_action
+    inputs["action_pre_gate"] = raw_action
+    inputs["action_post_gate"] = gated_action
+    inputs["gate_reason"] = (
+        f"confidence={confidence.get('label')} downgraded {raw_action}→{gated_action}"
+        if raw_action != gated_action else "no_gate_applied"
+    )
+
     return {
         "ticker": ticker, "market": market, "sector": sector,
         "method": method,
