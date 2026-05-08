@@ -28,7 +28,7 @@ tags: [roadmap, master, canonical, governance]
 
 ## 📊 Snapshot 2026-05-08
 
-**Status global**: sistema é maduro. 132 commits desde 2026-04-20. Closed-loop validation infra completa (Phase FF). Tiered scheduler + budget/health + news stream shipped (Phase EE/HH/II-AOW). Mission Control v6.1 com /calibration, /decisions, /perpetuums pages live. Tier 1 queue: 6/7 done (só schtasks user action pendente).
+**Status global**: sistema é maduro. 137 commits desde 2026-04-20. Closed-loop validation infra completa (Phase FF). Tiered scheduler + budget/health + news stream shipped (Phase EE/HH/II-AOW). **Phase KK shipped 2026-05-08 noite** — Fair Value v2 (band emit + safety margins) + historical data confidence + filing-driven dossier reactor (partially supersedes Tier 2 #8 JJ-AOW). Mission Control v6.1 com /calibration, /decisions, /perpetuums pages live. Tier 1 queue: 6/7 done (só schtasks user action pendente).
 
 **Aguardando**:
 - ≥90 dias de validated verdicts → destrava Phase GG (Capital Deployment Engine). Estamos a ~13d in (window real Aug/2026).
@@ -45,6 +45,7 @@ tags: [roadmap, master, canonical, governance]
 
 | Data | Phase / Sprint | Resumo |
 |---|---|---|
+| **2026-05-08 noite** | **Phase KK** Fair Value v2 + Filing Reactor | (1) `scoring/fair_value.py` v2 — band emit (`buy_below`/`hold_low`/`hold_high`/`sell_above`) + 6-stance action vocab + append-only history (timestamp keys + `trigger` column). (2) `scoring/_safety.py` + `config/safety_margins.yaml` — per-sector safety margin matrix anchored Buffett/Graham (compounders 18%, banks 25-27%, cyclicals 35-42%, FIIs 10-14%, REITs 16%) + per-ticker overrides. (3) `analytics/data_confidence.py` — BR yfinance vs CVM TTM cross-check; labels `cross_validated`/`single_source`/`disputed`. (4) `analytics/quarter_delta.py` — QoQ + YoY with PT narrative (bank vs ops branches). (5) `analytics/cross_source_check.py` — US yf vs FMP delta detector (idle on free FMP tier). (6) `scripts/auto_verdict_on_filing.py` reactive engine v1 — writes `dossiers/<TK>_FILING_<DATE>.md` bundling action band + confidence + delta narrative + FV history. (7) `config/triggers.yaml` + `trigger_monitor.py` — new `fii_cotistas_drop` evaluator (RBRX11 fired -9.99%/6m, closed Pátria-RBR lacuna). Commits `3bd31b0`, `2c5fcfe`, `d40ef96`, `e5cb5e2`, `075cf42`. |
 | **2026-05-08** | **W.7** skill_scout cron | `agents/skill_scout.py` audita SKL_*.md vs git activity. 19 skills scanned, 13 active, 3 backlog, 0 decay. Read-only/zero LLM. `ii skill-scout` shortcut. Commit `b76f2ff`. |
 | **2026-05-08** | **W.1** PDF Claude fallback | `_pdf_extract.py::extract_insights(use_claude_pdf=False)` opt-in via `claude-haiku-4-5-20251001`. `ii subs extract --use-claude` flag. Default OFF (in-house first). Commit `35b59cd`. |
 | **2026-05-08** | **W.6.3** LangFuse observability | `agents/_observability.py::trace_llm_call` decorator. JSONL traces em `data/traces/llm_traces_<DATE>.jsonl`. `ollama_call` wrapped. Optional LangFuse forward via env vars. `config/langfuse/docker-compose.yml`. Commit `bfd4905`. |
@@ -124,7 +125,7 @@ Phases F (and earlier) shipped antes do Constitution ser criado. Detalhe não co
 
 | Prioridade | Phase | Effort | Done quando |
 |---|---|---|---|
-| 8 | **Phase JJ-AOW** Reactive Engine | 2-3d | `event_queue` + react_8k/react_fato handlers |
+| 8 | **Phase JJ-AOW** Reactive Engine — *partial in KK* | 1-2d remaining | event_queue table (replace direct events scan) + severity tuning + Telegram inline buttons. Filing→dossier path ✅ shipped 2026-05-08 in Phase KK. |
 | 9 | **W.6.4** DSPy piloto risk_auditor | 2d | Trainset + benchmark pre/post |
 | 10 | **W.2 (rest)** Playwright + Bigdata fetcher | 2d | `bigdata_fetcher.py` + Calendar/investidor10 |
 | 11 | **Phase II-Live Workforce Page** | 1d | MC page mostrando schtasks + locks + Tavily quota |
