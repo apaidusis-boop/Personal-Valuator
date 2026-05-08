@@ -92,6 +92,7 @@ if /i "%CMD%"=="topics" ("%PY%" -X utf8 -m analytics.topic_scorer %ARGS%) & goto
 if /i "%CMD%"=="data-health" ("%PY%" -X utf8 -m analytics.data_health %ARGS%) & goto :EOF
 if /i "%CMD%"=="health" ("%PY%" -X utf8 -m agents._health %ARGS%) & goto :EOF
 if /i "%CMD%"=="skill-scout" ("%PY%" -X utf8 -m agents.skill_scout %ARGS%) & goto :EOF
+if /i "%CMD%"=="budget" ("%PY%" -X utf8 -m agents._budget %ARGS%) & goto :EOF
 if /i "%CMD%"=="anomalies" ("%PY%" -X utf8 -m analytics.data_anomalies %ARGS%) & goto :EOF
 if /i "%CMD%"=="fetch" ("%PY%" -X utf8 -m fetchers._fallback %ARGS%) & goto :EOF
 if /i "%CMD%"=="allocate" ("%PY%" -X utf8 -m strategies.portfolio_engine %ARGS%) & goto :EOF
