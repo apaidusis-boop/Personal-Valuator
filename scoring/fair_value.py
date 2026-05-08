@@ -143,6 +143,38 @@ def _latest_price(c: sqlite3.Connection, ticker: str) -> float | None:
 
 
 def _latest_fundamentals(c: sqlite3.Connection, ticker: str) -> dict | None:
+    """Latest fundamentals snapshot. Prefers filings-derived (CVM/SEC) over
+    yfinance — Phase LL Sprint 1.2 — because yfinance has documented bugs
+    in BR coverage (PRIO3 ROE 9.7% yf vs 38.4% filings; BBDC4 EPS R$2.13 yf
+    vs R$4.09 filings; the dual-share-class issue for BR banks).
+
+    Fallback chain:
+      1. fundamentals_from_filings   (CVM ITR/DFP, SEC XBRL when wired)
+      2. fundamentals                (yfinance — last resort)
+
+    Stamps `inputs.source` so dossier can show provenance ("filings" vs
+    "yfinance_fallback").
+    """
+    # Try filings first
+    try:
+        fr = c.execute(
+            """SELECT period_end, eps_ttm, bvps, roe_ttm, source, computed_at
+               FROM fundamentals_from_filings WHERE ticker=?
+               ORDER BY computed_at DESC LIMIT 1""",
+            (ticker,),
+        ).fetchone()
+        if fr and fr[1] is not None and fr[2] is not None:
+            return {
+                "period_end": fr[0],
+                "eps": fr[1], "bvps": fr[2], "roe": fr[3],
+                "pe": None, "pb": None, "dy": None,  # P/E P/B require price; not in filings
+                "_source": fr[4],     # 'cvm_quarterly_single' | 'cvm_bank_quarterly' | 'sec_xbrl'
+                "_provenance": "filings",
+                "_computed_at": fr[5],
+            }
+    except sqlite3.OperationalError:
+        pass  # table not yet created — fallback to yf
+    # Fallback: yfinance fundamentals
     r = c.execute(
         """SELECT period_end, eps, bvps, roe, pe, pb, dy
            FROM fundamentals WHERE ticker=? ORDER BY period_end DESC LIMIT 1""",
@@ -153,6 +185,8 @@ def _latest_fundamentals(c: sqlite3.Connection, ticker: str) -> dict | None:
     return {
         "period_end": r[0], "eps": r[1], "bvps": r[2],
         "roe": r[3], "pe": r[4], "pb": r[5], "dy": r[6],
+        "_source": "yfinance",
+        "_provenance": "yfinance_fallback",
     }
 
 
@@ -180,10 +214,14 @@ def compute(ticker: str, market: str) -> dict | None:
     sector = co.get("sector") or ""
     eps = (f or {}).get("eps")
     bvps = (f or {}).get("bvps")
+    provenance = (f or {}).get("_provenance", "unknown")
+    fund_source = (f or {}).get("_source", "unknown")
 
     method = None
     fair = None
-    inputs = {"eps": eps, "bvps": bvps}
+    inputs = {"eps": eps, "bvps": bvps,
+              "fundamentals_source": fund_source,
+              "fundamentals_provenance": provenance}
 
     if market == "br":
         if _is_fii(sector):
