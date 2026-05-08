@@ -6,7 +6,16 @@ Closed-loop validation infra para `verdict_history`. Mede:
   - Benchmark return (SPY US / BOVA11 BR no mesmo intervalo)
   - Sector ETF return (XLK/XLV/... US; sector ETF BR onde existir)
   - Outperformance vs benchmark + vs sector
-  - Accuracy direccional (BUY → return>0; AVOID → return<0; HOLD → |return|<5%)
+  - Accuracy direccional. Vocabulário oficial das actions (Phase FF Bloco 3):
+      bullish: BUY (not held, score≥7) | ADD (held, score≥7)
+      neutral: HOLD (held, mid score)  | WATCH (not held, mid score)
+      bearish: AVOID (not held, low)   | SELL (held, low)
+      no-op  : SKIP (not held, mid-low; "no opinion" — returns None from _accuracy)
+    Hit definitions:
+      bullish: return>0; outperformed_benchmark: vs_bench>0
+      bearish: return<0; outperformed_benchmark: vs_bench<0
+      neutral: |return|<HOLD_BAND_PCT (5%); outperformed: |vs_bench|<HOLD_BAND_VS_BENCH_PCT (2%)
+      SKIP   : intentionally None — represents absence of verdict, not a calibratable call
 
 Persiste tudo em `verdict_history` (colunas adicionadas pelo migrate). A diferença
 crítica vs `scripts/verdict_history.py::backtest()` (que computava on-the-fly):
