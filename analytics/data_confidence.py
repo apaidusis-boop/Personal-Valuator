@@ -228,6 +228,40 @@ def evaluate(ticker: str, market: str) -> dict:
     eps_yf = yf.get("eps")
     eps_delta = _rel_delta(eps_yf, eps_cvm)
 
+    # Phase LL Sprint 1.5 — 3-way voting with Fundamentus scrape.
+    # When 2/3 sources agree and the 3rd is an outlier, flag the outlier
+    # so future investigation surfaces it (VALE3 is the canonical case
+    # we found: yf + Fundamentus both say EPS ~R$3.3; our CVM says R$6.86
+    # because parser under-counts Q4'24 settlement loss).
+    fund_eps = fund_roe = fund_delta_yf_eps = fund_delta_yf_roe = None
+    fund_delta_cvm_eps = fund_delta_cvm_roe = None
+    outlier_signal = None
+    try:
+        fr = c.execute(
+            """SELECT eps, roe FROM fundamentals_scraped
+               WHERE ticker=? AND source='fundamentus'
+               ORDER BY scraped_at DESC LIMIT 1""",
+            (ticker,),
+        ).fetchone()
+        if fr:
+            fund_eps, fund_roe = fr[0], fr[1]
+            fund_delta_yf_eps = _rel_delta(eps_yf, fund_eps)
+            fund_delta_yf_roe = _rel_delta(roe_yf, fund_roe)
+            fund_delta_cvm_eps = _rel_delta(eps_cvm, fund_eps)
+            fund_delta_cvm_roe = _rel_delta(roe_cvm, fund_roe)
+            # Detect "2 vs 1" pattern: yf and Fundamentus agree, CVM disagrees.
+            # Threshold for the outlier (CVM) is 1.5× the OK band — tighter than
+            # full "disputed" (60%) because we have INDEPENDENT corroboration
+            # from two sources, so we trust them sooner. VALE3 case: yf+Fund
+            # both ~R$3.30 EPS, CVM R$6.86 (48% delta) → fires this rule.
+            OUTLIER_CVM_THRESHOLD = 1.5 * EPS_OK   # 37.5%
+            if (fund_delta_yf_eps is not None and fund_delta_yf_eps <= EPS_OK
+                    and fund_delta_cvm_eps is not None
+                    and fund_delta_cvm_eps >= OUTLIER_CVM_THRESHOLD):
+                outlier_signal = "cvm_outlier_eps"
+    except sqlite3.OperationalError:
+        pass  # fundamentals_scraped may not exist yet
+
     # Aggregate: count metrics that triangulated within OK band
     metrics_checked = 0
     metrics_ok = 0
@@ -256,20 +290,31 @@ def evaluate(ticker: str, market: str) -> dict:
         # In tolerance "warn" zone — neither agree nor outright dispute
         label, score = "single_source", round(metrics_ok / metrics_checked, 2)
 
-    out.update({
-        "label": label, "score": score,
-        "detail": {
-            "yf_period_end": yf["period_end"],
-            "cvm_latest_period": cvm["latest_period"],
-            "cvm_n_quarters": cvm["n_quarters"],
-            "roe_yf": roe_yf, "roe_cvm": round(roe_cvm, 4) if roe_cvm else None,
-            "roe_delta": round(roe_delta, 3) if roe_delta is not None else None,
-            "eps_yf": eps_yf, "eps_cvm": round(eps_cvm, 4) if eps_cvm else None,
-            "eps_delta": round(eps_delta, 3) if eps_delta is not None else None,
-            "metrics_ok": metrics_ok, "metrics_checked": metrics_checked,
-            "metrics_dispute": metrics_dispute,
-        },
-    })
+    detail = {
+        "yf_period_end": yf["period_end"],
+        "cvm_latest_period": cvm["latest_period"],
+        "cvm_n_quarters": cvm["n_quarters"],
+        "roe_yf": roe_yf, "roe_cvm": round(roe_cvm, 4) if roe_cvm else None,
+        "roe_delta": round(roe_delta, 3) if roe_delta is not None else None,
+        "eps_yf": eps_yf, "eps_cvm": round(eps_cvm, 4) if eps_cvm else None,
+        "eps_delta": round(eps_delta, 3) if eps_delta is not None else None,
+        "metrics_ok": metrics_ok, "metrics_checked": metrics_checked,
+        "metrics_dispute": metrics_dispute,
+    }
+    if fund_eps is not None or fund_roe is not None:
+        detail["fundamentus_eps"] = fund_eps
+        detail["fundamentus_roe"] = fund_roe
+        if fund_delta_yf_eps is not None:
+            detail["yf_vs_fundamentus_eps_delta"] = round(fund_delta_yf_eps, 3)
+        if fund_delta_cvm_eps is not None:
+            detail["cvm_vs_fundamentus_eps_delta"] = round(fund_delta_cvm_eps, 3)
+    if outlier_signal:
+        detail["outlier_signal"] = outlier_signal
+        # If 2 sources (yf+Fundamentus) agree and CVM is the outlier, downgrade
+        # confidence to disputed — the canonical 2-vs-1 case.
+        label, score = "disputed", 0.33
+
+    out.update({"label": label, "score": score, "detail": detail})
     return out
 
 
