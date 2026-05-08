@@ -39,7 +39,8 @@ stocks:
   - FRE
   - IPE
   - FCA
-  notes: Banco — usa schema bancário (cvm_parser_bank). Account code mapping by ds_conta substring.
+  notes: Banco — usa schema bancário (cvm_parser_bank). Account code mapping by ds_conta
+    substring.
 - ticker: ITSA4
   name: Itaúsa S.A.
   cnpj: 61.532.644/0001-15
@@ -115,7 +116,8 @@ fiis:
   - INFORME_MENSAL
   - RELATORIO_GERENCIAL
   - FATO_RELEVANTE
-  notes: Híbrido. CNPJ resolved 2026-04-25 via inf_mensal_fii_geral. CVM denom é "FUNDO DE INVESTIMENTO IMOBILIARIO RBR PROPERTIES".
+  notes: Híbrido. CNPJ resolved 2026-04-25 via inf_mensal_fii_geral. CVM denom é "FUNDO
+    DE INVESTIMENTO IMOBILIARIO RBR PROPERTIES".
 watchlist_stocks:
 - ticker: AXIA7
   name: Axia Energia
@@ -203,9 +205,10 @@ watchlist_stocks:
   - IPE
   - FCA
   sector: Banks
-  bank: true                  # use bank schema parser (BACEN account codes)
-  auto_populated: false        # manually corrected 2026-04-25 (was wrong: matched smaller energy co)
-  notes: 'Manually validated 2026-04-25. Substitui match errado anterior (CVM 3450 era Companhia Itaúnense Energia, não Itaú Unibanco Holding).'
+  bank: true
+  auto_populated: false
+  notes: Manually validated 2026-04-25. Substitui match errado anterior (CVM 3450
+    era Companhia Itaúnense Energia, não Itaú Unibanco Holding).
 - ticker: EQTL3
   name: Equatorial Energia S.A.
   cnpj: 03.220.438/0001-73
@@ -336,3 +339,33 @@ watchlist_stocks:
   - FCA
   sector: Consumer Staples
   auto_populated: false
+- ticker: POMO3
+  name: Marcopolo ON
+  cnpj: 88.611.835/0001-29
+  codigo_cvm: 8451
+  ri_url: TODO
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: true
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    MARCOPOLO SA. RI URL needs manual curation.'
+- ticker: POMO4
+  name: Marcopolo PN
+  cnpj: 88.611.835/0001-29
+  codigo_cvm: 8451
+  ri_url: TODO
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: true
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    MARCOPOLO SA. RI URL needs manual curation.'

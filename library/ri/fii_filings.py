@@ -291,10 +291,12 @@ def show(ticker: str) -> None:
         pl = (r['patrimonio_liquido'] or 0) / 1e6
         cot = r['cotas_emitidas'] or 0
         nav = r['valor_patrimonial_cota'] or 0
-        re_ = r['rentabilidade_efetiva_mes_pct'] or 0
-        dy = r['dy_mes_pct'] or 0
+        # CVM stores rentabilidade + DY as decimals (0.009587 = 0.96%) despite
+        # the *_pct column name. Multiply by 100 for human-readable display.
+        re_ = (r['rentabilidade_efetiva_mes_pct'] or 0) * 100
+        dy = (r['dy_mes_pct'] or 0) * 100
         ct = r['total_cotistas'] or 0
-        print(f"{r['period_end']:<12} {pl:>12,.1f} {cot:>14,.0f} {nav:>10,.2f} {re_:>8.2f} {dy:>8.2f} {ct:>10,}")
+        print(f"{r['period_end']:<12} {pl:>12,.1f} {cot:>14,.0f} {nav:>10,.2f} {re_:>8.3f} {dy:>8.3f} {ct:>10,}")
 
 
 def main() -> None:

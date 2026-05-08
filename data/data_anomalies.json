@@ -179,5 +179,36 @@
         "n_peers": 7
       }
     }
+  ],
+  "runs": [
+    {
+      "ts": "2026-05-08T08:01:17Z",
+      "kind": "CROSS_SOURCE_SPOTCHECK",
+      "tolerance_pct": 2.0,
+      "checked": [
+        {
+          "ticker": "NU",
+          "yfinance_close": 14.260000228881836,
+          "massive_close": 14.26,
+          "yfinance_status": "OK",
+          "massive_status": "OK"
+        },
+        {
+          "ticker": "JPM",
+          "yfinance_close": 306.2699890136719,
+          "massive_close": 306.27,
+          "yfinance_status": "OK",
+          "massive_status": "OK"
+        },
+        {
+          "ticker": "BN",
+          "yfinance_close": 46.5099983215332,
+          "massive_close": 46.51,
+          "yfinance_status": "OK",
+          "massive_status": "OK"
+        }
+      ],
+      "divergences": []
+    }
   ]
 }
