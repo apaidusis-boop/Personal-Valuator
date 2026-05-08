@@ -3,7 +3,7 @@ type: glossary
 slug: Moat
 title: Moat — Vantagem Competitiva Sustentável (Buffett)
 category: concept
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, concept]
 ---
 
@@ -56,6 +56,7 @@ tags: [glossary, tutor, concept]
 - [[GS_DOSSIE]]
 - [[HD_DOSSIE]]
 - [[ITSA4_DOSSIE]]
+- [[JNJ_DOSSIE]]
 - [[JPM_DOSSIE]]
 - [[KO_DOSSIE]]
 - [[MCD_DOSSIE]]
@@ -71,6 +72,7 @@ tags: [glossary, tutor, concept]
 - [[PLD_DOSSIE]]
 - [[PLPL3_DOSSIE]]
 - [[PLTR_DOSSIE]]
+- [[PRIO3_DOSSIE]]
 - [[RAPT4_DOSSIE]]
 - [[RDOR3_DOSSIE]]
 - [[RENT3_DOSSIE]]
@@ -86,4 +88,4 @@ tags: [glossary, tutor, concept]
 - [[XP_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

@@ -58,6 +58,7 @@ TSM negoceia a P/E 34.49 com DY 0.84% e ROE 36.21%, IC HOLD com confiança médi
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

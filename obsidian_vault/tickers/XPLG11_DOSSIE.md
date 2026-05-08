@@ -73,6 +73,7 @@ XPLG11 (XP Log) é FII tijolo logístico com DY 9,73% e P/E 19,98 — múltiplo 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

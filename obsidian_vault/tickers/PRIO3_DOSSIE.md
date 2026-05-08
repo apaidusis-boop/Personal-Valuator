@@ -96,6 +96,7 @@ _(DCF skipped — annual FCF data not available)_
 | Data coverage | 50 |
 | Paper track | 50 |
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

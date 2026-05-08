@@ -3,7 +3,7 @@ type: glossary
 slug: IPCA
 title: IPCA — Índice de Preços ao Consumidor (BR)
 category: macro_br
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, macro_br]
 ---
 
@@ -37,4 +37,4 @@ tags: [glossary, tutor, macro_br]
 ❌ IGP-M usado em alguns contratos (mais volátil que IPCA).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

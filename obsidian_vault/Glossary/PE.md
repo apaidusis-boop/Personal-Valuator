@@ -3,7 +3,7 @@ type: glossary
 slug: PE
 title: P/E — Price / Earnings
 category: valuation
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, valuation]
 ---
 
@@ -115,4 +115,4 @@ Múltiplo do que o mercado paga por cada R$1 de lucro anual. Mais baixo = mais b
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

@@ -3,7 +3,7 @@ type: glossary
 slug: Payout_Ratio
 title: Payout Ratio — % do lucro distribuído como dividendo
 category: income
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, income]
 ---
 
@@ -37,4 +37,4 @@ Indica **sustentabilidade do dividendo**. Alto = pouco buffer para downturn; bai
 ❌ Bancos têm payout regulado pelo Basel (CET1 mínimo) — verificar capital.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

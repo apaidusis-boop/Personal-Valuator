@@ -3,7 +3,7 @@ type: glossary
 slug: DY
 title: DY — Dividend Yield
 category: income
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, income]
 ---
 
@@ -117,4 +117,4 @@ Yield anualizado de dividendos. **A nossa estratégia DRIP usa DY como proxy de 
 - [[XPML11_DOSSIE]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

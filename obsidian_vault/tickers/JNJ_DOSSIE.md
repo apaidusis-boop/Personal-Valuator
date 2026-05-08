@@ -106,6 +106,7 @@ _Peer set (mixed): 5 tickers — ABBV, ABT, BDX, MDT, WST_
 
 → Vault: [[JNJ]]
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

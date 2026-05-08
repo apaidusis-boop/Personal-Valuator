@@ -70,6 +70,7 @@ EQTL3 negocia a P/E esticado de 45.95 com DY apenas 5.18% e ROE fraco de 6.98%, 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

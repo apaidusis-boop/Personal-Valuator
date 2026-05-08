@@ -159,6 +159,7 @@ _Peer set (db): 5 tickers — ITUB4, BBAS3, BPAC11, ABCB4, SANB11_
 | Data coverage | 100 |
 | Paper track | 90 |
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

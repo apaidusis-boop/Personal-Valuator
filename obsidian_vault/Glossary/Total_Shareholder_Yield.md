@@ -3,7 +3,7 @@ type: glossary
 slug: Total_Shareholder_Yield
 title: Total Shareholder Yield (TSY)
 category: income
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, income]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, income]
 ❌ Comparar TSY entre empresas com FCF coverage similar.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

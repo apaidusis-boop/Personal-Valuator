@@ -73,6 +73,7 @@ PGMN3 negocia P/E 13.57 e P/B 1.22 (perto do livro) com DY 4.50% e ROE 8.97% —
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

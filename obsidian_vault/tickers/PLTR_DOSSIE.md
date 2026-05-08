@@ -58,6 +58,7 @@ PLTR negoceia P/E 227.13 e P/B 46.32, sem dividendo, ROE 25.98% — pure-growth 
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

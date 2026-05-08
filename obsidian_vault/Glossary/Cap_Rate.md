@@ -3,7 +3,7 @@ type: glossary
 slug: Cap_Rate
 title: Cap Rate — Capitalization Rate (REITs/FIIs)
 category: real_estate
-date: 2026-05-05
+date: 2026-05-06
 tags: [glossary, tutor, real_estate]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, real_estate]
 ❌ Cap rate de mercado vs cap rate efectivo (com financing costs) divergem.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-05.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-06.*

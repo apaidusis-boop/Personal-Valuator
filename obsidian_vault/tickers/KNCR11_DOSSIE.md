@@ -73,6 +73,7 @@ KNCR11 (Kinea Rendimentos) é fundo papel CDI+ com DY 13,70%, P/E 8,86 e P/B 1,0
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

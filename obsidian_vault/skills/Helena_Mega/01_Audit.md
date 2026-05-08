@@ -1,13 +1,13 @@
 ---
 type: design_audit
-updated: 2026-05-06
+updated: 2026-05-07
 owner: helena_linha
 tags: [design, audit, helena, mega]
 ---
 
 # 01 — Design audit
 
-> Helena Mega · run **2026-05-06** · 89 ficheiros · **25** violações (0 errors / 25 warns / 0 info)
+> Helena Mega · run **2026-05-07** · 93 ficheiros · **25** violações (0 errors / 25 warns / 0 info)
 
 ## Resumo executivo
 

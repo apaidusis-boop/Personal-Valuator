@@ -68,6 +68,7 @@ BTLG11 é FII Logística (BTG) com **DY 9.19%**, P/B 1.00 (cota = NAV), streak 5
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.

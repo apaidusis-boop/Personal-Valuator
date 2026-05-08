@@ -69,6 +69,7 @@ RBRX11 é FII Híbrido (RBR) com **DY 12.31%** e streak de 5 anos, market cap mo
 
 
 
+
 ## Tutor
 
 > Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
