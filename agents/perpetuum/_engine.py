@@ -25,6 +25,48 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 SHARED_DB = ROOT / "data" / "br_investments.db"  # perpetuum_health lives here
+ACTION_SAFETY_YAML = ROOT / "config" / "action_safety.yaml"
+
+# Phase FF Bloco 3.2 — tier gate cache. Loaded lazily from action_safety.yaml.
+# Falls back to the legacy hardcoded T1=Observer/T2+=Proposer mapping if the
+# yaml is missing, keeping older deployments operational.
+_GATE_CACHE: dict | None = None
+
+_LEGACY_GATES = {
+    "T1": {"can_write_actions": False, "can_execute": False, "semantic": "OBSERVE"},
+    "T2": {"can_write_actions": True,  "can_execute": False, "semantic": "PROPOSE"},
+    "T3": {"can_write_actions": True,  "can_execute": True,  "semantic": "EXECUTE_WHITELIST"},
+    "T4": {"can_write_actions": True,  "can_execute": True,  "semantic": "EXECUTE_BROAD"},
+    "T5": {"can_write_actions": True,  "can_execute": True,  "semantic": "AUTONOMOUS"},
+}
+
+
+def _load_safety_gates() -> dict:
+    """Lazy load + cache action_safety.yaml. Returns tier→gate-dict mapping."""
+    global _GATE_CACHE
+    if _GATE_CACHE is not None:
+        return _GATE_CACHE
+    if not ACTION_SAFETY_YAML.exists():
+        _GATE_CACHE = _LEGACY_GATES
+        return _GATE_CACHE
+    try:
+        import yaml
+        raw = yaml.safe_load(ACTION_SAFETY_YAML.read_text(encoding="utf-8")) or {}
+        tier_map = raw.get("tier_semantics", {}) or {}
+        gates = raw.get("gates", {}) or {}
+        out: dict = {}
+        for tier, semantic in tier_map.items():
+            g = gates.get(semantic, {}) or {}
+            out[tier] = {
+                "semantic": semantic,
+                "can_write_actions": bool(g.get("can_write_actions", False)),
+                "can_execute": bool(g.get("can_execute", False)),
+                "requires_approval": g.get("requires_approval"),
+            }
+        _GATE_CACHE = out or _LEGACY_GATES
+    except Exception:
+        _GATE_CACHE = _LEGACY_GATES
+    return _GATE_CACHE
 
 UNIFIED_SCHEMA = """
 CREATE TABLE IF NOT EXISTS perpetuum_health (
@@ -100,6 +142,19 @@ class BasePerpetuum(ABC):
         self._db = self.db_path or SHARED_DB
         ensure_schema(self._db)
 
+    def action_safety(self) -> dict:
+        """Phase FF Bloco 3.2 — gate dict for this perpetuum's autonomy_tier.
+
+        Reads config/action_safety.yaml; falls back to legacy hardcoded mapping
+        if the yaml is missing. Keys: semantic (OBSERVE/PROPOSE/EXECUTE_*/...),
+        can_write_actions (bool), can_execute (bool), requires_approval (str).
+
+        Callers use this to decide whether to write a watchlist_actions row
+        or auto-execute a whitelisted command.
+        """
+        gates = _load_safety_gates()
+        return gates.get(self.autonomy_tier, _LEGACY_GATES["T1"])
+
     @abstractmethod
     def subjects(self) -> list[PerpetuumSubject]:
         """Enumerar all subjects to score."""
@@ -127,7 +182,8 @@ class BasePerpetuum(ABC):
 
         alerts = 0
         actions_written = 0
-        is_t2_plus = self.autonomy_tier in ("T2", "T3", "T4", "T5")
+        gate = self.action_safety()
+        can_propose = gate.get("can_write_actions", False)
 
         if not dry_run:
             for s, r in results:
@@ -138,8 +194,9 @@ class BasePerpetuum(ABC):
                     r.details["prev_score"] = prev
                 self._persist(r, run_date)
 
-                # T2+ autonomy: auto-propose action when score below threshold
-                if (is_t2_plus and r.score >= 0
+                # Gate-driven autonomy: write action row only if tier authorizes it.
+                # T1 OBSERVE → can_propose=False (no rows). T2+ PROPOSE/EXECUTE_* → True.
+                if (can_propose and r.score >= 0
                         and r.score < self.action_score_threshold
                         and r.action_hint):
                     from ._actions import write_action_from_result
@@ -151,6 +208,7 @@ class BasePerpetuum(ABC):
                         flags=r.flags,
                         details=r.details,
                         run_date=run_date,
+                        tier=self.autonomy_tier,
                     )
                     if created:
                         actions_written += 1

@@ -45,13 +45,27 @@ def write_action_from_result(
     flags: list[str],
     details: dict,
     run_date: str,
+    tier: str | None = None,
 ) -> tuple[bool, int | None]:
     """Insert into watchlist_actions. Returns (created, row_id).
 
     If trigger_id already exists → skip (idempotent). Else insert with status=open.
+
+    Phase FF Bloco 3.2 defensive gate: when ``tier`` is provided, consult
+    config/action_safety.yaml — refuse the write if the tier's gate has
+    can_write_actions=False. This is a no-op when callers pass tier=None
+    (legacy callers) or when the tier is T2+ (already authorized today).
     """
     if not action_hint or score < 0:
         return False, None
+
+    if tier is not None:
+        from ._engine import _load_safety_gates  # local import avoids cycle
+        gate = _load_safety_gates().get(tier)
+        if gate and not gate.get("can_write_actions", True):
+            # T1 OBSERVE: refuse silently. Caller's run() shouldn't be calling
+            # this for T1 anyway (engine gate prevents it), but defensive.
+            return False, None
 
     market, identifier = _split_subject_id(subject_id)
     db = DBS[market]
