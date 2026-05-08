@@ -154,7 +154,11 @@ def _write_fmp_ledger(state: dict) -> None:
 
 
 def fmp_can_call() -> tuple[bool, str]:
-    """Return (allowed, reason). Enforces 250/day + 5/sec burst."""
+    """Return (allowed, reason). Enforces 250/day daily cap.
+
+    Note: per-second burst (5/sec) is handled by FMPClient.THROTTLE_SEC
+    inside fetchers/_clients.py — we don't double-throttle here.
+    """
     state = _read_fmp_ledger()
     today_iso = date.today().isoformat()
     if state.get("day") != today_iso:
@@ -162,10 +166,6 @@ def fmp_can_call() -> tuple[bool, str]:
         _write_fmp_ledger(state)
     if state["count"] >= FMP_DAILY_LIMIT:
         return False, f"daily limit ({FMP_DAILY_LIMIT}) exhausted"
-    elapsed = time.time() - state.get("last_call_ts", 0.0)
-    min_interval = 1.0 / FMP_BURST_PER_SEC
-    if elapsed < min_interval:
-        return False, f"burst guard: wait {min_interval - elapsed:.2f}s"
     return True, "ok"
 
 
