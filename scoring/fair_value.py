@@ -1,20 +1,36 @@
-"""fair_value — compute target price + upside % from latest fundamentals.
+"""fair_value — compute consensus + our_fair (safety-margin) target prices.
 
-Methods (per market × sector):
+Methods (per market × sector) — produces the *consensus* fair (Buffett/Graham
+canonical reading):
+
   BR non-bank, non-FII  — Graham Number = sqrt(22.5 × EPS × BVPS)
-  BR bank               — min(EPS × 10, BVPS × 1.5)   (passes both screen ceilings)
+  BR bank               — min(EPS × 10, BVPS × 1.5)   (both screen ceilings)
   US non-bank, non-REIT — min(EPS × 20, BVPS × 3)     (Buffett ceiling)
   US bank               — EPS × 12                     (mid-cycle multiple)
-  US REIT               — BVPS × 2  (proxy; AFFO/FFO when available later)
+  US REIT               — BVPS × 2                     (proxy; AFFO/FFO later)
+  BR FII                — VPA (NAV anchor)
 
-Store: `fair_value` table (auto-created). Idempotent (PK ticker, method, computed_at_date).
-The Mission Control surfaces the latest row per ticker via lib/db.ts.
+The consensus is then narrowed by `scoring._safety.build_triplet()` into
+(our_fair, buy_below, hold_low, hold_high, sell_above, action) using a
+per-sector safety margin (config/safety_margins.yaml). Philosophy: 1-2%
+*more* conservative than the canonical Buffett/Graham margin.
+
+History: every `compute → persist` writes a NEW row keyed by
+(ticker, method, computed_at) where computed_at is an ISO **timestamp**.
+Same-day re-runs no longer overwrite; the full trajectory is queryable.
+Mission Control's existing `MAX(computed_at)` query keeps surfacing the
+latest correctly.
+
+Confidence: each row carries `confidence_label` ∈ {cross_validated,
+single_source, disputed} via `analytics.data_confidence`. Disputed inputs
+still emit a number but flagged so the orchestrator / dossier can warn.
 
 Uso:
     python -m scoring.fair_value ACN
     python -m scoring.fair_value --all
     python -m scoring.fair_value --holdings        (default)
     python -m scoring.fair_value --upside           (just print, no compute)
+    python -m scoring.fair_value ACN --history     (print all rows for ticker)
 """
 from __future__ import annotations
 
@@ -53,6 +69,22 @@ CREATE TABLE IF NOT EXISTS fair_value (
 CREATE INDEX IF NOT EXISTS idx_fv_ticker ON fair_value(ticker);
 """
 
+# Columns added in v2 (2026-05-08). ALTER TABLE applied lazily via _ensure_v2_columns.
+# Kept additive so existing INSERT OR REPLACE callers (none) don't break.
+V2_COLUMNS = [
+    ("our_fair",          "REAL"),
+    ("buy_below",         "REAL"),
+    ("hold_low",          "REAL"),
+    ("hold_high",         "REAL"),
+    ("sell_above",        "REAL"),
+    ("action",            "TEXT"),
+    ("margin_pct",        "REAL"),
+    ("our_upside_pct",    "REAL"),
+    ("confidence_label",  "TEXT"),
+    ("confidence_score",  "REAL"),
+    ("trigger",           "TEXT"),
+]
+
 # Sector keys (lowercase) that are FIIs / REITs / Banks
 _BANK_TOKENS = {"bank", "banks", "banco", "bancos"}
 _FII_SECTORS = {
@@ -65,6 +97,21 @@ _REIT_TOKENS = {"reit", "reits"}
 def _ensure_schema(db: Path) -> None:
     with sqlite3.connect(db) as c:
         c.executescript(SCHEMA)
+        _ensure_v2_columns(c)
+
+
+def _ensure_v2_columns(c: sqlite3.Connection) -> None:
+    """Lazily add v2 columns. Idempotent: ignores 'duplicate column' errors."""
+    existing = {r[1] for r in c.execute("PRAGMA table_info(fair_value)").fetchall()}
+    for name, ctype in V2_COLUMNS:
+        if name in existing:
+            continue
+        try:
+            c.execute(f"ALTER TABLE fair_value ADD COLUMN {name} {ctype}")
+        except sqlite3.OperationalError as e:
+            if "duplicate column name" not in str(e).lower():
+                raise
+    c.commit()
 
 
 def _is_bank(sector: str | None) -> bool:
@@ -173,37 +220,114 @@ def compute(ticker: str, market: str) -> dict | None:
     if method is None or fair is None or price is None or price <= 0:
         return None
 
+    # Consensus upside (vs Buffett/Graham raw fair)
     upside = (fair / price - 1.0) * 100.0
+
+    # Apply per-sector safety margin -> our_fair + action triplet
+    from scoring._safety import build_triplet, resolve_margin
+    margin_pct = resolve_margin(market, sector or None, ticker)
+    triplet = build_triplet(consensus_fair=fair, price=price, margin_pct=margin_pct)
+    our_upside = None
+    if triplet["our_fair"] is not None:
+        our_upside = (triplet["our_fair"] / price - 1.0) * 100.0
+
+    # Confidence label (BR uses CVM cross-check; US is single-source today).
+    confidence = _confidence_for(market, ticker)
+
     return {
         "ticker": ticker, "market": market, "sector": sector,
         "method": method,
-        "fair_price": round(fair, 4),
+        "fair_price": round(fair, 4),          # consensus
         "current_price": round(price, 4),
-        "upside_pct": round(upside, 2),
+        "upside_pct": round(upside, 2),         # vs consensus
         "eps": eps, "bvps": bvps,
         "inputs": inputs,
+        # v2 fields
+        "our_fair": triplet["our_fair"],
+        "buy_below": triplet["buy_below"],
+        "hold_low": triplet["hold_low"],
+        "hold_high": triplet["hold_high"],
+        "sell_above": triplet["sell_above"],
+        "action": triplet["action"],
+        "margin_pct": triplet["margin_pct"],
+        "our_upside_pct": round(our_upside, 2) if our_upside is not None else None,
+        "confidence_label": confidence["label"],
+        "confidence_score": confidence["score"],
+        "confidence_detail": confidence.get("detail"),
     }
 
 
-def persist(result: dict) -> None:
+def _confidence_for(market: str, ticker: str) -> dict:
+    """Lookup confidence from `analytics.data_confidence` if available; else
+    default to 'single_source'. Lazy import to avoid hard dep at engine load."""
+    try:
+        from analytics.data_confidence import latest_label
+        row = latest_label(market, ticker)
+        if row:
+            return row
+    except Exception:
+        pass
+    return {"label": "single_source", "score": None, "detail": None}
+
+
+def persist(result: dict, *, trigger: str | None = None) -> None:
+    """Append-only persist. Uses ISO timestamp (not date) so same-day re-runs
+    each get their own row — full history queryable via ORDER BY computed_at.
+    `trigger` is optional context (e.g. "manual", "filing:BBDC4:2026-05-08",
+    "cron:daily") for downstream filtering.
+    """
     market = result["market"]
     db = DB_BR if market == "br" else DB_US
     _ensure_schema(db)
-    today = date.today().isoformat()
+    now_iso = datetime.now(UTC).isoformat(timespec="seconds")
     import json as _json
     with sqlite3.connect(db) as c:
         c.execute(
-            """INSERT OR REPLACE INTO fair_value
+            """INSERT INTO fair_value
                  (ticker, method, fair_price, current_price, upside_pct,
-                  eps, bvps, sector, inputs_json, computed_at)
-               VALUES (?,?,?,?,?,?,?,?,?,?)""",
-            (result["ticker"], result["method"], result["fair_price"],
-             result["current_price"], result["upside_pct"],
-             result.get("eps"), result.get("bvps"), result.get("sector"),
-             _json.dumps(result.get("inputs") or {}, ensure_ascii=False),
-             today),
+                  eps, bvps, sector, inputs_json, computed_at,
+                  our_fair, buy_below, hold_low, hold_high, sell_above,
+                  action, margin_pct, our_upside_pct,
+                  confidence_label, confidence_score, trigger)
+               VALUES (?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?, ?,?,?)""",
+            (
+                result["ticker"], result["method"], result["fair_price"],
+                result["current_price"], result["upside_pct"],
+                result.get("eps"), result.get("bvps"), result.get("sector"),
+                _json.dumps(result.get("inputs") or {}, ensure_ascii=False),
+                now_iso,
+                result.get("our_fair"), result.get("buy_below"),
+                result.get("hold_low"), result.get("hold_high"),
+                result.get("sell_above"),
+                result.get("action"), result.get("margin_pct"),
+                result.get("our_upside_pct"),
+                result.get("confidence_label"), result.get("confidence_score"),
+                trigger or "manual",
+            ),
         )
         c.commit()
+
+
+def history(ticker: str, market: str, *, limit: int = 50) -> list[dict]:
+    """Return historical fair_value rows for ticker, oldest→newest."""
+    db = DB_BR if market == "br" else DB_US
+    _ensure_schema(db)
+    with sqlite3.connect(db) as c:
+        rows = c.execute(
+            """SELECT computed_at, method, fair_price, our_fair, current_price,
+                      action, confidence_label, trigger
+               FROM fair_value WHERE ticker=?
+               ORDER BY computed_at DESC LIMIT ?""",
+            (ticker, limit),
+        ).fetchall()
+    out = [
+        {"computed_at": r[0], "method": r[1], "fair_price": r[2], "our_fair": r[3],
+         "current_price": r[4], "action": r[5], "confidence_label": r[6],
+         "trigger": r[7]}
+        for r in rows
+    ]
+    out.reverse()  # oldest first
+    return out
 
 
 def _load_tickers(scope: str) -> list[tuple[str, str]]:
@@ -229,7 +353,29 @@ def main() -> int:
     g.add_argument("--all", action="store_true")
     ap.add_argument("--upside", action="store_true",
                     help="apenas listar último fair value persistido")
+    ap.add_argument("--history", action="store_true",
+                    help="(com --ticker) imprime trajectória histórica do ticker")
+    ap.add_argument("--trigger", default="manual",
+                    help="contexto persistido em fair_value.trigger (ex: 'filing:BBDC4:2026-05-08')")
     args = ap.parse_args()
+
+    if args.ticker and args.history:
+        tk = args.ticker.upper()
+        for market, db in (("br", DB_BR), ("us", DB_US)):
+            with sqlite3.connect(db) as c:
+                if not c.execute("SELECT 1 FROM companies WHERE ticker=?", (tk,)).fetchone():
+                    continue
+            print(f"\n=== {tk} fair value history ({market.upper()}) ===")
+            for h in history(tk, market, limit=200):
+                print(
+                    f"  {h['computed_at']:<25} {h['method']:<18} "
+                    f"fair={h['fair_price']:>9.2f} our={h['our_fair'] or 0:>9.2f} "
+                    f"price={h['current_price']:>9.2f} {h['action'] or 'N/A':<11} "
+                    f"[{h['confidence_label'] or '-'}] trig={h['trigger']}"
+                )
+            return 0
+        print(f"{tk}: not found")
+        return 1
 
     if args.upside:
         for market, db in (("br", DB_BR), ("us", DB_US)):
@@ -278,10 +424,17 @@ def main() -> int:
             if r is None:
                 skipped += 1
                 continue
-            persist(r)
+            persist(r, trigger=args.trigger)
             ok += 1
-            print(f"  {tk:<8} {r['method']:<18} fair={r['fair_price']:>10.2f}"
-                  f"  cur={r['current_price']:>10.2f}  upside={r['upside_pct']:>+6.1f}%")
+            our = r.get("our_fair")
+            our_str = f"{our:>10.2f}" if our is not None else "       N/A"
+            act = r.get("action") or "—"
+            conf = (r.get("confidence_label") or "-")[:6]
+            print(
+                f"  {tk:<8} {r['method']:<18} fair={r['fair_price']:>10.2f}"
+                f"  our={our_str}  cur={r['current_price']:>10.2f}"
+                f"  {act:<11}  [{conf}]"
+            )
         except Exception as e:  # noqa: BLE001
             print(f"  {tk}: error — {e}")
             skipped += 1
