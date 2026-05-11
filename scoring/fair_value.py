@@ -106,6 +106,23 @@ _US_BANK_TICKERS = frozenset({
     "COF", "DFS", "AXP",
 })
 
+# Fallback whitelist for the intangible gate. The measured trigger
+# (intangible_pct_assets >= 0.25 or tangible_book_value < 0) depends on
+# scripts/backfill_intangibles.py having populated those columns — but the
+# daily fundamentals refresh inserts fresh rows *without* them, so between
+# backfills the gate silently stops firing (this is exactly how KO/PG/JNJ
+# regressed back to SELL/TRIM on 2026-05-10 despite the 2026-05-09 fix).
+# These are the canonical "brand equity off the balance sheet / buybacks
+# crushed BVPS" names where min(EPS×20, BVPS×3) and the SELL signal are
+# unreliable. Belt-and-suspenders, mirrors _US_BANK_TICKERS. Only ever
+# downgrades SELL/TRIM→HOLD (conservative direction).
+_HIGH_INTANGIBLE_TICKERS = frozenset({
+    "KO", "PEP", "PG", "CL", "KMB", "MDLZ", "KHC", "GIS", "HSY", "K", "SJM",
+    "MO", "PM", "MCD", "SBUX", "YUM", "NKE", "EL", "CLX", "CHD",
+    "JNJ", "ABT", "MMM", "HON",
+    "V", "MA", "ACN", "IBM", "HD", "LOW",
+})
+
 
 def _ensure_schema(db: Path) -> None:
     with sqlite3.connect(db) as c:
@@ -338,24 +355,32 @@ def compute(ticker: str, market: str) -> dict | None:
     # the canonical Buffett/Graham fair_price; just enriches the audit trail.
     # See scripts/backfill_intangibles.py docstring for rationale.
     ipa = (f or {}).get("intangible_pct_assets")
+    tbv = (f or {}).get("tangible_book_value")
     if ipa is not None:
         inputs["intangible_pct_assets"] = ipa
         inputs["goodwill"] = (f or {}).get("goodwill")
         inputs["other_intangibles"] = (f or {}).get("other_intangibles")
-        inputs["tangible_book_value"] = (f or {}).get("tangible_book_value")
-        # Threshold 0.25 (lowered 2026-05-09 from 0.40): KO has 26.7% intangibles
-        # and tangible_book_value just $4B (vs $340B mkt cap); the canonical Buffett
-        # owns-it brand. Setting lower catches KO; staples / pharma / consumer
-        # discretionary with acquired goodwill will trigger but the gate only
-        # downgrades SELL/TRIM→HOLD (conservative direction, not aggressive).
-        # Also triggers on negative tangible_book_value regardless of % (PG/JNJ
-        # canonical case — equity is mostly goodwill+intangibles).
-        tbv = (f or {}).get("tangible_book_value")
-        if ipa >= 0.25 or (tbv is not None and tbv < 0):
-            inputs["intangible_warning"] = (
-                "high_intangibles_brand_off_balance — Buffett ceiling on BVPS "
-                "unreliable for this name; consider tangible_book_value carefully"
-            )
+        inputs["tangible_book_value"] = tbv
+    # Intangible warning fires on:
+    #   1. measured  — intangible_pct_assets >= 0.25 (threshold lowered 2026-05-09
+    #      from 0.40 to catch KO at 26.7%), OR negative tangible_book_value (PG/JNJ/HD
+    #      canonical case — equity is mostly goodwill+intangibles), OR
+    #   2. fallback  — ticker is in _HIGH_INTANGIBLE_TICKERS and the columns are
+    #      stale/missing (daily fundamentals refresh doesn't populate them).
+    # The gate downstream only downgrades SELL/TRIM→HOLD and STRONG_BUY→BUY
+    # (conservative direction), so a slightly generous trigger is low-risk.
+    measured_hi = (ipa is not None and ipa >= 0.25) or (tbv is not None and tbv < 0)
+    fallback_hi = (
+        ipa is None and tbv is None
+        and market == "us" and ticker.upper() in _HIGH_INTANGIBLE_TICKERS
+    )
+    if measured_hi or fallback_hi:
+        inputs["intangible_warning"] = (
+            "high_intangibles_brand_off_balance — Buffett ceiling on BVPS "
+            "unreliable for this name; consider tangible_book_value carefully"
+        )
+        if fallback_hi:
+            inputs["intangible_warning_source"] = "ticker_fallback_list"
 
     if market == "br":
         if _is_fii(sector):
