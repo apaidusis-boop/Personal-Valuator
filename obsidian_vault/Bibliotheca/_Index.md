@@ -56,6 +56,14 @@ Cada métrica usada nos dossiers tem entrada própria com:
 
 **Como usar**: hover sobre `[[Glossary/PE]]` em qualquer dossier para preview Obsidian nativo.
 
+## Manuais & Réguas (linguagem de investidor)
+
+Como dirigir o sistema e o que cada decisão quer dizer — sem jargão de código:
+
+- [[Bibliotheca/Manual_de_Direcao]] — **a ponte**: vocabulário das decisões (fair value, veredito, fosso, margem de segurança, gates…) + tabela "se pensas X → diz Y → sistema faz Z" + anatomia de um veredito + as 5 alavancas que mudam o veredito.
+- [[Bibliotheca/Disciplina_de_Investidor]] — os 10 hábitos de mentalidade de analista (régua dos agentes de research).
+- [[Sessions/FairValue_Forward_Audit_2026-05-11]] — auditoria do engine de fair value + overlay forward quality-aware. Output diário: `obsidian_vault/Bibliotheca/FairValue_Forward_<DATE>.md` (gerar: `.venv\Scripts\python.exe -m analytics.fair_value_forward`).
+
 ## Como expandir
 
 ### Novos clippings
