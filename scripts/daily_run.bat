@@ -41,6 +41,11 @@ echo [US] daily_update_us.py  ^(retry x3, network heavy^) >> "%LOG%"
 "%PY%" scripts\_retry.py --tag US-DAILY --attempts 3 --backoff 60,300,900 --timeout 1800 -- "%PY%" scripts\daily_update_us.py >> "%LOG%" 2>&1
 echo US exit code: %errorlevel% >> "%LOG%"
 
+echo. >> "%LOG%"
+echo [EXA-NEWS] exa_news_monitor.py --holdings --md  ^(Exa neural news -^> news table^) >> "%LOG%"
+"%PY%" scripts\_retry.py --tag EXA-NEWS --attempts 2 --backoff 120 --timeout 600 -- "%PY%" scripts\exa_news_monitor.py --holdings --md >> "%LOG%" 2>&1
+echo EXA-NEWS exit code: %errorlevel% >> "%LOG%"
+
 REM === SEC + CVM monitors moved to hourly_run.bat (Phase EE 2026-05-08) ===
 REM === CVM PDF extractor + dividend/earnings calendars + benchmarks    ===
 REM === + auto_verdict + trigger_monitor moved to q4h_run.bat           ===
@@ -74,6 +79,11 @@ echo. >> "%LOG%"
 echo [DATA-CONFIDENCE] analytics.data_confidence --holdings  ^(refresh after fetchers^) >> "%LOG%"
 "%PY%" -m analytics.data_confidence --holdings >> "%LOG%" 2>&1
 echo DATA-CONFIDENCE exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [INTANGIBLES] backfill_intangibles.py --us-only  ^(re-populate goodwill/TBV so fair_value intangible gate fires; daily fundamentals refresh drops these cols^) >> "%LOG%"
+"%PY%" scripts\backfill_intangibles.py --us-only --sleep 0.3 >> "%LOG%" 2>&1
+echo INTANGIBLES exit code: %errorlevel% >> "%LOG%"
 
 echo. >> "%LOG%"
 echo [FAIR-VALUE] scoring.fair_value --holdings  ^(target price + upside%%; uses filings^) >> "%LOG%"
