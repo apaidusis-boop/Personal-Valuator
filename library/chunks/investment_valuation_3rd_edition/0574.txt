@@ -1,0 +1,33 @@
+the book value of equity, the value-to-book ratio
+relates the firm value to the book value of capital of the firm. Consequently, it can be viewed as the
+firm value analogue to the price-to-book ratio.
+
+Definition
+The value-to-book ratio is obtained by dividing the market value of both debt and equity by the book
+value of capital invested in a firm:
+If the market value of debt is unavailable, the book value of debt can be used in the numerator as
+well. Needless to say, debt has to be consistently defined for both the numerator and denominator.
+For instance, if you choose to convert operating leases to debt for computing market value of debt,
+you have to add the present value of operating leases to the book value of debt as well.
+There are two common variants of this multiple that do not pass the consistency test. One uses the
+book value of assets, which will generally exceed the book value of capital by the magnitude of
+current liabilities, in the denominator. This will result in price-to-book ratios that are biased down
+for firms with substantial current liabilities. The other uses the enterprise value in the numerator, with
+cash netted from the market values of debt and equity. Since the book value of equity incorporates the
+cash holdings of the firm, this will also bias the multiple down. If you decide to use enterprise value
+in the numerator, you would need to net cash out of the denominator as well. Netting out cash from
+book capital creates a measure called invested capital:
+In addition, the multiple may need to be adjusted for a firm's cross holdings just as EV/EBITDA
+multiples were. The adjustment was described in detail for the enterprise value to EBITDA multiple
+in Chapter 18 and will require that you net out the portion of the market value and book value of
+equity that is attributable to subsidiaries.
+Description
+The distribution of the value-to-book ratio resembles that of the price-to-book ratio. 
+Figure 19.9
+presents the distributions for EV/invested capital and value/book capital ratios for U.S. companies in
+January 2011. As with the other multiples, it is a heavily skewed and the average values are much
+higher than the medians: The median EV/Invested capital for U.S. firms in January 2011 was 1.68
+while the median value-to-book ratio was 1.53. Note that there are 102 firms where enterprise value
+is negative (because cash exceeds the combined market values of debt and equity).
+Figure 19.9
+ EV/Invested Capital and Value to Book: U.S. Firms in January 2011

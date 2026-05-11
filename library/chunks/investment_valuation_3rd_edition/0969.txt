@@ -1,0 +1,32 @@
+simulation packages allow users to run thousands of simulations, with little or no cost attached
+to increasing that number. Given that reality, it is better to err on the side of too many simulations
+
+rather than too few.
+There have generally been two impediments to good simulations. The first is informational:
+estimating distributions of values for each input into a valuation is difficult to do. In other words, it
+is far easier to estimate an expected growth rate of 8 percent in revenues for the next five years than
+it is to specify the distribution of expected growth rates—the type of distribution, parameters of that
+distribution—for revenues. The second is computational; until the advent of personal computers,
+simulations tended to be too time and resource intensive for the typical analyst. Both these
+constraints have eased in recent years and simulations have become more feasible.
+ILLUSTRATION 33.4: 
+Valuing Exxon Mobil—Monte Carlo
+Simulation
+In chapter 22, we valued Exxon Mobil, the integrated oil company in 2009. In 
+Figure 33.8
+, we reproduce the graph Exxon’s
+operating income as a function of the average oil price each year from 1985 to 2008.
+Figure 33.8
+ Operating Income versus Oil Prices for Exxon Mobil: 1985–2008
+Also in chapter 22, we regressed the operating income of Exxon Mobil against the oil price per barrel to arrive at the
+following:
+Exxon Mobil’s operating income increases about $9.11 billion for every $10 increase in the price per barrel of oil, and 90%
+of the variation in Exxon’s earnings over time comes from movements in oil prices.
+5
+In chapter 22, we made the following assumptions to estimate an equity value for Exxon in March 2009:
+We estimated a bottom-up beta of 0.90 for Exxon Mobil, and then used the Treasury bond rate of 2.5% and
+an equity risk premium of 6.5% to estimate a cost of equity. 
+Exxon has $9.4 billion of debt outstanding and a market capitalization of $320.4 billion (4941.63 million shares, trading at
+$64.83/share), resulting in a debt ratio of 2.85%. As an AAA-rated company, its cost of debt is expected to be 3.75%,
+reflecting a default spread of 1.25% over the riskfree rate. Using a marginal tax rate of 38%(rather than the effective tax
+rate) and Exxon’s debt to capital ratio of 2.85%, we estimated a cost of capital of 8.18% for the firm.

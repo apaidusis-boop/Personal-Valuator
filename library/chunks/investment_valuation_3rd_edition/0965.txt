@@ -1,0 +1,20 @@
+this approach is the assumption that there have been no structural
+shifts in the market that will render the historical data unreliable.
+Figure 33.6
+ One-Year Change in U.S. 10-Year Treasury-Rate
+
+ii.
+
+Cross-sectional data:
+ In some cases, you may be able to substitute data on differences in a
+specific variable across existing investments that are similar to the investment being analyzed.
+Assume that you are valuing a software firm and are concerned about the volatility in operating
+margins. 
+Figure 33.7
+ provides a distribution of pretax operating margins across software
+companies in 2011. 
+In a simulation, you could either use this distribution directly or find a standardized statistical
+distribution that is close in terms of characteristics. Note, though, that if you use this distribution,
+you are in effect assuming that the underlying distribution of margins is the same across software
+firms.
+iii.

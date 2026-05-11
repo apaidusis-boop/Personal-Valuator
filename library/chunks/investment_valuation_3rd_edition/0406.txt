@@ -1,0 +1,18 @@
+hase and the present
+value of the terminal value of equity:
+The stock was trading at 3,390 Sfr per share in May 2001 at the time of this valuation, making the stock slightly under
+valued.
+FCFE2st.xls:
+
+This spreadsheet allows you to value a firm with a temporary period of high growth in
+FCFE, followed by stable growth.
+REINVESTMENT ASSUMPTIONS, TERMINAL VALUE,
+AND EQUITY VALUE
+We have repeatedly emphasized the importance of linking growth assumptions to assumptions about reinvestment, and
+especially so in stable growth. A very common assumption in many discounted cash flow valuations is that capital
+expenditures offset depreciation in stable growth. When combined with the assumption of no working capital changes, this
+translates into zero reinvestment. While this may be a reasonable assumption for a year or two, it is not consistent with the
+assumption that operating income will grow in perpetuity. How much of a difference can one assumption make? In the
+Nestlé valuation, we reestimated terminal value of equity per share assuming no reinvestment:
+Keeping all of our other assumptions intact, this results in a value of equity per share of 4,144 Sfr per share—an increase in
+value of approximately 22 percent.

@@ -1,0 +1,34 @@
+b that summarizes working capital ratios for firms in the United
+States, classified by industry.
+finratio.xls:
+
+This spreadsheet allows you to compute the working capital ratios for a firm, based upon
+
+financial statement data.
+Long-Term Solvency and Default Risk
+Measures of long-term solvency attempt to examine a firm's capacity to meet interest and principal
+payments in the long term. Clearly, the profitability ratios discussed earlier in the section are a
+critical component of this analysis. The ratios specifically designed to measure long-term solvency
+try to relate profitability to the level of debt payments in order to identify the degree of comfort with
+which the firm can meet these payments.
+Interest Coverage Ratios
+The interest coverage ratio measures the capacity of the firm to meet interest payments from predebt,
+pretax earnings.
+The higher the interest coverage ratio, the more secure is the firm's capacity to make interest
+payments from earnings. This argument, however, has to be tempered by the recognition that the
+amount of earnings before interest and taxes is volatile and can drop significantly if the economy
+enters a recession. Consequently, two firms can have the same interest coverage ratio but be viewed
+very differently in terms of risk.
+The denominator in the interest coverage ratio can be easily extended to cover other fixed
+obligations such as lease payments. If this is done, the ratio is called a fixed charges coverage ratio:
+Finally, this ratio, while stated in terms of earnings, can be restated in terms of cash flows by using
+earnings before interest, taxes, depreciation, and amortization (EBITDA) in the numerator and cash
+fixed charges in the denominator.
+Both interest coverage and fixed charges coverage ratios are open to the criticism that they do not
+consider capital expenditures, a cash flow that may be discretionary in the very short term, but not in
+the long term if the firm wants to maintain growth. One way of capturing the extent of this cash flow,
+relative to operating cash flows, is to compute a ratio of the two:
+While there are a number of different definitions of cash flows from operations, the most
+reasonable way of defining it is to measure the cash flows from continuing operations, before interest
+but after taxes and after meeting working capital needs.
+covratio.xls:

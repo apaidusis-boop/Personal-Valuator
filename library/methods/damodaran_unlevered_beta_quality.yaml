@@ -1,0 +1,42 @@
+---
+id: damodaran_unlevered_beta_quality
+name: Damodaran Quality Filter — low levered operational risk
+book: Investment Valuation 3rd ed (Damodaran)
+chapter: 8 (Estimating Risk Parameters)
+horizon: long                 # 3-5y
+direction: LONG
+derived_from: ollama_extract
+
+framework: |
+  Unlevered beta mede risco OPERACIONAL puro (sem efeito alavancagem).
+    β_u = β_L / (1 + (D/E)(1-T))
+  Firms com β_u baixo + leverage baixa têm capital structure resiliente.
+  Cruza com quality: ROE alto + β_u baixo = compound sustainable.
+
+rules:
+  # DB stores roe as decimal (0.17 = 17%)
+  - id: healthy_roe
+    description: ROE >= 15% (já no CLAUDE.md US criteria)
+    check: roe >= 0.15
+  - id: low_leverage
+    description: Net Debt/EBITDA < 3 (or unavailable — banks/holdings)
+    check: "net_debt_ebitda < 3"
+  - id: stable_pe
+    description: P/E razoável — proxy para β_u aceitável (sem pricing extremes)
+    check: pe > 0 AND pe <= 22
+
+entry_trigger: all rules pass
+exit_trigger: ROE < 12% em 2 quarters OR net_debt_ebitda > 3
+
+expected_move:
+  target_pct: 30              # compounding over 3y
+  stop_loss_pct: -15
+
+caveats:
+  - "β_u real requer shares_outstanding + beta_levered — actualmente aproximado"
+  - "ideal: adicionar coluna `beta_levered` em fundamentals via yfinance"
+  - "BR com juros altos penaliza leveraged firms DESPROPORCIONALMENTE — esta screen faz sentido BR agora"
+
+fits_with:
+  - CLAUDE.md US criteria (P/E≤20, ROE≥15%)
+  - scoring/engine.py

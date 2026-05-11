@@ -1,0 +1,142 @@
+{
+  "WSJ \u2014 Minute Briefing": {
+    "last_seen_at": "2026-05-08T16:46:00+00:00",
+    "guids": [
+      "8a41c31c-4afd-11f1-9207-b784c439ff70"
+    ]
+  },
+  "Morning Call - BTG Pactual": {
+    "last_seen_at": "2026-05-08T12:11:40+00:00",
+    "guids": [
+      "a00b8677-3e88-445a-beeb-cb05580342ad"
+    ]
+  },
+  "Morning Call XP": {
+    "last_seen_at": "2026-05-11T10:08:13+00:00",
+    "guids": [
+      "https://api.spreaker.com/episode/71921057",
+      "https://api.spreaker.com/episode/71954760"
+    ]
+  },
+  "Stock Pickers": {
+    "last_seen_at": "2026-05-03T22:28:03+00:00",
+    "guids": [
+      "https://api.spreaker.com/episode/71842570"
+    ]
+  },
+  "Market Makers": {
+    "last_seen_at": "2026-05-10T21:00:01+00:00",
+    "guids": [
+      "1b3000a4-4902-4670-adb7-556016816424",
+      "af1abbc4-d731-4680-a46e-389bd7a0b1c8"
+    ]
+  },
+  "Bloomberg Daybreak Brasil": {
+    "last_seen_at": "2026-05-11T10:16:30+00:00",
+    "guids": [
+      "f50252ce-adb6-4838-978d-b44700a7aae9",
+      "eb180f91-b225-413d-b503-b44400a848eb"
+    ]
+  },
+  "Fernando Ulrich": {
+    "last_seen_at": "2026-05-11T09:00:00+00:00",
+    "guids": [
+      "c9164933-3daf-4715-9354-3c349e3f6109",
+      "17bdbf5b-1608-4da5-87e6-9d0b713fc1f3"
+    ]
+  },
+  "WSJ \u2014 What's News": {
+    "last_seen_at": "2026-05-11T09:57:00+00:00",
+    "guids": [
+      "e10b41ec-4b8d-11f1-81b1-cbdfe3bb55de",
+      "ab8f3f02-4c4e-11f1-9a3c-63dc81fe0446",
+      "f3ac2354-4d20-11f1-add6-9fc5ea3c969a"
+    ]
+  },
+  "FT News Briefing": {
+    "last_seen_at": "2026-05-11T04:00:00+00:00",
+    "guids": [
+      "6a00dc64668fe6d31fe38f02",
+      "69fe371a28bc864b8b36be99"
+    ]
+  },
+  "Bloomberg Daybreak: US Edition": {
+    "last_seen_at": "2026-05-08T21:00:00+00:00",
+    "guids": [
+      "6dcea146-abb0-4860-8b72-b44401490a3d"
+    ]
+  },
+  "Bloomberg Daybreak: Europe Edition": {
+    "last_seen_at": "2026-05-11T05:57:14+00:00",
+    "guids": [
+      "2c7e8d72-4f23-4e1c-8866-b4440149fa53",
+      "a672fec1-80f3-4203-8e68-b4470060aa74"
+    ]
+  },
+  "Bloomberg Surveillance": {
+    "last_seen_at": "2026-05-08T16:00:00+00:00",
+    "guids": [
+      "f49bba8b-d99c-4b76-91c8-b44401064175"
+    ]
+  },
+  "Reuters Morning Bid": {
+    "last_seen_at": "2026-05-11T09:34:00+00:00",
+    "guids": [
+      "17150fd4-4ac1-11f1-ac6d-63e7c88eb213",
+      "41e9ea74-4d17-11f1-8e4f-c38ac96eb948",
+      "02acbae4-4b91-11f1-92f1-af56721b73ac"
+    ]
+  },
+  "Schwab Market Update Audio": {
+    "last_seen_at": "2026-05-11T07:00:00+00:00",
+    "guids": [
+      "832ddf46-0562-4481-9a58-7908b9e93f7f",
+      "30ec994e-246a-48a0-9e7d-2e6aacbd1ac0"
+    ]
+  },
+  "Morning Brew Daily": {
+    "last_seen_at": "2026-05-08T11:02:00+00:00",
+    "guids": [
+      "c756de04-3f22-11f1-80eb-ef11a127c217"
+    ]
+  },
+  "Odd Lots": {
+    "last_seen_at": "2026-05-11T08:00:00+00:00",
+    "guids": [
+      "258befee-0a77-412f-bc07-b44300b368b2",
+      "a7009176-dd7f-474d-916a-b44700369509"
+    ]
+  },
+  "Invest Like the Best": {
+    "last_seen_at": "2026-05-05T08:00:00+00:00",
+    "guids": [
+      "6162ba8a-4843-11f1-b7b7-53d3b402f9a6"
+    ]
+  },
+  "Acquired": {
+    "last_seen_at": "2026-04-13T03:33:59+00:00",
+    "guids": [
+      "5ad38cec-40ac-43e1-bc70-1c32617e4573"
+    ]
+  },
+  "Barron's Streetwise": {
+    "last_seen_at": "2026-05-08T22:38:00+00:00",
+    "guids": [
+      "ad42bd1c-4b2f-11f1-a27e-2fd39d1b1a19"
+    ]
+  },
+  "Motley Fool Money": {
+    "last_seen_at": "2026-05-09T22:00:00+00:00",
+    "guids": [
+      "ba95c2e8-c6d5-4bd7-9518-b442017e2b5d",
+      "115d17a2-179f-4cb1-a173-b442017e16b8"
+    ]
+  },
+  "Empiricus Podcasts": {
+    "last_seen_at": "2026-05-09T12:00:02+00:00",
+    "guids": [
+      "https://api.spreaker.com/episode/71930260",
+      "https://api.spreaker.com/episode/71796645"
+    ]
+  }
+}

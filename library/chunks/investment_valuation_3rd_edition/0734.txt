@@ -1,0 +1,39 @@
+e or KKR may have so many
+holdings spread over so many different businesses that the correlation of their portfolios with the
+market will approach 1 and the beta that they should use is a market beta.
+
+To see how this will play out, assume that you are valuing a private business operating in a sector
+where publicly traded companies have an average beta of 1 and where the average correlation of
+firms with the market is 0.25. Assume that this company will be fully owned by its current owner for
+two years, will raise capital from a technology venture capitalist at the start of year 3, and is expected
+to either go public or be sold to a publicly traded firm at the end of year 5. We estimate the cost of
+equity at three stages (Risk-free rate = 4%; Equity risk premium = 5%):
+Stage 1:
+ The nascent business, with a private owner who is fully invested in that business.
+Perceived beta = 1/ 0.25 = 4
+Cost of equity = 4% + 4(5%) = 24%
+Stage 2:
+ Angel financing provided by specialized venture capitalist who holds multiple investments,
+in high-technology companies. (Correlation of portfolio with market is 0.5.)
+Perceived beta = 1/0.5 = 2
+Cost of equity = 4% + 2(5%) = 14%
+Stage 3: 
+Public offering, where investors are retail and institutional investors with diversified
+portfolios:
+Perceived beta = 1
+Cost of equity = 4% + 1(5%) = 9%
+Now assume that you have projected cash flows for this company for the next five years and expect it
+to be a stable growth firm after it goes public in year 5, growing 2% a year in perpetuity. The value of
+the business can be estimated as follows:
+Note that using the private owner's cost of equity (24%) forever would have yielded too low a value
+($1,221) and using the market beta cost of equity (9%) forever would resulted in too high a value
+($2,165).
+PRECASH AND POSTCASH VALUATIONS
+When valuing private companies, many analysts draw a distinction between precash and postcash valuations. In general, this
+is done when an infusion of cash is anticipated either from venture capitalists or from an initial public offering. The precash
+valuation values the firm before the cash influx and the postcash valuation values it after.
+  There are two reasons why the valuations may yield different values. The first is that the firm may face capital rationing
+constraints without the infusion of the cash, resulting in a scaling down of how much it can reinvest and consequently how
+quickly it can grow. If the firm's return on capital is greater than the cost of capital, this will cause the value to be lower
+before the cash influx. The second is that the value of cash and marketable securities is added to the value of the operating
+assets to arrive at firm value. After a large cash influx, firms may have excess cash to invest in marketable securities, which

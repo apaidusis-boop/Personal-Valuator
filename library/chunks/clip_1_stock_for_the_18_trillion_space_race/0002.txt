@@ -1,0 +1,17 @@
+atalyst
+
+Electron remains the workhorse. Rocket Lab launched 21 times in 2025, including a record seven in Q4. The cadence is accelerating—launches are currently occurring roughly every 11 to 13 days.
+
+But the company's biggest potential catalyst is the Neutron. Designed for medium-class payloads including large constellation deployments and potentially human spaceflight, the Neutron is expected to generate around six times the revenue per launch compared to Electron. Its debut would put Rocket Lab in direct competition with SpaceX's Falcon 9 and open an entirely new market segment for the company.
+
+### Competitive Position
+
+Regulatory barriers to entry in the launch industry are extraordinarily high. The time, cost, and trust required to earn government certification creates a durable moat. Rocket Lab is one of the very few commercial launch providers in the world with a proven orbital track record outside of SpaceX. Investors looking for listed exposure to the private space economy have few alternatives as SpaceX remains private, making RKLB a rare pure-play option.
+
+## Risks
+
+### 1\. Profitability Remains Elusive
+
+Despite strong revenue growth, Rocket Lab posted a net loss of approximately $200 million in 2025. The company is still burning cash at a meaningful rate, primarily due to Neutron development costs. Profitability is not expected in the near term, and sustaining investor confidence through continued losses requires the growth narrative to remain intact.
+
+### 2\. The Neutron Program — Execution Risk

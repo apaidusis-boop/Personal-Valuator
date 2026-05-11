@@ -1,0 +1,34 @@
+project's value over time give it the
+characteristics of a call option.
+Payoff on the Option to Delay
+Assume that a project requires an initial up-front investment of X, and that the present value of
+
+expected cash inflows from investing in the project, computed today, is V. The net present value of
+this project is the difference between the two:
+Now assume that the firm has exclusive rights to this project for the next n years, and that the
+present value of the cash inflows may change over that time (but that the cost of the project stays fixed
+at X), because of changes in either the cash flows or the discount rate. Thus, the project may have a
+negative net present value right now, but it may still be a good project if the firm waits. Defining V
+again as the present value of the cash flows, the firm's decision rule on this project can be
+summarized as follows:
+If the firm does not invest in the project over its life, it incurs no additional cash flows, though it
+will lose what it invested to get exclusive rights to the project. This relationship can be presented in a
+payoff diagram of cash flows on this project, as shown in 
+Figure 28.1
+, assuming that the firm holds
+out until the end of the period for which it has exclusive rights to the project.
+Figure 28.1
+ The Option to Delay a Project
+Note that this payoff diagram is that of a call option—the underlying asset is the project, the strike
+price of the option is the investment needed to take the project, and the life of the option is the period
+for which the firm has rights to the project. The present value of the cash flows on this project and the
+expected variance in this present value represent the value and variance of the underlying asset.
+Inputs for Valuing the Option to Delay
+The inputs needed to apply option pricing theory to valuing the option to delay are the same as those
+needed for any option. We need the value of the underlying asset, the variance in that value, the time
+to expiration on the option, the strike price, the riskless rate, and the equivalent of the dividend yield.
+Value of the Underlying Asset
+In the case of product options, the underlying asset is the project to which the firm has exclusive
+rights. The current value of this asset is the present value of expected cash flows from initiating the
+project now, not including the up-front investment. This present value can be obtained from a
+standard investment analysis, discounting expected cash flows at a risk adjusted discount rate. There

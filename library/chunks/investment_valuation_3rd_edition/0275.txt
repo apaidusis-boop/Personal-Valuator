@@ -1,0 +1,27 @@
+me
+Charges
+Between 1997 and 1999, Xerox's reported earnings included a significant number of one-time, extraordinary, and unusual
+items. The summary of the earnings is provided in the following table:
+
+There are a few obvious adjustments to income that represent one-time charges and a host of other issues. Let us consider
+first the obvious adjustments:
+The inventory charge and restructuring charges seem to represent one-time charges, though there is the
+possibility that they represent more serious underlying problems that can create charges in future periods. The
+charge for discontinued operations also affects only one year's income. These expenses should be added back
+to arrive at adjusted operating income and net income.
+The other (net) expenses line item is a recurring but volatile item. We would average this expense when
+forecasting future income.
+To arrive at adjusted net income we would also reverse the last two adjustments by subtracting out the equity
+in net income of subsidiaries (reflecting Xerox's minority holdings in other firms) and adding back the earnings
+in minority interests (reflecting minority interests in Xerox's majority holdings).
+The following table adjusts the net income in each of the years for the changes suggested:
+The restructuring and inventory charges were tax deductible and the after-tax portion was added back; the tax rate was
+computed based on taxes paid and taxable income for that year.
+We also add back the after-tax portion of the other expenses (net) and subtract out the average annual expense over the
+three years:
+Similar adjustments would need to be made to operating income. Xerox nets out interest expenses against interest income on
+its Capital subsidiary to report finance income. You would need to separate interest expenses from interest income to arrive
+at an estimate of operating income for the firm.
+What are the other issues? The plethora of one-time charges suggests that there may be ongoing operational problems at
+Xerox that may cause future charges. In fact, it is not surprising that Xerox had to delay its 10-K filing for 2000 because of
+accounting issues.

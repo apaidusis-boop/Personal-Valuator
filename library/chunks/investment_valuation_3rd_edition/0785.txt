@@ -1,0 +1,43 @@
+e tax authorities allow EG Corporation to spread the
+carried-forward losses over four years (i.e., allow $200 million of the carried-forward losses to
+offset income each year for the next four years)?
+
+7.
+ You are considering a takeover of PMT Corporation, a firm that has significantly
+underperformed its peer group over the past five years, and you wish to estimate the value of
+control. The data on PMT Corporation, the peer group, and the best-managed firm in the group
+are: 
+PMT Corporation reported earnings per share of $2.50 in the most recent time period and is
+expected to reach stable growth in five years, after which the growth rate is expected to be 6% for
+all firms in this group. The beta during the stable-growth period is expected to be 1 for all firms.
+There are 100 million shares outstanding, and the Treasury bond rate is 7% (the tax rate is 40%
+for all firms).
+a.
+ Value the equity in PMT Corporation assuming that the current management continues in place.
+b.
+ Value the equity in PMT Corporation assuming that it improves its performance to peer group
+levels.
+c.
+ Value the equity in PMT Corporation assuming that it improves its performance to the level of
+the best managed firm in the group.
+8.
+ You are attempting to do a leveraged buyout of Boston Turkey but have run into some
+roadblocks. You have some partially completed projected cash flow statements and need help to
+complete them. 
+The capital expenditures are expected to be $120,000 next year and to grow at the same rate as
+revenues for the rest of the period. Working capital will be kept at 20% of revenues (revenues this
+year were $1 million).
+The leveraged buyout will be financed with a mix of $1 million of equity and $3 million of debt
+(at an interest rate of 12%). Part of the debt will be repaid by the end of year 5, and the debt
+remaining at the end of year 5 will remain on the books permanently.
+a.
+ Estimate the cash flows to equity and the firm for the next five years.
+b.
+ The cost of equity in year 1 has been computed. Compute the cost of equity each year for the
+rest of the period (use book value of equity for the calculation).
+Item
+Year 1
+Equity
+$1,000,000
+Debt
+$3,000,000

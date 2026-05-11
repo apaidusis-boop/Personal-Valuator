@@ -1,0 +1,32 @@
+el (35 percent) because of the probability that
+this young firm will not survive. In fact, you could frame this as a simple decision tree in 
+Figure 33.5
+.
+Figure 33.5
+ Decision Tree for Start-Up Firm
+
+Assume that r is the correct discount rate, based on the business risk that the venture capitalist faces
+on this venture. Going back to the numeric example, assume that this discount rate would have been
+15 percent for this venture. You can solve for the implied probability of failure, embedded in the
+venture capitalist’s estimate of value of $89.20 million:
+Solving for p, the probability of success at 44.85 percent. With this estimate of probability in the
+decision tree, you would have arrived at the same value as the venture capitalist, assuming that you
+use the right discount rate. Using the target rate of 35 percent as the discount rate in a decision tree
+would lead to a drastically lower value, because risk would have been counted twice. Using the same
+reasoning, you can see why using a high discount rate in assessing the value of a biotechnology drug
+in a decision tree will undervalue the drug, especially if the discount rate already reflects the
+probability that the drug will not make it to commercial production. If the risk of the approval process
+is drug-specific and thus diversifiable, this would suggest that discount rates should be moderate in
+decision tree analysis, even for products with very high likelihoods of not making it through the early
+stages in the process.
+The right discount rate:
+ If the right discount rate to use in a decision tree should reflect the
+business risk looking forward, it is not only possible but likely that discount rates will be
+different at different points in the tree. For instance, extraordinary success at the test-market
+stage may yield more predictable cash flows than an average test market outcome; this
+would lead you to use a lower discount rate to value the former and a higher discount rate to
+value the latter. In the drug development example, it is possible that the expected cash
+flows, if the drug works for both types of diabetes, will be more stable than if is a treatment
+for only one type. It would follow that a discount rate of 8 percent may be the right one for
+the first set of cash flows, whereas a 12 percent discount rate may be more appropriate for
+the second.

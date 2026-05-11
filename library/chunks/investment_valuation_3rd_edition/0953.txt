@@ -1,0 +1,28 @@
+ting assets:
+Note that expected value will decrease as the likelihood of nationalization increases and the proceeds from nationalization
+decreases.
+ILLUSTRATION 33.2: 
+Valuing a Regulated Company with
+
+Shifting Regulatory Risk
+Scenario analysis becomes more complicated and potentially more useful as the number of scenarios increases and
+uncertainty magnifies. To illustrate, assume that you were valuing Wells Fargo, one of the largest commercial banks in the
+United States, in early 2009. The banking crisis of 2008 not only had wreaked havoc on the profitability of banks but had also
+increased the likelihood that regulatory authorities would tighten regulatory capital rules, requiring banks to set aside more
+capital to cover potential losses from their operations.
+To see the impact of the crisis, the table following lists key financial variables for Wells Fargo from 2001 to 2008:
+Note that while dividends increased in 2008, net income and return on equity dropped precipitously. In early 2009, here were
+some key questions that an analyst would have faced in valuing Wells Fargo:
+What should you use as your base year values for earnings, dividends, and return on investment (ROE)? In
+other words, could you assume that 2008 is an aberration and go back to normalized values that reflect the
+average from 2001 to 2007?
+Historically, banks have had a beta close to 1, which would have given Wells Fargo a cost of equity of about
+9 percent in February 2009 (T-bond rate 
+= 
+3%; ERP 
+= 
+6%). Given that the crisis has shed new light on the
+hidden risks in banks, would you continue to use this beta in the valuation?
+Rather than try to come up with a composite value for Wells Fargo across all possible scenarios, we developed three
+scenarios:
+1.

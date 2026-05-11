@@ -1,0 +1,44 @@
+c analysts arriving at higher
+estimates of value. This is unavoidable, but the economic biases of the analysts have to be taken into
+account before using these valuations.
+Firms with Unutilized Assets
+
+Discounted cash flow valuation reflects the value of all assets that produce cash flows. If a firm has
+assets that are unutilized (and hence do not produce any cash flows), the value of these assets will not
+be reflected in the value obtained from discounting expected future cash flows. The same caveat
+applies, in lesser degree, to underutilized assets, since their value will be understated in discounted
+cash flow valuation. While this is a problem, it is not insurmountable. The value of these assets can
+always be obtained externally
+2
+ and added to the value obtained from discounted cash flow valuation.
+Alternatively, the assets can be valued as though they are used optimally.
+Firms with Patents or Product Options
+Firms sometimes have unutilized patents or licenses that do not produce any current cash flows and
+are not expected to produce cash flows in the near future, but are valuable nevertheless. If this is the
+case, the value obtained from discounting expected cash flows to the firm will understate the true
+value of the firm. Again, the problem can be overcome, by valuing these assets in the open market or
+by using option pricing models, and then adding the value obtained from discounted cash flow
+valuation. Chapter 28 examines the use of option pricing models to value patents.
+Firms in the Process of Restructuring
+Firms in the process of restructuring often sell some of their assets, acquire other assets, and change
+their capital structure and dividend policy. Some of them also change their ownership structure (going
+from publicly traded to private status and vice versa) and management compensation schemes. Each
+of these changes makes estimating future cash flows more difficult and affects the riskiness of the
+firm. Using historical data for such firms can give a misleading picture of the firm's value. However,
+these firms can be valued, even in the light of the major changes in investment and financing policy, if
+future cash flows reflect the expected effects of these changes and the discount rate is adjusted to
+reflect the new business and financial risk in the firm. Chapter 31 takes a closer look at how value
+can be altered by changing the way a business is run.
+Firms Involved in Acquisitions
+There are at least two specific issues relating to acquisitions that need to be taken into account when
+using discounted cash flow valuation models to value target firms. The first is the thorny one of
+whether there is synergy in the merger and how its value can be estimated. To do so will require
+assumptions about the form the synergy will take and its effect on cash flows. The second, especially
+in hostile takeovers, is the effect of changing management on cash flows and risk. Again, the effect of
+the change can and should be incorporated into the estimates of future cash flows and discount rates
+and hence into value. Chapter 25 looks at the value of synergy and control in acquisitions.
+Private Firms
+The biggest problem in using discounted cash flow valuation models to value private firms is the
+measurement of risk (to use in estimating discount rates), since most risk/return models require that
+risk parameters be estimated from historical prices on the asset being analyzed and make assumptions
+about the profiles of investors in the firm that may not fit private businesses. One solution is to look at

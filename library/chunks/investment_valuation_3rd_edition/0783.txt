@@ -1,0 +1,70 @@
+in the
+first step. Third, we value the target firm, assuming it would continue to be run by its current
+managers and then revalue it assuming better management. We define the difference between these
+
+two values as the value of control. We also value each of the different sources of operating and
+financial synergy and consider the combined value as the value of total synergy. Fourth, we look at
+the mechanics of the acquisition. We examine how much the acquiring firm should consider paying,
+given the value estimated in the prior step for the target firm, including control and synergy benefits.
+We also look at whether the acquisition should be financed with cash or stock, and how the choice of
+the accounting treatment of the acquisition affects this choice.
+Buyouts share some characteristics with acquisitions, but they also vary on a couple of important
+ones. The absence of an acquiring firm, the fact that the managers of the firm are its acquirers, and the
+conversion of the acquired firm into a private business all have implications for value. If the buyout is
+financed predominantly with debt, making it a leveraged buyout, the debt ratio will change in future
+years, leading to changes in the costs of equity, debt, and capital in those years.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ The following are the details of two potential merger candidates, Northrop and Grumman, in
+1993:
+Northrop
+Grumman
+Revenues
+$4,400.00
+$3,125.00
+Cost of goods sold (without depreciation)
+87.50%
+89.00%
+Depreciation
+$200.00
+$74.00
+Tax rate
+35.00%
+35.00%
+Working capital
+10% of revenue
+10% of revenue
+Market value of equity
+$2,000.00
+$1,300.00
+Outstanding debt
+$160.00
+$250.00
+Both firms are are expected to grow 5% a year in perpetuity. Capital spending is expected to be
+20% of depreciation. The beta for both firms is 1, and both firms are rated BBB, with an interest
+rate on their debt of 8.5% (The Treasury bond rate is 7%, and the risk premium is 5.5%.)
+As a result of the merger, the combined firm is expected to have a cost of goods sold of only 86%
+of total revenues. The combined firm does not plan to borrow additional debt.
+a.
+ Estimate the value of Grumman, operating independently.
+b.
+ Estimate the value of Northrop, operating independently.
+c.
+ Estimate the value of the combined firm, with no synergy.
+d.
+ Estimate the value of the combined firm, with synergy.
+e.
+ How much is the operating synergy worth?
+2.
+ In the Grumman-Northrop example described in the previous question, the combined firm did
+not take on additional debt after the acquisition. Assume that as a result of the merger the firm's
+optimal debt ratio increases to 20% of total capital from current levels. (At that level of debt, the
+combined firm will have an A rating, with an interest rate on its debt of 8%.) If it does not
+increase debt, the combined firm's rating will be A+ (with an interest rate of 7.75%).
+a.
+ Estimate the value of the combined firm if it stays at its existing debt ratio.
+b.
+ Estimate the value of the combined firm if it moves to its optimal debt ratio.
+c.
+ Who gains this additional value if the firm moves to the optimal debt ratio?

@@ -1,0 +1,44 @@
+ts where assets can be traded easily and at low cost. Thus, it works well for a
+stock traded in developed markets, since investors can become diversified at fairly low cost. In addition, a significant
+
+proportion of the trading in developed market stocks is done by institutional investors, who tend to be well diversified. It
+becomes a more difficult argument to sustain when assets cannot be easily traded or the costs of trading are high. In these
+markets, the marginal investor may well be undiversified, and firm-specific risk may therefore continue to matter when
+looking at individual investments. For instance, real estate in most countries is still held by investors who are undiversified
+and have the bulk of their wealth tied up in these investments.
+Assumptions
+While diversification reduces the exposure of investors to firm-specific risk, most investors limit
+their diversification to holding only a few assets. Even large mutual funds rarely hold more than a few
+hundred stocks, and many of them hold as few as 10 to 20. There are two reasons why investors stop
+diversifying. One is that an investor or mutual fund manager can obtain most of the benefits of
+diversification from a relatively small portfolio, because the marginal benefits of diversification
+become smaller as the portfolio gets more diversified. Consequently, these benefits may not cover the
+marginal costs of diversification, which include transactions and monitoring costs. Another reason for
+limiting diversification is that many investors (and funds) believe they can find undervalued assets
+and thus choose not to hold those assets that they believe to be fairly valued or overvalued.
+The capital asset pricing model assumes that there are no transaction costs, all assets are traded,
+and investments are infinitely divisible (i.e., you can buy any fraction of a unit of the asset). It also
+assumes that everyone has access to the same information and that investors therefore cannot find
+under- or overvalued assets in the marketplace. By making these assumptions, it allows investors to
+keep diversifying without additional cost. At the limit, their portfolios will not only include every
+traded asset in the market but these assets will be held in proportion to their market value.
+The fact that this portfolio includes all traded assets in the market is the reason it is called the
+market portfolio, which should not be a surprising result, given the benefits of diversification and the
+absence of transaction costs in the capital asset pricing model. If diversification reduces exposure to
+firm-specific risk and there are no costs associated with adding more assets to the portfolio, the
+logical limit to diversification is to hold a small proportion of every traded asset in the economy. If
+this seems abstract, consider the market portfolio to be an extremely well diversified mutual fund that
+holds stocks and real assets. In the CAPM, all investors will hold combinations of the riskier asset
+and that supremely diversified mutual fund.
+2
+Investor Portfolios in the CAPM
+If every investor in the market holds the identical market portfolio, how exactly do investors reflect
+their risk aversion in their investments? In the capital asset pricing model, investors adjust for their
+risk preferences in their allocation decision, where they decide how much to invest in a riskless asset
+and how much in the market portfolio. Investors who are risk averse might choose to put much or
+even all of their wealth in the riskless asset. Investors who want to take more risk will invest the bulk
+or even all of their wealth in the market portfolio. Investors who invest all their wealth in the market
+portfolio and are desirous of taking on still more risk would do so by borrowing at the riskless rate
+and investing in the same market portfolio as everyone else.
+These results are predicated on two additional assumptions. First, there exists a riskless asset,
+where the expected returns are known with certainty. Second, investors can lend and borrow at the

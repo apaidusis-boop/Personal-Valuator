@@ -1,0 +1,2282 @@
+AAPL:
+  market: us
+  sector: Technology
+  name: Apple
+  ri_urls:
+  - https://investor.apple.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''apple'' present'
+  last_resolved: '2026-05-11T08:28:56Z'
+  is_holding: true
+ABBV:
+  market: us
+  sector: Healthcare
+  name: AbbVie
+  ri_urls:
+  - https://investors.abbvie.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T08:29:28Z'
+  is_holding: false
+ABCB4:
+  market: br
+  sector: Banks
+  name: Banco ABC Brasil
+  ri_urls:
+  - https://ri.abcbrasil.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''bancoabcbrasil'' present'
+  last_resolved: '2026-05-11T10:27:14Z'
+  is_holding: false
+ABEV3:
+  market: br
+  sector: Consumer Staples
+  name: Ambev
+  ri_urls:
+  - https://ri.ambev.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''ambev'' present'
+  last_resolved: '2026-05-11T08:08:26Z'
+  is_holding: false
+ABM:
+  market: us
+  sector: Industrials
+  name: ABM Industries
+  ri_urls:
+  - https://investor.abm.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:21:34Z'
+  is_holding: false
+ABT:
+  market: us
+  sector: Healthcare
+  name: Abbott Laboratories
+  ri_urls:
+  - https://www.abbottinvestor.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:21:46Z'
+  is_holding: false
+ACN:
+  market: us
+  sector: Technology
+  name: Accenture
+  ri_urls:
+  - https://investor.accenture.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''accenture'' present'
+  last_resolved: '2026-05-11T08:28:57Z'
+  is_holding: true
+ADM:
+  market: us
+  sector: Consumer Staples
+  name: Archer-Daniels-Midland
+  ri_urls:
+  - https://investors.adm.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''archerdanielsmidland'' present'
+  last_resolved: '2026-05-11T10:21:59Z'
+  is_holding: false
+ADP:
+  market: us
+  sector: Industrials
+  name: Automatic Data Processing
+  ri_urls:
+  - https://investors.adp.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''automaticdataprocessing'' present'
+  last_resolved: '2026-05-11T10:22:00Z'
+  is_holding: false
+AFL:
+  market: us
+  sector: Financials
+  name: Aflac
+  ri_urls:
+  - https://investors.aflac.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''aflac'' present'
+  last_resolved: '2026-05-11T08:36:35Z'
+  is_holding: false
+ALB:
+  market: us
+  sector: Materials
+  name: Albemarle
+  ri_urls:
+  - https://investors.albemarle.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''albemarle'' present'
+  last_resolved: '2026-05-11T08:36:47Z'
+  is_holding: false
+ALOS3:
+  market: br
+  sector: Real Estate
+  name: Allos
+  ri_urls:
+  - https://ri.allos.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''allos'' present'
+  last_resolved: '2026-05-11T08:08:27Z'
+  is_holding: false
+ALUP11:
+  market: br
+  sector: Utilities
+  name: Alupar
+  ri_urls:
+  - https://ri.alupar.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''alupar'' present'
+  last_resolved: '2026-05-11T08:08:29Z'
+  is_holding: false
+AOS:
+  market: us
+  sector: Industrials
+  name: A. O. Smith
+  ri_urls:
+  - https://investor.aosmith.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:02Z'
+  is_holding: false
+APD:
+  market: us
+  sector: Materials
+  name: Air Products and Chemicals
+  ri_urls:
+  - https://investors.airproducts.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:14Z'
+  is_holding: false
+ATO:
+  market: us
+  sector: Utilities
+  name: Atmos Energy
+  ri_urls:
+  - https://investors.atmosenergy.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''atmos'' present'
+  last_resolved: '2026-05-11T08:39:53Z'
+  is_holding: false
+AWR:
+  market: us
+  sector: Utilities
+  name: American States Water
+  ri_urls:
+  - https://ir.americanstateswater.com/
+  - https://www.aswater.com/investors
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:27:20Z'
+  is_holding: false
+AXIA7:
+  market: br
+  sector: Utilities
+  name: Axia Energia
+  ri_urls:
+  - https://ri.axiaenergia.com.br/
+  - https://ri.light.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:14:26Z'
+  is_holding: false
+B3SA3:
+  market: br
+  sector: Financials
+  name: B3
+  ri_urls:
+  - https://ri.b3.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: known — accepted on HTTP 200 (no distinctive name tokens to verify)
+  last_resolved: '2026-05-11T08:10:12Z'
+  is_holding: false
+BBAS3:
+  market: br
+  sector: Banks
+  name: Banco do Brasil
+  ri_urls:
+  - https://ri.bb.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''bancodobrasil'' present'
+  last_resolved: '2026-05-11T10:14:37Z'
+  is_holding: false
+BBDC4:
+  market: br
+  sector: Banks
+  name: Bradesco
+  ri_urls:
+  - https://www.bradescori.com.br/
+  - https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''bradesco'' present'
+  last_resolved: '2026-05-11T08:03:02Z'
+  is_holding: true
+BBSE3:
+  market: br
+  sector: Insurance
+  name: BB Seguridade
+  ri_urls:
+  - https://www.bbseguridaderi.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''seguridade'' present'
+  last_resolved: '2026-05-11T08:10:16Z'
+  is_holding: false
+BDX:
+  market: us
+  sector: Healthcare
+  name: Becton Dickinson
+  ri_urls:
+  - https://investors.bd.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: distinctive token ''becton'''
+  last_resolved: '2026-05-11T10:22:28Z'
+  is_holding: false
+BEN:
+  market: us
+  sector: Financials
+  name: Franklin Resources
+  ri_urls:
+  - https://investors.franklinresources.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''franklin'' present'
+  last_resolved: '2026-05-11T08:46:36Z'
+  is_holding: false
+BF-B:
+  market: us
+  sector: Consumer Staples
+  name: Brown-Forman (Class B)
+  ri_urls:
+  - https://investors.brown-forman.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: distinctive token ''brown'''
+  last_resolved: '2026-05-11T10:22:29Z'
+  is_holding: false
+BKH:
+  market: us
+  sector: Utilities
+  name: Black Hills Corporation
+  ri_urls:
+  - https://investors.blackhillscorp.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:31Z'
+  is_holding: false
+BLK:
+  market: us
+  sector: Financials
+  name: BlackRock
+  ri_urls:
+  - https://ir.blackrock.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''blackrock'' present'
+  last_resolved: '2026-05-11T08:29:01Z'
+  is_holding: true
+BN:
+  market: us
+  sector: Financials
+  name: Brookfield Corp
+  ri_urls:
+  - https://bn.brookfield.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''brookfield'' present'
+  last_resolved: '2026-05-11T10:21:33Z'
+  is_holding: true
+BOVA11:
+  market: br
+  sector: Benchmark
+  name: iShares Ibovespa ETF
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T08:10:18Z'
+  is_holding: false
+BPAC11:
+  market: br
+  sector: Banks
+  name: BTG Pactual
+  ri_urls:
+  - https://ri.btgpactual.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''btg'' present'
+  last_resolved: '2026-05-11T08:10:18Z'
+  is_holding: false
+BRBI11:
+  market: br
+  sector: Financials
+  name: BR Partners
+  ri_urls:
+  - https://ri.brpartners.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''partners'' present'
+  last_resolved: '2026-05-11T08:10:20Z'
+  is_holding: false
+BRCO11:
+  market: br
+  sector: Logística
+  name: Bresco Logística
+  ri_urls:
+  - https://www.fiis.com.br/brco11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''bresco'' present'
+  last_resolved: '2026-05-11T08:10:22Z'
+  is_holding: false
+BRK-B:
+  market: us
+  sector: Holding
+  name: Berkshire Hathaway B
+  ri_urls:
+  - https://www.berkshirehathaway.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''berkshire'' present'
+  last_resolved: '2026-05-11T08:29:04Z'
+  is_holding: true
+BRKM5:
+  market: br
+  sector: Materials
+  name: Braskem
+  ri_urls:
+  - https://www.braskem-ri.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''braskem'' present'
+  last_resolved: '2026-05-11T08:10:23Z'
+  is_holding: false
+BRO:
+  market: us
+  sector: Financials
+  name: Brown & Brown
+  ri_urls:
+  - https://investor.bbrown.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: distinctive token ''brown'''
+  last_resolved: '2026-05-11T10:22:42Z'
+  is_holding: false
+BTLG11:
+  market: br
+  sector: Logística
+  name: BTG Logística
+  ri_urls:
+  - https://www.fiis.com.br/btlg11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''btg'' present'
+  last_resolved: '2026-05-11T08:03:03Z'
+  is_holding: true
+BTLG12:
+  market: br
+  sector: Logística
+  name: BTG Logística 12 (residual)
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T10:27:14Z'
+  is_holding: true
+CAT:
+  market: us
+  sector: Industrials
+  name: Caterpillar
+  ri_urls:
+  - https://www.caterpillar.com/en/investors.html
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:51:23Z'
+  is_holding: false
+CB:
+  market: us
+  sector: Financials
+  name: Chubb
+  ri_urls:
+  - https://investors.chubb.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''chubb'' present'
+  last_resolved: '2026-05-11T08:51:24Z'
+  is_holding: false
+CBSH:
+  market: us
+  sector: Financials
+  name: Commerce Bancshares
+  ri_urls:
+  - https://investor.commercebancshares.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:43Z'
+  is_holding: false
+CHD:
+  market: us
+  sector: Consumer Staples
+  name: Church & Dwight
+  ri_urls:
+  - https://investor.churchdwight.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''church'' present'
+  last_resolved: '2026-05-11T08:52:52Z'
+  is_holding: false
+CHRW:
+  market: us
+  sector: Industrials
+  name: C.H. Robinson
+  ri_urls:
+  - https://investor.chrobinson.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''robinson'' present'
+  last_resolved: '2026-05-11T08:52:54Z'
+  is_holding: false
+CINF:
+  market: us
+  sector: Financials
+  name: Cincinnati Financial
+  ri_urls:
+  - https://investor.cincinnati.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''cincinnati'' present'
+  last_resolved: '2026-05-11T08:52:55Z'
+  is_holding: false
+CL:
+  market: us
+  sector: Consumer Staples
+  name: Colgate-Palmolive
+  ri_urls:
+  - https://investor.colgatepalmolive.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:44Z'
+  is_holding: false
+CLX:
+  market: us
+  sector: Consumer Staples
+  name: Clorox
+  ri_urls:
+  - https://investors.thecloroxcompany.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''clorox'' present'
+  last_resolved: '2026-05-11T10:22:57Z'
+  is_holding: false
+CMIG4:
+  market: br
+  sector: Utilities
+  name: Cemig
+  ri_urls:
+  - https://ri.cemig.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''cemig'' present'
+  last_resolved: '2026-05-11T08:10:25Z'
+  is_holding: false
+CPLE3:
+  market: br
+  sector: Utilities
+  name: Copel
+  ri_urls:
+  - https://ri.copel.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''copel'' present'
+  last_resolved: '2026-05-11T08:10:26Z'
+  is_holding: false
+CSMG3:
+  market: br
+  sector: Utilities
+  name: Copasa
+  ri_urls:
+  - https://ri.copasa.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''copasa'' present'
+  last_resolved: '2026-05-11T08:10:27Z'
+  is_holding: false
+CTAS:
+  market: us
+  sector: Industrials
+  name: Cintas
+  ri_urls:
+  - https://www.cintas.com/investors
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''cintas'' present'
+  last_resolved: '2026-05-11T08:55:30Z'
+  is_holding: false
+CVX:
+  market: us
+  sector: Energy
+  name: Chevron
+  ri_urls:
+  - https://www.chevron.com/investors
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:55:32Z'
+  is_holding: false
+CWT:
+  market: us
+  sector: Utilities
+  name: California Water Service
+  ri_urls:
+  - https://ir.calwatergroup.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:22:58Z'
+  is_holding: false
+DOV:
+  market: us
+  sector: Industrials
+  name: Dover Corporation
+  ri_urls:
+  - https://www.dover.com/investors
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''dover'' present'
+  last_resolved: '2026-05-11T08:58:15Z'
+  is_holding: false
+ECL:
+  market: us
+  sector: Materials
+  name: Ecolab
+  ri_urls:
+  - https://investor.ecolab.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''ecolab'' present'
+  last_resolved: '2026-05-11T08:58:17Z'
+  is_holding: false
+ED:
+  market: us
+  sector: Utilities
+  name: Consolidated Edison
+  ri_urls:
+  - https://investor.conedison.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:23:09Z'
+  is_holding: false
+EGIE3:
+  market: br
+  sector: Utilities
+  name: Engie Brasil
+  ri_urls:
+  - https://ri.engie.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T08:10:29Z'
+  is_holding: false
+EMR:
+  market: us
+  sector: Industrials
+  name: Emerson Electric
+  ri_urls:
+  - https://ir.emerson.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''emerson'' present'
+  last_resolved: '2026-05-11T09:00:50Z'
+  is_holding: false
+ENGI11:
+  market: br
+  sector: Utilities
+  name: Energisa
+  ri_urls:
+  - https://ri.energisa.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''energisa'' present'
+  last_resolved: '2026-05-11T08:10:29Z'
+  is_holding: false
+EQTL3:
+  market: br
+  sector: Utilities
+  name: Equatorial
+  ri_urls:
+  - https://ri.equatorialenergia.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''equatorial'' present'
+  last_resolved: '2026-05-11T08:10:30Z'
+  is_holding: false
+ERIE:
+  market: us
+  sector: Financials
+  name: Erie Indemnity
+  ri_urls:
+  - https://www.erie.com/about-erie/investor-relations
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 404); kept anyway, review
+  last_resolved: '2026-05-11T10:27:31Z'
+  is_holding: false
+ES:
+  market: us
+  sector: Utilities
+  name: Eversource Energy
+  ri_urls:
+  - https://investors.eversource.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:23:23Z'
+  is_holding: false
+EXPD:
+  market: us
+  sector: Industrials
+  name: Expeditors International
+  ri_urls:
+  - https://investor.expeditors.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: full-name slug ''expeditorsinternational'' present'
+  last_resolved: '2026-05-11T10:07:01Z'
+  is_holding: false
+EZTC3:
+  market: br
+  sector: Real Estate
+  name: EZ Tec
+  ri_urls:
+  - https://ri.eztec.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''tec'' present'
+  last_resolved: '2026-05-11T08:10:32Z'
+  is_holding: false
+FAST:
+  market: us
+  sector: Industrials
+  name: Fastenal
+  ri_urls:
+  - https://investor.fastenal.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''fastenal'' present'
+  last_resolved: '2026-05-11T09:04:18Z'
+  is_holding: false
+FDS:
+  market: us
+  sector: Financials
+  name: FactSet
+  ri_urls:
+  - https://investor.factset.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:23:36Z'
+  is_holding: false
+FRT:
+  market: us
+  sector: REIT
+  name: Federal Realty Inv. Trust
+  ri_urls:
+  - https://investors.federalrealty.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:23:49Z'
+  is_holding: false
+FUL:
+  market: us
+  sector: Materials
+  name: H.B. Fuller
+  ri_urls:
+  - https://investors.hbfuller.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''fuller'' present'
+  last_resolved: '2026-05-11T09:10:07Z'
+  is_holding: false
+GARE11:
+  market: br
+  sector: Híbrido
+  name: Guardian Logística
+  ri_urls:
+  - https://www.fiis.com.br/gare11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''guardian'' present'
+  last_resolved: '2026-05-11T08:10:33Z'
+  is_holding: false
+GD:
+  market: us
+  sector: Industrials
+  name: General Dynamics
+  ri_urls:
+  - https://www.generaldynamics.com/investors
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''general'' present'
+  last_resolved: '2026-05-11T09:10:20Z'
+  is_holding: false
+GMAT3:
+  market: br
+  sector: Consumer Staples
+  name: Grupo Mateus
+  ri_urls:
+  - https://ri.grupomateus.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''mateus'' present'
+  last_resolved: '2026-05-11T08:10:35Z'
+  is_holding: false
+GPC:
+  market: us
+  sector: Consumer Disc.
+  name: Genuine Parts Company
+  ri_urls:
+  - https://investor.genpt.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:24:00Z'
+  is_holding: false
+GRC:
+  market: us
+  sector: Industrials
+  name: Gorman-Rupp
+  ri_urls:
+  - https://investors.gormanrupp.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:24:11Z'
+  is_holding: false
+GREK:
+  market: us
+  sector: ETF
+  name: Global X MSCI Greece ETF
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T08:29:06Z'
+  is_holding: true
+GRND3:
+  market: br
+  sector: Consumer Disc.
+  name: Grendene
+  ri_urls:
+  - https://ri.grendene.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''grendene'' present'
+  last_resolved: '2026-05-11T08:10:36Z'
+  is_holding: false
+GS:
+  market: us
+  sector: Financials
+  name: Goldman Sachs
+  ri_urls:
+  - https://www.goldmansachs.com/investor-relations/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''goldman'' present'
+  last_resolved: '2026-05-11T08:29:06Z'
+  is_holding: true
+GWW:
+  market: us
+  sector: Industrials
+  name: W.W. Grainger
+  ri_urls:
+  - https://invest.grainger.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''wwgrainger'' present'
+  last_resolved: '2026-05-11T10:24:22Z'
+  is_holding: false
+HD:
+  market: us
+  sector: Consumer Disc.
+  name: Home Depot
+  ri_urls:
+  - https://ir.homedepot.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''home'' present'
+  last_resolved: '2026-05-11T08:29:07Z'
+  is_holding: true
+HGLG11:
+  market: br
+  sector: Logística
+  name: CSHG Logística
+  ri_urls:
+  - https://www.fiis.com.br/hglg11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: distinctive token ''stica'''
+  last_resolved: '2026-05-11T10:14:38Z'
+  is_holding: false
+HGRU11:
+  market: br
+  sector: Híbrido
+  name: CSHG Renda Urbana
+  ri_urls:
+  - https://www.fiis.com.br/hgru11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''cshg'' present'
+  last_resolved: '2026-05-11T08:13:15Z'
+  is_holding: false
+HRL:
+  market: us
+  sector: Consumer Staples
+  name: Hormel Foods
+  ri_urls:
+  - https://investor.hormelfoods.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''hormel'' present'
+  last_resolved: '2026-05-11T09:18:21Z'
+  is_holding: false
+IBM:
+  market: us
+  sector: Technology
+  name: International Business Machines
+  ri_urls:
+  - https://www.ibm.com/investor
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: distinctive token ''business'''
+  last_resolved: '2026-05-11T10:24:24Z'
+  is_holding: false
+ISAE4:
+  market: br
+  sector: Utilities
+  name: ISA Energia Brasil (ex-CTEEP)
+  ri_urls:
+  - https://ri.isaenergiabrasil.com.br/en/isa-energia/corporate-profile
+  method: tavily
+  status: ok
+  verified: true
+  notes: 'tavily — verified: distinctive token ''cteep'''
+  last_resolved: '2026-05-11T10:14:40Z'
+  is_holding: false
+ITSA4:
+  market: br
+  sector: Holding
+  name: Itaúsa
+  ri_urls:
+  - https://ri.itausa.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''ita'' present'
+  last_resolved: '2026-05-11T08:05:51Z'
+  is_holding: true
+ITUB4:
+  market: br
+  sector: Banks
+  name: Itaú Unibanco
+  ri_urls:
+  - https://www.itau.com.br/relacoes-com-investidores/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:15:48Z'
+  is_holding: false
+ITW:
+  market: us
+  sector: Industrials
+  name: Illinois Tool Works
+  ri_urls:
+  - https://investor.itw.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''illinoistoolworks'' present'
+  last_resolved: '2026-05-11T10:24:25Z'
+  is_holding: false
+IVVB11:
+  market: br
+  sector: ETF-US
+  name: iShares S&P 500 (BRL hedged)
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T08:05:52Z'
+  is_holding: true
+JKHY:
+  market: us
+  sector: Technology
+  name: Jack Henry & Associates
+  ri_urls:
+  - https://investor.jkhy.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''jack'' present'
+  last_resolved: '2026-05-11T09:21:45Z'
+  is_holding: false
+JNJ:
+  market: us
+  sector: Healthcare
+  name: Johnson & Johnson
+  ri_urls:
+  - https://www.investor.jnj.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''johnson'' present'
+  last_resolved: '2026-05-11T08:29:08Z'
+  is_holding: true
+JPM:
+  market: us
+  sector: Financials
+  name: JPMorgan Chase
+  ri_urls:
+  - https://www.jpmorganchase.com/ir
+  - https://www.jpmorganchase.com/ir/quarterly-earnings
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''jpmorgan'' present'
+  last_resolved: '2026-05-11T08:29:09Z'
+  is_holding: true
+KLBN11:
+  market: br
+  sector: Materials
+  name: Klabin Unit
+  ri_urls:
+  - https://ri.klabin.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''klabin'' present'
+  last_resolved: '2026-05-11T08:05:52Z'
+  is_holding: true
+KLBN4:
+  market: br
+  sector: Materials
+  name: Klabin
+  ri_urls:
+  - https://ri.klabin.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''klabin'' present'
+  last_resolved: '2026-05-11T08:15:49Z'
+  is_holding: false
+KMB:
+  market: us
+  sector: Consumer Staples
+  name: Kimberly-Clark
+  ri_urls:
+  - https://investor.kimberly-clark.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:24:26Z'
+  is_holding: false
+KNCR11:
+  market: br
+  sector: Papel (CRI)
+  name: Kinea Rendimentos Imob.
+  ri_urls:
+  - https://www.fiis.com.br/kncr11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''kinea'' present'
+  last_resolved: '2026-05-11T08:15:49Z'
+  is_holding: false
+KNHF11:
+  market: br
+  sector: Híbrido
+  name: Kinea Hedge Fund FII
+  ri_urls:
+  - https://www.fiis.com.br/knhf11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''kinea'' present'
+  last_resolved: '2026-05-11T08:15:51Z'
+  is_holding: false
+KNRI11:
+  market: br
+  sector: Híbrido
+  name: Kinea Renda Imobiliária
+  ri_urls:
+  - https://www.fiis.com.br/knri11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: distinctive token ''kinea'''
+  last_resolved: '2026-05-11T10:17:21Z'
+  is_holding: false
+KO:
+  market: us
+  sector: Consumer Staples
+  name: Coca-Cola
+  ri_urls:
+  - https://investors.coca-colacompany.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''coca'' present'
+  last_resolved: '2026-05-11T08:29:10Z'
+  is_holding: true
+LEG:
+  market: us
+  sector: Consumer Disc.
+  name: Leggett & Platt
+  ri_urls:
+  - https://investors.leggett.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:24:39Z'
+  is_holding: false
+LFTB11:
+  market: br
+  sector: ETF-RF
+  name: iShares Tesouro Selic ETF
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T08:05:53Z'
+  is_holding: true
+LIN:
+  market: us
+  sector: Materials
+  name: Linde
+  ri_urls:
+  - https://investors.linde.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''linde'' present'
+  last_resolved: '2026-05-11T09:28:10Z'
+  is_holding: false
+LOW:
+  market: us
+  sector: Consumer Disc.
+  name: Lowe's
+  ri_urls:
+  - https://ir.lowes.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''lowe'' present'
+  last_resolved: '2026-05-11T09:28:24Z'
+  is_holding: false
+MCCI11:
+  market: br
+  sector: Papel (CRI)
+  name: Mauá Capital CRI
+  ri_urls:
+  - https://www.fiis.com.br/mcci11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''mau'' present'
+  last_resolved: '2026-05-11T08:18:14Z'
+  is_holding: false
+MCD:
+  market: us
+  sector: Consumer Disc.
+  name: McDonald's
+  ri_urls:
+  - https://corporate.mcdonalds.com/corpmcd/investors.html
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''mcdonald'' present'
+  last_resolved: '2026-05-11T09:28:48Z'
+  is_holding: false
+MCRE11:
+  market: br
+  sector: Tijolo
+  name: Mauá Capital Real Estate
+  ri_urls:
+  - https://www.fiis.com.br/mcre11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — weak-verified: ticker ''MCRE11'' present, name tokens [''mau''] absent'
+  last_resolved: '2026-05-11T08:18:15Z'
+  is_holding: false
+MDT:
+  market: us
+  sector: Healthcare
+  name: Medtronic
+  ri_urls:
+  - https://investorrelations.medtronic.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''medtronic'' present'
+  last_resolved: '2026-05-11T10:24:50Z'
+  is_holding: false
+MGEE:
+  market: us
+  sector: Utilities
+  name: MGE Energy
+  ri_urls:
+  - https://www.mgeenergy.com/investor-relations
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''mge'' present'
+  last_resolved: '2026-05-11T09:30:08Z'
+  is_holding: false
+MKC:
+  market: us
+  sector: Consumer Staples
+  name: McCormick & Company
+  ri_urls:
+  - https://ir.mccormick.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:24:51Z'
+  is_holding: false
+MO:
+  market: us
+  sector: Consumer Staples
+  name: Altria Group
+  ri_urls:
+  - https://investor.altria.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''altria'' present'
+  last_resolved: '2026-05-11T09:32:49Z'
+  is_holding: false
+MOTV3:
+  market: br
+  sector: Industrials
+  name: Motiva
+  ri_urls:
+  - https://ri.motiva.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''motiva'' present'
+  last_resolved: '2026-05-11T08:18:17Z'
+  is_holding: false
+MSA:
+  market: us
+  sector: Industrials
+  name: MSA Safety
+  ri_urls:
+  - https://www.msasafety.com/investor-relations
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''msa'' present'
+  last_resolved: '2026-05-11T09:32:51Z'
+  is_holding: false
+MSEX:
+  market: us
+  sector: Utilities
+  name: Middlesex Water
+  ri_urls:
+  - https://www.middlesexwater.com/category/investors/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 415); kept anyway, review
+  last_resolved: '2026-05-11T10:25:04Z'
+  is_holding: false
+MSFT:
+  market: us
+  sector: Technology
+  name: Microsoft
+  ri_urls:
+  - https://www.microsoft.com/en-us/investor
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''microsoft'' present'
+  last_resolved: '2026-05-11T10:25:04Z'
+  is_holding: false
+MULT3:
+  market: br
+  sector: Real Estate
+  name: Multiplan
+  ri_urls:
+  - https://www.multri.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — weak-verified: ticker ''MULT3'' present, name tokens [''multiplan''] absent'
+  last_resolved: '2026-05-11T08:18:19Z'
+  is_holding: false
+NDSN:
+  market: us
+  sector: Industrials
+  name: Nordson
+  ri_urls:
+  - https://investors.nordson.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''nordson'' present'
+  last_resolved: '2026-05-11T09:34:56Z'
+  is_holding: false
+NEE:
+  market: us
+  sector: Utilities
+  name: NextEra Energy
+  ri_urls:
+  - https://investor.nexteraenergy.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''nextera'' present'
+  last_resolved: '2026-05-11T09:35:09Z'
+  is_holding: false
+NFG:
+  market: us
+  sector: Utilities
+  name: National Fuel Gas
+  ri_urls:
+  - https://investor.nationalfuelgas.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''national'' present'
+  last_resolved: '2026-05-11T09:35:11Z'
+  is_holding: false
+NU:
+  market: us
+  sector: Financials
+  name: Nu Holdings
+  ri_urls:
+  - https://investors.nu/
+  method: known
+  status: ok
+  verified: true
+  notes: known — accepted on HTTP 200 (no distinctive name tokens to verify)
+  last_resolved: '2026-05-11T08:29:11Z'
+  is_holding: true
+NUE:
+  market: us
+  sector: Materials
+  name: Nucor
+  ri_urls:
+  - https://investors.nucor.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''nucor'' present'
+  last_resolved: '2026-05-11T09:35:12Z'
+  is_holding: false
+NWN:
+  market: us
+  sector: Utilities
+  name: Northwest Natural Holding
+  ri_urls:
+  - https://www.northwestnatural.com/investor-relations
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — weak-verified: ticker ''NWN'' present, name tokens [''northwest'', ''natural''] absent'
+  last_resolved: '2026-05-11T09:35:14Z'
+  is_holding: false
+O:
+  market: us
+  sector: REIT
+  name: Realty Income
+  ri_urls:
+  - https://www.realtyincome.com/investors
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''realty'' present'
+  last_resolved: '2026-05-11T08:29:17Z'
+  is_holding: true
+PEP:
+  market: us
+  sector: Consumer Staples
+  name: PepsiCo
+  ri_urls:
+  - https://investor.pepsico.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''pepsico'' present'
+  last_resolved: '2026-05-11T09:35:19Z'
+  is_holding: false
+PETR4:
+  market: br
+  sector: Oil & Gas
+  name: Petrobras
+  ri_urls:
+  - https://www.investidorpetrobras.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''petrobras'' present'
+  last_resolved: '2026-05-11T08:18:23Z'
+  is_holding: false
+PG:
+  market: us
+  sector: Consumer Staples
+  name: Procter & Gamble
+  ri_urls:
+  - https://www.pginvestor.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''procter'' present'
+  last_resolved: '2026-05-11T08:29:18Z'
+  is_holding: true
+PGMN3:
+  market: br
+  sector: Consumer Staples
+  name: Pague Menos
+  ri_urls:
+  - https://ri.paguemenos.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''pague'' present'
+  last_resolved: '2026-05-11T08:18:24Z'
+  is_holding: false
+PH:
+  market: us
+  sector: Industrials
+  name: Parker-Hannifin
+  ri_urls:
+  - https://investors.parker.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''parker'' present'
+  last_resolved: '2026-05-11T09:35:20Z'
+  is_holding: false
+PLD:
+  market: us
+  sector: REIT
+  name: Prologis
+  ri_urls:
+  - https://ir.prologis.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''prologis'' present'
+  last_resolved: '2026-05-11T08:29:19Z'
+  is_holding: true
+PLPL3:
+  market: br
+  sector: Consumer Disc.
+  name: Plano & Plano
+  ri_urls:
+  - https://ri.planoeplano.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''plano'' present'
+  last_resolved: '2026-05-11T08:18:25Z'
+  is_holding: false
+PLTR:
+  market: us
+  sector: Technology
+  name: Palantir
+  ri_urls:
+  - https://investors.palantir.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''palantir'' present'
+  last_resolved: '2026-05-11T08:29:20Z'
+  is_holding: true
+PMLL11:
+  market: br
+  sector: Shopping
+  name: Plural Malls
+  ri_urls:
+  - https://www.fiis.com.br/pmll11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''malls'' present'
+  last_resolved: '2026-05-11T08:18:26Z'
+  is_holding: false
+PNR:
+  market: us
+  sector: Industrials
+  name: Pentair
+  ri_urls:
+  - https://investors.pentair.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:25:06Z'
+  is_holding: false
+PNVL3:
+  market: br
+  sector: Consumer Staples
+  name: Panvel
+  ri_urls:
+  - https://www.panvel.com.br/ri/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''panvel'' present'
+  last_resolved: '2026-05-11T08:18:28Z'
+  is_holding: false
+POMO3:
+  market: br
+  sector: Industrials
+  name: Marcopolo ON
+  ri_urls:
+  - https://ri.marcopolo.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:19:04Z'
+  is_holding: false
+POMO4:
+  market: br
+  sector: Industrials
+  name: Marcopolo PN
+  ri_urls:
+  - https://ri.marcopolo.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:19:05Z'
+  is_holding: false
+PPG:
+  market: us
+  sector: Materials
+  name: PPG Industries
+  ri_urls:
+  - https://investor.ppg.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''ppg'' present'
+  last_resolved: '2026-05-11T09:38:23Z'
+  is_holding: false
+PRIO3:
+  market: br
+  sector: Oil & Gas
+  name: PetroRio
+  ri_urls:
+  - https://ri.prio3.com.br/
+  - https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''petrorio'' present'
+  last_resolved: '2026-05-11T08:05:53Z'
+  is_holding: true
+PSSA3:
+  market: br
+  sector: Insurance
+  name: Porto Seguro
+  ri_urls:
+  - https://ri.portoseguro.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''porto'' present'
+  last_resolved: '2026-05-11T08:19:06Z'
+  is_holding: false
+PVBI11:
+  market: br
+  sector: Corporativo
+  name: VBI Prime Properties
+  ri_urls:
+  - https://www.fiis.com.br/pvbi11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''vbi'' present'
+  last_resolved: '2026-05-11T08:05:56Z'
+  is_holding: true
+RAPT4:
+  market: br
+  sector: Industrials
+  name: Randoncorp
+  ri_urls:
+  - https://ri.randoncorp.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''randoncorp'' present'
+  last_resolved: '2026-05-11T08:19:07Z'
+  is_holding: false
+RBRX11:
+  market: br
+  sector: Híbrido
+  name: RBR X
+  ri_urls:
+  - https://www.fiis.com.br/rbrx11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''rbr'' present'
+  last_resolved: '2026-05-11T08:05:57Z'
+  is_holding: true
+RBRY11:
+  market: br
+  sector: Papel (CRI)
+  name: RBR CRI
+  ri_urls:
+  - https://www.fiis.com.br/rbry11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''rbr'' present'
+  last_resolved: '2026-05-11T08:19:31Z'
+  is_holding: false
+RDOR3:
+  market: br
+  sector: Healthcare
+  name: Rede D'Or
+  ri_urls:
+  - https://ri.rededorsaoluiz.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''rede'' present'
+  last_resolved: '2026-05-11T08:19:32Z'
+  is_holding: false
+RECR11:
+  market: br
+  sector: Papel (CRI)
+  name: REC Recebíveis Imob.
+  ri_urls:
+  - https://www.fiis.com.br/recr11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''rec'' present'
+  last_resolved: '2026-05-11T08:19:33Z'
+  is_holding: false
+RENT3:
+  market: br
+  sector: Industrials
+  name: Localiza
+  ri_urls:
+  - https://ri.localiza.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''localiza'' present'
+  last_resolved: '2026-05-11T08:19:35Z'
+  is_holding: false
+RLI:
+  market: us
+  sector: Financials
+  name: RLI Corp.
+  ri_urls:
+  - https://investors.rlicorp.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''rli'' present'
+  last_resolved: '2026-05-11T09:39:49Z'
+  is_holding: false
+ROP:
+  market: us
+  sector: Technology
+  name: Roper Technologies
+  ri_urls:
+  - https://investors.ropertechnologies.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''roper'' present'
+  last_resolved: '2026-05-11T09:40:01Z'
+  is_holding: false
+RPM:
+  market: us
+  sector: Materials
+  name: RPM International
+  ri_urls:
+  - https://investor.rpm.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''rpm'' present'
+  last_resolved: '2026-05-11T09:40:20Z'
+  is_holding: false
+SANB11:
+  market: br
+  sector: Banks
+  name: Santander BR
+  ri_urls:
+  - https://www.santander.com/en/shareholders-and-investors
+  method: tavily
+  status: ok
+  verified: true
+  notes: 'tavily — verified: distinctive token ''santander'''
+  last_resolved: '2026-05-11T10:17:22Z'
+  is_holding: false
+SAPR11:
+  market: br
+  sector: Utilities
+  name: Sanepar
+  ri_urls:
+  - https://ri.sanepar.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''sanepar'' present'
+  last_resolved: '2026-05-11T08:21:39Z'
+  is_holding: false
+SCL:
+  market: us
+  sector: Materials
+  name: Stepan Company
+  ri_urls:
+  - https://www.stepan.com/content/stepan-dot-com/en/investors.html
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:25:18Z'
+  is_holding: false
+SEER3:
+  market: br
+  sector: Consumer Disc.
+  name: Ser Educacional
+  ri_urls:
+  - https://ri.sereducacional.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''ser'' present'
+  last_resolved: '2026-05-11T08:21:41Z'
+  is_holding: false
+SHW:
+  market: us
+  sector: Materials
+  name: Sherwin-Williams
+  ri_urls:
+  - https://investors.sherwin-williams.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''sherwinwilliams'' present'
+  last_resolved: '2026-05-11T10:25:32Z'
+  is_holding: false
+SIMH3:
+  market: br
+  sector: Industrials
+  name: Simpar
+  ri_urls:
+  - https://ri.simpar.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''simpar'' present'
+  last_resolved: '2026-05-11T08:22:07Z'
+  is_holding: false
+SJM:
+  market: us
+  sector: Consumer Staples
+  name: J.M. Smucker
+  ri_urls:
+  - https://investors.jmsmucker.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''smucker'' present'
+  last_resolved: '2026-05-11T09:43:48Z'
+  is_holding: false
+SLCE3:
+  market: br
+  sector: Consumer Staples
+  name: SLC Agrícola
+  ri_urls:
+  - https://slc.com.br/ri/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''slc'' present'
+  last_resolved: '2026-05-11T08:22:08Z'
+  is_holding: false
+SPGI:
+  market: us
+  sector: Financials
+  name: S&P Global
+  ri_urls:
+  - https://investor.spglobal.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: name-heuristic — accepted on HTTP 200 (no distinctive name tokens to verify)
+  last_resolved: '2026-05-11T09:44:00Z'
+  is_holding: false
+SPY:
+  market: us
+  sector: Benchmark
+  name: SPDR S&P 500 ETF Trust
+  ri_urls: []
+  method: etf
+  status: skipped
+  verified: null
+  notes: ETF / index tracker — no corporate RI
+  last_resolved: '2026-05-11T09:44:01Z'
+  is_holding: false
+SUZB3:
+  market: br
+  sector: Materials
+  name: Suzano
+  ri_urls:
+  - https://ri.suzano.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''suzano'' present'
+  last_resolved: '2026-05-11T08:23:43Z'
+  is_holding: false
+SWK:
+  market: us
+  sector: Industrials
+  name: Stanley Black & Decker
+  ri_urls:
+  - https://www.stanleyblackanddecker.com/investors
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:25:33Z'
+  is_holding: false
+SYY:
+  market: us
+  sector: Consumer Staples
+  name: Sysco
+  ri_urls:
+  - https://investors.sysco.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''sysco'' present'
+  last_resolved: '2026-05-11T10:25:45Z'
+  is_holding: false
+TAEE11:
+  market: br
+  sector: Utilities
+  name: Taesa
+  ri_urls:
+  - https://ri.taesa.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''taesa'' present'
+  last_resolved: '2026-05-11T08:23:45Z'
+  is_holding: false
+TDS:
+  market: us
+  sector: Communication
+  name: Telephone and Data Systems
+  ri_urls:
+  - https://investors.tdsinc.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''telephoneanddatasystems'' present'
+  last_resolved: '2026-05-11T10:25:46Z'
+  is_holding: false
+TEN:
+  market: us
+  sector: Energy
+  name: Tsakos Energy Navig.
+  ri_urls:
+  - https://www.tenn.gr/
+  - https://www.tsakosenergynavigation.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — weak-verified: ticker ''TEN'' present, name tokens [''tsakos'', ''energy'', ''navig''] absent'
+  last_resolved: '2026-05-11T08:29:21Z'
+  is_holding: true
+TFC:
+  market: us
+  sector: Financials
+  name: Truist Financial
+  ri_urls:
+  - https://ir.truist.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''truist'' present'
+  last_resolved: '2026-05-11T08:29:23Z'
+  is_holding: true
+TGT:
+  market: us
+  sector: Consumer Disc.
+  name: Target
+  ri_urls:
+  - https://investors.target.com/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''target'' present'
+  last_resolved: '2026-05-11T09:50:17Z'
+  is_holding: false
+TIMS3:
+  market: br
+  sector: Telecom
+  name: TIM
+  ri_urls:
+  - https://ri.tim.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''tim'' present'
+  last_resolved: '2026-05-11T08:23:46Z'
+  is_holding: false
+TNC:
+  market: us
+  sector: Industrials
+  name: Tennant
+  ri_urls:
+  - https://investors.tennantco.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: full-name slug ''tennant'' present'
+  last_resolved: '2026-05-11T10:25:48Z'
+  is_holding: false
+TR:
+  market: us
+  sector: Consumer Staples
+  name: Tootsie Roll Industries
+  ri_urls:
+  - https://www.tootsie.com/about/investor-relations
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T10:25:49Z'
+  is_holding: false
+TROW:
+  market: us
+  sector: Financials
+  name: T. Rowe Price
+  ri_urls:
+  - https://investors.troweprice.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:25:51Z'
+  is_holding: false
+TRXF11:
+  market: br
+  sector: Híbrido
+  name: TRX Real Estate
+  ri_urls:
+  - https://www.fiis.com.br/trxf11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''trx'' present'
+  last_resolved: '2026-05-11T08:23:48Z'
+  is_holding: false
+TSLA:
+  market: us
+  sector: Consumer Disc.
+  name: Tesla
+  ri_urls:
+  - https://ir.tesla.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:29:24Z'
+  is_holding: true
+TSM:
+  market: us
+  sector: Technology
+  name: Taiwan Semiconductor
+  ri_urls:
+  - https://investor.tsmc.com/english
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:29:25Z'
+  is_holding: true
+TTD:
+  market: us
+  sector: Communication
+  name: The Trade Desk
+  ri_urls:
+  - https://investors.thetradedesk.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''trade'' present'
+  last_resolved: '2026-05-11T08:29:25Z'
+  is_holding: true
+TTEN3:
+  market: br
+  sector: Consumer Staples
+  name: 3Tentos
+  ri_urls:
+  - https://ri.3tentos.com.br/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''3tentos'' present'
+  last_resolved: '2026-05-11T08:23:49Z'
+  is_holding: false
+TUPY3:
+  market: br
+  sector: Industrials
+  name: Tupy
+  ri_urls:
+  - https://ri.tupy.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:19:35Z'
+  is_holding: false
+UNIP6:
+  market: br
+  sector: Materials
+  name: Unipar
+  ri_urls:
+  - https://ri.unipar.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T10:19:46Z'
+  is_holding: false
+UVV:
+  market: us
+  sector: Consumer Staples
+  name: Universal Corporation
+  ri_urls:
+  - https://www.universalcorp.com/investor-relations/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 404); kept anyway, review
+  last_resolved: '2026-05-11T10:26:03Z'
+  is_holding: false
+V:
+  market: us
+  sector: Financials
+  name: Visa
+  ri_urls:
+  - https://investor.visa.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''visa'' present'
+  last_resolved: '2026-05-11T09:58:18Z'
+  is_holding: false
+VALE3:
+  market: br
+  sector: Mining
+  name: Vale
+  ri_urls:
+  - https://vale.com/pt/investidores
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''vale'' present'
+  last_resolved: '2026-05-11T08:05:59Z'
+  is_holding: true
+VAMO3:
+  market: br
+  sector: Industrials
+  name: Vamos
+  ri_urls:
+  - https://www.vamos.com.br/ri/
+  method: heuristic
+  status: ok
+  verified: true
+  notes: 'name-heuristic — verified: name token ''vamos'' present'
+  last_resolved: '2026-05-11T08:26:33Z'
+  is_holding: false
+VGIP11:
+  market: br
+  sector: Papel (CRI)
+  name: Valora CRI Plus
+  ri_urls:
+  - https://www.fiis.com.br/vgip11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''valora'' present'
+  last_resolved: '2026-05-11T08:27:09Z'
+  is_holding: false
+VGIR11:
+  market: br
+  sector: Papel (CRI)
+  name: Valora CRI
+  ri_urls:
+  - https://www.fiis.com.br/vgir11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''valora'' present'
+  last_resolved: '2026-05-11T08:06:00Z'
+  is_holding: true
+VISC11:
+  market: br
+  sector: Shopping
+  name: Vinci Shopping Centers
+  ri_urls:
+  - https://www.fiis.com.br/visc11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''vinci'' present'
+  last_resolved: '2026-05-11T08:27:11Z'
+  is_holding: false
+VIVA3:
+  market: br
+  sector: Consumer Disc.
+  name: Vivara
+  ri_urls:
+  - https://ri.vivara.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''vivara'' present'
+  last_resolved: '2026-05-11T08:27:12Z'
+  is_holding: false
+VIVT3:
+  market: br
+  sector: Telecom
+  name: Telefônica Vivo
+  ri_urls:
+  - https://ri.telefonica.com.br/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''telef'' present'
+  last_resolved: '2026-05-11T08:27:13Z'
+  is_holding: false
+VRTA11:
+  market: br
+  sector: Papel (CRI)
+  name: Fator Verita
+  ri_urls:
+  - https://www.fiis.com.br/vrta11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''fator'' present'
+  last_resolved: '2026-05-11T08:27:14Z'
+  is_holding: false
+WIZC3:
+  market: br
+  sector: Insurance
+  name: Wiz Co
+  ri_urls:
+  - https://ri.wizsolucoes.com.br/
+  - https://ri.wizco.com.br/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (insufficient signal (tokens ['wiz']; distinct=[]; generic_hits=['wiz']; host=ri.wiz.co)); kept
+    anyway, review
+  last_resolved: '2026-05-11T10:27:16Z'
+  is_holding: false
+WMT:
+  market: us
+  sector: Consumer Staples
+  name: Walmart
+  ri_urls:
+  - https://stock.walmart.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''walmart'' present'
+  last_resolved: '2026-05-11T09:58:19Z'
+  is_holding: false
+WST:
+  market: us
+  sector: Healthcare
+  name: West Pharmaceutical Services
+  ri_urls:
+  - https://investors.westpharma.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review
+  last_resolved: '2026-05-11T10:26:08Z'
+  is_holding: false
+XOM:
+  market: us
+  sector: Energy
+  name: Exxon Mobil
+  ri_urls:
+  - https://investor.exxonmobil.com/
+  method: known
+  status: ok
+  verified: true
+  notes: 'known — verified: name token ''exxon'' present'
+  last_resolved: '2026-05-11T10:00:07Z'
+  is_holding: false
+XP:
+  market: us
+  sector: Financials
+  name: XP Inc
+  ri_urls:
+  - https://investors.xpinc.com/
+  method: known
+  status: ok
+  verified: false
+  notes: known — UNVERIFIED (HTTP 403); kept anyway, review
+  last_resolved: '2026-05-11T08:29:27Z'
+  is_holding: true
+XPLG11:
+  market: br
+  sector: Logística
+  name: XP Log
+  ri_urls:
+  - https://www.fiis.com.br/xplg11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''log'' present'
+  last_resolved: '2026-05-11T08:28:54Z'
+  is_holding: false
+XPML11:
+  market: br
+  sector: Shopping
+  name: XP Malls
+  ri_urls:
+  - https://www.fiis.com.br/xpml11/
+  method: fii_heuristic
+  status: ok
+  verified: true
+  notes: 'fiis.com.br — verified: name token ''malls'' present'
+  last_resolved: '2026-05-11T08:06:02Z'
+  is_holding: true

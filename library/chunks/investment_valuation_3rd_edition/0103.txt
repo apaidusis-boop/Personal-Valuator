@@ -1,0 +1,19 @@
+option will provide the holder with the stock and entitle him or her to the dividends on the
+stock in subsequent periods. Failing to exercise the option will mean that these dividends are
+forgone.
+4.
+
+Strike price of the option.
+ A key characteristic used to describe an option is the strike price. In
+the case of calls, where the holder acquires the right to buy at a fixed price, the value of the call
+will decline as the strike price increases. In the case of puts, where the holder has the right to sell
+at a fixed price, the value will increase as the strike price increases.
+5.
+
+Time to expiration on the option.
+ Both calls and puts are more valuable the greater the time to
+expiration. This is because the longer time to expiration provides more time for the value of the
+underlying asset to move, increasing the value of both types of options. Additionally, in the case
+of a call, where the buyer has the right to pay a fixed price at expiration, the present value of this
+fixed price decreases as the life of the option increases, increasing the value of the call.
+6.

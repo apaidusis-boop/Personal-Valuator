@@ -1,0 +1,66 @@
+stock
+has a beta of 1.10. In the last normal period of operations for the firm between 1986 and 1989, the
+firm earned an average return on capital of 12%. The Treasury bond rate was 7%, and the market
+
+risk premium is 5.5%. 
+Once earnings are normalized, GM expected them to grow 5% a year forever, and capital
+expenditures and depreciation to grow at the same rate.
+a.
+ Estimate the value per share for GM, assuming earnings are normalized instantaneously.
+b.
+ How would your valuation be affected if GM is not going to reach its normalized earnings
+until 1995 (in two years)?
+3.
+ Toro Corporation, which manufactures lawn mowers and tractors, had revenues of $635
+million in 1992, on which it reported a loss of $7 million (largely as a consequence of the
+recession). It had interest expenses of $17 million in 1992, and its bonds were rated BBB; a
+typical BBB-rated company had an interest coverage ratio (EBIT/interest expenses) of 3.10. The
+company faced a 40% tax rate. The stock had a beta of 1.10. (The Treasury bond rate was 7%,
+and the risk premium is 5.5%.) 
+Toro spent $25 million on capital expenditures in 1992, and had depreciation of $20 million.
+Working capital amounted to 25% of sales. The company expected to maintain a debt ratio of
+25%. In the long term, growth in revenues and profits was expected to be 4%, once earnings
+return to normal levels.
+a.
+ Assuming that the bond rating reflects normalized earnings, estimate the normalized earnings
+for Toro Corporation.
+b.
+ Allowing for the long-term growth rate on normalized earnings, estimate the value of equity
+for Toro Corporation.
+4.
+ Kollmorgen Corporation, a diversified technology company, reported sales of $194.9 million
+in 1992, and had a net loss of $1.9 million in that year. Its net income had traced a fairly volatile
+course over the previous five years:
+Year
+Net Income
+1987
+$ 
+0.3 million
+1988
+$11.5 million
+1989
+–$ 
+2.4 million
+1990
+$ 
+7.2 million
+1991
+–$ 
+4.6 million
+The stock had a beta of 1.20, and the normalized net income was expected to increase 6% a year
+until 1996, after which the growth rate was expected to stabilize at 5% a year (the beta will drop
+to 1.00). The depreciation amounted to $8 million in 1992, and capital spending amounted to $10
+million in that year. Both items were expected to grow 5% a year in the long term. The firm
+expected to maintain a debt ratio of 35%. (The Treasury bond rate was 7%, and the risk premium
+is 5.5%.)
+a.
+ Assuming that the average earnings from 1987 to 1992 represents the normalized earnings,
+estimate the normalized earnings and free cash flow to equity.
+b.
+ Estimate the value per share.
+5.
+ OHM Corporation, an environmental service provider, had revenues of $209 million in 1992
+and reported losses of $3.1 million. It had earnings before interest and taxes of $12.5 million in
+1992, and had debt outstanding of $104 million (in market value terms). There were 15.9 million
+shares outstanding, trading at $11 per share. The pretax interest rate on debt owed by the firm was
+8.5%, and the stock had a beta of 1.15. The firm's EBIT was expected to increase 10% a year

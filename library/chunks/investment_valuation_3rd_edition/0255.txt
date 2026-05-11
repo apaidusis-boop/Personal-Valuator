@@ -1,0 +1,21 @@
+e regression should be zero if the actual returns
+equal the expected returns from the CAPM, greater than zero if the stock does better than expected,
+and less than zero if it does worse than expected.
+
+2
+ The terminology is confusing, since the intercept of the regression is sometimes also called the
+alpha and is sometimes compared to zero as a measure of risk-adjusted performance. The intercept
+can be compared to zero only if the regression is run with excess returns for both the stock and the
+index; the riskless rate has to be subtracted from the raw return in each month for both.
+3
+ The stock has to be bought by a day called the ex-dividend day in order for investors to be
+entitled to dividends. The returns in a period include dividends if the ex-dividend day is in that
+period.
+4
+ This is done purely for computational convenience.
+5
+ The nontrading bias arises because the returns in nontrading periods are zero (even though the
+market may have moved up or down significantly in those periods). Using these nontrading period
+returns in the regression will reduce the correlation between stock returns and market returns and
+the beta of the stock.
+6

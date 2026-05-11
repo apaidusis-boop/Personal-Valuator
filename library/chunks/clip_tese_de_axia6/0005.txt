@@ -1,0 +1,19 @@
+ar a Eletrobras e nomeou Wilson Ferreira Júnior como CEO da empresa. Isso ocorreu após a companhia viver um período conturbado, tendo acumulado em torno de R$ 30 bilhões de prejuízo entre 2012 e 2016.
+
+Assim, em 2018, a Eletrobras realizou a privatização das distribuidoras localizadas nas regiões Norte e Nordeste do país, passando a atuar apenas nos segmentos de geração e transmissão. Esse esforço priorizou os segmentos em que a empresa atua de maneira mais eficiente, buscando a redução do endividamento e uma simplificação societária.
+
+Por consequência, a Eletrobras passou por um longo período de reestruturação, saindo de um quadro de cerca de 26 mil empregados (em 2016) para aproximadamente 12 mil hoje. Em um movimento semelhante, o número de Sociedades de Propósito Específico (SPEs) foi reduzido de 178 para 81, contando vendas de negócios que não fazem parte do foco atual da empresa, bem como encerramentos e incorporações.
+
+Em novembro de 2019, um projeto de lei de desestatização da Eletrobras foi encaminhado pelo presidente da República ao Congresso Nacional, o qual foi executado com uma oferta primária de ações diluindo a posição da União em 2022.
+
+Já em 2025, consolidando simbolicamente a privatização, ocorrida anos antes, mas que exigiu transições extensas em termos de governança e gestão, a empresa reposicionou sua marca para o nome de Axia Energia, também alterando os *tickers* para AXIA6 (PNB) e AXIA3 (ON).
+
+---
+
+## Modelo de negócio
+
+- *Atualizado em 26/10/2023*
+
+### Geração
+
+O faturamento das geradoras, que funcionam por concessões que costumam iniciar com um prazo de 30 anos, se dá pela composição de volume de energia comercializado (MWh) e pelo preço (R$/MWh), que pode ser firmado tanto no mercado regulado – ACR (venda às distribuidoras em leilões) quando no mercado livre – ACL (negociação entre empresas).

@@ -1,0 +1,28 @@
+rs. The standard errors on the size and book-to-market betas in the three-
+factor Fama-French model may be so large that using them in practice creates almost as much
+noise as it adds in precision.
+3.
+
+Pricing error or risk proxy
+. For decades, value investors have argued that you should invest in
+stocks with low PE ratios that trade at low multiples of book value and have high dividend yields,
+pointing to the fact that you will earn higher returns by doing so. (In fact, a scan of Benjamin
+Graham’s screens from security analysis
+4
+ for cheap companies unearths most of the proxies that
+you see in use today.) Proxy models incorporate all of these variables into the expected return and
+thus render these assets to be fairly priced. Using the circular logic of these models, markets are
+always efficient because any inefficiency that exists is just another risk proxy that needs to get
+built into the model.
+A COMPARATIVE ANALYSIS OF EQUITY RISK
+MODELS
+When faced with the choice of estimating expected returns on equity or cost of equity, we are
+therefore faced with several choices, ranging from the CAPM to proxy models. 
+Table 4.1
+ summarizes
+the different models and presents their pluses and minuses.
+Table 4.1
+ Alternative Models for Cost of Equity
+The decision has to be based as much on theoretical considerations as it will be on pragmatic
+considerations. The CAPM is the simplest of the models, insofar as it requires only one firm-specific
+input (the beta), and that input can be estimated readily from public information. To replace the

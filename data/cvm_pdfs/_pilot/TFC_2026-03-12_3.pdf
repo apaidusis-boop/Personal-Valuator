@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:system style" nonce="NDkwMWRhZjUzNGNjMDQ0ZGZiMTQyOWQwOGY3YWNkNDMxODNiNTM4Mw==">
+.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+
+<!-- end spin_special_output(head_start) -->
+
+
+	
+	<!-- OneTrust Cookies Consent Notice start for truist.com -->
+	<script src="https://cdn.cookielaw.org/consent/a36cbfdc-000f-45ef-92ae-779176195d77/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="a36cbfdc-000f-45ef-92ae-779176195d77" integrity="sha384-WEHwEli88wqOiQd913F1utFZiwisa8XhCkbjLnbKEpFa/WbFcPKeGg7h4fdsv0Z/" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		function OptanonWrapper(){}
+	</script>
+	<!-- OneTrust Cookies Consent Notice end for truist.com -->
+
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Truist expands open banking capabilities with Plaid" />
+ <meta name="twitter:description" content="Industry-leading partnership will empower consumer and small business clients with streamlined client experience and more control over financial data CHARLOTTE, N.C., March 12, 2026 /PRNewswire/..." />
+ <meta name="twitter:image" content="https://mma.prnewswire.com/media/1075420/TruistWhiteLogo.jpg?p=twitter" />
+ <meta property="og:site_name" content="Truist Investor Relations" />
+ <meta property="og:url" content="https://ir.truist.com/2026-03-12-Truist-expands-open-banking-capabilities-with-Plaid" />
+ <meta property="og:title" content="Truist expands open banking capabilities with Plaid" />
+ <meta property="og:description" content="Industry-leading partnership will empower consumer and small business clients with streamlined client experience and more control over financial data CHARLOTTE, N.C., March 12, 2026 /PRNewswire/..." />
+ <meta name="image" property="og:image" content="https://mma.prnewswire.com/media/1075420/TruistWhiteLogo.jpg?p=facebook" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Truist expands open banking capabilities with Plaid - Mar 12, 2026</title>
+	<link rel="icon" type="image/png" href="https://ir.truist.com/images/icons/favicon.ico" sizes="16x16">
+<!-- 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"> -->
+	<link rel="stylesheet" href="thirdparty/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+
+		<script src="https://assets.adobedtm.com/550322ae7d69/0539ab2980b3/launch-e63559efc6b0.min.js" integrity="sha384-JtTYvbDws02aXUZC/gIbAxDdlYIAKqg25CbyfVKbo+BjdvW6an2UThXfEMTRuo+f" crossorigin="anonymous"></script>   
+	<script type="text/javascript" src="https://imaginativeastute.com/js/816715.js" ></script>
+
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://ir.truist.com/2026-03-12-Truist-expands-open-banking-capabilities-with-Plaid" />
+<!-- end spin_special_output(head_end) -->
+</head>
+<body class="wd_pageid_43 wd_item_page wd_item_427">
+<noscript><img src="https://imaginativeastute.com/816715.png" style="display:none;" /></noscript>
+	<div id="js-header" class="not-main-content component--standalone js-component--standalone header js-header analytics-header" data-current-segment="en" data-editable="true">
+	<header>
+		<a class="wd_visually_hidden" href="#wd_main_content" id="wd_skip_link">Skip to main content</a>
+		<h2 class="lx-screen-reader-only">&nbsp;Header</h2>
+		<nav class="header__navbar header__navbar--secondary">
+			<div class="header__container lx-display--flex lx-justify-content--space-between">
+				<div class="header__wrapper header__wrapper--secondary-navbar header__wrapper--secondary-navbar--left">
+
+				</div>
+
+				<div class="header__wrapper header__wrapper--secondary-navbar header__wrapper--secondary-navbar--right">
+
+				</div>
+			</div>
+		</nav>
+
+		<nav class="header__navbar header__navbar--primary">
+			<div class="header__container header__container--primary-navbar ">
+				<div class="header__wrapper header__wrapper--primary-navbar header__wrapper--primary-navbar--left">
+
+					<a class="header__brand-logo js-header__brand-logo" href="index.php">
+						<img src="images/truist-logo.svg" alt="Truist Logo">
+						<span class="screen-reader-only">&nbsp;Homepage</span>
+					</a>
+
+				</div>
+				<!-- Header Mobile Starts -->
+				<div class="header__wrapper header__wrapper--primary-navbar header__wrapper--primary-navbar--center">
+
+					<div class="js-lx-collapsible header__navigation-collapse--mobile-menu">
+
+						<button class="lx-button  js-lx-collapsible__trigger collapsible__trigger header__offcanvas__trigger js-header__offcanvas__trigger js-header__offcanvas__trigger    is-listening-for-click" aria-expanded="false" data-toggle="collapse" aria-label="Site menu" data-animate-mobile="fade" data-animate-desktop="fade" data-dismiss="true" id="js-collapsible__trigger--0" aria-controls="js-collapsible__target--0">                                
+								<svg class="lx-icon lx-icon--action-menu lx-button__icon lx-button__icon--left" aria-hidden="true" focusable="false" id="wd_mobile_nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M32 18.8H4c-.4 0-.8-.3-.8-.8s.3-.8.8-.8h28c.4 0 .8.3.8.8s-.4.8-.8.8zm0-10H4c-.4 0-.8-.4-.8-.8s.4-.8.8-.8h28c.4 0 .8.3.8.8s-.4.8-.8.8zm0 20H4c-.4 0-.8-.3-.8-.8s.3-.8.8-.8h28c.4 0 .8.3.8.8s-.4.8-.8.8z"></path></svg>
+						
+							Menu
+
+						</button>
+
+						<div class="js-lx-collapsible__target lx-collapsible__target header__offcanvas__target__wrapper display-primary-nav-at-desktop" id="js-collapsible__target--0" data-role="region" data-aria-labelledby="js-collapsible__trigger--0">
+
+							<div class="header__offcanvas__target js-header__offcanvas__target">
+								<div class="header__container">
+									<div id="js-header__offcanvas-wrapper" class="header__offcanvas__wrapper">
+
+										<ul class="header__navigation-list--primary header__navigation-list--collapsible-container">
+											<li class="header__navigation-list-item--primary header__navigation-list-item--home header__navigation-list-item--collapsible">
+
+												<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="index.php">
+
+													<span class="button-text">Home</span>
+
+												</a>
+
+											</li>
+											<!-- Primary Nav XF -->
+												<li class="header__navigation-list-item--primary nav-item dropdown">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link dropdown-toggle" href="sec-filings" target="_self" id="dropdown63" role="button" data-flip="false" data-toggle="dropdown" aria-expanded="false"><span class="button-text">Financial Information</span></a>
+			<div class="dropdown-menu" role="group" aria-labelledby="dropdown63">	<a class="dropdown-item" href="https://ir.truist.com/annual-reports" target="_self">Annual Report & Proxy Statement</a>
+	<a class="dropdown-item" href="https://ir.truist.com/earnings" target="_self">Earnings</a>
+	<a class="dropdown-item" href="https://ir.truist.com/regulatory-disclosures" target="_self">Regulatory Disclosures</a>
+	<a class="dropdown-item" href="https://ir.truist.com/sec-filings" target="_self">SEC Filings</a>
+	<a class="dropdown-item" href="https://ir.truist.com/legacy-documents" target="_self">Legacy Documents</a>
+</div>		</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="sec-filings" target="_self">
+				<span class="button-text">Financial Information</span>
+			</a>
+		</li>		 -->
+	<li class="header__navigation-list-item--primary nav-item ">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link" href="https://ir.truist.com/events-and-presentation" target="_self"><span class="button-text">Events & Presentations</span></a>
+					</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="https://ir.truist.com/events-and-presentation" target="_self">
+				<span class="button-text">Events & Presentations</span>
+			</a>
+		</li>		 -->
+	<li class="header__navigation-list-item--primary nav-item dropdown">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link dropdown-toggle" href="shareholder-information" target="_self" id="dropdown181" role="button" data-flip="false" data-toggle="dropdown" aria-expanded="false"><span class="button-text">Shareholder Information</span></a>
+			<div class="dropdown-menu" role="group" aria-labelledby="dropdown181">	<a class="dropdown-item" href="https://ir.truist.com/shareholder-information" target="_self">Shareholder Information</a>
+	<a class="dropdown-item" href="https://ir.truist.com/dividend-and-stock-split" target="_self">Dividend & Stock Split History</a>
+	<a class="dropdown-item" href="https://ir.truist.com/stock-price-information" target="_self">Stock Price Information</a>
+	<a class="dropdown-item" href="https://ir.truist.com/investor-alerts" target="_self">Investor Alerts</a>
+	<a class="dropdown-item" href="https://ir.truist.com/analyst-coverage" target="_self">Analyst Coverage</a>
+</div>		</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="shareholder-information" target="_self">
+				<span class="button-text">Shareholder Information</span>
+			</a>
+		</li>		 -->
+	<li class="header__navigation-list-item--primary nav-item dropdown">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link dropdown-toggle" href="credit-ratings" target="_self" id="dropdown117" role="button" data-flip="false" data-toggle="dropdown" aria-expanded="false"><span class="button-text">Fixed Income</span></a>
+			<div class="dropdown-menu" role="group" aria-labelledby="dropdown117">	<a class="dropdown-item" href="https://ir.truist.com/credit-ratings" target="_self">Credit Ratings</a>
+	<a class="dropdown-item" href="https://ir.truist.com/preferred-stock" target="_self">Preferred Stock </a>
+	<a class="dropdown-item" href="https://ir.truist.com/image/2Q25_fixed_income.pdf" target="_self">Fixed Income Presentation</a>
+</div>		</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="credit-ratings" target="_self">
+				<span class="button-text">Fixed Income</span>
+			</a>
+		</li>		 -->
+	<li class="header__navigation-list-item--primary nav-item dropdown">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link dropdown-toggle" href="board-of-directors" target="_self" id="dropdown116" role="button" data-flip="false" data-toggle="dropdown" aria-expanded="false"><span class="button-text">Governance & Responsibility</span></a>
+			<div class="dropdown-menu" role="group" aria-labelledby="dropdown116">	<a class="dropdown-item" href="https://ir.truist.com/corporate-governance" target="_self">Corporate Governance</a>
+	<a class="dropdown-item" href="https://ir.truist.com/board-of-directors" target="_self">Board of Directors</a>
+	<a class="dropdown-item" href="https://ir.truist.com/Board-Committees" target="_self">Board Committees</a>
+	<a class="dropdown-item" href="https://media.truist.com/executive-leadership-team" target="_self">Operating Council</a>
+	<a class="dropdown-item" href="https://ir.truist.com/code-of-ethics" target="_self">Code of Ethics</a>
+	<a class="dropdown-item" href="https://ir.truist.com/corporate-responsibility-and-sustainability-at-truist" target="_self">Corporate Responsibility and Sustainability</a>
+	<a class="dropdown-item" href="https://ir.truist.com/AML" target="_self">Anti-Money Laundering</a>
+</div>		</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="board-of-directors" target="_self">
+				<span class="button-text">Governance & Responsibility</span>
+			</a>
+		</li>		 -->
+	<li class="header__navigation-list-item--primary nav-item ">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable nav-link" href="https://media.truist.com/" target="_self"><span class="button-text">Newsroom</span></a>
+					</li>
+		<!-- <li class="header__navigation-list-item--primary">
+			<a class="lx-button header__navigation-list-item--primary__buttton js-header__mobile-menu-focusable" href="https://media.truist.com/" target="_self">
+				<span class="button-text">Newsroom</span>
+			</a>
+		</li>		 -->
+
+										</ul>
+
+										<!-- place xf placeholder here -->
+
+										<div class="hide--lg-up">
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- Header Mobile Ends -->
+				<div class="header__wrapper header__wrapper--primary-navbar header__wrapper--primary-navbar--right">
+					<ul class="navbar--primary__list" role="presentation">
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+</div>
+<main id="wd_main_content" tabindex="-1">
+	<figure class="promo--full-width__figure" role="presentation">
+		<picture class="promo--full-width__picture">
+		</picture>
+	</figure>
+	<div class="wd_header_content container">
+	<h1>Newsroom</h1>	</div>
+	<!-- <div class="wd_home_hero" style="background-image: url();">
+		<div class="wd_header_content container">
+				</div>
+	</div> -->
+	<div class="container">
+		<div class="row">
+						<div class="col-md-12 wd_content">
+				<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<div class="wd_title wd_language_left">Truist expands open banking capabilities with Plaid</div>
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fir.truist.com%2Findex.php%3Fs%3D43%26item%3D427" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Facebook Share Button</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fir.truist.com%2Findex.php%3Fs%3D43%26item%3D427" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Linkedin Share Button</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Fir.truist.com%2Findex.php%3Fs%3D43%26item%3D427" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Twitter Share Button</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Truist%20expands%20open%20banking%20capabilities%20with%20Plaid%20-%20Mar%2012%2C%202026&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://ir.truist.com/rss?rsspage=43" title="Get the RSS feed for this page"><span class="fa fa-rss"></span><span class="wd_sr-only wd_sr-only-focusable">Get the RSS feed for this page</span></a></span></li><li class="wd_tool wd_tool-pdf"><span class="wd_tool_icon"><a href="https://ir.truist.com/2026-03-12-Truist-expands-open-banking-capabilities-with-Plaid?asPDF=1" rel="nofollow" title="Download a PDF version of this page"><span class="fa fa-file-pdf-o"></span><span class="wd_sr-only wd_sr-only-focusable">Download a PDF version of this page</span></a></span></li></ul></div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				
+					div.PRN_ImbeddedAssetReference{
+						display: none;
+					}
+					div[id^="prni_dvprne"]{
+						display: none;
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://ir.truist.com/2026-03-12-Truist-expands-open-banking-capabilities-with-Plaid?printable=1">
+<p><i>Industry-leading partnership will empower consumer and small business clients with</i>  <i>streamlined client experience and more control over financial data</i></p><p><span class="legendSpanClass">CHARLOTTE, N.C.</span>, <span class="legendSpanClass">March 12, 2026</span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- Truist Financial Corporation (NYSE: TFC) and Plaid Inc. today announced a data‑access agreement expanding secure open banking access for Truist clients, delivering increased control over their finances.</p>
+    <div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder1">
+                <p>
+                        <a href="https://mma.prnewswire.com/media/1075420/TruistWhiteLogo.html" target="_blank" rel="nofollow">
+                    <img src="https://mma.prnewswire.com/media/1075420/TruistWhiteLogo.jpg" title="Truist logo (PRNewsfoto/Truist)" alt="Truist logo (PRNewsfoto/Truist)"/>
+                        </a>
+                </p>
+    </div>
+<p>"By working together through cooperative data sharing, we're offering clients improved financial control and insights," said Head of Digital, Client Experience and Marketing Sherry Graziano. "This is just one way we're providing a secure, personalized banking experience that digitally empowers clients and small business owners with a broader view of their financial lives. By delivering modern, integrated digital banking through open banking, we're able to deepen relationships and build trust."</p><p>Beyond connectivity, the partnership includes joint product enhancements and architectural improvements designed to improve data quality, support continued innovation across the open banking ecosystem, and help clients combat <span>fraud</span>. Highlights include:</p><ul type="disc"><li>Leveraging Truist and Plaid's existing networks to give clients increased financial control and insights</li><li>A simplified returning user experience enabled by a secure, streamlined login for a digital journey that saves clients time and reduces friction</li><li>Shared data and risk indicators sourced from each company's existing networks to improve security</li><li>Greater transparency and control through the FDX-aligned API that replaces credential sharing and enables clients to manage or revoke connections securely</li></ul><p>"This partnership combines Truist's commitment to client-centric innovation with Plaid's leading data network to deliver industry-defining experiences," said Christy Sunquist, head of open finance at Plaid. "Together, the companies are expanding the capabilities of API connectivity and advancing data-driven innovation, including shared intelligence, to provide clients with secure and convenient access to their accounts."</p><p><b>About Truist</b> </p><p>Truist Financial Corporation is a purpose-driven financial services company committed to inspiring and building better lives and communities. Headquartered in Charlotte, North Carolina, Truist has leading market share in many of the high-growth markets in the U.S. and offers a wide range of products and services through wholesale and consumer businesses, including consumer and small business banking, commercial and corporate banking, investment banking and capital markets, wealth management, payments, and specialized lending businesses. Truist is a top-10 commercial bank with total assets of $548 billion as of Dec. 31, 2025. Truist Bank, Member FDIC. Equal Housing Lender. Learn more at Truist.com.</p><p><b>About Plaid</b></p><p>Plaid is a global data network that powers the tools millions of people rely on to live healthier financial lives. Our ambition is to facilitate a more inclusive, competitive, and mutually beneficial financial system by using data analytics to simplify payments, revolutionize lending, and lead the fight against <span>fraud</span>. Plaid works with thousands of companies, including fintechs, Fortune 500 companies, and many of the largest banks to empower people with more choice and control over how they manage their money. Headquartered in San Francisco, Plaid's network spans over 12,000 institutions across the U.S., Canada, U.K., and Europe.</p>
+
+
+
+<p>SOURCE Truist Financial Corporation</p></div>
+
+<div class="wd_contact">For further information: Media - Media@Truist.com</div>
+
+
+ 
+				
+			
+
+<!-- ITEMDATE: 2026-03-12 08:03:00 EDT -->
+
+</div>
+</div>			</div><!-- END CONTENT -->	
+					</div><!-- END ROW -->
+	</div><!-- END CONTAINER -->
+	</main>
+<!-- <section class="wd_subscribe_container" role="complementary">
+	<h2 class="wd_visually_hidden">Subscribe Header</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><p class="h3">Receive updates straight to your inbox</p></div>
+			<div class="col-md-6 d-flex justify-content-center align-items-center"><a role="button" class="btn btn-lg btn-light" href="https://ir.truist.com/investor-alerts">Subscribe to alerts</a></div>
+		</div>
+	</div>
+</section> -->
+<footer class="not-main-content footer component--standalone js-component--standalone js-footer analytics-footer" role="contentinfo" data-editable="true">
+	<h2 class="lx-screen-reader-only">&nbsp;Footer</h2>
+
+	<div class="footer__section">
+		<a class="footer-logo" href="index.php">
+			<img src="images/truist-logo-white.svg" alt="Truist Logo">
+			<span class="screen-reader-only">&nbsp;Homepage</span>
+		</a>
+	</div>
+	<div class="footer__section">
+
+		<div class="footer-nav footer-nav--xf">
+
+			<div id="8369091677" class="component--parent js-component--parent column-wrapper js-column-wrapper  noen ">
+
+				<div class="column js-column analytics-column ">
+
+					<div class="lx-grid lx-grid--1-columns js-lx-grid lx-grid--gutters lx-grid--2-columns-md-up lx-grid--2-columns-lg-up wd_footer_wrap">
+
+						<div class="text-block-wrapper js-text-block-wrapper">
+
+							<div class="text-block js-text-block analytics-text-block  ">
+
+								<h3 class="text-block__title ">Investor Contacts</h3>
+
+								<div class="text-block__paragraph ">
+									<ul class="rte__list">
+										<li><!-- <h4>Investor Relations</h4> -->
+										<a href="mailto:investors@truist.com">investors@truist.com</a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="text-block-wrapper js-text-block-wrapper">
+
+							<div class="text-block js-text-block analytics-text-block  ">
+
+								<h3 class="text-block__title ">Media Contacts</h3>
+
+								<div class="text-block__paragraph ">
+									<ul class="rte__list">
+										<li><!-- <h4>Corporate Communications</h4> -->
+										<a href="mailto:media@truist.com">media@truist.com</a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<ul class="footer-nav footer-nav--secondary">
+
+			<li class="footer-nav-item">
+				<a class="lx-button footer-nav-link   " href="https://www.truist.com/privacy">
+					Privacy
+				</a>
+			</li>
+
+			<li class="footer-nav-item">
+				<a class="lx-button footer-nav-link" href="https://www.truist.com/terms-and-conditions">Terms and Conditions</a>
+			</li>
+		
+			<li class="footer-nav-item">
+				<a class="lx-button footer-nav-link" href="https://www.bbt.com/accessibility.html">Accessibility</a>
+			</li>
+
+			<li class="footer-nav-item">
+				<!-- OneTrust Cookie Settings button start -->
+				<button id="ot-sdk-btn" class="ot-sdk-show-settings media-ot-button"></button>
+				<!-- OneTrust Cookie Settings button end -->
+			</li>
+
+		</ul>
+
+	</div>
+
+	<div class="footer-highlight">
+		<div class="footer__section footer__section--squish">
+			<p class="footer__legal">&copy; 2026, Truist, All Rights Reserved</p>
+		</div>
+	</div>
+
+</footer>
+
+<link rel="stylesheet" href="css/client_inline.css">
+
+<!-- <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script>
+	//Popper.Defaults.positionFixed = true;
+	Popper.Defaults.modifiers.computeStyle = false;
+</script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="js/init.js"></script>
+ 
+
+
+
+<script type="text/javascript">
+function closeWdOverlay(elementId) {
+	$('#' + elementId).fadeOut();
+}
+function setSearchInputFocus(){
+	setTimeout(function() {
+		$("#wd_search_overlay input[type='text']")[0].focus();
+	}, 100);
+}
+
+var resizeTimeout;
+jQuery(window).resize(function(){
+	if(!!resizeTimeout){ clearTimeout(resizeTimeout); }
+	resizeTimeout = setTimeout(function(){    
+	if (window.outerWidth > 991) {
+		jQuery("#js-header").removeClass('backdrop-on');
+		jQuery('main, footer').removeClass('backdrop');
+	}
+  },200);
+});
+
+document.getElementById('js-collapsible__trigger--0').addEventListener('click', function(e) {
+	jQuery('#js-collapsible__target--0').toggle('slow');        
+		jQuery("#js-header").toggleClass('backdrop-on');
+		jQuery('main, footer').toggleClass('backdrop');
+		jQuery('#js-collapsible__trigger--0').toggleClass('is-expanded').attr('aria-expanded', function(index, attr) {
+			 return attr == 'false' ? 'true' : 'false';
+		});
+}, false);
+
+document.addEventListener('click', function(e) {
+	if (window.outerWidth <= 991) {
+		if(jQuery("#js-collapsible__target--0").is(':visible')){
+			if(e.target.id != 'js-collapsible__target--0' && e.target.id != 'js-collapsible__trigger--0' && jQuery(e.target).attr('data-toggle') != 'dropdown' && e.target.parentElement.id != 'js-collapsible__trigger--0' && e.target.parentElement.id != 'wd_mobile_nav-svg' && e.target.className != 'button-text') {
+				// $('#js-collapsible__target--0').collapse('toggle');
+				jQuery('#js-collapsible__target--0').toggle('slow');        
+				jQuery("#js-header").toggleClass('backdrop-on');
+				jQuery('main, footer').toggleClass('backdrop');
+				jQuery('#js-collapsible__trigger--0').toggleClass('is-expanded').attr('aria-expanded', function(index, attr) {
+					return attr == 'false' ? 'true' : 'false';
+				});
+			}
+		}
+	}
+}, false);
+
+$(document).ready(function() {
+	$(".wd_subscribe_featurebox label").each(function() {
+		$(this).text($(this).text().replace(/\*/g, '').trim());
+		// var label = $(this);
+		// var placeholder = label.text().replace(/\*/g, '').trim();
+		// //placeholder = placeholder.replace(/\*/g, '').trim();
+		// label.parent().next(".wd_form_field_input").find("input").attr("placeholder", placeholder);
+	});
+	// $('#js-collapsible__trigger--0').on('click', function() {
+	//     $("#js-header").toggleClass('backdrop-on');
+	//     $('main, footer').toggleClass('backdrop');
+	//     $(this).toggleClass('is-expanded').attr('aria-expanded', function(index, attr) {
+	//         return attr == false ? true : false;
+	//     });
+	//     $("#js-collapsible__target--0").toggle('slow');
+	// });
+	// $('#wd_search_trigger').on('click', function(e) {
+	//     $('#wd_search_overlay').fadeIn();
+	// });
+	// $(window).on('click', function(event) {
+	//     if ($("#wd_search_overlay")[0].style.display == "block") {
+	//         if (event.target.id == "wd_search_overlay") {
+	//                 closeWdOverlay("wd_search_overlay");
+	//         }
+	//     }
+	//     // if ($("#wd_mobile_search_overlay")[0].style.display == "block") {
+	//     //     if (event.target.id == "wd_mobile_search_overlay") {
+	//     //             closeWdOverlay("wd_mobile_search_overlay");
+	//     //     }
+	//     // }
+	// });
+	// $(window).on('touchstart', function(event) {
+	//     if ($("#wd_search_overlay")[0].style.display == "block") {
+	//         if (event.target.id == "wd_search_overlay") {
+	//                 closeWdOverlay("wd_search_overlay");
+	//         }
+	//     }
+	//     // if ($("#wd_mobile_search_overlay")[0].style.display == "block") {
+	//     //     if (event.target.id == "wd_mobile_search_overlay") {
+	//     //             closeWdOverlay("wd_mobile_search_overlay");
+	//     //     }
+	//     // }
+	// });
+});
+// $('.dropdown').on('show.bs.dropdown', function() {
+// 	$(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+// });
+// $('.dropdown').on('hide.bs.dropdown', function() {
+// 	$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+// });
+$('.single_slider_carousel_caption').addClass('container');
+
+// close bootstrap menu on click outside of it
+// $(document).on('click', function (e){                     
+//     var menu_opened = jQuery('#js-collapsible__target--0').css('display') == 'block';
+//     if(!$(e.target).is('#js-collapsible__target--0') && menu_opened === true){
+//         $('#js-collapsible__target--0').collapse('toggle');
+//         $("#js-header").toggleClass('backdrop-on');
+//         $('main, footer').toggleClass('backdrop');
+//     }
+// });
+$(document).ready(function() {
+	//$('.wd_dividend_tbl').wrap('<div class="wd_dividend_container"></div>');
+	$(function() {
+		$('table.responsive').each(function() {
+			var table_id = $(this).attr('id');
+			var head_col_count =  $(this).find('thead th').length;
+			var i;
+			for ( i=0; i <= head_col_count; i++ )  {
+				var head_col_label = $(this).find('th:nth-child('+ i +')').text();
+				if (head_col_label != ""){
+					head_col_label = head_col_label + ": ";
+				}
+				$(this).find('tr td:nth-child('+ i +')').attr('data-th',head_col_label);
+			}
+		});
+	});
+	var wd_tools = document.querySelectorAll('.wd_tools li a');
+	if (wd_tools.length>0) {
+		for (var i=0;i<wd_tools.length;i++) {
+			wd_tools[i].setAttribute('aria-label', wd_tools[i].getAttribute('title'));
+		}
+	}
+	var mainRow = $('main');
+	var navBar = $('nav.navbar');
+	var navBarHeight = navBar.height();
+	$('.wd_navbar-wrapper').css('min-height',navBarHeight+'px');
+	function scroll() {
+		var mainYoffset = mainRow.offset().top - $(window).scrollTop() - navBarHeight;
+		if(navBarHeight - $(window).scrollTop() <= 0) {
+			navBar.addClass('fixed-top');
+		} else {
+			navBar.removeClass('fixed-top');
+		}
+		if(mainYoffset <= 0) {
+			navBar.addClass('in-view');
+		} else {
+			navBar.removeClass('in-view');
+		}
+	}
+	$(window).scroll(function() {
+		scroll();
+	});
+	scroll();
+});
+</script>
+
+
+
+<script>
+	//Adds banner to distinguish between past events and future events
+
+	$(document).ready(function() {
+		var currentPath = window.location.href;
+		var currentPathArr = currentPath.split('/');
+		var lastPosition = currentPathArr.length;
+		var currentPage = currentPathArr[lastPosition - 1];
+
+
+		if (currentPage == "events-and-presentation") {
+            if ($('.wd_events_past_summary').length > 0) {// if this exists, there are upcoming and past events
+                $("<div class="+ "wd_event_indicator" + ">Upcoming Events</div>").insertBefore('.wd_events_list');
+                $("<div class="+ "wd_event_indicator" + ">Past Events</div>").insertBefore('.wd_events_past_summary');	
+            } else {
+                $("<div class="+ "wd_event_indicator" + ">Past Events</div>").insertBefore('.wd_events_list');	
+            }
+		}
+	
+
+		$('.wd_events_tab_future').click(function() {
+
+			$('.wd_event_indicator').remove();
+			$('.wd_past_events').remove();
+			$("<div class="+ "wd_future_events" + ">Upcoming Events</div>").insertBefore('.wd_events_list');
+		});
+		$('.wd_events_tab_past').click(function() {
+			$('.wd_event_indicator').remove();
+			$('.wd_future_events').remove();
+			$("<div class="+ "wd_past_events" + ">Past Events</div>").insertBefore('.wd_events_list');
+			
+
+		});
+	});
+</script>
+
+<script>
+	$(document).ready(function(){
+		//Category Nav
+		$('.wd_dropdown').click(function(){
+			$(this).toggleClass('wd_open');
+		});
+
+	});
+</script>
+
+<script>
+	/*************************
+	Corporate and Social Responsibilty 
+	*************************/
+
+	//Prepends the item name to the the top of each item
+	$('.wd_pageid_58 .wd_category_items .item').each(function() {
+		$(this).prepend($(this).find('.item_name'));
+	})
+
+	//Wraps each item with it's respective link
+	$('.wd_pageid_58 .wd_category_items .item').each(function() {
+		var categoryLink = $(this).find('.item_name a').attr(
+			'href');
+		$(this).find('.wd_imagetable img').wrap('<a href='+categoryLink+' data-wa-track-clk="1" data-wa-linktype="download"></a>')
+	});
+
+	//Creates a seperate container for the first item in the list 
+	$('.wd_pageid_58 .wd_category_items_16 .item:first').wrap('<div class="responsibilty_reports"></div>');
+	$('.wd_pageid_58 .wd_category_items_16 .item:first').addClass('responsibilty_report');
+	/*************************
+	Annual Reports & Proxy Statements 
+	*************************/
+
+	//Prepends the item name to the the top of each item
+	// $('.wd_pageid_20 .wd_category_items .item').each(function() {
+	// 	$(this).prepend($(this).find('.item_name'));
+	// })
+
+	//Wraps each item with it's respective link
+	$('.wd_pageid_20 .wd_category_items .item').each(function() {
+		var imageLink = $(this).find('.wd_imagetable a').attr('href');
+		// var categoryLink = $(this).find('.item_name a').attr(
+		// 	'href');
+		$(this).wrapInner('<a href='+imageLink+' data-wa-track-clk="1" data-wa-linktype="download"></a>');
+		$(this).find('wd_imagetable img').unwrap();
+	});
+
+	//WCAG Attachment Icons
+	$('.wd_attachment_icon img').each(function(){
+		$(this).attr('alt','');
+	});
+
+	//SEC Filings
+	$('.wd_pageid_127 .wd_filer_label').insertAfter('.wd_selectors');
+
+	// WCAG
+
+	$('.wd_newsfeed_releases-detail .wd_asset_gallery a.wd_link_underlay').attr('aria-label', 'Open Modal');
+	$('.wd_pageid_43.wd_item_page iframe').each(function (i) {
+		let id = $(this).attr('id');
+		$(this).attr('id', `${id}-${i}`);
+	});
+
+	$('.wd_newsfeed_releases-detail .wd_asset_inline').each(function () {
+		if ( $('.wd_icon_overlay a span.fa-search-plus', this)[0] ) {
+			console.log("true");
+			$('.wd_icon_overlay > .wd_link_underlay', this).remove();
+		}
+	});
+
+	setTimeout(function(){
+		$('.wd_pageid_65 .wd_category_items').each(function(){
+			$(this).removeAttr('role');
+			$('.item_name', this).removeAttr('role');
+		});
+
+		$('.wd_pageid_65 .wd_category .item_name').each(function(){	
+			$(this).removeAttr('aria-selected');
+			$(this).attr('role', 'button');
+		});
+	}, 500);
+
+	$('.wd_pageid_20 .wd_category_items .item > a a').each(function(){
+		// remove nested <a>
+		$(this).contents().unwrap();
+	});
+
+
+</script>
+
+<script type="text/javascript">
+	try {
+		_satellite.pageBottom();
+	}
+	catch(error) {
+		if(error) {
+			console.log(error);
+		}
+	}
+</script>
+
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 4, "News Release Feed ID", "202603120803PR_NEWS_USPR_____CL08027", "page"]);
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "Newsroom", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 5614]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=5614&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f9b67c2ab0543f8',t:'MTc3ODQ0MTkxNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,14 @@
+ll U.S. firms from January 2011:
+where D/C = Total debt/(Total debt + Market value of equity) 
+ROC = Return on capital
+The regression yields results similar to those obtained for price-to-book ratios.
+
+If the results from using value-to-book and price-to-book ratios parallel each other, why would you
+choose to use one multiple over the other? The case for using value-to-book ratios is stronger for
+firms that have high and/or shifting leverage. Firms can use leverage to increase their returns on
+equity, but in the process they also increase the volatility in the measure: in good times they report
+very high returns on equity, and in bad times, very low or negative returns on equity. For such firms,
+the value-to-book ratio and the accompanying return on capital will yield more stable and reliable
+estimates of relative value. In addition, the value-to-book ratio can be computed even for firms that
+have negative book values of equity and is thus less likely to be biased.
+pbvreg.htm:

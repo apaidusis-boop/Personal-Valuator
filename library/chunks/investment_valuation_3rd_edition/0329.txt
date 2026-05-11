@@ -1,0 +1,39 @@
+So far, we have looked at the return on capital as the measure that determines return. In reality,
+however, there are two measures of returns on capital. One is the return earned by firm collectively
+
+on all of its investments, which we define as the average return on capital. The other is the return
+earned by a firm on just the new investments it makes in a year, which is the marginal return on
+capital.
+Changes in the marginal return on capital do not create a second-order effect, and the expected
+growth is a product of the marginal return on capital and the reinvestment rate. Changes in the average
+return on capital, however, will result in the additional impact on growth chronicled earlier.
+Candidates for Changing Average Return on Capital
+What types of firms are likely to see their return on capital change over time? One category includes
+firms with poor returns on capital that improve their operating efficiency and margins, and
+consequently their return on capital. In these firms, the expected growth rate will be much higher than
+the product of the reinvestment rate and the return on capital. In fact, since the return on capital on
+these firms is usually low before the turnaround, small changes in the return on capital translate into
+big changes in the growth rate. Thus, an increase in the return on capital on existing assets from 1
+percent to 2 percent doubles the earnings (resulting in a growth rate of 100 percent).
+Another category includes firms that have very high returns on capital on their existing investments
+but are likely to see these returns slip as competition enters the business, not only on new investments
+but also on existing investments.
+ILLUSTRATION 11.11: Estimating Expected Growth with
+Changing Return on Capital: Titan Cement and Motorola
+In 2000, Titan Cement, a Greek cement company, reported operating income of 55,467 million drachmas on capital invested
+of 135,376 million drachmas. Using its effective tax rate of 24.5%, we estimate a return on capital for the firm of 30.94%:
+Assume that the firm will see its return on capital drop on both its existing assets and its new investments to 29% next year
+and that its reinvestment rate will stay at 35%. The expected growth rate next year can be estimated as follows:
+In contrast, consider Motorola in early 2000. The firm had a reinvestment rate of 52.99% and a return on capital of 12.18%
+in 1999. Assume that Motorola's return on capital will increase toward the industry average of 22.27% as the firm sheds the
+residue of its ill-fated Iridium investment and returns to its roots. Specifically, assume that Motorola's return on capital will
+increase from 12.18% to 17.22% over the following five years.
+7
+ For simplicity, also assume that the change occurs linearly
+over the next five years. The expected growth rate in operating income each year for the next five years can then be
+estimated as follows:
+8
+The improvement in return on capital over the next five years will result in a higher growth rate in operating earnings at
+Motorola over that period. Note that this calculation assumes that the return on capital on new investments next year will be
+17.22%.
+chgrowth.xls:

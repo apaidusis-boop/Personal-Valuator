@@ -1,0 +1,84 @@
+STDOUT:
+=== Perpetuum Master ===
+Running 8 perpetuum(s): ['thesis', 'vault', 'data_coverage', 'content_quality', 'method_discovery', 'token_economy', 'library_signals', 'meta']
+
+--- [thesis] Valida thesis expl�cita de cada holding contra fundamentals + regime + risk rules
+    subjects=33 alerts=0 errors=0 duration=0.33s
+    worst-5:
+      us:TSM                                    score= 87  flags=3
+      us:AAPL                                   score= 91  flags=2
+      us:ACN                                    score= 91  flags=2
+      us:BN                                     score= 91  flags=2
+      us:TEN                                    score= 91  flags=2
+
+--- [vault] Sa�de de cada nota: orphan, stale, short, broken links
+    subjects=376 alerts=0 errors=0 duration=3.31s
+    worst-5:
+      2026-04-23.md                             score= 35  flags=2 | hint: REVIEW + add context / backlinks
+      tickers.md                                score= 35  flags=2 | hint: REVIEW + add context / backlinks
+      agents/watchdog.md                        score= 35  flags=2 | hint: REVIEW + add context / backlinks
+      dashboards/Sectors.md                     score= 35  flags=2 | hint: REVIEW + add context / backlinks
+      Earnings Surprise.md                      score= 50  flags=2 | hint: LIGHT_REFRESH
+
+--- [data_coverage] Coverage/quality de dados por holding (price, fundamentals, dividends, sector)
+    subjects=33 alerts=0 errors=0 duration=0.19s
+    worst-5:
+      br:IVVB11                                 score= 33  flags=4 | hint: python fetchers/yf_deep_fundamentals.py IVVB11
+      br:LFTB11                                 score= 33  flags=4 | hint: python fetchers/yf_deep_fundamentals.py LFTB11
+      br:KLBN11                                 score= 50  flags=3
+      br:PRIO3                                  score= 50  flags=3
+      us:BRK-B                                  score= 50  flags=3
+
+--- [content_quality] Signal-to-noise de briefings + reports + research memos
+    subjects=18 alerts=0 errors=0 duration=0.19s
+    worst-5:
+      obsidian_vault/briefings/2026-04-23.md    score=100  flags=0
+      obsidian_vault/briefings/metrics_2026-04-24.md  score=100  flags=0
+      reports/3k_usd_decision_2026-04-21.md     score=100  flags=0
+      reports/briefing_2026-04-23.md            score=100  flags=0
+      reports/earnings_surprise_2026-04-23.md   score=100  flags=0
+
+--- [method_discovery] Avalia staleness dos m�todos + prop�e autoresearch queries
+    subjects=8 alerts=0 errors=0 duration=0.04s
+    worst-5:
+      method:piotroski_f                        score= 35  flags=3 | hint: autoresearch: Piotroski F-score predictive power 2020-2025 academic | F-score alternatives for cash-rich tech companies
+      method:altman_z                           score= 35  flags=3 | hint: autoresearch: Altman Z-Score industry-specific adjustments 2024 | Z-score applicability to asset-light business models
+      method:br_banks_threshold                 score= 50  flags=3 | hint: autoresearch: Brazilian bank valuation metrics � P/B thresholds 2025-2026 | ROE 12% vs 15% for Brazilian banks in Selic >11% regime
+      method:drip_damper                        score= 50  flags=3 | hint: autoresearch: Realistic long-term dividend growth rate assumptions 2026 | Gordon growth model assumptions under high inflation regimes
+      method:dividend_safety                    score= 50  flags=3 | hint: autoresearch: Forward dividend safety scoring � best practices Simply Safe Dividends | Payout ratio thresholds by sector 2024
+
+--- [token_economy] Procura patterns de waste de tokens Claude + prop�e in-house alternatives
+    subjects=121 alerts=0 errors=0 duration=1.36s
+    worst-5:
+      agents/_llm.py                            score= 65  flags=2 | hint: TOKEN_OPT: add disk cache for responses (e.g. data/llm_cache/<hash>.json); extract model to config/settings.yaml for easy swap to Haiku
+      agents/analyst_backtest.py                score=100  flags=0
+      agents/data_janitor.py                    score=100  flags=0
+      agents/devils_advocate.py                 score=100  flags=0
+      agents/meta_agent.py                      score=100  flags=0
+
+--- [library_signals] Aplica library/methods/*.yaml a holdings + watchlist; log paper signals
+    subjects=2912 alerts=0 errors=0 duration=19.91s
+    worst-5:
+      dalio_all_weather_tilt:br:BBDC4           score=  0  flags=0
+      dalio_all_weather_tilt:br:BTLG11          score=  0  flags=0
+      dalio_all_weather_tilt:br:ITSA4           score=  0  flags=0
+      dalio_all_weather_tilt:br:KLBN11          score=  0  flags=0
+      dalio_all_weather_tilt:br:PRIO3           score=  0  flags=0
+
+--- [meta] Meta-audit: valida os outros perpetuums (signal-to-noise, useful flags, cost)
+    subjects=7 alerts=0 errors=0 duration=0.05s
+    worst-5:
+      perpetuum:content_quality                 score= 65  flags=2 | hint: CALIBRATE thresholds for perpetuum content_quality
+      perpetuum:token_economy                   score= 80  flags=1
+      perpetuum:data_coverage                   score= 90  flags=1
+      perpetuum:library_signals                 score= 90  flags=1
+      perpetuum:vault                           score= 90  flags=1
+
+=== Summary ===
+Perpetuums run: 8
+Total subjects scored: 3508
+Total decay alerts: 0
+Total errors: 0
+
+
+STDERR:

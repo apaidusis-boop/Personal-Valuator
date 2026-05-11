@@ -1,0 +1,30 @@
+ed. In contrast, the predicted PE ratio for Aon Corporation is:
+At 21.94 times earnings, Aon looks overvalued.
+ILLUSTRATION 21.6: Valuing a Company Based on
+Business Units: JP Morgan Chase in May 2011
+
+JP Morgan Chase is in multiple businesses and breaks down its net profit by business. The following table lists the net profit
+reported in 2010, by business, and applies a PE ratio based on other firms that operate primarily or only in that segment:
+Note that for some segments, such as Treasury and security services, where there are no stand-alone competitors, we have
+used the average beta of firms that offer that product or service. Cumulating the equity values across the businesses, we
+obtain a value of $219.865 billion for the equity in JP Morgan Chase. In May 2011, the company had a market capitalization
+of $168.29 billion, making it undervalued by about 30%.
+Price-to-Book Value Ratios
+The price-to-book value ratio for a financial service firm is the ratio of the price per share to the
+book value of equity per share.
+This definition is identical to the one presented in Chapter 19, and it is determined by the variables
+specified in that chapter—the expected growth rate in earnings per share, the dividend payout ratio,
+the cost of equity, and the return on equity. Other thing remaining equal, higher growth rates in
+earnings, higher payout ratios, lower costs of equity, and higher returns on equity should all result in
+higher price-to-book ratios. Of these four variables, the return on equity has the biggest impact on the
+price-to-book ratio, leading us to identify it as the companion variable for the ratio.
+If anything, the strength of the relationship between price-to-book ratios and returns on equity
+should be stronger for financial service firms than for other firms, because the book value of equity is
+much more likely to track the market value of equity invested in existing assets. Similarly, the return
+on equity is less likely to be affected by accounting decisions. The strength of the relationship
+between price-to-book ratios and returns on equity can be seen when we plot the two on a scatter plot
+for commercial banks in May 2011 the United States in 
+Figure 21.1
+.
+Figure 21.1
+ PBV Ratios and ROE—U.S. Banks in May 2011

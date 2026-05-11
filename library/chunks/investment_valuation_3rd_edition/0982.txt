@@ -1,0 +1,40 @@
+in the estimates into your ranking, how would the
+rankings change?
+c.
+ If you were worried about downside risk (because you are highly levered), how would you
+incorporate that risk into your rankings?
+
+d.
+ Under what conditions might you incorporate the highest value into your ranking process?
+1
+ There is a significant body of literature examining the assumptions that have to hold for this
+folding back process to yield consistent values. In particular, if a decision tree is used to portray
+concurrent risks, the risks should be independent of each other. See Sarin and Wakker (1994).
+2
+ In type 1 diabetes, the pancreas does not produce insulin. The patients include young children and
+the disease is unrelated to diet and activity; they have to receive insulin to survive. In type 2
+diabetes, the pancreas produce insufficient insulin. The disease manifests itself in older people and
+can sometimes be controlled by changing lifestyle and diet.
+3
+ It would be more accurate to consider only the costs of the first two phases as sunk, since by the
+end of phase 2 the firm knows that the drug is effective only against type 2 diabetes. Even if we
+consider only the costs of the first two phases as sunk, it still makes sense on an expected value
+basis to continue to phase 3.
+4
+ If you choose to model such risks in a decision tree, they have to be independent of each other. In
+other words, the sequencing should not matter.
+5
+ The relationship is very strong at Exxon because it has been a large and stable firm for decades. It
+is likely that the relationship between earnings and oil prices will be weaker at smaller, evolving
+oil companies.
+6
+ To compute the return on capital, we aggregated the book value of equity ($126,044 million), the
+book value of debt ($9,566 million) and netted out cash ($33,981 million) from the end of 2007, to
+arrive at an invested capital value of $101,629 million. The return on capital is computed as
+follows: 
+7
+ We used thirty years of historical data on oil prices, adjusted for inflation, to create an empirical
+distribution. We then chose the statistical distribution that seemed to provide the closest fit
+(lognormal) and chose parameter values that yielded numbers closest to the historical data.
+8
+ Hertz (1964) has a classic paper on the use of probabilistic approaches in decision making.

@@ -1,0 +1,62 @@
+JPM Research, aqui onde teremos as nossas researches e comparações nosso potênciais e tudo mais. algo a se considerar a integrar com os prints que eu coloquei antes.
+
+![[Pasted image 20260507215233.png]]
+
+**US OVERVIEW**
+
+Podemos fazer igual para o Brazil. Subdividir FIIs x Stocks (?)
+
+![[Pasted image 20260507215318.png]]
+
+**Events**
+
+![[Pasted image 20260507215438.png]]
+
+**ALERTS**
+
+Aqui tem como colocar alerta para como, isso em si, o sistema já deve monitorar e pensar "possível preço justo de entrada como sugerido, alerta, ou algo assim"
+
+![[Pasted image 20260507215910.png]]
+
+**AQUI ESTÁ TODA PARTE DO FOOL.COM E O POTENCIAL DE IDEIAS**
+
+**Main Dashboard**
+
+![[Pasted image 20260507220518.png]]
+
+**Reccomendations**
+
+![[Pasted image 20260507220555.png]]
+
+Agora todo o code de um recomendation e como é estruturado
+
+title: "Stock Advisor | The Motley Fool"
+source: "https://www.fool.com/premium/18/coverage/updates/2026/05/07/buy-krystal-biotech-a-gene-therapy-pioneer"
+
+---
+**Price at publication: $281.40**  
+as of 12:48 p.m. on May 7
+
+## Foolish Thesis
+
+- Krystal Biotech has developed a differentiated method for gene therapy that could transform the emerging field of medicine.
+- The company is achieving strong profitability with its one commercialized treatment, Vyjuvek.
+- Co-founders Krish and Suma Krishnan have decades of experience in developing and commercializing novel treatments.
+- Despite early successes, there is still plenty of growth remaining at this emerging biotech.
+
+#### Analyst Projections
+
+**Aggressive**  
+Investing Type
+
+**15+%**  
+Est. annualized return
+
+**\-40%**  
+Est. max drawdown
+
+These estimates reflect the Hidden Gems team’s opinion at the time of this recommendation.
+
+***Prefer a video?*** This recommendation is accompanied by a live chat in which the team talks more about the company and takes questions. Click [here](https://www.fool.com/premium/18/coverage/updates/2026/05/07/our-next-recommendation-is) to watch!
+
+## What Krystal Biotech Does

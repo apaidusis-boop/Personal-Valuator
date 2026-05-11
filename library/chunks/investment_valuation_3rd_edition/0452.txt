@@ -1,0 +1,38 @@
+In the adjusted present value (APV) approach, we begin with the value of the firm without debt. As
+we add debt to the firm, we consider the net effect on value by considering both the benefits and the
+
+costs of borrowing. The value of the levered firm can then be estimated at different levels of the debt,
+and the debt level that maximizes firm value is the optimal debt ratio.
+Steps in the Adjusted Present Value Approach
+The unlevered firm value is not a function of expected leverage and can be estimated as described in
+the earlier section—by discounting the free cash flows to the firm at the unlevered cost of equity. In
+fact, if you do not want to estimate this value and are willing to assume that the current market value
+of the firm is correct, you could back out the unlevered firm value by subtracting out the tax benefits
+and adding back the expected bankruptcy cost from the existing debt.
+The only components that change as a firm changes its leverage are the expected tax benefits and the
+expected bankruptcy costs. To obtain these values as you change leverage, you would go through the
+following five steps:
+1.
+
+Estimate the dollar debt outstanding at each debt ratio.
+ This process mirrors what was done
+in the cost of capital approach. Keeping firm value fixed, consider how much debt the firm will
+have at 20 percent debt, 30 percent debt, and so on.
+2.
+
+Estimate the tax benefits of debt by multiplying the dollar debt by the tax rate.
+ This
+essentially assumes that the debt is permanent and that the tax benefits will continue in perpetuity.
+3.
+
+Estimate the rating, interest rate, and interest expense at each debt ratio.
+ This process again
+replicates what was done in the cost of capital approach.
+4.
+
+Use the rating to estimate a probability of default.
+ Note that 
+Table 15.2
+ provides these
+probabilities for each rating.
+5.

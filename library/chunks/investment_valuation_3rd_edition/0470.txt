@@ -1,0 +1,40 @@
+elivers returns that are much lower than expected should trade at a discount on the value of the
+marketable securities held by the fund. The stockholders in this fund would clearly be better off if it
+
+were liquidated, but that may not be a viable option.
+ILLUSTRATION 16.5: 
+Valuing a Closed-End Fund
+The Rising Asia fund is a closed-end fund with investments in traded Asian stocks, valued at $4 billion at today’s market
+prices. The fund has earned a return of 13% over the past 10 years, but based on the riskiness of its investments and the
+performance of the Asian market over the period, it should have earned 15%. Looking forward, your expected return for the
+Asian market for the future is 12%, but you anticipate that the Rising Asia fund will continue to underperform the market by
+2%.
+To estimate the discount you would expect to see on the fund, let us begin by assuming that the fund will continue in
+perpetuity earning 2% less than the return on the market index. The discount would then be:
+On a percent basis, the discount represents 16.67% of the market value of the investments.
+If you assume that the fund will either be liquidated or begin earning the expected return at a point in time in the future—say
+10 years from now—the expected discount will become smaller.
+Holdings in Other Firms
+In this category, we consider a broader category of nonoperating assets, where we look at holdings in
+other companies, public as well as private. We begin by looking at the differences in accounting
+treatment of different holdings and how this treatment can affect the way they are reported in financial
+statements.
+Accounting Treatment
+The way in which these assets are valued depends on the way the investment is categorized and the
+motive behind the investment. In general, an investment in the securities of another firm can be
+categorized as a minority passive investment. a minority active investment, or a majority active
+investment, and the accounting rules vary depending on the categorization.
+Minority Passive Investments
+If the securities or assets owned in another firm represent less than 20 percent of the overall
+ownership of that firm, an investment is treated as a minority passive investment. These investments
+have an acquisition value, which represents what the firm originally paid for the securities, and often
+a market value. Accounting principles require that these assets be subcategorized into one of three
+groups—investments that will be held to maturity, investments that are available for sale, and trading
+investments. The valuation principles vary for each.
+For investments that will be held to maturity, the valuation is at historical cost or book
+value, and interest or dividends from this investment are shown in the income statement.
+For investments that are available for sale, the valuation is at market value, but the
+unrealized gains or losses are shown as part of the equity in the balance sheet and not in the
+income statement. Thus, unrealized losses reduce the book value of the equity in the firm,
+and unrealized gains increase the book value of equity.
+For trading investments, the valuation is at market value, and the unrealized gains and losses

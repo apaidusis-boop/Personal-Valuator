@@ -1,0 +1,891 @@
+macro_themes:
+  selic_alta_br:
+    name: Ciclo Selic alta (BR) — 14,75% a.a.
+    thesis: Juros reais elevados sustentam renda fixa e FII papel; pressionam equities
+      sensíveis a juros (REITs, FII tijolo, high-growth). Enquanto a Selic se mantiver
+      > 12%, o prémio de risco de equity exige DY mais altos.
+    drivers_positivos:
+    - BCB mantém Selic > 12% (forward expectations)
+    - IPCA comportado permite real rate alto sustentado
+    drivers_negativos:
+    - Primeiro corte de Selic sinaliza fim do ciclo
+    - Expectativa de desinflação acelerada
+    affects_positive:
+    - VGIR11
+    - RBRX11
+    - KNCR11
+    - MCCI11
+    - MCRF11
+    - LFTB11
+    - BBDC4
+    affects_negative:
+    - XPML11
+    - BTLG11
+    - PVBI11
+    - PRIO3
+    - VALE3
+    last_review: 2026-04-17
+  ai_compute_cycle:
+    name: Ciclo AI compute / GenAI adoption
+    thesis: Hyperscalers (MS, GOOGL, META, AMZN) aumentam capex em AI infra. Monopólio
+      de foundries (TSM) + software AI-native (PLTR) capturam valor. Legacy services
+      (consulting, adtech) são squeezed por produtividade AI.
+    drivers_positivos:
+    - Capex hyperscale > $300B/ano
+    - TSMC revenue growth > 20% YoY
+    drivers_negativos:
+    - Sinal de AI capex peak / ROI questionado
+    - Regulação antitrust material em AI
+    affects_positive:
+    - TSM
+    - MSFT
+    - PLTR
+    - PLD
+    affects_negative:
+    - ACN
+    - XP
+    - TTD
+    last_review: 2026-04-17
+  fed_higher_for_longer:
+    name: Fed higher-for-longer
+    thesis: Terminal rate US > 4% sustentado. Favorece NIMs de bancos; pressiona REITs
+      via competição com Treasuries; torna growth compounders mais caros em DCF.
+    drivers_positivos:
+    - Core PCE > 2.5% persistente
+    - Mercado laboral forte
+    drivers_negativos:
+    - Inflação convergir rápido para 2%
+    - Recession signals (yield curve, PMI)
+    affects_positive:
+    - JPM
+    - GS
+    - TFC
+    - BLK
+    affects_negative:
+    - O
+    - PLD
+    - TSLA
+    last_review: 2026-04-17
+  china_reopening:
+    name: China demand — commodities cycle
+    thesis: Fluxo de estímulo fiscal chinês sustenta preços de minério, petróleo e
+      insumos. Afecta commodity exporters BR.
+    drivers_positivos:
+    - Iron ore > $100/t
+    - China PMI > 50 sustentado
+    drivers_negativos:
+    - Propriedade chinesa em crise prolongada
+    - Política EUA-China escala tensão
+    affects_positive:
+    - VALE3
+    - PRIO3
+    affects_negative: []
+    last_review: 2026-04-17
+  return_to_office:
+    name: Return-to-office vs trabalho híbrido
+    thesis: Corporativo BR ainda com vacância elevada pós-2020. Re-locação incremental
+      mas heterogénea por região (Faria Lima recupera mais rápido que Berrini/Itaim
+      fim). Trabalho híbrido reduz demanda estrutural ~15-20% vs pré-COVID.
+    drivers_positivos:
+    - Return-to-office mandates em empresas grandes
+    - Novas locações Faria Lima anunciadas
+    drivers_negativos:
+    - Novas vacâncias em edifícios AAA
+    - Redução headcount tech/startup
+    affects_positive:
+    - PVBI11
+    affects_negative: []
+    last_review: 2026-04-17
+sectors:
+  br.oil_gas:
+    name: Petróleo & Gás BR
+    thesis: Pricing cíclico dependente de Brent; BR marginais com breakeven atractivo
+      mas expostos a volatilidade. PRIO como operador junior com campos de baixo custo;
+      PETR4 com política de dividendos ciclical.
+    macro_exposure:
+    - china_reopening
+    drivers:
+    - Brent sustentado > $75
+    - Produção de poços novos ramping
+    - Política de dividendos PETR4 (rebalanceamento)
+    risks:
+    - Barril abaixo de $65 comprime margens de junior players
+    - Eventos ESG / ambientais material
+    - Mudança de política royalties
+    tickers:
+    - PRIO3
+    - PETR4
+    last_review: 2026-04-17
+  br.banks:
+    name: Bancos BR
+    thesis: Ciclo de crédito em normalização pós-2022. NIM beneficia de Selic alta.
+      BBDC em reorganização de rentabilidade; ITUB líder de ROE. Risco de inadimplência
+      elevada em SMB.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - ROE do sector normalizando para 18-20%
+    - Inadimplência SMB normalizando
+    - Spread com Selic alta favorece funding
+    risks:
+    - Novo ciclo de alta de PDD / inadimplência
+    - Pressão regulatória em taxa de juros
+    tickers:
+    - BBDC4
+    - ITUB4
+    - BBAS3
+    last_review: 2026-04-17
+  br.mining:
+    name: Mineração BR (Iron Ore)
+    thesis: Vale dominante em iron ore premium. Exposição directa a demanda China.
+      ESG/ambiental como wildcard pós-Brumadinho.
+    macro_exposure:
+    - china_reopening
+    drivers:
+    - Iron ore price > $100/t
+    - Recuperação China propriedade / steel demand
+    risks:
+    - Evento ESG material (Brumadinho 2.0)
+    - Crise prolongada propriedade China
+    tickers:
+    - VALE3
+    last_review: 2026-04-17
+  br.holding:
+    name: Holdings de conglomerado BR
+    thesis: Holdings como ITSA4 oferecem exposição diversificada a banco + industrial
+      + utilities + agro, com desconto estrutural vs NAV.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - Apreciação das investidas (Itaú, Alpargatas, Dexco, Aegea)
+    - Distribuição de dividendos recebidos
+    risks:
+    - Deterioração material de investida dominante (Itaú)
+    - Reorganização societária adversa
+    tickers:
+    - ITSA4
+    last_review: 2026-04-17
+  br.fii_papel:
+    name: FIIs de Papel (CRI)
+    thesis: DY muito elevado sustentado pela Selic alta. Portfolio de CRIs pulverizado.
+      Compete com CDI directamente mas adiciona spread de risco de crédito. Vulnerável
+      a corte de Selic mas resiliente a vacância física.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - Selic sustentada > 12% mantém DY alto
+    - Default rate de CRIs < 2%
+    risks:
+    - Corte agressivo de Selic descontecta yield
+    - Default material de CRI específico no portfolio
+    - Crise de liquidez no mercado secundário
+    tickers:
+    - VGIR11
+    - RBRX11
+    - KNCR11
+    - MCCI11
+    - MCRF11
+    - RECR11
+    - VRTA11
+    - RBRY11
+    last_review: 2026-04-17
+  br.fii_shoppings:
+    name: FIIs Tijolo — Shoppings
+    thesis: Recuperação pós-COVID consolidada. Mall traffic estável. Indexação IPCA
+      protege em cenários inflacionários mas sofre com Selic alta na comparação com
+      renda fixa.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - Vendas same-store growth > IPCA
+    - Ocupação > 95%
+    - Indexação aluguel IPCA
+    risks:
+    - E-commerce continuar a capturar share
+    - Selic alta mantém pressão de desconto vs CDI
+    tickers:
+    - XPML11
+    - VISC11
+    - PMLL11
+    last_review: 2026-04-17
+  br.fii_logistica:
+    name: FIIs Tijolo — Logística
+    thesis: Demanda estrutural de e-commerce + nearshoring. Rent escalation indexed
+      IPCA. Sector relativamente defensivo.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - E-commerce share growth
+    - Ocupação > 97%
+    - Nearshoring capex dos operadores
+    risks:
+    - Oversupply de novas GLAs
+    - 'Selic alta pressiona valuations (ex: P/VP 1.01 BTLG)'
+    tickers:
+    - BTLG11
+    - HGLG11
+    - XPLG11
+    - BRCO11
+    - GARE11
+    last_review: 2026-04-17
+  br.fii_corporativo:
+    name: FIIs Tijolo — Escritórios
+    thesis: Turnaround de vacância. Retorno ao escritório incremental mas heterogéneo.
+      Faria Lima recupera mais rápido que periferia. Tese dependente de re-locação
+      de imóveis vagos específicos.
+    macro_exposure:
+    - selic_alta_br
+    - return_to_office
+    drivers:
+    - Vacância caindo em premium Faria Lima
+    - Novas contratações ou ampliações anunciadas
+    - Mandates de return-to-office (corporates grandes)
+    risks:
+    - Trabalho híbrido permanente reduz demanda estrutural
+    - Novas vacâncias em outros imóveis do portfolio
+    - Dividendo cortado para preservar caixa
+    tickers:
+    - PVBI11
+    - KNRI11
+    last_review: 2026-04-17
+  br.fii_hibrido:
+    name: FIIs Híbridos (tijolo + papel)
+    thesis: Diversificação entre tijolo físico e CRI reduz volatilidade. Menor DY
+      que FII papel puro mas mais resiliente a ciclos.
+    macro_exposure:
+    - selic_alta_br
+    drivers:
+    - DY 12m > 10%
+    - Desconto P/VP > 10% (RBRX11 em 0.87)
+    risks:
+    - Mistura exposta a ambos os ciclos (tijolo + crédito)
+    tickers:
+    - RBRX11
+    - TRXF11
+    last_review: 2026-04-17
+  us.banks:
+    name: Banking US (bulge bracket + regionais)
+    thesis: Higher-for-longer supportive do NIM. JPM dominante em scale. GS com franchise
+      de IB premium. TFC regional exposto a CRE.
+    macro_exposure:
+    - fed_higher_for_longer
+    drivers:
+    - Fed funds sustained > 4%
+    - NIM expansion nos incumbents
+    - M&A pipeline em IB (GS)
+    risks:
+    - Regional banking crisis redux (SVB-style)
+    - CRE write-downs material
+    - Credit card delinquencies acima do ciclo
+    tickers:
+    - JPM
+    - GS
+    - TFC
+    - BLK
+    - BN
+    last_review: 2026-04-17
+  us.reits:
+    name: US REITs
+    thesis: Rate-sensitive. AFFO yield competitivo quando Treasuries comprimem. O
+      como net-lease mensal; PLD como logistics premium.
+    macro_exposure:
+    - fed_higher_for_longer
+    drivers:
+    - Fed cut expectations aumentam
+    - AFFO per share growth > 5%
+    - 'Leasing spreads positivos (ex: PLD)'
+    risks:
+    - Higher-for-longer mantém competição com Treasuries
+    - CRE cycle downturn
+    - Tenant bankruptcies em portfolio
+    tickers:
+    - O
+    - PLD
+    last_review: 2026-04-17
+  us.consumer_staples:
+    name: Consumer Staples US
+    thesis: Defensivo com pricing power. Marcas globais. Exposure a USD strength afecta
+      translated earnings. GLP-1 wildcard para KO (volume risk em beverages).
+    macro_exposure: []
+    drivers:
+    - Price/volume growth positivo
+    - Emerging markets recovery
+    risks:
+    - GLP-1 reduz consumo de beverages (KO risk)
+    - Store brand share growth
+    - USD strength pressiona translated revenue
+    tickers:
+    - PG
+    - KO
+    - PEP
+    last_review: 2026-04-17
+  us.consumer_disc:
+    name: Consumer Discretionary US
+    thesis: HD é housing-linked (repair/remodel); TSLA speculative EV bet. Ciclicidade
+      alta.
+    macro_exposure:
+    - fed_higher_for_longer
+    drivers:
+    - Housing market recovery (HD)
+    - EV adoption acceleration (TSLA)
+    risks:
+    - Recessão corta discricionário
+    - Housing downturn prolongado
+    tickers:
+    - HD
+    - TSLA
+    - MCD
+    last_review: 2026-04-17
+  us.healthcare:
+    name: Healthcare US
+    thesis: Defensivo + inovação pharma. JNJ diversificado post-Kenvue. ABBV exposta
+      a Humira cliff mas pipeline Skyrizi/Rinvoq sólido.
+    macro_exposure: []
+    drivers:
+    - Demographics (aging population)
+    - Pipeline approvals
+    risks:
+    - Litigation reserve increases (JNJ talc, opioid tail)
+    - GLP-1 disruption para non-metabolic indications
+    - Drug pricing regulation
+    tickers:
+    - JNJ
+    - ABBV
+    last_review: 2026-04-17
+  us.tech_ai:
+    name: Tech / AI Infrastructure
+    thesis: AI capex cycle em curso. TSM monopolista em bleeding-edge foundry. MSFT
+      ganha com Copilot + Azure. PLTR é software AI-native speculative.
+    macro_exposure:
+    - ai_compute_cycle
+    drivers:
+    - Hyperscale capex > $300B/ano
+    - TSMC revenue > 20% YoY
+    risks:
+    - AI capex peak sinalizado
+    - China-Taiwan geopolitics (TSM)
+    - Antitrust em big tech
+    tickers:
+    - TSM
+    - MSFT
+    - PLTR
+    - AAPL
+    last_review: 2026-04-17
+  us.tech_services:
+    name: Tech / IT Services
+    thesis: Big consulting (ACN) em contraction por AI disruption. Generative AI commoditiza
+      trabalho de alta margem tradicional. Reorganização em curso.
+    macro_exposure:
+    - ai_compute_cycle
+    drivers:
+    - AI-native service pricing holds
+    - Recovery de IT spending enterprise
+    risks:
+    - AI disruption acelera — margens cedem
+    - Headcount cuts material
+    tickers:
+    - ACN
+    last_review: 2026-04-17
+  us.energy_shipping:
+    name: Energy Shipping (Tankers)
+    thesis: Cíclico no TOPO — tanker rates perto do pico. Fleet ageing mas new builds
+      delivery em 2026-2027 pressionarão rates.
+    macro_exposure: []
+    drivers:
+    - OPEC+ cut discipline
+    - Fleet supply ageing
+    risks:
+    - Rate normalization (mean reversion)
+    - New builds delivery acelera
+    - Dividend cut quando rates caem
+    tickers:
+    - TEN
+    last_review: 2026-04-17
+  us.fintech_latam:
+    name: Fintech LatAm (US-listed)
+    thesis: Growth puro — NU disruptor BR banking, XP plataforma BR em US. Zero a
+      baixo DY, tese é apreciação. Não DRIP.
+    macro_exposure: []
+    drivers:
+    - Customer acquisition acelerada
+    - Monetization unit economics positivos
+    risks:
+    - Regulação BR em fintech
+    - Competição de incumbents reaccionando
+    tickers:
+    - NU
+    - XP
+    last_review: 2026-04-17
+  us.compounder:
+    name: Compounders (non-dividend por design)
+    thesis: Berkshire reinveste capital internamente. Track record Buffett documented
+      20%+ CAGR histórico.
+    macro_exposure: []
+    drivers:
+    - Buffett/Munger sucessão organizada
+    - Book value per share growth
+    risks:
+    - Morte/retirada de Buffett sem sucessão clara
+    - Overvaluation relative to book
+    tickers:
+    - BRK-B
+    last_review: 2026-04-17
+br:
+  ITSA4:
+    intent: DRIP
+    thesis: Holding company exemplar — exposição diversificada via Itaú/Alpargatas/Dexco/Aegea,
+      DY 8% e streak 20a+.
+    why_hold: Cumpre 4/5 critérios Graham adaptados (net_debt_ebitda n/a por estrutura
+      holding). Score 1.00 no screen BR.
+    triggers:
+    - Dividendo crescer > 15%/ano indica reset sustentável, não one-off
+    - Política de payout anunciada pela administração
+    red_flags:
+    - Corte de dividendo via deterioração de Itaú
+    - Reorganização societária que altere a estrutura
+    last_review: 2026-04-17
+    ri_url: https://www.itausa.com.br/ri
+    source:
+    - BTG-Div
+    - BTG-EqBR
+    - BTG-Val
+    - Suno-Div
+    - Suno-Tese
+    sector: br.holding
+    macro:
+    - selic_alta_br
+  BBDC4:
+    intent: DRIP
+    thesis: Bradesco em ciclo de recuperação de rentabilidade. DY 7.2%, streak 20a,
+      P/B ~0.96 (desconto).
+    why_hold: Score 0.80 screen banco BR. Recuperação de ROE em curso.
+    triggers:
+    - ROE normalizar para 15%+
+    - Fim do ciclo de reorganização anunciado
+    red_flags:
+    - Aumento de provisões materiais (inadimplência)
+    - Corte do dividendo trimestral
+    last_review: 2026-04-17
+    ri_url: https://ri.bradesco.com.br
+    source:
+    - BTG-EqBR
+    sector: br.banks
+    macro:
+    - selic_alta_br
+  VALE3:
+    intent: DRIP
+    thesis: Exposição à commodity mineral-iron com DY 6%+. Streak 19a.
+    why_hold: Ciclo commodity + yield, score 0.60.
+    triggers:
+    - Preço minério manter-se acima US$ 100/t
+    - Renovação contratos China
+    red_flags:
+    - Mudança abrupta política royalty/taxa
+    - ESG/ambiental event (Brumadinho 2.0)
+    last_review: 2026-04-17
+    ri_url: http://www.vale.com/ri
+    source:
+    - XP
+    - BTG-Div
+    - BTG-EqBR
+    - Suno-Div
+    sector: br.mining
+    macro:
+    - china_reopening
+  PRIO3:
+    intent: WIND_DOWN
+    thesis: Commodity growth — user está a desfazer-se progressivamente. Não é DRIP
+      nem core.
+    why_hold: Posição legada em redução.
+    triggers:
+    - Rally de preço para +$70 (janela de saída oportunista)
+    - Barril acima US$ 90 por 30d (topo do ciclo)
+    red_flags:
+    - Fato relevante operacional adverso — acidente, acordo mal recebido
+    target_weight: 0
+    last_review: 2026-04-17
+    ri_url: https://ri.prio3.com.br
+    source:
+    - BTG-Val
+    - Suno-Acoes
+    sector: br.oil_gas
+    macro:
+    - china_reopening
+  XPML11:
+    intent: DRIP
+    thesis: Shopping aristocrat — DY 9.9%, streak longo, P/VP 0.99.
+    why_hold: FII de referência em shoppings, score 0.80.
+    triggers: []
+    red_flags:
+    - Queda material de NOI portfolio
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    - Suno-FII
+    sector: br.fii_shoppings
+    macro:
+    - selic_alta_br
+  RBRX11:
+    intent: DRIP
+    thesis: FII híbrido com P/VP 0.87 (desconto), DY 11.6%, score 1.00.
+    why_hold: Passa todos os critérios FII. Portfolio diversificado.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: br.fii_hibrido
+    macro:
+    - selic_alta_br
+  BTLG11:
+    intent: DRIP
+    thesis: FII logística de qualidade (BTG). DY 8.3%, streak positivo.
+    why_hold: Score 0.80, P/VP ~1.01.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    - Suno-FII
+    sector: br.fii_logistica
+    macro:
+    - selic_alta_br
+  VGIR11:
+    intent: DRIP
+    thesis: FII de papel (CRI) — DY 15.7% é resultado directo de Selic alta. Carry
+      yield enquanto juros permanecerem elevados.
+    why_hold: Score 1.00, yield sazonal ao ciclo de juros.
+    triggers:
+    - Corte de Selic — reverte vantagem vs tijolo
+    red_flags:
+    - Default de CRI material (watch credit quality)
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: br.fii_papel
+    macro:
+    - selic_alta_br
+  PVBI11:
+    intent: TURNAROUND
+    thesis: VBI Prime Properties em janela de recuperação. Prédio Faria Lima específico
+      desocupado; administração cortou dividendos (R$ 0.50 → R$ 0.45, Jan/2026 skipped)
+      para gestão de caixa. P/VP 0.71 (desconto forte). Quando imóvel for re-locado,
+      espera-se normalização.
+    why_hold: Contrarian entry em FII corporativo de qualidade. Tese temporária, não
+      estrutural.
+    triggers:
+    - Fato relevante anunciando novo inquilino (CVM IPE, cvm_name VBI)
+    - DY voltar para ≥ 8% (histórico do FII)
+    - P/VP convergir para ≥ 0.90
+    - Distribution streak retomar mensal ininterrupto
+    red_flags:
+    - Corte adicional do dividendo base
+    - Anúncio de venda do imóvel abaixo do valor patrimonial
+    - Outra vacância material noutro imóvel do portfólio
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    - Suno-FII
+    sector: br.fii_corporativo
+    macro:
+    - selic_alta_br
+    - return_to_office
+  LFTB11:
+    intent: ETF
+    thesis: iShares Tesouro Selic — cash-equivalent com yield Selic. Âncora de liquidez.
+    why_hold: Dry powder disponível ao mesmo tempo rendendo ~Selic.
+    triggers: []
+    red_flags:
+    - Corte agressivo de Selic (reduz atractividade)
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    macro:
+    - selic_alta_br
+  IVVB11:
+    intent: ETF
+    thesis: iShares S&P 500 (BRL) — exposure US via account BR. Diversificação cambial
+      + geografia.
+    why_hold: Posição pequena (R$ 4.4k) como âncora US dentro da carteira BR.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+us:
+  O:
+    intent: DRIP
+    thesis: Realty Income — REIT mensal aristocrat 33a, DY 5%. Único holding US com
+      score 0.83 (quase passa screen).
+    why_hold: Âncora de income mensal US.
+    triggers:
+    - Acquisition news relevante (8-K 1.01/2.01)
+    - Guidance FFO acima consensus
+    red_flags:
+    - AFFO coverage cair abaixo 1.0
+    - Deterioração tenant mix (tenantes grandes em bankruptcy)
+    last_review: 2026-04-17
+    ri_url: https://www.realtyincome.com/investors
+    source:
+    - user_pick
+    sector: us.reits
+    macro:
+    - fed_higher_for_longer
+  JNJ:
+    intent: DRIP
+    thesis: Aristocrat 65a, healthcare blue chip. Compra recente (Fev/2026).
+    why_hold: Core defensivo. Kenvue spin-off absorvido sem disrupção de dividendo.
+    triggers: []
+    red_flags:
+    - Guidance cut material
+    - Litigation reserve aumento > 5B
+    last_review: 2026-04-17
+    ri_url: https://www.jnj.com/ir
+    source:
+    - user_pick
+    sector: us.healthcare
+  PG:
+    intent: DRIP
+    thesis: Staples aristocrat 65a. Defensivo clássico. Earnings 23/Abr próximo.
+    why_hold: Rocha defensiva.
+    triggers: []
+    red_flags:
+    - Margin compression trimestral material
+    last_review: 2026-04-17
+    ri_url: https://www.pginvestor.com
+    source:
+    - user_pick
+    sector: us.consumer_staples
+  KO:
+    intent: DRIP
+    thesis: Staples aristocrat 65a. Compra recente.
+    why_hold: Buffett top holding; marca global defensiva.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: https://investors.coca-colacompany.com
+    source:
+    - user_pick
+    sector: us.consumer_staples
+  JPM:
+    intent: DRIP
+    thesis: Banco premium US, aristocrat 43a, Quality Score 97 (top da carteira).
+    why_hold: Compounder banking com payout 28% (muita folga).
+    triggers: []
+    red_flags:
+    - Credit loss provisions aumento
+    last_review: 2026-04-17
+    ri_url: https://www.jpmorganchase.com/ir
+    source:
+    - user_pick
+    sector: us.banks
+    macro:
+    - fed_higher_for_longer
+  GS:
+    intent: DRIP
+    thesis: IB premium, aristocrat 28a, growth 21% post-reorganização 2020.
+    why_hold: Chowder 22.9, capacidade massiva de devolver capital.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: https://www.goldmansachs.com/investor-relations
+    source:
+    - user_pick
+    sector: us.banks
+    macro:
+    - fed_higher_for_longer
+  HD:
+    intent: DRIP
+    thesis: Home Depot aristocrat 40a, consumer disc. 2ª melhor eficiência DRIP 15y
+      (2.58x $1k).
+    why_hold: Compound king — growth 8.7% sustenta yield-on-cost ascendente.
+    triggers: []
+    red_flags:
+    - Housing market collapse material
+    last_review: 2026-04-17
+    ri_url: https://ir.homedepot.com
+    source:
+    - user_pick
+    sector: us.consumer_disc
+    macro:
+    - fed_higher_for_longer
+  PLD:
+    intent: DRIP
+    thesis: Prologis — logistics REIT aristocrat 30a, growth 12.5%.
+    why_hold: High-quality logistics exposure, complementa O (diversified REIT).
+    triggers: []
+    red_flags:
+    - AFFO vs dividend cover cair abaixo 1.1
+    last_review: 2026-04-17
+    ri_url: https://www.prologis.com/investors
+    source:
+    - user_pick
+    sector: us.reits
+    macro:
+    - fed_higher_for_longer
+    - ai_compute_cycle
+  TFC:
+    intent: DRIP
+    thesis: Truist regional banking aristocrat 40a, DY 4.21% (alto para banco US).
+    why_hold: Yield-only (growth apenas 2.8%), mas streak longo + payout 54%.
+    triggers: []
+    red_flags:
+    - Regional banking crisis repeat
+    last_review: 2026-04-17
+    ri_url: https://ir.truist.com
+    source:
+    - user_pick
+    sector: us.banks
+    macro:
+    - fed_higher_for_longer
+  BN:
+    intent: DRIP
+    thesis: Brookfield Corp (pós-split BAM Dez/2022). Aristocrat 40a, growth 13.4%
+      ajustado post-split. User clarificou tese de dividendos.
+    why_hold: DRIP candidate recuperado — Quality Score 94 com lens pós-split.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: https://bn.brookfield.com
+    source:
+    - user_pick
+    sector: us.banks
+    macro:
+    - fed_higher_for_longer
+  BLK:
+    intent: DRIP
+    thesis: BlackRock asset manager premium, streak 24a, growth 6%.
+    why_hold: Exposure a rei dos gestores de ativos.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    ri_url: https://ir.blackrock.com
+    source:
+    - user_pick
+    sector: us.banks
+    macro:
+    - fed_higher_for_longer
+  ACN:
+    intent: DRIP
+    thesis: Accenture em correcção de ciclo (AI disruption). Aristocrat 22a, P&L -35%
+      actual. Tese intacta mas momentum adverso.
+    why_hold: Quality 68.8, score 0.80, fundamentals sólidos (ROE 24%, payout 25%).
+    triggers:
+    - Stabilization earnings sem 8-K 5.02 novos
+    - Preço reagir +10% do fundo ($179)
+    red_flags:
+    - Outro executive exit (2ª onda)
+    - Guidance cut trimestral
+    last_review: 2026-04-17
+    ri_url: https://investor.accenture.com
+    source:
+    - user_pick
+    sector: us.tech_services
+    macro:
+    - ai_compute_cycle
+  BRK-B:
+    intent: COMPOUNDER
+    thesis: Berkshire não paga dividendo por design — Buffett reinveste melhor. Compounder
+      de capital.
+    why_hold: Não é DRIP; é stake em compounder com decisões de alocação de Buffett.
+    triggers: []
+    red_flags:
+    - Morte/retirada de Buffett sem sucessão clara
+    last_review: 2026-04-17
+    ri_url: https://www.berkshirehathaway.com
+    source:
+    - user_pick
+    sector: us.compounder
+  TSLA:
+    intent: GROWTH
+    thesis: Growth speculative — AV/energy transition bet.
+    why_hold: 'User explicitou: GROWTH speculative.'
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.consumer_disc
+    macro:
+    - fed_higher_for_longer
+  TSM:
+    intent: GROWTH
+    thesis: Taiwan Semi — AI compute monopoly. Entry 2023 (+255% P&L).
+    why_hold: Growth compounder com dividendo acessório (DY 0.93%). Não DRIP pure.
+    triggers: []
+    red_flags:
+    - Escalada geopolítica Taiwan (força majeure)
+    last_review: 2026-04-17
+    ri_url: https://investor.tsmc.com
+    source:
+    - user_pick
+    sector: us.tech_ai
+    macro:
+    - ai_compute_cycle
+  AAPL:
+    intent: GROWTH
+    thesis: Growth puro. DY 0.39% é token.
+    why_hold: Exposure a ecosystem Apple; não DRIP.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.tech_ai
+    macro:
+    - ai_compute_cycle
+  NU:
+    intent: GROWTH
+    thesis: Nubank growth fintech BR-em-US. Zero dividendos.
+    why_hold: Exposure a fintech BR; não DRIP.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.fintech_latam
+  PLTR:
+    intent: GROWTH
+    thesis: Palantir — speculative data/AI growth.
+    why_hold: Speculative position.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.tech_ai
+    macro:
+    - ai_compute_cycle
+  XP:
+    intent: GROWTH
+    thesis: XP Inc — fintech BR expansion em US. IPO 2019, não DRIP.
+    why_hold: Exposure a crescimento XP Group.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.fintech_latam
+  TEN:
+    intent: GROWTH
+    thesis: Tsakos Energy shipping — cíclico no TOPO do ciclo. Growth 31.6% não sustentável;
+      é pico.
+    why_hold: User explicitou GROWTH com awareness de topo-de-ciclo.
+    triggers:
+    - 'Cycle rollover: tanker rates caindo, novas ordens a subir'
+    red_flags:
+    - Dividend cut (TEN corta quando rates caem)
+    - Preço abaixo de 52w-MA por 2 meses consecutivos
+    last_review: 2026-04-17
+    source:
+    - user_pick
+    sector: us.energy_shipping
+  GREK:
+    intent: ETF
+    thesis: iShares MSCI Greece ETF — tactical exposure a equity grega.
+    why_hold: Diversification play.
+    triggers: []
+    red_flags: []
+    last_review: 2026-04-17
+    source:
+    - user_pick

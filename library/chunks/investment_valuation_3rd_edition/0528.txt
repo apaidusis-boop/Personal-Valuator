@@ -1,0 +1,24 @@
+earnings growth estimates for all the firms in the group. For instance, many data services provide
+consensus estimates from analysts of earnings per share growth over the next five years for most U.S.
+
+firms. Alternatively, you could estimate expected growth rates for each company in the group.
+Cross-Sectional Distribution of PEG Ratios
+Now that the PEG ratio has been defined, the cross-sectional distribution of PEG ratios across all
+U.S. firms is examined in 
+Figure 18.6
+. In estimating these PEG ratios, the estimates of growth in
+earnings per share over the next five years are used in conjunction with the current PEs. The
+distribution of PEG ratios for the market closely resembles the distribution of PE ratios, with one
+important caveat. The PEG ratio can be computed only for those firms where there is an expected
+growth rate in earnings. Since this growth rate is usually provided by analysts, any firm that is not
+tracked by analysts will not have a PEG ratio (at least in our sample). Since smaller, younger firms
+tend not to be followed by analysts, this can create a subtle selection bias in the sample.
+Figure 18.6
+ PEG Ratios for U.S. Firms—January 2011
+PEG ratios are most widely used in analyzing technology firms. 
+Figure 18.7
+ contrasts the
+distribution of PEG ratios for technology stocks to the rest of the market, using analyst estimates of
+growth again to arrive at the PEG ratios.
+Figure 18.7
+ PEG Ratios for U.S. Firms in January 2011: Market versus Technology

@@ -1,0 +1,22 @@
+ed PE ratio
+of:
+Based on the market regression, you would expect P&G to be trading at 22.50 times earnings. At its actual PE ratio of 18,
+the stock looks undervalued, relative to the market.
+Mreg.htm:
+
+This dataset on the Web reports the results of the latest regression of PE ratios against
+fundamentals, using all firms in the market.
+NORMALIZING EARNINGS FOR PE RATIOS
+The dependence of PE ratios on current earnings makes them particularly vulnerable to the year-to-year swings that often
+characterize reported earnings. In making comparisons, therefore, it may make much more sense to use normalized
+earnings. The process used to normalize earnings varies widely, but the most common approach is a simple averaging of
+earnings across time. For a cyclical firm, for instance, you would average the earnings per share across a cycle. In doing so,
+you should adjust for inflation. If you do decide to normalize earnings for the firm you are valuing, consistency demands that
+you normalize them for the comparable firms in the sample as well.
+THE PEG RATIO
+Portfolio managers and analysts sometimes compare PE ratios to the expected growth rate to identify
+undervalued and overvalued stocks. In the simplest form of this approach, firms with PE ratios less
+than their expected growth rate are viewed as undervalued. In its more general form, the ratio of PE
+ratio to growth (PEG) is used as a measure of relative value, with a lower value believed to indicate
+that a firm is undervalued. For many analysts, especially those tracking firms in high-growth sectors,
+these approaches offer the promise of a way of controlling for differences in growth across firms,

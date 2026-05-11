@@ -1,0 +1,52 @@
+apital and cost of capital remain unchanged. The
+resulting market-implied competitive advantage period (MICAP) can then be either compared across firms in a sector or
+evaluated on a qualitative basis.
+
+ILLUSTRATION 12.1: Length of High Growth Period
+To illustrate the process of estimating the length of the high growth period, we will consider a number of companies and
+make subjective judgments about how long each one will be able to maintain high growth.
+CONSOLIDATED EDISON
+Background:
+ The firm has a near-monopoly in generating and selling power in the environs of New York City. In return for
+the monopoly, though, the firm is restricted in both its investment and its pricing policy. A regulatory commission determines
+how much Con Ed can raise prices, and it makes this decision based on the returns made by Con Ed on its investments; if
+the firm is making high returns on its investments, it is unlikely to be allowed to increase prices. Finally, the demand for
+power in New York is stable, as the population levels off.
+Implication:
+ The firm is already a stable growth firm. There is little potential for either high growth or excess returns.
+PROCTER & GAMBLE
+Background:
+ Procter & Gamble comes in with some obvious strengths. Its valuable brand names have allowed it to earn
+high excess returns (as manifested in its high return on equity of 20.09% in 2010) and sustain high growth rates in earnings
+over the past few decades. The firm faces two challenges. One is that it has a significant market share in a mature market
+in the United States, and its brand names are less recognized and therefore less likely to command premiums abroad. The
+other is the increasing assault on brand names in general by generic manufacturers.
+Implication:
+ Brand name can sustain excess returns and growth higher than the stable growth rate for a short period—we
+will assume five years. Beyond that, we will assume that the firm will be in stable growth albeit with some residual excess
+returns. If the firm is able to extend its brand names overseas, its potential for high growth will be higher.
+AMGEN
+Background:
+ Amgen has a stable of drugs, on which it has patent protection, that generate cash flows currently, and
+several drugs in its R&D pipeline. While it is the largest independent biotechnology firm in the world, the market for
+biotechnology products is expanding significantly and will continue to do so. Finally, Amgen has had a track record of
+delivering solid earnings growth.
+Implication:
+ The patents that Amgen has will protect it from competition, and the long lead time to drug approval will ensure
+that new products will take a while getting to the market. We will allow for 10 years of growth and excess returns.
+There is clearly a strong subjective component to making a judgment on how long high growth will last. Much of what was
+said about the interrelationships between qualitative variables and growth toward the end of Chapter 11 has relevance for
+this discussion as well.
+Characteristics of Stable Growth Firm
+As firms move from high growth to stable growth, you need to give them the characteristics of stable
+growth firms. A firm in stable growth is different from that same firm in high growth on a number of
+dimensions. In general, you would expect stable growth firms to have average risk, use more debt,
+have lower (or no) excess returns, and reinvest less than high growth firms. In this section, we will
+consider how best to adjust each of these variables.
+Equity Risk
+When looking at the cost of equity, high growth firms tend to be more exposed to market risk (and
+have higher betas) than stable growth firms. Part of the reason for this is that they tend to be niche
+players supplying discretionary products, and part of the reason is high operating leverage. Thus,
+young technology or social media firms will have high betas. As these firms mature, you would
+expect them to have less exposure to market risk and betas that are closer to 1—the average for the
+market. One option is to set the beta in stable growth to 1 for all firms, arguing that firms in stable

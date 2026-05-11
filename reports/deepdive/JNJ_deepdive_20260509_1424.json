@@ -1,0 +1,88 @@
+{
+  "ticker": "JNJ",
+  "market": "us",
+  "timestamp": "2026-05-09T14:24:43.044263",
+  "audit": {
+    "piotroski": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "f_score": 4,
+      "period_t": "2025-12-31",
+      "period_t_minus_1": "2024-12-31",
+      "criteria": {
+        "roa_positive": true,
+        "fcf_positive": true,
+        "delta_roa_positive": true,
+        "fcf_gt_netincome": false,
+        "leverage_not_up": false,
+        "liquidity_up": false,
+        "no_dilution": true,
+        "margin_up": false,
+        "turnover_up": false
+      },
+      "details": {
+        "roa_t": 0.13455147833944078,
+        "fcf_t": 19313000000.0,
+        "delta_roa": 0.05645215794677877,
+        "delta_ltd_ratio": 0.027786985138179815,
+        "delta_current_ratio": -0.0830529560286517,
+        "shares_delta_pct": 0.0,
+        "delta_gross_margin": -0.011927862585716209,
+        "delta_turnover": -0.020332371065415245
+      }
+    },
+    "altman": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "z": 4.327396757606149,
+      "zone": "safe",
+      "confidence": "medium",
+      "x1": 0.007519702826163345,
+      "x2": 0.4093368806786808,
+      "x3": 0.16842527985542893,
+      "x4": 4.527775614366087,
+      "x5": 0.472832689122032,
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) \u2014 conservative proxy"
+      ]
+    },
+    "beneish": {
+      "ticker": "JNJ",
+      "applicable": false,
+      "reason_if_not_applicable": "yfinance n\u00e3o instalado",
+      "indices": {}
+    },
+    "moat": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "overall": 8.75,
+      "pricing_power": 10.0,
+      "capital_efficiency": 7.0,
+      "reinvestment_runway": 8.0,
+      "scale_durability": 10.0,
+      "years_used": 4,
+      "period_first": "2022-12-31",
+      "period_last": "2025-12-31",
+      "details": {
+        "gm_median": 0.6895,
+        "gm_cv": 0.0089,
+        "roic_median": 0.1304,
+        "roic_persistence": 1.0,
+        "revenue_cagr": 0.056,
+        "down_years": 0,
+        "fcf_to_ni_median": 0.839,
+        "op_margin_delta": 0.1107,
+        "shares_delta_pct": -8.8,
+        "op_margin_median": 0.2209
+      },
+      "label": "STRONG"
+    }
+  },
+  "scout": {
+    "error": "yfinance not available"
+  },
+  "delta": "Delta Report \u2014 JNJ | hoje vs run anterior (2026-05-08)",
+  "dossier": "# 1. Executive Summary\n- **Rating:** EVITAR\n- **Pre\u00e7o justo estimado e upside/downside %:** N\u00e3o \u00e9 poss\u00edvel determinar um pre\u00e7o justo sem dados quantitativos relevantes, mas considerando a classifica\u00e7\u00e3o Piotroski F-Score de 4/9, o risco associado \u00e0 empresa \u00e9 alto. A recomenda\u00e7\u00e3o \u00e9 evitar investimentos.\n- **Risk Score:** 8 (Risco moderadamente elevado)\n- **Alerta vermelho:** O Beneish M-Score est\u00e1 ausente e a classifica\u00e7\u00e3o Piotroski F-Score de 4/9 indica que o risco de manipula\u00e7\u00e3o cont\u00e1bil n\u00e3o foi completamente avaliado, al\u00e9m disso, a empresa apresenta um perfil mais fr\u00e1gil do que desej\u00e1vel.\n\n# 2. O Neg\u00f3cio\n- **Modelo de receita e fontes de caixa:** N\u00e3o h\u00e1 dados espec\u00edficos dispon\u00edveis para detalhar o modelo de receita ou as principais fontes de caixa da empresa.\n- **Moat (Network Effect / Switching Costs / Intangibles / Cost Adv):** O Moat Score \u00e9 alto, com 8.75/10, indicando uma forte vantagem competitiva. A pontua\u00e7\u00e3o em Pricing Power e Scale Durability \u00e9 particularmente alta, o que sugere que a empresa tem um bom controle sobre os pre\u00e7os e uma estrutura de custos eficiente.\n\n# 3. Decomposi\u00e7\u00e3o DuPont\n- **ROE = Margem \u00d7 Giro \u00d7 Alavancagem:** N\u00e3o h\u00e1 dados para calcular a decomposi\u00e7\u00e3o do ROE.\n- **Identificar a alavanca dominante:** Sem dados espec\u00edficos, n\u00e3o \u00e9 poss\u00edvel identificar qual fator est\u00e1 mais influenciando o ROE.\n\n# 4. Valuation Multin\u00edvel\n- **Graham Number:** N\u00e3o aplic\u00e1vel devido \u00e0 falta de dados.\n- **DCF com 3 cen\u00e1rios (Bear / Base / Bull):** N\u00e3o \u00e9 poss\u00edvel realizar um DCF sem os m\u00faltiplos e indicadores financeiros necess\u00e1rios.\n- **EV/EBITDA vs mediana setor:** Sem dados comparativos, n\u00e3o h\u00e1 como avaliar o EV/EBITDA em rela\u00e7\u00e3o \u00e0 m\u00e9dia do setor.\n\n# 5. Bear Case (mais agressivo se Piotroski < 5)\n- **3 maiores riscos com prob \u00d7 impacto:**\n    - **Risco de mercado:** Probabilidade alta e impacto significativo, dado o cen\u00e1rio econ\u00f4mico atual.\n    - **Risco operacional:** Poss\u00edvel queda na efici\u00eancia operacional ou aumento nos custos, afetando a rentabilidade.\n    - **Riscos regulat\u00f3rios:** Impacto potencial de mudan\u00e7as nas leis e regulamentos que possam afetar negativamente as opera\u00e7\u00f5es da empresa.\n\n- **Cen\u00e1rio de -40%: o que aconteceria?** Uma queda de 40% no valor do ativo seria significativa, indicando uma poss\u00edvel deteriora\u00e7\u00e3o na sa\u00fade financeira ou desempenho operacional da empresa. Isso poderia levar a um reavalia\u00e7\u00e3o negativa dos investidores e potencialmente \u00e0 perda de confian\u00e7a no neg\u00f3cio.\n\n# 6. Bull Case\n- **Catalisadores espec\u00edficos com prazo:** N\u00e3o h\u00e1 dados para identificar catalisadores espec\u00edficos.\n- **O que precisa acontecer para o pre\u00e7o dobrar em 3 anos?** Sem dados financeiros, n\u00e3o \u00e9 poss\u00edvel determinar os fatores exatos necess\u00e1rios para uma valoriza\u00e7\u00e3o t\u00e3o significativa.\n\n# 7. Classifica\u00e7\u00e3o Lynch\n- **Slow / Stalwart / Fast / Cyclical / Turnaround / Asset Play:** Dada a falta de dados espec\u00edficos e o baixo Piotroski F-Score, \u00e9 dif\u00edcil classificar a empresa com precis\u00e3o. No entanto, considerando o Moat Score alto, pode-se argumentar que ela se encaixa na categoria **Stalwart**, uma empresa s\u00f3lida mas talvez n\u00e3o em r\u00e1pido crescimento.\n- **2-3 argumentos objetivos:** \n    - A empresa possui um forte moat com pontua\u00e7\u00f5es altas em Pricing Power e Scale Durability, indicando resist\u00eancia \u00e0 concorr\u00eancia.\n    - No entanto, a classifica\u00e7\u00e3o Piotroski F-Score de 4/9 sugere vulnerabilidades financeiras que precisam ser investigadas mais aprofundadamente.\n\n# 8. Veredicto Final\n- **Decis\u00e3o com 3 crit\u00e9rios mensur\u00e1veis:** \n    - A aus\u00eancia de dados quantitativos fundamentais impede uma avalia\u00e7\u00e3o precisa.\n    - O Piotroski F-Score baixo (4/9) indica riscos financeiros significativos.\n    - A falta de consenso entre analistas e insider trading sugere pouca confian\u00e7a no mercado.\n\n- **Position sizing:** EVITAR. Dada a incerteza em torno dos dados financeiros e o risco elevado identificado, recomenda-se evitar posi\u00e7\u00f5es nesta empresa at\u00e9 que mais informa\u00e7\u00f5es sejam dispon\u00edveis para uma avalia\u00e7\u00e3o mais completa.",
+  "model": "qwen2.5:32b-instruct-q4_K_M"
+}

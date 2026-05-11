@@ -1,0 +1,57 @@
+RT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ A company is considering delaying a project with after-tax cash flows of $25 million but that
+
+costs $300 million to take on (the life of the project is 20 years, and the cost of capital is 16%). A
+simulation of the cash flows leads you to conclude that the standard deviation in the present value
+of cash inflows is 20%. If you can acquire the rights to the project for the next 10 years, what is
+the value of the rights? (The six-month T-bill rate is 8%, the 10-year bond rate is 12%, and the
+20-year bond rate is 14%.)
+2.
+ You are examining the financial viability of investing in some abandoned copper mines in
+Chile, which still have significant copper deposits in them. A geologist survey suggests that there
+might be 10 million pounds of copper in the mines still, and that the cost of opening up the mines
+will be $3 million (in present value dollars). The capacity output rate is 400,000 pounds a year,
+and the price of copper is expected to increase 4% a year. The Chilean government is willing to
+grant a 25-year lease on the mine. The average production cost is expected to be 40 cents a pound,
+and the current price per pound of copper is 85 cents. (The production cost is expected to grow
+3% a year, once initiated.) The annualized standard deviation in copper prices is 25%, and the
+25-year bond rate is 7%.
+a.
+ Estimate the value of the mine using traditional capital budgeting techniques.
+b.
+ Estimate the value of the mine based on an option pricing model.
+c.
+ How would you explain the difference between the two values?
+3.
+ You have been asked to analyze the value of an oil company with substantial oil reserves. The
+estimated reserves amount to 10 million barrels, and the estimated cost of developing these
+reserves today is $120 million. The current price of oil is $20 per barrel, and the average
+production cost is estimated to be $6 per barrel. The company has the rights to these reserves for
+the next 20 years, and the 20-year bond rate is 7%. The company also proposes to extract 4% of
+its reserves each year to meet cash flow needs. The annualized standard deviation in the price of
+the oil is 20%. What is the value of this oil company?
+4.
+ You are analyzing a capital budgeting project. The project is expected to have a PV of cash
+inflows of $250 million and will cost $200 million today to take on. You have done a simulation
+of the project cash flows, and the simulation yields a variance in present value of cash inflows of
+0.04. You have the rights to this project for the next 20 years. The 20-year Treasury bond rate is
+8%.
+a.
+ What is the value of the project based on traditional NPV?
+b.
+ What is the value of the project as an option?
+c.
+ Why are the two values different? What factor or factors determine the magnitude of this
+difference?
+5.
+ Cyclops Inc., a high-technology company specializing in state-of-the-art visual technology, is
+considering going public. While the company has no revenues or profits yet on its products, it has
+a 10-year patent to a product that will enable contact lens users to get no-maintenance lenses that
+will last for years. While the product is technically viable, it is exorbitantly expensive to
+manufacture, and the potential market for it will be relatively small currently. (A cash flow
+analysis of the project suggests that the present value of the cash inflows on the project, if adopted
+now, would be $250 million, while the cost of the project will be $500 million.) The technology
+is rapidly evolving, and a simulation of alternative scenarios yields a wide range of present
+values, with an annualized standard deviation of 60%. The 10-year bond rate is 6%.

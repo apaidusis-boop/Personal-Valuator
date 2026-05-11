@@ -1,0 +1,34 @@
+asted prices.
+2.
+ You could value the firms using a normalized commodity price, estimated by looking at the
+average price of the commodity over a cycle. Thus, the average price of coffee over the past
+
+decade can be used to estimate the value of a coffee plantation. The danger, of course, is that the
+price of coffee may stay well above or below this average price for an extended period, throwing
+off estimates of value.
+3.
+ You could value the firm's current production using the current price for the commodity, even if
+it is at historic lows, and add to it the value of the option that the company possesses, which is to
+produce more if prices go up and less if they go down. We will look at this approach in more
+detail in Chapter 28.
+ILLUSTRATION 22.4: Valuing a Commodity Company at
+the Bottom of the Cycle: Aracruz Celulose in 2001
+Aracruz Celulose is a Brazilian paper and pulp manufacturer and, like all firms in this sector, it is susceptible to the ups and
+downs of the price of paper and pulp. 
+Figure 22.1
+ reports on the revenues and operating income at Aracruz between 1991
+and 2000, and the same graph provides an index of the price of pulp each year. Note the correlation between Aracruz's
+fortunes and the price of paper and pulp. The years with low or negative earnings for Aracruz generally are also the years
+when paper prices decline.
+Figure 22.1
+ Aracruz Celulose: Revenues, Profits, and the Price of Pulp
+Source:
+ Aracruz Annual Report.
+In May 2001, when we valued Aracruz, the firm had just emerged from a year of high paper prices and profitability to report
+666 million BR of operating income on revenues of 1,342 million BR in 2000; the firm faced a tax rate of 33%. If we use this
+operating income to value Aracruz, we are assuming that paper prices will continue to remain high. To prevent this from
+biasing the valuation, we reestimated revenues and operating income in 2000, using the average price of paper over the past
+decade:
+This operating income was used to compute a normalized return on capital for the firm of 10.55%, based on the book values
+of net debt ($1,549 million) and equity ($2,149 million) invested at the end of the previous year:
+We assumed that the firm would maintain this return on capital forever and grow 10% a year, in real terms, for the next five

@@ -1,0 +1,61 @@
+ty of the bond and can also change from period to period, depending on
+economic conditions. Chapter 7 considers how best to estimate these default spreads and how they
+might vary over time.
+CONCLUSION
+
+Risk, as defined in finance, is measured based on deviations of actual returns on an investment from
+its expected returns. There are two types of risk. The first, called equity risk, arises in investments
+where there are no promised cash flows, but there are expected cash flows. The second, default risk,
+arises on investments with promised cash flows.
+On investments with equity risk, the risk is best measured by looking at the variance of actual
+returns around the expected returns, with greater variance indicating greater risk. This risk can be
+broken down into risk that affects one or a few investments, called firm-specific risk, and risk that
+affects many investments, refered to as market risk. When investors diversify, they can reduce their
+exposure to firm-specific risk. If we assume that the investors who trade at the margin are well
+diversified, the risk we should be looking at with equity investments is the nondiversifiable or market
+risk. The different models of equity risk introduced in this chapter share this objective of measuring
+market risk, but they differ in the way they do it. In the capital asset pricing model, exposure to market
+risk is measured by a market beta, which estimates how much risk an individual investment will add
+to a portfolio that includes all traded assets. The arbitrage pricing model and the multifactor model
+allow for multiple sources of market risk and estimate betas for an investment relative to each source.
+Regression or proxy models for risk look for firm characteristics, such as size, that have been
+correlated with high returns in the past and use these to measure market risk. In all these models, the
+risk measures are used to estimate the expected return on an equity investment. This expected return
+can be considered the cost of equity for a company.
+On investments with default risk, risk is measured by the likelihood that the promised cash flows
+might not be delivered. Investments with higher default risk should have higher interest rates, and the
+premium that we demand over a riskless rate is the default spread. For many U.S. companies, default
+risk is measured by rating agencies in the form of a bond rating; these ratings determine, in large part,
+the interest rates at which these firms can borrow. Even in the absence of ratings, interest rates will
+include a default spread that reflects the lenders’ assessments of default risk. These default-risk-
+adjusted interest rates represent the cost of borrowing or debt for a business.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified
+.
+1.
+ The following table lists the stock prices for Microsoft from 1989 to 1998. The company did
+not pay any dividends during the period.
+Year
+Price
+1989
+$ 1.20
+1990
+$ 2.09
+1991
+$ 4.64
+1992
+$ 5.34
+1993
+$ 5.05
+1994
+$ 7.64
+1995
+$10.97
+1996
+$20.66
+1997
+$32.31
+1998
+$69.34
+a.
+ Estimate the average annual return you would have made on your investment.

@@ -1,0 +1,23 @@
+forward PE, you would have to
+obtain forecasted EPS in 2016 for each firm in the sector and compute the forward PE for each one. (Amgen's PE based
+on forecasted EPS in 2016 is 7.45, for instance.)
+2.
+
+P/E before R&D:
+ A significant reason for Amylin's losses is the substantial R&D expense incurred by the firm. If you
+add back the R&D to the reported net loss and compute the per share value, you get earnings per share before R&D of
+about $0.15. The price-earnings ratio can be computed using this estimated earnings per share:
+Here again, you have to be consistent and compute PE ratios based on earnings per share before R&D expenses for all
+of the firms in the sector.
+ENTERPRISE VALUE TO EBITDA MULTIPLE
+Unlike the earnings multiples discussed so far in this chapter, the enterprise value to EBITDA
+multiple is a firm value multiple. In the past two decades, this multiple has acquired a number of
+adherents among analysts for several reasons. First, there are far fewer firms with negative EBITDA
+than there are firms with negative earnings per share, and thus fewer firms are lost from the analysis.
+Second, differences in depreciation methods across different companies—some might use straight-
+line while others use accelerated depreciation—can cause differences in operating income or net
+income but will not affect EBITDA. Third, this multiple can be compared far more easily than other
+earnings multiples across firms with different financial leverage (the numerator is firm value and the
+denominator is a predebt earnings). For all of these reasons, this multiple is particularly useful for
+firms in sectors that require large investments in infrastructure with long gestation periods. Telecom
+companies or companies involved in airport or toll road construction would be good examples.

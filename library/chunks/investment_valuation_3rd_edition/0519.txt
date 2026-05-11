@@ -1,0 +1,21 @@
+ected inflation.)
+ILLUSTRATION 18.6: Comparing PE Ratios across
+Markets—July 2000
+This principle can be extended to broader comparisons of PE ratios across countries. The following table summarizes PE
+
+ratios across different developed markets in July 2000, together with dividend yields and interest rates (short-term and long-
+term) at that time:
+A naive comparison of PE ratios suggests that Japanese stocks, with a PE ratio of 52.25, were overvalued, while Belgian
+stocks, with a PE ratio of 14.74, are undervalued. There were, however, a strong negative correlation between PE ratios and
+10-year interest rates (–.73) and a positive correlation between the PE ratio and the spread between long and short term
+rates (.70). A cross-sectional regression of PE ratio on interest rates and expected growth yields the following:
+The coefficients are of marginal significance, partly because of the small size of the sample. Based on this regression, the
+predicted PE ratios for the countries are shown in the following table:
+From this comparison, Belgian and Swiss stocks would be the most undervalued, while U.S. stocks would have been the
+most overvalued.
+ILLUSTRATION 18.7: An Example with Emerging Markets
+—End of 2000
+This example is extended to examine PE ratio differences across emerging markets at the end of 2000. In this table, the
+country risk factor is that estimated by the 
+Economist
+ for these emerging markets, scaled from 0 (safest) to 100 (riskiest).

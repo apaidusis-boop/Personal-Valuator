@@ -1,0 +1,40 @@
+uce a homogeneous product (in terms of quality and units), the
+market value can be standardized by dividing by the number of units of the product that the firm
+produces or has the capacity to produce:
+
+For instance, steel companies can be compared based on their enterprise value per ton of steel
+produced or in capacity.
+For subscription-based firms such as cable companies, online service providers, and information
+providers, revenues come from the number of subscribers to the base service provided. Here, the
+value of a firm can be stated in terms of the number of subscribers:
+In each of the cases we have discussed, you could make an argument for the use of a sector-specific
+multiple because the units (whether they be barrels of oil, kwh of electricity, or subscribers) generate
+similar revenues. Sector multiples become much more problematic when the units used to scale value
+are not homogeneous. Let us consider two examples.
+For retailers such as Amazon that generate revenue from customers who shop at their web sites, the
+value of the firm can be stated in terms of the number of regular customers:
+The problem, here, is that amount spent can vary widely across customers, so it is not clear that a firm
+that looks cheap on this basis is undervalued.
+For Internet portals that generate revenue from advertising revenues that are based on traffic to the
+sites, the revenues can be stated in terms of the number of visitors to the sites:
+Here, again, the link between visitors and advertising revenues is neither clearly established nor
+obvious. In 2010, it was the social media companies such as Facebook and Twitter that were
+attracting market attention, partly because of their huge membership rolls. For these companies, the
+enterprise value can be scaled to the number of members, but the relationship between the number of
+members and profitability is tenuous and untested.
+Determinants of Value
+What are the determinants of value for these sector-specific multiples? Not surprisingly, they are the
+same as the determinants of value for other multiples—cash flows, growth, and risk—though the
+relationship can be complex. The fundamentals that drive these multiples can be derived by going
+back to a discounted cash flow model stated in terms of these sector-specific variables.
+Consider a service provider that has NX existing subscribers, and assume that each subscriber is
+expected to remain with the provider for the next n years. In addition, assume that the firm will
+generate net cash flows per customer (revenues from each customer minus cost of serving the
+customer) of CFX per year for these n years.
+1
+ The value of each existing customer to the firm can then
+be written as:
+The discount rate used to compute the value per customer can range from close to the riskless rate,
+if the customer has signed a contract to remain a subscriber for the next n years, to the cost of capital,
+if the estimate is just an expectation based on past experience.
+Assume that the firm expects to continue to add new subscribers in future years and that the firm

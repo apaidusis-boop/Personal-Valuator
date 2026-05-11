@@ -1,0 +1,37 @@
+es in perpetuity, you should cap the life of the reserve at a large value—
+say, 30 years—in making this estimate.
+12
+ With a binomial model, we estimate the value of the reserves to be $13.73 billion.
+
+CHAPTER 29
+The Options to Expand and to Abandon: Valuation
+Implications
+The preceding chapter noted that traditional discounted cash flow valuation does not consider the
+value of the option that many firms have to delay making an investment, and consequently understates
+the value of these investments. This chapter considers two other options that are often embedded in
+investments (and consequently in the values of the firms that possess them). The first of these is the
+option to expand an investment not only in new markets but to new products, to take advantage of
+favorable conditions. We argue that this option may sometimes make young start-up firms
+significantly more valuable than the present value of their expected cash flows. The second option is
+the option to abandon or scale down investments, which can reduce the risk and downside from large
+investments and therefore make them more valuable.
+THE OPTION TO EXPAND
+Firms sometimes invest in projects because the investments allow them either to make further
+investments or to enter other markets in the future. In such cases, we can view the initial projects as
+yielding options allowing the firm to invest in other projects, and these options have value. Put
+another way, a firm may accept a negative net present value on the initial project because of the
+possibility of high positive net present values on future projects.
+Payoff on the Option to Expand
+The option to expand can be evaluated at the time the initial project is analyzed. Assume that this
+initial project will give the firm the right to expand and invest in a new project in the future. Assessed
+today, the expected present value of the cash flows from investing in the future project is V, and the
+total investment needed for this project is X. The firm has a fixed time horizon, at the end of which it
+has to make the final decision on whether to make the future investment. Finally, the firm cannot move
+forward on this future investment if it does not take the initial project. This scenario implies the
+option payoffs shown in 
+Figure 29.1
+. As you can see, at the expiration of the fixed time horizon the
+firm will expand into the new project if the present value of the expected cash flows at that point in
+time exceeds the cost of expansion.
+Figure 29.1
+ The Option to Expand a Project

@@ -1,0 +1,30 @@
+should estimate the standard deviation in the value of the project—the sum of the present value of the
+cash flows—rather than the standard deviation in annual income or annual cash flows.
+expand.xls:
+
+This spreadsheet allows you to estimate the value of the option to expand a project to cover
+new markets or new products, using the Black-Scholes model.
+Problems in Valuing the Option to Expand
+The practical considerations associated with estimating the value of the option to expand are similar
+to those associated with valuing the option to delay. In most cases, firms with options to expand have
+no specific time horizon by which they have to make an expansion decision, making these open-ended
+options or, at best, options with arbitrary lives. Even in those cases where a life can be estimated for
+the option, neither the size nor the potential market for the product may be known, and estimating
+either can be problematic. To illustrate, consider the Ambev example discussed earlier. While we
+adopted a period of five years, at the end of which Ambev has to decide one way or another on its
+future expansion in United States, it is entirely possible that this time frame is not specified at the time
+the initial investment is made. Furthermore, we have assumed that both the cost and the present value
+of expansion are known at the time of the initial investment. In reality, the firm may not have good
+estimates for either input before opening the first store, since it does not have much information on the
+underlying market.
+Extensions and Implications of Expansion Options
+The option to expand can be used by firms to rationalize investing in projects that have negative net
+present values but provide significant opportunities to enter new markets or to sell new products. The
+option pricing approach adds rigor to this argument by estimating the value of these options, and it
+also provides insight into those occasions when they are most valuable. The option to expand is
+clearly more valuable for more volatile businesses with higher returns on projects (such as
+biotechnology or computer software), than it is for stable businesses with lower returns (such as
+automobile production). We will consider three cases where the expansion option may yield useful
+insights—strategic acquisitions, research and development expenses, and multistage projects.
+Strategic Considerations in Acquisitions
+In many acquisitions or investments, the acquiring firm believes that the transaction will give it

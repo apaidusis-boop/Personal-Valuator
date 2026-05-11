@@ -1,0 +1,38 @@
+## Quant Metrics, Explained
+
+What to know about our quant model categories, investing types, and drawdown/returns estimates.
+
+The Fool's Quant model considers a variety of business metrics to gauge the investment potential of each company on its own merits. But that can't tell you whether a business is the right investment for *you.*
+
+We encourage all members to understand the detail behind these scores and to also consider them in the broader context of your investment goals, existing portfolio, and risk preferences.
+
+The score is broken into several categories to illustrate how our data-driven models "feel" about the stock. A stock's strength in each category is represented by percentiles -- the higher the number, the stronger the positive signal.
+
+Each category includes a group of business metrics -- called score drivers -- that represents a relatable theme. While our category definitions don't actually affect the models, they help us generate insights from the results (and they might change in the future as we add new drivers).
+
+Here are our current categories:
+
+### Quality
+
+A company's ability to generate a return on investment. We want reliable profits on a lean asset base. Our quality drivers capture these traits across a wide range of business models.
+
+- Gross Profits / Assets
+- Cash Flow / Assets
+- Return on Invested Capital
+- Net Accruals / Assets -- Lower is better
+- Net Payout / Profits
+
+### Growth
+
+The compounding ability of a business. We measure the growth and investment trends because we want to identify the businesses positioned for high future growth potential.
+
+- Gross Margin Growth
+- Growth of Gross Profit / Assets
+- Growth of Cash Flow / Assets
+- Future Growth Optionality
+- R&D Spending / Gross Profits
+- Stock-Based Compensation / Gross Profits
+
+### Safety
+
+How well a company mitigates risks to its business. We track a variety of solvency, cash flow volatility, and market measures of risk. We want to avoid anything unnecessarily risky.

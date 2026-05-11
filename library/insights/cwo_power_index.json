@@ -1,0 +1,212 @@
+{
+  "book": "cwo_power_index",
+  "chunks_sampled": 15,
+  "model_used": "qwen2.5:14b-instruct-q4_K_M",
+  "methods_all": [
+    {
+      "name": "Z-Score and Trend Analysis",
+      "description": "Uses Z-scores and directional arrows to assess the trend of power gauges.",
+      "rules_or_formula": "Z-score = (X - μ) / σ; Arrow indicates positive or negative trend over a period"
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates country power based on key indicators.",
+      "rules_or_formula": "Analyzes economic, financial, military, educational, and technological factors."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates country strength based on key indicators.",
+      "rules_or_formula": "Aggregates data from hundreds of individual stats, considering relevance, quality, and consistency."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various factors.",
+      "rules_or_formula": "Scores range from 0 to 1, with higher scores indicating greater power."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates a country's power based on eight key measures.",
+      "rules_or_formula": "Aggregates scores from economic, financial, military, innovation and technology, education, labor cost, internal order, and reserve status indicators."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various measures.",
+      "rules_or_formula": "Scores are calculated using Z-scores and rankings across multiple categories."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates country power based on eight major measures.",
+      "rules_or_formula": "Aggregates data from economic, financial, military, and geopolitical indicators."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various factors.",
+      "rules_or_formula": "Scores range from 0 to 1, with higher scores indicating greater power."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates country power based on eight major measures.",
+      "rules_or_formula": "Aggregates data from hundreds of individual stats to determine a country's overall strength and trajectory."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various factors.",
+      "rules_or_formula": "Includes economic/financial position, debt burden, expected growth, internal order, wealth/opportunity/values gap, internal conflict, external order, innovation & technology, markets & financial center, education, trade, reserve currency status, cost competitiveness, military strength, and economic output."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates the power of countries based on key indicators.",
+      "rules_or_formula": "Aggregates data from hundreds of individual stats to determine a country's overall strength and trajectory."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various measures.",
+      "rules_or_formula": "Scores range from 0 to 1, with higher scores indicating greater power."
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates major countries based on key indicators.",
+      "rules_or_formula": "Aggregates data from hundreds of individual stats to rank countries out of 24."
+    }
+  ],
+  "heuristics_all": [
+    "Reliable gauges provide more actionable insights than so-so gauges",
+    "Use Z-scores and directional arrows to gauge trends in power metrics",
+    "Start by looking at big cycles and measures of power that reflect and drive a country's rise and fall",
+    "Consider both quantity and quality in assessing a country's power",
+    "Aggregate multiple stats to determine overall country power score",
+    "Start by looking at the big cycles to understand a country's rise and fall",
+    "Consider both quantity and quality in assessing national power.",
+    "...",
+    "Start by analyzing big cycles and major drivers of power",
+    "Consider the interaction between different factors that influence a country's rise or fall",
+    "Consider both quantity and quality in assessing national power.",
+    "...",
+    "Start by looking at the big cycles to understand a country's trajectory",
+    "Consider both quantity and quality in assessing national power",
+    "Start by analyzing big cycles and key drivers of power for understanding a country's position",
+    "Consider both quantity and quality in evaluating a country's power",
+    "Consider both quantity and quality when evaluating a country's power.",
+    "...",
+    "Start by looking at big cycles and measures of power that reflect and drive a country's rise and fall",
+    "Consider both quantity and quality in evaluating a country's strength",
+    "Consider both quantity and quality in evaluating national power.",
+    "...",
+    "Start by looking at big cycles and measures of power that reflect and drive a country's rise and fall",
+    "Internal disorder is moderate risk if wealth, income, and values gaps are typical",
+    "Consider both quantity and quality in assessing a country's power score",
+    "Aggregate gauges based on relevance, quality, and consistency"
+  ],
+  "key_concepts": [
+    "Big Cycles",
+    "Character/Determination/Civility",
+    "Cost Competitiveness",
+    "Country Power Gauge",
+    "Country Power Index",
+    "Country Power Score",
+    "Debt Burden",
+    "Economic Output",
+    "Economic/Financial Position",
+    "Education",
+    "Effective Allocation of Labor and Capital",
+    "Eight Key Measures of Power",
+    "Expected Growth",
+    "Expected Real Growth",
+    "External Disorder",
+    "External Order",
+    "Geology",
+    "Governance/Rule of Law",
+    "Government Debt Levels",
+    "Inequality",
+    "Infrastructure & Investment",
+    "Innovation & Technology",
+    "Interest Rate Cuts",
+    "Internal Conflict",
+    "Internal Conflict Gauge",
+    "Internal Disorder",
+    "Internal Order",
+    "Key Measures of Power",
+    "Major Drivers of Power",
+    "Markets & Financial Center",
+    "Military Strength",
+    "Net IIP",
+    "Power Gauges",
+    "Relative Position in Education",
+    "Reserve Currency Status",
+    "Resource-Allocation Efficiency",
+    "Trade",
+    "Trend Analysis",
+    "Wealth of Natural Resources",
+    "Wealth/Opportunity/Values Gap",
+    "Z-Score",
+    "Z-Score ranking",
+    "external conflict gauge",
+    "internal disorder",
+    "reserve currency status"
+  ],
+  "tickers_assets": [],
+  "regime_conditions": [
+    "...",
+    "Country-specific economic indicators",
+    "Currency control",
+    "Debt levels",
+    "Economic and financial position",
+    "Economic conditions affecting national power.",
+    "Economic cycles",
+    "Education",
+    "Financial cycles",
+    "Global economic trends",
+    "Global macroeconomic trends",
+    "Innovation and technology",
+    "Internal order",
+    "Large wealth, income, and values gaps relative to similar countries",
+    "Low expected real growth in Eurozone",
+    "Macro regime affecting economic and financial positions of countries",
+    "Macro regime affecting economic and financial stability of a country.",
+    "Macro regime considerations for country power assessment",
+    "Macro-economic conditions affecting country power indices",
+    "Macro-economic conditions impact country scores.",
+    "Mixed economic and financial cycles for Russia",
+    "Moderately unfavorable economic and financial cycles",
+    "Moderately unfavorable economic and financial cycles for Brazil",
+    "Typical debt levels for major countries",
+    "Unfavorable economic/financial position for Spain",
+    "gradual decline in US power relative to rising powers like China"
+  ],
+  "takeaways": [
+    "The Country Power Index uses Z-scores and trend arrows to assess the reliability of gauges measuring national power.",
+    "The United States is a strong but declining power, with significant internal and external challenges.",
+    "China's Country Power Score reflects a strong position in trade, education, and innovation despite weaknesses in governance and reserve currency status.",
+    "Germany is a middle-of-the-pack power with mixed measures of strength and no significant weaknesses.",
+    "The Country Power Index evaluates national strength through various measures, with Japan scoring an overall Empire Score of 0.33.",
+    "India's power is rising, driven by a strong economic and financial position but hindered by weaknesses in innovation, education, and internal stability.",
+    "The Country Power Index evaluates national strength through a structured scoring system across various measures.",
+    "Russia is in a somewhat favorable position economically but faces risks from internal disorder and external conflict.",
+    "The Country Power Index evaluates national strength through a combination of favorable economic conditions, low debt burden, and strong governance.",
+    "Australia is a modest power with strengths in natural resources but weaknesses in economy size, trade importance, and military strength.",
+    "The Country Power Index evaluates a nation's strength across various measures to determine its overall standing.",
+    "Brazil is a modest power with strengths in natural resources but weaknesses in education, corruption, rule of law, labor allocation, infrastructure investment, and internal order.",
+    "The Country Power Index evaluates a nation's strength across multiple dimensions, with Italy scoring relatively low in most categories.",
+    "Spain is not a meaningful global power due to unfavorable economic and financial conditions, low self-sufficiency, and relatively small economy.",
+    "Indonesia's Country Power Score reflects a mix of strengths in economic position and cost competitiveness, but weaknesses in military strength, innovation, trade, markets, financial center status, education, and governance."
+  ],
+  "errors": 0,
+  "methods_unique": [
+    {
+      "name": "Z-Score and Trend Analysis",
+      "description": "Uses Z-scores and directional arrows to assess the trend of power gauges.",
+      "rules_or_formula": "Z-score = (X - μ) / σ; Arrow indicates positive or negative trend over a period"
+    },
+    {
+      "name": "Country Power Gauge",
+      "description": "Evaluates country power based on key indicators.",
+      "rules_or_formula": "Analyzes economic, financial, military, educational, and technological factors."
+    },
+    {
+      "name": "Country Power Index",
+      "description": "Evaluates a country's strength based on various factors.",
+      "rules_or_formula": "Scores range from 0 to 1, with higher scores indicating greater power."
+    }
+  ],
+  "methods_count": 3
+}

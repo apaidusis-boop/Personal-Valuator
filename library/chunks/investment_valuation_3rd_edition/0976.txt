@@ -1,0 +1,39 @@
+example. Assume that you are
+trying to choose between two assets, both of which you have valued using simulations and risk-
+adjusted discount rates. The following table below summarizes your findings.
+
+Note that you view asset B to be riskier and have used a higher discount rate to compute value. If
+you now proceed to reject asset B, because the standard deviation is higher across the simulated
+values, you would be penalizing it twice. You can redo the simulations using the riskfree rate as the
+discount rate for both assets, but a note of caution needs to be introduced. If we then base our choice
+between these assets on the standard deviation in simulated values, we are assuming that all risk
+matters in investment choice, rather than only the risk that cannot be diversified away. Put another
+way, we may end up rejecting an asset because it has a high standard deviation in simulated values,
+even though adding that asset to a portfolio may result in little additional risk (because much of its
+risk can be diversified away).
+This is not to suggest that simulations are not useful to us in understanding risk. Looking at the
+variance of the simulated values around the expected value provides a visual reminder that we are
+estimating value in an uncertain environment. It is also conceivable that we can use it as a decision
+tool in portfolio management in choosing between two stocks that are equally undervalued but have
+different value distributions. The stock with the less volatile value distribution may be considered a
+better investment than another stock with a more volatile value distribution.
+AN OVERALL ASSESSMENT OF PROBABILISTIC
+RISK-ASSESSMENT APPROACHES
+Now that we have looked at scenario analysis, decision trees, and simulations, we can consider not
+only when each one is appropriate but also how these approaches complement or replace risk-
+adjusted value approaches.
+Comparing the Approaches
+Assuming that you decide to use a probabilistic approach to assess risk and could choose among
+scenario analysis, decision trees, and simulations, which one should you pick? The answer will
+depend upon how you plan to use the output and what types of risk you are facing:
+Selective versus full risk analysis.
+ In the best-case/worst-case scenario analysis, we look
+at only three scenarios (the best case, the most likely case, and the worst case) and ignore
+all other scenarios. Even when we consider multiple scenarios, we will not have a
+complete assessment of all possible outcomes from risky investments or assets. With
+decision trees and simulations, we attempt to consider all possible outcomes. In decision
+trees, we try to accomplish this by converting continuous risk into a manageable set of
+possible outcomes. With simulations, we can use distributions to capture all possible
+outcomes. Put in terms of probability, the sum of the probabilities of the scenarios we
+examine in scenario analysis can be less than 1, whereas the sum of the probabilities of
+outcomes in decision trees and simulations has to equal 1. As a consequence, we can

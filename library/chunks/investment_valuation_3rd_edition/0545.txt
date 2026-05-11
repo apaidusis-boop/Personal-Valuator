@@ -1,0 +1,44 @@
+ected growth, the lower the value to EBITDA
+will be for firms.
+4.
+
+Cost of capital.
+ Other things remaining equal, firms with lower costs of capital should trade at
+much higher multiples of EBITDA.
+5.
+
+Expected growth.
+ Other things remaining equal, firms with higher expected growth should trade
+at much higher multiples of EBITDA.
+This can be generalized to consider firms in high growth. The variables will remain unchanged but
+will need to be estimated for each phase of growth.
+ILLUSTRATION 18.15: Analyzing Value to EBITDA
+Multiples
+Castillo Cable is a cable and wireless firm with the following characteristics:
+The firm has a cost of capital of 10% and faces a tax rate of 36% on its operating income.
+The firm has capital expenditures that amount to 45% of EBITDA and depreciation that amounts to 20% of
+EBITDA. There are no working capital requirements.
+The firm is in stable growth and its operating income is expected to grow 5% a year in perpetuity.
+To estimate the enterprise value to EBITDA, we first estimate the reinvestment needs as a percent of EBITDA:
+This multiple is sensitive to the tax rate, as evidenced in 
+Figure 18.15
+. It is also sensitive to the reinvestment rate (stated as a
+percent of EBITDA), as shown in 
+Figure 18.16
+. However, changing the reinvestment rate while keeping the growth rate
+fixed is the equivalent of changing the return on capital. In fact, at the existing reinvestment rate and growth rate, we are
+
+assuming a return on capital of 10.24%:
+Figure 18.15
+ EV/EBITDA Multiples and Tax Rates
+Figure 18.16
+ EV/EBITDA and Net Capital Expenditure Ratios
+Solving for the return on capital yields 10.24%. 
+Figure 18.17
+ looks at the enterprise value to EBITDA multiple as a function
+of the return on capital.
+Figure 18.17
+ EV/EBITDA and Net Cap Ex Ratios
+
+In short, firms with low returns on capital and high reinvestment rates should trade at low multiples of EBITDA.
+firmmult.xls:

@@ -1,0 +1,36 @@
+or the value of
+investment or an asset that will reflect the underlying uncertainty we face in estimating the inputs to
+the valuation. The steps associated with running a simulation are as follows:
+1.
+
+Determine probabilistic variables:
+ In any analysis, there are potentially dozens of inputs, some
+of which are predictable and some of which are not. Unlike scenario analysis and decision trees,
+where the number of variables that are changed and the potential outcomes have to be few in
+number, there is no constraint on how many variables can be allowed to vary in a simulation. At
+least in theory, we can define probability distributions for each and every input in a valuation. The
+reality, though, is that this will be time consuming and may not provide much of a payoff,
+especially for inputs that have only marginal impact on value. Consequently, it makes sense to
+focus attention on a few variables that have a significant impact on value.
+2.
+
+Define probability distributions for these variables:
+ This is a key and the most difficult step
+in the analysis. Generically, there are three ways in which you can go about defining probability
+distributions:
+i.
+
+Historical data:
+ For variables that have a long history and reliable data over that history, it
+is possible to use the historical data to develop distributions. Assume, for instance, that you
+are trying to develop a distribution of expected changes in the long-term Treasury bond rate (to
+use as an input in investment analysis). You could use the histogram in 
+Figure 33.6
+, based on
+the annual changes in Treasury bond rates every year from 1928 to 2010, as the distribution for
+future changes. Implicit in this approach is the assumption that there have been no structural
+shifts in the market that will render the historical data unreliable.
+Figure 33.6
+ One-Year Change in U.S. 10-Year Treasury-Rate
+
+ii.

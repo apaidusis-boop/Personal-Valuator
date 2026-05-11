@@ -1,0 +1,20 @@
+current one have to be obtained. For simplicity, it can be assumed
+that the amortization is uniform over time, which leads to the following estimate of the residual value
+of the research asset today:
+
+Thus, in the case of the research asset with a five-year life, you cumulate one-fifth of the R&D
+expenses from four years ago, two-fifths of the R&D expenses from three years ago, three-fifths of the
+R&D expenses from two years ago, four-fifths of the R&D expenses from last year, and this year's
+entire R&D expense to arrive at the value of the research asset. This augments the value of the assets
+of the firm and, by extension, the book value of equity.
+Finally, the operating income is adjusted to reflect the capitalization of R&D expenses. First, the
+R&D expenses that were subtracted out to arrive at the operating income are added back to the
+operating income, reflecting their recategorization as capital expenses. Next, the amortization of the
+research asset is treated the same way that depreciation is and netted out to arrive at the adjusted
+operating income:
+This adjustment will generally increase operating income for firms that have R&D expenses that are
+growing over time. The net income will also be affected by this adjustment:
+While we would normally consider only the after-tax portion of this amount, the fact that R&D is
+entirely tax deductible eliminates the need for this adjustment.
+1
+R&DConv.xls:

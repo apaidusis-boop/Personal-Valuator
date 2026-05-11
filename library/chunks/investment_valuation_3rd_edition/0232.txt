@@ -1,0 +1,44 @@
+y for the additional risk exposure from emerging
+market countries.
+From Betas to Cost of Equity
+Having estimated the riskless rate and the risk premium(s) in Chapter 7 and the beta(s) in this chapter,
+
+we can now estimate the expected return from investing in equity at any firm. In the CAPM, this
+expected return can be written as:
+where the riskless rate would be the rate on a long-term government bond; the beta would be either
+the historical, fundamental, or accounting betas described earlier; and the risk premium would be
+either the historical premium or an implied premium.
+In the arbitrage pricing and multifactor model, the expected return would be written as follows:
+where the riskless rate is the long-term government bond rate; 
+β
+j
+ is the beta relative to factor j,
+estimated using historical data or fundamentals; and risk premium
+j
+ is the risk premium relative to
+factor j, estimated using historical data.
+The expected return on an equity investment in a firm, given its risk, has implications for both
+equity investors in the firm and the managers of the firm. For equity investors, it is the rate they need
+to earn to be compensated for the risk they have taken in investing in the equity of the firm. If, after
+analyzing an investment, they conclude they cannot make this return, they would not buy this
+investment; alternatively, if they decide they can make a higher return, they would make the
+investment. For managers in the firm, the return investors need to make to break even on their equity
+investments becomes the return they have to try to deliver to keep these investors from becoming
+restive and rebellious. Thus, it becomes the rate they have to beat in terms of returns on their equity
+investments in projects. In other words, this is the cost of equity to the firm.
+ILLUSTRATION 8.9: Estimating the Cost of Equity for
+Boeing—December 2000
+Now that we have an estimate of beta of 0.9585 for Boeing, based on the bottom-up estimates, we can estimate its cost of
+equity. To make the estimate, we used the prevailing Treasury bond rate of 5% and a historical risk premium of 5.51%.
+There are two point to make about this estimate. The first is that the cost of equity would have been significantly lower if we
+had chosen to use the implied equity premium on December 31, 2000, which was about 2.87% (see Chapter 7).
+The second point is that we are not considering the exposure that Boeing has to emerging market risk from its business. If
+the exposure is significant, we should be adding a country risk premium to the cost of equity estimate.
+ILLUSTRATION 8.10: Estimating the Cost of Equity for
+Embraer—March 2008
+Embraer is a Brazilian aerospace firm. To estimate its cost of equity, we first estimated the unlevered beta by looking at
+aerospace firms globally.
+Embraer's debt-to-equity ratio at the time of this analysis was 26.84%,
+10
+ resulting in a levered beta for Embraer (with a
+marginal tax rate of 34% for Brazil):

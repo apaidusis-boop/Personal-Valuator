@@ -1,0 +1,54 @@
+e realistic model. These models,
+therefore, have seen limited use in practice.
+EXTENSIONS OF OPTION PRICING
+All the option pricing models described so far—the binomial, the Black-Scholes, and the jump
+
+process models—are designed to value options with clearly defined exercise prices and maturities on
+underlying assets that are traded. However, the options we encounter in investment analysis or
+valuation are often on real assets rather than financial assets. Categorized as real options, they can
+take much more complicated forms. This section considers some of these variations.
+Capped and Barrier Options
+With a simple call option, there is no specified upper limit on the profits that can be made by the
+buyer of the call. Asset prices, at least in theory, can keep going up, and the payoffs increase
+proportionately. In some call options, though, the buyer is entitled to profits up to a specified price
+but not above it. For instance, consider a call option with a strike price of K
+1
+ on an asset. In an
+unrestricted call option, the payoff on this option will increase as the underlying asset’s price
+increases above K
+1
+. Assume, however, that if the price reaches K
+2
+, the payoff is capped at (K
+2
+ – K
+1
+).
+The payoff diagram on this option is shown in 
+Figure 5.5
+.
+Figure 5.5
+ Payoff on Capped Call
+This option is called a capped call. Notice, also, that once the price reaches K
+2
+, there is no longer
+any time premium associated with the option, and the option will therefore be exercised. Capped
+calls are part of a family of options called barrier options, where the payoff on and the life of the
+option are functions of whether the underlying asset price reaches a certain level during a specified
+period.
+The value of a capped call is always lower than the value of the same call without the payoff limit.
+A simple approximation of this value can be obtained by valuing the call twice, once with the given
+exercise price and once with the cap, and taking the difference in the two values. In the preceding
+example, then, the value of the call with an exercise price of K
+1
+ and a cap at K
+2
+ can be written as:
+Barrier options can take many forms. In a knockout option, an option ceases to exist if the
+underlying asset reaches a certain price. In the case of a call option, this knockout price is usually set
+below the strike price, and this option is called a down-and-out option. In the case of a put option, the
+knockout price will be set above the exercise price, and this option is called an up-and-out option.
+Like the capped call, these options are worth less than their unrestricted counterparts. Many real
+options have limits on potential upside, or knockout provisions, and ignoring these limits can result in
+the overstatement of the value of these options.
+Compound Options

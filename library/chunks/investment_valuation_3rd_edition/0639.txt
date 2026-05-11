@@ -1,0 +1,13 @@
+undamentals (analysts' estimates of expected growth
+in EPS over the next five years, payout, return on equity, and beta) for U.S. insurance companies with a market
+capitalization exceeding $1 billion.
+
+Looking at the PE ratio, CNO Financial and Hartford look cheap, but they are also extremely risky and have very low
+payout ratios. We regressed PE ratios against expected growth, payout ratios and betas but removed expected growth from
+the list, since it was not statistically significant. The regression of PE ratios against expected growth and payout ratios
+yielded the following:
+Plugging the values for CNO Financial into this regression, we get a predicted PE ratio of 6.63:
+At 6.31 times earnings, CNO Financial looks fairly valued. In contrast, the predicted PE ratio for Aon Corporation is:
+At 21.94 times earnings, Aon looks overvalued.
+ILLUSTRATION 21.6: Valuing a Company Based on
+Business Units: JP Morgan Chase in May 2011

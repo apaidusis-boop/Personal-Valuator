@@ -1,0 +1,42 @@
+or purchase, you want to estimate intrinsic value. Consequently, discounted cash flow valuation is
+likely to be more appropriate for your needs.
+Figure 34.6
+ Market Neutrality and Valuation Approaches
+
+Beliefs about Markets
+Embedded in each approach are assumptions about markets and how they work or fail to work. (See
+Figure 34.7
+.) With discounted cash flow valuation, you are assuming that market prices deviate from
+intrinsic value but that they correct themselves over long periods. With relative valuation, you are
+assuming that markets are on average right, and that while individual firms in a sector or market may
+be mispriced, the sector or overall market is fairly priced. With asset-based valuation models, you
+are assuming that the markets for real and financial assets can deviate and that you can take advantage
+of these differences. Finally, with option pricing models, you are assuming that markets are not very
+efficient at assessing the value of flexibility that firms have, and that option pricing models will
+therefore give you an advantage. In each and every one of these cases, though, you are assuming that
+markets will eventually recognize their mistakes and correct them.
+Figure 34.7
+ Views on Market and Valuation Approaches
+CHOOSING THE RIGHT DISCOUNTED CASH
+FLOW MODEL
+The model used in valuation should be tailored to match the characteristics of the asset being valued.
+The unfortunate truth is that the reverse is often true. Time and resources are wasted trying to make
+assets fit a prespecified valuation model, either because it is considered to be the best model or
+because not enough thought goes into the process of model choice. There is no one best model. The
+appropriate model to use in a particular setting will depend on a number of the characteristics of the
+asset or firm being valued.
+BRIDGING THE PHILOSOPHICAL DIVIDE
+Philosophically, there is a big gap between discounted cash flow valuation and relative valuation. In discounted cash flow
+valuation, we take a long-term perspective, evaluate a firm’s fundamentals in detail, and try to estimate a firm’s intrinsic
+value. In relative valuation, we assume that the market is right on average and estimate the value of a firm by looking at how
+similar firms are priced. There is something of value in both approaches, and it would be useful if we could borrow the best
+features of relative valuation while doing discounted cash flow valuation, or vice versa.
+Assume that your instincts lead you to discounted cash flow valuation, but that you are expected, as an analyst, to be
+market-neutral. You can stay market-neutral in a discounted cash flow framework if you use the implied risk premium for
+the market (described in Chapter 7) to estimate the cost of equity for the valuation. You can also bring in information about
+comparable firm margins and betas when estimating fundamentals for your firm. Your estimate of intrinsic value will then be
+market-neutral and include information about comparables.
+Alternatively, assume that you prefer relative valuation. Your analysis can carry the rigor of a discounted cash flow
+valuation if you can bring in the details of the fundamentals into your comparisons. The chapters on relative valuation
+attempted to do this by noting the link between multiples and fundamentals, and also by examining how best to control for
+these differences in the analysis.

@@ -1,0 +1,19 @@
+platforms should have algorithms in place that incorporate rules like this.
+
+### Warning
+
+Make sure your robo-advisor is programmed to select ETFs appropriately so that you avoid wash-sale violations.
+
+## Benefits of Robo-Advisors vs. Traditional Financial Advisors
+
+The emergence of robo-advisors has broken down some of the traditional barriers between the financial services world and average consumers. Because of these online platforms, sound financial planning is now accessible to almost everyone, not just [high-net-worth individuals](https://www.investopedia.com/terms/h/hnwi.asp).
+
+Robo-advisors are low-cost alternatives to traditional advisors. By eliminating human labor, online platforms can offer the same services at a fraction of the cost.
+
+Most robo-advisors charge annual flat [fees](https://www.investopedia.com/terms/f/feebasedinvestment.asp) of less than 0.4% per specific amount managed, much less than the typical 1% charged by a human financial planner (or more for [commission-based](https://www.investopedia.com/terms/c/commission.asp) accounts).
+
+With robo-advisors, it's generally [easier to keep tabs on investments](https://www.investopedia.com/why-robo-advisors-might-hold-the-key-to-your-retirement-success-11776450). You can log in 24/7 as long as you have an internet connection.
+
+It takes significantly less capital to start investing when using robo-advisors. One of the most popular robo-advisors, Betterment, has no account minimum for its basic account offering.
+
+Robo-advisors are efficient. Before robo-advisors and online brokerage accounts, if you wanted to execute a trade, you'd have to call or meet with a financial advisor, explain your needs, and wait for them to execute your trades. Now, you can do all of that with the click of a few buttons in the comfort of your home.

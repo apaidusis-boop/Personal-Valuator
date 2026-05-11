@@ -1,0 +1,47 @@
+te the values of the holdings. For the three private businesses, we used the
+price to book ratio at which publicly traded Korean companies in the underlying businesses traded to estimate market value.
+
+Thus, the value of the cross holdings that we add on to the discounted cash flow value for operating assets is 3,853 billion
+Korean won, not the book value of 2,233 billion won.
+For Tata Motors, the cross-holdings were more widespread (20-plus companies) and more opaque. Two of the holdings
+were in publicly traded companies, and we use the market values for those: Rs 13,527 million in Tata Steel and Rs 24.3
+million in Tata Chemicals; the total market value of Rs 13,596 million replace the book value of Rs 2,701 million in these
+holdings. In addition, though, Tata Motors reported book value of Rs 137,875 million in other cross holdings, where we were
+unable to estimate a market value. The cumulated value that we estimate for the cross holdings is therefore Rs 151,471
+million:
+While we are not comfortable with this value, we see little choice, given the information that we have available on the cross-
+holdings. Adding to our disquiet is the fact that these cross holdings amount to almost 42% of our estimated value for Tata
+Motors as a company; the value that we obtained for the operating assets is Rs 210,832 million. In effect, buying stock in
+Tata Motors is an investment in the company (58%) and the Tata Group (42%).
+Other Nonoperating Assets
+Firms can have other nonoperating assets, but they are likely to be of less importance than those listed
+in the previous section. In particular, firms can have unutilized assets that do not generate cash flows
+and have book values that bear little resemblance to market values. An example would be prime real
+estate holdings that have appreciated significantly in value since the firm acquired them but produce
+little if any cash flows. An open question also remains about overfunded pension plans. Do the excess
+funds belong to stockholders, and, if so, how do you incorporate the effect into value?
+VALUE OF TRANSPARENCY
+The difficulty we often face in identifying and valuing holdings in other companies highlights a cost faced by firms that have
+complicated cross-holding structures and that make little or no effort to explain what they own to investors. In fact, many
+companies seem to adopt a strategy of making it difficult for their own stockholders to see what they own lest they be
+questioned about the wisdom of their choices. Not surprisingly, the market values of these firms often understate the value
+of these hidden holdings.
+Many firms outside the United States use, as an excuse, the argument that the disclosure laws are not as strict in their
+countries as they are in the United States, but disclosure laws provide a floor for information that has to be revealed to
+markets and not a ceiling. For instance, InfoSys, an Indian software company, has one of the most informative financial
+reports of any 
+company anywhere in the world. In fact, the firm has reaped substantial 
+financial rewards because of its
+openness, as investors are better able to gauge how the firm is doing and tend to be much more willing to listen to
+management views.
+So, what can undervalued firms with cross holdings do to improve their value? First, they can break down complicated
+holdings structures that impede understanding and valuation. Second, they can adopt a strategy of revealing as much as they
+can to investors about their holdings—private as well as public. Third, they need to stick with this strategy when they have
+bad news to report. A firm that is generous with positive information and stingy with negative information will rapidly lose
+credibility as an information source. Finally, if all else fails, they can consider divesting or spinning off their holdings.
+Unutilized Assets
+The strength of discounted cash flow models is that they estimate the value of assets based on
+expected cash flows that these assets generate. In some cases, however, this can lead to assets of
+substantial value being ignored in the final valuation. For instance, assume that a firm owns a plot of
+land that has not been developed, and that the book value of the land reflects its original acquisition
+price. The land obviously has significant market value but does not generate any cash flow for the

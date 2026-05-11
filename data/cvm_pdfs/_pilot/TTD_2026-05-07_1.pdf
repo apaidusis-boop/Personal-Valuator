@@ -1,0 +1,1131 @@
+<!DOCTYPE HTML>
+<html id="db387a247afc54a24d38961e17d436b7b8bb5c23" class="StudioLegacy LegacyWebSaaS" xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head><title>
+	The Trade Desk, Inc. - Q1 2026 The Trade Desk Earnings Conference Call
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-type" /><meta content="RevealTrans(Duration=0,Transition=0)" http-equiv="Page-Enter" /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta content="default-src &#39;self&#39; https: http: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *.q4inc.com *.q4cdn.com; script-src &#39;self&#39; *.bootstrapcdn.com *.datatables.net *.cloudfront.net *.pusherapp.com *.newrelic.com *.nr-data.net *.bugherd.com *.q4cdn.com *.q4web.com *.jsdelivr.net *.amazonaws.com *.highcharts.com *.googletagmanager.com *.googleadservices.com *.google-analytics.com *.google.com *.gstatic.com *.q4app.com *.pendo.io *.cookielaw.org *.cdnjs.cloudflare.com &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *.q4inc.com" http-equiv="Content-Security-Policy" /><meta content="HpCAhOoH1Goy6ljomLqDoaGufX79kARV9Sd-3Te4-m8" name="google-site-verification" /><!--[if lte IE 8]>
+<link id="respond-proxy" rel="respond-proxy" media="screen" href="//s205.q4cdn.com/467402606/files/js/respond-proxy.html" />
+<link id="respond-redirect" rel="respond-redirect" media="screen" href="https://investors.thetradedesk.com/js/respond.proxy.gif" />
+<![endif]-->
+
+<link type="text/css" rel="preconnect" media="all" href="https://fonts.gstatic.com" />
+<link type="text/css" rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;amp;display=swap" />
+<link id="icon" type="image/x-icon" rel="icon" media="all" href="//s205.q4cdn.com/467402606/files/favicon.ico" />
+<link id="shortcut-icon" type="image/x-icon" rel="shortcut icon" media="all" href="//s205.q4cdn.com/467402606/files/favicon.ico" />
+<link rel="stylesheet" media="print" href="//s205.q4cdn.com/467402606/files/css/print.css" />
+<link type="text/css" rel="stylesheet" media="all" href="//s205.q4cdn.com/467402606/files/fonts/style-cf.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+<link id="htmlGlobalLinkCss" type="text/css" rel="stylesheet" media="all" href="//s205.q4cdn.com/467402606/files/css/global.css?v=42065" /><link id="htmlClientLinkCss" type="text/css" rel="stylesheet" media="all" href="//s205.q4cdn.com/467402606/files/css/client.css?v=39573" /><link id="htmlLinkPrintCss" type="text/css" rel="stylesheet" media="print" href="//s205.q4cdn.com/467402606/files/css/print.css" /><link id="htmlLinkEvergreenCss" type="text/css" rel="stylesheet" media="all" href="/css/evergreen/dist/default/evergreen.1.0.0.min.css" /><link type="text/css" rel="stylesheet" href="/GlobalBranding.ashx" /><script type="text/javascript" src="/js/module/widgets/dist/dependencies/evergreen.core.1.0.0.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/dependencies/evergreen.app.1.0.0.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Api.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Pager.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Slideshow.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4MultiSecFilings.min.js"></script>
+<script type="text/javascript" src="/js/typescript/dist/index.js"></script>
+<script type="text/javascript" src="/js/typescript/dist/q4CookieConsent/index.js"></script>
+<script type="text/javascript" src="//s205.q4cdn.com/467402606/files/js/GTM-script.js"></script>
+<script type="text/javascript" src="https://widgets.q4app.com/widgets/dependencies/q4.core.1.1.9.min.js"></script>
+<script type="text/javascript" src="https://widgets.q4app.com/widgets/dependencies/q4.app.1.1.9.min.js"></script>
+<script type="text/javascript" src="https://widgets.q4app.com/widgets/q4.api.1.13.5.min.js"></script>
+<script type="text/javascript" src="https://widgets.q4app.com/widgets/q4.datepicker.1.0.0.min.js"></script>
+<script type="text/javascript" src="//s205.q4cdn.com/467402606/files/js/polyfills/findIndex_polyfill.js"></script>
+<script type="text/javascript" src="//s205.q4cdn.com/467402606/files/js/nav-2.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="https://investors.thetradedesk.com/js/respond.proxy.js"></script>
+<![endif]-->
+
+<script type="text/javascript">function GetGlobalBrandingOptions(){ return '{"dateFormat":{"moment":{"date":"MMMM D, YYYY","time":"h:mm A"},"datePicker":{"date":"MM d, yy"}}}'; }
+</script><script type="text/javascript">var q4SnowplowLib_ipLocStorageKey = 'q4spisp';
+
+(function () {
+  Q4Blizzard.initProps({
+    appId: "Q4WebThetradedesk2024rd",
+    collectorUrl: "https://" + window.location.hostname + "/x0k461",
+    cookieName: "__uxq412__",
+    organizationId: "ea01666c-71ee-4297-8ea8-2c63e17ae018",
+    postPath: "/e6c1b/xc9",
+    productVersion: "5.178.0.4",
+    enableDOMListener: "False"
+  });
+
+  window.addEventListener("load", () => {
+    Q4Tracker.init("True");
+  });
+})();</script></head>
+<body style="margin: 0px" class="BodyBackground">
+    <input name="hdnRedirectToLoginUrl" type="hidden" id="hdnRedirectToLoginUrl" value="https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&amp;pendoQ4PId=_q4pidval_&amp;projectId=studio&amp;step=login&amp;companyName=The+Trade+Desk%2c+Inc.&amp;projectIdentifier=The+Trade+Desk%2c+Inc.&amp;mainColor=%230F5CA3&amp;scope=openid+profile+email&amp;helpUrl=https%3a%2f%2fhelp.events.q4inc.com%2fen%2fir-website.html&amp;response_type=code&amp;response_mode=query&amp;nonce=Ecz6AWoFjyirqiK9L4mBXwy6Bh0&amp;skipUrl=https%3a%2f%2finvestors.thetradedesk.com%2fnews-and-events%2fevents%2fevent-details%2f2026%2fQ1-2026-The-Trade-Desk-Earnings-Conference-Call%2fdefault.aspx&amp;userEmail=_q4lemail_&amp;redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect%3fstate%3deyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9ycy50aGV0cmFkZWRlc2suY29tL25ld3MtYW5kLWV2ZW50cy9ldmVudHMvZXZlbnQtZGV0YWlscy8yMDI2L1ExLTIwMjYtVGhlLVRyYWRlLURlc2stRWFybmluZ3MtQ29uZmVyZW5jZS1DYWxsL2RlZmF1bHQuYXNweCIsImV4cCI6MTc4MzcwMTU1MC4wLCJpYXQiOjE3Nzg0NDE5NTAuMCwiaXNzIjoiUTQuV2ViLlB1YmxpYy5TaXRlIiwiYXVkIjoidXBzdHJlYW0uY2RuLndlYi5wcmQucTRpbmMuY29tIn0.Msvctk-0cY_ygYrX3MdtXBTB-yaQrAJEVKwgDnUwUxc" />
+    <nav aria-label="Skip to main content">
+       <a id="skip-link" href="#main-content" class="accessibility-skip-link">Skip to main content</a>
+    </nav>
+
+    <input type="hidden" id="__RequestVerificationToken" />
+    
+    
+    <div id="pageClass" class="Sectionevents PageDefault PageNewsEventsEventsEventDetails LayoutOneColumnLayout Languageen-US">
+        <div class="PageDefaultInner">
+            <div id="litPageDiv" class="PageNewsampEventsEventsEventDetails SectionNewsampEventsEventsEventDetails ParentSection_events">
+                <a name="top" aria-hidden="true" tabindex="-1"></a>
+                <form action="default.aspx" aria-label="Form" method="post" id="fmForm1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['fmForm1'];
+if (!theForm) {
+    theForm = document.fmForm1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDSH1oVlXKNmZSXd3zYZ2Gq6ERm6jivSb4ijerOGYkuGRtePZg2&amp;t=638901346312636832" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function GetViewType(){ return '2'; }
+function GetRevisionNumber(){ return '1'; }
+function GetLanguageId(){ return '1'; }
+function GetVersionNumber(){ return '5.178.0.4'; }
+function GetPoweredBy(){return 'q4inc';}
+function GetViewDate(){{ return ''; }}
+function GetSignature(){{ return ''; }}
+//]]>
+</script>
+
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakMh5buNcZ-t3T4nCU0ZQt96Kk4JDhdv7pdb3Agzis1zDln1EUlimtVH-8O9nKu6Z_e6vBso1&amp;t=638901346312636832" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+                    
+                    <a id="lnkPostback" aria-hidden="true" aria-label="lnkPostback" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkPostback&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="display: none"></a>
+                    
+<div class="layout layout--one-column">
+<div class="pane pane--generic">
+        <div class="pane_inner"></div>
+    </div>
+    <div class="layout_inner">
+        <header class="layout_header" role="banner">
+            <div class="pane pane--header grid--no-gutter">
+                <div class="pane_inner"><span class='HeaderPaneDiv'><span class='HeaderPaneDiv1'><div id="_ctrl0_ctl06_divModuleContainer" class="module module-embed module-skip">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a class="module-skip_link" href="#maincontent">Skip to main content</a>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv2'><nav aria-label="Web Menu" class="nav-data hidden"><ul class="level1">
+	<li class="has-children home expanded"><a href="https://investors.thetradedesk.com/overview/default.aspx" aria-label="Overview" data-label="Investor relations">Overview</a><ul class="level2">
+		<li class="has-children expanded"><a href="https://investors.thetradedesk.com/news-and-events/news/default.aspx" aria-label="News &amp; Events within the Overview section">News & Events</a><ul class="level3">
+			<li><a href="https://investors.thetradedesk.com/news-and-events/news/default.aspx" aria-label="News within the News &amp; Events section">News</a></li><li class="selected"><a href="https://investors.thetradedesk.com/news-and-events/events/default.aspx" aria-label="Events within the News &amp; Events section">Events</a></li><li><a href="https://investors.thetradedesk.com/news-and-events/presentations/default.aspx" aria-label="Presentations within the News &amp; Events section">Presentations</a></li>
+		</ul></li><li class="has-children"><a href="https://investors.thetradedesk.com/financials/quarterly-results/default.aspx" aria-label="Financials within the Overview section">Financials</a><ul class="level3">
+			<li><a href="https://investors.thetradedesk.com/financials/quarterly-results/default.aspx" aria-label="Quarterly results within the Financials section" data-label="Quarterly results">Quarterly results</a></li><li><a href="https://investors.thetradedesk.com/financials/annual-reports/default.aspx" aria-label="Annual reports within the Financials section" data-label="Annual reports">Annual reports</a></li><li><a href="https://investors.thetradedesk.com/financials/sec-filings/default.aspx" aria-label="SEC filings within the Financials section" data-label="SEC filings">SEC filings</a></li>
+		</ul></li><li class="has-children"><a href="https://investors.thetradedesk.com/stock-info/stock-quote-chart/default.aspx" aria-label="Stock Info within the Overview section">Stock Info</a><ul class="level3">
+			<li class="has-children"><a href="https://investors.thetradedesk.com/stock-info/stock-quote-chart/default.aspx" aria-label="Stock quote &amp; chart within the Stock Info section" data-label="Stock quote &amp; chart">Stock quote & chart</a></li><li><a href="https://investors.thetradedesk.com/stock-info/analyst-coverage/default.aspx" aria-label="Analyst coverage within the Stock Info section" data-label="Analyst coverage">Analyst coverage</a></li>
+		</ul></li><li class="has-children"><a href="https://investors.thetradedesk.com/governance/governance-documents/default.aspx" aria-label="Governance within the Overview section">Governance</a><ul class="level3">
+			<li><a href="https://investors.thetradedesk.com/governance/governance-documents/default.aspx" aria-label="Governance documents within the Governance section" data-label="Governance documents">Governance documents</a></li><li><a href="https://www.thetradedesk.com/us/about-us/our-leadership" target="_blank" aria-label="Executive management within the Governance section">Executive management</a></li><li><a href="https://www.thetradedesk.com/about-us/our-leadership#board" target="_blank" aria-label="Board of directors within the Governance section">Board of directors</a></li><li><a href="https://investors.thetradedesk.com/governance/committee-composition/default.aspx" aria-label="Committee composition within the Governance section" data-label="Committee composition">Committee composition</a></li>
+		</ul></li><li class="has-children"><a href="https://investors.thetradedesk.com/resources/investor-faqs/default.aspx" aria-label="Resources within the Overview section">Resources</a><ul class="level3">
+			<li><a href="https://investors.thetradedesk.com/resources/what-we-re-reading/default.aspx" aria-label="What we’re reading within the Resources section" data-label="What we&#39;re reading">What we’re reading</a></li><li><a href="https://investors.thetradedesk.com/resources/investor-faqs/default.aspx" aria-label="Investor FAQs within the Resources section">Investor FAQs</a></li><li><a href="https://investors.thetradedesk.com/resources/investor-email-alerts/default.aspx" aria-label="Investor email alerts within the Resources section" data-label="Investor email alerts">Investor email alerts</a></li><li><a href="https://investors.thetradedesk.com/resources/contact-ir/default.aspx" aria-label="Contact IR within the Resources section">Contact IR</a></li>
+		</ul></li>
+	</ul></li>
+</ul></nav></span><span class='HeaderPaneDiv3'><div id="_ctrl0_ctl12_divModuleContainer" class="module module-embed module-logo">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a href="/">
+    <img src="//s205.q4cdn.com/467402606/files/images/logos/tradedesk_long_logo.svg" alt="The Trade Desk, Inc. Logo">
+</a>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv4'><div id="_ctrl0_ctl15_divModuleContainer" class="module module-embed nav--desktop--container">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <nav class="nav--desktop"></nav>
+
+<button class="nav--mobile--toggle">
+    <span class="q4-icon_menu" aria-hidden="true"></span>
+</button>
+
+<script>
+$('.nav-data').nav({
+    styleMobile: 'panel',
+});
+</script>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv17'><div id="_ctrl0_ctl52_divModuleContainer" class="module module-embed hidden">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSC6S5R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--navigation">
+                <div class="pane_inner"></div>
+            </div>
+            <div class="pane pane--banner">
+                <div class="pane_inner"><span class='HeaderPane2Div5'><div id="_ctrl0_ctl18_divModuleContainer" class="module module-breadcrumb">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a href="https://investors.thetradedesk.com/overview/default.aspx" id="_ctrl0_ctl18_hrefHome" class="module-breadcrumb_home-link">Overview</a>
+            
+                    <span id="_ctrl0_ctl18_repeaterLinks_ctl00_lblSeparator" class="module-breadcrumb_separator">&nbsp;>&nbsp;</span>
+                    <a id="_ctrl0_ctl18_repeaterLinks_ctl00_link" href="https://investors.thetradedesk.com/news-and-events/news/default.aspx">News &amp; Events</a>
+                    
+                
+                    <span id="_ctrl0_ctl18_repeaterLinks_ctl01_lblSeparator" class="module-breadcrumb_separator">&nbsp;>&nbsp;</span>
+                    <a id="_ctrl0_ctl18_repeaterLinks_ctl01_link" href="https://investors.thetradedesk.com/news-and-events/events/default.aspx">Events</a>
+                    
+                
+                    <span id="_ctrl0_ctl18_repeaterLinks_ctl02_lblSeparator" class="module-breadcrumb_separator">&nbsp;>&nbsp;</span>
+                    
+                    Event Details
+                
+        </div>
+    </div>
+</div></span><span class='HeaderPane2Div6'><div id="_ctrl0_ctl21_divModuleContainer" class="module module-page-title">
+    <div class="module_container module_container--outer">
+        <div class="module_container module_container--inner">
+            <h1 class="module_title">Event details</h1>
+        </div>
+    </div>
+</div></span></div>
+            </div>
+        </header>
+        <main class="layout_content" id="maincontent" role="main">
+            <div class="pane pane--breadcrumb">
+                <div class="pane_inner"></div>
+            </div>
+            <div class="pane pane--left">
+                <div class="pane_inner"><span class='LeftPaneDiv'></span></div>
+            </div>
+            <div class="pane pane--content">
+                <div class="pane_inner"><span class='ContentPaneDiv'><span class='ContentPaneDiv1'><div id="_ctrl0_ctl55_divModuleContainer" class="module module-details module-event-details">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <h2 id="_ctrl0_ctl55_hEventHeadline" class="module_details-title h3">Q1 2026 The Trade Desk Earnings Conference Call</h2>
+            <div class="module_container module_container--content">
+                <div class="module_date-time">
+                    <span id="_ctrl0_ctl55_lblDate" class="module_date-text">May 7, 2026</span>
+                    <span id="_ctrl0_ctl55_lblTime" class="module_time-text">05:00 PM ET</span>
+                </div>
+                <div class="module_location">
+                    <label id="_ctrl0_ctl55_lblLocation" class="ModuleLocation"></label>
+                </div>
+                
+                <div id="_ctrl0_ctl55_divBody" class="module_body"></div>
+                <div class="module_links module_links--separator q4icons list--reset">
+                    <div id="_ctrl0_ctl55_pnliCalUi" class="module_add-to-calendar">
+	
+                        <a role="button" href="javascript:;" class="module_link module_add-to-calendar-reveal"><span class="q4icons_icon" aria-hidden="true"></span><span class="module_link-text">Add to Calendar</span></a>
+                        <ul class="module_add-to-calendar-list">
+                            <li class="module_add-to-calendar-item module_add-to-calendar-item-apple">
+                                <a href="/DownloadICal.aspx?id=903&platform=iCal" id="_ctrl0_ctl55_hrefAppleCalendarDownload" class="module_add-to-calendar-link">
+                                    <span class="q4-icon_apple" aria-hidden="true"></span>
+                                    <span id="_ctrl0_ctl55_lblAppleText" class="module_add-to-calendar-text sr-only">Add to Apple Calendar</span>
+                                </a>
+                            </li>
+                            <li class="module_add-to-calendar-item module_add-to-calendar-item-google">
+                                <a href="/DownloadICal.aspx?id=903&platform=GoogleCalendar" id="_ctrl0_ctl55_hrefGoogleDownload" target="_blank" class="module_add-to-calendar-link">
+                                    <span class="q4-icon_google" aria-hidden="true"></span>
+                                    <span id="_ctrl0_ctl55_lblGoogleText" class="module_add-to-calendar-text sr-only">Add to Google Calendar</span>
+                                </a>
+                             </li>
+                            <li class="module_add-to-calendar-item module_add-to-calendar-item-outlook">
+                                <a href="/DownloadICal.aspx?id=903&platform=iCal" id="_ctrl0_ctl55_hrefOutlookDownload" target="_blank" class="module_add-to-calendar-link">
+                                    <span class="q4-icon_microsoft" aria-hidden="true"></span>
+                                    <span id="_ctrl0_ctl55_lblOutlookText" class="module_add-to-calendar-text sr-only">Add to Microsoft Outlook</span>
+                                </a>
+                            </li>
+                            <li class="module_add-to-calendar-item module_add-to-calendar-item--ics">
+                                <a href="/DownloadICal.aspx?id=903&platform=iCal" id="_ctrl0_ctl55_hrefiCalDownload" target="_blank" class="module_add-to-calendar-link">
+                                    <span class="q4-icon_calendar" aria-hidden="true"></span>
+                                    <span id="_ctrl0_ctl55_lbliCalText" class="module_add-to-calendar-text sr-only">Add to iCalendar</span>
+                                </a>
+                            </li>
+                        </ul>
+                    
+</div>
+                    <div class="module_webcast">
+                        <a href="https://events.q4inc.com/attendee/185538199" id="_ctrl0_ctl55_hrefWebcast" target="_blank" class="module_link module_webcast-link"><span class="q4icons_icon" aria-hidden="true"></span><span class="module_link-text">Webcast</span></a>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--right">
+                <div class="pane_inner"><span class='RightPaneDiv'></span></div>
+            </div>
+        </main>
+        <footer class="layout_footer" role="contentinfo">
+            <div class="pane pane--footer grid">
+                <div class="pane_inner"><span class='FooterPaneDiv'><span class='FooterPaneDiv8'><div id="_ctrl0_ctl24_divModuleContainer" class="module module-subscribe module-subscribe--fancy module-subscribe--footer dark grid_col grid_col--4-of-12 grid_col--lc-1-of-1 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl24_lblTitle" class="module_title"><span id="_ctrl0_ctl24_lblModuleTitle" class="ModuleTitle">Investor email alerts</span><span id="_ctrl0_ctl24_lblHelpPage"></span></h2>
+        <div class="module_container module_container--inner">
+            <div class="module_introduction"><span id="_ctrl0_ctl24_lblIntroText" class="IntroText"><p>To opt in for investor email alerts, please enter your email address in the field below and select at least one alert option. After submitting your request, you will receive an activation email to the requested email address. You must click the activation link in order to complete your subscription. You can sign up for additional alert options at any time.</p><p>At The Trade Desk, Inc., we promise to treat your data with respect and will not share your information with any third party. You can unsubscribe to any of the investor alerts you are subscribed to by visiting the “unsubscribe” section below. If you experience any issues with this process, please contact us for further assistance.</p></span></div>
+            <div id="_ctrl0_ctl24_validationsummary" class="module_error-container" role="alert" aria-live="assertive" style="display:none;">
+
+</div>
+            <div class="module-subscribe_table-wrap">
+                <p class="email_disclaimer">By providing your email address below, you are providing consent to The Trade Desk to send you the requested investor email alert updates.</p>
+                <fieldset>
+                    <legend class="sr-only">Investor Alert Options</legend>
+                    <table class="module-subscribe_table module-subscribe_form" role="presentation">
+                        
+                        
+                        <tr id="_ctrl0_ctl24_rowEmailAddress" class="module-subscribe_table-input module-subscribe_email">
+	<td id="_ctrl0_ctl24_ctl02">
+                                <label for="_ctrl0_ctl24_txtEmail" id="_ctrl0_ctl24_lblEmailAddressText">Email address</label>
+                                <span id="_ctrl0_ctl24_lblRequiredEmailAddress" class="module_required">*</span>
+                                <input name="_ctrl0$ctl24$txtEmail" type="email" maxlength="128" id="_ctrl0_ctl24_txtEmail" class="module_input" placeholder="Enter your email address" />
+                                <span id="_ctrl0_ctl24_regexEmailValidator1" style="display:none;"></span>
+                                <span id="_ctrl0_ctl24_reqvalEmailValidator1" style="display:none;"></span>
+                            </td>
+</tr>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </table>
+                    <table id="_ctrl0_ctl24_tableMailingLists" class="module-subscribe_table module-subscribe_mailing-list" role="presentation">
+	<tr id="_ctrl0_ctl24_rowMailingListLabel" class="module-subscribe_table-input module-subscribe_list-header">
+		<td id="_ctrl0_ctl24_ctl17">
+                                <label for="_ctrl0_ctl24_chkLists" id="_ctrl0_ctl24_lblMailingListsText">Investor Alert Options</label>
+                                <span id="_ctrl0_ctl24_lblRequiredMailingLists" class="module_required">*</span>
+                            </td>
+	</tr>
+	<tr id="_ctrl0_ctl24_rowMailingLists" class="module-subscribe_table-input module-subscribe_list">
+		<td id="_ctrl0_ctl24_ctl18" role="group">
+                                <table id="_ctrl0_ctl24_chkLists" role="presentation">
+			<tr>
+				<td><input id="_ctrl0_ctl24_chkLists_0" type="checkbox" name="_ctrl0$ctl24$chkLists$0" value="37" /><label for="_ctrl0_ctl24_chkLists_0">News</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl24_chkLists_1" type="checkbox" name="_ctrl0$ctl24$chkLists$1" value="39" /><label for="_ctrl0_ctl24_chkLists_1">Quarterly reports</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl24_chkLists_2" type="checkbox" name="_ctrl0$ctl24$chkLists$2" value="40" /><label for="_ctrl0_ctl24_chkLists_2">Annual reports</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl24_chkLists_3" type="checkbox" name="_ctrl0$ctl24$chkLists$3" value="41" /><label for="_ctrl0_ctl24_chkLists_3">SEC filings</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl24_chkLists_4" type="checkbox" name="_ctrl0$ctl24$chkLists$4" value="42" /><label for="_ctrl0_ctl24_chkLists_4">End of day stock quote</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl24_chkLists_5" type="checkbox" name="_ctrl0$ctl24$chkLists$5" value="46" /><label for="_ctrl0_ctl24_chkLists_5">Events & presentations</label></td>
+			</tr>
+		</table>
+                                
+                                <span id="_ctrl0_ctl24_cusvalMailingListsValidator" style="display:none;"></span>
+                            </td>
+	</tr>
+</table>
+
+                    <div id="_ctrl0_ctl24_recaptcha_divModuleContainer" class="RecaptchaContainer">
+    <input type="hidden" name="_ctrl0$ctl24$recaptcha$hdnCaptchaToken" id="_ctrl0_ctl24_recaptcha_hdnCaptchaToken" />
+
+    <script type="text/javascript">
+        function onLoad__ctrl0_ctl24_recaptcha() {
+            grecaptcha.render('_ctrl0_ctl24_btnSubmit', {
+                'sitekey': '6LcKf8wZAAAAADYEeFvKUvdj80FVct5G98mSJ29W',
+                'callback': 'onSubmit__ctrl0_ctl24_recaptcha',
+                'size': 'invisible'
+            });
+            // Prevent immediate postback: ASP.NET adds onclick (Page_ClientValidate + __doPostBack) to the button.
+            // Only the reCAPTCHA callback should trigger postback, after the challenge is completed.
+            var btn = document.getElementById('_ctrl0_ctl24_btnSubmit');
+            if (btn) btn.removeAttribute('onclick');
+        }
+
+        function onSubmit__ctrl0_ctl24_recaptcha(token) {
+            var captchaTokenField = document.getElementById('_ctrl0_ctl24_recaptcha_hdnCaptchaToken');
+
+            captchaTokenField.value = token;
+            __doPostBack('_ctrl0$ctl24$btnSubmit', "");
+        }
+    </script>
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=onLoad__ctrl0_ctl24_recaptcha&render=explicit" async defer></script>
+
+    <style>
+        .grecaptcha-badge {
+            display: none !important;
+        }
+    </style>
+</div>
+                    <span id="_ctrl0_ctl24_cusvalRecaptcha" style="display:none;"></span>
+                    <div class="module_actions">
+                        <input type="submit" name="_ctrl0$ctl24$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;_ctrl0$ctl24$btnSubmit&quot;, &quot;&quot;, true, &quot;02b19473-e76a-42f1-8c54-82eb257a9ebc&quot;, &quot;&quot;, false, false))" id="_ctrl0_ctl24_btnSubmit" class="button module-subscribe_submit-button" data-email-alert-subscribe-btn="true" />
+                    </div>
+                    <div class="module-subscribe_unsubscribe">
+                        <a href="/resources/investor-email-alerts/#unsubscribe" class="module-subscribe_unsubscribe-link">Unsubscribe</a>
+                    </div>
+                </fieldset>
+
+                <p class="subscribe_policy">For further information on how we protect your information, please refer to our <a href="https://www.thetradedesk.com/legal/website-privacy-policy" target="_blank">Privacy Policy</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="_ctrl0_ctl24_divEditSubscriberConfirmation" class="module module-subscribe module_confirmation-container" style="DISPLAY:none;">
+    <div class="module_container module_container--outer">
+        <h2 class="module_title">Email Alert Sign Up Confirmation</h2>
+        <div class="module_container module_container--inner">
+            
+        </div>
+    </div>
+</div><span id="_ctrl0_ctl24_ctl19" style="display:none;"></span>
+
+<style>
+    .q4l-loading-spinner {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+</style>
+
+<div class="q4l-loading-spinner" id="_ctrl0_ctl25-spinner" style="display: none;"></div>
+
+<script>
+    function showMessage(message, targetElementId = "_ctrl0_ctl24_divEditSubscriberConfirmation") {
+        $("#" + targetElementId).text(message);
+        $("#" + targetElementId).show();
+    }
+
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == " ") c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    // see STD-647
+    (async function () {
+        const q4lTriggerClientID = window.localStorage.getItem("q4l_trigger_clientID");
+        // we check q4lTriggerClientID so that when there are multiple mailing lists,
+        // only the one that the user submitted will have its view changed so there is
+        // a cleaner UX
+        const didTriggerFlow = q4lTriggerClientID === "_ctrl0_ctl24";
+        let idToken = window.location.hash.includes("id_token") ? window.location.hash.replace("#id_token=", "") : null;
+        idToken = idToken ?? getCookie(Q4Login.StorageKeys.SessionToken);
+        if (window.location.hash.includes("error")) {
+            const errorCode = window.location.hash.replace("#error=", "");
+            if (errorCode === "401.1" && didTriggerFlow) {
+                const message = "Your email is not verified. Please click the verification link we sent to your inbox.";
+                $("#_ctrl0_ctl24_divModuleContainer").hide();
+                showMessage(message);
+            }
+        }
+        else if (window.location.hash.includes("message")) {
+            const message = decodeURIComponent(window.location.hash.replace("#message=", ""));
+            if (didTriggerFlow) {
+                showMessage(message, "_ctrl0_ctl24_validationsummary");
+            }
+        }
+        else if (idToken) {
+            // default message
+            let message = "Unable to subscribe using your Q4 Account, please try again.";
+            const mailingListSelections = localStorage.getItem("q4l_mailing_selections");
+            if (!!mailingListSelections && didTriggerFlow) {
+                try {
+                    // hide mailing list selections, then show spinner
+                    $("#_ctrl0_ctl24_divModuleContainer").hide();
+                    $("#_ctrl0_ctl25-spinner").show();
+
+                    // build and make request
+                    const requestOptions = {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": "Bearer " + idToken
+                        },
+                        body: mailingListSelections
+                    };
+                    const publicApi = "https://thetradedesk2024rd.studio.q4api.com/api/MailingList";
+                    const response = await fetch(publicApi, requestOptions)
+                        .catch(error => console.log(error));
+                    const subscribeResult = await response.json();
+                    if (subscribeResult) {
+                        message = subscribeResult.data;
+                    }
+                }
+                catch (ex) {
+                    console.log(ex);
+                }
+                localStorage.removeItem("q4l_mailing_selections");
+                localStorage.removeItem("q4l_email");
+                // set the output message then show it
+                showMessage(message);
+            }
+            else if (window.location.hash.includes("id_token") && !mailingListSelections && didTriggerFlow) {
+                // if there is no mailing list selections at this point, then
+                // something is up.
+                showMessage(message);
+            }
+        }
+
+        // clean up
+        $("#_ctrl0_ctl25-spinner").hide();
+    })();
+</script></span><span class='FooterPaneDiv9'><div id="_ctrl0_ctl28_divModuleContainer" class="module module-html module-contact dark grid_col grid_col--2-of-12 grid_col--lc-1-of-2 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <h2 class="module_title">Contact us</h2>
+<p><a href="/resources/contact-ir/default.aspx">Investor relations</a></p>
+<p><a href="mailto:ir@thetradedesk.com">Email us</a></p>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv10'><div id="_ctrl0_ctl31_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl31_divModuleContainer" class="module module-links dark list--reset grid_col grid_col--3-of-12 grid_col--lc-1-of-2 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl31_lblTitle" class="module_title"><span id="_ctrl0_ctl31_lblModuleTitle" class="ModuleTitle">Quick links</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl31_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl31_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investors.thetradedesk.com/news-and-events/news/default.aspx" id="_ctrl0_ctl31_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">News</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl31_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://www.thetradedesk.com/" id="_ctrl0_ctl31_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_blank">Corporate website</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl31_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investors.thetradedesk.com/financials/sec-filings/default.aspx" id="_ctrl0_ctl31_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">SEC filings</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl31_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investors.thetradedesk.com/resources/investor-faqs/default.aspx" id="_ctrl0_ctl31_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Investor FAQs</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl31_QuickLinkList_ctl04_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://careers.thetradedesk.com/" id="_ctrl0_ctl31_QuickLinkList_ctl04_link" class="module-links_list-item-link" target="_blank">Careers</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv11'><div id="_ctrl0_ctl34_divModuleContainer" class="module module-embed module-logo module-logo--footer dark grid_col grid_col--3-of-12 grid_col--lc-1-of-1 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a href="/">
+    <img src="//s205.q4cdn.com/467402606/files/images/logos/logo_brand_footer.svg" alt="The Trade Desk, Inc. Logo">
+</a>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv16'><div id="_ctrl0_ctl49_divModuleContainer" class="module module-embed module-links--footer dark list--reset grid_col grid_col--1-of-1 grid_col--lc-1-of-1 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <div class="social_footer">
+    <div class="social_links">
+        <a href="https://www.instagram.com/thetradedesk/" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/images/icons/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/TheTradeDesk" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/images/icons/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://www.linkedin.com/company/the-trade-desk" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/images/icons/linkedin.svg" alt="LinkedIn" />
+        </a>
+        <a href="https://x.com/TheTradeDesk?mx=2" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/images/icons/x_twitter.svg" alt="X Twitter" />
+        </a>
+<!--         <a href="https://www.youtube.com/channel/UCepu1fEfXlB39NF13-yiqew" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/images/icons/youtube.svg" alt="Youtube" />
+        </a> -->
+    </div>
+
+    <div class="quick_links">
+        <a href="https://www.thetradedesk.com/legal/website-privacy-policy" class="link" target="_blank">Website privacy policy</a>
+        <a href="https://www.thetradedesk.com/us/privacy?_gl=1*1rbtqry*_gcl_au*MTczMzk0NTUwNS4xNzM0OTYwMjk3*_ga*MTA0MTAxMDU5Mi4xNzM0OTYwMjk2*_ga_1TDCVM323C*MTczNjE4NzQwNS45LjEuMTczNjE4ODg3NC4wLjAuMA.." class="link" target="_blank">Services privacy policy</a>
+        <!--<a href="#" class="link" target="_blank">Website cookie settings</a>
+        <a href="https://adsrvr.org/" class="link" target="_blank">
+            <img src="//s205.q4cdn.com/467402606/files/design/svg/privacy_icon.svg" alt="Your privacy choices" />
+            Your privacy choices
+        </a>-->
+        <a class="footer-link-lower policy link cookies-policy-link" onclick="OneTrust.ToggleInfoDisplay()">Website cookies settings</a>
+        <a href="https://adsrvr.org/"class="footer-link-lower policy link" target="_blank"> 
+            <!--<img src="https://polaris.truevaultcdn.com/static/assets/icons/optout-icon-black.svg" target="_blank" 
+               alt="California Consumer Privacy Act (CCPA) Opt-Out Icon" 
+       height="14px" style="vertical-align:middle"/>-->
+             <img src="//s205.q4cdn.com/467402606/files/design/svg/privacy_icon.svg" alt="" />Your privacy choices</a>
+    </div>
+</div>
+
+<style>
+    .pane--footer .module_title {
+        text-transform: none !important;
+    }
+    
+    .cookies-policy-link {
+        cursor: pointer;
+    }
+</style>
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--footer2 grid">
+                <div class="pane_inner clearfix"><span class='FooterPane2Div12'><div id="_ctrl0_ctl37_divModuleContainer" class="module module-html copyright grid_col--1-of-1 grid_col--md-1-of-1 grid_col--centered text-right">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            © <span class="copyright_year"></span> The Trade Desk. All rights reserved.
+        </div>
+    </div>
+</div></span><span class='FooterPane2Div13'><div id="_ctrl0_ctl40_divModuleContainer" class="module module-q4-credits grid_col--1-of-1 grid_col--md-1-of-1 grid_col--centered text-right">
+    <div class="module_container module_container--outer">
+        <div class="module_container module_container--inner">
+            <a href="https://www.q4inc.com/Powered-by-Q4/" id="_ctrl0_ctl40_hrefWebsiteRecording" class="module-q4-credits-link" target="_blank">
+                <span id="_ctrl0_ctl40_lblWebsiteRecording" class="module-q4-credits_powered-text">Powered by Q4 Inc.</span>
+                <span id="_ctrl0_ctl40_lblVersion" class="module-q4-credits_version-text">5.178.0.4</span>
+                <span class="sr-only">(opens in new window)</span>
+            </a>
+        </div>
+    </div>
+</div></span></div>
+            </div>
+            <div class="pane pane--credits">
+                <div class="pane_inner"><span class='Q4FooterDiv14'><div id="_ctrl0_ctl43_divModuleContainer" class="module module-embed hidden">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <script>
+var q4App = $.extend(true, q4Defaults, {
+    options: {
+        headerOffset: function() {
+            if ( $(window).width() > 1024 ) {
+                return $('.pane--header').outerHeight() + $('.pane--navigation').outerHeight();
+            } else {
+                return $('.pane--header').outerHeight();
+            }
+        },
+        mailingListConfig: {
+            tpl: (
+                '<div id="SubscriberConfirmation" class="module module-subscribe module-subscribe--fancy dark grid_col grid_col--2-of-4 grid_col--lc-1-of-1 grid_col--md-1-of-1">' +
+                '   <div class="module_container--outer">' +
+                '       <h3 class="module_title">Investor Email Alerts</h3>' +
+                '       <div class="module_container--inner">' +
+                '           <p class="module_message module_message--success" role="alert"></p>' +
+                '       </div>' +
+                '   </div>' +
+                '</div>'
+            ),
+            submitText: 'Sign up'
+        }
+    },
+    scollingTable: function(selector){
+        $(selector).not(selector+' table').wrap('<div class="table-wrapper" />');
+    },
+    meetingFancy: function($selector, trigger){
+        var meetingCookie = sessionStorage.getItem('requestMeeting');
+        
+        if (meetingCookie != 'closed') {
+            $selector.removeClass('js--hidden');
+        }
+        $selector.on('click', '.button--cookie', function () {
+            $selector.addClass('js--hidden');
+            sessionStorage.setItem("requestMeeting", 'closed');
+        });
+
+        $selector.on('click', trigger, function(e){
+            e.preventDefault();
+            $.fancybox.open({
+                type: 'iframe',
+                src: '/request-meeting-iframe/default.aspx',
+                opts: {
+                    margin: [10, 0],
+                    slideClass: 'fancybox-slide--form',
+                    parentEl: '#litPageDiv > form', 
+                    baseTpl: 
+                    '<div class="fancybox-container" role="dialog" aria-modal="true" aria-label="Request a Meeting with Management" tabindex="-1">' +
+                        '<div class="fancybox-bg"></div>' +
+                        '<div class="fancybox-inner">' +
+                            '<div class="fancybox-infobar"><span data-fancybox-index></span>&nbsp;/&nbsp;<span data-fancybox-count></span></div>' +
+                            '<div class="fancybox-toolbar">{{buttons}}</div>' +
+                            '<div class="fancybox-navigation">{{arrows}}</div>' +
+                            '<div class="fancybox-stage"></div>' +
+                            '<div class="fancybox-caption"><div class=""fancybox-caption__body"></div></div>' +
+                        '</div>' +
+                    '</div>',
+                    btnTpl: {
+                        smallBtn: '',
+                    },
+                    iframe: {
+                        tpl: '<iframe id="fancybox-frame{rnd}" name="fancybox-frame{rnd}" class="fancybox-iframe request-meeting-iframe" title="Request a Meeting" allowfullscreen allow="autoplay; fullscreen" src=""></iframe>',
+                    }, 
+                }
+            });
+        });
+        window.addEventListener('message', function (event) {
+            if (event.data == 'close-fancybox') {                
+                $.fancybox.close();
+                // put focus back on trigger  
+                $('.pane--footer2 .module-cta .button--meeting').focus();
+            }
+        }, false);
+    },
+    stickyNavBar: function() {
+        var inst = this,
+            $window = $(window),
+            $layout = $('.layout'),
+            $header = $('.pane--header'),
+            $nav = $('.nav--secondary'),
+            $navContainer = $('.pane--breadcrumb'),
+            navContainerPos = function(){
+                return $navContainer.position().top;
+            };
+
+        $window.on('scroll',function(){
+            if ( $window.scrollTop() > 0 ) {
+                $layout.addClass('js--header-small');
+            } else {
+                $layout.removeClass('js--header-small');
+            }
+            
+            if ($window.width() > 1024) {
+                $navContainer.css('min-height', $nav.outerHeight());
+
+                if ( $window.scrollTop() + $header.outerHeight() >= navContainerPos() ) {
+                    $layout.addClass('js--sticky');
+                    $nav.css('top', $header.outerHeight());
+                } else {
+                    $layout.removeClass('js--sticky');
+                    $nav.removeAttr('style');
+                }
+            } else {
+                $layout.removeClass('js--sticky');
+                $nav.removeAttr('style');
+                $navContainer.removeAttr('style');
+            }
+        });
+        $window.on('resize', function(){
+            if ($window.width() > 1024) {
+                $layout.removeClass('js--sticky');
+                $navContainer.removeAttr('style').css('min-height', $nav.outerHeight());
+                $nav.removeAttr('style');
+            } else {
+                $layout.removeClass('js--sticky');
+                $nav.removeAttr('style');
+                $navContainer.removeAttr('style');
+            }
+            $window.trigger('scroll');
+        }).resize();
+    },
+    navAccessibility: function() {
+        $('nav .selected > a').attr('aria-current','page');
+        $('.nav--desktop').attr('aria-label','primary');
+        $('.nav--secondary').attr('aria-label','secondary');
+        $('.nav--mobile').attr('aria-label','mobile');
+        $('.nav--secondary .level1, .nav--secondary .level2').attr('role','presentation');
+        $('.nav--sitemap').attr('aria-label', 'site map');
+    },
+    iconFix: function(){
+        $('.q4icons .module_link').each(function(){
+            if (!$(this).children('.q4icons_icon').length) {
+                $(this).prepend('<span class="q4icons_icon" aria-hidden="true"></span>');
+            }
+        });
+    },
+    focusTooltip: function( focusElement , tooltipId, tooltipText) {
+        var tooltipElement = '<span id="' + tooltipId + '" class="tooltip" role="tooltip" aria-hidden="true" aria-label="' + tooltipText + '">'+ tooltipText +'</span>';
+        $(focusElement).attr('aria-describedby', tooltipId).after(tooltipElement);
+        $(focusElement).focusin(function(){
+            var $this = $(this),
+                leftPosition = 0,
+                dataPosition = 'right';
+
+            if ( $(window).width() > $this[0].offsetLeft + $this[0].offsetWidth + 200 ) {
+                leftPosition = $this[0].offsetLeft + $this[0].offsetWidth;
+            } else {
+                dataPosition = 'left';
+                leftPosition = $this[0].offsetLeft;
+            }
+           
+            $('#' + tooltipId).attr({
+                'aria-hidden': 'false',
+                'data-position': dataPosition
+            }).css({
+                top: $this.position().top + $this.outerHeight()/2,
+                left: leftPosition
+            });
+        });
+        $(focusElement).focusout(function(){
+            $('#' + tooltipId).attr('aria-hidden','true').removeAttr('style');
+        });
+    },
+    footerReorder: function() {
+        $('.FooterPaneDiv8').insertAfter('.FooterPaneDiv10');
+    },
+    init: function() {
+        var app = this;
+
+        app.cleanUp();
+        app.submitOnEnter('.module-unsubscribe');
+        app.submitOnEnter('.module-search');
+        app.validateSubmit('.module-search');
+        app.superfish($('.nav--desktop .level2, .nav--secondary .level2, .nav--mobile .level2'), {cssArrows: false});
+        app.mobileMenuToggle($('.layout'), '.pane--navigation', '.layout_toggle-button', '.module-search_input');
+        app.cleanQuickLinks($('.module-links'));
+        app.copyright($('.copyright_year'));
+        app.docTracking();
+        app.fancySignup();
+        app.resetDate(['.nav a[href*="s4.q4web.com"]:not([href$=".pdf"])']);
+        app.previewToolbar();
+        app.reveal('.pane--header', '.module-search_toggle','.module-search input[type="text"]', false);
+        app.stickyNavBar();
+        app.meetingFancy($('.module-cta'),'.button--meeting');
+        app.sections();
+        app.navAccessibility();
+        app.iconFix();
+        // app.accessibleNavKeyboard( '.nav--main', '2', '.nav--mobile' );
+        app.focusTooltip('.module-search > .module_container--outer > .module-search_toggle ','search-tip','search');
+        app.addPageLanguage();
+        app.footerReorder();
+    }
+});
+
+q4App.init();
+
+/**
+ * Insert label before targets
+ * @param {string} target - element which needs a label
+ * @param {string} labelText - text to be shown in the label
+ */
+function insertLabel(target, labelText) {
+    $(target).each(function (i) {
+        var id = $(this).attr('id');
+        var label = $(this).attr('aria-label') || labelText;
+
+        if (!id) {
+            id = Date.now().toString(36) + Math.random().toString(36).substring(2);
+            $(this).attr('id', id);
+        }
+
+        $('<label class="sr-only" for="' + id + '">' + label + '</label>').insertBefore(this);
+    });
+}
+    
+    // stopping q4login iframe from being read by screen readers
+    $('#q4l-iframe').attr({
+     tabindex: -1,
+     'aria-hidden': true
+    });
+    
+    // trap focus in nav dropdowns
+    function navTrapFocus(element) {
+      var focusableEls = element.find('> li > a[href]:not([disabled]), > li > button:not([disabled])');
+      var firstFocusableEl = focusableEls[0];  
+      var lastFocusableEl = focusableEls[focusableEls.length - 1];
+      var KEYCODE_TAB = 9;
+
+      element.keydown(function(e) {
+        var isTabPressed = (e.key === 'Tab' || e.keyCode === KEYCODE_TAB);
+
+        if (!isTabPressed) { 
+          return; 
+        }
+
+        if ( e.shiftKey ) /* shift + tab */ {
+          if (document.activeElement === firstFocusableEl) {
+            lastFocusableEl.focus();
+              e.preventDefault();
+            }
+          } else /* tab */ {
+          if (document.activeElement === lastFocusableEl) {
+            firstFocusableEl.focus();
+              e.preventDefault();
+            }
+          }
+      });
+    }
+    $('.has-innerMenu button').keydown(function(e) {
+        if(e.code === 'Enter' || e.code === 'Space' || e.code === 'NumpadEnter') {
+             navTrapFocus($(this).next());
+        }
+    });
+    
+    $(document).ready(function() {
+        $('#g-recaptcha-response').attr('aria-label', 'recaptcha response text field');
+        $( ".PageResourcesWhatwersquorereading .module-page-title .module_title" ).text( "What we’re reading" );
+    });
+    
+    $(document).ready(function () {
+        function smoothScrollToClass() {
+            var fragmentIdentifier = window.location.hash.substring(1);
+            var className = '.module-' + fragmentIdentifier;
+            if ($(className).length) {
+                var offset = $(className).offset().top - 90;
+                $('html, body').animate({
+                    scrollTop: offset
+                }, 800);
+            }
+        }
+        $(window).on('hashchange load', function () {
+            if (window.location.hash) {
+                smoothScrollToClass();
+            }
+        });
+    });
+</script>
+        </div>
+    </div>
+</div></span><span class='Q4FooterDiv15'><div id="_ctrl0_ctl46_divModuleContainer" class="module module-embed hidden">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=xo46pa4ckjemjnxicpjpbw" async="true"></script>
+        </div>
+    </div>
+</div></span><span class='Q4FooterDiv2'><div id="_ctrl0_ctl58_divModuleContainer" class="module module-embed hidden">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <script type="text/javascript">
+// default selected option for remind me
+$('.module-event-details .module_reminder-period option:selected').attr('selected', true);
+//  open pdf links in new window
+$('.module-event-details .module_links a[href$=".pdf"]').attr('target','_blank');
+// fix when using separators, remove empty space from webcast
+if ( !$('.module-event-details .module_webcast').text().trim().length ) {
+    $('.module-event-details .module_webcast').remove();
+}
+// remove financial webcast link to avoid duplicates
+$('.module-event-details .module_financials a[href="'+$('.module-event-details .module_webcast a').attr('href')+'"]').parent().remove();
+q4App.addToCalendar('.module-event-details');
+q4App.hidePastCal($('.module-event-details'));
+</script>
+        </div>
+    </div>
+</div></span></div>
+            </div>
+        </footer>
+    </div>
+</div>
+                    <input type="hidden" name="__antiCSRF" id="__antiCSRF" value="" />
+                    <input type="hidden" name="__RequestVerificationAntiCSRFToken" id="__RequestVerificationAntiCSRFToken" value="" />
+                
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("_ctrl0_ctl24_validationsummary"));
+var Page_Validators =  new Array(document.getElementById("_ctrl0_ctl24_regexEmailValidator1"), document.getElementById("_ctrl0_ctl24_reqvalEmailValidator1"), document.getElementById("_ctrl0_ctl24_cusvalMailingListsValidator"), document.getElementById("_ctrl0_ctl24_cusvalRecaptcha"), document.getElementById("_ctrl0_ctl24_ctl19"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var _ctrl0_ctl24_validationsummary = document.all ? document.all["_ctrl0_ctl24_validationsummary"] : document.getElementById("_ctrl0_ctl24_validationsummary");
+_ctrl0_ctl24_validationsummary.headertext = "<p class=\'module_message module_message--error\'>The following errors must be corrected:</p>";
+_ctrl0_ctl24_validationsummary.displaymode = "List";
+_ctrl0_ctl24_validationsummary.validationGroup = "02b19473-e76a-42f1-8c54-82eb257a9ebc";
+var _ctrl0_ctl24_regexEmailValidator1 = document.all ? document.all["_ctrl0_ctl24_regexEmailValidator1"] : document.getElementById("_ctrl0_ctl24_regexEmailValidator1");
+_ctrl0_ctl24_regexEmailValidator1.controltovalidate = "_ctrl0_ctl24_txtEmail";
+_ctrl0_ctl24_regexEmailValidator1.errormessage = "Email address is not valid.";
+_ctrl0_ctl24_regexEmailValidator1.display = "None";
+_ctrl0_ctl24_regexEmailValidator1.enabled = "False";
+_ctrl0_ctl24_regexEmailValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+_ctrl0_ctl24_regexEmailValidator1.validationexpression = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+var _ctrl0_ctl24_reqvalEmailValidator1 = document.all ? document.all["_ctrl0_ctl24_reqvalEmailValidator1"] : document.getElementById("_ctrl0_ctl24_reqvalEmailValidator1");
+_ctrl0_ctl24_reqvalEmailValidator1.controltovalidate = "_ctrl0_ctl24_txtEmail";
+_ctrl0_ctl24_reqvalEmailValidator1.errormessage = "Email address is required.";
+_ctrl0_ctl24_reqvalEmailValidator1.display = "None";
+_ctrl0_ctl24_reqvalEmailValidator1.validationGroup = "02b19473-e76a-42f1-8c54-82eb257a9ebc";
+_ctrl0_ctl24_reqvalEmailValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+_ctrl0_ctl24_reqvalEmailValidator1.initialvalue = "";
+var _ctrl0_ctl24_cusvalMailingListsValidator = document.all ? document.all["_ctrl0_ctl24_cusvalMailingListsValidator"] : document.getElementById("_ctrl0_ctl24_cusvalMailingListsValidator");
+_ctrl0_ctl24_cusvalMailingListsValidator.errormessage = "Mailing list selection is required.";
+_ctrl0_ctl24_cusvalMailingListsValidator.display = "None";
+_ctrl0_ctl24_cusvalMailingListsValidator.validationGroup = "02b19473-e76a-42f1-8c54-82eb257a9ebc";
+_ctrl0_ctl24_cusvalMailingListsValidator.evaluationfunction = "CustomValidatorEvaluateIsValid";
+var _ctrl0_ctl24_cusvalRecaptcha = document.all ? document.all["_ctrl0_ctl24_cusvalRecaptcha"] : document.getElementById("_ctrl0_ctl24_cusvalRecaptcha");
+_ctrl0_ctl24_cusvalRecaptcha.errormessage = "The captcha test has failed. Please try again.";
+_ctrl0_ctl24_cusvalRecaptcha.display = "None";
+_ctrl0_ctl24_cusvalRecaptcha.validationGroup = "02b19473-e76a-42f1-8c54-82eb257a9ebc";
+_ctrl0_ctl24_cusvalRecaptcha.evaluationfunction = "CustomValidatorEvaluateIsValid";
+var _ctrl0_ctl24_ctl19 = document.all ? document.all["_ctrl0_ctl24_ctl19"] : document.getElementById("_ctrl0_ctl24_ctl19");
+_ctrl0_ctl24_ctl19.controltovalidate = "_ctrl0_ctl24_txtEmail";
+_ctrl0_ctl24_ctl19.errormessage = "Email Address is invalid.";
+_ctrl0_ctl24_ctl19.display = "None";
+_ctrl0_ctl24_ctl19.validationGroup = "02b19473-e76a-42f1-8c54-82eb257a9ebc";
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/anti-csrf.js">
+    </script>
+
+    <iframe
+        id="q4l-iframe"
+        tabindex="-1"
+        title="Q4 Iframe"
+        aria-hidden="true"
+        hidden
+        style="position: absolute; width: 0px; height: 0px; border: 0; left: -999px; top: -999px;"></iframe>
+
+    
+    <iframe
+        id="q4l-idp-iframe"
+        tabindex="-1"
+        title="Q4 IdP Iframe"
+        aria-hidden="true"
+        hidden
+        style="position: absolute; width: 0px; height: 0px; border: 0; left: -999px; top: -999px;"></iframe>
+
+    <script>
+        (function () {
+            const iframe = document.getElementById("q4l-idp-iframe");
+            iframe.onload = function () {
+                const redirectUrl = iframe.contentWindow.location.href;
+                if (redirectUrl !== iframe.src) {
+                    iframe.src = redirectUrl;
+                }
+            }
+        })();
+    </script>
+    
+
+    <script>
+        Q4Login.IframeRedirectURI = "https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&scope=openid+profile+email&response_type=code&response_mode=query&nonce=ceMSQKrwfafYEzB6B3IIfk2lyI&state=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9ycy50aGV0cmFkZWRlc2suY29tL3E0bG9naW5jYWxsYmFjay5hc3B4IiwiZXhwIjoxNzgzNzAxNTUwLjAsImlhdCI6MTc3ODQ0MTk1MC4wLCJpc3MiOiJRNC5XZWIuUHVibGljLlNpdGUiLCJhdWQiOiJ1cHN0cmVhbS5jZG4ud2ViLnByZC5xNGluYy5jb20ifQ.WAtuNJnMImahf3aLrG9QDg8l9ocMaII0Pbam837aq6s&redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect&prompt=none";
+        Q4IdpLogin.IframeRedirectURI = "https://identity.q4inc.com/oauth/auth?response_type=code&client_id=q4-studio-public-client&redirect_uri=https%3A%2F%2Fauth.platform.q4inc.com%2Fauth%2Fv2%2FpublicAuthRedirect&scope=openid%20profile%20email&state=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9ycy50aGV0cmFkZWRlc2suY29tL1E0SWRwTG9naW5DYWxsYmFjay5hc3B4IiwiZXhwIjoxNzg2MjE3OTUwLjAsImlhdCI6MTc3ODQ0MTk1MC4wLCJpc3MiOiJRNC5XZWIuUHVibGljLlNpdGUiLCJhdWQiOiJ1cHN0cmVhbS5jZG4ud2ViLnByZC5xNGluYy5jb20ifQ.EHLuvhhXW1ueQO1-oJ39zboIVY32uY3ISUSFJlCB8jg&prompt=none";
+        (function () {
+            if (window.location.hash.includes("login=true")) {
+                // q4pid is set in the modal so it should already be there
+                const pendoId = window.localStorage.getItem("q4pid");
+
+                // email is also from modal
+                const email = window.localStorage.getItem("q4l_email");
+
+                let redirectUrl = $('#hdnRedirectToLoginUrl').val();
+                redirectUrl = redirectUrl.replace("_q4pidval_", pendoId);
+                redirectUrl = redirectUrl.replace("_q4lemail_", email);
+
+                window.location.replace(redirectUrl);
+            }
+        })();
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var evgElement = document.getElementsByClassName("evergreen-layout");
+            if (evgElement.length == 0) {
+                var skipLink = document.getElementById("skip-link");
+                if (skipLink) {
+                    skipLink.remove();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

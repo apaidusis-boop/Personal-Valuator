@@ -1,0 +1,31 @@
+ch it does), every other
+stock in the index could well end up with a beta less than 1.
+Figure 8.3
+ Beta Estimate for Nokia 
+Copyright 2001 Bloomberg LP. Reprinted with permission. All rights reserved.
+
+When liquidity is limited, as it often is in many stocks in emerging markets, the betas
+estimated using short return intervals tend to be much more biased. In fact, using daily or
+even weekly returns in these markets will tend to yield betas that are not good measures of
+the true market risk of the company.
+In many emerging markets, both the companies being analyzed and the market itself change
+significantly over short periods of time. Using five years of returns, as we did for Boeing,
+for a regression may yield a beta for a company (and market) that bears little resemblance to
+the company (and market) as it exists today.
+Finally, the indices that measure market returns in many smaller markets tend to be
+dominated by a few large companies. For instance, the Bovespa (the Brazilian index) was
+dominated for several years by Telebras, which represented almost half the index. Nor is
+this just a problem with emerging markets. The DAX, the equity index for German stocks, is
+dominated by Allianz, Deutsche Bank, Siemens, and Daimler. When an index is dominated
+by one or a few companies, the betas estimated against that index are unlikely to be true
+measures of market risk. In fact, the betas are likely to be close to 1 for the large companies
+that dominate the index and wildly variable for all other companies.
+ILLUSTRATION 8.2: Estimating a Beta for Titan Cement
+Company
+Titan Cement is a cement and construction company in Greece. Reproduced in 
+Figure 8.4
+ is the beta estimate for Titan from
+April 1999 to April 2001 (using weekly returns) obtained from a beta service (Bloomberg). Note that the index used is the
+Athens Stock Exchange Index. Based on this regression, we arrive at the following equation:
+Figure 8.4
+ Beta Estimate for Titan Cement: Athens Stock Exchange Index

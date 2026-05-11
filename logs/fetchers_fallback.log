@@ -1,0 +1,88 @@
+{"ts": "2026-05-04T16:38:52Z", "market": "us", "kind": "prices", "ticker": "AAPL", "source": "yfinance", "status": "ok", "latency_ms": 2863}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "primary down", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "secondary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "primary", "status": "fail", "error": "A down", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "secondary", "status": "fail", "error": "B down", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "unregistered", "status": "skipped", "reason": "no adapter"}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "X", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T18:54:31Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:29Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "primary down", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "secondary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "primary", "status": "fail", "error": "A down", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "secondary", "status": "fail", "error": "B down", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "unregistered", "status": "skipped", "reason": "no adapter"}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "X", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-04T19:12:30Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "primary down", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "secondary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "primary", "status": "fail", "error": "A down", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "NEW_TICKER", "source": "secondary", "status": "fail", "error": "B down", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "unregistered", "status": "skipped", "reason": "no adapter"}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "down", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "X", "source": "cache:primary", "status": "cache_fresh", "age_hours": 0.0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "AAPL", "source": "primary", "status": "ok", "latency_ms": 0}
+{"ts": "2026-05-06T07:29:47Z", "market": "test", "kind": "prices", "ticker": "X", "source": "primary", "status": "fail", "error": "boom", "latency_ms": 0}
+{"ts": "2026-05-07T07:12:32Z", "market": "us", "kind": "analyst", "ticker": "AAPL", "source": "fmp", "status": "ok", "latency_ms": 1906}
+{"ts": "2026-05-08T07:58:45Z", "market": "us", "kind": "prices", "ticker": "ACN", "source": "yfinance", "status": "fail", "error": "No module named 'yfinance'", "latency_ms": 0}
+{"ts": "2026-05-08T07:58:46Z", "market": "us", "kind": "prices", "ticker": "ACN", "source": "massive", "status": "ok", "latency_ms": 988}
+{"ts": "2026-05-08T07:59:06Z", "market": "br", "kind": "prices", "ticker": "PETR4", "source": "yfinance", "status": "ok", "latency_ms": 5527}
+{"ts": "2026-05-08T08:00:50Z", "market": "us", "kind": "prices", "ticker": "NU", "source": "yfinance", "status": "ok", "latency_ms": 1302}
+{"ts": "2026-05-08T08:00:51Z", "market": "us", "kind": "prices", "ticker": "NU", "source": "massive", "status": "ok", "latency_ms": 607}
+{"ts": "2026-05-08T08:00:51Z", "market": "us", "kind": "prices", "ticker": "JPM", "source": "yfinance", "status": "ok", "latency_ms": 208}
+{"ts": "2026-05-08T08:01:04Z", "market": "us", "kind": "prices", "ticker": "JPM", "source": "massive", "status": "ok", "latency_ms": 12773}
+{"ts": "2026-05-08T08:01:04Z", "market": "us", "kind": "prices", "ticker": "BN", "source": "yfinance", "status": "ok", "latency_ms": 215}
+{"ts": "2026-05-08T08:01:17Z", "market": "us", "kind": "prices", "ticker": "BN", "source": "massive", "status": "ok", "latency_ms": 12799}
+{"ts": "2026-05-08T20:37:31Z", "market": "us", "kind": "prices", "ticker": "ACN", "source": "yfinance", "status": "ok", "latency_ms": 1594}
+{"ts": "2026-05-08T20:37:32Z", "market": "us", "kind": "prices", "ticker": "ACN", "source": "massive", "status": "ok", "latency_ms": 883}
+{"ts": "2026-05-08T20:37:32Z", "market": "us", "kind": "prices", "ticker": "HD", "source": "yfinance", "status": "ok", "latency_ms": 202}
+{"ts": "2026-05-08T20:37:45Z", "market": "us", "kind": "prices", "ticker": "HD", "source": "massive", "status": "ok", "latency_ms": 12506}
+{"ts": "2026-05-08T20:37:45Z", "market": "us", "kind": "prices", "ticker": "BN", "source": "yfinance", "status": "ok", "latency_ms": 237}
+{"ts": "2026-05-08T20:37:58Z", "market": "us", "kind": "prices", "ticker": "BN", "source": "massive", "status": "ok", "latency_ms": 12777}
+{"ts": "2026-05-08T20:37:58Z", "market": "us", "kind": "prices", "ticker": "PLD", "source": "yfinance", "status": "ok", "latency_ms": 208}
+{"ts": "2026-05-08T20:38:11Z", "market": "us", "kind": "prices", "ticker": "PLD", "source": "massive", "status": "ok", "latency_ms": 12738}
+{"ts": "2026-05-08T20:38:11Z", "market": "us", "kind": "prices", "ticker": "ABBV", "source": "yfinance", "status": "ok", "latency_ms": 175}
+{"ts": "2026-05-09T20:37:11Z", "market": "us", "kind": "prices", "ticker": "BLK", "source": "yfinance", "status": "ok", "latency_ms": 1364}
+{"ts": "2026-05-09T20:37:12Z", "market": "us", "kind": "prices", "ticker": "BLK", "source": "massive", "status": "ok", "latency_ms": 778}
+{"ts": "2026-05-09T20:37:12Z", "market": "us", "kind": "prices", "ticker": "PLD", "source": "yfinance", "status": "ok", "latency_ms": 201}
+{"ts": "2026-05-09T20:37:25Z", "market": "us", "kind": "prices", "ticker": "PLD", "source": "massive", "status": "ok", "latency_ms": 12613}
+{"ts": "2026-05-09T20:37:25Z", "market": "us", "kind": "prices", "ticker": "O", "source": "yfinance", "status": "ok", "latency_ms": 221}
+{"ts": "2026-05-09T20:37:38Z", "market": "us", "kind": "prices", "ticker": "O", "source": "massive", "status": "ok", "latency_ms": 12758}
+{"ts": "2026-05-09T20:37:38Z", "market": "us", "kind": "prices", "ticker": "AAPL", "source": "yfinance", "status": "ok", "latency_ms": 228}
+{"ts": "2026-05-09T20:37:51Z", "market": "us", "kind": "prices", "ticker": "AAPL", "source": "massive", "status": "ok", "latency_ms": 12773}
+{"ts": "2026-05-09T20:37:51Z", "market": "us", "kind": "prices", "ticker": "GREK", "source": "yfinance", "status": "ok", "latency_ms": 191}
+{"ts": "2026-05-09T20:38:04Z", "market": "us", "kind": "prices", "ticker": "GREK", "source": "massive", "status": "ok", "latency_ms": 12774}
+{"ts": "2026-05-10T20:38:20Z", "market": "us", "kind": "prices", "ticker": "TSM", "source": "yfinance", "status": "ok", "latency_ms": 1346}
+{"ts": "2026-05-10T20:38:21Z", "market": "us", "kind": "prices", "ticker": "TSM", "source": "massive", "status": "ok", "latency_ms": 849}
+{"ts": "2026-05-10T20:38:21Z", "market": "us", "kind": "prices", "ticker": "AAPL", "source": "yfinance", "status": "ok", "latency_ms": 213}
+{"ts": "2026-05-10T20:38:34Z", "market": "us", "kind": "prices", "ticker": "AAPL", "source": "massive", "status": "ok", "latency_ms": 12617}
+{"ts": "2026-05-10T20:38:34Z", "market": "us", "kind": "prices", "ticker": "GS", "source": "yfinance", "status": "ok", "latency_ms": 222}
+{"ts": "2026-05-10T20:38:47Z", "market": "us", "kind": "prices", "ticker": "GS", "source": "massive", "status": "ok", "latency_ms": 12683}
+{"ts": "2026-05-10T20:38:47Z", "market": "us", "kind": "prices", "ticker": "ABBV", "source": "yfinance", "status": "ok", "latency_ms": 196}
+{"ts": "2026-05-10T20:39:00Z", "market": "us", "kind": "prices", "ticker": "ABBV", "source": "massive", "status": "ok", "latency_ms": 12856}
+{"ts": "2026-05-10T20:39:00Z", "market": "us", "kind": "prices", "ticker": "BLK", "source": "yfinance", "status": "ok", "latency_ms": 221}
+{"ts": "2026-05-10T20:39:13Z", "market": "us", "kind": "prices", "ticker": "BLK", "source": "massive", "status": "ok", "latency_ms": 12682}

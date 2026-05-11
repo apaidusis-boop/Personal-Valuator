@@ -1,0 +1,10 @@
+inflation:
+Making a similar adjustment to the stable period cost of capital yields a BR cost of capital of 11.89%. Finally, we adjust the
+stable growth rate to reflect the higher inflation rate in BR:
+
+The terminal value in $R can then be estimated:
+The value of Gerdau Steel's operating assets in BR can then be computed by discounting the BR cash flows back at the high
+growth period BR cost of capital of 14.05%:
+Converting the value into US$ at the prevailing exchange rate of 2.252 yields a dollar value for the operating assets of
+$26,315 million, very close to our dollar-based estimate of $26,996 million.
+fcffginzu.xls:

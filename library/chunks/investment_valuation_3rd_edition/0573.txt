@@ -1,0 +1,52 @@
+1990 period.
+Chan, Hamao, and Lakonishok (1991) found that the book-to-market ratio has a strong role in
+explaining the cross section of average returns on Japanese stocks. Capaul, Rowley, and Sharpe
+
+(1993) extended the analysis of price–book value ratios across other international markets between
+1981 and 1992, and concluded that value stocks (stocks with low price–book value ratios) earned
+excess returns in every market that they analyzed. Their annualized estimates of the return differential
+earned by stocks with low price–book value ratios, over the market index, were as follows:
+Country
+Added Return to Low PBV Portfolio
+France
+3.26%
+Germany
+1.39%
+Switzerland
+1.17%
+United Kingdom
+1.09%
+Japan
+3.43%
+United States
+1.06%
+Europe
+1.30%
+Global
+1.88%
+Although this study is dated, the conclusion that lower price-to-book stocks earn higher returns than
+higher price-to-book stocks looks robust.
+Using Price–Book Value Ratios as Investment Screens
+The excess returns earned by firms with low price–book value ratios have been exploited by
+investment strategies that use price–book value ratios as a screen. Benjamin Graham, for instance, in
+his classic book on security analysis, listed price being less than two-thirds of book value as one of
+the criteria to be used to pick stocks.
+The discussion in the preceding section emphasized the importance of return on equity in
+determining the price–book value ratio, and noted that only firms with high return on equity and a low
+price–book value ratio could be considered undervalued.
+Price to Book as a Proxy for Risk
+The persistence of excess returns earned by firms with lower price-to-book ratios indicates either
+that the market is inefficient or that the price-to-book ratio is a proxy for equity risk. In other words, if
+lower price-to-book ratio stocks are viewed by the market as riskier than firms with higher price-to-
+book ratios, the higher returns earned by these stocks would be a fair return for this risk. In fact, this
+is the conclusion that Fama and French (1992) reached after examining the returns earned by lower
+price-to-book stocks.
+While you cannot reject this hypothesis out of hand, you would need to put it to the test. What is the
+additional risk that low price-to-book stocks are exposed to? It is true that some low price-to-book
+ratio companies are highly levered and may not stay in business. For the most part, though, a portfolio
+composed of low price-to-book ratio stocks does not seem any more risky than a portfolio of high
+price-to-book stocks—their leverage and earnings variability are similar.
+VALUE-TO-BOOK RATIOS
+Instead of relating the market value of equity to the book value of equity, the value-to-book ratio
+relates the firm value to the book value of capital of the firm. Consequently, it can be viewed as the
+firm value analogue to the price-to-book ratio.

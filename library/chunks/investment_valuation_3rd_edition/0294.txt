@@ -1,0 +1,37 @@
+lished a reputation for growing through acquisitions. We undervalue firms that create value by making good
+acquisitions and overvalue firms that destroy value by overpaying on acquisitions.
+capex.xls:
+
+This dataset on the Web summarizes capital expenditures, as a percent of revenues and firm
+value, by industry group in the United States for the most recent quarter.
+Investment in Working Capital
+The second component of reinvestment is the cash that needs to be set aside for working capital
+needs. Increases in working capital tie up more cash and hence generate negative cash flows.
+Conversely, decreases in working capital release cash and positive cash flows.
+Defining Working Capital
+Working capital is usually defined to be the difference between current assets and current liabilities.
+However, we will modify that definition when we measure working capital for valuation purposes.
+We will back out cash and investments in marketable securities from current assets. This is
+because cash, especially in large amounts, is invested by firms in Treasury bills, short-term
+government securities, or commercial paper. Although the return on these investments may
+be lower than what the firm may make on its real investments, they represent a fair return for
+riskless investments. Unlike inventory, accounts receivable, and other current assets, cash
+then earns a fair return and should not be included in measures of working capital. Are there
+exceptions to this rule? When valuing a firm that has to maintain a large cash balance for
+day-to-day operations or a firm that operates in a market in a poorly developed banking
+system, you could consider the cash needed for operations as a part of working capital but
+only if that cash is wasting cash, i.e., cash that is not earning a fair market return. As we
+shift from a cash-based economy, this operating cash requirement has become smaller and
+smaller.
+We will also back out all interest-bearing debt—short-term debt and the portion of long-
+term debt that is due in the current period—from the current liabilities. This debt will be
+considered when computing cost of capital and it would be inappropriate to count it twice.
+The noncash working capital varies widely across firms in different sectors and often across firms
+in the same sector. 
+Figure 10.2
+ shows the distribution of noncash working capital as a percent of
+revenues for U.S. firms in January 2011.
+Figure 10.2
+ Noncash Working Capital as Percent of Revenues—U.S. firms in 2011
+Source:
+ Value Line.

@@ -1,0 +1,31 @@
+rs expect an economic value added that grows substantially each year. Thus if the economic value added increases,
+but by less than expected, you could see its market value drop on the report.
+eva.xls:
+
+This dataset on the Web summarizes economic value added by industry group for the United
+States.
+We would therefore not expect any correlation between the magnitude of the economic value added
+and stock returns, or even between the change in economic value added and stock returns. Stocks that
+report the biggest increases in economic value added should not necessarily earn high returns for their
+stockholders.
+5
+ These priors are confirmed by a study done by Richard Bernstein at Merrill Lynch,
+who examined the relationship between EVA and stock returns, and concluded that:
+A portfolio of the 50 firms that had the highest absolute levels
+6
+ of economic value added
+earned an annual return on 12.9% between February 1987 and February 1997, while the
+S&P index returned 13.1% a year over the same period.
+A portfolio of the 50 firms that had the highest growth rates
+7
+ in economic value added over
+the previous year earned an annual return of 12.8% over the same time period, again
+underperforming the S&P 500.
+Equity Economic Value Added
+Whereas EVA is usually calculated using total capital, it can easily be modified to be an equity
+measure:
+Again, a firm that earns a positive equity EVA is creating value for its stockholders whereas a firm
+with a negative equity EVA is destroying value for its stockholders.
+Why might a firm use this measure rather than the traditional measure? Chapter 21, when looking at
+financial service firms, noted that defining debt (and therefore capital) can open you open to
+measurement problems, since so much of the firm could potentially be categorized as debt.

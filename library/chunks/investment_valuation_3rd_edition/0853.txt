@@ -1,0 +1,34 @@
+time horizon the
+firm will expand into the new project if the present value of the expected cash flows at that point in
+time exceeds the cost of expansion.
+Figure 29.1
+ The Option to Expand a Project
+
+Inputs to Value the Option to Expand
+To understand how to estimate the value of the option to expand, let us begin by recognizing that there
+are two linked projects. The first project generally has a negative net present value and is recognized
+as a poor investment, even by the firm investing in it. The second project is the potential to expand
+that comes with the first project. It is the second project that represents the underlying asset for the
+option. The inputs have to be defined accordingly:
+The present value of the cash flows that you would generate if you were to invest in the
+second project today (the expansion option) is the value of the underlying asset—S in the
+option pricing model.
+If there is substantial uncertainty about the expansion potential, the present value is likely to
+be volatile and change over time as circumstances change. It is the variance in this present
+value that you would want to use to value the expansion option. Since projects are not
+traded, you have to either estimate this variance from simulations or use the variance in
+values of publicly traded firms in the business.
+The cost that you would incur up front, if you invest in the expansion today, is the equivalent
+of the strike price.
+The life of the option is fairly difficult to define, since there is usually no externally
+imposed exercise period. (This is in contrast to the patents valued in the preceding chapter,
+which have a legal life that can be used as the option life.) When valuing the option to
+expand, the life of the option will be an internal constraint imposed by the firm on itself. For
+instance, a firm that invests on a small scale in China might impose a constraint that it will
+either expand within five years or pull out of the market. Why might it do so? There may be
+considerable costs associated with maintaining the small presence or the firm may have
+scarce resources that have to be committed elsewhere.
+As with other real options, there may be a cost to waiting once the expansion option
+becomes viable. That cost may take the form of cash flows that will be lost on the expansion
+project if it is not taken or a cost imposed on the firm until it makes its final decision. For
+instance, the firm may have to pay a fee every year until it makes its final decision.

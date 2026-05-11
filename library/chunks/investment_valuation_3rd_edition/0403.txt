@@ -1,0 +1,32 @@
+e, the
+difference should narrow as the firm enters its stable growth phase. We can use the two approaches
+described for the stable growth model—industry average capital expenditure requirements or the
+
+fundamental growth equation (equity reinvestment rate = g/ROE)—to make this estimate.
+The beta and debt ratio may also need to be adjusted in stable growth to reflect the fact that stable
+growth firms tend to have average risk (betas closer to 1) and use more debt than high-growth firms.
+ILLUSTRATION 14.3: Capital Expenditure, Depreciation,
+and Growth Rates
+Assume you have a firm that is expected to have earnings growth of 20% for the next five years and 5% thereafter. The
+current earnings per share is $2.50. Current capital spending is $2.00, and current depreciation is $1.00. If we assume that
+capital spending and depreciation grow at the same rate as earnings and there are no working capital requirements or debt:
+If we use the perpetual growth rate model, but fail to adjust the imbalance between capital expenditures and depreciation,
+the free cash flow to equity in the terminal year is:
+This free cash flow to equity can then be used to compute the value per share at the end of year 5, but it will understate the
+true value. There are two ways in which you can adjust for this:
+1.
+ Adjust capital expenditures in year 6 to reflect industry average capital expenditure needs: Assume, for instance, that
+capital expenditures are 150% of depreciation for the industry in which the firm operates. You could compute the capital
+expenditures in year 6 as follows (EPS in year 6 = $6.21 × 1.05 = $6.53):
+2.
+ Estimate the equity reinvestment rate in year 6, based on expected growth and the firm's return on equity. For instance,
+if we assume that this firm's return on equity will be 15% in stable growth, the equity reinvestment rate would need to be:
+Firms Model Works Best For
+This model makes the same assumptions about growth as the two-stage dividend discount model (i.e.,
+that growth will be high and constant in the initial period and drop abruptly to stable growth after
+that). It is different because of its emphasis on FCFE rather than dividends. Consequently, it provides
+much better results than the dividend discount model when valuing firms which either have dividends
+which are unsustainable (because they are higher than FCFE) or which pay less in dividends than they
+can afford to (i.e., dividends are less than FCFE).
+ILLUSTRATION 14.4: Two-Stage FCFE Model: Nestlé in
+2001

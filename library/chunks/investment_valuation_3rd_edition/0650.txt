@@ -1,0 +1,21 @@
+ure periods. Thus analysts valuing firms with negative earnings have to keep track of
+the net operating losses of these firms and remember to use them to shield income in future periods
+from taxes.
+3.
+
+The going concern assumption may not apply.
+ The final problem associated with valuing
+companies that have negative earnings is the very real possibility that these firms will go bankrupt
+if earnings stay negative, and that the assumption of infinite lives that underlies the estimation of
+terminal value may not apply in these cases.
+The problems are less visible but exist nevertheless for firms that have abnormally low earnings;
+that is, the current earnings of the firm are much lower than what the firm has earned historically.
+Though you can compute historical growth and fundamental growth for these firms, they are likely to
+be meaningless because current earnings are depressed. The historical growth rate in earnings will be
+negative, and the fundamentals will yield very low estimates for expected growth.
+Causes of Negative Earnings
+There are several reasons why firms have negative or abnormally low earnings, some of which can
+be viewed as temporary, some of which are long-term, and some of which relate to where a firm
+stands in the life cycle.
+Temporary Problems
+For some firms, negative earnings are the result of temporary problems, sometimes affecting the firm

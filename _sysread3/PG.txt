@@ -1,0 +1,105 @@
+
+[GRAHAM] PG (us):
+  verdict: N/A    score: 0.0
+  msg: Graham engine only handles BR; for US use Buffett
+    {
+      "reason": "Graham engine only handles BR; for US use Buffett"
+    }
+
+[BUFFETT] PG (us):
+  verdict: HOLD    score: 0.6667
+    {
+      "kind": "us_company",
+      "details": {
+        "pe": {
+          "value": 21.406431,
+          "threshold": 20,
+          "verdict": "fail"
+        },
+        "pb": {
+          "value": 6.343746,
+          "threshold": 3,
+          "verdict": "fail"
+        },
+        "dividend_yield": {
+          "value": 0.0290943863766795,
+          "threshold": 0.025,
+          "verdict": "pass"
+        },
+        "roe": {
+          "value": 0.31112,
+          "threshold": 0.15,
+          "verdict": "pass"
+        },
+        "aristocrat": {
+          "value": true,
+          "threshold": 10,
+          "verdict": "pass",
+          "kind": "aristocrat"
+        },
+        "roic": {
+
+[DRIP] PG (us):
+  verdict: BUY    score: 0.9
+  weight_suggestion: 0.9
+    {
+      "safety_score": 90.0,
+      "safety_verdict": "SAFE",
+      "components": [
+        {
+          "name": "payout_ratio",
+          "score": 25,
+          "weight": 35,
+          "value": 0.6228070175438596,
+          "verdict": "OK"
+        },
+        {
+          "name": "roe_level",
+          "score": 20,
+          "weight": 20,
+          "value": 0.31112,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "streak_years",
+          "score": 25,
+          "weight": 25,
+          "value": 65,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "net_debt_ebitda",
+          "score": 20,
+          "weight": 20,
+          "value": 0.9871416480454489,
+
+[MACRO] PG (us):
+  verdict: AVOID    score: 0.3333
+    {
+      "regime": "expansion",
+      "regime_confidence": "medium",
+      "sector": "consumer staples",
+      "tilt": "tilt_down",
+      "multiplier": 0.5,
+      "regime_notes": "growth + productivity narrative"
+    }
+
+[HEDGE] PG (us):
+  verdict: HOLD    score: 1.0
+  msg: No tactical hedge active in current regime
+    {
+      "market": "us",
+      "regime": "expansion",
+      "confidence": "medium",
+      "hedge_size_pct": 0.0,
+      "instruments": [],
+      "notional": null,
+      "rationale": [
+        "curva normal + labor estável = expansion"
+      ],
+      "cross_asset_alternatives": [
+        "GLD",
+        "TLT"
+      ],
+      "active": false
+    }

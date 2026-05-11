@@ -1,0 +1,50 @@
+m with
+minority holdings in three other firms, you would value the equity in each of these firms, take the
+percent share of the equity in each, and add it to the value of equity in the parent company.
+
+When income statements are consolidated, you would first need to strip the income, assets, and debt
+of the subsidiary from the parent company’s financials before you do any of the aforementioned steps.
+If you do not do so, you will double count the value of the subsidiary.
+Why, you might ask, do we not value the consolidated firm? You could, and in some cases, because
+of the absence of information, you might have to. The reason we would suggest separate valuations is
+because the parent and the subsidiaries may have very different characteristics—costs of capital,
+growth rates, and reinvestment rates. Valuing the combined firm under these circumstances will yield
+misleading results. There is another reason: Once you have valued the consolidated firm, you will
+have to subtract the portion of the equity in the subsidiary that the parent company does not own. If
+you have not valued the subsidiary separately, it is not clear how you would do this. Note that the
+conventional practice of netting out the minority interest does not accomplish this, because minority
+interest reflects book rather than market value.
+As a firm’s holdings become more numerous, estimating the values of the holdings will become
+more onerous. If the holdings are publicly traded, substituting the market values of the holdings for
+estimated value is an alternative worth exploring. While you risk building into your valuation any
+mistakes the market might be making in valuing these holdings, this approach is more time efficient.
+ESTIMATING THE VALUE OF HOLDINGS IN PRIVATE
+COMPANIES
+When a publicly traded firm has a cross holding in a private company, it is often difficult to obtain information on the private
+company and to value it. Consequently, you might have to make your best estimate of how much this holding is worth based
+on the limited information that you have available. One way to do this is to estimate the multiple of book value at which firms
+in the same business (as the private business in which you have holdings) typically trade at and apply this multiple to the book
+value of the holding in the private business. Assume, for instance, that you are trying to estimate the value of the holdings of
+a pharmaceutical firm in five privately held biotechnology firms, and that these holdings collectively have a book value of $50
+million. If biotechnology firms typically trade at 10 times book value, the estimated market value of these holdings would be
+$500 million.
+In fact, this approach can be generalized to estimate the value of complex holdings when you lack the information to
+estimate the value for each holding or there are too many such holdings. For example, you could be valuing a Japanese firm
+with dozens of cross holdings. You could estimate a value for the cross holdings by applying a multiple of book value to their
+cumulative book value.
+ILLUSTRATION 16.6: 
+Valuing Holdings in Other
+Companies
+Segovia Entertainment operates in a wide range of entertainment businesses. The firm reported $300 million in operating
+income (EBIT) on capital invested of $1,500 million in the current year; the total debt outstanding is $500 million. A portion
+of the operating income ($100 million), capital invested ($400 million), and debt outstanding ($150 million) represent
+Segovia’s holdings in Seville Television, a television station owner. Segovia owns only 51% of Seville, but Seville’s financials
+are fully consolidated with those of Segovia.
+7
+ In addition, Segovia owns 15% of LatinWorks, a record and CD company.
+These holdings have been categorized as minority passive investments, and the dividends from the investments are shown as
+part of Segovia’s net income but not as part of its operating income. LatinWorks reported operating income of $80 million on
+capital invested of $250 million in the current year; the firm has $100 million in debt outstanding. We will assume the
+following:
+The cost of capital for Segovia Entertainment, without considering its holdings in either Seville or LatinWorks,
+is 10%. The firm is in stable growth, with operating income (again not counting the holdings) growing 5% a

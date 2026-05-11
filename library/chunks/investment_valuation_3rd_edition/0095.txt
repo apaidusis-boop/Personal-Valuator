@@ -1,0 +1,133 @@
+e
+1989
+$ 1.20
+1990
+$ 2.09
+1991
+$ 4.64
+1992
+$ 5.34
+1993
+$ 5.05
+1994
+$ 7.64
+1995
+$10.97
+1996
+$20.66
+1997
+$32.31
+1998
+$69.34
+a.
+ Estimate the average annual return you would have made on your investment.
+
+b.
+ Estimate the standard deviation and variance in annual returns.
+c.
+ If you were investing in Microsoft today, would you expect the historical standard deviations
+and variances to continue to hold? Why or why not?
+2.
+ Unicom is a regulated utility serving northern Illinois. The following table lists the stock prices
+and dividends on Unicom from 1989 to 1998.
+Year
+Price
+Dividends
+1989
+$36.10
+$3.00
+1990
+$33.60
+$3.00
+1991
+$37.80
+$3.00
+1992
+$30.90
+$2.30
+1993
+$26.80
+$1.60
+1994
+$24.80
+$1.60
+1995
+$31.60
+$1.60
+1996
+$28.50
+$1.60
+1997
+$24.25
+$1.60
+1998
+$35.60
+$1.60
+a.
+ Estimate the average annual return you would have made on your investment.
+b.
+ Estimate the standard deviation and variance in annual returns.
+c.
+ If you were investing in Unicom today, would you expect the historical standard deviations
+and variances to continue to hold? Why or why not?
+3.
+ The following table summarizes the annual returns you would have made on two companies—
+Scientific Atlanta, a satellite and data equipment manufacturer, and AT&T, the
+telecommunications giant—from 1989 to 1998.
+Year
+Scientific Atlanta
+AT&T
+1989
+80.95%
+58.26%
+1990
+–47.37%
+–33.79%
+1991
+31.00%
+29.88%
+1992
+132.44%
+30.35%
+1993
+32.02%
+2.94%
+1994
+25.37%
+–4.29%
+1995
+–28.57%
+28.86%
+1996
+0.00%
+–6.36%
+1997
+11.67%
+48.64%
+1998
+36.19%
+23.55%
+a.
+ Estimate the average annual return and standard deviation in annual returns in each company.
+b.
+ Estimate the covariance and correlation in returns between the two companies.
+c.
+ Estimate the variance of a portfolio composed, in equal parts, of the two investments.
+4.
+ You are in a world where there are only two assets, gold and stocks. You are interested in
+investing your money in one, the other, or both assets. Consequently you collect the following data
+on the returns on the two assets over the past six years.
+Gold
+Stock Market
+Average return
+8%
+20%
+Standard deviation
+25%
+22%
+Correlation
+–0.4
+a.
+ If you were constrained to pick just one, which one would you choose?
+b.
+ A friend argues that this is wrong. He says that you are ignoring the big payoffs that you can

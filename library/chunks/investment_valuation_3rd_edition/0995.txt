@@ -1,0 +1,63 @@
+iple works in the sector. The multiple with the
+
+highest R-squared is the multiple that you can best explain using fundamentals and should be the
+multiple you use to value companies in that sector.
+3.
+
+Conventional multiple approach.
+ Over time, you usually see a specific multiple become the
+most widely used one for a specific sector. For instance, price-to-book ratios are the most
+commonly used multiple to analyze financial service companies.
+Table 34.1
+ summarizes the most widely used multiples by sector. In an ideal world, you should see
+all three approaches converge—the fundamental that best explains value should also have the highest
+R-squared and be the conventional multiple used in the sector. In fact, when the multiple in use
+conventionally does not reflect fundamentals, which can happen if the sector is in transition or
+evolving, you will get misleading estimates of value.
+Table 34.1
+ Most Widely Used Multiples by Sector
+Sector
+Multiple Used
+Rationale/Comments
+Cyclical manufacturing 
+High tech, high growth
+PE, relative PE 
+PEG
+Often with normalized earnings. Big differences in growth across firms make it difficult to compare PE ratios.
+High growth/negative earnings 
+Infrastructure
+PS, VS 
+EV/BITDA
+Assume future margins will be positive. 
+Firms in sector have losses in early years, and reported earnings can vary depending on depreciation method.
+REIT
+P/CF
+Restrictions on investment policy and large depreciation charges make cash flows better measure than equity earnings.
+Financial services 
+Retailing
+PBV 
+PS 
+VS
+Book value often marked to market. 
+If leverage is similar across firms. 
+If leverage is different.
+Market or Sector Valuation
+In most relative valuations, you value a firm relative to other firms in the industry in which the firm
+operates, and attempt to answer a simple question: Given how other firms in the business (sector) are
+priced by the market, is this firm under- or overvalued? Within this approach, you can define
+comparable firms either narrowly, as being firms that not only operate in the business in which your
+firm operates but also look like your firm in terms of size or market served, or broadly, in which case
+you will have far more comparable firms. If you are attempting to control for differences across firms
+subjectively, you should stick with the narrower group. But if you plan to control for differences
+statistically—with a regression, for instance—you should go with the broader definition.
+The chapters on relative valuation presented an alternative approach to relative valuation, where
+firms were valued relative to the entire market. When you do this, you are not only using a much
+larger universe of questions, but asking a different question: Given how other firms in the market are
+priced, is this firm under- or overvalued? A firm can be undervalued relative to its sector but
+overvalued relative to the market if the entire sector is mispriced.
+The approach you use to relative valuation will depend again on what your task is defined to be. If
+you want to stay narrowly focused on your sector and make judgments on which stocks are under- or
+overvalued, you should stick with sector-based relative valuation. If you have more leeway and are
+trying to find under- or overvalued stocks across the market, you should look at the second approach
+—perhaps in addition to the first one.
+WHEN SHOULD YOU USE THE OPTION PRICING

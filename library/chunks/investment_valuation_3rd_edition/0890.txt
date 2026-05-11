@@ -1,0 +1,37 @@
+t value
+of –$2 million; the project is a very risky one that will push up the standard deviation in firm value to
+50 percent. The equity as a call option can then be valued using the following inputs:
+
+Based on these inputs, the Black-Scholes model provides the following value for the equity and debt
+in this firm:
+The value of equity rises from $75.94 million to $77.71 million, even though the firm value declines
+by $2 million. The increase in equity value comes at the expense of bondholders, who find their
+wealth decline from $24.06 million to $20.29 million.
+Conglomerate Mergers
+Bondholders and stockholders may also be affected differently by conglomerate mergers, where the
+variance in earnings and cash flows of the combined firm can be expected to decline because the
+merging firms have earning streams that are not perfectly correlated. In these mergers, the value of the
+combined equity in the firm will decrease after the merger because of the decline in variance;
+consequently, bondholders will gain. Stockholders can reclaim some or all of this lost wealth by
+utilizing their higher debt capacity and issuing new debt. To illustrate, suppose you are provided with
+the following information on two firms, Lube & Auto (auto service) and Gianni Cosmetics (a
+cosmetics manufacturer) that hope to merge.
+Lube & Auto
+Gianni Cosmetics
+Value of the firm
+$100 million
+$150 million
+Face value of debt
+$80 million
+$50 million (zero coupon debt)
+Maturity of debt
+10 years
+10 years
+Standard deviation in firm value
+40%
+50%
+Correlation between firm cash flows is 0.4. The 10-year bond rate is 10%.
+We calculate the variance in the value of the firm after the acquisition as follows:
+We estimate the values of equity and debt in the individual firms and the combined firm using the
+option pricing model:
+The combined value of the equity prior to the merger is $210.42 million; it declines to $207.58

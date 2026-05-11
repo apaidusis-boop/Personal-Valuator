@@ -1,0 +1,49 @@
+in the stable growth
+model—the growth rate, the reinvestment rate, the operating margin, and the cost of capital—but the
+number of estimates increases to reflect the existence of a high growth period.
+
+ILLUSTRATION 20.3: Estimating the Intrinsic EV-to-Sales
+Ratio for a High Growth Firm: Coca-Cola in May 2011
+Coca-Cola has been successful in delivering high growth with impressive margins for decades. In 2010, Coca-Cola reported
+pretax operating income of $8,449 million on revenues of $35,119 million; the tax rate for the company was approximately
+40%. At the end of 2009, the firm had total capital invested of $31,679 million, leading to the following inputs:
+We will assume that the firm will be able to maintain its current margin and return on capital for the next 10 years, while
+reinvesting 60% of its after-tax operating income back into the business (the average over the past five years). During this
+period, we also assume that Coca-Cola will have a beta of 0.90 and a pretax cost of debt of 4.50%, and that it will remain at
+its existing debt-to-capital ratio of 7.23%, resulting in a cost of capital of 8.03% (the equity risk premium of 5.5% reflects
+Coca-Cola’s exposure to emerging markets):
+After year 10, we assume that Coca-Cola will be in stable growth, growing 3.5% a year, and that its operating margin and
+sales-to-capital ratio will drop back toward (but not all the way to) industry averages (after-tax operating margin will be 12%
+and the sales-to-capital ratio will converge on 1). In stable growth, we also assume that the beta for the company will be 1
+and that the debt ratio will rise to 20%.
+The inputs that we will use to estimate the EV/Sales ratio for Coca-Cola are listed here:
+High Growth
+Stable Growth
+Length of period
+10
+After year 5
+After-tax operating margin
+14.43%
+12.00%
+Sales/capital
+1.11
+1.00
+Return on capital
+16.00%
+12%
+Reinvestment rate
+60%
+3.5%/12% = 29.17%
+Expected growth rate
+9.60%
+3.50%
+Cost of capital
+8.03%
+7.74%
+Plugging these numbers into the two-stage EV/Sales equation, we get:
+Based on our inputs, the enterprise value for Coca-Cola should be 3.51 times revenues:
+In May 2011, Coca-Cola’s market capitalization was $152,200 million. Incorporating the debt outstanding ($11,859 million)
+and the cash balance ($4,979 million) yields 
+an actual enterprise value of:
+The company looks overvalued, based on our assumptions, by about 23%.
+firmmult.xls:

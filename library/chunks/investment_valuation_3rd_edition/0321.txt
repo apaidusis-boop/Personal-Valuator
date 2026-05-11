@@ -1,0 +1,40 @@
+ar t – 1 can be
+written as:
+where ROE
+t–1
+ = Return on equity in year t – 1
+The net income in year t can be written as:
+Assuming that the return on equity is unchanged (i.e., ROE
+t
+ = ROE
+t–1
+ = ROE):
+
+where b is the retention ratio. Note that the firm is not being allowed to raise equity by issuing new
+shares. Consequently, the growth rate in net income and the growth rate in earnings per share are the
+same in this formulation.
+ILLUSTRATION 11.5: Growth in Earnings per Share
+This illustration considers the expected growth rate in earnings based on the retention ratio and return on equity for three
+firms—Consolidated Edison, a regulated utility that provides power to New York City and its environs; Procter & Gamble, a
+leading brand-name consumer product firm; and Intel, the technology giant—in 2010. The following table summarizes the
+returns on equity, retention ratios, and expected growth rates in earnings for the three firms in 2010:
+Intel has the highest expected growth rate in earnings per share, assuming that it can maintain its current return on equity
+and retention ratio. Procter & Gamble also can be expected to post a healthy growth rate, notwithstanding the fact that it
+pays out more than 50% of its earnings as dividends because of its high return on equity. Con Ed, on the other hand, has a
+very low expected growth rate because its return on equity and retention ratio are anemic.
+Growth in Net Income
+ If we relax the assumption that the only source of equity is retained earnings,
+the growth in net income can be different from the growth in earnings per share. Intuitively, note that a
+firm can grow net income significantly by issuing new equity to fund new projects, while earnings per
+share stagnates. To derive the relationship between net income growth and fundamentals, we need a
+measure of investment that goes beyond retained earnings. One way to obtain such a measure is to
+estimate how much equity the firm reinvests back into its businesses in the form of net capital
+expenditures and investments in working capital.
+Dividing this number by the net income gives us a much broader measure of the equity reinvestment
+rate:
+Unlike the retention ratio, this number can be well in excess of 100 percent with the excess being
+funded with new equity. The expected growth in net income can then be written as:
+ILLUSTRATION 11.6: Growth in Net Income
+To estimate growth in operating income based on fundamentals, we look at three firms—Coca-Cola, Nestlé, and Sony. The
+following table estimates the components of equity reinvestment and uses it to estimate the reinvestment rate for each of the
+firms. We also present the return on equity and the expected growth rate in net income at each of these firms in 2010:

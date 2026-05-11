@@ -1,0 +1,39 @@
+noted in prior chapters, it is not only the growth rate that changes in stable growth. The payout
+ratio has to adjust to reflect the stable growth rate (g), and can be estimated from the payout ratio:
+
+The risk of the firm should also adjust to reflect the stable growth assumption. In particular, if betas
+are used to estimate the cost of equity, they should converge toward 1 in stable growth.
+ILLUSTRATION 21.1: Valuing HSBC — Stable Growth
+Dividend Discount Model
+Founded in Hong Kong and headquartered now in London, HSBC is one of the largest commercial banks in the world. In
+2010, the company reported earnings per share of 74.8 pence/share and paid out dividends of 36 pence/share, resulting into a
+dividend payout ratio of 48.13%:
+The firm is assumed to have a beta of 1.00, and the cost of equity is computed in British pounds, with a risk-free rate of 4%
+and an equity risk premium of 5.5% (composed of a mature market premium of 5% and an additional country risk premium
+of 0.5% to reflect HSBC's substantial exposure in Asia). The cost of equity is computed to be 9.5%:
+We will assume that the firm is in stable growth, with a growth rate of 3.5% in perpetuity, leading to a value per share of 621
+pence/share:
+The stock was trading at 635 pence/share, making it fairly valued. That said, this is a conservative estimate of value per
+share for HSBC, since we are assuming a growth rate of 3.5% and a payout ratio of 48.13%, implicitly leading to a return on
+equity of 7.27% (3.5%/48.13%), lower than the cost of equity of 9.5%. If HSBC is able to maintain a ROE equal to its cost
+of equity of 9.5%, it 
+should be able to pay out significantly more dividends and still deliver the same expected growth rate:
+Applying this payout ratio to earnings in 2010 would have resulted in higher dividends (47.24 pence instead of 36 pence) and
+a value per share of 729 pence/share:
+ILLUSTRATION 21.2: A High-Growth Dividend Discount
+Model: State Bank of India in 2001
+State Bank of India is India's largest bank, created in the aftermath of a nationalization of all banks in India in 1971. For the
+two decades that followed, it operated as a monopoly and was entirely government owned. In the 1990s, the Indian
+governments privatized portions of the bank while retaining control of its management and operations.
+In 1999, State Bank of India earned 205 million Indian rupees on a book value of equity of 1,042 million rupees (at the
+beginning of 1999), resulting in a return on equity of 19.72%. The bank also paid out dividends of Rs 2.50 per share from
+earnings per share of Rs 38.98; this yielded a payout ratio of 6.41%. The high retention ratio suggests that the firm investing
+substantial amounts in the expectation of high growth in the future. We will analyze its value over three phases—an initial
+period of sustained high growth, a transition period in which growth drops toward stable growth, and a stable growth phase.
+HIGH GROWTH PHASE
+If State Bank of India can maintain the current return on equity of 19.72% and payout ratio of 6.41%, the expected growth
+rate in earnings per share will be 18.46%:
+The key question is how long the bank can sustain this growth. Given the large potential size of the Indian market, we
+assume that this growth will continue for four years. During this period, we also allow for the fact that there will be
+substantial risk associated with the Indian economy by allowing for a country risk premium in estimating the cost of equity.
+Using the approach developed earlier in the book, we estimate a risk premium for India based on its rating of BB+ in 2001

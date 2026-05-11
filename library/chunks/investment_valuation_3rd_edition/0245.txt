@@ -1,0 +1,43 @@
+. Thus, the market value of $1 billion in debt, with interest
+expenses of $60 million (annually) and a maturity of six years, when the current cost of debt is 7.5
+percent, can be estimated as follows:
+
+ILLUSTRATION 8.16: Difference between Market Value
+and Book Value Debt Ratios: Boeing in June 2000
+This illustration contrasts the book values of debt and equity with the market values. For debt, we estimate the market value
+of debt using the book value of debt, the interest expense on the debt, the average maturity of the debt, and the pretax cost
+of debt for each firm. For Boeing, the book value of debt is $6,972 million, the interest expense on the debt is $453 million,
+the average maturity of the debt is 13.76 years, and the pretax cost of debt is 6%. The estimated market value is:
+To this, we need to add the present value of operating leases of $556 million to arrive at a total market value for debt of
+$7,847 million.
+The book value of equity for Boeing was $12,316 million while the market value of equity was $55,197 million. The debt
+ratios in market value and book value terms are computed as follows:
+Market Value
+Book Value
+Debt to equity
+7,847/55,197 = 14.22%
+6,972/12,316 = 56.61%
+Debt/(Debt + Equity)
+7,847/(7,847 + 55,197) = 12.45%
+6,972/(6,972 + 12,316) = 36.15%
+The market debt ratio is significantly lower than the book debt ratio.
+GROSS DEBT VERSUS NET DEBT
+Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the
+firm. For instance, a firm with $1.25 billion in interest-bearing debt outstanding and a cash balance of $1 billion has a net debt
+balance of $250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt
+ratios are usually estimated using net debt.
+It is generally safer to value a firm based on gross debt outstanding and to add the cash balance outstanding to the value of
+operating assets to arrive at the firm value. The interest payment on total debt is then entitled to the tax benefits of debt, and
+we can assess the effect of whether the company invests its cash balances efficiently on value.
+In some cases, especially when firms maintain large cash balances as a matter of routine, analysts prefer to work with net
+debt ratios. If you choose to use net debt ratios, you have to be consistent all the way through the valuation. To begin, the
+beta for the firm should be estimated using a net debt-to-equity ratio rather than a gross debt-to-equity ratio. The cost of
+equity that emerges from the beta estimate can be used to estimate a cost of capital, but the market value weight on debt
+should be based on net debt. Once you discount the cash flows of the firm at the cost of capital, you should not add back
+cash. Instead, you should subtract the net debt outstanding to arrive at the estimated value of equity.
+Implicitly, when you net cash against debt to arrive at net debt ratios, you are assuming that cash and debt have roughly
+similar risk. While this assumption may not be outlandish when analyzing highly rated firms, it becomes much shakier when
+debt becomes riskier. For instance, the debt in a BB-rated firm is much riskier than the cash balance in the firm, and netting
+out one against the other can provide a misleading view of the firm's default risk. In general, using net debt ratios will
+overstate the value of riskier firms.
+wacccalc.xls:

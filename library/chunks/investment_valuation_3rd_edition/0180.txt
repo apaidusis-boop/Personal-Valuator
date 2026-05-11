@@ -1,0 +1,30 @@
+this table, we would be inclined to go
+with 4.31 percent, the geometric average risk premium for stocks over Treasury bonds from 1928
+to 2010.
+Table 7.3
+ Historical Risk Premiums for the United States
+
+histretSP.xls:
+
+There is a dataset on the Web that summarizes historical returns on stocks, T-bonds, and
+T-bills in the United States going back to 1928.
+Historical Risk Premiums: Other Markets
+If it is difficult to estimate a reliable historical premium for the U.S. market, it becomes doubly so
+when looking at markets with short and volatile histories. This is clearly true for emerging markets,
+but it is also true for the European equity markets. While the economies of Germany, Italy, and France
+may be mature, their equity markets do not share the same characteristic. Until two decades ago, they
+tend to be dominated by a few large companies; many businesses remain private; and trading was,
+except on a few stocks.
+There are some practitioners who still use historical premiums for these markets. To capture some
+of the danger in this practice, 
+Table 7.4
+ summarizes historical risk premiums
+11
+ for major non-U.S.
+markets for 1970 to 2010.
+Table 7.4
+ Historical Equity Risk Premiums: Markets outside the United States
+Note that some of the countries have very low historical risk premiums, and a few others have high
+risk premiums. Before an attempt is made to come up with a rationale for why this might be so, it is
+worth noting that the standard error on each and every one of these estimates is high, notwithstanding
+the fact that the premiums are estimated over a very long time period.

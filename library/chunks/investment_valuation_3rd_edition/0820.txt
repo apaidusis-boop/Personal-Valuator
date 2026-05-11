@@ -1,0 +1,47 @@
+the value of the restaurant can be estimated as follows:
+VALUING THE KEY PERSON
+There would probably be no argument that some of Lutèce's value derives from Andre Soltner's presence as chef. It would
+
+be worth examining how much this value would change if he were to be replaced by somebody else. The simplest way to
+evaluate this effect is to:
+Estimate the effect on occupancy of replacing Mr. Soltner with another chef, and through this on cash flows.
+To the extent that occupancy and cash flows decline, the value of the restaurant will decline.
+Calculate the value of the restaurant based on the discounted cash flows.
+In extreme cases, where the entire value of an enterprise depends on one person, the value can drop to essentially zero if the
+key person were to leave or die. In less extreme cases, the value of the key person can be estimated to be the difference in
+value of the enterprise with and without that person in place.
+Valuing Trademarks, Copyrights, and Licenses
+Trademarks, copyrights, and licenses all give the owner the exclusive right to produce a product or
+provide a service. Fundamentally, then, their value is derived from the cash flows that can be
+generated from the exclusive right. To the extent that there is a cost associated with production, the
+value comes from the excess returns that come from having the exclusive right.
+As with other assets, you can value trademarks or copyrights in one of two ways. You can estimate
+the expected cash flows from owning the asset, attach a discount rate to these cash flows that reflects
+their uncertainty, and take the present value, which will yield a discounted cash flow valuation of the
+asset. Alternatively, you can attempt a relative valuation, where you apply a multiple to the revenues
+or income that you believe that you can generate from the trademark or copyright. The multiple is
+usually estimated by looking at what similar products have sold for in the past.
+In making these estimates, you are likely to run into estimation issues that are unique to these assets.
+First, you have to consider the fact that a copyright or trademark provides you exclusive rights for a
+finite period. Consequently, the cash flows you will estimate will be for only this period and there
+will generally be no terminal value. Second, you have to factor in the expected costs of violations of
+the copyright and trademark. These costs can include at least two items. The first is the legal and
+monitoring cost associated with enforcing exclusivity. The second is the fact that no matter how
+careful you are with the monitoring, you cannot ensure that there will be no violations, and the lost
+revenues (profits) that arise as a consequence will lower the value of the right.
+ILLUSTRATION 27.4: Valuing the Copyright on 
+Investment
+Valuation
+Assume that John Wiley & Sons has been approached by another publisher that is interested in buying the copyright to this
+book (
+Investment Valuation
+). To estimate the value of the copyright, we will make the following assumptions:
+3
+The book is expected to generate $150,000 in after-tax cash flows (hopeful thinking, I know) each year for
+the next three years to Wiley and $100,000 a year for the subsequent two years. These are the cash flows
+after author royalties, promotional expenses, and production costs.
+About 40% of these cash flows are from large organizations that make bulk orders and are considered
+predictable and stable. The cost of capital applied to these cash flows is 7%.
+The remaining 60% of the cash flows are to the general public, and this segment of the cash flows is
+considered much more volatile. The cost of capital applied to these cash flows is 10%.
+The value of the copyright can be estimated using these cash flows and the cost of capital that has been supplied:

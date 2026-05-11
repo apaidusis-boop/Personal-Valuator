@@ -1,0 +1,189 @@
+Batch: 7 videos. force_retranscribe=False force_extract=False
+
+[1/7] WIRWPyYNJzE
+
+=== 1/6 Download ===
+[download]   0.0% of   33.41MiB at   15.97KiB/s ETA 35:41[download]   0.0% of   33.41MiB at   47.70KiB/s ETA 11:57[download]   0.0% of   33.41MiB at  111.07KiB/s ETA 05:07[download]   0.0% of   33.41MiB at  237.17KiB/s ETA 02:24[download]   0.1% of   33.41MiB at  154.44KiB/s ETA 03:41[download]   0.2% of   33.41MiB at  196.18KiB/s ETA 02:54[download]   0.4% of   33.41MiB at  277.74KiB/s ETA 02:02[download]   0.7% of   33.41MiB at  410.78KiB/s ETA 01:22[download]   1.5% of   33.41MiB at  605.05KiB/s ETA 00:55[download]   3.0% of   33.41MiB at 1008.74KiB/s ETA 00:32[download]   6.0% of   33.41MiB at    1.28MiB/s ETA 00:24[download]  11.5% of   33.41MiB at    1.73MiB/s ETA 00:17[download]  19.8% of   33.41MiB at    2.27MiB/s ETA 00:11[download]  29.8% of   33.41MiB at    2.40MiB/s ETA 00:09[download]  29.8% of   33.41MiB at    5.15KiB/s ETA 01:17:38[download]  29.8% of   33.41MiB at   15.44KiB/s ETA 25:55   [download]  29.8% of   33.41MiB at   35.99KiB/s ETA 11:07[download]  29.9% of   33.41MiB at   77.04KiB/s ETA 05:11[download]  29.9% of   33.41MiB at  140.76KiB/s ETA 02:50[download]  30.0% of   33.41MiB at  188.23KiB/s ETA 02:07[download]  30.2% of   33.41MiB at  276.95KiB/s ETA 01:26[download]  30.6% of   33.41MiB at  424.79KiB/s ETA 00:55[download]  31.3% of   33.41MiB at  680.62KiB/s ETA 00:34[download]  32.8% of   33.41MiB at  989.36KiB/s ETA 00:23[download]  35.8% of   33.41MiB at    1.55MiB/s ETA 00:13[download]  41.8% of   33.41MiB at    1.84MiB/s ETA 00:10[download]  48.5% of   33.41MiB at    2.15MiB/s ETA 00:07[download]  57.7% of   33.41MiB at    2.32MiB/s ETA 00:06[download]  59.4% of   33.41MiB at    2.33MiB/s ETA 00:05[download]  59.4% of   33.41MiB at  129.21KiB/s ETA 01:47[download]  59.4% of   33.41MiB at  374.46KiB/s ETA 00:37[download]  59.5% of   33.41MiB at  861.28KiB/s ETA 00:16[download]  59.5% of   33.41MiB at    1.78MiB/s ETA 00:07[download]  59.5% of   33.41MiB at    3.11MiB/s ETA 00:04[download]  59.6% of   33.41MiB at    4.44MiB/s ETA 00:03[download]  59.8% of   33.41MiB at    3.75MiB/s ETA 00:03[download]  60.2% of   33.41MiB at    2.89MiB/s ETA 00:04[download]  60.9% of   33.41MiB at    3.09MiB/s ETA 00:04[download]  62.4% of   33.41MiB at    3.06MiB/s ETA 00:04[download]  65.4% of   33.41MiB at    3.08MiB/s ETA 00:03[download]  71.4% of   33.41MiB at    3.07MiB/s ETA 00:03[download]  80.5% of   33.41MiB at    2.95MiB/s ETA 00:02[download]  88.5% of   33.41MiB at    2.97MiB/s ETA 00:01[download]  88.5% of   33.41MiB at  885.62KiB/s ETA 00:04[download]  88.5% of   33.41MiB at    1.89MiB/s ETA 00:02[download]  88.5% of   33.41MiB at    4.00MiB/s ETA 00:00[download]  88.6% of   33.41MiB at    8.02MiB/s ETA 00:00[download]  88.6% of   33.41MiB at    4.73MiB/s ETA 00:00[download]  88.7% of   33.41MiB at    3.53MiB/s ETA 00:01[download]  88.9% of   33.41MiB at    2.79MiB/s ETA 00:01[download]  89.3% of   33.41MiB at    2.90MiB/s ETA 00:01[download]  90.0% of   33.41MiB at    2.94MiB/s ETA 00:01[download]  91.5% of   33.41MiB at    2.98MiB/s ETA 00:00[download]  94.5% of   33.41MiB at    3.00MiB/s ETA 00:00[download] 100.0% of   33.41MiB at    3.00MiB/s ETA 00:00[download] 100% of   33.41MiB in 00:00:16 at 2.00MiB/s                                                         video: 'Turbulência global, petróleo e oportunidades em tecnologia | Radar do Investidor' (2408s) — BTG Pactual
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:45:40,924 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:45:41,102 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:45:42,384 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:45:45,725 INFO faster_whisper Processing audio with duration 40:07.915
+2026-04-23 16:45:48,524 INFO faster_whisper VAD filter removed 00:19.419 of audio
+2026-04-23 16:45:49,593 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:46:32,750 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=2407.9s chunks=1172 chars=40237
+lang=pt duration=2408s chunks=1172 chars=40237
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:46:32,868 INFO youtube.router router_done tickers=7 themes=7
+tickers matched: ['GS', 'JPM', 'MSFT', 'PETR4', 'TSM', 'V', 'VALE3']
+themes matched:  ['banking_br', 'fed_path', 'ipca_inflacao', 'oil_cycle', 'selic_cycle', 'semis_cycle', 'usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:46:37,432 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-04-23 16:46:47,963 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 2 insights (raw)
+2026-04-23 16:46:51,194 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 1 insights (raw)
+2026-04-23 16:46:56,435 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TSM      → 1 insights (raw)
+2026-04-23 16:47:00,034 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  GS       → 1 insights (raw)
+2026-04-23 16:47:00,832 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  V        → 0 insights (raw)
+2026-04-23 16:47:11,819 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  MSFT     → 2 insights (raw)
+2026-04-23 16:47:26,026 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:selic_cycle              → 3 themes (raw)
+2026-04-23 16:47:43,514 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:ipca_inflacao            → 3 themes (raw)
+2026-04-23 16:47:56,880 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 2 themes (raw)
+2026-04-23 16:48:01,930 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:fed_path                 → 1 themes (raw)
+2026-04-23 16:48:14,143 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:14,143 WARNING youtube.extractor extractor_parse_fail err=16 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Preço do Petr... flexíveis no futuro.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Política Monet...tados Unidos e Brasil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Impacto na Infl... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Câmbio e Conta...âmbio mais apreciado.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Preço do Petróleo e Impacto na Economia', 'description': 'O preço do petróleo está influenciando diretamente a inflação, as expectativas de juros futuros e o câmbio. A normalização dos preços pode abrir espaço para políticas monetárias mais flexíveis no futuro.'}, {'name': 'Política Monetária Global', 'description': 'Os bancos centrais estão reagindo com cautela ao choque de preços do petróleo, mantendo as taxas de juros estáveis ou ajustando-as de forma gradual. Isso afeta
+2026-04-23 16:48:26,961 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 16:48:26,962 WARNING youtube.extractor extractor_parse_fail err=16 validation errors for ExtractorOutput
+themes.0.theme
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.summary
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.evidence_quote
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.0.confidence
+  Field required [type=missing, input_value={'name': 'Impacto da guer... preços do petróleo.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.theme
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.summary
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.evidence_quote
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.1.confidence
+  Field required [type=missing, input_value={'name': 'Política monet... política monetária.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.theme
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.summary
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.evidence_quote
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.2.confidence
+  Field required [type=missing, input_value={'name': 'Previsões para...o nos próximos meses.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.theme
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.summary
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.evidence_quote
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+themes.3.confidence
+  Field required [type=missing, input_value={'name': 'Estratégias de...a causada pela guerra.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing raw={'themes': [{'name': 'Impacto da guerra na economia global', 'description': 'A discussão abrange como a guerra afetou as condições financeiras globais, inflação e preços do petróleo.'}, {'name': 'Política monetária em resposta ao conflito', 'description': 'Análise sobre como os bancos centrais reagiram à crise econômica causada pela guerra, incluindo taxas de juros e cortes na política monetária.'}, {'name': 'Previsões para o câmbio e inflação', 'description': 'Projeções futuras sobre a taxa de 
+  theme:oil_cycle                → 0 themes (raw)
+2026-04-23 16:48:36,759 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 1 themes (raw)
+2026-04-23 16:48:46,162 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:banking_br               → 2 themes (raw)
+
+=== 5/6 Validate ===
+2026-04-23 16:48:46,168 INFO youtube.validator drop_cross_contam ticker=PETR4 claim=A inflação no Brasil pode continuar elevada, afetando as decisões do Banco Centr
+{
+  "insights_in": 7,
+  "themes_in": 12,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 1,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 4,
+  "themes_out": 12
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:48:46,204 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 3, 'themes': 12, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 1,
+  "us_insights": 3,
+  "themes": 12,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:48:46,207 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\WIRWPyYNJzE.webm
+
+Done in 204.4s.
+
+[2/7] RDRtyC4JopU
+
+=== 1/6 Download ===
+[download]   0.0% of   22.07MiB at   22.00KiB/s ETA 17:07[download]   0.0% of   22.07MiB at   65.50KiB/s ETA 05:45[download]   0.0% of   22.07MiB at  152.38KiB/s ETA 02:28[download]   0.1% of   22.07MiB at  324.92KiB/s ETA 01:09[download]   0.1% of   22.07MiB at  148.14KiB/s ETA 02:32[download]   0.3% of   22.07MiB at  174.00KiB/s ETA 02:09[download]   0.6% of   22.07MiB at  225.67KiB/s ETA 01:39[download]   1.1% of   22.07MiB at  324.91KiB/s ETA 01:08[download]   2.3% of   22.07MiB at  370.25KiB/s ETA 00:59[download]   4.2% of   22.07MiB at  626.64KiB/s ETA 00:34[download]   8.0% of   22.07MiB at  847.21KiB/s ETA 00:24[download]  14.1% of   22.07MiB at    1.26MiB/s ETA 00:15[download]  26.3% of   22.07MiB at    1.56MiB/s ETA 00:10[download]  36.0% of   22.07MiB at    1.66MiB/s ETA 00:08[download]  44.7% of   22.07MiB at    1.80MiB/s ETA 00:06[download]  44.7% of   22.07MiB at   19.45KiB/s ETA 10:43[download]  44.7% of   22.07MiB at   57.93KiB/s ETA 03:35[download]  44.7% of   22.07MiB at  134.73KiB/s ETA 01:32[download]  44.7% of   22.07MiB at  287.73KiB/s ETA 00:43[download]  44.8% of   22.07MiB at  175.86KiB/s ETA 01:10[download]  44.9% of   22.07MiB at  222.99KiB/s ETA 00:55[download]  45.2% of   22.07MiB at  297.39KiB/s ETA 00:41[download]  45.8% of   22.07MiB at  445.72KiB/s ETA 00:27[download]  46.9% of   22.07MiB at  673.36KiB/s ETA 00:17[download]  49.2% of   22.07MiB at  837.76KiB/s ETA 00:13[download]  53.7% of   22.07MiB at  997.13KiB/s ETA 00:10[download]  59.2% of   22.07MiB at    1.17MiB/s ETA 00:07[download]  67.1% of   22.07MiB at    1.29MiB/s ETA 00:05[download]  74.3% of   22.07MiB at    1.35MiB/s ETA 00:04[download]  81.6% of   22.07MiB at    1.34MiB/s ETA 00:03[download]  87.3% of   22.07MiB at    1.32MiB/s ETA 00:02[download]  89.9% of   22.07MiB at    1.38MiB/s ETA 00:01[download]  89.9% of   22.07MiB at    7.64KiB/s ETA 04:58[download]  89.9% of   22.07MiB at   22.87KiB/s ETA 01:39[download]  89.9% of   22.07MiB at   53.31KiB/s ETA 00:42[download]  90.0% of   22.07MiB at  114.11KiB/s ETA 00:19[download]  90.0% of   22.07MiB at  127.62KiB/s ETA 00:17[download]  90.2% of   22.07MiB at  185.95KiB/s ETA 00:11[download]  90.5% of   22.07MiB at  273.49KiB/s ETA 00:07[download]  91.0% of   22.07MiB at  419.16KiB/s ETA 00:04[download]  92.2% of   22.07MiB at  635.99KiB/s ETA 00:02[download]  94.4% of   22.07MiB at    1.01MiB/s ETA 00:01[download]  99.0% of   22.07MiB at    1.51MiB/s ETA 00:00[download] 100.0% of   22.07MiB at    1.42MiB/s ETA 00:00[download] 100% of   22.07MiB in 00:00:17 at 1.26MiB/s                                                         video: 'O mercado já precificou o fim do conflito no Oriente Médio? | Offshore Connection' (1507s) — BTG Pactual
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:49:06,061 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:49:06,234 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:49:07,448 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:49:09,652 INFO faster_whisper Processing audio with duration 25:07.179
+2026-04-23 16:49:11,279 INFO faster_whisper VAD filter removed 00:15.051 of audio
+2026-04-23 16:49:12,010 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:49:35,607 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1507.2s chunks=485 chars=23284

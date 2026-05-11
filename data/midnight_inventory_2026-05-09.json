@@ -1,0 +1,57 @@
+{
+  "us": {
+    "tickers_total": 109,
+    "gaps_per_field": {
+      "pe": 4,
+      "pb": 5,
+      "dy": 5,
+      "roe": 15,
+      "eps": 1,
+      "bvps": 1,
+      "dividend_streak_years": 5
+    },
+    "tickers_no_recent_div": [
+      "BRK-B",
+      "NU",
+      "PLTR",
+      "SPY",
+      "TEN",
+      "TSLA",
+      "TTD"
+    ],
+    "tickers_no_recent_fund": [],
+    "tickers_no_fundamentals_at_all": [
+      "SPY"
+    ]
+  },
+  "br": {
+    "tickers_total": 81,
+    "gaps_per_field": {
+      "pe": 12,
+      "pb": 20,
+      "dy": 7,
+      "roe": 23,
+      "eps": 7,
+      "bvps": 20,
+      "dividend_streak_years": 4
+    },
+    "tickers_no_recent_div": [
+      "AXIA7",
+      "BOVA11",
+      "BRKM5",
+      "BTLG12",
+      "IVVB11",
+      "LFTB11",
+      "PRIO3",
+      "RAPT4",
+      "SIMH3",
+      "TUPY3"
+    ],
+    "tickers_no_recent_fund": [],
+    "tickers_no_fundamentals_at_all": [
+      "BOVA11",
+      "BTLG12"
+    ]
+  },
+  "computed_at": "2026-05-09T00:41:36"
+}

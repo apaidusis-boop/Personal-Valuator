@@ -1,0 +1,61 @@
+{
+  "stock": "ITSA4",
+  "url": "https://statusinvest.com.br/acoes/itsa4",
+  "resume": {
+    "price": {"value": 14.17, "variation": 0.07},
+    "min52weeks": {"value": 9.37},
+    "max52weeks": {"value": 15.07},
+    "minMonth": {"value": 13.88},
+    "maxMonth": {"value": 15},
+    "valuation12Months": {"value": 55.48},
+    "valuationCurrentMonth": {"value": 2.96}
+  },
+  "indicators": [
+    {
+      "title": "indicadoresDeValuation",
+      "values": [
+        {"title": "D.Y", "value": 8.91},
+        {"title": "P/L", "value": 9.67},
+        {"title": "PEG Ratio", "value": 0.84},
+        {"title": "P/VP", "value": 1.71},
+        {"title": "EV/EBITDA", "value": 8.57},
+        {"title": "EV/EBIT", "value": 9.17},
+        {"title": "LPA", "value": 1.47},
+        {"title": "VPA", "value": 8.33}
+      ]
+    },
+    {
+      "title": "indicadoresDeEndividamento",
+      "values": [
+        {"title": "Dív. líquida/PL", "value": 0.05},
+        {"title": "Dív. líquida/EBITDA", "value": 0.25},
+        {"title": "Dív. líquida/EBIT", "value": 0.27},
+        {"title": "Liq. corrente", "value": 3.18}
+      ]
+    },
+    {
+      "title": "indicadoresDeEficiência",
+      "values": [
+        {"title": "M. Bruta", "value": 24.37},
+        {"title": "M. EBITDA", "value": 234.94},
+        {"title": "M. EBIT", "value": 219.65},
+        {"title": "M. Líquida", "value": 199.87}
+      ]
+    },
+    {
+      "title": "indicadoresDeRentabilidade",
+      "values": [
+        {"title": "ROE", "value": 17.66},
+        {"title": "ROA", "value": 14.83},
+        {"title": "ROIC", "value": 17.23}
+      ]
+    },
+    {
+      "title": "indicadoresDeCrescimento",
+      "values": [
+        {"title": "CAGR Receitas 5 anos", "value": 7.01},
+        {"title": "CAGR Lucros 5 anos", "value": 18.5}
+      ]
+    }
+  ]
+}

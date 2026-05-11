@@ -1,0 +1,49 @@
+riod. When inventory turns
+over rapidly, this approach will more closely resemble FIFO than LIFO.
+Firms often adopt the LIFO approach for its tax benefits during periods of high inflation. The cost of
+
+goods sold is then higher because it is based on prices paid toward to the end of the accounting
+period. This, in turn, will reduce the reported taxable income and net income while increasing cash
+flows. Studies indicate that larger firms with rising prices for raw materials and labor, more variable
+inventory growth, and an absence of other tax loss carryforwards are much more likely to adopt the
+LIFO approach.
+Given the income and cash flow effects of inventory valuation methods, it is often difficult to
+compare the profitability of firms that use different methods. There is, however, one way of adjusting
+for these differences. Firms that choose the LIFO approach to value inventories have to specify in a
+footnote the difference in inventory valuation between FIFO and LIFO, and this difference is termed
+the LIFO reserve. It can be used to adjust the beginning and ending inventories, and consequently the
+cost of goods sold, and to restate income based on FIFO valuation.
+Investments (Financial) and Marketable Securities
+In the category of investments and marketable securities, accountants consider investments made by
+firms in the securities or assets of other firms, as well as other marketable securities, including
+Treasury bills or bonds. The way in which these assets are valued depends on the way the investment
+is categorized and the motive behind the investment. In general, an investment in the securities of
+another firm can be categorized as a 
+minority passive investment
+, a 
+minority active investment
+, or a
+majority active investment
+, and the accounting rules vary depending on the categorization.
+Minority Passive Investments
+If the securities or assets owned in another firm represent less than 20 percent of the overall
+ownership of that firm, an investment is treated as a minority passive investment. These investments
+have an acquisition value, which represents what the firm originally paid for the securities, and often
+a market value. Accounting principles require that these assets be subcategorized into one of three
+groups—investments that will be held to maturity, investments that are available for sale, and trading
+investments. The valuation principles vary for each.
+For an investment that will be held to maturity, the valuation is at historical cost or book
+value, and interest or dividends from this investment are shown in the income statement.
+For an investment that is available for sale, the valuation is at market value, but the
+unrealized gains or losses are shown as part of the equity in the balance sheet and not in the
+income statement. Thus, unrealized losses reduce the book value of the equity in the firm,
+and unrealized gains increase the book value of equity.
+For a trading investment, the valuation is at market value, and the unrealized gains and
+losses are shown in the income statement.
+Firms are allowed an element of discretion in the way they classify investments and, subsequently,
+in the way they value these assets. This classification ensures that firms such as investment banks,
+whose assets are primarily securities held in other firms for purposes of trading, revalue the bulk of
+these assets at market levels each period. This is called marking to market, and provides one of the
+few instances in which market value trumps book value in accounting statements. Note, however, that
+this mark-to-market ethos did not provide any advance warning in 2008 to investors in financial
+service firms of the overvaluation of subprime and mortgage-backed securities.

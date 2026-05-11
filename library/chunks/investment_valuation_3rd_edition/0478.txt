@@ -1,0 +1,48 @@
+t least equal to the debt that you use to compute the cost of capital. Thus, if you decide to capitalize
+operating leases as debt, to compute the cost of capital, you should subtract the debt value of
+
+operating leases from the value of operating assets to estimate the value of equity. If the firm you are
+valuing has preferred stock, you would use the market value of the stock (if it is traded) or estimate a
+market value (if it is not)
+8
+ and deduct it from firm value to get to the value of common equity.
+There may be other claims on the firm that do not show up in debt that you should subtract from firm
+value.
+Expected liabilities on lawsuits.
+ You could be analyzing a firm that is the defendant in a
+lawsuit, where it potentially could have to pay tens of millions of dollars in damages. You
+should estimate the probability that this will occur, and use this probability to estimate the
+expected liability. Thus, if there is a 10 percent chance that you could lose a case that you
+are defending, and the expected damage award is $1 billion, you would reduce the value of
+the firm by $100 million (probability 
+× expected damages). If the expected liability is not
+anticipated until several years from now, you would compute the present value of the
+payment.
+Unfunded pension and health care obligations.
+ If a firm has significantly underfunded a
+pension or a health plan, it will need to set aside cash in future years to meet these
+obligations. While it would not be considered debt for cost of capital purposes, it should be
+subtracted from firm value to arrive at equity value.
+Deferred tax liability.
+ The deferred tax liability that shows up on the financial statements of
+many firms reflects the fact that firms often use tax-deferral strategies that reduce their taxes
+in the current year while increasing their taxes in future years. Of the three items listed here,
+this one is the least clearly defined, since it is not clear when or even whether the obligation
+will come due. Ignoring it may be foolhardy, though, since the firm could find itself making
+these tax payments in the future. The most sensible way of dealing with this item is to
+consider it an obligation, but one that will come due only when the firm’s growth rate
+moderates. Thus, if you expect your firm to be in stable growth in 10 years, you would
+discount the deferred tax liability back 10 years and deduct this amount from firm value to
+get to equity value.
+What about Future Claims?
+As you forecast earnings growth for your firm, you generally also assume that the firm will increase
+its debt as it grows. A question that arises then is whether you should be subtracting the value of these
+future debt issues when estimating equity value today. The answer is no, since the value of the equity
+is a current value and these future claims do not exist today. To illustrate, assume that you have a firm
+with no debt today and that you assume that it will have a 30 percent debt ratio in stable growth.
+Assume further that your estimate of the terminal value for this firm is $10 billion in five years. You
+are implicitly assuming that your firm will borrow $3 billion in five years to raise its debt ratio to 30
+percent. This higher debt ratio may affect your firm value today, but the value of equity today is the
+firm value less the current debt (which is zero).
+MANAGEMENT AND EMPLOYEE OPTIONS
+Firms use options to reward managers as well as other employees. There are two effects that these

@@ -1,0 +1,49 @@
+a = Beta of the stock in most current period
+To illustrate, a firm with a payout ratio of 40%, a beta of 1.25, a ROE of 25%, and expected
+growth rate of 15% would have had a price–book value ratio of:
+
+a.
+ What use, if any, would you put the R-squared of the regression to?
+b.
+ Assume that you have also run a sector regression on a company and estimated a price-to-
+book ratio based on that regression. Why might your result from the market regression yield a
+different result from the sector regression?
+7.
+ SoftSoap Corporation is a large consumer product firm that reported after-tax operating income
+of $600 million in a recent financial year. At the beginning of the year, the firm reported book
+value of equity of $4 billion and book value of debt of $1 billion. The market value of equity was
+$8 billion, the market value of debt was $1 billion, and the firm had a cost of equity of 11% and
+an after-tax cost of debt of 4%. If the firm is in stable growth, expecting to grow 4% a year in
+perpetuity, estimate the correct value-to-book value ratio for the firm.
+8.
+ Lyondell Inc. is a conglomerate with a value-to-book capital ratio of 2.0. If the firm is in stable
+growth, expecting to grow 4% a year in perpetuity, and has a cost of capital of 10%, what return
+on capital is the market assuming in perpetuity for Lyondell?
+9.
+ Estimate the value-to-book capital ratio for Zapata Enterprises, a trading firm in high growth,
+with the following characteristics:
+High Growth
+Stable Growth
+After-tax return on capital
+15%
+12%
+Expected growth rate
+12%
+4%
+Cost of capital
+10%
+9%
+If high growth is expected to last 10 years, estimate the correct value-to-book ratio for Zapata.
+10.
+ If Tobin's Q is computed by dividing the market value of traded equity and debt by the book
+value of assets, you will overestimate the value for high-growth firms. Explain why.
+1
+ If you do not do this and compare price-to-book ratios across firms with widely different amounts
+of options outstanding, you could misidentify firms with more options outstanding as undervalued
+—the market value of traded common stock at these firms will be lower because of the option
+overhang.
+2
+ As with the return on equity, if return on capital is defined in terms of contemporaneous earnings
+(ROC = EBIT
+0
+/Book capital), there will be an extra (1 + g) in the numerator.

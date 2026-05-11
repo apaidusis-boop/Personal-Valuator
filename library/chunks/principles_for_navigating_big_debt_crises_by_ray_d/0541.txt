@@ -1,0 +1,42 @@
+t for asset purchases was rising, and decrease it in the opposite situation. 
+n   Specifically, Regulation T set margin requirements for brokers and Regulation U set the margin requirement for 
+banks.
+
+Part 3: Appendix
+212
+n   All of the Fed’s changes to the margin requirements are shown in the chart below.
+n   Since 1974, the Federal Reserve mostly stopped using this lever, as the development of other ways of buying 
+assets on credit (e.g., derivatives) made it easy for investors to side-step this requirement. 
+0%
+2 0 %
+40%
+6 0 %
+80%
+10 0%
+12 0%
+1930-01  1933-01  1936-01  1939-01  1942-01  1945-01  1948-01  1951-01  1954-01  1957-01  1960-01  1963-01  1966-01  1969-01  1972-01  1975-01
+USA Initial  Margin Re quirem ent US S tocks
+Macroprudential Measures Aimed at Demand for Credit: Underwriting Standards
+Great Depression
+Congress created the Federal Home Loan Bank System in 1932. 10 It was designed to act as a quasi-central bank 
+for S&Ls, with the ability to provide liquidity through advances or collateralized lending. The FHLB System was 
+also in charge of setting underwriting standards and collateral restrictions.
+In 1934, Congress formed the Federal Housing Administration (FHA) to insure home loans. 11 This resulted in 
+easier underwriting standards (80 percent loan-to-value and 20-year maturity) for loans eligible for insurance. 
+n   The Electric Home and Farm Authority, established in 1934, was meant to provide cheap loans for home electric 
+appliances.  These loans had <10 percent interest rate and only a 5 percent down payment, for up to 36 months. 
+This program ended in 1942.12
+n  In 1935, Congress lowered the loan-to-value regulations (from 50 percent to 60 percent) and maturity 
+restrictions (from up to 5 years to 10 years) for national banks.13
+n  The FHA insured up to 20 percent of loans (up to 5-year maturity) for improving residential properties from 
+1934–1937.14
+n  The FHA, in 1938, lowered standards for insurance on home loans. Mortgages with up to 90 percent loan-to-
+value and 25-year maturity were now eligible.15
+World War II
+n  In 1941, President Roosevelt ordered the Federal Reserve Board to limit the use of installment credit to 
+purchase consumer durable goods. Roosevelt wanted to direct production toward national defense rather than 
+domestic consumption. In an executive order, he said: “liberal terms for such credit tend to stimulate demand 
+for consumers’ durable goods, the production of which requires the materials, skills, and equipment needed for 
+national defense.”16 
+ –  The Federal Reserve responded by enforcing tighter underwriting on all types of consumer installment loans 
+(known as Regulation W).17

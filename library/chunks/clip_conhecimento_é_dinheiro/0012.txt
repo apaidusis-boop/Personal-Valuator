@@ -1,0 +1,33 @@
+rio de cromo pressionaram as margens, que recuaram para **2% em 2025**, com lucro operacional de apenas **R$ 47 milhões**.
+
+*Fonte: Ferbasa e Banco Central (inflação). Elaboração e ajustes: Finclass.*
+
+O **fluxo de caixa operacional**, por sua vez, mostra-se mais resiliente: após o pico de R$ 1,36 bilhão em 2022, recuou gradualmente para R$ 403 milhões em 2025. Apesar do lucro ter caído cerca de R$ 139 milhões, observamos em 2025 uma liberação de estoques, recuperação de tributos e aumento de fornecedores, e esses componentes compensaram a queda do lucro líquido.
+
+*Fonte: Ferbasa e Banco Central (inflação). Elaboração e ajustes: Finclass.*
+
+## Proventos
+
+A Ferbasa mantém histórico consistente de distribuição de proventos, mesmo em momentos de menor rentabilidade.
+
+Fonte: Ferbasa. Cálculo e elaboração: Finclass.
+
+## Rentabilidade
+
+Ressaltamos que não há consenso entre analistas e gestores no cálculo do **ROIC**, especialmente quando se trata do denominador (Capital Investido).
+
+No gráfico a seguir, apresentamos o indicador calculado segundo nossas premissas e o da **Bloomberg**:
+
+*Fonte: Ferbasa. Elaboração: Finclass.*
+
+Mesmo considerando a natureza mais cíclica do setor, a Ferbasa apresenta, de forma geral, um bom nível de rentabilidade ao longo do tempo. O **ROIC** atingiu patamares bastante elevados nos anos de alta do ciclo, especialmente entre 2021 e 2022, refletindo o cenário favorável de preços das ligas metálicas.
+
+Nos períodos de desaceleração, como após 2022, observa-se uma normalização dos retornos.
+
+O **Retorno sobre o Patrimônio** **Líquido** também acompanha essa dinâmica, oscilando ao longo do ciclo, mas, em geral, situando-se em níveis próximos ou superiores ao Ibovespa nos momentos mais fortes.
+
+*Fonte: Ferbasa e Bloomberg (ROE do Ibovespa). Cálculos e elaboração: Finclass.*
+
+## Endividamento
+
+A **Ferbasa** é **caixa líquido**, ou seja, **tem mais dinheiro em caixa do que dívidas**.

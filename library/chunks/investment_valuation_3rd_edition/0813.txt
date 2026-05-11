@@ -1,0 +1,45 @@
+w loan set at 60% of the value of
+the property when it comes due.
+6
+ Buildings of better quality in better locations should command higher rents/leases and higher
+expected income than other buildings.
+
+CHAPTER 
+27
+Valuing Other Assets
+One of the fundamental precepts of this book is that all assets, financial as well as real, can be valued
+systematically using traditional valuation models. The bulk of this book examines the valuation of
+stocks, but the preceding chapter extended the reach of valuation models to cover real estate. This
+chapter considers other assets that are usually considered unique and different, and attempts to value
+them using the principles developed in the earlier chapters.
+While the assets covered in this chapter have very different characteristics and attract different
+investors, they can be broadly classified into three categories:
+1.
+ Assets that are expected to generate cash flows over time and can be valued with discounted
+cash flow models.
+2.
+ Assets that do not generate cash flows but attain value because they are scarce and are
+perceived to be valuable (collectibles, coins) and/or generate utility to their owners (antiques,
+paintings). These assets can be valued using relative valuation.
+3.
+ Assets that do not generate cash flows but could be valuable in the event of a contingency—they
+have option characteristics. These assets can be valued using option pricing models.
+Within each category, there are a surprising number of commonalties both across different assets and
+with the financial assets described in the earlier chapter.
+CASH-FLOW-PRODUCING ASSETS
+A number of assets derive their value from their capacity to generate cash flows to their owners. The
+value of such assets is a function of the expected cash flows in the future and the uncertainty
+associated with these cash flows. The basic principles of discounted cash flow valuation, described
+in earlier chapters, apply for any of these assets and require the following steps:
+Estimate cash flows on the asset for the estimation period. These cash flows can either be
+predebt (cash flows to the firm) or after-debt cash flows (cash flows to equity).
+Estimate the value of the asset, if any, at the end of the estimation period. This value will
+decline over time if the asset loses value with use or has a limited life and may, in some
+cases, be zero.
+Estimate a discount rate that reflects the riskiness of the cash flows. This discount rate will
+be the cost of equity if the cash flows discounted are cash flows to equity and the cost of
+capital if the cash flows are cash flows to the firm.
+Calculate the present value of the cash flows to arrive at the value of the asset or the value
+of the equity in the assets.
+There are several practical problems associated with applying these steps to assets when cash
+flows are difficult to estimate and risk cannot be easily quantified (and converted into a discount

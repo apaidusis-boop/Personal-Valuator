@@ -1,0 +1,67 @@
+just done a regression of monthly stock returns of HeavyTech Inc., a manufacturer of
+heavy machinery, on monthly market returns over the past five years and have come up with the
+following regression:
+
+The variance of the stock is 50%, and the variance of the market is 20%. The current T-bill rate is
+3% (it was 5% one year ago). The stock is currently selling for $50, down $4 over the past year;
+it has paid a dividend of $2 during the past year and expects to pay a dividend of $2.50 over the
+next year. The NYSE Composite has gone down 8% over the past year, with a dividend yield of
+3%. HeavyTech Inc. has a tax rate of 40%.
+a.
+ What is the expected return on HeavyTech over the next year?
+b.
+ What would you expect HeavyTech's price to be one year from today?
+c.
+ What would you have expected HeavyTech's stock returns to be over the past year?
+d.
+ What were the actual returns on HeavyTech over the past year?
+e.
+ HeavyTech has $100 million in equity and $50 million in debt. It plans to issue $50 million in
+new equity and retire $50 million in debt. Estimate the new beta.
+6.
+ Safecorp, which owns and operates grocery stores across the United States, currently has $50
+million in debt and $100 million in equity outstanding. Its stock has a beta of 1.2. It is planning a
+leveraged buyout (LBO), where it will increase its debt-to-equity ratio of 8. If the tax rate is 40%,
+what will the beta of the equity in the firm be after the LBO?
+7.
+ Novell, which had a market value of equity of $2 billion and a beta of 1.50, announced that it
+was acquiring WordPerfect, which had a market value of equity of $1 billion and a beta of 1.30.
+Neither firm had any debt in its financial structure at the time of the acquisition, and the corporate
+tax rate was 40%.
+a.
+ Estimate the beta for Novell after the acquisition, assuming that the entire acquisition was
+financed with equity.
+b.
+ Assume that Novell had to borrow the $1 billion to acquire WordPerfect. Estimate the beta
+after the acquisition.
+8.
+ You are analyzing the beta for Hewlett Packard (HP) and have broken down the company into
+four broad business groups, with market values and betas for each group.
+Business Group
+Market Value of Equity
+Beta
+Mainframes
+$2.0 billion
+1.10
+Personal computers
+$2.0 billion
+1.50
+Software
+$1.0 billion
+2.00
+Printers
+$3.0 billion
+1.00
+a.
+ Estimate the beta for Hewlett Packard as a company. Is this beta going to be equal to the beta
+estimated by regressing past returns on HP stock against a market index? Why or why not?
+b.
+ If the Treasury bond rate is 7.5%, estimate the cost of equity for Hewlett Packard. Estimate
+the cost of equity for each division. Which cost of equity would you use to value the printer
+division?
+c.
+ Assume that HP divests itself of the mainframe business and pays the cash out as a dividend.
+Estimate the beta for HP after the divestiture. (HP had $1 billion in debt outstanding.)
+9.
+ The following table summarizes the percentage changes in operating income, percentage
+changes in revenue, and betas for four pharmaceutical firms.

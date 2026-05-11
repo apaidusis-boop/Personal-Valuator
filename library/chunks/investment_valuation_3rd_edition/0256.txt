@@ -1,0 +1,34 @@
+ed up or down significantly in those periods). Using these nontrading period
+returns in the regression will reduce the correlation between stock returns and market returns and
+the beta of the stock.
+6
+
+The bias can also be reduced using statistical techniques suggested by Dimson (1979) and
+Scholes, and Williams (1977).
+7
+ This formula was originally developed by Hamada in 1972. There are two common
+modifications. One is to ignore the tax effects and compute the levered beta as:
+If debt has market risk (i.e., its beta is greater than zero), the original formula can be modified to
+take this into account. If the beta of debt is β
+D
+, the beta of equity can be written as:
+8
+ Note that Boeing breaks its business down in its financial statements into these two segments. We
+could have used operating income or EBITDA and a typical multiple to arrive at value.
+9
+ To estimate these multiples, we looked at the market value of publicly traded firms relative to
+their revenues. This is a ratio of enterprise value to revenues.
+10
+ We used total debt in making this estimate. We discuss the alternate practice of using net debt
+ratios (obtained by netting cash out against debt) later in this chapter.
+11
+ This table was updated in early 2011 by listing out all rated firms with market capitalization
+lower than $5 billion and their interest coverage ratios, and then sorting firms based on their bond
+ratings. The ranges were adjusted to eliminate outliers and to prevent overlapping ranges.
+12
+ The default spread was obtained from the rating/spread table in 2000.
+13
+ There are some who argue that stock prices are much more volatile than the underlying true
+value. Even if this argument is justified (and it has not conclusively been shown to be so), the
+difference between market value and true value is likely to be much smaller than the difference
+between book value and true value.

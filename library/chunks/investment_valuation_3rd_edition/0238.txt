@@ -1,0 +1,42 @@
+after-tax cost of debt for taxes in those years.
+We return to this issue and examine it in more detail in Chapter 10, where we look at the same issue
+in the context of estimating after-tax cash flows.
+
+ILLUSTRATION 8.11: Estimating the Cost of Debt: Boeing
+in December 2000
+Boeing was rated AA by S&P. Using the typical default spreads for AA-rated firms in December 2000, we could estimate
+the pretax cost for Boeing by adding the default spread of 1.00%
+12
+ to the riskless rate of 5%.
+Boeing has an effective tax rate of 27%, but we use a marginal tax rate of 35% to estimate the after-tax cost of debt for
+Boeing.
+Note that we will attach this after-tax cost of debt to all of Boeing's debt, short-term or long-term. While that may seem
+unfair, since Boeing could have borrowed short term at lower rates, we are assuming that the rollover cost of short-term
+debt will approximate to the cost of long term debt. Furthermore, we do not want to systematically reward companies with
+short-term debt by giving them lower costs of capital.
+One final point about ratings. The ratings agencies rate both individual bond issues and entire companies. The rating used for
+the pretax cost of debt should be the rating for the company and not for an individual bond. Even a risky company can
+structure and issue a safe bond, and estimating a cost of debt based on that bond's rating will underestimate the overall cost
+of debt.
+Estimating the Cost of Debt for an Emerging Market Firm
+In general, there are three problems that we run into when assessing the cost of debt for emerging
+market firms. The first is that most of these firms are not rated, leaving us with no option but to
+estimate the synthetic rating (and associated costs). The second is that the synthetic ratings may be
+skewed by differences in interest rates between the emerging market and the United States. Interest
+coverage ratios will usually decline as interest rates increase, and it may be far more difficult for a
+company in an emerging market to achieve the interest coverage ratios of companies in developed
+markets. Finally, the existence of country default risk hangs over the cost of debt of firms in that
+market.
+The second problem can be fixed fairly simply by either modifying the tables developed using U.S.
+firms or restating the interest expenses (and interest coverage ratios) in dollar terms. The question of
+country risk is a thornier one. Conservative analysts often assume that companies in a country cannot
+borrow at a rate lower than the country itself can borrow at. With this reasoning, the cost of debt for
+an emerging market company will include the country default spread for the country.
+The counter to this argument is that companies may be safer than the countries in which they operate,
+and that they bear only a portion or perhaps even none of the country default spread.
+ILLUSTRATION 8.12: Estimating the Cost of Debt:
+Embraer in March 2008
+To estimate Embraer's cost of debt, we first estimated a synthetic rating for the firm. Based on its operating income of $527
+million and interest expenses of $176 million in 2007, we arrived at an interest coverage ratio of 2.99 and a BBB rating.
+While the default spread for BBB rated bonds was only 1.50% at the time, there is the added consideration that Embraer is
+a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00% at the time of the

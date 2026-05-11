@@ -1,0 +1,45 @@
+ate its value. However, the land component will have an infinite life and, in some cases,
+may be the overwhelming component of the terminal value.
+THE EFFECT OF INFLATION: REAL VERSUS
+FINANCIAL ASSETS
+
+For the most part, real and financial assets seem to move together in response to macroeconomic variables. A downturn in
+the economy seems to affect both adversely, as does a surge in real interest rates. There is one variable, though, that seems
+to have dramatically different consequences for real and financial assets, and that is inflation. Historically, higher than
+anticipated inflation has had negative consequences for financial assets, with both bonds and stocks being adversely
+impacted by unexpected inflation. Fama and Schwert, for instance, in a study on asset returns report that a 1 percent
+increase in the inflation rate causes bond prices to drop by 1.54 percent and stock prices by 4.23 percent. In contrast,
+unanticipated inflation seems to have a positive impact on real assets. In fact, the only asset class that Fama and Schwert
+tracked that was positively affected by unanticipated inflation was residential real estate.
+Why is real estate a potential hedge against inflation? There are a variety of reasons, ranging from more favorable tax
+treatment when it comes to depreciation to the possibility that investors lose faith in financial assets when inflation runs out
+of control and prefer to hold real assets. More importantly, the divergence between real estate and financial assets in
+response to inflation indicates that the risk of real estate will be very different if viewed as part of a portfolio that includes
+financial assets than if viewed as a standalone investment.
+DISCOUNTED CASH FLOW VALUATION
+The value of any cash-flow-producing asset is the present value of the expected cash flows on it. Just
+as discounted cash flow valuation models, such as the dividend discount model, can be used to value
+financial assets, they can also be used to value cash-flow-producing real estate investments.
+To use discounted cash flow valuation to value real estate investments it is necessary to:
+Measure the riskiness of real estate investments, and estimate a discount rate based on the
+riskiness.
+Estimate expected cash flows on the real estate investment for the life of the asset.
+The following section examines these issues.
+Estimating Discount Rates
+Chapters 7 and 8 presented the basic models that are used to estimate the costs of equity, debt, and
+capital for an investment. Do those models apply to real estate as well? If so, do they need to be
+modified? If not, what do we use instead?
+This section examines the applicability of risk and return models to real estate investments. In the
+process, we consider whether the assumption that the marginal investor is well diversified is a
+justifiable one for real estate investments, and, if so, how best to measure the parameters of the model
+—risk-free rate, beta, and risk premium—to estimate the cost of equity. We also consider other
+sources of risk in real estate investments that are not adequately considered by traditional risk and
+return models and how to incorporate these into valuation.
+Cost of Equity
+In the basic models used to estimate the cost of equity for financial assets, the risk of any asset, real
+or financial, is defined to be that portion of that asset’s variance that cannot be diversified away. This
+nondiversifiable risk is measured by the market beta in the capital asset pricing model (CAPM) and
+by multiple factor betas in the arbitrage pricing and multifactor models. The primary assumptions that
+these models make to arrive at these conclusions are that the marginal investor in the asset is well
+diversified and that the risk is measured in terms of the variability of returns.
+If one assumes that these models apply for real assets as well, the risk of a real asset should be

@@ -1,0 +1,304 @@
+{
+  "runs": [
+    {
+      "ts": "2026-05-08T08:17:19Z",
+      "market": "us",
+      "benchmark": "SPY",
+      "n_holdings": 9,
+      "tilts": [
+        {
+          "sector": "Financials",
+          "portfolio_weight": 0.2857,
+          "benchmark_weight": 0.135,
+          "tilt_pp": 15.07
+        },
+        {
+          "sector": "Technology",
+          "portfolio_weight": 0.1905,
+          "benchmark_weight": 0.295,
+          "tilt_pp": -10.45
+        },
+        {
+          "sector": "Communication",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.085,
+          "tilt_pp": -8.5
+        },
+        {
+          "sector": "Industrials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.08,
+          "tilt_pp": -8.0
+        },
+        {
+          "sector": "REIT",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.025,
+          "tilt_pp": 7.02
+        },
+        {
+          "sector": "ETF",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 4.76
+        },
+        {
+          "sector": "Holding",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.01,
+          "tilt_pp": 3.76
+        },
+        {
+          "sector": "Consumer Staples",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.06,
+          "tilt_pp": 3.52
+        },
+        {
+          "sector": "Materials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.025,
+          "tilt_pp": -2.5
+        },
+        {
+          "sector": "Utilities",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.025,
+          "tilt_pp": -2.5
+        },
+        {
+          "sector": "Healthcare",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.115,
+          "tilt_pp": -1.98
+        },
+        {
+          "sector": "Consumer Disc.",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.105,
+          "tilt_pp": -0.98
+        },
+        {
+          "sector": "Energy",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.04,
+          "tilt_pp": 0.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-08T08:17:34Z",
+      "market": "us",
+      "benchmark": "SPY",
+      "n_holdings": 9,
+      "tilts": [
+        {
+          "sector": "Financials",
+          "portfolio_weight": 0.2857,
+          "benchmark_weight": 0.135,
+          "tilt_pp": 15.07
+        },
+        {
+          "sector": "Technology",
+          "portfolio_weight": 0.1905,
+          "benchmark_weight": 0.295,
+          "tilt_pp": -10.45
+        },
+        {
+          "sector": "Communication",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.085,
+          "tilt_pp": -8.5
+        },
+        {
+          "sector": "Industrials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.08,
+          "tilt_pp": -8.0
+        },
+        {
+          "sector": "REIT",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.025,
+          "tilt_pp": 7.02
+        },
+        {
+          "sector": "ETF",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 4.76
+        },
+        {
+          "sector": "Holding",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.01,
+          "tilt_pp": 3.76
+        },
+        {
+          "sector": "Consumer Staples",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.06,
+          "tilt_pp": 3.52
+        },
+        {
+          "sector": "Materials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.025,
+          "tilt_pp": -2.5
+        },
+        {
+          "sector": "Utilities",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.025,
+          "tilt_pp": -2.5
+        },
+        {
+          "sector": "Healthcare",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.115,
+          "tilt_pp": -1.98
+        },
+        {
+          "sector": "Consumer Disc.",
+          "portfolio_weight": 0.0952,
+          "benchmark_weight": 0.105,
+          "tilt_pp": -0.98
+        },
+        {
+          "sector": "Energy",
+          "portfolio_weight": 0.0476,
+          "benchmark_weight": 0.04,
+          "tilt_pp": 0.76
+        }
+      ]
+    },
+    {
+      "ts": "2026-05-08T08:17:34Z",
+      "market": "br",
+      "benchmark": "BOVA11",
+      "n_holdings": 12,
+      "tilts": [
+        {
+          "sector": "Banks",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.225,
+          "tilt_pp": -14.17
+        },
+        {
+          "sector": "Corporativo",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "ETF-RF",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "ETF-US",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "H\u00edbrido",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "Log\u00edstica",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "Papel (CRI)",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "Shopping",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.0,
+          "tilt_pp": 8.33
+        },
+        {
+          "sector": "Industrials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.075,
+          "tilt_pp": -7.5
+        },
+        {
+          "sector": "Utilities",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.075,
+          "tilt_pp": -7.5
+        },
+        {
+          "sector": "Consumer Disc.",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.065,
+          "tilt_pp": -6.5
+        },
+        {
+          "sector": "Consumer Staples",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.06,
+          "tilt_pp": -6.0
+        },
+        {
+          "sector": "Holding",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.03,
+          "tilt_pp": 5.33
+        },
+        {
+          "sector": "Telecom",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.05,
+          "tilt_pp": -5.0
+        },
+        {
+          "sector": "Financials",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.045,
+          "tilt_pp": -4.5
+        },
+        {
+          "sector": "Healthcare",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.045,
+          "tilt_pp": -4.5
+        },
+        {
+          "sector": "Mining",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.115,
+          "tilt_pp": -3.17
+        },
+        {
+          "sector": "Oil & Gas",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.11,
+          "tilt_pp": -2.67
+        },
+        {
+          "sector": "Real Estate",
+          "portfolio_weight": 0.0,
+          "benchmark_weight": 0.025,
+          "tilt_pp": -2.5
+        },
+        {
+          "sector": "Materials",
+          "portfolio_weight": 0.0833,
+          "benchmark_weight": 0.08,
+          "tilt_pp": 0.33
+        }
+      ]
+    }
+  ]
+}

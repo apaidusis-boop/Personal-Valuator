@@ -1,0 +1,63 @@
+ABBV:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://investors.abbvie.com/
+  sector: ''
+  status: ok
+CAT:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://www.caterpillar.com/en/investors.html
+  sector: ''
+  status: ok
+JNJ:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://www.investor.jnj.com/
+  sector: ''
+  status: ok
+KO:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://investors.coca-colacompany.com/
+  sector: ''
+  status: ok
+MCD:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://corporate.mcdonalds.com/corpmcd/investors.html
+  sector: ''
+  status: ok
+PG:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://www.pginvestor.com/
+  sector: ''
+  status: ok
+WMT:
+  is_holding: false
+  market: us
+  method: known
+  name: ''
+  ri_urls:
+  - https://stock.walmart.com/
+  sector: ''
+  status: ok

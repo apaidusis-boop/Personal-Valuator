@@ -1,0 +1,33 @@
+borrowed large amounts to fund its expansion between 2002 and 2008. As the economy
+slowed, the operating income for the firm dropped from $1,425 million in 2007 to $371 million in 2010, and net income
+
+decreased even more precipitously from $1,584 million in 2007 to –$1,437 million in 2010. In May 2011, the company was
+rated CCC and the potential for default loomed.
+For MGM to survive as a going concern, it needs to fix two problems. First, it has to mend its operating margins and return
+to positive revenue growth; its revenues declined from $7,962 million in 2007 to $6,019 million in 2010. Second, it has to
+reduce its debt burden; its market debt-to-capital ratio of 59.70% in May 2011 was significantly higher than the industry
+average of 46.21%. To value MGM as a going concern, we made the following assumptions:
+Revenue growth.
+ We see revenue growth returning in 2011, with a 6% growth rate, followed by 15% growth
+for the following four years and then declining growth to a stable growth rate of 3% beyond year 10.
+Operating margin.
+ The current pretax operating margin of 6.23% is expected to increase to the industry
+average of 19.84% over the next 10 years, with more substantial improvements in the earlier years.
+Debt ratio and cost of capital.
+ While we leave the debt ratio at 59.7% for the next five years, we assume
+that the debt ratio will decrease in linear increments after year 5 to the industry average of 46.21% by year
+10. As the debt ratio decreases, we expect the beta (currently 2.63, because of the high debt ratio) to
+decrease to 1.20 in stable growth. The pretax cost of debt (set at 11.5% to reflect the current CCC rating)
+remains unchanged for the first five years and then decreases in linear increments to a pretax cost of debt of
+6% in perpetuity.
+Reinvestment.
+ Since the bulk of the growth will come from utilizing existing assets more efficiently, MGM
+will be able to deliver the growth with relatively little reinvestment in the first five years, but the reinvestment
+rate will climb over the following five years to reach a stable growth level of 30%. That level is estimated
+using the stable growth rate of 3% and assuming a return on capital in perpetuity of 10%.
+Pulling all these assumptions together, we estimated revenues, operating income, and free cash flow to the firm in the table
+following:
+Note that these cash flows get discounted back at costs of capital that will also change over time, as debt ratios and risk
+parameters change (see table following):
+The terminal value for MGM's operating assets can be estimated using the FCFF in the terminal year, the cost of capital, and
+the stable growth rate:

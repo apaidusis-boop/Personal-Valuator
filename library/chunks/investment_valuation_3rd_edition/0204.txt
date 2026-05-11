@@ -1,0 +1,52 @@
+n the form of betas. These inputs are used to arrive
+at an expected return on an equity investment:
+This expected return to equity investors includes compensation for the market risk in the investment
+
+and is the cost of equity. This section concentrates on the estimation of the beta of a firm. While much
+of the discussion is directed at the CAPM, it can be extended to apply to the arbitrage pricing and
+multifactor models, as well.
+Betas
+In the CAPM, the beta of an investment is the risk that the investment adds to a market portfolio. In the
+APM and multifactor model, the betas of the investment relative to each factor have to be measured.
+There are three approaches available for estimating these parameters: One is to use historical data on
+market prices for individual investments; the second is to estimate the betas from the fundamental
+characteristics of the investment; and the third is to use accounting data. All three approaches are
+described in this section.
+Historical Market Betas
+The conventional approach for estimating the beta of an investment is a regression of returns on the
+investment against returns on a market index. For firms that have been publicly traded for a length of
+time, it is relatively straightforward to estimate returns that an investor would have made on investing
+in the firms' equity in intervals (such as a week or a month) over that period. In theory, these stock
+returns on the assets should be related to returns on a market portfolio (i.e., a portfolio that includes
+all traded assets) to estimate the betas of the assets. In practice, we tend to use a stock index such as
+the S&P 500 as a proxy for the market portfolio, and we estimate betas for stocks against the index.
+Regression Estimates of Betas
+The standard procedure for estimating betas is to regress stock returns (R
+j
+) against market returns
+(R
+m
+):
+where a = Intercept from the regression 
+b = Slope of the regression = Covariance(R
+j
+, R
+m
+)/σ
+2
+m
+The slope of the regression corresponds to the beta of the stock and measures the riskiness of the
+stock.
+The intercept of the regression provides a simple measure of performance of the investment during
+the period of the regression, when returns are measured against the expected returns from the capital
+asset pricing model. To see why, consider the following rearrangement of the capital asset pricing
+model:
+Compare this formulation of the return on an investment to the return equation from the regression:
+Thus, a comparison of the intercept a to R
+f
+(1 – 
+β
+) should provide a measure of the stock's
+performance, at least relative to the capital asset pricing model.
+1
+ In summary, then:

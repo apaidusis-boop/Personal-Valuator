@@ -1,0 +1,41 @@
+ere it may be reasonable to make this assumption about growth is when a firm is in an industry that
+is enjoying supernormal growth because there are significant barriers to entry (either legal or as a
+
+consequence of infrastructure requirements), which can be expected to keep new entrants out for
+several years.
+The assumption that the growth rate drops precipitously from its level in the initial phase to a stable
+rate also implies that this model is more appropriate for firms with modest growth rates in the initial
+phase. For instance, it is more reasonable to assume that a firm growing at 7 percent in the high
+growth period will see its growth rate drop to 2 percent afterward than it is for a firm growing at 40
+percent in the high-growth period.
+Finally, the model works best for firms that maintain a policy of paying out residual cash flows
+(i.e., cash flows left over after debt payments and reinvestment needs have been met) as dividends.
+ILLUSTRATION 13.3: 
+Valuing a Firm with a Two-Stage
+Dividend Discount Model: Procter & Gamble in May 2011
+Procter & Gamble (P&G) is one the leading global consumer product companies, owning some of the most valuable brands
+in the world, including Gillette razors, Pampers diapers, Tide detergent, Crest toothpaste, and Vicks cough medicine. P&G’s
+long history of paying dividends makes it a good candidate for the dividend discount model, and while it is a large company,
+its brand names and global expansion provide it with a platform to deliver high growth at least for the next few years.
+Consequently, we will use the two-stage dividend discount model to value the company.
+To set the stage, P&G reported $12,736 million in earnings for 2010 and paid out 49.74% of these earnings as dividends; on
+a per share basis, earnings were $3.82 and dividends were $1.92 in 2010. We will use a beta of 0.90, reflecting the beta of
+large consumer product companies in 2010, a risk-free rate of 3.50%, and a mature market equity risk premium of 5% to
+estimate the cost of equity:
+To estimate the expected growth rate, we will start with the firm’s current return on equity (20.09%) and payout ratio
+(49.74%) and assume numbers very close to these for the next five years:
+Expected ROE for next 5 years = 20%
+Expected retention ratio for next 5 years = 50%
+Expected growth rate for next 5 years = 20% × 50% = 10%
+Applying this growth rate to earnings and dividends for the next 5 years and discounting these dividends back at the cost of
+equity, we arrive at a value of $10.09/share for the high growth period:
+After year 5, we assume that P&G will be in stable growth, growing 3% a year (set just below the risk-free rate). We also
+assume that the return on equity for the firm 
+will drop to a more sustainable 12% in perpetuity, resulting in an estimated
+payout ratio of 75% in perpetuity:
+Assuming that the beta moves up to 1 in stable growth (resulting in a cost of equity 
+of 8.5%), we estimate the value per
+share at the end of year 5:
+Discounting this price to the present at 8% (the cost of equity for the high growth 
+period) and adding the present value of
+expected dividends during the high growth period yields a value per share of $79.00.

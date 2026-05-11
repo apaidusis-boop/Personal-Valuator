@@ -1,0 +1,14 @@
+pected growth rate in the
+valuation is set higher because of the firm’s undeveloped reserves.
+CONCLUSION
+The analyst faced with the task of valuing a firm/asset or its equity has to choose among three
+
+different approaches—discounted cash flow valuation, relative valuation, and option pricing models
+—and within each approach, between different models. This choice will be driven largely by the
+characteristics of the firm/asset being valued—the level of its earnings, its growth potential, the
+sources of earnings growth, the stability of its leverage, and its dividend policy. Matching the
+valuation model to the asset or firm being valued is as important a part of valuation as understanding
+the models and having the right inputs.
+Once you decide to go with one or another of these approaches, you have further choices to make—
+whether to use equity or firm valuation in the context of discounted cash flow valuation, which
+multiple you should use to value firms or equity, and what type of option is embedded in a firm.

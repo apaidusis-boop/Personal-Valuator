@@ -1,0 +1,33 @@
+t is justified (and it has not conclusively been shown to be so), the
+difference between market value and true value is likely to be much smaller than the difference
+between book value and true value.
+
+CHAPTER 9
+Measuring Earnings
+To estimate cash flows, we usually begin with a measure of earnings. Free cash flows to the firm, for
+instance, are based on after-tax operating earnings. Free cash flows to equity estimates, on the other
+hand, commence with net income. While we obtain measures of operating and net income from
+accounting statements, the accounting earnings for many firms bear little or no resemblance to the true
+earnings of the firm.
+This chapter begins by considering the philosophical difference between the accounting and
+financial views of firms. We then consider how the earnings of a firm, at least as measured by
+accountants, have to be adjusted to get a measure of earnings that is more appropriate for valuation. In
+particular, we examine how to treat operating lease expenses, which we argue are really financial
+expenses, and research and development expenses, which we consider to be capital expenses. The
+adjustments affect not only our measures of earnings but our estimates of book value of capital. We
+also look at extraordinary items (both income and expenses) and one-time charges, the use of which
+has expanded significantly in recent years as firms have shifted toward managing earnings more
+aggressively. The techniques used to smooth earnings over periods and beat analyst estimates can
+skew reported earnings, and, if we are not careful, the values that emerge from them.
+ACCOUNTING VERSUS FINANCIAL BALANCE
+SHEETS
+When analyzing a firm, what are the questions to which we would like to know the answers? A firm,
+as defined here, includes both investments already made—assets in place—and investments yet to be
+made—growth assets. In addition, a firm can either borrow the funds it needs to make these
+investments, in which case it is using debt, or raise it from its owners in the form of equity. 
+Figure 9.1
+summarizes this description of a firm in the form of a financial balance sheet.
+Figure 9.1
+ A Financial Balance Sheet
+Note that while this summary does have some similarities with the accounting balance sheet, there
+are key differences. The most important one is that here we explicitly consider growth assets when

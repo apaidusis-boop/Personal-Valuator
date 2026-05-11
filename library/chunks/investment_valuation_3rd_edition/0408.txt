@@ -1,0 +1,36 @@
+between capital spending and depreciation will be lower still in stable growth,
+reflecting the lower expected growth rate. (See 
+Figure 14.3
+.)
+Figure 14.3
+ Three-Stage FCFE Model: Reinvestment Needs
+
+A TROUBLESHOOTING GUIDE: WHAT IS WRONG
+WITH THIS VALUATION? (TWO-STAGE FCFE
+MODEL)
+If This Is Your Problem
+This May Be the Solution
+If you get a extremely low value from the two-stage
+FCFE, the likely culprits are:
+Earnings are depressed due to some reason (economy, etc.).
+Use normalized earnings.
+Capital expenditures are significantly higher than depreciation in
+stable growth phase.
+Reduce the difference for stable growth period. (Compute the appropriate reinvestment
+rate—you might need a higher ROE.)
+The beta in the stable period is too high for a stable firm.
+Use a beta closer to 1.
+Working capital as percent of revenue is too high to sustain.
+Use a working capital ratio closer to industry.
+The use of the two-stage model when the three-stage model is more
+appropriate.
+Use a three-stage model.
+If you get an extremely high value:
+Earnings are inflated above normal levels.
+Use normalized earnings.
+Capital expenditures offset or lag are lower than depreciation during
+high growth period.
+Compute the appropriate reinvestment rate = g/ROE.
+The growth rate in the stable growth period is too high for stable firm.
+Use a growth rate closer to GNP growth (risk free rate).
+Risk

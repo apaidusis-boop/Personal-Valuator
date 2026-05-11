@@ -1,0 +1,39 @@
+ou make in a discounted cash flow valuation. The difference is that the assumptions in a relative
+valuation are implicit and unstated, whereas those in discounted cash flow valuation are explicit. The
+
+two primary questions that you need to answer before using a multiple are: What are the fundamentals
+that determine at what multiple a firm should trade? How do changes in the fundamentals affect the
+multiple?
+Determinants
+In the chapters on discounted cash flow valuation, we observed that the value of a firm is a function
+of three variables—its capacity to generate cash flows, its expected growth in these cash flows, and
+the uncertainty associated with these cash flows. Every multiple, whether it is of earnings, revenues,
+or book value, is a function of the same three variables—risk, growth, and cash flow generating
+potential. Intuitively, then, firms with higher growth rates, less risk, and greater cash flow generating
+potential should trade at higher multiples than firms with lower growth, higher risk, and less cash
+flow potential.
+The specific measures of growth, risk, and cash flow generating potential that are used will vary
+from multiple to multiple. To look under the hood, so to speak, of equity and firm value multiples, you
+can go back to fairly simple discounted cash flow models for equity and enterprise value (EV) and
+use them to derive the multiples.
+In the simplest discounted cash flow model for equity, which is a stable growth dividend discount
+model, the value of equity is:
+where DPS
+1
+ is the expected dividend in the next year, k
+e
+ is the cost of equity, and g
+n
+ is the expected
+stable growth rate. Dividing both sides by the earnings, you obtain the discounted cash flow equation
+specifying the PE ratio for a stable growth firm:
+Dividing both sides by the book value of equity, you can estimate the price-book value ratio for a
+stable growth firm:
+where ROE is the return on equity. Dividing by the sales per share, the price-sales ratio for a stable-
+growth firm can be estimated as a function of its profit margin, payout ratio, profit margin, and
+expected growth.
+You can do a similar analysis to derive the firm value multiples. The value of the operating assets
+of a firm in stable growth can be written as:
+Dividing both sides by the expected free cash flow to the firm yields the EV-to-FCFF multiple for a
+stable growth firm:
+Since the free cash flow the firm is the after-tax operating income netted against the net capital

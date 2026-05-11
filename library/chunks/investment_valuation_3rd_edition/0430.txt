@@ -1,0 +1,13 @@
+au Steel, we use the average unlevered beta of 1.01 for steel companies listed
+globally, using the argument that steel is a commodity that is bought and sold on a world market. Since Gerdau has a very
+
+high market debt to equity ratio (138.89%), the resulting levered beta is 1.94 (with 34% being the marginal tax rate for
+Brazil):
+To reflect the fact that Gerdau Steel derives almost half its revenues in emerging markets, we estimated a lambda to
+measure exposure to Brazilian country risk, using two approaches:
+1.
+
+Revenue-based approach:
+ Dividing Gerdau's Brazilian revenue proportion (51 percent) by the average revenue
+proportion for a Brazilian company (72 percent) yields a lambda of 0.79.
+2.

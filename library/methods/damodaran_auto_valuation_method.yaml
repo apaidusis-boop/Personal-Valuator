@@ -1,0 +1,20 @@
+---
+id: damodaran_auto_valuation_method
+name: Valuation Method
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: rule_pe_pb_weighted_average
+  description: Calculates the value of equity based on a weighted average of PE and
+    PB ratios.
+  check: pe * 0.6458 + pb * 0.3542 <= 14.71
+caveats:
+- This rule assumes specific values for weights and target valuation, which may not
+  be universally applicable.
+Note: The provided formula seems to mix concepts of PE (Price/Earnings) ratio and
+  PB (Price/Book) ratio but does not clearly specify the variables used in the calculation.
+  I've interpreted it as a weighted average between these two ratios leading to an
+  equity value threshold. If this is incorrect or if more context is needed, please
+  clarify.

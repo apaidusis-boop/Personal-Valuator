@@ -1,0 +1,66 @@
+ing income and the interest expense numbers.
+10
+ Since the trailing 12-month
+figures represent more recent information, we will use those numbers in assessing Disney's optimal debt ratio. Based on the
+
+EBIT (adjusted for leases) of $6,829 million and interest expenses of $831 million, Disney has an interest coverage ratio of
+8.22 and should command a rating of AA, two notches above its actual rating of A.
+To compute Disney's ratings at different debt levels, we start by assessing the dollar debt that Disney will need to issue to
+get to the specified debt ratio. This can be accomplished by multiplying the total market value of the firm today by the
+desired debt-to-capital ratio. To illustrate, Disney's dollar debt at a 10% debt ratio will be $6,188 million, computed thus:
+The second step in the process is to compute the interest expense that Disney will have at this debt level, by multiplying the
+dollar debt by the pretax cost of borrowing at that debt ratio. The interest expense is then used to compute an interest
+coverage ratio, which is employed to compute a synthetic rating. The resulting default spread, based on the rating, can be
+obtained from Table 8.2 in Chapter 8, and adding the default spread to the risk-free rate yields a pretax cost of borrowing.
+The following table estimates the interest expenses, interest coverage ratios, and bond ratings for Disney at 0% and 10%
+debt ratios, at the existing level of operating income.
+Effect of Moving to Higher Debt Ratios: Disney
+D/(D + 
+E)
+0.00%
+10.00%
+D/E
+0.00%
+11.11%
+$ Debt
+$ 
+0
+$6,188
+EBITDA
+$8,422
+$8,422
+Depreciation
+$1,593
+$1,593
+EBIT
+$6,829
+$6,829
+Interest
+$ 
+0
+$ 294
+Pretax coverage
+∞
+23.24
+Likely rating
+AAA
+AAA
+Pretax cost of debt
+4.75%
+4.75%
+Note that the EBITDA and EBIT remain fixed as the debt ratio changes. We ensure this by using the proceeds from the
+debt to buy back stock, thus leaving operating assets untouched and isolating the effect of changing the debt ratio.
+There is circular reasoning involved in estimating the interest expense. The interest rate is needed to calculate the interest
+coverage ratio, and the coverage ratio is necessary to compute the interest rate. To get around the problem, we begin our
+analysis by assuming that Disney could borrow $6,188 billion at the AAA rate of 4.75%; we then compute an interest
+expense and interest coverage ratio using that rate. At the 10% debt ratio, our life is simplified by the fact that the rating
+remained unchanged at AAA. To illustrate a more difficult step-up in debt, consider the change in the debt ratio from 20% to
+30%:
+While the initial estimate of the interest expenses at the 30% debt ratio reflects the AAA rating and 4.75% interest rate) that
+the firm enjoyed at the 20% debt ratio, the resulting interest coverage ratio of 7.74 pushes the rating down to AA and the
+interest rate to 5.25%. Consequently, we have to recompute the interest expenses at the higher rate (in iteration 2) and
+reach steady state: The interest rate that we use matches up to the estimated interest rate.
+11
+ This process is repeated for
+each level of debt from 10% to 90%, and the iterated after-tax costs of debt are obtained at each level of debt in the
+following table:

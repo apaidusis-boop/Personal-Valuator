@@ -1,0 +1,18 @@
+ortfolios.
+
+Even Aggressive stocks can be safely included (in smaller amounts) in a Cautious portfolio. Likewise, Cautious stocks can be an important segment when added to a more Aggressive portfolio.
+
+We recommend members review our Portfolio Strategies, which offer three versions (Aggressive, Moderate, and Cautious) to illustrate how stocks across all three Investing Types can be combined into a diversified, risk-managed portfolio.
+
+### How Are Investing Types Determined?
+
+1. Our Quant team uses our **internal multifactor model** -- [weighing different "factors"](https://www.fool.com/terms/f/factor-investing/) of financial metrics and market trends -- to predict each company's potential range of return over the next year. Each prediction is based on thousands of simulations.
+2. Potential returns aren't considered in a vacuum. All of the forecast data together creates what we call a **Market Map**. It represents the simulated returns of all the stocks in the Motley Fool universe and how likely they are to correlate with one another.
+3. The team calculates a **risk measurement** for each stock**,** focused on potential downside, by examining how much and how frequently a stock's price went down within the simulated forecasts.
+4. Stocks in the Motley Fool's recommendation universe are **assigned one of the three Investing Types** by the risk measurement. Those with higher numbers land in Aggressive, lower in Cautious, with Moderate in between.
+
+### Can a Stock's Investing Type Change?
+
+Yes! As a company evolves, we anticipate its Investing Type category changing as well. But this won't necessarily be a quick or frequent change.
+
+Think of how businesses evolve. Some move from start-up to established profit generator, while others might be dividend-paying stalwarts rocked by disruption in their space. In most cases, change happens over months, business quarters, and years -- not overnight.

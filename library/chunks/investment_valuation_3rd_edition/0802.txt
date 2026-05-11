@@ -1,0 +1,30 @@
+ses, including insurance, maintenance, and utilities, amounted to $6.50 a square foot in the most
+recent year and are expected grow 3% a year in perpetuity. Approximately 10% of these expenses will be
+
+reimbursed by tenants each year (and thus will become a part of the revenues).
+The management fee for the most recent year was $300,000 and is expected to grow 3% a year in
+perpetuity.
+The depreciation in the building is expected to be $2 million a year for the next five years. The capital
+maintenance and upgrade expenditures (including leasehold improvements for new tenants) last year
+amounted to $1.5 million, and are expected to grow 3% a year for the next five years. Beyond year 5,
+depreciation is expected to increase 3% a year in perpetuity, and capital maintenance expenditures will offset
+depreciation.
+The potential buyer of the building is a corporation that faces a marginal tax rate of 38% and expects to finance the building
+with a mix of 60% debt and 40% equity. Then debt will take the form of a long-term balloon payment loan with an interest
+rate of 6.5%
+STEP 1: ESTIMATING A COST OF CAPITAL
+We begin by trying to estimate a cost of equity. While we had access to a survey that provided typical hurdle rates used by
+real estate investors for office buildings in New York, we chose to estimate the cost of equity from the capital asset pricing
+model because the potential buyer is a corporation (whose investors are diversified).
+4
+ To make this estimate, we began with
+the unlevered beta of 0.62 of equity REITs with office properties. We estimated a levered beta using the debt-equity mix
+proposed for the building:
+To estimate the cost of equity, we used a risk-free rate of 5.4% and a risk premium of 4%:
+Using the interest rate of 6.5% on the bank borrowing as the pretax cost of debt, we estimated a cost of capital:
+We assumed that this would be the cost of capital in perpetuity.
+5
+STEP 2: ESTIMATING CASH FLOWS ON THE BUILDING
+We used the operating information specified earlier to estimate the cash flows prior to debt payments on the building for the
+next five years in the following table.
+Since all of the items grow at 3% beyond year 5, we estimated a cash flow for year 6 as the terminal year. The terminal

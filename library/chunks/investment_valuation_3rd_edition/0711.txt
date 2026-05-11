@@ -1,0 +1,52 @@
+ly investor and thus can be viewed as the marginal investor. Furthermore, in most private firms, the
+owner tends to have much of his or her wealth invested in the private business and does not have an
+
+opportunity to diversify. Consequently, it can be argued that betas will understate the exposure to
+market risk in these firms.
+At the limit, if the owner has all of his or her wealth invested in the private business and is
+completely undiversified, he or she is exposed to all risk in the firm and not just the market risk
+(which is what the beta measures). There is a fairly simple adjustment that can allow us to bring in
+this nondiversifiable risk into the beta computation. To arrive at this adjustment, assume that the
+standard deviation in the private firm's equity value (which measures total risk) is 
+σ
+j
+ and that the
+standard deviation in the market index is 
+σ
+m
+. Note that the numerator measures the portion of the
+firm's risk (standard deviation) that is market related. If the correlation between the stock and the
+index is defined to be ρ
+jm
+, the market beta can be written as:
+Note that the numerator is the portion of the risk in the firm. To measure exposure to total risk (σ
+j
+), we
+could divide the market beta by ρ
+jm
+. This would yield the following:
+This is a relative standard deviation measure, where the total standard deviation of the private firm's
+equity value is scaled against the market index's standard deviation to yield what we will call a total
+beta.
+The total beta will be higher than the market beta, and will depend on the correlation between the
+firm and the market—the lower the correlation, the higher the total beta. Intuitively, it scales the beta
+to reflect all risk in the firm and not just the portion of the risk that is market risk.
+You might wonder how a total beta can be estimated for a private firm, where the absence of
+market prices seems to rule out the calculation of either a market beta or a correlation coefficient.
+Note, though, that we were able to estimate the market beta of the sector by looking at publicly traded
+firms in the business. We can obtain the correlation coefficient by looking at the same sample and use
+it to estimate a total beta for a private firm.
+The question of whether the total beta adjustment should be made cannot be answered without
+examining why the valuation of the private firm is being done in the first place. If the private firm is
+being valued for sale, whether and how much the market beta should be adjusted will depend on the
+potential buyer or buyers. If the valuation is for an initial public offering, there should be no
+adjustment for nondiversification, since the potential buyers are stock market investors. If the
+valuation is for sale to another individual or private business, the extent of the adjustment will depend
+on the degree to which the buyer's portfolio is diversified; the more diversified the buyer, the higher
+the correlation with the market and the smaller the total beta adjustment.
+ILLUSTRATION 24.4: Estimating a Bottom-Up Beta—Chez
+Pierre
+Consider the estimate of market beta that we obtained for Chez Pierre in the previous illustration. Using publicly traded
+restaurants as our comparable firms, we obtained an unlevered beta of 1.21 for Chez Pierre. The average correlation
+coefficient for these publicly traded firms with the markets is 48.41%. The total unlevered beta for Chez Pierre can be
+estimated as follows:

@@ -1,0 +1,9 @@
+<iframe src="https://web-markit.chase.com/research/analyst?global_research_enabled=false" height="1555" width="100%" title="Markit Iframe"></iframe>
+
+Disclosures
+
+**Investors should carefully read the ETF's or ETN's prospectus, which includes information on the investment objectives, risks, selling and transfer restrictions, charges and expenses along with other information about a fund before investing. To obtain a prospectus, contact the call center or visit the fund company's website directly. Please read the prospectus carefully before investing or sending money.**
+
+Intraday quantities are updated real-time. Prices and market values are real-time for most stocks and ETFs, and based on NASDAQ market data and delayed or prior business-close values for other securities. Market data and stock company profile information is provided by Morningstar via Markit Digital. The J.P. Morgan analyst research information is not intended to provide investment advice or investment recommendations or offer any opinion regarding self-directed investing accounts. No research opinion or security on any list or any information provided to clients either online or by any other means constitutes a recommendation to a specific client to purchase, hold or sell any investment. [Disclosures for J.P. Morgan global equities research coverage >](https://www.jpmm.com/research/disclosures?disclosure=globalEquity)
+
+**Investing involves market risk, including possible loss of principal, and there is no guarantee that investment objectives will be achieved. Past performance is not a guarantee of future results. Asset allocation/diversification does not guarantee a profit or protect against loss.**

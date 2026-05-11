@@ -1,0 +1,105 @@
+
+[GRAHAM] O (us):
+  verdict: N/A    score: 0.0
+  msg: Graham engine only handles BR; for US use Buffett
+    {
+      "reason": "Graham engine only handles BR; for US use Buffett"
+    }
+
+[BUFFETT] O (us):
+  verdict: BUY    score: 0.8571
+  weight_suggestion: 0.8571428571428571
+    {
+      "kind": "us_reit",
+      "details": {
+        "dividend_yield": {
+          "value": 0.052293283200126967,
+          "threshold": 0.03,
+          "verdict": "pass"
+        },
+        "dividend_streak": {
+          "value": true,
+          "threshold": 10,
+          "verdict": "pass",
+          "kind": "aristocrat"
+        },
+        "price_to_book": {
+          "value": 1.4663603,
+          "threshold": 1.5,
+          "verdict": "pass"
+        },
+        "net_debt_ebitda": {
+          "value": 5.569741544759557,
+          "threshold": 6.0,
+          "verdict": "pass"
+        },
+        "p_ffo": {
+          "value": 16.12,
+          "threshold": 18,
+          "verdict": "pass",
+          "ffo_per_share": 3.84
+        },
+
+[DRIP] O (us):
+  verdict: HOLD    score: 0.75
+    {
+      "safety_score": 75.0,
+      "safety_verdict": "WATCH",
+      "components": [
+        {
+          "name": "payout_ratio_ffo",
+          "score": 25,
+          "weight": 35,
+          "value": 0.8427373114248953,
+          "verdict": "OK"
+        },
+        {
+          "name": "roe_level_reit",
+          "score": null,
+          "weight": 20,
+          "value": 0.02831,
+          "verdict": "n/a"
+        },
+        {
+          "name": "streak_years",
+          "score": 25,
+          "weight": 25,
+          "value": 33,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "net_debt_ebitda",
+          "score": 10,
+          "weight": 20,
+          "value": 5.569741544759557,
+
+[MACRO] O (us):
+  verdict: HOLD    score: 0.6667
+    {
+      "regime": "expansion",
+      "regime_confidence": "medium",
+      "sector": "reit",
+      "tilt": "neutral",
+      "multiplier": 1.0,
+      "regime_notes": "growth + productivity narrative"
+    }
+
+[HEDGE] O (us):
+  verdict: HOLD    score: 1.0
+  msg: No tactical hedge active in current regime
+    {
+      "market": "us",
+      "regime": "expansion",
+      "confidence": "medium",
+      "hedge_size_pct": 0.0,
+      "instruments": [],
+      "notional": null,
+      "rationale": [
+        "curva normal + labor estável = expansion"
+      ],
+      "cross_asset_alternatives": [
+        "GLD",
+        "TLT"
+      ],
+      "active": false
+    }

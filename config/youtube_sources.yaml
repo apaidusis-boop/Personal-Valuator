@@ -1,0 +1,286 @@
+# youtube_sources.yaml — canais curados para ingestão batch contínua.
+#
+# Lido por scripts/yt_poll.py (q4h tier). Cada poll:
+#   1. Resolve channel.uploads playlist via YouTube API (1 unit/canal/poll)
+#   2. Lista últimos N vídeos publicados desde o last_seen_at
+#   3. Filtra: shorts/lives/min_duration_sec
+#   4. Dedup contra videos table em ambas as DBs
+#   5. Dispara yt_ingest_batch.py com IDs novos (Whisper + Ollama local)
+#
+# State per-channel em data/yt_poll_state.json (last_seen_at, video_ids vistos).
+#
+# Custo API total estimado: 22 canais × 4 polls/dia = 88 units/dia
+# (vs free tier 10000 units/dia = 0.9% da quota).
+#
+# Tiers de prioridade:
+#   high   = poll a cada q4h (~6 polls/dia)
+#   medium = poll 2x/dia
+#   low    = poll 1x/dia
+#
+# Tags livre (consumidas pelo digest writer): morning_call, equity_research,
+# dividends, macro, news, edu, valuation, deep_dive, podcast, interviews.
+#
+# Adicionar/remover canais é seguro — poller relê o YAML em cada invocação.
+
+channels:
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇧🇷 BR — Morning Calls (institucional, pré-abertura ~7-9h)
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "BTG Pactual"
+    channel_id: UCE5Uu3nZlVbTur6xwhdoKhg
+    handle: "@btgpactualoficial"
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, sell_side, institutional]
+    skip_kinds: [shorts]
+    min_duration_sec: 180
+    notes: >
+      Morning Call diário pré-abertura (curto ~5min). Daily macro view +
+      tickers BR + visão internacional. Mantém min 180s para apanhar versão
+      curta do briefing.
+
+  - name: "Genial Investimentos"
+    channel_id: UCYSOMA4Yx1CJvrdI8epLfnA
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, sell_side]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+
+  - name: "XP Investimentos"
+    channel_id: UCGCc0y2gKCyfXCUYPLGnFew
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, sell_side]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+
+  - name: "Itaú BBA"
+    channel_id: UCW0y8tT75D3aVP1AnvCbCTA
+    lang: pt
+    priority: medium
+    market: br
+    tags: [morning_call, sell_side, institutional]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+
+  - name: "Inter Invest"
+    channel_id: UC3BNCJqjo0qHYakHfjc4VmQ
+    lang: pt
+    priority: medium
+    market: br
+    tags: [morning_call, sell_side]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇧🇷 BR — Equity Research / Análise de Ativos
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "Ativo Virtual"
+    channel_id: UCJ6q8DczoyLFcFcGs4CrdXQ
+    handle: "@AtivoVirtual"
+    lang: pt
+    priority: high
+    market: br
+    tags: [equity_research, dividends, fii]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600
+    notes: >
+      Análise de fatos relevantes + dividendos BR. Confirmado pelo founder
+      como fonte de qualidade — channel_id testado em yt_ingest_batch
+      (eM1acX1fYb4 SAPR11/ITSA4/PETR4 AGEA insight chave).
+
+  - name: "O Primo Rico"
+    channel_id: UCT4nDeU5pv1XIGySbSK-GgA
+    handle: "@primorico"
+    lang: pt
+    priority: high
+    market: br
+    tags: [macro, equity_research, edu]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600
+
+  - name: "Suno"
+    channel_id: UCWDeEIDAIi_oYKDiqwfGyRg
+    lang: pt
+    priority: high
+    market: br
+    tags: [equity_research, dividends, sell_side]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+
+  - name: "Stock Pickers"
+    channel_id: UCx7ki_a6KpcvwQLBTz-zquA
+    lang: pt
+    priority: medium
+    market: br
+    tags: [interviews, gestores, podcast]
+    skip_kinds: [shorts]
+    min_duration_sec: 1200
+    notes: "Podcast InfoMoney, entrevistas longas com gestores BR. ~1-2/sem."
+
+  - name: "Os Sócios Podcast"
+    channel_id: UCzJPdSTGj7KPZLjaOatWS4A
+    lang: pt
+    priority: low
+    market: br
+    tags: [interviews, podcast, edu]
+    skip_kinds: [shorts]
+    min_duration_sec: 1800
+    notes: "Grupo Primo podcast longo. Selectivo — nem todo episódio é financeiro."
+
+  - name: "Mauá Capital"
+    channel_id: UC27lDe3NHH5VBDP5bK-JEcg
+    lang: pt
+    priority: medium
+    market: br
+    tags: [macro, gestor]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+    notes: "Gestora independente macro-focada. Notas mensais de mercado."
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇺🇸 US — Newsroom (Morning Calls + News)
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "WSJ Podcasts"  # "What's News" 2x/dia
+    channel_id: UCYmFKw7swKPJiaMloRmptHw
+    lang: en
+    priority: high
+    market: us
+    tags: [morning_call, news, podcast]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+    notes: >
+      Hub dos podcasts WSJ. "What's News" publica de manhã + ao final da
+      tarde. Para cobertura mais completa o RSS do podcast vai entrar em
+      podcast_sources.yaml — este canal apanha versões com vídeo.
+
+  - name: "Financial Times"
+    channel_id: UCoUxsWakJucWg46KW5RsvPw
+    lang: en
+    priority: high
+    market: us
+    tags: [news, analysis]
+    skip_kinds: [shorts]
+    min_duration_sec: 300
+    notes: >
+      FT YouTube tem mais explainers do que daily news (FT News Briefing é
+      podcast-first → ver podcast_sources.yaml).
+
+  - name: "Morning Brew Daily"
+    channel_id: UCJGeBpBh9_Q0B_EKPmj14Pg
+    lang: en
+    priority: high
+    market: us
+    tags: [morning_call, news]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+    notes: "Daily talk show, ~30-60min, formato newsletter-on-camera."
+
+  - name: "Bloomberg Markets and Finance"
+    channel_id: UCaJddRNHCNL1k41KP6euqkQ
+    lang: en
+    priority: high
+    market: us
+    tags: [news, market_open, market_close]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 300
+    notes: >
+      Bloomberg TV clips selectos. Mais editado que livestream → fica no
+      registo. Live full-stream em Bloomberg Television (channel separado,
+      tier low — costuma vir como live).
+
+  - name: "Bloomberg Television"
+    channel_id: UCIALMKvObZNtJ6AmdCLP7Lg
+    lang: en
+    priority: low
+    market: us
+    tags: [news, livestream]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600
+
+  - name: "Reuters"
+    channel_id: UChqUTb7kYRX8-EiaN3XFrSQ
+    lang: en
+    priority: medium
+    market: us
+    tags: [news]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 300
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇺🇸 US — Equity Research / Valuation / Education
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "Aswath Damodaran"
+    channel_id: UCLvnJL8htRR1T9cbSccaoVw
+    lang: en
+    priority: high
+    market: us
+    tags: [valuation, edu, deep_dive]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+    notes: "NYU Stern. Valuation lectures + posts. Long-form, academic-grade."
+
+  - name: "Joseph Carlson"
+    channel_id: UCbta0n8i6Rljh0obO7HzG9A
+    lang: en
+    priority: high
+    market: us
+    tags: [dividend, drip, equity_research]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+    notes: "DRIP-strategy aligned com tese do founder."
+
+  - name: "Joseph Carlson After Hours"
+    channel_id: UCfCT7SSFEWyG4th9ZmaGYqQ
+    lang: en
+    priority: medium
+    market: us
+    tags: [dividend, drip, news]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+
+  - name: "Patrick Boyle"
+    channel_id: UCASM0cgfkJxQ1ICmRilfHLw
+    lang: en
+    priority: high
+    market: us
+    tags: [macro, finance_history, edu]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+    notes: "Hedge fund manager + KCL professor. Macro/markets explainers."
+
+  - name: "The Plain Bagel"
+    channel_id: UCFCEuCsyWP0YkP3CZ3Mr01Q
+    lang: en
+    priority: medium
+    market: us
+    tags: [edu, fund_analysis]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+
+  - name: "Charles Schwab"
+    channel_id: UCToe3dspZyw2L_JY-JmP3Mw
+    lang: en
+    priority: medium
+    market: us
+    tags: [edu, market_commentary]
+    skip_kinds: [shorts]
+    min_duration_sec: 600
+
+  - name: "Schwab Network"
+    channel_id: UCqoSrYgusd8ZddtMoWhjHYA
+    lang: en
+    priority: low
+    market: us
+    tags: [live_market, commentary]
+    skip_kinds: [shorts, live]
+    min_duration_sec: 600

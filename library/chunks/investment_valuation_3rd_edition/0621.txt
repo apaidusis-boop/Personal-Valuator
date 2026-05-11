@@ -1,0 +1,41 @@
+ons in manufacturing firms for decades after the Great Depression. Third, entry of new
+firms into the business is often restricted by the regulatory authorities, as are mergers between
+existing firms.
+
+Why does this matter? From a valuation perspective, assumptions about growth are linked to
+assumptions about reinvestment. With financial service firms, these assumptions have to be
+scrutinized to ensure that they pass regulatory constraints. There might also be implications for how
+we measure risk at financial service firms. If regulatory restrictions are changing or are expected to
+change, it adds a layer of uncertainty to the future, which can have an effect on value.
+Reinvestment at Financial Service Firms
+The preceding section noted that financial service firms are often constrained in both where they
+invest their funds and how much they invest. If we define reinvestment, as we have so far in this book,
+as necessary for future growth, there are other problems associated with measuring reinvestment with
+financial service firms. Note that Chapter 10 considers two items in reinvestment—net capital
+expenditures and working capital. Unfortunately, measuring either of these items at a financial service
+firm can be problematic.
+Consider net capital expenditures first. Unlike manufacturing firms that invest in plant, equipment,
+and other fixed assets, financial service firms invest in intangible assets such as brand name and
+human capital. Consequently, their investments for future growth often are categorized as operating
+expenses in accounting statements. Not surprisingly, the statement of cash flows to a bank show little
+or no capital expenditures and correspondingly low depreciation. With working capital, we run into a
+different problem. If we define working capital as the different between current assets and current
+liabilities, a large proportion of a bank's balance sheet would fall into one or the other of these
+categories. Changes in this number can be both large and volatile and may have no relationship to
+reinvestment for future growth.
+As a result of this difficulty in measuring reinvestment, we run into two practical problems in
+valuing these firms. The first is that we cannot estimate cash flows without estimating reinvestment. In
+other words, if we cannot identify net capital expenditures and changes in working capital, we cannot
+estimate cash flows, either. The second is that estimating expected future growth becomes more
+difficult if the reinvestment rate cannot be measured.
+GENERAL FRAMEWORK FOR VALUATION
+Given the unique role of debt at financial service firms, the regulatory restrictions that they operate
+under, and the difficulty of identifying reinvestment at these firms, how can we value these firms? In
+this section, we suggest some broad rules that can allow us to deal with these issues. First, it makes
+far more sense to value equity directly at financial service firms, rather than the entire firm. Second,
+we either need a measure of cash flow that does not require us to estimate reinvestment needs or need
+to redefine reinvestment to make it more meaningful for a financial service firm.
+Equity versus Firm
+Early in this book, we noted the distinction between valuing a firm and valuing the equity in the firm.
+We value firms by discounting expected cash flows prior to debt payments at the weighted average
+cost of capital. We value equity by discounting cash flows to equity investors at the cost of equity.

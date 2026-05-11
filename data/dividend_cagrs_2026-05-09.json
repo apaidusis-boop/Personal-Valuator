@@ -1,0 +1,1762 @@
+{
+  "AAPL": {
+    "market": "us",
+    "years_count": 24,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.03,
+    "cagr_5y_pct": 4.99,
+    "cagr_10y_pct": 7.33,
+    "cagr_25y_pct": null
+  },
+  "ABBV": {
+    "market": "us",
+    "years_count": 14,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.56,
+    "cagr_5y_pct": 6.81,
+    "cagr_10y_pct": 12.5,
+    "cagr_25y_pct": null
+  },
+  "ABM": {
+    "market": "us",
+    "years_count": 43,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.06,
+    "cagr_5y_pct": 13.82,
+    "cagr_10y_pct": 8.24,
+    "cagr_25y_pct": 5.04
+  },
+  "ABT": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.36,
+    "cagr_5y_pct": 10.38,
+    "cagr_10y_pct": 9.41,
+    "cagr_25y_pct": 8.16
+  },
+  "ACN": {
+    "market": "us",
+    "years_count": 22,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.44,
+    "cagr_5y_pct": 6.24,
+    "cagr_10y_pct": 7.67,
+    "cagr_25y_pct": null
+  },
+  "ADM": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.04,
+    "cagr_5y_pct": 7.21,
+    "cagr_10y_pct": 6.18,
+    "cagr_25y_pct": 10.11
+  },
+  "ADP": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.32,
+    "cagr_5y_pct": 11.54,
+    "cagr_10y_pct": 12.19,
+    "cagr_25y_pct": 13.1
+  },
+  "AFL": {
+    "market": "us",
+    "years_count": 43,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.32,
+    "cagr_5y_pct": 15.68,
+    "cagr_10y_pct": 11.37,
+    "cagr_25y_pct": 14.28
+  },
+  "ALB": {
+    "market": "us",
+    "years_count": 33,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.62,
+    "cagr_5y_pct": 1.02,
+    "cagr_10y_pct": 3.4,
+    "cagr_25y_pct": 8.12
+  },
+  "AOS": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.38,
+    "cagr_5y_pct": 7.09,
+    "cagr_10y_pct": 13.77,
+    "cagr_25y_pct": 11.88
+  },
+  "APD": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 7.14,
+    "cagr_5y_pct": 5.9,
+    "cagr_10y_pct": 9.07,
+    "cagr_25y_pct": 9.77
+  },
+  "ATO": {
+    "market": "us",
+    "years_count": 38,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.61,
+    "cagr_5y_pct": 8.97,
+    "cagr_10y_pct": 8.55,
+    "cagr_25y_pct": 4.7
+  },
+  "AWR": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.94,
+    "cagr_5y_pct": 8.67,
+    "cagr_10y_pct": 8.3,
+    "cagr_25y_pct": 6.23
+  },
+  "BDX": {
+    "market": "us",
+    "years_count": 45,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.2783,
+    "cagr_5y_pct": 5.96,
+    "cagr_10y_pct": 5.68,
+    "cagr_25y_pct": 10.24
+  },
+  "BEN": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.29,
+    "cagr_5y_pct": 3.43,
+    "cagr_10y_pct": 7.43,
+    "cagr_25y_pct": 11.67
+  },
+  "BF-B": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.912,
+    "cagr_5y_pct": 5.37,
+    "cagr_10y_pct": 5.9,
+    "cagr_25y_pct": 7.96
+  },
+  "BKH": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.704,
+    "cagr_5y_pct": 4.5,
+    "cagr_10y_pct": 5.26,
+    "cagr_25y_pct": 3.74
+  },
+  "BLK": {
+    "market": "us",
+    "years_count": 24,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 20.84,
+    "cagr_5y_pct": 7.49,
+    "cagr_10y_pct": 9.1,
+    "cagr_25y_pct": null
+  },
+  "BN": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.24,
+    "cagr_5y_pct": -1.35,
+    "cagr_10y_pct": 3.74,
+    "cagr_25y_pct": 5.78
+  },
+  "BRO": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.615,
+    "cagr_5y_pct": 12.06,
+    "cagr_10y_pct": 10.5,
+    "cagr_25y_pct": 12.31
+  },
+  "CAT": {
+    "market": "us",
+    "years_count": 53,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.84,
+    "cagr_5y_pct": 7.23,
+    "cagr_10y_pct": 7.1,
+    "cagr_25y_pct": 9.08
+  },
+  "CB": {
+    "market": "us",
+    "years_count": 34,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.88,
+    "cagr_5y_pct": -9.46,
+    "cagr_10y_pct": -3.41,
+    "cagr_25y_pct": 5.44
+  },
+  "CBSH": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.0477,
+    "cagr_5y_pct": 4.11,
+    "cagr_10y_pct": 5.06,
+    "cagr_25y_pct": 6.13
+  },
+  "CHD": {
+    "market": "us",
+    "years_count": 37,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.18,
+    "cagr_5y_pct": 4.21,
+    "cagr_10y_pct": 5.82,
+    "cagr_25y_pct": 13.79
+  },
+  "CHRW": {
+    "market": "us",
+    "years_count": 30,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.49,
+    "cagr_5y_pct": 4.07,
+    "cagr_10y_pct": 4.72,
+    "cagr_25y_pct": 14.46
+  },
+  "CINF": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.48,
+    "cagr_5y_pct": 7.71,
+    "cagr_10y_pct": 4.23,
+    "cagr_25y_pct": 6.69
+  },
+  "CL": {
+    "market": "us",
+    "years_count": 54,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.06,
+    "cagr_5y_pct": 3.32,
+    "cagr_10y_pct": 3.22,
+    "cagr_25y_pct": 7.79
+  },
+  "CLX": {
+    "market": "us",
+    "years_count": 45,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.92,
+    "cagr_5y_pct": 2.54,
+    "cagr_10y_pct": 5.0,
+    "cagr_25y_pct": 7.43
+  },
+  "CTAS": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.68,
+    "cagr_5y_pct": 13.87,
+    "cagr_10y_pct": 20.4,
+    "cagr_25y_pct": 15.41
+  },
+  "CVX": {
+    "market": "us",
+    "years_count": 58,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.84,
+    "cagr_5y_pct": 5.8,
+    "cagr_10y_pct": 4.8,
+    "cagr_25y_pct": 6.87
+  },
+  "CWT": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.24,
+    "cagr_5y_pct": 7.79,
+    "cagr_10y_pct": 6.32,
+    "cagr_25y_pct": 3.32
+  },
+  "DOV": {
+    "market": "us",
+    "years_count": 45,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.07,
+    "cagr_5y_pct": 1.0,
+    "cagr_10y_pct": 4.56,
+    "cagr_25y_pct": 7.73
+  },
+  "ECL": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.68,
+    "cagr_5y_pct": 7.23,
+    "cagr_10y_pct": 7.18,
+    "cagr_25y_pct": 10.04
+  },
+  "ED": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.4,
+    "cagr_5y_pct": 2.13,
+    "cagr_10y_pct": 2.72,
+    "cagr_25y_pct": 1.79
+  },
+  "EMR": {
+    "market": "us",
+    "years_count": 55,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.139,
+    "cagr_5y_pct": 1.3,
+    "cagr_10y_pct": 1.27,
+    "cagr_25y_pct": 4.4
+  },
+  "ERIE": {
+    "market": "us",
+    "years_count": 31,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.46,
+    "cagr_5y_pct": -1.4,
+    "cagr_10y_pct": 4.69,
+    "cagr_25y_pct": 9.7
+  },
+  "ES": {
+    "market": "us",
+    "years_count": 43,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.012,
+    "cagr_5y_pct": 5.8,
+    "cagr_10y_pct": 6.06,
+    "cagr_25y_pct": 8.41
+  },
+  "EXPD": {
+    "market": "us",
+    "years_count": 33,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.54,
+    "cagr_5y_pct": 8.17,
+    "cagr_10y_pct": 7.9,
+    "cagr_25y_pct": 16.34
+  },
+  "FAST": {
+    "market": "us",
+    "years_count": 36,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.875,
+    "cagr_5y_pct": 4.56,
+    "cagr_10y_pct": 12.07,
+    "cagr_25y_pct": 26.4
+  },
+  "FDS": {
+    "market": "us",
+    "years_count": 28,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.34,
+    "cagr_5y_pct": 7.45,
+    "cagr_10y_pct": 9.76,
+    "cagr_25y_pct": 17.95
+  },
+  "FRT": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.43,
+    "cagr_5y_pct": 0.98,
+    "cagr_10y_pct": 2.04,
+    "cagr_25y_pct": 3.58
+  },
+  "FUL": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.928,
+    "cagr_5y_pct": 7.41,
+    "cagr_10y_pct": 6.17,
+    "cagr_25y_pct": 6.15
+  },
+  "GD": {
+    "market": "us",
+    "years_count": 55,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.92,
+    "cagr_5y_pct": 6.5,
+    "cagr_10y_pct": 8.21,
+    "cagr_25y_pct": 10.3
+  },
+  "GPC": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.12,
+    "cagr_5y_pct": 5.45,
+    "cagr_10y_pct": 5.29,
+    "cagr_25y_pct": 5.42
+  },
+  "GRC": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.745,
+    "cagr_5y_pct": 4.78,
+    "cagr_10y_pct": 6.28,
+    "cagr_25y_pct": 5.33
+  },
+  "GREK": {
+    "market": "us",
+    "years_count": 15,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 2.284,
+    "cagr_5y_pct": 27.91,
+    "cagr_10y_pct": 20.19,
+    "cagr_25y_pct": null
+  },
+  "GS": {
+    "market": "us",
+    "years_count": 28,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 14.0,
+    "cagr_5y_pct": 22.87,
+    "cagr_10y_pct": 18.57,
+    "cagr_25y_pct": 14.44
+  },
+  "GWW": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 8.83,
+    "cagr_5y_pct": 8.25,
+    "cagr_10y_pct": 6.76,
+    "cagr_25y_pct": 10.87
+  },
+  "HD": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 9.2,
+    "cagr_5y_pct": 8.92,
+    "cagr_10y_pct": 14.57,
+    "cagr_25y_pct": 17.59
+  },
+  "HRL": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.16,
+    "cagr_5y_pct": 4.47,
+    "cagr_10y_pct": 8.78,
+    "cagr_25y_pct": 10.87
+  },
+  "IBM": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.71,
+    "cagr_5y_pct": 1.52,
+    "cagr_10y_pct": 3.45,
+    "cagr_25y_pct": 11.06
+  },
+  "ITW": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.22,
+    "cagr_5y_pct": 7.07,
+    "cagr_10y_pct": 11.63,
+    "cagr_25y_pct": 11.83
+  },
+  "JKHY": {
+    "market": "us",
+    "years_count": 36,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.32,
+    "cagr_5y_pct": 6.17,
+    "cagr_10y_pct": 8.78,
+    "cagr_25y_pct": 13.4
+  },
+  "JNJ": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.14,
+    "cagr_5y_pct": 5.25,
+    "cagr_10y_pct": 5.71,
+    "cagr_25y_pct": 8.83
+  },
+  "JPM": {
+    "market": "us",
+    "years_count": 43,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.55,
+    "cagr_5y_pct": 9.04,
+    "cagr_10y_pct": 12.69,
+    "cagr_25y_pct": 6.2
+  },
+  "KMB": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.04,
+    "cagr_5y_pct": 3.32,
+    "cagr_10y_pct": 3.65,
+    "cagr_25y_pct": 6.53
+  },
+  "KO": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.04,
+    "cagr_5y_pct": 4.46,
+    "cagr_10y_pct": 4.45,
+    "cagr_25y_pct": 7.43
+  },
+  "LEG": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.2,
+    "cagr_5y_pct": -34.02,
+    "cagr_10y_pct": -16.81,
+    "cagr_25y_pct": -2.92
+  },
+  "LIN": {
+    "market": "us",
+    "years_count": 35,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 6.0,
+    "cagr_5y_pct": 9.27,
+    "cagr_10y_pct": 7.69,
+    "cagr_25y_pct": 12.58
+  },
+  "LOW": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.7,
+    "cagr_5y_pct": 15.87,
+    "cagr_10y_pct": 16.51,
+    "cagr_25y_pct": 21.65
+  },
+  "MCD": {
+    "market": "us",
+    "years_count": 52,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 7.17,
+    "cagr_5y_pct": 7.3,
+    "cagr_10y_pct": 7.62,
+    "cagr_25y_pct": 15.06
+  },
+  "MDT": {
+    "market": "us",
+    "years_count": 45,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.83,
+    "cagr_5y_pct": 4.42,
+    "cagr_10y_pct": 6.95,
+    "cagr_25y_pct": 11.63
+  },
+  "MGEE": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.85,
+    "cagr_5y_pct": 5.05,
+    "cagr_10y_pct": 4.81,
+    "cagr_25y_pct": 3.03
+  },
+  "MKC": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.83,
+    "cagr_5y_pct": 7.58,
+    "cagr_10y_pct": 8.42,
+    "cagr_25y_pct": 9.43
+  },
+  "MO": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.16,
+    "cagr_5y_pct": 4.12,
+    "cagr_10y_pct": 6.72,
+    "cagr_25y_pct": 2.93
+  },
+  "MSA": {
+    "market": "us",
+    "years_count": 37,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.1,
+    "cagr_5y_pct": 4.19,
+    "cagr_10y_pct": 5.16,
+    "cagr_25y_pct": 11.73
+  },
+  "MSEX": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.38,
+    "cagr_5y_pct": 5.8,
+    "cagr_10y_pct": 5.9,
+    "cagr_25y_pct": 3.3
+  },
+  "MSFT": {
+    "market": "us",
+    "years_count": 24,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.4,
+    "cagr_5y_pct": 10.22,
+    "cagr_10y_pct": 10.18,
+    "cagr_25y_pct": null
+  },
+  "NDSN": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.98,
+    "cagr_5y_pct": 20.91,
+    "cagr_10y_pct": 15.77,
+    "cagr_25y_pct": 11.45
+  },
+  "NEE": {
+    "market": "us",
+    "years_count": 45,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.268,
+    "cagr_5y_pct": 10.13,
+    "cagr_10y_pct": 11.41,
+    "cagr_25y_pct": 8.89
+  },
+  "NFG": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.12,
+    "cagr_5y_pct": 3.67,
+    "cagr_10y_pct": 3.05,
+    "cagr_25y_pct": 3.25
+  },
+  "NUE": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.21,
+    "cagr_5y_pct": 6.49,
+    "cagr_10y_pct": 4.0,
+    "cagr_25y_pct": 11.36
+  },
+  "NWN": {
+    "market": "us",
+    "years_count": 37,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.963,
+    "cagr_5y_pct": 0.51,
+    "cagr_10y_pct": 0.52,
+    "cagr_25y_pct": 1.82
+  },
+  "O": {
+    "market": "us",
+    "years_count": 33,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.49,
+    "cagr_5y_pct": 5.13,
+    "cagr_10y_pct": 4.67,
+    "cagr_25y_pct": 4.88
+  },
+  "PEP": {
+    "market": "us",
+    "years_count": 55,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.624,
+    "cagr_5y_pct": 6.92,
+    "cagr_10y_pct": 7.36,
+    "cagr_25y_pct": 9.71
+  },
+  "PG": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.178,
+    "cagr_5y_pct": 6.02,
+    "cagr_10y_pct": 4.73,
+    "cagr_25y_pct": 7.6
+  },
+  "PH": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 7.03,
+    "cagr_5y_pct": 14.84,
+    "cagr_10y_pct": 10.8,
+    "cagr_25y_pct": 11.59
+  },
+  "PLD": {
+    "market": "us",
+    "years_count": 30,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.04,
+    "cagr_5y_pct": 11.73,
+    "cagr_10y_pct": 10.27,
+    "cagr_25y_pct": 4.1
+  },
+  "PNR": {
+    "market": "us",
+    "years_count": 37,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.0,
+    "cagr_5y_pct": 5.64,
+    "cagr_10y_pct": 1.52,
+    "cagr_25y_pct": 6.28
+  },
+  "PPG": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.78,
+    "cagr_5y_pct": 5.77,
+    "cagr_10y_pct": 6.99,
+    "cagr_25y_pct": 5.11
+  },
+  "RLI": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.63,
+    "cagr_5y_pct": 21.95,
+    "cagr_10y_pct": 6.7,
+    "cagr_25y_pct": 15.37
+  },
+  "ROP": {
+    "market": "us",
+    "years_count": 35,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.3,
+    "cagr_5y_pct": 9.97,
+    "cagr_10y_pct": 12.68,
+    "cagr_25y_pct": 13.47
+  },
+  "RPM": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.07,
+    "cagr_5y_pct": 7.23,
+    "cagr_10y_pct": 6.97,
+    "cagr_25y_pct": 5.9
+  },
+  "SCL": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.55,
+    "cagr_5y_pct": 6.52,
+    "cagr_10y_pct": 7.82,
+    "cagr_25y_pct": 6.36
+  },
+  "SHW": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.16,
+    "cagr_5y_pct": 12.08,
+    "cagr_10y_pct": 13.47,
+    "cagr_25y_pct": 12.14
+  },
+  "SJM": {
+    "market": "us",
+    "years_count": 27,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.36,
+    "cagr_5y_pct": 4.14,
+    "cagr_10y_pct": 5.22,
+    "cagr_25y_pct": 14.13
+  },
+  "SPGI": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.84,
+    "cagr_5y_pct": 7.46,
+    "cagr_10y_pct": 11.27,
+    "cagr_25y_pct": 8.77
+  },
+  "SWK": {
+    "market": "us",
+    "years_count": 42,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.3,
+    "cagr_5y_pct": 3.49,
+    "cagr_10y_pct": 4.43,
+    "cagr_25y_pct": 5.33
+  },
+  "SYY": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.1,
+    "cagr_5y_pct": 3.13,
+    "cagr_10y_pct": 8.84,
+    "cagr_25y_pct": 9.06
+  },
+  "TDS": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.16,
+    "cagr_5y_pct": -25.13,
+    "cagr_10y_pct": -11.84,
+    "cagr_25y_pct": -1.54
+  },
+  "TEN": {
+    "market": "us",
+    "years_count": 24,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.6,
+    "cagr_5y_pct": 3.71,
+    "cagr_10y_pct": -6.7,
+    "cagr_25y_pct": null
+  },
+  "TFC": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.08,
+    "cagr_5y_pct": 2.93,
+    "cagr_10y_pct": 7.07,
+    "cagr_25y_pct": 3.6
+  },
+  "TGT": {
+    "market": "us",
+    "years_count": 44,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.52,
+    "cagr_5y_pct": 11.02,
+    "cagr_10y_pct": 7.66,
+    "cagr_25y_pct": 13.06
+  },
+  "TNC": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.195,
+    "cagr_5y_pct": 6.07,
+    "cagr_10y_pct": 4.09,
+    "cagr_25y_pct": 4.58
+  },
+  "TR": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.3466,
+    "cagr_5y_pct": 2.83,
+    "cagr_10y_pct": 2.65,
+    "cagr_25y_pct": 3.5
+  },
+  "TROW": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.08,
+    "cagr_5y_pct": 7.13,
+    "cagr_10y_pct": 2.22,
+    "cagr_25y_pct": 12.46
+  },
+  "TSM": {
+    "market": "us",
+    "years_count": 23,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.121,
+    "cagr_5y_pct": 12.84,
+    "cagr_10y_pct": 15.67,
+    "cagr_25y_pct": null
+  },
+  "UVV": {
+    "market": "us",
+    "years_count": 41,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.26,
+    "cagr_5y_pct": 1.27,
+    "cagr_10y_pct": 4.6,
+    "cagr_25y_pct": 3.94
+  },
+  "V": {
+    "market": "us",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.44,
+    "cagr_5y_pct": 14.87,
+    "cagr_10y_pct": 17.18,
+    "cagr_25y_pct": null
+  },
+  "WMT": {
+    "market": "us",
+    "years_count": 53,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.94,
+    "cagr_5y_pct": 5.48,
+    "cagr_10y_pct": 3.7,
+    "cagr_25y_pct": 10.36
+  },
+  "WST": {
+    "market": "us",
+    "years_count": 40,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.85,
+    "cagr_5y_pct": 5.51,
+    "cagr_10y_pct": 6.57,
+    "cagr_25y_pct": 6.59
+  },
+  "XOM": {
+    "market": "us",
+    "years_count": 65,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.0,
+    "cagr_5y_pct": 2.82,
+    "cagr_10y_pct": 3.34,
+    "cagr_25y_pct": 6.24
+  },
+  "XP": {
+    "market": "us",
+    "years_count": 3,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.18,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "ABCB4": {
+    "market": "br",
+    "years_count": 16,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 2.6034,
+    "cagr_5y_pct": 33.07,
+    "cagr_10y_pct": 20.11,
+    "cagr_25y_pct": null
+  },
+  "ABEV3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.9956,
+    "cagr_5y_pct": 19.2,
+    "cagr_10y_pct": -4.51,
+    "cagr_25y_pct": null
+  },
+  "ALOS3": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.4825,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "ALUP11": {
+    "market": "br",
+    "years_count": 13,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.29,
+    "cagr_5y_pct": 16.03,
+    "cagr_10y_pct": 3.4,
+    "cagr_25y_pct": null
+  },
+  "B3SA3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.278,
+    "cagr_5y_pct": -15.42,
+    "cagr_10y_pct": 0.43,
+    "cagr_25y_pct": null
+  },
+  "BBAS3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.1829,
+    "cagr_5y_pct": 9.88,
+    "cagr_10y_pct": 1.39,
+    "cagr_25y_pct": null
+  },
+  "BBDC4": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.7301,
+    "cagr_5y_pct": 24.7,
+    "cagr_10y_pct": 10.23,
+    "cagr_25y_pct": null
+  },
+  "BBSE3": {
+    "market": "br",
+    "years_count": 14,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.2623,
+    "cagr_5y_pct": 0.59,
+    "cagr_10y_pct": 9.83,
+    "cagr_25y_pct": null
+  },
+  "BPAC11": {
+    "market": "br",
+    "years_count": 9,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.3958,
+    "cagr_5y_pct": 35.78,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "BRBI11": {
+    "market": "br",
+    "years_count": 4,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.86,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "BRCO11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 10.62,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "BRKM5": {
+    "market": "br",
+    "years_count": 14,
+    "anchor_year": 2022,
+    "current_year_partial": false,
+    "anchor_amount": 1.6963,
+    "cagr_5y_pct": 6.18,
+    "cagr_10y_pct": 10.86,
+    "cagr_25y_pct": null
+  },
+  "BTLG11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 9.4661,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "CMIG4": {
+    "market": "br",
+    "years_count": 17,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.6506,
+    "cagr_5y_pct": 56.74,
+    "cagr_10y_pct": 22.17,
+    "cagr_25y_pct": null
+  },
+  "CPLE3": {
+    "market": "br",
+    "years_count": 20,
+    "anchor_year": 2024,
+    "current_year_partial": true,
+    "anchor_amount": 0.3859,
+    "cagr_5y_pct": 8.33,
+    "cagr_10y_pct": 6.02,
+    "cagr_25y_pct": null
+  },
+  "CSMG3": {
+    "market": "br",
+    "years_count": 17,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.284,
+    "cagr_5y_pct": -3.91,
+    "cagr_10y_pct": 54.68,
+    "cagr_25y_pct": null
+  },
+  "EGIE3": {
+    "market": "br",
+    "years_count": 20,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.3432,
+    "cagr_5y_pct": 1.75,
+    "cagr_10y_pct": 6.76,
+    "cagr_25y_pct": null
+  },
+  "ENGI11": {
+    "market": "br",
+    "years_count": 16,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 3.2738,
+    "cagr_5y_pct": 43.11,
+    "cagr_10y_pct": 20.15,
+    "cagr_25y_pct": null
+  },
+  "EQTL3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 2.3726,
+    "cagr_5y_pct": 49.53,
+    "cagr_10y_pct": 30.57,
+    "cagr_25y_pct": null
+  },
+  "EZTC3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.2218,
+    "cagr_5y_pct": 39.5,
+    "cagr_10y_pct": 6.69,
+    "cagr_25y_pct": null
+  },
+  "GARE11": {
+    "market": "br",
+    "years_count": 3,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.922,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "GRND3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.7032,
+    "cagr_5y_pct": 58.98,
+    "cagr_10y_pct": 19.42,
+    "cagr_25y_pct": null
+  },
+  "HGLG11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 13.2,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "HGRU11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 11.75,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "ISAE4": {
+    "market": "br",
+    "years_count": 25,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.7934,
+    "cagr_5y_pct": 9.94,
+    "cagr_10y_pct": 2.1,
+    "cagr_25y_pct": null
+  },
+  "ITSA4": {
+    "market": "br",
+    "years_count": 20,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.7232,
+    "cagr_5y_pct": 28.47,
+    "cagr_10y_pct": 19.99,
+    "cagr_25y_pct": null
+  },
+  "ITUB4": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.4493,
+    "cagr_5y_pct": 31.06,
+    "cagr_10y_pct": 18.74,
+    "cagr_25y_pct": null
+  },
+  "KLBN11": {
+    "market": "br",
+    "years_count": 12,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.6801,
+    "cagr_5y_pct": 143.47,
+    "cagr_10y_pct": 13.55,
+    "cagr_25y_pct": null
+  },
+  "KLBN4": {
+    "market": "br",
+    "years_count": 16,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.336,
+    "cagr_5y_pct": 143.47,
+    "cagr_10y_pct": 16.29,
+    "cagr_25y_pct": null
+  },
+  "KNCR11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 14.1995,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "KNHF11": {
+    "market": "br",
+    "years_count": 4,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 11.55,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "KNRI11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 12.0,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "MCCI11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 11.2,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "MCRE11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.31,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "MULT3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.4322,
+    "cagr_5y_pct": 18.78,
+    "cagr_10y_pct": 12.69,
+    "cagr_25y_pct": null
+  },
+  "PETR4": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.2813,
+    "cagr_5y_pct": 489.48,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "PGMN3": {
+    "market": "br",
+    "years_count": 3,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.5074,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "PLPL3": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.4988,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "PMLL11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 9.31,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "PNVL3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.1978,
+    "cagr_5y_pct": 53.83,
+    "cagr_10y_pct": 5.11,
+    "cagr_25y_pct": null
+  },
+  "POMO3": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.1455,
+    "cagr_5y_pct": 74.67,
+    "cagr_10y_pct": 51.15,
+    "cagr_25y_pct": null
+  },
+  "POMO4": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.1455,
+    "cagr_5y_pct": 74.67,
+    "cagr_10y_pct": 41.13,
+    "cagr_25y_pct": null
+  },
+  "PSSA3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.0142,
+    "cagr_5y_pct": 14.04,
+    "cagr_10y_pct": 13.21,
+    "cagr_25y_pct": null
+  },
+  "PVBI11": {
+    "market": "br",
+    "years_count": 7,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 5.9,
+    "cagr_5y_pct": 33.34,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "RAPT4": {
+    "market": "br",
+    "years_count": 15,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.0467,
+    "cagr_5y_pct": -28.02,
+    "cagr_10y_pct": 1.76,
+    "cagr_25y_pct": null
+  },
+  "RBRX11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.0462,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "RBRY11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 13.645,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "RDOR3": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 4.2927,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "RECR11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 8.759,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "RENT3": {
+    "market": "br",
+    "years_count": 20,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.9934,
+    "cagr_5y_pct": 42.01,
+    "cagr_10y_pct": 25.82,
+    "cagr_25y_pct": null
+  },
+  "SANB11": {
+    "market": "br",
+    "years_count": 17,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.8762,
+    "cagr_5y_pct": -7.73,
+    "cagr_10y_pct": 6.15,
+    "cagr_25y_pct": null
+  },
+  "SAPR11": {
+    "market": "br",
+    "years_count": 9,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.2084,
+    "cagr_5y_pct": 16.52,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "SEER3": {
+    "market": "br",
+    "years_count": 10,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.1541,
+    "cagr_5y_pct": -5.58,
+    "cagr_10y_pct": 13.16,
+    "cagr_25y_pct": null
+  },
+  "SIMH3": {
+    "market": "br",
+    "years_count": 4,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.1379,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "SLCE3": {
+    "market": "br",
+    "years_count": 16,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.2908,
+    "cagr_5y_pct": 42.8,
+    "cagr_10y_pct": 38.04,
+    "cagr_25y_pct": null
+  },
+  "SUZB3": {
+    "market": "br",
+    "years_count": 15,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.1166,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": 16.98,
+    "cagr_25y_pct": null
+  },
+  "TAEE11": {
+    "market": "br",
+    "years_count": 19,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 3.2293,
+    "cagr_5y_pct": 0.11,
+    "cagr_10y_pct": 5.12,
+    "cagr_25y_pct": null
+  },
+  "TIMS3": {
+    "market": "br",
+    "years_count": 17,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 2.513,
+    "cagr_5y_pct": 35.52,
+    "cagr_10y_pct": 32.41,
+    "cagr_25y_pct": null
+  },
+  "TRXF11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 12.3492,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "TTEN3": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.1906,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "TUPY3": {
+    "market": "br",
+    "years_count": 17,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.3923,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": 6.49,
+    "cagr_25y_pct": null
+  },
+  "UNIP6": {
+    "market": "br",
+    "years_count": 14,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 12.4757,
+    "cagr_5y_pct": 65.36,
+    "cagr_10y_pct": 54.53,
+    "cagr_25y_pct": null
+  },
+  "VALE3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 7.619,
+    "cagr_5y_pct": 25.91,
+    "cagr_10y_pct": 22.82,
+    "cagr_25y_pct": null
+  },
+  "VAMO3": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 0.1401,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "VGIP11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 11.63,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "VGIR11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.4696,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "VISC11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 8.94,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "VIVA3": {
+    "market": "br",
+    "years_count": 7,
+    "anchor_year": 2025,
+    "current_year_partial": false,
+    "anchor_amount": 1.3578,
+    "cagr_5y_pct": 66.59,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "VIVT3": {
+    "market": "br",
+    "years_count": 18,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 1.6268,
+    "cagr_5y_pct": -4.82,
+    "cagr_10y_pct": 1.96,
+    "cagr_25y_pct": null
+  },
+  "VRTA11": {
+    "market": "br",
+    "years_count": 6,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 10.2,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "WIZC3": {
+    "market": "br",
+    "years_count": 12,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 0.5664,
+    "cagr_5y_pct": -3.27,
+    "cagr_10y_pct": 9.38,
+    "cagr_25y_pct": null
+  },
+  "XPLG11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 9.8,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  },
+  "XPML11": {
+    "market": "br",
+    "years_count": 5,
+    "anchor_year": 2025,
+    "current_year_partial": true,
+    "anchor_amount": 11.0381,
+    "cagr_5y_pct": null,
+    "cagr_10y_pct": null,
+    "cagr_25y_pct": null
+  }
+}

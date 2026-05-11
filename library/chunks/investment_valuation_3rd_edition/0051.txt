@@ -1,0 +1,50 @@
+inued operations, extraordinary gains or losses, and
+adjustments for changes in accounting principles.
+Generally accepted accounting principles require the recognition of revenues when the service for
+
+which the firm is getting paid has been performed in full or substantially, and the firm has received in
+return either cash or a receivable that is both observable and measurable. Expenses linked directly to
+the production of revenues (like labor and materials) are recognized in the same period in which
+revenues are recognized. Any expenses that are not directly linked to the production of revenues are
+recognized in the period in which the firm consumes the services. Accounting has resolved one
+inconsistency that bedeviled it for years, with a change in the way it treats employee options. Unlike
+the old rules, these option grants were not treated as expenses when granted but only when exercised,
+the new rules require that employee options be valued and expensed, when granted (with allowances
+for amortization over periods). Since employee options are part of compensation, which is an
+operating expense, the new rules make more sense.
+While accrual accounting is straightforward in firms that produce goods and sell them, there are
+special cases where accrual accounting can be complicated by the nature of the product or service
+being offered. For instance, firms that enter into long-term contracts with their customers are allowed
+to recognize revenue on the basis of the percentage of the contract that is completed. As the revenue is
+recognized on a percentage-of-completion basis, a corresponding proportion of the expense is also
+recognized. When there is considerable uncertainty about the capacity of the buyer of a good or
+service to pay for it, the firm providing the good or service may recognize the income only when it
+collects portions of the selling price under the installment method.
+Reverting back to the discussion of the difference between capital and operating expenses,
+operating expenses should reflect only those expenses that create revenues in the current period. In
+practice, however, a number of expenses are classified as operating expenses that do not seem to
+meet this test. The first is depreciation and amortization. While the notion that capital expenditures
+should be written off over multiple periods is reasonable, the accounting depreciation that is
+computed on the original historical cost often bears little resemblance to the actual economic
+depreciation. The second expense is research and development expenses, which accounting standards
+classify as operating expenses, but which clearly provide benefits over multiple periods. The
+rationale used for this classification is that the benefits cannot be counted on or easily quantified.
+Much of financial analysis is built around the expected future earnings of a firm, and many of these
+forecasts start with the current earnings. It is therefore important to know how much of these earnings
+comes from the ongoing operations of the firm and how much can be attributed to unusual or
+extraordinary events that are unlikely to recur on a regular basis. From that standpoint, it is useful that
+firms categorize expenses into operating and nonrecurring expenses, since it is the earnings prior to
+extraordinary items that should be used in forecasting. Nonrecurring items include:
+Unusual or infrequent items
+, such as gains or losses from the divestiture of an asset or
+division, and write-offs or restructuring costs. Companies sometimes include such items as
+part of operating expenses. As an example, Boeing in 1997 took a write-off of $1,400
+million to adjust the value of assets it acquired in its acquisition of McDonnell Douglas, and
+it showed this as part of operating expenses.
+Extraordinary items
+, which are defined as events that are unusual in nature, infrequent in
+occurrence, and material in impact. Examples include the accounting gain associated with
+refinancing high-coupon debt with lower-coupon debt, and gains or losses from marketable
+securities that are held by the firm.
+Losses associated with discontinued operations
+, which measure both the loss from the

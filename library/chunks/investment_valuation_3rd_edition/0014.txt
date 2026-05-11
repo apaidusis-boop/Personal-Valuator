@@ -1,0 +1,45 @@
+rket
+valuation rather than on firm-specific valuation. Among stock pickers valuation plays a central role in
+portfolio management for fundamental analysts and a peripheral role for technical analysts.
+
+Fundamental Analysts
+The underlying theme in fundamental analysis is that the true value of the firm can be related to its
+financial characteristics—its growth prospects, risk profile, and cash flows. Any deviation from this
+true value is a sign that a stock is under- or overvalued. It is a long-term investment strategy, and the
+assumptions underlying it are:
+The relationship between value and the underlying financial factors can be measured.
+The relationship is stable over time.
+Deviations from the relationship are corrected in a reasonable time period.
+Valuation is the central focus in fundamental analysis. Some analysts use discounted cash flow
+models to value firms, while others use multiples such as the price-earnings and price–book value
+ratios. Since investors using this approach hold a large number of undervalued stocks in their
+portfolios, their hope is that, on average, these portfolios will do better than the market.
+Franchise Buyers
+The philosophy of a franchise buyer is best expressed by an investor who has been very successful at
+it—Warren Buffett. “We try to stick to businesses we believe we understand,” Mr. Buffett writes.
+3
+“That means they must be relatively simple and stable in character. If a business is complex and
+subject to constant change, we're not smart enough to predict future cash flows.” Franchise buyers
+concentrate on a few businesses they understand well and attempt to acquire undervalued firms.
+Often, as in the case of Mr. Buffett, franchise buyers wield influence on the management of these firms
+and can change financial and investment policy. As a long-term strategy, the underlying assumptions
+are that:
+Investors who understand a business well are in a better position to value it correctly.
+These undervalued businesses can be acquired without driving the price above the true
+value and sometimes at a bargain.
+Valuation plays a key role in this philosophy, since franchise buyers are attracted to a particular
+business because they believe it is undervalued. They are also interested in how much additional
+value they can create by restructuring the business and running it right.
+Chartists
+Chartists believe that prices are driven as much by investor psychology as by any underlying financial
+variables. The information available from trading—price movements, trading volume, short sales,
+and so forth—gives an indication of investor psychology and future price movements. The
+assumptions here are that prices move in predictable patterns, that there are not enough marginal
+investors taking advantage of these patterns to eliminate them, and that the average investor in the
+market is driven more by emotion than by rational analysis.
+While valuation does not play much of a role in charting, there are ways in which an enterprising
+chartist can incorporate it into analysis. For instance, valuation can be used to determine support and
+resistance lines
+4
+ on price charts.
+Information Traders

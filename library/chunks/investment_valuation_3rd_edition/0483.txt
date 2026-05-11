@@ -1,0 +1,44 @@
+ed to allow for the dilutive effect of option exercise. This can be done fairly simply by adjusting
+the current stock price for the expected effects of dilution (as we did with warrants in Chapter 5).
+
+Taxation
+When options are exercised, the firm can deduct for tax purposes the difference between the stock
+price at the time and the exercise price as an employee expense. This potential tax benefit reduces the
+drain on value created by having options outstanding. One way in which you could estimate the tax
+benefit is to multiply the difference between the stock price today and the exercise price by the tax
+rate; clearly, this would make sense only if the options are in-the-money. While this does not allow
+for the expected price appreciation over time, it has the benefit of simplicity. An alternative way of
+estimating the tax benefit is to compute the after-tax value of the options:
+This approach is also straightforward and allows you to consider the tax benefits from option
+exercise in valuation. One of the advantages of this approach is that it can be used to consider the
+potential tax benefit even when options are out-of-the-money.
+WHAT ABOUT OTHER OPTIONS?
+While we have considered the effects of management options specifically in this section, everything that has been said here
+about management and employee options applies to other equity options issued by the firm as well. In particular, warrants
+issued to raise equity capital and conversion options in convertible securities (bonds and preferred stock) also dilute the value
+of the common stock in a firm. Consequently, you would need to reduce the value of equity by the value of these options as
+well. Generally speaking, though, warrants and conversions tend to be easier to value than management options because
+they are traded. The market values of the warrants and the conversion options can be used as measures of their estimated
+values.
+Nontraded Firms
+A couple of key inputs to the option pricing model—the current price per share and the variance in
+stock prices—cannot be obtained if a firm is not publicly traded. There are two choices in this
+scenario. One is to revert to the treasury stock approach to estimate the value of the options
+outstanding and abandon the option pricing models. The other is to stay with the option pricing
+models and to estimate the value per share from the discounted cash flow model. The variance of
+similar firms that are publicly traded can be used to estimate the value of the options.
+ILLUSTRATION 16.9: Valuing Management Options as
+Options: Cisco Systems
+In Illustration 16.8, we estimated the value of equity per share at Cisco Systems using both the fully diluted approach, which
+we argued would give us too low a value per share, and the treasury stock approach, which yields too high a value. To get it
+right, we valued the 732 million options outstanding as options, using the actual stock price ($16.26), the average exercise
+price of $21.39, the weighted average maturity of 3.94 years and an estimated standard deviation in stock prices of 40%.
+With these inputs and using the Black-Scholes model, adjusted for dilution, we arrived at an estimate of value of $2.96 per
+option and an aggregate value of $2,165 million for the 732 million options. (Cisco had a dividend yield of 1.48% that we
+incorporated into the model; see Chapter 5 for details).
+The value of equity per share can now be computed, using the estimated value of equity of $113,331 million that we arrived
+at, using discounted cash flows:
+Value of equity
+$113,331
+Value of options
+$2,165

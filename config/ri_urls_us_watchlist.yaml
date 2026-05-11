@@ -1,0 +1,54 @@
+ABBV:
+  is_holding: false
+  market: us
+  method: known
+  name: AbbVie
+  ri_urls:
+  - https://investors.abbvie.com/
+  sector: Healthcare
+  status: ok
+CAT:
+  is_holding: false
+  market: us
+  method: known
+  name: Caterpillar
+  ri_urls:
+  - https://www.caterpillar.com/en/investors.html
+  sector: Industrials
+  status: ok
+MCD:
+  is_holding: false
+  market: us
+  method: known
+  name: McDonald's
+  ri_urls:
+  - https://corporate.mcdonalds.com/corpmcd/investors.html
+  sector: Consumer Disc.
+  status: ok
+MSFT:
+  is_holding: false
+  market: us
+  method: known
+  name: Microsoft
+  ri_urls:
+  - https://www.microsoft.com/en-us/investor
+  sector: Technology
+  status: ok
+V:
+  is_holding: false
+  market: us
+  method: known
+  name: Visa
+  ri_urls:
+  - https://investor.visa.com/
+  sector: Financials
+  status: ok
+WMT:
+  is_holding: false
+  market: us
+  method: known
+  name: Walmart
+  ri_urls:
+  - https://stock.walmart.com/
+  sector: Consumer Staples
+  status: ok

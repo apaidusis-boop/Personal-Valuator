@@ -1,0 +1,89 @@
+te:
+1.
+ When companies buy back stock for short periods, with the intent of reissuing the stock or using
+it to cover option exercises, they are allowed to show the repurchased stock as treasury stock,
+
+which reduces the book value of equity. Firms are not allowed to keep treasury stock on the books
+for extended periods, and have to reduce their book value of equity by the value of repurchased
+stock in the case of stock buybacks. Since these buybacks occur at the current market price, they
+can result in significant reductions in the book value of equity.
+2.
+ Firms that have significant losses over extended periods or carry out massive stock buybacks
+can end up with negative book values of equity.
+3.
+ Relating back to the discussion of marketable securities, any unrealized gain or loss in
+marketable securities that are classified as available for sale is shown as an increase or a
+decrease in the book value of equity in the balance sheet.
+As part of their financial statements, firms provide a summary of changes in shareholders' equity
+during the period, where all the changes that occurred to the accounting measure of equity value are
+summarized.
+As a final point on equity, accounting rules still seem to consider preferred stock, with its fixed
+dividend, as equity or near-equity, largely because of the fact that preferred dividends can be
+deferred or cumulated without the risk of default. To the extent that there can still be a loss of control
+in the firm (as opposed to bankruptcy), we have already argued that preferred stock shares almost as
+many characteristics with unsecured debt as it does with equity.
+ILLUSTRATION 3.2: 
+Measuring Liabilities and Equity in
+Boeing and the Home Depot in 1998
+The following table summarizes the accounting estimates of liabilities and equity at Boeing and the Home Depot for the 1998
+financial year in millions of dollars:
+Boeing
+Home Depot
+Accounts payable and other liabilities
+$10,733
+$ 1,586
+Accrued salaries and expenses
+0
+$ 1,010
+Advances in excess of costs
+$ 1,251
+$ 0
+Taxes payable
+$ 569
+$ 247
+Short-term debt and current long-term debt
+$ 869
+$ 14
+Total current liabilities
+$13,422
+$ 2,857
+Accrued health care benefits
+$ 4,831
+0
+Other long-term liabilities
+0
+$ 210
+Deferred income taxes
+0
+$ 83
+Long-term debt
+$ 6,103
+$ 1,566
+Minority interests
+$ 9
+$ 0
+Shareholders' Equity
+Par value
+$ 5,059
+$ 37
+Additional paid-in capital
+$ 0
+$ 2,891
+Retained earnings
+$ 7,257
+$ 5,812
+Total shareholders' equity
+$12,316
+$ 8,740
+Total liabilities
+$36,672
+$13,465
+The most significant difference between the companies is the accrued health care liability shown by Boeing, representing the
+present value of expected health care obligations promised to employees in excess of health care assets. The shareholders'
+equity for both firms represents the book value of equity and is significantly different from the market value of equity. The
+follwing table summarizes the difference at the end of 1998 (in millions of dollars):
+Boeing
+Home Depot
+Book value of equity
+$12,316
+$ 8,740

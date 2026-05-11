@@ -1,0 +1,31 @@
+{"ts": "2026-05-10T19:21:48Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "holdings_br"}
+{"ts": "2026-05-10T19:21:48Z", "event": "phase_planned", "phase": "holdings_br", "n": 2}
+{"ts": "2026-05-10T19:21:48Z", "event": "phase_start", "phase": "holdings_br", "n": 2}
+{"ts": "2026-05-10T19:21:48Z", "event": "phase_done", "phase": "holdings_br", "n": 2, "elapsed_s": 0.1, "rc": 1}
+{"ts": "2026-05-10T19:21:48Z", "event": "phase_stderr", "phase": "holdings_br", "stderr": "No tickers loaded from yaml â€” run ri_url_resolver.py first\n"}
+{"ts": "2026-05-10T19:21:48Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 0}
+{"ts": "2026-05-10T19:23:32Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "holdings_br"}
+{"ts": "2026-05-10T19:23:32Z", "event": "phase_planned", "phase": "holdings_br", "n": 2}
+{"ts": "2026-05-10T19:23:32Z", "event": "phase_start", "phase": "holdings_br", "n": 2}
+{"ts": "2026-05-10T19:23:33Z", "event": "phase_done", "phase": "holdings_br", "n": 2, "elapsed_s": 0.6, "rc": 0}
+{"ts": "2026-05-10T19:23:33Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 2}
+{"ts": "2026-05-10T19:32:10Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "holdings_us"}
+{"ts": "2026-05-10T19:32:10Z", "event": "phase_planned", "phase": "holdings_us", "n": 21}
+{"ts": "2026-05-10T19:32:10Z", "event": "phase_start", "phase": "holdings_us", "n": 21}
+{"ts": "2026-05-10T19:33:02Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "holdings_br"}
+{"ts": "2026-05-10T19:33:02Z", "event": "phase_planned", "phase": "holdings_br", "n": 10}
+{"ts": "2026-05-10T19:33:02Z", "event": "phase_start", "phase": "holdings_br", "n": 10}
+{"ts": "2026-05-10T19:39:16Z", "event": "phase_done", "phase": "holdings_us", "n": 21, "elapsed_s": 425.8, "rc": 0}
+{"ts": "2026-05-10T19:39:16Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 30}
+{"ts": "2026-05-10T19:39:19Z", "event": "phase_done", "phase": "holdings_br", "n": 10, "elapsed_s": 377.1, "rc": 0}
+{"ts": "2026-05-10T19:39:19Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 31}
+{"ts": "2026-05-10T19:42:58Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "watchlist_br"}
+{"ts": "2026-05-10T19:42:58Z", "event": "phase_planned", "phase": "watchlist_br", "n": 41}
+{"ts": "2026-05-10T19:42:58Z", "event": "phase_start", "phase": "watchlist_br", "n": 41}
+{"ts": "2026-05-10T19:43:45Z", "event": "orchestrator_start", "out": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "phase": "watchlist_us"}
+{"ts": "2026-05-10T19:43:45Z", "event": "phase_planned", "phase": "watchlist_us", "n": 6}
+{"ts": "2026-05-10T19:43:45Z", "event": "phase_start", "phase": "watchlist_us", "n": 6}
+{"ts": "2026-05-10T19:44:58Z", "event": "phase_done", "phase": "watchlist_us", "n": 6, "elapsed_s": 73.4, "rc": 0}
+{"ts": "2026-05-10T19:44:58Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 42}
+{"ts": "2026-05-10T19:59:51Z", "event": "phase_done", "phase": "watchlist_br", "n": 41, "elapsed_s": 1012.7, "rc": 0}
+{"ts": "2026-05-10T19:59:51Z", "event": "master_saved", "path": "obsidian_vault\\Overnight_2026-05-11\\_LEITURA_DA_MANHA.md", "dossiers": 78}

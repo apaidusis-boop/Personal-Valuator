@@ -1,0 +1,32 @@
+lding. In office rentals, where square footage is a key factor determining rental revenues, this may by a useful
+adjustment. It does not, however, factor in differences on any of the other dimensions.
+
+Income.
+ The value of an asset can be standardized using its income. For instance, the gross
+income multiplier (price of property/gross annual income) is an income-standardized value
+measure. The advantage of this approach is that the income incorporates differences in
+scale, construction quality, and location.
+6
+ The gross income should be prior to debt
+payments, since differences in leverage can cause large differences in the income available
+to equity investors.
+Why Comparables May Work Better for Real Estate Than Stocks
+One of the difficulties in using comparables to value stocks is that risk and growth characteristics can
+vary widely across stocks even in the same industry class. In the case of real estate properties in the
+same locale, the argument can be made that the growth and risk characteristics are very similar across
+these properties.
+ILLUSTRATION 26.3: 
+Valuing a Property Based on
+Comparables in 2000
+Consider the property at 711 Third Avenue that was valued using discounted cash flow valuation. The appraisal also noted
+eight other properties in that part of Manhattan with roughly the same characteristics as the building being appraised that had
+sold recently. The following table summarizes the details of these properties and the prices that they were sold for:
+The property at 711 Third Avenue has 528,357 square feet of rental space, had an occupancy rate of 95%, and generated
+net operating income of $6.107 million in the most recent year. Based on the average price per square foot, the value of the
+property is:
+If we adjust for the fact that the occupancy rate is slightly lower at 711 Third Avenue than the average we would estimate
+the following value:
+Finally, if we apply to this property the multiple of operating income based on the four properties for which it is available:
+Which of these values gets used will depend on whether you view the lower operating income per square foot at 711 Third
+Avenue to be the consequence of poor management or the building’s characteristics—location and condition. If it is the
+former, you might be willing to pay the higher values ($111 million). If it is the latter, you would pay only $81.4 million.

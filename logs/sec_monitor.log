@@ -1,0 +1,852 @@
+{"ts": "2026-04-16T17:45:48Z", "event": "sec_fetch_start", "tickers": 1, "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 180}
+{"ts": "2026-04-16T17:45:49Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-16T17:45:50Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 5, "inserted": 5}
+{"ts": "2026-04-16T17:45:50Z", "event": "sec_all_done", "tickers": 1, "total_inserted": 5}
+{"ts": "2026-04-16T17:45:56Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 180}
+{"ts": "2026-04-16T17:45:56Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-16T17:45:57Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 5, "inserted": 0}
+{"ts": "2026-04-16T17:45:58Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 13, "inserted": 13}
+{"ts": "2026-04-16T17:45:59Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 8, "inserted": 8}
+{"ts": "2026-04-16T17:45:59Z", "event": "sec_ticker_done", "ticker": "O", "filings": 16, "inserted": 16}
+{"ts": "2026-04-16T17:46:00Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 29, "inserted": 29}
+{"ts": "2026-04-16T17:46:00Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 11, "inserted": 11}
+{"ts": "2026-04-16T17:46:00Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 4, "inserted": 4}
+{"ts": "2026-04-16T17:46:01Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 8, "inserted": 8}
+{"ts": "2026-04-16T17:46:01Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 7, "inserted": 7}
+{"ts": "2026-04-16T17:46:02Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 13, "inserted": 13}
+{"ts": "2026-04-16T17:46:02Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 8, "inserted": 8}
+{"ts": "2026-04-16T17:46:02Z", "event": "ticker_not_found", "ticker": "BRK-B", "sec_key": "BRKB"}
+{"ts": "2026-04-16T17:46:02Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 7, "inserted": 7}
+{"ts": "2026-04-16T17:46:02Z", "event": "ticker_not_found", "ticker": "GREK", "sec_key": "GREK"}
+{"ts": "2026-04-16T17:46:03Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 7, "inserted": 7}
+{"ts": "2026-04-16T17:46:03Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 14, "inserted": 14}
+{"ts": "2026-04-16T17:46:03Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 9, "inserted": 9}
+{"ts": "2026-04-16T17:46:04Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 4, "inserted": 4}
+{"ts": "2026-04-16T17:46:04Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 10, "inserted": 10}
+{"ts": "2026-04-16T17:46:04Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 12, "inserted": 12}
+{"ts": "2026-04-16T17:46:05Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 6, "inserted": 6}
+{"ts": "2026-04-16T17:46:05Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 10, "inserted": 10}
+{"ts": "2026-04-16T17:46:06Z", "event": "sec_ticker_done", "ticker": "V", "filings": 12, "inserted": 12}
+{"ts": "2026-04-16T17:46:06Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 6, "inserted": 6}
+{"ts": "2026-04-16T17:46:07Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 8, "inserted": 8}
+{"ts": "2026-04-16T17:46:08Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 9, "inserted": 9}
+{"ts": "2026-04-16T17:46:09Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 6, "inserted": 6}
+{"ts": "2026-04-16T17:46:09Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 237}
+{"ts": "2026-04-16T17:46:47Z", "event": "sec_fetch_start", "tickers": 1, "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 180}
+{"ts": "2026-04-16T17:46:47Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-16T17:46:48Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 8, "inserted": 8}
+{"ts": "2026-04-16T17:46:48Z", "event": "sec_all_done", "tickers": 1, "total_inserted": 8}
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-17T13:03:43Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-17T13:03:44Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:45Z", "event": "sec_ticker_done", "ticker": "O", "filings": 4, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 1}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:46Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:47Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:48Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:49Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:49Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 1}
+{"ts": "2026-04-17T13:03:50Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 1, "inserted": 1}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:51Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:52Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-17T13:03:53Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 0}
+{"ts": "2026-04-17T13:03:54Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 4}
+{"ts": "2026-04-21T21:28:02Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-21T21:28:02Z", "event": "sec_cik_map_loaded", "entries": 10391}
+{"ts": "2026-04-21T21:28:03Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:04Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 3, "inserted": 0}
+{"ts": "2026-04-21T21:28:04Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-21T21:28:05Z", "event": "sec_ticker_done", "ticker": "O", "filings": 4, "inserted": 0}
+{"ts": "2026-04-21T21:28:05Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-21T21:28:05Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:06Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 1}
+{"ts": "2026-04-21T21:28:06Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 1}
+{"ts": "2026-04-21T21:28:07Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:07Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 1}
+{"ts": "2026-04-21T21:28:08Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:08Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-21T21:28:09Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:09Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-21T21:28:10Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 2, "inserted": 0}
+{"ts": "2026-04-21T21:28:10Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:11Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-21T21:28:12Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 4, "inserted": 1}
+{"ts": "2026-04-21T21:28:13Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-21T21:28:13Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-21T21:28:13Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 0}
+{"ts": "2026-04-21T21:28:14Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 4}
+{"ts": "2026-04-24T20:37:29Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-24T20:37:29Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-24T20:37:30Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 2, "inserted": 1}
+{"ts": "2026-04-24T20:37:32Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 2}
+{"ts": "2026-04-24T20:37:33Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-24T20:37:34Z", "event": "sec_ticker_done", "ticker": "O", "filings": 4, "inserted": 0}
+{"ts": "2026-04-24T20:37:34Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 7, "inserted": 1}
+{"ts": "2026-04-24T20:37:35Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 3}
+{"ts": "2026-04-24T20:37:36Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-24T20:37:37Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-24T20:37:38Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 2}
+{"ts": "2026-04-24T20:37:39Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-24T20:37:40Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-24T20:37:41Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-24T20:37:41Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-24T20:37:42Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 1}
+{"ts": "2026-04-24T20:37:42Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 1}
+{"ts": "2026-04-24T20:37:43Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 1}
+{"ts": "2026-04-24T20:37:44Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 1}
+{"ts": "2026-04-24T20:37:45Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-24T20:37:46Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 1}
+{"ts": "2026-04-24T20:37:47Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 4, "inserted": 0}
+{"ts": "2026-04-24T20:37:48Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-24T20:37:49Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-24T20:37:49Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-04-24T20:37:49Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 14}
+{"ts": "2026-04-25T22:31:50Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-25T22:31:50Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-25T22:31:52Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 2, "inserted": 0}
+{"ts": "2026-04-25T22:31:55Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-25T22:31:55Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:31:56Z", "event": "sec_ticker_done", "ticker": "O", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:31:57Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-25T22:31:58Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-25T22:31:59Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-25T22:31:59Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:00Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:32:01Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-25T22:32:02Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:03Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-25T22:32:03Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:04Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:32:04Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:32:05Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:05Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-25T22:32:06Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-25T22:32:07Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:07Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:32:09Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:09Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-25T22:32:10Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-04-25T22:32:10Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 0}
+{"ts": "2026-04-26T22:22:31Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-26T22:22:31Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-26T22:22:32Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 2, "inserted": 0}
+{"ts": "2026-04-26T22:22:33Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-26T22:22:34Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:34Z", "event": "sec_ticker_done", "ticker": "O", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:34Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-26T22:22:35Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-26T22:22:36Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-26T22:22:37Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:37Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:38Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-26T22:22:39Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:39Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-26T22:22:40Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:40Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:40Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:41Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:41Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-26T22:22:42Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-26T22:22:42Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:42Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:43Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:44Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 3, "inserted": 0}
+{"ts": "2026-04-26T22:22:44Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-04-26T22:22:44Z", "event": "sec_all_done", "tickers": 27, "total_inserted": 0}
+{"ts": "2026-04-27T22:23:11Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-27T22:23:11Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-27T22:23:12Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:13Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-27T22:23:14Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-27T22:23:14Z", "event": "sec_ticker_done", "ticker": "O", "filings": 3, "inserted": 0}
+{"ts": "2026-04-27T22:23:14Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-27T22:23:15Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-27T22:23:15Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:16Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:16Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-27T22:23:17Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:17Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-27T22:23:18Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:19Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-27T22:23:19Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 4, "inserted": 1}
+{"ts": "2026-04-27T22:23:19Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:20Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:20Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:20Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:21Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-27T22:23:21Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:22Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-04-27T22:23:22Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-04-27T22:23:23Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 2, "inserted": 2}
+{"ts": "2026-04-27T22:23:23Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 3}
+{"ts": "2026-04-28T22:23:49Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-28T22:23:49Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-28T22:23:50Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 1}
+{"ts": "2026-04-28T22:23:51Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-28T22:23:51Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-28T22:23:52Z", "event": "sec_ticker_done", "ticker": "O", "filings": 3, "inserted": 0}
+{"ts": "2026-04-28T22:23:52Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-28T22:23:52Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-28T22:23:53Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:23:53Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:54Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-28T22:23:54Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:23:54Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 1, "inserted": 1}
+{"ts": "2026-04-28T22:23:55Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:55Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-28T22:23:56Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:56Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-28T22:23:56Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 4, "inserted": 0}
+{"ts": "2026-04-28T22:23:57Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:57Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:23:57Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:23:58Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:58Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-28T22:23:59Z", "event": "sec_ticker_done", "ticker": "V", "filings": 1, "inserted": 1}
+{"ts": "2026-04-28T22:23:59Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:23:59Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:24:00Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-04-28T22:24:00Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 2, "inserted": 0}
+{"ts": "2026-04-28T22:24:00Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 3}
+{"ts": "2026-04-29T22:25:06Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-29T22:25:06Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-29T22:25:07Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:08Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-29T22:25:09Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:09Z", "event": "sec_ticker_done", "ticker": "O", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-29T22:25:10Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-29T22:25:10Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:11Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:12Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:12Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:12Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:13Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:13Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 1, "inserted": 1}
+{"ts": "2026-04-29T22:25:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-29T22:25:14Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:14Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:14Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 4, "inserted": 0}
+{"ts": "2026-04-29T22:25:15Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:15Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:15Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:16Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-29T22:25:17Z", "event": "sec_ticker_done", "ticker": "V", "filings": 2, "inserted": 1}
+{"ts": "2026-04-29T22:25:17Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-29T22:25:17Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 1}
+{"ts": "2026-04-29T22:25:18Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 2}
+{"ts": "2026-04-29T22:25:19Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 2, "inserted": 0}
+{"ts": "2026-04-29T22:25:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 5}
+{"ts": "2026-04-30T20:37:59Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-04-30T20:37:59Z", "event": "sec_cik_map_loaded", "entries": 10341}
+{"ts": "2026-04-30T20:38:01Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 0}
+{"ts": "2026-04-30T20:38:02Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 5, "inserted": 0}
+{"ts": "2026-04-30T20:38:03Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 0}
+{"ts": "2026-04-30T20:38:03Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:03Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-04-30T20:38:04Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-04-30T20:38:04Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:05Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 2, "inserted": 1}
+{"ts": "2026-04-30T20:38:05Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 3, "inserted": 0}
+{"ts": "2026-04-30T20:38:05Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:06Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 2, "inserted": 1}
+{"ts": "2026-04-30T20:38:06Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:07Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:07Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-04-30T20:38:07Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:07Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 3, "inserted": 0}
+{"ts": "2026-04-30T20:38:08Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 4, "inserted": 0}
+{"ts": "2026-04-30T20:38:08Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:09Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:09Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:10Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:10Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-04-30T20:38:10Z", "event": "sec_ticker_done", "ticker": "V", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:11Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-04-30T20:38:11Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:12Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:12Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:13Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 2, "inserted": 0}
+{"ts": "2026-04-30T20:38:13Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 2}
+{"ts": "2026-05-04T20:38:42Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-05-04T20:38:42Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-04T20:38:42Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 0}
+{"ts": "2026-05-04T20:38:43Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 6, "inserted": 1}
+{"ts": "2026-05-04T20:38:43Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:44Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:44Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-05-04T20:38:44Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-05-04T20:38:45Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:45Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 3, "inserted": 1}
+{"ts": "2026-05-04T20:38:46Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:46Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 4, "inserted": 2}
+{"ts": "2026-05-04T20:38:46Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 3, "inserted": 1}
+{"ts": "2026-05-04T20:38:47Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 2, "inserted": 1}
+{"ts": "2026-05-04T20:38:47Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:47Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-04T20:38:48Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:48Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 1}
+{"ts": "2026-05-04T20:38:48Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 5, "inserted": 2}
+{"ts": "2026-05-04T20:38:49Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 2, "inserted": 1}
+{"ts": "2026-05-04T20:38:49Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 4, "inserted": 2}
+{"ts": "2026-05-04T20:38:49Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:50Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:50Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-05-04T20:38:51Z", "event": "sec_ticker_done", "ticker": "V", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:51Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:51Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:52Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-04T20:38:52Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 0}
+{"ts": "2026-05-04T20:38:53Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 3, "inserted": 1}
+{"ts": "2026-05-04T20:38:53Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 13}
+{"ts": "2026-05-05T20:37:53Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-05-05T20:37:53Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-05T20:37:55Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 0}
+{"ts": "2026-05-05T20:37:56Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 6, "inserted": 0}
+{"ts": "2026-05-05T20:37:57Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:37:58Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:37:59Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-05-05T20:37:59Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-05-05T20:38:00Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:01Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 3, "inserted": 0}
+{"ts": "2026-05-05T20:38:01Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:02Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 4, "inserted": 0}
+{"ts": "2026-05-05T20:38:03Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 3, "inserted": 0}
+{"ts": "2026-05-05T20:38:04Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:04Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:38:04Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-05T20:38:05Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:38:06Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 0}
+{"ts": "2026-05-05T20:38:06Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 5, "inserted": 0}
+{"ts": "2026-05-05T20:38:07Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 3, "inserted": 1}
+{"ts": "2026-05-05T20:38:08Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 4, "inserted": 0}
+{"ts": "2026-05-05T20:38:08Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:09Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:38:10Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-05-05T20:38:10Z", "event": "sec_ticker_done", "ticker": "V", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:11Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:38:11Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:12Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-05T20:38:13Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 0}
+{"ts": "2026-05-05T20:38:14Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 3, "inserted": 0}
+{"ts": "2026-05-05T20:38:14Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 1}
+{"ts": "2026-05-06T20:38:55Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 30}
+{"ts": "2026-05-06T20:38:55Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-06T20:38:56Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:38:56Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 6, "inserted": 0}
+{"ts": "2026-05-06T20:38:57Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 3, "inserted": 1}
+{"ts": "2026-05-06T20:38:57Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 1}
+{"ts": "2026-05-06T20:38:57Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 6, "inserted": 0}
+{"ts": "2026-05-06T20:38:58Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 4, "inserted": 0}
+{"ts": "2026-05-06T20:38:58Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:38:59Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:38:59Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:38:59Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 4, "inserted": 0}
+{"ts": "2026-05-06T20:39:00Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:39:00Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:39:00Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 2, "inserted": 1}
+{"ts": "2026-05-06T20:39:00Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-06T20:39:01Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-06T20:39:01Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 4, "inserted": 0}
+{"ts": "2026-05-06T20:39:02Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 5, "inserted": 0}
+{"ts": "2026-05-06T20:39:02Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:39:02Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 4, "inserted": 0}
+{"ts": "2026-05-06T20:39:03Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:39:03Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 1, "inserted": 0}
+{"ts": "2026-05-06T20:39:03Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:39:04Z", "event": "sec_ticker_done", "ticker": "V", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:39:04Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 1, "inserted": 0}
+{"ts": "2026-05-06T20:39:04Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:39:05Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-06T20:39:05Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 2, "inserted": 0}
+{"ts": "2026-05-06T20:39:06Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 3, "inserted": 0}
+{"ts": "2026-05-06T20:39:06Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 3}
+{"ts": "2026-05-08T09:29:05Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T09:29:05Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T09:29:08Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:09Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:12Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T09:29:12Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T09:29:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 2}
+{"ts": "2026-05-08T09:29:17Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 2}
+{"ts": "2026-05-08T09:29:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 7}
+{"ts": "2026-05-08T09:47:36Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T09:47:36Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T09:47:38Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:39Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:42Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T09:47:42Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T09:47:45Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T09:47:46Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T09:47:47Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-08T19:20:06Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T19:20:06Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T19:20:08Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T19:20:09Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 1}
+{"ts": "2026-05-08T19:20:09Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 2}
+{"ts": "2026-05-08T19:20:12Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T19:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T19:20:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 3, "inserted": 1}
+{"ts": "2026-05-08T19:20:16Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T19:20:17Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T19:20:18Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 5}
+{"ts": "2026-05-08T20:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T20:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T20:20:09Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T20:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T20:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T20:20:13Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T20:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T20:20:17Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 4, "inserted": 1}
+{"ts": "2026-05-08T20:20:18Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T20:20:18Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 1}
+{"ts": "2026-05-08T20:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T20:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 2}
+{"ts": "2026-05-08T21:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T21:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T21:40:39Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": null}
+{"ts": "2026-05-08T21:40:39Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T21:40:40Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 142, "inserted": 135}
+{"ts": "2026-05-08T21:40:41Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 28, "inserted": 11}
+{"ts": "2026-05-08T21:40:42Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 15, "inserted": 6}
+{"ts": "2026-05-08T21:40:42Z", "event": "sec_ticker_done", "ticker": "O", "filings": 276, "inserted": 257}
+{"ts": "2026-05-08T21:40:42Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 864, "inserted": 831}
+{"ts": "2026-05-08T21:40:43Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 111, "inserted": 97}
+{"ts": "2026-05-08T21:40:43Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 204, "inserted": 199}
+{"ts": "2026-05-08T21:40:44Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 160, "inserted": 149}
+{"ts": "2026-05-08T21:40:44Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 168, "inserted": 159}
+{"ts": "2026-05-08T21:40:45Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 20, "inserted": 4}
+{"ts": "2026-05-08T21:40:45Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 154, "inserted": 143}
+{"ts": "2026-05-08T21:40:46Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 124, "inserted": 113}
+{"ts": "2026-05-08T21:40:46Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 140, "inserted": 131}
+{"ts": "2026-05-08T21:40:46Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T21:40:47Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 140, "inserted": 133}
+{"ts": "2026-05-08T21:40:47Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 343, "inserted": 326}
+{"ts": "2026-05-08T21:40:47Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 158, "inserted": 145}
+{"ts": "2026-05-08T21:40:48Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 72, "inserted": 65}
+{"ts": "2026-05-08T21:40:48Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 117, "inserted": 103}
+{"ts": "2026-05-08T21:40:49Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 152, "inserted": 140}
+{"ts": "2026-05-08T21:40:49Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 44, "inserted": 37}
+{"ts": "2026-05-08T21:40:50Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 134, "inserted": 119}
+{"ts": "2026-05-08T21:40:50Z", "event": "sec_ticker_done", "ticker": "V", "filings": 228, "inserted": 214}
+{"ts": "2026-05-08T21:40:50Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 165, "inserted": 157}
+{"ts": "2026-05-08T21:40:51Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 211, "inserted": 202}
+{"ts": "2026-05-08T21:40:51Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 183, "inserted": 172}
+{"ts": "2026-05-08T21:40:52Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 98, "inserted": 90}
+{"ts": "2026-05-08T21:40:52Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 148, "inserted": 145}
+{"ts": "2026-05-08T21:40:52Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 4283}
+{"ts": "2026-05-08T21:42:34Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": null}
+{"ts": "2026-05-08T21:42:34Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T21:42:35Z", "event": "sec_ticker_done", "ticker": "JNJ", "filings": 142, "inserted": 0}
+{"ts": "2026-05-08T21:42:36Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 28, "inserted": 0}
+{"ts": "2026-05-08T21:42:36Z", "event": "sec_ticker_done", "ticker": "BLK", "filings": 15, "inserted": 0}
+{"ts": "2026-05-08T21:42:37Z", "event": "sec_ticker_done", "ticker": "O", "filings": 276, "inserted": 0}
+{"ts": "2026-05-08T21:42:37Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 864, "inserted": 0}
+{"ts": "2026-05-08T21:42:38Z", "event": "sec_ticker_done", "ticker": "PG", "filings": 111, "inserted": 0}
+{"ts": "2026-05-08T21:42:38Z", "event": "sec_ticker_done", "ticker": "TEN", "filings": 204, "inserted": 0}
+{"ts": "2026-05-08T21:42:38Z", "event": "sec_ticker_done", "ticker": "AAPL", "filings": 160, "inserted": 0}
+{"ts": "2026-05-08T21:42:39Z", "event": "sec_ticker_done", "ticker": "TSLA", "filings": 168, "inserted": 0}
+{"ts": "2026-05-08T21:42:40Z", "event": "sec_ticker_done", "ticker": "GS", "filings": 20, "inserted": 0}
+{"ts": "2026-05-08T21:42:40Z", "event": "sec_ticker_done", "ticker": "KO", "filings": 154, "inserted": 0}
+{"ts": "2026-05-08T21:42:40Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 124, "inserted": 0}
+{"ts": "2026-05-08T21:42:41Z", "event": "sec_ticker_done", "ticker": "XP", "filings": 140, "inserted": 0}
+{"ts": "2026-05-08T21:42:41Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T21:42:41Z", "event": "sec_ticker_done", "ticker": "HD", "filings": 140, "inserted": 0}
+{"ts": "2026-05-08T21:42:42Z", "event": "sec_ticker_done", "ticker": "BN", "filings": 343, "inserted": 0}
+{"ts": "2026-05-08T21:42:42Z", "event": "sec_ticker_done", "ticker": "PLD", "filings": 158, "inserted": 0}
+{"ts": "2026-05-08T21:42:42Z", "event": "sec_ticker_done", "ticker": "PLTR", "filings": 72, "inserted": 0}
+{"ts": "2026-05-08T21:42:43Z", "event": "sec_ticker_done", "ticker": "TFC", "filings": 117, "inserted": 0}
+{"ts": "2026-05-08T21:42:43Z", "event": "sec_ticker_done", "ticker": "NU", "filings": 152, "inserted": 0}
+{"ts": "2026-05-08T21:42:44Z", "event": "sec_ticker_done", "ticker": "ACN", "filings": 44, "inserted": 0}
+{"ts": "2026-05-08T21:42:44Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 134, "inserted": 0}
+{"ts": "2026-05-08T21:42:44Z", "event": "sec_ticker_done", "ticker": "V", "filings": 228, "inserted": 0}
+{"ts": "2026-05-08T21:42:45Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 165, "inserted": 0}
+{"ts": "2026-05-08T21:42:45Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 211, "inserted": 0}
+{"ts": "2026-05-08T21:42:46Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 183, "inserted": 0}
+{"ts": "2026-05-08T21:42:46Z", "event": "sec_ticker_done", "ticker": "MSFT", "filings": 98, "inserted": 0}
+{"ts": "2026-05-08T21:42:47Z", "event": "sec_ticker_done", "ticker": "IBM", "filings": 148, "inserted": 0}
+{"ts": "2026-05-08T21:42:47Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-08T22:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T22:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T22:20:10Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T22:20:11Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T22:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T22:20:14Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T22:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T22:20:19Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 4, "inserted": 0}
+{"ts": "2026-05-08T22:20:19Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T22:20:20Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T22:20:20Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T22:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-08T23:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-08T23:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-08T23:20:09Z", "event": "sec_ticker_done", "ticker": "JPM", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T23:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T23:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T23:20:14Z", "event": "sec_ticker_done", "ticker": "BRK-B", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T23:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-08T23:20:18Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 4, "inserted": 0}
+{"ts": "2026-05-08T23:20:18Z", "event": "sec_ticker_done", "ticker": "MCD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-08T23:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T23:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-08T23:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T00:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T00:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T00:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T00:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T00:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T00:20:17Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T00:20:18Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T00:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T00:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T01:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T01:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T01:20:11Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T01:20:12Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T01:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T01:20:19Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T01:20:20Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T01:20:21Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T01:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T02:20:09Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T02:20:09Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T02:20:12Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T02:20:12Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T02:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T02:20:19Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T02:20:20Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T02:20:20Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T02:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T03:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T03:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T03:20:12Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T03:20:13Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T03:20:17Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T03:20:34Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T03:20:38Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T03:20:46Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T03:21:06Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T04:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T04:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T04:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T04:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T04:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T04:20:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T04:20:18Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T04:20:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T04:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T05:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T05:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T05:20:11Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T05:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T05:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T05:20:18Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T05:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T05:20:20Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T05:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T06:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T06:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T06:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T06:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T06:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T06:20:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T06:20:17Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T06:20:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T06:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T07:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T07:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T07:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T07:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T07:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T07:20:17Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T07:20:18Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T07:20:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T07:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T08:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T08:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T08:20:21Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T08:20:21Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T08:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T08:20:27Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T08:20:29Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T08:20:29Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T08:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T09:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T09:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T09:20:20Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T09:20:21Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T09:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T09:20:27Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T09:20:28Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T09:20:28Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T09:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T10:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T10:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T10:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T10:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T10:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T10:20:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T10:20:17Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T10:20:17Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T10:20:18Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T11:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T11:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T11:20:14Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T11:20:15Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T11:20:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T11:20:21Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T11:20:22Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T11:20:22Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T11:20:23Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T12:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T12:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T12:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T12:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T12:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T12:20:16Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T12:20:17Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T12:20:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T12:20:18Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T13:20:13Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T13:20:13Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T13:20:16Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T13:20:16Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T13:20:19Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T13:20:22Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T13:20:24Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T13:20:24Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T13:20:25Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T14:20:19Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T14:20:19Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T14:20:25Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T14:20:25Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T14:20:32Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T14:20:38Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T14:20:42Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T14:20:43Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T14:20:47Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T15:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T15:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T15:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T15:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T15:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T15:20:17Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T15:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T15:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T15:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T16:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T16:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T16:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T16:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T16:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T16:20:18Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T16:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T16:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T16:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T17:20:14Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T17:20:14Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T17:20:19Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T17:20:20Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T17:20:25Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T17:20:31Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T17:20:33Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T17:20:34Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T17:20:36Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T18:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T18:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T18:20:10Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T18:20:10Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T18:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T18:20:17Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T18:20:18Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T18:20:18Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T18:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T19:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T19:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T19:20:11Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T19:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T19:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T19:20:18Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T19:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T19:20:19Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T19:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T20:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T20:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T20:20:11Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T20:20:11Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T20:20:15Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T20:20:18Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T20:20:19Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T20:20:20Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T20:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T21:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T21:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T21:20:21Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T21:20:21Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T21:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T21:20:28Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T21:20:29Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T21:20:29Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T21:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T22:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T22:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T22:20:21Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T22:20:22Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T22:20:25Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T22:20:29Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T22:20:30Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T22:20:31Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T22:20:32Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-09T23:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-09T23:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-09T23:20:15Z", "event": "sec_ticker_done", "ticker": "O", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T23:20:15Z", "event": "sec_ticker_done", "ticker": "TSM", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T23:20:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-09T23:20:21Z", "event": "sec_ticker_done", "ticker": "TTD", "filings": 2, "inserted": 0}
+{"ts": "2026-05-09T23:20:23Z", "event": "sec_ticker_done", "ticker": "PEP", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T23:20:23Z", "event": "sec_ticker_done", "ticker": "ABBV", "filings": 1, "inserted": 0}
+{"ts": "2026-05-09T23:20:24Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T00:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T00:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T00:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T00:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T01:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T01:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T01:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T01:20:21Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T02:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T02:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T02:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T02:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T03:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T03:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T03:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T03:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T04:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T04:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T04:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T04:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T05:20:13Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T05:20:13Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T05:20:19Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T05:20:25Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T07:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T07:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T07:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T07:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T08:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T08:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T08:20:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T08:20:23Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T09:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T09:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T09:20:33Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T09:20:48Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T10:20:10Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T10:20:10Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T10:20:30Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T10:20:44Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T11:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T11:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T11:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T11:20:22Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T12:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T12:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T12:20:16Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T12:20:22Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T13:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T13:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T13:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T13:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T14:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T14:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T14:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T14:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T15:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T15:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T15:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T15:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T16:20:17Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T16:20:17Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T16:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T16:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T17:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T17:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T17:20:19Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T17:20:25Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T18:20:13Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T18:20:13Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T18:20:44Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T18:21:08Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T19:20:16Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T19:20:16Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T19:20:46Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T19:21:17Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T20:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T20:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T20:20:16Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T20:20:22Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T21:20:06Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T21:20:06Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T21:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T21:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T22:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T22:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T22:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T22:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-10T23:20:13Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T23:20:13Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T23:20:20Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T23:20:26Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T00:20:17Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T00:20:17Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T00:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T00:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T01:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T01:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T01:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T01:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T02:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T02:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T02:20:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T02:20:24Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T03:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T03:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T03:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T03:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T04:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T04:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T04:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T04:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T05:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T05:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T05:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T05:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T06:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T06:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T06:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T06:20:18Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T08:20:14Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T08:20:14Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T08:20:20Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T08:20:25Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T09:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T09:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T09:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T09:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+{"ts": "2026-05-11T10:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T10:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T10:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T10:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}

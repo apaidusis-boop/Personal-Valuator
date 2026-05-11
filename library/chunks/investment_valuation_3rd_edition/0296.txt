@@ -1,0 +1,47 @@
+unusual base year, you should tie the changes in working capital to expected changes in revenues or
+costs of goods sold at the firm over time. The noncash working capital as a percent of revenues can
+
+be used, in conjunction with expected revenue changes each period, to estimate projected changes in
+noncash working capital over time. You can obtain the noncash working capital as a percent of
+revenues by looking at the firm's history or at industry standards.
+Should you break working capital down into more detail? In other words, is there a payoff to
+estimating individual items, such as accounts receivable, inventory, and accounts payable separately?
+The answer will depend on both the firm being analyzed and how far into the future working capital is
+being projected. For firms where inventory and accounts receivable behave in very different ways as
+revenues grow, it clearly makes sense to break working capital down into detail. The cost, of course,
+is that it increases the number of inputs needed to value a firm. In addition, the payoff to breaking
+working capital down into individual items will become smaller as we go further into the future. For
+most firms, estimating a composite number for noncash working capital is easier to do and often more
+accurate than breaking it down into more detail.
+ILLUSTRATION 10.8: Estimating Noncash Working
+Capital Needs: The Gap
+As a specialty retailer, the Gap has substantial inventory and working capital needs. At the end of the 2000 financial year
+(which concluded in January 2001), the Gap reported $1,904 million in inventory and $335 million in other noncash current
+assets. At the same time, the accounts payable amounted to $1,067 million and other non-interest-bearing current liabilities
+were $702 
+million. The noncash working capital for the Gap in January 2001 can be estimated as follows:
+The following table reports on the noncash working capital at the end of the previous year and the total revenues in each
+year:
+The noncash working capital increased by $307 million from the preceding year to this one. When forecasting the noncash
+working capital needs for the Gap, there are five choices:
+1.
+ One is to use the change in noncash working capital from the year ($307 million) and to grow that change at the same
+rate as earnings are expected to grow in the future. This is probably the least desirable option because changes in noncash
+working capital from year to year are extremely volatile, and last year's change may in fact be an outlier.
+2.
+ The second is to base our changes on noncash working capital as a percent of revenues in the most recent year and
+expected revenue growth in future years. In the case of the Gap, that would indicate that noncash working capital changes
+in future years will be 3.44% of revenue changes in that year. This is a much better option than the first one, but the
+noncash working capital as a percent of revenues can also change from one year to the next.
+3.
+ The third is to base our changes on the marginal noncash working capital as a percent of revenues in the most recent
+year, computed by dividing the change in noncash working capital in the most recent year and the change in revenues in
+the most recent year, by expected revenue growth in future years. In the case of the Gap, this would lead to noncash
+working capital changes being 15.06% of revenues in future periods. This approach is best used for firms whose business
+is changing and where growth is occurring in areas different from the past. For instance, a brick-and-mortar retailer that is
+growing mostly online may have a very different marginal working capital requirement than the total.
+4.
+ The fourth is to base our changes on the noncash working capital as a percent of revenues over a historical period. For
+instance, noncash working capital as a percent of revenues between 1997 and 2000 averaged out to 4.5% of revenues.
+The advantage of this approach is that it smooths out year-to-year shifts, but it may not be appropriate if there is a trend
+(upward or downward) in working capital.

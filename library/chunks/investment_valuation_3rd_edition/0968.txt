@@ -1,0 +1,26 @@
+he bigger
+impact on value. The other is to build the correlation explicitly into the simulation; this requires
+more sophisticated simulation packages and adds more detail to the estimation process.
+4.
+
+Run the simulation:
+ For the first simulation, you draw one outcome from each distribution and
+compute the value based upon those outcomes. This process can be repeated as many times as
+desired, though the marginal contribution of each simulation drops off as the number of
+simulations increases. The number of simulations you run should be determined by the following:
+Number of probabilistic inputs:
+ The larger the number of inputs that have probability
+distributions attached to them, the greater will be the required number of simulations.
+Characteristics of probability distributions:
+ The greater the diversity of distributions in
+an analysis, the larger will be the number of required simulations. Thus, the number of
+required simulations will be smaller in a simulation where all of the inputs have normal
+distributions than in one where some have normal distributions, some are based upon
+historical data distributions, and some are discrete.
+Range of outcomes:
+ The greater the potential range of outcomes on each input, the greater
+will be the number of simulations.
+Figure 33.7
+ Pre Tax Operating Margins: U.S. Software Companies in January 2011
+Most simulation packages allow users to run thousands of simulations, with little or no cost attached
+to increasing that number. Given that reality, it is better to err on the side of too many simulations

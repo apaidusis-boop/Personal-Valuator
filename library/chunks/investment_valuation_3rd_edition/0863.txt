@@ -1,0 +1,36 @@
+tments. In reality, most
+investments will fall in the continuum between these two extremes, with greater competitive
+advantages being associated with higher excess returns and larger option values.
+3.
+
+Are the competitive advantages sustainable?
+ In a competitive marketplace, excess returns
+attract competitors, and competition drives down excess returns. The more sustainable the
+competitive advantages possessed by a firm, the greater will be the value of the options embedded
+in the initial investment. The sustainability of competitive advantages is a function of two forces.
+The first is the nature of the competition; other things remaining equal, competitive advantages
+fade much more quickly in sectors where there are aggressive competitors. The second is the
+nature of the competitive advantage. If the resource controlled by the firm is finite and scarce (as
+is the case with natural resource reserves and vacant land), the competitive advantage is likely to
+be sustainable for longer periods. Alternatively, if the competitive advantage comes from being
+the first mover in a market or from having technological expertise, it will come under assault far
+sooner. The most direct way of reflecting this competitive advantage in the value of the option is
+to estimate the period of competitive advantage, and only the excess returns earned over this
+period count toward the value of the option. 
+If the answer is yes to all three questions, then the option to expand can be valuable. Applying the
+last two tests to the Ambev expansion option, you can see the potential problems. While Ambev is
+the largest producer of Guarana in the world, it does not have exclusivity on the product. If the
+initial introduction proves successful, it is entirely possible that Coke and Pepsi could produce
+their own versions of Guarana for the national market. If this occurs, Ambev will have expended
+$100 million of its funds to provide market information to its competitors. Thus, if Ambev gets no
+competitive advantage in the expansion market because of its initial investment, the option to
+expand ceases to have value and cannot be used to justify the initial investment. Now consider
+two intermediate scenarios: If Ambev gets a lead time on the expansion investment because of its
+initial investment, you could build in higher cash flows for that lead time and a fading off to lower
+cash flows thereafter. This will lower the present value of the cash flows for the expansion and
+the value of the option. A simpler adjustment would be to cap the present value of the cash flows,
+the argument being that competition will restrict how large the net present value can become, and
+value the option with the cap. For instance, if you assume that the present value of the cash flows
+from the expansion option cannot exceed $2 billion, the value of the expansion option drops to
+$142 million.
+4

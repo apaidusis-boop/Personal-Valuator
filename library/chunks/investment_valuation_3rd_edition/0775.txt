@@ -1,0 +1,59 @@
+lued are much more
+likely to use stock as currency in transactions. The stockholders in the target firm are also
+aware of this, and may demand a larger premium when the payment is made entirely in the
+
+form of the acquiring firm's stock.
+Tax factors.
+ When an acquisition is a stock swap, the stockholders in the target firm may be
+able to defer capital gains taxes on the exchanged shares. Since this benefit can be
+significant in an acquisition, the potential tax gains from a stock swap may be large enough
+to offset any perceived disadvantages.
+The final aspect of a stock swap is the setting of the terms of the stock swap (i.e., the number of
+shares of the acquired firm that will be offered per share of the acquiring firm). While this amount is
+generally based on the market price at the time of the acquisition, the ratio that results may be skewed
+by the relative mispricing of the two firms' securities, with the more overpriced firm gaining at the
+expense of the more underpriced (or at least less overpriced) firm. A fairer ratio would be based on
+the intrinsic values of the two firms' shares. This can be seen quite clearly in the following
+illustration.
+ILLUSTRATION 25.5: Setting the Exchange Ratio
+We will begin by reviewing our valuation for Digital in 
+Table 25.5
+. The value of Digital with the synergy and control
+components is $6,964 million. This is obtained by adding the value of control ($2,421 million) and the value of synergy ($2,422
+million) to the status quo value of $2,110 million. Digital also has $1,006 million in debt, and 146.789 million shares
+outstanding. The maximum value per share for Digital can then be estimated as follows (assuming no cash):
+The estimated value per share for Compaq is $27, based on the total value of the firm of $38,546.91 million, the debt
+outstanding of $3.2 billion, and 1,305.76 million shares (again assuming no cash).
+The appropriate exchange ratio, based on value per share, can be estimated:
+If the exchange ratio is set above this number, Compaq stockholders will lose to the benefit of Digital stockholders. If it is set
+below, Digital stockholders will lose to the benefit of Compaq stockholders.
+In fact, Compaq paid $30 in cash and offered 0.945 shares of Compaq stock for every Digital share. Assessing the value of
+this offer,
+Value per Digital share (Compaq offer) = $30 + 0.945 ($27.07)
+$55.58
+Value per Digital share (assessed value)
+$40.59
+Overpayment by Compaq
+$14.99
+Based on our assessments of value and control, Compaq overpaid on this acquisition for Digital.
+Table 25.5
+ Valuing Digital for Compaq
+Component
+Valuation Guidelines
+Value
+Synergy
+Value the combined firm with synergy built in. 
+In the case of Compaq/Digital, the synergy comes from: 
+Annual cost savings, expected to be $100 million.
+Slightly higher growth rate
+$2,422 million
+Control premium
+Value Digital as if optimally managed. This was done by assuming: 
+Higher margins and a return on capital equal to the cost of capital.
+Higher debt ratio and a lower cost of capital.
+$2,421 million
+Status quo valuation
+Value Digital as is, with existing inputs for investment, financing, and dividend policy.
+$2,110 million
+Source: Corporate Finance: Theory and Practice, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley & Sons, Inc. This material is used by permission
+of John Wiley & Sons, Inc.

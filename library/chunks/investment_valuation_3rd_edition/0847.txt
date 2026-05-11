@@ -1,0 +1,50 @@
+riant of this approach is to value the entire firm's undeveloped reserves as one option. A purist
+would probably disagree, arguing that valuing an option on a portfolio of assets (as in this approach)
+
+will provide a lower value than valuing a portfolio of options (which is what the natural resource
+firm really owns). Nevertheless, the assumption that the only source of variance is the price of the
+natural resource effectively makes the values of the reserves perfectly correlated and allows us to use
+the short cut with limited or no cost.
+Inputs to Option Valuation
+If you decide to apply the option pricing approach to estimate the value of aggregate undeveloped
+reserves, you have to estimate the inputs to the model. In general terms, while the process resembles
+the one used to value an individual reserve, there are a few differences.
+Value of underlying asset.
+ You should cumulate all of the undeveloped reserves owned by
+a company and estimate the value of these reserves, based on the price of the resource today
+and the average variable cost of extracting these reserves today. The variable costs are
+likely to be higher for some reserves and lower for others, and weighting the variable costs
+at each reserve by the quantity of the resource of that reserve should give you a reasonable
+approximation of this value. At least hypothetically, we are assuming that the company can
+decide to extract all of its undeveloped reserves at one time and not affect the price of the
+resource.
+Exercise price.
+ For this input, you should consider what it would cost the company today to
+develop all of its undeveloped reserves. Again, the costs might be higher for some reserves
+than for others, and you can use a weighted average cost.
+Life of the option.
+ A firm will probably have different lives for each of its reserves. As a
+consequence, you will have to use a weighted average of the lives of the different
+reserves.
+11
+Variance in the value of the asset.
+ Here, there is a strong argument for looking at only the
+oil price as the source of variance, since a firm should have a much more precise estimate
+of its total reserves than it does of any one of its reserves.
+Dividend yield (cost of delay).
+ As with an individual reserve, a firm with viable reserves
+will be giving up the cash flows it could receive in the next period from developing these
+reserves if it delays exercise. This cash flow, stated as a percent of the value of the
+reserves, becomes the equivalent of the dividend yield. The development lag reduces the
+value of this option just as it reduces the value of an individual reserve. The logical
+implication is that undeveloped reserves will be worth more at oil companies that can
+develop their reserves quicker than at less efficient companies.
+ILLUSTRATION 28.5: Valuing an Oil Company: Gulf Oil
+in 1984
+Gulf Oil was the target of a takeover in early 1984 at $70 per share (It had 165.30 million shares outstanding and total debt
+of $9.9 billion). It had estimated reserves of 3,038 million barrels of oil and the total cost of developing these reserves at that
+time was estimated to be $30.38 billion (the development lag is approximately two years). The average relinquishment life of
+the reserves is 12 years. The price of oil was $22.38 per barrel, and the production costs, taxes, and royalties were estimated
+at $7 per barrel. The bond rate at the time of the analysis was 9.00%. If Gulf were to choose to develop these reserves, it
+was expected to have cash flows next year of approximately 5% of the value of the developed reserves. The variance in oil
+prices is 0.03.

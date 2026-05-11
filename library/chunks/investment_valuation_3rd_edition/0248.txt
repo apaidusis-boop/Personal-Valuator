@@ -1,0 +1,51 @@
+e time of the analysis:
+Intuitively, the levered beta here is lower than the unlevered beta because we are incorporating the cash into the beta
+computation (with the assumption that cash is riskless).
+
+Note that the weight on equity is greater than 100% (112.57%) and the weight on debt is negative (–12.57%) because net
+debt is negative. Notwithstanding these disconcerting inputs, the cost of capital is close to the cost of capital using the
+standard debt ratio approach, and the difference can be attributed to the fact that the net debt approach nets out the tax
+benefit of debt against the tax costs of earning interest income on cash.
+BEST PRACTICES AT FIRMS
+We have spent this chapter discussing what firms should do when it comes to estimating the cost of
+capital. What do they actually do? Bruner, Eades, Harris, and Higgins (1998) surveyed 27 well-
+regarded corporations, and their findings are summarized in 
+Table 8.3
+.
+Table 8.3
+ Current Practices for Estimating Cost of Capital
+Cost of Capital
+Item
+Current Practices
+Cost of equity
+81% of firms used the capital asset pricing model to estimate the cost of equity, 4% used a modified capital asset pricing model, and
+15% were uncertain about how they estimated the cost of equity.
+70% of firms used 10-year Treasuries or longer as the riskless rate, 7% used 3- to 5-year Treasuries, and 4% used the Treasury bill rate.
+52% used a published source for a beta estimate, while 30% estimated it themselves.
+There was wide variation in the market risk premium used, with 37% using a premium between 5% and 6%.
+Cost of debt
+52% of firms used a marginal borrowing rate and a marginal tax rate, while 37% used the current average borrowing rate and the
+effective tax rate.
+Weights for debt
+and equity
+59% used market value weights for debt and equity in the cost of capital, 15% used book value weights, and 19% were uncertain about
+what weights they used.
+Source:
+ Bruner, Eades, Harris, and Higgins (1998).
+CONCLUSION
+When we analyze the investments of a firm or assess its value, we need to know the cost that the firm
+faces in raising equity, debt, and capital. The risk and return models described in earlier chapters can
+be used to estimate the costs of equity and capital for a firm.
+Building on the premise that the cost of equity should reflect the riskiness of equity to investors in
+the firm, there are three basic inputs we need to estimate the cost of equity for any firm. The riskless
+rate is the expected return on an investment with no default risk and no reinvestment risk. Since much
+of the analysis in corporate finance is long term, the riskless rate should be the interest rate on a long-
+term government bond. The risk premium measures what investors demand as a premium for investing
+in risky investments instead of riskless investments. This risk premium, which can vary across
+investors, can be estimated either by looking at past returns on stocks and government securities or by
+looking at how the market prices stocks currently. The beta for a firm is conventionally measured
+using a regression of returns on the firm's stock against returns on a market index. This approach
+yields imprecise beta estimates, and we are better off estimating betas by examining the betas of the
+businesses that the firm operates in.
+The cost of capital is a weighted average of the costs of the different components of financing, with
+the weights based on the market values of each component. The cost of debt is the market rate at

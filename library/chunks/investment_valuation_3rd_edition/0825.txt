@@ -1,0 +1,53 @@
+pay
+$200,000 a year for a new chef. The restaurant is in stable growth and is expected to grow 5% a
+year for the next decade. You estimate the unlevered beta of publicly traded restaurants to be 0.80.
+
+The average debt-to-capital ratio for these firms is 30%, and you believe that Cool Café will have
+to operate at close to this average. The risk-free rate is 6%, the market risk premium is 4% and
+the cost of debt is 7%.
+a.
+ Estimate the value of Cool Café.
+b.
+ Now assume that you will see a drop-off in revenues of 15% if Joanne Arapacio leaves the
+restaurant. Assuming that 70% of the current operating expenses are variable and that the
+remaining 30% of fixed, estimate the value Ms. Arapacio to the restaurant.
+2.
+ Sick and tired of the investment banking grind, you decide to quit and buy a franchise for a fast-
+growing bagel chain in your town. You have been able to get information on what another
+franchise for the same chain is generating in revenues in the neighboring town:
+The franchise has revenues of $1 million and earnings before interest and taxes of
+$150,000 last year but the owner did not assess a salary for himself. He does the
+accounting and oversees the bagel shop, and you believe that hiring someone else to do
+what he does will cost you $50,000 annually.
+The revenues and operating income are expected to grow 3% a year in perpetuity.
+You expect to pay 35% of your income in taxes and use all of your investment savings to
+buy the shop. The unlevered beta for franchise food chains is 0.80, and the average
+correlation with the market is 0.40.
+The owner has a bank loan outstanding of $300,000 and the book value of equity in the
+business is $200,000. However, the average market debt to capital ratio of publicly
+traded restaurants is 20% and the average pretax cost of debt for restaurants is 8%.
+The riskless rate is 5% and the market risk premium is 4%.
+Estimate the value of the bagel shop to you.
+3.
+ You work for a publishing company and are considering bidding for the copyright to 
+Cook
+Light, Cook Right
+, a cookbook of low-fat recipes. While the book was out of print last year, you
+believe that you can generate $120,000 in after-tax cash flows next year, $100,000 the year after,
+and $80,000 in the following three years. If your cost of capital is 12%, estimate the value of the
+copyright.
+4.
+ You have been asked to value the practice of Dr. Vong, a pediatrician in your town, and are
+provided with the following facts:
+The practice generated $800,000 in revenues last year, and these revenues are expected to
+grow 4% a year for the next 10 years.
+Employee expenses (including nurses and secretarial help) amounted to $200,000 last
+year and are expected to grow 4% a year for the next 10 years.
+The annual rent for the facilities last year was $100,000 and is expected to grow 4% a
+year for the next 10 years.
+Rentals of medical equipment cost $75,000 last year, and this expense is expected to grow
+5% for the next 10 years.
+The cost of medical insurance last year was $75,000 and is expected to grow 7% a year
+for the next 10 years.
+The tax rate on the income, including state and local taxes, is 40%.
+The cost of capital is 11%.

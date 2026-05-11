@@ -1,0 +1,82 @@
+{
+  "ticker": "NU",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "NU",
+    "period_end": "2026-04-30",
+    "eps": 0.58,
+    "bvps": 2.325,
+    "roe": 0.30278,
+    "pe": 24.965517,
+    "pb": 6.227957,
+    "dy": null,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 0,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 0.7730227009625,
+    "interest_coverage": null,
+    "debt_to_assets": 0.02534016232061267,
+    "dividend_streak_source": "yfinance",
+    "pe_forward": 12.623906,
+    "ev_ebitda": null,
+    "market_cap": 70381477888.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 3837998543.0,
+    "next_ex_date": null,
+    "next_earnings_date": "2026-05-14",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Growth (4/12)",
+    "secondary": "",
+    "value": 2,
+    "growth": 4,
+    "dividend": 2,
+    "buffett": 2,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 13.37080606340619,
+    "pessimistic_value": 10.423762189792365,
+    "optimistic_value": 17.641137634694573,
+    "margin_of_safety_pct": -0.07660176200936751,
+    "current_price": 14.479999542236328
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Hank Tier-One",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "High P/B ratio of 6.23",
+    "Dependence on projected growth"
+  ],
+  "consensus_points": [
+    "Nu Holdings mantém ROE elevado e PEG abaixo de 1",
+    "ROE=30.28%",
+    "PEG<1"
+  ],
+  "dissent_points": [
+    "High valuation metrics compared to peers | Lack of dividend history - Hank Tier-One; Valuation concerns are overstated given the company's projected growth and strong ROE - Mariana Macro, Valentina Prudente",
+    "Potential for increased competition in financial services - Mariana Macro; Current competitive landscape does not indicate imminent threats that would undermine current valuation or growth projections - Valentina Prudente"
+  ],
+  "evidence_count": 17,
+  "research_hits_total": 25
+}

@@ -1,0 +1,20 @@
+ssions. The second is to expand the
+regression to include other independent variables such as risk and growth.
+ILLUSTRATION 19.6: Comparing Price-to-Book Value
+Ratios: Integrated Oil Companies in 2000
+
+The following table reports on the price-to-book ratios for integrated oil companies listed in the United States in September
+2000:
+The average price-to-book ratio for the sector is 2.30, but the range in price-to-book ratios is large, with Crown Central
+trading at 0.29 times book value and Clayton Williams Energy trading at 5.57 times book value.
+We will begin by plotting price-to-book ratios against returns on equity for these firms in 
+Figure 19.6
+. While there are no
+firms that show up in the overvalued quadrant, firms such as Pennzoil (P), Occidental (OXY), Amerada Hess (AHC), and
+Murphy (MUR) look undervalued relative to the rest of the sector.
+Figure 19.6
+ Price to Book versus Return on Equity: Oil Companies
+
+Regressing the price-to-book ratio against return on equity for oil companies, we obtained the following:
+If we extend this regression to include standard deviation in stock prices as a measure of risk, we get:
+This regression can be used to estimate predicted price-to-book ratios for these companies in the following table:

@@ -1,0 +1,47 @@
+urn is usually set at a much higher
+level than the conventional cost of equity for the firm.
+1
+Using the InfoSoft example again, if the venture capitalist requires a target return of 30 percent on his
+
+or her investment, the discounted terminal value for InfoSoft would be:
+So, how do venture capitalists come up with target rates of return and why are they so high? It is
+possible that there are some venture capitalists who have developed sophisticated risk-return models
+that yield target returns, but for the most part, the target returns represent a mix of judgment, historical
+experience, and guesswork. As for why they are so high, it is a combination of three factors:
+1.
+ Young and start-up firms are more exposed to macroeconomic risk than the rest of the market.
+In CAPM terms, they should command high betas.
+2.
+ Venture capitalists are often sector-focused and not diversified. Consequently, they demand a
+premium for firm-specific risk that can be diversified away.
+3.
+ Many young, start-up companies don't make it, and the target rate of return incorporates the risk
+of failure.
+In practice, target rates of return become more instruments of negotiation than conventional discount
+rates. Put differently, the interests of a venture capitalist are served by using a high target rate of
+return and demanding a much larger stake in the start up company. The interests of the owners of the
+company are advanced with a lower target rate of return. The final number used will depend upon the
+relative bargaining power of the two sides.
+The venture capital approach is also exposed to another problem. To the extent that exit multiples
+are based on how comparable firms are priced today, they can result in serious misevaluations if the
+market is wrong. For instance, venture capitalists who valued Internet firms in 2000 on the
+assumption that they would be able to sell these firms at 80 times revenues (which was what the
+market was pricing small, publicly traded Internet firms at that time) would have overestimated the
+value of these firms.
+VENTURE CAPITAL, PRIVATE EQUITY, AND
+DIVERSIFICATION
+Venture capitalists historically have been sector focused—they tend to concentrate their investments in one or two
+industries. Part of the reason for this is that the demand for venture capital tends to be concentrated in a few sectors at any
+point in time—social media companies in 2011, new technology stocks in the late 1990s, biotechnology stocks in the late
+1980s—and part of the reason is that venture capitalists draw on their knowledge of the industry both to value firms that ask
+for equity capital and to help in the management of these firms.
+  There is a cost to not being diversified, however, and it affects how these companies get valued in the first place. The cost
+of equity in a firm to a diversified investor will be lower than the cost of equity in the same firm to an undiversified investor,
+and as we will see in the next chapter, this will result in a lower value being assigned to the firm by the latter.
+  In recent years, private equity investors have emerged as competition for traditional venture capitalists. Since these
+investors tend to be more diversified, they can settle for lower costs of equity and thus will attach a much higher value for
+the same private firm. In the long term, will private equity funds drive out venture capitalists? As long as localized knowledge
+about an industry matters in valuing firms in that industry, we do not believe so.
+GENERAL FRAMEWORK FOR ANALYSIS
+To value firms with negative earnings, little or no historical data, and few comparables, the steps
+involved are essentially the same as in any valuation. This section will look at some of the issues that

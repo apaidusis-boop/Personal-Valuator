@@ -1,0 +1,30 @@
+:
+Applying this net debt ratio to reinvestment yields the shorter version of FCFE:
+While the aggregate FCFE over the period remains the same, the shortcut version yields smoother FCFE over the period.
+
+Comparing Dividends to Free Cash Flows to Equity
+The conventional measure of dividend policy—the dividend payout ratio—gives us the value of
+dividends as a proportion of earnings. The modified approach measures the total cash returned to
+stockholders as a proportion of the free cash flow to equity:
+The ratio of cash to stockholders to FCFE shows how much of the cash available to be paid out to
+stockholders is actually returned to them in the form of dividends and stock buybacks. If this ratio,
+over time, is equal or close to 1, the firm is paying out all that it can to its stockholders. If it is
+significantly less than 1, the firm is paying out less than it can afford to and is using the difference to
+increase its cash balance or to invest in marketable securities. If it is significantly over 1, the firm is
+paying out more than it can afford and is either drawing on an existing cash balance or issuing new
+securities (stocks or bonds).
+We can observe the tendency of firms to pay out less to stockholders than they have available in
+free cash flows to equity by examining cash returned to stockholders paid as a percentage of free cash
+flow to equity. In 2010, the global median of dividends as a percent of FCFE was about 60 percent,
+with most companies paying out less in dividends than they had available in FCFE. 
+Figure 14.1
+provides a global comparison of dividends to FCFE. While there is a significant segment of
+companies where dividends exceed FCFE, for the majority of companies the reverse is true.
+Figure 14.1
+ Dividends versus FCFE—Global Comparison
+When a firm is paying out less in dividends than it has available in free cash flows, it is generating
+surplus cash. For those firms, this cash surplus appears as an increase in the cash balance. Firms that
+pay dividends that exceed FCFE have to finance these dividend payments either out of existing cash
+balances or by making new stock issues.
+The implications for valuation are simple. If we use the dividend discount model and do not allow
+for the buildup of cash that occurs when firms pay out less than they can afford, we will underestimate

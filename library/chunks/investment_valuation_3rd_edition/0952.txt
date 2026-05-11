@@ -1,0 +1,41 @@
+ver the spectrum of
+possibilities. Once the scenarios have been laid out, the cash flows have to be estimated
+under each one; this trade-off has to be considered when determining how many scenarios to
+
+run.
+Continuous risk.
+ Scenario analysis is best suited for dealing with risk that takes the form of
+discrete outcomes. When the outcomes can take on any of a very large number of potential
+values or the risk is continuous, it becomes more difficult to set up scenarios.
+Double counting of risk.
+ As with the best-case/worst-case analysis, there is the danger that
+decision makers will double count risk when they do scenario analysis. Thus, an analyst
+may decide to reject the investment, even though it looks undervalued, because it looks
+significantly overvalued under at least one scenario. Since the expected value is already
+risk-adjusted, this would represent a double counting of potentially the same risk or risk that
+should not be a factor in the decision in the first place (because it is diversifiable).
+ILLUSTRATION 33.1: 
+Valuing a Company Facing the
+Threat of Nationalization
+While the global threat of nationalization has diminished over the past few decades, there remain parts of the world where
+investors remain wary that firms might be expropriated or nationalized by a government. Analysts who attempt to
+incorporate the risk of nationalization into the expected cash flows or discount rates find very quickly that it is difficult to do
+so. Discount rates, in particular, are blunt instruments that do not lend themselves easily to the consideration of discrete risks
+(such as nationalization, distress, or regulatory change).
+As an alternative, consider a very simple scenario analysis where you value the firm under two scenarios: as a going
+concern where the owners of the business keep the cash flows, and under nationalization, where the proceeds to the owners
+are not commensurate with fair value. The expected value for the firm will be a weighted average of the two estimates.
+To move from abstractions, assume that you are valuing a Venezuelan company that expects to generate $10 million in
+after-tax operating income next year and grow 3% a year, in U.S. dollar terms, in perpetuity. Assume also that this firm
+generates a 20% return on capital (the book value of capital invested is $50 million) and faces a 12% cost of capital, with the
+latter including a country risk component for the macroeconomic (but not nationalization) risk. To value the firm as a going
+concern, we use the expected cash flows and cost of capital to arrive at a value of $94.44 million for the operating assets of
+the firm:
+Now assume that you believe that there is a likelihood that the firm will be nationalized and that the government will pay only
+the book value of operating assets to the owners of nationalized companies. The proceeds from nationalization can be
+estimated as follows:
+Bringing in a probability of nationalization (25%) allows us to estimate the expected value for the operating assets:
+Note that expected value will decrease as the likelihood of nationalization increases and the proceeds from nationalization
+decreases.
+ILLUSTRATION 33.2: 
+Valuing a Regulated Company with

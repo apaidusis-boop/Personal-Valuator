@@ -1,0 +1,44 @@
+al expense.
+The operating income for a firm, measured correctly, should be equal to its revenues less its
+operating expenses. Neither financial nor capital expenses should be included in the operating
+
+expenses in the year that they occur, though capital expenses may be depreciated or amortized over
+the periods that the firm obtains benefits from the expenses. The net income of a firm should be its
+revenues less both its operating and financial expenses.
+The accounting measures of earnings can be misleading because operating, capital, and financial
+expenses are sometimes misclassified. This section considers the two most common
+misclassifications and how to correct for them. The first is the inclusion of capital expenses such as
+research and development (R&D) in operating expenses, which skews the estimation of both
+operating and net income. The second adjustment is for financial expenses such as operating lease
+expenses that are treated as operating expenses. This affects the measurement of operating income and
+free cash flows to the firm.
+The other factor to consider is the effect of the phenomenon of so-called managed earnings at these
+firms. Firms sometimes use accounting techniques to post earnings that beat analyst estimates,
+resulting in misleading measures of earnings.
+Capital Expenses Treated as Operating Expenses
+While in theory operating income in after only operating expenses, the reality is that there are a
+number of capital expenses that are treated as operating expenses. For instance, a significant
+shortcoming of accounting statements is the way in which they treat research and development
+expenses. Using the rationale that the products of research are too uncertain and difficult to quantify,
+accounting standards have generally required that all R&D expenses be expensed in the period in
+which they occur. This has several consequences, but one of the most profound is that the value of the
+assets created by research does not show up on the balance sheet as part of the total assets of the firm.
+This, in turn, creates ripple effects for the measurement of capital and profitability ratios for the firm.
+We 
+consider how to capitalize R&D expenses in the first part of the section and extend the argument
+to other capital expenses in the second part of the section.
+Capitalizing R&D Expenses
+Research expenses, notwithstanding the uncertainty about future benefits, should be capitalized. To
+capitalize and value research assets, we make an assumption about how long it takes for research and
+development to be converted, on average, into commercial products. This is called the amortizable
+life of these assets. This life will vary across firms and reflect the time involved in converting
+research into products. To illustrate, research and development expenses at a pharmaceutical
+company should have fairly long amortizable lives, since the approval process for new drugs is long.
+In contrast, research and development expenses at a software firm, where products tend to emerge
+from research much more quickly, should be amortized over a shorter period.
+Once the amortizable life of research and development expenses has been estimated, the next step is
+to collect data on R&D expenses over past years ranging back over the amortizable life of the
+research asset. Thus, if the research asset has an amortizable life of five years, the R&D expenses in
+each of the five years prior to the current one have to be obtained. For simplicity, it can be assumed
+that the amortization is uniform over time, which leads to the following estimate of the residual value
+of the research asset today:

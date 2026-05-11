@@ -1,0 +1,24 @@
+ered beta of 1.21 for Chez Pierre. The average correlation
+coefficient for these publicly traded firms with the markets is 48.41%. The total unlevered beta for Chez Pierre can be
+estimated as follows:
+
+Using Chez Pierre's tax rate of 40% and a debt-to-equity ratio of 22.08% (the restaurant sector's average) yields a total
+levered beta of 2.07.
+This total beta estimate, in a sense, takes the limiting view that the potential buyer will own only Chez Pierre. To the extent
+that the buyer has some diversification, the correlation coefficient will be adjusted upward; if the buyer has a diversified
+portfolio, the correlation coefficient will approach 1 and the total beta will converge on the market beta.
+ALTERNATIVE ADJUSTMENTS FOR PRIVATE FIRM
+RISK
+If you are leery about using the total beta approach to estimate the cost of equity for a private firm, there are three
+alternatives:
+1.
+
+Venture capital returns:
+ Look at the actual returns earned by investors who invest in private companies over long
+periods of history, relative to the risk-free rate and returns on publicly traded firms. Thus, if venture capital investors have
+earned 5 percent more than the S&P 500 after adjusting for risk, you could view this as a premium for investing in private
+businesses and add the number to your cost of equity, computed using a conventional risk and return model: 
+
+The counter argument is that venture capitalists cannot really be compared to private business owners, since they are not
+only more diversified but may also have other exit strategies in mind (such as going public eventually).
+2.

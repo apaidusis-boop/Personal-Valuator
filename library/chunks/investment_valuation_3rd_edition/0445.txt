@@ -1,0 +1,110 @@
+he synthetic ratings at each debt ratio. In addition to being more labor and
+data intensive, the approach will make the ratings process less transparent and more difficult to decipher. The other is to
+
+stick with the simplistic approach that we developed in Chapter 8, of linking the rating to the interest coverage ratio, with the
+ratio defined as:
+We will stick with the simpler approach for three reasons. First, we are not aiming for precision in the cost of debt, but an
+approximation. Given that the more complex approaches also give approximations, we will tilt in favor of transparency.
+Second, there is significant correlation not only between the interest coverage ratio and bond ratings but also between the
+interest coverage ratio and other ratios used in analysis, such as the debt coverage ratio and the funds flow ratios. In other
+words, we may be adding little by adding other ratios that are correlated with interest coverage ratios, including
+EBITDA/fixed charges, to the mix. Third, the interest coverage ratio changes as a firm changes its financing mix and
+decreases as the debt ratio increases, a key requirement since we need the cost of debt to change as the debt ratio changes.
+To make our estimates of the synthetic rating, we will use the lookup table that we introduced in Chapter 8 for large market
+capitalization firms (since Disney's market capitalization is greater than $5 billion) and use the default spreads from early
+2009 to estimate the pre tax cost of debt. The following table reproduces those numbers:
+Interest Coverage Ratios, Ratings and Default Spreads—Early 2009
+Interest Coverage Ratio
+Rating
+Typical Default Spread
+>8.5
+AAA
+1.25%
+6.5–8.5
+AA
+1.75%
+5.5–6.5
+A+
+2.25%
+4.25–5.5
+A
+2.50%
+3.0–4.25
+A–
+3.00%
+2.5–3.0
+BBB
+3.50%
+2.25–2.5
+BB+
+4.25%
+2.0–2.25
+BB
+5.00%
+1.75–2.0
+B+
+6.00%
+1.5–1.75
+B
+7.25%
+1.25–1.5
+B–
+8.50%
+0.8–1.25
+CCC
+10.00%
+0.65–0.8
+CC
+12.00%
+0.2–0.65
+C
+15.00%
+<0.2
+D
+20.00%
+Source:
+ Capital IQ; BondsOnline.com.
+Using this table as a guideline, a firm with an interest coverage ratio of 2.75 would have a rating of BBB and a default
+spread of 3.50%, over the risk-free rate.
+Because Disney's capacity to borrow is determined by its earnings power, we will begin by looking at key numbers from the
+company's income statements for the most recent fiscal year (July 2007–June 2008) and for the last four quarters (calendar
+year 2008) in the table.
+Disney's Key Operating Numbers
+Last Fiscal Year
+Trailing 12 Months
+Revenues
+$37,843
+$36,990
+EBITDA
+$ 8,986
+$ 
+8,319
+Depreciation and amortization
+$ 1,582
+$ 
+1,593
+EBIT
+$ 7,404
+$ 
+6,726
+Interest expenses
+$ 712
+$ 
+728
+EBITDA (adjusted for leases)
+$ 9,989
+$ 
+8,422
+EBIT (adjusted for leases)
+$ 7,708
+$ 
+6,829
+Interest expenses (adjusted for leases)
+$ 815
+$ 
+831
+Note that converting leases to debt affects both the operating income and the interest expense; the imputed interest expense
+on the lease debt is added to both the operating income and the interest expense numbers.
+10
+ Since the trailing 12-month
+figures represent more recent information, we will use those numbers in assessing Disney's optimal debt ratio. Based on the

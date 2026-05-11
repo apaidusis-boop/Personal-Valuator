@@ -1,0 +1,45 @@
+arget firm with a high debt ratio and a low after-tax cost of debt, we would overestimate the
+value of the firm. If the acquiring firm paid this price on the acquisition, it would represent a transfer
+
+of wealth from the acquiring firm's stockholders to the target firm's stockholders. Thus, it is not
+appropriate to use the acquiring firm's cost of debt or debt capacity to estimate the cost of capital for
+the target firm. Instead, you should use the target company's debt ratio (actual or target) and cost of
+debt to compute the cost of capital for use in valuing the target company.
+STRUCTURING THE ACQUISITION
+Once the target firm has been identified and valued, the acquisition moves forward into the structuring
+phase. There are three interrelated steps in this phase. The first is the decision on how much to pay
+for the target firm, given that we have valued it with synergy and control built into the valuation. The
+second is the determination of how to pay for the deal (i.e., whether to use stock, cash, or some
+combination of the two) and whether to borrow any of the funds needed. The final step is the choice
+of the accounting treatment of the deal because it can affect both taxes paid by stockholders in the
+target firm and how the purchase is accounted for in the acquiring firm's income statement and
+balance sheets.
+Deciding on an Acquisition Price
+The preceding section explained how to value a target firm with control and synergy considerations
+built into the value. This value represents a ceiling on the price that the acquirer can pay on the
+acquisition rather than a floor. If the acquirer pays the full value, there is no surplus value to claim for
+the acquirer's stockholders and the target firm's stockholders get the entire value of the synergy and
+control premiums. This division of value is unfair if the acquiring firm plays an indispensable role in
+creating the synergy and control premiums.
+Consequently, the acquiring firm should try to keep as much of the premium as it can for its
+stockholders. Several factors, however, will act as constraints. They include:
+The market price of the target firm, if it is publicly traded, prior to the acquisition.
+ Since
+acquisitions have to be based on the current market price, the greater the current market
+value of equity, the lower the potential for gain to the acquiring firm's stockholders. For
+instance, if the market price of a poorly managed firm already reflects a high probability that
+the management of the firm will be changed, there is likely to be little or no value gained
+from control.
+The relative scarcity of the specialized resources that the target and the acquiring firm
+bring to the merger.
+ Since the bidding firm and the target firm are both contributors to the
+creation of synergy, the sharing of the benefits of synergy among the two parties will depend
+in large part on whether the bidding firm's contribution to the creation of the synergy is
+unique or easily replaced. If it can be easily replaced, the bulk of the synergy benefits will
+accrue to the target firm. If it is unique, the benefits will be shared much more equitably.
+Thus, when a firm with cash slack acquires a firm with many high-return projects, value is
+created. If there are a large number of firms with cash slack and relatively few firms with
+high-return projects, the bulk of the value of the synergy will accrue to the latter.
+The presence of other bidders for the target firm.
+ When there is more than one bidder for a
+firm, the odds are likely to favor the target firm's stockholders. Bradley, Desai, and Kim

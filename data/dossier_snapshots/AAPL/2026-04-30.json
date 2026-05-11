@@ -1,0 +1,99 @@
+{
+  "ticker": "AAPL",
+  "market": "us",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "AAPL",
+    "period_end": "2026-04-30",
+    "eps": 7.89,
+    "bvps": 5.998,
+    "roe": 1.5202099,
+    "pe": 34.391636,
+    "pb": 45.24008,
+    "dy": 0.003832688323593613,
+    "net_debt_ebitda": 0.15436031600455918,
+    "dividend_streak_years": 15,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 8.426321116752513,
+    "interest_coverage": null,
+    "debt_to_assets": 0.2746262258483859,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 28.971317,
+    "ev_ebitda": 26.095,
+    "market_cap": 3983727394816.0,
+    "fcf_ttm": 106312753152.0,
+    "shares_outstanding": 14681140000.0,
+    "next_ex_date": "2026-02-09",
+    "next_earnings_date": "2026-04-30",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 8,
+      "period_end": "2025-09-30"
+    },
+    "altman": {
+      "z": 10.702066138022928,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-09-30",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.3720675494941412,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-09-30"
+    }
+  },
+  "philosophy": {
+    "primary": "Growth (5/12)",
+    "secondary": "Buffett/Quality (5/12)",
+    "value": 3,
+    "growth": 5,
+    "dividend": 2,
+    "buffett": 5,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 137.3717517868913,
+    "pessimistic_value": 107.09380312834763,
+    "optimistic_value": 181.2451671873471,
+    "margin_of_safety_pct": -0.4937470105142131,
+    "current_price": 271.3500061035156
+  },
+  "council_stance": "NEEDS_DATA",
+  "council_confidence": "low",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Dados de crescimento futuro ausentes",
+    "Valentina Prudente"
+  ],
+  "consensus_points": [
+    "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos",
+    "Metrics: ROE=152%",
+    "Nomes: Charlie Compounder, Mariana Macro, Valentina Prudente, Pedro Alocação"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que a relação P/E está acima da média setorial e indica sobreavaliação; Mariana Macro e outros disseram que esses múltiplos refletem o desempenho operacional excepcional da empresa e não são necessariamente preocupantes"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 30
+}

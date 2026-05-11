@@ -1,0 +1,36 @@
+k value, many of these firms have returns on equity that are less than 8% and
+low expected growth. Alpha Bank, a Greek bank, trades at 0.42 times book value, but it has a return on equity of 2.64% and
+
+an expected growth rate of –46.3%. To control for differences in fundamentals, we regress price-to-book ratios against
+return on equity, beta, and expected growth rates:
+At 0.42 times book value, Alpha is no bargain.
+ISSUES IN VALUING FINANCIAL SERVICE FIRMS
+Up until this point in this chapter, we have emphasized the similarities between financial service
+firms and other firms. In this section, we will consider some of the special issues that arise in the
+context of valuing financial service firms and how best to incorporate them into the value.
+Provisions for Losses
+Banks and insurance companies often set aside provisions to meet future losses. These provisions
+reduce net income in the current period but are used to meet expected losses in future periods. Thus, a
+provision for bad debts reduces a bank's income in the current period but allows the bank to cover
+bad debts when they do occur. In general, while the actual bad debts that occur in any year will not
+match the provision set aside for that year exactly, the cumulative provisions over time should be
+equal to the cumulated bad debts over the same period. If this is the case, the provisions smooth out
+earnings over time, making them lower than the true earnings in years when the economy does well—
+and default rates are lower—and higher than true earnings in years when the economy does badly and
+default rates are higher.
+There can be a problem, however, when firms consistently set aside more (or less) in provisions
+than they expect to lose. If they set aside too much, the net income will be understated which will also
+lower the return on equity and the retention ratio. If expected growth is the product of these two, the
+value of equity in the firm will be reduced. If too little is set aside, the net income will be overstated
+(at least for the moment) and you could overestimate the value of equity. The quickest fix for this
+problem is to look at the provisions set aside over time and the actual losses over time. If the numbers
+do not match, the provision should be reestimated based on the actual loss ratio, and the net income
+should be restated. To illustrate, if a bank sets aside 8 percent of its loans into a reserve for bad
+debts, when its actual bad debt ratio is only 4 percent, the net income should be recomputed using a 4
+percent provision for bad debts. This will increase the net income, the return on equity, and the equity
+value of the bank. The reverse will be true if too little is set aside.
+Regulatory Risk and Value
+As noted earlier in this chapter, financial service firms are much more likely to be regulated. This
+regulation can affect the perceived risk of investing in these firms as well as the expected cash flows.
+Consequently, they should affect the value of these firms. When valuing financial service firms using
+discounted cash flow models, the regulatory effects can be built explicitly into both the discount rate

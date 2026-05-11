@@ -1,0 +1,57 @@
+6%
+1982
+–45.50%
+27.59%
+1983
+37.00%
+159.36%
+1984
+41.80%
+13.11%
+1985
+–11.80%
+–26.81%
+1986
+7.00%
+–16.83%
+1987
+41.50%
+20.24%
+1988
+41.80%
+18.81%
+1989
+2.60%
+–29.70%
+1990
+–18.00%
+–40.00%
+1991
+–47.40%
+–35.00%
+
+1992
+64.50%
+10.00%
+1993
+20.00%
+–7.00%
+1994
+25.30%
+11.00%
+Copyright 2001 Bloomberg LP. Reprinted with permission. 
+All rights reserved.
+Regressing the changes in profits in the defense division (
+Δ
+ Earnings
+defense
+) against changes in profits for the S&P 500 (
+Δ
+Earnings
+S&P
+) yields the following:
+Based on this regression, the beta for the defense division is 0.65.
+accbeta.xls:
+
+This spreadsheet allows you to estimate the accounting beta on a division or firm.
+spearn.xls:

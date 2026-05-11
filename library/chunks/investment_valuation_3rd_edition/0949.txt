@@ -1,0 +1,41 @@
+ecember 19, 1997.
+7
+ See Quantitative Viewpoint, Merrill Lynch, February 3, 1998.
+8
+ With an 11.71 percent rate, the economic depreciation works out to $105.37 million, and the
+CFROI to 11.71 percent.
+
+CHAPTER 33
+Probabilistic Approaches in Valuation: Scenario Analysis,
+Decision Trees, and Simulations
+Through much of this book, we have focused on discounted cash flow and relative valuation
+approaches to valuation. Notwithstanding their popularity, these approaches share a common theme.
+The riskiness of an asset is encapsulated in one number—a higher discount rate, lower cash flows, or
+a discount to value—and the computation almost requires us to make assumptions (often unrealistic)
+about the nature of risk.
+In this chapter, we consider a different and potentially more informative way of assessing the value
+of an investment. Rather than compute an expected value for an asset that tries to capture in one
+number all of the different possible outcomes, we could provide information on what the value of the
+asset will be under each outcome or at least a subset of outcomes. We will begin this section by
+looking at the simplest version, which is an analysis of an asset’s value under three scenarios—a best
+case, the most likely case, and worst case—and then extend the discussion to look at scenario
+analysis more generally. We move on to examine the use of decision trees as a more complete
+approach to dealing with sequential risk. We will close the chapter by evaluating Monte Carlo
+simulations, the most complete approach to assessing risk across the spectrum.
+SCENARIO ANALYSIS
+The expected cash flows that we use to value risky assets can be estimated in one of two ways. They
+can represent a probability-weighted average of cash flows under all possible scenarios, or they can
+be the cash flows under the most likely scenario. While the former is the more precise measure, it is
+seldom used, simply because it requires far more information to compile. In both cases, there are
+other scenarios where the cash flows will be different from expectations: higher than expected in
+some and lower than expected in others. In scenario analysis, we estimate expected cash flows and
+asset values under various scenarios, with the intent of getting a better sense of the effect of risk on
+value. In this section, we first consider an extreme version of scenario analysis where we consider
+the 
+value in the best case and the worst-case scenarios and then a more generalized version of
+scenario analysis.
+Best Case/Worst Case
+With risky assets, the actual cash flows can be very different from expectations. At the limits, we can
+estimate the cash flows if everything works to perfection—a best-case scenario—and if nothing does
+—a worst-case scenario. In practice, there are two ways in which this analysis can be structured. In
+the first, each input into asset value is set to its best (or worst) possible outcome and the cash flows

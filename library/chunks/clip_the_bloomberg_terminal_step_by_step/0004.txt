@@ -1,0 +1,23 @@
+sources offer may be lacking. That means you may have to put together your own mosaic of information.
+
+### 1994
+
+The year the first Bloomberg Terminal was released that ran on a customer-provided PC.4
+
+For example, you can easily find financial news on many financial websites. Company information can be located via the [SEC Edgar](https://www.investopedia.com/terms/e/edgar.asp) system for regulatory filings or company websites. Investment screening can be accomplished using websites like finviz.com or msn.com. M&A information, on the other hand, is a bit more complex to locate. Some deal data can be found online, but most require a subscription fee. Similarly, industry data can be compiled from different sources including independent analysts for a fee.
+
+## How Much Does the Bloomberg Terminal Cost?
+
+For a standard license, a Bloomberg terminal is around $2,000 per month or $2,400 per year.
+
+## Is the Bloomberg Terminal An Actual Terminal?
+
+The Bloomberg Terminal was at one point an actual standalone device. But nowadays, subscribers can download and run the software on PC or Mac.
+
+## Can the Bloomberg Terminal Be Used By Regular Investors?
+
+Bloomberg's software is available to anyone who wants to use it. However, due to its expensive cost, it is mostly used by professional traders.
+
+## The Bottom Line
+
+Bloomberg is an invaluable tool for investors primarily because it provides data in one place and allows users to configure the data in various ways to analyze and review trends, compare to other companies and industries and most importantly to follow a historical path so that analysis of an investment can be detailed and all-encompassing.

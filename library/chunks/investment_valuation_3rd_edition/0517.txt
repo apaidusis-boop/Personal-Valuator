@@ -1,0 +1,47 @@
+parison is therefore not between PE ratios across time, but
+between the actual PE ratio and the predicted PE ratio based on fundamentals existing at that time.
+ILLUSTRATION 18.3: PE Ratios across Time
+
+The following are the summary economic statistics at two points in time for the same stock market. The interest rates in the
+first period were significantly higher than the interest rates in the second period.
+Period 1
+Period 2
+T-bond rate
+11.00%
+6.00%
+Market premium
+5.50%
+5.50%
+Expected inflation
+5.00%
+4.00%
+Expected growth in real GNP
+3.00%
+2.50%
+Average payout ratio
+50%
+50%
+Expected PE ratio
+(0.5 × 1.08)/(.165 – .08) = 6.35
+(0.5 × 1.065)/(.115 – .065) = 10.65
+The PE ratio in the second time period is significantly higher than the PE ratio in the first period, largely because of the drop
+in real interest rates (nominal interest rate – expected inflation).
+ILLUSTRATION 18.4: PE Ratios across Time for the S&P
+500
+Figure 18.5
+ summarizes the earnings-price (EP) ratios for S&P 500 and Treasury bond rates at the end of each year from
+1960 to 2010. There is a strong positive relationship between EP ratios and T-bond rates, as evidenced by the correlation of
+0.665 between the two variables. In addition, there is evidence that the term structure also affects the PE ratio. In the
+following regression, we regress EP ratios against the level of T-bond rates and the yield spread (T-bond minus T-bill rate),
+using data from 1960 to 2010.
+Figure 18.5
+ EP Ratios and Interest Rates: 1960 to 2010
+Other things remaining equal, this regression suggests that:
+Every 1% increase in the T-bond rate increases the EP ratio by 0.6869%. This is not surprising, but it
+quantifies the impact that higher interest rates have on the PE ratio.
+Every 1% increase in the difference between T-bond and T-bill rates reduces the EP ratio by 0.3655%.
+Flatter or negatively sloping term yield curves seem to correspond to lower PE ratios, and upwardly sloping
+yield curves to higher PE ratios. While at first sight this may seem surprising, the slope of the yield curve, at
+least in the United States, has been a leading indicator of economic growth, with more upwardly sloped
+curves going with higher growth.
+Based on this regression, the predicted EP ratio at the beginning of 2011, with the T-bill rate at 0.13% and the T-bond rate at

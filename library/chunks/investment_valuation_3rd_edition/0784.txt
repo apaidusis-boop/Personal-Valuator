@@ -1,0 +1,86 @@
+it stays at its existing debt ratio.
+b.
+ Estimate the value of the combined firm if it moves to its optimal debt ratio.
+c.
+ Who gains this additional value if the firm moves to the optimal debt ratio?
+
+3.
+ In April 1994, Novell, Inc. announced its plan to acquire WordPerfect Corporation for $1.4
+billion. At the time of the acquisition, the relevant information about the two companies was as
+follows:
+Novell
+WordPerfect
+Revenues
+$1,200.00
+$600.00
+Cost of goods sold (without depreciation)
+57.00%
+75.00%
+Depreciation
+$42.00
+$25.00
+Tax rate
+35.00%
+35.00%
+Capital spending
+$75.00
+$40.00
+Working capital (as % of revenue)
+40.00%
+30.00%
+Beta
+1.45
+1.25
+Expected growth rate in revenues/EBIT
+25.00%
+15.00%
+Expected period of high growth
+10 years
+10 years
+Growth rate after high growth period
+6.00%
+6.00%
+Beta after high growth period
+1.10
+1.10
+Capital spending will be 115% of depreciation after the high-growth period. Neither firm has any
+debt outstanding. The Treasury bond rate is 7%.
+a.
+ Estimate the value of Novell, operating independently.
+b.
+ Estimate the value of WordPerfect, operating independently.
+c.
+ Estimate the value of the combined firm, with no synergy.
+d.
+ As a result of the merger, the combined firm is expected to grow 24% a year for the high
+growth period. Estimate the value of the combined firm with the higher growth.
+e.
+ What is the synergy worth? What is the maximum price Novell can pay for WordPerfect?
+4.
+ Assume, in the Novell-WordPerfect merger described in the preceding question, that it will
+take five years for the firms to work through their differences and start realizing their synergy
+benefits. What is the synergy worth under these circumstances?
+5.
+ In 1996, Aetna, a leading player in health insurance, announced its intentions to acquire U.S.
+Healthcare, the nation's largest health maintenance organization, and provided synergy as a
+rationale. On the announcement of the merger, Aetna's stock price, which was $57, dropped to
+$52.50, while U.S. Healthcare's stock price surged from $31 to $37.50. Aetna had 400 million
+shares, and U.S. Healthcare had 50 million shares outstanding at the time of the announcement.
+a.
+ Estimate the value, if any, that financial markets are attaching to synergy in this merger.
+b.
+ How would you reconcile the market reaction to the rationale presented by management for
+the acquisition?
+6.
+ IH Corporation, a farm equipment manufacturer, has accumulated almost $2 billion in losses
+over the past seven years of operations and is in danger of not being able to carry forward these
+losses. EG Corporation, an extremely profitable financial service firm, which had $3 billion in
+taxable income in its most recent year, is considering acquiring IH Corporation. The tax
+authorities will allow EG Corporation to offset its taxable income with the carried-forward
+losses. The tax rate for EG Corporation is 40%, and the cost of capital is 12%.
+a.
+ Estimate the value of the tax savings that will occur as a consequence of the merger.
+b.
+ What is the value of the tax savings if the tax authorities allow EG Corporation to spread the
+carried-forward losses over four years (i.e., allow $200 million of the carried-forward losses to
+offset income each year for the next four years)?

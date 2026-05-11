@@ -1,0 +1,39 @@
+incorporate those capital expenses that are treated as operating expenses such as R&D expenses.
+The third is that acquisitions are not classified by accountants as capital expenditures. For firms that
+
+grow primarily through acquisition, this will result in an understatement of the net capital
+expenditures.
+Lumpy Capital Expenditures and the Need for Smoothing
+Firms seldom have smooth capital expenditure streams. Firms can go through periods when capital
+expenditures are very high (as is the case when a new product is introduced or a new plant built),
+followed by periods of relatively light capital expenditures. Consequently, when estimating the
+capital expenditures to use for forecasting future cash flows, you should normalize capital
+expenditures. There are at least two ways in which you can accomplish this objective.
+The simplest normalization technique is to average capital expenditures over a number of years.
+For instance, you could estimate the average capital expenditures over the past four or five years for a
+manufacturing firm and use that number rather the capital expenditures from the most recent year. By
+doing so, you could capture the fact that the firm may invest in a new plant every four years. If instead
+you had used the capital expenditures from the most recent year, you would have either overestimated
+capital expenditures (if the firm built a new plant that year) or underestimated them (if the plant had
+been built in an earlier year).
+There are two measurement issues that you will need to confront. One relates to the number of years
+of history that you should use. The answer will vary across firms and will depend on how
+infrequently the firm makes large investments. The other is on the question of whether averaging
+capital expenditures over time requires us to average depreciation as well. Since depreciation is
+already spread out over time, the need for normalization should be much smaller. In addition, the tax
+benefits received by the firm reflect the actual depreciation in the most recent year, rather than an
+average depreciation over time. Unless depreciation is as volatile as capital expenditures, it makes
+more sense to leave depreciation untouched.
+For firms with a limited history or firms that have changed their business mix over time, averaging
+over time either is not an option or will yield numbers that are not indicative of its true capital
+expenditure needs. For these firms, industry averages for capital expenditures are an alternative.
+Since the sizes of firms can vary across an industry, the averages are usually computed with capital
+expenditures as a percent of a base input—revenues and total assets are common choices. We prefer
+to look at capital expenditures as a percent of depreciation, and to average this statistic for the
+industry. In fact, if there are enough firms in the sample, you could look at the average for a subset of
+firms that are at the same stage of the life cycle as the firm being analyzed.
+ILLUSTRATION 10.4: Estimating Normalized Net Capital
+Expenditures: Reliance Industries
+Reliance Industries is one of India's largest firms and is involved in a multitude of businesses ranging from chemicals to
+textiles. The firm makes substantial investments in these businesses, and the following table summarizes the capital
+expenditures and depreciation for the period 1997 to 2000:

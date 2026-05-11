@@ -1,0 +1,46 @@
+priced out of the market,
+and those whose desired returns are at the low end of the scale will find plenty of
+undervalued properties. The question of who the marginal investor in an investment should
+
+be is not answered in these surveys.
+The survey approach bypasses the issue of risk but it does not really eliminate it. Clearly,
+investors demand the returns that they do on different property classes because they
+perceive them to have different levels of risk.
+The survey approach works reasonably well when there are relatively few and fairly
+homogeneous investors in the market. While this might have been true a decade ago in the
+real estate business, it is becoming less so as new institutional investors enter the market
+and the number of investors increases and becomes more heterogeneous.
+The survey approach also becomes suspect when the investors who are surveyed act as
+pass-throughs—they invest in real estate, securitize their investments and sell them to
+others, and move on. If they do so, it is the desired returns of the ultimate investor (the buyer
+of the securitized real estate) that should determine value, not the desired return of the
+intermediate investor.
+There are several advantages to using a model that measures risk and estimates a discount rate
+based on the risk measure, rather than using a survey.
+A risk and return model, properly constructed, sets reasonable bounds for the expected
+returns. For instance, the expected return on a risky asset in both the CAPM and the APM
+will exceed the expected return on a riskless asset. There is no such constraint on survey
+responses.
+A risk and return model, by relating expected return to risk and risk to prespecified factors,
+allows an analyst to be proactive in estimating discount rates rather than reactive. For
+instance, in the context of the CAPM, the expected return on an investment is determined by
+its beta, which in turn is determined by the cyclicality of the business (in which the
+investment is made) and the financial leverage taken on. Thus, an analyst who knows how
+the financial leverage in an investment is expected to change over time can adjust the beta of
+that investment accordingly and use it in valuation. There is no such mechanism available
+when the survey approach is used.
+Where the ultimate investor is not known at the time of the analysis, as is the case in real
+estate investments that are securitized, a risk and return model provides the framework for
+estimating the discount rate for a hypothetical marginal investor.
+As real estate markets become more accessible to institutional investors and more investments are
+made with the objective of eventual securitization, the need for a good risk and return model becomes
+more acute. These same trends will also make real estate investments more like financial investments
+(by making them more liquid). Sooner rather than later, the same models used to estimate risk and
+discount rates for financial assets will also be used to estimate risk and discount rates for real estate
+investments.
+From Cost of Equity to Cost of Capital
+Once you have estimated a cost of equity, there are two other inputs needed to estimate the cost of
+capital. The first is the cost of debt, and estimating it is much more straightforward than estimating the
+cost of equity. You have two choices:
+1.
+ If you are raising capital for a new real estate investment, you could use the stated interest rate

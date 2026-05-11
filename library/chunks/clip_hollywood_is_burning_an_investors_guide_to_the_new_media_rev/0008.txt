@@ -1,0 +1,19 @@
+tform can.
+
+Given where the ad dollar migration is heading, Roku's runway looks long.
+
+## THE NEW YORK TIMES COMPANY (NYSE:NYT)
+
+The conventional wisdom says AI is an existential threat to journalism.
+
+The New York Times isn't waiting around to find out if the conventional wisdom is right. It's suing AI companies, building proprietary products that AI can't replicate, and quietly assembling one of the most durable digital subscription businesses in media — with 12.78 million paying subscribers and a clear line of sight to 15 million by the end of 2027.
+
+Let's start with the moat, because it's the most important part of the NYT thesis.
+
+The Times isn't just a newspaper. It's a bundle. News, The Athletic, Cooking, Games, Wirecutter, and Audio — six distinct products, all wrapped into a single subscription that deepens with every passing year. CEO Meredith Kopit Levien has described this strategy plainly: "We are confident in our ability to generate strong returns as we grow the amount and impact of video journalism in news and across our portfolio."
+
+The numbers back her up. In Q4 2025, digital advertising revenue grew 24.9% year-over-year to $147.2 million. Digital-only subscription revenue grew 13.9% in the same period. For the full year, total revenue came in at $2.825 billion — a 9.24% increase — with management guiding for $3 billion in 2026. That's a business compounding reliably in a macro environment that's been brutal for most ad-supported media.
+
+The AI angle cuts both ways here, and intellectual honesty demands acknowledging both sides.
+
+On the risk side: the Times spent $13.3 million in 2025 on litigation costs related to AI companies training their models on Times content without authorization. That lawsuit — primarily against OpenAI — is among the most closely watched media-industry legal battles of the decade, and its outcome could reshape how AI companies compensate content creators for years to come. The Times is fighting that battle aggressively.

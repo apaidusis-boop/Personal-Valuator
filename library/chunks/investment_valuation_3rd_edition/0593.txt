@@ -1,0 +1,43 @@
+nd total revenue remains
+unchanged, the price-sales ratio for the firm will decline with it. For instance, if the firm’s profit margin declines from 10% to
+5% and the sales/BV ratio remains unchanged:
+
+The new price-sales ratio can then be calculated as follows:
+The relationship between profit margins and the price-sales ratio is illustrated more comprehensively in the 
+Figure 20.2
+. The
+price-sales ratio is estimated as a function of the profit margin, keeping the sales/book value of equity ratio fixed. This
+linkage of price-sales ratios and profit margins can be utilized to analyze the value effects of changes in corporate strategy
+as well as the value of a brand name.
+Figure 20.2
+ Price-to-Sales Ratios and Profit Margins
+MULTIPLES AND COMPANION VARIABLES
+By this point in the relative valuation discussion, the process of deconstructing multiples should no longer be a mystery. In
+fact, with each multiple, while we have highlighted multiple variables that affect its value, there is one variable that operates
+as a key driver. We call this variable the companion variable and the table below lists it out for each multiple:
+Multiple
+Companion Variable
+PE ratio
+Expected growth rate in EPS
+PBV
+Return on equity
+PS
+Net margin
+EV/EBITDA
+Reinvestment rate
+EV/Invested capital
+Return on invested capital
+EV/sales
+After-tax operating margin
+These variables matter for two reasons. The first is that changes in the variables have big effects on the multiples that they
+relate to. The second is that when a stock looks cheap, because it has a low value on a multiple, the first item to check is the
+companion variable. Thus, if a stock trades at a low price-to-book ratio, you should check its return on equity; most low
+price-to-book stocks have low or negative returns on equity.
+How do you find the companion variable for a multiple? One way is to run the market regression for the multiple against all
+of the independent variables that should determine it. The variable that has the most statistical significance (highest t
+statistic) is invariably the companion variable. The other, more intuitive, approach is to do the following. If working with an
+equity multiple, divide net income by the denominator of the multiple to get the companion variable. With price-to-book value
+of equity, for instance, using this approach would require dividing net income by the book value of equity, which would yield
+the return on equity. With enterprise value multiples, dividing the after-tax operating income by the denominator should yield
+the companion variable. With EV-to-sales, for instance, dividing the after-tax operating income by sales results in the after-
+tax operating margin.

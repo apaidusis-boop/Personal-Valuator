@@ -1,0 +1,46 @@
+the basic dividend discount model, the value of a stock is the present value of the expected
+dividends on that stock. Assuming that equity in a publicly traded firm has an infinite life, we arrive
+at:
+
+where DPS
+t
+ = Expected dividend per share in period t 
+k
+e
+ = Cost of equity
+In the special case where the expected growth rate in dividends is constant forever, this model
+collapses into the Gordon growth model:
+where g is the expected growth rate in perpetuity.
+In the more general case, where dividends are growing at a rate that is not expected to be
+sustainable or constant forever for a period (called the extraordinary growth period), we can still
+assume that the growth rate will be constant forever at some point in time in the future. This allows us
+to then estimate the value of a stock, in the dividend discount model, as the sum of the present values
+of the dividends over the extraordinary growth period and the present value of the terminal price,
+which itself is estimated using the Gordon growth model.
+The extraordinary growth is expected to last n years, g
+n
+ is the expected growth rate after n years, and
+k
+e
+ is the cost of equity (hg: high growth period and st: stable growth period).
+Inputs to Model
+This section will focus purely on the estimation issues relating to financial service firms when it
+comes to the inputs to these models. In general, to value a stock using the dividend discount model,
+we need estimates of the cost of equity, the expected payout ratios, and the expected growth rate in
+earnings per share over time.
+Cost of Equity
+In keeping with the way we have estimated the cost of equity for firms so far in this book, the cost of
+equity for a financial service firm has to reflect the portion of the risk in the equity that cannot be
+diversified away by the marginal investor in the stock. This risk is estimated using a beta (in the
+capital asset pricing model) or betas (in a multifactor or arbitrage pricing model).
+In our earlier discussions of betas, we argued against the use of regression betas because of the
+noise in the estimates (standard errors) and the possibility that the firm has changed over the period of
+the regression. How relevant are these arguments with financial service firms? If regulatory
+restrictions have remained unchanged over the period and are not expected to change in the future,
+this may be one of the few sectors where regression betas can continue to be used with some
+confidence. In periods when the rules are changing and regulatory environments are shifting, the
+caveat about not using regression betas continues to hold.
+There is a second area of difference. When estimating betas for non–financial service firms, we
+emphasized the importance of unlevering betas (whether they be historical or sector averages) and
+then relevering them, using a firm's current debt to equity ratio. With financial service firms, we
+would skip this step for two reasons. First, financial service firms tend to be much more

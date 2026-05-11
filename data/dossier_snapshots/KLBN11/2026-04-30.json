@@ -1,0 +1,91 @@
+{
+  "ticker": "KLBN11",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "KLBN11",
+    "period_end": "2026-04-30",
+    "eps": 0.661,
+    "bvps": 6.427,
+    "roe": 0.14569001,
+    "pe": 26.44478,
+    "pb": 2.719776,
+    "dy": 0.09359931595230929,
+    "net_debt_ebitda": 3.8036720066643532,
+    "dividend_streak_years": 12,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": 10.986801,
+    "ev_ebitda": 7.684,
+    "market_cap": 124213952512.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 6,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 2.339439214714321,
+      "zone": "grey",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.5472207746483018,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Dividend/DRIP (7/12)",
+    "secondary": "",
+    "value": 0,
+    "growth": 0,
+    "dividend": 7,
+    "buffett": 2,
+    "macro_exposure": 3,
+    "macro_dependency": 2
+  },
+  "dcf": {
+    "base_value": 5.0161808741413125,
+    "pessimistic_value": 4.2999323511968806,
+    "optimistic_value": 5.88288296973171,
+    "margin_of_safety_pct": -0.7130331232549014,
+    "current_price": 17.479999542236328
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "low",
+  "council_seats": [
+    "Lourdes Aluguel",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Risco de vencimento antecipado de dívidas após ajustes contábeis - Valentina Prudente",
+    "ROE abaixo da média do setor - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "DY de 9.4% é atrativo comparado à média do setor (9.2%)",
+    "Piotroski F-Score forte de 6/9 e Beneish M-Score limpo (-2.55)"
+  ],
+  "dissent_points": [
+    "Pedro Alocação disse que a empresa está sobrevalorizada com P/E de 26.44x e P/B de 2.72x, Lourdes Aluguel disse que a alavancagem aumentada ainda está dentro dos limites aceitáveis"
+  ],
+  "evidence_count": 25,
+  "research_hits_total": 31
+}

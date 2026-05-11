@@ -1,0 +1,59 @@
+n are the expected cash flows, growth rates, and the unlevered
+cost of equity. To estimate the unlevered cost of equity, we can draw on our earlier analysis and
+compute the unlevered beta of the firm:
+
+where β
+unlevered
+ = Unlevered beta of the firm 
+β
+current
+ = Current equity beta of the firm 
+t = Tax rate for the firm 
+D/E = Current debt/equity ratio
+This unlevered beta can then be used to arrive at the unlevered cost of equity.
+Expected Tax Benefit from Borrowing
+The second step in this approach is the calculation of the expected tax benefit from a given level of
+debt. This tax benefit is a function of the tax rate and interest payments of the firm and is discounted at
+the cost of debt to reflect the riskiness of this cash flow. If the tax savings are viewed as a perpetuity,
+The tax rate used here is the firm's marginal tax rate, and it is assumed to stay constant over time. If
+you anticipate the tax rate changing over time, you can still compute the present value of tax benefits
+over time, but you cannot use the perpetual growth equation cited earlier. In addition, you would have
+to modify this equation if the current interest expenses do not reflect the current cost of debt.
+Estimating Expected Bankruptcy Costs and Net Effect
+The third step is to evaluate the effect of the given level of debt on the default risk of the firm and on
+expected bankruptcy costs. In theory, at least, this requires the estimation of the probability of default
+with the additional debt and the direct and indirect cost of bankruptcy. If 
+π
+a
+ is the probability of
+default after the additional debt and BC is the present value of the bankruptcy cost, the present value
+(PV) of expected bankruptcy cost can be estimated:
+This step of the adjusted present value approach poses the most significant estimation problems, since
+neither the probability of bankruptcy nor the bankruptcy cost can be estimated directly.
+There are two basic ways in which the probability of bankruptcy can be estimated indirectly. One
+is to estimate a bond rating and use the empirical estimates of default probabilities for the rating. For
+instance, 
+Table 15.2
+, extracted from a study by Altman, summarizes the probability of default over 10
+years by bond rating class in using the 1999 to 2008 time period.
+6
+Table 15.2
+ Ratings and Probability of Default
+Source:
+ Altman (2009).
+Rating
+Probability of Default
+AAA
+0.07%
+AA
+0.51%
+A+
+0.60%
+A
+0.66%
+A–
+2.50%
+BBB
+7.54%
+BB+
+10.00%

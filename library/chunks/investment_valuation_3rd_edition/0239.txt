@@ -1,0 +1,13 @@
+s was only 1.50% at the time, there is the added consideration that Embraer is
+a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00% at the time of the
+
+analysis, you could argue that every Brazilian company should pay this premium in addition to its own default spread. With
+this reasoning, the pretax cost of debt for Embraer in U.S. dollars (assuming a Treasury bond rate is 3.8%) can be
+calculated:
+Using a marginal tax rate of 34%, we can estimate an after-tax cost of debt for Embraer:
+With this approach, the cost of debt for a firm can never be lower than the cost of debt for the country in which it operates.
+Note, though, that Embraer gets a significant portion of its revenues in dollars from contracts with non-Brazilian airlines.
+Consequently, it could reasonably argue that it is less exposed to risk than is the Brazilian government and should therefore
+command a lower cost of debt. Put differently, there are some companies (generally large companies with significant foreign
+operations) to which, rather than add the entire default spread for the country to the cost of debt, we may add only a portion.
+ratings.xls:

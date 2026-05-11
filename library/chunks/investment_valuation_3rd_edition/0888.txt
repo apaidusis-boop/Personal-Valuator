@@ -1,0 +1,10 @@
+s debt, equity investors benefited as their options became more long-
+term. Similarly, an action that increases the volatility of expected firm value will increase the value of the option.
+equity.xls:
+
+This spreadsheet allows you to estimate the value the equity in a troubled firm as an option.
+VULTURE INVESTING AND OPTION PRICING
+Vulture investing refers to an investment strategy of buying the securities of firms that are in severe financial distress. In a
+sense, you are investing in deep out-of-the-money options and hoping that some of these options pay off handsomely. Using
+the option pricing framework allows us to draw some conclusions about when and how this strategy can pay off:
+As with any portfolio of deep out-of-the-money options, you should expect a considerable proportion of the

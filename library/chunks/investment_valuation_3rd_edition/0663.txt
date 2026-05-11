@@ -1,0 +1,10 @@
+he operating income clearly increases (decreases) as the oil price increases (decreases). We regressed the operating
+income against the oil price per barrel over the period and obtained the following:
+
+Based on this regression, Exxon Mobil's operating income increases about $9.11 billion for every $10 increase in the price
+per barrel of oil, and 90% of the variation in Exxon's earnings over time comes from movements in oil prices.
+To get from operating income to equity value at Exxon, we made the following assumptions:
+Figure 22.2
+ Operating Income versus Oil Prices for Exxon Mobil: 1985 to 2008
+We estimated a bottom–up beta of 0.90 for Exxon Mobil, and then used the Treasury bond rate of 2.5% and
+an equity risk premium of 6.5% to estimate a cost of equity.

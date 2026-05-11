@@ -1,0 +1,41 @@
+he
+expected ROE and cost of equity. The table below summarizes the estimates for the aggregate value of equity (using
+$47,628 million as the base book equity) in Wells Fargo under all three scenarios:
+
+At its market capitalization of $66.643 billion in early 2009, Wells Fargo looks undervalued, but the valuation is sensitive to
+the probabilities attached to the three scenarios.
+DECISION TREES
+In some cases, risk is not only discrete but sequential. In other words, for the asset to have value, it
+has to pass through a series of tests, with failure at any point potentially translating into a complete
+loss of value. This is the case, for instance, with a pharmaceutical drug that is just being tested for
+commercial use. The three-stage Food and Drug Administration (FDA) approval process lays out the
+hurdles that have to be passed for this drug to be commercially sold, and failure at any of the three
+stages dooms the drug’s chances. When valuing a large pharmaceutical company with a portfolio of
+drugs, the risk that a drug will not make it through the process will be averaged out across the
+portfolio of drugs in the pipeline, thus allowing us to use conventional discounted cash flow models.
+In contrast, if you are valuing a small biotechnology company with only one drug making its way
+through the approval process, the value rests entirely on the sequential risk process. Decision trees
+allow us 
+not only to consider the risk in stages but also to devise the right response to outcomes at
+each stage.
+Steps in Decision Tree Analysis
+The first step in understanding decision trees is to distinguish between root nodes, decision nodes,
+event nodes, and end nodes.
+The root node represents the start of the decision tree, where a decision maker can be faced
+with a decision choice or an uncertain outcome. The objective of the exercise is to evaluate
+what a risky investment is worth at this node.
+Event nodes represent the possible outcomes on a risky gamble; whether a drug passes the
+first stage of the FDA approval process is a good example. We have to figure out the
+possible outcomes and the probabilities of the outcomes occurring, based on the information
+we have available today.
+Decision nodes represent choices that can be made by the decision maker—to expand from
+a test market to a national market after a test market’s outcome is known.
+End nodes usually represent the final outcomes of earlier risky outcomes and decisions
+made in response.
+Consider a very simple example. You are offered a choice where you can either take a certain
+amount ($20) or partake in a gamble where you can win $50, with a probability 50 percent or $10
+with probability 50 percent. The decision tree for this offered gamble is shown in 
+Figure 33.1
+.
+Figure 33.1
+ Simple Decision Tree

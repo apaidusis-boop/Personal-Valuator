@@ -1,0 +1,40 @@
+we would make to the target firm, we can value control. The value of control
+can then be written as:
+The value of control is negligible for firms that are operating at or close to their optimal value,
+
+since a restructuring will yield little additional value. It can be substantial for firms operating at well
+below optimal, since a restructuring can lead to a significant increase in value.
+ILLUSTRATION 25.2: The Value of Control at Digital
+We said earlier that one of the reasons Digital was targeted by Compaq was that it was viewed as poorly managed.
+Assuming that Compaq was correct in its perceptions, we valued control at Digital by making the following assumptions:
+Digital will raise its debt ratio to its optimal of 20%. The beta will increase, but the cost of capital will
+decrease.
+New beta = 1.25 (Unlevered beta = 1.07; Debt/equity ratio = 25%)
+Cost of equity = 6% + 1.25(5.5%) = 12.88%
+New after-tax cost of debt = 5.25%; the firm is riskier, and its default risk will increase
+Cost of capital = 12.88%(0.8) + 5.25%(0.2) = 11.35%
+Digital will raise its return on capital to 11.35%, which is its cost of capital. (Pretax operating margin will go
+up to 4%, which is close to the industry average.)
+The reinvestment rate remains unchanged, but the increase in the return on capital will increase the expected
+growth rate in the next five years to 10%.
+After year 5, the beta will drop to 1, and the after-tax cost of debt will decline to 4%, as in the previous
+example. The cost of capital will drop to 10% as a consequence.
+The effect of these assumptions on the cash flows and present values is listed in the following table:
+The lower cost of capital and higher growth rate increase the firm value from the status quo valuation of $2,110.41 million to
+$4,531.59 million. We can then estimate the value of control:
+Value of firm (optimally managed)
+$4,531.59 million
+Value of firm (status quo)
+$2,110.41 million
+Value of control
+$2,421.18 million
+Valuing Operating Synergy
+There is a potential for operating synergy, in one form or the other, in many takeovers. Some
+disagreement exists, however, over whether synergy can be valued and, if so, what that value should
+be. One school of thought argues that synergy is too nebulous to be valued and that any systematic
+attempt to do so requires so many assumptions that it is pointless. If this is true, a firm should not be
+willing to pay large premiums for synergy it cannot attach a value to.
+While valuing synergy requires us to make assumptions about future cash flows and growth, the lack
+of precision in the process does not mean we cannot obtain an unbiased estimate of value. Thus we
+maintain that synergy can be valued by answering two fundamental questions:
+1.

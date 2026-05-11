@@ -1,0 +1,36 @@
+erations at some point in time in the future—say when the current owner retires—we would use a
+liquidation value for the assets as the terminal value. In general, liquidation values are lower than the
+
+value of continuing operations. The other is that private firms where owners plan for the transition to
+the next generation will be worth more than private firms that do not make these arrangements.
+Some private firms, especially as they get larger, resemble publicly traded firms in terms of having
+professional managers. With these firms, the assumption of infinite growth that we used with publicly
+traded firms can be sustained.
+ILLUSTRATION 24.9: Closure in Valuation and Terminal
+Values
+As we noted earlier, we assume a 12-year life for Chez Pierre. When the lease ends, we assume that the restaurant will be
+closed and that the assets will be liquidated at a book value of $500,000.
+With InfoSoft, we are assuming a growing and healthy publicly traded firm, based on our projections over the next 10 years.
+The firm should be worth more based on continuing operations than from liquidation. Consequently, we assume an expected
+growth rate of 3% beyond year 10 for the firm. As the firm becomes larger, it will become more and more difficult for it to
+sustain its current return on capital of 20%. We assume that the return on capital will drop to 12% after year 10. These two
+assumptions yield a reinvestment rate of 25% after year 10.
+We also assume that the beta for InfoSoft will drop to 1.20 after year 10 and that the firm will use some of its debt capacity
+(its debt ratio will rise from 0% to 10% and the cost of debt will be 5%). The resulting cost of equity and capital are
+estimated here:
+“Key Person” Effect on Value
+Young companies, especially in service businesses, are often dependent upon the owner or a few key
+people for their success. Consequently, the value we estimate for these businesses can change
+significantly if one or more of these key people will no longer be associated with the firm. To assess
+a key person discount in valuations, we suggest that the firm be first valued with the status quo (with
+key people involved in the business) and then be valued again with the loss of these individuals built
+into revenues, earnings, and expected cash flows. To the extent that earnings and cash flows suffer
+when key people leave, the value of the business will be lower with the loss of these individuals, and
+the key person discount can then be estimated as follows:
+There is no simple formula that will help in determining how much in cash flows will be lost as a
+result of the loss of key personnel, since it will vary not only across businesses but across the
+personnel involved.
+To illustrate, assume that you are valuing a restaurant that is being offered for sale by its well-
+known chef/owner. Assume that the restaurant generated $1 million in after-tax cash flow last year,
+has an expected growth rate of 2 percent and a cost of capital of 12 percent. The value of the
+restaurant should be $10 million, based on these inputs:

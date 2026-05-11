@@ -1,0 +1,42 @@
+s by the expected free cash flow to the firm yields the EV-to-FCFF multiple for a
+stable growth firm:
+Since the free cash flow the firm is the after-tax operating income netted against the net capital
+
+expenditures and working capital needs of the firm, the multiples of EBIT, after-tax EBIT, and
+EBITDA can also be estimated similarly.
+The point of this analysis is not to suggest that you go back to using discounted cash flow valuation,
+but to understand the variables that may cause these multiples to vary across firms in the same sector.
+If you ignore these variables, you might conclude that a stock with a PE of 8 is cheaper than one with
+a PE of 12, when the true reason may be that the latter has higher expected growth; or you might
+decide that a stock with a PBV ratio of 0.7 is cheaper than one with a PBV ratio of 1.5, when the true
+reason may be that the latter has a much higher return on equity.
+Relationship
+Knowing the fundamentals that determine a multiple is a useful first step, but understanding how the
+multiple changes as the fundamentals change is just as critical to using the multiple. To illustrate,
+knowing that higher-growth firms have higher PE ratios is not a sufficient insight if you are called on
+to analyze whether a firm with a growth rate that is twice as high as the average growth rate for the
+sector should have a PE ratio that is 1.5 times or 1.8 times or 2 times the average price-earnings ratio
+for the sector. To make this judgment, you need to know how the PE ratio changes as the growth rate
+changes.
+A surprisingly large number of analyses are based on the assumption that there is a linear
+relationship between multiples and fundamentals. For instance, the price-earnings/growth (PEG)
+ratio, which is the ratio of the PE to the expected growth rate of a firm and widely used to analyze
+high-growth firms, implicitly assumes that PE ratios and expected growth rates are linearly related.
+One of the advantages of deriving the multiples from a discounted cash flow model, as was done in
+the last section, is that you can analyze the relationship between each fundamental variable and the
+multiple by keeping everything else constant and changing the value of that variable.
+Companion Variable
+While the variables that determine a multiple can be extracted from a discounted cash flow model,
+and the relationship between each variable and the multiple can be developed by holding all else
+constant and asking what-if questions, there is one variable that dominates when it comes to
+explaining each multiple. This variable, which is called the companion variable, can usually be
+identified by looking at how multiples vary across firms in a sector or across the entire market. In the
+next three chapters, the companion variables for the most widely used multiples from the price-
+earnings ratio to the value-to-sales multiples are identified and then used in analysis.
+Application Tests
+When multiples are used, they tend to be used in conjunction with comparable firms to determine the
+value of a firm or its equity. But what is a comparable firm? While the conventional practice is to
+look at firms within the same industry or business as comparable firms, this is not necessarily always
+the correct or the best way of identifying these firms. In addition, no matter how carefully you choose
+comparable firms, differences will remain between the firm you are valuing and the comparable
+firms. Figuring out how to control for these differences is a significant part of relative valuation.

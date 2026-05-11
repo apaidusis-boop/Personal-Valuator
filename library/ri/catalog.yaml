@@ -1,0 +1,371 @@
+version: 1
+generated: 2026-04-25
+phase: Y.1
+stocks:
+- ticker: PRIO3
+  name: PRIO S.A. (PetroRio)
+  cnpj: 10.629.105/0001-68
+  codigo_cvm: 22187
+  ri_url: https://ri.prio3.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  notes: Anteriormente PetroRio. Renomeada PRIO em 2022. CVM code estável.
+- ticker: VALE3
+  name: Vale S.A.
+  cnpj: 33.592.510/0001-54
+  codigo_cvm: 4170
+  ri_url: https://vale.com/pt/investidores
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  notes: 'Dual-listed (NYSE: VALE). Para SEC use sec_edgar_fetcher em paralelo.'
+- ticker: BBDC4
+  name: Banco Bradesco S.A.
+  cnpj: 60.746.948/0001-12
+  codigo_cvm: 906
+  ri_url: https://www.bradescori.com.br/
+  sector: Banks
+  bank: true
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  notes: Banco — usa schema bancário (cvm_parser_bank). Account code mapping by ds_conta
+    substring.
+- ticker: ITSA4
+  name: Itaúsa S.A.
+  cnpj: 61.532.644/0001-15
+  codigo_cvm: 7617
+  ri_url: https://www.itausa.com.br/ri
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  notes: Holding. Look-through para ITUB4, Alpargatas, Aegea, Copa Energia. Validated
+    via cad_cia_aberta.csv 2026-04-25.
+- ticker: PETR4
+  name: Petróleo Brasileiro S.A. (Petrobras)
+  cnpj: 33.000.167/0001-01
+  codigo_cvm: 9512
+  ri_url: https://www.investidorpetrobras.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  notes: Estatal. ADR PBR/PBR.A. Watchlist Tier-1 — não é holding mas alta relevância.
+fiis:
+- ticker: XPML11
+  name: XP Malls FII
+  cnpj: 28.757.546/0001-00
+  admin_cnpj: 13.486.793/0001-42
+  ri_url: https://www.xpasset.com.br/xpmalls/
+  filings:
+  - INFORME_MENSAL
+  - RELATORIO_GERENCIAL
+  - FATO_RELEVANTE
+  notes: 'Shopping centers. Frequência: informe mensal + relatório trimestral.'
+- ticker: BTLG11
+  name: BTG Pactual Logística FII
+  cnpj: 11.839.593/0001-09
+  admin_cnpj: 59.281.253/0001-23
+  ri_url: https://www.btgpactual.com/asset-management/btg-pactual-logistica-fii
+  filings:
+  - INFORME_MENSAL
+  - RELATORIO_GERENCIAL
+  - FATO_RELEVANTE
+  notes: Galpões logísticos.
+- ticker: VGIR11
+  name: Valora RE III FII (Valora CRI)
+  cnpj: null
+  admin_cnpj: null
+  ri_url: https://valora.com.br/fundos-listados/vgir11/
+  filings:
+  - INFORME_MENSAL
+  - RELATORIO_GERENCIAL
+  - FATO_RELEVANTE
+  notes: Papel (CRI). CNPJ a confirmar pelo POC contra cad_fii.csv.
+- ticker: PVBI11
+  name: VBI Prime Properties FII
+  cnpj: null
+  admin_cnpj: null
+  ri_url: https://www.vbirealestate.com/pvbi11/
+  filings:
+  - INFORME_MENSAL
+  - RELATORIO_GERENCIAL
+  - FATO_RELEVANTE
+  notes: Lajes corporativas FL. Tese contrarian — ver memória pvbi11_turnaround_thesis.
+- ticker: RBRX11
+  name: RBR Properties FII
+  cnpj: 21.408.063/0001-51
+  admin_cnpj: null
+  ri_url: https://www.rbrasset.com.br/rbrx11/
+  filings:
+  - INFORME_MENSAL
+  - RELATORIO_GERENCIAL
+  - FATO_RELEVANTE
+  notes: Híbrido. CNPJ resolved 2026-04-25 via inf_mensal_fii_geral. CVM denom é "FUNDO
+    DE INVESTIMENTO IMOBILIARIO RBR PROPERTIES".
+watchlist_stocks:
+- ticker: AXIA7
+  name: Axia Energia
+  cnpj: 33.541.368/0001-16
+  codigo_cvm: 2437
+  ri_url: https://ri.axia.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Utilities
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM 2437 = ex-Eletrobras (renomeada AXIA Energia
+    Out/2025; privatizada Jun/2022). Tickers B3 AXIA3/5/6/7; NYSE AXIA. Match anterior
+    (3328) era subsidiária Axia Energia Nordeste, não a holding.
+- ticker: CPLE3
+  name: Copel
+  cnpj: 76.483.817/0001-20
+  codigo_cvm: 14311
+  ri_url: https://ri.copel.com/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Utilities
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom CIA PARANAENSE DE ENERGIA COPEL.
+- ticker: ALOS3
+  name: Allos
+  cnpj: 05.878.397/0001-32
+  codigo_cvm: 22357
+  ri_url: https://ri.allos.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Real Estate
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom ALLOS S.A. (ex-Aliansce Sonae +
+    BR Malls merger).
+- ticker: B3SA3
+  name: B3
+  cnpj: 09.346.601/0001-25
+  codigo_cvm: 21610
+  ri_url: https://ri.b3.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Financials
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom B3 S.A. - BRASIL, BOLSA, BALCÃO.
+- ticker: ENGI11
+  name: Energisa S.A. (units)
+  cnpj: 00.864.214/0001-06
+  codigo_cvm: 15253
+  ri_url: https://ri.energisa.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Utilities
+  auto_populated: false
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A. RI URL needs manual curation.'
+- ticker: ITUB4
+  name: Itaú Unibanco Holding
+  cnpj: 60.872.504/0001-23
+  codigo_cvm: 19348
+  ri_url: https://www.itau.com.br/relacoes-com-investidores
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Banks
+  bank: true
+  auto_populated: false
+  notes: Manually validated 2026-04-25. Substitui match errado anterior (CVM 3450
+    era Companhia Itaúnense Energia, não Itaú Unibanco Holding).
+- ticker: EQTL3
+  name: Equatorial Energia S.A.
+  cnpj: 03.220.438/0001-73
+  codigo_cvm: 20010
+  ri_url: https://ri.equatorialenergia.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Utilities
+  auto_populated: false
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A.. RI URL needs manual curation.'
+- ticker: MOTV3
+  name: Motiva
+  cnpj: 02.846.056/0001-97
+  codigo_cvm: 18821
+  ri_url: https://ri.motiva.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom MOTIVA INFRAESTRUTURA DE MOBILIDADE
+    (ex-CCR, renomeada 2025).
+- ticker: MULT3
+  name: Multiplan
+  cnpj: 07.816.890/0001-53
+  codigo_cvm: 20982
+  ri_url: https://ri.multiplan.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Real Estate
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom MULTIPLAN - EMPREEND IMOBILIARIOS
+    S.A.
+- ticker: PGMN3
+  name: Pague Menos
+  cnpj: 06.626.253/0001-51
+  codigo_cvm: 22608
+  ri_url: https://ri.paguemenos.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Healthcare
+  auto_populated: false
+  notes: Manually validated 2026-04-26. Sector corrigido Consumer Staples → Healthcare
+    (rede de farmácias). CVM denom EMPREENDIMENTOS PAGUE MENOS SA.
+- ticker: RAPT4
+  name: Randoncorp
+  cnpj: 89.086.144/0001-16
+  codigo_cvm: 14109
+  ri_url: https://www.randoncorp.com/pt/investidores
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom RANDONCORP S.A. (ex-Randon S.A.
+    Implementos e Participações). RI integrado no site corporativo (não em subdomínio
+    ri.).
+- ticker: RDOR3
+  name: Rede D'Or
+  cnpj: 06.047.087/0001-39
+  codigo_cvm: 24821
+  ri_url: https://ri.rededorsaoluiz.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Healthcare
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom REDE D'OR SÃO LUIZ S.A.
+- ticker: RENT3
+  name: Localiza
+  cnpj: 16.670.085/0001-55
+  codigo_cvm: 19739
+  ri_url: https://ri.localiza.com/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: false
+  notes: Manually validated 2026-04-26. CVM denom LOCALIZA RENT A CAR SA.
+- ticker: SUZB3
+  name: Suzano S.A.
+  cnpj: 16.404.287/0001-55
+  codigo_cvm: 13986
+  ri_url: https://ri.suzano.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Materials
+  auto_populated: false
+- ticker: TTEN3
+  name: Três Tentos Agroindustrial S.A.
+  cnpj: 94.813.102/0001-70
+  codigo_cvm: 25950
+  ri_url: https://ri.3tentos.com.br/
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Consumer Staples
+  auto_populated: false
+- ticker: POMO3
+  name: Marcopolo ON
+  cnpj: 88.611.835/0001-29
+  codigo_cvm: 8451
+  ri_url: TODO
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: true
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    MARCOPOLO SA. RI URL needs manual curation.'
+- ticker: POMO4
+  name: Marcopolo PN
+  cnpj: 88.611.835/0001-29
+  codigo_cvm: 8451
+  ri_url: TODO
+  filings:
+  - DFP
+  - ITR
+  - FRE
+  - IPE
+  - FCA
+  sector: Industrials
+  auto_populated: true
+  notes: 'Auto-populated 2026-04-25 via universe.yaml ↔ cad_cia_aberta.csv. CVM denom:
+    MARCOPOLO SA. RI URL needs manual curation.'

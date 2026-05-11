@@ -1,0 +1,17 @@
+,5%, de modo que, por conservadorismo, também optamos por nos basearmos em preços declinantes (a partir de 2028) em termos reais até o patamar de 180,00 R$/MWh, estabelecido como preço de longo prazo.
+
+O incremento do preço médio real de 2023 a 2027, como poderá ser observado na tabela abaixo, ocorre pelo fato da renovação das outorgas anteriormente em Regime de Cotas terem permitido a migração gradual desses contratos para a comercialização a preços de mercado (ACR e ACL) no ritmo demonstrado na sequência.
+
+Isso permite com que, mesmo projetando preços de longo prazo substancialmente abaixo do patamar dos preços de mercado evidentes nos contratos atuais, a empresa consiga aumentar o seu preço médio de venda de energia:
+
+**Projeções do balanço de energia de geração** — *Elaboração: Suno Research.*
+
+Para as projeções de CapEx, nos primeiros anos consideramos as construções dos ativos Coxilha Negra (114,5 MWm), Cana Nova B (10,8 MWm) e Itaguaçu Bahia I (133,7 MWm), que juntos incrementam a capacidade comercial da companhia em mais 1,1%.
+
+Optamos por projetar apenas esses investimentos em crescimento por serem os únicos projetos que, de fato, já saíram do papel e estão sendo implementados.
+
+Com base no orçamento divulgado pela companhia (R$ 7,1 milhões por MW de capacidade) e o patamar de execução atual, estimamos R$ 4,0 bilhões em investimentos restantes a serem despendidos entre 2023 e 2025, com Coxilha Negra e Casa Nova B começando a gerar resultados em 2024, e Itaguaçu Bahia I em 2025.
+
+Para estimar o CapEx de manutenção, nos baseamos no patamar divulgado pela empresa desde 2019, optando por inflacionar o número de 2022 (mais elevado no período) com uma relação de manutenção por MW instalado, capturando assim o aumento e diminuição dos investimentos em manutenção conforme projetamos crescimento e términos de concessões.
+
+**Projeções de CapEx de geração** — *Elaboração: Suno Research.*

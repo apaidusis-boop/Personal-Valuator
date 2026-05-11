@@ -1,0 +1,47 @@
+mating it is much more straightforward than estimating the
+cost of equity. You have two choices:
+1.
+ If you are raising capital for a new real estate investment, you could use the stated interest rate
+
+on bank loans used to fund the investment. In making this estimate, though, you have to be aware of
+the terms of the bank loan and whether there will be other costs not captured in the interest rate.
+For instance, a requirement that a compensating balance be maintained over the life of the loan
+will increase the effective cost of debt.
+2.
+ You could look at the capacity that the real estate investment has to cover bank payments (this
+is the equivalent of an interest coverage ratio), estimate a synthetic rating, and use this rating to
+estimate a pretax cost of debt. In fact, you could modify the numerator to include depreciation,
+since the investment is a finite life investment and should not require significant reinvestment.
+To estimate an after-tax cost of debt, you would use the marginal tax rate of the individual or entity
+investing in the property. The debt ratio in most real estate investments is usually estimated by
+looking at the proportion of the funds raised from debt and equity. Thus, if a property costs $4 million
+to build and the investor borrows $3 million to fund it, the debt ratio used is 75 percent. While we
+will stick with this convention, it is worth bearing in mind that the ratios should be based on the value
+of the property rather than the funding needs. Thus if the value of the property is expected to be $5
+million after it is built, the debt ratio used should be 60 percent ($3 million/$5 million). This, of
+course, creates circular reasoning since the cost of capital is necessary to estimate the value of the
+property in the first place.
+The distinction between cost of equity and the cost of capital, drawn in Chapter 7, is significant. If
+the cash flows being discounted are predebt cash flows (i.e., cash flows to the firm), the appropriate
+discount rate is the cost of capital. If you use this approach, you will value the property, and if you
+are the equity investor, you would then subtract out the value of the outstanding debt to arrive at the
+value of the equity in the real estate investment. If the cash flows being discounted on a real estate
+deal are cash flows after interest and principal payments or cash flows to equity, the appropriate
+discount rate is the cost of equity. You would then value the equity in the real estate investment
+directly.
+Estimating Cash Flows
+Not all real estate investments generate cash flows but for those that do, cash flows can be estimated
+in much the same way that they can be estimated for financial investments. The ultimate objective is to
+estimate cash flows after taxes. Just as with financial assets, these cash flows can be estimated to
+equity investors. This is the cash flow left over after meeting all operating expenses, debt obligations
+(interest expenses and principal payments), and capital expenditures. The cash flows can also be
+estimated for all investors (debt as well as equity) in the real estate investment. This is the equivalent
+of cash flows to the firm, which is the cash flow prior to meeting debt obligations.
+Cash Inflows
+The cash flows from a real estate investment 
+to the owner generally take the form of rents and lease
+income. In estimating rents for future years, you have to consider past trends in rents, demand and
+supply conditions for space provided by the property, and general economic conditions.
+In office/multiple residential buildings all space may not be rented at a particular time. Thus, the
+vacancy rate (i.e., the percentage of the space that will not be rented out at any point in time) has to be
+projected in conjunction with market rents. Even in tight markets, there will be periods of time where

@@ -1,0 +1,20 @@
+o throw away any information, the best estimates of
+value are usually obtained by using the one multiple that is best suited for your firm. There are three
+ways in which you can find this multiple:
+1.
+
+Fundamentals approach.
+ You should consider using the variable that is most highly correlated
+with your firm’s value. For instance, current earnings and value are much more highly correlated
+in consumer product companies than in young technology companies. Using price-earnings ratios
+makes more sense for the former than for the latter.
+2.
+
+Statistical approach.
+ You could run regressions of each multiple against the fundamentals that
+we determined affected the value of the multiple in earlier chapters, and use the R-squared of the
+regression as a measure of how well that multiple works in the sector. The multiple with the
+
+highest R-squared is the multiple that you can best explain using fundamentals and should be the
+multiple you use to value companies in that sector.
+3.

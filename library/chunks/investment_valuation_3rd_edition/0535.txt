@@ -1,0 +1,29 @@
+inst the natural log of the expected growth rate, for instance, yields a much more linear
+relationship, as evidenced in 
+Figure 18.12
+.
+Figure 18.12
+ PEG Ratios versus ln(Expected Growth)—January 2011
+
+The results of the regression of PEG ratios against ln(expected growth), beta, and payout ratio are
+reported here for the entire market in January 2011.
+The low R-squared is indicative of the problems with this multiple and the difficulties you will run
+into in using it in comparisons across firms.
+ILLUSTRATION 18.11: Revising the Beverage Sector in
+2001—PEG Ratio
+In the preceding chapter, we looked at the PE ratios for beverage companies and evaluated whether Andres Wine was
+cheap because it traded at a low PE ratio. Since there are significant differences in expected growth rates across the sector,
+we computed the PEG ratios for the firms and report these along with the annualized standard deviations of stock prices
+over the previous two years:
+Note that Andres Wine is no longer looking cheap, if you compare that PEG ratio to the average; its low growth rate
+translates into a higher PEG ratio. Hansen Natural still looks like a bargain, trading at a PEG ratio of 0.57, well below the
+average for the sector.
+Hansen is still riskier (its standard deviation is almost twice that of the sector) and has higher growth than other firms in the
+sector, both of which can contribute to a lower PEG ratio. Regressing the PEG ratios for firms in the sector, we obtain the
+following:
+Using this regression to obtain a predicted value for Hansen Natural, we get:
+At a PE ratio of 0.57, the firm remains significantly undervalued.
+Mreg.xls:
+
+This dataset on the Web summarizes the results of the most recent regression of PEG ratios
+against fundamentals for U.S. stocks.

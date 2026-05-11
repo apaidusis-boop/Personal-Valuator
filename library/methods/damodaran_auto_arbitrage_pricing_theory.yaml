@@ -1,0 +1,18 @@
+---
+id: damodaran_auto_arbitrage_pricing_theory
+name: Arbitrage Pricing Theory (APT)
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: apt_beta_levered_check
+  description: Ensure the beta levered is positive
+  check: beta_levered > 0.0
+- id: apt_expected_return_check
+  description: Check if the expected return based on multiple factors exceeds a threshold
+    (simplified example)
+  check: (roe * beta_levered) >= 0.15
+caveats:
+- This rule simplifies APT by focusing on ROE and levered beta, ignoring other factor
+  betas and risk-free rate.

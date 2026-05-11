@@ -1,0 +1,38 @@
+ck offering. He reported the following regression:
+where RPRS = Restricted stock price/Unrestricted stock price = 1 − Illiquidity discount 
+REV = Revenues of the private firm (in millions of dollars) 
+
+RBRT = Restricted block relative to total common stock in % 
+DERN = 1 if earnings are positive; 0 if earnings are negative 
+DCUST = 1 if there is a customer relationship with the investor; 0 otherwise
+The illiquidity discount tends to be smaller for firms with higher revenues, decreases as the block
+offering decreases, and is lower when earnings are positive and when the investor has a customer
+relationship with the firm.
+These findings are consistent with some of the determinants that we identified in the previous
+section for the illiquidity premium. In particular, the discounts tend to be smaller for large firms (at
+least as measured by revenues) and for healthy firms (with positive earnings being the measure of
+financial health). This would suggest that the conventional practice of using constant discounts across
+private firms is wrong and that we should be adjusting for differences across firms.
+Estimating the Illiquidity Discount
+If we do decide to adjust the illiquidity discount to reflect the differences across private firms, we are
+faced with an estimation question. How are we going to measure these differences and build them into
+an estimate? There are two ways of doing this. The first is to extend the analysis done for restricted
+securities into the illiquidity discount; in other words, we could adjust the discount factor for the
+magnitude of a firm's revenues and whether it has positive earnings. The second is to extend some of
+the empirical work that has been done examining the magnitude of the bid-ask spread for publicly
+traded firms to estimating illiquidity discounts.
+Adjusted Discount Factors
+Consider again the regression that Silber presents on restricted stock. Not only does it yield a result
+specific to restricted stock, but it also provides a measure of how much lower the discount should be
+as a function of revenues. A firm with revenue of $20 million should have a illiquidity discount that is
+1.19 percent lower than a firm with revenues of $10 million. Thus we could establish a benchmark
+discount for a profitable firm with specified revenues (say $10 million) and adjust this benchmark
+discount for individual firms that have revenues much higher or lower than this number. The
+regression can also be used to differentiate between profitable and unprofitable firms. 
+Figure 24.1
+presents the difference in illiquidity discounts across both profitable and unprofitable firms with
+different revenues, using a benchmark discount of 25 percent for a firm with positive earnings and
+$10 million in revenues.
+Figure 24.1
+ Illiquidity Discounts: Base Discount of 25 Percent for Profitable Firm with $10 Million
+in Revenues

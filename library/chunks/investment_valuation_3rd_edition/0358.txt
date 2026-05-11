@@ -1,0 +1,80 @@
+e a five-year high-growth period. The following table
+summarizes the inputs into the dividend discount model for the valuation of Procter & Gamble.
+High Growth
+Stable Growth
+Payout ratio
+50.00%
+75.00%
+
+Return on equity
+20.00%
+12.00%
+Expected growth rate
+10%
+3.00%
+Beta
+0.90
+1.00
+Note that the payout ratio, return on equity, and beta for the high growth period are based on the current year's values. The
+expected growth rate of 10% for the next five years is the product of the return on equity and retention ratio. In stable
+growth, we adjust the beta to 1, though the adjustment has little effect on value since the beta is already close to one. We
+assume that the stable growth rate will be 3%, just slightly below the nominal growth rate in the global economy (and the
+risk-free rate of 3.5% at the time). We also assume that the return on equity will drop to 12%, reflecting our assumption that
+returns on equity will decline for the entire industry as competition from generics eats into profit margins. The retention ratio
+decreases to 25%, as both growth and return on equity drop.
+To analyze Coca-Cola in a free cash flow to equity model, the following table summarizes our inputs for high growth and
+stable growth:
+High Growth
+Stable Growth
+Return on equity
+30.00%
+15.00%
+Equity reinvestment rate
+25.00%
+20.00%
+Expected growth rate
+7.50%
+3.00%
+Beta
+0.80
+0.80
+In high growth, the high return on equity allows the firm to generate an expected growth rate of 7.50% a year. In stable
+growth, we reduce the return on equity for Coca-Cola to the industry average for beverage companies and estimate the
+expected equity reinvestment rate based on a stable growth rate of 3%. The beta for the firm is left unchanged at its existing
+level, since Coca-Cola's management has been fairly disciplined in staying focused on the core businesses.
+Finally, let us consider a valuation of Amgen beginning in early 2010. The following table reports on the return on capital,
+reinvestment rate, and debt ratio for the firm in high growth and stable growth periods.
+High Growth
+Stable Growth
+Return on capital
+17.41%
+10.00%
+Reinvestment rate
+33.23%
+30.00%
+Expected growth rate
+5.78%
+3.00%
+Beta
+1.65
+1.10
+Note that the reinvestment rate and return on capital for the firm reflect the decision we made to capitalize R&D and
+operating leases. The operating income is adjusted for R&D and the book value of equity is augmented by the capitalized
+value of R&D (see Chapter 9). The firm has a high return on capital currently, and we assume that this return will decrease
+in stable growth to 10% as the firm becomes larger and patents expire. Since the stable growth rate drops to 3%, the
+resulting reinvestment rate at Amgen will decrease to 30%. We also assume that the beta for Amgen will converge toward
+the market average.
+For all of the firms, it is worth noting that we are assuming that excess returns continue in perpetuity by setting the return on
+capital above the cost of capital. While this is potentially troublesome, the competitive advantages that these firms have built
+up historically or will build up over the high growth phase will not disappear in an instant. The excess returns will fade over
+time, but moving them to or toward the cost of capital in stable growth seems like a reasonable compromise.
+Transition to Stable Growth
+Once you have decided that a firm will be in stable growth at a point in time in the future, you have to
+consider how the firm will change as it approaches stable growth. There are three distinct scenarios.
+In the first, the firm will maintain its high growth rate for a period of time and then become a stable
+growth firm abruptly; this is a two-stage model. In the second, the firm will maintain its high growth
+rate for a period and then have a transition period when its characteristics change gradually toward
+stable growth levels; this is a three-stage model. In the third, the firm's characteristics change each
+year from the initial period to the stable growth period; this can be considered an n-stage model.
+Which of these three scenarios gets chosen depends on the firm being valued. Since the firm goes
+from high growth to stable growth in one year in the two-stage model, this model is more appropriate

@@ -1,0 +1,47 @@
+ests that there may be ongoing operational problems at
+Xerox that may cause future charges. In fact, it is not surprising that Xerox had to delay its 10-K filing for 2000 because of
+accounting issues.
+
+CONCLUSION
+Financial statements remain the primary source of information for most investors and analysts. There
+are differences, however, in how accounting and financial analysts approach answering a number of
+key questions about the firm.
+This chapter begins our analysis of earnings by looking at the accounting categorization of expenses
+into operating, financing, and capital expenses. While operating and financing expenses are shown in
+income statements, capital expenditures are spread over several time periods and take the form of
+depreciation and amortization. Accounting standards misclassify operating leases and research and
+development expenses as operating expenses (when the former should be categorized as financing
+expenses and the latter as capital expenses). We suggest ways in which earnings can be corrected to
+better measure the impact of these items.
+In the second part of the chapter, we consider the effect of one-time, nonrecurring, and unusual
+items on earnings. While the underlying principle is that earnings should include only normal
+expenses, this is put to the test by the attempts on the part of companies to move normal operating
+expenses into the nonrecurring column and nonoperating income into operating earnings.
+WARNING SIGNS IN EARNINGS REPORTS
+The most troubling thing about earnings reports is that we are often blindsided not by the items that get reported (such as
+extraordinary charges) but by the items that are hidden in other categories. We would suggest the following checklist that
+should be reviewed about any earnings report to gauge the possibility of such shocks:
+Is earnings growth outstripping revenue growth by a large magnitude year after year? This may well be a sign
+of increased efficiency, but when the differences are large and continue year after year, you should wonder
+about the source of these efficiencies.
+Do one-time or nonoperating charges to earnings occur frequently? The charge itself might be categorized
+differently each year—an inventory charge one year, a restructuring charge the next, and so on. While this
+may be just bad luck, it may also reflect a conscious effort by a company to move regular operating expenses
+into these nonoperating items.
+Do any of the operating expenses, as a percent of revenues, swing wildly from year to year? This may
+suggest that this expense item (say SG&A) includes nonoperating expenses that should really be stripped out
+and reported separately.
+Does the company manage to beat analyst estimates quarter after quarter by a cent or two? Not every
+company is a Microsoft. Companies that beat estimates year after year probably are involved in earnings
+management and are moving earnings across time periods. As growth levels off, this practice can catch up
+with them.
+Does a substantial proportion of the revenues come from subsidiaries or related holdings? While the sales
+may be legitimate, the prices set may allow the firm to move earnings from one unit to the other and give a
+misleading view of true earnings at the firm.
+Are accounting rules for valuing inventory or depreciation changed frequently?
+Are acquisitions followed by miraculous increases in earnings? It is difficult to succeed with an acquisition
+strategy in the long term. A firm that claims instant success from such as strategy requires scrutiny.
+Is working capital ballooning out as revenues and earning surge? This can sometimes let us pinpoint those
+firms that generate revenues by lending to their own customers.
+None of these factors, by themselves, suggest that we distrust earnings for these firms, but combinations of the factors can
+be viewed as a warning signal that the earnings statement needs to be held up to higher scrutiny.

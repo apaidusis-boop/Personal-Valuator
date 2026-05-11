@@ -1,0 +1,257 @@
+# Curated channel list for design research ingestion.
+# Phase LL Sprint 4 (post-AI-slop critique). Used by yt_ingest_batch --channel-last.
+#
+# Scope: financial dashboard / data-viz / editorial UI / motion / typography / CSS craft.
+# Strictly NOT: how-to-Figma-clicking, "5 best portfolio templates", logo/branding,
+# generic startup design vlogs.
+#
+# Validation date: 2026-05-08 (curl + RSS).
+# Each channel_id confirmed via `curl https://www.youtube.com/@<handle>` and matched
+# against the channel feed (https://www.youtube.com/feeds/videos.xml?channel_id=<UC...>).
+#
+# Cadence options:
+#   weekly     — 1+ uploads/week of relevant content
+#   monthly    — burst-publish (e.g. conference season) or 2-4 uploads/month
+#   quarterly  — major drops only (annual conf + occasional)
+#   on-demand  — pull only when a specific topic search needs it
+#
+# skill_target options:
+#   design.scout        — Helena scout queue (taste, principles, editorial voice)
+#   design.dashboard    — financial / data-dense UI patterns
+#   design.dataviz      — chart-craft, visual journalism, dataviz literacy
+#   design.motion       — micro-interactions, scroll, animation
+#   design.typography   — type pairing, hierarchy, editorial type
+#   design.css          — modern CSS craft (cascade, container queries, scroll-driven)
+#   design.systems      — design system / token / component library patterns
+
+channels:
+
+  # ════════════════════════════════════════════════════════════════
+  # Tier S — primary signal (financial dashboards + editorial)
+  # ════════════════════════════════════════════════════════════════
+
+  - handle: "@MalewiczHype"
+    channel_id: UC_Dq0oUEi7uXhdUX8prunbw
+    name: "Malewicz"
+    cadence: weekly
+    skill_target: design.dashboard
+    why: >
+      Michal Malewicz coined glassmorphism + neumorphism. Channel pivoted
+      hard into AI-vs-design + dashboard breakdowns 2024-26. He has a
+      dedicated essay "The End of Dashboards and Design Systems" — exactly
+      the contrarian voice we need against generic admin-table UI.
+      ~120k subs, weekly cadence, opinionated.
+    last_validated: 2026-05-08
+
+  - handle: "@figma"
+    channel_id: UCQsVmhSa4X-G3lHlUtejzLA
+    name: "Figma"
+    cadence: monthly
+    skill_target: design.scout
+    why: >
+      Config talks (annual June + recordings drop daily during conf week).
+      Speakers include 3Blue1Brown, Zach Lieberman, Holly Herndon — design
+      taste at scale. ~370k subs. Cadence is bursty (Config season +
+      occasional product talks); poll monthly, expect spike in late June.
+    last_validated: 2026-05-08
+
+  - handle: "@FinancialTimes"
+    channel_id: UCoUxsWakJucWg46KW5RsvPw
+    name: "Financial Times"
+    cadence: weekly
+    skill_target: design.dataviz
+    why: >
+      FT Visual Journalism team is canonical for financial data viz
+      (Visual Vocabulary PDF, John Burn-Murdoch chart-doctor work).
+      YouTube long-form videos average 6-7min watch time and lean into
+      chart-led storytelling. Already in youtube_sources.yaml for news/
+      analysis — here we tag it for design.dataviz so the design scout
+      pulls graphics-heavy explainers, not policy commentary.
+    last_validated: 2026-05-08
+    notes: >
+      Overlap with config/youtube_sources.yaml (tag news/analysis). Two
+      different consumers: yt_poll (news digest) vs design scout (chart
+      craft). Same ingest, different classification downstream.
+
+  - handle: "@VercelHQ"
+    channel_id: UCLq8gNoee7oXM7MvTdjyQvA
+    name: "Vercel"
+    cadence: monthly
+    skill_target: design.systems
+    why: >
+      Vercel Ship + WWW Conf talks. Sets the tone for modern frontend
+      product UI (Geist design system, dashboards, command palettes).
+      Vercel Ship 26 in June will drop a tranche of relevant talks.
+      Cadence is conference-bursty, not weekly.
+    last_validated: 2026-05-08
+
+  - handle: "@tailwindlabs"
+    channel_id: UCOe-8z68tgw9ioqVvYM4ddQ
+    name: "Tailwind Labs"
+    cadence: monthly
+    skill_target: design.systems
+    why: >
+      Adam Wathan + Steve Schoger team. Co-authors of Refactoring UI —
+      the bible against the exact "AI-slop generic table" failure mode
+      the user just called out. Catalyst UI kit drops + Tailwind v4
+      release walkthroughs are gold for component patterns.
+    last_validated: 2026-05-08
+
+  # ════════════════════════════════════════════════════════════════
+  # Tier A — high signal on craft (typography, motion, CSS)
+  # ════════════════════════════════════════════════════════════════
+
+  - handle: "@KevinPowell"
+    channel_id: UCJZv4d5rbIKd4QHMPkcABCw
+    name: "Kevin Powell"
+    cadence: weekly
+    skill_target: design.css
+    why: >
+      "King of CSS." Weekly upload, ~900k subs. Strong on layout, fluid
+      type, modern CSS patterns. Filters out: he leans tutorial over
+      dashboard, but the layout patterns translate directly to dense UI.
+    last_validated: 2026-05-08
+
+  - handle: "@bramus"
+    channel_id: UCKpCGm0TeW0aAbejJ3EXEZA
+    name: "Bramus"
+    cadence: monthly
+    skill_target: design.css
+    why: >
+      Bramus Van Damme — Chrome DevRel for CSS + Web UI, CSS Working
+      Group member. Source of truth for scroll-driven animations, view
+      transitions, container queries, cascade layers. Critical for
+      adding motion polish without bloat (Recharts default = the slop).
+    last_validated: 2026-05-08
+    notes: >
+      He has two channels — @bramus (UCKpCGm0...) is the active one,
+      not "Bramus Van Damme" (UCFqR2Y...) which is older/personal.
+
+  - handle: "@SmashingMagazine"
+    channel_id: UCSDtqcJ8ZXviPrEcj1vuLiQ
+    name: "Smashing Magazine"
+    cadence: monthly
+    skill_target: design.scout
+    why: >
+      Smashing Conf talks + workshops. Strongly editorial-focused
+      (their own "Web Design Done Well: Excellent Editorial" series).
+      Vitaly Friedman pulls in serious craft speakers. Burst cadence
+      around their three annual confs.
+    last_validated: 2026-05-08
+
+  # ════════════════════════════════════════════════════════════════
+  # Tier B — data viz literacy + product UI signal
+  # ════════════════════════════════════════════════════════════════
+
+  - handle: "@ThePudding"
+    channel_id: UCFuV9vMFVluW9CAOdS4Oluw
+    name: "The Pudding"
+    cadence: quarterly
+    skill_target: design.dataviz
+    why: >
+      Visual essays — gold standard for data-led narrative. Output is
+      web-first (pudding.cool); YT drops lower-frequency video versions
+      of essays. Quarterly poll is fine: when an essay does land on YT
+      it's worth ingesting.
+    last_validated: 2026-05-08
+
+  - handle: "@storytellingwithdata"
+    channel_id: UCjhGlILWNloXJdR2NTCBMlA
+    name: "Storytelling with Data"
+    cadence: monthly
+    skill_target: design.dataviz
+    why: >
+      Cole Knaflic. Practical chart hygiene: when to use what, declutter
+      principles, narrative framing. Direct counter-medicine to Recharts
+      defaults. Channel is podcast-led, but episodes carry takeaways
+      Helena scout can lift into design tokens.
+    last_validated: 2026-05-08
+
+  - handle: "@observablehq"
+    channel_id: UCCD2tAKN32ya7V639gkbWhg
+    name: "Observable"
+    cadence: monthly
+    skill_target: design.dataviz
+    why: >
+      Observable + D3 team. Dataviz at the JS-library substrate. Useful
+      when we need a custom chart type beyond what Recharts ships
+      (e.g. bump charts, slope graphs, sparkline grids). Observable
+      Plot tutorials are short and actionable.
+    last_validated: 2026-05-08
+
+  - handle: "@linear"
+    channel_id: UCWivgq8xSp7QcXVyPHml-Aw
+    name: "Linear"
+    cadence: quarterly
+    skill_target: design.dashboard
+    why: >
+      Linear ships product walkthroughs that double as tutorials in
+      restraint — keyboard-first, command-palette-driven, calm
+      density. Cadence is sparse (a few major drops/year tied to
+      product launches) but each one moves the bar on what dense
+      product UI can look like without becoming an admin panel.
+    last_validated: 2026-05-08
+
+
+# ════════════════════════════════════════════════════════════════
+# REJECTED candidates (don't re-suggest)
+# ════════════════════════════════════════════════════════════════
+#
+# @adamwathan (UCy1H38XrN7hi7wHSClfXPqQ) — personal channel mostly
+#   stream archives + side projects. Active design content lives at
+#   Tailwind Labs (already included). Don't double-count.
+#
+# Refactoring UI — book + paid course, no dedicated YouTube channel.
+#   Steve Schoger's CSS Day 2019 talk is a one-off; covered indirectly
+#   by Tailwind Labs.
+#
+# @AaronIker — primary platforms are Dribbble + CodePen. No active
+#   YouTube channel found. Skip; pull his Codepen via different scout.
+#
+# @JoeyTaeVisuals / @SajonOfficial / @MickaelRicciotti — could not
+#   validate activity / topic match in 2025-26. Re-evaluate if user
+#   surfaces a specific reason.
+#
+# @uxtools (UCYtJBl-oN9R3kUOerUeHFzA) — Taylor Palmer + co. Strong
+#   newsletter + tool surveys, but YT is sparse (last meaningful
+#   upload mid-2024). Subscribe via newsletter, skip YT ingest.
+#
+# @DesignCourse (UCVyRiMvfUNMA1UPlDPzG5Ow) — Gary Simon. Active and
+#   large (~1M subs), but content is heavily Figma-clicking tutorials
+#   + AI tool reaction videos, not editorial taste. Exactly the
+#   "5-design-tips listicle" failure mode the user excluded.
+#
+# @TheDesignership / Mizko — large channel but 80% beginner UI/UX
+#   tutorials, low editorial signal. Skip per user filter.
+#
+# @TheStudio (Steve Schoger personal) — defunct; activity moved to
+#   Tailwind Labs.
+#
+# DesignBetter (InVision) — defunct since InVision shutdown 2024.
+#
+# @flowingdata — Nathan Yau. No active YouTube channel; signal is
+#   blog (flowingdata.com) + book. Pull via RSS scout instead.
+#
+# @TheFunctionalArt (Alberto Cairo) — no dedicated YT channel; talks
+#   are scattered across NICAR / OpenVis Conf channels. Skip until
+#   we add a "talks aggregator" mode.
+#
+# @practicaltypography (Matthew Butterick) — book-only, no YouTube.
+#
+# @femkedesign (Femke van Schoonhoven) — career advice + portfolio,
+#   not editorial UI craft. Off-target.
+#
+# @MalewiczDiana — overlaps with @MalewiczHype; same household,
+#   single ingest is enough.
+#
+# Bloomberg Originals / Bloomberg Quicktake — strong data graphics
+#   but format is documentary news, not design instruction. Indirect
+#   signal is better captured via FT (already included).
+#
+# NYT main + NYT Events — no engineering/design YT channel exists;
+#   editorial graphics work is published to nytimes.com only. The NYT
+#   Open team writes on Medium, not YouTube. Skip.
+#
+# @stripedevelopers — Stripe Sessions has occasional design talks
+#   (Jony Ive fireside) but cadence is annual + buried in mostly-API
+#   content. Watch the playlist on-demand, don't auto-ingest.

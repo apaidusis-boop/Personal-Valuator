@@ -1,0 +1,23 @@
+de a lower bound on the value in most
+cases. To provide a frame of reference, we will present the values that we would have obtained using
+a binomial model in each case.
+From Black-Scholes to Binomial
+
+It is a fairly simple exercise to convert the inputs to the Black-Scholes model into a binomial model.
+To make the adjustment, you have to assume a multiplicative binomial process, where the magnitude
+of the jumps, in percent terms, remains unchanged from period to period. If you assume symmetric
+probabilities, the up (u) and down (d) movements can be estimated as a function of the annualized
+variance in the price process and how many periods you decide to break each year into (t).
+where dt = 1/Number of periods each year
+To illustrate, consider the project delay option valued in Illustration 28.1. The standard deviation in
+the value was assumed to be 42 percent, the risk-free rate was 5%, and the dividend yield was 20
+percent. To convert the inputs into a binomial model, assume that each year is a time period and
+estimate the up and down movements as follows:
+The value today is $33.5 million. To estimate the end values for the first branch:
+You could use these values then to get the three potential values at the second branch. Note that the
+value of $17.345 million growing at 19.94 percent is exactly equal to the value of $40.179 million
+dropping by 48.22 percent. The binomial tree for the five periods is shown in 
+Figure 28.2
+.
+Figure 28.2
+ Binomial Tree for Delay Option

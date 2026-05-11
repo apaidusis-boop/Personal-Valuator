@@ -1,0 +1,21 @@
+iods
+seems, in our view, to overwhelm any advantages associated with getting a more updated
+premium.
+2.
+
+Choice of risk-free security.
+ The Ibbotson database reports returns on both Treasury bills (T-
+
+bills) and Treasury bonds (T-bonds), and the risk premium for stocks can be estimated relative to
+each. Given that the yield curve in the United States has been upward-sloping for most of the past
+seven decades, the risk premium is larger when estimated relative to shorter-term government
+securities (such as Treasury bills). 
+The risk-free rate chosen in computing the premium has to
+be consistent with the risk-free rate used to compute expected returns
+. Thus, if the Treasury bill
+rate is used as the risk-free rate, the premium has to be the premium earned by stocks over that
+rate. If the Treasury bond rate is used as the risk-free rate, the premium has to be estimated
+relative to that rate. For the most part, in corporate finance and valuation, the risk-free rate will be
+a long-term default-free Treasury (government) bond rate and not a Treasury bill rate. Thus, the
+risk premium used should be the premium earned by stocks over Treasury bonds.
+3.

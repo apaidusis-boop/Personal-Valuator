@@ -1,0 +1,13 @@
+systems for commercial, industrial, and institutional clients across the United States. Revenue in 2025 reached $9.1 billion, up nearly 30% from the year prior. Earnings surged 96% in the same period.
+
+The company operates in two segments — Mechanical and Electrical — and has increasingly leaned into modular, off-site construction, with modular revenue now representing roughly 18% of total sales. It serves data centers, semiconductor fabs, healthcare facilities, and manufacturing plants: exactly the industries pouring capital into physical infrastructure.
+
+### The AI Tailwind Nobody Talked About
+
+Here is the central irony that defines FIX's investment thesis: the more powerful AI becomes, the more Comfort Systems benefits. Every large language model, every AI inference cluster, every hyperscale data center requires massive amounts of cooling infrastructure, high-density power systems, and precision climate control. These are not optional upgrades. They are physical prerequisites. Without them, the servers overheat and fail.
+
+AI systems generate extraordinary amounts of heat. The shift toward high-density GPU compute has made thermal management one of the most demanding engineering challenges in modern construction. Comfort Systems is one of a small number of companies with the workforce, technical expertise, and modular fabrication capability to deliver these systems at scale — and its $9.4 billion backlog as of Q3 2025 reflects the depth of that demand. Backlog has grown roughly 34% over two years, with technology and manufacturing clients driving the bulk of new awards.
+
+In its Q4 2025 earnings report, the company posted EPS of $9.37 against analyst expectations of $6.77 — a beat of nearly 40%. The electrical segment, which handles data center power infrastructure, has been particularly explosive, with revenue climbing 71% year over year at peak.
+
+### Why We Think AI Cannot Disrupt This Business

@@ -1,0 +1,37 @@
+g creation. This evidence is consistent with market overreaction
+and correction in long return intervals.
+Figure 6.3
+ Excess Returns for Winner and Loser Portfolios
+Source:
+ DeBondt and Thaler (1985).
+
+There are many academics as well as practitioner, who suggest that these findings may be
+interesting but that they overstate potential returns on loser portfolios. For instance, there is evidence
+that loser portfolios are more likely to contain low-priced stocks (selling for less than $5), which
+generate higher transactions costs and are also more likely to offer heavily skewed returns; that is, the
+excess returns come from a few stocks making phenomenal returns rather than from consistent
+performance. One study of the winner and loser portfolios attributes the bulk of the excess returns of
+loser portfolios to low-priced stocks and also finds that the results are sensitive to when the
+portfolios are created. Loser portfolios created every December earn significantly higher returns than
+portfolios created every June.
+Speculative Bubbles, Crashes, and Panics
+Historians who have examined the behavior of financial markets over time have challenged the
+assumption of rationality that underlies much of efficient market theory. They point to the frequency
+with which speculative bubbles have formed in financial markets as investors buy into fads or get-
+rich-quick schemes, and the crashes when these bubbles have ended, and suggest that there is nothing
+to prevent the recurrence of this phenomenon in today’s financial markets. There is some evidence in
+the literature of irrationality on the part of market players.
+Experimental Studies of Rationality
+Some of the most interesting evidence on market efficiency and rationality in recent years has come
+from experimental studies. While most experimental studies suggest that traders are rational, there are
+some examples of irrational behavior in some of these studies.
+One such study was done at the University of Arizona. In an experimental study, traders were told
+that a payout would be declared after each trading day, determined randomly from four possibilities
+—0, 8, 28, or 60 cents. The average payout was 24 cents. Thus the share’s expected value on the first
+trading day of a 15-day experiment was $3.60 (24 cents times 15), the second day was $3.36, and so
+on. The traders were allowed to trade each day. The results of 60 such experiments are summarized
+in 
+Figure 6.4
+.
+Figure 6.4
+ Trading Price by Trading Day

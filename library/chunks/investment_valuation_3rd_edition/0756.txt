@@ -1,0 +1,63 @@
+economic reasons.
+Table 25.1
+ summarizes the typical target firm, given the motive for the takeover.
+Table 25.1
+ Target Firm Characteristics Given Acquisition Motive
+If Motive Is
+Then the Target Firm
+
+Undervaluation
+Trades at a price below the estimated value.
+Diversification
+Is in a business different from the acquiring firm's business.
+Operating synergy
+Has the characteristics that create the operating synergy. 
+Cost savings:
+ In same business to create economies of scale. 
+Higher growth:
+ Has potential to open up new markets or expand existing ones.
+Financial synergy
+Has the characteristics that create financial synergy. 
+Tax savings:
+ Provides a tax benefit to acquirer. 
+Debt capacity:
+ Is unable to borrow money or pay high interest rates. 
+Cash slack:
+ Has great projects/capital constraints.
+Control
+Is a badly managed firm whose stock has underperformed the market.
+Manager's interests
+Has characteristics that best meet CEO's ego and power needs.
+Source: Corporate Finance: Theory and Practice
+, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley & Sons, Inc. This material is used by
+permission of John Wiley & Sons, Inc.
+There are two final points worth making here before moving on to valuation. The first is that firms
+often choose a target firm and a motive for the acquisition simultaneously, rather than sequentially.
+That does not change any of the analysis in these sections. The other point is that firms often have
+more than one motive in an acquisition—say, control and synergy. If this is the case, the search for a
+target firm should be guided by the dominant motive.
+Valuing the Target Firm
+The valuation of an acquisition is not fundamentally different from the valuation of any firm, although
+the existence of control and synergy premiums introduces some complexity into the valuation process.
+Given the interrelationship between synergy and control, the safest way to value a target firm is in
+steps, starting with a status quo valuation of the firm, and following up with a value for control and a
+value for synergy.
+Status Quo Valuation
+The valuation of the target firm starts by estimating the firm value with existing investing, financing,
+and dividend policies. This valuation, termed the status quo valuation, provides a base from which
+control and synergy premiums can be estimated. All of the basic principles presented in the earlier
+chapters on valuation continue to apply here. In particular, the value of the firm is a function of its
+cash flows from existing assets, the expected growth in these cash flows during a high-growth period,
+the length of the high-growth period, and the firm's cost of capital.
+ILLUSTRATION 25.1: A Status Quo Valuation of Digital
+Equipment Corporation
+In 1997, Digital Equipment, a leading manufacturer of mainframe computers, was the target of an acquisition bid by Compaq,
+which was at that time the leading personal computer manufacturer in the world. The acquisition was partly motivated by the
+belief that Digital was a poorly managed firm and that Compaq would be a much better manager of Digital's assets. In
+addition, Compaq expected synergies in the form of both cost savings (from economies of scale) and higher growth (from
+Compaq selling to Digital's customers).
+To analyze the acquisition, we begin with a status quo valuation of Digital. At the time of the acquisition, Digital had the
+following characteristics:
+Digital had earnings before interest and taxes of $391.38 million in 1997, which translated into a pretax
+operating margin of 3% on revenues of $13,046 million and an after-tax return on capital of 8.51%; the firm
+had a tax rate of 36%.

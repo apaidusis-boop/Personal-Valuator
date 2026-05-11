@@ -1,0 +1,33 @@
+y used measure of this potential for cash problems is the cash burn ratio, which is the ratio of
+the cash balance to the absolute value of EBITDA (which is usually a negative number). Firms with a low
+
+cash burn ratio are at higher risk of running into a cash crunch and should trade at lower multiples of
+revenues.
+Revenue growth is a key determinant of value at these firms. Firms that have faster growing revenues are
+likely to reach profitability sooner, other things remaining equal.
+The following regression relates price-to-sales ratios to the level of revenues [ln(Revenues)], the cash burn ratio (absolute
+value of Cash/EBITDA) and revenue growth over the past year for Internet firms:
+The regression has 117 observations and an R-squared of 13.83%. The coefficients all have the right signs, but are of
+marginal statistical significance. You could obtain a predicted price-to-sales ratio for Amazon.com in July 2000 using this
+regression:
+At its actual price-to-sales ratio of 6.69, Amazon looks significantly undervalued relative to other Internet firms.
+In any case, the regressions are much too noisy to attach much weight to the predictions. In fact, the low explanatory power
+with fundamentals and the huge differences in measures of relative value should sound a note of caution on the use of
+multiples in sectors such as this one, where firms are in transition and changing dramatically from period to period.
+ILLUSTRATION 20.13: Price to Sales and Net Margins:
+Whole Foods and the Grocery Sector over Time
+If the essence of finding cheap stocks in relative valuation is spotting mismatches, making money from these stocks is
+possible only if the mismatches get corrected over time. Put differently, you can buy a stock with high margins that trades at
+a low multiple of revenues, but you need the revenue multiple to increase to match the high margins to make money on the
+stock.
+To provide an illustration of the process, we will track Whole Foods from January 2007 through May 2011. We will begin by
+plotting Whole Foods in January 2007 in 
+Figure 20.6
+, relative to the rest of the companies in the grocery sector; the
+regression line for price-to-sales ratio is also shown on the graph, with 90% confidence intervals. As the scatter plot of price
+to sales against net margins for the sector reveals, Whole Foods stood out with the highest price-to-sales ratio (1.40) and the
+second highest net margin (3.41%) in the sector.
+Figure 20.6
+ Price-to-Sales Ratios and Net Margins: Grocery Sector in January 2007
+To see if the higher margin earned by Whole Foods should justify a price to sales ratio of 1.41, we regressed the price-to-
+sales ratio against net margins for the sector:

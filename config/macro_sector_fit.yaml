@@ -1,0 +1,192 @@
+# macro_sector_fit.yaml
+# Per-sector × per-regime action adjustment rules. Phase LL.2.
+#
+# When `analytics.regime` classifies the market in a phase, this map tells
+# `scoring/fair_value.py::_check_macro_overlay()` how to adjust the action:
+#
+#   downgrade  : STRONG_BUY → BUY → HOLD (one step less aggressive)
+#   reinforce  : log only — no action change (used when regime aligns
+#                with sector, dossier explanation only)
+#   hard_hold  : force HOLD regardless of price (e.g. cyclical at cycle peak)
+#   no_change  : nothing to do for this combo
+#
+# Regimes from analytics.regime: expansion / late_cycle / recession / recovery
+#
+# Philosophy:
+#   - Cyclicals (mining/oil/materials/auto): late_cycle = peak earnings,
+#     valuations already discount future drop → don't add even if Graham screen
+#     screams BUY. Recession = bottom-fishing acceptable.
+#   - Defensives (staples/health/utilities): less regime-sensitive; flight to
+#     quality reinforces them in late_cycle/recession.
+#   - Banks: NIM-positive in expansion/late_cycle; NPL-risk in recession.
+#   - Tech/Growth: rate-sensitive — late_cycle hurts.
+#   - REITs/FIIs Tijolo: rate-cut beneficiaries — recovery upgrade.
+#   - FIIs Papel (CRI): CDI-floored, neutral most regimes; slight downgrade
+#     in recovery as CDI drops.
+#
+# When this file is empty / sector unknown / regime unknown → no gate applied.
+
+br:
+  Mining:
+    expansion: no_change
+    late_cycle: hard_hold      # iron ore peak, capex peak — VALE3 case
+    recession: no_change
+    recovery: no_change
+  "Oil & Gas":
+    expansion: no_change
+    late_cycle: hard_hold      # oil at cycle peak — PRIO3 case
+    recession: no_change
+    recovery: no_change
+  Materials:
+    expansion: no_change
+    late_cycle: downgrade
+    recession: no_change
+    recovery: no_change
+  "Consumer Staples":
+    expansion: no_change
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Healthcare:
+    expansion: no_change
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Utilities:
+    expansion: no_change
+    late_cycle: reinforce       # CPL/SBSP defensive
+    recession: reinforce
+    recovery: no_change
+  Banks:
+    expansion: no_change         # NIM expanding = good
+    late_cycle: no_change
+    recession: downgrade         # NPL spike risk
+    recovery: no_change
+  Industrials:
+    expansion: no_change
+    late_cycle: downgrade        # industrial cycle late
+    recession: no_change
+    recovery: reinforce          # industrials lead recovery
+  Technology:
+    expansion: no_change
+    late_cycle: downgrade        # rate-sensitive
+    recession: no_change
+    recovery: no_change
+  Telecom:
+    expansion: no_change
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Holding:                       # ITSA4
+    expansion: no_change
+    late_cycle: no_change
+    recession: downgrade         # complex consolidations risky
+    recovery: no_change
+  # FIIs
+  Tijolo:
+    expansion: no_change
+    late_cycle: no_change
+    recession: no_change
+    recovery: reinforce          # rate-cut beneficiaries
+  "Logística":
+    expansion: no_change
+    late_cycle: no_change
+    recession: no_change
+    recovery: reinforce
+  Shopping:
+    expansion: no_change
+    late_cycle: downgrade        # consumer discretionary tied
+    recession: downgrade
+    recovery: reinforce
+  "Híbrido":
+    expansion: no_change
+    late_cycle: no_change
+    recession: no_change
+    recovery: reinforce
+  Corporativo:
+    expansion: no_change
+    late_cycle: no_change
+    recession: downgrade         # corporate vacancy
+    recovery: reinforce
+  "Papel (CRI)":
+    expansion: no_change
+    late_cycle: no_change         # CDI floor = solid
+    recession: downgrade          # default risk
+    recovery: downgrade           # CDI falling = lower yields
+  "Real Estate":
+    expansion: no_change
+    late_cycle: no_change
+    recession: no_change
+    recovery: reinforce
+
+us:
+  Mining:
+    expansion: no_change
+    late_cycle: hard_hold
+    recession: no_change
+    recovery: no_change
+  Energy:
+    expansion: no_change
+    late_cycle: hard_hold        # TEN-style cycle peak — already covered by Altman
+    recession: no_change
+    recovery: no_change
+  Materials:
+    expansion: no_change
+    late_cycle: downgrade
+    recession: no_change
+    recovery: no_change
+  "Consumer Staples":
+    expansion: no_change          # KO, PG
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Healthcare:
+    expansion: no_change          # JNJ
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Utilities:
+    expansion: no_change
+    late_cycle: reinforce
+    recession: reinforce
+    recovery: no_change
+  Banks:
+    expansion: no_change          # JPM, GS
+    late_cycle: no_change
+    recession: downgrade
+    recovery: no_change
+  Financials:                     # BLK
+    expansion: no_change
+    late_cycle: no_change
+    recession: downgrade
+    recovery: no_change
+  Industrials:                    # HD borderline
+    expansion: no_change
+    late_cycle: downgrade
+    recession: no_change
+    recovery: reinforce
+  Technology:                     # AAPL, TSLA, TSM
+    expansion: no_change
+    late_cycle: downgrade         # rate-sensitive Mag7
+    recession: no_change
+    recovery: no_change
+  Communication:
+    expansion: no_change
+    late_cycle: downgrade
+    recession: no_change
+    recovery: no_change
+  "Consumer Disc.":
+    expansion: no_change
+    late_cycle: downgrade
+    recession: downgrade
+    recovery: reinforce
+  Holding:                        # BN, BRK-B
+    expansion: no_change
+    late_cycle: no_change
+    recession: downgrade
+    recovery: no_change
+  REIT:                           # O, PLD
+    expansion: no_change
+    late_cycle: no_change
+    recession: no_change
+    recovery: reinforce           # rate-cut beneficiaries

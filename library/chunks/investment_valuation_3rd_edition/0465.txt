@@ -1,0 +1,42 @@
+n 16.1, where the cash is invested at the riskless rate of 4.5%. Normally, we
+would expect this firm to trade at a total value of $1,400 million. Assume, however, that the managers of this firm have a
+
+history of poor acquisitions and that the presence of a large cash balance increases the probability from 0% to 30% that they
+will try to acquire another firm. Further, assume that the market anticipates that they will overpay by $50 million on this
+acquisition. The cash will then be valued at $185 million, with the discount estimated as follows:
+The firm will therefore be valued at $1,385 million instead of $1,400 million. The two factors that determine this discount—
+the incremental likelihood of a poor investment and the expected net present value of the investment—are likely to be based
+on investors’ assessments of management quality.
+Cash Held in Foreign Markets
+As U.S. companies globalized, they also generate a significant portion of their income in foreign
+markets, many with much lower corporate tax rates. This income is generally not taxed until it is
+repatriated to the United States, at which point companies have to pay the differential tax rate
+(between the U.S. corporate and the foreign corporate rates). Not surprisingly, many companies have
+chosen to let cash accumulate in foreign markets and subsidiaries, trying to delay and, in some cases,
+avoid the tax impact. 
+This cash is referenced to as trapped cash and amounted to more than $20
+billion at companies like Cisco in 2011. The conservative approach to valuing this trapped cash is to
+assume that you will have to pay the differential tax rate on repatriation and compute the value net of
+this tax. Thus, if a company has $20 billion n trapped cash, where you estimate that repatriation will
+require the payment of 20% in differential taxes, the value of the cash is only $16 billion.
+We face two practical problems in making this adjustment. The first is that companies are not
+transparent about how much of the cash balance that they show in their financial statements is tied up
+in foreign subsidiaries or markets. The second is that the tax effect of repatriating this cash may be
+clear in the very short term, but not so clear in the long term 
+because (1) U.S. tax rates may change
+over time and (2) there is a chance that Congress may allow for a tax holiday, companies are given a
+one-time reprieve and allowed to bring the cash back without paying taxes or paying a much lower
+rate.
+Investments in Risky Securities
+So far this chapter has looked at how to value cash and near-cash investments. In some cases, firms
+invest in risky securities, which can range from investment-grade bonds to high-yield bonds to
+publicly traded equity in other firms. This section examines the motivation, consequences, and
+accounting for such investments.
+Reasons for Holding Risky Securities
+Why do firms invest in risky securities issued by other firms? Some do so for the allure of the higher
+returns they can expect to make investing in stocks and corporate bonds, relative to Treasury bills 
+and
+commercial paper. In recent years, there has also been a trend for firms (especially technology) to
+take equity positions in other firms to further their strategic interests. Still other firms take equity
+positions in firms they view as undervalued by the market; and finally, investing in risky securities is
+part of doing business for banks, insurance companies, and other financial service companies.

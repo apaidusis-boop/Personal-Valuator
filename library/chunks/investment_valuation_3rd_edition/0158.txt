@@ -1,0 +1,31 @@
+Figure 6.16
+,
+which graphs returns by days of the week from 1962 to 1978 [Gibbons and Hess (1981)].
+Figure 6.16
+ Average Daily Returns by Day of the Week, 1962–1978
+Source:
+ Gibbons and Hess (1981).
+
+The returns on Mondays are significantly negative, whereas the returns on every other day of the
+trading week are not. There are a number of other findings on the Monday effect that have fleshed this
+out. First, the Monday effect is really a weekend effect since the bulk of the negative returns is
+manifested in the Friday close to Monday open returns. The intraday returns on Monday are not the
+culprits in creating the negative returns. Second, the Monday effect is worse for small stocks than for
+larger stocks. Third, the Monday effect is no worse following three-day weekends than following
+two-day weekends.
+There are some who have argued that the weekend effect is the result of bad news being revealed
+after the close of trading on Friday and during the weekend. They point to 
+Figure 6.7
+, which reveals
+that more negative earnings reports are revealed after close of trading on Friday. Even if this were a
+widespread phenomenon, the return behavior would be inconsistent with a rational market, since
+rational investors would build the expectation of the bad news over the weekend into the price before
+the weekend, leading to an elimination of the weekend effect.
+The weekend effect is fairly strong in most major international markets, as shown in 
+Figure 6.17
+.
+The presence of a strong weekend effect in Japan, which allowed Saturday trading for a portion of the
+period studied here, indicates that there might be a more direct reason for negative returns on
+Mondays than bad information over the weekend.
+Figure 6.17
+ Weekend Effect in International Markets

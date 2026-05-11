@@ -1,0 +1,22 @@
+ls in a single location. This centralization makes it easier for algorithms to analyze your information and respond to market conditions.
+
+Robo-advisors are based on algorithms that do the following:3
+
+- Match portfolios to your risk tolerance and goal
+- Rebalance your asset mix when it drifts
+- Harvest tax losses in taxable accounts
+- Simulate potential outcomes
+
+Some robo-advisors use advanced techniques such as the [Black-Litterman model](https://www.investopedia.com/terms/b/black-litterman_model.asp) to optimize expected returns and employ machine learning to engage in tax-loss harvesting (offsetting taxable gains with losses in a given year) and risk analysis.4
+
+As soon as a decision is made, the system automatically executes it. This is where integrations come in. Application programming interfaces, better known as APIs, integrate robo-advisors with brokerage platforms, custodians, and data providers. Messaging systems such as Kafka transfer instructions in real time or in batches at a scheduled time.5 This means that a single system can handle portfolios of thousands of users without missing a beat.
+
+Robo-advisors should be ensuring the security of your data with the following:
+
+- End-to-end encryption
+- Two-factor authentication
+- Real-time threat detection
+
+These platforms also operate under the oversight of the Securities and Exchange Commission (SEC) and the Financial Industry Regulatory Authority (FINRA), and are required to document, audit, and disclose how they manage your money.67
+
+Although the backend is very technical, the user interface should include a dashboard that makes it easy to see the value of your accounts, your progress toward your goals, and the performance of your investments.

@@ -1,0 +1,44 @@
+ncy, there is a way out. You could do a conventional valuation using market
+value weights for debt and equity, but then use the estimated values of debt and equity from the valuation to reestimate the
+
+cost of capital. This, of course, will change the values again, but you could feed the new values back and estimate cost of
+capital again. Each time you do this, the differences between the values you use for the weights and the values you estimate
+will narrow, and the values will converge sooner rather than later.
+  How much of a difference will it make in your ultimate value? The greater the difference between market value and your
+estimates of value, the greater the difference this iterative process will make. In the valuation of Telesp, we began with a
+market value of 21,982 million BR and estimated a value of 21,939 million BR. If we substituted back this estimated value
+and iterated to a solution, we would arrive at an estimate of value of 21,946 million BR.
+3
+If the firm reaches steady state after n years and starts growing at a stable growth rate g
+n
+ after that, the
+value of the firm can be written as:
+where WACC = Cost of capital (hg: high growth; st: stable growth)
+Firms Model Best Suited For
+Firms that either have very high or very low leverage or are in the process of changing their leverage
+are best valued using the FCFF approach. The calculation of FCFE is much more difficult in these
+cases because of the volatility induced by debt payments (or new issues), and the value of equity,
+which can a small slice of the total value of the firm for highly levered firms, is more sensitive to
+assumptions about growth and risk. It is worth noting, though, that in theory the two approaches
+should yield the same value for the equity. Getting them to agree in practice is an entirely different
+challenge and we will return to examine it later in this chapter.
+Problems
+There are three problems that we see with the free cash flow to the firm model. The first is that the
+free cash flows to equity are a much more intuitive measure of cash flows than cash flows to the firm.
+When asked to estimate cash flows, most of us look at cash flows after debt payments (free cash
+flows to equity), because we tend to think like business owners and consider interest payments and
+the repayment of debt as cash outflows. Furthermore, the free cash flow to equity is a real cash flow
+that can be traced and analyzed in a firm. The free cash flow to the firm is the answer to a
+hypothetical question: What would this firm's cash flow be if it had no debt (and associated
+payments)?
+The second is that its focus on predebt cash flows can sometimes blind us to real problems with
+survival. To illustrate, assume that a firm has free cash flows to the firm of $100 million but that its
+large debt load makes its free cash flows to equity equal to –$50 million. This firm will have to raise
+$50 million in new equity to survive, and if it cannot, all cash flows beyond this point are put in
+jeopardy. Using free cash flows to equity would have alerted you to this problem, but free cash flows
+to the firm are unlikely to reflect this.
+The final problem is that the use of a debt ratio in the cost of capital to incorporate the effect of
+leverage requires us to make implicit assumptions that might not be feasible or reasonable. For
+instance, assuming that the market value debt ratio is 30 percent will require a growing firm to issue
+large amounts of debt in future years to reach that ratio. In the process, the book-to-debt ratio might
+reach stratospheric proportions and trigger covenants or other negative consequences. In fact, we

@@ -1,0 +1,35 @@
+nt
+Annual Cash Flow
+Type 1 diabetes only
+$500 million
+$300 million for 15 years
+Type 2 diabetes only
+$500 million
+$125 million for 15 years
+Type 1 and 2 diabetes
+$600 million
+$400 million for 15 years
+
+Assume that the cost of capital for the firm is 10%.
+We now have the information to draw the decision tree for this drug. We will first draw the tree in 
+Figure 33.2
+, specifying
+the phases, the cash flows at each phase, and the probabilities.
+The decision tree shows the probabilities of success at each phase and the additional cash flow or marginal cash flow
+associated with each step. Since it takes time to go through the phases, there is a time value effect that has to be built into
+the expected cash flows for each path. We introduce the time value effect and compute the cumulative present value
+(today) of cash flows from each path, using the 10% cost of capital as the discount rate, in 
+Figure 33.3
+.
+Figure 33.2
+ Decision Tree for Drug Development
+Figure 33.3
+ Present Value of Cash Flows at End Nodes: Drug Development Tree
+Note that the present values of the cash flows from development after the third phase get discounted back an additional
+seven years (to reflect the time it takes to get through three phases). In the last step in the process, we compute the
+expected values by working backwards through the tree and estimating the optimal action in each decision phase in 
+Figure
+33.4
+.
+Figure 33.4
+ Drug Decision Tree Folded Back

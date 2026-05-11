@@ -1,0 +1,28 @@
+er analysts can and should be incorporated into
+the estimation of expected future growth. There are four factors that determine the weight assigned to
+analyst forecasts in predicting future growth:
+1.
+
+Amount of recent firm-specific information.
+ Analyst forecasts have an advantage over
+historical data–based models because they incorporate more recent information about the firm and
+its future prospects. This advantage is likely to be greater for firms where there have been
+significant changes in management or business conditions in the recent past, for example, a
+restructuring or a shift in government policy relating to the firm's underlying business.
+2.
+
+Number of analysts following the stock.
+ Generally speaking, the larger the number of analysts
+following a stock, the more informative is their consensus forecast, and the greater should be the
+weight assigned to it in analysis. The informational gain from having more analysts is diminished
+somewhat by the well-established fact that most analysts do not act independently, resulting in a
+high correlation across analysts' revisions of expected earnings.
+3.
+
+Extent of disagreement between analysts.
+ While consensus earnings growth rates are useful in
+valuation, the extent of disagreement between analysts measured by the standard deviation in
+growth predictions is also a useful measure of the reliability of the consensus forecasts. Givoly
+and Lakonsihok (1984) found that the dispersion of earnings is correlated with other measures of
+risk such as beta and is a good predictor of expected returns.
+4.

@@ -1,0 +1,21 @@
+cash flows to the firm from 1980 to 1985. To obtain these estimates, we
+subtract the net capital expenditures and changes in working capital (which were provided) from the after-tax operating
+income.
+
+We follow up by estimating the cost of capital for the firm each year, based on our estimates of debt and equity each year.
+The value of debt for future years is estimated based on the repayment schedule, and it decreases over time. The value of
+equity in each of the future years is estimated by discounting the expected cash flows in equity beyond that year at the cost
+of equity. (This explains why the equity in 1980 is greater than the book value of equity.)
+An alternative approach to estimating equity that does not require iterations or circular reasoning is to use the book value of
+equity rather than the estimated market value in calculating debt-equity ratios.
+16
+The cash flows to the firm and the cost of capital in the terminal year (1985), in conjunction with the expected growth rate of
+8%,
+17
+ are used to estimate the terminal value of equity (at the end of 1984):
+The expected cash flows to the firm and the terminal value were discounted back to the present at the cost of capital to yield
+a present value of $820.21 million.
+18
+ Since the acquisition of Congoleum cost only $470.6 million, this acquisition creates
+value for the acquiring investors.
+merglbo.xls:

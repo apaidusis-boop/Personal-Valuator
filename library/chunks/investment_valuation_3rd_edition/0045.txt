@@ -1,0 +1,47 @@
+ated
+using historical costs
+ with accounting adjustments, rather than with expected future cash flows or
+market value. The process by which accountants measure the value of liabilities and equities is
+
+inextricably linked to the way they value assets. Since assets are primarily valued at historical cost or
+at book value, both debt and equity also get measured primarily at book value. The next section
+examines the accounting measurement of both liabilities and equity.
+Measuring the Value of Liabilities and Equities
+Accountants categorize liabilities into current liabilities, long-term debt, and long-term liabilities that
+are not debt or equity. Next, we will examine the way they measure each of these.
+Current Liabilities
+Under current liabilities are categorized all obligations that the firm has coming due in the next year.
+These generally include:
+Accounts payable
+, representing credit received from suppliers and other vendors to the
+firm. The value of accounts payable represents the amounts due to these creditors. For this
+item, book and market values should be similar.
+Short-term borrowing
+, representing short-term loans (due in less than a year) taken to
+finance the operations or current asset needs of the business. Here again, the value shown
+represents the amounts due on such loans, and the book and market values should be similar,
+unless the default risk of the firm has changed dramatically since it borrowed the money.
+Short-term portion of long-term borrowing
+, representing the portion of the long-term debt
+or bonds that is coming due in the next year. Here again, the value shown is the actual
+amount due on these loans, and market and book values should converge as the due date
+approaches.
+Other short-term liabilities
+, which is a catchall component for any other short-term
+liabilities that the firm might have, including wages due to its employees and taxes due to
+the government.
+Of all the items in the balance sheet, absent outright fraud, current liabilities should be the one for
+which the accounting estimates of book value and financial estimates of market value are closest.
+Long-Term Debt
+Long-term debt for firms can take one of two forms. It can be a long-term loan from a bank or other
+financial institution, or it can be a long-term bond issued to financial markets, in which case the
+creditors are the investors in the bond. Accountants measure the value of long-term debt by looking at
+the present value of payments due on the loan or bond at the time of the borrowing. For bank loans,
+this will be equal to the nominal value of the loan. With bonds, however, there are three possibilities:
+When bonds are issued at par value, for instance, the value of the long-term debt is generally
+measured in terms of the nominal obligation created (i.e., principal due on the borrowing). When
+bonds are issued at a premium or a discount on par value, the bonds are recorded at the issue price,
+but the premium or discount is amortized over the life of the bond. As an extreme example, companies
+that issue zero coupon debt have to record the debt at the issue price, which will be significantly
+below the principal (face value) due at maturity. The difference between the issue price and the face
+value is amortized each period and is treated as a noncash interest expense that is tax deductible.

@@ -1,0 +1,47 @@
+s and risk
+parameters change (see table following):
+The terminal value for MGM's operating assets can be estimated using the FCFF in the terminal year, the cost of capital, and
+the stable growth rate:
+
+The value of the operating assets can be obtained by discounting the cash flows back at the cumulated cost of capital in the
+table following:
+If MGM can improve its operating performance and reduce its debt load over time, its value per share in May 2011 is
+$22.77.
+This going-concern value was much higher than the stock price of $15.13 that MGM was trading at in May 2011, but
+MGM's high debt burden and low bond rating (CCC) both raise red flags about potential default. To bring in the potential for
+default, we estimated the probability of and proceeds from default.
+Probability of default:
+ Using 
+Table 22.1
+, we can assess a probability of default based on the CCC bond rating to be
+61.67%. There is an alternative. Since MGM has publicly traded bonds, we chose one of the most liquid—a bond with seven
+years to maturity and a 7.625% coupon rate that was trading at 97.4% of par and estimated the probability of distress
+(π
+distress
+) from the bond price:
+Solving for the probability of distress, we get an annual probability of 4.28% and a cumulative probability of 35.42% over 10
+years 1 − (1 − .0342)
+10
+ = .3542.
+Default proceeds:
+ In the event of default, we assumed that MGM could sell its assets (primarily real estate) for 80% of
+book value and that liquidation costs would be 5% of the proceeds.
+Since the book value of debt is $12,048 million, the equity will be worth nothing in the event of default.
+The distress-adjusted value of equity can then be written as a function of the DCF value and the distress-adjusted value:
+Going Concern
+Distress/Default
+Probability
+64.58%
+35.42%
+Value of firm
+$22,079
+$11,531
+Debt outstanding
+$10,952
+$12,048
+Value of equity
+$11,127
+$0
+Value per share
+$22.77
+$0.00

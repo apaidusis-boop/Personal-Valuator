@@ -1,0 +1,41 @@
+mitments yields the value of equity:
+PV of operating cash flows for next 12 years
+= $1,134,121
++ PV of liquidation value = $500,000/1.1527
+10
+= $ 90,821
+– PV of operating lease commitments
+= $ 928,333
+
+Value of equity
+= $ 296,709
+Based on our estimates for growth and cost of capital, the value of the equity in Chez Pierre is $296,709.
+ILLUSTRATION 24.12: Valuing Infosoft for an initial
+public offering
+To value Infosoft for an initial public offering, we gather the inputs that we have already estimated for the company:
+a.
+
+Cost of capital:
+ In illustration 24.6, we use a bottom-up market beta for Infosoft and estimated a cost of equity and
+capital of 11.50%: 
+Cost of equity = 3.5% + 1.60 (5%) = 11.50% 
+Cost of capital = Cost of equity = 11.50% 
+In the terminal value computation (in illustration 24.9), we argued for a decrease in beta of 1.20 and an increase in the debt
+ratio to 10%, leading to a cost of capital of 8.85% in stable growth.
+b.
+
+Cash flows and growth rates:
+ In illustration 24.7, we presented the current income statement for Infosoft, with pre-
+tax operating income of $1.5 million and a tax rate of 40%. In illustration 24.8, we estimated a return on capital of 20%
+and a reinvestment rate of 90% for Infosoft, which we assumed would be maintained for the next 5 years, allowing for
+expected growth of 18% in earnings.
+c.
+
+Terminal value:
+ In illustration 24.9, we assumed that the firm would be in stable growth after year 10, growing 3% a
+year, while maintaining a return on capital of 12%. The five years between the high growth period (lasting 5 years) and the
+stable growth (after year 10) represent a transition phase, where growth rates, reinvestment rates and costs of capital all
+change from high growth levels to stable growth levels. The table below summarizes the cash flows and the present value
+(in ‘000s). 
+
+At the end of year 10, the firm is in stable growth and the terminal value is estimated as follows:

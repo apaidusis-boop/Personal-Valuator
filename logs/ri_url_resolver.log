@@ -1,0 +1,469 @@
+{"ts": "2026-05-10T19:06:50Z", "event": "discovery_start", "n": 190}
+{"ts": "2026-05-10T19:06:50Z", "event": "resolved", "ticker": "BBDC4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:06:55Z", "event": "resolved", "ticker": "BTLG11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "BTLG12", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "ITSA4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "IVVB11", "status": "skipped", "method": "etf"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "KLBN11", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "LFTB11", "status": "skipped", "method": "etf"}
+{"ts": "2026-05-10T19:08:38Z", "event": "resolved", "ticker": "PRIO3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:08:43Z", "event": "resolved", "ticker": "PVBI11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:08:46Z", "event": "resolved", "ticker": "RBRX11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:08:46Z", "event": "resolved", "ticker": "VALE3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:08:50Z", "event": "resolved", "ticker": "VGIR11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:08:55Z", "event": "resolved", "ticker": "XPML11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:10:29Z", "event": "resolved", "ticker": "ABCB4", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:10:29Z", "event": "resolved", "ticker": "ABEV3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:12:06Z", "event": "resolved", "ticker": "ALOS3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:13:10Z", "event": "resolved", "ticker": "ALUP11", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "AXIA7", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "B3SA3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "BBAS3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "BBSE3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "BOVA11", "status": "skipped", "method": "etf"}
+{"ts": "2026-05-10T19:14:32Z", "event": "resolved", "ticker": "BPAC11", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:16:09Z", "event": "resolved", "ticker": "BRBI11", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:16:17Z", "event": "resolved", "ticker": "BRCO11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:17:51Z", "event": "resolved", "ticker": "BRKM5", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:17:51Z", "event": "resolved", "ticker": "CMIG4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:18:43Z", "event": "resolved", "ticker": "CPLE3", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:18:48Z", "event": "resolved", "ticker": "CSMG3", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:18:48Z", "event": "resolved", "ticker": "EGIE3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:20:44Z", "event": "resolved", "ticker": "ENGI11", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:20:44Z", "event": "resolved", "ticker": "EQTL3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:22:18Z", "event": "resolved", "ticker": "EZTC3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:22:24Z", "event": "resolved", "ticker": "GARE11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:23:58Z", "event": "resolved", "ticker": "GMAT3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:24:02Z", "event": "resolved", "ticker": "GRND3", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:24:06Z", "event": "resolved", "ticker": "HGLG11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:24:13Z", "event": "resolved", "ticker": "HGRU11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:25:57Z", "event": "resolved", "ticker": "ISAE4", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:25:57Z", "event": "resolved", "ticker": "ITUB4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:27:41Z", "event": "resolved", "ticker": "KLBN4", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:27:45Z", "event": "resolved", "ticker": "KNCR11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:27:50Z", "event": "resolved", "ticker": "KNHF11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:27:54Z", "event": "resolved", "ticker": "KNRI11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:27:59Z", "event": "resolved", "ticker": "MCCI11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:28:03Z", "event": "resolved", "ticker": "MCRE11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:28:03Z", "event": "resolved", "ticker": "MOTV3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:29:30Z", "event": "resolved", "ticker": "MULT3", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:29:30Z", "event": "resolved", "ticker": "PETR4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:31:07Z", "event": "resolved", "ticker": "PGMN3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:32:51Z", "event": "resolved", "ticker": "PLPL3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:32:55Z", "event": "resolved", "ticker": "PMLL11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:34:39Z", "event": "resolved", "ticker": "PNVL3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:36:19Z", "event": "resolved", "ticker": "POMO3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:36:19Z", "event": "resolved", "ticker": "POMO4", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:36:22Z", "event": "resolved", "ticker": "PSSA3", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:37:48Z", "event": "resolved", "ticker": "RAPT4", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:37:54Z", "event": "resolved", "ticker": "RBRY11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:37:54Z", "event": "resolved", "ticker": "RDOR3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:37:58Z", "event": "resolved", "ticker": "RECR11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:37:58Z", "event": "resolved", "ticker": "RENT3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:39:47Z", "event": "resolved", "ticker": "SANB11", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:39:53Z", "event": "resolved", "ticker": "SAPR11", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:41:26Z", "event": "resolved", "ticker": "SEER3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:43:01Z", "event": "resolved", "ticker": "SIMH3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:44:45Z", "event": "resolved", "ticker": "SLCE3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:44:45Z", "event": "resolved", "ticker": "SUZB3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:44:45Z", "event": "resolved", "ticker": "TAEE11", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:44:45Z", "event": "resolved", "ticker": "TIMS3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:44:48Z", "event": "resolved", "ticker": "TRXF11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:46:32Z", "event": "resolved", "ticker": "TTEN3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:48:16Z", "event": "resolved", "ticker": "TUPY3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:50:00Z", "event": "resolved", "ticker": "UNIP6", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:51:13Z", "event": "resolved", "ticker": "VAMO3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:51:14Z", "event": "resolved", "ticker": "VGIP11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:51:16Z", "event": "resolved", "ticker": "VISC11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:51:16Z", "event": "resolved", "ticker": "VIVA3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:51:16Z", "event": "resolved", "ticker": "VIVT3", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:51:17Z", "event": "resolved", "ticker": "VRTA11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:53:01Z", "event": "resolved", "ticker": "WIZC3", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "XPLG11", "status": "ok", "method": "fii_heuristic"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "AAPL", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "ACN", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "BLK", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "BN", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "BRK-B", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "GREK", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "GS", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "HD", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "JNJ", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "JPM", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "KO", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "NU", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "O", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "PG", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "PLD", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "PLTR", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "TEN", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "TFC", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "TSLA", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "TSM", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "TTD", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "XP", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:02Z", "event": "resolved", "ticker": "ABBV", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T19:53:40Z", "event": "resolved", "ticker": "ABM", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:54:51Z", "event": "resolved", "ticker": "ABT", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:55:58Z", "event": "resolved", "ticker": "ADM", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:56:34Z", "event": "resolved", "ticker": "ADP", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:56:46Z", "event": "resolved", "ticker": "AFL", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:56:48Z", "event": "resolved", "ticker": "ALB", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:57:20Z", "event": "resolved", "ticker": "AOS", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T19:58:34Z", "event": "resolved", "ticker": "APD", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T19:58:48Z", "event": "resolved", "ticker": "ATO", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:00:17Z", "event": "resolved", "ticker": "AWR", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:01:32Z", "event": "resolved", "ticker": "BDX", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:01:34Z", "event": "resolved", "ticker": "BEN", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:03:16Z", "event": "resolved", "ticker": "BF-B", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:04:00Z", "event": "resolved", "ticker": "BKH", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:04:03Z", "event": "resolved", "ticker": "BRO", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:04:03Z", "event": "resolved", "ticker": "CAT", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T20:04:05Z", "event": "resolved", "ticker": "CB", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:04:08Z", "event": "resolved", "ticker": "CBSH", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:04:09Z", "event": "resolved", "ticker": "CHD", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:04:10Z", "event": "resolved", "ticker": "CHRW", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:04:18Z", "event": "resolved", "ticker": "CINF", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:04:54Z", "event": "resolved", "ticker": "CL", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:06:06Z", "event": "resolved", "ticker": "CLX", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:06:08Z", "event": "resolved", "ticker": "CTAS", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:06:16Z", "event": "resolved", "ticker": "CVX", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:07:44Z", "event": "resolved", "ticker": "CWT", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:07:46Z", "event": "resolved", "ticker": "DOV", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:07:48Z", "event": "resolved", "ticker": "ECL", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:07:56Z", "event": "resolved", "ticker": "ED", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:09:09Z", "event": "resolved", "ticker": "EMR", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:09:49Z", "event": "resolved", "ticker": "ERIE", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:11:13Z", "event": "resolved", "ticker": "ES", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:12:24Z", "event": "resolved", "ticker": "EXPD", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:12:26Z", "event": "resolved", "ticker": "FAST", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:13:39Z", "event": "resolved", "ticker": "FDS", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:15:22Z", "event": "resolved", "ticker": "FRT", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:15:34Z", "event": "resolved", "ticker": "FUL", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:16:11Z", "event": "resolved", "ticker": "GD", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:17:39Z", "event": "resolved", "ticker": "GPC", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:18:51Z", "event": "resolved", "ticker": "GRC", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:20:19Z", "event": "resolved", "ticker": "GWW", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:20:21Z", "event": "resolved", "ticker": "HRL", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:21:00Z", "event": "resolved", "ticker": "IBM", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:21:58Z", "event": "resolved", "ticker": "ITW", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:23:10Z", "event": "resolved", "ticker": "JKHY", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:24:09Z", "event": "resolved", "ticker": "KMB", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:25:28Z", "event": "resolved", "ticker": "LEG", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:25:43Z", "event": "resolved", "ticker": "LIN", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:26:09Z", "event": "resolved", "ticker": "LOW", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:26:09Z", "event": "resolved", "ticker": "MCD", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T20:27:02Z", "event": "resolved", "ticker": "MDT", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:27:41Z", "event": "resolved", "ticker": "MGEE", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:28:52Z", "event": "resolved", "ticker": "MKC", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:28:54Z", "event": "resolved", "ticker": "MO", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:29:27Z", "event": "resolved", "ticker": "MSA", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:25Z", "event": "resolved", "ticker": "MSEX", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:30:25Z", "event": "resolved", "ticker": "MSFT", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T20:30:38Z", "event": "resolved", "ticker": "NDSN", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:42Z", "event": "resolved", "ticker": "NEE", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:44Z", "event": "resolved", "ticker": "NFG", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:48Z", "event": "resolved", "ticker": "NUE", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:50Z", "event": "resolved", "ticker": "NWN", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:30:53Z", "event": "resolved", "ticker": "PEP", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:32:21Z", "event": "resolved", "ticker": "PH", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:33:35Z", "event": "resolved", "ticker": "PNR", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:34:30Z", "event": "resolved", "ticker": "PPG", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:34:43Z", "event": "resolved", "ticker": "RLI", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:35:09Z", "event": "resolved", "ticker": "ROP", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:35:17Z", "event": "resolved", "ticker": "RPM", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:36:47Z", "event": "resolved", "ticker": "SCL", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:37:58Z", "event": "resolved", "ticker": "SHW", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:38:11Z", "event": "resolved", "ticker": "SJM", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:38:12Z", "event": "resolved", "ticker": "SPGI", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:38:12Z", "event": "resolved", "ticker": "SPY", "status": "skipped", "method": "etf"}
+{"ts": "2026-05-10T20:39:43Z", "event": "resolved", "ticker": "SWK", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:39:56Z", "event": "resolved", "ticker": "SYY", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:41:11Z", "event": "resolved", "ticker": "TDS", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:41:24Z", "event": "resolved", "ticker": "TGT", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:42:52Z", "event": "resolved", "ticker": "TNC", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:44:18Z", "event": "resolved", "ticker": "TR", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:44:48Z", "event": "resolved", "ticker": "TROW", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:45:58Z", "event": "resolved", "ticker": "UVV", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:45:58Z", "event": "resolved", "ticker": "V", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T20:45:58Z", "event": "resolved", "ticker": "WMT", "status": "ok", "method": "known"}
+{"ts": "2026-05-10T20:46:57Z", "event": "resolved", "ticker": "WST", "status": "failed", "method": "unknown"}
+{"ts": "2026-05-10T20:46:58Z", "event": "resolved", "ticker": "XOM", "status": "ok", "method": "heuristic"}
+{"ts": "2026-05-10T20:46:58Z", "event": "discovery_done", "ok": 124, "fail": 62, "skip": 4, "out": "config\\ri_urls.yaml"}
+{"ts": "2026-05-11T07:08:29Z", "event": "discovery_start", "n": 7, "verify": true}
+{"ts": "2026-05-11T07:08:31Z", "event": "resolved", "ticker": "KLBN11", "name": "Klabin Unit", "status": "ok", "method": "known", "verified": true, "url": "https://ri.klabin.com.br/", "notes": "known — verified: name token 'klabin' present"}
+{"ts": "2026-05-11T07:08:33Z", "event": "resolved", "ticker": "XPML11", "name": "XP Malls", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/xpml11/", "notes": "fiis.com.br — verified: name token 'malls' present"}
+{"ts": "2026-05-11T07:08:36Z", "event": "resolved", "ticker": "ALOS3", "name": "Allos", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.allos.com.br/", "notes": "name-heuristic — verified: name token 'allos' present"}
+{"ts": "2026-05-11T07:08:36Z", "event": "resolved", "ticker": "ENGI11", "name": "Energisa", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.energisa.com.br/", "notes": "name-heuristic — verified: name token 'energisa' present"}
+{"ts": "2026-05-11T07:08:37Z", "event": "resolved", "ticker": "POMO4", "name": "Marcopolo PN", "status": "ok", "method": "known", "verified": false, "url": "https://ri.marcopolo.com.br/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T07:08:49Z", "event": "resolved", "ticker": "ACN", "name": "Accenture", "status": "ok", "method": "known", "verified": false, "url": "https://investor.accenture.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T07:08:50Z", "event": "resolved", "ticker": "O", "name": "Realty Income", "status": "ok", "method": "known", "verified": true, "url": "https://www.realtyincome.com/investors", "notes": "known — verified: name token 'realty' present"}
+{"ts": "2026-05-11T07:08:50Z", "event": "discovery_done", "ok": 7, "fail": 0, "skip": 0, "tavily_used": 0, "out": "config\\ri_urls.yaml"}
+{"ts": "2026-05-11T08:03:02Z", "event": "discovery_start", "n": 190, "verify": true}
+{"ts": "2026-05-11T08:03:03Z", "event": "resolved", "ticker": "BBDC4", "name": "Bradesco", "status": "ok", "method": "known", "verified": true, "url": "https://www.bradescori.com.br/", "notes": "known — verified: name token 'bradesco' present"}
+{"ts": "2026-05-11T08:03:05Z", "event": "resolved", "ticker": "BTLG11", "name": "BTG Logística", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/btlg11/", "notes": "fiis.com.br — verified: name token 'btg' present"}
+{"ts": "2026-05-11T08:05:51Z", "event": "resolved", "ticker": "BTLG12", "name": "BTG Logística 12 (residual)", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.advfn.com/stock-market/bovespa/BTLG12/stock-price", "notes": "tavily — verified: name token 'btg' present"}
+{"ts": "2026-05-11T08:05:52Z", "event": "resolved", "ticker": "ITSA4", "name": "Itaúsa", "status": "ok", "method": "known", "verified": true, "url": "https://ri.itausa.com.br/", "notes": "known — verified: name token 'ita' present"}
+{"ts": "2026-05-11T08:05:52Z", "event": "resolved", "ticker": "IVVB11", "name": "iShares S&P 500 (BRL hedged)", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T08:05:53Z", "event": "resolved", "ticker": "KLBN11", "name": "Klabin Unit", "status": "ok", "method": "known", "verified": true, "url": "https://ri.klabin.com.br/", "notes": "known — verified: name token 'klabin' present"}
+{"ts": "2026-05-11T08:05:53Z", "event": "resolved", "ticker": "LFTB11", "name": "iShares Tesouro Selic ETF", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T08:05:56Z", "event": "resolved", "ticker": "PRIO3", "name": "PetroRio", "status": "ok", "method": "known", "verified": true, "url": "https://ri.prio3.com.br/", "notes": "known — verified: name token 'petrorio' present"}
+{"ts": "2026-05-11T08:05:57Z", "event": "resolved", "ticker": "PVBI11", "name": "VBI Prime Properties", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/pvbi11/", "notes": "fiis.com.br — verified: name token 'vbi' present"}
+{"ts": "2026-05-11T08:05:59Z", "event": "resolved", "ticker": "RBRX11", "name": "RBR X", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/rbrx11/", "notes": "fiis.com.br — verified: name token 'rbr' present"}
+{"ts": "2026-05-11T08:06:00Z", "event": "resolved", "ticker": "VALE3", "name": "Vale", "status": "ok", "method": "known", "verified": true, "url": "https://vale.com/pt/investidores", "notes": "known — verified: name token 'vale' present"}
+{"ts": "2026-05-11T08:06:02Z", "event": "resolved", "ticker": "VGIR11", "name": "Valora CRI", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/vgir11/", "notes": "fiis.com.br — verified: name token 'valora' present"}
+{"ts": "2026-05-11T08:06:04Z", "event": "resolved", "ticker": "XPML11", "name": "XP Malls", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/xpml11/", "notes": "fiis.com.br — verified: name token 'malls' present"}
+{"ts": "2026-05-11T08:08:26Z", "event": "resolved", "ticker": "ABCB4", "name": "Banco ABC Brasil", "status": "ok", "method": "tavily", "verified": true, "url": "https://ri.abcbrasil.com.br/servicos-aos-investidores/informe-de-rendimentos/", "notes": "tavily — verified: name token 'abc' present"}
+{"ts": "2026-05-11T08:08:27Z", "event": "resolved", "ticker": "ABEV3", "name": "Ambev", "status": "ok", "method": "known", "verified": true, "url": "https://ri.ambev.com.br/", "notes": "known — verified: name token 'ambev' present"}
+{"ts": "2026-05-11T08:08:29Z", "event": "resolved", "ticker": "ALOS3", "name": "Allos", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.allos.com.br/", "notes": "name-heuristic — verified: name token 'allos' present"}
+{"ts": "2026-05-11T08:08:32Z", "event": "resolved", "ticker": "ALUP11", "name": "Alupar", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.alupar.com.br/", "notes": "name-heuristic — verified: name token 'alupar' present"}
+{"ts": "2026-05-11T08:10:12Z", "event": "resolved", "ticker": "AXIA7", "name": "Axia Energia", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 12 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T08:10:14Z", "event": "resolved", "ticker": "B3SA3", "name": "B3", "status": "ok", "method": "known", "verified": true, "url": "https://ri.b3.com.br/", "notes": "known — accepted on HTTP 200 (no distinctive name tokens to verify)"}
+{"ts": "2026-05-11T08:10:16Z", "event": "resolved", "ticker": "BBAS3", "name": "Banco do Brasil", "status": "ok", "method": "known", "verified": false, "url": "https://www.bb.com.br/site/ri/", "notes": "known — UNVERIFIED (HTTP 404); kept anyway, review"}
+{"ts": "2026-05-11T08:10:18Z", "event": "resolved", "ticker": "BBSE3", "name": "BB Seguridade", "status": "ok", "method": "known", "verified": true, "url": "https://www.bbseguridaderi.com.br/", "notes": "known — verified: name token 'seguridade' present"}
+{"ts": "2026-05-11T08:10:18Z", "event": "resolved", "ticker": "BOVA11", "name": "iShares Ibovespa ETF", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T08:10:20Z", "event": "resolved", "ticker": "BPAC11", "name": "BTG Pactual", "status": "ok", "method": "known", "verified": true, "url": "https://ri.btgpactual.com/", "notes": "known — verified: name token 'btg' present"}
+{"ts": "2026-05-11T08:10:22Z", "event": "resolved", "ticker": "BRBI11", "name": "BR Partners", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.brpartners.com.br/", "notes": "name-heuristic — verified: name token 'partners' present"}
+{"ts": "2026-05-11T08:10:23Z", "event": "resolved", "ticker": "BRCO11", "name": "Bresco Logística", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/brco11/", "notes": "fiis.com.br — verified: name token 'bresco' present"}
+{"ts": "2026-05-11T08:10:25Z", "event": "resolved", "ticker": "BRKM5", "name": "Braskem", "status": "ok", "method": "known", "verified": true, "url": "https://www.braskem-ri.com.br/", "notes": "known — verified: name token 'braskem' present"}
+{"ts": "2026-05-11T08:10:26Z", "event": "resolved", "ticker": "CMIG4", "name": "Cemig", "status": "ok", "method": "known", "verified": true, "url": "https://ri.cemig.com.br/", "notes": "known — verified: name token 'cemig' present"}
+{"ts": "2026-05-11T08:10:27Z", "event": "resolved", "ticker": "CPLE3", "name": "Copel", "status": "ok", "method": "known", "verified": true, "url": "https://ri.copel.com/", "notes": "known — verified: name token 'copel' present"}
+{"ts": "2026-05-11T08:10:29Z", "event": "resolved", "ticker": "CSMG3", "name": "Copasa", "status": "ok", "method": "known", "verified": true, "url": "https://ri.copasa.com.br/", "notes": "known — verified: name token 'copasa' present"}
+{"ts": "2026-05-11T08:10:29Z", "event": "resolved", "ticker": "EGIE3", "name": "Engie Brasil", "status": "ok", "method": "known", "verified": false, "url": "https://ri.engie.com.br/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T08:10:30Z", "event": "resolved", "ticker": "ENGI11", "name": "Energisa", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.energisa.com.br/", "notes": "name-heuristic — verified: name token 'energisa' present"}
+{"ts": "2026-05-11T08:10:32Z", "event": "resolved", "ticker": "EQTL3", "name": "Equatorial", "status": "ok", "method": "known", "verified": true, "url": "https://ri.equatorialenergia.com.br/", "notes": "known — verified: name token 'equatorial' present"}
+{"ts": "2026-05-11T08:10:33Z", "event": "resolved", "ticker": "EZTC3", "name": "EZ Tec", "status": "ok", "method": "known", "verified": true, "url": "https://ri.eztec.com.br/", "notes": "known — verified: name token 'tec' present"}
+{"ts": "2026-05-11T08:10:35Z", "event": "resolved", "ticker": "GARE11", "name": "Guardian Logística", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/gare11/", "notes": "fiis.com.br — verified: name token 'guardian' present"}
+{"ts": "2026-05-11T08:10:36Z", "event": "resolved", "ticker": "GMAT3", "name": "Grupo Mateus", "status": "ok", "method": "known", "verified": true, "url": "https://ri.grupomateus.com.br/", "notes": "known — verified: name token 'mateus' present"}
+{"ts": "2026-05-11T08:10:38Z", "event": "resolved", "ticker": "GRND3", "name": "Grendene", "status": "ok", "method": "known", "verified": true, "url": "https://ri.grendene.com.br/", "notes": "known — verified: name token 'grendene' present"}
+{"ts": "2026-05-11T08:13:15Z", "event": "resolved", "ticker": "HGLG11", "name": "CSHG Logística", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.fundsexplorer.com.br/funds/hglg11", "notes": "tavily — verified: name token 'log' present"}
+{"ts": "2026-05-11T08:13:17Z", "event": "resolved", "ticker": "HGRU11", "name": "CSHG Renda Urbana", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/hgru11/", "notes": "fiis.com.br — verified: name token 'cshg' present"}
+{"ts": "2026-05-11T08:15:48Z", "event": "resolved", "ticker": "ISAE4", "name": "ISA Energia Brasil (ex-CTEEP)", "status": "ok", "method": "tavily", "verified": true, "url": "https://ri.isaenergiabrasil.com.br/en/isa-energia/corporate-profile", "notes": "tavily — verified: name token 'isa' present"}
+{"ts": "2026-05-11T08:15:49Z", "event": "resolved", "ticker": "ITUB4", "name": "Itaú Unibanco", "status": "ok", "method": "known", "verified": false, "url": "https://www.itau.com.br/relacoes-com-investidores/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:15:49Z", "event": "resolved", "ticker": "KLBN4", "name": "Klabin", "status": "ok", "method": "known", "verified": true, "url": "https://ri.klabin.com.br/", "notes": "known — verified: name token 'klabin' present"}
+{"ts": "2026-05-11T08:15:51Z", "event": "resolved", "ticker": "KNCR11", "name": "Kinea Rendimentos Imob.", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/kncr11/", "notes": "fiis.com.br — verified: name token 'kinea' present"}
+{"ts": "2026-05-11T08:15:53Z", "event": "resolved", "ticker": "KNHF11", "name": "Kinea Hedge Fund FII", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/knhf11/", "notes": "fiis.com.br — verified: name token 'kinea' present"}
+{"ts": "2026-05-11T08:18:14Z", "event": "resolved", "ticker": "KNRI11", "name": "Kinea Renda Imobiliária", "status": "ok", "method": "tavily", "verified": true, "url": "https://investidor10.com.br/fiis/knri11/", "notes": "tavily — verified: name token 'kinea' present"}
+{"ts": "2026-05-11T08:18:15Z", "event": "resolved", "ticker": "MCCI11", "name": "Mauá Capital CRI", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/mcci11/", "notes": "fiis.com.br — verified: name token 'mau' present"}
+{"ts": "2026-05-11T08:18:17Z", "event": "resolved", "ticker": "MCRE11", "name": "Mauá Capital Real Estate", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/mcre11/", "notes": "fiis.com.br — weak-verified: ticker 'MCRE11' present, name tokens ['mau'] absent"}
+{"ts": "2026-05-11T08:18:19Z", "event": "resolved", "ticker": "MOTV3", "name": "Motiva", "status": "ok", "method": "known", "verified": true, "url": "https://ri.motiva.com.br/", "notes": "known — verified: name token 'motiva' present"}
+{"ts": "2026-05-11T08:18:23Z", "event": "resolved", "ticker": "MULT3", "name": "Multiplan", "status": "ok", "method": "known", "verified": true, "url": "https://www.multri.com.br/", "notes": "known — weak-verified: ticker 'MULT3' present, name tokens ['multiplan'] absent"}
+{"ts": "2026-05-11T08:18:24Z", "event": "resolved", "ticker": "PETR4", "name": "Petrobras", "status": "ok", "method": "known", "verified": true, "url": "https://www.investidorpetrobras.com.br/", "notes": "known — verified: name token 'petrobras' present"}
+{"ts": "2026-05-11T08:18:25Z", "event": "resolved", "ticker": "PGMN3", "name": "Pague Menos", "status": "ok", "method": "known", "verified": true, "url": "https://ri.paguemenos.com.br/", "notes": "known — verified: name token 'pague' present"}
+{"ts": "2026-05-11T08:18:26Z", "event": "resolved", "ticker": "PLPL3", "name": "Plano & Plano", "status": "ok", "method": "known", "verified": true, "url": "https://ri.planoeplano.com.br/", "notes": "known — verified: name token 'plano' present"}
+{"ts": "2026-05-11T08:18:28Z", "event": "resolved", "ticker": "PMLL11", "name": "Plural Malls", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/pmll11/", "notes": "fiis.com.br — verified: name token 'malls' present"}
+{"ts": "2026-05-11T08:19:04Z", "event": "resolved", "ticker": "PNVL3", "name": "Panvel", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.panvel.com.br/ri/", "notes": "name-heuristic — verified: name token 'panvel' present"}
+{"ts": "2026-05-11T08:19:05Z", "event": "resolved", "ticker": "POMO3", "name": "Marcopolo ON", "status": "ok", "method": "known", "verified": false, "url": "https://ri.marcopolo.com.br/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:19:06Z", "event": "resolved", "ticker": "POMO4", "name": "Marcopolo PN", "status": "ok", "method": "known", "verified": false, "url": "https://ri.marcopolo.com.br/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:19:07Z", "event": "resolved", "ticker": "PSSA3", "name": "Porto Seguro", "status": "ok", "method": "known", "verified": true, "url": "https://ri.portoseguro.com.br/", "notes": "known — verified: name token 'porto' present"}
+{"ts": "2026-05-11T08:19:31Z", "event": "resolved", "ticker": "RAPT4", "name": "Randoncorp", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.randoncorp.com/", "notes": "name-heuristic — verified: name token 'randoncorp' present"}
+{"ts": "2026-05-11T08:19:32Z", "event": "resolved", "ticker": "RBRY11", "name": "RBR CRI", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/rbry11/", "notes": "fiis.com.br — verified: name token 'rbr' present"}
+{"ts": "2026-05-11T08:19:33Z", "event": "resolved", "ticker": "RDOR3", "name": "Rede D'Or", "status": "ok", "method": "known", "verified": true, "url": "https://ri.rededorsaoluiz.com.br/", "notes": "known — verified: name token 'rede' present"}
+{"ts": "2026-05-11T08:19:35Z", "event": "resolved", "ticker": "RECR11", "name": "REC Recebíveis Imob.", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/recr11/", "notes": "fiis.com.br — verified: name token 'rec' present"}
+{"ts": "2026-05-11T08:19:37Z", "event": "resolved", "ticker": "RENT3", "name": "Localiza", "status": "ok", "method": "known", "verified": true, "url": "https://ri.localiza.com/", "notes": "known — verified: name token 'localiza' present"}
+{"ts": "2026-05-11T08:21:39Z", "event": "resolved", "ticker": "SANB11", "name": "Santander BR", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.santander.com/en/shareholders-and-investors", "notes": "tavily — verified: name token 'santander' present"}
+{"ts": "2026-05-11T08:21:41Z", "event": "resolved", "ticker": "SAPR11", "name": "Sanepar", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.sanepar.com.br/", "notes": "name-heuristic — verified: name token 'sanepar' present"}
+{"ts": "2026-05-11T08:22:07Z", "event": "resolved", "ticker": "SEER3", "name": "Ser Educacional", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.sereducacional.com/", "notes": "name-heuristic — verified: name token 'ser' present"}
+{"ts": "2026-05-11T08:22:08Z", "event": "resolved", "ticker": "SIMH3", "name": "Simpar", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.simpar.com.br/", "notes": "name-heuristic — verified: name token 'simpar' present"}
+{"ts": "2026-05-11T08:23:43Z", "event": "resolved", "ticker": "SLCE3", "name": "SLC Agrícola", "status": "ok", "method": "heuristic", "verified": true, "url": "https://slc.com.br/ri/", "notes": "name-heuristic — verified: name token 'slc' present"}
+{"ts": "2026-05-11T08:23:45Z", "event": "resolved", "ticker": "SUZB3", "name": "Suzano", "status": "ok", "method": "known", "verified": true, "url": "https://ri.suzano.com.br/", "notes": "known — verified: name token 'suzano' present"}
+{"ts": "2026-05-11T08:23:46Z", "event": "resolved", "ticker": "TAEE11", "name": "Taesa", "status": "ok", "method": "known", "verified": true, "url": "https://ri.taesa.com.br/", "notes": "known — verified: name token 'taesa' present"}
+{"ts": "2026-05-11T08:23:48Z", "event": "resolved", "ticker": "TIMS3", "name": "TIM", "status": "ok", "method": "known", "verified": true, "url": "https://ri.tim.com.br/", "notes": "known — verified: name token 'tim' present"}
+{"ts": "2026-05-11T08:23:49Z", "event": "resolved", "ticker": "TRXF11", "name": "TRX Real Estate", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/trxf11/", "notes": "fiis.com.br — verified: name token 'trx' present"}
+{"ts": "2026-05-11T08:23:50Z", "event": "resolved", "ticker": "TTEN3", "name": "3Tentos", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ri.3tentos.com.br/", "notes": "name-heuristic — verified: name token '3tentos' present"}
+{"ts": "2026-05-11T08:25:14Z", "event": "resolved", "ticker": "TUPY3", "name": "Tupy", "status": "ok", "method": "tavily", "verified": true, "url": "https://statusinvest.com.br/acoes/tupy3", "notes": "tavily — verified: name token 'tupy' present"}
+{"ts": "2026-05-11T08:26:33Z", "event": "resolved", "ticker": "UNIP6", "name": "Unipar", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 8 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T08:27:09Z", "event": "resolved", "ticker": "VAMO3", "name": "Vamos", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.vamos.com.br/ri/", "notes": "name-heuristic — verified: name token 'vamos' present"}
+{"ts": "2026-05-11T08:27:11Z", "event": "resolved", "ticker": "VGIP11", "name": "Valora CRI Plus", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/vgip11/", "notes": "fiis.com.br — verified: name token 'valora' present"}
+{"ts": "2026-05-11T08:27:12Z", "event": "resolved", "ticker": "VISC11", "name": "Vinci Shopping Centers", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/visc11/", "notes": "fiis.com.br — verified: name token 'vinci' present"}
+{"ts": "2026-05-11T08:27:13Z", "event": "resolved", "ticker": "VIVA3", "name": "Vivara", "status": "ok", "method": "known", "verified": true, "url": "https://ri.vivara.com.br/", "notes": "known — verified: name token 'vivara' present"}
+{"ts": "2026-05-11T08:27:14Z", "event": "resolved", "ticker": "VIVT3", "name": "Telefônica Vivo", "status": "ok", "method": "known", "verified": true, "url": "https://ri.telefonica.com.br/", "notes": "known — verified: name token 'telef' present"}
+{"ts": "2026-05-11T08:27:16Z", "event": "resolved", "ticker": "VRTA11", "name": "Fator Verita", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/vrta11/", "notes": "fiis.com.br — verified: name token 'fator' present"}
+{"ts": "2026-05-11T08:28:54Z", "event": "resolved", "ticker": "WIZC3", "name": "Wiz Co", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/bovespa/wizc3/investor-relations", "notes": "tavily — verified: name token 'wiz' present"}
+{"ts": "2026-05-11T08:28:56Z", "event": "resolved", "ticker": "XPLG11", "name": "XP Log", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/xplg11/", "notes": "fiis.com.br — verified: name token 'log' present"}
+{"ts": "2026-05-11T08:28:57Z", "event": "resolved", "ticker": "AAPL", "name": "Apple", "status": "ok", "method": "known", "verified": true, "url": "https://investor.apple.com/", "notes": "known — verified: name token 'apple' present"}
+{"ts": "2026-05-11T08:29:01Z", "event": "resolved", "ticker": "ACN", "name": "Accenture", "status": "ok", "method": "known", "verified": true, "url": "https://investor.accenture.com/", "notes": "known — verified: name token 'accenture' present"}
+{"ts": "2026-05-11T08:29:02Z", "event": "resolved", "ticker": "BLK", "name": "BlackRock", "status": "ok", "method": "known", "verified": true, "url": "https://ir.blackrock.com/", "notes": "known — verified: name token 'blackrock' present"}
+{"ts": "2026-05-11T08:29:04Z", "event": "resolved", "ticker": "BN", "name": "Brookfield Corp", "status": "ok", "method": "known", "verified": false, "url": "https://bn.brookfield.com/news-and-events", "notes": "known — UNVERIFIED (parked/error page (matched 'page not found')); kept anyway, review"}
+{"ts": "2026-05-11T08:29:06Z", "event": "resolved", "ticker": "BRK-B", "name": "Berkshire Hathaway B", "status": "ok", "method": "known", "verified": true, "url": "https://www.berkshirehathaway.com/", "notes": "known — verified: name token 'berkshire' present"}
+{"ts": "2026-05-11T08:29:06Z", "event": "resolved", "ticker": "GREK", "name": "Global X MSCI Greece ETF", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T08:29:07Z", "event": "resolved", "ticker": "GS", "name": "Goldman Sachs", "status": "ok", "method": "known", "verified": true, "url": "https://www.goldmansachs.com/investor-relations/", "notes": "known — verified: name token 'goldman' present"}
+{"ts": "2026-05-11T08:29:08Z", "event": "resolved", "ticker": "HD", "name": "Home Depot", "status": "ok", "method": "known", "verified": true, "url": "https://ir.homedepot.com/", "notes": "known — verified: name token 'home' present"}
+{"ts": "2026-05-11T08:29:09Z", "event": "resolved", "ticker": "JNJ", "name": "Johnson & Johnson", "status": "ok", "method": "known", "verified": true, "url": "https://www.investor.jnj.com/", "notes": "known — verified: name token 'johnson' present"}
+{"ts": "2026-05-11T08:29:10Z", "event": "resolved", "ticker": "JPM", "name": "JPMorgan Chase", "status": "ok", "method": "known", "verified": true, "url": "https://www.jpmorganchase.com/ir", "notes": "known — verified: name token 'jpmorgan' present"}
+{"ts": "2026-05-11T08:29:11Z", "event": "resolved", "ticker": "KO", "name": "Coca-Cola", "status": "ok", "method": "known", "verified": true, "url": "https://investors.coca-colacompany.com/", "notes": "known — verified: name token 'coca' present"}
+{"ts": "2026-05-11T08:29:17Z", "event": "resolved", "ticker": "NU", "name": "Nu Holdings", "status": "ok", "method": "known", "verified": true, "url": "https://investors.nu/", "notes": "known — accepted on HTTP 200 (no distinctive name tokens to verify)"}
+{"ts": "2026-05-11T08:29:18Z", "event": "resolved", "ticker": "O", "name": "Realty Income", "status": "ok", "method": "known", "verified": true, "url": "https://www.realtyincome.com/investors", "notes": "known — verified: name token 'realty' present"}
+{"ts": "2026-05-11T08:29:19Z", "event": "resolved", "ticker": "PG", "name": "Procter & Gamble", "status": "ok", "method": "known", "verified": true, "url": "https://www.pginvestor.com/", "notes": "known — verified: name token 'procter' present"}
+{"ts": "2026-05-11T08:29:20Z", "event": "resolved", "ticker": "PLD", "name": "Prologis", "status": "ok", "method": "known", "verified": true, "url": "https://ir.prologis.com/", "notes": "known — verified: name token 'prologis' present"}
+{"ts": "2026-05-11T08:29:21Z", "event": "resolved", "ticker": "PLTR", "name": "Palantir", "status": "ok", "method": "known", "verified": true, "url": "https://investors.palantir.com/", "notes": "known — verified: name token 'palantir' present"}
+{"ts": "2026-05-11T08:29:23Z", "event": "resolved", "ticker": "TEN", "name": "Tsakos Energy Navig.", "status": "ok", "method": "known", "verified": true, "url": "https://www.tenn.gr/", "notes": "known — weak-verified: ticker 'TEN' present, name tokens ['tsakos', 'energy', 'navig'] absent"}
+{"ts": "2026-05-11T08:29:24Z", "event": "resolved", "ticker": "TFC", "name": "Truist Financial", "status": "ok", "method": "known", "verified": true, "url": "https://ir.truist.com/", "notes": "known — verified: name token 'truist' present"}
+{"ts": "2026-05-11T08:29:25Z", "event": "resolved", "ticker": "TSLA", "name": "Tesla", "status": "ok", "method": "known", "verified": false, "url": "https://ir.tesla.com/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:29:25Z", "event": "resolved", "ticker": "TSM", "name": "Taiwan Semiconductor", "status": "ok", "method": "known", "verified": false, "url": "https://investor.tsmc.com/english", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:29:27Z", "event": "resolved", "ticker": "TTD", "name": "The Trade Desk", "status": "ok", "method": "known", "verified": true, "url": "https://investors.thetradedesk.com/", "notes": "known — verified: name token 'trade' present"}
+{"ts": "2026-05-11T08:29:28Z", "event": "resolved", "ticker": "XP", "name": "XP Inc", "status": "ok", "method": "known", "verified": false, "url": "https://investors.xpinc.com/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:29:40Z", "event": "resolved", "ticker": "ABBV", "name": "AbbVie", "status": "ok", "method": "known", "verified": false, "url": "https://investors.abbvie.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T08:31:47Z", "event": "resolved", "ticker": "ABM", "name": "ABM Industries", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 14 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T08:34:16Z", "event": "resolved", "ticker": "ABT", "name": "Abbott Laboratories", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.abbott.com/en-us/investors/resources", "notes": "tavily — verified: name token 'abbott' present"}
+{"ts": "2026-05-11T08:35:53Z", "event": "resolved", "ticker": "ADM", "name": "Archer-Daniels-Midland", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.archer.com/", "notes": "name-heuristic — verified: name token 'archer' present"}
+{"ts": "2026-05-11T08:36:35Z", "event": "resolved", "ticker": "ADP", "name": "Automatic Data Processing", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.automatic.com/", "notes": "name-heuristic — verified: name token 'data' present"}
+{"ts": "2026-05-11T08:36:47Z", "event": "resolved", "ticker": "AFL", "name": "Aflac", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.aflac.com/", "notes": "name-heuristic — verified: name token 'aflac' present"}
+{"ts": "2026-05-11T08:36:49Z", "event": "resolved", "ticker": "ALB", "name": "Albemarle", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.albemarle.com/", "notes": "name-heuristic — verified: name token 'albemarle' present"}
+{"ts": "2026-05-11T08:36:50Z", "event": "resolved", "ticker": "AOS", "name": "A. O. Smith", "status": "ok", "method": "known", "verified": false, "url": "https://www.aosmith.com/Investor", "notes": "known — UNVERIFIED (HTTP 404); kept anyway, review"}
+{"ts": "2026-05-11T08:39:53Z", "event": "resolved", "ticker": "APD", "name": "Air Products and Chemicals", "status": "ok", "method": "tavily", "verified": true, "url": "https://quartr.com/companies/air-products-and-chemicals-inc_5496", "notes": "tavily — verified: name token 'air' present"}
+{"ts": "2026-05-11T08:40:06Z", "event": "resolved", "ticker": "ATO", "name": "Atmos Energy", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.atmosenergy.com/", "notes": "name-heuristic — verified: name token 'atmos' present"}
+{"ts": "2026-05-11T08:42:58Z", "event": "resolved", "ticker": "AWR", "name": "American States Water", "status": "ok", "method": "tavily", "verified": true, "url": "https://ir.amwater.com/ir-home/default.aspx", "notes": "tavily — verified: name token 'american' present"}
+{"ts": "2026-05-11T08:46:36Z", "event": "resolved", "ticker": "BDX", "name": "Becton Dickinson", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/nyse/bdx/investor-relations", "notes": "tavily — verified: name token 'becton' present"}
+{"ts": "2026-05-11T08:46:37Z", "event": "resolved", "ticker": "BEN", "name": "Franklin Resources", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.franklinresources.com/", "notes": "name-heuristic — verified: name token 'franklin' present"}
+{"ts": "2026-05-11T08:49:15Z", "event": "resolved", "ticker": "BF-B", "name": "Brown-Forman (Class B)", "status": "ok", "method": "tavily", "verified": true, "url": "https://investors.brown-forman.com/investors/news-releases/default.aspx", "notes": "tavily — verified: name token 'brown' present"}
+{"ts": "2026-05-11T08:49:58Z", "event": "resolved", "ticker": "BKH", "name": "Black Hills Corporation", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.black.com/investors", "notes": "name-heuristic — verified: name token 'black' present"}
+{"ts": "2026-05-11T08:51:23Z", "event": "resolved", "ticker": "BRO", "name": "Brown & Brown", "status": "ok", "method": "tavily", "verified": true, "url": "https://investor.bbrown.com/index.php/node?page=9", "notes": "tavily — verified: name token 'brown' present"}
+{"ts": "2026-05-11T08:51:24Z", "event": "resolved", "ticker": "CAT", "name": "Caterpillar", "status": "ok", "method": "known", "verified": false, "url": "https://www.caterpillar.com/en/investors.html", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:51:26Z", "event": "resolved", "ticker": "CB", "name": "Chubb", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.chubb.com/", "notes": "name-heuristic — verified: name token 'chubb' present"}
+{"ts": "2026-05-11T08:52:52Z", "event": "resolved", "ticker": "CBSH", "name": "Commerce Bancshares", "status": "ok", "method": "tavily", "verified": true, "url": "https://investor.commercebank.com/corporate-profile/default.aspx", "notes": "tavily — verified: name token 'commerce' present"}
+{"ts": "2026-05-11T08:52:54Z", "event": "resolved", "ticker": "CHD", "name": "Church & Dwight", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.churchdwight.com/", "notes": "name-heuristic — verified: name token 'church' present"}
+{"ts": "2026-05-11T08:52:55Z", "event": "resolved", "ticker": "CHRW", "name": "C.H. Robinson", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.chrobinson.com/", "notes": "name-heuristic — verified: name token 'robinson' present"}
+{"ts": "2026-05-11T08:53:05Z", "event": "resolved", "ticker": "CINF", "name": "Cincinnati Financial", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.cincinnati.com/", "notes": "name-heuristic — verified: name token 'cincinnati' present"}
+{"ts": "2026-05-11T08:54:15Z", "event": "resolved", "ticker": "CL", "name": "Colgate-Palmolive", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/nyse/cl/investor-relations", "notes": "tavily — verified: name token 'colgate' present"}
+{"ts": "2026-05-11T08:55:30Z", "event": "resolved", "ticker": "CLX", "name": "Clorox", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/nyse/clx/investor-relations", "notes": "tavily — verified: name token 'clorox' present"}
+{"ts": "2026-05-11T08:55:32Z", "event": "resolved", "ticker": "CTAS", "name": "Cintas", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.cintas.com/investors", "notes": "name-heuristic — verified: name token 'cintas' present"}
+{"ts": "2026-05-11T08:55:33Z", "event": "resolved", "ticker": "CVX", "name": "Chevron", "status": "ok", "method": "known", "verified": false, "url": "https://www.chevron.com/investors", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T08:58:15Z", "event": "resolved", "ticker": "CWT", "name": "California Water Service", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/nyse/cwt/investor-relations", "notes": "tavily — verified: name token 'california' present"}
+{"ts": "2026-05-11T08:58:17Z", "event": "resolved", "ticker": "DOV", "name": "Dover Corporation", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.dover.com/investors", "notes": "name-heuristic — verified: name token 'dover' present"}
+{"ts": "2026-05-11T08:58:18Z", "event": "resolved", "ticker": "ECL", "name": "Ecolab", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.ecolab.com/", "notes": "name-heuristic — verified: name token 'ecolab' present"}
+{"ts": "2026-05-11T09:00:50Z", "event": "resolved", "ticker": "ED", "name": "Consolidated Edison", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:01:53Z", "event": "resolved", "ticker": "EMR", "name": "Emerson Electric", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ir.emerson.com/", "notes": "name-heuristic — verified: name token 'emerson' present"}
+{"ts": "2026-05-11T09:02:49Z", "event": "resolved", "ticker": "ERIE", "name": "Erie Indemnity", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.alphaspread.com/security/nasdaq/erie/investor-relations", "notes": "tavily — verified: name token 'erie' present"}
+{"ts": "2026-05-11T09:03:37Z", "event": "resolved", "ticker": "ES", "name": "Eversource Energy", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.eversourceenergy.com/investors", "notes": "name-heuristic — verified: name token 'eversource' present"}
+{"ts": "2026-05-11T09:04:18Z", "event": "resolved", "ticker": "EXPD", "name": "Expeditors International", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.expeditors.com/", "notes": "name-heuristic — verified: name token 'expeditors' present"}
+{"ts": "2026-05-11T09:04:19Z", "event": "resolved", "ticker": "FAST", "name": "Fastenal", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.fastenal.com/", "notes": "name-heuristic — verified: name token 'fastenal' present"}
+{"ts": "2026-05-11T09:06:37Z", "event": "resolved", "ticker": "FDS", "name": "FactSet", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.factset.com/lp/investor-relations-workflow", "notes": "tavily — verified: name token 'factset' present"}
+{"ts": "2026-05-11T09:10:07Z", "event": "resolved", "ticker": "FRT", "name": "Federal Realty Inv. Trust", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.federalrealty.com/", "notes": "tavily — verified: name token 'federal' present"}
+{"ts": "2026-05-11T09:10:20Z", "event": "resolved", "ticker": "FUL", "name": "H.B. Fuller", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.hbfuller.com/", "notes": "name-heuristic — verified: name token 'fuller' present"}
+{"ts": "2026-05-11T09:10:56Z", "event": "resolved", "ticker": "GD", "name": "General Dynamics", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.generaldynamics.com/investors", "notes": "name-heuristic — verified: name token 'general' present"}
+{"ts": "2026-05-11T09:13:07Z", "event": "resolved", "ticker": "GPC", "name": "Genuine Parts Company", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.genpt.com/overview", "notes": "tavily — verified: name token 'genuine' present"}
+{"ts": "2026-05-11T09:15:00Z", "event": "resolved", "ticker": "GRC", "name": "Gorman-Rupp", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.gormanrupp.com/en/investor_information", "notes": "tavily — verified: name token 'gorman' present"}
+{"ts": "2026-05-11T09:18:21Z", "event": "resolved", "ticker": "GWW", "name": "W.W. Grainger", "status": "ok", "method": "tavily", "verified": true, "url": "https://invest.grainger.com/financials/annual-reports-and-proxies/default.aspx", "notes": "tavily — verified: name token 'grainger' present"}
+{"ts": "2026-05-11T09:18:22Z", "event": "resolved", "ticker": "HRL", "name": "Hormel Foods", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.hormelfoods.com/", "notes": "name-heuristic — verified: name token 'hormel' present"}
+{"ts": "2026-05-11T09:19:44Z", "event": "resolved", "ticker": "IBM", "name": "International Business Machines", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.ibm.com/investor/services/proxy", "notes": "tavily — verified: name token 'business' present"}
+{"ts": "2026-05-11T09:21:45Z", "event": "resolved", "ticker": "ITW", "name": "Illinois Tool Works", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.illinois.com/investors", "notes": "name-heuristic — verified: name token 'illinois' present"}
+{"ts": "2026-05-11T09:23:48Z", "event": "resolved", "ticker": "JKHY", "name": "Jack Henry & Associates", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.jkhy.com/", "notes": "name-heuristic — verified: name token 'jack' present"}
+{"ts": "2026-05-11T09:26:13Z", "event": "resolved", "ticker": "KMB", "name": "Kimberly-Clark", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.kimberly-clark.com/en-us/investors/annual-reports", "notes": "tavily — verified: name token 'kimberly' present"}
+{"ts": "2026-05-11T09:28:10Z", "event": "resolved", "ticker": "LEG", "name": "Leggett & Platt", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:28:24Z", "event": "resolved", "ticker": "LIN", "name": "Linde", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.linde.com/", "notes": "name-heuristic — verified: name token 'linde' present"}
+{"ts": "2026-05-11T09:28:48Z", "event": "resolved", "ticker": "LOW", "name": "Lowe's", "status": "ok", "method": "heuristic", "verified": true, "url": "https://ir.lowes.com/", "notes": "name-heuristic — verified: name token 'lowe' present"}
+{"ts": "2026-05-11T09:28:49Z", "event": "resolved", "ticker": "MCD", "name": "McDonald's", "status": "ok", "method": "known", "verified": true, "url": "https://corporate.mcdonalds.com/corpmcd/investors.html", "notes": "known — verified: name token 'mcdonald' present"}
+{"ts": "2026-05-11T09:30:08Z", "event": "resolved", "ticker": "MDT", "name": "Medtronic", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 10 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:30:45Z", "event": "resolved", "ticker": "MGEE", "name": "MGE Energy", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.mgeenergy.com/investor-relations", "notes": "name-heuristic — verified: name token 'mge' present"}
+{"ts": "2026-05-11T09:32:49Z", "event": "resolved", "ticker": "MKC", "name": "McCormick & Company", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:32:51Z", "event": "resolved", "ticker": "MO", "name": "Altria Group", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.altria.com/", "notes": "name-heuristic — verified: name token 'altria' present"}
+{"ts": "2026-05-11T09:33:28Z", "event": "resolved", "ticker": "MSA", "name": "MSA Safety", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.msasafety.com/investor-relations", "notes": "name-heuristic — verified: name token 'msa' present"}
+{"ts": "2026-05-11T09:34:55Z", "event": "resolved", "ticker": "MSEX", "name": "Middlesex Water", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:34:56Z", "event": "resolved", "ticker": "MSFT", "name": "Microsoft", "status": "ok", "method": "known", "verified": false, "url": "https://www.microsoft.com/en-us/investor", "notes": "known — UNVERIFIED (parked/error page (matched 'not found')); kept anyway, review"}
+{"ts": "2026-05-11T09:35:09Z", "event": "resolved", "ticker": "NDSN", "name": "Nordson", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.nordson.com/", "notes": "name-heuristic — verified: name token 'nordson' present"}
+{"ts": "2026-05-11T09:35:11Z", "event": "resolved", "ticker": "NEE", "name": "NextEra Energy", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.nexteraenergy.com/", "notes": "name-heuristic — verified: name token 'nextera' present"}
+{"ts": "2026-05-11T09:35:12Z", "event": "resolved", "ticker": "NFG", "name": "National Fuel Gas", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.nationalfuelgas.com/", "notes": "name-heuristic — verified: name token 'national' present"}
+{"ts": "2026-05-11T09:35:14Z", "event": "resolved", "ticker": "NUE", "name": "Nucor", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.nucor.com/", "notes": "name-heuristic — verified: name token 'nucor' present"}
+{"ts": "2026-05-11T09:35:19Z", "event": "resolved", "ticker": "NWN", "name": "Northwest Natural Holding", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.northwestnatural.com/investor-relations", "notes": "name-heuristic — weak-verified: ticker 'NWN' present, name tokens ['northwest', 'natural'] absent"}
+{"ts": "2026-05-11T09:35:20Z", "event": "resolved", "ticker": "PEP", "name": "PepsiCo", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.pepsico.com/", "notes": "name-heuristic — verified: name token 'pepsico' present"}
+{"ts": "2026-05-11T09:36:57Z", "event": "resolved", "ticker": "PH", "name": "Parker-Hannifin", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.parker.com/", "notes": "name-heuristic — verified: name token 'parker' present"}
+{"ts": "2026-05-11T09:38:23Z", "event": "resolved", "ticker": "PNR", "name": "Pentair", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 10 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:39:49Z", "event": "resolved", "ticker": "PPG", "name": "PPG Industries", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.ppg.com/", "notes": "name-heuristic — verified: name token 'ppg' present"}
+{"ts": "2026-05-11T09:40:01Z", "event": "resolved", "ticker": "RLI", "name": "RLI Corp.", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.rlicorp.com/", "notes": "name-heuristic — verified: name token 'rli' present"}
+{"ts": "2026-05-11T09:40:20Z", "event": "resolved", "ticker": "ROP", "name": "Roper Technologies", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.ropertechnologies.com/", "notes": "name-heuristic — verified: name token 'roper' present"}
+{"ts": "2026-05-11T09:40:31Z", "event": "resolved", "ticker": "RPM", "name": "RPM International", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.rpm.com/", "notes": "name-heuristic — verified: name token 'rpm' present"}
+{"ts": "2026-05-11T09:43:10Z", "event": "resolved", "ticker": "SCL", "name": "Stepan Company", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:43:48Z", "event": "resolved", "ticker": "SHW", "name": "Sherwin-Williams", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.sherwinwilliams.com/investors", "notes": "name-heuristic — verified: name token 'sherwin' present"}
+{"ts": "2026-05-11T09:44:00Z", "event": "resolved", "ticker": "SJM", "name": "J.M. Smucker", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.jmsmucker.com/", "notes": "name-heuristic — verified: name token 'smucker' present"}
+{"ts": "2026-05-11T09:44:01Z", "event": "resolved", "ticker": "SPGI", "name": "S&P Global", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.spglobal.com/", "notes": "name-heuristic — accepted on HTTP 200 (no distinctive name tokens to verify)"}
+{"ts": "2026-05-11T09:44:01Z", "event": "resolved", "ticker": "SPY", "name": "SPDR S&P 500 ETF Trust", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T09:47:30Z", "event": "resolved", "ticker": "SWK", "name": "Stanley Black & Decker", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:47:32Z", "event": "resolved", "ticker": "SYY", "name": "Sysco", "status": "ok", "method": "known", "verified": false, "url": "https://investors.sysco.com/", "notes": "known — UNVERIFIED (parked/error page (matched 'not found')); kept anyway, review"}
+{"ts": "2026-05-11T09:50:17Z", "event": "resolved", "ticker": "TDS", "name": "Telephone and Data Systems", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:50:30Z", "event": "resolved", "ticker": "TGT", "name": "Target", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investors.target.com/", "notes": "name-heuristic — verified: name token 'target' present"}
+{"ts": "2026-05-11T09:52:28Z", "event": "resolved", "ticker": "TNC", "name": "Tennant", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 10 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:54:56Z", "event": "resolved", "ticker": "TR", "name": "Tootsie Roll Industries", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:56:57Z", "event": "resolved", "ticker": "TROW", "name": "T. Rowe Price", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:58:18Z", "event": "resolved", "ticker": "UVV", "name": "Universal Corporation", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 10 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T09:58:19Z", "event": "resolved", "ticker": "V", "name": "Visa", "status": "ok", "method": "known", "verified": true, "url": "https://investor.visa.com/", "notes": "known — verified: name token 'visa' present"}
+{"ts": "2026-05-11T09:58:20Z", "event": "resolved", "ticker": "WMT", "name": "Walmart", "status": "ok", "method": "known", "verified": true, "url": "https://stock.walmart.com/", "notes": "known — verified: name token 'walmart' present"}
+{"ts": "2026-05-11T10:00:07Z", "event": "resolved", "ticker": "WST", "name": "West Pharmaceutical Services", "status": "ok", "method": "heuristic", "verified": true, "url": "https://www.west.com/investor-relations", "notes": "name-heuristic — verified: name token 'west' present"}
+{"ts": "2026-05-11T10:00:08Z", "event": "resolved", "ticker": "XOM", "name": "Exxon Mobil", "status": "ok", "method": "known", "verified": true, "url": "https://investor.exxonmobil.com/", "notes": "known — verified: name token 'exxon' present"}
+{"ts": "2026-05-11T10:00:08Z", "event": "discovery_done", "ok": 169, "fail": 16, "skip": 5, "tavily_used": 30, "out": "config\\ri_urls.yaml"}
+{"ts": "2026-05-11T10:05:49Z", "event": "discovery_start", "n": 11, "verify": true}
+{"ts": "2026-05-11T10:05:50Z", "event": "resolved", "ticker": "BBAS3", "name": "Banco do Brasil", "status": "ok", "method": "known", "verified": true, "url": "https://ri.bb.com.br/", "notes": "known — verified: full-name slug 'bancodobrasil' present"}
+{"ts": "2026-05-11T10:05:52Z", "event": "resolved", "ticker": "HGLG11", "name": "CSHG Logística", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/hglg11/", "notes": "fiis.com.br — verified: distinctive token 'stica'"}
+{"ts": "2026-05-11T10:05:54Z", "event": "resolved", "ticker": "KNRI11", "name": "Kinea Renda Imobiliária", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/knri11/", "notes": "fiis.com.br — verified: distinctive token 'kinea'"}
+{"ts": "2026-05-11T10:05:55Z", "event": "resolved", "ticker": "BN", "name": "Brookfield Corp", "status": "ok", "method": "known", "verified": true, "url": "https://bn.brookfield.com/", "notes": "known — verified: full-name slug 'brookfield' present"}
+{"ts": "2026-05-11T10:05:56Z", "event": "resolved", "ticker": "ADM", "name": "Archer-Daniels-Midland", "status": "ok", "method": "known", "verified": true, "url": "https://investors.adm.com/", "notes": "known — verified: full-name slug 'archerdanielsmidland' present"}
+{"ts": "2026-05-11T10:05:57Z", "event": "resolved", "ticker": "ADP", "name": "Automatic Data Processing", "status": "ok", "method": "known", "verified": true, "url": "https://investors.adp.com/", "notes": "known — verified: full-name slug 'automaticdataprocessing' present"}
+{"ts": "2026-05-11T10:06:10Z", "event": "resolved", "ticker": "AOS", "name": "A. O. Smith", "status": "ok", "method": "known", "verified": false, "url": "https://investor.aosmith.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:07:01Z", "event": "resolved", "ticker": "BKH", "name": "Black Hills Corporation", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 17 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T10:08:27Z", "event": "resolved", "ticker": "EXPD", "name": "Expeditors International", "status": "ok", "method": "heuristic", "verified": true, "url": "https://investor.expeditors.com/", "notes": "name-heuristic — verified: full-name slug 'expeditorsinternational' present"}
+{"ts": "2026-05-11T10:08:29Z", "event": "resolved", "ticker": "ITW", "name": "Illinois Tool Works", "status": "ok", "method": "known", "verified": true, "url": "https://investor.itw.com/", "notes": "known — verified: full-name slug 'illinoistoolworks' present"}
+{"ts": "2026-05-11T10:08:31Z", "event": "resolved", "ticker": "WST", "name": "West Pharmaceutical Services", "status": "ok", "method": "known", "verified": false, "url": "https://investors.westpharma.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:08:31Z", "event": "discovery_done", "ok": 10, "fail": 1, "skip": 0, "tavily_used": 0, "out": "config\\ri_urls.yaml"}
+{"ts": "2026-05-11T10:09:02Z", "event": "discovery_start", "n": 54, "verify": true}
+{"ts": "2026-05-11T10:11:56Z", "event": "resolved", "ticker": "BTLG12", "name": "BTG Logística 12 (residual)", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 15 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T10:14:26Z", "event": "resolved", "ticker": "ABCB4", "name": "Banco ABC Brasil", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 15 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T10:14:37Z", "event": "resolved", "ticker": "AXIA7", "name": "Axia Energia", "status": "ok", "method": "known", "verified": false, "url": "https://ri.axiaenergia.com.br/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:14:38Z", "event": "resolved", "ticker": "BBAS3", "name": "Banco do Brasil", "status": "ok", "method": "known", "verified": true, "url": "https://ri.bb.com.br/", "notes": "known — verified: full-name slug 'bancodobrasil' present"}
+{"ts": "2026-05-11T10:14:40Z", "event": "resolved", "ticker": "HGLG11", "name": "CSHG Logística", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/hglg11/", "notes": "fiis.com.br — verified: distinctive token 'stica'"}
+{"ts": "2026-05-11T10:17:21Z", "event": "resolved", "ticker": "ISAE4", "name": "ISA Energia Brasil (ex-CTEEP)", "status": "ok", "method": "tavily", "verified": true, "url": "https://ri.isaenergiabrasil.com.br/en/isa-energia/corporate-profile", "notes": "tavily — verified: distinctive token 'cteep'"}
+{"ts": "2026-05-11T10:17:22Z", "event": "resolved", "ticker": "KNRI11", "name": "Kinea Renda Imobiliária", "status": "ok", "method": "fii_heuristic", "verified": true, "url": "https://www.fiis.com.br/knri11/", "notes": "fiis.com.br — verified: distinctive token 'kinea'"}
+{"ts": "2026-05-11T10:19:35Z", "event": "resolved", "ticker": "SANB11", "name": "Santander BR", "status": "ok", "method": "tavily", "verified": true, "url": "https://www.santander.com/en/shareholders-and-investors", "notes": "tavily — verified: distinctive token 'santander'"}
+{"ts": "2026-05-11T10:19:46Z", "event": "resolved", "ticker": "TUPY3", "name": "Tupy", "status": "ok", "method": "known", "verified": false, "url": "https://ri.tupy.com.br/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:19:47Z", "event": "resolved", "ticker": "UNIP6", "name": "Unipar", "status": "ok", "method": "known", "verified": false, "url": "https://ri.unipar.com/", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T10:21:33Z", "event": "resolved", "ticker": "WIZC3", "name": "Wiz Co", "status": "failed", "method": "unknown", "verified": null, "url": null, "notes": "all 9 name-heuristic candidates failed; Tavily defer"}
+{"ts": "2026-05-11T10:21:34Z", "event": "resolved", "ticker": "BN", "name": "Brookfield Corp", "status": "ok", "method": "known", "verified": true, "url": "https://bn.brookfield.com/", "notes": "known — verified: full-name slug 'brookfield' present"}
+{"ts": "2026-05-11T10:21:46Z", "event": "resolved", "ticker": "ABM", "name": "ABM Industries", "status": "ok", "method": "known", "verified": false, "url": "https://investor.abm.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:21:59Z", "event": "resolved", "ticker": "ABT", "name": "Abbott Laboratories", "status": "ok", "method": "known", "verified": false, "url": "https://www.abbottinvestor.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:00Z", "event": "resolved", "ticker": "ADM", "name": "Archer-Daniels-Midland", "status": "ok", "method": "known", "verified": true, "url": "https://investors.adm.com/", "notes": "known — verified: full-name slug 'archerdanielsmidland' present"}
+{"ts": "2026-05-11T10:22:02Z", "event": "resolved", "ticker": "ADP", "name": "Automatic Data Processing", "status": "ok", "method": "known", "verified": true, "url": "https://investors.adp.com/", "notes": "known — verified: full-name slug 'automaticdataprocessing' present"}
+{"ts": "2026-05-11T10:22:14Z", "event": "resolved", "ticker": "AOS", "name": "A. O. Smith", "status": "ok", "method": "known", "verified": false, "url": "https://investor.aosmith.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:27Z", "event": "resolved", "ticker": "APD", "name": "Air Products and Chemicals", "status": "ok", "method": "known", "verified": false, "url": "https://investors.airproducts.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:28Z", "event": "resolved", "ticker": "AWR", "name": "American States Water", "status": "ok", "method": "known", "verified": false, "url": "https://ir.aswater.com/", "notes": "known — UNVERIFIED (parked/error page ('page not found')); kept anyway, review"}
+{"ts": "2026-05-11T10:22:29Z", "event": "resolved", "ticker": "BDX", "name": "Becton Dickinson", "status": "ok", "method": "known", "verified": true, "url": "https://investors.bd.com/", "notes": "known — verified: distinctive token 'becton'"}
+{"ts": "2026-05-11T10:22:31Z", "event": "resolved", "ticker": "BF-B", "name": "Brown-Forman (Class B)", "status": "ok", "method": "known", "verified": true, "url": "https://investors.brown-forman.com/", "notes": "known — verified: distinctive token 'brown'"}
+{"ts": "2026-05-11T10:22:42Z", "event": "resolved", "ticker": "BKH", "name": "Black Hills Corporation", "status": "ok", "method": "known", "verified": false, "url": "https://investors.blackhillscorp.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:43Z", "event": "resolved", "ticker": "BRO", "name": "Brown & Brown", "status": "ok", "method": "known", "verified": true, "url": "https://investor.bbrown.com/", "notes": "known — verified: distinctive token 'brown'"}
+{"ts": "2026-05-11T10:22:44Z", "event": "resolved", "ticker": "CBSH", "name": "Commerce Bancshares", "status": "ok", "method": "known", "verified": false, "url": "https://investor.commercebancshares.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:57Z", "event": "resolved", "ticker": "CL", "name": "Colgate-Palmolive", "status": "ok", "method": "known", "verified": false, "url": "https://investor.colgatepalmolive.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:22:58Z", "event": "resolved", "ticker": "CLX", "name": "Clorox", "status": "ok", "method": "known", "verified": true, "url": "https://investors.thecloroxcompany.com/", "notes": "known — verified: full-name slug 'clorox' present"}
+{"ts": "2026-05-11T10:23:09Z", "event": "resolved", "ticker": "CWT", "name": "California Water Service", "status": "ok", "method": "known", "verified": false, "url": "https://ir.calwatergroup.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:23:20Z", "event": "resolved", "ticker": "ED", "name": "Consolidated Edison", "status": "ok", "method": "known", "verified": false, "url": "https://investor.conedison.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:23:23Z", "event": "resolved", "ticker": "ERIE", "name": "Erie Indemnity", "status": "ok", "method": "known", "verified": false, "url": "https://www.erie.com/about-erie/investor-relations", "notes": "known — UNVERIFIED (HTTP 404); kept anyway, review"}
+{"ts": "2026-05-11T10:23:36Z", "event": "resolved", "ticker": "ES", "name": "Eversource Energy", "status": "ok", "method": "known", "verified": false, "url": "https://investors.eversource.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:23:49Z", "event": "resolved", "ticker": "FDS", "name": "FactSet", "status": "ok", "method": "known", "verified": false, "url": "https://investor.factset.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:00Z", "event": "resolved", "ticker": "FRT", "name": "Federal Realty Inv. Trust", "status": "ok", "method": "known", "verified": false, "url": "https://investors.federalrealty.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:11Z", "event": "resolved", "ticker": "GPC", "name": "Genuine Parts Company", "status": "ok", "method": "known", "verified": false, "url": "https://investor.genpt.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:22Z", "event": "resolved", "ticker": "GRC", "name": "Gorman-Rupp", "status": "ok", "method": "known", "verified": false, "url": "https://investors.gormanrupp.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:24Z", "event": "resolved", "ticker": "GWW", "name": "W.W. Grainger", "status": "ok", "method": "known", "verified": true, "url": "https://invest.grainger.com/", "notes": "known — verified: full-name slug 'wwgrainger' present"}
+{"ts": "2026-05-11T10:24:25Z", "event": "resolved", "ticker": "IBM", "name": "International Business Machines", "status": "ok", "method": "known", "verified": true, "url": "https://www.ibm.com/investor", "notes": "known — verified: distinctive token 'business'"}
+{"ts": "2026-05-11T10:24:26Z", "event": "resolved", "ticker": "ITW", "name": "Illinois Tool Works", "status": "ok", "method": "known", "verified": true, "url": "https://investor.itw.com/", "notes": "known — verified: full-name slug 'illinoistoolworks' present"}
+{"ts": "2026-05-11T10:24:39Z", "event": "resolved", "ticker": "KMB", "name": "Kimberly-Clark", "status": "ok", "method": "known", "verified": false, "url": "https://investor.kimberly-clark.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:50Z", "event": "resolved", "ticker": "LEG", "name": "Leggett & Platt", "status": "ok", "method": "known", "verified": false, "url": "https://investors.leggett.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:24:51Z", "event": "resolved", "ticker": "MDT", "name": "Medtronic", "status": "ok", "method": "known", "verified": true, "url": "https://investorrelations.medtronic.com/", "notes": "known — verified: full-name slug 'medtronic' present"}
+{"ts": "2026-05-11T10:25:04Z", "event": "resolved", "ticker": "MKC", "name": "McCormick & Company", "status": "ok", "method": "known", "verified": false, "url": "https://ir.mccormick.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:25:04Z", "event": "resolved", "ticker": "MSEX", "name": "Middlesex Water", "status": "ok", "method": "known", "verified": false, "url": "https://www.middlesexwater.com/category/investors/", "notes": "known — UNVERIFIED (HTTP 415); kept anyway, review"}
+{"ts": "2026-05-11T10:25:06Z", "event": "resolved", "ticker": "MSFT", "name": "Microsoft", "status": "ok", "method": "known", "verified": true, "url": "https://www.microsoft.com/en-us/investor", "notes": "known — verified: full-name slug 'microsoft' present"}
+{"ts": "2026-05-11T10:25:18Z", "event": "resolved", "ticker": "PNR", "name": "Pentair", "status": "ok", "method": "known", "verified": false, "url": "https://investors.pentair.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:25:32Z", "event": "resolved", "ticker": "SCL", "name": "Stepan Company", "status": "ok", "method": "known", "verified": false, "url": "https://www.stepan.com/content/stepan-dot-com/en/investors.html", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:25:33Z", "event": "resolved", "ticker": "SHW", "name": "Sherwin-Williams", "status": "ok", "method": "known", "verified": true, "url": "https://investors.sherwin-williams.com/", "notes": "known — verified: full-name slug 'sherwinwilliams' present"}
+{"ts": "2026-05-11T10:25:45Z", "event": "resolved", "ticker": "SWK", "name": "Stanley Black & Decker", "status": "ok", "method": "known", "verified": false, "url": "https://www.stanleyblackanddecker.com/investors", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:25:46Z", "event": "resolved", "ticker": "SYY", "name": "Sysco", "status": "ok", "method": "known", "verified": true, "url": "https://investors.sysco.com/", "notes": "known — verified: full-name slug 'sysco' present"}
+{"ts": "2026-05-11T10:25:48Z", "event": "resolved", "ticker": "TDS", "name": "Telephone and Data Systems", "status": "ok", "method": "known", "verified": true, "url": "https://investors.tdsinc.com/", "notes": "known — verified: full-name slug 'telephoneanddatasystems' present"}
+{"ts": "2026-05-11T10:25:49Z", "event": "resolved", "ticker": "TNC", "name": "Tennant", "status": "ok", "method": "known", "verified": true, "url": "https://investors.tennantco.com/", "notes": "known — verified: full-name slug 'tennant' present"}
+{"ts": "2026-05-11T10:25:51Z", "event": "resolved", "ticker": "TR", "name": "Tootsie Roll Industries", "status": "ok", "method": "known", "verified": false, "url": "https://www.tootsie.com/about/investor-relations", "notes": "known — UNVERIFIED (HTTP 403); kept anyway, review"}
+{"ts": "2026-05-11T10:26:03Z", "event": "resolved", "ticker": "TROW", "name": "T. Rowe Price", "status": "ok", "method": "known", "verified": false, "url": "https://investors.troweprice.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:26:08Z", "event": "resolved", "ticker": "UVV", "name": "Universal Corporation", "status": "ok", "method": "known", "verified": false, "url": "https://www.universalcorp.com/investor-relations/", "notes": "known — UNVERIFIED (HTTP 404); kept anyway, review"}
+{"ts": "2026-05-11T10:26:10Z", "event": "resolved", "ticker": "WST", "name": "West Pharmaceutical Services", "status": "ok", "method": "known", "verified": false, "url": "https://investors.westpharma.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:26:10Z", "event": "discovery_done", "ok": 51, "fail": 3, "skip": 0, "tavily_used": 5, "out": "config\\ri_urls.yaml"}
+{"ts": "2026-05-11T10:27:14Z", "event": "discovery_start", "n": 5, "verify": true}
+{"ts": "2026-05-11T10:27:14Z", "event": "resolved", "ticker": "BTLG12", "name": "BTG Logística 12 (residual)", "status": "skipped", "method": "etf", "verified": null, "url": null, "notes": "ETF / index tracker — no corporate RI"}
+{"ts": "2026-05-11T10:27:16Z", "event": "resolved", "ticker": "ABCB4", "name": "Banco ABC Brasil", "status": "ok", "method": "known", "verified": true, "url": "https://ri.abcbrasil.com.br/", "notes": "known — verified: full-name slug 'bancoabcbrasil' present"}
+{"ts": "2026-05-11T10:27:20Z", "event": "resolved", "ticker": "WIZC3", "name": "Wiz Co", "status": "ok", "method": "known", "verified": false, "url": "https://ri.wizsolucoes.com.br/", "notes": "known — UNVERIFIED (insufficient signal (tokens ['wiz']; distinct=[]; generic_hits=['wiz']; host=ri.wiz.co)); kept anyway, review"}
+{"ts": "2026-05-11T10:27:31Z", "event": "resolved", "ticker": "AWR", "name": "American States Water", "status": "ok", "method": "known", "verified": false, "url": "https://ir.americanstateswater.com/", "notes": "known — UNVERIFIED (fetch failed (timeout/conn/SSL)); kept anyway, review"}
+{"ts": "2026-05-11T10:27:31Z", "event": "resolved", "ticker": "ERIE", "name": "Erie Indemnity", "status": "ok", "method": "known", "verified": false, "url": "https://www.erie.com/about-erie/investor-relations", "notes": "known — UNVERIFIED (HTTP 404); kept anyway, review"}
+{"ts": "2026-05-11T10:27:32Z", "event": "discovery_done", "ok": 4, "fail": 0, "skip": 1, "tavily_used": 0, "out": "config\\ri_urls.yaml"}

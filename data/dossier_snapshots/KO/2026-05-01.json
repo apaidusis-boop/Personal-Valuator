@@ -1,0 +1,98 @@
+{
+  "ticker": "KO",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "KO",
+    "period_end": "2026-04-30",
+    "eps": 3.18,
+    "bvps": 7.816,
+    "roe": 0.43372002,
+    "pe": 24.767296,
+    "pb": 10.076766,
+    "dy": 0.026155408127552314,
+    "net_debt_ebitda": 1.798767732942853,
+    "dividend_streak_years": 65,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 3.2900302114803623,
+    "interest_coverage": 11.307134220072552,
+    "debt_to_assets": 0.4340177072202717,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 22.664684,
+    "ev_ebitda": 22.226,
+    "market_cap": 338904285184.0,
+    "fcf_ttm": 3165499904.0,
+    "shares_outstanding": 4303000000.0,
+    "next_ex_date": "2026-03-13",
+    "next_earnings_date": "2026-04-28",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 7,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 4.991143258359641,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.349869515214205,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Growth (5/12)",
+    "secondary": "Buffett/Quality (5/12)",
+    "value": 3,
+    "growth": 5,
+    "dividend": 2,
+    "buffett": 5,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 25.297579835673215,
+    "pessimistic_value": 19.721769572743924,
+    "optimistic_value": 33.37705188374384,
+    "margin_of_safety_pct": -0.6788016867760336,
+    "current_price": 78.76000213623047
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Impacto da guerra no Oriente Médio sobre custos de embalagem - Mariana Macro",
+    "Peso da posição (3.8%) próximo ao limite de 10% - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "A Coca-Cola apresenta um ROE sustentado de 43,4% e uma renda anual de 2,6%, apoiada por uma consistência em dividendos de 65 anos.",
+    "O P/E de 24.77 está dentro do intervalo considerado razoável para investimentos de valor"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que o impacto da guerra no Oriente Médio sobre custos de embalagem e possíveis aumentos nos preços dos produtos são temporários, Mariana Macro disse que esses desafios podem ser mais persistentes e afetar margens"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 30
+}

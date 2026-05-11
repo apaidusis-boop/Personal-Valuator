@@ -1,0 +1,45 @@
+ty per share assuming no reinvestment:
+Keeping all of our other assumptions intact, this results in a value of equity per share of 4,144 Sfr per share—an increase in
+value of approximately 22 percent.
+
+E Model—A Three-Stage FCFE Model
+The E model is designed to value firms that are expected to go through three stages of growth—an
+initial phase of high growth rates, a transitional period in which the growth rate declines, and a
+steady-state period in which growth is stable.
+The Model
+The E model calculates the present value of expected free cash flow to equity over all three stages of
+growth:
+where P
+0
+ = Value of the stock today 
+FCFE
+t
+ = FCFE in year t 
+k
+e
+ = Cost of equity 
+P
+n2
+ = Terminal price at the end of transitional period = FCFE
+n2+1
+/(k
+e
+ - g
+n
+) 
+n1 = End of initial high growth period 
+n2 = End of transition period
+Caveats in Using Model
+Since the model assumes that the growth rate goes through three distinct phases—high growth,
+transitional growth, and stable growth—it is important that assumptions about other variables are
+consistent with these assumptions about growth.
+Capital Spending versus Depreciation
+It is reasonable to assume that as the firm goes from high growth to stable growth, the relationship
+between capital spending and depreciation will change. In the high-growth phase, capital spending is
+likely to be much larger than depreciation. In the transitional phase, the difference is likely to narrow
+and the difference between capital spending and depreciation will be lower still in stable growth,
+reflecting the lower expected growth rate. (See 
+Figure 14.3
+.)
+Figure 14.3
+ Three-Stage FCFE Model: Reinvestment Needs

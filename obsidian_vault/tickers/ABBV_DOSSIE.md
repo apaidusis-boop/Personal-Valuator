@@ -1,0 +1,96 @@
+---
+type: research_dossie
+ticker: ABBV
+name: AbbVie
+market: us
+sector: Healthcare
+is_holding: False
+date: 2026-04-26
+verdict: HOLD
+verdict_confidence: medium
+verdict_consensus_pct: 60.0
+sources: [in-house DB, Synthetic IC, vault thesis]
+tokens_claude_data_gather: 0
+tags: [research, dossie, us, healthcare]
+---
+
+# 📑 ABBV — AbbVie
+
+> Generated **2026-04-26** by `ii dossier ABBV`. Cross-links: [[ABBV]] · [[ABBV_IC_DEBATE]] · [[CONSTITUTION]]
+
+## TL;DR
+
+AbbVie transaciona a P/E 84.20 com DY 3.39% e streak de 14y (herdou Aristocrat status via spinoff ABT em 2013). IC Synthetic verdica HOLD (60% consenso) — P/E muito acima do screen US (≤20) reflecte one-time charges Humira erosion já no denominador, distorcendo o múltiplo. Achado-chave: BVPS negativo torna P/B inutilizável; o que importa é Skyrizi+Rinvoq ramp (~$24B run-rate combinado) que está a substituir Humira faster than expected — entry condition deve focar normalised earnings, não P/E reportado.
+
+## 1. Fundamentals snapshot
+
+- **Período**: 2026-04-25
+- **EPS**: 2.36  |  **BVPS**: -1.85
+- **ROE**: 6225.00%  |  **P/E**: 84.20  |  **P/B**: -107.41
+- **DY**: 3.39%  |  **Streak div**: 14y  |  **Market cap**: USD 351.47B
+- **Last price**: USD 198.71 (2026-04-26)  |  **YoY**: +6.8%
+
+## 2. Synthetic IC
+
+**🏛️ HOLD** (medium confidence, 60.0% consensus)
+
+→ Detalhe: [[ABBV_IC_DEBATE]]
+
+## 3. Thesis
+
+**Core thesis (2026-04-24)**: A AbbVie é uma excelente posição long-term para um investidor Buffett/Graham devido à sua consistência no pagamento de dividendos e ao seu potencial de crescimento sustentado. Apesar do P/E alto de 86,91x, a empresa mantém um ROE impressionante de 62,25% e uma renda anual de 3,29%. Com uma história de 14 anos sem interrupção no pagamento de dividendos, a AbbVie demonstra sua capacidade de gerir lucrativamente seus negócios mesmo em cenários desafiadores.
+
+**Key assumptions**:
+1. A AbbVie continuará a expandir suas linhas de produtos e a manter um ROE acima de 60%.
+2. O mercado farmacêutico global continuará a crescer, mantendo as margens da AbbVie estáveis ou aumentando-as.
+3. A empresa manterá seu dividendo anual em pelo menos 3,29%, apesar das pressões regul
+
+→ Vault: [[ABBV]]
+
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **DY = 3.39%** → [[Glossary/DY|leitura + contraméricas]]. US Buffett DRIP: DY ≥ 2.5%. **3.39%** OK.
+- **Streak div = 14y** → [[Glossary/Dividend_Streak|porque importa]]. Target US ≥ 10y; **passa**.
+
+### Conceitos relacionados
+
+- 🛡️ **Princípios fundacionais**: [[Glossary/Margin_of_Safety|margem de segurança]] (Graham) + [[Glossary/Moat|moat]] (Buffett). Sem ambos, qualquer screen é teatro.
+
+## 4. Riscos identificados
+
+- 🟡 **Humira biosimilar erosion** — em fase de lapping mas declínio continua; magnitude residual ainda relevante. Trigger: events com kind='earnings' AND summary LIKE '%Humira%decline%' > -25% YoY.
+- 🟡 **Skyrizi/Rinvoq ramp adequacy** — substituição depende destes dois activos; qualquer slowdown é tese-killer. Trigger: revenue growth combinado < 20% YoY em earnings transcripts.
+- 🟡 **M&A integration risk** — Cerevel + ImmunoGen + Capstan; integração de neuroscience + ADC pipeline complexa. Trigger: events com kind='restructuring' OR goodwill writedown.
+- 🟢 **Dívida elevada pós-deals** — net debt significativo após aquisições. Trigger: net_debt_ebitda > 3.0 sustained.
+- 🟢 **Múltiplo distorcido por charges** — P/E reportado 84 não é quality signal; usar forward P/E ~15. Trigger: scoring engine usa GAAP P/E sem ajuste — flag para override manual.
+
+## 5. Position sizing
+
+**Status atual**: watchlist
+
+Watchlist — não é trade signal. Considerar entry inicial 3-5% da sleeve US se forward P/E (manual override) ≤ 18 E DY > 3.5% E Skyrizi+Rinvoq combined revenue YoY > 25%. DY 3.39% e streak 14y qualificam para core DRIP US, mas dívida pós-M&A e GAAP distortion exigem due diligence extra. Cash USD permanece em US (BR/US isolation).
+
+## 6. Tracking triggers (auto-monitoring)
+
+- `fundamentals.dy > 3.5% AND price drop YoY < -10%` — entry condition watchlist (P/E GAAP unreliable).
+- `fundamentals.net_debt_ebitda > 3.0` por 2Q — disconfirmation, dividend safety risk.
+- `events WHERE kind='earnings' AND summary LIKE '%Skyrizi%' OR LIKE '%Rinvoq%'` — track ramp.
+- `events WHERE kind='regulatory' AND summary LIKE '%biosimilar%'` — Humira erosion magnitude.
+- `scores.score > 75` (composite com forward P/E override) AND screen passes — promover.
+
+## 7. Compute trail
+
+| Stage | Tool | Tokens Claude |
+|---|---|---|
+| Recon DB | sqlite3 | 0 |
+| Vault read | filesystem | 0 |
+| IC + thesis (cached) | Ollama prior session | 0 |
+| Skeleton render | Python f-string | 0 |
+| TODO_CLAUDE narrativa | Claude (subsequent edit) | ~600-1000 |
+
+→ Re-run desta dossier (refresh): ~0.5s + 0 tokens (data layer só) ou ~600 tokens (re-fill narrativa).
+
+---
+*Generated by `ii dossier ABBV` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*

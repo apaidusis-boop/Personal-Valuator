@@ -1,0 +1,46 @@
+e next
+five years of high growth and the first year of stable growth thereafter:
+Year
+Cash Flow on Index
+1
+53.96(1.0695) = 57.72
+2
+57.72(1.0695) = 61.73
+3
+61.73(1.0695) = 66.02
+4
+66.02(1.0695) = 70.60
+
+5
+70.60(1.0695) = 75.51
+6
+75.51(1.0329) = 77.99
+If we assume that these are reasonable estimates of the cash flows and that the index is correctly
+priced, then:
+Note that the last term in the equation is the terminal value of the index, based on the stable growth
+rate of 3.29 percent, discounted back to the present. Solving for r in this equation yields us the
+required return on equity of 8.49 percent. Netting out the Treasury bond rate of 3.29 percent yields an
+implied equity premium of 5.20 percent.
+The advantage of this approach is that it is market-driven and current, and does not require any
+historical data. Thus, it can be used to estimate implied equity premiums in any market. It is,
+however, bounded by whether the model used for the valuation is the right one and by the availability
+and reliability of the inputs to that model. For instance, the equity risk premium for the Brazilian
+market on September 30, 2009, was estimated from the following inputs. The index (Bovespa) was at
+61,172, and the aggregate cash flow yield on the index was 4.95 percent. Earnings in companies in
+the index are expected to grow 6 percent (in U.S. dollar terms) over the next five years, and 3.45
+percent thereafter. These inputs yield a required return on equity of 9.17 percent, which when
+compared to the U.S. Treasury bond rate of 3.45 percent on that day results in an implied equity
+premium of 5.72 percent. For simplicity, we have used nominal dollar expected growth rates
+18
+ and
+Treasury bond rates, but this analysis could have been done entirely in the local currency.
+The implied equity premiums change over time as stock prices, earnings, and interest rates change.
+In fact, the contrast between these premiums and the historical premiums is best illustrated by
+graphing out the implied premiums in the S&P 500 going back to 1960 in 
+Figure 7.1
+. In terms of
+mechanics, smoothed historical growth rates in earnings and dividends were used as projected
+growth rates, and a two-stage dividend discount model was used. Looking at these numbers, the
+following conclusions would be drawn:
+Figure 7.1
+ Implied Premiums for U.S. Equity Market (1960 to 2010)

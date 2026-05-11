@@ -1,0 +1,32 @@
+at $19.05 per share. The stock would be underpriced if it were trading
+at $17, but it might not be underpriced enough for a short-term investor to take a large position in it. In contrast, a long-term
+
+investor may find the stock an attractive buy at that price.
+In practical terms, the bulk of the value of these firms is derived from the terminal value. While this
+will trouble some, it mirrors how an investor makes returns in these firms. The payoff to these
+investors takes the form of price appreciation rather than dividends or stock buybacks. Another way
+of explaining the dependence on terminal value and the importance of the sustainable growth
+assumption is in terms of assets in place and future growth. The value of any firm can be written as
+the sum of the two:
+For start-up firms with negative earnings, almost all of the value can be attributed to the second
+component. Not surprisingly, the firm value is determined by assumptions about the latter.
+ILLUSTRATION 23.7: Value Drivers—Tesla Motors
+While there are literally dozens of assumptions that underlie the value per share of $15.35 that we obtained for Tesla Motors,
+there are two key ones that drive the value per share. One is the compounded growth rate in revenues over the next 10
+years: with our estimated revenues growth rates, the compounded annual average growth rate is 45.24%. The other is the
+target pretax operating margin; we assumed that it would be 10%, higher than the automobile sector average but lower than
+the average for technology firms.
+In 
+Figure 23.2
+, we estimate the value per share as a function of the compounded annual revenue growth rate over the next
+10 years. Not surprisingly, the value per share increases as the compounded growth rate increases.
+Figure 23.2
+ Value per Share versus Compounded Revenue Growth—Tesla Motors
+To justify the current price of $29, you would need a compounded revenue growth rate of between 50 and 55 percent,
+holding all else constant.
+In 
+Figure 23.3
+, we estimate the value per share as a function of the target pretax operating margin. Here again, the value per
+share increases as the margin increases but to a much smaller degree than with revenue growth.
+Figure 23.3
+ Value per Share and Pretax Margin—Tesla Motors

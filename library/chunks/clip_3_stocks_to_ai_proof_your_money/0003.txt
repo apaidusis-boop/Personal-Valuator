@@ -1,0 +1,11 @@
+ate. Membership revenue renews annually and behaves more like a subscription business than a retail one, providing a financial buffer that most competitors lack.
+
+### Costco Uses AI — On Its Own Terms
+
+What makes Costco's story even more compelling for investors is that it is not passively sitting out the AI revolution. It is actively deploying AI where AI actually helps its model, rather than being disrupted by it.
+
+The approach is deliberately backend-first. Costco's CFO has been explicit about focusing on "foundational improvements" over flashy customer-facing technology. The results are real: an early machine learning model for predicting daily bakery demand across 30 warehouses saved the company nearly $100 million and was subsequently rolled out company-wide. AI-driven route optimization now adjusts delivery logistics in real time, accounting for traffic, weather, and fuel efficiency. Autonomous drones conduct overnight inventory counts with near-perfect accuracy, eliminating both hazardous manual labor and operational disruption to daytime warehouse activity. IoT sensors and RFID tags give managers live dashboards of stock positions across the entire supply chain.
+
+In each case, AI is being used to tighten the operational machine that keeps prices low — which is exactly what the membership model requires. For a business running on 3–4% operating margins, shaving costs through AI in logistics, inventory, and labor scheduling is not a luxury. It is essential to the flywheel.
+
+### The Physical Moat Is Durable

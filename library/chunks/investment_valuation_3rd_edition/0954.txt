@@ -1,0 +1,29 @@
+risks in banks, would you continue to use this beta in the valuation?
+Rather than try to come up with a composite value for Wells Fargo across all possible scenarios, we developed three
+scenarios:
+1.
+
+Quick bounce back to normalcy (10% probability).
+ This was the most optimistic scenario, in which we assumed
+that the crisis would pass quickly, that regulatory capital ratios would not be changed and that the return on equity and beta
+would revert back quickly to pre crisis levels (beta 
+= 
+1, ROE 
+= 
+18.91%).
+2.
+
+Slow bounce back to normalcy (60% probability).
+ This is a more pessimistic (and more realistic) scenario, in which
+the crisis does fade slowly but is accompanied by increased regulatory capital requirements (which will lower return on
+equity to 15%) and higher volatility for banks (which will raise the cost of equity to 10%).
+3.
+
+New world order (30 percent probability).
+ This is the most pessimistic of the scenarios, where the crisis drags on
+and regulatory capital changes are draconian, with return on equity dropping to 12% and the cost of equity rising to 11%.
+Using the return on equity and cost of equity as the levers in a dividend discount model, we were able to derive the value of
+equity:
+Assuming that Wells Fargo is in stable growth, growing 3% a year, we can estimate the value of equity as a function of the
+expected ROE and cost of equity. The table below summarizes the estimates for the aggregate value of equity (using
+$47,628 million as the base book equity) in Wells Fargo under all three scenarios:

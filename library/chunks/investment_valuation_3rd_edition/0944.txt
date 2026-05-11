@@ -1,0 +1,47 @@
+with a lower value.
+Sacrifice future growth.
+ CFROI, even more than EVA, is focused on existing assets and
+does not look at future growth. To the extent that managers increase CFROI at the expense of
+
+future growth, the value can decrease while CFROI goes up.
+Risk trade off.
+ While the CFROI is compared to the real cost of capital to pass judgment on
+whether a firm is creating or destroying value, it represents only a partial correction for
+risk. The value of a firm is still the present value of expected future cash flows. Thus a firm
+can increase its spread between the CFROI and cost of capital but still end up losing value
+if the present value effect of having a higher cost of capital dominates the higher CFROI.
+In general, then, an increase in CFROI does not, by itself, indicate that the firm value has increased,
+since it might have come at the expense of lower growth and/or higher risk.
+CFROI INNOVATIONS: THE FADE FACTOR AND
+IMPLIED COST OF CAPITAL
+The biggest contribution made by practitioners who use CFROI has been the work that they have done on how returns on
+capital fade over time toward the cost of capital. Madden (1998) makes the argument that not only is this phenomenon
+widespread but it is at least partially predictable. He presents evidence done by Holt Associates, a leading proponent of
+CFROI, which sorted the largest 1,000 firms by CFROI from highest to lowest, and tracked them over time to find a
+convergence toward an average. It should be noted that this book has used fade factors, without referring to them as such,
+in the chapters on discounted cash flow valuation. The fade to a lower return on capital occurred either precipitously in the
+terminal year or over a transition period.
+To compute the cost of capital, CFROI practitioners look to the market instead of the risk and return models that we have
+used to compute DCF value. Using the current market values of stocks and their estimates of expected aggregate cash
+flows, they compute internal rates of return that they use as the cost of capital in analysis. Chapter 7 used a very similar
+approach to estimate an implied risk premium, though this premium was used as an input into traditional risk and return
+models.
+CFROI and Market Value
+There is a relationship between CFROI and market value. Firms with high CFROI generally have
+high market value. This is not surprising, since it mirrors what we noted earlier about economic value
+added. However, it is 
+changes
+ in market value that create returns, not market value per se. When it
+comes to market value changes, the relationship between CFROI and value changes tends to be much
+weaker. Since market values reflect expectations, there is no reason to believe that firms that have
+high CFROI will earn excess returns.
+The relationship between changes in CFROI and excess returns is more intriguing. To the extent that
+any increase in CFROI is viewed as a positive surprise, firms with the biggest increases in CFROI
+should earn excess returns. In reality, however, the actual change in CFROI has to be measured
+against expectations; if CFROI increases, but less than expected, the market value should drop; if
+CFROI drops but by less than expected, the market value should increase.
+A POSTSCRIPT ON VALUE ENHANCEMENT
+The value of a firm has three components. The first is its capacity to generate cash flows from
+existing assets, with higher cash flows translating into higher value. The second is its willingness to
+reinvest to create future growth, and the quality of these reinvestments. Other things remaining equal,
+firms that reinvest well and earn significant excess returns on these investments will have higher

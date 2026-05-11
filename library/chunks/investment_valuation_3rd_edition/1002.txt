@@ -1,0 +1,78 @@
+st and the credibility of underwriter analyst
+recommendations. 
+Review of Financial Studies
+ 12:653–686.
+Niederhoffer, V., and M. F. M. Osborne. 1966. Market making and reversal on the stock exchange.
+
+Journal of the American Statistical Association
+ 61:891–916.
+Peters, E. E. 1991. 
+Chaos and order in the capital markets
+. New York: John Wiley & Sons.
+Pradhuman, S. 2000. 
+Small cap dynamics
+. Princeton, NJ: Bloomberg Press.
+Praetz, P. D. 1972. The distribution of share price changes. 
+Journal of Business
+ 45(1):49–55.
+Reinganum, M. R. 1983. The anomalous stock market behavior of small firms in January: Empirical
+tests for tax-loss effects. 
+Journal of Financial Economics
+ 12.
+Rendleman, R. J., C. P. Jones, and H. A. Latane´. 1982. Empirical anomalies based on unexpected
+earnings and the importance of risk adjustments. 
+Journal of Financial Economics
+ 10:269–287.
+Richards, R. M., and J. D. Martin. 1979. Revisions in earnings forecasts: How much response?
+Journal of Portfolio Management
+ 5:47–52.
+Ritter, J., and N. Chopra. 1989. Portfolio rebalancing and the turn of the year effect. 
+Journal of
+Finance
+ 44:149–166.
+Roll, R. 1983. Vas ist das?
+ Journal of Portfolio Management
+ 9:18–28.
+Roll, R. 1984. A simple implicit measure of the bid-ask spread in an efficient market. 
+Journal of
+Finance
+ 39:1127–1139.
+Rosenberg, B., K. Reid, and R. Lanstein. 1985. Persuasive evidence of market inefficiency. 
+Journal
+of Portfolio Management
+ 11:9–17.
+Seyhun, H. N. 1998. 
+Investment intelligence from insider trading
+. Cambridge, MA: MIT Press.
+Shiller, R. 1999. 
+Irrational exuberance
+. Princeton, NJ: Princeton University Press.
+Sunder, S. 1973. Relationship between accounting changes and stock prices: Problems of
+measurement and some empirical evidence. In 
+Empirical research in accounting: Selected studies
+1–45. Toronto: Lexington.
+Sunder, S. 1975. Stock price and risk related accounting changes in inventory valuation. 
+Accounting
+Review
+ 305–315.
+Womack, K. 1996. Do brokerage analysts' recommendations have investment value? 
+Journal of
+Finance
+ 51:137–167.
+Woodruff, C. S., and A. J. Senchack Jr. 1988. Intradaily price-volume adjustments of NYSE stocks to
+unexpected earnings. 
+Journal of Finance
+ 43(2):467–491.
+Chapter 7 Riskless Rates and Risk Premiums
+Altman, E. I. 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy.
+Journal of Finance
+ 23:589–609.
+Altman, E. I., and V. Kishore. 2000. The default experience of U.S. bonds. Working paper. Salomon
+Center, New York University.
+Booth, L. 1999. Estimating the equity risk premium and equity costs: New way of looking at old data.
+Journal of Applied Corporate Finance
+ 12(1): 100–112.
+Bruner, R. F., K. M. Eades, R. S. Harris, and R.C. Higgins. 1998. Best practices in estimating the
+cost of capital: Survey and synthesis. 
+Financial Practice and Education
+ 14–28.

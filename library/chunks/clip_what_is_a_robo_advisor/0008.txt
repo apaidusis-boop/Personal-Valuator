@@ -1,0 +1,13 @@
+Authority (FINRA)](https://www.investopedia.com/terms/f/finra.asp). You can use [BrokerCheck](https://brokercheck.finra.org/) to research robo-advisors in the same way that you would a human advisor.
+
+Assets managed by robo-advisors aren't insured by the [Federal Deposit Insurance Corp. (FDIC)](https://www.investopedia.com/terms/f/fdic.asp). That's because they are securities held for investment purposes, not bank deposits.
+
+However, this doesn't necessarily mean clients are unprotected. For example, Wealthfront is insured by the [Securities Investor Protection Corp. (SIPC)](https://www.investopedia.com/terms/s/sipc.asp), meaning that if the company goes bust, investors will be reimbursed up to $500,000 of their invested balance. As you research robo-advisors, don't forget to check on the kind of insurance each has to protect your investment.
+
+## How Robo-Advisors Get Paid
+
+The primary way that most robo-advisors get paid is through a [wrap fee](https://www.investopedia.com/terms/w/wrap-fee.asp) based on [assets under management (AUM)](https://www.investopedia.com/terms/a/aum.asp). While traditional (human) financial advisors typically charge 1% or more of AUM per year, many robo-advisors charge around 0.3% of AUM per year.
+
+Another revenue stream is [payment for order flow (PFOF)](https://www.investopedia.com/terms/p/paymentoforderflow.asp). This payment (typically fractions of a penny per share) results from directing trade orders to a particular market maker. PFOF can potentially result in better execution prices for clients. Typically, robo-advisors bundle various trade orders together into large block orders executed just one or two times a day.
+
+Finally, robo-advisors can earn money by marketing targeted financial products and services to their customers, such as mortgages, [credit cards](https://www.investopedia.com/how-do-credit-cards-work-5025119), or insurance policies. This is often done through strategic partnerships rather than advertising networks.

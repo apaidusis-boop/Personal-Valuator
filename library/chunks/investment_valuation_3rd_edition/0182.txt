@@ -1,0 +1,44 @@
+hat there should be no country risk premium. After looking at the basis for their argument, and then
+considering the alternative view that there should be a country risk premium, we present approaches
+
+for estimating country risk premiums, one based on country bond default spreads and one based on
+equity market volatility.
+Should There Be a Country Risk Premium?
+Is there more risk in investing in a Malaysian or Brazilian stock than there is in investing in the United
+States? The answer, to most, seems to be obviously affirmative. That, however, does not answer the
+question of whether there should be an additional risk premium charged when investing in those
+markets.
+Note that the only risk that is relevant for purposes of estimating a cost of equity is market risk or
+risk that cannot be diversified away. The key question then becomes whether the risk in an emerging
+market is diversifiable or nondiversifiable risk. If, in fact, the additional risk of investing in Malaysia
+or Brazil can be diversified away, then there should be no additional risk premium charged. If it
+cannot, then it makes sense to think about estimating a country risk premium.
+But diversified away by whom? Equity in a Brazilian or Malaysian firm can be held by hundreds or
+thousands of investors, some of whom may hold only domestic stocks in their portfolio, whereas
+others may have more global exposure. For purposes of analyzing country risk, we look at the
+marginal investor—the investor most likely to be trading on the equity. If that marginal investor is
+globally diversified, there is at least the potential for global diversification. If the marginal investor
+does not have a global portfolio, the likelihood of diversifying away country risk declines
+substantially. Stulz (1999) made a similar point using different terminology. He differentiated
+between segmented markets, where risk premiums can be different in each market because investors
+cannot or will not invest outside their domestic markets, and open markets, where investors can
+invest across markets. In a segmented market, the marginal investor will be diversified only across
+investments in that market, whereas in an open market, the marginal investor has the opportunity (even
+if he or she does not take it) to invest across markets.
+Even if the marginal investor is globally diversified, there is a second test that has to be met for
+country risk not to matter. All or much of country risk should be country specific. In other words,
+there should be low correlation across markets. Only then will the risk be diversifiable in a globally
+diversified portfolio. If, however, the returns across countries have significant positive correlation,
+country risk has a market risk component, is not diversifiable, and can command a premium. Whether
+returns across countries are positively correlated is an empirical question. Studies from the 1970s
+and 1980s suggested that the correlation was low, and this was an impetus for global diversification.
+Partly because of the success of that sales pitch and partly because economies around the world have
+become increasingly intertwined over the past decades, more recent studies indicate that the
+correlation across markets has risen. This is borne out by the speed with which troubles in one
+market, say Russia, can spread to a market with little or no obvious relationship to it, say Brazil.
+So where do we stand? We believe that while the barriers to trading across markets have dropped,
+investors still have a home bias in their portfolios and that markets remain partially segmented. While
+globally diversified investors are playing an increasing role in the pricing of equities around the
+world, the resulting increase in correlation across markets has resulted in a portion of country risk
+being nondiversifiable or market risk. The next section considers how best to measure this country
+risk and build it into expected returns.

@@ -1,0 +1,49 @@
+ut the actual relationship is slightly different. In particular, note
+that for a stable growth firm these multiples can be written as follows:
+where RIR is the reinvestment rate and t is the tax rate.
+
+In other words, higher costs of capital and lower expected growth decrease all of these multiples. A higher reinvestment rate
+lowers the last two multiples but does not affect the multiple of FCFF (since FCFF is already after reinvestment). A higher
+tax rate will affect just the last multiple, since the first two look at earnings after taxes.
+CONCLUSION
+The price-earnings ratio and other earnings multiples, which are widely used in valuation, have the
+potential to be misused. These multiples are ultimately determined by the same fundamentals that
+determine the value of a firm in a discounted cash flow model—expected growth, risk, and cash flow
+potential. Firms with higher growth, lower risk, and higher payout ratios, other things remaining
+equal, should trade at much higher multiples of earnings than other firms. To the extent that there are
+differences in fundamentals across countries, across time, and across companies, the multiples will
+also be different. A failure to control for these differences in fundamentals can lead to erroneous
+conclusions based purely on a direct comparison of multiples.
+There are several ways in which earnings multiples can be used in valuation. One way is to
+compare earnings multiples across a narrowly defined group of comparable firms and to control for
+differences in growth, risk, and cash flows subjectively. Another is to expand the definition of a
+comparable firm to the entire sector (such as technology) or the market, and to control for differences
+in fundamentals using statistical techniques.
+In the last part of the chapter, we turned our attention from equity multiples to multiples of operating
+earnings and cash flows. As with the PE ratio, these multiples are a function of growth (in operating
+income), reinvestment, and risk.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ National City Corporation, a bank holding company, reported earnings per share of $2.40 in
+1993, and paid dividends per share of $1.06. The earnings had grown 7.5% a year over the prior
+five years, and were expected to grow 6% a year in the long term (starting in 1994). The stock had
+a beta of 1.05 and traded for 10 times earnings. The Treasury bond rate was 7%, and the risk
+premium is 5.5%.
+a.
+ Estimate the PE ratio for National City Corporation.
+b.
+ What long-term growth rate is implied in the firm's current PE ratio?
+2.
+ On March 11, 1994, the New York Stock Exchange Composite was trading at 16.9 times
+earnings, and the average dividend yield across stocks on the exchange was 2.5%. The Treasury
+bond rate on that date was 6.95%. The economy was expected to grow 2.5% a year, in real terms,
+in the long term, and the consensus estimate for inflation, in the long term, was 3.5%. (Market risk
+premium is 5.5%.)
+a.
+ Based on these inputs, estimate the appropriate PE ratio for the exchange.
+b.
+ What growth rate in dividends/earnings would justify the PE ratio on March 11, 1994?
+c.
+ Would it matter whether this higher growth comes from higher inflation or higher real growth?
+Why?

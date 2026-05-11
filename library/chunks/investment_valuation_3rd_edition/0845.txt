@@ -1,0 +1,28 @@
+l) per barrel of oil is currently $12.
+7
+ Once
+developed, the net production revenue each year will be 5% of the value of the reserves. The riskless rate is 8%, and the
+variance in oil prices is 0.03.
+
+Given this information, the inputs to the Black-Scholes model can be estimated as follows:
+Based on these inputs, the Black-Scholes model provides the following call value:
+This oil reserve, though not viable at current prices, is still valuable because of its potential to create value if oil prices go up.
+9
+natres.xls:
+
+This spreadsheet allows you to estimate the value of an undeveloped natural resource
+reserve.
+MULTIPLE SOURCES OF UNCERTAINTY
+In the preceding example, we assumed that there was no uncertainty about the quantity of the reserve. Realistically, the oil
+company has an estimate of the reserve of 50 million barrels but does not know it with certainty. If we introduce uncertainty
+about the quantity of the reserve into the analysis, there will be two sources of variance and both can affect value. There are
+two ways we can address this problem:
+1.
+
+Combine the uncertainties into one value.
+ If we consider the value of the reserves to be the product of the price of
+oil and the oil reserves, the variance in the value should reflect the combined effect of the variances in each input.
+10
+ This
+would be the variance we would use in the option pricing model to estimate a new value for the reserve.
+2.

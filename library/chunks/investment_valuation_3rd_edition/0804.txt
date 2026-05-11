@@ -1,0 +1,41 @@
+equity are estimated each year by netting out interest expenses from income and adjusting the
+taxes accordingly. The following table summarizes cash flows to equity each year for the next five years.
+
+In year 5, we also estimate the terminal value of equity by subtracting the debt due from the terminal value of the building
+estimated in the previous illustration:
+ESTIMATING THE VALUE OF EQUITY
+The present value of the cash flows to equity for the next five years and the terminal value are computed in the following
+table:
+The value of the equity stake in the building is $39.83 million. Adding this value to the value of the debt raised of $60.89
+million gives us an estimate for the value of the building:
+Why is there a difference between this estimate of the property value and the one we arrived at in the previous illustration?
+The reason is simple. The debt ratio of 60% that we assumed and kept constant when estimating cost of capital will require
+us to borrow an additional amount each year for the next five years, since the building’s value will appreciate by about 3% a
+year. The tax benefits from this additional debt were implicitly built into the valuation of the building in the previous
+illustration but were ignored while valuing equity in this one. If we consider those tax benefits, we will arrive at the same
+value.
+REAL ESTATE VALUATION IN PRACTICE: A
+COMPARISON
+The building at 711 Third Avenue was valued for sale by an appraiser using discounted cash flow valuation. While many of
+the base assumptions in our valuation were borrowed from that appraisal, the estimate of value in the appraisal was $70
+million, about a third below our estimate. The main differences between our valuation and the appraiser’s valuation are as
+follows:
+The appraisal was done entirely in terms of pretax cash flows. Depreciation was therefore not considered
+and the tax benefits from it were ignored.
+The discount rate used was 11.5 percent, based on a proprietary survey of real estate investors done by the
+appraiser. While nothing was mentioned in the appraisal, this discount rate presumably was in pretax terms (to
+ensure consistency with how the cash flows were estimated) and stated as a return on the overall investment
+(and not just the equity investment). This is higher than the cost of capital we used.
+The terminal value was estimated based on a capitalization rate of 9.0 percent, which was also based on the
+survey. (The operating income in year 5 was divided by 9.0 percent to arrive at terminal value.)
+We believe that using pretax cash flows and pretax discount rates will miss the segment of value that comes from
+depreciation and interest expenses being tax deductible, and understate the value of the building. Assuming that the discount
+rate is defined correctly as a pretax cost of capital, the use of surveys to estimate both this number and the terminal multiple
+makes us uncomfortable, especially given the fact that the buyer of this building is a corporation with diversified investors.
+Limitations of Discounted Cash Flow Valuation
+There are many reasons given for why discounted cash flow valuation is not appropriate for real
+estate. First, it is argued the discount rates are difficult, if not impossible, to estimate for most real
+estate investments. Our counter is that this is not necessarily true. Second, it is posited that estimating
+cash flows for the time horizon is tedious and difficult to do, as is the estimation of the terminal value.
+However, it would seem that it is much easier to estimate cash flows for real estate than for some
+financial investments (for instance, a high-growth stock). Third, it is argued that discounted cash flow

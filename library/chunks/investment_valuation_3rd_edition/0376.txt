@@ -1,0 +1,33 @@
+TION 13.4: 
+Augmented versus Conventional
+Dividend Payout Ratios: Coca-Cola
+To illustrate the effect of using augmented dividends versus actual dividends, we will look at Coca-Cola, a company that has
+
+bought back stock between 2006 and 2010. In the following table, we estimate the total cash returned to stockholders each
+year from 2006 to 2010 and contrast the augmented payout ratio with the conventional payout ratio:
+The augmented dividend payout is higher than the dividend payout ratio in each year, but stock buybacks are volatile. That is
+why we would look at the augmented dividend payout ratio in the aggregate over the entire period; that number is 63.60%,
+higher than the conventional payout ratio of 49.15%.
+How would this play out in a valuation of Coca-Cola? Using the higher augmented payout ratio will result in higher cash
+flows to stockholders in the high growth phase, which should increase value. This effect, however, will be partly or even
+fully offset by a lower fundamental growth rate. In the case of Coca-Cola, where we will assume a return on equity of 25%,
+the expected growth rate using the higher augmented payout ratio can be computed as follows:
+In contrast, using the conventional payout ratio would have yielded an expected growth rate of more than 12.5%.
+Valuing an Entire Market Using the Dividend Discount Model
+All our examples of the dividend discount model so far have involved individual companies, but
+there is no reason why we cannot apply the same model to value a sector or even the entire market.
+The market price of the stock would be replaced by the cumulative market value of all of the stocks in
+the sector or market. The expected dividends would be the cumulated dividends of all these stocks,
+and could be expanded to include stock buybacks by all firms. The expected growth rate would be the
+growth rate in cumulated earnings of the index. There would be no need for a beta or betas, since you
+are looking at the entire market (which should have a beta of 1), and you could add the risk premium
+(or premiums) to the risk-free rate to estimate a cost of equity. You could use a two-stage model,
+where this growth rate is greater than the growth rate of the economy, but you should be cautious
+about setting the growth rate too high or the growth period too long, because it will be difficult for
+cumulated earnings growth of all firms in an economy to run ahead of the growth rate in the economy
+for extended periods.
+Consider a simple example. Assume that you have an index trading at 700, and that the average
+dividend yield of stocks in the index is 5 percent. Earnings and dividends can be expected to grow at
+4 percent a year forever, and the riskless rate is 5.4 percent. If you use a market risk premium of 4
+percent, the value of the index can be estimated as follows:
+At its existing level of 700, the market is slightly overpriced.

@@ -1,0 +1,42 @@
+first place if investors did not attempt to find under- and over-valued stocks and trade on these
+valuations. In other words, a precondition for market efficiency seems to be the existence of millions
+
+of investors who believe that markets are not efficient.
+On the other hand, those who believe that markets make mistakes and buy or sell stocks on that
+basis must believe that ultimately markets will correct these mistakes (i.e., become efficient), because
+that is how they make their money. This is therefore a fairly self-serving definition of inefficiency—
+markets are inefficient until you take a large position in the stock that you believe to be mispriced, but
+they become efficient after you take the position.
+It is best to approach the issue of market efficiency as a skeptic. Recognize that on the one hand
+markets make mistakes but, on the other, finding these mistakes requires a combination of skill and
+luck. This view of markets leads to the following conclusions: First, if something looks too good to
+be true—a stock looks obviously undervalued or overvalued—it is probably 
+not
+ true. Second, when
+the value from an analysis is significantly different from the market price, start off with the
+presumption that the market is correct; then you have to convince yourself that this is not the case
+before you conclude that something is over- or undervalued. This higher standard may lead you to be
+more cautious in following through on valuations, but given the difficulty of beating the market, this is
+not an undesirable outcome.
+Myth 6: The product of valuation (i.e., the value) is what matters;
+the process of valuation is not important.
+As valuation models are introduced in this book, there is the risk of focusing exclusively on the
+outcome (i.e., the value of the company and whether it is under- or overvalued), and missing some
+valuable insights that can be obtained from the process of the valuation. The process can tell us a
+great deal about the determinants of value and help us answer some fundamental questions: What is
+the appropriate price to pay for high growth? What is a brand name worth? How important is it to
+improve returns on projects? What is the effect of profit margins on value? Since the process is so
+informative, even those who believe that markets are efficient (and that the market price is therefore
+the best estimate of value) should be able to find some use for valuation models.
+THE ROLE OF VALUATION
+Valuation is useful in a wide range of tasks. The role it plays, however, is different in different
+arenas. The following section lays out the relevance of valuation in portfolio management, in
+acquisition analysis, and in corporate finance.
+Valuation in Portfolio Management
+The role that valuation plays in portfolio management is determined in large part by the investment
+philosophy of the investor. Valuation plays a minimal role in portfolio management for a passive
+investor, whereas it plays a larger role for an active investor. Even among active investors, the nature
+and the role of valuation are different for different types of active investment. Market timers should
+use valuation much less than investors who pick stocks for the long term, and their focus is on market
+valuation rather than on firm-specific valuation. Among stock pickers valuation plays a central role in
+portfolio management for fundamental analysts and a peripheral role for technical analysts.

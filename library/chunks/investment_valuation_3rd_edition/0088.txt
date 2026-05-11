@@ -1,0 +1,22 @@
+returns against overall market returns.
+While the use of proxy and melded models offers a way of adjusting expected returns to reflect
+market reality, there are three dangers in using these models.
+1.
+
+Data mining
+. As the amount of data that we have on companies increases and becomes more
+accessible, it is inevitable that we will find more variables that are related to returns. It is also
+likely that most of these variables are not proxies for risk and that the correlation is a function of
+the time period that we look at. In effect, proxy models are statistical models and not economic
+models. Thus, there is no easy way to separate the variables that matter from those that do not.
+
+2.
+
+Standard error
+. Since proxy models come from looking at historical data, they carry all of the
+burden of the noise in the data. Stock returns are extremely volatile over time, and any historical
+premia that we compute (for market capitalization or any other variable) are going to have
+significant standard errors. The standard errors on the size and book-to-market betas in the three-
+factor Fama-French model may be so large that using them in practice creates almost as much
+noise as it adds in precision.
+3.

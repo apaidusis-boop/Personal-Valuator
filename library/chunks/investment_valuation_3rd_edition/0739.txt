@@ -1,0 +1,35 @@
+when it
+comes to relative valuation. The peril, though, is that you are extending the pricing lessons that you
+learn from looking at more mature, publicly traded firms to a private business.
+Problems
+
+The issues we face in applying public market multiples to private businesses, especially early in the
+life cycle, are fairly obvious:
+Life cycle affects fundamentals.
+ If you accept the premise that only those young firms that
+make it through the early phase of the life cycle and succeed are likely to go public, you also
+have to accept the reality that public firms will have different fundamentals from private
+firms. Generally, public firms will be larger, have less potential for growth, and have more
+established markets than private businesses, and these differences will manifest themselves
+in the multiples investors pay for public companies.
+Diversified versus undiversified investors.
+ When we discussed estimating risk and
+discount rates for young, private businesses, we noted the different perspectives on risk that
+diversified investors in public companies have, relative to equity investors in private
+businesses, and how that difference can manifest itself as higher costs of equity for the
+latter. When you use multiples of earnings or revenues, obtained from a sample of publicly
+traded firms with diversified investors, to value a private business with undiversified
+investors, you will over-value the latter.
+Liquidity.
+ Since equity in publicly traded companies is more liquid than equity in private
+businesses, the value obtained by using public multiples will be too high if used for a
+private business. Just as we had to adjust for illiquidity in intrinsic valuation, we have to
+adjust for illiquidity with relative valuation.
+Usefulness and Best Practices
+What types of private businesses are best valued using public company multiples? Generally,
+companies that aspire to reach a larger market and either go public or be acquired by a public
+company are much better candidates for this practice. In effect, you are valuing the company for what
+it wants to be, rather than what it is today.
+There are three simple practices that can not only prevent egregious valuation errors but also lead
+to better valuations:
+1.

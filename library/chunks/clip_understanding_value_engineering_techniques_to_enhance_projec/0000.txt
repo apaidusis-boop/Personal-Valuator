@@ -1,0 +1,19 @@
+Definition
+
+Value engineering strategically improves a project's worth by refining its functionality while controlling costs, often by innovating alternative approaches or resources.
+
+### Key Takeaways
+
+- Value engineering is a method to maximize function while minimizing cost, without sacrificing quality.
+- Originating in the 1940s, value engineering substitutes costly materials with cheaper alternatives.
+- It involves six steps: information gathering, idea generation, evaluation, plan development, presentation, and implementation.
+- The ratio of function to cost is central to value engineering, aiming to boost function at the lowest cost.
+- There are four types of value considered: use, cost, esteem, and exchange.
+
+## What Is Value Engineering?
+
+Value engineering originated in the mid-20th century to help companies increase a product’s value by balancing cost and function. It involves analyzing a product or project to identify ways to reduce costs without sacrificing quality or performance. By focusing on innovative techniques and lower-cost alternatives, value engineering helps businesses optimize resources, improve efficiency, and maintain a competitive edge in the marketplace.
+
+## The Fundamentals of Value Engineering
+
+Value engineering is the review of new or existing products during the design phase to reduce costs and increase functionality to increase the value of the product. An item's value is the most cost-effective way to produce it without losing its purpose. Therefore, [reducing costs](https://www.investopedia.com/ask/answers/122214/company-it-more-important-lower-costs-or-increase-revenue.asp) at the expense of quality is simply a [cost-cutting](https://www.investopedia.com/terms/c/cost-cutting.asp) strategy.

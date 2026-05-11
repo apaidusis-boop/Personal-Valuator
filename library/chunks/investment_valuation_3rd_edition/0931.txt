@@ -1,0 +1,44 @@
+destroying firm value at the same time? If so, how can we protect stockholders against
+these practices?
+To answer these questions, let us go back to the earlier equation where we decomposed firm value
+
+into capital invested, the present value of economic value added by assets in place, and the present
+value of economic value added by future growth.
+EVA VALUATION VERSUS DCF VALUATION: WHEN
+THEY WILL DISAGREE
+To get the same value from discounted cash flow and EVA valuations, you have to ensure that the following conditions hold:
+The after-tax operating income that you use to estimate free cash flows to the firm should be equal to the
+after-tax operating income you use to compute economic value added. Thus, if you decide to adjust the
+operating income for operating leases and research and development expenses when doing discounted cash
+flow valuation, you have to adjust it for computing EVA as well.
+The growth rate you use to estimate after-tax operating income in future periods should be estimated from
+fundamentals when doing discounted cash flow valuation. In other words, it should be set to:
+Growth rate = Reinvestment rate × Return on capital 
+If growth is an exogenous input into a DCF model and the relationship between growth rates, reinvestments,
+and return on capital outlined just does not hold, you will get different values from DCF and EVA valuations.
+The capital invested that is used to compute EVA in future periods should be estimated by adding the
+reinvestment in each period to the capital invested at the beginning of the period. The EVA in each period
+should be computed as follows:
+You have to make consistent assumptions about terminal value in your discounted cash flow and EVA
+valuations. In the special case, where the return on capital on all investments—existing and new—is equal to
+the cost of capital after your terminal year, this is simple to do. The terminal value will be equal to your capital
+invested at the beginning of your terminal year. In the more general case, you will have to ensure that the
+capital invested at the beginning of your terminal year is consistent with your assumption about return on
+capital in perpetuity. In other words, if your after-tax operating income in your terminal year is $1.2 billion and
+you are assuming a return on capital of 10 percent in perpetuity, you will have to set your capital invested at
+the beginning of your terminal year to be $12 billion.
+The Capital Invested Game
+The first two terms in the preceding equation, the capital invested and the present value of economic
+value added by these investments, are both sensitive to the measurement of capital invested. If capital
+invested is reduced, keeping the operating income constant, the first term in the equation will drop but
+the present value of economic value added will increase proportionately. To illustrate, consider the
+firm valued in Illustration 32.1. Assume that the capital 
+invested is estimated to be $50 million rather
+than $100 million, and that the 
+operating income on these investments stays at $15 million. This will
+increase the return on capital on existing assets to 30 percent. The assumptions about future
+investments remain unchanged. The firm value can then be written as shown in 
+Table 32.1
+.
+Table 32.1
+ EVA Valuation of Firm: EVA and Assets in Place

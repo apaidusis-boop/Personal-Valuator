@@ -1,0 +1,38 @@
+man at NYU's Stern School of Business estimates these probabilities as part of an
+annual series that he updates. The latest version is available from the Stern School of Business
+working paper series.
+
+CHAPTER 13
+Dividend Discount Models
+In the strictest sense, the only cash flow you receive when you buy shares in a publicly traded firm is
+a dividend. The simplest model for valuing equity is the dividend discount model (DDM)—the value
+of a stock is the present value of expected dividends on it. While many analysts have turned away
+from the dividend discount model and view it as outmoded, much of the intuition that drives
+discounted cash flow valuation stems from the dividend discount model. In fact, there are companies
+where the dividend discount model remains a useful tool for estimating value.
+This chapter explores the general model as well as specific versions of it tailored for different
+assumptions about future growth. It also examines issues in using the dividend discount model and the
+results of studies that have looked at its efficacy.
+THE GENERAL MODEL
+When an investor buys stock, he or she generally expects to get two types of cash flows—dividends
+during the period the stock is held and an expected price at the end of the holding period. Since this
+expected price is itself determined by future dividends, the value of a stock is the present value of
+dividends through infinity:
+where DPS
+t
+ = Expected dividends per share 
+k
+e
+ = Cost of equity
+The rationale for the model lies in the present value rule—the value of any asset is the present value
+of expected future cash flows, discounted at a rate appropriate to the riskiness of the cash flows being
+discounted.
+There are two basic inputs to the model—expected dividends and the cost on equity. To obtain the
+expected dividends, we make assumptions about expected future growth rates in earnings and payout
+ratios. The required rate of return on a stock is determined by its riskiness, measured differently in
+different models—the market beta in the capital asset pricing model (CAPM) and the factor betas in
+the arbitrage and multifactor models. The model is flexible enough to allow for time-varying discount
+rates, where the time variation is because of expected changes in interest rates or risk across time.
+VERSIONS OF THE MODEL
+Since projections of dollar dividends cannot be made through infinity, several versions of the
+dividend discount model have been developed based on different assumptions about future growth.

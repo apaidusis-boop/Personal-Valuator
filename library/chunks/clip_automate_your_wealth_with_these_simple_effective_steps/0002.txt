@@ -1,0 +1,15 @@
+87d6.png) Choosing the Right Advisor: Human, Robo, or Both? Find Out Which Works for Your Financial Goals
+
+Updated Aug 04, 2025](https://www.investopedia.com/robo-advisor-vs-financial-advisor-4775377)
+
+## How Robo-Advisors Work
+
+At the core of every robo-advisory system is a set of algorithms: mathematical models used by the platform to build and manage investment portfolios. These algorithms are often based on [modern portfolio theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp), which directs portfolios to be constructed so that they maximize expected returns for a given level of risk. By combining different asset classes that don't move in perfect correlation with each other, it's the theoretical version of "don't put all your eggs in one basket."
+
+When you're onboarding with a robo-advisor, you typically complete a questionnaire that helps it assess your [risk tolerance](https://www.investopedia.com/terms/r/risktolerance.asp), investment goals, and [time horizon](https://www.investopedia.com/terms/t/timehorizon.asp). The platform uses this information to recommend where you should invest and how much (your asset allocation) to start.
+
+### Tip
+
+You don’t have to accept a platform’s investment recommendations. Typically, you can tailor your portfolio to your preferences.
+
+From there, the robo-advisor manages your portfolio automatically. It monitors your performance using data analytics and rebalances as necessary to maintain your asset allocation or to take advantage of strategies like [tax-loss harvesting](https://www.investopedia.com/articles/taxes/08/tax-loss-harvesting.asp).

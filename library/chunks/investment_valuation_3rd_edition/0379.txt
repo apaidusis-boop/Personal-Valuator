@@ -1,0 +1,45 @@
+ars. If this
+is revised to last 10 years, the value of extraordinary growth will increase.
+Profitability of projects.
+ The excess returns earned by projects determine the value of the expected growth.
+
+At the limit, growth becomes worthless if the firm earns a return on equity that is equal to the cost of equity.
+H Model for Valuing Growth
+The H model is a two-stage model for growth, but unlike the classic two-stage model, the growth rate
+in the initial growth phase is not constant but declines linearly over time to reach the stable growth
+rate in steady state. This model was presented in Fuller and Hsia (1984).
+The Model
+The model is based on the assumption that the earnings growth rate starts at a high initial rate (g
+a
+) and
+declines linearly over the extraordinary growth period (which is assumed to last 2H periods) to a
+stable growth rate (g
+n
+). It also assumes that the dividend payout and cost of equity are constant over
+time, and are not affected by the shifting growth rates. 
+Figure 13.4
+ graphs the expected growth over
+time in the H model.
+Figure 13.4
+ Expected Growth in the H Model
+The value of expected dividends in the H model can be written as follows:
+where P
+0
+ = Value of the firm now per share 
+DPS
+t
+ = DPS in year t 
+k
+e
+ = Cost of equity 
+g
+a
+ = Growth rate initially 
+g
+n
+ = Growth rate at end of 2H years, applies forever after that
+Limitations
+This model avoids the problems associated with the growth rate dropping precipitously from the high
+growth to the stable growth phase, but it does so at a cost. First, the decline in the growth rate is
+expected to follow the strict structure laid out in the model—it drops in linear increments each year
+based on the initial growth rate, the stable growth rate, and the length of the extraordinary growth

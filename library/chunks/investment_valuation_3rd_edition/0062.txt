@@ -1,0 +1,58 @@
+from operations, the most
+reasonable way of defining it is to measure the cash flows from continuing operations, before interest
+but after taxes and after meeting working capital needs.
+covratio.xls:
+
+This is a dataset on the Web that summarizes the interest coverage and fixed charges
+coverage ratios for firms in the United States, classified by industry.
+
+ILLUSTRATION 3.6: Interest and Fixed Charges Coverage
+Ratios: Boeing and the Home Depot in 1998
+The following table summarizes interest and fixed charges coverage ratios for Boeing and the Home Depot in 1998:
+Boeing
+Home Depot
+EBIT
+$1,720
+$2,661
+Interest expense
+$ 453
+$ 37
+Interest coverage ratio
+3.80
+71.92
+EBIT
+$1,720
+$2,661
+Operating lease expenses
+$ 215
+$ 290
+Interest expenses
+$ 453
+$ 37
+Fixed charges coverage ratio
+2.90
+9.02
+EBITDA
+$3,341
+$3,034
+Cash fixed charges
+$ 668
+$ 327
+Cash fixed charges coverage ratio
+5.00
+9.28
+Cash flows from operations
+$2,161
+$1,662
+Capital expenditures
+$1,584
+$2,059
+Cash flows/Capital expenditures
+1.36
+0.81
+Boeing, based on its operating income in 1998, looks riskier than the Home Depot on both the interest coverage ratio basis
+and fixed charges coverage ratio basis. On a cash flow basis, however, Boeing does look much better. In fact, when capital
+expenditures are considered, the Home Depot has a lower ratio. For Boeing, the other consideration is the fact that operating
+income in 1998 was depressed relative to income in earlier years, and this does have an impact on the ratios across the
+board. It might make more sense when computing these ratios to look at the average operating income over time.
+finratio.xls:

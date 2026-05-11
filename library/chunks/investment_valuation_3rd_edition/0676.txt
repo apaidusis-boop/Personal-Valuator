@@ -1,0 +1,46 @@
+lue of equity
+$11,127
+$0
+Value per share
+$22.77
+$0.00
+
+Value of equity = $22.77(.6458) + $0.00(.3542) = $14.71
+Since the stock price was $15.13 in May 2011, the stock looks fairly valued.
+dbtfund.xls:
+
+This dataset on the Web summarizes book and market value debt ratios by industry group
+in the United States for the most recent year.
+Life Cycle Earnings
+As noted earlier in the chapter, it is normal for firms to lose money at certain stages in their life
+cycles. When valuing such firms, you cannot normalize earnings, as we did with cyclical firms or
+firms with temporary problems. Instead, you have to estimate the cash flows of the firm over its life
+cycle, and let them turn positive at the right stage of the cycle. There are three groups of companies
+where this issue is central to valuation: companies that make large infrastructure investments with
+long lives, young biotechnology companies that derive their value primarily from a patent or patents
+and start up companies.
+Infrastructure Firms
+If the business that a firm is in requires large infrastructure investments early in the life cycle and the
+firm has to wait for a long period before it can generate earnings, it is entirely possible that the firm
+will report large losses in the initial periods when the investments are made. In fact, as an added
+complication, many of these firms have to borrow large amounts to fund their infrastructure
+investments, creating a fairly toxic combination—negative earnings and high leverage.
+Given this combination, how can an infrastructure firm—a telecom firm or cable company—ever
+be valuable? Consider one possible path to success. A firm borrows money and makes large
+investments in infrastructure. Having made these investments, though, it has a secure market where
+entry for competitors is prohibitively expensive. In some cases, the firm may have a legally
+sanctioned monopoly to provide the service. No further large investments are needed in infrastructure
+but depreciation on the existing investments continues to generate large tax benefits. The net effect is
+that the firm will be sitting on a cash machine that allows it to not only pay off its debt but ready itself
+for the next generation of investments. In a sense, phone companies and power companies, as well as
+some cable and cellular firms, followed this path to success in the last century.
+Since the 1990s, we have seen an explosion both in the number of telecom firms and the capital
+raised by these firms in a variety of ventures. While they followed the timeworn path of high debt and
+large up-front infrastructure investments laid by their predecessors, we believe that there are two
+critical ingredients that are missing with this generation of firms. The first is that technology has
+become a wild card and large investments in infrastructure do not guarantee future profitability or
+even that a market will exist. The second is that the protection from competition that allowed the old-
+time infrastructure firms to generate large and predictable profits is unlikely to be there for this new
+generation of firms. As a consequence, we would predict that far more of these firms will go bankrupt
+and that they would be well advised to rethink their policies on how much they should be borrowing
+as a consequence.

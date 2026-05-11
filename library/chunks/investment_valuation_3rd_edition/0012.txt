@@ -1,0 +1,45 @@
+give themselves a reasonable
+margin for error in making recommendations on the basis of valuations.
+The degree of precision in valuations is likely to vary widely across investments. The valuation of
+
+a large and mature company with a long financial history will usually be much more precise than the
+valuation of a young company in a sector in turmoil. If this latter company happens to operate in an
+emerging market, with additional disagreement about the future of the market thrown into the mix, the
+uncertainty is magnified. Later in this book, in Chapter 23, we argue that the difficulties associated
+with valuation can be related to where a firm is in the life cycle. Mature firms tend to be easier to
+value than growth firms, and young start-up companies are more difficult to value than companies
+with established products and markets. The problems are not with the valuation models we use,
+though, but with the difficulties we run into in making estimates for the future. Many investors and
+analysts use the uncertainty about the future or the absence of information to justify not doing full-
+fledged valuations. In reality, though, the payoff to valuation is greatest in these firms.
+Myth 4: The more quantitative a model, the better the valuation.
+It may seem obvious that making a model more complete and complex should yield better valuations;
+but it is not necessarily so. As models become more complex, the number of inputs needed to value a
+firm tends to increase, bringing with it the potential for input errors. These problems are compounded
+when models become so complex that they become “black boxes” where analysts feed in numbers at
+one end and valuations emerge from the other. All too often when a valuation fails, the blame gets
+attached to the model rather than the analyst. The refrain becomes “It was not my fault. The model did
+it.”
+There are three important points that need to be made about all valuation. The first is to adhere to
+the principle of parsimony, which essentially states that you do not use more inputs than you
+absolutely need to value an asset. The second is to recognize that there is a trade-off between the
+additional benefits of building in more detail and the estimation costs (and error) with providing the
+detail. The third is to understand that models don't value companies—
+you
+ do. In a world where the
+problem that you often face in valuations is not too little information but too much, and separating the
+information that matters from the information that does not is almost as important as the valuation
+models and techniques that you use to value a firm.
+Myth 5: To make money on valuation, you have to assume that
+markets are inefficient (but that they will become efficient).
+Implicit in the act of valuation is the assumption that markets make mistakes and that we can find these
+mistakes, often using information that tens of thousands of other investors have access to. Thus, it
+seems reasonable to say that those who believe that markets are inefficient should spend their time
+and resources on valuation whereas those who believe that markets are efficient should take the
+market price as the best estimate of value.
+This statement, though, does not reflect the internal contradictions in both positions. Those who
+believe that markets are efficient may still feel that valuation has something to contribute, especially
+when they are called on to value the effect of a change in the way a firm is run or to understand why
+market prices change over time. Furthermore, it is not clear how markets would become efficient in
+the first place if investors did not attempt to find under- and over-valued stocks and trade on these
+valuations. In other words, a precondition for market efficiency seems to be the existence of millions

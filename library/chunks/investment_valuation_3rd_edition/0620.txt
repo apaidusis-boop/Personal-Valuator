@@ -1,0 +1,40 @@
+In emerging markets, financial service firms tend to have an even higher profile and account for a
+larger proportion of overall market value than they do in the United States. If we bring these firms
+
+into the mix, it is quite clear that no one template will value all financial service firms and that we
+have to be able to be flexible in model design to allow for all types of financial service firms.
+WHAT IS UNIQUE ABOUT FINANCIAL SERVICE
+FIRMS?
+Financial service firms have much in common with non–financial service firms. They have to
+negotiate the trade off between profits and risk, to worry about competition, and want to grow rapidly
+over time. If they are publicly traded, they are judged by the total return they make for their
+stockholders, just as other firms are. This section, though, focuses on those aspects of financial
+service firms that make them different from other firms and considers the implications for valuation.
+Debt: Raw Material or Source of Capital
+When we talk about capital for non–financial service firms, we tend to talk about both debt and
+equity. A firm raises funds from both equity investors and bondholders (and banks) and uses these
+funds to make its investments. When we value the firm, we value the assets owned by the firm, rather
+than just the value of its equity.
+With a financial service firm, debt takes on a different connotation. Rather than view debt as a
+source of capital, most financial service firms view it as a raw material. In other words, debt is to a
+bank is akin to steel for an automobile company, something to be molded into other financial products
+that can then be sold at a higher price and yield a profit. Consequently, capital at financial service
+firms is more narrowly defined as including only equity capital. This definition of capital is
+reinforced by the regulatory authorities who count only equity or equity-like financing in regulatory
+capital.
+The definition of what comprises debt also is murkier with a financial service firm than it is with a
+non–financial service firm. For instance, should deposits made by customers into their checking
+accounts at a bank be treated as debt by that bank? Especially on interest-bearing deposits, there is
+little distinction between a deposit and debt issued by the bank. If we do categorize this as debt, the
+operating income for a bank should be measured prior to interest paid to depositors, which would be
+problematic since interest expenses are usually the biggest single expense item for a bank.
+The Regulatory Overlay
+Financial service firms are heavily regulated all over the world, though the extent of the regulation
+varies from country to country. In general, these regulations take three forms. First, banks and
+insurance companies are required to maintain capital ratios to ensure that they do not expand beyond
+their means and put their claimholders or depositors at risk. Second, financial service firms are often
+constrained in terms of where they can invest their funds. For instance, the Glass-Steagall Act in the
+United States restricted commercial banks from investment banking activities and from taking active
+equity positions in manufacturing firms for decades after the Great Depression. Third, entry of new
+firms into the business is often restricted by the regulatory authorities, as are mergers between
+existing firms.

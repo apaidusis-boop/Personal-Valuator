@@ -1,0 +1,94 @@
+eets, these holdings are not comparable to those of the firms described so far. In
+fact, they are more akin to the raw material used by manufacturing firms than to discretionary
+financial investments.
+
+Dealing with Marketable Securities in Valuation
+Marketable securities can include corporate bonds, with default risk embedded in them, and traded
+equities, which have even more risk associated with them. As the marketable securities held by a firm
+become more risky, the choices on how to deal with them become more complex. You have three
+ways of accounting for marketable securities:
+1.
+ The simplest and most direct approach is to estimate the current market value of these
+marketable securities and add the value to the value of operating assets. For firms valued on a
+going-concern basis, with a large number of holdings of marketable securities, this may be the
+only practical option.
+2.
+ The second approach is to estimate the current market value of the marketable securities and net
+out the effect of capital gains taxes that may be due if those securities were sold today. This
+capital gains tax bite depends on how much was paid for these assets at the time of the purchase
+and the value today. This is the best way of estimating value when valuing a firm on a liquidation
+basis or when the firm has provided a clear indication that it plans to sell its holdings.
+3.
+ The third and most difficult way of incorporating the value of marketable securities into firm
+value is to value the firms (using a discounted cash flow approach) that issued these securities and
+estimate the value of these securities. This approach tends to work best for firms that have
+relatively few, but large, holdings in other publicly traded firms.
+ILLUSTRATION 16.4: 
+Microsoft’s Cash and Marketable
+Securities—2001
+During the 1990s, Microsoft accumulated a huge cash balance, largely as a consequence of holding back on free cash flows
+to equity that could have been paid to stockholders. In 1999 and 2000, for instance, the firm reported the following holdings
+of near-cash investments (in $millions):
+1999
+2000
+Cash and equivalents:
+Cash
+$ 
+635
+$ 
+849
+Commercial paper
+$ 3,805
+$ 1,986
+Certificates of deposit
+$ 
+522
+$ 1,017
+U.S. government and agency securities
+$ 
+0
+$ 
+729
+Corporate notes and bonds
+$ 
+0
+$ 
+265
+Money market preferreds
+$ 
+13
+$ 
+0
+Total cash and equivalents
+$ 4,975
+$ 4,846
+Short-term investments:
+Commercial paper
+$ 1,026
+$ 
+612
+U.S. government and agency securities
+$ 3,592
+$ 7,104
+Corporate notes and bonds
+$ 6,996
+$ 9,473
+Municipal securities
+$ 
+247
+$ 1,113
+Certificates of deposit
+$ 
+400
+$ 
+650
+Total short-term investments
+$12,261
+$18,952
+Cash and short-term investments
+$17,236
+$23,798
+When valuing Microsoft in 2000, we should clearly consider the $23.798 billion investment as part of the firm’s value. The
+interesting question is whether there should be a discount reflecting investors’ fears about poor investments in the future.
+Through 2000, Microsoft had not been punished for holding on to cash, largely as a consequence of its impeccable track
+record in delivering ever-increasing profits on the one hand and high stock returns on the other. While 1999 and 2000 were

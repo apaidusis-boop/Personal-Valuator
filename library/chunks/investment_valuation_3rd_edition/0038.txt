@@ -1,0 +1,30 @@
+r countries often use
+accelerated depreciation for both tax and financial reporting purposes, leading to reported income
+that is understated relative to that of their U.S. counterparts.
+Current Assets
+
+Current assets include inventory, cash, and accounts receivable. It is in this category that accountants
+are most amenable to the use of market value, especially in valuing marketable securities.
+Accounts Receivable
+Accounts receivable represent money owed by entities to the firm on the sale of products on credit.
+When the Home Depot sells products to building contractors and gives them a few weeks to make
+their payments, it is creating accounts receivable. The accounting convention is for accounts
+receivable to be recorded as the amount owed to the firm based on the billing at the time of the credit
+sale. The only major valuation and accounting issue is when the firm has to recognize accounts
+receivable that are not collectible. Firms can set aside a portion of their income to cover expected
+bad debts from credit sales, and accounts receivable will be reduced by this reserve. Alternatively,
+the bad debts can be recognized as they occur, and the firm can reduce the accounts receivable
+accordingly. There is the danger, however, that absent a decisive declaration of a bad debt, firms may
+continue to show as accounts receivable amounts that they know are unlikely ever to be collected.
+Cash
+Cash is one of the few assets for which accountants and financial analysts should agree on value. The
+value of a cash balance should not be open to estimation error. Having said this, we note that fewer
+and fewer companies actually hold cash in the conventional sense (as currency or as demand deposits
+in banks). Firms often invest the cash in interest-bearing accounts, commercial paper or in Treasuries
+so as to earn a return on their investments. In either case, market value can sometimes deviate from
+book value. While there is minimal default risk in either of these investments, interest rate movements
+can affect their value. The valuation of marketable securities is examined later in this section.
+Inventory
+Three basic approaches to valuing inventory are allowed by GAAP: first in, first out (FIFO); last in,
+first out (LIFO); and weighted average.
+1.

@@ -1,0 +1,63 @@
+g the 1999 to 2008 time period.
+6
+Table 15.2
+ Ratings and Probability of Default
+Source:
+ Altman (2009).
+Rating
+Probability of Default
+AAA
+0.07%
+AA
+0.51%
+A+
+0.60%
+A
+0.66%
+A–
+2.50%
+BBB
+7.54%
+BB+
+10.00%
+
+BB
+16.63%
+B+
+25.00%
+B
+36.80%
+B–
+45.00%
+CCC
+59.01%
+CC
+70.00%
+C
+85.00%
+D
+100.00%
+The other way is to use a statistical approach such as a probit to estimate the probability of default,
+based on the firm's observable characteristics, at each level of debt.
+The bankruptcy cost can be estimated, albeit with considerable error, from studies that have looked
+at the magnitude of this cost in actual bankruptcies. Research that has looked at the direct costs of
+bankruptcy concludes that they are small
+7
+ relative to firm value. The indirect costs of bankruptcy can
+be substantial, but the costs vary widely across firms. Shapiro (1989) and Titman (1984) speculate
+that the indirect costs could be as large as 25 to 30 percent of firm value but provide no direct
+evidence of the costs.
+ILLUSTRATION 15.5: Valuing a Company Using APV: The
+Leveraged Acquisition of J. Crew
+J. Crew is a U.S. retailer that sells clothes made under its brand name through its own stores and online. In 2010, the firm
+was acquired in a leveraged deal by Mickey Drexler, its CEO, and two private equity firms—TPG and Leonard Green—for
+$2.7 billion, with about $1.85 billion coming from debt (with a rating of BB and a pretax cost of debt of 7%).
+To assess the value of the deal using the APV approach, we first value the firm as an all-equity funded (unlevered) firm. To
+estimate the value, we first computed a cost of equity using an unlevered beta of 1.00 for specialty retailers, in conjunction
+with a risk-free rate of 3.5% and mature market premium of 5%:
+J. Crew generated $230 million in operating income on revenues of $1,722 million in 2010. We assume a 35% tax rate and a
+growth rate of 3.5% in perpetuity, with a return on capital of 14%, resulting in the following:
+To estimate the tax benefits from debt, we assume that a debt schedule by which the dollar debt would be repaid in equal
+annual increments to a debt level of $500 million in year 10 and beyond. Using the 35% tax rate and the pretax cost of debt,
+we compute the interest expenses and tax benefits each year, and discount these benefits back to today using the pretax
+cost of debt as the discount rate.

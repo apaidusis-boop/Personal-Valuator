@@ -1,0 +1,51 @@
+alue firms with negative earnings, little or no historical data, and few comparables, the steps
+involved are essentially the same as in any valuation. This section will look at some of the issues that
+
+are likely to come up at each step when valuing young companies.
+Step 1: Assess the Firm's Current Standing: The Importance of
+Updated Information
+It is conventional, when valuing firms, to use data from the most recent financial year to obtain the
+current year's inputs. For firms with negative earnings and high growth in revenues, the numbers tend
+to change dramatically from period to period. Consequently, it makes more sense to look at the most
+recent information that one can obtain, at least on revenues and earnings. Using the revenues and
+earnings from the trailing 12 months, for instance, will provide a much better estimate of value than
+using earnings from the last financial year. It is true that some items, such as operating leases and
+options outstanding, may not be updated as frequently. Even so, we would argue for using estimates
+for these inputs
+2
+ and valuing firms with more recent data.
+Step 2: Estimate Revenue Growth
+Young firms tend to have fairly small amounts of revenues, but the expectation is that these revenues
+will grow at a substantial rate in the future. Not surprisingly, this is a key input in these valuations,
+and we would suggest drawing on a number of sources.
+Past growth rate in revenues at the firm itself.
+ Since the firm increases in scale as it
+grows, it will become more and more difficult to maintain very high growth rates. Thus, a
+firm that grew 300 percent two years ago and 200 percent last year is likely to grow at a
+lower rate this year.
+Growth rate in the overall market that the firm serves.
+ It is far easier for firms to maintain
+high growth rates in markets that are themselves growing at high rates than it is for them to
+do so in stable markets.
+Barriers to entry and competitive advantage possessed by the firm.
+ For a firm to be able
+to sustain high growth rates, it has to have some sustainable competitive advantage. This
+may come from legal protection (as is the case with a patent), a superior product or service,
+or a brand name, or from being the first mover into a market. If the competitive advantage
+looks sustainable, high growth is much more likely to last for a long period. If it is not, it
+will taper off much faster.
+We looked at the process of estimating revenue growth in more detail in Chapter 11.
+ILLUSTRATION 23.1: Revenue Growth Rates—Tesla
+Motors
+Tesla Motors had only $117 million in revenues in 2010, but that was a jump from $15 million in revenues in 2008. The firm is
+still working on creating commercially viable electric cars, but the potential market is large, and we foresee strong growth
+going into the future. The following table summarizes the expected revenue growth rates and revenues each year for the
+next 10 years and for a terminal year (year 11):
+Revenue 
+Growth Rate
+$ Revenues
+Current
+$ 117
+1
+150.00%
+$ 292

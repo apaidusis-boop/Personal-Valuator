@@ -1,0 +1,36 @@
+gly in other markets.
+6
+ The process of computing the cost of equity and debt at different debt ratios is described in detail
+in my book 
+Applied Corporate Finance
+ (John Wiley & Sons, 3rd ed., 2010).
+
+CHAPTER 32
+Value Enhancement: Economic Value Added, Cash Flow
+Return on Investment, and Other Tools
+The discounted cash flow model provides for a rich and thorough analysis of all the different ways in
+which a firm can increase value, but it can become complex as the number of inputs increases. It is
+also difficult to tie management compensation systems to a discounted cash flow model, since many
+of the inputs need to be estimated and can be manipulated to yield the results management wants.
+If we assume that markets are efficient, we can replace the unobservable value from the discounted
+cash flow model with the observed market price and reward or punish managers based on the
+performance of the stock. Thus, a firm whose stock price has gone up is viewed as having created
+value, whereas one whose stock price has fallen has destroyed value. Compensation systems based
+on the stock price, including stock grants and warrants, have become a standard component of most
+management compensation packages.
+While market prices have the advantage of being up-to-date and observable, they are also noisy.
+Even if markets are efficient, stock prices tend to fluctuate around the true value, and markets
+sometimes do make mistakes. Thus, a firm may see its stock price go up and its top management
+rewarded, even as value is destroyed. Conversely, the managers of a firm may be penalized as its
+stock price drops, even though the managers may have taken actions that increase firm value. The
+other problem with stock prices as the basis for compensation is that they are available only for the
+entire firm. Thus stock prices cannot be used to analyze the managers of individual divisions of a
+firm, or for their relative performance.
+In the past decade, while firms have become more focused on value creation, they have remained
+suspicious of financial markets. While they might understand the notion of discounted cash flow
+value, they are unwilling to tie compensation to a value that is based on dozens of estimates. In this
+environment, new mechanisms for measuring value that are simple to estimate and use, do not depend
+too heavily on market movements, and do not require a lot of estimation find a ready market. While
+the mechanisms are too numerous to list, we focus on two in this chapter that encapsulate most of the
+other approaches.
+1.

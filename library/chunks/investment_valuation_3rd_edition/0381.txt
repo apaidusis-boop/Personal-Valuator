@@ -1,0 +1,18 @@
+rate in British pounds is 4% and the market risk premium is 5%.
+The stock can be valued using the H model:
+The stock was trading at 173.3 pence in May 2011, making it slightly under-valued.
+DDMH.xls:
+
+This spreadsheet allows you to value a firm, with an initial period when the high growth
+declines to stable growth, using expected dividends.
+Three-Stage Dividend Discount Model
+The three-stage dividend discount model combines the features of the two-stage model and the H
+model. It allows for an initial period of high growth, a transitional period where growth declines, and
+a final stable growth phase. It is the most general of the models because it does not impose any
+restrictions on the payout ratio.
+The Model
+This model assumes an initial period of stable high growth, a second period of declining growth, and
+a third period of stable low growth that lasts forever. 
+Figure 13.5
+ graphs the expected growth over
+the three time periods.

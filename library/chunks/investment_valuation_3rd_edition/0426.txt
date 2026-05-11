@@ -1,0 +1,47 @@
+arge amounts of debt in future years to reach that ratio. In the process, the book-to-debt ratio might
+reach stratospheric proportions and trigger covenants or other negative consequences. In fact, we
+
+count the expected tax benefits from future debt issues implicitly in the value of equity today.
+ILLUSTRATION 15.2: Valuing Target—Dealing with
+Operating Leases
+In 2010, Target reported $5,252 million in pretax operating income on revenues of $67,390 million. While its high growth days
+are behind it, there is some potential for growth, and we will attempt to value the firm using a two-stage FCFF model.
+The first step in this valuation is to recognize that the financial statement numbers for Target are skewed by the failure to
+consider lease commitments as debt. Using the annual report for 2010, we obtained the lease commitments for the next five
+years and beyond, which we discount at Target's pretax cost of debt of 4.5% (estimated based on its S&P bond rating of A)
+to convert the commitments to debt:
+Year
+Commitment
+Present Value @ 4.5%
+1
+$190.00
+$ 181.82
+2
+$189.00
+$ 173.07
+3
+$187.00
+$ 163.87
+4
+$147.00
+$ 123.27
+5
+$141.00
+$ 113.15
+6–23
+$172.22
+$1,680.51
+Debt value of leases =
+$2,435.68
+Note that Target reported a lump sum of $3,100 million for commitments beyond year 5, which we have converted into
+annual commitments of $172.22 million a year for 18 years (a judgment call based on the annual average commitment for
+years 1–5). We will adjust the stated debt and operating income to reflect the decision to treat lease commitments as debt:
+To estimate the expected growth rate, we estimate the return on capital and reinvestment rate for Target in 2010, again
+staying true to the decision to capitalize leases:
+Note that we computed the present value of lease commitments at the end of 2009 by going back to the annual report for
+that year, extracting the lease commitments, and computing the present value of the commitments using the pretax cost of
+debt at the end of 2009.
+Target pulled back on reinvestment in 2010, but we expect the reinvestment rate to bounce back to 40% (close to the
+average for the past five years) in the next five years, yielding an expected growth rate of 4.30% each year for that period:
+To compute the cost of capital over this period, we estimate a beta of 1.05 for Target (based on the average beta across
+general retailers) and use an equity risk premium of 5% (the risk-free rate is 3.5%):

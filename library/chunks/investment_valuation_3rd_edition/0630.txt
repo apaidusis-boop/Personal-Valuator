@@ -1,0 +1,29 @@
+ted with developing this capital. The process for doing so
+closely mirrors the process for capitalizing research and development expenses for technology firms
+and involves the following five steps:
+1.
+
+Identify the amortizable life for the asset.
+ To determine the period over which these expenses
+will be written off, we have to begin with how long a typical employee that the firm has invested
+its resources in stays with the firm.
+2.
+
+Collect information on employee expenses in prior years.
+ The amount spent by the firm on
+
+employee training and development in prior years is collected, with the number of years matching
+the amortizable life specified in the first step.
+3.
+
+Compute the current year's amortization expense.
+ The expenses in each of the prior years is
+amortized. With a linear amortization schedule, the expense will be spread equally over the
+amortizable life. The sum total of the amortization of all of the expenses in previous years will
+become the current year's amortization expense.
+4.
+
+Adjust the net income for the firm.
+ The net income for the firm is adjusted for the capitalization
+of employee expenses:
+5.

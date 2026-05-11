@@ -1,0 +1,27 @@
+Firm Value
+Note that the value of equity increases, if we hold firm value constant, as the standard deviation increases. The interest rate
+on debt also increases, as the standard deviation increases.
+
+Probability of Default and Default Spreads
+One of the more interesting pieces of output from the option pricing model is the risk-neutral
+probability of default that you can obtain for the firm. In the Black-Scholes model, you can estimate
+this value from N(d2), which is the risk-neutral probability that S > K, which in this model is the
+probability that the value of the assets will exceed the face value of the debt.
+In addition, the interest rate from the debt allows us to estimate the appropriate default spread to
+charge on bonds.
+You can see the potential in applying this model to bank loan portfolios to extract both the
+probability of default and to measure whether you are charging an interest rate that is high enough on
+the debt. In fact, there are commercial services that use fairly sophisticated option pricing models to
+estimate both values for firms.
+ILLUSTRATION 30.4: 
+Probabilities of Default and Default
+Spreads
+We return to Illustration 30.1 and estimate the probability of default as 1 - N(d2) and the default spread as the difference
+between the interest rate on a firm’s debt and the risk-free rate. These values are graphed in 
+Figure 30.4
+. Note that the
+probability of default climbs very quickly as the standard deviation in firm value increases and the default spread keeps up
+with it.
+Figure 30.4
+ Risk-Neutral Probability of Default and Default Spread
+ESTIMATING THE VALUE OF EQUITY AS AN

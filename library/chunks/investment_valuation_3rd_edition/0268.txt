@@ -1,0 +1,42 @@
+income of 
+$1,968 million is adjusted as follows:
+The approximate adjustment is also estimated as follows, where we add the added imputed interest expense using the pretax
+
+cost of debt:
+Oplease.xls:
+
+This spreadsheet allows you to convert operating lease expenses into debt.
+WHAT ABOUT OTHER COMMITMENTS?
+The argument made about leases can be made about other long-term commitments where a firm has no escape hatches or
+cancellation options, or where the payment is not connected to performance/earnings. For instance, consider a professional
+sports team that signs a star player to a 10-year contract, agreeing to pay $5 million a year. If the payment is not contingent
+on performance, this firm has created the equivalent of debt by signing this contract.
+The upshot of this argument is that firms that have no debt on their balance sheet may still be highly levered and subject to
+default risk as a consequence. For instance, Mario Lemieux, a star player for the Pittsburgh Penguins, the professional ice
+hockey team, was given partial ownership of the team because of its failure to meet contractual commitments it had made to
+him.
+Accounting Earnings and True Earnings
+Firms have become particularly adept at meeting and beating analyst estimates of earnings each
+quarter. While beating earnings estimates can be viewed as a positive development, some firms adopt
+accounting techniques that are questionable to accomplish this objective. When valuing these firms,
+you have to correct operating income for these accounting manipulations to arrive at the correct
+operating income.
+The Phenomenon of Managed Earnings
+In the 1990s, firms like Microsoft and Intel set the pattern for technology firms. In fact, Microsoft beat
+analyst estimates of earnings in 39 of the 40 quarters during the decade, and Intel posted a record
+almost as impressive. As the market values of these firms skyrocketed, other technology firms
+followed in their footsteps in trying to deliver earnings that were higher than analyst estimates by at
+least a few pennies. The evidence is overwhelming that the phenomenon is spreading. For an
+unprecedented 18 quarters in a row from 1996 to 2000, more firms beat consensus earnings estimates
+than missed them.
+6
+ In another indication of the management of earnings, the gap between the earnings
+reported by firms to the Internal Revenue Service and that reported to equity investors has been
+growing over the past decade.
+Given that these analyst estimates are expectations, what does this tell you? One possibility is that
+analysts consistently underestimate earnings and never learn from their mistakes. While this is a
+possibility, it seems extremely unlikely to persist over an entire decade. The other is that technology
+firms particularly have far more discretion in how they measure and report earnings and are using this
+discretion to beat estimates. In particular, the treatment of research expenses as operating expenses
+gives these firms an advantage when it comes to managing earnings.
+Does managing earnings really increase a firm's stock price? It might be possible to beat analysts

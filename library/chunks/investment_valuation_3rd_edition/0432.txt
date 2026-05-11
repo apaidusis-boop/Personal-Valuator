@@ -1,0 +1,28 @@
+e rates for future years based on expected inflation rates of 2% in U.S.
+dollars and 5% in BR. The resulting expected exchange rates and cash flows in U.S. dollars are reported in the following
+table:
+
+The difference in expected inflation results in R$ depreciating in value relative to the U.S. dollar over the five-year period.
+Stable growth:
+ In stable growth, we assume that Gerdau will grow 3% a year, in dollar terms, and that its return on capital
+in stable growth will converge on its cost of capital (also in dollar terms). To estimate the dollar cost of capital in stable
+growth, we assume that the stock will have a beta of 1.20 and that the country risk premium will decline to 3%. Using a debt
+ratio of 50% and a cost of debt of 8%, we estimate a cost of capital of 8.68%.
+4
+ To estimate the terminal value, we first
+compute the after-tax operating income in dollar terms in year 5:
+We then compute the reinvestment rate and terminal value:
+Firm and equity valuation:
+ To complete the analysis, we first discount the expected cash flows in US dollars at the cost of
+capital of 10.79%:
+To get to firm value, we add in dollar value of the cash holdings of the firm ($2,404 million) and subtract out the dollar value
+of debt ($9.788 million), with the conversion at today's exchange rate. Since Gerdau has consolidated holdings, we subtract
+out the estimated market value of the minority interest in these holdings of $2,599 million (in dollar terms) and then divide by
+the number of shares outstanding (1,681.12 million) to arrive at a dollar value per share of $10.12:
+5
+Converted at the exchange rate of 2.252 R$/$, we arrive at an estimate of value of R$ 22.79/ share, making it significantly
+undervalued at the price of R$9.32/share at which it was trading in March 2009.
+As with the prior two valuations, it is worth exploring the effect of the choice we made to value Gerdau Steel in U.S. dollars.
+We could have valued Gerdau Steel in BR by adjusting the U.S. dollar cost of capital for differential inflation:
+Making a similar adjustment to the stable period cost of capital yields a BR cost of capital of 11.89%. Finally, we adjust the
+stable growth rate to reflect the higher inflation rate in BR:

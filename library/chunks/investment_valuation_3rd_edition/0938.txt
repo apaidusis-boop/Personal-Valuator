@@ -1,0 +1,36 @@
+when looking at
+financial service firms, noted that defining debt (and therefore capital) can open you open to
+measurement problems, since so much of the firm could potentially be categorized as debt.
+
+Consequently, it was argued that financial service firms should be valued using equity valuation
+models and multiples. Extending that argument to economic value added holds that equity EVA is a
+much better measure of performance for financial service firms than the traditional EVA measure.
+It must be added that much or all of the issues raised in the context of the traditional EVA measure
+affect the equity EVA measure as well. Banks and insurance companies can play the capital invested,
+growth, and risk games to increase equity EVA just as other firms can with traditional EVA.
+CASH FLOW RETURN ON INVESTMENT
+The cash flow return on investment (CFROI) for a firm is the internal rate of return on existing
+investments, based on real (as opposed to nominal) cash flows. Generally, it should be compared to
+the real cost of capital to make judgments about the quality of these investments.
+Calculating CFROI
+The cash flow return on investment for a firm is calculated using four inputs. The first is the gross
+investment (GI) the firm has in its existing assets, obtained by adding back cumulated depreciation
+and inflation adjustments to the book value. The second input is the gross cash flow (GCF) earned in
+the current year on that asset, which is usually defined as the sum of the after-tax operating income of
+a firm and the noncash charges against earnings, such as depreciation and amortization. The third
+input is the expected life of the assets (n) in place at the time of the original investment, which varies
+from sector to sector but reflects the earning life of the investments in question. The expected salvage
+value (SV) of the assets at the end of this life, in current dollars, is the final input. This is usually
+assumed to be the portion of the initial investment, such as land and building, that is not depreciable,
+adjusted to current dollar terms. The CFROI is the internal rate of return of these cash flows (i.e., the
+discount rate that makes the net present value of the gross cash flows and salvage value equal to the
+gross investment), and it can thus be viewed as a composite internal rate of return in current dollar
+terms.
+An alternative formulation of the CFROI allows for setting aside an annuity to cover the expected
+replacement cost of the asset at the end of the project life. This annuity is called the economic
+depreciation and is computed as follows:
+where n is the expected life of the asset, k
+c
+ is the cost of capital, and the expected replacement cost of
+the asset is defined in current dollar terms to be the difference between the gross investment and the
+salvage value. The CFROI for a firm or a division can then be written as follows:

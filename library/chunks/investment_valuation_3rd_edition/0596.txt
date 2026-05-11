@@ -1,0 +1,51 @@
+al valuation is that it fails to consider the value of brand names and
+other intangibles. Hiroyumi Itami, in his 1987 book 
+Mobilizing Invisible Assets
+, provides a summary
+of this criticism. He says:
+
+Analysts have tended to define assets too narrowly, identifying only those that can be measured,
+such as plant and equipment. Yet the intangible assets, such as a particular technology,
+accumulated consumer information, brand name, reputation, and corporate culture, are
+invaluable to the firm’s competitive power. In fact, these invisible assets are the only real
+source of competitive edge that can be sustained over time.
+While this criticism is clearly overstated, the approaches used by analysts to value brand names are
+often ad hoc and may significantly overstate or understate their value. Firms with well-known brand
+names often sell for higher multiples than lesser-known firms. The standard practice of adding on a
+“brand name premium,” often set arbitrarily, to discounted cash flow value can lead to erroneous
+estimates. Instead, the value of a brand name can be estimated using the approach that relates profit
+margins to price-sales ratios.
+PRICING STRATEGY, MARKET SHARE, AND
+COMPETITIVE DYNAMICS
+All too often firms analyze the effects of changing prices in a static setting, where only the firm is acting and the competition
+stays still. The problem, though, is that every action (especially when it comes to pricing) generates reactions from
+competition, and the net effects can be unpredictable.
+Consider, for instance, a firm that cuts prices, hoping to increase market share and sales. If the competition does nothing, the
+firm may be able to accomplish its objectives. If, on the other hand, the competition reacts by also cutting prices, the firm
+may find itself with lower margins and the same turnover ratios that it had before the price cut—a recipe for lower firm
+value. In competitive industries, you have to assume that the latter will happen and plan accordingly.
+There are some firms that have focused on maximizing market share as their primary objective function. The linkage
+between increased market share and market value is a tenuous one, and can be examined using the profit-margin/revenue
+multiple framework developed in the preceding section. If increasing market share leads to higher margins, either because of
+economies of scale driving down costs or because of increased market power driving out competitors, it will lead to higher
+value. If the increase in the market share is accompanied by lower prices and profit margins, the net effect on value can be
+negative.
+One of the benefits of having a well-known and respected brand name is that firms can charge
+higher prices for the same products, leading to higher profit margins and hence to higher price-sales
+ratios and firm value. The larger the price premium that a firm can charge, the greater is the value of
+the brand name. In general, the value of a brand name can be written as:
+where V/S
+b
+ = EV-sales ratio of the firm with the benefit of the brand name 
+V/S
+g
+ = EV-sales ratio of the same firm with the generic product
+ILLUSTRATION 20.7: 
+Valuing a Brand Name Using the
+Price-Sales Ratio
+Consider two firms that produce similar products that compete in the same marketplace: Famous Inc. has a well-known
+brand name and has an after-tax operating profit margin of 10%, while NoFrills Inc. makes a generic version and has an
+after-tax operating margin of 5%. Both firms have the same sales-book capital ratio (2.50) and the cost of capital of 11.5%.
+In addition, both firms are expected to reinvest 80% of their operating income in the next five years and 50% of earnings
+after that. The growth rate after year 5, for both firms, is 6%. Both firms have total sales of $2.5 billion.
+VALUING FAMOUS

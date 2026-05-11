@@ -1,0 +1,46 @@
+pressive even after the adjustment, they decline 
+from the unadjusted
+numbers. This is likely to happen for most firms that earn high returns on equity and capital and have substantial R&D
+expenses.
+2
+
+Capitalizing Other Operating Expenses
+While R&D expenses are the most prominent example of capital expenses being treated as operating
+expenses, there are other operating expenses that arguably should be treated as capital expenses.
+Consumer product companies such as Gillette and Coca-Cola could argue that a portion of
+advertising expenses should be treated as capital expenses, since they are designed to augment brand
+name value. For a consulting firm, the cost of recruiting and training its employees could be
+considered a capital expense, since the consultants who emerge are likely to be the heart of the firm's
+assets and provide benefits over many years. For some technology firms, including e-tailers such as
+Amazon.com, the biggest operating expense item is selling, general, and administrative expenses
+(SG&A). These firms could argue that a portion of these expenses should be treated as capital
+expenses, since they are designed to increase brand name awareness and bring in new customers.
+While this argument has some merit, you should remain wary about using it to justify capitalizing
+these expenses. For an operating expense to be capitalized, there should be substantial evidence that
+the benefits from the expense accrue over multiple periods. Does a customer who is enticed to buy
+from Amazon, based on an advertisement or promotion, continue as a customer for the long term?
+There are some analysts who claim that this is indeed the case, and attribute significant value added
+to each new customer.
+3
+ It would be logical, under those circumstances, to capitalize these expenses
+using a procedure similar to that used to capitalize R&D expenses.
+Determine the period over which the benefits from the operating expense (such as SG&A)
+will flow.
+Estimate the value of the asset (similar to the research asset) created by these expenses. If
+the expenses are SG&A expenses, this would be the SG&A asset.
+Adjust the operating income for the expense and the amortization of the created asset.
+A similar adjustment has to be made to net income:
+As with the research asset, the capitalization of these expenses will create an asset that augments the
+book value of equity (and capital).
+ILLUSTRATION 9.3: Should You Capitalize SG&A
+Expense? Analyzing Amazon.com
+Let us consider SG&A expenses at Amazon. To make a judgment on whether you should capitalize these expenses, you
+need to get a sense of what these expenses are and how long the benefits accruing from these expenses last. For instance,
+assume that an Amazon promotion (the expense of which would be included in SG&A) attracts new customers to the web
+site, and that customers, once they try Amazon, continue, on average, to be customers for three years. You would then use a
+three year amortizable life for SG&A expenses, and capitalize them the same way you capitalized R&D: by collecting
+historical information on SG&A expenses, amortizing them each year, estimating the value of the selling asset, and then
+adjusting operating income.
+We do believe, on balance, that selling, general, and administrative expenses should continue to be treated as operating
+expenses and not capitalized for Amazon for two reasons. First, retail customers are difficult to retain, especially online, and
+Amazon faces serious competition not only from other online retailers but also from traditional retailers like Wal Mart setting

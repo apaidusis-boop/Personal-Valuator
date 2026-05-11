@@ -1,0 +1,26 @@
+valuing the company for what
+it wants to be, rather than what it is today.
+There are three simple practices that can not only prevent egregious valuation errors but also lead
+to better valuations:
+1.
+
+Adjust for survival.
+ To the extent that private businesses have limited access to capital, they
+are also more exposed to failure. When valuing private businesses, using public company
+multiples, you have to adjust for this additional risk of failure.
+2.
+
+Adjust for nondiversification.
+ Earlier in the chapter, we developed the total beta measure for
+undiversified investors and argued that the higher cost of equity that results from using it will
+lower intrinsic value. The same rationale should be applied when doing relative valuation. If the
+average PE ratio for publicly traded restaurants in 12, you would expect Chez Pierre to trade at a
+lower PE ratio, even if it has the same characteristics.
+3.
+
+Adjust for illiquidity.
+ In the last section on intrinsic valuation, we presented different ways of
+estimating illiquidity discounts for equity in private businesses. We could adopt the same
+techniques to adjust the public multiple value for illiquidity.
+CONCLUSION
+The value of a private firm is the present value of the cash flows it is expected to generate,

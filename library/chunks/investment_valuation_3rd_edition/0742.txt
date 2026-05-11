@@ -1,0 +1,52 @@
+or a private
+sale. The business, which does make money, had revenues of $200 million in the most recent year.
+(The average firm has revenues of $10 million.) How much of a liquidity discount would you
+
+apply to this firm:
+a.
+ Based on the Silber regression?
+b.
+ Based on correcting the average discount (25%) for the size of the firm?
+3.
+ You are valuing a bed-and-breakfast in Vermont with the following information:
+The business had pretax operating income of $100,000 in the most recent year. This income
+has grown 5% a year for the past three years, and is expected to continue growing at that rate
+for the foreseeable future.
+About 40% of this operating income can be attributed to the fact that the owner is a master
+chef. He does not plan to stay on if the business is sold.
+The business is financed equally with debt and equity. The pretax cost of borrowing is 8%.
+The beta for publicly traded firms in the hospitality business is 1.10. The Treasury bond rate is
+7%, the market risk premium is 5.5%, and the tax rate is 40%.
+The capital maintenance expenditure, net of depreciation, was $10,000 in the most recent year,
+and it is expected to grow at the same rate as operating income.
+The business is expected to have an operating life of 10 years, after which the building will be
+sold for $500,000, net of capital gains taxes.
+a.
+ Value the business for sale.
+b.
+ How much would the value change if the owner offered to stay on for the next three
+years?
+4.
+ You have been asked by the owner of Tectonics Software, a small firm that produces and sells
+computer software, to come up with an estimate of value for the firm for an initial public offering.
+The firm had revenues of $20 million in the most recent year, on which it made earnings before
+interest and taxes of $2 million. The firm had debt outstanding of $10 million, on which pretax
+interest expenses amounted to $1 million. The book value of equity is $10 million. The average
+unlevered beta of publicly traded software firms is 1.20, and the average market value of equity of
+these firms is, on average, three times the book value of equity. All firms face a 40% tax rate.
+Capital expenditures amounted to $1 million in the most recent year and were twice the
+depreciation charge in that year. Both items are expected to grow at the same rate as revenues for
+the next five years. The return on capital after year 5 is expected to be 15%. The revenues of this
+firm are expected to grow 20% a year for the next five years and 5% after that, and the operating
+margins will remain at existing levels. The Treasury bond rate is 6%.
+a.
+ Estimate the cost of capital for the firm.
+b.
+ Estimate the value of the equity in the firm.
+c.
+ If the firm plans to issue 1 million shares, estimate the value per share.
+5.
+ How would your answer to (4) change if you were valuing Tectonics Software for sale to a
+private individual? The individual in question has a portfolio that is not diversified and has a
+correlation of 0.60 with the market index. In addition, use the following bid-ask spread equation
+to estimate the illiquidity discount:

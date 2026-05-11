@@ -1,0 +1,16 @@
+evered and levered beta.
+By having a debt-to-equity ratio, and operating leverage, that is lower than the average for the industry, Vans Shoes ends up
+with a beta much lower than that of the industry.
+
+ILLUSTRATION 8.5: Estimating a Bottom-Up Beta for
+Boeing—September 2000
+Boeing has undergone a significant change in both its business mix and its financial leverage over the past five years. Not
+only did it acquire Rockwell and McDonnell Douglas, giving it a major foothold in the defense business, but it borrowed
+substantial amounts to make these acquisitions. Since these events have occurred over time, the historical regression beta
+does not fully reflect the effects of these changes. To estimate Boeing's beta in 2000, we broke its business into two areas:
+1.
+
+Commercial aircraft
+, which is Boeing's core business of manufacturing commercial jet aircraft and providing related
+support services.
+2.

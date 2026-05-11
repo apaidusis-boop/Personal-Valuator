@@ -1,0 +1,44 @@
+st of loans through interest rate subsidies/tax policy/other regulations.
+n  And measures aimed at changing the supply of credit:
+ – Changing capital/reserve requirements for certain types of lending.
+
+Part 3: Appendix
+210
+ – Changing the portfolio of assets that financial institutions are allowed to hold.
+ – Changing accounting rules on different assets.
+ – Supervisors of financial institutions putting pressure for certain lending behaviors.
+ – Interest/lending rate ceilings and other limitations.
+Saw coordination between the Federal Reserve, Congress, the executive branch, and regulatory bodies.
+n  During the most successful cases, different parts of the government coordinated their actions. Often, lawmakers 
+and the executive branch armed different government bodies, including the Federal Reserve, with the tools and 
+the leeway to manage policy.
+n  New institutions were set up to implement the regulations and monitor their progress.  
+Saw mixed success for different policies—some were more effective, while others had bad second-order conse -
+quences. The most successful cases involved significant amounts of experimentation and flexibility.
+n  In successful cases, effective policies were frequently used for long periods of time, or expanded, and unsuccessful 
+policies were ended, often within a matter of months.
+n  But policy makers have a mixed track record of quickly ending ones with distortionary second-order 
+consequences. A few were allowed to continue for years (Regulation Q , for instance).  
+n  As the financial system has evolved, policy makers have relied on a changing set of tools as the cost/benefit 
+trade-off of using different tools has evolved.
+n  When financial innovations made it easier to circumvent certain policies (e.g., new ways for investors to leverage 
+up, new financial institutions springing up), certain policies were adapted or abandoned.
+Questions to Consider Pertaining to Macroprudential 
+Policy
+As we observe the different cases, we see different issues and questions that policy makers grapple with in implement-
+ing macroprudential policy. Below we go through these questions and then give some examples of historical debates. 
+Where are bubbles emerging in the economy? How confident are you that they are bubbles?  
+n  At different points in history, policy makers have taken various approaches to dealing with bubbles.
+ –  In a repeat of the late 1920s, US policy was tightening in 1935–36 in part in response to rapid stock price 
+appreciation that caused fears of a bubble. That tightening ended up being too much for the deleveraging economy 
+to bear. The economy went back into severe recession and stocks fell 60 percent between 1937 and 1938.
+ –  Over the past several decades US monetary policy makers took a “mopping up” approach, with the notion 
+that they should not be involved with pricking bubbles but rather should deal with the implications of a 
+bubble popping on the economy.3 A key reason was the difficulty in knowing when the market is mispricing 
+an asset.  So, for example, despite some concerns in the housing market, regulators didn’t aggressively target 
+slowing the increase of frothy mortgage lending in 2006 and earlier.     
+Which sectors are starved for credit? Is there a need for differentiated credit policy?
+n  Policy makers in the 1950s grappled with this question by trying to formalize a framework to assess when 
+differentiated policy is necessary.4 They developed four basic tests: 
+ –  How effective is general monetary policy in balancing the provision of credit to the economy?
+ – How potentially destabilizing is the growth of the credit in the specific sector?

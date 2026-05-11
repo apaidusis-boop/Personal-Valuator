@@ -1,0 +1,54 @@
+pute the cost of capital over this period, we estimate a beta of 1.05 for Target (based on the average beta across
+general retailers) and use an equity risk premium of 5% (the risk-free rate is 3.5%):
+
+Here again, we computed debt to capital ratios, with operating leases treated as part of debt, and the market capitalization
+for Target of $34,346 million. The resulting free cash flows to the firm for the following five years are reported in the table,
+with the present value computed using the cost of capital:
+At the end of year 5, we assume that Target will be a mature firm, with a growth rate of 3% in perpetuity and a return on
+capital equal to its cost of capital. The resulting reinvestment rate and terminal value are estimated in the following
+calculations:
+Adding the present value of the terminal value to the sum of the present value of the free cash flows to the firm for the next
+five years, we arrive at the value of the operating assets:
+Adding the cash balance ($1,712 million) and subtracting debt inclusive of the operating leases ($18,162 million) yields a
+value of equity of $40,636 million. Dividing by the number of shares (689.13 million) results in a value per share of $58.97,
+about 20% higher than the prevailing market price of $49 in May 2011.
+As a final part of the analysis, we examine the effect that treating leases as debt has on the valuation. As the following table
+makes clear, staying with the current accounting treatment of operating leases as operating expenses would result in a higher
+return on capital, a higher cost of capital, and a slightly higher value of equity per share.
+Operating Expense
+Financial Expense
+Operating income
+$5,252.00
+$5,346.00
+Debt
+$16,814.00
+$19,250.00
+ROIC
+11.39%
+10.75%
+Reinvestment rate
+40%
+40%
+Expected growth rate
+4.56%
+4.30%
+Debt-to-capital ratio
+31.41%
+34.59%
+Cost of capital
+6.92%
+6.74%
+Value of firm
+$56,731.00
+$58,795.00
+Value of equity
+$41,005.00
+$40,633.00
+Value/share
+$59.50
+$58.97
+While the value per share effect is small in the case of Target, it will be larger for firms with more substantial lease
+commitments (relative to conventional debt). A key number to track is the excess return (return on capital – cost of capital)
+earned by the firm. For Target, converting leases to debt lowers the excess return slightly from 4.47% (11.39% minus
+6.92%) to 4.01% (10.75% minus 6.74%), which also lowers the value per share. The greater the change in the excess
+returns from the lease adjustment, the greater will be the impact of converting leases to debt on value per share.

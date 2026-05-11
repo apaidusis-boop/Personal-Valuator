@@ -1,0 +1,50 @@
+arginal tax
+rate.
+4.
+ Firms that generate substantial income for foreign domiciles with lower tax rates do not have to
+pay domestic taxes until that income is repatriated back to the domestic country.
+
+Marginal Tax Rates for Multinationals
+When a firm has global operations, its income is taxed at different rates in different locales. When
+this occurs, what is the marginal tax rate for the firm? There are three ways in which we can deal
+with different tax rates.
+1.
+ The first is to use a weighted average of the marginal tax rates, with the weights based on the
+income derived by the firm from each of these countries. The problem with this approach is that
+the weights will change over time, if income is growing at different rates in different countries.
+2.
+ The second is to use the marginal tax rate of the country in which the company is incorporated,
+with the implicit assumption being that the income generated in other countries will eventually
+have to be repatriated to the country of origin, at which point the firm will have to pay the
+marginal tax rate.
+3.
+ The third approach is to keep the income from each country separate and apply a different
+marginal tax rate to each income stream.
+Effects of Tax Rate on Value
+In valuing a firm, should you use the marginal or the effective tax rates. If the same tax rate has to be
+applied to earnings every period, the safer choice is the marginal tax rate, because none of the four
+reasons noted can be sustained in perpetuity. As new capital expenditures taper off, the difference
+between reported and tax income will narrow; tax credits are seldom perpetual and firms eventually
+do have to pay their deferred taxes. There is no reason, however, why the tax rates used to compute
+the after-tax cash flows cannot change over time. Thus, in valuing a firm with an effective tax rate of
+24 percent in the current period and a marginal tax rate of 35 percent, you can estimate the first year's
+cash flows using the marginal tax rate of 24 percent and then increase the tax rate to 35 percent over
+time. It is good practice to assume that the tax rate used in perpetuity to compute the terminal value be
+the marginal tax rate.
+When valuing equity, we often start with net income or earnings per share, which are after-tax
+earnings. Although it looks as though we can avoid dealing with the estimating of tax rates when using
+after-tax earnings, appearances are deceptive. The current after-tax earnings of a firm reflect the taxes
+paid this year. To the extent that tax planning or deferral caused this payment to be very low (low
+effective tax rates) or very high (high effective tax rates), we run the risk of assuming that the firm can
+continue to do this in the future if we do not adjust the net income for changes in the tax rates in future
+years.
+ILLUSTRATION 10.1: Effect of Tax Rate Assumptions on
+Value
+Convoy Inc. is a telecommunications firm that generated $150 million in pretax operating income and reinvested $30 million
+in the most recent financial year. As a result of tax deferrals, the firm has an effective tax rate of 20%, while its marginal
+tax rate is 40%. Both the operating income and the reinvestment are expected to grow 10% a year for five years, and 5%
+thereafter. The firm's cost of capital is 9% and is expected to remain unchanged over time. We will estimate the value of
+Convoy using three different assumptions about tax rates—the effective tax rate forever, the marginal tax rate forever, and
+an approach that combines the two rates.
+Approach 1:
+ Effective Tax Rate Forever

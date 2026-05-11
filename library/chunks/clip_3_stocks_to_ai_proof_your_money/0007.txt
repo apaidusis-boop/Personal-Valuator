@@ -1,0 +1,13 @@
+electrical segment, which handles data center power infrastructure, has been particularly explosive, with revenue climbing 71% year over year at peak.
+
+### Why We Think AI Cannot Disrupt This Business
+
+The disruption risk from AI is concentrated in industries where the core product is information, software, or repeatable cognitive tasks. Comfort Systems operates in a fundamentally different category: skilled physical labor, applied in complex, site-specific environments.
+
+Installing a cooling system in a hyperscale data center is not a task that can be automated away. It requires licensed tradespeople, on-site engineering judgment, coordination across dozens of subcontractors, and deep familiarity with local building codes. No large language model can tighten a pipe fitting or commission a chiller. The skilled trades shortage in the United States, if anything, makes Comfort Systems' workforce and operational expertise more valuable over time, not less.
+
+There is also a powerful network effect embedded in the business. Comfort Systems has spent nearly three decades building relationships with general contractors, developers, and institutional clients. Its subsidiaries carry deep local knowledge and reputations that cannot be replicated by a new entrant or disrupted by a software platform. These relationships produce the backlog; the backlog produces the revenue visibility; the revenue visibility is what commands a premium valuation.
+
+### A Stock Born for This Moment
+
+What makes FIX unusual in the current environment is that it sits at the intersection of two of the most powerful investment themes of the decade — AI infrastructure buildout and domestic manufacturing reshoring — without carrying the valuation risk of a pure-play technology company.

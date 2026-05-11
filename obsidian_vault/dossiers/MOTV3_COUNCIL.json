@@ -1,0 +1,110 @@
+{
+  "ticker": "MOTV3",
+  "market": "br",
+  "modo": "A",
+  "sector": "Industrials",
+  "is_holding": false,
+  "openings": {
+    "sector_specialist": {
+      "headline": "MOTV3 tem ROE forte mas preocupante ND/EBITDA e DY baixo",
+      "stance": "HOLD",
+      "main_argument": "A empresa apresenta um ROE acima de 15% e margens EBITDA sólidas, sugerindo potencial. No entanto, a relação ND/EBITDA está alta e o DY é insatisfatório.",
+      "supporting_metrics": [
+        "ROE=20.8%",
+        "ND/EBITDA=3.55",
+        "DY=1.98%"
+      ],
+      "concerns": [
+        "ND/EBITDA acima do limite ideal",
+        "Dividend yield baixo"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Risco de deterioração financeira e incerteza operacional",
+      "stance": "AVOID",
+      "main_argument": "A relação dívida líquida/EBITDA está acima do limite ideal, sem mitigação clara nos próximos dois anos. Além disso, a empresa quebrou recentemente seu histórico de dividendos.",
+      "supporting_metrics": [
+        "ND/EBITDA=3.55",
+        "DivStreak=2.00"
+      ],
+      "concerns": [
+        "Deterioração da margem EBITDA nos últimos trimestres",
+        "Possível falta de liquidez para manter o pagamento de dividendos"
+      ],
+      "veto_signals": [
+        "CCC deteriorando >30% YoY sem explicação"
+      ]
+    },
+    "portfolio_officer": {
+      "headline": "MOTV3 tem potencial de valorização mas riscos financeiros",
+      "stance": "HOLD",
+      "main_argument": "ROE acima de 20% sugere crescimento futuro, porém dívida líquida/EBITDA elevada e DY baixo indicam cautela.",
+      "supporting_metrics": [
+        "P/E=10.72",
+        "ROE=20.8%",
+        "ND/EBITDA=3.55"
+      ],
+      "concerns": [
+        "dívida líquida/EBITDA acima de 3x",
+        "dividend yield baixo"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "A relação dívida líquida/EBITDA está acima do limite ideal, sem mitigação clara nos próximos dois anos.",
+        "risk_officer"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "A empresa apresenta um ROE acima de 15% e margens EBITDA sólidas, sugerindo potencial.",
+        "sector_specialist"
+      ],
+      "challenge": [
+        "ROE acima de 20% sugere crescimento futuro",
+        "O alto ROE pode ser temporário ou não indicar uma tendência sustentável se a relação dívida líquida/EBITDA continuar alta e sem mitigação clara."
+      ],
+      "new_evidence": "",
+      "revised_stance": "AVOID"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "A empresa apresenta um ROE acima de 15% e margens EBITDA sólidas, sugerindo potencial.",
+        "sector_specialist"
+      ],
+      "challenge": [
+        "Concerns: ND/EBITDA acima do limite ideal",
+        "Embora a relação dívida líquida/EBITDA esteja alta, o ROE de 20.8% sugere que a empresa pode gerar lucros suficientes para reduzir essa alavancagem ao longo do tempo."
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "A relação dívida líquida/EBITDA está acima do limite ideal",
+      "ROE acima de 15% e margens EBITDA sólidas sugerem potencial"
+    ],
+    "dissent_points": [
+      "role RISK_OFFICER diz que o alto ROE pode ser temporário ou não indicar uma tendência sustentável se a relação dívida líquida/EBITDA continuar alta e sem mitigação clara",
+      "role PORTFOLIO_OFFICER diz que embora a relação dívida líquida/EBITDA esteja alta, o ROE de 20.8% sugere que a empresa pode gerar lucros suficientes para reduzir essa alavancagem ao longo do tempo"
+    ],
+    "final_stance": "HOLD",
+    "confidence": "medium",
+    "pre_publication_flags": [
+      "CCC deteriorando >30% YoY sem explicação",
+      "dividend yield baixo e relação dívida líquida/EBITDA acima de 3x"
+    ],
+    "sizing_recommendation": "size 1.5-2.5% se add, trim se peso > 5%, hold actual se watchlist"
+  },
+  "failures": [],
+  "elapsed_sec": 40.079389333724976,
+  "date": "2026-04-30"
+}

@@ -1,0 +1,13 @@
+stable growth levels. The table below summarizes the cash flows and the present value
+(in ‘000s). 
+
+At the end of year 10, the firm is in stable growth and the terminal value is estimated as follows: 
+
+Discounting the terminal value back, adding it to the present value of cash flows during the high growth period and
+subtracting out debt (zero) yields a value of $19.065 million for the equity. 
+d.
+
+Getting to value of equity per share:
+ To get to value of equity per share, we value the 100,000 equity options that are
+held by managers and venture capitalists in the company, subtract the value from the value of equity, before dividing by the
+1 million shares outstanding.

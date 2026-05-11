@@ -1,0 +1,105 @@
+
+[GRAHAM] ACN (us):
+  verdict: N/A    score: 0.0
+  msg: Graham engine only handles BR; for US use Buffett
+    {
+      "reason": "Graham engine only handles BR; for US use Buffett"
+    }
+
+[BUFFETT] ACN (us):
+  verdict: HOLD    score: 0.6667
+    {
+      "kind": "us_company",
+      "details": {
+        "pe": {
+          "value": 14.788525,
+          "threshold": 20,
+          "verdict": "pass"
+        },
+        "pb": {
+          "value": 3.5542333,
+          "threshold": 3,
+          "verdict": "fail"
+        },
+        "dividend_yield": {
+          "value": 0.017237556986824682,
+          "threshold": 0.025,
+          "verdict": "fail"
+        },
+        "roe": {
+          "value": 0.24763,
+          "threshold": 0.15,
+          "verdict": "pass"
+        },
+        "aristocrat": {
+          "value": 22,
+          "threshold": 10,
+          "verdict": "pass",
+          "kind": "streak"
+        },
+        "roic": {
+
+[DRIP] ACN (us):
+  verdict: HOLD    score: 0.95
+    {
+      "safety_score": 95.0,
+      "safety_verdict": "SAFE",
+      "components": [
+        {
+          "name": "payout_ratio",
+          "score": 35,
+          "weight": 35,
+          "value": 0.25491803278688524,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "roe_level",
+          "score": 20,
+          "weight": 20,
+          "value": 0.24763,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "streak_years",
+          "score": 20,
+          "weight": 25,
+          "value": 22,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "net_debt_ebitda",
+          "score": 20,
+          "weight": 20,
+          "value": -0.08309405074235562,
+
+[MACRO] ACN (us):
+  verdict: BUY    score: 1.0
+  weight_suggestion: 1.0
+    {
+      "regime": "expansion",
+      "regime_confidence": "medium",
+      "sector": "technology",
+      "tilt": "tilt_up",
+      "multiplier": 1.5,
+      "regime_notes": "growth + productivity narrative"
+    }
+
+[HEDGE] ACN (us):
+  verdict: HOLD    score: 1.0
+  msg: No tactical hedge active in current regime
+    {
+      "market": "us",
+      "regime": "expansion",
+      "confidence": "medium",
+      "hedge_size_pct": 0.0,
+      "instruments": [],
+      "notional": null,
+      "rationale": [
+        "curva normal + labor estável = expansion"
+      ],
+      "cross_asset_alternatives": [
+        "GLD",
+        "TLT"
+      ],
+      "active": false
+    }

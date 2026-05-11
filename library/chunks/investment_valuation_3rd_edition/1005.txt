@@ -1,0 +1,79 @@
+evaluation of security analysts forecasts.
+Accounting Review
+ 53:651–668.
+Foster, G. 1977. Quarterly accounting data: Time series properties and predictive ability results.
+Accounting Review
+ 52:1–31.
+
+Fried, D., and D. Givoly. 1982. Financial analysts forecasts of earnings: A better surrogate for
+earnings expectations. 
+Journal of Accounting and Economics
+ 4:85–107.
+Fuller, R. J., L. C. Huberts, and M. Levinson. 1992. It's not higgledy-piggledy growth! 
+Journal of
+Portfolio Management
+ 18:38–46.
+Givoly, D., and J. Lakonishok. 1984. The quality of analysts' forecasts of earnings. 
+Financial
+Analysts Journal
+ 40:40–47.
+Griffin, P. A., “The time series Behavior of quarterly earnings.” 
+Journal of Accounting Research
+ 15
+(Spring 1977): 71–83.
+Hawkins, E. H., S. C. Chamberlin, and W. E. Daniel. 1984. Earnings expectations and security
+prices. 
+Financial Analysts Journal
+ 40:24–27, 30–38, 74.
+Little, I. M. D. 1960. 
+Higgledy piggledy growth
+. Oxford: Institute of Statistics.
+O'Brien, P. 1988. Analysts' forecasts as earnings expectations. 
+Journal of Accounting and
+Economics
+ 10:53–83.
+Vander Weide, J. H., and W. T. Carleton. 1988. Investor growth expectations: Analysts vs. history.
+Journal of Portfolio Management
+ 14:78–83.
+Watts, R. 1975. 
+The time series behavior of quarterly earnings
+. Working paper. University of
+Newcastle.
+Chapter 12 Closure in Valuation: Estimating Terminal Value
+Altman, E. I. 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy.
+Journal of Finance
+ 23:589–609.
+Grant, R. M., 1998. 
+Contemporary strategy analysis. 
+Malden, MA: Blackwell.
+Mauboussin, M., and P. Johnson. 1997. Competitive advantage period: The neglected value driver.
+Financial Management
+ 26(2):67–74.
+Porter, M. E. 1980. 
+Competitive strategy: Techniques for analyzing industries and competitors
+.
+New York: Free Press.
+Chapter 13 Dividend Discount Models
+Bethke, W. M., and S. E. Boyd. 1983. Should dividend discount models be yield-tilted? 
+Journal of
+Portfolio Management
+ 9:23–27.
+Estep, T. 1985. A new method for valuing common stocks. 
+Financial Analysts Journal
+ 41:26, 27,
+30–33.
+Estep, T. 1987. Security analysis and stock selection: Turning financial information into return
+forecasts. 
+Financial Analysts Journal
+ 43:34–43.
+Fuller, R. J., and C. Hsia. 1984. A simplified common stock valuation model. 
+Financial Analysts
+Journal
+ 40:49–56.
+Gordon, M. 1962. 
+The investment, financing and valuation of the corporation
+. Homewood, IL:
+Irwin.
+Haugen, R. 1997. 
+Modern investment theory
+. Upper Saddle River, NJ: Prentice Hall.

@@ -1,0 +1,39 @@
+st, consider what would have happened if we had used the consolidated income statement and Segovia’s
+cost of capital to do this valuation. We would have valued Segovia and Seville together as follows:
+
+Note that the minority interests in Seville are computed as 49% of the book value of equity at Seville.
+The minority interests in LatinWorks are computed as 15% of the book value of equity in LatinWorks, which is $250 million
+(capital invested minus debt outstanding). It would be pure chance if this value were equal to the true value of equity, as first
+estimated, of $1,529 million.
+You can see from the discussion that you need a substantial amount of information to value holdings correctly. This
+information may be difficult to come by when the holdings are in private companies.
+ILLUSTRATION 16.7: 
+Valuing Cross Holdings—Real-
+World concerns
+In Illustration 16.6, we were able to value each of the cross-holdings separately because we were able to access the
+information on each of the subsidiaries. That may not always be possible or feasible in the real world. To illustrate, we will
+use two examples: Hyundai Heavy, a Korean shipbuilder, in May 2008 and Tata Motors in May 2010.
+Hyundai Heavy, a part of a Hyundai Group in Korea, has cross holdings in seven other Hyundai Group companies, four of
+which are publicly traded and three of which are privately held. The company reported the book values of its holdings in
+these subsidiaries in the financial statements for 2007:
+Cross Holding
+Book Value (in billions of won)
+Hyundai Merchant Marine
+380.00
+Hyundai Motors
+355.00
+Hyundai Elevator
+9.20
+Hyundai Corp
+2.00
+Hyundai Oil Bank
+329.80
+Hyundai Samho
+1,068.50
+Hyundai Finance
+88.20
+Value of Cross Holdings
+2,232.70
+To estimate the market value of these holdings, we use two approaches. For the four publicly traded firms, we use the
+market values of the firms in May 2008 to estimate the values of the holdings. For the three private businesses, we used the
+price to book ratio at which publicly traded Korean companies in the underlying businesses traded to estimate market value.

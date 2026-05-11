@@ -1,0 +1,33 @@
+omparison.
+ILLUSTRATION 14.6: Valuing Coca-Cola with a Three-
+Stage FCFE Model
+In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of $67.15 per share,
+
+a tad under the market price of $68.22. Implicitly, we were assuming that Coca-Cola's managers are paying out what they
+can afford to in dividends and that there will be no cash buildup in the company. To test the proposition, we will now value
+Coca-Cola using a three-stage FCFE model.
+We begin by first separating the after-tax interest income of $105.32 million earned by Coca-Cola from its net income of
+$11,809 million and computing a noncash net income:
+To compute the noncash return on equity, we modify the return on equity computation by netting cash ($7.021 million) out of
+book value of equity ($25,346 million):
+As in the three-stage dividend discount model, we assume a much lower noncash return on equity of 30% going forward
+(which is higher than the 25% return on equity we assumed in the dividend discount model, because of our exclusion of
+cash). Rather than use the retention ratio to estimate reinvestment, we computed an equity reinvestment rate (ERR), using
+the net capital expenditures and working capital investment made by Coca-Cola in 2010:
+Since Coca-Cola has done acquisitions over time, its equity reinvestment rate has been volatile, and the average over the
+past five years has been approximately 25%.
+Assuming a noncash ROE of 30% and an equity reinvestment rate of 25% for the next five years yields an expected growth
+rate in noncash net income of 7.5%:
+During this high growth period, we will assume that Coca-Cola will have a beta of 0.90 (the same beta that we used in the
+dividend discount model). With a risk-free rate of 3.5% and an equity risk premium of 5.5%, we arrive at the same cost of
+equity of 8.45% that we used in the dividend discount model:
+Applying the growth to net income and netting out the equity reinvestment rate yields the free cash flows to equity for the
+next five years, with present values computed using the cost of equity:
+As in the dividend discount model, we will assume that the firm will be in stable growth 10 years forward, with the following
+assumptions:
+The growth rate in perpetuity after year 10 will be 3% and the noncash ROE is expected to be 15%. The
+resulting equity reinvestment rate in stable growth is:
+The beta for the company will rise to 1, causing the cost of equity to increase to 9%.
+The transition period from year 6 to 10 is again used to adjust the growth rate, equity reinvestment rate, and cost of equity
+from high growth values to stable growth levels. The resulting FCFE are shown in the following table, with the present value
+computed using the cumulated cost of equity (since the cost of equity changes from period to period).

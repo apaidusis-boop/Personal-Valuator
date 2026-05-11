@@ -1,0 +1,38 @@
+the year 
+Payout = Dividend payout ratio at the end of the year 
+Beta = Beta of the stock 
+EGR = Growth rate in earnings over prior five years 
+ROE = Return on equity = Net income/Book value of equity
+
+Updated Regressions
+In January 2011, we regressed the price-to-book ratios against the fundamentals identified in the
+preceding section—the return on equity, the payout ratio, the beta, and the expected growth rate over
+the next five years (from analyst forecasts):
+The regression has an R-squared of 43.2%.
+The strong positive relationship between price-to-book ratios and returns on equity is not unique to
+the United States. In fact, 
+Table 19.1
+ summarizes regressions of price-to-book ratios against returns
+on equity for companies globally. Note that while we tried the entire suite of independent variables
+(ROE, Beta, payout, and growth) for all of the regressions, we kept only those variables that we
+statistically significant.
+Table 19.1
+ Price-to-Book Value Regressions—Global in January 2011
+Region
+Regression: January 2010
+R-Squared
+Europe
+PBV = 1.49 + 0.98 Expected growth + 0.32 Payout – 0.55 Beta + 7.89 ROE
+44.0%
+Japan
+PBV = 0.87 + + 6.09 ROE
+28.2%
+Emerging markets
+PBV = 0.87 + 1.17 Expected growth + 0.57 Payout + 7.20 ROE
+28.1%
+ILLUSTRATION 19.7: Valuing Coca-Cola Using the Cross-
+Sectional Regression
+Assume that you had been asked to value Coca-Cola early in January 2011 and that you had obtained the following data on
+the company:
+The stock was trading at a price to book value ratio of 4.83, suggesting that it was fairly valued.
+pbvreg.htm:

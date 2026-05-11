@@ -1,0 +1,28 @@
+the capped growth rate of
+0.68% (based on the implied growth rate):
+Using this approach, we estimated the firm value at different debt ratios in 
+Figure 15.3
+.
+Figure 15.3
+ Firm Value and Debt Ratios
+
+There are two ways of getting from firm value to the value per share. Because the increase in value accrues entirely to
+stockholders, we can estimate the increase in value per share by dividing by the total number of shares outstanding:
+Since the change in cost of capital is being accomplished by borrowing $8,068 million (to get from the existing debt of
+$16,682 million to the debt of $24,750 million at the optimal debt ratio) and buying back shares, it may seem surprising that
+we are using the shares outstanding before the buyback. Implicit in this computation is the assumption that the increase in
+firm value will be spread evenly across both the stockholders who sell their stock back to the firm and those who do not,
+and that is why we term this the rational solution, since it leaves investors indifferent between selling back their shares
+and holding on to them. The alternative approach to arriving at the value per share is to compute the number of shares
+outstanding after the buyback:
+To the extent that stock can be bought back at the current price of $24.34 or some value lower than $25.29, the remaining
+stockholders will get a bigger share of the increase in value. For instance, if Disney could have bought stock back at the
+existing price of $24.34, the increase in value per share would be $1.16.
+17
+ If the stock buyback occurs at a price higher
+than $25.29, investors who sell their stock back will gain at the expense of those who remain stockholders in the firm.
+captstr.xls:
+
+This spreadsheet allows you to compute the optimal debt ratio firm value for any firm,
+using the same information used for Disney. It has updated interest coverage ratios and default
+spreads built in.

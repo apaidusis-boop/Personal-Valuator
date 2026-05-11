@@ -1,0 +1,23 @@
+ch has a negative net present value if introduced today, is $1.019 million. Note, though, as
+measured by N(d2), the likelihood is low that this project will become viable before expiration.
+delay.xls:
+
+This spreadsheet allows you to estimate the value of an option to delay an investment.
+ARBITRAGE POSSIBILITIES AND OPTION PRICING
+MODELS
+The discussion of option pricing models in Chapter 5 noted that they are based on two powerful constructs—the idea of
+replicating portfolios and arbitrage. Models such as the Black-Scholes and binomial assume that you can create a replicating
+portfolio, using the underlying asset and riskless borrowing or lending, that has cash flows identical to those on an option.
+Furthermore, these models assume that since investors can then create riskless positions by buying the option and selling the
+replicating portfolio, they have to sell for the same price. If they do not, investors should be able to create riskless positions
+and walk away with guaranteed profits—the essence of arbitrage. This is why the interest rate used in option pricing models
+is the riskless rate.
+  With listed options on traded stocks or assets, arbitrage is clearly feasible, at least for some investors. With options on
+nontraded assets, it is almost impossible to trade the replicating portfolio, although you can create it on paper. In Illustration
+28.1, for instance, you would need to buy 0.225 units (the option delta) of the underlying project (a nontraded asset) to create
+a portfolio that replicates the call option.
+  There are some who argue that the impossibility of arbitrage makes it inappropriate to use option pricing models to value
+real options, whereas others try to adjust for this limitation by using an interest rate higher than the riskless rate in the option
+pricing model. We do not think that either of these responses is appropriate. Note that while you cannot trade on the
+replicating portfolios in many real options, you still can create them on paper (as we did in Illustration 28.1) and value the
+options. The difficulties in creating arbitrage positions may result in prices that deviate by a large amounts from this value.

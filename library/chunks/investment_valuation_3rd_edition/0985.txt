@@ -1,0 +1,47 @@
+instance, you cannot separate the razor business easily
+from the shaving cream business, and brand name value is inherent in both businesses.
+Figure 34.2
+ Asset Marketability and Valuation Approaches
+
+You can also use this same analysis to see why the liquidation or replacement cost value of a high-
+growth business may bear little resemblance to true value. Unlike assets in place, growth assets
+cannot be easily identified or sold.
+Cash-Flow-Generating Capacity
+You can categorize assets into three groups based on their capacity to generate cash flows: assets that
+are either generating cash flows currently or are expected to do so in the near future, assets that are
+not generating cash flows currently but could in the future in the event of a contingency, and assets that
+will never generate cash flows. (See 
+Figure 34.3
+.)
+Figure 34.3
+ Cash Flows and Valuation Approaches
+1.
+ The first group includes most publicly traded companies, and these firms can be valued using
+discounted cash flow models. Note that a distinction is not drawn between negative and positive
+cash flows, and young start-up companies that generate negative cash flow can still be valued
+using discounted cash flow models.
+2.
+ The second group includes assets such as drug patents, promising (but not viable) technology,
+undeveloped oil or mining reserves, and undeveloped land. These assets may generate no cash
+flows currently and could generate large cash flows in the future but only under certain conditions
+—if the FDA approves the drug patent, if the technology becomes commercially viable, if oil
+prices and commercial property values go up. While you could estimate expected values using
+discounted cash flow models by assigning probabilities to these events, you will understate the
+value of the assets if you do so. You should value these assets using option pricing models.
+3.
+ Assets that are never expected to generate cash flows include your primary residence, a
+baseball card collection, or fine art. These assets can only be valued using relative valuation
+models.
+Uniqueness (or Presence of Comparables)
+In a market where thousands of stocks are traded and tens of thousands of assets are bought and sold
+every day, it may be difficult to visualize an asset or business that is so unique that you cannot find
+comparable assets. On a continuum, though, some assets and businesses are part of a large group of
+similar assets, with no or very small differences across the assets. (See 
+Figure 34.4
+.) These assets
+are tailor-made for relative valuation, since assembling comparable assets (businesses) and
+controlling for differences is simple. The further you move from this ideal, the less reliable is relative
+valuation. For businesses that are truly unique, discounted cash flow valuation will yield much better
+estimates of value.
+Figure 34.4
+ Uniqueness of Asset and Valuation Approaches

@@ -1,0 +1,36 @@
+=
+Dividends/Current value of the asset) on the underlying asset is expected to remain unchanged
+during the life of the option, the Black-Scholes model can be modified to take dividends into
+account.
+
+From an intuitive standpoint, the adjustments have two effects. First, the value of the asset is
+discounted back to the present at the dividend yield to take into account the expected drop in asset
+value resulting from dividend payments. Second, the interest rate is offset by the dividend yield to
+reflect the lower carrying cost from holding the asset (in the replicating portfolio). The net effect
+will be a reduction in the value of calls estimated using this model.
+ILLUSTRATION 5.3: 
+Valuing a Short-Term Option with
+Dividend Adjustments—The Black-Scholes Correction
+Assume that it is March 6, 2001, and that AT&T is trading at $20.50 a share. Consider a call option on the stock with a
+strike price of $20, expiring on July 20, 2001. Using past stock prices, the annualized standard deviation in the log of stock
+prices for AT&T is estimated at 60%. There is one dividend, amounting to $0.15, and it will be paid in 23 days. The riskless
+rate is 4.63%.
+Present value of expected dividend = $0.15/1.0463
+23/365
+ = $0.15
+Dividend-adjusted stock price = $20.50 – $0.15 = $20.35
+Time to expiration = 103/365 = 0.2822
+Variance in ln(stock prices) = 0.6
+2
+ = 0.36
+Riskless rate = 4.63%
+The value from the Black-Scholes model is:
+The call option was trading at $2.60 on that day.
+ILLUSTRATION 5.4: 
+Valuing a Long-Term Option with
+Dividend Adjustments—Primes and Scores
+The CBOE offers longer-term call and put options on some stocks. On March 6, 2001, for instance, you could have
+purchased an AT&T call expiring on January 17, 2003. The stock price for AT&T is $20.50 (as in the previous example).
+The following is the valuation of a call option with a strike price of $20. Instead of estimating the present value of dividends
+over the next two years, assume that AT&T’s dividend yield will remain 2.51% over this period and that the risk-free rate
+for a two-year Treasury bond is 4.85%. The inputs to the Black-Scholes model are:

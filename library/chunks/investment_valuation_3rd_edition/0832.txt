@@ -1,0 +1,26 @@
+d increases.
+optvar.xls:
+
+This dataset on the Web summarizes standard deviations in firm value and equity value by
+industry group in the United States.
+ILLUSTRATION 28.1: Valuing the Option to Delay a
+
+Project
+Assume that you are interested in acquiring the exclusive rights to market a new product that will make it easier for people
+to access files from their work computers on the road. If you do acquire the rights to the product, you estimate that it will
+cost you $50 million up-front to set up the infrastructure needed to provide the service. Based on your current projections,
+you believe that the service will generate only $10 million in after-tax cash flows each year. In addition, you expect to
+operate without serious competition for the next five years.
+From a static standpoint, the net present value of this project can be computed by taking the present value of the expected
+cash flows over the next five years. Assuming a discount rate of 15% (based on the riskiness of this project), we obtain the
+following net present value for the project:
+This project has a negative net present value.
+The biggest source of uncertainty about this project is the number of people who will be interested in the product. While
+current market tests indicate that you will capture a relatively small number of business travelers as your customers, they
+also indicate the possibility that the potential market could be much larger. In fact, a simulation of the project's cash flows
+yields a standard deviation of 42% in the present value of the cash flows, with an expected value of $33.5 million.
+To value the exclusive rights to this project, we first define the inputs to the option pricing model:
+Assume that the five-year riskless rate is 5%. The value of the option can be estimated as follows:
+The rights to this product, which has a negative net present value if introduced today, is $1.019 million. Note, though, as
+measured by N(d2), the likelihood is low that this project will become viable before expiration.
+delay.xls:

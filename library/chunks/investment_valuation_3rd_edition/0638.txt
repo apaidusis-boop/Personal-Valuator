@@ -1,0 +1,26 @@
+o-book value ratios for valuing financial service firms.
+Price-Earnings Ratios
+The price-earnings ratio for a bank or an insurance company is measured in much the same way as it
+is for any other firm.
+
+Chapter 18 noted that the price-earnings ratio is a function of three variables—the expected growth
+rate in earnings, the payout ratio, and the cost of equity. As with other firms, the price-earnings ratio
+should be higher for financial service firms with higher expected growth rates in earnings, higher
+payout ratios, and lower costs of equity.
+An issue that is specific to financial service firms is the use of provisions for expected expenses.
+For instance, banks routinely set aside provisions for bad loans. These provisions reduce the reported
+income and affect the reported price-earnings ratio. Consequently, banks that are more conservative
+about categorizing bad loans will report lower earnings and have higher price-earnings ratios,
+whereas banks that are less conservative will report higher earnings and lower price-earnings ratios.
+Another consideration in the use of earnings multiples is the diversification of financial service
+firms into multiple businesses. The multiple that an investor is willing to pay for a dollar in earnings
+from commercial lending should be very different from the multiple that the same investor is willing
+to pay for a dollar in earnings from proprietary trading. When a firm is in multiple businesses with
+different risk, growth, and return characteristics, it is very difficult to find truly comparable firms and
+to compare the multiples of earnings paid across firms. In such a case, it makes far more sense to
+break the firm's earnings down by business and assess the value of each business separately.
+ILLUSTRATION 21.5: Comparing PE Ratios — U.S.
+Insurance Companies in May 2011
+The following table summarizes the price-earnings ratios and relevant fundamentals (analysts' estimates of expected growth
+in EPS over the next five years, payout, return on equity, and beta) for U.S. insurance companies with a market
+capitalization exceeding $1 billion.

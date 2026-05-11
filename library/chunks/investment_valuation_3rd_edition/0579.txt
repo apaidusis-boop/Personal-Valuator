@@ -1,0 +1,30 @@
+and reliable
+estimates of relative value. In addition, the value-to-book ratio can be computed even for firms that
+have negative book values of equity and is thus less likely to be biased.
+pbvreg.htm:
+
+This dataset on the Web reports the results of the latest regression of PE ratios against
+fundamentals, using all firms in the market.
+TOBIN'S Q: MARKET VALUE/REPLACEMENT
+COST
+James Tobin presented an alternative to traditional financial measures of value by comparing the
+market value of an asset to its replacement cost. His measure, called Tobin's Q, has several adherents
+in academia but still has not broken through into practical use, largely because of problems in getting
+the necessary information.
+Definition
+Tobin's Q is estimated by dividing the market value of a firm's assets by the replacement cost of these
+assets.
+In cases where inflation has pushed up the replacement cost of the assets or where technology has
+reduced the cost of the assets, this measure may provide a more updated measure of the value of the
+assets than accounting book value. The rationale for the measure is simple. Firms that earn negative
+excess returns and do not utilize their assets efficiently will have a Tobin's Q that is less than 1. Firms
+that utilize their assets more efficiently will trade at a Tobin's Q that exceeds 1.
+While this measure has some advantages in theory, it does have some practical problems. The first
+is that the replacement value of some assets may be difficult to estimate, especially if assets are not
+traded on a market. The second is that even where replacement values are available, substantially
+more information is needed to construct this measure than the traditional price–book value ratio. In
+practice, analysts often use shortcuts to arrive at Tobin's Q, using book value of assets as a proxy for
+replacement value and market value of debt and equity as a proxy for the market value of assets. In
+these cases, Tobin's Q resembles the value-to-book value ratio described in the preceding section.
+Description
+If we use the strict definition of Tobin's Q, we cannot get a cross-sectional distribution of the multiple

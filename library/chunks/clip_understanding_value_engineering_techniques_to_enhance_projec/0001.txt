@@ -1,0 +1,15 @@
+/ask/answers/122214/company-it-more-important-lower-costs-or-increase-revenue.asp) at the expense of quality is simply a [cost-cutting](https://www.investopedia.com/terms/c/cost-cutting.asp) strategy.
+
+The concept of value engineering evolved in the 1940s at General Electric, in the midst of World War II. Due to the war, purchase engineer Lawrence Miles and others sought substitutes for materials and components since there was a chronic shortage of them. These substitutes were often found to reduce costs and provided equal or better performance.1
+
+### Important
+
+With value engineering, cost reduction should not affect the quality of the product being developed or analyzed.
+
+## How to Maximize Product Value: The Function-to-Cost Ratio
+
+Miles defined product value as the ratio of two elements: function to cost. The function of an item is the specific work it was designed to perform, and the cost refers to the cost of the item during its [life cycle](https://www.investopedia.com/terms/p/product-life-cycle-management.asp).2 The ratio of function to cost implies that the value of a product can be increased by either improving its function or decreasing its cost. In value engineering, the cost related to production, design, maintenance, and replacement are included in the analysis.  
+$\begin{aligned}&\text{Product Value} = \frac { \text{Function} }{ \text{Cost} } \\\end{aligned}$  
+For example, consider a new tech product planned to last only two years. The product will thus be designed with the least expensive materials and resources that will serve up to the end of the product’s life cycle, saving the manufacturer and the [end-consumer](https://www.investopedia.com/terms/e/end-user.asp) money.
+
+Open a New Account

@@ -1,0 +1,42 @@
+laying off a large portion of the workforce may seem an obvious solution for a firm that is
+overstaffed, but union contracts and the potential for negative publicity may make firms
+reluctant to do so.
+
+Management quality.
+ A management that is committed to change is a critical component of
+a successful turnaround. In some cases, a replacement of top management may be necessary
+for a firm to be able to resolve its operating problems.
+GOLDEN SHARES AND THE VALUE OF PRIVATIZED
+FIRMS
+Whereas governments are always eager to receive the cash proceeds from privatizing the firms that they own, they are
+generally not as eager to give up control of these firms. One way they attempt to preserve power is by maintaining what is
+called a golden share in the firm that gives them veto power and control over some or many aspects of the firm's
+management.
+  For instance, the Brazilian government maintains a golden share in CVRD, allowing it the final decision on whether mines
+can be closed and other major financial decisions. While governments often view these golden shares as a costless way to
+privatize and preserve control at the same time, there is a cost that they will bear. Investors valuing firms with golden shares
+will generally be much less willing to assume radical changes in management and improvements in efficiency. Consequently,
+the values attached to these firms by the market will be much lower. The more inefficient the firm being privatized and the
+more restrictive the golden share, the greater will be the loss in value to the government.
+The Special Case of Privatizations
+In many privatizations, we are called on to value firms with long financial histories but not very
+profitable ones. The lack of profitability is not surprising, since many of these firms have been run
+with objectives other than maximizing value or profitability. In some cases, employment in these
+firms has been viewed as a source of political patronage. Consequently, they end up overstaffed and
+inefficient.
+Will this all change as soon as they are privatized? Not necessarily, and certainly not immediately.
+The power of unions to preserve existing jobs, the power that governments continue to have on how
+they are run, and the sheer size of these firms makes change both daunting and slow. While it is
+reasonable to assume that these firms will, in fact, become more efficient once they are privatized, the
+speed of the improvement will vary from firm to firm. In general, you would expect the adjustment to
+be much quicker if the government relinquishes its power to control the management of the firm and if
+there are strong competitive pressures to become more efficient. It will be slower if the firm is a
+monopoly and the government continues to handpick the top management of the firm.
+ILLUSTRATION 22.6: Valuing a Privatization: Compahnia
+Vale Dio Roce (CVRD) in 1995
+In 1995, the Brazilian government privatized Compahnia Vale Dio Roce (CVRD), Latin America's biggest mining company.
+In the year the firm was privatized, it reported after-tax operating income of 717 million BR on revenues of 4,714 million BR.
+Based on the capital invested in the firm at the beginning of the year of 14,722 million BR, the after-tax return on capital
+earned by the firm was 5.33%.
+If we assumed a stable real growth rate of 3% and a real cost of capital of 10%, and valued CVRD on the basis of these
+inputs, we would have estimated the following value for the firm:

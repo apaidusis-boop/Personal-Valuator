@@ -1,0 +1,125 @@
+---
+type: research_dossie
+ticker: ENGI11
+name: Energisa
+market: br
+sector: Utilities
+is_holding: False
+date: 2026-04-26
+verdict: HOLD
+verdict_confidence: high
+verdict_consensus_pct: 80.0
+sources: [in-house DB, Synthetic IC, vault thesis]
+tokens_claude_data_gather: 0
+tags: [research, dossie, br, utilities]
+---
+
+# 📑 ENGI11 — Energisa
+
+> Generated **2026-04-26** by `ii dossier ENGI11`. Cross-links: [[ENGI11]] · [[ENGI11_IC_DEBATE]] · [[CONSTITUTION]]
+
+## TL;DR
+
+ENGI11 negocia a P/E elevado de 40.07 mas P/B exactamente 1.00 e ROE de 14.49%, com DY apenas 2.80% após 16 anos consecutivos de dividendos. Synthetic IC veredicto **HOLD** (high confidence, 80% consenso) e composite conviction 65. Achado central: P/B colado em 1x oferece floor estrutural, mas DY abaixo de 3% e P/E premium tornam ENGI11 não-DRIP — preço já incorpora execução perfeita das concessões.
+
+## 1. Fundamentals snapshot
+
+- **Período**: 2026-04-25
+- **EPS**: 1.38  |  **BVPS**: 55.24
+- **ROE**: 14.49%  |  **P/E**: 40.07  |  **P/B**: 1.00
+- **DY**: 2.80%  |  **Streak div**: 16y  |  **Market cap**: R$ 25.27B
+- **Last price**: BRL 55.29 (2026-04-24)  |  **YoY**: +35.0%
+
+## 2. Synthetic IC
+
+**🏛️ HOLD** (high confidence, 80.0% consensus)
+
+→ Detalhe: [[ENGI11_IC_DEBATE]]
+
+## 3. Thesis
+
+**Core thesis (2026-04-25)**: ENGI11, com um P/B de 1.0009233 e ROE de 14.49%, oferece valor potencial devido ao seu baixo múltiplo em relação ao patrimônio líquido e uma história consistente de dividendos por 16 anos, apesar do DY ser inferior à média esperada para FIIs.
+
+**Key assumptions**:
+1. Dividendos continuarão a ser pagos consistentemente nos próximos anos
+2. A relação Net Debt/EBITDA melhorará gradualmente ao longo dos próximos trimestres
+3. O P/B permanecerá estável ou diminuirá, mantendo o desconto sobre o patrimônio líquido
+4. O ROE se manterá acima de 14% para sustentar a valorização do ativo
+
+**Disconfirmation triggers**:
+- ROE cair abaixo de 12% por dois trimestres consecutivos
+- Net Debt/EBITDA aumentar para mais de 5.0
+- Dividend streak interrompido após 16 anos
+- P/B sub
+
+→ Vault: [[ENGI11]]
+
+## 4. Conviction breakdown
+
+| Component | Score |
+|---|---|
+| **Composite** | **65** |
+| Thesis health | 100 |
+| IC consensus | 50 |
+| Variant perception | 50 |
+| Data coverage | 50 |
+| Paper track | 50 |
+
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 40.07** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 40.07** fora do screen.
+- **P/B = 1.00** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.00** — verificar consistência com ROE.
+- **DY = 2.80%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **2.80%** baixo para FII; verificar reset/cycle.
+- **ROE = 14.49%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **14.49%** abaixo do critério.
+- **Streak div = 16y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+## 5. Riscos identificados
+
+- 🔴 **DY estruturalmente baixo** — 2.80% bem abaixo do mínimo 6% para utility BR. Trigger: `fundamentals.dy` < 4% mantém-se 4 trimestres consecutivos.
+- 🟡 **P/E esticado** — 40.07 indica preço incorpora crescimento agressivo. Trigger: `fundamentals.pe` > 30 com `roe` < 14%.
+- 🟡 **Revisão tarifária ANEEL** — múltiplas distribuidoras (Energisa MS/MT/Sergipe etc.). Trigger: anúncio ANEEL de revisão tarifária com WACC reduzido.
+- 🟡 **Hidrologia / GSF** — exposição a geração. Trigger: ONS GSF < 0.85 trimestral.
+- 🟢 **Capex elevado expansão** — concessões nordestinas exigem investimento. Trigger: `fundamentals.net_debt_ebitda` > 5x.
+
+## 6. Position sizing
+
+**Status atual**: watchlist
+
+Watchlist apenas — não na carteira. Entry trigger: DY recuperar para ≥ 5% (preço cair ou payout subir) **e** P/E < 20. Weight prudente 3-5% se entrada acontecer; perfil mais quality-compounder do que DRIP devido ao DY baixo. Cash exclusivo BRL (BR isolation), competindo com TAEE11/CMIG4 no slot utility.
+
+## 7. Tracking triggers (auto-monitoring)
+
+- **DY recovery** — `fundamentals.dy` ≥ 5% sustentado 2 trimestres.
+- **P/E re-rating** — `fundamentals.pe` < 20 abre ponto de entrada.
+- **ROE preservado** — `fundamentals.roe` ≥ 14% por 2 trimestres consecutivos.
+- **Streak break** — `fundamentals.dividend_streak_years` regrida abaixo de 16 (red flag).
+- **Leverage breach** — `fundamentals.net_debt_ebitda` > 5x.
+
+## 8. Compute trail
+
+| Stage | Tool | Tokens Claude |
+|---|---|---|
+| Recon DB | sqlite3 | 0 |
+| Vault read | filesystem | 0 |
+| IC + thesis (cached) | Ollama prior session | 0 |
+| Skeleton render | Python f-string | 0 |
+| TODO_CLAUDE narrativa | Claude (subsequent edit) | ~600-1000 |
+
+→ Re-run desta dossier (refresh): ~0.5s + 0 tokens (data layer só) ou ~600 tokens (re-fill narrativa).
+
+---
+*Generated by `ii dossier ENGI11` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
+
+## 🎙️ Recent insights & mentions
+
+_Auto-gerado · 2026-05-10 20:39 UTC · yt=0 · analyst=2 · themes=0_
+
+### 📰 Analyst reports (últimos 120d)
+
+| Data | Fonte | Kind | Stance | PT | Claim |
+|---|---|---|---|---:|---|
+| 2026-04-24 | XP | rating | bull | — | [BTG Value] ENGI11 — peso 4.8% |
+| 2026-04-14 | XP | rating | bull | 84.86 | [XP Top Dividendos] ENGI11 — peso 5.0%, Compra, PT R$84.86, setor Elétricas |
+

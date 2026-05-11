@@ -1,0 +1,1214 @@
+---------------------------------------- 
+q4h_run 2026-05-10 01:20 
+acquired q4h pid=44716
+[OK] ollama: ok (2104ms) {'models': 6}
+[OK] yfinance: ok (759ms)
+[FAIL] tavily: daily quota exhausted {'day_count': 100, 'remaining': 0}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (619ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1436ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+{"ts": "2026-05-09T22:20:19Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-09T22:20:24Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-09T22:25:01Z", "event": "extract_result", "event_id": 178, "ticker": "B3SA3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490847&numSequencia=1015553&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-09T22:29:37Z", "event": "extract_result", "event_id": 196, "ticker": "ITUB4", "date": "2026-03-16", "kind": "fato_relevante", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490845&numSequencia=1015551&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-09T22:34:14Z", "event": "extract_result", "event_id": 238, "ticker": "PGMN3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490563&numSequencia=1015269&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-09T22:34:14Z", "event": "extract_aborted", "reason": "3 consecutive network failures — circuit tripped", "remaining": 16}
+{"ts": "2026-05-09T22:34:14Z", "event": "extract_done", "ok": 0, "fail": 4}
+CVM-PDF exit code (ignored): 0 
+ 
+[DIV-CAL] dividend_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 33 ticker(s)...
+  [1/33] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/33] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [10/33] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [12/33] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [14/33] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/33] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/33] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [29/33] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
+DIV-CAL exit code: 0 
+ 
+[EARN-CAL] earnings_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 33 ticker(s)...
+  [1/33] AAPL: 1 date(s) → 2026-07-30
+  [2/33] ABBV: 1 date(s) → 2026-07-30
+  [3/33] ACN: 1 date(s) → 2026-06-18
+  [5/33] BLK: 1 date(s) → 2026-07-15
+  [6/33] BN: 1 date(s) → 2026-05-14
+  [7/33] BRK-B: 1 date(s) → 2026-08-01
+  [10/33] GS: 1 date(s) → 2026-07-14
+  [11/33] HD: 1 date(s) → 2026-05-19
+  [14/33] JNJ: 1 date(s) → 2026-07-15
+  [15/33] JPM: 1 date(s) → 2026-07-14
+  [18/33] KO: 1 date(s) → 2026-07-21
+  [20/33] NU: 1 date(s) → 2026-05-14
+  [21/33] O: 1 date(s) → 2026-08-03
+  [22/33] PG: 1 date(s) → 2026-07-29
+  [23/33] PLD: 1 date(s) → 2026-07-15
+  [24/33] PLTR: 1 date(s) → 2026-08-03
+  [25/33] PRIO3: 1 date(s) → 2026-08-04
+  [27/33] TEN: 1 date(s) → 2026-05-21
+  [28/33] TSLA: 1 date(s) → 2026-07-22
+  [29/33] TSM: 1 date(s) → 2026-07-16
+  [30/33] VALE3: 1 date(s) → 2026-04-28
+  [32/33] XP: 1 date(s) → 2026-05-18
+Persisted 22 row(s).
+EARN-CAL exit code: 0 
+ 
+[BENCHMARKS] refresh_benchmarks.py --quiet 
+BENCHMARKS exit code: 0 
+ 
+[AUTO-VERDICT] auto_verdict_on_filing.py --since-id 
+
+=== auto_verdict_on_filing ===
+events_seen        : 0
+tickers_recomputed : 0
+verdict_changed    : 0
+errors             : 0
+AUTO-VERDICT exit code: 0 
+ 
+[CONTENT-TRIGGER] auto_verdict_on_content.py  (content vs verdict mismatch) 
+
+evaluated 9 tickers, triggered 0, wrote 0 dossiers
+CONTENT-TRIGGER exit code: 0 
+ 
+[TRIGGERS] trigger_monitor.py 
+[trigger_monitor] triggers=83 fired=8 inserted=0 deduped=8 errors=0
+[trigger_monitor] log: C:\Users\paidu\investment-intelligence\logs\trigger_monitor_2026-05-10.log
+TRIGGERS exit code: 0 
+ 
+[YT-POLL] yt_poll.py  (channels morning calls + research, retry x3) 
+2026-05-09T22:34:57+00:00 [YT-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\yt_poll.py --max-per-channel 2
+2026-05-09T22:34:58+00:00 [BTG Pactual] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:00+00:00 [Genial Investimentos] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:00+00:00 [XP Investimentos] 0 new videos (last_seen=2016-07-25)
+2026-05-09T22:35:01+00:00 [Itaú BBA] 0 new videos (last_seen=2026-04-29)
+2026-05-09T22:35:02+00:00 [Inter Invest] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:03+00:00 [Ativo Virtual] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:04+00:00 [O Primo Rico] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:05+00:00 [Suno] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:05+00:00 [Stock Pickers] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:07+00:00 [Os Sócios Podcast] skip ErZfBEXzFVM dur=167s < min=1800s (VOCÊ PRECISA OUVIR MAIS SUA MULHER)
+2026-05-09T22:35:08+00:00 [Mauá Capital] 0 new videos (last_seen=2021-04-23)
+2026-05-09T22:35:09+00:00 [WSJ Podcasts] 0 new videos (last_seen=2026-05-06)
+2026-05-09T22:35:10+00:00 [Financial Times] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:11+00:00 [Morning Brew Daily] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:11+00:00 [Bloomberg Markets and Finance] 0 new videos (last_seen=2021-06-01)
+2026-05-09T22:35:12+00:00 [Bloomberg Television] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:13+00:00 [Reuters] skip Rn39Hhyk7WE dur=70s < min=300s (Pentagon UFO files show no alien evidence, analyst)
+2026-05-09T22:35:13+00:00 [Reuters] skip XeN6ju2su1I dur=126s < min=300s (WARNING: GRAPHIC CONTENT: Settlers force exhumatio)
+2026-05-09T22:35:14+00:00 [Aswath Damodaran] 0 new videos (last_seen=2026-05-06)
+2026-05-09T22:35:15+00:00 [Joseph Carlson] 0 new videos (last_seen=2026-04-22)
+2026-05-09T22:35:15+00:00 [Joseph Carlson After Hours] 0 new videos (last_seen=2026-05-06)
+2026-05-09T22:35:16+00:00 [Patrick Boyle] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:17+00:00 [The Plain Bagel] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:18+00:00 [Charles Schwab] 0 new videos (last_seen=2026-05-08)
+2026-05-09T22:35:18+00:00 [Schwab Network] 0 new videos (last_seen=2026-05-09)
+2026-05-09T22:35:18+00:00 summary: 24 channels polled, 0 new videos queued
+2026-05-09T22:35:18+00:00 [YT-POLL] OK on attempt 1
+YT-POLL exit code: 0 
+ 
+[POD-POLL] pod_poll.py  (WSJ/FT/Bloomberg morning briefings, retry x3) 
+2026-05-09T22:35:18+00:00 [POD-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1
+2026-05-09T22:35:21+00:00 [Morning Call - BTG Pactual] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:23+00:00 [Morning Call XP] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:25+00:00 [Stock Pickers] 0 new episodes (last_seen=2026-05-03)
+2026-05-09T22:35:27+00:00 [Market Makers] 0 new episodes (last_seen=2026-05-07)
+2026-05-09T22:35:29+00:00 [Bloomberg Daybreak Brasil] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:31+00:00 [Fernando Ulrich] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:33+00:00 [Empiricus Podcasts] 0 new episodes (last_seen=2026-05-09)
+2026-05-09T22:35:34+00:00 [WSJ — What's News] 0 new episodes (last_seen=2026-05-09)
+2026-05-09T22:35:38+00:00 [FT News Briefing] 0 new episodes (last_seen=2026-05-09)
+2026-05-09T22:35:42+00:00 [Bloomberg Daybreak: US Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:45+00:00 [Bloomberg Daybreak: Europe Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:53+00:00 [Bloomberg Surveillance] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:35:54+00:00 [Reuters Morning Bid] 0 new episodes (last_seen=2026-05-09)
+2026-05-09T22:35:59+00:00 [Schwab Market Update Audio] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:36:01+00:00 [Morning Brew Daily] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:36:04+00:00 [Odd Lots] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:36:07+00:00 [Invest Like the Best] 0 new episodes (last_seen=2026-05-05)
+2026-05-09T22:36:09+00:00 [Acquired] 0 new episodes (last_seen=2026-04-13)
+2026-05-09T22:36:11+00:00 [Barron's Streetwise] 0 new episodes (last_seen=2026-05-08)
+2026-05-09T22:36:13+00:00 [Motley Fool Money] download https://enrichment.soundstack.com/4vjqq8/traffic.omny.fm/d/c → pod-motley-fool-money-2026-05-09-f0e90de3.mp3
+2026-05-09T22:36:39+00:00 [Motley Fool Money] ingest pod-motley-fool-money-2026-05-09-f0e90de3
+
+=== 1/6 Audio file given — skip download ===
+audio: pod-motley-fool-money-2026-05-09-f0e90de3.mp3 (73407KB) — 'Mailbag, incl: Is SpaceX the next Amazon? May 10, 2026' (Motley Fool Money)
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 01:36:44,071 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 01:36:44,234 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 01:36:56,473 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 01:36:59,842 INFO faster_whisper Processing audio with duration 01:18:16.477
+2026-05-10 01:37:06,726 INFO faster_whisper VAD filter removed 00:26.976 of audio
+2026-05-10 01:37:09,652 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 01:38:20,420 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=4696.5s chunks=1716 chars=87707
+lang=en duration=4696s chunks=1716 chars=87707
+
+=== 3/6 Router (aliases) ===
+2026-05-10 01:38:20,583 INFO youtube.router router_done tickers=4 themes=4
+tickers matched: ['AAPL', 'BRK-B', 'JPM', 'TSLA']
+themes matched:  ['real_estate_cycle', 'semis_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 01:38:23,433 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 0 insights (raw)
+2026-05-10 01:38:23,977 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  AAPL     → 0 insights (raw)
+2026-05-10 01:38:26,927 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TSLA     → 1 insights (raw)
+2026-05-10 01:38:27,716 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BRK-B    → 0 insights (raw)
+2026-05-10 01:38:28,674 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-05-10 01:38:29,069 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-05-10 01:38:31,457 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:real_estate_cycle        → 1 themes (raw)
+2026-05-10 01:38:32,055 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 1,
+  "themes_in": 1,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 1,
+  "themes_out": 1
+}
+
+=== 6/6 Persist ===
+2026-05-10 01:38:32,078 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 1, 'themes': 1, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 1,
+  "themes": 1,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 01:38:32,079 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\investment-intelligence\data\podcast_audio\pod-motley-fool-money-2026-05-09-f0e90de3.mp3
+
+Done in 110.7s.
+2026-05-09T22:38:32+00:00 summary: 20 feeds polled, rc_total=0
+2026-05-09T22:38:32+00:00 [POD-POLL] OK on attempt 1
+POD-POLL exit code: 0 
+released q4h
+Done 01:20 
+---------------------------------------- 
+q4h_run 2026-05-10 05:20 
+acquired q4h pid=42328
+[OK] ollama: ok (2073ms) {'models': 6}
+[OK] yfinance: ok (707ms)
+[OK] tavily: ok {'day_count': 25, 'hour_count': 25, 'remaining': 75}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-09T23:20:10+00:00
+[OK] sec: ok (601ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-09T22:20:17+00:00
+[OK] bcb: ok (1405ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+{"ts": "2026-05-10T02:20:07Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-10T02:20:13Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-10T02:24:48Z", "event": "extract_result", "event_id": 178, "ticker": "B3SA3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490847&numSequencia=1015553&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T02:29:25Z", "event": "extract_result", "event_id": 196, "ticker": "ITUB4", "date": "2026-03-16", "kind": "fato_relevante", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490845&numSequencia=1015551&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T02:34:01Z", "event": "extract_result", "event_id": 238, "ticker": "PGMN3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490563&numSequencia=1015269&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T02:34:01Z", "event": "extract_aborted", "reason": "3 consecutive network failures — circuit tripped", "remaining": 16}
+{"ts": "2026-05-10T02:34:01Z", "event": "extract_done", "ok": 0, "fail": 4}
+CVM-PDF exit code (ignored): 0 
+ 
+[DIV-CAL] dividend_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 33 ticker(s)...
+  [1/33] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/33] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [10/33] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [12/33] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [14/33] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/33] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/33] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [29/33] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
+DIV-CAL exit code: 0 
+ 
+[EARN-CAL] earnings_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 33 ticker(s)...
+  [1/33] AAPL: 1 date(s) → 2026-07-30
+  [2/33] ABBV: 1 date(s) → 2026-07-30
+  [3/33] ACN: 1 date(s) → 2026-06-18
+  [5/33] BLK: 1 date(s) → 2026-07-15
+  [6/33] BN: 1 date(s) → 2026-05-14
+  [7/33] BRK-B: 1 date(s) → 2026-08-01
+  [10/33] GS: 1 date(s) → 2026-07-14
+  [11/33] HD: 1 date(s) → 2026-05-19
+  [14/33] JNJ: 1 date(s) → 2026-07-15
+  [15/33] JPM: 1 date(s) → 2026-07-14
+  [18/33] KO: 1 date(s) → 2026-07-21
+  [20/33] NU: 1 date(s) → 2026-05-14
+  [21/33] O: 1 date(s) → 2026-08-03
+  [22/33] PG: 1 date(s) → 2026-07-29
+  [23/33] PLD: 1 date(s) → 2026-07-15
+  [24/33] PLTR: 1 date(s) → 2026-08-03
+  [25/33] PRIO3: 1 date(s) → 2026-08-04
+  [27/33] TEN: 1 date(s) → 2026-05-21
+  [28/33] TSLA: 1 date(s) → 2026-07-22
+  [29/33] TSM: 1 date(s) → 2026-07-16
+  [30/33] VALE3: 1 date(s) → 2026-04-28
+  [32/33] XP: 1 date(s) → 2026-05-18
+Persisted 22 row(s).
+EARN-CAL exit code: 0 
+ 
+[BENCHMARKS] refresh_benchmarks.py --quiet 
+BENCHMARKS exit code: 0 
+ 
+[AUTO-VERDICT] auto_verdict_on_filing.py --since-id 
+
+=== auto_verdict_on_filing ===
+events_seen        : 0
+tickers_recomputed : 0
+verdict_changed    : 0
+errors             : 0
+AUTO-VERDICT exit code: 0 
+ 
+[CONTENT-TRIGGER] auto_verdict_on_content.py  (content vs verdict mismatch) 
+
+evaluated 9 tickers, triggered 0, wrote 0 dossiers
+CONTENT-TRIGGER exit code: 0 
+ 
+[TRIGGERS] trigger_monitor.py 
+[trigger_monitor] triggers=83 fired=8 inserted=8 deduped=0 errors=0
+[trigger_monitor] log: C:\Users\paidu\investment-intelligence\logs\trigger_monitor_2026-05-10.log
+TRIGGERS exit code: 0 
+ 
+[YT-POLL] yt_poll.py  (channels morning calls + research, retry x3) 
+2026-05-10T02:34:45+00:00 [YT-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\yt_poll.py --max-per-channel 2
+2026-05-10T02:34:46+00:00 [BTG Pactual] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:34:48+00:00 [Genial Investimentos] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:34:49+00:00 [XP Investimentos] 0 new videos (last_seen=2016-07-25)
+2026-05-10T02:34:50+00:00 [Itaú BBA] 0 new videos (last_seen=2026-04-29)
+2026-05-10T02:34:50+00:00 [Inter Invest] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:34:51+00:00 [Ativo Virtual] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:34:52+00:00 [O Primo Rico] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:34:55+00:00 [Stock Pickers] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:34:56+00:00 [Os Sócios Podcast] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:34:57+00:00 [Mauá Capital] 0 new videos (last_seen=2021-04-23)
+2026-05-10T02:34:58+00:00 [WSJ Podcasts] 0 new videos (last_seen=2026-05-06)
+2026-05-10T02:34:58+00:00 [Financial Times] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:34:59+00:00 [Morning Brew Daily] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:35:00+00:00 [Bloomberg Markets and Finance] 0 new videos (last_seen=2021-06-01)
+2026-05-10T02:35:00+00:00 [Bloomberg Television] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:35:04+00:00 [Reuters] skip ry3T7dYNTAs dur=256s < min=300s (Louisiana redistricting hearing erupts after SCOTU)
+2026-05-10T02:35:05+00:00 [Aswath Damodaran] 0 new videos (last_seen=2026-05-06)
+2026-05-10T02:35:05+00:00 [Joseph Carlson] 0 new videos (last_seen=2026-04-22)
+2026-05-10T02:35:06+00:00 [Joseph Carlson After Hours] 0 new videos (last_seen=2026-05-06)
+2026-05-10T02:35:07+00:00 [Patrick Boyle] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:35:08+00:00 [The Plain Bagel] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:35:09+00:00 [Charles Schwab] 0 new videos (last_seen=2026-05-08)
+2026-05-10T02:35:09+00:00 [Schwab Network] 0 new videos (last_seen=2026-05-09)
+2026-05-10T02:35:09+00:00 summary: 24 channels polled, 0 new videos queued
+2026-05-10T02:35:09+00:00 [YT-POLL] OK on attempt 1
+YT-POLL exit code: 0 
+ 
+[POD-POLL] pod_poll.py  (WSJ/FT/Bloomberg morning briefings, retry x3) 
+2026-05-10T02:35:10+00:00 [POD-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1
+2026-05-10T02:35:12+00:00 [Morning Call - BTG Pactual] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:14+00:00 [Morning Call XP] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:16+00:00 [Stock Pickers] 0 new episodes (last_seen=2026-05-03)
+2026-05-10T02:35:18+00:00 [Market Makers] 0 new episodes (last_seen=2026-05-07)
+2026-05-10T02:35:20+00:00 [Bloomberg Daybreak Brasil] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:22+00:00 [Fernando Ulrich] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:24+00:00 [Empiricus Podcasts] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T02:35:25+00:00 [WSJ — What's News] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T02:35:29+00:00 [FT News Briefing] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T02:35:33+00:00 [Bloomberg Daybreak: US Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:36+00:00 [Bloomberg Daybreak: Europe Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:44+00:00 [Bloomberg Surveillance] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:45+00:00 [Reuters Morning Bid] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T02:35:48+00:00 [Schwab Market Update Audio] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:53+00:00 [Morning Brew Daily] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:56+00:00 [Odd Lots] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:35:59+00:00 [Invest Like the Best] 0 new episodes (last_seen=2026-05-05)
+2026-05-10T02:36:02+00:00 [Acquired] 0 new episodes (last_seen=2026-04-13)
+2026-05-10T02:36:03+00:00 [Barron's Streetwise] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T02:36:05+00:00 [Motley Fool Money] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T02:36:05+00:00 summary: 20 feeds polled, rc_total=0
+2026-05-10T02:36:05+00:00 [POD-POLL] OK on attempt 1
+POD-POLL exit code: 0 
+released q4h
+Done 05:20 
+---------------------------------------- 
+q4h_run 2026-05-10 09:20 
+acquired q4h pid=36092
+^C---------------------------------------- 
+q4h_run 2026-05-10 09:27 
+acquired q4h pid=41220
+[OK] ollama: ok (2062ms) {'models': 6}
+[OK] yfinance: ok (584ms)
+[OK] tavily: ok {'day_count': 25, 'hour_count': 25, 'remaining': 75}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (612ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1386ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+{"ts": "2026-05-10T06:28:02Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-10T06:28:08Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-10T06:32:43Z", "event": "extract_result", "event_id": 178, "ticker": "B3SA3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490847&numSequencia=1015553&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T06:37:20Z", "event": "extract_result", "event_id": 196, "ticker": "ITUB4", "date": "2026-03-16", "kind": "fato_relevante", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490845&numSequencia=1015551&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T06:41:56Z", "event": "extract_result", "event_id": 238, "ticker": "PGMN3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490563&numSequencia=1015269&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T06:41:56Z", "event": "extract_aborted", "reason": "3 consecutive network failures — circuit tripped", "remaining": 16}
+{"ts": "2026-05-10T06:41:56Z", "event": "extract_done", "ok": 0, "fail": 4}
+CVM-PDF exit code (ignored): 0 
+ 
+[DIV-CAL] dividend_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 33 ticker(s)...
+  [1/33] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/33] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [10/33] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [12/33] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [14/33] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/33] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/33] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [29/33] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
+DIV-CAL exit code: 0 
+ 
+[EARN-CAL] earnings_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 33 ticker(s)...
+  [1/33] AAPL: 1 date(s) → 2026-07-30
+  [2/33] ABBV: 1 date(s) → 2026-07-30
+  [3/33] ACN: 1 date(s) → 2026-06-18
+  [5/33] BLK: 1 date(s) → 2026-07-15
+  [6/33] BN: 1 date(s) → 2026-05-14
+  [7/33] BRK-B: 1 date(s) → 2026-08-01
+  [10/33] GS: 1 date(s) → 2026-07-14
+  [11/33] HD: 1 date(s) → 2026-05-19
+  [14/33] JNJ: 1 date(s) → 2026-07-15
+  [15/33] JPM: 1 date(s) → 2026-07-14
+  [18/33] KO: 1 date(s) → 2026-07-21
+  [20/33] NU: 1 date(s) → 2026-05-14
+  [21/33] O: 1 date(s) → 2026-08-03
+  [22/33] PG: 1 date(s) → 2026-07-29
+  [23/33] PLD: 1 date(s) → 2026-07-15
+  [24/33] PLTR: 1 date(s) → 2026-08-03
+  [25/33] PRIO3: 1 date(s) → 2026-08-04
+  [27/33] TEN: 1 date(s) → 2026-05-21
+  [28/33] TSLA: 1 date(s) → 2026-07-22
+  [29/33] TSM: 1 date(s) → 2026-07-16
+  [30/33] VALE3: 1 date(s) → 2026-04-28
+  [32/33] XP: 1 date(s) → 2026-05-18
+Persisted 22 row(s).
+EARN-CAL exit code: 0 
+ 
+[BENCHMARKS] refresh_benchmarks.py --quiet 
+BENCHMARKS exit code: 0 
+ 
+[AUTO-VERDICT] auto_verdict_on_filing.py --since-id 
+
+=== auto_verdict_on_filing ===
+events_seen        : 0
+tickers_recomputed : 0
+verdict_changed    : 0
+errors             : 0
+AUTO-VERDICT exit code: 0 
+ 
+[CONTENT-TRIGGER] auto_verdict_on_content.py  (content vs verdict mismatch) 
+
+evaluated 9 tickers, triggered 0, wrote 0 dossiers
+CONTENT-TRIGGER exit code: 0 
+ 
+[TRIGGERS] trigger_monitor.py 
+[trigger_monitor] triggers=83 fired=8 inserted=0 deduped=8 errors=0
+[trigger_monitor] log: C:\Users\paidu\investment-intelligence\logs\trigger_monitor_2026-05-10.log
+TRIGGERS exit code: 0 
+ 
+[YT-POLL] yt_poll.py  (channels morning calls + research, retry x3) 
+2026-05-10T06:42:40+00:00 [YT-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\yt_poll.py --max-per-channel 2
+2026-05-10T06:42:41+00:00 [BTG Pactual] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:42:43+00:00 [Genial Investimentos] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:42:44+00:00 [XP Investimentos] 0 new videos (last_seen=2016-07-25)
+2026-05-10T06:42:44+00:00 [Itaú BBA] 0 new videos (last_seen=2026-04-29)
+2026-05-10T06:42:45+00:00 [Inter Invest] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:42:47+00:00 [Ativo Virtual] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:42:47+00:00 [O Primo Rico] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:42:48+00:00 [Suno] 0 new videos (last_seen=2026-05-10)
+2026-05-10T06:42:49+00:00 [Stock Pickers] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:42:50+00:00 [Os Sócios Podcast] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:42:50+00:00 [Mauá Capital] 0 new videos (last_seen=2021-04-23)
+2026-05-10T06:42:51+00:00 [WSJ Podcasts] 0 new videos (last_seen=2026-05-06)
+2026-05-10T06:42:52+00:00 [Financial Times] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:42:53+00:00 [Morning Brew Daily] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:42:54+00:00 [Bloomberg Markets and Finance] 0 new videos (last_seen=2021-06-01)
+2026-05-10T06:42:55+00:00 [Bloomberg Television] skip 9ExseNh01G4 dur=108s < min=600s (How Waymo Builds Self-Driving Cars)
+2026-05-10T06:42:56+00:00 [Reuters] 0 new videos (last_seen=2026-05-10)
+2026-05-10T06:42:57+00:00 [Aswath Damodaran] 0 new videos (last_seen=2026-05-06)
+2026-05-10T06:42:58+00:00 [Joseph Carlson] 0 new videos (last_seen=2026-04-22)
+2026-05-10T06:42:58+00:00 [Joseph Carlson After Hours] 0 new videos (last_seen=2026-05-06)
+2026-05-10T06:42:59+00:00 [Patrick Boyle] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:43:00+00:00 [The Plain Bagel] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:43:01+00:00 [Charles Schwab] 0 new videos (last_seen=2026-05-08)
+2026-05-10T06:43:05+00:00 [Schwab Network] 0 new videos (last_seen=2026-05-09)
+2026-05-10T06:43:05+00:00 summary: 24 channels polled, 0 new videos queued
+2026-05-10T06:43:05+00:00 [YT-POLL] OK on attempt 1
+YT-POLL exit code: 0 
+ 
+[POD-POLL] pod_poll.py  (WSJ/FT/Bloomberg morning briefings, retry x3) 
+2026-05-10T06:43:05+00:00 [POD-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1
+2026-05-10T06:43:08+00:00 [Morning Call - BTG Pactual] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:11+00:00 [Morning Call XP] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:13+00:00 [Stock Pickers] 0 new episodes (last_seen=2026-05-03)
+2026-05-10T06:43:15+00:00 [Market Makers] 0 new episodes (last_seen=2026-05-07)
+2026-05-10T06:43:17+00:00 [Bloomberg Daybreak Brasil] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:19+00:00 [Fernando Ulrich] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:21+00:00 [Empiricus Podcasts] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T06:43:22+00:00 [WSJ — What's News] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T06:43:27+00:00 [FT News Briefing] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T06:43:34+00:00 [Bloomberg Daybreak: US Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:37+00:00 [Bloomberg Daybreak: Europe Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:45+00:00 [Bloomberg Surveillance] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:48+00:00 [Reuters Morning Bid] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T06:43:51+00:00 [Schwab Market Update Audio] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:43:59+00:00 [Morning Brew Daily] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:44:02+00:00 [Odd Lots] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:44:05+00:00 [Invest Like the Best] 0 new episodes (last_seen=2026-05-05)
+2026-05-10T06:44:07+00:00 [Acquired] 0 new episodes (last_seen=2026-04-13)
+2026-05-10T06:44:08+00:00 [Barron's Streetwise] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T06:44:11+00:00 [Motley Fool Money] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T06:44:11+00:00 summary: 20 feeds polled, rc_total=0
+2026-05-10T06:44:11+00:00 [POD-POLL] OK on attempt 1
+POD-POLL exit code: 0 
+released q4h
+Done 09:27 
+---------------------------------------- 
+q4h_run 2026-05-10 13:20 
+acquired q4h pid=8928
+[OK] ollama: ok (2081ms) {'models': 6}
+[OK] yfinance: ok (1270ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T08:20:10+00:00
+[OK] sec: ok (874ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-10T07:20:16+00:00
+[OK] bcb: ok (2744ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+{"ts": "2026-05-10T10:20:10Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-10T10:20:15Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-10T10:24:53Z", "event": "extract_result", "event_id": 178, "ticker": "B3SA3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490847&numSequencia=1015553&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T10:29:29Z", "event": "extract_result", "event_id": 196, "ticker": "ITUB4", "date": "2026-03-16", "kind": "fato_relevante", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490845&numSequencia=1015551&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T10:34:05Z", "event": "extract_result", "event_id": 238, "ticker": "PGMN3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490563&numSequencia=1015269&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T10:34:05Z", "event": "extract_aborted", "reason": "3 consecutive network failures — circuit tripped", "remaining": 16}
+{"ts": "2026-05-10T10:34:05Z", "event": "extract_done", "ok": 0, "fail": 4}
+CVM-PDF exit code (ignored): 0 
+ 
+[DIV-CAL] dividend_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 33 ticker(s)...
+  [1/33] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/33] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [10/33] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [12/33] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [14/33] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/33] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/33] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [29/33] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
+DIV-CAL exit code: 0 
+ 
+[EARN-CAL] earnings_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 33 ticker(s)...
+  [1/33] AAPL: 1 date(s) → 2026-07-30
+  [2/33] ABBV: 1 date(s) → 2026-07-30
+  [3/33] ACN: 1 date(s) → 2026-06-18
+  [5/33] BLK: 1 date(s) → 2026-07-15
+  [6/33] BN: 1 date(s) → 2026-05-14
+  [7/33] BRK-B: 1 date(s) → 2026-08-01
+  [10/33] GS: 1 date(s) → 2026-07-14
+  [11/33] HD: 1 date(s) → 2026-05-19
+  [14/33] JNJ: 1 date(s) → 2026-07-15
+  [15/33] JPM: 1 date(s) → 2026-07-14
+  [18/33] KO: 1 date(s) → 2026-07-21
+  [20/33] NU: 1 date(s) → 2026-05-14
+  [21/33] O: 1 date(s) → 2026-08-03
+  [22/33] PG: 1 date(s) → 2026-07-29
+  [23/33] PLD: 1 date(s) → 2026-07-15
+  [24/33] PLTR: 1 date(s) → 2026-08-03
+  [25/33] PRIO3: 1 date(s) → 2026-08-04
+  [27/33] TEN: 1 date(s) → 2026-05-21
+  [28/33] TSLA: 1 date(s) → 2026-07-22
+  [29/33] TSM: 1 date(s) → 2026-07-16
+  [30/33] VALE3: 1 date(s) → 2026-04-28
+  [32/33] XP: 1 date(s) → 2026-05-18
+Persisted 22 row(s).
+EARN-CAL exit code: 0 
+ 
+[BENCHMARKS] refresh_benchmarks.py --quiet 
+BENCHMARKS exit code: 0 
+ 
+[AUTO-VERDICT] auto_verdict_on_filing.py --since-id 
+
+=== auto_verdict_on_filing ===
+events_seen        : 0
+tickers_recomputed : 0
+verdict_changed    : 0
+errors             : 0
+AUTO-VERDICT exit code: 0 
+ 
+[CONTENT-TRIGGER] auto_verdict_on_content.py  (content vs verdict mismatch) 
+
+evaluated 9 tickers, triggered 0, wrote 0 dossiers
+CONTENT-TRIGGER exit code: 0 
+ 
+[TRIGGERS] trigger_monitor.py 
+[trigger_monitor] triggers=83 fired=8 inserted=0 deduped=8 errors=0
+[trigger_monitor] log: C:\Users\paidu\investment-intelligence\logs\trigger_monitor_2026-05-10.log
+TRIGGERS exit code: 0 
+ 
+[YT-POLL] yt_poll.py  (channels morning calls + research, retry x3) 
+2026-05-10T10:35:26+00:00 [YT-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\yt_poll.py --max-per-channel 2
+2026-05-10T10:35:30+00:00 [BTG Pactual] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:35:32+00:00 [Genial Investimentos] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:35:33+00:00 [XP Investimentos] 0 new videos (last_seen=2016-07-25)
+2026-05-10T10:35:34+00:00 [Itaú BBA] 0 new videos (last_seen=2026-04-29)
+2026-05-10T10:35:35+00:00 [Inter Invest] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:35:36+00:00 [Ativo Virtual] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:35:37+00:00 [O Primo Rico] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:35:40+00:00 [Suno] 0 new videos (last_seen=2026-05-10)
+2026-05-10T10:35:42+00:00 [Stock Pickers] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:35:43+00:00 [Os Sócios Podcast] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:35:44+00:00 [Mauá Capital] 0 new videos (last_seen=2021-04-23)
+2026-05-10T10:35:47+00:00 [WSJ Podcasts] queue g8kbmRkmYoU dur=1959s 'Billionaire Investor on the Data Center Boom and Oil's Break'
+2026-05-10T10:35:49+00:00 [Financial Times] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:35:50+00:00 [Morning Brew Daily] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:35:51+00:00 [Bloomberg Markets and Finance] 0 new videos (last_seen=2021-06-01)
+2026-05-10T10:35:53+00:00 [Bloomberg Television] 0 new videos (last_seen=2026-05-10)
+2026-05-10T10:35:55+00:00 [Reuters] queue 7pDFohGgDUk dur=380s 'Markets brace for high-stakes Trump-Xi meeting in Beijing | '
+2026-05-10T10:35:56+00:00 [Aswath Damodaran] 0 new videos (last_seen=2026-05-06)
+2026-05-10T10:35:57+00:00 [Joseph Carlson] 0 new videos (last_seen=2026-04-22)
+2026-05-10T10:35:58+00:00 [Joseph Carlson After Hours] 0 new videos (last_seen=2026-05-06)
+2026-05-10T10:36:00+00:00 [Patrick Boyle] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:36:02+00:00 [The Plain Bagel] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:36:03+00:00 [Charles Schwab] 0 new videos (last_seen=2026-05-08)
+2026-05-10T10:36:04+00:00 [Schwab Network] 0 new videos (last_seen=2026-05-09)
+2026-05-10T10:36:04+00:00 summary: 24 channels polled, 2 new videos queued
+2026-05-10T10:36:04+00:00 INGEST 2 videos: g8kbmRkmYoU,7pDFohGgDUk
+Batch: 2 videos. force_retranscribe=False force_extract=False
+
+[1/2] g8kbmRkmYoU
+
+=== 1/6 Download ===
+[download]   0.0% of   26.11MiB at   17.03KiB/s ETA 26:10[download]   0.0% of   26.11MiB at   50.70KiB/s ETA 08:47[download]   0.0% of   26.11MiB at  118.00KiB/s ETA 03:46[download]   0.1% of   26.11MiB at  251.93KiB/s ETA 01:46[download]   0.1% of   26.11MiB at  164.72KiB/s ETA 02:42[download]   0.2% of   26.11MiB at  198.60KiB/s ETA 02:14[download]   0.5% of   26.11MiB at  274.63KiB/s ETA 01:36[download]   1.0% of   26.11MiB at  423.19KiB/s ETA 01:02[download]   1.9% of   26.11MiB at  687.21KiB/s ETA 00:38[download]   3.8% of   26.11MiB at    1.10MiB/s ETA 00:22[download]   7.7% of   26.11MiB at    1.35MiB/s ETA 00:17[download]  14.4% of   26.11MiB at    1.87MiB/s ETA 00:11[download]  27.1% of   26.11MiB at    2.53MiB/s ETA 00:07[download]  38.1% of   26.11MiB at    2.71MiB/s ETA 00:05[download]  38.1% of   26.11MiB at   21.36KiB/s ETA 12:54[download]  38.1% of   26.11MiB at   63.60KiB/s ETA 04:20[download]  38.2% of   26.11MiB at  147.75KiB/s ETA 01:51[download]  38.2% of   26.11MiB at  315.45KiB/s ETA 00:52[download]  38.2% of   26.11MiB at  170.01KiB/s ETA 01:37[download]  38.4% of   26.11MiB at  212.93KiB/s ETA 01:17[download]  38.6% of   26.11MiB at  294.16KiB/s ETA 00:55[download]  39.1% of   26.11MiB at  449.55KiB/s ETA 00:36[download]  40.0% of   26.11MiB at  713.11KiB/s ETA 00:22[download]  42.0% of   26.11MiB at    1.14MiB/s ETA 00:13[download]  45.8% of   26.11MiB at    1.68MiB/s ETA 00:08[download]  53.4% of   26.11MiB at    1.84MiB/s ETA 00:06[download]  61.2% of   26.11MiB at    2.28MiB/s ETA 00:04[download]  74.9% of   26.11MiB at    2.56MiB/s ETA 00:02[download]  74.9% of   26.11MiB at  124.19KiB/s ETA 00:54[download]  74.9% of   26.11MiB at  352.07KiB/s ETA 00:19[download]  74.9% of   26.11MiB at  801.90KiB/s ETA 00:08[download]  74.9% of   26.11MiB at    1.65MiB/s ETA 00:03[download]  75.0% of   26.11MiB at    2.09MiB/s ETA 00:03[download]  75.1% of   26.11MiB at    2.51MiB/s ETA 00:02[download]  75.4% of   26.11MiB at    2.82MiB/s ETA 00:02[download]  75.8% of   26.11MiB at    3.03MiB/s ETA 00:02[download]  76.8% of   26.11MiB at    3.22MiB/s ETA 00:01[download]  78.7% of   26.11MiB at    3.23MiB/s ETA 00:01[download]  82.5% of   26.11MiB at    3.22MiB/s ETA 00:01[download]  90.2% of   26.11MiB at    3.23MiB/s ETA 00:00[download] 100.0% of   26.11MiB at    3.23MiB/s ETA 00:00[download] 100% of   26.11MiB in 00:00:11 at 2.20MiB/s                                                         video: "Billionaire Investor on the Data Center Boom and Oil's Breaking Point | WSJ’s Take On the Week" (1958s) — WSJ Podcasts
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 13:36:27,115 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 13:36:27,274 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 13:36:39,988 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 13:36:42,632 INFO faster_whisper Processing audio with duration 32:38.069
+2026-05-10 13:36:45,209 INFO faster_whisper VAD filter removed 00:44.485 of audio
+2026-05-10 13:36:46,641 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 13:37:09,278 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=1958.1s chunks=504 chars=30295
+lang=en duration=1958s chunks=504 chars=30295
+
+=== 3/6 Router (aliases) ===
+2026-05-10 13:37:09,358 INFO youtube.router router_done tickers=2 themes=2
+tickers matched: ['AAPL', 'TIMS3']
+themes matched:  ['semis_cycle', 'usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 13:37:24,782 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TIMS3    → 0 insights (raw)
+2026-05-10 13:37:31,572 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  AAPL     → 2 insights (raw)
+2026-05-10 13:37:32,101 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-05-10 13:37:35,934 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 1 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 2,
+  "themes_in": 1,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 2,
+  "themes_out": 1
+}
+
+=== 6/6 Persist ===
+2026-05-10 13:37:35,947 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 2, 'themes': 1, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 2,
+  "themes": 1,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 13:37:35,947 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\g8kbmRkmYoU.webm
+
+Done in 90.5s.
+
+[2/2] 7pDFohGgDUk
+
+=== 1/6 Download ===
+[download]   0.0% of    5.68MiB at   25.85KiB/s ETA 03:45[download]   0.1% of    5.68MiB at   76.89KiB/s ETA 01:15[download]   0.1% of    5.68MiB at  178.82KiB/s ETA 00:32[download]   0.3% of    5.68MiB at  381.02KiB/s ETA 00:15[download]   0.5% of    5.68MiB at  169.20KiB/s ETA 00:34[download]   1.1% of    5.68MiB at  208.18KiB/s ETA 00:27[download]   2.2% of    5.68MiB at  287.34KiB/s ETA 00:19[download]   4.4% of    5.68MiB at  438.26KiB/s ETA 00:12[download]   8.8% of    5.68MiB at  690.33KiB/s ETA 00:07[download]  17.6% of    5.68MiB at    1.05MiB/s ETA 00:04[download]  35.2% of    5.68MiB at    1.58MiB/s ETA 00:02[download]  70.4% of    5.68MiB at    2.00MiB/s ETA 00:00[download] 100.0% of    5.68MiB at    2.18MiB/s ETA 00:00[download] 100% of    5.68MiB in 00:00:03 at 1.49MiB/s                                                         video: 'Markets brace for high-stakes Trump-Xi meeting in Beijing | Morning Bid' (379s) — Reuters
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 13:37:43,162 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 13:37:43,327 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 13:37:55,962 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 13:37:56,558 INFO faster_whisper Processing audio with duration 06:19.054
+2026-05-10 13:37:56,939 INFO faster_whisper VAD filter removed 00:14.270 of audio
+2026-05-10 13:37:57,949 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 13:38:01,989 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=379.1s chunks=67 chars=5644
+lang=en duration=379s chunks=67 chars=5644
+
+=== 3/6 Router (aliases) ===
+2026-05-10 13:38:02,033 INFO youtube.router router_done tickers=2 themes=4
+tickers matched: ['AAPL', 'MSFT']
+themes matched:  ['fed_path', 'semis_cycle', 'us_inflation', 'usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 13:38:06,241 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  AAPL     → 0 insights (raw)
+2026-05-10 13:38:06,592 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  MSFT     → 0 insights (raw)
+2026-05-10 13:38:08,970 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 1 themes (raw)
+2026-05-10 13:38:19,326 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:fed_path                 → 3 themes (raw)
+2026-05-10 13:38:22,852 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:us_inflation             → 1 themes (raw)
+2026-05-10 13:38:26,231 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 1 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 0,
+  "themes_in": 6,
+  "dropped_evidence": 1,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 1,
+  "dropped_dedup": 0,
+  "insights_out": 0,
+  "themes_out": 4
+}
+
+=== 6/6 Persist ===
+2026-05-10 13:38:26,247 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 4, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 0,
+  "themes": 4,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 13:38:26,248 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\7pDFohGgDUk.webm
+
+Done in 49.5s.
+
+=== DONE 2 videos in 2.4min ===
+[
+  {
+    "video_id": "g8kbmRkmYoU",
+    "rc": 0,
+    "elapsed_sec": 91.5
+  },
+  {
+    "video_id": "7pDFohGgDUk",
+    "rc": 0,
+    "elapsed_sec": 50.3
+  }
+]
+2026-05-10T10:38:26+00:00 [YT-POLL] OK on attempt 1
+YT-POLL exit code: 0 
+ 
+[POD-POLL] pod_poll.py  (WSJ/FT/Bloomberg morning briefings, retry x3) 
+2026-05-10T10:38:26+00:00 [POD-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1
+2026-05-10T10:38:29+00:00 [Morning Call - BTG Pactual] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:38:31+00:00 [Morning Call XP] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:38:33+00:00 [Stock Pickers] 0 new episodes (last_seen=2026-05-03)
+2026-05-10T10:38:35+00:00 [Market Makers] 0 new episodes (last_seen=2026-05-07)
+2026-05-10T10:38:37+00:00 [Bloomberg Daybreak Brasil] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:38:41+00:00 [Fernando Ulrich] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:38:43+00:00 [Empiricus Podcasts] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T10:38:44+00:00 [WSJ — What's News] download https://pdst.fm/e/traffic.megaphone.fm/WSJ2882967285.mp3 → pod-wsj-what-s-news-2026-05-10-594c44c0.mp3
+2026-05-10T10:38:55+00:00 [WSJ — What's News] ingest pod-wsj-what-s-news-2026-05-10-594c44c0
+
+=== 1/6 Audio file given — skip download ===
+audio: pod-wsj-what-s-news-2026-05-10-594c44c0.mp3 (26750KB) — 'Nuclear Power’s Reboot' (WSJ — What's News)
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 13:38:56,620 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 13:38:56,782 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 13:39:08,945 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 13:39:10,260 INFO faster_whisper Processing audio with duration 28:28.774
+2026-05-10 13:39:12,811 INFO faster_whisper VAD filter removed 01:18.534 of audio
+2026-05-10 13:39:14,367 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 13:39:34,663 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=1708.8s chunks=643 chars=23928
+lang=en duration=1709s chunks=643 chars=23928
+
+=== 3/6 Router (aliases) ===
+2026-05-10 13:39:34,727 INFO youtube.router router_done tickers=1 themes=2
+tickers matched: ['MSFT']
+themes matched:  ['semis_cycle', 'usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 13:39:39,954 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  MSFT     → 2 insights (raw)
+2026-05-10 13:39:40,505 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-05-10 13:39:48,084 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 3 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 2,
+  "themes_in": 3,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 2,
+  "themes_out": 3
+}
+
+=== 6/6 Persist ===
+2026-05-10 13:39:48,100 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 2, 'themes': 3, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 2,
+  "themes": 3,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 13:39:48,102 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\investment-intelligence\data\podcast_audio\pod-wsj-what-s-news-2026-05-10-594c44c0.mp3
+
+Done in 52.3s.
+2026-05-10T10:39:52+00:00 [FT News Briefing] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T10:39:57+00:00 [Bloomberg Daybreak: US Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:40:00+00:00 [Bloomberg Daybreak: Europe Edition] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:40:07+00:00 [Bloomberg Surveillance] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:40:09+00:00 [Reuters Morning Bid] download https://traffic.megaphone.fm/THRH9184115534.mp3 → pod-reuters-morning-bid-2026-05-10-0d6fb17d.mp3
+2026-05-10T10:40:16+00:00 [Reuters Morning Bid] ingest pod-reuters-morning-bid-2026-05-10-0d6fb17d
+
+=== 1/6 Audio file given — skip download ===
+audio: pod-reuters-morning-bid-2026-05-10-0d6fb17d.mp3 (16042KB) — 'Week ahead: Yuan to watch' (Reuters Morning Bid)
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 13:40:17,756 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 13:40:17,919 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 13:40:30,123 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 13:40:30,621 INFO faster_whisper Processing audio with duration 06:49.156
+2026-05-10 13:40:31,029 INFO faster_whisper VAD filter removed 00:15.444 of audio
+2026-05-10 13:40:31,940 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 13:40:36,250 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=409.2s chunks=70 chars=6177
+lang=en duration=409s chunks=70 chars=6177
+
+=== 3/6 Router (aliases) ===
+2026-05-10 13:40:36,297 INFO youtube.router router_done tickers=2 themes=4
+tickers matched: ['AAPL', 'MSFT']
+themes matched:  ['fed_path', 'semis_cycle', 'us_inflation', 'usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 13:40:36,759 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  AAPL     → 0 insights (raw)
+2026-05-10 13:40:37,102 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  MSFT     → 0 insights (raw)
+2026-05-10 13:40:37,559 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-05-10 13:40:46,355 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:fed_path                 → 3 themes (raw)
+2026-05-10 13:40:50,122 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:us_inflation             → 1 themes (raw)
+2026-05-10 13:40:50,652 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 0,
+  "themes_in": 4,
+  "dropped_evidence": 1,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 0,
+  "themes_out": 3
+}
+
+=== 6/6 Persist ===
+2026-05-10 13:40:50,666 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 3, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 0,
+  "themes": 3,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 13:40:50,667 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\investment-intelligence\data\podcast_audio\pod-reuters-morning-bid-2026-05-10-0d6fb17d.mp3
+
+Done in 33.7s.
+2026-05-10T10:40:55+00:00 [Schwab Market Update Audio] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:40:59+00:00 [Morning Brew Daily] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:41:02+00:00 [Odd Lots] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:41:06+00:00 [Invest Like the Best] 0 new episodes (last_seen=2026-05-05)
+2026-05-10T10:41:09+00:00 [Acquired] 0 new episodes (last_seen=2026-04-13)
+2026-05-10T10:41:11+00:00 [Barron's Streetwise] 0 new episodes (last_seen=2026-05-08)
+2026-05-10T10:41:13+00:00 [Motley Fool Money] 0 new episodes (last_seen=2026-05-09)
+2026-05-10T10:41:13+00:00 summary: 20 feeds polled, rc_total=0
+2026-05-10T10:41:13+00:00 [POD-POLL] OK on attempt 1
+POD-POLL exit code: 0 
+released q4h
+Done 13:20 
+---------------------------------------- 
+q4h_run 2026-05-10 17:20 
+acquired q4h pid=7248
+[OK] ollama: ok (2043ms) {'models': 7}
+[OK] yfinance: ok (720ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T08:20:10+00:00
+[OK] sec: ok (622ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1005ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+^C---------------------------------------- 
+q4h_run 2026-05-10 21:20 
+acquired q4h pid=28344
+[OK] ollama: ok (2113ms) {'models': 7}
+[OK] yfinance: ok (2992ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T17:20:10+00:00
+[OK] sec: ok (3472ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-10T16:20:16+00:00
+[OK] bcb: ok (4772ms)
+ 
+[CVM-PDF] cvm_pdf_extractor.py --limit 20 
+{"ts": "2026-05-10T18:20:16Z", "event": "extract_start", "pending": 20}
+{"ts": "2026-05-10T18:20:22Z", "event": "extract_result", "event_id": 159, "ticker": "CPLE3", "date": "2026-03-18", "kind": "fato_relevante", "ok": false, "msg": "PDF sem texto extraível"}
+{"ts": "2026-05-10T18:24:58Z", "event": "extract_result", "event_id": 178, "ticker": "B3SA3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490847&numSequencia=1015553&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T18:29:36Z", "event": "extract_result", "event_id": 196, "ticker": "ITUB4", "date": "2026-03-16", "kind": "fato_relevante", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490845&numSequencia=1015551&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T18:34:11Z", "event": "extract_result", "event_id": 238, "ticker": "PGMN3", "date": "2026-03-16", "kind": "comunicado", "ok": false, "msg": "SSLError: HTTPSConnectionPool(host='www.rad.cvm.gov.br', port=443): Max retries exceeded with url: /ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1490563&numSequencia=1015269&numVersao=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"}
+{"ts": "2026-05-10T18:34:11Z", "event": "extract_aborted", "reason": "3 consecutive network failures — circuit tripped", "remaining": 16}
+{"ts": "2026-05-10T18:34:11Z", "event": "extract_done", "ok": 0, "fail": 4}
+CVM-PDF exit code (ignored): 0 
+ 
+[DIV-CAL] dividend_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching dividend calendar for 33 ticker(s)...
+  [1/33] AAPL: ex=2026-05-11 amt=0.2600 (+1)
+  [4/33] BBDC4: ex=2026-06-02 amt=0.0190 (+1)
+  [10/33] GS: ex=2026-06-01 amt=4.5000 (+1)
+  [12/33] ITSA4: ex=2026-06-01 amt=0.0242 (+1)
+  [14/33] JNJ: ex=2026-05-26 amt=1.3000 (+1)
+  [18/33] KO: ex=2026-05-15 amt=0.5300 (+1)
+  [23/33] PLD: ex=2026-06-16 amt=1.0700 (+1)
+  [29/33] TSM: ex=2026-06-11 amt=0.9560 (+1)
+Persisted 8 new/updated row(s).
+DIV-CAL exit code: 0 
+ 
+[EARN-CAL] earnings_calendar.py --holdings 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GREK"}}}
+Fetching earnings calendar for 33 ticker(s)...
+  [1/33] AAPL: 1 date(s) → 2026-07-30
+  [2/33] ABBV: 1 date(s) → 2026-07-30
+  [3/33] ACN: 1 date(s) → 2026-06-18
+  [5/33] BLK: 1 date(s) → 2026-07-15
+  [6/33] BN: 1 date(s) → 2026-05-14
+  [7/33] BRK-B: 1 date(s) → 2026-08-01
+  [10/33] GS: 1 date(s) → 2026-07-14
+  [11/33] HD: 1 date(s) → 2026-05-19
+  [14/33] JNJ: 1 date(s) → 2026-07-15
+  [15/33] JPM: 1 date(s) → 2026-07-14
+  [18/33] KO: 1 date(s) → 2026-07-21
+  [20/33] NU: 1 date(s) → 2026-05-14
+  [21/33] O: 1 date(s) → 2026-08-03
+  [22/33] PG: 1 date(s) → 2026-07-29
+  [23/33] PLD: 1 date(s) → 2026-07-15
+  [24/33] PLTR: 1 date(s) → 2026-08-03
+  [25/33] PRIO3: 1 date(s) → 2026-08-04
+  [27/33] TEN: 1 date(s) → 2026-05-21
+  [28/33] TSLA: 1 date(s) → 2026-07-22
+  [29/33] TSM: 1 date(s) → 2026-07-16
+  [30/33] VALE3: 1 date(s) → 2026-04-28
+  [32/33] XP: 1 date(s) → 2026-05-18
+Persisted 22 row(s).
+EARN-CAL exit code: 0 
+ 
+[BENCHMARKS] refresh_benchmarks.py --quiet 
+BENCHMARKS exit code: 0 
+ 
+[AUTO-VERDICT] auto_verdict_on_filing.py --since-id 
+
+=== auto_verdict_on_filing ===
+events_seen        : 0
+tickers_recomputed : 0
+verdict_changed    : 0
+errors             : 0
+AUTO-VERDICT exit code: 0 
+ 
+[CONTENT-TRIGGER] auto_verdict_on_content.py  (content vs verdict mismatch) 
+
+evaluated 11 tickers, triggered 0, wrote 0 dossiers
+CONTENT-TRIGGER exit code: 0 
+ 
+[TRIGGERS] trigger_monitor.py 
+[trigger_monitor] triggers=83 fired=8 inserted=0 deduped=8 errors=0
+[trigger_monitor] log: C:\Users\paidu\investment-intelligence\logs\trigger_monitor_2026-05-10.log
+TRIGGERS exit code: 0 
+ 
+[YT-POLL] yt_poll.py  (channels morning calls + research, retry x3) 
+2026-05-10T18:36:05+00:00 [YT-POLL] attempt 1/3: C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\yt_poll.py --max-per-channel 2
+2026-05-10T18:36:07+00:00 [BTG Pactual] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:36:10+00:00 [Genial Investimentos] 0 new videos (last_seen=2026-05-09)
+2026-05-10T18:36:11+00:00 [XP Investimentos] 0 new videos (last_seen=2016-07-25)
+2026-05-10T18:36:12+00:00 [Itaú BBA] 0 new videos (last_seen=2026-04-29)
+2026-05-10T18:36:14+00:00 [Inter Invest] 0 new videos (last_seen=2026-05-09)
+2026-05-10T18:36:19+00:00 [Ativo Virtual] queue ps5FxX42Bhg dur=1224s 'KLBN11: PLANO MUDA, MAS DÁ CERTO PARA DIVIDENDOS? QUEDA NA A'
+2026-05-10T18:36:21+00:00 [O Primo Rico] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:36:25+00:00 [Stock Pickers] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:36:30+00:00 [Os Sócios Podcast] skip npfIsDbt3CI dur=76s < min=1800s (O HÁBITO QUE TE DEIXA POBRE (com Primo Pobre))
+2026-05-10T18:36:30+00:00 [Os Sócios Podcast] skip YzZimVaaKfI dur=69s < min=1800s (HÁ CLONES HUMANOS ENTRE NÓS? (qual sua opinião?))
+2026-05-10T18:36:32+00:00 [Mauá Capital] 0 new videos (last_seen=2021-04-23)
+2026-05-10T18:36:34+00:00 [WSJ Podcasts] 0 new videos (last_seen=2026-05-10)
+2026-05-10T18:36:36+00:00 [Financial Times] 0 new videos (last_seen=2026-05-09)
+2026-05-10T18:36:38+00:00 [Morning Brew Daily] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:36:39+00:00 [Bloomberg Markets and Finance] 0 new videos (last_seen=2021-06-01)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip mK09xxu6-f8 dur=312s < min=600s (O'Brien: Supreme Court Voting Rights Act Decision )
+2026-05-10T18:36:44+00:00 [Bloomberg Television] queue QVmmeHL0naM dur=9156s 'Bloomberg This Weekend | Qatar Sends Ship Through Strait, Pa'
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip duv-aGx2lG4 dur=343s < min=600s (Bloomberg News Now: Iran Replies to US Peace Plan,)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] queue 7Fp5nakwKoc dur=625s 'RNC Gruters: This President's Been Going to Bat for the Aver'
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip BzYr1bR1vCI dur=578s < min=600s (Trump's Latest 10% Tariffs Declared Unlawful by US)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip AvETZmDbWF0 dur=365s < min=600s (The Ultimate Guide to Travel Insurance for Complex)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip YtPKoq94ZuU dur=403s < min=600s (Why Parenting Now Feels Like an Investment Strateg)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip 6hL29SO6Zx8 dur=521s < min=600s (Olszewski" "Not Confident" the US Can Negotiate an)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip bs4KWJUZ8Yk dur=350s < min=600s (Pointed News Quiz | Ted Turner, Pharmaceuticals, F)
+2026-05-10T18:36:44+00:00 [Bloomberg Television] skip ylVOBFIYKmY dur=189s < min=600s (Trump, Xi Set to Meet for High-Stakes Meeting in B)
+2026-05-10T18:36:47+00:00 [Reuters] skip NKqHU9qL89I dur=134s < min=300s (Hantavirus cruise ship passengers evacuated from T)
+2026-05-10T18:36:47+00:00 [Reuters] skip 5gnKYubWpIk dur=96s < min=300s (Deadly Israeli strikes in Gaza underline fragility)
+2026-05-10T18:36:47+00:00 [Reuters] queue J9gha3teB4E dur=575s 'Putin says the war may be ending — why now? | Reuters World '
+2026-05-10T18:36:49+00:00 [Aswath Damodaran] 0 new videos (last_seen=2026-05-06)
+2026-05-10T18:36:52+00:00 [Joseph Carlson] 0 new videos (last_seen=2026-04-22)
+2026-05-10T18:36:56+00:00 [Joseph Carlson After Hours] 0 new videos (last_seen=2026-05-06)
+2026-05-10T18:36:59+00:00 [Patrick Boyle] 0 new videos (last_seen=2026-05-09)
+2026-05-10T18:37:03+00:00 [The Plain Bagel] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:37:05+00:00 [Charles Schwab] 0 new videos (last_seen=2026-05-08)
+2026-05-10T18:37:10+00:00 [Schwab Network] queue YlneDVjKByI dur=671s 'AI, Obesity Drugs, and Diagnostics Fuel Healthcare Growth'
+2026-05-10T18:37:10+00:00 [Schwab Network] skip qmviBW7JxEM dur=401s < min=600s (Market Perception of Iran/U.S. Ceasefire)
+2026-05-10T18:37:10+00:00 summary: 24 channels polled, 5 new videos queued
+2026-05-10T18:37:10+00:00 INGEST 5 videos: ps5FxX42Bhg,QVmmeHL0naM,7Fp5nakwKoc,J9gha3teB4E,YlneDVjKByI
+Batch: 5 videos. force_retranscribe=False force_extract=False
+
+[1/5] ps5FxX42Bhg
+
+=== 1/6 Download ===
+[download]   0.0% of   16.67MiB at    3.49KiB/s ETA 01:21:29[download]   0.0% of   16.67MiB at   10.46KiB/s ETA 27:11   [download]   0.0% of   16.67MiB at   24.39KiB/s ETA 11:39[download]   0.1% of   16.67MiB at   52.23KiB/s ETA 05:26[download]   0.2% of   16.67MiB at   87.79KiB/s ETA 03:14[download]   0.4% of   16.67MiB at   62.82KiB/s ETA 04:30[download]   0.7% of   16.67MiB at   64.77KiB/s ETA 04:21[download]   1.1% of   16.67MiB at   64.03KiB/s ETA 04:23[download]   1.4% of   16.67MiB at   86.41KiB/s ETA 03:14[download]   2.2% of   16.67MiB at   88.14KiB/s ETA 03:09[download]   2.7% of   16.67MiB at  103.75KiB/s ETA 02:40[download]   3.8% of   16.67MiB at  116.37KiB/s ETA 02:21[download]   4.8% of   16.67MiB at  130.83KiB/s ETA 02:04[download]   6.2% of   16.67MiB at  149.92KiB/s ETA 01:46[download]   7.9% of   16.67MiB at  157.71KiB/s ETA 01:39[download]   9.0% of   16.67MiB at  162.20KiB/s ETA 01:35[download]  10.2% of   16.67MiB at  160.04KiB/s ETA 01:35[download]  11.1% of   16.67MiB at  173.37KiB/s ETA 01:27[download]  12.8% of   16.67MiB at  173.21KiB/s ETA 01:25[download]  13.8% of   16.67MiB at  182.94KiB/s ETA 01:20[download]  15.8% of   16.67MiB at  185.36KiB/s ETA 01:17[download]  17.0% of   16.67MiB at  185.75KiB/s ETA 01:16[download]  18.1% of   16.67MiB at  196.26KiB/s ETA 01:11[download]  20.3% of   16.67MiB at  206.15KiB/s ETA 01:05[download]  22.4% of   16.67MiB at  210.68KiB/s ETA 01:02[download]  24.0% of   16.67MiB at  219.61KiB/s ETA 00:59[download]  27.1% of   16.67MiB at  230.83KiB/s ETA 00:53[download]  29.3% of   16.67MiB at  235.96KiB/s ETA 00:51[download]  31.2% of   16.67MiB at  244.78KiB/s ETA 00:47[download]  34.6% of   16.67MiB at  251.69KiB/s ETA 00:44[download]  36.6% of   16.67MiB at  259.69KiB/s ETA 00:41[download]  40.0% of   16.67MiB at  263.62KiB/s ETA 00:38[download]  41.9% of   16.67MiB at  266.32KiB/s ETA 00:37[download]  43.9% of   16.67MiB at  277.63KiB/s ETA 00:34[download]  47.9% of   16.67MiB at  285.37KiB/s ETA 00:31[download]  50.3% of   16.67MiB at  297.60KiB/s ETA 00:28[download]  55.1% of   16.67MiB at  307.36KiB/s ETA 00:24[download]  57.8% of   16.67MiB at  312.02KiB/s ETA 00:23[download]  59.9% of   16.67MiB at  323.36KiB/s ETA 00:21[download]  59.9% of   16.67MiB at    2.38KiB/s ETA 47:55[download]  59.9% of   16.67MiB at    7.13KiB/s ETA 15:59[download]  60.0% of   16.67MiB at   16.62KiB/s ETA 06:50[download]  60.0% of   16.67MiB at   20.74KiB/s ETA 05:29[download]  60.1% of   16.67MiB at   28.94KiB/s ETA 03:55[download]  60.3% of   16.67MiB at   36.71KiB/s ETA 03:04[download]  60.6% of   16.67MiB at   58.70KiB/s ETA 01:54[download]  61.2% of   16.67MiB at   81.60KiB/s ETA 01:21[download]  62.0% of   16.67MiB at  119.20KiB/s ETA 00:54[download]  63.7% of   16.67MiB at  160.50KiB/s ETA 00:38[download]  65.4% of   16.67MiB at  191.95KiB/s ETA 00:30[download]  67.5% of   16.67MiB at  239.55KiB/s ETA 00:23[download]  71.5% of   16.67MiB at  282.56KiB/s ETA 00:17[download]  74.0% of   16.67MiB at  343.44KiB/s ETA 00:12[download]  79.0% of   16.67MiB at  376.21KiB/s ETA 00:09[download]  82.0% of   16.67MiB at  432.59KiB/s ETA 00:07[download]  88.0% of   16.67MiB at  474.03KiB/s ETA 00:04[download]  92.3% of   16.67MiB at  502.31KiB/s ETA 00:02[download]  97.1% of   16.67MiB at  526.69KiB/s ETA 00:00[download] 100.0% of   16.67MiB at  549.86KiB/s ETA 00:00[download] 100% of   16.67MiB in 00:00:48 at 349.80KiB/s                                                         video: 'KLBN11: PLANO MUDA, MAS DÁ CERTO PARA DIVIDENDOS? QUEDA NA AÇÃO É OPORTUNIDADE OU CILADA? PREÇO TETO' (1223s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 21:38:09,539 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 21:38:09,889 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 21:38:22,034 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 21:38:23,683 INFO faster_whisper Processing audio with duration 20:23.227
+2026-05-10 21:38:24,807 INFO faster_whisper VAD filter removed 00:13.803 of audio
+2026-05-10 21:38:26,259 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-05-10 21:38:49,158 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1223.2s chunks=728 chars=23210
+lang=pt duration=1223s chunks=728 chars=23210
+
+=== 3/6 Router (aliases) ===
+2026-05-10 21:38:49,228 INFO youtube.router router_done tickers=4 themes=3
+tickers matched: ['JPM', 'KLBN4', 'SUZB3', 'VALE3']
+themes matched:  ['pulp_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 21:38:53,257 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-05-10 21:38:54,101 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  SUZB3    → 0 insights (raw)
+2026-05-10 21:39:12,277 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  KLBN4    → 5 insights (raw)
+2026-05-10 21:39:12,878 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 0 insights (raw)
+2026-05-10 21:39:16,470 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 1 themes (raw)
+2026-05-10 21:39:17,293 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-05-10 21:39:21,906 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:pulp_cycle               → 1 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 5,
+  "themes_in": 2,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 3,
+  "themes_out": 2
+}
+
+=== 6/6 Persist ===
+2026-05-10 21:39:21,929 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 3,
+  "us_insights": 0,
+  "themes": 2,
+  "themes_db": "br_investments.db"
+}
+2026-05-10 21:39:21,931 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\ps5FxX42Bhg.webm
+
+Done in 129.3s.
+
+[2/5] QVmmeHL0naM
+
+=== 1/6 Download ===
+[download]   0.0% of  124.22MiB at    7.73KiB/s ETA 04:34:16[download]   0.0% of  124.22MiB at   23.12KiB/s ETA 01:31:41[download]   0.0% of  124.22MiB at   53.90KiB/s ETA 39:20   [download]   0.0% of  124.22MiB at  115.30KiB/s ETA 18:23[download]   0.0% of  124.22MiB at   35.50KiB/s ETA 59:42[download]   0.0% of  124.22MiB at   58.51KiB/s ETA 36:13[download]   0.1% of  124.22MiB at   79.44KiB/s ETA 26:40[download]   0.1% of  124.22MiB at   90.53KiB/s ETA 23:23[download]   0.2% of  124.22MiB at  125.58KiB/s ETA 16:50[download]   0.4% of  124.22MiB at  143.05KiB/s ETA 14:45[download]   0.5% of  124.22MiB at  160.22KiB/s ETA 13:09[download]   0.7% of  124.22MiB at  185.36KiB/s ETA 11:21[download]   1.0% of  124.22MiB at  221.37KiB/s ETA 09:28[download]   1.4% of  124.22MiB at  273.70KiB/s ETA 07:38[download]   1.9% of  124.22MiB at  366.79KiB/s ETA 05:40[download]   3.0% of  124.22MiB at  518.42KiB/s ETA 03:57[download]   4.5% of  124.22MiB at  663.47KiB/s ETA 03:03[download]   5.7% of  124.22MiB at  781.72KiB/s ETA 02:33[download]   7.4% of  124.22MiB at  909.58KiB/s ETA 02:09[download]   7.7% of  124.22MiB at  931.68KiB/s ETA 02:06[download]   7.7% of  124.22MiB at    8.25KiB/s ETA 03:57:19[download]   7.7% of  124.22MiB at   24.61KiB/s ETA 01:19:31[download]   7.7% of  124.22MiB at   57.18KiB/s ETA 34:13   [download]   7.7% of  124.22MiB at  122.19KiB/s ETA 16:00[download]   7.7% of  124.22MiB at   66.66KiB/s ETA 29:20[download]   7.8% of  124.22MiB at   61.78KiB/s ETA 31:39[download]   7.8% of  124.22MiB at   65.34KiB/s ETA 29:55[download]   7.9% of  124.22MiB at   85.27KiB/s ETA 22:54[download]   8.0% of  124.22MiB at   93.64KiB/s ETA 20:50[download]   8.0% of  124.22MiB at  103.74KiB/s ETA 18:47[download]   8.2% of  124.22MiB at  109.07KiB/s ETA 17:50[download]   8.3% of  124.22MiB at  122.58KiB/s ETA 15:51[download]   8.5% of  124.22MiB at  127.11KiB/s ETA 15:16[download]   8.6% of  124.22MiB at  135.79KiB/s ETA 14:16[download]   8.8% of  124.22MiB at  135.74KiB/s ETA 14:14[download]   8.9% of  124.22MiB at  143.82KiB/s ETA 13:25[download]   9.1% of  124.22MiB at  151.61KiB/s ETA 12:42[download]   9.3% of  124.22MiB at  152.17KiB/s ETA 12:38[download]   9.4% of  124.22MiB at  158.73KiB/s ETA 12:06[download]   9.6% of  124.22MiB at  163.88KiB/s ETA 11:41[download]   9.8% of  124.22MiB at  168.83KiB/s ETA 11:19[download]  10.0% of  124.22MiB at  170.37KiB/s ETA 11:11[download]  10.2% of  124.22MiB at  173.42KiB/s ETA 10:58[download]  10.3% of  124.22MiB at  177.50KiB/s ETA 10:42[download]  10.6% of  124.22MiB at  179.45KiB/s ETA 10:34[download]  10.7% of  124.22MiB at  185.28KiB/s ETA 10:13[download]  11.0% of  124.22MiB at  190.33KiB/s ETA 09:54[download]  11.2% of  124.22MiB at  197.12KiB/s ETA 09:32[download]  11.6% of  124.22MiB at  205.09KiB/s ETA 09:08[download]  11.9% of  124.22MiB at  207.87KiB/s ETA 08:59[download]  12.1% of  124.22MiB at  216.75KiB/s ETA 08:35[download]  12.5% of  124.22MiB at  213.15KiB/s ETA 08:42[download]  12.7% of  124.22MiB at  220.22KiB/s ETA 08:24[download]  13.1% of  124.22MiB at  229.30KiB/s ETA 08:01[download]  13.5% of  124.22MiB at  234.97KiB/s ETA 07:48[download]  13.8% of  124.22MiB at  242.02KiB/s ETA 07:33[download]  14.2% of  124.22MiB at  249.81KiB/s ETA 07:16[download]  14.6% of  124.22MiB at  257.12KiB/s ETA 07:02[download]  15.0% of  124.22MiB at  262.38KiB/s ETA 06:51[download]  15.3% of  124.22MiB at  266.74KiB/s ETA 06:43[download]  15.5% of  124.22MiB at  271.91KiB/s ETA 06:35ERROR: [download] Got error: HTTPSConnectionPool(host='rr1---sn-ab5l6nry.googlevideo.com', port=443): Read timed out. (read timeout=20.0)
+2026-05-10 21:40:40,614 ERROR youtube.downloader download_error url=https://www.youtube.com/watch?v=QVmmeHL0naM err=ERROR: [download] Got error: HTTPSConnectionPool(host='rr1---sn-ab5l6nry.googlevideo.com', port=443): Read timed out. (read timeout=20.0)
+2026-05-10 21:40:40,614 ERROR yt_ingest download failed: ERROR: [download] Got error: HTTPSConnectionPool(host='rr1---sn-ab5l6nry.googlevideo.com', port=443): Read timed out. (read timeout=20.0)
+ERROR: download failed — ERROR: [download] Got error: HTTPSConnectionPool(host='rr1---sn-ab5l6nry.googlevideo.com', port=443): Read timed out. (read timeout=20.0)
+
+[3/5] 7Fp5nakwKoc
+
+=== 1/6 Download ===
+[download]   0.0% of    8.40MiB at    8.44KiB/s ETA 16:59[download]   0.0% of    8.40MiB at   25.24KiB/s ETA 05:40[download]   0.1% of    8.40MiB at   58.82KiB/s ETA 02:26[download]   0.2% of    8.40MiB at  125.82KiB/s ETA 01:08[download]   0.4% of    8.40MiB at   65.95KiB/s ETA 02:10[download]   0.7% of    8.40MiB at   55.57KiB/s ETA 02:33[download]   1.3% of    8.40MiB at   85.21KiB/s ETA 01:39[download]   2.4% of    8.40MiB at   90.06KiB/s ETA 01:33[download]   3.5% of    8.40MiB at  108.07KiB/s ETA 01:16[download]   5.7% of    8.40MiB at  146.81KiB/s ETA 00:55[download]   9.7% of    8.40MiB at  200.88KiB/s ETA 00:38[download]  14.7% of    8.40MiB at  258.07KiB/s ETA 00:28[download]  21.5% of    8.40MiB at  315.21KiB/s ETA 00:21[download]  28.5% of    8.40MiB at  372.62KiB/s ETA 00:16[download]  38.4% of    8.40MiB at  468.34KiB/s ETA 00:11[download]  58.1% of    8.40MiB at  580.53KiB/s ETA 00:06[download]  70.7% of    8.40MiB at  665.28KiB/s ETA 00:03[download]  94.2% of    8.40MiB at  772.31KiB/s ETA 00:00[download] 100.0% of    8.40MiB at  809.08KiB/s ETA 00:00[download] 100% of    8.40MiB in 00:00:25 at 334.58KiB/s                                                         video: "RNC Gruters: This President's Been Going to Bat for the Average American Worker" (625s) — Bloomberg Television
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 21:41:15,497 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 21:41:17,229 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 21:41:18,360 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 21:41:19,194 INFO faster_whisper Processing audio with duration 10:24.960
+2026-05-10 21:41:19,789 INFO faster_whisper VAD filter removed 00:00.800 of audio
+2026-05-10 21:41:20,169 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 21:41:27,199 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=625.0s chunks=105 chars=12173
+lang=en duration=625s chunks=105 chars=12173
+
+=== 3/6 Router (aliases) ===
+2026-05-10 21:41:27,247 INFO youtube.router router_done tickers=1 themes=1
+tickers matched: ['MSFT']
+themes matched:  ['usdbrl']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 21:41:27,765 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  MSFT     → 0 insights (raw)
+2026-05-10 21:41:28,160 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 0,
+  "themes_in": 0,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 0,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-05-10 21:41:28,165 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 0, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 21:41:28,165 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\7Fp5nakwKoc.webm
+
+Done in 46.9s.
+
+[4/5] J9gha3teB4E
+
+=== 1/6 Download ===
+[download]   0.0% of    7.98MiB at    2.15KiB/s ETA 01:03:13[download]   0.0% of    7.98MiB at    6.46KiB/s ETA 21:05   [download]   0.1% of    7.98MiB at   15.06KiB/s ETA 09:02[download]   0.2% of    7.98MiB at   32.25KiB/s ETA 04:12[download]   0.4% of    7.98MiB at   44.41KiB/s ETA 03:03[download]   0.8% of    7.98MiB at   46.77KiB/s ETA 02:53[download]   1.4% of    7.98MiB at   65.43KiB/s ETA 02:03[download]   2.6% of    7.98MiB at   71.65KiB/s ETA 01:51[download]   3.6% of    7.98MiB at   96.57KiB/s ETA 01:21[download]   5.5% of    7.98MiB at  119.17KiB/s ETA 01:04[download]   8.1% of    7.98MiB at  151.88KiB/s ETA 00:49[download]  12.7% of    7.98MiB at  186.02KiB/s ETA 00:38[download]  16.4% of    7.98MiB at  205.86KiB/s ETA 00:33[download]  20.4% of    7.98MiB at  243.53KiB/s ETA 00:26[download]  28.3% of    7.98MiB at  271.46KiB/s ETA 00:21[download]  33.0% of    7.98MiB at  299.26KiB/s ETA 00:18[download]  42.4% of    7.98MiB at  305.64KiB/s ETA 00:15[download]  47.2% of    7.98MiB at  315.59KiB/s ETA 00:13[download]  52.6% of    7.98MiB at  334.94KiB/s ETA 00:11[download]  61.3% of    7.98MiB at  347.75KiB/s ETA 00:09[download]  66.9% of    7.98MiB at  361.46KiB/s ETA 00:07[download]  74.7% of    7.98MiB at  385.85KiB/s ETA 00:05[download]  85.8% of    7.98MiB at  397.37KiB/s ETA 00:02[download]  91.9% of    7.98MiB at  413.78KiB/s ETA 00:01[download] 100.0% of    7.98MiB at  429.89KiB/s ETA 00:00[download] 100% of    7.98MiB in 00:00:28 at 282.04KiB/s                                                         video: 'Putin says the war may be ending — why now? | Reuters World News' (574s) — Reuters
+
+=== 2/6 Transcrever (Whisper) ===
+2026-05-10 21:42:05,230 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-05-10 21:42:05,589 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-05-10 21:42:06,709 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-05-10 21:42:07,500 INFO faster_whisper Processing audio with duration 09:34.288
+2026-05-10 21:42:08,147 INFO faster_whisper VAD filter removed 00:35.024 of audio
+2026-05-10 21:42:08,847 INFO faster_whisper Detected language 'en' with probability 1.00
+2026-05-10 21:42:14,317 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=en duration=574.3s chunks=96 chars=7854
+lang=en duration=574s chunks=96 chars=7854
+
+=== 3/6 Router (aliases) ===
+2026-05-10 21:42:14,363 INFO youtube.router router_done tickers=1 themes=1
+tickers matched: ['TEN']
+themes matched:  ['semis_cycle']
+
+=== 4/6 Extract (Ollama) ===
+2026-05-10 21:42:14,844 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TEN      → 0 insights (raw)
+2026-05-10 21:42:15,235 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:semis_cycle              → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 0,
+  "themes_in": 0,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 0,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-05-10 21:42:15,240 INFO youtube.persistence persist_done {'br_insights': 0, 'us_insights': 0, 'themes': 0, 'themes_db': 'us_investments.db'}
+{
+  "br_insights": 0,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "us_investments.db"
+}
+2026-05-10 21:42:15,241 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\J9gha3teB4E.webm
+
+Done in 46.4s.
+
+[5/5] YlneDVjKByI
+
+=== 1/6 Download ===
+
+=== DONE 5 videos in 5.1min ===
+[
+  {
+    "video_id": "ps5FxX42Bhg",
+    "rc": 0,
+    "elapsed_sec": 131.8
+  },
+  {
+    "video_id": "QVmmeHL0naM",
+    "rc": 2,
+    "elapsed_sec": 78.6
+  },
+  {
+    "video_id": "7Fp5nakwKoc",
+    "rc": 0,
+    "elapsed_sec": 47.6
+  },
+  {
+    "video_id": "J9gha3teB4E",
+    "rc": 0,
+    "elapsed_sec": 47.1
+  },
+  {
+    "video_id": "YlneDVjKByI",
+    "rc": 3221225786,
+    "elapsed_sec": 1.2
+  }
+]
+^C

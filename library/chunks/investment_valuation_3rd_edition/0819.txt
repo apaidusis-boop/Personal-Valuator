@@ -1,0 +1,63 @@
+rk's portfolio to “hanging a Van Gogh in a community art exhibit.”
+BACKGROUND
+Lutèce was founded in 1961 by Andre Soltner, and quickly acquired a reputation for serving food of exceptional quality. It
+
+had received a five-star rating from Mobil for 24 consecutive years and was one of five New York City restaurants that got
+a four-star rating (the highest) from the 
+New York Times
+. In a sign of slippage, however, its ranking in the 
+Zagat Survey of
+New York City Restaurants
+ dropped to eighth from being perennially at or near the top for much of the 1970s and 1980s.
+ESTIMATING CASH FLOWS
+The following are some of the background facts on Lutèce:
+The restaurant can seat 92 diners. It has one seating for lunch and two seatings for dinner. It fills in 70% of
+its seats at lunchtime and 80% of its seats at dinner.
+The restaurant stays open 340 days every year, and is closed for the remaining 25 days.
+The average price of a lunch is $30, and the average price of a dinner is $66. Approximately one-third of this
+is for liquor.
+There are 42 employees on the staff of the restaurant. The cost of food is approximately 30% of the price of
+the meal, and the payroll amounts to $1.25 million a year.
+The annual rent for the space used by Lutèce is $600,000.
+The following table is an estimation of the after-tax operating cash flows in 1994 for Lutèce:
+Assumption
+Base Year
+Revenues
+Lunch
+70% occupancy; $30 per person
+$ 656,880
+Dinner
+80% occupancy; $66 per person
+$3,303,168
+Total
+$3,960,048
+Expenses
+Food
+30% of revenues
+$1,188,014
+Staff
+$1,250,000 for staff expenses
+$1,250,000
+Rent
+$ 600,000
+Total
+$3,038,014
+EBIT
+$ 922,034
+Taxes
+Assumed tax rate of 40%
+$ 368,813
+EBIT(1 − t)
+$ 553,220
+These cash flows are expected to grow 6% a year for three years and 3% a year after that. The following table summarizes
+the expected cash flows over the next three years.
+ESTIMATING DISCOUNT RATES
+The acquirer in this case, Ark Restaurants, has a relatively low beta (0.7) and gets only about 10% of its financing needs
+from debt. Assuming that the underlying risk in investing in Lutèce is similar, the cost of equity can be estimated as follows:
+(This assumes that the long-term Treasury bond rate is 8% and a risk premium of 5.5%.)
+If Ark Restaurants can borrow money at 9% and faces a 40% tax rate, the cost of capital can be calculated as follows:
+ESTIMATING VALUE
+The value of Lutèce can be estimated by discounting the cash flows at the weighted average cost of capital. Allowing for a
+growth rate of 6% over the next three years and 3% after that, the value of the restaurant can be estimated as follows:
+VALUING THE KEY PERSON
+There would probably be no argument that some of Lutèce's value derives from Andre Soltner's presence as chef. It would

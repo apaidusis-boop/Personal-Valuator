@@ -1,0 +1,32 @@
+al growth that we are estimating here comes not from new
+investments but by changing the return on existing investments. For lack of a better term, you could
+consider it “efficiency-generated growth.”
+
+ILLUSTRATION 11.8: Effects of Changing Return on
+Equity: Con Ed
+In Illustration 11.5 we looked at Con Ed's expected growth rate based on its return on equity of 9.79% and its retention ratio
+of 36%. Assume that the firm will be able to improve its overall return on equity (on both new and existing investments) to
+11% next year and that the retention ratio remains at 36%. The expected growth rate in earnings per share next year can
+then be written as:
+After next year, the growth rate will subside to a more sustainable 3.96% (.11 × .36).
+How would the answer be different if the improvement in return on equity were only on new investments but not on existing
+assets? The expected growth rate in earnings per share can then be written as:
+Thus, there is no additional growth created in this case. What if the improvement had been only on existing assets and not on
+new investments? Then, the expected growth rate in earnings per share can be written as:
+Growth in Operating Income
+Just as equity income growth is determined by the equity reinvested back into the business and the
+return made on that equity investment, you can relate growth in operating income to total reinvestment
+made into the firm and the return earned on capital invested.
+We will consider three separate scenarios, and examine how to estimate growth in each, in this
+section. The first is when a firm is earning a high return on capital that it expects to sustain over time.
+The second is when a firm is earning a positive return on capital that is expected to increase over
+time. The third is the most general scenario, where a firm expects operating margins to change over
+time, sometimes from negative values to positive levels.
+Stable Return on Capital Scenario
+When a firm has a stable return on capital, its expected growth in operating income is a product of the
+reinvestment rate (i.e., the proportion of the after-tax operating income that is invested in net capital
+expenditures and noncash working capital), and the quality of these reinvestments, measured as the
+return on the capital invested.
+Both measures—the reinvestment rate and return on capital—should be forward looking, and the
+return on capital should represent the expected return on capital on future investments. In the rest of
+this section, we consider how best to estimate the reinvestment rate and the return on capital.

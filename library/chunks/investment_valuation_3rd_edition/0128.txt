@@ -1,0 +1,45 @@
+hich can then be valued to arrive at a portfolio of
+undervalued firms. If the research is correct, the odds of finding undervalued firms should increase in
+this subsample.
+WHAT IS AN EFFICIENT MARKET?
+
+An efficient market is one where the market price is an unbiased estimate of the true value of the
+investment. Implicit in this derivation are several key concepts:
+Contrary to popular view, market efficiency does not require that the market price be equal
+to true value at every point in time. All it requires is that errors in the market price be
+unbiased; prices can be greater than or less than true value, as long as these deviations are
+random.
+The fact that the deviations from true value are random implies, in a rough sense, that there
+is an equal chance that any stock is under- or overvalued at any point in time, and that these
+deviations are uncorrelated with any observable variable. For instance, in an efficient
+market, stocks with lower PE ratios should be no more or no less likely to be undervalued
+than stocks with high PE ratios.
+If the deviations of market price from true value are random, it follows that no group of
+investors should be able to consistently find under- or overvalued stocks using any
+investment strategy.
+Definitions of market efficiency have to be specific not only about the market that is being
+considered but also the investor group that is covered. It is extremely unlikely that all markets are
+efficient to all investors at all times, but it is entirely possible that a particular market (for instance,
+the New York Stock Exchange) is efficient with respect to the average investor. It is also possible
+that some markets are efficient while others are not, and that a market is efficient with respect to some
+investors and not to others. This is a direct consequence of differential tax rates and transaction costs,
+which confer advantages on some investors relative to others.
+Definitions of market efficiency are also linked up with assumptions about what information is
+available to investors and reflected in the price. For instance, a strict definition of market efficiency
+that assumes that all information, public as well as private, is reflected in market prices would imply
+that even investors with precise inside information will be unable to beat the market. One of the
+earliest classifications of levels of market efficiency was provided by Fama (1971), who argued that
+markets could be efficient at three levels, based on what information was reflected in prices. Under
+weak form efficiency, the current price reflects the information contained in all past prices, suggesting
+that charts and technical analyses that use past prices alone would not be useful in finding
+undervalued stocks. Under semi-strong form efficiency, the current price reflects the information
+contained not only in past prices but all public information (including financial statements and news
+reports) and no approach that is predicated on using and massaging this information would be useful
+in finding undervalued stocks. Under strong form efficiency, the current price reflects all information,
+public as well as private, and no investors will be able to find undervalued stocks consistently.
+IMPLICATIONS OF MARKET EFFICIENCY
+An immediate and direct implication of an efficient market is that no group of investors should be
+able to beat the market consistently using a common investment strategy. An efficient market would
+also carry negative implications for many investment strategies:
+In an efficient market, equity research and valuation would be a costly task that would
+provide no benefits. The odds of finding an undervalued stock would always be 50–50,

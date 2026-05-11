@@ -1,0 +1,48 @@
+ing earnings in future years, and
+the last variable determines reinvestment needs. 
+Figure 31.6
+ summarizes the impact of each of these
+variables on the cash flows.
+Figure 31.6
+ Determinants of Growth
+
+Other things remaining equal, the expected cash flows in future years will be higher if any of the
+three variables—revenue growth, target margins, and sales-to-capital ratios—increase. Increasing
+revenue growth and target margins will increase operating earnings, while increasing the sales-to-
+capital ratio will reduce reinvestment needs.
+In reality, though, firms have to make a trade-off between higher revenue growth and higher
+margins. When firms increase prices for their products, they improve operating margins but reduce
+revenue growth. Michael Porter, one of the leading thinkers in corporate strategy, suggests that when
+it comes to pricing strategy, there are two basic routes a firm can take. It can choose to be a volume
+leader, reducing prices and hoping to increase revenues sufficiently to compensate for the lower
+margins. For this strategy to work, the firm needs a cost advantage over its competitors to prevent
+pricing wars that may make all firms in the industry worse off. Alternatively, it can attempt to be a
+price leader, increasing prices and hoping that the effect on volume will be smaller than the increased
+margins. The extent to which revenue growth will drop depends on how elastic the demand for the
+product is and how competitive the overall product market is. The net effect will determine value
+(Porter 1980).
+While a higher sales-to-capital ratio reduces reinvestment needs and increases cash flow, there are
+both internal and external constraints on the process. As the sales-to-capital ratio increases, the return
+on capital on the firm in future years will also increase. If the return on capital substantially exceeds
+the cost of capital, new competitors will enter the market, making it more difficult to sustain the
+expected operating margins and revenue growth.
+LESS IS MORE: THE VALUE OF LESS GROWTH
+In some cases, the best path to value creation comes from scaling back rather than increasing growth. To see why, consider
+the proposition that growth creates value only if the return on capital earned on new investments exceeds the cost of capital
+in funding those investments. Also consider the fact that in 2011, about 35% of all global companies generated composite
+returns on capital that were lower than their costs of capital. While this underperformance can be attributed to
+macroeconomic factors or temporary problems at some of these firms, it also reflects the fact that many of these firms were
+either in decline or in businesses where it is difficult, if not impossible, to generate excess returns.
+There are lots of reasons why firms in the latter group continue on the value destructive path of investing increasing amounts
+in bad businesses. Some consider growth at any cost to be good, and are aided and abetted by equity research analysts who
+share that impression. Others are driven by inertia, continuing patterns of investment that they adopted in earlier periods,
+when investment opportunities were lucrative and plentiful. Still others have over confident managers who are convinced
+that they can change an entire business.
+Whatever the reasons, value enhancement at firms that grow through bad enhancements is simple. Ceasing to make new
+investments will drive down growth and increase value at the same time. To illustrate, assume that a firm with a 10% cost of
+capital generates $10 million in after-tax operating income. Assume further that it is reinvesting 50% of that income in
+projects that generate a 6% return on capital. Using the resultant growth rate of 3%, we can estimate a value for the firm:
+If this firm stopped reinvesting, its growth rate and reinvestment rate would drop to zero and its value would increase to $100
+million
+While the existing management at these firms may be reluctant to give up on growth, they are favored targets for activist
+investors.

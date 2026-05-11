@@ -1,0 +1,58 @@
+s.
+Consider, though, what an operating lease involves. A retail firm leases a store space for 12 years
+and enters into a lease agreement with the owner of the space agreeing to pay a fixed amount each
+
+year for that period. We do not see much difference between this commitment and borrowing money
+from a bank and agreeing to pay off the bank loan over 12 years in equal annual installments.
+There are therefore two adjustments we will make when we estimate how much debt a firm has
+outstanding.
+1.
+ We will consider only interest-bearing debt rather than all liabilities. We would include both
+short-term and long-term borrowings in debt.
+2.
+ We will also capitalize operating leases and treat them as debt.
+Capitalizing Operating Leases
+Converting operating lease expenses into a debt equivalent is straightforward. The operating lease
+commitments in future years, which are revealed in the footnotes to the financial statements for U.S.
+firms, should be discounted back at a rate that reflects their status as unsecured and fairly risky debt.
+As an approximation, using the firm's current pretax cost of borrowing as the discount rate yields a
+good estimate of the value of operating leases.
+There are still some countries where companies do not have to reveal their operating lease
+commitments to investors. When this is the case, you can get a reasonably close estimate of the debt
+value of operating leases by estimating the present value of an annuity equal to the current year's
+payment for a period that reflects a typical lease period (8 to 10 years).
+There is one final issue relating to capitalization. Earlier in this chapter it was stated that the
+interest coverage ratio could be used to estimate a synthetic rating for a firm that is not rated. For
+firms with little in terms of conventional debt and substantial operating leases, the interest coverage
+ratio used to estimate a synthetic rating has to be adapted to include operating lease expenses.
+This ratio can then be used in conjunction with Tables 8.1 and 8.2 to estimate a synthetic rating.
+ILLUSTRATION 8.15: The Debt Value of Operating Leases:
+Boeing in December 2000
+Boeing has both conventional debt and operating lease commitments. This illustration estimates the “debt value” of Boeing's
+operating leases by taking the present value of operating lease expenses over time. To compute the present value of
+operating leases in the following table (in $millions), we use the pretax cost of borrowing for the firm, estimated in Illustration
+8.11 to be 6%.
+Year
+Operating Lease Expense
+Present Value at 6%
+1
+$205
+$193.40
+2
+$167
+$146.83
+3
+$120
+$100.75
+4
+$ 86
+$ 68.12
+5
+$ 61
+$ 45.58
+6 to 15
+$ —
+$ 0.00
+Present value of operating lease expenses
+$556.48
+Thus, Boeing has $556 million more in debt than is reported in the balance sheet.

@@ -1,0 +1,13 @@
+ics and rebalances as necessary to maintain your asset allocation or to take advantage of strategies like [tax-loss harvesting](https://www.investopedia.com/articles/taxes/08/tax-loss-harvesting.asp).
+
+Many investors use robo-advisors in addition to their other financial services. “They are increasingly being adopted as a complementary tool—another avenue for investing that offers convenience, automation, and accessibility,” said [Kapil Vora](https://hub.jdpower.com/kapil-vora), senior director of wealth intelligence at J.D. Power. “Today, most major investment platforms offer some form of robo-advisory service, often under different brand names or integrated into their broader wealth management products/services.”
+
+## Types of Investments Managed by Robo-Advisors
+
+Robo-advisors generally offer a finite menu of investments, so you may not have the ability to purchase any individual asset you want through their platforms. However, there’s usually enough flexibility to design a portfolio that meets your needs. Typically, these options include the following:
+
+- [**Exchange-traded funds (ETFs)**](https://www.investopedia.com/terms/e/etf.asp): These are the most common building blocks for robo-advisor portfolios. They offer easy diversification through exposure to the broader market or specific sectors, often with low fees and relative tax efficiency.
+- **Mutual funds**: Some platforms may offer mutual funds that provide similar benefits to ETFs, like passively managed index funds.
+- **Individual stocks**: Certain robo-advisors allow you to invest directly in stocks. However, you may have to meet minimum portfolio value requirements to be eligible.
+
+Some robo-advisors offer access to other asset classes, including cryptocurrencies, bonds, and cash. However, these are often only accessible through ETFs or separate account-level features (i.e., a bond laddering tool or a [high-yield savings account](https://www.investopedia.com/high-yield-savings-accounts-4770633)).

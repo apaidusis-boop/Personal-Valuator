@@ -1,0 +1,54 @@
+[
+  {
+    "phase": "1.backfill_br_intangibles",
+    "predicted_sec": 90,
+    "actual_sec": 42.4,
+    "delta_sec": -47.6,
+    "delta_pct": -52.9,
+    "ts": "2026-05-09T10:49:03"
+  },
+  {
+    "phase": "2.recompute_fair_value",
+    "predicted_sec": 180,
+    "actual_sec": 2.6,
+    "delta_sec": -177.4,
+    "delta_pct": -98.5,
+    "ts": "2026-05-09T10:49:06"
+  },
+  {
+    "phase": "3.recompute_safety",
+    "predicted_sec": 60,
+    "actual_sec": 0.2,
+    "delta_sec": -59.8,
+    "delta_pct": -99.7,
+    "ts": "2026-05-09T10:49:06"
+  },
+  {
+    "phase": "4.multi_agent_holdings",
+    "predicted_sec": 2520,
+    "actual_sec": 1771.3,
+    "delta_sec": -748.7,
+    "delta_pct": -29.7,
+    "ts": "2026-05-09T11:18:37",
+    "n_tickers": 33,
+    "completed": 33
+  },
+  {
+    "phase": "5.multi_agent_watchlist",
+    "predicted_sec": 5400,
+    "actual_sec": 3591.6,
+    "delta_sec": -1808.4,
+    "delta_pct": -33.5,
+    "ts": "2026-05-09T12:18:29",
+    "n_tickers": 70,
+    "completed": 70
+  },
+  {
+    "phase": "6.final_report",
+    "predicted_sec": 30,
+    "actual_sec": 0.2,
+    "delta_sec": -29.8,
+    "delta_pct": -99.5,
+    "ts": "2026-05-09T12:18:29"
+  }
+]

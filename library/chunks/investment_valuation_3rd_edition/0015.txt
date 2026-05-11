@@ -1,0 +1,47 @@
+there are ways in which an enterprising
+chartist can incorporate it into analysis. For instance, valuation can be used to determine support and
+resistance lines
+4
+ on price charts.
+Information Traders
+
+Prices move on information about the firm. Information traders attempt to trade in advance of new
+information or shortly after it is revealed to financial markets, buying on good news and selling on
+bad. The underlying assumption is that these traders can anticipate information announcements and
+gauge the market reaction to them better than the average investor in the market.
+For an information trader, the focus is on the relationship between information and changes in
+value, rather than on value per se. Thus an information trader may buy stock in even an overvalued
+firm if he or she believes that the next information announcement is going to cause the price to go up
+because it contains better than expected news. If there is a relationship between how undervalued or
+overvalued a company is and how its stock price reacts to new information, then valuation could play
+a role in investing for an information trader.
+Market Timers
+Market timers note, with some legitimacy, that the payoff to calling turns in markets is much greater
+than the returns from stock picking. They argue that it is easier to predict market movements than to
+select stocks and that these predictions can be based on factors that are observable.
+While valuation of individual stocks may not be of any use to a market timer, market timing
+strategies can use valuation in at least two ways:
+1.
+ The overall market itself can be valued and compared to the current level.
+2.
+ A valuation model can be used to value all stocks, and the results from the across all stocks be
+used to determine whether the market is over- or undervalued. For example, as the number of
+stocks that are overvalued, using a discounted cash flow model, increases relative to the number
+that are undervalued, there may be reason to believe that the market is overvalued.
+Efficient Marketers
+Efficient marketers believe that the market price at any point in time represents the best estimate of
+the true value of the firm, and that any attempt to exploit perceived market efficiencies will cost more
+than it will make in excess profits. They assume that markets aggregate information quickly and
+accurately, that marginal investors promptly exploit any inefficiencies, and that any inefficiencies in
+the market are caused by friction, such as transaction costs, and cannot be arbitraged away.
+For efficient marketers, valuation is a useful exercise to determine why a stock sells for the price
+that it does. Since the underlying assumption is that the market price is the best estimate of the true
+value of the company, the objective becomes determining what assumptions about growth and risk are
+implied in this market price, rather than on finding under- or overvalued firms.
+Valuation in Acquisition Analysis
+Valuation should play a central part in acquisition analysis. The bidding firm or individual has to
+decide on a fair value for the target firm before making a bid, and the target firm has to determine a
+reasonable value for itself before deciding to accept or reject the offer.
+There are also special factors to consider in takeover valuation. First, the effects of synergy on the
+combined value of the two firms (target plus bidding firm) have to be considered before a decision is
+made on the bid. Those who suggest that synergy is impossible to value and should not be considered

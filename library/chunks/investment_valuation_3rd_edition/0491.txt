@@ -1,0 +1,26 @@
+market value of the preferred stock is therefore: 
+
+The cost of preferred stock should be higher than the pretax cost of debt, since debt has a prior
+claim on the cash flows and assets of the firm.
+9
+
+This would be dilution in the true sense of the word, rather than the term that is used to describe
+any increase in the number of shares outstanding. The reason there is dilution is because the
+additional shares are issued only to the option holders at a price below the current price. In
+contrast, the dilution that occurs in a rights issue where every stockholder gets the right to buy
+additional shares at a lower price is value neutral. The shares will trade at a lower price but
+everyone will have more shares outstanding.
+10
+
+Cuny and Jorion (1995) examine the valuation of options when there is the possibility of
+forfeiture.
+11
+ The value per share, obtained using the treasury stock approach, will become the stock price in
+the option pricing model. The option value that results from using this price is used to compute a
+new value per share, which is fed back into the option pricing model, and so on.
+12
+
+The two classes of stock received the same dividend.
+13
+ In some cases, the rights of nonvoting stockholders are protected in the specific instance of a
+takeover by forcing the bidder to buy the nonvoting shares as well.

@@ -1,0 +1,40 @@
+eing's beta in 2000, we broke its business into two areas:
+1.
+
+Commercial aircraft
+, which is Boeing's core business of manufacturing commercial jet aircraft and providing related
+support services.
+2.
+
+Information, space, and defense systems (ISDS)
+, which include research, development, production, and support of
+military aircraft, helicopters, and missile systems.
+Each of these areas of business has very different risk characteristics, and the unlevered beta for each business was
+estimated by looking at comparable firms in each business. The following table summarizes these estimates.
+For commercial aircraft there are no truly comparable firms. We looked at Boeing's own beta prior to its expansion in the
+defense business and computed the unlevered beta using this estimate. For ISDS, we used 17 firms that derived the bulk of
+their revenues from defense contracting, and computed the average beta and debt-to-equity ratio for these firms. The
+unlevered beta was computed using these averages. The values for each of the divisions were estimated using the revenues
+from each segment
+8
+ and a typical revenue multiple
+9
+ for that type of business. The unlevered beta for Boeing as a company
+in 2000 can be estimated by taking a value-weighted average of the betas of each of the different business areas. This is
+reported in the last column to be 0.8774.
+The equity beta can then be estimated using the debt-to-equity ratio for Boeing in 2000. Combining the market value of
+equity of $55.20 billion and the value of debt of $7.85 billion, and using a 35% tax rate for the firm, we arrive at the beta for
+Boeing.
+This is very different from the historical beta of 0.56 that we obtained from the regression, but it is, in our view, a much truer
+reflection of the risk in Boeing in 2000.
+ILLUSTRATION 8.6: Estimating a Bottom-Up Beta for
+Titan Cement—January 2000
+To estimate a beta for Titan Cement, we began by defining comparable firms as other cement companies in Greece but
+found only one comparable firm. When we expanded the list to include cement companies across Europe, we increased our
+sample to nine firms. Since we did not see any reason to restrict our comparison to just European firms, we decided to look
+at the average beta for cement companies globally. There were 108 firms in this sample, with an average beta of 0.99, an
+average tax rate of 34.2%, and an average debt-to-equity ratio of 27.06%. We used these numbers to arrive at an unlevered
+beta of 0.84.
+We then used Titan's market values of equity (566.95 million Gdr) and debt (13.38 million Gdr) to estimate a levered beta for
+its equity:
+We used Titan's marginal tax rate of 24.14% in this calculation.

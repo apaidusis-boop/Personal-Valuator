@@ -1,0 +1,36 @@
+onsidered much more volatile. The cost of capital applied to these cash flows is 10%.
+The value of the copyright can be estimated using these cash flows and the cost of capital that has been supplied:
+
+The value of the copyright, with these assumptions, is $518,547 (the sum of $216,494 and $302,053).
+NON-CASH-FLOW-PRODUCING ASSETS
+Assets that do not produce cash flows cannot be valued using discounted cash flow models. They
+derive their value from a combination of factors—a scarcity of supply relative to demand,
+consumption utility, and individual perceptions. While they can be valued relative to comparables,
+their values are also much more volatile since they are based entirely on perceptions. There are a
+wide range of assets that fall under this category, from limited edition Barbie dolls to rare coins to
+wine.
+Special Issues in Valuing Non-Cash-Flow-Producing Assets
+The biggest difference between these assets and cash-flow-generating assets is that there is no
+intrinsic value backing up the price. Consequently, the only way to value these assets is by using
+relative valuation (i.e., by looking at how similar assets are priced in the market).
+The process of using comparables in valuing an asset is fairly straightforward, at least in the
+abstract. The first step in the process is to collect a group of comparable assets. The second is to
+estimate a measure of standardized value for this group. The third is to control for differences
+between assets in this group and the asset being valued to arrive at a measure of reasonable value for
+the asset. The problems in applying this approach are:
+Finding comparable assets may be difficult to do for some non-cash-flow-producing assets.
+While there are indices compiled on various unconventional assets, there are substantial
+differences between the assets within each index.
+The markets for many of these assets are neither liquid nor public. Many transactions are
+private and the reported prices are therefore unreliable.
+It is not clear how one controls for differences across assets that are comparable when these
+differences are not quantitative but relate to perception.
+The prices of many of these assets are directly related to how scarce the supply of the asset
+is. For instance, the reason that the Honus Wagner T-206 baseball card is the most highly
+valued card on the market is because there are only 58 known cards in existence and only
+one in mint condition.
+4
+ The flip side of this is that any event that alters this balance will
+affect the price. Thus, a surprise find of another mint-condition Honus Wagner card in
+someone's attic can cause the price to change dramatically.
+Art and Collectibles

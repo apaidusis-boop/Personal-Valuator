@@ -1,0 +1,47 @@
+egression to include standard deviation in stock prices as a measure of risk, we get:
+This regression can be used to estimate predicted price-to-book ratios for these companies in the following table:
+
+The most undervalued firm in the group is Giant Industries, with an actual price-to-book ratio of 0.54 and a predicted price-
+to-book ratio of 1.80, and the most overvalued is Harken Energy, with an actual price-to-book ratio of 0.64 and a predicted
+price-to-book ratio of 0.24.
+Comparing Firms across the Market
+In contrast to the comparable firm approach, you could look at how firms are priced across the entire
+market to predict PBV ratios for individual firms. The simplest way of summarizing this information
+is with a multiple regression, with the PBV ratio as the dependent variable, and proxies for risk,
+growth, return on equity, and payout forming the independent variables.
+Past Studies
+ The relationship between price–book value ratios and the return on equity has been
+highlighted in other studies. Wilcox (1984) posited a strong relationship between the price-to-book
+value ratio (plotted on a logarithmic scale) and return on equity. Using data from 1981 for 949 Value
+Line stocks, he arrived at the following equation:
+He also found that this regression has much smaller mean squared error than competing models using
+price-earnings ratios and/or growth rates.
+These PBV ratio regressions were updated in the first edition of this book using data from 1987 to
+1991. The Compustat database was used to extract information on price–book value ratios, return on
+equity, payout ratios, and earnings growth rates (for the preceding five years) for all NYSE and
+AMEX firms with data available in each year. The betas were obtained from the CRSP tape for each
+year. All firms with negative book values were eliminated from the sample, and the regression of
+PBV on the independent variables yielded the following for each year:
+Year
+Regression
+R-Squared
+1987
+PBV = 0.1841 + 2.00 Payout – 0.3940 Beta + 133.89 EGR + 9.35 ROE
+0.8617
+1988
+PBV = 0.7113 + 0.007 Payout – 0.5082 Beta + 46.05 EGR + 6.9374 ROE
+0.8405
+1989
+PBV = 0.4119 + 0.63 Payout – 0.6406 Beta + 100.38 EGR + 9.55 ROE
+0.8851
+1990
+PBV = 0.8124 + 0.99 Payout – 0.1857 Beta + 111.30 EGR + 6.61 ROE
+0.8846
+1991
+PBV = 1.1065 + 35.05 Payout – 0.6471 Beta + 100.87 EGR + 10.51 ROE
+0.8601
+where PBV = Price–book value ratio at the end of the year 
+Payout = Dividend payout ratio at the end of the year 
+Beta = Beta of the stock 
+EGR = Growth rate in earnings over prior five years 
+ROE = Return on equity = Net income/Book value of equity

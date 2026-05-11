@@ -1,0 +1,30 @@
+ifferences across emerging markets at the end of 2000. In this table, the
+country risk factor is that estimated by the 
+Economist
+ for these emerging markets, scaled from 0 (safest) to 100 (riskiest).
+
+The regression of PE ratios on these variables provides the following:
+Countries with higher real growth and lower country risk have higher PE ratios, but the level of interest rates seems to have
+only a marginal impact. The regression can be used to estimate the price- earnings ratio for Turkey:
+At a PE ratio of 12, the market would have been viewed as slightly undervalued.
+Comparing PE Ratios across Firms in a Sector
+The most common approach to estimating the PE ratio for a firm is to choose a group of comparable
+firms, to calculate the average PE ratio for this group, and to subjectively adjust this average for
+differences between the firm being valued and the comparable firms. There are several problems
+with this approach. First, the definition of a comparable firm is essentially a subjective one. The use
+of other firms in the industry as the control group is often not the solution because firms within the
+same industry can have very different business mixes and risk and growth profiles. There is also
+plenty of potential for bias. One clear example of this is in takeovers, where a high PE ratio for the
+target firm is justified using the price-earnings ratios of a control group of other firms that have been
+taken over. This group is designed to give an upwardly biased estimate of the PE ratio and other
+multiples. Second, even when a legitimate group of comparable firms can be constructed, differences
+will continue to persist in fundamentals between the firm being valued and this group. It is very
+difficult to subjectively adjust for differences across firms. Thus, knowing that a firm has much higher
+growth potential than other firms in the comparable firm list would lead you to estimate a higher PE
+ratio for that firm, but how much higher is an open question.
+The alternative to subjective adjustments is to control explicitly for the one or two variables that
+you believe account for the bulk of the differences in PE ratios across companies in the sector in a
+regression. The regression equation can then be used to estimate predicted PE ratios for each firm in
+the sector, and these predicted values can be compared to the actual PE ratios to make judgments on
+whether stocks are under- or overpriced.
+ILLUSTRATION 18.8: Comparing PE Ratios for Global

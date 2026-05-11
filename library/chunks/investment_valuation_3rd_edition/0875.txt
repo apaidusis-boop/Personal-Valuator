@@ -1,0 +1,52 @@
+This chapter considered two options that are embedded in many investments—the option to expand an
+investment and the option to abandon it. When a firm has an option to expand an investment, the value
+
+of this expansion option may sometimes allow it to override the fact that the initial investment has a
+negative net present value. Extending this concept to firm valuation, you may sometimes add a
+premium to the value obtained from a discounted cash flow valuation for a firm that has the potential
+to enter new markets or create new products. This expansion option has maximum value when the
+firm has the exclusive right to make these investments, and the value decreases as the competitive
+advantages enjoyed by the firm decline.
+The option to abandon refers to the right that firms often possess to walk away from poor
+investments. To the extent that this reduces the firm’s exposure to the worst outcomes, it can make the
+difference between investing in a new project and not investing.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ NBC has the rights to televise the Winter Olympics in two years, and is trying to estimate the
+value of these rights for possible sale to another network. NBC expects it to cost $40 million (in
+present value terms) to televise the Olympics, and based on current assessments expects to have a
+Nielsen rating
+8
+ of 15 for the games. Each rating point is expected to yield net revenue of $2
+million to NBC (in present value terms). There is substantial variability in this estimate, and the
+standard deviation in the expected net revenues is 30%. The riskless rate is 5%.
+a.
+ What is the net present value of these rights, based on current assessments?
+b.
+ Estimate the value of these rights for sale to another network.
+2.
+ You are analyzing Skates Inc., a firm that manufactures skateboards. The firm is currently
+unlevered and has a cost of equity of 12%. You estimate that Skates would have a cost of capital
+of 11% at its optimal debt ratio of 40%. The management, however, insists that it will not borrow
+the money because of the value of maintaining financial flexibility and has provided you with the
+following information:
+Over the past 10 years, reinvestment (net capital expenditures + working capital
+investments) has amounted to 10% of firm value, on an annual basis. The standard
+deviation in this reinvestment has been 0.30.
+The firm has traditionally used only internal funding (net income + depreciation) to meet
+these needs, and these have amounted to 6% of firm value.
+In the most recent year, the firm earned $180 million in net income on a book value of
+equity of $1 billion, and it expects to earn these excess returns on new investments in the
+future.
+The riskless rate is 5%.
+a.
+ Estimate the value of financial flexibility as a percent of firm value on an annual basis.
+b.
+ Based on (a), would you recommend that Skates use its excess debt capacity?
+3.
+ Disney is considering entering into a joint venture to build condominiums in Vail, Colorado,
+with a local real estate developer. The development is expected to cost $1 billion overall and,
+based on Disney’s estimate of the cash flows, generate $900 million in present value cash flows
+over 25 years. Disney will have a 40% share of the joint venture (requiring it to put up $400
+million of the initial investment and entitling it to 40% of the cash flows) but it will have the right

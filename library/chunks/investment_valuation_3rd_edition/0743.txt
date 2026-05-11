@@ -1,0 +1,17 @@
+l in question has a portfolio that is not diversified and has a
+correlation of 0.60 with the market index. In addition, use the following bid-ask spread equation
+to estimate the illiquidity discount: 
+
+Estimate the value of equity in the private transaction.
+1
+ Book interest rate = Interest expenses/Book value of debt.
+
+2
+ The values will always converge.
+3
+ The capital invested reflects the value of the research asset.
+4
+ InfoSoft was revalued at its optimal debt ratio. We assumed that the existing investment policy
+was optimal.
+5
+ BIZCOMPS, IBA Market Data and Pratt Stats all provide transaction data for private businesses.

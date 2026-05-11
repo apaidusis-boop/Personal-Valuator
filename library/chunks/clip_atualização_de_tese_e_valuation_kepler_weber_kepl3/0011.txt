@@ -1,0 +1,19 @@
+e inerente ao ciclo do agro. As cores do mapa de calor tornam os ciclos explícitos: tons avermelhados representam anos de compressão de margens, amarelo, os anos medianos, e verde, os anos favoráveis.
+
+Assumimos uma **Depreciação & Amortização** estável em 3% da receita líquida, e as demais premissas a seguir:
+
+Para o **Capex**, assumimos uma normalização gradual em torno de **3%** da receita líquida. As despesas operacionais seguem trajetória de leve diluição, com redução gradual de 0,1 p.p. ao ano até 2033, quando se estabilizam. Para o capital de giro, assumimos leve redução ao longo do tempo. A alíquota efetiva de IR/CSLL parte de 23%, em linha com o histórico recente, e converge para **34%** no último ano da projeção, bem acima do patamar atual, reforçando o conservadorismo do modelo.
+
+As projeções resultam na seguinte evolução de receita, lucro operacional e margens:
+
+*Fonte: Kepler Weber (até 2025). Projeções e elaboração: Finclass.*
+
+A **taxa de desconto**, que representa o retorno mínimo exigido, foi de 10% acima da inflação e um **decrescimento real na perpetuidade** de **4% a.a**. que reflete uma camada adicional de margem de segurança frente às incertezas do mercado acionário.
+
+Com isso, temos as seguintes projeções:
+
+Considerando os fluxos acima, chegamos a um **preço justo por ação de R$ 11,24**, representando um upside de 45% enquanto escrevemos esse relatório. A **TIR real** aos preços atuais é de **15,8%** **a.a.** (IPCA +15,8%), consideravelmente acima do proporcionado pelo **Tesouro IPCA** (NTN-B).
+
+*Precificação e elaboração: Finclass.*
+
+## Conclusão e recomendação

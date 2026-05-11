@@ -1,0 +1,32 @@
+tively, the market index on a risk-adjusted basis.
+Caveats on the Use of the Dividend Discount Model
+The dividend discount model provides impressive results in the long term. There are, however, three
+
+considerations in generalizing the findings from these studies:
+The Dividend Discount Model Does Not Beat the Market Every Year
+The dividend discount model outperforms the market over five-year time periods, but there have been
+individual years where the model has significantly underperformed the market. Haugen reports on the
+results of a fund that used the dividend discount model to analyze 250 large capitalization firms and to
+classify them into five quintiles from the first quarter of 1979 to the last quarter of 1991. The betas of
+these quintiles were roughly equal. The valuation was done by six analysts who estimated an
+extraordinary growth rate for the initial high-growth phase, the length of the high-growth phase, and a
+transitional phase for each of the firms. The returns on the five portfolios, as well as the returns on all
+250 stocks and the S&P 500 from 1979 to 1991, are reported in 
+Table 13.1
+. The undervalued
+portfolio earned significantly higher returns than the overvalued portfolio and the S&P 500 for the
+1979–1991 period, but it underperformed the market in 6 of the 13 years and the overvalued portfolio
+in 4 of the 13 years.
+Table 13.1
+ Returns on Quintiles: Dividend Discount Model
+Is the Model Just Proxying for Low PE Ratios and Dividend Yields?
+The dividend discount model weights expected earnings and dividends in near periods more than
+earnings and dividends in far periods, and is biased toward finding low price-earnings ratio stocks
+with high dividend yields to be undervalued and high price-earnings ratio stocks with low or no
+dividend yields to be overvalued. As noted in Chapter 6, studies of market efficiency indicate that
+low-PE-ratio stocks have outperformed (in terms of excess returns) high-PE-ratio stocks over
+extended time periods. Similar conclusions have been drawn about high-dividend-yield stocks
+relative to low-dividend-yield stocks. Thus, the valuation findings of the model are consistent with
+empirical irregularities observed in the market.
+It is unclear how much the model adds in value to investment strategies that use PE ratios or
+dividend yields to screen stocks. Jacobs and Levy (1988b) indicate that the marginal gain is

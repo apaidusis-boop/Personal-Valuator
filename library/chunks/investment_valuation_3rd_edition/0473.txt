@@ -1,0 +1,18 @@
+for Segovia Entertainment, without considering its holdings in either Seville or LatinWorks,
+is 10%. The firm is in stable growth, with operating income (again not counting the holdings) growing 5% a
+
+year in perpetuity.
+Seville Television has a cost of capital of 9% and is in stable growth, with operating income growing 5% a
+year in perpetuity.
+LatinWorks has a cost of capital of 12% and is in stable growth, with operating income growing 4.5% a year
+in perpetuity.
+None of the firms has a significant balance of cash and marketable securities.
+The tax rate for all of these firms is 40%.
+We can value Segovia Entertainment in three steps:
+STEP 1: Value the equity in the operating assets of Segovia without counting any of the holdings. To do this, we
+first have to cleanse the operating income of the consolidation:
+STEP 2: Value the 51% of equity in Seville Enterprises:
+Step 3: Value the 15% stake in LatinWorks:
+The value of Segovia as a firm can now be computed (assuming that it has no cash balance):
+To provide a contrast, consider what would have happened if we had used the consolidated income statement and Segovia’s
+cost of capital to do this valuation. We would have valued Segovia and Seville together as follows:

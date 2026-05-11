@@ -1,0 +1,2224 @@
+---------------------------------------- 
+hourly_run 2026-05-11 00:20 
+acquired hourly pid=19232
+[OK] ollama: ok (2051ms) {'models': 7}
+[OK] yfinance: ok (733ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T17:20:10+00:00
+[OK] sec: ok (592ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-10T16:20:16+00:00
+[OK] bcb: ok (998ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-10T21:20:06Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T21:20:06Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T21:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T21:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-10T21:20:20Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 4 new
+Classified 4 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 00:20 
+---------------------------------------- 
+hourly_run 2026-05-11 01:20 
+acquired hourly pid=3024
+[OK] ollama: ok (2088ms) {'models': 7}
+[OK] yfinance: ok (659ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T17:20:10+00:00
+[OK] sec: ok (623ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-10T16:20:16+00:00
+[OK] bcb: ok (1598ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-10T22:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T22:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T22:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T22:20:20Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-10T22:20:20Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 6 new
+Classified 6 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 01:20 
+---------------------------------------- 
+hourly_run 2026-05-11 02:20 
+acquired hourly pid=28888
+[OK] ollama: ok (2069ms) {'models': 7}
+[OK] yfinance: ok (705ms)
+[OK] tavily: ok {'day_count': 26, 'hour_count': 1, 'remaining': 74}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-10T17:20:10+00:00
+[OK] sec: ok (638ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1402ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-10T23:20:13Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-10T23:20:13Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-10T23:20:20Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-10T23:20:26Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-10T23:20:26Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 30 new
+Classified 30 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 02:20 
+---------------------------------------- 
+hourly_run 2026-05-11 03:20 
+acquired hourly pid=23048
+[OK] ollama: ok (2050ms) {'models': 7}
+[OK] yfinance: ok (708ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (610ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1307ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T00:20:17Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T00:20:17Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T00:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T00:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T00:20:30Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 12 new
+Classified 12 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 03:20 
+---------------------------------------- 
+hourly_run 2026-05-11 04:20 
+acquired hourly pid=26652
+[OK] ollama: ok (2090ms) {'models': 7}
+[OK] yfinance: ok (729ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (615ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1328ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T01:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T01:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T01:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T01:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T01:20:30Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 1 new
+Classified 1 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 04:20 
+---------------------------------------- 
+hourly_run 2026-05-11 05:20 
+acquired hourly pid=23956
+[OK] ollama: ok (2051ms) {'models': 7}
+[OK] yfinance: ok (728ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (714ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[OK] bcb: ok (1262ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T02:20:12Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T02:20:12Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T02:20:18Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T02:20:24Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T02:20:25Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 5 new
+Classified 5 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 05:20 
+---------------------------------------- 
+hourly_run 2026-05-11 06:20 
+acquired hourly pid=33668
+[OK] ollama: ok (2091ms) {'models': 7}
+[OK] yfinance: ok (565ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[OK] sec: ok (485ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[OK] bcb: ok (1296ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T03:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T03:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T03:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T03:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T03:20:19Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 5 new
+Classified 5 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 06:20 
+---------------------------------------- 
+hourly_run 2026-05-11 07:20 
+acquired hourly pid=21972
+[OK] ollama: ok (2053ms) {'models': 7}
+[OK] yfinance: ok (978ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[OK] sec: ok (604ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[OK] bcb: ok (1256ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T04:20:08Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T04:20:08Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T04:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T04:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T04:20:19Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 7 new
+Classified 7 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 07:20 
+---------------------------------------- 
+hourly_run 2026-05-11 08:20 
+acquired hourly pid=34492
+[OK] ollama: ok (2056ms) {'models': 7}
+[OK] yfinance: ok (717ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[OK] sec: ok (456ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[OK] bcb: ok (1086ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T05:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T05:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T05:20:14Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T05:20:19Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T05:20:19Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 2 new
+Classified 2 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 08:20 
+---------------------------------------- 
+hourly_run 2026-05-11 09:20 
+acquired hourly pid=25588
+[OK] ollama: ok (2069ms) {'models': 7}
+[OK] yfinance: ok (719ms)
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[OK] sec: ok (619ms)
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[OK] bcb: ok (1003ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T06:20:07Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T06:20:07Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T06:20:13Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T06:20:18Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T06:20:19Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 5 new
+Classified 5 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 09:20 
+---------------------------------------- 
+hourly_run 2026-05-11 10:20 
+acquired hourly pid=29364
+[OK] ollama: ok (2064ms) {'models': 7}
+[FAIL] yfinance: unreachable: <urlopen error [Errno 11001] getaddrinfo failed>
+[OK] tavily: fresh day {'day_count': 0, 'remaining': 100}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[FAIL] sec: URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[FAIL] fred: circuit_breaker: tripped at 2026-05-11T01:20:16+00:00
+[FAIL] bcb: URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+Health check failed - required service down, aborting hourly tier 
+released hourly
+Done 10:20 
+---------------------------------------- 
+hourly_run 2026-05-11 11:20 
+acquired hourly pid=1068
+[OK] ollama: ok (2112ms) {'models': 7}
+[OK] yfinance: ok (752ms)
+[OK] tavily: ok {'day_count': 6, 'hour_count': 6, 'remaining': 94}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: circuit_breaker: tripped at 2026-05-11T02:20:10+00:00
+[OK] sec: ok (617ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1422ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T08:20:14Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T08:20:14Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T08:20:20Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T08:20:25Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T08:20:26Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 19 new
+Classified 19 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 11:20 
+---------------------------------------- 
+hourly_run 2026-05-11 12:20 
+acquired hourly pid=37524
+[OK] ollama: ok (2105ms) {'models': 7}
+[OK] yfinance: ok (741ms)
+[OK] tavily: ok {'day_count': 29, 'hour_count': 7, 'remaining': 71}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (647ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1653ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T09:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T09:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T09:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T09:20:29Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T09:20:30Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 16 new
+Classified 16 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 12:20 
+---------------------------------------- 
+hourly_run 2026-05-11 13:20 
+acquired hourly pid=34300
+[OK] ollama: ok (2096ms) {'models': 7}
+[OK] yfinance: ok (727ms)
+[OK] tavily: ok {'day_count': 30, 'hour_count': 8, 'remaining': 70}
+[OK] fmp: no API key — skipped {'configured': False}
+[FAIL] cvm: URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+[OK] sec: ok (580ms)
+[FAIL] fred: TimeoutError: The read operation timed out
+[OK] bcb: ok (1577ms)
+ 
+[SEC] sec_monitor.py --lookback-days 1 
+{"ts": "2026-05-11T10:20:18Z", "event": "sec_fetch_start", "tickers": "all", "forms": ["10-K", "10-Q", "20-F", "6-K", "8-K", "DEF 14A"], "lookback_days": 1}
+{"ts": "2026-05-11T10:20:18Z", "event": "sec_cik_map_loaded", "entries": 10359}
+{"ts": "2026-05-11T10:20:24Z", "event": "ticker_not_found", "ticker": "GREK"}
+{"ts": "2026-05-11T10:20:30Z", "event": "sec_all_done", "tickers": 28, "total_inserted": 0}
+
+=== SEC monitor ===
+Tickers processados: 28
+Novos eventos inseridos: 0
+SEC exit code: 0 
+ 
+[CVM] cvm_monitor.py 
+{"ts": "2026-05-11T10:20:30Z", "event": "cvm_fetch_start", "year": 2026, "tickers": ["PRIO3", "VALE3", "BBDC4", "ITSA4", "PETR4", "AXIA7", "CPLE3", "ALOS3", "B3SA3", "ENGI11", "ITUB4", "EQTL3", "MOTV3", "MULT3", "PGMN3", "PLPL3", "POMO3", "POMO4", "RAPT4", "RDOR3", "RENT3", "SUZB3", "TTEN3"]}
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1015: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 228, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 216, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 173, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 95, in download_ipe
+    r = sess.get(url, timeout=60)  # was 180; faster fail for circuit breaker
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\paidu\investment-intelligence\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Max retries exceeded with url: /dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2026.zip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='dados.cvm.gov.br', port=443): Read timed out. (read timeout=60)"))
+CVM exit code: 1 
+ 
+[NEWS] news_fetch.py --classify  (Phase II-AOW: stream layer mini) 
+Fetched 40 items, persisted 20 new
+Classified 20 unclassified items via Qwen
+NEWS exit code: 0 
+ 
+[NOTIFY] notify_events.py --hours 4 
+[notify] eventos janela: 0  |  já vistos: 0  |  novos: 0
+NOTIFY exit code: 0 
+released hourly
+Done 13:20 

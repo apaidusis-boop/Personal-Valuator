@@ -1,0 +1,70 @@
+high-coupon debt with lower-coupon debt, and gains or losses from marketable
+securities that are held by the firm.
+Losses associated with discontinued operations
+, which measure both the loss from the
+
+phaseout period and any estimated loss on sale of the operations. To qualify, however, the
+operations have to be separable from the firm.
+Gains or losses associated with accounting changes
+, which measure earnings changes
+created by both accounting changes made voluntarily by the firm (such as a change in
+inventory valuation) and accounting changes mandated by new accounting standards.
+ILLUSTRATION 3.3: Measures of Earnings—Boeing and
+the Home Depot in 1998
+The following table summarizes the income statements of Boeing and the Home Depot for the 1998 financial year:
+Boeing (in $ millions)
+Home Depot (in $ millons)
+Sales and other operating revenues
+$56,154
+$30,219
+– Operating costs and expenses
+$51,022
+$27,185
+– Depreciation
+$ 1,517
+$ 373
+– Research and development expenses
+$ 1,895
+$ 0
+Operating income
+$ 1,720
+$ 2,661
++ Other income (includes interest income)
+$ 130
+$ 30
+– Interest expenses
+$ 453
+$ 37
+Earnings before taxes
+$ 1,397
+$ 2,654
+– Income taxes
+$ 277
+$ 1,040
+Net earnings (Loss)
+$ 1,120
+$ 1,614
+Boeing's operating income is reduced by the research and development expense, which is treated as an operating expense
+by accountants. The Home Depot's operating expenses include operating leases. As noted earlier, the treatment of both
+these items skews earnings, and how best to adjust earnings when such expenses exist is considered in Chapter 9.
+Measures of Profitability
+ While the income statement allows us to estimate how profitable a firm is
+in absolute terms, it is just as important that we gauge the profitability of the firm in terms of
+percentage returns. Two basic ratios measure profitability. One examines the profitability relative to
+the capital employed to get a rate of return on investment. This can be done either from the viewpoint
+of just the equity investors or by looking at the entire firm. Another examines profitability relative to
+sales, by estimating a profit margin.
+Return on Assets and Return on Capital
+The 
+return on assets
+ (ROA) of a firm measures its operating efficiency in generating profits from its
+assets, prior to the effects of financing.
+Return on assets = Earnings before interest and taxes(1 – Tax rate)/Total assets
+Earnings before interest and taxes (EBIT) is the accounting measure of operating income from the
+income statement, and total assets refers to the assets as measured using accounting rules—that is,
+using book value (BV) for most assets. Alternatively, return on assets can be written as:
+Return on assets = [Net income + Interest expenses(1 – Tax rate)]/Total assets
+By separating the financing effects from the operating effects, the return on assets provides a cleaner
+measure of the true return on these assets. By dividing by total assets, the return on assets does
+understate the profitability of firms that have substantial current assets.
+ROA can also be computed on a pretax basis with no loss of generality, by using the earnings

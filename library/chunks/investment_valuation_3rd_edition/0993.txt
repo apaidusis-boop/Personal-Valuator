@@ -1,0 +1,36 @@
+isms for corporate governance—hostile takeovers are common and poor managers get replaced
+quickly—you can assume that the value will quickly converge on the optimal value. If, however, it is difficult
+
+to dislodge incumbent management, you should value the firm based on their continued stewardship of the
+firm.
+If you are an institutional investor, you fall between these two extremes. While you may not intend to take
+over the firm and change the way it is run, you could play a role in making this change happen.
+The Cynical View
+You can always use the multiple that best fits your story. Thus, if you are trying to sell a company, you
+will use the multiple that gives you the highest value for your company. If you are buying the same
+company, you will choose the multiple that yields the lowest value. While this clearly crosses the line
+from analysis into manipulation, it is a more common practice than you might realize. Even if you
+never plan to employ this practice, you should consider ways in which you can protect yourself from
+being victimized by it. First, you have to recognize that conceding the choice of multiple and
+comparables to an analyst is the equivalent of letting him or her write the rules of the game. You
+should play an active role in deciding which multiple should be used to value a company and what
+firms will be viewed as comparable firms. Second, when presented with a value based on one
+multiple, you should always check to see what the value would have been if an alternative multiple
+had been used.
+The Bludgeon View
+You can always value a company using a dozen or more multiples and then use all of the values,
+different though you might be, in your final recommendation. There are three ways in which you can
+present the final estimate of value. The first is in terms of a range of values, with the lowest value that
+you obtained from a multiple being the lower end of the range and the highest value being the upper
+limit. The problem with this approach is that the range is usually so large that it becomes useless for
+any kind of decision making. The second approach is a simple average of the values obtained from
+the different multiples. While this approach has the virtue of simplicity, it gives equal weight to the
+values from each multiple even though some multiples may yield more precise answers than others.
+The third approach is a weighted average, with the weight on each value reflecting the precision of
+the estimate. This weight can either be a subjective one or be a statistical measure—you can, for
+instance, use the standard error on a prediction from a regression.
+The Best Multiple
+While we realize that you might be reluctant to throw away any information, the best estimates of
+value are usually obtained by using the one multiple that is best suited for your firm. There are three
+ways in which you can find this multiple:
+1.

@@ -1,0 +1,26 @@
+roved earnings for the first quarter of 2009 reported by Deutsche Bank (1.12 billion euros in
+quarterly profits) and the average net income between 2003 and 2007 (approximately 3.95 billion euros).
+2.
+
+Asset base and target ROE.
+ We will assume that the current asset base for the firm (312,882 million euros) will grow
+4% a year for the next five years and that the return on equity will improve to 10% over this period.
+3.
+
+Potential dividends.
+ Rather than focus on current dividends, which have been cut drastically, we estimate the potential
+dividends, based upon the assumption that the firm will move towards a target regulatory capital ratio of 10%, a small
+decline from its current regulatory capital ratio of 10.20%.
+4.
+
+Cost of equity.
+ To arrive at the cost of equity, we use a bottom up beta of 1.162 that reflects Deutsche Bank's
+exposure in the investment banking and commercial banking businesses, in conjunction with the euro risk-free rate of 3.6%
+at the start of 2009 and an equity risk premium of 6% for mature markets.
+The following table summarizes the estimates of net income, potential dividends and the present value of these dividends
+over the next five years:
+Expected Potential Dividends (in millions of euros) over Next Five Years: Deutsche Bank in 2009.
+The sum of the present value of potential dividends over the five-year period is 8,275 million euros. At the end of year 5, we
+assume that the firm will be in stable growth, growing 3% a year in perpetuity. In addition, we will also assume that the beta
+will decrease to 1, resulting in a drop in cost of equity to 9.60%.
+The return on equity after year 5 will be equal to the stable period cost of equity of 9.60%.

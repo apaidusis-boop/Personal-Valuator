@@ -1,0 +1,35 @@
+and taxes of $391.38 million in 1997, which translated into a pretax
+operating margin of 3% on revenues of $13,046 million and an after-tax return on capital of 8.51%; the firm
+had a tax rate of 36%.
+
+Based on its beta of 1.15, an after-tax cost of borrowing of 5%, and a debt ratio of approximately 10%, the
+cost of capital for Digital in 1997 was 11.59%. (The Treasury bond rate at the time of the analysis was 6%
+and we used a risk premium of 5.5%.) 
+Digital had capital expenditures of $475 million
+5
+ and depreciation of $461 million, and working capital is 15%
+of revenues.
+Operating income, net capital expenditures, and revenues were expected to grow 6% a year for the next five
+years.
+After year 5, operating income and revenues were expected to grow 5% a year forever. After year 5, capital
+expenditures were expected to be 110% of depreciation, with depreciation growing at 5%. The debt ratio
+remained at 10%, but the after-tax cost of debt dropped to 4% and the beta dropped to 1.
+The value of Digital, based on these inputs, was estimated to be $2,110.41 million.
+Note that the terminal value is computed using the free cash flow to the firm in year 6 and the new cost of capital after year
+5:
+Value of Corporate Control
+Many hostile takeovers are justified on the basis of the existence of a market for corporate control.
+Investors and firms are willing to pay large premiums over the market price to control the
+management of firms, especially those that they perceive to be poorly run. This section explores the
+determinants of the value of corporate control and attempts to value it in the context of an acquisition.
+Determinants of the Value of Corporate Control
+The value of wresting control of a firm from incumbent management is inversely proportional to the
+perceived quality of that management and its capacity to maximize firm value. In general, the value of
+control will be much greater for a poorly managed firm that operates at below optimum capacity than
+for a well-managed firm.
+The value of controlling a firm comes from changes made to existing management policy that can
+increase the firm value. Assets can be acquired or liquidated, the financing mix can be changed and
+the dividend policy reevaluated, and the firm can be restructured to maximize value. If we can
+identify the changes that we would make to the target firm, we can value control. The value of control
+can then be written as:
+The value of control is negligible for firms that are operating at or close to their optimal value,

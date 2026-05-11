@@ -1,0 +1,28 @@
+nt growth rate cannot be greater than the overall growth rate of the economy. In
+making a judgment on what the limits on a stable growth rate are, we have to consider the following
+three questions:
+1.
+
+Is the company constrained to operate as a domestic company, or does it operate (or have
+the capacity to operate) multinationally?
+ If a firm is a purely domestic company, either because
+of internal constraints (such as those imposed by management) or external constraints (such as
+those imposed by a government), the growth rate in the domestic economy will be the limiting
+value. If the company is a multinational or has aspirations to be one, the growth rate in the global
+economy (or at least those parts of the globe that the firm operates in) will be the limiting value.
+2.
+
+Is the valuation being done in nominal or real terms?
+ If the valuation is a nominal valuation,
+the stable growth rate should also be a nominal growth rate (i.e., include an expected inflation
+component). If the valuation is a real valuation, the stable growth rate will be constrained to be
+lower. Using a U.S. company in 2011 as an example, the stable growth rate can be as high as 2.0
+percent if the valuation is done in nominal U.S. dollars but only 1 percent if the valuation is done
+in real terms.
+3.
+
+What currency is being used to estimate cash flows and discount rates in the valuation?
+ The
+limits on stable growth will vary depending on what currency is used in the valuation. If a high-
+inflation currency is used to estimate cash flows and discount rates, the stable growth rate will be
+much higher, since the expected inflation rate is added on to real growth. If a low-inflation

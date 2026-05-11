@@ -1,0 +1,30 @@
+$4,199
+The market value of the firm at the time of this analysis was obtained by adding up the estimated market values of debt
+and equity:
+Market value of equity
+$45,193
++ Market value of debt
+$16,682
+
+= Value of the firm
+$61,875
+If we assume that the market is correctly pricing the firm, we can back out an implied growth rate:
+Now assume that Disney shifts to 40% debt and a cost of capital of 7.32%. The firm can now be valued using the
+following parameters:
+The value of the firm will increase from $61,875 million to $63,665 million if the firm moves to the optimal debt ratio:
+The limitation of this approach is that the growth rate is heavily dependent on both our estimate of the cash flow in the
+most recent year and the assumption that the firm is in stable growth.
+15
+ We can use an alternate approach to estimate the
+change in firm value. Consider first the change in the cost of capital from 7.51% to 7.32%, a drop of 0.19%. This change
+in the cost of capital should result in the firm saving on its annual cost of financing its business:
+Note that most of these savings are implicit rather than explicit and represent the savings next year.
+16
+ The present value
+of these savings over time can now be estimated using the new cost of capital of 7.32% and the capped growth rate of
+0.68% (based on the implied growth rate):
+Using this approach, we estimated the firm value at different debt ratios in 
+Figure 15.3
+.
+Figure 15.3
+ Firm Value and Debt Ratios

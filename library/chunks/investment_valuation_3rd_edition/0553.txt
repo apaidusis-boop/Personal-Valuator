@@ -1,0 +1,43 @@
+s may not
+be comparable. A similar statement can be made about comparing price–book value ratios across
+countries with different accounting standards. Second, book value may not carry much meaning for
+
+service and technology firms that do not have significant tangible assets. Third, the book value of
+equity can become negative if a firm has a sustained string of negative earnings reports, leading to a
+negative price–book value ratio.
+Definition
+The price-to-book ratio is computed by dividing the market price per share by the current book value
+of equity per share.
+While the multiple is fundamentally consistent—the numerator and denominator are both equity
+values—there is a potential for inconsistency if you are not careful about how you compute book
+value of equity per share. In particular,
+If there are multiple classes of shares outstanding, the price per share can be different for
+different classes of shares, and it is not clear how the book equity should be apportioned
+among shares.
+You should not include the portion of the equity that is attributable to preferred stock in
+computing the book value of equity, since the market value of equity refers only to common
+equity.
+Some of the problems can be alleviated by computing the price-to-book ratio using the total market
+value of equity and book value of equity, rather than per-share values.
+The safest way to measure this ratio when there are multiple classes of equity is to use the composite
+market value of all classes of common stock in the numerator and the composite book value of equity
+in the denominator—you would still ignore preferred stock for this computation.
+There are two other measurement issues that you have to confront in computing this multiple. The
+first relates to the book value of equity, which as an accounting measure gets updated infrequently—
+once every quarter for U.S. companies and once every year for European companies. While most
+analysts use the most current book value of equity, there are some who use the average over the
+previous year or the book value of equity at the end of the latest financial year. Consistency demands
+that you use the same measure of book equity for all firms in your sample. The second and more
+difficult problem concerns the value of options outstanding. Technically, you would need to compute
+the estimated market value of management options and conversion options (in bonds and preferred
+stock) and add them to the market value of equity before computing the price to book value ratio.
+1
+ If
+you have a small sample of comparable firms and options represent a large and variable portion of
+equity value, you should do this. With larger samples and less significant option issues, you can stay
+with the conventional measure of market value of equity.
+Accounting standards can affect book values of equity and price-to-book ratios and skew
+comparisons made across firms. For instance, assume that you are comparing the price-to-book ratios
+of technology firms in two markets, and that one of them allows research expenses to be capitalized
+and the other does not. You should expect to see lower price-to-book value ratios in the former, since
+the book value of equity will be augmented by the value of the research asset.

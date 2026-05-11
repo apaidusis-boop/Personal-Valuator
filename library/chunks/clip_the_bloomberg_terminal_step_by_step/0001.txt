@@ -1,0 +1,32 @@
+bytes(150000):strip_icc():format(webp)/bloomberg_keyboard-5bfd92fc4cedfd00260271f7)
+
+bloomberg keyboard
+
+## How to Use Bloomberg Terminal
+
+The market sectors toggled to using the yellow keys include:3
+
+| **GOVT** | F2 | Securities issued by national governments and securities by quasi-governmental agencies |
+| --- | --- | --- |
+| **CORP** | F3 | Corporate bonds |
+| **MTGE** | F4 | Mortgage market instruments |
+| **M-MKT** | F5 | Money market securities |
+| **MUNI** | F6 | U.S. Municipal bonds |
+| **PFD** | F7 | Preferred securities |
+| **EQUITY** | F8 | Common stocks, American Depository Receipts (ADRs), mutual funds, rights, options, warrants |
+| **COMDTY** | F9 | Commodities & associated futures and options |
+| **INDEX** | F10 | Equity indices and economic indices |
+| **CURNCY** | F11 | Foreign currencies |
+| **PORT** | F12 | Portfolio & Risk Management |
+
+Source: Bloomberg
+
+Any and all historical or current information related to these market sectors is available through this system. Because of the breadth and depth of availability, it's always a good idea to target in on specific functions and information. Doing so can make the terminal less overwhelming.
+
+The system also has innumerable capabilities. Users can pull up technical and fundamental graphs of all types including money flows and margin trends, data comparing companies to each other or indices, and company-specific information related to every part of the capital structure.
+
+### Fast Fact
+
+Bloomberg's first keyboard, called The Chiclet, was hand-assembled and released in 1983.4
+
+In an attempt to dwindle down the tremendous information base into available functions that are typically used every day, we compiled a list of five key categories.

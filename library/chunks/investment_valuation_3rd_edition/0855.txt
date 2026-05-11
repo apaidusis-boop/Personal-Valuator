@@ -1,0 +1,26 @@
+sed a riskless rate of 5% and derived the expected up and down movements from the standard deviation:
+The binomial tree is presented in 
+Figure 29.2
+.
+Figure 29.2
+ Binomial Tree—Ambev Expansion Option
+
+Using the replicating portfolio framework described in Chapter 5, we estimate the value of the expansion option to be $203
+million. This value can be added on to the net present value of the original project under consideration.
+Ambev should go ahead with the limited introduction, even though it has a negative net present value, because it acquires an
+option of much greater value as a consequence.
+ESTIMATING VARIANCES FROM MONTE CARLO
+SIMULATIONS
+It has been suggested a couple of times in the last two chapters that the variances to be used in real option pricing models be
+derived from simulations. A Monte Carlo simulation requires the following three steps:
+1.
+ You define probability distributions for each of the key inputs that underlie the cash flows, and the parameters of the
+distributions—the average and the standard deviation, if it is a normal distribution, for instance.
+2.
+ In each simulation, you draw one outcome from each distribution and estimate the present value of the cash flows
+based on these draws.
+3.
+ After repeated simulations you should have a distribution of present values. The mean of this distribution should be the
+expected value of the project, and the standard deviation of the distribution can be used as the variance in the value to
+value options on the project.
+While the process of running these simulations is straightforward and there are a number of software packages that exist

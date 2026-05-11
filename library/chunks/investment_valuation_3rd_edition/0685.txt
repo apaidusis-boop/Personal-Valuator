@@ -1,0 +1,46 @@
+in where they are in
+the life cycle, ranging from small, high-growth competitors to larger, lower-growth
+competitors. The existing assets of this firm have significant value, but the larger proportion
+
+of value still comes from future growth. There is more information available at this stage,
+and the estimation of inputs becomes more straightforward.
+Mature growth.
+ As revenue growth starts leveling off, firms generally find two phenomena
+occurring. The earnings and cash flows continue to increase rapidly, reflecting past
+investments, and the need to invest in new projects declines. At this stage in the process, the
+firm has current operations that are reflective of the future, an operating history that
+provides substantial information about the firm's markets, and a large number of comparable
+firms at the same stage in the life cycle. Existing assets contribute as much or more to firm
+value than expected growth, and the inputs to the valuation are likely to be stable.
+Decline.
+ The last stage in this life cycle is decline. Firms in this stage find both revenues
+and earnings starting to decline, as their businesses mature and new competitors overtake
+them. Existing investments are likely to continue to produce cash flows, albeit at a declining
+pace, and the firm has little need for new investments. Thus, the value of the firm depends
+entirely on existing assets. While the number of comparable firms tends to become smaller
+at this stage, they are all likely to be either in mature growth or in decline as well.
+Valuation is clearly more of a challenge in the earlier stages in a life cycle, and estimates of value
+are much more likely to contain errors for start-up or high-growth firms. But the payoff to valuation is
+also likely to be highest with these firms for two reasons. The first is that the absence of information
+scares many analysts away, and analysts who persist and end up with a valuation, no matter how
+imprecise, are likely to be rewarded. The second is that these are the firms that are most likely to be
+coming to the market in the form of initial public offerings and new issues, and need estimates of
+value.
+VENTURE CAPITAL VALUATION
+Until very recently, young start-up firms raised additional equity primarily from venture capitalists. It
+is useful to begin by looking at how venture capitalists assess the value of these firms. While venture
+capitalists sometimes use discounted cash flow models to value firms, they are much more likely to
+value private businesses using what is called the venture capital method. Here, the earnings of the
+private firm are forecast in a future year, when the company can be expected to go public. These
+earnings, in conjunction with an earnings multiple that is estimated by looking at publicly traded firms
+in the same business, are used to assess the value of the firm at the time of the initial public offering;
+this is called the exit or terminal value.
+For instance, assume that you are valuing InfoSoft, a small software firm, that is expected to have an
+initial public offering in three years, and that the net income in the third year for the firm is expected
+to be $4 million. If the price-earnings ratio of publicly traded software firms is 25, this would yield
+an estimated exit value of $100 million. This value is discounted back to the present at what venture
+capitalists call a target rate of return, which measures what venture capitalists believe is a justifiable
+return, given the risk that they are exposed to. This target rate of return is usually set at a much higher
+level than the conventional cost of equity for the firm.
+1
+Using the InfoSoft example again, if the venture capitalist requires a target return of 30 percent on his

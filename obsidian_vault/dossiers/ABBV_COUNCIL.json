@@ -1,0 +1,175 @@
+{
+  "ticker": "ABBV",
+  "market": "us",
+  "modo": "A",
+  "sector": "Healthcare",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Charlie Compounder",
+      "agent_slug": "industrials_us_specialist",
+      "title": "Industrials & Consumer US Specialist (Buffett frame)"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "High P/E and negative P/B cloud AbbVie's long-term prospects",
+      "stance": "HOLD",
+      "main_argument": "Despite a strong ROE of 62.25% and a dividend yield of 3.2%, AbbVie's high P/E ratio (103.59) and negative P/B (-114.23) raise valuation concerns.",
+      "supporting_metrics": [
+        "P/E=103.59",
+        "P/B=-114.23",
+        "ROE=62.25%"
+      ],
+      "concerns": [
+        "High valuation metrics",
+        "Negative P/B ratio"
+      ],
+      "veto_signals": [
+        "valuation sem histórico de ROIC"
+      ]
+    },
+    "macro_strategist": {
+      "headline": "AbbVie mantém ROE impressionante e crescimento sustentável",
+      "stance": "BUY",
+      "main_argument": "A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando consistência no pagamento de dividendos apesar do P/E elevado.",
+      "supporting_metrics": [
+        "ROE=62,25%",
+        "DY=3,29%",
+        "Piotroski F-Score: 8/9"
+      ],
+      "concerns": [
+        "P/B negativo",
+        "Pressões regulatórias no dividendo"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Altman Z-Score indica zona cinzenta de risco",
+      "stance": "HOLD",
+      "main_argument": "Piotroski F-Score de 8/9 sugere saúde financeira sólida, mas Altman Z-Score de 1.96 sinaliza potencial estresse financeiro.",
+      "supporting_metrics": [
+        "Altman Z-Score: 1.96",
+        "Piotroski F-Score: 8/9",
+        "Beneish M-Score: -2.87"
+      ],
+      "concerns": [
+        "Z-Score na zona cinzenta de risco",
+        "Dividendos dependem da sustentabilidade financeira"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "AbbVie mantém ROE impressionante e crescimento sustentável",
+      "stance": "BUY",
+      "main_argument": "A AbbVie apresenta um ROE de 62,25% e margens estáveis apesar do P/E elevado. Pagamento consistente de dividendos.",
+      "supporting_metrics": [
+        "ROE: 62,25%",
+        "Dividend Yield: 3,2%",
+        "Piotroski F-Score: 8/9"
+      ],
+      "concerns": [
+        "P/E muito alto (103.59x)",
+        "P/B negativo (-114.23x)"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando consistência no pagamento de dividendos apesar do P/E elevado.",
+        "citação curta + nome do colega que disse"
+      ],
+      "challenge": [
+        "A AbbVie apresenta um ROE de 62,25% e margens estáveis apesar do P/E elevado. Pagamento consistente de dividendos.",
+        "O ponto chave é que mesmo com um ROE alto, a relação entre o P/B negativo e o P/E extremamente alto sugere uma avaliação muito alta que não pode ser justificada apenas pelo ROE ou margens estáveis. O risco associado à sustentabilidade do dividendo também deve ser levado em consideração.",
+        "Pedro Alocação"
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "Piotroski F-Score de 8/9 sugere saúde financeira sólida, Valentina Prudente"
+      ],
+      "challenge": [
+        "High valuation metrics | Negative P/B ratio, Charlie Compounder - esses fatores são preocupantes mas não refletem a consistência da AbbVie em manter um ROE elevado e crescimento sustentável"
+      ],
+      "new_evidence": "A recente expansão de $1.4 bilhão na Carolina do Norte demonstra o compromisso contínuo da AbbVie com investimentos estratégicos.",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "Piotroski F-Score de 8/9 sugere saúde financeira sólida",
+        "Mariana Macro"
+      ],
+      "challenge": [
+        "High P/E and negative P/B cloud AbbVie's long-term prospects",
+        "A alta relação P/E e o P/B negativo não indicam necessariamente perda permanente do capital, mas podem sugerir volatilidade.",
+        "Charlie Compounder"
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando consistência no pagamento de dividendos apesar do P/E elevado. - Mariana Macro"
+      ],
+      "challenge": [
+        "High valuation metrics | Negative P/B ratio - Charlie Compounder",
+        "P/B negativo | Pressões regulatórias no dividendo - Mariana Macro",
+        "Altman Z-Score indica zona cinzenta de risco - Valentina Prudente",
+        "Os métricas de valuation como P/E e P/B não refletem a sustentabilidade financeira da empresa, que continua gerando lucros consistentes e investindo em crescimento futuro.",
+        "O Piotroski F-Score de 8/9 sugere uma saúde financeira sólida, apesar do Z-Score estar na zona cinzenta."
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando consistência no pagamento de dividendos apesar do P/E elevado.",
+      "Piotroski F-Score de 8/9 sugere saúde financeira sólida."
+    ],
+    "dissent_points": [
+      "High valuation metrics | Negative P/B ratio - Charlie Compounder disse que esses fatores são preocupantes, Mariana Macro argumentou que não refletem a consistência da AbbVie em manter um ROE elevado e crescimento sustentável.",
+      "P/B negativo | Pressões regulatórias no dividendo - Mariana Macro mencionou pressões regulatórias sobre o dividendo, Pedro Alocação ressaltou a importância de considerar essas preocupações."
+    ],
+    "final_stance": "HOLD",
+    "confidence": "medium",
+    "pre_publication_flags": [
+      "valuation sem histórico de ROIC - Charlie Compounder",
+      "P/B negativo e pressões regulatórias no dividendo - Mariana Macro"
+    ],
+    "sizing_recommendation": "Considerar uma alocação moderada entre 5-10% para mitigar riscos de valuation."
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Charlie Compounder\\reviews\\ABBV_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\ABBV_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\ABBV_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\ABBV_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 64.21805000305176,
+  "date": "2026-04-30"
+}

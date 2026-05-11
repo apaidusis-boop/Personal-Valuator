@@ -1,0 +1,1163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1440" />
+  <title>Mission Control · Home v1 mock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Tokens (JPM ivory base + Bloomberg gold + Schwab table + RH hero) ── */
+    :root {
+      --bg-page:       #F5F0E6;      /* warm ivory, JPM palette */
+      --bg-card:       #FFFFFF;
+      --bg-overlay:    #ECE6D9;      /* slightly darker ivory for inset blocks */
+      --rule:          #D8CFBE;      /* hairline rule, low-contrast */
+      --rule-strong:   #1F2A3D;      /* journalistic black rule */
+
+      --ink-primary:   #0F1E33;      /* deep navy — headlines + numbers */
+      --ink-secondary: #4B5365;
+      --ink-tertiary:  #8A8C95;
+      --ink-on-dark:   #F5F0E6;
+
+      --gold:          #C77700;      /* Bloomberg-amber action */
+      --gold-soft:     #FCEEDC;
+      --gold-deep:     #5A3A0E;
+
+      --pos:           #1F7A4F;      /* P/L positive — muted forest */
+      --neg:           #B43F3F;      /* P/L negative — muted brick */
+      --neut:          #8A8C95;
+
+      --font-display:  "Source Serif 4", Georgia, serif;
+      --font-body:     "Inter", -apple-system, sans-serif;
+      --font-mono:     "JetBrains Mono", ui-monospace, monospace;
+
+      --max-w:         1440px;
+      --gutter:        32px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg-page);
+      color: var(--ink-primary);
+      font-family: var(--font-body);
+      font-size: 14px;
+      line-height: 1.5;
+      font-variant-numeric: tabular-nums lining-nums;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .num, .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums lining-nums; }
+    .pos { color: var(--pos); }
+    .neg { color: var(--neg); }
+    .neut { color: var(--neut); }
+    .muted { color: var(--ink-secondary); }
+    .faint { color: var(--ink-tertiary); }
+
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 24px var(--gutter) 60px; }
+
+    /* ── Band shell ──────────────────────────────────────────── */
+    .band {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .band:last-child { border-bottom: none; }
+    .band-label {
+      font-family: var(--font-body);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      margin-bottom: 14px;
+    }
+
+    /* ════════════════════════════════════════════════════════════════════════
+       BAND 1 — THE LEAD
+       Editorial-style: masthead + manchete + briefing + position + dividends + forward income
+       ════════════════════════════════════════════════════════════════════════ */
+
+    .masthead {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--rule-strong);
+      margin-bottom: 24px;
+    }
+    .masthead-name {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.005em;
+      color: var(--ink-primary);
+    }
+    .masthead-meta {
+      font-family: var(--font-body);
+      font-size: 11px;
+      color: var(--ink-secondary);
+      letter-spacing: 0.02em;
+    }
+    .masthead-meta .sep { margin: 0 8px; color: var(--ink-tertiary); }
+
+    /* Manchete (lead headline) */
+    .lead {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 48px;
+      align-items: start;
+      padding: 8px 0 28px;
+    }
+    .lead-headline {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.012em;
+      color: var(--ink-primary);
+      margin: 0 0 12px;
+    }
+    .lead-dek {
+      font-family: var(--font-display);
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: var(--ink-secondary);
+      max-width: 60ch;
+      margin: 0 0 16px;
+    }
+    .lead-byline {
+      font-family: var(--font-body);
+      font-size: 11px;
+      color: var(--ink-tertiary);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .lead-ticker-card {
+      background: var(--bg-card);
+      border: 1px solid var(--rule);
+      padding: 16px 18px;
+    }
+    .lead-ticker-card .tk {
+      font-family: var(--font-mono);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--ink-primary);
+      letter-spacing: 0.02em;
+    }
+    .lead-ticker-card .name {
+      font-size: 11px;
+      color: var(--ink-secondary);
+      margin-top: 2px;
+    }
+    .lead-ticker-card .px {
+      font-family: var(--font-mono);
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 12px;
+    }
+    .lead-ticker-card .px-delta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    /* Briefing — 3 lines inline */
+    .briefing {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      row-gap: 6px;
+      column-gap: 16px;
+      padding: 16px 0 20px;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+    .briefing-label {
+      font-family: var(--font-body);
+      font-size: 10.5px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--ink-tertiary);
+      align-self: center;
+    }
+    .briefing-line {
+      font-size: 13.5px;
+      color: var(--ink-primary);
+      line-height: 1.45;
+    }
+    .briefing-line .num { font-weight: 500; }
+
+    /* Standings strip — JPM/Schwab clean stat row */
+    .standings {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 28px;
+      padding: 20px 0 16px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .stat-block .stat-label {
+      font-family: var(--font-body);
+      font-size: 10.5px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .stat-block .stat-primary {
+      font-family: var(--font-mono);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--ink-primary);
+      letter-spacing: -0.01em;
+    }
+    .stat-block .stat-secondary {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      margin-top: 2px;
+    }
+
+    /* Dividend timeline strip (14 days) */
+    .div-timeline {
+      padding: 20px 0 16px;
+    }
+    .div-timeline-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      margin-bottom: 12px;
+    }
+    .div-timeline-title {
+      font-family: var(--font-body);
+      font-size: 10.5px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      font-weight: 600;
+    }
+    .div-timeline-meta {
+      font-size: 11px; color: var(--ink-secondary);
+    }
+    .div-grid {
+      display: grid;
+      grid-template-columns: repeat(14, 1fr);
+      gap: 4px;
+    }
+    .div-day {
+      background: var(--bg-card);
+      border: 1px solid var(--rule);
+      padding: 8px 6px 10px;
+      min-height: 76px;
+      position: relative;
+    }
+    .div-day .dow {
+      font-size: 9.5px; color: var(--ink-tertiary);
+      letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600;
+    }
+    .div-day .dom {
+      font-family: var(--font-mono); font-size: 14px; font-weight: 500;
+      color: var(--ink-primary); margin: 1px 0 6px;
+    }
+    .div-day .pay {
+      font-family: var(--font-mono); font-size: 10px;
+      color: var(--ink-primary); display: block; margin-bottom: 2px;
+    }
+    .div-day .pay .v { color: var(--gold-deep); font-weight: 600; }
+    .div-day.today { border-color: var(--gold); border-width: 2px; }
+    .div-day.weekend { background: transparent; opacity: 0.4; }
+
+    /* Forward income — Robin Hood-style chunky hero */
+    .forward-income {
+      margin-top: 16px;
+      padding: 24px 28px;
+      background: linear-gradient(135deg, #1B2D45 0%, #0F1E33 100%);
+      color: var(--ink-on-dark);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+    .forward-income .label {
+      font-family: var(--font-body);
+      font-size: 10.5px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(245, 240, 230, 0.55);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .forward-income .amounts {
+      display: flex; gap: 32px; align-items: baseline;
+    }
+    .forward-income .amount {
+      font-family: var(--font-mono);
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: -0.015em;
+    }
+    .forward-income .amount .ccy {
+      font-size: 12px;
+      color: rgba(245, 240, 230, 0.55);
+      margin-right: 6px;
+      font-weight: 400;
+    }
+    .forward-income .yoy {
+      font-size: 11px;
+      color: rgba(245, 240, 230, 0.7);
+      margin-top: 4px;
+      font-family: var(--font-mono);
+    }
+
+    /* ════════════════════════════════════════════════════════════════════════
+       BAND 2 — THE WORKBENCH
+       Bloomberg-style tabbed interactive area
+       ════════════════════════════════════════════════════════════════════════ */
+
+    .workbench {
+      background: var(--bg-card);
+      border: 1px solid var(--rule);
+    }
+    .wb-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--rule);
+      background: var(--bg-overlay);
+    }
+    .wb-tab {
+      padding: 14px 22px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-secondary);
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      font-family: var(--font-body);
+    }
+    .wb-tab.active {
+      color: var(--ink-primary);
+      background: var(--bg-card);
+      border-bottom-color: var(--gold);
+    }
+    .wb-tab .count {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--ink-tertiary);
+      margin-left: 6px;
+      letter-spacing: 0;
+    }
+    .wb-panel { padding: 24px; display: none; }
+    .wb-panel.active { display: block; }
+
+    /* Compare tab */
+    .wb-compare-controls {
+      display: flex; gap: 12px; align-items: center;
+      padding-bottom: 16px; border-bottom: 1px solid var(--rule);
+      flex-wrap: wrap;
+    }
+    .ticker-chip {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 10px 6px 12px;
+      background: var(--bg-overlay);
+      border: 1px solid var(--rule);
+      font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+    }
+    .ticker-chip .swatch {
+      width: 10px; height: 10px; border-radius: 999px; display: inline-block;
+    }
+    .ticker-chip .x {
+      color: var(--ink-tertiary); margin-left: 4px; cursor: pointer; font-size: 14px;
+    }
+    .add-chip {
+      padding: 6px 12px; font-size: 12px; font-family: var(--font-body);
+      border: 1px dashed var(--rule); color: var(--ink-secondary);
+      background: transparent; cursor: pointer;
+    }
+    .range-toggle {
+      margin-left: auto;
+      display: flex; gap: 0;
+      border: 1px solid var(--rule);
+    }
+    .range-toggle button {
+      padding: 6px 12px; font-size: 11px; font-family: var(--font-mono);
+      background: transparent; border: none; color: var(--ink-secondary);
+      cursor: pointer; font-weight: 500;
+    }
+    .range-toggle button.active {
+      background: var(--ink-primary); color: var(--ink-on-dark);
+    }
+
+    .wb-compare-body {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 24px;
+      padding-top: 16px;
+    }
+    .compare-chart {
+      background: var(--bg-overlay);
+      height: 320px; position: relative;
+      padding: 12px;
+    }
+    .compare-chart svg { width: 100%; height: 100%; }
+    .compare-side-table {
+      font-size: 12px;
+    }
+    .compare-side-table .row {
+      display: grid;
+      grid-template-columns: 1fr 70px 60px 60px;
+      gap: 8px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--rule);
+      align-items: center;
+    }
+    .compare-side-table .row.header {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      font-weight: 600;
+      border-bottom-width: 2px;
+      border-bottom-color: var(--rule-strong);
+    }
+    .compare-side-table .tk {
+      display: flex; align-items: center; gap: 8px;
+      font-family: var(--font-mono); font-weight: 600; color: var(--ink-primary);
+    }
+
+    /* DRIP tab */
+    .drip-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 24px;
+      padding-bottom: 20px; border-bottom: 1px solid var(--rule);
+    }
+    .control-group {
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .control-group label {
+      font-size: 10.5px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      font-weight: 600;
+    }
+    .control-group input[type="text"], .control-group select {
+      font-family: var(--font-mono); font-size: 14px;
+      padding: 8px 12px;
+      border: 1px solid var(--rule);
+      background: var(--bg-page);
+      color: var(--ink-primary);
+    }
+    .control-group .slider-track {
+      position: relative; height: 4px; background: var(--rule); margin-top: 16px;
+    }
+    .control-group .slider-thumb {
+      position: absolute; top: -5px; width: 14px; height: 14px;
+      background: var(--gold); border: 2px solid var(--bg-card);
+    }
+    .control-group .slider-value {
+      font-family: var(--font-mono); font-size: 13px;
+      color: var(--ink-primary); font-weight: 500;
+    }
+    .drip-results {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      padding-top: 20px;
+    }
+    .drip-chart {
+      background: var(--bg-overlay);
+      height: 220px;
+      padding: 12px;
+      position: relative;
+    }
+    .drip-chart .chart-title {
+      font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--ink-tertiary); font-weight: 600; margin-bottom: 8px;
+    }
+    .drip-summary {
+      grid-column: span 2;
+      background: var(--gold-soft);
+      padding: 18px 22px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .drip-summary .item .l {
+      font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold-deep); font-weight: 600; margin-bottom: 4px;
+    }
+    .drip-summary .item .v {
+      font-family: var(--font-mono); font-size: 18px; font-weight: 600;
+      color: var(--gold-deep);
+    }
+
+    /* Positions blotter (IB-style density) */
+    .blotter {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 12px;
+    }
+    .blotter th, .blotter td {
+      padding: 7px 10px;
+      border-bottom: 1px solid var(--rule);
+      text-align: right;
+      white-space: nowrap;
+    }
+    .blotter th {
+      background: var(--bg-overlay);
+      font-family: var(--font-body); font-weight: 600;
+      font-size: 10.5px;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      text-align: right;
+      border-bottom: 2px solid var(--rule-strong);
+    }
+    .blotter th:first-child, .blotter td:first-child,
+    .blotter th:nth-child(2), .blotter td:nth-child(2) { text-align: left; }
+    .blotter td.tk { font-weight: 600; color: var(--ink-primary); }
+    .blotter tr:hover td { background: var(--gold-soft); cursor: pointer; }
+
+    .verdict-pill {
+      display: inline-block;
+      padding: 1px 6px;
+      font-size: 10px;
+      font-family: var(--font-body);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    .v-buy { background: #DDF0E5; color: var(--pos); }
+    .v-hold { background: #ECE6D9; color: var(--ink-secondary); }
+    .v-trim { background: #FCE6E0; color: var(--neg); }
+    .v-leap { background: var(--gold-soft); color: var(--gold-deep); }
+
+    /* ════════════════════════════════════════════════════════════════════════
+       BAND 3 — DEEP REVIEW
+       Editorial-style long-form analysis
+       ════════════════════════════════════════════════════════════════════════ */
+
+    .deep {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 48px;
+      padding-top: 8px;
+    }
+    .deep-spotlight-header {
+      display: flex; align-items: center; gap: 16px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--rule-strong);
+      margin-bottom: 20px;
+    }
+    .deep-spotlight-tk {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .deep-spotlight-name {
+      font-size: 13px;
+      color: var(--ink-secondary);
+      margin-left: auto;
+    }
+
+    .deep h2.section {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 600;
+      margin: 28px 0 12px;
+      letter-spacing: -0.005em;
+    }
+    .deep h2.section:first-of-type { margin-top: 0; }
+    .deep p.lede {
+      font-family: var(--font-display);
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--ink-primary);
+      max-width: 64ch;
+      margin: 0 0 12px;
+    }
+    .deep p.body {
+      font-family: var(--font-body);
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--ink-primary);
+      max-width: 64ch;
+      margin: 0 0 14px;
+    }
+
+    .competitors-table {
+      width: 100%; border-collapse: collapse;
+      font-size: 12px; margin-top: 6px;
+    }
+    .competitors-table th, .competitors-table td {
+      padding: 8px 10px; text-align: right;
+      border-bottom: 1px solid var(--rule);
+    }
+    .competitors-table th:first-child, .competitors-table td:first-child { text-align: left; }
+    .competitors-table th {
+      font-family: var(--font-body);
+      font-weight: 600; font-size: 10.5px;
+      letter-spacing: 0.10em; text-transform: uppercase;
+      color: var(--ink-tertiary);
+      border-bottom: 2px solid var(--rule-strong);
+    }
+    .competitors-table td { font-family: var(--font-mono); }
+    .competitors-table .self { background: var(--gold-soft); font-weight: 600; }
+
+    .council-quote {
+      border-left: 3px solid var(--gold);
+      padding: 12px 0 12px 20px;
+      margin: 16px 0;
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-style: italic;
+      line-height: 1.55;
+      color: var(--ink-primary);
+    }
+    .council-quote .attrib {
+      font-family: var(--font-body);
+      font-style: normal;
+      font-size: 11px;
+      color: var(--ink-tertiary);
+      margin-top: 8px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .macro-overlay {
+      background: var(--bg-overlay);
+      border-left: 3px solid var(--ink-primary);
+      padding: 14px 18px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--ink-primary);
+      margin-top: 14px;
+    }
+    .macro-overlay .label {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    /* Side rail of deep review (mini chart + key facts) */
+    .deep-side {
+      border-left: 1px solid var(--rule);
+      padding-left: 32px;
+    }
+    .deep-side h3 {
+      font-family: var(--font-body);
+      font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--ink-tertiary); font-weight: 600;
+      margin: 0 0 12px;
+    }
+    .deep-side .perf-chart {
+      height: 140px; background: var(--bg-overlay); margin-bottom: 24px;
+      padding: 8px;
+    }
+    .key-facts dt {
+      font-size: 11px; color: var(--ink-tertiary); margin-top: 12px;
+      letter-spacing: 0.06em; text-transform: uppercase;
+    }
+    .key-facts dd {
+      font-family: var(--font-mono); font-size: 14px;
+      margin: 2px 0 0; color: var(--ink-primary);
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5px;
+      color: var(--ink-tertiary);
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ══════════════════════════════════════════════════════════════════════
+       BAND 1 — THE LEAD
+       ══════════════════════════════════════════════════════════════════════ -->
+  <section class="band">
+    <div class="masthead">
+      <div class="masthead-name">Mission Control</div>
+      <div class="masthead-meta">
+        Sunday, May 10, 2026
+        <span class="sep">·</span> A.M. Edition
+        <span class="sep">·</span> Council 5/5
+        <span class="sep">·</span> briefing 06:14
+        <span class="sep">·</span> regime: late-cycle US, neutral BR
+      </div>
+    </div>
+
+    <div class="lead">
+      <div>
+        <h1 class="lead-headline">Itaúsa Snaps a Five-Year Dividend Cadence</h1>
+        <p class="lead-dek">
+          The holding company declared an interim payout 38% below trailing average,
+          the first negative break since 2021. Watch for the formal release Monday;
+          thesis on probation, not broken.
+        </p>
+        <div class="lead-byline">Aurora · Council 5/5 verdict pending re-vote</div>
+      </div>
+      <div class="lead-ticker-card">
+        <div class="tk">ITSA4</div>
+        <div class="name">Itaúsa S.A.</div>
+        <div class="px num">R$ 10.84</div>
+        <div class="px-delta neg num">−R$ 0.18 &nbsp; (−1.63%)</div>
+      </div>
+    </div>
+
+    <div class="briefing">
+      <div class="briefing-label">Markets</div>
+      <div class="briefing-line">
+        SPY <span class="num pos">+0.32%</span>
+        <span class="faint">·</span> IBOV <span class="num neg">−0.61%</span>
+        <span class="faint">·</span> USDBRL <span class="num">5.18</span>
+        <span class="num pos">+0.42%</span>
+        <span class="faint">·</span> regime late-cycle US, neutral BR.
+      </div>
+
+      <div class="briefing-label">Money</div>
+      <div class="briefing-line">
+        Portfolio <span class="num pos">+R$ 2,140</span> hoje;
+        semana <span class="num neg">−R$ 8,900</span>.
+        Drag de ITSA4 / BBDC4; lift de ACN / JNJ.
+      </div>
+
+      <div class="briefing-label">Mail</div>
+      <div class="briefing-line">
+        <span class="num">3</span> ex-divs em 7 dias (JNJ, PG, ITUB4)
+        <span class="faint">·</span> <span class="num">1</span> filing pendente (ABEV3 ITR)
+        <span class="faint">·</span> <span class="num">0</span> earnings hoje.
+      </div>
+    </div>
+
+    <div class="standings">
+      <div class="stat-block">
+        <div class="stat-label">NAV Brasil</div>
+        <div class="stat-primary">R$ 312,480</div>
+        <div class="stat-secondary pos">+0.69% YTD +14.2%</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-label">NAV EUA</div>
+        <div class="stat-primary">$ 1,247,302</div>
+        <div class="stat-secondary pos">+0.42% YTD +8.1%</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-label">Day's gain</div>
+        <div class="stat-primary pos">+R$ 2,140</div>
+        <div class="stat-secondary pos">+0.17%</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-label">YTD total</div>
+        <div class="stat-primary pos">+R$ 26,420</div>
+        <div class="stat-secondary pos">+9.3%</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-label">Cash & sweep</div>
+        <div class="stat-primary">R$ 1,820</div>
+        <div class="stat-secondary muted">$ 4,200 US</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-label">Holdings</div>
+        <div class="stat-primary">33</div>
+        <div class="stat-secondary muted">12 BR · 21 US</div>
+      </div>
+    </div>
+
+    <div class="div-timeline">
+      <div class="div-timeline-header">
+        <div class="div-timeline-title">Dividends · next 14 days</div>
+        <div class="div-timeline-meta">Ex-dates inside your universe only</div>
+      </div>
+      <div class="div-grid" id="div-grid"></div>
+    </div>
+
+    <div class="forward-income">
+      <div>
+        <div class="label">Forward annual income</div>
+        <div class="amounts">
+          <div class="amount"><span class="ccy">BRL</span>42,180</div>
+          <div class="amount"><span class="ccy">USD</span>8,950</div>
+        </div>
+        <div class="yoy">+11.4% vs 12 meses · DRIP at 100% on holdings</div>
+      </div>
+      <div style="text-align: right;">
+        <div class="label" style="color: rgba(245,240,230,0.55);">Cash payback</div>
+        <div style="font-family: var(--font-mono); font-size: 22px; font-weight: 500;">17.4 yrs</div>
+        <div class="yoy">DRIP payback to 2× shares: 9.8 yrs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════
+       BAND 2 — THE WORKBENCH
+       ══════════════════════════════════════════════════════════════════════ -->
+  <section class="band">
+    <div class="band-label">The Workbench · interactive</div>
+
+    <div class="workbench">
+      <div class="wb-tabs">
+        <button class="wb-tab active" data-tab="compare">Compare<span class="count">2</span></button>
+        <button class="wb-tab" data-tab="drip">DRIP Calculator</button>
+        <button class="wb-tab" data-tab="positions">Positions<span class="count">33</span></button>
+        <button class="wb-tab" data-tab="dividends">Dividends</button>
+      </div>
+
+      <!-- Compare panel -->
+      <div class="wb-panel active" data-panel="compare">
+        <div class="wb-compare-controls">
+          <span class="ticker-chip"><span class="swatch" style="background: #C77700;"></span>ITSA4 <span class="x">×</span></span>
+          <span class="ticker-chip"><span class="swatch" style="background: #4B5365;"></span>IBOV <span class="x">×</span></span>
+          <button class="add-chip">+ Add ticker</button>
+          <button class="add-chip">+ Add competitor (BR Holding)</button>
+          <div class="range-toggle">
+            <button>1M</button>
+            <button>3M</button>
+            <button class="active">1Y</button>
+            <button>5Y</button>
+            <button>Max</button>
+          </div>
+        </div>
+
+        <div class="wb-compare-body">
+          <div class="compare-chart">
+            <svg viewBox="0 0 600 280" preserveAspectRatio="none">
+              <!-- gridlines -->
+              <line x1="0" y1="70" x2="600" y2="70" stroke="#D8CFBE" stroke-dasharray="2 4" />
+              <line x1="0" y1="140" x2="600" y2="140" stroke="#D8CFBE" stroke-dasharray="2 4" />
+              <line x1="0" y1="210" x2="600" y2="210" stroke="#D8CFBE" stroke-dasharray="2 4" />
+              <!-- baseline 100 -->
+              <line x1="0" y1="140" x2="600" y2="140" stroke="#4B5365" stroke-width="0.5" />
+              <text x="6" y="65" fill="#8A8C95" font-size="9" font-family="JetBrains Mono">115</text>
+              <text x="6" y="135" fill="#8A8C95" font-size="9" font-family="JetBrains Mono">100</text>
+              <text x="6" y="205" fill="#8A8C95" font-size="9" font-family="JetBrains Mono">85</text>
+              <!-- ITSA4 line (gold) -->
+              <polyline fill="none" stroke="#C77700" stroke-width="2"
+                points="20,140 60,135 100,128 140,118 180,110 220,118 260,108 300,98 340,92 380,105 420,118 460,122 500,128 540,135 580,128" />
+              <!-- IBOV line (graphite) -->
+              <polyline fill="none" stroke="#4B5365" stroke-width="2" stroke-dasharray="3 3"
+                points="20,140 60,138 100,142 140,136 180,142 220,138 260,144 300,140 340,134 380,138 420,142 460,138 500,144 540,140 580,142" />
+              <text x="585" y="125" fill="#C77700" font-size="10" font-family="JetBrains Mono" text-anchor="end">ITSA4 +12%</text>
+              <text x="585" y="155" fill="#4B5365" font-size="10" font-family="JetBrains Mono" text-anchor="end">IBOV +1%</text>
+            </svg>
+          </div>
+
+          <div class="compare-side-table">
+            <div class="row header">
+              <div>Ticker</div><div>P/E</div><div>DY</div><div>Vit</div>
+            </div>
+            <div class="row">
+              <div class="tk"><span class="swatch" style="width:8px;height:8px;border-radius:999px;background:#C77700;display:inline-block;"></span>ITSA4</div>
+              <div class="num">8.2</div>
+              <div class="num">7.1%</div>
+              <div class="num">68</div>
+            </div>
+            <div class="row">
+              <div class="tk"><span class="swatch" style="width:8px;height:8px;border-radius:999px;background:#4B5365;display:inline-block;"></span>IBOV</div>
+              <div class="num faint">—</div>
+              <div class="num">5.4%</div>
+              <div class="num faint">—</div>
+            </div>
+            <div class="row" style="margin-top:8px;border-top:1px solid var(--rule-strong);padding-top:14px;">
+              <div class="muted" style="font-size:11px;">Sector: BR Holding</div>
+              <div></div><div></div><div></div>
+            </div>
+            <div class="row" style="opacity:0.7;">
+              <div class="tk faint">+ ITUB4</div>
+              <div class="num faint">10.4</div>
+              <div class="num faint">5.8%</div>
+              <div class="num faint">71</div>
+            </div>
+            <div class="row" style="opacity:0.7;">
+              <div class="tk faint">+ BBDC4</div>
+              <div class="num faint">8.9</div>
+              <div class="num faint">6.4%</div>
+              <div class="num faint">60</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRIP panel -->
+      <div class="wb-panel" data-panel="drip">
+        <div class="drip-controls">
+          <div class="control-group">
+            <label>Ticker</label>
+            <input type="text" value="ITSA4" />
+          </div>
+          <div class="control-group">
+            <label>Investimento inicial</label>
+            <input type="text" value="R$ 10,000" />
+          </div>
+          <div class="control-group">
+            <label>Horizonte</label>
+            <select>
+              <option>5 anos</option>
+              <option>10 anos</option>
+              <option selected>20 anos</option>
+              <option>30 anos</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label>Crescimento DY (Gordon damped)</label>
+            <select>
+              <option>Conservador (3%)</option>
+              <option selected>Médio (5%)</option>
+              <option>Otimista (8%)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="drip-results">
+          <div class="drip-chart">
+            <div class="chart-title">Shares over time</div>
+            <svg viewBox="0 0 280 160" preserveAspectRatio="none">
+              <line x1="0" y1="80" x2="280" y2="80" stroke="#D8CFBE" stroke-dasharray="2 4" />
+              <polyline fill="none" stroke="#0F1E33" stroke-width="2"
+                points="10,140 35,128 60,118 85,105 110,92 135,80 160,68 185,56 210,42 235,28 260,18" />
+              <text x="14" y="138" fill="#8A8C95" font-size="9" font-family="JetBrains Mono">100</text>
+              <text x="244" y="14" fill="#0F1E33" font-size="10" font-family="JetBrains Mono" text-anchor="end">287 shs</text>
+            </svg>
+          </div>
+          <div class="drip-chart">
+            <div class="chart-title">Annual income (BRL)</div>
+            <svg viewBox="0 0 280 160" preserveAspectRatio="none">
+              <line x1="0" y1="80" x2="280" y2="80" stroke="#D8CFBE" stroke-dasharray="2 4" />
+              <polyline fill="none" stroke="#C77700" stroke-width="2"
+                points="10,150 35,138 60,124 85,108 110,90 135,72 160,55 185,38 210,24 235,14 260,8" />
+              <text x="14" y="148" fill="#8A8C95" font-size="9" font-family="JetBrains Mono">R$ 2,400</text>
+              <text x="244" y="14" fill="#C77700" font-size="10" font-family="JetBrains Mono" text-anchor="end" font-weight="600">R$ 48,180</text>
+            </svg>
+          </div>
+
+          <div class="drip-summary">
+            <div class="item"><div class="l">Shares year-1</div><div class="v">100</div></div>
+            <div class="item"><div class="l">Shares year-20</div><div class="v">287</div></div>
+            <div class="item"><div class="l">Income year-20</div><div class="v">R$ 48,180</div></div>
+            <div class="item"><div class="l">Payback to 2× shares</div><div class="v">9.8 yrs</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Positions panel -->
+      <div class="wb-panel" data-panel="positions">
+        <table class="blotter">
+          <thead>
+            <tr>
+              <th>Ticker</th><th>Name</th><th>Mkt</th><th>Qty</th><th>Last</th><th>Day %</th>
+              <th>Value</th><th>Wt %</th><th>Yield</th><th>Div / yr</th>
+              <th>Next ex</th><th>Verdict</th><th>FV gap</th><th>Vit</th><th>Flag</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tk">JNJ</td><td>Johnson &amp; Johnson</td><td>US</td><td>140</td>
+              <td>158.20</td><td class="neg">−0.4%</td><td>22,148</td><td>8.1%</td>
+              <td>3.0%</td><td>665</td><td>14d</td>
+              <td><span class="verdict-pill v-leap">LEAP</span></td><td class="neg">−4.2%</td>
+              <td>88</td><td>★ FILING</td>
+            </tr>
+            <tr>
+              <td class="tk">ITSA4</td><td>Itaúsa</td><td>BR</td><td>4,200</td>
+              <td>10.84</td><td class="neg">−1.6%</td><td>45,528</td><td>5.9%</td>
+              <td>7.1%</td><td>3,232</td><td>2d</td>
+              <td><span class="verdict-pill v-buy">BUY</span></td><td class="pos">+6.1%</td>
+              <td>68</td><td>★ COUNCIL</td>
+            </tr>
+            <tr>
+              <td class="tk">KO</td><td>Coca-Cola</td><td>US</td><td>300</td>
+              <td>62.40</td><td class="neg">−0.1%</td><td>18,720</td><td>6.8%</td>
+              <td>3.1%</td><td>582</td><td>33d</td>
+              <td><span class="verdict-pill v-leap">LEAP</span></td><td class="neg">−10.0%</td>
+              <td>87</td><td>TRIM SIGNAL</td>
+            </tr>
+            <tr>
+              <td class="tk">JPM</td><td>JPMorgan</td><td>US</td><td>40</td>
+              <td>302.10</td><td class="pos">+0.8%</td><td>12,084</td><td>4.4%</td>
+              <td>1.95%</td><td>236</td><td>33d</td>
+              <td><span class="verdict-pill v-hold">HOLD</span></td><td class="neg">−21.0%</td>
+              <td>89</td><td>VITALITY</td>
+            </tr>
+            <tr>
+              <td class="tk">BBDC4</td><td>Bradesco</td><td>BR</td><td>1,800</td>
+              <td>14.22</td><td class="neg">−0.9%</td><td>25,596</td><td>4.6%</td>
+              <td>6.4%</td><td>1,638</td><td>—</td>
+              <td><span class="verdict-pill v-buy">BUY</span></td><td class="pos">+4.8%</td>
+              <td>60</td><td></td>
+            </tr>
+            <tr style="opacity: 0.5;"><td colspan="15" style="text-align:center; font-style: italic; padding: 14px;">… 28 more rows hidden in mock — full blotter scrolls / sorts here …</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Dividends panel -->
+      <div class="wb-panel" data-panel="dividends">
+        <p style="font-style: italic; color: var(--ink-tertiary); padding: 24px;">
+          90-day expanded dividend timeline goes here — placeholder for v1.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════
+       BAND 3 — DEEP REVIEW
+       ══════════════════════════════════════════════════════════════════════ -->
+  <section class="band">
+    <div class="band-label">Today's Spotlight · in-depth review</div>
+
+    <div class="deep-spotlight-header">
+      <div class="deep-spotlight-tk">ITSA4</div>
+      <div style="font-size: 13px; color: var(--ink-secondary);">Itaúsa S.A. · BR Holding · Council pending re-vote</div>
+      <div class="deep-spotlight-name num">R$ 10.84 <span class="neg">−1.6%</span></div>
+    </div>
+
+    <div class="deep">
+      <div>
+        <h2 class="section">How it has performed</h2>
+        <p class="lede">
+          Itaúsa is up 12% over the trailing twelve months — a clean lead over the
+          Ibovespa's flat tape and a respectable showing for a holding company that
+          had been left for dead at R$ 8.90 in late 2024.
+        </p>
+        <p class="body">
+          The DY held at 7.1% trailing, third best in your portfolio behind PRIO3 and
+          BBDC4. The recent dividend cut (interim payout 38% below trailing average)
+          is the first negative cadence break since 2021; the formal release Monday
+          will tell us whether this is a one-quarter aberration tied to the IPCA
+          hedge revaluation or a structural reset of the payout policy.
+        </p>
+        <p class="body">
+          Net debt / EBITDA at the holding level is below 1.0× — there is no
+          balance-sheet stress. The cut, if confirmed structural, would be a capital-
+          allocation choice, not a liquidity event. That distinction is everything
+          for the thesis.
+        </p>
+
+        <h2 class="section">Competitors at this moment</h2>
+        <table class="competitors-table">
+          <thead>
+            <tr>
+              <th>Ticker</th><th>P/E</th><th>P/B</th><th>DY</th><th>ROE</th><th>Streak</th><th>Vit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="self">
+              <td>ITSA4 ←</td><td>8.2</td><td>0.8</td><td>7.1%</td><td>14.4%</td><td>22y</td><td>68</td>
+            </tr>
+            <tr><td>ITUB4</td><td>10.4</td><td>2.0</td><td>5.8%</td><td>21.0%</td><td>21y</td><td>71</td></tr>
+            <tr><td>BBDC4</td><td>8.9</td><td>1.0</td><td>6.4%</td><td>11.8%</td><td>16y</td><td>60</td></tr>
+            <tr><td>BBAS3</td><td>4.6</td><td>0.9</td><td>9.2%</td><td>21.3%</td><td>14y</td><td>62</td></tr>
+            <tr><td>SANB11</td><td>9.7</td><td>1.4</td><td>5.1%</td><td>14.0%</td><td>11y</td><td>54</td></tr>
+          </tbody>
+        </table>
+
+        <h2 class="section">What the council said</h2>
+        <div class="council-quote">
+          "The buyback discipline at the holding level has been the silent engine of
+          shareholder return. The dividend headline is loud; the long-form story is
+          buyback yield + interest rate normalisation. Probation, not exit."
+          <div class="attrib">— Aderbaldo · Synthetic IC · 5/5 · last vote 2026-05-08</div>
+        </div>
+
+        <div class="macro-overlay">
+          <div class="label">Macro overlay</div>
+          BR neutral regime · SELIC trajectory soft-landing · sector tailwind 60/100
+          (financials BR mid-band) → ITSA4 deserves a 1.0× P/B, not the 1.4× it
+          briefly traded at in Q1.
+        </div>
+      </div>
+
+      <aside class="deep-side">
+        <h3>Performance · trailing</h3>
+        <div class="perf-chart">
+          <svg viewBox="0 0 280 120" preserveAspectRatio="none">
+            <line x1="0" y1="60" x2="280" y2="60" stroke="#D8CFBE" stroke-dasharray="2 4" />
+            <polyline fill="none" stroke="#0F1E33" stroke-width="1.5"
+              points="10,80 30,72 50,68 70,60 90,52 110,58 130,48 150,42 170,38 190,46 210,52 230,48 250,52 270,46" />
+          </svg>
+        </div>
+
+        <h3>Key facts</h3>
+        <dl class="key-facts">
+          <dt>Position size</dt><dd>R$ 45,528 · 14.6% of BR</dd>
+          <dt>Cost basis</dt><dd>R$ 9.42 / share</dd>
+          <dt>P&amp;L</dt><dd class="pos">+R$ 5,964 · +15.1%</dd>
+          <dt>Forward DY</dt><dd>7.1% · R$ 3,232 / yr</dd>
+          <dt>Next ex-div</dt><dd>2026-05-14 (in 4d)</dd>
+          <dt>Council verdict</dt><dd>BUY (re-vote pending)</dd>
+          <dt>Vitality</dt><dd>68 / STRONG</dd>
+          <dt>Fair value gap</dt><dd class="pos">+6.1%</dd>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="footer">
+      <div>Mission Control · personal use · data 06:14 UTC · provider yfinance + CVM + SEC + BCB + FRED</div>
+      <div>Mock v1 · home_v1.html</div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // ── Tab switching for The Workbench ────────────────────────────────
+  document.querySelectorAll(".wb-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const tab = btn.dataset.tab;
+      document.querySelectorAll(".wb-tab").forEach((b) => b.classList.toggle("active", b === btn));
+      document.querySelectorAll(".wb-panel").forEach((p) =>
+        p.classList.toggle("active", p.dataset.panel === tab)
+      );
+    });
+  });
+
+  // ── Generate the 14-day dividend timeline strip ────────────────────
+  const grid = document.getElementById("div-grid");
+  const today = new Date(2026, 4, 10); // 2026-05-10 placeholder
+  const dows = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const payouts = {
+    "2026-05-12": [{ tk: "JNJ",   v: "$ 1.19" }],
+    "2026-05-13": [{ tk: "ABEV3", v: "ITR" }],
+    "2026-05-14": [{ tk: "ITSA4", v: "R$ 0.082" }, { tk: "ACN", v: "earn AH" }],
+    "2026-05-16": [{ tk: "PG",    v: "$ 0.94" }],
+    "2026-05-17": [{ tk: "ITUB4", v: "R$ 0.30" }, { tk: "KO", v: "earn BMO" }],
+    "2026-05-21": [{ tk: "BBDC4", v: "R$ 0.022" }],
+  };
+
+  for (let i = 0; i < 14; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() + i);
+    const iso = d.toISOString().slice(0, 10);
+    const dow = dows[d.getDay()];
+    const dom = d.getDate();
+    const isWeekend = d.getDay() === 0 || d.getDay() === 6;
+    const isToday = i === 0;
+
+    const cell = document.createElement("div");
+    cell.className = "div-day" + (isWeekend ? " weekend" : "") + (isToday ? " today" : "");
+    cell.innerHTML = `
+      <div class="dow">${dow}</div>
+      <div class="dom">${dom}</div>
+      ${(payouts[iso] || []).map((p) => `<span class="pay">${p.tk} <span class="v">${p.v}</span></span>`).join("")}
+    `;
+    grid.appendChild(cell);
+  }
+</script>
+
+</body>
+</html>

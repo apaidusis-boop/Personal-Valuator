@@ -1,0 +1,48 @@
+quipment.
+While the arguments for such actions may be couched in terms of competitive advantage and
+flexibility, they do also reduce the operating leverage of the firm and its exposure to market risk.
+
+While operating leverage affects betas, it is difficult to measure the operating leverage of a firm, at
+least from the outside, since fixed and variable costs are often aggregated in income statements. It is
+possible to get an approximate measure of the operating leverage of a firm by looking at changes in
+operating income as a function of changes in sales.
+For firms with high operating leverage, operating income should change more than proportionately
+when sales change.
+SIZE, GROWTH, AND BETAS
+Generally, smaller firms with higher growth potential are viewed as riskier than larger, more stable firms. While the rationale
+for this argument is clear when talking about total risk, it becomes more difficult to see when looking at market risk or betas.
+Should a smaller software firm have a higher beta than a larger software firm? One reason to believe that it should is
+operating leverage. If there is a setup cost associated with investing in infrastructure or economies of scale, smaller firms
+will have higher fixed costs than larger firms, leading in turn to higher betas for these firms.
+With growth firms, the argument for higher betas rests on the notion of discretionary versus nondiscretionary purchases. For
+a high-growth firm to deliver on its growth, new customers have to adopt the product or existing customers have to buy more
+of the product. Whether they do so will depend, in large part, on how well-off they feel. This, in turn, will make the profits of
+high-growth firms much more dependent on how well the economy is doing, thus increasing their betas.
+Degree of Financial Leverage
+Other things remaining equal, an increase in financial leverage will increase the beta of the equity in a
+firm. Intuitively, we would expect that the fixed interest payments on debt result in increasing income
+in good times and decreasing income in bad times. Higher leverage increases the variance in net
+income and makes equity investment in the firm riskier. If all the firm's risk is borne by the
+stockholders (i.e., the beta of debt is zero),
+7
+ and debt has a tax benefit to the firm, then,
+where β
+L
+ = Levered beta for equity in the firm 
+β
+u
+ = Unlevered beta of the firm (i.e., the beta of the firm without any debt) 
+t = Marginal tax rate 
+D/E = Debt-to-equity ratio (market value)
+Intuitively, we expect that as leverage increases (as measured by the debt-to-equity ratio), equity
+investors bear increasing amounts of market risk in the firm, leading to higher betas. The tax factor in
+the equation captures the tax benefits that accrue from interest payments.
+The unlevered beta of a firm is determined by the nature of its products and services (cyclicality,
+discretionary nature) and its operating leverage. It is often also referred to as the asset beta, since it is
+determined by the assets owned by the firm. Thus, the levered beta, which is also the beta for an
+equity investment in a firm, is determined both by the riskiness of the business it operates in and by
+the amount of financial leverage risk it has taken on.
+Since financial leverage multiplies the underlying business risk, it stands to reason that firms that
+have high business risk should be reluctant to take on financial leverage. It also stands to reason that
+firms that operate in stable businesses should be much more willing to take on financial leverage.
+Utilities, for instance, have historically had high debt ratios but have not had high betas, mostly

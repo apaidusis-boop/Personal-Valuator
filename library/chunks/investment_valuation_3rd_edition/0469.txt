@@ -1,0 +1,39 @@
+shed for holding on to cash, largely as a consequence of its impeccable track
+record in delivering ever-increasing profits on the one hand and high stock returns on the other. While 1999 and 2000 were
+
+not good years for the firm, investors were probably giving the firm the benefit of the doubt at least for the near future. We
+would have added the cash balance at face value to the value of Microsoft’s operating assets.
+The more interesting component is the $17.7 billion that Microsoft showed as investments in riskier securities in 2000.
+Microsoft reported the following information about these investments (in $millions):
+Microsoft had generated a paper profit of almost $3 billion on its original cost of $14.745 billion, and reported a current value
+of $17.726 billion. Most of these investments are traded in the market and are recorded at market value. The easiest way to
+deal with these investments is to add the market value to the value of the operating assets of Microsoft to arrive at firm
+value. The most volatile item is the investment in common stock of other firms. The value of these holdings had almost
+doubled, as reflected in the recorded basis of $9,773 million. Should we reflect this at current market value when we value
+Microsoft? The answer is generally yes. However, if these investments are overvalued, you risk building in this overvaluation
+into your valuation. The alternative is to value each of the equities that the firm has invested in, but this will become
+increasingly cumbersome as the number of equity holdings increases.
+In summary, then, you would add the values of both the near-cash investments of $23.798 billion and the equity investments
+of $17.726 billion to the value of the operating assets of Microsoft 
+in 2000.
+More than a decade later, in 2011, Microsoft still had a large cash balance, invested in a mix of near-cash investments and
+marketable securities. However, Microsoft’s stock price and operating performance lagged the market and the sector
+between 2000 and 2010. When valuing Microsoft in 2011, you may attach a discount to the cash holdings.
+Premiums or Discounts on Marketable Securities?
+As a general rule, you should not attach a premium or discount for marketable securities, unless you
+are willing to do intrinsic valuations of the underlying companies. There is an exception to this rule,
+though, and it relates to firms that make it their business to buy and sell financial assets. These are the
+closed-end mutual funds, of which there are several hundred listed on the U.S. stock exchanges, and
+investment companies, such as Fidelity and T. Rowe Price. Closed-end mutual funds sell shares to
+investors and use the funds to invest in financial assets. The number of shares in a closed-end fund
+remains fixed, and the share price changes. Since the investments of a closed-end fund are in publicly
+traded securities, this sometimes creates a phenomenon in which the market value of the shares in a
+closed-end fund is greater than or less than the market value of the securities owned by the fund. For
+these firms, it may be appropriate to attach a discount or premium to the marketable securities to
+reflect their capacity to generate excess returns on these investments.
+A closed-end mutual fund that consistently finds undervalued assets and delivers much higher
+returns than expected (given the risk) should be valued at a premium on the value of its marketable
+securities. The amount of the premium will depend on how large the excess return is and how long
+you would expect the firm to continue to make these excess returns. Conversely, a closed-end fund
+that delivers returns that are much lower than expected should trade at a discount on the value of the
+marketable securities held by the fund. The stockholders in this fund would clearly be better off if it

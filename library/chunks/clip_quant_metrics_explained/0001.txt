@@ -1,0 +1,35 @@
+ofits
+
+### Safety
+
+How well a company mitigates risks to its business. We track a variety of solvency, cash flow volatility, and market measures of risk. We want to avoid anything unnecessarily risky.
+
+- Net Debt / EBITDA -- Lower is better
+- Earnings Volatility -- Lower is better
+- Leverage -- Lower is better
+
+### Valuation
+
+Measures of the richness or cheapness of a firm as it relates to different fundamental business metrics, pursuing an optimal mix of quality and value. We don't want to pay astronomical prices for future growth.
+
+- Gross Profits / Enterprise Value
+- Cash Flow / Enterprise Value
+- Adjusted Book Value / Price
+
+### Market Buzz
+
+While harder to describe, this boils down to a company's current or growing presence in the market zeitgeist. Does it transcend an industry? Has it become a verb? Indications of powerful adoption trends can present themselves before they show up in company financial results. When the market is excited about a company, the business gains a better chance of realizing its true value.
+
+- Momentum
+- Liquidity Trend
+- Liquidity Stability
+
+## Investing Types, Explained
+
+As a Motley Fool member, you have access to hundreds of active recommendations (with more being added each month). That's a lot of companies to consider when building out a well-diversified portfolio of at least 50 stocks that you're comfortable holding for five or more years.
+
+It's not always easy to decide which stocks fit your investing needs. So we're here to help!
+
+**Investing Types** are designed to help you navigate the options, along with the rest of our Quant projections.
+
+We've identified three core Investing Types that correspond with risk tolerance and potential returns: **Cautious**, **Moderate**, and **Aggressive**.

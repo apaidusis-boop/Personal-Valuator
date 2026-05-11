@@ -1,0 +1,36 @@
+hat a firm is undervalued. For many analysts, especially those tracking firms in high-growth sectors,
+these approaches offer the promise of a way of controlling for differences in growth across firms,
+
+while preserving the inherent simplicity of a multiple.
+Definition of PEG Ratio
+The PEG ratio is defined to be the price-earnings ratio divided by the expected growth rate in
+earnings per share:
+For instance, a firm with a PE ratio of 20 and a growth rate of 10 percent is estimated to have a PEG
+ratio of 2. Consistency requires that the growth rate used in this estimate be the growth rate in
+earnings per share rather than operating income, because PEG ratio is an equity multiple.
+Given the many definitions of the PE ratio, which one should you use to estimate the PEG ratio?
+The answer depends on the base on which the expected growth rate is computed. If the expected
+growth rate in earnings per share is based on earnings in the most recent year (current earnings), the
+PE ratio that should be used is the current PE ratio. If it is based on trailing earnings, the PE ratio
+used should be the trailing PE ratio. The forward PE ratio should never be used in this computation,
+since it may result in a double counting of growth. To see why, assume that you have a firm with a
+current price of $30 and current earnings per share of $1.50. The firm is expected to double its
+earnings per share over the next year (forward earnings per share will be $3.00) and then have
+earnings growth of 5 percent a year for the following four years. An analyst estimating growth in
+earnings per share for this firm, with the current earnings per share as a base, will estimate a growth
+rate of 19.44%:
+If you used the forward PE ratio and this estimate of earnings growth to estimate the PEG ratio, you
+would get:
+On a PEG ratio basis, this firm seems to be cheap. Note, however, that the growth in the first year has
+been counted twice—the forward earnings are high because of the doubling of earnings, leading to a
+low forward PE ratio, and the growth rate is high for the same reason. A consistent estimate of the
+PEG ratio would require using a current PE and the expected growth rate over the next five years:
+Alternatively, you could compute the PEG ratio based on forward earnings per share and the growth
+rate from years 2 through 5:
+If this approach is used, the PEG ratio would have to be estimated uniformally for all of the other
+comparable firms as well, using the forward PE and the expected growth rate from years 2 through 5.
+Building on the theme of uniformity, the PEG ratio should be estimated using the same growth
+estimates for all firms in the sample. You should not, for instance, use five-year growth rates for some
+firms and one-year growth rates for others. One way of ensuring uniformity is to use the same source
+for earnings growth estimates for all the firms in the group. For instance, many data services provide
+consensus estimates from analysts of earnings per share growth over the next five years for most U.S.

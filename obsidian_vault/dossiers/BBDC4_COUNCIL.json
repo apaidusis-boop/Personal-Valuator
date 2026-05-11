@@ -1,0 +1,166 @@
+{
+  "ticker": "BBDC4",
+  "market": "br",
+  "modo": "B",
+  "sector": "Banks",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Diego Bancário",
+      "agent_slug": "banks_br_specialist",
+      "title": "Banks BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "Bradesco mantém sólidos indicadores financeiros",
+      "stance": "BUY",
+      "main_argument": "A Bradesco oferece P/E de 9.07 e P/B de 1.15, abaixo dos benchmarks do setor, com ROE de 13.8% acima da Selic-era.",
+      "supporting_metrics": [
+        "P/E=9.07",
+        "ROE=13.8%",
+        "DivStreak=19"
+      ],
+      "concerns": [
+        "ambiente macroeconômico desafiador",
+        "pressão sobre a qualidade dos ativos"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "Bradesco oferece valor atraente com sólidos dividendos",
+      "stance": "BUY",
+      "main_argument": "A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação atrativa em comparação à média do setor.",
+      "supporting_metrics": [
+        "P/E=9.07",
+        "ROE=13.8%",
+        "DY=7.54%"
+      ],
+      "concerns": [
+        "Ambiente macroeconômico desafiador",
+        "Pressão sobre a qualidade dos ativos"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Bradesco apresenta valorização atraente com sólidos dividendos",
+      "stance": "BUY",
+      "main_argument": "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e gestão eficiente do capital.",
+      "supporting_metrics": [
+        "P/E=9.07",
+        "ROE=13.8%",
+        "DY=7.54%"
+      ],
+      "concerns": [
+        "Margem EBIT baixa nos últimos trimestres",
+        "Possível pressão macroeconômica"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Bradesco apresenta valorização atraente com sólidos dividendos",
+      "stance": "BUY",
+      "main_argument": "A Bradesco oferece uma P/E de 9.07 e um DY de 7.8%, abaixo da média do setor, indicando potencial de valorização.",
+      "supporting_metrics": [
+        "P/E=9.07",
+        "DY=7.8%",
+        "ROE=13.8%"
+      ],
+      "concerns": [
+        "peso atual na carteira (9.9%)",
+        "ambiente macroeconômico desafiador"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação atrativa em comparação à média do setor. — Mariana Macro"
+      ],
+      "challenge": [
+        "Ambiente macroeconômico desafiador | Pressão sobre a qualidade dos ativos — Valentina Prudente | A pressão macroeconômica é um risco, mas os resultados recentes mostram que o Bradesco tem se mantido resiliente em ciclos anteriores"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e gestão eficiente do capital. - Valentina Prudente"
+      ],
+      "challenge": [
+        "Margem EBIT baixa nos últimos trimestres | Possível pressão macroeconômica - Valentina Prudente | A margem EBIT tem oscilado, mas é importante notar que o Bradesco está diversificando seus negócios além do segmento bancário para mitigar riscos"
+      ],
+      "new_evidence": "O ambiente regulatório favorável e a dinâmica do setor fintech no Brasil podem oferecer oportunidades de crescimento adicionais para o Bradesco.",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e gestão eficiente do capital.",
+        "Mariana Macro"
+      ],
+      "challenge": [
+        "Ambiente macroeconômico desafiador | Pressão sobre a qualidade dos ativos",
+        "Diego Bancário, Mariana Macro, Pedro Alocação — A pressão macroeconômica é um risco conhecido, mas não há evidências concretas de deterioração na qualidade dos ativos da Bradesco que justifiquem uma mudança na posição"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando uma avaliação atrativa em comparação à média do setor. - Mariana Macro"
+      ],
+      "challenge": [
+        "Ambiente macroeconômico desafiador | pressão sobre a qualidade dos ativos - Diego Bancário",
+        "A preocupação com o ambiente macroeconômico e a qualidade dos ativos é válida, mas não deve ser um impedimento único para uma posição de compra considerando os indicadores financeiros sólidos da empresa."
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando uma avaliação atrativa em comparação à média do setor.",
+      "O histórico de dividendos da Bradesco é sólido, com um DY de 7.54% mantido por 19 anos consecutivos."
+    ],
+    "dissent_points": [
+      "Valentina Prudente disse que a margem EBIT tem sido baixa nos últimos trimestres e há pressão macroeconômica.",
+      "Diego Bancário, Mariana Macro e Pedro Alocação mencionaram preocupações com o ambiente macroeconômico desafiador e a qualidade dos ativos."
+    ],
+    "final_stance": "BUY",
+    "confidence": "high",
+    "pre_publication_flags": [
+      "Ambiente regulatório favorável e dinâmica do setor fintech no Brasil podem oferecer oportunidades de crescimento adicionais para o Bradesco - Mariana Macro",
+      "A pressão macroeconômica é um risco conhecido, mas não há evidências concretas de deterioração na qualidade dos ativos da Bradesco que justifiquem uma mudança na posição - Valentina Prudente"
+    ],
+    "sizing_recommendation": "Considerar a redução do peso atual na carteira (9.9%) em função das preocupações com o ambiente macroeconômico e a qualidade dos ativos."
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Diego Bancário\\reviews\\BBDC4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\BBDC4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\BBDC4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\BBDC4_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 65.13273215293884,
+  "date": "2026-04-30"
+}

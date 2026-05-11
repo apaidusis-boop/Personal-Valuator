@@ -1,0 +1,21 @@
+rg). Note that the index used is the
+Athens Stock Exchange Index. Based on this regression, we arrive at the following equation:
+Figure 8.4
+ Beta Estimate for Titan Cement: Athens Stock Exchange Index
+
+The beta for Titan Cement, based upon this regression, is 0.93. The standard error of the estimate, shown in brackets below,
+is only 0.08, but the caveats about narrow indexes apply to the Athens Stock Exchange Index.
+Drawing on the arguments in the previous section, if the marginal investor in Titan Cement is, in fact, an investor diversified
+across European companies, the appropriate index would have been a European stock index. The Bloomberg beta
+calculation with the MSCI European index is reported in 
+Figure 8.5
+. Note the decline in beta to 0.33 and the increase in the
+standard error of the beta estimate.
+Figure 8.5
+ Beta Estimate for Titan Cement: MSCI European Index
+In fact, if the marginal investor is globally diversified, Titan Cement's beta (as well as Boeing's beta in Illustration 8.1) should
+have been estimated against a global index. Using the Morgan Stanley Capital International (MSCI) global index, we get a
+regression beta of 0.33 in 
+Figure 8.6
+. In fact, the beta estimate and the standard error look very similar to the ones estimated
+against the European index.

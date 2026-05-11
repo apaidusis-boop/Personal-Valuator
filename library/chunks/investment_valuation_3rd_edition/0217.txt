@@ -1,0 +1,20 @@
+wing table summarizes the beta estimates for different levels of financial leverage ranging from 0% to 90% debt.
+As Boeing's financial leverage increases, the beta increases concurrently.
+levbeta.xls.
+
+This spreadsheet allows you to estimate the unlevered beta for a firm and compute the betas
+as a function of the leverage of the firm.
+Bottom-Up Betas
+ Breaking down betas into their business risk and financial leverage components
+provides us with an alternative way of estimating betas, in which we do not need past prices on an
+individual firm or asset to estimate its beta.
+To develop this alternative approach, we need to introduce an additional property of betas that
+proves invaluable. The beta of two assets put together is a weighted average of the individual asset
+betas, with the weights based on market value. Consequently, the beta for a firm is a weighted
+average of the betas of all the different businesses it is in. We can estimate the beta for a firm in five
+steps:
+Step 1:
+ Identify the business or businesses the firm operates in.
+Step 2:
+ Find other publicly traded firms in each business and obtain their regression betas, which
+we use to compute an average beta for the firms.

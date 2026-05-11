@@ -1,0 +1,40 @@
+ion across markets has resulted in a portion of country risk
+being nondiversifiable or market risk. The next section considers how best to measure this country
+risk and build it into expected returns.
+
+Measuring Country Risk Premiums
+If country risk matters and leads to higher premiums for riskier countries, the obvious follow-up
+question becomes how we measure this additional premium. This section looks at three approaches.
+The first builds on default spreads on country bonds issued by each country, whereas the second uses
+equity market volatility as its basis. The third is a melded approach that uses both default spreads and
+equity market volatility.
+Default Risk Spreads
+While there are several measures of country risk, one of the simplest and most easily accessible is the
+rating assigned to a country’s debt by a ratings agency; Standard & Poor’s (S&P), Moody’s Investors
+Service, and Fitch all rate countries. These ratings measure default risk (rather than equity risk), but
+they are affected by many of the factors that drive equity risk—the stability of a country’s currency, its
+budget and trade balances, and its political stability, for instance.
+12
+ The other advantage of ratings is
+that they can be used to estimate default spreads over the riskless rate. The default spreads are
+estimated by comparing the dollar- and euro-denominated bonds issued by governments that share a
+sovereign rating. For instance, a 10-year dollar-denominated bond issued by the Peruvian
+government, rated Baa by Moody’s, traded at an interest rate of 5.2% in January 2011—a 1.7%
+spread over the U.S. Treasury bond rate of 3.5% at the time. Since there can be country-specific
+factors that cause these rates to vary across bonds, we average the spreads within each ratings class
+to arrive at the average spread for each sovereign rating. Across six countries rated Baa in January
+2011, for example, the average default spread was 2.00%. 
+Thus, any country with a Baa rating would
+be assigned a spread of 2.00% in January 2011.
+The perils with sovereign ratings have been documented over the past few years. Specifically,
+ratings agencies seem to lag markets in responding to changes in country risk. An alternative approach
+to estimating default spreads is the CDS market. As we noted previously in the section on risk-free
+rates, in early 2011 there were CDS instruments traded in about 60 countries, providing an updated
+market measure of default risk. In January 2011, for instance, the CDS spread for Peru was 160 basis
+points (1.6 percent), close to the default spread estimated from the dollar-denominated bond. 
+Table
+7.5
+ summarizes default spreads estimated for selected countries in January 2011, using both the
+sovereign rating and CDS approaches.
+Table 7.5
+ Default Spreads for Selected Countries—January 2011

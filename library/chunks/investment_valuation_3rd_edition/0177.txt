@@ -1,0 +1,36 @@
+three reasons for the divergence in risk premiums:
+Table 7.2
+ Standard Errors in Risk Premium Estimates
+Estimation Period
+Standard Error of Risk Premium Estimate
+5 years
+10 years
+25 years
+50 years
+1.
+
+Time period used.
+ While there are many who use all the data going back to 1926 (or earlier),
+there are almost as many using data over shorter time periods, such as 50, 20, or even 10 years, to
+come up with historical risk premiums. The rationale presented by those who use shorter periods
+is that the risk aversion of the average investor is likely to change over time, and that using a
+shorter time period provides a more updated estimate. This has to be offset against a cost
+associated with using shorter time periods, which is the greater noise in the risk premium
+estimate. In fact, given the annual standard deviation in stock prices
+7
+ between 1926 and 2010 of
+20 percent, the standard error
+8
+ associated with the risk premium estimate can be estimated for
+different estimation periods in 
+Table 7.2
+. 
+Note that to get reasonable standard errors, we need very long time periods of historical returns.
+Conversely, the standard errors from 10-year and 20-year estimates are likely to be almost as
+large as or larger than the actual risk premium estimated. This cost of using shorter time periods
+seems, in our view, to overwhelm any advantages associated with getting a more updated
+premium.
+2.
+
+Choice of risk-free security.
+ The Ibbotson database reports returns on both Treasury bills (T-

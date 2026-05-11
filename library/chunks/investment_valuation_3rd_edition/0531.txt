@@ -1,0 +1,25 @@
+onship between PEG ratios and growth suggests that
+comparing PEG ratios across firms with widely different growth rates can be complicated.
+Figure 18.8
+ PEG Ratios, Expected Growth, and Interest Rates
+
+Next, consider the effect of changing the riskiness (beta) of this firm on the PEG ratio. 
+Figure 18.9
+ presents the PEG ratio
+as a function of the beta. Here, the relationship is clear. As the risk increases, the PEG ratio of a firm decreases. When
+comparing the PEG ratios of firms with different risk levels, even within the same sector, this would suggest that riskier
+firms should have lower PEG ratios than safer firms.
+Figure 18.9
+ PEG Ratios and Beta: Different Growth Rates
+Finally, not all growth is created equal. A firm that is able to grow at 20% a year while paying out 50% of its earnings to
+stockholders has higher-quality growth than another firm with the same growth rate that reinvests all of its earnings back.
+Thus the PEG ratio should increase as the payout ratio increases, for any given growth rate, as is evidenced in 
+Figure 18.10
+.
+Figure 18.10
+ PEG Ratios and Payout Ratios
+
+The growth rate and the payout ratio are linked by the firm's return on equity. In fact, the expected growth rate of a firm can
+be written as:
+The PEG ratio should therefore be higher for firms with higher returns on equity for a given growth rate.
+eqmult.xls:

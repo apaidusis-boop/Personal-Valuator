@@ -1,0 +1,14 @@
+-Cola early in January 2011 and that you had obtained the following data on
+the company:
+The stock was trading at a price to book value ratio of 4.83, suggesting that it was fairly valued.
+pbvreg.htm:
+
+This dataset on the Web reports the results of the latest regression of PBV ratios against
+fundamentals, using all firms in the market.
+Current versus Expected Returns on Equity
+In all of the comparisons that we have made in this section, we have used a firm's current return on equity to make
+judgments about valuation. While it is convenient to focus on this current number, the market value of equity is determined
+by expectations of future returns on equity.
+  To the extent that there is a strong positive correlation between current ROE and future ROE, using the current return on
+equity to identify under- or overvalued companies is appropriate. Focusing on the current ROE can be dangerous, however,
+when the competitive environment is changing, and can lead to significant errors in valuation. In such cases, you should use a

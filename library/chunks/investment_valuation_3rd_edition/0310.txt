@@ -1,0 +1,24 @@
+that historical growth in revenues is a far more useful number when it comes to forecasting than
+historical growth in earnings.
+Figure 11.3
+ Correlation in Earnings and Revenues—Five-Year Time Periods
+
+Effects of Firm Size
+Since the growth rate is stated in percentage terms, the role of the size of the firm has to be weighed
+in the analysis. It is easier for a firm with $10 million in earnings to generate a 50 percent growth rate
+than it is for a firm with $500 million in earnings. Since it becomes harder for firms to sustain high
+growth rates as they become larger, past growth rates for firms that have grown dramatically in size
+may be difficult to sustain in the future. While this is a problem for all firms, it is a particular problem
+when analyzing small and growing firms. While the fundamentals at these firms, in terms of
+management, products, and underlying markets, may not have changed, it will still be difficult to
+maintain historical growth rates as the firms double or triple in size.
+The true test for a small firm lies in how well it handles growth. Some firms 
+continue to deliver
+their products and services efficiently as they grow. In other words, they are able to scale up
+successfully. Other firms have had much more difficulty replicating their success as they become
+larger. In analyzing small firms, therefore, it is important that you look at plans to increase growth but
+it is even more critical that you examine the systems in place to handle this growth.
+ILLUSTRATION 11.4: Cisco: Earnings Growth and Size of
+the Firm—The Glory Days (1989 to 1999) and Follow-up
+Cisco's evolution from a firm with $28 million in revenues and net income of about $4 million in 1989 to revenues in excess
+of $12 billion and net income of more than $2 billion in 1999 is reported in the following table:

@@ -1,0 +1,38 @@
+/3
+ – 1.
+9
+ The margin each year is computed as follows for Linkedin: (Margin this year + Target margin)/2.
+For Tesla Motors, the margin each year is computed as: (Margin this year – Target margin)/3.
+
+CHAPTER 12
+Closure in Valuation: Estimating Terminal Value
+In the previous chapter, we examined the determinants of expected growth. Firms that reinvest
+substantial portions of their earnings and earn high returns on these investments should be able to
+grow at high rates. But for how long? And what happens after that? This chapter looks at two ways of
+bringing closure to a valuation: a going concern approach, where we assume that the firm continues to
+deliver cash flows in perpetuity and a liquidation approach, where we assume that the business is
+shut down and the assets are sold at some point in time.
+Consider the going concern approach first. As a firm grows, it becomes more difficult for it to
+maintain high growth and it eventually will grow at a rate less than or equal to the growth rate of the
+economy in which it operates. This growth rate, labeled stable growth, can be sustained in perpetuity,
+allowing us to estimate the value of all cash flows beyond that point as a terminal value for a going
+concern. The key question that we confront is the estimation of when and how this transition to stable
+growth will occur for the firm that we are valuing. Will the growth rate drop abruptly at a point in
+time to a stable growth rate or will it occur more gradually over time? To answer these questions, we
+will look at a firm's size (relative to the market that it serves), its current growth rate, and its
+competitive advantages.
+We also consider an alternate route, which is that firms do not last forever and that they will be
+liquidated at some point in the future. We will consider how best to estimate liquidation value and
+when it makes more sense to use this approach rather than the going concern approach.
+CLOSURE IN VALUATION
+Since you cannot estimate cash flows forever, you generally impose closure in discounted cash flow
+valuation by stopping your estimation of cash flows sometime in the future and then computing a
+terminal value that reflects the value of the firm at that point.
+You can find the terminal value in one of three ways. One is to assume a liquidation of the firm's
+assets in the terminal year and estimate what others would pay for the assets that the firm has
+accumulated at that point. The other two approaches value the firm as a going concern at the time of
+the terminal value estimation. One applies a multiple to earnings, revenues, or book value to estimate
+the value in the terminal year. The other assumes that the cash flows of the firm will grow at a
+constant rate forever—a stable growth rate. With stable growth, the terminal value can be estimated
+using a perpetual growth model.
+Liquidation Value

@@ -1,0 +1,48 @@
+---
+id: damodaran_implied_equity_premium
+name: Damodaran Implied Equity Risk Premium (screen para overvaluation)
+book: Investment Valuation 3rd ed (Damodaran)
+chapter: 7 (Risk-Free Rates and Risk Premiums)
+horizon: medium               # 3-12 months
+direction: NEUTRAL            # signal of market-wide mispricing
+derived_from: ollama_extract
+
+framework: |
+  Implied ERP = (D1 + g·P0) / P0 − g
+
+  Where:
+    D1 = expected next-period dividend (or buyback-adjusted cash to equity)
+    P0 = current index/stock price
+    g  = long-term growth rate (usually g ≤ risk-free rate)
+
+  Quando implied ERP é ANORMALMENTE BAIXO (<3% US, <5% BR) → equities caros
+  Quando implied ERP é ALTO (>6% US, >10% BR) → equities baratos vs historic
+
+rules:
+  # DB stores dy as decimal (0.06 = 6%)
+  - id: dy_vs_growth
+    description: Ticker DY vs implicit growth deve justificar P/E actual
+    check: dy > 0 AND pe > 0 AND dy <= 0.15 AND pe <= 40
+  - id: erp_implicit
+    description: DY + g (3pp) > 8pp mínimo para compensar sobre US RFR
+    check: "(dy + 0.03) > 0.08"
+  - id: moderate_pe
+    description: P/E <= 20 (alinha com quality threshold CLAUDE.md)
+    check: pe <= 20
+
+entry_trigger: all rules pass
+exit_trigger: pe > 25 OR dy < 2 OR dy drops >25% em 2 quarters
+
+expected_move:
+  target_pct: 15             # 1-year fundamental re-rating
+  stop_loss_pct: -20
+
+caveats:
+  - "g=3% US / g=4% BR é approximation — revisit quando regime macro mudar materialmente"
+  - "ignores share buybacks (would add ~1-2% to implicit ERP em US tech)"
+  - "não é timing signal — é screen de valuation em carteira já validada"
+  - "paper-trade 6 meses antes de real capital"
+
+fits_with:
+  - scoring/engine.py (já aplica PE/PB screens)
+  - perpetuum_library_signals (daily run)

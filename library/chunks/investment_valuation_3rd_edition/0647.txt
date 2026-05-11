@@ -1,0 +1,31 @@
+anges each year, as it does between years 5 and 8, the compounded cost
+of equity has to be computed. For instance, the cash flow in year 6 will be discounted back using
+the following compounded cost: 
+
+CHAPTER 
+22
+Valuing Firms with Negative or Abnormal Earnings
+In most of the valuations thus far in this book, we have looked at firms that have positive earnings. In
+this chapter, we consider a subset of firms with negative earnings or abnormally low earnings and
+examine how best to value them. We begin by looking at why firms have negative earnings in the first
+place and look at the ways that valuation has to be adapted to reflect these underlying reasons.
+For firms with temporary problems—a strike or a product recall, for instance—we argue that the
+adjustment process is a simple one, where we back out of current earnings the portion of the expenses
+associated with the temporary problems. For cyclical firms, where the negative earnings are due to a
+deterioration of the overall economy, and for commodity firms, where cyclical movements in
+commodity prices can affect earnings, we argue for the use of normalized earnings in valuation. For
+firms with long-term strategic or operating problems (outdated plants, a poorly trained workforce, or
+poor investments in the past) the process of valuation becomes more complicated because we have to
+make assumptions about whether the firm will be able to outlive its problems and restructure itself.
+Finally, we look at firms that have negative earnings because they have borrowed too much, and
+consider how best to deal with the potential for default.
+NEGATIVE EARNINGS: CONSEQUENCES AND
+CAUSES
+A firm with negative earnings or abnormally low earnings is more difficult to value than a firm with
+positive earnings. This section looks at why such firms create problems for analysts in the first place,
+and then follows up by examining the reasons for negative earnings.
+Consequences of Negative or Abnormally Low Earnings
+Firms that are losing money currently create several problems for the analysts who are attempting to
+value them. While none of these problems are conceptual, they are significant from a measurement
+standpoint:
+1.

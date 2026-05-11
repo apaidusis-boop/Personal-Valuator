@@ -1,0 +1,22 @@
+[Bloomberg](https://www.investopedia.com/terms/b/bloomberg.asp) is synonymous with investment information in many corners of the finance world. According to the company, "The Bloomberg Terminal revolutionized an industry by bringing transparency to financial markets. More than four decades on, it remains at the cutting edge of innovation and information delivery — with fast access to news, data, unique insight and trading tools helping leading decision makers turn knowledge into action."1 So not only does it have a news and media outlet, it also has a software/hardware system that most, if not all, professional money managers use.
+
+### Key Takeaways
+
+- The Bloomberg terminal is both a hardware and software system which includes a keyboard with color-coded keys.
+- Red keys are for stop functions, green keys are for actions, and yellow keys reflect different market sectors.
+- The Bloomberg terminal comes with a hefty price and is mainly used by professional investors.
+
+## The Terminal
+
+The [Bloomberg terminal](https://www.investopedia.com/articles/professionaleducation/11/bloomberg-terminal.asp) is both a hardware and software system. It includes the Bloomberg Keyboard which has special color-coded keys. The color coding is as follows:
+
+- Red keys = Stop functions
+- Green keys = Action functions
+- Yellow keys = Different market sectors2
+:max_bytes(150000):strip_icc():format(webp)/bloomberg_keyboard-5bfd92fc4cedfd00260271f7)
+
+bloomberg keyboard
+
+## How to Use Bloomberg Terminal
+
+The market sectors toggled to using the yellow keys include:3

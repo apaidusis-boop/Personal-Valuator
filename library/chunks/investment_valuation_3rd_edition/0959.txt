@@ -1,0 +1,36 @@
+the process, we compute the
+expected values by working backwards through the tree and estimating the optimal action in each decision phase in 
+Figure
+33.4
+.
+Figure 33.4
+ Drug Decision Tree Folded Back
+
+The expected value of the drug today, given the uncertainty over its success, is $50.36 million. Since it is the only product for
+the biotechnology company, it is also the value for the company assuming that it does not have the capacity to develop new
+products. This value reflects all of the possibilities that can unfold over time and shows the choices at each decision branch
+that are suboptimal and thus should be rejected. The decision tree also provides a range of outcomes, with the worst
+outcome being failure in phase 3 of the drug as a treatment for both type 1 and type 2 diabetes (–$366.30 million in today’s
+dollars) to the best-case outcome of approval and development of the drug as treatment for both types of diabetes ($887.05
+million in today’s dollars).
+There is one element in the last set of branches that may seem puzzling. Note that the present value of developing the drug
+as a treatment for just type 2 diabetes is negative (-$97.43 million). Why would the company still develop the drug? Because
+the alternative of abandoning the drug at the late stage in the process has an even more negative net present value (-$328.74
+million). Another way to see this is to look at the marginal effect of developing the drug just for type 2 diabetes. Once the
+firm has expended the resources to take the firm through all three phases of testing, the testing cost becomes a sunk cost
+and is not a factor in the decision.
+3
+ The marginal cash flows from developing the drug after phase 3 yield a positive net
+present value of $451 million (in year 7 cash flows):
+Folding back the decision tree allows you to see what the value of the drug/company is at each phase in the process.
+Use in Decision Making
+There are several benefits that accrue from using decision trees, and it is surprising that they are not
+used more often in analysis.
+Dynamic response to risk.
+ By linking actions and choices to outcomes of uncertain events,
+decision trees encourage you to consider how you should act under different circumstances.
+As a consequence, you will be prepared for whatever outcome may arise rather than be
+surprised by it. In the example in the preceding section, for instance, you will be ready with
+a plan of action, no matter what the outcome of phase 3 happens to be.
+Value of information.
+ Decision trees provide a useful perspective on the value of

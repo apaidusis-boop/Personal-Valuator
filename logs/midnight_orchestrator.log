@@ -1,0 +1,158 @@
+[ORCH start] Sun Apr 26 22:35:18 GTBST 2026
+[ORCH] variant sweep done at Sun Apr 26 22:35:48 GTBST 2026
+[ORCH] starting synthetic_ic sweep at Sun Apr 26 22:35:48 GTBST 2026
+[ORCH] BR holdings: LFTB11 VALE3 BBDC4 ITSA4 PRIO3 KLBN11 IVVB11 RBRX11 XPML11 VGIR11 BTLG11 PVBI11
+[ORCH] US holdings: ACN KO JNJ O BLK JPM PG PLTR XP TEN GREK BRK-B NU PLD HD BN GS TSLA AAPL TSM ABBV
+[IC] LFTB11 @ 22:35:49
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... AVOID (conv 8)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\LFTB11_IC_DEBATE.md  (14.4s)
+[IC] VALE3 @ 22:36:04
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 4)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\VALE3_IC_DEBATE.md  (14.2s)
+[IC] BBDC4 @ 22:36:18
+  asking Seth Klarman... HOLD (conv 5)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\BBDC4_IC_DEBATE.md  (14.7s)
+[IC] ITSA4 @ 22:36:33
+  asking Seth Klarman... BUY (conv 8)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: BUY (medium)  saved: obsidian_vault\tickers\ITSA4_IC_DEBATE.md  (14.6s)
+[IC] PRIO3 @ 22:36:48
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\PRIO3_IC_DEBATE.md  (14.4s)
+[IC] KLBN11 @ 22:37:03
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\KLBN11_IC_DEBATE.md  (14.2s)
+[IC] IVVB11 @ 22:37:17
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\IVVB11_IC_DEBATE.md  (14.1s)
+[IC] RBRX11 @ 22:37:31
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... AVOID (conv 8)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\RBRX11_IC_DEBATE.md  (14.1s)
+[IC] XPML11 @ 22:37:46
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\XPML11_IC_DEBATE.md  (14.3s)
+[IC] VGIR11 @ 22:38:01
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\VGIR11_IC_DEBATE.md  (14.5s)
+[IC] BTLG11 @ 22:38:15
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... AVOID (conv 8)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\BTLG11_IC_DEBATE.md  (14.0s)
+[IC] PVBI11 @ 22:38:30
+  asking Seth Klarman... HOLD (conv 4)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\PVBI11_IC_DEBATE.md  (14.4s)
+[IC] ACN @ 22:38:44
+  asking Seth Klarman... HOLD (conv 5)
+  asking Ray Dalio... BUY (conv 8)
+  -> committee: BUY (high)  saved: obsidian_vault\tickers\ACN_IC_DEBATE.md  (14.5s)
+[IC] KO @ 22:38:59
+  asking Seth Klarman... HOLD (conv 4)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\KO_IC_DEBATE.md  (14.1s)
+[IC] JNJ @ 22:39:14
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\JNJ_IC_DEBATE.md  (14.2s)
+[IC] O @ 22:39:29
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... AVOID (conv 9)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\O_IC_DEBATE.md  (14.1s)
+[IC] BLK @ 22:39:43
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\BLK_IC_DEBATE.md  (13.9s)
+[IC] JPM @ 22:39:57
+  asking Seth Klarman... HOLD (conv 5)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\JPM_IC_DEBATE.md  (14.0s)
+[IC] PG @ 22:40:11
+  asking Seth Klarman... HOLD (conv 4)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\PG_IC_DEBATE.md  (14.3s)
+[IC] PLTR @ 22:40:26
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... AVOID (conv 10)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\PLTR_IC_DEBATE.md  (14.2s)
+[IC] XP @ 22:40:41
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\XP_IC_DEBATE.md  (14.1s)
+[IC] TEN @ 22:40:55
+  asking Seth Klarman... HOLD (conv 4)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\TEN_IC_DEBATE.md  (14.5s)
+[IC] GREK @ 22:41:10
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\GREK_IC_DEBATE.md  (14.5s)
+[IC] BRK-B @ 22:41:25
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\BRK-B_IC_DEBATE.md  (17.7s)
+[IC] NU @ 22:41:43
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\NU_IC_DEBATE.md  (26.5s)
+[IC] PLD @ 22:42:10
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\PLD_IC_DEBATE.md  (21.4s)
+[IC] HD @ 22:42:31
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\HD_IC_DEBATE.md  (19.8s)
+[IC] BN @ 22:42:51
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... AVOID (conv 7)
+  -> committee: AVOID (high)  saved: obsidian_vault\tickers\BN_IC_DEBATE.md  (19.8s)
+[IC] GS @ 22:43:12
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (high)  saved: obsidian_vault\tickers\GS_IC_DEBATE.md  (14.5s)
+[IC] TSLA @ 22:43:27
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: AVOID (medium)  saved: obsidian_vault\tickers\TSLA_IC_DEBATE.md  (14.2s)
+[IC] AAPL @ 22:43:41
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\AAPL_IC_DEBATE.md  (14.2s)
+[IC] TSM @ 22:43:56
+  asking Seth Klarman... AVOID (conv 1)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\TSM_IC_DEBATE.md  (14.5s)
+[IC] ABBV @ 22:44:10
+  asking Seth Klarman... AVOID (conv 10)
+  asking Ray Dalio... HOLD (conv 5)
+  -> committee: HOLD (medium)  saved: obsidian_vault\tickers\ABBV_IC_DEBATE.md  (14.2s)
+[ORCH] synthetic_ic sweep done at Sun Apr 26 22:44:25 GTBST 2026
+[ORCH] starting earnings_prep batch at Sun Apr 26 22:44:25 GTBST 2026
+[EP] VALE3 (br) 2026-04-28
+  preparing BR:VALE3 (earnings 2026-04-28)... OK (5.4s) -> earnings_prep_VALE3_2026-04-28.md
+[EP] PRIO3 (br) 2026-05-05
+  preparing BR:PRIO3 (earnings 2026-05-05)... OK (4.7s) -> earnings_prep_PRIO3_2026-05-05.md
+[EP] KO (us) 2026-04-28
+  preparing US:KO (earnings 2026-04-28)... OK (4.7s) -> earnings_prep_KO_2026-04-28.md
+[EP] AAPL (us) 2026-04-30
+  preparing US:AAPL (earnings 2026-04-30)... OK (4.8s) -> earnings_prep_AAPL_2026-04-30.md
+[EP] BRK-B (us) 2026-05-02
+  preparing US:BRK-B (earnings 2026-05-02)... OK (5.3s) -> earnings_prep_BRK-B_2026-05-02.md
+[EP] PLTR (us) 2026-05-04
+  preparing US:PLTR (earnings 2026-05-04)... OK (4.7s) -> earnings_prep_PLTR_2026-05-04.md
+[EP] O (us) 2026-05-06
+  preparing US:O (earnings 2026-05-06)... OK (4.5s) -> earnings_prep_O_2026-05-06.md
+[ORCH] earnings_prep done at Sun Apr 26 22:44:59 GTBST 2026
+[ORCH] regenerate tutor + digest at Sun Apr 26 22:44:59 GTBST 2026
+
+[summary] injected=72 skipped=1 errors=0 of 73
+[ORCH end] Sun Apr 26 22:45:00 GTBST 2026

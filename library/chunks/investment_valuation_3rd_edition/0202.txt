@@ -1,0 +1,55 @@
+te much larger.
+9
+ The compounded return is computed by taking the value of the investment at the start of the period
+(Value
+0
+) and the value at the end (Value
+N
+), and then computing the following: 
+
+10
+ In other words, good years are more likely to be followed by poor years, and vice versa. The
+evidence on negative serial correlation in stock returns over time is extensive, and can be found in
+Fama and French (1988). While they find that the one-year correlations are low, the five-year
+serial correlations are strongly negative for all size classes.
+11
+ This data is from the Credit Suisse Global Investment Returns Sourcebook 2011, updated by
+Dimson, Marsh and Staunton at the London Business School.
+12
+ The process by which country ratings are obtained is explained on the S&P web site at
+www.standardandpoors.com
+.
+13
+ Jeremy Siegel reports on the standard deviation in equity markets in his book, 
+Stocks for the
+Very Long Run: The Definitive Guide to Investment Strategies 
+(New York, McGraw-Hill, 2007),
+and notes that they tend to decrease with time horizon.
+14
+ While I have categorized the revenues into dollar revenues and revenues in dollars, the analysis
+can be generalized to look at revenues in stable currencies (e.g., the dollar, euro, etc.) and
+revenues in risky currencies.
+15
+λ
+Aracruz
+ = % from local market
+PR
+/% from local market
+average Brazilian firm
+ = 0.20/0.80 = 0.25.
+16
+ We used the average of the analyst estimates for individual firms (bottom-up). Alternatively, we
+could have used the top-down estimate for the S&P 500 earnings (from economists).
+17
+ The Treasury bond rate is the sum of expected inflation and the expected real rate. If we assume
+that real growth is equal to the real rate, the long-term stable growth rate should be equal to the
+Treasury bond rate.
+18
+ The input that is most difficult to estimate for emerging markets is a long-term expected growth
+rate. For Brazilian stocks, I used the average consensus estimate of growth in earnings for the
+largest Brazilian companies that have American depositary receipts (ADRs) listed on them. This
+estimate may be biased as a consequence.
+19
+ On April 30, 2011, for instance, I substituted the Treasury bond rate of 3.5 percent 
+into the
+regression equation to get:

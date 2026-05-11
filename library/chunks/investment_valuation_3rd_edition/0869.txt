@@ -1,0 +1,4 @@
+h the same parameters as the call described earlier, but with a strike price of 21.27% (15.45% + 5.82%).
+In this case, the effect of imposing this constraint on the value of flexibility is negligible.
+
+finflex.xls:

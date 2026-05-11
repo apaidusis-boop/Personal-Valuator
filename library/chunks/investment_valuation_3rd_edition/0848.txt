@@ -1,0 +1,48 @@
+as 9.00%. If Gulf were to choose to develop these reserves, it
+was expected to have cash flows next year of approximately 5% of the value of the developed reserves. The variance in oil
+prices is 0.03.
+
+Note that you could have used forecasted oil prices and estimated cash flows over the production period and estimated the
+value of the underlying asset to be the present value of all of these cash flows. We have used a shortcut of assuming that
+the current contribution margin of $15.38 a barrel will remain unchanged in present value terms over the production period.
+Based on these inputs, the Black-Scholes model provides the following value for the call:
+12
+This stands in contrast to the discounted cash flow value of $12 billion that you obtain by taking the difference between the
+present value of the cash flows of developing the reserve today ($42.38 billion) and the cost of development ($30.38 billion).
+The difference can be attributed to the option possessed by Gulf to choose when to develop its reserves.
+The option value ($13.3 billion) represents the value of the undeveloped reserves of oil owned by Gulf Oil. In addition, Gulf
+Oil had free cash flows to the firm from its oil and gas production of $915 million from already developed reserves and we
+assume that these cash-flows are likely to be constant and continue for 10 years (the remaining lifetime of developed
+reserves). The present value of these developed reserves, discounted at the weighted average cost of capital of 12.5%,
+yields:
+Adding the value of the developed and undeveloped reserves of Gulf Oil provides the value of the firm.
+Value of undeveloped reserves
+$13,306 million
+Value of production in place
+$ 
+5,066 million
+Total value of firm
+$18,372 million
+Less outstanding debt
+$ 
+9,900 million
+Value of equity
+$ 
+8,472 million
+Value per share
+$ 
+8,472/165.3 = $51.25
+This analysis would suggest that Gulf Oil was overvalued at $70 per share.
+PRICE VOLATILITY AND NATURAL RESOURCE
+COMPANY VALUATION
+An interesting implication of this analysis is that the value of a natural resource company depends not just on the price of the
+natural resource but also on the expected volatility in that price. Thus, if the price of oil goes from $25 a barrel to $40 a
+barrel, you would expect all oil companies to become more valuable. If the price drops back to $25, the values of oil
+companies may not decline to their old levels, since the perceived volatility in oil prices may have changed. If investors
+believe that the volatility in oil prices has increased, you would expect an increase in values but the increase will be greatest
+for companies that derive a higher proportion of their value from undeveloped reserves.
+  If you regard undeveloped reserves as options, discounted cash flow valuation will generally underestimate the value of
+natural resource companies, because the expected price of the commodity is used to estimate revenues and operating
+profits. As a consequence, you miss the option component of value. Again, the difference will be greatest for firms with
+significant undeveloped reserves and with commodities whose price volatility is highest.
+OTHER APPLICATIONS

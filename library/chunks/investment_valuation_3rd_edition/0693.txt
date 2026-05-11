@@ -1,0 +1,36 @@
+g losses for the next five years, making the average operating income over
+that period a negative number. Finally, we chose to use a CCC rating to reflect the fact that Tesla was a going concern, with
+
+the capacity to use its cash balance to cover its debt obligations, if necessary. The resulting pretax cost of debt is 8%; since
+the firm has an NOL and operating losses, the after-tax cost of debt is also 8%.
+Based on the debt outstanding of $109.65 million ($71.83 million in conventional debt and $37.82 million in present value of
+lease commitments) and the market capitalization of $2,773 million (based on a stock price of $29 and 95.63 million shares
+outstanding), we get a debt-to-capital ratio of 3.80%:
+The resulting cost of capital (assumed to remain unchanged for the first five years) is:
+As the firm matures, though, we expect it to look more like the automobile firms and less like technology firms. As a
+consequence, starting in year 6, we start reducing the beta in linear increments to reach 0.90 in stable growth, and increasing
+the debt ratio in linear increments to 35% in year 10. The table following summarizes the cost of capital by year for Tesla
+Motors:
+The cost of capital decreases from years 6 through 10 to reach a steady state (and perpetual) cost of capital of 6.25%.
+Step 6: Estimate the Value of the Firm
+With the inputs on earnings, reinvestment rates, and risk parameters over time, this valuation starts
+resembling a conventional valuation. In many cases, the cash flows in the early years will be
+negative, driven by negative earnings and large reinvestment needs, but turn positive in later years as
+margins improve and reinvestment drops off. The bulk of the value will generally be in the terminal
+value. Note, though, that the magnitude of the terminal value is determined by your growth and target
+margin assumptions during the high growth phase.
+Having valued the operating assets of the firm, you need to consider two other factors—the
+possibility that the firm will not survive to become a going concern and the value of nonoperating
+assets—to value the firm.
+Survival
+ When we value firms using discounted cash flow valuation, we tend to assume that the firm
+will be a going concern and continue to generate cash flows in perpetuity. This assumption might be
+suspect when valuing young companies, since many of them will not survive the tests that they will be
+put to over the next few years. If we ignore this possibility and consider only the best-case scenario
+of expansion and perpetual profitability, we will overestimate the value of these firms. We have two
+choices when it comes to dealing with this possibility.
+1.
+ The first is to build into the expected growth rates and earnings the likelihood of unfavorable
+outcomes. Thus, the growth rate used in revenues will be the expected growth rate over all
+scenarios, both optimistic and pessimistic and incorporate the likelihood that the firm will not
+make it. For young firms, this will become progressively more difficult to do as you get further

@@ -1,0 +1,29 @@
+6.41%
+7.72%
+BB
+11.63%
+19.48%
+B
+29.38%
+38.68%
+CCC
+48.53%
+61.67%
+c.
+ If neither bonds nor ratings exist, we can use statistical techniques (such as probits) to
+estimate the probability of bankruptcy.
+2.
+
+The value that the firm will be able to get for its assets in the event of default
+. In effect, we
+are using the techniques for estimating liquidation value that we described in the last section.
+Netting out the debt outstanding should yield a value for equity in default. (In most cases, the
+equity investors will get nothing.)
+Once these numbers have been estimated, the value for the equity in the firm today can be written as
+a probability weighted average of the going concern value and the distress value:
+ILLUSTRATION 22.8: Valuing a Company with Depressed
+Operating Income and Substantial Debt—MGM Resorts in
+May 2011
+MGM Resorts is one of the leading gaming companies in the world, with casinos in the United States and Macau. Like other
+companies in the sector, the firm borrowed large amounts to fund its expansion between 2002 and 2008. As the economy
+slowed, the operating income for the firm dropped from $1,425 million in 2007 to $371 million in 2010, and net income

@@ -1,0 +1,49 @@
+zation.
+Technology companies have used an unusual ploy to get the goodwill created when a premium is
+paid over book value off their books. Using the argument that the bulk of the market value paid for
+
+technology companies comes from the value of the research done by the firm over time, they have
+written off what they called in-process R&D to preserve consistency. After all, they argue, the R&D
+they do internally is expensed. As with amortization of goodwill, writing off in-process R&D creates
+a noncash and non-tax-deductible charge and we should look at earnings prior to their write-off.
+When firms divest assets, they can generate income in the form of capital gains. Infrequent
+divestitures can be treated as one-time items and ignored, but some firms divest assets on a regular
+basis. For such firms, it is best to ignore the income associated with the divestiture, but to consider
+the cash flows associated with divestiture, net of capital gains taxes, when estimating net capital
+expenditures. For instance, a firm with $500 million in capital expenditures, $300 million in
+depreciation, and $120 million in divestitures every year would have a net capital expenditure of $80
+million.
+Income from Investments and Cross Holdings
+Investments in marketable securities generate two types of income. The first takes the form of interest
+or dividends and the second is the capital gains (or losses) associated with selling securities at prices
+that are different from their cost bases. In the 1990s, when the stock market was booming, several
+technology firms used the latter to augment income and beat analyst estimates. In our view, neither
+type of income should be considered part of the earnings used in valuation for any firm other than a
+financial service firm that defines its business as the buying and selling of securities (such as a hedge
+fund). The interest earned on marketable securities should be ignored when valuing the firm, since it
+is far easier to add the market value of these securities at the end of the process rather than mingle
+them with other assets. For instance, assume that you have a firm that generates $100 million in after-
+tax cash flows, but also assume that 20 percent of these cash flows come from holdings of marketable
+securities with a current market value of $500 million. The remaining 80 percent of the cash flows
+comes from operating assets; these cash flows are expected to grow at 5 percent a year in perpetuity,
+and the cost of capital (based on the risk of these assets) is 10 percent. The value of this firm can be
+most easily estimated as follows:
+Value of operating assets of the firm = $80(1.05)/(.10 – .05)
+$1,680 million
+Value of marketable securities
+$ 500 million
+Value of firm
+$2,180 million
+If we had chosen to discount the entire after-tax cash flow of $100 million, we would have had to
+adjust the cost of capital (to reflect the risk of the marketable securities). The adjustment, done right,
+should yield the same value as that estimated.
+11
+ The capital gain or loss from the sale of marketable
+securities should be ignored for a different reason. If you incorporate this gain into your income and
+use it in your forecasts, not only are you counting on being able to sell your securities for higher
+prices each period in the future but you risk double counting the value of these securities if you are
+adding them to the value of the operating assets to arrive at an estimate of value.
+Firms that have a substantial number of cross holdings in other firms will often report increases or
+decreases to earnings reflecting income or losses from these holdings. The effect on earnings will
+vary depending on how the holding is categorized. Chapter 3 differentiated among three
+classifications:

@@ -1,0 +1,58 @@
+up
+future growth for current EVA. Managers are partly compensated based on the economic value added
+this year, but another part is held back in a compensation bank and is available to the manager only
+
+after a period (say three or four years). There are significant limitations with these approaches. First,
+the limited tenure that managers have with firms implies that this measure can at best look at
+economic value added only over the next three or four years. The real costs of the growth trade-off
+are unlikely to show up until much later. Second, these approaches are really designed to punish
+managers who increase economic value added in the current period while reducing economic value
+added in future periods. In the more subtle case, where the economic value added continues to
+increase but at a rate lower than it otherwise would have, it is difficult to devise a punishment for
+managers who trade off future growth. In the preceding example, for instance, the economic value
+added with the growth trade-off increases over time. The increases are smaller than they would have
+been without the trade-off, but that number would not have been observed, anyway.
+The Risk Shifting Game
+The value of a firm is the sum of the capital invested and the present value of the economic value
+added. The latter term is therefore a function not just of the dollar economic value added but also of
+the cost of capital. A firm can invest in projects to increase its economic value added but still end up
+with a lower value, if these investments increase its operating risk and cost of capital.
+Again, using the firm in Illustration 32.1, assume that the firm is able to increase its return on
+capital on both assets in place and future investments from 15 percent to 16.25 percent and from 10
+percent to 11 percent after year 5. Simultaneously, assume that the cost of capital increases to 11
+percent. The economic value added in each year for the next five years is contrasted with the original
+economic value added in each year in 
+Figure 32.2
+. While the economic value added in each year is
+higher with the high-risk strategy, the value of the firm is shown in 
+Table 32.4
+. Note that the risk
+effect dominates the higher excess dollar returns, and the value of the firm decreases.
+Table 32.4
+ EVA with High-Risk Strategy
+Capital invested in assets in place
+$100.00
++ EVA from assets in place = (.1625 - .11) (100)/.11
+$ 47.73
++ PV of EVA from investments in year 1 = [(.1625 - .11)(10)/.11]
+$ 
+4.77
++ PV of EVA from investments in year 2 = [(.1625 - .10)(10)/.11]/1.11
+$ 
+4.30
++ PV of EVA from investments in year 3 = [(.1625 - .11)(10)/.11]/1.11
+2
+$ 
+3.87
++ PV of EVA from investments in year 4 = [(.1625 - .11)(10)/.11]/1.11
+3
+$ 
+3.49
++ PV of EVA from investments in year 5 = [(.1625 - .11)(10)/.11]/1.11
+4
+$ 
+3.14
+Value of firm
+$167.31
+Figure 32.2
+ EVA: Higher Risk and Return

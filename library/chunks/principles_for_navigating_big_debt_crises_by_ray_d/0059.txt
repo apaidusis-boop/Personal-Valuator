@@ -1,0 +1,49 @@
+is abandoned. 
+Top
+(3)
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Depression
+(4)
+Normalization
+(5)
+54321
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+-60 -48 -36 -24 -12 0 12 24 36 48 60 72 84
+Nominal Short Rate
+
+Top
+(3)
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Depression
+(4)
+Normalization
+(5)
+54321
+-60 -48 -36 -24 -12 0 12 24 36 48 60 72 84
+Reserves (USD, Indexed)
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160

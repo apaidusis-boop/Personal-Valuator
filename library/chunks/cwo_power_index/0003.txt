@@ -1,0 +1,44 @@
+of the gauges 
+in representing the concepts varies. In order to convey the reliability of each gauge, we indicate whether it’s 
+reliable or so-so. The following page describes how to read the tables.
+
+COUNTRY POWER INDEX 2022
+3
+CURRENT READINGS ACROSS MAJOR POWERS
+(Z-Score and 20-Year Change Denoted by Arrows)
+GAUGE 
+QUALITY IND GBR FRA RUS SGP CAN
+EMPIRE SCORE (0–1) 0.28 0.27 0.26 0.26 0.22 0.22
+THE BIG CYCLES
+Economic/Financial Position Reliable 1.1 -1.5 -1.0 0.7 --- 0.8 -0.6
+Debt Burden (Big Economic Cycle) Reliable 0.5 -1.8 -0.8 1.2 1.6 -0.3
+Expected Growth (Big Economic Cycle) Reliable 1.1 -0.7 -0.9 -0.2 --- -0.4 -0.7
+Internal Order So-So --- --- -0.3 0.5 -1.2 --- --- --- ---
+Gaps in Wealth, Opportunity & Values So-So -0.3 -0.3 1.1 -1.8 -2.1 -0.2
+Internal Conflict1 (Internal Order; low is bad) Reliable --- --- -0.3 -0.1 -0.5 --- --- --- ---
+External Order2 So-So --- --- 0.4 --- --- -2.1 --- --- --- ---
+KEY EIGHT MEASURES OF POWER
+Education Reliable -1.1 -0.3 -0.5 -0.5 -0.5 -0.2
+Innovation & Technology Reliable -1.1 -0.3 -0.5 -0.7 -0.6 -0.6
+Cost Competitiveness Reliable 2.4 -0.4 -0.6 0.7 --- 0.2 -0.5
+Military Strength Reliable 0.3 -0.2 -0.1 0.6 -2.1 -0.9
+Trade Reliable -0.8 -0.5 -0.5 -0.9 -0.7 -0.8
+Economic Output Reliable 0.1 -0.6 -0.6 -0.5 -1.5 -1.1
+Markets & Financial Center Reliable -0.7 0.0 -0.3 -1.0 -0.4 -0.4
+Reserve Currency Status3 Reliable -0.7 -0.5 --- --- -0.7 --- -0.7 --- -0.6 ---
+ADDITIONAL MEASURES OF POWER
+Geology Reliable 0.3 -0.8 -0.5 2.1 -0.6 0.7
+Resource-Allocation Efficiency So-So 0.3 -0.3 -1.6 -0.1 --- 2.4 0.5
+Acts of Nature So-So -2.4 --- 0.3 --- 0.0 -0.1 --- -0.3 --- 1.2 ---
+Infrastructure & Investment Reliable -0.3 -0.7 -0.2 -1.0 -0.2 -0.7
+Character/Civility/Determination So-So 1.3 -0.3 -1.5 0.2 --- 2.4 0.1
+Governance/Rule of Law Reliable -1.1 1.2 0.3 -1.9 2.3 0.7
+1 We are still working to expand our internal and external conflict determinants across all countries. 
+2 External Order based on external conflict gauge vs the global hegemon (USA) or rising power (CHN) as of April 2022.
+3 We did not give individual Eurozone countries reserve currency status scores.
+The first column shows the determinant being measured. There are other determinants that aren’t shown 
+because they are either too subjective or too difficult to quantify (e.g., leadership). The quality of leadership 
+can’t be measured as objectively as the amount of economic output (e.g., how can you measure whether Donald 
+Trump was a good leader or a bad one?). The rest of the columns show each country’s score on each determinant, 
+as well as the recent trend in that score; where we do not have enough data to make a gauge or enough history 
+to display an arrow, we show dashes to indicate no reading.

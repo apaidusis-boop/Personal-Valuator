@@ -1,0 +1,36 @@
+we value the 100,000 equity options that are
+held by managers and venture capitalists in the company, subtract the value from the value of equity, before dividing by the
+1 million shares outstanding. 
+
+Control Issues
+When valuing a firm, you need to consider the competence and strengths of the management of the
+firm. With private firms, where the owner is also the manager, this consideration carries special
+weight, since the owner has absolute control. In a publicly traded firm, in contrast, incompetent
+management can often be replaced, if enough stockholders can be convinced that it is in their best
+interests to do so.
+There are implications for valuation if a portion of a private firm is offered for sale. If that portion
+provides a controlling interest (i.e., the right to pick the firm's management), it should have a
+substantially higher value than if it does not provide this power. Normally, this would mean that 51
+percent of a private firm's equity should trade at a substantial premium over 49 percent. This applies
+whether a firm is being sold to a private entity or a publicly traded firm, and may arise in an initial
+public offering. If, for instance, only nonvoting shares or shares with diluted voting rights are offered
+to investors in the public offering, they should trade at a discount on shares with full voting rights.
+While the intuition about the value of control is simple, estimating how much it is worth is a little
+more difficult. We will defer a full discussion of the topic until the next chapter, on acquisitions, but
+we will value it as the difference between two values—the value of the firm run optimally and the
+value of the firm with the incumbent management. For instance, if the value of a private firm run by
+incumbent management is $100 million and the value of the firm run optimally is $150 million, the
+difference in values between the 51 percent and 49 percent shares can be computed as follows:
+The additional 2 percent interest (from 49 to 51 percent) has a disproportionate effect on value
+because of control. This value of control will be greatest for private firms that are poorly run and
+will be close to zero for well-run firms.
+As we noted in chapter 16, the same approach can be used to compute the discount that nonvoting
+shares will trade at relative to voting shares in initial public offerings.
+The values of the two classes can be estimated as follows:
+ILLUSTRATION 24.13: Valuing Voting and Non voting
+Shares: Infosoft
+In the last illustration, we valued the equity in InfoSoft at $17.904 million. Based upon the 1 million shares oustanding, we
+estimated a value per share of $17.90. Assume that the firm decides to create .9 million nonvoting shares and .1 million
+voting shares. In the initial offering, only the nonvoting shares will be sold to the public, and the current owners will retain all
+of the voting shares.
+To value the voting and nonvoting shares, we need to value InfoSoft under optimal management. Assume that the firm

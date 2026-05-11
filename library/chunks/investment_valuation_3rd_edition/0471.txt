@@ -1,0 +1,44 @@
+reduce the book value of the equity in the firm,
+and unrealized gains increase the book value of equity.
+For trading investments, the valuation is at market value, and the unrealized gains and losses
+
+are shown in the income statement.
+Firms are allowed an element of discretion in the way they classify investments and through this
+choice in the way they value these assets. This classification ensures that firms such as investment
+banks, whose assets are primarily securities held in other firms for purposes of trading, revalue the
+bulk of these assets at market levels each period. This is called marking to market, and provides one
+of the few instances in which market value trumps book value in accounting statements.
+Minority Active Investments
+If the securities or assets owned in another firm represent between 20 percent and 50 percent of the
+overall ownership of that firm, an investment is treated as a minority active investment. While these
+investments have an initial acquisition value, a proportional share (based on ownership proportion)
+of the net income and losses made by the firm in which the investment was made is used to adjust the
+acquisition cost. In addition, the dividends received from the investment reduce the acquisition cost.
+This approach to valuing investments is called the equity approach.
+The market value of these investments is not considered until the investment is liquidated, at which
+point the gain or loss from the sale relative to the adjusted acquisition cost is shown as part of the
+earnings in that period.
+Majority Active Investments
+If the securities or assets owned in another firm represent more than 50 percent of the overall
+ownership of that firm, an investment is treated as a majority active investment.
+6
+ In this case, the
+investment is no longer shown as a financial investment but is instead replaced by the assets and
+liabilities of the firm in which the investment was made. This approach leads to a consolidation of the
+balance sheets of the two firms, where the assets and liabilities of the two firms are merged and
+presented as one balance sheet. The share of the firm that is owned by other investors is shown as a
+minority interest on the liability side of the balance sheet. A similar consolidation occurs in the other
+financial statements of the firm as well, with the statement of cash flows reflecting the cumulated cash
+inflows and outflows of the combined firm. This is in contrast to the equity approach, used for
+minority active investments, in which only the dividends received on the investment are shown as a
+cash inflow in the cash flow statement.
+Here again, the market value of this investment is not considered until the ownership stake is
+liquidated. At that point, the difference between the market price and the net value of the equity stake
+in the firm is treated as a gain or loss for the period.
+Valuing Cross Holdings in Other Firms
+Given that the holdings in other firms can be accounted for in three different ways, how do you deal
+with each in valuation? The best way to deal with each of them is exactly the same. You would value
+the equity in each holding separately, and estimate the value of the proportional holding. This value
+would then be added to the value of the equity of the parent company. Thus, to value a firm with
+minority holdings in three other firms, you would value the equity in each of these firms, take the
+percent share of the equity in each, and add it to the value of equity in the parent company.

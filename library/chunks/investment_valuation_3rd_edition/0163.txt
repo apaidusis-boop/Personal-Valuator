@@ -1,0 +1,27 @@
+The Payoff to Active Money Management: Equity Funds
+Note:
+ This chart measures the difference between actual return on equity funds and return on hypothetical portfolio frozen at
+beginning of period.
+
+Finally, we find no evidence of continuity in performance. It classified money managers into
+quartiles and examined the probabilities of movement from one quartile to another each year from
+1983 to 1990. The results are summarized in 
+Table 6.4
+.
+Table 6.4
+ Probabilities of Transition from One Quartile to Another
+Table 6.4
+ indicates that a money manager who was ranked in the first quartile in a period had a 26
+percent chance of being ranked in the first quartile in the next period and a 27 percent chance of being
+ranked in the bottom quartile. There is some evidence of reversal in the portfolio managers in the
+lowest quartile, though some of that may be a reflection of the higher-risk portfolios that they put
+together.
+Thus, the overall evidence is that money managers collectively add little value for investors with
+their active investing strategies. So, is there any good news for money managers in these studies?
+There are some glimmers:
+Hot hands phenomenon:
+ While there is little evidence of overall continuing in mutual fund
+performance, there is some evidence that money managers who have performed well in the
+recent past are likely to outperform the market in the near future. It is unclear, however, how
+long this momentum lasts, before there is reversal. This evidence mirrors our earlier
+analysis of stock prices showing momentum over weeks and months and reversing

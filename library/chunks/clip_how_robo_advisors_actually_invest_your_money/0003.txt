@@ -1,0 +1,13 @@
+//www.investopedia.com/wealthfront-review-4587933) uses the [capital asset pricing model](https://www.investopedia.com/terms/c/capm.asp) and the Black-Litterman approach to estimate expected returns.9
+
+Most robo-advisors now offer portfolios built around specific investment themes, allowing you to align your investments with your personal values or market trends. These might focus on reducing volatility, emphasizing technological growth, or prioritizing environmental, social, and governance criteria.
+
+For example, Betterment’s curated portfolio options include socially responsible investing, climate impact, and innovation-focused portfolios.10
+
+Although most robo-advisors follow passive investment strategies, they also closely monitor economic trends and market conditions. Others use reinforcement learning to adjust portfolios, but within a preset range of possible changes.
+
+[Tax-loss harvesting](https://www.investopedia.com/terms/t/taxgainlossharvesting.asp) is a standard feature of many robo-advisors. Platforms sell assets that have declined in value and buy similar ones to avoid violations. This helps reduce taxable income and minimize [capital gains taxes](https://www.investopedia.com/terms/c/capital_gains_tax.asp). They then employ asset allocation strategies.
+
+For example, Betterment offers municipal bonds in taxable accounts, especially for clients in high-tax states like California and New York, to maximize after-tax returns.3
+
+Robo-advisors can align your portfolio with your risk profile, and make adjustments as your goals evolve. The system checks daily for changes that may cause your portfolio to deviate from its target mix, such as market movements, new deposits, or dividend payments. When that happens, it rebalances by selling and buying ETFs to align the portfolio with your original allocation.

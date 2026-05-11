@@ -1,0 +1,43 @@
+ult of acquisitions of companies is not tax deductible. Hence, whether it is impaired or not has
+no effect on cash flows, though it can have dramatic effects on earnings. It is only in the exceptional
+
+circumstance where the assets of a firm are acquired (rather than the firm itself) that acquirers can
+qualify for tax deductions for goodwill impairment.
+The bottom line for acquirers is that goodwill measurement, for the most part, should not make a
+good deal into a bad deal or vice versa. It should also have little or no impact on the value that you
+attach to a target companies, unless it qualifies for tax deductions. In the special cases, where
+goodwill amortization/impairment is tax deductible it will affect cash flows and values.
+Restructuring Charges
+Common by-products of acquisitions are restructuring and acquisition related charges associated with
+consolidating the merged companies. These charges can categorized into three groups:
+1.
+ Cash expenses that clearly reduce the expected cash flows in the first few years of the merger
+and will offset or at least reduce any potential gains from synergy.
+2.
+ Noncash expenses that are tax deductible. These reduce earnings but can increase cash flows,
+by reducing taxes paid.
+3.
+ Noncash expenses that are not tax deductible, which are similar to amortization of goodwill,
+insofar as they reduce earnings but have no effect on cash flows.
+ANALYZING MANAGEMENT AND LEVERAGED
+BUYOUTS
+The first section, when describing the different types of acquisitions, pointed out two important
+differences between mergers and buyouts. The first is that, unlike a merger, a buyout does not involve
+two firms coming together and creating a consolidated entity. Instead, the target firm is acquired by a
+group of investors that may include the management of the firm. The second is that the target firm in a
+buyout usually becomes a private business. Some buyouts in the 1980s also used large proportions of
+debt, leading to their categorization as leveraged buyouts. Each of these differences does have an
+effect on how we approach the valuation of buyouts.
+Valuation of a Buyout
+The fact that buyouts involve only the target firm and that there is no acquiring firm to consider makes
+valuation much more straightforward. Clearly, there is no potential for synergy and therefore no need
+to value it. However, the fact that the managers of a firm are also the acquirers of the firm does create
+two issues. The first is that managers have access to information that investors do not have. This
+information may allow managers to conclude, with far more certainty than would an external acquirer,
+that their firm is undervalued. This may be one reason for the buyout. The second is that the
+management of the firm remains the same after the buyout, but the way in which investment, financing,
+and dividend decisions are made may change. This happens because managers, once they become
+owners, may become much more concerned about maximizing firm value.
+The fact that firms that are involved in buyouts become private businesses can also have an effect
+on value. Chapter 24 noted that investments in private businesses are much more difficult to liquidate
+than investments in publicly traded firms. This can create a significant discount on value. One reason

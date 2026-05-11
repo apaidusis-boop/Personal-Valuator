@@ -1,0 +1,33 @@
+he underlying asset at a fixed price, an increase in
+the value of the asset will increase the value of the calls. Puts, on the other hand, become less
+valuable as the value of the asset increases.
+
+2.
+
+Variance in value of the underlying asset.
+ The buyer of an option acquires the right to buy or
+sell the underlying asset at a fixed price. The higher the variance in the value of the underlying
+asset, the greater the value of the option.
+1
+ This is true for both calls and puts. While it may seem
+counterintuitive that an increase in a risk measure (variance) should increase value, options are
+different from other securities since buyers of options can never lose more than the price they pay
+for them; in fact, they have the potential to earn significant returns from large price movements.
+3.
+
+Dividends paid on the underlying asset.
+ The value of the underlying asset can be expected to
+decrease if dividend payments are made on the asset during the life of the option. Consequently,
+the value of a call on the asset is a 
+decreasing
+ function of the size of expected dividend payments,
+and the value of a put is an 
+increasing
+ function of expected dividend payments. A more intuitive
+way of thinking about dividend payments, for call options, is as a cost of delaying exercise on in-
+the-money options. To see why, consider an option on a traded stock. Once a call option is in-the-
+money (i.e., the holder of the option will make a gross payoff by exercising the option), exercising
+the call option will provide the holder with the stock and entitle him or her to the dividends on the
+stock in subsequent periods. Failing to exercise the option will mean that these dividends are
+forgone.
+4.

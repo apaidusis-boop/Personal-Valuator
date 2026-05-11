@@ -1,0 +1,65 @@
+on. The
+firm expects its operating income to grow 4% in perpetuity, and expects to maintain its existing
+reinvestment rate. Atlantic has a capital structure composed 60% of equity and 40% of debt. Its
+
+cost of equity is 12% and it has a pretax cost of borrowing of 8%. The firm currently faces a tax
+rate of 40%.
+a.
+ Estimate the value of the firm.
+b.
+ Assume now that Atlantic Cruise Lines will move its headquarters to the Cayman Islands. If
+its tax rate drops to 0% as a consequence, estimate the effect on value of the shift.
+4.
+ Furniture Depot is a retail chain selling furniture and appliances. The firm has after-tax
+operating income of $250 million in the current year on revenues of $5 billion. The firm also has
+noncash working capital of $1 billion. The net capital expenditures this year of $100 million, and
+expects revenues, operating income and net capital expenditures to grow 5% a year forever. The
+firm’s cost of capital is 9%.
+a.
+ Assume that noncash working capital remains at the existing percent of revenues, estimate the
+value of the firm.
+b.
+ Assume now that the firm is able to reduce its noncash working capital requirement by 50%.
+Estimate the effect on value of this change.
+c.
+ If as a consequence of this noncash working capital change, earnings growth declines to
+4.75%, what would the effect on value be of the drop in noncash working capital?
+5.
+ General Systems is a firm that manufactures personal computers. As a top manager in the firm,
+you are considering changes in the way the firm is run. Currently, the firm has after-tax operating
+income of $50 million on capital invested of $250 million (at the beginning of the year). The firm
+also reinvests $25 million in net capital expenditures and working capital.
+a.
+ Estimate the expected growth rate in earnings, given the firm’s current return on capital and
+reinvestment rate.
+b.
+ Holding the return on capital constant, what would happen to the expected growth rate if the
+firm increased its reinvestment rate to 80%?
+c.
+ What would the effect on growth be if, as the reinvestment rate increases to 80%, the return on
+capital on investments drops by 5%? (For instance, if the return on capital is currently 18%, it
+will drop to 13%.)
+6.
+ Compaq Computer has seen its stock price decline from $45 to $24. The firm is expected to
+reinvest 50% of its expected after-tax operating income of $2 billion in new investments, and
+expects to earn a return on capital of 10.69%. The firm is all equity financed and has a cost of
+equity of 11.5%.
+a.
+ What is the firm’s expected growth rate, assuming that it maintains its existing reinvestment
+rate and return on capital?
+b.
+ Assuming that this growth is perpetual, what is the value of the firm?
+c.
+ How much value is being created or destroyed by the firm’s new investments?
+7.
+ Referring to problem 6, now assume that Compaq’s optimal debt ratio is 20%. Its cost of equity
+will increase to 12.5%, and its after-tax cost of debt will be 4.5% at the optimal debt ratio.
+a.
+ What is the firm’s expected growth rate, assuming it maintains its existing reinvestment rate
+and return on capital?
+b.
+ Assuming this growth is perpetual, what is the value of the firm?
+c.
+ How much value is being created or destroyed by the firm’s new investments?
+8.
+ Coca-Cola is considered to have one of the most valuable brand names in the world. The firm

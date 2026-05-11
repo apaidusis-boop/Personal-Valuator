@@ -1,0 +1,31 @@
+ly half of the small firm premium described in the prior
+section is earned in the first two weeks of January. 
+Figure 6.13
+ graphs returns in January by size and
+risk class for data from 1935 to 1986.
+
+Figure 6.13
+ Returns in January by Size and Risk Class, 1935–1986
+Source:
+ Ritter and Chopra (1989).
+A number of explanations have been advanced for the January effect, but few hold up to serious
+scrutiny. Reinganum suggested that there is tax loss selling by investors at the end of the year on
+stocks that have lost money to capture the capital gain, driving prices down, presumably below true
+value, in December, and a buying back of the same stocks in January,
+12
+ resulting in the high returns.
+The fact that the January effect is accentuated for stocks that have done worse over the prior year is
+offered as evidence for this explanation. There are several pieces of evidence that contradict it,
+though. First, there are countries, like Australia, that have a different tax year but continue to have a
+January effect. Second, the January effect is no greater, on average, in years following bad years for
+the stock market than in other years.
+A second rationale is that the January effect is related to institutional trading behavior around the
+turn of the years. It has been noted, for instance, that the ratio of buys to sells for institutions drops
+significantly below average in the days before the turn of the year and picks up to above average in
+the months that follow. This is illustrated in 
+Figure 6.14
+. It is argued that the absence of institutional
+buying pushes down prices in the days before the turn of the year and pushes up prices in the days
+after.
+Figure 6.14
+ Institutional Buying/Selling around Year-End

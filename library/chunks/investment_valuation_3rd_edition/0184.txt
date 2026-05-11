@@ -1,0 +1,32 @@
+ble
+7.5
+ summarizes default spreads estimated for selected countries in January 2011, using both the
+sovereign rating and CDS approaches.
+Table 7.5
+ Default Spreads for Selected Countries—January 2011
+
+Analysts who use default spreads as measures of country risk typically add them on to the cost of
+both equity and debt of every company traded in that country. For instance, the cost of equity for a
+Peruvian company, estimated in U.S. dollars, will be 2.00 percent higher than the cost of equity of an
+otherwise similar U.S. company. If we assume that the risk premium for the United States and other
+mature equity markets is 4.31 percent, the cost of equity for a Peruvian company with a beta of 1.2
+can be estimated as follows (with a U.S. Treasury bond rate of 3.5 percent).
+In some cases, analysts add the default spread to the U.S. risk premium and multiply the total risk
+premium by the beta. This increases the cost of equity for high-beta companies and lowers it for low-
+beta firms.
+While ratings provide a convenient measure of country risk, there are costs associated with using
+them as the only measure. First, ratings agencies often lag markets when it comes to responding to
+changes in the underlying default risk. Second, the ratings agency focus on default risk may obscure
+other risks that could still affect equity markets. What are the alternatives? There are numerical
+country risk scores that have been developed by some services as much more comprehensive
+measures of risk. The 
+Economist
+, for instance, has a score that runs from 0 to 100 (where 0 is no risk,
+and 100 is most risky) that it uses to rank emerging markets. Alternatively, country risk can be
+estimated from the bottom up by looking at economic fundamentals in each country. This, of course,
+requires significantly more information than the other approaches. Finally, default spreads measure
+the risk associated with bonds issued by countries and not the equity risk in these countries. Since
+equities in any market are likely to be more risky than bonds, you could argue that default spreads
+understate equity risk premiums.
+Relative Standard Deviations
+There are some analysts who believe that investors in equity markets choose among these markets

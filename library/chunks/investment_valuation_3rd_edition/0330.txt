@@ -1,0 +1,7 @@
+ult in a higher growth rate in operating earnings at
+Motorola over that period. Note that this calculation assumes that the return on capital on new investments next year will be
+17.22%.
+chgrowth.xls:
+
+This spreadsheet allows you to estimate the expected growth rate in operating income for
+a firm where the return on capital is expected to change over time.

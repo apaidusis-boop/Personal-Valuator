@@ -1,0 +1,64 @@
+kely that the operating margins for online retailers can be persistently higher than their brick-
+and-mortar counterparts. If they were, you would expect to see a migration of traditional retailers to
+
+online retailing and increased competition among online retailers on price and products, driving the
+margin down.
+While the margin for the business in which a firm operates provides a target value, there are still
+two other estimation issues that you need to confront. Given that the operating margins in the early
+stages of the life cycle are negative, you first have to consider how the margin will improve from
+current levels to the target values. Generally, the improvements in margins will be greatest in the
+earlier years (at least in percentage terms) and then taper off as the firm approaches maturity. The
+second issue is one that is linked to revenue growth. Firms may be able to post higher revenue growth
+with lower margins but the trade-off has to be considered. While firms generally want both higher
+revenue growth and higher margin, the margin and revenue growth assumptions have to be consistent.
+ILLUSTRATION 11.13: Estimating Operating Margins
+To estimate the operating margins for Tesla Motors, we begin by estimating the operating margins of established firms in the
+automobile sector. In 2010, the average pretax operating margin for firms in this sector was 10%. For Linkedin, we will use
+the average pretax operating margin of firms like Yahoo!, Google and Baidu, which is 25%.
+We will assume that both Tesla Motors and Linkedin will move toward their target margins, with greater marginal
+improvements
+9
+ in the earlier years and smaller ones in the later years. The following table summarizes the expected
+operating margins over time for both firms:
+Tesla Motors
+Linkedin
+Current
+–69.87%
+8.23%
+1
+–43.25%
+11.62%
+2
+–25.50%
+13.31%
+3
+–13.67%
+14.15%
+4
+–5.78%
+14.58%
+5
+–0.52%
+14.79%
+6
+2.99%
+14.89%
+7
+5.33%
+14.95%
+8
+6.88%
+14.97%
+9
+7.92%
+14.99%
+10
+8.61%
+14.99%
+Terminal year
+10.00%
+15.00%
+Note that while margins improve for both companies, we are assuming that it will happen faster at Linkedin, a company that
+is already profitable, than at Tesla Motors, with its more substantial operating challenges. Since we estimated revenue
+growth in the preceding section and the margins in this one, we can now estimate the pretax operating income at each of the
+firms over the next 10 years:

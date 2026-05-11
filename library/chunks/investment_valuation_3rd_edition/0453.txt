@@ -1,0 +1,28 @@
+rocess again
+replicates what was done in the cost of capital approach.
+4.
+
+Use the rating to estimate a probability of default.
+ Note that 
+Table 15.2
+ provides these
+probabilities for each rating.
+5.
+
+Estimate the expected bankruptcy cost
+ by multiplying the probability of bankruptcy by the
+bankruptcy cost, stated as a percent of unlevered firm value.
+You compute the value of the levered firm at different levels of debt. The debt level that maximizes
+the value of the levered firm is the optimal debt ratio.
+ILLUSTRATION 15.8: APV Approach to Optimal Capital
+Structure: Disney in March 2009
+The APV approach can be applied to estimating the optimal capital structure for Disney. The first step is to estimate the
+value of the unlevered firm. To do so, we start with the market value of Disney in 2009 and net out the effect of the tax
+savings and bankruptcy costs arising from the existing debt.
+We first compute the present value of the tax savings from the existing debt, assuming that the interest payment on the debt
+constitutes a perpetuity, using a marginal tax rate for Disney of 38%.
+Based on Disney's current rating of A, we estimate a probability of bankruptcy of 0.66% from 
+Table 15.2
+. The bankruptcy
+cost is assumed to be 25% of the firm value, prior to the tax savings. Allowing for a range of 10% to 40% for bankruptcy
+costs, we have put Disney's exposure to expected bankruptcy costs in the middle of the range. There are some businesses

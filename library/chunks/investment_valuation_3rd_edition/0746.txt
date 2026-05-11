@@ -1,0 +1,30 @@
+price offered by the acquirer, if there are other firms bidding for the same target firm or if an
+insufficient number of stockholders tender at that initial price. For instance, in 1991 AT&T initially
+
+offered to buy NCR for $80 per share, a premium of $25 over the stock price at the time of the offer.
+AT&T ultimately paid $110 per share to complete the acquisition.
+There is one final comparison that can be made, and that is between the price paid on the
+acquisition and the accounting book value of the equity in the firm being acquired. After the
+acquisition is complete, the target firm's assets can be reappraised, following strict accounting rules,
+to fair value to estimate the adjusted book value of equity. Depending on how the acquisition is
+accounted for, the difference between the acquisition price and the adjusted book value of equity will
+be recorded as goodwill on the acquiring firm's books or not be recorded at all. 
+Figure 25.2
+ presents
+the breakdown of the acquisition price into these component parts.
+Figure 25.2
+ Breaking Down the Acquisition Price
+Source: Corporate Finance: Theory and Practice
+, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley &
+Sons, Inc. This material is used by permission of John Wiley & Sons, Inc.
+EMPIRICAL EVIDENCE ON THE VALUE EFFECTS
+OF TAKEOVERS
+Many researchers have studied the effects of takeovers on the value of both the target firm and the
+bidder firm. The evidence indicates that the stockholders of target firms are the clear winners in
+takeovers; they earn significant excess returns
+1
+ not only around the announcement of the acquisitions,
+but also in the weeks leading up to it. Jensen and Ruback (1983) reviewed 13 studies that look at
+returns around takeover announcements and reported an average excess return of 30 percent to target
+stockholders in successful tender offers and 20 percent to target stockholders in successful mergers.
+Jarrell, Brickley, and Netter (1988) reviewed the results of 663 tender offers made between 1962 and

@@ -1,0 +1,53 @@
+the higher financial risk the firm will face after the leveraged buyout. Second, the expected
+decrease in this debt over time, as the firm liquidates assets and pays off debt, implies that the cost of
+
+equity will also decrease over time. Since the cost of debt and debt ratio will change over time as
+well, the cost of capital will also change in each period.
+In valuing a leveraged buyout, then, we begin with the estimates of free cash flow to the firm, just as
+we did in traditional valuation. However, instead of discounting these cash flows back at a fixed cost
+of capital, we discount them back at a cost of capital that will vary from year to year. Once we value
+the firm, we then can compare the value to the total amount paid for the firm.
+ILLUSTRATION 25.6: Valuing a Leveraged Buyout:
+Congoleum Inc.
+The managers of Congoleum Inc. targeted the firm for a leveraged buyout in 1979.
+13
+ They planned to buy back the stock at
+$38 per share (it was trading at $24 prior to the takeover) and to finance the acquisition primarily with debt. The breakdown
+of the cost and financing of the deal is:
+Cost of Takeover
+Buy back stock: $38 × 12.2 million shares
+$463.60 million
+Expenses of takeover
+$ 7.00 million
+Total cost
+$470.60 million
+Financing Mix for Takeover
+Equity
+$117.30 million
+Debt
+$327.10 million
+Preferred stock (@13.5%)
+$ 26.20 million
+Total proceeds
+$470.60 million
+There were three sources of debt:
+1.
+ Bank debt of $125 million, at a 14% interest rate, to be repaid in annual installments of $16.666 million starting in 1980.
+2.
+ Senior notes of $115 million, at 11.25% interest rate, to be repaid in equal annual installments of $7.636 million each
+year from 1981.
+3.
+ Subordinated notes of $92 million, at 12.25% interest, to be repaid in equal annual installments of $7.636 million each
+year from 1989.
+The firm also assumed $12.2 million of existing debt, at the advantageous rate of 7.50%; this debt would be repaid in 1982.
+14
+The firm projected operating income (EBIT), capital spending, depreciation, and change in working capital from 1980 to 1984
+as shown in the following table (in millions of dollars):
+The earnings before interest and taxes were expected to grow 8% after 1984, and the capital spending was expected to be
+offset by depreciation.
+15
+Congoleum had a beta of 1.25 in 1979 prior to the leveraged buyout. The Treasury bond rate at the time of the leveraged
+buyout was 9.5%, and the tax rate was 48%.
+We begin the analysis by estimating the expected cash flows to the firm from 1980 to 1985. To obtain these estimates, we
+subtract the net capital expenditures and changes in working capital (which were provided) from the after-tax operating
+income.

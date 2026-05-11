@@ -1,0 +1,55 @@
+million
+shares outstanding, trading at $11 per share. The pretax interest rate on debt owed by the firm was
+8.5%, and the stock had a beta of 1.15. The firm's EBIT was expected to increase 10% a year
+
+from 1993 to 1996, after which the growth rate is expected to drop to 4% in the long term. The
+return on capital in stable growth is 10%. (The corporate tax rate was 40%, the Treasury bond
+rate was 7%, and the market risk premium is 5.5%.)
+a.
+ Estimate the cost of capital for OHM.
+b.
+ Estimate the value of the firm.
+c.
+ Estimate the value of equity (both total and on a per share basis).
+6.
+ You have been provided the following information on CEL Inc., a manufacturer of high-end
+stereo systems.
+In the most recent year, which was a bad one, the company made only $40 million in net
+income. It expects next year to be more normal. The book value of equity at the company is $1
+billion, and the average return on equity over the previous 10 years (assumed to be a normal
+period) was 10%.
+The company expects to make $80 million in new capital expenditures next year. It expects
+depreciation, which was $60 million this year, to grow 5% next year.
+The company had revenues of $1.5 billion this year, and it maintained a noncash working
+capital investment of 10% of revenues. It expects revenues to increase 5% next year and
+working capital to decline to 9.5% of revenues.
+The firm expects to maintain its existing debt policy (in market value terms). The market value
+of equity is $1.5 billion, and the book value of equity is $500 million. The debt outstanding (in
+both book and market terms) is $500 million.
+The cost of equity for the firm is 9%.
+a.
+ Estimate the FCFE next year.
+b.
+ Estimate the value of the equity assuming that the firm can grow 5% a year in
+perpetuity.
+7.
+ Tenet Telecommunications is in serious financial trouble and has just reported an operating
+loss of $500 million on revenues of $5 billion. The firm also had capital expenditures of $1.8
+billion and depreciation of $800 million in the most recent financial year, and no significant
+noncash working capital requirements. You assume that:
+Revenues will continue to grow 10% a year for the next five years and 5% in perpetuity after
+that.
+EBITDA as a percent of sales will increase in linear increments from existing levels to 20%
+of revenues in year 5.
+Capital expenditures can be cut to $600 million each year for the next five years, while
+depreciation will remain at $800 million each year.
+The net operating loss carried forward is $700 million.
+Return on capital in perpetuity after year 5 will be 10%.
+Cost of capital for the firm is 9% in perpetuity.
+a.
+ Estimate the EBITDA, EBIT, and after-tax EBIT for the firm each year for the next five
+years, assuming a corporate tax rate of 40%.
+b.
+ Estimate the FCFF each year for the next five years.
+c.
+ Estimate the terminal value of the firm.

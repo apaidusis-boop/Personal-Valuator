@@ -1,0 +1,43 @@
+tape.
+4
+ The t statistics are reported in brackets below the coefficients.
+5
+ In a multiple regression, the independent variables should be independent of each other.
+6
+ The PEG ratio is capped at 10.
+
+CHAPTER 
+19
+Book Value Multiples
+The relationship between price and book value has always attracted the attention of investors. Stocks
+selling for well below the book value of equity have generally been considered undervalued, while
+those selling for more than book value have been targeted as overvalued. This chapter begins by
+examining the price–book value (PBV) ratio in more detail, the determinants of this ratio, and how
+best to evaluate or estimate the ratio.
+In the next part of the chapter, we turn our attention to variants of the price-to-book ratio. In
+particular, we focus on the value-to-book ratio and Tobin's Q—a ratio of market value of assets to
+their replacement cost.
+PRICE-TO-BOOK EQUITY
+The market value of the equity in a firm reflects the market's expectation of the firm's earning power
+and cash flows. The book value of equity is the difference between the book value of assets and the
+book value of liabilities, a number that is largely determined by accounting conventions. In the United
+States, the book value of assets is the original price paid for the assets reduced by any allowable
+depreciation on the assets. Consequently, the book value of an asset generally decreases as it ages.
+The book value of liabilities similarly reflects the at-issue values of the liabilities. Since the book
+value of an asset reflects its original cost, it might deviate significantly from market value if the
+earning power of the asset has increased or declined significantly since its acquisition.
+Why Analysts Use Book Value and the Downside
+There are several reasons why investors find the price–book value ratio useful in investment analysis.
+The first is that the book value provides a relatively stable, intuitive measure of value that can be
+compared to the market price. For investors who instinctively mistrust discounted cash flow estimates
+of value, the book value is a much simpler benchmark for comparison. The second is that, given
+reasonably consistent accounting standards across firms, price–book value ratios can be compared
+across similar firms for signs of under- or overvaluation. Finally, even firms with negative earnings,
+which cannot be valued using price-earnings ratios, can be evaluated using price–book value ratios;
+there are far fewer firms with negative book value for equity than there are firms with negative
+earnings.
+There are several disadvantages associated with measuring and using price–book value ratios.
+First, book values, like earnings, are affected by accounting decisions on depreciation and other
+variables. When accounting standards vary widely across firms, the price–book value ratios may not
+be comparable. A similar statement can be made about comparing price–book value ratios across
+countries with different accounting standards. Second, book value may not carry much meaning for

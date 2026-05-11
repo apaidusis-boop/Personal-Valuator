@@ -1,0 +1,14 @@
+Recent technological developments have accelerated the [digitization of finance](https://www.investopedia.com/how-technology-is-changing-financial-advice-4774011), especially with the uptake of AI and machine learning. The attention to AI has also renewed interest in robo-advisors, which are a popular choice, especially among newer investors. The global market was valued at $6.61 billion in 2023 and is projected to reach $41.83 billion by 2030, reflecting a compound annual growth rate of 30.5%.1
+
+“Robo-advisors provide digital financial advice based upon mathematical rules or algorithms,” said [Robert Johnson](https://www.economicindexassociates.com/robert-r-johnson), chartered financial analyst and CEO of Economic Index Associates. “They attempt to fill a need for the masses to get financial advice in a cost-efficient manner. The cost of robo-advisors is considerably less than that of human advisors.”
+
+Below, we'll explore what you should know about these platforms: how they work, how they can help automate your wealth management, and the drawbacks they have.
+
+### Key Takeaways
+
+- Robo-advisors use algorithms and data analysis to build and maintain client portfolios with a minimum of human interference.
+- Because they work automatically, robo-advisors tend to cost less than traditional financial advisors, with fees often ranging from around 0.25% to 0.50% of assets under management.
+- Robo-advisors typically invest primarily in exchange-traded funds (ETFs) and mutual funds, enabling easy diversification and flexible exposure to various market segments.
+- If you want personalized guidance or emotional support, you’ll need to work with a human financial advisor.
+
+## What Is a Robo-Advisor?

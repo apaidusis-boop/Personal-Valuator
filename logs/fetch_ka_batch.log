@@ -1,0 +1,248 @@
+[batch] vai fazer fetch de 81 tickers (period=5y)
+{"ts": "2026-04-21T16:42:50Z", "event": "yf_us_fetch_start", "ticker": "AWR", "period": "5y"}
+{"ts": "2026-04-21T16:42:55Z", "event": "yf_us_persisted", "ticker": "AWR", "prices": 1256, "dividends": 156, "period_end": "2026-04-21", "pe": 23.2819, "pb": 2.9327552, "dy": 0.0256, "roe": 0.13272001, "streak": 40}
+[1/81] OK  AWR    prices=1256 div=156
+{"ts": "2026-04-21T16:42:55Z", "event": "yf_us_fetch_start", "ticker": "NWN", "period": "5y"}
+{"ts": "2026-04-21T16:42:58Z", "event": "yf_us_persisted", "ticker": "NWN", "prices": 1256, "dividends": 145, "period_end": "2026-04-21", "pe": 18.965704, "pb": 1.4802761, "dy": 0.0369, "roe": 0.079229996, "streak": 37}
+[2/81] OK  NWN    prices=1256 div=145
+{"ts": "2026-04-21T16:42:58Z", "event": "yf_us_fetch_start", "ticker": "ABM", "period": "5y"}
+{"ts": "2026-04-21T16:43:00Z", "event": "yf_us_persisted", "ticker": "ABM", "prices": 1256, "dividends": 167, "period_end": "2026-04-21", "pe": 15.822834, "pb": 1.3657988, "dy": 0.0288, "roe": 0.08997, "streak": 43}
+[3/81] OK  ABM    prices=1256 div=167
+{"ts": "2026-04-21T16:43:01Z", "event": "yf_us_fetch_start", "ticker": "CWT", "period": "5y"}
+{"ts": "2026-04-21T16:43:03Z", "event": "yf_us_persisted", "ticker": "CWT", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 21.655813, "pb": 1.6436036, "dy": 0.0264, "roe": 0.07678, "streak": 40}
+[4/81] OK  CWT    prices=1256 div=157
+{"ts": "2026-04-21T16:43:04Z", "event": "yf_us_fetch_start", "ticker": "CBSH", "period": "5y"}
+{"ts": "2026-04-21T16:43:07Z", "event": "yf_us_persisted", "ticker": "CBSH", "prices": 1256, "dividends": 156, "period_end": "2026-04-21", "pe": 12.641089, "pb": 1.8549998, "dy": 0.021400000000000002, "roe": 0.1597, "streak": 39}
+[5/81] OK  CBSH   prices=1256 div=156
+{"ts": "2026-04-21T16:43:07Z", "event": "yf_us_fetch_start", "ticker": "SCL", "period": "5y"}
+{"ts": "2026-04-21T16:43:10Z", "event": "yf_us_persisted", "ticker": "SCL", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 24.863417, "pb": 0.9269801, "dy": 0.030600000000000002, "roe": 0.03885, "streak": 40}
+[6/81] OK  SCL    prices=1256 div=157
+{"ts": "2026-04-21T16:43:10Z", "event": "yf_us_fetch_start", "ticker": "FUL", "period": "5y"}
+{"ts": "2026-04-21T16:43:12Z", "event": "yf_us_persisted", "ticker": "FUL", "prices": 1256, "dividends": 156, "period_end": "2026-04-21", "pe": 21.980968, "pb": 1.675591, "dy": 0.0151, "roe": 0.083179995, "streak": 40}
+[7/81] OK  FUL    prices=1256 div=156
+{"ts": "2026-04-21T16:43:13Z", "event": "yf_us_fetch_start", "ticker": "TR", "period": "5y"}
+{"ts": "2026-04-21T16:43:15Z", "event": "yf_us_persisted", "ticker": "TR", "prices": 1256, "dividends": 159, "period_end": "2026-04-21", "pe": 31.19549, "pb": 3.3099325, "dy": 0.86, "roe": 0.110419996, "streak": 41}
+[8/81] OK  TR     prices=1256 div=159
+{"ts": "2026-04-21T16:43:15Z", "event": "yf_us_fetch_start", "ticker": "MSA", "period": "5y"}
+{"ts": "2026-04-21T16:43:18Z", "event": "yf_us_persisted", "ticker": "MSA", "prices": 1256, "dividends": 145, "period_end": "2026-04-21", "pe": 24.19155, "pb": 4.901966, "dy": 0.012199999999999999, "roe": 0.22222, "streak": 37}
+[9/81] OK  MSA    prices=1256 div=145
+{"ts": "2026-04-21T16:43:18Z", "event": "yf_us_fetch_start", "ticker": "NFG", "period": "5y"}
+{"ts": "2026-04-21T16:43:21Z", "event": "yf_us_persisted", "ticker": "NFG", "prices": 1256, "dividends": 154, "period_end": "2026-04-21", "pe": 12.086472, "pb": 2.2949605, "dy": 0.024700000000000003, "roe": 0.20665, "streak": 40}
+[10/81] OK  NFG    prices=1256 div=154
+{"ts": "2026-04-21T16:43:21Z", "event": "yf_us_fetch_start", "ticker": "UVV", "period": "5y"}
+{"ts": "2026-04-21T16:43:23Z", "event": "yf_us_persisted", "ticker": "UVV", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 15.235989, "pb": 0.86806726, "dy": 0.0635, "roe": 0.06966, "streak": 41}
+[11/81] OK  UVV    prices=1256 div=158
+{"ts": "2026-04-21T16:43:24Z", "event": "yf_us_fetch_start", "ticker": "BKH", "period": "5y"}
+{"ts": "2026-04-21T16:43:26Z", "event": "yf_us_persisted", "ticker": "BKH", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 18.547739, "pb": 1.4571942, "dy": 0.037200000000000004, "roe": 0.08004, "streak": 39}
+[12/81] OK  BKH    prices=1256 div=157
+{"ts": "2026-04-21T16:43:26Z", "event": "yf_us_fetch_start", "ticker": "LEG", "period": "5y"}
+{"ts": "2026-04-21T16:43:29Z", "event": "yf_us_persisted", "ticker": "LEG", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 6.9319525, "pb": 1.5530956, "dy": 0.0167, "roe": 0.27487, "streak": 40}
+[13/81] OK  LEG    prices=1256 div=157
+{"ts": "2026-04-21T16:43:29Z", "event": "yf_us_fetch_start", "ticker": "TNC", "period": "5y"}
+{"ts": "2026-04-21T16:43:32Z", "event": "yf_us_persisted", "ticker": "TNC", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 33.625004, "pb": 2.3541193, "dy": 0.015700000000000002, "roe": 0.07148, "streak": 40}
+[14/81] OK  TNC    prices=1256 div=157
+{"ts": "2026-04-21T16:43:32Z", "event": "yf_us_fetch_start", "ticker": "GRC", "period": "5y"}
+{"ts": "2026-04-21T16:43:34Z", "event": "yf_us_persisted", "ticker": "GRC", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 32.88614, "pb": 4.214834, "dy": 0.0116, "roe": 0.13447, "streak": 40}
+[15/81] OK  GRC    prices=1256 div=157
+{"ts": "2026-04-21T16:43:35Z", "event": "yf_us_fetch_start", "ticker": "MSEX", "period": "5y"}
+{"ts": "2026-04-21T16:43:37Z", "event": "yf_us_persisted", "ticker": "MSEX", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 22.692799, "pb": 2.0077603, "dy": 0.026099999999999998, "roe": 0.09089, "streak": 40}
+[16/81] OK  MSEX   prices=1256 div=158
+{"ts": "2026-04-21T16:43:37Z", "event": "yf_us_fetch_start", "ticker": "RPM", "period": "5y"}
+{"ts": "2026-04-21T16:43:40Z", "event": "yf_us_persisted", "ticker": "RPM", "prices": 1256, "dividends": 155, "period_end": "2026-04-21", "pe": 20.842003, "pb": 4.395725, "dy": 0.0197, "roe": 0.22903, "streak": 40}
+[17/81] OK  RPM    prices=1256 div=155
+{"ts": "2026-04-21T16:43:40Z", "event": "yf_us_fetch_start", "ticker": "TDS", "period": "5y"}
+{"ts": "2026-04-21T16:43:43Z", "event": "yf_us_persisted", "ticker": "TDS", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 115.53847, "pb": 1.373027, "dy": 0.35, "roe": 0.02711, "streak": 40}
+[18/81] OK  TDS    prices=1256 div=158
+{"ts": "2026-04-21T16:43:43Z", "event": "yf_us_fetch_start", "ticker": "RLI", "period": "5y"}
+{"ts": "2026-04-21T16:43:46Z", "event": "yf_us_persisted", "ticker": "RLI", "prices": 1256, "dividends": 156, "period_end": "2026-04-21", "pe": 13.191076, "pb": 2.978454, "dy": 0.0111, "roe": 0.24443, "streak": 40}
+[19/81] OK  RLI    prices=1256 div=156
+{"ts": "2026-04-21T16:43:46Z", "event": "yf_us_fetch_start", "ticker": "MGEE", "period": "5y"}
+{"ts": "2026-04-21T16:43:48Z", "event": "yf_us_persisted", "ticker": "MGEE", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 21.112904, "pb": 2.2010481, "dy": 0.0239, "roe": 0.107250005, "streak": 40}
+[20/81] OK  MGEE   prices=1256 div=158
+{"ts": "2026-04-21T16:43:49Z", "event": "yf_us_fetch_start", "ticker": "DOV", "period": "5y"}
+{"ts": "2026-04-21T16:43:52Z", "event": "yf_us_persisted", "ticker": "DOV", "prices": 1256, "dividends": 174, "period_end": "2026-04-21", "pe": 27.622961, "pb": 4.0089407, "dy": 0.94, "roe": 0.15285, "streak": 45}
+[21/81] OK  DOV    prices=1256 div=174
+{"ts": "2026-04-21T16:43:52Z", "event": "yf_us_fetch_start", "ticker": "GPC", "period": "5y"}
+{"ts": "2026-04-21T16:43:55Z", "event": "yf_us_persisted", "ticker": "GPC", "prices": 1256, "dividends": 171, "period_end": "2026-04-21", "pe": 242.5319, "pb": 3.546671, "dy": 0.0377, "roe": 0.015, "streak": 44}
+[22/81] OK  GPC    prices=1256 div=171
+{"ts": "2026-04-21T16:43:55Z", "event": "yf_us_fetch_start", "ticker": "PH", "period": "5y"}
+{"ts": "2026-04-21T16:43:57Z", "event": "yf_us_persisted", "ticker": "PH", "prices": 1256, "dividends": 162, "period_end": "2026-04-21", "pe": 35.625916, "pb": 8.609163, "dy": 0.72, "roe": 0.25781, "streak": 42}
+[23/81] OK  PH     prices=1256 div=162
+{"ts": "2026-04-21T16:43:58Z", "event": "yf_us_fetch_start", "ticker": "EMR", "period": "5y"}
+{"ts": "2026-04-21T16:44:00Z", "event": "yf_us_persisted", "ticker": "EMR", "prices": 1256, "dividends": 215, "period_end": "2026-04-21", "pe": 35.568626, "pb": 4.0221725, "dy": 0.0151, "roe": 0.09646, "streak": 55}
+[24/81] OK  EMR    prices=1256 div=215
+{"ts": "2026-04-21T16:44:01Z", "event": "yf_us_fetch_start", "ticker": "CINF", "period": "5y"}
+{"ts": "2026-04-21T16:44:03Z", "event": "yf_us_persisted", "ticker": "CINF", "prices": 1256, "dividends": 160, "period_end": "2026-04-21", "pe": 10.974951, "pb": 1.6260854, "dy": 0.021400000000000002, "roe": 0.16036, "streak": 41}
+[25/81] OK  CINF   prices=1256 div=160
+{"ts": "2026-04-21T16:44:03Z", "event": "yf_us_fetch_start", "ticker": "CL", "period": "5y"}
+{"ts": "2026-04-21T16:44:06Z", "event": "yf_us_persisted", "ticker": "CL", "prices": 1256, "dividends": 212, "period_end": "2026-04-21", "pe": 31.361217, "pb": 1231.0448, "dy": 0.0254, "roe": 4.9747, "streak": 54}
+[26/81] OK  CL     prices=1256 div=212
+{"ts": "2026-04-21T16:44:06Z", "event": "yf_us_fetch_start", "ticker": "NDSN", "period": "5y"}
+{"ts": "2026-04-21T16:44:09Z", "event": "yf_us_persisted", "ticker": "NDSN", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 30.938787, "pb": 5.1186614, "dy": 0.0116, "roe": 0.17473, "streak": 41}
+[27/81] OK  NDSN   prices=1256 div=157
+{"ts": "2026-04-21T16:44:09Z", "event": "yf_us_fetch_start", "ticker": "HRL", "period": "5y"}
+{"ts": "2026-04-21T16:44:11Z", "event": "yf_us_persisted", "ticker": "HRL", "prices": 1256, "dividends": 159, "period_end": "2026-04-21", "pe": 23.926968, "pb": 1.4759495, "dy": 0.054900000000000004, "roe": 0.061160002, "streak": 40}
+[28/81] OK  HRL    prices=1256 div=159
+{"ts": "2026-04-21T16:44:12Z", "event": "yf_us_fetch_start", "ticker": "FRT", "period": "5y"}
+{"ts": "2026-04-21T16:44:14Z", "event": "yf_us_persisted", "ticker": "FRT", "prices": 1256, "dividends": 155, "period_end": "2026-04-21", "pe": 23.844017, "pb": 3.1164298, "dy": 0.04, "roe": 0.12235, "streak": 40}
+[29/81] OK  FRT    prices=1256 div=155
+{"ts": "2026-04-21T16:44:15Z", "event": "yf_us_fetch_start", "ticker": "SWK", "period": "5y"}
+{"ts": "2026-04-21T16:44:17Z", "event": "yf_us_persisted", "ticker": "SWK", "prices": 1256, "dividends": 165, "period_end": "2026-04-21", "pe": 29.007547, "pb": 1.3161995, "dy": 0.044199999999999996, "roe": 0.04522, "streak": 42}
+[30/81] OK  SWK    prices=1256 div=165
+{"ts": "2026-04-21T16:44:17Z", "event": "yf_us_fetch_start", "ticker": "MO", "period": "5y"}
+{"ts": "2026-04-21T16:44:20Z", "event": "yf_us_persisted", "ticker": "MO", "prices": 1256, "dividends": 258, "period_end": "2026-04-21", "pe": 15.762137, "pb": -31.042067, "dy": 0.06559999999999999, "roe": null, "streak": 65}
+[31/81] OK  MO     prices=1256 div=258
+{"ts": "2026-04-21T16:44:20Z", "event": "yf_us_fetch_start", "ticker": "SYY", "period": "5y"}
+{"ts": "2026-04-21T16:44:23Z", "event": "yf_us_persisted", "ticker": "SYY", "prices": 1256, "dividends": 156, "period_end": "2026-04-21", "pe": 20.307276, "pb": 15.804488, "dy": 0.0288, "roe": 0.82345, "streak": 40}
+[32/81] OK  SYY    prices=1256 div=156
+{"ts": "2026-04-21T16:44:23Z", "event": "yf_us_fetch_start", "ticker": "ITW", "period": "5y"}
+{"ts": "2026-04-21T16:44:26Z", "event": "yf_us_persisted", "ticker": "ITW", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 25.89, "pb": 24.326174, "dy": 0.0236, "roe": 0.93718004, "streak": 40}
+[33/81] OK  ITW    prices=1256 div=158
+{"ts": "2026-04-21T16:44:26Z", "event": "yf_us_fetch_start", "ticker": "GWW", "period": "5y"}
+{"ts": "2026-04-21T16:44:28Z", "event": "yf_us_persisted", "ticker": "GWW", "prices": 1256, "dividends": 165, "period_end": "2026-04-21", "pe": 32.96946, "pb": 14.796858, "dy": 0.78, "roe": 0.46098998, "streak": 42}
+[34/81] OK  GWW    prices=1256 div=165
+{"ts": "2026-04-21T16:44:29Z", "event": "yf_us_fetch_start", "ticker": "PPG", "period": "5y"}
+{"ts": "2026-04-21T16:44:31Z", "event": "yf_us_persisted", "ticker": "PPG", "prices": 1256, "dividends": 172, "period_end": "2026-04-21", "pe": 16.178469, "pb": 3.1499352, "dy": 0.0248, "roe": 0.21077, "streak": 44}
+[35/81] OK  PPG    prices=1256 div=172
+{"ts": "2026-04-21T16:44:31Z", "event": "yf_us_fetch_start", "ticker": "TGT", "period": "5y"}
+{"ts": "2026-04-21T16:44:34Z", "event": "yf_us_persisted", "ticker": "TGT", "prices": 1256, "dividends": 172, "period_end": "2026-04-21", "pe": 16.276413, "pb": 3.7115166, "dy": 0.035, "roe": 0.24034001, "streak": 44}
+[36/81] OK  TGT    prices=1256 div=172
+{"ts": "2026-04-21T16:44:34Z", "event": "yf_us_fetch_start", "ticker": "ABT", "period": "5y"}
+{"ts": "2026-04-21T16:44:37Z", "event": "yf_us_persisted", "ticker": "ABT", "prices": 1256, "dividends": 175, "period_end": "2026-04-21", "pe": 26.2493, "pb": 3.1217935, "dy": 0.0263, "roe": null, "streak": 44}
+[37/81] OK  ABT    prices=1256 div=175
+{"ts": "2026-04-21T16:44:37Z", "event": "yf_us_fetch_start", "ticker": "BDX", "period": "5y"}
+{"ts": "2026-04-21T16:44:40Z", "event": "yf_us_persisted", "ticker": "BDX", "prices": 1256, "dividends": 174, "period_end": "2026-04-21", "pe": 25.81291, "pb": 1.7792182, "dy": 0.0265, "roe": 0.0696, "streak": 44}
+[38/81] OK  BDX    prices=1256 div=174
+{"ts": "2026-04-21T16:44:40Z", "event": "yf_us_fetch_start", "ticker": "KMB", "period": "5y"}
+{"ts": "2026-04-21T16:44:43Z", "event": "yf_us_persisted", "ticker": "KMB", "prices": 1256, "dividends": 166, "period_end": "2026-04-21", "pe": 20.023663, "pb": 21.506077, "dy": 0.052000000000000005, "roe": 1.26603, "streak": 42}
+[39/81] OK  KMB    prices=1256 div=166
+{"ts": "2026-04-21T16:44:43Z", "event": "yf_us_fetch_start", "ticker": "LOW", "period": "5y"}
+{"ts": "2026-04-21T16:44:45Z", "event": "yf_us_persisted", "ticker": "LOW", "prices": 1256, "dividends": 163, "period_end": "2026-04-21", "pe": 21.353586, "pb": -14.314646, "dy": 0.019, "roe": null, "streak": 42}
+[40/81] OK  LOW    prices=1256 div=163
+{"ts": "2026-04-21T16:44:46Z", "event": "yf_us_fetch_start", "ticker": "ADM", "period": "5y"}
+{"ts": "2026-04-21T16:44:48Z", "event": "yf_us_persisted", "ticker": "ADM", "prices": 1256, "dividends": 172, "period_end": "2026-04-21", "pe": 31.233185, "pb": 1.4706503, "dy": 0.0304, "roe": 0.04721, "streak": 44}
+[41/81] OK  ADM    prices=1256 div=172
+{"ts": "2026-04-21T16:44:48Z", "event": "yf_us_fetch_start", "ticker": "BF-B", "period": "5y"}
+{"ts": "2026-04-21T16:44:51Z", "event": "yf_us_persisted", "ticker": "BF-B", "prices": 1256, "dividends": 164, "period_end": "2026-04-21", "pe": 16.944767, "pb": 3.275087, "dy": 0.0313, "roe": 0.20417, "streak": 42}
+[42/81] OK  BF-B   prices=1256 div=164
+{"ts": "2026-04-21T16:44:51Z", "event": "yf_us_fetch_start", "ticker": "ED", "period": "5y"}
+{"ts": "2026-04-21T16:44:54Z", "event": "yf_us_persisted", "ticker": "ED", "prices": 1256, "dividends": 254, "period_end": "2026-04-21", "pe": 19.35461, "pb": 1.6295943, "dy": 0.0317, "roe": 0.08767, "streak": 65}
+[43/81] OK  ED     prices=1256 div=254
+{"ts": "2026-04-21T16:44:55Z", "event": "yf_us_fetch_start", "ticker": "NUE", "period": "5y"}
+{"ts": "2026-04-21T16:44:57Z", "event": "yf_us_persisted", "ticker": "NUE", "prices": 1256, "dividends": 171, "period_end": "2026-04-21", "pe": 27.480053, "pb": 2.2534456, "dy": 0.0111, "roe": 0.09361, "streak": 44}
+[44/81] OK  NUE    prices=1256 div=171
+{"ts": "2026-04-21T16:44:58Z", "event": "yf_us_fetch_start", "ticker": "SPGI", "period": "5y"}
+{"ts": "2026-04-21T16:45:00Z", "event": "yf_us_persisted", "ticker": "SPGI", "prices": 1256, "dividends": 166, "period_end": "2026-04-21", "pe": 30.428328, "pb": 4.27918, "dy": 0.88, "roe": 0.13087, "streak": 42}
+[45/81] OK  SPGI   prices=1256 div=166
+{"ts": "2026-04-21T16:45:01Z", "event": "yf_us_fetch_start", "ticker": "WMT", "period": "5y"}
+{"ts": "2026-04-21T16:45:03Z", "event": "yf_us_persisted", "ticker": "WMT", "prices": 1256, "dividends": 207, "period_end": "2026-04-21", "pe": 47.536766, "pb": 10.343172, "dy": 0.77, "roe": 0.21847, "streak": 53}
+[46/81] OK  WMT    prices=1256 div=207
+{"ts": "2026-04-21T16:45:03Z", "event": "yf_us_fetch_start", "ticker": "ADP", "period": "5y"}
+{"ts": "2026-04-21T16:45:06Z", "event": "yf_us_persisted", "ticker": "ADP", "prices": 1256, "dividends": 173, "period_end": "2026-04-21", "pe": 19.563463, "pb": 12.825265, "dy": 0.0336, "roe": 0.73843, "streak": 44}
+[47/81] OK  ADP    prices=1256 div=173
+{"ts": "2026-04-21T16:45:06Z", "event": "yf_us_fetch_start", "ticker": "APD", "period": "5y"}
+{"ts": "2026-04-21T16:45:09Z", "event": "yf_us_persisted", "ticker": "APD", "prices": 1256, "dividends": 171, "period_end": "2026-04-21", "pe": null, "pb": 4.283258, "dy": 0.024399999999999998, "roe": -0.01667, "streak": 44}
+[48/81] OK  APD    prices=1256 div=171
+{"ts": "2026-04-21T16:45:09Z", "event": "yf_us_fetch_start", "ticker": "MDT", "period": "5y"}
+{"ts": "2026-04-21T16:45:12Z", "event": "yf_us_persisted", "ticker": "MDT", "prices": 1256, "dividends": 178, "period_end": "2026-04-21", "pe": 23.187153, "pb": 2.1748016, "dy": 0.0334, "roe": 0.0939, "streak": 45}
+[49/81] OK  MDT    prices=1256 div=178
+{"ts": "2026-04-21T16:45:12Z", "event": "yf_us_fetch_start", "ticker": "CLX", "period": "5y"}
+{"ts": "2026-04-21T16:45:15Z", "event": "yf_us_persisted", "ticker": "CLX", "prices": 1256, "dividends": 172, "period_end": "2026-04-21", "pe": 16.402618, "pb": -96.92456, "dy": 0.048499999999999995, "roe": 9.87179, "streak": 44}
+[50/81] OK  CLX    prices=1256 div=172
+{"ts": "2026-04-21T16:45:15Z", "event": "yf_us_fetch_start", "ticker": "PNR", "period": "5y"}
+{"ts": "2026-04-21T16:45:17Z", "event": "yf_us_persisted", "ticker": "PNR", "prices": 1256, "dividends": 144, "period_end": "2026-04-21", "pe": 22.964376, "pb": 3.8075352, "dy": 0.0115, "roe": 0.17478001, "streak": 37}
+[51/81] OK  PNR    prices=1256 div=144
+{"ts": "2026-04-21T16:45:18Z", "event": "yf_us_fetch_start", "ticker": "SHW", "period": "5y"}
+{"ts": "2026-04-21T16:45:20Z", "event": "yf_us_persisted", "ticker": "SHW", "prices": 1256, "dividends": 163, "period_end": "2026-04-21", "pe": 32.874146, "pb": 18.04724, "dy": 0.93, "roe": 0.59391, "streak": 42}
+[52/81] OK  SHW    prices=1256 div=163
+{"ts": "2026-04-21T16:45:21Z", "event": "yf_us_fetch_start", "ticker": "BEN", "period": "5y"}
+{"ts": "2026-04-21T16:45:23Z", "event": "yf_us_persisted", "ticker": "BEN", "prices": 1256, "dividends": 160, "period_end": "2026-04-21", "pe": 25.564814, "pb": 1.1830999, "dy": 0.047599999999999996, "roe": 0.04464, "streak": 42}
+[53/81] OK  BEN    prices=1256 div=160
+{"ts": "2026-04-21T16:45:23Z", "event": "yf_us_fetch_start", "ticker": "CTAS", "period": "5y"}
+{"ts": "2026-04-21T16:45:26Z", "event": "yf_us_persisted", "ticker": "CTAS", "prices": 1256, "dividends": 56, "period_end": "2026-04-21", "pe": 37.41456, "pb": 14.814552, "dy": 0.0101, "roe": 0.41303003, "streak": 40}
+[54/81] OK  CTAS   prices=1256 div= 56
+{"ts": "2026-04-21T16:45:26Z", "event": "yf_us_fetch_start", "ticker": "XOM", "period": "5y"}
+{"ts": "2026-04-21T16:45:29Z", "event": "yf_us_persisted", "ticker": "XOM", "prices": 1256, "dividends": 256, "period_end": "2026-04-21", "pe": 22.114925, "pb": 2.387182, "dy": 0.0279, "roe": 0.110810004, "streak": 65}
+[55/81] OK  XOM    prices=1256 div=256
+{"ts": "2026-04-21T16:45:29Z", "event": "yf_us_fetch_start", "ticker": "ATO", "period": "5y"}
+{"ts": "2026-04-21T16:45:32Z", "event": "yf_us_persisted", "ticker": "ATO", "prices": 1256, "dividends": 146, "period_end": "2026-04-21", "pe": 24.05606, "pb": 2.1371155, "dy": 0.0215, "roe": 0.09237, "streak": 38}
+[56/81] OK  ATO    prices=1256 div=146
+{"ts": "2026-04-21T16:45:32Z", "event": "yf_us_fetch_start", "ticker": "AFL", "period": "5y"}
+{"ts": "2026-04-21T16:45:34Z", "event": "yf_us_persisted", "ticker": "AFL", "prices": 1256, "dividends": 167, "period_end": "2026-04-21", "pe": 16.936216, "pb": 2.0315716, "dy": 0.0213, "roe": 0.13118, "streak": 43}
+[57/81] OK  AFL    prices=1256 div=167
+{"ts": "2026-04-21T16:45:35Z", "event": "yf_us_fetch_start", "ticker": "ECL", "period": "5y"}
+{"ts": "2026-04-21T16:45:37Z", "event": "yf_us_persisted", "ticker": "ECL", "prices": 1256, "dividends": 159, "period_end": "2026-04-21", "pe": 37.265797, "pb": 7.830712, "dy": 1.0, "roe": 0.22516, "streak": 41}
+[58/81] OK  ECL    prices=1256 div=159
+{"ts": "2026-04-21T16:45:37Z", "event": "yf_us_fetch_start", "ticker": "TROW", "period": "5y"}
+{"ts": "2026-04-21T16:45:40Z", "event": "yf_us_persisted", "ticker": "TROW", "prices": 1256, "dividends": 161, "period_end": "2026-04-21", "pe": 10.756494, "pb": 2.0002818, "dy": 0.053, "roe": 0.18791, "streak": 41}
+[59/81] OK  TROW   prices=1256 div=161
+{"ts": "2026-04-21T16:45:40Z", "event": "yf_us_fetch_start", "ticker": "CVX", "period": "5y"}
+{"ts": "2026-04-21T16:45:43Z", "event": "yf_us_persisted", "ticker": "CVX", "prices": 1256, "dividends": 227, "period_end": "2026-04-21", "pe": 27.824284, "pb": 1.9592694, "dy": 0.038900000000000004, "roe": 0.07231, "streak": 43}
+[60/81] OK  CVX    prices=1256 div=227
+{"ts": "2026-04-21T16:45:43Z", "event": "yf_us_fetch_start", "ticker": "MKC", "period": "5y"}
+{"ts": "2026-04-21T16:45:46Z", "event": "yf_us_persisted", "ticker": "MKC", "prices": 1256, "dividends": 158, "period_end": "2026-04-21", "pe": 8.576229, "pb": 2.0139744, "dy": 0.0363, "roe": 0.25347, "streak": 41}
+[61/81] OK  MKC    prices=1256 div=158
+{"ts": "2026-04-21T16:45:46Z", "event": "yf_us_fetch_start", "ticker": "ERIE", "period": "5y"}
+{"ts": "2026-04-21T16:45:48Z", "event": "yf_us_persisted", "ticker": "ERIE", "prices": 1256, "dividends": 123, "period_end": "2026-04-21", "pe": 23.753271, "pb": 5.8202806, "dy": 0.0231, "roe": 0.26194, "streak": 31}
+[62/81] OK  ERIE   prices=1256 div=123
+{"ts": "2026-04-21T16:45:49Z", "event": "yf_us_fetch_start", "ticker": "JKHY", "period": "5y"}
+{"ts": "2026-04-21T16:45:51Z", "event": "yf_us_persisted", "ticker": "JKHY", "prices": 1256, "dividends": 140, "period_end": "2026-04-21", "pe": 22.368725, "pb": 5.107282, "dy": 0.015300000000000001, "roe": 0.24284, "streak": 36}
+[63/81] OK  JKHY   prices=1256 div=140
+{"ts": "2026-04-21T16:45:51Z", "event": "yf_us_fetch_start", "ticker": "GD", "period": "5y"}
+{"ts": "2026-04-21T16:45:54Z", "event": "yf_us_persisted", "ticker": "GD", "prices": 1256, "dividends": 215, "period_end": "2026-04-21", "pe": 21.126297, "pb": 3.4371247, "dy": 0.0183, "roe": 0.17658001, "streak": 48}
+[64/81] OK  GD     prices=1256 div=215
+{"ts": "2026-04-21T16:45:54Z", "event": "yf_us_fetch_start", "ticker": "CB", "period": "5y"}
+{"ts": "2026-04-21T16:45:57Z", "event": "yf_us_persisted", "ticker": "CB", "prices": 1256, "dividends": 131, "period_end": "2026-04-21", "pe": 12.816128, "pb": 1.7444906, "dy": 0.0118, "roe": 0.14337, "streak": 34}
+[65/81] OK  CB     prices=1256 div=131
+{"ts": "2026-04-21T16:45:57Z", "event": "yf_us_fetch_start", "ticker": "LIN", "period": "5y"}
+{"ts": "2026-04-21T16:45:59Z", "event": "yf_us_persisted", "ticker": "LIN", "prices": 1256, "dividends": 135, "period_end": "2026-04-21", "pe": 33.878765, "pb": 5.9968963, "dy": 0.0128, "roe": 0.17817, "streak": 35}
+[66/81] OK  LIN    prices=1256 div=135
+{"ts": "2026-04-21T16:46:00Z", "event": "yf_us_fetch_start", "ticker": "ROP", "period": "5y"}
+{"ts": "2026-04-21T16:46:02Z", "event": "yf_us_persisted", "ticker": "ROP", "prices": 1256, "dividends": 137, "period_end": "2026-04-21", "pe": 25.483461, "pb": 1.9415997, "dy": 0.0101, "roe": 0.07929, "streak": 35}
+[67/81] OK  ROP    prices=1256 div=137
+{"ts": "2026-04-21T16:46:02Z", "event": "yf_us_fetch_start", "ticker": "AOS", "period": "5y"}
+{"ts": "2026-04-21T16:46:05Z", "event": "yf_us_persisted", "ticker": "AOS", "prices": 1256, "dividends": 162, "period_end": "2026-04-21", "pe": 17.007793, "pb": 4.8825593, "dy": 0.0216, "roe": 0.29197, "streak": 41}
+[68/81] OK  AOS    prices=1256 div=162
+{"ts": "2026-04-21T16:46:05Z", "event": "yf_us_fetch_start", "ticker": "BRO", "period": "5y"}
+{"ts": "2026-04-21T16:46:08Z", "event": "yf_us_persisted", "ticker": "BRO", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 21.636076, "pb": 1.8309144, "dy": 0.93, "roe": 0.11226, "streak": 40}
+[69/81] OK  BRO    prices=1256 div=157
+{"ts": "2026-04-21T16:46:08Z", "event": "yf_us_fetch_start", "ticker": "CAT", "period": "5y"}
+{"ts": "2026-04-21T16:46:11Z", "event": "yf_us_persisted", "ticker": "CAT", "prices": 1256, "dividends": 209, "period_end": "2026-04-21", "pe": 42.88588, "pb": 17.63472, "dy": 0.76, "roe": 0.43526, "streak": 45}
+[70/81] OK  CAT    prices=1256 div=209
+{"ts": "2026-04-21T16:46:11Z", "event": "yf_us_fetch_start", "ticker": "WST", "period": "5y"}
+{"ts": "2026-04-21T16:46:13Z", "event": "yf_us_persisted", "ticker": "WST", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 40.507374, "pb": 6.226112, "dy": 0.32, "roe": 0.16855, "streak": 40}
+[71/81] OK  WST    prices=1256 div=157
+{"ts": "2026-04-21T16:46:14Z", "event": "yf_us_fetch_start", "ticker": "ALB", "period": "5y"}
+{"ts": "2026-04-21T16:46:16Z", "event": "yf_us_persisted", "ticker": "ALB", "prices": 1256, "dividends": 131, "period_end": "2026-04-21", "pe": null, "pb": 3.157067, "dy": 0.83, "roe": -0.04656, "streak": 33}
+[72/81] OK  ALB    prices=1256 div=131
+{"ts": "2026-04-21T16:46:17Z", "event": "yf_us_fetch_start", "ticker": "EXPD", "period": "5y"}
+{"ts": "2026-04-21T16:46:19Z", "event": "yf_us_persisted", "ticker": "EXPD", "prices": 1256, "dividends": 66, "period_end": "2026-04-21", "pe": 25.281145, "pb": 8.534811, "dy": 0.0103, "roe": 0.35431, "streak": 33}
+[73/81] OK  EXPD   prices=1256 div= 66
+{"ts": "2026-04-21T16:46:20Z", "event": "yf_us_fetch_start", "ticker": "CHD", "period": "5y"}
+{"ts": "2026-04-21T16:46:22Z", "event": "yf_us_persisted", "ticker": "CHD", "prices": 1256, "dividends": 144, "period_end": "2026-04-21", "pe": 31.21523, "pb": 5.5718417, "dy": 0.0127, "roe": 0.1762, "streak": 37}
+[74/81] OK  CHD    prices=1256 div=144
+{"ts": "2026-04-21T16:46:22Z", "event": "yf_us_fetch_start", "ticker": "IBM", "period": "5y"}
+{"ts": "2026-04-21T16:46:25Z", "event": "yf_us_persisted", "ticker": "IBM", "prices": 1256, "dividends": 255, "period_end": "2026-04-21", "pe": 23.013464, "pb": 7.3574395, "dy": 0.0265, "roe": 0.35158002, "streak": 65}
+[75/81] OK  IBM    prices=1256 div=255
+{"ts": "2026-04-21T16:46:25Z", "event": "yf_us_fetch_start", "ticker": "NEE", "period": "5y"}
+{"ts": "2026-04-21T16:46:28Z", "event": "yf_us_persisted", "ticker": "NEE", "prices": 1256, "dividends": 172, "period_end": "2026-04-21", "pe": 27.742426, "pb": 3.4921424, "dy": 0.0271, "roe": 0.083739996, "streak": 44}
+[76/81] OK  NEE    prices=1256 div=172
+{"ts": "2026-04-21T16:46:29Z", "event": "yf_us_fetch_start", "ticker": "SJM", "period": "5y"}
+{"ts": "2026-04-21T16:46:32Z", "event": "yf_us_persisted", "ticker": "SJM", "prices": 1256, "dividends": 103, "period_end": "2026-04-21", "pe": null, "pb": 1.9352406, "dy": 0.0458, "roe": -0.20683001, "streak": 27}
+[77/81] OK  SJM    prices=1256 div=103
+{"ts": "2026-04-21T16:46:32Z", "event": "yf_us_fetch_start", "ticker": "CHRW", "period": "5y"}
+{"ts": "2026-04-21T16:46:35Z", "event": "yf_us_persisted", "ticker": "CHRW", "prices": 1256, "dividends": 115, "period_end": "2026-04-21", "pe": 37.7407, "pb": 11.721316, "dy": 0.0137, "roe": 0.32911, "streak": 30}
+[78/81] OK  CHRW   prices=1256 div=115
+{"ts": "2026-04-21T16:46:35Z", "event": "yf_us_fetch_start", "ticker": "FAST", "period": "5y"}
+{"ts": "2026-04-21T16:46:38Z", "event": "yf_us_persisted", "ticker": "FAST", "prices": 1256, "dividends": 94, "period_end": "2026-04-21", "pe": 40.39823, "pb": 13.136691, "dy": 0.0202, "roe": 0.33842, "streak": 36}
+[79/81] OK  FAST   prices=1256 div= 94
+{"ts": "2026-04-21T16:46:38Z", "event": "yf_us_fetch_start", "ticker": "FDS", "period": "5y"}
+{"ts": "2026-04-21T16:46:41Z", "event": "yf_us_persisted", "ticker": "FDS", "prices": 1256, "dividends": 110, "period_end": "2026-04-21", "pe": 15.550998, "pb": 4.1588507, "dy": 0.0187, "roe": 0.28084, "streak": 28}
+[80/81] OK  FDS    prices=1256 div=110
+{"ts": "2026-04-21T16:46:41Z", "event": "yf_us_fetch_start", "ticker": "ES", "period": "5y"}
+{"ts": "2026-04-21T16:46:43Z", "event": "yf_us_persisted", "ticker": "ES", "prices": 1256, "dividends": 157, "period_end": "2026-04-21", "pe": 14.817983, "pb": 1.5661142, "dy": 0.046, "roe": 0.10777, "streak": 28}
+[81/81] OK  ES     prices=1256 div=157
+
+=== RESUMO ===
+OK:  81
+BAD: 0

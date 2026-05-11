@@ -1,0 +1,52 @@
+{
+  "ollama": {
+    "errors": 0,
+    "tripped": false,
+    "last_ok": "2026-05-11T10:20:04+00:00"
+  },
+  "yfinance": {
+    "errors": 0,
+    "tripped": false,
+    "last_ok": "2026-05-11T10:20:05+00:00",
+    "last_fail": "2026-05-11T07:20:04+00:00",
+    "last_fail_reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "cvm": {
+    "errors": 3,
+    "tripped": true,
+    "manual_reset": "2026-05-09T13:30:00+00:00",
+    "last_ok": "2026-05-09T13:30:00+00:00",
+    "last_fail": "2026-05-11T10:20:10+00:00",
+    "last_fail_reason": "URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+    "auto_reset_at": "2026-05-11T09:20:05+00:00",
+    "tripped_at": "2026-05-11T10:20:10+00:00"
+  },
+  "sec": {
+    "errors": 0,
+    "tripped": false,
+    "last_ok": "2026-05-11T10:20:11+00:00",
+    "last_fail": "2026-05-11T07:20:04+00:00",
+    "last_fail_reason": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "fred": {
+    "errors": 3,
+    "tripped": true,
+    "manual_reset": "2026-05-09T12:48:48+00:00",
+    "last_fail": "2026-05-11T10:20:16+00:00",
+    "last_fail_reason": "TimeoutError: The read operation timed out",
+    "auto_reset_at": "2026-05-11T08:20:06+00:00",
+    "tripped_at": "2026-05-11T10:20:16+00:00"
+  },
+  "bcb": {
+    "errors": 0,
+    "tripped": false,
+    "last_ok": "2026-05-11T10:20:18+00:00",
+    "last_fail": "2026-05-11T07:20:04+00:00",
+    "last_fail_reason": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "youtube": {
+    "errors": 0,
+    "tripped": false,
+    "last_ok": "2026-05-11T10:35:23+00:00"
+  }
+}

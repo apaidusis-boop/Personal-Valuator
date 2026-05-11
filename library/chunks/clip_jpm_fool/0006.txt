@@ -1,0 +1,11 @@
+the aerospace and defense industry. It also has strong growth tailwinds behind it thanks to both increased defense budgets and commercial airplane production rates.
+
+## What Team Rule Breakers Thinks
+
+Gene therapy has been a scientific tour-de-force over the past decade, but more often than not a commercial bust. Krystal Biotech is an exception, and it mostly comes down to one thing: their HSV-1 vector. (A vector in this context is a virus that acts as a Trojan horse, carrying genetic material into cells.) There are different vectors for different jobs, and HSV-1 is particularly useful for skin and surface tissue. Herpes has evolved to enter cells from their exposed outer surface—that's precisely why it spreads so easily through skin contact!
+
+One seeming drawback of this vector turns out to be its sneaky superpower: Because HSV doesn’t incorporate into the genome, Vyjuvek’s effectiveness fades away as cells divide. That’s bad if you want a “one and done” treatment. But in our healthcare system, it makes for a re-dosable drug, much more in line with how drugs are currently reimbursed–and as we can see, that has made for rapid commercial success.
+
+Krystal can’t really use this platform to target organs like liver, muscle, heart, and bone marrow, where other vectors work better. But they are being smart about its advantages. One exciting program is KB407, which is going after cystic fibrosis. Other gene therapies have failed in CF, because it’s hard to gain access to the epithelial cells (that is, the surface membrane) of the lungs. This is a perfect application for HSV, and while clinical results are limited to date, they look promising. The success of V **ertex Pharmaceuticals** [(NASDAQ: VRTX)](https://www.fool.com/premium/company/206020) is an indication of the market size here. -- Karl Thiel
+
+*Tyler Crowe contributed to this report.*

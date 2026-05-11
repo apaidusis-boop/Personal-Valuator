@@ -1,0 +1,19 @@
+e cost of capital to yield
+a present value of $820.21 million.
+18
+ Since the acquisition of Congoleum cost only $470.6 million, this acquisition creates
+value for the acquiring investors.
+merglbo.xls:
+
+This spreadsheet allows you to evaluate the cash flows and the value of a leveraged buyout.
+CONCLUSION
+Acquisitions take several forms and occur for different reasons. Acquisitions can be categorized
+based on what happens to the target firm after the acquisition. A target firm can be consolidated into
+the acquiring entity (merger), create a new entity in combination with the acquiring firm, or remain
+independent (buyout).
+There are four steps in analyzing acquisitions. First, we specify the reasons for acquistions and list
+five: the undervaluation of the target firm, benefit from diversification, the potential for synergy, the
+value created by changing the way the target firm is run and management self-interest. Second, we
+choose a target firm whose characteristics make it the best candidate, given the motive chosen in the
+first step. Third, we value the target firm, assuming it would continue to be run by its current
+managers and then revalue it assuming better management. We define the difference between these

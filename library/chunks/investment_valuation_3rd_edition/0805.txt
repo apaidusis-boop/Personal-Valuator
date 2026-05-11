@@ -1,0 +1,42 @@
+ever, it would seem that it is much easier to estimate cash flows for real estate than for some
+financial investments (for instance, a high-growth stock). Third, it is argued that discounted cash flow
+
+valuation do not reflect market conditions—that the market is strong or weak at the time of the
+valuation. This argument could be rejected at two levels. On one level, the cash flows should reflect
+the market conditions, since they will be higher (higher rents and lower vacancy rates) and grow
+faster in strong market conditions. On the other level, a market based valuation that is not in sync with
+the cash flows of the property being valued is a misvaluation and the focus in intrinsic or DCF
+valuation is to steer away from that practice.
+COMPARABLE/RELATIVE VALUATION
+Just as price-earnings and price–book value ratios are used to value financial assets, real estate
+investments can be valued using standardized value measures and comparable assets. There are
+several reasons for doing so:
+It provides a mechanism for valuing non-cash-flow-producing assets. For instance, the value
+of a single-family residential building bought as a primary residence can be estimated by
+looking at similar properties in the same area.
+It takes into account market trends that might not be reflected in the cash flows yet for a
+number of reasons. Existing leases might have frozen outdated lease payments in place,
+while market values have risen, and rent control laws might have prevented rents from
+rising with market values. To the extent that the market sees the possibility that both leases
+and rents will revert to market levels, the market values may be higher than the intrinsic
+valuations.
+It is also argued that valuing based on comparables is much simpler to do than discounted
+cash flow valuation since it does not require, at least explicitly, the estimation of discount
+rates and cash flows.
+What Is a Comparable Asset?
+The key limitation of all comparable-based approaches is in the definition of comparable. In the case
+of stocks, differences in growth, risk, and payout ratios between stocks have to be adjusted for before
+price-earnings ratios are compared. Many analysts choose to restrict their comparisons of stocks to
+those within the same industry group, to keep it relatively homogeneous. In the case of real estate,
+differences in income production, size, scale, location, age, and quality of construction have to be
+accounted for before comparisons are made. Some of these adjustments are simple (such as
+differences in size) and others are subjective (such as differences in location).
+Use of Standardized Value Estimates
+When valuing assets based on comparable assets, the value has to be standardized for the
+comparison. In stocks, this standardization is often done by dividing the price per share by the
+earnings per share (PE) or the book value per share (PBV). In the case of real estate, this adjustment
+is made by:
+Size.
+ The simplest standardized measure is the price per square foot, which standardizes value using the size of the
+building. In office rentals, where square footage is a key factor determining rental revenues, this may by a useful
+adjustment. It does not, however, factor in differences on any of the other dimensions.

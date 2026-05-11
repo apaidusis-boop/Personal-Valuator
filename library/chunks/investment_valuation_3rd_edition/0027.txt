@@ -1,0 +1,42 @@
+o the multiples at which other firms in the same business are trading at contemporaneously. In some
+cases, however, especially for mature firms with long histories, the comparison is done across time.
+
+Cross-Sectional Comparisons
+When we compare the price-earnings ratio of a software firm to the average price-earnings ratio of
+other software firms, we are doing relative valuation and we are making cross-sectional
+comparisons. The conclusions can vary depending on our assumptions about the firm being valued
+and the comparable firms. For instance, if we assume that the firm we are valuing is similar to the
+average firm in the industry, we would conclude that it is cheap if it trades at a multiple that is lower
+than the average multiple. If, however, we assume that the firm being valued is riskier than the
+average firm in the industry, we might conclude that the firm should trade at a lower multiple than
+other firms in the business. In short, you cannot compare firms without making assumptions about their
+fundamentals.
+Comparisons across Time
+If you have a mature firm with a long history, you can compare the multiple it trades at today to the
+multiple it used to trade at in the past. Thus, Ford Motor Company may be viewed as cheap because it
+trades at six times earnings, if it has historically traded at 10 times earnings. To make this
+comparison, however, you have to assume that your firm's fundamentals have not changed over time.
+For instance, you would expect a high-growth firm's price-earnings ratio to drop over time and its
+expected growth rate to decrease as it becomes larger. Comparing multiples across time can also be
+complicated by changes in interest rates and the behavior of the overall market. For instance, as
+interest rates fall below historical norms and the overall market increases in value, you would expect
+most companies to trade at much higher multiples of earnings and book value than they have
+historically.
+Applicability and Limitations of Multiples
+The allure of multiples is that they are simple and easy to relate to. They can be used to obtain
+estimates of value quickly for firms and assets, and are particularly useful when a large number of
+comparable firms are traded on financial markets, and the market is, on average, pricing these firms
+correctly. They tend to be more difficult to use to value unique firms with no obvious comparables,
+with little or no revenues, and with negative earnings.
+By the same token, multiples are also easy to misuse and manipulate, especially when comparable
+firms are used. Given that no two firms are exactly alike in terms of risk and growth, the definition of
+comparable firms is a subjective one. Consequently, a biased analyst can choose a group of
+comparable firms to confirm his or her biases about a firm's value. Illustration 2.2 shows an example.
+While this potential for bias exists with discounted cash flow valuation as well, the analyst in DCF
+valuation is forced to be much more explicit about the assumptions that determine the final value.
+With multiples, these assumptions are often left unstated.
+ASSET-BASED VALUATION MODELS
+There are some analysts who add a fourth approach to valuation to the three described in this chapter. They argue that you
+can value the individual assets owned by a firm and aggregate them to arrive at a firm value—asset-based valuation models.
+In fact, there are several variants on asset-based valuation models. The first is liquidation value, which is obtained by
+aggregating the estimated sale proceeds of the assets owned by a firm. The second is replacement cost, where you estimate

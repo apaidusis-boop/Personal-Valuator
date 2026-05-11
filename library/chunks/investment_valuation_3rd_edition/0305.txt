@@ -1,0 +1,34 @@
+per share in period t 
+t = Time period t
+The coefficient b on the time variable becomes a measure of the percentage change in earnings per
+unit time.
+ILLUSTRATION 11.2: Linear and Log-Linear Models of
+
+Growth: General Electric (1991 to 2000)
+The earnings per share from 1991 until 2000 are provided for General Electric (GE) in the following table with the
+percentage changes and the natural logs of the earnings per share computed each year:
+There are a number of ways in which we can estimate the growth rate in earnings per share at GE between 1991 and 2000.
+One is to compute the arithmetic and geometric averages:
+The second is to run a linear regression of earnings per share against a time variable (where the earliest year is given a
+value of 1, the next year a value of 2, and so on):
+This regression would indicate that the earnings per share increased 9.52 cents a year from 1991 to 2000. We can convert it
+into a percent growth in earnings per share by dividing this change by the average earnings per share over the period:
+Finally, you can regress ln(EPS) against the time variable:
+The coefficient on the time variable here can be viewed as a measure of compounded percent growth in earnings per share;
+GE's earnings per share grew at 13.35% a year based on this regression.
+The numbers are close using all the approaches because there is so little variability in the growth rate of earnings per share
+at GE. For companies with more volatile earnings, the differences will be much larger.
+Negative Earnings
+Measures of historical growth are distorted by the presence of negative earnings numbers. The
+percentage change in earnings on a year-by-year basis is defined as:
+If EPS
+t–1
+ is negative, this calculation yields a meaningless number. This extends into the calculation of
+the geometric mean. If the EPS in the initial time period is negative or zero, the geometric mean is not
+meaningful.
+Similar problems arise in log-linear regressions, since the EPS has to be greater than zero for the
+log transformation to exist. There are at least two ways of trying to get meaningful estimates of
+earnings growth for firms with negative earnings. One is to run the linear regression of EPS against
+time specified in the previous regression:
+The growth rate can then be approximated as follows:
+This assumes that the average EPS over the time period is positive. Another approach to estimating

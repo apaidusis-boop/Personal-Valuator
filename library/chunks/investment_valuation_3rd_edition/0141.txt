@@ -1,0 +1,46 @@
+ge conveys information about tomorrow’s price change is deeply
+rooted in most investors’ psyches. There are several ways in which this hypothesis can be tested in
+financial markets.
+Serial Correlation
+
+The serial correlation measures the correlation between price changes in consecutive time periods,
+whether hourly, daily, or weekly, and is a measure of how much the price change in any period
+depends on the price change over the previous time period. A serial correlation of zero would
+therefore imply that price changes in consecutive time periods are uncorrelated with each other, and
+can thus be viewed as a rejection of the hypothesis that investors can learn about future price changes
+from past ones. A serial correlation that is positive and statistically significant could be viewed as
+evidence of price momentum in markets, and would suggest that returns in a period are more likely to
+be positive if the prior period’s returns were positive, and negative if previous returns were negative.
+A serial correlation that is negative and statistically significant could be evidence of price reversals,
+and would be consistent with a market where positive returns are more likely to follow negative
+returns and vice versa.
+From the viewpoint of investment strategy, serial correlations can be exploited to earn excess
+returns. A positive serial correlation would be exploited by a strategy of buying after periods with
+positive returns and selling after periods with negative returns. A negative serial correlation would
+suggest a strategy of buying after periods with negative returns and selling after periods with positive
+returns. Since these strategies generate transactions costs, the correlations have to be large enough to
+allow investors to generate profits to cover these costs. It is therefore entirely possible that there is
+serial correlation in returns, without any opportunity to earn excess returns for most investors.
+The earliest studies of serial correlation—Alexander (1964), Cootner (1962), and Fama (1965)—
+all looked at large U.S. stocks and concluded that the serial correlation in stock prices was small.
+Fama, for instance, found that 8 of the 30 stocks listed in the Dow had negative serial correlations and
+that most of the serial correlations were less than 0.05. Other studies confirm these findings not only
+for smaller stocks in the United States, but also for other markets. For instance, Jennergren and
+Korsvold (1974) report low serial correlations for the Swedish equity market, and Cootner (1961)
+concludes that serial correlations are low in commodity markets as well. Although there may be
+statistical significance associated with some of these correlations, it is unlikely that there is enough
+correlation to generate excess returns.
+The serial correlation in short period returns is affected by market liquidity and the presence of a
+bid-ask spread. Not all stocks in an index are liquid, and in some cases stocks may not trade during a
+period. When the stock trades in a subsequent period, the resulting price changes can create positive
+serial correlation. To see why, assume that the market is up strongly on day 1, but that three stocks in
+the index do not trade on that day. On day 2, if these stocks are traded, they are likely to go up in price
+to reflect the increase in the market the previous day. The net result is that you should expect to see
+positive serial correlation in daily or hourly returns in illiquid market indexes.
+The bid-ask spread creates a bias in the opposite direction, if transaction prices are used to
+compute returns, since prices have an equal chance of ending up at the bid or the ask price. The
+bounce that this induces in prices—from bid to ask to bid again—will result in negative serial
+correlations in returns. Roll (1984) provides a simple measure of this relationship:
+where the serial covariance in returns measures the covariance between return changes in consecutive
+time periods. For very short return intervals, this bias induced in serial correlations might dominate
+and create the mistaken view that price changes in consecutive time periods are negatively correlated.

@@ -1,0 +1,93 @@
+{
+  "ticker": "BRK-B",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "BRK-B",
+    "period_end": "2026-04-30",
+    "eps": 31.04,
+    "bvps": 498663.0,
+    "roe": 0.09809,
+    "pe": 15.257731,
+    "pb": 0.0009497396,
+    "dy": null,
+    "net_debt_ebitda": -2.151473114115567,
+    "dividend_streak_years": 0,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 57.84331924805894,
+    "interest_coverage": null,
+    "debt_to_assets": 0.10561572146728458,
+    "dividend_streak_source": "yfinance",
+    "pe_forward": 21.774733,
+    "ev_ebitda": -2.125,
+    "market_cap": 1021494099968.0,
+    "fcf_ttm": 36799623168.0,
+    "shares_outstanding": 1390722404.0,
+    "next_ex_date": null,
+    "next_earnings_date": "2026-05-02",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 4,
+      "period_end": "2025-12-31"
+    },
+    "beneish": {
+      "m": -2.421916737346689,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Value (6/12)",
+    "secondary": "",
+    "value": 6,
+    "growth": 0,
+    "dividend": 0,
+    "buffett": 3,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 357770.63905556477,
+    "pessimistic_value": 278914.8269984862,
+    "optimistic_value": 472034.44992784614,
+    "margin_of_safety_pct": 754.4278598918899,
+    "current_price": 473.6000061035156
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "O DY baixo de 46.2% é um ponto de preocupação para investidores que buscam dividendos (Mariana Macro)",
+    "A relação dívida bruta/EBITDA negativa (-2.15) pode sugerir desafios financeiros, mas não reflete a solidez geral da empresa (Pedro Alocação)"
+  ],
+  "consensus_points": [
+    "A Berkshire Hathaway B oferece uma relação preço-benefício atrativa, com um P/E de 15.26 e um ROE sustentado de 9.8%",
+    "O Piotroski F-Score de 4/9 e Beneish M-Score de -2.42 indicam uma situação financeira estável",
+    "A relação dívida bruta/EBITDA negativa (-2.15) é preocupante, mas não reflete a solidez financeira ou o potencial de crescimento da empresa"
+  ],
+  "dissent_points": [
+    "Mariana Macro disse que o DY baixo (46.2%) é um indicador relevante para investidores que buscam dividendos",
+    "Pedro Alocação e Valentina Prudente disseram que a relação dívida bruta/EBITDA negativa pode sugerir desafios financeiros"
+  ],
+  "evidence_count": 19,
+  "research_hits_total": 29
+}

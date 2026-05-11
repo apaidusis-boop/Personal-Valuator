@@ -1,0 +1,47 @@
+evidence that has accumulated in behavioral
+finance that over confident CEOs are more likely to push for acquisitions, often overestimating the
+benefits and under estimating the costs of these deals.
+
+Choosing a Target Firm and Valuing Control/Synergy
+Once a firm has an acquisition motive, there are two key questions that need to be answered. The first
+relates to how to best identify a potential target firm for an acquisition, given the motives described in
+the previous section. The second is the more concrete question of how to value a target firm, again
+given the different motives that we have outlined in the last section.
+Choosing a Target Firm
+Once a firm has identified the reason for its acquisition program, it has to find the appropriate target
+firm.
+If the motive for acquisitions is undervaluation, the target firm must be undervalued. How
+such a firm will be identified depends on the valuation approach and model used. With
+relative valuation, an undervalued stock is one that trades at a multiple (of earnings, book
+value, or sales) well below that of the rest of the industry, after controlling for significant
+differences on fundamentals. Thus a bank with a price-to-book value ratio of 1.2 would be
+an undervalued bank if other banks have similar fundamentals (return on equity, growth, and
+risk) but trade at much higher price-to-book value ratios. In discounted cash flow valuation
+approaches, an undervalued stock is one that trades at a price well below the estimated
+discounted cash flow value.
+If the motive for acquisitions is diversification, the most likely target firms will be in
+businesses that are unrelated to and uncorrelated with the business of the acquiring firm.
+Thus, a cyclical firm should try to acquire countercyclical or at least noncyclical firms to
+get the fullest benefit from diversification.
+If the motive for acquisitions is operating synergy, the typical target firm will vary
+depending on the source of the synergy. For economies of scale, the target firm should be in
+the same business as the acquiring firm. Thus, the acquisition of Continental Airlines by
+United Airlines was motivated by potential cost savings from economies of scale. For
+functional synergy, the target firm should be strongest in those functional areas where the
+acquiring firm is weak. For financial synergy, the target firm will be chosen to reflect the
+likely source of the synergy—a risky firm with limited or no standalone capacity for
+borrowing, if the motive is increased debt capacity, or a firm with significant net operating
+losses carried forward, if the motive is tax benefits.
+If the motive for the merger is control, the target firm will be a poorly managed firm in an
+industry where there is potential for excess returns. In addition, its stock holdings will be
+widely dispersed (making it easier to carry out the hostile acquisition) and the current
+market price will be based on the presumption that incumbent management will continue to
+run the firm.
+If the motive is managerial self-interest, the choice of a target firm will reflect managerial
+interests rather than economic reasons.
+Table 25.1
+ summarizes the typical target firm, given the motive for the takeover.
+Table 25.1
+ Target Firm Characteristics Given Acquisition Motive
+If Motive Is
+Then the Target Firm

@@ -1,0 +1,37 @@
+falling below the regulatory
+ratios but also the valuation consequences, which can range from loss of all equity value, as a
+worst case, to dilution from new equity capital issues, as a best case.
+2.
+
+Negative book value for equity.
+ As noted, there are hundreds of firms in the United States with
+negative book values of equity that survive its occurrence and have high market values for equity.
+There are some countries where a negative book value of equity can create substantial costs for
+the firm and its investors. For instance, companies with negative book values of equity in parts of
+Europe are required to raise fresh equity capital to bring their book values above zero. In some
+countries in Asia, companies that have negative book values of equity are barred from paying
+dividends. Even in the United States, lenders to firms can have loan covenants that allow them to
+gain at least partial control of a firm if its book value of equity turns negative. As with regulatory
+capital restrictions, investors can use simulations to assess the probability of a negative book
+value for equity and to capture the consequences for value.
+Debt Constraints
+In discounted cash flow valuation, the value of the firm is computed as a going concern, by
+discounting expected cash flows at a risk-adjusted discount rate. Deducting debt from this estimate
+yields equity value. The possibility and potential costs of not being able to meet debt payments is
+considered only peripherally in the discount rate. In reality, the costs of not meeting contractual
+obligations can be substantial. In fact, these costs are generally categorized as indirect bankruptcy
+costs and could include the loss of customers, tighter supplier credit, and higher employee turnover.
+The perception that a firm is in trouble can lead to further trouble. By allowing investors to compare
+the value of a business to its outstanding claims in all possible scenarios (rather than just the most
+likely one), simulations allow them to not only quantify the likelihood of distress but also build the
+cost of indirect bankruptcy costs into valuation. In effect, you can explicitly model the effect of
+distress on expected cash flows and discount rates.
+Issues
+The use of simulations in investment analysis was first suggested in an article by David Hertz in the
+Harvard Business Review
+.
+8
+ He argued that using probability distributions for input variables, rather
+than single best estimates, would yield more informative output. In the example that he provided in the
+paper, he used simulations to compare the distributions of returns of two investments; the investment
+with the higher expected return also had a higher chance of losing money (which was viewed as an

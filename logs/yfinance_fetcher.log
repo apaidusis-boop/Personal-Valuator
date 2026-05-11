@@ -1,0 +1,47 @@
+{"ts": "2026-04-15T10:23:59Z", "event": "yf_fetch_start", "ticker": "ITSA4", "symbol": "ITSA4.SA", "period": "10y"}
+{"ts": "2026-04-15T10:24:15Z", "event": "yf_fetch_start", "ticker": "ITSA4", "symbol": "ITSA4.SA", "period": "10y"}
+{"ts": "2026-04-15T10:25:46Z", "event": "yf_fetch_start", "ticker": "ITSA4", "symbol": "ITSA4.SA", "period": "10y"}
+{"ts": "2026-04-15T10:25:47Z", "event": "yf_persisted", "ticker": "ITSA4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 20}
+{"ts": "2026-04-15T10:31:01Z", "event": "yf_fetch_start", "ticker": "PRIO3", "symbol": "PRIO3.SA", "period": "10y"}
+{"ts": "2026-04-15T10:31:02Z", "event": "yf_persisted", "ticker": "PRIO3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 1}
+{"ts": "2026-04-15T10:31:04Z", "event": "yf_fetch_start", "ticker": "VALE3", "symbol": "VALE3.SA", "period": "10y"}
+{"ts": "2026-04-15T10:31:05Z", "event": "yf_persisted", "ticker": "VALE3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 18}
+{"ts": "2026-04-15T10:31:06Z", "event": "yf_fetch_start", "ticker": "BBDC4", "symbol": "BBDC4.SA", "period": "10y"}
+{"ts": "2026-04-15T10:31:07Z", "event": "yf_persisted", "ticker": "BBDC4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 19}
+{"ts": "2026-04-15T12:30:35Z", "event": "yf_fetch_start", "ticker": "ITSA4", "symbol": "ITSA4.SA", "period": "10y"}
+{"ts": "2026-04-15T12:30:40Z", "event": "yf_persisted", "ticker": "ITSA4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 20, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:32:37Z", "event": "yf_fetch_start", "ticker": "PETR4", "symbol": "PETR4.SA", "period": "10y"}
+{"ts": "2026-04-15T12:33:12Z", "event": "yf_persisted", "ticker": "PETR4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 18, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:33:15Z", "event": "yf_fetch_start", "ticker": "AXIA7", "symbol": "AXIA7.SA", "period": "10y"}
+{"ts": "2026-04-15T12:33:30Z", "event": "yf_persisted", "ticker": "AXIA7", "prices_rows": 75, "prices_from": "2025-12-22", "prices_to": "2026-04-14", "dividend_years": 0, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:33:32Z", "event": "yf_fetch_start", "ticker": "CPLE3", "symbol": "CPLE3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:34:56Z", "event": "yf_fetch_start", "ticker": "ALOS3", "symbol": "ALOS3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:17Z", "event": "yf_persisted", "ticker": "ALOS3", "prices_rows": 1664, "prices_from": "2019-08-05", "prices_to": "2026-04-14", "dividend_years": 6, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:18Z", "event": "yf_fetch_start", "ticker": "B3SA3", "symbol": "B3SA3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:27Z", "event": "yf_persisted", "ticker": "B3SA3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 19, "statements": {"income": 5, "balance": 5, "cashflow": 4, "skipped": 0}}
+{"ts": "2026-04-15T12:36:28Z", "event": "yf_fetch_start", "ticker": "ENGI11", "symbol": "ENGI11.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:31Z", "event": "yf_persisted", "ticker": "ENGI11", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 16, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:32Z", "event": "yf_fetch_start", "ticker": "ITUB4", "symbol": "ITUB4.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:35Z", "event": "yf_persisted", "ticker": "ITUB4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 19, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:36Z", "event": "yf_fetch_start", "ticker": "EQTL3", "symbol": "EQTL3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:38Z", "event": "yf_persisted", "ticker": "EQTL3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 18, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:39Z", "event": "yf_fetch_start", "ticker": "MOTV3", "symbol": "MOTV3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:40Z", "event": "yf_persisted", "ticker": "MOTV3", "prices_rows": 245, "prices_from": "2025-04-23", "prices_to": "2026-04-14", "dividend_years": 1, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:41Z", "event": "yf_fetch_start", "ticker": "MULT3", "symbol": "MULT3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:43Z", "event": "yf_persisted", "ticker": "MULT3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 18, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:44Z", "event": "yf_fetch_start", "ticker": "PGMN3", "symbol": "PGMN3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:46Z", "event": "yf_persisted", "ticker": "PGMN3", "prices_rows": 1395, "prices_from": "2020-09-03", "prices_to": "2026-04-14", "dividend_years": 3, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:47Z", "event": "yf_fetch_start", "ticker": "PLPL3", "symbol": "PLPL3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:49Z", "event": "yf_persisted", "ticker": "PLPL3", "prices_rows": 1385, "prices_from": "2020-09-18", "prices_to": "2026-04-14", "dividend_years": 5, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:50Z", "event": "yf_fetch_start", "ticker": "RAPT4", "symbol": "RAPT4.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:54Z", "event": "yf_persisted", "ticker": "RAPT4", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 15, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:36:56Z", "event": "yf_fetch_start", "ticker": "RDOR3", "symbol": "RDOR3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:36:59Z", "event": "yf_persisted", "ticker": "RDOR3", "prices_rows": 1326, "prices_from": "2020-12-15", "prices_to": "2026-04-14", "dividend_years": 6, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:37:00Z", "event": "yf_fetch_start", "ticker": "RENT3", "symbol": "RENT3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:37:04Z", "event": "yf_persisted", "ticker": "RENT3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 20, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:37:07Z", "event": "yf_fetch_start", "ticker": "SUZB3", "symbol": "SUZB3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:37:20Z", "event": "yf_persisted", "ticker": "SUZB3", "prices_rows": 2492, "prices_from": "2016-04-14", "prices_to": "2026-04-14", "dividend_years": 14, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:37:22Z", "event": "yf_fetch_start", "ticker": "TTEN3", "symbol": "TTEN3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:38:07Z", "event": "yf_persisted", "ticker": "TTEN3", "prices_rows": 1183, "prices_from": "2021-07-16", "prices_to": "2026-04-14", "dividend_years": 5, "statements": {"income": 5, "balance": 5, "cashflow": 5, "skipped": 0}}
+{"ts": "2026-04-15T12:40:25Z", "event": "yf_fetch_start", "ticker": "CPLE3", "symbol": "CPLE3.SA", "period": "10y"}
+{"ts": "2026-04-15T12:41:25Z", "event": "yf_dividends_unavailable", "ticker": "CPLE3", "err": "'PriceHistory' object has no attribute '_dividends'"}

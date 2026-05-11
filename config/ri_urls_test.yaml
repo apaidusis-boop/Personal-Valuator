@@ -1,0 +1,25 @@
+ITSA4:
+  market: br
+  sector: Holding
+  is_holding: true
+  ri_urls:
+    - https://ri.itausa.com.br/
+  method: known
+  status: ok
+BBDC4:
+  market: br
+  sector: Banks
+  is_holding: true
+  ri_urls:
+    - https://www.bradescori.com.br/
+    - https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/
+  method: known
+  status: ok
+JNJ:
+  market: us
+  sector: Healthcare
+  is_holding: true
+  ri_urls:
+    - https://www.investor.jnj.com/
+  method: known
+  status: ok

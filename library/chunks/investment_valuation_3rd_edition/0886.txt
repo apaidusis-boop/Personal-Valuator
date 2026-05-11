@@ -1,0 +1,69 @@
+ebt coming for the
+maturity of the zero coupon bond in the option pricing model.
+Face Value of Debt
+When a distressed firm has multiple debt issues outstanding, you have three choices when it comes to
+
+what you use as the face value of debt:
+1.
+ You could add up the principal due on all of the debt of the firm and consider it to be the face
+value of the hypothetical zero coupon bond that you assume that your firm has issued. The
+limitation of this approach is that it will understate what the firm will truly have to pay out over
+the life of the debt, since there will be coupon payments and interest payments during the period.
+2.
+ At the other extreme, you could add the expected interest and coupon payments that will come
+due on the debt to the principal payments to come up with a cumulated face value of debt. Since
+the interest payments occur in the near years and the principal payments are due only when the
+debt comes due, you are mixing cash flows up at different points in time when you do this. This is,
+however, the simplest approach of dealing with intermediate interest payments coming due.
+3.
+ You can consider only the principal due on the debt as the face value of the debt and the interest
+payments each year, specified as a percent of firm value, can take the place of the dividend yield
+in the option pricing model. In effect, each year that the firm remains in existence, you would
+expect to see the value of the firm decline by the expected payments on the debt.
+ILLUSTRATION 30.5: 
+Valuing Equity as an Option:
+Eurotunnel in 1997
+Eurotunnel was the firm that was created to build and ultimately profit from the tunnel under the English Channel linking
+England and France. The tunnel was readied for operations in the early 1990s but was not a commercial success, reporting
+significant losses each year after opening. In early 1998 Eurotunnel had a book value of equity of -£117 million, and in 1997
+the firm had reported earnings before interest and taxes of 
+-£3.45 million and net income of 
+-£611 million on revenues of
+£456 million. By any measure, it was a firm in financial trouble.
+Much of the financing for the tunnel had come from debt, and at the end of 1997 Eurotunnel had debt obligations in excess
+of £5,000 million, raised from a variety of bond issues and bank debt. Adding the expected interest payments and coupon
+payments onto the debt brings the total obligations of the firm up to £8,865 million. The following table summarizes the
+outstanding debt at the firm, with our estimates of the expected duration for each class of debt:
+Debt Type
+Face Value (Including Cumulated Coupons)
+Duration (Years)
+Short-term
+£935
+0.50
+10-year
+£2,435
+6.7
+20-year
+£3,555
+12.6
+Longer
+£1,940
+18.2
+Total
+£8,865 mil
+10.93
+The firm’s only significant asset is its ownership of the tunnel, and we estimated the value of this asset from its expected
+cash flows and the appropriate cost of capital. The assumptions were as follows:
+Revenues will grow 10% a year for five years and 3% thereafter.
+The cost of goods sold, which was 72% of revenues in 1997, will drop to 60% of revenues by 2002 in linear
+increments and stay at that level. (This does not include depreciation.)
+In the most recent year, capital expenditures were $45 million and depreciation amounted to $137 million.
+Capital spending and depreciation will grow 3% a year for the next five years. Beyond year 5, capital
+expenditures will offset depreciation.
+There are no working capital requirements.
+The debt ratio, which was 95.35% at the end of 1997, will drop to 70% by 2002. The cost of debt is 10% for
+the next five years and 8% after that.
+The beta for the stock will be 2.00 for the next five years, and drop to 0.80 thereafter (as the leverage
+decreases).
+The long-term bond rate at the time of the valuation was 6% and the risk premium was 5.5%. Based on these assumptions,
+we estimated the cash flows in the following table:

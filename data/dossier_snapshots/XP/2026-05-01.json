@@ -1,0 +1,78 @@
+{
+  "ticker": "XP",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "XP",
+    "period_end": "2026-04-30",
+    "eps": 1.94,
+    "bvps": 9.08312,
+    "roe": 0.23715,
+    "pe": 9.876288,
+    "pb": 2.1094072,
+    "dy": 0.009394572099869412,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 8,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": null,
+    "interest_coverage": null,
+    "debt_to_assets": 0.33136162612003867,
+    "dividend_streak_source": "sec_edgar",
+    "pe_forward": 7.753896,
+    "ev_ebitda": null,
+    "market_cap": 9908549632.0,
+    "fcf_ttm": null,
+    "shares_outstanding": 416451545.0,
+    "next_ex_date": "2025-12-10",
+    "next_earnings_date": "2026-02-12",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Growth (5/12)",
+    "secondary": "Value (4/12)",
+    "value": 4,
+    "growth": 5,
+    "dividend": 2,
+    "buffett": 2,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 19.15999984741211
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Hank Tier-One",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Revenue decline in constant currency noted - Valentina Prudente; DY baixo em relação ao setor (0.9%) e P/B elevado (2.11x) - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atrativo, além de crescimento sustentável e dividendos consistentes - Mariana Macro, Hank Tier-One"
+  ],
+  "dissent_points": [
+    "Mariana Macro disse que a expansão digital depende do cenário macroeconômico brasileiro e pode ser afetada por mudanças na política monetária; Valentina Prudente disse que o DY baixo em relação ao setor (0.9%) e o P/B elevado (2.11x) são preocupações"
+  ],
+  "evidence_count": 19,
+  "research_hits_total": 23
+}

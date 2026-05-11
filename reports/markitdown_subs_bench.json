@@ -1,0 +1,74 @@
+[
+  {
+    "pdf": "2026-04-02_suno_carteiras.pdf",
+    "kb": 346.0,
+    "pdfplumber": {
+      "chars": 17,
+      "s": 0.09,
+      "md_markers": 0
+    },
+    "pypdf": {
+      "chars": 35,
+      "s": 0.05
+    },
+    "markitdown": {
+      "chars": 19,
+      "s": 0.43,
+      "md_markers": 0
+    }
+  },
+  {
+    "pdf": "2026-04-02_xp_top_dividendos.pdf",
+    "kb": 608.0,
+    "pdfplumber": {
+      "chars": 18678,
+      "s": 1.06,
+      "md_markers": 9
+    },
+    "pypdf": {
+      "chars": 18776,
+      "s": 0.37
+    },
+    "markitdown": {
+      "chars": 19422,
+      "s": 2.05,
+      "md_markers": 9
+    }
+  },
+  {
+    "pdf": "2026-04-02_suno_dividendos_ed23.pdf",
+    "kb": 1903.0,
+    "pdfplumber": {
+      "chars": 0,
+      "s": 6.16,
+      "md_markers": 0
+    },
+    "pypdf": {
+      "chars": 8,
+      "s": 2.44
+    },
+    "markitdown": {
+      "chars": 8,
+      "s": 19.94,
+      "md_markers": 0
+    }
+  },
+  {
+    "pdf": "2026-04-02_suno_tese_itsa4.pdf",
+    "kb": 11844.0,
+    "pdfplumber": {
+      "chars": 0,
+      "s": 27.03,
+      "md_markers": 0
+    },
+    "pypdf": {
+      "chars": 56,
+      "s": 10.55
+    },
+    "markitdown": {
+      "chars": 56,
+      "s": 87.29,
+      "md_markers": 0
+    }
+  }
+]

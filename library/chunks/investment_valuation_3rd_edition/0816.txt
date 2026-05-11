@@ -1,0 +1,75 @@
+re structure.
+ Since the fare structure is regulated, the expected revenues from owning a cab in the future
+will be dependent on the generosity of raises that the Taxi and Limousine Commission allows.
+
+Other risks.
+ There are a number of other potential sources of risk including collision and theft that have
+already been built into the cost structure. To the extent that these are estimates, they could also create swings
+in the cash flows.
+Assuming that the expected revenues already factors in the number of medallions outstanding and the expected changes in
+the fare structure, the primary source of risk in owning a cab medallion is expected to be from shifts in the city's economy. If
+the health of the city's economy is a function of the financial service sector, the risk of owning a cab medallion should be
+similar to the risk of investing in a financial service firm. The average beta of financial service firms headquartered in New
+York City is 1.25. At the end of 1994, with Treasury bond rates at 8% and using a market risk premium of 5.5%, the cost of
+equity would have been:
+This will be used as the cost of equity in valuing a cab medallion.
+FINANCING MIX
+Assume that the medallion will be financed half with equity and half with debt, and that the debt will carry an annual interest
+rate of 10%. Allowing for a marginal tax rate (federal, state, and city) of 40%, the cost of capital for valuing the medallion is:
+ESTIMATING FUTURE GROWTH AND VALUE
+It is assumed that the expected operating income from owning a cab will keep up with expected inflation, which is assumed
+to be 3%, in the long term. The predebt cash flow from owning a cab medallion is provided in the following table:
+Item
+Calculation
+Amount
+Revenues
+330 × 250
+$82,500
+Expenses
+Driver
+365 × 100
+$36,500
+Fuel and operating
+25% of revenues
+$20,625
+Maintenance
+$1,500/year
+$ 1,500
+Depreciation
+$1,500/year
+$ 1,500
+Fees and license costs
+$1,000/year
+$ 1,000
+EBIT
+$21,375
+Taxes
+40% of EBIT
+$ 8,550
+EBIT(1 − t)
+$12,825
++ Depreciation
+$ 1,500
+− Capital expenditure
+For replacement
+$ 1,500
+Free cash flow from operations
+$12,825
+The capital expenditure is assumed to be equal to depreciation. Essentially, we are assuming a sinking fund that is set aside
+to meet the eventual expense of replacing the car at the end of the tenth year.
+2
+Based on the expected cash flows from operations of $12,825, the expected growth rate of 3% in the long term, and the cost
+of capital of 10.44%, the value of owning a medallion is:
+OTHER FACTORS
+This valuation is based on the presumption that a cab driver is hired to drive the cab. If the driver owns and operates the cab,
+this is still the appropriate way to approach the valuation, since the time of the driver has to be priced in. Failing to do so will
+inflate the expected after-tax cash flows and the value of the medallion unjustly. The other issue that is not resolved in this
+valuation is whether there are any economies of scale involved in owning more than one medallion, in terms of reduced
+insurance costs or downtime. To the extent that there is, medallions will have higher value to prior owners of medallions
+rather than to new investors.
+Valuing Businesses with a Personal Component
+In chapter 24, we introduced the notion of a 
+key person
+ in a business and the effect on value of losing
+that key person. We suggested that the key person effect on value be estimated, by looking at the
+impact of the loss of that key person on cash flows. There are a number of examples we can offer for

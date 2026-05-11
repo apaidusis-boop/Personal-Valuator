@@ -1,0 +1,180 @@
+{
+  "ticker": "JNJ",
+  "market": "us",
+  "timestamp": "2026-05-05T19:34:42.070383",
+  "audit": {
+    "piotroski": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "f_score": 4,
+      "period_t": "2025-12-31",
+      "period_t_minus_1": "2024-12-31",
+      "criteria": {
+        "roa_positive": true,
+        "fcf_positive": true,
+        "delta_roa_positive": true,
+        "fcf_gt_netincome": false,
+        "leverage_not_up": false,
+        "liquidity_up": false,
+        "no_dilution": true,
+        "margin_up": false,
+        "turnover_up": false
+      },
+      "details": {
+        "roa_t": 0.13455147833944078,
+        "fcf_t": 19313000000.0,
+        "delta_roa": 0.05645215794677877,
+        "delta_ltd_ratio": 0.027786985138179815,
+        "delta_current_ratio": -0.0830529560286517,
+        "shares_delta_pct": 0.0,
+        "delta_gross_margin": -0.011927862585716209,
+        "delta_turnover": -0.020332371065415245
+      }
+    },
+    "altman": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "z": 4.441920675325796,
+      "zone": "safe",
+      "confidence": "medium",
+      "x1": 0.007519702826163345,
+      "x2": 0.4093368806786808,
+      "x3": 0.16842527985542893,
+      "x4": 4.718648810565499,
+      "x5": 0.472832689122032,
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) \u2014 conservative proxy"
+      ]
+    },
+    "beneish": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "m": -2.2871528853555443,
+      "zone": "clean",
+      "confidence": "high",
+      "indices": {
+        "DSRI": 1.063,
+        "GMI": 1.018,
+        "AQI": 1.05,
+        "SGI": 1.06,
+        "DEPI": 1.077,
+        "SGAI": 0.976,
+        "TATA": 0.0114,
+        "LVGI": 1.045
+      },
+      "period_end": "2025-12-31"
+    },
+    "moat": {
+      "ticker": "JNJ",
+      "applicable": true,
+      "overall": 8.75,
+      "pricing_power": 10.0,
+      "capital_efficiency": 7.0,
+      "reinvestment_runway": 8.0,
+      "scale_durability": 10.0,
+      "years_used": 4,
+      "period_first": "2022-12-31",
+      "period_last": "2025-12-31",
+      "details": {
+        "gm_median": 0.6895,
+        "gm_cv": 0.0089,
+        "roic_median": 0.1304,
+        "roic_persistence": 1.0,
+        "revenue_cagr": 0.056,
+        "down_years": 0,
+        "fcf_to_ni_median": 0.839,
+        "op_margin_delta": 0.1107,
+        "shares_delta_pct": -8.8,
+        "op_margin_median": 0.2209
+      },
+      "label": "STRONG"
+    }
+  },
+  "scout": {
+    "news": [
+      {
+        "title": "Johnson And Johnson Expands Clinical Pipeline In Immunology MedTech And AI",
+        "published": "2026-05-05T15:15:08Z"
+      },
+      {
+        "title": "Put $5,000 Into This Dividend Giant and Earn Passive Income Every Quarter",
+        "published": "2026-05-05T14:50:49Z"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) is Attracting Investor Attention: Here is What You Should Know",
+        "published": "2026-05-05T13:00:06Z"
+      },
+      {
+        "title": "Trump Administration Targets Dismantling of Already-Weakened DEI",
+        "published": "2026-05-04T20:06:36Z"
+      },
+      {
+        "title": "ABBV Stock Up 5% on Robust Q1 Performance: Time to Buy, Sell or Hold?",
+        "published": "2026-05-04T17:51:00Z"
+      },
+      {
+        "title": "How Investors May Respond To Johnson & Johnson (JNJ) New FDA Wins In Rare Disease And Schizophrenia",
+        "published": "2026-05-04T17:17:19Z"
+      },
+      {
+        "title": "Are Wall Street Analysts Bullish on Johnson & Johnson Stock?",
+        "published": "2026-05-04T14:31:37Z"
+      },
+      {
+        "title": "A $2 Million Portfolio Still Has a Safety Trap Most Investors Over 60 Miss",
+        "published": "2026-05-04T14:29:21Z"
+      }
+    ],
+    "short_interest": {
+      "shares_short": 19671868,
+      "pct_of_float": 0.91,
+      "days_to_cover": 2.59,
+      "signal": "low"
+    },
+    "insider": {
+      "insider_pct": 0.00061,
+      "institution_pct": 0.73605,
+      "recent_buys": 62,
+      "recent_sells": 0,
+      "signal": "bullish"
+    },
+    "analyst_consensus": {
+      "recommendation": "BUY",
+      "num_analysts": 24,
+      "target_mean": 252.41667,
+      "target_high": 285.0,
+      "target_low": 155.0,
+      "current_price": 226.05,
+      "upside_pct": 11.7
+    },
+    "multiples": {
+      "pe_trailing": 26.193512,
+      "pe_forward": 17.784594,
+      "pb": 6.700756,
+      "ev_ebitda": 16.683,
+      "ps": 5.64695,
+      "peg": 2.95,
+      "div_yield": 239.0,
+      "fcf_yield": 2.3
+    },
+    "profitability": {
+      "roe": 0.26416,
+      "roa": 0.08424,
+      "gross_margin": 0.68035007,
+      "net_margin": 0.21834
+    },
+    "meta": {
+      "name": "Johnson & Johnson",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "country": "United States",
+      "currency": "USD",
+      "market_cap": 544151371776,
+      "price": 226.05
+    }
+  },
+  "delta": "Delta Report \u2014 JNJ | hoje vs run anterior (2026-05-04)\n  Beneish M: -2.29 (novo \u2014 n\u00e3o compar\u00e1vel)",
+  "dossier": "_(dossier desactivado via --no-llm)_",
+  "model": null
+}

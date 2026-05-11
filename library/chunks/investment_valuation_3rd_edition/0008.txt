@@ -1,0 +1,43 @@
+.15—dc23 
+2011052858
+
+I would like to dedicate this book to Michele, whose patience and support made it possible, and to
+my four children—Ryan, Brendan, Kendra, and Kiran—who provided the inspiration.
+
+Preface to the Third Edition
+This is a book about valuation—the valuation of stocks, bonds, options, futures and real assets. It is a
+fundamental precept of this book that any asset can be valued, albeit imprecisely in some cases. I
+have attempted to provide a sense of not only the differences between the models used to value
+different types of assets, but also the common elements in these models.
+The past decade has been an eventful one for those interested in valuation for several reasons. First,
+the growth of Asian and Latin American markets brought emerging market companies into the
+forefront, and you will see the increased focus on these companies in this edition. Second, we saw the
+havoc wreaked by macro-economic factors on company valuations during the bank crisis of 2008, and
+a blurring of the lines between developed and emerging markets. The lessons I learned about
+financial fundamentals during the crisis about risk-free rates, risk premiums and cash flow estimation
+are incorporated into the text. Third, the past year has seen the influx of social media companies, with
+small revenues and outsized market capitalizations, in an eerie replay of the dot-com boom from the
+late 1990s. More than ever, it made clear that the more things change, the more they stay the same.
+Finally, the entry of new players into equity markets (hedge funds, private equity investors and high-
+frequency traders) has changed markets and investing dramatically. With each shift, the perennial
+question arises: “Is valuation still relevant in this market?” and my answer remains unchanged,
+“Absolutely and more than ever.”
+As technology increasingly makes the printed page an anachronism, I have tried to adapt in many
+ways. First, this book will be available in e-book format, and hopefully will be just as useful as the
+print edition (if not more so). Second, every valuation in this book will be put on the web site that
+will accompany this book (
+www.damodaran.com
+), as will a significant number of datasets and
+spreadsheets. In fact, the valuations in the book will be updated online, allowing the book to have a
+much closer link to real-time valuations.
+In the process of presenting and discussing the various aspects of valuation, I have tried to adhere
+to four basic principles. First, I have attempted to be as comprehensive as possible in covering the
+range of valuation models that are available to an analyst doing a valuation, while presenting the
+common elements in these models and providing a framework that can be used to pick the right model
+for any valuation scenario. Second, the models are presented with real-world examples, warts and
+all, so as to capture some of the problems inherent in applying these models. There is the obvious
+danger that some of these valuations will appear to be hopelessly wrong in hindsight, but this cost is
+well worth the benefits. Third, in keeping with my belief that valuation models are universal and not
+market-specific, illustrations from markets outside the United States are interspersed throughout the
+book. Finally, I have tried to make the book as modular as possible, enabling a reader to pick and
+choose sections of the book to read, without a significant loss of continuity.

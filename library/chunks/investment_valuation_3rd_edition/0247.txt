@@ -1,0 +1,36 @@
+w of the firm's default risk. In general, using net debt ratios will
+overstate the value of riskier firms.
+wacccalc.xls:
+
+This spreadsheet allows you to convert book values of debt into market values.
+
+Estimating the Cost of Capital
+Since a firm can raise its money from three sources—equity, debt, and preferred stock—the cost of
+capital is defined as the weighted average of each of these costs. The cost of equity (k
+e
+) reflects the
+riskiness of the equity investment in the firm, the after-tax cost of debt (k
+d
+) is a function of the default
+risk of the firm, and the cost of preferred stock (k
+ps
+) is a function of its intermediate standing in terms
+of risk between debt and equity. The weights on each of these components should reflect their market
+value proportions, since these proportions best measure how the existing firm is being financed. Thus
+if E, D, and PS are the market values of equity, debt, and preferred stock respectively, the cost of
+capital can be written as follows:
+ILLUSTRATION 8.17: Estimating Cost of Capital: Boeing
+in December 2000
+Having estimated the costs of debt and equity in earlier illustrations, and the market value debt ratio in Illustration 8.16, we
+can put them together to arrive at a cost of capital for Boeing.
+ILLUSTRATION 8.18: Estimating Cost of Capital: Embraer
+in March 2008
+To estimate a cost of capital for Embraer, we again draw on the estimates of cost of equity and cost of debt we obtained in
+prior illustrations. The cost of capital will be estimated using gross debt ratios first in U.S. dollars:
+The cost of capital for Embraer is estimated as follows:
+To convert this into a nominal BR cost of capital, we would apply the differential inflation rates (6% in Brazil and 2% in the
+United States).
+To estimate the cost of capital using the net debt ratio, we bring in the cash balance of 4,437 million BR that Embraer had at
+the time of the analysis:
+Intuitively, the levered beta here is lower than the unlevered beta because we are incorporating the cash into the beta
+computation (with the assumption that cash is riskless).

@@ -1,0 +1,14 @@
+option.
+5.
+ You are valuing the equity in a firm with $800 million (face value) in debt with an average
+duration of six years and assets with an estimated value of $400 million. The standard deviation
+
+in asset value is 30%. With these inputs (and a riskless rate of 6%) we obtain the following
+values (approximately) for d1 and d2: 
+Estimate the default spread (over and above the risk-free rate) that you would charge for the debt
+in this firm.
+1
+ Technically, this can be done by putting the firm into stable growth and valuing it as a stable
+growth firm, where reinvestments are used to either preserve or augment existing assets.
+2
+ This is an extension of the variance formula for a two-asset portfolio.

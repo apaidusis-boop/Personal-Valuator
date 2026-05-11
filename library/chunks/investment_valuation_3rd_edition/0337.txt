@@ -1,0 +1,49 @@
+t our estimates of sales-to-capital ratios are reasonable.
+margins.xls:
+
+This dataset on the Web summarizes operating and net margins, by industry, for the United
+States.
+QUALITATIVE ASPECTS OF GROWTH
+
+The emphasis on quantitative elements—return on capital and reinvestment rates for profitable firms,
+and margins, revenue growth, and sales-to-capital ratios for unprofitable firms—may strike some as
+skewed. After all, growth is determined by a number of subjective factors—the quality of
+management, the strength of a firm's marketing, its capacity to form partnerships with other firms, and
+the management's strategic vision, among many others. Where, you might ask, is there room in the
+growth equations that have been presented in this chapter for these factors?
+The answer is that qualitative factors matter, but that they all ultimately have to show up in one or
+more of the quantitative inputs that determine growth. Consider the following:
+The quality of management plays a significant role in the returns on capital that you assume
+firms can earn on their new investments and in how long they can sustain these returns. Thus,
+the fact that a firm has a well-regarded management team may be one reason why you allow
+a firm's return on capital to remain well above the cost of capital.
+The marketing strengths of a firm and its choice of marketing strategy are reflected in the
+operating margins and turnover ratios that you assume for firms. Thus, it takes faith in a
+Coca-Cola's capacity to market its products effectively to assume a high turnover ratio and a
+high target margin. In fact, you can consider various marketing strategies, which trade off
+lower margins for higher turnover ratios, and consider the implications for value. The brand
+name of a firm's products and the strength of its distribution system also affect these
+estimates.
+Defining reinvestment broadly to include acquisitions, research and development, and
+investments in marketing and distribution allows you to consider different ways in which
+firms can grow. For some firms, reinvestment and growth come from acquisitions, while for
+other firms it may take the form of more traditional investments in plant and equipment. The
+effectiveness of these reinvestment strategies is captured in the return on capital that you
+assume for the future, with more effective firms having higher returns on capital.
+The strength of the competition that firms face is in the background but it does determine
+how high excess returns (return on capital less cost of capital) will be, and how quickly they
+fade toward zero.
+Thus, qualitative factors are quantified and the growth implications are considered. If you cannot,
+you should remain skeptical about whether these factors truly affect value.
+Why is it necessary to impose this quantitative structure on growth estimate? One of the biggest
+dangers in valuing technology firms is that story telling can be used to justify growth rates that are
+neither reasonable nor sustainable. Thus, you might be told that Tesla Motors will grow 100% a year
+because the “green” movement is strong or that Coca-Cola will grow 20 percent a year because it has
+a great brand name. While there is truth in these stories, a consideration of how these qualitative
+views translate into the quantitative elements of growth is an essential step toward consistent
+valuations.
+Can different investors consider the same qualitative factors and come to different conclusions
+about the implications for returns on capital, margins, and reinvestment rates, and consequently, about
+growth? Absolutely. In fact, you would expect differences in opinion about the future and different
+estimates of value. The payoff to knowing a firm and the sector it operates in better than other
+investors is that your estimates of growth and value will be better than theirs. Unfortunately, this does

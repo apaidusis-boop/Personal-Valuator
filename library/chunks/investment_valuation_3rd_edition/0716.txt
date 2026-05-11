@@ -1,0 +1,43 @@
+e use the market beta estimate of 1.60. Using the Treasury
+bond rate of 3.5% and a risk premium of 5% yields a cost of equity of 11.50%.
+Since the firm has no debt, the cost of capital is also 11.50%.
+
+Cash Flows
+The definitions of the cash flow to equity and cash flow to the firm are identical for both private and
+publicly traded firms. The cash flow to equity is the cash flow after taxes, debt payments and issues,
+and reinvestment needs. The cash flow to the firm is the cash flow after taxes and reinvestment needs,
+but before debt payments. There are three issues that do affect estimation of cash flows with private
+firms. The first is that many private firms do not adequately consider the salaries for owner-
+managers, since many owners do not distinguish between income that they receive as dividends and
+income obtained as salaries. The second is the intermingling of personal and business expenses that
+often occurs at small private businesses can cause income to be mismeasured. The third is the effect
+of taxes on value, since individual tax status and tax rates vary much more widely than corporate tax
+rates.
+Owner Salaries and Equity Cash Flows
+In valuing firms, we draw a simple distinction between salaries and dividends. Salaries are
+compensation for professional services rendered to the firm and should be treated as operating
+expenses. Dividends or other equity cash withdrawals from the firm are returns on equity capital
+invested and determine the value of equity. The separation between managers and stockholders in
+publicly traded firms results in a distinction between salaries (which are paid to managers) and
+dividends (which are paid to stockholders) that is clear. In a private business, the owner is often the
+firm's manager and its only equity investor. If the private firm is not incorporated, the income earned
+by the owner is taxed at the same rate, whether it is categorized as a salary or as a dividend.
+Consequently, an owner will be indifferent between receiving a salary of $10,000 and a dividend of
+$90,000 and a salary of $90,000 and a dividend of $10,000. As a consequence, owners do not pay
+themselves a salary in many small private firms, or even if they do, the salary does not reflect the
+services they render to the firm.
+When valuing a private firm, we generally make forecasts based on the operating income reported
+by the firm. If that operating income does not reflect a salary adjustment for the owner, it will be
+overstated and result in a value that is too high. To get a more precise estimate of operating income,
+we have to estimate the appropriate compensation for the owner-managers, based on the role they
+play in the firm and the cost of hiring replacements for them. Thus, the owner of a private business
+might play several roles—cashier, accountant, stockperson, and salesperson, and the management
+salary would have to include the cost of hiring a person or outside entity to provide the same
+services.
+Intermixing Business and Personal Expenses
+The intermingling of business and personal expenses is a particular problem in small private
+businesses, since owners often have absolute power over many aspects of these businesses. Many
+private business owners maintain offices in their residences, have vehicles that they use for personal
+and business use, and share other services between work and home. In some cases, family members
+are hired to fill phantom positions in order to distribute income or to reduce taxes.
+If personal expenses are consolidated with business expenses or are otherwise a part of business

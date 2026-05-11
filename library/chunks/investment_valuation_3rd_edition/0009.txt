@@ -1,0 +1,38 @@
+spersed throughout the
+book. Finally, I have tried to make the book as modular as possible, enabling a reader to pick and
+choose sections of the book to read, without a significant loss of continuity.
+
+CHAPTER 1
+Introduction to Valuation
+Every asset, financial as well as real, has a value. The key to successfully investing in and managing
+these assets lies in understanding not only what the value is, but the sources of the value. Every asset
+can be valued, but some assets are easier to value than others, and the details of valuation will vary
+from case to case. Thus, valuing of a real estate property will require different information and
+follow a different format than valuing a publicly traded stock. What is surprising, however, is not the
+differences in techniques across assets, but the degree of similarity in the basic principles of
+valuation. There is uncertainty associated with valuation. Often that uncertainty comes from the asset
+being valued, though the valuation model may add to that uncertainty.
+This chapter lays out a philosophical basis for valuation, together with a discussion of how
+valuation is or can be used in a variety of frameworks, from portfolio management to corporate
+finance.
+A PHILOSOPHICAL BASIS FOR VALUATION
+It was Oscar Wilde who described a cynic as one who “knows the price of everything, but the value
+of nothing.” He could very well have been describing some analysts and many investors, a surprising
+number of whom subscribe to the “bigger fool” theory of investing, which argues that the value of an
+asset is irrelevant as long as there is a “bigger fool” around willing to buy the asset from them. While
+this may provide a basis for some profits, it is a dangerous game to play, since there is no guarantee
+that such an investor will still be around when the time to sell comes.
+A postulate of sound investing is that an investor does not pay more for an asset than it's worth. This
+statement may seem logical and obvious, but it is forgotten and rediscovered at some time in every
+generation and in every market. There are those who are disingenuous enough to argue that value is in
+the eye of the beholder, and that any price can be justified if there are other investors willing to pay
+that price. That is patently absurd. Perceptions may be all that matter when the asset is a painting or a
+sculpture, but investors do not (and should not) buy most assets for aesthetic or emotional reasons;
+financial assets are acquired for the cash flows expected on them. Consequently, perceptions of value
+have to be backed up by reality, which implies that the price that is paid for any asset should reflect
+the cash flows it is expected to generate. The models of valuation described in this book attempt to
+relate value to the level and expected growth of these cash flows.
+There are many areas in valuation where there is room for disagreement, including how to estimate
+true value and how long it will take for prices to adjust to true value. But there is one point on which
+there can be no disagreement: Asset prices cannot be justified by merely using the argument that there
+will be other investors around willing to pay those prices.

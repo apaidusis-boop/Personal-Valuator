@@ -1,0 +1,43 @@
+oose
+comparable firms, differences will remain between the firm you are valuing and the comparable
+firms. Figuring out how to control for these differences is a significant part of relative valuation.
+
+What Is a Comparable Firm?
+A comparable firm is one with cash flows, growth potential, and risk similar to the firm being valued.
+It would be ideal if you could value a firm by looking at how an exactly identical firm—in terms of
+risk, growth, and cash flows—is priced. Nowhere in this definition is there a component that relates
+to the industry or sector to which a firm belongs. Thus a telecommunications firm can be compared to
+a software firm if the two are identical in terms of cash flows, growth, and risk. In most analyses,
+however, analysts define comparable firms to be other firms in the firm's business or businesses. If
+there are enough firms in the industry to allow for it, this list is pruned further using other criteria; for
+instance, only firms of similar size may be considered. The implicit assumption being made here is
+that firms in the same sector have similar risk, growth, and cash flow profiles and therefore can be
+compared with much more legitimacy.
+The key question that you face in coming up with the list of comparable firms then becomes how
+narrowly you define a comparable firm. If you define it as a firm that looks just like the firm you are
+valuing on every dimension (risk, growth, and cash flows) you may find only a handful of comparable
+firms. If you define it more broadly and are willing to accept differences on one or all of the
+dimensions, your comparable firm list will be longer. If you can find ways of controlling for
+differences across companies (and the next section presents a few choices), you will get more
+reliable estimates of relative value using a larger sample of less comparable firms than a very small
+sample of more comparable ones.
+With globalization, you are faced with a new challenge, where companies in a sector are
+incorporated and trade in different markets. Thus, in the automobile sector, you can have U.S.,
+European, and Asian firms all competing for market share globally. Can you compare companies that
+are listed on different markets? Sure, as long as you recognize that these companies can have different
+risk, growth, and cash flow characteristics. Thus, Asian automobile companies may have higher
+growth potential and risk exposure than European firms. In addition, differences in accounting
+standards and currencies can skew both market and accounting numbers and have to be controlled for.
+Controlling for Differences across Firms
+No matter how carefully you construct your list of comparable firms, you will end up with firms that
+are different from the firm you are valuing. The differences may be small on some variables and large
+on others, and you will have to control for these differences in a relative valuation. There are three
+ways of controlling for these differences: subjective adjustments, modified multiples, and sector or
+market regressions.
+Subjective Adjustments
+Relative valuation begins with two choices—the multiple used in the analysis and the group of firms
+that comprises the comparable firms. The multiple is calculated for each of the comparable firms, and
+the average is computed. To evaluate an individual firm, you then compare the multiple it trades at to
+the average computed; if it is significantly different, you make a subjective judgment about whether
+the firm's individual characteristics (growth, risk, or cash flows) may explain the difference. Thus, a
+firm may have a PE ratio of 22 in a sector where the average PE is only 15, but you may conclude that

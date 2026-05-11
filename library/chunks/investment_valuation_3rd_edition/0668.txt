@@ -1,0 +1,42 @@
+firm was 5.33%.
+If we assumed a stable real growth rate of 3% and a real cost of capital of 10%, and valued CVRD on the basis of these
+inputs, we would have estimated the following value for the firm:
+
+Note, though, that this assumes that CVRD's return on capital will remain at existing levels in perpetuity. If privatization
+leads to operating efficiencies at the firm, its margins and return on capital can be expected to improve. For instance, if we
+valued CVRD using the real return on capital of 7% earned by mining companies in the United States, we would have
+estimated the following:
+Is it reasonable to assume this improvement in margins? It depends on which side of the transaction you are on. If you were
+an investor interested in buying the stock, you might argue that the firm is too entrenched in its ways to make the changes
+needed for higher profitability, and you would then use the value estimated with current margins. If you are the government
+and want to obtain the highest value you can, you would argue for the latter.
+Financial Leverage
+In some cases firms get into trouble because they borrow too much and not because of operating or
+strategic problems. In these cases, it will be the equity earnings that will be negative while operating
+earnings will be positive. The solution to the problem depends, in large part, on how distressed the
+firm really is. If the distress is not expected to push the firm into bankruptcy, there are a variety of
+potential solutions. If, however, the distress could be terminal, finding a solution is much more
+difficult.
+Overlevered with No Immediate Threat of Bankruptcy
+Firms that borrow too much are not always on the verge of bankruptcy. In fact, firms with valuable
+operating assets and substantial operating cash flows can service much more debt than is optimal for
+them, even though they might not do so comfortably. So, what are the costs of being overlevered?
+First, the firm might end up with a large enough exposure to default risk that it affects its operations—
+customers might not buy its products, suppliers might demand speedier payment, and it might have
+trouble retaining valued employees. Second, the higher beta and cost of debt that go with the higher
+leverage will increase the firm's cost of capital and reduce its value. It is therefore in the best
+interests of the firm to reduce its debt ratio, if not immediately, at least over time.
+There are two choices when it comes to valuing levered firms as going concerns:
+1.
+ You can estimate free cash flows to the firm and value the firm. If the firm is operationally
+healthy (the operating margins are both positive and similar to those of comparable firms), the
+only modification you have to make is to reduce the debt ratio over time—in practical terms, a
+disproportionate share of the reinvestment each year has to come from equity—and compute costs
+of capital that change with the debt ratio. If the firm's operating margins have suffered because it
+borrowed too much, you might need to adjust the operating margins over time toward industry
+averages as well.
+2.
+ You can use the adjusted present value approach and value the firm as an unlevered firm, and
+add to this unlevered firm value the costs (expected bankruptcy costs) and benefits (tax benefits)
+of debt. As noted in Chapter 15, though, estimating the expected bankruptcy cost can be difficult to
+do.

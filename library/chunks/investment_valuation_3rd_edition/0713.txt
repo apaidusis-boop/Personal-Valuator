@@ -1,0 +1,29 @@
+venture capitalists cannot really be compared to private business owners, since they are not
+only more diversified but may also have other exit strategies in mind (such as going public eventually).
+2.
+
+Build up approach:
+ In this approach, you again start with the expected return from a conventional risk and return
+model, and add premiums to reflect the special risks associated with investing in small, private businesses. Two commonly
+used premiums are the small cap premium, reflecting the actual premium earned by very small, publicly traded companies
+over and above the market return (about 4 percent to 5 percent between 1928 and 2010) and the illiquidity premium,
+reflecting the higher returns earned by less liquid, public investments (with liquidity measured in trading volume and bid-ask
+spreads). 
+
+The biggest peril with this approach is the risk of double counting. After all, the small cap premium may just reflect the
+fact that small companies are less liquid.
+3.
+
+Implied private costs of equity:
+ As data on private transactions gets richer, it is possible that we could use
+transactions prices to back out internal rates of return, given the expected cash flows. These internal rates of return will be
+the implied costs of equity to buyers.
+From Cost of Equity to Cost of Capital
+ To get from the cost of equity to the cost of capital, we need
+two additional inputs—the cost of debt, which measures the rate at which firms can borrow, and the
+debt ratio, which determines the weights in the cost of capital computation. This section considers
+how best to estimate each of these inputs for a private firm.
+Cost of Debt
+The cost of debt represents the rate at which a firm can borrow money. To estimate it for publicly
+traded firms, we generally use either the yields on bonds issued by these firms or the ratings for these
+bonds to get default spreads. Private firms generally are not rated and do not have bonds outstanding.

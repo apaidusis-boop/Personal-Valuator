@@ -1,0 +1,49 @@
+:
+CONCLUSION
+Incorporating the value of nonoperating assets into firm value can be very simple to do in some cases
+—cash and near-cash investments—and very complicated in other cases—holdings in other
+
+companies. The principle, though, should remain the same. You want to estimate a fair value for these
+nonoperating assets and bring them into value. As noted, it is often better to value nonoperating assets
+separately from operating assets, but the absence of information may impede this process.
+The existence of options and the possibility of future option grants makes getting from equity value
+to value per share a complicated exercise. To deal with options outstanding at the time of the
+valuation, there are four approaches. The simplest is to estimate the value per share by dividing the
+value of equity by the fully diluted number of shares outstanding. This approach ignores both the
+expected proceeds from exercising the options and the time value of the options. The second
+approach of forecasting expected option exercises in the future and estimating the effect on value per
+share is not only tedious but unlikely to work. In the treasury stock approach, you add the expected
+proceeds from option exercise to the value of equity and then divide by the fully diluted number of
+shares outstanding. While this approach does consider the expected proceeds from exercise, it still
+ignores the option time premium.
+In the final and preferred approach, the options are valued using an option pricing model, and the
+value is subtracted from the value of equity. The resulting estimate is divided by the primary shares
+outstanding to arrive at the value of equity per share. While the current price of the stock is usually
+used in option pricing models, the value per share estimated from the discounted cash flow valuation
+can be substituted to arrive at a more consistent estimate.
+To deal with expected option grants in the future, you have to estimate the options as an expense
+item, specified as a percent of revenues. A firm that is expected to grant more options in the future
+will have lower earnings and cash flows and thus a lower value.
+Once the value per share of equity has been estimated, that value may need to be adjusted for
+differences in voting rights. Shares with disproportionately high voting rights will sell at a premium
+relative to shares with low or no voting rights. The difference will be larger for firms that are badly
+managed and smaller for well-managed firms.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ ABV Inc. has earnings before interest and taxes of $250 million, expected to grow 5% a year
+forever; the tax rate is 40%. Its cost of capital is 10%, its reinvestment rate is 33.33%, and it has
+200 million shares outstanding. If the firm has $500 million in cash and marketable securities and
+$750 million in debt outstanding, estimate the value of equity per share.
+2.
+ How would your answer to the previous problem change if you were told that ABV had options
+outstanding for 50 million shares and that each option had a value of $5?
+3.
+ If you were told that the average exercise price of the 50 million options in the previous
+problem was $6, estimate the value per share for ABV using the treasury stock approach.
+4.
+ LSI Logic has 1 billion shares outstanding, trading at $25 per share. The firm also has $5
+billion in debt outstanding. The cost of equity is 12.5% and the cost of debt, after taxes, is 5%. If
+the firm has $3 billion in cash outstanding and is fairly valued, estimate how much the firm earned
+in operating income in the current year. (The return on capital is 15%, the tax rate is 30%, and
+earnings are growing 6% a year in perpetuity.)

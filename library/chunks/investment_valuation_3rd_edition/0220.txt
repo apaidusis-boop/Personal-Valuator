@@ -1,0 +1,49 @@
+d to reflect the divestiture. The same can
+be done with acquisitions. In fact, a firm's strategic plans to enter new businesses in the
+future can be brought into the beta estimates for future periods.
+
+Firms do change their debt ratios over time. Although regression betas reflect the average
+debt-to-equity ratio maintained by the firm during the regression period, bottom-up betas use
+the current debt-to-equity ratio. If a firm plans to change its debt-to-equity ratio in the future,
+the beta can be adjusted to show these changes.
+Finally, bottom-up betas wean us from our dependence on historical stock prices. While we
+do need these prices to get betas for comparable firms, all we need for the firm being
+analyzed is a breakdown of the businesses it is in. Thus, bottom-up betas can be estimated
+for private firms, divisions of businesses, and stocks that have just started trading in
+financial markets.
+Computational Details
+Although the idea behind bottom-up betas is fairly simple, there are several computational details that
+deserve attention.
+Defining comparable firms.
+ First, we have to decide how narrowly we want to define a
+business. Consider, for instance, a firm that manufactures entertainment software. We could
+define the business as entertainment software and consider only companies that primarily
+manufacture entertainment software to be comparable firms. We could go even further and
+define comparable firms as firms manufacturing entertainment software with revenues
+similar to that of the company being analyzed. While there are benefits to narrowing the
+comparable firm definition, there is a cost. Each additional criterion added to the definition
+of 
+comparable
+ will mean that fewer firms make the list, and the savings in standard error
+that comprise the biggest benefit to bottom-up betas become smaller. A commonsense
+principle should therefore come into play. If there are hundreds of firms in a business, as
+there are in the software sector, you can afford to be more selective. If there are relatively
+few firms, not only do you have to become less selective, you might have to broaden the
+definition of comparable to bring other firms into the mix.
+Estimating betas.
+ Once the comparable firms in a business have been defined, you have to
+estimate the betas for these firms. Although it would be best to estimate the beta for each of
+these firms against a common and well-diversified equity index, it is usually easier to use
+service betas that are available for each of these firms. These service betas may be
+estimated against different indexes. For instance, if you define your business to be global
+telecommunications and obtain betas for global telecom firms from Bloomberg, these betas
+will be estimated against the local indexes. This is usually not a fatal problem, especially
+with large samples, since errors in the estimates tend to average out.
+Averaging method.
+ The average beta for the firms in the sector can be computed in one of
+three ways. We could use market-weighted averages, but the savings in standard error that
+touted in the earlier section will be muted, especially if there are one or two very large
+firms in the sample. We could estimate the simple average of the betas of the companies,
+thus weighting all betas equally. The process weights the smallest firms in the sample
+disproportionately (to their market value), but the savings in standard error are likely to be
+maximized. If the data being average (betas, debt to equity ratios) have large outliers, we

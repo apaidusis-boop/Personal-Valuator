@@ -1,0 +1,34 @@
+or a year after the deal
+was completed.
+10
+ This study was done by Keefe, Bruyette, and Woods, an investment bank. It was referenced in an
+article titled “Merger Mayhem” in 
+Barron's
+, April 20, 1998.
+
+11
+ Some of this evidence is anecdotal and is based on the study of just a few mergers.
+12
+ This might well reflect the fact that failures of mergers of equals are much more visible than
+failures of the small firm/large firm combinations.
+13
+ The numbers in this illustration were taken from the Harvard Business School case titled
+“Congoleum.” The case is reprinted in Fruhan, Kester, Mason, Piper, and Ruback (1992).
+14
+ The debt value exceeds the transaction amount, reflecting transaction costs and investment
+banking fees.
+15
+ We have used the assumptions provided by the investment banker in this case. It is troubling,
+however, that the firm has an expected growth rate of 8% a year forever without reinvesting any
+money back.
+16
+ The book value of equity can be obtained as follows: 
+
+It is assumed that there will be no dividends paid to equity investors in the initial years of a
+leveraged buyout.
+17
+ While this may seem to be a high growth rate to sustain forever, it would have been appropriate
+in 1979. Inflation and interest rates were much higher then than in the 1990s.
+18
+ When the cost of capital changes on a year-to-year basis, the discounting has to be based on a
+cumulative cost. For instance, the cash flow in year 3 will be discounted back as follows:

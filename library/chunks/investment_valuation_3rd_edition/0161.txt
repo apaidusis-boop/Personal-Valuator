@@ -1,0 +1,34 @@
+h and become statistically insignificant if investors
+are forced to wait until the official summary date.
+None of these studies examine the question of whether insiders themselves make excess returns.
+
+The reporting process, as set up now by the SEC, is biased toward legal and less profitable trades
+and away from illegal and more profitable trades. Though direct evidence cannot be offered for this
+proposition, insiders trading illegally on private information must make excess returns.
+Analyst Recommendations
+Analysts clearly hold a privileged position in the market for information, operating at the nexus of
+private and public information. Using both types of information, analysts issue buy and sell
+recommendations to their clients, who trade on this basis.
+While both buy and sell recommendations affect stock prices, sell recommendations affect prices
+much more adversely than buy recommendations affect them positively. Interestingly, Womack (1996)
+documents that the price effect of buy recommendations tends to be immediate and there is no
+evidence of price drifts after the announcement, whereas prices continue to trend down after sell
+recommendations. 
+Figure 6.21
+ graphs his findings. Stock prices increase by about 3 percent on buy
+recommendations, whereas they drop by about 4 percent on sell recommendations at the time of the
+recommendations (three days around reports). In the six months following, prices decline an
+additional 5 percent for sell recommendations, while leveling off for buy recommendations.
+Figure 6.21
+ Market Reaction to Recommendations, 1989 to 1990
+Source:
+ Womack (1996).
+Though analysts provide a valuable service in collecting private information, or maybe 
+because
+they do, there is a negative relationship in the cross section between returns earned by stocks and the
+number of analysts following the stock. The same kind of relationship exists between another proxy
+for interest—institutional ownership—and returns. This evidence [Arbel and Strebel (1983)]
+suggests that neglected stocks—those followed by few analysts and not held widely by institutions—
+earn higher returns than widely followed and held stocks.
+Money Managers
+Professional money managers operate as the experts in the field of investments. They are supposed to

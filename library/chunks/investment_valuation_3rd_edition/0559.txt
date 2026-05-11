@@ -1,0 +1,47 @@
+ded that
+the free cash flows to equity be substituted in for the dividends in those cases. You can, in fact,
+modify the equation to state the price-to-book ratio in terms of free cash flows to equity.
+
+The only substitution that we have made is the replacement of the payout ratio by the FCFE as a
+percent of earnings.
+ILLUSTRATION 19.3: Estimating the PBV Ratio for a High
+Growth Firm in the Two-Stage Model
+Assume that you have been asked to estimate the PBV ratio for a firm that is expected to be in high growth for the next five
+years. The firm has the following characteristics:
+EPS growth rate in first five years = 20%
+Payout ratio in first five years = 20%
+EPS growth rate after five years = 8%
+Payout ratio after five years = 68%
+Beta = 1.0
+Risk-free rate = T-bond rate = 6%
+Return on equity = 25%
+Cost of equity = 6% + 1(5.5%) = 11.5% (in perpetuity)
+The estimated PBV ratio for this firm is 7.89.
+ILLUSTRATION 19.4: Estimating the Intrinsic Price-to-
+Book Ratio (with High Growth)
+To extend the reach of the intrinsic valuation model, we will use a two-stage model to estimate the price-to-book ratio for
+Nestle, a company we valued with a two-stage FCFE model in Chapter 14. Rather than use the actual dividends paid (and
+payout ratio), we will use the FCFE as potential dividends and measure a payout ratio accordingly.
+Using the illustration in Chapter 14, we summarize the inputs for Nestle:
+High Growth
+Stable Growth
+Length of growth
+5 years
+Forever
+ROE
+21.35%
+10%
+Equity reinvestment rate
+37.17%
+25.00%
+Potential payout ratio
+62.83%
+75.00%
+Expected growth rate
+7.94%
+2.50%
+Cost of equity
+6.90%
+6.90%
+Expected growth rate = ROE × (1 – Potential payout ratio)
+Plugging back into the two-stage model, we get:

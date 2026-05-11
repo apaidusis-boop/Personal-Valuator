@@ -1,0 +1,13 @@
+as premissas-chave dos contratos que podem nortear a nossa avaliação sem jogos de adivinhações muito incertos. São eles: os prazos restantes das concessões e os respectivos indexadores para reajustes.
+
+Outra premissa conservadora, e possivelmente a mais importante da construção do nosso modelo de *valuation* para a Axia (e das elétricas que cobrimos de maneira geral), foi o fato de projetarmos o usufruto dos resultados dos ativos do setor elétrico somente até o término das concessões, entendendo que a tese não seria interessante se, para justificar uma possível compra, precisássemos contar com a possibilidade dúbia de renovação de concessões geração e transmissão, bem como de absorção e execução de investimentos em crescimento que não podem ser previstos.
+
+Assim, esses dois pontos são tratados como meras opcionalidades que poderão destravar mais valor à tese ao longo do tempo, caso venham a se desencadear em bons termos. Buscamos entender se, no preço atual, podemos aproveitar desconto pelos ativos que a empresa já possui, ou seja, aqueles que já estão operando ou, no máximo, em fase de construção e com contratos assinados.
+
+Passada a ideia norteadora geral, separamos a avaliação por modelo de negócios, projetando os resultados das operações de geração e transmissão.
+
+### Geração
+
+Neste segmento, começamos projetando o balanço de energia a ser comercializada pela companhia, baseada na garantia física (capacidade comercial) dos ativos medida por MW médios (MWm), que cai ao longo do tempo conforme atingem-se os prazos de término das concessões.
+
+Nesse sentido, partimos dos preços médios atuais em cada tipo de contrato, reajustando os valores por uma inflação de longo prazo fixada em 3,5%, de modo que, por conservadorismo, também optamos por nos basearmos em preços declinantes (a partir de 2028) em termos reais até o patamar de 180,00 R$/MWh, estabelecido como preço de longo prazo.

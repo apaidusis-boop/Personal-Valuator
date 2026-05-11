@@ -1,0 +1,40 @@
+in the sample
+disproportionately (to their market value), but the savings in standard error are likely to be
+maximized. If the data being average (betas, debt to equity ratios) have large outliers, we
+
+can use the median values.
+Controlling for differences.
+ In essence, when we use betas from comparable firms, we are
+assuming that all firms in the business are equally exposed to business risk and have similar
+operating leverage. Note that the process of levering and unlevering of betas allows us to
+control for differences in financial leverage. If there are significant differences in operating
+leverage—cost structure—across companies, the differences in operating leverage can be
+controlled for as well. This would require estimation of a business beta, where the effects
+of operating leverage are taken out from the unlevered beta:
+Note the similarity to the adjustment for financial leverage; the only difference is that both fixed and
+variable costs are eligible for the tax deduction, and the tax rate is therefore no longer a factor. The
+business beta can then be relevered to reflect the differences in operating leverage across firms.
+CASH AND BETAS
+In the process for estimating bottom up betas, we suggested a two step process: getting a weighted average of the betas of
+the businesses that a firm is in, using the sector-average betas of other publicly traded firms in each business and then
+adjusting for the debt to equity ratio of the firm in question.
+In making these adjustments, though, we have to deal that a firm may have a significant portion of its assets as cash. Since
+cash is usually invested in close to riskless, liquid investments, it should have a beta of zero. So, how does cash enter the
+computation? It does so in two places. When we computed the sector-average beta, we suggesting unlevering the average
+regression beta for the sector, using the average debt to equity ratio and marginal tax rate for the sector. Thus, with an
+average levered beta of 1.30, an average debt to equity ratio of 50% and an average tax rate of 40%, we estimate a sector-
+average unlevered beta of 1.00 for the entertainment business:
+However, this is the unlevered beta for companies in this business and these companies will generally have some of these
+value in cash balances. Assume, for instance, that the average cash balance of entertainment firms in the sector is 10%. The
+unlevered beta for the entertainment business alone can then be computed as follows:
+Unlevered beta for entertainment (.90) + Beta for cash (.10) = 1.00
+Plugging in a beta of zero for cash, we get a beta for just the entertainment business:
+Unlevered beta for entertainment business = 1.00/.90 = 1.11
+We call this the beta for the sector, corrected for cash, and use it in the computation of bottom up betas.
+The second place it shows up is when we compute the bottom up beta for a company. To estimate the bottom up beta for
+just the operating assets of a company like Boeing, we would take a weighted average of the cash corrected unlevered betas
+of the aerospace and defense businesses. This is the beta we would use to compute the cost of equity and cost of capital. To
+get a bottom up beta for Boeing as a company, we would then bring in the cash holdings as a separate asset and give it a
+beta of zero. This beta would then be a beta for all of Boeing's assets and for Boeing's equity in those assets. Each beta has
+a use in valuation.
+betas.xls:

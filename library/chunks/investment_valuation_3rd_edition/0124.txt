@@ -1,0 +1,43 @@
+icted counterparts. Many real
+options have limits on potential upside, or knockout provisions, and ignoring these limits can result in
+the overstatement of the value of these options.
+Compound Options
+
+Some options derive their value not from an underlying asset, but from other options. These options
+are called compound options. Compound options can take any of four forms—a call on a call, a put
+on a put, a call on a put, or a put on a call. Geske (1979) developed the analytical formulation for
+valuing compound options by replacing the standard normal distribution used in a simple option
+model with a bivariate normal distribution in the calculation.
+Consider, for instance, the option to expand a project that is discussed in Chapter 30. While we
+will value this option using a simple option pricing model, in reality there could be multiple stages in
+expansion, with each stage representing an option for the following stage. In this case, we will
+undervalue the option by considering it as a simple rather than a compound option.
+Notwithstanding this discussion, the valuation of compound options becomes progressively more
+difficult as more options are added to the chain. In this case, rather than wreck the valuation on the
+shoals of estimation error, it may be better to accept the conservative estimate that is provided with a
+simple valuation model as a floor on the value.
+Rainbow Options
+In a simple option, the uncertainty is about the price of the underlying asset. Some options are
+exposed to two or more sources of uncertainty, and these options are rainbow options. Using the
+simple option pricing model to value such options can lead to biased estimates of value. As an
+example, consider an undeveloped oil reserve as an option, where the firm that owns the reserve has
+the right to develop the reserve. Here there are two sources of uncertainty. The first is obviously the
+price of oil, and the second is the quantity of oil that is in the reserve. To value this undeveloped
+reserve, we can make the simplifying assumption that we know the quantity of oil in the reserve with
+certainty. In reality, however, uncertainty about the quantity will affect the value of this option and
+make the decision to exercise more difficult.
+4
+CONCLUSION
+An option is an asset with payoffs that are contingent on the value of an underlying asset. A call
+option provides its holder with the right to buy the underlying asset at a fixed price, whereas a put
+option provides its holder with the right to sell at a fixed price, at any time before the expiration of
+the option. The value of an option is determined by six variables—the current value of the underlying
+asset, the variance in this value, the expected dividends on the asset, the strike price and life of the
+option, and the riskless interest rate. This is illustrated in both the binomial and the Black-Scholes
+models, which value options by creating replicating portfolios composed of the underlying asset and
+riskless lending or borrowing. These models can be used to value assets that have option like
+characteristics.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ The following are prices of options traded on Microsoft Corporation, which pays no dividends.

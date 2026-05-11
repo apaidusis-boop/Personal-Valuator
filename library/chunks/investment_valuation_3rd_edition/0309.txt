@@ -1,0 +1,25 @@
+t
+smaller firms. The growth rates at smaller firms tend to be more volatile than growth rates at other
+firms in the market. The correlation between growth rates in earnings in consecutive time periods
+
+(five-year, three-year, and one-year) for firms in the United States, categorized by market value, is
+reported in 
+Figure 11.2
+.
+Figure 11.2
+ Correlation in Earnings: One-, Three-, and Five-Year Time Periods
+While the correlations tend to be higher across the board for one-year growth rates than for three-
+year or five-year growth rates in earnings, they are also consistently lower for smaller firms than they
+are for the rest of the market. This would suggest that you should be more cautious about using past
+growth, especially in earnings, for forecasting future growth at these firms.
+Revenue Growth versus Earnings Growth
+In general, revenue growth tends to be more persistent and predictable than earnings growth. This is
+because accounting choices have a far smaller effect on revenues than they do on earnings. 
+Figure
+11.3
+ compares the correlations in revenue and earnings growth over five-year periods at U.S. firms.
+Revenue growth is consistently more correlated over time than earnings growth. The implication is
+that historical growth in revenues is a far more useful number when it comes to forecasting than
+historical growth in earnings.
+Figure 11.3
+ Correlation in Earnings and Revenues—Five-Year Time Periods

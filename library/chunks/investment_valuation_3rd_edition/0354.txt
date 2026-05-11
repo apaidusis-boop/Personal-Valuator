@@ -1,0 +1,25 @@
+age of larger and more mature firms in the industry. One solution is to use
+the industry average debt ratio and cost of debt as the debt ratio and cost of debt for the firm in stable
+growth.
+wacc.xls:
+
+This dataset on the Web summarizes the debt ratios and costs of debt, by industry group, for
+firms in the United States.
+Reinvestment and Retention Ratios
+Stable growth firms tend to reinvest less than high growth firms, and it is critical that we capture the
+effects of lower growth on reinvestment and that we ensure that the firm reinvests enough to sustain its
+stable growth rate in the terminal phase. The actual adjustment will vary depending on whether we
+are discounting dividends, free cash flows to equity, or free cash flows to the firm.
+In the dividend discount model, note that the expected growth rate in earnings per share can be
+written as a function of the retention ratio and the return on equity.
+Algebraic manipulation can allow us to state the retention ratio as a function of the expected growth
+rate and return on equity:
+If we assume, for instance, a stable growth rate of 3 percent (based on the growth rate of the
+economy) for Procter & Gamble (P&G) and a return on equity of 12 percent (based on industry
+averages), we would be able to compute the retention ratio of the firm in stable growth:
+Procter & Gamble will have to retain 25 percent of its earnings to generate its expected growth of 3
+percent; it can pay out the remaining 75 percent.
+In a free cash flow to equity model, where we are focusing on net income growth, the expected
+growth rate is a function of the equity reinvestment rate and the return on equity:
+The equity reinvestment rate can then be computed as follows:
+If, for instance, we assume that Coca-Cola will have a stable growth rate of 3 percent and have a

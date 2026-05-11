@@ -1,0 +1,39 @@
+unlevered, decreases as the firm initially adds debt, reaches a minimum of 7.32% at a 40% debt ratio, and then starts to
+increase again. (See below for the full details of the numbers in this table.)
+
+Note that we are moving in 10% increments and that the cost of capital flattens out between 30% and 50%. We can get
+a more precise reading of the optimal by looking at how the cost of capital moves between 30% and 50%, in smaller
+increments. Using 1% increments, the optimal debt ratio that we compute for Disney is 43% with a cost of capital of
+7.28%. We will stick with the approximate optimal debt ratio of 40% for the rest of this illustration.
+To illustrate the robustness of this solution to alternative measures of levered betas, we re-estimate the costs of debt,
+equity, and capital under the assumption that debt bears some market risk; the results are summarized in the following
+table.
+If the debt holders bear some market risk, the cost of equity is lower at higher levels of debt, and Disney's optimal debt
+ratio increases to 60%, higher than the optimal debt ratio of 40% that we computed using the conventional beta
+measure.
+14
+FIRM VALUE AND COST OF CAPITAL
+The reason for minimizing the cost of capital is that it maximizes the value of the firm. To illustrate the effects of moving
+to the optimal debt ratio on Disney's firm value, we start off with a simple valuation model, designed to value a firm in
+stable growth.
+where 
+g
+ is the growth rate in the cash flow to the firm (in perpetuity). We begin by computing Disney's current free cash
+flow using its current earnings before interest and taxes of $6,829 million, its tax rate of 38%, and its reinvestment in 2008
+in long-term assets (ignoring working capital assuming that there is no reinvestment in working capital):
+EBIT(1 - Tax rate) = 6829 (1 - 0.38)
+$4,234
++ Depreciation and amortization
+$1,593
+- Capital expenditures
+$1,628
+- Change in noncash working capital
+$ 0
+Free cash flow to the firm
+$4,199
+The market value of the firm at the time of this analysis was obtained by adding up the estimated market values of debt
+and equity:
+Market value of equity
+$45,193
++ Market value of debt
+$16,682

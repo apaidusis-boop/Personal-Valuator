@@ -1,0 +1,39 @@
+e
+of a call, where the buyer has the right to pay a fixed price at expiration, the present value of this
+fixed price decreases as the life of the option increases, increasing the value of the call.
+6.
+
+Riskless interest rate corresponding to life of the option.
+ Since the buyer of an option pays the
+price of the option up front, an opportunity cost is involved. This cost will depend on the level of
+interest rates and the time to expiration of the option. The riskless interest rate also enters into the
+valuation of options when the present value of the exercise price is calculated, since the exercise
+price does not have to be paid (received) until expiration on calls (puts). Increases in the interest
+rate will increase the value of calls and reduce the value of puts.
+Table 5.1
+ summarizes the variables and their predicted effects on call and put prices.
+Table 5.1
+ Summary of Variables Affecting Call and Put Prices
+Effect On
+Factor
+Call Value
+Put Value
+Increase in underlying asset’s value
+Increases
+Decreases
+Increase in variance of underlying asset
+Increases
+Increases
+Increase in strike price
+Decreases
+Increases
+Increase in dividends paid
+Decreases
+Increases
+Increase in time to expiration
+Increases
+Increases
+Increase in interest rates
+Increases
+Decreases
+American versus European Options: Variables Relating to Early

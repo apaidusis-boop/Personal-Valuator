@@ -1,0 +1,14 @@
+first place.
+2.
+ There are no extraordinary or nonoperating items that affect net income but not operating
+income. Thus, to get from operating to net income all we do is subtract interest expenses and
+
+taxes.
+3.
+ The interest expenses are equal to the pretax cost of debt multiplied by the market value of debt.
+If a firm has old debt on its books, with interest expenses that are different from this value, the two
+approaches will diverge.
+If there is expected growth, the potential for inconsistency multiplies. You have to ensure that you
+borrow enough money to fund new investments to keep your debt ratio at a level consistent with what
+you are assuming when you compute the cost of capital.
+fcffvsfcfe.xls:

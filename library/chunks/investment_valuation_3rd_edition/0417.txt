@@ -1,0 +1,61 @@
+__ False ____
+b.
+ The free cash flow to equity will always be higher than dividends. 
+True ____ False ____
+c.
+ The free cash flow to equity will always be higher than net income. 
+True ____ False ____
+
+d.
+ The free cash flow to equity can never be negative. 
+True ____ False ____
+2.
+ Kimberly-Clark, a household product manufacturer, reported earnings per share of $3.20 in
+1993 and paid dividends per share of $1.70 in that year. The firm reported depreciation of $315
+million in 1993 and capital expenditures of $475 million. (There were 160 million shares
+outstanding, trading at $51 per share.) This ratio of capital expenditures to depreciation is
+expected to be maintained in the long term. The working capital needs are negligible. Kimberly-
+Clark had debt outstanding of $1.6 billion, and intended to maintain its current financing mix (of
+debt and equity) to finance future investment needs. The firm was in steady state and earnings
+were expected to grow 7% a year. The stock had a beta of 1.05. (The Treasury bond rate was
+6.25%, and the risk premium was 5.5%.)
+a.
+ Estimate the value per share, using the dividend discount model.
+b.
+ Estimate the value per share, using the FCFE model.
+c.
+ How would you explain the difference between the two models, and which one would you use
+as your benchmark for comparison to the market price?
+3.
+ Ecolab Inc. sells chemicals and systems for cleaning, sanitizing, and maintenance. It reported
+earnings per share of $2.35 in 1993, and expected earnings growth of 15.5% a year from 1994 to
+1998 and 6% a year after that. The capital expenditure per share was $2.25, and depreciation was
+$1.125 per share in 1993. Both were expected to grow at the same rate as earnings from 1994 to
+1998. Working capital was expected to remain at 5% of revenues, and revenues, which were $1
+billion in 1993, were expected to increase 6% a year from 1994 to 1998, and 4% a year after that.
+The firm had has a debt ratio [D/(D + E)] of 5%, but planned to finance future investment needs
+(including working capital investments) using a debt ratio of 20%. The stock was expected to
+have a beta of 1 for the period of the analysis, and the Treasury bond rate was 6.50%. (There
+were 63 million shares outstanding, and the market risk premium was 5.5%.)
+a.
+ Assuming that capital expenditures and depreciation offset each other after 1998, estimate the
+value per share. Is this a realistic estimate?
+b.
+ Assuming that capital expenditures continue to be 200% of depreciation even after 1998,
+estimate the value per share.
+c.
+ What would the value per share have been, if the firm had continued to finance new
+investments with its old financing mix (5%)? Is it fair to use the same beta for this analysis?
+4.
+ Dionex Corporation, a leader in the development and manufacture of ion chromography systems
+(used to identify contaminants in electronic devices), reported earnings per share of $2.02 in
+1993, and paid no dividends. These earnings were expected to grow 14% a year for five years
+(1994 to 1998) and 7% a year after that. The firm reported depreciation of $2 million in 1993 and
+capital spending of $4.20 million, and had 7 million shares outstanding. The working capital was
+expected to remain at 50% of revenues, which were $106 million in 1993, and were expected to
+grow 6% a year from 1994 to 1998 and 4% a year after that. The firm was expected to finance
+10% of its capital expenditures and working capital needs with debt. Dionex had a beta of 1.20 in
+1993, and this beta was expected to drop to 1.10 after 1998. (The Treasury bond rate was 7%,
+and the market risk premium was 5.5%.)
+a.
+ Estimate the expected free cash flow to equity from 1994 to 1998, assuming that capital

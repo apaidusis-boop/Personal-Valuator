@@ -1,0 +1,30 @@
+es is appropriate. Focusing on the current ROE can be dangerous, however,
+when the competitive environment is changing, and can lead to significant errors in valuation. In such cases, you should use a
+
+forecast return on equity that can be very different from the current return on equity. There are two ways to obtain this
+forecast:
+1.
+ Compute a historical average (over the past three or five years) of the return on equity earned by the firm, and
+substitute this value for the current return on equity when the latter is volatile.
+2.
+ Push the firm's current return on equity toward the industry average to reflect competitive pressures. For instance,
+assume that you are analyzing a computer software firm with a current return on equity of 35 percent and that the industry
+average return on equity is 20 percent. The forecast return on equity for this firm would be a weighted average of 20
+percent and 35 percent, with the weight on the industry average increasing with the speed with which you expect the
+firm's return to converge on industry norms.
+Comparing a Firm's Price-to-Book Ratio across Time
+As a firm's return on equity changes over time, you would expect its price-to-book ratio to also
+change. Specifically, firms that increase their returns on equity should increase their price-to-book
+ratios, and firms that see their returns on equity deteriorate should see a fall in their price-to-book
+ratios as well. Another way of thinking about this is in terms of the matrix presented in 
+Figure 19.5
+,
+where we argued that firms with low (or high) returns on equity should have low (or high) price-to-
+book ratios. Thus, one way to measure the effect of the restructuring of a poorly performing firm (with
+low return on equity and low price-to-book ratio) is to see where it moves on the matrix. If it
+succeeds in its endeavor, it should move from the low PBV/low ROE quadrant toward the high
+PBV/high ROE quadrant. (See 
+Figure 19.7
+.)
+Figure 19.7
+ Changes in ROE and Changes in PBV Ratio

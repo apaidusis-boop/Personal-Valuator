@@ -1,0 +1,59 @@
+sponsored mortgage finance companies and the 
+Federal Housing Administration’s insurance 
+program to channel up to $900 million a year into 
+a new fund for affordable rental housing.” 
+–New York Times
+
+Principles For Navigating Big Debt Crises
+125
+The bank would then slice up the total cash flows from the 1,000 loans and 
+distribute them in chunks: 70 to 80 percent would become a super-safe 
+AAA-rated bond, another 10 to 15 percent might become a slightly riskier but 
+still pretty safe AA-rated bond, 5 to 10 percent would become a BBB-rated 
+bond, and some small unrated residual (the “first-loss” piece) would take the 
+losses of the first few borrowers that might default. This was a classic case of 
+data-mining history rather than using sound logic to assess risk. People 
+were leveraging themselves up by betting that they were safe, because the 
+thing they were betting against had never happened before. When the bet 
+went wrong, the self-reinforcing dynamic on the upside shifted to a self-rein -
+forcing dynamic on the downside.
+Banks would sell off whatever bonds they could to investors, typically retaining 
+the first-loss piece in order to make the deal work. They carried bonds as 
+inventory (sometimes with the intention of eventually selling them; other times 
+to hold the exposure for return). This worked, which encouraged them to do it 
+more until it didn’t work. To varying degrees, the banks were holding large 
+inventories of these bonds when demand dried up in the third quarter of 2007.
+That happened when the write-downs due to mark-to-market accounting 
+began. Bear Stearns saw its 3Q07 earnings drop by 61 percent due to losses 
+related to the hedge funds that had blown up and other exposures it had to 
+subprime mortgages. Morgan Stanley and Lehman Brothers took 7 percent 
+and 3 percent hits to earnings, respectively (relatively small losses). Citigroup, 
+UBS, and Merrill Lynch followed suit, reporting meaningful but manageable 
+losses. Citigroup initially wrote down the largest loss, at $5.9 billion (keep that 
+number in mind in comparison to the numbers later in our story). 
+Around this time (fall 2007) we started running our own loss estimates and 
+“stress tests” of the financial system—gathering balance sheet data on banks to 
+see their assets and liabilities, and applying liquid market prices as proxies to 
+their illiquid holdings to estimate what they would have to report long before 
+they would have to report it. This was invaluable in anticipating what was 
+going to happen. On October 9, 2007, the S&P 500 closed at its all-time high. 
+That high in stocks wouldn’t be reached again until 2013.
+It was clear to most people in the business that banks had a problem with 
+subprime mortgages, though it wasn’t yet clear to them that the whole economy 
+had a major debt problem. To help alleviate the situation and build confidence, 
+a number of major banks proposed joining forces and creating a fund that would 
+aim to raise $75-100 billion for buying distressed subprime mortgage securities. 
+Like other observers, we viewed it as a natural response to the credit crunch 
+that would help to alleviate the risk of contagion. However, by the end of the 
+year, efforts to establish this fund had been abandoned, as the collaborating 
+banks decided that it was “not needed at this time.”15 
+Meanwhile, despite optimism at home, the credit crunch spread from the US 
+to Europe through two main mechanisms. The first was that some European 
+banks (most notably the British bank Northern Rock) had come to rely on 
+money markets for short-term wholesale funding. When that source of funding 
+began to dry up in the summer of 2007, Northern Rock experienced a classic 
+“run,” with depositors lining up to withdraw funds for three straight days in 
+the middle of September.16 The UK had a similar deposit insurance scheme as 
+News & 
+Bridgewater Daily Observations 
+(BDO)

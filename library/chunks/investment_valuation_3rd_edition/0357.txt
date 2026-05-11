@@ -1,0 +1,40 @@
+st of equity in stable growth nullifies the positive
+effect of growth.
+divfund.xls:
+
+This dataset on the Web summarizes retention ratios, by industry group, for firms in the
+United States.
+
+capex.xls:
+
+This dataset on the Web summarizes the reinvestment rates, by industry group, for firms in
+the United States.
+ILLUSTRATION 12.2: Stable Growth Rates and Excess
+Returns
+Alloy Mills is a textile firm that is currently reporting after-tax operating income of $100 million. The firm has a return on
+capital currently of 20% and reinvests 50% of its earnings back into the firm, giving it an expected growth rate of 10% for
+the next five years:
+After year 5 the growth rate is expected to drop to 5% and the return on capital is expected to stay at 20%. The terminal
+value can be estimated as follows:
+The value of the firm today would then be:
+If we did change the return on capital in stable growth to 10% while keeping the growth rate at 5%, the effect on value
+would be dramatic:
+Now consider the effect of lowering the growth rate to 4% while keeping the return on capital at 10% in stable growth:
+Note that the terminal value decreases by $16 million but the cash flow in year 5 also increases by $16 million because the
+reinvestment rate at the end of year 5 drops to 40%. The value of the firm remains unchanged at $1,300 million. In fact,
+changing the stable growth rate to 0% has no effect on value:
+ILLUSTRATION 12.3: Stable Growth Inputs
+To illustrate how the inputs to valuation change as we go from high growth to stable growth, we will consider three firms—
+Procter & Gamble, with the dividend discount model; Coca-Cola, with a free cash flow to equity model; and Amgen with a
+free cash flow to firm model.
+Consider Procter & Gamble first in the context of the dividend discount model. Although we 
+do the valuation in the next
+chapter, note that there are three key inputs to the dividend discount model—the payout ratio (which determines dividends),
+the expected return on equity (which determines the expected growth rate), and the beta (which affects the cost of equity).
+In Illustration 12.1, we argued that Procter & Gamble would have a five-year high-growth period. The following table
+summarizes the inputs into the dividend discount model for the valuation of Procter & Gamble.
+High Growth
+Stable Growth
+Payout ratio
+50.00%
+75.00%

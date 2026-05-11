@@ -1,0 +1,44 @@
+---
+id: graham_defensive
+name: Graham Defensive Investor
+book: The Intelligent Investor (Graham, 1949; revisado 2003)
+chapter: 14
+horizon: long              # >180d
+direction: LONG
+derived_from: seed          # this method was seeded manually; extract_methods.py will
+                            # enrich from book chunks when user adds Graham's PDF
+
+rules:
+  - id: size
+    description: Empresa de tamanho adequado
+    check: market_cap_usd >= 2_000_000_000      # adjusted to 2026 USD
+  - id: financial_condition
+    description: Current ratio >= 2 + long-term debt < working capital
+    check: current_ratio >= 2 AND ltd < working_capital
+  - id: earnings_stability
+    description: Lucros positivos em cada um dos últimos 10 anos
+    check: positive_earnings_years_10 == 10
+  - id: dividend_record
+    description: Dividend payments ininterruptos >= 20 anos
+    check: dividend_streak_years >= 20
+  - id: earnings_growth
+    description: EPS 3y avg cresceu >= 33% em 10 anos
+    check: eps_3y_avg_growth_10y >= 0.33
+  - id: moderate_pe
+    description: P/E <= 15 (com earnings 3y avg)
+    check: pe_on_3y_avg_earnings <= 15
+  - id: moderate_pb
+    description: P/B <= 1.5 (OR P/E * P/B <= 22.5 — Graham Number)
+    check: pb <= 1.5 OR (pe * pb) <= 22.5
+
+entry_trigger: all rules pass
+exit_trigger: price reaches 2x entry OR any rule breaks for 2 quarters
+
+expected_move:
+  target_pct: 50            # over 3-5 years
+  stop_loss_pct: -15        # relative to entry
+
+caveats:
+  - "1949 market conditions differ — thresholds ajustados for 2026"
+  - "low discovery in US large-caps today; better fit for BR small/mid caps"
+  - "paper-trade FIRST — wins rate histórica ~60% mas concentração em bear markets"

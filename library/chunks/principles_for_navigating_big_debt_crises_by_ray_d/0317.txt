@@ -1,0 +1,125 @@
+tay out of recession, 
+with the unemployment rate barely rising at all, 
+then it will be the first time ever that a housing 
+slowdown this severe has not coincided with a 
+recession.” 
+–New York Times
+
+Part 2: US Debt Crisis and Adjustment (2007–2011)
+128
+n	 Though we do not believe that the “below the surface problems” will 
+come to the surface any time soon, we also want to make sure that 
+we have no or minimal exposures to, and ample protections against, 
+widening credit and liquidity spreads, declining equities, undoing carry 
+trades, increasing volatility and deteriorating counterparties. 
+n	 When we include all of the credit crunch related exposures that exist 
+for all entities, we think that the mark-to-market losses as of today are 
+in the $420 billion range globally, which represents about 1% of global 
+GDP… we estimate their unrealized losses to be much larger than their 
+realized losses so we expect much larger write-downs to come.
+So we ran the numbers and were extremely concerned by both what we knew 
+and what we didn’t know. The biggest unknowns, even after we ran the 
+numbers on potential bank losses (which were enormous), were how these 
+losses might ripple through the market, especially via the derivative markets. 
+Derivatives are financial contracts whose value is determined by the value of 
+some underlying asset, rate, index, or even event. Unlike stocks or bonds, they 
+are not used to raise money for spending or investment. Instead, they are 
+primarily instruments for hedging risks and for speculating on changes in 
+prices. They are made through private contracts rather than on exchanges and 
+are unregulated. They were also enormous and opaque to everyone, so no one 
+could get their heads around the exposures that existed—and nobody could 
+really know how the bank and non-bank lender losses would cascade. 
+More specifically, in the three decades leading up to the crisis, a huge market 
+in over-the-counter derivative contracts (i.e., those not traded on regulated 
+exchanges) developed. In December 2000, Congress clarified that as long as 
+these over-the-counter contracts (OTC) were between “sophisticated parties,” 
+they did not have to be regulated as futures or securities—effectively shielding 
+OTC derivatives from virtually all oversight. 18 Over the next seven years, the 
+OTC market grew quickly. By June 2008, the notional value of these contracts 
+was $672.6 trillion. 
+A key derivative that would play a major role in the financial crisis was the 
+credit default swap (CDS). A CDS plays a role that is similar to insurance. 
+When an issuer sells a CDS, they promise to insure the buyer against potential 
+defaults from a particular exposure (such as defaults creating losses from 
+mortgage-backed securities) in exchange for a regular stream of payments. 
+CDS’s allow purchasers of mortgage-backed securities (and other assets) to 
+transfer default risk to the party selling the CDS. AIG, for instance, sold lots 
+of this “insurance,” but only kept very small reserves against it—meaning they 
+didn’t have the capacity to pay out if there were large losses.
+As noted earlier, I shared my concerns with the Treasury and White House, 
+but they thought that the picture I was painting was implausible because 
+nothing like that had happened in their lifetimes. While I am hesitant to speak 
+about policy makers in general because there are so many differences in what 
+they are like individually and the different seats they sit in (e.g., in the 
+Treasury, White House, Congress, SEC, etc.), I must say that they are much 
+more reactive than proactive, which is understandable because, unlike investors, 
+they are not in the business of having to bet against the consensus and be 
+News & 
+Bridgewater Daily Observations 
+(BDO) 
+December 3, 2007
+Mortgage Relief Impact May Be Limited
+“The Bush administration’s effort to help at least 
+some people in danger of defaulting on their 
+subprime mortgages could affect only a small 
+share of those who took out such loans during the 
+final two years of the housing bubble, industry 
+analysts said today.” 
+–New York Times
+December 5, 2007
+Wall Street Firms Subpoenaed in Subprime 
+Inquiry 
+-New York Times
+December 11, 2007
+Mortgage Crisis Forces the Closing of a Fund
+“Losses on investments weakened by the 
+deepening housing crisis have forced Bank of 
+America to close a multibillion-dollar high-yield 
+fund, the largest of its kind, after wealthy 
+investors withdrew billions of dollars in assets.” 
+–New York Times
+December 11, 2007
+Fed Cuts Rate a Quarter Point; Stocks Dive 
+-New York Times
+December 12, 2007
+Fed Leads Drive to Strengthen Bank System
+“A day after the Federal Reserve disappointed 
+investors with a modest cut in interest rates, 
+central banks in North America and Europe 
+announced on Wednesday the most aggressive 
+infusion of capital into the banking system since 
+the terrorist attacks of September 2001.” 
+–New York Times
+December 13, 2007
+3 Big Banks See No Relief as Write-Offs 
+Mount Up 
+–Bloomberg
+December 14, 2007
+Investors Shrug Off Global Cash Injection 
+-New York Times
+December 19, 2007 
+E.C.B. Makes $500 Billion Infusion 
+-New York Times
+December 19, 2007
+In Reversal, Fed Approves Plan to Curb Risky 
+Lending
+“The Federal Reserve, acknowledging that home 
+mortgage lenders aggressively sold deceptive loans 
+to borrowers who had little chance of repaying 
+them, proposed a broad set of restrictions Tuesday 
+on exotic mortgages and high-cost loans for 
+people with weak credit.” 
+–New York Times
+December 21, 2007
+Big Bond Insurer Discovers That Layers of Risk 
+Do Not Create a Cushion 
+“On Thursday, shares of the nation’s biggest 
+insurer of financial risk, MBIA, fell 26 percent 
+after it disclosed that it was guaranteeing 
+billions of dollars of the kind of complex debt 
+that unnerved the credit market this summer. 
+The move came a day after Standard & Poor’s 
+downgraded another bond insurer and assigned 
+a negative outlook to four companies, including 
+MBIA.” 
+–New York Times

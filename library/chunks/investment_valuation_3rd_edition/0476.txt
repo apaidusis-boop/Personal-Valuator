@@ -1,0 +1,27 @@
+nd that has not been developed, and that the book value of the land reflects its original acquisition
+price. The land obviously has significant market value but does not generate any cash flow for the
+
+firm yet. If a conscious effort is not made to bring the expected cash flows from developing the land
+into the valuation, the value of the land will be left out of the final estimate.
+How do you reflect the value of such assets in firm value? An inventory of all such assets (or at
+least the most valuable ones) is a first step, followed up by estimates of market value for each of the
+assets. These estimates can be obtained by looking at what the assets would fetch in the market today
+or by projecting the cash flows that could be generated if the assets were developed and discounting
+the cash flows at the appropriate discount rate.
+The problem with incorporating unutilized assets into firm value is an informational one. Firms do
+not reveal their unutilized assets as part of their financial statements. While it may sometimes be
+possible for investors and analysts to find out about such assets, it is far more likely that they will be
+uncovered only when you have access to information about what the firm owns and uses.
+Pension Fund Assets
+Firms with defined pension liabilities sometimes accumulate pension fund assets in excess of these
+liabilities. While the excess does belong to stockholders, they usually face a tax liability if they claim
+it. The conservative rule in dealing with overfunded pension plans would be to assume that the social
+and tax costs of reclaiming the excess funds are so large that few firms would ever even attempt to do
+it. The more realistic approach would be to add the after-tax portion of the excess funds into the
+valuation.
+As an illustration, consider a firm that reports pension fund assets that exceed its liabilities by $1
+billion. Since a firm that withdraws excess assets from a pension fund is taxed at 50% on these
+withdrawals (in the United States), you would add $500 million to the estimated value of the
+operating assets of the firm. This would reflect the 50% of the excess assets that the firm will be left
+with after paying the taxes.
+cash.xls:

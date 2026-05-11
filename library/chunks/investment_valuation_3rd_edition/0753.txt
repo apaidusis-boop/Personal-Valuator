@@ -1,0 +1,41 @@
+anagement control.
+The acquisition has to be followed by a change in management practices, and the change has
+to increase value. Using the framework for intrinsic value developed in this book, actions
+
+that enhance value increase cash flows from existing assets, increase expected growth rates,
+increase the length of the growth period, or reduce the cost of capital.
+The market price of the acquisition should reflect the status quo—the current management of
+the firm and their poor business practices. If the market price already has the control
+premium built into it, there is little potential for the acquirer to earn the premium.
+In general, control is more likely to be a motive for hostile takeovers than friendly ones, because of
+its premise that existing managers are not up to the task.
+Empirical Evidence on the Value of Control
+The strongest support for the existence of a market for corporate control lies in the types of firms that
+are typically acquired in hostile takeovers. Research indicates that the typical target firm in a hostile
+takeover has the following characteristics:
+It has underperformed other stocks in its industry and the overall market, in terms of returns
+to its stockholders in the years preceding the takeover.
+It has been less profitable than firms in its industry in the years preceding the takeover.
+It has a much lower stock holding by insiders than do firms in its peer groups.
+In a comparison of target firms in hostile and friendly takeovers, Bhide illustrates their differences.
+His findings are summarized in 
+Figure 25.3
+. As you can see, target firms in hostile takeovers have
+earned a 2.2 percent lower return on equity, on average, than other firms in their industry; they have
+earned returns for their stockholders that are 4 percent lower than the market; and only 6.5% of their
+stock is held by insiders.
+Figure 25.3
+ Target Characteristics—Hostile versus Friendly Takeovers
+Source:
+ Bhide.
+There is also evidence that firms make significant changes in the way they operate after hostile
+takeovers. In his study, Bhide examined the aftermaths of hostile takeovers and noted the following
+four changes:
+1.
+ Many of the hostile takeovers were followed by an increase in debt, which resulted in a
+downgrading of the debt. The debt was quickly reduced with proceeds from the sale of assets,
+however.
+2.
+ There was no significant change in the amount of capital investment in these firms.
+3.
+ Almost 60 percent of the takeovers were followed by significant divestitures, in which half or

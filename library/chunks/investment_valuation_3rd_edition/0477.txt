@@ -1,0 +1,17 @@
+you would add $500 million to the estimated value of the
+operating assets of the firm. This would reflect the 50% of the excess assets that the firm will be left
+with after paying the taxes.
+cash.xls:
+
+This dataset on the Web summarizes the value of cash and marketable securities by industry
+group in the United States for the most recent quarter.
+FIRM VALUE AND EQUITY VALUE
+Once you have estimates of the values of the operating assets, cash and marketable securities, and the
+other nonoperating assets owned by a firm, you can estimate the value of the firm as the sum of the
+three components. To get to the value of the equity from the firm value, you subtract out the nonequity
+claims on the firm. Nonequity claims would include debt and preferred stock, though the latter are
+often treated as equity in financial statements.
+What Nonequity Claims Should Be Subtracted?
+The general rule that you should use is that the debt you subtract from the value of the firm should be
+at least equal to the debt that you use to compute the cost of capital. Thus, if you decide to capitalize
+operating leases as debt, to compute the cost of capital, you should subtract the debt value of

@@ -1,0 +1,40 @@
+actual enterprise value of:
+The company looks overvalued, based on our assumptions, by about 23%.
+firmmult.xls:
+
+This spreadsheet allows you to estimate the value-to-sales ratio for a stable-growth or
+
+high-growth firm, given its fundamentals.
+Revenue Multiples and Profit Margins
+The key determinant of revenue multiples is the profit margin—the net margin for price-to-sales ratios
+and operating margin for value-to-sales ratios. Firms involved in businesses that have high margins
+can expect to sell for high multiples of sales. However, a decline in profit margins has a twofold
+effect. First, the reduction in profit margins reduces the revenue multiple directly. Second, the lower
+profit margin can lead to lower growth and hence lead to even lower revenue multiples.
+The profit margin can be linked to expected growth fairly easily if an additional term is defined—
+the ratio of sales to book value (BV), which is also called a turnover ratio. This turnover ratio can be
+defined in terms of book equity (Equity turnover = Sales/Book value of equity) or book capital
+(Capital turnover = Sales/Book value of capital). Using a relationship developed between growth
+rates and fundamentals, the expected growth rates in equity earnings can be written as a function of
+net profit margins and turnover ratios:
+For example, in the valuation of Whole Foods in Illustration 20.2, the expected return on equity is
+15.11%. This return on equity can be derived from Whole Foods’ net margin (2.73%) and sales-to-
+book value of equity ratio (5.53):
+Net margin = 2.73%
+Sales/BV of equity = $9,006/$1,628 = 5.53
+Return on equity = 2.73% × 5.53 = 15.11%
+For growth in operating income,
+In the valuation of Coca-Cola in Illustration 20.3, the return on capital 
+is 16%. This return on capital
+can be derived from Coca-Cola’s after-tax operating margin (14.43%) and sales/capital ratio (1.11):
+After-tax operating margin = 14.43%
+Sales/invested capital = $35,119/$31,679 = 1.11
+Return on capital = 14.43% × 1.11 = 16%
+As the profit margin is reduced, the expected returns on equity and capital will decrease, if the sales
+do not increase proportionately.
+ILLUSTRATION 20.4: 
+Estimating the Effect of Lower
+Margins on Price-Sales Ratios
+Consider again the firm analyzed in Illustration 20.1. If the firm’s profit margin declines and total revenue remains
+unchanged, the price-sales ratio for the firm will decline with it. For instance, if the firm’s profit margin declines from 10% to
+5% and the sales/BV ratio remains unchanged:

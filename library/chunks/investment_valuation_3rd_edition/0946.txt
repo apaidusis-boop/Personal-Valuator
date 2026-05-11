@@ -1,0 +1,65 @@
+ther
+goals first, then no value enhancement mechanism will work. Conversely, if managers truly care about
+value maximization, they can make almost any mechanism work in their favor. The second is that
+
+while it is sensible to connect whatever value enhancement measure we have chosen to management
+compensation, there is a downside. Managers, over time, will tend to focus their attention on making
+themselves look better on that measure even if that can be accomplished only by reducing firm value.
+Finally, there are no magic bullets that create value. Value creation is hard work in competitive
+markets and almost involves a trade-off between costs and benefits. Everyone has a role in value
+creation, and it certainly is not the sole domain of financial analysts. In fact, the value created by
+financial engineers is smaller and less significant than the value created by good strategic, marketing,
+production, or personnel decisions.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Everlast Batteries Inc. has hired you as a consultant. The firm had after-tax operating earnings
+in 1998 of $180 million and net income of $100 million, and it paid a dividend of $50 million.
+The book value of equity at the end of 1998 was $1.25 billion, and the book value of debt was
+$350 million. The firm raised $50 million of new debt during 1998. The market value of equity at
+the end of 1998 was twice the book value of equity, and the market value of debt was the same as
+the book value of debt. The firm has a cost of equity of 12% and an after-tax cost of debt of 5%.
+a.
+ Estimate the return on capital earned by Everlast Batteries.
+b.
+ Estimate the cost of capital earned by Everlast Batteries.
+c.
+ Estimate the economic value added by Everlast Batteries.
+2.
+ Assume, in the preceding problem, that Everlast Batteries is in stable growth, and that it
+expects its economic value added to grow at 5% a year forever.
+a.
+ Estimate the value of the firm.
+b.
+ How much of this value comes from excess returns?
+c.
+ What is the market value added (MVA) of this firm?
+d.
+ How would your answers to (a), (b), and (c) change if you were told that there would be no
+economic value added after year 5?
+3.
+ Stereo City is a retailer of stereos and televisions. The firm has operating income of $150
+million, after operating lease expenses of $50 million. The firm has operating lease commitments
+for the next five years and beyond:
+Year
+Operating Lease Commitment
+1
+55
+2
+60
+3
+60
+4
+55
+5
+50
+Years 6–15
+40 each year
+The book value of equity is $1 billion, and the firm has no debt outstanding. The firm has a cost of
+equity of 11% and a pretax cost of borrowing of 6%. The tax rate is 40%.
+a.
+ Estimate the capital invested in the firm, before and after adjusting for operating leases.
+b.
+ Estimate the return on capital, before and after adjusting for operating leases.
+c.
+ Estimate the economic value added, before and after adjusting for operating leases. (The

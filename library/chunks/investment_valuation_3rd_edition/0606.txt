@@ -1,0 +1,25 @@
+ocery Sector in January 2007
+To see if the higher margin earned by Whole Foods should justify a price to sales ratio of 1.41, we regressed the price-to-
+sales ratio against net margins for the sector:
+
+Plugging Whole Food’s net margin into the regression, we get:
+Even after controlling for the higher margin, Whole Foods looks significantly overvalued at 1.41 times sales.
+In January 2009, we revisited the grocery sector and plotted price-to-sales ratios against net margins (see 
+Figure 20.7
+). In
+the intervening two years, Whole Foods seems to have fallen out of favor with investors. As its net profit margin dropped to
+2.77% its price-to-sales ratio took a more significant drop to 0.31.
+Figure 20.7
+ Price-to-Sales Ratios and Net Margins: Grocery Sector in January 2009
+To assess whether the market over reacted to the decline in margin, we regressed the price-to sales ratio against the net
+margin and arrived at the following:
+Plugging in Whole Food’s net margin into the regression, we get:
+Whole Foods now looks undervalued at 0.31 times revenues, though it falls just above the lower bound for statistical
+significance.
+Moving forward a year to January 2010, we plotted price-to-sales ratio against the net margins for grocery stores again.
+While the net margin for Whole Foods dropped to 1.44% over the year, its price-to-sales ratio increased to 0.50, putting it
+right in the middle of the pack (see 
+Figure 20.8
+).
+Figure 20.8
+ Price-to-Sales Ratios and Net Margins: Grocery Sector in January 2010

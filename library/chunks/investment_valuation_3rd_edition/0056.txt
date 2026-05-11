@@ -1,0 +1,29 @@
+ed on average)
+8.86%
+20.23%
+Return on equity (based on beginning)
+8.65%
+22.37%
+The results again indicate that Boeing had a substandard year in 1998, while the Home Depot reported healthier returns on
+
+equity. The returns on equity can also be estimated by decomposing into the components just specified (using the adjusted
+beginning-of-the-year numbers):
+Boeing
+Home Depot
+(in $millions)
+(in $millions)
+After-tax return on capital
+5.82%
+16.37%
+Debt-equity ratio
+35.18%
+48.37%
+Book interest rate(1 – Tax rate)
+4.22%
+4.06%
+Return on equity
+6.38%
+22.33%
+Note that a tax rate of 35% is used on both the return on capital and the book interest rate. This approach results in a return
+on equity that is different from the one estimated using the net income and the book value of equity.
+rocroe.xls:

@@ -1,0 +1,50 @@
+they are banks, but as 
+credit systems have grown more dynamic, a broader set of lenders has emerged, such as insurance companies, 
+non-bank trusts, broker-dealers, and even special purpose vehicles. 
+
+Part 1: The Archetypal Big Debt Cycle 
+12
+The two main long-term problems that emerge from these kinds of debt cycles are:
+1) The losses arising from the expected debt service payments not being made. When promised debt service 
+payments can’t be made, that can lead to either smaller periodic payments and/or the writing down of the 
+value of the debt (i.e., agreeing to accept less than was owed.) If you were expecting an annual debt service 
+payment of 4 percent and it comes in at 2 percent or 0 percent, there is that shortfall for each year, whereas 
+if the debt is marked down, that year’s loss would be much bigger (e.g., 50 percent).
+2) The reduction of lending and the spending it was financing going forward. Even after a debt crisis is resolved, 
+it is unlikely that the entities that borrowed too much can generate the same level of spending in the future 
+that they had before the crisis. That has implications that must be considered.
+Can Most Debt Crises Be Managed so There Aren’t Big Problems? 
+Sometimes these cycles are moderate, like bumps in the road, and sometimes they are extreme, ending in crashes. In 
+this study we examine ones that are extreme—i.e., all those in the last 100 years that produced declines in real GDP 
+of more than 3 percent. Based on my examinations of them and the ways the levers available to policy makers work, I 
+believe that it is possible for policy makers to manage them well in almost every case that the debts are denominated 
+in a country’s own currency. That is because the flexibility that policy makers have allows them to spread out the 
+harmful consequences in such ways that big debt problems aren’t really big problems. Most of the really terrible 
+economic problems that debt crises have caused occurred before policy makers took steps to spread them out. Even 
+the biggest debt crises in history (e.g., the 1930s Great Depression) were gotten past once the right adjustments were 
+made. From my examination of these cases, the biggest risks are not from the debts themselves but from a) the 
+failure of policy makers to do the right things, due to a lack of knowledge and/or lack of authority, and b) the 
+political consequences of making adjustments that hurt some people in the process of helping others. It is from a 
+desire to help reduce these risks that I have written this study.
+Having said that, I want to reiterate that 1) when debts are denominated in foreign currencies rather than 
+one’s own currency, it is much harder for a country’s policy makers to do the sorts of things that spread out 
+the debt problems, and 2) the fact that debt crises can be well-managed does not mean that they are not 
+extremely costly to some people.  
+The key to handling debt crises well lies in policy makers’ knowing how to use their levers well and having the 
+authority that they need to do so, knowing at what rate per year the burdens will have to be spread out, and who 
+will benefit and who will suffer and in what degree, so that the political and other consequences are acceptable.  
+There are four types of levers that policy makers can pull to bring debt and debt service levels down relative to the 
+income and cash flow levels that are required to service them: 
+1) Austerity (i.e., spending less) 
+2) Debt defaults/restructurings 
+3) The central bank “printing money” and making purchases (or providing guarantees)
+4) Transfers of money and credit from those who have more than they need to those who have less 
+Each one of their levers has different impacts on the economy. Some are inflationary and stimulate growth (e.g., 
+“printing money”), while others are deflationary and help reduce debt burdens (e.g., austerity and defaults). The 
+key to creating a “beautiful deleveraging” (a reduction in debt/income ratios accompanied by acceptable inflation 
+and growth rates, which I explain later) lies in striking the right balance between them. In this happy scenario, 
+debt-to-income ratios decline at the same time that economic activity and financial asset prices improve, gradually 
+bringing the nominal growth rate of incomes back above the nominal interest rate.
+These levers shift around who benefits and who suffers, and over what amount of time. Policy makers are put in 
+the politically difficult position of having to make those choices. As a result, they are rarely appreciated, even 
+when they handle the debt crisis well.

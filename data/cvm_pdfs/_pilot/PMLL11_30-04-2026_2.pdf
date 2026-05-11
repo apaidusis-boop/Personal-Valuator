@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Preconnect para recursos críticos (primeira prioridade) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+	<link rel="preconnect" href="https://files.fiis.com.br">
+	<link rel="preconnect" href="https://fiis.com.br">
+
+	<!-- Preconnect para recursos secundários (analytics, ads) -->
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin>
+	<link rel="preconnect" href="https://tag.curiosidadesdigitais.com">
+
+	<!-- DNS Prefetch para recursos não críticos -->
+	<link rel="dns-prefetch" href="https://dev.visualwebsiteoptimizer.com">
+	<link rel="dns-prefetch" href="https://disqus.com">
+
+	<!-- Preload do LCP element (logo) -->
+	<link rel="preload" as="image" href="https://fiis.com.br/wp-content/themes/fiis/resources/images/logo-fiis.svg" fetchpriority="high">
+
+    <link rel="icon" href="https://fiis.com.br/wp-content/themes/fiis/resources/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://fiis.com.br/wp-content/themes/fiis/resources/images/favicon.ico" type="image/x-icon">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='preload' href='https://fiis.com.br/wp-content/themes/fiis/dist/styles/frontend.min.css' as='style' onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel='stylesheet' href='https://fiis.com.br/wp-content/themes/fiis/dist/styles/frontend.min.css' /></noscript>
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>GGRC11 e SNAG11 são destaques do Bom Dia FIIs (28/4)</title>
+	<meta name="description" content="Os fundos imobiliários GGRC11 e SNAG11, além dos dividendos de Fiagros e FI-Infras são os destaques do Bom Dia FIIs desta terça-feira (28)." />
+	<link rel="canonical" href="https://fiis.com.br/noticias/bom-dia-fiis-280426/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="GGRC11 e SNAG11 são destaques do Bom Dia FIIs (28/4)" />
+	<meta property="og:description" content="Os fundos imobiliários GGRC11 e SNAG11, além dos dividendos de Fiagros e FI-Infras são os destaques do Bom Dia FIIs desta terça-feira (28)." />
+	<meta property="og:url" content="https://fiis.com.br/noticias/bom-dia-fiis-280426/" />
+	<meta property="og:site_name" content="Fiis" />
+	<meta property="og:image" content="https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-scaled.webp" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1707" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. tempo de leitura" />
+	<meta name="twitter:data1" content="5 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/","url":"https://fiis.com.br/noticias/bom-dia-fiis-280426/","name":"GGRC11 e SNAG11 são destaques do Bom Dia FIIs (28/4)","isPartOf":{"@id":"https://fiis.com.br/#website"},"primaryImageOfPage":{"@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/#primaryimage"},"image":{"@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/#primaryimage"},"thumbnailUrl":"https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-scaled.webp","datePublished":"2026-04-28T10:24:00+00:00","dateModified":"2026-04-28T11:08:58+00:00","description":"Os fundos imobiliários GGRC11 e SNAG11, além dos dividendos de Fiagros e FI-Infras são os destaques do Bom Dia FIIs desta terça-feira (28).","breadcrumb":{"@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://fiis.com.br/noticias/bom-dia-fiis-280426/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/#primaryimage","url":"https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-scaled.webp","contentUrl":"https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-scaled.webp","width":2560,"height":1707,"caption":"GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4) (Foto: Pexels/Tom Zhou)"},{"@type":"BreadcrumbList","@id":"https://fiis.com.br/noticias/bom-dia-fiis-280426/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://fiis.com.br/"},{"@type":"ListItem","position":2,"name":"Notícias","item":"https://fiis.com.br/noticias/"},{"@type":"ListItem","position":3,"name":"GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4)"}]},{"@type":"WebSite","@id":"https://fiis.com.br/#website","url":"https://fiis.com.br/","name":"Fiis","description":"Fiis é um site especializado em Fundos imobiliários.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://fiis.com.br/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Person","@id":"https://fiis.com.br/#/schema/person/5c5252efe7b7d43c1b2741c61b2f4589","name":"Marcelo Monteiro","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://fiis.com.br/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/e4ef9b0240ed573a45ce2f860436c2c6?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/e4ef9b0240ed573a45ce2f860436c2c6?s=96&d=mm&r=g","caption":"Marcelo Monteiro"},"description":"Formado pela Universidade Federal de Santa Maria (UFSM), em 1996, Marcelo Monteiro tem três décadas de carreira como jornalista. No currículo, inclui passagens e colaborações em veículos como Zero Hora, Correio Braziliense, Valor Econômico, InfoMoney, Gazeta Mercantil, Placar, Diário Catarinense, Fut!, Hoje em Dia e Diário de S.Paulo. É autor dos livros \"U-507 - O submarino que afundou o Brasil na Segunda Guerra Mundial\" (2012) e \"U-93 - A entrada do Brasil na Primeira Guerra Mundial\" (2014). Dirigiu os documentários \"Delírios - Filosofia e reflexão no túnel da morte\" (2021) e \"Além do Limite - Quando a meta é sobreviver\" (2022)","url":"https://fiis.com.br/author/monteiro72/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fiis.com.br' />
+<link rel='dns-prefetch' href='//files.fiis.com.br' />
+<link rel="alternate" type="application/rss+xml" title="Feed de Fiis &raquo; Story" href="https://fiis.com.br/web-stories/feed/"><!-- Critical CSS --><style></style>
+<!-- Critical CSS for mobile version --><style>*{letter-spacing:.55px;margin:0;padding:0}html{color:var(--color-txt);scroll-behavior:smooth}html body{background-color:var(--background-color);font-family:Arial,Helvetica,sans-serif}@media screen and (max-width:1220px){html body{overflow-x:hidden}}html body *{font-weight:400}::-webkit-input-placeholder{font-family:Arial,Helvetica,sans-serif}::-moz-placeholder{font-family:Arial,Helvetica,sans-serif}:-ms-input-placeholder{font-family:Arial,Helvetica,sans-serif}::-ms-input-placeholder{font-family:Arial,Helvetica,sans-serif}::placeholder{font-family:Arial,Helvetica,sans-serif}.wrapper{-webkit-box-sizing:border-box;box-sizing:border-box;margin-left:auto;margin-right:auto;max-width:1420px;position:relative;width:100%}@media screen and (max-width:1599px){.wrapper{max-width:1180px}}@media screen and (max-width:1599px) and (max-width:1220px){.wrapper{padding-left:16px;padding-right:16px}}.hide{background-color:#000!important;color:#fff!important;display:none!important}@media screen and (max-width:1220px){.whatsapp-menu{background:linear-gradient(212deg,#33e849,#2ac33c)}.whatsapp-menu a{color:#fff!important;font-size:16px!important;font-weight:700;letter-spacing:-.32px;text-transform:unset!important}.whatsapp-menu a:after{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 28 28%27%3E%3Cpath fill=%27%23fff%27 d=%27M14.014 2.333c-6.423 0-11.653 5.225-11.655 11.648a11.6 11.6 0 0 0 1.556 5.824l-1.581 5.86 6.104-1.442a11.64 11.64 0 0 0 5.57 1.418h.004c6.422 0 11.649-5.226 11.653-11.648a11.58 11.58 0 0 0-3.409-8.244 11.58 11.58 0 0 0-8.242-3.416zm-.002 2.333a9.28 9.28 0 0 1 6.594 2.732 9.25 9.25 0 0 1 2.725 6.592c-.002 5.138-4.181 9.317-9.321 9.317a9.3 9.3 0 0 1-4.453-1.132l-.786-.428-3.165.747.56-2.083.253-.934-.483-.838a9.3 9.3 0 0 1-1.244-4.658c.003-5.135 4.183-9.315 9.32-9.315M9.89 8.604c-.195 0-.51.073-.777.364-.267.29-1.021.994-1.021 2.427s1.044 2.817 1.19 3.012c.144.194 2.014 3.227 4.974 4.393 2.459.97 2.958.779 3.493.73.534-.048 1.723-.703 1.966-1.384s.243-1.265.171-1.385-.267-.194-.558-.34c-.29-.145-1.722-.848-1.99-.945-.267-.097-.462-.146-.656.146-.193.291-.75.945-.92 1.14s-.34.22-.631.074c-.292-.147-1.23-.455-2.343-1.447-.866-.77-1.45-1.722-1.62-2.014-.17-.29-.016-.45.13-.595.13-.13.29-.34.435-.51s.195-.292.292-.485c.097-.194.047-.365-.025-.51-.073-.147-.639-1.585-.898-2.16-.218-.485-.449-.496-.656-.504-.17-.007-.363-.007-.556-.007%27/%3E%3C/svg%3E");background-position:50%;background-repeat:no-repeat;bottom:0;height:28px!important;left:240px!important;right:unset!important;top:0;-webkit-transform:rotate(0deg)!important;-ms-transform:rotate(0deg)!important;transform:rotate(0deg)!important;width:28px!important}.whatsapp-menu a:before{bottom:0;content:"Grupo FIIs ";top:0}}.leadOwn{display:block;position:relative;width:100%}.leadOwn img{display:block;margin-left:-140px;margin-top:32px}@media screen and (max-width:1220px){.leadOwn img{margin-left:auto;margin-right:auto;margin-top:32px}}:root{--color-fiis:#837221;--color-fiis-bg:#ded28c;--color-txt:#000;--color-txt2:#413f3f;--color-txt3:#999;--color-txt4:#ccc;--color-txt5:#4c4c4c;--color-txt6:#212121;--color-txt7:#ddd;--color-txt8:#666;--color-txt-wtw:#fff;--color-txt-on-black:#797979;--background-color:#fff;--background-color2:#f5f5f5;--background-color-dark:#000;--loading-grey:#ededed;--background-popup-light:#b4a581}:root .logo-dark{display:none;height:40px;width:149px}:root .logo-light{display:-webkit-box;display:-ms-flexbox;display:flex;height:40px;width:149px}#breadcrumbs{display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;display:block;display:-webkit-box;justify-content:center;margin-bottom:11px;overflow:hidden;text-overflow:ellipsis;width:100%;-webkit-line-clamp:1;-webkit-box-orient:vertical;text-align:center}#breadcrumbs a{color:#000;font-size:12px;font-weight:700;line-height:12px;text-decoration:none}#breadcrumbs span{color:#7e7e7e;font-size:12px;font-weight:500;line-height:12px}#breadcrumbs .separator{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;margin-left:10px;margin-right:10px}#breadcrumbs .separator:before{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%275%27 height=%278%27 fill=%27none%27%3E%3Cpath fill=%27%23000%27 d=%27M0 7.053 3.053 4 0 .94.94 0l4 4-4 4z%27/%3E%3C/svg%3E");background-repeat:no-repeat;content:"";height:8px;width:6px}#breadcrumbs .breadcrumb_last{color:var(--color-txt2);font-weight:700;position:relative}.leadTop{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#f5f4f4;margin:42px auto 64px;max-width:1420px;min-height:300px;width:100%}@media screen and (max-width:1599px){.leadTop{max-width:1180px}}@media screen and (max-width:1599px) and (max-width:800px){.leadTop{margin-bottom:32px;margin-top:28px}}.leadTop--sidbar{min-height:250px;position:sticky;top:8px}@media screen and (max-width:1220px){.leadTop--sidbar{position:static}}@media screen and (max-width:760px){.leadTop--sidbar{display:none}}.loopNoticias>a .loopNoticias__readingTime{display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute}.loopNoticias>a .loopNoticias__readingTime{bottom:11px;right:14px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--color-txt-wtw);font-size:12px;font-weight:700}@media screen and (max-width:760px){.loopNoticias>a .loopNoticias__readingTime{display:none}}.loopNoticias>a .loopNoticias__readingTime i{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 fill=%27none%27%3E%3Cpath fill=%27%23fff%27 d=%27M15.07 1.01h-6v2h6zm-4 13h2v-6h-2zm8.03-6.62 1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42A8.96 8.96 0 0 0 12.07 4a9 9 0 0 0-9 9c0 4.97 4.02 9 9 9s9-4.03 9-9c0-2.11-.74-4.06-1.97-5.61m-7.03 12.62c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7%27/%3E%3C/svg%3E");display:block;height:24px;margin-left:2px;width:24px}.loopNoticias__content .contentInfo__desc ul li{color:#757575;font-size:12px;list-style:none}@media screen and (max-width:760px){.loopNoticias__content .contentInfo__desc ul li{color:var(--color-txt)}}.socialShare{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.socialShare ul{display:-webkit-box;display:-ms-flexbox;display:flex;gap:8px;margin-bottom:32px}.socialShare ul li{list-style:none!important}.socialShare ul li a{display:block;height:32px;width:32px}.socialShare ul li .ico-social-facebook{background:url(https://fiis.com.br/wp-content/themes/fiis/dist/images/social-facebook.svg)}.socialShare ul li .ico-social-twitter{background:url(https://fiis.com.br/wp-content/themes/fiis/dist/images/social-x.svg)}.socialShare ul li .ico-social-whatsapp{background:url(https://fiis.com.br/wp-content/themes/fiis/dist/images/social-whatsapp.svg)}.socialShare ul li .ico-social-linkedin{background:url(https://fiis.com.br/wp-content/themes/fiis/dist/images/social-linkedin.svg)}.socialSticky{height:100%;left:-88px;position:absolute;top:0}.socialSticky .socialShare{position:sticky;top:10px}.socialSticky .socialShare ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;background:var(--background-color2);border:4px solid var(--background-color);border-radius:100px;-webkit-box-shadow:0 0 2px var(--color-txt7);box-shadow:0 0 2px var(--color-txt7);-ms-flex-direction:column;flex-direction:column;margin-bottom:0;padding:8px}.newsContent__article .socialShare:first-of-type{display:none}@media screen and (max-width:1334px){.newsContent__article .socialShare:first-of-type{display:-webkit-box;display:-ms-flexbox;display:flex}}.newsContent__article .socialShare:last-of-type{display:-webkit-box;display:-ms-flexbox;display:flex}@media screen and (max-width:1334px){.newsContent__article .socialShare:last-of-type{display:none}}.higlithArticle__grid__box:first-of-type{grid-area:1/1/3/3}@media screen and (max-width:760px){.higlithArticle__grid__box:first-of-type{display:unset;grid-area:unset}}.asideArticle{grid-area:1/2/3/3;width:360px}@media screen and (max-width:1220px){.asideArticle{grid-area:unset;width:100%;-webkit-box-ordinal-group:4;-ms-flex-order:3;margin-bottom:20px;order:3}}.newsContent__article{position:relative}.headerNoticias100{background:url(https://fiis.com.br/wp-content/themes/fiis/dist/images/bg-search-full--news.jpg?as=webp) no-repeat 50%;background-color:#fff;background-size:cover;height:80px;margin-top:10px;width:100%}@media screen and (max-width:760px){.headerNoticias100{height:70px}}.headerNoticias100 .headerNoticias{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:80px}@media screen and (max-width:760px){.headerNoticias100 .headerNoticias{height:70px}}.headerNoticias100 .headerNoticias__title a{color:#000;font-size:35px;font-weight:700;line-height:40px;text-decoration:none;text-transform:uppercase}@media screen and (max-width:760px){.headerNoticias100 .headerNoticias__title a{font-size:27px}}.headerNoticiasBc100{background-color:#eee;height:32px;margin-bottom:64px;width:100%}@media screen and (max-width:760px){.headerNoticiasBc100{margin-bottom:32px}}.headerNoticiasBc100 .headerNoticiasBc{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:32px}.headerNoticiasBc100 .headerNoticiasBc #breadcrumbs{margin-bottom:1px}.higlith__grid__box:first-of-type{display:-webkit-box;display:-ms-flexbox;display:flex;grid-area:1/1/2/4}@media screen and (max-width:760px){.higlith__grid__box:first-of-type{grid-area:unset;-webkit-box-orient:vertical;-webkit-box-direction:normal;border-bottom:1px solid #f1f1f1;-ms-flex-direction:column;flex-direction:column}}.mostRead__title__list li{-webkit-box-sizing:border-box;box-sizing:border-box;margin-left:27px;padding:26px 16px 0 50px;position:relative}.mostRead__title__list li:before{color:var(--color-fiis);font-size:32px;font-weight:300;height:40px;left:-13px;position:absolute;top:22px;width:40px}@media screen and (max-width:1599px){.mostRead__title__list li:nth-of-type(6){display:none}}.mostRead__title__list li:nth-of-type(6):before{content:"06. "}@media screen and (max-width:1599px){.mostRead__title__list li:nth-of-type(7){display:none}}.mostRead__title__list li:nth-of-type(7):before{content:"07. "}.mostRead__title__list li a{color:var(--color-txt);display:block;line-height:21px;text-decoration:none}.mostRead__title__list li a h3{display:block;display:-webkit-box;font-size:14px;font-weight:500;line-height:20px;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:4;-webkit-box-orient:vertical}.newsContent__article{color:var(--color-txt2);font-size:18px;font-weight:400;line-height:31px;margin-bottom:30px}@media screen and (max-width:760px){.newsContent__article{font-size:16px;line-height:27px}}.newsContent__article ul{font-size:18px;font-weight:400;line-height:31px;margin-bottom:30px}@media screen and (max-width:760px){.newsContent__article ul{font-size:16px;line-height:27px;margin-bottom:27px}}.newsContent__article h1{color:var(--color-txt);font-size:49px;font-weight:700;line-height:56px;margin-bottom:30px;text-align:left}@media screen and (max-width:760px){.newsContent__article h1{font-size:27px;line-height:31px}}.newsContent__article ul{clear:both}.newsContent__article ul li{list-style:inside}.newsContent__article a{color:var(--color-fiis);font-weight:700;line-height:31px;text-decoration:none;word-wrap:break-word}@media screen and (max-width:1220px){.newsContent__article a{text-decoration:underline}}.newsContent__article .loopNoticias__content .contentInfo__desc ul li{color:#757575}.newsContent__article .loopNoticias__content .contentInfo__desc ul li:last-of-type{margin-left:17px;position:relative}@media screen and (max-width:760px){.newsContent__article .loopNoticias__content .contentInfo__desc ul li:last-of-type{display:none}}.newsContent__article .loopNoticias__content .contentInfo__desc ul li:last-of-type:before{bottom:0;color:#c7bc7d;content:"•";left:-11px;position:absolute;top:0}.newsContent .newsContent__article h1{color:var(--color-txt2)}@media screen and (max-width:760px){.newsContent .newsContent__article h1{font-size:32px;line-height:36px}}.newsContent{display:grid;grid-template-columns:minmax(0,1fr) 360px;grid-column-gap:100px}@media screen and (max-width:1599px){.newsContent{grid-column-gap:40px}}@media screen and (max-width:1599px) and (max-width:1220px){.newsContent{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.newsContent__article{grid-area:1/1/2/2;margin-bottom:64px;width:100%}@media screen and (max-width:760px){.newsContent__article{margin-bottom:32px}}@media screen and (max-width:1220px){.newsContent__article{grid-area:unset;max-width:unset;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}.newsContent__article>:last-child{margin-bottom:0}.newsContent__endArticle{grid-area:3/1/3/2;width:100%}@media screen and (max-width:1220px){.newsContent__endArticle{grid-area:unset;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}}.newsContent .higlith__top5{grid-area:1/2/3/3;margin-left:0;width:100%;width:360px}@media screen and (max-width:1220px){.newsContent .higlith__top5{grid-area:unset;width:100%;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}}.newsContent .extras{grid-area:2/1/3/2}@media screen and (max-width:1220px){.newsContent .extras{grid-area:unset;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}}.newsContent.newsContent--page.single-emissoes.single-emissoes--single-ticker .newsContent__article{border-top:1px solid #ccc;grid-area:unset;height:unset;margin-bottom:0;margin-top:-16px;max-height:300px;max-width:1420px;overflow-y:auto;padding-top:25px}@media screen and (max-width:1220px){.informations__contact__email{grid-area:1/1/2/4}}@media screen and (max-width:1220px) and (max-width:760px){.informations__contact__email{grid-area:unset}}@media screen and (max-width:1220px){.informations__contact__site{grid-area:2/2/2/4}}@media screen and (max-width:1220px) and (max-width:760px){.informations__contact__site{grid-area:unset}}#footer__top__extra{background-color:purple;height:200px;-webkit-box-flex:0;display:none;-ms-flex:0 1 365px;flex:0 1 365px}#footer__base .footer__base__social a img{display:-webkit-box;display:-ms-flexbox;display:flex;height:32px;width:32px;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}#header{margin-bottom:42px;z-index:5}.globalHeaderSuno100{background-color:var(--background-color)}.globalHeaderSuno100 [id^=globalHeaderDrop]{display:none}.globalHeaderSuno100 label[for^=globalHeaderDrop-]{position:relative}.globalHeaderSuno100 label[for^=globalHeaderDrop-]:after{bottom:0;content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27 fill=%27none%27%3E%3Cpath fill=%27%234B4B4B%27 d=%27m13.42 11.673 1.18-1.18-6.6-6.6-6.6 6.6 1.18 1.18L8 6.253z%27/%3E%3C/svg%3E");display:inline-block;font-size:18px;height:18px;margin:auto;position:absolute;right:46px;top:-8px;width:18px}@media screen and (max-width:1220px){.globalHeaderSuno100 label[for^=globalHeaderDrop-]:after{right:100px;top:8px;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}}.globalHeaderSuno{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:64px;margin:0 auto;max-width:1420px;padding:0}@media screen and (max-width:1599px){.globalHeaderSuno{max-width:1180px}}@media screen and (max-width:1599px) and (max-width:1220px){.globalHeaderSuno{height:47px;padding-left:16px;padding-right:16px}}.globalHeaderSuno:after{clear:both;content:"";display:table}.globalHeaderSuno #globalHeaderSunoLogo{display:-webkit-box;display:-ms-flexbox;display:flex;float:left}@media screen and (max-width:1599px){.globalHeaderSuno #globalHeaderSunoLogo{margin-right:0}}@media screen and (max-width:1599px) and (max-width:1220px){.globalHeaderSuno #globalHeaderSunoLogo{margin-right:27px}}@media screen and (max-width:1599px) and (max-width:1220px) and (max-width:760px){.globalHeaderSuno #globalHeaderSunoLogo{margin-right:0}}.globalHeaderSuno .globalHeaderToggle{display:none}.globalHeaderSuno .globalHeaderMenu{padding-top:9px;width:100%}@media screen and (max-width:1220px){.globalHeaderSuno .globalHeaderMenu{padding-top:0}}.globalHeaderSuno .globalHeaderMenu li>a{position:relative}.globalHeaderSuno .globalHeaderMenu li>a:after{bottom:0;content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27 fill=%27none%27%3E%3Cpath fill=%27%234B4B4B%27 d=%27m13.42 11.673 1.18-1.18-6.6-6.6-6.6 6.6 1.18 1.18L8 6.253z%27/%3E%3C/svg%3E");display:inline-block;font-size:18px;height:18px;margin:auto;position:absolute;right:-15px;top:-1px;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);width:18px}.globalHeaderSuno .globalHeaderMenu li>a:only-child:after{content:""}.globalHeaderSuno .globalHeaderMenu ul li a:after{right:30px;top:0;-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}.globalHeaderSuno ul{float:right;list-style:none;margin:0;padding:0;position:relative}.globalHeaderSuno ul li{display:inline-block;float:left;margin:0}.globalHeaderSuno ul li a{color:var(--color-txt6);display:block;font-size:12px;font-style:normal;font-weight:600;letter-spacing:.1em;line-height:13px;padding:16px 20px;text-decoration:none;text-indent:16px;text-transform:uppercase}@media screen and (max-width:1220px){.globalHeaderSuno ul li a{text-indent:0}}.globalHeaderSuno ul li ul li{background-color:var(--background-color2)}.globalHeaderSuno ul ul{border-radius:8px;display:none;position:absolute;top:87px}.globalHeaderSuno ul ul li{display:list-item;float:none;min-width:170px;position:relative}.globalHeaderSuno__btns{display:-webkit-box;display:-ms-flexbox;display:flex;gap:8px;position:absolute;right:0}@media screen and (max-width:1220px){.globalHeaderSuno__btns{right:16px}}.globalHeaderSuno .globalHeaderMenu li a{padding:42px 20px}@media screen and (max-width:1220px){.globalHeaderSuno .globalHeaderMenu li a{font-size:12px;line-height:30px;padding:16px 20px}}@media screen and (max-width:1220px){.globalHeaderSuno #globalHeaderSunoLogo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;float:none;padding:0;text-align:center;width:100%}.globalHeaderSuno ul{left:0;position:absolute;top:47px}.globalHeaderSuno ul li{background-color:var(--background-color);display:block;width:100%}}@media screen and (max-width:1220px){.globalHeaderSuno ul li a{font-size:12px;line-height:30px}.globalHeaderSuno ul ul{color:var(--background-color);float:none;position:static}.globalHeaderSuno ul ul a{color:var(--color-txt6);font-size:12px;font-weight:600;letter-spacing:.1em;line-height:30px;padding:16px 20px}.globalHeaderSuno ul ul li{display:block;width:100%}}@media screen and (max-width:1220px){.globalHeaderSuno .globalHeaderToggle{border:none;color:var(--color-txt6);display:block;font-size:12px;font-weight:600;letter-spacing:.1em;line-height:30px;padding:16px 20px;text-decoration:none;text-indent:16px;text-transform:uppercase}}@media screen and (max-width:1220px) and (max-width:1220px){.globalHeaderSuno .globalHeaderToggle{text-indent:0}}@media screen and (max-width:1220px){.globalHeaderSuno .globalHeaderToggle+a{display:none!important}.globalHeaderSuno .globalHeaderMenu{display:none}.globalHeaderSuno .globalHeaderToggle.globalHeaderSuno__mobiToggle{background-color:var(--background-color);left:0;padding:16px;position:absolute;top:0}.globalHeaderSuno .globalHeaderToggle.globalHeaderSuno__mobiToggle span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.globalHeaderSuno .globalHeaderToggle.globalHeaderSuno__mobiToggle span span{background-color:var(--color-txt8);height:2px;margin-bottom:3px;width:18px}}.globalHeaderSuno__btns__search{display:-webkit-box;display:-ms-flexbox;display:flex}.globalHeaderSuno__btns__search input[type=checkbox]{display:none}.globalHeaderSuno__btns__search .modal-background{background-color:rgba(0,0,0,.7);display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:9998}.globalHeaderSuno__btns__search .modal{-webkit-box-sizing:border-box;box-sizing:border-box;display:none;left:0;margin:auto;max-width:680px;position:fixed;right:0;top:140px;width:100%;z-index:9999}.globalHeaderSuno__btns__search .modal>.wrapper *{outline:none}.globalHeaderSuno__btns__search .modal>.wrapper .search-form{background-color:var(--background-color);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 24 24%27%3E%3Cpath fill=%27%234B4B4B%27 d=%27M8.5 14h.79l.28-.27A6.47 6.47 0 0 1 8 9.5a6.5 6.5 0 1 1 6.5 6.5c-1.61 0-3.09-.59-4.23-1.57l-.27.28v.79l-5 4.99L3.51 19zm6 0c2.49 0 4.5-2.01 4.5-4.5S16.99 5 14.5 5 10 7.01 10 9.5s2.01 4.5 4.5 4.5%27/%3E%3C/svg%3E");background-position:21px;background-repeat:no-repeat;background-size:24px;border-radius:50px;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto;max-width:680px;padding:0 61px;position:relative;width:100%}.globalHeaderSuno__btns__search .modal>.wrapper .search-form__field{background:transparent;border:none;-webkit-box-sizing:border-box;box-sizing:border-box;color:var(--color-txt2);font-size:18px;padding:19px 0;width:100%}.globalHeaderSuno__btns__search .modal>.wrapper .search-form__field::-webkit-input-placeholder{color:var(--color-txt2);font-size:14px;opacity:.8}.globalHeaderSuno__btns__search .modal>.wrapper .search-form__field::-moz-placeholder{color:var(--color-txt2);font-size:14px;opacity:.8}.globalHeaderSuno__btns__search .modal>.wrapper .search-form__field:-ms-input-placeholder{color:var(--color-txt2);font-size:14px;opacity:.8}.globalHeaderSuno__btns__search .modal>.wrapper .search-form__field::-ms-input-placeholder{color:var(--color-txt2);font-size:14px;opacity:.8}.globalHeaderSuno__btns__search .modal>.wrapper .modalClose{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 24 24%27%3E%3Cpath fill=%27%234B4B4B%27 d=%27M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z%27/%3E%3C/svg%3E");bottom:0;height:24px;margin:auto;position:absolute;right:16px;top:0;width:24px}.globalHeaderSuno__btns__search .example-label{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;top:7px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:var(--color-fiis-bg);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 24 24%27%3E%3Cpath fill=%27%23000%27 fill-rule=%27evenodd%27 d=%27M24 22.303 22.303 24l-5.091-5.09 1.696-1.699zM9.6 16.8c-3.97 0-7.2-3.23-7.2-7.2s3.23-7.2 7.2-7.2 7.2 3.23 7.2 7.2-3.23 7.2-7.2 7.2M9.6 0C4.298 0 0 4.298 0 9.6s4.298 9.6 9.6 9.6 9.6-4.299 9.6-9.6S14.902 0 9.6 0%27 clip-rule=%27evenodd%27/%3E%3C/svg%3E");background-position:16px;background-repeat:no-repeat;background-size:20px;border:2px solid var(--color-fiis-bg);border-radius:50px;color:var(--color-txt);font-size:14px;font-style:normal;font-weight:700;height:24px;padding:4px 12px 4px 50px;text-decoration:none;text-transform:uppercase;width:-webkit-max-content;width:-moz-max-content;width:max-content}@media screen and (max-width:1220px){.globalHeaderSuno__btns__search .example-label{background-color:transparent;background-position:50%;border:none;height:32px;overflow:hidden;padding:0;text-indent:-349px;top:0;width:32px}}</style>
+<style id='suno-higher-lower-ticker-style-inline-css' type='text/css'>
+.pluginHigherLowerTicker{font-family:Arial,Helvetica,sans-serif;font-style:normal}.pluginHigherLowerTicker .info{display:flex;justify-content:space-between;margin-bottom:16px}.pluginHigherLowerTicker .info .leftSide{color:#4b4b4b;font-size:20px;font-weight:500;line-height:170%}.pluginHigherLowerTicker .info .leftSide span{font-weight:bolder}.pluginHigherLowerTicker .info .rightSide{color:#767676;font-size:14px;font-weight:500;letter-spacing:.08em}@media screen and (max-width:1180px){.pluginHigherLowerTicker .info .rightSide{display:none}}.pluginHigherLowerTicker .analiticsBoxPlugin{font-family:Arial,Helvetica,sans-serif;margin-bottom:60px;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__cont{align-items:flex-start;box-sizing:border-box;display:flex;flex-flow:column;justify-content:space-between;overflow:hidden;padding:0}.pluginHigherLowerTicker .analiticsBoxPlugin__cont::-webkit-scrollbar{height:0;overflow:hidden}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__desktop{display:flex;gap:44px;justify-content:space-between;width:100%}@media screen and (min-width:1181px){.pluginHigherLowerTicker .analiticsBoxPlugin__cont__desktop{margin-bottom:22px}}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col__text{align-items:flex-end;background-size:110px;color:#757575;display:flex;font-size:14px;font-weight:800;justify-content:center;line-height:17px;margin-bottom:32px;margin-top:32px;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col.tab-1{margin:0}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col.tab-1,.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col.tab-2{max-width:460px;width:100%}@media screen and (max-width:1180px){.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col.tab-1,.pluginHigherLowerTicker .analiticsBoxPlugin__cont__col.tab-2{display:none;max-width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__current.tab-1,.pluginHigherLowerTicker .analiticsBoxPlugin__cont__current.tab-2{display:inherit}}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__loadingBox{align-items:center;display:flex;height:229px;justify-content:center;position:relative;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__loadingBox__spinner{bottom:0;display:inline-block;height:80px;left:0;margin:auto;position:absolute;right:0;top:0;width:80px}.pluginHigherLowerTicker .analiticsBoxPlugin__cont__loadingBox__spinner:after{animation:loading-animation 1.2s linear infinite;border-color:#d42126 transparent;border-radius:50%;border-style:solid;border-width:6px;bottom:0;content:"";display:block;height:30px;left:0;margin:auto;position:absolute;right:0;top:0;width:30px}@keyframes loading-animation{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.pluginHigherLowerTicker .analiticsBoxPlugin__obs{color:#757575;font-size:12px;font-weight:400;letter-spacing:.08em;line-height:170%;margin-bottom:6px;text-align:right}@media screen and (min-width:1181px){.pluginHigherLowerTicker .analiticsBoxPlugin__obs{display:none}}.pluginHigherLowerTicker .analiticsBoxPlugin__footer{display:flex;justify-content:space-between}.pluginHigherLowerTicker .analiticsBoxPlugin__footer .analiticaSource span{color:#4b4b4b;font-size:12px;font-weight:500;letter-spacing:-.01em;line-height:140%;text-align:right}.pluginHigherLowerTicker .analiticsBoxPlugin__footer a{align-items:center;display:flex;float:right;text-decoration:none}.pluginHigherLowerTicker .analiticsBoxPlugin__footer a span{align-items:center;color:#d42126;display:flex;font-size:9px;font-weight:800;letter-spacing:.1em;line-height:11px;margin-right:8px;text-align:right;text-transform:uppercase}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs{display:flex;gap:44px;justify-content:space-between;list-style:none;margin-bottom:0;text-transform:uppercase;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__cont{align-items:center;box-sizing:border-box;color:#757575;cursor:pointer;display:flex;filter:brightness(150%);flex-direction:row-reverse;font-size:11px;font-weight:800;gap:6px;justify-content:left;letter-spacing:.1em;line-height:15px;list-style:none;margin-bottom:0;padding-bottom:13px;padding-left:0;text-align:left;text-align:center;text-transform:uppercase;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__cont:before{content:none}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__cont svg{fill:#bbb}@media screen and (min-width:1181px){.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__cont{color:#666;cursor:auto;cursor:pointer;flex-direction:row;font-size:12px;max-width:460px;text-align:left}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__cont svg{fill:#666}}@media screen and (max-width:1180px){.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__current{border-bottom:2px solid #666;color:#757575;cursor:auto;filter:unset}.pluginHigherLowerTicker .analiticsBoxPlugin__tabs__current svg{fill:#666}}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa,.pluginHigherLowerTicker .analiticsBoxPlugin__list{box-sizing:border-box;display:flex;flex-flow:column;font-family:Arial,Helvetica,sans-serif;justify-content:flex-start;margin-bottom:0;text-decoration:none;width:100%}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item{align-items:center;border-top:1px solid #e7e7e7;display:flex;justify-content:space-between;list-style:none;text-decoration:none;white-space:nowrap}@media screen and (min-width:1181px){.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item:first-child,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item:first-child{border-top:none}}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item:hover,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item:hover{text-decoration:none}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__ticker,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__ticker{display:flex;width:42%}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__ticker__symbol,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__ticker__symbol{color:#666;font-size:14px;font-weight:700;line-height:45px;text-decoration:underline;text-transform:uppercase}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__ticker__company,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__ticker__company{align-self:center;color:#767676;display:flow-root;font-size:12px;font-style:italic;font-weight:500;line-height:18px;margin-left:5px;max-width:105px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}@media screen and (max-width:1180px){.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__ticker__company,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__ticker__company{display:none}}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__indice,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__indice{color:#666;font-size:14px;font-weight:700;line-height:45px;text-align:right;text-transform:uppercase}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Up,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Up{align-items:center;color:#008500;display:flex;font-size:14px;font-weight:700;justify-content:space-between;line-height:45px;min-width:66px;text-align:right}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Up svg circle,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Up svg circle{fill:#008500}@media screen and (max-width:1180px){.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Up svg,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Up svg{display:none}}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Down,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Down{align-items:center;color:#eb0000;display:flex;font-size:14px;font-weight:700;justify-content:space-between;line-height:45px;min-width:71px;text-align:right}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Down svg,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Down svg{transform:rotate(-180deg)}.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Down svg circle,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Down svg circle{fill:#eb0000}@media screen and (max-width:1180px){.pluginHigherLowerTicker .analiticsBoxPlugin__ibovespa__item__val__Down svg,.pluginHigherLowerTicker .analiticsBoxPlugin__list__item__val__Down svg{display:none}}@media screen and (max-width:1220px){.pluginHigherLowerTicker .analiticsBox{width:48%}}@media screen and (max-width:1220px)and (max-width:760px){.pluginHigherLowerTicker .analiticsBox{width:100%}}.pluginHigherLowerTicker .analiticsBox .analiticsBox__tabs{border-bottom:1px solid #ddd}.pluginHigherLowerTicker .analiticsBox__list{cursor:auto;margin-top:6px}.pluginHigherLowerTicker .analiticsBox .analiticsBox__list__item:first-child{border-top:none}.pluginHigherLowerTicker .analiticsBox .analiticsTop__list__item__link{color:#212121;font-size:14px;font-style:normal;font-weight:800;letter-spacing:-.01em;line-height:45px;margin-right:8px;padding-left:25px;position:relative;text-decoration:none;text-transform:uppercase}.pluginHigherLowerTicker .analiticsBox .analiticsTop__list__item__link:before{bottom:0;content:"";height:24px;left:0;margin:auto;position:absolute;top:0;width:24px}.pluginHigherLowerTicker .analiticsBox .analiticsBox__footer__logo{color:#4b4b4b;display:block;font-size:11px;font-style:normal;line-height:13px;margin-top:16px;text-align:right;text-decoration:none}.pluginHigherLowerTicker .analiticsBox .analiticsBox__footer__logo span{color:#d42126}.pluginHigherLowerTicker .analiticsBox .analiticsBox__footer__logo span span{font-weight:800}
+
+</style>
+<style id='suno-read-more-style-inline-css' type='text/css'>
+.knowMore{border-left:6px solid #837221;box-sizing:border-box;clear:both;display:flex;flex-direction:column;margin-bottom:61px;padding-left:16px}.knowMore__title{color:#837221;font-size:16px;font-weight:800;letter-spacing:.1em;line-height:14px;text-transform:uppercase}.knowMore a.knowMore__link,.knowMore__link{color:#212121;font-size:20px;font-weight:500;line-height:30px;margin-top:8px;padding-right:200px;text-decoration:none}@media screen and (max-width:1180px){.knowMore a.knowMore__link,.knowMore__link{padding-right:0}}@media screen and (max-width:1180px)and (max-width:600px){.knowMore a.knowMore__link,.knowMore__link{font-size:16px;line-height:24px}}.knowMore a.knowMore__link:hover,.knowMore__link:hover{text-decoration:underline}.readToo{border-bottom:1px solid #e7e7e7;border-top:1px solid #e7e7e7;display:flex;flex-direction:column;margin-bottom:55px;padding-bottom:8px;padding-top:48px}@media screen and (max-width:600px){.readToo{margin-bottom:42px;padding-bottom:36px;padding-top:48px}}.readToo__title{color:#837221;font-size:16px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.readToo__list{margin-top:11px}.readToo__list li{list-style:none!important;margin-bottom:8px;padding-left:22px;position:relative}.readToo__list li:after{background:#837221;border-radius:100px;content:"";height:8px;left:0;position:absolute;top:12px;width:8px}.readToo__list li a{color:#212121;font-size:20px;font-weight:500;line-height:34px;text-decoration-line:underline}@media screen and (max-width:600px){.readToo__list li a{font-size:16px;line-height:27px}}.readToo__list li a:hover{color:#837221}.readToo ul.readToo__list li{padding-left:22px}
+
+</style>
+<style id='suno-ticker-quotation-style-inline-css' type='text/css'>
+.wp-block-suno-ticker-quotation{background-color:#fff;color:#000;padding:2px}.wp-block-suno-ticker-quotation .loader{animation:spin 1s ease infinite;border:4px solid transparent;border-radius:50%;border-top-color:#fff;height:16px;width:16px}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.pluginQuotation{font-family:Arial,Helvetica,sans-serif;font-style:normal;margin-bottom:64px}@media screen and (max-width:1220px){.pluginQuotation{margin-bottom:32px}}.pluginQuotation .ticker{color:#4b4b4b;font-size:20px;font-weight:500;line-height:170%;margin-bottom:14px}.pluginQuotation .ticker span{font-weight:bolder;text-transform:uppercase}.pluginQuotation .info{display:flex;justify-content:space-between;margin-bottom:-20px}.pluginQuotation .info .leftSide{color:#4b4b4b;font-size:14px;font-weight:500;letter-spacing:.08em;line-height:170%}.pluginQuotation .info .rightSide{margin-top:-25px}.pluginQuotation .info .rightSide .period{background:#f1f1f1;border-radius:50px;color:#4b4b4b;font-size:12px;font-weight:700;margin-left:17px;padding:6px 16px;text-transform:uppercase}.pluginQuotation .chart{margin-bottom:16px}@media screen and (max-width:1180px){.pluginQuotation .chart{overflow-x:scroll}}.pluginQuotation .pluginQuotation__footer .dataChart{grid-column-gap:0;grid-row-gap:0;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:1fr}@media screen and (max-width:1220px){.pluginQuotation .pluginQuotation__footer .dataChart{grid-row-gap:8px;grid-column-gap:20px;grid-template-columns:repeat(3,1fr)}.pluginQuotation .pluginQuotation__footer .dataChart__div1,.pluginQuotation .pluginQuotation__footer .dataChart__div2,.pluginQuotation .pluginQuotation__footer .dataChart__div3,.pluginQuotation .pluginQuotation__footer .dataChart__div4{margin-bottom:16px}}.pluginQuotation .pluginQuotation__footer .dataChart__div1{grid-area:1/1/2/2}.pluginQuotation .pluginQuotation__footer .dataChart__div2{grid-area:1/2/2/3}.pluginQuotation .pluginQuotation__footer .dataChart__div3{grid-area:1/3/2/4}.pluginQuotation .pluginQuotation__footer .dataChart__div4{grid-area:1/5/2/6}@media screen and (max-width:1220px){.pluginQuotation .pluginQuotation__footer .dataChart__div4{grid-area:unset}}.pluginQuotation .pluginQuotation__footer .dataChart .text{color:#767676;font-size:12px;font-weight:600;letter-spacing:.02em;line-height:170%}.pluginQuotation .pluginQuotation__footer .dataChart .value,.pluginQuotation .pluginQuotation__footer .dataChart .value-negative,.pluginQuotation .pluginQuotation__footer .dataChart .value-positive{font-size:16px;font-weight:700;letter-spacing:.02em;line-height:170%}.pluginQuotation .pluginQuotation__footer .dataChart .value-negative{color:#eb0000}.pluginQuotation .pluginQuotation__footer .dataChart .value-positive{color:#2c872c}.pluginQuotation .pluginQuotation__footer .dataChart .minMax .value{color:#4b4b4b}@media screen and (min-width:1219px){.pluginQuotation .pluginQuotation__footer .dataChart .rightSide{text-align:right}}.pluginQuotation .pluginQuotation__footer .dataChart .rightSide .analiticaSource span{color:#4b4b4b;font-size:12px;font-weight:500;letter-spacing:-.01em;line-height:140%;text-align:right}.pluginQuotation .pluginQuotation__footer .dataChart .rightSide a{align-items:center;display:flex;margin-top:10px;text-decoration:none}@media screen and (min-width:1219px){.pluginQuotation .pluginQuotation__footer .dataChart .rightSide a{float:right}}.pluginQuotation .pluginQuotation__footer .dataChart .rightSide a span{align-items:center;color:#d42126;display:flex;font-size:9px;font-weight:800;letter-spacing:.1em;line-height:11px;margin-right:8px;text-align:right;text-transform:uppercase;white-space:nowrap}
+
+</style>
+<link rel='stylesheet' id='swiper-css' href='https://fiis.com.br/wp-content/themes/fiis/resources/vendor/swiper.min.css?ver=11.0.5' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://fiis.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://fiis.com.br/wp-json/wp/v2/news/429231" /><link rel='shortlink' href='https://fiis.com.br/?p=429231' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://fiis.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://fiis.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F&#038;format=xml" />
+<meta name="generator" content="performance-lab 4.0.0; plugins: image-prioritizer, speculation-rules, webp-uploads">
+<meta name="generator" content="webp-uploads 2.6.0">
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pageTitle":"GGRC11 e SNAG11 são destaques do Bom Dia FIIs (28\/4)","pagePostType":"news","pagePostType2":"single-news","pageAttributes":["bom-dia","bom-dia-fiis","fundos-imobiliarios","fundos-imobiliarios-fiis","ifix"],"pagePostAuthorID":1476,"pagePostAuthor":"Marcelo Monteiro","pagePostDate":"28 de abril de 2026","pagePostDateYear":2026,"pagePostDateMonth":4,"pagePostDateDay":28,"pagePostDateDayName":"terça-feira","pagePostDateHour":7,"pagePostDateMinute":24,"pagePostDateIso":"2026-04-28T07:24:00-03:00","pagePostDateUnix":1777361040,"pagePostTerms":{"post_tag":["bom dia","Bom dia fiis","Fundos Imobiliários","Fundos Imobiliários (FIIs)","IFIX"],"news_category":["FIIs"],"meta":{"views":39,"ticker_destaque":"","tag_em_destaque":""}},"postCountOnPage":1,"postCountTotal":1,"postID":429231,"postFormat":"standard"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer>
+		if (typeof gtag == "undefined") {
+			function gtag(){dataLayer.push(arguments);}
+		}
+
+		gtag("consent", "default", {
+			"analytics_storage": "granted",
+			"ad_storage": "denied",
+			"ad_user_data": "denied",
+			"ad_personalization": "denied",
+			"functionality_storage": "denied",
+			"security_storage": "granted",
+			"personalization_storage": "denied",
+		});
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer data-type="lazy" data-src="data:text/javascript;base64,CihmdW5jdGlvbih3LGQscyxsLGkpe3dbbF09d1tsXXx8W107d1tsXS5wdXNoKHsnZ3RtLnN0YXJ0JzoKbmV3IERhdGUoKS5nZXRUaW1lKCksZXZlbnQ6J2d0bS5qcyd9KTt2YXIgZj1kLmdldEVsZW1lbnRzQnlUYWdOYW1lKHMpWzBdLApqPWQuY3JlYXRlRWxlbWVudChzKSxkbD1sIT0nZGF0YUxheWVyJz8nJmw9JytsOicnO2ouYXN5bmM9dHJ1ZTtqLnNyYz0KJy8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0bS5qcz9pZD0nK2krZGw7Zi5wYXJlbnROb2RlLmluc2VydEJlZm9yZShqLGYpOwp9KSh3aW5kb3csZG9jdW1lbnQsJ3NjcmlwdCcsJ2RhdGFMYXllcicsJ0dUTS1NUkZDSk1WJyk7Cg=="></script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","url":"https:\/\/fiis.com.br\/noticias\/bom-dia-fiis-280426\/","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/noticias\/bom-dia-fiis-280426\/"},"headline":"GGRC11, SNAG11 e dividendos s\u00e3o destaques do Bom Dia FIIs (28\/4)","datePublished":"2026-04-28 07:24:00","dateModified":"2026-04-28 08:08:58","publisher":{"@type":"Organization","@id":"https:\/\/fiis.com.br\/noticias","name":"FII&#039;s","logo":{"@type":"ImageObject","url":"https:\/\/fiis.com.br\/wp-content\/themes\/fiis\/resources\/images\/logo-fiis.svg","width":"600","height":"60"}},"description":"Os fundos imobili\u00e1rios GGRC11 e SNAG11, al\u00e9m dos dividendos de Fiagros e FI-Infras s\u00e3o os destaques do Bom Dia FIIs desta ter\u00e7a-feira (28). Na segunda-feira (27), o \u00cdndice de Fundos de Investimentos Imobili\u00e1rios (IFIX) encerrou o preg\u00e3o em 3.924,93 pontos, com queda de 10,62 pontos em rela\u00e7\u00e3o ao fechamento anterior, o equivalente a recuo de [&hellip;]","author":{"@type":"Person","name":"Marcelo Monteiro","url":"https:\/\/fiis.com.br\/author\/monteiro72\/","description":"Formado pela Universidade Federal de Santa Maria (UFSM), em 1996, Marcelo Monteiro tem tr\u00eas d\u00e9cadas de carreira como jornalista. No curr\u00edculo, inclui passagens e colabora\u00e7\u00f5es em ve\u00edculos como Zero Hora, Correio Braziliense, Valor Econ\u00f4mico, InfoMoney, Gazeta Mercantil, Placar, Di\u00e1rio Catarinense, Fut!, Hoje em Dia e Di\u00e1rio de S.Paulo. \u00c9 autor dos livros \"U-507 - O submarino que afundou o Brasil na Segunda Guerra Mundial\" (2012) e \"U-93 - A entrada do Brasil na Primeira Guerra Mundial\" (2014). Dirigiu os document\u00e1rios \"Del\u00edrios - Filosofia e reflex\u00e3o no t\u00fanel da morte\" (2021) e \"Al\u00e9m do Limite - Quando a meta \u00e9 sobreviver\" (2022)"},"image":{"@type":"ImageObject","url":"https:\/\/files.fiis.com.br\/uploads\/pexels-tom-zhou-228473-14785236-1-scaled.webp","width":"1200","height":"800"},"about":[{"@context":"https:\/\/schema.org\/","@type":"DefinedTerm","termCode":"bom dia","inDefinedTermSet":{"@type":"DefinedTermSet","name":"post_tag","url":"https:\/\/fiis.com.br\/tag\/bom-dia\/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/tag\/bom-dia\/"}},{"@context":"https:\/\/schema.org\/","@type":"DefinedTerm","termCode":"Bom dia fiis","inDefinedTermSet":{"@type":"DefinedTermSet","name":"post_tag","url":"https:\/\/fiis.com.br\/tag\/bom-dia-fiis\/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/tag\/bom-dia-fiis\/"}},{"@context":"https:\/\/schema.org\/","@type":"DefinedTerm","termCode":"Fundos Imobili\u00e1rios","inDefinedTermSet":{"@type":"DefinedTermSet","name":"post_tag","url":"https:\/\/fiis.com.br\/tag\/fundos-imobiliarios\/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/tag\/fundos-imobiliarios\/"}},{"@context":"https:\/\/schema.org\/","@type":"DefinedTerm","termCode":"Fundos Imobili\u00e1rios (FIIs)","inDefinedTermSet":{"@type":"DefinedTermSet","name":"post_tag","url":"https:\/\/fiis.com.br\/tag\/fundos-imobiliarios-fiis\/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/tag\/fundos-imobiliarios-fiis\/"}},{"@context":"https:\/\/schema.org\/","@type":"DefinedTerm","termCode":"IFIX","inDefinedTermSet":{"@type":"DefinedTermSet","name":"post_tag","url":"https:\/\/fiis.com.br\/tag\/ifix\/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fiis.com.br\/tag\/ifix\/"}}]}</script>
+<!-- GAM Script loade -->
+<script data-cfasync='false' data-lazy='gam-ads' data-type="gam" data-src="data:text/javascript;base64,CgkJCQl3aW5kb3cuZ29vZ2xldGFnID0gd2luZG93Lmdvb2dsZXRhZyB8fCB7Y21kOiBbXX07CgkJCQl2YXIgZ21BZENtZHMgPSBnbUFkQ21kcyB8fCBbXTsKCQkJCXZhciB1cmxQYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpOwoJCQkJdmFyIHBhZ2VJRCA9IDQyOTIzMTsKCQkJCXZhciBnbUFkU2V0dGluZ3MgPSB7CgkJCQkJYmlkZGVyczoge2FwczogdHJ1ZX0sCgkJCQkJdXNlTGF6eUFkczogdHJ1ZSwKCQkJCQlyZWxvYWQ6IDMwLAoJCQkJCXJvb3RBZFVuaXQ6ICcvMjI4OTg3NjY0MzYvZmlpcy5jb20uYnInLAoJCQkJCXRhcmdldGluZzogWwoJCQkJCQl7bmFtZTogJ3BhZ2VfaWQnLCB2YWx1ZTogcGFnZUlEfSwKCQkJCQkJe25hbWU6ICd0aXBvX3BhZ2luYScsIHZhbHVlOiAncG9zdCd9LAoJCQkJCQl7bmFtZTogJ3RhZ3MnLCB2YWx1ZTogIiJ9LAoJCQkJCQl7bmFtZTogJ3RpcG9fcG9zdCcsIHZhbHVlOiAiIn0sCgkJCQkJCXtuYW1lOiAndXRtX3NvdXJjZScsIHZhbHVlOiBTdHJpbmcodXJsUGFyYW1zLmdldCgidXRtX3NvdXJjZSIpKS5zdWJzdHJpbmcoMCw0MCl9LAoJCQkJCQl7bmFtZTogJ3V0bV9jYW1wYWlnbicsIHZhbHVlOiBTdHJpbmcodXJsUGFyYW1zLmdldCgidXRtX2NhbXBhaWduIikpLnN1YnN0cmluZygwLDQwKX0sCgkJCQkJCXtuYW1lOiAndXRtX21lZGl1bScsIHZhbHVlOiBTdHJpbmcodXJsUGFyYW1zLmdldCgidXRtX21lZGl1bSIpKS5zdWJzdHJpbmcoMCw0MCl9CgkJCQkJXQoJCQkJfTsKCQkJ"></script><meta name="generator" content="speculation-rules 1.6.0">
+<meta name="generator" content="optimization-detective 1.0.0-beta3">
+<meta name="generator" content="image-prioritizer 1.0.0-beta2">
+<meta name="author" content="Marcelo Monteiro"/><meta property="article:published_time" content="2026-04-28T07:24:00-03:00" />		<style type="text/css" id="wp-custom-css">
+			/*marcos 04/09/2024 -> retirar X*/
+.footer__base__social{
+	grid-template-columns: repeat(3, 1fr)!important;
+}
+.footer__base__social a:nth-child(2){
+	display: none!important;
+}
+.ico-social-twitter{
+	display: none!important;
+}
+/*marcos 04/09/2024 -> retirar X*/
+
+
+.headerTicker__content__name .seguir .modal > p{
+	height:fit-content!important;
+}
+		</style>
+		</head>
+
+<body class="news-template-default single single-news postid-429231">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRFCJMV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header id="header">
+        <div class="menuSuno">
+            <div class="globalHeaderSuno100">
+                <nav class="globalHeaderSuno">
+                    <a id="globalHeaderSunoLogo" href="https://fiis.com.br">
+                        <img data-od-xpath="/HTML/BODY/HEADER[@id=&#039;header&#039;]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::NAV]/*[1][self::A]/*[1][self::IMG]" class="logo-light" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/logo-fiis.svg" alt="Logo Fiis" width="149" height="40">
+                    </a>
+                    <label for="globalHeaderDrop" class="globalHeaderToggle globalHeaderSuno__mobiToggle">
+                        <span class="hide">menu mobile</span>
+                        <span> <span></span> <span></span> <span></span> </span> </label> <input type="checkbox" id="globalHeaderDrop">
+
+                    <ul id="menu-principal" class="globalHeaderMenu"><li class="menu-noticias menu-item menu-item-type-custom menu-item-object-custom"><a href="/noticias" >Notícias</a></li>
+<li class="menu-artigos menu-item menu-item-type-custom menu-item-object-custom"><a href="/artigos" >Artigos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><label for="globalHeaderDrop-6886" class="globalHeaderToggle">Fiis</label><a href="#" >Fiis</a><input type="checkbox" id="globalHeaderDrop-6886">
+<ul class="sub-menu">
+<li class="menu-atualizacoes menu-item menu-item-type-custom menu-item-object-custom"><a href="/atualizacoes" >Atualizações</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://fiis.com.br/lista-de-fundos-imobiliarios/" >Lista de Fiis</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/resumo" >Resumo</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/lupa-de-fiis" >Lupa de FIIs</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/rendimentos" >Rendimentos</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/calendario-de-assembleias" >Assembleias</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/ifix" >Fundos do IFIX</a></li>
+<li class="menu-fiis-item menu-item menu-item-type-custom menu-item-object-custom"><a href="/glossario" >Glossário</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><label for="globalHeaderDrop-6895" class="globalHeaderToggle">Gratuito</label><a href="#" >Gratuito</a><input type="checkbox" id="globalHeaderDrop-6895">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.suno.com.br/suno-one/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNC55C1611B_" target="_blank" >Suno One</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.suno.com.br/newsletters-suno/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNC55C1611B_" target="_blank" >Siga o grupo Suno</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.fiis.com.br/ebook-manual-do-investidor-em-fiis/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNC55C1611B_" target="_blank" >E-book Investindo em Fiis</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.suno.com.br/planilha-controle-gastos/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNC55C1611B_" target="_blank" >Planilha de controle de gastos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.fiis.com.br/whatsapp-fiis/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNC55C1611B_" target="_blank" >Grupo de whatsapp</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><label for="globalHeaderDrop-6898" class="globalHeaderToggle">Aproveite</label><a href="#" >Aproveite</a><input type="checkbox" id="globalHeaderDrop-6898">
+<ul class="sub-menu">
+<li class="menu-aproveite-item menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.suno.com.br/nossas-assinaturas/suno-fundos-imobiliarios/?utm_source=Afiliado&utm_medium=Fiis.com.br&utm_campaign=_SNCDC1C07F7_" target="_blank" >Carteira Suno</a></li>
+<li class="menu-aproveite-item menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.suno.com.br/ao/servico-especializado-aw/?utm_source=fiis.com.br&utm_medium=topbar&utm_campaign=_SNCD40492BC_" target="_blank" >Consultoria Suno</a></li>
+<li class="menu-aproveite-item menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.suno.com.br/cursos/investindo-em-fundos-imobiliarios/?ref=U10853529A&utm_source=Afiliado&utm_medium=Fiis.com.br&utm_campaign=_SNCDC1C07F7_" target="_blank" >Investindo em Fiis</a></li>
+</ul>
+</li>
+<li class="whatsapp-menu menu-item menu-item-type-custom menu-item-object-custom"><a href="https://lp.fiis.com.br/whatsapp-fiis/?utm_source=fiis.com.br&utm_medium=menu.superior&utm_campaign=_SNC89230C29_" target="_blank" >WhatsApp</a></li>
+</ul>                    <div class="globalHeaderSuno__btns">
+                                                <div class="globalHeaderSuno__btns__search" data-element="header-search-form">
+                            <input type="checkbox" id="modal">
+                            <label for="modal" class="example-label">BUSCAR POR FUNDO</label>
+                            <label for="modal" class="modal-background">
+                                <span class="hide">background modal</span>
+                            </label>
+                            <div class="modal">
+                                <div class="wrapper">
+                                    <form action="" class="search-form" method="get" autocomplete="off" role="search" data-gtm-form-interact-id="0">
+
+                                        <label for="s">
+                                            <span class="hide">Buscar por ticker ou empresa</span>
+                                            <input type="text" title="Buscar por:" name="s" value="" id="s" required="true" placeholder="Buscar por ticker ou empresa..." class="search-form__field" data-gtm-form-interact-field-id="0">
+                                        </label>
+                                        <label for="modal" class="modalClose">
+                                            <span class="hide">fechar modal</span>
+                                        </label>
+                                    </form>
+                                </div>
+                                <a href="https://lp.suno.com.br/ao/se-consultoria/?utm_source=fiis.com.br&utm_medium=banner.Busca&utm_campaign=_SNC4CF44A83_" target="_blank">
+                                    <picture class="leadOwn">
+                                        <source media="(min-width: 1220px)" srcset="https://fiis.com.br/wp-content/themes/fiis/resources/images/cta/CTA-assessoria-desk3.webp" />
+                                        <img data-od-added-fetchpriority data-od-xpath="/HTML/BODY/HEADER[@id=&#039;header&#039;]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::NAV]/*[5][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[2][self::A]/*[1][self::PICTURE]/*[2][self::IMG]" fetchpriority="low" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/cta/CTA-assessoria-mobi3.webp" alt="Você investe bem em fiis? Um consultor Suno pode te mostrar caminhos que talvez você não conheça." />
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="headerNoticias100">
+    <div class="wrapper">
+        <div class="headerNoticias">
+                        <span class="headerNoticias__title"><a href="/noticias">Notícias</a></span>
+        </div>
+    </div>
+</div>
+<div class="headerNoticiasBc100">
+    <div class="wrapper">
+        <div class="headerNoticiasBc">
+            <p id="breadcrumbs"><span><span><a href="https://fiis.com.br/">Início</a></span> <span class="separator"></span> <span><a href="https://fiis.com.br/noticias/">Notícias</a></span> <span class="separator"></span> <span class="breadcrumb_last" aria-current="page">GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4)</span></span></p>        </div>
+    </div>
+</div>
+
+<style>
+/* CORREÇAO CLS */
+@media screen and (max-width: 760px) {
+
+    .single-news .newsContent__article p,
+    .single-news .newsContent__article ol,
+    .single-news .newsContent__article ul {
+        line-height: 27px !important;
+    }
+}
+</style>
+
+<div class="leadTop">
+    <div id='fiis_topo_conteudo'></div>
+<script data-cfasync="false" data-lazy="gam-ads" data-type="gam" data-src="data:text/javascript;base64,CglnbUFkQ21kcy5wdXNoKHsKCQljb21tYW5kOiAnZ21BZFVuaXQnLAoJCXBhcmFtczogewoJCQl0eXBlOiAnYmFubmVyJyxnYW06ICdXRUJfVG9wbycsCgkJCXNpemVzOiBbNzI4LCA5MF0sCgkJCWRpdklEOiAnZmlpc190b3BvX2NvbnRldWRvJywKCQkJbWFwcGluZzogJ3RvcG9faW50ZXJuYXMnLAoJCQlyZWxvYWRhYmxlOiBmYWxzZQoJCX0KCX0pOwo="></script>
+</div>
+
+<div class="wrapper newsContent">
+    <article class="newsContent__article">
+        <h1>GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4)</h1>
+
+
+<div class="socialShare">
+
+    <ul>
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="facebook" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-facebook" 
+            alt="icone do Facebook" 
+            title="icone do Facebook" 
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="linkedin" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-linkedin" 
+            alt="icone do Linkedin" 
+            title="icone do Linkedin" 
+            href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F&title=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="twitter" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-twitter" 
+            alt="icone do Twitter" 
+            title="icone do Twitter" 
+            href="https://twitter.com/share?url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F&text=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="whatsapp" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-whatsapp" 
+            alt="icone do WhatsApp" 
+            title="icone do WhatsApp" 
+            href="https://api.whatsapp.com/send?text=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29%0ahttps%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+            </ul>
+
+</div>
+	<figure class="article__cover">
+		<picture>
+			<source media="(max-width: 760px)" srcset="https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-395x263.webp">
+			<img data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[1][self::ARTICLE]/*[3][self::FIGURE]/*[1][self::PICTURE]/*[2][self::IMG]" src="https://files.fiis.com.br/uploads/pexels-tom-zhou-228473-14785236-1-1200x800.webp" alt="GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4)" />
+		</picture>
+					<figcaption class="wp-caption-text">GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4) (Foto: Pexels/Tom Zhou) </figcaption>
+			</figure>
+
+
+<div class="loopNoticias__content loopNoticias__content--singleNoticias">
+    <div class="contentInfo">
+                        <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[1][self::ARTICLE]/*[4][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" loading="lazy" class="contentInfo__author" src="https://files.fiis.com.br/uploads/Marcelo-jpg.webp" alt="Foto: Marcelo Monteiro">
+                <div class="contentInfo__desc">
+            <a href="https://fiis.com.br/author/monteiro72/" itemprop="url">Marcelo Monteiro</a>
+            <ul>
+                <li>28/04/2026 às 7:24</li>
+                <li>5  minutos de leitura</li>
+            </ul>
+            <p>Atualizado em: 28/04/2026 às 8:08</p>
+        </div>
+    </div>
+</div>
+
+
+<p id="block-95775245-f733-44ca-aafa-41c3d8533fff">Os fundos imobiliários <strong><a href="https://fiis.com.br/GGRC11/">GGRC11 </a></strong>e <strong><a href="https://fiis.com.br/SNAG11/">SNAG11</a></strong>, além dos dividendos de Fiagros e FI-Infras são os destaques do <strong>Bom Dia FIIs</strong> desta terça-feira (28). Na segunda-feira (27), o Índice de Fundos de Investimentos Imobiliários (IFIX) encerrou o pregão em 3.924,93 pontos, com queda de 10,62 pontos em relação ao fechamento anterior, o equivalente a recuo de 0,27%.</p>
+
+
+
+<p>Com o resultado, o <strong>IFIX</strong> permaneceu abaixo da máxima de 52 semanas, de 3.944,38 pontos. Já a mínima do mesmo período está em 3.358,37 pontos.</p>
+
+
+
+<p>Entre os fundos imobiliários mais negociados do dia, o <strong>GARE11 </strong>(FII Guardian Logística) liderou em volume, com R$ 1,64 milhão. Na sequência apareceram os fundos <strong>MXRF11</strong> (Maxi Renda FII), com R$ 1,38 milhão e queda de 0,60%, e o <strong>KNSC11</strong> (Kinea Securities FII), com R$ 992,28 mil e alta de 0,22%.</p>
+
+
+
+<p><strong>Leia mais</strong><br><a href="https://fiis.com.br/noticias/trbl11-e-pvbi11-caem-e-ifix-comeca-semana-com-recuo-de-027/"><strong>TRBL11 e PVBI11 caem, e IFIX começa semana com recuo de 0,27%</strong></a><br><strong><a href="https://fiis.com.br/noticias/ggrc11-e-destaque-na-agenda-de-ofertas-de-fiis-desta-semana/">GGRC11 é destaque na agenda de ofertas de FIIs desta semana</a></strong><br><strong><a href="https://fiis.com.br/noticias/snag11-cresce-alta-embarques-de-soja-impulso-agronegocio/">SNAG11 cresce com alta nos embarques de soja e impulso do agronegócio</a></strong><br><strong><a href="https://fiis.com.br/noticias/fiagro-cresce-mas-fundos-ainda-estao-baratos-entenda-cenario/">Fiagro cresce, mas fundos ainda estão baratos; entenda o cenário</a></strong><br><strong><a href="FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa">FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa</a></strong><picture style="letter-spacing: 0.55px; margin: 0px; padding: 0px; display: flex;"></picture></p>
+
+
+
+<p><strong>Confira os destaques do mercado de fundos imobiliários</strong>:</p>
+
+
+
+<h2 class="wp-block-heading">GGRC11 é destaque na agenda de ofertas de FIIs desta semana</h2>
+
+
+
+<p>As ofertas de FIIs devem ficar no radar dos investidores nesta semana. Os principais destaques são as ofertas dos fundos imobiliários&nbsp;<strong><a href="https://fiis.com.br/ggrc11/" target="_blank" rel="noreferrer noopener">GGRC11</a>&nbsp;</strong>e&nbsp;<a href="https://fiis.com.br/cplg11/" target="_blank" rel="noreferrer noopener">CPLG11</a>&nbsp;— em ambos os FIIs, o período de preferência se encerrou nesta segunda-feira (27).</p>
+
+
+
+<p>O <strong>GGRC11 </strong>é um fundo de&nbsp;<strong>imóveis industriais e logísticos</strong>. Essa é a 11ª emissão de cotas do fundo imobiliário GGRC11, que está ofertando 133.689.840 novas cotas. A oferta restrita quer captar R$ 1.500.000.004,80. A data de preferência ficou definida de 14/04/2026 a 27/04/2026. A proporção do período de preferência soma 41,60. A taxa de emissão ficou em 0,27% e o coordenador-líder é a&nbsp;<strong>Vórtx</strong>.</p>
+
+
+
+<p>O CPLG11 é um&nbsp;<strong>fundo misto</strong>. Essa é a 5ª emissão de cotas do fundo imobiliário CPLG11, que está ofertando 63.432.836 novas cotas. A oferta pública quer captar R$ 680.000.001,92. A data de preferência ficou definida de 14/04/2026 a 27/04/2026. A proporção do período de preferência soma 145,68. A taxa de emissão ficou em 4,29% e o coordenador-líder é a&nbsp;<strong>XP Investimentos</strong>.</p>
+
+
+
+<p id="block-a8f8ef6c-7be4-421f-8379-9868246239db"><strong>Leia mais</strong><br><strong><a href="https://fiis.com.br/noticias/ggrc11-e-destaque-na-agenda-de-ofertas-de-fiis-desta-semana/">GGRC11 é destaque na agenda de ofertas de FIIs desta semana</a></strong><picture style="letter-spacing: 0.55px; margin: 0px; padding: 0px; display: flex;"></picture></p>
+
+
+
+<h2 class="wp-block-heading">SNAG11 cresce com alta nos embarques de soja e impulso do agronegócio</h2>
+
+
+
+<p>A safra brasileira de soja em 2025/26 e a expectativa de avanço nas exportações em abril reforçam o cenário positivo para Fiagros ligados ao agronegócio, como o&nbsp;<a target="_blank" href="https://fiis.com.br/snag11/" rel="noreferrer noopener"><strong>SNAG11</strong></a>.</p>
+
+
+
+<p>Segundo estimativas do setor, a colheita nacional avançou para&nbsp;<strong>92% da área cultivada</strong>, com produção projetada em&nbsp;<strong>178,1 milhões de toneladas</strong>, volume&nbsp;<strong>3,7% superior</strong>&nbsp;ao registrado no ciclo anterior.</p>
+
+
+
+<p>No comércio exterior, a exportação de soja brasileira está estimada em&nbsp;<strong>16,4 milhões de toneladas em abril</strong>, com tendência de aceleração dos embarques à medida que a colheita se aproxima do fim. A projeção indica aumento mensal de&nbsp;<strong>2,9 milhões de toneladas</strong>, reforçando o papel do Brasil como fornecedor estratégico da cadeia global de alimentos.</p>
+
+
+
+<p><strong>Leia mais</strong><br><strong><a href="https://fiis.com.br/noticias/snag11-cresce-alta-embarques-de-soja-impulso-agronegocio/">SNAG11 cresce com alta nos embarques de soja e impulso do agronegócio</a></strong></p>
+
+
+
+<h2 class="wp-block-heading">Fiagro cresce, mas fundos ainda estão baratos; entenda o cenário</h2>
+
+
+
+<p>O mercado de&nbsp;<strong>Fiagros</strong>&nbsp;segue em expansão no Brasil, segundo dados divulgados pela B3, mostram que o segmento encerrou março de 2026 com cerca de 585 mil investidores, mantendo trajetória de crescimento nos últimos meses. O patrimônio total alocado na indústria ficou em torno de&nbsp;<strong>R$ 11,5 bilhões</strong>, nível praticamente estável em relação aos meses anteriores, após ter se aproximado de R$ 11,7 bilhões no início do ano.</p>
+
+
+
+<p>O avanço do setor ocorre em paralelo ao fortalecimento do mercado de capitais. De acordo com levantamento da Anbima, os Fiagros movimentaram <strong>R$ 3,3 bilhões em emissões públicas no primeiro trimestre de 2026</strong>, alta de 97,5% na comparação anual.</p>
+
+
+
+<p>Mesmo assim há diversos fundos que são negociados com desconto em relação ao seus valores patrimoniais. Um dos casos é o OIAG11 e o outro é o AAZQ11.<br><strong>Leia mais</strong><br><strong><a href="https://fiis.com.br/noticias/fiagro-cresce-mas-fundos-ainda-estao-baratos-entenda-cenario/">Fiagro cresce, mas fundos ainda estão baratos; entenda o cenário</a></strong><picture style="letter-spacing: 0.55px; margin: 0px; padding: 0px; display: flex;"></picture></p>
+
+
+
+<h2 class="wp-block-heading">FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa</h2>
+
+
+
+<p>Os fundos&nbsp;<strong><a href="https://fiis.com.br/noticias/fi-infra-o-primo-pouco-conhecido-dos-fiis-ainda-e-nicho-na-bolsa-mas-ja-soma-cerca-de-20-fundos/">FI-Infra</a></strong>&nbsp;distribuíram em abril rendimentos mensais que variam de 1,17% a 1,43%, conforme dados da plataforma Status Invest. O destaque do grupo foi o&nbsp;<strong>XPID11</strong>, que pagou R$ 0,75 por cota, correspondendo a um dividend yield de 1,43% — o maior entre os fundos de infraestrutura no período, referente aos resultados de março.</p>
+
+
+
+<p>Entre os demais fundos com exposição a ativos de infraestrutura, o&nbsp;<strong>CDII11</strong>&nbsp;se destacou com pagamento de R$ 1,38 por cota, registrando dividend yield de 1,31%. Na sequência, o&nbsp;<strong>CPTI11</strong>&nbsp;distribuiu R$ 1,15 por cota, com retorno mensal de 1,28%, e o&nbsp;<strong>BODB11</strong>&nbsp;pagou R$ 0,10 por cota, equivalente a um dividend yield de 1,27%.</p>
+
+
+
+<p>O&nbsp;<strong>BIDB11</strong>&nbsp;distribuiu R$ 1,00 por cota, com rendimento mensal de 1,22%, enquanto o&nbsp;<strong>RBIF11</strong>&nbsp;pagou R$ 0,95 por cota, correspondendo a um yield de 1,20%. Por fim, o&nbsp;<strong>SNID11</strong>&nbsp;encerrou a lista com pagamento de R$ 0,13 por cota e dividend yield de 1,17%.</p>
+
+
+
+<p><strong>Leia mais</strong><br><strong><a href="FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa">FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa</a></strong></p>
+<script>
+function onErrorImageNews(image) {
+    image.onerror = "";
+    image.src = 'https://fiis.com.br/wp-content/themes/fiis/resources/images/news-default-400x300.webp';
+    image.srcset = '';
+    return true;
+}
+</script>
+        <div class="socialSticky">
+            
+<div class="socialShare">
+
+    <ul>
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="facebook" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-facebook" 
+            alt="icone do Facebook" 
+            title="icone do Facebook" 
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="linkedin" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-linkedin" 
+            alt="icone do Linkedin" 
+            title="icone do Linkedin" 
+            href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F&title=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="twitter" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-twitter" 
+            alt="icone do Twitter" 
+            title="icone do Twitter" 
+            href="https://twitter.com/share?url=https%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F&text=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+        
+        <li>
+            <a 
+            data-element="social-link" 
+            data-method="whatsapp" 
+            data-post-id="429231" 
+            data-content-type="Post" 
+            class="ico-social-whatsapp" 
+            alt="icone do WhatsApp" 
+            title="icone do WhatsApp" 
+            href="https://api.whatsapp.com/send?text=GGRC11%2C%20SNAG11%20e%20dividendos%20s%C3%A3o%20destaques%20do%20Bom%20Dia%20FIIs%20%2828%2F4%29%0ahttps%3A%2F%2Ffiis.com.br%2Fnoticias%2Fbom-dia-fiis-280426%2F" 
+            target="_blank" 
+            rel="NoFollow">
+            </a>
+        </li>
+
+            </ul>
+
+</div>        </div>
+    </article>
+    <div class="extras">
+        <div class="tags">
+	<div class="tags__title">Tags</div>
+	<ul class="tags__list">
+		<li><a href="https://fiis.com.br/tag/bom-dia/">bom dia</a></li><li><a href="https://fiis.com.br/tag/bom-dia-fiis/">Bom dia fiis</a></li><li><a href="https://fiis.com.br/tag/fundos-imobiliarios/">Fundos Imobiliários</a></li><li><a href="https://fiis.com.br/tag/fundos-imobiliarios-fiis/">Fundos Imobiliários (FIIs)</a></li><li><a href="https://fiis.com.br/tag/ifix/">IFIX</a></li>	</ul>
+</div>
+
+        <a target="_blank" class="ctaSingle" href="https://lp.suno.com.br/ao/servico-especializado-aw/?utm_source=fiis.com.br&utm_medium=banner.noticias&utm_campaign=_SNC6BA4BEA9_">
+            <picture>
+                <source srcset="https://fiis.com.br/wp-content/themes/fiis/resources/images/cta/CTA-assessoria-desk3.webp" media="(min-width: 600px)" />
+                <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[2][self::DIV]/*[2][self::A]/*[1][self::PICTURE]/*[2][self::IMG]" loading="lazy" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/cta/CTA-assessoria-mobi3.webp" alt="Você investe bem em fiis? Um consultor Suno pode te mostrar caminhos que talvez você não conheça." />
+            </picture>
+        </a>
+
+        
+<div class="authorBox">
+    <a href="https://fiis.com.br/author/monteiro72/" style="display: block;">
+                <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" class="authorBox__cover" src="https://files.fiis.com.br/uploads/Marcelo-jpg.webp" alt="foto: Marcelo Monteiro" width="150" height="150" />
+        
+    </a>
+    <div class="authorBox__content">
+        <a href="https://fiis.com.br/author/monteiro72/" class="authorBox__content__name">Marcelo Monteiro</a>
+        <div class="authorBox__content__occupation"></div>
+        <div class="authorBox__content__desc">
+            <p>Formado pela Universidade Federal de Santa Maria (UFSM), em 1996, Marcelo Monteiro tem três décadas de carreira como jornalista. No currículo, inclui passagens e colaborações em veículos como Zero Hora, Correio Braziliense, Valor Econômico, InfoMoney, Gazeta Mercantil, Placar, Diário Catarinense, Fut!, Hoje em Dia e Diário de S.Paulo. É autor dos livros "U-507 - O submarino que afundou o Brasil na Segunda Guerra Mundial" (2012) e "U-93 - A entrada do Brasil na Primeira Guerra Mundial" (2014). Dirigiu os documentários "Delírios - Filosofia e reflexão no túnel da morte" (2021) e "Além do Limite - Quando a meta é sobreviver" (2022)</p>
+        </div>
+        <ul>
+                                                            <li><a href="/cdn-cgi/l/email-protection#b7dad8d9c3d2dec5d88085f7d0dad6dedb99d4d8da" target="_blank" class="author-ico-email" title="icone do email do autor: Marcelo Monteiro"></a></li>
+                                                                                                                                </ul>
+    </div>
+
+
+</div>                
+<span class="heading-generic">últimas <span>notícias</span></span>
+
+<div class="moreNews">
+        <div class="loopNoticias">
+        <a href="https://fiis.com.br/noticias/mato-grosso-vira-peca-chave-china-agro-fazendas-snfz11/">
+            <span class="loopNoticias__readingTime">3 mins<i></i></span>
+                                    <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[2][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[2][self::IMG]" loading="lazy" width="490" height="327" src="https://files.fiis.com.br/uploads/Vale-a-pena-investir-no-agronegocio-em-2022.-Veja-o-que-dizem-os-especialistas-1-490x327.webp" class="loopNoticias__img wp-post-image" alt="Agronegócio. Foto: Unsplash." decoding="async" />                    </a>
+        <div class="loopNoticias__content">
+            <a href="https://fiis.com.br/noticias/mato-grosso-vira-peca-chave-china-agro-fazendas-snfz11/" class="loopNoticias__content__title">
+                <h2>Mato Grosso vira peça-chave da China no agro — veja como isso passa pelas fazendas do SNFZ11</h2>
+            </a>
+        </div>
+    </div>
+        <div class="loopNoticias">
+        <a href="https://fiis.com.br/noticias/sextou-com-dividendos-gare11-hsml11-e-outros-12-fiis-pagam-hoje/">
+            <span class="loopNoticias__readingTime">4 mins<i></i></span>
+                                    <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[2][self::DIV]/*[5][self::DIV]/*[2][self::DIV]/*[1][self::A]/*[2][self::IMG]" loading="lazy" width="490" height="327" src="https://files.fiis.com.br/uploads/pexels-daniel-dan-47825192-7542864-1-4-490x327.webp" class="loopNoticias__img wp-post-image" alt="Sextou com dividendos: GARE11, HSML11 e outros 12 FIIs pagam hoje" decoding="async" />                    </a>
+        <div class="loopNoticias__content">
+            <a href="https://fiis.com.br/noticias/sextou-com-dividendos-gare11-hsml11-e-outros-12-fiis-pagam-hoje/" class="loopNoticias__content__title">
+                <h2>Sextou com dividendos: GARE11, HSML11 e outros 12 FIIs pagam hoje</h2>
+            </a>
+        </div>
+    </div>
+        <div class="loopNoticias">
+        <a href="https://fiis.com.br/noticias/fundo-imobiliario-hglg11-amplia-exposicao-ativo-logistico-compra-milionaria-jj/">
+            <span class="loopNoticias__readingTime">2 mins<i></i></span>
+                                    <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;wrapper newsContent&#039;]/*[2][self::DIV]/*[5][self::DIV]/*[3][self::DIV]/*[1][self::A]/*[2][self::IMG]" loading="lazy" width="490" height="275" src="https://files.fiis.com.br/uploads/HGLG-Simoes-Filho-G100-490x275.webp" class="loopNoticias__img wp-post-image" alt="HGLG11 amplia exposição em ativo logístico com compra milionária" decoding="async" />                    </a>
+        <div class="loopNoticias__content">
+            <a href="https://fiis.com.br/noticias/fundo-imobiliario-hglg11-amplia-exposicao-ativo-logistico-compra-milionaria-jj/" class="loopNoticias__content__title">
+                <h2>HGLG11 amplia exposição em ativo logístico com compra milionária; veja valor</h2>
+            </a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <aside class="higlith__top5">
+
+        
+        
+<div class="relatedTicker">
+    <h2 class="relatedTicker__title">Fundos em destaque</h2>
+    <div class="relatedTicker__content">
+									<div class="relatedTicker__content__itens">
+					<a href="https://fiis.com.br/snff11/">SNFF11</a>
+					<div class="dyUr"><span>13,29%</span><span>Divided Yield</span></div>
+					<div class="dyUr"><span>R$ 0,72</span><span>Últ. Rendimento</span></div>
+				</div>
+							<div class="relatedTicker__content__itens">
+					<a href="https://fiis.com.br/snci11/">SNCI11</a>
+					<div class="dyUr"><span>13,34%</span><span>Divided Yield</span></div>
+					<div class="dyUr"><span>R$ 1,00</span><span>Últ. Rendimento</span></div>
+				</div>
+							<div class="relatedTicker__content__itens">
+					<a href="https://fiis.com.br/mxrf11/">MXRF11</a>
+					<div class="dyUr"><span>12,26%</span><span>Divided Yield</span></div>
+					<div class="dyUr"><span>R$ 0,10</span><span>Últ. Rendimento</span></div>
+				</div>
+							<div class="relatedTicker__content__itens">
+					<a href="https://fiis.com.br/recr11/">RECR11</a>
+					<div class="dyUr"><span>13,63%</span><span>Divided Yield</span></div>
+					<div class="dyUr"><span>R$ 0,73</span><span>Últ. Rendimento</span></div>
+				</div>
+							<div class="relatedTicker__content__itens">
+					<a href="https://fiis.com.br/snag11/">SNAG11</a>
+					<div class="dyUr"><span>13,21%</span><span>Divided Yield</span></div>
+					<div class="dyUr"><span>R$ 0,11</span><span>Últ. Rendimento</span></div>
+				</div>
+					    </div>
+</div>
+
+        
+
+<div class="mostRead">
+    <h2 class="mostRead__title">Mais lidas</h2>
+    <ul class="mostRead__title__list">
+                                    <li>
+                    <a href="https://fiis.com.br/noticias/fundo-imobiliario-mxrf11-divulga-novo-pagamento-dividendos-maio-2026-jj/" class="link-noticia-mais-lidas">
+                        <h3>MXRF11 divulga novo pagamento de dividendos; descubra o valor</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/fundos-imobiliarios-fiis-podem-divulgar-dividendos-valores-hoje-30-04-2026-jj/" class="link-noticia-mais-lidas">
+                        <h3>Mais de 170 fundos imobiliários (FIIs) divulgam dividendos (30); veja valores</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/fundo-imobiliario-cacr11-derrete-na-bolsa-de-valores-hoje-o-que-aconteceu-jj/" class="link-noticia-mais-lidas">
+                        <h3>Fundo imobiliário &#8220;derrete&#8221; mais de 42% na Bolsa hoje (4); veja o que aconteceu</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/bom-dia-fiis-280426/" class="link-noticia-mais-lidas">
+                        <h3>GGRC11, SNAG11 e dividendos são destaques do Bom Dia FIIs (28/4)</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/gare11-divulga-dividendos-yield-proximo-de-1-veja-valor-detalhes/" class="link-noticia-mais-lidas">
+                        <h3>GARE11 divulga dividendos com yield próximo de 1%; veja valor e detalhes</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/dividendos-fundo-imobiliario-xpml11-quanto-ganha-quem-investiu-10-mil-fii-abril-jj/" class="link-noticia-mais-lidas">
+                        <h3>Dividendos do XPML11: quanto ganha quem investiu R$ 10 mil no FII?</h3>
+                    </a>
+                </li>
+                            <li>
+                    <a href="https://fiis.com.br/noticias/fi-infra-fundos-pagam-dividendos-dy-abril/" class="link-noticia-mais-lidas">
+                        <h3>FI-Infra: fundos pagam dividendos de até 1,43% em abril; veja a lista completa</h3>
+                    </a>
+                </li>
+                        </ul>
+</div>
+
+        <div class="leadTop leadTop--sidbar">
+            <div id='fiis_single_sidebar'></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" data-lazy="gam-ads" data-type="gam" data-src="data:text/javascript;base64,CmdtQWRDbWRzLnB1c2goewogICAgY29tbWFuZDogJ2dtQWRVbml0JywKICAgIHBhcmFtczogewogICAgICAgIHR5cGU6ICdiYW5uZXInLAogICAgICAgIGdhbTogJ1dFQl9Ub3BvJywKICAgICAgICBzaXplczogWzMwMCwgNjAwXSwKICAgICAgICBkaXZJRDogJ2ZpaXNfc2luZ2xlX3NpZGViYXInLAogICAgICAgIG1hcHBpbmc6ICdzaW5nbGVfc2lkYmFyJywKICAgICAgICByZWxvYWRhYmxlOiBmYWxzZQogICAgfQp9KTsK"></script>
+        </div>
+
+    </aside>
+</div>
+<div class="footer100">
+    <footer id="footer" class="wrapper">
+        <div id="footer__top">
+            <div id="footer__top__disclaimer">
+                <span id="footer__top__disclaimer__title">Maior Plataforma de Fundos Imobiliários do Brasil</span>
+                <p>Este website tem como único objetivo fornecer informações sobre ferramentas, veículos e produtos de
+                    investimentos. Nenhuma parte do conteúdo disponibilizado por meio deste website deve ser
+                    interpretada como aconselhamento ou recomendação para investimento. Orientações neste sentido devem
+                    ser obtidas por instituições e profissionais credenciados e devidamente habilitados.</p>
+                <p>Todos os materiais exibidos neste website estão protegidos pelas leis de Propriedade Intelectual e
+                    não podem ser reproduzidos e/ou distribuídos sem a expressa autorização do site <b>Fiis.com.br.</b>
+                </p>
+                <p>O site <b>Fiis.com.br</b> não se responsabiliza por informações publicadas em links externos que
+                    estejam contidos neste website.</p>
+            </div>
+            <div id="footer__top__menu">
+                <span>Acesso Rápido</span>
+                <ul id="menu-footer" class="menu"><li id="menu-item-348719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348719"><a href="https://fiis.com.br/atualizacoes/">Atualizações</a></li>
+<li id="menu-item-348718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348718"><a href="https://fiis.com.br/glossario/">Glossário</a></li>
+<li id="menu-item-348717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348717"><a href="https://fiis.com.br/sobre-nos/">Sobre Nós</a></li>
+<li id="menu-item-348716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348716"><a href="https://fiis.com.br/contato/">Contato</a></li>
+<li id="menu-item-360390" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-360390"><a target="_blank" rel="noopener" href="https://www.suno.com.br/politica-de-privacidade/">Política de Privacidade</a></li>
+<li id="menu-item-360391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-360391"><a target="_blank" rel="noopener" href="https://www.suno.com.br/politica-de-cookies/">Política de Cookies</a></li>
+<li id="menu-item-356718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-356718"><a target="_blank" rel="noopener" href="https://files.fiis.com.br/uploads/MidiaKit-Suno-2025.pdf">Anuncie Aqui</a></li>
+</ul>            </div>
+            <div id="footer__top__extra">
+            </div>
+        </div>
+
+        <div id="footer__base">
+            <img data-od-removed-fetchpriority="high" data-od-xpath="/HTML/BODY/DIV[@class=&#039;footer100&#039;]/*[1][self::FOOTER]/*[2][self::DIV]/*[1][self::IMG]" class="footer__base__logo" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/logo-fiis-dark-mode.svg" alt="logo fiis.com.br"  loading="lazy">
+            <p class="footer__base__copyright">© 2026 - Fiis.com.br. Todos os direitos Reservados.
+            </p>
+            <div class="footer__base__social">
+                <a href="https://www.facebook.com/FIIs.com.br" target="_blank"><img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;footer100&#039;]/*[1][self::FOOTER]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/footer/facebook-ico.svg" alt="icone facebook do fiis" width="32" height="32"></a>
+                <a href="https://twitter.com/FIIsbr" target="_blank"><img data-od-added-fetchpriority data-od-xpath="/HTML/BODY/DIV[@class=&#039;footer100&#039;]/*[1][self::FOOTER]/*[2][self::DIV]/*[3][self::DIV]/*[2][self::A]/*[1][self::IMG]" fetchpriority="low" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/footer/x-ico.svg" alt="icone twitter do fiis" width="32" height="32"></a>
+                <a href="https://www.youtube.com/c/FIIsBr" target="_blank"><img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;footer100&#039;]/*[1][self::FOOTER]/*[2][self::DIV]/*[3][self::DIV]/*[3][self::A]/*[1][self::IMG]" loading="lazy" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/footer/youtube-ico.svg" alt="icone youtube do fiis" width="32" height="32"></a>
+                <a href="https://www.instagram.com/fiis.com.br/" target="_blank"><img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@class=&#039;footer100&#039;]/*[1][self::FOOTER]/*[2][self::DIV]/*[3][self::DIV]/*[4][self::A]/*[1][self::IMG]" loading="lazy" src="https://fiis.com.br/wp-content/themes/fiis/resources/images/footer/instagram-ico.svg" alt="icone instagram do fiis" width="32" height="32"></a>
+            </div>
+
+        </div>
+
+    <div></div><div></div><div></div><div></div><div></div><div></div></footer>
+</div>
+			<script>
+				window.fiisTheme = window.fiisTheme || {};
+				window.fiisTheme.url = "https:\/\/fiis.com.br\/wp-content\/themes\/fiis";
+				window.fiisTheme.workers = {"data-processor-worker":"https:\/\/fiis.com.br\/wp-content\/themes\/fiis\/dist\/workers\/data-processor.worker.min.js","api-handler-worker":"https:\/\/fiis.com.br\/wp-content\/themes\/fiis\/dist\/workers\/api-handler.worker.min.js","image-optimizer-worker":"https:\/\/fiis.com.br\/wp-content\/themes\/fiis\/dist\/workers\/image-optimizer.worker.min.js"};
+			</script>
+			
+<!-- Google google_doubleclick script loade -->
+<script async data-lazy="gam-ads" data-type="gam" data-src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<!-- homolog link loade -->
+<script async data-lazy="gam-ads" data-type="gam" data-src="https://tag.curiosidadesdigitais.com/suno_fiis.100.js"></script>
+<script type="speculationrules">
+{"prerender":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/fiis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prerender"}}]},"eagerness":"moderate"}]}
+</script>
+<script type="text/javascript" defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js?ver=3.6.1.1" id="jquery-js"></script>
+<script type="text/javascript" defer src="https://fiis.com.br/wp-content/themes/fiis/dist/single-noticias.min.js?ver=1778250331" id="single-js-bundle-js"></script>
+
+<script type="text/javascript" id="suno-lazy-scripts">
+	(function(){
+		const loadScriptsTimer = setTimeout(loadScripts, 4500 );
+		const userInteractionEvents = [];
+		userInteractionEvents.forEach(function(event) {
+			window.addEventListener(event, triggerScriptLoader, {
+				passive: !0
+			})
+		});
+
+		function triggerScriptLoader() {
+			loadScripts();
+			clearTimeout(loadScriptsTimer);
+			userInteractionEvents.forEach(function(event) {
+				window.removeEventListener(event, triggerScriptLoader, {
+					passive: !0
+				})
+			})
+		}
+
+		function loadScripts() {
+			document.querySelectorAll("script[data-type='lazy']").forEach(function(elem) {
+				elem.setAttribute("src", elem.getAttribute("data-src"))
+			})
+		}
+	})();
+</script>
+
+<script type="text/javascript" id="suno-lazy-gam-scripts">
+	(function(){
+		const loadGamScriptsTimer = setTimeout(loadGamScripts, 4500);
+		const userInteractionGamEvents = [];
+		userInteractionGamEvents.forEach(function (event) {
+			window.addEventListener(event, triggerGamScriptLoader, { passive: !0 });
+		});
+		function triggerGamScriptLoader() {
+			loadGamScripts();
+			clearTimeout(loadGamScriptsTimer);
+			userInteractionGamEvents.forEach(function (event) {
+				window.removeEventListener(event, triggerGamScriptLoader, { passive: !0 });
+			});
+		}
+		function loadGamScripts() {
+			document.querySelectorAll("script[data-type='gam']").forEach(function (elem) {
+				elem.setAttribute("src", elem.getAttribute("data-src"));
+			});
+		}
+
+	})();
+</script>
+
+<script type="text/javascript" id="suno-adopt-scripts">
+(function(){
+	const loadAdoptScriptsTimer = setTimeout(loadAdoptScripts, 4500 );
+	const userInteractionAdoptEvents = [];
+	userInteractionAdoptEvents.forEach(function (event) {
+		window.addEventListener(event, triggerAdoptScriptLoader, { passive: !0 });
+	});
+	function triggerAdoptScriptLoader() {
+		loadAdoptScripts();
+		clearTimeout(loadAdoptScriptsTimer);
+		userInteractionAdoptEvents.forEach(function (event) {
+			window.removeEventListener(event, triggerAdoptScriptLoader, { passive: !0 });
+		});
+	}
+	function loadAdoptScripts() {
+		document.querySelectorAll("script[data-type='adopt']").forEach(function (elem) {
+			elem.setAttribute("src", elem.getAttribute("data-src"));
+		});
+	}
+})();
+</script>
+<script type="module">
+/* <![CDATA[ */
+import detect from "https:\/\/fiis.com.br\/wp-content\/plugins\/optimization-detective\/detect.min.js?ver=1.0.0-beta3"; detect( {"minViewportAspectRatio":0.4,"maxViewportAspectRatio":2.5,"isDebug":false,"extensionModuleUrls":["https:\/\/fiis.com.br\/wp-content\/plugins\/image-prioritizer\/detect.min.js?ver=1.0.0-beta2"],"restApiEndpoint":"https:\/\/fiis.com.br\/wp-json\/optimization-detective\/v1\/url-metrics:store","currentETag":"2d8241d39f3419fe15b7f0288e3774b8","currentUrl":"https:\/\/fiis.com.br\/noticias\/bom-dia-fiis-280426\/","urlMetricSlug":"b4b7460ad4db66379e22e8b362f17257","cachePurgePostId":429231,"urlMetricHMAC":"179ad5900aee830131afe71c5da92e6a","urlMetricGroupStatuses":[{"minimumViewportWidth":0,"maximumViewportWidth":480,"complete":true},{"minimumViewportWidth":480,"maximumViewportWidth":600,"complete":false},{"minimumViewportWidth":600,"maximumViewportWidth":782,"complete":false},{"minimumViewportWidth":782,"maximumViewportWidth":null,"complete":true}],"storageLockTTL":60,"freshnessTTL":604800,"webVitalsLibrarySrc":"https:\/\/fiis.com.br\/wp-content\/plugins\/optimization-detective\/build\/web-vitals.js?ver=4.2.4"} );
+/* ]]> */
+</script>
+</body>
+
+</html>
+
+<!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->

@@ -1,0 +1,30 @@
+Securities and Exchange Commission (SEC) defines an insider to be an officer or director of the
+firm or a major stockholder (holding more than 5 percent of the outstanding stock in the firm). Insiders
+
+are barred from trading in advance of specific information on the company and are required to file
+with the SEC when they buy or sell stock in the company. If it is assumed, as seems reasonable, that
+insiders have better information about the company and consequently better estimates of value than
+other investors, the decisions by insiders to buy and sell stock should affect stock prices. 
+Figure 6.19
+,
+derived from an early study of insider trading by Jaffe (1974), examines excess returns on two groups
+of stock, classified on the basis of insider trades. The “buy group” includes stocks where buys
+exceeded sells by the biggest margin, and the “sell group” includes stocks where sells exceeded buys
+by the biggest margin.
+Figure 6.19
+ Cumulative Returns Following Insider Trading: Buy versus Sell Group
+Source:
+ Jaffe (1974).
+While it seems like the buy group does significantly better than the sell group in this study,
+advances in information technology have made this information on insider trading available to more
+and more investors. A more recent study [Seyhun (1998)] of insider trading examines excess returns
+around both the date the insiders report to the SEC and the date that information becomes available to
+investors in the official summary. 
+Figure 6.20
+ presents the contrast between the two event dates.
+Figure 6.20
+ Abnormal Returns around Reporting Day versus Official Summary Availability Day
+Given the opportunity to buy on the date the insider reports to the SEC, investors could have
+marginal excess returns, but these returns diminish and become statistically insignificant if investors
+are forced to wait until the official summary date.
+None of these studies examine the question of whether insiders themselves make excess returns.

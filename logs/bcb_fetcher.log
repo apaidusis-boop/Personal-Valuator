@@ -1,0 +1,316 @@
+{"ts": "2026-04-15T16:15:57Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "11/03/2025", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:16:06Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 276, "first": {"data": "11/03/2025", "valor": "0.049037"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:16:06Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "11/03/2025", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:16:15Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 401, "first": {"data": "11/03/2025", "valor": "13.25"}, "last": {"data": "15/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-15T16:16:15Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "11/03/2025", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:16:22Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 276, "first": {"data": "11/03/2025", "valor": "0.049037"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:16:22Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "11/03/2025", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:16:29Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 13, "first": {"data": "01/03/2025", "valor": "0.56"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-15T16:16:29Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "11/03/2025", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:16:36Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 277, "first": {"data": "11/03/2025", "valor": "5.8346"}, "last": {"data": "15/04/2026", "valor": "4.9928"}}
+{"ts": "2026-04-15T16:45:57Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "22/03/2021", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:46:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 1273, "first": {"data": "22/03/2021", "valor": "0.010379"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:46:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "22/03/2021", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:46:18Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 1851, "first": {"data": "22/03/2021", "valor": "2.75"}, "last": {"data": "15/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-15T16:46:18Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "22/03/2021", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:46:26Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 1273, "first": {"data": "22/03/2021", "valor": "0.010379"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:46:26Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "22/03/2021", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:46:27Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 61, "first": {"data": "01/03/2021", "valor": "0.93"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-15T16:46:27Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "22/03/2021", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:46:37Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 1274, "first": {"data": "22/03/2021", "valor": "5.5269"}, "last": {"data": "15/04/2026", "valor": "4.9928"}}
+{"ts": "2026-04-15T16:50:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "14/02/2026", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:50:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 39, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:50:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "14/02/2026", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:50:06Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "14/02/2026", "valor": "15.00"}, "last": {"data": "15/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-15T16:50:06Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "14/02/2026", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:50:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 39, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "14/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-15T16:50:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "14/02/2026", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:50:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-15T16:50:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "14/02/2026", "end": "15/04/2026"}
+{"ts": "2026-04-15T16:50:10Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "15/04/2026", "valor": "4.9928"}}
+{"ts": "2026-04-16T16:33:45Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:47Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T16:33:47Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:48Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "15/02/2026", "valor": "15.00"}, "last": {"data": "16/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-16T16:33:48Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:49Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T16:33:49Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:50Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-16T16:33:50Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T16:33:51Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}
+{"ts": "2026-04-16T18:41:56Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:41:57Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T18:41:57Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:41:59Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "15/02/2026", "valor": "15.00"}, "last": {"data": "16/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-16T18:41:59Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:42:02Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T18:42:02Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:42:03Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-16T18:42:03Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "15/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:42:04Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}
+{"ts": "2026-04-16T18:49:25Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "04/06/1986", "end": "01/06/1996"}
+{"ts": "2026-04-16T18:49:47Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "02/06/1996", "end": "31/05/2006"}
+{"ts": "2026-04-16T18:50:11Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "01/06/2006", "end": "29/05/2016"}
+{"ts": "2026-04-16T18:50:32Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "30/05/2016", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:50:54Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 9994, "first": {"data": "04/06/1986", "valor": "0.065041"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T18:50:54Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "05/03/1999", "end": "02/03/2009"}
+{"ts": "2026-04-16T18:51:24Z", "event": "bcb_fetch_chunk_error", "series_id": "SELIC_META", "start": "05/03/1999", "end": "02/03/2009", "error": "HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Read timed out. (read timeout=30)"}
+{"ts": "2026-04-16T18:51:24Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "03/03/2009", "end": "01/03/2019"}
+{"ts": "2026-04-16T18:51:55Z", "event": "bcb_fetch_chunk_error", "series_id": "SELIC_META", "start": "03/03/2009", "end": "01/03/2019", "error": "HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Read timed out. (read timeout=30)"}
+{"ts": "2026-04-16T18:51:55Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "02/03/2019", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:52:19Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 2603, "first": {"data": "02/03/2019", "valor": "6.50"}, "last": {"data": "16/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-16T18:52:19Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "04/03/1986", "end": "01/03/1996"}
+{"ts": "2026-04-16T18:52:42Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "02/03/1996", "end": "28/02/2006"}
+{"ts": "2026-04-16T18:53:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "01/03/2006", "end": "27/02/2016"}
+{"ts": "2026-04-16T18:53:19Z", "event": "bcb_fetch_chunk_error", "series_id": "CDI_DAILY", "start": "01/03/2006", "end": "27/02/2016", "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=0"}
+{"ts": "2026-04-16T18:53:19Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "28/02/2016", "end": "25/02/2026"}
+{"ts": "2026-04-16T18:53:45Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "26/02/2026", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:53:46Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 7526, "first": {"data": "06/03/1986", "valor": "0.068111"}, "last": {"data": "15/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-16T18:53:46Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "01/01/1980", "end": "29/12/1989"}
+{"ts": "2026-04-16T18:53:48Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "30/12/1989", "end": "28/12/1999"}
+{"ts": "2026-04-16T18:53:50Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "29/12/1999", "end": "26/12/2009"}
+{"ts": "2026-04-16T18:53:51Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "27/12/2009", "end": "25/12/2019"}
+{"ts": "2026-04-16T18:53:53Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "26/12/2019", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:53:58Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 559, "first": {"data": "01/01/1980", "valor": "6.62"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-16T18:53:58Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "28/11/1984", "end": "26/11/1994"}
+{"ts": "2026-04-16T18:54:20Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "27/11/1994", "end": "24/11/2004"}
+{"ts": "2026-04-16T18:54:42Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "25/11/2004", "end": "23/11/2014"}
+{"ts": "2026-04-16T18:55:07Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "24/11/2014", "end": "21/11/2024"}
+{"ts": "2026-04-16T18:55:30Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "22/11/2024", "end": "16/04/2026"}
+{"ts": "2026-04-16T18:55:33Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 10370, "first": {"data": "28/11/1984", "valor": "2828.0000"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}
+{"ts": "2026-04-17T12:50:13Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:36Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:37Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "16/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-17T12:58:37Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:38Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "16/02/2026", "valor": "15.00"}, "last": {"data": "17/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-17T12:58:38Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:39Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "16/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-17T12:58:39Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:40Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-17T12:58:40Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "16/02/2026", "end": "17/04/2026"}
+{"ts": "2026-04-17T12:58:42Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "16/04/2026", "valor": "5.0007"}}
+{"ts": "2026-04-19T16:44:13Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "18/02/2026", "end": "19/04/2026"}
+{"ts": "2026-04-19T16:44:16Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 42, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "17/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-19T16:44:16Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "18/02/2026", "end": "19/04/2026"}
+{"ts": "2026-04-19T16:44:17Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "18/02/2026", "valor": "15.00"}, "last": {"data": "19/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-19T16:44:17Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "18/02/2026", "end": "19/04/2026"}
+{"ts": "2026-04-19T16:44:21Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "18/02/2026", "valor": "0.055131"}, "last": {"data": "16/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-19T16:44:21Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "18/02/2026", "end": "19/04/2026"}
+{"ts": "2026-04-19T16:44:23Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-19T16:44:23Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "18/02/2026", "end": "19/04/2026"}
+{"ts": "2026-04-19T16:44:25Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 42, "first": {"data": "18/02/2026", "valor": "5.2349"}, "last": {"data": "17/04/2026", "valor": "4.9695"}}
+{"ts": "2026-04-20T17:43:36Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "19/02/2026", "end": "20/04/2026"}
+{"ts": "2026-04-20T17:43:38Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "19/02/2026", "valor": "0.055131"}, "last": {"data": "17/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-20T17:43:38Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "19/02/2026", "end": "20/04/2026"}
+{"ts": "2026-04-20T17:43:38Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "19/02/2026", "valor": "15.00"}, "last": {"data": "20/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-20T17:43:38Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "19/02/2026", "end": "20/04/2026"}
+{"ts": "2026-04-20T17:43:40Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "19/02/2026", "valor": "0.055131"}, "last": {"data": "17/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-20T17:43:40Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "19/02/2026", "end": "20/04/2026"}
+{"ts": "2026-04-20T17:43:41Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-20T17:43:41Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "19/02/2026", "end": "20/04/2026"}
+{"ts": "2026-04-20T17:43:42Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 42, "first": {"data": "19/02/2026", "valor": "5.2257"}, "last": {"data": "20/04/2026", "valor": "4.9844"}}
+{"ts": "2026-04-21T05:07:57Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T05:08:00Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "20/02/2026", "valor": "0.055131"}, "last": {"data": "20/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-21T05:08:00Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T05:08:02Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "20/02/2026", "valor": "15.00"}, "last": {"data": "21/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-21T05:08:02Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T05:08:05Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "20/02/2026", "valor": "0.055131"}, "last": {"data": "17/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-21T05:08:05Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T05:08:07Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-21T05:08:07Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T05:08:09Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "20/02/2026", "valor": "5.2006"}, "last": {"data": "20/04/2026", "valor": "4.9844"}}
+{"ts": "2026-04-21T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "20/02/2026", "valor": "0.055131"}, "last": {"data": "20/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-21T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "20/02/2026", "valor": "15.00"}, "last": {"data": "21/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-21T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T20:30:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "20/02/2026", "valor": "0.055131"}, "last": {"data": "20/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-21T20:30:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-21T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "20/02/2026", "end": "21/04/2026"}
+{"ts": "2026-04-21T20:30:09Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "20/02/2026", "valor": "5.2006"}, "last": {"data": "20/04/2026", "valor": "4.9844"}}
+{"ts": "2026-04-22T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "21/02/2026", "end": "22/04/2026"}
+{"ts": "2026-04-22T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "20/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-22T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "21/02/2026", "end": "22/04/2026"}
+{"ts": "2026-04-22T20:30:11Z", "event": "bcb_fetch_chunk_error", "series_id": "SELIC_META", "start": "21/02/2026", "end": "22/04/2026", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"ts": "2026-04-22T20:30:11Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 0, "first": null, "last": null}
+{"ts": "2026-04-22T20:30:11Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "21/02/2026", "end": "22/04/2026"}
+{"ts": "2026-04-22T20:30:13Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "20/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-22T20:30:13Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "21/02/2026", "end": "22/04/2026"}
+{"ts": "2026-04-22T20:30:18Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-22T20:30:18Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "21/02/2026", "end": "22/04/2026"}
+{"ts": "2026-04-22T20:30:19Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "23/02/2026", "valor": "5.1635"}, "last": {"data": "22/04/2026", "valor": "4.9653"}}
+{"ts": "2026-04-23T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "22/02/2026", "end": "23/04/2026"}
+{"ts": "2026-04-23T20:30:03Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "22/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-23T20:30:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "22/02/2026", "end": "23/04/2026"}
+{"ts": "2026-04-23T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "22/02/2026", "valor": "15.00"}, "last": {"data": "23/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-23T20:30:04Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "22/02/2026", "end": "23/04/2026"}
+{"ts": "2026-04-23T20:30:06Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "22/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-23T20:30:06Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "22/02/2026", "end": "23/04/2026"}
+{"ts": "2026-04-23T20:30:06Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-23T20:30:06Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "22/02/2026", "end": "23/04/2026"}
+{"ts": "2026-04-23T20:30:07Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 42, "first": {"data": "23/02/2026", "valor": "5.1635"}, "last": {"data": "23/04/2026", "valor": "4.9539"}}
+{"ts": "2026-04-24T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "23/02/2026", "end": "24/04/2026"}
+{"ts": "2026-04-24T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 42, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "23/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-24T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "23/02/2026", "end": "24/04/2026"}
+{"ts": "2026-04-24T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "23/02/2026", "valor": "15.00"}, "last": {"data": "24/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-24T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "23/02/2026", "end": "24/04/2026"}
+{"ts": "2026-04-24T20:30:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 42, "first": {"data": "23/02/2026", "valor": "0.055131"}, "last": {"data": "23/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-24T20:30:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "23/02/2026", "end": "24/04/2026"}
+{"ts": "2026-04-24T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-24T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "23/02/2026", "end": "24/04/2026"}
+{"ts": "2026-04-24T20:30:11Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 43, "first": {"data": "23/02/2026", "valor": "5.1635"}, "last": {"data": "24/04/2026", "valor": "5.0083"}}
+{"ts": "2026-04-25T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "24/02/2026", "end": "25/04/2026"}
+{"ts": "2026-04-25T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 42, "first": {"data": "24/02/2026", "valor": "0.055131"}, "last": {"data": "24/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-25T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "24/02/2026", "end": "25/04/2026"}
+{"ts": "2026-04-25T22:18:43Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-25T22:18:45Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "25/02/2026", "valor": "0.055131"}, "last": {"data": "24/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-25T22:18:45Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-25T22:18:47Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "25/02/2026", "valor": "15.00"}, "last": {"data": "26/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-25T22:18:47Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-25T22:18:48Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "25/02/2026", "valor": "0.055131"}, "last": {"data": "23/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-25T22:18:48Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-25T22:18:50Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-25T22:18:50Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-25T22:18:52Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "25/02/2026", "valor": "5.1440"}, "last": {"data": "24/04/2026", "valor": "5.0083"}}
+{"ts": "2026-04-26T20:30:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-26T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "25/02/2026", "valor": "0.055131"}, "last": {"data": "24/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-26T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-26T20:30:07Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "25/02/2026", "valor": "15.00"}, "last": {"data": "26/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-26T20:30:07Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-26T20:30:09Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "25/02/2026", "valor": "0.055131"}, "last": {"data": "23/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-26T20:30:09Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-26T20:30:10Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-26T20:30:10Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "25/02/2026", "end": "26/04/2026"}
+{"ts": "2026-04-26T20:30:12Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "25/02/2026", "valor": "5.1440"}, "last": {"data": "24/04/2026", "valor": "5.0083"}}
+{"ts": "2026-04-27T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "26/02/2026", "end": "27/04/2026"}
+{"ts": "2026-04-27T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "26/02/2026", "valor": "0.055131"}, "last": {"data": "24/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-27T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "26/02/2026", "end": "27/04/2026"}
+{"ts": "2026-04-27T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "26/02/2026", "valor": "15.00"}, "last": {"data": "27/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-27T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "26/02/2026", "end": "27/04/2026"}
+{"ts": "2026-04-27T20:30:06Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "26/02/2026", "valor": "0.055131"}, "last": {"data": "24/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-27T20:30:06Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "26/02/2026", "end": "27/04/2026"}
+{"ts": "2026-04-27T20:30:07Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-27T20:30:07Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "26/02/2026", "end": "27/04/2026"}
+{"ts": "2026-04-27T20:30:08Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "26/02/2026", "valor": "5.1382"}, "last": {"data": "27/04/2026", "valor": "4.9700"}}
+{"ts": "2026-04-28T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "27/02/2026", "end": "28/04/2026"}
+{"ts": "2026-04-28T20:30:03Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "27/02/2026", "valor": "0.055131"}, "last": {"data": "27/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-28T20:30:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "27/02/2026", "end": "28/04/2026"}
+{"ts": "2026-04-28T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "27/02/2026", "valor": "15.00"}, "last": {"data": "28/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-28T20:30:04Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "27/02/2026", "end": "28/04/2026"}
+{"ts": "2026-04-28T20:30:05Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "27/02/2026", "valor": "0.055131"}, "last": {"data": "27/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-28T20:30:05Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "27/02/2026", "end": "28/04/2026"}
+{"ts": "2026-04-28T20:30:06Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-28T20:30:06Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "27/02/2026", "end": "28/04/2026"}
+{"ts": "2026-04-28T20:30:07Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "27/02/2026", "valor": "5.1495"}, "last": {"data": "28/04/2026", "valor": "4.9878"}}
+{"ts": "2026-04-29T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "28/02/2026", "end": "29/04/2026"}
+{"ts": "2026-04-29T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "02/03/2026", "valor": "0.055131"}, "last": {"data": "28/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-29T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "28/02/2026", "end": "29/04/2026"}
+{"ts": "2026-04-29T20:30:06Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "28/02/2026", "valor": "15.00"}, "last": {"data": "29/04/2026", "valor": "14.75"}}
+{"ts": "2026-04-29T20:30:06Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "28/02/2026", "end": "29/04/2026"}
+{"ts": "2026-04-29T20:30:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "02/03/2026", "valor": "0.055131"}, "last": {"data": "28/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-29T20:30:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "28/02/2026", "end": "29/04/2026"}
+{"ts": "2026-04-29T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 2, "first": {"data": "01/02/2026", "valor": "0.70"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-29T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "28/02/2026", "end": "29/04/2026"}
+{"ts": "2026-04-29T20:30:10Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "02/03/2026", "valor": "5.2001"}, "last": {"data": "29/04/2026", "valor": "4.9985"}}
+{"ts": "2026-04-30T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "01/03/2026", "end": "30/04/2026"}
+{"ts": "2026-04-30T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "02/03/2026", "valor": "0.055131"}, "last": {"data": "29/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-30T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "01/03/2026", "end": "30/04/2026"}
+{"ts": "2026-04-30T20:30:06Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "01/03/2026", "valor": "15.00"}, "last": {"data": "30/04/2026", "valor": "14.50"}}
+{"ts": "2026-04-30T20:30:06Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "01/03/2026", "end": "30/04/2026"}
+{"ts": "2026-04-30T20:30:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "02/03/2026", "valor": "0.055131"}, "last": {"data": "29/04/2026", "valor": "0.054266"}}
+{"ts": "2026-04-30T20:30:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "01/03/2026", "end": "30/04/2026"}
+{"ts": "2026-04-30T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-04-30T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "01/03/2026", "end": "30/04/2026"}
+{"ts": "2026-04-30T20:30:09Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 42, "first": {"data": "02/03/2026", "valor": "5.2001"}, "last": {"data": "30/04/2026", "valor": "4.9886"}}
+{"ts": "2026-05-04T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "05/03/2026", "end": "04/05/2026"}
+{"ts": "2026-05-04T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 39, "first": {"data": "05/03/2026", "valor": "0.055131"}, "last": {"data": "30/04/2026", "valor": "0.053400"}}
+{"ts": "2026-05-04T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "05/03/2026", "end": "04/05/2026"}
+{"ts": "2026-05-04T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "05/03/2026", "valor": "15.00"}, "last": {"data": "04/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-04T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "05/03/2026", "end": "04/05/2026"}
+{"ts": "2026-05-04T20:30:06Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 39, "first": {"data": "05/03/2026", "valor": "0.055131"}, "last": {"data": "30/04/2026", "valor": "0.053400"}}
+{"ts": "2026-05-04T20:30:06Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "05/03/2026", "end": "04/05/2026"}
+{"ts": "2026-05-04T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-04T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "05/03/2026", "end": "04/05/2026"}
+{"ts": "2026-05-04T20:30:09Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "05/03/2026", "valor": "5.2447"}, "last": {"data": "04/05/2026", "valor": "4.9587"}}
+{"ts": "2026-05-05T20:30:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "06/03/2026", "end": "05/05/2026"}
+{"ts": "2026-05-05T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 39, "first": {"data": "06/03/2026", "valor": "0.055131"}, "last": {"data": "04/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-05T20:30:05Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "06/03/2026", "end": "05/05/2026"}
+{"ts": "2026-05-05T20:30:06Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "06/03/2026", "valor": "15.00"}, "last": {"data": "05/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-05T20:30:06Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "06/03/2026", "end": "05/05/2026"}
+{"ts": "2026-05-05T20:30:08Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 39, "first": {"data": "06/03/2026", "valor": "0.055131"}, "last": {"data": "04/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-05T20:30:08Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "06/03/2026", "end": "05/05/2026"}
+{"ts": "2026-05-05T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-05T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "06/03/2026", "end": "05/05/2026"}
+{"ts": "2026-05-05T20:30:10Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "06/03/2026", "valor": "5.2878"}, "last": {"data": "05/05/2026", "valor": "4.9242"}}
+{"ts": "2026-05-06T20:30:03Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "07/03/2026", "end": "06/05/2026"}
+{"ts": "2026-05-06T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 39, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "05/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-06T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "07/03/2026", "end": "06/05/2026"}
+{"ts": "2026-05-06T20:30:35Z", "event": "bcb_fetch_chunk_error", "series_id": "SELIC_META", "start": "07/03/2026", "end": "06/05/2026", "error": "HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Read timed out. (read timeout=30)"}
+{"ts": "2026-05-06T20:30:35Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 0, "first": null, "last": null}
+{"ts": "2026-05-06T20:30:35Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "07/03/2026", "end": "06/05/2026"}
+{"ts": "2026-05-06T20:30:37Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 39, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "05/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-06T20:30:37Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "07/03/2026", "end": "06/05/2026"}
+{"ts": "2026-05-06T20:30:39Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-06T20:30:39Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "07/03/2026", "end": "06/05/2026"}
+{"ts": "2026-05-06T20:30:40Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "09/03/2026", "valor": "5.2139"}, "last": {"data": "06/05/2026", "valor": "4.9274"}}
+{"ts": "2026-05-07T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "08/03/2026", "end": "07/05/2026"}
+{"ts": "2026-05-07T20:30:07Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "06/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-07T20:30:07Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "08/03/2026", "end": "07/05/2026"}
+{"ts": "2026-05-07T20:30:09Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "08/03/2026", "valor": "15.00"}, "last": {"data": "07/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-07T20:30:09Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "08/03/2026", "end": "07/05/2026"}
+{"ts": "2026-05-07T20:30:10Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "06/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-07T20:30:10Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "08/03/2026", "end": "07/05/2026"}
+{"ts": "2026-05-07T20:30:12Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-07T20:30:12Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "08/03/2026", "end": "07/05/2026"}
+{"ts": "2026-05-07T20:30:13Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "09/03/2026", "valor": "5.2139"}, "last": {"data": "07/05/2026", "valor": "4.9170"}}
+{"ts": "2026-05-08T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "09/03/2026", "end": "08/05/2026"}
+{"ts": "2026-05-08T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "09/03/2026", "end": "08/05/2026"}
+{"ts": "2026-05-08T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "09/03/2026", "valor": "15.00"}, "last": {"data": "08/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-08T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "09/03/2026", "end": "08/05/2026"}
+{"ts": "2026-05-08T20:30:06Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 41, "first": {"data": "09/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T20:30:06Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "09/03/2026", "end": "08/05/2026"}
+{"ts": "2026-05-08T20:30:07Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-08T20:30:07Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "09/03/2026", "end": "08/05/2026"}
+{"ts": "2026-05-08T20:30:08Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 42, "first": {"data": "09/03/2026", "valor": "5.2139"}, "last": {"data": "08/05/2026", "valor": "4.8999"}}
+{"ts": "2026-05-08T21:40:53Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:40:55Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "08/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T21:40:55Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:40:57Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "10/03/2026", "valor": "15.00"}, "last": {"data": "09/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-08T21:40:57Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:40:58Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T21:40:58Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:41:00Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-08T21:41:00Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:41:01Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "10/03/2026", "valor": "5.1622"}, "last": {"data": "08/05/2026", "valor": "4.8999"}}
+{"ts": "2026-05-08T21:56:43Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:56:45Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "08/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T21:56:45Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:56:46Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "10/03/2026", "valor": "15.00"}, "last": {"data": "09/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-08T21:56:46Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:56:47Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-08T21:56:47Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:56:49Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-08T21:56:49Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-08T21:56:50Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "10/03/2026", "valor": "5.1622"}, "last": {"data": "08/05/2026", "valor": "4.8999"}}
+{"ts": "2026-05-09T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-09T20:30:04Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 41, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "08/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-09T20:30:04Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-09T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "10/03/2026", "valor": "15.00"}, "last": {"data": "09/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-09T20:30:05Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-09T20:30:07Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 40, "first": {"data": "10/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-09T20:30:07Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-09T20:30:08Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-09T20:30:08Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "10/03/2026", "end": "09/05/2026"}
+{"ts": "2026-05-09T20:30:09Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 41, "first": {"data": "10/03/2026", "valor": "5.1622"}, "last": {"data": "08/05/2026", "valor": "4.8999"}}
+{"ts": "2026-05-10T20:30:02Z", "event": "bcb_fetch_start", "series_id": "SELIC_DAILY", "code": 11, "start": "11/03/2026", "end": "10/05/2026"}
+{"ts": "2026-05-10T20:30:05Z", "event": "bcb_fetch_done", "series_id": "SELIC_DAILY", "rows": 40, "first": {"data": "11/03/2026", "valor": "0.055131"}, "last": {"data": "08/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-10T20:30:05Z", "event": "bcb_fetch_start", "series_id": "SELIC_META", "code": 432, "start": "11/03/2026", "end": "10/05/2026"}
+{"ts": "2026-05-10T20:30:07Z", "event": "bcb_fetch_done", "series_id": "SELIC_META", "rows": 61, "first": {"data": "11/03/2026", "valor": "15.00"}, "last": {"data": "10/05/2026", "valor": "14.50"}}
+{"ts": "2026-05-10T20:30:07Z", "event": "bcb_fetch_start", "series_id": "CDI_DAILY", "code": 12, "start": "11/03/2026", "end": "10/05/2026"}
+{"ts": "2026-05-10T20:30:10Z", "event": "bcb_fetch_done", "series_id": "CDI_DAILY", "rows": 39, "first": {"data": "11/03/2026", "valor": "0.055131"}, "last": {"data": "07/05/2026", "valor": "0.053400"}}
+{"ts": "2026-05-10T20:30:10Z", "event": "bcb_fetch_start", "series_id": "IPCA_MONTHLY", "code": 433, "start": "11/03/2026", "end": "10/05/2026"}
+{"ts": "2026-05-10T20:30:11Z", "event": "bcb_fetch_done", "series_id": "IPCA_MONTHLY", "rows": 1, "first": {"data": "01/03/2026", "valor": "0.88"}, "last": {"data": "01/03/2026", "valor": "0.88"}}
+{"ts": "2026-05-10T20:30:11Z", "event": "bcb_fetch_start", "series_id": "USDBRL_PTAX", "code": 1, "start": "11/03/2026", "end": "10/05/2026"}
+{"ts": "2026-05-10T20:30:13Z", "event": "bcb_fetch_done", "series_id": "USDBRL_PTAX", "rows": 40, "first": {"data": "11/03/2026", "valor": "5.1596"}, "last": {"data": "08/05/2026", "valor": "4.8999"}}

@@ -1,0 +1,46 @@
+for
+firms in sectors that require large investments in infrastructure with long gestation periods. Telecom
+companies or companies involved in airport or toll road construction would be good examples.
+
+Definition
+The enterprise value to EBITDA multiple relates the total market value of the firm, net of cash, to the
+earnings before interest, taxes, depreciation, and amortization of the firm:
+Why is cash netted out of firm value for this calculation? Since the interest income from the cash is
+not counted as part of the EBITDA, not netting out the cash will result in an overstatement of the EV-
+to-EBITDA multiple.
+The enterprise value to EBITDA multiple can be difficult to estimate for firms with cross holdings.
+To see why, note that cross holdings can be categorized as either majority active, minority active, or
+minority passive holdings. When a holding is categorized as a minority holding, the operating income
+of a firm does not reflect the income from the holding. The numerator, on the other hand, includes the
+market value of equity, which should incorporate the value of the minority holdings. Consequently, the
+value to EBITDA multiple will be too high for these firms, leading a casual observer to conclude that
+they were overvalued. When a holding is categorized as a majority holding, a different problem
+arises. The EBITDA includes 100 percent of the EBITDA of the holding, but the numerator reflects
+only the portion of the holding that belongs to the firm. Thus the value to EBITDA multiple will be
+too low, leading it to be categorized as an undervalued stock.
+The correction for cross holdings is tedious and difficult to do when the holdings are in private
+firms. With minority holdings, you can either subtract the estimated value of the holdings from the
+numerator or add the portion of the EBITDA of the subsidiary to the denominator. With consolidated
+holdings, you can subtract the proportional share of the value of the holding from the numerator and
+the entire EBITDA of the holding from the denominator.
+ILLUSTRATION 18.14: Estimating Value to EBITDA with
+Cross Holdings
+In Illustration 16.6, we estimated a discounted cash flow value for Segovia, a firm with two holdings—a 51% stake in Seville
+Televison and a 15% stake of LatinWorks, a record and CD company. The first holding was categorized as a majority active
+holding (resulting in consolidation) and the second as a minority passive holding. Here, we will try to estimate an enterprise
+value to EBITDA multiple for Seville, using the following information:
+The market value of equity at Segovia is $1,529 million and the consolidated debt outstanding at the firm is
+$500 million. The firm reported $500 million in EBITDA on its consolidated income statement. A portion of
+the EBITDA ($180 million) and debt outstanding ($150 million) represent Segovia's holdings in Seville
+Televison.
+Seville Television is a publicly traded firm with a market value of equity of $459 million.
+LatinWorks is a private firm with an EBITDA of $120 million on capital invested of $250 million in the current
+year; the firm has $100 million in debt outstanding.
+None of the firms have significant cash balances.
+If we estimate an enterprise value to EBITDA multiple for Segovia using its consolidated financial statements, we would
+obtain the following:
+This multiple is contaminated by the cross holdings. There are three ways you can correct for these holdings. One is to net
+out from the market value of equity of Segovia the value of the equity in the holdings and the debt of the consolidated holding
+from Segovia's debt, and then divide by the EBITDA of just the parent company. To do this, you would first need to estimate
+the market value of equity in LatinWorks, which is a private company. We will use the estimate of equity value that we
+obtained in Illustration 16.6:

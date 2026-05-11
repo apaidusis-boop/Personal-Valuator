@@ -1,0 +1,64 @@
+stiture. (HP had $1 billion in debt outstanding.)
+9.
+ The following table summarizes the percentage changes in operating income, percentage
+changes in revenue, and betas for four pharmaceutical firms.
+
+a.
+ Calculate the degree of operating leverage for each of these firms.
+b.
+ Use the operating leverage to explain why these firms have different betas.
+10.
+ A prominent beta estimation service reports the beta of Comcast Corporation, a major cable
+TV operator, to be 1.45. The service claims to use weekly returns on the stock over the prior five
+years and the NYSE Composite as the market index to estimate betas. You replicate the regression
+using weekly returns over the same period and arrive at a beta estimate of 1.60. How would you
+reconcile the two estimates?
+11.
+ Battle Mountain is a mining company with gold, silver, and copper in mines in South America,
+Africa, and Australia. The beta for the stock is estimated to be 0.30. Given the volatility in
+commodity prices, how would you explain the low beta?
+12.
+ You have collected returns on AnaDone Corporation (AD Corp.), a large, diversified
+manufacturing firm, and the NYSE index for five years:
+Year
+AD Corp.
+NYSE
+1981
+10%
+5%
+1982
+5%
+15%
+1983
+–5%
+8%
+1984
+20%
+12%
+1985
+–5%
+–5%
+a.
+ Estimate the intercept (alpha) and slope (beta) of the regression.
+b.
+ If you bought stock in AD Corp. today, how much would you expect to make as a return over
+the next year? (The six-month T-bill rate is 6%.)
+c.
+ Looking back over the past five years, how would you evaluate AD Corp.'s performance
+relative to the market?
+d.
+ Assume now that you are an undiversified investor and that you have all of your money
+invested in AD Corp. What would be a good measure of the risk that you are taking on? How
+much of this risk would you be able to eliminate if you diversify?
+e.
+ AD Corp. is planning to sell off one of its divisions. The division under consideration has
+assets that comprise half of the book value of AD Corp. and 20% of the market value. Its beta is
+twice the average beta for AD Corp. (before divestment). What will the beta of AD Corp. be
+after divesting this division?
+13.
+ You run a regression of monthly returns of Mapco Inc., an oil- and gas-producing firm, on the
+S&P 500 index, and come up with the following output for the period 1991 to 1995:
+There are 20 million shares outstanding, and the current market price is $2 per share. The firm has
+$20 million in debt outstanding. (The firm has a tax rate of 36%.)
+a.
+ What would an investor in Mapco's stock require as a return if the T-bond rate is 6%?

@@ -1,0 +1,65 @@
+expected to be 5% of the index. If the expected growth rate in dividends and cash
+flows over the long term is expected to be 6% and the riskless rate is 5.5%, estimate the implied
+equity risk premium.
+
+11.
+ The Bovespa (Brazilian equity index) is at 15,000. The dividends on the index last year were
+5% of the index value, and analysts expect them to grow 15% a year in real terms for the next five
+years. After the fifth year, the growth is expected to drop to 5% in real terms in perpetuity. If the
+real riskless rate is 6%, estimate the implied equity risk premium in this market.
+12.
+ As stock prices go up, implied equity risk premiums will go down. Is this statement always
+true? If not, when is it not true?
+1
+ Well-behaved term structures would include a upward-sloping yield curve, where long-term rates
+are at most 2 to 3 percent higher than short-term rates.
+2
+ In investment analysis, where we look at projects, these durations are usually between 3 and 10
+years. In valuation, the durations tend to be much longer, since firms are assumed to have infinite
+lives. The durations in these cases are often well in excess of 10 years and increase with the
+expected growth potential of the firm.
+3
+ Ratings agencies provide ratings for a country for borrowings in the local currency and a foreign
+currency. The latter rating is usually lower (since countries have a greater chance of defaulting
+when they borrow in a foreign currency), but the rating that matters for this analysis is the rating in
+the 
+local currency. If the rating is Aaa (Moody’s) or AAA (S&P), the government bond rate will be
+the 
+risk-free rate.
+4
+ The default spread for a rating is computed by looking at dollar-denominated bonds issued by
+other 
+governments with a Ba2 rating and comparing the rates on these bonds to the U.S. Treasury
+bond rate.
+5
+ In cases where only a one-year forward rate exists, an approximation for the long-term rate can
+be obtained by first backing out the one-year local currency borrowing rate, taking the spread over
+the one-year Treasury bill rate, and then adding this spread onto the long-term Treasury bond rate.
+For instance, with a one-year forward rate of 39.95 on the Thai bond, we obtain a one-year Thai
+baht riskless rate of 9.04 percent (given a one-year Treasury bill rate of 4 percent). Adding the
+spread of 5.04 percent to the 10-year Treasury bond rate of 5 percent provides a 10-year Thai baht
+rate of 10.04 percent.
+6
+ See 
+Stocks, Bonds, Bills and Inflation
+, an annual edition that reports on annual returns on stocks,
+Treasury bonds, and Treasury bills, as well as inflation rates from 1926 to the present
+(
+www.ibbotson.com
+).
+7
+ For the historical data on stock returns, bond returns, and bill returns, check under “Updated
+Data” in 
+www.stern.nyu.edu/~adamodar
+.
+8
+ These estimates of the standard error are probably understated, because they are based on the
+assumption that annual returns are uncorrelated over time. There is substantial empirical evidence
+that returns are correlated over time, which would make this standard error estimate much larger.
+9
+ The compounded return is computed by taking the value of the investment at the start of the period
+(Value
+0
+) and the value at the end (Value
+N
+), and then computing the following:

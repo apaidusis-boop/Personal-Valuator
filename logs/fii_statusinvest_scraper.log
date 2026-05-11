@@ -1,0 +1,43 @@
+{"ts": "2026-04-15T13:29:34Z", "event": "fii_scrape_start", "ticker": "XPML11"}
+{"ts": "2026-04-15T13:29:35Z", "event": "fii_scraped", "ticker": "XPML11", "period": "2026-04-15", "fields": {"price": 111.45, "vpa": 110.46, "pvp": 1.01, "avg_monthly_rendimento_24m": 0.92, "dy_12m": 0.09905787348586811, "segment_anbima": "Shoppings"}}
+{"ts": "2026-04-15T13:33:09Z", "event": "fii_scrape_skip_fresh", "ticker": "XPML11", "fetched_at": "2026-04-15T13:29:35Z"}
+{"ts": "2026-04-15T13:33:09Z", "event": "fii_scrape_start", "ticker": "RBRX11"}
+{"ts": "2026-04-15T13:33:11Z", "event": "fii_scraped", "ticker": "RBRX11", "period": "2026-04-15", "fields": {"price": 8.72, "vpa": 9.86, "pvp": 0.89, "avg_monthly_rendimento_24m": 0.08880844, "dy_12m": 0.12221344954128441, "segment_anbima": "Indefinido"}}
+{"ts": "2026-04-15T13:33:11Z", "event": "fii_scrape_start", "ticker": "BTLG11"}
+{"ts": "2026-04-15T13:33:11Z", "event": "fii_scraped", "ticker": "BTLG11", "period": "2026-04-15", "fields": {"price": 103.9, "vpa": 102.69, "pvp": 1.02, "avg_monthly_rendimento_24m": 0.780505, "dy_12m": 0.09014494706448509, "segment_anbima": "Im&#xF3;veis Industriais e Log&#xED;sticos"}}
+{"ts": "2026-04-15T13:33:11Z", "event": "fii_scrape_start", "ticker": "VGIR11"}
+{"ts": "2026-04-15T13:33:12Z", "event": "fii_scraped", "ticker": "VGIR11", "period": "2026-04-15", "fields": {"price": 9.75, "vpa": 9.8, "pvp": 1.01, "avg_monthly_rendimento_24m": 0.1168202, "dy_12m": 0.1437787076923077, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:12Z", "event": "fii_scrape_start", "ticker": "PVBI11"}
+{"ts": "2026-04-15T13:33:13Z", "event": "fii_scraped", "ticker": "PVBI11", "period": "2026-04-15", "fields": {"price": 76.85, "vpa": 107.85, "pvp": 0.72, "avg_monthly_rendimento_24m": 0.52, "dy_12m": 0.0811971372804164, "segment_anbima": "Lajes Corporativas"}}
+{"ts": "2026-04-15T13:33:13Z", "event": "fii_scrape_start", "ticker": "PMLL11"}
+{"ts": "2026-04-15T13:33:14Z", "event": "fii_scraped", "ticker": "PMLL11", "period": "2026-04-15", "fields": {"price": 109.35, "vpa": 117.68, "pvp": 0.92, "avg_monthly_rendimento_24m": 0.848, "dy_12m": 0.09305898491083676, "segment_anbima": "Shoppings"}}
+{"ts": "2026-04-15T13:33:14Z", "event": "fii_scrape_start", "ticker": "TRXF11"}
+{"ts": "2026-04-15T13:33:15Z", "event": "fii_scraped", "ticker": "TRXF11", "period": "2026-04-15", "fields": {"price": 91.88, "vpa": 100.95, "pvp": 0.91, "avg_monthly_rendimento_24m": 0.9395, "dy_12m": 0.12270352633870267, "segment_anbima": "Im&#xF3;veis Comerciais - Outros"}}
+{"ts": "2026-04-15T13:33:15Z", "event": "fii_scrape_start", "ticker": "GARE11"}
+{"ts": "2026-04-15T13:33:15Z", "event": "fii_scraped", "ticker": "GARE11", "period": "2026-04-15", "fields": {"price": 8.37, "vpa": 9.48, "pvp": 0.88, "avg_monthly_rendimento_24m": 0.0848, "dy_12m": 0.12157706093189966, "segment_anbima": "Im&#xF3;veis Industriais e Log&#xED;sticos"}}
+{"ts": "2026-04-15T13:33:15Z", "event": "fii_scrape_start", "ticker": "VISC11"}
+{"ts": "2026-04-15T13:33:16Z", "event": "fii_scraped", "ticker": "VISC11", "period": "2026-04-15", "fields": {"price": 109.46, "vpa": 116.64, "pvp": 0.93, "avg_monthly_rendimento_24m": 0.816, "dy_12m": 0.08945733601315549, "segment_anbima": "Shoppings"}}
+{"ts": "2026-04-15T13:33:16Z", "event": "fii_scrape_start", "ticker": "RECR11"}
+{"ts": "2026-04-15T13:33:17Z", "event": "fii_scraped", "ticker": "RECR11", "period": "2026-04-15", "fields": {"price": 81.03, "vpa": 88.93, "pvp": 0.91, "avg_monthly_rendimento_24m": 0.910475, "dy_12m": 0.13483524620510923, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:17Z", "event": "fii_scrape_start", "ticker": "HGRU11"}
+{"ts": "2026-04-15T13:33:17Z", "event": "fii_scraped", "ticker": "HGRU11", "period": "2026-04-15", "fields": {"price": 129.32, "vpa": 129.14, "pvp": 1.0, "avg_monthly_rendimento_24m": 0.9575, "dy_12m": 0.08884936591401175, "segment_anbima": "Outros"}}
+{"ts": "2026-04-15T13:33:17Z", "event": "fii_scrape_start", "ticker": "HGLG11"}
+{"ts": "2026-04-15T13:33:18Z", "event": "fii_scraped", "ticker": "HGLG11", "period": "2026-04-15", "fields": {"price": 157.04, "vpa": 165.74, "pvp": 0.95, "avg_monthly_rendimento_24m": 1.1, "dy_12m": 0.08405501782985228, "segment_anbima": "Im&#xF3;veis Industriais e Log&#xED;sticos"}}
+{"ts": "2026-04-15T13:33:18Z", "event": "fii_scrape_start", "ticker": "MCRF11"}
+{"ts": "2026-04-15T13:33:18Z", "event": "fii_scraped", "ticker": "MCRF11", "period": "2026-04-15", "fields": {"price": null, "vpa": null, "pvp": null, "avg_monthly_rendimento_24m": null, "dy_12m": null, "segment_anbima": null}}
+{"ts": "2026-04-15T13:33:18Z", "event": "fii_scrape_start", "ticker": "KNCR11"}
+{"ts": "2026-04-15T13:33:19Z", "event": "fii_scraped", "ticker": "KNCR11", "period": "2026-04-15", "fields": {"price": 106.39, "vpa": 102.36, "pvp": 1.04, "avg_monthly_rendimento_24m": 1.105, "dy_12m": 0.12463577403891343, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:19Z", "event": "fii_scrape_start", "ticker": "VGIP11"}
+{"ts": "2026-04-15T13:33:20Z", "event": "fii_scraped", "ticker": "VGIP11", "period": "2026-04-15", "fields": {"price": 79.93, "vpa": 91.18, "pvp": 0.88, "avg_monthly_rendimento_24m": 0.84526316, "dy_12m": 0.12690051194795446, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:20Z", "event": "fii_scrape_start", "ticker": "BRCO11"}
+{"ts": "2026-04-15T13:33:20Z", "event": "fii_scraped", "ticker": "BRCO11", "period": "2026-04-15", "fields": {"price": 114.88, "vpa": 116.5, "pvp": 0.99, "avg_monthly_rendimento_24m": 0.8725, "dy_12m": 0.09113857938718664, "segment_anbima": "Log&#xED;stica"}}
+{"ts": "2026-04-15T13:33:21Z", "event": "fii_scrape_start", "ticker": "MCCI11"}
+{"ts": "2026-04-15T13:33:21Z", "event": "fii_scraped", "ticker": "MCCI11", "period": "2026-04-15", "fields": {"price": 94.77, "vpa": 95.14, "pvp": 1.0, "avg_monthly_rendimento_24m": 0.89473684, "dy_12m": 0.11329368027856916, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:21Z", "event": "fii_scrape_start", "ticker": "XPLG11"}
+{"ts": "2026-04-15T13:33:22Z", "event": "fii_scraped", "ticker": "XPLG11", "period": "2026-04-15", "fields": {"price": 100.4, "vpa": 106.03, "pvp": 0.94, "avg_monthly_rendimento_24m": 0.806, "dy_12m": 0.09633466135458167, "segment_anbima": "Log&#xED;stica"}}
+{"ts": "2026-04-15T13:33:22Z", "event": "fii_scrape_start", "ticker": "KNRI11"}
+{"ts": "2026-04-15T13:33:23Z", "event": "fii_scraped", "ticker": "KNRI11", "period": "2026-04-15", "fields": {"price": 168.98, "vpa": 163.53, "pvp": 1.03, "avg_monthly_rendimento_24m": 1.005, "dy_12m": 0.07136939282755356, "segment_anbima": "Misto"}}
+{"ts": "2026-04-15T13:33:23Z", "event": "fii_scrape_start", "ticker": "RBRY11"}
+{"ts": "2026-04-15T13:33:24Z", "event": "fii_scraped", "ticker": "RBRY11", "period": "2026-04-15", "fields": {"price": 94.37, "vpa": 99.8, "pvp": 0.97, "avg_monthly_rendimento_24m": 1.07475, "dy_12m": 0.13666419412949032, "segment_anbima": "Pap&#xE9;is"}}
+{"ts": "2026-04-15T13:33:24Z", "event": "fii_scrape_start", "ticker": "VRTA11"}
+{"ts": "2026-04-15T13:33:24Z", "event": "fii_scraped", "ticker": "VRTA11", "period": "2026-04-15", "fields": {"price": 77.13, "vpa": 85.01, "pvp": 0.91, "avg_monthly_rendimento_24m": 0.85, "dy_12m": 0.132244262932711, "segment_anbima": "Outros"}}

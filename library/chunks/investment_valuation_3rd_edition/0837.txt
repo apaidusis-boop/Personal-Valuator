@@ -1,0 +1,24 @@
+19.94 percent is exactly equal to the value of $40.179 million
+dropping by 48.22 percent. The binomial tree for the five periods is shown in 
+Figure 28.2
+.
+Figure 28.2
+ Binomial Tree for Delay Option
+
+You could estimate the value of the option from this binomial tree to be $1.02 million, slightly
+higher than the estimate obtained from the Black-Scholes model of $1.019 million. The differences
+will narrow as the option becomes more in-the-money and you shorten the time periods you use in the
+binomial model.
+VALUING A PATENT
+A number of firms, especially in the technology and pharmaceutical sectors, can patent products or
+services. A product patent provides a firm with the exclusive right to develop and market a product,
+and thus can be viewed as an option.
+Patents as Call Options
+The firm will develop a patent only if the present value of the expected cash flows from the product
+sales exceed the cost of development, as shown in 
+Figure 28.3
+. If this does not occur, the firm can
+shelve the patent and not incur any further costs. If I is the present value of the costs of commercially
+developing the patent and V is the present value of the expected cash flows from development, then:
+Figure 28.3
+ Payoff to Introducing Product

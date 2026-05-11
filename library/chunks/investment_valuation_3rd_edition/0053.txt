@@ -1,0 +1,51 @@
+sets, the return on assets does
+understate the profitability of firms that have substantial current assets.
+ROA can also be computed on a pretax basis with no loss of generality, by using the earnings
+
+before interest and taxes and not adjusting for taxes:
+Pretax ROA = Earnings before interest and taxes/Total assets
+This measure is useful if the firm or division is being evaluated for purchase by an acquirer with a
+different tax rate.
+A more useful measure of return relates the operating income to the capital invested in the firm,
+where capital is defined as the sum of the book value of debt and equity, net of cash. This is the return
+on invested capital (ROC or ROIC), and provides not only a truer measure of return but one that can
+be compared to the cost of capital, to measure the quality of a firm's investments.
+The denominator is generally termed invested capital and measures the book value of operating
+assets. For both measures, the book value can be measured at the beginning of the period or as an
+average of beginning and ending values.
+ILLUSTRATION 3.4: Estimating Return on Capital—
+Boeing and the Home Depot in 1998
+The following table summarizes the after-tax return on assets and return on capital estimates for Boeing and the Home
+Depot, using both average and beginning measures of capital in 1998:
+Boeing
+Home Depot
+(in $millions)
+(in $millions)
+After-tax operating income
+$ 1,118
+$ 1,730
+Book value of capital—beginning
+$19,807
+$ 8,525
+Book value of capital—ending
+$19,288
+$10,320
+Book value of capital—average
+$19,548
+$ 9,423
+Return on capital (based on average)
+5.72%
+18.36%
+Return on capital (based on beginning)
+5.64%
+20.29%
+Boeing had a terrible year, in 1998, in terms of after-tax returns. The Home Depot had a much better year in terms of those
+same returns.
+Decomposing Return on Capital
+The return on capital of a firm can be written as a function of the operating profit margin it has on its
+sales, and its capital turnover ratio.
+Thus, a firm can arrive at a high ROC by either increasing its profit margin or utilizing its capital
+more efficiently to increase sales. There are likely to be competitive constraints and technological
+constraints on both variables, but a firm still has some freedom within these constraints to choose the
+mix of profit margin and capital turnover that maximizes its ROC. The return on capital varies widely
+across firms in different businesses, largely as a consequence of differences in profit margins and

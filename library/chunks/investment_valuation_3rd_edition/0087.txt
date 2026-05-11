@@ -1,0 +1,39 @@
+henomena had done), they argued if these stocks earned higher returns over long time periods, they
+must be riskier than stocks that earned lower returns. In effect, market capitalization and price-to-
+
+book ratios were better proxies for risk, according to their reasoning, than betas. In fact, they
+regressed returns on stocks against the market capitalization of a company and its price-to-book ratio
+to arrive at the following regression for U.S. stocks;
+In a pure proxy model, you could plug the market capitalization and book-to-market ratio for any
+company into this regression to get expected monthly returns.
+In the two decades since the Fama-French paper brought proxy models to the fore, researchers have
+probed the data (which has become more detailed and voluminous over time) to find better and
+additional proxies for risk. Some of the proxies are highlighted here:
+Earnings momentum
+. Equity research analysts will find vindication in research that seems
+to indicate that companies that have reported stronger than expected earnings growth in the
+past earn higher returns than the rest of the market.
+Price momentum
+. Chartists will smile when they read this, but researchers have concluded
+that price momentum carries over into future periods. Thus, the expected returns will be
+higher for stocks that have outperformed markets in recent time periods and lower for stocks
+that have lagged.
+Liquidity
+. In a nod to real-world costs, there seems to be clear evidence that stocks that are
+less liquid (lower trading volume, higher bid-ask spreads) earn higher returns than more
+liquid stocks.
+While the use of pure proxy models by practitioners is rare, they have adapted the findings for these
+models into their day-to-day use. Many analysts have melded the CAPM with proxy models to create
+composite or melded models. For instance, many analysts who value small companies derive
+expected returns for these companies by adding a small cap premium to the CAPM expected return:
+The threshold for small capitalization varies across time but is generally set at the bottom decile of
+publicly traded companies, and the small cap premium itself is estimated by looking at the historical
+premium earned by small cap stocks over the market. Using the Fama-French findings, the CAPM has
+been expanded to include market capitalization and price-to-book ratios as additional variables, with
+the expected return stated as:
+The size and the book-to-market betas are estimated by regressing a stock’s returns against the size
+premium and book-to-market premiums over time; this is analogous to the way we get the market beta,
+by regressing stock returns against overall market returns.
+While the use of proxy and melded models offers a way of adjusting expected returns to reflect
+market reality, there are three dangers in using these models.
+1.

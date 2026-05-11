@@ -1,0 +1,45 @@
+d it provides a benchmark
+that can be used to compare the actual prices paid for growth.
+Estimating the Value of Growth
+The value of the equity in any firm can be written in terms of three components:
+
+where DPS
+t
+ = Expected dividends per share in year t 
+k
+e
+ = Cost of equity 
+g
+n
+ = Growth rate forever after year n
+Value of extraordinary growth = Value of the firm with extraordinary growth in first n years 
+Value
+of the firm as a stable growth firm
+2
+Value of stable growth = Value of the firm as a stable growth firm - Value of firm with no growth
+Assets in place = Value of firm with no growth
+In making these estimates, though, we have to remain consistent. For instance, to value assets in place,
+you would have to assume that the entire earnings could be paid out in dividends, while the payout
+ratio used to value stable growth should be a stable period payout ratio.
+ILLUSTRATION 13.6: 
+The Value of Growth: P&G in May
+2011
+In Illustration 13.3, we valued P&G using a two-stage dividend discount model at $68.90. We first value the assets in place
+using current earnings ($3.82) and assume that all earnings are paid out as dividends. We also use the stable growth cost of
+equity as the discount rate.
+To estimate the value of stable growth, we assume that the expected growth rate will be 3% and that the payout ratio is the
+stable period payout ratio of 75%:
+Note that $68.90 was our estimate of value per share in Illustration 13.3.
+DETERMINANTS OF THE VALUE OF GROWTH
+Growth rate during extraordinary period.
+ The higher the growth rate in the extraordinary period, the
+higher the estimated value of growth. Conversely, the value of high growth companies can drop precipitously
+if the expected growth rate is reduced, either because of disappointing earnings news from the firm or as a
+consequence of external events.
+Length of the extraordinary growth period.
+ The longer the extraordinary growth period, the greater the
+value of growth. At an intuitive level, this is fairly simple to illustrate. The value of $15.25 obtained for
+extraordinary growth in P&G is predicated on the assumption that high growth will last for five years. If this
+is revised to last 10 years, the value of extraordinary growth will increase.
+Profitability of projects.
+ The excess returns earned by projects determine the value of the expected growth.

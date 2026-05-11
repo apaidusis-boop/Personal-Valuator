@@ -1,0 +1,44 @@
+arisons. The chapters on relative valuation
+attempted to do this by noting the link between multiples and fundamentals, and also by examining how best to control for
+these differences in the analysis.
+
+Choosing a Cash Flow to Discount
+With consistent assumptions about growth and leverage, you should get the same value for your equity
+using the firm approach (where you value the firm and subtract outstanding debt) and the equity
+approach (where you value equity directly). If this is the case, you might wonder why you would pick
+one approach over the other. The answer is purely pragmatic. For firms that have stable leverage
+(i.e., they have debt ratios that are not expected to change during the period of the valuation), there is
+little to choose between the models in terms of the inputs needed for valuation. You use a debt ratio to
+estimate free cash flows to equity in the equity valuation model, and to estimate the cost of capital in
+the firm valuation model. Under these circumstances, you should stay with the model that you are
+more intuitively comfortable with.
+For firms that have unstable leverage (i.e., they have too much or too little debt and want to move
+toward their optimal or target debt ratio during the period of the valuation), the firm valuation
+approach is much simpler to use because it does not require cash flow projections from interest and
+principal payments and is much less sensitive to errors in estimating leverage changes. The
+calculation of the cost of capital requires an estimate of the debt ratio, but the cost of capital itself
+does not change as much as a consequence of changing leverage as does the cash flow to equity. If
+you prefer to work with assumptions about dollar debt rather than debt ratios, you can switch to the
+adjusted present value approach.
+In valuing equity, you can discount dividends or free cash flows to equity. You should consider
+using the dividend discount model under the following circumstances:
+You cannot estimate cash flows with any degree of precision either because you have
+insufficient or contradictory information about debt payments and reinvestments or because
+you have trouble defining what comprises debt. This was the rationale for using dividend
+discount models for valuing financial service firms in Chapter 21.
+There are significant restrictions on stock buybacks and other forms of cash return, and you
+have little or no control over what the management of a firm does with the cash. In this case,
+the only cash flows you can expect to get from your equity investment are the dividends that
+managers choose to pay out.
+In all other cases, you will get much more realistic estimates of a firm’s value using the free cash
+flow to equity, which may be greater than or lower than the dividend.
+Should You Use Current or Normalized Earnings?
+Most valuations begin with the current financial statements of the firm and use the reported earnings
+in those statements as the base for projections. There are some firms, though, where you may not be
+able to do this, either because the firm’s earnings are negative or because these earnings are
+abnormally high or low (a firm’s earnings are abnormal if they do not fit in with the firm’s own
+history of earnings).
+When earnings are negative or abnormal, you can sometimes replace current earnings with a
+normalized value, estimated by looking at the company’s history or industry averages, and value the
+firm based on these normalized earnings. This is the easiest route to follow if the causes for the
+negative or abnormal earnings are temporary or transitory, as in the following cases:

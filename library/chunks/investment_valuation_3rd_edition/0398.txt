@@ -1,0 +1,39 @@
+ersions of the FCFE valuation model presented in this section are simple
+variants on the dividend discount model, with one significant change—free cash flows to equity
+replace dividends in the models.
+
+Underlying Principle
+When we replace the dividends with FCFE to value equity, we are doing more than substituting one
+cash flow for another. We are implicitly assuming that the FCFE will be paid out to stockholders.
+There are two consequences:
+1.
+ There will be no future cash buildup in the firm, since the cash that is available after debt
+payments and reinvestment needs is assumed to be paid out to stockholders each period.
+2.
+ The expected growth in FCFE will include growth in income from operating assets and not
+growth in income from increases in marketable securities. This follows directly from the last
+point.
+How does discounting free cash flows to equity compare with the augmented dividend discount
+model, where stock buybacks are added back to dividends and discounted? You can consider stock
+buybacks to be the return of excess cash accumulated largely as a consequence of not paying out their
+FCFE as dividends. Thus, FCFE represents a smoothed-out measure of what companies can return to
+their stockholders over time in the form of dividends and stock buybacks.
+Estimating Growth in FCFE
+Free cash flows to equity, like dividends, are cash flows to equity investors and you could use the
+same approach that you used to estimate the fundamental growth rate in dividends per share:
+The use of the retention ratio in this equation implies that whatever is not paid out as dividends is
+reinvested back into the firm. There is a strong argument to be made, though, that this is not consistent
+with the assumption that free cash flows to equity are paid out to stockholders, which underlies FCFE
+models. It is far more consistent to replace the retention ratio with the equity reinvestment rate, which
+measures the percent of net income that is invested back into the firm.
+When discounting FCFE, it is safest to separate the existing cash balance from the operating assets
+of the firm, to value the equity in the operating assets and then add on the existing cash balance.
+Consequently, the return on equity can also have to be modified to reflect the fact that the
+conventional measure of the return includes interest income from cash and marketable securities in the
+numerator and the book value of equity also includes the value of the cash and marketable securities.
+In the FCFE model, there is no excess cash left in the firm and the return on equity should measure the
+return on noncash investments. You could construct a modified version of the return on equity that
+measures this:
+The product of the equity reinvestment rate and the modified ROE will yield the expected growth rate
+in FCFE:
+Constant Growth FCFE Model

@@ -1,0 +1,104 @@
+
+[GRAHAM] JPM (us):
+  verdict: N/A    score: 0.0
+  msg: Graham engine only handles BR; for US use Buffett
+    {
+      "reason": "Graham engine only handles BR; for US use Buffett"
+    }
+
+[BUFFETT] JPM (us):
+  verdict: AVOID    score: 0.4
+    {
+      "kind": "us_bank",
+      "details": {
+        "pe": {
+          "value": 14.461466,
+          "threshold": 12,
+          "verdict": "fail"
+        },
+        "price_to_tangible_book": {
+          "value": 2.3531888,
+          "threshold": 1.8,
+          "verdict": "fail",
+          "kind": "p_b_proxy"
+        },
+        "dividend_yield": {
+          "value": 0.019529956573315476,
+          "threshold": 0.025,
+          "verdict": "fail"
+        },
+        "rotce": {
+          "value": 0.16465001,
+          "threshold": 0.12,
+          "verdict": "pass",
+          "kind": "roe_proxy"
+        },
+        "cet1": {
+          "value": null,
+          "threshold": 0.11,
+          "verdict": "n/a",
+          "reason": "CET1 não populado (10-Q XBRL parser pendente)"
+
+[DRIP] JPM (us):
+  verdict: HOLD    score: 1.0
+    {
+      "safety_score": 100.0,
+      "safety_verdict": "SAFE",
+      "components": [
+        {
+          "name": "payout_ratio",
+          "score": 35,
+          "weight": 35,
+          "value": 0.28243178554332216,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "roe_level",
+          "score": 20,
+          "weight": 20,
+          "value": 0.16465001,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "streak_years",
+          "score": 25,
+          "weight": 25,
+          "value": 43,
+          "verdict": "SAFE"
+        },
+        {
+          "name": "net_debt_ebitda_bank_skip",
+          "score": null,
+          "weight": 20,
+          "value": null,
+
+[MACRO] JPM (us):
+  verdict: HOLD    score: 0.6667
+    {
+      "regime": "expansion",
+      "regime_confidence": "medium",
+      "sector": "financials",
+      "tilt": "neutral",
+      "multiplier": 1.0,
+      "regime_notes": "growth + productivity narrative"
+    }
+
+[HEDGE] JPM (us):
+  verdict: HOLD    score: 1.0
+  msg: No tactical hedge active in current regime
+    {
+      "market": "us",
+      "regime": "expansion",
+      "confidence": "medium",
+      "hedge_size_pct": 0.0,
+      "instruments": [],
+      "notional": null,
+      "rationale": [
+        "curva normal + labor estável = expansion"
+      ],
+      "cross_asset_alternatives": [
+        "GLD",
+        "TLT"
+      ],
+      "active": false
+    }

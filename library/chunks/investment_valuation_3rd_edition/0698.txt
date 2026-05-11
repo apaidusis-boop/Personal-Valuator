@@ -1,0 +1,34 @@
+x operating margin. Here again, the value per
+share increases as the margin increases but to a much smaller degree than with revenue growth.
+Figure 23.3
+ Value per Share and Pretax Margin—Tesla Motors
+
+The value per share increases by approximately $4/share for every 1% improvement in pretax margins. To justify a price of
+$29 per share, the pretax operating margin will have to be about 14%.
+ESTIMATION NOISE
+The framework for valuation provided in this section should not be considered a recipe for precision.
+The valuation of a firm with negative earnings, high growth, and limited information will always
+have estimation error.
+ One way to present this error is in terms of a valuation range, and the range on
+the value for these firms will be large. This is often used as an excuse by analysts who do not want to
+go through the process of valuing such firms. It also provides critics with a simplistic argument
+against trusting the numbers that emerge from these models.
+We have a different view. The error in the valuation is not always a reflection of the quality of the
+valuation model, or the analyst using it, but of the underlying real uncertainty about the future
+prospects of the firm. This uncertainty is a fact of life when it comes to investing in these firms. In a
+valuation, we attempt to grapple with this uncertainty and make our best estimates about the future.
+Note that those who disdain valuation models for their potential errors end up using far cruder
+approaches, such as comparing price-sales ratios across firms. The difference, as we see it, is that
+they choose to sweep the uncertainties under the rug and act as if they do not exist.
+There are two other points to make about the precision in these valuations. First, 
+even if a
+valuation is imprecise, it provides a powerful tool to answer the question of what has to occur for
+the current market price of a firm to be justified.
+ Investors can then decide whether they are
+comfortable with these assumptions, and make their decisions on buying and selling stock. Second,
+even if individual valuations are noisy, portfolios constructed based on these valuations will be
+more precisely valued.
+ Thus, an investor who buys 40 stocks that he or she has found to be
+undervalued using traditional valuation models, albeit with significant error, should find that error
+averaging out across the portfolio. The ultimate performance of the portfolio then should reflect the
+valuation skills, or the absence of them, of the analyst.

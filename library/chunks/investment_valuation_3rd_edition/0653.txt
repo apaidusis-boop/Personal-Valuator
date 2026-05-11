@@ -1,0 +1,50 @@
+replace the current earnings (which are negative) with normalized
+earnings (which will be positive). How we normalize earnings will vary depending on the nature of
+the problem.
+Firm-Specific Problems
+
+A firm can have a bad year in terms of earnings, but the problems may be isolated to that firm, and be
+short-term in nature. If the loss can be attributed to a specific event—a strike or a lawsuit judgment,
+for instance—and the accounting statements report the cost associated with the event, the solution is
+fairly simple. You should estimate the earnings prior to these costs and use these earnings not only for
+estimating cash flows but also for computing fundamentals such as return on capital. In making these
+estimates, though, note that you should remove not just the expense but all of the tax benefits created
+by the expense as well, assuming that it is tax deductible.
+If the cause of the loss is more diffuse or if the cost of the event causing the loss is not separated out
+from other expenses, you face a tougher task. First, you have to ensure that the loss is in fact
+temporary and not the symptom of long-term problems at the firm. Next, you have to estimate the
+normal earnings of the firm. The simplest and most direct way of doing this is to compare each
+expense item for the firm for the current year with the same item in previous years, scaled to
+revenues. Any item that looks abnormally high, relative to prior years, should be normalized (by using
+an average from previous years). Alternatively, you could apply the operating margin that the firm
+earned in prior years to the current year's revenues and estimate an operating income to use in the
+valuation.
+In general, you will have to consider making adjustments to the earnings of firms after years in
+which they have made major acquisitions, since the accounting statements in these years will be
+skewed by large items that are generally nonrecurring and related to the acquisition.
+ILLUSTRATION 22.1: Normalizing Earnings for a Firm
+after a Poor Year: Daimler-Benz in 1995
+In 1995, Daimler-Benz reported an operating loss of DM 2,016 million and a net loss of DM 5,674 million. Much of the loss
+could be attributed to firm-specific problems, including a large write-off of a failed investment in Fokker Aerospace, an
+aircraft manufacturer. To estimate normalized earnings at Daimler-Benz, we eliminated all charges related to these items
+and estimated a pretax operating income of DM 5,693 million. To complete the valuation, we made the following additional
+assumptions:
+Revenues at Daimler had been growing 3% to 5% a year prior to 1995, and we anticipated that the long-term
+growth rate would be 5% in both revenues and operating income.
+The firm had a book value of capital invested of DM 43,558 million at the beginning of 1995, and was
+expected to maintain its return on capital (based on the adjusted operating income of DM 5,693 million).
+The firm's tax rate is 44%.
+1
+To value Daimler, we first estimated the return on capital at the firm, using the adjusted operating income:
+Based on the expected growth rate of 5%, this would require a reinvestment rate of 68.31%:
+With these assumptions, we were able to compute Daimler's expected free cash flows in 1996:
+EBIT(1 – t) = 5,693(1.05)(1 – .44)
+DM 3,347 million
+– Reinvestment = 5,693(1.05)(.6831)
+DM 2,287 million
+Free cash flow to firm
+DM 1,061 million
+To compute the cost of capital, we used a bottom-up beta of 0.95, estimated using automobile firms listed globally. The long-
+term bond rate (on a German government bond denominated in DM) was 6%, and Daimler-Benz could borrow long-term at
+6.1%. We assumed a market risk premium of 4%. The market value of equity was DM 50,000 million, and there was DM
+26,281 million in debt outstanding at the end of 1995.

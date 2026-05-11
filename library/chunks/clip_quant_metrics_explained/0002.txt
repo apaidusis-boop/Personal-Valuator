@@ -1,0 +1,25 @@
+s, along with the rest of our Quant projections.
+
+We've identified three core Investing Types that correspond with risk tolerance and potential returns: **Cautious**, **Moderate**, and **Aggressive**.
+
+Using simulations run by our Quant team, we've assigned a type to each stock in the Motley Fool universe, which you'll see on the new Epic experience and in Fool IQ. In general, the greater the range of possible outcomes for a stock, the more volatile (and more aggressive) our model expects it to be.
+
+### Cautious
+
+Not the flashiest stocks on a ticker feed, companies in this group are likely to have a limited range of return outcomes. But what they lack in 10-bagger potential, they make up for with lower potential risk.
+
+### Moderate
+
+The middle ground. These stocks have more growth potential than those in the Cautious category but a smaller range of return outcomes and less potential risk than their Aggressive counterparts.
+
+### Aggressive
+
+Outsized return potential comes with a cost: more risk. These stocks feature the widest range of outcomes -- increased chances of volatility, highest return potential -- and represent the rockiest road for an investor to navigate.
+
+### How to Use Investing Types
+
+We encourage all investors to understand their risk tolerance preferences and how that relates to the type of stocks they might want to own -- or not own. Only you know the type of investments that are best for your financial situation.
+
+But we do recommend creating a diversified portfolio as one of the keys to successful long-term investing. Regardless of any individual preferences, we believe that investors should generally include stocks of all three Investing Types in their portfolios.
+
+Even Aggressive stocks can be safely included (in smaller amounts) in a Cautious portfolio. Likewise, Cautious stocks can be an important segment when added to a more Aggressive portfolio.

@@ -1,0 +1,39 @@
+firm.
+How would you value the loan portfolio of a bank or the policies of an insurance company? One
+approach would be to estimate the price at which the loan portfolio can be sold to another financial
+
+service firm, but the better approach is to value it based on the expected cash flows. Consider, for
+instance, a bank with a $1 billion loan portfolio with a weighted average maturity of eight years, on
+which it earns interest income of $70 million. Furthermore, assume that the default risk on the loans is
+such that the fair market interest rate on the loans would be 6.50 percent; this fair market rate can be
+estimated by either getting the loan portfolio rated by a ratings agency or by measuring the potential
+for default risk in the portfolio. The value of the loans can be estimated as follows:
+This loan portfolio has a fair market value that exceeds its book value because the bank is charging an
+interest rate that exceeds the market rate. The reverse would be true if the bank charged an interest
+rate that is lower than the market rate. To value the equity in this book, you would subtract out the
+deposits, debt, and other claims on the bank.
+This approach has merit if you are valuing a mature bank or insurance company with little or no
+growth potential, but it has two significant limitations. First, it does not assign any value to expected
+future growth and the excess returns that flow from that growth. A bank, for instance, that consistently
+is able to lend at rates higher than justified by default risk should be able to harvest value from future
+loans as well. Second, it is difficult to apply when a financial service firm enters multiple businesses.
+A firm like Citigroup that operates in multiple businesses would prove to be difficult to value
+because the assets in each business—insurance, commercial banking, investment banking, portfolio
+management—would need to be valued separately, with different income streams and different
+discount rates.
+RELATIVE VALUATION
+The chapters on relative valuation examined a series of multiples that are used to value firms, ranging
+from earnings multiples to book value multiples to revenue multiples. This section considers how
+relative valuation can be used for financial service firms.
+Choices in Multiples
+Firm value multiples such as value-to-EBITDA or value-to-EBIT cannot be easily adapted to value
+financial service firms, because neither value nor operating income can be easily estimated for banks
+or insurance companies. In keeping with our emphasis on equity valuation for financial service firms,
+the multiples that we will work with to analyze financial service firms are equity multiples. The three
+most widely used equity multiples are price-earnings ratios, price-to-book value ratios, and price-to-
+sales ratios. Since sales or revenues are not really measurable for financial service firms price-to-
+sales ratios cannot be estimated or used for these firms. This section will looks at the use of price-
+earnings and price-to-book value ratios for valuing financial service firms.
+Price-Earnings Ratios
+The price-earnings ratio for a bank or an insurance company is measured in much the same way as it
+is for any other firm.

@@ -1,0 +1,49 @@
+ensuring that there are positive expected returns for saving in that currency� They have to get the currency cheap enough so that it, 
+with the desired interest rate, will produce a positive return� 
+
+Part 1: The Archetypal Big Debt Cycle 
+56
+Here is what we typically see when the country reaches the bottom:
+ • The collapse in imports improves the current account a lot (on average by about 8 percent of GDP).
+ • Capital inflows stop declining and stabilize.
+ • Capital flight abates.
+ • Frequently, the country turns to the IMF or other international entities for support and a stable source of 
+capital, especially when its reserves are limited.
+ • Short rates start to come down after about a year, but long rates continue to stay relatively elevated. After 
+peaking, short rates fall back to their pre-crisis levels in around two years. The decline in short rates is 
+stimulative.
+ • As interest rates come down, the forward currency price rallies relative to the spot.
+ • As the currency stabilizes, inflation comes down. Usually it takes nearly two years after the bottom for 
+inflation to reach pre-crisis levels.
+Of course, these are all averages, and the actual amounts depend on each country’s particular circumstances 
+(which we will look at in the next section). 
+The sizable and painful decline in domestic conditions also helps to close the balance of payments gap by bringing 
+down spending and imports. Through the crisis, the average country’s imports contract by around 10 percent as 
+growth collapses and the equity market falls by over 50 percent. Classically, the collapse in imports brings the current 
+account into a surplus of 2 percent of GDP, rising from a deficit of -6 percent of GDP about 18 months into the crisis. 
+In the earlier stages of the crisis exports play a smaller role; they actually tend to contract during the worst of the crisis 
+(as other countries are sometimes seeing economic slowdowns too). They rebound in the subsequent years.
+Imports fall more
+than exports…
+54321
+- 6 0 - 4 8 - 3 6 - 2 4 - 1 2 0 1 2 2 4 3 6 4 8 6 0 7 2 8 4
+Imports  (% PG DP, Indexe d)
+Top
+(3)
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Depression
+(4)
+Normalization
+(5)
+- 1 0 %
+-8%
+- 6 %
+-4%
+- 2 %
+0%
+2 %
+4 %

@@ -1,0 +1,33 @@
+ntinues to earn excess returns (albeit at a lower pace), with a return on capital of 10% in perpetuity and a cost of
+capital of 7.80%. We compute the present value of the EVA after year 10 as follows:
+
+The total EVA can be computed by adding the present value of the terminal EVA to the present value of EVA over the next
+10 years:
+Note that the capital invested in the terminal EVA computation is an imputed capital invested based on the expected after
+tax operating income in the terminal year and the assumed ROC of 10%:
+If we had not made this adjustment, the capital invested at the start of year 11 would have been only $1,412,696 (in
+thousands):
+The final component of value captures the present value of this change in capital invested:
+The total value of the firm (in thousands) can then be computed as follows:
+Capital invested in assets in place
+$ 
+358,394
+PV of EVA from assets in place
+$1,670,405
+PV of change in capital invested
+$ 
+923,010
+Value of operating assets
+$2,951,809
+This is identical to the value from the discounted cash flow model.
+fcffeva.xls:
+
+This spreadsheet allows you to convert a discounted cash flow valuation into an EVA
+valuation, and vice versa.
+EVA and Firm Value: Potential Conflicts
+Assume that a firm adopts economic value added as its measure of value and decides to judge
+managers on their capacity to generate greater than expected economic value added. What is the
+potential for abuse? Is it possible for a manager to deliver greater than expected economic value
+added while destroying firm value at the same time? If so, how can we protect stockholders against
+these practices?
+To answer these questions, let us go back to the earlier equation where we decomposed firm value

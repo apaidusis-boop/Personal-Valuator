@@ -1,0 +1,69 @@
+o make—
+whether to use equity or firm valuation in the context of discounted cash flow valuation, which
+multiple you should use to value firms or equity, and what type of option is embedded in a firm.
+
+References
+Chapter 1 Introduction to Valuation
+Buffett, W. E., and L. A. Cunningham. 2001. 
+The essays of Warren Buffett: Lessons of corporate
+America. 
+Minneapolis, MN: Cunningham Group.
+Cottle, S., R. Murray, and F. Bloch. 1988.
+ Security analysis. 
+New York: McGraw-Hill.
+Graham, B., D. L. Dodd, and S. Cottle. 1962. 
+Security analysis
+, 4th ed. New York: McGraw-Hill.
+Chapter 2 Approaches to Valuation
+Black, F., and M. Scholes. 1972. The valuation of option contracts and a test of market efficiency.
+Journal of Finance
+ 27:399–417.
+Damodaran, A. 1994. 
+Damodaran on valuation
+. New York: John Wiley & Sons.
+Hooke, J. C. 2001. 
+Security analysis on Wall Street
+. New York: John Wiley & Sons.
+Chapter 3 Understanding Financial Statements
+Choi, F. D. S., and R. M. Levich. 1990. 
+The capital market effects of international accounting
+diversity
+. New York: Dow Jones–Irwin.
+Stickney, C. P. 1993. 
+Financial statement analysis
+. Fort Worth, TX: Dryden Press.
+White, G. I., A. Sondhi, and D. Fried. 1997. 
+The analysis and use of financial statements. 
+New
+York: John Wiley & Sons.
+Williams, J. R. 1998.
+ GAAP guide.
+ New York: Harcourt Brace.
+Chapter 4 The Basics of Risk
+Ball, C. A., and W. N. Torous. 1983. A simplified jump process for common stock returns. 
+Journal
+of Financial and Quantitative Analysis
+ 18:53–65.
+Beckers, S. 1981. A note on estimating the parameters of the diffusion–jump process model of stock
+returns. 
+Journal of Financial and Quantitative Analysis
+ 16:127–140.
+Bernstein, P. 1992. 
+Capital ideas
+. New York: Free Press.
+Bernstein, P. 1996. 
+Against the gods
+. New York: John Wiley & Sons.
+Chen, N., R. Roll, and S. A. Ross. 1986. Economic forces and the stock market. 
+Journal of Business
+59:383–404.
+Elton, E. J., and M. J. Gruber. 1995. 
+Modern portfolio theory and investment management. 
+New
+York: John Wiley & Sons.
+Fama, E. F., 1965. The behavior of stock market prices. 
+Journal of Business
+ 38: 34–105.
+Fama, E. F., and K. R. French. 1992. The cross-section of expected returns.
+ Journal of Finance
+47:427–466.

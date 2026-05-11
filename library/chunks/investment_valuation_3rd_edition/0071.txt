@@ -1,0 +1,44 @@
+fact, the spirit of our
+definition of risk in finance is captured best by the Chinese symbols for risk:
+Loosely defined, the first symbol is the symbol for “danger,” while the second is the symbol for
+
+“opportunity,” making risk a mix of danger and opportunity. It illustrates very clearly the trade-off that
+every investor and business has to make—between the higher rewards that come with the opportunity
+and the higher risk that has to be borne as a consequence of the danger.
+Much of this chapter can be viewed as an attempt to come up with a model that best measures the
+danger in any investment, and then attempts to convert this into the opportunity that we would need to
+compensate for the danger. In finance terms, we term the danger to be “risk” and the opportunity to be
+“expected return.”
+What makes the measurement of risk and expected return so challenging is that it can vary
+depending on whose perspective we adopt. When analyzing the risk of a firm, for instance, we can
+measure it from the viewpoint of the firm’s managers. Alternatively, we can argue that the firm’s
+equity is owned by its stockholders, and that it is their perspective on risk that should matter. A firm’s
+stockholders, many of whom hold the stock as one investment in a larger portfolio, might perceive the
+risk in the firm very differently from the firm’s managers, who might have the bulk of their capital,
+human and financial, invested in the firm.
+We argue that risk in an investment has to be perceived through the eyes of investors in the firm.
+Since firms often have thousands of investors, often with very different perspectives, it can be
+asserted that risk has to be measured from the perspective of not just any investor in the stock, but of
+the marginal investor, defined to be the investor most likely to be trading on the stock at any given
+point in time. The objective in valuation is to measure the value of an asset to those who will be
+pricing it. If we want to stay true to this objective, we have to consider the viewpoint of those who
+set the stock prices, and they are the marginal investors.
+EQUITY RISK AND EXPECTED RETURN
+To demonstrate how risk is viewed in finance, risk analysis is presented here in three steps: first,
+defining risk in terms of the distribution of actual returns around an expected return; second,
+differentiating between risk that is specific to one or a few investments and risk that affects a much
+wider cross section of investments (in a market where the marginal investor is well diversified, it is
+only the latter risk, called market risk, that will be rewarded); and third, alternative models for
+measuring this market risk and the expected returns that go with it.
+Defining Risk
+Investors who buy an asset expect to earn returns over the time horizon that they hold the asset. Their
+actual returns over this holding period may be very different from the expected returns, and it is this
+difference between actual and expected returns that is a source of risk. For example, assume that you
+are an investor with a one-year time horizon buying a one-year Treasury bill (or any other default-
+free one-year bond) with a 5 percent expected return. At the end of the one-year holding period, the
+actual return on this investment will be 5 percent, which is equal to the expected return. The return
+distribution for this investment is shown in 
+Figure 4.1
+. This is a riskless investment.
+Figure 4.1
+ Probability Distribution of Returns on a Risk-Free Investment

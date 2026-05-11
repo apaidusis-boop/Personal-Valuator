@@ -1,0 +1,16 @@
+sually rated, we can estimate their costs of debt by using their ratings and associated default spreads.
+Thus, a firm with an A rating can be expected to have a cost of debt approximately 1.00 percent
+
+higher than the Treasury bond rate, since this is the spread typically paid by AA-rated firms.
+Many companies choose not to get rated and smaller firms and most private businesses fall into this
+category. Although ratings agencies have sprung up in many emerging markets, there are still a number
+of markets where companies are not rated on the basis of default risk. When there is no rating
+available to estimate the cost of debt, there are two alternatives:
+1.
+
+Recent borrowing history.
+ Many firms that are not rated still borrow money from banks and
+other financial institutions. By looking at the most recent borrowings made by a firm, we can get a
+sense of the types of default spreads being charged the firm and use these spreads to come up with
+a cost of debt.
+2.

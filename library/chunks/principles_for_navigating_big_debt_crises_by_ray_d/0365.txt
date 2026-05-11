@@ -1,0 +1,36 @@
+d it would 
+need $40 billion in funding. Now, just a day later, it was suggesting it would need $85 billion. 41 
+$0
+$200
+$400
+$600
+$800
+$1,000
+$1,200
+Sep-07 Dec-07 Mar-08 Jun-08 Sep-08
+AIG Share Price
+
+On Tuesday, the Fed made two surprising policy moves—one far bolder than expected, the other more timid. On 
+the one hand, the Fed, in a regularly scheduled meeting to set interest rates, decided not  to change them, when the 
+market expected them to be lowered—a significant disappointment that hurt the markets. Remarkably, even as the 
+market looked to be on the verge of a depression, the Fed remained concerned about inflation, putting in their 
+statement, “The downside risks to growth and the upside risks to inflation are both of significant concern to the 
+Committee.” In his memoir, Bernanke would later write that “in retrospect, that decision was certainly a mistake,” 
+caused in part by “substantial sentiment at the meeting in favor of holding our fire until we had a better sense of 
+how the Lehman situation would play out.”42 
+However, more importantly, the Fed also made an announcement that redefined the limits of US central banking. 
+It courageously announced that it would provide $85 billion in emergency funding to AIG. The deal, drafted in a 
+rush on the afternoon of Tuesday, September 16, came with tough terms attached. AIG would pay a floating 
+interest rate starting at 11.5 percent, while giving the government an 80 percent ownership stake in the company. 
+Because AIG did not have enough safe financial assets to secure the loan, it pledged nearly everything else it 
+owned as collateral—including its insurance subsidiaries, financial services companies, and various real estate 
+holdings (including a ski resort!). The Fed loan worked because the market believed AIG was solvent (because of 
+the value of its insurance subsidiaries, which had investment-grade credit ratings). The fact that these served as 
+collateral for the Fed’s loan was also critical to the Fed’s decision.43 
+But even under these terms, the loan was an unusually risky one for the Fed—after all, the companies AIG put up 
+as collateral were not nearly as easy to value or to sell as the AAA securities the Fed accepted in normal times. And 
+there was still a risk that AIG would go under, despite the Fed’s help. Geithner would later say, “Deciding to 
+support AIG was one of the most difficult choices I have ever been involved in in over 20 years of public service.” 44 
+News of AIG’s bailout did not lift markets on Wednesday. Instead, stocks slid by about 4.7 percent, with shares of 
+major financial institutions down by double digits. Rates on commercial paper continued to rise, while yields on 
+three-month treasury bills fell to just above 0 percent (down from around 1.6 percent a week before) as investors

@@ -1,0 +1,47 @@
+for in 1993?
+3.
+ You are analyzing the price–book value ratios for firms in the trucking industry, relative to
+returns on equity and required rates of return. The data on the companies is as follows:
+
+The Treasury bond rate is 7%, and the market risk premium is 5.5%.
+a.
+ Compute the average PBV ratio, return on equity, and beta for the industry.
+b.
+ Based on these averages, are stocks in the industry under- or overvalued relative to book
+values?
+4.
+ United Healthcare, a health maintenance organization, is expected to have earnings growth of
+30% for the next five years and 6% after that. The dividend payout ratio will be only 10% during
+the high growth phase, but will increase to 60% in steady state. The stock has a beta of 1.65
+currently, but the beta is expected to drop to 1.10 in steady state. (The Treasury bond rate is
+7.25%.)
+a.
+ Estimate the price–book value ratio for United Healthcare, given the inputs as given.
+b.
+ How sensitive is the price–book value ratio to estimates of growth during the high growth
+period?
+c.
+ United Healthcare trades at a price–book value ratio of 7.00. How long would extraordinary
+growth have to last (at a 30% annual rate) to justify this PBV ratio?
+5.
+ Johnson & Johnson, a leading manufacturer of health care products, had a return on equity of
+31.5% in 1993, and paid out 37% of its earnings as dividends. The stock had a beta of 1.25. (The
+Treasury bond rate was 6%, and the risk premium was 5.5%.) The extraordinary growth was
+expected to last for 10 years, after which the growth rate was expected to drop to 6% and the
+return on equity to 15% (the beta would move to 1).
+a.
+ Assuming the return on equity and dividend payout ratio continue at current levels for the high
+growth period, estimate the PBV ratio for Johnson & Johnson.
+b.
+ If health care reform passes, it is believed that Johnson & Johnson's return on equity will drop
+to 20% for the high growth phase. If the company chooses to maintain its existing dividend
+payout ratio, estimate the new PBV ratio for Johnson & Johnson. (You can assume that the inputs
+for the steady state period are unaffected.)
+6.
+ Assume that you have done a regression of PBV ratios for all firms on the New York Stock
+Exchange, and arrived at the following result:
+where Payout = Dividend payout ratio during most recent period 
+Growth = Projected growth rate in earnings over next five years 
+Beta = Beta of the stock in most current period
+To illustrate, a firm with a payout ratio of 40%, a beta of 1.25, a ROE of 25%, and expected
+growth rate of 15% would have had a price–book value ratio of:

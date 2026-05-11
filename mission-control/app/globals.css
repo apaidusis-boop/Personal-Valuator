@@ -1,0 +1,559 @@
+@import "tailwindcss";
+
+/* ============================================================
+ * Mission Control v5 — "JPM-clean"
+ *
+ * Light, professional, broker-grade. White cards on cool grey
+ * canvas, JPM blue accents, precise typography, generous
+ * whitespace. Inspired by JPMorgan Self-Directed dashboard +
+ * Fool.com long-form recommendations.
+ *
+ * v3/v4 token names (--bg-canvas, --text-primary, --verdict-buy
+ * etc.) are kept as aliases so existing components keep working.
+ * The Valoria primitives are repurposed: --val-navy now points
+ * to the JPM canvas grey, --val-gold to the institutional blue
+ * accent, etc. (Names retained to avoid touching every consumer.)
+ * ============================================================ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"],
+[data-theme="jpm"] {
+  /* JPM primitives -------------------------------------------- */
+  --jpm-canvas:      #F4F6F8;     /* page background — cool grey, like JPM dashboard */
+  --jpm-card:        #FFFFFF;     /* card background */
+  --jpm-card-hover:  #F8FAFC;     /* row hover */
+  --jpm-overlay:     #EEF1F5;     /* sub-background, chips, secondary surfaces */
+
+  --jpm-ink:         #0F1B2D;     /* primary text (almost-black navy) */
+  --jpm-ink-2:       #2A3547;     /* near-primary, used in body copy */
+  --jpm-ink-3:       #5A6577;     /* secondary text (labels, captions) */
+  --jpm-ink-4:       #8A95A8;     /* tertiary text */
+  --jpm-ink-5:       #B5BCCB;     /* disabled / muted */
+
+  --jpm-blue:        #0F62D1;     /* primary action / link (Chase blue) */
+  --jpm-blue-hover:  #1979FF;
+  --jpm-blue-soft:   #E7F0FB;     /* tinted background for active chips */
+  --jpm-blue-deep:   #0A4DA8;
+
+  --jpm-gain:        #15A861;     /* positive deltas (green) */
+  --jpm-gain-soft:   #E5F5EC;
+  --jpm-loss:        #E5142D;     /* negative deltas (red) */
+  --jpm-loss-soft:   #FBE8EB;
+  --jpm-amber:       #C77700;     /* HOLD / warning */
+  --jpm-amber-soft:  #FCF1DD;
+
+  /* Phase MM "If only 5 things" #2 — Bloomberg Amber for BUY actions.
+     Generic emerald/green BUY pills are documented AI-slop signature
+     (925 Studios, Slopless.design). We keep --jpm-gain (#15A861) for
+     P/L deltas (where green has a real semantic) and use these gold
+     tokens specifically for ACTION pills (BUY / STRONG_BUY). */
+  --action-gold:      #F39F41;    /* Bloomberg terminal amber */
+  --action-gold-soft: #FCEEDC;    /* tinted background */
+  --action-gold-deep: #C77700;    /* hover / pressed */
+  --action-gold-ink:  #5A3A0E;    /* text on gold-soft */
+
+  --jpm-border:      #E1E4EA;     /* hairline borders */
+  --jpm-border-2:    #C7CDD7;     /* strong borders, dividers */
+  --jpm-grid:        #ECEFF3;     /* chart gridlines */
+
+  /* Legacy primitive aliases (kept so /visual etc. don't break) */
+  --val-navy:        var(--jpm-canvas);
+  --val-graphite:    var(--jpm-card);
+  --val-graphite-2:  var(--jpm-overlay);
+  --val-graphite-3:  var(--jpm-border);
+  --val-ivory:       var(--jpm-ink);
+  --val-cream:       var(--jpm-ink-2);
+  --val-grey-1:      var(--jpm-ink-3);
+  --val-grey-2:      var(--jpm-ink-4);
+  --val-grey-3:      var(--jpm-ink-5);
+  --val-gold:        var(--jpm-blue);
+  --val-gold-deep:   var(--jpm-blue-deep);
+  --val-blue:        var(--jpm-blue);
+  --val-blue-deep:   var(--jpm-blue-deep);
+  --val-green:       var(--jpm-gain);
+  --val-amber:       var(--jpm-amber);
+  --val-red:         var(--jpm-loss);
+
+  /* Surfaces (semantic) -------------------------------------- */
+  --bg-canvas:       var(--jpm-canvas);
+  --bg-elevated:     var(--jpm-card);
+  --bg-overlay:      var(--jpm-overlay);
+  --bg-deep:         var(--jpm-canvas);
+
+  --border-subtle:   var(--jpm-border);
+  --border-strong:   var(--jpm-border-2);
+  --rule:            var(--jpm-blue);    /* section underline */
+
+  /* Text ----------------------------------------------------- */
+  --text-primary:    var(--jpm-ink);
+  --text-secondary:  var(--jpm-ink-2);
+  --text-tertiary:   var(--jpm-ink-3);
+  --text-label:      var(--jpm-ink-4);
+  --text-disabled:   var(--jpm-ink-5);
+
+  /* Accents -------------------------------------------------- */
+  --accent-primary:  var(--jpm-blue);    /* primary action */
+  --accent-glow:     var(--jpm-blue);    /* link */
+
+  /* Verdicts ------------------------------------------------- */
+  --verdict-buy:     var(--jpm-gain);
+  --verdict-hold:    var(--jpm-amber);
+  --verdict-avoid:   var(--jpm-loss);
+  --verdict-na:      var(--jpm-ink-4);
+
+  --gain:            var(--jpm-gain);
+  --loss:            var(--jpm-loss);
+  --neutral:         var(--jpm-ink-4);
+
+  --mkt-br:          var(--jpm-gain);
+  --mkt-us:          var(--jpm-blue);
+
+  --qual-ok:         var(--jpm-gain);
+  --qual-warning:    var(--jpm-amber);
+  --qual-degraded:   #D9905A;
+  --qual-critical:   var(--jpm-loss);
+
+  /* Spacing -------------------------------------------------- */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px;
+  --space-4: 16px; --space-5: 20px; --space-6: 24px;
+  --space-8: 32px; --space-10: 40px; --space-12: 48px;
+
+  /* Radius — soft, broker-grade */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 12px;
+
+  /* Motion */
+  --motion-fast:  120ms ease-out;
+  --motion:       180ms ease-out;
+  --motion-slow:  280ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Type families — single-family clean sans, no editorial serif */
+  /* Phase MM "If only 5 things" #5 + impeccable detect fix.
+     v1: --font-display + --font-serif both pointed to Inter → loaded
+     Playfair was never used → impeccable single-font fired correctly.
+     v2: 3-font system actually wired in CSS:
+       - sans   = Geist (distinctive — replaces overused Inter)
+       - display/serif = Playfair Display (editorial register)
+       - mono   = JetBrains Mono (data/numbers register) */
+  --font-display: "Playfair Display", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-serif:   "Playfair Display", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans:    "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono:    "JetBrains Mono", "SFMono-Regular", "Menlo", "Consolas", monospace;
+
+  /* Backwards-compat aliases (legacy components) */
+  --background:    var(--bg-canvas);
+  --foreground:    var(--text-primary);
+  --card:          var(--bg-elevated);
+  --card-border:   var(--border-subtle);
+  --accent-cyan:   var(--accent-glow);
+  --accent-purple: var(--accent-primary);
+  --accent-magenta:var(--accent-primary);
+  --accent-green:  var(--verdict-buy);
+  --accent-red:    var(--verdict-avoid);
+  --accent-yellow: var(--verdict-hold);
+  --muted:         var(--text-tertiary);
+
+  /* Layout constants ---------------------------------------- */
+  --sidebar-w:    232px;
+  --topbar-h:     56px;
+
+  /* Shadows — broker-grade subtle (cards lift faintly off canvas) */
+  --shadow-sm: 0 1px 2px rgba(15, 27, 45, 0.04);
+  --shadow:    0 1px 3px rgba(15, 27, 45, 0.06), 0 1px 2px rgba(15, 27, 45, 0.04);
+  --shadow-lg: 0 8px 24px rgba(15, 27, 45, 0.12), 0 2px 6px rgba(15, 27, 45, 0.06);
+}
+
+@theme inline {
+  --color-background: var(--bg-canvas);
+  --color-foreground: var(--text-primary);
+  --color-card:       var(--bg-elevated);
+  --color-card-border:var(--border-subtle);
+  --color-cyan:       var(--accent-glow);
+  --color-purple:     var(--accent-primary);
+  --color-magenta:    var(--accent-primary);
+  --color-success:    var(--verdict-buy);
+  --color-danger:     var(--verdict-avoid);
+  --color-warn:       var(--verdict-hold);
+  --color-muted:      var(--text-tertiary);
+  --font-mono: var(--font-mono);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+html {
+  background: var(--bg-canvas);
+}
+
+body {
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  /* Phase MM "If only 5 things" #1 — the single CSS line that separates
+     serious finance UI from amateur. Inherits to every element; ensures
+     ALL numbers (sans-serif AND mono) align on a uniform baseline with
+     monospaced figures. Datawrapper + Practical Typography call this
+     mandatory for data-driven UI. */
+  font-variant-numeric: tabular-nums lining-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.003em;
+}
+
+/* Typography utilities — JPM scale ---------------------------- */
+/* .type-display uses Playfair Display (serif register) per Phase MM
+   research: editorial finance dashboards (FT/WSJ/Apple Stocks) pair a
+   distinctive serif for hero numbers + h1 with the sans for body.
+   Tightens slop signal "single-font everywhere = AI dashboard". */
+.type-display {
+  font-family: var(--font-display);
+  font-size: 36px; line-height: 1.05; font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+}
+.type-h1 {
+  font-family: var(--font-sans);
+  font-size: 22px; line-height: 1.25; font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--text-primary);
+}
+.type-h2 {
+  font-family: var(--font-sans);
+  font-size: 14px; line-height: 1.35; font-weight: 600;
+  color: var(--text-primary);
+}
+.type-h3 {
+  font-family: var(--font-sans);
+  font-size: 11px; line-height: 1.4; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.type-byline {
+  font-family: var(--font-sans);
+  font-size: 11px; line-height: 1.4;
+  color: var(--text-tertiary);
+}
+.type-body       { font-family: var(--font-sans); font-size: 14px; line-height: 1.55; color: var(--text-secondary); }
+.type-body-sm    { font-family: var(--font-sans); font-size: 13px; line-height: 1.5;  color: var(--text-secondary); }
+.type-caption    { font-family: var(--font-sans); font-size: 11px; line-height: 1.4;  color: var(--text-tertiary); }
+.type-mono       { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; font-variant-numeric: tabular-nums; }
+.type-mono-sm    { font-family: var(--font-mono); font-size: 10px; line-height: 1.4; letter-spacing: 0.02em; font-variant-numeric: tabular-nums; }
+
+.font-display { font-family: var(--font-display); }
+.font-data    { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+/* Editorial rule — JPM uses a thin grey line, not a thick gold one */
+.rule-hard   { height: 1px; background: var(--jpm-border-2); margin-top: 8px; }
+.rule-soft   { height: 1px; background: var(--border-subtle); }
+.rule-section{ height: 1px; background: var(--border-subtle); }
+
+/* Status dots ------------------------------------------------- */
+.dot-live { background: var(--verdict-buy); box-shadow: 0 0 0 2px rgba(21,168,97,0.15); }
+.dot-idle { background: var(--text-tertiary); }
+.dot-fail { background: var(--verdict-avoid); box-shadow: 0 0 0 2px rgba(229,20,45,0.15); }
+
+/* Cards — white blocks with hairline border + subtle lift ----- */
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--motion), border-color var(--motion);
+}
+.card:hover {
+  box-shadow: var(--shadow);
+  border-color: var(--border-strong);
+}
+.card-purple,
+.card-cyan {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--accent-primary);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.card-danger {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--verdict-avoid);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.editorial {
+  background: transparent;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-3);
+}
+
+/* Pills — soft tinted backgrounds, no border for solid variants ---- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+  background: transparent;
+}
+.pill-buy     { color: var(--verdict-buy); }
+.pill-hold    { color: var(--verdict-hold); }
+.pill-avoid   { color: var(--verdict-avoid); }
+.pill-na      { color: var(--verdict-na); }
+.pill-mkt-br  { color: var(--mkt-br); }
+.pill-mkt-us  { color: var(--mkt-us); }
+.pill-neutral { color: var(--text-tertiary); }
+.pill-glow    { color: var(--accent-glow); }
+.pill-purple  { color: var(--accent-primary); }
+.pill-gold    { color: var(--accent-primary); }
+
+.pill-solid {
+  border: 0;
+  padding: 3px 10px;
+  font-weight: 600;
+}
+.pill-solid.pill-buy   { background: var(--jpm-gain-soft); color: var(--verdict-buy); }
+.pill-solid.pill-hold  { background: var(--jpm-amber-soft); color: var(--verdict-hold); }
+.pill-solid.pill-avoid { background: var(--jpm-loss-soft); color: var(--verdict-avoid); }
+.pill-solid.pill-na    { background: var(--bg-overlay); color: var(--verdict-na); }
+.pill-solid.pill-mkt-br{ background: var(--jpm-gain-soft); color: var(--mkt-br); }
+.pill-solid.pill-mkt-us{ background: var(--jpm-blue-soft); color: var(--mkt-us); }
+.pill-solid.pill-glow  { background: var(--jpm-blue-soft); color: var(--accent-glow); }
+
+/* Legacy tag */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.4rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-sans);
+  color: var(--text-tertiary);
+}
+
+/* Tabular */
+.tabular { font-variant-numeric: tabular-nums; font-family: var(--font-mono); }
+
+/* Scrollbar — invisible-ish, broker-grade */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+  border: 2px solid var(--bg-canvas);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
+
+/* Focus ring — visible blue, not gold */
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Pixelated (legacy /visual page if reactivated) */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+/* Section separator */
+.divider-soft { height: 1px; background: var(--border-subtle); }
+
+/* Editorial extras — kept for compat, no drop-cap (clean JPM has none) */
+.serif { font-family: var(--font-sans); font-weight: 600; }
+.sans  { font-family: var(--font-sans); }
+
+.drop-cap::first-letter {
+  font-family: var(--font-sans);
+  font-size: 2.4em;
+  float: left;
+  line-height: 0.9;
+  margin: 0.05em 0.1em 0 0;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* "Não operacional · Ocultado" disabled state ---------------- */
+.nav-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* JPM-style data table -------------------------------------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.data-table thead th {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  background: transparent;
+}
+.data-table tbody tr {
+  border-bottom: 1px solid var(--border-subtle);
+  transition: background var(--motion-fast);
+  cursor: pointer;
+}
+.data-table tbody tr:last-child {
+  border-bottom: 0;
+}
+.data-table tbody tr:hover {
+  background: var(--jpm-card-hover);
+}
+.data-table tbody td {
+  padding: 14px 12px;
+  vertical-align: middle;
+  color: var(--text-primary);
+}
+.data-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* Ticker logo — circular avatar ------------------------------ */
+.ticker-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: white;
+  flex-shrink: 0;
+}
+.ticker-logo-sm {
+  width: 28px;
+  height: 28px;
+  font-size: 10px;
+}
+
+/* JPM-style segmented control ------------------------------- */
+.segmented {
+  display: inline-flex;
+  background: var(--bg-overlay);
+  border-radius: 999px;
+  padding: 3px;
+  border: 1px solid var(--border-subtle);
+  gap: 2px;
+}
+.segmented button {
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  border-radius: 999px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: all var(--motion-fast);
+}
+.segmented button:hover {
+  color: var(--text-secondary);
+}
+.segmented button[data-active="true"] {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+  font-weight: 600;
+}
+
+/* JPM-style period chip group (YTD / 1M / 3M / 1Y / Max) ------ */
+.period-chips {
+  display: inline-flex;
+  gap: 4px;
+}
+.period-chips button {
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  border-radius: 999px;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--motion-fast);
+}
+.period-chips button:hover {
+  color: var(--text-primary);
+  background: var(--bg-overlay);
+}
+.period-chips button[data-active="true"] {
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  background: var(--jpm-blue-soft);
+  font-weight: 600;
+}
+
+/* Delta — green/red number with sign --------------------------- */
+.delta-pos {
+  color: var(--gain);
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}
+.delta-neg {
+  color: var(--loss);
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}
+.delta-flat {
+  color: var(--neutral);
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}
+
+/* Side-sheet (right-hand drawer) ----------------------------- */
+.sidesheet-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 27, 45, 0.32);
+  backdrop-filter: blur(2px);
+  z-index: 60;
+  animation: sidesheet-fade-in 180ms ease-out;
+}
+.sidesheet {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 920px;
+  background: var(--bg-elevated);
+  border-left: 1px solid var(--border-subtle);
+  z-index: 70;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+  animation: sidesheet-slide-in 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes sidesheet-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes sidesheet-slide-in {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}

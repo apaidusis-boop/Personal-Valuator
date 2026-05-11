@@ -1,0 +1,11 @@
+ploys a Monte Carlo simulation on the project analysis and estimates a
+standard deviation in project value of 25%. Finally, note that since the project is a finite-life project, the present value will
+
+decline over time, because there will be fewer years of cash flows left. For simplicity, we will assume that this will be
+proportional to the time left on the project:
+Inputting these values into the Black-Scholes model and using a 5% riskless rate, we value the put option as follows:
+Since this is greater than the negative net present value of the investment, Airbus should enter into this joint venture. On the
+other hand, Lear needs to be able to generate a positive net present value of at least $40.09 million to compensate for giving
+up this option.
+7
+abandon.xls:

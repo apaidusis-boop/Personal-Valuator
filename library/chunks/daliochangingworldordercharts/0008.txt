@@ -1,0 +1,138 @@
+Ming
+Dynasty 
+Qing
+Dynasty
+Song
+Dynasty
+Yuan
+Dyn
+RCPRC
+1000 1200 1400 1600 1800 2000
+0
+1
+Level Relative to Other Empires
+(1 = All-Time Max)
+6008 00
+1
+2
+3
+5
+6
+1
+2
+34 4
+5
+6 1
+2
+3 4
+5
+6
+1
+2 3 4
+5
+6
+1
+2
+3
+
+22
+THE CHANGING WORLD ORDER
+GLOBAL RGDP PER CAPITA (2017 USD, LOG)
+1500 1600 1700 1800 1900 2000
+7
+8
+9
+10
+11Emergence
+of German
+Empire, 2nd
+Industrial
+Revolution
+Panic
+of 1873
+Peak 
+of Qing
+Dynasty
+Invention
+of printing
+press
+(1440)
+Dutch
+Revolt,
+war with
+Ottomans
+Beginning
+of capitalism
+(Amsterdam
+Stock
+Exchange)
+Thirty
+Years’
+War
+Collapse
+of Ming
+Dynasty,
+English
+Civil War
+2nd
+Anglo-
+Dutch
+War
+Taj
+Mahal,
+peak of
+Mughal
+Empire
+Glorious
+Revolution,
+Great
+Turkish
+War
+South
+Sea
+Bubble
+Seven
+Years’
+War
+American
+Revolution
+French
+Revolution,
+collapse of 
+Dutch Rep
+Revolutions
+of 1848
+1st Industrial Revolution
+Taiping
+Rebellion,
+2nd
+Opium
+War
+Roaring
+’20s
+Peak of
+American
+Empire
+Digital
+Revolution
+2008
+crisis
+Deng
+Xiaoping
+reforms
+Meiji
+Restoration
+Great
+Depression
+World 
+War II
+COVID-
+19
+Collapse
+of Qing,
+WWI, and
+post-war
+recession
+Napoleonic Wars
+Global RGDP is primarily a mix of European countries before 1870 due to limited 
+reliable data coverage across other countries before that point.

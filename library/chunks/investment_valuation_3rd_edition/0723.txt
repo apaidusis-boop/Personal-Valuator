@@ -1,0 +1,28 @@
+iscount
+The illiquidity discount is likely to vary across both firms and buyers, which renders rules of thumb
+useless. Let us consider four factors that may cause the discount to vary across firms:
+1.
+
+Liquidity of assets owned by the firm.
+ The fact that a private firm is difficult to sell may be
+rendered moot if its assets are liquid and can be sold with no significant loss in value. A private
+firm with significant holdings of cash and marketable securities should have a lower illiquidity
+discount than one with factories or other assets for which there are relatively few buyers.
+2.
+
+Financial health and cash flows of the firm.
+ A private firm that is financially healthy should
+be easier to sell than one that is not healthy. In particular, a firm with solid profits and positive
+cash flows should be subject to a smaller illiquidity discount than one with negative income and
+cash flows.
+3.
+
+Possibility of going public in the future.
+ The greater the likelihood that a private firm can go
+public in the future, the lower should be the illiquidity discount attached to its value. In effect, the
+probability of going public is built into the valuation of the private firm. To illustrate, the owner
+of a private e-commerce firm in 1998 or 1999 would not have had to apply much of an illiquidity
+
+discount to his or her firm's value, if any, because of the ease with which these firms could be
+taken public in those years.
+4.

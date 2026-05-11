@@ -1,0 +1,38 @@
+{
+  "ticker": "JPM",
+  "market": "us",
+  "timestamp": "2026-05-09T14:37:58.746326",
+  "audit": {
+    "piotroski": {
+      "ticker": "JPM",
+      "applicable": false,
+      "reason_if_not_applicable": "Piotroski n\u00e3o se aplica a sector 'Financials'",
+      "criteria": {},
+      "details": {}
+    },
+    "altman": {
+      "ticker": "JPM",
+      "applicable": false,
+      "reason_if_not_applicable": "Altman n\u00e3o se aplica a sector 'Financials'"
+    },
+    "beneish": {
+      "ticker": "JPM",
+      "applicable": false,
+      "reason_if_not_applicable": "Beneish n\u00e3o se aplica a sector 'Financials'",
+      "indices": {}
+    },
+    "moat": {
+      "ticker": "JPM",
+      "applicable": false,
+      "reason_if_not_applicable": "moat framework n\u00e3o se aplica a sector 'Financials'",
+      "details": {},
+      "label": "N/A"
+    }
+  },
+  "scout": {
+    "error": "yfinance not available"
+  },
+  "delta": "Delta Report \u2014 JPM | hoje vs run anterior (2026-05-08)",
+  "dossier": "# 1. Executive Summary\n- **Rating:** EVITAR\n- **Pre\u00e7o justo estimado e upside/downside %:** N\u00e3o poss\u00edvel calcular devido \u00e0 falta de dados quantitativos.\n- **Risk Score:** 10 (Alt\u00edssimo)\n- **Alerta vermelho:** Dados insuficientes para avaliar o Beneish M-Score ou Altman Z-Score, impossibilitando uma an\u00e1lise completa do risco.\n\n# 2. O Neg\u00f3cio\n- **Modelo de receita e fontes de caixa:** N\u00e3o dispon\u00edvel.\n- **Moat (Network Effect / Switching Costs / Intangibles / Cost Adv):** N\u00e3o poss\u00edvel avaliar sem dados espec\u00edficos sobre o neg\u00f3cio da empresa.\n\n# 3. Decomposi\u00e7\u00e3o DuPont\n- **ROE = Margem \u00d7 Giro \u00d7 Alavancagem:** Dados insuficientes para calcular.\n- **Identificar a alavanca dominante:** N\u00e3o dispon\u00edvel devido \u00e0 falta de dados financeiros.\n\n# 4. Valuation Multin\u00edvel\n- **Graham Number:** N\u00e3o aplic\u00e1vel sem informa\u00e7\u00f5es espec\u00edficas sobre o lucro por a\u00e7\u00e3o e P/B da empresa.\n- **DCF com 3 cen\u00e1rios (Bear / Base / Bull):** Imposs\u00edvel realizar sem dados financeiros futuros, incluindo fluxo de caixa livre projetado.\n- **EV/EBITDA vs mediana setor:** N\u00e3o poss\u00edvel comparar sem informa\u00e7\u00f5es sobre o m\u00faltiplo EV/EBITDA da empresa e do setor.\n\n# 5. Bear Case (mais agressivo se Piotroski < 5)\n- **3 maiores riscos com prob \u00d7 impacto:**\n    - Risco de mercado em geral: Probabilidade alta, impacto significativo.\n    - Dados insuficientes para an\u00e1lise financeira detalhada: Probabilidade alta, impacto cr\u00edtico na tomada de decis\u00e3o.\n    - Poss\u00edvel fraude cont\u00e1bil ou irregularidades n\u00e3o detectadas: Probabilidade m\u00e9dia-alta, impacto severo.\n- **Cen\u00e1rio de -40%:** Sem dados espec\u00edficos sobre o neg\u00f3cio e a situa\u00e7\u00e3o financeira da empresa, \u00e9 imposs\u00edvel prever com precis\u00e3o as consequ\u00eancias de uma queda de 40%. No entanto, considerando os riscos mencionados acima, seria razo\u00e1vel esperar um impacto significativo na liquidez e na capacidade operacional da empresa.\n\n# 6. Bull Case\n- **Catalisadores espec\u00edficos com prazo:** N\u00e3o dispon\u00edvel devido \u00e0 falta de dados sobre o neg\u00f3cio.\n- **O que precisa acontecer para o pre\u00e7o dobrar em 3 anos?** Sem informa\u00e7\u00f5es financeiras, n\u00e3o \u00e9 poss\u00edvel identificar fatores espec\u00edficos.\n\n# 7. Classifica\u00e7\u00e3o Lynch\n- **Slow / Stalwart / Fast / Cyclical / Turnaround / Asset Play:** N\u00e3o poss\u00edvel classificar sem dados sobre a natureza do neg\u00f3cio e desempenho hist\u00f3rico.\n- **2-3 argumentos objetivos:** Imposs\u00edvel fornecer devido \u00e0 falta de informa\u00e7\u00f5es.\n\n# 8. Veredicto Final\n- **Decis\u00e3o com 3 crit\u00e9rios mensur\u00e1veis:**\n    - Dados financeiros insuficientes para avalia\u00e7\u00e3o.\n    - Risco elevado devido a incertezas e poss\u00edveis irregularidades cont\u00e1beis.\n    - N\u00e3o atende aos princ\u00edpios b\u00e1sicos do value investing (Graham, Buffett, Klarman, Dalio).\n- **Position sizing:** Evitar. A falta de dados financeiros confi\u00e1veis e a alta probabilidade de riscos significativos indicam que esta \u00e9 uma oportunidade de investimento inaceit\u00e1vel sob os crit\u00e9rios estabelecidos para value investing.",
+  "model": "qwen2.5:32b-instruct-q4_K_M"
+}

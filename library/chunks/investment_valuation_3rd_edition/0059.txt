@@ -1,0 +1,27 @@
+tio is indicative of an unhealthy firm that is having problems
+reducing its inventory. In recent years firms have worked at reducing their current ratios and
+managing their net working capital better.
+
+Reliance on current ratios has to be tempered by a few concerns. First, the ratio can be easily
+manipulated by firms around the time of financial reporting dates to give the illusion of safety;
+second, current assets and current liabilities can change by an equal amount, but the effect on the
+current ratio will depend on its level before the change.
+9
+Quick or Acid Test Ratios
+The quick or acid test ratio is a variant of the current ratio. It distinguishes current assets that can be
+converted quickly into cash (cash, marketable securities) from those that cannot (inventory, accounts
+receivable).
+The exclusion of accounts receivable and inventory is not a hard-and-fast rule. If there is evidence
+that either can be converted into cash quickly, it can, in fact, be included as part of the quick ratio.
+Turnover Ratios
+Turnover ratios measure the efficiency of working capital management by looking at the relationship
+of accounts receivable and inventory to sales and to the cost of goods sold:
+These statistics can be interpreted as measuring the speed with which the firm turns accounts
+receivable into cash or inventory into sales. These ratios are often expressed in terms of the number
+of days outstanding:
+A similar pair of statistics can be computed for accounts payable, relative to puchases:
+Since accounts receivable and inventory are assets, and accounts payable is a liability, these three
+statistics (standardized in terms of days outstanding) can be combined to get an estimate of how much
+financing the firm needs to raise to fund working capital needs.
+The greater the financing period for a firm, the greater is its short-term liquidity risk.
+wcdata.xls:

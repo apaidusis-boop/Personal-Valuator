@@ -1,0 +1,35 @@
+.20%
+Debt/Equity
+56.61%
+18.08%
+Debt/(Debt + Equity)
+36.15%
+15.31%
+In 2008, Boeing has a much higher book value debt ratio, considering either long-term or total debt, than the Home Depot.
+dbtfund.xls:
+
+This is a dataset on the Web that summarizes the book value debt ratios and market value
+debt ratios for firms in the United States, classified by industry.
+
+OTHER ISSUES IN ANALYZING FINANCIAL
+STATEMENTS
+There are significant differences in accounting standards and practices across countries and these
+differences may color comparisons across companies.
+Differences in Accounting Standards and Practices
+Differences in accounting standards across countries affect the measurement of earnings. These
+differences, however, are not so great as they are made out to be by some analysts, and they cannot
+explain away radical departures from fundamental principles of valuation. Choi and Levich, in a
+1990 survey of accounting standards across developed markets, note that most countries subscribe to
+basic accounting notions of consistency, realization, and historical cost principles in preparing
+accounting statements. As countries increasingly move toward international financial reporting
+standards (IFRS), it is worth noting that IFRS and U.S. GAAP are more similar than dissimilar on
+many issues. It is true that there are areas of differences that still remain, and we note some of them in
+Table 3.1
+.
+Table 3.1
+ Key Differences between IFRS and GAAP
+
+Most of these differences can be accounted and adjusted for when comparisons are made between
+companies in the United States and companies in other financial markets. Statistics such as price-
+earnings ratios, which use stated and unadjusted earnings, can be misleading when accounting
+standards vary widely across the companies being compared.

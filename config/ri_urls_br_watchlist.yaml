@@ -1,0 +1,369 @@
+ABEV3:
+  is_holding: false
+  market: br
+  method: known
+  name: Ambev
+  ri_urls:
+  - https://ri.ambev.com.br/
+  sector: Consumer Staples
+  status: ok
+ALUP11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: Alupar
+  ri_urls:
+  - https://www.fiis.com.br/alup11/
+  sector: Utilities
+  status: ok
+B3SA3:
+  is_holding: false
+  market: br
+  method: known
+  name: B3SA3
+  ri_urls:
+  - https://ri.b3.com.br/
+  sector: Financials
+  status: ok
+BBAS3:
+  is_holding: false
+  market: br
+  method: known
+  name: Banco do Brasil
+  ri_urls:
+  - https://www.bb.com.br/site/ri/
+  sector: Banks
+  status: ok
+BBSE3:
+  is_holding: false
+  market: br
+  method: known
+  name: BB Seguridade
+  ri_urls:
+  - https://www.bbseguridaderi.com.br/
+  sector: Insurance
+  status: ok
+BPAC11:
+  is_holding: false
+  market: br
+  method: known
+  name: BTG Pactual
+  ri_urls:
+  - https://ri.btgpactual.com/
+  sector: Banks
+  status: ok
+BRBI11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: BRBI11
+  ri_urls:
+  - https://www.fiis.com.br/brbi11/
+  sector: Financials
+  status: ok
+BRCO11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: BRCO11
+  ri_urls:
+  - https://www.fiis.com.br/brco11/
+  sector: Logística
+  status: ok
+CMIG4:
+  is_holding: false
+  market: br
+  method: known
+  name: Cemig
+  ri_urls:
+  - https://ri.cemig.com.br/
+  sector: Utilities
+  status: ok
+EGIE3:
+  is_holding: false
+  market: br
+  method: known
+  name: Engie Brasil
+  ri_urls:
+  - https://ri.engie.com.br/
+  sector: Utilities
+  status: ok
+ENGI11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: ENGI11
+  ri_urls:
+  - https://www.fiis.com.br/engi11/
+  sector: Utilities
+  status: ok
+EQTL3:
+  is_holding: false
+  market: br
+  method: known
+  name: EQTL3
+  ri_urls:
+  - https://ri.equatorialenergia.com.br/
+  sector: Utilities
+  status: ok
+GARE11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: GARE11
+  ri_urls:
+  - https://www.fiis.com.br/gare11/
+  sector: Híbrido
+  status: ok
+HGLG11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: HGLG11
+  ri_urls:
+  - https://www.fiis.com.br/hglg11/
+  sector: Logística
+  status: ok
+HGRU11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: HGRU11
+  ri_urls:
+  - https://www.fiis.com.br/hgru11/
+  sector: Híbrido
+  status: ok
+ITUB4:
+  is_holding: false
+  market: br
+  method: known
+  name: Itaú Unibanco
+  ri_urls:
+  - https://www.itau.com.br/relacoes-com-investidores/
+  sector: Banks
+  status: ok
+KNCR11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: KNCR11
+  ri_urls:
+  - https://www.fiis.com.br/kncr11/
+  sector: Papel (CRI)
+  status: ok
+KNHF11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: KNHF11
+  ri_urls:
+  - https://www.fiis.com.br/knhf11/
+  sector: Híbrido
+  status: ok
+KNRI11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: KNRI11
+  ri_urls:
+  - https://www.fiis.com.br/knri11/
+  sector: Híbrido
+  status: ok
+MCCI11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: MCCI11
+  ri_urls:
+  - https://www.fiis.com.br/mcci11/
+  sector: Papel (CRI)
+  status: ok
+MCRE11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: MCRE11
+  ri_urls:
+  - https://www.fiis.com.br/mcre11/
+  sector: Tijolo
+  status: ok
+MOTV3:
+  is_holding: false
+  market: br
+  method: known
+  name: MOTV3
+  ri_urls:
+  - https://ri.motiva.com.br/
+  sector: Industrials
+  status: ok
+PETR4:
+  is_holding: false
+  market: br
+  method: known
+  name: PETR4
+  ri_urls:
+  - https://www.investidorpetrobras.com.br/
+  sector: Oil & Gas
+  status: ok
+PMLL11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: PMLL11
+  ri_urls:
+  - https://www.fiis.com.br/pmll11/
+  sector: Shopping
+  status: ok
+POMO4:
+  is_holding: false
+  market: br
+  method: known
+  name: POMO4
+  ri_urls:
+  - https://ri.marcopolo.com.br/
+  sector: ''
+  status: ok
+RBRY11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: RBRY11
+  ri_urls:
+  - https://www.fiis.com.br/rbry11/
+  sector: Papel (CRI)
+  status: ok
+RDOR3:
+  is_holding: false
+  market: br
+  method: known
+  name: RDOR3
+  ri_urls:
+  - https://ri.rededorsaoluiz.com.br/
+  sector: Healthcare
+  status: ok
+RECR11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: RECR11
+  ri_urls:
+  - https://www.fiis.com.br/recr11/
+  sector: Papel (CRI)
+  status: ok
+RENT3:
+  is_holding: false
+  market: br
+  method: known
+  name: RENT3
+  ri_urls:
+  - https://ri.localiza.com/
+  sector: Industrials
+  status: ok
+SANB11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: Santander BR
+  ri_urls:
+  - https://www.fiis.com.br/sanb11/
+  sector: Banks
+  status: ok
+SAPR11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: Sanepar
+  ri_urls:
+  - https://www.fiis.com.br/sapr11/
+  sector: Utilities
+  status: ok
+SUZB3:
+  is_holding: false
+  market: br
+  method: known
+  name: SUZB3
+  ri_urls:
+  - https://ri.suzano.com.br/
+  sector: Materials
+  status: ok
+TAEE11:
+  is_holding: false
+  market: br
+  method: known
+  name: Taesa
+  ri_urls:
+  - https://ri.taesa.com.br/
+  sector: Utilities
+  status: ok
+TIMS3:
+  is_holding: false
+  market: br
+  method: known
+  name: TIMS3
+  ri_urls:
+  - https://ri.tim.com.br/
+  sector: Telecom
+  status: ok
+TRXF11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: TRXF11
+  ri_urls:
+  - https://www.fiis.com.br/trxf11/
+  sector: Híbrido
+  status: ok
+VGIP11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: VGIP11
+  ri_urls:
+  - https://www.fiis.com.br/vgip11/
+  sector: Papel (CRI)
+  status: ok
+VISC11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: VISC11
+  ri_urls:
+  - https://www.fiis.com.br/visc11/
+  sector: Shopping
+  status: ok
+VIVA3:
+  is_holding: false
+  market: br
+  method: known
+  name: VIVA3
+  ri_urls:
+  - https://ri.vivara.com.br/
+  sector: Consumer Disc.
+  status: ok
+VIVT3:
+  is_holding: false
+  market: br
+  method: known
+  name: Telefônica Vivo
+  ri_urls:
+  - https://ri.telefonica.com.br/
+  sector: Telecom
+  status: ok
+VRTA11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: VRTA11
+  ri_urls:
+  - https://www.fiis.com.br/vrta11/
+  sector: Papel (CRI)
+  status: ok
+XPLG11:
+  is_holding: false
+  market: br
+  method: fii_heuristic
+  name: XPLG11
+  ri_urls:
+  - https://www.fiis.com.br/xplg11/
+  sector: Logística
+  status: ok

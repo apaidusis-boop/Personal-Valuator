@@ -1,0 +1,44 @@
+considerations. The CAPM is the simplest of the models, insofar as it requires only one firm-specific
+input (the beta), and that input can be estimated readily from public information. To replace the
+
+CAPM with an alternative model, whether it be from the mean variance family (arbitrage pricing
+model or multifactor models), alternative return process families (power, asymmetric, and jump
+distribution models), or proxy models, we need evidence of substantial improvement in accuracy in
+future forecasts (and not just in explaining past returns).
+Ultimately, the survival of the capital asset pricing model as the default model for risk in real-
+world applications is a testament to both its intuitive appeal and the failure of more complex models
+to deliver significant improvement in terms of estimating expected returns. We would argue that a
+judicious use of the capital asset pricing model, without an over reliance on historical data, is still the
+most effective way of dealing with risk in valuation in most cases. In some sectors (commodities) and
+segments (closely held companies, illiquid stocks), using other, more complete models will be
+justified. We will return to the question of how improvements in estimating the inputs to the CAPM
+can generate far more payoff than switching to more complicated models for cost of equity.
+MODELS OF DEFAULT RISK
+The risk discussed so far in this chapter relates to cash flows on investments being different from
+expected cash flows. There are some investments, however, in which the cash flows are promised
+when the investment is made. This is the case, for instance, when you lend to a business or buy a
+corporate bond; the borrower may default on interest and principal payments on the borrowing.
+Generally speaking, borrowers with higher default risk should pay higher interest rates on their
+borrowing than those with lower default risk. This section examines the measurement of default risk
+and the relationship of default risk to interest rates on borrowing.
+In contrast to the general risk and return models for equity, which evaluate the effects of market risk
+on expected returns, models of default risk measure the consequences of firm-specific default risk on
+promised returns. While diversification can be used to explain why firm-specific risk will not be
+priced into expected returns for equities, the same rationale cannot be applied to securities that have
+limited upside potential and much greater downside potential from firm-specific events. To see what
+is meant by limited upside potential, consider investing in the bond issued by a company. The
+coupons are fixed at the time of the issue, and these coupons represent the promised cash flow on the
+bond. The best-case scenario for you as an investor is that you receive the promised cash flows; you
+are not entitled to more than these cash flows even if the company is wildly successful. All other
+scenarios contain only bad news, though in varying degrees, with the delivered cash flows being less
+than the promised cash flows. Consequently, the expected return on a corporate bond is likely to
+reflect the firm-specific default risk of the firm issuing the bond.
+Determinants of Default Risk
+The default risk of a firm is a function of two variables. The first is the firm’s capacity to generate
+cash flows from operations, and the second is its financial obligations—including interest and
+principal payments.
+5
+ Firms that generate high cash flows relative to their financial obligations should
+have lower default risk than do firms that generate low cash flows relative to obligations. Thus, firms
+with significant existing investments that generate high cash flows will have lower default risk than
+will firms that do not have such investments.

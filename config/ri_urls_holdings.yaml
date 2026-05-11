@@ -1,0 +1,319 @@
+AAPL:
+  is_holding: true
+  market: us
+  method: known
+  name: Apple
+  ri_urls:
+  - https://investor.apple.com/
+  sector: Technology
+  status: ok
+ACN:
+  is_holding: true
+  market: us
+  method: known
+  name: Accenture
+  ri_urls:
+  - https://investor.accenture.com/
+  sector: Technology
+  status: ok
+BBDC4:
+  is_holding: true
+  market: br
+  method: known
+  name: Bradesco
+  ri_urls:
+  - https://www.bradescori.com.br/
+  - https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/
+  sector: Banks
+  status: ok
+BLK:
+  is_holding: true
+  market: us
+  method: known
+  name: BlackRock
+  ri_urls:
+  - https://ir.blackrock.com/
+  sector: Financials
+  status: ok
+BN:
+  is_holding: true
+  market: us
+  method: known
+  name: Brookfield Corp
+  ri_urls:
+  - https://bn.brookfield.com/news-and-events
+  sector: Financials
+  status: ok
+BRK-B:
+  is_holding: true
+  market: us
+  method: known
+  name: Berkshire Hathaway B
+  ri_urls:
+  - https://www.berkshirehathaway.com/
+  sector: Holding
+  status: ok
+BTLG11:
+  is_holding: true
+  market: br
+  method: fii_heuristic
+  name: BTLG11
+  ri_urls:
+  - https://www.fiis.com.br/btlg11/
+  sector: Logística
+  status: ok
+BTLG12:
+  is_holding: true
+  market: br
+  method: unknown
+  name: BTG Logística 12 (residual)
+  notes: needs heuristic discovery
+  ri_urls: []
+  sector: Logística
+  status: failed
+GREK:
+  is_holding: true
+  market: us
+  method: etf
+  name: Global X MSCI Greece ETF
+  notes: ETF — no corporate RI
+  ri_urls: []
+  sector: ETF
+  status: skipped
+GS:
+  is_holding: true
+  market: us
+  method: known
+  name: Goldman Sachs
+  ri_urls:
+  - https://www.goldmansachs.com/investor-relations/
+  sector: Financials
+  status: ok
+HD:
+  is_holding: true
+  market: us
+  method: known
+  name: Home Depot
+  ri_urls:
+  - https://ir.homedepot.com/
+  sector: Consumer Disc.
+  status: ok
+ITSA4:
+  is_holding: true
+  market: br
+  method: known
+  name: Itaúsa
+  ri_urls:
+  - https://ri.itausa.com.br/
+  sector: Holding
+  status: ok
+IVVB11:
+  is_holding: true
+  market: br
+  method: etf
+  name: IVVB11
+  notes: ETF — no corporate RI
+  ri_urls: []
+  sector: ETF-US
+  status: skipped
+JNJ:
+  is_holding: true
+  market: us
+  method: known
+  name: Johnson & Johnson
+  ri_urls:
+  - https://www.investor.jnj.com/
+  sector: Healthcare
+  status: ok
+JPM:
+  is_holding: true
+  market: us
+  method: known
+  name: JPMorgan Chase
+  ri_urls:
+  - https://www.jpmorganchase.com/ir
+  - https://www.jpmorganchase.com/ir/news
+  - https://www.jpmorganchase.com/ir/quarterly-earnings
+  sector: Financials
+  status: ok
+KLBN11:
+  is_holding: true
+  market: br
+  method: known
+  name: KLBN11
+  ri_urls:
+  - https://ri.klabin.com.br/
+  sector: Materials
+  status: ok
+KO:
+  is_holding: true
+  market: us
+  method: known
+  name: Coca-Cola
+  ri_urls:
+  - https://investors.coca-colacompany.com/
+  sector: Consumer Staples
+  status: ok
+LFTB11:
+  is_holding: true
+  market: br
+  method: etf
+  name: LFTB11
+  notes: ETF — no corporate RI
+  ri_urls: []
+  sector: ETF-RF
+  status: skipped
+NU:
+  is_holding: true
+  market: us
+  method: known
+  name: Nu Holdings
+  ri_urls:
+  - https://investors.nu/
+  sector: Financials
+  status: ok
+O:
+  is_holding: true
+  market: us
+  method: known
+  name: Realty Income
+  ri_urls:
+  - https://www.realtyincome.com/investors
+  sector: REIT
+  status: ok
+PG:
+  is_holding: true
+  market: us
+  method: known
+  name: Procter & Gamble
+  ri_urls:
+  - https://www.pginvestor.com/
+  sector: Consumer Staples
+  status: ok
+PLD:
+  is_holding: true
+  market: us
+  method: known
+  name: Prologis
+  ri_urls:
+  - https://ir.prologis.com/
+  sector: REIT
+  status: ok
+PLTR:
+  is_holding: true
+  market: us
+  method: known
+  name: Palantir
+  ri_urls:
+  - https://investors.palantir.com/
+  sector: Technology
+  status: ok
+PRIO3:
+  is_holding: true
+  market: br
+  method: known
+  name: PRIO3
+  ri_urls:
+  - https://ri.prio3.com.br/
+  - https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/
+  sector: Oil & Gas
+  status: ok
+PVBI11:
+  is_holding: true
+  market: br
+  method: fii_heuristic
+  name: PVBI11
+  ri_urls:
+  - https://www.fiis.com.br/pvbi11/
+  sector: Corporativo
+  status: ok
+RBRX11:
+  is_holding: true
+  market: br
+  method: fii_heuristic
+  name: RBRX11
+  ri_urls:
+  - https://www.fiis.com.br/rbrx11/
+  sector: Híbrido
+  status: ok
+TEN:
+  is_holding: true
+  market: us
+  method: known
+  name: Tsakos Energy Navig.
+  ri_urls:
+  - https://investors.tsakoshellenicgroup.com/
+  sector: Energy
+  status: ok
+TFC:
+  is_holding: true
+  market: us
+  method: known
+  name: Truist Financial
+  ri_urls:
+  - https://ir.truist.com/
+  sector: Financials
+  status: ok
+TSLA:
+  is_holding: true
+  market: us
+  method: known
+  name: Tesla
+  ri_urls:
+  - https://ir.tesla.com/
+  sector: Consumer Disc.
+  status: ok
+TSM:
+  is_holding: true
+  market: us
+  method: known
+  name: Taiwan Semiconductor
+  ri_urls:
+  - https://investor.tsmc.com/english
+  sector: Technology
+  status: ok
+TTD:
+  is_holding: true
+  market: us
+  method: known
+  name: The Trade Desk
+  ri_urls:
+  - https://investors.thetradedesk.com/
+  sector: Communication
+  status: ok
+VALE3:
+  is_holding: true
+  market: br
+  method: known
+  name: VALE3
+  ri_urls:
+  - https://vale.com/pt/investidores
+  sector: Mining
+  status: ok
+VGIR11:
+  is_holding: true
+  market: br
+  method: fii_heuristic
+  name: VGIR11
+  ri_urls:
+  - https://www.fiis.com.br/vgir11/
+  sector: Papel (CRI)
+  status: ok
+XP:
+  is_holding: true
+  market: us
+  method: known
+  name: XP Inc
+  ri_urls:
+  - https://investors.xpinc.com/
+  sector: Financials
+  status: ok
+XPML11:
+  is_holding: true
+  market: br
+  method: fii_heuristic
+  name: XPML11
+  ri_urls:
+  - https://www.fiis.com.br/xpml11/
+  sector: Shopping
+  status: ok

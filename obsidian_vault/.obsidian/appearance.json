@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Typomagical",
+  "accentColor": "#41639b",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "helena"
+  ],
+  "textFontFamily": "Garamond",
+  "interfaceFontFamily": "Garamond"
+}

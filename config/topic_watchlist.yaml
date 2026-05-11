@@ -1,0 +1,107 @@
+# Topic Watchlist — investing themes seguidos pelo sistema.
+#
+# Cada topic é um TEMA macro/sectorial/de regime sob observação contínua.
+# O scorer (analytics/topic_scorer.py) compõe um score 0-100 baseado em:
+#   - Frequência de menções no vault (research digests, dossiers, notes) últimos 14d
+#   - Recência (peso recente > peso antigo)
+#   - Cross-references (quantas holdings/sectores tocam o topic)
+#   - Optional: Tavily autoresearch boost se trending
+#
+# Mantém esta lista manual. Editar = adicionar/remover/reformular topic.
+# Re-correr `python -m analytics.topic_scorer` para regenerar scores.
+
+topics:
+
+  - id: selic_cycle
+    name: "Selic — ciclo de cortes 2026"
+    summary: >
+      Selic em 14.75% com tendência -0.25% nos últimos 6m. Foco: até onde
+      vai o corte, e quais sectores ganham (consumo, imobiliário, FIIs)
+      vs perdem (bancos, RF curta).
+    tags: [macro_br, rates, sector_rotation]
+    keywords: [selic, copom, juros, ipca, fed]
+    track_for: ["BBDC4", "ITUB4", "VBBR3", "PRIO3", "ITSA4", "HGLG11"]
+
+  - id: us_fed_cut_cycle
+    name: "Fed — late cycle, cut path"
+    summary: >
+      Curva próxima de inversão, VIX moderado, unemployment em watch.
+      Decisão: quando começa o cut, quanto até estabilizar, sectores
+      defensivos vs cíclicos.
+    tags: [macro_us, rates, recession_risk]
+    keywords: [fed, fomc, fed funds, yield curve, unrate, vix]
+    track_for: ["JNJ", "PG", "KO", "GS", "JPM", "ACN"]
+
+  - id: us_bank_earnings_recovery
+    name: "US Banks — pós-GFC, eficiência + ROTCE"
+    summary: >
+      Top-tier banks (JPM, GS, BAC) com ROTCE 17%+ vs cycle bottom 2008.
+      Fee revenue + operating leverage. Buyback yield + dividend resume.
+    tags: [sector_us, financials, banks]
+    keywords: [rotce, cet1, efficiency ratio, buyback, basel]
+    track_for: ["GS", "JPM", "BAC", "WFC", "C"]
+
+  - id: br_fiscal_risk
+    name: "Brasil — risco fiscal 2026"
+    summary: >
+      Arcabouço fiscal sob pressão; 10-year BRL elevado; câmbio volátil.
+      Implicações: bancos beneficiam de Selic alta, mas equities cíclicas
+      sofrem com fluxo estrangeiro.
+    tags: [macro_br, fiscal, fx]
+    keywords: [arcabouço, fiscal, dívida pública, ptax, brl]
+    track_for: ["BBAS3", "BBDC4", "ITUB4", "VALE3"]
+
+  - id: drip_compounders_us
+    name: "DRIP US — quality compounders"
+    summary: >
+      Aristocrats / Kings com ROE alto + buyback steady + dividendos
+      crescendo > inflação US. Núcleo da carteira US.
+    tags: [drip, quality_us, aristocrats]
+    keywords: [aristocrat, dividend king, payout, fcf yield]
+    track_for: ["JNJ", "PG", "KO", "MMM", "MCD", "PEP"]
+
+  - id: br_dividend_payers
+    name: "BR — DY > 6% sustentável"
+    summary: >
+      Empresas BR com DY ≥ 6% e payout consistente 5y+. Filtro:
+      Graham + ROE 15%+. Foco em ITSA4, ITUB4, BBDC4, VBBR3.
+    tags: [drip, quality_br, dividend_yield]
+    keywords: [dividendos, payout, dy, graham number]
+    track_for: ["ITSA4", "ITUB4", "BBDC4", "VBBR3", "VALE3"]
+
+  - id: fii_recovery_2026
+    name: "FIIs — recovery pós-Selic peak"
+    summary: >
+      FIIs com NAV discount + DY 12%+ e Selic em fase de corte. PVBI11
+      contrarian (prédio FL vazio); HGLG11 logística estável.
+    tags: [fii, real_estate_br, contrarian]
+    keywords: [fii, nav, p/vp, dy fii, escritórios, logística]
+    track_for: ["HGLG11", "PVBI11", "RBRX11", "KNRI11"]
+
+  - id: ai_infra_capex_bubble
+    name: "AI infra capex — bubble or breakout?"
+    summary: >
+      Hyperscaler capex em níveis históricos. Hyperscalers (MSFT/META/GOOGL)
+      vs picks-and-shovels (NVDA/ACN consulting). Watchlist: ACN benefício
+      directo de adoption corporativa.
+    tags: [theme_us, ai, capex]
+    keywords: [hyperscaler, capex, gpu, datacenter, llm, gen ai]
+    track_for: ["ACN", "NVDA", "MSFT", "META"]
+
+  - id: ten_distress_cycle_peak
+    name: "TEN — distress signal active"
+    summary: >
+      4 sinais de cycle peak em Abr/2026. Memo SELL pendente. NÃO
+      adicionar em nenhum cenário.
+    tags: [single_name, sell_signal, shipping]
+    keywords: [tsakos, shipping, tankers, vlcc, day rates]
+    track_for: ["TEN"]
+
+  - id: greek_etfs_tactical
+    name: "GREK / Greek equity tactical"
+    summary: >
+      Dividendos semianuais voláteis. Reclassificado DRIP → tactical.
+      Não reforçar por razão DRIP.
+    tags: [single_name, etf_us, tactical]
+    keywords: [grek, greek equity, alpha bank, opap]
+    track_for: ["GREK"]

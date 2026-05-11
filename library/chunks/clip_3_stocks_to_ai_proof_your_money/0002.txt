@@ -1,0 +1,13 @@
+ion wrapped in a membership model. Its value proposition rests on three pillars: buying goods in extreme bulk, negotiating prices competitors cannot match, and passing those savings to paying members.
+
+None of these pillars are easily disrupted by AI. An AI shopping agent can help a consumer compare prices across websites. But it can’t manufacture the supplier relationships Costco has built over decades, nor replicate its 60%-plus share of the warehouse club market. Costco's massive scale makes competitive disruption difficult — it pulls in triple the annual revenue of its closest rival, Sam's Club, and carries enormous leverage in procurement negotiations that no algorithm can simply conjure.
+
+The membership model adds another layer of insulation. With over 136 million cardholders worldwide and a membership renewal rate above 90%, Costco has one of the most loyal customer bases in retail. That loyalty is not driven by an app or a recommendation engine — it’s driven by the lived experience of walking into a warehouse and finding genuine value. That experience is inherently physical, social, and habitual.
+
+### Recurring Revenue: The Investor's Shield
+
+One of the most compelling aspects of Costco's AI-resistance is financial, not operational. Unlike traditional retailers that live and die by merchandise margins, Costco derives almost all of its profit from membership fees. The retail operation itself runs at near-breakeven by design — the fees are the business. This means even if AI agents were to nibble at some of Costco's product categories or accelerate price comparison by consumers, the revenue stream that actually moves the needle, membership fee income, is barely touched.
+
+This structure makes Costco's earnings both predictable and difficult to disintermediate. Membership revenue renews annually and behaves more like a subscription business than a retail one, providing a financial buffer that most competitors lack.
+
+### Costco Uses AI — On Its Own Terms

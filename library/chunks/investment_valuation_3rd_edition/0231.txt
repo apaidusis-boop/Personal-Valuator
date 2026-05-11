@@ -1,0 +1,22 @@
+hose of other firms in the market, it may make sense to
+stick with the standard approach of using beta to capture company risk. There are two scenarios where it does make sense
+to estimate lambdas:
+1.
+
+Emerging market companies with disproportionately large developed market exposures.
+ In almost every
+emerging market, there are a few companies that are incorporated in that market that derive the bulk of their revenues
+outside the market: Tata Consulting Services in India and Embraer in Brazil are good examples, deriving less than 10% of
+their revenues in the domestic market. For these companies, we would expect low lambdas against their local markets,
+reflecting their lighter domestic risk exposure.
+2.
+
+Developed market companies with large revenues from risky emerging markets.
+ Note that it is not revenues from
+foreign markets per se that create 
+a problem but revenues from markets that have significant political and economic risk.
+Nestle and Coca-Cola, for instance, are developed market companies that have significant revenues from Asia and Latin
+America. For these companies, we should be adjusting the cost of equity for the additional risk exposure from emerging
+market countries.
+From Betas to Cost of Equity
+Having estimated the riskless rate and the risk premium(s) in Chapter 7 and the beta(s) in this chapter,

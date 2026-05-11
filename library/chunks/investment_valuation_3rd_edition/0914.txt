@@ -1,0 +1,30 @@
+ver the outcome. The third column includes actions
+designed to create value in the long term. This is where the major strategic initiatives of the firm
+show up.
+Table 31.2
+ The Value Enhancement Chain
+
+ILLUSTRATION 31.6: 
+Value Enhancement at SAP—May
+2005
+SAP is a business software manufacturing company, headquartered in Germany. It has a well-deserved reputation for good
+management, especially when it comes to new investments; it reinvested 57.42% of its after-tax operating income back into
+the company and generated a return on capital of 19.93% in 2004. On both dimensions, it did considerably better than its
+peer group. The management is, however, extremely conservative when it comes to the use of debt and has a debt ratio of
+1.4%; its resulting cost of capital is 8.68%. In 
+Figure 31.7
+, we value the company assuming that it will continue its current
+investment policy (maintaining its reinvestment rate and return on capital from 2004 for the next five years) and its
+conservative financing policy. The value per share that we arrive at is 106.12 euros.
+Figure 31.7
+ SAP: Value with Status Quo
+How much can SAP afford to borrow? To answer this question, we estimate the cost of capital for SAP in the following
+table, at debt ratios ranging from 0 to 90%.
+6
+At a 30% debt ratio, the cost of capital is minimized at 7.95%; it is about 0.73% lower than the current cost of capital.
+If we assume that the only thing we change at SAP is the financing mix and we move the firm to its optimal debt ratio of
+30% (and the resulting lower cost of capital), the value of SAP as a company will increase. In 
+Figure 31.8
+, we show the
+restructured valuation of SAP with this change and arrive at a value of 118.50 euros per share. The value of control in the
+case of SAP is a relatively paltry 12.4 euros per share or about 12% of equity value.

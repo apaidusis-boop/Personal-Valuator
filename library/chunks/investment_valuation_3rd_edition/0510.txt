@@ -1,0 +1,30 @@
+ratio is set at 200 if it is greater than 200, to prevent outliers from having too large an influence on
+the summary statistics.
+1
+Table 18.1
+ Distribution for PE ratios—U.S. Companies in January 2011
+
+Looking at all three measures of the PE ratio, the average is consistently higher than the median,
+reflecting the fact that PE ratios can be very high numbers but cannot be less than zero. This
+asymmetry in the distributions is captured in the skewness values. The current PE ratios are also
+higher than the trailing PE ratios, which, in turn, are usually higher than the forward PE ratios,
+reflecting the fact that forward earnings are expected to be higher than trailing earnings.
+pedata.xls:
+
+This dataset on the Web summarizes price-earnings ratios and fundamentals by industry
+group in the United States for the most recent year.
+Determinants of the PE Ratio
+In Chapter 17 the fundamentals that determine multiples were extracted using a discounted cash flow
+model—an equity model like the dividend discount model for equity multiples and a firm value model
+for firm multiples. The price-earnings ratio, being an equity multiple, can be analyzed using a equity
+valuation model. In this section, the fundamentals that determine the price-earnings ratio for a high-
+growth firm are analyzed.
+Discounted Cash Flow Model Perspective on PE Ratios
+In Chapter 17 we derived the PE ratio for a stable growth firm from the stable growth dividend
+discount model:
+If the PE ratio is stated in terms of expected earnings in the next time period, this can be simplified to:
+The PE ratio is an increasing function of the payout ratio and the growth rate and a decreasing
+function of the riskiness of the firm. In fact, we can state the payout ratio as a function of the expected
+growth rate and return on equity:
+Substituting back into the equation,
+The price-earnings ratio for a high-growth firm can also be related to fundamentals. Using the two-

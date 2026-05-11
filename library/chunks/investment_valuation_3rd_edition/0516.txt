@@ -1,0 +1,37 @@
+rowth increases. For many high-growth firms that are
+viewed as both very risky and having good growth potential, reducing risk may increase value much
+more than increasing expected growth.
+eqmult.xls:
+
+This spreadsheet allows you to estimate the price-earnings ratio for a stable growth or high-
+growth firm, given its fundamentals.
+Using the PE Ratio for Comparisons
+Now that we have defined the PE ratio, looked at the cross-sectional distribution, and examined the
+fundamentals that determine the multiple, we can use PE ratios to make valuation judgments. This
+section begins by looking at how best to compare the PE ratio for a market over time and follows up
+by a comparison of PE ratios across different markets. Finally, it uses PE ratios to analyze firms
+within a sector and then expands the analysis to the entire market. In doing so, note that PE ratios vary
+across time, markets, industries, and firms because of differences in fundamentals—higher growth,
+lower risk, and higher payout generally result in higher PE ratios. When comparisons are made, you
+have to control for these differences in risk, growth rates, and payout ratios.
+Comparing a Market's PE Ratio across Time
+Analysts and market strategists often compare the PE ratio of a market to its historical average to
+make judgments about whether the market is under- or overvalued. Thus a market that is trading at a
+PE ratio is much higher than its historical norms is often considered to be overvalued, whereas one
+that is trading at a ratio lower than its historical norms is considered undervalued.
+While reversion to historic norms remains a very strong force in financial markets, you should be
+cautious about drawing too strong a conclusion from such comparisons. As the fundamentals (interest
+rates, risk premiums, expected growth, and payout) change over time, the PE ratio will also change.
+Other things remaining equal, for instance, you would expect the following:
+An increase in interest rates should result in a higher cost of equity for the market and a
+lower PE ratio.
+A greater willingness to take risk on the part of investors will result in a lower risk
+premium for equity and a higher PE ratio across all stocks.
+An increase in expected growth in earnings across firms will result in a higher PE ratio for
+the market.
+An increase in the return on equity at firms will result in a higher payout ratio for any given
+growth rate [g = (1 – Payout ratio)ROE] and a higher PE ratio for all firms.
+In other words, it is difficult to draw conclusions about PE ratios without looking at these
+fundamentals. A more appropriate comparison is therefore not between PE ratios across time, but
+between the actual PE ratio and the predicted PE ratio based on fundamentals existing at that time.
+ILLUSTRATION 18.3: PE Ratios across Time

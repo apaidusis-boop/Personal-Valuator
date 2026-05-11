@@ -1,0 +1,62 @@
+you expect it to
+be halved after the sixth year. If the cost of capital for the firm is expected to be 10% in
+perpetuity, estimate the terminal value for the firm. (The tax rate for the firm is 40%.)
+
+3.
+ Lamps Galore Inc. manufactures table lamps and earns an after-tax return on capital of 15% on
+its current capital invested (which is $100 million). You expect the firm to reinvest 80% of its
+after-tax operating income back into the business for the next four years and 30% thereafter (the
+stable growth period). The cost of capital for the firm is 9%.
+a.
+ Estimate the terminal value for the firm (at the end of the fourth year).
+b.
+ If you expect the after-tax return on capital to drop to 9% after the fourth year, what would
+your estimate of terminal value be?
+4.
+ Bevan Real Estate Inc. is a real estate holding company with four properties. You estimate that
+the income from these properties, which is currently $50 million after taxes, will grow 8% a year
+for the next 10 years and 3% thereafter. The current market value of the properties is $500
+million, and you expect this value to appreciate at 3% a year for the next 10 years.
+a.
+ Estimate the terminal value of the properties, based on the current market value and the
+expected appreciation rate in property values.
+b.
+ Assuming that your projections of income growth are right, what is the terminal value as a
+multiple of after-tax operating income in the tenth year?
+c.
+ If you assume that no reinvestment is needed after the tenth year, estimate the cost of capital
+that you are implicitly assuming with your estimate of the terminal value.
+5.
+ Latin Beats Corporation is a firm that specializes in Spanish music and videos. In the current
+year, the firm reported $20 million in after-tax operating income, $15 million in capital
+expenditures, and $5 million in depreciation. The firm expects all three items to grow at 10% for
+the next five years. Beyond the fifth year, the firm expects to be in stable growth and grow at 4% a
+year in perpetuity. You assume that earnings, capital expenditures, and depreciation will grow at
+4% in perpetuity and that your cost of capital is 12%. (There is no working capital.)
+a.
+ Estimate the terminal value of the firm.
+b.
+ What reinvestment rate and return and capital are you implicitly assuming in perpetuity when
+you do this?
+c.
+ What would your terminal value have been if you had assumed that capital expenditures offset
+depreciation in stable growth?
+d.
+ What return on capital are you implicitly assuming in perpetuity when you set capital
+expenditures equal to depreciation?
+6.
+ Crabbe Steel owns a number of steel plants in Pennsylvania. The firm reported after-tax
+operating income of $40 million in the most recent year on capital invested of $400 million. The
+firm expects operating income to grow 7% a year for the next three years, and 3% thereafter.
+a.
+ If the firm's cost of capital is 10% and you expect the firm's current return on capital to
+continue in perpetuity, estimate the value at the end of the third year.
+b.
+ If you expect operating income to stay fixed after year 3 (what you earn in year 3 is what you
+will earn every year thereafter), estimate the terminal value.
+c.
+ If you expect operating income to drop 5% a year in perpetuity after year 3, estimate the
+terminal value.
+7.
+ How would your answers to the preceding problem change if you were told that the cost of
+capital for the firm is 8%?

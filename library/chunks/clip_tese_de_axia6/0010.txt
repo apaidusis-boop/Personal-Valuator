@@ -1,0 +1,19 @@
+os projetos estejam prontos para energização, levando em conta as etapas de homologação dos resultados do leilão, licenciamento ambiental e construção. Os contratos são de longo prazo e duram 30 anos.
+
+A remuneração que as transmissoras recebem pela prestação do serviço aos usuários é chamada de Receita Anual Permitida (RAP). Assim, a RAP é obtida com o resultado do próprio leilão de transmissão (ganha a companhia que aceitar receber a menor RAP para um ativo) e é paga às companhias a partir do momento que a operação começa a funcionar.
+
+O recebimento da RAP provém da disponibilidade do serviço, e não do volume transportado de energia. Então, o risco de volume é nulo, o que torna a receita desse segmento muito previsível. Além disso, as receitas são reajustadas anualmente pela inflação. Os reajustes podem ser feitos pelo IGP-M ou pelo IPCA.
+
+O segmento ainda tem a característica de não demandar muito investimento para manter a linha de transmissão em operação após a sua construção. Isso é ótimo para a geração de caixa e implica um risco operacional baixo.
+
+Visto que a prestação de serviço é regulada e não há concorrência entre empreendimentos operacionais, a competição na Transmissão acontece no momento das licitações das concessões, quando as empresas competem pela implantação das linhas e vence quem se dispuser a construir o projeto aceitando a menor receita.
+
+Nos últimos 10 anos, a extensão das linhas das transmissoras evoluiu com um crescimento anual composto de 4,4%, enquanto a RAP total cresceu 16,4% entre os ciclos:
+
+**Extensão das linhas de transmissão no Brasil (mil km)** — *Fonte: ONS e Aneel.*
+
+**Evolução da Receita Anual Permitida (R$ bilhões)** — *Fonte: ONS e Aneel.*
+
+Abaixo, apresentamos as principais projeções para a extensão das linhas de transmissão e novos investimentos em implementação de projetos no segmento:
+
+**Projeção da extensão das linhas de transmissão (mil km)** — *Fonte: PDE 2032.*

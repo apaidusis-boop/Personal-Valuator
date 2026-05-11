@@ -1,0 +1,74 @@
+{
+  "us": {
+    "fair_value_confidence": {
+      "cross_validated": 13,
+      "disputed": 1,
+      "single_source": 10
+    },
+    "provenance_rows": 16,
+    "data_confidence": "no_table",
+    "fundamental_nulls": {
+      "pe": 38,
+      "pb": 33,
+      "dy": 85,
+      "roe": 107,
+      "eps": 17,
+      "bvps": 17,
+      "dividend_streak_years": 15
+    },
+    "fundamental_nonnulls": {
+      "pe": 1388,
+      "pb": 1393,
+      "dy": 1341,
+      "roe": 1319,
+      "eps": 1409,
+      "bvps": 1409,
+      "dividend_streak_years": 1411
+    },
+    "events_total": 4599,
+    "events_last_90d": 168,
+    "streak_stats": {
+      "min": 0,
+      "max": 65,
+      "median": 40,
+      "n_25plus": 1162
+    }
+  },
+  "br": {
+    "fair_value_confidence": {
+      "null": 1,
+      "cross_validated": 11,
+      "disputed": 3,
+      "single_source": 11
+    },
+    "provenance_rows": 1,
+    "data_confidence": "no_table",
+    "fundamental_nulls": {
+      "pe": 133,
+      "pb": 223,
+      "dy": 53,
+      "roe": 242,
+      "eps": 72,
+      "bvps": 223,
+      "dividend_streak_years": 18
+    },
+    "fundamental_nonnulls": {
+      "pe": 906,
+      "pb": 816,
+      "dy": 986,
+      "roe": 797,
+      "eps": 967,
+      "bvps": 816,
+      "dividend_streak_years": 1021
+    },
+    "events_total": 357,
+    "events_last_90d": 279,
+    "streak_stats": {
+      "min": 1,
+      "max": 20,
+      "median": 6,
+      "n_25plus": 0
+    }
+  },
+  "computed_at": "2026-05-09T08:57:49"
+}

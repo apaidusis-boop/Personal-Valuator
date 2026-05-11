@@ -1,0 +1,7 @@
+the debt outstanding ($11,859 million)
+and the cash balance ($4,979 million) yields 
+an actual enterprise value of:
+The company looks overvalued, based on our assumptions, by about 23%.
+firmmult.xls:
+
+This spreadsheet allows you to estimate the value-to-sales ratio for a stable-growth or

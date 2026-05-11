@@ -1,0 +1,35 @@
+u will tend to find that:
+The relationship between growth and PEG ratios is a volatile one. Initially, as growth
+increases, PEG ratios decrease, but at some point the relationship reverses itself. Put
+
+differently, firms with very low or very high growth rates will have higher PEG ratios than
+firms whose growth rates fall in the middle. (See 
+Figure 18.8
+.)
+Higher-risk firms will have lower PEG ratios and look more undervalued than lower-risk
+firms, because PEG ratios tend to decrease as a firm's risk increases (see 
+Figure 18.9
+).
+Firms with lower returns on equity (or lower payout ratios) will have lower PEG ratios and
+look more undervalued than firms with higher returns on equity and higher payout ratios (see
+Figure 18.10
+).
+In short, firms that look undervalued based on direct comparison of the PEG ratios may in fact be
+firms with higher risk or lower returns on equity that are, in fact, correctly valued.
+Controlled Comparisons
+When comparing PEG ratios across firms, then, it is important that you control for differences in risk,
+growth, and payout ratios when making the comparison. While you can attempt to do this subjectively,
+the complicated relationship between PEG ratios and these fundamentals can pose a challenge. A far
+more promising route is to use the regression approach suggested for PE ratios, and to relate the PEG
+ratios of the firms being compared to measures of risk, growth potential, and the payout ratio.
+As with the PE ratio, the comparable firms in this analysis can be defined narrowly (as other firms
+that look just like the firm you are valuing), more expansively as firms in the same sector, or as all
+firms in the market. In running these regressions, all the caveats that were presented for the PE
+regression continue to apply. The independent variables continue to be correlated with each other,
+and the relationship is both unstable and likely to be nonlinear. In fact, 
+Figure 18.11
+, which provides
+a scatter plot of PEG ratios against growth rates for all U.S. stocks in July 2000, indicates the degree
+of nonlinearity.
+Figure 18.11
+ PEG Ratios versus Expected Growth Rates—January 2011

@@ -1,0 +1,42 @@
+to be some substitution among the stocks. Thus investor 1 sells stock A
+and investor 2 sells stock B, but when it comes time to buy back the stock, investor 1 buys stock B
+and investor 2 buys stock A.
+
+CHAPTER 7
+Riskless Rates and Risk Premiums
+All models of risk and return in finance are built around a rate that investors can make on riskless
+investments and the risk premium or premiums that investors should charge for investing in the
+average-risk investment. In the capital asset pricing model (CAPM), where there is only one source
+of market risk captured in the market portfolio, this risk premium becomes the premium that investors
+would demand when investing in that portfolio. In multifactor models, there are multiple risk
+premiums, each one measuring the premium demanded by investors for exposure to a specific market
+risk factor. This chapter examines how best to measure a riskless rate and to estimate a risk premium
+or premiums for use in these models.
+As noted in Chapter 4, risk is measured in terms of default risk for bonds, and this default risk is
+captured in a default spread that firms have to pay over and above the riskless rate. This chapter
+closes by considering how best to estimate these default spreads and the factors that may cause these
+spreads to change over time.
+THE RISK-FREE RATE
+Most risk and return models in finance start off with an asset that is defined as risk free, and use the
+expected return on that asset as the risk-free rate. The expected returns on risky investments are then
+measured relative to the risk-free rate, with the risk creating an expected risk premium that is added
+to the risk-free rate. But what makes an asset risk free? And what do we do when we cannot find such
+an asset? These are the questions that will be dealt with in this section.
+Requirements for an Asset to Be Risk Free
+Chapter 4 considers some of the requirements for an asset to be risk free. In particular, an asset is risk
+free if we know the expected returns on it with certainty (i.e., the actual return is always equal to the
+expected return). Under what conditions will the actual returns on an investment be equal to the
+expected returns? There are two basic conditions that have to be met. The first is that 
+there can be no
+default risk
+. Essentially, this rules out any security issued by a private entity, since even the largest
+and safest ones have some measure of default risk. The only securities that have a chance of being
+risk free are government securities, not because governments are better run than corporations, but
+because they usually control the printing of currency. At least in nominal terms, they should be able to
+fulfill their promises. Even this assumption, straightforward though it might seem, does not always
+hold up, especially when governments refuse to honor claims made by previous regimes and when
+they borrow in currencies other than their own.
+There is a second condition that riskless securities need to fulfill that is often forgotten. For an
+investment to have an actual return equal to its expected return, 
+there can be no reinvestment risk.
+ To

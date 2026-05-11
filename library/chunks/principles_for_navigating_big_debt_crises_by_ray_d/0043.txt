@@ -1,0 +1,52 @@
+erstand the different kinds of monetary policies that can be used throughout a deleveraging, I think of 
+them as coming in three different styles, each with its own effects on the economy and markets.
+
+Part 1: The Archetypal Big Debt Cycle 
+36
+Monetary Policy 1
+Interest-rate driven monetary policy (which I’ll call Monetary Policy 1) is the most effective because it has 
+the broadest impact on the economy. When central banks reduce interest rates, they stimulate the economy by a) 
+producing a positive wealth effect (because the lower interest rate raises the present value of most investments); b) 
+making it easier to buy items on credit (because the monthly payments decline), raising demand—especially for 
+interest-rate-sensitive items like durable goods and housing; and c) reducing debt-service burdens (which improves 
+cash flows and spending). MP1 is typically the first approach to a debt crisis, but when short-term interest rates hit 
+around 0 percent, it no longer works effectively, so central banks must go to the second type. 
+Monetary Policy 2
+“Quantitative easing” (QE) as it is now called (i.e., “printing money” and buying financial assets, typically 
+debt assets), is Monetary Policy 2. It works by affecting the behavior of investors/savers as opposed to borrowers/
+spenders, because it is driven by purchases of financial assets, typically debt assets that impact investors/savers the 
+most. When the central bank buys a bond, it gives investors/savers cash, which they typically use to buy another 
+financial asset that they think is more attractive. What they do with that money and credit makes all the difference 
+in the world. When they invest in the sort of assets that finance spending, that stimulates the economy. When they 
+invest in those that don’t (such as financial assets), there must be very large market gains before any money trickles 
+down into spending—and that spending comes more from those who have enjoyed the market gains than from 
+those who haven’t. In other words, QE certainly benefits investors/savers (i.e., those who own financial assets) much 
+more than people who don’t, thus widening the wealth gap. 
+While MP2 is generally less effective than interest-rate changes, it is most effective when risk and liquidity 
+premiums are large, because it causes those premiums to fall. When risk premiums are large, and money is added 
+to the system, actual risks are reduced at the same time that there is more money seeking returns, which triggers 
+purchases of riskier assets that are offering higher expected returns, driving their prices up and producing a 
+positive wealth effect. 
+But over time, the use of QE to stimulate the economy declines in effectiveness because risk premiums are pushed 
+down and asset prices are pushed up to levels beyond which they are difficult to push further, and the wealth 
+effect diminishes. In other words, at higher prices and lower expected returns, the compensation for taking 
+risk becomes too small to get investors to bid prices up, which would drive prospective returns down further. 
+In fact, the reward-to-risk ratio could make those who are long a lot of assets view that terribly returning asset 
+called cash as more appealing. As a result, QE becomes less and less effective. If they provide QE and private 
+credit growth doesn’t pick up, policy makers feel like they are pushing on a string.
+At this stage, policy makers sometimes monetize debt in even larger quantities in an attempt to compensate for its 
+declining effectiveness. While this can help for a bit, there is a real risk that prolonged monetization will lead 
+people to question the currency’s suitability as a store hold of value. This can lead them to start moving to 
+alternative currencies, such as gold. The fundamental economic challenge most economies have in this phase is 
+that the claims on purchasing power are greater than the abilities to meet them. 
+Think of it this way: There are only goods and services. Financial assets are claims on them. In other words, holders 
+of investments/assets (i.e., capitalists-investors) believe that they can convert their holdings into purchasing power to 
+get goods and services. At the same time, workers expect to be able to exchange a unit’s worth of their contribu -
+tion to the production of goods and services into buying power for goods and services. But since debt/money/
+currency have no intrinsic value, the claims on them are greater than the value of what they are supposed to be 
+able to buy, so they have to be devalued or restructured. In other words, when there are too many debt liabilities/
+assets, they either have to be reduced via debt restructurings or monetized. Policy makers tend to use monetization 
+at this stage primarily because it is stimulative rather than contractionary. But monetization simply swaps one IOU 
+(debt) for another (newly printed money). The situation is analogous to a Ponzi scheme. Since there aren’t enough 
+goods and services likely to be produced to back up all the IOUs, there’s a worry that people may not be willing to 
+work in return for IOUs forever.

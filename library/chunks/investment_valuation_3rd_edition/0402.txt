@@ -1,0 +1,50 @@
+the levered beta equation that we
+introduced in Chapter 8 the levered beta is:
+This, in turn, will have a negative effect on equity value. The net effect on value will then depend on which effect—the
+
+increase in cash flows or the increase in betas—dominates.
+A TROUBLESHOOTING GUIDE: WHAT IS WRONG
+WITH THIS VALUATION? (CONSTANT GROWTH
+FCFE MODEL)
+If This Is Your Problem
+This May Be the Solution
+If you get a low value from this model, it may be because:
+Capital expenditures are too high relative to depreciation.
+Use a smaller cap ex or use the two- stage model.
+Working capital as a percent of revenues is too high.
+Normalize this ratio, using historical averages.
+The beta is high for a stable firm.
+Use a beta closer to 1.
+If you get too high a value, it is because:
+Capital expenditures are lower than depreciation.
+Estimate an appropriate reinvestment rate = g/ROE.
+Working capital ratio as percent of revenue is negative.
+Set equal to zero.
+The expected growth rate is too high for a stable firm.
+Use a growth rate less than or equal to GNP growth (risk-free rate).
+Two-Stage FCFE Model
+The two-stage FCFE model is designed to value a firm that is expected to grow much faster than a
+stable firm in the initial period and at a stable rate after that.
+The Model
+The value of any stock is the present value of the FCFE per year for the extraordinary growth period
+plus the present value of the terminal price at the end of the period.
+where FCFE
+t
+ = Free cash flow to equity in year t 
+P
+n
+ = Price at the end of the extraordinary growth period 
+k
+e
+ = Cost of equity in high growth (hg) and stable growth (st) periods
+The terminal price is generally calculated using the infinite growth rate model:
+where g
+n
+ = Growth rate after the terminal year forever
+Calculating the Terminal Price
+The same caveats that apply to the growth rate for the stable growth rate model, described in the
+previous section, apply here as well. In addition, the assumptions made to derive the free cash flow
+to equity after the terminal year have to be consistent with this assumption of stability. For instance,
+while capital spending may be much greater than depreciation in the initial high-growth phase, the
+difference should narrow as the firm enters its stable growth phase. We can use the two approaches
+described for the stable growth model—industry average capital expenditure requirements or the

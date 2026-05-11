@@ -1,0 +1,50 @@
+n exporter a country is. It looks at the absolute level of a 
+country’s exports as a share of the world. China scores highest (being the largest exporter in the world), 
+followed by Europe and the US.
+
+COUNTRY POWER INDEX 2022
+55
+	■  Military Strength:  This gauge is driven mostly by the absolute share of military spending and strength 
+measured by the number of personnel, the number of nuclear weapons, and external indices of military 
+capabilities. It does not look at military powers in varying regions or of various types, failing to capture 
+some military superiorities Russia and China have in certain geographic areas, certain types of military 
+technologies, or the role of alliances. The US is still the strongest overall military power based on these 
+measures, with a strong lead in spending and a nuclear weapons program that is only rivaled by Russia. 
+China is now ranked second and is rising quickly.
+	■  Financial Center:  This gauge measures the level of development and sizes of a country’s financial 
+markets and financial center. We look at absolute measures of transaction shares and market capitaliza-
+tions, as well as external indices of financial center cities. The US remains the top-ranked power in this 
+metric by a significant margin (driven primarily by its very large share of world equity and debt mar -
+kets), with China and Europe ranking second and third, respectively.
+	■  Reserve Currency Status: This gauge measures the extent to which a country’s currency operates as 
+a global reserve currency. We measure reserve currency status by the share of transactions, debts, and 
+central bank reserves that are denominated or held in a country’s currency. Similar to financial center 
+status, the US remains the top-ranked power in this metric by a significant margin, with Europe and 
+Japan ranking second and third, respectively.
+	■  Debt Burden (Big Economic Cycle): This gauge is based on a combination of a) debt levels relative 
+to asset levels, b) the sizes of external and internal surpluses and deficits, c) the sizes of debt service 
+costs relative to GDP, d) the amount of debt in a country’s own currency versus foreign currency, e) 
+the amount of debt held by its own citizens versus foreigners, and f) its credit rating. We composed it 
+this way because it has proven itself to be the most reliable way we have of foreshadowing declines in 
+the value of real wealth, whether they come in the form of debt defaults that result from not creating 
+enough money and credit to satisfy excessive debt needs or devaluations that come from creating more 
+than enough money and credit to satisfy excessive debt needs. I constructed this index to exclude re -
+serve currency status so that I could see the exposure a country would have if it lost its reserve currency 
+status.
+	■  Internal Conflict (Internal Order): This gauge looks at how much domestic conflict and discontent 
+there is. It measures actual conflict events (e.g., protests), political conflict (e.g., partisanship), and 
+general discontent (based on surveys). The US ranks highest in this gauge among the major countries, 
+driven by measures of partisanship and higher incidence of internal conflict events, and it has been ris -
+ing fast.
+	■  Governance/Rule of Law: This gauge measures the extent to which a country’s legal system is consis-
+tent, predictable, and conducive to growth and advancement. It combines rule of law measures (based 
+primarily on business surveys of doing business in the country) and corruption measures (via a combi -
+nation of external corruption indices and surveys of businesses). Russia and India score lowest (worst) 
+on the gauge, while the UK, the Netherlands, and Japan score highest (best), with Germany and the 
+US close behind.
+	■  Geology: This gauge measures each country’s geographic endowment, including land size and the 
+value of its natural resources. It includes the total production of energy, agriculture, and industrial met -
+als in order to capture the absolute production capacity of each nation, as well as net exports to capture 
+relative self-reliance for each of the categories (in addition to measuring some other natural resources 
+like freshwater supply). Russia and the US score highest (followed by China, which relies more on the 
+rest of the world to cover its natural resource needs), while Japan and the UK score lowest.

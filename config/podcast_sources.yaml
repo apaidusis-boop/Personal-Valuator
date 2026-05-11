@@ -1,0 +1,342 @@
+# podcast_sources.yaml — feeds RSS de podcasts financeiros / morning calls.
+#
+# Lido por scripts/pod_poll.py (q4h tier).
+#
+# CURADORIA: founder list 2026-05-08 ("If I Only Had 10" + Spotify subscribed).
+# URLs canónicos via Apple Podcasts iTunes lookup. Todos validados 2026-05-08.
+#
+# Spotify-exclusivos NÃO funcionam — sem RSS pública. Brazil Journal Podcasts
+# parece ser Spotify-only por agora; a adicionar quando o feed for descoberto.
+
+feeds:
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇧🇷 BR — Morning Calls + Top Brasileiros
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "Morning Call - BTG Pactual"
+    rss: "https://anchor.fm/s/488b72a0/podcast/rss"
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, sell_side, institutional]
+    cadence_hint: "daily_weekday"
+    notes: >
+      Daily pré-abertura. Founder's "If I Only Had 10". Versão áudio do canal
+      YouTube BTG Pactual (que já está em youtube_sources.yaml). Mantém ambos
+      — o áudio costuma sair antes do upload YouTube.
+
+  - name: "Morning Call XP"
+    rss: "https://www.spreaker.com/show/3668124/episodes/feed"
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, sell_side]
+    cadence_hint: "daily_weekday"
+    notes: "Founder's If-I-Only-Had-10. ~10min. XP research time, pré-abertura."
+
+  - name: "Stock Pickers"
+    rss: "https://www.spreaker.com/show/3498535/episodes/feed"
+    lang: pt
+    priority: high
+    market: br
+    tags: [interviews, gestores, podcast, deep_dive]
+    cadence_hint: "weekly"
+    notes: >
+      InfoMoney + Lucas Collazo. Entrevistas com CIOs/PMs, deep conversations.
+      Founder's If-I-Only-Had-10. Mais longo (~60-90min) — alta densidade.
+
+  - name: "Market Makers"
+    rss: "https://anchor.fm/s/1079b34c8/podcast/rss"
+    lang: pt
+    priority: high
+    market: br
+    tags: [interviews, hedge_fund, macro]
+    cadence_hint: "weekly"
+    notes: "Founder's If-I-Only-Had-10. Hedge-fund/operator energy."
+
+  - name: "Bloomberg Daybreak Brasil"
+    rss: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4fa3835f-a739-4c25-8c62-b1e000fd5365/fc60df3e-d56e-466f-a655-b1e000fd5386/podcast.rss"
+    lang: pt
+    priority: high
+    market: br
+    tags: [morning_call, news, market_open]
+    cadence_hint: "daily_weekday"
+    notes: "Bloomberg vintage para BR. Founder Spotify subscribed."
+
+  - name: "Fernando Ulrich"
+    rss: "https://anchor.fm/s/1c376a88/podcast/rss"
+    lang: pt
+    priority: medium
+    market: br
+    tags: [macro, hard_money, bitcoin]
+    cadence_hint: "weekly"
+    notes: "Founder Spotify subscribed. Macro austríaca + hard money + BTC."
+
+  - name: "Empiricus Podcasts"
+    rss: "https://www.spreaker.com/show/4515775/episodes/feed"
+    lang: pt
+    priority: medium
+    market: br
+    tags: [macro, equity_research, sell_side]
+    cadence_hint: "weekly"
+    notes: >
+      Felipe Miranda + analistas Empiricus. ~5/sem. Encontrado 2026-05-08
+      ao buscar Brazil Journal — bonus pickup.
+
+  # Brazil Journal Podcasts: Spotify-exclusivo / não tem RSS pública.
+  # Búsqueda Apple Podcasts 2026-05-08 retornou 0 hits para "Brazil Journal".
+  # Para integrar precisaríamos browser automation Spotify (out of scope).
+  # Se BJ ativar feed público, add aqui.
+  # - name: "Brazil Journal Podcasts"
+  #   rss: "TBD — Spotify-only"
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇺🇸 US — Daily Morning Briefings (founder Spotify subscribed)
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "WSJ — What's News"
+    rss: "https://video-api.wsj.com/podcast/rss/wsj/whats-news"
+    lang: en
+    priority: high
+    market: us
+    tags: [morning_call, news]
+    cadence_hint: "twice_daily"
+    notes: >
+      AM ~6:00 ET, PM ~17:00 ET. Founder pediu este especificamente
+      (NÃO o Minute Briefing curtinho).
+
+  - name: "FT News Briefing"
+    rss: "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf"
+    lang: en
+    priority: high
+    market: us
+    tags: [morning_call, news]
+    cadence_hint: "daily_weekday"
+    notes: "Founder's If-I-Only-Had-10. Briefing pré-mercado London (~7min)."
+
+  - name: "Bloomberg Daybreak: US Edition"
+    rss: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/podcast.rss"
+    lang: en
+    priority: high
+    market: us
+    tags: [morning_call, news, market_open]
+    cadence_hint: "daily_weekday"
+    notes: "Pré-mercado US (~30min). Founder Spotify subscribed."
+
+  - name: "Bloomberg Daybreak: Europe Edition"
+    rss: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/c1b39a51-1327-40f8-ae83-af80014e0b5c/8a433f03-1a96-430e-a3d0-af80014e0b7d/podcast.rss"
+    lang: en
+    priority: medium
+    market: us
+    tags: [morning_call, news, london_open]
+    cadence_hint: "daily_weekday"
+    notes: "Founder Spotify subscribed. Pré-London open."
+
+  - name: "Bloomberg Surveillance"
+    rss: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/9739700c-72c3-4176-ae55-ae27003e2b96/podcast.rss"
+    lang: en
+    priority: high
+    market: us
+    tags: [macro, news, deep_dive]
+    cadence_hint: "daily_weekday"
+    notes: "Founder's If-I-Only-Had-10. Tom Keene, mandatory listening macro."
+
+  - name: "Reuters Morning Bid"
+    rss: "https://feeds.megaphone.fm/THRH7907651499"
+    lang: en
+    priority: medium
+    market: us
+    tags: [morning_call, news, daily]
+    cadence_hint: "daily_weekday"
+    notes: >
+      Founder Spotify subscribed (substituição: ANTES era Reuters World News
+      no YAML, agora é o Morning Bid que ele realmente segue).
+
+  - name: "Schwab Market Update Audio"
+    rss: "https://feeds.schwab.com/schwabmarketupdate"
+    lang: en
+    priority: medium
+    market: us
+    tags: [morning_call, market_commentary]
+    cadence_hint: "daily_weekday"
+    notes: >
+      Founder Spotify subscribed (substituição: ANTES era Schwab On Investing
+      weekly, agora é o daily Market Update).
+
+  - name: "Morning Brew Daily"
+    rss: "https://feeds.megaphone.fm/MOBI8777994188"
+    lang: en
+    priority: medium
+    market: us
+    tags: [news, morning_call]
+    cadence_hint: "daily_weekday"
+    notes: "Founder Spotify subscribed. Versão áudio do show YouTube."
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇺🇸 US — Investing Deep-Dive (founder's "If I Only Had 10")
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "Odd Lots"
+    rss: "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss"
+    lang: en
+    priority: high
+    market: us
+    tags: [macro, deep_dive, niche_topics]
+    cadence_hint: "twice_weekly"
+    notes: "Founder's If-I-Only-Had-10. Joe Weisenthal + Tracy Alloway."
+
+  - name: "Invest Like the Best"
+    rss: "https://feeds.megaphone.fm/CLS2859450455"
+    lang: en
+    priority: high
+    market: us
+    tags: [interviews, investors, deep_dive]
+    cadence_hint: "weekly"
+    notes: "Founder's If-I-Only-Had-10. Patrick O'Shaughnessy. Elite guests."
+
+  - name: "Acquired"
+    rss: "https://feeds.transistor.fm/acquired"
+    lang: en
+    priority: high
+    market: us
+    tags: [business_history, deep_dive, company_analysis]
+    cadence_hint: "biweekly"
+    notes: >
+      Founder's If-I-Only-Had-10. Ben Gilbert + David Rosenthal. Episódios
+      de 3-4h sobre business histories — alta densidade.
+
+  # ════════════════════════════════════════════════════════════════
+  # 🇺🇸 US — Spotify subscribed (medium tier)
+  # ════════════════════════════════════════════════════════════════
+
+  - name: "Barron's Streetwise"
+    rss: "https://video-api.barrons.com/podcast/rss/barrons/streetwise?partner=itunes"
+    lang: en
+    priority: medium
+    market: us
+    tags: [equity_research, value_investing]
+    cadence_hint: "weekly"
+    notes: "Founder Spotify subscribed. Jack Hough + Streetwise crew."
+
+  - name: "Motley Fool Money"
+    rss: "https://www.omnycontent.com/d/playlist/820f09cf-2ace-4180-a92d-aa4c0008f5fb/c1c22a03-f4e2-49e4-9eff-abb2003ac099/25111702-47b4-423f-9d57-abb2003ac0a7/podcast.rss"
+    lang: en
+    priority: medium
+    market: us
+    tags: [equity_research, retail_friendly]
+    cadence_hint: "daily_weekday"
+    notes: "Founder Spotify subscribed."
+
+  # ════════════════════════════════════════════════════════════════
+  # OPCIONAIS — descomentar após founder validar
+  # (não consome quota até estar activo)
+  # ════════════════════════════════════════════════════════════════
+
+  # - name: "The Intelligence from The Economist"
+  #   rss: "https://access.acast.com/rss/d556eb54-6160-4c85-95f4-47d9f5216c49"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [macro, edu, geopolitics]
+  #   cadence_hint: "daily_weekday"
+
+  # - name: "The Compound and Friends"
+  #   rss: "https://feeds.megaphone.fm/TCP4771071679"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [markets_discussion]
+  #   cadence_hint: "weekly"
+
+  # - name: "Animal Spirits Podcast"
+  #   rss: "https://feeds.megaphone.fm/TCP6464651487"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [markets, behavioral]
+  #   cadence_hint: "twice_weekly"
+
+  # - name: "Macro Voices"
+  #   rss: "https://feed.podbean.com/macrovoices/feed.xml"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [macro, deep_dive]
+  #   cadence_hint: "weekly"
+
+  # - name: "Forward Guidance"
+  #   rss: "https://feeds.megaphone.fm/forwardguidance"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [macro, fed, liquidity]
+  #   cadence_hint: "weekly"
+
+  # - name: "The Journal"
+  #   rss: "https://video-api.wsj.com/podcast/rss/wsj/the-journal"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [longform, business_storytelling]
+  #   cadence_hint: "daily_weekday"
+  #   notes: "Long-form WSJ — complementa What's News mais curto"
+
+  # - name: "Rational Reminder"
+  #   rss: "https://rss.libsyn.com/shows/127327/destinations/763774.xml"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [evidence_based, edu]
+  #   cadence_hint: "weekly"
+
+  # - name: "Prof G Markets"
+  #   rss: "https://feeds.megaphone.fm/profgmarkets"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [markets, business]
+  #   cadence_hint: "weekly"
+
+  # - name: "All-In Podcast"
+  #   rss: "https://rss.libsyn.com/shows/254861/destinations/1928300.xml"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [tech, venture, macro, politics]
+  #   cadence_hint: "weekly"
+
+  # - name: "Schwab — On Investing"
+  #   rss: "https://feeds.schwab.com/oninvesting"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [edu, market_commentary]
+  #   cadence_hint: "weekly"
+  #   notes: "Liz Ann Sonders + Kathy Jones. Weekly recap."
+
+  # - name: "Schwab — WashingtonWise"
+  #   rss: "https://feeds.schwab.com/washingtonwise"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [policy, regulation]
+  #   cadence_hint: "biweekly"
+
+  # - name: "Reuters World News"
+  #   rss: "https://feeds.megaphone.fm/reutersworldnews"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [news, daily, geopolitics]
+  #   cadence_hint: "daily_weekday"
+  #   notes: "Diferente do Morning Bid — geral; reactivar se quiser cobertura macro mais ampla."
+
+  # - name: "WSJ — Minute Briefing"
+  #   rss: "https://video-api.wsj.com/podcast/rss/wsj/minute-briefing"
+  #   lang: en
+  #   priority: low
+  #   market: us
+  #   tags: [headlines, ultra_short]
+  #   cadence_hint: "multiple_daily"
+  #   notes: "~2-3min headlines, várias edições/dia. Founder removeu — preferência por What's News."

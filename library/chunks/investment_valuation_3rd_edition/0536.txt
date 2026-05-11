@@ -1,0 +1,50 @@
+E ratio of 0.57, the firm remains significantly undervalued.
+Mreg.xls:
+
+This dataset on the Web summarizes the results of the most recent regression of PEG ratios
+against fundamentals for U.S. stocks.
+
+WHOSE GROWTH RATE?
+In computing PEG ratios, we are often faced with the question of whose growth rate we will use in estimating the PEG
+ratios. If the number of firms in the sample is small, you could estimate expected growth for each firm yourself. If the
+number of firms increases, you will have no choice but to use analyst estimates of expected growth for the firms. Will this
+expose your analyses to all of the biases in these estimates? Not necessarily. If the bias is uniform—for instance, analysts
+overestimate growth for all of the firms in the sector—you will still be able to make comparisons of PEG ratios across firms
+and draw reasonable conclusions.
+OTHER VARIANTS ON THE PE RATIO
+While the PE ratio and the PEG ratio may be the most widely used earnings multiples, there are other
+equity earnings multiples that are also used by analysts. In this section, three variants are considered.
+The first is the relative PE ratio, the second is a multiple of price to earnings in a future year (say 5 or
+10 years from now), and the third is a multiple of price to earnings prior to R&D expenses (used
+primarily for technology firms).
+Relative PE Ratios
+Relative price earnings ratios measure a firm's PE ratio relative to the market average. It is obtained
+by dividing a firm's current PE ratio by the average for the market:
+Not surprisingly, the distribution of relative PE ratios mimics the distribution of the actual PE ratios,
+with one difference—the average relative PE ratio is 1.
+To analyze relative PE ratios, we will draw on the same model that we used to analyze the PE ratio
+for a firm in high growth, but we will use a similar model to estimate the PE ratio for the market.
+Brought together, we obtain the following:
+(j: firm 
+m: market)
+Note that the relative PE ratio is a function of all of the variables that determine the PE ratio—the
+expected growth rate, the risk of the firm, and the payout ratio—but stated in terms relative to the
+market. Thus, a firm's relative PE ratio is a function of its relative growth rate in earnings per share
+(growth rate
+firm
+/growth rate
+market
+), its relative cost of equity (cost of equity
+firm
+/cost of equity
+market
+), and
+its relative return on equity (ROE
+firm
+/ROE
+market
+). Firms with higher relative growth, lower relative
+costs of equity, and higher relative returns on equity should trade at higher relative PE ratios.
+There are two ways in which relative PEs are used in valuation. One is to compare a firm's relative
+PE ratio to its historical norms; Ford, for instance, may be viewed as undervalued because its
+relative PE ratio of 0.24 today is lower than the relative PE that it has historically traded at. The

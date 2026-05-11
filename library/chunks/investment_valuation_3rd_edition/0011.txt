@@ -1,0 +1,43 @@
+lity in equity research, and decisions taken by some investment banks to create
+at least the appearance of objectivity. Investment banks even created Chinese walls to separate their investment bankers
+
+from their equity research analysts. While that technical separation has helped, the real source of bias—the intermingling of
+banking business, trading, and investment advice—has not been touched.
+  Should there be government regulation of equity research? It would not be wise, since regulation tends to be heavy-handed
+and creates side costs that seem quickly to exceed the benefits. A much more effective response can be delivered by
+portfolio managers and investors. Equity research that creates the potential for bias should be discounted or, in egregious
+cases, even ignored. Alternatively, new equity research firms that deliver only investment advice can meet a need for
+unbiased valuations.
+Myth 2: A well-researched and well-done valuation is timeless.
+The value obtained from any valuation model is affected by firm-specific as well as marketwide
+information. As a consequence, the value will change as new information is revealed. Given the
+constant flow of information into financial markets, a valuation done on a firm ages quickly and has to
+be updated to reflect current information. This information may be specific to the firm, affect an entire
+sector, or alter expectations for all firms in the market.
+The most common example of firm-specific information is an earnings report that contains news not
+only about a firm's performance in the most recent time period but, even more importantly, about the
+business model that the firm has adopted. The dramatic drop in value of many new economy stocks
+from 1999 to 2001 can be traced, at least partially, to the realization that these firms had business
+models that might deliver customers but not earnings, even in the long term. We have seen social
+media companies like Linkedin and Zynga received enthusiastic market responses in 2010, and it will
+be interesting to see if history repeats itself. These companies offer tremendous promise because of
+their large member bases, but they are still in the nascent stages of commercializing that promise.
+In some cases, new information can affect the valuations of all firms in a sector. Thus, financial
+service companies that were valued highly in early 2008, on the assumption that the high growth and
+returns from the prior years would continue into the future, were valued much less in early 2009, as
+the banking crisis of 2008 laid bare the weaknesses and hidden risks in their businesses.
+Finally, information about the state of the economy and the level of interest rates affects all
+valuations in an economy. A weakening in the economy can lead to a reassessment of growth rates
+across the board, though the effect on earnings is likely to be largest at cyclical firms. Similarly, an
+increase in interest rates will affect all investments, though to varying degrees.
+When analysts change their valuations, they will undoubtedly be asked to justify them, and in some
+cases the fact that valuations change over time is viewed as a problem. The best response is the one
+that John Maynard Keynes gave when he was criticized for changing his position on a major
+economic issue: “When the facts change, I change my mind. And what do you do, sir?”
+Myth 3: A good valuation provides a precise estimate of value.
+Even at the end of the most careful and detailed valuation, there will be uncertainty about the final
+numbers, colored as they are by assumptions that we make about the future of the company and the
+economy. It is unrealistic to expect or demand absolute certainty in valuation, since cash flows and
+discount rates are estimated. This also means that analysts have to give themselves a reasonable
+margin for error in making recommendations on the basis of valuations.
+The degree of precision in valuations is likely to vary widely across investments. The valuation of

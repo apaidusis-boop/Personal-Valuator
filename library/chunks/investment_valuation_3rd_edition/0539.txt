@@ -1,0 +1,18 @@
+mple.
+This adjustment to the PE ratio, while taking care of one problem—the expensing of R&D—will
+still leave you exposed to all of the other problems associated with PE ratios. Earnings will continue
+
+to be volatile and affected by accounting choices, and differences in growth, risk, and cash flow
+characteristics will still cause price-earnings ratios to be different across firms. In addition, you will
+also have to estimate expected growth in earnings (pre-R&D) on your own, since consensus estimates
+from analysts will not be available for growth in this variable.
+ILLUSTRATION 18.13: Forward PE Ratios—Amylin
+Pharmaceuticals in May 2011
+In May 2011, there were dozens of biotechnology firms that were traded on the U.S. exchanges, but many of these firms
+were reporting losses, either because they had no commercial products yet or because the earnings were being outstripped
+by significant R&D expenses. We consider one such company: Amylin Pharmaceuticals, which was trading at $13.28 in
+May 2011. In the trailing 12 months leading into the valuation, the company reported a loss of –$1.05 and analysts were
+projecting losses of roughly 90 cents a share for both 2011 and 2012.
+While conventional PE ratios cannot be estimated with negative earnings, there are two ways in which we can still employ
+PE ratios to analyze Amylin:
+1.

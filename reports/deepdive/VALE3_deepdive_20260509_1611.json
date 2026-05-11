@@ -1,0 +1,85 @@
+{
+  "ticker": "VALE3",
+  "market": "br",
+  "timestamp": "2026-05-09T16:11:31.326489",
+  "audit": {
+    "piotroski": {
+      "ticker": "VALE3",
+      "applicable": true,
+      "f_score": 5,
+      "period_t": "2025-12-31",
+      "period_t_minus_1": "2024-12-31",
+      "criteria": {
+        "roa_positive": true,
+        "fcf_positive": true,
+        "delta_roa_positive": false,
+        "fcf_gt_netincome": true,
+        "leverage_not_up": false,
+        "liquidity_up": true,
+        "no_dilution": true,
+        "margin_up": false,
+        "turnover_up": false
+      },
+      "details": {
+        "roa_t": 0.027182895117018203,
+        "fcf_t": 2795000000.0,
+        "delta_roa": -0.04974594009607693,
+        "delta_ltd_ratio": 0.03872512884288992,
+        "delta_current_ratio": 0.1226818550069968,
+        "shares_delta_pct": -0.11829806860820247,
+        "delta_gross_margin": -0.011997716115687618,
+        "delta_turnover": -0.030960842702823066
+      }
+    },
+    "altman": {
+      "ticker": "VALE3",
+      "applicable": true,
+      "z": 4.82333528110067,
+      "zone": "safe",
+      "confidence": "high",
+      "x1": 0.027980352499277664,
+      "x2": 0.0,
+      "x3": 0.07736492343253396,
+      "x4": 6.817695949094394,
+      "x5": 0.44383704131753826,
+      "period_end": "2025-12-31"
+    },
+    "beneish": {
+      "ticker": "VALE3",
+      "applicable": false,
+      "reason_if_not_applicable": "yfinance n\u00e3o instalado",
+      "indices": {}
+    },
+    "moat": {
+      "ticker": "VALE3",
+      "applicable": true,
+      "overall": 4.5,
+      "pricing_power": 6.0,
+      "capital_efficiency": 4.0,
+      "reinvestment_runway": 2.0,
+      "scale_durability": 6.0,
+      "years_used": 4,
+      "period_first": "2022-12-31",
+      "period_last": "2025-12-31",
+      "details": {
+        "gm_median": 0.3929,
+        "gm_cv": 0.1237,
+        "roic_median": 0.1253,
+        "roic_persistence": 0.5,
+        "revenue_cagr": -0.0432,
+        "down_years": 2,
+        "fcf_to_ni_median": 0.69,
+        "op_margin_delta": -0.2985,
+        "shares_delta_pct": -7.92,
+        "op_margin_median": 0.2554
+      },
+      "label": "WEAK"
+    }
+  },
+  "scout": {
+    "error": "yfinance not available"
+  },
+  "delta": "Delta Report \u2014 VALE3 | hoje vs run anterior (2026-05-08)",
+  "dossier": "# 1. Executive Summary\n- **Rating:** EVITAR\n- **Pre\u00e7o justo estimado e upside/downside %:** N\u00e3o \u00e9 poss\u00edvel calcular devido \u00e0 falta de dados quantitativos.\n- **Risk Score:** 8 (Risco moderadamente alto)\n- **Alerta vermelho:** Sem an\u00e1lise Beneish, mas o Moat Score fraco e a necessidade de um Bear Case mais agressivo indicam riscos significativos.\n\n# 2. O Neg\u00f3cio\nO neg\u00f3cio em quest\u00e3o n\u00e3o foi especificado, impossibilitando uma avalia\u00e7\u00e3o detalhada do modelo de receita e fontes de caixa. No entanto, com base nos dados dispon\u00edveis:\n- **Network Effect:** N\u00e3o aplic\u00e1vel (n\u00e3o informado)\n- **Switching Costs:** 4/5 (baseado na pontua\u00e7\u00e3o Moat)\n- **Intangibles:** 6/10 (baseado na pontua\u00e7\u00e3o Moat)\n- **Cost Advantages:** 2/5 (baseado na pontua\u00e7\u00e3o Moat)\n\n# 3. Decomposi\u00e7\u00e3o DuPont\nSem dados espec\u00edficos sobre margem, giro e alavancagem, n\u00e3o \u00e9 poss\u00edvel realizar uma an\u00e1lise detalhada da decomposi\u00e7\u00e3o DuPont.\n\n# 4. Valuation Multin\u00edvel\n- **Graham Number:** N\u00e3o aplic\u00e1vel devido \u00e0 falta de dados.\n- **DCF com 3 cen\u00e1rios:**\n    - Bear Case: N\u00e3o calculado (falta de dados).\n    - Base Case: N\u00e3o calculado (falta de dados).\n    - Bull Case: N\u00e3o calculado (falta de dados).\n- **EV/EBITDA vs mediana setor:** N\u00e3o compar\u00e1vel sem dados.\n\n# 5. Bear Case\nDada a pontua\u00e7\u00e3o Piotroski de 5, o Bear Case deve ser mais agressivo:\n1. **Risco Operacional** (Probabilidade: Alta) - A empresa pode enfrentar desafios operacionais que afetem negativamente sua rentabilidade.\n2. **Condi\u00e7\u00f5es Econ\u00f4micas Adversas** (Probabilidade: M\u00e9dia) - Uma recess\u00e3o ou condi\u00e7\u00f5es econ\u00f4micas adversas podem impactar negativamente a demanda e os pre\u00e7os dos produtos da empresa.\n3. **Riscos de Mercado** (Probabilidade: Baixa) - Flutua\u00e7\u00f5es significativas no mercado podem afetar o pre\u00e7o das a\u00e7\u00f5es.\n\n**Cen\u00e1rio de -40%:** A empresa enfrentaria dificuldades financeiras, potencialmente resultando em cortes de custos e redu\u00e7\u00e3o de investimentos. Se as condi\u00e7\u00f5es persistirem, pode haver risco de fal\u00eancia ou reestrutura\u00e7\u00e3o significativa.\n\n# 6. Bull Case\n- **Catalisadores espec\u00edficos com prazo:** N\u00e3o identificados devido \u00e0 falta de dados.\n- **O que precisa acontecer para o pre\u00e7o dobrar em 3 anos?** A empresa precisaria apresentar crescimento excepcional, melhoria na efici\u00eancia operacional e condi\u00e7\u00f5es macroecon\u00f4micas favor\u00e1veis.\n\n# 7. Classifica\u00e7\u00e3o Lynch\n- **Classifica\u00e7\u00e3o:** N\u00e3o aplic\u00e1vel devido \u00e0 falta de dados espec\u00edficos sobre o neg\u00f3cio.\n- **Argumentos objetivos:**\n    - A empresa n\u00e3o apresenta caracter\u00edsticas claras para classifica\u00e7\u00e3o.\n    - Falta de dados impede uma an\u00e1lise detalhada.\n\n# 8. Veredicto Final\n- **Decis\u00e3o com 3 crit\u00e9rios mensur\u00e1veis:** \n    - Piotroski F-Score: 5/9 (razo\u00e1vel, mas n\u00e3o excelente).\n    - Moat Score: 4.5/10 (fraco).\n    - Falta de dados quantitativos espec\u00edficos.\n- **Position sizing:** Evitar\n- **Justificativa final:** A falta de dados quantitativos e a pontua\u00e7\u00e3o fraca do moat, combinada com um Piotroski F-Score apenas razo\u00e1vel, indicam riscos significativos sem uma justificativa clara para recomendar uma posi\u00e7\u00e3o.",
+  "model": "qwen2.5:32b-instruct-q4_K_M"
+}

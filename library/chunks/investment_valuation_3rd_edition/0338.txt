@@ -1,0 +1,56 @@
+timates of value. The payoff to knowing a firm and the sector it operates in better than other
+investors is that your estimates of growth and value will be better than theirs. Unfortunately, this does
+
+not guarantee that your investment returns will be better than theirs.
+CONCLUSION
+Growth is the key input in every valuation, and there are three sources for growth rates. One is the
+past, though both estimating and using historical growth rates can be difficult for most firms with their
+volatile and sometimes negative earnings. The second source is analyst estimates of growth. Though
+analysts may be privy to information that is not available to the rest of the market, this information
+does not result in growth rates that are superior to historical growth estimates. Furthermore, the
+analyst's emphasis on earnings per share growth can be a problem when forecasting operating
+income. The third and soundest way of estimating growth is to base it on a firm's fundamentals.
+The relationship of growth to fundamentals will depend on what growth rate we are estimating. To
+estimate growth in earnings per share, we looked at return on equity and retention ratios. To estimate
+growth in net income, we replaced the retention ratio with the equity reinvestment rate. To evaluate
+growth in operating income, we used return on capital and reinvestment rate. While the details vary
+from approach to approach, there are some common themes that emerge from these approaches. The
+first is that growth and reinvestment are linked, and estimates of one have to be linked with estimates
+of the other. Firms that want to grow at high rates over long periods have to reinvest to create that
+growth. The second is that the quality of growth can vary widely across firms, and the best measure of
+the quality of growth is the returns earned on investments. Firms that earn higher returns on equity and
+capital not only will generate higher growth, but that growth will add more to their value.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Walgreen Company reported the following earnings per share from 1989 to 1994.
+Year
+EPS
+1989
+$1.28
+1990
+$1.42
+1991
+$1.58
+1992
+$1.78
+1993
+$1.98
+1994
+$2.30
+a.
+ Estimate the arithmetic average and geometric average growth rate in earnings per share
+between 1989 and 1994. Why are they different? Which is more reliable?
+b.
+ Estimate the growth rate using a linear growth model.
+c.
+ Estimate the growth rate using a log-linear growth model.
+2.
+ BIC Corporation reported a return on equity of 20% and paid out 37% of its earnings as
+dividends in the most recent year.
+a.
+ Assuming that these fundamentals do not change, estimate the expected growth rate in earnings
+per share.
+b.
+ Now assume that you expect the return on equity to increase to 25% on both new and existing
+investments next year. Estimate the expected growth rate in earnings per share.

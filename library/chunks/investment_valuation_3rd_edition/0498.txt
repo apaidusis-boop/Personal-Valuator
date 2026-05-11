@@ -1,0 +1,33 @@
+iers is
+another reason for looking at the median values for multiples.
+Biases in Estimating Multiples
+With every multiple, there are firms for which the multiple cannot be computed. Consider again the
+
+price-earnings ratio. When the earnings per share are negative, the price-earnings ratio for a firm is
+not meaningful and is usually not reported. When looking at the average price-earnings ratio across a
+group of firms, the firms with negative earnings will all drop out of the sample because the price-
+earnings ratio cannot be computed. Why should this matter when the sample is large? The fact that the
+firms that are taken out of the sample are the firms losing money creates a bias in the selection
+process and skews the statistics.
+There are three solutions to this problem. The first is to be aware of the bias and build it into the
+analysis. In practical terms, this will mean adjusting the average PE to reflect the elimination of the
+money-losing firms. The second is to aggregate the market value of equity and net income (or loss) for
+all of the firms in the group, including the money-losing ones, and compute the price-earnings ratio
+using the aggregated values. 
+Figure 17.2
+ summarizes the average PE ratio, the median PE ratio, and
+the PE ratio based on aggregated earnings for three sectors: software, chemicals, and insurance
+companies. While the values are very different for software companies, they are closer for the other
+two sectors, mostly because the software sector has more companies with negative earnings and
+extreme (high) PE ratios. Note that the median PE ratio is lower than the average PE ratio in all three
+sectors. The third choice is to use a multiple that can be computed for all of the firms in the group.
+The inverse of the price-earning ratio, which is called the earnings yield, can be computed for all
+firms, including those losing money.
+Figure 17.2
+ PE Ratio in 2010: Average, Median, and Aggregate
+Analytical Tests
+In discussing why analysts were so fond of using multiples, it was argued that relative valuations
+require fewer assumptions than discounted cash flow valuations. While this is technically true, it is so
+only on the surface. In reality, you make just as many assumptions when you do a relative valuation as
+you make in a discounted cash flow valuation. The difference is that the assumptions in a relative
+valuation are implicit and unstated, whereas those in discounted cash flow valuation are explicit. The

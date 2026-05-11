@@ -1,0 +1,21 @@
+---
+id: damodaran_auto_h_model
+name: H Model
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: h_model_dividend_growth
+  description: Checks if the dividend yield is above a certain threshold.
+  check: dy > 0.03
+- id: h_model_profitability
+  description: Ensures that the company has a healthy return on equity.
+  check: roe >= 0.15
+- id: h_model_stability
+  description: Checks if the net debt to EBITDA ratio is within an acceptable range,
+    indicating financial stability.
+  check: net_debt_ebitda <= 2.5
+caveats:
+- This model assumes a linear transition from high growth to stable growth rates which
+  may not accurately reflect real-world scenarios.

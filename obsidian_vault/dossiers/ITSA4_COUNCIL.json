@@ -1,0 +1,182 @@
+{
+  "ticker": "ITSA4",
+  "market": "br",
+  "modo": "A",
+  "sector": "Holding",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Tião Galpão",
+      "agent_slug": "industrials_br_specialist",
+      "title": "Industrials & Consumer BR Specialist"
+    },
+    {
+      "role": "sector_specialist_secondary",
+      "employee_name": "Diego Bancário",
+      "agent_slug": "banks_br_specialist",
+      "title": "Banks BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "Itaúsa mantém desconto vs NAV e payout estável",
+      "stance": "BUY",
+      "main_argument": "ITSA4 opera com ROE de 17.6%, superior à mediana setorial, e DY de 8.91% alinhado com Selic.",
+      "supporting_metrics": [
+        "ROE=17.6%",
+        "DY=8.91%",
+        "ND/EBITDA=4.03"
+      ],
+      "concerns": [
+        "Desconto NAV >25%",
+        "Mudança gestão Itaúsa"
+      ],
+      "veto_signals": []
+    },
+    "sector_specialist_secondary_1": {
+      "headline": "ITSA4 mantém desconto vs NAV e payout estável",
+      "stance": "BUY",
+      "main_argument": "Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding persistente. Villela mantém disciplina na alocação de capital.",
+      "supporting_metrics": [
+        "ROE = 17.6%",
+        "P/E = 9.41",
+        "DY = 8.8%"
+      ],
+      "concerns": [
+        "desconto NAV > 25%",
+        "Itaú ROE < 12% por 2 trimestres seguidos"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "ITSA4 mantém desconto persistente vs NAV e payout estável",
+      "stance": "BUY",
+      "main_argument": "Itaúsa opera com ROE de ~17%, dividend yield alinhado à Selic, e desconto holding sustenta margem de segurança.",
+      "supporting_metrics": [
+        "ROE consolidado: 17.6%",
+        "Dividend Yield: 8.91%",
+        "P/B ratio: 1.76"
+      ],
+      "concerns": [
+        "Desconto NAV > 25% sem catalisador",
+        "Itaú ROE < 12% em 2Q consecutivos"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "ITSA4 mantém desconto vs NAV e payout robusto",
+      "stance": "HOLD",
+      "main_argument": "Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto persistente vs NAV.",
+      "supporting_metrics": [
+        "ROE consolidado ~17%",
+        "DY atual 8.91%",
+        "Piotroski F-Score: 5/9"
+      ],
+      "concerns": [
+        "Desconto NAV > 25% sem catalisador",
+        "Mudança gestão Itaúsa / Villela sair"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "ITSA4 mantém desconto persistente vs NAV e payout estável",
+      "stance": "BUY",
+      "main_argument": "Itaúsa apresenta ROE de 17.6%, DY de 8.91% alinhado com Selic, e margem EBIT alta.",
+      "supporting_metrics": [
+        "ROE consolidado ~17%",
+        "DY actual 8.91%",
+        "ebit_margin=206.8%"
+      ],
+      "concerns": [
+        "desconto NAV > 25%",
+        "mudança gestão Itaúsa / Villela sair"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding persistente. Diego Bancário"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "sector_specialist_secondary_1": {
+      "agree_with": [
+        "Itaúsa opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic — Tião Galpão"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "Itaúsa opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic — Tião Galpão"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto holding persistente.",
+        "Mariana Macro"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "Itaúsa opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic - Tião Galpão"
+      ],
+      "challenge": [],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "Itaújoása opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic",
+      "Desconto NAV persistente"
+    ],
+    "dissent_points": [],
+    "final_stance": "BUY",
+    "confidence": "medium",
+    "pre_publication_flags": [
+      "Desconto NAV > 25% sem catalisador | Itaújo ROE < 12% em 2Q consecutivos | Mudança gestão Itaújoása / Villela sair"
+    ],
+    "sizing_recommendation": "Pedro Alocação recomenda alocação entre 2-4% do portfólio"
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Tião Galpão\\reviews\\ITSA4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Diego Bancário\\reviews\\ITSA4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\ITSA4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\ITSA4_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\ITSA4_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 66.32804942131042,
+  "date": "2026-04-30"
+}

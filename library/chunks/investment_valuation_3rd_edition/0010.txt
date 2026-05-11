@@ -1,0 +1,50 @@
+alue. But there is one point on which
+there can be no disagreement: Asset prices cannot be justified by merely using the argument that there
+will be other investors around willing to pay those prices.
+
+GENERALITIES ABOUT VALUATION
+Like all analytical disciplines, valuation has developed its own set of myths over time. This section
+examines and debunks some of these myths.
+Myth 1: Since valuation models are quantitative, valuation is
+objective.
+Valuation is neither the science that some of its proponents make it out to be nor the objective search
+for true value that idealists would like it to become. The models that we use in valuation may be
+quantitative, but the inputs leave plenty of room for subjective judgments. Thus, the final value that
+we obtain from these models is colored by the bias that we bring into the process. In fact, in many
+valuations, the price gets set first and the valuation follows.
+The obvious solution is to eliminate all bias before starting on a valuation, but this is easier said
+than done. Given the exposure we have to external information, analyses, and opinions about a firm, it
+is unlikely that we embark on most valuations without some bias. There are two ways of reducing the
+bias in the process. The first is to avoid taking strong public positions on the value of a firm before
+the valuation is complete. In far too many cases, the decision on whether a firm is under- or
+overvalued precedes the actual valuation,
+1
+ leading to seriously biased analyses. The second is to
+minimize, prior to the valuation, the stake we have in whether the firm is under- or overvalued.
+Institutional concerns also play a role in determining the extent of bias in valuation. For instance, it
+is an acknowledged fact that equity research analysts are more likely to issue buy rather than sell
+recommendations
+2
+ (i.e., they are more likely to find firms to be undervalued than overvalued). This
+can be traced partly to the difficulties analysts face in obtaining access and collecting information on
+firms that they have issued sell recommendations on, and partly to pressure that they face from
+portfolio managers, some of whom might have large positions in the stock. In recent years, this trend
+has been exacerbated by the pressure on equity research analysts to deliver investment banking
+business.
+When using a valuation done by a third party, the biases of the analyst(s) 
+should be considered
+before decisions are made on its basis. For instance, a self-valuation done by a target firm in a
+takeover is likely to be positively biased. While this does not make the valuation worthless, it
+suggests that the analysis should be viewed with skepticism.
+BIAS IN EQUITY RESEARCH
+The lines between equity research and salesmanship blur most in periods that are characterized by “irrational exuberance.”
+In the late 1990s, the extraordinary surge of market values in the companies that comprised the new economy saw a large
+number of equity research analysts, especially on the sell side, step out of their roles as analysts and become cheerleaders
+for these stocks. While these analysts might have been well-meaning in their recommendations, the fact that the investment
+banks that they worked for were leading the charge on initial public offerings from these firms exposed them to charges of
+bias and worse.
+  In 2001, the crash in the market values of new economy stocks and the anguished cries of investors who had lost wealth in
+the crash created a firestorm of controversy. There were congressional hearings where legislators demanded to know what
+analysts knew about the companies they recommended and when the knew it, statements from the Securities and Exchange
+Commision (SEC) about the need for impartiality in equity research, and decisions taken by some investment banks to create
+at least the appearance of objectivity. Investment banks even created Chinese walls to separate their investment bankers

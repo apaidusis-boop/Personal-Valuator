@@ -1,0 +1,50 @@
+s to
+investments in noncash working capital, mainly inventory and accounts receivable. Increases in
+noncash working capital represent cash outflows to the firm, while decreases represent cash inflows.
+
+Noncash working capital at most firms tends to be volatile and may need to be smoothed out when
+forecasting future cash flows.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ You are valuing GenFlex, a small manufacturing firm, which reported paying taxes of $12.5
+million on taxable income of $50 million and reinvesting $15 million in the most recent year. The
+firm has no debt outstanding, the cost of capital is 11%, and the marginal tax rate for the firm is
+35%. Assuming that the firm's earnings and reinvestment are expected to grow 10% a year for
+three years and 5% a year forever after that, estimate the value of this firm:
+a.
+ Using the effective tax rate to estimate after-tax operating income.
+b.
+ Using the marginal tax rate to estimate after-tax operating income.
+c.
+ Using the effective tax rate for the next three years and the marginal tax rate in year 4.
+2.
+ You are trying to estimate the free cash flow to the firm for RevTech, a technology firm. The
+firm reported $80 million in earnings before interest and taxes, capital expenditures of $30
+million, and depreciation of $20 million in the most recent year. There are two additional
+complications:
+The firm had R&D expenses of $50 million in the most recent year. You believe that a
+three-year amortizable life is appropriate for this firm and the R&D expenses for the past
+three years have amounted to $20 million, $30 million, and $40 million respectively.
+The firm also made two acquisitions during the year—a cash-based acquisition for $45
+million and a stock-based acquisition for $35 million.
+If the firm has no working capital requirements and a tax rate of 40%, estimate the free cash flow
+to the firm in the most recent year.
+3.
+ Lewis Clark, a firm in the travel business, reported earnings before interest and taxes of $60
+million last year, but you have uncovered the following additional items of interest:
+The firm had operating lease expenses of $50 million last year and has a commitment to
+make equivalent payments for the next eight years.
+The firm reported capital expenditures of $30 million and depreciation of $50 million last
+year. However, the firm also made two acquisitions, one funded with cash for $50 million
+and another funded with a stock swap for $30 million. The amortization of these
+acquisitions is already included in the current year's depreciation.
+The total working capital increased from $180 million at the start of the year to $200
+million at the end of the year. However, the firm's cash balance was a significant portion
+of this working capital and increased from $80 million at the start of the year to $120
+million at the end. (The cash is invested in T-bills.)
+The tax rate is 40%, and the firm's pretax cost of debt is 6%.
+Estimate the free cash flows to the firm last year.
+4.
+ The following is the balance sheet for Ford Motor Company as of December 31, 1994 (in
+millions).

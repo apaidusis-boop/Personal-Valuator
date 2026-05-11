@@ -1,0 +1,33 @@
+prices) = 81%
+Riskless rate = 4.63%
+Inputting these numbers into the model, we get:
+Using the normal distribution, we can estimate the N(d
+1
+) and N(d
+2
+):
+The value of the call can now be estimated:
+
+Since the call is trading at $2, it is slightly overvalued, assuming that the estimate of standard deviation used is correct.
+IMPLIED VOLATILITY
+The only input in the Black Scholes on which there can be significant disagreement among investors is the variance. While
+the variance is often estimated by looking at historical data, the values for options that emerge from using the historical
+variance can be different from the market prices. For any option, there is some variance at which the estimated value will be
+equal to the market price. This variance is called an implied variance.
+Consider the Cisco option valued in Illustration 5.2. With a standard deviation of 81 percent, the value of the call option with
+a strike price of $15 was estimated to be $1.87. Since the market price is higher than the calculated value, we tried higher
+standard deviations, and at a standard deviation 85.40 percent the value of the option is $2 (which is the market price). This
+is the implied standard deviation or implied volatility.
+Model Limitations and Fixes
+The Black-Scholes model was designed to value European options that can be exercised only at
+maturity and whose underlying assets do not pay dividends. In addition, options are valued based on
+the assumption that option exercise does not affect the value of the underlying asset. In practice, assets
+do pay dividends, options sometimes get exercised early, and exercising an option can affect the
+value of the underlying asset. Adjustments exist that, while not perfect, provide partial corrections to
+the Black-Scholes model.
+Dividends
+The payment of a dividend reduces the stock price; note that on the ex-dividend day, the stock price
+generally declines. Consequently, call options become less valuable and put options more valuable as
+expected dividend payments increase. There are two ways of dealing with dividends in the Black-
+Scholes model:
+1.

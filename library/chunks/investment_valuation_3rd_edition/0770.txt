@@ -1,0 +1,23 @@
+no
+two firms are identical, the choice of comparable firms is a subjective one and can be tailored to
+justify the conclusion we want to reach. Similarly, in selecting a multiple, there are a number of
+
+possible choices—price-earnings ratios, price–cash flow ratios, price–book value ratios, and price-
+sales ratios, among others—and the multiple chosen will be the one that best suits our biases. Finally,
+once the average multiple has been obtained, subjective adjustments can be made to complete the
+story. In short, there is plenty of room for bias to be used to to justify any price, using reasonable
+valuation models.
+In some acquisition valuations, only firms that have been target firms in acquisitions are used as
+comparable firms, with the prices paid on the acquisitions being used to estimate multiples. The
+average multiple paid, which is called a transaction multiple, is then used to justify the price paid in
+an acquisition. This clearly creates a biased sample, and the values estimated using transactions
+multiples will generally be too high.
+Mismatching Cash Flows and Discount Rates
+One of the fundamental principles of valuation is that cash flows should be discounted using a
+consistent discount rate. Cash flows to equity should be discounted at the cost of equity and cash
+flows to the firm at the cost of capital; nominal cash flows should be discounted at the nominal
+discount rate and real cash flows at the real rate; after-tax cash flows should be discounted at the
+after-tax discount rate and pretax cash flows at the pretax rate. The failure to match cash flows with
+discount rates can lead to significant under- or overvaluation. Two of the more common mismatches
+include:
+1.

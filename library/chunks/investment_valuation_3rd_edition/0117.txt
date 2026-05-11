@@ -1,0 +1,26 @@
+ividend date:
+The value of the call based on these parameters is:
+The call option is then valued to expiration:
+The value of the call based on these parameters is:
+Approach 2: Using the Binomial Model
+
+The binomial model is much more capable of handling early exercise because it considers the cash
+flows at each time period, rather than just at expiration. The biggest limitation of the binomial model
+is determining what stock prices will be at the end of each period, but this can be overcome by using
+a variant that allows us to estimate the up and the down movements in stock prices from the estimated
+variance. There are four steps involved:
+Step 1:
+ If the variance in ln(stock prices) has been estimated for the Black-Scholes valuation,
+convert these into inputs for the binomial model:
+where u and d are the up and the down movements per unit time for the binomial, and dt is the number
+of periods within each year (or unit time).
+Step 2:
+ Specify the period in which the dividends will be paid and make the assumption that the
+price will drop by the amount of the dividend in that period.
+Step 3:
+ Value the call at each node of the tree, allowing for the possibility of early exercise just
+before ex-dividend dates. There will be early exercise if the remaining time premium on the option is
+less than the expected drop in option value as a consequence of the dividend payment.
+Step 4:
+ Value the call at time 0, using the standard binomial approach.
+bstobin.xls:

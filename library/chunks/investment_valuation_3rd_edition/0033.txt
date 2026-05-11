@@ -1,0 +1,40 @@
+be used in the
+valuation. If not, the cash flows can be projected, assuming full utilization of assets, and the value
+can be estimated.
+3
+ These were the PE ratios for these firms at the end of 1992.
+
+CHAPTER 
+3
+Understanding Financial Statements
+Financial statements provide the fundamental information that we use to analyze and answer valuation
+questions. It is important, therefore, that we understand the principles governing these statements by
+looking at four questions:
+1.
+ How valuable are the assets of a firm? The assets of a firm can come in several forms—assets
+with long lives such as land and buildings, assets with shorter lives such as inventory, and
+intangible assets that nevertheless produce revenues for the firm such as patents and trademarks.
+2.
+ How did the firm raise the funds to finance these assets? In acquiring assets, firms can use the
+funds of the owners (equity) or borrowed money (debt), and the mix is likely to change as the
+assets age.
+3.
+ How profitable are these assets? A good investment is one that makes a return greater than the
+cost of funding it. To evaluate whether the investments that a firm has already made are good
+investments, we need to estimate what returns these investments are producing.
+4.
+ How much uncertainty (or risk) is embedded in these assets? While we have not yet directly
+confronted the issue of risk, estimating how much uncertainty there is in existing investments, and
+the implications for a firm, is clearly a first step.
+This chapter looks at the way accountants would answer these questions, and why the answers
+might be different when doing valuation. Some of these differences can be traced to the differences in
+objectives: Accountants try to measure the current standing and immediate past performance of a firm,
+whereas valuation is much more forward-looking.
+THE BASIC ACCOUNTING STATEMENTS
+There are three basic accounting statements that summarize information about a firm. The first is the
+balance sheet, shown in 
+Figure 3.1
+, which summarizes the assets owned by a firm, the value of these
+assets, and the mix of financing (debt and equity) used to finance these assets at a point in time.
+Figure 3.1
+ The Balance Sheet

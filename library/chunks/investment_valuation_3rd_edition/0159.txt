@@ -1,0 +1,22 @@
+the
+period studied here, indicates that there might be a more direct reason for negative returns on
+Mondays than bad information over the weekend.
+Figure 6.17
+ Weekend Effect in International Markets
+
+As a final note, the negative returns on Mondays cannot be attributed to just the absence of trading
+over the weekend. The returns on days following trading holidays in general are characterized by
+positive, not negative, returns. 
+Figure 6.18
+ summarizes returns on trading days following major
+holidays and confirms this pattern.
+Figure 6.18
+ A Holiday Effect? Average Market Returns on Trading Days Following Holidays
+EVIDENCE ON INSIDERS AND INVESTMENT
+PROFESSIONALS
+There is a sense that insiders, analysts, and portfolio managers must possess an advantage over the
+average investors in the market and be able to convert this advantage into excess returns. The
+evidence on the performance of these investors is actually surprisingly mixed.
+Insider Trading
+The Securities and Exchange Commission (SEC) defines an insider to be an officer or director of the
+firm or a major stockholder (holding more than 5 percent of the outstanding stock in the firm). Insiders

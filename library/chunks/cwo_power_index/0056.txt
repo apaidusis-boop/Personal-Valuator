@@ -1,0 +1,38 @@
+ces 
+like freshwater supply). Russia and the US score highest (followed by China, which relies more on the 
+rest of the world to cover its natural resource needs), while Japan and the UK score lowest.
+
+THE CHANGING WORLD ORDER
+56
+	■  Gaps in Wealth, Opportunity & Values: This gauge measures how big the gaps in wealth/income, 
+opportunities, and values are. It combines measures of both a) wealth and income inequality (e.g., how 
+much does the top 1 percent have versus the rest) and b) political conflict (e.g., how split is the legisla-
+ture on ideology). India, the US, and China score worst because of very large wealth and income gaps 
+(and in the case of the US also significant political gaps). At the other end of the spectrum are the Eu-
+ropean nations and Japan, which generally speaking have lower income and wealth inequality. 
+	■  Character/Civility/Determination:  This gauge attempts to measure to what extent the attitudes of 
+each country’s people create an environment that’s supportive to civility and hard work, which supports 
+growth and advancement. It uses a) surveys around attitudes toward working hard and success and b) 
+other measures that proxy how much a society values self-sufficiency and work (e.g., government trans-
+fer payments size, effective retirement age) to quantify this. China and India score highest (the US is 
+third), and the European countries (notably Spain and France) score lowest.
+	■  Resource-Allocation Efficiency: This gauge attempts to measure how efficiently each country is using 
+its labor and capital. It looks at whether the country has chronically high unemployment (i.e., not find-
+ing efficient ways to employ its people), if debt growth generates commensurate income growth over 
+time, and external indices and surveys about the rigidity of the labor market and ease of getting loans. 
+Much of Europe (particularly France and Spain) score lowest on these measures, while the US and Ger-
+many score near the top. Developing countries (particularly Russia, but also China and India) also score 
+fairly well in this measure—as generally speaking they produce more income growth per unit of debt 
+growth.
+	■  Acts of Nature: This gauge measures how vulnerable to and impacted by acts of nature each country 
+is. While it is difficult to quantify all the various acts of nature that might affect a country, we used ex -
+pert assessments of future climate change impact on each country’s GDP, external assessments of each 
+country’s preparedness for natural disasters, and the outcomes from the COVID pandemic (as that 
+was a real-time test against an act of nature). I consider this rating so-so and find that there is still a lot 
+more we want to capture to make this gauge better, hence its low quality.
+	■  External Conflict:  While not a part of the model for individual countries, the external conflict gauge 
+measures the levels of economic, political/cultural, and military conflict between pairs of major coun -
+tries. Within each category, we tried to come up with a mix of structural indicators (to establish a 
+baseline level of conflict between countries) and timely indicators (to flag major escalations above that 
+baseline). For example, for economic conflict we track bilateral trade between countries, tariff rates, and 
+timely news around sanctions, trade wars, etc.

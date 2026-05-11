@@ -1,0 +1,28 @@
+ot relative value.
+Consequently, the only consistent way of estimating terminal value in a discounted cash flow model is
+to use either a liquidation value or a stable growth model.
+Stable Growth Model
+
+In the liquidation value approach, you are assuming that your firm has a finite life and that it will be
+liquidated at the end of that life. Firms, however, can reinvest some of their cash flows back into new
+assets and extend their lives. If you assume that cash flows, beyond the terminal year, will grow at a
+constant rate forever, the terminal value can be estimated as follows:
+The cash flow and the discount rate used will depend on whether you are valuing the firm or valuing
+equity. If you are valuing equity, the terminal value of equity can be written as:
+The cash flow to equity can be defined strictly as dividends (in the dividend discount model) or as
+free cash flow to equity. If valuing a firm, the terminal value can be written as:
+where the cost of capital and the growth rate in the model are sustainable forever.
+In this section, we will begin by considering how high a stable growth rate can be, how to best
+estimate when your firm will be a stable growth firm, and what inputs need to be adjusted as a firm
+approaches stable growth.
+Constraints on Stable Growth
+Of all the inputs into a discounted cash flow valuation model, none creates as much angst as
+estimating the stable growth rate. Part of the reason for it is that small changes in the stable growth
+rate can change the terminal value significantly, and the effect gets larger as the growth rate
+approaches the discount rate used in the estimation.
+The fact that a stable growth rate is constant forever, however, puts strong constraints on how high
+it can be. Since no firm can grow forever at a rate higher than the growth rate of the economy in which
+it operates, the constant growth rate cannot be greater than the overall growth rate of the economy. In
+making a judgment on what the limits on a stable growth rate are, we have to consider the following
+three questions:
+1.

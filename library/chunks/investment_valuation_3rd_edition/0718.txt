@@ -1,0 +1,20 @@
+iate discount rate, given the cash flows.
+When you use the CAPM or its variants to estimate discount rates for publicly traded companies, you are estimating a 
+post-
+corporate tax and pre-personal tax
+
+required rate of return
+. If you draw on the same risk and return models to estimate
+discount rates for private businesses, you have to recognize that if the cash flows are after personal taxes, you will have to
+adjust the discount rates accordingly. In June 2011, for instance, the cost of equity for a public equities was about 8 percent.
+The tax rate on dividends and capital gains was 15 percent. If we assume that the marginal investor pays this tax rate on the
+entire return, the post-personal tax cost of equity is 6.8 percent.
+ILLUSTRATION 24.7: Operating and Net Income
+To estimate the cashflows for Chez Pierre, we started with the stated income from the owner's financial statements. Those
+statements (with all the numbers reported in thousands) indicated that the restaurant generated $400,000 in operating income
+and $240,000 in net income on revenues of $1.2 million in the most recent year:
+Stated
+Adjusted
+Revenues
+$1,200.00
+$1,200.00

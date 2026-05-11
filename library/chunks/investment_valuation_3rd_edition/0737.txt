@@ -1,0 +1,32 @@
+For instance, this approach should work well for valuing a medical/dental practice or a small, retail
+business. It will get more difficult to apply for firms that are in unique or unusual businesses.
+
+If you decide to employ private company transactions to value a business, there are five general
+practices that can help to deliver more dependable valuations:
+1.
+
+Scale to variables that are less affected by discretionary choices:
+ As a counter to the problem
+of wide differences in accounting and operating standards across private companies, can focus on
+variables where discretionary choice matters less. For instance, multiples of revenues (which are
+more difficult to fudge or manipulate) should be preferred to multiples of earnings. You could
+even scale value to units specific to the business being valued—number of patients for a general
+medical practice or the number of customers for a plumbing business.
+2.
+
+Value businesses, not equity.
+ In Chapter 16, we classified multiples into equity multiples
+(where equity value is scaled to equity earnings or book value) and enterprise value multiples
+(where the value of the business is scaled to operating earnings, cash flows, or the book value of
+capital). Given the wide differences in equity claims and the use of debt across private
+businesses, it is better to focus on enterprise value multiples rather than equity multiples. In other
+words, it is better to value the entire business and then work out the value of equity than it is to
+value equity directly.
+3.
+
+Start with a large dataset:
+ Since transactions with private businesses are infrequent, it is best
+to start with a large dataset of companies and collect all transaction data. This will then allow you
+to screen the data for transactions that look suspicious (and are thus likely to fail the arm's-length
+test).
+4.

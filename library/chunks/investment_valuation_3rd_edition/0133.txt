@@ -1,0 +1,30 @@
+the announcement date will be considered
+as part of the event window. That decision also will be determined by the precision of the event
+date, since more imprecise dates will require longer windows. 
+
+where R
+jt
+ = Returns on firm j for period t(t = –n, ..., 0, ..., +n)
+3.
+ The returns, by period, around the announcement date, are adjusted for market performance and
+risk to arrive at excess returns for each firm in the sample. For instance, if the capital asset pricing
+model is used to control for risk: 
+
+where ER
+jt
+ = Excess returns on firm j for period t(t = 
+n, . . . , 0, . . . , +n) = R
+jt
+
+E(R
+jt
+)
+4.
+ The excess returns, by period, are averaged across all events in the sample, and a standard
+error is computed. 
+
+where N = Number of events (firms) in the event study
+5.
+ The question of whether the excess returns around the announcement are different from zero is
+answered by estimating the t statistic for each period, by dividing the average excess return by the
+standard error:

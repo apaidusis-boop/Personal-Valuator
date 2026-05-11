@@ -1,0 +1,38 @@
+each of the inputs (payout 
+ratio, cost of equity and growth rate) from
+high growth levels to stable growth levels in linear increments. The resulting dividends and present values are summarized
+here:
+
+Note that the changing cost of equity requires us to estimate a cumulated cost of 
+equity. Thus, the cumulated cost of equity
+for year 7 is:
+The value per share at the end of year 10 can now be obtained:
+Discounting the terminal value back at the cumulated cost of equity for year 10 and 
+adding to the present value of dividends,
+we get a value per share of $67.15.
+Coca-Cola was trading at $68.22 in May 2011, making it fairly valued.
+DDM3st.xls:
+
+This spreadsheet allows you to value a firm with a period of high growth followed by a
+transition period where growth declines to a stable growth rate.
+A TROUBLESHOOTING GUIDE: WHAT IS WRONG
+WITH THIS MODEL? (THREE-STAGE DDM)
+If This Is Your Problem
+This May Be the Solution
+If you are getting too low a value from this model:
+The stable period payout ratio is too low for a stable firm (< 40%).
+If using fundamentals, use a higher ROE. 
+If entering directly, enter a higher payout.
+The beta in the stable period is too high for a stable firm.
+Use a beta closer to 1.
+If you get an extremely high value:
+The growth rate in the stable growth period is too high for stable firm.
+Use a growth rate less than the riskfree rate.
+The period of growth (high + transition) is too high.
+Use shorter high growth and transition periods.
+ISSUES IN USING THE DIVIDEND DISCOUNT
+MODEL
+The dividend discount model’s primary attraction is its simplicity and its intuitive logic. There are
+many analysts, however, who view its results with suspicion because of limitations that they perceive
+it to possess. The model, they claim, is not really useful in valuation except for a limited number of
+stable, high-dividend-paying stocks. This section examines some of the areas where the dividend

@@ -1,0 +1,95 @@
+{
+  "started_at": "2026-04-24T20:22:26.229961+00:00",
+  "finished_at": "2026-04-24T20:29:29.228167+00:00",
+  "pre_metrics": {
+    "captured_at": "2026-04-24T20:22:26+00:00",
+    "perpetuum_health_total": 1684,
+    "perpetuum_health_by_name": {
+      "content_quality": 18,
+      "data_coverage": 33,
+      "library_signals": 1092,
+      "meta": 7,
+      "method_discovery": 8,
+      "thesis": 33,
+      "token_economy": 117,
+      "vault": 376
+    },
+    "paper_signals_open_br": 92,
+    "paper_methods_br": 2,
+    "paper_signals_open_us": 62,
+    "paper_methods_us": 3,
+    "vault_tickers_with_thesis": 2,
+    "vault_total_tickers": 184,
+    "yaml_methods_count": 6,
+    "rag_chunks_indexed": 1704
+  },
+  "post_metrics": {
+    "captured_at": "2026-04-24T20:29:29+00:00",
+    "perpetuum_health_total": 3508,
+    "perpetuum_health_by_name": {
+      "content_quality": 18,
+      "data_coverage": 33,
+      "library_signals": 2912,
+      "meta": 7,
+      "method_discovery": 8,
+      "thesis": 33,
+      "token_economy": 121,
+      "vault": 376
+    },
+    "paper_signals_open_br": 436,
+    "paper_methods_br": 6,
+    "paper_signals_open_us": 496,
+    "paper_methods_us": 7,
+    "vault_tickers_with_thesis": 28,
+    "vault_total_tickers": 184,
+    "yaml_methods_count": 16,
+    "rag_chunks_indexed": 1704
+  },
+  "phases": [
+    {
+      "phase_id": "P1_thesis",
+      "name": "Populate ## Thesis em holdings sem thesis",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 168.463627576828,
+      "stdout_tail": "ok=26 fail=5  log=C:\\Users\\paidu\\investment-intelligence\\data\\overnight\\thesis_populated.log\n",
+      "stderr_tail": ""
+    },
+    {
+      "phase_id": "P2_methods",
+      "name": "Generate 10 new YAML methods from Damodaran",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 52.77588367462158,
+      "stdout_tail": "Generated 10 methods. Log: C:\\Users\\paidu\\investment-intelligence\\data\\overnight\\methods_generation.log\n",
+      "stderr_tail": ""
+    },
+    {
+      "phase_id": "P3_matcher",
+      "name": "Run matcher — all methods × all tickers",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 6.34433650970459,
+      "stdout_tail": " damodaran_unlevered_beta_quality (3/3) id=249\n  [SIGNAL] br:CMIG4    damodaran_unlevered_beta_quality (3/3) id=250\n  [SIGNAL] br:CSMG3    damodaran_unlevered_beta_quality (3/3) id=251\n  [SIGNAL] br:GMAT3    damodaran_unlevered_beta_quality (3/3) id=252\n  [SIGNAL] br:GRND3    damodaran_unlevered_beta_quality (3/3) id=253\n  [SIGNAL] br:MULT3    damodaran_unlevered_beta_quality (3/3) id=254\n  [SIGNAL] br:PETR4    damodaran_unlevered_beta_quality (3/3) id=255\n  [SIGNAL] br:PLPL3    damodaran_unlevered_beta_quality (3/3) id=256\n  [SIGNAL] br:PSSA3    damodaran_unlevered_beta_quality (3/3) id=257\n  [SIGNAL] br:RDOR3    damodaran_unlevered_beta_quality (3/3) id=258\n  [SIGNAL] br:SEER3    damodaran_unlevered_beta_quality (3/3) id=259\n  [SIGNAL] br:TIMS3    damodaran_unlevered_beta_quality (3/3) id=260\n  [SIGNAL] br:TTEN3    damodaran_unlevered_beta_quality (3/3) id=261\n  [SIGNAL] br:UNIP6    damodaran_unlevered_beta_quality (3/3) id=262\n  [SIGNAL] br:VIVA3    damodaran_unlevered_beta_quality (3/3) id=263\n  [SIGNAL] br:WIZC3    damodaran_unlevered_beta_quality (3/3) id=264\n  [SIGNAL] us:ACN      damodaran_unlevered_beta_quality (3/3) id=327\n  [SIGNAL] us:PG       damodaran_unlevered_beta_quality (3/3) id=328\n  [SIGNAL] us:ADP      damodaran_unlevered_beta_quality (3/3) id=329\n  [SIGNAL] us:BF-B     damodaran_unlevered_beta_quality (3/3) id=330\n  [SIGNAL] us:KMB      damodaran_unlevered_beta_quality (3/3) id=331\n  [SIGNAL] us:NFG      damodaran_unlevered_beta_quality (3/3) id=332\n  [SIGNAL] us:RLI      damodaran_unlevered_beta_quality (3/3) id=333\n  [SIGNAL] us:RPM      damodaran_unlevered_beta_quality (3/3) id=334\n  [SIGNAL] us:TGT      damodaran_unlevered_beta_quality (3/3) id=335\n  [SIGNAL] us:TROW     damodaran_unlevered_beta_quality (3/3) id=336\n--- graham_defensive (Graham Defensive Investor)\n\nTotal paper-signals generated: 389\nThese live in paper_trade_signals table. Review with:\n  sqlite3 data/br_investments.db 'SELECT * FROM paper_trade_signals WHERE status=\"open\"'\n",
+      "stderr_tail": ""
+    },
+    {
+      "phase_id": "P4_perpetuum",
+      "name": "Perpetuum master full run",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 25.652215242385864,
+      "stdout_tail": "gh inflation regimes\n      method:dividend_safety                    score= 50  flags=3 | hint: autoresearch: Forward dividend safety scoring � best practices Simply Safe Dividends | Payout ratio thresholds by sector 2024\n\n--- [token_economy] Procura patterns de waste de tokens Claude + prop�e in-house alternatives\n    subjects=121 alerts=0 errors=0 duration=1.36s\n    worst-5:\n      agents/_llm.py                            score= 65  flags=2 | hint: TOKEN_OPT: add disk cache for responses (e.g. data/llm_cache/<hash>.json); extract model to config/settings.yaml for easy swap to Haiku\n      agents/analyst_backtest.py                score=100  flags=0\n      agents/data_janitor.py                    score=100  flags=0\n      agents/devils_advocate.py                 score=100  flags=0\n      agents/meta_agent.py                      score=100  flags=0\n\n--- [library_signals] Aplica library/methods/*.yaml a holdings + watchlist; log paper signals\n    subjects=2912 alerts=0 errors=0 duration=19.91s\n    worst-5:\n      dalio_all_weather_tilt:br:BBDC4           score=  0  flags=0\n      dalio_all_weather_tilt:br:BTLG11          score=  0  flags=0\n      dalio_all_weather_tilt:br:ITSA4           score=  0  flags=0\n      dalio_all_weather_tilt:br:KLBN11          score=  0  flags=0\n      dalio_all_weather_tilt:br:PRIO3           score=  0  flags=0\n\n--- [meta] Meta-audit: valida os outros perpetuums (signal-to-noise, useful flags, cost)\n    subjects=7 alerts=0 errors=0 duration=0.05s\n    worst-5:\n      perpetuum:content_quality                 score= 65  flags=2 | hint: CALIBRATE thresholds for perpetuum content_quality\n      perpetuum:token_economy                   score= 80  flags=1\n      perpetuum:data_coverage                   score= 90  flags=1\n      perpetuum:library_signals                 score= 90  flags=1\n      perpetuum:vault                           score= 90  flags=1\n\n=== Summary ===\nPerpetuums run: 8\nTotal subjects scored: 3508\nTotal decay alerts: 0\nTotal errors: 0\n",
+      "stderr_tail": ""
+    },
+    {
+      "phase_id": "P5_rag",
+      "name": "Batch RAG research (20 strategic queries)",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 169.73349785804749,
+      "stdout_tail": ".\n[dalio_us_late_cycle] Como Dalio identifica que US est� em late cycle vs expansion? Indicado...\n[dalio_currency_depreciation] Quando Dalio sugere currency depreciation como policy response? Trade-...\n[dalio_beautiful_deleveraging] O que � Beautiful Deleveraging segundo o Dalio e como identificar quan...\n[dalio_bubble_detection_quantitative] M�tricas quantitativas espec�ficas que Dalio usa para identificar bubb...\n[damodaran_high_growth_firms] Como Damodaran valua firmas high-growth sem hist�rico longo de lucros?...\n[damodaran_country_risk_br] Como Damodaran incorpora country risk em valuation de empresa brasilei...\n[damodaran_banks_valuation] M�todo de Damodaran para valuation de bancos (n�o-firm DCF cl�ssico). ...\n[damodaran_commodity_cyclical] Como valuation de commodity cyclical firms (VALE-like) segundo Damodar...\n[damodaran_relative_valuation] Relative valuation � quando Damodaran prefere m�ltiplos vs DCF? PEG ra...\n[damodaran_option_pricing] Black-Scholes e real options em valuation � quando Damodaran sugere us...\n[damodaran_wacc_emerging] Cost of Capital em emerging markets � ajustes Damodaran para BR/LATAM ...\n[cross_bubble_defensive] Se Dalio sinalizar bubble, que ajustes Damodaran faz em cost of equity...\n[cross_debt_valuation] Como Dalio debt cycle + Damodaran valuation convergem para determinar ...\n[cross_regime_risk_premium] Regime macro do Dalio afecta equity risk premium de Damodaran? Empiric...\n[apply_br_banks_itsa4] ITSA4 � holding de Ita�. Que framework Damodaran + Dalio sugerem para ...\n[apply_tech_aapl] AAPL com PE 33, PB 44 � Damodaran + Dalio: � bubble territory ou justi...\n[apply_commodity_vale3] VALE3 tem PE 27 e CAGR lucros -12% 5y. Damodaran sobre commodity cycli...\n[portfolio_drip_compound] Para investidor DRIP long-term BR+US, que methods Dalio+Damodaran s�o ...\n[portfolio_macro_overlay] Como combinar stock-picking value (Graham/Damodaran) com macro overlay...\n\nDone. Batch saved to obsidian_vault\\briefings\\overnight_research_2026-04-24\n",
+      "stderr_tail": ""
+    }
+  ]
+}

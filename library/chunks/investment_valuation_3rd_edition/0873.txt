@@ -1,0 +1,32 @@
+ould enter into this joint venture. On the
+other hand, Lear needs to be able to generate a positive net present value of at least $40.09 million to compensate for giving
+up this option.
+7
+abandon.xls:
+
+This spreadsheet allows you to estimate the value of the option to abandon an investment.
+Problems in Valuing the Option to Abandon
+Illustration 29.4 assumed, rather unrealistically, that the abandonment value was clearly specified and
+did not change during the life of the project. This may be true in some very specific cases, in which an
+abandonment option is built into the contract. More often, however, the firm has the option to
+abandon, and the salvage value from abandonment can only be estimated. Further, the abandonment
+value may change over the life of the project, making it difficult to apply traditional option pricing
+techniques. Finally, it is entirely possible that abandoning a project may not bring in a liquidation
+value but may create costs instead; a manufacturing firm may have to pay severance to its workers, for
+instance. In such cases, it would not make sense to abandon unless the cash flows on the project are
+even more negative.
+Extensions and Implications of Abandonment Options
+The fact that the option to abandon has value provides a rationale for firms to build the operating
+flexibility to scale back or terminate projects if they do not measure up to expectations. It also
+indicates that firms that try to generate more revenues by offering their customers the option to walk
+away from commitments will have to weigh the higher revenues against the cost of the options that
+have been granted to these customers.
+Escape Clauses in Contracts
+The first and most direct way of creating an abandonment option is to build operating flexibility
+contractually with other parties that are involved in a project. Thus contracts with suppliers may be
+written on an annual basis rather than be long-term, and employees may be hired on a temporary basis
+rather than permanently. The physical plant used for a project may be leased on a short-term basis
+rather than bought, and the financial investment may be made in stages rather than as an initial lump
+sum. While there is a cost to building in this flexibility, the gains may be much larger, especially in
+volatile businesses.
+Customer Incentives

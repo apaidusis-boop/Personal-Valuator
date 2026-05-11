@@ -1,0 +1,41 @@
+Two-Tailed
+1%
+2.33
+2.55
+5%
+1.66
+1.96
+5
+ The t statistics are marginally significant at the 5% level.
+6
+ Though there are practicial limits on how big the universe can be, care should be taken to make
+
+sure that no biases enter at this stage of the process. An obvious bias would be to pick only stocks
+that have done well over the time period for the universe.
+7
+ One parametric test is an F test, which tests for equality of means across groups. This test can be
+conducted assuming either that the groups have the same variance or that they have different
+variances.
+8
+ An example of a nonparametric test is a rank sum test, which ranks returns across the entire
+sample and then sums the ranks within each group to check whether the rankings are random or
+systematic.
+9
+ There are statistical tables that summarize the expected number of runs, assuming randomness, in
+a series of any length.
+10
+ The 
+Wall Street Journal
+ is often used as an information source to extract announcement dates for
+earnings. For some firms, news of the announcement may actually cross the news wire the day
+before the 
+Wall Street Journal
+ announcement, leading to a misidentification of the report date and
+the drift in returns the day before the announcement.
+11
+ Graham, B., 1949, The Intelligent Investor (New York: HarperBusiness, reprinted in 2005).
+12
+ Since wash sales rules would prevent an investor from selling and buying back the same stock
+within 30 days, there has to be some substitution among the stocks. Thus investor 1 sells stock A
+and investor 2 sells stock B, but when it comes time to buy back the stock, investor 1 buys stock B
+and investor 2 buys stock A.

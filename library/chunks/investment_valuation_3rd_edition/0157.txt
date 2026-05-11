@@ -1,0 +1,28 @@
+ed that the absence of institutional
+buying pushes down prices in the days before the turn of the year and pushes up prices in the days
+after.
+Figure 6.14
+ Institutional Buying/Selling around Year-End
+
+The universality of the January effect is illustrated in 
+Figure 6.15
+, which examines returns in
+January versus the other months of the year in several major financial markets, and finds strong
+evidence of a January effect in every market [Haugen and Lakonishok (1988); Gultekin and Gultekin
+(1983)].
+Figure 6.15
+ Returns in January versus Other Months—Major Financial Markets
+Source:
+ Gultekin and Gultekin (1983).
+
+Weekend Effect
+The weekend effect is another return phenomenon that has persisted over extraordinarily long periods
+and over a number of international markets. It refers to the differences in returns between Mondays
+and other days of the week. The significance of the return difference is brought out in 
+Figure 6.16
+,
+which graphs returns by days of the week from 1962 to 1978 [Gibbons and Hess (1981)].
+Figure 6.16
+ Average Daily Returns by Day of the Week, 1962–1978
+Source:
+ Gibbons and Hess (1981).

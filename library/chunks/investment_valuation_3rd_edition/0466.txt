@@ -1,0 +1,35 @@
+y
+positions in firms they view as undervalued by the market; and finally, investing in risky securities is
+part of doing business for banks, insurance companies, and other financial service companies.
+
+To Make a Higher Return
+Near-cash investments such as Treasury bills and commercial paper are liquid and have little or no
+risk, but they also earn low returns. When firms have substantial amounts invested in marketable
+securities, they can expect to earn considerably higher returns by investing in riskier securities. For
+instance, investing in corporate bonds will yield a higher interest rate than investing in Treasury
+bonds, and the rate will increase with the riskiness of the investment. Investing in stocks will provide
+an even higher expected return, though not necessarily a higher actual return, than investing in
+corporate bonds. 
+Figure 16.1
+ summarizes returns on risky investments—corporate bonds, high-yield
+bonds, and equities—and compares them to the returns on near-cash investments in two decades:
+1990 to 1999 and 2000 to 2009. In the first decade, stocks vastly outpaced corporate bonds and
+Treasuries, but in the second, they did much worse.
+Figure 16.1
+ Returns on Investment Classes: 1990 to 1999 vs. 2000 to 2009
+However, while investing in riskier investments may earn a higher return for the firm, it does not
+make the firm more valuable. In fact, using the same reasoning that we used to analyze near-cash
+investments, we can conclude that investing in riskier investments and earning a fair market return
+(which would reward the risk) be value neutral.
+To Invest in Undervalued Securities
+A good investment is one that earns a return greater than its required return. That principle, developed
+in the context of investments in projects and assets, applies just as strongly to financial investments. A
+firm that invests in undervalued stocks is accepting positive net present value investments, since the
+return it will make on these equity investments will 
+exceed the cost of equity on these investments.
+Similarly, a firm that invests in 
+underpriced corporate bonds will also earn an excess return and a
+positive net present value.
+How likely is it that a firm will find undervalued stocks and bonds to invest in? It depends on how
+efficient markets are and how good the managers of the firm are at finding undervalued securities. In
+unique cases, a firm may be more adept at finding good investments in financial markets than it is at

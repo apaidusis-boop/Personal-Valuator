@@ -1,0 +1,45 @@
+ckly as the standard deviation in firm value increases and the default spread keeps up
+with it.
+Figure 30.4
+ Risk-Neutral Probability of Default and Default Spread
+ESTIMATING THE VALUE OF EQUITY AS AN
+
+OPTION
+The examples we have used thus far to illustrate the application of option pricing to value equity have
+included some simplifying assumptions. Among them are the following:
+There are only two claimholders in the firm—debt and equity.
+There is only one issue of debt outstanding, and it can be retired at face value.
+The debt has a zero coupon and no special features (convertibility, put clauses, etc.).
+The value of the assets of the firm and the variance in that value can be estimated. In
+liquidation, we assume that you will get the value of the assets as the liquidation proceeds.
+Each of these assumptions is made for a reason. First, restricting the claimholders to just debt and
+equity makes the problem more tractable; introducing other claimholders such as preferred stock
+makes it more difficult to arrive at a result, albeit not impossible. Second, by assuming only one zero
+coupon debt issue that can be retired at face value any time prior to maturity, we align the features of
+the debt more closely to the features of the strike price on a standard option. Third, if the debt is
+coupon debt, or more than one debt issue is outstanding, the equity investors can be forced to exercise
+(liquidate the firm) at these earlier coupon dates if they do not have the cash flows to meet their
+coupon obligations.
+Finally, knowing the value of the firm assets in liquidation and the variance in that value makes the
+option pricing possible, but it also raises an interesting question about the usefulness of option pricing
+in equity valuation. If the bonds of the firm are publicly traded, the market value of the debt can be
+subtracted from the value of the firm to obtain the value of equity much more directly. The option
+pricing approach does have its advantages, however. Specifically, when the debt of a firm is not
+publicly traded, option pricing theory can provide an estimate of value for the equity in the firm. Even
+when the debt is publicly traded, the bonds may not be correctly valued, and the option pricing
+framework can be useful in evaluating the values of debt and equity. Finally, the value of the firm may
+be different from the liquidation value of the assets; the former also incorporate the expected value of
+growth potential.
+Inputs for Valuing Equity as an Option
+Since most firms do not fall into the neat framework just developed (such as having only one zero
+coupon bond outstanding), some compromises are needed in order to use this model in valuation.
+Value of the assets of the Firm
+The liquidation value of the assets of the firm can be obtained in one of four ways. In the first, we
+cumulate the market values of outstanding debt and equity, assuming that all debt and equity are
+traded, to obtain firm value and we assume that this approximately liquidation value. The option
+pricing model then reallocates the firm value between debt and equity. This approach, while simple,
+is internally inconsistent. We start with one set of market values for debt and equity and, using the
+option pricing model, end up with entirely different values for each. We are also assuming that the
+going concern value of the firm is equal to what you would get if you liquidated its assets.
+In the second, we estimate the value of the assets of the firm by discounting expected cash flows at
+the cost of capital. The one consideration that we need to keep in mind is that the value of the firm in

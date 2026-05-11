@@ -1,0 +1,40 @@
+r for revenues than for earnings. For firms
+with volatile earnings and revenues, the caveats about using arithmetic growth carry even more
+weight.
+ILLUSTRATION 11.1: Differences between Arithmetic and
+
+Geometric Averages: Motorola (1994–1999)
+The following table reports the revenues, EBITDA, EBIT, and net income for Motorola for each year from 1994 to 1999.
+The arithmetic and geometric average growth rates in each series are reported at the bottom of the table.
+The arithmetic average growth rate is higher than the geometric average growth rate for all four items, but the difference is
+much larger with net income and operating income (EBIT) than it is with revenues and EBITDA. This is because the net
+and operating income are the most volatile of the numbers, with a standard deviation in year-to-year changes of over 140%.
+Looking at the net and operating income in 1994 and 1999, it is also quite clear that the geometric averages are much better
+indicators of true growth. Motorola's operating income grew only marginally during the period, and this is reflected in its
+geometric average growth rate, which is 4.31%, but not in its arithmetic average growth rate, which indicates much faster
+growth. Motorola's net income dropped by almost 50% during the period. This is reflected in its negative geometric average
+growth rate but its arithmetic average growth rate is 36.91%.
+Linear and Log-Linear Regression Models
+The arithmetic mean weights percentage changes in earnings in each period equally and ignores
+compounding effects in earnings. The geometric mean considers compounding but focuses on the first
+and the last earnings observations in the series—it ignores the information in the intermediate
+observations and any trend in growth rates that may have developed over the period. These problems
+are at least partially overcome by using ordinary least squares (OLS)
+1
+ regressions of earnings per
+share (EPS) against time. The linear version of this model is:
+where EPS
+t
+ = Earnings per share in period t 
+t = Time period t
+The slope coefficient on the time variable is a measure of earnings change per time period. The
+problem, however, with the linear model is that it specifies growth in terms of dollar EPS and is not
+appropriate for projecting future growth, given compounding.
+The log-linear version of this model converts the coefficient into a percentage change:
+where ln(EPS
+t
+) = Natural logarithm of earnings per share in period t 
+t = Time period t
+The coefficient b on the time variable becomes a measure of the percentage change in earnings per
+unit time.
+ILLUSTRATION 11.2: Linear and Log-Linear Models of

@@ -1,0 +1,47 @@
+not be
+delivered.
+Cost cutting is never painless; not only is the economic cost associated with layoffs (severance pay) large, but
+there is an associated loss of morale that can be just as expensive.
+
+The initial phases of cost cuts go much more smoothly than the later phases. Part of the reason for this is that
+the easy cost cuts come first and the tough ones come later.
+It is far more difficult to separate those costs that do not generate benefits for the firm from those that do
+than it seems at the outset, especially if we think of benefits in the long term.
+Cost cutting that is promised in the abstract is less likely to happen than cost cutting that is described in detail.
+An example would be a bank merger where the branches that will be closed after the merger are specified as
+opposed to one where the bank just specified that economies of scale will lower costs.
+From a valuation perspective, you should first evaluate the credibility of the management that is making the cost cutting
+claims, and even if you believe the managers you should allow for phasing in the cost cuts over time; the larger the firm and
+the bigger the cost cuts, the longer it will take to cut costs.
+Reduce the Tax Burden
+The value of a firm is the present value of its after-tax cash flows. Thus, any action that can reduce the
+tax burden on a firm for a given level of operating income will increase value. Although there are
+some aspects of the tax code that offer no flexibility to the firm, the tax rate can be reduced over time
+by doing any or all of the following:
+Multinational firms that generate earnings in different markets may be able to move income
+from high-tax locations to low-tax or no-tax locations. For instance, the prices that divisions
+of these firms charge each other for intracompany sales (transfer prices) can allow profits to
+be shifted from one part of the firm to another.
+3
+A firm may be able to acquire net operating losses that can be used to shield future income.
+In fact, this might be why a profitable firm acquires an unprofitable one.
+A firm can use risk management to reduce the average tax rate paid on income over time
+because the marginal tax rate on income tends to rise, in most tax systems, as income
+increases. By using risk management to smooth income over time, firms can make their
+incomes more stable and reduce their exposure to the highest marginal tax rates.
+4
+ This is
+especially the case when a firm faces 
+windfall or supernormal profit taxes.
+ILLUSTRATION 31.3: 
+Tax Rates and Value
+In Illustration 15.1, we valued Telesp, the Brazilian telecom company, at 25,902 million Brazilian reals, using a tax rate of
+30% in the valuation. This tax rate was used as the effective tax rate on income and the marginal tax rate to compute the
+after-tax cost of debt.
+To the extent that Telesp may be able to reduce its tax rate, it will be able to increase the value of its operating assets. In
+Figure 31.3
+, the valuation of the operating assets is computed for Telesp under two scenarios. In the first, we change both
+the effective tax rate (used to compute after-tax income) and the marginal tax rate (to compute the after-tax cost of debt).
+In the second, we change only the effective tax rate but leave the marginal tax rate at 30%.
+Figure 31.3
+ Tax Rate and Operating Asset Value—Telesp

@@ -1,0 +1,49 @@
+economic factors, and the resultant model should have an
+economic basis while still retaining much of the strength of the arbitrage pricing model. That is
+precisely what multifactor models try to do.
+
+Deriving a Multifactor Model
+Multifactor models generally are determined by historical data rather than by economic modeling.
+Once the number of factors has been identified in the arbitrage pricing model, their behavior over
+time can be extracted from the data. The behavior of the unnamed factors over time can then be
+compared to the behavior of macroeconomic variables over that same period, to see whether any of
+the variables is correlated, over time, with the identified factors.
+For instance, Chen, Roll, and Ross (1986) suggest that the following macroeconomic variables are
+highly correlated with the factors that come out of factor analysis: industrial production, changes in
+default premium, shifts in the term structure, unanticipated inflation, and changes in the real rate of
+return. These variables can then be correlated with returns to come up with a model of expected
+returns, with firm-specific betas calculated relative to each variable.
+where β
+GNP
+ = Beta relative to changes in industrial production 
+E(R
+GNP
+) = Expected return on a portfolio with a beta of one on the industrial production factor
+and zero on all other factors 
+β
+I
+ = Beta relative to changes in inflation 
+E(R
+I
+) = Expected return on a portfolio with a beta of one on the inflation factor and zero on all
+other factors
+The costs of going from the arbitrage pricing model to a macroeconomic multifactor model can be
+traced directly to the errors that can be made in identifying the factors. The economic factors in the
+model can change over time, as will the risk premium associated with each one. For instance, oil
+price changes were a significant economic factor driving expected returns in the 1970s but are not as
+significant in other time periods. Using the wrong factor or missing a significant factor in a
+multifactor model can lead to inferior estimates of expected return.
+ALTERNATIVE MODELS FOR EQUITY RISK
+The CAPM, arbitrage pricing model, and multifactor model represent attempts by financial
+economists to build risk and return models from the mean-variance base established by Harry
+Markowitz (1991). There are many, though, who believe the basis for the model is flawed and that
+we should be looking at alternatives, and in this section, we will look at some of them.
+Different Return Distributions
+From its very beginnings, the mean-variance framework has been controversial. While there have
+been many who have challenged its applicability, we will consider these challenges in three groups.
+The first group argues that stock prices, in particular, and investment returns, in general, exhibit too
+many large values to be drawn from a normal distribution. They argue that the fat tails on stock price
+distributions lend themselves better to a class of distributions, called power law distributions, which
+exhibit infinite variance and long periods of price dependence. The second group takes issue with the
+symmetry of the normal distribution and argues for measures that incorporate the asymmetry observed
+in actual return distributions into risk measures. The third group posits that distributions that allow for

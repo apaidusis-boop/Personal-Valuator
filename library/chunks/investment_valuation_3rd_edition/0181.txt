@@ -1,0 +1,47 @@
+hy this might be so, it is
+worth noting that the standard error on each and every one of these estimates is high, notwithstanding
+the fact that the premiums are estimated over a very long time period.
+
+HISTORICAL RISK PREMIUM APPROACH: SOME
+CAVEATS
+Given how widely the historical risk premium approach is used, it is surprising how flawed it is and how little attention these
+flaws have attracted. Consider first the underlying assumption that investors’ risk premiums have not changed over time and
+that the average risk investment (in the market portfolio) has remained stable over the period examined. We would be hard-
+pressed to find anyone who would be willing to sustain this argument with fervor.
+The obvious fix for this problem, which is to use a more recent time period, runs directly into a second problem, which is the
+large standard error associated with risk premium estimates. Though these standard errors may be tolerable for very long
+time periods, they clearly are unacceptably high when shorter periods are used.
+Finally, even if there is a sufficiently long time period of history available and investors’ risk aversion has not changed in a
+systematic way over that period, there is a final problem. Markets that exhibit this characteristic, and let us assume that the
+U.S. market is one such example, represent so-called survivor markets. In other words, assume that one had invested in the
+10 largest equity markets in the world in 1928, of which the United States was one. In the period extending from 1928 to
+2010, investments in few of the other equity markets would have earned as large a premium as the U.S. equity market, and
+some of them (like Austria) would have resulted in investors earning little or even negative returns over the period. Thus, the
+survivor bias will result in historical premiums that are larger than expected premiums for markets like the United States,
+even assuming that investors are rational and factor risk into prices.
+If the standard errors on these estimates are high, consider how much more noise there is in
+estimates of historical risk premiums for emerging market equity markets, which often have a reliable
+history of 10 years or less and very large standard deviations in annual stock returns. Historical risk
+premiums for emerging markets may provide for interesting anecdotes, but they clearly should not be
+used in risk and return models.
+Modified Historical Risk Premium
+While historical risk premiums for markets outside the United States cannot be used in risk models,
+we still need to estimate a risk premium for use in these markets. To approach this estimation
+question, let us start with the basic proposition that the risk premium in any equity market can be
+written as:
+The country premium could reflect the extra risk in a specific market. This boils down our estimation
+to answering two questions:
+1.
+ What should the base premium for a mature equity market be?
+2.
+ Should there be a country premium, and if so, how do we estimate the premium?
+To answer the first question, one can argue that the U.S. equity market is a mature market and that
+there is sufficient historical data in the United States to make a reasonable estimate of the risk
+premium. In fact, reverting back to our discussion of historical premiums in the U.S. market, we will
+use the geometric average premium earned by stocks over Treasury bonds of 4.31 percent between
+1928 and 2010. We have chosen the long time period to reduce standard error, the Treasury bond to
+be consistent with our choice of a risk-free rate, and the geometric averages to reflect our desire for a
+risk premium that we can use for longer-term expected returns.
+On the issue of country premiums, there are some who argue that country risk is diversifiable and
+that there should be no country risk premium. After looking at the basis for their argument, and then
+considering the alternative view that there should be a country risk premium, we present approaches

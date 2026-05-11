@@ -1,0 +1,21 @@
+vel.
+
+## Acionistas, controle e governança
+
+O controlador é a **Fundação José Carvalho** que detém **50,6% do capital social da Ferbasa**, incluindo **98,83% das ações ordinárias** com direito a voto.
+
+Fonte: Ferbasa, site de RI, “Composição acionária”. Coletado em mar/25. Elaboração Finclass.
+
+A companhia está listada no **Nível 1 de Governança Corporativa**, que representa as menores exigências dentre os segmentos de listagem da **B3**.
+
+As ações preferenciais (**PN: FESA4**) **têm direito a um dividendo 10% superior** às ordinárias (**ON: FESA3**).
+
+A estrutura de controle da **Ferbasa** é objeto de uma disputa judicial relevante, que merece atenção por seu potencial de impacto sobre a governança e o quadro acionário da companhia. Em 2007, o fundador, **José Carvalho**, sofreu interdição judicial em razão do diagnóstico de Alzheimer, seu filho e único herdeiro, **José Eduardo Cabral de Carvalho**, passou a questionar judicialmente a legalidade da transferência das ações para a fundação, realizada ainda na década de 1970.
+
+O argumento central de **José Eduardo** é que a doação teria violado o instituto da **legítima**, proteção prevista no Direito Civil brasileiro que impede a doação em vida de mais de 50% do patrimônio em prejuízo dos herdeiros necessários. Caso obtenha êxito, ele poderia passar a deter aproximadamente **25,27% do capital social da Ferbasa**, tornando-se seu maior acionista individual e alterando potencialmente a estrutura de controle da companhia.
+
+O desfecho do processo permanece indefinido, mas representa um **risco de governança** a ser monitorado pelo investidor, dado seu potencial de reconfigurar o controle acionário da companhia.
+
+## Modelo de negócios
+
+A **Ferbasa** é uma produtora de ferroligas, que são combinações de ferro com outros metais que visam conferir propriedades específicas, como resistência à corrosão, dureza ou condutividade elétrica.

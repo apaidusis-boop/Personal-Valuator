@@ -1,0 +1,13 @@
+a entrada de genéricos pressionando preços e ampliando opções. A SLC negocia diretamente com as grandes indústrias, definindo anualmente o portfólio que equilibra qualidade e menor custo por hectare.
+
+O fator que impede essa nota de ser ainda mais baixa é a **escala como arma de barganha reversa.** Como uma das maiores compradoras individuais de insumos do país, a SLC obtém descontos por volume, prazos estendidos e prioridade de entrega em períodos de escassez — condições inacessíveis a produtores de menor porte. Ainda assim, o poder estrutural dos fornecedores permanece elevado e parcialmente fora do controle da gestão.
+
+##### 3\. Poder de barganha dos compradores — nota 2,5/5 (moderadamente desfavorável)
+
+A SLC vende *commodities* padronizadas cujos preços são determinados nas bolsas internacionais (CBOT para soja e milho, ICE para algodão). A companhia é, por definição, uma *price taker:* não tem qualquer capacidade de influenciar o preço de venda.
+
+A negociação real com os compradores se dá em torno dos **prêmios ou descontos regionais** (basis), que refletem condições locais de oferta/demanda, qualidade, logística e *timing.* Os compradores diretos — majoritariamente as grandes *tradings* globais do grupo ABCD (ADM, Bunge, Cargill, Dreyfus), somadas à COFCO — concentram parcela expressiva da intermediação e têm infraestrutura logística, inteligência de mercado e poder financeiro que lhes conferem barganha significativa.
+
+A **ciclicidade de preços** agrava o cenário. Os preços das *commodities* agrícolas estão sujeitos a ciclos pronunciados, influenciados por safra global, estoques, câmbio, políticas comerciais e eventos climáticos. Nos vales do ciclo, mesmo um operador de excelência como a SLC tem margens comprimidas, evidenciando que a ausência de *pricing power* é uma vulnerabilidade estrutural e permanente.
+
+Três fatores mitigadores impedem uma nota mais baixa:

@@ -1,0 +1,41 @@
+. Using the average beta of 1.20, reported by investment
+banks in 2010, in conjunction with a Treasury bond rate of 3.5% and an equity risk premium of 5%, yields a cost of equity of
+9.5% for the firm:
+
+In 2010, Goldman earned net income of $8,354 million, which in conjunction with the book value of equity of $71,674 million
+at the end of 2009 resulted in a return on equity of 11.66%:
+Note that this is a steep drop-off from the returns on equity that Goldman posted in the years prior to the banking crisis of
+2008. During 2010, Goldman Sachs also paid out dividends per share of $1.40 on earnings per share of $13.99, resulting in a
+payout ratio of 10%. Assuming that Goldman is able to maintain its return on equity, payout ratio, and cost of equity at
+current levels for the next five years, the excess returns and the present value are summarized in the following table:
+The net income each year is computed by multiplying the return on equity each year by the beginning book value of equity.
+The book value of equity each year is augmented by the portion of earnings that is not paid out as dividends.
+To put closure on this valuation, we have to make assumptions about excess returns after year 5. We assume that the net
+income would grow 3% a year beyond year 5 and that the beta for the stock would remain unchanged at 1.20. For Goldman
+Sachs, we will assume that the return on equity after year 5 will be 9.50%, set equal to the cost of equity. Since the firm
+earns its cost of equity after year 5, there is no value gained or lost after that year. The value of equity can then be
+computed as the sum of the three components—the book value of equity invested today, the present value of excess equity
+returns over the next five years, and the present value of the terminal value of equity.
+Book value of equity invested currently
+$78,228
+PV of equity excess return—next five years
+$ 7,880
+PV of terminal value of excess returns
+0
+Value of equity
+$86,068
+Number of shares
+517.735
+Value per share
+$166.24
+At the time of this valuation in May 2011, Goldman Sachs was trading at $140.63 a share, making it undervalued by about
+18%.
+ASSET-BASED VALUATION
+In asset-based valuation, we value the existing assets of a financial service firm, net out debt and
+other outstanding claims, and report the difference as the value of equity. For example, with a bank,
+this would require valuing the loan portfolio of the bank (which would comprise its assets) and
+subtracting outstanding debt to estimate the value of equity. For an insurance company, you would
+value the policies that the company has in force and subtract out the expected claims resulting from
+these policies and other debt outstanding to estimate the value of the equity in the firm.
+How would you value the loan portfolio of a bank or the policies of an insurance company? One
+approach would be to estimate the price at which the loan portfolio can be sold to another financial

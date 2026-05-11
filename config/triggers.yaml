@@ -1,0 +1,255 @@
+# triggers.yaml — regras declarativas para alerts proactivos de BUY/SELL/TRIM/ADD.
+#
+# Cada entry vira uma avaliação rodada no `scripts/trigger_monitor.py` no fim do
+# pipeline diário. Quando dispara, abre uma row em `watchlist_actions` (decision
+# journal). A row permanece `open` até o user marcar como `resolved` (p.ex.
+# "comprei 10 @ X") ou `ignored`. Dedupe diário por (ticker, kind, trigger_id).
+#
+# Campos base (todos os kinds):
+#   id            — slug estável; usado no dedupe. Mudar o id = novo trigger.
+#   ticker        — símbolo na DB (sem sufixo .SA no BR)
+#   market        — 'br' | 'us'  (para saber qual DB consultar)
+#   kind          — tipo de regra (ver abaixo)
+#   action_hint   — BUY | ADD | TRIM | SELL | REVIEW (apenas sugestão)
+#   note          — texto curto p/ contexto no journal
+#
+# === kinds suportados ===
+#
+# price_drop_from_high
+#     Dispara quando o preço actual caiu ≥ threshold_pct do MÁXIMO dos últimos
+#     `lookback_days` dias. Usa tabela `prices`.
+#     Params: lookback_days (int), threshold_pct (float, negativo — ex: -10)
+#
+# dy_above_pct
+#     Dispara quando o DY trailing-12m actual ≥ threshold_pct (absoluto).
+#     Usa `dividends` (soma 12m) / preço actual de `prices`.
+#     Params: threshold_pct (float, em %)
+#
+# dy_percentile_vs_own_history
+#     Dispara quando o DY trailing-12m actual está ACIMA do percentile P dos
+#     últimos `lookback_years` de DY rolling. Isto é, historicamente cheap.
+#     Requer pelo menos `min_years` de dividend history.
+#     Params: percentile (int, 0-100; tipicamente 75-90),
+#             lookback_years (int, default 10),
+#             min_years (int, default 5)
+#
+# altman_distress
+#     Dispara quando Altman Z-Score < threshold_z (default 1.81 = distress zone).
+#     Signal estrutural de risco de insolvência. Skips sectores excluídos
+#     (Banks, REITs, FIIs — rácios não aplicáveis).
+#     Params: threshold_z (float, default 1.81)
+#
+# piotroski_weak
+#     Dispara quando Piotroski F-Score ≤ threshold_f (default 3).
+#     Quality red flag cumulativo (9 critérios YoY). Mesmas exclusões de sector.
+#     Params: threshold_f (int, default 3)
+#
+# fii_cotistas_drop
+#     FIIs only. Dispara quando total_cotistas (CVM `fii_monthly`) caiu
+#     ≥ threshold_pct nos últimos `lookback_months` meses. Sinal de saída
+#     líquida estrutural — frequentemente antecipa pressão de preço/distros.
+#     Params: lookback_months (int, default 3),
+#             threshold_pct (float, negativo — ex: -5),
+#             min_cotistas (int, default 1000) para ignorar fundos pequenos.
+#
+# === Campo `scope` (opcional) ===
+# Se presente em vez de `ticker`, expande para uma sub-trigger por holding
+# activa. `scope: all_holdings` = todos os tickers em portfolio_positions
+# (filtrados por `market` se declarado). Útil para vetos estruturais que
+# se aplicam universalmente.
+#
+# --- Notas de design ---
+# Critérios de screen (Graham/Buffett) vivem em scoring/engine.py e continuam
+# independentes. Triggers sobre *preço/yield* → oportunidade táctica; triggers
+# de *qualidade estrutural* (Altman/Piotroski) → veto de risco. São camadas
+# complementares no mesmo journal.
+#
+# ⚠ Empirical caveat (validado em analytics/backtest_yield.py, 2026-04):
+# O sinal `dy_percentile_vs_own_history` NÃO gera alpha quando usado como
+# stock-picker em universe alargado (edge -1.4% BR, -1.8% US vs equal-weight).
+# Nem sequer com filtro de qualidade (screen>=0.6) recupera edge positivo.
+# Uso correcto: contexto observacional e entry-timing em posições já decididas
+# por outras razões (thesis, DRIP target, rebalance). NÃO é accionável sozinho.
+
+triggers:
+
+  # === Dividend Kings / Aristocrats — accumulate on dips ===
+  - id: jnj_dip_10
+    ticker: JNJ
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 90
+    threshold_pct: -10.0
+    action_hint: ADD
+    note: "Dividend King 62y streak — comprar em dip 10% de high 90d"
+
+  - id: ko_cheap_dy
+    ticker: KO
+    market: us
+    kind: dy_percentile_vs_own_history
+    percentile: 75
+    lookback_years: 10
+    min_years: 5
+    action_hint: ADD
+    note: "KO no top quartil de DY histórico = historicamente cheap"
+
+  - id: pg_cheap_dy
+    ticker: PG
+    market: us
+    kind: dy_percentile_vs_own_history
+    percentile: 75
+    lookback_years: 10
+    min_years: 5
+    action_hint: ADD
+    note: "PG Dividend King — entry quando DY acima P75 10y"
+
+  # === US compounders — watch for drawdowns ===
+  - id: aapl_dip_15
+    ticker: AAPL
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 120
+    threshold_pct: -15.0
+    action_hint: REVIEW
+    note: "AAPL growth pick — drawdown 15% merece review (não BUY automático)"
+
+  - id: tsm_dip_15
+    ticker: TSM
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 90
+    threshold_pct: -15.0
+    action_hint: ADD
+    note: "TSM AI/compute monopoly — 15% dip em 90d raramente persiste"
+
+  # === BR — bancos e mineração em ciclos de dividendo ===
+  - id: bbdc4_cheap_dy
+    ticker: BBDC4
+    market: br
+    kind: dy_percentile_vs_own_history
+    percentile: 75
+    lookback_years: 10
+    min_years: 5
+    action_hint: ADD
+    note: "BBDC4 no top quartil de DY histórico — fase de dividendo gordo"
+
+  - id: itsa4_dy_8pct
+    ticker: ITSA4
+    market: br
+    kind: dy_above_pct
+    threshold_pct: 8.0
+    action_hint: ADD
+    note: "ITSA4 com DY ≥ 8% t12m (incluindo JCP) é zone de accumulate"
+
+  - id: vale3_dip_15
+    ticker: VALE3
+    market: br
+    kind: price_drop_from_high
+    lookback_days: 90
+    threshold_pct: -15.0
+    action_hint: REVIEW
+    note: "VALE3 cíclico — dip 15% pode ser thesis break ou oportunidade"
+
+  # === $3k candidates (Phase M/N 2026-04-21) — entry windows ===
+  # Alvos identificados no memo reports/3k_usd_decision_2026-04-21.md.
+  # Thresholds calibrados para disparar quando valuation melhora ~10-20% vs hoje.
+
+  - id: trow_dy_5p5
+    ticker: TROW
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 5.5
+    action_hint: BUY
+    note: "TROW (Aristocrat 41y) já passa screen 4/4; DY≥5.5% = cheap mesmo para o próprio histórico"
+
+  - id: mkc_dy_4p0
+    ticker: MKC
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 4.0
+    action_hint: BUY
+    note: "MKC (Aristocrat 41y) staples cheap; DY≥4% calibrado para price ~$47 (-10% vs hoje)"
+
+  - id: adp_dy_3p8
+    ticker: ADP
+    market: us
+    kind: dy_above_pct
+    threshold_pct: 3.8
+    action_hint: BUY
+    note: "ADP (King 44y) industrials gap-filler; DY≥3.8% = price ~$180 (-12% vs hoje), aproxima P/E 19"
+
+  - id: abbv_drop_20
+    ticker: ABBV
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 180
+    threshold_pct: -20.0
+    action_hint: REVIEW
+    note: "ABBV (Aristocrat 53y) fica caro (P/E 86 post-Humira); drop 20% merece re-analysis do Rinvoq/Skyrizi ramp"
+
+  - id: tgt_drop_15
+    ticker: TGT
+    market: us
+    kind: price_drop_from_high
+    lookback_days: 120
+    threshold_pct: -15.0
+    action_hint: ADD
+    note: "TGT (King 54y) quality turnaround; drop 15% em 120d = thesis ainda válida se Altman SAFE"
+
+  # === Quality vetoes — estruturais, expandidos a todas as holdings ===
+  # Usam scope:all_holdings + expansão automática em _expand_scoped_triggers.
+  # Sectores excluídos (Banks, REITs, FIIs) são no-op (not_applicable).
+
+  - id: quality/altman-distress
+    scope: all_holdings
+    kind: altman_distress
+    threshold_z: 1.81
+    action_hint: REVIEW
+    note: "Altman Z abaixo de 1.81 (distress zone) — rever balance sheet, capex e dívida antes de nova entrada"
+
+  - id: quality/piotroski-weak
+    scope: all_holdings
+    kind: piotroski_weak
+    threshold_f: 3
+    action_hint: REVIEW
+    note: "Piotroski F ≤ 3 — deterioração cumulativa em rentabilidade/liquidez/eficiência vs ano anterior"
+
+  # === ACN buy-zone (2026-04-23 após Q2 derating -41% do cost basis) ===
+  - id: acn_buyzone_170
+    ticker: ACN
+    market: us
+    kind: price_below
+    threshold_price: 170.00
+    action_hint: REVIEW
+    note: "ACN ≤ $170: DY percentile perto de P75 (CHEAP); screen ainda falha P/B mas near-zone entry; validar Piotroski estabilizou ≥6 antes de adicionar"
+
+  - id: acn_buyzone_150
+    ticker: ACN
+    market: us
+    kind: price_below
+    threshold_price: 150.00
+    action_hint: ADD
+    note: "ACN ≤ $150: screen passa 4/5 (P/B ≤3, P/E, ROE, streak ✓); margem de segurança Graham se Piotroski ≥6 e Altman continua SAFE"
+
+  # === FII cotistas red flags — saída líquida >5% em 3m ===
+  # Lacuna identificada 2026-05-08 (RBRX11 -8% Jul→Dez/25 não foi sinalizado).
+  # Dados via CVM `fii_monthly.total_cotistas` (lag ~30-45d).
+  - id: rbrx11_cotistas_drop_5_6m
+    ticker: RBRX11
+    market: br
+    kind: fii_cotistas_drop
+    lookback_months: 6
+    threshold_pct: -5.0
+    min_cotistas: 1000
+    action_hint: REVIEW
+    note: "RBRX11 cotistas −5% em 6m — saída líquida persistente (Pátria-RBR integration angle); rever tese antes de adicionar"
+
+  - id: knhf11_cotistas_drop_5_6m
+    ticker: KNHF11
+    market: br
+    kind: fii_cotistas_drop
+    lookback_months: 6
+    threshold_pct: -5.0
+    min_cotistas: 1000
+    action_hint: REVIEW
+    note: "KNHF11 cotistas −5% em 6m — sinal saída líquida (FII Kinea); comparar contra Pátria/RBR cohort para isolar idiosyncratic vs sector"

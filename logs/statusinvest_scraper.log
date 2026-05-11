@@ -1,0 +1,42 @@
+{"ts": "2026-04-15T09:05:45Z", "event": "scrape_start", "ticker": "ITSA4"}
+{"ts": "2026-04-15T09:05:47Z", "event": "scraped", "ticker": "ITSA4", "period_end": "2026-04-15", "fields": {"dy": 0.08539999999999999, "pe": 10.09, "pb": 1.78, "bvps": 8.33, "eps": 1.47, "roe": 0.1766, "net_debt_ebitda": 0.25}, "dividend_streak_years": 20, "dividend_years_seen": 20}
+{"ts": "2026-04-15T10:00:57Z", "event": "scrape_start", "ticker": "ITSA4"}
+{"ts": "2026-04-15T10:00:59Z", "event": "scraped", "ticker": "ITSA4", "period_end": "2026-04-15", "fields": {"dy": 0.08539999999999999, "pe": 10.09, "pb": 1.78, "bvps": 8.33, "eps": 1.47, "roe": 0.1766, "net_debt_ebitda": 0.25}, "dividend_streak_years": 20, "dividend_years_persisted": 20}
+{"ts": "2026-04-15T10:31:02Z", "event": "scrape_start", "ticker": "PRIO3"}
+{"ts": "2026-04-15T10:31:04Z", "event": "scraped", "ticker": "PRIO3", "period_end": "2026-04-15", "fields": {"dy": null, "pe": 25.22, "pb": 2.2, "bvps": 29.55, "eps": 2.58, "roe": 0.0873, "net_debt_ebitda": 3.26}, "dividend_streak_years": 1, "dividend_years_persisted": 7}
+{"ts": "2026-04-15T10:31:05Z", "event": "scrape_start", "ticker": "VALE3"}
+{"ts": "2026-04-15T10:31:06Z", "event": "scraped", "ticker": "VALE3", "period_end": "2026-04-15", "fields": {"dy": 0.062, "pe": 28.38, "pb": 2.07, "bvps": 42.56, "eps": 3.11, "roe": 0.0731, "net_debt_ebitda": 0.8}, "dividend_streak_years": 19, "dividend_years_persisted": 19}
+{"ts": "2026-04-15T10:31:07Z", "event": "scrape_start", "ticker": "BBDC4"}
+{"ts": "2026-04-15T10:31:08Z", "event": "scraped", "ticker": "BBDC4", "period_end": "2026-04-15", "fields": {"dy": 0.059800000000000006, "pe": 9.2, "pb": 1.23, "bvps": 16.89, "eps": 2.26, "roe": 0.13369999999999999, "net_debt_ebitda": null}, "dividend_streak_years": 20, "dividend_years_persisted": 20}
+{"ts": "2026-04-15T12:33:12Z", "event": "scrape_start", "ticker": "PETR4"}
+{"ts": "2026-04-15T12:33:14Z", "event": "scraped", "ticker": "PETR4", "period_end": "2026-04-15", "fields": {"dy": 0.0687, "pe": 5.6, "pb": 1.48, "bvps": 32.4, "eps": 8.54, "roe": 0.2637, "net_debt_ebitda": 0.94}, "dividend_streak_years": 8, "dividend_years_persisted": 16}
+{"ts": "2026-04-15T12:33:30Z", "event": "scrape_start", "ticker": "AXIA7"}
+{"ts": "2026-04-15T12:33:32Z", "event": "scraped", "ticker": "AXIA7", "period_end": "2026-04-15", "fields": {"dy": null, "pe": 28.87, "pb": 1.6, "bvps": 40.65, "eps": 2.25, "roe": 0.0553, "net_debt_ebitda": -7.87}, "dividend_streak_years": null, "dividend_years_persisted": 0}
+{"ts": "2026-04-15T12:36:17Z", "event": "scrape_start", "ticker": "ALOS3"}
+{"ts": "2026-04-15T12:36:18Z", "event": "scraped", "ticker": "ALOS3", "period_end": "2026-04-15", "fields": {"dy": 0.0654, "pe": 20.13, "pb": 1.21, "bvps": 27.57, "eps": 1.65, "roe": 0.06, "net_debt_ebitda": -1.07}, "dividend_streak_years": 6, "dividend_years_persisted": 15}
+{"ts": "2026-04-15T12:36:27Z", "event": "scrape_start", "ticker": "B3SA3"}
+{"ts": "2026-04-15T12:36:28Z", "event": "scraped", "ticker": "B3SA3", "period_end": "2026-04-15", "fields": {"dy": 0.0308, "pe": 21.66, "pb": 5.69, "bvps": 3.46, "eps": 0.91, "roe": 0.2626, "net_debt_ebitda": -0.06}, "dividend_streak_years": 11, "dividend_years_persisted": 11}
+{"ts": "2026-04-15T12:36:31Z", "event": "scrape_start", "ticker": "ENGI11"}
+{"ts": "2026-04-15T12:36:32Z", "event": "scraped", "ticker": "ENGI11", "period_end": "2026-04-15", "fields": {"dy": 0.029300000000000003, "pe": 13.23, "pb": 1.38, "bvps": 42.06, "eps": 4.4, "roe": 0.1045, "net_debt_ebitda": 3.83}, "dividend_streak_years": 13, "dividend_years_persisted": 13}
+{"ts": "2026-04-15T12:36:35Z", "event": "scrape_start", "ticker": "ITUB4"}
+{"ts": "2026-04-15T12:36:36Z", "event": "scraped", "ticker": "ITUB4", "period_end": "2026-04-15", "fields": {"dy": 0.0677, "pe": 11.44, "pb": 2.39, "bvps": 19.5, "eps": 4.07, "roe": 0.2086, "net_debt_ebitda": null}, "dividend_streak_years": 18, "dividend_years_persisted": 19}
+{"ts": "2026-04-15T12:36:38Z", "event": "scrape_start", "ticker": "EQTL3"}
+{"ts": "2026-04-15T12:36:39Z", "event": "scraped", "ticker": "EQTL3", "period_end": "2026-04-15", "fields": {"dy": 0.0507, "pe": 33.79, "pb": 2.0, "bvps": 22.5, "eps": 1.33, "roe": 0.0592, "net_debt_ebitda": null}, "dividend_streak_years": 15, "dividend_years_persisted": 17}
+{"ts": "2026-04-15T12:36:40Z", "event": "scrape_start", "ticker": "MOTV3"}
+{"ts": "2026-04-15T12:36:41Z", "event": "scraped", "ticker": "MOTV3", "period_end": "2026-04-15", "fields": {"dy": 0.0277, "pe": 10.8, "pb": 2.17, "bvps": 8.06, "eps": 1.62, "roe": 0.2014, "net_debt_ebitda": 3.85}, "dividend_streak_years": 18, "dividend_years_persisted": 18}
+{"ts": "2026-04-15T12:36:43Z", "event": "scrape_start", "ticker": "MULT3"}
+{"ts": "2026-04-15T12:36:44Z", "event": "scraped", "ticker": "MULT3", "period_end": "2026-04-15", "fields": {"dy": 0.0232, "pe": 15.43, "pb": 2.8, "bvps": 12.28, "eps": 2.22, "roe": 0.18109999999999998, "net_debt_ebitda": 2.17}, "dividend_streak_years": 17, "dividend_years_persisted": 17}
+{"ts": "2026-04-15T12:36:46Z", "event": "scrape_start", "ticker": "PGMN3"}
+{"ts": "2026-04-15T12:36:47Z", "event": "scraped", "ticker": "PGMN3", "period_end": "2026-04-15", "fields": {"dy": 0.043899999999999995, "pe": 16.33, "pb": 1.37, "bvps": 4.27, "eps": 0.36, "roe": 0.08410000000000001, "net_debt_ebitda": 0.91}, "dividend_streak_years": 3, "dividend_years_persisted": 3}
+{"ts": "2026-04-15T12:36:49Z", "event": "scrape_start", "ticker": "PLPL3"}
+{"ts": "2026-04-15T12:36:50Z", "event": "scraped", "ticker": "PLPL3", "period_end": "2026-04-15", "fields": {"dy": 0.0355, "pe": 7.77, "pb": 2.46, "bvps": 5.6, "eps": 1.78, "roe": 0.31679999999999997, "net_debt_ebitda": -0.04}, "dividend_streak_years": 5, "dividend_years_persisted": 5}
+{"ts": "2026-04-15T12:36:54Z", "event": "scrape_start", "ticker": "RAPT4"}
+{"ts": "2026-04-15T12:36:56Z", "event": "scraped", "ticker": "RAPT4", "period_end": "2026-04-15", "fields": {"dy": 0.0084, "pe": -7.77, "pb": 0.41, "bvps": 13.58, "eps": -0.72, "roe": -0.0528, "net_debt_ebitda": 4.2}, "dividend_streak_years": 9, "dividend_years_persisted": 18}
+{"ts": "2026-04-15T12:36:59Z", "event": "scrape_start", "ticker": "RDOR3"}
+{"ts": "2026-04-15T12:37:00Z", "event": "scraped", "ticker": "RDOR3", "period_end": "2026-04-15", "fields": {"dy": 0.1007, "pe": 20.71, "pb": 4.49, "bvps": 9.44, "eps": 2.05, "roe": 0.2168, "net_debt_ebitda": 0.47}, "dividend_streak_years": 6, "dividend_years_persisted": 6}
+{"ts": "2026-04-15T12:37:04Z", "event": "scrape_start", "ticker": "RENT3"}
+{"ts": "2026-04-15T12:37:07Z", "event": "scraped", "ticker": "RENT3", "period_end": "2026-04-15", "fields": {"dy": 0.0404, "pe": 30.57, "pb": 2.24, "bvps": 22.72, "eps": 1.67, "roe": 0.07339999999999999, "net_debt_ebitda": 1.97}, "dividend_streak_years": 20, "dividend_years_persisted": 20}
+{"ts": "2026-04-15T12:37:20Z", "event": "scrape_start", "ticker": "SUZB3"}
+{"ts": "2026-04-15T12:37:22Z", "event": "scraped", "ticker": "SUZB3", "period_end": "2026-04-15", "fields": {"dy": 0.023, "pe": 4.57, "pb": 1.4, "bvps": 34.77, "eps": 10.61, "roe": 0.30510000000000004, "net_debt_ebitda": 1.75}, "dividend_streak_years": 4, "dividend_years_persisted": 15}
+{"ts": "2026-04-15T12:38:07Z", "event": "scrape_start", "ticker": "TTEN3"}
+{"ts": "2026-04-15T12:38:09Z", "event": "scraped", "ticker": "TTEN3", "period_end": "2026-04-15", "fields": {"dy": 0.011200000000000002, "pe": 10.03, "pb": 1.74, "bvps": 9.39, "eps": 1.63, "roe": 0.17350000000000002, "net_debt_ebitda": 1.93}, "dividend_streak_years": 4, "dividend_years_persisted": 4}

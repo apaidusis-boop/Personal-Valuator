@@ -1,0 +1,24 @@
+re
+negative over time. At some point in the future we have to assume either that the change in noncash
+working capital is zero or that pressure will build for increases in working capital.
+wcdata.xls:
+
+This dataset on the Web summarizes noncash working capital needs by industry group in the
+United States for the most recent quarter.
+CONCLUSION
+When valuing a firm, the cash flows that are discounted should be after taxes and reinvestment needs
+but before debt payments. This chapter considered some of the challenges in coming up with this
+number for firms.
+The chapter began with the corrected and updated version of income described in Chapter 9. To
+state this income in after-tax terms, you need a tax rate. Firms generally state their effective tax rates
+in their financial statements, but these effective tax rates can be different from marginal tax rates.
+Although the effective tax rate can be used to arrive at the after-tax operating income in the early
+years, the tax rate used should converge on the marginal tax rate in future periods. For firms that are
+losing money and not paying taxes, the net operating losses that they are accumulating will protect
+some of their future income from taxation.
+The reinvestment that firms make in their own operations is then considered in two parts. The first
+part is the net capital expenditure of the firm, which is the difference between capital expenditures (a
+cash outflow) and depreciation (effectively a cash inflow). In this net capital expenditure, we include
+the capitalized operating expenses (such as R&D) and acquisitions. The second part relates to
+investments in noncash working capital, mainly inventory and accounts receivable. Increases in
+noncash working capital represent cash outflows to the firm, while decreases represent cash inflows.

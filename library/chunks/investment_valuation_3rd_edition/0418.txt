@@ -1,0 +1,61 @@
+expected to drop to 1.10 after 1998. (The Treasury bond rate was 7%,
+and the market risk premium was 5.5%.)
+a.
+ Estimate the expected free cash flow to equity from 1994 to 1998, assuming that capital
+
+expenditures and depreciation grow at the same rate as earnings.
+b.
+ Estimate the terminal price per share (at the end of 1998). Stable firms in this industry have
+capital expenditures that are 150% of revenues, and maintain working capital at 25% of
+revenues.
+c.
+ Estimate the value per share today, based on the FCFE model.
+5.
+ Biomet Inc., which designs, manufactures, and markets reconstructive and trauma devices,
+reported earnings per share of $0.56 in 1993, on which it paid no dividends (it had revenues per
+share in 1993 of $2.91). It had capital expenditures of $0.13 per share in 1993, and depreciation
+in the same year of $0.08 per share. The working capital was 60% of revenues in 1993 and was
+expected to remain at that level from 1994 to 1998, while earnings and revenues were expected to
+grow 17% a year. The earnings growth rate was expected to decline linearly over the following
+five years to a rate of 5% in 2003. During the high growth and transition periods, capital spending
+and depreciation were expected to grow at the same rate as earnings, but capital spending would
+be 120% of depreciation when the firm reaches steady state. Working capital was expected to
+drop from 60% of revenues during the 1994–1998 period to 30% of revenues after 2003. The firm
+had no debt currently, but planned to finance 10% of its net capital investment and working capital
+requirements with debt. 
+The stock was expected to have a beta of 1.45 for the high growth period (1994 to 1998), and the
+beta was expected to decline to 1.10 by the time the firm goes into steady state (in 2003). The
+Treasury bond rate is 7%, and the market risk premium is 5.5%.
+a.
+ Estimate the value per share, using the FCFE model.
+b.
+ Estimate the value per share, assuming that working capital stays at 60% of revenues forever.
+c.
+ Estimate the value per share, assuming that the beta remains unchanged at 1.45 forever.
+6.
+ Will the following firms be likely to have a higher value from the dividend discount model, a
+higher value from the FCFE model, or the same value from both models?
+a.
+ A firm that pays out less in dividends than it has available in FCFE, but invests the balance in
+Treasury bonds.
+b.
+ A firm that pays out more in dividends than it has available in FCFE, and then issues stock to
+cover the difference.
+c.
+ A firm that pays out, on average, its FCFE as dividends.
+d.
+ A firm that pays out less in dividends that it has available in FCFE, but uses the cash at
+regular intervals to acquire other firms with the intent of diversifying.
+e.
+ A firm that pays out more in dividends than it has available in FCFE, but borrows money to
+cover the difference. (The firm is overlevered to begin with.)
+7.
+ You have been asked to value Oneida Steel, a midsize steel company. The firm reported $80
+million in net income, $50 million in capital expenditures, and $20 million in depreciation in the
+just-completed financial year. The firm reported that its noncash working capital increased by $20
+million during the year and that total debt outstanding increased by $10 million during the year.
+The book value of equity at Oneida Steel at the beginning of the last financial year was $400
+million. The cost of equity is 10%.
+a.
+ Estimate the equity reinvestment rate, return on equity, and expected growth rate for Oneida
+Steel. (You can assume that the firm will continue to maintain the same debt ratio that it used last

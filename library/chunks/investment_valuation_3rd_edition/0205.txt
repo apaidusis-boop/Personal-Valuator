@@ -1,0 +1,70 @@
+m the regression:
+Thus, a comparison of the intercept a to R
+f
+(1 – 
+β
+) should provide a measure of the stock's
+performance, at least relative to the capital asset pricing model.
+1
+ In summary, then:
+
+The difference between a and R
+f
+(1 – β) is called Jensen's alpha
+2
+ and provides a measure of whether
+the investment in question earned a return greater than or less than its required return, given both
+market performance and risk. For instance, a firm that earned 15 percent during a period when firms
+with similar betas earned 12 percent will have earned an excess return of 3 percent; its intercept will
+also exceed R
+f
+(1 – β) by 3 percent.
+The third statistic that emerges from the regression is the R-squared (R
+2
+) of the regression. While
+the statistical explanation of the R-squared is that it provides a measure of the goodness of fit of the
+regression, the economic rationale is that it provides an estimate of the proportion of the risk of a firm
+that can be attributed to market risk; the balance (1 – R
+2
+) can then be attributed to firm-specific risk.
+The final statistic worth noting is the standard error of the beta estimate. The slope of the
+regression, like any statistical estimate, may be different from the true value, and the standard error
+reveals just how much error there could be in the estimate. The standard error can also be used to
+arrive at confidence intervals for the “true” beta value from the slope estimate.
+ILLUSTRATION 8.1: Estimating a Regression Beta for
+Boeing
+Boeing Company is a firm in both the aerospace and defense businesses, and has been traded on the New York Stock
+Exchange (NYSE) for decades. In assessing risk parameters for Boeing, we compute the returns on the stock and the
+market index in two steps:
+1.
+ The returns to a stockholder in Boeing are computed month by month from January 1996 to December 2000. These
+returns include both dividends and price appreciation and are defined as follows:
+Dividends are added to the returns of the month in which stockholders are entitled to the dividend.
+3
+2.
+ The returns on the S&P 500 market index are computed for each month of the period, using the level of the index at the
+end of each month and the monthly dividend on stocks in the index.
+where index
+j
+ is the level of the index at the end of month j and dividends
+j
+ is the dividends paid on the index in month j.
+Although the S&P 500 and the NYSE Composite are the most widely used indexes for U.S. stocks, they are, at best,
+imperfect proxies for the market portfolio in the CAPM, which is supposed to include all assets.
+Figure 8.1
+ graphs monthly returns on Boeing against returns on the S&P 500 index from January 1996 to December 2000.
+The regression statistics for Boeing are as follows:
+(a) Slope of the regression = 0.56.
+ This is Boeing's beta, based on monthly returns from 1996 to 2000. Using a different
+time period for the regression or different return intervals (weekly or daily) for the same period can result in a different beta.
+(b) Intercept of the regression = 0.54%.
+ This is a measure of Boeing's performance, when it is compared with R
+f
+(1 – 
+β
+).
+The monthly riskless rate (since the returns used in the regression are monthly returns) between 1996 and 2000 averaged
+0.4%, resulting in the following estimate for the performance:
+This analysis suggests that Boeing performed 0.36% better than expected, when expectations are based on the CAPM, on a
+monthly basis between January 1996 and December 2000. This results in an annualized excess return of approximately
+4.41%.

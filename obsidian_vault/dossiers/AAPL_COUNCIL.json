@@ -1,0 +1,163 @@
+{
+  "ticker": "AAPL",
+  "market": "us",
+  "modo": "A",
+  "sector": "Technology",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Charlie Compounder",
+      "agent_slug": "industrials_us_specialist",
+      "title": "Industrials & Consumer US Specialist (Buffett frame)"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "Apple mantém forte ROE e crescimento, mas múltiplos elevados são preocupantes",
+      "stance": "HOLD",
+      "main_argument": "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos. No entanto, a relação P/E de 34,39 e P/B de 45,24 indicam que os múltiplos estão elevados.",
+      "supporting_metrics": [
+        "ROE = 152%",
+        "Dividend Yield = 0,4%",
+        "P/E = 34,39"
+      ],
+      "concerns": [
+        "Múltiplos de valuation muito altos",
+        "Baixo dividend yield isolado"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "Apple mantém posição de liderança com forte geração de lucros",
+      "stance": "BUY",
+      "main_argument": "A Apple continua gerando ROE excepcionalmente alto (152%) e tem um histórico consistente de dividendos, apesar do baixo DY. A relação P/E está acima da média setorial, mas reflete a solidez operacional.",
+      "supporting_metrics": [
+        "ROE=152%",
+        "P/E=34.39",
+        "DivStreak=15"
+      ],
+      "concerns": [
+        "P/B elevado (45.24x)",
+        "Dependência macro crescente"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Apple mantém robusta geração de lucros e ROE elevado",
+      "stance": "BUY",
+      "main_argument": "A Apple continua gerando lucros consistentes com um ROE de 152% e uma relação P/B de 45,24x. A empresa tem histórico de dividendos por 15 anos.",
+      "supporting_metrics": [
+        "ROE=152%",
+        "P/B=45,24",
+        "DivStreak=15"
+      ],
+      "concerns": [
+        "P/E elevado de 34,39x",
+        "alta dependência do mercado chinês"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Apple mantém posição de destaque com forte geração de lucros",
+      "stance": "BUY",
+      "main_argument": "A Apple continua a gerar ROE superior a 150% e um histórico consistente de dividendos, apesar do P/E elevado de 34.39.",
+      "supporting_metrics": [
+        "ROE=152%",
+        "P/E=34.39",
+        "DivStreak=15"
+      ],
+      "concerns": [
+        "P/B alto de 45.24",
+        "peso na carteira de 6%"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "A Apple continua gerando lucros consistentes com um ROE de 152% e uma relação P/B de 45,24x - Valentina Prudente"
+      ],
+      "challenge": [
+        "A relação P/E está acima da média setorial, mas reflete a solidez operacional - Mariana Macro | Discordo pois o múltiplo elevado não é justificado pelo crescimento atual e pode indicar sobreavaliação"
+      ],
+      "new_evidence": "",
+      "revised_stance": "NEEDS_DATA"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos — Charlie Compounder"
+      ],
+      "challenge": [
+        "No entanto, a relação P/E de 34,39 e P/B de 45,24 indicam que os múltiplos estão elevados — Charlie Compounder | Esses múltiplos refletem a solidez operacional da empresa e não são necessariamente preocupantes"
+      ],
+      "new_evidence": "Apple continua a ver um crescimento significativo em suas divisões de serviços, mantendo o momentum financeiro da empresa",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos — Charlie Compounder"
+      ],
+      "challenge": [
+        "No entanto, a relação P/E de 34,39 e P/B de 45,24 indicam que os múltiplos estão elevados — Charlie Compounder | Esses múltiplos refletem o desempenho operacional excepcional da empresa e não necessariamente sugerem um risco permanente de capital"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos — Charlie Compounder"
+      ],
+      "challenge": [
+        "No entanto, a relação P/E de 34,39 e P/B de 45,24 indicam que os múltiplos estão elevados — Charlie Compounder | Esses múltiplos refletem o desempenho operacional excepcional da empresa"
+      ],
+      "new_evidence": "A Apple continua a registrar crescimento significativo em suas divisões de serviços e dispositivos, mantendo o momentum financeiro da empresa",
+      "revised_stance": "BUY"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma história consistente de dividendos",
+      "Metrics: ROE=152%",
+      "Nomes: Charlie Compounder, Mariana Macro, Valentina Prudente, Pedro Alocação"
+    ],
+    "dissent_points": [
+      "Charlie Compounder disse que a relação P/E está acima da média setorial e indica sobreavaliação; Mariana Macro e outros disseram que esses múltiplos refletem o desempenho operacional excepcional da empresa e não são necessariamente preocupantes"
+    ],
+    "final_stance": "NEEDS_DATA",
+    "confidence": "low",
+    "pre_publication_flags": [
+      "Dados de crescimento futuro ausentes",
+      "Valentina Prudente"
+    ],
+    "sizing_recommendation": "Considerar reduzir a posição para até 5% da carteira, dado o peso atual de 6%"
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Charlie Compounder\\reviews\\AAPL_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\AAPL_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\AAPL_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\AAPL_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 60.343804359436035,
+  "date": "2026-04-30"
+}

@@ -1,0 +1,17 @@
+ome in earlier years, and this does have an impact on the ratios across the
+board. It might make more sense when computing these ratios to look at the average operating income over time.
+finratio.xls:
+
+This spreadsheet allows you to compute the interest coverage and fixed charges coverage
+ratios for a firm based on financial statement data.
+Debt Ratios
+Interest coverage ratios measure the capacity of the firm to meet interest payments, but do not examine
+whether it can pay back the principal on outstanding debt. Debt ratios attempt to do this, by relating
+debt to total capital or to equity:
+The first ratio measures debt as a proportion of the total capital of the firm and cannot exceed 100
+percent. The second measures debt as a proportion of the book value of equity in the firm and can be
+easily derived from the first, since:
+While these ratios presume that capital is raised from only debt and equity, they can be easily
+adapted to include other sources of financing, such as preferred stock. Although preferred stock is
+sometimes combined with common stock under the equity label, it is better to keep the two sources of
+financing separate and to compute the ratio of preferred stock to capital (which will include debt,

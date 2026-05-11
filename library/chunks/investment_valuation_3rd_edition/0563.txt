@@ -1,0 +1,31 @@
+as a sign of undervaluation (or overvaluation). We will next compare the price-to-book ratios of
+firms within a sector, and extend this to look at firms across the market and what you need to control
+
+for in making these comparisons. Finally, we will look at the factors that cause the price-to-book
+ratio of an individual firm to change over time and how this can be used as a tool for analyzing
+restructurings.
+PBV Ratios for a Market
+The price-to-book value ratio for an entire market is determined by the same variables that determine
+the price-to-book value ratio for an individual firm. Other things remaining equal, therefore, you
+would expect the price-to-book ratio for a market to go up as the equity return spread (ROE minus
+cost of equity) earned by firms in the market increases. Conversely, you would expect the price-to-
+book ratio for the market to decrease as the equity return spread earned by firms decreases.
+Chapter 18 noted the increase in the price-earnings ratio for the S&P 500 from 1960 to 2000. Over
+that period, the price-to-book value ratio for the market also increased. 
+Figure 19.4
+ reports on the
+price-to-book ratio for the S&P 500 and the return on equity for S&P 500 firms. The increase in the
+price-to-book ratio between 1980 and 2000 can be at least partially explained by the increase in
+return on equity over the same period. The last decade (2001–2010) has been more rocky, with a
+significant decline in the price-to-book ratio and the return on equity in the early years, followed by
+an increase of both measures, until a collapse during the 2008 banking crisis.
+Figure 19.4
+ Price-to-Book Ratios and ROE—S&P 500
+Comparisons across Firms in a Sector
+Price–book value ratios vary across firms for a number of reasons—different expected growth,
+different payout ratios, different risk levels, and most importantly, different returns on equity.
+Comparisons of price–book value ratios across firms that do not take into account these differences
+are likely to be flawed.
+The most common approach to estimating PBV ratios for a firm is to choose a group of comparable
+firms, to calculate the average PBV ratio for this group, and to base the PBV ratio estimate for a firm
+on this average. The adjustments made to reflect differences in fundamentals between the firm being

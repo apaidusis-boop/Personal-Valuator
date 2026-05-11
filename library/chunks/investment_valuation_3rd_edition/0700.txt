@@ -1,0 +1,48 @@
+give up and fall back on more intuitive approaches, the managers who
+persevere and attempt to estimate cash flows will have a much better sense of what they need to do to
+make new investments pay off.
+
+THE EXPECTATIONS GAME
+As the proportion of value determined by future growth increases, expectations become a more
+critical determinant of how markets react to new information. In fact, the expectations game largely
+explains why stock prices change in ways that do not seem consistent with the news being announced
+(good earnings news leading to stock price drops; bad earnings news resulting in stock price
+increases) and the volatility in stock prices of young start-up firms in general.
+Expectations, Information, and Value
+The value of a firm is the present value of the expected cash flows on the firm, and implicit in these
+expected cash flows and the discount rates used to discount the cash flows are investors' views about
+the firm, its management, and the potential for excess returns. While this is true for all firms, the
+larger proportion of value that comes from future growth potential at young start-up firms makes them
+particularly vulnerable to shifts in expectations about the future.
+How are these expectations formed? While the past history of these firms and industry averages are
+sometimes used as the basis for estimates, the firms and the industries themselves both evolve and
+change over time. The fact that information is both noisy and limited suggests that expectations can
+change relatively quickly and in response to small shifts in information. An earnings announcement,
+for instance, that suggests that a firm's strategy is not working as well as anticipated may lead to a
+reassessment of expectations and a sharp drop in value.
+Lessons for Investors
+The power of expectations in determining the value of a stock has to be considered when investors
+choose stocks for their portfolios and when they assess new information about the firm. There are
+several important implications:
+Risk is always relative to expectations.
+ The risk in a firm does not come from whether it
+performs well or badly but from how it does relative to expectations. Thus, a firm that
+reports earnings growth of 35 percent a year when it was expected to grow 50 percent a
+year is delivering bad news and will probably see its stock price drop. In contrast, a firm
+that reports a 20 percent drop in earnings when it was expected to report a 40 percent drop
+will generally see its stock price increase.
+Good companies do not always make good investments.
+ It is not how well or badly a
+company is managed that determines stock returns; it is how well or badly managed it is
+relative to expectations. A company that meets every financial criterion for excellence may
+be a poor investment if markets are expecting too much of it. Conversely, a firm that is
+universally viewed as a poorly managed, poorly run company may be a good investment if
+expectations have been set too low.
+7
+Small news leads to big price jumps.
+ As noted in the preceding section, you should expect
+to see what seem like disproportionate stock price responses to relatively small pieces of
+information. A report from a high-growth firm that earnings in the most recent quarter were
+a few cents less than expected may lead to a significant drop in the stock price.
+Focus on information about value drivers.
+ On a positive note, investors can assess what it

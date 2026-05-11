@@ -1,0 +1,1379 @@
+{"ts": "2026-05-10T14:54:48Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:54:48Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:54:48Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:54:48Z", "event": "scrape_done", "ticker": "ITSA4", "ok": false, "elapsed_s": 0.07085871696472168}
+{"ts": "2026-05-10T14:54:48Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T14:54:48Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 1}
+{"ts": "2026-05-10T14:55:55Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:55:55Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:55:55Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:55:55Z", "event": "scrape_done", "ticker": "ITSA4", "ok": true, "elapsed_s": 0.0688636302947998}
+{"ts": "2026-05-10T14:55:55Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 11, "presentations": 4}
+{"ts": "2026-05-10T14:55:55Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 4}
+{"ts": "2026-05-10T14:55:57Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T14:55:58Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/9ba", "chars": 2155}
+{"ts": "2026-05-10T14:56:00Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/c2b", "chars": 776}
+{"ts": "2026-05-10T14:56:00Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T14:56:00Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 1}
+{"ts": "2026-05-10T14:57:07Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:57:07Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:57:07Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:57:07Z", "event": "scrape_done", "ticker": "ITSA4", "ok": true, "elapsed_s": 0.07186245918273926}
+{"ts": "2026-05-10T14:57:07Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 4}
+{"ts": "2026-05-10T14:57:07Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 4}
+{"ts": "2026-05-10T14:57:10Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T14:57:11Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/9ba", "chars": 2155}
+{"ts": "2026-05-10T14:57:12Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/c2b", "chars": 776}
+{"ts": "2026-05-10T14:57:12Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T14:57:12Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 1}
+{"ts": "2026-05-10T14:58:05Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:58:05Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:58:05Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:58:05Z", "event": "scrape_done", "ticker": "ITSA4", "ok": true, "elapsed_s": 0.07346725463867188}
+{"ts": "2026-05-10T14:58:05Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 4}
+{"ts": "2026-05-10T14:58:05Z", "event": "ticker_fail", "ticker": "ITSA4", "err": "the first two maketrans arguments must have equal length", "tb": "Traceback (most recent call last):\n  File \"C:\\Users\\paidu\\investment-intelligence\\scripts\\pilot_deep_dive.py\", line 914, in deep_dive_one\n    result[\"novel\"] = detect_novel_filings(\n                      ~~~~~~~~~~~~~~~~~~~~^\n        result[\"parsed\"][\"filings\"],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        result[\"before\"][\"events_recent\"]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        + _all_events(ticker, market),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\paidu\\investment-intelligence\\scripts\\pilot_deep_dive.py\", line 447, in detect_novel_filings\n    toks = _cont"}
+{"ts": "2026-05-10T14:58:05Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 0}
+{"ts": "2026-05-10T14:58:25Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:58:25Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:58:25Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:58:25Z", "event": "scrape_done", "ticker": "ITSA4", "ok": true, "elapsed_s": 0.07035589218139648}
+{"ts": "2026-05-10T14:58:25Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 4}
+{"ts": "2026-05-10T14:58:25Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T14:58:27Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T14:58:29Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T14:58:29Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T14:58:29Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 1}
+{"ts": "2026-05-10T14:58:56Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T14:58:56Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br"}
+{"ts": "2026-05-10T14:58:56Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T14:58:56Z", "event": "scrape_done", "ticker": "ITSA4", "ok": true, "elapsed_s": 0.0702354907989502}
+{"ts": "2026-05-10T14:58:56Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 4}
+{"ts": "2026-05-10T14:58:56Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T14:58:58Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T14:58:59Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T14:58:59Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T14:58:59Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br"}
+{"ts": "2026-05-10T14:58:59Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T14:59:14Z", "event": "scrape_done", "ticker": "BBDC4", "ok": true, "elapsed_s": 14.575611114501953}
+{"ts": "2026-05-10T14:59:14Z", "event": "parse_done", "ticker": "BBDC4", "filings": 1, "events": 0, "presentations": 7}
+{"ts": "2026-05-10T14:59:14Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 1}
+{"ts": "2026-05-10T14:59:14Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "chars": 11162}
+{"ts": "2026-05-10T14:59:14Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\BBDC4.md"}
+{"ts": "2026-05-10T14:59:14Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br"}
+{"ts": "2026-05-10T14:59:14Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T14:59:37Z", "event": "scrape_done", "ticker": "PRIO3", "ok": false, "elapsed_s": 22.963080883026123}
+{"ts": "2026-05-10T14:59:37Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\PRIO3.md"}
+{"ts": "2026-05-10T14:59:37Z", "event": "ticker_start", "ticker": "JPM", "market": "us"}
+{"ts": "2026-05-10T14:59:37Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T15:00:10Z", "event": "scrape_done", "ticker": "JPM", "ok": true, "elapsed_s": 32.44131517410278}
+{"ts": "2026-05-10T15:00:10Z", "event": "parse_done", "ticker": "JPM", "filings": 0, "events": 0, "presentations": 0}
+{"ts": "2026-05-10T15:00:10Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 0}
+{"ts": "2026-05-10T15:00:10Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JPM.md"}
+{"ts": "2026-05-10T15:00:10Z", "event": "ticker_start", "ticker": "JNJ", "market": "us"}
+{"ts": "2026-05-10T15:00:10Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T15:00:25Z", "event": "scrape_done", "ticker": "JNJ", "ok": true, "elapsed_s": 15.643303394317627}
+{"ts": "2026-05-10T15:00:25Z", "event": "parse_done", "ticker": "JNJ", "filings": 0, "events": 0, "presentations": 12}
+{"ts": "2026-05-10T15:00:25Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 0}
+{"ts": "2026-05-10T15:00:25Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JNJ.md"}
+{"ts": "2026-05-10T15:00:25Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 5, "ok": 5}
+{"ts": "2026-05-10T15:08:30Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T15:08:30Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T15:08:30Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T15:08:43Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 13.048548698425293}
+{"ts": "2026-05-10T15:08:43Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 4, "audio_video": 1}
+{"ts": "2026-05-10T15:08:43Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 3}
+{"ts": "2026-05-10T15:08:45Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T15:08:46Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/9ba", "chars": 2155}
+{"ts": "2026-05-10T15:08:48Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/c2b", "chars": 776}
+{"ts": "2026-05-10T15:08:48Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T15:08:48Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:08:48Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T15:08:48Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 0.07204341888427734}
+{"ts": "2026-05-10T15:08:59Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 11.308623313903809}
+{"ts": "2026-05-10T15:08:59Z", "event": "parse_done", "ticker": "BBDC4", "filings": 0, "events": 0, "presentations": 6, "audio_video": 7}
+{"ts": "2026-05-10T15:08:59Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 0}
+{"ts": "2026-05-10T15:08:59Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\BBDC4.md"}
+{"ts": "2026-05-10T15:08:59Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:08:59Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T15:09:26Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/", "ok": true, "elapsed_s": 27.386647939682007}
+{"ts": "2026-05-10T15:09:54Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes", "ok": true, "elapsed_s": 27.839460849761963}
+{"ts": "2026-05-10T15:09:54Z", "event": "parse_done", "ticker": "PRIO3", "filings": 17, "events": 0, "presentations": 8, "audio_video": 0}
+{"ts": "2026-05-10T15:09:54Z", "event": "novelty_done", "ticker": "PRIO3", "novel_count": 17}
+{"ts": "2026-05-10T15:09:56Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/d93", "chars": 3868}
+{"ts": "2026-05-10T15:09:58Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/1ec", "chars": 5341}
+{"ts": "2026-05-10T15:09:59Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/94a", "chars": 6111}
+{"ts": "2026-05-10T15:09:59Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\PRIO3.md"}
+{"ts": "2026-05-10T15:09:59Z", "event": "ticker_start", "ticker": "JPM", "market": "us", "urls_count": 3}
+{"ts": "2026-05-10T15:09:59Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T15:09:59Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir", "ok": true, "elapsed_s": 0.07120656967163086}
+{"ts": "2026-05-10T15:10:00Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news", "ok": true, "elapsed_s": 0.06853222846984863}
+{"ts": "2026-05-10T15:10:32Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "ok": true, "elapsed_s": 32.372156381607056}
+{"ts": "2026-05-10T15:10:32Z", "event": "parse_done", "ticker": "JPM", "filings": 0, "events": 0, "presentations": 0, "audio_video": 16}
+{"ts": "2026-05-10T15:10:32Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 0}
+{"ts": "2026-05-10T15:10:32Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JPM.md"}
+{"ts": "2026-05-10T15:10:32Z", "event": "ticker_start", "ticker": "JNJ", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T15:10:32Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T15:10:32Z", "event": "scrape_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/", "ok": true, "elapsed_s": 0.07093524932861328}
+{"ts": "2026-05-10T15:10:32Z", "event": "parse_done", "ticker": "JNJ", "filings": 1, "events": 0, "presentations": 8, "audio_video": 3}
+{"ts": "2026-05-10T15:10:32Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 0}
+{"ts": "2026-05-10T15:10:32Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JNJ.md"}
+{"ts": "2026-05-10T15:10:32Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 5, "ok": 5}
+{"ts": "2026-05-10T15:17:24Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T15:17:24Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T15:17:24Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T15:17:24Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 0.07140374183654785}
+{"ts": "2026-05-10T15:17:24Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T15:17:24Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T15:17:26Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T15:17:27Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T15:17:27Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T15:17:27Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:17:27Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T15:17:27Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 0.07050633430480957}
+{"ts": "2026-05-10T15:17:27Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 0.07373952865600586}
+{"ts": "2026-05-10T15:17:27Z", "event": "parse_done", "ticker": "BBDC4", "filings": 27, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T15:17:27Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 27}
+{"ts": "2026-05-10T15:17:29Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b1d", "chars": 2543}
+{"ts": "2026-05-10T15:17:30Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/879", "chars": 955}
+{"ts": "2026-05-10T15:17:31Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7f0", "chars": 1965}
+{"ts": "2026-05-10T15:17:31Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\BBDC4.md"}
+{"ts": "2026-05-10T15:17:31Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:17:31Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T15:17:31Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/", "ok": true, "elapsed_s": 0.06988263130187988}
+{"ts": "2026-05-10T15:17:31Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes", "ok": true, "elapsed_s": 0.06500601768493652}
+{"ts": "2026-05-10T15:17:31Z", "event": "parse_done", "ticker": "PRIO3", "filings": 17, "events": 0, "presentations": 8, "audio_video": 0}
+{"ts": "2026-05-10T15:17:31Z", "event": "novelty_done", "ticker": "PRIO3", "novel_count": 3}
+{"ts": "2026-05-10T15:17:33Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/d93", "chars": 3868}
+{"ts": "2026-05-10T15:17:35Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/1ec", "chars": 5341}
+{"ts": "2026-05-10T15:17:36Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/ff9", "chars": 3434}
+{"ts": "2026-05-10T15:17:36Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\PRIO3.md"}
+{"ts": "2026-05-10T15:17:36Z", "event": "ticker_start", "ticker": "JPM", "market": "us", "urls_count": 3}
+{"ts": "2026-05-10T15:17:36Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T15:17:36Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir", "ok": true, "elapsed_s": 0.06978535652160645}
+{"ts": "2026-05-10T15:17:36Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news", "ok": true, "elapsed_s": 0.06648373603820801}
+{"ts": "2026-05-10T15:17:36Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "ok": true, "elapsed_s": 0.06900596618652344}
+{"ts": "2026-05-10T15:17:36Z", "event": "parse_done", "ticker": "JPM", "filings": 15, "events": 0, "presentations": 312, "audio_video": 16}
+{"ts": "2026-05-10T15:17:36Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 12}
+{"ts": "2026-05-10T15:17:37Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmorganchase-to-present-at-the-berns", "chars": 9910}
+{"ts": "2026-05-10T15:17:38Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-2026-annual-meeting-of-sharehold", "chars": 11067}
+{"ts": "2026-05-10T15:17:39Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10606}
+{"ts": "2026-05-10T15:17:39Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JPM.md"}
+{"ts": "2026-05-10T15:17:39Z", "event": "ticker_start", "ticker": "JNJ", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T15:17:39Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T15:17:39Z", "event": "scrape_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/", "ok": true, "elapsed_s": 0.0697934627532959}
+{"ts": "2026-05-10T15:17:39Z", "event": "parse_done", "ticker": "JNJ", "filings": 2, "events": 0, "presentations": 10, "audio_video": 3}
+{"ts": "2026-05-10T15:17:39Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 1}
+{"ts": "2026-05-10T15:17:40Z", "event": "extract_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-la", "chars": 22354}
+{"ts": "2026-05-10T15:17:40Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JNJ.md"}
+{"ts": "2026-05-10T15:17:40Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 5, "ok": 5}
+{"ts": "2026-05-10T15:21:02Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10"}
+{"ts": "2026-05-10T15:21:02Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T15:21:02Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T15:21:19Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 16.89}
+{"ts": "2026-05-10T15:21:19Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T15:21:19Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T15:21:21Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T15:21:22Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T15:21:22Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T15:21:22Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:21:22Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T15:21:35Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 12.17}
+{"ts": "2026-05-10T15:21:46Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 11.13}
+{"ts": "2026-05-10T15:21:46Z", "event": "parse_done", "ticker": "BBDC4", "filings": 27, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T15:21:46Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 27}
+{"ts": "2026-05-10T15:21:48Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b1d", "chars": 2543}
+{"ts": "2026-05-10T15:21:49Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/879", "chars": 955}
+{"ts": "2026-05-10T15:21:50Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7f0", "chars": 1965}
+{"ts": "2026-05-10T15:21:50Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\BBDC4.md"}
+{"ts": "2026-05-10T15:21:50Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T15:21:50Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T15:22:18Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/", "ok": true, "elapsed_s": 28.25}
+{"ts": "2026-05-10T15:22:47Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes", "ok": true, "elapsed_s": 28.41}
+{"ts": "2026-05-10T15:22:47Z", "event": "parse_done", "ticker": "PRIO3", "filings": 17, "events": 0, "presentations": 8, "audio_video": 0}
+{"ts": "2026-05-10T15:22:47Z", "event": "novelty_done", "ticker": "PRIO3", "novel_count": 3}
+{"ts": "2026-05-10T15:22:48Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/d93", "chars": 3868}
+{"ts": "2026-05-10T15:22:50Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/1ec", "chars": 5341}
+{"ts": "2026-05-10T15:22:52Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/ff9", "chars": 3434}
+{"ts": "2026-05-10T15:22:52Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\PRIO3.md"}
+{"ts": "2026-05-10T15:22:52Z", "event": "ticker_start", "ticker": "JPM", "market": "us", "urls_count": 3}
+{"ts": "2026-05-10T15:22:52Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T15:23:24Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir", "ok": true, "elapsed_s": 32.12}
+{"ts": "2026-05-10T15:23:57Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news", "ok": true, "elapsed_s": 32.56}
+{"ts": "2026-05-10T15:24:29Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "ok": true, "elapsed_s": 32.34}
+{"ts": "2026-05-10T15:24:29Z", "event": "parse_done", "ticker": "JPM", "filings": 15, "events": 0, "presentations": 312, "audio_video": 16}
+{"ts": "2026-05-10T15:24:29Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 12}
+{"ts": "2026-05-10T15:24:30Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmorganchase-to-present-at-the-berns", "chars": 9910}
+{"ts": "2026-05-10T15:24:31Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-2026-annual-meeting-of-sharehold", "chars": 11067}
+{"ts": "2026-05-10T15:24:32Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10606}
+{"ts": "2026-05-10T15:24:32Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JPM.md"}
+{"ts": "2026-05-10T15:24:32Z", "event": "ticker_start", "ticker": "JNJ", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T15:24:32Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T15:24:52Z", "event": "scrape_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/", "ok": true, "elapsed_s": 19.7}
+{"ts": "2026-05-10T15:24:52Z", "event": "parse_done", "ticker": "JNJ", "filings": 2, "events": 0, "presentations": 10, "audio_video": 3}
+{"ts": "2026-05-10T15:24:52Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 1}
+{"ts": "2026-05-10T15:24:53Z", "event": "extract_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-la", "chars": 22354}
+{"ts": "2026-05-10T15:24:53Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JNJ.md"}
+{"ts": "2026-05-10T15:24:53Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 5, "ok": 5}
+{"ts": "2026-05-10T19:15:12Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10", "deep": true, "from_yaml": false, "filter": "all"}
+{"ts": "2026-05-10T19:15:12Z", "event": "pilot_loaded", "n": 1}
+{"ts": "2026-05-10T19:15:12Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:15:12Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T19:15:12Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 0.07716846466064453}
+{"ts": "2026-05-10T19:15:12Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:15:12Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T19:15:20Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T19:15:27Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T19:15:27Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T19:15:27Z", "event": "ticker_progress", "i": 1, "n": 1, "ticker": "ITSA4", "ticker_elapsed_s": 14.8, "total_elapsed_min": 0.2}
+{"ts": "2026-05-10T19:15:27Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 1, "ok": 1, "total_elapsed_min": 0.2}
+{"ts": "2026-05-10T19:16:49Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Pilot_Deep_Dive_2026-05-10", "deep": false, "from_yaml": false, "filter": "all"}
+{"ts": "2026-05-10T19:16:49Z", "event": "pilot_loaded", "n": 5}
+{"ts": "2026-05-10T19:16:49Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:16:49Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T19:16:49Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 0.0716707706451416}
+{"ts": "2026-05-10T19:16:49Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:16:49Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T19:16:56Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T19:17:01Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T19:17:01Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\ITSA4.md"}
+{"ts": "2026-05-10T19:17:01Z", "event": "ticker_progress", "i": 1, "n": 5, "ticker": "ITSA4", "ticker_elapsed_s": 11.6, "total_elapsed_min": 0.2}
+{"ts": "2026-05-10T19:17:01Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T19:17:01Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T19:17:01Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 0.07098507881164551}
+{"ts": "2026-05-10T19:17:01Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 0.06801700592041016}
+{"ts": "2026-05-10T19:17:01Z", "event": "parse_done", "ticker": "BBDC4", "filings": 27, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T19:17:01Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 27}
+{"ts": "2026-05-10T19:17:08Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b1d", "chars": 2543}
+{"ts": "2026-05-10T19:17:13Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/879", "chars": 955}
+{"ts": "2026-05-10T19:17:17Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7f0", "chars": 1965}
+{"ts": "2026-05-10T19:17:17Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\BBDC4.md"}
+{"ts": "2026-05-10T19:17:17Z", "event": "ticker_progress", "i": 2, "n": 5, "ticker": "BBDC4", "ticker_elapsed_s": 16.6, "total_elapsed_min": 0.5}
+{"ts": "2026-05-10T19:17:17Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T19:17:17Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T19:17:17Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/", "ok": true, "elapsed_s": 0.0716252326965332}
+{"ts": "2026-05-10T19:17:17Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes", "ok": true, "elapsed_s": 0.0671396255493164}
+{"ts": "2026-05-10T19:17:17Z", "event": "parse_done", "ticker": "PRIO3", "filings": 17, "events": 0, "presentations": 8, "audio_video": 0}
+{"ts": "2026-05-10T19:17:17Z", "event": "novelty_done", "ticker": "PRIO3", "novel_count": 3}
+{"ts": "2026-05-10T19:17:24Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/d93", "chars": 3868}
+{"ts": "2026-05-10T19:17:38Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/1ec", "chars": 5341}
+{"ts": "2026-05-10T19:17:50Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/ff9", "chars": 3434}
+{"ts": "2026-05-10T19:17:50Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\PRIO3.md"}
+{"ts": "2026-05-10T19:17:50Z", "event": "ticker_progress", "i": 3, "n": 5, "ticker": "PRIO3", "ticker_elapsed_s": 32.4, "total_elapsed_min": 1.0}
+{"ts": "2026-05-10T19:17:50Z", "event": "ticker_start", "ticker": "JPM", "market": "us", "urls_count": 3}
+{"ts": "2026-05-10T19:17:50Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T19:17:50Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir", "ok": true, "elapsed_s": 0.07059717178344727}
+{"ts": "2026-05-10T19:17:50Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news", "ok": true, "elapsed_s": 0.06752228736877441}
+{"ts": "2026-05-10T19:17:50Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "ok": true, "elapsed_s": 0.06902670860290527}
+{"ts": "2026-05-10T19:17:50Z", "event": "parse_done", "ticker": "JPM", "filings": 15, "events": 0, "presentations": 312, "audio_video": 16}
+{"ts": "2026-05-10T19:17:50Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 12}
+{"ts": "2026-05-10T19:17:54Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmorganchase-to-present-at-the-berns", "chars": 9910}
+{"ts": "2026-05-10T19:17:57Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-2026-annual-meeting-of-sharehold", "chars": 11067}
+{"ts": "2026-05-10T19:18:00Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10606}
+{"ts": "2026-05-10T19:18:00Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JPM.md"}
+{"ts": "2026-05-10T19:18:00Z", "event": "ticker_progress", "i": 4, "n": 5, "ticker": "JPM", "ticker_elapsed_s": 10.2, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T19:18:00Z", "event": "ticker_start", "ticker": "JNJ", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:18:00Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T19:18:00Z", "event": "scrape_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/", "ok": true, "elapsed_s": 0.07058334350585938}
+{"ts": "2026-05-10T19:18:00Z", "event": "parse_done", "ticker": "JNJ", "filings": 2, "events": 0, "presentations": 10, "audio_video": 3}
+{"ts": "2026-05-10T19:18:00Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 1}
+{"ts": "2026-05-10T19:18:08Z", "event": "extract_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-la", "chars": 22354}
+{"ts": "2026-05-10T19:18:08Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\JNJ.md"}
+{"ts": "2026-05-10T19:18:08Z", "event": "ticker_progress", "i": 5, "n": 5, "ticker": "JNJ", "ticker_elapsed_s": 8.2, "total_elapsed_min": 1.3}
+{"ts": "2026-05-10T19:18:08Z", "event": "run_done", "master": "obsidian_vault\\Pilot_Deep_Dive_2026-05-10\\_MASTER.md", "results": 5, "ok": 5, "total_elapsed_min": 1.3}
+{"ts": "2026-05-10T19:21:48Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:23:32Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:23:32Z", "event": "pilot_loaded", "n": 2}
+{"ts": "2026-05-10T19:23:32Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:23:32Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T19:23:32Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 0.18161344528198242}
+{"ts": "2026-05-10T19:23:32Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:23:32Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T19:23:32Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Overnight_2026-05-11\\ITSA4.md"}
+{"ts": "2026-05-10T19:23:32Z", "event": "ticker_progress", "i": 1, "n": 2, "ticker": "ITSA4", "ticker_elapsed_s": 0.2, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T19:23:32Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T19:23:32Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T19:23:33Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 0.17486190795898438}
+{"ts": "2026-05-10T19:23:33Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 0.15882563591003418}
+{"ts": "2026-05-10T19:23:33Z", "event": "parse_done", "ticker": "BBDC4", "filings": 27, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T19:23:33Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 27}
+{"ts": "2026-05-10T19:23:33Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Overnight_2026-05-11\\BBDC4.md"}
+{"ts": "2026-05-10T19:23:33Z", "event": "ticker_progress", "i": 2, "n": 2, "ticker": "BBDC4", "ticker_elapsed_s": 0.3, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T19:23:33Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 2, "ok": 2, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T19:32:10Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:32:10Z", "event": "pilot_loaded", "n": 21}
+{"ts": "2026-05-10T19:32:10Z", "event": "ticker_start", "ticker": "AAPL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:32:10Z", "event": "snapshot_done", "ticker": "AAPL", "events_count": 160}
+{"ts": "2026-05-10T19:32:31Z", "event": "scrape_done", "ticker": "AAPL", "url": "https://investor.apple.com/", "ok": true, "elapsed_s": 20.26}
+{"ts": "2026-05-10T19:32:31Z", "event": "parse_done", "ticker": "AAPL", "filings": 2, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T19:32:31Z", "event": "novelty_done", "ticker": "AAPL", "novel_count": 1}
+{"ts": "2026-05-10T19:32:34Z", "event": "extract_done", "ticker": "AAPL", "url": "https://www.apple.com/newsroom/2026/05/how-filmmakers-are-redefining-the-art-for", "chars": 38006}
+{"ts": "2026-05-10T19:32:34Z", "event": "dossier_saved", "ticker": "AAPL", "path": "obsidian_vault\\Overnight_2026-05-11\\AAPL.md"}
+{"ts": "2026-05-10T19:32:34Z", "event": "ticker_progress", "i": 1, "n": 21, "ticker": "AAPL", "ticker_elapsed_s": 23.5, "total_elapsed_min": 0.4}
+{"ts": "2026-05-10T19:32:34Z", "event": "ticker_start", "ticker": "ACN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:32:34Z", "event": "snapshot_done", "ticker": "ACN", "events_count": 44}
+{"ts": "2026-05-10T19:33:02Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:33:02Z", "event": "pilot_loaded", "n": 10}
+{"ts": "2026-05-10T19:33:02Z", "event": "ticker_start", "ticker": "BBDC4", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T19:33:02Z", "event": "snapshot_done", "ticker": "BBDC4", "events_count": 15}
+{"ts": "2026-05-10T19:33:02Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/", "ok": true, "elapsed_s": 0.0702056884765625}
+{"ts": "2026-05-10T19:33:02Z", "event": "scrape_done", "ticker": "BBDC4", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevan", "ok": true, "elapsed_s": 0.06676650047302246}
+{"ts": "2026-05-10T19:33:02Z", "event": "parse_done", "ticker": "BBDC4", "filings": 27, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T19:33:02Z", "event": "novelty_done", "ticker": "BBDC4", "novel_count": 27}
+{"ts": "2026-05-10T19:33:04Z", "event": "scrape_done", "ticker": "ACN", "url": "https://investor.accenture.com/", "ok": false, "elapsed_s": 30.521368980407715}
+{"ts": "2026-05-10T19:33:04Z", "event": "dossier_saved", "ticker": "ACN", "path": "obsidian_vault\\Overnight_2026-05-11\\ACN.md"}
+{"ts": "2026-05-10T19:33:04Z", "event": "ticker_progress", "i": 2, "n": 21, "ticker": "ACN", "ticker_elapsed_s": 30.5, "total_elapsed_min": 0.9}
+{"ts": "2026-05-10T19:33:04Z", "event": "ticker_start", "ticker": "BLK", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:33:04Z", "event": "snapshot_done", "ticker": "BLK", "events_count": 15}
+{"ts": "2026-05-10T19:33:11Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b1d", "chars": 2543}
+{"ts": "2026-05-10T19:33:14Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/879", "chars": 955}
+{"ts": "2026-05-10T19:33:19Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7f0", "chars": 1965}
+{"ts": "2026-05-10T19:33:23Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7f0", "chars": 1965}
+{"ts": "2026-05-10T19:33:30Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/ca7", "chars": 2124}
+{"ts": "2026-05-10T19:33:33Z", "event": "scrape_done", "ticker": "BLK", "url": "https://ir.blackrock.com/", "ok": true, "elapsed_s": 28.88}
+{"ts": "2026-05-10T19:33:33Z", "event": "parse_done", "ticker": "BLK", "filings": 4, "events": 0, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:33:33Z", "event": "novelty_done", "ticker": "BLK", "novel_count": 0}
+{"ts": "2026-05-10T19:33:34Z", "event": "dossier_saved", "ticker": "BLK", "path": "obsidian_vault\\Overnight_2026-05-11\\BLK.md"}
+{"ts": "2026-05-10T19:33:34Z", "event": "ticker_progress", "i": 3, "n": 21, "ticker": "BLK", "ticker_elapsed_s": 29.1, "total_elapsed_min": 1.4}
+{"ts": "2026-05-10T19:33:34Z", "event": "ticker_start", "ticker": "BN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:33:34Z", "event": "snapshot_done", "ticker": "BN", "events_count": 343}
+{"ts": "2026-05-10T19:33:34Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b5a", "chars": 614}
+{"ts": "2026-05-10T19:33:38Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/b5a", "chars": 614}
+{"ts": "2026-05-10T19:33:43Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/028", "chars": 0}
+{"ts": "2026-05-10T19:33:51Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/ec6", "chars": 24655}
+{"ts": "2026-05-10T19:33:54Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/55d", "chars": 801}
+{"ts": "2026-05-10T19:33:55Z", "event": "scrape_done", "ticker": "BN", "url": "https://bn.brookfield.com/news-and-events", "ok": true, "elapsed_s": 20.96}
+{"ts": "2026-05-10T19:33:55Z", "event": "parse_done", "ticker": "BN", "filings": 0, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T19:33:55Z", "event": "novelty_done", "ticker": "BN", "novel_count": 0}
+{"ts": "2026-05-10T19:33:55Z", "event": "dossier_saved", "ticker": "BN", "path": "obsidian_vault\\Overnight_2026-05-11\\BN.md"}
+{"ts": "2026-05-10T19:33:55Z", "event": "ticker_progress", "i": 4, "n": 21, "ticker": "BN", "ticker_elapsed_s": 21.2, "total_elapsed_min": 1.7}
+{"ts": "2026-05-10T19:33:55Z", "event": "ticker_start", "ticker": "BRK-B", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:33:55Z", "event": "snapshot_done", "ticker": "BRK-B", "events_count": 124}
+{"ts": "2026-05-10T19:33:59Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/626", "chars": 2117}
+{"ts": "2026-05-10T19:34:01Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/270", "chars": 1196}
+{"ts": "2026-05-10T19:34:06Z", "event": "scrape_done", "ticker": "BRK-B", "url": "https://www.berkshirehathaway.com/", "ok": true, "elapsed_s": 10.97}
+{"ts": "2026-05-10T19:34:06Z", "event": "parse_done", "ticker": "BRK-B", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:34:06Z", "event": "novelty_done", "ticker": "BRK-B", "novel_count": 0}
+{"ts": "2026-05-10T19:34:06Z", "event": "dossier_saved", "ticker": "BRK-B", "path": "obsidian_vault\\Overnight_2026-05-11\\BRK-B.md"}
+{"ts": "2026-05-10T19:34:06Z", "event": "ticker_progress", "i": 5, "n": 21, "ticker": "BRK-B", "ticker_elapsed_s": 11.2, "total_elapsed_min": 1.9}
+{"ts": "2026-05-10T19:34:06Z", "event": "ticker_start", "ticker": "GS", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:34:06Z", "event": "snapshot_done", "ticker": "GS", "events_count": 20}
+{"ts": "2026-05-10T19:34:08Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://filemanager-cdn.mziq.com/published/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/", "chars": 3227}
+{"ts": "2026-05-10T19:34:12Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/f4b", "chars": 337}
+{"ts": "2026-05-10T19:34:17Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/f4b", "chars": 337}
+{"ts": "2026-05-10T19:34:23Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/6ae", "chars": 5763}
+{"ts": "2026-05-10T19:34:28Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/f7f", "chars": 958}
+{"ts": "2026-05-10T19:34:33Z", "event": "scrape_done", "ticker": "GS", "url": "https://www.goldmansachs.com/investor-relations/", "ok": true, "elapsed_s": 26.77}
+{"ts": "2026-05-10T19:34:33Z", "event": "parse_done", "ticker": "GS", "filings": 8, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T19:34:33Z", "event": "novelty_done", "ticker": "GS", "novel_count": 5}
+{"ts": "2026-05-10T19:34:35Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/7d4", "chars": 6675}
+{"ts": "2026-05-10T19:34:35Z", "event": "extract_done", "ticker": "GS", "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-04-13-q1-results", "chars": 5448}
+{"ts": "2026-05-10T19:34:38Z", "event": "extract_done", "ticker": "GS", "url": "https://www.goldmansachs.com/pressroom/press-releases/current/pdfs/2026-q1-resul", "chars": 0}
+{"ts": "2026-05-10T19:34:40Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://filemanager-cdn.mziq.com/published/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/", "chars": 2931}
+{"ts": "2026-05-10T19:34:42Z", "event": "extract_done", "ticker": "GS", "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-01-15-q4-results", "chars": 5899}
+{"ts": "2026-05-10T19:34:45Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/bc0", "chars": 6363}
+{"ts": "2026-05-10T19:34:51Z", "event": "extract_done", "ticker": "GS", "url": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-10-14-q3-results", "chars": 5430}
+{"ts": "2026-05-10T19:34:53Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/4b6", "chars": 11853}
+{"ts": "2026-05-10T19:34:55Z", "event": "extract_done", "ticker": "GS", "url": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-07-16-q2-results", "chars": 5456}
+{"ts": "2026-05-10T19:34:55Z", "event": "dossier_saved", "ticker": "GS", "path": "obsidian_vault\\Overnight_2026-05-11\\GS.md"}
+{"ts": "2026-05-10T19:34:55Z", "event": "ticker_progress", "i": 6, "n": 21, "ticker": "GS", "ticker_elapsed_s": 49.1, "total_elapsed_min": 2.7}
+{"ts": "2026-05-10T19:34:55Z", "event": "ticker_start", "ticker": "HD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:34:55Z", "event": "snapshot_done", "ticker": "HD", "events_count": 140}
+{"ts": "2026-05-10T19:34:58Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/e0e", "chars": 12505}
+{"ts": "2026-05-10T19:35:03Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/f87", "chars": 508}
+{"ts": "2026-05-10T19:35:06Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/42a", "chars": 2258}
+{"ts": "2026-05-10T19:35:08Z", "event": "scrape_done", "ticker": "HD", "url": "https://ir.homedepot.com/", "ok": false, "elapsed_s": 12.51}
+{"ts": "2026-05-10T19:35:08Z", "event": "dossier_saved", "ticker": "HD", "path": "obsidian_vault\\Overnight_2026-05-11\\HD.md"}
+{"ts": "2026-05-10T19:35:08Z", "event": "ticker_progress", "i": 7, "n": 21, "ticker": "HD", "ticker_elapsed_s": 12.7, "total_elapsed_min": 3.0}
+{"ts": "2026-05-10T19:35:08Z", "event": "ticker_start", "ticker": "JNJ", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:35:08Z", "event": "snapshot_done", "ticker": "JNJ", "events_count": 142}
+{"ts": "2026-05-10T19:35:08Z", "event": "scrape_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/", "ok": true, "elapsed_s": 0.2048499584197998}
+{"ts": "2026-05-10T19:35:08Z", "event": "parse_done", "ticker": "JNJ", "filings": 2, "events": 0, "presentations": 10, "audio_video": 3}
+{"ts": "2026-05-10T19:35:08Z", "event": "novelty_done", "ticker": "JNJ", "novel_count": 1}
+{"ts": "2026-05-10T19:35:09Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://api.mziq.com/mzfilemanager/v2/d/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/4c7", "chars": 3284}
+{"ts": "2026-05-10T19:35:11Z", "event": "extract_done", "ticker": "JNJ", "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-la", "chars": 22354}
+{"ts": "2026-05-10T19:35:11Z", "event": "dossier_saved", "ticker": "JNJ", "path": "obsidian_vault\\Overnight_2026-05-11\\JNJ.md"}
+{"ts": "2026-05-10T19:35:11Z", "event": "ticker_progress", "i": 8, "n": 21, "ticker": "JNJ", "ticker_elapsed_s": 2.9, "total_elapsed_min": 3.0}
+{"ts": "2026-05-10T19:35:11Z", "event": "ticker_start", "ticker": "JPM", "market": "us", "urls_count": 3}
+{"ts": "2026-05-10T19:35:11Z", "event": "snapshot_done", "ticker": "JPM", "events_count": 28}
+{"ts": "2026-05-10T19:35:11Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir", "ok": true, "elapsed_s": 0.16479992866516113}
+{"ts": "2026-05-10T19:35:11Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news", "ok": true, "elapsed_s": 0.16127777099609375}
+{"ts": "2026-05-10T19:35:11Z", "event": "scrape_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "ok": true, "elapsed_s": 0.1676335334777832}
+{"ts": "2026-05-10T19:35:11Z", "event": "parse_done", "ticker": "JPM", "filings": 15, "events": 0, "presentations": 312, "audio_video": 16}
+{"ts": "2026-05-10T19:35:11Z", "event": "novelty_done", "ticker": "JPM", "novel_count": 12}
+{"ts": "2026-05-10T19:35:12Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://filemanager-cdn.mziq.com/published/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/", "chars": 1117}
+{"ts": "2026-05-10T19:35:13Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmorganchase-to-present-at-the-berns", "chars": 9910}
+{"ts": "2026-05-10T19:35:15Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-2026-annual-meeting-of-sharehold", "chars": 11067}
+{"ts": "2026-05-10T19:35:15Z", "event": "extract_done", "ticker": "BBDC4", "url": "https://filemanager-cdn.mziq.com/published/80f2e993-0a30-421a-9470-a4d5c8ad5e9f/", "chars": 569}
+{"ts": "2026-05-10T19:35:15Z", "event": "dossier_saved", "ticker": "BBDC4", "path": "obsidian_vault\\Overnight_2026-05-11\\BBDC4.md"}
+{"ts": "2026-05-10T19:35:15Z", "event": "ticker_progress", "i": 1, "n": 10, "ticker": "BBDC4", "ticker_elapsed_s": 132.5, "total_elapsed_min": 2.2}
+{"ts": "2026-05-10T19:35:15Z", "event": "ticker_start", "ticker": "BTLG11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:35:15Z", "event": "snapshot_done", "ticker": "BTLG11", "events_count": 0}
+{"ts": "2026-05-10T19:35:17Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10606}
+{"ts": "2026-05-10T19:35:19Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-common-stock-dividend-3", "chars": 9825}
+{"ts": "2026-05-10T19:35:21Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-first-quarter-2026-earni", "chars": 11150}
+{"ts": "2026-05-10T19:35:23Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10190}
+{"ts": "2026-05-10T19:35:25Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-announces-conference-calls-to-re", "chars": 10429}
+{"ts": "2026-05-10T19:35:31Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10279}
+{"ts": "2026-05-10T19:35:33Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-company-update-2026", "chars": 10659}
+{"ts": "2026-05-10T19:35:35Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-declares-preferred-stock-dividen", "chars": 10695}
+{"ts": "2026-05-10T19:35:37Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-present-at-the-ubs-financial-", "chars": 9945}
+{"ts": "2026-05-10T19:35:39Z", "event": "extract_done", "ticker": "JPM", "url": "https://www.jpmorganchase.com/ir/news/2026/chase-to-become-new-issuer-of-apple-c", "chars": 16181}
+{"ts": "2026-05-10T19:35:39Z", "event": "dossier_saved", "ticker": "JPM", "path": "obsidian_vault\\Overnight_2026-05-11\\JPM.md"}
+{"ts": "2026-05-10T19:35:39Z", "event": "ticker_progress", "i": 9, "n": 21, "ticker": "JPM", "ticker_elapsed_s": 28.8, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T19:35:39Z", "event": "ticker_start", "ticker": "KO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:35:39Z", "event": "snapshot_done", "ticker": "KO", "events_count": 154}
+{"ts": "2026-05-10T19:35:51Z", "event": "scrape_done", "ticker": "BTLG11", "url": "https://www.fiis.com.br/btlg11/", "ok": true, "elapsed_s": 36.05}
+{"ts": "2026-05-10T19:35:51Z", "event": "parse_done", "ticker": "BTLG11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:35:51Z", "event": "novelty_done", "ticker": "BTLG11", "novel_count": 0}
+{"ts": "2026-05-10T19:35:51Z", "event": "dossier_saved", "ticker": "BTLG11", "path": "obsidian_vault\\Overnight_2026-05-11\\BTLG11.md"}
+{"ts": "2026-05-10T19:35:51Z", "event": "ticker_progress", "i": 2, "n": 10, "ticker": "BTLG11", "ticker_elapsed_s": 36.2, "total_elapsed_min": 2.8}
+{"ts": "2026-05-10T19:35:51Z", "event": "ticker_start", "ticker": "ITSA4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:35:51Z", "event": "snapshot_done", "ticker": "ITSA4", "events_count": 7}
+{"ts": "2026-05-10T19:35:51Z", "event": "scrape_done", "ticker": "ITSA4", "url": "https://ri.itausa.com.br/", "ok": true, "elapsed_s": 0.07011842727661133}
+{"ts": "2026-05-10T19:35:51Z", "event": "parse_done", "ticker": "ITSA4", "filings": 4, "events": 5, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:35:51Z", "event": "novelty_done", "ticker": "ITSA4", "novel_count": 2}
+{"ts": "2026-05-10T19:35:55Z", "event": "scrape_done", "ticker": "KO", "url": "https://investors.coca-colacompany.com/", "ok": true, "elapsed_s": 15.78}
+{"ts": "2026-05-10T19:35:55Z", "event": "parse_done", "ticker": "KO", "filings": 1, "events": 0, "presentations": 11, "audio_video": 7}
+{"ts": "2026-05-10T19:35:55Z", "event": "novelty_done", "ticker": "KO", "novel_count": 0}
+{"ts": "2026-05-10T19:35:55Z", "event": "dossier_saved", "ticker": "KO", "path": "obsidian_vault\\Overnight_2026-05-11\\KO.md"}
+{"ts": "2026-05-10T19:35:55Z", "event": "ticker_progress", "i": 10, "n": 21, "ticker": "KO", "ticker_elapsed_s": 16.0, "total_elapsed_min": 3.7}
+{"ts": "2026-05-10T19:35:55Z", "event": "ticker_start", "ticker": "NU", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:35:55Z", "event": "snapshot_done", "ticker": "NU", "events_count": 152}
+{"ts": "2026-05-10T19:35:56Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/531", "chars": 987}
+{"ts": "2026-05-10T19:36:00Z", "event": "extract_done", "ticker": "ITSA4", "url": "https://api.mziq.com/mzfilemanager/v2/d/afd9200b-9b01-4d1c-bdd9-9b2c1e9b3b4d/a04", "chars": 1533}
+{"ts": "2026-05-10T19:36:00Z", "event": "dossier_saved", "ticker": "ITSA4", "path": "obsidian_vault\\Overnight_2026-05-11\\ITSA4.md"}
+{"ts": "2026-05-10T19:36:00Z", "event": "ticker_progress", "i": 3, "n": 10, "ticker": "ITSA4", "ticker_elapsed_s": 9.0, "total_elapsed_min": 3.0}
+{"ts": "2026-05-10T19:36:00Z", "event": "ticker_start", "ticker": "KLBN11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:36:00Z", "event": "snapshot_done", "ticker": "KLBN11", "events_count": 0}
+{"ts": "2026-05-10T19:36:20Z", "event": "scrape_done", "ticker": "KLBN11", "url": "https://ri.klabin.com.br/", "ok": true, "elapsed_s": 19.44}
+{"ts": "2026-05-10T19:36:20Z", "event": "parse_done", "ticker": "KLBN11", "filings": 0, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T19:36:20Z", "event": "novelty_done", "ticker": "KLBN11", "novel_count": 0}
+{"ts": "2026-05-10T19:36:20Z", "event": "dossier_saved", "ticker": "KLBN11", "path": "obsidian_vault\\Overnight_2026-05-11\\KLBN11.md"}
+{"ts": "2026-05-10T19:36:20Z", "event": "ticker_progress", "i": 4, "n": 10, "ticker": "KLBN11", "ticker_elapsed_s": 19.6, "total_elapsed_min": 3.3}
+{"ts": "2026-05-10T19:36:20Z", "event": "ticker_start", "ticker": "PRIO3", "market": "br", "urls_count": 2}
+{"ts": "2026-05-10T19:36:20Z", "event": "snapshot_done", "ticker": "PRIO3", "events_count": 33}
+{"ts": "2026-05-10T19:36:20Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/", "ok": true, "elapsed_s": 0.21120977401733398}
+{"ts": "2026-05-10T19:36:20Z", "event": "scrape_done", "ticker": "PRIO3", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes", "ok": true, "elapsed_s": 0.19399762153625488}
+{"ts": "2026-05-10T19:36:20Z", "event": "parse_done", "ticker": "PRIO3", "filings": 17, "events": 0, "presentations": 8, "audio_video": 0}
+{"ts": "2026-05-10T19:36:20Z", "event": "novelty_done", "ticker": "PRIO3", "novel_count": 3}
+{"ts": "2026-05-10T19:36:24Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/d93", "chars": 3868}
+{"ts": "2026-05-10T19:36:26Z", "event": "scrape_done", "ticker": "NU", "url": "https://investors.nu/", "ok": true, "elapsed_s": 29.79}
+{"ts": "2026-05-10T19:36:26Z", "event": "parse_done", "ticker": "NU", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:36:26Z", "event": "novelty_done", "ticker": "NU", "novel_count": 0}
+{"ts": "2026-05-10T19:36:26Z", "event": "dossier_saved", "ticker": "NU", "path": "obsidian_vault\\Overnight_2026-05-11\\NU.md"}
+{"ts": "2026-05-10T19:36:26Z", "event": "ticker_progress", "i": 11, "n": 21, "ticker": "NU", "ticker_elapsed_s": 30.5, "total_elapsed_min": 4.3}
+{"ts": "2026-05-10T19:36:26Z", "event": "ticker_start", "ticker": "O", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:36:26Z", "event": "snapshot_done", "ticker": "O", "events_count": 276}
+{"ts": "2026-05-10T19:36:30Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/1ec", "chars": 5341}
+{"ts": "2026-05-10T19:36:35Z", "event": "extract_done", "ticker": "PRIO3", "url": "https://api.mziq.com/mzfilemanager/v2/d/cecb3d3e-6bd6-4edd-b9b3-3cacde780cac/ff9", "chars": 3434}
+{"ts": "2026-05-10T19:36:35Z", "event": "dossier_saved", "ticker": "PRIO3", "path": "obsidian_vault\\Overnight_2026-05-11\\PRIO3.md"}
+{"ts": "2026-05-10T19:36:35Z", "event": "ticker_progress", "i": 5, "n": 10, "ticker": "PRIO3", "ticker_elapsed_s": 14.8, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T19:36:35Z", "event": "ticker_start", "ticker": "PVBI11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:36:35Z", "event": "snapshot_done", "ticker": "PVBI11", "events_count": 0}
+{"ts": "2026-05-10T19:36:56Z", "event": "scrape_done", "ticker": "O", "url": "https://www.realtyincome.com/investors", "ok": false, "elapsed_s": 30.51115322113037}
+{"ts": "2026-05-10T19:36:56Z", "event": "dossier_saved", "ticker": "O", "path": "obsidian_vault\\Overnight_2026-05-11\\O.md"}
+{"ts": "2026-05-10T19:36:56Z", "event": "ticker_progress", "i": 12, "n": 21, "ticker": "O", "ticker_elapsed_s": 30.5, "total_elapsed_min": 4.8}
+{"ts": "2026-05-10T19:36:56Z", "event": "ticker_start", "ticker": "PG", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:36:56Z", "event": "snapshot_done", "ticker": "PG", "events_count": 111}
+{"ts": "2026-05-10T19:37:11Z", "event": "scrape_done", "ticker": "PVBI11", "url": "https://www.fiis.com.br/pvbi11/", "ok": true, "elapsed_s": 36.46}
+{"ts": "2026-05-10T19:37:11Z", "event": "parse_done", "ticker": "PVBI11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:37:11Z", "event": "novelty_done", "ticker": "PVBI11", "novel_count": 0}
+{"ts": "2026-05-10T19:37:11Z", "event": "dossier_saved", "ticker": "PVBI11", "path": "obsidian_vault\\Overnight_2026-05-11\\PVBI11.md"}
+{"ts": "2026-05-10T19:37:11Z", "event": "ticker_progress", "i": 6, "n": 10, "ticker": "PVBI11", "ticker_elapsed_s": 36.7, "total_elapsed_min": 4.1}
+{"ts": "2026-05-10T19:37:11Z", "event": "ticker_start", "ticker": "RBRX11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:37:11Z", "event": "snapshot_done", "ticker": "RBRX11", "events_count": 0}
+{"ts": "2026-05-10T19:37:14Z", "event": "scrape_done", "ticker": "PG", "url": "https://www.pginvestor.com/", "ok": true, "elapsed_s": 17.9}
+{"ts": "2026-05-10T19:37:14Z", "event": "parse_done", "ticker": "PG", "filings": 5, "events": 0, "presentations": 2, "audio_video": 0}
+{"ts": "2026-05-10T19:37:14Z", "event": "novelty_done", "ticker": "PG", "novel_count": 0}
+{"ts": "2026-05-10T19:37:14Z", "event": "dossier_saved", "ticker": "PG", "path": "obsidian_vault\\Overnight_2026-05-11\\PG.md"}
+{"ts": "2026-05-10T19:37:14Z", "event": "ticker_progress", "i": 13, "n": 21, "ticker": "PG", "ticker_elapsed_s": 18.1, "total_elapsed_min": 5.1}
+{"ts": "2026-05-10T19:37:14Z", "event": "ticker_start", "ticker": "PLD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:37:14Z", "event": "snapshot_done", "ticker": "PLD", "events_count": 158}
+{"ts": "2026-05-10T19:37:31Z", "event": "scrape_done", "ticker": "PLD", "url": "https://ir.prologis.com/", "ok": true, "elapsed_s": 16.91}
+{"ts": "2026-05-10T19:37:31Z", "event": "parse_done", "ticker": "PLD", "filings": 5, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T19:37:31Z", "event": "novelty_done", "ticker": "PLD", "novel_count": 1}
+{"ts": "2026-05-10T19:37:34Z", "event": "download_fail", "url": "https://www.prologis.com/annual-report-2024", "err": "405 Client Error: Method Not Allowed for url: https://www.prologis.com/annual-report-2024"}
+{"ts": "2026-05-10T19:37:34Z", "event": "dossier_saved", "ticker": "PLD", "path": "obsidian_vault\\Overnight_2026-05-11\\PLD.md"}
+{"ts": "2026-05-10T19:37:34Z", "event": "ticker_progress", "i": 14, "n": 21, "ticker": "PLD", "ticker_elapsed_s": 19.6, "total_elapsed_min": 5.4}
+{"ts": "2026-05-10T19:37:34Z", "event": "ticker_start", "ticker": "PLTR", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:37:34Z", "event": "snapshot_done", "ticker": "PLTR", "events_count": 72}
+{"ts": "2026-05-10T19:37:47Z", "event": "scrape_done", "ticker": "PLTR", "url": "https://investors.palantir.com/", "ok": true, "elapsed_s": 12.39}
+{"ts": "2026-05-10T19:37:47Z", "event": "parse_done", "ticker": "PLTR", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:37:47Z", "event": "novelty_done", "ticker": "PLTR", "novel_count": 0}
+{"ts": "2026-05-10T19:37:47Z", "event": "dossier_saved", "ticker": "PLTR", "path": "obsidian_vault\\Overnight_2026-05-11\\PLTR.md"}
+{"ts": "2026-05-10T19:37:47Z", "event": "ticker_progress", "i": 15, "n": 21, "ticker": "PLTR", "ticker_elapsed_s": 12.6, "total_elapsed_min": 5.6}
+{"ts": "2026-05-10T19:37:47Z", "event": "ticker_start", "ticker": "TEN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:37:47Z", "event": "snapshot_done", "ticker": "TEN", "events_count": 204}
+{"ts": "2026-05-10T19:37:47Z", "event": "scrape_done", "ticker": "RBRX11", "url": "https://www.fiis.com.br/rbrx11/", "ok": true, "elapsed_s": 36.02}
+{"ts": "2026-05-10T19:37:47Z", "event": "parse_done", "ticker": "RBRX11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:37:47Z", "event": "novelty_done", "ticker": "RBRX11", "novel_count": 0}
+{"ts": "2026-05-10T19:37:47Z", "event": "dossier_saved", "ticker": "RBRX11", "path": "obsidian_vault\\Overnight_2026-05-11\\RBRX11.md"}
+{"ts": "2026-05-10T19:37:47Z", "event": "ticker_progress", "i": 7, "n": 10, "ticker": "RBRX11", "ticker_elapsed_s": 36.2, "total_elapsed_min": 4.8}
+{"ts": "2026-05-10T19:37:47Z", "event": "ticker_start", "ticker": "VALE3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:37:47Z", "event": "snapshot_done", "ticker": "VALE3", "events_count": 42}
+{"ts": "2026-05-10T19:38:08Z", "event": "scrape_done", "ticker": "VALE3", "url": "https://vale.com/pt/investidores", "ok": true, "elapsed_s": 20.16}
+{"ts": "2026-05-10T19:38:08Z", "event": "parse_done", "ticker": "VALE3", "filings": 0, "events": 0, "presentations": 14, "audio_video": 2}
+{"ts": "2026-05-10T19:38:08Z", "event": "novelty_done", "ticker": "VALE3", "novel_count": 0}
+{"ts": "2026-05-10T19:38:08Z", "event": "dossier_saved", "ticker": "VALE3", "path": "obsidian_vault\\Overnight_2026-05-11\\VALE3.md"}
+{"ts": "2026-05-10T19:38:08Z", "event": "ticker_progress", "i": 8, "n": 10, "ticker": "VALE3", "ticker_elapsed_s": 20.4, "total_elapsed_min": 5.1}
+{"ts": "2026-05-10T19:38:08Z", "event": "ticker_start", "ticker": "VGIR11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:38:08Z", "event": "snapshot_done", "ticker": "VGIR11", "events_count": 0}
+{"ts": "2026-05-10T19:38:10Z", "event": "scrape_done", "ticker": "TEN", "url": "https://investors.tsakoshellenicgroup.com/", "ok": false, "elapsed_s": 23.277358770370483}
+{"ts": "2026-05-10T19:38:10Z", "event": "dossier_saved", "ticker": "TEN", "path": "obsidian_vault\\Overnight_2026-05-11\\TEN.md"}
+{"ts": "2026-05-10T19:38:10Z", "event": "ticker_progress", "i": 16, "n": 21, "ticker": "TEN", "ticker_elapsed_s": 23.3, "total_elapsed_min": 6.0}
+{"ts": "2026-05-10T19:38:10Z", "event": "ticker_start", "ticker": "TFC", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:38:10Z", "event": "snapshot_done", "ticker": "TFC", "events_count": 117}
+{"ts": "2026-05-10T19:38:27Z", "event": "scrape_done", "ticker": "TFC", "url": "https://ir.truist.com/", "ok": true, "elapsed_s": 16.84}
+{"ts": "2026-05-10T19:38:27Z", "event": "parse_done", "ticker": "TFC", "filings": 4, "events": 0, "presentations": 2, "audio_video": 0}
+{"ts": "2026-05-10T19:38:27Z", "event": "novelty_done", "ticker": "TFC", "novel_count": 4}
+{"ts": "2026-05-10T19:38:31Z", "event": "extract_done", "ticker": "TFC", "url": "https://ir.truist.com/2026-04-28-Truist-declares-common-and-preferred-stock-divi", "chars": 6120}
+{"ts": "2026-05-10T19:38:33Z", "event": "extract_done", "ticker": "TFC", "url": "https://ir.truist.com/2026-04-17-Truist-reports-first-quarter-2026-results", "chars": 4896}
+{"ts": "2026-05-10T19:38:36Z", "event": "extract_done", "ticker": "TFC", "url": "https://ir.truist.com/2026-03-18-Truist-announces-first-quarter-2026-earnings-ca", "chars": 5185}
+{"ts": "2026-05-10T19:38:39Z", "event": "extract_done", "ticker": "TFC", "url": "https://ir.truist.com/2026-03-12-Truist-expands-open-banking-capabilities-with-P", "chars": 7047}
+{"ts": "2026-05-10T19:38:39Z", "event": "dossier_saved", "ticker": "TFC", "path": "obsidian_vault\\Overnight_2026-05-11\\TFC.md"}
+{"ts": "2026-05-10T19:38:39Z", "event": "ticker_progress", "i": 17, "n": 21, "ticker": "TFC", "ticker_elapsed_s": 28.8, "total_elapsed_min": 6.5}
+{"ts": "2026-05-10T19:38:39Z", "event": "ticker_start", "ticker": "TSLA", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:38:39Z", "event": "snapshot_done", "ticker": "TSLA", "events_count": 168}
+{"ts": "2026-05-10T19:38:43Z", "event": "scrape_done", "ticker": "TSLA", "url": "https://ir.tesla.com/", "ok": false, "elapsed_s": 4.11}
+{"ts": "2026-05-10T19:38:43Z", "event": "dossier_saved", "ticker": "TSLA", "path": "obsidian_vault\\Overnight_2026-05-11\\TSLA.md"}
+{"ts": "2026-05-10T19:38:43Z", "event": "ticker_progress", "i": 18, "n": 21, "ticker": "TSLA", "ticker_elapsed_s": 4.3, "total_elapsed_min": 6.5}
+{"ts": "2026-05-10T19:38:43Z", "event": "ticker_start", "ticker": "TSM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:38:43Z", "event": "snapshot_done", "ticker": "TSM", "events_count": 864}
+{"ts": "2026-05-10T19:38:44Z", "event": "scrape_done", "ticker": "VGIR11", "url": "https://www.fiis.com.br/vgir11/", "ok": true, "elapsed_s": 35.85}
+{"ts": "2026-05-10T19:38:44Z", "event": "parse_done", "ticker": "VGIR11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:38:44Z", "event": "novelty_done", "ticker": "VGIR11", "novel_count": 0}
+{"ts": "2026-05-10T19:38:44Z", "event": "dossier_saved", "ticker": "VGIR11", "path": "obsidian_vault\\Overnight_2026-05-11\\VGIR11.md"}
+{"ts": "2026-05-10T19:38:44Z", "event": "ticker_progress", "i": 9, "n": 10, "ticker": "VGIR11", "ticker_elapsed_s": 36.0, "total_elapsed_min": 5.7}
+{"ts": "2026-05-10T19:38:44Z", "event": "ticker_start", "ticker": "XPML11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:38:44Z", "event": "snapshot_done", "ticker": "XPML11", "events_count": 1}
+{"ts": "2026-05-10T19:38:47Z", "event": "scrape_done", "ticker": "TSM", "url": "https://investor.tsmc.com/english", "ok": false, "elapsed_s": 3.96}
+{"ts": "2026-05-10T19:38:47Z", "event": "dossier_saved", "ticker": "TSM", "path": "obsidian_vault\\Overnight_2026-05-11\\TSM.md"}
+{"ts": "2026-05-10T19:38:47Z", "event": "ticker_progress", "i": 19, "n": 21, "ticker": "TSM", "ticker_elapsed_s": 4.1, "total_elapsed_min": 6.6}
+{"ts": "2026-05-10T19:38:47Z", "event": "ticker_start", "ticker": "TTD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:38:47Z", "event": "snapshot_done", "ticker": "TTD", "events_count": 134}
+{"ts": "2026-05-10T19:39:06Z", "event": "scrape_done", "ticker": "TTD", "url": "https://investors.thetradedesk.com/", "ok": true, "elapsed_s": 19.08}
+{"ts": "2026-05-10T19:39:06Z", "event": "parse_done", "ticker": "TTD", "filings": 5, "events": 0, "presentations": 4, "audio_video": 1}
+{"ts": "2026-05-10T19:39:06Z", "event": "novelty_done", "ticker": "TTD", "novel_count": 2}
+{"ts": "2026-05-10T19:39:09Z", "event": "extract_done", "ticker": "TTD", "url": "https://investors.thetradedesk.com/news-and-events/news/default.aspx", "chars": 5497}
+{"ts": "2026-05-10T19:39:12Z", "event": "extract_done", "ticker": "TTD", "url": "https://investors.thetradedesk.com/news-and-events/events/event-details/2026/Q1-", "chars": 5963}
+{"ts": "2026-05-10T19:39:12Z", "event": "dossier_saved", "ticker": "TTD", "path": "obsidian_vault\\Overnight_2026-05-11\\TTD.md"}
+{"ts": "2026-05-10T19:39:12Z", "event": "ticker_progress", "i": 20, "n": 21, "ticker": "TTD", "ticker_elapsed_s": 24.6, "total_elapsed_min": 7.0}
+{"ts": "2026-05-10T19:39:12Z", "event": "ticker_start", "ticker": "XP", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:39:12Z", "event": "snapshot_done", "ticker": "XP", "events_count": 140}
+{"ts": "2026-05-10T19:39:16Z", "event": "scrape_done", "ticker": "XP", "url": "https://investors.xpinc.com/", "ok": false, "elapsed_s": 4.2}
+{"ts": "2026-05-10T19:39:16Z", "event": "dossier_saved", "ticker": "XP", "path": "obsidian_vault\\Overnight_2026-05-11\\XP.md"}
+{"ts": "2026-05-10T19:39:16Z", "event": "ticker_progress", "i": 21, "n": 21, "ticker": "XP", "ticker_elapsed_s": 4.4, "total_elapsed_min": 7.1}
+{"ts": "2026-05-10T19:39:16Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 21, "ok": 21, "total_elapsed_min": 7.1}
+{"ts": "2026-05-10T19:39:19Z", "event": "scrape_done", "ticker": "XPML11", "url": "https://www.fiis.com.br/xpml11/", "ok": true, "elapsed_s": 35.18}
+{"ts": "2026-05-10T19:39:19Z", "event": "parse_done", "ticker": "XPML11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:39:19Z", "event": "novelty_done", "ticker": "XPML11", "novel_count": 0}
+{"ts": "2026-05-10T19:39:19Z", "event": "dossier_saved", "ticker": "XPML11", "path": "obsidian_vault\\Overnight_2026-05-11\\XPML11.md"}
+{"ts": "2026-05-10T19:39:19Z", "event": "ticker_progress", "i": 10, "n": 10, "ticker": "XPML11", "ticker_elapsed_s": 35.4, "total_elapsed_min": 6.3}
+{"ts": "2026-05-10T19:39:19Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 10, "ok": 10, "total_elapsed_min": 6.3}
+{"ts": "2026-05-10T19:42:58Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:42:58Z", "event": "pilot_loaded", "n": 41}
+{"ts": "2026-05-10T19:42:58Z", "event": "ticker_start", "ticker": "ABEV3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:42:58Z", "event": "snapshot_done", "ticker": "ABEV3", "events_count": 0}
+{"ts": "2026-05-10T19:43:13Z", "event": "scrape_done", "ticker": "ABEV3", "url": "https://ri.ambev.com.br/", "ok": true, "elapsed_s": 14.28}
+{"ts": "2026-05-10T19:43:13Z", "event": "parse_done", "ticker": "ABEV3", "filings": 0, "events": 0, "presentations": 2, "audio_video": 26}
+{"ts": "2026-05-10T19:43:13Z", "event": "novelty_done", "ticker": "ABEV3", "novel_count": 0}
+{"ts": "2026-05-10T19:43:13Z", "event": "dossier_saved", "ticker": "ABEV3", "path": "obsidian_vault\\Overnight_2026-05-11\\ABEV3.md"}
+{"ts": "2026-05-10T19:43:13Z", "event": "ticker_progress", "i": 1, "n": 41, "ticker": "ABEV3", "ticker_elapsed_s": 14.5, "total_elapsed_min": 0.2}
+{"ts": "2026-05-10T19:43:13Z", "event": "ticker_start", "ticker": "ALUP11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:43:13Z", "event": "snapshot_done", "ticker": "ALUP11", "events_count": 0}
+{"ts": "2026-05-10T19:43:45Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T19:43:45Z", "event": "pilot_loaded", "n": 6}
+{"ts": "2026-05-10T19:43:45Z", "event": "ticker_start", "ticker": "ABBV", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:43:45Z", "event": "snapshot_done", "ticker": "ABBV", "events_count": 183}
+{"ts": "2026-05-10T19:43:46Z", "event": "scrape_done", "ticker": "ABBV", "url": "https://investors.abbvie.com/", "ok": false, "elapsed_s": 1.7444872856140137}
+{"ts": "2026-05-10T19:43:46Z", "event": "dossier_saved", "ticker": "ABBV", "path": "obsidian_vault\\Overnight_2026-05-11\\ABBV.md"}
+{"ts": "2026-05-10T19:43:46Z", "event": "ticker_progress", "i": 1, "n": 6, "ticker": "ABBV", "ticker_elapsed_s": 1.7, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T19:43:46Z", "event": "ticker_start", "ticker": "CAT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:43:46Z", "event": "snapshot_done", "ticker": "CAT", "events_count": 0}
+{"ts": "2026-05-10T19:43:48Z", "event": "scrape_done", "ticker": "ALUP11", "url": "https://www.fiis.com.br/alup11/", "ok": false, "elapsed_s": 34.84}
+{"ts": "2026-05-10T19:43:48Z", "event": "dossier_saved", "ticker": "ALUP11", "path": "obsidian_vault\\Overnight_2026-05-11\\ALUP11.md"}
+{"ts": "2026-05-10T19:43:48Z", "event": "ticker_progress", "i": 2, "n": 41, "ticker": "ALUP11", "ticker_elapsed_s": 35.0, "total_elapsed_min": 0.8}
+{"ts": "2026-05-10T19:43:48Z", "event": "ticker_start", "ticker": "B3SA3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:43:48Z", "event": "snapshot_done", "ticker": "B3SA3", "events_count": 13}
+{"ts": "2026-05-10T19:44:02Z", "event": "scrape_done", "ticker": "B3SA3", "url": "https://ri.b3.com.br/", "ok": true, "elapsed_s": 14.16}
+{"ts": "2026-05-10T19:44:02Z", "event": "parse_done", "ticker": "B3SA3", "filings": 0, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T19:44:02Z", "event": "novelty_done", "ticker": "B3SA3", "novel_count": 0}
+{"ts": "2026-05-10T19:44:02Z", "event": "dossier_saved", "ticker": "B3SA3", "path": "obsidian_vault\\Overnight_2026-05-11\\B3SA3.md"}
+{"ts": "2026-05-10T19:44:02Z", "event": "ticker_progress", "i": 3, "n": 41, "ticker": "B3SA3", "ticker_elapsed_s": 14.4, "total_elapsed_min": 1.1}
+{"ts": "2026-05-10T19:44:02Z", "event": "ticker_start", "ticker": "BBAS3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:44:02Z", "event": "snapshot_done", "ticker": "BBAS3", "events_count": 0}
+{"ts": "2026-05-10T19:44:17Z", "event": "scrape_done", "ticker": "CAT", "url": "https://www.caterpillar.com/en/investors.html", "ok": false, "elapsed_s": 30.529956340789795}
+{"ts": "2026-05-10T19:44:17Z", "event": "dossier_saved", "ticker": "CAT", "path": "obsidian_vault\\Overnight_2026-05-11\\CAT.md"}
+{"ts": "2026-05-10T19:44:17Z", "event": "ticker_progress", "i": 2, "n": 6, "ticker": "CAT", "ticker_elapsed_s": 30.5, "total_elapsed_min": 0.5}
+{"ts": "2026-05-10T19:44:17Z", "event": "ticker_start", "ticker": "MCD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:44:17Z", "event": "snapshot_done", "ticker": "MCD", "events_count": 165}
+{"ts": "2026-05-10T19:44:19Z", "event": "scrape_done", "ticker": "MCD", "url": "https://corporate.mcdonalds.com/corpmcd/investors.html", "ok": false, "elapsed_s": 1.7675983905792236}
+{"ts": "2026-05-10T19:44:19Z", "event": "dossier_saved", "ticker": "MCD", "path": "obsidian_vault\\Overnight_2026-05-11\\MCD.md"}
+{"ts": "2026-05-10T19:44:19Z", "event": "ticker_progress", "i": 3, "n": 6, "ticker": "MCD", "ticker_elapsed_s": 1.8, "total_elapsed_min": 0.6}
+{"ts": "2026-05-10T19:44:19Z", "event": "ticker_start", "ticker": "MSFT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:44:19Z", "event": "snapshot_done", "ticker": "MSFT", "events_count": 98}
+{"ts": "2026-05-10T19:44:28Z", "event": "scrape_done", "ticker": "MSFT", "url": "https://www.microsoft.com/en-us/investor", "ok": true, "elapsed_s": 8.95}
+{"ts": "2026-05-10T19:44:28Z", "event": "parse_done", "ticker": "MSFT", "filings": 2, "events": 0, "presentations": 1, "audio_video": 1}
+{"ts": "2026-05-10T19:44:28Z", "event": "novelty_done", "ticker": "MSFT", "novel_count": 2}
+{"ts": "2026-05-10T19:44:30Z", "event": "extract_done", "ticker": "MSFT", "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webca", "chars": 40319}
+{"ts": "2026-05-10T19:44:31Z", "event": "extract_done", "ticker": "MSFT", "url": "https://www.microsoft.com/content/dam/microsoft/invst/general/images/icons/filei", "chars": 947}
+{"ts": "2026-05-10T19:44:31Z", "event": "dossier_saved", "ticker": "MSFT", "path": "obsidian_vault\\Overnight_2026-05-11\\MSFT.md"}
+{"ts": "2026-05-10T19:44:31Z", "event": "ticker_progress", "i": 4, "n": 6, "ticker": "MSFT", "ticker_elapsed_s": 12.7, "total_elapsed_min": 0.8}
+{"ts": "2026-05-10T19:44:31Z", "event": "ticker_start", "ticker": "V", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:44:31Z", "event": "snapshot_done", "ticker": "V", "events_count": 228}
+{"ts": "2026-05-10T19:44:34Z", "event": "scrape_done", "ticker": "BBAS3", "url": "https://www.bb.com.br/site/ri/", "ok": false, "elapsed_s": 31.32}
+{"ts": "2026-05-10T19:44:34Z", "event": "dossier_saved", "ticker": "BBAS3", "path": "obsidian_vault\\Overnight_2026-05-11\\BBAS3.md"}
+{"ts": "2026-05-10T19:44:34Z", "event": "ticker_progress", "i": 4, "n": 41, "ticker": "BBAS3", "ticker_elapsed_s": 31.5, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T19:44:34Z", "event": "ticker_start", "ticker": "BBSE3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:44:34Z", "event": "snapshot_done", "ticker": "BBSE3", "events_count": 0}
+{"ts": "2026-05-10T19:44:41Z", "event": "scrape_done", "ticker": "V", "url": "https://investor.visa.com/", "ok": true, "elapsed_s": 9.71}
+{"ts": "2026-05-10T19:44:41Z", "event": "parse_done", "ticker": "V", "filings": 4, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T19:44:41Z", "event": "novelty_done", "ticker": "V", "novel_count": 3}
+{"ts": "2026-05-10T19:44:43Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2026/Q1-2026-Visa-Earnin", "chars": 3849}
+{"ts": "2026-05-10T19:44:44Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2026/Q2-2026-Visa-Earnin", "chars": 3848}
+{"ts": "2026-05-10T19:44:46Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2025/Q4-and-Full-Year-20", "chars": 3864}
+{"ts": "2026-05-10T19:44:46Z", "event": "dossier_saved", "ticker": "V", "path": "obsidian_vault\\Overnight_2026-05-11\\V.md"}
+{"ts": "2026-05-10T19:44:46Z", "event": "ticker_progress", "i": 5, "n": 6, "ticker": "V", "ticker_elapsed_s": 14.4, "total_elapsed_min": 1.0}
+{"ts": "2026-05-10T19:44:46Z", "event": "ticker_start", "ticker": "WMT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T19:44:46Z", "event": "snapshot_done", "ticker": "WMT", "events_count": 0}
+{"ts": "2026-05-10T19:44:49Z", "event": "scrape_done", "ticker": "BBSE3", "url": "https://www.bbseguridaderi.com.br/", "ok": true, "elapsed_s": 14.59}
+{"ts": "2026-05-10T19:44:49Z", "event": "parse_done", "ticker": "BBSE3", "filings": 0, "events": 0, "presentations": 17, "audio_video": 0}
+{"ts": "2026-05-10T19:44:49Z", "event": "novelty_done", "ticker": "BBSE3", "novel_count": 0}
+{"ts": "2026-05-10T19:44:49Z", "event": "dossier_saved", "ticker": "BBSE3", "path": "obsidian_vault\\Overnight_2026-05-11\\BBSE3.md"}
+{"ts": "2026-05-10T19:44:49Z", "event": "ticker_progress", "i": 5, "n": 41, "ticker": "BBSE3", "ticker_elapsed_s": 14.8, "total_elapsed_min": 1.8}
+{"ts": "2026-05-10T19:44:49Z", "event": "ticker_start", "ticker": "BPAC11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:44:49Z", "event": "snapshot_done", "ticker": "BPAC11", "events_count": 0}
+{"ts": "2026-05-10T19:44:58Z", "event": "scrape_done", "ticker": "WMT", "url": "https://stock.walmart.com/", "ok": true, "elapsed_s": 11.85}
+{"ts": "2026-05-10T19:44:58Z", "event": "parse_done", "ticker": "WMT", "filings": 1, "events": 0, "presentations": 7, "audio_video": 0}
+{"ts": "2026-05-10T19:44:58Z", "event": "novelty_done", "ticker": "WMT", "novel_count": 0}
+{"ts": "2026-05-10T19:44:58Z", "event": "dossier_saved", "ticker": "WMT", "path": "obsidian_vault\\Overnight_2026-05-11\\WMT.md"}
+{"ts": "2026-05-10T19:44:58Z", "event": "ticker_progress", "i": 6, "n": 6, "ticker": "WMT", "ticker_elapsed_s": 12.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T19:44:58Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 6, "ok": 6, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T19:45:02Z", "event": "scrape_done", "ticker": "BPAC11", "url": "https://ri.btgpactual.com/", "ok": true, "elapsed_s": 13.24}
+{"ts": "2026-05-10T19:45:02Z", "event": "parse_done", "ticker": "BPAC11", "filings": 0, "events": 7, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T19:45:02Z", "event": "novelty_done", "ticker": "BPAC11", "novel_count": 0}
+{"ts": "2026-05-10T19:45:02Z", "event": "dossier_saved", "ticker": "BPAC11", "path": "obsidian_vault\\Overnight_2026-05-11\\BPAC11.md"}
+{"ts": "2026-05-10T19:45:02Z", "event": "ticker_progress", "i": 6, "n": 41, "ticker": "BPAC11", "ticker_elapsed_s": 13.4, "total_elapsed_min": 2.1}
+{"ts": "2026-05-10T19:45:02Z", "event": "ticker_start", "ticker": "BRBI11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:45:02Z", "event": "snapshot_done", "ticker": "BRBI11", "events_count": 0}
+{"ts": "2026-05-10T19:45:36Z", "event": "scrape_done", "ticker": "BRBI11", "url": "https://www.fiis.com.br/brbi11/", "ok": false, "elapsed_s": 34.27}
+{"ts": "2026-05-10T19:45:36Z", "event": "dossier_saved", "ticker": "BRBI11", "path": "obsidian_vault\\Overnight_2026-05-11\\BRBI11.md"}
+{"ts": "2026-05-10T19:45:36Z", "event": "ticker_progress", "i": 7, "n": 41, "ticker": "BRBI11", "ticker_elapsed_s": 34.5, "total_elapsed_min": 2.6}
+{"ts": "2026-05-10T19:45:36Z", "event": "ticker_start", "ticker": "BRCO11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:45:36Z", "event": "snapshot_done", "ticker": "BRCO11", "events_count": 0}
+{"ts": "2026-05-10T19:46:11Z", "event": "scrape_done", "ticker": "BRCO11", "url": "https://www.fiis.com.br/brco11/", "ok": true, "elapsed_s": 34.24}
+{"ts": "2026-05-10T19:46:11Z", "event": "parse_done", "ticker": "BRCO11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:46:11Z", "event": "novelty_done", "ticker": "BRCO11", "novel_count": 0}
+{"ts": "2026-05-10T19:46:11Z", "event": "dossier_saved", "ticker": "BRCO11", "path": "obsidian_vault\\Overnight_2026-05-11\\BRCO11.md"}
+{"ts": "2026-05-10T19:46:11Z", "event": "ticker_progress", "i": 8, "n": 41, "ticker": "BRCO11", "ticker_elapsed_s": 34.4, "total_elapsed_min": 3.2}
+{"ts": "2026-05-10T19:46:11Z", "event": "ticker_start", "ticker": "CMIG4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:46:11Z", "event": "snapshot_done", "ticker": "CMIG4", "events_count": 0}
+{"ts": "2026-05-10T19:46:18Z", "event": "scrape_done", "ticker": "CMIG4", "url": "https://ri.cemig.com.br/", "ok": true, "elapsed_s": 6.49}
+{"ts": "2026-05-10T19:46:18Z", "event": "parse_done", "ticker": "CMIG4", "filings": 0, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T19:46:18Z", "event": "novelty_done", "ticker": "CMIG4", "novel_count": 0}
+{"ts": "2026-05-10T19:46:18Z", "event": "dossier_saved", "ticker": "CMIG4", "path": "obsidian_vault\\Overnight_2026-05-11\\CMIG4.md"}
+{"ts": "2026-05-10T19:46:18Z", "event": "ticker_progress", "i": 9, "n": 41, "ticker": "CMIG4", "ticker_elapsed_s": 6.7, "total_elapsed_min": 3.3}
+{"ts": "2026-05-10T19:46:18Z", "event": "ticker_start", "ticker": "EGIE3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:46:18Z", "event": "snapshot_done", "ticker": "EGIE3", "events_count": 0}
+{"ts": "2026-05-10T19:46:19Z", "event": "scrape_done", "ticker": "EGIE3", "url": "https://ri.engie.com.br/", "ok": false, "elapsed_s": 1.1062779426574707}
+{"ts": "2026-05-10T19:46:19Z", "event": "dossier_saved", "ticker": "EGIE3", "path": "obsidian_vault\\Overnight_2026-05-11\\EGIE3.md"}
+{"ts": "2026-05-10T19:46:19Z", "event": "ticker_progress", "i": 10, "n": 41, "ticker": "EGIE3", "ticker_elapsed_s": 1.1, "total_elapsed_min": 3.3}
+{"ts": "2026-05-10T19:46:19Z", "event": "ticker_start", "ticker": "ENGI11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:46:19Z", "event": "snapshot_done", "ticker": "ENGI11", "events_count": 21}
+{"ts": "2026-05-10T19:46:52Z", "event": "scrape_done", "ticker": "ENGI11", "url": "https://www.fiis.com.br/engi11/", "ok": false, "elapsed_s": 33.57}
+{"ts": "2026-05-10T19:46:52Z", "event": "dossier_saved", "ticker": "ENGI11", "path": "obsidian_vault\\Overnight_2026-05-11\\ENGI11.md"}
+{"ts": "2026-05-10T19:46:52Z", "event": "ticker_progress", "i": 11, "n": 41, "ticker": "ENGI11", "ticker_elapsed_s": 33.8, "total_elapsed_min": 3.9}
+{"ts": "2026-05-10T19:46:52Z", "event": "ticker_start", "ticker": "EQTL3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:46:52Z", "event": "snapshot_done", "ticker": "EQTL3", "events_count": 24}
+{"ts": "2026-05-10T19:47:05Z", "event": "scrape_done", "ticker": "EQTL3", "url": "https://ri.equatorialenergia.com.br/", "ok": true, "elapsed_s": 12.43}
+{"ts": "2026-05-10T19:47:05Z", "event": "parse_done", "ticker": "EQTL3", "filings": 0, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T19:47:05Z", "event": "novelty_done", "ticker": "EQTL3", "novel_count": 0}
+{"ts": "2026-05-10T19:47:05Z", "event": "dossier_saved", "ticker": "EQTL3", "path": "obsidian_vault\\Overnight_2026-05-11\\EQTL3.md"}
+{"ts": "2026-05-10T19:47:05Z", "event": "ticker_progress", "i": 12, "n": 41, "ticker": "EQTL3", "ticker_elapsed_s": 12.6, "total_elapsed_min": 4.1}
+{"ts": "2026-05-10T19:47:05Z", "event": "ticker_start", "ticker": "GARE11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:47:05Z", "event": "snapshot_done", "ticker": "GARE11", "events_count": 0}
+{"ts": "2026-05-10T19:47:39Z", "event": "scrape_done", "ticker": "GARE11", "url": "https://www.fiis.com.br/gare11/", "ok": true, "elapsed_s": 33.99}
+{"ts": "2026-05-10T19:47:39Z", "event": "parse_done", "ticker": "GARE11", "filings": 1, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:47:39Z", "event": "novelty_done", "ticker": "GARE11", "novel_count": 1}
+{"ts": "2026-05-10T19:47:41Z", "event": "extract_done", "ticker": "GARE11", "url": "https://fiis.com.br/noticias/gare11-divulga-dividendos-yield-proximo-de-1-veja-v", "chars": 13387}
+{"ts": "2026-05-10T19:47:41Z", "event": "dossier_saved", "ticker": "GARE11", "path": "obsidian_vault\\Overnight_2026-05-11\\GARE11.md"}
+{"ts": "2026-05-10T19:47:41Z", "event": "ticker_progress", "i": 13, "n": 41, "ticker": "GARE11", "ticker_elapsed_s": 36.3, "total_elapsed_min": 4.7}
+{"ts": "2026-05-10T19:47:41Z", "event": "ticker_start", "ticker": "HGLG11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:47:41Z", "event": "snapshot_done", "ticker": "HGLG11", "events_count": 0}
+{"ts": "2026-05-10T19:48:15Z", "event": "scrape_done", "ticker": "HGLG11", "url": "https://www.fiis.com.br/hglg11/", "ok": true, "elapsed_s": 33.29}
+{"ts": "2026-05-10T19:48:15Z", "event": "parse_done", "ticker": "HGLG11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:48:15Z", "event": "novelty_done", "ticker": "HGLG11", "novel_count": 0}
+{"ts": "2026-05-10T19:48:15Z", "event": "dossier_saved", "ticker": "HGLG11", "path": "obsidian_vault\\Overnight_2026-05-11\\HGLG11.md"}
+{"ts": "2026-05-10T19:48:15Z", "event": "ticker_progress", "i": 14, "n": 41, "ticker": "HGLG11", "ticker_elapsed_s": 33.5, "total_elapsed_min": 5.3}
+{"ts": "2026-05-10T19:48:15Z", "event": "ticker_start", "ticker": "HGRU11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:48:15Z", "event": "snapshot_done", "ticker": "HGRU11", "events_count": 0}
+{"ts": "2026-05-10T19:48:48Z", "event": "scrape_done", "ticker": "HGRU11", "url": "https://www.fiis.com.br/hgru11/", "ok": true, "elapsed_s": 32.92}
+{"ts": "2026-05-10T19:48:48Z", "event": "parse_done", "ticker": "HGRU11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:48:48Z", "event": "novelty_done", "ticker": "HGRU11", "novel_count": 0}
+{"ts": "2026-05-10T19:48:48Z", "event": "dossier_saved", "ticker": "HGRU11", "path": "obsidian_vault\\Overnight_2026-05-11\\HGRU11.md"}
+{"ts": "2026-05-10T19:48:48Z", "event": "ticker_progress", "i": 15, "n": 41, "ticker": "HGRU11", "ticker_elapsed_s": 33.1, "total_elapsed_min": 5.8}
+{"ts": "2026-05-10T19:48:48Z", "event": "ticker_start", "ticker": "ITUB4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:48:48Z", "event": "snapshot_done", "ticker": "ITUB4", "events_count": 7}
+{"ts": "2026-05-10T19:48:50Z", "event": "scrape_done", "ticker": "ITUB4", "url": "https://www.itau.com.br/relacoes-com-investidores/", "ok": false, "elapsed_s": 2.31}
+{"ts": "2026-05-10T19:48:50Z", "event": "dossier_saved", "ticker": "ITUB4", "path": "obsidian_vault\\Overnight_2026-05-11\\ITUB4.md"}
+{"ts": "2026-05-10T19:48:50Z", "event": "ticker_progress", "i": 16, "n": 41, "ticker": "ITUB4", "ticker_elapsed_s": 2.5, "total_elapsed_min": 5.9}
+{"ts": "2026-05-10T19:48:50Z", "event": "ticker_start", "ticker": "KNCR11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:48:50Z", "event": "snapshot_done", "ticker": "KNCR11", "events_count": 0}
+{"ts": "2026-05-10T19:49:24Z", "event": "scrape_done", "ticker": "KNCR11", "url": "https://www.fiis.com.br/kncr11/", "ok": true, "elapsed_s": 32.89}
+{"ts": "2026-05-10T19:49:24Z", "event": "parse_done", "ticker": "KNCR11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:49:24Z", "event": "novelty_done", "ticker": "KNCR11", "novel_count": 0}
+{"ts": "2026-05-10T19:49:24Z", "event": "dossier_saved", "ticker": "KNCR11", "path": "obsidian_vault\\Overnight_2026-05-11\\KNCR11.md"}
+{"ts": "2026-05-10T19:49:24Z", "event": "ticker_progress", "i": 17, "n": 41, "ticker": "KNCR11", "ticker_elapsed_s": 33.1, "total_elapsed_min": 6.4}
+{"ts": "2026-05-10T19:49:24Z", "event": "ticker_start", "ticker": "KNHF11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:49:24Z", "event": "snapshot_done", "ticker": "KNHF11", "events_count": 0}
+{"ts": "2026-05-10T19:49:57Z", "event": "scrape_done", "ticker": "KNHF11", "url": "https://www.fiis.com.br/knhf11/", "ok": true, "elapsed_s": 33.01}
+{"ts": "2026-05-10T19:49:57Z", "event": "parse_done", "ticker": "KNHF11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:49:57Z", "event": "novelty_done", "ticker": "KNHF11", "novel_count": 0}
+{"ts": "2026-05-10T19:49:57Z", "event": "dossier_saved", "ticker": "KNHF11", "path": "obsidian_vault\\Overnight_2026-05-11\\KNHF11.md"}
+{"ts": "2026-05-10T19:49:57Z", "event": "ticker_progress", "i": 18, "n": 41, "ticker": "KNHF11", "ticker_elapsed_s": 33.2, "total_elapsed_min": 7.0}
+{"ts": "2026-05-10T19:49:57Z", "event": "ticker_start", "ticker": "KNRI11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:49:57Z", "event": "snapshot_done", "ticker": "KNRI11", "events_count": 0}
+{"ts": "2026-05-10T19:50:30Z", "event": "scrape_done", "ticker": "KNRI11", "url": "https://www.fiis.com.br/knri11/", "ok": true, "elapsed_s": 33.53}
+{"ts": "2026-05-10T19:50:30Z", "event": "parse_done", "ticker": "KNRI11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:50:30Z", "event": "novelty_done", "ticker": "KNRI11", "novel_count": 0}
+{"ts": "2026-05-10T19:50:30Z", "event": "dossier_saved", "ticker": "KNRI11", "path": "obsidian_vault\\Overnight_2026-05-11\\KNRI11.md"}
+{"ts": "2026-05-10T19:50:30Z", "event": "ticker_progress", "i": 19, "n": 41, "ticker": "KNRI11", "ticker_elapsed_s": 33.7, "total_elapsed_min": 7.5}
+{"ts": "2026-05-10T19:50:30Z", "event": "ticker_start", "ticker": "MCCI11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:50:30Z", "event": "snapshot_done", "ticker": "MCCI11", "events_count": 0}
+{"ts": "2026-05-10T19:51:05Z", "event": "scrape_done", "ticker": "MCCI11", "url": "https://www.fiis.com.br/mcci11/", "ok": true, "elapsed_s": 34.04}
+{"ts": "2026-05-10T19:51:05Z", "event": "parse_done", "ticker": "MCCI11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:51:05Z", "event": "novelty_done", "ticker": "MCCI11", "novel_count": 0}
+{"ts": "2026-05-10T19:51:05Z", "event": "dossier_saved", "ticker": "MCCI11", "path": "obsidian_vault\\Overnight_2026-05-11\\MCCI11.md"}
+{"ts": "2026-05-10T19:51:05Z", "event": "ticker_progress", "i": 20, "n": 41, "ticker": "MCCI11", "ticker_elapsed_s": 34.2, "total_elapsed_min": 8.1}
+{"ts": "2026-05-10T19:51:05Z", "event": "ticker_start", "ticker": "MCRE11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:51:05Z", "event": "snapshot_done", "ticker": "MCRE11", "events_count": 0}
+{"ts": "2026-05-10T19:51:38Z", "event": "scrape_done", "ticker": "MCRE11", "url": "https://www.fiis.com.br/mcre11/", "ok": true, "elapsed_s": 32.78}
+{"ts": "2026-05-10T19:51:38Z", "event": "parse_done", "ticker": "MCRE11", "filings": 4, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:51:38Z", "event": "novelty_done", "ticker": "MCRE11", "novel_count": 4}
+{"ts": "2026-05-10T19:51:39Z", "event": "extract_done", "ticker": "MCRE11", "url": "https://fiis.com.br/noticias/fundo-imobiliario-mxrf11-divulga-novo-pagamento-div", "chars": 13332}
+{"ts": "2026-05-10T19:51:40Z", "event": "extract_done", "ticker": "MCRE11", "url": "https://fiis.com.br/noticias/fundos-imobiliarios-fiis-podem-divulgar-dividendos-", "chars": 19407}
+{"ts": "2026-05-10T19:51:41Z", "event": "extract_done", "ticker": "MCRE11", "url": "https://fiis.com.br/noticias/bom-dia-fiis-280426/", "chars": 15621}
+{"ts": "2026-05-10T19:51:42Z", "event": "extract_done", "ticker": "MCRE11", "url": "https://fiis.com.br/noticias/gare11-divulga-dividendos-yield-proximo-de-1-veja-v", "chars": 13387}
+{"ts": "2026-05-10T19:51:42Z", "event": "dossier_saved", "ticker": "MCRE11", "path": "obsidian_vault\\Overnight_2026-05-11\\MCRE11.md"}
+{"ts": "2026-05-10T19:51:42Z", "event": "ticker_progress", "i": 21, "n": 41, "ticker": "MCRE11", "ticker_elapsed_s": 37.3, "total_elapsed_min": 8.7}
+{"ts": "2026-05-10T19:51:42Z", "event": "ticker_start", "ticker": "MOTV3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:51:42Z", "event": "snapshot_done", "ticker": "MOTV3", "events_count": 15}
+{"ts": "2026-05-10T19:51:55Z", "event": "scrape_done", "ticker": "MOTV3", "url": "https://ri.motiva.com.br/", "ok": true, "elapsed_s": 13.08}
+{"ts": "2026-05-10T19:51:55Z", "event": "parse_done", "ticker": "MOTV3", "filings": 0, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T19:51:55Z", "event": "novelty_done", "ticker": "MOTV3", "novel_count": 0}
+{"ts": "2026-05-10T19:51:55Z", "event": "dossier_saved", "ticker": "MOTV3", "path": "obsidian_vault\\Overnight_2026-05-11\\MOTV3.md"}
+{"ts": "2026-05-10T19:51:55Z", "event": "ticker_progress", "i": 22, "n": 41, "ticker": "MOTV3", "ticker_elapsed_s": 13.3, "total_elapsed_min": 8.9}
+{"ts": "2026-05-10T19:51:55Z", "event": "ticker_start", "ticker": "PETR4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:51:55Z", "event": "snapshot_done", "ticker": "PETR4", "events_count": 49}
+{"ts": "2026-05-10T19:52:07Z", "event": "scrape_done", "ticker": "PETR4", "url": "https://www.investidorpetrobras.com.br/", "ok": true, "elapsed_s": 11.2}
+{"ts": "2026-05-10T19:52:07Z", "event": "parse_done", "ticker": "PETR4", "filings": 0, "events": 0, "presentations": 4, "audio_video": 0}
+{"ts": "2026-05-10T19:52:07Z", "event": "novelty_done", "ticker": "PETR4", "novel_count": 0}
+{"ts": "2026-05-10T19:52:07Z", "event": "dossier_saved", "ticker": "PETR4", "path": "obsidian_vault\\Overnight_2026-05-11\\PETR4.md"}
+{"ts": "2026-05-10T19:52:07Z", "event": "ticker_progress", "i": 23, "n": 41, "ticker": "PETR4", "ticker_elapsed_s": 11.4, "total_elapsed_min": 9.1}
+{"ts": "2026-05-10T19:52:07Z", "event": "ticker_start", "ticker": "PMLL11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:52:07Z", "event": "snapshot_done", "ticker": "PMLL11", "events_count": 0}
+{"ts": "2026-05-10T19:52:40Z", "event": "scrape_done", "ticker": "PMLL11", "url": "https://www.fiis.com.br/pmll11/", "ok": true, "elapsed_s": 32.75}
+{"ts": "2026-05-10T19:52:40Z", "event": "parse_done", "ticker": "PMLL11", "filings": 4, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:52:40Z", "event": "novelty_done", "ticker": "PMLL11", "novel_count": 4}
+{"ts": "2026-05-10T19:52:41Z", "event": "extract_done", "ticker": "PMLL11", "url": "https://fiis.com.br/noticias/fundo-imobiliario-mxrf11-divulga-novo-pagamento-div", "chars": 13332}
+{"ts": "2026-05-10T19:52:42Z", "event": "extract_done", "ticker": "PMLL11", "url": "https://fiis.com.br/noticias/fundos-imobiliarios-fiis-podem-divulgar-dividendos-", "chars": 19407}
+{"ts": "2026-05-10T19:52:43Z", "event": "extract_done", "ticker": "PMLL11", "url": "https://fiis.com.br/noticias/bom-dia-fiis-280426/", "chars": 15621}
+{"ts": "2026-05-10T19:52:44Z", "event": "extract_done", "ticker": "PMLL11", "url": "https://fiis.com.br/noticias/gare11-divulga-dividendos-yield-proximo-de-1-veja-v", "chars": 13387}
+{"ts": "2026-05-10T19:52:44Z", "event": "dossier_saved", "ticker": "PMLL11", "path": "obsidian_vault\\Overnight_2026-05-11\\PMLL11.md"}
+{"ts": "2026-05-10T19:52:44Z", "event": "ticker_progress", "i": 24, "n": 41, "ticker": "PMLL11", "ticker_elapsed_s": 37.7, "total_elapsed_min": 9.8}
+{"ts": "2026-05-10T19:52:44Z", "event": "ticker_start", "ticker": "POMO4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:52:44Z", "event": "snapshot_done", "ticker": "POMO4", "events_count": 7}
+{"ts": "2026-05-10T19:52:55Z", "event": "scrape_done", "ticker": "POMO4", "url": "https://ri.marcopolo.com.br/", "ok": false, "elapsed_s": 10.13}
+{"ts": "2026-05-10T19:52:55Z", "event": "dossier_saved", "ticker": "POMO4", "path": "obsidian_vault\\Overnight_2026-05-11\\POMO4.md"}
+{"ts": "2026-05-10T19:52:55Z", "event": "ticker_progress", "i": 25, "n": 41, "ticker": "POMO4", "ticker_elapsed_s": 10.3, "total_elapsed_min": 9.9}
+{"ts": "2026-05-10T19:52:55Z", "event": "ticker_start", "ticker": "RBRY11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:52:55Z", "event": "snapshot_done", "ticker": "RBRY11", "events_count": 0}
+{"ts": "2026-05-10T19:53:28Z", "event": "scrape_done", "ticker": "RBRY11", "url": "https://www.fiis.com.br/rbry11/", "ok": true, "elapsed_s": 32.84}
+{"ts": "2026-05-10T19:53:28Z", "event": "parse_done", "ticker": "RBRY11", "filings": 0, "events": 0, "presentations": 6, "audio_video": 0}
+{"ts": "2026-05-10T19:53:28Z", "event": "novelty_done", "ticker": "RBRY11", "novel_count": 0}
+{"ts": "2026-05-10T19:53:28Z", "event": "dossier_saved", "ticker": "RBRY11", "path": "obsidian_vault\\Overnight_2026-05-11\\RBRY11.md"}
+{"ts": "2026-05-10T19:53:28Z", "event": "ticker_progress", "i": 26, "n": 41, "ticker": "RBRY11", "ticker_elapsed_s": 33.0, "total_elapsed_min": 10.5}
+{"ts": "2026-05-10T19:53:28Z", "event": "ticker_start", "ticker": "RDOR3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:53:28Z", "event": "snapshot_done", "ticker": "RDOR3", "events_count": 5}
+{"ts": "2026-05-10T19:53:41Z", "event": "scrape_done", "ticker": "RDOR3", "url": "https://ri.rededorsaoluiz.com.br/", "ok": true, "elapsed_s": 12.87}
+{"ts": "2026-05-10T19:53:41Z", "event": "parse_done", "ticker": "RDOR3", "filings": 0, "events": 0, "presentations": 2, "audio_video": 0}
+{"ts": "2026-05-10T19:53:41Z", "event": "novelty_done", "ticker": "RDOR3", "novel_count": 0}
+{"ts": "2026-05-10T19:53:41Z", "event": "dossier_saved", "ticker": "RDOR3", "path": "obsidian_vault\\Overnight_2026-05-11\\RDOR3.md"}
+{"ts": "2026-05-10T19:53:41Z", "event": "ticker_progress", "i": 27, "n": 41, "ticker": "RDOR3", "ticker_elapsed_s": 13.1, "total_elapsed_min": 10.7}
+{"ts": "2026-05-10T19:53:41Z", "event": "ticker_start", "ticker": "RECR11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:53:41Z", "event": "snapshot_done", "ticker": "RECR11", "events_count": 0}
+{"ts": "2026-05-10T19:54:15Z", "event": "scrape_done", "ticker": "RECR11", "url": "https://www.fiis.com.br/recr11/", "ok": true, "elapsed_s": 33.78}
+{"ts": "2026-05-10T19:54:15Z", "event": "parse_done", "ticker": "RECR11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:54:15Z", "event": "novelty_done", "ticker": "RECR11", "novel_count": 0}
+{"ts": "2026-05-10T19:54:15Z", "event": "dossier_saved", "ticker": "RECR11", "path": "obsidian_vault\\Overnight_2026-05-11\\RECR11.md"}
+{"ts": "2026-05-10T19:54:15Z", "event": "ticker_progress", "i": 28, "n": 41, "ticker": "RECR11", "ticker_elapsed_s": 34.0, "total_elapsed_min": 11.3}
+{"ts": "2026-05-10T19:54:15Z", "event": "ticker_start", "ticker": "RENT3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:54:15Z", "event": "snapshot_done", "ticker": "RENT3", "events_count": 14}
+{"ts": "2026-05-10T19:54:29Z", "event": "scrape_done", "ticker": "RENT3", "url": "https://ri.localiza.com/", "ok": true, "elapsed_s": 13.62}
+{"ts": "2026-05-10T19:54:29Z", "event": "parse_done", "ticker": "RENT3", "filings": 0, "events": 0, "presentations": 42, "audio_video": 36}
+{"ts": "2026-05-10T19:54:29Z", "event": "novelty_done", "ticker": "RENT3", "novel_count": 0}
+{"ts": "2026-05-10T19:54:29Z", "event": "dossier_saved", "ticker": "RENT3", "path": "obsidian_vault\\Overnight_2026-05-11\\RENT3.md"}
+{"ts": "2026-05-10T19:54:29Z", "event": "ticker_progress", "i": 29, "n": 41, "ticker": "RENT3", "ticker_elapsed_s": 13.8, "total_elapsed_min": 11.5}
+{"ts": "2026-05-10T19:54:29Z", "event": "ticker_start", "ticker": "SANB11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:54:29Z", "event": "snapshot_done", "ticker": "SANB11", "events_count": 0}
+{"ts": "2026-05-10T19:55:02Z", "event": "scrape_done", "ticker": "SANB11", "url": "https://www.fiis.com.br/sanb11/", "ok": false, "elapsed_s": 33.0}
+{"ts": "2026-05-10T19:55:02Z", "event": "dossier_saved", "ticker": "SANB11", "path": "obsidian_vault\\Overnight_2026-05-11\\SANB11.md"}
+{"ts": "2026-05-10T19:55:02Z", "event": "ticker_progress", "i": 30, "n": 41, "ticker": "SANB11", "ticker_elapsed_s": 33.2, "total_elapsed_min": 12.1}
+{"ts": "2026-05-10T19:55:02Z", "event": "ticker_start", "ticker": "SAPR11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:55:02Z", "event": "snapshot_done", "ticker": "SAPR11", "events_count": 0}
+{"ts": "2026-05-10T19:55:35Z", "event": "scrape_done", "ticker": "SAPR11", "url": "https://www.fiis.com.br/sapr11/", "ok": false, "elapsed_s": 33.12}
+{"ts": "2026-05-10T19:55:35Z", "event": "dossier_saved", "ticker": "SAPR11", "path": "obsidian_vault\\Overnight_2026-05-11\\SAPR11.md"}
+{"ts": "2026-05-10T19:55:35Z", "event": "ticker_progress", "i": 31, "n": 41, "ticker": "SAPR11", "ticker_elapsed_s": 33.3, "total_elapsed_min": 12.6}
+{"ts": "2026-05-10T19:55:35Z", "event": "ticker_start", "ticker": "SUZB3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:55:35Z", "event": "snapshot_done", "ticker": "SUZB3", "events_count": 11}
+{"ts": "2026-05-10T19:55:51Z", "event": "scrape_done", "ticker": "SUZB3", "url": "https://ri.suzano.com.br/", "ok": true, "elapsed_s": 15.39}
+{"ts": "2026-05-10T19:55:51Z", "event": "parse_done", "ticker": "SUZB3", "filings": 1, "events": 0, "presentations": 5, "audio_video": 1}
+{"ts": "2026-05-10T19:55:51Z", "event": "novelty_done", "ticker": "SUZB3", "novel_count": 1}
+{"ts": "2026-05-10T19:55:54Z", "event": "extract_done", "ticker": "SUZB3", "url": "https://s201.q4cdn.com/761980458/files/doc_news/2026/04/1T26/Release/Release-de-", "chars": 110669}
+{"ts": "2026-05-10T19:55:54Z", "event": "dossier_saved", "ticker": "SUZB3", "path": "obsidian_vault\\Overnight_2026-05-11\\SUZB3.md"}
+{"ts": "2026-05-10T19:55:54Z", "event": "ticker_progress", "i": 32, "n": 41, "ticker": "SUZB3", "ticker_elapsed_s": 18.8, "total_elapsed_min": 12.9}
+{"ts": "2026-05-10T19:55:54Z", "event": "ticker_start", "ticker": "TAEE11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:55:54Z", "event": "snapshot_done", "ticker": "TAEE11", "events_count": 0}
+{"ts": "2026-05-10T19:56:07Z", "event": "scrape_done", "ticker": "TAEE11", "url": "https://ri.taesa.com.br/", "ok": true, "elapsed_s": 12.62}
+{"ts": "2026-05-10T19:56:07Z", "event": "parse_done", "ticker": "TAEE11", "filings": 0, "events": 0, "presentations": 10, "audio_video": 0}
+{"ts": "2026-05-10T19:56:07Z", "event": "novelty_done", "ticker": "TAEE11", "novel_count": 0}
+{"ts": "2026-05-10T19:56:07Z", "event": "dossier_saved", "ticker": "TAEE11", "path": "obsidian_vault\\Overnight_2026-05-11\\TAEE11.md"}
+{"ts": "2026-05-10T19:56:07Z", "event": "ticker_progress", "i": 33, "n": 41, "ticker": "TAEE11", "ticker_elapsed_s": 12.8, "total_elapsed_min": 13.1}
+{"ts": "2026-05-10T19:56:07Z", "event": "ticker_start", "ticker": "TIMS3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:56:07Z", "event": "snapshot_done", "ticker": "TIMS3", "events_count": 0}
+{"ts": "2026-05-10T19:56:20Z", "event": "scrape_done", "ticker": "TIMS3", "url": "https://ri.tim.com.br/", "ok": true, "elapsed_s": 13.39}
+{"ts": "2026-05-10T19:56:20Z", "event": "parse_done", "ticker": "TIMS3", "filings": 0, "events": 0, "presentations": 10, "audio_video": 0}
+{"ts": "2026-05-10T19:56:20Z", "event": "novelty_done", "ticker": "TIMS3", "novel_count": 0}
+{"ts": "2026-05-10T19:56:20Z", "event": "dossier_saved", "ticker": "TIMS3", "path": "obsidian_vault\\Overnight_2026-05-11\\TIMS3.md"}
+{"ts": "2026-05-10T19:56:20Z", "event": "ticker_progress", "i": 34, "n": 41, "ticker": "TIMS3", "ticker_elapsed_s": 13.6, "total_elapsed_min": 13.4}
+{"ts": "2026-05-10T19:56:20Z", "event": "ticker_start", "ticker": "TRXF11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:56:20Z", "event": "snapshot_done", "ticker": "TRXF11", "events_count": 0}
+{"ts": "2026-05-10T19:56:53Z", "event": "scrape_done", "ticker": "TRXF11", "url": "https://www.fiis.com.br/trxf11/", "ok": true, "elapsed_s": 32.79}
+{"ts": "2026-05-10T19:56:53Z", "event": "parse_done", "ticker": "TRXF11", "filings": 1, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:56:53Z", "event": "novelty_done", "ticker": "TRXF11", "novel_count": 1}
+{"ts": "2026-05-10T19:56:54Z", "event": "extract_done", "ticker": "TRXF11", "url": "https://fiis.com.br/noticias/fii-trxf11-apresenta-dividendos-para-maio-yield-sup", "chars": 13054}
+{"ts": "2026-05-10T19:56:54Z", "event": "dossier_saved", "ticker": "TRXF11", "path": "obsidian_vault\\Overnight_2026-05-11\\TRXF11.md"}
+{"ts": "2026-05-10T19:56:54Z", "event": "ticker_progress", "i": 35, "n": 41, "ticker": "TRXF11", "ticker_elapsed_s": 34.0, "total_elapsed_min": 13.9}
+{"ts": "2026-05-10T19:56:54Z", "event": "ticker_start", "ticker": "VGIP11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:56:54Z", "event": "snapshot_done", "ticker": "VGIP11", "events_count": 0}
+{"ts": "2026-05-10T19:57:27Z", "event": "scrape_done", "ticker": "VGIP11", "url": "https://www.fiis.com.br/vgip11/", "ok": true, "elapsed_s": 32.79}
+{"ts": "2026-05-10T19:57:27Z", "event": "parse_done", "ticker": "VGIP11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:57:27Z", "event": "novelty_done", "ticker": "VGIP11", "novel_count": 0}
+{"ts": "2026-05-10T19:57:27Z", "event": "dossier_saved", "ticker": "VGIP11", "path": "obsidian_vault\\Overnight_2026-05-11\\VGIP11.md"}
+{"ts": "2026-05-10T19:57:27Z", "event": "ticker_progress", "i": 36, "n": 41, "ticker": "VGIP11", "ticker_elapsed_s": 33.0, "total_elapsed_min": 14.5}
+{"ts": "2026-05-10T19:57:27Z", "event": "ticker_start", "ticker": "VISC11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:57:27Z", "event": "snapshot_done", "ticker": "VISC11", "events_count": 0}
+{"ts": "2026-05-10T19:58:00Z", "event": "scrape_done", "ticker": "VISC11", "url": "https://www.fiis.com.br/visc11/", "ok": true, "elapsed_s": 32.71}
+{"ts": "2026-05-10T19:58:00Z", "event": "parse_done", "ticker": "VISC11", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:58:00Z", "event": "novelty_done", "ticker": "VISC11", "novel_count": 0}
+{"ts": "2026-05-10T19:58:00Z", "event": "dossier_saved", "ticker": "VISC11", "path": "obsidian_vault\\Overnight_2026-05-11\\VISC11.md"}
+{"ts": "2026-05-10T19:58:00Z", "event": "ticker_progress", "i": 37, "n": 41, "ticker": "VISC11", "ticker_elapsed_s": 32.9, "total_elapsed_min": 15.0}
+{"ts": "2026-05-10T19:58:00Z", "event": "ticker_start", "ticker": "VIVA3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:58:00Z", "event": "snapshot_done", "ticker": "VIVA3", "events_count": 0}
+{"ts": "2026-05-10T19:58:15Z", "event": "scrape_done", "ticker": "VIVA3", "url": "https://ri.vivara.com.br/", "ok": true, "elapsed_s": 14.72}
+{"ts": "2026-05-10T19:58:15Z", "event": "parse_done", "ticker": "VIVA3", "filings": 0, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T19:58:15Z", "event": "novelty_done", "ticker": "VIVA3", "novel_count": 0}
+{"ts": "2026-05-10T19:58:15Z", "event": "dossier_saved", "ticker": "VIVA3", "path": "obsidian_vault\\Overnight_2026-05-11\\VIVA3.md"}
+{"ts": "2026-05-10T19:58:15Z", "event": "ticker_progress", "i": 38, "n": 41, "ticker": "VIVA3", "ticker_elapsed_s": 14.9, "total_elapsed_min": 15.3}
+{"ts": "2026-05-10T19:58:15Z", "event": "ticker_start", "ticker": "VIVT3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:58:15Z", "event": "snapshot_done", "ticker": "VIVT3", "events_count": 0}
+{"ts": "2026-05-10T19:58:43Z", "event": "scrape_done", "ticker": "VIVT3", "url": "https://ri.telefonica.com.br/", "ok": true, "elapsed_s": 27.77}
+{"ts": "2026-05-10T19:58:43Z", "event": "parse_done", "ticker": "VIVT3", "filings": 0, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T19:58:43Z", "event": "novelty_done", "ticker": "VIVT3", "novel_count": 0}
+{"ts": "2026-05-10T19:58:43Z", "event": "dossier_saved", "ticker": "VIVT3", "path": "obsidian_vault\\Overnight_2026-05-11\\VIVT3.md"}
+{"ts": "2026-05-10T19:58:43Z", "event": "ticker_progress", "i": 39, "n": 41, "ticker": "VIVT3", "ticker_elapsed_s": 28.0, "total_elapsed_min": 15.7}
+{"ts": "2026-05-10T19:58:43Z", "event": "ticker_start", "ticker": "VRTA11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:58:43Z", "event": "snapshot_done", "ticker": "VRTA11", "events_count": 0}
+{"ts": "2026-05-10T19:59:16Z", "event": "scrape_done", "ticker": "VRTA11", "url": "https://www.fiis.com.br/vrta11/", "ok": true, "elapsed_s": 32.75}
+{"ts": "2026-05-10T19:59:16Z", "event": "parse_done", "ticker": "VRTA11", "filings": 1, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:59:16Z", "event": "novelty_done", "ticker": "VRTA11", "novel_count": 1}
+{"ts": "2026-05-10T19:59:17Z", "event": "extract_done", "ticker": "VRTA11", "url": "https://fiis.com.br/noticias/fundo-imobiliario-vrta11-vrtm11-divulgam-novos-divi", "chars": 13329}
+{"ts": "2026-05-10T19:59:17Z", "event": "dossier_saved", "ticker": "VRTA11", "path": "obsidian_vault\\Overnight_2026-05-11\\VRTA11.md"}
+{"ts": "2026-05-10T19:59:17Z", "event": "ticker_progress", "i": 40, "n": 41, "ticker": "VRTA11", "ticker_elapsed_s": 33.9, "total_elapsed_min": 16.3}
+{"ts": "2026-05-10T19:59:17Z", "event": "ticker_start", "ticker": "XPLG11", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T19:59:17Z", "event": "snapshot_done", "ticker": "XPLG11", "events_count": 0}
+{"ts": "2026-05-10T19:59:50Z", "event": "scrape_done", "ticker": "XPLG11", "url": "https://www.fiis.com.br/xplg11/", "ok": true, "elapsed_s": 32.71}
+{"ts": "2026-05-10T19:59:50Z", "event": "parse_done", "ticker": "XPLG11", "filings": 1, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T19:59:50Z", "event": "novelty_done", "ticker": "XPLG11", "novel_count": 1}
+{"ts": "2026-05-10T19:59:51Z", "event": "extract_done", "ticker": "XPLG11", "url": "https://fiis.com.br/noticias/fundos-imobiliarios-fiis-podem-divulgar-dividendos-", "chars": 19407}
+{"ts": "2026-05-10T19:59:51Z", "event": "dossier_saved", "ticker": "XPLG11", "path": "obsidian_vault\\Overnight_2026-05-11\\XPLG11.md"}
+{"ts": "2026-05-10T19:59:51Z", "event": "ticker_progress", "i": 41, "n": 41, "ticker": "XPLG11", "ticker_elapsed_s": 33.9, "total_elapsed_min": 16.9}
+{"ts": "2026-05-10T19:59:51Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 41, "ok": 41, "total_elapsed_min": 16.9}
+{"ts": "2026-05-10T20:47:42Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T20:47:42Z", "event": "pilot_loaded", "n": 30}
+{"ts": "2026-05-10T20:47:42Z", "event": "ticker_start", "ticker": "ABM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:47:42Z", "event": "snapshot_done", "ticker": "ABM", "events_count": 0}
+{"ts": "2026-05-10T20:48:03Z", "event": "scrape_done", "ticker": "ABM", "url": "https://www.abmindustries.com/investors", "ok": true, "elapsed_s": 20.2}
+{"ts": "2026-05-10T20:48:03Z", "event": "parse_done", "ticker": "ABM", "filings": 0, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T20:48:03Z", "event": "novelty_done", "ticker": "ABM", "novel_count": 0}
+{"ts": "2026-05-10T20:48:03Z", "event": "dossier_saved", "ticker": "ABM", "path": "obsidian_vault\\Overnight_2026-05-11\\ABM.md"}
+{"ts": "2026-05-10T20:48:03Z", "event": "ticker_progress", "i": 1, "n": 30, "ticker": "ABM", "ticker_elapsed_s": 20.4, "total_elapsed_min": 0.3}
+{"ts": "2026-05-10T20:48:03Z", "event": "ticker_start", "ticker": "ADM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:48:03Z", "event": "snapshot_done", "ticker": "ADM", "events_count": 0}
+{"ts": "2026-05-10T20:48:15Z", "event": "scrape_done", "ticker": "ADM", "url": "https://investors.adm.com/", "ok": true, "elapsed_s": 11.72}
+{"ts": "2026-05-10T20:48:15Z", "event": "parse_done", "ticker": "ADM", "filings": 3, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T20:48:15Z", "event": "novelty_done", "ticker": "ADM", "novel_count": 2}
+{"ts": "2026-05-10T20:48:16Z", "event": "extract_done", "ticker": "ADM", "url": "https://investors.adm.com/news/news-details/2026/ADM-Declares-Cash-Dividend/defa", "chars": 9068}
+{"ts": "2026-05-10T20:48:17Z", "event": "extract_done", "ticker": "ADM", "url": "https://investors.adm.com/news/news-details/2026/ADM-Reports-First-Quarter-2026-", "chars": 48231}
+{"ts": "2026-05-10T20:48:17Z", "event": "dossier_saved", "ticker": "ADM", "path": "obsidian_vault\\Overnight_2026-05-11\\ADM.md"}
+{"ts": "2026-05-10T20:48:17Z", "event": "ticker_progress", "i": 2, "n": 30, "ticker": "ADM", "ticker_elapsed_s": 14.5, "total_elapsed_min": 0.6}
+{"ts": "2026-05-10T20:48:17Z", "event": "ticker_start", "ticker": "ADP", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:48:17Z", "event": "snapshot_done", "ticker": "ADP", "events_count": 0}
+{"ts": "2026-05-10T20:48:20Z", "event": "scrape_done", "ticker": "ADP", "url": "https://www.automaticdataprocessing.com/investors", "ok": true, "elapsed_s": 3.19}
+{"ts": "2026-05-10T20:48:20Z", "event": "parse_done", "ticker": "ADP", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:48:20Z", "event": "novelty_done", "ticker": "ADP", "novel_count": 0}
+{"ts": "2026-05-10T20:48:20Z", "event": "dossier_saved", "ticker": "ADP", "path": "obsidian_vault\\Overnight_2026-05-11\\ADP.md"}
+{"ts": "2026-05-10T20:48:20Z", "event": "ticker_progress", "i": 3, "n": 30, "ticker": "ADP", "ticker_elapsed_s": 3.4, "total_elapsed_min": 0.6}
+{"ts": "2026-05-10T20:48:20Z", "event": "ticker_start", "ticker": "AFL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:48:20Z", "event": "snapshot_done", "ticker": "AFL", "events_count": 0}
+{"ts": "2026-05-10T20:48:30Z", "event": "scrape_done", "ticker": "AFL", "url": "https://investors.aflac.com/", "ok": true, "elapsed_s": 9.25}
+{"ts": "2026-05-10T20:48:30Z", "event": "parse_done", "ticker": "AFL", "filings": 4, "events": 0, "presentations": 2, "audio_video": 5}
+{"ts": "2026-05-10T20:48:30Z", "event": "novelty_done", "ticker": "AFL", "novel_count": 4}
+{"ts": "2026-05-10T20:48:31Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-Inco", "chars": 53913}
+{"ts": "2026-05-10T20:48:32Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-reco", "chars": 26494}
+{"ts": "2026-05-10T20:48:33Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/events-and-presentations/events-calendar/event-detai", "chars": 11623}
+{"ts": "2026-05-10T20:48:34Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-open", "chars": 16548}
+{"ts": "2026-05-10T20:48:34Z", "event": "dossier_saved", "ticker": "AFL", "path": "obsidian_vault\\Overnight_2026-05-11\\AFL.md"}
+{"ts": "2026-05-10T20:48:34Z", "event": "ticker_progress", "i": 4, "n": 30, "ticker": "AFL", "ticker_elapsed_s": 13.3, "total_elapsed_min": 0.9}
+{"ts": "2026-05-10T20:48:34Z", "event": "ticker_start", "ticker": "ALB", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:48:34Z", "event": "snapshot_done", "ticker": "ALB", "events_count": 0}
+{"ts": "2026-05-10T20:48:46Z", "event": "scrape_done", "ticker": "ALB", "url": "https://investors.albemarle.com/", "ok": true, "elapsed_s": 11.73}
+{"ts": "2026-05-10T20:48:46Z", "event": "parse_done", "ticker": "ALB", "filings": 1, "events": 0, "presentations": 6, "audio_video": 1}
+{"ts": "2026-05-10T20:48:46Z", "event": "novelty_done", "ticker": "ALB", "novel_count": 0}
+{"ts": "2026-05-10T20:48:46Z", "event": "dossier_saved", "ticker": "ALB", "path": "obsidian_vault\\Overnight_2026-05-11\\ALB.md"}
+{"ts": "2026-05-10T20:48:46Z", "event": "ticker_progress", "i": 5, "n": 30, "ticker": "ALB", "ticker_elapsed_s": 11.9, "total_elapsed_min": 1.1}
+{"ts": "2026-05-10T20:48:46Z", "event": "ticker_start", "ticker": "AOS", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:48:46Z", "event": "snapshot_done", "ticker": "AOS", "events_count": 0}
+{"ts": "2026-05-10T20:49:16Z", "event": "scrape_done", "ticker": "AOS", "url": "https://www.aosmith.com/investors", "ok": false, "elapsed_s": 30.517913341522217}
+{"ts": "2026-05-10T20:49:16Z", "event": "dossier_saved", "ticker": "AOS", "path": "obsidian_vault\\Overnight_2026-05-11\\AOS.md"}
+{"ts": "2026-05-10T20:49:16Z", "event": "ticker_progress", "i": 6, "n": 30, "ticker": "AOS", "ticker_elapsed_s": 30.5, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T20:49:16Z", "event": "ticker_start", "ticker": "ATO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:49:16Z", "event": "snapshot_done", "ticker": "ATO", "events_count": 0}
+{"ts": "2026-05-10T20:49:26Z", "event": "scrape_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/", "ok": true, "elapsed_s": 9.74}
+{"ts": "2026-05-10T20:49:26Z", "event": "parse_done", "ticker": "ATO", "filings": 5, "events": 0, "presentations": 2, "audio_video": 2}
+{"ts": "2026-05-10T20:49:26Z", "event": "novelty_done", "ticker": "ATO", "novel_count": 2}
+{"ts": "2026-05-10T20:49:28Z", "event": "extract_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/events-and-presentations/events/event-details/", "chars": 8411}
+{"ts": "2026-05-10T20:49:30Z", "event": "extract_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/events-and-presentations/events/event-details/", "chars": 8411}
+{"ts": "2026-05-10T20:49:30Z", "event": "dossier_saved", "ticker": "ATO", "path": "obsidian_vault\\Overnight_2026-05-11\\ATO.md"}
+{"ts": "2026-05-10T20:49:30Z", "event": "ticker_progress", "i": 7, "n": 30, "ticker": "ATO", "ticker_elapsed_s": 13.4, "total_elapsed_min": 1.8}
+{"ts": "2026-05-10T20:49:30Z", "event": "ticker_start", "ticker": "BEN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:49:30Z", "event": "snapshot_done", "ticker": "BEN", "events_count": 0}
+{"ts": "2026-05-10T20:49:42Z", "event": "scrape_done", "ticker": "BEN", "url": "https://investors.franklinresources.com/", "ok": true, "elapsed_s": 12.27}
+{"ts": "2026-05-10T20:49:42Z", "event": "parse_done", "ticker": "BEN", "filings": 0, "events": 0, "presentations": 11, "audio_video": 6}
+{"ts": "2026-05-10T20:49:42Z", "event": "novelty_done", "ticker": "BEN", "novel_count": 0}
+{"ts": "2026-05-10T20:49:42Z", "event": "dossier_saved", "ticker": "BEN", "path": "obsidian_vault\\Overnight_2026-05-11\\BEN.md"}
+{"ts": "2026-05-10T20:49:42Z", "event": "ticker_progress", "i": 8, "n": 30, "ticker": "BEN", "ticker_elapsed_s": 12.5, "total_elapsed_min": 2.0}
+{"ts": "2026-05-10T20:49:42Z", "event": "ticker_start", "ticker": "BRO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:49:42Z", "event": "snapshot_done", "ticker": "BRO", "events_count": 0}
+{"ts": "2026-05-10T20:49:48Z", "event": "scrape_done", "ticker": "BRO", "url": "https://www.brownbrown.com/investors", "ok": true, "elapsed_s": 5.46}
+{"ts": "2026-05-10T20:49:48Z", "event": "parse_done", "ticker": "BRO", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:49:48Z", "event": "novelty_done", "ticker": "BRO", "novel_count": 0}
+{"ts": "2026-05-10T20:49:48Z", "event": "dossier_saved", "ticker": "BRO", "path": "obsidian_vault\\Overnight_2026-05-11\\BRO.md"}
+{"ts": "2026-05-10T20:49:48Z", "event": "ticker_progress", "i": 9, "n": 30, "ticker": "BRO", "ticker_elapsed_s": 5.7, "total_elapsed_min": 2.1}
+{"ts": "2026-05-10T20:49:48Z", "event": "ticker_start", "ticker": "CB", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:49:48Z", "event": "snapshot_done", "ticker": "CB", "events_count": 0}
+{"ts": "2026-05-10T20:50:02Z", "event": "scrape_done", "ticker": "CB", "url": "https://investors.chubb.com/", "ok": true, "elapsed_s": 14.01}
+{"ts": "2026-05-10T20:50:02Z", "event": "parse_done", "ticker": "CB", "filings": 6, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T20:50:02Z", "event": "novelty_done", "ticker": "CB", "novel_count": 0}
+{"ts": "2026-05-10T20:50:02Z", "event": "dossier_saved", "ticker": "CB", "path": "obsidian_vault\\Overnight_2026-05-11\\CB.md"}
+{"ts": "2026-05-10T20:50:02Z", "event": "ticker_progress", "i": 10, "n": 30, "ticker": "CB", "ticker_elapsed_s": 14.2, "total_elapsed_min": 2.3}
+{"ts": "2026-05-10T20:50:02Z", "event": "ticker_start", "ticker": "CBSH", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:50:02Z", "event": "snapshot_done", "ticker": "CBSH", "events_count": 0}
+{"ts": "2026-05-10T20:50:05Z", "event": "scrape_done", "ticker": "CBSH", "url": "https://www.commercebancshares.com/investors", "ok": true, "elapsed_s": 2.8}
+{"ts": "2026-05-10T20:50:05Z", "event": "parse_done", "ticker": "CBSH", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:50:05Z", "event": "novelty_done", "ticker": "CBSH", "novel_count": 0}
+{"ts": "2026-05-10T20:50:05Z", "event": "dossier_saved", "ticker": "CBSH", "path": "obsidian_vault\\Overnight_2026-05-11\\CBSH.md"}
+{"ts": "2026-05-10T20:50:05Z", "event": "ticker_progress", "i": 11, "n": 30, "ticker": "CBSH", "ticker_elapsed_s": 3.0, "total_elapsed_min": 2.4}
+{"ts": "2026-05-10T20:50:05Z", "event": "ticker_start", "ticker": "CHD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:50:05Z", "event": "snapshot_done", "ticker": "CHD", "events_count": 0}
+{"ts": "2026-05-10T20:50:14Z", "event": "scrape_done", "ticker": "CHD", "url": "https://investor.churchdwight.com/", "ok": true, "elapsed_s": 9.21}
+{"ts": "2026-05-10T20:50:14Z", "event": "parse_done", "ticker": "CHD", "filings": 4, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T20:50:14Z", "event": "novelty_done", "ticker": "CHD", "novel_count": 0}
+{"ts": "2026-05-10T20:50:14Z", "event": "dossier_saved", "ticker": "CHD", "path": "obsidian_vault\\Overnight_2026-05-11\\CHD.md"}
+{"ts": "2026-05-10T20:50:14Z", "event": "ticker_progress", "i": 12, "n": 30, "ticker": "CHD", "ticker_elapsed_s": 9.4, "total_elapsed_min": 2.5}
+{"ts": "2026-05-10T20:50:14Z", "event": "ticker_start", "ticker": "CHRW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:50:14Z", "event": "snapshot_done", "ticker": "CHRW", "events_count": 0}
+{"ts": "2026-05-10T20:50:20Z", "event": "scrape_done", "ticker": "CHRW", "url": "https://investor.chrobinson.com/", "ok": true, "elapsed_s": 5.85}
+{"ts": "2026-05-10T20:50:20Z", "event": "parse_done", "ticker": "CHRW", "filings": 3, "events": 0, "presentations": 6, "audio_video": 4}
+{"ts": "2026-05-10T20:50:20Z", "event": "novelty_done", "ticker": "CHRW", "novel_count": 0}
+{"ts": "2026-05-10T20:50:20Z", "event": "dossier_saved", "ticker": "CHRW", "path": "obsidian_vault\\Overnight_2026-05-11\\CHRW.md"}
+{"ts": "2026-05-10T20:50:20Z", "event": "ticker_progress", "i": 13, "n": 30, "ticker": "CHRW", "ticker_elapsed_s": 6.0, "total_elapsed_min": 2.6}
+{"ts": "2026-05-10T20:50:20Z", "event": "ticker_start", "ticker": "CL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:50:20Z", "event": "snapshot_done", "ticker": "CL", "events_count": 0}
+{"ts": "2026-05-10T20:50:27Z", "event": "scrape_done", "ticker": "CL", "url": "https://investor.cl.com/", "ok": true, "elapsed_s": 6.48}
+{"ts": "2026-05-10T20:50:27Z", "event": "parse_done", "ticker": "CL", "filings": 0, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T20:50:27Z", "event": "novelty_done", "ticker": "CL", "novel_count": 0}
+{"ts": "2026-05-10T20:50:27Z", "event": "dossier_saved", "ticker": "CL", "path": "obsidian_vault\\Overnight_2026-05-11\\CL.md"}
+{"ts": "2026-05-10T20:50:27Z", "event": "ticker_progress", "i": 14, "n": 30, "ticker": "CL", "ticker_elapsed_s": 6.7, "total_elapsed_min": 2.7}
+{"ts": "2026-05-10T20:50:27Z", "event": "ticker_start", "ticker": "CTAS", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:50:27Z", "event": "snapshot_done", "ticker": "CTAS", "events_count": 0}
+{"ts": "2026-05-10T20:51:02Z", "event": "scrape_done", "ticker": "CTAS", "url": "https://www.cintas.com/investors", "ok": true, "elapsed_s": 34.22}
+{"ts": "2026-05-10T20:51:02Z", "event": "parse_done", "ticker": "CTAS", "filings": 0, "events": 0, "presentations": 1, "audio_video": 2}
+{"ts": "2026-05-10T20:51:02Z", "event": "novelty_done", "ticker": "CTAS", "novel_count": 0}
+{"ts": "2026-05-10T20:51:02Z", "event": "dossier_saved", "ticker": "CTAS", "path": "obsidian_vault\\Overnight_2026-05-11\\CTAS.md"}
+{"ts": "2026-05-10T20:51:02Z", "event": "ticker_progress", "i": 15, "n": 30, "ticker": "CTAS", "ticker_elapsed_s": 34.4, "total_elapsed_min": 3.3}
+{"ts": "2026-05-10T20:51:02Z", "event": "ticker_start", "ticker": "CVX", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:51:02Z", "event": "snapshot_done", "ticker": "CVX", "events_count": 0}
+{"ts": "2026-05-10T20:51:04Z", "event": "scrape_done", "ticker": "CVX", "url": "https://www.chevron.com/ir", "ok": false, "elapsed_s": 2.38}
+{"ts": "2026-05-10T20:51:04Z", "event": "dossier_saved", "ticker": "CVX", "path": "obsidian_vault\\Overnight_2026-05-11\\CVX.md"}
+{"ts": "2026-05-10T20:51:04Z", "event": "ticker_progress", "i": 16, "n": 30, "ticker": "CVX", "ticker_elapsed_s": 2.6, "total_elapsed_min": 3.4}
+{"ts": "2026-05-10T20:51:04Z", "event": "ticker_start", "ticker": "DOV", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:51:04Z", "event": "snapshot_done", "ticker": "DOV", "events_count": 0}
+{"ts": "2026-05-10T20:51:14Z", "event": "scrape_done", "ticker": "DOV", "url": "https://www.dover.com/investors", "ok": true, "elapsed_s": 9.91}
+{"ts": "2026-05-10T20:51:14Z", "event": "parse_done", "ticker": "DOV", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:51:14Z", "event": "novelty_done", "ticker": "DOV", "novel_count": 0}
+{"ts": "2026-05-10T20:51:14Z", "event": "dossier_saved", "ticker": "DOV", "path": "obsidian_vault\\Overnight_2026-05-11\\DOV.md"}
+{"ts": "2026-05-10T20:51:14Z", "event": "ticker_progress", "i": 17, "n": 30, "ticker": "DOV", "ticker_elapsed_s": 10.1, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T20:51:14Z", "event": "ticker_start", "ticker": "ECL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:51:14Z", "event": "snapshot_done", "ticker": "ECL", "events_count": 0}
+{"ts": "2026-05-10T20:51:29Z", "event": "scrape_done", "ticker": "ECL", "url": "https://investor.ecolab.com/", "ok": true, "elapsed_s": 14.72}
+{"ts": "2026-05-10T20:51:29Z", "event": "parse_done", "ticker": "ECL", "filings": 4, "events": 0, "presentations": 4, "audio_video": 3}
+{"ts": "2026-05-10T20:51:29Z", "event": "novelty_done", "ticker": "ECL", "novel_count": 0}
+{"ts": "2026-05-10T20:51:29Z", "event": "dossier_saved", "ticker": "ECL", "path": "obsidian_vault\\Overnight_2026-05-11\\ECL.md"}
+{"ts": "2026-05-10T20:51:29Z", "event": "ticker_progress", "i": 18, "n": 30, "ticker": "ECL", "ticker_elapsed_s": 14.9, "total_elapsed_min": 3.8}
+{"ts": "2026-05-10T20:51:29Z", "event": "ticker_start", "ticker": "ED", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:51:29Z", "event": "snapshot_done", "ticker": "ED", "events_count": 0}
+{"ts": "2026-05-10T20:51:39Z", "event": "scrape_done", "ticker": "ED", "url": "https://investor.consolidatededison.com/", "ok": true, "elapsed_s": 9.95}
+{"ts": "2026-05-10T20:51:39Z", "event": "parse_done", "ticker": "ED", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:51:39Z", "event": "novelty_done", "ticker": "ED", "novel_count": 0}
+{"ts": "2026-05-10T20:51:39Z", "event": "dossier_saved", "ticker": "ED", "path": "obsidian_vault\\Overnight_2026-05-11\\ED.md"}
+{"ts": "2026-05-10T20:51:39Z", "event": "ticker_progress", "i": 19, "n": 30, "ticker": "ED", "ticker_elapsed_s": 10.1, "total_elapsed_min": 4.0}
+{"ts": "2026-05-10T20:51:39Z", "event": "ticker_start", "ticker": "FAST", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:51:39Z", "event": "snapshot_done", "ticker": "FAST", "events_count": 0}
+{"ts": "2026-05-10T20:51:51Z", "event": "scrape_done", "ticker": "FAST", "url": "https://investor.fastenal.com/", "ok": true, "elapsed_s": 11.29}
+{"ts": "2026-05-10T20:51:51Z", "event": "parse_done", "ticker": "FAST", "filings": 5, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T20:51:51Z", "event": "novelty_done", "ticker": "FAST", "novel_count": 5}
+{"ts": "2026-05-10T20:51:52Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/news-releases/news-details/2026/Fastenal-Company-R", "chars": 42566}
+{"ts": "2026-05-10T20:51:56Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/files/doc_financials/2026/Q1/Q1-2026-Investor-Pres", "chars": 17809}
+{"ts": "2026-05-10T20:51:57Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/events-and-presentations/event-details/2026/July-2", "chars": 7767}
+{"ts": "2026-05-10T20:51:59Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/files/doc_financials/2026/Q2/04-2026-sales-numbers", "chars": 5265}
+{"ts": "2026-05-10T20:52:00Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/events-and-presentations/event-details/2026/May-20", "chars": 7764}
+{"ts": "2026-05-10T20:52:00Z", "event": "dossier_saved", "ticker": "FAST", "path": "obsidian_vault\\Overnight_2026-05-11\\FAST.md"}
+{"ts": "2026-05-10T20:52:00Z", "event": "ticker_progress", "i": 20, "n": 30, "ticker": "FAST", "ticker_elapsed_s": 20.5, "total_elapsed_min": 4.3}
+{"ts": "2026-05-10T20:52:00Z", "event": "ticker_start", "ticker": "FUL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:52:00Z", "event": "snapshot_done", "ticker": "FUL", "events_count": 0}
+{"ts": "2026-05-10T20:52:12Z", "event": "scrape_done", "ticker": "FUL", "url": "https://investors.hbfuller.com/", "ok": true, "elapsed_s": 11.97}
+{"ts": "2026-05-10T20:52:12Z", "event": "parse_done", "ticker": "FUL", "filings": 6, "events": 0, "presentations": 4, "audio_video": 2}
+{"ts": "2026-05-10T20:52:12Z", "event": "novelty_done", "ticker": "FUL", "novel_count": 1}
+{"ts": "2026-05-10T20:52:16Z", "event": "extract_done", "ticker": "FUL", "url": "https://s26.q4cdn.com/617714526/files/doc_financials/2026/q1/v2/2026-Q1-Earnings", "chars": 49616}
+{"ts": "2026-05-10T20:52:16Z", "event": "dossier_saved", "ticker": "FUL", "path": "obsidian_vault\\Overnight_2026-05-11\\FUL.md"}
+{"ts": "2026-05-10T20:52:16Z", "event": "ticker_progress", "i": 21, "n": 30, "ticker": "FUL", "ticker_elapsed_s": 15.8, "total_elapsed_min": 4.6}
+{"ts": "2026-05-10T20:52:16Z", "event": "ticker_start", "ticker": "GD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:52:16Z", "event": "snapshot_done", "ticker": "GD", "events_count": 0}
+{"ts": "2026-05-10T20:52:28Z", "event": "scrape_done", "ticker": "GD", "url": "https://www.generaldynamics.com/investors", "ok": true, "elapsed_s": 12.0}
+{"ts": "2026-05-10T20:52:28Z", "event": "parse_done", "ticker": "GD", "filings": 1, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T20:52:28Z", "event": "novelty_done", "ticker": "GD", "novel_count": 0}
+{"ts": "2026-05-10T20:52:28Z", "event": "dossier_saved", "ticker": "GD", "path": "obsidian_vault\\Overnight_2026-05-11\\GD.md"}
+{"ts": "2026-05-10T20:52:28Z", "event": "ticker_progress", "i": 22, "n": 30, "ticker": "GD", "ticker_elapsed_s": 12.2, "total_elapsed_min": 4.8}
+{"ts": "2026-05-10T20:52:28Z", "event": "ticker_start", "ticker": "HRL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:52:28Z", "event": "snapshot_done", "ticker": "HRL", "events_count": 0}
+{"ts": "2026-05-10T20:52:40Z", "event": "scrape_done", "ticker": "HRL", "url": "https://investor.hormelfoods.com/", "ok": true, "elapsed_s": 11.76}
+{"ts": "2026-05-10T20:52:40Z", "event": "parse_done", "ticker": "HRL", "filings": 5, "events": 0, "presentations": 5, "audio_video": 2}
+{"ts": "2026-05-10T20:52:40Z", "event": "novelty_done", "ticker": "HRL", "novel_count": 0}
+{"ts": "2026-05-10T20:52:40Z", "event": "dossier_saved", "ticker": "HRL", "path": "obsidian_vault\\Overnight_2026-05-11\\HRL.md"}
+{"ts": "2026-05-10T20:52:40Z", "event": "ticker_progress", "i": 23, "n": 30, "ticker": "HRL", "ticker_elapsed_s": 12.0, "total_elapsed_min": 5.0}
+{"ts": "2026-05-10T20:52:40Z", "event": "ticker_start", "ticker": "ITW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:52:40Z", "event": "snapshot_done", "ticker": "ITW", "events_count": 0}
+{"ts": "2026-05-10T20:52:49Z", "event": "scrape_done", "ticker": "ITW", "url": "https://investor.itw.com/", "ok": true, "elapsed_s": 9.32}
+{"ts": "2026-05-10T20:52:49Z", "event": "parse_done", "ticker": "ITW", "filings": 3, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T20:52:49Z", "event": "novelty_done", "ticker": "ITW", "novel_count": 3}
+{"ts": "2026-05-10T20:52:51Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/news-and-events/news/news-details/2026/ITW-Reports-Firs", "chars": 28423}
+{"ts": "2026-05-10T20:52:53Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/files/doc_news/2026/Apr/10/ITW-Schedules-First-Quarter-", "chars": 1603}
+{"ts": "2026-05-10T20:52:54Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/files/doc_news/2026/May/ITW-Declares-Quarterly-Dividend", "chars": 1129}
+{"ts": "2026-05-10T20:52:54Z", "event": "dossier_saved", "ticker": "ITW", "path": "obsidian_vault\\Overnight_2026-05-11\\ITW.md"}
+{"ts": "2026-05-10T20:52:54Z", "event": "ticker_progress", "i": 24, "n": 30, "ticker": "ITW", "ticker_elapsed_s": 14.7, "total_elapsed_min": 5.2}
+{"ts": "2026-05-10T20:52:54Z", "event": "ticker_start", "ticker": "JKHY", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:52:54Z", "event": "snapshot_done", "ticker": "JKHY", "events_count": 0}
+{"ts": "2026-05-10T20:53:08Z", "event": "scrape_done", "ticker": "JKHY", "url": "https://investor.jkhy.com/", "ok": true, "elapsed_s": 12.92}
+{"ts": "2026-05-10T20:53:08Z", "event": "parse_done", "ticker": "JKHY", "filings": 0, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T20:53:08Z", "event": "novelty_done", "ticker": "JKHY", "novel_count": 0}
+{"ts": "2026-05-10T20:53:08Z", "event": "dossier_saved", "ticker": "JKHY", "path": "obsidian_vault\\Overnight_2026-05-11\\JKHY.md"}
+{"ts": "2026-05-10T20:53:08Z", "event": "ticker_progress", "i": 25, "n": 30, "ticker": "JKHY", "ticker_elapsed_s": 13.1, "total_elapsed_min": 5.4}
+{"ts": "2026-05-10T20:53:08Z", "event": "ticker_start", "ticker": "LIN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:53:08Z", "event": "snapshot_done", "ticker": "LIN", "events_count": 0}
+{"ts": "2026-05-10T20:53:13Z", "event": "scrape_done", "ticker": "LIN", "url": "https://investors.linde.com/", "ok": true, "elapsed_s": 5.64}
+{"ts": "2026-05-10T20:53:13Z", "event": "parse_done", "ticker": "LIN", "filings": 3, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T20:53:13Z", "event": "novelty_done", "ticker": "LIN", "novel_count": 0}
+{"ts": "2026-05-10T20:53:13Z", "event": "dossier_saved", "ticker": "LIN", "path": "obsidian_vault\\Overnight_2026-05-11\\LIN.md"}
+{"ts": "2026-05-10T20:53:13Z", "event": "ticker_progress", "i": 26, "n": 30, "ticker": "LIN", "ticker_elapsed_s": 5.8, "total_elapsed_min": 5.5}
+{"ts": "2026-05-10T20:53:13Z", "event": "ticker_start", "ticker": "LOW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:53:13Z", "event": "snapshot_done", "ticker": "LOW", "events_count": 0}
+{"ts": "2026-05-10T20:53:44Z", "event": "scrape_done", "ticker": "LOW", "url": "https://ir.lowes.com/", "ok": true, "elapsed_s": 30.38}
+{"ts": "2026-05-10T20:53:44Z", "event": "parse_done", "ticker": "LOW", "filings": 0, "events": 0, "presentations": 4, "audio_video": 0}
+{"ts": "2026-05-10T20:53:44Z", "event": "novelty_done", "ticker": "LOW", "novel_count": 0}
+{"ts": "2026-05-10T20:53:44Z", "event": "dossier_saved", "ticker": "LOW", "path": "obsidian_vault\\Overnight_2026-05-11\\LOW.md"}
+{"ts": "2026-05-10T20:53:44Z", "event": "ticker_progress", "i": 27, "n": 30, "ticker": "LOW", "ticker_elapsed_s": 30.6, "total_elapsed_min": 6.0}
+{"ts": "2026-05-10T20:53:44Z", "event": "ticker_start", "ticker": "MGEE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:53:44Z", "event": "snapshot_done", "ticker": "MGEE", "events_count": 0}
+{"ts": "2026-05-10T20:53:59Z", "event": "scrape_done", "ticker": "MGEE", "url": "https://www.mgeenergy.com/investor-relations", "ok": true, "elapsed_s": 14.9}
+{"ts": "2026-05-10T20:53:59Z", "event": "parse_done", "ticker": "MGEE", "filings": 0, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T20:53:59Z", "event": "novelty_done", "ticker": "MGEE", "novel_count": 0}
+{"ts": "2026-05-10T20:53:59Z", "event": "dossier_saved", "ticker": "MGEE", "path": "obsidian_vault\\Overnight_2026-05-11\\MGEE.md"}
+{"ts": "2026-05-10T20:53:59Z", "event": "ticker_progress", "i": 28, "n": 30, "ticker": "MGEE", "ticker_elapsed_s": 15.1, "total_elapsed_min": 6.3}
+{"ts": "2026-05-10T20:53:59Z", "event": "ticker_start", "ticker": "MO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:53:59Z", "event": "snapshot_done", "ticker": "MO", "events_count": 0}
+{"ts": "2026-05-10T20:54:28Z", "event": "scrape_done", "ticker": "MO", "url": "https://investor.altria.com/", "ok": true, "elapsed_s": 28.51}
+{"ts": "2026-05-10T20:54:28Z", "event": "parse_done", "ticker": "MO", "filings": 44, "events": 0, "presentations": 2, "audio_video": 55}
+{"ts": "2026-05-10T20:54:28Z", "event": "novelty_done", "ticker": "MO", "novel_count": 40}
+{"ts": "2026-05-10T20:54:29Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Reports-2025", "chars": 89460}
+{"ts": "2026-05-10T20:54:30Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-to-Host-Webc", "chars": 3569}
+{"ts": "2026-05-10T20:54:31Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Group-Inc--A", "chars": 8803}
+{"ts": "2026-05-10T20:54:32Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Declares-Reg", "chars": 2766}
+{"ts": "2026-05-10T20:54:34Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-Reports-2024", "chars": 83814}
+{"ts": "2026-05-10T20:54:35Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T20:54:36Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-Declares-Reg", "chars": 2490}
+{"ts": "2026-05-10T20:54:37Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Declares-Reg", "chars": 2489}
+{"ts": "2026-05-10T20:54:39Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Reports-2023", "chars": 81398}
+{"ts": "2026-05-10T20:54:45Z", "event": "extract_done", "ticker": "MO", "url": "https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presen", "chars": 258873}
+{"ts": "2026-05-10T20:54:46Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Group-Inc.-A", "chars": 5747}
+{"ts": "2026-05-10T20:54:48Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/NJOY-Brings-Sweepin", "chars": 7867}
+{"ts": "2026-05-10T20:54:49Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T20:54:51Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/files/doc_news/2023/california-s-flavor-ban-leads-to", "chars": 4701}
+{"ts": "2026-05-10T20:54:53Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2023/california-s-flavor-ban-lea", "chars": 4701}
+{"ts": "2026-05-10T20:54:53Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Declares-Reg", "chars": 2489}
+{"ts": "2026-05-10T20:54:54Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Announces-El", "chars": 5878}
+{"ts": "2026-05-10T20:54:56Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Reports-2022", "chars": 90959}
+{"ts": "2026-05-10T20:54:59Z", "event": "extract_done", "ticker": "MO", "url": "https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presen", "chars": 80754}
+{"ts": "2026-05-10T20:55:00Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Announces-St", "chars": 13324}
+{"ts": "2026-05-10T20:55:02Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-to-Conduct-a", "chars": 8401}
+{"ts": "2026-05-10T20:55:03Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Abandons-Exp", "chars": 7804}
+{"ts": "2026-05-10T20:55:04Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Reaches-Agre", "chars": 10286}
+{"ts": "2026-05-10T20:55:05Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T20:55:08Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Reports-2021", "chars": 100777}
+{"ts": "2026-05-10T20:55:11Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_financials/2021/q3/Press-Release.pdf", "chars": 88471}
+{"ts": "2026-05-10T20:55:11Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Announces-El", "chars": 6542}
+{"ts": "2026-05-10T20:55:12Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Once-Again-A", "chars": 7192}
+{"ts": "2026-05-10T20:55:13Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Releases-Its", "chars": 9018}
+{"ts": "2026-05-10T20:55:15Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-to-Host-Webc", "chars": 3414}
+{"ts": "2026-05-10T20:55:16Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Reports-2020", "chars": 96202}
+{"ts": "2026-05-10T20:55:19Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2020/10/20Q3-release.pdf", "chars": 81454}
+{"ts": "2026-05-10T20:55:20Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Dr.-Ellen-R.-Strahl", "chars": 4860}
+{"ts": "2026-05-10T20:55:21Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Declares-Reg", "chars": 2631}
+{"ts": "2026-05-10T20:55:22Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-to-Host-Webc", "chars": 3796}
+{"ts": "2026-05-10T20:55:24Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/files/doc_news/2020/10/Altria-Group-Inc.-Director-Jo", "chars": 2803}
+{"ts": "2026-05-10T20:55:25Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2020/10/Altria-Group-Inc.-Direct", "chars": 2803}
+{"ts": "2026-05-10T20:55:27Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Participates", "chars": 18175}
+{"ts": "2026-05-10T20:55:28Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Announces-Co", "chars": 5444}
+{"ts": "2026-05-10T20:55:29Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Becomes-a-Ce", "chars": 7656}
+{"ts": "2026-05-10T20:55:29Z", "event": "dossier_saved", "ticker": "MO", "path": "obsidian_vault\\Overnight_2026-05-11\\MO.md"}
+{"ts": "2026-05-10T20:55:29Z", "event": "ticker_progress", "i": 29, "n": 30, "ticker": "MO", "ticker_elapsed_s": 89.9, "total_elapsed_min": 7.8}
+{"ts": "2026-05-10T20:55:29Z", "event": "ticker_start", "ticker": "MSA", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:55:29Z", "event": "snapshot_done", "ticker": "MSA", "events_count": 0}
+{"ts": "2026-05-10T20:55:41Z", "event": "scrape_done", "ticker": "MSA", "url": "https://www.msasafety.com/investors", "ok": true, "elapsed_s": 11.48}
+{"ts": "2026-05-10T20:55:41Z", "event": "parse_done", "ticker": "MSA", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:55:41Z", "event": "novelty_done", "ticker": "MSA", "novel_count": 0}
+{"ts": "2026-05-10T20:55:41Z", "event": "dossier_saved", "ticker": "MSA", "path": "obsidian_vault\\Overnight_2026-05-11\\MSA.md"}
+{"ts": "2026-05-10T20:55:41Z", "event": "ticker_progress", "i": 30, "n": 30, "ticker": "MSA", "ticker_elapsed_s": 11.7, "total_elapsed_min": 8.0}
+{"ts": "2026-05-10T20:55:41Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 30, "ok": 30, "total_elapsed_min": 8.0}
+{"ts": "2026-05-10T20:55:41Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T20:55:41Z", "event": "pilot_loaded", "n": 14}
+{"ts": "2026-05-10T20:55:41Z", "event": "ticker_start", "ticker": "NDSN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:55:41Z", "event": "snapshot_done", "ticker": "NDSN", "events_count": 0}
+{"ts": "2026-05-10T20:55:52Z", "event": "scrape_done", "ticker": "NDSN", "url": "https://investors.nordson.com/", "ok": true, "elapsed_s": 11.19}
+{"ts": "2026-05-10T20:55:52Z", "event": "parse_done", "ticker": "NDSN", "filings": 3, "events": 0, "presentations": 4, "audio_video": 7}
+{"ts": "2026-05-10T20:55:52Z", "event": "novelty_done", "ticker": "NDSN", "novel_count": 3}
+{"ts": "2026-05-10T20:55:54Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Announc", "chars": 11403}
+{"ts": "2026-05-10T20:55:55Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Reports", "chars": 30482}
+{"ts": "2026-05-10T20:55:56Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Declare", "chars": 10708}
+{"ts": "2026-05-10T20:55:56Z", "event": "dossier_saved", "ticker": "NDSN", "path": "obsidian_vault\\Overnight_2026-05-11\\NDSN.md"}
+{"ts": "2026-05-10T20:55:56Z", "event": "ticker_progress", "i": 1, "n": 14, "ticker": "NDSN", "ticker_elapsed_s": 15.5, "total_elapsed_min": 0.3}
+{"ts": "2026-05-10T20:55:56Z", "event": "ticker_start", "ticker": "NEE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:55:56Z", "event": "snapshot_done", "ticker": "NEE", "events_count": 0}
+{"ts": "2026-05-10T20:56:23Z", "event": "scrape_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/", "ok": true, "elapsed_s": 26.73}
+{"ts": "2026-05-10T20:56:23Z", "event": "parse_done", "ticker": "NEE", "filings": 4, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T20:56:23Z", "event": "novelty_done", "ticker": "NEE", "novel_count": 4}
+{"ts": "2026-05-10T20:56:25Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/events-and-presentations/2026", "chars": 6243}
+{"ts": "2026-05-10T20:56:26Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/news-releases/2026/05-04-2026", "chars": 19343}
+{"ts": "2026-05-10T20:56:28Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/events-and-presentations/2026", "chars": 6278}
+{"ts": "2026-05-10T20:56:29Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/news-releases/2026/04-23-2026", "chars": 9145}
+{"ts": "2026-05-10T20:56:29Z", "event": "dossier_saved", "ticker": "NEE", "path": "obsidian_vault\\Overnight_2026-05-11\\NEE.md"}
+{"ts": "2026-05-10T20:56:29Z", "event": "ticker_progress", "i": 2, "n": 14, "ticker": "NEE", "ticker_elapsed_s": 33.0, "total_elapsed_min": 0.8}
+{"ts": "2026-05-10T20:56:29Z", "event": "ticker_start", "ticker": "NFG", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:56:29Z", "event": "snapshot_done", "ticker": "NFG", "events_count": 0}
+{"ts": "2026-05-10T20:56:43Z", "event": "scrape_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/", "ok": true, "elapsed_s": 13.24}
+{"ts": "2026-05-10T20:56:43Z", "event": "parse_done", "ticker": "NFG", "filings": 3, "events": 0, "presentations": 5, "audio_video": 0}
+{"ts": "2026-05-10T20:56:43Z", "event": "novelty_done", "ticker": "NFG", "novel_count": 3}
+{"ts": "2026-05-10T20:56:44Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 127135}
+{"ts": "2026-05-10T20:56:45Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 28609}
+{"ts": "2026-05-10T20:56:46Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 28773}
+{"ts": "2026-05-10T20:56:46Z", "event": "dossier_saved", "ticker": "NFG", "path": "obsidian_vault\\Overnight_2026-05-11\\NFG.md"}
+{"ts": "2026-05-10T20:56:46Z", "event": "ticker_progress", "i": 3, "n": 14, "ticker": "NFG", "ticker_elapsed_s": 16.9, "total_elapsed_min": 1.1}
+{"ts": "2026-05-10T20:56:46Z", "event": "ticker_start", "ticker": "NUE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:56:46Z", "event": "snapshot_done", "ticker": "NUE", "events_count": 0}
+{"ts": "2026-05-10T20:56:59Z", "event": "scrape_done", "ticker": "NUE", "url": "https://investors.nucor.com/", "ok": true, "elapsed_s": 12.03}
+{"ts": "2026-05-10T20:56:59Z", "event": "parse_done", "ticker": "NUE", "filings": 9, "events": 0, "presentations": 2, "audio_video": 3}
+{"ts": "2026-05-10T20:56:59Z", "event": "novelty_done", "ticker": "NUE", "novel_count": 9}
+{"ts": "2026-05-10T20:57:00Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2026/N", "chars": 6637}
+{"ts": "2026-05-10T20:57:00Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/default.aspx", "chars": 6181}
+{"ts": "2026-05-10T20:57:02Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the", "chars": 35609}
+{"ts": "2026-05-10T20:57:04Z", "event": "extract_done", "ticker": "NUE", "url": "https://s202.q4cdn.com/531038915/files/doc_financials/2026/q1/v2/Q1-2026-Earning", "chars": 28311}
+{"ts": "2026-05-10T20:57:06Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2026/N", "chars": 6643}
+{"ts": "2026-05-10T20:57:07Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Announces-Guidance-for-", "chars": 14897}
+{"ts": "2026-05-10T20:57:08Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Invites-You-to-Join-Its", "chars": 9123}
+{"ts": "2026-05-10T20:57:09Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Executive-Vice-Presiden", "chars": 8736}
+{"ts": "2026-05-10T20:57:10Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2025/N", "chars": 6651}
+{"ts": "2026-05-10T20:57:10Z", "event": "dossier_saved", "ticker": "NUE", "path": "obsidian_vault\\Overnight_2026-05-11\\NUE.md"}
+{"ts": "2026-05-10T20:57:10Z", "event": "ticker_progress", "i": 4, "n": 14, "ticker": "NUE", "ticker_elapsed_s": 24.0, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T20:57:10Z", "event": "ticker_start", "ticker": "NWN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:10Z", "event": "snapshot_done", "ticker": "NWN", "events_count": 0}
+{"ts": "2026-05-10T20:57:17Z", "event": "scrape_done", "ticker": "NWN", "url": "https://investor.northwestnatural.com/", "ok": true, "elapsed_s": 6.13}
+{"ts": "2026-05-10T20:57:17Z", "event": "parse_done", "ticker": "NWN", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:57:17Z", "event": "novelty_done", "ticker": "NWN", "novel_count": 0}
+{"ts": "2026-05-10T20:57:17Z", "event": "dossier_saved", "ticker": "NWN", "path": "obsidian_vault\\Overnight_2026-05-11\\NWN.md"}
+{"ts": "2026-05-10T20:57:17Z", "event": "ticker_progress", "i": 5, "n": 14, "ticker": "NWN", "ticker_elapsed_s": 6.3, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T20:57:17Z", "event": "ticker_start", "ticker": "PEP", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:17Z", "event": "snapshot_done", "ticker": "PEP", "events_count": 211}
+{"ts": "2026-05-10T20:57:20Z", "event": "scrape_done", "ticker": "PEP", "url": "https://investor.pepsico.com/", "ok": true, "elapsed_s": 3.59}
+{"ts": "2026-05-10T20:57:20Z", "event": "parse_done", "ticker": "PEP", "filings": 0, "events": 0, "presentations": 4, "audio_video": 7}
+{"ts": "2026-05-10T20:57:20Z", "event": "novelty_done", "ticker": "PEP", "novel_count": 0}
+{"ts": "2026-05-10T20:57:20Z", "event": "dossier_saved", "ticker": "PEP", "path": "obsidian_vault\\Overnight_2026-05-11\\PEP.md"}
+{"ts": "2026-05-10T20:57:20Z", "event": "ticker_progress", "i": 6, "n": 14, "ticker": "PEP", "ticker_elapsed_s": 3.8, "total_elapsed_min": 1.7}
+{"ts": "2026-05-10T20:57:20Z", "event": "ticker_start", "ticker": "PPG", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:20Z", "event": "snapshot_done", "ticker": "PPG", "events_count": 0}
+{"ts": "2026-05-10T20:57:33Z", "event": "scrape_done", "ticker": "PPG", "url": "https://investor.ppg.com/", "ok": true, "elapsed_s": 11.9}
+{"ts": "2026-05-10T20:57:33Z", "event": "parse_done", "ticker": "PPG", "filings": 5, "events": 0, "presentations": 6, "audio_video": 1}
+{"ts": "2026-05-10T20:57:33Z", "event": "novelty_done", "ticker": "PPG", "novel_count": 0}
+{"ts": "2026-05-10T20:57:33Z", "event": "dossier_saved", "ticker": "PPG", "path": "obsidian_vault\\Overnight_2026-05-11\\PPG.md"}
+{"ts": "2026-05-10T20:57:33Z", "event": "ticker_progress", "i": 7, "n": 14, "ticker": "PPG", "ticker_elapsed_s": 12.1, "total_elapsed_min": 1.9}
+{"ts": "2026-05-10T20:57:33Z", "event": "ticker_start", "ticker": "RLI", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:33Z", "event": "snapshot_done", "ticker": "RLI", "events_count": 0}
+{"ts": "2026-05-10T20:57:43Z", "event": "scrape_done", "ticker": "RLI", "url": "https://investors.rlicorp.com/", "ok": true, "elapsed_s": 10.04}
+{"ts": "2026-05-10T20:57:43Z", "event": "parse_done", "ticker": "RLI", "filings": 5, "events": 0, "presentations": 1, "audio_video": 1}
+{"ts": "2026-05-10T20:57:43Z", "event": "novelty_done", "ticker": "RLI", "novel_count": 0}
+{"ts": "2026-05-10T20:57:43Z", "event": "dossier_saved", "ticker": "RLI", "path": "obsidian_vault\\Overnight_2026-05-11\\RLI.md"}
+{"ts": "2026-05-10T20:57:43Z", "event": "ticker_progress", "i": 8, "n": 14, "ticker": "RLI", "ticker_elapsed_s": 10.2, "total_elapsed_min": 2.0}
+{"ts": "2026-05-10T20:57:43Z", "event": "ticker_start", "ticker": "RPM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:43Z", "event": "snapshot_done", "ticker": "RPM", "events_count": 0}
+{"ts": "2026-05-10T20:57:54Z", "event": "scrape_done", "ticker": "RPM", "url": "https://investor.rpm.com/", "ok": true, "elapsed_s": 11.38}
+{"ts": "2026-05-10T20:57:54Z", "event": "parse_done", "ticker": "RPM", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T20:57:54Z", "event": "novelty_done", "ticker": "RPM", "novel_count": 0}
+{"ts": "2026-05-10T20:57:54Z", "event": "dossier_saved", "ticker": "RPM", "path": "obsidian_vault\\Overnight_2026-05-11\\RPM.md"}
+{"ts": "2026-05-10T20:57:54Z", "event": "ticker_progress", "i": 9, "n": 14, "ticker": "RPM", "ticker_elapsed_s": 11.6, "total_elapsed_min": 2.2}
+{"ts": "2026-05-10T20:57:54Z", "event": "ticker_start", "ticker": "SJM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:57:54Z", "event": "snapshot_done", "ticker": "SJM", "events_count": 0}
+{"ts": "2026-05-10T20:58:06Z", "event": "scrape_done", "ticker": "SJM", "url": "https://investors.jmsmucker.com/", "ok": true, "elapsed_s": 11.62}
+{"ts": "2026-05-10T20:58:06Z", "event": "parse_done", "ticker": "SJM", "filings": 3, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T20:58:06Z", "event": "novelty_done", "ticker": "SJM", "novel_count": 0}
+{"ts": "2026-05-10T20:58:06Z", "event": "dossier_saved", "ticker": "SJM", "path": "obsidian_vault\\Overnight_2026-05-11\\SJM.md"}
+{"ts": "2026-05-10T20:58:06Z", "event": "ticker_progress", "i": 10, "n": 14, "ticker": "SJM", "ticker_elapsed_s": 11.8, "total_elapsed_min": 2.4}
+{"ts": "2026-05-10T20:58:06Z", "event": "ticker_start", "ticker": "SPGI", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:58:06Z", "event": "snapshot_done", "ticker": "SPGI", "events_count": 0}
+{"ts": "2026-05-10T20:58:40Z", "event": "scrape_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/", "ok": true, "elapsed_s": 32.64}
+{"ts": "2026-05-10T20:58:40Z", "event": "parse_done", "ticker": "SPGI", "filings": 4, "events": 0, "presentations": 14, "audio_video": 1}
+{"ts": "2026-05-10T20:58:40Z", "event": "novelty_done", "ticker": "SPGI", "novel_count": 3}
+{"ts": "2026-05-10T20:58:41Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/news-releases/news-details/2026/SP-Global-Announce", "chars": 20406}
+{"ts": "2026-05-10T20:58:42Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/news-releases/news-details/2026/SP-Global-Announce", "chars": 28424}
+{"ts": "2026-05-10T20:58:43Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/investor-presentations/event-details/2026/Earnings", "chars": 9778}
+{"ts": "2026-05-10T20:58:43Z", "event": "dossier_saved", "ticker": "SPGI", "path": "obsidian_vault\\Overnight_2026-05-11\\SPGI.md"}
+{"ts": "2026-05-10T20:58:43Z", "event": "ticker_progress", "i": 11, "n": 14, "ticker": "SPGI", "ticker_elapsed_s": 36.6, "total_elapsed_min": 3.0}
+{"ts": "2026-05-10T20:58:43Z", "event": "ticker_start", "ticker": "SYY", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:58:43Z", "event": "snapshot_done", "ticker": "SYY", "events_count": 0}
+{"ts": "2026-05-10T20:59:13Z", "event": "scrape_done", "ticker": "SYY", "url": "https://investors.sysco.com/", "ok": false, "elapsed_s": 30.512749910354614}
+{"ts": "2026-05-10T20:59:13Z", "event": "dossier_saved", "ticker": "SYY", "path": "obsidian_vault\\Overnight_2026-05-11\\SYY.md"}
+{"ts": "2026-05-10T20:59:13Z", "event": "ticker_progress", "i": 12, "n": 14, "ticker": "SYY", "ticker_elapsed_s": 30.5, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T20:59:13Z", "event": "ticker_start", "ticker": "TGT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:59:13Z", "event": "snapshot_done", "ticker": "TGT", "events_count": 0}
+{"ts": "2026-05-10T20:59:25Z", "event": "scrape_done", "ticker": "TGT", "url": "https://investors.target.com/", "ok": true, "elapsed_s": 11.38}
+{"ts": "2026-05-10T20:59:25Z", "event": "parse_done", "ticker": "TGT", "filings": 5, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T20:59:25Z", "event": "novelty_done", "ticker": "TGT", "novel_count": 1}
+{"ts": "2026-05-10T20:59:26Z", "event": "extract_done", "ticker": "TGT", "url": "https://investors.target.com/press/release/2026/03/target-outlines-strategic-pla", "chars": 20339}
+{"ts": "2026-05-10T20:59:26Z", "event": "dossier_saved", "ticker": "TGT", "path": "obsidian_vault\\Overnight_2026-05-11\\TGT.md"}
+{"ts": "2026-05-10T20:59:26Z", "event": "ticker_progress", "i": 13, "n": 14, "ticker": "TGT", "ticker_elapsed_s": 13.0, "total_elapsed_min": 3.8}
+{"ts": "2026-05-10T20:59:26Z", "event": "ticker_start", "ticker": "XOM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T20:59:26Z", "event": "snapshot_done", "ticker": "XOM", "events_count": 0}
+{"ts": "2026-05-10T20:59:32Z", "event": "scrape_done", "ticker": "XOM", "url": "https://investor.exxonmobil.com/", "ok": true, "elapsed_s": 5.5}
+{"ts": "2026-05-10T20:59:32Z", "event": "parse_done", "ticker": "XOM", "filings": 3, "events": 0, "presentations": 7, "audio_video": 2}
+{"ts": "2026-05-10T20:59:32Z", "event": "novelty_done", "ticker": "XOM", "novel_count": 0}
+{"ts": "2026-05-10T20:59:32Z", "event": "dossier_saved", "ticker": "XOM", "path": "obsidian_vault\\Overnight_2026-05-11\\XOM.md"}
+{"ts": "2026-05-10T20:59:32Z", "event": "ticker_progress", "i": 14, "n": 14, "ticker": "XOM", "ticker_elapsed_s": 5.7, "total_elapsed_min": 3.9}
+{"ts": "2026-05-10T20:59:32Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 14, "ok": 14, "total_elapsed_min": 3.9}
+{"ts": "2026-05-10T20:59:32Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-11", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T20:59:32Z", "event": "pilot_loaded", "n": 12}
+{"ts": "2026-05-10T20:59:32Z", "event": "ticker_start", "ticker": "ABCB4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T20:59:32Z", "event": "snapshot_done", "ticker": "ABCB4", "events_count": 0}
+{"ts": "2026-05-10T20:59:45Z", "event": "scrape_done", "ticker": "ABCB4", "url": "https://ri.abcbrasil.com.br/", "ok": true, "elapsed_s": 12.22}
+{"ts": "2026-05-10T20:59:45Z", "event": "parse_done", "ticker": "ABCB4", "filings": 0, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T20:59:45Z", "event": "novelty_done", "ticker": "ABCB4", "novel_count": 0}
+{"ts": "2026-05-10T20:59:45Z", "event": "dossier_saved", "ticker": "ABCB4", "path": "obsidian_vault\\Overnight_2026-05-11\\ABCB4.md"}
+{"ts": "2026-05-10T20:59:45Z", "event": "ticker_progress", "i": 1, "n": 12, "ticker": "ABCB4", "ticker_elapsed_s": 12.9, "total_elapsed_min": 0.2}
+{"ts": "2026-05-10T20:59:45Z", "event": "ticker_start", "ticker": "BRKM5", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T20:59:45Z", "event": "snapshot_done", "ticker": "BRKM5", "events_count": 0}
+{"ts": "2026-05-10T20:59:58Z", "event": "scrape_done", "ticker": "BRKM5", "url": "https://www.braskem-ri.com.br/", "ok": true, "elapsed_s": 12.46}
+{"ts": "2026-05-10T20:59:58Z", "event": "parse_done", "ticker": "BRKM5", "filings": 1, "events": 0, "presentations": 1, "audio_video": 2}
+{"ts": "2026-05-10T20:59:58Z", "event": "novelty_done", "ticker": "BRKM5", "novel_count": 1}
+{"ts": "2026-05-10T21:00:00Z", "event": "extract_done", "ticker": "BRKM5", "url": "https://www.braskem-ri.com.br/divulgacoes-documentos/avisos-comunicados-ao-merca", "chars": 6742}
+{"ts": "2026-05-10T21:00:00Z", "event": "dossier_saved", "ticker": "BRKM5", "path": "obsidian_vault\\Overnight_2026-05-11\\BRKM5.md"}
+{"ts": "2026-05-10T21:00:00Z", "event": "ticker_progress", "i": 2, "n": 12, "ticker": "BRKM5", "ticker_elapsed_s": 14.8, "total_elapsed_min": 0.5}
+{"ts": "2026-05-10T21:00:00Z", "event": "ticker_start", "ticker": "CPLE3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:00:00Z", "event": "snapshot_done", "ticker": "CPLE3", "events_count": 13}
+{"ts": "2026-05-10T21:00:13Z", "event": "scrape_done", "ticker": "CPLE3", "url": "https://ri.copel.com/", "ok": true, "elapsed_s": 12.69}
+{"ts": "2026-05-10T21:00:13Z", "event": "parse_done", "ticker": "CPLE3", "filings": 0, "events": 0, "presentations": 5, "audio_video": 0}
+{"ts": "2026-05-10T21:00:13Z", "event": "novelty_done", "ticker": "CPLE3", "novel_count": 0}
+{"ts": "2026-05-10T21:00:13Z", "event": "dossier_saved", "ticker": "CPLE3", "path": "obsidian_vault\\Overnight_2026-05-11\\CPLE3.md"}
+{"ts": "2026-05-10T21:00:13Z", "event": "ticker_progress", "i": 3, "n": 12, "ticker": "CPLE3", "ticker_elapsed_s": 12.9, "total_elapsed_min": 0.7}
+{"ts": "2026-05-10T21:00:13Z", "event": "ticker_start", "ticker": "CSMG3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:00:13Z", "event": "snapshot_done", "ticker": "CSMG3", "events_count": 0}
+{"ts": "2026-05-10T21:00:27Z", "event": "scrape_done", "ticker": "CSMG3", "url": "https://ri.copasa.com.br/", "ok": true, "elapsed_s": 14.2}
+{"ts": "2026-05-10T21:00:27Z", "event": "parse_done", "ticker": "CSMG3", "filings": 0, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T21:00:27Z", "event": "novelty_done", "ticker": "CSMG3", "novel_count": 0}
+{"ts": "2026-05-10T21:00:27Z", "event": "dossier_saved", "ticker": "CSMG3", "path": "obsidian_vault\\Overnight_2026-05-11\\CSMG3.md"}
+{"ts": "2026-05-10T21:00:27Z", "event": "ticker_progress", "i": 4, "n": 12, "ticker": "CSMG3", "ticker_elapsed_s": 14.4, "total_elapsed_min": 0.9}
+{"ts": "2026-05-10T21:00:27Z", "event": "ticker_start", "ticker": "EZTC3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:00:27Z", "event": "snapshot_done", "ticker": "EZTC3", "events_count": 0}
+{"ts": "2026-05-10T21:00:40Z", "event": "scrape_done", "ticker": "EZTC3", "url": "https://ri.eztec.com.br/", "ok": true, "elapsed_s": 12.84}
+{"ts": "2026-05-10T21:00:40Z", "event": "parse_done", "ticker": "EZTC3", "filings": 2, "events": 0, "presentations": 2, "audio_video": 0}
+{"ts": "2026-05-10T21:00:40Z", "event": "novelty_done", "ticker": "EZTC3", "novel_count": 2}
+{"ts": "2026-05-10T21:00:42Z", "event": "extract_done", "ticker": "EZTC3", "url": "https://api.mziq.com/mzfilemanager/v2/d/653fada3-cbcd-4015-9a94-2149f610a321/116", "chars": 7249}
+{"ts": "2026-05-10T21:00:43Z", "event": "extract_done", "ticker": "EZTC3", "url": "https://api.mziq.com/mzfilemanager/v2/d/653fada3-cbcd-4015-9a94-2149f610a321/509", "chars": 2618}
+{"ts": "2026-05-10T21:00:43Z", "event": "dossier_saved", "ticker": "EZTC3", "path": "obsidian_vault\\Overnight_2026-05-11\\EZTC3.md"}
+{"ts": "2026-05-10T21:00:43Z", "event": "ticker_progress", "i": 5, "n": 12, "ticker": "EZTC3", "ticker_elapsed_s": 16.0, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:00:43Z", "event": "ticker_start", "ticker": "GMAT3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:00:43Z", "event": "snapshot_done", "ticker": "GMAT3", "events_count": 0}
+{"ts": "2026-05-10T21:00:54Z", "event": "scrape_done", "ticker": "GMAT3", "url": "https://ri.grupomateus.com.br/", "ok": true, "elapsed_s": 10.43}
+{"ts": "2026-05-10T21:00:54Z", "event": "parse_done", "ticker": "GMAT3", "filings": 0, "events": 0, "presentations": 2, "audio_video": 0}
+{"ts": "2026-05-10T21:00:54Z", "event": "novelty_done", "ticker": "GMAT3", "novel_count": 0}
+{"ts": "2026-05-10T21:00:54Z", "event": "dossier_saved", "ticker": "GMAT3", "path": "obsidian_vault\\Overnight_2026-05-11\\GMAT3.md"}
+{"ts": "2026-05-10T21:00:54Z", "event": "ticker_progress", "i": 6, "n": 12, "ticker": "GMAT3", "ticker_elapsed_s": 10.6, "total_elapsed_min": 1.4}
+{"ts": "2026-05-10T21:00:54Z", "event": "ticker_start", "ticker": "GRND3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:00:54Z", "event": "snapshot_done", "ticker": "GRND3", "events_count": 0}
+{"ts": "2026-05-10T21:01:06Z", "event": "scrape_done", "ticker": "GRND3", "url": "https://ri.grendene.com.br/", "ok": true, "elapsed_s": 11.54}
+{"ts": "2026-05-10T21:01:06Z", "event": "parse_done", "ticker": "GRND3", "filings": 0, "events": 0, "presentations": 5, "audio_video": 2}
+{"ts": "2026-05-10T21:01:06Z", "event": "novelty_done", "ticker": "GRND3", "novel_count": 0}
+{"ts": "2026-05-10T21:01:06Z", "event": "dossier_saved", "ticker": "GRND3", "path": "obsidian_vault\\Overnight_2026-05-11\\GRND3.md"}
+{"ts": "2026-05-10T21:01:06Z", "event": "ticker_progress", "i": 7, "n": 12, "ticker": "GRND3", "ticker_elapsed_s": 11.7, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T21:01:06Z", "event": "ticker_start", "ticker": "ISAE4", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:01:06Z", "event": "snapshot_done", "ticker": "ISAE4", "events_count": 0}
+{"ts": "2026-05-10T21:01:33Z", "event": "scrape_done", "ticker": "ISAE4", "url": "https://www.isacteep.com.br/ri/", "ok": true, "elapsed_s": 27.4}
+{"ts": "2026-05-10T21:01:33Z", "event": "parse_done", "ticker": "ISAE4", "filings": 0, "events": 0, "presentations": 6, "audio_video": 1}
+{"ts": "2026-05-10T21:01:33Z", "event": "novelty_done", "ticker": "ISAE4", "novel_count": 0}
+{"ts": "2026-05-10T21:01:33Z", "event": "dossier_saved", "ticker": "ISAE4", "path": "obsidian_vault\\Overnight_2026-05-11\\ISAE4.md"}
+{"ts": "2026-05-10T21:01:33Z", "event": "ticker_progress", "i": 8, "n": 12, "ticker": "ISAE4", "ticker_elapsed_s": 27.6, "total_elapsed_min": 2.0}
+{"ts": "2026-05-10T21:01:33Z", "event": "ticker_start", "ticker": "MULT3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:01:33Z", "event": "snapshot_done", "ticker": "MULT3", "events_count": 13}
+{"ts": "2026-05-10T21:01:41Z", "event": "scrape_done", "ticker": "MULT3", "url": "https://www.multri.com.br/", "ok": true, "elapsed_s": 7.27}
+{"ts": "2026-05-10T21:01:41Z", "event": "parse_done", "ticker": "MULT3", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:01:41Z", "event": "novelty_done", "ticker": "MULT3", "novel_count": 0}
+{"ts": "2026-05-10T21:01:41Z", "event": "dossier_saved", "ticker": "MULT3", "path": "obsidian_vault\\Overnight_2026-05-11\\MULT3.md"}
+{"ts": "2026-05-10T21:01:41Z", "event": "ticker_progress", "i": 9, "n": 12, "ticker": "MULT3", "ticker_elapsed_s": 7.5, "total_elapsed_min": 2.1}
+{"ts": "2026-05-10T21:01:41Z", "event": "ticker_start", "ticker": "PGMN3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:01:41Z", "event": "snapshot_done", "ticker": "PGMN3", "events_count": 9}
+{"ts": "2026-05-10T21:01:52Z", "event": "scrape_done", "ticker": "PGMN3", "url": "https://ri.paguemenos.com.br/", "ok": true, "elapsed_s": 11.27}
+{"ts": "2026-05-10T21:01:52Z", "event": "parse_done", "ticker": "PGMN3", "filings": 0, "events": 0, "presentations": 5, "audio_video": 2}
+{"ts": "2026-05-10T21:01:52Z", "event": "novelty_done", "ticker": "PGMN3", "novel_count": 0}
+{"ts": "2026-05-10T21:01:52Z", "event": "dossier_saved", "ticker": "PGMN3", "path": "obsidian_vault\\Overnight_2026-05-11\\PGMN3.md"}
+{"ts": "2026-05-10T21:01:52Z", "event": "ticker_progress", "i": 10, "n": 12, "ticker": "PGMN3", "ticker_elapsed_s": 11.5, "total_elapsed_min": 2.3}
+{"ts": "2026-05-10T21:01:52Z", "event": "ticker_start", "ticker": "PLPL3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:01:52Z", "event": "snapshot_done", "ticker": "PLPL3", "events_count": 0}
+{"ts": "2026-05-10T21:02:04Z", "event": "scrape_done", "ticker": "PLPL3", "url": "https://ri.planoeplano.com.br/", "ok": true, "elapsed_s": 11.59}
+{"ts": "2026-05-10T21:02:04Z", "event": "parse_done", "ticker": "PLPL3", "filings": 0, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T21:02:04Z", "event": "novelty_done", "ticker": "PLPL3", "novel_count": 0}
+{"ts": "2026-05-10T21:02:04Z", "event": "dossier_saved", "ticker": "PLPL3", "path": "obsidian_vault\\Overnight_2026-05-11\\PLPL3.md"}
+{"ts": "2026-05-10T21:02:04Z", "event": "ticker_progress", "i": 11, "n": 12, "ticker": "PLPL3", "ticker_elapsed_s": 11.8, "total_elapsed_min": 2.5}
+{"ts": "2026-05-10T21:02:04Z", "event": "ticker_start", "ticker": "PSSA3", "market": "br", "urls_count": 1}
+{"ts": "2026-05-10T21:02:04Z", "event": "snapshot_done", "ticker": "PSSA3", "events_count": 0}
+{"ts": "2026-05-10T21:02:17Z", "event": "scrape_done", "ticker": "PSSA3", "url": "https://ri.portoseguro.com.br/", "ok": true, "elapsed_s": 12.76}
+{"ts": "2026-05-10T21:02:17Z", "event": "parse_done", "ticker": "PSSA3", "filings": 0, "events": 0, "presentations": 4, "audio_video": 0}
+{"ts": "2026-05-10T21:02:17Z", "event": "novelty_done", "ticker": "PSSA3", "novel_count": 0}
+{"ts": "2026-05-10T21:02:17Z", "event": "dossier_saved", "ticker": "PSSA3", "path": "obsidian_vault\\Overnight_2026-05-11\\PSSA3.md"}
+{"ts": "2026-05-10T21:02:17Z", "event": "ticker_progress", "i": 12, "n": 12, "ticker": "PSSA3", "ticker_elapsed_s": 13.0, "total_elapsed_min": 2.7}
+{"ts": "2026-05-10T21:02:17Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-11\\_MASTER.md", "results": 12, "ok": 12, "total_elapsed_min": 2.7}

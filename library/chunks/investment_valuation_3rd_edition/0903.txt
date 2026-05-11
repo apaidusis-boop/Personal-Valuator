@@ -1,0 +1,60 @@
+(1 - Reinvestment rate)
+Increases expected growth: 
+Expected growth = Reinvestment rate 
+× Return on capital
+We could work through the entire valuation and determine whether the present value of the
+
+additional cash flows created by higher growth is greater than the present value of the actual
+reinvestments made, in cash flow terms. There is, however, a far simpler test to determine the effect
+on value. Note that the net present value of a project measures the value added by the project to
+overall firm value, and that the net present value is positive only if the internal rate of return on the
+project exceeds the cost of capital. If we make the assumption that the accounting return on capital on
+a project is a reasonable estimate for the internal rate of return, then increasing the reinvestment rate
+will increase value if and only if the return on capital is greater than the cost of capital. If the return
+on capital is less than the cost of capital, the positive effects of growth will be less than the negative
+effects of making the reinvestment.
+Note that the return on capital that we are talking about is the marginal return on capital (i.e., the
+return on capital earned on the actual reinvestment), rather than the average return on capital. Given
+that firms tend to accept their most attractive investment first and their less attractive investments
+later, the average returns on capital will tend to be greater than the marginal returns on capital. Thus,
+a firm with a return on capital of 18 percent and a cost of capital of 12 percent may really be earning
+only 11 percent on its marginal projects. In addition, the marginal return on capital will be much
+lower if the increase in the reinvestment rate is substantial. Thus, you have to be cautious about
+assuming large increases in the reinvestment rate while keeping the current return on capital constant.
+A firm that is able to increase its return on capital while keeping the cost of capital fixed will
+increase its value. The increase in growth will increase value, and there are generally no offsetting
+effects. If, however, the increase in return on capital comes from the firm entering new businesses that
+are far riskier than its existing business, there might be an increase in the cost of capital that offsets
+the increase in growth. The general rule for value creation remains simple, however. As long as the
+projects, no matter how risky they are, have a marginal return on capital that exceeds their cost of
+capital, they will create value.
+Using the comparison between return on capital and cost of capital, a firm that earns a return on
+capital that is less than its cost of capital can get an increase in value by accepting higher return
+investments, but it would get an even greater increase in value by not investing at all and returning the
+cash to the owners of the business. Liquidation or partial liquidation might be the most value-
+enhancing strategy for firms trapped in businesses where it is impossible to earn the cost of capital.
+ILLUSTRATION 31.5: 
+Reinvestment Rates, Return on
+Capital, and Value—Contrasting Boeing and the Home
+Depot in 1998
+In 1998, Boeing earned a return on capital of 6.59% and had a reinvestment rate of 65.98%. If you assume a cost of capital
+of 9.17% for the firm, you would value the equity in the firm at $13.14 a share. In the same year, the Home Depot had a
+return on capital of 16.38%, a reinvestment rate of 88.62%, and a cost of capital of 9.51%, resulting in a value per share of
+$42.55.
+Boeing
+Home Depot
+Cost of capital
+9.17%
+9.51%
+Return on capital
+6.59%
+16.38%
+Reinvestment rate
+65.98%
+88.62%
+Expected growth rate
+4.35%
+14.51%
+Value per share
+$13.14
+$42.55

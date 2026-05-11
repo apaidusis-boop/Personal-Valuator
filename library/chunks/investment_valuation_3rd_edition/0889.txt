@@ -1,0 +1,37 @@
+ng framework allows us to draw some conclusions about when and how this strategy can pay off:
+As with any portfolio of deep out-of-the-money options, you should expect a considerable proportion of the
+
+portfolio to end up worthless. The relatively few investments that do pay off, however, should earn huge
+returns, and you could still end up with a portfolio with impressive returns.
+You should direct your equity investments to equity in deeply troubled firms in volatile sectors. Risk is your
+ally when you invest in options, and the equity in these firms should be worth more than equity in deeply
+troubled in stable sectors.
+If you are buying equity in deeply troubled firms, you should direct your investments toward troubled firms
+with longer-term debt rather than shorter-term debt. As the life of the option increases, you will see the value
+of the option also increase.
+If you are investing in the debt issued by financially troubled firms, you cannot be a passive bondholder. You
+have to take an active role in the management and obtain an equity stake in the companies you invest in,
+perhaps by making the debt convertible.
+CONSEQUENCES FOR DECISION MAKING
+Option pricing theory can be applied to illustrate the conflict between stockholders and bondholders
+when it comes to investment analysis and conglomerate mergers. This section argues that decisions
+that make stockholders better off are not necessarily value maximizing for the firm and can hurt
+bondholders.
+The Conflict between Bondholders and Stockholders
+Stockholders and bondholders have different objective functions, and this can lead to agency
+problems, whereby stockholders expropriate wealth from bondholders. The conflict can manifest
+itself in a number of ways. For instance, stockholders have an incentive to invest in riskier projects
+than bondholders, and to pay more out in dividends than bondholders would like them to. The conflict
+between bondholders and stockholders can be illustrated dramatically using the option pricing
+methodology developed in the previous section.
+Investing in Risky Projects
+Since equity is a call option on the value of the firm, other things remaining equal, an increase in the
+variance in the firm value will lead to an increase in the value of equity. It is therefore conceivable
+that stockholders can invest in risky projects with negative net present values, which, while making
+them better off, may make the bonds and the firm less valuable. To illustrate, consider the firm in
+Illustration 30.1 with a value of assets of $100 million, a face value of zero coupon 10-year debt of
+$80 million, and a standard deviation in the value of the firm of 40 percent, valued in the earlier
+illustration. The equity and debt in this firm were valued as follows:
+Now assume that the stockholders have the opportunity to invest in a project with a net present value
+of –$2 million; the project is a very risky one that will push up the standard deviation in firm value to
+50 percent. The equity as a call option can then be valued using the following inputs:

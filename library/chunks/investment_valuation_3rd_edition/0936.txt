@@ -1,0 +1,24 @@
+nvestors, who have recognized this
+phenomenon with earnings per share for decades; the earnings announcements of firms are judged
+against expectations, and the earnings surprise is what drives prices.
+
+EVA FOR HIGH-GROWTH FIRMS
+The fact that the value of a firm is a function of the capital invested in assets in place, the present value of economic value
+added by those assets, and the economic value added by future investments points to some of the dangers of using it as a
+measure of success or failure for high-growth and especially high-growth technology firms. In particular, there are three
+problems:
+1.
+ We have already noted many of the problems associated with how accountants measure capital invested at technology
+firms. Given the centrality of capital invested to economic value added, these problems have a much bigger effect when
+firms use EVA than when you use discounted cash flow valuation.
+2.
+ When 80 percent to 90 percent of your value comes from future growth potential, the risks of managers trading off
+future growth for current EVA are magnified. It is also very difficult to monitor these trade-offs at young firms.
+3.
+ The constant change that these firms go through also makes them much better candidates for risk shifting. In this case,
+the negative effect (of a higher discount rate) can more than offset the positive effect of a higher economic value added.
+Finally, it is unlikely that there will be much correlation between actual changes in economic value added at technology firms
+and changes in market value. The market value is based on expectations of economic value added in future periods, and
+investors expect an economic value added that grows substantially each year. Thus if the economic value added increases,
+but by less than expected, you could see its market value drop on the report.
+eva.xls:

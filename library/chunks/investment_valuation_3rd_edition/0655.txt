@@ -1,0 +1,31 @@
+ate in
+earnings in turning-point years (years when the economy goes into or comes out of a recession) can be
+estimated by looking at the experience of this firm (or similar firms) in prior recessions.
+
+ILLUSTRATION 22.2: Valuing a Cyclical Company Using a
+Higher Growth Rate—Dana Corporation in May 2011
+Dana manufactures automotive components and systems and was badly hurt by the global recession in 2008 and 2009; the
+company reported operating losses of $123 million in 2008 and $141 million in 2009. Although the company reported an
+operating profit of $196 million in 2010, the operating margin for the year amounted to only 3.21%. While the company is
+mature, it is anticipated that as the economy continues to improve, operating profits will grow 15% a year for the 2011–2015
+time period as margins improve. After 2015, the firm is expected to revert to stable growth, with revenues and operating
+income growing at 3% a year forever, and with the firm earning a return on capital equal to its cost of capital in perpetuity.
+The firm is expected to have a beta of 1.20 in perpetuity and maintain its existing debt-to-capital ratio of 26.32%. However,
+while the pretax cost of debt for the 2011–2015 time period will remain at the existing level of 6.85% (based on its bond
+rating), we assume that it will drop to 5% after 2015. Using a marginal tax rate of 40%, a risk-free rate of 3.5%, and an
+equity risk premium of 5%, we estimate the cost of capital for Dana in both high and stable growth:
+In the table following, we estimate the free cash flows to the firm for the 2011–2015 time period and discount them back at
+the cost of capital of 8.08%:
+The sum of the present value amounts to $547.78 million. Note that we have assumed that the net cap ex and change in
+working capital will grow at the same rate as operating income.
+To estimate the value at the end of the high growth period, we estimate the reinvestment rate based on the stable growth
+rate and return on capital:
+Discounting the terminal value back at 8.08% for five years and adding to the present value of the cash flows over the five
+years yields a value for the operating assets of $2668 million:
+Adding the cash balance of $1,134 million, subtracting out debt outstanding of $947 million and dividing by the number of
+shares outstanding (146.26 million) yields a value per share of $19.52, about 8% higher than the stock price of $18.13 at the
+end of May 2011.
+Normalize Earnings
+For cyclical firms, the easiest solution to the problem of volatile earnings over time and negative
+earnings in the base period, is to normalize earnings. When normalizing earnings for a firm with
+negative earnings, we are simply trying to answer the question: “What would this firm earn in a

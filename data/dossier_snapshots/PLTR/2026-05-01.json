@@ -1,0 +1,100 @@
+{
+  "ticker": "PLTR",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "PLTR",
+    "period_end": "2026-04-30",
+    "eps": 0.63,
+    "bvps": 3.089,
+    "roe": 0.25983,
+    "pe": 220.80952,
+    "pb": 45.033993,
+    "dy": null,
+    "net_debt_ebitda": -4.82425907121431,
+    "dividend_streak_years": 0,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 0.7191805659650669,
+    "interest_coverage": null,
+    "debt_to_assets": 0.0257671796927596,
+    "dividend_streak_source": "yfinance",
+    "pe_forward": 74.58141,
+    "ev_ebitda": 224.373,
+    "market_cap": 333468532736.0,
+    "fcf_ttm": 1260918400.0,
+    "shares_outstanding": 2295915766.0,
+    "next_ex_date": null,
+    "next_earnings_date": "2026-05-04",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 8,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 145.272924089584,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -1.8906823198005043,
+      "zone": "grey",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Growth (7/12)",
+    "secondary": "",
+    "value": 3,
+    "growth": 7,
+    "dividend": 2,
+    "buffett": 3,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 18.05048878480369,
+    "pessimistic_value": 14.072001464239014,
+    "optimistic_value": 23.815404659688316,
+    "margin_of_safety_pct": -0.8702430543770661,
+    "current_price": 139.11000061035156
+  },
+  "council_stance": "BUY",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Múltiplo P/E elevado de 231,6984",
+    "ND/EBITDA negativo",
+    "Risco de desaceleração nas taxas de crescimento futuras"
+  ],
+  "consensus_points": [
+    "ROE de 26% e Piotroski F-Score de 8/9 sugerem robustez operacional",
+    "Palantir mantém posição de liderança em soluções analíticas avançadas"
+  ],
+  "dissent_points": [
+    "Mariana Macro disse que múltiplos elevados (P/E e P/B) e ND/EBITDA negativo são preocupantes, Charlie Compounder concorda com a sobreavaliação",
+    "Charlie Compounder questionou a demanda contínua por soluções analíticas avançadas"
+  ],
+  "evidence_count": 28,
+  "research_hits_total": 27
+}

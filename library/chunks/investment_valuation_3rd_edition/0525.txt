@@ -1,0 +1,17 @@
+extended periods.
+For all these reasons, the regression approach is useful but it has to be viewed as one more tool in the
+search for true value.
+Table 18.2
+ Correlations between Independent Variables
+
+ILLUSTRATION 18.9: Valuing Procter & Gamble (P&G)
+Using the Market Regression
+In an earlier illustration, we estimated a PE ratio for P&G from fundamentals. To value P&G using the broader regressions,
+you would first have to estimate the values, for P&G, of the independent variables in the regression:
+Note that these variables have been defined consistently with the variables in the regression. Thus, the growth rate over the
+next five years, the beta over the past five years, and the payout ratio over the most recent four quarters are used to make
+the prediction. Based on the price-earnings ratio regression for all stocks in the market, you would get a predicted PE ratio
+of:
+Based on the market regression, you would expect P&G to be trading at 22.50 times earnings. At its actual PE ratio of 18,
+the stock looks undervalued, relative to the market.
+Mreg.htm:

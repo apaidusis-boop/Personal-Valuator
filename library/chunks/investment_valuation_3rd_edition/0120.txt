@@ -1,0 +1,12 @@
+19.637 million shares outstanding, trading at $0.38 a share. In March 2001 the
+company had 1.8 million options outstanding, with four years to expiration and with an exercise price of $2.25. The stock
+
+paid no dividends, and the standard deviation in ln(stock prices) was 93%. The four-year Treasury bond rate was 4.9%.
+(The options were trading at $0.12 apiece at the time of this analysis.)
+The inputs to the warrant valuation model are as follows:
+The results of the Black-Scholes valuation of this option are:
+The options were trading at $0.12 in March 2001. Since the value was equal to the price, there was no need for further
+iterations. If there had been a difference, we would have reestimated the adjusted stock price and option value. If the
+options had been non-traded (as is the case with management options), this calculation would have required an iterative
+process, where the option value is used to get the adjusted value per share and the value per share to get the option value.
+warrant.xls:

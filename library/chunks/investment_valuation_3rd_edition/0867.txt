@@ -1,0 +1,52 @@
+his
+translates into firms maintaining excess debt capacity or larger cash balances than are warranted by
+current needs in order to meet unexpected future requirements. While maintaining this financing
+
+flexibility has value to firms, it also has a cost; the large cash balances might earn below-market
+returns, and excess debt capacity implies that the firm is giving up some value and has a higher cost of
+capital.
+Determinants of the Value of Financial Flexibility
+One reason that a firm maintains large cash balances and excess debt capacity is to have the future
+option to take unexpected projects with high returns. To value financial flexibility as an option,
+assume that a firm has expectations about how much it will need to reinvest in future periods, based
+on its own past history and current conditions in the industry. Assume also that a firm has expectations
+about how much it can raise from internal funds and its normal access to capital markets in future
+periods. There is uncertainty about future reinvestment needs; for simplicity, we will assume that the
+capacity to generate funds is known with certainty to the firm. The advantage (and value) of having
+excess debt capacity or large cash balances is that the firm can meet any reinvestment needs, in
+excess of funds available, using its debt capacity. The payoff from these projects, however, comes
+from the excess returns the firm expects to make on them. To value financial flexibility on an
+annualized basis, therefore, we will use the measures listed in 
+Table 29.1
+.
+Table 29.1
+ Inputs to Option Valuation: Financing Flexibility
+Input to
+Model
+Measure
+Estimation Approach
+S
+Expected annual reinvestment needs as percent of firm value
+Use historical average of (Net cap ex + Change in noncash working
+capital)/Market value of firm
+K
+Annual reinvestment needs as percent of firm value that can be raised without
+financing flexibility
+If firm does not want to or cannot use external financing: 
+(Net income - Dividend + Depreciation)/
+Market value of firm 
+If firm uses external capital (bank debt, bonds, or equity) regularly: 
+(Net income + Depreciation + Net external financing)/Market value of firm
+σ
+s
+Variance in reinvestment needs
+Variance in the reinvestment as percent of firm value (using historical data)
+t
+1 year
+To get an annual estimate of the value of flexibility
+ILLUSTRATION 29.3: Valuing Financial Flexibility at the
+Home Depot in 1999
+The Home Depot is a giant retail chain that sells home improvement products, primarily in the United States. This firm
+traditionally has not been a heavy user of debt and has also grown at an extraordinary rate over the past decade. To
+estimate the value of financial flexibility for the Home Depot, we began by estimating reinvestments as a percent of firm
+value from 1989 to 1998 in the following table:

@@ -1,0 +1,39 @@
+used to be the practice until 2007). As a result, the current operating expenses for a firm include the
+value of options granted in the current year. If we then keep current operating margins, we are
+
+implicitly assuming that the firm will continue to grant options at the same pace (as a percent of
+revenues). If we converge on industry margins, we are assuming that the firm’s option grants will
+converge on industry averages (as a percent of revenue). In the Cisco valuation, we assumed that
+current margins would remain unchanged for the future, thus locking in option grants at their current
+percent of revenues into the future.
+VALUE PER SHARE WHEN VOTING RIGHTS VARY
+When you divide the value of the equity by the number of shares outstanding, you assume that the
+shares all have the same voting rights. If different classes of shares have different voting rights, the
+value of equity per share has to reflect these differences, with the shares with more voting rights
+having higher value. Note, though, that the total value of equity is still unchanged. To illustrate,
+assume that the value of equity in a firm is $500 million and that there are 50 million shares
+outstanding; 25 million of these shares have voting rights and 25 million do not. Furthermore, assume
+that the voting shares will have a value 10 percent higher than the nonvoting shares. To estimate the
+value per share:
+The key issue that you face in valuation then is in coming up with the discount to apply for nonvoting
+shares or, alternatively, the premium to attach to voting shares.
+Voting Shares versus Nonvoting Shares
+What premium should be assigned to the voting shares? You have two choices. One is to look at
+studies that empirically examine the size of the premium for voting rights and to assign this premium
+to all voting shares. Lease, McConnell, and Mikkelson (1983) examined 26 firms that had two classes
+of common stock outstanding, and they concluded that the voting shares traded at a premium relative
+to nonvoting shares.
+12
+ The premium, on average, amounted to 5.44 percent, and the voting shares sold
+at a higher price in 88 percent of the months for which data were available. In four firms that also had
+voting preferred stock, however, the voting common stock traded at a discount of about 1.17 percent
+relative to nonvoting shares.
+The other option is to be more discriminating and vary the premium depending on the firm being
+valued. Voting rights have value because they give shareholders a say in the management of the firm.
+To the extent that voting shares can make a difference—by removing incumbent management, forcing
+management to change policy, or selling to a hostile bidder in a takeover—their price will reflect the
+possibility of a change in the way the firm is run.
+13
+ Nonvoting shareholders do not participate in these
+decisions.
+warrants.xls:

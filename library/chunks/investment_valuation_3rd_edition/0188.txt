@@ -1,0 +1,32 @@
+. inflation rate is 2 percent, the cost of
+equity for Petrobras in Brazilian real (BR) terms can be written as:
+This will ensure consistency across estimates and valuations in different currencies.
+2.
+
+Assume that a company’s exposure to country risk is proportional to its exposure to all other
+market risk, which is measured by the beta.
+ For Petrobras, this would lead to a cost of equity
+estimate of:
+This approach does differentiate between firms, but it assumes that betas that measure exposure to all
+other market risk measure exposure to country risk as well. Thus, low-beta companies are less
+exposed to country risk than high-beta companies.
+3.
+
+The most general approach, and our preferred approach, is to allow for each company to
+have an exposure to country risk that is different from its exposure to all other market risk.
+Measuring this exposure with λ, the cost of equity for any firm is estimated as follows:
+How can we best estimate 
+λ
+? This question is considered in far more detail in the next chapter, but
+we would argue that commodity companies that get most of their revenues in U.S. dollars
+14
+ by selling
+into a global market should be less exposed than manufacturing companies that service the local
+market. Using this rationale, Petrobras, which derives most of its revenues in the global oil market in
+U.S. dollars, should be less exposed than the typical Brazilian firm to country risk.
+15
+ Using a 
+λ
+ of
+0.50, for instance, we get a cost of equity in U.S. dollar terms for Petrobras of:
+Note that the third approach essentially converts our expected return model to a two-factor model,

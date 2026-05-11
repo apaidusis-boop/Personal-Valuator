@@ -1,0 +1,418 @@
+{
+  "computed_at": "2026-05-08T11:42:40",
+  "n_topics": 10,
+  "topics": [
+    {
+      "id": "selic_cycle",
+      "name": "Selic \u2014 ciclo de cortes 2026",
+      "summary": "Selic em 14.75% com tend\u00eancia -0.25% nos \u00faltimos 6m. Foco: at\u00e9 onde vai o corte, e quais sectores ganham (consumo, imobili\u00e1rio, FIIs) vs perdem (bancos, RF curta).\n",
+      "tags": [
+        "macro_br",
+        "rates",
+        "sector_rotation"
+      ],
+      "tickers": [
+        "BBDC4",
+        "ITUB4",
+        "VBBR3",
+        "PRIO3",
+        "ITSA4",
+        "HGLG11"
+      ],
+      "score": 100,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 285,
+      "holdings_hit": [
+        "BBDC4",
+        "HGLG11",
+        "ITSA4",
+        "ITUB4",
+        "PRIO3"
+      ],
+      "open_triggers": 45,
+      "last_mention_iso": "2026-05-06T23:40:23",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 15,
+        "trigger": 10
+      },
+      "evidence_files": [
+        "tickers\\XP_DOSSIE.md",
+        "tickers\\XPML11_DOSSIE.md",
+        "tickers\\XPLG11_DOSSIE.md",
+        "tickers\\VRTA11_DOSSIE.md",
+        "tickers\\VISC11_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "br_fiscal_risk",
+      "name": "Brasil \u2014 risco fiscal 2026",
+      "summary": "Arcabou\u00e7o fiscal sob press\u00e3o; 10-year BRL elevado; c\u00e2mbio vol\u00e1til. Implica\u00e7\u00f5es: bancos beneficiam de Selic alta, mas equities c\u00edclicas sofrem com fluxo estrangeiro.\n",
+      "tags": [
+        "macro_br",
+        "fiscal",
+        "fx"
+      ],
+      "tickers": [
+        "BBAS3",
+        "BBDC4",
+        "ITUB4",
+        "VALE3"
+      ],
+      "score": 97,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 262,
+      "holdings_hit": [
+        "BBAS3",
+        "BBDC4",
+        "ITUB4",
+        "VALE3"
+      ],
+      "open_triggers": 10,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 12,
+        "trigger": 10
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "dossiers\\XPML11.md",
+        "tickers\\XP_DOSSIE.md",
+        "tickers\\XPML11_DOSSIE.md",
+        "tickers\\XPLG11_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "br_dividend_payers",
+      "name": "BR \u2014 DY > 6% sustent\u00e1vel",
+      "summary": "Empresas BR com DY \u2265 6% e payout consistente 5y+. Filtro: Graham + ROE 15%+. Foco em ITSA4, ITUB4, BBDC4, VBBR3.\n",
+      "tags": [
+        "drip",
+        "quality_br",
+        "dividend_yield"
+      ],
+      "tickers": [
+        "ITSA4",
+        "ITUB4",
+        "BBDC4",
+        "VBBR3",
+        "VALE3"
+      ],
+      "score": 97,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 852,
+      "holdings_hit": [
+        "BBDC4",
+        "ITSA4",
+        "ITUB4",
+        "VALE3"
+      ],
+      "open_triggers": 23,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 12,
+        "trigger": 10
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "Bibliotheca\\Research_Digest_2026-05-06.md",
+        "tickers\\XP_DOSSIE.md",
+        "tickers\\XPML11_DOSSIE.md",
+        "tickers\\XPLG11_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "us_fed_cut_cycle",
+      "name": "Fed \u2014 late cycle, cut path",
+      "summary": "Curva pr\u00f3xima de invers\u00e3o, VIX moderado, unemployment em watch. Decis\u00e3o: quando come\u00e7a o cut, quanto at\u00e9 estabilizar, sectores defensivos vs c\u00edclicos.\n",
+      "tags": [
+        "macro_us",
+        "rates",
+        "recession_risk"
+      ],
+      "tickers": [
+        "JNJ",
+        "PG",
+        "KO",
+        "GS",
+        "JPM",
+        "ACN"
+      ],
+      "score": 92,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 69,
+      "holdings_hit": [
+        "ACN",
+        "GS",
+        "JNJ",
+        "JPM",
+        "KO",
+        "PG"
+      ],
+      "open_triggers": 1,
+      "last_mention_iso": "2026-05-06T23:40:23",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 15,
+        "trigger": 2
+      },
+      "evidence_files": [
+        "tickers\\TFC_DOSSIE.md",
+        "tickers\\O_DOSSIE.md",
+        "tickers\\JPM_DOSSIE.md",
+        "Glossary\\Basel_Ratio.md",
+        "dossiers\\AAPL_COUNCIL.md"
+      ]
+    },
+    {
+      "id": "drip_compounders_us",
+      "name": "DRIP US \u2014 quality compounders",
+      "summary": "Aristocrats / Kings com ROE alto + buyback steady + dividendos crescendo > infla\u00e7\u00e3o US. N\u00facleo da carteira US.\n",
+      "tags": [
+        "drip",
+        "quality_us",
+        "aristocrats"
+      ],
+      "tickers": [
+        "JNJ",
+        "PG",
+        "KO",
+        "MMM",
+        "MCD",
+        "PEP"
+      ],
+      "score": 92,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 456,
+      "holdings_hit": [
+        "JNJ",
+        "KO",
+        "MCD",
+        "MMM",
+        "PEP",
+        "PG"
+      ],
+      "open_triggers": 1,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 15,
+        "trigger": 2
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "Bibliotheca\\Knowledge\\_Index.md",
+        "tickers\\XPLG11_DOSSIE.md",
+        "tickers\\VALE3_DOSSIE.md",
+        "tickers\\TFC_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "us_bank_earnings_recovery",
+      "name": "US Banks \u2014 p\u00f3s-GFC, efici\u00eancia + ROTCE",
+      "summary": "Top-tier banks (JPM, GS, BAC) com ROTCE 17%+ vs cycle bottom 2008. Fee revenue + operating leverage. Buyback yield + dividend resume.\n",
+      "tags": [
+        "sector_us",
+        "financials",
+        "banks"
+      ],
+      "tickers": [
+        "GS",
+        "JPM",
+        "BAC",
+        "WFC",
+        "C"
+      ],
+      "score": 90,
+      "tier": "make_now",
+      "weeks_tracked": 1,
+      "mentions_recent": 99,
+      "holdings_hit": [
+        "BAC",
+        "C",
+        "GS",
+        "JPM",
+        "WFC"
+      ],
+      "open_triggers": 0,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 15,
+        "trigger": 0
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "tickers\\SANB11_DOSSIE.md",
+        "tickers\\MCD_DOSSIE.md",
+        "tickers\\JPM_DOSSIE.md",
+        "tickers\\ITUB4_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "ten_distress_cycle_peak",
+      "name": "TEN \u2014 distress signal active",
+      "summary": "4 sinais de cycle peak em Abr/2026. Memo SELL pendente. N\u00c3O adicionar em nenhum cen\u00e1rio.\n",
+      "tags": [
+        "single_name",
+        "sell_signal",
+        "shipping"
+      ],
+      "tickers": [
+        "TEN"
+      ],
+      "score": 88,
+      "tier": "make_now",
+      "weeks_tracked": 1,
+      "mentions_recent": 31,
+      "holdings_hit": [
+        "TEN"
+      ],
+      "open_triggers": 22,
+      "last_mention_iso": "2026-05-06T23:40:23",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 3,
+        "trigger": 10
+      },
+      "evidence_files": [
+        "tickers\\TEN_DOSSIE.md",
+        "dossiers\\archive\\TEN_STORY_2026-05-01.md",
+        "dossiers\\TEN_STORY.md",
+        "dossiers\\TEN_COUNCIL.md",
+        "agents\\Pedro Aloca\u00e7\u00e3o\\reviews\\TEN_2026-05-01.md"
+      ]
+    },
+    {
+      "id": "fii_recovery_2026",
+      "name": "FIIs \u2014 recovery p\u00f3s-Selic peak",
+      "summary": "FIIs com NAV discount + DY 12%+ e Selic em fase de corte. PVBI11 contrarian (pr\u00e9dio FL vazio); HGLG11 log\u00edstica est\u00e1vel.\n",
+      "tags": [
+        "fii",
+        "real_estate_br",
+        "contrarian"
+      ],
+      "tickers": [
+        "HGLG11",
+        "PVBI11",
+        "RBRX11",
+        "KNRI11"
+      ],
+      "score": 87,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 178,
+      "holdings_hit": [
+        "HGLG11",
+        "KNRI11",
+        "PVBI11",
+        "RBRX11"
+      ],
+      "open_triggers": 0,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 12,
+        "trigger": 0
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "Bibliotheca\\Knowledge\\_Index.md",
+        "tickers\\XPML11_DOSSIE.md",
+        "tickers\\XPLG11_DOSSIE.md",
+        "tickers\\VRTA11_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "ai_infra_capex_bubble",
+      "name": "AI infra capex \u2014 bubble or breakout?",
+      "summary": "Hyperscaler capex em n\u00edveis hist\u00f3ricos. Hyperscalers (MSFT/META/GOOGL) vs picks-and-shovels (NVDA/ACN consulting). Watchlist: ACN benef\u00edcio directo de adoption corporativa.\n",
+      "tags": [
+        "theme_us",
+        "ai",
+        "capex"
+      ],
+      "tickers": [
+        "ACN",
+        "NVDA",
+        "MSFT",
+        "META"
+      ],
+      "score": 87,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 112,
+      "holdings_hit": [
+        "ACN",
+        "META",
+        "MSFT",
+        "NVDA"
+      ],
+      "open_triggers": 0,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 12,
+        "trigger": 0
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "Bibliotheca\\Tier_Clarification_Proposal.md",
+        "dossiers\\XPML11.md",
+        "tickers\\XPLG11_DOSSIE.md",
+        "tickers\\TSM_DOSSIE.md"
+      ]
+    },
+    {
+      "id": "greek_etfs_tactical",
+      "name": "GREK / Greek equity tactical",
+      "summary": "Dividendos semianuais vol\u00e1teis. Reclassificado DRIP \u2192 tactical. N\u00e3o refor\u00e7ar por raz\u00e3o DRIP.\n",
+      "tags": [
+        "single_name",
+        "etf_us",
+        "tactical"
+      ],
+      "tickers": [
+        "GREK"
+      ],
+      "score": 78,
+      "tier": "make_now",
+      "weeks_tracked": 2,
+      "mentions_recent": 41,
+      "holdings_hit": [
+        "GREK"
+      ],
+      "open_triggers": 0,
+      "last_mention_iso": "2026-05-08T11:15:26",
+      "components": {
+        "freshness": 40,
+        "frequency": 35,
+        "breadth": 3,
+        "trigger": 0
+      },
+      "evidence_files": [
+        "CONSTITUTION.md",
+        "tickers\\GREK_DOSSIE.md",
+        "Glossary\\Moat.md",
+        "Glossary\\Margin_of_Safety.md",
+        "Glossary\\Aristocrat.md"
+      ]
+    }
+  ]
+}

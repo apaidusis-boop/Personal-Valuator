@@ -1,0 +1,43 @@
+d to drop significantly after the initial growth phase, the payout ratio should be higher in the
+stable phase than in the growth phase. A stable firm can pay out more of its earnings in dividends than
+
+a growing firm. One way of estimating this new payout ratio is to use the fundamental growth model
+described in Chapter 12:
+Algebraic manipulation yields the following stable period payout ratio:
+Thus a firm with a 5 percent growth rate and a return on equity of 15 percent will have a stable
+period payout ratio of 66.67 percent.
+The other characteristics of the firm in the stable period should be consistent with the assumption of
+stability. For instance, it is reasonable to assume that a high growth firm has a beta of 2.0, but
+unreasonable to assume that this beta will remain unchanged when the firm becomes stable. In fact,
+the rule of thumb that we developed in the previous chapter—that stable period betas be between 0.8
+and 1.2—is worth repeating here. Similarly, the return on equity, which can be high during the initial
+growth phase, should come down to levels commensurate with a stable firm in the stable growth
+phase. What is a reasonable stable period return on equity? The industry average return on equity and
+the firm’s own stable period cost of equity provide useful information to make this judgment.
+Limitations of the Model
+There are three problems with the two-stage dividend discount model; the first two would apply to
+any two-stage model, and the third is specific to the dividend discount model.
+1.
+ The first practical problem is in defining the length of the extraordinary growth period. Since
+the growth rate is expected to decline to a stable level after this period, the value of an investment
+will increase as this period is made longer. While we did develop criteria that might be useful in
+making this judgment in Chapter 12, it is difficult in practice to convert these qualitative
+considerations into a specific time period.
+2.
+ The second problem with this model lies in the assumption that the growth rate is high during
+the initial period and is transformed overnight to a lower stable rate at the end of the period.
+While these sudden transformations in growth can happen, it is much more realistic to assume that
+the shift from high growth to stable growth happens gradually over time.
+3.
+ The focus on dividends in this model can lead to skewed estimates of value for firms that are
+not paying out what they can afford to in dividends. In particular, we will underestimate the value
+of firms that accumulate cash and pay out too little in dividends.
+Firms Model Works Best For
+Since the two-stage dividend discount model is based on two clearly delineated growth stages—high
+growth and stable growth—it is best suited for firms that are in high growth and expect to maintain
+that growth rate for a specific time period, after which the sources of the high growth are expected to
+disappear. One scenario, for instance, where this may apply is when a company has patent rights to a
+very profitable product for the next few years, and is expected to enjoy supernormal growth during
+this period. Once the patent expires, it is expected to settle back into stable growth. Another scenario
+where it may be reasonable to make this assumption about growth is when a firm is in an industry that
+is enjoying supernormal growth because there are significant barriers to entry (either legal or as a

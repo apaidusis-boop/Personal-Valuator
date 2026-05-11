@@ -1,0 +1,52 @@
+o the financial system by lending against a widening range of collateral 
+or to an increasingly wide range of financial institutions that are not normally considered part of their 
+lending practices. 
+
+Principles For Navigating Big Debt Crises
+29
+ • Support the solvency of systemically important institutions. The first step is usually to incentivize the 
+private sector to address the problem, often by supporting mergers between failed banks and healthy banks 
+and by regulatory pushes to issue more capital to the private sector. In addition, accounting adjustments 
+can be made to reduce the immediate need for capital to maintain solvency, buying more time for the 
+institutions to earn their way out of their problems. 
+ • Recapitalize/nationalize/cover losses of systemically important financial institutions. When the 
+above approaches are insufficient to deal with the solvency problems of systemically important financial 
+institutions, governments must step in to recapitalize failed banks. Moving to stabilize lenders and 
+maintain the credit supply is critical to preventing a crisis from getting worse. Certain institutions are 
+part of the plumbing of the system; one would hate to lose them even if they’re not making money at the 
+moment. It would be like losing a shipping port in a depression because the port goes broke. You want the 
+port to continue to operate and ships to come in, so you have to protect it one way or another—whether 
+through a nationalization, loans, or capital injections. 
+Debt Defaults/Restructurings
+Ultimately, the process of cleansing existing bad debts is critical for the future flow of money and credit and for a 
+return to prosperity. The challenge for policy makers is to allow that process to work itself out in an orderly way that 
+ensures economic and social stability. The best-managed cases are those in which policy makers a) swiftly recognize 
+the magnitude of the credit problems; b) don’t save every institution that is expendable, balancing the benefits of 
+allowing broke institutions to fail and be restructured with the risks that such failures can have detrimental effects on 
+other creditworthy lenders and borrowers; c) create or restore robust credit pipes that allow for future borrowing by 
+creditworthy borrowers; and d) ensure acceptable growth and inflation conditions while the bad debts are being 
+worked out. Longer term, the most important decision that policy makers have to make is whether they will change 
+the system to fix the root causes of the debt problems or simply restructure the debts so that the pain is distributed 
+over the population and over time so that the debt does not impose an intolerable burden.
+These things rarely happen right away. Policy makers typically fail to recognize the magnitude of the problem initially, 
+instead enacting a number of one-off policies that are insufficient to move the needle. It is only after what is usually a 
+couple of years and a lot of unnecessary economic pain that they finally act decisively. How quickly and aggressively 
+policy makers respond is among the most important factors in determining the severity and length of the depression. 
+And the question of exactly how these costs are divided between the government (which means the society as a whole) 
+and the bond holders (of varying seniorities), equity holders, depositors, etc., is an important one. 
+Typically, nonsystemically important institutions are forced to absorb their losses, and if they fail, are allowed to go 
+bankrupt. The resolution of these institutions can take several different forms. In many cases (about 80 percent of 
+the cases we studied), they are merged with healthy institutions. In some other cases, the assets are liquidated or 
+transferred to an “asset-management company” (AMC) set up by the government to be sold piecemeal. 
+In some cases, policy makers recognize that ensuring the viability of the whole banking system is critical and 
+liquidity and solvency measures are taken at the banking system level. In recent years it has become common for 
+guarantees of bank liabilities to be issued in countries in the developed world. In rare cases, government-financed 
+bank recapitalization is done across all banks, rather than focused solely on systemically important institutions.
+There are relatively clear lines for which creditors receive protections:
+ • Small depositors are given preference and experience minimal or no losses (in nearly every case). Often 
+this is explicitly defined as part of a deposit insurance scheme. Coverage is usually expanded during the crisis 
+period in order to ensure liquidity for the banks. Even in cases where there isn’t an explicit deposit insurance 
+scheme, depositors are often prioritized. In around 30 percent of cases studied, depositors did take losses, 
+though they were often on foreign-exchange deposits through conversion at below-market exchange rates.
+ • In most cases when institutions fail, equity, subordinated debt, and large depositors absorb losses 
+regardless of whether the institution was systemically important or not. Protection of senior and

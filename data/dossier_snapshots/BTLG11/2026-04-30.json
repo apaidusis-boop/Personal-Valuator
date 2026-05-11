@@ -1,0 +1,78 @@
+{
+  "ticker": "BTLG11",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "BTLG11",
+    "period_end": "2026-04-30",
+    "eps": 1.083,
+    "bvps": 103.429,
+    "roe": 0.08615,
+    "pe": 95.66021,
+    "pb": 1.0016533,
+    "dy": 0.09150675810451961,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 5,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": null,
+    "ev_ebitda": null,
+    "market_cap": 4480611840.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Dividend/DRIP (5/12)",
+    "secondary": "",
+    "value": 2,
+    "growth": 0,
+    "dividend": 5,
+    "buffett": 0,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": null,
+    "pessimistic_value": null,
+    "optimistic_value": null,
+    "margin_of_safety_pct": null,
+    "current_price": 103.5999984741211
+  },
+  "council_stance": "HOLD",
+  "council_confidence": "medium",
+  "council_seats": [
+    "Lourdes Aluguel",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "P/E de 95.66x é muito elevado e pode indicar uma avaliação alta.",
+    "Necessidade de continuidade do yield sustentável para justificar a posição atual.",
+    "Valentina Prudente"
+  ],
+  "consensus_points": [
+    "BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+    "Lourdes Aluguel",
+    "Mariana Macro",
+    "Valentina Prudente"
+  ],
+  "dissent_points": [
+    "X disse A, Y disse B",
+    "Pedro Alocação disse que o P/E de 95,66 é excessivamente alto para um investimento seguro. Lourdes Aluguel e Mariana Macro concordaram com a alta avaliação mas sugeriram que ainda há valor intrínseco.",
+    "Valentina Prudente disse que existe uma preocupação com possíveis desacelerações econômicas, enquanto Lourdes Aluguel argumentou que não há evidências atuais para sustentar essa preocupação."
+  ],
+  "evidence_count": 17,
+  "research_hits_total": 18
+}

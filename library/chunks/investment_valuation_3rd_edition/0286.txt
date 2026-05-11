@@ -1,0 +1,23 @@
+n will converge on the industry average of 10% for mature and healthy automobile firms. The
+following table summarizes our projections of revenues and operating income for Tesla for the next 10 years:
+
+Note that Tesla continues to lose money over the next five years, and adds to its net operating losses. In years 6, 7, and 8, its
+operating income is positive but it still pays no taxes because of its accumulated net operating losses from prior years. In
+year 9, it is able to reduce its taxable income by the remaining net operating loss ($79 million), but it begins paying taxes for
+the first time. We will assume a 40% tax rate and use this as our marginal tax rate after year 9. The benefits of the net
+operating losses are thus built into the cash flows and the value of the firm.
+The Tax Benefits of R&D Expensing
+The preceding chapter argued that R&D expenses should be capitalized. If we decide to do so,
+however, there is a tax benefit that we might be missing. Firms are allowed to deduct their entire
+R&D expense for tax purposes. In contrast, they are allowed to deduct only the depreciation on their
+capital expenses. To capture the tax benefit, therefore, you would add the tax savings on the
+difference between the entire R&D expense and the amortized amount of the research asset to the
+after-tax operating income of the firm:
+A similar adjustment would need to be made for any other operating expense that you choose to
+capitalize. In Chapter 9, we noted that the adjustment to pretax operating income from capitalizing
+R&D is:
+To estimate the after-tax operating income, we would multiply this value by (1 – Tax rate) and add on
+the additional tax benefit from before:
+In other words, the tax benefit from R&D expensing allows us to add the difference between R&D
+expense and amortization directly to the after-tax operating income (and to net income).
+ILLUSTRATION 10.3: Tax Benefit from Expensing: Amgen

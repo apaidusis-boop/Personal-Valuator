@@ -1,0 +1,44 @@
+Consider the
+valuation of Exxon Mobil that we completed in the last illustration. In addition to reporting
+an expected value of $69.59/share, we also estimated a standard deviation in that value and
+
+a breakdown of the values by percentile. The distribution reinforces the obvious but
+important point that valuation models yield estimates of value for risky assets that are
+imprecise and explains why different analysts valuing the same asset may arrive at different
+estimates of value.
+MARGIN OF SAFETY AND SIMULATION
+The margin of safety (MOS) is a measure used widely by value investors to control risk in investing. Here is how it works.
+A conservative value investor will require that a stock be priced more than X percent (10,15, or 20 percent) below the value
+before she buys it; the margin of safety is the X percent. While intuitive, the margin of safety is not an alternative to
+traditional risk measures, since you need to estimate the value of a stock first, before you can use the margin of safety. It is,
+however, a way in which you can bring your uncertainty and risk aversion into the decision process, with the margin of
+safety increasing as both increase. In practice, though, the margin of safety is often arbitrarily set and can vary widely
+across investors and investments.
+A well-run simulation can be used to set margins of safety, since it provides information on the estimation error in value. For
+instance, assume that your margin of safety is 20 percent and that you are looking at Exxon Mobil in early 2009. In the
+Exxon Mobil simulation, for instance, where the expected value is $69.59 per share, adding this requirement would require
+that the stock be trading at less than $45 per share (separated by 20% or 2000 outcomes from the expected value of
+$69.59), for it to be a stock that you would buy. Obviously, increasing (decreasing) the margin of safety would give you a
+lower (or higher) price threshold. Furthermore, the margin of safety will be greater for firms where you are more uncertain
+about the future than for firms where you feel more confident in your inputs.
+Note that there are two claims about simulations that we are unwilling to make. The first is that
+simulations yield better estimates of expected value than conventional risk-adjusted value models. In
+fact, the expected values from simulations should be fairly close to the expected value that we would
+obtain using the expected values for each of the inputs (rather than the entire distribution). The second
+is that simulations, by providing estimates of the expected value and the distribution in that value,
+lead to better decisions. This may not always be the case since the benefits that decision makers
+obtain by getting a fuller picture of the uncertainty in value in a risky asset may be more than offset by
+misuse of that risk measure. As we will argue later in this chapter, it is all too common for risk to be
+double counted in simulations and for decisions to be based on the wrong type of risk.
+Simulations with Constraints
+There is a second use for simulations, and that is when you have a constraint that, if violated, creates
+very large costs for the firm and perhaps even causes its demise. You can examine the likelihood that
+the constraint will be violated, given the firm’s current characteristics, and the implications for value.
+In this section, we will look at some of these constraints.
+Book Value Constraints
+The book value of equity is an accounting construct and, by itself, means little. Firms like Google and
+Apple trade at market values that are several times their book values. At the other extreme, there are
+firms that trade at well below book value. In fact, there are several hundred firms in the United States,
+some with significant market values, that have negative book values for equity. There are two types of
+restrictions on book value of equity that may affect value.
+1.

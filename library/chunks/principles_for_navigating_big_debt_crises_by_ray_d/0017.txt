@@ -1,0 +1,46 @@
+ctive will change. 
+4  In the US, the central bank doesn’t take this debt service perspective as it applies to investment assets into consideration—e �g�, it’s nowhere to be found in the 
+Taylor Rule�
+
+Part 1: The Archetypal Big Debt Cycle 
+20
+While central banks typically do tighten money somewhat and short rates rise on average when inflation and 
+growth start to get too hot, typical monetary policies are not adequate to manage bubbles, because bubbles are 
+occurring in some parts of the economy and not others. Thinking about the whole economy, central banks 
+typically fall behind the curve during such periods, and borrowers are not yet especially squeezed by higher 
+debt-service costs. Quite often at this stage, their interest payments are increasingly being covered by borrowing 
+more rather than by income growth—a clear sign that the trend is unsustainable. 
+All this reverses when the bubble pops and the same linkages that inflated the bubble make the downturn self-re -
+inforcing. Falling asset prices decrease both the equity and collateral values of leveraged speculators, which causes 
+lenders to pull back. This forces speculators to sell, driving down prices even more. Also, lenders and investors “run” 
+(i.e., withdraw their money) from risky financial intermediaries and risky investments, causing them to have liquidity 
+problems. Typically, the affected market or markets are big enough and leveraged enough that the losses on the 
+accumulated debt are systemically threatening, which is to say that they threaten to topple the entire economy.
+Nominal S h ort Rate
+654321
+0%
+1 %
+2 %
+3 %
+4 %
+5%
+6 %
+- 6 0 - 4 8 - 3 6 - 2 4 - 1 2 0 1 2 2 4 3 6 4 8 6 0 7 2 8 4
+Not much tightening
+until later in the bubble 
+Easy
+Ear ly P a r t
+of the Cyc l e
+(1)
+Bubble
+(2)
+Top
+(3)
+Depression
+(4)
+Beautiful
+Deleveraging
+(5)
+Pushing on a String/
+Normalization
+(6)/(7)

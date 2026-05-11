@@ -1,0 +1,51 @@
+In most cases when institutions fail, equity, subordinated debt, and large depositors absorb losses 
+regardless of whether the institution was systemically important or not. Protection of senior and 
+
+Part 1: The Archetypal Big Debt Cycle 
+30
+subordinated debt holders, and equity recapitalizations that are simply dilutive to existing equity holders, 
+are seen mostly in the developed world. 
+ • Sometimes policy makers prioritize domestic creditors over foreign creditors, especially when their 
+loans are to private-sector players and are lower down in the capital structure. This is especially true as 
+deposit insurance programs run low on funds. But at the same time governments often end up prioritizing 
+the payment of loans from multinational institutions like the IMF and BIS, as it’s important to maintain 
+availability of support from these public entities, who effectively act as lenders of last resort to countries 
+under stress.
+Typically, the process of dealing with the failed lenders is accompanied by a spate of regulatory reforms. 
+Sometimes these changes are modest and sometimes they are very large; sometimes they are for the better and 
+sometimes they are for the worse. They range from changes in how banks operate (e.g., putting in deposit guaran -
+tees in the 1930s or Dodd-Frank and the Volcker rule in 2010 in the US) to labor market reforms, from requiring 
+banks to improve credit standards to opening the banking system to competition (including foreign entrants) to 
+raising capital requirements and removing protections to lenders. 
+Politics plays a big role in determining what reforms are made. In some cases, such reforms end up distorting 
+private-sector market-based incentives on the flow of lending, which can limit the flow of credit to creditworthy 
+borrowers and/or increase the risks of future credit problems emerging. In other cases, they improve the flow of 
+credit, protect households, and reduce the risk of debt problems in the future. 
+There are two main ways in which failed lenders’ assets or existing lenders’ bad assets are managed: They are 
+either a) transferred to a separate entity (an AMC) to manage the restructuring and asset disposal (about 40 
+percent of the cases studied) or b) they remain on the balance sheet of the original lending institution to manage 
+(about 60 percent of cases). And there are several main levers for disposing of the nonperforming loans: a) restruc -
+turing (e.g., working out the loans through extended terms), b) debt-for-equity swaps and asset seizures, c) direct 
+sales of the loans or assets to third parties, and d) securitizations.
+The use of an AMC generally accelerates the management of the debt problem because it frees up existing banks to 
+return to lending and helps consolidate the bad debts to a centralized entity that can manage sales and restructur -
+ings. Selling assets to AMCs also often serves as a mechanism to engage in transfers to banks by pricing them at 
+above market prices. AMCs are typically publicly owned entities that are mandated to sell the assets within some 
+targeted time frame (e.g., 10 years) while minimizing costs to the taxpayer and disruptions of asset markets. They 
+do this by seeking to quickly sell off the performing assets of failed institutions and working over time to manage 
+and sell off nonperforming assets. In some cases AMCs have explicit goals to restructure the nonperforming debts 
+to reduce debt burdens. They are generally financed by some form of direct or pseudo-government debt issuance, 
+and they cannot work well when legal, political, or funding constraints limit their ability to recognize bad debts 
+and restructure them.
+Allowing the original lender to manage its bad debts often occurs when the original lender is state-sponsored, 
+which makes it closer to a public AMC. In other cases losses may be allowed to sit on the lender’s balance sheet if 
+they are not too large, if the technical expertise to create a centralized AMC doesn’t exist, or if effective resolution 
+mechanisms already exist.
+Much as with lenders, there is usually a relatively clear distinction between how systemically or strategically 
+important borrowers are handled and how those that aren’t are.
+ • For systemically important borrowers or strategically important ones, policy makers generally take steps 
+to ensure that the businesses remain intact as entities. In general this occurs through a restructuring of the 
+debts to make the ongoing debt service manageable. This can occur through debt-for-equity swaps, through 
+reducing the existing debts, lowering interest rates, or terming out the borrowing. Occasionally policy 
+makers also introduce new lending programs to these borrowers to ensure their ongoing liquidity. This 
+process is often explicitly one of the goals of AMCs set up to manage bad debts.

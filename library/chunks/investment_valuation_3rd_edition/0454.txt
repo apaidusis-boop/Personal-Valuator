@@ -1,0 +1,21 @@
+lue, prior to the tax savings. Allowing for a range of 10% to 40% for bankruptcy
+costs, we have put Disney's exposure to expected bankruptcy costs in the middle of the range. There are some businesses
+
+that Disney is in where the perception of distress can be damaging—theme parks, for instance—but the movie and
+broadcasting businesses are less likely to be affected because projects tend be shorter-term and on a smaller scale.
+We then compute the value of Disney as an unlevered firm.
+The next step in the process is to estimate the tax savings in the following table at different levels of debt. Although we use
+the standard approach of assuming that the present value is calculated as a perpetuity, we reduce the tax rate used in the
+calculation, if interest expenses exceed the EBIT. The adjustment to the tax rate was described earlier in the cost of capital
+approach.
+The final step in the process is to estimate the expected bankruptcy cost, based on the bond ratings, the probabilities of
+default, and the assumption that the bankruptcy cost is 25% of firm value. The following table summarizes these probabilities
+and the expected bankruptcy cost, computed based on the levered firm value:
+The expected bankruptcy cost at a 40% debt ratio is computed thus:
+The value of the levered firm is estimated in the following table by aggregating the effects of the tax savings and the
+expected bankruptcy costs.
+
+The firm value is maximized at about 50% debt, slightly higher than the optimal computed using the cost of capital approach.
+These results are, however, very sensitive to both the estimate of bankruptcy cost as a percent of firm value and the
+probabilities of default.
+apv.xls:

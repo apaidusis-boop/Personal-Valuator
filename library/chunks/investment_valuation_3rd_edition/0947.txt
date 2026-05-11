@@ -1,0 +1,62 @@
+for operating leases.
+b.
+ Estimate the return on capital, before and after adjusting for operating leases.
+c.
+ Estimate the economic value added, before and after adjusting for operating leases. (The
+
+market value of equity is $2 billion.)
+4.
+ Sevilla Chemicals earned $1 billion in after-tax operating income on capital invested of $5
+billion last year. The firm’s cost of equity is 12%, its debt-to-capital ratio is 25%, and the after-
+tax cost of debt is 4.5%.
+a.
+ Estimate the economic value added by Sevilla Chemicals last year.
+b.
+ Assume now that the entire chemical industry earned $40 billion after taxes on capital
+invested of $180 billion, and that the cost of capital for the industry is 10%. Estimate the
+economic value added by the entire industry.
+c.
+ Based on economic value added, how did Sevilla do relative to the industry?
+5.
+ Jeeves Software is a small software firm in high growth. The firm is all equity financed. In the
+current year, the firm earned $20 million in after-tax operating income on capital invested of $60
+million. The firm’s cost of equity is 15%.
+a.
+ Assume that the firm will be able to grow its economic value added 15% a year for the next
+five years, and that there will be no excess returns after year 5. Estimate the value of the firm.
+How much of this value comes from the EVA and how much from capital invested?
+b.
+ Now, assume the firm is able to reduce its capital invested this year by $20 million by selling
+its assets and leasing them back. Assuming operating income and cost of capital do not change as
+a result of the sale-lease back, estimate the value of the firm now. How much of the value of the
+firm now comes from EVA and how much from capital invested?
+6.
+ Healthy Foods is a company that produces canned soups made without preservatives. The firm
+has assets that have a book value of $100 million. The assets are five years old and have been
+depreciated $50 million over that period. In addition, the inflation rate over those five years has
+averaged 2% a year. The assets are currently earning $15 million in after-tax operating income.
+They have a remaining life of 10 years, and the depreciation each year is expected to be $5
+million. At the end of these 10 years, the assets will have an expected salvage value, in current
+dollars, of $50 million.
+a.
+ Estimate the CFROI of Healthy Foods, using the conventional CFROI approach.
+b.
+ Estimate the CFROI of Healthy Foods, using the economic depreciation approach.
+c.
+ If Healthy Foods has a cost of capital in nominal terms of 10% and the expected inflation rate
+is 2%, evaluate whether Healthy Foods’ existing investments are value-creating or value-
+destroying.
+1
+ As an illustration, computing the return on capital at Google or Apple in 2011, using the market
+value of the firm, instead of book value, results in a low return on capital. It would be a mistake to
+view this as a sign of poor investments on the part of the firm’s managers.
+2
+ This is true, though, only if the expected present value of the cash flows from depreciation is
+assumed to be equal to the present value of the salvage of the capital invested in the project. A
+proof of this equality can be found in my paper on value enhancement in the 
+Contemporary
+Finance Digest
+ in 1999.
+3
+ Note that this assumption is purely for convenience, since it makes the net present value easier to
+compute. This also allows us to assume the depreciation is offset by capital maintenance

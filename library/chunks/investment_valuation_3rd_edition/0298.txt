@@ -1,0 +1,24 @@
+t revenues are $1 billion and that revenues are expected to grow 10
+percent a year for the next 15 years.
+Can working capital itself be negative? Again, the answer is yes. Firms whose non-debt current
+
+liabilities exceed noncash current assets have negative noncash working capital. This is a thornier
+issue than negative changes in working capital. A firm that has a negative working capital is, in a
+sense, using supplier credit as a source of capital, especially if the negative working capital becomes
+larger as the firm becomes larger. A number of firms, with Amazon being the most prominent
+example, have used this strategy to grow. While this may seem like a cost-efficient strategy, there are
+potential downsides. The first is that supplier credit is generally not really free. To the extent that
+delaying paying supplier bills may lead to the loss of cash discounts and other price breaks, firms are
+paying for the privilege. Thus a firm that decides to adopt this strategy will have to compare the costs
+of this capital to more traditional forms of borrowing.
+The second downside is that a negative noncash working capital has generally been viewed by both
+accountants and ratings agencies as a source of default risk. To the extent that a firm's rating drops
+and interest rates paid by the firm increase, there may be costs created for other capital by using
+supplier credit as a source. As a practical question, you still have an estimation problem on your
+hands when forecasting working capital requirements for a firm that has negative noncash working
+capital. As in the previous scenario, with negative changes in noncash working capital, there is no
+reason why firms cannot continue to use supplier credit as a source of capital in the short term. In the
+long term, however, we should not assume that noncash working capital will become more and more
+negative over time. At some point in the future we have to assume either that the change in noncash
+working capital is zero or that pressure will build for increases in working capital.
+wcdata.xls:

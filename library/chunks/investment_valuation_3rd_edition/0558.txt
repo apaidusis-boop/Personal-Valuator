@@ -1,0 +1,50 @@
+e price–book value ratio for a high-growth firm can also be related to fundamentals. In the special
+case of the two-stage dividend discount model, this relationship can be made explicit fairly simply.
+
+The value of equity of a high-growth firm in the two-stage dividend discount model can be written as:
+When the growth rate is assumed to be constant after the initial high-growth phase, the dividend
+discount model can be written as follows:
+where g = Growth rate in the first n years 
+Payout = Payout ratio in the first n years 
+g
+n
+ = Growth rate after n years forever (stable growth rate) 
+Payout
+n
+ = Payout ratio after n years for the stable firm 
+k
+e
+ = Cost of equity (hg: high-growth period; st: stable-growth period)
+Rewriting EPS
+0
+ in terms of the return on equity, EPS
+0
+ = BV
+0
+ × ROE, and bringing BV
+0
+ to the left-hand
+side of the equation, we get:
+where ROE is the return on equity and k
+e
+ is the cost of equity.
+The left-hand side of the equation is the price–book value ratio. It is determined by:
+Return on equity.
+ The price–book value ratio is an increasing function of the return on
+equity.
+Payout ratio during the high growth period and in the stable period.
+ The PBV ratio
+increases as the payout ratio increases, for any given growth rate.
+Riskiness (through the discount rate r).
+ The PBV ratio becomes lower as riskiness
+increases; the increased risk increases the cost of equity.
+Growth rate in earnings, in both the high growth and stable phases.
+ The PBV increases as
+the growth rate increases, in either period, holding the payout ratio constant.
+This formula is general enough to be applied to any firm, even one that is not paying dividends right
+now. Note, in addition, that the fundamentals that determine the price-to-book ratio are the same as
+they were for a stable growth firm—the payout ratio, the return on equity, the expected growth rate,
+and the cost of equity.
+Chapter 14 noted that firms may not always pay out what they can afford to and recommended that
+the free cash flows to equity be substituted in for the dividends in those cases. You can, in fact,
+modify the equation to state the price-to-book ratio in terms of free cash flows to equity.

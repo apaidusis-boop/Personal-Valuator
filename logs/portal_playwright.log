@@ -1,0 +1,234 @@
+{"ts": "2026-05-10T10:01:11Z", "event": "md_extract_failed", "url": "https://www.fiis.com.br/", "error": "No module named 'library'"}
+{"ts": "2026-05-10T10:01:11Z", "event": "fetched", "url": "https://www.fiis.com.br/", "status": 200, "html_chars": 86241, "md_chars": 0, "elapsed_s": 38.45}
+{"ts": "2026-05-10T10:02:27Z", "event": "md_extract_failed", "url": "https://www.fiis.com.br/", "error": "No module named 'library'"}
+{"ts": "2026-05-10T10:02:27Z", "event": "fetched", "url": "https://www.fiis.com.br/", "status": 200, "html_chars": 86242, "md_chars": 0, "elapsed_s": 34.01}
+{"ts": "2026-05-10T10:03:22Z", "event": "fetched", "url": "https://www.fiis.com.br/", "status": 200, "html_chars": 86240, "md_chars": 11933, "elapsed_s": 35.68}
+{"ts": "2026-05-10T10:03:34Z", "event": "cache_hit", "url": "https://www.fiis.com.br/"}
+{"ts": "2026-05-10T14:23:17Z", "event": "fetched", "url": "https://ri.itausa.com.br", "status": 200, "html_chars": 147891, "md_chars": 16468, "elapsed_s": 15.43}
+{"ts": "2026-05-10T14:54:48Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:55:11Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:55:55Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:57:07Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:58:05Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:58:25Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:58:56Z", "event": "cache_hit", "url": "https://ri.itausa.com.br"}
+{"ts": "2026-05-10T14:59:14Z", "event": "fetched", "url": "https://www.bradescori.com.br/", "status": 200, "html_chars": 95884, "md_chars": 16520, "elapsed_s": 14.39}
+{"ts": "2026-05-10T15:00:10Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir", "status": 200, "html_chars": 331694, "md_chars": 23741, "elapsed_s": 32.26}
+{"ts": "2026-05-10T15:00:25Z", "event": "fetched", "url": "https://www.investor.jnj.com/", "status": 200, "html_chars": 363801, "md_chars": 25520, "elapsed_s": 14.95}
+{"ts": "2026-05-10T15:02:27Z", "event": "fetched", "url": "https://ri.prio3.com.br", "status": 200, "html_chars": 222857, "md_chars": 17953, "elapsed_s": 27.71}
+{"ts": "2026-05-10T15:05:01Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir/news", "status": 200, "html_chars": 285607, "md_chars": 15838, "elapsed_s": 32.24}
+{"ts": "2026-05-10T15:05:20Z", "event": "fetched", "url": "https://www.investor.jnj.com/news/news-details", "status": 404, "html_chars": 335251, "md_chars": 23739, "elapsed_s": 11.3}
+{"ts": "2026-05-10T15:08:43Z", "event": "fetched", "url": "https://ri.itausa.com.br/", "status": 200, "html_chars": 147891, "md_chars": 16468, "elapsed_s": 12.87}
+{"ts": "2026-05-10T15:08:48Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/"}
+{"ts": "2026-05-10T15:08:59Z", "event": "fetched", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/", "status": 200, "html_chars": 97950, "md_chars": 24720, "elapsed_s": 11.13}
+{"ts": "2026-05-10T15:09:26Z", "event": "fetched", "url": "https://ri.prio3.com.br/", "status": 200, "html_chars": 222857, "md_chars": 17953, "elapsed_s": 27.21}
+{"ts": "2026-05-10T15:09:54Z", "event": "fetched", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/", "status": 200, "html_chars": 194428, "md_chars": 16559, "elapsed_s": 27.66}
+{"ts": "2026-05-10T15:09:59Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir"}
+{"ts": "2026-05-10T15:10:00Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/news"}
+{"ts": "2026-05-10T15:10:32Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "status": 200, "html_chars": 574066, "md_chars": 75973, "elapsed_s": 32.19}
+{"ts": "2026-05-10T15:10:32Z", "event": "cache_hit", "url": "https://www.investor.jnj.com/"}
+{"ts": "2026-05-10T15:17:24Z", "event": "cache_hit", "url": "https://ri.itausa.com.br/"}
+{"ts": "2026-05-10T15:17:27Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/"}
+{"ts": "2026-05-10T15:17:27Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T15:17:31Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/"}
+{"ts": "2026-05-10T15:17:31Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T15:17:36Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir"}
+{"ts": "2026-05-10T15:17:36Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/news"}
+{"ts": "2026-05-10T15:17:36Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings"}
+{"ts": "2026-05-10T15:17:39Z", "event": "cache_hit", "url": "https://www.investor.jnj.com/"}
+{"ts": "2026-05-10T15:21:19Z", "event": "fetched", "url": "https://ri.itausa.com.br/", "status": 200, "html_chars": 147891, "md_chars": 16468, "elapsed_s": 16.89}
+{"ts": "2026-05-10T15:21:35Z", "event": "fetched", "url": "https://www.bradescori.com.br/", "status": 200, "html_chars": 95884, "md_chars": 16520, "elapsed_s": 12.17}
+{"ts": "2026-05-10T15:21:46Z", "event": "fetched", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/", "status": 200, "html_chars": 97887, "md_chars": 24720, "elapsed_s": 11.13}
+{"ts": "2026-05-10T15:22:18Z", "event": "fetched", "url": "https://ri.prio3.com.br/", "status": 200, "html_chars": 222857, "md_chars": 17953, "elapsed_s": 28.25}
+{"ts": "2026-05-10T15:22:47Z", "event": "fetched", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/", "status": 200, "html_chars": 194428, "md_chars": 16559, "elapsed_s": 28.41}
+{"ts": "2026-05-10T15:23:24Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir", "status": 200, "html_chars": 331654, "md_chars": 23741, "elapsed_s": 32.12}
+{"ts": "2026-05-10T15:23:57Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir/news", "status": 200, "html_chars": 285742, "md_chars": 15838, "elapsed_s": 32.56}
+{"ts": "2026-05-10T15:24:29Z", "event": "fetched", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings", "status": 200, "html_chars": 574106, "md_chars": 75973, "elapsed_s": 32.34}
+{"ts": "2026-05-10T15:24:52Z", "event": "fetched", "url": "https://www.investor.jnj.com/", "status": 200, "html_chars": 363681, "md_chars": 25520, "elapsed_s": 19.7}
+{"ts": "2026-05-10T19:15:12Z", "event": "cache_hit", "url": "https://ri.itausa.com.br/"}
+{"ts": "2026-05-10T19:16:49Z", "event": "cache_hit", "url": "https://ri.itausa.com.br/"}
+{"ts": "2026-05-10T19:17:01Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/"}
+{"ts": "2026-05-10T19:17:01Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T19:17:17Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/"}
+{"ts": "2026-05-10T19:17:17Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T19:17:50Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir"}
+{"ts": "2026-05-10T19:17:50Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/news"}
+{"ts": "2026-05-10T19:17:50Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings"}
+{"ts": "2026-05-10T19:18:00Z", "event": "cache_hit", "url": "https://www.investor.jnj.com/"}
+{"ts": "2026-05-10T19:23:32Z", "event": "cache_hit", "url": "https://ri.itausa.com.br/"}
+{"ts": "2026-05-10T19:23:33Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/"}
+{"ts": "2026-05-10T19:23:33Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T19:32:31Z", "event": "fetched", "url": "https://investor.apple.com/", "status": 200, "html_chars": 269437, "md_chars": 25119, "elapsed_s": 20.26}
+{"ts": "2026-05-10T19:33:02Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/"}
+{"ts": "2026-05-10T19:33:02Z", "event": "cache_hit", "url": "https://www.bradescori.com.br/informacoes-ao-mercado/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T19:33:33Z", "event": "fetched", "url": "https://ir.blackrock.com/", "status": 200, "html_chars": 219494, "md_chars": 14438, "elapsed_s": 28.88}
+{"ts": "2026-05-10T19:33:55Z", "event": "fetched", "url": "https://bn.brookfield.com/news-and-events", "status": 200, "html_chars": 274845, "md_chars": 9483, "elapsed_s": 20.96}
+{"ts": "2026-05-10T19:34:06Z", "event": "fetched", "url": "https://www.berkshirehathaway.com/", "status": 200, "html_chars": 5465, "md_chars": 2101, "elapsed_s": 10.97}
+{"ts": "2026-05-10T19:34:33Z", "event": "fetched", "url": "https://www.goldmansachs.com/investor-relations/", "status": 200, "html_chars": 916454, "md_chars": 17999, "elapsed_s": 26.77}
+{"ts": "2026-05-10T19:35:08Z", "event": "fetched", "url": "https://ir.homedepot.com/", "status": 403, "html_chars": 31725, "md_chars": 560, "elapsed_s": 12.51}
+{"ts": "2026-05-10T19:35:08Z", "event": "cache_hit", "url": "https://www.investor.jnj.com/"}
+{"ts": "2026-05-10T19:35:11Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir"}
+{"ts": "2026-05-10T19:35:11Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/news"}
+{"ts": "2026-05-10T19:35:11Z", "event": "cache_hit", "url": "https://www.jpmorganchase.com/ir/quarterly-earnings"}
+{"ts": "2026-05-10T19:35:51Z", "event": "fetched", "url": "https://www.fiis.com.br/btlg11/", "status": 200, "html_chars": 124109, "md_chars": 12152, "elapsed_s": 36.05}
+{"ts": "2026-05-10T19:35:51Z", "event": "cache_hit", "url": "https://ri.itausa.com.br/"}
+{"ts": "2026-05-10T19:35:55Z", "event": "fetched", "url": "https://investors.coca-colacompany.com/", "status": 200, "html_chars": 222462, "md_chars": 17249, "elapsed_s": 15.78}
+{"ts": "2026-05-10T19:36:20Z", "event": "fetched", "url": "https://ri.klabin.com.br/", "status": 200, "html_chars": 112301, "md_chars": 15057, "elapsed_s": 19.44}
+{"ts": "2026-05-10T19:36:20Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/"}
+{"ts": "2026-05-10T19:36:20Z", "event": "cache_hit", "url": "https://ri.prio3.com.br/servicos-aos-investidores/comunicados-e-fatos-relevantes/"}
+{"ts": "2026-05-10T19:36:26Z", "event": "fetched", "url": "https://investors.nu/", "status": 200, "html_chars": 78122, "md_chars": 10079, "elapsed_s": 29.79}
+{"ts": "2026-05-10T19:37:11Z", "event": "fetched", "url": "https://www.fiis.com.br/pvbi11/", "status": 200, "html_chars": 122988, "md_chars": 12613, "elapsed_s": 36.46}
+{"ts": "2026-05-10T19:37:14Z", "event": "fetched", "url": "https://www.pginvestor.com/", "status": 200, "html_chars": 270144, "md_chars": 19567, "elapsed_s": 17.9}
+{"ts": "2026-05-10T19:37:31Z", "event": "fetched", "url": "https://ir.prologis.com/", "status": 200, "html_chars": 67862, "md_chars": 15835, "elapsed_s": 16.91}
+{"ts": "2026-05-10T19:37:47Z", "event": "fetched", "url": "https://investors.palantir.com/", "status": 200, "html_chars": 131950, "md_chars": 4563, "elapsed_s": 12.39}
+{"ts": "2026-05-10T19:37:47Z", "event": "fetched", "url": "https://www.fiis.com.br/rbrx11/", "status": 200, "html_chars": 117894, "md_chars": 11802, "elapsed_s": 36.02}
+{"ts": "2026-05-10T19:38:08Z", "event": "fetched", "url": "https://vale.com/pt/investidores", "status": 200, "html_chars": 948518, "md_chars": 82319, "elapsed_s": 20.16}
+{"ts": "2026-05-10T19:38:27Z", "event": "fetched", "url": "https://ir.truist.com/", "status": 200, "html_chars": 115666, "md_chars": 5368, "elapsed_s": 16.84}
+{"ts": "2026-05-10T19:38:43Z", "event": "fetched", "url": "https://ir.tesla.com/", "status": 403, "html_chars": 290, "md_chars": 197, "elapsed_s": 4.11}
+{"ts": "2026-05-10T19:38:44Z", "event": "fetched", "url": "https://www.fiis.com.br/vgir11/", "status": 200, "html_chars": 117702, "md_chars": 11705, "elapsed_s": 35.85}
+{"ts": "2026-05-10T19:38:47Z", "event": "fetched", "url": "https://investor.tsmc.com/english", "status": 403, "html_chars": 4263, "md_chars": 789, "elapsed_s": 3.96}
+{"ts": "2026-05-10T19:39:06Z", "event": "fetched", "url": "https://investors.thetradedesk.com/", "status": 200, "html_chars": 100878, "md_chars": 11122, "elapsed_s": 19.08}
+{"ts": "2026-05-10T19:39:16Z", "event": "fetched", "url": "https://investors.xpinc.com/", "status": 403, "html_chars": 947, "md_chars": 400, "elapsed_s": 4.2}
+{"ts": "2026-05-10T19:39:19Z", "event": "fetched", "url": "https://www.fiis.com.br/xpml11/", "status": 200, "html_chars": 128630, "md_chars": 12825, "elapsed_s": 35.18}
+{"ts": "2026-05-10T19:43:13Z", "event": "fetched", "url": "https://ri.ambev.com.br/", "status": 200, "html_chars": 149813, "md_chars": 39073, "elapsed_s": 14.28}
+{"ts": "2026-05-10T19:43:48Z", "event": "fetched", "url": "https://www.fiis.com.br/alup11/", "status": 404, "html_chars": 46268, "md_chars": 4414, "elapsed_s": 34.84}
+{"ts": "2026-05-10T19:44:02Z", "event": "fetched", "url": "https://ri.b3.com.br/", "status": 200, "html_chars": 76661, "md_chars": 10126, "elapsed_s": 14.16}
+{"ts": "2026-05-10T19:44:28Z", "event": "fetched", "url": "https://www.microsoft.com/en-us/investor", "status": 200, "html_chars": 321298, "md_chars": 20063, "elapsed_s": 8.95}
+{"ts": "2026-05-10T19:44:34Z", "event": "fetched", "url": "https://www.bb.com.br/site/ri/", "status": 404, "html_chars": 189108, "md_chars": 1285, "elapsed_s": 31.32}
+{"ts": "2026-05-10T19:44:41Z", "event": "fetched", "url": "https://investor.visa.com/", "status": 200, "html_chars": 174805, "md_chars": 23978, "elapsed_s": 9.71}
+{"ts": "2026-05-10T19:44:49Z", "event": "fetched", "url": "https://www.bbseguridaderi.com.br/", "status": 200, "html_chars": 113335, "md_chars": 28874, "elapsed_s": 14.59}
+{"ts": "2026-05-10T19:44:58Z", "event": "fetched", "url": "https://stock.walmart.com/", "status": 200, "html_chars": 79937, "md_chars": 17566, "elapsed_s": 11.85}
+{"ts": "2026-05-10T19:45:02Z", "event": "fetched", "url": "https://ri.btgpactual.com/", "status": 200, "html_chars": 116404, "md_chars": 9524, "elapsed_s": 13.24}
+{"ts": "2026-05-10T19:45:36Z", "event": "fetched", "url": "https://www.fiis.com.br/brbi11/", "status": 404, "html_chars": 46266, "md_chars": 4414, "elapsed_s": 34.27}
+{"ts": "2026-05-10T19:46:11Z", "event": "fetched", "url": "https://www.fiis.com.br/brco11/", "status": 200, "html_chars": 118180, "md_chars": 11771, "elapsed_s": 34.24}
+{"ts": "2026-05-10T19:46:18Z", "event": "fetched", "url": "https://ri.cemig.com.br/", "status": 200, "html_chars": 310712, "md_chars": 15641, "elapsed_s": 6.49}
+{"ts": "2026-05-10T19:46:52Z", "event": "fetched", "url": "https://www.fiis.com.br/engi11/", "status": 404, "html_chars": 46267, "md_chars": 4414, "elapsed_s": 33.57}
+{"ts": "2026-05-10T19:47:05Z", "event": "fetched", "url": "https://ri.equatorialenergia.com.br/", "status": 200, "html_chars": 216109, "md_chars": 19769, "elapsed_s": 12.43}
+{"ts": "2026-05-10T19:47:39Z", "event": "fetched", "url": "https://www.fiis.com.br/gare11/", "status": 200, "html_chars": 117904, "md_chars": 11732, "elapsed_s": 33.99}
+{"ts": "2026-05-10T19:48:15Z", "event": "fetched", "url": "https://www.fiis.com.br/hglg11/", "status": 200, "html_chars": 123760, "md_chars": 11908, "elapsed_s": 33.29}
+{"ts": "2026-05-10T19:48:48Z", "event": "fetched", "url": "https://www.fiis.com.br/hgru11/", "status": 200, "html_chars": 119463, "md_chars": 11460, "elapsed_s": 32.92}
+{"ts": "2026-05-10T19:48:50Z", "event": "fetched", "url": "https://www.itau.com.br/relacoes-com-investidores/", "status": 403, "html_chars": 319, "md_chars": 226, "elapsed_s": 2.31}
+{"ts": "2026-05-10T19:49:23Z", "event": "fetched", "url": "https://www.fiis.com.br/kncr11/", "status": 200, "html_chars": 118692, "md_chars": 11649, "elapsed_s": 32.89}
+{"ts": "2026-05-10T19:49:57Z", "event": "fetched", "url": "https://www.fiis.com.br/knhf11/", "status": 200, "html_chars": 115917, "md_chars": 10743, "elapsed_s": 33.01}
+{"ts": "2026-05-10T19:50:30Z", "event": "fetched", "url": "https://www.fiis.com.br/knri11/", "status": 200, "html_chars": 123727, "md_chars": 12033, "elapsed_s": 33.53}
+{"ts": "2026-05-10T19:51:05Z", "event": "fetched", "url": "https://www.fiis.com.br/mcci11/", "status": 200, "html_chars": 118244, "md_chars": 11565, "elapsed_s": 34.04}
+{"ts": "2026-05-10T19:51:38Z", "event": "fetched", "url": "https://www.fiis.com.br/mcre11/", "status": 200, "html_chars": 98424, "md_chars": 11142, "elapsed_s": 32.78}
+{"ts": "2026-05-10T19:51:55Z", "event": "fetched", "url": "https://ri.motiva.com.br/", "status": 200, "html_chars": 170402, "md_chars": 43000, "elapsed_s": 13.08}
+{"ts": "2026-05-10T19:52:07Z", "event": "fetched", "url": "https://www.investidorpetrobras.com.br/", "status": 200, "html_chars": 107623, "md_chars": 25676, "elapsed_s": 11.2}
+{"ts": "2026-05-10T19:52:40Z", "event": "fetched", "url": "https://www.fiis.com.br/pmll11/", "status": 200, "html_chars": 110756, "md_chars": 15074, "elapsed_s": 32.75}
+{"ts": "2026-05-10T19:52:55Z", "event": "fetched", "url": "https://ri.marcopolo.com.br/", "status": 403, "html_chars": 31483, "md_chars": 522, "elapsed_s": 10.13}
+{"ts": "2026-05-10T19:53:28Z", "event": "fetched", "url": "https://www.fiis.com.br/rbry11/", "status": 200, "html_chars": 140692, "md_chars": 17408, "elapsed_s": 32.84}
+{"ts": "2026-05-10T19:53:41Z", "event": "fetched", "url": "https://ri.rededorsaoluiz.com.br/", "status": 200, "html_chars": 53363, "md_chars": 8713, "elapsed_s": 12.87}
+{"ts": "2026-05-10T19:54:15Z", "event": "fetched", "url": "https://www.fiis.com.br/recr11/", "status": 200, "html_chars": 119739, "md_chars": 11681, "elapsed_s": 33.78}
+{"ts": "2026-05-10T19:54:29Z", "event": "fetched", "url": "https://ri.localiza.com/", "status": 200, "html_chars": 196291, "md_chars": 54970, "elapsed_s": 13.62}
+{"ts": "2026-05-10T19:55:02Z", "event": "fetched", "url": "https://www.fiis.com.br/sanb11/", "status": 404, "html_chars": 46266, "md_chars": 4414, "elapsed_s": 33.0}
+{"ts": "2026-05-10T19:55:35Z", "event": "fetched", "url": "https://www.fiis.com.br/sapr11/", "status": 404, "html_chars": 46267, "md_chars": 4414, "elapsed_s": 33.12}
+{"ts": "2026-05-10T19:55:51Z", "event": "fetched", "url": "https://ri.suzano.com.br/", "status": 200, "html_chars": 115291, "md_chars": 15029, "elapsed_s": 15.39}
+{"ts": "2026-05-10T19:56:07Z", "event": "fetched", "url": "https://ri.taesa.com.br/", "status": 200, "html_chars": 433761, "md_chars": 30295, "elapsed_s": 12.62}
+{"ts": "2026-05-10T19:56:20Z", "event": "fetched", "url": "https://ri.tim.com.br/", "status": 200, "html_chars": 145990, "md_chars": 27580, "elapsed_s": 13.39}
+{"ts": "2026-05-10T19:56:53Z", "event": "fetched", "url": "https://www.fiis.com.br/trxf11/", "status": 200, "html_chars": 116794, "md_chars": 11467, "elapsed_s": 32.79}
+{"ts": "2026-05-10T19:57:27Z", "event": "fetched", "url": "https://www.fiis.com.br/vgip11/", "status": 200, "html_chars": 117952, "md_chars": 11710, "elapsed_s": 32.79}
+{"ts": "2026-05-10T19:58:00Z", "event": "fetched", "url": "https://www.fiis.com.br/visc11/", "status": 200, "html_chars": 124430, "md_chars": 11955, "elapsed_s": 32.71}
+{"ts": "2026-05-10T19:58:15Z", "event": "fetched", "url": "https://ri.vivara.com.br/", "status": 200, "html_chars": 85648, "md_chars": 16935, "elapsed_s": 14.72}
+{"ts": "2026-05-10T19:58:43Z", "event": "fetched", "url": "https://ri.telefonica.com.br/", "status": 200, "html_chars": 179697, "md_chars": 15163, "elapsed_s": 27.77}
+{"ts": "2026-05-10T19:59:16Z", "event": "fetched", "url": "https://www.fiis.com.br/vrta11/", "status": 200, "html_chars": 121913, "md_chars": 11703, "elapsed_s": 32.75}
+{"ts": "2026-05-10T19:59:50Z", "event": "fetched", "url": "https://www.fiis.com.br/xplg11/", "status": 200, "html_chars": 123547, "md_chars": 12150, "elapsed_s": 32.71}
+{"ts": "2026-05-10T20:48:03Z", "event": "fetched", "url": "https://www.abmindustries.com/investors", "status": 200, "html_chars": 2705198, "md_chars": 43797, "elapsed_s": 20.2}
+{"ts": "2026-05-10T20:48:14Z", "event": "fetched", "url": "https://investors.adm.com/", "status": 200, "html_chars": 210366, "md_chars": 14105, "elapsed_s": 11.72}
+{"ts": "2026-05-10T20:48:20Z", "event": "fetched", "url": "https://www.automaticdataprocessing.com/investors", "status": 200, "html_chars": 697, "md_chars": 267, "elapsed_s": 3.19}
+{"ts": "2026-05-10T20:48:30Z", "event": "fetched", "url": "https://investors.aflac.com/", "status": 200, "html_chars": 268929, "md_chars": 20810, "elapsed_s": 9.25}
+{"ts": "2026-05-10T20:48:46Z", "event": "fetched", "url": "https://investors.albemarle.com/", "status": 200, "html_chars": 110294, "md_chars": 14270, "elapsed_s": 11.73}
+{"ts": "2026-05-10T20:49:26Z", "event": "fetched", "url": "https://investors.atmosenergy.com/", "status": 200, "html_chars": 111320, "md_chars": 13840, "elapsed_s": 9.74}
+{"ts": "2026-05-10T20:49:42Z", "event": "fetched", "url": "https://investors.franklinresources.com/", "status": 200, "html_chars": 137223, "md_chars": 22422, "elapsed_s": 12.27}
+{"ts": "2026-05-10T20:49:48Z", "event": "fetched", "url": "https://www.brownbrown.com/investors", "status": 200, "html_chars": 357, "md_chars": 264, "elapsed_s": 5.46}
+{"ts": "2026-05-10T20:50:02Z", "event": "fetched", "url": "https://investors.chubb.com/", "status": 200, "html_chars": 164498, "md_chars": 20955, "elapsed_s": 14.01}
+{"ts": "2026-05-10T20:50:05Z", "event": "fetched", "url": "https://www.commercebancshares.com/investors", "status": 200, "html_chars": 332, "md_chars": 239, "elapsed_s": 2.8}
+{"ts": "2026-05-10T20:50:14Z", "event": "fetched", "url": "https://investor.churchdwight.com/", "status": 200, "html_chars": 207891, "md_chars": 20885, "elapsed_s": 9.21}
+{"ts": "2026-05-10T20:50:20Z", "event": "fetched", "url": "https://investor.chrobinson.com/", "status": 200, "html_chars": 277921, "md_chars": 9581, "elapsed_s": 5.85}
+{"ts": "2026-05-10T20:50:27Z", "event": "fetched", "url": "https://investor.cl.com/", "status": 200, "html_chars": 67057, "md_chars": 20805, "elapsed_s": 6.48}
+{"ts": "2026-05-10T20:51:02Z", "event": "fetched", "url": "https://www.cintas.com/investors", "status": 200, "html_chars": 181272, "md_chars": 20844, "elapsed_s": 34.22}
+{"ts": "2026-05-10T20:51:04Z", "event": "fetched", "url": "https://www.chevron.com/ir", "status": 403, "html_chars": 1479, "md_chars": 93, "elapsed_s": 2.38}
+{"ts": "2026-05-10T20:51:14Z", "event": "fetched", "url": "https://www.dover.com/investors", "status": 200, "html_chars": 437932, "md_chars": 20619, "elapsed_s": 9.91}
+{"ts": "2026-05-10T20:51:29Z", "event": "fetched", "url": "https://investor.ecolab.com/", "status": 200, "html_chars": 276514, "md_chars": 24885, "elapsed_s": 14.72}
+{"ts": "2026-05-10T20:51:39Z", "event": "fetched", "url": "https://investor.consolidatededison.com/", "status": 200, "html_chars": 15144, "md_chars": 587, "elapsed_s": 9.95}
+{"ts": "2026-05-10T20:51:51Z", "event": "fetched", "url": "https://investor.fastenal.com/", "status": 200, "html_chars": 112133, "md_chars": 13082, "elapsed_s": 11.29}
+{"ts": "2026-05-10T20:52:12Z", "event": "fetched", "url": "https://investors.hbfuller.com/", "status": 200, "html_chars": 142032, "md_chars": 24810, "elapsed_s": 11.97}
+{"ts": "2026-05-10T20:52:28Z", "event": "fetched", "url": "https://www.generaldynamics.com/investors", "status": 200, "html_chars": 66035, "md_chars": 10191, "elapsed_s": 12.0}
+{"ts": "2026-05-10T20:52:40Z", "event": "fetched", "url": "https://investor.hormelfoods.com/", "status": 200, "html_chars": 178802, "md_chars": 28985, "elapsed_s": 11.76}
+{"ts": "2026-05-10T20:52:49Z", "event": "fetched", "url": "https://investor.itw.com/", "status": 200, "html_chars": 134673, "md_chars": 13630, "elapsed_s": 9.32}
+{"ts": "2026-05-10T20:53:08Z", "event": "fetched", "url": "https://investor.jkhy.com/", "status": 200, "html_chars": 356682, "md_chars": 53005, "elapsed_s": 12.92}
+{"ts": "2026-05-10T20:53:13Z", "event": "fetched", "url": "https://investors.linde.com/", "status": 200, "html_chars": 673415, "md_chars": 26421, "elapsed_s": 5.64}
+{"ts": "2026-05-10T20:53:44Z", "event": "fetched", "url": "https://ir.lowes.com/", "status": 200, "html_chars": 114158, "md_chars": 12880, "elapsed_s": 30.38}
+{"ts": "2026-05-10T20:53:59Z", "event": "fetched", "url": "https://www.mgeenergy.com/investor-relations", "status": 200, "html_chars": 26297, "md_chars": 6959, "elapsed_s": 14.9}
+{"ts": "2026-05-10T20:54:28Z", "event": "fetched", "url": "https://investor.altria.com/", "status": 200, "html_chars": 346721, "md_chars": 114595, "elapsed_s": 28.51}
+{"ts": "2026-05-10T20:55:41Z", "event": "fetched", "url": "https://www.msasafety.com/investors", "status": 200, "html_chars": 164494, "md_chars": 10151, "elapsed_s": 11.48}
+{"ts": "2026-05-10T20:55:52Z", "event": "fetched", "url": "https://investors.nordson.com/", "status": 200, "html_chars": 134002, "md_chars": 17914, "elapsed_s": 11.19}
+{"ts": "2026-05-10T20:56:23Z", "event": "fetched", "url": "https://investor.nexteraenergy.com/", "status": 200, "html_chars": 49487, "md_chars": 9725, "elapsed_s": 26.73}
+{"ts": "2026-05-10T20:56:43Z", "event": "fetched", "url": "https://investor.nationalfuelgas.com/", "status": 200, "html_chars": 121215, "md_chars": 30084, "elapsed_s": 13.24}
+{"ts": "2026-05-10T20:56:59Z", "event": "fetched", "url": "https://investors.nucor.com/", "status": 200, "html_chars": 110867, "md_chars": 13381, "elapsed_s": 12.03}
+{"ts": "2026-05-10T20:57:17Z", "event": "fetched", "url": "https://investor.northwestnatural.com/", "status": 200, "html_chars": 163, "md_chars": 91, "elapsed_s": 6.13}
+{"ts": "2026-05-10T20:57:20Z", "event": "fetched", "url": "https://investor.pepsico.com/", "status": 200, "html_chars": 124313, "md_chars": 24894, "elapsed_s": 3.59}
+{"ts": "2026-05-10T20:57:32Z", "event": "fetched", "url": "https://investor.ppg.com/", "status": 200, "html_chars": 100461, "md_chars": 11739, "elapsed_s": 11.9}
+{"ts": "2026-05-10T20:57:43Z", "event": "fetched", "url": "https://investors.rlicorp.com/", "status": 200, "html_chars": 161345, "md_chars": 13049, "elapsed_s": 10.04}
+{"ts": "2026-05-10T20:57:54Z", "event": "fetched", "url": "https://investor.rpm.com/", "status": 200, "html_chars": 14616, "md_chars": 560, "elapsed_s": 11.38}
+{"ts": "2026-05-10T20:58:06Z", "event": "fetched", "url": "https://investors.jmsmucker.com/", "status": 200, "html_chars": 264338, "md_chars": 22911, "elapsed_s": 11.62}
+{"ts": "2026-05-10T20:58:39Z", "event": "fetched", "url": "https://investor.spglobal.com/", "status": 200, "html_chars": 292699, "md_chars": 23640, "elapsed_s": 32.64}
+{"ts": "2026-05-10T20:59:25Z", "event": "fetched", "url": "https://investors.target.com/", "status": 200, "html_chars": 51312, "md_chars": 6376, "elapsed_s": 11.38}
+{"ts": "2026-05-10T20:59:32Z", "event": "fetched", "url": "https://investor.exxonmobil.com/", "status": 200, "html_chars": 206674, "md_chars": 21989, "elapsed_s": 5.5}
+{"ts": "2026-05-10T20:59:45Z", "event": "fetched", "url": "https://ri.abcbrasil.com.br/", "status": 200, "html_chars": 127006, "md_chars": 15911, "elapsed_s": 12.22}
+{"ts": "2026-05-10T20:59:58Z", "event": "fetched", "url": "https://www.braskem-ri.com.br/", "status": 200, "html_chars": 295513, "md_chars": 99616, "elapsed_s": 12.46}
+{"ts": "2026-05-10T21:00:13Z", "event": "fetched", "url": "https://ri.copel.com/", "status": 200, "html_chars": 107891, "md_chars": 19205, "elapsed_s": 12.69}
+{"ts": "2026-05-10T21:00:27Z", "event": "fetched", "url": "https://ri.copasa.com.br/", "status": 200, "html_chars": 75439, "md_chars": 12814, "elapsed_s": 14.2}
+{"ts": "2026-05-10T21:00:40Z", "event": "fetched", "url": "https://ri.eztec.com.br/", "status": 200, "html_chars": 407226, "md_chars": 66906, "elapsed_s": 12.84}
+{"ts": "2026-05-10T21:00:54Z", "event": "fetched", "url": "https://ri.grupomateus.com.br/", "status": 200, "html_chars": 49366, "md_chars": 6439, "elapsed_s": 10.43}
+{"ts": "2026-05-10T21:01:06Z", "event": "fetched", "url": "https://ri.grendene.com.br/", "status": 200, "html_chars": 51053, "md_chars": 10796, "elapsed_s": 11.54}
+{"ts": "2026-05-10T21:01:33Z", "event": "fetched", "url": "https://www.isacteep.com.br/ri/", "status": 200, "html_chars": 161880, "md_chars": 15107, "elapsed_s": 27.4}
+{"ts": "2026-05-10T21:01:41Z", "event": "fetched", "url": "https://www.multri.com.br/", "status": 200, "html_chars": 97645, "md_chars": 7969, "elapsed_s": 7.27}
+{"ts": "2026-05-10T21:01:52Z", "event": "fetched", "url": "https://ri.paguemenos.com.br/", "status": 200, "html_chars": 132283, "md_chars": 15335, "elapsed_s": 11.27}
+{"ts": "2026-05-10T21:02:04Z", "event": "fetched", "url": "https://ri.planoeplano.com.br/", "status": 200, "html_chars": 74480, "md_chars": 9362, "elapsed_s": 11.59}
+{"ts": "2026-05-10T21:02:17Z", "event": "fetched", "url": "https://ri.portoseguro.com.br/", "status": 200, "html_chars": 225438, "md_chars": 17193, "elapsed_s": 12.76}
+{"ts": "2026-05-10T21:02:19Z", "event": "cache_hit", "url": "https://www.abmindustries.com/investors"}
+{"ts": "2026-05-10T21:02:19Z", "event": "cache_hit", "url": "https://investors.adm.com/"}
+{"ts": "2026-05-10T21:02:21Z", "event": "cache_hit", "url": "https://www.automaticdataprocessing.com/investors"}
+{"ts": "2026-05-10T21:02:21Z", "event": "cache_hit", "url": "https://investors.aflac.com/"}
+{"ts": "2026-05-10T21:02:25Z", "event": "cache_hit", "url": "https://investors.albemarle.com/"}
+{"ts": "2026-05-10T21:02:56Z", "event": "cache_hit", "url": "https://investors.atmosenergy.com/"}
+{"ts": "2026-05-10T21:03:00Z", "event": "cache_hit", "url": "https://investors.franklinresources.com/"}
+{"ts": "2026-05-10T21:03:00Z", "event": "cache_hit", "url": "https://www.brownbrown.com/investors"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investors.chubb.com/"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://www.commercebancshares.com/investors"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investor.churchdwight.com/"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investor.chrobinson.com/"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investor.cl.com/"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://www.cintas.com/investors"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://www.chevron.com/ir"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://www.dover.com/investors"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investor.ecolab.com/"}
+{"ts": "2026-05-10T21:03:31Z", "event": "cache_hit", "url": "https://investor.consolidatededison.com/"}
+{"ts": "2026-05-10T21:03:32Z", "event": "cache_hit", "url": "https://investor.fastenal.com/"}
+{"ts": "2026-05-10T21:03:41Z", "event": "cache_hit", "url": "https://investors.hbfuller.com/"}
+{"ts": "2026-05-10T21:03:44Z", "event": "cache_hit", "url": "https://www.generaldynamics.com/investors"}
+{"ts": "2026-05-10T21:03:45Z", "event": "cache_hit", "url": "https://investor.hormelfoods.com/"}
+{"ts": "2026-05-10T21:03:45Z", "event": "cache_hit", "url": "https://investor.itw.com/"}
+{"ts": "2026-05-10T21:03:49Z", "event": "cache_hit", "url": "https://investor.jkhy.com/"}
+{"ts": "2026-05-10T21:03:49Z", "event": "cache_hit", "url": "https://investors.linde.com/"}
+{"ts": "2026-05-10T21:03:50Z", "event": "cache_hit", "url": "https://ir.lowes.com/"}
+{"ts": "2026-05-10T21:03:51Z", "event": "cache_hit", "url": "https://www.mgeenergy.com/investor-relations"}
+{"ts": "2026-05-10T21:03:51Z", "event": "cache_hit", "url": "https://investor.altria.com/"}
+{"ts": "2026-05-10T21:04:47Z", "event": "cache_hit", "url": "https://www.msasafety.com/investors"}
+{"ts": "2026-05-10T21:04:47Z", "event": "cache_hit", "url": "https://www.microsoft.com/en-us/investor"}
+{"ts": "2026-05-10T21:04:49Z", "event": "cache_hit", "url": "https://investors.nordson.com/"}
+{"ts": "2026-05-10T21:04:52Z", "event": "cache_hit", "url": "https://investor.nexteraenergy.com/"}
+{"ts": "2026-05-10T21:04:59Z", "event": "cache_hit", "url": "https://investor.nationalfuelgas.com/"}
+{"ts": "2026-05-10T21:05:02Z", "event": "cache_hit", "url": "https://investors.nucor.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investor.northwestnatural.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investor.pepsico.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investor.ppg.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investors.rlicorp.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investor.rpm.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investors.jmsmucker.com/"}
+{"ts": "2026-05-10T21:05:13Z", "event": "cache_hit", "url": "https://investor.spglobal.com/"}
+{"ts": "2026-05-10T21:05:47Z", "event": "cache_hit", "url": "https://investors.target.com/"}
+{"ts": "2026-05-10T21:05:48Z", "event": "cache_hit", "url": "https://investor.visa.com/"}
+{"ts": "2026-05-10T21:05:51Z", "event": "cache_hit", "url": "https://stock.walmart.com/"}
+{"ts": "2026-05-10T21:05:51Z", "event": "cache_hit", "url": "https://investor.exxonmobil.com/"}

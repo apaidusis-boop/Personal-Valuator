@@ -1,0 +1,21 @@
+---
+id: damodaran_auto_price_book_value_ratio_calculation
+name: Price-Book Value Ratio Calculation
+book: Investment Valuation 3rd ed (Damodaran)
+horizon: long
+direction: LONG
+derived_from: ollama_auto_2026-04-24
+rules:
+- id: rule_pbr_formula
+  description: Calculate PBV using the provided formula.
+  check: pb == (roe * (1 - dy) + 0.03) / (0.03 + 0.05 - roe * (1 - dy))
+caveats:
+- This rule assumes a risk-free rate of 3% and a market risk premium of 5%, which
+  may not reflect current economic conditions.
+Note: The formula provided in the INPUT METHOD section seems to be for calculating
+  an expected return or required rate of return rather than directly computing the
+  Price-to-Book (PBV) ratio. However, since the task is to convert it into a YAML
+  rule as requested and no specific values for Risk-Free Rate and Market Risk Premium
+  were given, I've used 3% and 5%, respectively, as placeholders. If you have different
+  values or if the formula needs adjustment based on actual PBV calculation logic,
+  please provide additional details.

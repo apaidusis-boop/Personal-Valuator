@@ -1,0 +1,48 @@
+ts next year will be
+17.22%.
+chgrowth.xls:
+
+This spreadsheet allows you to estimate the expected growth rate in operating income for
+a firm where the return on capital is expected to change over time.
+
+Negative Return on Capital Scenario
+The third and most difficult scenario for estimating growth is when a firm is losing money and has a
+negative return on capital. Since the firm is losing money, the reinvestment rate is also likely to be
+negative. To estimate growth in these firms, we have to move up the income statement and first
+project growth in revenues. Next, we use the firm's expected operating margin in future years to
+estimate the operating income in those years. If the expected margin in future years is positive, the
+expected operating income will also turn positive, allowing us to apply traditional valuation
+approaches in valuing these firms. We also estimate how much the firm has to reinvest to generate
+revenue growth growth, by linking revenues to the capital invested in the firm.
+Growth in Revenues
+Many high-growth firms, while reporting losses, also show large increases in revenues from period
+to period. The first step in forecasting cash flows is forecasting revenues in future years, usually by
+forecasting a growth rate in revenues each period. In making these estimates, there are five points to
+keep in mind.
+1.
+ The rate of growth in revenues will decrease as the firm's revenues increase. Thus, a tenfold
+increase in revenues is entirely feasible for a firm with revenues of $2 million but unlikely for a
+firm with revenues of $2 billion.
+2.
+ Compounded growth rates in revenues over time can seem low, but appearances are deceptive.
+A compounded annual growth rate in revenues of 20 percent over ten years will increase revenues
+about six fold but an increase of 40 percent over 10 years will result in an almost 30-fold increase
+in revenues over the period.
+3.
+ While growth rates in revenues may be the mechanism that you use to forecast future revenues,
+you do have to keep track of the dollar revenues to ensure that they are reasonable, given the size
+of the overall market that the firm operates in. If the projected revenues for a firm 10 years out
+would give it a 90 or 100 percent share (or greater) of the overall market in a competitive
+marketplace, you clearly should reassess the revenue growth rate.
+4.
+ Assumptions about revenue growth and operating margins have to be internally consistent.
+Firms can post higher growth rates in revenues by adopting more aggressive pricing strategies but
+the higher revenue growth will then be accompanied by lower margins.
+5.
+ In coming up with an estimate of revenue growth, you have to make a number of subjective
+judgments about the nature of competition, the capacity of the firm that you are valuing to handle
+the revenue growth and the marketing capabilities of the firm.
+ILLUSTRATION 11.12: Estimating Revenues at Tesla
+Motors and Linkedin
+This illustration considers two young, high-growth companies: Tesla Motors, the electric automaker, and Linkedin, a social
+media firm.

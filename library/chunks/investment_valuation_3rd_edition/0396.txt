@@ -1,0 +1,30 @@
+he implications for valuation are simple. If we use the dividend discount model and do not allow
+for the buildup of cash that occurs when firms pay out less than they can afford, we will underestimate
+
+the value of equity in firms. If we use the model to value firms that pay out more dividends than they
+have available, we will overvalue the firms. The rest of this chapter is designed to correct for this
+limitation.
+dividends.xls:
+
+This spreadsheet allows you to estimate the free cash flow to equity and the cash returned
+to stockholders for a period of up to 10 years.
+divfcfe.xls:
+
+This dataset on the Web summarizes dividends, cash returned to stockholders, and free cash
+flows to equity, by sector, in the United States.
+Why Firms May Pay Out Less than Is Available
+Many firms pay out less to stockholders, in the form of dividends and stock buybacks, than they have
+available in free cash flows to equity. The reasons vary from firm to firm.
+Desire for Stability
+Firms are generally reluctant to change dividends, and dividends are considered “sticky” because the
+variability in dividends is significantly lower than the variability in earnings or cash flows. The
+unwillingness to change dividends is accentuated when firms have to reduce dividends, and increases
+in dividends outnumber cuts in dividends by at least a five-to-one margin in most periods. As a
+consequence of this reluctance to cut dividends, firms will often refuse to increase dividends even
+when earnings and FCFE go up, because they are uncertain about their capacity to maintain these
+higher dividends. This leads to a lag between earnings increases and dividend increases. Similarly,
+firms frequently keep dividends unchanged in the face of declining earnings and FCFE. 
+Figure 14.2
+reports the number of dividend changes (increases, decreases, no change) between 1988 and 2008.
+Figure 14.2
+ Dividend Changes by Year: U.S. Companies

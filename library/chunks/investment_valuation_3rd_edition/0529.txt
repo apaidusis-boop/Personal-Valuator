@@ -1,0 +1,42 @@
+s for technology stocks to the rest of the market, using analyst estimates of
+growth again to arrive at the PEG ratios.
+Figure 18.7
+ PEG Ratios for U.S. Firms in January 2011: Market versus Technology
+
+Finally, 
+Table 18.3
+ includes the summary statistics for PEG ratios for technology stocks and
+nontechnology stocks.
+6
+ The average PEG ratio for technology stocks is much lower than the average
+PEG ratio for nontechnology stocks. In addition, the average is much higher than the median for both
+groups.
+Table 18.3
+ PEG Ratio Distribution: Technology Stocks versus Market
+Source:
+ Value Line.
+Market
+Technology Firms
+Number of firms
+1,914
+116
+Average
+6.82
+4.68
+Median
+2.13
+2.06
+Standard deviation
+73.21
+12.8
+pedata.xls:
+
+This dataset on the Web summarizes the PEG ratios by industry for firms in the United
+States.
+Determinants of the PEG Ratio
+The determinants of the PEG ratio can be extracted using the same approach used to estimate the
+determinants of the PE ratio. The value per share in a two-stage dividend discount model can be
+written as:
+Dividing both sides of the equation by the earnings per share (EPS
+0
+) first and the expected growth

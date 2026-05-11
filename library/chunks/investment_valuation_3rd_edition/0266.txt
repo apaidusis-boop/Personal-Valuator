@@ -1,0 +1,65 @@
+the operating lease expense is added back to the operating income, since it is a financial
+expense. Next, the depreciation on the leased asset is subtracted out to arrive at adjusted operating
+income:
+
+If you assume that the depreciation on the leased asset approximates the principal portion of the
+debt being repaid, the adjusted operating income can be computed by adding back the imputed interest
+expense on the debt value of the operating lease expense:
+ILLUSTRATION 9.5: Adjusting Operating Income for
+Operating Leases: The Gap in 2011
+As a specialty retailer, the Gap has hundreds of stores that are leased, with the leases being treated as operating leases. For
+the most recent financial year (2010), the Gap has operating lease expenses of $1,129 million. The following table presents
+the operating lease commitments for the firm over the next five years and the lump sum of commitments beyond that point in
+time.
+Year
+Commitment
+1
+$ 997
+2
+$ 841
+3
+$ 710
+4
+$ 602
+5
+$ 483
+6 and beyond
+$1,483
+The Gap, based on its S&P bond rating of BB+, has a pretax cost of debt of 5.5%. To compute the present value of the
+commitments, you have to make a judgment on the lump sum commitment in year 6. Based on the average annual lease
+commitment over the first five years ($727 million), we arrive at an annuity of two years:
+4
+The present values of the commitments at the 5.5% pretax cost of debt are estimated in the following table:
+Year
+Commitment
+Present Value
+1
+$997
+$ 945.02
+2
+$841
+$ 755.60
+3
+$710
+$ 604.65
+4
+$602
+$ 485.94
+5
+$483
+$ 369.56
+6 and 7
+$741.40
+$1,047.50
+Debt value of leases
+$4,208.28
+The present value of operating leases is treated as the equivalent of debt, and is added onto the conventional debt of the
+firm. The Gap has no interest-bearing debt on its balance sheet. The cumulated debt for the firm is:
+To adjust the operating income for the Gap, we first use the full adjustment. To compute depreciation on the leased asset,
+we assume straight-line depreciation over the lease life
+5
+ (7 years) on the value of the leased asset, which is equal to the debt
+value of the lease commitments:
+The Gap's stated operating income of 
+$1,968 million is adjusted as follows:
+The approximate adjustment is also estimated as follows, where we add the added imputed interest expense using the pretax

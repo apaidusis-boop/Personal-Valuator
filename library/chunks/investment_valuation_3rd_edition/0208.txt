@@ -1,0 +1,50 @@
+an
+annual, a monthly, a weekly, a daily, and even an intraday basis. Using daily or intraday returns
+increases the number of observations in the regression, but it exposes the estimation process to a
+
+significant bias in beta estimates related to nontrading.
+5
+ For instance, the betas estimated for small
+firms, which are more likely to suffer from nontrading, are biased downward when daily returns are
+used. Using weekly or monthly returns can reduce the nontrading bias significantly.
+6
+ In this case, using
+weekly returns for two years yields a beta estimate for Boeing of only 0.88, while the monthly beta
+estimate over the same period is 0.96.
+The third estimation issue relates to the choice of a market index to be used in the regression. The
+standard practice used by most beta estimation services is to estimate the betas of a company relative
+to the index of the market in which its stock trades. Thus, the betas of German stocks are estimated
+relative to the Frankfurt DAX, British stocks relative to the FTSE, Japanese stocks relative to the
+Nikkei, and U.S. stocks relative to the NYSE Composite or the S&P 500. While this practice may
+yield an estimate that is a reasonable measure of risk for the domestic investor, it may not be the best
+approach for an international or cross-border investor, who would be better served with a beta
+estimated relative to an international index. For instance, Boeing's beta between 1996 and 2000
+estimated relative to the Morgan Stanley Capital International (MSCI) index that is composed of
+stocks from different global markets yields a value of 0.82.
+To the extent that different services use different estimation periods, use different market indexes,
+and adjust the regression beta differently, they will often provide different beta estimates for the same
+firm at the same point in time. While these beta differences are troubling, note that the beta estimate
+delivered by each of these services comes with a standard error, and it is very likely that all the betas
+reported for a firm fall within the range of standard errors from the regressions.
+Historical Beta Estimation for Companies in Smaller (or Emerging)
+Markets
+The process for estimating betas in markets with fewer stocks listed on them is no different from the
+process described earlier, but the estimation choices on return intervals, the market index, and the
+return period can make a much bigger difference in the estimate.
+INDEX DOMINATION AND BETA ESTIMATES
+There are a number of indexes that are dominated by one or a few stocks. One of the most striking cases was the Helsinki
+Stock Exchange (HEX) in the late 1990s. Nokia, the telecommunications giant, represented 75 percent of the Helsinki Index
+in terms of market value. Not surprisingly, a regression of Nokia against the HEX yielded the results shown in 
+Figure 8.3
+.
+  The regression looks impeccable. In fact, the noise problem that we noted with Boeing, arising from the high standard
+errors, disappears. The beta estimate has a standard error of 0.03, but the results are deceptive. The low standard error is
+the result of a regression of Nokia on itself, since it dominates the index. The beta is meaningless to a typical investor in
+Nokia, who is likely to be diversified, if not globally, at least across European stocks. Worse still, the betas of all other Finnish
+stocks against the HEX become betas estimated against Nokia. In fact, the beta of every other Finnish stock at the time of
+this regression was less than 1. How is this possible, you might ask, if the average beta is 1? It is the weighted average beta
+that is 1, and if Nokia (which comprises three-quarters of the index) has a beta greater than 1 (which it does), every other
+stock in the index could well end up with a beta less than 1.
+Figure 8.3
+ Beta Estimate for Nokia 
+Copyright 2001 Bloomberg LP. Reprinted with permission. All rights reserved.

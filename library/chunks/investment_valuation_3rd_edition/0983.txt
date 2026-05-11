@@ -1,0 +1,40 @@
+e closest fit
+(lognormal) and chose parameter values that yielded numbers closest to the historical data.
+8
+ Hertz (1964) has a classic paper on the use of probabilistic approaches in decision making.
+
+CHAPTER 34
+Overview and Conclusion
+The problem in valuation is not that there are not enough models to value an asset, it is that there are
+too many. Choosing the right model to use in valuation is as critical to arriving at a reasonable value
+as understanding how to use the model. This chapter attempts to provide an overview of the valuation
+models introduced in this book, and a general framework that can be used to pick the right model for
+any task.
+CHOICES IN VALUATION MODELS
+In the broadest possible terms, firms or assets can be valued in one of four ways: asset-based
+valuation approaches where you estimate what the assets owned by a firm are worth currently,
+discounted cash flow valuation approaches that discount cash flows to arrive at a value of equity or
+the firm, relative valuation approaches that base value on how comparable assets are priced, and
+option pricing approaches that use contingent claim valuation. Within each of these approaches, there
+are further choices that help determine the final value.
+There are at least two ways in which you can value a firm using asset-based valuation techniques.
+One is liquidation value, where you consider what the market will be willing to pay for assets if the
+assets were liquidated today. The other is replacement cost, where you evaluate how much it would
+cost you to replicate or replace the assets that a firm has in place today.
+In the context of discounted cash flow valuation, cash flows to equity can be discounted at the cost
+of equity to arrive at a value of equity, or cash flows to the firm can be discounted at the cost of
+capital to arrive at the value for the firm. The cash flows to equity themselves can be defined in the
+strictest sense as dividends or in a more expansive sense as free cash flows to equity. These models
+can be further categorized on the basis of assumptions about growth into stable-growth, two-stage,
+three-stage and n-stage models. Finally, the measurement of earnings and cash flows may be modified
+to match the special characteristics of the firm/asset—current earnings for firms/assets that have
+normal earnings, or normalized earnings for firms/assets whose current earnings may be distorted
+either by temporary factors or cyclical effects.
+In the context of multiples, you can use either equity or firm value as your measure of value and
+relate it to a number of firm-specific variables—earnings, book value, and sales. The multiples
+themselves can be estimated by using comparable firms in the same business or from cross-sectional
+regressions that use the broader universe. For other assets, such as real estate, the price can similarly
+be expressed as a function of gross income or per square foot of space. Here the comparables would
+be other properties in the same locale with similar characteristics.
+Contingent claim models can also be used in a variety of scenarios. When you consider the option
+that a firm has to delay making investment decisions, you can value a patent or an undeveloped natural

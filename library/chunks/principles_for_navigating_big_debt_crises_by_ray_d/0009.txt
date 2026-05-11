@@ -1,0 +1,63 @@
+at amount of time. Policy makers are put in 
+the politically difficult position of having to make those choices. As a result, they are rarely appreciated, even 
+when they handle the debt crisis well. 
+
+Principles For Navigating Big Debt Crises
+13
+The Template for the Archetypal Long-Term/Big Debt Cycle
+The template that follows is based on my examination of 48 big debt cycles, which include all of the cases that led 
+to real GDP falling by more than 3 percent in large countries (which is what I will call a depression). For clarity, I 
+divided the affected countries into two groups: 1) Those that didn’t have much of their debt denominated in 
+foreign currency and that didn’t experience inflationary depressions, and 2) those that had a significant amount of 
+their debt denominated in foreign currency and did experience inflationary depressions. Since there was about a 75 
+percent correlation between the amounts of their foreign debts and the amounts of inflation that they experienced 
+(which is not surprising, since having a lot of their debts denominated in foreign currency was a cause of their 
+depressions being inflationary), it made sense to group those that had more foreign currency debt with those that 
+had inflationary depressions. 
+Typically debt crises occur because debt and debt service costs rise faster than the incomes that are needed to 
+service them, causing a deleveraging. While the central bank can alleviate typical debt crises by lowering real and 
+nominal interest rates, severe debt crises (i.e., depressions) occur when this is no longer possible. Classically, a lot 
+of short-term debt cycles (i.e., business cycles) add up to a long-term debt cycle, because each short-term cyclical 
+high and each short-term cyclical low is higher in its debt-to-income ratio than the one before it, until the interest 
+rate reductions that helped fuel the expansion in debt can no longer continue. The chart below shows the debt and 
+debt service burden (both principal and interest) in the US since 1910. You will note how the interest payments 
+remain flat or go down even when the debt goes up, so that the rise in debt service costs is not as great as the rise 
+in debt. That is because the central bank (in this case, the Federal Reserve) lowers interest rates to keep the 
+debt-financed expansion going until they can’t do it any more (because the interest rate hits 0 percent). When that 
+happens, the deleveraging begins. 
+While the chart gives a good general picture, I should make clear that it is inadequate in two respects: 1) it doesn’t 
+convey the differences between the various entities that make up these total numbers, which are very important to 
+understand, and 2) it just shows what is called debt, so it doesn’t reflect liabilities such as pension and health care 
+obligations, which are much larger. Having this more granular perspective is very important in gauging a country’s 
+vulnerabilities, though for the most part such issues are beyond the scope of this book. 
+0%
+50%
+10 0%
+15 0%
+20 0%
+25 0%
+300%
+350%
+400%
+0%
+1 0 %
+2 0 %
+30%
+40%
+50%
+6 0 %
+70%
+80%
+9 0 %
+10 0%
+1910 1920 1930 1940 1950 1960 1970 1980 1990 20 00 20 10 20 20
+US Total Debt Burdens (%GDP)
+D e b t Se rvic e Inte r e st B u r d e n Amortization D e bt Lev e l (right axis)
+Our Examination of the Cycle
+In developing the template, we will focus on the period leading up to the depression, the depression period itself, 
+and the deleveraging period that follows the bottom of the depression. As there are two broad types of big debt 
+crises—deflationary ones and inflationary ones (largely depending on whether a country has a lot of foreign 
+currency debt or not)—we will examine them separately. 
+The statistics reflected in the charts of the phases were derived by averaging 21 deflationary debt cycle cases and 
+27 inflationary debt cycle cases, starting five years before the bottom of the depression and continuing for seven 
+years after it.

@@ -1,0 +1,23 @@
+hybrid model with dedicated advisors16
+
+In situations involving life changes, tax complexities, or multiple goals, human advisors can step in to ensure that your portfolio is aligned with your needs.
+
+Compliance teams also oversee trades, system behavior, and regulatory communication, ensuring adherence to legal and ethical standards. While automation still handles the routine tasks, humans manage the exceptions, overall strategy, and governance, creating a consistent yet adaptable investment system.
+
+## How Do Robo-Advisors Differ From Traditional Financial Advisors?
+
+Robo-advisors automate portfolio management based on your goals and risk profile, while traditional financial advisors offer personalized, comprehensive financial planning that can accommodate more complex financial situations.
+
+## How Much Do Robo-Advisors Cost?
+
+The typical rates range from 0.25% to 0.50% of assets under management.17 However, some platforms offer tiered pricing or flat monthly fees. There are also fees charged by the underlying ETFs, which are typically low.
+
+## How Secure Is My Data With a Robo-Advisor?
+
+The better robo-advisors use encryption, firewalls, and multifactor authentication. Data is stored on secure cloud servers and monitored continuously. The SEC and FINRA provide oversight to ensure compliance with data protection standards. In addition, robo-advisors generally adhere to the same security models as large financial institutions.
+
+## Can Robo-Advisors Handle Complex Financial Situations?
+
+They are most effective for simple, goal-oriented investing, but can be ineffective with trusts, estate planning, or special tax considerations. Some provide access to human advisors for additional support.
+
+## The Bottom Line

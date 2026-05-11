@@ -1,0 +1,50 @@
+esses. We could adopt the same
+techniques to adjust the public multiple value for illiquidity.
+CONCLUSION
+The value of a private firm is the present value of the cash flows it is expected to generate,
+
+discounted back at a rate that reflects both the risk in the private firm and the mix of debt and equity it
+uses. While this statement is identical to the one used to describe the value of a publicly traded firm,
+there are differences in the way we estimate these inputs for private firms, and even among private
+firms, depending on the motive for the valuation.
+When valuing a private firm for sale to an individual or private entity, we have to consider three
+specific issues. The first is that the cost of equity, which we have hitherto assumed to be determined
+purely by the risk that cannot be diversified, might have to be adjusted for the fact that the potential
+buyer is not well diversified. The second is that equity holdings in private businesses are illiquid,
+leading to a discount on the estimated value. The discounts on restricted stock issues made by
+publicly traded firms or the bid-ask spreads of these firms may provide us with useful information on
+how large this discount should be. The third is that a controlling interest in equity of a private firm
+can trade at a significant premium over a minority interest.
+The valuation of a private firm for sale to a publicly traded firm or initial public offering follows a
+much more conventional route. We can continue to assume that the cost of equity should be based only
+on nondiversifiable risk and there is no need for an illiquidity discount. There can still be a control
+value if less than a controlling interest is sold to the publicly traded firm or if nonvoting shares are
+issued in the initial public offering.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ You have been asked to value Barrista Espresso, a chain of espresso coffee shops that have
+opened on the East Coast of the United States.
+The company had earnings before interest and taxes of $10.50 million in the most recent year
+on revenues of $50 million. However, the founders of the company had never charged
+themselves a salary, which would have amounted to $1 million if based on comparable
+companies.
+The tax rate is 36% for all firms, and working capital is 10% of revenues.
+The capital expenditures in the most recent year amounted to $4.5 million, while depreciation
+was only $1 million.
+Earnings, revenues, and net capital expenditures are expected to grow 30% a year for five
+years, and 6% after that forever.
+The comparable firms have an average beta of 1.3567 and an average D/E ratio of 13.65%.
+The average correlation with the market is 0.50. Barrista Espresso is expected to maintain a
+debt ratio of 12% and face a cost of debt of 8.75%. The risk-free rate is 6%, and the market
+risk premium is 5.5%.
+a.
+ Estimate the value of Barrista Espresso as a firm.
+b.
+ Estimate the value of equity in Barrista Espresso.
+c.
+ Would your valuation be different if you were valuing the firm for an IPO?
+2.
+ You have valued a business, using discounted cash flow models, at $250 million for a private
+sale. The business, which does make money, had revenues of $200 million in the most recent year.
+(The average firm has revenues of $10 million.) How much of a liquidity discount would you

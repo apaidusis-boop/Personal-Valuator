@@ -1,0 +1,21 @@
+3.1
+, which summarizes the assets owned by a firm, the value of these
+assets, and the mix of financing (debt and equity) used to finance these assets at a point in time.
+Figure 3.1
+ The Balance Sheet
+
+The next is the income statement, shown in 
+Figure 3.2
+, which provides information on the revenues
+and expenses of the firm, and the resulting income made by the firm, during a period. The period can
+be a quarter (if it is a quarterly income statement) or a year (if it is an annual report).
+Figure 3.2
+ Income Statement
+Finally, there is the statement of cash flows, shown in 
+Figure 3.3
+, which specifies the sources and
+uses of cash to the firm from operating, investing, and financing activities during a period. The
+statement of cash flows can be viewed as an attempt to explain what the cash flows during a period
+were, and why the cash balance changed during the period.
+Figure 3.3
+ Statement of Cash Flows

@@ -1,0 +1,46 @@
+too volatile and too easily
+
+manipulated to be used as an estimate of value for an asset. This suspicion runs even deeper when
+a value is estimated for an asset based on expected future cash flows.
+3.
+
+A preference for underestimating value rather than overestimating it.
+ When there is more
+than one approach to valuing an asset, accounting convention takes the view that the more
+conservative (lower) estimate of value should be used rather than the less conservative (higher)
+estimate of value. Thus, when both market and book value are available for an asset, accounting
+rules often require that you use the lesser of the two numbers.
+Measuring Asset Value
+The financial statement in which accountants summarize and report asset value is the balance sheet.
+To examine how asset value is measured, let us begin with the way assets are categorized in the
+balance sheet. First there are the fixed assets, which include the long-term assets of the firm, such as
+plant, equipment, land, and buildings. Next, we have the short-term assets of the firm, including
+inventory (raw materials, work in progress, and finished goods, receivables (summarizing moneys
+owed to the firm), and cash; these are categorized as current assets. We then have investments in the
+assets and securities of other firms, which are generally categorized as financial investments. Finally,
+we have what is loosely categorized as intangible assets. These include not only assets such as
+patents and trademarks that presumably will create future earnings and cash flows, but also uniquely
+accounting assets such as goodwill that arise because of acquisitions made by the firm.
+Fixed Assets
+Generally accepted accounting principles (GAAP) in the United States require the valuation of fixed
+assets at historical cost, adjusted for any estimated loss in value from the aging of these assets. While
+in theory the adjustments for aging should reflect the loss of earning power of the asset as it ages, in
+practice they are much more a product of accounting rules and convention, and these adjustments are
+called depreciation. Depreciation methods can very broadly be categorized into straight line (where
+the loss in asset value is assumed to be the same every year over its lifetime) and accelerated (where
+the asset loses more value in the earlier years and less in the later years). While tax rules, at least in
+the United States, have restricted the freedom that firms have on their choices of asset life and
+depreciation methods, firms continue to have a significant amount of flexibility on these decisions for
+reporting purposes. Thus, the depreciation that is reported in the annual reports may not be, and
+generally is not, the same depreciation that is used in the tax statements.
+Since fixed assets are valued at book value and are adjusted for depreciation provisions, the value
+of a fixed asset is strongly influenced by both its depreciable life and the depreciation method used.
+Many firms in the United States use straight-line depreciation for financial reporting while using
+accelerated depreciation for tax purposes, since firms can report better earnings with the former, at
+least in the years right after the asset is acquired.
+1
+ In contrast, firms 
+in other countries often use
+accelerated depreciation for both tax and financial reporting purposes, leading to reported income
+that is understated relative to that of their U.S. counterparts.
+Current Assets

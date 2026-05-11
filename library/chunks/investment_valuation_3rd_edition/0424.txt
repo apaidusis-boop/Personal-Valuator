@@ -1,0 +1,30 @@
+ditional country risk premium of 3% for Brazil), this yields a cost of equity of
+13.40%. Incorporating a pretax cost of debt of 9.50% and a debt ratio of 20% (based on current market values for equity
+
+and debt) results in a cost of capital of 12.05% for Telesp:
+The value for the operating assets can then be estimated as follows:
+Adding the cash and marketable securities (1,557 million BR) and subtracting the debt (5,519 million BR) at the end of 2010
+yields a value for the equity:
+The company's market capitalization in May 2011 was 21,982 million BR, making it fairly priced.
+General Version of the FCFF Model
+Rather than break the free cash flow model into two-stage and three-stage models and risk repeating
+what was said in the preceding chapter, we present the general version of the model in this section.
+We follow up by examining a range of companies—a traditional manufacturing firm (Gerdau Steel), a
+firm with operating leases (Target), and a firm with substantial R&D investments (Amgen)—to
+illustrate the differences and similarities between this approach and the FCFE approach.
+The Model
+The value of the firm, in the most general case, can be written as the present value of expected free
+cash flows to the firm:
+where FCFF
+t
+ = Free cash flow to firm in year t 
+WACC = Weighted average cost of capital
+MARKET VALUE WEIGHTS, COST OF CAPITAL, AND
+CIRCULAR REASONING
+To value a firm, you first need to estimate a cost of capital. Every textbook is categorical that the weights in the cost of
+capital calculation be market value weights. The problem, however, is that the cost of capital is then used to estimate new
+values for debt and equity that might not match the values used in the original calculation. One defense that can be offered
+for this inconsistency is that if you bought all of the debt and equity in a publicly traded firm, you would pay current market
+value and not your estimated value, and your cost of capital reflects this.
+  For those who are bothered by this inconsistency, there is a way out. You could do a conventional valuation using market
+value weights for debt and equity, but then use the estimated values of debt and equity from the valuation to reestimate the

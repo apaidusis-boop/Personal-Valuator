@@ -1,0 +1,15 @@
+top ideas.
+5. Present Discoveries: Present findings and recommendations to stakeholders for approval.
+6. Implement Changes: Launch approved changes with new oversight teams to ensure proper execution.
+
+Value engineering begins by analyzing what a product's lifecycle will look like. This includes a forecast of all the spending and processes related to [manufacturing](https://www.investopedia.com/terms/m/manufacturing.asp), selling, and distributing a product.
+
+Value engineers will often break these considerations down into more manageable data sets. In addition to assigned financial values, value engineers may prioritize processes or elements along a product's manufacturing plan. Value engineering may also call for expectations regarding time, labor, or other resources for different manufacturing stages.
+
+With the core baseline expectations for the product having been documented, it's now time for the value engineering team to consider new, different ways for the product to be developed. This includes trying new approaches, taking risks on things never been done before, or creatively applying existing processes in a new way.
+
+Levering these creative ideas, value engineers will re-imagine how the product will be created and distributed from state to finish. This phase is the "idea-generation" stage where members of the team should be encouraged to brainstorm freely without fear of criticism.
+
+Examples of thinking creatively may include changing the materials used, changing the product's design, removing redundant features, trading off reliability for flexibility, or changing the steps/order of the manufacturing process.
+
+With a bunch of ideas now on the table, it's time to decide which are reasonable and which aren't Each idea is often assessed for its advantages and disadvantages. Instead of focusing on the quantity of each tally, the value engineering team must consider which pros and cons outweigh their counterpart.

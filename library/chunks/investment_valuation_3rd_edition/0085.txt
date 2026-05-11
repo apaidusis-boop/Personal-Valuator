@@ -1,0 +1,48 @@
+s.
+3
+In practical terms, the power law proponents argue that using measures such as volatility (and its
+derivatives such as beta) underestimate the risk of large movements. The power law exponents for
+
+assets, in their view, provide investors with more realistic risk measures for these assets. Assets with
+higher exponents are less risky (since extreme values become less common) than asset with lower
+exponents.
+Mandelbrot’s challenge to the normal distribution was more than a procedural one. Mandelbrot’s
+world, in contrast to the Gaussian mean-variance one, is a world where prices move jaggedly over
+time and look as though they have no pattern at a distance, but where patterns repeat themselves, when
+observed closely. In the 1970s, Mandelbrot created a branch of mathematics called 
+fractal geometry
+where processes are not described by conventional statistical or mathematical measures but by
+fractals; a fractal is a geometric shape that when broken down into smaller parts replicates that shape.
+To illustrate the concept, he uses the example of the coastline that, from a distance, looks irregular
+and up close looks roughly the same—fractal patterns repeat themselves. In fractal geometry, higher
+fractal dimensions translate into more jagged shapes; the rugged Cornish coastline has a fractal
+dimension of 1.25 whereas the much smoother South African coastline has a fractal dimension of
+1.02. Using the same reasoning, stock prices that look random, when observed at longer time
+intervals, start revealing self-repeating patterns, when observed over shorter time periods. More
+volatile stocks score higher on measures of fractal dimension, thus making it a measure of risk. With
+fractal geometry, Mandelbrot was able to explain not only the higher frequency of price jumps
+(relative to the normal distribution) but also long periods where prices move in the same direction
+and the resulting price bubbles.
+Asymmetric Distributions
+Intuitively, it should be downside risk that concerns us and not upside risk. In other words, it is not
+investments that go up significantly that create heartburn and unease but investments that go down
+significantly. The mean-variance framework, by weighting both upside volatility and downside
+movements equally, does not distinguish between the two. With a normal or any other symmetric
+distribution, the distinction between upside and downside risk is irrelevant because the risks are
+equivalent. With asymmetric distributions, though, there can be a difference between upside and
+downside risk. Studies of risk aversion in humans conclude that (1) they are loss averse; that is, they
+weigh the pain of a loss more than the joy of an equivalent gain and (2) they value very large positive
+payoffs—long shots—far more than they should given the likelihood of these payoffs.
+In practice, return distributions for stocks and most other assets are not symmetric. Instead, asset
+returns exhibit fat tails (i.e, more jumps) and are more likely to have extreme positive values than
+extreme negative values (simply because returns are constrained to be no less than –100 percent). As
+a consequence, the distribution of stock returns has a higher incidence of extreme returns (fat tails or
+kurtosis) and a tilt toward very large positive returns (positive skewness). Critics of the mean-
+variance approach argue that it takes too narrow a view of both rewards and risk. In their view, a
+fuller return measure should consider not just the magnitude of expected returns but also the
+likelihood of very large positive returns or skewness, and a more complete risk measure should
+incorporate both variance and the possibility of big jumps (co-kurtosis). Note that even as these
+approaches deviate from the mean-variance approach in terms of how they define risk, they stay true
+to the portfolio measure of risk. In other words, it is not the possibility of large positive payoffs
+(skewness) or big jumps (kurtosis) that they argue should be considered, but only that portion of the
+skewness (co-skewness) and kurtosis (co-kurtosis) that is market-related and not diversifiable.

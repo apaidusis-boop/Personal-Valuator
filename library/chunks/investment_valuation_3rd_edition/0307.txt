@@ -1,0 +1,61 @@
+Models
+Box and Jenkins (1976) developed a procedure for analyzing and forecasting univariate time series
+data using an autoregressive integrated moving average (ARIMA) model. Autoregressive integrated
+
+moving average models model a value in a time series as a linear combination of past values and past
+errors (shocks). Since historical data is used, these models are appropriate as long as the data does
+not show a time trend or a dependence on outside events or variables. ARIMA models are usually
+denoted by the notation:
+where p = Degree of the autoregressive part 
+d = Degree of differencing 
+q = Degree of the moving average process
+The mathematical model can then be written as follows:
+where w
+t
+ = Original data series or difference of degree d of the original data 
+φ
+1
+, φ
+2
+ ... φ
+p
+ = Autoregressive parameters 
+θ
+0
+ = Constant term 
+θ
+1
+, θ
+2
+,... θ
+q
+ = Moving average parameters 
+ε
+t
+ = Independent disturbances, random error
+ARIMA models can also adjust for seasonality in the data, in which case the model is denoted by the
+notation:
+where s = Seasonal parameter of length n
+Time Series Models in Earnings
+Most time series models used in forecasting earnings are built around quarterly earnings per share. In
+a survey paper, Bathke and Lorek (1984) point out that three time-series models have been shown to
+be useful in forecasting quarterly earnings per share. All three models are seasonal autoregressive
+integrated moving average (SARIMA) models, since quarterly earnings per share have a strong
+seasonal component. The first model, developed by Foster (1977), allows for seasonality in earnings
+and is a follows:
+This model was extended by Griffin
+2
+ and Watts
+3
+ to allow for a moving average parameter:
+where θ
+1
+ = First-order moving average [MA(1)] parameter 
+Θ = First-order seasonal moving average parameter 
+ε
+t
+ = Disturbance realization at the end of quarter t
+The third time series model, developed by Brown and Rozeff (1979), is similar in its use of seasonal
+moving average parameter:
+How Good Are Time Series Models at Predicting Earnings?
+Time series models do better than naive models (using past earnings) in predicting earnings per share

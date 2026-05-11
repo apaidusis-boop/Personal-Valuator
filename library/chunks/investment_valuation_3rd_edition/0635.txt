@@ -1,0 +1,42 @@
+estments and the expected excess returns to equity investors from these and future investments.
+The most interesting aspect of this model is its focus on excess returns. A firm that invests its equity
+
+and earns just the fair-market rate of return on these investments should see the market value of its
+equity converge on the equity capital currently invested in it. A firm that earns a below-market return
+on its equity investments will see its equity market value dip below the equity capital currently
+invested.
+The other point that has to be emphasized is that this model considers expected future investments
+as well. Thus it is up to the analyst using the model to forecast not only where the financial service
+firm will direct its future investments but also the returns it will make on those investments.
+Inputs to Model
+There are two inputs needed to value equity in the excess return model. The first is a measure of
+equity capital currently invested in the firm. The second and more difficult input is the expected
+excess returns to equity investors in future periods.
+The equity capital invested currently in a firm is usually measured as the book value of equity in the
+firm. While the book value of equity is an accounting measure and is affected by accounting
+decisions, it should be a much more reliable measure of equity invested in a financial service firm
+than in a manufacturing firm for two reasons. The first is that the assets of a financial service firm are
+often financial assets that are marked up to market; the assets of manufacturing firms are real assets
+and deviations between book and market value are usually much larger. The second is that
+depreciation, which can be a big factor in determining book value for manufacturing firms, is often
+negligible at financial service firms. Notwithstanding this, the book value of equity can be affected by
+stock buybacks and extraordinary or one-time charges. The book value of equity for financial service
+firms that buy back stock or take extraordinary charges may understate the equity capital invested in
+the firm.
+The excess returns, defined in equity terms, can be stated in terms of the return on equity and the
+cost of equity:
+Here again, we are assuming that the return on equity is a good measure of the economic return
+earned on equity investments. When analyzing a financial service firm, we can obtain the return on
+equity from the current period and past periods, but the return on equity that is required is the
+expected future return. This requires an analysis of the firm's strengths and weaknesses as well as the
+competition faced by the firm and changes in regulatory capital requirements.
+In making estimates of expected equity return spreads, we have to allow for the fact that the
+presence of large excess returns is likely to attract competition. These excess returns will fade over
+time and this should be reflected in the forecasts.
+ILLUSTRATION 21.4: Valuing Goldman Sachs with an
+Excess Return Model—May 2011
+In May 2011, Goldman Sachs, perhaps the best-regarded investment bank in the world, was trading at a market capitalization
+for equity of $75.4 billion, just a tad below its book value of equity of $78.228 billion (from the end of 2010).
+To value Goldman Sachs, we begin with the current cost of equity. Using the average beta of 1.20, reported by investment
+banks in 2010, in conjunction with a Treasury bond rate of 3.5% and an equity risk premium of 5%, yields a cost of equity of
+9.5% for the firm:

@@ -1,0 +1,45 @@
+ual to GNP growth (riskfree rate).
+FCFE3st.xls:
+
+This spreadsheet allows you to value a firm with a temporary period of high growth in
+FCFE, followed by a transition period, followed by stable growth.
+
+FCFE VALUATION VERSUS DIVIDEND DISCOUNT
+MODEL VALUATION
+The discounted cash flow model that uses FCFE can be viewed as an alternative to the dividend
+discount model. Since the two approaches sometimes provide different estimates of value, it is worth
+examining when they provide similar estimates of value, when they provide different estimates of
+value, and what the difference tells us about the firm.
+When They Are Similar
+There are two conditions under which the value from using the FCFE in discounted cash flow
+valuation will be the same as the value obtained from using the dividend discount model. The first is
+the obvious one, where the dividends are equal to the FCFE. The second condition is more subtle,
+where the FCFE is greater than dividends, but the excess cash (FCFE minus dividends) is invested in
+projects with net present value of zero. (For instance, investing in financial assets that are fairly
+priced should yield a net present value of zero.)
+When They Are Different
+There are several cases where the two models will provide different estimates of value. First, when
+the FCFE is greater than the dividend and the excess cash either earns below-market interest rates or
+is invested in negative net present value projects, the value from the FCFE model will be greater than
+the value from the dividend discount model. There is reason to believe that this is not as unusual as it
+would seem at first glance. There are numerous case studies of firms that, having accumulated large
+cash balances, by paying out low dividends relative to FCFE, have chosen to use this cash to finance
+unwise takeovers (where the price paid is greater than the value received from the takeover). Second,
+the payment of smaller dividends than can be afforded to be paid out by a firm may lead to a lower
+debt ratio and a higher cost of capital, causing a loss in value.
+In the cases where dividends are greater than FCFE, the firm will have to issue either new stock or
+new debt to pay these dividends leading to at least three negative consequences for value. One is the
+issuance cost on these security issues, which can be substantial for equity issues, creates an
+unnecessary expenditure that decreases value. Second, if the firm borrows the money to pay the
+dividends, the firm may become overlevered (relative to the optimal), exposing itself to
+distress/default and leading to a loss in value. Finally, paying too much in dividends can lead to
+capital rationing constraints where good projects are rejected, resulting in a loss of value.
+There is a third possibility and it reflects different assumptions about reinvestment and growth in
+the two models. If the same growth rate is used in the dividend discount and FCFE models, the FCFE
+model will give a higher value than the dividend discount model whenever FCFE is higher than
+dividends and a lower value when dividends exceed FCFE. In reality, the growth rate in FCFE
+should be different from the growth rate in dividends, because the free cash flow to equity is assumed
+to be paid out to stockholders. This will affect the reinvestment rate of the firm. In addition, the return
+on equity used in the FCFE model should reflect the return on equity on noncash investments, whereas
+the return on equity used in the dividend discount model should be the overall return on equity. 
+Table

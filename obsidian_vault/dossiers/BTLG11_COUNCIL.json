@@ -1,0 +1,181 @@
+{
+  "ticker": "BTLG11",
+  "market": "br",
+  "modo": "D",
+  "sector": "Logística",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Lourdes Aluguel",
+      "agent_slug": "fiis_br_specialist",
+      "title": "FIIs BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "BTLG11 mantém DY sustentável e P/B próximo a 1",
+      "stance": "BUY",
+      "main_argument": "O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+      "supporting_metrics": [
+        "DY=9.2%",
+        "P/B=1.00",
+        "DivStreak=5"
+      ],
+      "concerns": [
+        "P/E de 95,66x sugere alta avaliação",
+        "Necessidade de continuidade do yield sustentável"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "Dividendos sustentáveis e valorização moderada",
+      "stance": "BUY",
+      "main_argument": "BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio entre rendimento e valor intrínseco.",
+      "supporting_metrics": [
+        "P/E=95.66",
+        "DY=9.2%",
+        "ROE=8.6%"
+      ],
+      "concerns": [
+        "P/E elevado",
+        "volatilidade do mercado"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Dividendos sustentáveis e valorização moderada",
+      "stance": "BUY",
+      "main_argument": "BTLG11 oferece yield de 9.2% com histórico de cinco anos de pagamentos, indicando consistência nos dividendos. P/B próximo a 1 sugere valorização em linha com o valor intrínseco.",
+      "supporting_metrics": [
+        "DY=9.2%",
+        "P/B=1.00",
+        "ROE=8.6%"
+      ],
+      "concerns": [
+        "P/E muito elevado (95.66x)",
+        "Possível desaceleração econômica impactando setor de logística"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Dividendos atraentes mas P/E muito elevado",
+      "stance": "HOLD",
+      "main_argument": "BTLG11 oferece yield de 9,2% e relação PB próxima a 1, sugerindo valorização. No entanto, o P/E de 95,66 é excessivamente alto para um investimento seguro.",
+      "supporting_metrics": [
+        "DY=9.2%",
+        "P/B=1.00",
+        "P/E=95.66"
+      ],
+      "concerns": [
+        "P/E muito elevado",
+        "ROE baixo (8,6%)"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio entre rendimento e valor intrínseco.",
+        "Mariana Macro"
+      ],
+      "challenge": [
+        "No entanto, o P/E de 95,66 é excessivamente alto para um investimento seguro.",
+        "Pedro Alocação",
+        "O argumento sobre a possibilidade de desaceleração econômica impactando setor de logística não é sustentado por dados atuais que indiquem uma mudança significativa na demanda ou nas condições do mercado.",
+        "Valentina Prudente"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+        "Lourdes Aluguel"
+      ],
+      "challenge": [
+        "No entanto, o P/E de 95,66 é excessivamente alto para um investimento seguro.",
+        "Pedro Alocação",
+        "O P/E de 95,66x sugere alta avaliação.",
+        "Lourdes Aluguel"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+        "Lourdes Aluguel"
+      ],
+      "challenge": [
+        "No entanto, o P/E de 95,66 é excessivamente alto para um investimento seguro.",
+        "Pedro Alocação",
+        "O P/E elevado sugere alta avaliação | Necessidade de continuidade do yield sustentável",
+        "Lourdes Aluguel"
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+        "Lourdes Aluguel"
+      ],
+      "challenge": [
+        "P/E elevado | volatilidade do mercado",
+        "Mariana Macro - O P/E de 95,66x é extremamente alto e não pode ser justificado por um investimento seguro mesmo em condições favoráveis de mercado."
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxima a 1, indicando valor intrínseco.",
+      "Lourdes Aluguel",
+      "Mariana Macro",
+      "Valentina Prudente"
+    ],
+    "dissent_points": [
+      "X disse A, Y disse B",
+      "Pedro Alocação disse que o P/E de 95,66 é excessivamente alto para um investimento seguro. Lourdes Aluguel e Mariana Macro concordaram com a alta avaliação mas sugeriram que ainda há valor intrínseco.",
+      "Valentina Prudente disse que existe uma preocupação com possíveis desacelerações econômicas, enquanto Lourdes Aluguel argumentou que não há evidências atuais para sustentar essa preocupação."
+    ],
+    "final_stance": "HOLD",
+    "confidence": "medium",
+    "pre_publication_flags": [
+      "P/E de 95.66x é muito elevado e pode indicar uma avaliação alta.",
+      "Necessidade de continuidade do yield sustentável para justificar a posição atual.",
+      "Valentina Prudente"
+    ],
+    "sizing_recommendation": "Pedro Alocação recomenda manter o peso atual na posição, considerando os riscos associados ao P/E elevado."
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Lourdes Aluguel\\reviews\\BTLG11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\BTLG11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\BTLG11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\BTLG11_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 62.66351652145386,
+  "date": "2026-04-30"
+}

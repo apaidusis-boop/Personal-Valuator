@@ -1,0 +1,15 @@
+oughly 90 cents a share for both 2011 and 2012.
+While conventional PE ratios cannot be estimated with negative earnings, there are two ways in which we can still employ
+PE ratios to analyze Amylin:
+1.
+
+Forward PE:
+ Analysts expect the firm's products to start generating significant profits in 2013 and the firm to generate
+earnings per share of $1.25 in 2016. Dividing the price today by the expected earnings per share in 2016 yields a value of
+10.62:
+Note that this PE ratio cannot be compared to the current PE ratios of other traded companies today. For instance, arguing
+that Amylin is cheap because the forward PE of 10.62 is less than Amgen's current PE of 12.42 does not stand up to
+scrutiny because Amgen's earnings are in 2010 and not in 2016. Consequently, to use the forward PE, you would have to
+obtain forecasted EPS in 2016 for each firm in the sector and compute the forward PE for each one. (Amgen's PE based
+on forecasted EPS in 2016 is 7.45, for instance.)
+2.

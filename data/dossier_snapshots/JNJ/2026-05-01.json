@@ -1,0 +1,100 @@
+{
+  "ticker": "JNJ",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "JNJ",
+    "period_end": "2026-04-30",
+    "eps": 8.64,
+    "bvps": 33.735,
+    "roe": 0.26416,
+    "pe": 26.603008,
+    "pb": 6.813399,
+    "dy": 0.022623449475385787,
+    "net_debt_ebitda": 0.9595339068250398,
+    "dividend_streak_years": 65,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 14.251727373685087,
+    "interest_coverage": 42.28115345005149,
+    "debt_to_assets": 0.24061543095226143,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 18.08356,
+    "ev_ebitda": 16.904,
+    "market_cap": 553298821120.0,
+    "fcf_ttm": 12511375360.0,
+    "shares_outstanding": 2407216971.0,
+    "next_ex_date": "2026-05-26",
+    "next_earnings_date": "2026-07-15",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 4,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 4.441920675325796,
+      "zone": "safe",
+      "confidence": "medium",
+      "period_end": "2025-12-31",
+      "notes": [
+        "X2 usa stockholders_equity (retained_earnings missing) — conservative proxy"
+      ]
+    },
+    "beneish": {
+      "m": -2.2871528853555443,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Growth (5/12)",
+    "secondary": "Buffett/Quality (5/12)",
+    "value": 2,
+    "growth": 5,
+    "dividend": 2,
+    "buffett": 5,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 164.80340290666302,
+    "pessimistic_value": 128.479275805902,
+    "optimistic_value": 217.4378642211665,
+    "margin_of_safety_pct": -0.2829958732633581,
+    "current_price": 229.85000610351562
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "P/B elevado de 6.81x",
+    "DY abaixo da média do setor (2.3%)"
+  ],
+  "consensus_points": [
+    "Johnson & Johnson continua a demonstrar consistência financeira e crescimento sustentável, com um histórico inigualável de aumentos de dividendos por 65 anos",
+    "P/E razoável de 26.60x e ROE elevado (26.4%)"
+  ],
+  "dissent_points": [
+    "X disse A, Y disse B"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 27
+}

@@ -1,0 +1,16 @@
+movements, and do not require a lot of estimation find a ready market. While
+the mechanisms are too numerous to list, we focus on two in this chapter that encapsulate most of the
+other approaches.
+1.
+
+Economic value added (EVA),
+ which measures the dollar surplus value created by a firm on its
+existing investment.
+2.
+
+Cash flow return on investment (CFROI)
+, which measures the percentage return made by a
+firm on its existing investments.
+This chapter looks at how each is related to discounted cash flow valuation. It also looks at the
+conditions under which firms using these approaches to judge performance and evaluate managers
+may end up making decisions that destroy value rather than create it.

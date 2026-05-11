@@ -1,0 +1,416 @@
+# Extension Run 2026-05-09 — live status
+
+_Started: 2026-05-09T10:48:21_
+
+Drop `STOP_EXTEND` in repo root to halt at next phase boundary.
+
+Predicted total: ~140min (~2.3h). Calibration log at end.
+
+## Progress
+
+- 10:48:21 **boot** >>> ENTERING 1.backfill_br_intangibles
+- 10:48:21 **1.backfill_br_intangibles** Backfilling intangibles for BR universe (yfinance .SA)
+- 10:48:21 **1.backfill_br_intangibles** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" scripts/backfill_intangibles.py --br-only --sleep 0.3
+- 10:49:03 **1.backfill_br_intangibles**   exit=0  stdout=3931b  stderr=0b
+- 10:49:03 **1.backfill_br_intangibles**   ⏱ predicted=90s actual=42s delta=-48s (-53%)
+- 10:49:03 **boot** <<< EXITING 1.backfill_br_intangibles
+- 10:49:03 **boot** >>> ENTERING 2.recompute_fair_value
+- 10:49:03 **2.recompute_fair_value** Recomputing fair_value for entire universe (with intangibles in inputs_json)
+- 10:49:03 **2.recompute_fair_value** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m scoring.fair_value --all --trigger "extend_2026-05-09"
+- 10:49:06 **2.recompute_fair_value**   exit=0  stdout=17463b  stderr=0b
+- 10:49:06 **2.recompute_fair_value**   ⏱ predicted=180s actual=3s delta=-177s (-99%)
+- 10:49:06 **boot** <<< EXITING 2.recompute_fair_value
+- 10:49:06 **boot** >>> ENTERING 3.recompute_safety
+- 10:49:06 **3.recompute_safety** Recomputing dividend_safety (REIT-aware ROE branch)
+- 10:49:06 **3.recompute_safety** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m scoring.dividend_safety --all
+- 10:49:06 **3.recompute_safety**   exit=0  stdout=2349b  stderr=0b
+- 10:49:06 **3.recompute_safety**   ⏱ predicted=60s actual=0s delta=-60s (-100%)
+- 10:49:06 **boot** <<< EXITING 3.recompute_safety
+- 10:49:06 **boot** >>> ENTERING 4.multi_agent_holdings
+- 10:49:06 **4.multi_agent_holdings** Multi-agent on holdings: 33 tickers
+- 10:49:06 **4.multi_agent_holdings**   SMOKE: us/ABBV
+- 10:49:06 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ABBV --market us
+- 10:50:01 **4.multi_agent_holdings**   exit=0  stdout=323b  stderr=0b
+- 10:50:01 **4.multi_agent_holdings**   smoke OK in 56s, persona_fails=0
+- 10:50:01 **4.multi_agent_holdings**   → us/ACN
+- 10:50:01 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ACN --market us
+- 10:50:54 **4.multi_agent_holdings**   exit=0  stdout=310b  stderr=0b
+- 10:50:54 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception ACN --market us
+- 10:50:55 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:50:55 **4.multi_agent_holdings**   → us/KO
+- 10:50:55 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KO --market us
+- 10:51:48 **4.multi_agent_holdings**   exit=0  stdout=311b  stderr=0b
+- 10:51:48 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception KO --market us
+- 10:51:48 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:51:48 **4.multi_agent_holdings**   → us/JNJ
+- 10:51:48 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic JNJ --market us
+- 10:52:42 **4.multi_agent_holdings**   exit=0  stdout=319b  stderr=0b
+- 10:52:42 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception JNJ --market us
+- 10:52:42 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:52:42 **4.multi_agent_holdings**   → us/O
+- 10:52:42 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic O --market us
+- 10:53:32 **4.multi_agent_holdings**   exit=0  stdout=318b  stderr=0b
+- 10:53:32 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception O --market us
+- 10:53:33 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:53:33 **4.multi_agent_holdings**   → us/BLK
+- 10:53:33 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BLK --market us
+- 10:54:24 **4.multi_agent_holdings**   exit=0  stdout=316b  stderr=0b
+- 10:54:24 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BLK --market us
+- 10:54:25 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:54:25 **4.multi_agent_holdings**   → us/JPM
+- 10:54:25 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic JPM --market us
+- 10:55:17 **4.multi_agent_holdings**   exit=0  stdout=314b  stderr=0b
+- 10:55:17 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception JPM --market us
+- 10:55:17 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:55:17 **4.multi_agent_holdings**   → us/PG
+- 10:55:17 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PG --market us
+- 10:56:09 **4.multi_agent_holdings**   exit=0  stdout=314b  stderr=0b
+- 10:56:09 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PG --market us
+- 10:56:09 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:56:09 **4.multi_agent_holdings**   → us/PLTR
+- 10:56:09 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PLTR --market us
+- 10:57:03 **4.multi_agent_holdings**   exit=0  stdout=322b  stderr=0b
+- 10:57:03 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PLTR --market us
+- 10:57:06 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:57:06 **4.multi_agent_holdings**   → us/XP
+- 10:57:06 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic XP --market us
+- 10:57:58 **4.multi_agent_holdings**   exit=0  stdout=317b  stderr=0b
+- 10:57:58 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception XP --market us
+- 10:57:58 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:57:58 **4.multi_agent_holdings**   → us/TEN
+- 10:57:58 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TEN --market us
+- 10:58:50 **4.multi_agent_holdings**   exit=0  stdout=316b  stderr=0b
+- 10:58:50 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TEN --market us
+- 10:58:50 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:58:50 **4.multi_agent_holdings**   → us/GREK
+- 10:58:50 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GREK --market us
+- 10:59:39 **4.multi_agent_holdings**   exit=0  stdout=321b  stderr=0b
+- 10:59:39 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception GREK --market us
+- 10:59:39 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 10:59:39 **4.multi_agent_holdings**   → us/BRK-B
+- 10:59:39 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BRK-B --market us
+- 11:00:31 **4.multi_agent_holdings**   exit=0  stdout=321b  stderr=0b
+- 11:00:31 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BRK-B --market us
+- 11:00:31 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:00:31 **4.multi_agent_holdings**   → us/NU
+- 11:00:31 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic NU --market us
+- 11:01:26 **4.multi_agent_holdings**   exit=0  stdout=317b  stderr=0b
+- 11:01:26 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception NU --market us
+- 11:01:27 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:01:27 **4.multi_agent_holdings**   → us/PLD
+- 11:01:27 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PLD --market us
+- 11:02:19 **4.multi_agent_holdings**   exit=0  stdout=321b  stderr=0b
+- 11:02:19 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PLD --market us
+- 11:02:19 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:02:19 **4.multi_agent_holdings**   → us/HD
+- 11:02:19 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic HD --market us
+- 11:03:11 **4.multi_agent_holdings**   exit=0  stdout=317b  stderr=0b
+- 11:03:11 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception HD --market us
+- 11:03:11 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:03:11 **4.multi_agent_holdings**   → us/BN
+- 11:03:11 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BN --market us
+- 11:04:04 **4.multi_agent_holdings**   exit=0  stdout=319b  stderr=0b
+- 11:04:04 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BN --market us
+- 11:04:04 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:04:04 **4.multi_agent_holdings**   → us/GS
+- 11:04:04 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GS --market us
+- 11:04:56 **4.multi_agent_holdings**   exit=0  stdout=317b  stderr=0b
+- 11:04:56 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception GS --market us
+- 11:04:56 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:04:56 **4.multi_agent_holdings**   → us/TSLA
+- 11:04:56 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TSLA --market us
+- 11:05:48 **4.multi_agent_holdings**   exit=0  stdout=322b  stderr=0b
+- 11:05:48 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TSLA --market us
+- 11:05:52 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:05:52 **4.multi_agent_holdings**   → us/AAPL
+- 11:05:52 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic AAPL --market us
+- 11:06:43 **4.multi_agent_holdings**   exit=0  stdout=318b  stderr=0b
+- 11:06:43 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception AAPL --market us
+- 11:06:43 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:06:43 **4.multi_agent_holdings**   → us/TSM
+- 11:06:43 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TSM --market us
+- 11:07:37 **4.multi_agent_holdings**   exit=0  stdout=321b  stderr=0b
+- 11:07:37 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TSM --market us
+- 11:07:37 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:07:37 **4.multi_agent_holdings**   → br/LFTB11
+- 11:07:37 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic LFTB11 --market br
+- 11:08:28 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:08:28 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception LFTB11 --market br
+- 11:08:29 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:08:29 **4.multi_agent_holdings**   → br/VALE3
+- 11:08:29 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VALE3 --market br
+- 11:09:22 **4.multi_agent_holdings**   exit=0  stdout=319b  stderr=0b
+- 11:09:22 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception VALE3 --market br
+- 11:09:22 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:09:22 **4.multi_agent_holdings**   → br/BBDC4
+- 11:09:22 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BBDC4 --market br
+- 11:10:17 **4.multi_agent_holdings**   exit=0  stdout=319b  stderr=0b
+- 11:10:17 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BBDC4 --market br
+- 11:10:21 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:10:21 **4.multi_agent_holdings**   → br/ITSA4
+- 11:10:21 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ITSA4 --market br
+- 11:11:14 **4.multi_agent_holdings**   exit=0  stdout=314b  stderr=0b
+- 11:11:14 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception ITSA4 --market br
+- 11:11:14 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:11:14 **4.multi_agent_holdings**   → br/PRIO3
+- 11:11:14 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PRIO3 --market br
+- 11:12:12 **4.multi_agent_holdings**   exit=0  stdout=325b  stderr=0b
+- 11:12:12 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PRIO3 --market br
+- 11:12:17 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:12:17 **4.multi_agent_holdings**   → br/KLBN11
+- 11:12:17 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KLBN11 --market br
+- 11:13:09 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:13:09 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception KLBN11 --market br
+- 11:13:11 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:13:11 **4.multi_agent_holdings**   → br/IVVB11
+- 11:13:11 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic IVVB11 --market br
+- 11:14:04 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:14:04 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception IVVB11 --market br
+- 11:14:06 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:14:06 **4.multi_agent_holdings**   → br/XPML11
+- 11:14:06 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic XPML11 --market br
+- 11:14:58 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:14:58 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception XPML11 --market br
+- 11:15:00 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:15:00 **4.multi_agent_holdings**   → br/VGIR11
+- 11:15:00 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VGIR11 --market br
+- 11:15:52 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:15:52 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception VGIR11 --market br
+- 11:15:54 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:15:54 **4.multi_agent_holdings**   → br/BTLG11
+- 11:15:54 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BTLG11 --market br
+- 11:16:46 **4.multi_agent_holdings**   exit=0  stdout=327b  stderr=0b
+- 11:16:46 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BTLG11 --market br
+- 11:16:47 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:16:47 **4.multi_agent_holdings**   → br/PVBI11
+- 11:16:47 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PVBI11 --market br
+- 11:17:40 **4.multi_agent_holdings**   exit=0  stdout=322b  stderr=0b
+- 11:17:40 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PVBI11 --market br
+- 11:17:44 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:17:44 **4.multi_agent_holdings**   → br/KNHF11
+- 11:17:44 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KNHF11 --market br
+- 11:18:35 **4.multi_agent_holdings**   exit=0  stdout=323b  stderr=0b
+- 11:18:35 **4.multi_agent_holdings** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception KNHF11 --market br
+- 11:18:37 **4.multi_agent_holdings**   exit=0  stdout=90b  stderr=0b
+- 11:18:37 **4.multi_agent_holdings**   ⏱ predicted=2520s actual=1771s delta=-749s (-30%)
+- 11:18:37 **boot** <<< EXITING 4.multi_agent_holdings
+- 11:18:37 **boot** >>> ENTERING 5.multi_agent_watchlist
+- 11:18:37 **5.multi_agent_watchlist** Multi-agent on watchlist top-N: 70 tickers
+- 11:18:37 **5.multi_agent_watchlist**   → us/NFG
+- 11:18:37 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic NFG --market us
+- 11:19:27 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:19:27 **5.multi_agent_watchlist**   → us/BKH
+- 11:19:27 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BKH --market us
+- 11:20:17 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:20:17 **5.multi_agent_watchlist**   → us/RLI
+- 11:20:17 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic RLI --market us
+- 11:21:07 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:21:07 **5.multi_agent_watchlist**   → us/MO
+- 11:21:07 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MO --market us
+- 11:21:57 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:21:57 **5.multi_agent_watchlist**   → us/CLX
+- 11:21:57 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CLX --market us
+- 11:22:47 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:22:47 **5.multi_agent_watchlist**   → us/TROW
+- 11:22:47 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TROW --market us
+- 11:23:39 **5.multi_agent_watchlist**   exit=0  stdout=317b  stderr=0b
+- 11:23:39 **5.multi_agent_watchlist**   → us/MKC
+- 11:23:39 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MKC --market us
+- 11:24:30 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:24:30 **5.multi_agent_watchlist**   → us/FRT
+- 11:24:30 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic FRT --market us
+- 11:25:22 **5.multi_agent_watchlist**   exit=0  stdout=317b  stderr=0b
+- 11:25:22 **5.multi_agent_watchlist**   → us/NWN
+- 11:25:22 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic NWN --market us
+- 11:26:16 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:26:16 **5.multi_agent_watchlist**   → us/ABM
+- 11:26:16 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ABM --market us
+- 11:27:06 **5.multi_agent_watchlist**   exit=0  stdout=322b  stderr=0b
+- 11:27:06 **5.multi_agent_watchlist**   → us/UVV
+- 11:27:06 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic UVV --market us
+- 11:27:57 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:27:57 **5.multi_agent_watchlist**   → us/LEG
+- 11:27:57 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic LEG --market us
+- 11:28:53 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:28:53 **5.multi_agent_watchlist**   → us/MGEE
+- 11:28:53 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MGEE --market us
+- 11:29:51 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 11:29:51 **5.multi_agent_watchlist**   → us/CINF
+- 11:29:51 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CINF --market us
+- 11:30:45 **5.multi_agent_watchlist**   exit=0  stdout=311b  stderr=0b
+- 11:30:45 **5.multi_agent_watchlist**   → us/PPG
+- 11:30:45 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PPG --market us
+- 11:31:36 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:31:36 **5.multi_agent_watchlist**   → us/TGT
+- 11:31:36 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TGT --market us
+- 11:32:26 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:32:26 **5.multi_agent_watchlist**   → us/KMB
+- 11:32:26 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KMB --market us
+- 11:33:18 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:33:18 **5.multi_agent_watchlist**   → us/BF-B
+- 11:33:18 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BF-B --market us
+- 11:34:11 **5.multi_agent_watchlist**   exit=0  stdout=317b  stderr=0b
+- 11:34:11 **5.multi_agent_watchlist**   → us/ED
+- 11:34:11 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ED --market us
+- 11:35:02 **5.multi_agent_watchlist**   exit=0  stdout=313b  stderr=0b
+- 11:35:02 **5.multi_agent_watchlist**   → us/ADP
+- 11:35:02 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ADP --market us
+- 11:35:52 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:35:52 **5.multi_agent_watchlist**   → us/AFL
+- 11:35:52 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic AFL --market us
+- 11:36:42 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:36:42 **5.multi_agent_watchlist**   → us/ERIE
+- 11:36:42 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ERIE --market us
+- 11:37:32 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 11:37:32 **5.multi_agent_watchlist**   → us/CB
+- 11:37:32 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CB --market us
+- 11:38:22 **5.multi_agent_watchlist**   exit=0  stdout=312b  stderr=0b
+- 11:38:22 **5.multi_agent_watchlist**   → us/ES
+- 11:38:22 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ES --market us
+- 11:39:12 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 11:39:12 **5.multi_agent_watchlist**   → us/SCL
+- 11:39:12 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic SCL --market us
+- 11:40:03 **5.multi_agent_watchlist**   exit=0  stdout=322b  stderr=0b
+- 11:40:03 **5.multi_agent_watchlist**   → us/LOW
+- 11:40:03 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic LOW --market us
+- 11:40:56 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:40:56 **5.multi_agent_watchlist**   → us/CVX
+- 11:40:56 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CVX --market us
+- 11:41:46 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:41:46 **5.multi_agent_watchlist**   → us/SJM
+- 11:41:46 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic SJM --market us
+- 11:42:36 **5.multi_agent_watchlist**   exit=0  stdout=322b  stderr=0b
+- 11:42:36 **5.multi_agent_watchlist**   → us/MCD
+- 11:42:36 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MCD --market us
+- 11:43:29 **5.multi_agent_watchlist**   exit=0  stdout=315b  stderr=0b
+- 11:43:29 **5.multi_agent_watchlist**   → us/TFC
+- 11:43:29 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TFC --market us
+- 11:44:21 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:44:21 **5.multi_agent_watchlist**   → us/PEP
+- 11:44:21 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PEP --market us
+- 11:45:13 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:45:13 **5.multi_agent_watchlist**   → us/AWR
+- 11:45:13 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic AWR --market us
+- 11:46:03 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:46:03 **5.multi_agent_watchlist**   → us/CWT
+- 11:46:03 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CWT --market us
+- 11:46:55 **5.multi_agent_watchlist**   exit=0  stdout=316b  stderr=0b
+- 11:46:55 **5.multi_agent_watchlist**   → us/CBSH
+- 11:46:55 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CBSH --market us
+- 11:47:45 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 11:47:45 **5.multi_agent_watchlist**   → us/MSEX
+- 11:47:45 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MSEX --market us
+- 11:48:35 **5.multi_agent_watchlist**   exit=0  stdout=323b  stderr=0b
+- 11:48:35 **5.multi_agent_watchlist**   → br/PETR4
+- 11:48:35 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PETR4 --market br
+- 11:49:28 **5.multi_agent_watchlist**   exit=0  stdout=314b  stderr=0b
+- 11:49:28 **5.multi_agent_watchlist**   → br/POMO3
+- 11:49:28 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic POMO3 --market br
+- 11:50:18 **5.multi_agent_watchlist**   exit=0  stdout=313b  stderr=0b
+- 11:50:18 **5.multi_agent_watchlist**   → br/POMO4
+- 11:50:18 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic POMO4 --market br
+- 11:51:09 **5.multi_agent_watchlist**   exit=0  stdout=313b  stderr=0b
+- 11:51:09 **5.multi_agent_watchlist**   → br/WIZC3
+- 11:51:09 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic WIZC3 --market br
+- 11:51:59 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 11:51:59 **5.multi_agent_watchlist**   → br/CMIG4
+- 11:51:59 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic CMIG4 --market br
+- 11:52:49 **5.multi_agent_watchlist**   exit=0  stdout=317b  stderr=0b
+- 11:52:49 **5.multi_agent_watchlist**   → br/GRND3
+- 11:52:49 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GRND3 --market br
+- 11:53:38 **5.multi_agent_watchlist**   exit=0  stdout=313b  stderr=0b
+- 11:53:38 **5.multi_agent_watchlist**   → br/RBRX11
+- 11:53:38 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic RBRX11 --market br
+- 11:54:30 **5.multi_agent_watchlist**   exit=0  stdout=327b  stderr=0b
+- 11:54:30 **5.multi_agent_watchlist**   → br/RECR11
+- 11:54:30 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic RECR11 --market br
+- 11:55:21 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:55:21 **5.multi_agent_watchlist**   → br/MCRE11
+- 11:55:21 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MCRE11 --market br
+- 11:56:13 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:56:13 **5.multi_agent_watchlist**   → br/KNCR11
+- 11:56:13 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KNCR11 --market br
+- 11:57:06 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:57:06 **5.multi_agent_watchlist**   → br/VGIP11
+- 11:57:06 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VGIP11 --market br
+- 11:57:57 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:57:57 **5.multi_agent_watchlist**   → br/MCCI11
+- 11:57:57 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MCCI11 --market br
+- 11:58:48 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:58:48 **5.multi_agent_watchlist**   → br/RBRY11
+- 11:58:48 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic RBRY11 --market br
+- 11:59:40 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 11:59:40 **5.multi_agent_watchlist**   → br/VRTA11
+- 11:59:40 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VRTA11 --market br
+- 12:00:32 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 12:00:32 **5.multi_agent_watchlist**   → br/ALOS3
+- 12:00:32 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ALOS3 --market br
+- 12:01:24 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:01:24 **5.multi_agent_watchlist**   → br/PLPL3
+- 12:01:24 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PLPL3 --market br
+- 12:02:18 **5.multi_agent_watchlist**   exit=0  stdout=317b  stderr=0b
+- 12:02:18 **5.multi_agent_watchlist**   → br/RDOR3
+- 12:02:18 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic RDOR3 --market br
+- 12:03:12 **5.multi_agent_watchlist**   exit=0  stdout=319b  stderr=0b
+- 12:03:12 **5.multi_agent_watchlist**   → br/TTEN3
+- 12:03:12 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TTEN3 --market br
+- 12:04:05 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 12:04:05 **5.multi_agent_watchlist**   → br/BBSE3
+- 12:04:05 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BBSE3 --market br
+- 12:04:55 **5.multi_agent_watchlist**   exit=0  stdout=327b  stderr=0b
+- 12:04:55 **5.multi_agent_watchlist**   → br/UNIP6
+- 12:04:55 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic UNIP6 --market br
+- 12:05:47 **5.multi_agent_watchlist**   exit=0  stdout=321b  stderr=0b
+- 12:05:47 **5.multi_agent_watchlist**   → br/TIMS3
+- 12:05:47 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TIMS3 --market br
+- 12:06:39 **5.multi_agent_watchlist**   exit=0  stdout=319b  stderr=0b
+- 12:06:39 **5.multi_agent_watchlist**   → br/VIVA3
+- 12:06:39 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VIVA3 --market br
+- 12:07:28 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:07:28 **5.multi_agent_watchlist**   → br/EZTC3
+- 12:07:28 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic EZTC3 --market br
+- 12:08:21 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:08:21 **5.multi_agent_watchlist**   → br/PSSA3
+- 12:08:21 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PSSA3 --market br
+- 12:09:10 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:09:10 **5.multi_agent_watchlist**   → br/TRXF11
+- 12:09:10 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TRXF11 --market br
+- 12:10:02 **5.multi_agent_watchlist**   exit=0  stdout=321b  stderr=0b
+- 12:10:02 **5.multi_agent_watchlist**   → br/GARE11
+- 12:10:02 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GARE11 --market br
+- 12:10:54 **5.multi_agent_watchlist**   exit=0  stdout=319b  stderr=0b
+- 12:10:54 **5.multi_agent_watchlist**   → br/VISC11
+- 12:10:54 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VISC11 --market br
+- 12:11:43 **5.multi_agent_watchlist**   exit=0  stdout=325b  stderr=0b
+- 12:11:43 **5.multi_agent_watchlist**   → br/HGLG11
+- 12:11:43 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic HGLG11 --market br
+- 12:12:34 **5.multi_agent_watchlist**   exit=0  stdout=319b  stderr=0b
+- 12:12:34 **5.multi_agent_watchlist**   → br/BRCO11
+- 12:12:34 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BRCO11 --market br
+- 12:13:26 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 12:13:26 **5.multi_agent_watchlist**   → br/XPLG11
+- 12:13:26 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic XPLG11 --market br
+- 12:14:17 **5.multi_agent_watchlist**   exit=0  stdout=320b  stderr=0b
+- 12:14:17 **5.multi_agent_watchlist**   → br/B3SA3
+- 12:14:17 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic B3SA3 --market br
+- 12:15:07 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:15:07 **5.multi_agent_watchlist**   → br/ITUB4
+- 12:15:07 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ITUB4 --market br
+- 12:15:57 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:15:57 **5.multi_agent_watchlist**   → br/MULT3
+- 12:15:57 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic MULT3 --market br
+- 12:16:47 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:16:47 **5.multi_agent_watchlist**   → br/SUZB3
+- 12:16:47 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic SUZB3 --market br
+- 12:17:38 **5.multi_agent_watchlist**   exit=0  stdout=322b  stderr=0b
+- 12:17:38 **5.multi_agent_watchlist**   → br/BBAS3
+- 12:17:38 **5.multi_agent_watchlist** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BBAS3 --market br
+- 12:18:29 **5.multi_agent_watchlist**   exit=0  stdout=318b  stderr=0b
+- 12:18:29 **5.multi_agent_watchlist**   ⏱ predicted=5400s actual=3592s delta=-1808s (-33%)
+- 12:18:29 **boot** <<< EXITING 5.multi_agent_watchlist
+- 12:18:29 **boot** >>> ENTERING 6.final_report
+- 12:18:29 **6.final_report** Building final report
+- 12:18:29 **6.final_report**   ⏱ predicted=30s actual=0s delta=-30s (-99%)
+- 12:18:29 **6.final_report**   master report: obsidian_vault\Bibliotheca\Extension_Run_2026-05-09.md
+- 12:18:29 **boot** <<< EXITING 6.final_report
+- 12:18:29 **boot** === EXTENSION RUN DONE ===

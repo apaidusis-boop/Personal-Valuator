@@ -1,0 +1,45 @@
+nted Cash Flow Valuation
+This approach has its foundation in the present value rule, where the value of any asset is the present
+value of expected future cash flows on it.
+where n = Life of the asset 
+
+CF
+t
+ = Cash flow in period t 
+r = Discount rate reflecting the riskiness of the estimated cash flows
+The cash flows will vary from asset to asset—dividends for stocks, coupons (interest) and the face
+value for bonds, and after-tax cash flows for a real project. The discount rate will be a function of the
+riskiness of the estimated cash flows, with higher rates for riskier assets and lower rates for safer
+projects.
+You can in fact think of discounted cash flow valuation on a continuum. At one end of the spectrum
+you have the default-free zero coupon bond, with a guaranteed cash flow in the future. Discounting
+this cash flow at the riskless rate should yield the value of the bond. A little further up the risk
+spectrum are corporate bonds where the cash flows take the form of coupons and there is default risk.
+These bonds can be valued by discounting the cash flows at an interest rate that reflects the default
+risk. Moving up the risk ladder, we get to equities, where there are expected cash flows with
+substantial uncertainty around the expectations. The value here should be the present value of the
+expected cash flows at a discount rate that reflects the uncertainty.
+Underpinnings of Discounted Cash Flow Valuation
+In discounted cash flow valuation, we try to estimate the intrinsic value of an asset based on its
+fundamentals. What is intrinsic value? For lack of a better definition, consider it the value that would
+be attached to the firm by an unbiased analyst, who not only estimates the expected cash flows for the
+firm correctly, given the information available at the time, but also attaches the right discount rate to
+value these cash flows. Hopeless though the task of estimating intrinsic value may seem to be,
+especially when valuing young companies with substantial uncertainty about the future, making the
+best estimates that you can and persevering to estimate value can still pay off because markets make
+mistakes. While market prices can deviate from intrinsic value (estimated based on fundamentals),
+you are hoping that the two will converge sooner rather than later.
+Categorizing Discounted Cash Flow Models
+There are literally thousands of discounted cash flow models in existence. Investment banks or
+consulting firms often claim that their valuation models are better or more sophisticated than those
+used by their contemporaries. Ultimately, however, discounted cash flow models can vary only a
+couple of dimensions.
+Equity Valuation and Firm Valuation
+There are two paths to valuation in a business: The first is to value just the equity stake in the
+business, while the second is to value the entire business, which includes, besides equity, the other
+claimholders in the firm (bondholders, preferred stockholders). While both approaches discount
+expected cash flows, the relevant cash flows and discount rates are different under each. 
+Figure 2.1
+captures the essence of the two approaches.
+Figure 2.1
+ Equity versus Firm Valuation

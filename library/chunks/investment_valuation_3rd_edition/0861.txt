@@ -1,0 +1,25 @@
+not all options, even if they do exist, have
+significant value. To assess whether an investment creates valuable options that need to be analyzed
+and valued, we need to answer three key questions.
+1.
+
+Is the first investment a prerequisite for the later investment/expansion? If not, how
+necessary is the first investment for the later investment/expansion?
+ Consider our earlier
+analysis of the value of a patent or the value of an undeveloped oil reserve as options. A firm
+cannot generate patents without investing in research or paying another firm for the patents, and it
+cannot get rights to an undeveloped oil reserve without spending on exploration, bidding on it at a
+government auction, or buying it from another oil company. Clearly, the initial investment here
+(spending on R&D, bidding at the auction) is required for the firm to have the second investment.
+Now consider the Ambev investment in a limited introduction and the option to expand into the
+U.S. market later. The initial investment provides Ambev with information about market potential,
+without which presumably it is unwilling to expand into the larger market. Unlike the patent and
+undeveloped reserves examples, the initial investment is not a prerequisite for the second, though
+management might view it as such. The connection gets even weaker, and the option value lower,
+when we look at one firm acquiring another to have the option to be able to enter a large market.
+Acquiring a social media company in order to have a foothold in the social media market or
+buying a Chinese brewery to preserve the option to enter the Chinese beer market would be
+examples of less defensible options.
+2.
+
+Does the firm have an exclusive right to the later investment/expansion? If not, does the

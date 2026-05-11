@@ -1,0 +1,41 @@
+rger, note that synergy was one of the stated reasons for the acquisition. To value this
+synergy, we needed to first value Compaq as a standalone firm. To do this, the following assumptions were made:
+
+Compaq had earnings before interest and taxes of $2,987 million on revenues of $25,484 million. The tax rate
+for the firm is 36%.
+The firm had capital expenditures of $729 million and depreciation of $545 million in the most recent year;
+working capital is 15% of revenues.
+The firm had a debt-to-capital ratio of 10%, a beta of 1.25, and an after-tax cost of debt of 5%.
+The operating income, revenues, and net capital expenditures are all expected to grow 10% a year for the
+next five years.
+After year 5, operating income and revenues are expected to grow 5% a year forever, and capital
+expenditures are expected to be 110% of depreciation. In addition, the firm will raise its debt ratio to 20%, the
+after-tax cost of debt will drop to 4%, and the beta will drop to 1.00.
+Based on these inputs, the value of the firm can be estimated as follows:
+The value of Compaq is $38.547 billion.
+The value of the combined firm (Compaq and Digital), with no synergy, should be the sum of the values of the firms valued
+independently. To avoid double counting the value of control, we add the value of Digital, optimally managed, that was
+estimated in Illustration 25.2, to the value of Compaq to arrive at the value of the combined firm:
+Value of Digital (optimally managed)
+$4,531.59 million
+Value of Compaq (status quo)
+$38,546.91 million
+Value of combined firm
+$43,078.50 million
+This would be the value of the combined firm in the absence of synergy.
+To value the synergy, we made the following assumptions about the way in which synergy would affect cash flows and
+discount rates at the combined firm:
+The combined firm will have some economies of scale, allowing it to increase its current after-tax operating
+margin slightly. The annual dollar savings will be approximately $100 million. This will translate into a slightly
+higher pretax operating margin: 
+The combined firm will also have a slightly higher growth rate of 10.50% in revenues, operating income, and
+net cap ex over the next five years because of operating synergies.
+The beta of the combined firm was computed in three steps. We first estimated the unlevered betas for
+Digital and Compaq: 
+We then weighted these unlevered betas by the values of these firms to estimate an unlevered beta for the combined firm;
+Digital has a firm value of $4.5 billion, and Compaq's firm value was $38.6 billion.
+7
+We then used the debt-to-equity ratio for the combined firm to estimate a new levered beta and cost of capital for the firm.
+The debt-to-equity ratio for the combined firm, estimated by cumulating the outstanding debt and market value of equity at
+the two firms, is 13.64%:
+Based on these assumptions, the cash flows and value of the combined firm, with synergy, can be estimated:

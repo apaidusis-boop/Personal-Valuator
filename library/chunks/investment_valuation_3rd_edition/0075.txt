@@ -1,0 +1,44 @@
+he historical estimates may not be good measures of risk.
+optvar.xls:
+
+This is a dataset on the Web that summarizes standard deviations and variances of stocks in
+various sectors in the United States.
+
+Diversifiable and Nondiversifiable Risk
+Although there are many reasons why actual returns may differ from expected returns, we can group
+the reasons into two categories: firm-specific and marketwide. The risks that arise from firm-specific
+actions affect one or a few investments, while the risks arising from marketwide reasons affect many
+or all investments. This distinction is critical to the way we assess risk in finance.
+Components of Risk
+When an investor buys stock or takes an equity position in a firm, he or she is exposed to many risks.
+Some risk may affect only one or a few firms, and this risk is categorized as firm-specific risk. Within
+this category, we would consider a wide range of risks, starting with the risk that a firm may have
+misjudged the demand for a product from its customers; we call this project risk. For instance,
+consider Boeing’s investment in a Super Jumbo jet. This investment is based on the assumption that
+airlines want a larger airplane and are willing to pay a high price for it. If Boeing has misjudged this
+demand, it will clearly have an impact on Boeing’s earnings and value, but it should not have a
+significant effect on other firms in the market. The risk could also arise from competitors proving to
+be stronger or weaker than anticipated, called competitive risk. For instance, assume that Boeing and
+Airbus are competing for an order from Qantas, the Australian airline. The possibility that Airbus
+may win the bid is a potential source of risk to Boeing and perhaps some of its suppliers, but again,
+few other firms will be affected by it. Similarly, Disney recently launched magazines aimed at
+teenage girls, hoping to capitalize on the success of its TV shows. Whether it succeeds is clearly
+important to Disney and its competitors, but it is unlikely to have an impact on the rest of the market.
+In fact, risk measures can be extended to include risks that may affect an entire sector but are
+restricted to that sector; we call this sector risk. For instance, a cut in the defense budget in the United
+States will adversely affect all firms in the defense business, including Boeing, but there should be no
+significant impact on other sectors. What is common across the three risks described—project,
+competitive, and sector risk—is that they affect only a small subset of firms.
+There is another group of risks that is much more pervasive and affects many if not all investments.
+For instance, when interest rates increase, all investments are negatively affected, albeit to different
+degrees. Similarly, when the economy weakens, all firms feel the effects, though cyclical firms (such
+as automobiles, steel, and housing) may feel it more. We term this risk market risk.
+Finally, there are risks that fall in a gray area, depending on how many assets they affect. For
+instance, when the dollar strengthens against other currencies, it has a significant impact on the
+earnings and values of firms with international operations. If most firms in the market have significant
+international operations, it could well be categorized as market risk. If only a few do, it would be
+closer to firm-specific risk. 
+Figure 4.4
+ summarizes the spectrum of firm-specific and market risks.
+Figure 4.4
+ Breakdown of Risk

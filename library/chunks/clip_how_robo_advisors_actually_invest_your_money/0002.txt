@@ -1,0 +1,13 @@
+backend is very technical, the user interface should include a dashboard that makes it easy to see the value of your accounts, your progress toward your goals, and the performance of your investments.
+
+While minimal, human control still plays a critical role. With Betterment and Schwab Intelligent Portfolios, for example, investment committees review any major fund changes to help ensure that its robo-advisory systems keep up with changes in the markets and regulations.
+
+## How Robo-Advisors Select Investments
+
+Before building your portfolio, robo-advisors gather data on your goals and through onboarding questionnaires. This information shapes a model portfolio aligned with your financial profile.
+
+When you sign up with a robo-advisor, the site will gather information about your age, income, objectives, [time horizon](https://www.investopedia.com/terms/t/timehorizon.asp), and risk tolerance. They use online questionnaires completed by investors to assign a risk profile and recommend a model portfolio.
+
+Financial decisions are primarily based on [modern portfolio theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp), behavioral finance, and passive investing. These frameworks help determine how to spread assets across different sectors and risk levels while minimizing costs.3 The algorithms map your risk level to a diversified mix of low-cost exchange-traded funds ([ETFs](https://www.investopedia.com/terms/e/etf.asp)) that cover various asset categories, including U.S. large-cap and international equities, bonds, municipal bonds, and real estate.
+
+Betterment says that it selects ETFs based on overall cost and reliability. It says it also looks for trading ease, lower fees, and how closely each fund tracks its benchmark.8 [Wealthfront](https://www.investopedia.com/wealthfront-review-4587933) uses the [capital asset pricing model](https://www.investopedia.com/terms/c/capm.asp) and the Black-Litterman approach to estimate expected returns.9

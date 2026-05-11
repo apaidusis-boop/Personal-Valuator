@@ -1,0 +1,71 @@
+# config/sources_priority.yaml — declarative fallback cascade for data sources.
+#
+# Quem usa: fetchers/_fallback.py::fetch_with_fallback(market, kind, ticker, ...)
+# orquestra a cascata. Cada fetcher individual continua executável standalone
+# (sem mudar API existente); o wrapper apenas coordena.
+#
+# Convenção: a primeira entrada da lista é o primário. Falha → next. A última
+# que falhar levanta DataFetchError e o caller decide (skip / cache stale / abort).
+#
+# Política: NÃO inventar uma fonte se ela não existir no código (`fetchers/`).
+# Cada slug aqui DEVE ter implementação registada em fetchers/_fallback.py::REGISTRY.
+
+br:
+  prices:
+    - yfinance        # yf_br_fetcher.py
+  fundamentals:
+    - yfinance        # yf_br_fetcher.py — primário desde 2026-04-19 (brapi removido em c807140)
+    - status_invest   # status_invest_mcp_fetcher.py (FII / fallback narrativo via MCP)
+  dividends:
+    - yfinance        # yf_br_fetcher.py
+    - fii_statusinvest # FIIs apenas (fii_statusinvest_scraper.py)
+  macro:
+    - bcb_sgs         # bcb_fetcher.py (Selic, CDI, IPCA, PTAX)
+  filings:
+    - cvm             # monitors/cvm_monitor.py + cvm_pdf_extractor.py
+
+us:
+  prices:
+    - yfinance        # yf_us_fetcher.py — primário (free, histórico longo)
+    - massive         # fetchers/massive_fetcher.py — ex-Polygon, MASSIVE_API_KEY
+    - eodhd           # SKELETON em fetchers/_clients.py — requires EODHD_API_KEY
+  fundamentals:
+    - yfinance        # yf_us_fetcher.py (info dict)
+    - yf_deep         # fetchers/yf_deep_fundamentals.py (DataFrames financials/balance_sheet/cashflow)
+    - fmp             # SKELETON em fetchers/_clients.py — requires FMP_API_KEY
+  dividends:
+    - yfinance        # yf_us_fetcher.py
+    - sec_edgar       # fetchers/sec_edgar_fetcher.py (declared dividends)
+  analyst:
+    - fmp             # SKELETON — FMP analyst estimates
+    - benzinga        # SKELETON — via MASSIVE_API_KEY ou BENZINGA_API_KEY
+  macro:
+    - fred            # fetchers/fred_fetcher.py
+  filings:
+    - sec             # monitors/sec_monitor.py (8-K / 10-K / DEF 14A)
+
+# Cache TTLs: quanto tempo um valor cached é considerado fresh (live).
+# Após o TTL ele continua disponível como stale fallback (com flag DEGRADED).
+# Usado por fetchers/_cache.py.
+cache:
+  ttl_hours:
+    prices: 24       # market closes daily; 24h cobre weekend
+    fundamentals: 72 # quarterlies update infrequently
+    dividends: 168   # weekly update cycle
+    macro: 168       # central banks publish weekly
+    filings: 24      # CVM/SEC daily polling
+    analyst: 24      # consensus shifts on earnings dates
+
+# Guards: thresholds usados pelos fetchers para rejeitar valores absurdos.
+# Mantém-se aqui (não em código) para serem ajustáveis sem deploy.
+guards:
+  prices:
+    intraday_jump_max_ratio: 2.0    # close hoje / close anterior > 2.0 → reject
+    intraday_drop_min_ratio: 0.5    # close hoje / close anterior < 0.5 → reject
+    volume_spike_max_x_median: 10.0 # volume hoje / mediana 30d > 10× → reject (NOVO)
+  fundamentals:
+    pe_max_sane: 1000               # P/E > 1000 → quase certamente bug yfinance (NOVO)
+    pb_max_sane: 100                # P/B > 100 → idem (NOVO)
+    roe_max_sane: 5.0               # ROE > 500% → outlier ridículo (NOVO)
+    dy_max_sane: 0.25               # DY > 25% → bug (já existia, formalizado aqui)
+    dy_min_sane: 0.0                # DY negativo → bug (NOVO)

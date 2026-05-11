@@ -1,0 +1,17 @@
+additional tool in the toolkit, but understand that they are not perfect, and they will be wrong at times along the way. An investment decision should not be based solely on any one number like these.
+
+These numbers are estimates of probability, so they might be wrong because of an error in our model or the underlying data. Alternatively, we could be absolutely correct about our model, but the actual performance could be one of the less probable outcomes than the estimated range we publish.
+
+We strive for the data, model, and estimates to be accurate and up to date, but please be aware there may be instances in which the process or outputs could be inaccurate or incomplete.
+
+We expect and aim for the estimates to be updated at least once per year, but that is not guaranteed, and the frequency of updates could shift.
+
+Our commitment is to continue improving these tools and insights to help our members make more informed investment decisions. We are Fools, and we hope you find these tools and insights useful on your financial journey.
+
+### How to Use These Metrics
+
+**To understand risk and reward:** What kind of ride should you buckle up for if you decide to add shares to your portfolio? Our quant return and risk estimates are designed to give you a snapshot of a stock's likely performance characteristics for the year ahead.
+
+**To help decide if a stock is right for you:** What's more important than buying the right stock? Sometimes, it's *not buying* the wrong stock! Because our estimates are designed to provide you with our quant team's "best guess" at a stock's likely return stats, they can help you identify stocks that don't fit well with your investor type.
+
+When you're evaluating a stock for your portfolio, if you're not comfortable with seeing annual returns that fall within our expected return range or potentially enduring a one-year drawdown on the scale of our estimated maximum drawdown, the stock might not be right for you.

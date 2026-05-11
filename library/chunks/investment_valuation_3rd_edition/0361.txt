@@ -1,0 +1,45 @@
+t you have forecast in future years.
+Should You or Should You Not Discount Value for Survival?
+For firms that have substantial assets in place and relatively small probabilities of distress, the first
+
+view is the more appropriate one. Attaching an extra discount for nonsurvival is double counting risk.
+For younger and smaller firms, it is a tougher call and depends on whether expected cash flows
+incorporate the probability that these firms may not make it past the first few years. If they do, the
+valuation already reflects the likelihood that the firms will not survive past the first few years. If they
+do not, you do have to discount the value for the likelihood that the firm will not survive the near
+future. One way to estimate this discount is to estimate a probability of failure, and adjust the
+operating asset value for this probability:
+For a firm with a discounted cash flow value of $1 billion on its assets, a distress sale value of $500
+million and a 20 percent probability of distress, the adjusted value would be $900 million:
+There are two points worth noting here. It is not the failure to survive per se that causes the loss of
+value but the fact that the distressed sale value is at a discount on the fair value. The second is that
+this approach requires estimating the probability of failure. This probability is difficult to estimate
+because it will depend upon both the magnitude of the cash reserves of the firm (relative to its cash
+needs) and the state of the market. In buoyant equity markets, even firms with little or no cash can
+survive because they can access markets for more funds. Under more negative market conditions,
+even firms with significant cash balances may find themselves under threat.
+ESTIMATING THE PROBABILITY OF DISTRESS
+There are two ways in which we can estimate the probability that a firm will not survive. One is to draw on the past, look at
+firms that have failed, compare them to firms that did not, and look for variables that seem to set them apart. For instance,
+firms with high debt ratios and negative cash flows from operations may be more likely to fail than firms without these
+characteristics. In fact, you can use statistical techniques such as probits to estimate the probability that a firm will fail. To
+run a probit, you would begin, for instance, with all listed firms in 1990 and their financial characteristics, identify the firms
+that failed during the 1991–1999 time period and then estimate the probability of failure as a function of variables that were
+observable in 1990. The output, which resembles regression output, will then let you estimate the probability of default for
+any firm today.
+The other way of estimating the probability of default is to use the bond rating for the firm, if it is available. For instance,
+assume that Tesla Motors has a B rating. An empirical examination of B-rated bonds over the past 
+decade reveals that the
+likelihood of default with this rating is 36.80 percent.
+5
+ While this approach is simpler, it is limiting insofar as it can be used
+only for rated firms, and it assumes that the standards used by ratings agencies have not changed significantly over time.
+CLOSING THOUGHTS ON TERMINAL VALUE
+The role played by the terminal value in discounted cash flow valuations has often been the source of
+much of the criticism of the discounted cash flow approach. Critics of the approach argue that too
+great a proportion of the discounted cash flow value comes from the terminal value and that it is easy
+to manipulate the terminal value to yield any number you want. They are wrong on both counts.
+It is true that a large portion of the value of any stock or equity in a business comes from the
+terminal value, but it would be surprising if it were not so. When you buy a stock or invest in the
+equity in a business, consider how you get your returns. Assuming that your investment is a good
+investment, the bulk of the returns come not while you hold the equity (from dividends or other cash

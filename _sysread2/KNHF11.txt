@@ -1,0 +1,103 @@
+
+[GRAHAM] KNHF11 (br):
+  verdict: HOLD    score: 0.8
+    {
+      "kind": "br_fii",
+      "details": {
+        "dividend_yield": {
+          "value": 0.1202,
+          "threshold": 0.08,
+          "verdict": "pass"
+        },
+        "price_to_book": {
+          "value": 0.98,
+          "threshold": 1.05,
+          "verdict": "pass"
+        },
+        "vacancy": {
+          "value": null,
+          "threshold": 0.15,
+          "verdict": "n/a",
+          "reason": "vacância física em falta"
+        },
+        "distribution_streak": {
+          "value": 1,
+          "threshold": 12,
+          "verdict": "fail"
+        },
+        "liquidity": {
+          "value": 2800000.0,
+          "threshold": 500000,
+          "verdict": "pass"
+        },
+        "spread_selic_real": {
+
+[BUFFETT] KNHF11 (br):
+  verdict: N/A    score: 0.0
+    {
+      "reason": "Buffett engine only handles US; for BR use Graham"
+    }
+
+[DRIP] KNHF11 (br):
+  verdict: AVOID    score: 0.25
+    {
+      "safety_score": 25.0,
+      "safety_verdict": "RISK",
+      "components": [
+        {
+          "name": "payout_ratio",
+          "score": 15,
+          "weight": 35,
+          "value": 0.8620689655172414,
+          "verdict": "WATCH"
+        },
+        {
+          "name": "roe_level",
+          "score": null,
+          "weight": 20,
+          "value": null,
+          "verdict": "n/a"
+        },
+        {
+          "name": "streak_years",
+          "score": 0,
+          "weight": 25,
+          "value": 4,
+          "verdict": "RISK"
+        },
+        {
+          "name": "net_debt_ebitda_fii_skip",
+          "score": null,
+          "weight": 20,
+          "value": null,
+
+[MACRO] KNHF11 (br):
+  verdict: HOLD    score: 0.6667
+    {
+      "regime": "expansion",
+      "regime_confidence": "low",
+      "sector": "híbrido",
+      "tilt": "neutral",
+      "multiplier": 1.0,
+      "regime_notes": "growth narrative; cyclicals over defensives"
+    }
+
+[HEDGE] KNHF11 (br):
+  verdict: HOLD    score: 1.0
+  msg: No tactical hedge active in current regime
+    {
+      "market": "br",
+      "regime": "expansion",
+      "confidence": "low",
+      "hedge_size_pct": 0.0,
+      "instruments": [],
+      "notional": null,
+      "rationale": [
+        "sinais mistos — default expansion"
+      ],
+      "cross_asset_alternatives": [
+        "GLD",
+        "TLT"
+      ],
+      "active": false
+    }

@@ -1,0 +1,31 @@
+ing expense every three years has amounted to $1.5 billion, on
+average, the operating income for the current year should be reduced by $0.5 billion to reflect the
+annual charge due to this expense.
+3.
+
+Expenses and income that recur every year but with considerable volatility.
+ The best way to
+deal with such items is to normalize them by averaging the expenses across time and reducing this
+year's income by this amount.
+4.
+
+Items that recur every year that change signs—positive in some years and negative in
+others.
+ Consider, for instance, the effect of foreign currency translations on income. For a firm in
+the United States, the effect may be negative in years in which the dollar gets stronger and positive
+in years in which the dollars gets weaker. The most prudent thing to do with these expenses would
+be to ignore them for cash flow purposes; you may or may not adjust discount rates for the risk
+created by the variability.
+To differentiate between these items requires that you have access to a firm's financial history. For
+young firms, this may not be available, making it more difficult to draw the line between expenses that
+should be ignored, expenses that should be normalized, and expenses that should be considered in
+full.
+Adjusting for Acquisitions and Divestitures
+Acquisition accounting can wreak havoc on reported earnings for years after an acquisition. The most
+common by-product of acquisitions is the amortization of goodwill. This amortization can reduce
+reported 
+income in subsequent periods. Should we consider amortization to be an operating expense?
+We think not, since it is both a noncash and often a non-tax-deductible charge. The safest route to
+follow with goodwill amortization is to look at earnings prior to the amortization.
+Technology companies have used an unusual ploy to get the goodwill created when a premium is
+paid over book value off their books. Using the argument that the bulk of the market value paid for

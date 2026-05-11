@@ -1,0 +1,43 @@
+invest to create future growth, and the quality of these reinvestments. Other things remaining equal,
+firms that reinvest well and earn significant excess returns on these investments will have higher
+
+value. The final component of value is the cost of capital, with higher costs or capital resulting in
+lower firm values. To create value, then, a firm has to:
+Generate higher cash flows from existing assets, without affecting its growth prospects or its
+risk profile.
+Reinvest more and with higher excess returns, without increasing the riskiness of its assets.
+Reduce the cost of financing its assets in place or future growth, without lowering the
+returns made on these investments.
+All value enhancement measures are variants on these simple themes. Whether these approaches
+measure dollar excess returns, as does economic value added, or percentage excess returns, like
+CFROI, they have acquired followers because they seem simpler and less subjective than discounted
+cash flow valuation. This simplicity comes at a cost, since these approaches make subtle assumptions
+about other components of value that are often not visible or not recognized by many users.
+Approaches that emphasize economic value added and reward managers for increasing the same often
+assume that increases in economic value added are not being delivered at the expense of future
+growth or by increasing risk. Practitioners who judge performance based on the cash flow return on
+investment make similar assumptions.
+Is there something of value in the new value enhancement measures? Absolutely, but only in the
+larger context of valuation. One of the inputs we need for traditional valuation models is the return on
+capital (to get expected growth). Making the adjustments to operating income suggested by those who
+use economic value added and augmenting it with a cash flow return, with CFROI, may help us come
+up with a better estimate of this number. The terminal value computation in traditional valuation
+models, where small changes in assumptions can lead to large changes in value, becomes much more
+tractable if we think in terms of excess returns on investments rather than just growth and discount
+rates. Finally, the empirical evidence that has been collected by practitioners who use CFROI on fade
+factors can be invaluable in traditional valuation models, where practitioners sometimes make the
+mistake of assuming that current returns will continue forever.
+CONCLUSION
+This chapter considers two widely used value enhancement measures. Economic value added
+measures the dollar excess return on existing assets. The cash flow return on investment is the internal
+rate of return on existing assets, based on the original investment in these assets and the expected
+future cash flows. While both approaches can lead to conclusions consistent with traditional
+discounted cash flow valuation, their simplicity comes at a cost. Managers can take advantage of
+measurement limitations in both approaches to make their firms look better with either approach
+while reducing firm value. In particular, they can trade off less growth in the future for higher
+economic value added today and shift to riskier investments.
+As we look at various approaches to value enhancement, we should consider a few facts. The first
+is that no value enhancement mechanism will work at generating value unless there is a commitment
+on the part of managers to making value maximization their primary objective. If managers put other
+goals first, then no value enhancement mechanism will work. Conversely, if managers truly care about
+value maximization, they can make almost any mechanism work in their favor. The second is that

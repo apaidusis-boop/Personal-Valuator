@@ -1,0 +1,21 @@
+worth more as a commercial product than as a
+patent if there were less than eight years left on the patent, which would also then be the optimal time to commercially
+develop the product.
+product.xls:
+
+This spreadsheet allows you to estimate the value of a patent.
+COMPETITIVE PRESSURES AND OPTION VALUES
+The preceding section has taken the view that a firm is protected from competition for the life of the patent. This is generally
+true only for the patented product or process, but the firm may still face competition from other firms that come up with their
+own products to serve the same market. More specifically, Biogen can patent Avonex, but Merck or Pfizer can come up
+with their own drugs to treat multiple sclerosis and compete with Biogen.
+  What are the implications for the value of the patent as an option? First, the life of the option will no longer be the life of the
+patent but the lead time that the firm believes it has until a competing product is developed. For instance, if Biogen knows
+that another pharmaceutical firm is working on a drug to treat MS and where this drug is in the research pipeline (early
+research or stage in the FDA approval process), it can use its estimate of how long it will take before the drug is approved
+for use as the life of the option. This will reduce the value of the option and make it more likely that the drug will be
+commercially developed earlier rather than later.
+  The presence of these competitive pressures may explain why commercial development is much quicker with some drugs
+than with others, and why the value of patents is not always going to be greater than a discounted cash flow valuation.
+Generally speaking, the greater the number of competing products in the research pipeline, the less likely it is that the option
+pricing model will generate a value that is greater than the traditional discounted cash flow model.

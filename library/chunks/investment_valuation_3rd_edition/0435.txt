@@ -1,0 +1,41 @@
+er the excess
+cash just as you would cash in a gross debt valuation. Second, maintaining a stable net debt ratio in a growing firm will
+require that cash balances increase as the firm value increases.
+
+Will Equity Value Be the Same under Firm and Equity Valuation?
+This model, unlike the dividend discount model or the FCFE model, values the firm rather than
+equity. The value of equity, however, can be extracted from the value of the firm by subtracting the
+market value of outstanding debt. Since this model can be viewed as an alternative way of valuing
+equity, two questions arise: Why value the firm rather than equity? Will the values for equity obtained
+from the firm valuation approach be consistent with the values obtained from the equity valuation
+approaches described in the previous chapter?
+The advantage of using the firm valuation approach is that cash flows relating to debt do not have to
+be considered explicitly since the FCFF is a predebt cash flow, while they have to be taken into
+account in estimating FCFE. In cases where the leverage is expected to change significantly over
+time, this is a significant time saver, since estimating new debt issues and debt repayments when
+leverage is changing can become increasingly messy the further into the future you go. The firm
+valuation approach does, however, require information about debt ratios and interest rates to estimate
+the weighted average cost of capital.
+The value for equity obtained from the firm valuation and equity valuation approaches will be the
+same if you make consistent assumptions about financial leverage.
+ Getting them to converge in
+practice is much more difficult. Let us begin with the simplest case—a no-growth, perpetual firm.
+Assume that the firm has $166.67 million in earnings before interest and taxes and a tax rate of 40
+percent. Assume that the firm has equity with a market value of $600 million, with a cost of equity of
+13.87 percent, and debt of $400 million, with a pretax cost of debt of 7 percent. The firm's cost of
+capital can be estimated as follows:
+Note that the firm has no reinvestment and no growth. We can value equity in this firm by subtracting
+the value of debt:
+Now let us value the equity directly by estimating the net income:
+The value of equity can be obtained by discounting this net income at the cost of equity:
+Even this simple example works because of the following three assumptions made implicitly or
+explicitly during the valuation:
+1.
+ The values for debt and equity used to compute the cost of capital were equal to the values
+obtained in the valuation. Notwithstanding the circularity in reasoning—you need the cost of
+capital to obtain the values in the first place—it indicates that a cost of capital based on market
+value weights will not yield the same value for equity as an equity valuation model, if the firm is
+not fairly priced in the first place.
+2.
+ There are no extraordinary or nonoperating items that affect net income but not operating
+income. Thus, to get from operating to net income all we do is subtract interest expenses and

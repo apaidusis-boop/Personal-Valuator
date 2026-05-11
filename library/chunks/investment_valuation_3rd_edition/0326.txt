@@ -1,0 +1,25 @@
+re the result of a firm's competitive advantages or barriers to entry into the
+industry. High excess returns locked in for very long periods imply that this firm has a permanent
+competitive advantage.
+
+ILLUSTRATION 11.9: Measuring the Reinvestment Rate,
+Return on Capital, and Expected Growth Rate: Tata Motors
+in 2010
+In May 2010, we looked at Tata Motors, an Indian automobile company, which has been aggressive in its pursuit of growth
+through both internal investments and acquisitions over much of the past decade. Based upon its financial statements of
+2009, we estimated a reinvestment rate of 116.83% and a return on capital of 11.81%:
+Note that the effective tax rate (21%) was used to compute the after-tax operating income for both the reinvestment rate
+and the return on capital. The capital invested was obtained by summing up the book value of debt and equity at the end of
+the 2008 fiscal year (the beginning of the 2009 fiscal year) and netting out the cash and marketable securities at that point in
+time.
+If Tata Motors can maintain this return on capital and reinvestment rate going forward, its expected growth rate would be:
+As we will see in the next illustration, maintaining this reinvestment going forward may be very difficult to do.
+ILLUSTRATION 11.10: Current and Historical Averages:
+Reinvestment Rate and Return on Capital for Tata Motors
+Tata Motors has had a volatile history in terms of both reinvestment and returns on capital. Although the 2009 numbers were
+computed in the preceding illustration, those values have been in flux over the past five years. We summarize the numbers
+(in millions of rupees) for 2005 to 2009, with the aggregate in the last column:
+The reinvestment rate has swung between –5.61% and 228.46% over the period, but the aggregate reinvestment rate over
+the period was 83.53%.
+We did a similar computation with the return on capital between 2005 and 2009.
+The average return on capital between 2005 and 2009 was 14.98%.

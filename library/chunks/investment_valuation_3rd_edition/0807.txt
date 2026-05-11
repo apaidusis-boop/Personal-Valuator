@@ -1,0 +1,26 @@
+ment or the building’s characteristics—location and condition. If it is the
+former, you might be willing to pay the higher values ($111 million). If it is the latter, you would pay only $81.4 million.
+
+Regression Approach
+One way to extend the reach of relative valuation for stocks is the regression approach, where price-
+earnings or price–book value multiples are regressed against independent variables that cause
+differences in these multiples—risk, growth, and payout. Since the variables causing differences in
+real estate values in a locale are fairly obvious—vacancy rates, size, and capacity to generate
+income, among others—it should be relatively simple to use this approach to analyze properties.
+ILLUSTRATION 26.4: 
+Regression Approach
+You could regress the price per square foot for the eight properties in Illustration 26.3 against occupancy rates and obtain
+the following:
+Using this regression, we would obtain an estimated price per square foot for 711 Third Avenue, with its 95% occupancy
+rate:
+This regression is clearly limited in its power because there are only eight observations and the occupancy rates are very
+similar. If we can obtain information on more properties and include variables on which there are bigger differences—a
+variable measuring the age of the building, for instance—we would be able to get much stronger predictions.
+VALUING REAL ESTATE BUSINESSES
+Much of this chapter has focused on valuing real estate properties. This section considers extending
+this analysis to value a real estate business. To value such a business, you have to consider its
+sources of income and then look at its organization structure.
+Sources of Income
+Real estate businesses vary widely in terms of how they generate income, and how you approach
+valuation will vary as well. In particular, we could categorize real estate firms into four businesses.
+1.

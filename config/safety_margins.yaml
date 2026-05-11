@@ -1,0 +1,104 @@
+# safety_margins.yaml
+# Per-sector buying margins (% discount aplicado ao fair value consensus).
+#
+#   our_fair  = consensus_fair × (1 - safety_margin_pct / 100)
+#   buy_below = our_fair                         (BUY se preço ≤ our_fair)
+#   hold_low  = our_fair
+#   hold_high = consensus_fair                   (HOLD entre our_fair e consensus)
+#   sell_above = consensus_fair × (1 + overvaluation_pct / 100)
+#                                                (SELL/TRIM acima)
+#
+# Filosofia: Buffett (~16% para qualidade) e Graham (~25% generic, ~50% deep
+# value) como âncoras. Aplicamos +1-2% para ficar consistentemente "um
+# pouquinho mais conservador" — se Buffett diz $16, nós dizemos $15.
+#
+# Sectoral logic:
+#   Compounders staples/health    : 18% (Buffett 16% + 2)
+#   Bancos top-tier               : 25-27% (Graham 25% + 0-2)
+#   Holdings                      : 22% (NAV transparente + complexity discount)
+#   Cyclicals (mining/oil/mat)    : 35-42% (Graham deep, high cycle dispersion)
+#   Utilities/regulated           : 22% (Buffett 20% + 2)
+#   Tech                          : 22-25% (revaluation risk)
+#   FIIs Tijolo                   : 12% (NAV anchored, vacância é o risco)
+#   FIIs Papel (CRI)              : 10% (CDI-floored, baixa convexidade)
+#   FIIs Shopping/Híbrido         : 12-14% (sub-segmento risk)
+#   US REITs                      : 16% (sem isenção fiscal BR, mais downside)
+#
+# Revisitar quando: Bibliotheca Knowledge Card de Buffett/Graham mudar âncora,
+# OU calibration loop (Phase FF) mostrar miss systematic per-sector.
+
+defaults:
+  safety_margin_pct: 25.0       # Graham fallback se sector não mapeado
+  overvaluation_pct: 15.0       # SELL trigger pct sobre consensus
+
+br:
+  # Bancos
+  Banks:              { safety_margin_pct: 27.0 }
+  Insurance:          { safety_margin_pct: 25.0 }
+  Financials:         { safety_margin_pct: 25.0 }
+  # Holdings
+  Holding:            { safety_margin_pct: 22.0 }
+  # Compounders defensivos
+  "Consumer Staples": { safety_margin_pct: 18.0 }
+  Healthcare:         { safety_margin_pct: 18.0 }
+  # Cyclicals (deep margin)
+  Mining:             { safety_margin_pct: 42.0 }
+  "Oil & Gas":        { safety_margin_pct: 42.0 }
+  Materials:          { safety_margin_pct: 38.0 }
+  # Mid-volatility operacionais
+  Industrials:        { safety_margin_pct: 27.0 }
+  "Consumer Disc.":   { safety_margin_pct: 28.0 }
+  Telecom:            { safety_margin_pct: 25.0 }
+  Technology:         { safety_margin_pct: 25.0 }
+  Utilities:          { safety_margin_pct: 22.0 }
+  # FIIs (NAV-based — margem menor porque ponto de partida já é conservador)
+  Tijolo:             { safety_margin_pct: 12.0 }
+  "Papel (CRI)":      { safety_margin_pct: 10.0 }
+  "Logística":        { safety_margin_pct: 12.0 }
+  Shopping:           { safety_margin_pct: 13.0 }
+  "Híbrido":          { safety_margin_pct: 12.0 }
+  Corporativo:        { safety_margin_pct: 14.0 }
+  "Real Estate":      { safety_margin_pct: 13.0 }
+  # Não-aplicável (sem fair value scoring)
+  Benchmark:          { safety_margin_pct: null }
+  "ETF-RF":           { safety_margin_pct: null }
+  "ETF-US":           { safety_margin_pct: null }
+
+us:
+  # Bancos
+  Banks:              { safety_margin_pct: 25.0 }
+  Financials:         { safety_margin_pct: 22.0 }
+  # REITs (sem isenção fiscal vs FIIs BR)
+  REIT:               { safety_margin_pct: 16.0 }
+  # Compounders defensivos (Buffett core territory)
+  "Consumer Staples": { safety_margin_pct: 18.0 }
+  Healthcare:         { safety_margin_pct: 18.0 }
+  # Mid-quality operacionais
+  Industrials:        { safety_margin_pct: 22.0 }
+  Utilities:          { safety_margin_pct: 22.0 }
+  Technology:         { safety_margin_pct: 22.0 }
+  Communication:      { safety_margin_pct: 25.0 }
+  "Consumer Disc.":   { safety_margin_pct: 25.0 }
+  # Holdings (BN, BRK class)
+  Holding:            { safety_margin_pct: 22.0 }
+  # Cyclicals
+  Energy:             { safety_margin_pct: 38.0 }
+  Materials:          { safety_margin_pct: 35.0 }
+  # Não-aplicável
+  Benchmark:          { safety_margin_pct: null }
+  ETF:                { safety_margin_pct: null }
+
+# Per-ticker overrides — usar com parcimónia. Cada override deve ter `note`
+# explicando porquê o sector default não serve.
+ticker_overrides:
+  br:
+    PVBI11:
+      safety_margin_pct: 25.0
+      note: "Turnaround thesis (FL vazio); margem maior compensa risco de execução vs FIIs Híbridos saudáveis."
+  us:
+    BN:
+      safety_margin_pct: 25.0
+      note: "Post-split 2023; estrutura corporativa complexa (BAM stake, BBU/BEP/BIP/BPYU carry); discount adicional vs holding compounders."
+    GREK:
+      safety_margin_pct: null
+      note: "ETF/tactical — fair value scorecard não aplica (memory grek_irregular_dividends)."

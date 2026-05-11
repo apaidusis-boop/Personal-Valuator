@@ -1,0 +1,38 @@
+of cash and marketable securities is added to the value of the operating
+assets to arrive at firm value. After a large cash influx, firms may have excess cash to invest in marketable securities, which
+
+when added to the value of operating assets will increase value. If the cash is taken out of the firm, though, by the existing
+owners, you should not add the cash to the value.
+  Which of these two values should be used to estimate the value per share in a public offering? Since stockholders in the
+firm will hold stock in the postcash firm, the postcash value should be used. In the case of a venture capitalist, though, the
+answer may be different. If the venture capitalist has bargaining power—she is the only person who is interested in
+providing venture capital—she can ask for a share of the firm value based on the precash valuation, arguing that the
+increase in value is feasible only with the additional venture capital. If two or more venture capitalists are interested in the
+firm, odds are that the postcash valuations will be the basis for deciding how much of the firm will be yielded to the venture
+capitalist.
+ILLUSTRATION 24.14: Valuing a Private Equity Stake
+Assume that you work for a publicly traded firm and have been asked to value a potential stake in a small, privately held firm
+that wants you to invest $10 million in its equity, which it plans to use to expand operations.
+First, you would value the private firm assuming that you do not invest the $10 million. Based on the projected cash flows,
+assume that you value the equity in the firm at $30 million:
+Now assume that your investment of $10 million will allow the firm to grow faster and that the present value of the expected
+cash flows is $50 million for the equity. (This present value does not include the cash inflow of $10 million from the private
+equity investment.)
+The key question, assuming that you decide to make this investment, is the percentage of the private firm you should demand
+in return for the $10 million investment. At the minimum, you would demand a share of the postcash valuation:
+However, you would bargain for a larger share. At the limit, you could argue for a share of the precash valuation:
+RELATIVE VALUATION OF PRIVATE BUSINESSES
+The essence of relative valuation is that you value a firm based on how much the market is paying for
+similar firms. This premise is clearly more challenging for private businesses. Notwithstanding these
+problems, analysts have tried to extend the relative valuation practices that have been developed for
+public companies into the private business space. In general, there are two approaches used by
+analysts for coming up with comparable firms in private company valuation. Some analysts focus on
+transaction prices paid for other private businesses, arguing that these businesses are likely to have
+more in common with the young business being valued. Other analysts, distrustful of private
+transaction prices, draw on the market prices of publicly traded companies in the same business, and
+try to adjust for differences in fundamentals.
+Private Transaction Multiples
+Since you are valuing a young, private business, it seems logical that you should look at what others
+have paid for similar businesses in the recent past. That is effectively the foundation on which private
+transaction multiples are based. In theory, at least, you pull together a dataset of other young, private
+businesses, similar to the one that we are valuing (same business, similar size, and at the same stage

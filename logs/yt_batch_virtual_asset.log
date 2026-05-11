@@ -1,0 +1,304 @@
+Batch: 14 videos. force_retranscribe=True force_extract=True
+
+[1/14] DPYjtKsW7Ek
+
+=== 1/6 Download ===
+[download]   0.0% of   18.54MiB at   24.79KiB/s ETA 12:45[download]   0.0% of   18.54MiB at   73.72KiB/s ETA 04:17[download]   0.0% of   18.54MiB at  171.26KiB/s ETA 01:50[download]   0.1% of   18.54MiB at  364.34KiB/s ETA 00:52[download]   0.2% of   18.54MiB at  146.53KiB/s ETA 02:09[download]   0.3% of   18.54MiB at  216.13KiB/s ETA 01:27[download]   0.7% of   18.54MiB at  246.76KiB/s ETA 01:16[download]   1.3% of   18.54MiB at  381.11KiB/s ETA 00:49[download]   2.7% of   18.54MiB at  569.30KiB/s ETA 00:32[download]   5.4% of   18.54MiB at  940.66KiB/s ETA 00:19[download]  10.8% of   18.54MiB at    1.29MiB/s ETA 00:12[download]  21.6% of   18.54MiB at    1.81MiB/s ETA 00:08[download]  37.8% of   18.54MiB at    2.12MiB/s ETA 00:05[download]  52.1% of   18.54MiB at    2.32MiB/s ETA 00:03[download]  52.1% of   18.54MiB at   36.62KiB/s ETA 04:08[download]  52.2% of   18.54MiB at  108.34KiB/s ETA 01:23[download]  52.2% of   18.54MiB at  251.52KiB/s ETA 00:36[download]  52.2% of   18.54MiB at  536.27KiB/s ETA 00:16[download]  52.3% of   18.54MiB at  173.24KiB/s ETA 00:52[download]  52.5% of   18.54MiB at  228.35KiB/s ETA 00:39[download]  52.8% of   18.54MiB at  305.50KiB/s ETA 00:29[download]  53.5% of   18.54MiB at  406.77KiB/s ETA 00:21[download]  54.8% of   18.54MiB at  573.67KiB/s ETA 00:14[download]  57.5% of   18.54MiB at  914.52KiB/s ETA 00:08[download]  62.9% of   18.54MiB at    1.32MiB/s ETA 00:05[download]  73.7% of   18.54MiB at    1.69MiB/s ETA 00:02[download]  86.4% of   18.54MiB at    1.84MiB/s ETA 00:01[download]  98.0% of   18.54MiB at    2.04MiB/s ETA 00:00[download] 100.0% of   18.54MiB at    2.07MiB/s ETA 00:00[download] 100% of   18.54MiB in 00:00:10 at 1.85MiB/s                                                         video: 'CXSE3: DIVIDENDOS À VISTA MESMO COM DATA-COM ABERTA! CILADA NO LUCRO OU OPORTUNIDADE DE COMPRA?' (1368s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 14:50:36,031 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:50:36,190 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:50:37,568 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:50:39,458 INFO faster_whisper Processing audio with duration 22:48.277
+2026-04-23 14:50:40,944 INFO faster_whisper VAD filter removed 00:13.957 of audio
+2026-04-23 14:50:41,561 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:51:13,500 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1368.3s chunks=1030 chars=24971
+lang=pt duration=1368s chunks=1030 chars=24971
+
+=== 3/6 Router (aliases) ===
+2026-04-23 14:51:13,561 INFO youtube.router router_done tickers=7 themes=3
+tickers matched: ['B3SA3', 'BBAS3', 'BBSE3', 'GS', 'ITUB4', 'KLBN4', 'VALE3']
+themes matched:  ['real_estate_cycle', 'selic_cycle', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 14:51:22,214 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-04-23 14:51:29,195 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  B3SA3    → 1 insights (raw)
+2026-04-23 14:51:30,713 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITUB4    → 0 insights (raw)
+2026-04-23 14:51:46,462 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  KLBN4    → 3 insights (raw)
+2026-04-23 14:52:05,341 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBSE3    → 3 insights (raw)
+2026-04-23 14:52:24,003 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBAS3    → 4 insights (raw)
+2026-04-23 14:52:24,689 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  GS       → 0 insights (raw)
+2026-04-23 14:52:30,686 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:selic_cycle              → 1 themes (raw)
+2026-04-23 14:52:32,119 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-04-23 14:52:44,220 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:real_estate_cycle        → 2 themes (raw)
+
+=== 5/6 Validate ===
+2026-04-23 14:52:44,226 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=A contratação da Itaú Corretora como formadora de mercado para as ações CX e C3 
+2026-04-23 14:52:44,226 INFO youtube.validator drop_cross_contam ticker=KLBN4 claim=Apesar do crescimento em diversas linhas de negócio, o investidor ainda precisa 
+{
+  "insights_in": 11,
+  "themes_in": 3,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 2,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 9,
+  "themes_out": 3
+}
+
+=== 6/6 Persist ===
+2026-04-23 14:52:44,235 INFO youtube.persistence persist_done {'br_insights': 9, 'us_insights': 0, 'themes': 3, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 9,
+  "us_insights": 0,
+  "themes": 3,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 14:52:44,237 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\DPYjtKsW7Ek.webm
+
+Done in 140.9s.
+
+[2/14] eM1acX1fYb4
+
+=== 1/6 Download ===
+[download]   0.0% of   18.04MiB at   31.02KiB/s ETA 09:55[download]   0.0% of   18.04MiB at   92.22KiB/s ETA 03:20[download]   0.0% of   18.04MiB at  214.33KiB/s ETA 01:26[download]   0.1% of   18.04MiB at  456.37KiB/s ETA 00:40[download]   0.2% of   18.04MiB at  130.07KiB/s ETA 02:21[download]   0.3% of   18.04MiB at  166.63KiB/s ETA 01:50[download]   0.7% of   18.04MiB at  239.67KiB/s ETA 01:16[download]   1.4% of   18.04MiB at  372.56KiB/s ETA 00:48[download]   2.8% of   18.04MiB at  590.30KiB/s ETA 00:30[download]   5.5% of   18.04MiB at  956.01KiB/s ETA 00:18[download]  11.1% of   18.04MiB at    1.10MiB/s ETA 00:14[download]  18.5% of   18.04MiB at    1.35MiB/s ETA 00:10[download]  29.8% of   18.04MiB at    1.49MiB/s ETA 00:08[download]  39.8% of   18.04MiB at    1.25MiB/s ETA 00:08[download]  44.8% of   18.04MiB at    1.33MiB/s ETA 00:07[download]  54.8% of   18.04MiB at    1.37MiB/s ETA 00:05[download]  55.0% of   18.04MiB at    1.37MiB/s ETA 00:05[download]  55.0% of   18.04MiB at   78.39KiB/s ETA 01:46[download]  55.0% of   18.04MiB at  230.27KiB/s ETA 00:36[download]  55.0% of   18.04MiB at  532.95KiB/s ETA 00:15[download]  55.1% of   18.04MiB at    1.11MiB/s ETA 00:07[download]  55.2% of   18.04MiB at    2.09MiB/s ETA 00:03[download]  55.3% of   18.04MiB at    2.21MiB/s ETA 00:03[download]  55.7% of   18.04MiB at    2.33MiB/s ETA 00:03[download]  56.4% of   18.04MiB at    2.75MiB/s ETA 00:02[download]  57.8% of   18.04MiB at    2.86MiB/s ETA 00:02[download]  60.5% of   18.04MiB at    2.92MiB/s ETA 00:02[download]  66.1% of   18.04MiB at    2.96MiB/s ETA 00:02[download]  77.2% of   18.04MiB at    3.02MiB/s ETA 00:01[download]  94.3% of   18.04MiB at    3.05MiB/s ETA 00:00[download] 100.0% of   18.04MiB at    3.06MiB/s ETA 00:00[download] 100% of   18.04MiB in 00:00:11 at 1.55MiB/s                                                         video: 'DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! ITSA4 MUDOU O PLANO? PETR4 LUCRA COM CONFLITOS? +CSMG3 BTLG11' (1341s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 14:52:58,162 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:52:58,316 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:52:59,605 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:53:01,492 INFO faster_whisper Processing audio with duration 22:20.453
+2026-04-23 14:53:02,921 INFO faster_whisper VAD filter removed 00:13.941 of audio
+2026-04-23 14:53:03,418 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:53:34,633 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1340.5s chunks=920 chars=25233
+lang=pt duration=1340s chunks=920 chars=25233
+
+=== 3/6 Router (aliases) ===
+2026-04-23 14:53:34,706 INFO youtube.router router_done tickers=8 themes=4
+tickers matched: ['B3SA3', 'IRBR3', 'ITSA4', 'KLBN4', 'PETR4', 'SAPR11', 'SBSP3', 'VALE3']
+themes matched:  ['oil_cycle', 'real_estate_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 14:53:35,733 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-04-23 14:53:56,251 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITSA4    → 3 insights (raw)
+2026-04-23 14:54:11,539 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 3 insights (raw)
+2026-04-23 14:54:27,789 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  B3SA3    → 3 insights (raw)
+2026-04-23 14:54:28,619 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  KLBN4    → 0 insights (raw)
+2026-04-23 14:54:44,403 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  SAPR11   → 3 insights (raw)
+2026-04-23 14:54:50,970 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  IRBR3    → 1 insights (raw)
+2026-04-23 14:54:51,728 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  SBSP3    → 0 insights (raw)
+2026-04-23 14:54:52,575 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-04-23 14:54:54,243 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-04-23 14:55:00,128 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:real_estate_cycle        → 1 themes (raw)
+2026-04-23 14:55:05,049 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:oil_cycle                → 1 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 13,
+  "themes_in": 2,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 13,
+  "themes_out": 2
+}
+
+=== 6/6 Persist ===
+2026-04-23 14:55:05,070 INFO youtube.persistence persist_done {'br_insights': 11, 'us_insights': 0, 'themes': 1, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 11,
+  "us_insights": 0,
+  "themes": 1,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 14:55:05,071 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\eM1acX1fYb4.webm
+
+Done in 140.8s.
+
+[3/14] RAQn1Uok7d4
+
+=== 1/6 Download ===
+[download]   0.0% of   18.89MiB at   39.01KiB/s ETA 08:15[download]   0.0% of   18.89MiB at  115.54KiB/s ETA 02:47[download]   0.0% of   18.89MiB at  267.95KiB/s ETA 01:12[download]   0.1% of   18.89MiB at  569.30KiB/s ETA 00:33[download]   0.2% of   18.89MiB at  171.79KiB/s ETA 01:52[download]   0.3% of   18.89MiB at  214.97KiB/s ETA 01:29[download]   0.7% of   18.89MiB at  294.99KiB/s ETA 01:05[download]   1.3% of   18.89MiB at  445.74KiB/s ETA 00:42[download]   2.6% of   18.89MiB at  713.04KiB/s ETA 00:26[download]   5.3% of   18.89MiB at    1.09MiB/s ETA 00:16[download]  10.6% of   18.89MiB at    1.33MiB/s ETA 00:12[download]  19.5% of   18.89MiB at    1.73MiB/s ETA 00:08[download]  33.8% of   18.89MiB at    2.25MiB/s ETA 00:05[download]  52.7% of   18.89MiB at    2.49MiB/s ETA 00:03[download]  52.7% of   18.89MiB at   21.77KiB/s ETA 07:00[download]  52.7% of   18.89MiB at   64.68KiB/s ETA 02:21[download]  52.7% of   18.89MiB at  150.18KiB/s ETA 01:00[download]  52.8% of   18.89MiB at  320.15KiB/s ETA 00:28[download]  52.8% of   18.89MiB at  168.95KiB/s ETA 00:53[download]  53.0% of   18.89MiB at  219.06KiB/s ETA 00:41[download]  53.3% of   18.89MiB at  305.72KiB/s ETA 00:29[download]  54.0% of   18.89MiB at  467.67KiB/s ETA 00:19[download]  55.3% of   18.89MiB at  751.74KiB/s ETA 00:11[download]  58.0% of   18.89MiB at    1.16MiB/s ETA 00:06[download]  63.3% of   18.89MiB at    1.41MiB/s ETA 00:04[download]  72.8% of   18.89MiB at    1.78MiB/s ETA 00:02[download]  86.0% of   18.89MiB at    2.36MiB/s ETA 00:01[download] 100.0% of   18.89MiB at    2.53MiB/s ETA 00:00[download] 100% of   18.89MiB in 00:00:09 at 2.01MiB/s                                                         video: 'TAEE11: NOVOS DIVIDENDOS CHEGANDO COM 100% DOS LUCROS? COMPRAR TAESA AGORA ou CILADA? +PREÇO TETO' (1386s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 14:55:16,519 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:55:16,730 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:55:17,893 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:55:19,774 INFO faster_whisper Processing audio with duration 23:05.488
+2026-04-23 14:55:21,035 INFO faster_whisper VAD filter removed 00:14.176 of audio
+2026-04-23 14:55:21,587 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:55:50,938 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1385.5s chunks=891 chars=25302
+lang=pt duration=1385s chunks=891 chars=25302
+
+=== 3/6 Router (aliases) ===
+2026-04-23 14:55:51,026 INFO youtube.router router_done tickers=5 themes=3
+tickers matched: ['EGIE3', 'ITUB4', 'KLBN4', 'TAEE11', 'VALE3']
+themes matched:  ['selic_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 14:55:52,772 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-04-23 14:55:59,566 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITUB4    → 1 insights (raw)
+2026-04-23 14:56:15,086 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  KLBN4    → 3 insights (raw)
+2026-04-23 14:56:28,060 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  EGIE3    → 3 insights (raw)
+2026-04-23 14:56:58,656 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TAEE11   → 5 insights (raw)
+2026-04-23 14:57:07,244 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:selic_cycle              → 1 themes (raw)
+2026-04-23 14:57:08,288 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-04-23 14:57:09,571 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 12,
+  "themes_in": 1,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 11,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-04-23 14:57:09,609 INFO youtube.persistence persist_done {'br_insights': 11, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 11,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 14:57:09,611 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\RAQn1Uok7d4.webm
+
+Done in 124.5s.
+
+[4/14] Wf4pWQXguPg
+
+=== 1/6 Download ===
+[download]   0.0% of   16.49MiB at   29.20KiB/s ETA 09:38[download]   0.0% of   16.49MiB at   86.97KiB/s ETA 03:14[download]   0.0% of   16.49MiB at  202.24KiB/s ETA 01:23[download]   0.1% of   16.49MiB at  430.42KiB/s ETA 00:39[download]   0.2% of   16.49MiB at  178.89KiB/s ETA 01:34[download]   0.4% of   16.49MiB at  221.60KiB/s ETA 01:15[download]   0.8% of   16.49MiB at  303.32KiB/s ETA 00:55[download]   1.5% of   16.49MiB at  462.70KiB/s ETA 00:35[download]   3.0% of   16.49MiB at  723.63KiB/s ETA 00:22[download]   6.1% of   16.49MiB at    1.10MiB/s ETA 00:14[download]  12.1% of   16.49MiB at    1.32MiB/s ETA 00:10[download]  22.2% of   16.49MiB at    1.96MiB/s ETA 00:06[download]  42.5% of   16.49MiB at    2.31MiB/s ETA 00:04[download]  59.7% of   16.49MiB at    2.49MiB/s ETA 00:02[download]  59.7% of   16.49MiB at   22.36KiB/s ETA 05:04[download]  59.8% of   16.49MiB at   66.62KiB/s ETA 01:41[download]  59.8% of   16.49MiB at  155.04KiB/s ETA 00:43[download]  59.8% of   16.49MiB at  331.30KiB/s ETA 00:20[download]  59.9% of   16.49MiB at  178.39KiB/s ETA 00:37[download]  60.1% of   16.49MiB at  215.78KiB/s ETA 00:31[download]  60.5% of   16.49MiB at  299.41KiB/s ETA 00:22[download]  61.3% of   16.49MiB at  438.70KiB/s ETA 00:14[download]  62.8% of   16.49MiB at  714.66KiB/s ETA 00:08[download]  65.8% of   16.49MiB at    1.11MiB/s ETA 00:05[download]  71.9% of   16.49MiB at    1.34MiB/s ETA 00:03[download]  82.1% of   16.49MiB at    1.99MiB/s ETA 00:01[download] 100.0% of   16.49MiB at    2.28MiB/s ETA 00:00[download] 100% of   16.49MiB in 00:00:08 at 1.95MiB/s                                                         video: 'PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CHEGANDO? VALE3 SUPERA EXPECTATIVA! B3SA3 +46% e EGIE3 2,7BI' (1216s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 14:57:20,220 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 14:57:20,377 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 14:57:21,702 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 14:57:23,330 INFO faster_whisper Processing audio with duration 20:16.435
+2026-04-23 14:57:24,423 INFO faster_whisper VAD filter removed 00:13.763 of audio
+2026-04-23 14:57:24,838 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 14:57:45,511 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1216.4s chunks=417 chars=21945
+lang=pt duration=1216s chunks=417 chars=21945
+
+=== 3/6 Router (aliases) ===
+2026-04-23 14:57:45,576 INFO youtube.router router_done tickers=11 themes=3
+tickers matched: ['B3SA3', 'BBDC4', 'CPLE3', 'EGIE3', 'GS', 'JPM', 'PETR4', 'PRIO3', 'TAEE11', 'VALE3', 'XP']
+themes matched:  ['oil_cycle', 'usdbrl', 'yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 14:57:51,181 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PRIO3    → 1 insights (raw)
+2026-04-23 14:58:15,415 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 4 insights (raw)
+2026-04-23 14:58:16,849 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBDC4    → 0 insights (raw)
+2026-04-23 14:58:34,348 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 3 insights (raw)
+2026-04-23 14:58:48,097 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  CPLE3    → 2 insights (raw)
+2026-04-23 14:59:08,966 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  B3SA3    → 2 insights (raw)
+2026-04-23 14:59:25,333 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  EGIE3    → 2 insights (raw)
+2026-04-23 14:59:37,199 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  TAEE11   → 2 insights (raw)
+2026-04-23 14:59:42,635 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 1 insights (raw)
+2026-04-23 14:59:46,834 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  GS       → 1 insights (raw)
+2026-04-23 14:59:50,163 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  XP       → 1 insights (raw)
+2026-04-23 14:59:51,323 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:usdbrl                   → 0 themes (raw)
+2026-04-23 14:59:53,011 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+2026-04-23 15:00:03,649 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:oil_cycle                → 2 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 19,
+  "themes_in": 2,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 17,
+  "themes_out": 2
+}
+
+=== 6/6 Persist ===
+2026-04-23 15:00:03,688 INFO youtube.persistence persist_done {'br_insights': 14, 'us_insights': 1, 'themes': 2, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 14,
+  "us_insights": 1,
+  "themes": 2,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 15:00:03,690 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\Wf4pWQXguPg.webm
+
+Done in 174.1s.
+
+[5/14] 87fefaoRgEw
+
+=== 1/6 Download ===
+[download] 100% of   17.63MiB                             video: 'ALERTA PETR4: DIVIDENDO EXTRA É ENGANAÇÃO? DATA-COM CHEGANDO! COMPRAR AGORA? +PREÇO TETO' (1294s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 15:00:05,784 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:00:05,970 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:00:07,134 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:00:08,913 INFO faster_whisper Processing audio with duration 21:34.293
+2026-04-23 15:00:10,102 INFO faster_whisper VAD filter removed 00:13.989 of audio
+2026-04-23 15:00:10,551 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:00:38,762 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1294.3s chunks=827 chars=22830
+Batch: 10 videos. force_retranscribe=True force_extract=True
+
+[1/10] 87fefaoRgEw
+
+=== 1/6 Download ===
+[download] 100% of   17.63MiB                             video: 'ALERTA PETR4: DIVIDENDO EXTRA É ENGANAÇÃO? DATA-COM CHEGANDO! COMPRAR AGORA? +PREÇO TETO' (1294s) — Virtual Asset
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 15:02:20,899 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 15:02:21,054 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 15:02:22,268 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 15:02:24,071 INFO faster_whisper Processing audio with duration 21:34.293
+2026-04-23 15:02:25,318 INFO faster_whisper VAD filter removed 00:13.989 of audio
+2026-04-23 15:02:25,959 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 15:02:56,458 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1294.3s chunks=846 chars=22868

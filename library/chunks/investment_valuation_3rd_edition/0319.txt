@@ -1,0 +1,12 @@
+ty of the consensus forecasts. Givoly
+and Lakonsihok (1984) found that the dispersion of earnings is correlated with other measures of
+risk such as beta and is a good predictor of expected returns.
+4.
+
+Quality of analysts following the stock.
+ This is the hardest of the variables to quantify. One
+measure of quality is the size of the forecast error made by analysts following a stock, relative to
+models that use only historical data—the smaller this relative error, the larger the weight that
+should be attached to analyst forecasts. Another measure is the effect on stock prices of analyst
+revisions—the more informative the forecasts, the greater the effect on stock prices. There are
+some who argue that the focus on consensus forecasts misses the point that some analysts are

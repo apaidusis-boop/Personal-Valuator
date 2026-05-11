@@ -1,0 +1,22 @@
+market neutral, you should use the current implied equity risk
+premium. This is often the case if you are an equity research analyst or if you have to value a company for an acquisition.
+implprem.xls:
+
+This spreadsheet allows you to estimate the implied equity premium in a market.
+DEFAULT SPREADS ON BONDS
+The interest rates on bonds are determined by the default risk that investors perceive in the issuer of
+the bonds. This default risk is often measured with a bond rating, and the interest rate that
+corresponds to the rating is estimated by adding a default spread to the riskless rate. In Chapter 4, we
+examined the process used by rating agencies to rate firms. This chapter considers how to estimate
+default spreads for a given ratings class and why these spreads may change over time.
+Estimating Default Spreads
+The simplest way to estimate default spreads for each ratings class is to find a sampling of bonds
+within that ratings class and obtain the current market interest rate on these bonds. Why do we need a
+sampling rather than just one bond? A bond can be misrated or mispriced. Using a sample reduces or
+eliminates this problem. In obtaining this sample, you should try to focus on the most liquid bonds
+with as few special features attached to them as possible. Corporate bonds are often illiquid and the
+interest rates on such bonds may not reflect current market rates. The presence of special features on
+bonds such as convertibility can affect the pricing of these bonds and consequently the interest rates
+estimated on them.
+Once a sample of bonds within each ratings class has been identified, you need to estimate the
+interest rate on these bonds. There are two measures that are widely used. The first is the yield on the

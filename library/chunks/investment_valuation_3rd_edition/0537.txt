@@ -1,0 +1,30 @@
+ive
+PE ratio to its historical norms; Ford, for instance, may be viewed as undervalued because its
+relative PE ratio of 0.24 today is lower than the relative PE that it has historically traded at. The
+
+other is to compare relative PE ratios of firms in different markets; this allows comparisons when PE
+ratios in different markets vary significantly. For instance, we could have divided the PE ratios for
+each telecom firm in Illustration 18.8 by the PE ratio for the market in which this firm trades locally
+to estimate relative PE ratios and could have compared those ratios.
+ILLUSTRATION 18.12: Relative PE Ratios—Automobile
+Stocks in May 2011
+In the following table, we list all automobile companies with a market cap greater than $10 billion in May 2011. Since these
+firms are listed on different markets, we divide the PE ratio for each company by the aggregate PE ratio for the primary
+market in which each one trades.
+Porsche and Renault remain the cheapest firms on both a PE ratio and a relative PE basis, and Toyota and Suzuki are the
+most expensive firms, on both a PE and relative PE basis. In fact, the differences in PE ratios across markets are small
+enough that the rankings on a relative PE basis are very close to those on a PE basis. That would not have been true a
+decade ago, when Japanese stocks traded at much higher PE ratios than firms in other markets.
+The average relative PE for Ford (to the U.S. market) has been 0.50 over the past four decades. At its current relative PE
+of 0.41, Ford looks cheap. GM also looks cheap, making the same type of comparison, but GM in 2011, after its near-death
+experience, is a very different company from the one that existed in previous decades.
+Price to Future Earnings
+The price-earnings ratio cannot be estimated for firms with negative earnings per share. While there
+are other multiples, such as the price-to-sales ratio, that can still be estimated for these firms, there
+are analysts who prefer the familiar ground of PE ratios. One way in which the price-earnings ratio
+can be modified for use in these firms is to use expected earnings per share in a future year in
+computing the PE ratio. For instance, assume that a firm has negative earnings per share currently of –
+$2.00 but is expected to report earnings per share in five years of $1.50 per share. You could divide
+the price today by the expected earnings per share in five years to obtain a PE ratio.
+How would such a PE ratio be used? The PE ratio for all of the comparable firms would also have
+to be estimated using expected earnings per share in five years, and the resulting values can be

@@ -1,0 +1,17 @@
+waiting rather than
+developing the drug immediately, the cost of delay notwithstanding. However, the cost of delay will increase over time, and
+make exercise (development) more likely in future years.
+
+To illustrate, we will value the call option, assuming that all of the inputs, other than the patent life, remain unchanged and
+changing the patent life. For instance, assume that there are 16 years left on the patent. Holding all else constant, the cost of
+delay increases as a result of the shorter patent life:
+The decline in the present value of cash flows (which is S) and increase in the cost of delay (y) reduce the expected value
+of the patent. 
+Figure 28.4
+ graphs the option value and the net present value of the project each year.
+Figure 28.4
+ Patent Value versus Net Present Value
+Based on this analysis, if nothing changes, you would expect Avonex to be worth more as a commercial product than as a
+patent if there were less than eight years left on the patent, which would also then be the optimal time to commercially
+develop the product.
+product.xls:

@@ -1,0 +1,39 @@
+nnualized standard
+deviation in stock prices is 15%. The average dividend yield on the index is 3% and is expected
+to remain unchanged over the next five years. The five-year Treasury bond rate is 5%.
+
+a.
+ Estimate the value of the long-term call option.
+b.
+ Estimate the value of a put option with the same parameters.
+c.
+ What are the implicit assumptions you are making when you use the Black-Scholes model to
+value this option? Which of these assumptions are likely to be violated? What are the
+consequences for your valuation?
+7.
+ A new security on AT&T will entitle the investor to all dividends on AT&T over the next three
+years, limiting upside potential to 20% but also providing downside protection below 10%.
+AT&T stock is trading at $50, and three-year call and put options are traded on the exchange at
+the following prices:
+How much would you be willing to pay for this security?
+1
+ Note, though, that higher variance can reduce the value of the underlying asset. As a call option
+becomes more in-the-money, the more it resembles the underlying asset. For very deep in-the-
+money call options, higher variance can reduce the value of the option.
+2
+ To illustrate, if 
+σ
+2
+ is the variance in ln(stock prices), the up and the down movements in the
+binomial can be estimated as follows: 
+
+where u and d are the up and down movements per unit time for the binomial, T is the life of the
+option, and m is the number of periods within that lifetime.
+3
+ Warrants are call options issued by firms, either as part of management compensation contracts or
+to raise equity.
+4
+ The analogy to a listed option on a stock is the case where you do not know with certainty what
+the stock price is when you exercise the option. The more uncertain you are about the stock price,
+the more margin for error you have to give yourself when you exercise the option, to ensure that
+you are in fact earning a profit.

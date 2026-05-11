@@ -1,0 +1,28 @@
+firms, noncash working capital may be a much larger drain on cash flows than
+traditional capital expenditures.
+The path to value creation seems simple. Reducing noncash working capital as a percent of
+
+revenues should increase cash flows and, therefore, value. This assumes, however, that there are no
+negative consequences from cutting back working capital investments. Firms generally maintain
+inventory and provide credit because it allows them to sell more. If cutting back on one or both
+causes lost sales, the net effect on value may be negative.
+Technology has helped companies in their efforts to rein in noncash working capital, helping them
+not only track inventory but also customer purchases and behavior. Using value chain management,
+firms like Walmart have found innovative ways of reducing working capital investments and boosting
+cash flows in the process.
+ILLUSTRATION 31.4: 
+Noncash Working Capital and
+Operating Asset Value
+Angelos Stores is a publicly traded retail company in stable growth. In the most recent period, the firm reported after-tax
+operating income of $10 million on revenues of $200 million, capital expenditures of $5 million, depreciation of $3 million, and
+total non cash working capital of $40 million. Assume that the firm is in stable growth, growing 3% a year, with a cost of
+capital of 10%, and that all of the inputs grow at the same rate:
+Note that a significant portion of the reinvestment comes from noncash working capital being 20% of revenues.
+Now assume that the firm is able to reduce its noncash working capital from 20% of revenues to 10% of revenues. The first
+effect is an immediate positive cash flow as working capital declines from $ 40 million (20% of revenue) to $20 million (10%
+of revenues). The second impact is a continuing one, with higher expected FCFF each year:
+Figure 31.4
+ summarizes the effect on value of changing noncash working capital as a percent of revenues, assuming
+(unrealistically) that it has no effect on revenues or growth:
+Figure 31.4
+ Noncash WC and Value

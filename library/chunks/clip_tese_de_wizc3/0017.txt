@@ -1,0 +1,33 @@
+e a companhia ser uma forte geradora de caixa que requer pouquíssimo capital para crescer deverá contribuir para uma remuneração excepcional ao acionista, especialmente se considerado a cotação atual.
+
+Dito isso, existe o risco de o capital ser alocado em uma nova aquisição, ainda que a gestão venha se posicionando de forma cada vez mais favorável à distribuição desse futuro excedente de caixa. Na época do contrato com a Caixa Econômica Federal, a Wiz distribuía 100% do lucro líquido. Portanto, nosso cenário base contempla um *payout* de ao menos 75%, o que deverá remunerar generosamente o investidor paciente e com visão de longo prazo.
+
+---
+
+## Valuation
+
+- *Atualizado em 27/03/2026*
+
+Para precificar a Wiz, assumimos que não haverá renovação de nenhum contrato e tampouco receitas de *run-off* que não sejam as oriundas da Caixa.
+
+As premissas estão em termos reais, isto é, já ajustadas pela inflação. A taxa de desconto empregada foi de 10% e, para o resultado das subsidiárias, projetamos os seguintes crescimentos anuais:
+
+*Elaboração: Suno Research.*
+
+Após 2035, todos os negócios deixam de ter crescimento. Para as subsidiárias, assumimos um *payout* de 90% na fase de expansão dos negócios e, quando para de haver crescimento real, de 100%.
+
+Já as receitas de *run-off* foram precificadas contemplando um declínio anual superior ao que vem de fato ocorrendo. Portanto, os fluxos dessa linha possivelmente serão superiores aos aqui estimados, contribuindo para nossa margem de segurança:
+
+*Elaboração: Suno Research.*
+
+As despesas da *holding* sustentáveis foram capitalizadas à mesma taxa de desconto real de 10%, considerando R$ 70 milhões ao ano e crescendo 1% acima da inflação. Com isso, temos os seguintes valores presentes:
+
+*Elaboração: Suno Research.*
+
+**Nesse cenário, a Wiz deveria valer R$ 2,3 bilhões, o equivalente a R$ 14,41 por ação. Assim, estabelecemos um preço-teto que julgamos conservador, de R$ 10,00 por ação.**
+
+---
+
+## Riscos
+
+- *Atualizado em 02/04/2025*

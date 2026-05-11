@@ -1,0 +1,15 @@
+to day one on the platform. Think of it as writing your own algorithm.
+
+"If iDJ is the chat interface to Spotify," said Co-CEO Alex Norström, "Prompted Playlists is the Deep Research mode of Spotify."
+
+The iDJ he referenced — Spotify's AI DJ feature — already has roughly 90 million subscribers using it. Users are racking up over four billion hours of time with the feature. For context: that's not background listening. That's active, engaged session time driven entirely by an AI model. And engagement is the lifeblood of a subscription business.
+
+Here's the strategic insight that Wall Street is starting to price in: Spotify's music catalog is essentially identical to Apple Music, Amazon Music, and YouTube Music. Any song you want to hear, you can hear on all four platforms. So what keeps 751 million people coming back to Spotify specifically?
+
+The algorithm.
+
+Spotify appears positioned to use AI to strengthen its platform as the core content — music — becomes increasingly commoditized across streaming services. The moat isn't the content. The moat is the intelligence layer sitting on top of it.
+
+And Spotify is widening that moat with new integrations every quarter. A ChatGPT partnership now allows users to invoke Spotify directly within ChatGPT conversations for personalized recommendations. The company has formed a generative AI research lab alongside major labels — Sony, Universal, and Warner — tasked with developing new creation tools for artists that could unlock entirely new revenue streams. Its AI ad-tech platform, the Spotify Audience Network, allows advertisers to target listeners based on real-time activity context — cooking, running, commuting — with a level of precision that traditional broadcast media can never replicate.
+
+The company is aiming to build the first truly intelligent media platform.

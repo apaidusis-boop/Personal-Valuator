@@ -1,0 +1,33 @@
+e legal system to extend the patent lives of profitable drugs. If we consider this as a possibility when we
+value a patent, it will increase the expected life of the patent and its value as an option.
+
+NATURAL RESOURCE OPTIONS
+Natural resource companies, such as oil and mining companies, generate cash flows from their
+existing reserves but also have undeveloped reserves that they can develop if they choose to do so.
+They will be much more likely to develop these reserves if the price of the resource (oil, gold,
+copper, etc.) increases and these undeveloped reserves can be viewed as call options. This section
+begins by looking at the value of an undeveloped reserve and then consider how this can be extended
+to look at natural resource companies that have both developed and undeveloped reserves.
+Undeveloped Reserves as Options
+In a natural resource investment, the underlying asset is the natural resource and the value of the asset
+is based on the estimated quantity and the price of the resource. Thus, in a gold mine, the underlying
+asset is the value of the estimated gold reserves in the mine, based on the price of gold. In most such
+investments, there is an initial cost associated with developing the resource; the difference between
+the value of the estimated reserves and the cost of the development is the profit to the owner of the
+resource (see 
+Figure 28.5
+). Defining the cost of development as X, and the estimated value of the
+resource as V makes the potential payoffs on a natural resource option the following:
+Figure 28.5
+ Payoff from Developing Natural Resource Reserves
+Thus the investment in a natural resource option has a payoff function that resembles a call option.
+Inputs for Valuing a Natural Resource Option
+To value a natural resource investment as an option, we need to make assumptions about a number of
+variables:
+Available reserves of the resource and estimated value if extracted today.
+ Since the
+quantity of the reserve is not known with certainty at the outset, it has to be estimated. In an
+oil tract, for instance, geologists can provide reasonably accurate estimates of the quantity
+of oil available in the tract. The value of the reserves is then the product of the estimated
+reserves and the contribution (price of the resource minus variable cost of extraction) per
+unit of reserve.

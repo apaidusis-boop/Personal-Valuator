@@ -1,0 +1,29 @@
+, and value the
+firm based on these normalized earnings. This is the easiest route to follow if the causes for the
+negative or abnormal earnings are temporary or transitory, as in the following cases:
+
+A cyclical firm will generally report depressed earnings during an economic downturn and
+high earnings during an economic boom. Neither may capture properly the true earnings
+potential of the firm.
+A firm may report abnormally low earnings in a period during which it takes an
+extraordinary charge.
+A firm in the process of restructuring may report low earnings during the restructuring
+period as the changes made to improve firm performance are put into effect.
+The presumption here is that earnings will quickly bounce back to normal levels and that little will be
+lost by assuming that this will occur immediately.
+For some firms, though, the negative or low earnings may reflect factors that are unlikely to
+disappear quickly. There are at least three groups of firms where the negative earnings are likely to
+be a long-term phenomenon and may even threaten the firm’s survival:
+1.
+
+Firms with long-term operating, strategic, or financial problems
+ can have extended periods
+of negative or low earnings. If you replace current earnings with normalized earnings and value
+these firms, you will overvalue them.
+If a firm seems to be in imminent danger of default, the only models that are likely to
+provide meaningful measures of value are the option pricing model (if financial leverage
+is high) or a model based on liquidation value.
+If the firm is troubled but unlikely to go bankrupt, you will have to nurse it back to
+financial health. In practical terms, you will have to adjust the operating margins over
+time to healthier levels and value the firm based on its expected cash flows.
+2.

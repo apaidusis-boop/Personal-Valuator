@@ -1,0 +1,47 @@
+irm in 1998 or 1999 would not have had to apply much of an illiquidity
+
+discount to his or her firm's value, if any, because of the ease with which these firms could be
+taken public in those years.
+4.
+
+Size of the firm.
+ If we state the illiquidity discount as a percent of the value of the firm, it
+should become smaller as the size of the firm increases. In other words, the illiquidity discount
+should be smaller as a percent of firm value for private firms like Cargill and Koch Industries,
+which are worth billions of dollars, than it should be for a small firm worth $15 million a million.
+The illiquidity discount is also likely to vary across potential buyers because the desire for
+liquidity varies with individuals. It is likely that those long term buyers who have deep pockets and
+see little or no need to cash out their equity positions will attach much lower illiquidity discounts to
+value for similar firms than short term buyers that have less of a safety margin.
+Empirical Evidence and Typical Practice
+How large is the illiquidity discount attached to private firm valuations? This is a very difficult
+question to answer empirically because the discount itself cannot be observed. Even if we were able
+to obtain the terms of all private firm transactions, note that what is reported is the price at which
+private firms are bought and sold. The value of these firms is not reported, and the illiquidity discount
+is the difference between the value and the price.
+In fact, much of the evidence on illiquidity discounts comes from examining restricted stock at
+publicly traded firms. Restricted securities are securities issued by a publicly traded company, but
+not registered with the SEC, that can be sold through private placements to investors but cannot be
+resold in the open market for a one-year holding period, and only limited amounts can be sold after
+that. When this stock is issued, the issue price is set much lower than the prevailing market price, and
+the difference is viewed as a discount for illiquidity. The results of three studies that have looked at
+the magnitude of this discount are listed below:
+1.
+ Maher (1976) examined restricted stock purchases made by four mutual funds in the period
+1969 to 1973 and concluded that they traded at an average discount of 35.43 percent on publicly
+traded stock in the same companies.
+2.
+ Moroney (1973) reported a mean discount of 35 percent for acquisitions of 146 restricted stock
+issues by 10 investment companies, using data from 1970.
+3.
+ Silber (1991) examined restricted stock issues from 1984 to 1989 and found that the median
+discount for restricted stock was 33.75 percent.
+In summary, then, there seems to be a substantial discount attached, at least on average, when an
+investment is not liquid. Much of the practice of estimating illiquidity discounts seems to build on
+these averages. For instance, rules of thumb often set the illiquidity discount at 20 to 30 percent of
+estimated value, and there seems to be little or no variation across firms.
+Silber (1991) also examined factors that explained differences in discounts across different
+restricted stocks by relating the size of the discount to observable firm characteristics including
+revenues and the size of the restricted stock offering. He reported the following regression:
+where RPRS = Restricted stock price/Unrestricted stock price = 1 − Illiquidity discount 
+REV = Revenues of the private firm (in millions of dollars)

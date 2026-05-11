@@ -1,0 +1,46 @@
+The options issued by firms themselves do have an effect on value per share, since there is
+a chance that they will be exercised in the near or far future. Given that these options offer the right to
+
+individuals to buy stock at a fixed price, they will be exercised only if the stock price rises above that
+exercise price. When they are exercised, the firm has two choices, both of which have negative
+consequences for existing stockholders. It can issue additional shares to cover the option exercise.
+But this increases the number of shares outstanding and reduces the value per share to existing
+stockholders.
+9
+ Alternatively, it can use cash flows from operations to buy back shares in the open
+market and use these shares to meet the option exercise. This reduces the cash flows available to
+current equity investors in future periods, and makes their equity less valuable today.
+Ways of Incorporating Existing Options into Value
+There are four approaches that are used to incorporate that effect of options that are already
+outstanding into the value per share. However, the first three approaches can lead to misleading
+estimates of value.
+Use Fully Diluted Number of Shares to Estimate Per-Share Value
+The simplest way to incorporate the effect of outstanding options on value per share is to divide the
+value of equity by the number of shares that will be outstanding if all options are exercised today—
+the fully diluted number of shares. While this approach has the virtue of simplicity, it will lead to too
+low an estimate of value per share for two reasons:
+1.
+ It considers all options outstanding, not just ones that are in-the-money and vested. To be fair,
+there are variants of this approach where the shares outstanding are adjusted to reflect only in-the-
+money and vested options.
+2.
+ It does not incorporate the expected proceeds from exercise, which will comprise a cash
+inflow to the firm.
+Finally, this approach does not build in the time premium on the options into the valuation.
+Estimate Expected Option Exercises in the Future and Build In
+Expected Dilution
+In this approach, you forecast when options will be exercised and 
+build in the expected cash outflows
+associated with the exercise by assuming 
+that the firm will buy back stock to cover the exercise. The
+biggest limitation of this approach is that it requires estimates of what the stock price will be in the
+future and when options will be exercised on the stock. Given that your objective is to examine
+whether the price today is correct, forecasting future prices to estimate the current value per share
+seems circular. In general, this approach is neither practical nor particularly useful in coming up with
+reasonable estimates of value.
+Use Treasury Stock Approach
+This approach is a variant of the fully diluted approach. Here the number of shares is adjusted to
+reflect options that are outstanding, but the expected proceeds from the exercise (exercise price times
+number of options) are added to the value of equity. The limitations of this approach are that, like the
+fully diluted approach, it does not consider the time premium on the options and there is no effective
+way of dealing with vesting. Generally this approach, by underestimating the value of options granted,

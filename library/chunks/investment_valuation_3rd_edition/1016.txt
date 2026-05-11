@@ -1,0 +1,92 @@
+ntegrated moving average (ARIMA) models
+Avatek Corporation
+Averages
+Averaging, in beta calculation
+Avonex
+Balance sheets
+accounting vs. financial
+explanation of
+BancorpSouth (BXS)
+Bank of Hawaii (BOH)
+
+Bankruptcy
+costs of
+overlevered firms and probability of
+Barnes & Noble
+Barra
+Barrier options
+Barriers to entry
+Behavioral finance
+Berkshire Hathaway
+Betas
+accounting
+adjusted
+arbitrage pricing model and
+averaging
+bottom-up
+in capital asset pricing model
+cost of equity
+estimation of
+factor
+fundamental
+historical market
+market
+in multifactor models
+price-earnings ratio and
+in private firms
+regression estimates of
+service
+size, growth and
+stock
+total
+unlevered
+Bias
+in multiple estimation
+in serial correlation
+survival
+in takeover valuation
+Biased samples
+Bid-ask spread approach
+Binomial option pricing model
+determinants of value and
+
+early exercise and
+explanation of
+inputs to Black-scholes model converted to
+replicating portfolio and
+Binomial tree
+Biogen
+Biotechnology firms
+Black, Fischer
+Black-Scholes model
+background of
+converted to binomial model
+converting continuous variance in
+distressed firms and
+dividends and
+estimating inputs to
+exercise, impact on underlying asset value
+implied volatility and
+limitations of
+project delay option and
+for put option valuation
+replicating portfolio and
+value of call option in
+variance and
+Blockbuster
+Block trades
+Bloomberg
+Bludhorn, Charles
+Boeing Company
+Bondholders
+Bond ratings
+default risk and
+determinants of
+interest rates and
+process for
+Bonds
+convertible
+default spreads on
+government
+long-term
+maturity of

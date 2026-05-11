@@ -1,0 +1,42 @@
+[
+  {
+    "pdf": "1.pdf",
+    "plumber_chars": 9473,
+    "plumber_s": 0.41,
+    "markit_chars": 9825,
+    "markit_s": 0.71,
+    "delta_pct": 3.7
+  },
+  {
+    "pdf": "102.pdf",
+    "plumber_chars": 1119,
+    "plumber_s": 0.04,
+    "markit_chars": 1196,
+    "markit_s": 0.07,
+    "delta_pct": 6.9
+  },
+  {
+    "pdf": "103.pdf",
+    "plumber_chars": 2188,
+    "plumber_s": 0.05,
+    "markit_chars": 2258,
+    "markit_s": 0.09,
+    "delta_pct": 3.2
+  },
+  {
+    "pdf": "106.pdf",
+    "plumber_chars": 2019,
+    "plumber_s": 0.05,
+    "markit_chars": 2117,
+    "markit_s": 0.09,
+    "delta_pct": 4.9
+  },
+  {
+    "pdf": "109.pdf",
+    "plumber_chars": 3961,
+    "plumber_s": 0.14,
+    "markit_chars": 4088,
+    "markit_s": 0.18,
+    "delta_pct": 3.2
+  }
+]

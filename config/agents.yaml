@@ -1,0 +1,380 @@
+# config/agents.yaml — declarative agent registry.
+#
+# Cada agent é um "funcionário" da empresa sintética:
+#   name            — slug único técnico
+#   employee_name   — nome humano (usado em briefings, vault, Telegram)
+#   title           — cargo (sobrenome do departamento)
+#   bio             — 1 linha sobre a persona (estilo de trabalho)
+#   department      — Research / Risk / Operations / Compliance / Desk / Performance
+#   class           — dotted path module:ClassName
+#   enabled         — bool (kill switch sem remover)
+#   schedule        — manual | daily:HH:MM | every:Nm | weekly:DOW:HH:MM
+#   reports_to      — slug de outro agent (None = founder)
+#   config          — dict agent-specific
+#
+# Cron runner corre every minute. Cada agent verifica seu schedule.
+# Meta agent ("Regina Ordem") lê este ficheiro + state files para auditar.
+
+agents:
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Desk & Operations
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: morning_briefing
+    employee_name: "Aurora Matina"
+    title: "Morning Analyst"
+    bio: "Entrega o briefing diário com calma jornalística. Primeira a abrir as janelas."
+    department: "Operations"
+    class: agents.morning_briefing:MorningBriefingAgent
+    enabled: true
+    schedule: "daily:07:00"
+    reports_to: "founder"
+    description: "Briefing matinal via Ollama + Telegram push"
+    config:
+      push_telegram: true
+      max_triggers: 10
+      max_analyst_insights: 15
+      lookback_hours: 24
+
+  - name: watchdog
+    employee_name: "Wilson Vigil"
+    title: "Floor Trader / Desk Watch"
+    bio: "Olho clínico de pregão. 15 em 15 minutos vê o que se move e grita se for grave."
+    department: "Operations"
+    class: agents.watchdog:WatchdogAgent
+    enabled: true
+    schedule: "every:15m"
+    reports_to: "aurora_matina"
+    description: "Auto-extract novos reports + trigger alerts + earnings reminders"
+    config:
+      auto_extract: true
+      max_extract_per_run: 5
+      alert_new_triggers: true
+
+  - name: telegram_controller
+    employee_name: "Zé Mensageiro"
+    title: "Telegram Desk"
+    bio: "Ponte entre o founder e a casa. Recebe comandos por Telegram e despacha para os colegas."
+    department: "Desk"
+    class: agents.telegram_controller:TelegramControllerAgent
+    enabled: true
+    schedule: "every:2m"
+    reports_to: "antonio_carlos"
+    description: "Long-poll Telegram updates, executa comandos /status /run /approve"
+    config:
+      max_commands_per_run: 20
+
+  - name: antonio_carlos
+    employee_name: "Antonio Carlos"
+    title: "Chief of Staff"
+    bio: "Cérebro orquestrador da casa. Recebe perguntas livres do founder e
+      compõe a resposta chamando as tools certas — verdict, posição, regime,
+      synthetic IC, web research. Memória conversacional por chat. Nunca inventa
+      números; sempre delega às fontes. Fala PT directo, sem cerimónia."
+    department: "Desk"
+    class: agents.chief_of_staff:ChiefOfStaffAgent
+    enabled: true
+    schedule: "manual"
+    reports_to: "founder"
+    description: "Tool-calling agentic loop sobre Ollama Qwen 2.5 32B. Substitui
+      o classificador rígido _nl_dispatch para qualquer texto livre."
+    config:
+      model: "qwen2.5:32b-instruct-q4_K_M"
+      max_tool_rounds: 6
+      max_history: 20
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Research
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: thesis_refresh
+    employee_name: "Teresa Tese"
+    title: "Research Coordinator"
+    bio: "Guarda as teses escritas. Semanalmente actualiza snapshots — sem alarmismo."
+    department: "Research"
+    class: agents.thesis_refresh:ThesisRefreshAgent
+    enabled: true
+    schedule: "weekly:sun:22:00"
+    reports_to: "ulisses_navegador"
+    description: "Re-injecta Live Snapshot em wiki/holdings/*.md"
+    config: {}
+
+  - name: subscription_fetch
+    employee_name: "Sofia Clippings"
+    title: "Research Intern"
+    bio: "Corta os recortes de imprensa da semana — Fool, XP, WSJ. Não julga, traz."
+    department: "Research"
+    class: agents.subscription_fetch:SubscriptionFetchAgent
+    enabled: true
+    schedule: "weekly:mon:09:00"
+    reports_to: "ulisses_navegador"
+    description: "Fetch weekly subscription reports (Fool/XP/WSJ)"
+    config:
+      sources: [fool, xp, wsj]
+      days: 7
+
+  - name: research_scout
+    employee_name: "Ulisses Navegador"
+    title: "Head of Research"
+    bio: "Navega fontes externas — CVM, SEC, news — em busca do que escapou. Síntese em PT."
+    department: "Research"
+    class: agents.research_scout:ResearchScoutAgent
+    enabled: true
+    schedule: "daily:08:30"
+    reports_to: "founder"
+    description: "Scout filings CVM/SEC + news novos + gaps que subscriptions não cobriram"
+    config:
+      sources: [cvm, sec, news]
+      lookback_hours: 24
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Risk & Compliance
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: risk_auditor
+    employee_name: "Valentina Prudente"
+    title: "Chief Risk Officer"
+    bio: "Conservadora portuguesa, vê drift de tese antes de todos. Não tolera euphoria barata."
+    department: "Risk"
+    class: agents.risk_auditor:RiskAuditorAgent
+    enabled: true
+    schedule: "daily:21:00"
+    reports_to: "founder"
+    description: "Drift detection em holdings via regras deterministic + narrativa Ollama"
+    config: {}
+
+  - name: devils_advocate
+    employee_name: "Diabo Silva"
+    title: "Chief Contrarian"
+    bio: "Contratado para discordar. Para cada bull case, escreve 3 bear cases cuidadosos."
+    department: "Risk"
+    class: agents.devils_advocate:DevilsAdvocateAgent
+    enabled: true
+    schedule: "weekly:wed:10:00"
+    reports_to: "valentina_prudente"
+    description: "Anti-confirmation-bias: injecta bear case em theses bullish"
+    config: {}
+
+  - name: meta_agent
+    employee_name: "Regina Ordem"
+    title: "Compliance Officer"
+    bio: "Quem audita os auditores. Disciplina férrea: 3 falhas consecutive e estás fora."
+    department: "Compliance"
+    class: agents.meta_agent:MetaAgent
+    enabled: true
+    schedule: "daily:23:00"
+    reports_to: "founder"
+    description: "Audita outros agents: auto-disable + zombie detection + dashboard health"
+    config: {}
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Performance & Analytics
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: analyst_backtest
+    employee_name: "Aristóteles Backtest"
+    title: "Head of Performance"
+    bio: "Mede quem acertou e quem falou fiado. Ranking de analistas com números frios."
+    department: "Performance"
+    class: agents.analyst_backtest:AnalystBacktestAgent
+    enabled: true
+    schedule: "weekly:fri:20:00"
+    reports_to: "founder"
+    description: "Backtest predictions vs real moves; ranking source credibility"
+    config:
+      horizons_days: [30, 90, 180]
+      stance_threshold: 0.02  # 2% move para confirmar bull/bear
+
+  - name: portfolio_matcher
+    employee_name: "Clara Fit"
+    title: "Portfolio Analyst"
+    bio: "Cada insight novo é atribuído ao lugar certo: holding/watchlist/macro/noise."
+    department: "Performance"
+    class: agents.portfolio_matcher:PortfolioMatcherAgent
+    enabled: true
+    schedule: "every:30m"
+    reports_to: "clara_fit"  # self-supervising :)
+    description: "Mapeia insights recentes → holdings/watchlist + relevance score"
+    config:
+      lookback_hours: 6
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Design
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: helena_mega
+    employee_name: "Helena Linha (Mega)"
+    title: "Head of Design — Mega mode"
+    bio: "Auditoria + curadoria + spikes de plataforma num só pipeline. On-demand quando o founder pede revisão geral."
+    department: "Design"
+    class: agents.helena_mega:MegaHelenaAgent
+    enabled: true
+    schedule: "manual"
+    reports_to: "founder"
+    description: "Mega Helena — design audit + skill curation + 4-path spikes + master report"
+    config:
+      stages: [audit, curate, spike, report]
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Data Stewardship
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: data_janitor
+    employee_name: "Noé Arquivista"
+    title: "Data Steward"
+    bio: "Arquiva o que envelhece, dedupe o que se repete, VACUUM semanal. Silencioso."
+    department: "Operations"
+    class: agents.data_janitor:DataJanitorAgent
+    enabled: true
+    schedule: "weekly:sat:03:00"
+    reports_to: "regina_ordem"
+    description: "DB cleanup: archive old reports, dedup, VACUUM, remove noise"
+    config:
+      archive_older_than_days: 180
+      dedup_reports: true
+      vacuum: true
+
+  # ══════════════════════════════════════════════════════════════════
+  # DEPARTMENT: Specialists (Council)
+  # ──────────────────────────────────────────────────────────────────
+  # On-demand consultants. Não correm em cron; entram quando o Council
+  # (`agents/council/`) é convocado para um ticker. Cada um defende o
+  # framing correcto do seu Modo×Jurisdição e tem veto power sobre
+  # métricas inadequadas (ex: P/TBV em industrial, Piotroski em FII).
+  # ══════════════════════════════════════════════════════════════════
+
+  - name: banks_br_specialist
+    employee_name: "Diego Bancário"
+    title: "Banks BR Specialist"
+    bio: "Lê balanço de banco antes de qualquer múltiplo. P/TBV, ROTCE, NIM, Basileia, eficiência — segunda natureza. Veta Graham Number e ND/EBITDA em banco."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo B-BR (BBDC4, ITUB4, ITSA4 holding com peso bancário, B3SA3, BBSE3)."
+    config:
+      modo: "B"
+      jurisdiction: "BR"
+      vetoes: ["graham_number_for_bank", "ev_ebitda_for_bank", "net_debt_ebitda_for_bank"]
+
+  - name: banks_us_specialist
+    employee_name: "Hank Tier-One"
+    title: "Banks US Specialist"
+    bio: "GFC veteran. Lives and breathes CET1 — that's where the nickname comes from. ROTCE > ROE every time, P/TBV antes de P/B em banco com goodwill. Pre-2009 streak doesn't count — JPM cortou em 2009 e o relógio começa lá."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo B-US (JPM, BAC, GS, WFC, MS, C)."
+    config:
+      modo: "B"
+      jurisdiction: "US"
+      vetoes: ["pb_without_tangible_adjust", "div_streak_pre_gfc"]
+
+  - name: industrials_br_specialist
+    employee_name: "Tião Galpão"
+    title: "Industrials & Consumer BR Specialist"
+    bio: "Tião conhece chassis, capacidade instalada, ciclo de capex doméstico. Fala de Selic como custo de capex. Graham clássico ajustado: DY ≥ 6%, ROE ≥ 15%, ND/EBITDA < 3x, streak ≥ 5y. Veterano que cresceu no chão de fábrica antes do MBA."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo A-BR não-banco (POMO3, RAPT4, RENT3, MULT3, PGMN3, RDOR3, ITSA4 holding com peso industrial via Dexco/Alpargatas)."
+    config:
+      modo: "A"
+      jurisdiction: "BR"
+      vetoes: ["pe_in_isolation_no_sector_anchor", "dy_without_payout_check"]
+
+  - name: industrials_us_specialist
+    employee_name: "Charlie Compounder"
+    title: "Industrials & Consumer US Specialist (Buffett frame)"
+    bio: "Compra qualidade a preço razoável. Aristocrats e Kings primeiro; especulação nunca. ROIC > 15% sustentado, Shareholder Yield (Div + Buyback) sobre Yield isolado, moat antes de múltiplo."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo A-US (JNJ, PG, KO, ABBV, ACN, HD, GS-as-ndc, MMM, etc.)."
+    config:
+      modo: "A"
+      jurisdiction: "US"
+      vetoes: ["yield_without_buyback_layer", "valuation_without_roic_history"]
+
+  - name: commodities_br_specialist
+    employee_name: "Aderbaldo Cíclico"
+    title: "Commodities BR Specialist"
+    bio: "Aderbaldo só fala em mid-cycle EBITDA. Múltiplo pontual em commodity é teatro. Lifting cost, regra do ciclo, reservas — antes de qualquer recomendação. Carrega no bolso uma tabela de Brent dos últimos 30 anos."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo C-BR (VALE3, PRIO3, SUZB3, KLBN4, GGBR4, CSNA3)."
+    config:
+      modo: "C"
+      jurisdiction: "BR"
+      vetoes: ["spot_pe_without_cycle_position", "valuation_at_peak_earnings"]
+
+  - name: fiis_br_specialist
+    employee_name: "Lourdes Aluguel"
+    title: "FIIs BR Specialist"
+    bio: "Cap Rate vs NTN-B real. Vacância física E financeira separadas — não confunde. Rendimento mensal sobre FFO, nunca sobre lucro contábil. Veta Piotroski/Altman em FII."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo D-BR (XPML11, RBRX11, BTLG11, VGIR11, PVBI11, KNRI11)."
+    config:
+      modo: "D"
+      jurisdiction: "BR"
+      vetoes: ["piotroski_for_fii", "altman_for_fii", "dy_over_net_income"]
+
+  - name: reits_us_specialist
+    employee_name: "Walter Triple-Net"
+    title: "REITs US Specialist"
+    bio: "Walter only thinks in 30-year leases. AFFO over FFO — capex de manutenção excluído, FFO inflated by maintenance capex is a trap. P/FFO ao Treasury 10Y. Tenant concentration > 10% é red flag em office e healthcare. Famous for asking 'what's the lease structure?' before anything else."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "ulisses_navegador"
+    mode: "consultant"
+    description: "Council voice para Modo D-US (O, STAG, VICI, AMT, PLD, etc.)."
+    config:
+      modo: "D"
+      jurisdiction: "US"
+      vetoes: ["ffo_without_affo_adjust", "single_tenant_concentration_unflagged"]
+
+  - name: macro_strategist
+    employee_name: "Mariana Macro"
+    title: "Chief Macro Strategist"
+    bio: "Selic, Fed, câmbio, ciclo de commodities. Não escolhe ações; descreve o palco onde elas dançam. Cross-jurisdição BR + US, vê regime antes de stock picking."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "founder"
+    mode: "consultant"
+    description: "Cross-cutting macro voice. Convocada quando o ticker tem Macro Exposure ou Dependency ≥ 4 (ver Phase Council philosophy.py)."
+    config:
+      modo: "all"
+      jurisdiction: "all"
+
+  - name: capital_allocator
+    employee_name: "Pedro Alocação"
+    title: "Capital Allocator"
+    bio: "Sizing, correlação, fit. Decide se cabe na carteira AGORA, não se a empresa é boa em si. BRL fica em BR, USD em US — moedas isoladas. Veta posição > 10% sem tese de concentração explícita."
+    department: "Specialists"
+    enabled: true
+    schedule: "manual"
+    reports_to: "founder"
+    mode: "consultant"
+    description: "Portfolio Officer no Council. Avalia peso vs target, correlação com posições existentes, currency isolation, sizing recommendation."
+    config:
+      modo: "all"
+      jurisdiction: "all"
+      max_concentration_pct: 10.0
+      correlation_warning_threshold: 0.7

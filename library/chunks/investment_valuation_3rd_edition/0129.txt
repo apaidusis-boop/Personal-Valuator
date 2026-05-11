@@ -1,0 +1,48 @@
+many investment strategies:
+In an efficient market, equity research and valuation would be a costly task that would
+provide no benefits. The odds of finding an undervalued stock would always be 50–50,
+
+reflecting the randomness of pricing errors. At best, the benefits from information collection
+and equity research would cover the costs of doing the research.
+In an efficient market, a strategy of randomly diversifying across stocks or indexing to the
+market, carrying little or no information cost and minimal execution costs, would be
+superior to any other strategy that created larger information and execution costs. There
+would be no value added by active portfolio managers and investment strategists.
+In an efficient market, a strategy of minimizing trading (i.e., creating a portfolio and not
+trading unless cash was needed) would be superior to a strategy that required frequent
+trading.
+It is therefore no wonder that the concept of market efficiency evokes such strong reactions on the part
+of portfolio managers and analysts, who view it, quite rightly, as a challenge to their existence.
+It is also important that there be clarity about what market efficiency does not imply. An efficient
+market does 
+not
+ imply that:
+Stock prices cannot deviate from true value; in fact, there can be large deviations from true
+value. The only requirement is that the deviations be random.
+No investor will beat the market in any time period. To the contrary, approximately half of
+all investors, prior to transaction costs, should beat the market in any period.
+1
+No group of investors will beat the market in the long term. Given the number of investors in
+financial markets, the laws of probability would suggest that a fairly large number are going
+to beat the market consistently over long periods, not because of their investment strategies
+but because they are lucky. It would not, however, be consistent if a disproportionately
+large number
+2
+ of these investors used the same investment strategy.
+In an efficient market, the expected returns from any investment will be consistent with the risk of
+that investment over the long term, though there may be deviations from these expected returns in the
+short term.
+NECESSARY CONDITIONS FOR MARKET
+EFFICIENCY
+Markets do not become efficient automatically. It is the actions of investors, sensing bargains and
+putting into effect schemes to beat the market, that make markets efficient. The necessary conditions
+for a market inefficiency to be eliminated are:
+The market inefficiency should provide the basis for a scheme to beat the market and earn
+excess returns. For this to hold true:
+The asset or assets that are the source of the inefficiency have to be traded.
+The transaction costs of executing the scheme have to be smaller than the expected
+profits from the scheme.
+There should be profit-maximizing investors who:
+Recognize the potential for excess return.
+Can replicate the beat-the-market scheme that earns the excess return.
+Have the resources to trade on the stock(s) until the inefficiency disappears.

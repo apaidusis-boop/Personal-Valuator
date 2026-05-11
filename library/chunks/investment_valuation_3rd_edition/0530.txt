@@ -1,0 +1,33 @@
+ants of the PE ratio. The value per share in a two-stage dividend discount model can be
+written as:
+Dividing both sides of the equation by the earnings per share (EPS
+0
+) first and the expected growth
+
+rate over the high growth period (g) next, you can estimate the PEG ratio:
+Even a cursory glance at this equation suggests that analysts who believe that using the PEG ratio
+neutralizes the growth effect are mistaken. Instead of disappearing, the growth rate becomes even
+more deeply entangled in the multiple. In fact, as the growth rate increases, the effects on the PEG
+ratio can be both positive and negative and the net effect can vary depending on the level of the
+growth rate.
+ILLUSTRATION 18.10: Estimating the PEG Ratio for a
+Firm
+Assume that you have been asked to estimate the PEG ratio for a firm that has the same characteristics as the firm
+described in Illustration 18.1:
+Growth rate in first five years = 25%
+Payout ratio in first five years = 20%
+Growth rate after five years = 8%
+Payout ratio after five years = 50%
+Beta = 1.0
+Risk-free rate = T-bond rate = 6%
+Required rate of return = 6% + 1(5.5%) = 11.5%
+The PEG ratio can be estimated as follows:
+The PEG ratio for this firm, based on fundamentals, is 1.15.
+EXPLORING THE RELATIONSHIP WITH FUNDAMENTALS
+Consider first the effect of changing the growth rate during the high growth period (next five years) from 25%. 
+Figure 18.8
+presents the PEG ratio as a function of the expected growth rate. As the growth rate increases, the PEG ratio initially
+decreases, but then starts increasing again. This U-shaped relationship between PEG ratios and growth suggests that
+comparing PEG ratios across firms with widely different growth rates can be complicated.
+Figure 18.8
+ PEG Ratios, Expected Growth, and Interest Rates

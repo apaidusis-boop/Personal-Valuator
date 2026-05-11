@@ -1,0 +1,21 @@
+instalada em mais 1,4% e a sua garantia física em 1,1%.
+
+Para Coxilha Negra e Casa Nova, estimamos o início das operações para 2024, enquanto os investimentos restantes devem totalizar R$ 1,8 bilhão.
+
+Itaguaçu Bahia I, por sua vez, tem expectativa de entrada em operação no final de 2025, com investimentos previstos de R$ 1,6 bilhão.
+
+Em transmissão, estão em curso as obras dos lotes 8 e 4 dos leilões 01/22 e 01/23 (RAPs de R$ 13,2 milhões e R$ 71,4 milhões, respectivamente), configurando um crescimento contratado de 0,6% (R$ 84,6 milhões) às receitas contratuais operacionais.
+
+Para ambos os casos, por a empresa recém estar voltando a participar de leilões e construir ativos de transmissão do zero, optamos por não considerar antecipação de entrega a eficiência de CapEx em relação às estimativas da Aneel.
+
+Assim, o lote 8 deve entrar em operação no segundo semestre de 2026, exigindo investimentos de R$ 134,6 milhões, enquanto o lote 4 está previsto para o segundo semestre de 2028 com investimentos orçados em R$ 786,6 milhões.
+
+---
+
+## Valuation
+
+- *Atualizado em 09/03/2026*
+
+Para chegarmos ao valor intrínseco ao negócio da Axia Energia, optamos pela metodologia de Fluxo de Caixa Descontado para a Firma (FCFF).
+
+Este método permite nos debruçarmos sobre a tese tendo como base parâmetros factuais, levando em conta que nos negócios regulados de energia elétrica em que a empresa opera, sabemos de antecipadamente algumas premissas-chave dos contratos que podem nortear a nossa avaliação sem jogos de adivinhações muito incertos. São eles: os prazos restantes das concessões e os respectivos indexadores para reajustes.

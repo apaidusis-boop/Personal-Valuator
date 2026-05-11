@@ -1,0 +1,33 @@
+wth rate (assuming a beta of 0.80 and current dividends per share of $2.22). Solving
+for the expected growth rate that provides the current price, we get:
+Figure 13.2
+ Con Ed: Value versus Growth Rate
+
+The growth rate in earnings and dividends would have to be 3.21 percent a year to justify the stock price of $53.47. This
+growth rate is called an implied growth rate. Since we estimate growth from fundamentals, this allows us to estimate an
+implied return on equity:
+ILLUSTRATION 13.2: 
+Valuing a Mature Commodity
+Company Using Stable DDM: 
+Total 
+SA
+Total SA is a mature integrated, multinational oil company based in France. 
+With its volatile income, driven largely by swings
+in oil prices, it may seem to fit 
+poorly into the mold of a stable company, but looking past the commodity price variance, it is a
+mature company, and its high dividend payout ratio reflects this 
+stability.
+To value the company, we first average the net income and dividends from 
+2007 to 2010:
+Using the average income and dividends over the four-year period, we estimate a payout ratio of 49.28%, a little low for a
+stable growth company but one that we will use for this valuation.
+The cost of equity was estimated using a beta of 0.90 (reflecting the average beta of integrated oil companies, a euro risk-free
+rate of 3.25%, and an equity risk 
+premium of 5.50%; we augment the mature market premium of 5% with an additional
+0.50% to capture the risk of the many risky markets where Total gets its oil:
+Finally, we assume a stable growth rate of 2% (set just above the expected inflation rate) and valued the equity:
+Total SA had a market capitalization of 97,286 million euros at the time of the valuation, making it over-valued by about
+12.2%.
+It is worth noting that this is a conservative estimate of value. With a growth rate of 2%, Total SA should be capable of
+paying more in dividends, and its free cash flows to equity over this four-year period are higher than what it paid out.
+DDMst.xls:

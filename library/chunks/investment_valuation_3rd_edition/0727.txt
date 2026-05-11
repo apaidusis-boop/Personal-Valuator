@@ -1,0 +1,31 @@
+stricted stocks to a much larger sample. You could even consider the trading volume for publicly
+traded stocks as an independent variable and set it to zero for a private firm. Using data from the end
+
+of 2000, for instance, we regressed the bid-ask spread for Nasdaq stocks against revenues, a dummy
+variable for positive earnings, cash as a percent of firm value, and trading volume.
+Plugging in the corresponding values—with a trading volume of zero—for a private firm should yield
+an estimate of the bid-ask spread for the firm.
+ILLUSTRATION 24.10: Estimating the Illiquidity Discount
+for Chez Pierre
+Since Chez Pierre is being valued for a private transaction, it is appropriate to consider an illiquidity discount. We can use
+both approaches described earlier to estimate the magnitude of that discount
+1.
+
+Restricted stock approach:
+ To estimate the illiquidity discount for Chez Pierre, we assume that the base discount for a
+firm with $10 million in revenues would be 25%. Chez Pierre's revenues of $1.2 million, being smaller than the typical firm,
+should result in a higher discount on their value. We estimate the difference in the illiquidity discount between a firm with
+$10 million in revenue and $1.2 million in revenue to be 3.75%. To do this, we first estimated the illiquidity discount in the
+Silber equation for a firm with $10 million in revenues. 
+
+We then reestimated the illiquidity discount with revenues of $ 1.2 million: 
+
+The estimated illiquidity discount for Chez Pierre would therefore be 28.75%, which is the base discount of 25% adjusted
+for the additional discount to reflect smaller revenues that the firm possesses.
+2.
+
+Bid-ask spread approach:
+ We could substitute in the revenues of Chez Pierre the fact that it has positive earnings
+and the cash as a percent of revenues held by the firm (1%): 
+Based on this approach, we would estimate an illiquidity discount of 12.94%.
+liqdisc.xls:

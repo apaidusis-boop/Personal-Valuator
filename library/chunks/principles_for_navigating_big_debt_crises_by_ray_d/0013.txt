@@ -1,0 +1,47 @@
+3  Archetype charts are sensitive to outliers, especially for metrics like inflation that vary widely � For each chart, we excluded roughly the third of cases that were 
+least related to the average� 
+
+Principles For Navigating Big Debt Crises
+17
+In this up-wave part of the long-term debt cycle, promises to deliver money (i.e., debt burdens) rise relative to both 
+the supply of money in the overall economy and the amount of money and credit debtors have coming in (via 
+incomes, borrowing, and sales of assets). This up-wave typically goes on for decades, with variations primarily due 
+to central banks’ periodic tightenings and easings of credit. These are short-term debt cycles, and a bunch of them 
+generally add up to a long-term debt cycle. 
+A key reason the long-term debt cycle can be sustained for so long is that central banks progressively lower interest 
+rates, which raises asset prices and, in turn, people’s wealth, because of the present value effect that lowering 
+interest rates has on asset prices. This keeps debt service burdens from rising, and it lowers the monthly payment 
+cost of items bought on credit. But this can’t go on forever. Eventually the debt service payments become equal to 
+or larger than the amount debtors can borrow, and the debts (i.e., the promises to deliver money) become too large 
+in relation to the amount of money in existence there is to give. When promises to deliver money (i.e., debt) can’t 
+rise any more relative to the money and credit coming in, the process works in reverse and deleveraging begins. 
+Since borrowing is simply a way of pulling spending forward, the person spending $60,000 per year and earning 
+$50,000 per year has to cut his spending to $40,000 for as many years as he spent $60,000, all else being equal. 
+Though a bit of an oversimplification, this is the essential dynamic that drives the inflating and deflating of a bubble.
+The Start of a Bubble: The Bull Market
+Bubbles usually start as over-extrapolations of justified bull markets. The bull markets are initially justified 
+because lower interest rates make investment assets, such as stocks and real estate, more attractive so they go up, 
+and economic conditions improve, which leads to economic growth and corporate profits, improved balance sheets, 
+and the ability to take on more debt—all of which make the companies worth more. 
+As assets go up in value, net worths and spending/income levels rise. Investors, business people, financial interme -
+diaries, and policy makers increase their confidence in ongoing prosperity, which supports the leveraging-up 
+process. The boom also encourages new buyers who don’t want to miss out on the action to enter the market, 
+fueling the emergence of a bubble. Quite often, uneconomic lending and the bubble occur because of implicit or 
+explicit government guarantees that encourage lending institutions to lend recklessly. 
+As new speculators and lenders enter the market and confidence increases, credit standards fall. Banks lever up 
+and new types of lending institutions that are largely unregulated develop (these non-bank lending institutions are 
+referred to collectively as a “shadow banking” system). These shadow banking institutions are typically less under 
+the blanket of government protections. At these times, new types of lending vehicles are frequently invented and a 
+lot of financial engineering takes place. 
+The lenders and the speculators make a lot of fast, easy money, which reinforces the bubble by increasing the specula-
+tors’ equity, giving them the collateral they need to secure new loans. At the time, most people don’t think that is a 
+problem; to the contrary, they think that what is happening is a reflection and confirmation of the boom. This phase 
+of the cycle typically feeds on itself. Taking stocks as an example, rising stock prices lead to more spending and 
+investment, which raises earnings, which raises stock prices, which lowers credit spreads and encourages increased 
+lending (based on the increased value of collateral and higher earnings), which affects spending and investment rates, 
+etc. During such times, most people think the assets are a fabulous treasure to own—and consider anyone who doesn’t 
+own them to be missing out. As a result of this dynamic, all sorts of entities build up long positions. Large 
+asset-liability mismatches increase in the forms of a) borrowing short-term to lend long-term, b) taking on liquid 
+liabilities to invest in illiquid assets, and c) investing in riskier debt or other risky assets with money borrowed 
+from others, and/or d) borrowing in one currency and lending in another, all to pick up a perceived spread. All 
+the while, debts rise fast and debt service costs rise even faster. The charts below paint the picture.

@@ -1,0 +1,224 @@
+# Midnight Work 2026-05-09 — live status
+
+_Started: 2026-05-09T00:41:36_
+
+Drop `STOP_MIDNIGHT` in repo root to halt at next phase boundary.
+
+## Progress
+
+- 00:41:36 **boot** >>> ENTERING PHASE: inventory
+- 00:41:36 **1.inventory** Scanning DBs for nullable critical fields and stale rows
+- 00:41:36 **1.inventory**   US: tickers=109 stale_fund=0 stale_div=7 no_fund=1
+- 00:41:36 **1.inventory**   BR: tickers=81 stale_fund=0 stale_div=10 no_fund=2
+- 00:41:36 **1.inventory**   written: data\midnight_inventory_2026-05-09.json
+- 00:41:36 **boot** <<< EXITING PHASE: inventory  (0s elapsed)
+- 00:41:36 **boot** >>> ENTERING PHASE: dividends
+- 00:41:36 **2a.dividends** Backfilling dividend history (yfinance deep fundamentals + holdings)
+- 00:41:36 **2a.dividends** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\fetchers\yf_deep_fundamentals.py" --holdings
+- 00:42:28 **2a.dividends**   exit=0  stdout_len=1009  stderr_len=0
+- 00:42:28 **2a.dividends** Computing CAGR (5y/10y/25y) per ticker — inline
+- 00:42:28 **2a.dividends**   CAGRs computed for 176 tickers — data\dividend_cagrs_2026-05-09.json
+- 00:42:28 **boot** <<< EXITING PHASE: dividends  (51s elapsed)
+- 00:42:28 **boot** >>> ENTERING PHASE: macro
+- 00:42:28 **2b.macro** Backfilling macro history (FRED + BCB)
+- 00:42:28 **2b.macro** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\fetchers\fred_fetcher.py"
+- 00:42:34 **2b.macro**   exit=0  stdout_len=1407  stderr_len=0
+- 00:42:34 **2b.macro** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\scripts\export_macro_csv.py"
+- 00:42:34 **2b.macro**   exit=0  stdout_len=368  stderr_len=0
+- 00:42:34 **2b.macro**   Macro phase done
+- 00:42:34 **boot** <<< EXITING PHASE: macro  (6s elapsed)
+- 00:42:34 **boot** >>> ENTERING PHASE: sec_cvm
+- 00:42:34 **2c.sec_cvm** Running SEC monitor for US universe
+- 00:42:34 **2c.sec_cvm** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m monitors.sec_monitor
+- 00:42:47 **2c.sec_cvm**   exit=0  stdout_len=3361  stderr_len=0
+- 00:42:47 **2c.sec_cvm** Running CVM monitor for BR universe
+- 00:42:47 **2c.sec_cvm** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m monitors.cvm_monitor
+- 00:42:47 **2c.sec_cvm**   exit=1  stdout_len=294  stderr_len=750
+- 00:42:47 **2c.sec_cvm**   stderr_head: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 220, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 208, in main
+    results = run_all(year=args.year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 172, in run_all
+    rows = download_ipe(year)
+  File "C:\Users\paidu\investment-intelligence\monitors\cvm_monitor.py", line 88, in downl
+- 00:42:47 **2c.sec_cvm** Extracting CVM PDFs for pending events
+- 00:42:47 **2c.sec_cvm** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\monitors\cvm_pdf_extractor.py" --limit 200
+- 00:56:43 **2c.sec_cvm**   exit=0  stdout_len=2029  stderr_len=0
+- 00:56:43 **boot** <<< EXITING PHASE: sec_cvm  (849s elapsed)
+- 00:56:43 **boot** >>> ENTERING PHASE: engines
+- 00:56:43 **3.engines** Recomputing dividend_safety for all
+- 00:56:43 **3.engines** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m scoring.dividend_safety --all
+- 00:56:43 **3.engines**   exit=0  stdout_len=2349  stderr_len=0
+- 00:56:43 **3.engines** Running daily_update.py (BR side)
+- 00:56:43 **3.engines** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\scripts\daily_update.py"
+- 00:58:29 **3.engines**   exit=0  stdout_len=94228  stderr_len=0
+- 00:58:29 **3.engines** Running daily_update_us.py (US side)
+- 00:58:29 **3.engines** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\scripts\daily_update_us.py"
+- 01:02:56 **3.engines**   exit=0  stdout_len=133235  stderr_len=0
+- 01:02:56 **boot** <<< EXITING PHASE: engines  (373s elapsed)
+- 01:02:56 **boot** >>> ENTERING PHASE: perpetuums
+- 01:02:56 **4.perpetuums** Running perpetuum_master (all T1 observers)
+- 01:02:56 **4.perpetuums** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" "C:\Users\paidu\investment-intelligence\agents\perpetuum_master.py"
+- 01:03:09 **4.perpetuums**   exit=0  stdout_len=10021  stderr_len=0
+- 01:03:09 **boot** <<< EXITING PHASE: perpetuums  (14s elapsed)
+- 01:03:09 **boot** >>> ENTERING PHASE: multi_agent
+- 01:03:09 **5.multi_agent** Multi-agent validation chain (synthetic_ic + variant_perception)
+- 01:03:09 **5.multi_agent**   holdings to validate: 33
+- 01:03:09 **5.multi_agent**   → us/ABBV synthetic_ic
+- 01:03:09 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ABBV --majority 3
+- 01:16:28 **5.multi_agent**   TIMEOUT after 600s
+- 01:16:28 **5.multi_agent**   → us/ABBV variant_perception
+- 01:16:28 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception ABBV --market us
+- 01:16:31 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 01:16:31 **5.multi_agent**   → us/ACN synthetic_ic
+- 01:16:31 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ACN --majority 3
+- 01:31:09 **5.multi_agent**   TIMEOUT after 600s
+- 01:31:09 **5.multi_agent**   → us/ACN variant_perception
+- 01:31:09 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception ACN --market us
+- 01:31:12 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 01:31:12 **5.multi_agent**   → us/KO synthetic_ic
+- 01:31:12 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic KO --majority 3
+- 01:50:32 **5.multi_agent**   TIMEOUT after 600s
+- 01:50:32 **5.multi_agent**   → us/KO variant_perception
+- 01:50:32 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception KO --market us
+- 01:50:34 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 01:50:34 **5.multi_agent**   → us/JNJ synthetic_ic
+- 01:50:34 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic JNJ --majority 3
+- 02:15:08 **5.multi_agent**   TIMEOUT after 600s
+- 02:15:08 **5.multi_agent**   → us/JNJ variant_perception
+- 02:15:08 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception JNJ --market us
+- 02:15:10 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 02:15:10 **5.multi_agent**   → us/O synthetic_ic
+- 02:15:10 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic O --majority 3
+- 02:45:13 **5.multi_agent**   TIMEOUT after 600s
+- 02:45:13 **5.multi_agent**   → us/O variant_perception
+- 02:45:13 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception O --market us
+- 02:45:15 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 02:45:15 **5.multi_agent**   → us/BLK synthetic_ic
+- 02:45:15 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BLK --majority 3
+- 03:10:10 **5.multi_agent**   TIMEOUT after 600s
+- 03:10:10 **5.multi_agent**   → us/BLK variant_perception
+- 03:10:10 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BLK --market us
+- 03:10:12 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 03:10:12 **5.multi_agent**   → us/JPM synthetic_ic
+- 03:10:12 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic JPM --majority 3
+- 03:34:44 **5.multi_agent**   TIMEOUT after 600s
+- 03:34:44 **5.multi_agent**   → us/JPM variant_perception
+- 03:34:44 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception JPM --market us
+- 03:34:46 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 03:34:46 **5.multi_agent**   → us/PG synthetic_ic
+- 03:34:46 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PG --majority 3
+- 03:53:16 **5.multi_agent**   TIMEOUT after 600s
+- 03:53:16 **5.multi_agent**   → us/PG variant_perception
+- 03:53:16 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PG --market us
+- 03:53:18 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 03:53:18 **5.multi_agent**   → us/PLTR synthetic_ic
+- 03:53:18 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PLTR --majority 3
+- 04:06:30 **5.multi_agent**   TIMEOUT after 600s
+- 04:06:30 **5.multi_agent**   → us/PLTR variant_perception
+- 04:06:30 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PLTR --market us
+- 04:07:14 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 04:07:14 **5.multi_agent**   → us/XP synthetic_ic
+- 04:07:14 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic XP --majority 3
+- 04:19:53 **5.multi_agent**   TIMEOUT after 600s
+- 04:19:53 **5.multi_agent**   → us/XP variant_perception
+- 04:19:53 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception XP --market us
+- 04:19:55 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 04:19:55 **5.multi_agent**   → us/TEN synthetic_ic
+- 04:19:55 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TEN --majority 3
+- 04:33:08 **5.multi_agent**   TIMEOUT after 600s
+- 04:33:08 **5.multi_agent**   → us/TEN variant_perception
+- 04:33:08 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TEN --market us
+- 04:33:10 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 04:33:10 **5.multi_agent**   → us/GREK synthetic_ic
+- 04:33:10 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GREK --majority 3
+- 04:43:58 **5.multi_agent**   TIMEOUT after 600s
+- 04:43:58 **5.multi_agent**   → us/GREK variant_perception
+- 04:43:58 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception GREK --market us
+- 04:44:01 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 04:44:01 **5.multi_agent**   → us/BRK-B synthetic_ic
+- 04:44:01 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BRK-B --majority 3
+- 04:58:36 **5.multi_agent**   TIMEOUT after 600s
+- 04:58:36 **5.multi_agent**   → us/BRK-B variant_perception
+- 04:58:36 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BRK-B --market us
+- 04:58:37 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 04:58:37 **5.multi_agent**   → us/NU synthetic_ic
+- 04:58:37 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic NU --majority 3
+- 05:12:12 **5.multi_agent**   TIMEOUT after 600s
+- 05:12:12 **5.multi_agent**   → us/NU variant_perception
+- 05:12:12 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception NU --market us
+- 05:12:14 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 05:12:14 **5.multi_agent**   → us/PLD synthetic_ic
+- 05:12:14 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic PLD --majority 3
+- 05:25:14 **5.multi_agent**   TIMEOUT after 600s
+- 05:25:14 **5.multi_agent**   → us/PLD variant_perception
+- 05:25:14 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception PLD --market us
+- 05:25:16 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 05:25:16 **5.multi_agent**   → us/HD synthetic_ic
+- 05:25:16 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic HD --majority 3
+- 05:43:01 **5.multi_agent**   TIMEOUT after 600s
+- 05:43:01 **5.multi_agent**   → us/HD variant_perception
+- 05:43:01 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception HD --market us
+- 05:43:03 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 05:43:03 **5.multi_agent**   → us/BN synthetic_ic
+- 05:43:03 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BN --majority 3
+- 06:06:58 **5.multi_agent**   TIMEOUT after 600s
+- 06:06:58 **5.multi_agent**   → us/BN variant_perception
+- 06:06:58 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BN --market us
+- 06:07:01 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 06:07:01 **5.multi_agent**   → us/GS synthetic_ic
+- 06:07:01 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic GS --majority 3
+- 06:28:07 **5.multi_agent**   TIMEOUT after 600s
+- 06:28:07 **5.multi_agent**   → us/GS variant_perception
+- 06:28:07 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception GS --market us
+- 06:28:09 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 06:28:09 **5.multi_agent**   → us/TSLA synthetic_ic
+- 06:28:09 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TSLA --majority 3
+- 06:51:12 **5.multi_agent**   TIMEOUT after 600s
+- 06:51:12 **5.multi_agent**   → us/TSLA variant_perception
+- 06:51:12 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TSLA --market us
+- 06:52:14 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 06:52:14 **5.multi_agent**   → us/AAPL synthetic_ic
+- 06:52:14 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic AAPL --majority 3
+- 07:15:44 **5.multi_agent**   TIMEOUT after 600s
+- 07:15:44 **5.multi_agent**   → us/AAPL variant_perception
+- 07:15:44 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception AAPL --market us
+- 07:15:47 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 07:15:47 **5.multi_agent**   → us/TSM synthetic_ic
+- 07:15:47 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic TSM --majority 3
+- 07:46:22 **5.multi_agent**   TIMEOUT after 600s
+- 07:46:22 **5.multi_agent**   → us/TSM variant_perception
+- 07:46:22 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception TSM --market us
+- 07:46:24 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 07:46:24 **5.multi_agent**   → br/LFTB11 synthetic_ic
+- 07:46:24 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic LFTB11 --majority 3
+- 08:10:29 **5.multi_agent**   TIMEOUT after 600s
+- 08:10:29 **5.multi_agent**   → br/LFTB11 variant_perception
+- 08:10:29 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception LFTB11 --market br
+- 08:10:31 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 08:10:31 **5.multi_agent**   → br/VALE3 synthetic_ic
+- 08:10:31 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic VALE3 --majority 3
+- 08:23:44 **5.multi_agent**   TIMEOUT after 600s
+- 08:23:44 **5.multi_agent**   → br/VALE3 variant_perception
+- 08:23:44 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception VALE3 --market br
+- 08:23:45 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 08:23:45 **5.multi_agent**   → br/BBDC4 synthetic_ic
+- 08:23:45 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic BBDC4 --majority 3
+- 08:39:57 **5.multi_agent**   TIMEOUT after 600s
+- 08:39:57 **5.multi_agent**   → br/BBDC4 variant_perception
+- 08:39:57 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.variant_perception BBDC4 --market br
+- 08:40:49 **5.multi_agent**   exit=0  stdout_len=90  stderr_len=0
+- 08:40:49 **5.multi_agent**   → br/ITSA4 synthetic_ic
+- 08:40:49 **5.multi_agent** $ "C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe" -m agents.synthetic_ic ITSA4 --majority 3
+- 08:57:49 **6.provenance** Auditing provenance: source coverage per field
+- 08:57:49 **6.provenance**   scorecard: data\provenance_scorecard_2026-05-09.json
+- 08:57:49 **6.provenance**   US fair_value_confidence: {'cross_validated': 13, 'disputed': 1, 'single_source': 10}
+- 08:57:49 **6.provenance**   BR fair_value_confidence: {'null': 1, 'cross_validated': 11, 'disputed': 3, 'single_source': 11}
+- 08:57:49 **7.report** Building master report
+- 08:57:49 **7.report**   master report: obsidian_vault\Bibliotheca\Midnight_Work_2026-05-09.md
+- 08:59:25 **7.report** Building master report
+- 08:59:25 **7.report**   master report: obsidian_vault\Bibliotheca\Midnight_Work_2026-05-09.md

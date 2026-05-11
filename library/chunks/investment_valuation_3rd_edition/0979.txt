@@ -1,0 +1,56 @@
+tion takes the form of an expected value across simulations and a distribution for the
+simulated values.
+With all three approaches, the keys are to avoid double counting risk (by using a risk-adjusted
+
+discount rate and considering the variability in estimated value as a risk measure) or making
+decisions based on the wrong types of risk.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none if specified.
+1.
+ You have estimated the value per share for Littlefield Inc., a transportation company, under
+three scenarios: $5/share under the worst-case scenario, $30/share under the best-case scenario,
+and $18/share under the most likely scenario. If the stock is trading at $15, would you buy the
+stock? Why or why not?
+2.
+ You are analyzing Delta Enterprises, a small publicly traded company with $50 million of debt
+outstanding, and 25 million shares, trading at $10/share. The firm generated $40 million in after-
+tax cash flows last year, and you estimate that these cash flows will grow 2% a year in perpetuity
+and that the cost of capital for the firm is 12%.
+a.
+ Estimate a value per share for the firm, assuming it has no cash balance.
+b.
+ Now assume that you find out that a significant portion of the firm’s revenues comes from one
+customer and that there is a 20 percent chance that this contract will be lost next year. Assuming
+that a lost contract will result in a 50% drop in the after-tax cash flows, estimate the value per
+share today. (You can assume that the growth rate and cost of capital will be unaffected).
+3.
+ You are valuing Signet Bank during a period of substantial uncertainty about future regulatory
+rules. Signet Bank generated $100 million in net income last year on a book value of equity of $1
+billion and paid out $70 million in dividends. While you expect Signet to be a stable growth
+company, you envision the following regulatory scenarios for the future:
+Status quo
+—no changes in regulatory rules (40% probability): Signet will continue to
+generate its current return on equity in perpetuity and maintain its existing dividend payout
+ratio.
+Regulatory easing
+—lower regulatory capital ratios (25 percent probability): Signet will
+be able to generate a return on equity of 12 percent on future investments, while
+maintaining its stable growth rate (at status quo levels).
+Regulatory tightening
+—higher regulatory capital ratios (35 percent probability): Signet
+will see its return on equity drop to 9%, while maintaining its stable growth rate (at status
+quo levels).
+Estimate the value of equity in Signet Bank under each scenario. (You can leave current
+net income unchanged under all scenarios.)
+Given the probabilities of each scenario unfolding, estimate the value of equity in Signet
+Bank today.
+4.
+ Sigma Energy is an alternative energy company that produces solar energy panels. The company
+is expected to generate $50 million in after-tax operating income in the next year, but its prospects
+for future growth are dependent upon the level of oil prices and access to low-cost (and
+subsidized) government financing. You have outlined the following scenarios (with consequences
+for growth (g), return on invested capital (ROC) and cost of capital (r)):
+Government 
+Subsidies Continue
+Government 
+Subsidies End

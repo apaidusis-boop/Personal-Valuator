@@ -1,0 +1,46 @@
+the investment through the end of its life. The second is the liquidation or salvage value,
+which is the net cash flow that the firm will receive if it terminated the project today. Finally, there is
+
+the divestiture value, which is the price that will be paid by the highest bidder for this investment.
+Whether a firm should continue with an existing project, liquidate the project, or sell it to someone
+else will depend on which of the three values is highest. If the continuing value is the highest, the firm
+should continue with the project to the end of the project life, even though it might be earning less than
+the cost of capital. If the liquidation or divestiture value is higher than the continuing value, there is
+potential for an increase in value from liquidation or divestiture. The value increment can then be
+summarized:
+If liquidation is optimal:
+If divestiture is optimal:
+How does a divestiture affect a firm’s value? To answer this question, we compare the price
+received on the divestiture to the present value of the expected cash flows that the firm would have
+received from the divested assets. There are three possible scenarios:
+1.
+ If the divestiture value is equal to the present value of the expected cash flows, the divestitures
+will have no effect on the divesting firm’s value.
+2.
+ If the divestiture value is greater than the present value of the expected cash flows, the value of
+the firm will increase on the divestiture.
+3.
+ If the divestiture value is less than the present value of the expected cash flows, the value of the
+firm will decrease on the divestiture.
+The divesting firm receives cash in return for the assets and can choose to retain the cash and invest
+it in marketable securities, invest the cash in other assets or new investments, or return the cash to
+stockholders in the form of dividends or stock buybacks. These actions, in turn, can have a secondary
+effect on value.
+ILLUSTRATION 31.1: 
+Potential for Value Creation from
+Divestiture: Boeing in 1998
+While it is difficult to make judgments about individual investments that firms might have and their capacity to generate
+continuing value, you can make some observations about the potential for value creation from divestitures and liquidation by
+looking at the cost of capital of and return on capital earned by different divisions of a firm. For instance, Boeing earned a
+return on capital of 5.82% in 1998, while its cost of capital was 9.18%. Breaking down Boeing’s return by division, we
+obtain the numbers in the following table:
+At Boeing’s annual meeting in 1999, Phil Condit, Boeing’s CEO, was candid in admitting that 35% of Boeing’s capital was in
+investments that earned less than the cost of capital. He revealed little, however, about whether it would be feasible to
+liquidate or divest these investments
+2
+ and get more than continuing value from such actions.
+Assume that Boeing is interested in selling its information, space, and defense systems division, and that it has found a
+potential buyer who is willing to pay $11 billion for the division. The division reported cash flows before debt payments but
+after reinvestment needs and taxes of $393 million in the most recent year, and the cash flows are expected to grow 5% a
+year in the long term. The cost of capital for the division is 9%, a little lower than the cost of capital for the entire firm. The
+division, as a continuing part of Boeing, can be valued as follows:

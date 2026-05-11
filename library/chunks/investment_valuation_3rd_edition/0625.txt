@@ -1,0 +1,23 @@
+the expected growth rate that will determine value is the expected
+growth rate in earnings. For financial service firms, as with other firms, earnings growth can be
+estimated in one of three ways:
+1.
+
+Historical growth in earnings.
+ Many banks and insurance companies have very long histories
+and estimating historical growth is usually feasible. Furthermore, the correlation between past
+earnings growth and expected future growth used to be much higher for financial service firms
+than for other firms. 
+This would suggest that historical growth in earnings is a much better predictor of future earnings
+
+at these firms. If the regulatory environment is changing, however, you have to be cautious about
+projecting past growth into the future.
+2.
+
+Analyst estimates in growth in earnings.
+ Analysts estimate expected growth rates in earnings
+for many publicly traded firms, though the extent of coverage varies widely. Many large banks and
+insurance companies are widely followed, allowing you to get these estimates of future growth.
+As noted in Chapter 11, it is an open question as to whether the long-term forecasts from analysts
+are any better than historical growth for estimating future growth.
+3.

@@ -1,0 +1,42 @@
+quently, they should affect the value of these firms. When valuing financial service firms using
+discounted cash flow models, the regulatory effects can be built explicitly into both the discount rate
+
+as well as the expected future cash flows.
+To incorporate regulatory risk into the discount rate, we first need to decide whether such
+risk is diversifiable in a portfolio. For the most part, we would argue that regulatory risk is
+diversifiable and should not affect the discount rate. In exceptional cases, where financial
+service firms dominate a market and the regulatory risk is large, the cost of equity will
+include a premium for this risk.
+It is the cash flows, in our view, where regulatory concerns have the biggest impact. The
+expected growth rate, which was derived from the retention ratio and the return on equity,
+will be affected by regulatory restrictions on where financial service firms can invest. If the
+restrictions on investments are severe, for instance, financial service firms may be destined
+to earn low returns on equity for the foreseeable future, which will negatively affect their
+values.
+If we use relative valuation models and are comparing financial service firms that operate under
+different regulatory regimes, because they either are from different countries (European banks versus
+U.S. banks) or are in different businesses (investment banks versus commercial banks), the multiples
+will vary across firms because of the regulatory differences.
+Financing Mix and Value
+When analyzing manufacturing firms, we looked at the effect of changing the mix of debt and equity
+used by the firm for funding on value. With financial service firms, we generally do not examine the
+financing mix question for two reasons. One is the aforementioned difficulty of defining and
+measuring debt. The other is that financial service firms tend to use as much debt as they can afford to
+carry, making it very unlikely that they will be significantly underlevered.
+There is the danger, though, that arises from regulatory considerations driving the choice of
+financial mix. Regulatory requirements are often based on book values of debt and equity and may not
+always be rational. For instance, if the regulatory capital ratios are set too low for risky loan
+portfolios, banks that meet regulatory requirements may be borrowing too much. Their values should
+therefore also be lower.
+Subsidies and Constraints
+In many markets, banks and insurance companies operate under systems where they derive special
+benefits because of subsidies and exclusive rights that they are granted, while at the same time being
+forced to make investments at below-market rates in what are viewed as socially desirable
+investments. Both subsidies and social investments affect value and can be incorporated into cash
+flows.
+The best approach to bringing in the effect of subsidies into the value is to project the expected
+positive excess returns or cash flows that will be generated as a consequence of the subsidy or
+exclusive right and to separate this excess return from the rest of the valuation. The same process can
+be repeated with social investments, though the effect will usually be negative. The present value of
+the negative excess returns can be computed and netted from the value of the firm.
+There are two advantages in separating the subsidy benefit value and the social investment cost

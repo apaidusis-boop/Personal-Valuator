@@ -1,0 +1,52 @@
+ombined value of the two firms (target plus bidding firm) have to be considered before a decision is
+made on the bid. Those who suggest that synergy is impossible to value and should not be considered
+
+in quantitative terms are wrong. Second, the effects on value of changing management and
+restructuring the target firm will have to be taken into account in deciding on a fair price. This is of
+particular concern in hostile takeovers.
+Finally, there is a significant problem with bias in takeover valuations. Target firms may be overly
+optimistic in estimating value, especially when the takeovers are hostile and they are trying to
+convince their stockholders that the offer prices are too low. Similarly, if the bidding firm has
+decided for strategic reasons to do an acquisition, there may be strong pressure on the analyst to come
+up with an estimate of value that backs up the acquisition.
+Valuation in Corporate Finance
+If the objective in corporate finance is the maximization of firm value,
+5
+ the relationship between
+financial decisions, corporate strategy, and firm value has to be delineated. In recent years,
+management consulting firms have started offering companies advice on how to increase value.
+6
+ Their
+suggestions have often provided the basis for the restructuring of these firms.
+The value of a firm can be directly related to decisions that it makes—on which projects it takes, on
+how it finances them, and on its dividend policy. Understanding this relationship is key to making
+value-increasing decisions and to sensible financial restructuring.
+CONCLUSION
+Valuation plays a key role in many areas of finance—in corporate finance, in mergers and
+acquisitions, and in portfolio management. The models presented in this book will provide a range of
+tools that analysts in each of these areas will find of use, but the cautionary note sounded in this
+chapter bears repeating. Valuation is not an objective exercise, and any preconceptions and biases
+that an analyst brings to the process will find their way into the value. And even the very best
+valuation will yield an estimate of the value, with a substantial likelihood of you being wrong in your
+assessment.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ The value of an investment is:
+a.
+ The present value of the cash flows on the investment.
+b.
+ Determined by investor perceptions about it.
+c.
+ Determined by demand and supply.
+d.
+ Often a subjective estimate, colored by the bias of the analyst.
+e.
+ All of the above.
+2.
+ There are many who claim that value is based on investor perceptions, and perceptions alone,
+and that cash flows and earnings do not matter. This argument is flawed because:
+a.
+ Value is determined by earnings and cash flows, and investor perceptions do not matter.
+b.
+ Perceptions do matter, but they can change. Value must be based on something more

@@ -1,0 +1,9 @@
+rios
+As the beta increases, the PE ratio decreases in all four scenarios. However, the difference
+between the PE ratios across the four growth classes is less when the beta is very high, and increases
+
+as the beta decreases. This would suggest that at very high risk levels, a firm's PE ratio is likely to
+increase more as the risk decreases than as growth increases. For many high-growth firms that are
+viewed as both very risky and having good growth potential, reducing risk may increase value much
+more than increasing expected growth.
+eqmult.xls:

@@ -1,0 +1,46 @@
+e to the latter.
+The presence of other bidders for the target firm.
+ When there is more than one bidder for a
+firm, the odds are likely to favor the target firm's stockholders. Bradley, Desai, and Kim
+
+(1988) examined an extensive sample of 236 tender offers made between 1963 and 1984
+and concluded that the benefits of synergy accrue primarily to the target firms when multiple
+bidders are involved in the takeover. They estimated the market-adjusted stock returns
+around the announcement of the takeover for the successful bidder to be 2 percent in single-
+bidder takeovers and –1.33% in contested takeovers.
+Payment for the Target Firm
+Once a firm has decided to pay a given price for a target firm, it has to follow up by deciding how it
+is going to pay for this acquisition. In particular, decisions have to be made about the following
+aspects of the deal: debt versus equity and cash versus stock.
+Debt versus Equity
+A firm can raise the funds for an acquisition from either debt or equity. The mix will generally
+depend on the excess debt capacities of both the acquiring and the target firms. Thus, the acquisition
+of a target firm that is significantly underlevered may be carried out with a larger proportion of debt
+than the acquisition of one that is already at its optimal debt ratio. This, of course, is reflected in the
+value of the firm through the cost of capital. It is also possible that the acquiring firm has excess debt
+capacity and that it uses its ability to borrow money to carry out the acquisition. Although the
+mechanics of raising the money may look the same in this case, it is important that the value of the
+target firm not reflect this additional debt. As noted in the last section, the cost of capital used in
+valuing the acquisition should not reflect what it would have cost the target company to raise the
+funds, and not what the acquiring company may actually end up paying. The additional debt has n
+othing to do with the target firm, and building it into the value will only result in the acquiring firm
+paying a premium for a value enhancement that rightfully belongs to its own stockholders.
+Cash versus Stock
+There are three ways in which a firm can use equity in a transaction. The first is to use cash balances
+that have been built up over time to finance the acquisition. The second is to issue stock to the public,
+raise cash, and use the cash to pay for the acquisition. The third is to offer stock as payment for the
+target firm, where the payment is structured in terms of a stock swap—shares in the acquiring firm in
+exchange for shares in the target firm. The question of which of these approaches is best utilized by a
+firm cannot be answered without looking at the following factors:
+The availability of cash on hand.
+ Clearly, the option of using cash on hand is available
+only to those firms that have accumulated substantial amounts of cash.
+The perceived value of the stock.
+ When stock is issued to the public to raise new funds or
+when it is offered as payment on acquisitions, the acquiring firm's managers are making a
+judgment about what the perceived value of the stock is. In other words, managers who
+believe that their stock is trading at a price significantly below value should not use stock as
+currency on acquisitions, since what they gain on the acquisitions can be more than lost in
+the stock issue. However, firms that believe their stocks are overvalued are much more
+likely to use stock as currency in transactions. The stockholders in the target firm are also
+aware of this, and may demand a larger premium when the payment is made entirely in the

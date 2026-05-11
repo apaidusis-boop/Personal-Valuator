@@ -1,0 +1,17 @@
+al looking) for each of our ~3,000 stocks.
+
+This then provides the basis for the estimation of a variety of stock-related statistics (estimated annualized return ranges, expected max drawdowns, etc.).
+
+**Estimated Annualized Return Range:** The estimated return ranges come from our internal Market Map, which is a high-dimensional probability distribution of year-ahead returns for about 3,000 stocks. The ranges we're currently displaying are the 40th and 60th percentiles of those probability distributions for each stock. These provide an approximate estimate of return expectations one year out while capturing some of the uncertainty inherent in a particular stock.
+
+**Estimated Max Drawdown:** We also estimate max drawdowns using our Market Map. In this case, we use an analytical estimator of the expected max drawdown under some simplifying assumptions (namely that log-returns follow a Brownian motion with drift), using the Market Map to estimate some parameters.
+
+Essentially, we want to take what we know about a stock's distribution of returns and try to estimate what the year-ahead magnitude of a max drawdown might be. Like the historical example below, we are trying to estimate what the magnitude of the drawdown might look like for any given stock in the next year.
+
+### Risk Disclaimer
+
+Estimated Annualized Returns and Estimated Max Drawdown are made using proprietary Motley Fool algorithms and models. This is for informational purposes only. You assume the entire cost and risk of any trading or investing activities you choose to undertake. You are solely responsible for making your own investment decisions. The models, data, and presentation are subject to change without notice at our discretion. These are not a guarantee of future performance, and actual performance might differ significantly from our estimates.
+
+### Want More Color?
+
+**Here it is, explained with some help from ChatGPT:**

@@ -1,0 +1,41 @@
+Corporate Finance: Theory and Practice, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley & Sons, Inc. This material is used by permission
+of John Wiley & Sons, Inc.
+
+exchratio.xls:
+
+This spreadsheet allows you to estimate the exchange ratio on an acquisition, given the
+value of control and synergy.
+Accounting Considerations
+While much of the discussion in this chapter has been about value and price, the accounting for
+acquisitions seems to play a key role not only in whether a deal is made but the price paid for that
+deal. To the extent that the accounting treatment of acquisitions can affect cash flows, the attention
+paid to them is appropriate. All too often, though, accounting choices affect only reported earnings
+(and not cash flows) and should have little or no impact on deal making.
+Asset Revaluation
+The rules on asset revaluation after mergers vary widely across countries, with some countries
+allowing much more leeway to companies on how much of the purchase price they allocate to
+acquired company assets and depreciation schedules based upon the appraised values. This increases
+the tax benefits from acquisitions and may allow for higher premiums to be paid.
+The good news is that GAAP and IFRS are converging on how to account for acquisition, with a
+move towards fair value accounting. After an acquisition, the acquiring firm is required to reappraise
+the value of the target company's assets. For some assets that have a traded market price, this is
+simple to do, but for others, it does require an appraisal of what a buyer would pay for that asset in
+the market place. This is also one of the few occasions where intangible assets such as customer lists
+and trademarks can be valued and put on the books. When assets are revalued or valued for the first
+time (as is the case with many intangible assets in acquisitions), there can be tax consequences that
+affect cash flows, and through them the value.
+Goodwill
+Goodwill is the debris of acquisition accounting. It reflects the accountant's attempt to reconcile two
+irreconcilable items: the adjusted book value (with the assets being revalued as specified earlier) and
+market value. To see why, assume that firm A is considering acquiring firm B for $ 2.5 billion and
+that the adjusted book value of assets at firm B currently is $ 1.5 billion. When firm A acquires firm
+B, the difference between the price paid and the book value ($2.5 billion minus $1.5 billion) will be
+termed goodwill and be shown as an asset, with a value of $ 1 billion, on the balance sheet.
+Once goodwill is valued as an asset, its value has to be estimated in each subsequent year. Until
+about a decade ago, goodwill was amortized in equal annual increments over 40 years, and
+accountants were given little or no discretion on the schedule. Now, accountants are required to
+revalue the acquired company (or its assets) each year after the acquisition. If the value has gone up,
+the goodwill is left intact. If the value has declined, the goodwill is considered to be “impaired” and
+the firm has to take an impairment charge. For the most part, impairment of goodwill that is generated
+as a result of acquisitions of companies is not tax deductible. Hence, whether it is impaired or not has
+no effect on cash flows, though it can have dramatic effects on earnings. It is only in the exceptional

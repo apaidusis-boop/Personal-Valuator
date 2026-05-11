@@ -1,0 +1,34 @@
+risk: 
+debt capacity
+.
+Subtract the value of the target firm (with control premium) + value of the bidding firm
+(preacquisition). This is the value of synergy.
+Which firm is indispensable for synergy?
+
+If it is the target, you should be willing to pay
+up to the value of synergy.
+If it is the bidder, you should not.
+Control
+premium
+Value the company as if optimally managed. This will usually mean altering investment,
+financing, and dividend policy: 
+Investment policy: Earn higher returns on projects and divest unproductive projects. 
+Financing policy: Move to a better financing 
+structure(e.g., optimal capital structure). 
+Dividend policy: Return cash for which the firm has no need. Practically, 
+Look at industry averages as optimal.
+Do a full fledged corporate financial analysis to compute optimal debt ratio.
+If motive is control or in a stand-alone valuation, this is the
+maximum you should pay.
+Status quo
+valuation
+Value the company as is, with existing inputs for investment, financing, and dividend policy.
+If motive is undervaluation, the status quo value is the
+maximum you should pay.
+Source: Corporate Finance: Theory and Practice
+, Second Edition, by Aswath Damodaran, copyright © 2001 by John Wiley & Sons, Inc. This material is used by
+permission of John Wiley & Sons, Inc.
+ILLUSTRATION 25.3: Valuing Synergy: Compaq and
+Digital
+Returning to the Compaq/Digital merger, note that synergy was one of the stated reasons for the acquisition. To value this
+synergy, we needed to first value Compaq as a standalone firm. To do this, the following assumptions were made:

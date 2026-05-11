@@ -1,0 +1,42 @@
+on the expansion
+project if it is not taken or a cost imposed on the firm until it makes its final decision. For
+instance, the firm may have to pay a fee every year until it makes its final decision.
+
+ILLUSTRATION 29.1: Valuing an Option to Expand:
+Ambev and Guarana
+Guarana is a very popular caffeine-based soft drink in Brazil, and Ambev is the Brazilian beverage manufacturer that is the
+largest producer of Guarana in the world. Assume that Ambev is considering introducing the drink into the United States and
+that it has decided to do so in two steps:
+1.
+ Ambev will initially introduce Guarana in just the large metropolitan areas of the United States to gauge potential
+demand. The expected cost of this limited introduction is $500 million and the estimated present value of the expected cash
+flows is only $400 million. In other words, Ambev expects to have a negative net present value of $100 million on this first
+investment.
+2.
+ If the limited introduction turns out to be a success, Ambev expects to introduce Guarana to the rest of the U.S. market.
+At the moment, though, the firm is not optimistic about this expansion potential and believes that while the cost of the full-
+scale introduction will be $1 billion, the expected present value of the cash flows is only $750 million (making this a
+negative net present value investment as well).
+At first sight, investing in a poor project to get a chance to invest in an even poorer project may seem like a bad deal, but the
+second investment does have a redeeming feature. It is an option and Ambev will not make the second investment (of $1
+billion) if the expected present value of the cash flows stays below that number. Furthermore, there is considerable
+uncertainty about the size and potential for this market, and the firm may well find itself with a lucrative investment.
+To estimate the value of the second investment as an option, we begin by first identifying the underlying asset—the
+expansion project—and using the current estimate of expected value ($750 million) as the value of the underlying asset.
+Since the investment needed for the investment of $1 billion is the exercise price, this option is an out-of-the-money option.
+The two most problematic assumptions relate to the variance in the value of the underlying asset and the life of the option:
+We estimated the average standard deviation of 35% in firm values of small, publicly traded beverage
+companies in the United States and assumed that this would be a good proxy for the standard deviation in the
+value of the expansion option.
+We assumed that Ambev would have a five-year window to make its decision. We admit that this is an
+arbitrary constraint but, in the real world, it may be driven by any of the following:
+Financing constraints (loans will come due).
+Strategic prerogatives (you have to choose where your resources will be invested).
+Personnel decisions (management has to be hired and put in place).
+Based on these inputs, we had the following inputs to the option pricing model:
+We used a riskless rate of 5% and derived the expected up and down movements from the standard deviation:
+The binomial tree is presented in 
+Figure 29.2
+.
+Figure 29.2
+ Binomial Tree—Ambev Expansion Option

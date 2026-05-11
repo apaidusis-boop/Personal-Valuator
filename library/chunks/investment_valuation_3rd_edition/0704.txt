@@ -1,0 +1,28 @@
+between the last financial year and the trailing 12 months.
+3
+ The conventional approach is to regress returns on a stock against returns on a market index over
+a past period, say two to five years.
+4
+
+For a description of this approach, refer back to Chapter 7.
+5
+ The float is estimated by subtracting from the shares outstanding the shares that are owned by
+insiders and 5 percent owners and the rule 144 shares. (Rule 144 refers to restricted stock that
+cannot be traded.)
+6
+ The simple rules of diversification that suggest 20 stocks are enough may not apply here. Since
+these investments tend to come from the same sector and have higher correlations with each other,
+and since there is so much noise in estimation, more stocks will be needed to accomplish the same
+degree of diversification that one would have got by buying 20 large-capitalization, mature
+companies.
+7
+ The empirical evidence backs up this proposition. Studies of investments seem to indicate that
+companies that are viewed as well managed underperform companies that are less well regarded
+as investments.
+8
+ Steve Jobs's job at Apple Computer was far easier when he took over in 1998 (when the stock
+price had hit a 10-year low) than it was two years later, when he had succeeded in changing
+investor perceptions of the company (and pushed the stock price up tenfold in the process).
+9
+ In the 1990s, Microsoft developed a reputation for talking down expectations and then beating
+them on a consistent basis.

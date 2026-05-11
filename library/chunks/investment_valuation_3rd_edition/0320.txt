@@ -1,0 +1,48 @@
+of analyst
+revisions—the more informative the forecasts, the greater the effect on stock prices. There are
+some who argue that the focus on consensus forecasts misses the point that some analysts are
+
+better than others in predicting earnings, and that their forecasts should be isolated from the rest
+and weighted more.
+Analyst forecasts may be useful in coming up with a predicted growth rate for a firm, but there is a
+danger to blindly following consensus forecasts. Analysts often make significant errors in forecasting
+earnings, partly because they depend on the same data sources (which might have been erroneous or
+misleading) and partly because they sometimes overlook significant shifts in the fundamental
+characteristics of the firm. The secret to successful valuation often lies in discovering inconsistencies
+between analysts' forecasts of growth and a firm's fundamentals. The next section examines this
+relationship in more detail.
+FUNDAMENTAL DETERMINANTS OF GROWTH
+With both historical and analyst estimates, growth is an exogenous variable that affects value but is
+divorced from the operating details of the firm. The soundest way of incorporating growth into value
+is to make it endogenous i.e., tie in more closely to the actions that a business takes to create and
+sustain that growth. This section begins by considering the relationship between fundamentals and
+growth in equity income, and then moves on to look at the determinants of growth in operating
+income.
+Growth in Equity Earnings
+When estimating cash flows to equity, we usually begin with estimates of net income, if we are
+valuing equity in the aggregate, or earnings per share, if we are valuing equity per share. This section
+begins by presenting the fundamentals that determine expected growth in earnings per share and then
+move on to consider a more expanded version of the model that looks at growth in net income.
+Growth in Earnings per Share
+The simplest relationship determining growth is one based on the retention ratio (percentage of
+earnings retained in the firm) and the return on equity on its projects. Firms that have higher retention
+ratios and earn higher returns on equity should have much higher growth rates in earnings per share
+than firms that do not share these characteristics. To establish this, note that:
+where g
+t
+ = Growth rate in net income 
+NI
+t
+ = Net income in year t
+Also note that the ROE in period t can be written as NI in period t divided by the Book value of
+equity in period t – 1. Given the definition of return on equity, the net income in year t – 1 can be
+written as:
+where ROE
+t–1
+ = Return on equity in year t – 1
+The net income in year t can be written as:
+Assuming that the return on equity is unchanged (i.e., ROE
+t
+ = ROE
+t–1
+ = ROE):

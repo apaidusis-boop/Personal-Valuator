@@ -1,0 +1,72 @@
+ost of equity in year 1 has been computed. Compute the cost of equity each year for the
+rest of the period (use book value of equity for the calculation).
+Item
+Year 1
+Equity
+$1,000,000
+Debt
+$3,000,000
+
+Debt-equity ratio
+3
+Beta
+2.58
+Cost of equity
+24.90%
+c.
+ Compute the terminal value of the firm.
+d.
+ Evaluate whether the leveraged buyout will create value.
+9.
+ J & L Chemical is a profitable chemical manufacturing firm. The business, however, is highly
+cyclical, and the profits of the firm have been volatile. The management of the firm is considering
+acquiring a food-processing firm to reduce the earnings volatility and exposure to economic
+cycles.
+a.
+ Would such an action be in the best interests of stockholders? Explain.
+b.
+ Would your analysis be any different if J & L was a private firm? Explain.
+c.
+ Is there any condition under which you would argue for such an acquisition for a publicly
+traded firm?
+1
+ Excess returns represent returns over and above the returns you would have expected an
+investment to make, after adjusting for risk and market performance.
+2
+ Even if it is not the popular view, it is the populist view that has found credence in Hollywood, in
+movies like 
+Wall Street
+ and 
+Other People's Money
+, and in books such as 
+Barbarians at the Gate
+.
+3
+ In a delicious irony, ITT itself became the target of a hostile acquisition bid by Hilton Hotels and
+responded by shedding what it termed its noncore businesses (i.e., all the businesses it had
+acquired during its conglomerate period).
+4
+ An interesting question that is whether these bidding wars will become less likely as more
+women rise to become CEOs of firms. They might bring in a different perspective on what winning
+and losing in a merger means.
+5
+ The reinvestment rate is therefore low when we look at net capital expenditures. However, the
+large working capital investment pushes it up.
+6
+To estimate FCFF in year 1, 
+7
+ The values that we used were the values that we estimated for the two firms.
+8
+ This study was referenced in an article titled “Merger Mayhem” that appeared in 
+Barron's
+ on
+April 20, 1998.
+9
+ KPMG measured the success at creating value by comparing the postdeal stock price performance
+of the combined firm to the performance of the relevant industry segment for a year after the deal
+was completed.
+10
+ This study was done by Keefe, Bruyette, and Woods, an investment bank. It was referenced in an
+article titled “Merger Mayhem” in 
+Barron's
+, April 20, 1998.

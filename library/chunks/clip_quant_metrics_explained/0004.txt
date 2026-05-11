@@ -1,0 +1,13 @@
+blished profit generator, while others might be dividend-paying stalwarts rocked by disruption in their space. In most cases, change happens over months, business quarters, and years -- not overnight.
+
+We expect to update our Investing Type datasets twice a year. While not every company will see a shift, some will. Categories listed in stock tables and tools on the site will reflect the current type, while recommendation articles will include the type as of the date of publication.
+
+***Disclaimer:** Investing Types are made using proprietary Motley Fool algorithms and models. The information provided is for informational purposes only and does not constitute personalized investment advice. You assume the entire cost and risk of any trading or investing activities you choose to undertake. You are solely responsible for making your own investment decisions. The models, data, and presentation are subject to change without notice at our discretion. These are not a guarantee of future performance, and actual performance might differ significantly from our estimates.*
+
+## Estimated Drawdown and Estimated Returns, Explained
+
+We're Fools. We are providing annualized return and max-downside estimates -- powered by our quant investing intelligence team -- as additional context on the types of risks and opportunities one might expect with an individual stock or collection of stocks.
+
+These estimates and projections are *not* guaranteed. These estimates will be incorrect sometimes, as should be expected with any estimates about the future.
+
+So use these estimates as an additional tool in the toolkit, but understand that they are not perfect, and they will be wrong at times along the way. An investment decision should not be based solely on any one number like these.

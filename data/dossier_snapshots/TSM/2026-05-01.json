@@ -1,0 +1,97 @@
+{
+  "ticker": "TSM",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "TSM",
+    "period_end": "2026-04-30",
+    "eps": 11.7,
+    "bvps": 4.5079474,
+    "roe": 0.3621,
+    "pe": 33.851284,
+    "pb": 87.85817,
+    "dy": 0.008566883858292289,
+    "net_debt_ebitda": -0.8287645168907426,
+    "dividend_streak_years": 23,
+    "is_aristocrat": 0,
+    "fetched_at": null,
+    "ffo_per_share": 459.99159339811814,
+    "interest_coverage": 221.66797354976396,
+    "debt_to_assets": 0.1341993995216721,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 20.529562,
+    "ev_ebitda": 2.761,
+    "market_cap": 2054125649920.0,
+    "fcf_ttm": 721560469504.0,
+    "shares_outstanding": 5186400000.0,
+    "next_ex_date": "2026-06-11",
+    "next_earnings_date": "2026-04-16",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 8,
+      "period_end": "2025-12-31"
+    },
+    "altman": {
+      "z": 3.040456662709355,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-12-31",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.6964339986756842,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-12-31"
+    }
+  },
+  "philosophy": {
+    "primary": "Growth (8/12)",
+    "secondary": "Value (7/12)",
+    "value": 7,
+    "growth": 8,
+    "dividend": 2,
+    "buffett": 6,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 786.3111261053837,
+    "pessimistic_value": 613.0012017856129,
+    "optimistic_value": 1037.441028875639,
+    "margin_of_safety_pct": 0.9853333609866912,
+    "current_price": 396.05999755859375
+  },
+  "council_stance": "NEEDS_DATA",
+  "council_confidence": "low",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "P/B muito elevado pode sugerir sobreavaliação - Valentina Prudente",
+    "ND/EBITDA negativo (-0,83) e peso na carteira acima da média (8,7%) - Pedro Alocação"
+  ],
+  "consensus_points": [
+    "Taiwan Semiconductor apresenta um ROE sustentável de 36,21% e uma história consistente de dividendos por 23 anos - Charlie Compounder"
+  ],
+  "dissent_points": [
+    "Charlie Compounder disse que o P/B de 87,86 sugere valorização do ativo líquido pode indicar risco de correção; Mariana Macro, Valentina Prudente e Pedro Alocação disseram que embora o P/E esteja alto (33,85) e o P/B muito elevado (87,86), esses são indicadores da valorização do mercado que podem ser justificados pela solidez financeira e crescimento sustentável de TSM"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 26
+}

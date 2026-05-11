@@ -1,0 +1,54 @@
+e price–book value ratio of a firm is determined by its expected payout ratio, its expected growth
+rate in earnings, and its riskiness. The most important determinant, however, is the return on equity
+
+earned by the firm—higher returns lead to higher price–book value ratios, and lower returns lead to
+lower PBV ratios. The mismatch that should draw investor attention is the one between return on
+equity and price–book value ratios—high price–book value ratios with low returns on equity
+(overvalued) and low price–book value ratios with high returns on equity (undervalued).
+The value-to-book ratio is the firm value analogue to the price-to-book ratio, and it is a function of
+the return on capital earned by the firm, its cost of capital, and the reinvestment rate. Again, though,
+firms with low value-to-book ratios and high expected returns on capital can be viewed as
+undervalued.
+QUESTIONS AND SHORT PROBLEMS
+In the problems following, use an equity risk premium of 5.5 percent if none is specified.
+1.
+ Answer true or false to the following statements, with a short explanation.
+a.
+ A stock that sells for less than book value is undervalued. 
+True ____ 
+False ____
+b.
+ If a company's return on equity drops, its price–book value ratio will generally drop more
+than proportionately (e.g., if the return on equity drops by half, the price–book value ratio will
+drop by more than half). 
+True ____ 
+False ____
+c.
+ A combination of a low price–book value ratio and a high expected return on equity suggests
+that a stock is undervalued. 
+True ____ 
+False ____
+d.
+ Other things remaining equal, a higher-growth stock will have a higher price–book value ratio
+than a lower-growth stock. 
+True ____ 
+False ____
+e.
+ In the Gordon growth model, firms with higher dividend payout ratios will have higher price–
+book value ratios. 
+True ____ 
+False ____
+2.
+ NCH Corporation, which markets cleaning chemicals, insecticides, and other products, paid
+dividends of $2 per share in 1993 on earnings of $4 per share. The book value of equity per share
+was $40, and earnings were expected to grow 6% a year in the long term. The stock had a beta of
+0.85, and was selling for $60 per share. (The Treasury bond rate was 7%, and the market risk
+premium was 5.5%.)
+a.
+ Based on these inputs, estimate the price–book value ratio for NCH.
+b.
+ How much would the return on equity have to increase to justify the price–book value ratio at
+which NCH was selling for in 1993?
+3.
+ You are analyzing the price–book value ratios for firms in the trucking industry, relative to
+returns on equity and required rates of return. The data on the companies is as follows:

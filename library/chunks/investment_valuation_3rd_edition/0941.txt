@@ -1,0 +1,23 @@
+e gross investment, the tax rate, the
+growth rate, the cost of capital, and the firm’s reinvestment needs.
+Again, sophisticated users of CFROI do recognize the fact that value comes from the CFROI not
+
+just on assets in place but also on future investments. In fact, Holt Associates, one of CFROI’s
+leading proponents, allows for a fade factor in CFROI, where the current CFROI fades toward the
+real cost of capital over time. The fade factor is estimated empirically by looking at firms in different
+CFROI classes and tracking them over time. Thus, a firm that has a current CFROI of 20 percent and
+real cost of capital of 8 percent will be projected to have lower CFROI over time. The value of the
+firm, in this more complex format, can then be written as a sum of the following:
+The present value of the cash flows from assets in place over their remaining life, which can
+be written as: 
+
+where CFROI
+aip
+ is the CFROI on assets in place, GI
+aip
+ is the gross investment in assets in
+place, and k
+c
+ is the real cost of capital.
+The present value of the excess cash flows from future investments, which can be written in
+real terms as

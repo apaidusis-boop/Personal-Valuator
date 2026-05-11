@@ -1,0 +1,38 @@
+than returns on other real estate indexes. Second, there is high positive serial correlation in
+many of the real estate return series, especially those based on appraised data. This can be attributed
+
+to the smoothing of appraisals that are used in these series. Thirds, the standard deviation in
+securitized real estate (REITs) is significantly higher than the standard deviation in the other real
+estate series.
+The Market Portfolio
+In estimating the betas of stocks, we generally use a stock index as a proxy for the market portfolio. In
+theory, however, the market portfolio should include all assets in the economy in proportion to their
+market values. This is of particular significance when the market portfolio is used to estimate the risk
+parameters of real estate investments. The use of a stock index as the market portfolio will result in
+the marginalization
+1
+ of real estate investments and the underestimation of risk for these assets. The
+differences between a stock and an all-asset portfolio can be large because the market value of real
+estate and other non-stock investments not included in the stock index is significant.
+There is also evidence that, real estate investments and stocks have not historically moved together
+in reaction to larger economic events. In 
+Table 26.2
+, we reproduce a correlation table that measured
+the correlation between different asset classes from 1947 to 1982 and found that real estate was
+lightly or negatively correlated with financial assets. This was at the core of the advice given to
+investors in the 1980s and 1990s that adding real estate to a portfolio would produce a better
+risk/return tradeoff. As noted earlier in this chapter, the differences between real asset and financial
+asset returns widen when inflation rates change. In fact, three of the five real estate indices are
+negatively correlated with stocks, and the other two have low correlations. The advice to diversify by
+adding real estate to your portfolio may need to be revised in light of the changes to the real estate
+market in the past three decades. As real estate has been increasingly securitized, there is evidence
+that real estate as an asset class has started behaving more and more like other financial asset classes
+(stocks and bonds).
+Table 26.2
+ Correlations across Asset Classes: 1947–1982
+Perhaps the best way to bring this home is to use a measure for equities that we presented in
+Chapter 7—the implied equity risk premium. In 
+Figure 26.1
+, we bring together the equity risk
+premium, the default spread on a Baa rated bond (the risk premium for bonds), and a real estate risk
+premium, computed by subtracting the risk-free rate from the capitalization rate (a required return

@@ -1,0 +1,35 @@
+ountries and time. To best capture 
+the overall strength of a country, I gave considerations to both quantity and quality, but structured things to best capture 
+who would win in a competition or war.
+
+COUNTRY POWER INDEX 2022
+13
+GERMANY—KEY DRIVERS OF OUR COUNTRY POWER SCORE
+Overall Empire Score (0–1) Level: 0.38 Rank: 4
+The Big Cycles Level Z-Score Rank Trajectory
+Economic/Financial Position Moderately Unfavorable -0.1 11
+Debt Burden Low Debt 0.8 4
+Expected Growth 0.3% -1.0 19
+Internal Order Low Risk 0.8 3
+Wealth/Opportunity/Values Gap Narrow 0.8 4
+Internal Conflict Low 0.7 3
+External Order At Risk 0.3 -
+Eight Key Measures of Power
+Trade Strong 0.5 4
+Economic Output Average -0.1 6
+Education Average -0.2 6
+Innovation & Technology Average -0.2 6
+Markets & Financial Center Average -0.2 6
+Military Strength Weak -0.7 14
+Cost Competitiveness Weak -0.6 20
+Reserve Currency Status - - - -
+Additional Measures of Power
+Resource-Allocation Efficiency Strong 1.0 2
+Governance/Rule of Law Strong 0.7 8
+Infrastructure & Investment Average -0.3 10
+Character/Determination/Civility Average -0.4 16
+Geology Weak -0.7 21
+Acts of Nature Strong 1.1 6 -
+  Getting better   Getting worse   Flat
+Note: All ranks shown are out of 24, except in the case of Internal Conflict & Internal Order (out of 10) and Reserve 
+Status (out of 19).

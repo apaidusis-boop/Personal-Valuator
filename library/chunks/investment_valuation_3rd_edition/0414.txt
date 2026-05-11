@@ -1,0 +1,64 @@
+quity used in the FCFE model should reflect the return on equity on noncash investments, whereas
+the return on equity used in the dividend discount model should be the overall return on equity. 
+Table
+
+14.1
+ summarizes the differences in assumptions between the two models.
+Table 14.1
+ Differences between DDM and FCFE Models
+Dividend Discount Model
+FCFE Model
+Implicit
+assumption
+Only dividends are paid. Remaining portions of earnings are invested back
+into the firm, some in operating assets and some in cash and marketable
+securities.
+The FCFE is paid out to stockholders. The remaining earnings are
+invested only in operating assets.
+Expected growth
+Measures growth in income from both operating and cash assets. In terms
+of fundamentals, it is the product of the retention ratio and the return on
+equity.
+Measures growth only in income from operating assets. In terms of
+fundamentals, it is the product of the equity reinvestment rate and the
+noncash return on equity.
+Dealing with cash
+and marketable
+securities
+The income from cash and marketable securities is built into earnings and
+ultimately into dividends. Therefore, cash and marketable securities do not
+need to be added in.
+You have two choices:
+1.
+ Build income from cash and marketable securities into projections
+of income, and estimate the value of equity.
+2.
+ Ignore income from cash and marketable securities, and add their
+value to equity value in model.
+In general, when firms pay out much less in dividends than they have available in FCFE, the
+expected growth rate and terminal value will be higher in the dividend discount model, but the year-
+to-year cash flows will be higher in the FCFE model. The net effect on value will vary from company
+to company.
+What Does It Mean When They Are Different?
+When the value using the FCFE model is different from the value using the dividend discount model,
+with consistent growth assumptions, there are two questions that need to be addressed: What does the
+difference between the two models tell us? Which of the two models is the appropriate one to use in
+evaluating the market price?
+The less frequent scenario is that the dividend discount model yields a higher value than the FCFE
+model, largely because dividends exceed FCFE. In this case, it is best to go with the FCFE model
+because the dividends are not sustainable. The more common occurrence is for the value from the
+FCFE model to exceed the value from the dividend discount model. The difference between the value
+from the FCFE model and the value using the dividend discount model can be considered one
+component of the value of controlling a firm—it measures the value of controlling dividend policy. In
+a hostile takeover, the bidder can expect to control the firm and change the dividend policy (to reflect
+FCFE), thus capturing the higher FCFE value.
+As for which of the two values is the more appropriate one for use in evaluating the market price,
+the answer lies in the openness of the market for corporate control. If there is a sizable probability
+that a firm can be taken over or its management changed, the market price will reflect that likelihood,
+and the appropriate benchmark to use is the value from the FCFE model. As changes in corporate
+control become more difficult because of a firm's size and/or legal or market restrictions on
+takeovers, the value from the dividend discount model will provide the appropriate benchmark for
+comparison.
+ILLUSTRATION 14.6: Valuing Coca-Cola with a Three-
+Stage FCFE Model
+In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of $67.15 per share,

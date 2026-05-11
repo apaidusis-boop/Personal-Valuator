@@ -1,0 +1,56 @@
+per share, the value of equity can be written as:
+Rewriting in terms of the price-sales ratio,
+The PS ratio is an increasing function of the profit margin, the payout ratio, and the growth rate, and a
+
+decreasing function of the riskiness of the firm.
+The price-sales ratio for a high-growth firm can also be related to fundamentals. In the special case
+of the two-stage dividend discount model, this relationship can be made explicit fairly simply. With
+two stages of growth, a high-growth stage and a stable-growth phase, the dividend discount model
+can be written as follows:
+where g = Growth rate in the first n years 
+k
+e,hg
+ = Cost of equity in high growth 
+Payout = Payout ratio in the first n years 
+g
+n
+ = Growth rate after n years forever (stable growth rate) 
+k
+e,st
+ = Cost of equity in stable growth 
+Payout
+n
+ = Payout ratio after n years for the stable firm
+Rewriting EPS
+0
+ in terms of the profit margin, EPS
+0
+ = Sales
+0
+ × Profit margin, and bringing Sales
+0
+ to
+the left-hand side of the equation, you get:
+The left-hand side of the equation is the price-sales ratio. Holding all else constant, it is determined
+by:
+Net profit margin: net income/revenues.
+ The price-sales (PS) ratio is an increasing
+function of the net profit margin. Firms with higher net margins, other things remaining
+equal, should trade at higher price-to-sales ratios.
+Payout ratio during the high-growth period and in the stable period.
+ The PS ratio
+increases as the payout ratio increases, for any given growth rate.
+Riskiness
+ (through the discount rate k
+e,hg
+ in the high growth period and k
+e,st
+ in the stable
+period). The PS ratio becomes lower as riskiness increases, since higher risk translates into
+a higher cost of equity.
+Expected growth rate in earnings, in both the high growth and stable phases.
+ The PS
+increases as the growth rate increases, in both the high-growth and stable-growth periods.
+As with the price-to-book ratio, you can substitute in the free cash flows to equity for the dividends
+in making this estimate. Doing so will yield a more reasonable estimate of the price-to-sales ratio for
+firms that pay out dividends that are far lower than they can afford to pay out.

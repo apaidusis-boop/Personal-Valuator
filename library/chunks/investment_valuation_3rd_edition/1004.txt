@@ -1,0 +1,73 @@
+the systematic risk of common
+stocks. 
+Journal of Finance
+ 27:435–452.
+Scholes, M., and J. T. Williams. 1977. Estimating betas from nonsynchronous data. 
+Journal of
+Financial Economics
+ 5(3):309–327.
+
+Chapter 9 Measuring Earnings
+Aboody, D., and B. Lev. 1998. The value relevance of intangibles: The case of software
+capitalization. 
+Journal of Accounting Research
+ 36(0):161–191.
+Bernstein, L. A., and J. G. Siegel. 1979. The concept of earnings quality. 
+Financial Analysts Journal
+35:72–75.
+Damodaran, A. 1999. 
+The treatment of operating leases
+. Working paper.
+www.stern.nyu.edu/~adamodar/New_Home_Page/papers.html
+.
+Damodaran, A. 1999. 
+The treatment of R&D
+. Working paper.
+www.stern.nyu.edu/~adamodar/New_Home_Page/papers.html
+.
+Deng, Z., and B. Lev. 1998. The valuation of acquired R&D. Working paper. New York University.
+Chapter 10 From Earnings to Cash Flows
+Brennan, M. J. 1970. Taxes, market valuation and corporation financial policy. 
+National Tax Journal
+417–427.
+Graham, J. R. 2000. How big are the tax benefits of debt? 
+Journal of Finance
+ 55(5):1901–1941.
+Graham, J. R. Proxies for the corporate marginal tax rate. 
+Journal of Financial Economics
+42(2):187–221.
+Chapter 11 Estimating Growth
+Arnott, R. D. 1985. The use and misuse of consensus earnings. 
+Journal of Portfolio Management
+11:18–27.
+Bathke, A. W., Jr., and K. S. Lorek. 1984. The relationship between time-series models and the
+security market's expectation of quarterly earnings. 
+Accounting Review
+ 163–176.
+Box, G., and G. Jenkins. 1976. 
+Time series analysis: Forecasting and control
+. Oakland, CA:
+Holden-Day.
+Brown, L. D., and M. S. Rozeff. 1979. Univariate time series models of quarterly accounting earnings
+per share: A proposed model. 
+Journal of Accounting Research
+ 178–189.
+Brown, L. D., and M. S. Rozeff. 1980. Analysts can forecast accurately! 
+Journal of Portfolio
+Management
+ 6:31–34.
+Collins, W., and W. Hopwood. 1980. A multivariate analysis of annual earnings forecasts generated
+from quarterly forecasts of financial analysts and univariate time series models. 
+Journal of
+Accounting Research
+ 20:390–406.
+Cragg, J. G., and B. G. Malkiel. 1968. The consensus and accuracy of predictions of the growth of
+corporate earnings. 
+Journal of Finance
+ 23:67–84.
+Crichfield, T., T. Dyckman, and J. Lakonishok. 1978. An evaluation of security analysts forecasts.
+Accounting Review
+ 53:651–668.
+Foster, G. 1977. Quarterly accounting data: Time series properties and predictive ability results.
+Accounting Review
+ 52:1–31.

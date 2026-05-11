@@ -1,0 +1,33 @@
+acement cost of
+the asset is defined in current dollar terms to be the difference between the gross investment and the
+salvage value. The CFROI for a firm or a division can then be written as follows:
+
+For instance, assume that you have existing assets with a gross investment, of $2,431 million, a
+gross cash flow of $390 million, an expected salvage value (in today’s dollar terms) of $607.8
+million, and a life of 10 years.
+The conventional measure of CFROI is 11.71 percent, and the real cost of capital is 8 percent. The
+estimate using the alternative approach is computed as follows:
+The difference in the reinvestment rate assumption accounts for the difference in CFROI estimated
+using the two methods. In the first approach, intermediate cash flows get reinvested at the internal rate
+of return, while in the second, at least the portions of the cash flows that are set aside for replacement
+get reinvested at the cost of capital. In fact, if we estimated that the economic depreciation using the
+internal rate of return is 11.71 percent, the two approaches would yield identical results.
+8
+Cash Flow Return on Investment, Internal Rate of Return, and
+Discounted Cash Flow Value
+If net present value provides the genesis for the economic value added approach to value
+enhancement, the internal rate of return is the basis for the CFROI approach. In investment analysis,
+the internal rate of return on a project is computed using the initial investment on the project and all
+cash flows over the project’s life:
+where the ATCF is the after-tax cash flow on the project, and SV is the expected salvage value of the
+project assets. This analysis can be done entirely either in nominal terms, in which case the internal
+rate of return is a nominal IRR and is compared to the nominal cost of capital, or in real terms, in
+which case it is a real IRR and is compared to the real cost of capital.
+At first sight, the CFROI seems to do the same thing. It uses the gross investment in the project (in
+current dollars) as the equivalent of the initial investment, assumes that the gross current-dollar cash
+flow is maintained over the project life and computes a real internal rate of return. There are,
+however, some significant differences.
+The internal rate of return does not require the after-tax cash flows to be constant over a project’s
+life, even in real terms. The CFROI approach assumes that real cash flows on assets do not change
+over time. This may be a reasonable assumption for investments in mature sectors, but will understate
+project returns if there is real growth. In these cases, the CFROI approach has to be modified to

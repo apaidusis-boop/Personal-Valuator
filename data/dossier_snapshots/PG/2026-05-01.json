@@ -1,0 +1,99 @@
+{
+  "ticker": "PG",
+  "market": "us",
+  "date": "2026-05-01",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "PG",
+    "period_end": "2026-04-30",
+    "eps": 6.84,
+    "bvps": 23.081,
+    "roe": 0.31112,
+    "pe": 21.504385,
+    "pb": 6.372774,
+    "dy": 0.028961860806727188,
+    "net_debt_ebitda": 0.9871416480454489,
+    "dividend_streak_years": 65,
+    "is_aristocrat": 1,
+    "fetched_at": null,
+    "ffo_per_share": 8.082542411903438,
+    "interest_coverage": 26.373759647188535,
+    "debt_to_assets": 0.28318068209948016,
+    "dividend_streak_source": "sec_edgar_validated",
+    "pe_forward": 20.71095,
+    "ev_ebitda": 14.645,
+    "market_cap": 342513614848.0,
+    "fcf_ttm": 12733750272.0,
+    "shares_outstanding": 2328598978.0,
+    "next_ex_date": "2026-04-24",
+    "next_earnings_date": "2026-07-29",
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null,
+    "tbvps": null,
+    "rotce": null,
+    "cet1_ratio": null,
+    "efficiency_ratio": null
+  },
+  "quality_scores": {
+    "piotroski": {
+      "f_score": 5,
+      "period_end": "2025-06-30"
+    },
+    "altman": {
+      "z": 5.379707039232729,
+      "zone": "safe",
+      "confidence": "high",
+      "period_end": "2025-06-30",
+      "notes": []
+    },
+    "beneish": {
+      "m": -2.532594198969007,
+      "zone": "clean",
+      "confidence": "high",
+      "period_end": "2025-06-30"
+    }
+  },
+  "philosophy": {
+    "primary": "Buffett/Quality (5/12)",
+    "secondary": "",
+    "value": 2,
+    "growth": 3,
+    "dividend": 2,
+    "buffett": 5,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 123.21858859619259,
+    "pessimistic_value": 96.06012223928508,
+    "optimistic_value": 162.57180533994594,
+    "margin_of_safety_pct": -0.16229117095673434,
+    "current_price": 147.08999633789062
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Charlie Compounder",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Aumento dos custos de petróleo pode pressionar margens - Valentina Prudente",
+    "Dependência de crescimento contínuo em mercados emergentes - Valentina Prudente"
+  ],
+  "consensus_points": [
+    "A empresa oferece um ROE elevado de 31,56% e uma margem líquida sustentável, apoiando a tese long-term.",
+    "PG oferece ROE elevado de 31,56% e um histórico de aumentos de dividendos de 65 anos"
+  ],
+  "dissent_points": [
+    "Mariana Macro disse que o aumento dos custos de petróleo pode pressionar margens e Pedro Alocação mencionou a dependência de crescimento contínuo em mercados emergentes - Valentina Prudente",
+    "Charlie Compounder disse que o P/E está ligeiramente acima do ideal (21,08), enquanto Pedro Alocação argumenta que o P/E de 21.5 está dentro da faixa aceitável para empresas com consistência operacional e financeira"
+  ],
+  "evidence_count": 23,
+  "research_hits_total": 30
+}

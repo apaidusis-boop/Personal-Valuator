@@ -1,0 +1,39 @@
+risk-free rate will be
+a long-term default-free Treasury (government) bond rate and not a Treasury bill rate. Thus, the
+risk premium used should be the premium earned by stocks over Treasury bonds.
+3.
+
+Arithmetic and geometric averages.
+ The final sticking point when it comes to estimating
+historical premiums relates to how the average returns on stocks, Treasury bonds, and Treasury
+bills are computed. The arithmetic average return measures the simple mean of the series of
+annual returns, whereas the geometric average looks at the compounded return.
+9
+ Conventional
+wisdom argues for the use of the arithmetic average. In fact, if annual returns are uncorrelated
+over time, and our objective were to estimate the risk premium for the next year, the arithmetic
+average is the best unbiased estimate of the premium. In reality, however, there are strong
+arguments that can be made for the use of geometric averages. First, empirical studies seem to
+indicate that returns on stocks are negatively correlated over time.
+10
+ Consequently, the arithmetic
+average return is likely to overstate 
+the premium. Second, while asset pricing models may be
+single-period models, 
+the use of these models to get expected returns over long periods (such as 5
+or 
+10 years) suggests that we are interested in returns over longer periods. In this context, the
+argument for geometric average premiums becomes even stronger. 
+In summary, the risk premium estimates vary across users because of differences in time periods
+used, the choice of Treasury bills or bonds as the risk-free rate and the use of arithmetic averages
+as opposed to geometric averages. The effect of these choices is summarized in 
+Table 7.3
+, which
+uses returns from 1928 to 2010. Note that the premiums can range from –4.11 percent to 7.62
+percent, depending on the choices made. In fact, these differences are exacerbated by the fact that
+many risk premiums that are in use today were estimated using historical data three, four, or even
+10 years ago. If forced to choose an equity risk premium on this table, we would be inclined to go
+with 4.31 percent, the geometric average risk premium for stocks over Treasury bonds from 1928
+to 2010.
+Table 7.3
+ Historical Risk Premiums for the United States

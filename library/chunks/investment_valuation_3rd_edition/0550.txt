@@ -1,0 +1,38 @@
+lways imply lower prices (and PE ratios)?
+6.
+ The following were the PE ratios of firms in the aerospace/defense industry at the end of
+December 1993, with additional data on expected growth and risk.
+
+a.
+ Estimate the average and median PE ratios. What, if anything, would these averages tell you?
+b.
+ An analyst concludes that Thiokol is undervalued, because its PE ratio is lower than the
+industry average. Under what conditions is this statement true? Would you agree with it here?
+c.
+ Using a regression, control for differences across firms on risk, growth, and payout. Specify
+how you would use this regression to spot under- and overvalued stocks. What are the
+limitations of this approach?
+7.
+ The following was the result of a regression of PE ratios on growth rates, betas, and payout
+ratios for stocks listed on the Value Line Database in April 1993.
+Thus a stock with an earnings growth rate of 20%, a beta of 1.15, and a payout ratio of 40%
+would have had an expected PE ratio of:
+You are attempting to value a private firm with the following characteristics:
+The firm had net profits of $10 million. It did not pay dividends, but had depreciation
+allowances of $5 million and capital expenditures of $12 million in the most recent year.
+Working capital requirements were negligible.
+The earnings had grown 25% over the previous five years, and are expected to grow at
+the same rate over the next five years.
+The average beta of publicly traded firms, in the same line of business, is 1.15, and the
+average debt-equity ratio of these firms is 25%. (The tax rate is 40%.) The private firm is
+an all-equity-financed firm, with no debt.
+a.
+ Estimate the appropriate PE ratio for this private firm using the regression.
+b.
+ What would some of your concerns be in using this regression in valuation?
+1
+ The mean and the standard deviation are the summary statistics that are most likely to be affected
+by these outliers.
+2
+ For purposes of simplicity, the beta and cost of equity are estimated to be the same in both the
+high growth and stable growth periods. They could have been different.

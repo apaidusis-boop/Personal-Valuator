@@ -1,0 +1,31 @@
+building.
+7.
+ You are trying to value the same building based on comparable properties sold in recent years.
+There have been six property sales of buildings of comparable size in the surrounding area.
+
+a.
+ Estimate the value of the building based on price per square foot.
+b.
+ Estimate the value of the building based on price/gross rent.
+c.
+ What are some of the assumptions you make when you value a building based on comparable
+buildings?
+1
+ When the beta of an asset is estimated relative to a stock index, the underlying assumption is that
+the marginal investor has the bulk of his or her portfolio in stocks, and measures risk relative to
+this portfolio.
+2
+ We are assuming that the property taxes are based on the estimated value of the land each year
+and not the original cost. If it is the latter, the price appreciation rate can be lower.
+3
+ The rents vary depending on location in the building, with lower rents in the basement and lower
+floors and higher rents on the top floors.
+4
+ Note that it is the investors in the corporation who need to be diversified and not the corporation
+itself.
+5
+ This implies that the existing loan will be refinanced with a new loan set at 60% of the value of
+the property when it comes due.
+6
+ Buildings of better quality in better locations should command higher rents/leases and higher
+expected income than other buildings.

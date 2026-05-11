@@ -1,0 +1,36 @@
+rs, on
+average, require as a premium over the risk-free rate for an investment with average risk.
+Without any loss of generality, let us consider the estimation of the beta and the equity risk premium
+
+in the capital asset pricing model. Here, the risk premium should measure what investors, on average,
+demand as extra return for investing in the market portfolio relative to the risk-free asset.
+Historical Risk Premiums
+In practice, we usually estimate the risk premium by looking at the historical premium earned by
+stocks over default-free securities over long time periods. 
+The historical premium approach is
+simple. The actual returns earned on stocks over a long time period are estimated, and then compared
+to the actual returns earned on a default-free (usually government) security. The difference, on an
+annual basis, between the two returns is computed and represents the historical risk premium. This
+approach might yield reasonable estimates in markets like the United States, with a large and
+diversified stock market and a long history of returns on both stocks and government securities.
+However, they yield meaningless estimates for the risk premiums in other countries, where the equity
+markets represent a small proportion of the overall economy and the historical returns are available
+only for short periods.
+While users of risk and return models may have developed a consensus that historical premium is,
+in fact, the best estimate of the risk premium looking forward, there are surprisingly large differences
+in the actual premiums we observe being used in practice. For instance, the risk premium estimated in
+the U.S. markets by different investment banks, consultants, and corporations range from 3 percent at
+the lower end to 12 percent at the upper end. Given that they almost all use the same database of
+historical returns, provided by Ibbotson Associates,
+6
+ summarizing data from 1926, these differences
+may seem surprising. There are, however, three reasons for the divergence in risk premiums:
+Table 7.2
+ Standard Errors in Risk Premium Estimates
+Estimation Period
+Standard Error of Risk Premium Estimate
+5 years
+10 years
+25 years
+50 years
+1.

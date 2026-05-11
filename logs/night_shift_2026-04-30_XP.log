@@ -1,0 +1,26 @@
+# XP (us) — 2026-04-30T21:27:12.517717+00:00
+# Exit code: 1
+# Elapsed: 56.2s
+
+## stdout
+
+
+## stderr
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\paidu\investment-intelligence\agents\council\story.py", line 207, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\agents\council\story.py", line 196, in main
+    narrative = render_story(run, verbose=verbose)
+  File "C:\Users\paidu\investment-intelligence\agents\council\narrative.py", line 513, in render_story
+    philosophy = compute_philosophy(
+        {
+    ...<16 lines>...
+        dcf={"margin_of_safety_pct": dcf.margin_of_safety_pct or 0.0},
+    )
+  File "C:\Users\paidu\investment-intelligence\agents\council\philosophy.py", line 127, in compute
+    if len(annual_evolution) >= 3 and revs[2] > 0:
+                                      ~~~~^^^
+IndexError: list index out of range

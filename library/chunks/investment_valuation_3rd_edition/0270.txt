@@ -1,0 +1,54 @@
+ion in unearned revenues by the end of 1996 that it could borrow
+on to supplement earnings in a weaker quarter.
+Booking revenues early.
+ In an opposite phenomenon, firms sometimes ship products during
+
+the final days of a weak quarter to distributors and retailers and record the revenues.
+Consider the case of MicroStrategy, a technology firm that went public in 1998. In the last
+two quarters of 1999, the firm reported revenue growth of 20 percent and 27 percent
+respectively, but much of that growth was attributable to large deals announced just days
+after each quarter ended, with some revenues attributed to the just-ended quarter.
+9
+ In a more
+elaborate variant of this strategy, two technology firms, both of which need to boost
+revenues, can enter into a transaction swapping revenues.
+Capitalizing operating expenses.
+ Just as with revenue recognition, firms are given some
+discretion in whether they classify expenses as operating or capital expenses, especially for
+items like software R&D. AOL's practice of capitalizing and writing off the cost of the CDs
+and disks it provided with magazines, for instance, allowed it to report positive earnings
+through much of the late 1990s.
+Write-offs.
+ A major restructuring charge can result in lower income in the current period,
+but it provides two benefits to the firm taking it. Since operating earnings are reported both
+before and after the restructuring charge, it allows the firm to separate the expense from
+operations. It also makes beating earnings easier in future quarters. To see how restructuring
+can boost earnings, consider the case of IBM. By writing off old plants in the year they are
+closed, IBM was able to drop depreciation expenses to 5 percent of revenue in 1996 from
+an average of 7 percent in 1990–1994. The difference, in 1996 revenue, was $1.64 billion,
+or 18 percent of the company's $9.02 billion in pretax profit that year. Technology firms
+have been particularly adept at writing off a large portion of acquisition costs as “in-
+process R&D” to register increases in earnings in subsequent quarters. Deng and Lev
+(1998) studied 389 firms that wrote off in-process R&D between 1990 and 1996;
+10
+ these
+write-offs amounted, on average, to 72 percent of the purchase price on these acquisitions,
+and increased the acquiring firm's earnings 22 percent in the fourth quarter after the
+acquisition.
+Use of reserves.
+ Firms are allowed to build up reserves for bad debts, product returns, and
+other potential losses. Some firms are conservative in their estimates in good years, and use
+the excess reserves that they have built up during these years to smooth out earnings in other
+years.
+Income from investments.
+ Firms with substantial holdings of marketable securities or
+investments in other firms often have these investments recorded on their books at values
+well below their market values. Thus, liquidating these investments can result in large
+capital gains, which can boost income in the period.
+Adjustments to Income
+To the extent that firms manage earnings, you have to be cautious about using the current year's
+earnings as a base for projections. This section consider a series of adjustments that we might need to
+make to stated earnings before using the number as a basis for projections. We begin by considering
+the often subtle differences between one-time, recurring, and unusual items. We follow up by
+examining how best to deal with the debris left over by acquisition accounting. Then we consider
+how to deal with income from holdings in other companies and investments in marketable securities.

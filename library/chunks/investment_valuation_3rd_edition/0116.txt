@@ -1,0 +1,39 @@
+of
+early exercise. There are two approaches for doing so. One uses the Black-Scholes model to value
+the option to each potential exercise date. With options on stocks, this basically requires that the
+
+investor values options to each ex-dividend day and chooses the maximum of the estimated call
+values. The second approach is to use a modified version of the binomial model to consider the
+possibility of early exercise. In this version, the up and the down movements for asset prices in each
+period can be estimated from the variance. 
+2
+Approach 1: Pseudo-American Valuation
+Step 1:
+ Define when dividends will be paid and how much the dividends will be.
+Step 2:
+ Value the call option to each ex-dividend date using the dividend-adjusted approach
+described earlier, where the stock price is reduced by the present value of expected dividends.
+Step 3:
+ Choose the maximum of the call values estimated for each ex-dividend day.
+ILLUSTRATION 5.5: 
+Using Pseudo-American Option
+Valuation to Adjust for Early Exercise
+Consider an option with a strike price of $35 on a stock trading at $40. The variance in the ln(stock prices) is 0.05, and the
+riskless rate is 4%. The option has a remaining life of eight months, and there are three dividends expected during this period:
+Expected Dividend
+Ex-Dividend Day
+$0.80
+In 1 month
+$0.80
+In 4 months
+$0.80
+In 7 months
+The call option is first valued to just before the first ex-dividend date:
+The value from the Black-Scholes model is:
+The call option is then valued to before the second ex-dividend date:
+The value of the call based on these parameters is:
+The call option is then valued to before the third ex-dividend date:
+The value of the call based on these parameters is:
+The call option is then valued to expiration:
+The value of the call based on these parameters is:
+Approach 2: Using the Binomial Model

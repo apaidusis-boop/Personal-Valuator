@@ -1,0 +1,40 @@
+f equity will change as the debt ratio
+changes. In fact, we estimated the levered beta as a function of the market debt to equity ratio of a
+firm, the unlevered beta, and the firm's marginal tax rate:
+
+Thus, if we can estimate the unlevered beta for a firm, we can use it to estimate the levered beta of the
+firm at every debt ratio. This levered beta can then be used to compute the cost of equity at each debt
+ratio.
+The cost of debt for a firm is a function of the firm's default risk. As firms borrow more, their
+default risk will increase and so will the cost of debt. If we use bond ratings as our measure of
+default risk, we can estimate the cost of debt in three steps. First, estimate a firm's dollar debt and
+interest expenses at each debt ratio; as firms increase their debt ratio, both dollar debt and interest
+expenses will rise. Second, at each debt level, compute a financial ratio or ratios that measure default
+risk and use the ratio(s) to estimate a rating for the firm; again, as firms borrow more, this rating will
+decline. Third, a default spread, based on the estimated rating, is added to the risk-free rate to arrive
+at the pretax cost of debt. Applying the marginal tax rate to this pretax cost yields an after-tax cost of
+debt.
+Once we estimate the costs of equity and debt at each debt level, we weight them based on the
+proportions used of each to estimate the cost of capital. While we have not explicitly allowed for a
+preferred stock component in this process, we can have preferred stock as a part of capital. However,
+we have to keep the preferred stock portion fixed, while changing the weights on debt and equity. The
+debt ratio at which the cost of capital is minimized is the optimal debt ratio.
+In this approach, the effect on firm value of changing the capital structure is isolated by keeping the
+operating income fixed and varying only the cost of capital. In practical terms, this requires us to
+make two assumptions. First, the debt ratio is decreased by raising new equity and retiring debt;
+conversely, the debt ratio is increased by borrowing money and buying back stock. This process is
+called recapitalization. Second, the pretax operating income is assumed to be unaffected by the firm's
+financing mix and, by extension, its bond rating. If the operating income changes with a firm's default
+risk, the basic analysis will not change, but minimizing the cost of capital may not be the optimal
+course of action, since the value of the firm is determined by both the cash flows and the cost of
+capital. The value of the firm will have to be computed at each debt level and the optimal debt ratio
+will be the one that maximizes firm value.
+ILLUSTRATION 15.7: Analyzing the Capital Structure for
+Disney: May 2009
+The cost of capital approach can be used to find the optimal capital structure for a firm, as we will for Disney in May 2009.
+Disney had $14,962 million in interest-bearing debt on its books and adding the present value of operating lease commitments
+of $1,720 million to this value, we arrive at a total market value for the debt of $16,682 million. The market value of equity at
+the same time was $45,193 million; the market price per share was $24.34, and there were 1,856.752 million shares
+outstanding. Proportionally, 26.96% of the overall financing mix was debt, and the remaining 73.04% was equity.
+The unlevered beta for Disney's stock in May 2009, estimated by breaking it down into its constituent businesses and
+weighting the unlevered betas for each business, was 0.7333.

@@ -1,0 +1,100 @@
+2 
+May-08 Jun-08 Jul-08 Aug-08
+$0
+$5
+$10
+$15
+$20
+$25
+$30
+Freddie Mac Share Price
+Fannie Mae Share Price Agency 10Yr Spread to Treasuries 
+Fannie Mae Freddie Mac
+0.0%
+0.5%
+1.0%
+1.5%
+2.0%
+00 02 04 06 08
+
+This case exemplifies the very common problem of politics creating govern -
+ment guarantees (implicit or explicit) that make risky assets appear to be 
+safer than they are. This encourages investors to lever up in them, which 
+feeds bad debt growth.
+As losses from mortgage-backed securities mounted, shares of Freddie and 
+Fannie plummeted because everyone knew they had a lot of bad debt. Equity 
+holders knew they would get hit even if the creditors were protected. By July 
+15, Freddie and Fannie’s equity prices had declined by almost 75 percent in less 
+than a year. 
+Now that the crisis was at hand and undeniably obvious, it had to be dealt with. 
+After frantic behind the scenes negotiations, the Treasury was able to get a bill 
+passed by Congress on July 23 allowing it to use a virtually unlimited (Paulson 
+chose the term “unspecified”) amount of dollars to provide funds to the two 
+GSEs (limited only by the overall federal debt ceiling), and expanded regulatory 
+oversight of them. The Treasury basically acquired a blank check, backstopped 
+by the taxpayer, to do whatever it took to keep these institutions solvent.
+Nationalizing too-big-to-fail financial institutions on the brink of failure is 
+a classic move in a deleveraging that is usually well received, as it signifies 
+that the government is willing to provide a blanket of safety over the system. 
+Remember that when debts are denominated in a country’s own currency, the 
+government has the power to eliminate the risks of default. 
+News & 
+Bridgewater Daily Observations 
+(BDO)
+July 23, 2008
+Paulson Urges Americans to Be Patient on 
+Economy
+“‘Our markets won’t make progress in a straight 
+line, and we should expect additional bumps in 
+the road,’ Mr. Paulson said in remarks at the New 
+York Public Library in Midtown Manhattan. ‘We 
+have been experiencing more bumps recently, and 
+until the housing market stabilizes further we 
+should expect some continued stresses in our 
+financial markets.’”
+–New York Times
+July 25, 2008
+Bank Failure Expectations
+“The disorderly collapse of a large financial 
+institution has yet to happen—in part because the 
+Fed provision of liquidity has helped avoid a run 
+(with the exception of IndyMac), and so far each 
+time an entity has come close either a bailout or a 
+buyout has come in order to ensure that an 
+institution isn’t forced to liquidate. Given the 
+continued strains on financial entities, new 
+financial institution failures are likely. Market 
+expectations are currently pricing roughly 4% of 
+financial institutions going bankrupt in the next 6 
+months, implying an asset liquidation of $600 
+bln...The banking sector as a whole has only about 
+half of that amount of free equity capital available 
+today, much of which will need to be available to 
+absorb credit losses on old loans.”
+July 29, 2008
+Bank Shares Retreat, Giving Up Gains
+“A sell-off of stocks accelerated in late trading 
+Monday as investors moved out of shares of 
+investment and commercial banks, many of which 
+have given back all of their gains from last 
+week...A late-afternoon announcement by 
+Treasury Secretary Henry M. Paulson Jr. that 
+four major banks were planning to issue a new 
+type of bond to aid the mortgage market did not 
+stem the bank stocks’ slide. The sell-off only 
+intensified in all three major indexes just after 
+Mr. Paulson spoke.” 
+–New York Times
+July 29, 2008
+A New Tool Announced to Support Home 
+Loans
+“The Treasury Department and the nation’s four 
+biggest banks on Monday said they were ready to 
+kick-start a market for a new tool to support home 
+financing in the latest effort to spur a moribund 
+housing market...The Treasury released a set of 
+‘best practices’ for institutions that issue so-called 
+covered bonds, and Bank of America, Citigroup, 
+JPMorgan Chase and Wells Fargo said they 
+planned to begin issuing them.’ 
+–Reuters

@@ -1,0 +1,16 @@
+os o preço em R$ 43,80.
+
+Abaixo, estão detalhadas as principais projeções consolidadas:
+
+**Projeções consolidadas da Axia** — *Elaboração: Suno Research.*
+
+---
+
+## Riscos
+
+- *Atualizado em 13/11/2025*
+
+- **Processos judiciais:** a Axia está envolvida em diversas ações judiciais e processos administrativos relacionados, principalmente, a matérias cíveis. Tais ações envolvem montantes substanciais em dinheiro e outras indenizações, com um total de R$ 72,8 bilhões envolvidos em risco de perda possível (R$ 42,8 bilhões) ou provável (R$ 30,0 bilhões). Atualmente, a companhia conta com um valor provisionado de aproximadamente R$ 31,3 bilhões para esse tipo de possível contingência. Caso esses processos sejam decididos em desfavor da Axia, a companhia poderá ter efeitos materiais adversos em sua posição financeira. Ademais, caso haja mudanças de interpretação no que tange à possibilidade de perda judicial por parte da empresa, novos valores deverão ser provisionados, prejudicando os resultados do negócio.
+- **Preços de energia:** tendo a geração de energia como o seu principal negócio, a companhia pode ser relevantemente afetada nos períodos de quedas e manutenção dos preços de energia em patamares muito baixos. Nessas ocasiões, além de gradualmente precisar renovar os seus contratos de venda em patamares menos atrativos, novos projetos de expansão da capacidade podem se tornar inviáveis, prejudicando o crescimento e a reposição de possível capacidade perdida com términos de concessões.
+- **Reposição de ativos:** nos seus dois principais segmentos de atuação, sobretudo nos leilões para aquisição de novos ativos de transmissão, a concorrência entre diversas empresas está bastante acirrada. Nesse cenário, é possível que a empresa se torne incapaz de implementar novos empreendimentos em termos atrativos. Ademais, não há como garantir se, e em que condições, as concessões atuais serão renovadas. De acordo com a legislação atual, elas poderão ser prorrogadas por no máximo mais 30 anos, contando que a empresa aceite eventuais revisões nos contratos, o que deixa ampla margem para discricionariedade do poder público ante a remuneração que será oferecida para a empresa nesse tipo de ocasião. Em última instância, esses são fatores que poderão causar efeito adverso na geração de caixa da companhia e, consequentemente, na distribuição de proventos aos acionistas e no valor justo das ações.
+- **Hidrológico:** pela predominância de sua matriz de geração, a formação dos resultados da companhia depende excessivamente de condições hidrológicas favoráveis. Como o SIN opera em um sistema de despacho otimizado e centralizado pelo ONS, caso a geração hidrelétrica seja inferior ao total da garantia física das usinas participantes do Mecanismo de Realocação de Energia (MRE), o déficit de geração é dividido proporcionalmente entre todas as empresas. Nesses casos, como as geradoras têm por obrigação entregar o total de suas garantias físicas, poderemos observar a exposição da companhia ao mercado de energia de curto prazo, cujos preços podem ser elevados, afetando negativamente os resultados.

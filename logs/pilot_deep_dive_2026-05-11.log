@@ -1,0 +1,426 @@
+{"ts": "2026-05-10T21:02:17Z", "event": "run_start", "out_dir": "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\Overnight_2026-05-12", "deep": true, "from_yaml": true, "filter": "all"}
+{"ts": "2026-05-10T21:02:17Z", "event": "pilot_loaded", "n": 50}
+{"ts": "2026-05-10T21:02:17Z", "event": "ticker_start", "ticker": "ABBV", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:17Z", "event": "snapshot_done", "ticker": "ABBV", "events_count": 183}
+{"ts": "2026-05-10T21:02:18Z", "event": "scrape_done", "ticker": "ABBV", "url": "https://investors.abbvie.com/", "ok": false, "elapsed_s": 1.186586856842041}
+{"ts": "2026-05-10T21:02:18Z", "event": "dossier_saved", "ticker": "ABBV", "path": "obsidian_vault\\Overnight_2026-05-12\\ABBV.md"}
+{"ts": "2026-05-10T21:02:18Z", "event": "ticker_progress", "i": 1, "n": 50, "ticker": "ABBV", "ticker_elapsed_s": 1.2, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T21:02:18Z", "event": "ticker_start", "ticker": "ABM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:18Z", "event": "snapshot_done", "ticker": "ABM", "events_count": 0}
+{"ts": "2026-05-10T21:02:19Z", "event": "scrape_done", "ticker": "ABM", "url": "https://www.abmindustries.com/investors", "ok": true, "elapsed_s": 0.0759434700012207}
+{"ts": "2026-05-10T21:02:19Z", "event": "parse_done", "ticker": "ABM", "filings": 0, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T21:02:19Z", "event": "novelty_done", "ticker": "ABM", "novel_count": 0}
+{"ts": "2026-05-10T21:02:19Z", "event": "dossier_saved", "ticker": "ABM", "path": "obsidian_vault\\Overnight_2026-05-12\\ABM.md"}
+{"ts": "2026-05-10T21:02:19Z", "event": "ticker_progress", "i": 2, "n": 50, "ticker": "ABM", "ticker_elapsed_s": 0.1, "total_elapsed_min": 0.0}
+{"ts": "2026-05-10T21:02:19Z", "event": "ticker_start", "ticker": "ADM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:19Z", "event": "snapshot_done", "ticker": "ADM", "events_count": 0}
+{"ts": "2026-05-10T21:02:19Z", "event": "scrape_done", "ticker": "ADM", "url": "https://investors.adm.com/", "ok": true, "elapsed_s": 0.06995105743408203}
+{"ts": "2026-05-10T21:02:19Z", "event": "parse_done", "ticker": "ADM", "filings": 3, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T21:02:19Z", "event": "novelty_done", "ticker": "ADM", "novel_count": 2}
+{"ts": "2026-05-10T21:02:20Z", "event": "extract_done", "ticker": "ADM", "url": "https://investors.adm.com/news/news-details/2026/ADM-Declares-Cash-Dividend/defa", "chars": 9068}
+{"ts": "2026-05-10T21:02:21Z", "event": "extract_done", "ticker": "ADM", "url": "https://investors.adm.com/news/news-details/2026/ADM-Reports-First-Quarter-2026-", "chars": 48231}
+{"ts": "2026-05-10T21:02:21Z", "event": "dossier_saved", "ticker": "ADM", "path": "obsidian_vault\\Overnight_2026-05-12\\ADM.md"}
+{"ts": "2026-05-10T21:02:21Z", "event": "ticker_progress", "i": 3, "n": 50, "ticker": "ADM", "ticker_elapsed_s": 2.7, "total_elapsed_min": 0.1}
+{"ts": "2026-05-10T21:02:21Z", "event": "ticker_start", "ticker": "ADP", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:21Z", "event": "snapshot_done", "ticker": "ADP", "events_count": 0}
+{"ts": "2026-05-10T21:02:21Z", "event": "scrape_done", "ticker": "ADP", "url": "https://www.automaticdataprocessing.com/investors", "ok": true, "elapsed_s": 0.0688023567199707}
+{"ts": "2026-05-10T21:02:21Z", "event": "parse_done", "ticker": "ADP", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:02:21Z", "event": "novelty_done", "ticker": "ADP", "novel_count": 0}
+{"ts": "2026-05-10T21:02:21Z", "event": "dossier_saved", "ticker": "ADP", "path": "obsidian_vault\\Overnight_2026-05-12\\ADP.md"}
+{"ts": "2026-05-10T21:02:21Z", "event": "ticker_progress", "i": 4, "n": 50, "ticker": "ADP", "ticker_elapsed_s": 0.1, "total_elapsed_min": 0.1}
+{"ts": "2026-05-10T21:02:21Z", "event": "ticker_start", "ticker": "AFL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:21Z", "event": "snapshot_done", "ticker": "AFL", "events_count": 0}
+{"ts": "2026-05-10T21:02:21Z", "event": "scrape_done", "ticker": "AFL", "url": "https://investors.aflac.com/", "ok": true, "elapsed_s": 0.06736111640930176}
+{"ts": "2026-05-10T21:02:21Z", "event": "parse_done", "ticker": "AFL", "filings": 4, "events": 0, "presentations": 2, "audio_video": 5}
+{"ts": "2026-05-10T21:02:21Z", "event": "novelty_done", "ticker": "AFL", "novel_count": 4}
+{"ts": "2026-05-10T21:02:23Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-Inco", "chars": 53913}
+{"ts": "2026-05-10T21:02:24Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-reco", "chars": 26494}
+{"ts": "2026-05-10T21:02:24Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/events-and-presentations/events-calendar/event-detai", "chars": 11623}
+{"ts": "2026-05-10T21:02:25Z", "event": "extract_done", "ticker": "AFL", "url": "https://investors.aflac.com/press-releases/press-release-details/2026/Aflac-open", "chars": 16548}
+{"ts": "2026-05-10T21:02:25Z", "event": "dossier_saved", "ticker": "AFL", "path": "obsidian_vault\\Overnight_2026-05-12\\AFL.md"}
+{"ts": "2026-05-10T21:02:25Z", "event": "ticker_progress", "i": 5, "n": 50, "ticker": "AFL", "ticker_elapsed_s": 4.1, "total_elapsed_min": 0.1}
+{"ts": "2026-05-10T21:02:25Z", "event": "ticker_start", "ticker": "ALB", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:25Z", "event": "snapshot_done", "ticker": "ALB", "events_count": 0}
+{"ts": "2026-05-10T21:02:25Z", "event": "scrape_done", "ticker": "ALB", "url": "https://investors.albemarle.com/", "ok": true, "elapsed_s": 0.06888628005981445}
+{"ts": "2026-05-10T21:02:25Z", "event": "parse_done", "ticker": "ALB", "filings": 1, "events": 0, "presentations": 6, "audio_video": 1}
+{"ts": "2026-05-10T21:02:26Z", "event": "novelty_done", "ticker": "ALB", "novel_count": 0}
+{"ts": "2026-05-10T21:02:26Z", "event": "dossier_saved", "ticker": "ALB", "path": "obsidian_vault\\Overnight_2026-05-12\\ALB.md"}
+{"ts": "2026-05-10T21:02:26Z", "event": "ticker_progress", "i": 6, "n": 50, "ticker": "ALB", "ticker_elapsed_s": 0.1, "total_elapsed_min": 0.1}
+{"ts": "2026-05-10T21:02:26Z", "event": "ticker_start", "ticker": "AOS", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:26Z", "event": "snapshot_done", "ticker": "AOS", "events_count": 0}
+{"ts": "2026-05-10T21:02:56Z", "event": "scrape_done", "ticker": "AOS", "url": "https://www.aosmith.com/investors", "ok": false, "elapsed_s": 30.524964332580566}
+{"ts": "2026-05-10T21:02:56Z", "event": "dossier_saved", "ticker": "AOS", "path": "obsidian_vault\\Overnight_2026-05-12\\AOS.md"}
+{"ts": "2026-05-10T21:02:56Z", "event": "ticker_progress", "i": 7, "n": 50, "ticker": "AOS", "ticker_elapsed_s": 30.5, "total_elapsed_min": 0.6}
+{"ts": "2026-05-10T21:02:56Z", "event": "ticker_start", "ticker": "ATO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:02:56Z", "event": "snapshot_done", "ticker": "ATO", "events_count": 0}
+{"ts": "2026-05-10T21:02:56Z", "event": "scrape_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/", "ok": true, "elapsed_s": 0.07191300392150879}
+{"ts": "2026-05-10T21:02:56Z", "event": "parse_done", "ticker": "ATO", "filings": 5, "events": 0, "presentations": 2, "audio_video": 2}
+{"ts": "2026-05-10T21:02:56Z", "event": "novelty_done", "ticker": "ATO", "novel_count": 2}
+{"ts": "2026-05-10T21:02:58Z", "event": "extract_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/events-and-presentations/events/event-details/", "chars": 8411}
+{"ts": "2026-05-10T21:03:00Z", "event": "extract_done", "ticker": "ATO", "url": "https://investors.atmosenergy.com/events-and-presentations/events/event-details/", "chars": 8411}
+{"ts": "2026-05-10T21:03:00Z", "event": "dossier_saved", "ticker": "ATO", "path": "obsidian_vault\\Overnight_2026-05-12\\ATO.md"}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_progress", "i": 8, "n": 50, "ticker": "ATO", "ticker_elapsed_s": 4.0, "total_elapsed_min": 0.7}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_start", "ticker": "BEN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:00Z", "event": "snapshot_done", "ticker": "BEN", "events_count": 0}
+{"ts": "2026-05-10T21:03:00Z", "event": "scrape_done", "ticker": "BEN", "url": "https://investors.franklinresources.com/", "ok": true, "elapsed_s": 0.06888008117675781}
+{"ts": "2026-05-10T21:03:00Z", "event": "parse_done", "ticker": "BEN", "filings": 0, "events": 0, "presentations": 11, "audio_video": 6}
+{"ts": "2026-05-10T21:03:00Z", "event": "novelty_done", "ticker": "BEN", "novel_count": 0}
+{"ts": "2026-05-10T21:03:00Z", "event": "dossier_saved", "ticker": "BEN", "path": "obsidian_vault\\Overnight_2026-05-12\\BEN.md"}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_progress", "i": 9, "n": 50, "ticker": "BEN", "ticker_elapsed_s": 0.1, "total_elapsed_min": 0.7}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_start", "ticker": "BRO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:00Z", "event": "snapshot_done", "ticker": "BRO", "events_count": 0}
+{"ts": "2026-05-10T21:03:00Z", "event": "scrape_done", "ticker": "BRO", "url": "https://www.brownbrown.com/investors", "ok": true, "elapsed_s": 0.0664372444152832}
+{"ts": "2026-05-10T21:03:00Z", "event": "parse_done", "ticker": "BRO", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:03:00Z", "event": "novelty_done", "ticker": "BRO", "novel_count": 0}
+{"ts": "2026-05-10T21:03:00Z", "event": "dossier_saved", "ticker": "BRO", "path": "obsidian_vault\\Overnight_2026-05-12\\BRO.md"}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_progress", "i": 10, "n": 50, "ticker": "BRO", "ticker_elapsed_s": 0.1, "total_elapsed_min": 0.7}
+{"ts": "2026-05-10T21:03:00Z", "event": "ticker_start", "ticker": "CAT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:00Z", "event": "snapshot_done", "ticker": "CAT", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CAT", "url": "https://www.caterpillar.com/en/investors.html", "ok": false, "elapsed_s": 30.516430616378784}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CAT", "path": "obsidian_vault\\Overnight_2026-05-12\\CAT.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 11, "n": 50, "ticker": "CAT", "ticker_elapsed_s": 30.5, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CB", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CB", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CB", "url": "https://investors.chubb.com/", "ok": true, "elapsed_s": 0.07102823257446289}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CB", "filings": 6, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CB", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CB", "path": "obsidian_vault\\Overnight_2026-05-12\\CB.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 12, "n": 50, "ticker": "CB", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CBSH", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CBSH", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CBSH", "url": "https://www.commercebancshares.com/investors", "ok": true, "elapsed_s": 0.06874608993530273}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CBSH", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CBSH", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CBSH", "path": "obsidian_vault\\Overnight_2026-05-12\\CBSH.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 13, "n": 50, "ticker": "CBSH", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CHD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CHD", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CHD", "url": "https://investor.churchdwight.com/", "ok": true, "elapsed_s": 0.06902408599853516}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CHD", "filings": 4, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CHD", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CHD", "path": "obsidian_vault\\Overnight_2026-05-12\\CHD.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 14, "n": 50, "ticker": "CHD", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CHRW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CHRW", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CHRW", "url": "https://investor.chrobinson.com/", "ok": true, "elapsed_s": 0.06713461875915527}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CHRW", "filings": 3, "events": 0, "presentations": 6, "audio_video": 4}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CHRW", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CHRW", "path": "obsidian_vault\\Overnight_2026-05-12\\CHRW.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 15, "n": 50, "ticker": "CHRW", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CL", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CL", "url": "https://investor.cl.com/", "ok": true, "elapsed_s": 0.06554961204528809}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CL", "filings": 0, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CL", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CL", "path": "obsidian_vault\\Overnight_2026-05-12\\CL.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 16, "n": 50, "ticker": "CL", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CTAS", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CTAS", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CTAS", "url": "https://www.cintas.com/investors", "ok": true, "elapsed_s": 0.06753802299499512}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "CTAS", "filings": 0, "events": 0, "presentations": 1, "audio_video": 2}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "CTAS", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CTAS", "path": "obsidian_vault\\Overnight_2026-05-12\\CTAS.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 17, "n": 50, "ticker": "CTAS", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "CVX", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "CVX", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "CVX", "url": "https://www.chevron.com/ir", "ok": false, "elapsed_s": 0.07123827934265137}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "CVX", "path": "obsidian_vault\\Overnight_2026-05-12\\CVX.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 18, "n": 50, "ticker": "CVX", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "DOV", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "DOV", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "DOV", "url": "https://www.dover.com/investors", "ok": true, "elapsed_s": 0.06739664077758789}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "DOV", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "DOV", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "DOV", "path": "obsidian_vault\\Overnight_2026-05-12\\DOV.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 19, "n": 50, "ticker": "DOV", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "ECL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "ECL", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "ECL", "url": "https://investor.ecolab.com/", "ok": true, "elapsed_s": 0.06852340698242188}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "ECL", "filings": 4, "events": 0, "presentations": 4, "audio_video": 3}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "ECL", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "ECL", "path": "obsidian_vault\\Overnight_2026-05-12\\ECL.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 20, "n": 50, "ticker": "ECL", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "ED", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "ED", "events_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "scrape_done", "ticker": "ED", "url": "https://investor.consolidatededison.com/", "ok": true, "elapsed_s": 0.06737208366394043}
+{"ts": "2026-05-10T21:03:31Z", "event": "parse_done", "ticker": "ED", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "novelty_done", "ticker": "ED", "novel_count": 0}
+{"ts": "2026-05-10T21:03:31Z", "event": "dossier_saved", "ticker": "ED", "path": "obsidian_vault\\Overnight_2026-05-12\\ED.md"}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_progress", "i": 21, "n": 50, "ticker": "ED", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.2}
+{"ts": "2026-05-10T21:03:31Z", "event": "ticker_start", "ticker": "FAST", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:31Z", "event": "snapshot_done", "ticker": "FAST", "events_count": 0}
+{"ts": "2026-05-10T21:03:32Z", "event": "scrape_done", "ticker": "FAST", "url": "https://investor.fastenal.com/", "ok": true, "elapsed_s": 0.06616950035095215}
+{"ts": "2026-05-10T21:03:32Z", "event": "parse_done", "ticker": "FAST", "filings": 5, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T21:03:32Z", "event": "novelty_done", "ticker": "FAST", "novel_count": 5}
+{"ts": "2026-05-10T21:03:33Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/news-releases/news-details/2026/Fastenal-Company-R", "chars": 42566}
+{"ts": "2026-05-10T21:03:37Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/files/doc_financials/2026/Q1/Q1-2026-Investor-Pres", "chars": 17809}
+{"ts": "2026-05-10T21:03:38Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/events-and-presentations/event-details/2026/July-2", "chars": 7767}
+{"ts": "2026-05-10T21:03:40Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/files/doc_financials/2026/Q2/04-2026-sales-numbers", "chars": 5265}
+{"ts": "2026-05-10T21:03:41Z", "event": "extract_done", "ticker": "FAST", "url": "https://investor.fastenal.com/events-and-presentations/event-details/2026/May-20", "chars": 7764}
+{"ts": "2026-05-10T21:03:41Z", "event": "dossier_saved", "ticker": "FAST", "path": "obsidian_vault\\Overnight_2026-05-12\\FAST.md"}
+{"ts": "2026-05-10T21:03:41Z", "event": "ticker_progress", "i": 22, "n": 50, "ticker": "FAST", "ticker_elapsed_s": 9.2, "total_elapsed_min": 1.4}
+{"ts": "2026-05-10T21:03:41Z", "event": "ticker_start", "ticker": "FUL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:41Z", "event": "snapshot_done", "ticker": "FUL", "events_count": 0}
+{"ts": "2026-05-10T21:03:41Z", "event": "scrape_done", "ticker": "FUL", "url": "https://investors.hbfuller.com/", "ok": true, "elapsed_s": 0.06990957260131836}
+{"ts": "2026-05-10T21:03:41Z", "event": "parse_done", "ticker": "FUL", "filings": 6, "events": 0, "presentations": 4, "audio_video": 2}
+{"ts": "2026-05-10T21:03:41Z", "event": "novelty_done", "ticker": "FUL", "novel_count": 1}
+{"ts": "2026-05-10T21:03:44Z", "event": "extract_done", "ticker": "FUL", "url": "https://s26.q4cdn.com/617714526/files/doc_financials/2026/q1/v2/2026-Q1-Earnings", "chars": 49616}
+{"ts": "2026-05-10T21:03:44Z", "event": "dossier_saved", "ticker": "FUL", "path": "obsidian_vault\\Overnight_2026-05-12\\FUL.md"}
+{"ts": "2026-05-10T21:03:44Z", "event": "ticker_progress", "i": 23, "n": 50, "ticker": "FUL", "ticker_elapsed_s": 3.7, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:44Z", "event": "ticker_start", "ticker": "GD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:44Z", "event": "snapshot_done", "ticker": "GD", "events_count": 0}
+{"ts": "2026-05-10T21:03:44Z", "event": "scrape_done", "ticker": "GD", "url": "https://www.generaldynamics.com/investors", "ok": true, "elapsed_s": 0.07011532783508301}
+{"ts": "2026-05-10T21:03:44Z", "event": "parse_done", "ticker": "GD", "filings": 1, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T21:03:44Z", "event": "novelty_done", "ticker": "GD", "novel_count": 0}
+{"ts": "2026-05-10T21:03:44Z", "event": "dossier_saved", "ticker": "GD", "path": "obsidian_vault\\Overnight_2026-05-12\\GD.md"}
+{"ts": "2026-05-10T21:03:44Z", "event": "ticker_progress", "i": 24, "n": 50, "ticker": "GD", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:44Z", "event": "ticker_start", "ticker": "HRL", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:44Z", "event": "snapshot_done", "ticker": "HRL", "events_count": 0}
+{"ts": "2026-05-10T21:03:45Z", "event": "scrape_done", "ticker": "HRL", "url": "https://investor.hormelfoods.com/", "ok": true, "elapsed_s": 0.06559038162231445}
+{"ts": "2026-05-10T21:03:45Z", "event": "parse_done", "ticker": "HRL", "filings": 5, "events": 0, "presentations": 5, "audio_video": 2}
+{"ts": "2026-05-10T21:03:45Z", "event": "novelty_done", "ticker": "HRL", "novel_count": 0}
+{"ts": "2026-05-10T21:03:45Z", "event": "dossier_saved", "ticker": "HRL", "path": "obsidian_vault\\Overnight_2026-05-12\\HRL.md"}
+{"ts": "2026-05-10T21:03:45Z", "event": "ticker_progress", "i": 25, "n": 50, "ticker": "HRL", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:45Z", "event": "ticker_start", "ticker": "ITW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:45Z", "event": "snapshot_done", "ticker": "ITW", "events_count": 0}
+{"ts": "2026-05-10T21:03:45Z", "event": "scrape_done", "ticker": "ITW", "url": "https://investor.itw.com/", "ok": true, "elapsed_s": 0.06750297546386719}
+{"ts": "2026-05-10T21:03:45Z", "event": "parse_done", "ticker": "ITW", "filings": 3, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T21:03:45Z", "event": "novelty_done", "ticker": "ITW", "novel_count": 3}
+{"ts": "2026-05-10T21:03:46Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/news-and-events/news/news-details/2026/ITW-Reports-Firs", "chars": 28423}
+{"ts": "2026-05-10T21:03:48Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/files/doc_news/2026/Apr/10/ITW-Schedules-First-Quarter-", "chars": 1603}
+{"ts": "2026-05-10T21:03:49Z", "event": "extract_done", "ticker": "ITW", "url": "https://investor.itw.com/files/doc_news/2026/May/ITW-Declares-Quarterly-Dividend", "chars": 1129}
+{"ts": "2026-05-10T21:03:49Z", "event": "dossier_saved", "ticker": "ITW", "path": "obsidian_vault\\Overnight_2026-05-12\\ITW.md"}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_progress", "i": 26, "n": 50, "ticker": "ITW", "ticker_elapsed_s": 4.7, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_start", "ticker": "JKHY", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:49Z", "event": "snapshot_done", "ticker": "JKHY", "events_count": 0}
+{"ts": "2026-05-10T21:03:49Z", "event": "scrape_done", "ticker": "JKHY", "url": "https://investor.jkhy.com/", "ok": true, "elapsed_s": 0.0705113410949707}
+{"ts": "2026-05-10T21:03:49Z", "event": "parse_done", "ticker": "JKHY", "filings": 0, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T21:03:49Z", "event": "novelty_done", "ticker": "JKHY", "novel_count": 0}
+{"ts": "2026-05-10T21:03:49Z", "event": "dossier_saved", "ticker": "JKHY", "path": "obsidian_vault\\Overnight_2026-05-12\\JKHY.md"}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_progress", "i": 27, "n": 50, "ticker": "JKHY", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_start", "ticker": "LIN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:49Z", "event": "snapshot_done", "ticker": "LIN", "events_count": 0}
+{"ts": "2026-05-10T21:03:49Z", "event": "scrape_done", "ticker": "LIN", "url": "https://investors.linde.com/", "ok": true, "elapsed_s": 0.0675041675567627}
+{"ts": "2026-05-10T21:03:49Z", "event": "parse_done", "ticker": "LIN", "filings": 3, "events": 0, "presentations": 1, "audio_video": 0}
+{"ts": "2026-05-10T21:03:49Z", "event": "novelty_done", "ticker": "LIN", "novel_count": 0}
+{"ts": "2026-05-10T21:03:49Z", "event": "dossier_saved", "ticker": "LIN", "path": "obsidian_vault\\Overnight_2026-05-12\\LIN.md"}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_progress", "i": 28, "n": 50, "ticker": "LIN", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:49Z", "event": "ticker_start", "ticker": "LOW", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:49Z", "event": "snapshot_done", "ticker": "LOW", "events_count": 0}
+{"ts": "2026-05-10T21:03:50Z", "event": "scrape_done", "ticker": "LOW", "url": "https://ir.lowes.com/", "ok": true, "elapsed_s": 0.588151216506958}
+{"ts": "2026-05-10T21:03:50Z", "event": "parse_done", "ticker": "LOW", "filings": 0, "events": 0, "presentations": 4, "audio_video": 0}
+{"ts": "2026-05-10T21:03:50Z", "event": "novelty_done", "ticker": "LOW", "novel_count": 0}
+{"ts": "2026-05-10T21:03:50Z", "event": "dossier_saved", "ticker": "LOW", "path": "obsidian_vault\\Overnight_2026-05-12\\LOW.md"}
+{"ts": "2026-05-10T21:03:50Z", "event": "ticker_progress", "i": 29, "n": 50, "ticker": "LOW", "ticker_elapsed_s": 0.6, "total_elapsed_min": 1.5}
+{"ts": "2026-05-10T21:03:50Z", "event": "ticker_start", "ticker": "MCD", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:50Z", "event": "snapshot_done", "ticker": "MCD", "events_count": 165}
+{"ts": "2026-05-10T21:03:51Z", "event": "scrape_done", "ticker": "MCD", "url": "https://corporate.mcdonalds.com/corpmcd/investors.html", "ok": false, "elapsed_s": 1.1303210258483887}
+{"ts": "2026-05-10T21:03:51Z", "event": "dossier_saved", "ticker": "MCD", "path": "obsidian_vault\\Overnight_2026-05-12\\MCD.md"}
+{"ts": "2026-05-10T21:03:51Z", "event": "ticker_progress", "i": 30, "n": 50, "ticker": "MCD", "ticker_elapsed_s": 1.1, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T21:03:51Z", "event": "ticker_start", "ticker": "MGEE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:51Z", "event": "snapshot_done", "ticker": "MGEE", "events_count": 0}
+{"ts": "2026-05-10T21:03:51Z", "event": "scrape_done", "ticker": "MGEE", "url": "https://www.mgeenergy.com/investor-relations", "ok": true, "elapsed_s": 0.07003068923950195}
+{"ts": "2026-05-10T21:03:51Z", "event": "parse_done", "ticker": "MGEE", "filings": 0, "events": 0, "presentations": 3, "audio_video": 0}
+{"ts": "2026-05-10T21:03:51Z", "event": "novelty_done", "ticker": "MGEE", "novel_count": 0}
+{"ts": "2026-05-10T21:03:51Z", "event": "dossier_saved", "ticker": "MGEE", "path": "obsidian_vault\\Overnight_2026-05-12\\MGEE.md"}
+{"ts": "2026-05-10T21:03:51Z", "event": "ticker_progress", "i": 31, "n": 50, "ticker": "MGEE", "ticker_elapsed_s": 0.1, "total_elapsed_min": 1.6}
+{"ts": "2026-05-10T21:03:51Z", "event": "ticker_start", "ticker": "MO", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:03:51Z", "event": "snapshot_done", "ticker": "MO", "events_count": 0}
+{"ts": "2026-05-10T21:03:51Z", "event": "scrape_done", "ticker": "MO", "url": "https://investor.altria.com/", "ok": true, "elapsed_s": 0.0693364143371582}
+{"ts": "2026-05-10T21:03:51Z", "event": "parse_done", "ticker": "MO", "filings": 44, "events": 0, "presentations": 2, "audio_video": 55}
+{"ts": "2026-05-10T21:03:51Z", "event": "novelty_done", "ticker": "MO", "novel_count": 40}
+{"ts": "2026-05-10T21:03:53Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Reports-2025", "chars": 89460}
+{"ts": "2026-05-10T21:03:54Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-to-Host-Webc", "chars": 3569}
+{"ts": "2026-05-10T21:03:55Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Group-Inc--A", "chars": 8803}
+{"ts": "2026-05-10T21:03:56Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2025/Altria-Declares-Reg", "chars": 2766}
+{"ts": "2026-05-10T21:03:57Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-Reports-2024", "chars": 83814}
+{"ts": "2026-05-10T21:03:58Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T21:03:59Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2024/Altria-Declares-Reg", "chars": 2490}
+{"ts": "2026-05-10T21:04:00Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Declares-Reg", "chars": 2489}
+{"ts": "2026-05-10T21:04:02Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Reports-2023", "chars": 81398}
+{"ts": "2026-05-10T21:04:08Z", "event": "extract_done", "ticker": "MO", "url": "https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presen", "chars": 258873}
+{"ts": "2026-05-10T21:04:09Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Group-Inc.-A", "chars": 5747}
+{"ts": "2026-05-10T21:04:10Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/NJOY-Brings-Sweepin", "chars": 7867}
+{"ts": "2026-05-10T21:04:11Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T21:04:13Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/files/doc_news/2023/california-s-flavor-ban-leads-to", "chars": 4701}
+{"ts": "2026-05-10T21:04:14Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2023/california-s-flavor-ban-lea", "chars": 4701}
+{"ts": "2026-05-10T21:04:15Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Declares-Reg", "chars": 2489}
+{"ts": "2026-05-10T21:04:16Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Announces-El", "chars": 5878}
+{"ts": "2026-05-10T21:04:18Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Reports-2022", "chars": 90959}
+{"ts": "2026-05-10T21:04:21Z", "event": "extract_done", "ticker": "MO", "url": "https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presen", "chars": 80754}
+{"ts": "2026-05-10T21:04:22Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Announces-St", "chars": 13324}
+{"ts": "2026-05-10T21:04:23Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-to-Conduct-a", "chars": 8401}
+{"ts": "2026-05-10T21:04:24Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Abandons-Exp", "chars": 7804}
+{"ts": "2026-05-10T21:04:25Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-Reaches-Agre", "chars": 10286}
+{"ts": "2026-05-10T21:04:26Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2022/Altria-to-Host-Webc", "chars": 3292}
+{"ts": "2026-05-10T21:04:27Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Reports-2021", "chars": 100777}
+{"ts": "2026-05-10T21:04:30Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_financials/2021/q3/Press-Release.pdf", "chars": 88471}
+{"ts": "2026-05-10T21:04:31Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Announces-El", "chars": 6542}
+{"ts": "2026-05-10T21:04:32Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Once-Again-A", "chars": 7192}
+{"ts": "2026-05-10T21:04:33Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-Releases-Its", "chars": 9018}
+{"ts": "2026-05-10T21:04:34Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2021/Altria-to-Host-Webc", "chars": 3414}
+{"ts": "2026-05-10T21:04:36Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Reports-2020", "chars": 96202}
+{"ts": "2026-05-10T21:04:38Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2020/10/20Q3-release.pdf", "chars": 81454}
+{"ts": "2026-05-10T21:04:39Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Dr.-Ellen-R.-Strahl", "chars": 4860}
+{"ts": "2026-05-10T21:04:40Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Declares-Reg", "chars": 2631}
+{"ts": "2026-05-10T21:04:41Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-to-Host-Webc", "chars": 3796}
+{"ts": "2026-05-10T21:04:43Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/files/doc_news/2020/10/Altria-Group-Inc.-Director-Jo", "chars": 2803}
+{"ts": "2026-05-10T21:04:44Z", "event": "extract_done", "ticker": "MO", "url": "https://s204.q4cdn.com/505541855/files/doc_news/2020/10/Altria-Group-Inc.-Direct", "chars": 2803}
+{"ts": "2026-05-10T21:04:45Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Participates", "chars": 18175}
+{"ts": "2026-05-10T21:04:46Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Announces-Co", "chars": 5444}
+{"ts": "2026-05-10T21:04:47Z", "event": "extract_done", "ticker": "MO", "url": "https://investor.altria.com/press-releases/news-details/2020/Altria-Becomes-a-Ce", "chars": 7656}
+{"ts": "2026-05-10T21:04:47Z", "event": "dossier_saved", "ticker": "MO", "path": "obsidian_vault\\Overnight_2026-05-12\\MO.md"}
+{"ts": "2026-05-10T21:04:47Z", "event": "ticker_progress", "i": 32, "n": 50, "ticker": "MO", "ticker_elapsed_s": 55.7, "total_elapsed_min": 2.5}
+{"ts": "2026-05-10T21:04:47Z", "event": "ticker_start", "ticker": "MSA", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:04:47Z", "event": "snapshot_done", "ticker": "MSA", "events_count": 0}
+{"ts": "2026-05-10T21:04:47Z", "event": "scrape_done", "ticker": "MSA", "url": "https://www.msasafety.com/investors", "ok": true, "elapsed_s": 0.07033610343933105}
+{"ts": "2026-05-10T21:04:47Z", "event": "parse_done", "ticker": "MSA", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:04:47Z", "event": "novelty_done", "ticker": "MSA", "novel_count": 0}
+{"ts": "2026-05-10T21:04:47Z", "event": "dossier_saved", "ticker": "MSA", "path": "obsidian_vault\\Overnight_2026-05-12\\MSA.md"}
+{"ts": "2026-05-10T21:04:47Z", "event": "ticker_progress", "i": 33, "n": 50, "ticker": "MSA", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.5}
+{"ts": "2026-05-10T21:04:47Z", "event": "ticker_start", "ticker": "MSFT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:04:47Z", "event": "snapshot_done", "ticker": "MSFT", "events_count": 98}
+{"ts": "2026-05-10T21:04:47Z", "event": "scrape_done", "ticker": "MSFT", "url": "https://www.microsoft.com/en-us/investor", "ok": true, "elapsed_s": 0.06609725952148438}
+{"ts": "2026-05-10T21:04:47Z", "event": "parse_done", "ticker": "MSFT", "filings": 2, "events": 0, "presentations": 1, "audio_video": 1}
+{"ts": "2026-05-10T21:04:47Z", "event": "novelty_done", "ticker": "MSFT", "novel_count": 2}
+{"ts": "2026-05-10T21:04:48Z", "event": "extract_done", "ticker": "MSFT", "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webca", "chars": 40319}
+{"ts": "2026-05-10T21:04:49Z", "event": "extract_done", "ticker": "MSFT", "url": "https://www.microsoft.com/content/dam/microsoft/invst/general/images/icons/filei", "chars": 947}
+{"ts": "2026-05-10T21:04:49Z", "event": "dossier_saved", "ticker": "MSFT", "path": "obsidian_vault\\Overnight_2026-05-12\\MSFT.md"}
+{"ts": "2026-05-10T21:04:49Z", "event": "ticker_progress", "i": 34, "n": 50, "ticker": "MSFT", "ticker_elapsed_s": 2.3, "total_elapsed_min": 2.5}
+{"ts": "2026-05-10T21:04:49Z", "event": "ticker_start", "ticker": "NDSN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:04:49Z", "event": "snapshot_done", "ticker": "NDSN", "events_count": 0}
+{"ts": "2026-05-10T21:04:49Z", "event": "scrape_done", "ticker": "NDSN", "url": "https://investors.nordson.com/", "ok": true, "elapsed_s": 0.07066774368286133}
+{"ts": "2026-05-10T21:04:49Z", "event": "parse_done", "ticker": "NDSN", "filings": 3, "events": 0, "presentations": 4, "audio_video": 7}
+{"ts": "2026-05-10T21:04:49Z", "event": "novelty_done", "ticker": "NDSN", "novel_count": 3}
+{"ts": "2026-05-10T21:04:50Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Announc", "chars": 11403}
+{"ts": "2026-05-10T21:04:51Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Reports", "chars": 30482}
+{"ts": "2026-05-10T21:04:52Z", "event": "extract_done", "ticker": "NDSN", "url": "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Declare", "chars": 10708}
+{"ts": "2026-05-10T21:04:52Z", "event": "dossier_saved", "ticker": "NDSN", "path": "obsidian_vault\\Overnight_2026-05-12\\NDSN.md"}
+{"ts": "2026-05-10T21:04:52Z", "event": "ticker_progress", "i": 35, "n": 50, "ticker": "NDSN", "ticker_elapsed_s": 3.2, "total_elapsed_min": 2.6}
+{"ts": "2026-05-10T21:04:52Z", "event": "ticker_start", "ticker": "NEE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:04:52Z", "event": "snapshot_done", "ticker": "NEE", "events_count": 0}
+{"ts": "2026-05-10T21:04:53Z", "event": "scrape_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/", "ok": true, "elapsed_s": 0.0685892105102539}
+{"ts": "2026-05-10T21:04:53Z", "event": "parse_done", "ticker": "NEE", "filings": 4, "events": 0, "presentations": 3, "audio_video": 1}
+{"ts": "2026-05-10T21:04:53Z", "event": "novelty_done", "ticker": "NEE", "novel_count": 4}
+{"ts": "2026-05-10T21:04:54Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/events-and-presentations/2026", "chars": 6243}
+{"ts": "2026-05-10T21:04:56Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/news-releases/2026/05-04-2026", "chars": 19343}
+{"ts": "2026-05-10T21:04:57Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/events-and-presentations/2026", "chars": 6278}
+{"ts": "2026-05-10T21:04:59Z", "event": "extract_done", "ticker": "NEE", "url": "https://investor.nexteraenergy.com/news-and-events/news-releases/2026/04-23-2026", "chars": 9145}
+{"ts": "2026-05-10T21:04:59Z", "event": "dossier_saved", "ticker": "NEE", "path": "obsidian_vault\\Overnight_2026-05-12\\NEE.md"}
+{"ts": "2026-05-10T21:04:59Z", "event": "ticker_progress", "i": 36, "n": 50, "ticker": "NEE", "ticker_elapsed_s": 6.1, "total_elapsed_min": 2.7}
+{"ts": "2026-05-10T21:04:59Z", "event": "ticker_start", "ticker": "NFG", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:04:59Z", "event": "snapshot_done", "ticker": "NFG", "events_count": 0}
+{"ts": "2026-05-10T21:04:59Z", "event": "scrape_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/", "ok": true, "elapsed_s": 0.06960248947143555}
+{"ts": "2026-05-10T21:04:59Z", "event": "parse_done", "ticker": "NFG", "filings": 3, "events": 0, "presentations": 5, "audio_video": 0}
+{"ts": "2026-05-10T21:04:59Z", "event": "novelty_done", "ticker": "NFG", "novel_count": 3}
+{"ts": "2026-05-10T21:05:00Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 127135}
+{"ts": "2026-05-10T21:05:01Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 28609}
+{"ts": "2026-05-10T21:05:02Z", "event": "extract_done", "ticker": "NFG", "url": "https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releas", "chars": 28773}
+{"ts": "2026-05-10T21:05:02Z", "event": "dossier_saved", "ticker": "NFG", "path": "obsidian_vault\\Overnight_2026-05-12\\NFG.md"}
+{"ts": "2026-05-10T21:05:02Z", "event": "ticker_progress", "i": 37, "n": 50, "ticker": "NFG", "ticker_elapsed_s": 3.6, "total_elapsed_min": 2.7}
+{"ts": "2026-05-10T21:05:02Z", "event": "ticker_start", "ticker": "NUE", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:02Z", "event": "snapshot_done", "ticker": "NUE", "events_count": 0}
+{"ts": "2026-05-10T21:05:02Z", "event": "scrape_done", "ticker": "NUE", "url": "https://investors.nucor.com/", "ok": true, "elapsed_s": 0.07037663459777832}
+{"ts": "2026-05-10T21:05:02Z", "event": "parse_done", "ticker": "NUE", "filings": 9, "events": 0, "presentations": 2, "audio_video": 3}
+{"ts": "2026-05-10T21:05:02Z", "event": "novelty_done", "ticker": "NUE", "novel_count": 9}
+{"ts": "2026-05-10T21:05:03Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2026/N", "chars": 6637}
+{"ts": "2026-05-10T21:05:04Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/default.aspx", "chars": 6181}
+{"ts": "2026-05-10T21:05:05Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the", "chars": 35609}
+{"ts": "2026-05-10T21:05:08Z", "event": "extract_done", "ticker": "NUE", "url": "https://s202.q4cdn.com/531038915/files/doc_financials/2026/q1/v2/Q1-2026-Earning", "chars": 28311}
+{"ts": "2026-05-10T21:05:09Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2026/N", "chars": 6643}
+{"ts": "2026-05-10T21:05:10Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Announces-Guidance-for-", "chars": 14897}
+{"ts": "2026-05-10T21:05:11Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Invites-You-to-Join-Its", "chars": 9123}
+{"ts": "2026-05-10T21:05:12Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Executive-Vice-Presiden", "chars": 8736}
+{"ts": "2026-05-10T21:05:12Z", "event": "extract_done", "ticker": "NUE", "url": "https://investors.nucor.com/events-and-presentations/events/event-details/2025/N", "chars": 6651}
+{"ts": "2026-05-10T21:05:12Z", "event": "dossier_saved", "ticker": "NUE", "path": "obsidian_vault\\Overnight_2026-05-12\\NUE.md"}
+{"ts": "2026-05-10T21:05:12Z", "event": "ticker_progress", "i": 38, "n": 50, "ticker": "NUE", "ticker_elapsed_s": 10.4, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:12Z", "event": "ticker_start", "ticker": "NWN", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:12Z", "event": "snapshot_done", "ticker": "NWN", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "NWN", "url": "https://investor.northwestnatural.com/", "ok": true, "elapsed_s": 0.07031750679016113}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "NWN", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "NWN", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "NWN", "path": "obsidian_vault\\Overnight_2026-05-12\\NWN.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 39, "n": 50, "ticker": "NWN", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "PEP", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "PEP", "events_count": 211}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "PEP", "url": "https://investor.pepsico.com/", "ok": true, "elapsed_s": 0.06657576560974121}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "PEP", "filings": 0, "events": 0, "presentations": 4, "audio_video": 7}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "PEP", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "PEP", "path": "obsidian_vault\\Overnight_2026-05-12\\PEP.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 40, "n": 50, "ticker": "PEP", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "PPG", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "PPG", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "PPG", "url": "https://investor.ppg.com/", "ok": true, "elapsed_s": 0.06559038162231445}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "PPG", "filings": 5, "events": 0, "presentations": 6, "audio_video": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "PPG", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "PPG", "path": "obsidian_vault\\Overnight_2026-05-12\\PPG.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 41, "n": 50, "ticker": "PPG", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "RLI", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "RLI", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "RLI", "url": "https://investors.rlicorp.com/", "ok": true, "elapsed_s": 0.06616592407226562}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "RLI", "filings": 5, "events": 0, "presentations": 1, "audio_video": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "RLI", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "RLI", "path": "obsidian_vault\\Overnight_2026-05-12\\RLI.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 42, "n": 50, "ticker": "RLI", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "RPM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "RPM", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "RPM", "url": "https://investor.rpm.com/", "ok": true, "elapsed_s": 0.0649411678314209}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "RPM", "filings": 0, "events": 0, "presentations": 0, "audio_video": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "RPM", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "RPM", "path": "obsidian_vault\\Overnight_2026-05-12\\RPM.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 43, "n": 50, "ticker": "RPM", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "SJM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "SJM", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "SJM", "url": "https://investors.jmsmucker.com/", "ok": true, "elapsed_s": 0.0663747787475586}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "SJM", "filings": 3, "events": 0, "presentations": 6, "audio_video": 2}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "SJM", "novel_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "dossier_saved", "ticker": "SJM", "path": "obsidian_vault\\Overnight_2026-05-12\\SJM.md"}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_progress", "i": 44, "n": 50, "ticker": "SJM", "ticker_elapsed_s": 0.1, "total_elapsed_min": 2.9}
+{"ts": "2026-05-10T21:05:13Z", "event": "ticker_start", "ticker": "SPGI", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "snapshot_done", "ticker": "SPGI", "events_count": 0}
+{"ts": "2026-05-10T21:05:13Z", "event": "scrape_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/", "ok": true, "elapsed_s": 0.06624650955200195}
+{"ts": "2026-05-10T21:05:13Z", "event": "parse_done", "ticker": "SPGI", "filings": 4, "events": 0, "presentations": 14, "audio_video": 1}
+{"ts": "2026-05-10T21:05:13Z", "event": "novelty_done", "ticker": "SPGI", "novel_count": 3}
+{"ts": "2026-05-10T21:05:14Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/news-releases/news-details/2026/SP-Global-Announce", "chars": 20406}
+{"ts": "2026-05-10T21:05:15Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/news-releases/news-details/2026/SP-Global-Announce", "chars": 28424}
+{"ts": "2026-05-10T21:05:16Z", "event": "extract_done", "ticker": "SPGI", "url": "https://investor.spglobal.com/investor-presentations/event-details/2026/Earnings", "chars": 9778}
+{"ts": "2026-05-10T21:05:16Z", "event": "dossier_saved", "ticker": "SPGI", "path": "obsidian_vault\\Overnight_2026-05-12\\SPGI.md"}
+{"ts": "2026-05-10T21:05:16Z", "event": "ticker_progress", "i": 45, "n": 50, "ticker": "SPGI", "ticker_elapsed_s": 3.2, "total_elapsed_min": 3.0}
+{"ts": "2026-05-10T21:05:16Z", "event": "ticker_start", "ticker": "SYY", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:16Z", "event": "snapshot_done", "ticker": "SYY", "events_count": 0}
+{"ts": "2026-05-10T21:05:47Z", "event": "scrape_done", "ticker": "SYY", "url": "https://investors.sysco.com/", "ok": false, "elapsed_s": 30.531779527664185}
+{"ts": "2026-05-10T21:05:47Z", "event": "dossier_saved", "ticker": "SYY", "path": "obsidian_vault\\Overnight_2026-05-12\\SYY.md"}
+{"ts": "2026-05-10T21:05:47Z", "event": "ticker_progress", "i": 46, "n": 50, "ticker": "SYY", "ticker_elapsed_s": 30.5, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T21:05:47Z", "event": "ticker_start", "ticker": "TGT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:47Z", "event": "snapshot_done", "ticker": "TGT", "events_count": 0}
+{"ts": "2026-05-10T21:05:47Z", "event": "scrape_done", "ticker": "TGT", "url": "https://investors.target.com/", "ok": true, "elapsed_s": 0.07090234756469727}
+{"ts": "2026-05-10T21:05:47Z", "event": "parse_done", "ticker": "TGT", "filings": 5, "events": 0, "presentations": 0, "audio_video": 1}
+{"ts": "2026-05-10T21:05:47Z", "event": "novelty_done", "ticker": "TGT", "novel_count": 1}
+{"ts": "2026-05-10T21:05:48Z", "event": "extract_done", "ticker": "TGT", "url": "https://investors.target.com/press/release/2026/03/target-outlines-strategic-pla", "chars": 20339}
+{"ts": "2026-05-10T21:05:48Z", "event": "dossier_saved", "ticker": "TGT", "path": "obsidian_vault\\Overnight_2026-05-12\\TGT.md"}
+{"ts": "2026-05-10T21:05:48Z", "event": "ticker_progress", "i": 47, "n": 50, "ticker": "TGT", "ticker_elapsed_s": 1.5, "total_elapsed_min": 3.5}
+{"ts": "2026-05-10T21:05:48Z", "event": "ticker_start", "ticker": "V", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:48Z", "event": "snapshot_done", "ticker": "V", "events_count": 228}
+{"ts": "2026-05-10T21:05:48Z", "event": "scrape_done", "ticker": "V", "url": "https://investor.visa.com/", "ok": true, "elapsed_s": 0.07014203071594238}
+{"ts": "2026-05-10T21:05:48Z", "event": "parse_done", "ticker": "V", "filings": 4, "events": 0, "presentations": 2, "audio_video": 1}
+{"ts": "2026-05-10T21:05:48Z", "event": "novelty_done", "ticker": "V", "novel_count": 3}
+{"ts": "2026-05-10T21:05:50Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2026/Q1-2026-Visa-Earnin", "chars": 3849}
+{"ts": "2026-05-10T21:05:50Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2026/Q2-2026-Visa-Earnin", "chars": 3848}
+{"ts": "2026-05-10T21:05:51Z", "event": "extract_done", "ticker": "V", "url": "https://investor.visa.com/events-calendar/Event-Details/2025/Q4-and-Full-Year-20", "chars": 3864}
+{"ts": "2026-05-10T21:05:51Z", "event": "dossier_saved", "ticker": "V", "path": "obsidian_vault\\Overnight_2026-05-12\\V.md"}
+{"ts": "2026-05-10T21:05:51Z", "event": "ticker_progress", "i": 48, "n": 50, "ticker": "V", "ticker_elapsed_s": 3.0, "total_elapsed_min": 3.6}
+{"ts": "2026-05-10T21:05:51Z", "event": "ticker_start", "ticker": "WMT", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:51Z", "event": "snapshot_done", "ticker": "WMT", "events_count": 0}
+{"ts": "2026-05-10T21:05:51Z", "event": "scrape_done", "ticker": "WMT", "url": "https://stock.walmart.com/", "ok": true, "elapsed_s": 0.06944084167480469}
+{"ts": "2026-05-10T21:05:51Z", "event": "parse_done", "ticker": "WMT", "filings": 1, "events": 0, "presentations": 7, "audio_video": 0}
+{"ts": "2026-05-10T21:05:51Z", "event": "novelty_done", "ticker": "WMT", "novel_count": 0}
+{"ts": "2026-05-10T21:05:51Z", "event": "dossier_saved", "ticker": "WMT", "path": "obsidian_vault\\Overnight_2026-05-12\\WMT.md"}
+{"ts": "2026-05-10T21:05:51Z", "event": "ticker_progress", "i": 49, "n": 50, "ticker": "WMT", "ticker_elapsed_s": 0.1, "total_elapsed_min": 3.6}
+{"ts": "2026-05-10T21:05:51Z", "event": "ticker_start", "ticker": "XOM", "market": "us", "urls_count": 1}
+{"ts": "2026-05-10T21:05:51Z", "event": "snapshot_done", "ticker": "XOM", "events_count": 0}
+{"ts": "2026-05-10T21:05:51Z", "event": "scrape_done", "ticker": "XOM", "url": "https://investor.exxonmobil.com/", "ok": true, "elapsed_s": 0.06862711906433105}
+{"ts": "2026-05-10T21:05:51Z", "event": "parse_done", "ticker": "XOM", "filings": 3, "events": 0, "presentations": 7, "audio_video": 2}
+{"ts": "2026-05-10T21:05:51Z", "event": "novelty_done", "ticker": "XOM", "novel_count": 0}
+{"ts": "2026-05-10T21:05:51Z", "event": "dossier_saved", "ticker": "XOM", "path": "obsidian_vault\\Overnight_2026-05-12\\XOM.md"}
+{"ts": "2026-05-10T21:05:51Z", "event": "ticker_progress", "i": 50, "n": 50, "ticker": "XOM", "ticker_elapsed_s": 0.1, "total_elapsed_min": 3.6}
+{"ts": "2026-05-10T21:05:51Z", "event": "run_done", "master": "obsidian_vault\\Overnight_2026-05-12\\_MASTER.md", "results": 50, "ok": 50, "total_elapsed_min": 3.6}

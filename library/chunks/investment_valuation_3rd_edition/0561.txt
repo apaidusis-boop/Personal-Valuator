@@ -1,0 +1,33 @@
+eturn). Consequently, its price–book value ratio declined from 7.89 to 1.25. 
+Figure 19.2
+ shows the
+price–book value ratio as a function of the difference between the return on equity and the cost of
+
+equity. Note that when the return on equity is equal to the cost of equity, the price is equal to the book
+value.
+Figure 19.2
+ Price–Book Value as a Function of Return Differential
+Determinants of Return on Equity
+The difference between return on equity and the cost of equity is a measure of a firm's capacity to
+earn excess returns in the business in which it operates. Corporate strategists have examined the
+determinants of the size and expected duration of these excess profits (and high ROE) using a variety
+of frameworks. One of the better known is the “five forces of competition” framework developed by
+Porter (1980). In his approach, competition arises not only from established producers producing the
+same product but also from suppliers of substitutes and from potential new entrants into the market.
+Figure 19.3
+ summarizes the five forces of competition.
+Figure 19.3
+ Five Forces of Competition and Return on Equity
+Source:
+ Porter (1980).
+
+In Porter's framework, a firm is able to maintain a high return on equity because there are
+significant barriers to entry by new firms or because the firm has significant advantages over its
+competition. The analysis of the return on equity of a firm can be made richer and much more
+informative by examining the competitive environment in which it operates. There may also be clues
+in this analysis to the future direction of the return on equity. Value investors have their own variant
+on this theme that they call the “moat.” A firm with strong and sustainable competitive advantages is
+considered to have a strong moat, which in turn makes it more valuable. In the framework developed
+in this chapter, the strength of the moat is measured by the level of the ROE and how long it can be
+maintained.
+eqmult.xls:

@@ -1,0 +1,71 @@
+{
+  "ticker": "PVBI11",
+  "market": "br",
+  "date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "fundamentals": {
+    "ticker": "PVBI11",
+    "period_end": "2026-04-30",
+    "eps": 9.38,
+    "bvps": null,
+    "roe": null,
+    "pe": 8.102345,
+    "pb": null,
+    "dy": 0.0618421052631579,
+    "net_debt_ebitda": null,
+    "dividend_streak_years": 7,
+    "is_aristocrat": null,
+    "fetched_at": null,
+    "dividend_streak_source": null,
+    "pe_forward": null,
+    "ev_ebitda": null,
+    "market_cap": 2061885184.0,
+    "fcf_ttm": null,
+    "shares_outstanding": null,
+    "next_ex_date": null,
+    "next_earnings_date": null,
+    "market_cap_usd": null,
+    "current_ratio": null,
+    "ltd": null,
+    "working_capital": null,
+    "beta_levered": null,
+    "peg_ratio": null
+  },
+  "quality_scores": {},
+  "philosophy": {
+    "primary": "Growth (5/12)",
+    "secondary": "Dividend/DRIP (5/12)",
+    "value": 2,
+    "growth": 5,
+    "dividend": 5,
+    "buffett": 0,
+    "macro_exposure": 0,
+    "macro_dependency": 0
+  },
+  "dcf": {
+    "base_value": 38.643346081773075,
+    "pessimistic_value": 33.125554708781856,
+    "optimistic_value": 45.32019244557788,
+    "margin_of_safety_pct": -0.4915349199766701,
+    "current_price": 76.0
+  },
+  "council_stance": "BUY",
+  "council_confidence": "high",
+  "council_seats": [
+    "Lourdes Aluguel",
+    "Mariana Macro",
+    "Valentina Prudente",
+    "Pedro Alocação"
+  ],
+  "pre_publication_flags": [
+    "Peso atual em carteira (4.6%) acima do inicial (3-7%) - Pedro Alocação",
+    "Dependência do mercado imobiliário brasileiro - Lourdes Aluguel, Mariana Macro, Valentina Prudente"
+  ],
+  "consensus_points": [
+    "Dividendos consistentes e P/E baixo sugerem valorização; sete anos consecutivos de pagamentos - Lourdes Aluguel, Mariana Macro, Valentina Prudente",
+    "Market cap de US$426M oferece base sólida - Pedro Alocação"
+  ],
+  "dissent_points": [],
+  "evidence_count": 21,
+  "research_hits_total": 28
+}

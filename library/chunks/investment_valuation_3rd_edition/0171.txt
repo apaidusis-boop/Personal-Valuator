@@ -1,0 +1,49 @@
+is a second condition that riskless securities need to fulfill that is often forgotten. For an
+investment to have an actual return equal to its expected return, 
+there can be no reinvestment risk.
+ To
+
+illustrate this point, assume that you are trying to estimate the expected return over a five-year period
+and that you want a risk-free rate. A six-month Treasury bill rate, while default free, will not be risk
+free, because there is the reinvestment risk of not knowing what the Treasury bill rate will be in six
+months. Even a five-year Treasury bond is not risk free, since the coupons on the bond will be
+reinvested at rates that cannot be predicted today. The risk-free rate for a five-year time horizon has
+to be the expected return on a default-free (government) five-year zero coupon bond. This clearly has
+painful implications for anyone doing corporate finance or valuation, where expected returns often
+have to be estimated for periods ranging from 1 to 10 years. A purist’s view of risk-free rates would
+then require different risk-free rates for each period, and different expected returns.
+As a practical compromise, however, it is worth noting that the present value effect of using year-
+specific risk-free rates tends to be small for most well-behaved term structures.
+1
+ In these cases, we
+could use a duration matching strategy, where the duration of the default-free security used as the risk-
+free asset is matched up to the duration
+2
+ of the cash flows in the analysis. If, however, there are very
+large differences, in either direction, between short-term and long-term rates, it does pay to stick with
+year-specific risk-free rates in computing expected returns.
+Practical Implications When a Default-Free Entity Exists
+In most developed markets, where the government can be viewed as a default-free entity, at least
+when it comes to borrowing in the local currency, the implications are simple. When doing
+investment analysis on longer-term projects or valuations, the risk-free rate should be the long-term
+government bond rate. If the analysis is shorter-term, the short-term government security rate can be
+used as the risk-free rate. The choice of a risk-free rate also has implications for how risk premiums
+are estimated. If, as is often the case, historical risk premiums are used, where the excess return
+earned by stocks over and above a government security rate over a past period is used as the risk
+premium, the government security chosen has to be the same one as that used for the risk-free rate.
+Thus, the historical risk premium used in the United States should be the excess return earned by
+stocks over Treasury bonds, and not Treasury bills, for purposes of long-term analysis.
+Cash Flows and Risk-Free Rates: The Consistency Principle
+The risk-free rate used to come up with expected returns should be measured consistently with how
+the cash flows are measured. Thus, if cash flows are estimated in nominal U.S. dollar terms, the risk-
+free rate will be the U.S. Treasury bond rate. This also implies that it is not where a firm is domiciled
+that determines the choice of a risk-free rate, but the currency in which the cash flows on the firm are
+estimated. Thus, Nestlé can be valued using cash flows estimated in Swiss francs, discounted back at
+an expected return estimated using a Swiss long-term government bond rate as the riskfree rate, or it
+can be valued in British pounds, with both the cash flows and the risk-free rate being in British
+pounds. Given that the same firm can be valued in different currencies, will the final results always
+be consistent? If we assume purchasing power parity, then differences in interest rates reflect
+differences in expected inflation. Both the cash flows and the discount rate are affected by expected
+inflation; thus, a low discount rate arising from a low risk-free rate will be exactly offset by a decline
+in expected nominal growth rates for cash flows, and the value will remain unchanged.
+If the difference in interest rates across two currencies does not adequately reflect the difference in

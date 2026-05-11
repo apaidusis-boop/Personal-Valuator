@@ -1,0 +1,39 @@
+ng this price to the present at 8% (the cost of equity for the high growth 
+period) and adding the present value of
+expected dividends during the high growth period yields a value per share of $79.00.
+
+The stock was trading at $68 in May 2011, making it fairly valued.
+DDM2st.xls:
+
+This spreadsheet allows you to value a growth firm, with an initial period of high growth and
+stable growth thereafter, using expected dividends.
+A TROUBLESHOOTING GUIDE: WHAT IS WRONG
+WITH THIS VALUATION? (TWO-STAGE DDM)
+If This Is Your Problem
+This May Be the Solution
+If you get an extremely low value 
+from the two-stage
+DDM, 
+the likely culprits are:
+The stable period payout ratio is too low for a stable firm (< 40%).
+If using fundamentals, use a higher ROE. 
+If entering directly, enter a higher payout.
+The beta in the stable period is too high for a stable firm.
+Use a beta closer to 1.
+The two-stage model is being used when the three-stage model is more
+appropriate.
+Use a three-stage model.
+If you get an extremely high value:
+The growth rate in the stable growth period is too high for a stable firm.
+Use a growth rate less than the risk-free rate, and make sure that your retention
+ratio is consistently estimated.
+Modifying the Model to Include Stock Buybacks
+In recent years, firms in the United States have increasingly turned to stock buybacks as a way of
+returning cash to stockholders. 
+Figure 13.3
+ presents the cumulative amounts paid out by firms in the
+form of dividends and stock buybacks from 1988 to 2010. The trend toward stock buybacks was very
+strong, especially in the 1990s. Even the banking crisis of 2008 created only a momentary blip in
+buybacks in 2009, before they returned in force in 2010.
+Figure 13.3
+ Stock Buybacks and Dividends: Aggregate for U.S. Firms—1989 to 2010

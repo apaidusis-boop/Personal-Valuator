@@ -1,0 +1,66 @@
+rage?
+Step 3: Define decision points.
+ Embedded in the decision tree will be decision points where you
+will get to determine what your best course of action will be, based on observing the outcomes at
+
+earlier stages, and expectations of what will occur in the future. With the test market example, for
+instance, you will get to determine, at the end of the test market whether you want to conduct a second
+test market, abandon the product or move directly to a national product introduction.
+Step 4: Compute cash flows/value at end nodes.
+ The next step in the decision tree process is
+estimating what the final cash flow and value outcomes will be at each end node. In some cases, such
+as abandonment of a test market product, this will be easy to do and will represent the money spent on
+the test marketing of the product. In other cases, such as a national launch of the same product, this
+will be more difficult to do since you will have to estimate expected cash flows over the life of the
+product and discount these cash flows to arrive at value.
+Step 5: Folding back the tree.
+ The last step in a decision tree analysis is termed folding back the
+tree, where the expected values are computed working backward through the tree. If the node is a
+chance node, the expected value is computed as the probability-weighted average of all of the
+possible outcomes. If it is a decision node, the expected value is computed for each branch, and the
+highest value is chosen (as the optimal decision). The process culminates in an expected value for the
+asset or investment today.
+1
+There are two key pieces of output that emerge from a decision tree. The first is the expected value
+today of going through the entire decision tree. This expected value will incorporate the potential
+upside and downside from risk and the actions that you will take along the way in response to this
+risk. In effect, this is analogous to the risk-adjusted value that we talked about in the last chapter. The
+second is the range of values at the end nodes, which should encapsulate the potential risk in the
+investment.
+ILLUSTRATION 33.3: 
+Decision Tree Valuation—Valuing a
+Young Pharmaceutical Company
+To illustrate the steps involved in developing a decision tree, let us value a small biotechnology company, with only one
+product: a pharmaceutical drug for treating type 1 diabetes, that has gone through preclinical testing and is about to enter
+phase 1 of the FDA approval process.
+2
+ Assume that you are provided with the additional information on each of the three
+phases:
+1.
+ Phase 1 is expected to cost $50 million and will involve 100 volunteers to determine safety and dosage; it is expected to
+last one year. There is a 70% chance that the drug will successfully complete the first phase.
+2.
+ In phase 2, the drug will be tested on 250 volunteers for effectiveness in treating diabetes over a two-year period. This
+phase will cost $100 million, and the drug will have to show a statistically significant impact on the disease to move on to
+the next phase. There is a 30% chance that the drug will prove successful in treating type 1 diabetes but there is a 10%
+chance that it will be successful in treating both type 1 and type 2 diabetes and a 10% chance that it will succeed only in
+treating type 2 diabetes.
+3.
+ In phase 3, the testing will expand to 4,000 volunteers to determine the long-term consequences of taking the drug. If
+the drug is tested on only either type 1 or type 2 diabetes patients, this phase will last four years and cost $250 million;
+there is an 80% chance of success. If it is tested on both types, the phase will last four years and cost $300 million; there
+is a 75% chance of success.
+If the drug passes through all three phases, the costs of developing the drug and the annual cash flows are provided as
+follows:
+Disease Treatment
+Cost of Development
+Annual Cash Flow
+Type 1 diabetes only
+$500 million
+$300 million for 15 years
+Type 2 diabetes only
+$500 million
+$125 million for 15 years
+Type 1 and 2 diabetes
+$600 million
+$400 million for 15 years

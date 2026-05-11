@@ -1,0 +1,1556 @@
+{
+  "br": {
+    "BBDC4": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2578,
+      "divs_total": 152,
+      "fund_total": 17,
+      "events_total": 15,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "BTLG11": {
+      "is_holding": true,
+      "kind": "fiis",
+      "prices_total": 2578,
+      "divs_total": 51,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "ITSA4": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2579,
+      "divs_total": 85,
+      "fund_total": 17,
+      "events_total": 7,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "IVVB11": {
+      "is_holding": true,
+      "kind": "etfs",
+      "prices_total": 2552,
+      "divs_total": 0,
+      "fund_total": 2,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "LFTB11": {
+      "is_holding": true,
+      "kind": "etfs",
+      "prices_total": 6,
+      "divs_total": 0,
+      "fund_total": 2,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "PRIO3": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2578,
+      "divs_total": 1,
+      "fund_total": 17,
+      "events_total": 33,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PVBI11": {
+      "is_holding": true,
+      "kind": "fiis",
+      "prices_total": 1438,
+      "divs_total": 66,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "RBRX11": {
+      "is_holding": true,
+      "kind": "fiis",
+      "prices_total": 916,
+      "divs_total": 43,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "VALE3": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2578,
+      "divs_total": 22,
+      "fund_total": 17,
+      "events_total": 42,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "VGIR11": {
+      "is_holding": true,
+      "kind": "fiis",
+      "prices_total": 1931,
+      "divs_total": 48,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "XPML11": {
+      "is_holding": true,
+      "kind": "fiis",
+      "prices_total": 1473,
+      "divs_total": 50,
+      "fund_total": 16,
+      "events_total": 1,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "ALOS3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 1680,
+      "divs_total": 23,
+      "fund_total": 17,
+      "events_total": 11,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "AXIA7": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 91,
+      "divs_total": 0,
+      "fund_total": 17,
+      "events_total": 33,
+      "has_deep": true,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "B3SA3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 46,
+      "fund_total": 17,
+      "events_total": 13,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "BRCO11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1596,
+      "divs_total": 51,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "CPLE3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 20,
+      "fund_total": 16,
+      "events_total": 13,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "ENGI11": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 22,
+      "fund_total": 17,
+      "events_total": 21,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "EQTL3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 15,
+      "fund_total": 17,
+      "events_total": 24,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "GARE11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 544,
+      "divs_total": 25,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "HGLG11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 2577,
+      "divs_total": 52,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "HGRU11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1931,
+      "divs_total": 49,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "ITUB4": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 164,
+      "fund_total": 17,
+      "events_total": 7,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "KNCR11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 2577,
+      "divs_total": 52,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "KNHF11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 675,
+      "divs_total": 31,
+      "fund_total": 3,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "KNRI11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 2577,
+      "divs_total": 52,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "MCCI11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1593,
+      "divs_total": 49,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "MCRE11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1102,
+      "divs_total": 57,
+      "fund_total": 11,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MOTV3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 261,
+      "divs_total": 4,
+      "fund_total": 17,
+      "events_total": 15,
+      "has_deep": true,
+      "overall": "\ud83d\udd34 NO_PRICES"
+    },
+    "MULT3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 29,
+      "fund_total": 17,
+      "events_total": 13,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PETR4": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 32,
+      "fund_total": 17,
+      "events_total": 49,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PGMN3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 1411,
+      "divs_total": 4,
+      "fund_total": 17,
+      "events_total": 9,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "PLPL3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 1401,
+      "divs_total": 6,
+      "fund_total": 17,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "PMLL11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1838,
+      "divs_total": 48,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "POMO3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 25,
+      "fund_total": 8,
+      "events_total": 7,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "POMO4": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 25,
+      "fund_total": 8,
+      "events_total": 7,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "RAPT4": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 19,
+      "fund_total": 17,
+      "events_total": 7,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "RBRY11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1733,
+      "divs_total": 49,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "RDOR3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 1342,
+      "divs_total": 20,
+      "fund_total": 17,
+      "events_total": 5,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "RECR11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1224,
+      "divs_total": 46,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "RENT3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 46,
+      "fund_total": 17,
+      "events_total": 14,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "SUZB3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2577,
+      "divs_total": 11,
+      "fund_total": 17,
+      "events_total": 11,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "TRXF11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1565,
+      "divs_total": 49,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "TTEN3": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 1199,
+      "divs_total": 5,
+      "fund_total": 17,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "VGIP11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1526,
+      "divs_total": 47,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "VISC11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 2117,
+      "divs_total": 50,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "VRTA11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 2577,
+      "divs_total": 51,
+      "fund_total": 15,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "XPLG11": {
+      "is_holding": false,
+      "kind": "fiis",
+      "prices_total": 1475,
+      "divs_total": 48,
+      "fund_total": 16,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    }
+  },
+  "us": {
+    "AAPL": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 149,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "ACN": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 32,
+      "fund_total": 18,
+      "events_total": 44,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "BLK": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 41,
+      "fund_total": 18,
+      "events_total": 15,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "BN": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 343,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "BRK-B": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 0,
+      "fund_total": 18,
+      "events_total": 124,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "GREK": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 16,
+      "fund_total": 18,
+      "events_total": 0,
+      "has_deep": false,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "GS": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 20,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "HD": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 41,
+      "fund_total": 18,
+      "events_total": 140,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "JNJ": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 142,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "JPM": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 28,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "KO": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 154,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "NU": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 1108,
+      "divs_total": 0,
+      "fund_total": 19,
+      "events_total": 152,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "O": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 124,
+      "fund_total": 18,
+      "events_total": 256,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PG": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 111,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PLD": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 18,
+      "events_total": 158,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PLTR": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 1409,
+      "divs_total": 0,
+      "fund_total": 19,
+      "events_total": 72,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "TEN": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 24,
+      "fund_total": 18,
+      "events_total": 86,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "TFC": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 43,
+      "fund_total": 18,
+      "events_total": 117,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "TSLA": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 0,
+      "fund_total": 18,
+      "events_total": 168,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "TSM": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 32,
+      "fund_total": 18,
+      "events_total": 547,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "TTD": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 2421,
+      "divs_total": 0,
+      "fund_total": 18,
+      "events_total": 134,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "XP": {
+      "is_holding": true,
+      "kind": "stocks",
+      "prices_total": 1611,
+      "divs_total": 4,
+      "fund_total": 19,
+      "events_total": 140,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 PARTIAL"
+    },
+    "ABBV": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2603,
+      "divs_total": 42,
+      "fund_total": 17,
+      "events_total": 183,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "ABM": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ABT": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ADM": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ADP": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "AFL": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ALB": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "AOS": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "APD": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ATO": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "AWR": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "BDX": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "BEN": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "BF-B": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 43,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "BKH": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "BRO": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CAT": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CB": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 39,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CBSH": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CHD": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CHRW": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CINF": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CL": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CLX": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CTAS": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 26,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CVX": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "CWT": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "DOV": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ECL": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ED": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "EMR": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ERIE": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ES": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "EXPD": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 20,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "FAST": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 44,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "FDS": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "FRT": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "FUL": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "GD": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "GPC": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "GRC": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "GWW": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "HRL": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "IBM": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 148,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ITW": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "JKHY": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "KMB": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "LEG": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "LIN": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "LOW": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MCD": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 17,
+      "events_total": 165,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "MDT": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 40,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MGEE": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MKC": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MO": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MSA": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MSEX": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "MSFT": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 17,
+      "events_total": 98,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "NDSN": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "NEE": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "NFG": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "NUE": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "NWN": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "PEP": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 17,
+      "events_total": 190,
+      "has_deep": false,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "PH": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "PNR": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "PPG": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "RLI": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "ROP": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "RPM": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SCL": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SHW": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SJM": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SPGI": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SWK": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "SYY": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "TDS": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "TGT": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "TNC": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "TR": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "TROW": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "UVV": {
+      "is_holding": false,
+      "kind": "king",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "V": {
+      "is_holding": false,
+      "kind": "stocks",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 17,
+      "events_total": 201,
+      "has_deep": true,
+      "overall": "\ud83d\udfe2 OK"
+    },
+    "WMT": {
+      "is_holding": false,
+      "kind": "king_aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "WST": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 42,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    },
+    "XOM": {
+      "is_holding": false,
+      "kind": "aristocrat",
+      "prices_total": 2602,
+      "divs_total": 41,
+      "fund_total": 14,
+      "events_total": 0,
+      "has_deep": true,
+      "overall": "\ud83d\udfe1 NO_FUNDAMENTALS"
+    }
+  }
+}

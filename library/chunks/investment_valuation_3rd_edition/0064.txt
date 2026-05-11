@@ -1,0 +1,52 @@
+sometimes combined with common stock under the equity label, it is better to keep the two sources of
+financing separate and to compute the ratio of preferred stock to capital (which will include debt,
+
+equity, and preferred stock).
+There are two close variants of debt ratios. In the first, only long-term debt is used rather than total
+debt, with the rationale that short-term debt is transitory and will not affect the long-term solvency of
+the firm.
+Given the ease with which some firms can roll over short-term debt and the willingness of many firms
+to use short-term financing to fund long-term projects, these variants can provide a misleading picture
+of the firm's financial leverage risk.
+The second variant of debt ratios uses market value (MV) instead of book value, primarily to
+reflect the fact that some firms have a significantly greater capacity to borrow than their book values
+indicate.
+Many analysts disavow the use of market value in their calculations, contending that market values,
+in addition to being difficult to get for debt, are volatile and hence unreliable. These contentions are
+open to debate. It is true that the market value of debt is difficult to get for firms that do not have
+publicly traded bonds, but the market value of equity not only is easy to obtain, but it also is
+constantly updated to reflect marketwide and firm-specific changes. Furthermore, using the book
+value of debt as a proxy for market value in those cases where bonds are not traded does not
+significantly shift most market value-based debt ratios.
+10
+ILLUSTRATION 3.7: Book Value Debt Ratios and Variants
+—Boeing and the Home Depot
+The following table summarizes different estimates of the debt ratio for Boeing and the Home Depot, in 2008, using book
+values of debt and equity for both firms:
+Boeing
+Home Depot
+(in $millions)
+(in $millions)
+Long-term debt
+$ 6,103
+$1,566
+Short-term debt
+$ 869
+$ 14
+Book value of equity
+$12,316
+$8,740
+Long-term debt/Equity
+49.55%
+17.92%
+Long-term debt/(Long-term debt + Equity)
+33.13%
+15.20%
+Debt/Equity
+56.61%
+18.08%
+Debt/(Debt + Equity)
+36.15%
+15.31%
+In 2008, Boeing has a much higher book value debt ratio, considering either long-term or total debt, than the Home Depot.
+dbtfund.xls:

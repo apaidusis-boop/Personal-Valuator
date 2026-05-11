@@ -1,0 +1,42 @@
+in return for your $50 million investment. (You can assume that Friends Online
+has no debt or cash.)
+c.
+ Estimate the target return you would demand over the next three years, with the risk of failure
+
+incorporated into the return.
+To solve the next two problems, you will need access to a simulation program like Crystal Ball
+or @Risk.
+8.
+ You are valuing Stedman Inc., a chemical firm in stable growth (growing 3 percent a year) that
+is expected to generate $100 million in after-tax operating income next year. You have estimated
+the following:
+The return on invested capital on new investments is normally distributed, with an
+expected value of 15%, with a standard deviation of 3%.
+The cost of capital for the firm is 10%, uniformly distributed, with a minimum value of
+8% and a maximum value of 12%.
+The firm has $500 million in debt outstanding and a cash balance of $200 million. Develop a
+distribution of simulated values for Stedman Inc.
+9.
+ Simon Gold is a mature gold mining firm that has mines that are expected to generate 100,000
+ounces of gold every year for the next 25 years; at the end of that period, the mines will be
+exhausted and will be worth nothing. The company has fixed costs of $100 million that are
+expected to remain unchanged over the next 25 years and no variable costs. The cost of capital for
+gold mining companies is 8%.
+a.
+ If the current gold price is $1,500 an ounce and is expected to remain unchanged for the next
+25 years, estimate the value of Simon Gold.
+b.
+ Now assume that you believe that gold prices will be normally distributed with an expected
+value of $1,500 an ounce and a standard deviation of $200 an ounce. Develop a distribution of
+simulated values for Simon Gold.
+10.
+ You are a portfolio manager and have analysts who have used Monte Carlo simulations to find
+10 undervalued companies, listed here:
+a.
+ Purely on an expected value basis, rank these companies (from best to worst investments).
+b.
+ If you wanted to incorporate the uncertainty in the estimates into your ranking, how would the
+rankings change?
+c.
+ If you were worried about downside risk (because you are highly levered), how would you
+incorporate that risk into your rankings?

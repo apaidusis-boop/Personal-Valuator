@@ -1,0 +1,321 @@
+Batch: 6 videos. force_retranscribe=False force_extract=False
+
+[1/6] RDRtyC4JopU
+
+=== 1/6 Download ===
+[download] 100% of   22.07MiB                             video: 'O mercado já precificou o fim do conflito no Oriente Médio? | Offshore Connection' (1507s) — BTG Pactual
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:50:47,667 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:50:47,837 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:50:49,070 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:50:51,241 INFO faster_whisper Processing audio with duration 25:07.179
+2026-04-23 16:50:52,936 INFO faster_whisper VAD filter removed 00:15.051 of audio
+2026-04-23 16:50:53,674 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:51:17,662 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=1507.2s chunks=490 chars=23321
+
+[2/6] 3PrOCCKmUBM
+
+=== 1/6 Download ===
+[download]   0.0% of    6.72MiB at   19.26KiB/s ETA 05:57[download]   0.0% of    6.72MiB at   57.46KiB/s ETA 01:59[download]   0.1% of    6.72MiB at  133.75KiB/s ETA 00:51[download]   0.2% of    6.72MiB at  285.46KiB/s ETA 00:24[download]   0.5% of    6.72MiB at  163.92KiB/s ETA 00:41[download]   0.9% of    6.72MiB at  160.51KiB/s ETA 00:42[download]   1.8% of    6.72MiB at  174.53KiB/s ETA 00:38[download]   3.7% of    6.72MiB at  226.07KiB/s ETA 00:29[download]   7.4% of    6.72MiB at  309.79KiB/s ETA 00:20[download]  14.6% of    6.72MiB at  431.60KiB/s ETA 00:13[download]  25.2% of    6.72MiB at  531.49KiB/s ETA 00:09[download]  36.5% of    6.72MiB at  637.50KiB/s ETA 00:06[download]  53.2% of    6.72MiB at  731.80KiB/s ETA 00:04[download]  68.9% of    6.72MiB at  815.83KiB/s ETA 00:02[download]  88.3% of    6.72MiB at  872.54KiB/s ETA 00:00[download] 100.0% of    6.72MiB at  934.34KiB/s ETA 00:00[download] 100% of    6.72MiB in 00:00:08 at 813.48KiB/s                                                         video: 'AEGEA (AEGP23) (AEGPA3): O QUE É OPORTUNIDADE E O QUE É PROBLEMA?' (469s) — Stock Pickers
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:51:29,633 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:51:29,799 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:51:31,093 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:51:31,847 INFO faster_whisper Processing audio with duration 07:48.741
+2026-04-23 16:51:32,374 INFO faster_whisper VAD filter removed 00:03.093 of audio
+2026-04-23 16:51:32,694 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:51:40,302 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=468.7s chunks=136 chars=8179
+lang=pt duration=469s chunks=136 chars=8179
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:51:40,362 INFO youtube.router router_done tickers=2 themes=1
+tickers matched: ['ITSA4', 'KLBN4']
+themes matched:  ['yield_curve']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:51:51,556 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITSA4    → 2 insights (raw)
+2026-04-23 16:52:08,175 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  KLBN4    → 3 insights (raw)
+2026-04-23 16:52:09,022 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:yield_curve              → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 5,
+  "themes_in": 0,
+  "dropped_evidence": 2,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 3,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:52:09,034 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 3,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:52:09,035 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\3PrOCCKmUBM.webm
+
+Done in 50.6s.
+
+[3/6] YpWzUjgAcvc
+
+=== 1/6 Download ===
+[download]   0.0% of    5.71MiB at   19.61KiB/s ETA 04:58[download]   0.1% of    5.71MiB at   58.51KiB/s ETA 01:39[download]   0.1% of    5.71MiB at  136.19KiB/s ETA 00:42[download]   0.3% of    5.71MiB at  290.69KiB/s ETA 00:20[download]   0.5% of    5.71MiB at  155.64KiB/s ETA 00:37[download]   1.1% of    5.71MiB at  197.88KiB/s ETA 00:29[download]   2.2% of    5.71MiB at  272.33KiB/s ETA 00:21[download]   4.4% of    5.71MiB at  414.00KiB/s ETA 00:13[download]   8.7% of    5.71MiB at  494.10KiB/s ETA 00:10[download]  17.5% of    5.71MiB at  817.03KiB/s ETA 00:05[download]  35.0% of    5.71MiB at 1003.58KiB/s ETA 00:03[download]  57.2% of    5.71MiB at    1.13MiB/s ETA 00:02[download]  83.2% of    5.71MiB at    1.21MiB/s ETA 00:00[download] 100.0% of    5.71MiB at    1.33MiB/s ETA 00:00[download] 100% of    5.71MiB in 00:00:05 at 1.03MiB/s                                                         video: 'RAÍZEN (RAIZ4): MINDSET MUDOU PARA INVESTIR EM GRANDES EMPRESAS NO BRASIL' (391s) — Stock Pickers
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:52:18,837 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:52:19,003 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:52:20,203 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:52:20,777 INFO faster_whisper Processing audio with duration 06:30.467
+2026-04-23 16:52:21,198 INFO faster_whisper VAD filter removed 00:02.707 of audio
+2026-04-23 16:52:21,512 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:52:29,414 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=390.5s chunks=226 chars=7222
+lang=pt duration=390s chunks=226 chars=7222
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:52:29,461 INFO youtube.router router_done tickers=1 themes=1
+tickers matched: ['PETR4']
+themes matched:  ['oil_cycle']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:52:37,035 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 1 insights (raw)
+2026-04-23 16:52:37,718 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:oil_cycle                → 0 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 1,
+  "themes_in": 0,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 1,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:52:37,726 INFO youtube.persistence persist_done {'br_insights': 1, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 1,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:52:37,727 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\YpWzUjgAcvc.webm
+
+Done in 28.0s.
+
+[4/6] MB0Wuzw6mhs
+
+=== 1/6 Download ===
+[download]   0.0% of    3.87MiB at   28.27KiB/s ETA 02:20[download]   0.1% of    3.87MiB at   84.04KiB/s ETA 00:47[download]   0.2% of    3.87MiB at  195.39KiB/s ETA 00:20[download]   0.4% of    3.87MiB at  416.18KiB/s ETA 00:09[download]   0.8% of    3.87MiB at  157.51KiB/s ETA 00:24[download]   1.6% of    3.87MiB at  127.98KiB/s ETA 00:30[download]   3.2% of    3.87MiB at  196.16KiB/s ETA 00:19[download]   6.4% of    3.87MiB at  263.53KiB/s ETA 00:14[download]  12.9% of    3.87MiB at  414.08KiB/s ETA 00:08[download]  25.8% of    3.87MiB at  522.11KiB/s ETA 00:05[download]  43.6% of    3.87MiB at  716.75KiB/s ETA 00:03[download]  79.3% of    3.87MiB at  939.63KiB/s ETA 00:00[download] 100.0% of    3.87MiB at 1023.31KiB/s ETA 00:00[download] 100% of    3.87MiB in 00:00:05 at 722.57KiB/s                                                         video: 'PETROBRAS (PETR4) JÁ TEM PLANO B: Ásia será a nova rota se Trump aplicar tarifas?' (306s) — Suno Notícias
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:52:46,796 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:52:46,976 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:52:48,178 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:52:48,595 INFO faster_whisper Processing audio with duration 05:05.876
+2026-04-23 16:52:48,922 INFO faster_whisper VAD filter removed 00:00.805 of audio
+2026-04-23 16:52:49,196 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:52:53,608 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=305.9s chunks=99 chars=5017
+lang=pt duration=306s chunks=99 chars=5017
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:52:53,653 INFO youtube.router router_done tickers=2 themes=1
+tickers matched: ['EMBR3', 'PETR4']
+themes matched:  ['oil_cycle']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:53:06,133 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  PETR4    → 3 insights (raw)
+2026-04-23 16:53:06,849 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  EMBR3    → 0 insights (raw)
+2026-04-23 16:53:21,990 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:oil_cycle                → 3 themes (raw)
+
+=== 5/6 Validate ===
+{
+  "insights_in": 3,
+  "themes_in": 3,
+  "dropped_evidence": 1,
+  "dropped_cross_contamination": 0,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 3,
+  "themes_out": 2
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:53:22,000 INFO youtube.persistence persist_done {'br_insights': 3, 'us_insights': 0, 'themes': 2, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 3,
+  "us_insights": 0,
+  "themes": 2,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:53:22,000 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\MB0Wuzw6mhs.webm
+
+Done in 43.6s.
+
+[5/6] 6_On_fZLA_E
+
+=== 1/6 Download ===
+[download]   0.0% of    7.21MiB at    5.11KiB/s ETA 24:03[download]   0.0% of    7.21MiB at   15.31KiB/s ETA 08:01[download]   0.1% of    7.21MiB at   35.70KiB/s ETA 03:26[download]   0.2% of    7.21MiB at   76.41KiB/s ETA 01:36[download]   0.4% of    7.21MiB at  101.45KiB/s ETA 01:12[download]   0.9% of    7.21MiB at  123.97KiB/s ETA 00:59[download]   1.7% of    7.21MiB at  167.27KiB/s ETA 00:43[download]   3.5% of    7.21MiB at  224.29KiB/s ETA 00:31[download]   6.9% of    7.21MiB at  302.58KiB/s ETA 00:22[download]  13.2% of    7.21MiB at  390.61KiB/s ETA 00:16[download]  21.0% of    7.21MiB at  506.00KiB/s ETA 00:11[download]  34.7% of    7.21MiB at  661.03KiB/s ETA 00:07[download]  51.6% of    7.21MiB at  762.69KiB/s ETA 00:04[download]  66.7% of    7.21MiB at  859.13KiB/s ETA 00:02[download]  87.2% of    7.21MiB at  956.28KiB/s ETA 00:00[download] 100.0% of    7.21MiB at 1015.03KiB/s ETA 00:00[download] 100% of    7.21MiB in 00:00:08 at 852.55KiB/s                                                         video: 'BANCO DO BRASIL (BBAS3) vai DECEPCIONAR? Projeções para GRANDES BANCOS' (443s) — Suno Notícias
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:53:34,422 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:53:34,588 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:53:35,767 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:53:36,462 INFO faster_whisper Processing audio with duration 07:23.385
+2026-04-23 16:53:36,895 INFO faster_whisper VAD filter removed 00:00.281 of audio
+2026-04-23 16:53:37,206 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:53:44,862 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=443.4s chunks=224 chars=7486
+lang=pt duration=443s chunks=224 chars=7486
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:53:44,921 INFO youtube.router router_done tickers=6 themes=1
+tickers matched: ['BBAS3', 'BBDC4', 'GS', 'ITUB4', 'JPM', 'VALE3']
+themes matched:  ['banking_br']
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:53:45,763 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 0 insights (raw)
+2026-04-23 16:53:57,045 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBDC4    → 3 insights (raw)
+2026-04-23 16:54:12,545 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  ITUB4    → 4 insights (raw)
+2026-04-23 16:54:24,431 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBAS3    → 3 insights (raw)
+2026-04-23 16:54:25,294 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 0 insights (raw)
+2026-04-23 16:54:34,883 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  GS       → 2 insights (raw)
+2026-04-23 16:54:47,789 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  theme:banking_br               → 3 themes (raw)
+
+=== 5/6 Validate ===
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Banco do Brasil é esperado para apresentar os piores resultados entre os grand
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O crédito rural, que representa 30% da carteira do Banco do Brasil, é uma preocu
+2026-04-23 16:54:47,791 INFO youtube.validator drop_cross_contam ticker=BBDC4 claim=O Goldman Sachs reduziu a estimativa de lucro líquido para o Banco do Brasil, ag
+{
+  "insights_in": 12,
+  "themes_in": 3,
+  "dropped_evidence": 3,
+  "dropped_cross_contamination": 3,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 9,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:54:47,807 INFO youtube.persistence persist_done {'br_insights': 7, 'us_insights': 2, 'themes': 0, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 7,
+  "us_insights": 2,
+  "themes": 0,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:54:47,808 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\6_On_fZLA_E.webm
+
+Done in 85.1s.
+
+[6/6] ZHRmPOdCBqo
+
+=== 1/6 Download ===
+[download]   0.0% of    3.99MiB at   24.26KiB/s ETA 02:48[download]   0.1% of    3.99MiB at   72.21KiB/s ETA 00:56[download]   0.2% of    3.99MiB at  168.00KiB/s ETA 00:24[download]   0.4% of    3.99MiB at  358.16KiB/s ETA 00:11[download]   0.8% of    3.99MiB at  153.75KiB/s ETA 00:26[download]   1.5% of    3.99MiB at  202.33KiB/s ETA 00:19[download]   3.1% of    3.99MiB at  218.44KiB/s ETA 00:18[download]   6.2% of    3.99MiB at  342.64KiB/s ETA 00:11[download]  12.5% of    3.99MiB at  462.51KiB/s ETA 00:07[download]  25.0% of    3.99MiB at  591.92KiB/s ETA 00:05[download]  45.1% of    3.99MiB at  841.35KiB/s ETA 00:02[download]  85.3% of    3.99MiB at    1.01MiB/s ETA 00:00[download] 100.0% of    3.99MiB at    1.07MiB/s ETA 00:00[download] 100% of    3.99MiB in 00:00:05 at 740.26KiB/s                                                         video: 'Vale a pena INVESTIR EM VALE (VALE3) após RESULTADOS operacionais?' (323s) — Suno Notícias
+
+=== 2/6 Transcrever (Whisper) ===
+2026-04-23 16:54:56,846 INFO httpx HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 16:54:57,021 INFO httpx HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-04-23 16:54:58,199 INFO youtube.transcriber whisper_load model=large-v3-turbo device=cuda-fp16
+2026-04-23 16:54:58,641 INFO faster_whisper Processing audio with duration 05:22.618
+2026-04-23 16:54:58,982 INFO faster_whisper VAD filter removed 00:00.208 of audio
+2026-04-23 16:54:59,280 INFO faster_whisper Detected language 'pt' with probability 1.00
+2026-04-23 16:55:03,489 INFO youtube.transcriber whisper_done device=cuda-fp16 lang=pt duration=322.6s chunks=69 chars=5172
+lang=pt duration=323s chunks=69 chars=5172
+
+=== 3/6 Router (aliases) ===
+2026-04-23 16:55:03,531 INFO youtube.router router_done tickers=4 themes=0
+tickers matched: ['B3SA3', 'BBDC4', 'JPM', 'VALE3']
+themes matched:  (none)
+
+=== 4/6 Extract (Ollama) ===
+2026-04-23 16:55:28,982 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  VALE3    → 5 insights (raw)
+2026-04-23 16:55:29,808 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  BBDC4    → 0 insights (raw)
+2026-04-23 16:55:30,534 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  B3SA3    → 0 insights (raw)
+2026-04-23 16:55:31,341 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+  JPM      → 0 insights (raw)
+
+=== 5/6 Validate ===
+2026-04-23 16:55:31,344 INFO youtube.validator drop_cross_contam ticker=VALE3 claim=O BTG Pactual citou fundamentos mais fracos para o minério de ferro e incertezas
+{
+  "insights_in": 5,
+  "themes_in": 0,
+  "dropped_evidence": 0,
+  "dropped_cross_contamination": 1,
+  "dropped_confidence": 0,
+  "dropped_dedup": 0,
+  "insights_out": 4,
+  "themes_out": 0
+}
+
+=== 6/6 Persist ===
+2026-04-23 16:55:31,349 INFO youtube.persistence persist_done {'br_insights': 4, 'us_insights': 0, 'themes': 0, 'themes_db': 'br_investments.db'}
+{
+  "br_insights": 4,
+  "us_insights": 0,
+  "themes": 0,
+  "themes_db": "br_investments.db"
+}
+2026-04-23 16:55:31,350 INFO youtube.cleanup cleanup_removed path=C:\Users\paidu\AppData\Local\Temp\yt_ingest\ZHRmPOdCBqo.webm
+
+Done in 42.8s.
+
+=== DONE 6 videos in 4.8min ===
+[
+  {
+    "video_id": "RDRtyC4JopU",
+    "rc": 3221226505,
+    "elapsed_sec": 33.8
+  },
+  {
+    "video_id": "3PrOCCKmUBM",
+    "rc": 0,
+    "elapsed_sec": 51.4
+  },
+  {
+    "video_id": "YpWzUjgAcvc",
+    "rc": 0,
+    "elapsed_sec": 28.7
+  },
+  {
+    "video_id": "MB0Wuzw6mhs",
+    "rc": 0,
+    "elapsed_sec": 44.3
+  },
+  {
+    "video_id": "6_On_fZLA_E",
+    "rc": 0,
+    "elapsed_sec": 85.8
+  },
+  {
+    "video_id": "ZHRmPOdCBqo",
+    "rc": 0,
+    "elapsed_sec": 43.5
+  }
+]

@@ -1,0 +1,94 @@
+2026-04-25T09:39:27+00:00 query='topic:claude-code-skill design' returned=30
+2026-04-25T09:39:28+00:00 query='topic:claude-skill design' returned=30
+2026-04-25T09:39:29+00:00 query='topic:claude-code-skill ui' returned=10
+2026-04-25T09:39:30+00:00 query='topic:claude-code-skill ux' returned=5
+2026-04-25T09:39:32+00:00 query='"claude code" design skill in:name,description,readme' returned=30
+2026-04-25T09:39:33+00:00 query='"claude code" "design system" in:name,description,readme' returned=30
+2026-04-25T09:39:35+00:00 query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-04-25T09:39:37+00:00 query='"claude code" dashboard polish in:description,readme' returned=30
+2026-04-25T09:39:38+00:00 query='claude-code design tokens in:name,description,readme' returned=30
+2026-04-25T09:39:38+00:00 wrote obsidian_vault\skills\Design_Watch.md · 93 finds (13 install / 80 consider)
+2026-04-25T09:40:33+00:00 query='topic:claude-code-skill design' returned=30
+2026-04-25T09:40:35+00:00 query='topic:claude-skill design' returned=30
+2026-04-25T09:40:36+00:00 query='topic:claude-code-skill ui' returned=10
+2026-04-25T09:40:37+00:00 query='topic:claude-code-skill ux' returned=5
+2026-04-25T09:40:38+00:00 query='"claude code" design skill in:name,description,readme' returned=30
+2026-04-25T09:40:40+00:00 query='"claude code" "design system" in:name,description,readme' returned=30
+2026-04-25T09:40:42+00:00 query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-04-25T09:40:43+00:00 query='"claude code" dashboard polish in:description,readme' returned=30
+2026-04-25T09:40:45+00:00 query='claude-code design tokens in:name,description,readme' returned=30
+2026-04-25T09:40:45+00:00 wrote obsidian_vault\skills\Design_Watch.md · 6 finds (5 install / 1 consider)
+2026-04-25T09:50:03+00:00 gh query='topic:claude-code-skill design' returned=30
+2026-04-25T09:50:05+00:00 gh query='topic:claude-skill design' returned=30
+2026-04-25T09:50:06+00:00 gh query='topic:claude-code-skill ui' returned=10
+2026-04-25T09:50:07+00:00 gh query='topic:claude-code-skill ux' returned=5
+2026-04-25T09:50:08+00:00 gh query='"claude code" design skill in:name,description,readme' returned=30
+2026-04-25T09:50:10+00:00 gh query='"claude code" "design system" in:name,description,readme' returned=30
+2026-04-25T09:50:12+00:00 gh query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-04-25T09:50:13+00:00 gh query='"claude code" dashboard polish in:description,readme' returned=30
+2026-04-25T09:50:15+00:00 gh query='claude-code design tokens in:name,description,readme' returned=30
+2026-04-25T09:50:16+00:00 rss Smashing Magazine: 40 items in window
+2026-04-25T09:50:18+00:00 rss CSS-Tricks: 15 items in window
+2026-04-25T09:50:19+00:00 rss A List Apart: 1 items in window
+2026-04-25T09:50:20+00:00 rss Nielsen Norman: 20 items in window
+2026-04-25T09:50:21+00:00 rss FAIL Refactoring UI blog: HTTPError: HTTP Error 404: Not Found
+2026-04-25T09:50:21+00:00 youtube SKIP: no YOUTUBE_API_KEY env var
+2026-04-25T09:50:21+00:00 wrote obsidian_vault\skills\Design_Watch.md · gh=6 (5 install) blogs=76 yt=0
+2026-04-25T22:40:32+00:00 gh query='topic:claude-code-skill design' returned=30
+2026-04-25T22:40:33+00:00 gh query='topic:claude-skill design' returned=30
+2026-04-25T22:40:35+00:00 gh query='topic:claude-code-skill ui' returned=10
+2026-04-25T22:40:36+00:00 gh query='topic:claude-code-skill ux' returned=5
+2026-04-25T22:40:38+00:00 gh query='"claude code" design skill in:name,description,readme' returned=30
+2026-04-25T22:40:40+00:00 gh query='"claude code" "design system" in:name,description,readme' returned=30
+2026-04-25T22:40:42+00:00 gh query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-04-25T22:40:43+00:00 gh query='"claude code" dashboard polish in:description,readme' returned=30
+2026-04-25T22:40:45+00:00 gh query='claude-code design tokens in:name,description,readme' returned=30
+2026-04-25T22:40:47+00:00 rss Smashing Magazine: 40 items in window
+2026-04-25T22:40:49+00:00 rss CSS-Tricks: 15 items in window
+2026-04-25T22:40:51+00:00 rss A List Apart: 1 items in window
+2026-04-25T22:40:52+00:00 rss Nielsen Norman: 20 items in window
+2026-04-25T22:40:54+00:00 rss FAIL Refactoring UI blog: HTTPError: HTTP Error 404: Not Found
+2026-04-25T22:40:54+00:00 youtube SKIP: no YOUTUBE_API_KEY env var
+2026-04-25T22:40:54+00:00 wrote obsidian_vault\skills\Design_Watch.md · gh=7 (5 install) blogs=76 yt=0
+2026-05-08T15:52:09+00:00 gh query='topic:claude-code-skill design' returned=30
+2026-05-08T15:52:11+00:00 gh query='topic:claude-skill design' returned=30
+2026-05-08T15:52:12+00:00 gh query='topic:claude-code-skill ui' returned=12
+2026-05-08T15:52:13+00:00 gh query='topic:claude-code-skill ux' returned=6
+2026-05-08T15:52:15+00:00 gh query='"claude code" design skill in:name,description,readme' returned=30
+2026-05-08T15:52:17+00:00 gh query='"claude code" "design system" in:name,description,readme' returned=30
+2026-05-08T15:52:19+00:00 gh query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-05-08T15:52:21+00:00 gh query='"claude code" dashboard polish in:description,readme' returned=30
+2026-05-08T15:52:22+00:00 gh query='claude-code design tokens in:name,description,readme' returned=30
+2026-05-08T15:52:24+00:00 rss Smashing Magazine: 40 items in window
+2026-05-08T15:52:25+00:00 rss CSS-Tricks: 0 items in window
+2026-05-08T15:52:26+00:00 rss A List Apart: 1 items in window
+2026-05-08T15:52:27+00:00 rss FAIL Nielsen Norman: HTTPError: HTTP Error 403: Forbidden
+2026-05-08T15:52:28+00:00 rss FAIL Refactoring UI blog: HTTPError: HTTP Error 404: Not Found
+2026-05-08T15:52:30+00:00 wrote obsidian_vault\skills\Design_Watch.md · gh=13 (10 install) blogs=41 yt=15
+2026-05-08T19:07:26+00:00 HTTP 403 on query: topic:claude-code-skill design — rate limit exceeded
+2026-05-08T19:07:26+00:00 gh query='topic:claude-code-skill design' returned=0
+2026-05-08T19:07:28+00:00 gh query='topic:claude-skill design' returned=30
+2026-05-08T19:07:29+00:00 gh query='topic:claude-code-skill ui' returned=12
+2026-05-08T19:07:30+00:00 gh query='topic:claude-code-skill ux' returned=6
+2026-05-08T19:07:32+00:00 gh query='"claude code" design skill in:name,description,readme' returned=30
+2026-05-08T19:07:34+00:00 gh query='"claude code" "design system" in:name,description,readme' returned=30
+2026-05-08T19:07:36+00:00 gh query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-05-08T19:07:38+00:00 gh query='"claude code" dashboard polish in:description,readme' returned=30
+2026-05-08T19:07:38+00:00 HTTP 403 on query: claude-code design tokens in:name,description,readme — rate limit exceeded
+2026-05-08T19:07:38+00:00 gh query='claude-code design tokens in:name,description,readme' returned=0
+2026-05-08T19:07:38+00:00 wrote obsidian_vault\skills\Design_Watch.md · gh=11 (9 install) blogs=0 yt=0
+2026-05-10T20:40:09+00:00 gh query='topic:claude-code-skill design' returned=30
+2026-05-10T20:40:11+00:00 gh query='topic:claude-skill design' returned=30
+2026-05-10T20:40:12+00:00 gh query='topic:claude-code-skill ui' returned=12
+2026-05-10T20:40:13+00:00 gh query='topic:claude-code-skill ux' returned=6
+2026-05-10T20:40:16+00:00 gh query='"claude code" design skill in:name,description,readme' returned=30
+2026-05-10T20:40:18+00:00 gh query='"claude code" "design system" in:name,description,readme' returned=30
+2026-05-10T20:40:20+00:00 gh query='"claude code skill" "design review" in:name,description,read' returned=30
+2026-05-10T20:40:22+00:00 gh query='"claude code" dashboard polish in:description,readme' returned=30
+2026-05-10T20:40:25+00:00 gh query='claude-code design tokens in:name,description,readme' returned=30
+2026-05-10T20:40:27+00:00 rss Smashing Magazine: 40 items in window
+2026-05-10T20:40:30+00:00 rss CSS-Tricks: 15 items in window
+2026-05-10T20:40:32+00:00 rss A List Apart: 1 items in window
+2026-05-10T20:40:33+00:00 rss Nielsen Norman: 20 items in window
+2026-05-10T20:40:35+00:00 rss FAIL Refactoring UI blog: HTTPError: HTTP Error 404: Not Found
+2026-05-10T20:40:38+00:00 wrote obsidian_vault\skills\Design_Watch.md · gh=13 (10 install) blogs=76 yt=15

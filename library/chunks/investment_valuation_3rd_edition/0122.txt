@@ -1,0 +1,47 @@
+creating this position must be equal to the
+present value of K at the riskless rate (K e
+–rt
+).
+Substituting the Black-Scholes equation for the value of an equivalent call into this equation, we get:
+
+Thus, the replicating portfolio for a put is created by selling short [1 – N(d
+1
+)] shares of stock and
+investing K e
+–rt
+[1 – N(d
+2
+)] in the riskless asset.
+ILLUSTRATION 5.7: 
+Valuing a Put Using Put-Call Parity:
+Cisco Systems and AT&T
+Consider the call on Cisco Systems that we valued in Illustration 5.2. The call had a strike price of $15 on the stock, had 103
+days left to expiration, and was valued at $1.87. The stock was trading at $13.62, and the riskless rate was 4.63%. The put
+can be valued as follows:
+The put was trading at $3.38.
+Also, a long-term call on AT&T was valued in Illustration 5.4. The call had a strike price of $20, 1.8333 years left to
+expiration, and a value of $6.63. The stock was trading at $20.50 and was expected to maintain a dividend yield of 2.51%
+over the period. The riskless rate was 4.85%. The put value can be estimated as follows:
+The put was trading at $3.80. Both the call and the put were trading at different prices from our estimates, which may
+indicate that we have not correctly estimated the stock’s volatility.
+Jump Process Option Pricing Models
+If price changes remain larger as the time periods in the binomial model are shortened, it can no
+longer be assumed that prices change continuously. When price changes remain large, a price process
+that allows for price jumps is much more realistic. Cox and Ross (1976) valued options when prices
+follow a pure jump process, where the jumps can only be positive. Thus, in the next interval, the stock
+price will either have a large positive jump with a specified probability or drift downward at a given
+rate.
+Merton (1976) considered a distribution where there are price jumps superimposed on a continuous
+price process. He specified the rate at which jumps occur (
+λ
+) and the average jump size (k),
+measured as a percentage of the stock price. The model derived to value options with this process is
+called a jump diffusion model. In this model, the value of an option is determined by the five
+variables specified in the Black-Scholes model, and the parameters of the jump process (
+λ
+, k).
+Unfortunately, the estimates of the jump process parameters are so difficult to make for most firms
+that they overwhelm any advantages that accrue from using a more realistic model. These models,
+therefore, have seen limited use in practice.
+EXTENSIONS OF OPTION PRICING
+All the option pricing models described so far—the binomial, the Black-Scholes, and the jump

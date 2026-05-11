@@ -1,0 +1,47 @@
+e more leeway and are
+trying to find under- or overvalued stocks across the market, you should look at the second approach
+—perhaps in addition to the first one.
+WHEN SHOULD YOU USE THE OPTION PRICING
+
+MODELS?
+The chapters on applying option pricing models to valuation presented a number of scenarios where
+option pricing may yield a premium on traditional discounted cash flow valuation. You should keep
+in mind the following general propositions when using option pricing models:
+CAN A FIRM BE UNDERVALUED AND OVERVALUED
+AT THE SAME TIME?
+If you value a firm using both discounted cash flow and relative valuation models, you may very well get different answers
+using the two: The firm may be undervalued using relative valuation models but overvalued using discounted cash flow
+models. What do we make of these differences, and why do they occur? If a firm is overvalued using a discounted cash
+flow model and undervalued using relative valuation, it is usually an indication that the sector is overvalued relative to its
+fundamentals. For instance, in March 2000 we valued Amazon at $30 a share using a discounted cash flow model, when it
+was trading at $70 a share; it was clearly overvalued. At the same time, a comparison of Amazon to other dot-com firms
+suggested that it was undervalued relative to these firms.
+If a firm is undervalued using a discounted cash flow model and overvalued using relative valuation, it indicates that the
+sector is undervalued. By March 2001 Amazon’s stock price had dropped to $15, but the values of all Internet stocks had
+dropped by almost 90 percent. In March 2001 a discounted cash flow valuation suggested that Amazon was undervalued,
+but a relative valuation indicated that it was now overvalued relative to the sector.
+As an investor, you can use both discounted cash flow and relative valuation to value a company. Optimally, you would like
+to buy companies that are undervalued using both approaches. That way, you benefit from market corrections both across
+time (which is the way you make money in discounted cash flow valuation) and across companies.
+Use options sparingly.
+ Restrict your use of options to where they make the biggest
+difference in valuation. In general, options will affect value the most at smaller firms that
+derive the bulk of their value from assets that resemble options. Therefore, valuing patents
+as options to estimate firm value makes more sense for a small biotechnology firm than it
+does for a drug giant like Merck. While Merck may have dozens of patents, it derives much
+of its value from a portfolio of developed drugs and the cash flows they generate.
+Opportunities are not always options.
+ You should be careful not to mistake opportunities
+for options. Analysts often see a firm with growth potential and assume that there must be
+valuable options embedded in the firm. For opportunities to become valuable options, you
+need some degree of exclusivity for the firm in question; this can come from legal
+restrictions on competition or a significant competitive edge.
+Do not double count options.
+ All too often, analysts incorporate the effect of options on
+fundamentals and on company value and then proceed to add on premiums to reflect the
+same options. Consider, for instance, the undeveloped oil reserves owned by an oil
+company. While it is legitimate to value these reserves as options, you should not add this
+value to a discounted cash flow valuation of the company if your expected growth rate in the
+valuation is set higher because of the firm’s undeveloped reserves.
+CONCLUSION
+The analyst faced with the task of valuing a firm/asset or its equity has to choose among three

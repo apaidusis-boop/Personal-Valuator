@@ -1,0 +1,167 @@
+{
+  "ticker": "KLBN11",
+  "market": "br",
+  "modo": "D",
+  "sector": "Materials",
+  "is_holding": true,
+  "seats": [
+    {
+      "role": "sector_specialist",
+      "employee_name": "Lourdes Aluguel",
+      "agent_slug": "fiis_br_specialist",
+      "title": "FIIs BR Specialist"
+    },
+    {
+      "role": "macro_strategist",
+      "employee_name": "Mariana Macro",
+      "agent_slug": "macro_strategist",
+      "title": "Chief Macro Strategist"
+    },
+    {
+      "role": "risk_officer",
+      "employee_name": "Valentina Prudente",
+      "agent_slug": "risk_auditor",
+      "title": "Chief Risk Officer"
+    },
+    {
+      "role": "portfolio_officer",
+      "employee_name": "Pedro Alocação",
+      "agent_slug": "capital_allocator",
+      "title": "Capital Allocator"
+    }
+  ],
+  "openings": {
+    "sector_specialist": {
+      "headline": "KLBN11 mantém DY atraente e fundamentos sólidos",
+      "stance": "BUY",
+      "main_argument": "DY de 9.4% é atrativo comparado à média do setor (9.2%). Piotroski F-Score de 6/9 indica solidez operacional.",
+      "supporting_metrics": [
+        "P/E=26.44",
+        "ROE=14.6%",
+        "Altman Z-Score: 2.34"
+      ],
+      "concerns": [
+        "Alavancagem elevada após ajustes contábeis",
+        "Risco de vencimento antecipado de dívidas"
+      ],
+      "veto_signals": []
+    },
+    "macro_strategist": {
+      "headline": "KLBN11 mantém dividendos atraentes mas apresenta riscos operacionais",
+      "stance": "HOLD",
+      "main_argument": "A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém enfrenta aumento na alavancagem após ajustes contábeis.",
+      "supporting_metrics": [
+        "DY=9.4%",
+        "ROE=14.6%",
+        "P/B=2.72"
+      ],
+      "concerns": [
+        "Aumento da alavancagem",
+        "Risco de vencimento antecipado de dívidas"
+      ],
+      "veto_signals": []
+    },
+    "risk_officer": {
+      "headline": "Klabin apresenta risco moderado de alavancagem e zona cinzenta do Altman Z-Score",
+      "stance": "HOLD",
+      "main_argument": "A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), mas o Altman Z-Score de 2.34 indica uma situação financeira instável.",
+      "supporting_metrics": [
+        "Piotroski F-Score: 6/9",
+        "Beneish M-Score: -2.55",
+        "Altman Z-Score: 2.34"
+      ],
+      "concerns": [
+        "Alavancagem alta após ajustes contábeis",
+        "Risco de vencimento antecipado de dívidas"
+      ],
+      "veto_signals": []
+    },
+    "portfolio_officer": {
+      "headline": "Klabin overvalued with high leverage concerns",
+      "stance": "AVOID",
+      "main_argument": "KLBN11 trades at a premium P/E of 26.44x and P/B of 2.72x compared to sector medians, indicating overvaluation. ROE is below peer median.",
+      "supporting_metrics": [
+        "P/E ratio: 26.44",
+        "ROE: 14.6%",
+        "ND/EBITDA: 3.80"
+      ],
+      "concerns": [
+        "High leverage due to recent accounting adjustments",
+        "Risk of debt refinancing issues"
+      ],
+      "veto_signals": []
+    }
+  },
+  "responses": {
+    "sector_specialist": {
+      "agree_with": [
+        "A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor",
+        "Mariana Macro"
+      ],
+      "challenge": [
+        "High leverage due to recent accounting adjustments | Risk of debt refinancing issues",
+        "Pedro Alocação - A alavancagem, embora aumentada, ainda está dentro dos limites aceitáveis para a empresa e não indica necessariamente risco de vencimento antecipado de dívidas"
+      ],
+      "new_evidence": "",
+      "revised_stance": "BUY"
+    },
+    "macro_strategist": {
+      "agree_with": [
+        "DY de 9.4% é atrativo comparado à média do setor (9.2%) — Lourdes Aluguel"
+      ],
+      "challenge": [
+        "ROE is below peer median — Pedro Alocação | O ROE, embora abaixo da mediana do setor, ainda está acima dos níveis históricos da Klabin e reflete sua capacidade de geração de lucros.",
+        "A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), mas o Altman Z-Score de 2.34 indica uma situação financeira instável — Valentina Prudente | O Z-Score da Altman em uma zona cinzenta não necessariamente reflete instabilidade, pois a empresa ainda tem um histórico sólido de pagamento de dividendos e geração de fluxo de caixa positivo."
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "risk_officer": {
+      "agree_with": [
+        "DY de 9.4% é atrativo comparado à média do setor (9.2%) — Lourdes Aluguel"
+      ],
+      "challenge": [
+        "ROE is below peer median — Pedro Alocação | O ROE de 14.6% da Klabin, embora abaixo da mediana do setor, ainda indica uma geração de capital sólida para acionistas."
+      ],
+      "new_evidence": "",
+      "revised_stance": "HOLD"
+    },
+    "portfolio_officer": {
+      "agree_with": [
+        "DY de 9.4% é atrativo comparado à média do setor (9.2%).",
+        "Lourdes Aluguel"
+      ],
+      "challenge": [
+        "A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém enfrenta aumento na alavancagem após ajustes contábeis.",
+        "Mariana Macro — O ROE de 14.6% é inferior à médiana do setor (20.8%), indicando que a empresa está gerando retornos menores em relação ao capital investido, o que sugere uma menor eficiência operacional."
+      ],
+      "new_evidence": "",
+      "revised_stance": "AVOID"
+    }
+  },
+  "synthesis": {
+    "consensus_points": [
+      "DY de 9.4% é atrativo comparado à média do setor (9.2%)",
+      "Piotroski F-Score forte de 6/9 e Beneish M-Score limpo (-2.55)"
+    ],
+    "dissent_points": [
+      "Pedro Alocação disse que a empresa está sobrevalorizada com P/E de 26.44x e P/B de 2.72x, Lourdes Aluguel disse que a alavancagem aumentada ainda está dentro dos limites aceitáveis"
+    ],
+    "final_stance": "HOLD",
+    "confidence": "low",
+    "pre_publication_flags": [
+      "Risco de vencimento antecipado de dívidas após ajustes contábeis - Valentina Prudente",
+      "ROE abaixo da média do setor - Pedro Alocação"
+    ],
+    "sizing_recommendation": "Considerar reduzir a posição para até 3% do portfolio, dado o risco operacional e financeiro identificado."
+  },
+  "review_paths": [
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Lourdes Aluguel\\reviews\\KLBN11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Mariana Macro\\reviews\\KLBN11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Valentina Prudente\\reviews\\KLBN11_2026-04-30.md",
+    "C:\\Users\\paidu\\investment-intelligence\\obsidian_vault\\agents\\Pedro Alocação\\reviews\\KLBN11_2026-04-30.md"
+  ],
+  "failures": [],
+  "elapsed_sec": 66.05726146697998,
+  "date": "2026-04-30"
+}

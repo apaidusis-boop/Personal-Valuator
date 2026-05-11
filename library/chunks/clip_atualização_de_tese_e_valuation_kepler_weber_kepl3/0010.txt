@@ -1,0 +1,15 @@
+turos sujeitos a incertezas.
+
+(5) **Mudanças e eventos climáticos:** secas, inundações e ondas de calor podem afetar a produção agrícola e, com isso, a demanda por produtos da companhia.
+
+## Valuation
+
+No começo de março, a **Kepler Weber** divulgou fato relevante informando o encerramento das negociações para uma potencial fusão com a **Grain & Protein Technologies (GPT)**, controladora da **GSI**. A concretização dependia de duas condições: a aprovação da minuta pelo Conselho de Administração da **Kepler** (cumprida) e a assinatura de um compromisso de voto entre a **GPT** e a **Trígono** Capital (não cumprida).
+
+A recusa da **Trígono** é uma sinalização relevante. Como maior acionista individual da **Kepler**, a gestora teria incentivo financeiro direto para aceitar uma oferta que considerasse justa. Apesar das controvérsias recentes envolvendo sua atuação em outras companhias, a **Trígono** possui histórico consistente de retornos acima do mercado e capacidade de precificar negócios listados, o que dá peso à sua avaliação implícita de que **KEPL3** vale mais do que os R$ 11 por ação propostos.
+
+Em nossa precificação da **Kepler Weber**, utilizamos o **Modelo de Fluxo de Caixa Descontado** em termos reais, isto é, **ajustando pelos efeitos da inflação**.
+
+Partimos da natureza cíclica da receita. Em vez de projetar expansão linear, modelamos o crescimento por segmento, refletindo um ano mais fraco em 2026, seguido por três anos de expansão, três de contração e uma recuperação gradual, encerrando o período com nova retração.
+
+A margem bruta foi estruturada com base no comportamento histórico: dois anos de expansão, um ano de normalização e três anos de queda, capturando a volatilidade inerente ao ciclo do agro. As cores do mapa de calor tornam os ciclos explícitos: tons avermelhados representam anos de compressão de margens, amarelo, os anos medianos, e verde, os anos favoráveis.

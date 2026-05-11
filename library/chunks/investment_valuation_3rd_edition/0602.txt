@@ -1,0 +1,20 @@
+ed States. In 
+Figure 20.4
+ the EV-to-sales ratios of these
+firms are plotted against the operating margins of these firms in July 2000 (with the stock symbols for each firm next to each
+observation).
+
+Figure 20.4
+ Value-to-Sales Ratios and Operating Margins
+Firms with higher operating margins tend to have higher value-to-sales ratios, while firms with lower margin have lower
+value-to-sales ratios. Note, though, that there is a considerable amount of noise even in this subset of firms in the relationship
+between value-to-sales ratios and operating margins.
+ILLUSTRATION 20.10: 
+Revenue Multiples and Margins:
+Internet Retailers in July 2000
+In the second comparison, the price-to-sales ratios in July 2000 of Internet retailers are plotted against the net margins
+earned by these firms in the most recent year in 
+Figure 20.5
+.
+Figure 20.5
+ Price-to-Sales Ratios versus Net Margins: Internet Stocks

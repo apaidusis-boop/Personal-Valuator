@@ -1,0 +1,50 @@
+ion multiples are based. In theory, at least, you pull together a dataset of other young, private
+businesses, similar to the one that we are valuing (same business, similar size, and at the same stage
+
+in the life cycle), that have been bought/sold and the transaction values. You then scale these values to
+a common variable (revenues, earnings, or something even sector-specific) and compute a typical
+multiple that acquirers have been willing to pay. Applying this multiple to the same variable for the
+company being valued should yield an estimated value for the company.
+Potential Problems
+The biggest problem used to be the absence of organized databases of private business transactions,
+but that is no longer the case. Many private services offer databases (for a price) that contain this
+data,
+5
+ but other problems remain:
+Arms-length transactions.
+ One of the perils of using prices from private transactions is that
+some of them are not arms'-length transactions, where the price reflects just the value of
+business being sold. In effect, the price includes other services and side factors that may be
+specific to the transaction. Thus, a doctor selling a medical practice may get a higher price
+because he agrees to stay on for a period of time after the transaction to ease the transition.
+Timing differences.
+ Private business transactions are infrequent and reflect the fact that the
+same private business will not be bought and sold dozens of times during a particular
+period. Unlike public firms, where the current price can be used to compute the multiples
+for all firms at the same point in time, private transactions are often staggered across time.
+A database of private transactions can therefore include transactions from June 2008 and
+December 2008, a period when the public markets lost almost 45 percent of their value.
+Scaling variable.
+ To compare firms of different scale, we generally divide the market price
+by a standardizing variable. With publicly traded firms, this can take the form of revenues
+(price/sales, EV/sales), earnings (PE, EV/EBITDA), or book value. While we could
+technically do the same with private transactions, there is a potential roadblock. There are
+broad differences in accounting standards across private businesses and these differences
+can result in bottom lines that are not quite equivalent.
+Nonstandardized equity.
+ Equity claims in private businesses can vary widely in terms of
+cash flow, control claims, and illiquidity. The transaction price for equity in a private
+business will reflect the claims that are embedded in the equity in that business and may not
+easily generalize to equity in another firm with different characteristics.
+Non-U.S. firms
+. Most of the transaction databases that are available and accessible today
+are databases of transactions of private businesses in the United States. As we are called
+upon increasingly to value businesses in other markets, some of which are riskier, emerging
+markets, it is not clear how or even whether this data can be used in that context.
+Usefulness and Best Practices
+So, when is it appropriate to use private transaction data to value a private business? As a general
+rule, this approach works best for small businesses that plan to stay small and private, rather than
+expand their reach and perhaps go public. It also helps if the firm being valued is in a business where
+there are not only a large number of other private businesses but also where transactions are common.
+For instance, this approach should work well for valuing a medical/dental practice or a small, retail
+business. It will get more difficult to apply for firms that are in unique or unusual businesses.

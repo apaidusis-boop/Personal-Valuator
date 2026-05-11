@@ -1,0 +1,44 @@
+ilities of the scenarios we
+examine in scenario analysis can be less than 1, whereas the sum of the probabilities of
+outcomes in decision trees and simulations has to equal 1. As a consequence, we can
+
+compute expected values across outcomes in the latter, using the probabilities as weights,
+and these expected values are comparable to the single-estimate risk-adjusted values that
+we talked about in the preceding chapter.
+Discrete versus continuous risk.
+ As noted earlier, scenario analysis and decision trees are
+generally built around discrete outcomes in risky events, whereas simulations are better
+suited for continuous risks. Focusing on just scenario analysis and decision trees, the latter
+are better suited for sequential risks, since risk is considered in phases, whereas the former
+is easier to use when risks occur concurrently.
+Correlation across risks.
+ If the various risks that an investment is exposed to are
+correlated, simulations allow for explicitly modeling these correlations (assuming that you
+can estimate and forecast them). In scenario analysis, we can deal with correlations
+subjectively by creating scenarios that allow for them; the high (low) interest rate scenario
+will also include slower (higher) economic growth. Correlated risks are difficult to model
+in decision trees.
+Table 33.1
+ summarizes the relationship between risk type and the probabilistic approach used.
+Table 33.1
+ Risk Type and Probabilistic Approaches
+Finally, the quality of the information will be a factor in your choice of approach. Since simulations
+are heavily dependent upon being able to assess probability distributions and parameters, they work
+best in cases in which there is substantial historical and cross-sectional data available that can be
+used to make these assessments. With decision trees, you need estimates of the probabilities of the
+outcomes at each chance node, making them best suited for risks where these risks can be assessed,
+either using past data or population characteristics. Thus, it should come as no surprise that when
+confronted with new and unpredictable risks, analysts continue to fall back on scenario analysis,
+notwithstanding its slapdash and subjective ways of dealing with risk.
+Complement or Replacement for Risk-Adjusted Value
+As we noted in our discussion of both decision trees and simulations, these approaches can be used
+as either complements to or substitutes for risk-adjusted value. Scenario analysis, on the other hand,
+will always be a complement to risk-adjusted value, since it does not look at the full spectrum of
+possible outcomes.
+When any of these approaches are used as complements to risk-adjusted value, the caveats that we
+offered earlier in the chapter continue to apply and bear repeating. All of these approaches use
+expected rather than risk-adjusted cash flows and 
+the discount rate that is used should be a risk-
+adjusted discount rate
+; the risk-free rate cannot be used to discount expected cash flows. In all three
+approaches, though, we still preserve the flexibility to change the risk-adjusted discount rate for

@@ -1,0 +1,15 @@
+T e 2T) + metade do ciclo vigente (3T e 4T).**
+
+Por exemplo, a RAP recebida pelas empresas de transmissão em 2022 foi metade do ciclo 2021-2022 (1T22 e 2T22) e metade do ciclo 2022-2023 (3T22 e 4T22).
+
+Nos contratos indexados ao IPCA, estimamos um reajuste anual de longo prazo de 3,5%, enquanto para os contratos em IGP-M a porcentagem utilizada foi de 4%:
+
+**Projeções da Receita Anual Permitida (RAP)** — *Elaboração: Suno Research.*
+
+Para além dos reajustes, estão implícitas nas nossas expectativas a energização de mais duas novas linhas (lotes 8 e 4, adquiridos nos leilões 01/22 e 01/23) em setembro de 2026 e setembro de 2028 (prazos Aneel). Em conjunto, tais ativos somam uma RAP de R$ 84,6 milhões, implicando um crescimento contratado de apenas 0,6% ante a RAP operacional do ciclo vigente.
+
+Optamos por projetar apenas esses investimentos em crescimento por serem os únicos projetos que, de fato, já saíram do papel e estão sendo implementados. Nas estimativas da Aneel para os lotes, a Axia deve investir um total de R$ 921,2 milhões nos projetos.
+
+Para estimar o CapEx de manutenção, nos baseamos no patamar divulgado pela empresa desde 2019, optando por inflacionar o número de 2022 (mais elevado no período) com uma relação de manutenção por km de linha, capturando assim o aumento e diminuição dos investimentos em manutenção conforme projetamos crescimento e términos de concessões.
+
+**Projeções do CapEx de transmissão** — *Elaboração: Suno Research.*

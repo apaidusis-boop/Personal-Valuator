@@ -1,0 +1,52 @@
+2–2016 Chart Deck Appendix
+Indebtedness
+Monetary and Fiscal Policy
+Economic Conditions
+
+Part 3: Compendium of 48 Case Studies
+208
+Russia 2012–2016 Chart Deck Appendix (cont�)
+Markets
+External Position
+
+Principles For Navigating Big Debt Crises
+209
+Appendix: Macroprudential Policies
+While the central bank is generally meant to provide one monetary policy for all (making money and credit 
+broadly available through banks without deciding who gets it) and those who run fiscal policy are meant to 
+apportion it well, macroprudential policies are tools for directing credit one way or another through the central 
+bank’s regulatory authorities. The need for macroprudential monetary policy is created by differentiation as credit 
+grows: There can be a bubble in one area, and a starvation of credit in another area. If policy makers want to slow 
+down credit where bubbles are emerging, and redirect credit to other areas, macroprudential policies can shift 
+credit in that way. For instance, a classic countercyclical macroprudential policy is to make it easier to buy a house 
+in a housing bust (say, by forcing credit standards lower or allowing lower down payments) or to make it harder to 
+buy a house in a housing bubble (by doing the opposite).
+By directing credit through regulatory authorities, macroprudential policies can resemble fiscal policies in that 
+they can benefit some at the expense of others. While this is generally avoided, the challenges of managing an 
+economy through a deleveraging make macroprudential policies a really useful tool to complement monetary 
+policy. For instance, QE often fuels pockets of frothiness in the economy, particularly in asset markets, even as the 
+broader economy is still in recovery. In the Great Depression and during World War II, central bankers used 
+macroprudential measures to reduce the pockets of frothiness, while keeping overall monetary policy sufficiently 
+easy for the broader economy.
+Macroprudential policies are not  a new tool for monetary policy. In fact, they were a bread-and-butter tool of 
+central banks and regulators for almost the entire period of modern monetary policy. As an illustration, the 
+Federal Reserve has changed margin requirements for equity holdings 23 times since it was formed, typically 
+tightening the requirement during big rallies/periods of excess in stock market credit, and easing in bear markets/
+depressed volumes of credit.1 While macroprudential measures became rarer from the early 1990s to mid-2000s, 2 
+that period is the historical exception. Recently, global central banks and regulators have returned to a world 
+where macroprudential tools are thought of as a key part of managing an economy. 
+The typical case (drawing on the history of macroprudential tools being used in the US)…
+Occurred when shifting interest rates was losing effectiveness as a monetary policy tool.  
+n   The economy needs further stimulation, but with interest rates at zero, further easing is limited.
+n  Tightening in one or more areas is needed when it’s not appropriate for the overall economy. Raising interest 
+rates is undesirable because of the drag on growth it would cause.
+Occurred when it was desirable to direct credit both to credit-starved sectors, and away from frothy assets/lending.
+Involved policy makers using a combination of different types of policies at once.  
+n  These included measures aimed at changing demand for credit:
+ – Changing required loan-to-value ratios.  
+ – Changing required debt service-to-income ratios.
+ – Changing requirements around loan maturities.
+ – Changing margin requirements for buying financial assets.
+ – Changing the cost of loans through interest rate subsidies/tax policy/other regulations.
+n  And measures aimed at changing the supply of credit:
+ – Changing capital/reserve requirements for certain types of lending.

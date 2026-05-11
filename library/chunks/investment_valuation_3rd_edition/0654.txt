@@ -1,0 +1,37 @@
+r-Benz could borrow long-term at
+6.1%. We assumed a market risk premium of 4%. The market value of equity was DM 50,000 million, and there was DM
+26,281 million in debt outstanding at the end of 1995.
+
+Note that all of the costs are computed in DM terms, to be consistent with our cash flows. Note also that we are assuming
+that Daimler will generate a return on capital (7.32%) that is lower than its cost of capital in perpetuity. While value
+destruction in the long term may not seem rational, the corporate governance system structure in Daimler leaves us with few
+options. The firm value can now be computed, if we assume that earnings and cash flows will grow at 5% a year in
+perpetuity:
+Adding to this the value of the cash and marketable securities (DM 13,500 million) held by Daimler at the time of this
+valuation, and netting out the market value of debt ($26,281) yields an estimated value of DM 28,006 million for equity,
+significantly lower than the market value of DM 50,000 million.
+As in all firm valuations, there is an element of circular reasoning involved in this valuation.
+2
+Sectorwide or Market-Driven Problems
+The earnings of cyclical firms are, by definition, volatile and depend on the state of the economy. In
+economic booms the earnings of these firms are likely to increase, while in recessions the earnings
+will be depressed. The same can be said of commodity firms that go through price cycles, where
+periods of high prices for the commodity are often followed by low prices. In both cases, you can get
+misleading estimates of value if you use the current year's earnings as your base year earnings.
+Valuing Cyclical Firms
+Cyclical firm valuations can be significantly affected by the level of base year earnings. There are
+two potential solutions: One is to adjust the expected growth rate in the near periods to reflect
+cyclical changes, and the other is to value the firm based on normalized rather than current earnings.
+Adjust Expected Growth
+Cyclical firms often report low earnings at the bottom of an economic cycle, but the earnings recover
+quickly when the economy recovers. One solution, if earnings are not negative, is to adjust the
+expected growth rate in earnings, especially in the near term, to reflect expected changes in the
+economic cycle. This would imply using a higher growth rate in the next year or two, if both the firm's
+earnings and the economy are depressed currently but are expected to recover quickly. The strategy
+would be reversed if the current earnings are inflated (because of an economic boom), and if the
+economy is expected to slow down. The disadvantage of this approach is that it ties the accuracy of
+the estimate of value for a cyclical firm to the precision of the macroeconomic predictions of the
+analyst doing the valuation. The criticism, though, may not be avoidable since it is difficult to value a
+cyclical firm without making assumptions about future economic growth. The actual growth rate in
+earnings in turning-point years (years when the economy goes into or comes out of a recession) can be
+estimated by looking at the experience of this firm (or similar firms) in prior recessions.

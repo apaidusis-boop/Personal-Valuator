@@ -1,0 +1,25 @@
+e private firm's
+costs that are fixed. If this proportion is greater than is typical in the industry, the beta used for the
+private firm should be higher than the average for the industry.
+spearn.xls:
+
+This dataset on the Web has earnings changes, by year, for the S&P 500 going back to 1960.
+ILLUSTRATION 24.3: Estimating Bottom-Up Betas—Chez
+Pierre and InfoSoft
+To estimate a bottom-up beta for Chez Pierre, we looked at publicly traded restaurants in the United States. In January
+2011, these firms had an average unlevered beta of 1.21 and an average market debt-to-equity ratio of 22.08%. We will
+assume that Chez Pierre will have the same unlevered beta and maintain a debt-to-equity ratio similar to that of publicly
+traded firms. Using a 40% tax rate, we get a levered beta for Chez Pierre of 1.37.
+To estimate a beta for InfoSoft, we obtained the betas and market debt-equity ratios for publicly traded software firms.
+Since there are 333 software firms in the sample, with wide variations in market capitalization and growth prospects, we also
+look at subclasses of these firms that might be more comparable to InfoSoft.
+Note that the debt-equity ratios are market value debt-equity ratios. Note also that the difference in the size of the firms
+should not affect the betas directly, but it might have an indirect effect, since smaller firms tend to have higher operating
+leverage. We will use an unlevered beta of 1.60 for InfoSoft, based on the average beta of small cap software firms. To
+estimate a levered beta, we recognize that Infosoft has no debt oustanding and no plans to borrow money. Its levered beta is
+therefore equal to its unlevered beta of 1.60.
+Adjusting for Nondiversification
+Betas measure the risk added by an investment to a diversified portfolio. Consequently, they are best
+suited for firms where the marginal investor is diversified. With private firms, the owner is often the
+only investor and thus can be viewed as the marginal investor. Furthermore, in most private firms, the
+owner tends to have much of his or her wealth invested in the private business and does not have an

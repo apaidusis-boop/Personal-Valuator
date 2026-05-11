@@ -1,0 +1,24 @@
+tors (to flag major escalations above that 
+baseline). For example, for economic conflict we track bilateral trade between countries, tariff rates, and 
+timely news around sanctions, trade wars, etc. 
+
+COUNTRY POWER INDEX 2022
+57
+APPENDIX: CONSIDERING QUALITY VERSUS QUANTITY AND THE SIZE OF COUNTRIES
+Each determinant is an aggregate of many indicators that I combined in the way that I felt best captured that 
+particular determinant, giving consideration to both measures of absolute size (like share of global exports) and 
+measures that adjust for/remove size (like GDP per capita or PISA test scores). Some determinants use a mix of 
+both types of measures, and some are all one type. I tried to structure these weightings so that I could imagine 
+who would win if countries had a competition like the Olympics or a war. However, in doing this exercise, I 
+found it helpful to see how countries would score if I just looked at things on a per capita/quality basis, which 
+would allow me to differentiate between countries that are extremely developed and capable, but small (like 
+Singapore) versus countries that get a lot of credit for being big (like India).   
+The scores shown in the table below are the weighted average percent rank from 0% (scoring worst on all un -
+derlying measures) to 100% (scoring best on all underlying measures) of all the underlying indicators that make 
+up the determinant, shown if we include all the measures (“Total”) or only per capita/quality measures. In case 
+it is helpful or interesting to you, you can review those scores below.3
+4 
+3 In a few cases where there were no quality measures, I had to create quality measures by adjusting the quantity for a country’s population, turning 
+it into a per capita measure. We did not give reserve currency status scores to the countries that share the euro, which is why those measures are 
+displayed as dashes.
+4 Because the notion of competitiveness is inherently relative, we only show the total score for this measure.

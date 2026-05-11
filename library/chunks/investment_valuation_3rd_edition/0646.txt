@@ -1,0 +1,70 @@
+1.91
+15.35%
+State Street Corp.
+6.63
+19.52%
+Mellon Financial Corp.
+4.59
+23.95%
+Morgan (J.P.) & Co.
+1.74
+19.39%
+First Union Corp.
+1.52
+19.66%
+FleetBoston Fin'l.
+2.25
+20.15%
+Bank of New York
+7.01
+25.36%
+
+Chase Manhattan Corp.
+2.60
+24.60%
+Wells Fargo
+3.07
+17.72%
+Bank of America
+1.69
+19.31%
+Bank of Montreal
+1.23
+18.08%
+a.
+ If you were valuing SunTrust Banks relative to these firms, would you expect it to have a
+higher or lower price-to-book ratio than the average for the group? Explain why.
+b.
+ If you regress price-to-book ratios against returns on equity, what would your predicted price-
+to-book ratios be for each of these companies?
+5.
+ Signet Bank has asked you to estimate the value of its loan portfolio. The bank has $1 billion in
+loans outstanding, with an average maturity of six years, and expected interest income of $75
+million a year. You have been able to get a synthetic rating of A for the entire loan portfolio, and
+the current market interest rate on A-rated bonds is 6.5%.
+a.
+ Estimate the value of the loan portfolio.
+b.
+ If Signet Bank has $800 million in debt outstanding, estimate the value of the equity in the
+bank based on the loans it has in place.
+6.
+ Loomis Capital is a boutique investment bank that reported a return on equity of 20% on its
+book equity of $100 million in the just-completed financial year. The beta for the bank is 1.20, the
+risk-free rate is 5.2%, and the risk premium is 4%. You assume that the current return on equity
+and cost of equity will continue unchanged for the next 10 years and that there will be no excess
+returns after year 10. The payout ratio for the firm is 30%.
+a.
+ Estimate the dollar excess equity returns every year for the next 10 years.
+b.
+ Estimate the value of equity today, using the excess return approach.
+c.
+ How would your answer to (b) change if you were told that the return on equity will drop to
+15% after year 10 and remain at that level forever?
+1
+ The adjustment in the payout ratio is linear. The current payout ratio is 6.41% and the stable
+period payout ratio is 44.44%. Dividing the difference of 38.03% over four years yields an
+increase in the payout ratio of 9.51% each year.
+2
+ When the cost of equity changes each year, as it does between years 5 and 8, the compounded cost
+of equity has to be computed. For instance, the cash flow in year 6 will be discounted back using
+the following compounded cost:

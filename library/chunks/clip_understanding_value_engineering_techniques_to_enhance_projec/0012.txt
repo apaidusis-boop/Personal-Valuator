@@ -1,0 +1,9 @@
+ticulously document their findings and decisions. This substantial initial time investment pulls valuable resources without the guarantee that products or processes will be re-engineered with success.
+
+Value engineering efforts can sometimes prioritize immediate cost reductions over long-term value. This short-term focus may lead to decisions that save money initially but result in higher costs or lower performance over the product's or system's lifecycle. For instance, choosing cheaper materials to reduce upfront costs might lead to increased maintenance or replacement costs in the future. Teams need to balance short-term implications with long-term value.
+
+While reducing costs is a primary goal of value engineering, an excessive focus on cost-cutting can lead to unintended consequences as well. For example, eliminating certain features to save money might diminish the product's appeal or performance, ultimately negatively impacting the cost/benefit analysis. The same could somewhat be said about engineering. In some cases, value engineering can lead to over-engineering where the pursuit of optimization results in overly complex solutions. This complexity can ultimately increase costs and complicate implementation, even when trying to capture very little value.
+
+Last, value engineering is not universally applicable to all projects. Some projects may have rigid specifications, regulatory requirements, or client preferences that limit the scope for applying value engineering principles. Projects in highly regulated industries such as pharmaceuticals or aerospace may have strict compliance requirements. Companies may also simply lack the internal resources or headcount with the necessary skill sets to perform the analysis needed to re-engineer products.
+
+## Example of Value Engineering
