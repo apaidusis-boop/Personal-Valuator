@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Pedro Alocação
+handle: council.allocation
 tags: [moc, agent_reviews]
 ---
 

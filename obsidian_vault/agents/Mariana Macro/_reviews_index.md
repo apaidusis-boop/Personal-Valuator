@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Mariana Macro
+handle: council.macro
 tags: [moc, agent_reviews]
 ---
 

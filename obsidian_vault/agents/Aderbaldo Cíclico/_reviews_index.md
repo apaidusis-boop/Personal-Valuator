@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Aderbaldo Cíclico
+handle: council.commodities-br
 tags: [moc, agent_reviews]
 ---
 

@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Tião Galpão
+handle: council.industrials-br
 tags: [moc, agent_reviews]
 ---
 

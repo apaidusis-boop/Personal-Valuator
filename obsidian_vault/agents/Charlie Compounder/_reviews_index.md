@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Charlie Compounder
+handle: council.industrials-us
 tags: [moc, agent_reviews]
 ---
 

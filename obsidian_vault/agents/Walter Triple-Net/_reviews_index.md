@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Walter Triple-Net
+handle: council.reits-us
 tags: [moc, agent_reviews]
 ---
 

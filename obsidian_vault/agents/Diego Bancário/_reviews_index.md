@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Diego Bancário
+handle: council.banks-br
 tags: [moc, agent_reviews]
 ---
 

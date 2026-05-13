@@ -1,6 +1,7 @@
 ---
 type: agent_reviews_index
 agent: Valentina Prudente
+handle: council.risk-drift-audit
 tags: [moc, agent_reviews]
 ---
 
