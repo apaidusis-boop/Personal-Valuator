@@ -672,7 +672,7 @@ L3 — NARRATIVA (vault humano-escrita)    ← sagrado, scripts NÃO sobrescreve
 - [[skills/Design_System|🎨 Design System v1.0 (Helena)]]
 - [[skills/Design_Watch|🔍 Design Watch (research weekly)]]
 - [[skills/Claude_Design_Integration|🧪 Claude Design integration plan]]
-- [[agents/personas/Helena Linha|👤 Helena Linha (Head of Design)]]
+- [[design.lint|👤 Helena Linha (Head of Design)]]
 - [[skills/Session_2026-04-24_Final_State|🏆 Session 24/04 final]]
 - [[wiki/Index|📚 Wiki Index]]
 

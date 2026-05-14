@@ -508,7 +508,7 @@ Por ordem de prioridade, *além* deste mapa:
 - [[Helena_Mega/03_Spikes|4 paths de plataforma — A/B/C/D]]
 
 ### Personas e processos
-- [[../agents/personas/Helena Linha|Helena Linha (Head of Design)]]
+- [[design.lint|Helena Linha (Head of Design)]]
 - [[../agents/_information_levels|Clearance matrix dos 12 agents]]
 - [[Claude_Design_Integration|Workflow Claude Design]]
 - [[Design_Watch|Design research scout (weekly)]]

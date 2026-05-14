@@ -108,11 +108,13 @@ def load_universe() -> set[str]:
 
 def rewrite_target(target: str, tickers: set[str]) -> str | None:
     """Return rewritten target, or None if no rewrite applies."""
-    # Persona names → handles
+    # Strip optional path prefix like "../agents/personas/Helena Linha" or "hubs/JNJ"
+    raw = target.split("/")[-1] if "/" in target else target
+    # Persona names → handles (check both full target and stripped basename)
     if target in PERSONA_MAP:
         return PERSONA_MAP[target]
-    # Strip optional path prefix like "hubs/JNJ" or "dossiers/JNJ_STORY"
-    raw = target.split("/")[-1] if "/" in target else target
+    if raw in PERSONA_MAP:
+        return PERSONA_MAP[raw]
     # Ticker_SUFFIX → ticker
     # Match against both case-sensitive and prefix-of-token strategies
     # Strategy: longest-matching ticker prefix that has _<SUFFIX> after
@@ -161,6 +163,9 @@ def rewrite_text(text: str, tickers: set[str], stats: dict) -> tuple[str, int]:
 
 SKIP_DIRS = {"cemetery", ".obsidian", ".git"}
 SKIP_PREFIXES = {"skills/imported"}  # absorbed plugin docs — leave alone
+# Cleanup reports document the rewrite operation itself; if rewriter touches them
+# they become self-referential (e.g. "[[council.industrials-us]] -> [[council.industrials-us]]").
+SKIP_FILE_PATTERNS = ("Cleanup_2026-05-", "Cleanup_Overnight_")
 
 
 def should_skip(rel: Path) -> bool:
@@ -168,7 +173,9 @@ def should_skip(rel: Path) -> bool:
     if any(p in SKIP_DIRS for p in parts):
         return True
     s = str(rel).replace("\\", "/")
-    return any(s.startswith(p) for p in SKIP_PREFIXES)
+    if any(s.startswith(p) for p in SKIP_PREFIXES):
+        return True
+    return any(rel.name.startswith(p) for p in SKIP_FILE_PATTERNS)
 
 
 def main() -> None:

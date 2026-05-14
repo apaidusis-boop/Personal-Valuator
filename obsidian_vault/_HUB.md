@@ -85,11 +85,11 @@ LIMIT 20
 
 ### Departamentos
 
-- 🏛 [[agents/personas/Aurora Matina|Operations]] — desk diário (Aurora, Wilson, Noé, Zé)
-- 🔍 [[agents/personas/Ulisses Navegador|Research]] — Ulisses, Teresa, Sofia
-- 🛡 [[agents/personas/Valentina Prudente|Risk]] — Valentina, Diabo
-- ⚖️ [[agents/personas/Regina Ordem|Compliance]] — Regina
-- 📈 [[agents/personas/Aristóteles Backtest|Performance]] — Aristóteles, Clara
+- 🏛 [[ops.briefing|Operations]] — desk diário (Aurora, Wilson, Noé, Zé)
+- 🔍 [[research.scout|Research]] — Ulisses, Teresa, Sofia
+- 🛡 [[risk.drift-audit|Risk]] — Valentina, Diabo
+- ⚖️ [[risk.compliance|Compliance]] — Regina
+- 📈 [[perf.backtest-analysts|Performance]] — Aristóteles, Clara
 - 🎓 **Specialists (Council)** — Tião Galpão, Charlie Compounder, Diego Bancário, Hank Tier-One, Aderbaldo Cíclico, Lourdes Aluguel, Walter Triple-Net, Mariana Macro, Pedro Alocação
 
 ### Trabalho recente dos especialistas
