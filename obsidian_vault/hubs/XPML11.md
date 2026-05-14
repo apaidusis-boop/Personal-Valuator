@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 20
+sources_merged: 19
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Shopping` · `market: BR` · `currency: BRL` · `bucket: holdings` · `20 sources merged`
+`sector: Shopping` · `market: BR` · `currency: BRL` · `bucket: holdings` · `19 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\XPML11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XPML11.md` (cemetery archive)_
 
 #### XPML11 — Pilot Deep Dive (2026-05-12)
 
@@ -74,7 +74,7 @@ _source: `Overnight_2026-05-13\XPML11.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\XPML11_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[XPML11_STORY|XPML11]]
 
@@ -123,7 +123,7 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\XPML11_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[XPML11_STORY|XPML11]]
 
@@ -170,7 +170,7 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\XPML11_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[XPML11_STORY|XPML11]]
 
@@ -219,7 +219,7 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\XPML11_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[XPML11_STORY|XPML11]]
 
@@ -266,7 +266,7 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\XPML11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[XPML11_STORY|XPML11]]
 
@@ -315,7 +315,7 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\XPML11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[XPML11_STORY|XPML11]]
 
@@ -362,7 +362,7 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\XPML11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[XPML11_STORY|XPML11]]
 
@@ -411,7 +411,7 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\XPML11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[XPML11_STORY|XPML11]]
 
@@ -458,7 +458,7 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-27 · Filing 2026-04-27
-_source: `dossiers\XPML11_FILING_2026-04-27.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_FILING_2026-04-27.md` (cemetery archive)_
 
 #### Filing dossier — [[XPML11]] · 2026-04-27
 
@@ -506,58 +506,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\XPML11_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — XPML11          moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:            159
-  Entry price.........: R$      108.73
-  Cost basis..........: R$   17,288.07
-  Price now...........: R$      111.00
-  Market value now....: R$   17,649.00  [+2.1% nao-realizado]
-  DY t12m.............: 9.94%  (R$/US$ 11.0386/share)
-  DY vs own 10y.......: P62 [fair-cheap]  (actual 9.94% em 50 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=fii  streak=5  hist_g=-0.282  ipca_anchor=0.035
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   -1.00% |   +8.94%       |
-  | base         |   +0.00%  |   +0.00% |   +9.94%       |
-  | optimista    |   +0.00%  |   +1.00% |  +10.94%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     10       |        8       |        8       |
-  | base         |     10       |        8       |        8       |
-  | optimista    |     10       |        8       |        7       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     27,339 | R$     28,352 | R$     29,406 |
-  |  10y  | R$     43,375 | R$     45,547 | R$     47,956 |
-  |  15y  | R$     70,558 | R$     73,170 | R$     76,625 |
-  --------------------------------------------------------------------------
-
 #### — · Dossier
-_source: `dossiers\XPML11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11.md` (cemetery archive)_
 
 #### [[XPML11]] — Dossier Deepdive (2026-05-07)
 
@@ -587,7 +537,7 @@ Delta Report — XPML11 | hoje vs run anterior (2026-05-07)
 *Generated by `ii deepdive XPML11` em 2026-05-07T23:36:10.*
 
 #### — · Council aggregate
-_source: `dossiers\XPML11_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[XPML11_STORY|XPML11]] (XP Malls)
 
@@ -810,10 +760,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 [17] Tavily [Wed, 03 De]: # **BRBR Investors Have Opportunity to Join BellRing Brands, Inc. Fraud Investigation with the Schall Law Firm** BRBR Investors Have Opportunity to Join BellRing Brands, Inc. Fraud Investigation with the Schall Law Firm LOS ANGELES--(BUSINESS WIRE)--CI Investors Have Opportunity to Join The Cigna Gr
      URL: https://www.busines
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\XPML11_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\XPML11_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_STORY.md` (cemetery archive)_
 
 #### XP Malls — XPML11
 
@@ -1001,130 +951,60 @@ RATING: Buy
 ###### Pre-Mortem — Se esta tese falhar
 Valentina Prudente sinalizou que o Piotroski F-Score, indicando fragilidade financeira, pode ser um fator crucial na avaliação. Além disso, a aplicação do Piotroski F-Scor
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\XPML11_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_STORY.md`)_
 
-#### — · Other
-_source: `hubs\XPML11.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\XPML11_drip.md` (cemetery archive)_
 
-#### XPML11 — XP Malls
+/============================================================================\
+|   DRIP SCENARIO — XPML11          moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre XPML11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:            159
+  Entry price.........: R$      108.73
+  Cost basis..........: R$   17,288.07
+  Price now...........: R$      111.00
+  Market value now....: R$   17,649.00  [+2.1% nao-realizado]
+  DY t12m.............: 9.94%  (R$/US$ 11.0386/share)
+  DY vs own 10y.......: P62 [fair-cheap]  (actual 9.94% em 50 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Shopping` · `market: BR` · `currency: BRL`
+  kind=fii  streak=5  hist_g=-0.282  ipca_anchor=0.035
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   -1.00% |   +8.94%       |
+  | base         |   +0.00%  |   +0.00% |   +9.94%       |
+  | optimista    |   +0.00%  |   +1.00% |  +10.94%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 159.0 @ entry 108.73
-- **Verdict (DB)**: `HOLD` (score 5.7, 2026-05-13)
-- **Fundamentals** (2026-05-13): DY 10.3% · Dividend streak 5
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     10       |        8       |        8       |
+  | base         |     10       |        8       |        8       |
+  | optimista    |     10       |        8       |        7       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[XPML11]] _(`Overnight_2026-05-13/XPML11.md`)_
-- **2026-05-11** · Overnight → [[XPML11]] _(`Overnight_2026-05-11/XPML11.md`)_
-- **2026-05-01** · Dossier Archive → [[XPML11_STORY_2026-05-01]] _(`dossiers/archive/XPML11_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[XPML11_2026-05-01]] _(`agents/Valentina Prudente/reviews/XPML11_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[XPML11_2026-05-01]] _(`agents/Pedro Alocação/reviews/XPML11_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[XPML11_2026-05-01]] _(`agents/Mariana Macro/reviews/XPML11_2026-05-01.md`)_
-- **2026-05-01** · Review · Lourdes Aluguel → [[XPML11_2026-05-01]] _(`agents/Lourdes Aluguel/reviews/XPML11_2026-05-01.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[XPML11_2026-04-30]] _(`agents/Valentina Prudente/reviews/XPML11_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[XPML11_2026-04-30]] _(`agents/Pedro Alocação/reviews/XPML11_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[XPML11_2026-04-30]] _(`agents/Mariana Macro/reviews/XPML11_2026-04-30.md`)_
-- **2026-04-30** · Review · Lourdes Aluguel → [[XPML11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/XPML11_2026-04-30.md`)_
-- **2026-04-27** · Filing → [[XPML11_FILING_2026-04-27]] _(`dossiers/XPML11_FILING_2026-04-27.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[XPML11]] _(`wiki/holdings/XPML11.md`)_
-- **—** · Variant → [[XPML11_VARIANT]] _(`tickers/XPML11_VARIANT.md`)_
-- **—** · Story → [[XPML11_STORY]] _(`dossiers/XPML11_STORY.md`)_
-- **—** · Panorama → [[XPML11]] _(`tickers/XPML11.md`)_
-- **—** · Other → [[XPML11]] _(`hubs/XPML11.md`)_
-- **—** · Other → [[XPML11]] _(`dossiers/XPML11.md`)_
-- **—** · Ic Debate → [[XPML11_IC_DEBATE]] _(`tickers/XPML11_IC_DEBATE.md`)_
-- **—** · Drip → [[XPML11_drip]] _(`briefings/drip_scenarios/XPML11_drip.md`)_
-- **—** · Deepdive → [[XPML11_DOSSIE]] _(`tickers/XPML11_DOSSIE.md`)_
-- **—** · Council → [[XPML11_COUNCIL]] _(`dossiers/XPML11_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[XPML11]] _(`tickers/XPML11.md`)_
-
-###### Deepdive (DOSSIE)
-- [[XPML11_DOSSIE]] _(`tickers/XPML11_DOSSIE.md`)_
-
-###### Story
-- [[XPML11_STORY]] _(`dossiers/XPML11_STORY.md`)_
-
-###### Council aggregate
-- [[XPML11_COUNCIL]] _(`dossiers/XPML11_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Lourdes Aluguel_:
-- [[XPML11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/XPML11_2026-04-30.md`)_
-- [[XPML11_2026-05-01]] _(`agents/Lourdes Aluguel/reviews/XPML11_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[XPML11_2026-04-30]] _(`agents/Mariana Macro/reviews/XPML11_2026-04-30.md`)_
-- [[XPML11_2026-05-01]] _(`agents/Mariana Macro/reviews/XPML11_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[XPML11_2026-04-30]] _(`agents/Pedro Alocação/reviews/XPML11_2026-04-30.md`)_
-- [[XPML11_2026-05-01]] _(`agents/Pedro Alocação/reviews/XPML11_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[XPML11_2026-04-30]] _(`agents/Valentina Prudente/reviews/XPML11_2026-04-30.md`)_
-- [[XPML11_2026-05-01]] _(`agents/Valentina Prudente/reviews/XPML11_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[XPML11_IC_DEBATE]] _(`tickers/XPML11_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[XPML11_VARIANT]] _(`tickers/XPML11_VARIANT.md`)_
-
-###### Filings individuais
-- [[XPML11_FILING_2026-04-27]] _(`dossiers/XPML11_FILING_2026-04-27.md`)_
-
-###### Overnight scrapes
-- [[XPML11]] _(`Overnight_2026-05-13/XPML11.md`)_
-- [[XPML11]] _(`Overnight_2026-05-11/XPML11.md`)_
-
-###### DRIP scenarios
-- [[XPML11_drip]] _(`briefings/drip_scenarios/XPML11_drip.md`)_
-
-###### Wiki / playbooks
-- [[XPML11]] _(`wiki/holdings/XPML11.md`)_
-
-###### Archived stories
-- [[XPML11_STORY_2026-05-01]] _(`dossiers/archive/XPML11_STORY_2026-05-01.md`)_
-
-###### Other
-- [[XPML11]] _(`dossiers/XPML11.md`)_
-- [[XPML11]] _(`hubs/XPML11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama XPML11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive XPML11 --save-obsidian # V10 4-layer pipeline
-ii verdict XPML11 --narrate --write
-ii fv XPML11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker XPML11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     27,339 | R$     28,352 | R$     29,406 |
+  |  10y  | R$     43,375 | R$     45,547 | R$     47,956 |
+  |  15y  | R$     70,558 | R$     73,170 | R$     76,625 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\XPML11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11.md` (cemetery archive)_
 
 #### XPML11 — XP Malls
 
@@ -1295,7 +1175,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\XPML11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 XPML11 — XP Malls
 
@@ -1390,7 +1270,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 120.00 | [Suno FIIs] XPML11 — peso 5.0%, rating Comprar, PT R$120.0 |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\XPML11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — XPML11
 
@@ -1482,7 +1362,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 120.00 | [Suno FIIs] XPML11 — peso 5.0%, rating Comprar, PT R$120.0 |
 
 #### — · Variant perception
-_source: `tickers\XPML11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — XPML11
 
@@ -1528,7 +1408,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 120.00 | [Suno FIIs] XPML11 — peso 5.0%, rating Comprar, PT R$120.0 |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\XPML11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\XPML11.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[XPML11]] — XP Malls
 

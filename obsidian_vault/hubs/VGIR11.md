@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Papel (CRI)` · `market: BR` · `currency: BRL` · `bucket: holdings` · `14 sources merged`
+`sector: Papel (CRI)` · `market: BR` · `currency: BRL` · `bucket: holdings` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\VGIR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VGIR11.md` (cemetery archive)_
 
 #### VGIR11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\VGIR11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[VGIR11_STORY|VGIR11]]
 
@@ -117,7 +117,7 @@ VGIR11 oferece um DY de 15,7% e cinco anos consecutivos de pagamentos de dividen
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\VGIR11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[VGIR11_STORY|VGIR11]]
 
@@ -161,7 +161,7 @@ VGIR11 oferece yield de 15,7% e histórico de cinco anos de dividendos consecuti
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\VGIR11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[VGIR11_STORY|VGIR11]]
 
@@ -208,7 +208,7 @@ VGIR11 oferece um yield de 15,7% e cinco anos consecutivos de pagamentos de divi
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\VGIR11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[VGIR11_STORY|VGIR11]]
 
@@ -257,58 +257,8 @@ VGIR11 oferece yield de 15,7% e cinco anos consecutivos de pagamentos de dividen
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\VGIR11_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — VGIR11          moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:          1.776
-  Entry price.........: R$        9.72
-  Cost basis..........: R$   17,262.72
-  Price now...........: R$        9.79
-  Market value now....: R$   17,387.04  [+0.7% nao-realizado]
-  DY t12m.............: 15.63%  (R$/US$ 1.5300/share)
-  DY vs own 10y.......: P92 [CHEAP]  (actual 15.63% em 49 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=fii  streak=5  hist_g=-0.272  ipca_anchor=0.035
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   -1.00% |  +14.63%       |
-  | base         |   +0.00%  |   +0.00% |  +15.63%       |
-  | optimista    |   +0.00%  |   +1.00% |  +16.63%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |      7       |        5       |        5       |
-  | base         |      7       |        5       |        5       |
-  | optimista    |      7       |        5       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     34,891 | R$     35,937 | R$     37,028 |
-  |  10y  | R$     72,555 | R$     74,278 | R$     76,366 |
-  |  15y  | R$    156,593 | R$    153,526 | R$    152,737 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\VGIR11_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[VGIR11_STORY|VGIR11]] (Valora CRI)
 
@@ -524,10 +474,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 [15] Tavily [Wed, 03 De]: # **BRBR Investors Have Opportunity to Join BellRing Brands, Inc. Fraud Investigation with the Schall Law Firm** BRBR Investors Have Opportunity to Join BellRing Brands, Inc. Fraud Investigation with the Schall Law Firm LOS ANGELES--(BUSINESS WIRE)--CI Investors Have Opportunity to Join The Cigna Gr
      UR
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\VGIR11_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\VGIR11_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_STORY.md` (cemetery archive)_
 
 #### Valora CRI — VGIR11
 
@@ -705,116 +655,60 @@ Foi este o ponto onde Mariana Macro divergiu de Diego Bancário: "A economia bra
 
 > 12 entradas · 9 com URL · confiança: {'reported': 3, 'computed': 2, 'extrac
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\VGIR11_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_STORY.md`)_
 
-#### — · Other
-_source: `hubs\VGIR11.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\VGIR11_drip.md` (cemetery archive)_
 
-#### VGIR11 — Valora CRI
+/============================================================================\
+|   DRIP SCENARIO — VGIR11          moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre VGIR11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:          1.776
+  Entry price.........: R$        9.72
+  Cost basis..........: R$   17,262.72
+  Price now...........: R$        9.79
+  Market value now....: R$   17,387.04  [+0.7% nao-realizado]
+  DY t12m.............: 15.63%  (R$/US$ 1.5300/share)
+  DY vs own 10y.......: P92 [CHEAP]  (actual 15.63% em 49 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Papel (CRI)` · `market: BR` · `currency: BRL`
+  kind=fii  streak=5  hist_g=-0.272  ipca_anchor=0.035
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   -1.00% |  +14.63%       |
+  | base         |   +0.00%  |   +0.00% |  +15.63%       |
+  | optimista    |   +0.00%  |   +1.00% |  +16.63%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1776.0 @ entry 9.72
-- **Verdict (DB)**: `HOLD` (score 5.97, 2026-05-13)
-- **Fundamentals** (2026-05-13): DY 15.7% · Dividend streak 5
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |      7       |        5       |        5       |
+  | base         |      7       |        5       |        5       |
+  | optimista    |      7       |        5       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[VGIR11]] _(`Overnight_2026-05-13/VGIR11.md`)_
-- **2026-05-11** · Overnight → [[VGIR11]] _(`Overnight_2026-05-11/VGIR11.md`)_
-- **2026-04-30** · Dossier Archive → [[VGIR11_STORY_2026-04-30]] _(`dossiers/archive/VGIR11_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[VGIR11_2026-04-30]] _(`agents/Valentina Prudente/reviews/VGIR11_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[VGIR11_2026-04-30]] _(`agents/Pedro Alocação/reviews/VGIR11_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[VGIR11_2026-04-30]] _(`agents/Mariana Macro/reviews/VGIR11_2026-04-30.md`)_
-- **2026-04-30** · Review · Lourdes Aluguel → [[VGIR11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/VGIR11_2026-04-30.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[VGIR11]] _(`wiki/holdings/VGIR11.md`)_
-- **—** · Variant → [[VGIR11_VARIANT]] _(`tickers/VGIR11_VARIANT.md`)_
-- **—** · Story → [[VGIR11_STORY]] _(`dossiers/VGIR11_STORY.md`)_
-- **—** · Panorama → [[VGIR11]] _(`tickers/VGIR11.md`)_
-- **—** · Other → [[VGIR11]] _(`hubs/VGIR11.md`)_
-- **—** · Ic Debate → [[VGIR11_IC_DEBATE]] _(`tickers/VGIR11_IC_DEBATE.md`)_
-- **—** · Drip → [[VGIR11_drip]] _(`briefings/drip_scenarios/VGIR11_drip.md`)_
-- **—** · Deepdive → [[VGIR11_DOSSIE]] _(`tickers/VGIR11_DOSSIE.md`)_
-- **—** · Council → [[VGIR11_COUNCIL]] _(`dossiers/VGIR11_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[VGIR11]] _(`tickers/VGIR11.md`)_
-
-###### Deepdive (DOSSIE)
-- [[VGIR11_DOSSIE]] _(`tickers/VGIR11_DOSSIE.md`)_
-
-###### Story
-- [[VGIR11_STORY]] _(`dossiers/VGIR11_STORY.md`)_
-
-###### Council aggregate
-- [[VGIR11_COUNCIL]] _(`dossiers/VGIR11_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Lourdes Aluguel_:
-- [[VGIR11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/VGIR11_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[VGIR11_2026-04-30]] _(`agents/Mariana Macro/reviews/VGIR11_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[VGIR11_2026-04-30]] _(`agents/Pedro Alocação/reviews/VGIR11_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[VGIR11_2026-04-30]] _(`agents/Valentina Prudente/reviews/VGIR11_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[VGIR11_IC_DEBATE]] _(`tickers/VGIR11_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[VGIR11_VARIANT]] _(`tickers/VGIR11_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[VGIR11]] _(`Overnight_2026-05-13/VGIR11.md`)_
-- [[VGIR11]] _(`Overnight_2026-05-11/VGIR11.md`)_
-
-###### DRIP scenarios
-- [[VGIR11_drip]] _(`briefings/drip_scenarios/VGIR11_drip.md`)_
-
-###### Wiki / playbooks
-- [[VGIR11]] _(`wiki/holdings/VGIR11.md`)_
-
-###### Archived stories
-- [[VGIR11_STORY_2026-04-30]] _(`dossiers/archive/VGIR11_STORY_2026-04-30.md`)_
-
-###### Other
-- [[VGIR11]] _(`hubs/VGIR11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama VGIR11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive VGIR11 --save-obsidian # V10 4-layer pipeline
-ii verdict VGIR11 --narrate --write
-ii fv VGIR11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker VGIR11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     34,891 | R$     35,937 | R$     37,028 |
+  |  10y  | R$     72,555 | R$     74,278 | R$     76,366 |
+  |  15y  | R$    156,593 | R$    153,526 | R$    152,737 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\VGIR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11.md` (cemetery archive)_
 
 #### VGIR11 — Valora CRI
 
@@ -970,7 +864,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\VGIR11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 VGIR11 — Valora CRI
 
@@ -1076,7 +970,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 92.00 | [Suno FIIs] VGIR11 — peso 12.1%, rating Comprar, PT R$92.0 |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\VGIR11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — VGIR11
 
@@ -1176,7 +1070,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 92.00 | [Suno FIIs] VGIR11 — peso 12.1%, rating Comprar, PT R$92.0 |
 
 #### — · Variant perception
-_source: `tickers\VGIR11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — VGIR11
 
@@ -1229,7 +1123,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 92.00 | [Suno FIIs] VGIR11 — peso 12.1%, rating Comprar, PT R$92.0 |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\VGIR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\VGIR11.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[VGIR11]] — Valora RE Investimentos
 

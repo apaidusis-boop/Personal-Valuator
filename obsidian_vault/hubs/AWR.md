@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\AWR.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AWR.md` (cemetery archive)_
 
 #### AWR — Pilot Deep Dive (2026-05-12)
 
@@ -73,7 +73,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\AWR.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\AWR.md` (cemetery archive)_
 
 #### AWR — American States Water
 
@@ -178,7 +178,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\AWR_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\AWR_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — AWR
 

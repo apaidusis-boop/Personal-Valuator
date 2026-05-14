@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 6
+sources_merged: 5
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: ETF-Eq` · `market: BR` · `currency: BRL` · `bucket: holdings` · `6 sources merged`
+`sector: ETF-Eq` · `market: BR` · `currency: BRL` · `bucket: holdings` · `5 sources merged`
 
 ## 🎯 Hoje
 
@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### (undated)
 
 #### — · DRIP scenarios
-_source: `briefings\drip_scenarios\IVVB11_drip.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\IVVB11_drip.md` (cemetery archive)_
 
 /============================================================================\
 |   DRIP SCENARIO — IVVB11          moeda BRL      data 26/04/2026           |
@@ -79,70 +79,8 @@ _source: `briefings\drip_scenarios\IVVB11_drip.md` (now in cemetery)_
   |  15y  | R$     10,624 | R$     18,518 | R$     31,642 |
   --------------------------------------------------------------------------
 
-#### — · Other
-_source: `hubs\IVVB11.md` (now in cemetery)_
-
-#### IVVB11 — iShares S&P 500 (BRL hedged)
-
-> **Hub consolidado**. Tudo o que existe no vault sobre IVVB11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
-
-`sector: ETF-US` · `market: BR` · `currency: BRL`
-
-##### 🎯 Hoje
-
-- **Posição**: 11.0 @ entry 145.55
-- **Verdict (DB)**: `SELL` (score 2.97, 2026-05-13)
-
-##### 📜 Histórico (chronological journal)
-
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### (undated)
-
-- **—** · Wiki → [[IVVB11]] _(`wiki/holdings/IVVB11.md`)_
-- **—** · Variant → [[IVVB11_VARIANT]] _(`tickers/IVVB11_VARIANT.md`)_
-- **—** · Panorama → [[IVVB11]] _(`tickers/IVVB11.md`)_
-- **—** · Other → [[IVVB11]] _(`hubs/IVVB11.md`)_
-- **—** · Ic Debate → [[IVVB11_IC_DEBATE]] _(`tickers/IVVB11_IC_DEBATE.md`)_
-- **—** · Drip → [[IVVB11_drip]] _(`briefings/drip_scenarios/IVVB11_drip.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[IVVB11]] _(`tickers/IVVB11.md`)_
-
-###### IC Debate (synthetic)
-- [[IVVB11_IC_DEBATE]] _(`tickers/IVVB11_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[IVVB11_VARIANT]] _(`tickers/IVVB11_VARIANT.md`)_
-
-###### DRIP scenarios
-- [[IVVB11_drip]] _(`briefings/drip_scenarios/IVVB11_drip.md`)_
-
-###### Wiki / playbooks
-- [[IVVB11]] _(`wiki/holdings/IVVB11.md`)_
-
-###### Other
-- [[IVVB11]] _(`hubs/IVVB11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama IVVB11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive IVVB11 --save-obsidian # V10 4-layer pipeline
-ii verdict IVVB11 --narrate --write
-ii fv IVVB11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker IVVB11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
-
 #### — · Panorama
-_source: `tickers\IVVB11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IVVB11.md` (cemetery archive)_
 
 #### IVVB11 — iShares S&P 500 (BRL)
 
@@ -244,7 +182,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\IVVB11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IVVB11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — IVVB11
 
@@ -334,7 +272,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | — | [Suno Renda Total] IVVB11 — peso 7.5%, rating Comprar |
 
 #### — · Variant perception
-_source: `tickers\IVVB11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IVVB11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — IVVB11
 
@@ -377,7 +315,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | — | [Suno Renda Total] IVVB11 — peso 7.5%, rating Comprar |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\IVVB11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\IVVB11.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

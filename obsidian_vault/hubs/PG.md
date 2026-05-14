@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 15
+sources_merged: 14
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Consumer Staples` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
+`sector: Consumer Staples` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\PG.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PG.md` (cemetery archive)_
 
 #### PG — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\PG.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-05 · Bibliotheca cross-ref
-_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md` (now in cemetery)_
+_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md`_
 
 #### Compare — JNJ · KO · PG
 
@@ -136,7 +136,7 @@ _Generated 2026-05-05 · 3 ticker(s)_
 _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski,altman,beneish,dividend_safety} engines._
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\PG_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PG_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[PG_STORY|PG]]
 
@@ -181,7 +181,7 @@ PG oferece ROE elevado de 31,56% e um histórico de aumentos de dividendos de 65
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\PG_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PG_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[PG_STORY|PG]]
 
@@ -228,7 +228,7 @@ A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, a
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\PG_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PG_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[PG_STORY|PG]]
 
@@ -277,7 +277,7 @@ A empresa apresenta um sólido ROE de 31.1% e P/E de 21.5, além de uma consiste
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\PG_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PG_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[PG_STORY|PG]]
 
@@ -324,58 +324,8 @@ A Procter & Gamble apresenta um P/E de 21.50, ROE de 31.1% e uma margem EBITDA s
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\PG_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — PG              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             10
-  Entry price.........: US$      142.76
-  Cost basis..........: US$    1,427.60
-  Price now...........: US$      148.18
-  Market value now....: US$    1,481.80  [+3.8% nao-realizado]
-  DY t12m.............: 2.87%  (R$/US$ 4.2600/share)
-  DY vs own 10y.......: P69 [fair-cheap]  (actual 2.87% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=65  hist_g_5y=0.053  hist_g_raw=0.053  gordon_g=0.115  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +5.04%  |   -1.00% |   +6.91%       |
-  | base         |   +8.39%  |   +0.00% |  +11.27%       |
-  | optimista    |  +11.33%  |   +1.00% |  +15.21%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     20       |       22       |       10       |
-  | base         |     16       |       25       |        7       |
-  | optimista    |     14       |       28       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      2,089 | US$      2,555 | US$      3,042 |
-  |  10y  | US$      2,967 | US$      4,405 | US$      6,210 |
-  |  15y  | US$      4,244 | US$      7,594 | US$     12,602 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\PG_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[PG_STORY|PG]] (Procter & Gamble)
 
@@ -633,10 +583,10 @@ firms
      URL: https://wwd.com/beauty-industry-news/beauty-features/procter-gamble-pg-q3-fiscal-2026-earnings-china-1238928202/
 [20] Tavily [Fri, 24 Ap]: # Tide maker P&G beats earnings estimates as Iran war drives up costs. The stock rose about 3% in premarket trading on Friday as the Tide maker beat earnings and reiterated its outlook, 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PG_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\PG_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_STORY.md` (cemetery archive)_
 
 #### Procter & Gamble — PG
 
@@ -818,120 +768,60 @@ RATING: Buy
 
 ###### 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PG_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_STORY.md`)_
 
-#### — · Other
-_source: `hubs\PG.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PG_drip.md` (cemetery archive)_
 
-#### PG — Procter & Gamble
+/============================================================================\
+|   DRIP SCENARIO — PG              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre PG, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             10
+  Entry price.........: US$      142.76
+  Cost basis..........: US$    1,427.60
+  Price now...........: US$      148.18
+  Market value now....: US$    1,481.80  [+3.8% nao-realizado]
+  DY t12m.............: 2.87%  (R$/US$ 4.2600/share)
+  DY vs own 10y.......: P69 [fair-cheap]  (actual 2.87% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Consumer Staples` · `market: US` · `currency: USD`
+  kind=equity  streak=65  hist_g_5y=0.053  hist_g_raw=0.053  gordon_g=0.115  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +5.04%  |   -1.00% |   +6.91%       |
+  | base         |   +8.39%  |   +0.00% |  +11.27%       |
+  | optimista    |  +11.33%  |   +1.00% |  +15.21%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 10.0 @ entry 142.76
-- **Verdict (DB)**: `WATCH` (score 6.97, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 20.80 · P/B 6.16 · DY 3.0% · ROE 31.1% · ND/EBITDA 0.99 · Dividend streak 65 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     20       |       22       |       10       |
+  | base         |     16       |       25       |        7       |
+  | optimista    |     14       |       28       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[PG]] _(`Overnight_2026-05-13/PG.md`)_
-- **2026-05-11** · Overnight → [[PG]] _(`Overnight_2026-05-11/PG.md`)_
-- **2026-05-05** · Bibliotheca → [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-- **2026-05-01** · Dossier Archive → [[PG_STORY_2026-05-01]] _(`dossiers/archive/PG_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[PG_2026-05-01]] _(`agents/Valentina Prudente/reviews/PG_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[PG_2026-05-01]] _(`agents/Pedro Alocação/reviews/PG_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[PG_2026-05-01]] _(`agents/Mariana Macro/reviews/PG_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[PG_2026-05-01]] _(`agents/Charlie Compounder/reviews/PG_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[PG]] _(`wiki/holdings/PG.md`)_
-- **—** · Variant → [[PG_VARIANT]] _(`tickers/PG_VARIANT.md`)_
-- **—** · Story → [[PG_STORY]] _(`dossiers/PG_STORY.md`)_
-- **—** · Panorama → [[PG]] _(`tickers/PG.md`)_
-- **—** · Other → [[PG]] _(`hubs/PG.md`)_
-- **—** · Ic Debate → [[PG_IC_DEBATE]] _(`tickers/PG_IC_DEBATE.md`)_
-- **—** · Drip → [[PG_drip]] _(`briefings/drip_scenarios/PG_drip.md`)_
-- **—** · Deepdive → [[PG_DOSSIE]] _(`tickers/PG_DOSSIE.md`)_
-- **—** · Council → [[PG_COUNCIL]] _(`dossiers/PG_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[PG]] _(`tickers/PG.md`)_
-
-###### Deepdive (DOSSIE)
-- [[PG_DOSSIE]] _(`tickers/PG_DOSSIE.md`)_
-
-###### Story
-- [[PG_STORY]] _(`dossiers/PG_STORY.md`)_
-
-###### Council aggregate
-- [[PG_COUNCIL]] _(`dossiers/PG_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[PG_2026-05-01]] _(`agents/Charlie Compounder/reviews/PG_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[PG_2026-05-01]] _(`agents/Mariana Macro/reviews/PG_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[PG_2026-05-01]] _(`agents/Pedro Alocação/reviews/PG_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[PG_2026-05-01]] _(`agents/Valentina Prudente/reviews/PG_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[PG_IC_DEBATE]] _(`tickers/PG_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[PG_VARIANT]] _(`tickers/PG_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[PG]] _(`Overnight_2026-05-13/PG.md`)_
-- [[PG]] _(`Overnight_2026-05-11/PG.md`)_
-
-###### DRIP scenarios
-- [[PG_drip]] _(`briefings/drip_scenarios/PG_drip.md`)_
-
-###### Wiki / playbooks
-- [[PG]] _(`wiki/holdings/PG.md`)_
-
-###### Bibliotheca / clippings
-- [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-
-###### Archived stories
-- [[PG_STORY_2026-05-01]] _(`dossiers/archive/PG_STORY_2026-05-01.md`)_
-
-###### Other
-- [[PG]] _(`hubs/PG.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama PG --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive PG --save-obsidian # V10 4-layer pipeline
-ii verdict PG --narrate --write
-ii fv PG                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker PG # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      2,089 | US$      2,555 | US$      3,042 |
+  |  10y  | US$      2,967 | US$      4,405 | US$      6,210 |
+  |  15y  | US$      4,244 | US$      7,594 | US$     12,602 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\PG.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG.md` (cemetery archive)_
 
 #### PG — Procter & Gamble
 
@@ -1079,7 +969,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\PG_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG_DOSSIE.md` (cemetery archive)_
 
 #### 📑 PG — Procter & Gamble
 
@@ -1168,7 +1058,7 @@ PG negoceia a P/E 21.92 com DY 2.87% e ROE 31.12%, IC HOLD com alta confiança (
 *Generated by `ii dossier PG` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\PG_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — PG
 
@@ -1262,7 +1152,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\PG_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — PG
 
@@ -1296,7 +1186,7 @@ _source: `tickers\PG_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\PG.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\PG.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[PG]] — Procter & Gamble
 

@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\HGLG11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HGLG11.md` (cemetery archive)_
 
 #### HGLG11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\HGLG11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HGLG11.md` (cemetery archive)_
 
 #### HGLG11 — CSHG Logística
 
@@ -203,7 +203,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\HGLG11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HGLG11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 HGLG11 — CSHG Logística
 
@@ -315,7 +315,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | XP | thesis | bull | — | Patria Log é destacado por sua posição em ativos logísticos. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\HGLG11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HGLG11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — HGLG11
 

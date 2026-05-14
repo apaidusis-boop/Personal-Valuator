@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Consumer Disc.` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
+`sector: Consumer Disc.` · `market: US` · `currency: USD` · `bucket: holdings` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\TSLA.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TSLA.md` (cemetery archive)_
 
 #### TSLA — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\TSLA.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\TSLA_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[TSLA_STORY|TSLA]]
 
@@ -128,7 +128,7 @@ P/E of 351.29 and ROE of 4.9% indicate poor valuation and profitability, respect
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\TSLA_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[TSLA_STORY|TSLA]]
 
@@ -177,7 +177,7 @@ A Tesla tem um P/E de 351.29 e ROE baixo de 4.9%, indicando desafios na valoriza
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\TSLA_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[TSLA_STORY|TSLA]]
 
@@ -226,7 +226,7 @@ A Tesla possui uma relação dívida líquida sobre EBITDA negativa (-2.79) e um
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\TSLA_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[TSLA_STORY|TSLA]]
 
@@ -278,57 +278,8 @@ A Tesla possui um ROE baixo (4.9%) e uma alta relação P/E (351.29), mas sua d�
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\TSLA_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — TSLA            moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              3
-  Entry price.........: US$      186.40
-  Cost basis..........: US$      559.21
-  Price now...........: US$      376.30
-  Market value now....: US$    1,128.90  [+101.9% nao-realizado]
-  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
-
-  kind=equity  streak=0  price_cagr_5y=0.099
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   +4.94% |   +4.94%       |
-  | base         |   +0.00%  |   +9.89% |   +9.89%       |
-  | optimista    |   +0.00%  |  +12.86% |  +12.86%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |        1       |
-  | base         |    >40       |      >40       |        1       |
-  | optimista    |    >40       |      >40       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,437 | US$      1,809 | US$      2,067 |
-  |  10y  | US$      1,829 | US$      2,899 | US$      3,783 |
-  |  15y  | US$      2,328 | US$      4,645 | US$      6,926 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\TSLA_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[TSLA_STORY|TSLA]] (Tesla)
 
@@ -604,10 +555,10 @@ Estimates of growth for the firms in the initial years are based on the growth i
 [20] Tavily [Mon, 13 Ap]: # “Has Been Approved”: Tesla Stock (NASDAQ:TSLA) Gains as the Dutch Sign Off on FSD. * The Dutch accept Full Self-Driving  (Supervised). * Tesla’s Cabin Camera gets a useful new feature. Electric vehicle giant Tesla (TSLA) landed a fairly big win to start off the week. Authorities in the Netherlands
      URL: https://www.tipranks.com/news/has-been-approved-tesla-stoc
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TSLA_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\TSLA_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_STORY.md` (cemetery archive)_
 
 #### Tesla — TSLA
 
@@ -775,116 +726,59 @@ O atual preço da Tesla (R$ 381,63 por ação) reflete uma expectativa elevada e
 
 Os fundamentos da Tesla indicam desafios significativos na geração de fluxo de ca
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TSLA_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_STORY.md`)_
 
-#### — · Other
-_source: `hubs\TSLA.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TSLA_drip.md` (cemetery archive)_
 
-#### TSLA — Tesla
+/============================================================================\
+|   DRIP SCENARIO — TSLA            moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre TSLA, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              3
+  Entry price.........: US$      186.40
+  Cost basis..........: US$      559.21
+  Price now...........: US$      376.30
+  Market value now....: US$    1,128.90  [+101.9% nao-realizado]
+  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
 
-`sector: Consumer Disc.` · `market: US` · `currency: USD`
+  kind=equity  streak=0  price_cagr_5y=0.099
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   +4.94% |   +4.94%       |
+  | base         |   +0.00%  |   +9.89% |   +9.89%       |
+  | optimista    |   +0.00%  |  +12.86% |  +12.86%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 3.0 @ entry 186.40333333333334
-- **Verdict (DB)**: `HOLD` (score 4.16, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 412.29 · P/B 20.33 · ROE 4.9% · ND/EBITDA -2.60 · Dividend streak 0 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |        1       |
+  | base         |    >40       |      >40       |        1       |
+  | optimista    |    >40       |      >40       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[TSLA]] _(`Overnight_2026-05-13/TSLA.md`)_
-- **2026-05-11** · Overnight → [[TSLA]] _(`Overnight_2026-05-11/TSLA.md`)_
-- **2026-05-01** · Dossier Archive → [[TSLA_STORY_2026-05-01]] _(`dossiers/archive/TSLA_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[TSLA_2026-05-01]] _(`agents/Valentina Prudente/reviews/TSLA_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[TSLA_2026-05-01]] _(`agents/Pedro Alocação/reviews/TSLA_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[TSLA_2026-05-01]] _(`agents/Mariana Macro/reviews/TSLA_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[TSLA_2026-05-01]] _(`agents/Charlie Compounder/reviews/TSLA_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[TSLA]] _(`wiki/holdings/TSLA.md`)_
-- **—** · Variant → [[TSLA_VARIANT]] _(`tickers/TSLA_VARIANT.md`)_
-- **—** · Story → [[TSLA_STORY]] _(`dossiers/TSLA_STORY.md`)_
-- **—** · Panorama → [[TSLA]] _(`tickers/TSLA.md`)_
-- **—** · Other → [[TSLA]] _(`hubs/TSLA.md`)_
-- **—** · Ic Debate → [[TSLA_IC_DEBATE]] _(`tickers/TSLA_IC_DEBATE.md`)_
-- **—** · Drip → [[TSLA_drip]] _(`briefings/drip_scenarios/TSLA_drip.md`)_
-- **—** · Deepdive → [[TSLA_DOSSIE]] _(`tickers/TSLA_DOSSIE.md`)_
-- **—** · Council → [[TSLA_COUNCIL]] _(`dossiers/TSLA_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[TSLA]] _(`tickers/TSLA.md`)_
-
-###### Deepdive (DOSSIE)
-- [[TSLA_DOSSIE]] _(`tickers/TSLA_DOSSIE.md`)_
-
-###### Story
-- [[TSLA_STORY]] _(`dossiers/TSLA_STORY.md`)_
-
-###### Council aggregate
-- [[TSLA_COUNCIL]] _(`dossiers/TSLA_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[TSLA_2026-05-01]] _(`agents/Charlie Compounder/reviews/TSLA_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[TSLA_2026-05-01]] _(`agents/Mariana Macro/reviews/TSLA_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[TSLA_2026-05-01]] _(`agents/Pedro Alocação/reviews/TSLA_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[TSLA_2026-05-01]] _(`agents/Valentina Prudente/reviews/TSLA_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[TSLA_IC_DEBATE]] _(`tickers/TSLA_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[TSLA_VARIANT]] _(`tickers/TSLA_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[TSLA]] _(`Overnight_2026-05-13/TSLA.md`)_
-- [[TSLA]] _(`Overnight_2026-05-11/TSLA.md`)_
-
-###### DRIP scenarios
-- [[TSLA_drip]] _(`briefings/drip_scenarios/TSLA_drip.md`)_
-
-###### Wiki / playbooks
-- [[TSLA]] _(`wiki/holdings/TSLA.md`)_
-
-###### Archived stories
-- [[TSLA_STORY_2026-05-01]] _(`dossiers/archive/TSLA_STORY_2026-05-01.md`)_
-
-###### Other
-- [[TSLA]] _(`hubs/TSLA.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama TSLA --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive TSLA --save-obsidian # V10 4-layer pipeline
-ii verdict TSLA --narrate --write
-ii fv TSLA                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker TSLA # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,437 | US$      1,809 | US$      2,067 |
+  |  10y  | US$      1,829 | US$      2,899 | US$      3,783 |
+  |  15y  | US$      2,328 | US$      4,645 | US$      6,926 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\TSLA.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA.md` (cemetery archive)_
 
 #### TSLA — Tesla
 
@@ -1052,7 +946,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\TSLA_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA_DOSSIE.md` (cemetery archive)_
 
 #### 📑 TSLA — Tesla
 
@@ -1167,7 +1061,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=2 · analyst=6 · themes=1_
 | 2026-05-09 | Motley Fool Money | real_estate_cycle | bearish | O setor de imóveis está em desempenho negativo, com uma queda de 5% nos últimos 12 meses. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\TSLA_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — TSLA
 
@@ -1287,7 +1181,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=2 · analyst=6 · themes=1_
 | 2026-05-09 | Motley Fool Money | real_estate_cycle | bearish | O setor de imóveis está em desempenho negativo, com uma queda de 5% nos últimos 12 meses. |
 
 #### — · Variant perception
-_source: `tickers\TSLA_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — TSLA
 
@@ -1360,7 +1254,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=2 · analyst=6 · themes=1_
 | 2026-05-09 | Motley Fool Money | real_estate_cycle | bearish | O setor de imóveis está em desempenho negativo, com uma queda de 5% nos últimos 12 meses. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\TSLA.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\TSLA.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

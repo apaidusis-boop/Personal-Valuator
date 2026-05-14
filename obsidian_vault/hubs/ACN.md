@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 17
+sources_merged: 16
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `17 sources merged`
+`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-06-18 · Earnings prep
-_source: `briefings\earnings_prep_ACN_2026-06-18.md` (now in cemetery)_
+_source: `briefings\earnings_prep_ACN_2026-06-18.md`_
 
 #### 📞 Earnings Prep — ACN (2026-06-18)
 
@@ -106,7 +106,7 @@ consistentes. Valuation actual oferece margem de segurança após 2024 drawdown.
 ```
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\ACN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ACN.md` (cemetery archive)_
 
 #### ACN — Pilot Deep Dive (2026-05-12)
 
@@ -152,7 +152,7 @@ _source: `Overnight_2026-05-13\ACN.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\ACN_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[ACN_STORY|ACN]]
 
@@ -199,7 +199,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\ACN_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[ACN_STORY|ACN]]
 
@@ -246,7 +246,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\ACN_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[ACN_STORY|ACN]]
 
@@ -295,7 +295,7 @@ ACN lidera na implementação de AI e transformação digital, com ROE de 25%+ e
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\ACN_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[ACN_STORY|ACN]]
 
@@ -351,7 +351,7 @@ ACN beneficia de crescimento sustentável na implementação de AI e forte retor
 ### 2023
 
 #### 2023-02-01 · Filing 2023-02-01
-_source: `dossiers\ACN_FILING_2023-02-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_FILING_2023-02-01.md` (cemetery archive)_
 
 #### Filing dossier — [[ACN]] · 2023-02-01
 
@@ -405,58 +405,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\ACN_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — ACN             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              4
-  Entry price.........: US$      213.71
-  Cost basis..........: US$      920.03
-  Price now...........: US$      178.36
-  Market value now....: US$      767.85  [-16.5% nao-realizado]
-  DY t12m.............: 1.74%  (R$/US$ 3.1100/share)
-  DY vs own 10y.......: P71 [fair-cheap]  (actual 1.74% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=22  hist_g_5y=0.053  hist_g_raw=0.053  gordon_g=0.185  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +7.13%  |   -1.00% |   +7.87%       |
-  | base         |  +11.88%  |   +0.00% |  +13.62%       |
-  | optimista    |  +16.04%  |   +1.00% |  +18.78%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     25       |       34       |       12       |
-  | base         |     19       |      >40       |        7       |
-  | optimista    |     16       |      >40       |        6       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,130 | US$      1,468 | US$      1,834 |
-  |  10y  | US$      1,670 | US$      2,805 | US$      4,367 |
-  |  15y  | US$      2,478 | US$      5,360 | US$     10,362 |
-  --------------------------------------------------------------------------
-
 #### — · Dossier
-_source: `dossiers\ACN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN.md` (cemetery archive)_
 
 #### [[ACN]] — Dossier Deepdive (2026-05-05)
 
@@ -556,7 +506,7 @@ A margem líquida e o giro são os principais drivers do ROE. A alavancagem fina
 *Generated by `ii deepdive ACN` em 2026-05-05T06:39:20.*
 
 #### — · Council aggregate
-_source: `dossiers\ACN_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[ACN_STORY|ACN]] (Accenture)
 
@@ -800,10 +750,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 ##### TAVILY INSIDER/SHORT/SCANDAL (5 hits)
 [17] Tavily [Tue, 20 Ja]: GLASGOW, Scotland--(BUSINESS WIRE)-- ScottishPowe
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ACN_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\ACN_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_STORY.md` (cemetery archive)_
 
 #### Accenture — ACN
 
@@ -983,129 +933,60 @@ O perfil filosófico da Accenture é predominantemente de valor, com uma pontua�
 ###### O que o preço desconta
 O atual preço da Accenture, R$ 178.71, já incorpora uma visão otimista sobre a empresa's capacidade de continuar inovando e expand
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ACN_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_STORY.md`)_
 
-#### — · Other
-_source: `hubs\ACN.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ACN_drip.md` (cemetery archive)_
 
-#### ACN — Accenture
+/============================================================================\
+|   DRIP SCENARIO — ACN             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre ACN, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              4
+  Entry price.........: US$      213.71
+  Cost basis..........: US$      920.03
+  Price now...........: US$      178.36
+  Market value now....: US$      767.85  [-16.5% nao-realizado]
+  DY t12m.............: 1.74%  (R$/US$ 3.1100/share)
+  DY vs own 10y.......: P71 [fair-cheap]  (actual 1.74% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Technology` · `market: US` · `currency: USD`
+  kind=equity  streak=22  hist_g_5y=0.053  hist_g_raw=0.053  gordon_g=0.185  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +7.13%  |   -1.00% |   +7.87%       |
+  | base         |  +11.88%  |   +0.00% |  +13.62%       |
+  | optimista    |  +16.04%  |   +1.00% |  +18.78%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 4.30506 @ entry 213.70666146348714
-- **Verdict (DB)**: `WATCH` (score 6.62, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 13.07 · P/B 3.14 · DY 1.9% · ROE 24.8% · ND/EBITDA -0.08 · Dividend streak 22 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     25       |       34       |       12       |
+  | base         |     19       |      >40       |        7       |
+  | optimista    |     16       |      >40       |        6       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-06-18** · Earnings Prep → [[earnings_prep_ACN_2026-06-18]] _(`briefings/earnings_prep_ACN_2026-06-18.md`)_
-- **2026-05-13** · Overnight → [[ACN]] _(`Overnight_2026-05-13/ACN.md`)_
-- **2026-05-11** · Overnight → [[ACN]] _(`Overnight_2026-05-11/ACN.md`)_
-- **2026-04-30** · Dossier Archive → [[ACN_STORY_2026-04-30]] _(`dossiers/archive/ACN_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[ACN_2026-04-30]] _(`agents/Valentina Prudente/reviews/ACN_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[ACN_2026-04-30]] _(`agents/Pedro Alocação/reviews/ACN_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[ACN_2026-04-30]] _(`agents/Mariana Macro/reviews/ACN_2026-04-30.md`)_
-- **2026-04-30** · Review · Charlie Compounder → [[ACN_2026-04-30]] _(`agents/Charlie Compounder/reviews/ACN_2026-04-30.md`)_
-
-###### 2023
-
-- **2023-02-01** · Filing → [[ACN_FILING_2023-02-01]] _(`dossiers/ACN_FILING_2023-02-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[ACN]] _(`wiki/holdings/ACN.md`)_
-- **—** · Variant → [[ACN_VARIANT]] _(`tickers/ACN_VARIANT.md`)_
-- **—** · Story → [[ACN_STORY]] _(`dossiers/ACN_STORY.md`)_
-- **—** · Panorama → [[ACN]] _(`tickers/ACN.md`)_
-- **—** · Other → [[ACN]] _(`hubs/ACN.md`)_
-- **—** · Other → [[ACN]] _(`dossiers/ACN.md`)_
-- **—** · Ic Debate → [[ACN_IC_DEBATE]] _(`tickers/ACN_IC_DEBATE.md`)_
-- **—** · Drip → [[ACN_drip]] _(`briefings/drip_scenarios/ACN_drip.md`)_
-- **—** · Deepdive → [[ACN_DOSSIE]] _(`tickers/ACN_DOSSIE.md`)_
-- **—** · Council → [[ACN_COUNCIL]] _(`dossiers/ACN_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[ACN]] _(`tickers/ACN.md`)_
-
-###### Deepdive (DOSSIE)
-- [[ACN_DOSSIE]] _(`tickers/ACN_DOSSIE.md`)_
-
-###### Story
-- [[ACN_STORY]] _(`dossiers/ACN_STORY.md`)_
-
-###### Council aggregate
-- [[ACN_COUNCIL]] _(`dossiers/ACN_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[ACN_2026-04-30]] _(`agents/Charlie Compounder/reviews/ACN_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[ACN_2026-04-30]] _(`agents/Mariana Macro/reviews/ACN_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[ACN_2026-04-30]] _(`agents/Pedro Alocação/reviews/ACN_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[ACN_2026-04-30]] _(`agents/Valentina Prudente/reviews/ACN_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[ACN_IC_DEBATE]] _(`tickers/ACN_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[ACN_VARIANT]] _(`tickers/ACN_VARIANT.md`)_
-
-###### Filings individuais
-- [[ACN_FILING_2023-02-01]] _(`dossiers/ACN_FILING_2023-02-01.md`)_
-
-###### Overnight scrapes
-- [[ACN]] _(`Overnight_2026-05-13/ACN.md`)_
-- [[ACN]] _(`Overnight_2026-05-11/ACN.md`)_
-
-###### DRIP scenarios
-- [[ACN_drip]] _(`briefings/drip_scenarios/ACN_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_ACN_2026-06-18]] _(`briefings/earnings_prep_ACN_2026-06-18.md`)_
-
-###### Wiki / playbooks
-- [[ACN]] _(`wiki/holdings/ACN.md`)_
-
-###### Archived stories
-- [[ACN_STORY_2026-04-30]] _(`dossiers/archive/ACN_STORY_2026-04-30.md`)_
-
-###### Other
-- [[ACN]] _(`dossiers/ACN.md`)_
-- [[ACN]] _(`hubs/ACN.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama ACN --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive ACN --save-obsidian # V10 4-layer pipeline
-ii verdict ACN --narrate --write
-ii fv ACN                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker ACN # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,130 | US$      1,468 | US$      1,834 |
+  |  10y  | US$      1,670 | US$      2,805 | US$      4,367 |
+  |  15y  | US$      2,478 | US$      5,360 | US$     10,362 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\ACN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN.md` (cemetery archive)_
 
 #### ACN — Accenture
 
@@ -1260,7 +1141,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\ACN_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_DOSSIE.md` (cemetery archive)_
 
 #### 📑 ACN — Accenture
 
@@ -1356,7 +1237,7 @@ consistentes. Valuation actual oferece margem de segurança após 2024 drawdown.
 *Generated by `ii dossier ACN` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\ACN_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — ACN
 
@@ -1457,7 +1338,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\ACN_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — ACN
 
@@ -1499,7 +1380,7 @@ consistentes. Valuation actual oferece margem de segurança após 2024 drawdown.
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\ACN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\ACN.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[ACN]] — Accenture
 

@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\TSM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TSM.md` (cemetery archive)_
 
 #### TSM — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\TSM.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-12 · Filing 2026-05-12
-_source: `dossiers\TSM_FILING_2026-05-12.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_FILING_2026-05-12.md` (cemetery archive)_
 
 #### Filing dossier — [[TSM]] · 2026-05-12
 
@@ -125,7 +125,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\TSM_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[TSM]] · 2026-05-08
 
@@ -172,7 +172,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\TSM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[TSM_STORY|TSM]]
 
@@ -219,7 +219,7 @@ TSM apresenta um ROE sustentável de 36,21% e uma história consistente de divid
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\TSM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[TSM_STORY|TSM]]
 
@@ -266,7 +266,7 @@ Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de divide
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\TSM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[TSM_STORY|TSM]]
 
@@ -313,7 +313,7 @@ TSM apresenta um ROE de 36,21% e uma média de 23 anos de pagamentos de dividend
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\TSM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[TSM_STORY|TSM]]
 
@@ -362,58 +362,8 @@ Taiwan Semiconductor demonstrates robust financial health with a high ROE of 36.
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\TSM_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — TSM             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              5
-  Entry price.........: US$      102.47
-  Cost basis..........: US$      512.35
-  Price now...........: US$      402.46
-  Market value now....: US$    2,012.30  [+292.8% nao-realizado]
-  DY t12m.............: 0.84%  (R$/US$ 3.3930/share)
-  DY vs own 10y.......: P 1 [EXPENSIVE]  (actual 0.84% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=23  hist_g_5y=0.133  hist_g_raw=0.133  gordon_g=0.257  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |  +10.80%  |   -1.00% |  +10.64%       |
-  | base         |  +18.00%  |   +0.00% |  +18.84%       |
-  | optimista    |  +22.00%  |   +1.00% |  +23.84%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     14       |      >40       |        1       |
-  | base         |     11       |      >40       |        1       |
-  | optimista    |     10       |      >40       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      3,353 | US$      4,801 | US$      5,902 |
-  |  10y  | US$      5,598 | US$     11,454 | US$     17,283 |
-  |  15y  | US$      9,366 | US$     27,328 | US$     50,530 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\TSM_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[TSM_STORY|TSM]] (Taiwan Semiconductor)
 
@@ -673,10 +623,10 @@ $492.26
      URL: https://ca.finance.yahoo.com/quote/TSM/
 [17] Tavily [Tue, 17 Ma]: The company notifies holders of its American Depositary Shares that they may submit proposed resolutions for the 2026 Annual Shareholders’ Meeting during a defined submission window. Pursuant to the Depository Agreement for the Taiwan Semiconductor 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TSM_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\TSM_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_STORY.md` (cemetery archive)_
 
 #### Taiwan Semiconductor — TSM
 
@@ -845,122 +795,60 @@ Quanto à gestão, o envolvimento ativo dos insiders demonstra a confiança na d
 ###### Perfil Filosófico
 O perfil filosófico de Taiwan Semiconductor Manufacturing Company (TSMC) é classificado como Growth com um score de 8 e Value com um score de 7. As pontuações detalhadas são as seguintes
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TSM_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_STORY.md`)_
 
-#### — · Other
-_source: `hubs\TSM.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TSM_drip.md` (cemetery archive)_
 
-#### TSM — Taiwan Semiconductor
+/============================================================================\
+|   DRIP SCENARIO — TSM             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre TSM, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              5
+  Entry price.........: US$      102.47
+  Cost basis..........: US$      512.35
+  Price now...........: US$      402.46
+  Market value now....: US$    2,012.30  [+292.8% nao-realizado]
+  DY t12m.............: 0.84%  (R$/US$ 3.3930/share)
+  DY vs own 10y.......: P 1 [EXPENSIVE]  (actual 0.84% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Technology` · `market: US` · `currency: USD`
+  kind=equity  streak=23  hist_g_5y=0.133  hist_g_raw=0.133  gordon_g=0.257  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |  +10.80%  |   -1.00% |  +10.64%       |
+  | base         |  +18.00%  |   +0.00% |  +18.84%       |
+  | optimista    |  +22.00%  |   +1.00% |  +23.84%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 5.0 @ entry 102.47
-- **Verdict (DB)**: `HOLD` (score 6.39, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 34.00 · P/B 61.16 · DY 1.1% · ROE 36.2% · ND/EBITDA -0.83 · Dividend streak 23 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     14       |      >40       |        1       |
+  | base         |     11       |      >40       |        1       |
+  | optimista    |     10       |      >40       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[TSM]] _(`Overnight_2026-05-13/TSM.md`)_
-- **2026-05-12** · Filing → [[TSM_FILING_2026-05-12]] _(`dossiers/TSM_FILING_2026-05-12.md`)_
-- **2026-05-11** · Overnight → [[TSM]] _(`Overnight_2026-05-11/TSM.md`)_
-- **2026-05-08** · Filing → [[TSM_FILING_2026-05-08]] _(`dossiers/TSM_FILING_2026-05-08.md`)_
-- **2026-05-01** · Dossier Archive → [[TSM_STORY_2026-05-01]] _(`dossiers/archive/TSM_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[TSM_2026-05-01]] _(`agents/Valentina Prudente/reviews/TSM_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[TSM_2026-05-01]] _(`agents/Pedro Alocação/reviews/TSM_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[TSM_2026-05-01]] _(`agents/Mariana Macro/reviews/TSM_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[TSM_2026-05-01]] _(`agents/Charlie Compounder/reviews/TSM_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[TSM]] _(`wiki/holdings/TSM.md`)_
-- **—** · Variant → [[TSM_VARIANT]] _(`tickers/TSM_VARIANT.md`)_
-- **—** · Story → [[TSM_STORY]] _(`dossiers/TSM_STORY.md`)_
-- **—** · Panorama → [[TSM]] _(`tickers/TSM.md`)_
-- **—** · Other → [[TSM]] _(`hubs/TSM.md`)_
-- **—** · Ic Debate → [[TSM_IC_DEBATE]] _(`tickers/TSM_IC_DEBATE.md`)_
-- **—** · Drip → [[TSM_drip]] _(`briefings/drip_scenarios/TSM_drip.md`)_
-- **—** · Deepdive → [[TSM_DOSSIE]] _(`tickers/TSM_DOSSIE.md`)_
-- **—** · Council → [[TSM_COUNCIL]] _(`dossiers/TSM_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[TSM]] _(`tickers/TSM.md`)_
-
-###### Deepdive (DOSSIE)
-- [[TSM_DOSSIE]] _(`tickers/TSM_DOSSIE.md`)_
-
-###### Story
-- [[TSM_STORY]] _(`dossiers/TSM_STORY.md`)_
-
-###### Council aggregate
-- [[TSM_COUNCIL]] _(`dossiers/TSM_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[TSM_2026-05-01]] _(`agents/Charlie Compounder/reviews/TSM_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[TSM_2026-05-01]] _(`agents/Mariana Macro/reviews/TSM_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[TSM_2026-05-01]] _(`agents/Pedro Alocação/reviews/TSM_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[TSM_2026-05-01]] _(`agents/Valentina Prudente/reviews/TSM_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[TSM_IC_DEBATE]] _(`tickers/TSM_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[TSM_VARIANT]] _(`tickers/TSM_VARIANT.md`)_
-
-###### Filings individuais
-- [[TSM_FILING_2026-05-12]] _(`dossiers/TSM_FILING_2026-05-12.md`)_
-- [[TSM_FILING_2026-05-08]] _(`dossiers/TSM_FILING_2026-05-08.md`)_
-
-###### Overnight scrapes
-- [[TSM]] _(`Overnight_2026-05-13/TSM.md`)_
-- [[TSM]] _(`Overnight_2026-05-11/TSM.md`)_
-
-###### DRIP scenarios
-- [[TSM_drip]] _(`briefings/drip_scenarios/TSM_drip.md`)_
-
-###### Wiki / playbooks
-- [[TSM]] _(`wiki/holdings/TSM.md`)_
-
-###### Archived stories
-- [[TSM_STORY_2026-05-01]] _(`dossiers/archive/TSM_STORY_2026-05-01.md`)_
-
-###### Other
-- [[TSM]] _(`hubs/TSM.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama TSM --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive TSM --save-obsidian # V10 4-layer pipeline
-ii verdict TSM --narrate --write
-ii fv TSM                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker TSM # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      3,353 | US$      4,801 | US$      5,902 |
+  |  10y  | US$      5,598 | US$     11,454 | US$     17,283 |
+  |  15y  | US$      9,366 | US$     27,328 | US$     50,530 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\TSM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM.md` (cemetery archive)_
 
 #### TSM — Taiwan Semiconductor
 
@@ -1119,7 +1007,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\TSM_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM_DOSSIE.md` (cemetery archive)_
 
 #### 📑 TSM — Taiwan Semiconductor
 
@@ -1216,7 +1104,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=1 · analyst=0 · themes=0_
 | 2026-05-11 | Genial Investimentos | operational | 0.90 | O apresentador menciona ter vendido TSMC recentemente. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\TSM_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — TSM
 
@@ -1319,7 +1207,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=1 · analyst=0 · themes=0_
 | 2026-05-11 | Genial Investimentos | operational | 0.90 | O apresentador menciona ter vendido TSMC recentemente. |
 
 #### — · Variant perception
-_source: `tickers\TSM_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — TSM
 
@@ -1362,7 +1250,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=1 · analyst=0 · themes=0_
 | 2026-05-11 | Genial Investimentos | operational | 0.90 | O apresentador menciona ter vendido TSMC recentemente. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\TSM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\TSM.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[TSM]] — Taiwan Semiconductor (ADR)
 

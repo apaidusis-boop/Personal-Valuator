@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\TAEE11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TAEE11.md` (cemetery archive)_
 
 #### TAEE11 — Pilot Deep Dive (2026-05-12)
 
@@ -69,7 +69,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-21 · Other
-_source: `videos\2026-04-21_virtual-asset_taee11-novos-dividendos-chegando-com-100-dos-lucros-comprar-taesa-agor.md` (now in cemetery)_
+_source: `videos\2026-04-21_virtual-asset_taee11-novos-dividendos-chegando-com-100-dos-lucros-comprar-taesa-agor.md`_
 
 #### 🎬 TAEE11: NOVOS DIVIDENDOS CHEGANDO COM 100% DOS LUCROS? COMPRAR TAESA AGORA ou CILADA? +PREÇO TETO
 
@@ -100,7 +100,7 @@ _source: `videos\2026-04-21_virtual-asset_taee11-novos-dividendos-chegando-com-1
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\TAEE11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TAEE11.md` (cemetery archive)_
 
 #### TAEE11 — Taesa
 
@@ -250,7 +250,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\TAEE11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TAEE11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — TAEE11
 

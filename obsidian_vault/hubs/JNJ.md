@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 17
+sources_merged: 16
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,24 +16,51 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Healthcare` · `market: US` · `currency: USD` · `bucket: holdings` · `17 sources merged`
+`sector: Healthcare` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
 
 ## 🎯 Hoje
 
 - **Posição**: 10.0 @ entry 238.28000000000003
 - **Verdict (DB)**: `HOLD` (score 5.68, 2026-05-13)
-- **Último deepdive**: `JNJ_deepdive_20260513_2248.json` (2026-05-13 22:48)
+- **Último deepdive**: `JNJ_deepdive_20260514_0949.json` (2026-05-14 09:49)
 - **Fundamentals** (2026-05-13): P/E 26.70 · P/B 6.83 · DY 2.8% · ROE 26.4% · ND/EBITDA 0.96 · Dividend streak 65 · Aristocrat yes
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
+#### 2026-05-14 · Deepdive (V10 4-layer)
+_generated 2026-05-14 09:49 · source: `reports/deepdive/JNJ_deepdive_20260514_0949.json`_
+
+> Sector: ? · Country: ? · Price: ? 
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 4/9 | - |
+| Altman Z | 4.327396757606149 | safe |
+| Beneish M | - | - |
+| Moat | 8.75/10 | STRONG |
+
+
+**Fundamentals**: P/E - · P/B - · EV/EBITDA - · DY - · ROE -
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JNJ | hoje vs run anterior (2026-05-13)
+```
+
+**Strategist dossier**
+
+_(dossier desactivado via --no-llm)_
+
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\JNJ.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\JNJ.md` (cemetery archive)_
 
 #### JNJ — Pilot Deep Dive (2026-05-12)
 
@@ -78,8 +105,134 @@ _source: `Overnight_2026-05-13\JNJ.md` (now in cemetery)_
     )
   File "C:\Users\paidu\investment-intellig
 
+#### 2026-05-13 · Deepdive (V10 4-layer)
+_generated 2026-05-13 22:48 · source: `reports/deepdive/JNJ_deepdive_20260513_2248.json`_
+
+> Sector: Healthcare · Country: United States · Price: 230.24 USD
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 4/9 | - |
+| Altman Z | 4.327396757606149 | safe |
+| Beneish M | -2.2871528853555443 | clean |
+| Moat | 8.75/10 | STRONG |
+
+
+**Fundamentals**: P/E 26.679028 · P/B 6.8249593 · EV/EBITDA 16.687 · DY 239.0 · ROE 0.26416
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JNJ | hoje vs run anterior (2026-05-13)
+  Beneish M: -2.29 (novo — não comparável)
+```
+
+**Strategist dossier**
+
+_(dossier desactivado via --no-llm)_
+
+#### 2026-05-09 · Deepdive (V10 4-layer)
+_generated 2026-05-09 14:24 · source: `reports/deepdive/JNJ_deepdive_20260509_1424.json`_
+
+> Sector: ? · Country: ? · Price: ? 
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 4/9 | - |
+| Altman Z | 4.327396757606149 | safe |
+| Beneish M | - | - |
+| Moat | 8.75/10 | STRONG |
+
+
+**Fundamentals**: P/E - · P/B - · EV/EBITDA - · DY - · ROE -
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JNJ | hoje vs run anterior (2026-05-08)
+```
+
+**Strategist dossier**
+
+# 1. Executive Summary
+- **Rating:** EVITAR
+- **Preço justo estimado e upside/downside %:** Não é possível determinar um preço justo sem dados quantitativos relevantes, mas considerando a classificação Piotroski F-Score de 4/9, o risco associado à empresa é alto. A recomendação é evitar investimentos.
+- **Risk Score:** 8 (Risco moderadamente elevado)
+- **Alerta vermelho:** O Beneish M-Score está ausente e a classificação Piotroski F-Score de 4/9 indica que o risco de manipulação contábil não foi completamente avaliado, além disso, a empresa apresenta um perfil mais frágil do que desejável.
+
+# 2. O Negócio
+- **Modelo de receita e fontes de caixa:** Não há dados específicos disponíveis para detalhar o modelo de receita ou as principais fontes de caixa da empresa.
+- **Moat (Network Effect / Switching Costs / Intangibles / Cost Adv):** O Moat Score é alto, com 8.75/10, indicando uma forte vantagem competitiva. A pontuação em Pricing Power e Scale Durability é particularmente alta, o que sugere que a empresa tem um bom controle sobre os preços e uma estrutura de custos eficiente.
+
+# 3. Decomposição DuPont
+- **ROE = Margem × Giro × Alavancagem:** Não há dados para calcular a decomposição do ROE.
+- **Identificar a alavanca dominante:** Sem dados específicos, não é possível identificar qual fator está mais influenciando o ROE.
+
+# 4. Valuation Multinível
+- **Graham Number:** Não aplicável devido à falta de dados.
+- **DCF com 3 cenários (Bear / Base / Bull):** Não é possível realizar um DCF sem os múltiplos e indicadores financeiros necessários.
+- **EV/EBITDA vs mediana setor:** Sem dados comparativos, não há como avaliar o EV/EBITDA em relação à média do setor.
+
+# 5. Bear Case (mais agressivo se Piotroski < 5)
+- **3 maiores riscos com prob × impacto:**
+    - **Risco de mercado:** Probabilidade alta e impacto significativo, dado o cenário econômico atual.
+    - **Risco operacional:** Possível queda na eficiência operacional ou aumento nos custos, afetando a rentabilidade.
+    - **Riscos regulatórios:** Impacto potencial de mudanças nas leis e regulamentos que possam afetar negativamente as operações da empresa.
+
+- **Cenário de -40%: o que aconteceria?** Uma queda de 40% no valor do ativo seria significativa, indicando uma possível deterioração na saúde financeira ou desempenho operacional da empresa. Isso poderia levar a um reavaliação negativa dos investidores e potencialmente à perda de confiança no negócio.
+
+# 6. Bull Case
+- **Catalisadores específicos com prazo:** Não há dados para identificar catalisadores específicos.
+- **O que precisa acontecer para o preço dobrar em 3 anos?** Sem dados financeiros, não é possível determinar os fatores exatos necessários para uma valorização tão significativa.
+
+# 7. Classificação Lynch
+- **Slow / Stalwart / Fast / Cyclical / Turnaround / Asset Play:** Dada a falta de dados específicos e o baixo Piotroski F-Score, é difícil classificar a empresa com precisão. No entanto, considerando o Moat Score alto, pode-se argumentar que ela se encaixa na categoria **Stalwart**, uma empresa sólida mas talvez não em rápido crescimento.
+- **2-3 argumentos objetivos:** 
+    - A empresa possui um forte moat com pontuações altas em Pricing Power e Scale Durability, indicando resistência à concorrência.
+    - No entanto, a classificação Piotroski F-Score de 4/9 sugere vulnerabilidades financeiras que precisam ser investigadas mais aprofundadamente.
+
+# 8. Veredicto Final
+- **Decisão com 3 critérios mensuráveis:** 
+    - A ausência de dados quantitativos fundamentais impede uma avaliação precisa.
+    - O Piotroski F-Score baixo (4/9) indica riscos financeiros significativos.
+    - A falta de consenso entre analistas e insider trading sugere pouca confiança no mercado.
+
+- **Position sizing:** EVITAR. Dada a incerteza em torno dos dados financeiros e o risco elevado identificado, recomenda-se evitar posições nesta empresa até que mais informações sejam disponíveis para uma avaliação mais completa.
+
+#### 2026-05-08 · Deepdive (V10 4-layer)
+_generated 2026-05-08 06:57 · source: `reports/deepdive/JNJ_deepdive_20260508_0657.json`_
+
+> Sector: Healthcare · Country: United States · Price: 222.51 USD
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 4/9 | - |
+| Altman Z | 4.441920675325796 | safe |
+| Beneish M | -2.2871528853555443 | clean |
+| Moat | 8.75/10 | STRONG |
+
+
+**Fundamentals**: P/E 25.783314 · P/B 6.59582 · EV/EBITDA 16.564 · DY 241.0 · ROE 0.26416
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JNJ | hoje vs run anterior (2026-05-06)
+  Beneish M: -2.29 (novo — não comparável)
+```
+
+**Strategist dossier**
+
+_(dossier desactivado via --no-llm)_
+
 #### 2026-05-05 · Bibliotheca cross-ref
-_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md` (now in cemetery)_
+_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md`_
 
 #### Compare — JNJ · KO · PG
 
@@ -137,7 +290,7 @@ _Generated 2026-05-05 · 3 ticker(s)_
 _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski,altman,beneish,dividend_safety} engines._
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\JNJ_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[JNJ_STORY|JNJ]]
 
@@ -186,7 +339,7 @@ Johnson & Johnson continua a demonstrar consistência financeira com 65 anos con
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\JNJ_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[JNJ_STORY|JNJ]]
 
@@ -233,7 +386,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\JNJ_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[JNJ_STORY|JNJ]]
 
@@ -283,7 +436,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\JNJ_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[JNJ_STORY|JNJ]]
 
@@ -330,61 +483,39 @@ Johnson & Johnson continua a demonstrar consistência financeira com um históri
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
+#### 2026-04-29 · Deepdive (V10 4-layer)
+_generated 2026-04-29 21:05 · source: `reports/deepdive/JNJ_deepdive_20260429_2105.json`_
+
+> Sector: Healthcare · Country: United States · Price: 227.79 USD
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 4/9 | - |
+| Altman Z | 4.441920675325796 | safe |
+| Beneish M | -2.2871528853555443 | clean |
+| Moat | -/10 | - |
+
+
+**Fundamentals**: P/E 26.395132 · P/B 6.7264132 · EV/EBITDA 16.934 · DY 235.0 · ROE 0.26416
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JNJ | hoje vs run anterior (2026-04-28)
+  Beneish M: -2.29 (novo — não comparável)
+```
+
+**Strategist dossier**
+
+_(dossier desactivado via --no-llm)_
+
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\JNJ_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — JNJ             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             10
-  Entry price.........: US$      238.28
-  Cost basis..........: US$    2,382.80
-  Price now...........: US$      227.50
-  Market value now....: US$    2,275.00  [-4.5% nao-realizado]
-  DY t12m.............: 2.29%  (R$/US$ 5.2000/share)
-  DY vs own 10y.......: P 2 [EXPENSIVE]  (actual 2.29% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=65  hist_g_5y=0.052  hist_g_raw=0.052  gordon_g=0.105  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +4.72%  |   -1.00% |   +6.00%       |
-  | base         |   +7.86%  |   +0.00% |  +10.15%       |
-  | optimista    |  +10.61%  |   +1.00% |  +13.90%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     25       |       27       |       13       |
-  | base         |     20       |       31       |        8       |
-  | optimista    |     17       |       37       |        6       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      3,067 | US$      3,719 | US$      4,399 |
-  |  10y  | US$      4,158 | US$      6,078 | US$      8,464 |
-  |  15y  | US$      5,671 | US$      9,935 | US$     16,213 |
-  --------------------------------------------------------------------------
-
 #### — · Dossier
-_source: `dossiers\JNJ.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ.md` (cemetery archive)_
 
 #### [[JNJ]] — Dossier Deepdive (2026-05-09)
 
@@ -457,7 +588,7 @@ Delta Report — JNJ | hoje vs run anterior (2026-05-08)
 *Generated by `ii deepdive JNJ` em 2026-05-09T14:24:43.*
 
 #### — · Council aggregate
-_source: `dossiers\JNJ_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[JNJ_STORY|JNJ]] (Johnson & Johnson)
 
@@ -713,10 +844,10 @@ DCA is a key feature of DRIPs. With DRIPs, your dividends automatically buy more
      URL: http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-4-14-johnson-and-johnson-shatters-expectations-in-q1-2026-raising-full-year-outlook-as-healthcare-giant-pushes-toward-100-billion-milestone
 [16] Tavily [Sat, 18 Ap]: # US judge rejects Bayer bid to block Johnson & Johnson prostate cancer drug claims | Reuters. NEW YORK, April 17 (Reuters) - A U.S. judge has ‌rejected Bayer's (BAYGn.DE), opens new tab request for an injuncti
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\JNJ_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\JNJ_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_STORY.md` (cemetery archive)_
 
 #### Johnson & Johnson — JNJ
 
@@ -917,141 +1048,60 @@ RATING: Buy
 
 Foi este o ponto onde Mariana Macro divergiu de Diego Bancár
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\JNJ_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_STORY.md`)_
 
-#### — · Other
-_source: `hubs\JNJ.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\JNJ_drip.md` (cemetery archive)_
 
-#### JNJ — Johnson & Johnson
+/============================================================================\
+|   DRIP SCENARIO — JNJ             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre JNJ, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             10
+  Entry price.........: US$      238.28
+  Cost basis..........: US$    2,382.80
+  Price now...........: US$      227.50
+  Market value now....: US$    2,275.00  [-4.5% nao-realizado]
+  DY t12m.............: 2.29%  (R$/US$ 5.2000/share)
+  DY vs own 10y.......: P 2 [EXPENSIVE]  (actual 2.29% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Healthcare` · `market: US` · `currency: USD`
+  kind=equity  streak=65  hist_g_5y=0.052  hist_g_raw=0.052  gordon_g=0.105  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +4.72%  |   -1.00% |   +6.00%       |
+  | base         |   +7.86%  |   +0.00% |  +10.15%       |
+  | optimista    |  +10.61%  |   +1.00% |  +13.90%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 10.0 @ entry 238.28000000000003
-- **Verdict (DB)**: `HOLD` (score 5.68, 2026-05-13)
-- **Último deepdive**: `JNJ_deepdive_20260513_2248.json` (2026-05-13 22:48)
-- **Fundamentals** (2026-05-13): P/E 26.70 · P/B 6.83 · DY 2.8% · ROE 26.4% · ND/EBITDA 0.96 · Dividend streak 65 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     25       |       27       |       13       |
+  | base         |     20       |       31       |        8       |
+  | optimista    |     17       |       37       |        6       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[JNJ]] _(`Overnight_2026-05-13/JNJ.md`)_
-- **2026-05-11** · Overnight → [[JNJ]] _(`Overnight_2026-05-11/JNJ.md`)_
-- **2026-05-10** · Pilot → [[JNJ]] _(`Pilot_Deep_Dive_2026-05-10/JNJ.md`)_
-- **2026-05-05** · Bibliotheca → [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-- **2026-05-01** · Dossier Archive → [[JNJ_STORY_2026-05-01]] _(`dossiers/archive/JNJ_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[JNJ_2026-05-01]] _(`agents/Valentina Prudente/reviews/JNJ_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[JNJ_2026-05-01]] _(`agents/Pedro Alocação/reviews/JNJ_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[JNJ_2026-05-01]] _(`agents/Mariana Macro/reviews/JNJ_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[JNJ_2026-05-01]] _(`agents/Charlie Compounder/reviews/JNJ_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[JNJ]] _(`wiki/holdings/JNJ.md`)_
-- **—** · Variant → [[JNJ_VARIANT]] _(`tickers/JNJ_VARIANT.md`)_
-- **—** · Story → [[JNJ_STORY]] _(`dossiers/JNJ_STORY.md`)_
-- **—** · Session → [[JNJ_Deepdive_Comparison_PreLL_vs_Now]] _(`Sessions/JNJ_Deepdive_Comparison_PreLL_vs_Now.md`)_
-- **—** · Panorama → [[JNJ]] _(`tickers/JNJ.md`)_
-- **—** · Other → [[JNJ]] _(`hubs/JNJ.md`)_
-- **—** · Other → [[JNJ]] _(`dossiers/JNJ.md`)_
-- **—** · Ic Debate → [[JNJ_IC_DEBATE]] _(`tickers/JNJ_IC_DEBATE.md`)_
-- **—** · Drip → [[JNJ_drip]] _(`briefings/drip_scenarios/JNJ_drip.md`)_
-- **—** · Deepdive Json → [[JNJ_deepdive_20260513_2248]] _(`reports/deepdive/JNJ_deepdive_20260513_2248.json`)_
-- **—** · Deepdive Json → [[JNJ_deepdive_20260509_1424]] _(`reports/deepdive/JNJ_deepdive_20260509_1424.json`)_
-- **—** · Deepdive Json → [[JNJ_deepdive_20260508_0657]] _(`reports/deepdive/JNJ_deepdive_20260508_0657.json`)_
-- **—** · Deepdive Json → [[JNJ_deepdive_20260429_2105]] _(`reports/deepdive/JNJ_deepdive_20260429_2105.json`)_
-- **—** · Deepdive → [[JNJ_DOSSIE]] _(`tickers/JNJ_DOSSIE.md`)_
-- **—** · Council → [[JNJ_COUNCIL]] _(`dossiers/JNJ_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[JNJ]] _(`tickers/JNJ.md`)_
-
-###### Deepdive (DOSSIE)
-- [[JNJ_DOSSIE]] _(`tickers/JNJ_DOSSIE.md`)_
-
-###### Deepdive JSON snapshots
-- [[JNJ_deepdive_20260429_2105]] _(`reports/deepdive/JNJ_deepdive_20260429_2105.json`)_
-- [[JNJ_deepdive_20260508_0657]] _(`reports/deepdive/JNJ_deepdive_20260508_0657.json`)_
-- [[JNJ_deepdive_20260509_1424]] _(`reports/deepdive/JNJ_deepdive_20260509_1424.json`)_
-- [[JNJ_deepdive_20260513_2248]] _(`reports/deepdive/JNJ_deepdive_20260513_2248.json`)_
-
-###### Story
-- [[JNJ_STORY]] _(`dossiers/JNJ_STORY.md`)_
-
-###### Council aggregate
-- [[JNJ_COUNCIL]] _(`dossiers/JNJ_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[JNJ_2026-05-01]] _(`agents/Charlie Compounder/reviews/JNJ_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[JNJ_2026-05-01]] _(`agents/Mariana Macro/reviews/JNJ_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[JNJ_2026-05-01]] _(`agents/Pedro Alocação/reviews/JNJ_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[JNJ_2026-05-01]] _(`agents/Valentina Prudente/reviews/JNJ_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[JNJ_IC_DEBATE]] _(`tickers/JNJ_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[JNJ_VARIANT]] _(`tickers/JNJ_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[JNJ]] _(`Overnight_2026-05-13/JNJ.md`)_
-- [[JNJ]] _(`Overnight_2026-05-11/JNJ.md`)_
-
-###### Pilot deep dives
-- [[JNJ]] _(`Pilot_Deep_Dive_2026-05-10/JNJ.md`)_
-
-###### DRIP scenarios
-- [[JNJ_drip]] _(`briefings/drip_scenarios/JNJ_drip.md`)_
-
-###### Wiki / playbooks
-- [[JNJ]] _(`wiki/holdings/JNJ.md`)_
-
-###### Session notes
-- [[JNJ_Deepdive_Comparison_PreLL_vs_Now]] _(`Sessions/JNJ_Deepdive_Comparison_PreLL_vs_Now.md`)_
-
-###### Bibliotheca / clippings
-- [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-
-###### Archived stories
-- [[JNJ_STORY_2026-05-01]] _(`dossiers/archive/JNJ_STORY_2026-05-01.md`)_
-
-###### Other
-- [[JNJ]] _(`dossiers/JNJ.md`)_
-- [[JNJ]] _(`hubs/JNJ.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama JNJ --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive JNJ --save-obsidian # V10 4-layer pipeline
-ii verdict JNJ --narrate --write
-ii fv JNJ                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker JNJ # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      3,067 | US$      3,719 | US$      4,399 |
+  |  10y  | US$      4,158 | US$      6,078 | US$      8,464 |
+  |  15y  | US$      5,671 | US$      9,935 | US$     16,213 |
+  --------------------------------------------------------------------------
 
 #### — · Session notes
-_source: `Sessions\JNJ_Deepdive_Comparison_PreLL_vs_Now.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-sessions-per-ticker\Sessions\JNJ_Deepdive_Comparison_PreLL_vs_Now.md` (cemetery archive)_
 
 #### JNJ Deepdive — Antes (Pre-LL) vs Agora (Pós-LL)
 
@@ -1172,7 +1222,7 @@ Ficaram em `reports/deepdive/`:
 - Cemetery: `cemetery/2026-05-13/` (onde os outros pre-LL deepdives vão)
 
 #### — · Panorama
-_source: `tickers\JNJ.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ.md` (cemetery archive)_
 
 #### JNJ — Johnson & Johnson
 
@@ -1320,7 +1370,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\JNJ_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ_DOSSIE.md` (cemetery archive)_
 
 #### 📑 JNJ — Johnson & Johnson
 
@@ -1457,7 +1507,7 @@ _Peer set (mixed): 5 tickers — ABBV, ABT, BDX, MDT, WST_
 *Generated by `ii dossier JNJ` on 2026-05-05. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\JNJ_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — JNJ
 
@@ -1549,7 +1599,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\JNJ_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — JNJ
 
@@ -1582,7 +1632,7 @@ _source: `tickers\JNJ_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\JNJ.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\JNJ.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[JNJ]] — Johnson & Johnson
 

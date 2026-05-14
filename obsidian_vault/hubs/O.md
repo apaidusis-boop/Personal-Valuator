@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 26
+sources_merged: 25
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: REIT` · `market: US` · `currency: USD` · `bucket: holdings` · `26 sources merged`
+`sector: REIT` · `market: US` · `currency: USD` · `bucket: holdings` · `25 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\O.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\O.md` (cemetery archive)_
 
 #### O — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\O.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\O_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[O]] · 2026-05-08
 
@@ -130,7 +130,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\O_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\O_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[O_STORY|O]]
 
@@ -177,7 +177,7 @@ Realty Income offers a consistent 5% dividend yield with 113 consecutive quarter
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\O_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\O_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[O_STORY|O]]
 
@@ -229,7 +229,7 @@ Realty Income offers a stable dividend with a long streak of increases, but its 
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\O_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\O_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[O_STORY|O]]
 
@@ -279,7 +279,7 @@ P/E ratio of 54.91 and P/B of 1.52 indicate overvaluation, yet the company's str
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Walter Triple-Net
-_source: `agents\Walter Triple-Net\reviews\O_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\O_2026-05-01.md` (cemetery archive)_
 
 #### Walter Triple-Net sobre [[O_STORY|O]]
 
@@ -328,7 +328,7 @@ Realty Income offers a stable 5% dividend yield with 113 consecutive quarterly i
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-22 · Other
-_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md` (now in cemetery)_
+_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`_
 
 #### 🎬 DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! ITSA4 MUDOU O PLANO? PETR4 LUCRA COM CONFLITOS? +CSMG3 BTLG11
 
@@ -371,7 +371,7 @@ _source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-it
 - **real_estate_cycle** bullish _(conf 0.85)_ — O fundo imobiliário BTLG11 está quitando galpões logísticos em São Paulo, aumentando sua exposição a áreas estratégicas da logística brasileira.
 
 #### 2026-04-21 · Other
-_source: `videos\2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro.md` (now in cemetery)_
+_source: `videos\2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro.md`_
 
 #### 🎬 SE VOCÊ NÃO ENTENDE RENDA FIXA, VOCÊ NÃO ENTENDE DINHEIRO
 
@@ -402,7 +402,7 @@ _source: `videos\2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao
 - **banking_br** neutral _(conf 0.70)_ — O Tesouro Direto oferece diferentes tipos de títulos públicos que podem ser uma alternativa para investimentos, dependendo das condições do mercado.
 
 #### 2026-04-19 · Other
-_source: `videos\2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema.md` (now in cemetery)_
+_source: `videos\2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema.md`_
 
 #### 🎬 AEGEA (AEGP23) (AEGPA3): O QUE É OPORTUNIDADE E O QUE É PROBLEMA?
 
@@ -422,7 +422,7 @@ _source: `videos\2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunida
 - [0.70 catalyst] A entrega dos documentos financeiros (DFs) foi um catalisador importante para a resolução da situação de risco da Klabin.
 
 #### 2026-04-16 · Other
-_source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md` (now in cemetery)_
+_source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`_
 
 #### 🎬 BBDC3 OU BBDC4? O BANCO MAIS BARATO COM 14,5 BI DE DIVIDENDOS E +70% DE ALTA? +PREÇO TETO
 
@@ -459,7 +459,7 @@ _source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com
 - **banking_br** neutral _(conf 0.70)_ — A inadimplência e as despesas com PDDs aumentaram, o que causou preocupação no mercado.
 
 #### 2026-04-14 · Other
-_source: `videos\2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais.md` (now in cemetery)_
+_source: `videos\2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais.md`_
 
 #### 🎬 POR QUE O DÓLAR ESTÁ CAINDO TANTO? (vai cair ainda mais?)
 
@@ -494,7 +494,7 @@ _source: `videos\2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-c
 - **oil_cycle** bearish _(conf 0.60)_ — Há sinais de que países estão buscando alternativas ao dólar, inclusive no comércio de petróleo, o que pode afetar a demanda futura por dólares e potencialmente impactar os preços do petróleo.
 
 #### 2026-04-14 · Other
-_source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md` (now in cemetery)_
+_source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`_
 
 #### 🎬 KLABIN MUDOU O PLANO? NOVA ORDEM DE DIVIDENDOS E LUCROS! KLBN11 OU KLBN4? +PREÇO TETO
 
@@ -532,7 +532,7 @@ _source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-div
 - **pulp_cycle** bullish _(conf 0.70)_ — A Klabin tem uma posição dominante em vários nichos importantes no Brasil, o que lhe dá resiliência e poder de preço.
 
 #### 2026-04-02 · Other
-_source: `videos\2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro.md` (now in cemetery)_
+_source: `videos\2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro.md`_
 
 #### 🎬 SE PREPARE, TUDO VAI FICAR MAIS CARO
 
@@ -569,7 +569,7 @@ _source: `videos\2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro.md`
 - **selic_cycle** neutral _(conf 0.70)_ — A guerra no Irã e o fechamento do Estreito de Hormuz levaram a uma suspensão dos cortes na taxa Selic, aumentando a incerteza sobre futuros movimentos.
 
 #### 2026-03-31 · Other
-_source: `videos\2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise.md` (now in cemetery)_
+_source: `videos\2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise.md`_
 
 #### 🎬 FIQUE RICO COM AS ELEIÇÕES EM 2026 | Onde investir durante a CRISE?
 
@@ -601,7 +601,7 @@ _source: `videos\2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde
 - **usdbrl** neutral _(conf 0.60)_ — O vídeo sugere que a volatilidade do mercado durante o ano eleitoral pode criar oportunidades de investimento, mas não faz previsões diretas sobre o USD/BRL.
 
 #### 2026-03-29 · Other
-_source: `videos\2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l.md` (now in cemetery)_
+_source: `videos\2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l.md`_
 
 #### 🎬 O FIM DO BRASIL | A BOMBA-RELÓGIO DAS EMPRESAS BRASILEIRAS (chegamos no limite!)
 
@@ -639,7 +639,7 @@ _source: `videos\2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-emp
 - **selic_cycle** bearish _(conf 0.80)_ — A alta taxa Selic está contribuindo para o fechamento de empresas e a busca por alternativas em outros países, como o Paraguai.
 
 #### 2026-03-18 · Other
-_source: `videos\2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b.md` (now in cemetery)_
+_source: `videos\2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b.md`_
 
 #### 🎬 A GREVE DOS CAMINHONEIROS VAI PARALISAR O BRASIL! | Como vai afetar seu bolso?
 
@@ -672,7 +672,7 @@ _source: `videos\2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar
 - **oil_cycle** neutral _(conf 0.65)_ — O cenário de alta do petróleo e diesel pode levar a uma crise econômica, mas também oferece oportunidades para investimentos em ativos protegidos contra inflação e empresas de commodities.
 
 #### 2026-03-17 · Other
-_source: `videos\2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se.md` (now in cemetery)_
+_source: `videos\2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se.md`_
 
 #### 🎬 E SE OS EUA PERDEREM A GUERRA CONTRA O IRÃ? | O que isso significa pro seu bolso?
 
@@ -706,58 +706,8 @@ _source: `videos\2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\O_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — O               moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             30
-  Entry price.........: US$       63.56
-  Cost basis..........: US$    1,906.90
-  Price now...........: US$       63.33
-  Market value now....: US$    1,899.90  [-0.4% nao-realizado]
-  DY t12m.............: 5.11%  (R$/US$ 3.2360/share)
-  DY vs own 10y.......: P77 [CHEAP]  (actual 5.11% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=33  hist_g_5y=0.059  hist_g_raw=0.059  gordon_g=0.000  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +1.77%  |   -1.00% |   +5.88%       |
-  | base         |   +2.95%  |   +0.00% |   +8.06%       |
-  | optimista    |   +3.98%  |   +1.00% |  +10.09%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     17       |       13       |       12       |
-  | base         |     16       |       14       |        9       |
-  | optimista    |     15       |       15       |        8       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      2,551 | US$      2,819 | US$      3,087 |
-  |  10y  | US$      3,470 | US$      4,182 | US$      4,961 |
-  |  15y  | US$      4,782 | US$      6,205 | US$      7,888 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\O_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[O_STORY|O]] (Realty Income)
 
@@ -1017,10 +967,10 @@ $492.26
      URL: https://www.morningstar.com/news/pr-newswire/20260303dc00763/fbrt-investors-have-opportunity-to-lead-franklin-bsp-realty-trust-inc-securities-fraud-lawsuit-first-filed-by-the-rosen-law-firm
 [19] Tavily [Thu, 19 Ma]: SAN DIEGO and NEW YORK, March 19, 2026
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\O_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\O_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_STORY.md` (cemetery archive)_
 
 #### Realty Income — O
 
@@ -1174,152 +1124,60 @@ Finalmente, os network effects surgem através das relações construídas com p
 
 Quanto à gestão, o anúncio recente sobre a saída de Michelle Bushore como Chief Legal Officer é um ponto de atenção. A transiç
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\O_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_STORY.md`)_
 
-#### — · Other
-_source: `hubs\O.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\O_drip.md` (cemetery archive)_
 
-#### O — Realty Income
+/============================================================================\
+|   DRIP SCENARIO — O               moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre O, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             30
+  Entry price.........: US$       63.56
+  Cost basis..........: US$    1,906.90
+  Price now...........: US$       63.33
+  Market value now....: US$    1,899.90  [-0.4% nao-realizado]
+  DY t12m.............: 5.11%  (R$/US$ 3.2360/share)
+  DY vs own 10y.......: P77 [CHEAP]  (actual 5.11% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: REIT` · `market: US` · `currency: USD`
+  kind=equity  streak=33  hist_g_5y=0.059  hist_g_raw=0.059  gordon_g=0.000  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +1.77%  |   -1.00% |   +5.88%       |
+  | base         |   +2.95%  |   +0.00% |   +8.06%       |
+  | optimista    |   +3.98%  |   +1.00% |  +10.09%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 30.0 @ entry 63.56333333333334
-- **Verdict (DB)**: `WATCH` (score 6.27, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 50.43 · P/B 1.46 · DY 5.3% · ROE 2.8% · ND/EBITDA 5.72 · Dividend streak 33 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     17       |       13       |       12       |
+  | base         |     16       |       14       |        9       |
+  | optimista    |     15       |       15       |        8       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[O]] _(`Overnight_2026-05-13/O.md`)_
-- **2026-05-11** · Overnight → [[O]] _(`Overnight_2026-05-11/O.md`)_
-- **2026-05-10** · Pilot → [[_LEITURA_PARA_O_USER]] _(`Pilot_Deep_Dive_2026-05-10/_LEITURA_PARA_O_USER.md`)_
-- **2026-05-08** · Filing → [[O_FILING_2026-05-08]] _(`dossiers/O_FILING_2026-05-08.md`)_
-- **2026-05-06** · Earnings Prep → [[earnings_prep_O_2026-05-06]] _(`briefings/earnings_prep_O_2026-05-06.md`)_
-- **2026-05-01** · Dossier Archive → [[O_STORY_2026-05-01]] _(`dossiers/archive/O_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Walter Triple-Net → [[O_2026-05-01]] _(`agents/Walter Triple-Net/reviews/O_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[O_2026-05-01]] _(`agents/Valentina Prudente/reviews/O_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[O_2026-05-01]] _(`agents/Pedro Alocação/reviews/O_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[O_2026-05-01]] _(`agents/Mariana Macro/reviews/O_2026-05-01.md`)_
-- **2026-04-22** · Video → [[2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co]] _(`videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`)_
-- **2026-04-21** · Video → [[2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro]] _(`videos/2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro.md`)_
-- **2026-04-19** · Video → [[2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema]] _(`videos/2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema.md`)_
-- **2026-04-16** · Video → [[2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al]] _(`videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`)_
-- **2026-04-14** · Video → [[2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4]] _(`videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`)_
-- **2026-04-14** · Video → [[2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais]] _(`videos/2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais.md`)_
-- **2026-04-02** · Video → [[2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro]] _(`videos/2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro.md`)_
-- **2026-03-31** · Video → [[2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise]] _(`videos/2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise.md`)_
-- **2026-03-29** · Video → [[2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l]] _(`videos/2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l.md`)_
-- **2026-03-18** · Video → [[2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b]] _(`videos/2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b.md`)_
-- **2026-03-17** · Video → [[2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se]] _(`videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[O]] _(`wiki/holdings/O.md`)_
-- **—** · Variant → [[O_VARIANT]] _(`tickers/O_VARIANT.md`)_
-- **—** · Story → [[O_STORY]] _(`dossiers/O_STORY.md`)_
-- **—** · Panorama → [[O]] _(`tickers/O.md`)_
-- **—** · Other → [[O]] _(`hubs/O.md`)_
-- **—** · Ic Debate → [[O_IC_DEBATE]] _(`tickers/O_IC_DEBATE.md`)_
-- **—** · Drip → [[O_drip]] _(`briefings/drip_scenarios/O_drip.md`)_
-- **—** · Deepdive → [[O_DOSSIE]] _(`tickers/O_DOSSIE.md`)_
-- **—** · Council → [[O_COUNCIL]] _(`dossiers/O_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[O]] _(`tickers/O.md`)_
-
-###### Deepdive (DOSSIE)
-- [[O_DOSSIE]] _(`tickers/O_DOSSIE.md`)_
-
-###### Story
-- [[O_STORY]] _(`dossiers/O_STORY.md`)_
-
-###### Council aggregate
-- [[O_COUNCIL]] _(`dossiers/O_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Mariana Macro_:
-- [[O_2026-05-01]] _(`agents/Mariana Macro/reviews/O_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[O_2026-05-01]] _(`agents/Pedro Alocação/reviews/O_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[O_2026-05-01]] _(`agents/Valentina Prudente/reviews/O_2026-05-01.md`)_
-
-_Walter Triple-Net_:
-- [[O_2026-05-01]] _(`agents/Walter Triple-Net/reviews/O_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[O_IC_DEBATE]] _(`tickers/O_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[O_VARIANT]] _(`tickers/O_VARIANT.md`)_
-
-###### Filings individuais
-- [[O_FILING_2026-05-08]] _(`dossiers/O_FILING_2026-05-08.md`)_
-
-###### Overnight scrapes
-- [[O]] _(`Overnight_2026-05-13/O.md`)_
-- [[O]] _(`Overnight_2026-05-11/O.md`)_
-
-###### Pilot deep dives
-- [[_LEITURA_PARA_O_USER]] _(`Pilot_Deep_Dive_2026-05-10/_LEITURA_PARA_O_USER.md`)_
-
-###### DRIP scenarios
-- [[O_drip]] _(`briefings/drip_scenarios/O_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_O_2026-05-06]] _(`briefings/earnings_prep_O_2026-05-06.md`)_
-
-###### Wiki / playbooks
-- [[O]] _(`wiki/holdings/O.md`)_
-
-###### Video transcripts
-- [[2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co]] _(`videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`)_
-- [[2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro]] _(`videos/2026-04-21_o-primo-rico_se-voce-nao-entende-renda-fixa-voce-nao-entende-dinheiro.md`)_
-- [[2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema]] _(`videos/2026-04-19_stock-pickers_aegea-aegp23-aegpa3-o-que-e-oportunidade-e-o-que-e-problema.md`)_
-- [[2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al]] _(`videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`)_
-- [[2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais]] _(`videos/2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais.md`)_
-- [[2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4]] _(`videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`)_
-- [[2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro]] _(`videos/2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro.md`)_
-- [[2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise]] _(`videos/2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise.md`)_
-- [[2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l]] _(`videos/2026-03-29_o-primo-rico_o-fim-do-brasil-a-bomba-relogio-das-empresas-brasileiras-chegamos-no-l.md`)_
-- [[2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b]] _(`videos/2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b.md`)_
-- [[2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se]] _(`videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se.md`)_
-
-###### Archived stories
-- [[O_STORY_2026-05-01]] _(`dossiers/archive/O_STORY_2026-05-01.md`)_
-
-###### Other
-- [[O]] _(`hubs/O.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama O --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive O --save-obsidian # V10 4-layer pipeline
-ii verdict O --narrate --write
-ii fv O                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker O # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      2,551 | US$      2,819 | US$      3,087 |
+  |  10y  | US$      3,470 | US$      4,182 | US$      4,961 |
+  |  15y  | US$      4,782 | US$      6,205 | US$      7,888 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\O.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O.md` (cemetery archive)_
 
 #### O — Realty Income
 
@@ -1467,7 +1325,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\O_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O_DOSSIE.md` (cemetery archive)_
 
 #### 📑 O — Realty Income
 
@@ -1544,7 +1402,7 @@ Realty Income negoceia a P/E 54.13 (REITs comparam-se via P/AFFO, não EPS) com 
 *Generated by `ii dossier O` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\O_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — O
 
@@ -1630,7 +1488,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\O_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — O
 
@@ -1653,7 +1511,7 @@ _source: `tickers\O_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\O.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\O.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[O]] — Realty Income
 

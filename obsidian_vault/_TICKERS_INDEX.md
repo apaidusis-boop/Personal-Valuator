@@ -40,7 +40,7 @@ parent: "[[CONSTITUTION_Pessoal]]"
 | [[hubs/GREK\|GREK]] | Global X MSCI Greece ETF | ETF | 5 | `WATCH` | 7.00 | — |
 | [[hubs/GS\|GS]] | Goldman Sachs | Financials | 1 | `HOLD` | 5.92 | — |
 | [[hubs/HD\|HD]] | Home Depot | Consumer Disc. | 1 | `HOLD` | 5.95 | — |
-| [[hubs/JNJ\|JNJ]] | Johnson & Johnson | Healthcare | 10 | `HOLD` | 5.68 | 2026-05-13 |
+| [[hubs/JNJ\|JNJ]] | Johnson & Johnson | Healthcare | 10 | `HOLD` | 5.68 | 2026-05-14 |
 | [[hubs/JPM\|JPM]] | JPMorgan Chase | Financials | 7 | `HOLD` | 5.98 | 2026-05-09 |
 | [[hubs/KO\|KO]] | Coca-Cola | Consumer Staples | 11 | `HOLD` | 6.90 | — |
 | [[hubs/NU\|NU]] | Nu Holdings | Financials | 13 | `SELL` | 3.27 | — |

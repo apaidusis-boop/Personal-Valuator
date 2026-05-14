@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 15
+sources_merged: 14
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\GS.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GS.md` (cemetery archive)_
 
 #### GS — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\GS.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-12 · Filing 2026-05-12
-_source: `dossiers\GS_FILING_2026-05-12.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_FILING_2026-05-12.md` (cemetery archive)_
 
 #### Filing dossier — [[GS]] · 2026-05-12
 
@@ -130,7 +130,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-01 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\GS_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\GS_2026-05-01.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[GS_STORY|GS]]
 
@@ -182,7 +182,7 @@ GS tem um P/E de 16.86x, acima do limite de 12x, e um P/B de 2.57x, além do lim
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\GS_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\GS_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[GS_STORY|GS]]
 
@@ -229,7 +229,7 @@ Goldman Sachs reports robust Q1 earnings with ROE of 19.8%, yet faces volatility
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\GS_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\GS_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[GS_STORY|GS]]
 
@@ -276,7 +276,7 @@ A empresa apresenta um ROE de 14.6% e P/E de 16.86, acima da média do setor, re
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\GS_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\GS_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[GS_STORY|GS]]
 
@@ -326,58 +326,8 @@ ROE de 14,6% está abaixo da mediana do setor (16,5%), enquanto P/E de 16,86 é 
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\GS_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — GS              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              1
-  Entry price.........: US$      318.83
-  Cost basis..........: US$      318.83
-  Price now...........: US$      926.91
-  Market value now....: US$      926.91  [+190.7% nao-realizado]
-  DY t12m.............: 1.67%  (R$/US$ 15.5000/share)
-  DY vs own 10y.......: P46 [fair-rich]  (actual 1.67% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=28  hist_g_5y=0.209  hist_g_raw=0.211  gordon_g=0.105  is_quality=True  capped=True
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +9.42%  |   -1.00% |  +10.09%       |
-  | base         |  +15.69%  |   +0.00% |  +17.37%       |
-  | optimista    |  +21.19%  |   +1.00% |  +23.86%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     12       |       36       |        1       |
-  | base         |     10       |      >40       |        1       |
-  | optimista    |      8       |      >40       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,512 | US$      2,087 | US$      2,737 |
-  |  10y  | US$      2,476 | US$      4,701 | US$      8,057 |
-  |  15y  | US$      4,071 | US$     10,586 | US$     23,641 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\GS_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[GS_STORY|GS]] (Goldman Sachs)
 
@@ -676,10 +626,10 @@ Fed Signals Policy Shift on Rates
 [24] Tavily [Thu, 23 Ap]: # Healthy earnings backdrop remains due to AI investment and hyperscalers: Goldman Sachs AM. Luke Barrs, Chief Business Officer, Fundamental Equity at Goldman Sachs Asset Management, thinks that earnings expectations continue to remain high, but there will be a differentiation among firms that can o
      URL: https://www.cnbc.com/video/2026/04/23/healthy-earnings-bac
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\GS_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\GS_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_STORY.md` (cemetery archive)_
 
 #### Goldman Sachs — GS
 
@@ -859,120 +809,60 @@ A terceira dimensão é a força intangível da marca Goldman Sachs. Com uma his
 
 Quanto à gestão, o perfil filosófico computado indica que a estratégia da Goldman Sachs é
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\GS_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_STORY.md`)_
 
-#### — · Other
-_source: `hubs\GS.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\GS_drip.md` (cemetery archive)_
 
-#### GS — Goldman Sachs
+/============================================================================\
+|   DRIP SCENARIO — GS              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre GS, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              1
+  Entry price.........: US$      318.83
+  Cost basis..........: US$      318.83
+  Price now...........: US$      926.91
+  Market value now....: US$      926.91  [+190.7% nao-realizado]
+  DY t12m.............: 1.67%  (R$/US$ 15.5000/share)
+  DY vs own 10y.......: P46 [fair-rich]  (actual 1.67% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=28  hist_g_5y=0.209  hist_g_raw=0.211  gordon_g=0.105  is_quality=True  capped=True
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +9.42%  |   -1.00% |  +10.09%       |
+  | base         |  +15.69%  |   +0.00% |  +17.37%       |
+  | optimista    |  +21.19%  |   +1.00% |  +23.86%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1.0 @ entry 318.83
-- **Verdict (DB)**: `HOLD` (score 5.92, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 17.44 · P/B 2.68 · DY 2.1% · ROE 14.5% · Dividend streak 28 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     12       |       36       |        1       |
+  | base         |     10       |      >40       |        1       |
+  | optimista    |      8       |      >40       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[GS]] _(`Overnight_2026-05-13/GS.md`)_
-- **2026-05-12** · Filing → [[GS_FILING_2026-05-12]] _(`dossiers/GS_FILING_2026-05-12.md`)_
-- **2026-05-11** · Overnight → [[GS]] _(`Overnight_2026-05-11/GS.md`)_
-- **2026-05-01** · Dossier Archive → [[GS_STORY_2026-05-01]] _(`dossiers/archive/GS_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[GS_2026-05-01]] _(`agents/Valentina Prudente/reviews/GS_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[GS_2026-05-01]] _(`agents/Pedro Alocação/reviews/GS_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[GS_2026-05-01]] _(`agents/Mariana Macro/reviews/GS_2026-05-01.md`)_
-- **2026-05-01** · Review · Hank Tier-One → [[GS_2026-05-01]] _(`agents/Hank Tier-One/reviews/GS_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[GS]] _(`wiki/holdings/GS.md`)_
-- **—** · Variant → [[GS_VARIANT]] _(`tickers/GS_VARIANT.md`)_
-- **—** · Story → [[GS_STORY]] _(`dossiers/GS_STORY.md`)_
-- **—** · Panorama → [[GS]] _(`tickers/GS.md`)_
-- **—** · Other → [[GS]] _(`hubs/GS.md`)_
-- **—** · Ic Debate → [[GS_IC_DEBATE]] _(`tickers/GS_IC_DEBATE.md`)_
-- **—** · Drip → [[GS_drip]] _(`briefings/drip_scenarios/GS_drip.md`)_
-- **—** · Deepdive → [[GS_DOSSIE]] _(`tickers/GS_DOSSIE.md`)_
-- **—** · Council → [[GS_COUNCIL]] _(`dossiers/GS_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[GS]] _(`tickers/GS.md`)_
-
-###### Deepdive (DOSSIE)
-- [[GS_DOSSIE]] _(`tickers/GS_DOSSIE.md`)_
-
-###### Story
-- [[GS_STORY]] _(`dossiers/GS_STORY.md`)_
-
-###### Council aggregate
-- [[GS_COUNCIL]] _(`dossiers/GS_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[GS_2026-05-01]] _(`agents/Hank Tier-One/reviews/GS_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[GS_2026-05-01]] _(`agents/Mariana Macro/reviews/GS_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[GS_2026-05-01]] _(`agents/Pedro Alocação/reviews/GS_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[GS_2026-05-01]] _(`agents/Valentina Prudente/reviews/GS_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[GS_IC_DEBATE]] _(`tickers/GS_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[GS_VARIANT]] _(`tickers/GS_VARIANT.md`)_
-
-###### Filings individuais
-- [[GS_FILING_2026-05-12]] _(`dossiers/GS_FILING_2026-05-12.md`)_
-
-###### Overnight scrapes
-- [[GS]] _(`Overnight_2026-05-13/GS.md`)_
-- [[GS]] _(`Overnight_2026-05-11/GS.md`)_
-
-###### DRIP scenarios
-- [[GS_drip]] _(`briefings/drip_scenarios/GS_drip.md`)_
-
-###### Wiki / playbooks
-- [[GS]] _(`wiki/holdings/GS.md`)_
-
-###### Archived stories
-- [[GS_STORY_2026-05-01]] _(`dossiers/archive/GS_STORY_2026-05-01.md`)_
-
-###### Other
-- [[GS]] _(`hubs/GS.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama GS --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive GS --save-obsidian # V10 4-layer pipeline
-ii verdict GS --narrate --write
-ii fv GS                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker GS # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,512 | US$      2,087 | US$      2,737 |
+  |  10y  | US$      2,476 | US$      4,701 | US$      8,057 |
+  |  15y  | US$      4,071 | US$     10,586 | US$     23,641 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\GS.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS.md` (cemetery archive)_
 
 #### GS — Goldman Sachs
 
@@ -1134,7 +1024,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\GS_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS_DOSSIE.md` (cemetery archive)_
 
 #### 📑 GS — Goldman Sachs
 
@@ -1224,7 +1114,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=0_
 | 2026-04-14 | O Primo Rico | guidance | 0.60 | O Goldman Sachs previu que o dólar continuaria enfraquecendo em 2026, mas a previsão pode não ser confiável. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\GS_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — GS
 
@@ -1323,7 +1213,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=0_
 | 2026-04-14 | O Primo Rico | guidance | 0.60 | O Goldman Sachs previu que o dólar continuaria enfraquecendo em 2026, mas a previsão pode não ser confiável. |
 
 #### — · Variant perception
-_source: `tickers\GS_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — GS
 
@@ -1360,7 +1250,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=0_
 | 2026-04-14 | O Primo Rico | guidance | 0.60 | O Goldman Sachs previu que o dólar continuaria enfraquecendo em 2026, mas a previsão pode não ser confiável. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\GS.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\GS.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

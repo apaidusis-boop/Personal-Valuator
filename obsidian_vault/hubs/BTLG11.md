@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Logística` · `market: BR` · `currency: BRL` · `bucket: holdings` · `14 sources merged`
+`sector: Logística` · `market: BR` · `currency: BRL` · `bucket: holdings` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BTLG11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BTLG11.md` (cemetery archive)_
 
 #### BTLG11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\BTLG11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[BTLG11_STORY|BTLG11]]
 
@@ -123,7 +123,7 @@ O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxim
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\BTLG11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[BTLG11_STORY|BTLG11]]
 
@@ -174,7 +174,7 @@ BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\BTLG11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[BTLG11_STORY|BTLG11]]
 
@@ -223,7 +223,7 @@ BTLG11 oferece yield de 9,2% e relação PB próxima a 1, sugerindo valorizaçã
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\BTLG11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[BTLG11_STORY|BTLG11]]
 
@@ -276,58 +276,8 @@ BTLG11 oferece yield de 9.2% com histórico de cinco anos de pagamentos, indican
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\BTLG11_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — BTLG11          moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:            166
-  Entry price.........: R$      103.30
-  Cost basis..........: R$   17,147.80
-  Price now...........: R$      103.18
-  Market value now....: R$   17,127.88  [-0.1% nao-realizado]
-  DY t12m.............: 9.19%  (R$/US$ 9.4801/share)
-  DY vs own 10y.......: P71 [fair-cheap]  (actual 9.19% em 62 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=fii  streak=5  hist_g=-0.290  ipca_anchor=0.035
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   -1.00% |   +8.19%       |
-  | base         |   +0.00%  |   +0.00% |   +9.19%       |
-  | optimista    |   +0.00%  |   +1.00% |  +10.19%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     11       |        8       |        9       |
-  | base         |     11       |        8       |        8       |
-  | optimista    |     11       |        9       |        8       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     25,607 | R$     26,581 | R$     27,594 |
-  |  10y  | R$     39,144 | R$     41,252 | R$     43,580 |
-  |  15y  | R$     61,248 | R$     64,021 | R$     67,530 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\BTLG11_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[BTLG11_STORY|BTLG11]] (BTG Logística)
 
@@ -566,10 +516,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://www.barchart.com/story/news/36734629/btdr-investors-have-opportunity-to-lead-bitdeer-technologies-group-securities-fraud-lawsuit
 [16] Tavily [Sun, 14 De]: # BTDR Investor Alert: A Securities Fraud Class Action Lawsuit Has Been Filed Against Bitdeer Technologies Group (BTDR) - Contact Kessler Topaz Meltzer & Check, LLP. RADNOR
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BTLG11_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\BTLG11_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_STORY.md` (cemetery archive)_
 
 #### BTG Logística — BTLG11
 
@@ -759,116 +709,60 @@ O horizonte para esta análise é de 24-36 meses, durante o qual será crucial m
 ###### Nota divergente do Council
 Foi este o ponto onde Pedro Alocação divergiu dos outros especialistas: "Pedro Alocaç
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BTLG11_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_STORY.md`)_
 
-#### — · Other
-_source: `hubs\BTLG11.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BTLG11_drip.md` (cemetery archive)_
 
-#### BTLG11 — BTG Logística
+/============================================================================\
+|   DRIP SCENARIO — BTLG11          moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre BTLG11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:            166
+  Entry price.........: R$      103.30
+  Cost basis..........: R$   17,147.80
+  Price now...........: R$      103.18
+  Market value now....: R$   17,127.88  [-0.1% nao-realizado]
+  DY t12m.............: 9.19%  (R$/US$ 9.4801/share)
+  DY vs own 10y.......: P71 [fair-cheap]  (actual 9.19% em 62 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Logística` · `market: BR` · `currency: BRL`
+  kind=fii  streak=5  hist_g=-0.290  ipca_anchor=0.035
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   -1.00% |   +8.19%       |
+  | base         |   +0.00%  |   +0.00% |   +9.19%       |
+  | optimista    |   +0.00%  |   +1.00% |  +10.19%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 166.0 @ entry 103.3
-- **Verdict (DB)**: `HOLD` (score 5.1, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 94.92 · P/B 0.99 · DY 9.2% · ROE 8.6% · Dividend streak 5
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     11       |        8       |        9       |
+  | base         |     11       |        8       |        8       |
+  | optimista    |     11       |        9       |        8       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[BTLG11]] _(`Overnight_2026-05-13/BTLG11.md`)_
-- **2026-05-11** · Overnight → [[BTLG11]] _(`Overnight_2026-05-11/BTLG11.md`)_
-- **2026-04-30** · Dossier Archive → [[BTLG11_STORY_2026-04-30]] _(`dossiers/archive/BTLG11_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[BTLG11_2026-04-30]] _(`agents/Valentina Prudente/reviews/BTLG11_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[BTLG11_2026-04-30]] _(`agents/Pedro Alocação/reviews/BTLG11_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[BTLG11_2026-04-30]] _(`agents/Mariana Macro/reviews/BTLG11_2026-04-30.md`)_
-- **2026-04-30** · Review · Lourdes Aluguel → [[BTLG11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/BTLG11_2026-04-30.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[BTLG11]] _(`wiki/holdings/BTLG11.md`)_
-- **—** · Variant → [[BTLG11_VARIANT]] _(`tickers/BTLG11_VARIANT.md`)_
-- **—** · Story → [[BTLG11_STORY]] _(`dossiers/BTLG11_STORY.md`)_
-- **—** · Panorama → [[BTLG11]] _(`tickers/BTLG11.md`)_
-- **—** · Other → [[BTLG11]] _(`hubs/BTLG11.md`)_
-- **—** · Ic Debate → [[BTLG11_IC_DEBATE]] _(`tickers/BTLG11_IC_DEBATE.md`)_
-- **—** · Drip → [[BTLG11_drip]] _(`briefings/drip_scenarios/BTLG11_drip.md`)_
-- **—** · Deepdive → [[BTLG11_DOSSIE]] _(`tickers/BTLG11_DOSSIE.md`)_
-- **—** · Council → [[BTLG11_COUNCIL]] _(`dossiers/BTLG11_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[BTLG11]] _(`tickers/BTLG11.md`)_
-
-###### Deepdive (DOSSIE)
-- [[BTLG11_DOSSIE]] _(`tickers/BTLG11_DOSSIE.md`)_
-
-###### Story
-- [[BTLG11_STORY]] _(`dossiers/BTLG11_STORY.md`)_
-
-###### Council aggregate
-- [[BTLG11_COUNCIL]] _(`dossiers/BTLG11_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Lourdes Aluguel_:
-- [[BTLG11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/BTLG11_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[BTLG11_2026-04-30]] _(`agents/Mariana Macro/reviews/BTLG11_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[BTLG11_2026-04-30]] _(`agents/Pedro Alocação/reviews/BTLG11_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[BTLG11_2026-04-30]] _(`agents/Valentina Prudente/reviews/BTLG11_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[BTLG11_IC_DEBATE]] _(`tickers/BTLG11_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[BTLG11_VARIANT]] _(`tickers/BTLG11_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[BTLG11]] _(`Overnight_2026-05-13/BTLG11.md`)_
-- [[BTLG11]] _(`Overnight_2026-05-11/BTLG11.md`)_
-
-###### DRIP scenarios
-- [[BTLG11_drip]] _(`briefings/drip_scenarios/BTLG11_drip.md`)_
-
-###### Wiki / playbooks
-- [[BTLG11]] _(`wiki/holdings/BTLG11.md`)_
-
-###### Archived stories
-- [[BTLG11_STORY_2026-04-30]] _(`dossiers/archive/BTLG11_STORY_2026-04-30.md`)_
-
-###### Other
-- [[BTLG11]] _(`hubs/BTLG11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama BTLG11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive BTLG11 --save-obsidian # V10 4-layer pipeline
-ii verdict BTLG11 --narrate --write
-ii fv BTLG11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker BTLG11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     25,607 | R$     26,581 | R$     27,594 |
+  |  10y  | R$     39,144 | R$     41,252 | R$     43,580 |
+  |  15y  | R$     61,248 | R$     64,021 | R$     67,530 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\BTLG11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11.md` (cemetery archive)_
 
 #### BTLG11 — BTG Logística
 
@@ -1026,7 +920,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BTLG11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BTLG11 — BTG Logística
 
@@ -1135,7 +1029,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
 | 2026-04-24 | XP | numerical | — | — | O BTG PACTUAL LOGÍSTICA FII tem um preço de R$ 103,45 com dividend yield de 9,16%. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BTLG11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BTLG11
 
@@ -1237,7 +1131,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
 | 2026-04-24 | XP | numerical | — | — | O BTG PACTUAL LOGÍSTICA FII tem um preço de R$ 103,45 com dividend yield de 9,16%. |
 
 #### — · Variant perception
-_source: `tickers\BTLG11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — BTLG11
 
@@ -1282,7 +1176,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
 | 2026-04-24 | XP | numerical | — | — | O BTG PACTUAL LOGÍSTICA FII tem um preço de R$ 103,45 com dividend yield de 9,16%. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\BTLG11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BTLG11.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[BTLG11]] — BTG Pactual Logística
 

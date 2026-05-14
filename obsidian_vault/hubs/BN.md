@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-14 · Earnings prep
-_source: `briefings\earnings_prep_BN_2026-05-14.md` (now in cemetery)_
+_source: `briefings\earnings_prep_BN_2026-05-14.md`_
 
 #### 📞 Earnings Prep — BN (2026-05-14)
 
@@ -97,7 +97,7 @@ WEB GUIDANCE HEADLINES:
 ```
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BN.md` (cemetery archive)_
 
 #### BN — Pilot Deep Dive (2026-05-12)
 
@@ -143,7 +143,7 @@ _source: `Overnight_2026-05-13\BN.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\BN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BN_2026-05-01.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[BN_STORY|BN]]
 
@@ -192,7 +192,7 @@ Brookfield Corp tem um P/E de 92.08, significativamente acima da média do setor
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\BN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BN_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[BN_STORY|BN]]
 
@@ -242,7 +242,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE sólido, apesar d
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\BN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BN_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[BN_STORY|BN]]
 
@@ -289,7 +289,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE estável, apesar 
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\BN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BN_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[BN_STORY|BN]]
 
@@ -341,7 +341,7 @@ Brookfield Corp tem um múltiplo P/E de 92,08, muito acima da média do setor (1
 ### 2017
 
 #### 2017-11-14 · Filing 2017-11-14
-_source: `dossiers\BN_FILING_2017-11-14.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_FILING_2017-11-14.md` (cemetery archive)_
 
 #### Filing dossier — [[BN]] · 2017-11-14
 
@@ -390,58 +390,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\BN_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — BN              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              7
-  Entry price.........: US$       25.56
-  Cost basis..........: US$      178.93
-  Price now...........: US$       45.48
-  Market value now....: US$      318.36  [+77.9% nao-realizado]
-  DY t12m.............: 0.55%  (R$/US$ 0.2500/share)
-  DY vs own 10y.......: P11 [EXPENSIVE]  (actual 0.55% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=40  hist_g_5y=-0.037  hist_g_raw=-0.037  gordon_g=0.010  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   -0.83%  |   -1.00% |   -1.28%       |
-  | base         |   -1.38%  |   +0.00% |   -0.83%       |
-  | optimista    |   -1.86%  |   +1.00% |   -0.31%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |      >40       |
-  | base         |    >40       |      >40       |      >40       |
-  | optimista    |    >40       |      >40       |      >40       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        299 | US$        305 | US$        313 |
-  |  10y  | US$        281 | US$        293 | US$        307 |
-  |  15y  | US$        264 | US$        281 | US$        302 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\BN_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[BN_STORY|BN]] (Brookfield Corp)
 
@@ -673,10 +623,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://ts2.tech/en/brookfield-corporation-bn-stock-fresh-news-ai-and-energy-transition-bets-and-wall-street-forecasts-as-of-december-2-2025/
 [18] Tavily [Tue, 17 Fe]: # **HUBG Investors Have Opportunity to Join Hub Group, Inc. Fraud Investigation with the Schall Law Firm**. LOS ANGELES--(BUSINESS WIRE)--The Schall Law Firm, a national sharehol
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BN_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\BN_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_STORY.md` (cemetery archive)_
 
 #### Brookfield Corp — BN
 
@@ -866,127 +816,60 @@ A margem de segurança computada é "Não disponível", dada a falta de dados ne
 ###### Rating final
 RATIN
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BN_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_STORY.md`)_
 
-#### — · Other
-_source: `hubs\BN.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BN_drip.md` (cemetery archive)_
 
-#### BN — Brookfield Corp
+/============================================================================\
+|   DRIP SCENARIO — BN              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre BN, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              7
+  Entry price.........: US$       25.56
+  Cost basis..........: US$      178.93
+  Price now...........: US$       45.48
+  Market value now....: US$      318.36  [+77.9% nao-realizado]
+  DY t12m.............: 0.55%  (R$/US$ 0.2500/share)
+  DY vs own 10y.......: P11 [EXPENSIVE]  (actual 0.55% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=40  hist_g_5y=-0.037  hist_g_raw=-0.037  gordon_g=0.010  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   -0.83%  |   -1.00% |   -1.28%       |
+  | base         |   -1.38%  |   +0.00% |   -0.83%       |
+  | optimista    |   -1.86%  |   +1.00% |   -0.31%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 7.0 @ entry 25.56142857142857
-- **Verdict (DB)**: `SELL` (score 3.52, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 92.02 · P/B 2.31 · DY 0.6% · ROE 2.0% · ND/EBITDA 8.27 · Dividend streak 40 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |      >40       |
+  | base         |    >40       |      >40       |      >40       |
+  | optimista    |    >40       |      >40       |      >40       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-14** · Earnings Prep → [[earnings_prep_BN_2026-05-14]] _(`briefings/earnings_prep_BN_2026-05-14.md`)_
-- **2026-05-13** · Overnight → [[BN]] _(`Overnight_2026-05-13/BN.md`)_
-- **2026-05-11** · Overnight → [[BN]] _(`Overnight_2026-05-11/BN.md`)_
-- **2026-05-01** · Dossier Archive → [[BN_STORY_2026-05-01]] _(`dossiers/archive/BN_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[BN_2026-05-01]] _(`agents/Valentina Prudente/reviews/BN_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[BN_2026-05-01]] _(`agents/Pedro Alocação/reviews/BN_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[BN_2026-05-01]] _(`agents/Mariana Macro/reviews/BN_2026-05-01.md`)_
-- **2026-05-01** · Review · Hank Tier-One → [[BN_2026-05-01]] _(`agents/Hank Tier-One/reviews/BN_2026-05-01.md`)_
-
-###### 2017
-
-- **2017-11-14** · Filing → [[BN_FILING_2017-11-14]] _(`dossiers/BN_FILING_2017-11-14.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[BN]] _(`wiki/holdings/BN.md`)_
-- **—** · Variant → [[BN_VARIANT]] _(`tickers/BN_VARIANT.md`)_
-- **—** · Story → [[BN_STORY]] _(`dossiers/BN_STORY.md`)_
-- **—** · Panorama → [[BN]] _(`tickers/BN.md`)_
-- **—** · Other → [[BN]] _(`hubs/BN.md`)_
-- **—** · Ic Debate → [[BN_IC_DEBATE]] _(`tickers/BN_IC_DEBATE.md`)_
-- **—** · Drip → [[BN_drip]] _(`briefings/drip_scenarios/BN_drip.md`)_
-- **—** · Deepdive → [[BN_DOSSIE]] _(`tickers/BN_DOSSIE.md`)_
-- **—** · Council → [[BN_COUNCIL]] _(`dossiers/BN_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[BN]] _(`tickers/BN.md`)_
-
-###### Deepdive (DOSSIE)
-- [[BN_DOSSIE]] _(`tickers/BN_DOSSIE.md`)_
-
-###### Story
-- [[BN_STORY]] _(`dossiers/BN_STORY.md`)_
-
-###### Council aggregate
-- [[BN_COUNCIL]] _(`dossiers/BN_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[BN_2026-05-01]] _(`agents/Hank Tier-One/reviews/BN_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[BN_2026-05-01]] _(`agents/Mariana Macro/reviews/BN_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[BN_2026-05-01]] _(`agents/Pedro Alocação/reviews/BN_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[BN_2026-05-01]] _(`agents/Valentina Prudente/reviews/BN_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[BN_IC_DEBATE]] _(`tickers/BN_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[BN_VARIANT]] _(`tickers/BN_VARIANT.md`)_
-
-###### Filings individuais
-- [[BN_FILING_2017-11-14]] _(`dossiers/BN_FILING_2017-11-14.md`)_
-
-###### Overnight scrapes
-- [[BN]] _(`Overnight_2026-05-13/BN.md`)_
-- [[BN]] _(`Overnight_2026-05-11/BN.md`)_
-
-###### DRIP scenarios
-- [[BN_drip]] _(`briefings/drip_scenarios/BN_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_BN_2026-05-14]] _(`briefings/earnings_prep_BN_2026-05-14.md`)_
-
-###### Wiki / playbooks
-- [[BN]] _(`wiki/holdings/BN.md`)_
-
-###### Archived stories
-- [[BN_STORY_2026-05-01]] _(`dossiers/archive/BN_STORY_2026-05-01.md`)_
-
-###### Other
-- [[BN]] _(`hubs/BN.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama BN --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive BN --save-obsidian # V10 4-layer pipeline
-ii verdict BN --narrate --write
-ii fv BN                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker BN # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        299 | US$        305 | US$        313 |
+  |  10y  | US$        281 | US$        293 | US$        307 |
+  |  15y  | US$        264 | US$        281 | US$        302 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\BN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN.md` (cemetery archive)_
 
 #### BN — Brookfield Corp
 
@@ -1134,7 +1017,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BN_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BN — Brookfield Corp
 
@@ -1221,7 +1104,7 @@ BN cota P/E 92.82, DY 0.55% e ROE 1.95% (depressed por accounting GAAP que masca
 *Generated by `ii dossier BN` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BN_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BN
 
@@ -1313,7 +1196,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\BN_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — BN
 
@@ -1346,7 +1229,7 @@ _source: `tickers\BN_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\BN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BN.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[BN]] — Brookfield Corporation
 

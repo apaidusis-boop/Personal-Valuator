@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BBAS3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BBAS3.md` (cemetery archive)_
 
 #### BBAS3 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### 2025
 
 #### 2025-08-01 · Other
-_source: `videos\2025-08-01_suno-noticias_banco-do-brasil-bbas3-vai-decepcionar-projecoes-para-grandes-bancos.md` (now in cemetery)_
+_source: `videos\2025-08-01_suno-noticias_banco-do-brasil-bbas3-vai-decepcionar-projecoes-para-grandes-bancos.md`_
 
 #### 🎬 BANCO DO BRASIL (BBAS3) vai DECEPCIONAR? Projeções para GRANDES BANCOS
 
@@ -105,7 +105,7 @@ _source: `videos\2025-08-01_suno-noticias_banco-do-brasil-bbas3-vai-decepcionar-
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\BBAS3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBAS3.md` (cemetery archive)_
 
 #### BBAS3 — Banco do Brasil
 
@@ -267,7 +267,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BBAS3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBAS3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BBAS3 — Banco do Brasil
 
@@ -485,7 +485,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=2 · themes=5_
 | 2026-04-16 | Virtual Asset | banking_br | neutral | A inadimplência e as despesas com PDDs aumentaram, o que causou preocupação no mercado. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BBAS3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBAS3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BBAS3
 

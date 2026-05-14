@@ -185,6 +185,25 @@ echo [CSV] export_macro_csv.py >> "%LOG%"
 "%PY%" scripts\export_macro_csv.py >> "%LOG%" 2>&1
 echo CSV exit code: %errorlevel% >> "%LOG%"
 
+REM ─── Hub consolidation (Wave 3 Deep Merge, 2026-05-14) ───
+REM Refresh per-ticker hubs from latest JSON/filings/etc, then bury any per-ticker
+REM source files that appeared during the day, then refresh the master index.
+set PYTHONIOENCODING=utf-8
+echo. >> "%LOG%"
+echo [HUBS-BUILD] build_merged_hubs.py  ^(refresh 187 ticker hubs from filesystem^) >> "%LOG%"
+"%PY%" scripts\build_merged_hubs.py >> "%LOG%" 2>&1
+echo HUBS-BUILD exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [HUBS-BURY] bury_per_ticker_sources.py  ^(cemetery any new per-ticker source^) >> "%LOG%"
+"%PY%" scripts\bury_per_ticker_sources.py >> "%LOG%" 2>&1
+echo HUBS-BURY exit code: %errorlevel% >> "%LOG%"
+
+echo. >> "%LOG%"
+echo [HUBS-INDEX] build_tickers_index.py >> "%LOG%"
+"%PY%" scripts\build_tickers_index.py >> "%LOG%" 2>&1
+echo HUBS-INDEX exit code: %errorlevel% >> "%LOG%"
+
 echo. >> "%LOG%"
 echo [ROTATE] rotate_logs.py --days 30 >> "%LOG%"
 "%PY%" scripts\rotate_logs.py --days 30 >> "%LOG%" 2>&1

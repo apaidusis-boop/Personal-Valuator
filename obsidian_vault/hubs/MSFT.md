@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\MSFT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MSFT.md` (cemetery archive)_
 
 #### MSFT — Pilot Deep Dive (2026-05-12)
 
@@ -79,7 +79,7 @@ _source: `Overnight_2026-05-13\MSFT.md` (now in cemetery)_
 ### 2019
 
 #### 2019-12-05 · Filing 2019-12-05
-_source: `dossiers\MSFT_FILING_2019-12-05.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MSFT_FILING_2019-12-05.md` (cemetery archive)_
 
 #### Filing dossier — [[MSFT]] · 2019-12-05
 
@@ -122,7 +122,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\MSFT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MSFT.md` (cemetery archive)_
 
 #### MSFT — Microsoft
 
@@ -258,7 +258,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\MSFT_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MSFT_DOSSIE.md` (cemetery archive)_
 
 #### 📑 MSFT — Microsoft
 
@@ -374,7 +374,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=3_
 | 2026-05-10 | WSJ — What's News | semis_cycle | bullish | Empresas de tecnologia como Google, Meta e Microsoft estão investindo em usinas nucleares para atender às sua… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\MSFT_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MSFT_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — MSFT
 

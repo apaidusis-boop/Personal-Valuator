@@ -141,6 +141,10 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **Mega Helena** (design audit + skill curate + 4-path spikes) | `python agents/helena_mega.py [audit\|curate\|spike\|report\|all] [--dry-run]` — outputs em `obsidian_vault/skills/Helena_Mega/` |
 | **Helena audit** (design system linter, DS001-DS009) | `python -m agents.helena.audit` |
 | **Helena Mega master report** (consolidator) | `python -m agents.helena.report` — escreve `obsidian_vault/skills/Helena_Mega/00_MASTER.md` (audit+curate+spike summary) |
+| **Ticker hubs build** (Wave 3 Deep Merge) | `python scripts/build_merged_hubs.py` — 1 hub mergeado por ticker em `obsidian_vault/hubs/<TK>.md` (absorve vault sources + reports/deepdive/*.json). Wired no `daily_run.bat`. Idempotente. |
+| **Tickers index master** | `python scripts/build_tickers_index.py` — 187 hubs em 6 secções no `obsidian_vault/_TICKERS_INDEX.md`. Wired no `daily_run.bat`. |
+| **Bury per-ticker sources** (Wave 3 cleanup) | `python scripts/bury_per_ticker_sources.py` — move dossiers/tickers/wiki/holdings/drip/overnight/etc per-ticker para `cemetery/YYYY-MM-DD/ABSORBED-*/`. Wired no `daily_run.bat` após build_merged_hubs. |
+| **Persona purge** (Wave 3, one-shot) | `python scripts/persona_purge.py` — apaga 23 personas .md + renomeia 10 pastas `agents/<Persona>/` → `agents/<handle>/`. Já corrido 2026-05-14. |
 | **Helena Linha scout** (weekly, GitHub+RSS+YouTube) | `python scripts/design_research.py [--source github\|blogs\|youtube\|all]` |
 | **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
 | **Perpetuum Master** (Phase X — 3 perpetuums) | `python agents/perpetuum_master.py [--only NAME] [--dry-run]` — thesis + vault + data_coverage, 442 subjects/dia |
@@ -234,6 +238,7 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 | **FX total BR+US em BRL**                     | `ii fx --total` |
 | **Backtest triggers históricos**              | `python -m analytics.backtest_triggers --market us --start 2020 --kind price_drop --threshold -20` |
 | **Memory cleanup** (stale/broken/orphan)      | `python scripts/memory_cleanup.py [--fix]` |
+| **Absorb plugin skills** (marketplace → local) | `python scripts/absorb_plugins.py [--dry-run]` — copia SKILL.md+commands+agents de `~/.claude/plugins/cache/*` para `.claude/skills/<plugin>-<name>/` + pointer docs em `obsidian_vault/skills/imported/`. Idempotente. Manifest em `data/absorbed_plugins.json`. Ver [[obsidian_vault/skills/imported/_INDEX]]. |
 | **Macro CSV export** (BCB SGS → data/macro_exports/) | `python scripts/export_macro_csv.py` — diff-friendly CSVs (Selic/CDI/IPCA/USDBRL); idempotente |
 | **Notify priority events** (Windows Toast)    | `python scripts/notify_events.py [--hours N] [--dry-run]` — CVM holdings + SEC 8-K prioritários; state em `data/notify_state.json` |
 | **Rotate / archive logs** (>30d → gz)         | `python scripts/rotate_logs.py [--days N]` — wired no fim de daily_run.bat |

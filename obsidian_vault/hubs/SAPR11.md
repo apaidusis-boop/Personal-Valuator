@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\SAPR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SAPR11.md` (cemetery archive)_
 
 #### SAPR11 — Pilot Deep Dive (2026-05-12)
 
@@ -69,7 +69,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-22 · Other
-_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md` (now in cemetery)_
+_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`_
 
 #### 🎬 DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! ITSA4 MUDOU O PLANO? PETR4 LUCRA COM CONFLITOS? +CSMG3 BTLG11
 
@@ -115,7 +115,7 @@ _source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-it
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\SAPR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SAPR11.md` (cemetery archive)_
 
 #### SAPR11 — Sanepar
 
@@ -261,7 +261,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\SAPR11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SAPR11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — SAPR11
 

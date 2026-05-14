@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 15
+sources_merged: 14
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: REIT` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
+`sector: REIT` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\PLD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PLD.md` (cemetery archive)_
 
 #### PLD — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\PLD.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\PLD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[PLD_STORY|PLD]]
 
@@ -128,7 +128,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\PLD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[PLD_STORY|PLD]]
 
@@ -175,7 +175,7 @@ Prologis apresenta um sólido histórico de crescimento de dividendos por 30 ano
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\PLD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[PLD_STORY|PLD]]
 
@@ -225,7 +225,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Walter Triple-Net
-_source: `agents\Walter Triple-Net\reviews\PLD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
 #### Walter Triple-Net sobre [[PLD_STORY|PLD]]
 
@@ -278,7 +278,7 @@ Prologis oferece segurança através de sua robusta relação dívida/EBITDA (5.
 ### 2018
 
 #### 2018-10-16 · Filing 2018-10-16
-_source: `dossiers\PLD_FILING_2018-10-16.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_FILING_2018-10-16.md` (cemetery archive)_
 
 #### Filing dossier — [[PLD]] · 2018-10-16
 
@@ -332,58 +332,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\PLD_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — PLD             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              2
-  Entry price.........: US$      109.22
-  Cost basis..........: US$      218.44
-  Price now...........: US$      142.10
-  Market value now....: US$      284.20  [+30.1% nao-realizado]
-  DY t12m.............: 2.89%  (R$/US$ 4.1000/share)
-  DY vs own 10y.......: P63 [fair-cheap]  (actual 2.89% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=30  hist_g_5y=0.125  hist_g_raw=0.125  gordon_g=0.000  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +3.76%  |   -1.00% |   +5.64%       |
-  | base         |   +6.26%  |   +0.00% |   +9.15%       |
-  | optimista    |   +8.45%  |   +1.00% |  +12.34%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     19       |       22       |        8       |
-  | base         |     16       |       25       |        5       |
-  | optimista    |     14       |       28       |        4       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        377 | US$        444 | US$        513 |
-  |  10y  | US$        503 | US$        693 | US$        919 |
-  |  15y  | US$        678 | US$      1,083 | US$      1,639 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\PLD_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[PLD_STORY|PLD]] (Prologis)
 
@@ -615,10 +565,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 ##### TAVILY INSIDER/SHORT/SCANDAL (5 hits)
 [17] Tavily [Wed, 12 No]: # PRLD Investors Have Opportunity to Join Prelude Therapeutics Incorporated Fraud Investigation With the Schall Law Firm By
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PLD_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\PLD_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_STORY.md` (cemetery archive)_
 
 #### Prologis — PLD
 
@@ -810,123 +760,60 @@ Prologis recebe um perfil filosófico que enfatiza a importância dos dividendos
 ###### O que o preço desconta
 O preço atual da ação de Prologis reflete uma expectativa de crescimento sustentável e um histórico consistente de dividendos. A empresa é valorizada por seu p
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PLD_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_STORY.md`)_
 
-#### — · Other
-_source: `hubs\PLD.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PLD_drip.md` (cemetery archive)_
 
-#### PLD — Prologis
+/============================================================================\
+|   DRIP SCENARIO — PLD             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre PLD, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              2
+  Entry price.........: US$      109.22
+  Cost basis..........: US$      218.44
+  Price now...........: US$      142.10
+  Market value now....: US$      284.20  [+30.1% nao-realizado]
+  DY t12m.............: 2.89%  (R$/US$ 4.1000/share)
+  DY vs own 10y.......: P63 [fair-cheap]  (actual 2.89% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: REIT` · `market: US` · `currency: USD`
+  kind=equity  streak=30  hist_g_5y=0.125  hist_g_raw=0.125  gordon_g=0.000  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +3.76%  |   -1.00% |   +5.64%       |
+  | base         |   +6.26%  |   +0.00% |   +9.15%       |
+  | optimista    |   +8.45%  |   +1.00% |  +12.34%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 2.0 @ entry 109.22
-- **Verdict (DB)**: `HOLD` (score 6.13, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 35.68 · P/B 2.47 · DY 3.6% · ROE 6.8% · ND/EBITDA 5.25 · Dividend streak 30 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     19       |       22       |        8       |
+  | base         |     16       |       25       |        5       |
+  | optimista    |     14       |       28       |        4       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[PLD]] _(`Overnight_2026-05-13/PLD.md`)_
-- **2026-05-11** · Overnight → [[PLD]] _(`Overnight_2026-05-11/PLD.md`)_
-- **2026-05-01** · Dossier Archive → [[PLD_STORY_2026-05-01]] _(`dossiers/archive/PLD_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Walter Triple-Net → [[PLD_2026-05-01]] _(`agents/Walter Triple-Net/reviews/PLD_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[PLD_2026-05-01]] _(`agents/Valentina Prudente/reviews/PLD_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[PLD_2026-05-01]] _(`agents/Pedro Alocação/reviews/PLD_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[PLD_2026-05-01]] _(`agents/Mariana Macro/reviews/PLD_2026-05-01.md`)_
-
-###### 2018
-
-- **2018-10-16** · Filing → [[PLD_FILING_2018-10-16]] _(`dossiers/PLD_FILING_2018-10-16.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[PLD]] _(`wiki/holdings/PLD.md`)_
-- **—** · Variant → [[PLD_VARIANT]] _(`tickers/PLD_VARIANT.md`)_
-- **—** · Story → [[PLD_STORY]] _(`dossiers/PLD_STORY.md`)_
-- **—** · Panorama → [[PLD]] _(`tickers/PLD.md`)_
-- **—** · Other → [[PLD]] _(`hubs/PLD.md`)_
-- **—** · Ic Debate → [[PLD_IC_DEBATE]] _(`tickers/PLD_IC_DEBATE.md`)_
-- **—** · Drip → [[PLD_drip]] _(`briefings/drip_scenarios/PLD_drip.md`)_
-- **—** · Deepdive → [[PLD_DOSSIE]] _(`tickers/PLD_DOSSIE.md`)_
-- **—** · Council → [[PLD_COUNCIL]] _(`dossiers/PLD_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[PLD]] _(`tickers/PLD.md`)_
-
-###### Deepdive (DOSSIE)
-- [[PLD_DOSSIE]] _(`tickers/PLD_DOSSIE.md`)_
-
-###### Story
-- [[PLD_STORY]] _(`dossiers/PLD_STORY.md`)_
-
-###### Council aggregate
-- [[PLD_COUNCIL]] _(`dossiers/PLD_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Mariana Macro_:
-- [[PLD_2026-05-01]] _(`agents/Mariana Macro/reviews/PLD_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[PLD_2026-05-01]] _(`agents/Pedro Alocação/reviews/PLD_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[PLD_2026-05-01]] _(`agents/Valentina Prudente/reviews/PLD_2026-05-01.md`)_
-
-_Walter Triple-Net_:
-- [[PLD_2026-05-01]] _(`agents/Walter Triple-Net/reviews/PLD_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[PLD_IC_DEBATE]] _(`tickers/PLD_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[PLD_VARIANT]] _(`tickers/PLD_VARIANT.md`)_
-
-###### Filings individuais
-- [[PLD_FILING_2018-10-16]] _(`dossiers/PLD_FILING_2018-10-16.md`)_
-
-###### Overnight scrapes
-- [[PLD]] _(`Overnight_2026-05-13/PLD.md`)_
-- [[PLD]] _(`Overnight_2026-05-11/PLD.md`)_
-
-###### DRIP scenarios
-- [[PLD_drip]] _(`briefings/drip_scenarios/PLD_drip.md`)_
-
-###### Wiki / playbooks
-- [[PLD]] _(`wiki/holdings/PLD.md`)_
-
-###### Archived stories
-- [[PLD_STORY_2026-05-01]] _(`dossiers/archive/PLD_STORY_2026-05-01.md`)_
-
-###### Other
-- [[PLD]] _(`hubs/PLD.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama PLD --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive PLD --save-obsidian # V10 4-layer pipeline
-ii verdict PLD --narrate --write
-ii fv PLD                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker PLD # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        377 | US$        444 | US$        513 |
+  |  10y  | US$        503 | US$        693 | US$        919 |
+  |  15y  | US$        678 | US$      1,083 | US$      1,639 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\PLD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD.md` (cemetery archive)_
 
 #### PLD — Prologis
 
@@ -1073,7 +960,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\PLD_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD_DOSSIE.md` (cemetery archive)_
 
 #### 📑 PLD — Prologis
 
@@ -1159,7 +1046,7 @@ PLD cota P/E 39.80 (GAAP REIT, normal), DY 2.89% e streak 30y — REIT logístic
 *Generated by `ii dossier PLD` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\PLD_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — PLD
 
@@ -1249,7 +1136,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\PLD_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — PLD
 
@@ -1280,7 +1167,7 @@ _source: `tickers\PLD_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\PLD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\PLD.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[PLD]] — Prologis
 

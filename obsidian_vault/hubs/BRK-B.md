@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 15
+sources_merged: 10
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Holding` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
+`sector: Holding` · `market: US` · `currency: USD` · `bucket: holdings` · `10 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BRK-B.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRK-B.md` (cemetery archive)_
 
 #### BRK-B — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\BRK-B.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-07 · Filing 2026-05-07
-_source: `dossiers\BRK-B_FILING_2026-05-07.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_FILING_2026-05-07.md` (cemetery archive)_
 
 #### Filing dossier — [[BRK-B]] · 2026-05-07
 
@@ -130,254 +130,11 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
-#### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\BRK-B_2026-05-01.md` (now in cemetery)_
-
-#### Charlie Compounder sobre [[BRK-B_STORY|BRK-B]]
-
-**Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
-**Data**: 2026-05-01  
-**Stance final**: 🟢 **BUY**  
-
-##### Round 1 — Abertura (cega aos colegas)
-
-> _Berkshire Hathaway B mantém posição atraente com PE de 15 e ROE de 9.8%_
-
-A Berkshire Hathaway B oferece uma relação preço-benefício atrativa, com um P/E de 15.26 e um ROE sustentado de 9.8%. A empresa mantém solidez financeira.
-
-**Métricas que invoquei**:
-- P/E=15.26
-- ROE=9.8%
-- Liquidez corrente=7.07
-
-**Preocupações**:
-- Dividend yield baixo de 46.2%
-- Relação dívida bruta/EBITDA negativa (-2.15)
-
-##### Round 2 — Resposta aos colegas
-
-**Concordei com**:
-- A relação preço-benefício atrativa mantém-se como uma forte vantagem para BRK-B
-- Mariana Macro
-
-**Desafiei**:
-- Relação dívida bruta/EBITDA negativa (-2.15) | DY baixo de 46.2%
-- Concordo que a relação dívida bruta/EBITDA é preocupante, mas o Piotroski F-Score de 4/9 e Beneish M-Score de -2.42 indicam uma situação financeira estável.
-- Mariana Macro
-- Pedro Alocação
-
-##### Quem mais estava na sala
-
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
-
-##### Documentos relacionados
-
-- [[BRK-B_STORY|📖 Storytelling completo (8 actos)]]
-- [[BRK-B_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
-
----
-*Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
-
-#### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\BRK-B_2026-05-01.md` (now in cemetery)_
-
-#### Mariana Macro sobre [[BRK-B_STORY|BRK-B]]
-
-**Função no debate**: Chief Macro Strategist (`macro_strategist`)  
-**Data**: 2026-05-01  
-**Stance final**: 🟡 **HOLD**  
-
-##### Round 1 — Abertura (cega aos colegas)
-
-> _Berkshire Hathaway B mantém posição defensiva com PE razoável_
-
-A Berkshire Hathaway B oferece um PE de 15.08 e ROE de 9.8%, indicando uma relação preço-benefício atraente, apesar do DY baixo.
-
-**Métricas que invoquei**:
-- PE=15.26
-- ROE=9.8%
-- Liquidez corrente=7.07
-
-**Preocupações**:
-- Relação dívida bruta/EBITDA negativa (-2.15)
-- DY baixo de 46.2%
-
-##### Round 2 — Resposta aos colegas
-
-**Concordei com**:
-- A Berkshire Hathaway B oferece uma relação preço-benefício atrativa (PE=15.26) e um ROE de 9.8%, indicando potencial de crescimento sustentável.
-- Valentina Prudente
-
-**Desafiei**:
-- Dividend yield baixo de 46.2% | Dividend Yield baixo (46.2%)
-- Charlie Compounder, Pedro Alocação e Valentina Prudente - O DY é um indicador relevante para investidores que buscam dividendos, mas não reflete a solidez financeira ou o potencial de crescimento da empresa
-
-##### Quem mais estava na sala
-
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
-
-##### Documentos relacionados
-
-- [[BRK-B_STORY|📖 Storytelling completo (8 actos)]]
-- [[BRK-B_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
-
----
-*Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
-
-#### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\BRK-B_2026-05-01.md` (now in cemetery)_
-
-#### Pedro Alocação sobre [[BRK-B_STORY|BRK-B]]
-
-**Função no debate**: Capital Allocator (`portfolio_officer`)  
-**Data**: 2026-05-01  
-**Stance final**: 🟢 **BUY**  
-
-##### Round 1 — Abertura (cega aos colegas)
-
-> _Berkshire Hathaway B mantém posição defensiva com PE razoável_
-
-A Berkshire Hathaway B oferece uma relação preço-benefício atraente (PE de 15.26) e um ROE de 9.8%, além de baixa volatilidade (beta de 0.699), apoiando uma estratégia defensiva.
-
-**Métricas que invoquei**:
-- P/E=15.26
-- ROE=9.8%
-- Beta=0.699
-
-**Preocupações**:
-- Dividend Yield baixo (46.2%)
-- Relação dívida bruta/EBITDA negativa (-2.15)
-
-##### Round 2 — Resposta aos colegas
-
-**Concordei com**:
-- A Berkshire Hathaway B oferece uma relação preço-benefício atrativa, com um P/E de 15.26 e um ROE sustentado de 9.8%. - Charlie Compounder
-
-**Desafiei**:
-- Relação dívida bruta/EBITDA negativa (-2.15) | DY baixo de 46.2% - Mariana Macro | A relação dívida bruta/EBITDA negativa pode sugerir que a empresa está enfrentando desafios financeiros, mas é importante considerar o contexto geral da solidez financeira e liquidez corrente de 7.07.
-
-##### Quem mais estava na sala
-
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-
-##### Documentos relacionados
-
-- [[BRK-B_STORY|📖 Storytelling completo (8 actos)]]
-- [[BRK-B_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
-
----
-*Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
-
-#### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\BRK-B_2026-05-01.md` (now in cemetery)_
-
-#### Valentina Prudente sobre [[BRK-B_STORY|BRK-B]]
-
-**Função no debate**: Chief Risk Officer (`risk_officer`)  
-**Data**: 2026-05-01  
-**Stance final**: 🟢 **BUY**  
-
-##### Round 1 — Abertura (cega aos colegas)
-
-> _Berkshire Hathaway B mantém posição de valor com solidez financeira_
-
-A Berkshire Hathaway B oferece uma relação preço-benefício atrativa (PE=15.26) e um ROE de 9.8%, indicando potencial de crescimento sustentável.
-
-**Métricas que invoquei**:
-- Piotroski F-Score: 4/9
-- Beneish M-Score: -2.42
-- Liquidez corrente: 7.07
-
-**Preocupações**:
-- Relação dívida bruta/EBITDA negativa (-2.15)
-- Dividend yield baixo (DY=46.2%)
-
-##### Round 2 — Resposta aos colegas
-
-**Concordei com**:
-- A Berkshire Hathaway B oferece uma relação preço-benefício atrativa, com um P/E de 15.26 e um ROE sustentado de 9.8%. - Charlie Compounder
-
-**Desafiei**:
-- Dividend yield baixo de 46.2% | DY baixo de 46.2% - Mariana Macro & Pedro Alocação | O valor do dividendo não é o único indicador de valor para uma empresa como Berkshire Hathaway, que foca em crescimento e liquidez a longo prazo.
-
-##### Quem mais estava na sala
-
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
-
-##### Documentos relacionados
-
-- [[BRK-B_STORY|📖 Storytelling completo (8 actos)]]
-- [[BRK-B_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
-
----
-*Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
-
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\BRK-B_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — BRK-B           moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              1
-  Entry price.........: US$      417.99
-  Cost basis..........: US$      417.99
-  Price now...........: US$      469.32
-  Market value now....: US$      469.32  [+12.3% nao-realizado]
-  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
-
-  kind=equity  streak=0  price_cagr_5y=0.114
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   +5.70% |   +5.70%       |
-  | base         |   +0.00%  |  +11.40% |  +11.40%       |
-  | optimista    |   +0.00%  |  +14.82% |  +14.82%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |       11       |
-  | base         |    >40       |      >40       |        6       |
-  | optimista    |    >40       |      >40       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        619 | US$        805 | US$        937 |
-  |  10y  | US$        817 | US$      1,381 | US$      1,869 |
-  |  15y  | US$      1,078 | US$      2,370 | US$      3,730 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\BRK-B_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[BRK-B_STORY|BRK-B]] (Berkshire Hathaway B)
 
@@ -665,10 +422,10 @@ Additional filings from Berkshire Hathaway Inc that have
 ##### TAVILY GUIDANCE (≤90d) (5 hits)
 [17] Tavily [Sun, 01 Ma]: Berkshire Hathaway (BRK/A, BRK/B) reported fourth-quarter earnings of almost $19.2 billion, below the $19.7 billion in the same quarter of 2024, due to lower operating profits and an impairment of Berkshire’s Occident
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BRK-B_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\BRK-B_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_STORY.md` (cemetery archive)_
 
 #### Berkshire Hathaway B — BRK-B
 
@@ -878,124 +635,59 @@ Foi este o ponto onde Mariana Macro divergiu de Diego Bancário: "A baixa taxa d
 |---|---|---|---|---|---|---|
 | [1] | P/E ratio (TTM) | 15.26x | yfinance Ticker.info → fundamentals table | [link](https://finance.yahoo.com/quote/BRK-B) | `reported
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BRK-B_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_STORY.md`)_
 
-#### — · Other
-_source: `hubs\BRK-B.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BRK-B_drip.md` (cemetery archive)_
 
-#### BRK-B — Berkshire Hathaway B
+/============================================================================\
+|   DRIP SCENARIO — BRK-B           moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre BRK-B, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              1
+  Entry price.........: US$      417.99
+  Cost basis..........: US$      417.99
+  Price now...........: US$      469.32
+  Market value now....: US$      469.32  [+12.3% nao-realizado]
+  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
 
-`sector: Holding` · `market: US` · `currency: USD`
+  kind=equity  streak=0  price_cagr_5y=0.114
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   +5.70% |   +5.70%       |
+  | base         |   +0.00%  |  +11.40% |  +11.40%       |
+  | optimista    |   +0.00%  |  +14.82% |  +14.82%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1.0 @ entry 417.99
-- **Verdict (DB)**: `HOLD` (score 4.42, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 14.45 · P/B 0.00 · ROE 10.5% · ND/EBITDA -2.28 · Dividend streak 0 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |       11       |
+  | base         |    >40       |      >40       |        6       |
+  | optimista    |    >40       |      >40       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[BRK-B]] _(`Overnight_2026-05-13/BRK-B.md`)_
-- **2026-05-11** · Overnight → [[BRK-B]] _(`Overnight_2026-05-11/BRK-B.md`)_
-- **2026-05-07** · Filing → [[BRK-B_FILING_2026-05-07]] _(`dossiers/BRK-B_FILING_2026-05-07.md`)_
-- **2026-05-02** · Earnings Prep → [[earnings_prep_BRK-B_2026-05-02]] _(`briefings/earnings_prep_BRK-B_2026-05-02.md`)_
-- **2026-05-01** · Dossier Archive → [[BRK-B_STORY_2026-05-01]] _(`dossiers/archive/BRK-B_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[BRK-B_2026-05-01]] _(`agents/Valentina Prudente/reviews/BRK-B_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[BRK-B_2026-05-01]] _(`agents/Pedro Alocação/reviews/BRK-B_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[BRK-B_2026-05-01]] _(`agents/Mariana Macro/reviews/BRK-B_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[BRK-B_2026-05-01]] _(`agents/Charlie Compounder/reviews/BRK-B_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[BRK-B]] _(`wiki/holdings/BRK-B.md`)_
-- **—** · Variant → [[BRK-B_VARIANT]] _(`tickers/BRK-B_VARIANT.md`)_
-- **—** · Story → [[BRK-B_STORY]] _(`dossiers/BRK-B_STORY.md`)_
-- **—** · Panorama → [[BRK-B]] _(`tickers/BRK-B.md`)_
-- **—** · Other → [[BRK-B]] _(`hubs/BRK-B.md`)_
-- **—** · Ic Debate → [[BRK-B_IC_DEBATE]] _(`tickers/BRK-B_IC_DEBATE.md`)_
-- **—** · Drip → [[BRK-B_drip]] _(`briefings/drip_scenarios/BRK-B_drip.md`)_
-- **—** · Deepdive → [[BRK-B_DOSSIE]] _(`tickers/BRK-B_DOSSIE.md`)_
-- **—** · Council → [[BRK-B_COUNCIL]] _(`dossiers/BRK-B_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[BRK-B]] _(`tickers/BRK-B.md`)_
-
-###### Deepdive (DOSSIE)
-- [[BRK-B_DOSSIE]] _(`tickers/BRK-B_DOSSIE.md`)_
-
-###### Story
-- [[BRK-B_STORY]] _(`dossiers/BRK-B_STORY.md`)_
-
-###### Council aggregate
-- [[BRK-B_COUNCIL]] _(`dossiers/BRK-B_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[BRK-B_2026-05-01]] _(`agents/Charlie Compounder/reviews/BRK-B_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[BRK-B_2026-05-01]] _(`agents/Mariana Macro/reviews/BRK-B_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[BRK-B_2026-05-01]] _(`agents/Pedro Alocação/reviews/BRK-B_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[BRK-B_2026-05-01]] _(`agents/Valentina Prudente/reviews/BRK-B_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[BRK-B_IC_DEBATE]] _(`tickers/BRK-B_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[BRK-B_VARIANT]] _(`tickers/BRK-B_VARIANT.md`)_
-
-###### Filings individuais
-- [[BRK-B_FILING_2026-05-07]] _(`dossiers/BRK-B_FILING_2026-05-07.md`)_
-
-###### Overnight scrapes
-- [[BRK-B]] _(`Overnight_2026-05-13/BRK-B.md`)_
-- [[BRK-B]] _(`Overnight_2026-05-11/BRK-B.md`)_
-
-###### DRIP scenarios
-- [[BRK-B_drip]] _(`briefings/drip_scenarios/BRK-B_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_BRK-B_2026-05-02]] _(`briefings/earnings_prep_BRK-B_2026-05-02.md`)_
-
-###### Wiki / playbooks
-- [[BRK-B]] _(`wiki/holdings/BRK-B.md`)_
-
-###### Archived stories
-- [[BRK-B_STORY_2026-05-01]] _(`dossiers/archive/BRK-B_STORY_2026-05-01.md`)_
-
-###### Other
-- [[BRK-B]] _(`hubs/BRK-B.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama BRK-B --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive BRK-B --save-obsidian # V10 4-layer pipeline
-ii verdict BRK-B --narrate --write
-ii fv BRK-B                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker BRK-B # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        619 | US$        805 | US$        937 |
+  |  10y  | US$        817 | US$      1,381 | US$      1,869 |
+  |  15y  | US$      1,078 | US$      2,370 | US$      3,730 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\BRK-B.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B.md` (cemetery archive)_
 
 #### BRK-B — Berkshire Hathaway B
 
@@ -1146,7 +838,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BRK-B_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BRK-B — Berkshire Hathaway B
 
@@ -1242,7 +934,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=0 · themes=0_
 | 2026-05-11 | Fernando Ulrich | operational | 0.70 | A Berkshire Hathaway pode enfrentar desafios em investir simultaneamente em CAPEX e buybacks devido à falta de dinheiro. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BRK-B_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BRK-B
 
@@ -1344,7 +1036,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=0 · themes=0_
 | 2026-05-11 | Fernando Ulrich | operational | 0.70 | A Berkshire Hathaway pode enfrentar desafios em investir simultaneamente em CAPEX e buybacks devido à falta de dinheiro. |
 
 #### — · Variant perception
-_source: `tickers\BRK-B_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — BRK-B
 
@@ -1388,7 +1080,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=0 · themes=0_
 | 2026-05-11 | Fernando Ulrich | operational | 0.70 | A Berkshire Hathaway pode enfrentar desafios em investir simultaneamente em CAPEX e buybacks devido à falta de dinheiro. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\BRK-B.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BRK-B.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[BRK-B]] — Berkshire Hathaway Class B
 

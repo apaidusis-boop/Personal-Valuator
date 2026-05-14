@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Energy` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
+`sector: Energy` · `market: US` · `currency: USD` · `bucket: holdings` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\TEN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TEN.md` (cemetery archive)_
 
 #### TEN — Pilot Deep Dive (2026-05-12)
 
@@ -79,7 +79,7 @@ _source: `Overnight_2026-05-13\TEN.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\TEN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[TEN_STORY|TEN]]
 
@@ -128,7 +128,7 @@ P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; hist�
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\TEN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[TEN_STORY|TEN]]
 
@@ -178,7 +178,7 @@ Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com po
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\TEN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[TEN_STORY|TEN]]
 
@@ -225,7 +225,7 @@ Tsakos Energy Navigation apresenta um P/E baixo (9.14x) e ROE de 9.1%, sugerindo
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\TEN_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[TEN_STORY|TEN]]
 
@@ -272,58 +272,8 @@ Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\TEN_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — TEN             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             35
-  Entry price.........: US$       23.93
-  Cost basis..........: US$      837.48
-  Price now...........: US$       39.27
-  Market value now....: US$    1,374.45  [+64.1% nao-realizado]
-  DY t12m.............: 1.53%  (R$/US$ 0.6000/share)
-  DY vs own 10y.......: P17 [EXPENSIVE]  (actual 1.53% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=24  hist_g_5y=0.157  hist_g_raw=0.316  gordon_g=0.079  is_quality=True  capped=True
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +7.08%  |   -1.00% |   +7.60%       |
-  | base         |  +11.79%  |   +0.00% |  +13.32%       |
-  | optimista    |  +15.92%  |   +1.00% |  +18.45%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     19       |       38       |        3       |
-  | base         |     15       |      >40       |        2       |
-  | optimista    |     13       |      >40       |        2       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,996 | US$      2,589 | US$      3,233 |
-  |  10y  | US$      2,908 | US$      4,877 | US$      7,584 |
-  |  15y  | US$      4,255 | US$      9,186 | US$     17,734 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\TEN_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[TEN_STORY|TEN]] (Tsakos Energy Navig.)
 
@@ -553,10 +503,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 ##### TAVILY INSIDER/SHORT/SCANDAL (5 hits)
 [16] Tavily [Tue, 17 Ma]: # Greek Shipping Executive Warns of Energy Supply Risk as Ships Remain Trapped in Strait of Hormuz. Speaking on **77** WABC
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TEN_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\TEN_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_STORY.md` (cemetery archive)_
 
 #### Tsakos Energy Navig. — TEN
 
@@ -738,116 +688,60 @@ O perfil filosófico da empresa é predominantemente orientado para o valor, com
 
 O preço atual da 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\TEN_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_STORY.md`)_
 
-#### — · Other
-_source: `hubs\TEN.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TEN_drip.md` (cemetery archive)_
 
-#### TEN — Tsakos Energy Navig.
+/============================================================================\
+|   DRIP SCENARIO — TEN             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre TEN, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             35
+  Entry price.........: US$       23.93
+  Cost basis..........: US$      837.48
+  Price now...........: US$       39.27
+  Market value now....: US$    1,374.45  [+64.1% nao-realizado]
+  DY t12m.............: 1.53%  (R$/US$ 0.6000/share)
+  DY vs own 10y.......: P17 [EXPENSIVE]  (actual 1.53% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Energy` · `market: US` · `currency: USD`
+  kind=equity  streak=24  hist_g_5y=0.157  hist_g_raw=0.316  gordon_g=0.079  is_quality=True  capped=True
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +7.08%  |   -1.00% |   +7.60%       |
+  | base         |  +11.79%  |   +0.00% |  +13.32%       |
+  | optimista    |  +15.92%  |   +1.00% |  +18.45%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 35.0 @ entry 23.928
-- **Verdict (DB)**: `AVOID` (score 4.18, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 9.61 · P/B 0.68 · DY 1.4% · ROE 9.1% · ND/EBITDA 4.20 · Dividend streak 24 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     19       |       38       |        3       |
+  | base         |     15       |      >40       |        2       |
+  | optimista    |     13       |      >40       |        2       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[TEN]] _(`Overnight_2026-05-13/TEN.md`)_
-- **2026-05-11** · Overnight → [[TEN]] _(`Overnight_2026-05-11/TEN.md`)_
-- **2026-05-01** · Dossier Archive → [[TEN_STORY_2026-05-01]] _(`dossiers/archive/TEN_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[TEN_2026-05-01]] _(`agents/Valentina Prudente/reviews/TEN_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[TEN_2026-05-01]] _(`agents/Pedro Alocação/reviews/TEN_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[TEN_2026-05-01]] _(`agents/Mariana Macro/reviews/TEN_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[TEN_2026-05-01]] _(`agents/Charlie Compounder/reviews/TEN_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[TEN]] _(`wiki/holdings/TEN.md`)_
-- **—** · Variant → [[TEN_VARIANT]] _(`tickers/TEN_VARIANT.md`)_
-- **—** · Story → [[TEN_STORY]] _(`dossiers/TEN_STORY.md`)_
-- **—** · Panorama → [[TEN]] _(`tickers/TEN.md`)_
-- **—** · Other → [[TEN]] _(`hubs/TEN.md`)_
-- **—** · Ic Debate → [[TEN_IC_DEBATE]] _(`tickers/TEN_IC_DEBATE.md`)_
-- **—** · Drip → [[TEN_drip]] _(`briefings/drip_scenarios/TEN_drip.md`)_
-- **—** · Deepdive → [[TEN_DOSSIE]] _(`tickers/TEN_DOSSIE.md`)_
-- **—** · Council → [[TEN_COUNCIL]] _(`dossiers/TEN_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[TEN]] _(`tickers/TEN.md`)_
-
-###### Deepdive (DOSSIE)
-- [[TEN_DOSSIE]] _(`tickers/TEN_DOSSIE.md`)_
-
-###### Story
-- [[TEN_STORY]] _(`dossiers/TEN_STORY.md`)_
-
-###### Council aggregate
-- [[TEN_COUNCIL]] _(`dossiers/TEN_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[TEN_2026-05-01]] _(`agents/Charlie Compounder/reviews/TEN_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[TEN_2026-05-01]] _(`agents/Mariana Macro/reviews/TEN_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[TEN_2026-05-01]] _(`agents/Pedro Alocação/reviews/TEN_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[TEN_2026-05-01]] _(`agents/Valentina Prudente/reviews/TEN_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[TEN_IC_DEBATE]] _(`tickers/TEN_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[TEN_VARIANT]] _(`tickers/TEN_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[TEN]] _(`Overnight_2026-05-13/TEN.md`)_
-- [[TEN]] _(`Overnight_2026-05-11/TEN.md`)_
-
-###### DRIP scenarios
-- [[TEN_drip]] _(`briefings/drip_scenarios/TEN_drip.md`)_
-
-###### Wiki / playbooks
-- [[TEN]] _(`wiki/holdings/TEN.md`)_
-
-###### Archived stories
-- [[TEN_STORY_2026-05-01]] _(`dossiers/archive/TEN_STORY_2026-05-01.md`)_
-
-###### Other
-- [[TEN]] _(`hubs/TEN.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama TEN --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive TEN --save-obsidian # V10 4-layer pipeline
-ii verdict TEN --narrate --write
-ii fv TEN                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker TEN # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,996 | US$      2,589 | US$      3,233 |
+  |  10y  | US$      2,908 | US$      4,877 | US$      7,584 |
+  |  15y  | US$      4,255 | US$      9,186 | US$     17,734 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\TEN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN.md` (cemetery archive)_
 
 #### TEN — Tsakos Energy Navig.
 
@@ -995,7 +889,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\TEN_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN_DOSSIE.md` (cemetery archive)_
 
 #### 📑 TEN — Tsakos Energy Navig.
 
@@ -1082,7 +976,7 @@ TEN negoceia a P/E 8.82 com DY 1.53% e P/B 0.63 — métricas ópticamente "bara
 *Generated by `ii dossier TEN` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\TEN_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — TEN
 
@@ -1172,7 +1066,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\TEN_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — TEN
 
@@ -1204,7 +1098,7 @@ _source: `tickers\TEN_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\TEN.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\TEN.md` (cemetery archive)_
 
 #### ⚠️ EXIT FLAG: [[TEN]] — Tsakos Energy Navigation
 

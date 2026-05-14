@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\POMO3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\POMO3.md` (cemetery archive)_
 
 #### POMO3 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\POMO3.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-05 · Filing 2026-05-05
-_source: `dossiers\POMO3_FILING_2026-05-05.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_FILING_2026-05-05.md` (cemetery archive)_
 
 #### Filing dossier — [[POMO3]] · 2026-05-05
 
@@ -120,7 +120,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\POMO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[POMO3_STORY|POMO3]]
 
@@ -170,7 +170,7 @@ A empresa oferece um dividendo anual de 15.9% (DY) e um ROE de 31%, superando si
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\POMO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[POMO3_STORY|POMO3]]
 
@@ -217,7 +217,7 @@ DY de 15.9% e ROE de 31.0% superam setor, mas P/E de 6.57x é baixo comparado à
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Tião Galpão
-_source: `agents\Tião Galpão\reviews\POMO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
 #### Tião Galpão sobre [[POMO3_STORY|POMO3]]
 
@@ -261,7 +261,7 @@ ROE de 31% supera significativamente a média setorial (5,2%). Dividend yield de
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\POMO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[POMO3_STORY|POMO3]]
 
@@ -311,7 +311,7 @@ A empresa oferece um dividendo anual de 15.9%, com ROE de 31% e P/B de 2.08, sug
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-15 · Filing 2026-04-15
-_source: `dossiers\POMO3_FILING_2026-04-15.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_FILING_2026-04-15.md` (cemetery archive)_
 
 #### Filing dossier — [[POMO3]] · 2026-04-15
 
@@ -354,7 +354,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Council aggregate
-_source: `dossiers\POMO3_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[POMO3_STORY|POMO3]] (POMO3)
 
@@ -583,10 +583,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 [18] Tavily [Tue, 17 Fe]: # **HUBG Investors Have Opportunity to Join Hub Group, Inc. Fraud Investigation with the Schall Law Firm**. LOS ANGELES--(BUSINESS WIRE)--The Schall Law Firm, a national shareholder rights litigation firm, announces that it is investigating claims on behalf of investors of Hub Group, Inc. HUBG Inves
      URL: https://www.businesswire.com/news/home/20260216168257/en/HUBG-Investors-
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\POMO3_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\POMO3_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_STORY.md` (cemetery archive)_
 
 #### POMO3 — POMO3
 
@@ -788,10 +788,10 @@ Foi neste ponto que Valentina Prudente divergiu de Pedro Alocação: enquanto a 
 | [2] | P/B ratio | 2.08x | yfinance Ticker.info | [link](https://finance.yahoo.com/quote/POMO3.SA) | `reported` | 2026-04-30 |
 | [3] | Div
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\POMO3_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_STORY.md`)_
 
 #### — · Panorama
-_source: `tickers\POMO3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\POMO3.md` (cemetery archive)_
 
 #### POMO3 — POMO3
 
@@ -929,7 +929,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\POMO3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\POMO3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — POMO3
 

@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 17
+sources_merged: 16
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Oil & Gas` · `market: BR` · `currency: BRL` · `bucket: holdings` · `17 sources merged`
+`sector: Oil & Gas` · `market: BR` · `currency: BRL` · `bucket: holdings` · `16 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\PRIO3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PRIO3.md` (cemetery archive)_
 
 #### PRIO3 — Pilot Deep Dive (2026-05-12)
 
@@ -79,7 +79,7 @@ _source: `Overnight_2026-05-13\PRIO3.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-05 · Filing 2026-05-05
-_source: `dossiers\PRIO3_FILING_2026-05-05.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_FILING_2026-05-05.md` (cemetery archive)_
 
 #### Filing dossier — [[PRIO3]] · 2026-05-05
 
@@ -143,7 +143,7 @@ _Método: `graham_number`. Consensus fair = R$46.25. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Council review · Aderbaldo Cíclico
-_source: `agents\Aderbaldo Cíclico\reviews\PRIO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
 #### Aderbaldo Cíclico sobre [[PRIO3_STORY|PRIO3]]
 
@@ -187,7 +187,7 @@ P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation.
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\PRIO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[PRIO3_STORY|PRIO3]]
 
@@ -231,7 +231,7 @@ P/E ratio of 23.97 and P/B of 2.09 are above peer medians, indicating potential 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\PRIO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[PRIO3_STORY|PRIO3]]
 
@@ -284,7 +284,7 @@ PRIO3's P/E of 23.97 and P/B of 2.09 exceed peer medians, suggesting overvaluati
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\PRIO3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[PRIO3_STORY|PRIO3]]
 
@@ -332,7 +332,7 @@ A PRIO3 tem um Piotroski F-Score de apenas 2/9, indicando fragilidade operaciona
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-13 · Filing 2026-04-13
-_source: `dossiers\PRIO3_FILING_2026-04-13.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_FILING_2026-04-13.md` (cemetery archive)_
 
 #### Filing dossier — [[PRIO3]] · 2026-04-13
 
@@ -398,57 +398,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\PRIO3_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — PRIO3           moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:            503
-  Entry price.........: R$       39.85
-  Cost basis..........: R$   20,044.55
-  Price now...........: R$       62.63
-  Market value now....: R$   31,502.89  [+57.2% nao-realizado]
-  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
-
-  kind=equity  streak=1  price_cagr_5y=0.283
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |  +12.50% |  +12.50%       |
-  | base         |   +0.00%  |  +25.00% |  +25.00%       |
-  | optimista    |   +0.00%  |  +30.00% |  +30.00%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |        3       |
-  | base         |    >40       |      >40       |        2       |
-  | optimista    |    >40       |      >40       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     56,769 | R$     96,139 | R$    116,968 |
-  |  10y  | R$    102,300 | R$    293,394 | R$    434,294 |
-  |  15y  | R$    184,348 | R$    895,366 | R$  1,612,504 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\PRIO3_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[PRIO3_STORY|PRIO3]] (PRIO3)
 
@@ -755,10 +706,10 @@ GLOBAL REAL WEAL TH PER CAPIT A
      URL: https://africa.businessinsider.com/local/markets/multi-millionaire-arthur-ezes-oranto-sells-75-stake-in-sao-tome-block-3-to-brazils/v28fwhb
 [21] Tavily [Thu, 23 Ap]: # Ecopetrol to acquire stake in Brazil’s Brava Energia, targets controlling interest. (WO) - **Ecopetr
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PRIO3_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\PRIO3_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_STORY.md` (cemetery archive)_
 
 #### PRIO3 — PRIO3
 
@@ -934,134 +885,59 @@ Valentina Prudente sinalizou que as análises atuais podem não refletir adequad
 ###### Horizonte
 O horizonte
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PRIO3_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_STORY.md`)_
 
-#### — · Other
-_source: `hubs\PRIO3.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PRIO3_drip.md` (cemetery archive)_
 
-#### PRIO3 — PRIO3
+/============================================================================\
+|   DRIP SCENARIO — PRIO3           moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre PRIO3, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:            503
+  Entry price.........: R$       39.85
+  Cost basis..........: R$   20,044.55
+  Price now...........: R$       62.63
+  Market value now....: R$   31,502.89  [+57.2% nao-realizado]
+  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
 
-`sector: Oil & Gas` · `market: BR` · `currency: BRL`
+  kind=equity  streak=1  price_cagr_5y=0.283
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |  +12.50% |  +12.50%       |
+  | base         |   +0.00%  |  +25.00% |  +25.00%       |
+  | optimista    |   +0.00%  |  +30.00% |  +30.00%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 503.0 @ entry 39.85
-- **Verdict (DB)**: `AVOID` (score 3.13, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 20.91 · P/B 2.06 · ROE 9.7% · ND/EBITDA 2.48 · Dividend streak 1
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |        3       |
+  | base         |    >40       |      >40       |        2       |
+  | optimista    |    >40       |      >40       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[PRIO3]] _(`Overnight_2026-05-13/PRIO3.md`)_
-- **2026-05-11** · Overnight → [[PRIO3]] _(`Overnight_2026-05-11/PRIO3.md`)_
-- **2026-05-10** · Pilot → [[PRIO3]] _(`Pilot_Deep_Dive_2026-05-10/PRIO3.md`)_
-- **2026-05-05** · Filing → [[PRIO3_FILING_2026-05-05]] _(`dossiers/PRIO3_FILING_2026-05-05.md`)_
-- **2026-05-05** · Earnings Prep → [[earnings_prep_PRIO3_2026-05-05]] _(`briefings/earnings_prep_PRIO3_2026-05-05.md`)_
-- **2026-04-30** · Dossier Archive → [[PRIO3_STORY_2026-04-30]] _(`dossiers/archive/PRIO3_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[PRIO3_2026-04-30]] _(`agents/Valentina Prudente/reviews/PRIO3_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[PRIO3_2026-04-30]] _(`agents/Pedro Alocação/reviews/PRIO3_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[PRIO3_2026-04-30]] _(`agents/Mariana Macro/reviews/PRIO3_2026-04-30.md`)_
-- **2026-04-30** · Review · Aderbaldo Cíclico → [[PRIO3_2026-04-30]] _(`agents/Aderbaldo Cíclico/reviews/PRIO3_2026-04-30.md`)_
-- **2026-04-13** · Filing → [[PRIO3_FILING_2026-04-13]] _(`dossiers/PRIO3_FILING_2026-04-13.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[PRIO3]] _(`wiki/holdings/PRIO3.md`)_
-- **—** · Variant → [[PRIO3_VARIANT]] _(`tickers/PRIO3_VARIANT.md`)_
-- **—** · Story → [[PRIO3_STORY]] _(`dossiers/PRIO3_STORY.md`)_
-- **—** · Ri → [[PRIO3_RI]] _(`tickers/PRIO3_RI.md`)_
-- **—** · Panorama → [[PRIO3]] _(`tickers/PRIO3.md`)_
-- **—** · Other → [[PRIO3]] _(`hubs/PRIO3.md`)_
-- **—** · Ic Debate → [[PRIO3_IC_DEBATE]] _(`tickers/PRIO3_IC_DEBATE.md`)_
-- **—** · Drip → [[PRIO3_drip]] _(`briefings/drip_scenarios/PRIO3_drip.md`)_
-- **—** · Deepdive → [[PRIO3_DOSSIE]] _(`tickers/PRIO3_DOSSIE.md`)_
-- **—** · Council → [[PRIO3_COUNCIL]] _(`dossiers/PRIO3_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[PRIO3]] _(`tickers/PRIO3.md`)_
-
-###### Deepdive (DOSSIE)
-- [[PRIO3_DOSSIE]] _(`tickers/PRIO3_DOSSIE.md`)_
-
-###### Story
-- [[PRIO3_STORY]] _(`dossiers/PRIO3_STORY.md`)_
-
-###### Council aggregate
-- [[PRIO3_COUNCIL]] _(`dossiers/PRIO3_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Aderbaldo Cíclico_:
-- [[PRIO3_2026-04-30]] _(`agents/Aderbaldo Cíclico/reviews/PRIO3_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[PRIO3_2026-04-30]] _(`agents/Mariana Macro/reviews/PRIO3_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[PRIO3_2026-04-30]] _(`agents/Pedro Alocação/reviews/PRIO3_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[PRIO3_2026-04-30]] _(`agents/Valentina Prudente/reviews/PRIO3_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[PRIO3_IC_DEBATE]] _(`tickers/PRIO3_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[PRIO3_VARIANT]] _(`tickers/PRIO3_VARIANT.md`)_
-
-###### RI / official disclosures
-- [[PRIO3_RI]] _(`tickers/PRIO3_RI.md`)_
-
-###### Filings individuais
-- [[PRIO3_FILING_2026-05-05]] _(`dossiers/PRIO3_FILING_2026-05-05.md`)_
-- [[PRIO3_FILING_2026-04-13]] _(`dossiers/PRIO3_FILING_2026-04-13.md`)_
-
-###### Overnight scrapes
-- [[PRIO3]] _(`Overnight_2026-05-13/PRIO3.md`)_
-- [[PRIO3]] _(`Overnight_2026-05-11/PRIO3.md`)_
-
-###### Pilot deep dives
-- [[PRIO3]] _(`Pilot_Deep_Dive_2026-05-10/PRIO3.md`)_
-
-###### DRIP scenarios
-- [[PRIO3_drip]] _(`briefings/drip_scenarios/PRIO3_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_PRIO3_2026-05-05]] _(`briefings/earnings_prep_PRIO3_2026-05-05.md`)_
-
-###### Wiki / playbooks
-- [[PRIO3]] _(`wiki/holdings/PRIO3.md`)_
-
-###### Archived stories
-- [[PRIO3_STORY_2026-04-30]] _(`dossiers/archive/PRIO3_STORY_2026-04-30.md`)_
-
-###### Other
-- [[PRIO3]] _(`hubs/PRIO3.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama PRIO3 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive PRIO3 --save-obsidian # V10 4-layer pipeline
-ii verdict PRIO3 --narrate --write
-ii fv PRIO3                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker PRIO3 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     56,769 | R$     96,139 | R$    116,968 |
+  |  10y  | R$    102,300 | R$    293,394 | R$    434,294 |
+  |  15y  | R$    184,348 | R$    895,366 | R$  1,612,504 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\PRIO3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3.md` (cemetery archive)_
 
 #### PRIO3 — PRIO3
 
@@ -1254,7 +1130,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\PRIO3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 PRIO3 — PRIO3
 
@@ -1412,7 +1288,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=6 · analyst=2 · themes=5_
 | 2026-04-02 | O Primo Rico | ipca_inflacao | bullish | A inflação no Brasil está aumentando devido ao aumento dos preços do diesel e fertilizantes, afetando o custo… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\PRIO3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — PRIO3
 
@@ -1540,7 +1416,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=6 · analyst=2 · themes=5_
 | 2026-04-02 | O Primo Rico | ipca_inflacao | bullish | A inflação no Brasil está aumentando devido ao aumento dos preços do diesel e fertilizantes, afetando o custo… |
 
 #### — · RI / disclosure
-_source: `tickers\PRIO3_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3_RI.md` (cemetery archive)_
 
 #### PRIO3 — RI Quarterly Compare
 
@@ -1628,7 +1504,7 @@ tension: 0.3
 *Auto-generated by `library.ri.compare_releases` from CVM official data.*
 
 #### — · Variant perception
-_source: `tickers\PRIO3_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — PRIO3
 
@@ -1707,7 +1583,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=6 · analyst=2 · themes=5_
 | 2026-04-02 | O Primo Rico | ipca_inflacao | bullish | A inflação no Brasil está aumentando devido ao aumento dos preços do diesel e fertilizantes, afetando o custo… |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\PRIO3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\PRIO3.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[PRIO3]] — PetroRio
 

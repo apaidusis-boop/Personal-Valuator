@@ -7,7 +7,7 @@ currency: USD
 bucket: watchlist
 is_holding: false
 generated: 2026-05-14
-sources_merged: 17
+sources_merged: 16
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Healthcare` · `market: US` · `currency: USD` · `bucket: watchlist` · `17 sources merged`
+`sector: Healthcare` · `market: US` · `currency: USD` · `bucket: watchlist` · `16 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\ABBV.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABBV.md` (cemetery archive)_
 
 #### ABBV — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\ABBV.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-12 · Filing 2026-05-12
-_source: `dossiers\ABBV_FILING_2026-05-12.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2026-05-12.md` (cemetery archive)_
 
 #### Filing dossier — [[ABBV]] · 2026-05-12
 
@@ -112,7 +112,7 @@ _(sem histórico — primeira run)_
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\ABBV_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[ABBV]] · 2026-05-08
 
@@ -146,7 +146,7 @@ _(sem histórico — primeira run)_
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\ABBV_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\ABBV_2026-04-30.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[ABBV_STORY|ABBV]]
 
@@ -199,7 +199,7 @@ Despite a strong ROE of 62.25% and a dividend yield of 3.2%, AbbVie's high P/E r
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\ABBV_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ABBV_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[ABBV_STORY|ABBV]]
 
@@ -248,7 +248,7 @@ A AbbVie apresenta um ROE de 62,25% e uma renda anual de 3,29%, demonstrando con
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\ABBV_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ABBV_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[ABBV_STORY|ABBV]]
 
@@ -299,7 +299,7 @@ A AbbVie apresenta um ROE de 62,25% e margens estáveis apesar do P/E elevado. P
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\ABBV_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ABBV_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[ABBV_STORY|ABBV]]
 
@@ -352,7 +352,7 @@ Piotroski F-Score de 8/9 sugere saúde financeira sólida, mas Altman Z-Score de
 ### 2017
 
 #### 2017-03-20 · Filing 2017-03-20
-_source: `dossiers\ABBV_FILING_2017-03-20.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2017-03-20.md` (cemetery archive)_
 
 #### Filing dossier — [[ABBV]] · 2017-03-20
 
@@ -388,58 +388,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\ABBV_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — ABBV            moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              7
-  Entry price.........: US$      200.91
-  Cost basis..........: US$    1,500.00
-  Price now...........: US$      198.71
-  Market value now....: US$    1,483.57  [-1.1% nao-realizado]
-  DY t12m.............: 3.39%  (R$/US$ 6.7400/share)
-  DY vs own 10y.......: P26 [fair-rich]  (actual 3.39% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=14  hist_g_5y=0.060  hist_g_raw=0.060  gordon_g=0.000  is_quality=False  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +1.79%  |   -2.00% |   +3.19%       |
-  | base         |   +2.99%  |   +0.00% |   +6.38%       |
-  | optimista    |   +4.04%  |   +1.00% |   +8.43%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     24       |       18       |       19       |
-  | base         |     22       |       21       |       12       |
-  | optimista    |     20       |       24       |        9       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,753 | US$      2,031 | US$      2,231 |
-  |  10y  | US$      2,108 | US$      2,781 | US$      3,329 |
-  |  15y  | US$      2,587 | US$      3,807 | US$      4,933 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\ABBV_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[ABBV_STORY|ABBV]] (AbbVie)
 
@@ -681,10 +631,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-4-28-abbvie-abbv-to-report-earnings-tomorrow-here-is-what-to-expect
 [16] Tavily [Thu, 16 Ap]: Comparable sales growth includes the prior and current year sales of Exact Sciences, a cancer diagnostics company that Abbott acquired on March 23, 2026. Comparable sales growth exclude
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ABBV_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\ABBV_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_STORY.md` (cemetery archive)_
 
 #### AbbVie — ABBV
 
@@ -877,127 +827,60 @@ Foi este o ponto onde Mariana Macro divergiu de Diego Bancário: a pressão regu
 ###### Nota divergente do Council
 Foi este o ponto onde Mariana Macro divergiu de D
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ABBV_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_STORY.md`)_
 
-#### — · Other
-_source: `hubs\ABBV.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ABBV_drip.md` (cemetery archive)_
 
-#### ABBV — AbbVie
+/============================================================================\
+|   DRIP SCENARIO — ABBV            moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre ABBV, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              7
+  Entry price.........: US$      200.91
+  Cost basis..........: US$    1,500.00
+  Price now...........: US$      198.71
+  Market value now....: US$    1,483.57  [-1.1% nao-realizado]
+  DY t12m.............: 3.39%  (R$/US$ 6.7400/share)
+  DY vs own 10y.......: P26 [fair-rich]  (actual 3.39% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Healthcare` · `market: US` · `currency: USD`
+  kind=equity  streak=14  hist_g_5y=0.060  hist_g_raw=0.060  gordon_g=0.000  is_quality=False  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +1.79%  |   -2.00% |   +3.19%       |
+  | base         |   +2.99%  |   +0.00% |   +6.38%       |
+  | optimista    |   +4.04%  |   +1.00% |   +8.43%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 7.46602 @ entry 200.91025740622177
-- **Verdict (DB)**: `SKIP` (score 4.95, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 102.21 · P/B -55.35 · DY 3.2% · ND/EBITDA 2.12 · Dividend streak 14 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     24       |       18       |       19       |
+  | base         |     22       |       21       |       12       |
+  | optimista    |     20       |       24       |        9       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[ABBV]] _(`Overnight_2026-05-13/ABBV.md`)_
-- **2026-05-12** · Filing → [[ABBV_FILING_2026-05-12]] _(`dossiers/ABBV_FILING_2026-05-12.md`)_
-- **2026-05-11** · Overnight → [[ABBV]] _(`Overnight_2026-05-11/ABBV.md`)_
-- **2026-05-08** · Filing → [[ABBV_FILING_2026-05-08]] _(`dossiers/ABBV_FILING_2026-05-08.md`)_
-- **2026-04-30** · Dossier Archive → [[ABBV_STORY_2026-04-30]] _(`dossiers/archive/ABBV_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[ABBV_2026-04-30]] _(`agents/Valentina Prudente/reviews/ABBV_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[ABBV_2026-04-30]] _(`agents/Pedro Alocação/reviews/ABBV_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[ABBV_2026-04-30]] _(`agents/Mariana Macro/reviews/ABBV_2026-04-30.md`)_
-- **2026-04-30** · Review · Charlie Compounder → [[ABBV_2026-04-30]] _(`agents/Charlie Compounder/reviews/ABBV_2026-04-30.md`)_
-
-###### 2017
-
-- **2017-03-20** · Filing → [[ABBV_FILING_2017-03-20]] _(`dossiers/ABBV_FILING_2017-03-20.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[ABBV]] _(`wiki/holdings/ABBV.md`)_
-- **—** · Variant → [[ABBV_VARIANT]] _(`tickers/ABBV_VARIANT.md`)_
-- **—** · Story → [[ABBV_STORY]] _(`dossiers/ABBV_STORY.md`)_
-- **—** · Panorama → [[ABBV]] _(`tickers/ABBV.md`)_
-- **—** · Other → [[ABBV]] _(`hubs/ABBV.md`)_
-- **—** · Ic Debate → [[ABBV_IC_DEBATE]] _(`tickers/ABBV_IC_DEBATE.md`)_
-- **—** · Drip → [[ABBV_drip]] _(`briefings/drip_scenarios/ABBV_drip.md`)_
-- **—** · Deepdive → [[ABBV_DOSSIE]] _(`tickers/ABBV_DOSSIE.md`)_
-- **—** · Council → [[ABBV_COUNCIL]] _(`dossiers/ABBV_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[ABBV]] _(`tickers/ABBV.md`)_
-
-###### Deepdive (DOSSIE)
-- [[ABBV_DOSSIE]] _(`tickers/ABBV_DOSSIE.md`)_
-
-###### Story
-- [[ABBV_STORY]] _(`dossiers/ABBV_STORY.md`)_
-
-###### Council aggregate
-- [[ABBV_COUNCIL]] _(`dossiers/ABBV_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[ABBV_2026-04-30]] _(`agents/Charlie Compounder/reviews/ABBV_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[ABBV_2026-04-30]] _(`agents/Mariana Macro/reviews/ABBV_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[ABBV_2026-04-30]] _(`agents/Pedro Alocação/reviews/ABBV_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[ABBV_2026-04-30]] _(`agents/Valentina Prudente/reviews/ABBV_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[ABBV_IC_DEBATE]] _(`tickers/ABBV_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[ABBV_VARIANT]] _(`tickers/ABBV_VARIANT.md`)_
-
-###### Filings individuais
-- [[ABBV_FILING_2026-05-12]] _(`dossiers/ABBV_FILING_2026-05-12.md`)_
-- [[ABBV_FILING_2026-05-08]] _(`dossiers/ABBV_FILING_2026-05-08.md`)_
-- [[ABBV_FILING_2017-03-20]] _(`dossiers/ABBV_FILING_2017-03-20.md`)_
-
-###### Overnight scrapes
-- [[ABBV]] _(`Overnight_2026-05-13/ABBV.md`)_
-- [[ABBV]] _(`Overnight_2026-05-11/ABBV.md`)_
-
-###### DRIP scenarios
-- [[ABBV_drip]] _(`briefings/drip_scenarios/ABBV_drip.md`)_
-
-###### Wiki / playbooks
-- [[ABBV]] _(`wiki/holdings/ABBV.md`)_
-
-###### Archived stories
-- [[ABBV_STORY_2026-04-30]] _(`dossiers/archive/ABBV_STORY_2026-04-30.md`)_
-
-###### Other
-- [[ABBV]] _(`hubs/ABBV.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama ABBV --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive ABBV --save-obsidian # V10 4-layer pipeline
-ii verdict ABBV --narrate --write
-ii fv ABBV                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker ABBV # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,753 | US$      2,031 | US$      2,231 |
+  |  10y  | US$      2,108 | US$      2,781 | US$      3,329 |
+  |  15y  | US$      2,587 | US$      3,807 | US$      4,933 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\ABBV.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV.md` (cemetery archive)_
 
 #### ABBV — AbbVie
 
@@ -1122,7 +1005,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\ABBV_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_DOSSIE.md` (cemetery archive)_
 
 #### 📑 ABBV — AbbVie
 
@@ -1206,7 +1089,7 @@ Watchlist — não é trade signal. Considerar entry inicial 3-5% da sleeve US s
 *Generated by `ii dossier ABBV` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\ABBV_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — ABBV
 
@@ -1297,7 +1180,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\ABBV_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — ABBV
 
@@ -1330,7 +1213,7 @@ _source: `tickers\ABBV_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\ABBV.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\ABBV.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 15
+sources_merged: 14
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
+`sector: Technology` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\PLTR.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PLTR.md` (cemetery archive)_
 
 #### PLTR — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\PLTR.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\PLTR_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[PLTR_STORY|PLTR]]
 
@@ -126,7 +126,7 @@ ROE de 26% e Piotroski F-Score de 8/9 sugerem robustez operacional, mas P/E de 2
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\PLTR_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[PLTR_STORY|PLTR]]
 
@@ -173,7 +173,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\PLTR_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[PLTR_STORY|PLTR]]
 
@@ -223,7 +223,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\PLTR_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[PLTR_STORY|PLTR]]
 
@@ -276,7 +276,7 @@ ROE de 26% e Piotroski F-Score de 8/9 indicam solidez financeira. Z-Score seguro
 ### 2020
 
 #### 2020-09-22 · Filing 2020-09-22
-_source: `dossiers\PLTR_FILING_2020-09-22.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_FILING_2020-09-22.md` (cemetery archive)_
 
 #### Filing dossier — [[PLTR]] · 2020-09-22
 
@@ -330,57 +330,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\PLTR_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — PLTR            moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              2
-  Entry price.........: US$       80.33
-  Cost basis..........: US$      150.00
-  Price now...........: US$      143.09
-  Market value now....: US$      267.19  [+78.1% nao-realizado]
-  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
-
-  kind=equity  streak=0  price_cagr_5y=0.431
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |  +12.50% |  +12.50%       |
-  | base         |   +0.00%  |  +25.00% |  +25.00%       |
-  | optimista    |   +0.00%  |  +30.00% |  +30.00%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |        1       |
-  | base         |    >40       |      >40       |        1       |
-  | optimista    |    >40       |      >40       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        481 | US$        815 | US$        992 |
-  |  10y  | US$        868 | US$      2,488 | US$      3,684 |
-  |  15y  | US$      1,564 | US$      7,594 | US$     13,677 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\PLTR_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[PLTR_STORY|PLTR]] (Palantir)
 
@@ -625,10 +576,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://seekingalpha.com/article/4889491-palantir-this-could-end-badly
 [20] Tavily [Wed, 08 Ap]: * The stock has several years' worth of growth priced into it. It's rapidly growing and has some Wall Street analysts placing lofty price targets on i
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PLTR_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\PLTR_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_STORY.md` (cemetery archive)_
 
 #### Palantir — PLTR
 
@@ -788,127 +739,59 @@ O perfil filosófico de investimento da Palantir é predominantemente orientado 
 
 O atual preço da Palantir de R$139.11 reflete uma expectativa de crescimento acelerado no curto prazo, bem como a percepção do mercado sobre a ca
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\PLTR_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_STORY.md`)_
 
-#### — · Other
-_source: `hubs\PLTR.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PLTR_drip.md` (cemetery archive)_
 
-#### PLTR — Palantir
+/============================================================================\
+|   DRIP SCENARIO — PLTR            moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre PLTR, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              2
+  Entry price.........: US$       80.33
+  Cost basis..........: US$      150.00
+  Price now...........: US$      143.09
+  Market value now....: US$      267.19  [+78.1% nao-realizado]
+  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
 
-`sector: Technology` · `market: US` · `currency: USD`
+  kind=equity  streak=0  price_cagr_5y=0.431
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |  +12.50% |  +12.50%       |
+  | base         |   +0.00%  |  +25.00% |  +25.00%       |
+  | optimista    |   +0.00%  |  +30.00% |  +30.00%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1.8673199999999999 @ entry 80.32902769744875
-- **Verdict (DB)**: `HOLD` (score 5.23, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 147.78 · P/B 42.10 · ROE 32.6% · ND/EBITDA -3.87 · Dividend streak 0 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |        1       |
+  | base         |    >40       |      >40       |        1       |
+  | optimista    |    >40       |      >40       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[PLTR]] _(`Overnight_2026-05-13/PLTR.md`)_
-- **2026-05-11** · Overnight → [[PLTR]] _(`Overnight_2026-05-11/PLTR.md`)_
-- **2026-05-04** · Earnings Prep → [[earnings_prep_PLTR_2026-05-04]] _(`briefings/earnings_prep_PLTR_2026-05-04.md`)_
-- **2026-05-01** · Dossier Archive → [[PLTR_STORY_2026-05-01]] _(`dossiers/archive/PLTR_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[PLTR_2026-05-01]] _(`agents/Valentina Prudente/reviews/PLTR_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[PLTR_2026-05-01]] _(`agents/Pedro Alocação/reviews/PLTR_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[PLTR_2026-05-01]] _(`agents/Mariana Macro/reviews/PLTR_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[PLTR_2026-05-01]] _(`agents/Charlie Compounder/reviews/PLTR_2026-05-01.md`)_
-
-###### 2020
-
-- **2020-09-22** · Filing → [[PLTR_FILING_2020-09-22]] _(`dossiers/PLTR_FILING_2020-09-22.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[PLTR]] _(`wiki/holdings/PLTR.md`)_
-- **—** · Variant → [[PLTR_VARIANT]] _(`tickers/PLTR_VARIANT.md`)_
-- **—** · Story → [[PLTR_STORY]] _(`dossiers/PLTR_STORY.md`)_
-- **—** · Panorama → [[PLTR]] _(`tickers/PLTR.md`)_
-- **—** · Other → [[PLTR]] _(`hubs/PLTR.md`)_
-- **—** · Ic Debate → [[PLTR_IC_DEBATE]] _(`tickers/PLTR_IC_DEBATE.md`)_
-- **—** · Drip → [[PLTR_drip]] _(`briefings/drip_scenarios/PLTR_drip.md`)_
-- **—** · Deepdive → [[PLTR_DOSSIE]] _(`tickers/PLTR_DOSSIE.md`)_
-- **—** · Council → [[PLTR_COUNCIL]] _(`dossiers/PLTR_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[PLTR]] _(`tickers/PLTR.md`)_
-
-###### Deepdive (DOSSIE)
-- [[PLTR_DOSSIE]] _(`tickers/PLTR_DOSSIE.md`)_
-
-###### Story
-- [[PLTR_STORY]] _(`dossiers/PLTR_STORY.md`)_
-
-###### Council aggregate
-- [[PLTR_COUNCIL]] _(`dossiers/PLTR_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[PLTR_2026-05-01]] _(`agents/Charlie Compounder/reviews/PLTR_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[PLTR_2026-05-01]] _(`agents/Mariana Macro/reviews/PLTR_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[PLTR_2026-05-01]] _(`agents/Pedro Alocação/reviews/PLTR_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[PLTR_2026-05-01]] _(`agents/Valentina Prudente/reviews/PLTR_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[PLTR_IC_DEBATE]] _(`tickers/PLTR_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[PLTR_VARIANT]] _(`tickers/PLTR_VARIANT.md`)_
-
-###### Filings individuais
-- [[PLTR_FILING_2020-09-22]] _(`dossiers/PLTR_FILING_2020-09-22.md`)_
-
-###### Overnight scrapes
-- [[PLTR]] _(`Overnight_2026-05-13/PLTR.md`)_
-- [[PLTR]] _(`Overnight_2026-05-11/PLTR.md`)_
-
-###### DRIP scenarios
-- [[PLTR_drip]] _(`briefings/drip_scenarios/PLTR_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_PLTR_2026-05-04]] _(`briefings/earnings_prep_PLTR_2026-05-04.md`)_
-
-###### Wiki / playbooks
-- [[PLTR]] _(`wiki/holdings/PLTR.md`)_
-
-###### Archived stories
-- [[PLTR_STORY_2026-05-01]] _(`dossiers/archive/PLTR_STORY_2026-05-01.md`)_
-
-###### Other
-- [[PLTR]] _(`hubs/PLTR.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama PLTR --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive PLTR --save-obsidian # V10 4-layer pipeline
-ii verdict PLTR --narrate --write
-ii fv PLTR                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker PLTR # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        481 | US$        815 | US$        992 |
+  |  10y  | US$        868 | US$      2,488 | US$      3,684 |
+  |  15y  | US$      1,564 | US$      7,594 | US$     13,677 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\PLTR.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR.md` (cemetery archive)_
 
 #### PLTR — Palantir
 
@@ -1073,7 +956,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\PLTR_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR_DOSSIE.md` (cemetery archive)_
 
 #### 📑 PLTR — Palantir
 
@@ -1182,7 +1065,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=7 · themes=0_
 | 2026-04-23 | FOOL | risk | bear | — | A desaceleração nas taxas de crescimento dos indicadores futuros da Palantir pode levar a uma penalização das ações. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\PLTR_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — PLTR
 
@@ -1296,7 +1179,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=7 · themes=0_
 | 2026-04-23 | FOOL | risk | bear | — | A desaceleração nas taxas de crescimento dos indicadores futuros da Palantir pode levar a uma penalização das ações. |
 
 #### — · Variant perception
-_source: `tickers\PLTR_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — PLTR
 
@@ -1361,7 +1244,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=7 · themes=0_
 | 2026-04-23 | FOOL | risk | bear | — | A desaceleração nas taxas de crescimento dos indicadores futuros da Palantir pode levar a uma penalização das ações. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\PLTR.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\PLTR.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

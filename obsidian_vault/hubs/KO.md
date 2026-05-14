@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Consumer Staples` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Consumer Staples` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\KO.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KO.md` (cemetery archive)_
 
 #### KO — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\KO.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-05 · Bibliotheca cross-ref
-_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md` (now in cemetery)_
+_source: `Bibliotheca\Compare_JNJ_KO_PG_2026-05-05.md`_
 
 #### Compare — JNJ · KO · PG
 
@@ -136,7 +136,7 @@ _Generated 2026-05-05 · 3 ticker(s)_
 _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski,altman,beneish,dividend_safety} engines._
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\KO_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\KO_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[KO_STORY|KO]]
 
@@ -184,7 +184,7 @@ A Coca-Cola apresenta um ROE sustentado de 43,4% e uma renda anual de 2,6%, apoi
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\KO_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KO_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[KO_STORY|KO]]
 
@@ -233,7 +233,7 @@ A Coca-Cola apresenta um ROE de 43.4% e P/E de 24.77, dentro do intervalo razoá
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\KO_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KO_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[KO_STORY|KO]]
 
@@ -280,7 +280,7 @@ A Coca-Cola oferece um retorno sobre o patrimônio líquido (ROE) de 43.4% e uma
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\KO_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KO_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[KO_STORY|KO]]
 
@@ -329,58 +329,8 @@ A Coca-Cola apresenta um ROE elevado de 43.4% e uma consistência em dividendos 
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\KO_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — KO              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             11
-  Entry price.........: US$       75.92
-  Cost basis..........: US$      832.90
-  Price now...........: US$       76.63
-  Market value now....: US$      840.72  [+0.9% nao-realizado]
-  DY t12m.............: 2.69%  (R$/US$ 2.0600/share)
-  DY vs own 10y.......: P 6 [EXPENSIVE]  (actual 2.69% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=65  hist_g_5y=0.050  hist_g_raw=0.050  gordon_g=0.140  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +5.68%  |   -1.00% |   +7.37%       |
-  | base         |   +9.47%  |   +0.00% |  +12.16%       |
-  | optimista    |  +12.78%  |   +1.00% |  +16.47%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     20       |       24       |       10       |
-  | base         |     16       |       27       |        6       |
-  | optimista    |     14       |       30       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      1,211 | US$      1,509 | US$      1,825 |
-  |  10y  | US$      1,757 | US$      2,709 | US$      3,938 |
-  |  15y  | US$      2,565 | US$      4,863 | US$      8,456 |
-  --------------------------------------------------------------------------
-
 #### — · Dossier
-_source: `dossiers\KO.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO.md` (cemetery archive)_
 
 #### [[KO]] — Dossier Deepdive (2026-05-05)
 
@@ -411,7 +361,7 @@ _(dossier desactivado via --no-llm)_
 *Generated by `ii deepdive KO` em 2026-05-05T19:35:19.*
 
 #### — · Council aggregate
-_source: `dossiers\KO_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[KO_STORY|KO]] (Coca-Cola)
 
@@ -676,10 +626,10 @@ c.
 ##### TAVILY GUIDANCE (≤90d) (5 hits)
 [17] Tavily [Sun, 01 Ma]: Home » Coca-Cola hits guidance as earnings rise in fiscal year. # Coca-Cola hits guidance as e
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\KO_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\KO_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_STORY.md` (cemetery archive)_
 
 #### Coca-Cola — KO
 
@@ -851,126 +801,60 @@ Quanto à gestão, a empresa tem um histórico consistente de dividendos ao long
 ###### Perfil Filosófico
 O perfil filosófico da Coca-Cola é classificado como Growth (5/12) e Buffett/Quality (5/12). As pontuações individuais são as seguintes: Value 3,
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\KO_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_STORY.md`)_
 
-#### — · Other
-_source: `hubs\KO.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\KO_drip.md` (cemetery archive)_
 
-#### KO — Coca-Cola
+/============================================================================\
+|   DRIP SCENARIO — KO              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre KO, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             11
+  Entry price.........: US$       75.92
+  Cost basis..........: US$      832.90
+  Price now...........: US$       76.63
+  Market value now....: US$      840.72  [+0.9% nao-realizado]
+  DY t12m.............: 2.69%  (R$/US$ 2.0600/share)
+  DY vs own 10y.......: P 6 [EXPENSIVE]  (actual 2.69% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Consumer Staples` · `market: US` · `currency: USD`
+  kind=equity  streak=65  hist_g_5y=0.050  hist_g_raw=0.050  gordon_g=0.140  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +5.68%  |   -1.00% |   +7.37%       |
+  | base         |   +9.47%  |   +0.00% |  +12.16%       |
+  | optimista    |  +12.78%  |   +1.00% |  +16.47%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 10.97119 @ entry 75.91701538301679
-- **Verdict (DB)**: `HOLD` (score 6.9, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 25.24 · P/B 10.27 · DY 3.2% · ROE 43.4% · ND/EBITDA 1.84 · Dividend streak 65 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     20       |       24       |       10       |
+  | base         |     16       |       27       |        6       |
+  | optimista    |     14       |       30       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[KO]] _(`Overnight_2026-05-13/KO.md`)_
-- **2026-05-11** · Overnight → [[KO]] _(`Overnight_2026-05-11/KO.md`)_
-- **2026-05-05** · Bibliotheca → [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-- **2026-05-01** · Dossier Archive → [[KO_STORY_2026-05-01]] _(`dossiers/archive/KO_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[KO_2026-05-01]] _(`agents/Valentina Prudente/reviews/KO_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[KO_2026-05-01]] _(`agents/Pedro Alocação/reviews/KO_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[KO_2026-05-01]] _(`agents/Mariana Macro/reviews/KO_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[KO_2026-05-01]] _(`agents/Charlie Compounder/reviews/KO_2026-05-01.md`)_
-- **2026-04-28** · Earnings Prep → [[earnings_prep_KO_2026-04-28]] _(`briefings/earnings_prep_KO_2026-04-28.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[KO]] _(`wiki/holdings/KO.md`)_
-- **—** · Variant → [[KO_VARIANT]] _(`tickers/KO_VARIANT.md`)_
-- **—** · Story → [[KO_STORY]] _(`dossiers/KO_STORY.md`)_
-- **—** · Panorama → [[KO]] _(`tickers/KO.md`)_
-- **—** · Other → [[KO]] _(`hubs/KO.md`)_
-- **—** · Other → [[KO]] _(`dossiers/KO.md`)_
-- **—** · Ic Debate → [[KO_IC_DEBATE]] _(`tickers/KO_IC_DEBATE.md`)_
-- **—** · Drip → [[KO_drip]] _(`briefings/drip_scenarios/KO_drip.md`)_
-- **—** · Deepdive → [[KO_DOSSIE]] _(`tickers/KO_DOSSIE.md`)_
-- **—** · Council → [[KO_COUNCIL]] _(`dossiers/KO_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[KO]] _(`tickers/KO.md`)_
-
-###### Deepdive (DOSSIE)
-- [[KO_DOSSIE]] _(`tickers/KO_DOSSIE.md`)_
-
-###### Story
-- [[KO_STORY]] _(`dossiers/KO_STORY.md`)_
-
-###### Council aggregate
-- [[KO_COUNCIL]] _(`dossiers/KO_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[KO_2026-05-01]] _(`agents/Charlie Compounder/reviews/KO_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[KO_2026-05-01]] _(`agents/Mariana Macro/reviews/KO_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[KO_2026-05-01]] _(`agents/Pedro Alocação/reviews/KO_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[KO_2026-05-01]] _(`agents/Valentina Prudente/reviews/KO_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[KO_IC_DEBATE]] _(`tickers/KO_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[KO_VARIANT]] _(`tickers/KO_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[KO]] _(`Overnight_2026-05-13/KO.md`)_
-- [[KO]] _(`Overnight_2026-05-11/KO.md`)_
-
-###### DRIP scenarios
-- [[KO_drip]] _(`briefings/drip_scenarios/KO_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_KO_2026-04-28]] _(`briefings/earnings_prep_KO_2026-04-28.md`)_
-
-###### Wiki / playbooks
-- [[KO]] _(`wiki/holdings/KO.md`)_
-
-###### Bibliotheca / clippings
-- [[Compare_JNJ_KO_PG_2026-05-05]] _(`Bibliotheca/Compare_JNJ_KO_PG_2026-05-05.md`)_
-
-###### Archived stories
-- [[KO_STORY_2026-05-01]] _(`dossiers/archive/KO_STORY_2026-05-01.md`)_
-
-###### Other
-- [[KO]] _(`dossiers/KO.md`)_
-- [[KO]] _(`hubs/KO.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama KO --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive KO --save-obsidian # V10 4-layer pipeline
-ii verdict KO --narrate --write
-ii fv KO                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker KO # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      1,211 | US$      1,509 | US$      1,825 |
+  |  10y  | US$      1,757 | US$      2,709 | US$      3,938 |
+  |  15y  | US$      2,565 | US$      4,863 | US$      8,456 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\KO.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO.md` (cemetery archive)_
 
 #### KO — Coca-Cola
 
@@ -1131,7 +1015,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\KO_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO_DOSSIE.md` (cemetery archive)_
 
 #### 📑 KO — Coca-Cola
 
@@ -1230,7 +1114,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-28 | JPM | price_target | bull | 85.00 | PT $85 = 24x P/E (current CY26 multiple) x 2027 EPS $3.53. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\KO_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — KO
 
@@ -1333,7 +1217,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-28 | JPM | price_target | bull | 85.00 | PT $85 = 24x P/E (current CY26 multiple) x 2027 EPS $3.53. |
 
 #### — · Variant perception
-_source: `tickers\KO_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — KO
 
@@ -1377,7 +1261,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-28 | JPM | price_target | bull | 85.00 | PT $85 = 24x P/E (current CY26 multiple) x 2027 EPS $3.53. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\KO.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\KO.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[KO]] — Coca-Cola
 

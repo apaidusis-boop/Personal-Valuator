@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Consumer Disc.` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Consumer Disc.` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-19 · Earnings prep
-_source: `briefings\earnings_prep_HD_2026-05-19.md` (now in cemetery)_
+_source: `briefings\earnings_prep_HD_2026-05-19.md`_
 
 #### 📞 Earnings Prep — HD (2026-05-19)
 
@@ -97,7 +97,7 @@ WEB GUIDANCE HEADLINES:
 ```
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\HD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HD.md` (cemetery archive)_
 
 #### HD — Pilot Deep Dive (2026-05-12)
 
@@ -143,7 +143,7 @@ _source: `Overnight_2026-05-13\HD.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Charlie Compounder
-_source: `agents\Charlie Compounder\reviews\HD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\HD_2026-05-01.md` (cemetery archive)_
 
 #### Charlie Compounder sobre [[HD_STORY|HD]]
 
@@ -193,7 +193,7 @@ HD possui forte ROE e longa história de dividendos, porém P/E e P/B estão aci
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\HD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\HD_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[HD_STORY|HD]]
 
@@ -243,7 +243,7 @@ P/E e P/B acima da média do setor sugerem valorização atual, com ROE elevado 
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\HD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\HD_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[HD_STORY|HD]]
 
@@ -291,7 +291,7 @@ P/E e P/B acima da média do setor indicam sobreavaliação, mas Z-Score alto su
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\HD_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\HD_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[HD_STORY|HD]]
 
@@ -339,7 +339,7 @@ Home Depot has a high ROE and safe Altman Z-Score, yet recent unauthorized disco
 ### 2017
 
 #### 2017-08-22 · Filing 2017-08-22
-_source: `dossiers\HD_FILING_2017-08-22.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_FILING_2017-08-22.md` (cemetery archive)_
 
 #### Filing dossier — [[HD]] · 2017-08-22
 
@@ -393,58 +393,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\HD_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — HD              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              1
-  Entry price.........: US$      292.02
-  Cost basis..........: US$      292.02
-  Price now...........: US$      335.89
-  Market value now....: US$      335.89  [+15.0% nao-realizado]
-  DY t12m.............: 2.75%  (R$/US$ 9.2300/share)
-  DY vs own 10y.......: P94 [CHEAP]  (actual 2.75% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=40  hist_g_5y=0.087  hist_g_raw=0.087  gordon_g=0.512  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |  +10.80%  |   -1.00% |  +12.55%       |
-  | base         |  +18.00%  |   +0.00% |  +20.75%       |
-  | optimista    |  +22.00%  |   +1.00% |  +25.75%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     14       |       23       |        5       |
-  | base         |     11       |       26       |        3       |
-  | optimista    |     10       |       29       |        3       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        616 | US$        880 | US$      1,079 |
-  |  10y  | US$      1,137 | US$      2,305 | US$      3,451 |
-  |  15y  | US$      2,114 | US$      6,040 | US$     10,976 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\HD_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[HD_STORY|HD]] (Home Depot)
 
@@ -713,10 +663,10 @@ which reduces the book value of equity. Firms are not allowed to keep treasury s
      URL: https://www.tipranks.com/news/bitcoin-stands-strong-at-71000-as-trump-warns-of-attacks-on-irans-crown-jewel
 [20] Tavily [Thu, 26 Ma]: You are in: Home » News » **Record second half sees THG return to growth and strengthen FY26 guidance**. # Record second half sees THG return to growth and strengthen FY26 guidance. THG delivered a strong FY25 performance that saw it return to growth after a shaky H1, with a re
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\HD_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\HD_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_STORY.md` (cemetery archive)_
 
 #### Home Depot — HD
 
@@ -911,127 +861,60 @@ A avaliação através da metodologia de fluxo descontado (DCF) indica que a Hom
 |---|---|---|---|
 | Pessimista | 5% a.a. | 3% | R$ 203.49 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\HD_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_STORY.md`)_
 
-#### — · Other
-_source: `hubs\HD.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\HD_drip.md` (cemetery archive)_
 
-#### HD — Home Depot
+/============================================================================\
+|   DRIP SCENARIO — HD              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre HD, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              1
+  Entry price.........: US$      292.02
+  Cost basis..........: US$      292.02
+  Price now...........: US$      335.89
+  Market value now....: US$      335.89  [+15.0% nao-realizado]
+  DY t12m.............: 2.75%  (R$/US$ 9.2300/share)
+  DY vs own 10y.......: P94 [CHEAP]  (actual 2.75% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Consumer Disc.` · `market: US` · `currency: USD`
+  kind=equity  streak=40  hist_g_5y=0.087  hist_g_raw=0.087  gordon_g=0.512  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |  +10.80%  |   -1.00% |  +12.55%       |
+  | base         |  +18.00%  |   +0.00% |  +20.75%       |
+  | optimista    |  +22.00%  |   +1.00% |  +25.75%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1.0 @ entry 292.02
-- **Verdict (DB)**: `HOLD` (score 5.95, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 21.28 · P/B 23.52 · DY 3.1% · ROE 145.5% · ND/EBITDA 2.58 · Dividend streak 40 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     14       |       23       |        5       |
+  | base         |     11       |       26       |        3       |
+  | optimista    |     10       |       29       |        3       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-19** · Earnings Prep → [[earnings_prep_HD_2026-05-19]] _(`briefings/earnings_prep_HD_2026-05-19.md`)_
-- **2026-05-13** · Overnight → [[HD]] _(`Overnight_2026-05-13/HD.md`)_
-- **2026-05-11** · Overnight → [[HD]] _(`Overnight_2026-05-11/HD.md`)_
-- **2026-05-01** · Dossier Archive → [[HD_STORY_2026-05-01]] _(`dossiers/archive/HD_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[HD_2026-05-01]] _(`agents/Valentina Prudente/reviews/HD_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[HD_2026-05-01]] _(`agents/Pedro Alocação/reviews/HD_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[HD_2026-05-01]] _(`agents/Mariana Macro/reviews/HD_2026-05-01.md`)_
-- **2026-05-01** · Review · Charlie Compounder → [[HD_2026-05-01]] _(`agents/Charlie Compounder/reviews/HD_2026-05-01.md`)_
-
-###### 2017
-
-- **2017-08-22** · Filing → [[HD_FILING_2017-08-22]] _(`dossiers/HD_FILING_2017-08-22.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[HD]] _(`wiki/holdings/HD.md`)_
-- **—** · Variant → [[HD_VARIANT]] _(`tickers/HD_VARIANT.md`)_
-- **—** · Story → [[HD_STORY]] _(`dossiers/HD_STORY.md`)_
-- **—** · Panorama → [[HD]] _(`tickers/HD.md`)_
-- **—** · Other → [[HD]] _(`hubs/HD.md`)_
-- **—** · Ic Debate → [[HD_IC_DEBATE]] _(`tickers/HD_IC_DEBATE.md`)_
-- **—** · Drip → [[HD_drip]] _(`briefings/drip_scenarios/HD_drip.md`)_
-- **—** · Deepdive → [[HD_DOSSIE]] _(`tickers/HD_DOSSIE.md`)_
-- **—** · Council → [[HD_COUNCIL]] _(`dossiers/HD_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[HD]] _(`tickers/HD.md`)_
-
-###### Deepdive (DOSSIE)
-- [[HD_DOSSIE]] _(`tickers/HD_DOSSIE.md`)_
-
-###### Story
-- [[HD_STORY]] _(`dossiers/HD_STORY.md`)_
-
-###### Council aggregate
-- [[HD_COUNCIL]] _(`dossiers/HD_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Charlie Compounder_:
-- [[HD_2026-05-01]] _(`agents/Charlie Compounder/reviews/HD_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[HD_2026-05-01]] _(`agents/Mariana Macro/reviews/HD_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[HD_2026-05-01]] _(`agents/Pedro Alocação/reviews/HD_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[HD_2026-05-01]] _(`agents/Valentina Prudente/reviews/HD_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[HD_IC_DEBATE]] _(`tickers/HD_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[HD_VARIANT]] _(`tickers/HD_VARIANT.md`)_
-
-###### Filings individuais
-- [[HD_FILING_2017-08-22]] _(`dossiers/HD_FILING_2017-08-22.md`)_
-
-###### Overnight scrapes
-- [[HD]] _(`Overnight_2026-05-13/HD.md`)_
-- [[HD]] _(`Overnight_2026-05-11/HD.md`)_
-
-###### DRIP scenarios
-- [[HD_drip]] _(`briefings/drip_scenarios/HD_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_HD_2026-05-19]] _(`briefings/earnings_prep_HD_2026-05-19.md`)_
-
-###### Wiki / playbooks
-- [[HD]] _(`wiki/holdings/HD.md`)_
-
-###### Archived stories
-- [[HD_STORY_2026-05-01]] _(`dossiers/archive/HD_STORY_2026-05-01.md`)_
-
-###### Other
-- [[HD]] _(`hubs/HD.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama HD --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive HD --save-obsidian # V10 4-layer pipeline
-ii verdict HD --narrate --write
-ii fv HD                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker HD # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        616 | US$        880 | US$      1,079 |
+  |  10y  | US$      1,137 | US$      2,305 | US$      3,451 |
+  |  15y  | US$      2,114 | US$      6,040 | US$     10,976 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\HD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HD.md` (cemetery archive)_
 
 #### HD — Home Depot
 
@@ -1180,7 +1063,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\HD_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HD_DOSSIE.md` (cemetery archive)_
 
 #### 📑 HD — Home Depot
 
@@ -1257,7 +1140,7 @@ HD negoceia P/E 23.59, DY 2.75% e ROE 145.5% (alavancado pelo buyback agressivo 
 *Generated by `ii dossier HD` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\HD_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HD_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — HD
 
@@ -1343,7 +1226,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\HD_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HD_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — HD
 
@@ -1365,7 +1248,7 @@ _source: `tickers\HD_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\HD.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\HD.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[HD]] — Home Depot
 

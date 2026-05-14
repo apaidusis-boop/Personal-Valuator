@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\RBRX11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RBRX11.md` (cemetery archive)_
 
 #### RBRX11 — Pilot Deep Dive (2026-05-12)
 
@@ -71,7 +71,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\RBRX11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[RBRX11_STORY|RBRX11]]
 
@@ -115,7 +115,7 @@ A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial p
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\RBRX11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[RBRX11_STORY|RBRX11]]
 
@@ -160,7 +160,7 @@ A RBRX11 apresenta um DY de 12,46% e P/E de 33,81x, indicando potencial de cresc
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\RBRX11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[RBRX11_STORY|RBRX11]]
 
@@ -204,7 +204,7 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\RBRX11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[RBRX11_STORY|RBRX11]]
 
@@ -250,58 +250,8 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\RBRX11_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — RBRX11          moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:          2.000
-  Entry price.........: R$        8.48
-  Cost basis..........: R$   16,960.00
-  Price now...........: R$        8.82
-  Market value now....: R$   17,640.00  [+4.0% nao-realizado]
-  DY t12m.............: 12.31%  (R$/US$ 1.0862/share)
-  DY vs own 10y.......: P18 [EXPENSIVE]  (actual 12.31% em 44 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=fii  streak=5  hist_g=-0.339  ipca_anchor=0.035
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   -1.00% |  +11.31%       |
-  | base         |   +0.00%  |   +0.00% |  +12.31%       |
-  | optimista    |   +0.00%  |   +1.00% |  +13.31%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |      8       |        6       |        6       |
-  | base         |      8       |        6       |        6       |
-  | optimista    |      8       |        7       |        6       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     30,490 | R$     31,527 | R$     32,606 |
-  |  10y  | R$     54,248 | R$     56,347 | R$     58,724 |
-  |  15y  | R$     99,483 | R$    100,706 | R$    103,168 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\RBRX11_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[RBRX11_STORY|RBRX11]] (RBR X)
 
@@ -515,10 +465,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 [16] Tavily [Sat, 27 De]: # São Paulo Stock Exchange (B3) Today: Ibovespa Holds Near 161,000 as Petrobras Strike and Brazil Rate-Cut Debate Set the Tone for Next Week. This debate matters for the São Paulo Stock Exchange because high real rates act like a valuation clamp—especially for rate-sensitive domestic sectors—while t
      URL: https://ts2.tech/en/sao-paulo-stock-exchange-b3-today-iboves
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\RBRX11_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\RBRX11_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_STORY.md` (cemetery archive)_
 
 #### RBR X — RBRX11
 
@@ -709,10 +659,10 @@ O horizonte de investimento recomendado para RBRX11 é de 24-36 meses, considera
 ###### Nota divergente do Council
 Foi este o ponto onde Mariana Macro divergiu de Diego Bancário: "O mercado brasileiro em expansão pode não ser mant
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\RBRX11_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_STORY.md`)_
 
 #### — · Migration / transition
-_source: `dossiers\RBRX11_vs_KNHF11_MIGRATION.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_vs_KNHF11_MIGRATION.md` (cemetery archive)_
 
 #### RBRX11 (Pátria) → KNHF11 (Kinea) — migração EXECUTADA
 
@@ -881,8 +831,58 @@ Para validar/invalidar a decisão de full swap:
 - Local: `data/br_investments.db` (companies, fundamentals, prices, dividends)
 - Memory: `rbrx11_patria_acquisition.md` (timeline canónico Pátria-RBR Dez/2025)
 
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\RBRX11_drip.md` (cemetery archive)_
+
+/============================================================================\
+|   DRIP SCENARIO — RBRX11          moeda BRL      data 26/04/2026           |
+\============================================================================/
+
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:          2.000
+  Entry price.........: R$        8.48
+  Cost basis..........: R$   16,960.00
+  Price now...........: R$        8.82
+  Market value now....: R$   17,640.00  [+4.0% nao-realizado]
+  DY t12m.............: 12.31%  (R$/US$ 1.0862/share)
+  DY vs own 10y.......: P18 [EXPENSIVE]  (actual 12.31% em 44 obs mensais) — entry-timing, NAO stock-picker
+
+  kind=fii  streak=5  hist_g=-0.339  ipca_anchor=0.035
+
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   -1.00% |  +11.31%       |
+  | base         |   +0.00%  |   +0.00% |  +12.31%       |
+  | optimista    |   +0.00%  |   +1.00% |  +13.31%       |
+  --------------------------------------------------------------------------
+
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |      8       |        6       |        6       |
+  | base         |      8       |        6       |        6       |
+  | optimista    |      8       |        7       |        6       |
+  --------------------------------------------------------------------------
+
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
+
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     30,490 | R$     31,527 | R$     32,606 |
+  |  10y  | R$     54,248 | R$     56,347 | R$     58,724 |
+  |  15y  | R$     99,483 | R$    100,706 | R$    103,168 |
+  --------------------------------------------------------------------------
+
 #### — · Panorama
-_source: `tickers\RBRX11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11.md` (cemetery archive)_
 
 #### RBRX11 — RBR X
 
@@ -1022,7 +1022,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\RBRX11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 RBRX11 — RBR X
 
@@ -1127,7 +1127,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | XP | thesis | bull | — | RBR Plus Multiestratégia Real Estate é destacado por sua posição em hedge funds. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\RBRX11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — RBRX11
 
@@ -1217,7 +1217,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | XP | thesis | bull | — | RBR Plus Multiestratégia Real Estate é destacado por sua posição em hedge funds. |
 
 #### — · Panorama
-_source: `tickers\RBRX11_PATRIA_TRANSITION.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11_PATRIA_TRANSITION.md` (cemetery archive)_
 
 #### RBRX11 — Memorial da transição Pátria-RBR (Dez/2025)
 
@@ -1334,7 +1334,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | XP | thesis | bull | — | RBR Plus Multiestratégia Real Estate é destacado por sua posição em hedge funds. |
 
 #### — · Variant perception
-_source: `tickers\RBRX11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — RBRX11
 
@@ -1386,7 +1386,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | XP | thesis | bull | — | RBR Plus Multiestratégia Real Estate é destacado por sua posição em hedge funds. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\RBRX11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\RBRX11.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

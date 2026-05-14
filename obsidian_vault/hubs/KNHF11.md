@@ -7,7 +7,7 @@ currency: BRL
 bucket: watchlist
 is_holding: false
 generated: 2026-05-14
-sources_merged: 5
+sources_merged: 4
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Híbrido` · `market: BR` · `currency: BRL` · `bucket: watchlist` · `5 sources merged`
+`sector: Híbrido` · `market: BR` · `currency: BRL` · `bucket: watchlist` · `4 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\KNHF11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KNHF11.md` (cemetery archive)_
 
 #### KNHF11 — Pilot Deep Dive (2026-05-12)
 
@@ -75,7 +75,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Migration / transition
-_source: `dossiers\RBRX11_vs_KNHF11_MIGRATION.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_vs_KNHF11_MIGRATION.md` (cemetery archive)_
 
 #### RBRX11 (Pátria) → KNHF11 (Kinea) — migração EXECUTADA
 
@@ -244,72 +244,8 @@ Para validar/invalidar a decisão de full swap:
 - Local: `data/br_investments.db` (companies, fundamentals, prices, dividends)
 - Memory: `rbrx11_patria_acquisition.md` (timeline canónico Pátria-RBR Dez/2025)
 
-#### — · Other
-_source: `hubs\KNHF11.md` (now in cemetery)_
-
-#### KNHF11 — Kinea Hedge Fund FII
-
-> **Hub consolidado**. Tudo o que existe no vault sobre KNHF11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
-
-`sector: Híbrido` · `market: BR` · `currency: BRL`
-
-##### 🎯 Hoje
-
-- **Posição**: 175.0 @ entry 98.56
-- **Verdict (DB)**: `SKIP` (score 5.1, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 7.52 · DY 11.5% · Dividend streak 4
-
-##### 📜 Histórico (chronological journal)
-
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[KNHF11]] _(`Overnight_2026-05-13/KNHF11.md`)_
-- **2026-05-11** · Overnight → [[KNHF11]] _(`Overnight_2026-05-11/KNHF11.md`)_
-
-###### (undated)
-
-- **—** · Panorama → [[KNHF11]] _(`tickers/KNHF11.md`)_
-- **—** · Other → [[KNHF11]] _(`hubs/KNHF11.md`)_
-- **—** · Migration → [[RBRX11_vs_KNHF11_MIGRATION]] _(`dossiers/RBRX11_vs_KNHF11_MIGRATION.md`)_
-- **—** · Ic Debate → [[KNHF11_IC_DEBATE]] _(`tickers/KNHF11_IC_DEBATE.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[KNHF11]] _(`tickers/KNHF11.md`)_
-
-###### IC Debate (synthetic)
-- [[KNHF11_IC_DEBATE]] _(`tickers/KNHF11_IC_DEBATE.md`)_
-
-###### Overnight scrapes
-- [[KNHF11]] _(`Overnight_2026-05-13/KNHF11.md`)_
-- [[KNHF11]] _(`Overnight_2026-05-11/KNHF11.md`)_
-
-###### Migration / transition
-- [[RBRX11_vs_KNHF11_MIGRATION]] _(`dossiers/RBRX11_vs_KNHF11_MIGRATION.md`)_
-
-###### Other
-- [[KNHF11]] _(`hubs/KNHF11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama KNHF11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive KNHF11 --save-obsidian # V10 4-layer pipeline
-ii verdict KNHF11 --narrate --write
-ii fv KNHF11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker KNHF11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
-
 #### — · Panorama
-_source: `tickers\KNHF11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNHF11.md` (cemetery archive)_
 
 #### KNHF11 — KNHF11
 
@@ -423,7 +359,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\KNHF11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNHF11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — KNHF11
 

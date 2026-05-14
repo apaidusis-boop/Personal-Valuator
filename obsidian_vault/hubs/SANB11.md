@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\SANB11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SANB11.md` (cemetery archive)_
 
 #### SANB11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\SANB11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SANB11.md` (cemetery archive)_
 
 #### SANB11 — Santander BR
 
@@ -212,7 +212,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\SANB11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SANB11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 SANB11 — Santander BR
 
@@ -346,7 +346,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-14 | XP | rating | bull | 44.00 | [XP Top Dividendos] SANB11 — peso 5.0%, Compra, PT R$44.0, setor Bancos |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\SANB11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SANB11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — SANB11
 

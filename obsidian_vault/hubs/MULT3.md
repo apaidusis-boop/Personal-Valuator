@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\MULT3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MULT3.md` (cemetery archive)_
 
 #### MULT3 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\MULT3.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-07 · Filing 2026-05-07
-_source: `dossiers\MULT3_FILING_2026-05-07.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MULT3_FILING_2026-05-07.md` (cemetery archive)_
 
 #### Filing dossier — [[MULT3]] · 2026-05-07
 
@@ -136,7 +136,7 @@ _Método: `graham_number`. Consensus fair = R$26.75. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Filing 2026-04-30
-_source: `dossiers\MULT3_FILING_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MULT3_FILING_2026-04-30.md` (cemetery archive)_
 
 #### Filing dossier — [[MULT3]] · 2026-04-30
 
@@ -195,7 +195,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\MULT3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MULT3.md` (cemetery archive)_
 
 #### MULT3 — MULT3
 
@@ -360,7 +360,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\MULT3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MULT3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 MULT3 — Multiplan
 
@@ -490,7 +490,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=2 · themes=3_
 | 2026-05-09 | Inter Invest | usdbrl | bearish | O analista sugere que a tendência do dólar é de queda, indicando um momento não ideal para exposição em BDRs. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\MULT3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MULT3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — MULT3
 
@@ -611,7 +611,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=2 · themes=3_
 | 2026-05-09 | Inter Invest | usdbrl | bearish | O analista sugere que a tendência do dólar é de queda, indicando um momento não ideal para exposição em BDRs. |
 
 #### — · RI / disclosure
-_source: `tickers\MULT3_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MULT3_RI.md` (cemetery archive)_
 
 #### MULT3 — RI Quarterly Compare
 

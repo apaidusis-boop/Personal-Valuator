@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\V.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\V.md` (cemetery archive)_
 
 #### V — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\V.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-12 · Filing 2026-05-12
-_source: `dossiers\V_FILING_2026-05-12.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2026-05-12.md` (cemetery archive)_
 
 #### Filing dossier — [[V]] · 2026-05-12
 
@@ -121,7 +121,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-11 · Filing 2026-05-11
-_source: `dossiers\V_FILING_2026-05-11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2026-05-11.md` (cemetery archive)_
 
 #### Filing dossier — [[V]] · 2026-05-11
 
@@ -168,7 +168,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### 2014
 
 #### 2014-11-21 · Filing 2014-11-21
-_source: `dossiers\V_FILING_2014-11-21.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2014-11-21.md` (cemetery archive)_
 
 #### Filing dossier — [[V]] · 2014-11-21
 
@@ -211,7 +211,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\V.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\V.md` (cemetery archive)_
 
 #### V — Visa
 
@@ -340,7 +340,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\V_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\V_DOSSIE.md` (cemetery archive)_
 
 #### 📑 V — Visa
 
@@ -432,7 +432,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=7 · themes=0_
 | 2026-04-24 | FOOL | price_target | bull | — | A Visa é considerada uma ação barata atualmente com um P/E forward de 24. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\V_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\V_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — V
 

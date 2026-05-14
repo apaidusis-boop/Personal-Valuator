@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `14 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BLK.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BLK.md` (cemetery archive)_
 
 #### BLK — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\BLK.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\BLK_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[BLK_STORY|BLK]]
 
@@ -131,7 +131,7 @@ BlackRock's P/E of 26.84 and P/B of 2.96 exceed conservative banking metrics, in
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\BLK_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[BLK_STORY|BLK]]
 
@@ -182,7 +182,7 @@ A BlackRock apresenta um DY de 2.05% e P/E de 26.84, indicando uma combinação 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\BLK_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[BLK_STORY|BLK]]
 
@@ -231,7 +231,7 @@ A BlackRock apresenta um DY de 2% e P/E de 26,84, refletindo uma combinação s�
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\BLK_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[BLK_STORY|BLK]]
 
@@ -282,58 +282,8 @@ A BlackRock apresenta um P/E de 26.84 e P/B de 2.96, indicando valor potencial c
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\BLK_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — BLK             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              2
-  Entry price.........: US$      897.70
-  Cost basis..........: US$    1,795.39
-  Price now...........: US$    1,044.97
-  Market value now....: US$    2,089.94  [+16.4% nao-realizado]
-  DY t12m.............: 2.04%  (R$/US$ 21.3600/share)
-  DY vs own 10y.......: P28 [fair-rich]  (actual 2.04% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=24  hist_g_5y=0.060  hist_g_raw=0.060  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +3.59%  |   -1.00% |   +4.63%       |
-  | base         |   +5.98%  |   +0.00% |   +8.02%       |
-  | optimista    |   +8.07%  |   +1.00% |  +11.12%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     26       |       30       |       12       |
-  | base         |     21       |       35       |        7       |
-  | optimista    |     19       |      >40       |        6       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      2,635 | US$      3,092 | US$      3,560 |
-  |  10y  | US$      3,340 | US$      4,573 | US$      6,038 |
-  |  15y  | US$      4,256 | US$      6,765 | US$     10,197 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\BLK_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[BLK_STORY|BLK]] (BlackRock)
 
@@ -607,10 +557,10 @@ $492.26
 
 ##### TAVILY IN
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BLK_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\BLK_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_STORY.md` (cemetery archive)_
 
 #### BlackRock — BLK
 
@@ -786,116 +736,60 @@ A BlackRock apresenta um perfil filosófico que se alinha com o crescimento, div
 ###### O que o preço desconta
 O atual preço da BlackRock reflete uma co
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BLK_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_STORY.md`)_
 
-#### — · Other
-_source: `hubs\BLK.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BLK_drip.md` (cemetery archive)_
 
-#### BLK — BlackRock
+/============================================================================\
+|   DRIP SCENARIO — BLK             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre BLK, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              2
+  Entry price.........: US$      897.70
+  Cost basis..........: US$    1,795.39
+  Price now...........: US$    1,044.97
+  Market value now....: US$    2,089.94  [+16.4% nao-realizado]
+  DY t12m.............: 2.04%  (R$/US$ 21.3600/share)
+  DY vs own 10y.......: P28 [fair-rich]  (actual 2.04% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=24  hist_g_5y=0.060  hist_g_raw=0.060  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +3.59%  |   -1.00% |   +4.63%       |
+  | base         |   +5.98%  |   +0.00% |   +8.02%       |
+  | optimista    |   +8.07%  |   +1.00% |  +11.12%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 2.0 @ entry 897.695
-- **Verdict (DB)**: `HOLD` (score 4.87, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 27.51 · P/B 3.00 · DY 2.0% · ROE 11.9% · ND/EBITDA 0.18 · Dividend streak 24 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     26       |       30       |       12       |
+  | base         |     21       |       35       |        7       |
+  | optimista    |     19       |      >40       |        6       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[BLK]] _(`Overnight_2026-05-13/BLK.md`)_
-- **2026-05-11** · Overnight → [[BLK]] _(`Overnight_2026-05-11/BLK.md`)_
-- **2026-04-30** · Dossier Archive → [[BLK_STORY_2026-04-30]] _(`dossiers/archive/BLK_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[BLK_2026-04-30]] _(`agents/Valentina Prudente/reviews/BLK_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[BLK_2026-04-30]] _(`agents/Pedro Alocação/reviews/BLK_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[BLK_2026-04-30]] _(`agents/Mariana Macro/reviews/BLK_2026-04-30.md`)_
-- **2026-04-30** · Review · Hank Tier-One → [[BLK_2026-04-30]] _(`agents/Hank Tier-One/reviews/BLK_2026-04-30.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[BLK]] _(`wiki/holdings/BLK.md`)_
-- **—** · Variant → [[BLK_VARIANT]] _(`tickers/BLK_VARIANT.md`)_
-- **—** · Story → [[BLK_STORY]] _(`dossiers/BLK_STORY.md`)_
-- **—** · Panorama → [[BLK]] _(`tickers/BLK.md`)_
-- **—** · Other → [[BLK]] _(`hubs/BLK.md`)_
-- **—** · Ic Debate → [[BLK_IC_DEBATE]] _(`tickers/BLK_IC_DEBATE.md`)_
-- **—** · Drip → [[BLK_drip]] _(`briefings/drip_scenarios/BLK_drip.md`)_
-- **—** · Deepdive → [[BLK_DOSSIE]] _(`tickers/BLK_DOSSIE.md`)_
-- **—** · Council → [[BLK_COUNCIL]] _(`dossiers/BLK_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[BLK]] _(`tickers/BLK.md`)_
-
-###### Deepdive (DOSSIE)
-- [[BLK_DOSSIE]] _(`tickers/BLK_DOSSIE.md`)_
-
-###### Story
-- [[BLK_STORY]] _(`dossiers/BLK_STORY.md`)_
-
-###### Council aggregate
-- [[BLK_COUNCIL]] _(`dossiers/BLK_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[BLK_2026-04-30]] _(`agents/Hank Tier-One/reviews/BLK_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[BLK_2026-04-30]] _(`agents/Mariana Macro/reviews/BLK_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[BLK_2026-04-30]] _(`agents/Pedro Alocação/reviews/BLK_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[BLK_2026-04-30]] _(`agents/Valentina Prudente/reviews/BLK_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[BLK_IC_DEBATE]] _(`tickers/BLK_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[BLK_VARIANT]] _(`tickers/BLK_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[BLK]] _(`Overnight_2026-05-13/BLK.md`)_
-- [[BLK]] _(`Overnight_2026-05-11/BLK.md`)_
-
-###### DRIP scenarios
-- [[BLK_drip]] _(`briefings/drip_scenarios/BLK_drip.md`)_
-
-###### Wiki / playbooks
-- [[BLK]] _(`wiki/holdings/BLK.md`)_
-
-###### Archived stories
-- [[BLK_STORY_2026-04-30]] _(`dossiers/archive/BLK_STORY_2026-04-30.md`)_
-
-###### Other
-- [[BLK]] _(`hubs/BLK.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama BLK --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive BLK --save-obsidian # V10 4-layer pipeline
-ii verdict BLK --narrate --write
-ii fv BLK                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker BLK # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      2,635 | US$      3,092 | US$      3,560 |
+  |  10y  | US$      3,340 | US$      4,573 | US$      6,038 |
+  |  15y  | US$      4,256 | US$      6,765 | US$     10,197 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\BLK.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK.md` (cemetery archive)_
 
 #### BLK — BlackRock
 
@@ -1053,7 +947,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BLK_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BLK — BlackRock
 
@@ -1148,7 +1042,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-05-08 | JPM | price_target | neutral | 1140.00 | PT $1,140 = 20x x 2027 adj EPS $57.64 + discounted net cash; multiple ~in line with current trading. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BLK_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BLK
 
@@ -1250,7 +1144,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-05-08 | JPM | price_target | neutral | 1140.00 | PT $1,140 = 20x x 2027 adj EPS $57.64 + discounted net cash; multiple ~in line with current trading. |
 
 #### — · Variant perception
-_source: `tickers\BLK_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — BLK
 
@@ -1294,7 +1188,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-05-08 | JPM | price_target | neutral | 1140.00 | PT $1,140 = 20x x 2027 adj EPS $57.64 + discounted net cash; multiple ~in line with current trading. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\BLK.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BLK.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[BLK]] — BlackRock
 

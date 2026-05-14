@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\RAPT4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RAPT4.md` (cemetery archive)_
 
 #### RAPT4 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\RAPT4.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\RAPT4_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RAPT4_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[RAPT4]] · 2026-05-08
 
@@ -122,7 +122,7 @@ _(sem histórico — primeira run)_
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-20 · Filing 2026-04-20
-_source: `dossiers\RAPT4_FILING_2026-04-20.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RAPT4_FILING_2026-04-20.md` (cemetery archive)_
 
 #### Filing dossier — [[RAPT4]] · 2026-04-20
 
@@ -171,7 +171,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\RAPT4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RAPT4.md` (cemetery archive)_
 
 #### RAPT4 — RAPT4
 
@@ -320,7 +320,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\RAPT4_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RAPT4_DOSSIE.md` (cemetery archive)_
 
 #### 📑 RAPT4 — Randoncorp
 
@@ -429,7 +429,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | XP | rating | bull | — | [BTG Value] RAPT4 — peso 2.0% |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\RAPT4_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RAPT4_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — RAPT4
 
@@ -538,7 +538,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
 | 2026-04-24 | XP | rating | bull | — | [BTG Value] RAPT4 — peso 2.0% |
 
 #### — · RI / disclosure
-_source: `tickers\RAPT4_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RAPT4_RI.md` (cemetery archive)_
 
 #### RAPT4 — RI Quarterly Compare
 

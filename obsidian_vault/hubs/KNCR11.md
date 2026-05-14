@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\KNCR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KNCR11.md` (cemetery archive)_
 
 #### KNCR11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\KNCR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNCR11.md` (cemetery archive)_
 
 #### KNCR11 — Kinea Rendimentos Imob.
 
@@ -209,7 +209,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\KNCR11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNCR11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 KNCR11 — Kinea Rendimentos Imob.
 
@@ -324,7 +324,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=8 · themes=0_
 | 2026-04-24 | XP | catalyst | — | — | Menor volatilidade no mercado secundário. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\KNCR11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNCR11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — KNCR11
 

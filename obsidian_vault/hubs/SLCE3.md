@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\SLCE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SLCE3.md` (cemetery archive)_
 
 #### SLCE3 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Other
-_source: `Clippings\Tese de SLCE3.md` (now in cemetery)_
+_source: `Clippings\Tese de SLCE3.md`_
 
 SLCE3Micron
 
@@ -232,10 +232,10 @@ O portfólio de produção da SLC Agrícola é composto pelo tripé soja, algod�
 
 - **Algodão:** é
 
-_… (truncated at 15k chars — full content in cemetery copy of `Clippings\Tese de SLCE3.md`)_
+_… (truncated at 15k chars — full content in `Clippings\Tese de SLCE3.md`)_
 
 #### — · Panorama
-_source: `tickers\SLCE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SLCE3.md` (cemetery archive)_
 
 #### SLCE3 — SLCE3
 
@@ -365,7 +365,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\SLCE3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SLCE3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — SLCE3
 

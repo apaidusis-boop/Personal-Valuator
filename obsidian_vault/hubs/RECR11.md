@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\RECR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RECR11.md` (cemetery archive)_
 
 #### RECR11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\RECR11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RECR11.md` (cemetery archive)_
 
 #### RECR11 — REC Recebíveis Imob.
 
@@ -202,7 +202,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\RECR11_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RECR11_DOSSIE.md` (cemetery archive)_
 
 #### 📑 RECR11 — REC Recebíveis Imob.
 
@@ -304,7 +304,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=1 · themes=0_
 | 2026-04-24 | SUNO | rating | bull | 99.00 | [Suno FIIs] RECR11 — peso 11.0%, rating Comprar, PT R$99.0 |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\RECR11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RECR11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — RECR11
 

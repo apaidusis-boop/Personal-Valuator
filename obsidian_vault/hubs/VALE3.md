@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 19
+sources_merged: 18
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Mining` · `market: BR` · `currency: BRL` · `bucket: holdings` · `19 sources merged`
+`sector: Mining` · `market: BR` · `currency: BRL` · `bucket: holdings` · `18 sources merged`
 
 ## 🎯 Hoje
 
@@ -27,13 +27,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\VALE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VALE3.md` (cemetery archive)_
 
 #### VALE3 — Pilot Deep Dive (2026-05-12)
 
@@ -78,8 +78,83 @@ _source: `Overnight_2026-05-13\VALE3.md` (now in cemetery)_
     )
   File "C:\Users\paidu\investment-intellig
 
+#### 2026-05-09 · Deepdive (V10 4-layer)
+_generated 2026-05-09 16:11 · source: `reports/deepdive/VALE3_deepdive_20260509_1611.json`_
+
+> Sector: ? · Country: ? · Price: ? 
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | 5/9 | - |
+| Altman Z | 4.82333528110067 | safe |
+| Beneish M | - | - |
+| Moat | 4.5/10 | WEAK |
+
+
+**Fundamentals**: P/E - · P/B - · EV/EBITDA - · DY - · ROE -
+
+**Delta vs análise anterior**
+
+```
+Delta Report — VALE3 | hoje vs run anterior (2026-05-08)
+```
+
+**Strategist dossier**
+
+# 1. Executive Summary
+- **Rating:** EVITAR
+- **Preço justo estimado e upside/downside %:** Não é possível calcular devido à falta de dados quantitativos.
+- **Risk Score:** 8 (Risco moderadamente alto)
+- **Alerta vermelho:** Sem análise Beneish, mas o Moat Score fraco e a necessidade de um Bear Case mais agressivo indicam riscos significativos.
+
+# 2. O Negócio
+O negócio em questão não foi especificado, impossibilitando uma avaliação detalhada do modelo de receita e fontes de caixa. No entanto, com base nos dados disponíveis:
+- **Network Effect:** Não aplicável (não informado)
+- **Switching Costs:** 4/5 (baseado na pontuação Moat)
+- **Intangibles:** 6/10 (baseado na pontuação Moat)
+- **Cost Advantages:** 2/5 (baseado na pontuação Moat)
+
+# 3. Decomposição DuPont
+Sem dados específicos sobre margem, giro e alavancagem, não é possível realizar uma análise detalhada da decomposição DuPont.
+
+# 4. Valuation Multinível
+- **Graham Number:** Não aplicável devido à falta de dados.
+- **DCF com 3 cenários:**
+    - Bear Case: Não calculado (falta de dados).
+    - Base Case: Não calculado (falta de dados).
+    - Bull Case: Não calculado (falta de dados).
+- **EV/EBITDA vs mediana setor:** Não comparável sem dados.
+
+# 5. Bear Case
+Dada a pontuação Piotroski de 5, o Bear Case deve ser mais agressivo:
+1. **Risco Operacional** (Probabilidade: Alta) - A empresa pode enfrentar desafios operacionais que afetem negativamente sua rentabilidade.
+2. **Condições Econômicas Adversas** (Probabilidade: Média) - Uma recessão ou condições econômicas adversas podem impactar negativamente a demanda e os preços dos produtos da empresa.
+3. **Riscos de Mercado** (Probabilidade: Baixa) - Flutuações significativas no mercado podem afetar o preço das ações.
+
+**Cenário de -40%:** A empresa enfrentaria dificuldades financeiras, potencialmente resultando em cortes de custos e redução de investimentos. Se as condições persistirem, pode haver risco de falência ou reestruturação significativa.
+
+# 6. Bull Case
+- **Catalisadores específicos com prazo:** Não identificados devido à falta de dados.
+- **O que precisa acontecer para o preço dobrar em 3 anos?** A empresa precisaria apresentar crescimento excepcional, melhoria na eficiência operacional e condições macroeconômicas favoráveis.
+
+# 7. Classificação Lynch
+- **Classificação:** Não aplicável devido à falta de dados específicos sobre o negócio.
+- **Argumentos objetivos:**
+    - A empresa não apresenta características claras para classificação.
+    - Falta de dados impede uma análise detalhada.
+
+# 8. Veredicto Final
+- **Decisão com 3 critérios mensuráveis:** 
+    - Piotroski F-Score: 5/9 (razoável, mas não excelente).
+    - Moat Score: 4.5/10 (fraco).
+    - Falta de dados quantitativos específicos.
+- **Position sizing:** Evitar
+- **Justificativa final:** A falta de dados quantitativos e a pontuação fraca do moat, combinada com um Piotroski F-Score apenas razoável, indicam riscos significativos sem uma justificativa clara para recomendar uma posição.
+
 #### 2026-04-30 · Council review · Aderbaldo Cíclico
-_source: `agents\Aderbaldo Cíclico\reviews\VALE3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
 #### Aderbaldo Cíclico sobre [[VALE3_STORY|VALE3]]
 
@@ -129,7 +204,7 @@ A Vale S.A. sustenta uma posição financeira robusta, com payout ratio sustent�
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\VALE3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[VALE3_STORY|VALE3]]
 
@@ -178,7 +253,7 @@ A Vale S.A. apresenta uma consistência em dividendos e uma gestão eficiente do
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\VALE3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[VALE3_STORY|VALE3]]
 
@@ -225,7 +300,7 @@ A Vale apresenta um histórico sólido em dividendos e geração de caixa, mas s
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\VALE3_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[VALE3_STORY|VALE3]]
 
@@ -272,7 +347,7 @@ A Vale apresenta uma geração de caixa robusta e um histórico de dividendos es
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Filing 2026-04-30
-_source: `dossiers\VALE3_FILING_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_FILING_2026-04-30.md` (cemetery archive)_
 
 #### Filing dossier — [[VALE3]] · 2026-04-30
 
@@ -336,7 +411,7 @@ _Método: `graham_number`. Consensus fair = R$57.31. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-20 · Other
-_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md` (now in cemetery)_
+_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md`_
 
 #### 🎬 PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CHEGANDO? VALE3 SUPERA EXPECTATIVA! B3SA3 +46% e EGIE3 2,7BI
 
@@ -387,7 +462,7 @@ _source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-c
 ### 2025
 
 #### 2025-07-27 · Other
-_source: `videos\2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais.md` (now in cemetery)_
+_source: `videos\2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais.md`_
 
 #### 🎬 Vale a pena INVESTIR EM VALE (VALE3) após RESULTADOS operacionais?
 
@@ -410,58 +485,8 @@ _source: `videos\2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apo
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\VALE3_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — VALE3           moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:            500
-  Entry price.........: R$       61.81
-  Cost basis..........: R$   30,905.00
-  Price now...........: R$       85.87
-  Market value now....: R$   42,935.00  [+38.9% nao-realizado]
-  DY t12m.............: 6.38%  (R$/US$ 5.4772/share)
-  DY vs own 10y.......: P50 [fair-rich]  (actual 6.38% em 115 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=18  hist_g_5y=0.221  hist_g_raw=0.221  gordon_g=0.000  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +6.63%  |   -1.00% |  +12.01%       |
-  | base         |  +11.06%  |   +0.00% |  +17.43%       |
-  | optimista    |  +14.92%  |   +1.00% |  +22.30%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |      9       |       11       |        4       |
-  | base         |      8       |       12       |        3       |
-  | optimista    |      7       |       12       |        2       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     77,593 | R$     98,805 | R$    121,515 |
-  |  10y  | R$    142,324 | R$    227,378 | R$    339,667 |
-  |  15y  | R$    265,132 | R$    523,258 | R$    938,212 |
-  --------------------------------------------------------------------------
-
 #### — · Dossier
-_source: `dossiers\VALE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3.md` (cemetery archive)_
 
 #### [[VALE3]] — Dossier Deepdive (2026-05-09)
 
@@ -539,7 +564,7 @@ Dada a pontuação Piotroski de 5, o Bear Case deve ser mais agressivo:
 *Generated by `ii deepdive VALE3` em 2026-05-09T16:11:31.*
 
 #### — · Council aggregate
-_source: `dossiers\VALE3_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[VALE3_STORY|VALE3]] (VALE3)
 
@@ -808,10 +833,10 @@ We then add the present value of these excess returns to the invest
 ##### TAVILY NEWS (≤30d) (5 hits)
 [23] Tavily [Sat, 18 Ap]: While Oman pellet o
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\VALE3_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\VALE3_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_STORY.md` (cemetery archive)_
 
 #### VALE3 — VALE3
 
@@ -996,146 +1021,60 @@ O atual preço da ação de Vale S.A. sugere um cenário otimista para os próxi
 
 ###### O que os fundamen
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\VALE3_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_STORY.md`)_
 
-#### — · Other
-_source: `hubs\VALE3.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\VALE3_drip.md` (cemetery archive)_
 
-#### VALE3 — VALE3
+/============================================================================\
+|   DRIP SCENARIO — VALE3           moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre VALE3, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:            500
+  Entry price.........: R$       61.81
+  Cost basis..........: R$   30,905.00
+  Price now...........: R$       85.87
+  Market value now....: R$   42,935.00  [+38.9% nao-realizado]
+  DY t12m.............: 6.38%  (R$/US$ 5.4772/share)
+  DY vs own 10y.......: P50 [fair-rich]  (actual 6.38% em 115 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Mining` · `market: BR` · `currency: BRL`
+  kind=equity  streak=18  hist_g_5y=0.221  hist_g_raw=0.221  gordon_g=0.000  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +6.63%  |   -1.00% |  +12.01%       |
+  | base         |  +11.06%  |   +0.00% |  +17.43%       |
+  | optimista    |  +14.92%  |   +1.00% |  +22.30%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 501.0 @ entry 61.84
-- **Verdict (DB)**: `HOLD` (score 6.13, 2026-05-13)
-- **Último deepdive**: `VALE3_deepdive_20260509_1611.json` (2026-05-09 16:11)
-- **Fundamentals** (2026-05-13): P/E 26.02 · P/B 1.95 · DY 6.5% · ROE 6.8% · ND/EBITDA 1.08 · Dividend streak 18
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |      9       |       11       |        4       |
+  | base         |      8       |       12       |        3       |
+  | optimista    |      7       |       12       |        2       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[VALE3]] _(`Overnight_2026-05-13/VALE3.md`)_
-- **2026-05-11** · Overnight → [[VALE3]] _(`Overnight_2026-05-11/VALE3.md`)_
-- **2026-04-30** · Filing → [[VALE3_FILING_2026-04-30]] _(`dossiers/VALE3_FILING_2026-04-30.md`)_
-- **2026-04-30** · Dossier Archive → [[VALE3_STORY_2026-04-30]] _(`dossiers/archive/VALE3_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[VALE3_2026-04-30]] _(`agents/Valentina Prudente/reviews/VALE3_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[VALE3_2026-04-30]] _(`agents/Pedro Alocação/reviews/VALE3_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[VALE3_2026-04-30]] _(`agents/Mariana Macro/reviews/VALE3_2026-04-30.md`)_
-- **2026-04-30** · Review · Aderbaldo Cíclico → [[VALE3_2026-04-30]] _(`agents/Aderbaldo Cíclico/reviews/VALE3_2026-04-30.md`)_
-- **2026-04-28** · Earnings Prep → [[earnings_prep_VALE3_2026-04-28]] _(`briefings/earnings_prep_VALE3_2026-04-28.md`)_
-- **2026-04-24** · Other → [[apply_commodity_vale3]] _(`briefings/overnight_research_2026-04-24/apply_commodity_vale3.md`)_
-- **2026-04-20** · Video → [[2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa]] _(`videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md`)_
-
-###### 2025
-
-- **2025-07-27** · Video → [[2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais]] _(`videos/2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[VALE3]] _(`wiki/holdings/VALE3.md`)_
-- **—** · Variant → [[VALE3_VARIANT]] _(`tickers/VALE3_VARIANT.md`)_
-- **—** · Story → [[VALE3_STORY]] _(`dossiers/VALE3_STORY.md`)_
-- **—** · Ri → [[VALE3_RI]] _(`tickers/VALE3_RI.md`)_
-- **—** · Panorama → [[VALE3]] _(`tickers/VALE3.md`)_
-- **—** · Other → [[VALE3]] _(`hubs/VALE3.md`)_
-- **—** · Other → [[VALE3]] _(`dossiers/VALE3.md`)_
-- **—** · Ic Debate → [[VALE3_IC_DEBATE]] _(`tickers/VALE3_IC_DEBATE.md`)_
-- **—** · Drip → [[VALE3_drip]] _(`briefings/drip_scenarios/VALE3_drip.md`)_
-- **—** · Deepdive Json → [[VALE3_deepdive_20260509_1611]] _(`reports/deepdive/VALE3_deepdive_20260509_1611.json`)_
-- **—** · Deepdive → [[VALE3_DOSSIE]] _(`tickers/VALE3_DOSSIE.md`)_
-- **—** · Council → [[VALE3_COUNCIL]] _(`dossiers/VALE3_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[VALE3]] _(`tickers/VALE3.md`)_
-
-###### Deepdive (DOSSIE)
-- [[VALE3_DOSSIE]] _(`tickers/VALE3_DOSSIE.md`)_
-
-###### Deepdive JSON snapshots
-- [[VALE3_deepdive_20260509_1611]] _(`reports/deepdive/VALE3_deepdive_20260509_1611.json`)_
-
-###### Story
-- [[VALE3_STORY]] _(`dossiers/VALE3_STORY.md`)_
-
-###### Council aggregate
-- [[VALE3_COUNCIL]] _(`dossiers/VALE3_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Aderbaldo Cíclico_:
-- [[VALE3_2026-04-30]] _(`agents/Aderbaldo Cíclico/reviews/VALE3_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[VALE3_2026-04-30]] _(`agents/Mariana Macro/reviews/VALE3_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[VALE3_2026-04-30]] _(`agents/Pedro Alocação/reviews/VALE3_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[VALE3_2026-04-30]] _(`agents/Valentina Prudente/reviews/VALE3_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[VALE3_IC_DEBATE]] _(`tickers/VALE3_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[VALE3_VARIANT]] _(`tickers/VALE3_VARIANT.md`)_
-
-###### RI / official disclosures
-- [[VALE3_RI]] _(`tickers/VALE3_RI.md`)_
-
-###### Filings individuais
-- [[VALE3_FILING_2026-04-30]] _(`dossiers/VALE3_FILING_2026-04-30.md`)_
-
-###### Overnight scrapes
-- [[VALE3]] _(`Overnight_2026-05-13/VALE3.md`)_
-- [[VALE3]] _(`Overnight_2026-05-11/VALE3.md`)_
-
-###### DRIP scenarios
-- [[VALE3_drip]] _(`briefings/drip_scenarios/VALE3_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_VALE3_2026-04-28]] _(`briefings/earnings_prep_VALE3_2026-04-28.md`)_
-
-###### Wiki / playbooks
-- [[VALE3]] _(`wiki/holdings/VALE3.md`)_
-
-###### Video transcripts
-- [[2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa]] _(`videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md`)_
-- [[2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais]] _(`videos/2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais.md`)_
-
-###### Archived stories
-- [[VALE3_STORY_2026-04-30]] _(`dossiers/archive/VALE3_STORY_2026-04-30.md`)_
-
-###### Other
-- [[apply_commodity_vale3]] _(`briefings/overnight_research_2026-04-24/apply_commodity_vale3.md`)_
-- [[VALE3]] _(`dossiers/VALE3.md`)_
-- [[VALE3]] _(`hubs/VALE3.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama VALE3 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive VALE3 --save-obsidian # V10 4-layer pipeline
-ii verdict VALE3 --narrate --write
-ii fv VALE3                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker VALE3 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     77,593 | R$     98,805 | R$    121,515 |
+  |  10y  | R$    142,324 | R$    227,378 | R$    339,667 |
+  |  15y  | R$    265,132 | R$    523,258 | R$    938,212 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\VALE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3.md` (cemetery archive)_
 
 #### VALE3 — VALE3
 
@@ -1336,7 +1275,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\VALE3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 VALE3 — Vale
 
@@ -1474,7 +1413,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=5 · themes=5_
 | 2026-05-13 | Morning Call XP | usdbrl | bearish | O real ficou estável em relação ao dólar, mas a tendência é de apreciação do dólar contra as moedas emergente… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\VALE3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — VALE3
 
@@ -1610,7 +1549,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=5 · themes=5_
 | 2026-05-13 | Morning Call XP | usdbrl | bearish | O real ficou estável em relação ao dólar, mas a tendência é de apreciação do dólar contra as moedas emergente… |
 
 #### — · RI / disclosure
-_source: `tickers\VALE3_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3_RI.md` (cemetery archive)_
 
 #### VALE3 — RI Quarterly Compare
 
@@ -1693,7 +1632,7 @@ tension: 0.3
 *Auto-generated by `library.ri.compare_releases` from CVM official data.*
 
 #### — · Variant perception
-_source: `tickers\VALE3_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — VALE3
 
@@ -1767,7 +1706,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=5 · themes=5_
 | 2026-05-13 | Morning Call XP | usdbrl | bearish | O real ficou estável em relação ao dólar, mas a tendência é de apreciação do dólar contra as moedas emergente… |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\VALE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\VALE3.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[VALE3]] — Vale
 

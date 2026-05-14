@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-14 · Earnings prep
-_source: `briefings\earnings_prep_NU_2026-05-14.md` (now in cemetery)_
+_source: `briefings\earnings_prep_NU_2026-05-14.md`_
 
 #### 📞 Earnings Prep — NU (2026-05-14)
 
@@ -95,7 +95,7 @@ WEB GUIDANCE HEADLINES:
 ```
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\NU.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NU.md` (cemetery archive)_
 
 #### NU — Pilot Deep Dive (2026-05-12)
 
@@ -141,7 +141,7 @@ _source: `Overnight_2026-05-13\NU.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\NU_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\NU_2026-05-01.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[NU_STORY|NU]]
 
@@ -188,7 +188,7 @@ Despite a strong ROE of 30.28%, the high P/E (24.97) and P/B (6.23) ratios sugge
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\NU_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\NU_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[NU_STORY|NU]]
 
@@ -236,7 +236,7 @@ Nu Holdings boasts a robust ROE of 30.28% and a PEG ratio below 1, suggesting su
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\NU_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\NU_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[NU_STORY|NU]]
 
@@ -283,7 +283,7 @@ ROE de 30.28% e razão PEG de 0.87 sugerem crescimento sustentável; posição g
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\NU_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\NU_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[NU_STORY|NU]]
 
@@ -334,7 +334,7 @@ Nu Holdings maintains a robust ROE of 30.28% and a PEG ratio below 1, suggesting
 ### 2022
 
 #### 2022-01-03 · Filing 2022-01-03
-_source: `dossiers\NU_FILING_2022-01-03.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_FILING_2022-01-03.md` (cemetery archive)_
 
 #### Filing dossier — [[NU]] · 2022-01-03
 
@@ -383,57 +383,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\NU_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — NU              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             13
-  Entry price.........: US$        8.26
-  Cost basis..........: US$      107.37
-  Price now...........: US$       14.51
-  Market value now....: US$      188.63  [+75.7% nao-realizado]
-  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
-
-  kind=equity  streak=0  price_cagr_5y=0.081
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +0.00%  |   +4.04% |   +4.04%       |
-  | base         |   +0.00%  |   +8.07% |   +8.07%       |
-  | optimista    |   +0.00%  |  +10.49% |  +10.49%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |    >40       |      >40       |        4       |
-  | base         |    >40       |      >40       |        2       |
-  | optimista    |    >40       |      >40       |        2       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        230 | US$        278 | US$        311 |
-  |  10y  | US$        280 | US$        410 | US$        512 |
-  |  15y  | US$        341 | US$        604 | US$        842 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\NU_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[NU_STORY|NU]] (Nu Holdings)
 
@@ -665,10 +616,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
 [18] Tavily [Sun, 29 Ma]: # NuScale Power Corporation Securities Fraud Class Action Lawsuit Filed; April 20, 2026, Lead Plaintiff Deadline. * **Investor Action:** Contact Kessler Topaz Meltzer & Check, LLP (www.ktmc.com) for recovery options at no cost to investor. RADNOR, PA - March 29, 2026 (NEWMEDIAWIRE) - Kessler Topaz M
      URL: https://www.theglobeandmail.com/investing/markets/stocks/SMR/pressreleases/1030632/nuscale-power-corporation-securities-fraud-
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\NU_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\NU_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_STORY.md` (cemetery archive)_
 
 #### Nu Holdings — NU
 
@@ -845,127 +796,59 @@ Os fundamentos da Nu Holdings são robustos, com uma taxa de crescimento anualiz
 
 | Cenário | Crescimento 5y | Perpetuidade | Valo
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\NU_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_STORY.md`)_
 
-#### — · Other
-_source: `hubs\NU.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\NU_drip.md` (cemetery archive)_
 
-#### NU — Nu Holdings
+/============================================================================\
+|   DRIP SCENARIO — NU              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre NU, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             13
+  Entry price.........: US$        8.26
+  Cost basis..........: US$      107.37
+  Price now...........: US$       14.51
+  Market value now....: US$      188.63  [+75.7% nao-realizado]
+  DY t12m.............: 0.00%  (R$/US$ 0.0000/share)
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=0  price_cagr_5y=0.081
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +0.00%  |   +4.04% |   +4.04%       |
+  | base         |   +0.00%  |   +8.07% |   +8.07%       |
+  | optimista    |   +0.00%  |  +10.49% |  +10.49%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 13.0 @ entry 8.25923076923077
-- **Verdict (DB)**: `SELL` (score 3.27, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 21.73 · P/B 5.51 · ROE 30.3% · Dividend streak 0 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |    >40       |      >40       |        4       |
+  | base         |    >40       |      >40       |        2       |
+  | optimista    |    >40       |      >40       |        2       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-14** · Earnings Prep → [[earnings_prep_NU_2026-05-14]] _(`briefings/earnings_prep_NU_2026-05-14.md`)_
-- **2026-05-13** · Overnight → [[NU]] _(`Overnight_2026-05-13/NU.md`)_
-- **2026-05-11** · Overnight → [[NU]] _(`Overnight_2026-05-11/NU.md`)_
-- **2026-05-01** · Dossier Archive → [[NU_STORY_2026-05-01]] _(`dossiers/archive/NU_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[NU_2026-05-01]] _(`agents/Valentina Prudente/reviews/NU_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[NU_2026-05-01]] _(`agents/Pedro Alocação/reviews/NU_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[NU_2026-05-01]] _(`agents/Mariana Macro/reviews/NU_2026-05-01.md`)_
-- **2026-05-01** · Review · Hank Tier-One → [[NU_2026-05-01]] _(`agents/Hank Tier-One/reviews/NU_2026-05-01.md`)_
-
-###### 2022
-
-- **2022-01-03** · Filing → [[NU_FILING_2022-01-03]] _(`dossiers/NU_FILING_2022-01-03.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[NU]] _(`wiki/holdings/NU.md`)_
-- **—** · Variant → [[NU_VARIANT]] _(`tickers/NU_VARIANT.md`)_
-- **—** · Story → [[NU_STORY]] _(`dossiers/NU_STORY.md`)_
-- **—** · Panorama → [[NU]] _(`tickers/NU.md`)_
-- **—** · Other → [[NU]] _(`hubs/NU.md`)_
-- **—** · Ic Debate → [[NU_IC_DEBATE]] _(`tickers/NU_IC_DEBATE.md`)_
-- **—** · Drip → [[NU_drip]] _(`briefings/drip_scenarios/NU_drip.md`)_
-- **—** · Deepdive → [[NU_DOSSIE]] _(`tickers/NU_DOSSIE.md`)_
-- **—** · Council → [[NU_COUNCIL]] _(`dossiers/NU_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[NU]] _(`tickers/NU.md`)_
-
-###### Deepdive (DOSSIE)
-- [[NU_DOSSIE]] _(`tickers/NU_DOSSIE.md`)_
-
-###### Story
-- [[NU_STORY]] _(`dossiers/NU_STORY.md`)_
-
-###### Council aggregate
-- [[NU_COUNCIL]] _(`dossiers/NU_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[NU_2026-05-01]] _(`agents/Hank Tier-One/reviews/NU_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[NU_2026-05-01]] _(`agents/Mariana Macro/reviews/NU_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[NU_2026-05-01]] _(`agents/Pedro Alocação/reviews/NU_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[NU_2026-05-01]] _(`agents/Valentina Prudente/reviews/NU_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[NU_IC_DEBATE]] _(`tickers/NU_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[NU_VARIANT]] _(`tickers/NU_VARIANT.md`)_
-
-###### Filings individuais
-- [[NU_FILING_2022-01-03]] _(`dossiers/NU_FILING_2022-01-03.md`)_
-
-###### Overnight scrapes
-- [[NU]] _(`Overnight_2026-05-13/NU.md`)_
-- [[NU]] _(`Overnight_2026-05-11/NU.md`)_
-
-###### DRIP scenarios
-- [[NU_drip]] _(`briefings/drip_scenarios/NU_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_NU_2026-05-14]] _(`briefings/earnings_prep_NU_2026-05-14.md`)_
-
-###### Wiki / playbooks
-- [[NU]] _(`wiki/holdings/NU.md`)_
-
-###### Archived stories
-- [[NU_STORY_2026-05-01]] _(`dossiers/archive/NU_STORY_2026-05-01.md`)_
-
-###### Other
-- [[NU]] _(`hubs/NU.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama NU --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive NU --save-obsidian # V10 4-layer pipeline
-ii verdict NU --narrate --write
-ii fv NU                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker NU # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        230 | US$        278 | US$        311 |
+  |  10y  | US$        280 | US$        410 | US$        512 |
+  |  15y  | US$        341 | US$        604 | US$        842 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\NU.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU.md` (cemetery archive)_
 
 #### NU — Nu Holdings
 
@@ -1105,7 +988,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\NU_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU_DOSSIE.md` (cemetery archive)_
 
 #### 📑 NU — Nu Holdings
 
@@ -1190,7 +1073,7 @@ NU cota P/E 25.02, P/B 6.24, sem dividendo, ROE 30.28% — neobank LATAM em fase
 *Generated by `ii dossier NU` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\NU_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — NU
 
@@ -1280,7 +1163,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\NU_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — NU
 
@@ -1313,7 +1196,7 @@ _source: `tickers\NU_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\NU.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\NU.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[NU]] — Nu Holdings (Nubank)
 

@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 20
+sources_merged: 19
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Holding` · `market: BR` · `currency: BRL` · `bucket: holdings` · `20 sources merged`
+`sector: Holding` · `market: BR` · `currency: BRL` · `bucket: holdings` · `19 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\ITSA4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ITSA4.md` (cemetery archive)_
 
 #### ITSA4 — Pilot Deep Dive (2026-05-12)
 
@@ -78,7 +78,7 @@ _source: `Overnight_2026-05-13\ITSA4.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-05 · Filing 2026-05-05
-_source: `dossiers\ITSA4_FILING_2026-05-05.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_FILING_2026-05-05.md` (cemetery archive)_
 
 #### Filing dossier — [[ITSA4]] · 2026-05-05
 
@@ -141,7 +141,7 @@ _Método: `graham_number`. Consensus fair = R$16.66. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Council review · Diego Bancário
-_source: `agents\Diego Bancário\reviews\ITSA4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
 #### Diego Bancário sobre [[ITSA4_STORY|ITSA4]]
 
@@ -186,7 +186,7 @@ Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding pers
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\ITSA4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[ITSA4_STORY|ITSA4]]
 
@@ -231,7 +231,7 @@ Itaúsa opera com ROE de ~17%, dividend yield alinhado à Selic, e desconto hold
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\ITSA4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[ITSA4_STORY|ITSA4]]
 
@@ -276,7 +276,7 @@ Itaúsa apresenta ROE de 17.6%, DY de 8.91% alinhado com Selic, e margem EBIT al
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Tião Galpão
-_source: `agents\Tião Galpão\reviews\ITSA4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
 #### Tião Galpão sobre [[ITSA4_STORY|ITSA4]]
 
@@ -321,7 +321,7 @@ ITSA4 opera com ROE de 17.6%, superior à mediana setorial, e DY de 8.91% alinha
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\ITSA4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[ITSA4_STORY|ITSA4]]
 
@@ -367,7 +367,7 @@ Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto persist
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-22 · Other
-_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md` (now in cemetery)_
+_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`_
 
 #### 🎬 DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! ITSA4 MUDOU O PLANO? PETR4 LUCRA COM CONFLITOS? +CSMG3 BTLG11
 
@@ -410,7 +410,7 @@ _source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-it
 - **real_estate_cycle** bullish _(conf 0.85)_ — O fundo imobiliário BTLG11 está quitando galpões logísticos em São Paulo, aumentando sua exposição a áreas estratégicas da logística brasileira.
 
 #### 2026-04-14 · Filing 2026-04-14
-_source: `dossiers\ITSA4_FILING_2026-04-14.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_FILING_2026-04-14.md` (cemetery archive)_
 
 #### Filing dossier — [[ITSA4]] · 2026-04-14
 
@@ -473,7 +473,7 @@ _Método: `graham_number`. Consensus fair = R$16.66. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-07 · Other
-_source: `videos\2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com.md` (now in cemetery)_
+_source: `videos\2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com.md`_
 
 #### 🎬 ITSA4: DESCONTO EXAGERADO É CILADA? COMO COMPRAR ITUB3 MAIS BARATO E COM +DIVIDENDOS
 
@@ -500,58 +500,8 @@ _source: `videos\2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\ITSA4_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — ITSA4           moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:          2.472
-  Entry price.........: R$        7.75
-  Cost basis..........: R$   19,158.00
-  Price now...........: R$       14.22
-  Market value now....: R$   35,151.84  [+83.5% nao-realizado]
-  DY t12m.............: 8.63%  (R$/US$ 1.2276/share)
-  DY vs own 10y.......: P79 [CHEAP]  (actual 8.63% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=20  hist_g_5y=0.120  hist_g_raw=0.547  gordon_g=0.030  is_quality=True  capped=True
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +4.50%  |   -1.00% |  +12.13%       |
-  | base         |   +7.50%  |   +0.00% |  +16.13%       |
-  | optimista    |  +10.12%  |   +1.00% |  +19.76%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |      6       |        9       |        1       |
-  | base         |      6       |        9       |        1       |
-  | optimista    |      5       |        9       |        1       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     63,900 | R$     76,342 | R$     89,158 |
-  |  10y  | R$    118,511 | R$    165,798 | R$    222,289 |
-  |  15y  | R$    224,452 | R$    360,077 | R$    545,169 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\ITSA4_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[ITSA4_STORY|ITSA4]] (Itaúsa)
 
@@ -844,10 +794,10 @@ Watchlist
      URL: https://www.reuters.com/business/finance/bank-creditors-brazils-raizen-make-restructuring-proposal-bloomberg-reports-2026-04-19/
 [23] Tavily [Tue, 21 Ap]: Image 4: Radhika Saraogi[Premium Stock Market Today: S&P 500 Sector Leaders and Losers, 4/20/26 Eddie Pan11h ago DIAQQQ](https://www.tipranks.com/news/stock-market-today-sp-500-sector-leaders-and-losers-4-20-26 "DIA | QQQ | SPY"). Image 5: Ra
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ITSA4_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\ITSA4_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_STORY.md` (cemetery archive)_
 
 #### Itaúsa — ITSA4
 
@@ -1041,144 +991,60 @@ Valentina Prudente sinalizou que a mudança na gestão da Itaújoása, particula
 ###### Horizonte
 O horizonte recomendado é de **24-36 meses**, considerando as incertezas atuais e o potencial para mudanças significativas no cen
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\ITSA4_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_STORY.md`)_
 
-#### — · Other
-_source: `hubs\ITSA4.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ITSA4_drip.md` (cemetery archive)_
 
-#### ITSA4 — Itaúsa
+/============================================================================\
+|   DRIP SCENARIO — ITSA4           moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre ITSA4, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:          2.472
+  Entry price.........: R$        7.75
+  Cost basis..........: R$   19,158.00
+  Price now...........: R$       14.22
+  Market value now....: R$   35,151.84  [+83.5% nao-realizado]
+  DY t12m.............: 8.63%  (R$/US$ 1.2276/share)
+  DY vs own 10y.......: P79 [CHEAP]  (actual 8.63% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Holding` · `market: BR` · `currency: BRL`
+  kind=equity  streak=20  hist_g_5y=0.120  hist_g_raw=0.547  gordon_g=0.030  is_quality=True  capped=True
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +4.50%  |   -1.00% |  +12.13%       |
+  | base         |   +7.50%  |   +0.00% |  +16.13%       |
+  | optimista    |  +10.12%  |   +1.00% |  +19.76%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 2485.0 @ entry 7.79
-- **Verdict (DB)**: `ADD` (score 7.55, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 8.45 · P/B 1.62 · DY 9.7% · ROE 17.6% · ND/EBITDA 4.03 · Dividend streak 20
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |      6       |        9       |        1       |
+  | base         |      6       |        9       |        1       |
+  | optimista    |      5       |        9       |        1       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[ITSA4]] _(`Overnight_2026-05-13/ITSA4.md`)_
-- **2026-05-11** · Pilot → [[ITSA4]] _(`Pilot_Deep_Dive_2026-05-11/ITSA4.md`)_
-- **2026-05-11** · Overnight → [[ITSA4]] _(`Overnight_2026-05-11/ITSA4.md`)_
-- **2026-05-10** · Pilot → [[ITSA4]] _(`Pilot_Deep_Dive_2026-05-10/ITSA4.md`)_
-- **2026-05-05** · Filing → [[ITSA4_FILING_2026-05-05]] _(`dossiers/ITSA4_FILING_2026-05-05.md`)_
-- **2026-04-30** · Dossier Archive → [[ITSA4_STORY_2026-04-30]] _(`dossiers/archive/ITSA4_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[ITSA4_2026-04-30]] _(`agents/Valentina Prudente/reviews/ITSA4_2026-04-30.md`)_
-- **2026-04-30** · Review · Tião Galpão → [[ITSA4_2026-04-30]] _(`agents/Tião Galpão/reviews/ITSA4_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[ITSA4_2026-04-30]] _(`agents/Pedro Alocação/reviews/ITSA4_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[ITSA4_2026-04-30]] _(`agents/Mariana Macro/reviews/ITSA4_2026-04-30.md`)_
-- **2026-04-30** · Review · Diego Bancário → [[ITSA4_2026-04-30]] _(`agents/Diego Bancário/reviews/ITSA4_2026-04-30.md`)_
-- **2026-04-24** · Other → [[apply_br_banks_itsa4]] _(`briefings/overnight_research_2026-04-24/apply_br_banks_itsa4.md`)_
-- **2026-04-22** · Video → [[2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co]] _(`videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`)_
-- **2026-04-14** · Filing → [[ITSA4_FILING_2026-04-14]] _(`dossiers/ITSA4_FILING_2026-04-14.md`)_
-- **2026-04-07** · Video → [[2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com]] _(`videos/2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[ITSA4]] _(`wiki/holdings/ITSA4.md`)_
-- **—** · Variant → [[ITSA4_VARIANT]] _(`tickers/ITSA4_VARIANT.md`)_
-- **—** · Story → [[ITSA4_STORY]] _(`dossiers/ITSA4_STORY.md`)_
-- **—** · Ri → [[ITSA4_RI]] _(`tickers/ITSA4_RI.md`)_
-- **—** · Panorama → [[ITSA4]] _(`tickers/ITSA4.md`)_
-- **—** · Other → [[ITSA4]] _(`hubs/ITSA4.md`)_
-- **—** · Ic Debate → [[ITSA4_IC_DEBATE]] _(`tickers/ITSA4_IC_DEBATE.md`)_
-- **—** · Drip → [[ITSA4_drip]] _(`briefings/drip_scenarios/ITSA4_drip.md`)_
-- **—** · Deepdive → [[ITSA4_DOSSIE]] _(`tickers/ITSA4_DOSSIE.md`)_
-- **—** · Council → [[ITSA4_COUNCIL]] _(`dossiers/ITSA4_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[ITSA4]] _(`tickers/ITSA4.md`)_
-
-###### Deepdive (DOSSIE)
-- [[ITSA4_DOSSIE]] _(`tickers/ITSA4_DOSSIE.md`)_
-
-###### Story
-- [[ITSA4_STORY]] _(`dossiers/ITSA4_STORY.md`)_
-
-###### Council aggregate
-- [[ITSA4_COUNCIL]] _(`dossiers/ITSA4_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Diego Bancário_:
-- [[ITSA4_2026-04-30]] _(`agents/Diego Bancário/reviews/ITSA4_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[ITSA4_2026-04-30]] _(`agents/Mariana Macro/reviews/ITSA4_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[ITSA4_2026-04-30]] _(`agents/Pedro Alocação/reviews/ITSA4_2026-04-30.md`)_
-
-_Tião Galpão_:
-- [[ITSA4_2026-04-30]] _(`agents/Tião Galpão/reviews/ITSA4_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[ITSA4_2026-04-30]] _(`agents/Valentina Prudente/reviews/ITSA4_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[ITSA4_IC_DEBATE]] _(`tickers/ITSA4_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[ITSA4_VARIANT]] _(`tickers/ITSA4_VARIANT.md`)_
-
-###### RI / official disclosures
-- [[ITSA4_RI]] _(`tickers/ITSA4_RI.md`)_
-
-###### Filings individuais
-- [[ITSA4_FILING_2026-05-05]] _(`dossiers/ITSA4_FILING_2026-05-05.md`)_
-- [[ITSA4_FILING_2026-04-14]] _(`dossiers/ITSA4_FILING_2026-04-14.md`)_
-
-###### Overnight scrapes
-- [[ITSA4]] _(`Overnight_2026-05-13/ITSA4.md`)_
-- [[ITSA4]] _(`Overnight_2026-05-11/ITSA4.md`)_
-
-###### Pilot deep dives
-- [[ITSA4]] _(`Pilot_Deep_Dive_2026-05-11/ITSA4.md`)_
-- [[ITSA4]] _(`Pilot_Deep_Dive_2026-05-10/ITSA4.md`)_
-
-###### DRIP scenarios
-- [[ITSA4_drip]] _(`briefings/drip_scenarios/ITSA4_drip.md`)_
-
-###### Wiki / playbooks
-- [[ITSA4]] _(`wiki/holdings/ITSA4.md`)_
-
-###### Video transcripts
-- [[2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co]] _(`videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`)_
-- [[2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com]] _(`videos/2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com.md`)_
-
-###### Archived stories
-- [[ITSA4_STORY_2026-04-30]] _(`dossiers/archive/ITSA4_STORY_2026-04-30.md`)_
-
-###### Other
-- [[apply_br_banks_itsa4]] _(`briefings/overnight_research_2026-04-24/apply_br_banks_itsa4.md`)_
-- [[ITSA4]] _(`hubs/ITSA4.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama ITSA4 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive ITSA4 --save-obsidian # V10 4-layer pipeline
-ii verdict ITSA4 --narrate --write
-ii fv ITSA4                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker ITSA4 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     63,900 | R$     76,342 | R$     89,158 |
+  |  10y  | R$    118,511 | R$    165,798 | R$    222,289 |
+  |  15y  | R$    224,452 | R$    360,077 | R$    545,169 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\ITSA4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4.md` (cemetery archive)_
 
 #### ITSA4 — Itaúsa
 
@@ -1380,7 +1246,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\ITSA4_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4_DOSSIE.md` (cemetery archive)_
 
 #### 📑 ITSA4 — Itaúsa
 
@@ -1532,7 +1398,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=4 · themes=5_
 | 2026-05-13 | Virtual Asset | oil_cycle | bullish | A Petrobras alcançou um novo recorde de produção de diesel, o que melhora a segurança energética do Brasil e… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\ITSA4_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — ITSA4
 
@@ -1681,7 +1547,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=4 · themes=5_
 | 2026-05-13 | Virtual Asset | oil_cycle | bullish | A Petrobras alcançou um novo recorde de produção de diesel, o que melhora a segurança energética do Brasil e… |
 
 #### — · RI / disclosure
-_source: `tickers\ITSA4_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4_RI.md` (cemetery archive)_
 
 #### ITSA4 — RI Quarterly Compare
 
@@ -1765,7 +1631,7 @@ tension: 0.3
 *Auto-generated by `library.ri.compare_releases` from CVM official data.*
 
 #### — · Variant perception
-_source: `tickers\ITSA4_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — ITSA4
 
@@ -1851,7 +1717,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=4 · themes=5_
 | 2026-05-13 | Virtual Asset | oil_cycle | bullish | A Petrobras alcançou um novo recorde de produção de diesel, o que melhora a segurança energética do Brasil e… |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\ITSA4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\ITSA4.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[ITSA4]] — Itaúsa
 

@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 16
+sources_merged: 15
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `15 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-19 · Earnings prep
-_source: `briefings\earnings_prep_XP_2026-05-19.md` (now in cemetery)_
+_source: `briefings\earnings_prep_XP_2026-05-19.md`_
 
 #### 📞 Earnings Prep — XP (2026-05-19)
 
@@ -96,7 +96,7 @@ WEB GUIDANCE HEADLINES:
 ```
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\XP.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XP.md` (cemetery archive)_
 
 #### XP — Pilot Deep Dive (2026-05-12)
 
@@ -142,7 +142,7 @@ _source: `Overnight_2026-05-13\XP.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-01 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\XP_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\XP_2026-05-01.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[XP_STORY|XP]]
 
@@ -192,7 +192,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atrativo e crescimento sus
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\XP_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XP_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[XP_STORY|XP]]
 
@@ -240,7 +240,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atraente, além de crescim
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\XP_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XP_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[XP_STORY|XP]]
 
@@ -287,7 +287,7 @@ A empresa apresenta um ROE de 23.7% e P/E de 9.88x, indicando valorização acim
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\XP_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XP_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[XP_STORY|XP]]
 
@@ -338,7 +338,7 @@ XP Inc maintains a strong ROE of 23.7% and an extended dividend streak, aligning
 ### 2019
 
 #### 2019-12-13 · Filing 2019-12-13
-_source: `dossiers\XP_FILING_2019-12-13.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_FILING_2019-12-13.md` (cemetery archive)_
 
 #### Filing dossier — [[XP]] · 2019-12-13
 
@@ -387,58 +387,8 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\XP_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — XP              moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:             20
-  Entry price.........: US$       17.36
-  Cost basis..........: US$      347.10
-  Price now...........: US$       19.74
-  Market value now....: US$      394.80  [+13.7% nao-realizado]
-  DY t12m.............: 0.91%  (R$/US$ 0.1800/share)
-  DY vs own 10y.......: P 3 [EXPENSIVE]  (actual 0.91% em 32 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=8  hist_g_5y=-0.629  hist_g_raw=-0.629  gordon_g=0.215  is_quality=False  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |  +10.80%  |   -2.00% |   +9.71%       |
-  | base         |  +18.00%  |   +0.00% |  +18.91%       |
-  | optimista    |  +22.00%  |   +1.00% |  +23.91%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     23       |      >40       |        7       |
-  | base         |     17       |      >40       |        4       |
-  | optimista    |     15       |      >40       |        3       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$        631 | US$        945 | US$      1,162 |
-  |  10y  | US$      1,015 | US$      2,263 | US$      3,413 |
-  |  15y  | US$      1,638 | US$      5,417 | US$     10,009 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\XP_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[XP_STORY|XP]] (XP Inc)
 
@@ -669,10 +619,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://www.globenewswire.com/news-release/2025/11/23/3193140/0/en/FCX-COURT-ALERT-Freeport-McMoRan-Inc-Investors-that-Lost-Money-May-have-been-Affected-by-Fraud-Contact-BFA-Law-by-January-12.html
 [18] Tavily [Sat, 3
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\XP_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\XP_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_STORY.md` (cemetery archive)_
 
 #### XP Inc — XP
 
@@ -856,127 +806,60 @@ Foi este o ponto onde Mariana Macro divergiu de Diego Bancário: "A expansão di
 | [1] | P/E ratio (TTM) | 9.88x | yfinance Ticker.info → fundamentals table | [link](https://finance.yahoo.com/quote/XP) | `reported` | 2026-04-30 |
 | [2] | P/B ratio | 2.11x | yfinance Ticker.info | [link](http
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\XP_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_STORY.md`)_
 
-#### — · Other
-_source: `hubs\XP.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\XP_drip.md` (cemetery archive)_
 
-#### XP — XP Inc
+/============================================================================\
+|   DRIP SCENARIO — XP              moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre XP, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:             20
+  Entry price.........: US$       17.36
+  Cost basis..........: US$      347.10
+  Price now...........: US$       19.74
+  Market value now....: US$      394.80  [+13.7% nao-realizado]
+  DY t12m.............: 0.91%  (R$/US$ 0.1800/share)
+  DY vs own 10y.......: P 3 [EXPENSIVE]  (actual 0.91% em 32 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=8  hist_g_5y=-0.629  hist_g_raw=-0.629  gordon_g=0.215  is_quality=False  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |  +10.80%  |   -2.00% |   +9.71%       |
+  | base         |  +18.00%  |   +0.00% |  +18.91%       |
+  | optimista    |  +22.00%  |   +1.00% |  +23.91%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 20.0 @ entry 17.355
-- **Verdict (DB)**: `HOLD` (score 4.47, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 8.73 · P/B 1.90 · DY 1.0% · ROE 23.7% · Dividend streak 8 · Aristocrat no
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     23       |      >40       |        7       |
+  | base         |     17       |      >40       |        4       |
+  | optimista    |     15       |      >40       |        3       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-19** · Earnings Prep → [[earnings_prep_XP_2026-05-19]] _(`briefings/earnings_prep_XP_2026-05-19.md`)_
-- **2026-05-13** · Overnight → [[XP]] _(`Overnight_2026-05-13/XP.md`)_
-- **2026-05-11** · Overnight → [[XP]] _(`Overnight_2026-05-11/XP.md`)_
-- **2026-05-01** · Dossier Archive → [[XP_STORY_2026-05-01]] _(`dossiers/archive/XP_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[XP_2026-05-01]] _(`agents/Valentina Prudente/reviews/XP_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[XP_2026-05-01]] _(`agents/Pedro Alocação/reviews/XP_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[XP_2026-05-01]] _(`agents/Mariana Macro/reviews/XP_2026-05-01.md`)_
-- **2026-05-01** · Review · Hank Tier-One → [[XP_2026-05-01]] _(`agents/Hank Tier-One/reviews/XP_2026-05-01.md`)_
-
-###### 2019
-
-- **2019-12-13** · Filing → [[XP_FILING_2019-12-13]] _(`dossiers/XP_FILING_2019-12-13.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[XP]] _(`wiki/holdings/XP.md`)_
-- **—** · Variant → [[XP_VARIANT]] _(`tickers/XP_VARIANT.md`)_
-- **—** · Story → [[XP_STORY]] _(`dossiers/XP_STORY.md`)_
-- **—** · Panorama → [[XP]] _(`tickers/XP.md`)_
-- **—** · Other → [[XP]] _(`hubs/XP.md`)_
-- **—** · Ic Debate → [[XP_IC_DEBATE]] _(`tickers/XP_IC_DEBATE.md`)_
-- **—** · Drip → [[XP_drip]] _(`briefings/drip_scenarios/XP_drip.md`)_
-- **—** · Deepdive → [[XP_DOSSIE]] _(`tickers/XP_DOSSIE.md`)_
-- **—** · Council → [[XP_COUNCIL]] _(`dossiers/XP_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[XP]] _(`tickers/XP.md`)_
-
-###### Deepdive (DOSSIE)
-- [[XP_DOSSIE]] _(`tickers/XP_DOSSIE.md`)_
-
-###### Story
-- [[XP_STORY]] _(`dossiers/XP_STORY.md`)_
-
-###### Council aggregate
-- [[XP_COUNCIL]] _(`dossiers/XP_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[XP_2026-05-01]] _(`agents/Hank Tier-One/reviews/XP_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[XP_2026-05-01]] _(`agents/Mariana Macro/reviews/XP_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[XP_2026-05-01]] _(`agents/Pedro Alocação/reviews/XP_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[XP_2026-05-01]] _(`agents/Valentina Prudente/reviews/XP_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[XP_IC_DEBATE]] _(`tickers/XP_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[XP_VARIANT]] _(`tickers/XP_VARIANT.md`)_
-
-###### Filings individuais
-- [[XP_FILING_2019-12-13]] _(`dossiers/XP_FILING_2019-12-13.md`)_
-
-###### Overnight scrapes
-- [[XP]] _(`Overnight_2026-05-13/XP.md`)_
-- [[XP]] _(`Overnight_2026-05-11/XP.md`)_
-
-###### DRIP scenarios
-- [[XP_drip]] _(`briefings/drip_scenarios/XP_drip.md`)_
-
-###### Earnings prep briefs
-- [[earnings_prep_XP_2026-05-19]] _(`briefings/earnings_prep_XP_2026-05-19.md`)_
-
-###### Wiki / playbooks
-- [[XP]] _(`wiki/holdings/XP.md`)_
-
-###### Archived stories
-- [[XP_STORY_2026-05-01]] _(`dossiers/archive/XP_STORY_2026-05-01.md`)_
-
-###### Other
-- [[XP]] _(`hubs/XP.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama XP --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive XP --save-obsidian # V10 4-layer pipeline
-ii verdict XP --narrate --write
-ii fv XP                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker XP # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$        631 | US$        945 | US$      1,162 |
+  |  10y  | US$      1,015 | US$      2,263 | US$      3,413 |
+  |  15y  | US$      1,638 | US$      5,417 | US$     10,009 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\XP.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP.md` (cemetery archive)_
 
 #### XP — XP Inc
 
@@ -1122,7 +1005,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\XP_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP_DOSSIE.md` (cemetery archive)_
 
 #### 📑 XP — XP Inc
 
@@ -1210,7 +1093,7 @@ XP negoceia P/E 10.12, DY 0.91% e ROE 23.71% com YoY +23.7% — broker BR listad
 *Generated by `ii dossier XP` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\XP_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — XP
 
@@ -1302,7 +1185,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\XP_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — XP
 
@@ -1336,7 +1219,7 @@ _source: `tickers\XP_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\XP.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\XP.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

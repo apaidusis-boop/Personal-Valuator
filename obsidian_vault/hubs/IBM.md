@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\IBM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\IBM.md` (cemetery archive)_
 
 #### IBM — Pilot Deep Dive (2026-05-12)
 
@@ -79,7 +79,7 @@ _source: `Overnight_2026-05-13\IBM.md` (now in cemetery)_
 ### 2019
 
 #### 2019-11-12 · Filing 2019-11-12
-_source: `dossiers\IBM_FILING_2019-11-12.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\IBM_FILING_2019-11-12.md` (cemetery archive)_
 
 #### Filing dossier — [[IBM]] · 2019-11-12
 
@@ -122,7 +122,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\IBM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IBM.md` (cemetery archive)_
 
 #### IBM — International Business Machines
 
@@ -233,7 +233,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\IBM_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IBM_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — IBM
 

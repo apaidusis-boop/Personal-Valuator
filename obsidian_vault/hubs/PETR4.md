@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\PETR4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PETR4.md` (cemetery archive)_
 
 #### PETR4 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\PETR4.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-04 · Filing 2026-05-04
-_source: `dossiers\PETR4_FILING_2026-05-04.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PETR4_FILING_2026-05-04.md` (cemetery archive)_
 
 #### Filing dossier — [[PETR4]] · 2026-05-04
 
@@ -136,7 +136,7 @@ _Método: `graham_number`. Consensus fair = R$74.08. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Filing 2026-04-30
-_source: `dossiers\PETR4_FILING_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PETR4_FILING_2026-04-30.md` (cemetery archive)_
 
 #### Filing dossier — [[PETR4]] · 2026-04-30
 
@@ -192,7 +192,7 @@ _Método: `graham_number`. Consensus fair = R$73.73. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-22 · Other
-_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md` (now in cemetery)_
+_source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co.md`_
 
 #### 🎬 DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! ITSA4 MUDOU O PLANO? PETR4 LUCRA COM CONFLITOS? +CSMG3 BTLG11
 
@@ -235,7 +235,7 @@ _source: `videos\2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-it
 - **real_estate_cycle** bullish _(conf 0.85)_ — O fundo imobiliário BTLG11 está quitando galpões logísticos em São Paulo, aumentando sua exposição a áreas estratégicas da logística brasileira.
 
 #### 2026-04-20 · Other
-_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md` (now in cemetery)_
+_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md`_
 
 #### 🎬 PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CHEGANDO? VALE3 SUPERA EXPECTATIVA! B3SA3 +46% e EGIE3 2,7BI
 
@@ -286,7 +286,7 @@ _source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-c
 ### 2025
 
 #### 2025-07-18 · Other
-_source: `videos\2025-07-18_suno-noticias_petrobras-petr4-ja-tem-plano-b-asia-sera-a-nova-rota-se-trump-aplicar.md` (now in cemetery)_
+_source: `videos\2025-07-18_suno-noticias_petrobras-petr4-ja-tem-plano-b-asia-sera-a-nova-rota-se-trump-aplicar.md`_
 
 #### 🎬 PETROBRAS (PETR4) JÁ TEM PLANO B: Ásia será a nova rota se Trump aplicar tarifas?
 
@@ -314,7 +314,7 @@ _source: `videos\2025-07-18_suno-noticias_petrobras-petr4-ja-tem-plano-b-asia-se
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\PETR4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PETR4.md` (cemetery archive)_
 
 #### PETR4 — PETR4
 
@@ -493,7 +493,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\PETR4_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PETR4_DOSSIE.md` (cemetery archive)_
 
 #### 📑 PETR4 — Petrobras
 
@@ -638,7 +638,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=6 · themes=5_
 | 2026-05-13 | Virtual Asset | oil_cycle | bullish | A Petrobras alcançou um novo recorde de produção de diesel, o que melhora a segurança energética do Brasil e… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\PETR4_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PETR4_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — PETR4
 
@@ -780,7 +780,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=6 · themes=5_
 | 2026-05-13 | Virtual Asset | oil_cycle | bullish | A Petrobras alcançou um novo recorde de produção de diesel, o que melhora a segurança energética do Brasil e… |
 
 #### — · RI / disclosure
-_source: `tickers\PETR4_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PETR4_RI.md` (cemetery archive)_
 
 #### PETR4 — RI Quarterly Compare
 

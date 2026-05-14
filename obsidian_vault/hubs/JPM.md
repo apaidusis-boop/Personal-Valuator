@@ -7,7 +7,7 @@ currency: USD
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 17
+sources_merged: 16
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `17 sources merged`
+`sector: Financials` · `market: US` · `currency: USD` · `bucket: holdings` · `16 sources merged`
 
 ## 🎯 Hoje
 
@@ -27,13 +27,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\JPM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\JPM.md` (cemetery archive)_
 
 #### JPM — Pilot Deep Dive (2026-05-12)
 
@@ -79,8 +79,74 @@ _source: `Overnight_2026-05-13\JPM.md` (now in cemetery)_
     )
   File "C:\Users\paidu\investment-intellig
 
+#### 2026-05-09 · Deepdive (V10 4-layer)
+_generated 2026-05-09 14:37 · source: `reports/deepdive/JPM_deepdive_20260509_1437.json`_
+
+> Sector: ? · Country: ? · Price: ? 
+
+**Quality scores**
+
+| Score | Valor | Zona |
+|---|---|---|
+| Piotroski | -/9 | - |
+| Altman Z | - | - |
+| Beneish M | - | - |
+| Moat | -/10 | N/A |
+
+
+**Fundamentals**: P/E - · P/B - · EV/EBITDA - · DY - · ROE -
+
+**Delta vs análise anterior**
+
+```
+Delta Report — JPM | hoje vs run anterior (2026-05-08)
+```
+
+**Strategist dossier**
+
+# 1. Executive Summary
+- **Rating:** EVITAR
+- **Preço justo estimado e upside/downside %:** Não possível calcular devido à falta de dados quantitativos.
+- **Risk Score:** 10 (Altíssimo)
+- **Alerta vermelho:** Dados insuficientes para avaliar o Beneish M-Score ou Altman Z-Score, impossibilitando uma análise completa do risco.
+
+# 2. O Negócio
+- **Modelo de receita e fontes de caixa:** Não disponível.
+- **Moat (Network Effect / Switching Costs / Intangibles / Cost Adv):** Não possível avaliar sem dados específicos sobre o negócio da empresa.
+
+# 3. Decomposição DuPont
+- **ROE = Margem × Giro × Alavancagem:** Dados insuficientes para calcular.
+- **Identificar a alavanca dominante:** Não disponível devido à falta de dados financeiros.
+
+# 4. Valuation Multinível
+- **Graham Number:** Não aplicável sem informações específicas sobre o lucro por ação e P/B da empresa.
+- **DCF com 3 cenários (Bear / Base / Bull):** Impossível realizar sem dados financeiros futuros, incluindo fluxo de caixa livre projetado.
+- **EV/EBITDA vs mediana setor:** Não possível comparar sem informações sobre o múltiplo EV/EBITDA da empresa e do setor.
+
+# 5. Bear Case (mais agressivo se Piotroski < 5)
+- **3 maiores riscos com prob × impacto:**
+    - Risco de mercado em geral: Probabilidade alta, impacto significativo.
+    - Dados insuficientes para análise financeira detalhada: Probabilidade alta, impacto crítico na tomada de decisão.
+    - Possível fraude contábil ou irregularidades não detectadas: Probabilidade média-alta, impacto severo.
+- **Cenário de -40%:** Sem dados específicos sobre o negócio e a situação financeira da empresa, é impossível prever com precisão as consequências de uma queda de 40%. No entanto, considerando os riscos mencionados acima, seria razoável esperar um impacto significativo na liquidez e na capacidade operacional da empresa.
+
+# 6. Bull Case
+- **Catalisadores específicos com prazo:** Não disponível devido à falta de dados sobre o negócio.
+- **O que precisa acontecer para o preço dobrar em 3 anos?** Sem informações financeiras, não é possível identificar fatores específicos.
+
+# 7. Classificação Lynch
+- **Slow / Stalwart / Fast / Cyclical / Turnaround / Asset Play:** Não possível classificar sem dados sobre a natureza do negócio e desempenho histórico.
+- **2-3 argumentos objetivos:** Impossível fornecer devido à falta de informações.
+
+# 8. Veredicto Final
+- **Decisão com 3 critérios mensuráveis:**
+    - Dados financeiros insuficientes para avaliação.
+    - Risco elevado devido a incertezas e possíveis irregularidades contábeis.
+    - Não atende aos princípios básicos do value investing (Graham, Buffett, Klarman, Dalio).
+- **Position sizing:** Evitar. A falta de dados financeiros confiáveis e a alta probabilidade de riscos significativos indicam que esta é uma oportunidade de investimento inaceitável sob os critérios estabelecidos para value investing.
+
 #### 2026-05-07 · Filing 2026-05-07
-_source: `dossiers\JPM_FILING_2026-05-07.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_FILING_2026-05-07.md` (cemetery archive)_
 
 #### Filing dossier — [[JPM]] · 2026-05-07
 
@@ -132,7 +198,7 @@ _(sem deltas — fonte ausente: BR precisa quarterly_single, US ainda não wired
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-01 · Council review · Hank Tier-One
-_source: `agents\Hank Tier-One\reviews\JPM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
 #### Hank Tier-One sobre [[JPM_STORY|JPM]]
 
@@ -179,7 +245,7 @@ JPM tem um P/E de 14.98, inferior ao setor (15.75x), e ROE de 16.5%, acima da m�
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\JPM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[JPM_STORY|JPM]]
 
@@ -226,7 +292,7 @@ JPM tem P/E abaixo do setor (14.98 vs 15.75), ROE acima da média (16.5% vs 15.4
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\JPM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[JPM_STORY|JPM]]
 
@@ -273,7 +339,7 @@ JPM tem P/E abaixo do setor (14.98 vs mediana de 15.75x), ROE acima da média (1
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
 
 #### 2026-05-01 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\JPM_2026-05-01.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[JPM_STORY|JPM]]
 
@@ -323,58 +389,8 @@ JPM tem P/E abaixo da média do setor (14.98 vs 15.75), ROE acima (16.5% vs 15.4
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\JPM_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — JPM             moeda USD      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:              7
-  Entry price.........: US$      306.56
-  Cost basis..........: US$    2,145.89
-  Price now...........: US$      308.28
-  Market value now....: US$    2,157.96  [+0.6% nao-realizado]
-  DY t12m.............: 1.91%  (R$/US$ 5.9000/share)
-  DY vs own 10y.......: P12 [EXPENSIVE]  (actual 1.91% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=43  hist_g_5y=0.107  hist_g_raw=0.107  gordon_g=0.118  is_quality=True  capped=False
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +6.75%  |   -1.00% |   +7.66%       |
-  | base         |  +11.24%  |   +0.00% |  +13.16%       |
-  | optimista    |  +15.18%  |   +1.00% |  +18.09%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     23       |       32       |       10       |
-  | base         |     18       |       37       |        6       |
-  | optimista    |     15       |      >40       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | US$      3,146 | US$      4,042 | US$      5,009 |
-  |  10y  | US$      4,606 | US$      7,570 | US$     11,583 |
-  |  15y  | US$      6,779 | US$     14,178 | US$     26,685 |
-  --------------------------------------------------------------------------
-
 #### — · Other
-_source: `Clippings\JPM & Fool.md` (now in cemetery)_
+_source: `Clippings\JPM & Fool.md`_
 
 JPM Research, aqui onde teremos as nossas researches e comparações nosso potênciais e tudo mais. algo a se considerar a integrar com os prints que eu coloquei antes.
 
@@ -528,7 +544,7 @@ Krystal can’t really use this platform to target organs like liver, muscle, he
 *Tyler Crowe contributed to this report.*
 
 #### — · Dossier
-_source: `dossiers\JPM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM.md` (cemetery archive)_
 
 #### [[JPM]] — Dossier Deepdive (2026-05-09)
 
@@ -597,7 +613,7 @@ Delta Report — JPM | hoje vs run anterior (2026-05-08)
 *Generated by `ii deepdive JPM` em 2026-05-09T14:37:58.*
 
 #### — · Council aggregate
-_source: `dossiers\JPM_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[JPM_STORY|JPM]] (JPMorgan Chase)
 
@@ -867,10 +883,10 @@ Higher Investment Results Than Stocks an
      URL: https://www.reuters.com/business/finance/jpmorgan-marks-down-loan-portfolios-private-credit-groups-ft-reports-2026-03-11/
 [22] Tavily [Tue, 14 Ap]: REUTERS/Eduardo Munoz/File Photo Purchase Licensing Rights, opens new tab. April 14 (Reuters) - JPMorgan Chase (JPM.N), opens new tab reported a rise in first
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\JPM_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\JPM_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_STORY.md` (cemetery archive)_
 
 #### JPMorgan Chase — JPM
 
@@ -1045,135 +1061,60 @@ Os fundamentais atuais de JPMorgan Chase são robustos, com indicadores como o P
 ###### DCF — A âncora do valor
 | DCF | Não calculado 
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\JPM_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_STORY.md`)_
 
-#### — · Other
-_source: `hubs\JPM.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\JPM_drip.md` (cemetery archive)_
 
-#### JPM — JPMorgan Chase
+/============================================================================\
+|   DRIP SCENARIO — JPM             moeda USD      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre JPM, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:              7
+  Entry price.........: US$      306.56
+  Cost basis..........: US$    2,145.89
+  Price now...........: US$      308.28
+  Market value now....: US$    2,157.96  [+0.6% nao-realizado]
+  DY t12m.............: 1.91%  (R$/US$ 5.9000/share)
+  DY vs own 10y.......: P12 [EXPENSIVE]  (actual 1.91% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Financials` · `market: US` · `currency: USD`
+  kind=equity  streak=43  hist_g_5y=0.107  hist_g_raw=0.107  gordon_g=0.118  is_quality=True  capped=False
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +6.75%  |   -1.00% |   +7.66%       |
+  | base         |  +11.24%  |   +0.00% |  +13.16%       |
+  | optimista    |  +15.18%  |   +1.00% |  +18.09%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 7.0 @ entry 306.55571428571426
-- **Verdict (DB)**: `HOLD` (score 5.98, 2026-05-13)
-- **Último deepdive**: `JPM_deepdive_20260509_1437.json` (2026-05-09 14:37)
-- **Fundamentals** (2026-05-13): P/E 14.38 · P/B 2.34 · DY 2.0% · ROE 16.5% · Dividend streak 43 · Aristocrat yes
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     23       |       32       |       10       |
+  | base         |     18       |       37       |        6       |
+  | optimista    |     15       |      >40       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[JPM]] _(`Overnight_2026-05-13/JPM.md`)_
-- **2026-05-11** · Overnight → [[JPM]] _(`Overnight_2026-05-11/JPM.md`)_
-- **2026-05-10** · Pilot → [[JPM]] _(`Pilot_Deep_Dive_2026-05-10/JPM.md`)_
-- **2026-05-07** · Filing → [[JPM_FILING_2026-05-07]] _(`dossiers/JPM_FILING_2026-05-07.md`)_
-- **2026-05-01** · Dossier Archive → [[JPM_STORY_2026-05-01]] _(`dossiers/archive/JPM_STORY_2026-05-01.md`)_
-- **2026-05-01** · Review · Valentina Prudente → [[JPM_2026-05-01]] _(`agents/Valentina Prudente/reviews/JPM_2026-05-01.md`)_
-- **2026-05-01** · Review · Pedro Alocação → [[JPM_2026-05-01]] _(`agents/Pedro Alocação/reviews/JPM_2026-05-01.md`)_
-- **2026-05-01** · Review · Mariana Macro → [[JPM_2026-05-01]] _(`agents/Mariana Macro/reviews/JPM_2026-05-01.md`)_
-- **2026-05-01** · Review · Hank Tier-One → [[JPM_2026-05-01]] _(`agents/Hank Tier-One/reviews/JPM_2026-05-01.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[JPM]] _(`wiki/holdings/JPM.md`)_
-- **—** · Variant → [[JPM_VARIANT]] _(`tickers/JPM_VARIANT.md`)_
-- **—** · Story → [[JPM_STORY]] _(`dossiers/JPM_STORY.md`)_
-- **—** · Panorama → [[JPM]] _(`tickers/JPM.md`)_
-- **—** · Other → [[JPM]] _(`hubs/JPM.md`)_
-- **—** · Other → [[JPM]] _(`dossiers/JPM.md`)_
-- **—** · Ic Debate → [[JPM_IC_DEBATE]] _(`tickers/JPM_IC_DEBATE.md`)_
-- **—** · Drip → [[JPM_drip]] _(`briefings/drip_scenarios/JPM_drip.md`)_
-- **—** · Deepdive Json → [[JPM_deepdive_20260509_1437]] _(`reports/deepdive/JPM_deepdive_20260509_1437.json`)_
-- **—** · Deepdive → [[JPM_DOSSIE]] _(`tickers/JPM_DOSSIE.md`)_
-- **—** · Council → [[JPM_COUNCIL]] _(`dossiers/JPM_COUNCIL.md`)_
-- **—** · Clipping → [[JPM & Fool]] _(`Clippings/JPM & Fool.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[JPM]] _(`tickers/JPM.md`)_
-
-###### Deepdive (DOSSIE)
-- [[JPM_DOSSIE]] _(`tickers/JPM_DOSSIE.md`)_
-
-###### Deepdive JSON snapshots
-- [[JPM_deepdive_20260509_1437]] _(`reports/deepdive/JPM_deepdive_20260509_1437.json`)_
-
-###### Story
-- [[JPM_STORY]] _(`dossiers/JPM_STORY.md`)_
-
-###### Council aggregate
-- [[JPM_COUNCIL]] _(`dossiers/JPM_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Hank Tier-One_:
-- [[JPM_2026-05-01]] _(`agents/Hank Tier-One/reviews/JPM_2026-05-01.md`)_
-
-_Mariana Macro_:
-- [[JPM_2026-05-01]] _(`agents/Mariana Macro/reviews/JPM_2026-05-01.md`)_
-
-_Pedro Alocação_:
-- [[JPM_2026-05-01]] _(`agents/Pedro Alocação/reviews/JPM_2026-05-01.md`)_
-
-_Valentina Prudente_:
-- [[JPM_2026-05-01]] _(`agents/Valentina Prudente/reviews/JPM_2026-05-01.md`)_
-
-###### IC Debate (synthetic)
-- [[JPM_IC_DEBATE]] _(`tickers/JPM_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[JPM_VARIANT]] _(`tickers/JPM_VARIANT.md`)_
-
-###### Filings individuais
-- [[JPM_FILING_2026-05-07]] _(`dossiers/JPM_FILING_2026-05-07.md`)_
-
-###### Overnight scrapes
-- [[JPM]] _(`Overnight_2026-05-13/JPM.md`)_
-- [[JPM]] _(`Overnight_2026-05-11/JPM.md`)_
-
-###### Pilot deep dives
-- [[JPM]] _(`Pilot_Deep_Dive_2026-05-10/JPM.md`)_
-
-###### DRIP scenarios
-- [[JPM_drip]] _(`briefings/drip_scenarios/JPM_drip.md`)_
-
-###### Wiki / playbooks
-- [[JPM]] _(`wiki/holdings/JPM.md`)_
-
-###### Clippings
-- [[JPM & Fool]] _(`Clippings/JPM & Fool.md`)_
-
-###### Archived stories
-- [[JPM_STORY_2026-05-01]] _(`dossiers/archive/JPM_STORY_2026-05-01.md`)_
-
-###### Other
-- [[JPM]] _(`dossiers/JPM.md`)_
-- [[JPM]] _(`hubs/JPM.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama JPM --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive JPM --save-obsidian # V10 4-layer pipeline
-ii verdict JPM --narrate --write
-ii fv JPM                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker JPM # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | US$      3,146 | US$      4,042 | US$      5,009 |
+  |  10y  | US$      4,606 | US$      7,570 | US$     11,583 |
+  |  15y  | US$      6,779 | US$     14,178 | US$     26,685 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\JPM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM.md` (cemetery archive)_
 
 #### JPM — JPMorgan Chase
 
@@ -1345,7 +1286,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\JPM_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM_DOSSIE.md` (cemetery archive)_
 
 #### 📑 JPM — JPMorgan Chase
 
@@ -1457,7 +1398,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=5_
 | 2026-05-13 | Bloomberg Television | real_estate_cycle | neutral | Apesar da incerteza política e econômica, Brookfield Real Estate continua ativo no mercado londrino, buscando… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\JPM_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — JPM
 
@@ -1573,7 +1514,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=5_
 | 2026-05-13 | Bloomberg Television | real_estate_cycle | neutral | Apesar da incerteza política e econômica, Brookfield Real Estate continua ativo no mercado londrino, buscando… |
 
 #### — · Variant perception
-_source: `tickers\JPM_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — JPM
 
@@ -1631,7 +1572,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=5 · analyst=0 · themes=5_
 | 2026-05-13 | Bloomberg Television | real_estate_cycle | neutral | Apesar da incerteza política e econômica, Brookfield Real Estate continua ativo no mercado londrino, buscando… |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\JPM.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\JPM.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[JPM]] — JPMorgan Chase
 

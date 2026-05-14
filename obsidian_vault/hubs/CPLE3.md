@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\CPLE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CPLE3.md` (cemetery archive)_
 
 #### CPLE3 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\CPLE3.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-08 · Content trigger
-_source: `dossiers\CPLE3_CONTENT_TRIGGER_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_CONTENT_TRIGGER_2026-05-08.md` (cemetery archive)_
 
 #### CPLE3 — Content Trigger 2026-05-08
 
@@ -116,7 +116,7 @@ Sugestão de fluxo:
 - Triggered by `auto_verdict_on_content.py` em 2026-05-08 19:50 UTC
 
 #### 2026-05-06 · Filing 2026-05-06
-_source: `dossiers\CPLE3_FILING_2026-05-06.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_FILING_2026-05-06.md` (cemetery archive)_
 
 #### Filing dossier — [[CPLE3]] · 2026-05-06
 
@@ -176,7 +176,7 @@ _Método: `graham_number`. Consensus fair = R$12.63. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-22 · Filing 2026-04-22
-_source: `dossiers\CPLE3_FILING_2026-04-22.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_FILING_2026-04-22.md` (cemetery archive)_
 
 #### Filing dossier — [[CPLE3]] · 2026-04-22
 
@@ -232,7 +232,7 @@ _Método: `graham_number`. Consensus fair = R$12.63. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-20 · Other
-_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md` (now in cemetery)_
+_source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa.md`_
 
 #### 🎬 PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CHEGANDO? VALE3 SUPERA EXPECTATIVA! B3SA3 +46% e EGIE3 2,7BI
 
@@ -283,7 +283,7 @@ _source: `videos\2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-c
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\CPLE3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\CPLE3.md` (cemetery archive)_
 
 #### CPLE3 — Copel
 
@@ -439,7 +439,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\CPLE3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\CPLE3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 CPLE3 — Copel
 
@@ -570,7 +570,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=2 · analyst=4 · themes=2_
 | 2026-04-20 | Virtual Asset | oil_cycle | neutral | Embora o Brent esteja subindo, os analistas projetam uma queda gradual dos preços do petróleo nos próximos an… |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\CPLE3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\CPLE3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — CPLE3
 
@@ -697,7 +697,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=2 · analyst=4 · themes=2_
 | 2026-04-20 | Virtual Asset | oil_cycle | neutral | Embora o Brent esteja subindo, os analistas projetam uma queda gradual dos preços do petróleo nos próximos an… |
 
 #### — · RI / disclosure
-_source: `tickers\CPLE3_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\CPLE3_RI.md` (cemetery archive)_
 
 #### CPLE3 — RI Quarterly Compare
 

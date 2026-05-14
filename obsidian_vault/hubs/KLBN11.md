@@ -7,7 +7,7 @@ currency: BRL
 bucket: research_pool
 is_holding: false
 generated: 2026-05-14
-sources_merged: 14
+sources_merged: 13
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Materials` · `market: BR` · `currency: BRL` · `bucket: research_pool` · `14 sources merged`
+`sector: Materials` · `market: BR` · `currency: BRL` · `bucket: research_pool` · `13 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\KLBN11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KLBN11.md` (cemetery archive)_
 
 #### KLBN11 — Pilot Deep Dive (2026-05-12)
 
@@ -72,7 +72,7 @@ _(zero events em DB)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-04-30 · Council review · Lourdes Aluguel
-_source: `agents\Lourdes Aluguel\reviews\KLBN11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
 #### Lourdes Aluguel sobre [[KLBN11_STORY|KLBN11]]
 
@@ -121,7 +121,7 @@ DY de 9.4% é atrativo comparado à média do setor (9.2%). Piotroski F-Score de
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\KLBN11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[KLBN11_STORY|KLBN11]]
 
@@ -169,7 +169,7 @@ A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\KLBN11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[KLBN11_STORY|KLBN11]]
 
@@ -218,7 +218,7 @@ KLBN11 trades at a premium P/E of 26.44x and P/B of 2.72x compared to sector med
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\KLBN11_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[KLBN11_STORY|KLBN11]]
 
@@ -265,7 +265,7 @@ A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-14 · Other
-_source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md` (now in cemetery)_
+_source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`_
 
 #### 🎬 KLABIN MUDOU O PLANO? NOVA ORDEM DE DIVIDENDOS E LUCROS! KLBN11 OU KLBN4? +PREÇO TETO
 
@@ -305,58 +305,8 @@ _source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-div
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\KLBN11_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — KLBN11          moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:          1.000
-  Entry price.........: R$       18.35
-  Cost basis..........: R$   18,350.00
-  Price now...........: R$       17.94
-  Market value now....: R$   17,940.00  [-2.2% nao-realizado]
-  DY t12m.............: 9.12%  (R$/US$ 1.6361/share)
-  DY vs own 10y.......: P99 [CHEAP]  (actual 9.12% em 112 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=fii  streak=12  hist_g=0.073  ipca_anchor=0.035
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +2.71%  |   -1.00% |  +10.83%       |
-  | base         |   +5.42%  |   +0.00% |  +14.54%       |
-  | optimista    |   +8.00%  |   +1.00% |  +18.12%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |     10       |        8       |        7       |
-  | base         |      9       |        8       |        6       |
-  | optimista    |      8       |        9       |        5       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     30,591 | R$     36,140 | R$     42,222 |
-  |  10y  | R$     53,295 | R$     72,804 | R$     97,558 |
-  |  15y  | R$     94,960 | R$    146,664 | R$    221,482 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\KLBN11_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[KLBN11_STORY|KLBN11]] (KLBN11)
 
@@ -588,10 +538,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://aijourn.com/klar-investors-have-opportunity-to-lead-klarna-group-plc-securities-fraud-lawsuit-with-the-schall-law-firm/
 [19] Tavily [Sun, 29 Ma]: # **WMK Investors Have Opportunity to Join Weis Markets, Inc. Fraud Investig
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\KLBN11_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\KLBN11_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_STORY.md` (cemetery archive)_
 
 #### KLBN11 — KLBN11
 
@@ -796,116 +746,60 @@ RATING: Hold
 ###### Pre-Mortem — Se esta tese falhar
 Valentina Prudente sinalizou que o risco de vencimento antecipado de dívidas após ajustes contábeis pode ser um gatilho para a queda do preço das ações. Além disso, Pedro Alocação destacou que um ROE abaixo da média do seto
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\KLBN11_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_STORY.md`)_
 
-#### — · Other
-_source: `hubs\KLBN11.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\KLBN11_drip.md` (cemetery archive)_
 
-#### KLBN11 — KLBN11
+/============================================================================\
+|   DRIP SCENARIO — KLBN11          moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre KLBN11, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:          1.000
+  Entry price.........: R$       18.35
+  Cost basis..........: R$   18,350.00
+  Price now...........: R$       17.94
+  Market value now....: R$   17,940.00  [-2.2% nao-realizado]
+  DY t12m.............: 9.12%  (R$/US$ 1.6361/share)
+  DY vs own 10y.......: P99 [CHEAP]  (actual 9.12% em 112 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Materials` · `market: BR` · `currency: BRL`
+  kind=fii  streak=12  hist_g=0.073  ipca_anchor=0.035
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +2.71%  |   -1.00% |  +10.83%       |
+  | base         |   +5.42%  |   +0.00% |  +14.54%       |
+  | optimista    |   +8.00%  |   +1.00% |  +18.12%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1059.0 @ entry 18.29
-- **Verdict (DB)**: `SELL` (score 3.02, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 25.43 · P/B 2.62 · DY 9.7% · ROE 5.5% · ND/EBITDA 3.87 · Dividend streak 12
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |     10       |        8       |        7       |
+  | base         |      9       |        8       |        6       |
+  | optimista    |      8       |        9       |        5       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[KLBN11]] _(`Overnight_2026-05-13/KLBN11.md`)_
-- **2026-05-11** · Overnight → [[KLBN11]] _(`Overnight_2026-05-11/KLBN11.md`)_
-- **2026-04-30** · Dossier Archive → [[KLBN11_STORY_2026-04-30]] _(`dossiers/archive/KLBN11_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[KLBN11_2026-04-30]] _(`agents/Valentina Prudente/reviews/KLBN11_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[KLBN11_2026-04-30]] _(`agents/Pedro Alocação/reviews/KLBN11_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[KLBN11_2026-04-30]] _(`agents/Mariana Macro/reviews/KLBN11_2026-04-30.md`)_
-- **2026-04-30** · Review · Lourdes Aluguel → [[KLBN11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/KLBN11_2026-04-30.md`)_
-- **2026-04-14** · Video → [[2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4]] _(`videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[KLBN11]] _(`wiki/holdings/KLBN11.md`)_
-- **—** · Variant → [[KLBN11_VARIANT]] _(`tickers/KLBN11_VARIANT.md`)_
-- **—** · Story → [[KLBN11_STORY]] _(`dossiers/KLBN11_STORY.md`)_
-- **—** · Panorama → [[KLBN11]] _(`tickers/KLBN11.md`)_
-- **—** · Other → [[KLBN11]] _(`hubs/KLBN11.md`)_
-- **—** · Ic Debate → [[KLBN11_IC_DEBATE]] _(`tickers/KLBN11_IC_DEBATE.md`)_
-- **—** · Drip → [[KLBN11_drip]] _(`briefings/drip_scenarios/KLBN11_drip.md`)_
-- **—** · Council → [[KLBN11_COUNCIL]] _(`dossiers/KLBN11_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[KLBN11]] _(`tickers/KLBN11.md`)_
-
-###### Story
-- [[KLBN11_STORY]] _(`dossiers/KLBN11_STORY.md`)_
-
-###### Council aggregate
-- [[KLBN11_COUNCIL]] _(`dossiers/KLBN11_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Lourdes Aluguel_:
-- [[KLBN11_2026-04-30]] _(`agents/Lourdes Aluguel/reviews/KLBN11_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[KLBN11_2026-04-30]] _(`agents/Mariana Macro/reviews/KLBN11_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[KLBN11_2026-04-30]] _(`agents/Pedro Alocação/reviews/KLBN11_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[KLBN11_2026-04-30]] _(`agents/Valentina Prudente/reviews/KLBN11_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[KLBN11_IC_DEBATE]] _(`tickers/KLBN11_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[KLBN11_VARIANT]] _(`tickers/KLBN11_VARIANT.md`)_
-
-###### Overnight scrapes
-- [[KLBN11]] _(`Overnight_2026-05-13/KLBN11.md`)_
-- [[KLBN11]] _(`Overnight_2026-05-11/KLBN11.md`)_
-
-###### DRIP scenarios
-- [[KLBN11_drip]] _(`briefings/drip_scenarios/KLBN11_drip.md`)_
-
-###### Wiki / playbooks
-- [[KLBN11]] _(`wiki/holdings/KLBN11.md`)_
-
-###### Video transcripts
-- [[2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4]] _(`videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4.md`)_
-
-###### Archived stories
-- [[KLBN11_STORY_2026-04-30]] _(`dossiers/archive/KLBN11_STORY_2026-04-30.md`)_
-
-###### Other
-- [[KLBN11]] _(`hubs/KLBN11.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama KLBN11 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive KLBN11 --save-obsidian # V10 4-layer pipeline
-ii verdict KLBN11 --narrate --write
-ii fv KLBN11                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker KLBN11 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     30,591 | R$     36,140 | R$     42,222 |
+  |  10y  | R$     53,295 | R$     72,804 | R$     97,558 |
+  |  15y  | R$     94,960 | R$    146,664 | R$    221,482 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\KLBN11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KLBN11.md` (cemetery archive)_
 
 #### KLBN11 — KLBN11
 
@@ -1062,7 +956,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\KLBN11_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KLBN11_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — KLBN11
 
@@ -1148,7 +1042,7 @@ RECENT MATERIAL NEWS (last 14d via Tavily):
 *100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
 
 #### — · Variant perception
-_source: `tickers\KLBN11_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KLBN11_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — KLBN11
 
@@ -1171,7 +1065,7 @@ _source: `tickers\KLBN11_VARIANT.md` (now in cemetery)_
 *100% Ollama local. Variant perception scan.*
 
 #### — · Wiki playbook
-_source: `wiki\holdings\KLBN11.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\KLBN11.md` (cemetery archive)_
 
 > ⚠️ **AUTO-DRAFT** (2026-04-25) — gerado por `holding_wiki_synthesizer.py` via
 > Ollama Qwen 14B local. Refinar com tese pessoal + memória de contexto que o

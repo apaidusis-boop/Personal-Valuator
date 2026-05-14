@@ -25,13 +25,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\EQTL3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EQTL3.md` (cemetery archive)_
 
 #### EQTL3 — Pilot Deep Dive (2026-05-12)
 
@@ -76,7 +76,7 @@ _source: `Overnight_2026-05-13\EQTL3.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\EQTL3_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\EQTL3_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[EQTL3]] · 2026-05-08
 
@@ -136,7 +136,7 @@ _Método: `graham_number`. Consensus fair = R$21.03. Our fair (mais conservador)
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Filing 2026-04-30
-_source: `dossiers\EQTL3_FILING_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\EQTL3_FILING_2026-04-30.md` (cemetery archive)_
 
 #### Filing dossier — [[EQTL3]] · 2026-04-30
 
@@ -195,7 +195,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 ### (undated)
 
 #### — · Panorama
-_source: `tickers\EQTL3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\EQTL3.md` (cemetery archive)_
 
 #### EQTL3 — EQTL3
 
@@ -345,7 +345,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\EQTL3_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\EQTL3_DOSSIE.md` (cemetery archive)_
 
 #### 📑 EQTL3 — Equatorial
 
@@ -457,7 +457,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
 | 2026-04-24 | XP | catalyst | bull | — | Equatorial aumentada +2% no Equity Brazil (mais descontada que Sabesp). |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\EQTL3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\EQTL3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — EQTL3
 
@@ -565,7 +565,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
 | 2026-04-24 | XP | catalyst | bull | — | Equatorial aumentada +2% no Equity Brazil (mais descontada que Sabesp). |
 
 #### — · RI / disclosure
-_source: `tickers\EQTL3_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\EQTL3_RI.md` (cemetery archive)_
 
 #### EQTL3 — RI Quarterly Compare
 

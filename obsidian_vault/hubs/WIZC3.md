@@ -24,13 +24,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\WIZC3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\WIZC3.md` (cemetery archive)_
 
 #### WIZC3 — Pilot Deep Dive (2026-05-12)
 
@@ -73,7 +73,7 @@ _(zero events em DB)_
 ### (undated)
 
 #### — · Other
-_source: `Clippings\Tese de WIZC3.md` (now in cemetery)_
+_source: `Clippings\Tese de WIZC3.md`_
 
 WIZC3Micron
 
@@ -250,10 +250,10 @@ As duas empresas que atuam na área são a Wiz Parceiros e a Promotiva, sendo a 
 
 A Promotiva é uma rede de correspondentes bancários com um contrato de exclusividade não-mútua com o Banco do Brasil até 2027. Isso significa que a empresa só pode conceder crédito para o banco estatal, enquanto o BB pode originar
 
-_… (truncated at 15k chars — full content in cemetery copy of `Clippings\Tese de WIZC3.md`)_
+_… (truncated at 15k chars — full content in `Clippings\Tese de WIZC3.md`)_
 
 #### — · Panorama
-_source: `tickers\WIZC3.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\WIZC3.md` (cemetery archive)_
 
 #### WIZC3 — WIZC3
 
@@ -383,7 +383,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · IC Debate (synthetic)
-_source: `tickers\WIZC3_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\WIZC3_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — WIZC3
 

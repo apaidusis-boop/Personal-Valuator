@@ -7,7 +7,7 @@ currency: BRL
 bucket: holdings
 is_holding: true
 generated: 2026-05-14
-sources_merged: 19
+sources_merged: 18
 tags: [hub, ticker, merged]
 parent: "[[_TICKERS_INDEX]]"
 ---
@@ -16,7 +16,7 @@ parent: "[[_TICKERS_INDEX]]"
 
 > **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
 
-`sector: Banks` · `market: BR` · `currency: BRL` · `bucket: holdings` · `19 sources merged`
+`sector: Banks` · `market: BR` · `currency: BRL` · `bucket: holdings` · `18 sources merged`
 
 ## 🎯 Hoje
 
@@ -26,13 +26,13 @@ parent: "[[_TICKERS_INDEX]]"
 
 ## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
 
-> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
 
 
 ### 2026
 
 #### 2026-05-13 · Overnight scrape
-_source: `Overnight_2026-05-13\BBDC4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BBDC4.md` (cemetery archive)_
 
 #### BBDC4 — Pilot Deep Dive (2026-05-12)
 
@@ -79,7 +79,7 @@ _source: `Overnight_2026-05-13\BBDC4.md` (now in cemetery)_
   File "C:\Users\paidu\investment-intellig
 
 #### 2026-05-08 · Filing 2026-05-08
-_source: `dossiers\BBDC4_FILING_2026-05-08.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-05-08.md` (cemetery archive)_
 
 #### Filing dossier — [[BBDC4]] · 2026-05-08
 
@@ -141,7 +141,7 @@ _Método: `br_bank_mult`. Consensus fair = R$21.30. Our fair (mais conservador) 
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-05-06 · Filing 2026-05-06
-_source: `dossiers\BBDC4_FILING_2026-05-06.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-05-06.md` (cemetery archive)_
 
 #### Filing dossier — [[BBDC4]] · 2026-05-06
 
@@ -203,7 +203,7 @@ _Método: `br_bank_mult`. Consensus fair = R$20.17. Our fair (mais conservador) 
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-30 · Council review · Diego Bancário
-_source: `agents\Diego Bancário\reviews\BBDC4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
 #### Diego Bancário sobre [[BBDC4_STORY|BBDC4]]
 
@@ -250,7 +250,7 @@ A Bradesco oferece P/E de 9.07 e P/B de 1.15, abaixo dos benchmarks do setor, co
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Mariana Macro
-_source: `agents\Mariana Macro\reviews\BBDC4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
 #### Mariana Macro sobre [[BBDC4_STORY|BBDC4]]
 
@@ -299,7 +299,7 @@ A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação at
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Pedro Alocação
-_source: `agents\Pedro Alocação\reviews\BBDC4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
 #### Pedro Alocação sobre [[BBDC4_STORY|BBDC4]]
 
@@ -347,7 +347,7 @@ A Bradesco oferece uma P/E de 9.07 e um DY de 7.8%, abaixo da média do setor, i
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Council review · Valentina Prudente
-_source: `agents\Valentina Prudente\reviews\BBDC4_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
 #### Valentina Prudente sobre [[BBDC4_STORY|BBDC4]]
 
@@ -396,7 +396,7 @@ A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e 
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
 
 #### 2026-04-30 · Filing 2026-04-30
-_source: `dossiers\BBDC4_FILING_2026-04-30.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-04-30.md` (cemetery archive)_
 
 #### Filing dossier — [[BBDC4]] · 2026-04-30
 
@@ -458,7 +458,7 @@ _Método: `br_bank_mult`. Consensus fair = R$20.17. Our fair (mais conservador) 
 _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engines: `analytics.data_confidence`, `analytics.quarter_delta`, `scoring.fair_value` (com `scoring._safety` per-sector margins)._
 
 #### 2026-04-16 · Other
-_source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md` (now in cemetery)_
+_source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`_
 
 #### 🎬 BBDC3 OU BBDC4? O BANCO MAIS BARATO COM 14,5 BI DE DIVIDENDOS E +70% DE ALTA? +PREÇO TETO
 
@@ -497,58 +497,8 @@ _source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com
 
 ### (undated)
 
-#### — · DRIP scenarios
-_source: `briefings\drip_scenarios\BBDC4_drip.md` (now in cemetery)_
-
-/============================================================================\
-|   DRIP SCENARIO — BBDC4           moeda BRL      data 26/04/2026           |
-\============================================================================/
-
-  POSICAO
-  ------------------------------------------------------------
-  Shares..............:          1.828
-  Entry price.........: R$       16.08
-  Cost basis..........: R$   29,394.24
-  Price now...........: R$       19.92
-  Market value now....: R$   36,413.76  [+23.9% nao-realizado]
-  DY t12m.............: 7.56%  (R$/US$ 1.5057/share)
-  DY vs own 10y.......: P76 [CHEAP]  (actual 7.56% em 121 obs mensais) — entry-timing, NAO stock-picker
-
-  kind=equity  streak=19  hist_g_5y=0.120  hist_g_raw=0.169  gordon_g=0.040  is_quality=True  capped=True
-
-  ASSUMPTIONS POR CENARIO
-  --------------------------------------------------------------------------
-  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
-  --------------------------------------------------------------------------
-  | conservador  |   +4.81%  |   -1.00% |  +11.37%       |
-  | base         |   +8.02%  |   +0.00% |  +15.57%       |
-  | optimista    |  +10.82%  |   +1.00% |  +19.38%       |
-  --------------------------------------------------------------------------
-
-  PAYBACK MILESTONES (anos)
-  --------------------------------------------------------------------------
-  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
-  --------------------------------------------------------------------------
-  | conservador  |      9       |       10       |        5       |
-  | base         |      8       |       10       |        4       |
-  | optimista    |      7       |       10       |        3       |
-  --------------------------------------------------------------------------
-
-  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
-  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
-  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
-
-  PROJECCAO DRIP — valor final de mercado por horizonte
-  --------------------------------------------------------------------------
-  | HORZ  | conservador  | base         | optimista    |
-  --------------------------------------------------------------------------
-  |   5y  | R$     63,846 | R$     77,077 | R$     90,795 |
-  |  10y  | R$    113,944 | R$    163,150 | R$    223,004 |
-  |  15y  | R$    207,145 | R$    345,340 | R$    539,865 |
-  --------------------------------------------------------------------------
-
 #### — · Council aggregate
-_source: `dossiers\BBDC4_COUNCIL.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md` (cemetery archive)_
 
 #### Council Debate — [[BBDC4_STORY|BBDC4]] (Bradesco)
 
@@ -792,10 +742,10 @@ RESEARCH BRIEFING (Ulisses Navegador puxou da casa):
      URL: https://thefintechtimes.com/the-fintech-landscape-of-brazil-in-2026/
 [20] Tavily [Thu, 23 Ap]: # Ecopetrol to acquire stake in Brazil’s Brava Energia, targets controlling interest. (WO) - **Ecopetrol** has agreed to acquire an initial equity stake in **Brava Energia** as part of a broader plan to secure a controlling interest and expand i
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BBDC4_COUNCIL.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md`)_
 
 #### — · Story
-_source: `dossiers\BBDC4_STORY.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_STORY.md` (cemetery archive)_
 
 #### Bradesco — BBDC4
 
@@ -982,136 +932,60 @@ O perfil filosófico da Bradesco é predominantemente orientado para dividendos 
 ###### O que o preço desconta
 O atual preço da Bradesco já incorpora uma avaliação atrativa em relação à média do setor financeiro brasileiro, refletida no P/E de 9.07 e ROE de 13.8%. Além disso, a pressão macroeconômica é um fator conhecido que o mercado já considera na precifica
 
-_… (truncated at 15k chars — full content in cemetery copy of `dossiers\BBDC4_STORY.md`)_
+_… (truncated at 15k chars — full content in `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_STORY.md`)_
 
-#### — · Other
-_source: `hubs\BBDC4.md` (now in cemetery)_
+#### — · DRIP scenarios
+_source: `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BBDC4_drip.md` (cemetery archive)_
 
-#### BBDC4 — Bradesco
+/============================================================================\
+|   DRIP SCENARIO — BBDC4           moeda BRL      data 26/04/2026           |
+\============================================================================/
 
-> **Hub consolidado**. Tudo o que existe no vault sobre BBDC4, em ordem cronológica. Cada link aponta para o ficheiro original que ficou na sua pasta — esta é a porta de entrada matinal.
+  POSICAO
+  ------------------------------------------------------------
+  Shares..............:          1.828
+  Entry price.........: R$       16.08
+  Cost basis..........: R$   29,394.24
+  Price now...........: R$       19.92
+  Market value now....: R$   36,413.76  [+23.9% nao-realizado]
+  DY t12m.............: 7.56%  (R$/US$ 1.5057/share)
+  DY vs own 10y.......: P76 [CHEAP]  (actual 7.56% em 121 obs mensais) — entry-timing, NAO stock-picker
 
-`sector: Banks` · `market: BR` · `currency: BRL`
+  kind=equity  streak=19  hist_g_5y=0.120  hist_g_raw=0.169  gordon_g=0.040  is_quality=True  capped=True
 
-##### 🎯 Hoje
+  ASSUMPTIONS POR CENARIO
+  --------------------------------------------------------------------------
+  | SCENARIO     |   g_div/y   |   md/y    |  TR (DY+g+md)  |
+  --------------------------------------------------------------------------
+  | conservador  |   +4.81%  |   -1.00% |  +11.37%       |
+  | base         |   +8.02%  |   +0.00% |  +15.57%       |
+  | optimista    |  +10.82%  |   +1.00% |  +19.38%       |
+  --------------------------------------------------------------------------
 
-- **Posição**: 1837.0 @ entry 16.1
-- **Verdict (DB)**: `WATCH` (score 6.58, 2026-05-13)
-- **Fundamentals** (2026-05-13): P/E 8.40 · P/B 1.04 · DY 8.6% · ROE 13.4% · Dividend streak 19
+  PAYBACK MILESTONES (anos)
+  --------------------------------------------------------------------------
+  | SCENARIO     | CASH payback | DRIP 2x shares | DRIP 2x wealth |
+  --------------------------------------------------------------------------
+  | conservador  |      9       |       10       |        5       |
+  | base         |      8       |       10       |        4       |
+  | optimista    |      7       |       10       |        3       |
+  --------------------------------------------------------------------------
 
-##### 📜 Histórico (chronological journal)
+  Cash payback    : sem reinvest, Sigma divs recebidos = cost_basis
+  DRIP 2x shares  : com reinvest, shares_t >= 2 x shares_0
+  DRIP 2x wealth  : com reinvest, value_t >= 2 x cost_basis
 
-> Como a vista sobre este nome evoluiu — do primeiro screen ao deepdive mais recente. Útil para perceber **o que sabíamos antes vs o que sabemos agora**.
-
-
-###### 2026
-
-- **2026-05-13** · Overnight → [[BBDC4]] _(`Overnight_2026-05-13/BBDC4.md`)_
-- **2026-05-11** · Overnight → [[BBDC4]] _(`Overnight_2026-05-11/BBDC4.md`)_
-- **2026-05-10** · Pilot → [[BBDC4]] _(`Pilot_Deep_Dive_2026-05-10/BBDC4.md`)_
-- **2026-05-08** · Filing → [[BBDC4_FILING_2026-05-08]] _(`dossiers/BBDC4_FILING_2026-05-08.md`)_
-- **2026-05-06** · Filing → [[BBDC4_FILING_2026-05-06]] _(`dossiers/BBDC4_FILING_2026-05-06.md`)_
-- **2026-04-30** · Filing → [[BBDC4_FILING_2026-04-30]] _(`dossiers/BBDC4_FILING_2026-04-30.md`)_
-- **2026-04-30** · Dossier Archive → [[BBDC4_STORY_2026-04-30]] _(`dossiers/archive/BBDC4_STORY_2026-04-30.md`)_
-- **2026-04-30** · Review · Valentina Prudente → [[BBDC4_2026-04-30]] _(`agents/Valentina Prudente/reviews/BBDC4_2026-04-30.md`)_
-- **2026-04-30** · Review · Pedro Alocação → [[BBDC4_2026-04-30]] _(`agents/Pedro Alocação/reviews/BBDC4_2026-04-30.md`)_
-- **2026-04-30** · Review · Mariana Macro → [[BBDC4_2026-04-30]] _(`agents/Mariana Macro/reviews/BBDC4_2026-04-30.md`)_
-- **2026-04-30** · Review · Diego Bancário → [[BBDC4_2026-04-30]] _(`agents/Diego Bancário/reviews/BBDC4_2026-04-30.md`)_
-- **2026-04-16** · Video → [[2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al]] _(`videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`)_
-
-###### (undated)
-
-- **—** · Wiki → [[BBDC4]] _(`wiki/holdings/BBDC4.md`)_
-- **—** · Variant → [[BBDC4_VARIANT]] _(`tickers/BBDC4_VARIANT.md`)_
-- **—** · Story → [[BBDC4_STORY]] _(`dossiers/BBDC4_STORY.md`)_
-- **—** · Ri → [[BBDC4_RI]] _(`tickers/BBDC4_RI.md`)_
-- **—** · Panorama → [[BBDC4]] _(`tickers/BBDC4.md`)_
-- **—** · Other → [[BBDC4]] _(`hubs/BBDC4.md`)_
-- **—** · Ic Debate → [[BBDC4_IC_DEBATE]] _(`tickers/BBDC4_IC_DEBATE.md`)_
-- **—** · Drip → [[BBDC4_drip]] _(`briefings/drip_scenarios/BBDC4_drip.md`)_
-- **—** · Deepdive → [[BBDC4_DOSSIE]] _(`tickers/BBDC4_DOSSIE.md`)_
-- **—** · Council → [[BBDC4_COUNCIL]] _(`dossiers/BBDC4_COUNCIL.md`)_
-
-##### 🗂️ Artefactos por categoria
-
-###### Panorama
-- [[BBDC4]] _(`tickers/BBDC4.md`)_
-
-###### Deepdive (DOSSIE)
-- [[BBDC4_DOSSIE]] _(`tickers/BBDC4_DOSSIE.md`)_
-
-###### Story
-- [[BBDC4_STORY]] _(`dossiers/BBDC4_STORY.md`)_
-
-###### Council aggregate
-- [[BBDC4_COUNCIL]] _(`dossiers/BBDC4_COUNCIL.md`)_
-
-###### Council reviews por persona
-
-_Diego Bancário_:
-- [[BBDC4_2026-04-30]] _(`agents/Diego Bancário/reviews/BBDC4_2026-04-30.md`)_
-
-_Mariana Macro_:
-- [[BBDC4_2026-04-30]] _(`agents/Mariana Macro/reviews/BBDC4_2026-04-30.md`)_
-
-_Pedro Alocação_:
-- [[BBDC4_2026-04-30]] _(`agents/Pedro Alocação/reviews/BBDC4_2026-04-30.md`)_
-
-_Valentina Prudente_:
-- [[BBDC4_2026-04-30]] _(`agents/Valentina Prudente/reviews/BBDC4_2026-04-30.md`)_
-
-###### IC Debate (synthetic)
-- [[BBDC4_IC_DEBATE]] _(`tickers/BBDC4_IC_DEBATE.md`)_
-
-###### Variant perception
-- [[BBDC4_VARIANT]] _(`tickers/BBDC4_VARIANT.md`)_
-
-###### RI / official disclosures
-- [[BBDC4_RI]] _(`tickers/BBDC4_RI.md`)_
-
-###### Filings individuais
-- [[BBDC4_FILING_2026-05-08]] _(`dossiers/BBDC4_FILING_2026-05-08.md`)_
-- [[BBDC4_FILING_2026-05-06]] _(`dossiers/BBDC4_FILING_2026-05-06.md`)_
-- [[BBDC4_FILING_2026-04-30]] _(`dossiers/BBDC4_FILING_2026-04-30.md`)_
-
-###### Overnight scrapes
-- [[BBDC4]] _(`Overnight_2026-05-13/BBDC4.md`)_
-- [[BBDC4]] _(`Overnight_2026-05-11/BBDC4.md`)_
-
-###### Pilot deep dives
-- [[BBDC4]] _(`Pilot_Deep_Dive_2026-05-10/BBDC4.md`)_
-
-###### DRIP scenarios
-- [[BBDC4_drip]] _(`briefings/drip_scenarios/BBDC4_drip.md`)_
-
-###### Wiki / playbooks
-- [[BBDC4]] _(`wiki/holdings/BBDC4.md`)_
-
-###### Video transcripts
-- [[2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al]] _(`videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al.md`)_
-
-###### Archived stories
-- [[BBDC4_STORY_2026-04-30]] _(`dossiers/archive/BBDC4_STORY_2026-04-30.md`)_
-
-###### Other
-- [[BBDC4]] _(`hubs/BBDC4.md`)_
-
-##### ⚙️ Refresh commands
-
-```bash
-ii panorama BBDC4 --write       # aggregator (verdict+peers+notes+videos)
-ii deepdive BBDC4 --save-obsidian # V10 4-layer pipeline
-ii verdict BBDC4 --narrate --write
-ii fv BBDC4                      # fair value (Buffett-Graham conservative)
-python -m analytics.fair_value_forward --ticker BBDC4 # quality-aware forward
-```
-
----
-
-_Regenerado por `scripts/build_ticker_hubs.py`. Run novamente para refresh._
+  PROJECCAO DRIP — valor final de mercado por horizonte
+  --------------------------------------------------------------------------
+  | HORZ  | conservador  | base         | optimista    |
+  --------------------------------------------------------------------------
+  |   5y  | R$     63,846 | R$     77,077 | R$     90,795 |
+  |  10y  | R$    113,944 | R$    163,150 | R$    223,004 |
+  |  15y  | R$    207,145 | R$    345,340 | R$    539,865 |
+  --------------------------------------------------------------------------
 
 #### — · Panorama
-_source: `tickers\BBDC4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4.md` (cemetery archive)_
 
 #### BBDC4 — Bradesco
 
@@ -1318,7 +1192,7 @@ tension: 0.3
 *Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
 
 #### — · Deepdive (DOSSIE)
-_source: `tickers\BBDC4_DOSSIE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4_DOSSIE.md` (cemetery archive)_
 
 #### 📑 BBDC4 — Bradesco
 
@@ -1551,7 +1425,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=8 · themes=5_
 | 2026-04-16 | Virtual Asset | banking_br | neutral | A inadimplência e as despesas com PDDs aumentaram, o que causou preocupação no mercado. |
 
 #### — · IC Debate (synthetic)
-_source: `tickers\BBDC4_IC_DEBATE.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4_IC_DEBATE.md` (cemetery archive)_
 
 #### 🏛️ Synthetic IC Debate — BBDC4
 
@@ -1689,7 +1563,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=8 · themes=5_
 | 2026-04-16 | Virtual Asset | banking_br | neutral | A inadimplência e as despesas com PDDs aumentaram, o que causou preocupação no mercado. |
 
 #### — · RI / disclosure
-_source: `tickers\BBDC4_RI.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4_RI.md` (cemetery archive)_
 
 #### BBDC4 — RI Quarterly Compare
 
@@ -1769,7 +1643,7 @@ tension: 0.3
 *Auto-generated by `library.ri.compare_releases` from CVM official data.*
 
 #### — · Variant perception
-_source: `tickers\BBDC4_VARIANT.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4_VARIANT.md` (cemetery archive)_
 
 #### 🎯 Variant Perception — BBDC4
 
@@ -1857,7 +1731,7 @@ _Auto-gerado · 2026-05-13 20:46 UTC · yt=10 · analyst=8 · themes=5_
 | 2026-04-16 | Virtual Asset | banking_br | neutral | A inadimplência e as despesas com PDDs aumentaram, o que causou preocupação no mercado. |
 
 #### — · Wiki playbook
-_source: `wiki\holdings\BBDC4.md` (now in cemetery)_
+_source: `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BBDC4.md` (cemetery archive)_
 
 #### 🎯 Thesis: [[BBDC4]] — Bradesco
 

@@ -150,19 +150,150 @@ def file_matches_ticker(path: Path, ticker: str) -> bool:
     return bool(re.search(rf"(?:^|/){re.escape(tk)}(?:[_\-\.\s/]|$)", path_upper))
 
 
+def _rel_for_classify(p: Path, base: Path) -> Path:
+    """Return a path under obsidian_vault/ semantic regardless of whether the
+    file currently lives in vault or in cemetery/<DATE>/ABSORBED-*/.
+
+    For `cemetery/2026-05-14/ABSORBED-dossiers/dossiers/JNJ_STORY.md`, returns
+    `dossiers/JNJ_STORY.md` so the categorizer sees the original vault location.
+    """
+    parts = p.parts
+    if "obsidian_vault" in parts:
+        idx = parts.index("obsidian_vault")
+        return Path(*parts[idx + 1:])
+    # Cemetery: cemetery/<DATE>/ABSORBED-<bucket>/<original_path_segments>
+    # The buried files keep their original path AFTER the ABSORBED-* dir
+    if parts and parts[0] == "cemetery":
+        # find first ABSORBED-* part
+        for i, seg in enumerate(parts):
+            if isinstance(seg, str) and seg.startswith("ABSORBED-"):
+                return Path(*parts[i + 1:])
+    try:
+        return p.relative_to(base)
+    except ValueError:
+        return Path(p.name)
+
+
 def collect_artifacts(ticker: str) -> list[tuple[Path, str, str | None, str]]:
-    """Return list of (path, category, iso_date, label)."""
+    """Return list of (path, category, iso_date, label).
+
+    Scans vault for current sources + cemetery/<DATE>/ABSORBED-*/ for already-buried
+    per-ticker content. Cemetery scan preserves historical journal across rebuilds.
+    """
     items: list[tuple[Path, str, str | None, str]] = []
+    # 1) Live vault sources
     for p in VAULT.rglob("*.md"):
         if "cemetery" in p.parts:
             continue
-        if p.parts and p.parts[0] == "hubs":
-            continue
         rel = p.relative_to(VAULT)
+        if rel.parts and rel.parts[0] == "hubs":
+            continue
         if file_matches_ticker(rel, ticker):
             cat, iso, label = categorize(rel, ticker.upper())
             items.append((p, cat, iso, label))
+    # 2) Buried per-ticker content (cemetery preserves history)
+    cemetery_root = Path("cemetery")
+    if cemetery_root.exists():
+        for date_dir in cemetery_root.iterdir():
+            if not date_dir.is_dir():
+                continue
+            for subdir in date_dir.iterdir():
+                if not subdir.is_dir() or not subdir.name.startswith("ABSORBED-"):
+                    continue
+                for p in subdir.rglob("*.md"):
+                    semantic_rel = _rel_for_classify(p, subdir)
+                    if file_matches_ticker(semantic_rel, ticker):
+                        cat, iso, label = categorize(semantic_rel, ticker.upper())
+                        items.append((p, cat, iso, label))
     return items
+
+
+def deepdive_sections_from_json(ticker: str, max_history: int = 5) -> list[tuple[str, str]]:
+    """Read reports/deepdive/<TK>_deepdive_*.json and emit (iso_date, rendered_section).
+
+    Keeps the most recent `max_history` runs to avoid hub bloat. Each section is
+    a markdown block ready to embed in the journal.
+    """
+    out: list[tuple[str, str]] = []
+    files = sorted(Path("reports/deepdive").glob(f"{ticker}_deepdive_*.json"), reverse=True)
+    # De-duplicate: only the most recent run per date
+    seen_dates: set[str] = set()
+    files_deduped: list[Path] = []
+    for f in files:
+        m = re.search(r"_deepdive_(\d{8})_", f.stem)
+        if not m:
+            continue
+        ymd = m.group(1)
+        iso = f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:8]}"
+        if iso in seen_dates:
+            continue
+        seen_dates.add(iso)
+        files_deduped.append(f)
+    for f in files_deduped[:max_history]:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8", errors="ignore"))
+        except Exception:
+            continue
+        # Parse timestamp from filename: <TK>_deepdive_YYYYMMDD_HHMM.json
+        m = re.search(r"_deepdive_(\d{8})_(\d{4})", f.stem)
+        if not m:
+            continue
+        ymd, hm = m.groups()
+        iso = f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:8]}"
+        time_str = f"{hm[:2]}:{hm[2:]}"
+
+        audit = data.get("audit", {}) or {}
+        scout = data.get("scout", {}) or {}
+        meta = scout.get("meta") or {}
+        p = audit.get("piotroski") or {}
+        a = audit.get("altman") or {}
+        b = audit.get("beneish") or {}
+        mo = audit.get("moat") or {}
+        mults = scout.get("multiples") or {}
+        prof = scout.get("profitability") or {}
+
+        summary_table = (
+            "| Score | Valor | Zona |\n"
+            "|---|---|---|\n"
+            f"| Piotroski | {(p.get('f_score') or p.get('score','-'))}/9 | {p.get('zone','-')} |\n"
+            f"| Altman Z | {a.get('z','-')} | {a.get('zone','-')} |\n"
+            f"| Beneish M | {b.get('m','-')} | {b.get('zone','-')} |\n"
+            f"| Moat | {mo.get('overall','-')}/10 | {mo.get('label','-')} |\n"
+        )
+        fundamentals = (
+            f"P/E {mults.get('pe_trailing','-')} · P/B {mults.get('pb','-')} · "
+            f"EV/EBITDA {mults.get('ev_ebitda','-')} · DY {mults.get('div_yield','-')} · "
+            f"ROE {prof.get('roe','-')}"
+        )
+        delta = data.get("delta") or "(sem delta vs análise anterior)"
+        dossier = data.get("dossier") or "*(dossier não gerado — flag --no-llm ou erro LLM)*"
+
+        lines = [
+            f"#### {iso} · Deepdive (V10 4-layer)",
+            f"_generated {iso} {time_str} · source: `reports/deepdive/{f.name}`_",
+            "",
+            f"> Sector: {meta.get('sector','?')} · Country: {meta.get('country','?')} · "
+            f"Price: {meta.get('price','?')} {meta.get('currency','')}",
+            "",
+            "**Quality scores**",
+            "",
+            summary_table,
+            "",
+            f"**Fundamentals**: {fundamentals}",
+            "",
+            "**Delta vs análise anterior**",
+            "",
+            "```",
+            (delta or "").strip(),
+            "```",
+            "",
+            "**Strategist dossier**",
+            "",
+            (dossier or "").strip(),
+            "",
+        ]
+        out.append((iso, "\n".join(lines)))
+    return out
 
 
 def strip_frontmatter(text: str) -> tuple[dict, str]:
@@ -319,45 +450,71 @@ def build_hub(ticker: str, meta_yaml: dict) -> str:
     # ── HISTÓRICO ─────────────────────────────────────────────
     lines.append("## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)")
     lines.append("")
-    lines.append("> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.")
+    lines.append("> Todas as fontes consolidadas (vault + JSON deepdives). Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.")
     lines.append("")
 
-    if not arts:
-        lines.append("_(sem fontes para absorver)_")
-    else:
-        last_year = None
-        for path, cat, iso, label in arts:
-            year = iso[:4] if iso else "(undated)"
-            if year != last_year:
-                lines.append(f"\n### {year}\n")
-                last_year = year
-            date_display = iso or "—"
-            rel = path.relative_to(VAULT)
-            lines.append(f"#### {date_display} · {label}")
-            lines.append(f"_source: `{rel}` (now in cemetery)_")
-            lines.append("")
+    # Merge: vault sources + deepdive JSON sections into one chronological stream
+    merged: list[tuple[str, str]] = []  # (iso_date, rendered_block)
+    seen_paths: set[str] = set()
+    for path, cat, iso, label in arts:
+        date_display = iso or "0000-00-00"
+        # Build a source label that works for both vault and cemetery paths
+        try:
+            rel_for_display = path.relative_to(VAULT)
+            source_note = f"_source: `{rel_for_display}`_"
+        except ValueError:
             try:
-                raw = path.read_text(encoding="utf-8", errors="ignore")
-            except Exception:
-                raw = ""
-            _, body = strip_frontmatter(raw)
-            body = body.strip()
-            # Skip body if essentially empty
-            if len(body) < 30:
-                lines.append("_(stub vazio ou quase vazio — sem conteúdo a absorver)_")
-                lines.append("")
-                continue
-            # Truncate giant files (>15k chars) to keep hub readable
+                rel_for_display = path.relative_to(Path.cwd())
+            except ValueError:
+                rel_for_display = path
+            source_note = f"_source: `{rel_for_display}` (cemetery archive)_"
+        # Deduplicate when the same content lives in both vault and cemetery
+        sem_rel = str(_rel_for_classify(path, path.parent))
+        if sem_rel in seen_paths:
+            continue
+        seen_paths.add(sem_rel)
+        block_lines = [
+            f"#### {iso or '—'} · {label}",
+            source_note,
+            "",
+        ]
+        try:
+            raw = path.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            raw = ""
+        _, body = strip_frontmatter(raw)
+        body = body.strip()
+        if len(body) < 30:
+            block_lines.append("_(stub vazio ou quase vazio — sem conteúdo a absorver)_")
+        else:
             truncated = False
             if len(body) > 15000:
                 body = body[:15000]
                 truncated = True
-            demoted = demote_headings(body, levels=3)
-            lines.append(demoted)
+            block_lines.append(demote_headings(body, levels=3))
             if truncated:
-                lines.append("")
-                lines.append(f"_… (truncated at 15k chars — full content in cemetery copy of `{rel}`)_")
-            lines.append("")
+                block_lines.append("")
+                block_lines.append(f"_… (truncated at 15k chars — full content in `{rel_for_display}`)_")
+        block_lines.append("")
+        merged.append((date_display, "\n".join(block_lines)))
+
+    # Inject deepdive sections from JSON (last 5 runs)
+    for iso, block in deepdive_sections_from_json(ticker, max_history=5):
+        merged.append((iso, block))
+
+    # Sort by date desc; ties broken by deepdive-before-vault-source (not critical)
+    merged.sort(key=lambda x: x[0], reverse=True)
+
+    if not merged:
+        lines.append("_(sem fontes para absorver)_")
+    else:
+        last_year = None
+        for iso, block in merged:
+            year = iso[:4] if iso and iso != "0000-00-00" else "(undated)"
+            if year != last_year:
+                lines.append(f"\n### {year}\n")
+                last_year = year
+            lines.append(block)
 
     # ── REFRESH ─────────────────────────────────────────────
     lines.append("## ⚙️ Refresh commands")
@@ -379,19 +536,29 @@ def main() -> None:
     universe = universe_tickers()
     print(f"Universe size: {len(universe)} tickers")
 
-    # Limit to tickers actually present in vault (any per-ticker file)
+    # Limit to tickers actually present in vault OR with a deepdive JSON OR with an existing hub
     present = set()
+    # Vault sources
     for tk in universe:
         for p in VAULT.rglob("*.md"):
             if "cemetery" in p.parts:
                 continue
-            if p.parts and p.parts[0] == "hubs":
-                continue
             rel = p.relative_to(VAULT)
+            if rel.parts and rel.parts[0] == "hubs":
+                continue
             if file_matches_ticker(rel, tk):
                 present.add(tk)
                 break
-    print(f"Tickers with vault content: {len(present)}")
+    # Deepdive JSON history
+    for p in Path("reports/deepdive").glob("*_deepdive_*.json"):
+        m = re.match(r"^([A-Z0-9.\-]+)_deepdive_", p.name)
+        if m and m.group(1) in universe:
+            present.add(m.group(1))
+    # Existing hubs (so we refresh them even if their vault sources are all in cemetery)
+    for p in HUBS.glob("*.md"):
+        if p.stem in universe:
+            present.add(p.stem)
+    print(f"Tickers with vault content / deepdive JSON / existing hub: {len(present)}")
 
     # Build hubs
     written = 0
