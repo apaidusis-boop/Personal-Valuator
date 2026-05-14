@@ -174,4 +174,4 @@ Se o founder tem que aprovar 20 actions iguais, o sistema falhou — não a UX.
 
 ---
 
-> **Ler também**: [[Helena Linha]] (persona) · [[Design_Watch]] (research weekly) · [[Claude_Design_Integration]] (Anthropic Labs prototyping fit) · [[CONSTITUTION]] (não-negociáveis da casa)
+> **Ler também**: [[design.lint]] (persona) · [[Design_Watch]] (research weekly) · [[Claude_Design_Integration]] (Anthropic Labs prototyping fit) · [[CONSTITUTION]] (não-negociáveis da casa)

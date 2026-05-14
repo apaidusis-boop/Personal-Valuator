@@ -74,7 +74,7 @@ _(zero events em DB)_
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[VGIR11_STORY|VGIR11]]
+#### Lourdes Aluguel sobre [[VGIR11|VGIR11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -103,15 +103,15 @@ VGIR11 oferece um DY de 15,7% e cinco anos consecutivos de pagamentos de dividen
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VGIR11_STORY|📖 Storytelling completo (8 actos)]]
-- [[VGIR11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[VGIR11|📖 Storytelling completo (8 actos)]]
+- [[VGIR11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -119,7 +119,7 @@ VGIR11 oferece um DY de 15,7% e cinco anos consecutivos de pagamentos de dividen
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[VGIR11_STORY|VGIR11]]
+#### Mariana Macro sobre [[VGIR11|VGIR11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -147,15 +147,15 @@ VGIR11 oferece yield de 15,7% e histórico de cinco anos de dividendos consecuti
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VGIR11_STORY|📖 Storytelling completo (8 actos)]]
-- [[VGIR11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[VGIR11|📖 Storytelling completo (8 actos)]]
+- [[VGIR11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -163,7 +163,7 @@ VGIR11 oferece yield de 15,7% e histórico de cinco anos de dividendos consecuti
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[VGIR11_STORY|VGIR11]]
+#### Pedro Alocação sobre [[VGIR11|VGIR11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -194,15 +194,15 @@ VGIR11 oferece um yield de 15,7% e cinco anos consecutivos de pagamentos de divi
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[VGIR11_STORY|📖 Storytelling completo (8 actos)]]
-- [[VGIR11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[VGIR11|📖 Storytelling completo (8 actos)]]
+- [[VGIR11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -210,7 +210,7 @@ VGIR11 oferece um yield de 15,7% e cinco anos consecutivos de pagamentos de divi
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VGIR11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[VGIR11_STORY|VGIR11]]
+#### Valentina Prudente sobre [[VGIR11|VGIR11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -241,15 +241,15 @@ VGIR11 oferece yield de 15,7% e cinco anos consecutivos de pagamentos de dividen
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VGIR11_STORY|📖 Storytelling completo (8 actos)]]
-- [[VGIR11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[VGIR11|📖 Storytelling completo (8 actos)]]
+- [[VGIR11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -260,7 +260,7 @@ VGIR11 oferece yield de 15,7% e cinco anos consecutivos de pagamentos de dividen
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[VGIR11_STORY|VGIR11]] (Valora CRI)
+#### Council Debate — [[VGIR11|VGIR11]] (Valora CRI)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -269,10 +269,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -290,7 +290,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _VGIR11 mantém histórico de dividendos e yield atraente_
@@ -306,7 +306,7 @@ VGIR11 oferece um DY de 15,7% e cinco anos consecutivos de pagamentos de dividen
 - Economia brasileira em crescimento
 - Possível desvalorização do ativo
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _VGIR11 mantém posição de compra com DY atraente_
@@ -322,7 +322,7 @@ VGIR11 oferece yield de 15,7% e histórico de cinco anos de dividendos consecuti
 - Economia brasileira em crescimento sustentado?
 - Sustentabilidade do preço atual (R$9,78) no longo prazo?
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _VGIR11 mantém sólida posição em dividendos_
@@ -338,7 +338,7 @@ VGIR11 oferece yield de 15,7% e cinco anos consecutivos de pagamentos de dividen
 - Possível sobrestimativa do preço atual (R$9,78)
 - Dependência da economia brasileira
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _VGIR11 mantém posição devido a DY elevado e histórico de dividendos_
@@ -356,20 +356,20 @@ VGIR11 oferece um yield de 15,7% e cinco anos consecutivos de pagamentos de divi
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
 - VGIR11 oferece yield de 15,7% e cinco anos consecutivos de pagamentos de dividendos, superando o mercado.
 - Mariana Macro
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
 - VGIR11 oferece um DY de 15,7% e cinco anos consecutivos de pagamentos de dividendos, superando o mercado. - Pedro Alocação
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -378,7 +378,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - Economia brasileira em crescimento sustentado? | Sustentabilidade do preço atual (R$9,78) no longo prazo? - Mariana Macro | Precisamos considerar que a economia brasileira é volátil e o preço atual pode não ser sustentável se houver uma mudança significativa nas condições econômicas.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -389,12 +389,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[VGIR11_STORY|📖 Storytelling completo (8 actos)]]
+- [[VGIR11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[VGIR11_2026-04-30|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[VGIR11_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[VGIR11_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[VGIR11_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[VGIR11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[VGIR11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[VGIR11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[VGIR11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -493,10 +493,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/VGIR11_2026-04-30.md`._
 
@@ -743,7 +743,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11.md` (cemetery arch
 - Sector: [[sectors/Papel_(CRI)|Papel (CRI)]]
 - Market: [[markets/BR|BR]]
 - Peers: [[KNCR11]] · [[MCCI11]] · [[RBRY11]] · [[RECR11]] · [[VGIP11]]
-- 🎯 **Thesis**: [[wiki/holdings/VGIR11|thesis deep]]
+- 🎯 **Thesis**: [[VGIR11|thesis deep]]
 
 ##### Snapshot
 
@@ -868,7 +868,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIR11_DOSSIE.md` (cemete
 
 #### 📑 VGIR11 — Valora CRI
 
-> Generated **2026-04-26** by `ii dossier VGIR11`. Cross-links: [[VGIR11]] · [[VGIR11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier VGIR11`. Cross-links: [[VGIR11]] · [[VGIR11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -886,7 +886,7 @@ VGIR11 é FII Papel/CRI (Valora) com **DY 15.63%** — top yield do bolso FII �
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[VGIR11_IC_DEBATE]]
+→ Detalhe: [[VGIR11]]
 
 ##### 3. Thesis
 

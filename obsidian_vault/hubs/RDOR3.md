@@ -348,7 +348,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RDOR3_DOSSIE.md` (cemeter
 
 #### 📑 RDOR3 — Rede D'Or
 
-> Generated **2026-04-26** by `ii dossier RDOR3`. Cross-links: [[RDOR3]] · [[RDOR3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RDOR3`. Cross-links: [[RDOR3]] · [[RDOR3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -366,7 +366,7 @@ RDOR3 negocia P/E 18.17 e P/B 4.41 com ROE 20.05% e DY excepcional de 11.03% (ac
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[RDOR3_IC_DEBATE]]
+→ Detalhe: [[RDOR3]]
 
 ##### 3. Thesis
 

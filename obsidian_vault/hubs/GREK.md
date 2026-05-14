@@ -116,7 +116,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GREK.md` (cemetery archiv
 
 - Sector: [[sectors/ETF|ETF]]
 - Market: [[markets/US|US]]
-- 🎯 **Thesis**: [[wiki/holdings/GREK|thesis deep]]
+- 🎯 **Thesis**: [[GREK|thesis deep]]
 
 ##### Snapshot
 
@@ -216,7 +216,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GREK_DOSSIE.md` (cemetery
 
 #### 📑 GREK — Global X MSCI Greece ETF
 
-> Generated **2026-04-26** by `ii dossier GREK`. Cross-links: [[GREK]] · [[GREK_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier GREK`. Cross-links: [[GREK]] · [[GREK]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -234,7 +234,7 @@ GREK (ETF Grécia) cota P/E 11.22, DY 3.25% e YoY +41.8% — beta Greek banking 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[GREK_IC_DEBATE]]
+→ Detalhe: [[GREK]]
 
 ##### Tutor
 

@@ -74,7 +74,7 @@ _(zero events em DB)_
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[KLBN11_STORY|KLBN11]]
+#### Lourdes Aluguel sobre [[KLBN11|KLBN11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -107,15 +107,15 @@ DY de 9.4% é atrativo comparado à média do setor (9.2%). Piotroski F-Score de
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KLBN11_STORY|📖 Storytelling completo (8 actos)]]
-- [[KLBN11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[KLBN11|📖 Storytelling completo (8 actos)]]
+- [[KLBN11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -123,7 +123,7 @@ DY de 9.4% é atrativo comparado à média do setor (9.2%). Piotroski F-Score de
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[KLBN11_STORY|KLBN11]]
+#### Mariana Macro sobre [[KLBN11|KLBN11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -155,15 +155,15 @@ A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KLBN11_STORY|📖 Storytelling completo (8 actos)]]
-- [[KLBN11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[KLBN11|📖 Storytelling completo (8 actos)]]
+- [[KLBN11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -171,7 +171,7 @@ A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém 
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[KLBN11_STORY|KLBN11]]
+#### Pedro Alocação sobre [[KLBN11|KLBN11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -204,15 +204,15 @@ KLBN11 trades at a premium P/E of 26.44x and P/B of 2.72x compared to sector med
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[KLBN11_STORY|📖 Storytelling completo (8 actos)]]
-- [[KLBN11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[KLBN11|📖 Storytelling completo (8 actos)]]
+- [[KLBN11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -220,7 +220,7 @@ KLBN11 trades at a premium P/E of 26.44x and P/B of 2.72x compared to sector med
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KLBN11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[KLBN11_STORY|KLBN11]]
+#### Valentina Prudente sobre [[KLBN11|KLBN11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -251,15 +251,15 @@ A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KLBN11_STORY|📖 Storytelling completo (8 actos)]]
-- [[KLBN11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[KLBN11|📖 Storytelling completo (8 actos)]]
+- [[KLBN11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -308,7 +308,7 @@ _source: `videos\2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-div
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[KLBN11_STORY|KLBN11]] (KLBN11)
+#### Council Debate — [[KLBN11|KLBN11]] (KLBN11)
 
 **Final stance**: 🟡 **HOLD**  
 **Confidence**: `low`  
@@ -317,10 +317,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -339,7 +339,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _KLBN11 mantém DY atraente e fundamentos sólidos_
@@ -355,7 +355,7 @@ DY de 9.4% é atrativo comparado à média do setor (9.2%). Piotroski F-Score de
 - Alavancagem elevada após ajustes contábeis
 - Risco de vencimento antecipado de dívidas
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _KLBN11 mantém dividendos atraentes mas apresenta riscos operacionais_
@@ -371,7 +371,7 @@ A Klabin oferece um DY de 9.4% e ROE de 14.6%, acima da média do setor, porém 
 - Aumento da alavancagem
 - Risco de vencimento antecipado de dívidas
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Klabin apresenta risco moderado de alavancagem e zona cinzenta do Altman Z-Score_
@@ -387,7 +387,7 @@ A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), 
 - Alavancagem alta após ajustes contábeis
 - Risco de vencimento antecipado de dívidas
 
-###### [[Pedro Alocação]] — 🔴 **AVOID**
+###### [[council.allocation]] — 🔴 **AVOID**
 _Capital Allocator_
 
 **Headline**: _Klabin overvalued with high leverage concerns_
@@ -405,7 +405,7 @@ KLBN11 trades at a premium P/E of 26.44x and P/B of 2.72x compared to sector med
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
@@ -416,7 +416,7 @@ _FIIs BR Specialist_
 - High leverage due to recent accounting adjustments | Risk of debt refinancing issues
 - Pedro Alocação - A alavancagem, embora aumentada, ainda está dentro dos limites aceitáveis para a empresa e não indica necessariamente risco de vencimento antecipado de dívidas
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -426,7 +426,7 @@ _Chief Macro Strategist_
 - ROE is below peer median — Pedro Alocação | O ROE, embora abaixo da mediana do setor, ainda está acima dos níveis históricos da Klabin e reflete sua capacidade de geração de lucros.
 - A empresa tem um Piotroski F-Score forte (6/9) e Beneish M-Score limpo (-2.55), mas o Altman Z-Score de 2.34 indica uma situação financeira instável — Valentina Prudente | O Z-Score da Altman em uma zona cinzenta não necessariamente reflete instabilidade, pois a empresa ainda tem um histórico sólido de pagamento de dividendos e geração de fluxo de caixa positivo.
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -435,7 +435,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - ROE is below peer median — Pedro Alocação | O ROE de 14.6% da Klabin, embora abaixo da mediana do setor, ainda indica uma geração de capital sólida para acionistas.
 
-###### [[Pedro Alocação]] — 🔴 **AVOID**
+###### [[council.allocation]] — 🔴 **AVOID**
 _Capital Allocator_
 
 **Concordou com**:
@@ -448,12 +448,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[KLBN11_STORY|📖 Storytelling completo (8 actos)]]
+- [[KLBN11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[KLBN11_2026-04-30|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[KLBN11_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[KLBN11_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[KLBN11_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[KLBN11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[KLBN11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[KLBN11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[KLBN11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -557,10 +557,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/KLBN11_2026-04-30.md`._
 
@@ -835,7 +835,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KLBN11.md` (cemetery arch
 - Sector: [[sectors/Materials|Materials]]
 - Market: [[markets/BR|BR]]
 - Peers: [[BRKM5]] · [[KLBN4]] · [[SUZB3]] · [[UNIP6]]
-- 🎯 **Thesis**: [[wiki/holdings/KLBN11|thesis deep]]
+- 🎯 **Thesis**: [[KLBN11|thesis deep]]
 
 ##### Snapshot
 

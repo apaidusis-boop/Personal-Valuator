@@ -44,7 +44,7 @@ obsidian_vault/hubs/
 
 **33 hubs · 12 BR + 21 US**.
 
-Estrutura de cada hub (exemplo [[hubs/JNJ]]):
+Estrutura de cada hub (exemplo [[JNJ]]):
 
 ```markdown
 ## 🎯 Hoje
@@ -218,7 +218,7 @@ Constraints honoured:
 7. **Sprint A explícito (do feedback de ontem)**: criar `research.auto-tag-clippings` (Ollama Qwen 14B sobre `vault/Clippings/` + `config/topic_watchlist.yaml`).
 
 ### Médio (sprints)
-8. **Renomeação opcional de pastas Council** com `git mv "Charlie Compounder/" "council.industrials-us/"` + sed sobre `[[Charlie Compounder]]` global. Trabalhoso mas torna a vault Obsidian-search 100% handle-first.
+8. **Renomeação opcional de pastas Council** com `git mv "Charlie Compounder/" "council.industrials-us/"` + sed sobre `[[council.industrials-us]]` global. Trabalhoso mas torna a vault Obsidian-search 100% handle-first.
 9. **Hubs com price chart embedded**: cada hub poderia ter `![[price_<TK>.svg]]` gerado por `scripts/refresh_ticker.py`. Visual.
 10. **Auto-update dos hubs no daily_run**: depois de cada `ii deepdive`, regenerar só o hub afectado.
 
@@ -235,7 +235,7 @@ Constraints honoured:
        ↓
 [[_TICKERS_INDEX]]               — 33 tickers, 1 linha cada, link directo
        ↓
-[[hubs/JNJ]]  [[hubs/BBDC4]]     — porta única por ticker
+[[JNJ]]  [[BBDC4]]     — porta única por ticker
        ↓
 Hoje + Histórico + Artefactos    — tudo dentro, scroll → ler → decidir
        ↓

@@ -206,7 +206,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RECR11_DOSSIE.md` (cemete
 
 #### 📑 RECR11 — REC Recebíveis Imob.
 
-> Generated **2026-04-26** by `ii dossier RECR11`. Cross-links: [[RECR11]] · [[RECR11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RECR11`. Cross-links: [[RECR11]] · [[RECR11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -224,7 +224,7 @@ RECR11 (REC Recebíveis Imob., segmento Papel/CRI) negoceia a BRL 82.76 com DY 1
 
 **🏛️ MIXED** (low confidence, 40.0% consensus)
 
-→ Detalhe: [[RECR11_IC_DEBATE]]
+→ Detalhe: [[RECR11]]
 
 ##### 3. Thesis
 

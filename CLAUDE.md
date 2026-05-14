@@ -138,13 +138,14 @@ de assumptions que tem subtilezas (damper, Gordon, quality flag, etc.).
 
 | Pergunta                                      | Comando existente |
 |---|---|
-| **Mega Helena** (design audit + skill curate + 4-path spikes) | `python agents/helena_mega.py [audit\|curate\|spike\|report\|all] [--dry-run]` — outputs em `obsidian_vault/skills/Helena_Mega/` |
+| **Mega Helena** (design audit + skill curate + 4-path spikes) | `python agents/helena_mega.py [audit\|curate\|spike\|report\|all] [--dry-run]` — outputs em `obsidian_vault/skills/design.lint_mega/` |
 | **Helena audit** (design system linter, DS001-DS009) | `python -m agents.helena.audit` |
-| **Helena Mega master report** (consolidator) | `python -m agents.helena.report` — escreve `obsidian_vault/skills/Helena_Mega/00_MASTER.md` (audit+curate+spike summary) |
+| **Helena Mega master report** (consolidator) | `python -m agents.helena.report` — escreve `obsidian_vault/skills/design.lint_mega/00_MASTER.md` (audit+curate+spike summary) |
 | **Ticker hubs build** (Wave 3 Deep Merge) | `python scripts/build_merged_hubs.py` — 1 hub mergeado por ticker em `obsidian_vault/hubs/<TK>.md` (absorve vault sources + reports/deepdive/*.json). Wired no `daily_run.bat`. Idempotente. |
 | **Tickers index master** | `python scripts/build_tickers_index.py` — 187 hubs em 6 secções no `obsidian_vault/_TICKERS_INDEX.md`. Wired no `daily_run.bat`. |
 | **Bury per-ticker sources** (Wave 3 cleanup) | `python scripts/bury_per_ticker_sources.py` — move dossiers/tickers/wiki/holdings/drip/overnight/etc per-ticker para `cemetery/YYYY-MM-DD/ABSORBED-*/`. Wired no `daily_run.bat` após build_merged_hubs. |
 | **Persona purge** (Wave 3, one-shot) | `python scripts/persona_purge.py` — apaga 23 personas .md + renomeia 10 pastas `agents/<Persona>/` → `agents/<handle>/`. Já corrido 2026-05-14. |
+| **Wikilink rewrite** (Wave 4, ghost-node killer) | `python scripts/wikilink_rewrite.py` — reescreve `[[<TK>_DOSSIE/STORY/COUNCIL/IC_DEBATE/VARIANT/RI/drip/FILING/<DATE>]] → [[<TK>]]` + `[[Charlie Compounder/Mariana Macro/...]] → [[council.industrials-us/council.macro/...]]`. Idempotente. Wired no `daily_run.bat` após `build_tickers_index`. |
 | **Helena Linha scout** (weekly, GitHub+RSS+YouTube) | `python scripts/design_research.py [--source github\|blogs\|youtube\|all]` |
 | **Panorama completo de ticker** (super-command) | `ii panorama X [--write]` — agrega verdict+peers+triggers+notes+videos+analyst |
 | **Perpetuum Master** (Phase X — 3 perpetuums) | `python agents/perpetuum_master.py [--only NAME] [--dry-run]` — thesis + vault + data_coverage, 442 subjects/dia |

@@ -209,7 +209,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRCO11_DOSSIE.md` (cemete
 
 #### 📑 BRCO11 — Bresco Logística
 
-> Generated **2026-04-26** by `ii dossier BRCO11`. Cross-links: [[BRCO11]] · [[BRCO11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BRCO11`. Cross-links: [[BRCO11]] · [[BRCO11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -227,7 +227,7 @@ BRCO11 (Bresco Logística) é FII tijolo logístico premium com DY 9,16% e cota 
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[BRCO11_IC_DEBATE]]
+→ Detalhe: [[BRCO11]]
 
 ##### 3. Thesis
 

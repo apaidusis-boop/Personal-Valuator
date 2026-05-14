@@ -213,7 +213,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNCR11_DOSSIE.md` (cemete
 
 #### 📑 KNCR11 — Kinea Rendimentos Imob.
 
-> Generated **2026-04-26** by `ii dossier KNCR11`. Cross-links: [[KNCR11]] · [[KNCR11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier KNCR11`. Cross-links: [[KNCR11]] · [[KNCR11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -231,7 +231,7 @@ KNCR11 (Kinea Rendimentos) é fundo papel CDI+ com DY 13,70%, P/E 8,86 e P/B 1,0
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[KNCR11_IC_DEBATE]]
+→ Detalhe: [[KNCR11]]
 
 ##### 3. Thesis
 

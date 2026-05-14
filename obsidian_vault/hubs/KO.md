@@ -138,7 +138,7 @@ _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\KO_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[KO_STORY|KO]]
+#### Charlie Compounder sobre [[KO|KO]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -170,15 +170,15 @@ A Coca-Cola apresenta um ROE sustentado de 43,4% e uma renda anual de 2,6%, apoi
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KO_STORY|📖 Storytelling completo (8 actos)]]
-- [[KO_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[KO|📖 Storytelling completo (8 actos)]]
+- [[KO|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -186,7 +186,7 @@ A Coca-Cola apresenta um ROE sustentado de 43,4% e uma renda anual de 2,6%, apoi
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KO_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[KO_STORY|KO]]
+#### Mariana Macro sobre [[KO|KO]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -219,15 +219,15 @@ A Coca-Cola apresenta um ROE de 43.4% e P/E de 24.77, dentro do intervalo razoá
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KO_STORY|📖 Storytelling completo (8 actos)]]
-- [[KO_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[KO|📖 Storytelling completo (8 actos)]]
+- [[KO|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -235,7 +235,7 @@ A Coca-Cola apresenta um ROE de 43.4% e P/E de 24.77, dentro do intervalo razoá
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KO_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[KO_STORY|KO]]
+#### Pedro Alocação sobre [[KO|KO]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -266,15 +266,15 @@ A Coca-Cola oferece um retorno sobre o patrimônio líquido (ROE) de 43.4% e uma
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[KO_STORY|📖 Storytelling completo (8 actos)]]
-- [[KO_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[KO|📖 Storytelling completo (8 actos)]]
+- [[KO|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -282,7 +282,7 @@ A Coca-Cola oferece um retorno sobre o patrimônio líquido (ROE) de 43.4% e uma
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KO_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[KO_STORY|KO]]
+#### Valentina Prudente sobre [[KO|KO]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -313,15 +313,15 @@ A Coca-Cola apresenta um ROE elevado de 43.4% e uma consistência em dividendos 
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[KO_STORY|📖 Storytelling completo (8 actos)]]
-- [[KO_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[KO|📖 Storytelling completo (8 actos)]]
+- [[KO|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -363,7 +363,7 @@ _(dossier desactivado via --no-llm)_
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[KO_STORY|KO]] (Coca-Cola)
+#### Council Debate — [[KO|KO]] (Coca-Cola)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -372,10 +372,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -394,7 +394,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Coca-Cola mantém posição de destaque com sólidos fundamentos financeiros_
@@ -410,7 +410,7 @@ A Coca-Cola apresenta um ROE sustentado de 43,4% e uma renda anual de 2,6%, apoi
 - P/E ligeiramente elevado
 - P/B acima da média
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Coca-Cola mantém posição de valor com sólida geração de dividendos_
@@ -426,7 +426,7 @@ A Coca-Cola apresenta um ROE de 43.4% e P/E de 24.77, dentro do intervalo razoá
 - Impacto da guerra no Oriente Médio sobre custos de embalagem
 - Possível aumento nos preços dos produtos
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Coca-Cola mantém posição de valor com sólidos fundamentos financeiros_
@@ -442,7 +442,7 @@ A Coca-Cola apresenta um ROE elevado de 43.4% e uma consistência em dividendos 
 - Impacto de conflitos no fornecimento global
 - Aumento dos custos energéticos e de commodities
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Coca-Cola mantém posição de valor com sólido ROE e dividendos sustentáveis_
@@ -460,7 +460,7 @@ A Coca-Cola oferece um retorno sobre o patrimônio líquido (ROE) de 43.4% e uma
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -470,7 +470,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 - Impacto da guerra no Oriente Médio sobre custos de embalagem | Possível aumento nos preços dos produtos - Mariana Macro
 - A evidência apresentada sugere que esses desafios são temporários e não afetam a sustentabilidade do negócio a longo prazo.
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -481,7 +481,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: A recente notícia sobre escassez de lata de alumínio em virtude do conflito no Oriente Médio (Reuters, 2026-04-22) pode aumentar os custos de produção e impactar margens.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -490,7 +490,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - Apesar do P/E ligeiramente acima da média (24,77), a empresa mantém um moat sólido — Charlie Compounder | O P/E de 24.77 está dentro do intervalo considerado razoável para investimentos de valor, não é necessariamente preocupante
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -501,12 +501,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[KO_STORY|📖 Storytelling completo (8 actos)]]
+- [[KO|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[KO_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[KO_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[KO_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[KO_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[KO|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[KO|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[KO|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[KO|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -645,10 +645,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/KO_2026-05-01.md`._
 
@@ -890,7 +890,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO.md` (cemetery archive)
 - Sector: [[sectors/Consumer_Staples|Consumer Staples]]
 - Market: [[markets/US|US]]
 - Peers: [[PG]] · [[ADM]] · [[BF-B]] · [[CHD]] · [[CL]]
-- 🎯 **Thesis**: [[wiki/holdings/KO|thesis deep]]
+- 🎯 **Thesis**: [[KO|thesis deep]]
 
 ##### Snapshot
 
@@ -1019,7 +1019,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KO_DOSSIE.md` (cemetery a
 
 #### 📑 KO — Coca-Cola
 
-> Generated **2026-04-26** by `ii dossier KO`. Cross-links: [[KO]] · [[KO_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier KO`. Cross-links: [[KO]] · [[KO]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1037,7 +1037,7 @@ KO negoceia a P/E 25.21 com DY 2.69% e ROE 43.32%, IC HOLD com confiança média
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[KO_IC_DEBATE]]
+→ Detalhe: [[KO]]
 
 ##### 3. Thesis
 

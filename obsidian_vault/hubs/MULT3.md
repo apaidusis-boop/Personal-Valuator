@@ -364,7 +364,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MULT3_DOSSIE.md` (cemeter
 
 #### 📑 MULT3 — Multiplan
 
-> Generated **2026-04-26** by `ii dossier MULT3`. Cross-links: [[MULT3]] · [[MULT3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier MULT3`. Cross-links: [[MULT3]] · [[MULT3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -382,7 +382,7 @@ MULT3 negocia P/E 14.23 e P/B 2.54 com ROE 19.11% e streak excepcional de 18 ano
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[MULT3_IC_DEBATE]]
+→ Detalhe: [[MULT3]]
 
 ##### 3. Thesis
 

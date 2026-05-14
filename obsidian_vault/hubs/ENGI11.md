@@ -348,7 +348,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ENGI11_DOSSIE.md` (cemete
 
 #### 📑 ENGI11 — Energisa
 
-> Generated **2026-04-26** by `ii dossier ENGI11`. Cross-links: [[ENGI11]] · [[ENGI11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ENGI11`. Cross-links: [[ENGI11]] · [[ENGI11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -366,7 +366,7 @@ ENGI11 negocia a P/E elevado de 40.07 mas P/B exactamente 1.00 e ROE de 14.49%, 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[ENGI11_IC_DEBATE]]
+→ Detalhe: [[ENGI11]]
 
 ##### 3. Thesis
 

@@ -206,7 +206,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VRTA11_DOSSIE.md` (cemete
 
 #### 📑 VRTA11 — Fator Verita
 
-> Generated **2026-04-26** by `ii dossier VRTA11`. Cross-links: [[VRTA11]] · [[VRTA11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier VRTA11`. Cross-links: [[VRTA11]] · [[VRTA11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -224,7 +224,7 @@ VRTA11 (Fator Verita) é fundo papel CRI com DY 12,91%, P/E 11,73 e P/B 0,87 —
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[VRTA11_IC_DEBATE]]
+→ Detalhe: [[VRTA11]]
 
 ##### 3. Thesis
 

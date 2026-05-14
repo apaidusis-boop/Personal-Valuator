@@ -200,7 +200,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-05-01 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[JPM_STORY|JPM]]
+#### Hank Tier-One sobre [[JPM|JPM]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -231,15 +231,15 @@ JPM tem um P/E de 14.98, inferior ao setor (15.75x), e ROE de 16.5%, acima da m�
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JPM_STORY|📖 Storytelling completo (8 actos)]]
-- [[JPM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[JPM|📖 Storytelling completo (8 actos)]]
+- [[JPM|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -247,7 +247,7 @@ JPM tem um P/E de 14.98, inferior ao setor (15.75x), e ROE de 16.5%, acima da m�
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[JPM_STORY|JPM]]
+#### Mariana Macro sobre [[JPM|JPM]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -278,15 +278,15 @@ JPM tem P/E abaixo do setor (14.98 vs 15.75), ROE acima da média (16.5% vs 15.4
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JPM_STORY|📖 Storytelling completo (8 actos)]]
-- [[JPM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[JPM|📖 Storytelling completo (8 actos)]]
+- [[JPM|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -294,7 +294,7 @@ JPM tem P/E abaixo do setor (14.98 vs 15.75), ROE acima da média (16.5% vs 15.4
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[JPM_STORY|JPM]]
+#### Pedro Alocação sobre [[JPM|JPM]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -325,15 +325,15 @@ JPM tem P/E abaixo do setor (14.98 vs mediana de 15.75x), ROE acima da média (1
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[JPM_STORY|📖 Storytelling completo (8 actos)]]
-- [[JPM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[JPM|📖 Storytelling completo (8 actos)]]
+- [[JPM|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -341,7 +341,7 @@ JPM tem P/E abaixo do setor (14.98 vs mediana de 15.75x), ROE acima da média (1
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JPM_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[JPM_STORY|JPM]]
+#### Valentina Prudente sobre [[JPM|JPM]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -373,15 +373,15 @@ JPM tem P/E abaixo da média do setor (14.98 vs 15.75), ROE acima (16.5% vs 15.4
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JPM_STORY|📖 Storytelling completo (8 actos)]]
-- [[JPM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[JPM|📖 Storytelling completo (8 actos)]]
+- [[JPM|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -615,7 +615,7 @@ Delta Report — JPM | hoje vs run anterior (2026-05-08)
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[JPM_STORY|JPM]] (JPMorgan Chase)
+#### Council Debate — [[JPM|JPM]] (JPMorgan Chase)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -624,10 +624,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -646,7 +646,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🟢 **BUY**
+###### [[council.banks-us]] — 🟢 **BUY**
 _Banks US Specialist_
 
 **Headline**: _JPMorgan mantém posição de longo prazo com sólidos dividendos e P/E abaixo do setor_
@@ -662,7 +662,7 @@ JPM tem um P/E de 14.98, inferior ao setor (15.75x), e ROE de 16.5%, acima da m�
 - P/B de 2.44, acima do setor (2.21x)
 - NII outlook trimmed recentemente
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _JPMorgan mantém posição atraente com sólidos fundamentos financeiros_
@@ -678,7 +678,7 @@ JPM tem P/E abaixo do setor (14.98 vs 15.75), ROE acima da média (16.5% vs 15.4
 - redução da perspectiva NII
 - impacto potencial de crises de crédito
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _JPMorgan mantém posição atraente com sólidos fundamentos_
@@ -694,7 +694,7 @@ JPM tem P/E abaixo da média do setor (14.98 vs 15.75), ROE acima (16.5% vs 15.4
 - NII outlook trimmed
 - Private credit lending restrictions
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _JPMorgan mantém sólida performance financeira_
@@ -712,7 +712,7 @@ JPM tem P/E abaixo do setor (14.98 vs mediana de 15.75x), ROE acima da média (1
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🟢 **BUY**
+###### [[council.banks-us]] — 🟢 **BUY**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -721,7 +721,7 @@ _Banks US Specialist_
 **Desafiou**:
 - redução no outlook NII | Private credit lending restrictions - Valentina Prudente; Essa redução pode ser temporária ou uma correção necessária que não afeta a sustentabilidade a longo prazo da empresa.
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -730,7 +730,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - P/B de 2.44, acima do setor (2.21x) | NII outlook trimmed recentemente - Hank Tier-One | A elevação no P/B pode ser atribuída a fatores específicos da empresa que não refletem necessariamente uma sobrevalorização, como investimentos em ativos intangíveis ou crescimento projetado
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -740,7 +740,7 @@ _Chief Risk Officer_
 - P/B de 2.44, acima do setor (2.21x) | NII outlook trimmed recentemente - redução no outlook NII é um risco que precisa ser monitorado de perto mas não invalida a posição atualmente bem fundamentada
 - redução no outlook NII | impacto potencial de crises de crédito - enquanto o cenário macro é preocupante, os fundamentos atuais da JPM mantêm a posição atrativa
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -751,12 +751,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[JPM_STORY|📖 Storytelling completo (8 actos)]]
+- [[JPM|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[JPM_2026-05-01|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[JPM_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[JPM_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[JPM_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[JPM|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[JPM|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[JPM|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[JPM|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -902,10 +902,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/JPM_2026-05-01.md`._
 
@@ -1148,7 +1148,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM.md` (cemetery archive
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[GS]] · [[NU]] · [[TFC]]
 - Vídeos: [[videos/2026-04-10_btg-pactual_turbulencia-global-petroleo-e-oportunidades-em-tecnologia-radar-do-inv|Turbulência global, petróleo e oportunid]] · [[videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
-- 🎯 **Thesis**: [[wiki/holdings/JPM|thesis deep]]
+- 🎯 **Thesis**: [[JPM|thesis deep]]
 
 ##### Snapshot
 
@@ -1290,7 +1290,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JPM_DOSSIE.md` (cemetery 
 
 #### 📑 JPM — JPMorgan Chase
 
-> Generated **2026-04-26** by `ii dossier JPM`. Cross-links: [[JPM]] · [[JPM_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier JPM`. Cross-links: [[JPM]] · [[JPM]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1308,7 +1308,7 @@ JPM negoceia a P/E 14.75 e P/B 2.40 com DY 1.91% e ROE 16.5%, IC HOLD com **alta
 
 **🏛️ HOLD** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[JPM_IC_DEBATE]]
+→ Detalhe: [[JPM]]
 
 ##### 3. Thesis
 

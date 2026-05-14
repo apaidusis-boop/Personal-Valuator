@@ -207,7 +207,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HGLG11_DOSSIE.md` (cemete
 
 #### 📑 HGLG11 — CSHG Logística
 
-> Generated **2026-04-26** by `ii dossier HGLG11`. Cross-links: [[HGLG11]] · [[HGLG11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier HGLG11`. Cross-links: [[HGLG11]] · [[HGLG11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -225,7 +225,7 @@ HGLG11 (CSHG Logística, segmento Logística) negoceia a BRL 158.01 com DY 8.35%
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[HGLG11_IC_DEBATE]]
+→ Detalhe: [[HGLG11]]
 
 ##### 3. Thesis
 

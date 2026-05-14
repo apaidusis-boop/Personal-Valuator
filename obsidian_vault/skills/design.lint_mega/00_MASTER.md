@@ -133,6 +133,6 @@ python -m agents.helena.report         # 00_MASTER.md (este)
 - [[02_Curation]] — 39 skills triados
 - [[03_Spikes]] — 4 paths feasibility
 - [[Design_System]] — fonte das regras
-- [[Helena Linha]] — owner da Mega Helena
+- [[design.lint]] — owner da Mega Helena
 - [[Claude_Design_Integration]] — prototyping flow
 - [[CONSTITUTION]] — não-negociáveis da casa

@@ -303,7 +303,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\AXIA7_DOSSIE.md` (cemeter
 
 #### 📑 AXIA7 — Axia Energia
 
-> Generated **2026-04-26** by `ii dossier AXIA7`. Cross-links: [[AXIA7]] · [[AXIA7_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier AXIA7`. Cross-links: [[AXIA7]] · [[AXIA7]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -321,7 +321,7 @@ AXIA7 (CVM 2437) negocia a P/B 1.45 com ROE fraco de 5.46%; P/E e DY ainda n/a n
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[AXIA7_IC_DEBATE]]
+→ Detalhe: [[AXIA7]]
 
 ##### 3. Thesis
 

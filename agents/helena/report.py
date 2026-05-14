@@ -1,7 +1,7 @@
 """report — master consolidator for Helena Mega.
 
 Reads structured data from audit/curate/spike modules and writes
-`obsidian_vault/skills/Helena_Mega/00_MASTER.md` — the executive summary
+`obsidian_vault/skills/design.lint_mega/00_MASTER.md` — the executive summary
 the founder reads first.
 
 Run:

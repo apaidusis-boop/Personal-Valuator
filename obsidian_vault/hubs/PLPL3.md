@@ -217,7 +217,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLPL3_DOSSIE.md` (cemeter
 
 #### 📑 PLPL3 — Plano & Plano
 
-> Generated **2026-04-26** by `ii dossier PLPL3`. Cross-links: [[PLPL3]] · [[PLPL3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PLPL3`. Cross-links: [[PLPL3]] · [[PLPL3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -235,7 +235,7 @@ PLPL3 negocia P/E baixíssimo de 6.52 com ROE excepcional de 41.08% e DY 4.20%, 
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[PLPL3_IC_DEBATE]]
+→ Detalhe: [[PLPL3]]
 
 ##### 3. Thesis
 

@@ -213,7 +213,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCCI11_DOSSIE.md` (cemete
 
 #### 📑 MCCI11 — Mauá Capital CRI
 
-> Generated **2026-04-26** by `ii dossier MCCI11`. Cross-links: [[MCCI11]] · [[MCCI11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier MCCI11`. Cross-links: [[MCCI11]] · [[MCCI11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -231,7 +231,7 @@ MCCI11 (Mauá Capital CRI) é fundo papel high-grade com DY 12,14%, P/E 9,20 e c
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[MCCI11_IC_DEBATE]]
+→ Detalhe: [[MCCI11]]
 
 ##### 3. Thesis
 

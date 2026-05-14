@@ -372,7 +372,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\B3SA3_DOSSIE.md` (cemeter
 
 #### 📑 B3SA3 — B3
 
-> Generated **2026-04-26** by `ii dossier B3SA3`. Cross-links: [[B3SA3]] · [[B3SA3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier B3SA3`. Cross-links: [[B3SA3]] · [[B3SA3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -390,7 +390,7 @@ B3SA3 negocia a P/E 22.60 com DY 3.19% mas ROE excepcional de 25.59% e net_debt/
 
 **🏛️ BUY** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[B3SA3_IC_DEBATE]]
+→ Detalhe: [[B3SA3]]
 
 ##### 3. Thesis
 

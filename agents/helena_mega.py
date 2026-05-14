@@ -1,7 +1,7 @@
 """MegaHelenaAgent — orchestrates audit + curate + spike + report.
 
 Invoked manually or scheduled. Produces 4 artifacts in
-`obsidian_vault/skills/Helena_Mega/`:
+`obsidian_vault/skills/design.lint_mega/`:
 
     00_MASTER.md      executive summary (read first)
     01_Audit.md       design system linter findings (DS001-DS009)

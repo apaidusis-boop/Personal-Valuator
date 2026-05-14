@@ -271,7 +271,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBAS3_DOSSIE.md` (cemeter
 
 #### 📑 BBAS3 — Banco do Brasil
 
-> Generated **2026-04-26** by `ii dossier BBAS3`. Cross-links: [[BBAS3]] · [[BBAS3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BBAS3`. Cross-links: [[BBAS3]] · [[BBAS3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -366,7 +366,7 @@ BBAS3 trade a **PE 9.5× / PB 0.70×** (cheapest-by-PB do quarteto bancos BR) ma
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[BBAS3_IC_DEBATE]]
+→ Detalhe: [[BBAS3]]
 
 ##### 6. Thesis
 

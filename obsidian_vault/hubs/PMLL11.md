@@ -213,7 +213,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PMLL11_DOSSIE.md` (cemete
 
 #### 📑 PMLL11 — Plural Malls
 
-> Generated **2026-04-26** by `ii dossier PMLL11`. Cross-links: [[PMLL11]] · [[PMLL11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PMLL11`. Cross-links: [[PMLL11]] · [[PMLL11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -231,7 +231,7 @@ PMLL11 (Plural Malls, segmento Shopping) negoceia a BRL 110.23 com DY 8.94% e st
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[PMLL11_IC_DEBATE]]
+→ Detalhe: [[PMLL11]]
 
 ##### 3. Thesis
 

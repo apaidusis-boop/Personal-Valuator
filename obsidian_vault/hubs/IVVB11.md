@@ -114,7 +114,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\IVVB11.md` (cemetery arch
 
 - Sector: [[sectors/ETF-US|ETF-US]]
 - Market: [[markets/BR|BR]]
-- 🎯 **Thesis**: [[wiki/holdings/IVVB11|thesis deep]]
+- 🎯 **Thesis**: [[IVVB11|thesis deep]]
 
 ##### Snapshot
 

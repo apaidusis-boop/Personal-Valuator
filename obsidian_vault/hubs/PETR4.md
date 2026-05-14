@@ -497,7 +497,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PETR4_DOSSIE.md` (cemeter
 
 #### 📑 PETR4 — Petrobras
 
-> Generated **2026-04-26** by `ii dossier PETR4`. Cross-links: [[PETR4]] · [[PETR4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PETR4`. Cross-links: [[PETR4]] · [[PETR4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -515,7 +515,7 @@ PETR4 negocia a P/E 6.16 e DY 6.76% com ROE excepcional de 28.18% e dívida líq
 
 **🏛️ BUY** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[PETR4_IC_DEBATE]]
+→ Detalhe: [[PETR4]]
 
 ##### 3. Thesis
 

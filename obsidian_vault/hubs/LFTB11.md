@@ -114,7 +114,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\LFTB11.md` (cemetery arch
 
 - Sector: [[sectors/ETF-RF|ETF-RF]]
 - Market: [[markets/BR|BR]]
-- 🎯 **Thesis**: [[wiki/holdings/LFTB11|thesis deep]]
+- 🎯 **Thesis**: [[LFTB11|thesis deep]]
 
 ##### Snapshot
 

@@ -218,7 +218,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TTEN3_DOSSIE.md` (cemeter
 
 #### 📑 TTEN3 — 3Tentos
 
-> Generated **2026-04-26** by `ii dossier TTEN3`. Cross-links: [[TTEN3]] · [[TTEN3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier TTEN3`. Cross-links: [[TTEN3]] · [[TTEN3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -236,7 +236,7 @@ TTEN3 negocia P/E 9.52 e P/B 1.63 com ROE 18.49% e streak 5y, mas DY 1.19% fica 
 
 **🏛️ HOLD** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[TTEN3_IC_DEBATE]]
+→ Detalhe: [[TTEN3]]
 
 ##### 3. Thesis
 

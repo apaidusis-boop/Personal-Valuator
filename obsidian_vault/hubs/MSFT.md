@@ -262,7 +262,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MSFT_DOSSIE.md` (cemetery
 
 #### 📑 MSFT — Microsoft
 
-> Generated **2026-04-26** by `ii dossier MSFT`. Cross-links: [[MSFT]] · [[MSFT_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier MSFT`. Cross-links: [[MSFT]] · [[MSFT]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -280,7 +280,7 @@ Microsoft transaciona a P/E 26.59 com DY apenas 0.82% e streak de 24y — falha 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[MSFT_IC_DEBATE]]
+→ Detalhe: [[MSFT]]
 
 ##### 3. Thesis
 

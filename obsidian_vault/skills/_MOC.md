@@ -55,6 +55,25 @@ tier_target: gold
 
 ---
 
+## 📦 Imported plugin skills (2026-05-13)
+
+Absorção de **17 plugins** de marketplace → `.claude/skills/` (locais, invocáveis) + `obsidian_vault/skills/imported/` (pointer docs).
+
+- **Total**: 111 skills + 48 commands + 4 agents
+- **Motivo**: Independência de marketplace (FSI plugins hooks partidos em 2026-05-13)
+- **Re-absorver**: `python scripts/absorb_plugins.py`
+- **Manifest**: `data/absorbed_plugins.json`
+- **Índice completo**: [[imported/_INDEX]]
+
+Mais relevantes ao projecto investing:
+- [[imported/equity-research/_]] — catalysts/screen/morning-note/thesis (sobrepõe `ii brief`, `ii decide`)
+- [[imported/financial-analysis/_]] — DCF/LBO/3-statement/comps (sobrepõe `fair_value.py`, `compare_tickers.py`)
+- [[imported/earnings-reviewer/_]] — earnings updates (sobrepõe `ii react`, `earnings_prep.py`)
+- [[imported/wealth-management/_]] — rebalance/TLH (sobrepõe `ii rebalance`)
+- [[imported/superpowers/_]] — eng meta-skills (systematic-debugging, writing-plans, TDD)
+
+---
+
 ## 🚫 Skip explícito (documentado para não re-avaliar)
 
 - [[SKL_tier_B]] — Superpowers (cherry-pick), n8n, claude-squad, Doc Co-Authoring, Web Artifacts, Frontend Design (Streamlit suficiente)

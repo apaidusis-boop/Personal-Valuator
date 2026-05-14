@@ -80,7 +80,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-04-30 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[BLK_STORY|BLK]]
+#### Hank Tier-One sobre [[BLK|BLK]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -117,15 +117,15 @@ BlackRock's P/E of 26.84 and P/B of 2.96 exceed conservative banking metrics, in
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BLK_STORY|📖 Storytelling completo (8 actos)]]
-- [[BLK_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[BLK|📖 Storytelling completo (8 actos)]]
+- [[BLK|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -133,7 +133,7 @@ BlackRock's P/E of 26.84 and P/B of 2.96 exceed conservative banking metrics, in
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[BLK_STORY|BLK]]
+#### Mariana Macro sobre [[BLK|BLK]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -168,15 +168,15 @@ A BlackRock apresenta um DY de 2.05% e P/E de 26.84, indicando uma combinação 
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BLK_STORY|📖 Storytelling completo (8 actos)]]
-- [[BLK_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[BLK|📖 Storytelling completo (8 actos)]]
+- [[BLK|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -184,7 +184,7 @@ A BlackRock apresenta um DY de 2.05% e P/E de 26.84, indicando uma combinação 
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[BLK_STORY|BLK]]
+#### Pedro Alocação sobre [[BLK|BLK]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -217,15 +217,15 @@ A BlackRock apresenta um DY de 2% e P/E de 26,84, refletindo uma combinação s�
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[BLK_STORY|📖 Storytelling completo (8 actos)]]
-- [[BLK_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[BLK|📖 Storytelling completo (8 actos)]]
+- [[BLK|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -233,7 +233,7 @@ A BlackRock apresenta um DY de 2% e P/E de 26,84, refletindo uma combinação s�
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BLK_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[BLK_STORY|BLK]]
+#### Valentina Prudente sobre [[BLK|BLK]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -266,15 +266,15 @@ A BlackRock apresenta um P/E de 26.84 e P/B de 2.96, indicando valor potencial c
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BLK_STORY|📖 Storytelling completo (8 actos)]]
-- [[BLK_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[BLK|📖 Storytelling completo (8 actos)]]
+- [[BLK|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -285,7 +285,7 @@ A BlackRock apresenta um P/E de 26.84 e P/B de 2.96, indicando valor potencial c
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[BLK_STORY|BLK]] (BlackRock)
+#### Council Debate — [[BLK|BLK]] (BlackRock)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -294,10 +294,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -317,7 +317,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Headline**: _BlackRock overvalued with high P/E and P/B ratios_
@@ -336,7 +336,7 @@ BlackRock's P/E of 26.84 and P/B of 2.96 exceed conservative banking metrics, in
 **Veto signals**:
 - 🚫 P/B ratio
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _BlackRock mantém posição atraente com crescimento sustentável_
@@ -352,7 +352,7 @@ A BlackRock apresenta um DY de 2.05% e P/E de 26.84, indicando uma combinação 
 - Volatilidade do mercado financeiro
 - Risco de endividamento
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _BlackRock mantém sólida gestão financeira e crescimento sustentável_
@@ -368,7 +368,7 @@ A BlackRock apresenta um P/E de 26.84 e P/B de 2.96, indicando valor potencial c
 - Possível volatilidade devido a eventos regulatórios ou litigiosos
 - Dependência excessiva em rendimentos de ativos sob gestão
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _BlackRock mantém posição atraente com crescimento sustentável_
@@ -386,7 +386,7 @@ A BlackRock apresenta um DY de 2% e P/E de 26,84, refletindo uma combinação s�
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -398,7 +398,7 @@ _Banks US Specialist_
 - despite strong fundamentals, BlackRock's high P/E and P/B ratios indicate potential overvaluation which is a significant risk factor for long-term growth. This could undermine the sustainability of its dividend payments.
 - Mariana Macro
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -411,7 +411,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: BlackRock's recent earnings report showed a 46% increase in quarterly profit due to strong investment fees and ETF flows, indicating robust demand for its services.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -422,7 +422,7 @@ _Chief Risk Officer_
 - BlackRock's P/E of 26.84 and P/B of 2.96 exceed conservative banking metrics
 - Hank Tier-One | Estes múltiplos refletem a natureza do negócio de BlackRock, que é mais orientado para serviços financeiros e consultoria, onde os múltiplos geralmente são maiores
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -435,12 +435,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[BLK_STORY|📖 Storytelling completo (8 actos)]]
+- [[BLK|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[BLK_2026-04-30|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[BLK_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[BLK_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[BLK_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[BLK|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[BLK|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[BLK|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[BLK|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -576,10 +576,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/BLK_2026-04-30.md`._
 
@@ -823,7 +823,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK.md` (cemetery archive
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BN]] · [[GS]] · [[JPM]] · [[NU]] · [[TFC]]
-- 🎯 **Thesis**: [[wiki/holdings/BLK|thesis deep]]
+- 🎯 **Thesis**: [[BLK|thesis deep]]
 
 ##### Snapshot
 
@@ -951,7 +951,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BLK_DOSSIE.md` (cemetery 
 
 #### 📑 BLK — BlackRock
 
-> Generated **2026-04-26** by `ii dossier BLK`. Cross-links: [[BLK]] · [[BLK_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BLK`. Cross-links: [[BLK]] · [[BLK]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -969,7 +969,7 @@ BLK negoceia a P/E 26.32 com DY 2.04% e P/B 2.90, IC HOLD com confiança média 
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[BLK_IC_DEBATE]]
+→ Detalhe: [[BLK]]
 
 ##### 3. Thesis
 

@@ -175,7 +175,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BPAC11_DOSSIE.md` (cemete
 
 #### 📑 BPAC11 — BTG Pactual
 
-> Generated **2026-04-26** by `ii dossier BPAC11`. Cross-links: [[BPAC11]] · [[BPAC11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BPAC11`. Cross-links: [[BPAC11]] · [[BPAC11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -267,7 +267,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BPAC11_DOSSIE.md` (cemete
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[BPAC11_IC_DEBATE]]
+→ Detalhe: [[BPAC11]]
 
 ##### 6. Thesis
 

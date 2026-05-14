@@ -80,7 +80,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[TSLA_STORY|TSLA]]
+#### Charlie Compounder sobre [[TSLA|TSLA]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -114,15 +114,15 @@ P/E of 351.29 and ROE of 4.9% indicate poor valuation and profitability, respect
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSLA_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSLA_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[TSLA|📖 Storytelling completo (8 actos)]]
+- [[TSLA|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -130,7 +130,7 @@ P/E of 351.29 and ROE of 4.9% indicate poor valuation and profitability, respect
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[TSLA_STORY|TSLA]]
+#### Mariana Macro sobre [[TSLA|TSLA]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -163,15 +163,15 @@ A Tesla tem um P/E de 351.29 e ROE baixo de 4.9%, indicando desafios na valoriza
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSLA_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSLA_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[TSLA|📖 Storytelling completo (8 actos)]]
+- [[TSLA|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -179,7 +179,7 @@ A Tesla tem um P/E de 351.29 e ROE baixo de 4.9%, indicando desafios na valoriza
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[TSLA_STORY|TSLA]]
+#### Pedro Alocação sobre [[TSLA|TSLA]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -212,15 +212,15 @@ A Tesla possui uma relação dívida líquida sobre EBITDA negativa (-2.79) e um
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[TSLA_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSLA_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[TSLA|📖 Storytelling completo (8 actos)]]
+- [[TSLA|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -228,7 +228,7 @@ A Tesla possui uma relação dívida líquida sobre EBITDA negativa (-2.79) e um
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSLA_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[TSLA_STORY|TSLA]]
+#### Valentina Prudente sobre [[TSLA|TSLA]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -262,15 +262,15 @@ A Tesla possui um ROE baixo (4.9%) e uma alta relação P/E (351.29), mas sua d�
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSLA_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSLA_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[TSLA|📖 Storytelling completo (8 actos)]]
+- [[TSLA|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -281,7 +281,7 @@ A Tesla possui um ROE baixo (4.9%) e uma alta relação P/E (351.29), mas sua d�
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[TSLA_STORY|TSLA]] (Tesla)
+#### Council Debate — [[TSLA|TSLA]] (Tesla)
 
 **Final stance**: 🟡 **HOLD**  
 **Confidence**: `medium`  
@@ -290,10 +290,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md` (cemet
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -313,7 +313,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md` (cemet
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🔴 **AVOID**
+###### [[council.industrials-us]] — 🔴 **AVOID**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Tesla overvalued with high P/E and low ROE_
@@ -329,7 +329,7 @@ P/E of 351.29 and ROE of 4.9% indicate poor valuation and profitability, respect
 - High P/B ratio of 17.43
 - No dividend history or buyback
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _Tesla mantém avaliação elevada com baixo retorno sobre o patrimônio_
@@ -345,7 +345,7 @@ A Tesla tem um P/E de 351.29 e ROE baixo de 4.9%, indicando desafios na valoriza
 - avaliação elevada em relação ao setor
 - baixo retorno sobre o patrimônio
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Tesla mantém posição financeira sólida apesar de avaliação elevada_
@@ -361,7 +361,7 @@ A Tesla possui um ROE baixo (4.9%) e uma alta relação P/E (351.29), mas sua d�
 - Avaliação elevada com P/B de 17.65
 - Investimentos agressivos em IA e AV
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Headline**: _Tesla mantém posição financeira sólida apesar de avaliação elevada_
@@ -379,7 +379,7 @@ A Tesla possui uma relação dívida líquida sobre EBITDA negativa (-2.79) e um
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🔴 **AVOID**
+###### [[council.industrials-us]] — 🔴 **AVOID**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -391,7 +391,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 - Essa conclusão não leva em conta o alto múltiplo P/E e a baixa rentabilidade, que são contraindicativos para investidores Buffett/Graham.
 - Valentina Prudente
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -402,7 +402,7 @@ _Chief Macro Strategist_
 - P/E de 351.29 e ROE de 4.9% indicam má avaliação e lucratividade respectivamente
 - Charlie Compounder | Estes indicadores não refletem completamente o potencial futuro da empresa, especialmente considerando seu forte crescimento projetado em capacidade produtiva global e investimentos em tecnologia autônoma.
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -414,7 +414,7 @@ _Chief Risk Officer_
 - Charlie Compounder
 - Esses múltiplos elevados não refletem necessariamente preocupações financeiras, pois a empresa tem um ND/EBITDA negativo (-2.79) que indica geração de caixa superior às obrigações de dívida
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Concordou com**:
@@ -427,12 +427,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[TSLA_STORY|📖 Storytelling completo (8 actos)]]
+- [[TSLA|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[TSLA_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[TSLA_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[TSLA_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[TSLA_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[TSLA|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[TSLA|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[TSLA|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[TSLA|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -574,10 +574,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_STORY.md` (cemeter
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/TSLA_2026-05-01.md`._
 
@@ -812,7 +812,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA.md` (cemetery archiv
 - Sector: [[sectors/Consumer_Disc.|Consumer Disc.]]
 - Market: [[markets/US|US]]
 - Peers: [[HD]] · [[GPC]] · [[LEG]] · [[LOW]] · [[MCD]]
-- 🎯 **Thesis**: [[wiki/holdings/TSLA|thesis deep]]
+- 🎯 **Thesis**: [[TSLA|thesis deep]]
 
 ##### Snapshot
 
@@ -950,7 +950,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSLA_DOSSIE.md` (cemetery
 
 #### 📑 TSLA — Tesla
 
-> Generated **2026-04-26** by `ii dossier TSLA`. Cross-links: [[TSLA]] · [[TSLA_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier TSLA`. Cross-links: [[TSLA]] · [[TSLA]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -968,7 +968,7 @@ TSLA negoceia a P/E 345.23 (!) com DY n/a e ROE de apenas 4.90%, IC marca **AVOI
 
 **🏛️ AVOID** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[TSLA_IC_DEBATE]]
+→ Detalhe: [[TSLA]]
 
 ##### 3. Thesis
 

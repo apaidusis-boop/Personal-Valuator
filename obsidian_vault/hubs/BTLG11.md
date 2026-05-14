@@ -74,7 +74,7 @@ _(zero events em DB)_
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[BTLG11_STORY|BTLG11]]
+#### Lourdes Aluguel sobre [[BTLG11|BTLG11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -109,15 +109,15 @@ O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxim
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BTLG11_STORY|📖 Storytelling completo (8 actos)]]
-- [[BTLG11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[BTLG11|📖 Storytelling completo (8 actos)]]
+- [[BTLG11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -125,7 +125,7 @@ O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxim
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[BTLG11_STORY|BTLG11]]
+#### Mariana Macro sobre [[BTLG11|BTLG11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -160,15 +160,15 @@ BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BTLG11_STORY|📖 Storytelling completo (8 actos)]]
-- [[BTLG11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[BTLG11|📖 Storytelling completo (8 actos)]]
+- [[BTLG11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -176,7 +176,7 @@ BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio 
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[BTLG11_STORY|BTLG11]]
+#### Pedro Alocação sobre [[BTLG11|BTLG11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -209,15 +209,15 @@ BTLG11 oferece yield de 9,2% e relação PB próxima a 1, sugerindo valorizaçã
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[BTLG11_STORY|📖 Storytelling completo (8 actos)]]
-- [[BTLG11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[BTLG11|📖 Storytelling completo (8 actos)]]
+- [[BTLG11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -225,7 +225,7 @@ BTLG11 oferece yield de 9,2% e relação PB próxima a 1, sugerindo valorizaçã
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BTLG11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[BTLG11_STORY|BTLG11]]
+#### Valentina Prudente sobre [[BTLG11|BTLG11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -260,15 +260,15 @@ BTLG11 oferece yield de 9.2% com histórico de cinco anos de pagamentos, indican
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BTLG11_STORY|📖 Storytelling completo (8 actos)]]
-- [[BTLG11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[BTLG11|📖 Storytelling completo (8 actos)]]
+- [[BTLG11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -279,7 +279,7 @@ BTLG11 oferece yield de 9.2% com histórico de cinco anos de pagamentos, indican
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[BTLG11_STORY|BTLG11]] (BTG Logística)
+#### Council Debate — [[BTLG11|BTLG11]] (BTG Logística)
 
 **Final stance**: 🟡 **HOLD**  
 **Confidence**: `medium`  
@@ -288,10 +288,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -315,7 +315,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _BTLG11 mantém DY sustentável e P/B próximo a 1_
@@ -331,7 +331,7 @@ O BTLG11 oferece yield de 9,2% com relação patrimônio líquido/preço próxim
 - P/E de 95,66x sugere alta avaliação
 - Necessidade de continuidade do yield sustentável
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Dividendos sustentáveis e valorização moderada_
@@ -347,7 +347,7 @@ BTLG11 oferece yield de 9.2% com P/B próximo a 1, indicando um bom equilíbrio 
 - P/E elevado
 - volatilidade do mercado
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Dividendos sustentáveis e valorização moderada_
@@ -363,7 +363,7 @@ BTLG11 oferece yield de 9.2% com histórico de cinco anos de pagamentos, indican
 - P/E muito elevado (95.66x)
 - Possível desaceleração econômica impactando setor de logística
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Headline**: _Dividendos atraentes mas P/E muito elevado_
@@ -381,7 +381,7 @@ BTLG11 oferece yield de 9,2% e relação PB próxima a 1, sugerindo valorizaçã
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
@@ -394,7 +394,7 @@ _FIIs BR Specialist_
 - O argumento sobre a possibilidade de desaceleração econômica impactando setor de logística não é sustentado por dados atuais que indiquem uma mudança significativa na demanda ou nas condições do mercado.
 - Valentina Prudente
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -407,7 +407,7 @@ _Chief Macro Strategist_
 - O P/E de 95,66x sugere alta avaliação.
 - Lourdes Aluguel
 
-###### [[Valentina Prudente]] — 🟡 **HOLD** *(stance flipped)*
+###### [[risk.drift-audit]] — 🟡 **HOLD** *(stance flipped)*
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -420,7 +420,7 @@ _Chief Risk Officer_
 - O P/E elevado sugere alta avaliação | Necessidade de continuidade do yield sustentável
 - Lourdes Aluguel
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Concordou com**:
@@ -433,12 +433,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[BTLG11_STORY|📖 Storytelling completo (8 actos)]]
+- [[BTLG11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[BTLG11_2026-04-30|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[BTLG11_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[BTLG11_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[BTLG11_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[BTLG11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[BTLG11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[BTLG11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[BTLG11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -535,10 +535,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/BTLG11_2026-04-30.md`._
 
@@ -797,7 +797,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11.md` (cemetery arch
 - Sector: [[sectors/Logística|Logística]]
 - Market: [[markets/BR|BR]]
 - Peers: [[BTLG12]] · [[BRCO11]] · [[HGLG11]] · [[XPLG11]]
-- 🎯 **Thesis**: [[wiki/holdings/BTLG11|thesis deep]]
+- 🎯 **Thesis**: [[BTLG11|thesis deep]]
 
 ##### Snapshot
 
@@ -924,7 +924,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG11_DOSSIE.md` (cemete
 
 #### 📑 BTLG11 — BTG Logística
 
-> Generated **2026-04-26** by `ii dossier BTLG11`. Cross-links: [[BTLG11]] · [[BTLG11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BTLG11`. Cross-links: [[BTLG11]] · [[BTLG11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -942,7 +942,7 @@ BTLG11 é FII Logística (BTG) com **DY 9.19%**, P/B 1.00 (cota = NAV), streak 5
 
 **🏛️ AVOID** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[BTLG11_IC_DEBATE]]
+→ Detalhe: [[BTLG11]]
 
 ##### 3. Thesis
 

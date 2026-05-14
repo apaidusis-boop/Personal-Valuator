@@ -348,7 +348,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RENT3_DOSSIE.md` (cemeter
 
 #### 📑 RENT3 — Localiza
 
-> Generated **2026-04-26** by `ii dossier RENT3`. Cross-links: [[RENT3]] · [[RENT3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RENT3`. Cross-links: [[RENT3]] · [[RENT3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -366,7 +366,7 @@ RENT3 negocia P/E elevado de 28.01 e P/B 2.11 com ROE apenas 7.21% (abaixo dos 1
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[RENT3_IC_DEBATE]]
+→ Detalhe: [[RENT3]]
 
 ##### 3. Thesis
 

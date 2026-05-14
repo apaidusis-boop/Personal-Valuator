@@ -209,7 +209,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\HGRU11_DOSSIE.md` (cemete
 
 #### 📑 HGRU11 — CSHG Renda Urbana
 
-> Generated **2026-04-26** by `ii dossier HGRU11`. Cross-links: [[HGRU11]] · [[HGRU11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier HGRU11`. Cross-links: [[HGRU11]] · [[HGRU11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -227,7 +227,7 @@ HGRU11 (CSHG Renda Urbana, segmento Híbrido) negoceia a BRL 132.16 com DY 8.66%
 
 **🏛️ AVOID** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[HGRU11_IC_DEBATE]]
+→ Detalhe: [[HGRU11]]
 
 ##### 3. Thesis
 
@@ -265,7 +265,7 @@ HGRU11 (CSHG Renda Urbana, segmento Híbrido) negoceia a BRL 132.16 com DY 8.66%
 
 ##### 5. Riscos identificados
 
-- 🔴 **IC AVOID 100% consenso** — todas personas convergem contra; raríssimo. Trigger: ler `[[HGRU11_IC_DEBATE]]` para razões.
+- 🔴 **IC AVOID 100% consenso** — todas personas convergem contra; raríssimo. Trigger: ler `[[HGRU11]]` para razões.
 - 🟡 **Vacancia urbana** — mix urbano (educação, varejo, supermercado) sofre churn. Trigger: vacancy gerencial > 6%.
 - 🟡 **Segment mix shift** — gestor pode rotacionar entre classes; rotação para retail urbano fraco penaliza. Trigger: relatório trimestral desinvestimento tier-A.
 - 🟡 **Selic alta** — DY 8.66% perto de NTN-B real. Trigger: `SELIC_META` > 13% mantida 6m+.
@@ -275,7 +275,7 @@ HGRU11 (CSHG Renda Urbana, segmento Híbrido) negoceia a BRL 132.16 com DY 8.66%
 
 **Status atual**: watchlist
 
-Status **watchlist** com flag AVOID. Não adicionar até resolver discrepância IC vs Suno — ler `[[HGRU11_IC_DEBATE]]` e validar tese específica do CSHG. Se mantido na watchlist, aguardar cota < 90% target (~BRL 126) E reversão IC para HOLD/BUY antes de iniciar. Sizing eventual prudente: 3-5% (verdict atual restringe). Capital BRL (BR isolation). DRIP-friendly se entrar.
+Status **watchlist** com flag AVOID. Não adicionar até resolver discrepância IC vs Suno — ler `[[HGRU11]]` e validar tese específica do CSHG. Se mantido na watchlist, aguardar cota < 90% target (~BRL 126) E reversão IC para HOLD/BUY antes de iniciar. Sizing eventual prudente: 3-5% (verdict atual restringe). Capital BRL (BR isolation). DRIP-friendly se entrar.
 
 ##### 7. Tracking triggers (auto-monitoring)
 

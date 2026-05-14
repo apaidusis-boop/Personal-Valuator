@@ -207,7 +207,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\KNRI11_DOSSIE.md` (cemete
 
 #### 📑 KNRI11 — Kinea Renda Imobiliária
 
-> Generated **2026-04-26** by `ii dossier KNRI11`. Cross-links: [[KNRI11]] · [[KNRI11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier KNRI11`. Cross-links: [[KNRI11]] · [[KNRI11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -225,7 +225,7 @@ KNRI11 (Kinea Renda Imobiliária) é FII híbrido (lajes + logística) com DY 7,
 
 **🏛️ BUY** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[KNRI11_IC_DEBATE]]
+→ Detalhe: [[KNRI11]]
 
 ##### 3. Thesis
 

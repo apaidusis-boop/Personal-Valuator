@@ -144,7 +144,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\XP_2026-05-01.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[XP_STORY|XP]]
+#### Hank Tier-One sobre [[XP|XP]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -178,15 +178,15 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atrativo e crescimento sus
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XP_STORY|📖 Storytelling completo (8 actos)]]
-- [[XP_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[XP|📖 Storytelling completo (8 actos)]]
+- [[XP|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -194,7 +194,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atrativo e crescimento sus
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XP_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[XP_STORY|XP]]
+#### Mariana Macro sobre [[XP|XP]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -226,15 +226,15 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atraente, além de crescim
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XP_STORY|📖 Storytelling completo (8 actos)]]
-- [[XP_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[XP|📖 Storytelling completo (8 actos)]]
+- [[XP|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -242,7 +242,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atraente, além de crescim
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XP_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[XP_STORY|XP]]
+#### Pedro Alocação sobre [[XP|XP]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -273,15 +273,15 @@ A empresa apresenta um ROE de 23.7% e P/E de 9.88x, indicando valorização acim
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[XP_STORY|📖 Storytelling completo (8 actos)]]
-- [[XP_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[XP|📖 Storytelling completo (8 actos)]]
+- [[XP|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -289,7 +289,7 @@ A empresa apresenta um ROE de 23.7% e P/E de 9.88x, indicando valorização acim
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XP_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[XP_STORY|XP]]
+#### Valentina Prudente sobre [[XP|XP]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -321,15 +321,15 @@ XP Inc maintains a strong ROE of 23.7% and an extended dividend streak, aligning
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XP_STORY|📖 Storytelling completo (8 actos)]]
-- [[XP_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[XP|📖 Storytelling completo (8 actos)]]
+- [[XP|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -390,7 +390,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[XP_STORY|XP]] (XP Inc)
+#### Council Debate — [[XP|XP]] (XP Inc)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -399,10 +399,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -419,7 +419,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🟢 **BUY**
+###### [[council.banks-us]] — 🟢 **BUY**
 _Banks US Specialist_
 
 **Headline**: _XP Inc mantém sólida posição no setor financeiro brasileiro_
@@ -435,7 +435,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atrativo e crescimento sus
 - P/B elevado (2.11x)
 - Dividend yield baixo (0.9%)
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _XP Inc mantém sólida posição no setor financeiro brasileiro_
@@ -451,7 +451,7 @@ Com P/E de 9.88x e ROE de 23.7%, XP Inc oferece valor atraente, além de crescim
 - expansão digital depende do cenário macroeconômico brasileiro
 - impacto de eventuais mudanças na política monetária
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Solid fundamentals and consistent dividend growth support current position_
@@ -467,7 +467,7 @@ XP Inc maintains a strong ROE of 23.7% and an extended dividend streak, aligning
 - Revenue decline in constant currency noted
 - High P/B ratio relative to peers
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _XP Inc mantém sólida posição no setor financeiro brasileiro_
@@ -485,7 +485,7 @@ A empresa apresenta um ROE de 23.7% e P/E de 9.88x, indicando valorização acim
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🟢 **BUY**
+###### [[council.banks-us]] — 🟢 **BUY**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -497,7 +497,7 @@ _Banks US Specialist_
 - Este declínio pode ser temporário devido a fatores sazonais ou à destocking dos clientes. É necessário monitorar os próximos relatórios financeiros para confirmar uma tendência contínua.
 - Valentina Prudente
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -507,7 +507,7 @@ _Chief Macro Strategist_
 - Revenue decline in constant currency noted | High P/B ratio relative to peers - Valentina Prudente
 - DY baixo em relação ao setor (0.9%) | Crescimento sustentável EPS não confirmado por dados recentes - Pedro Alocação
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -517,7 +517,7 @@ _Chief Risk Officer_
 - expansão digital depende do cenário macroeconômico brasileiro | impacto de eventuais mudanças na política monetária - Mariana Macro
 - DY baixo em relação ao setor (0.9%) - Pedro Alocação
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -528,12 +528,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[XP_STORY|📖 Storytelling completo (8 actos)]]
+- [[XP|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[XP_2026-05-01|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[XP_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[XP_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[XP_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[XP|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[XP|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[XP|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[XP|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -638,10 +638,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/XP_2026-05-01.md`._
 
@@ -892,7 +892,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP.md` (cemetery archive)
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[GS]] · [[JPM]] · [[NU]]
-- 🎯 **Thesis**: [[wiki/holdings/XP|thesis deep]]
+- 🎯 **Thesis**: [[XP|thesis deep]]
 
 ##### Snapshot
 
@@ -1009,7 +1009,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XP_DOSSIE.md` (cemetery a
 
 #### 📑 XP — XP Inc
 
-> Generated **2026-04-26** by `ii dossier XP`. Cross-links: [[XP]] · [[XP_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier XP`. Cross-links: [[XP]] · [[XP]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1027,7 +1027,7 @@ XP negoceia P/E 10.12, DY 0.91% e ROE 23.71% com YoY +23.7% — broker BR listad
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[XP_IC_DEBATE]]
+→ Detalhe: [[XP]]
 
 ##### 3. Thesis
 

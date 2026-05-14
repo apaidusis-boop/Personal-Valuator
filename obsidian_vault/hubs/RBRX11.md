@@ -73,7 +73,7 @@ _(zero events em DB)_
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[RBRX11_STORY|RBRX11]]
+#### Lourdes Aluguel sobre [[RBRX11|RBRX11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -101,15 +101,15 @@ A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial p
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[RBRX11_STORY|📖 Storytelling completo (8 actos)]]
-- [[RBRX11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[RBRX11|📖 Storytelling completo (8 actos)]]
+- [[RBRX11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -117,7 +117,7 @@ A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial p
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[RBRX11_STORY|RBRX11]]
+#### Mariana Macro sobre [[RBRX11|RBRX11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -146,15 +146,15 @@ A RBRX11 apresenta um DY de 12,46% e P/E de 33,81x, indicando potencial de cresc
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[RBRX11_STORY|📖 Storytelling completo (8 actos)]]
-- [[RBRX11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[RBRX11|📖 Storytelling completo (8 actos)]]
+- [[RBRX11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -162,7 +162,7 @@ A RBRX11 apresenta um DY de 12,46% e P/E de 33,81x, indicando potencial de cresc
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[RBRX11_STORY|RBRX11]]
+#### Pedro Alocação sobre [[RBRX11|RBRX11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -190,15 +190,15 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[RBRX11_STORY|📖 Storytelling completo (8 actos)]]
-- [[RBRX11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[RBRX11|📖 Storytelling completo (8 actos)]]
+- [[RBRX11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -206,7 +206,7 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\RBRX11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[RBRX11_STORY|RBRX11]]
+#### Valentina Prudente sobre [[RBRX11|RBRX11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -234,15 +234,15 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[RBRX11_STORY|📖 Storytelling completo (8 actos)]]
-- [[RBRX11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[RBRX11|📖 Storytelling completo (8 actos)]]
+- [[RBRX11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -253,7 +253,7 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[RBRX11_STORY|RBRX11]] (RBR X)
+#### Council Debate — [[RBRX11|RBRX11]] (RBR X)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -262,10 +262,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -285,7 +285,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _RBRX11 mantém posição de longo prazo com DY atraente_
@@ -301,7 +301,7 @@ A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial p
 - Mercado brasileiro em expansão
 - Cobertura adequada dos dividendos
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _RBRX11 mantém posição atraente com DY elevado e histórico de dividendos_
@@ -317,7 +317,7 @@ A RBRX11 apresenta um DY de 12,46% e P/E de 33,81x, indicando potencial de cresc
 - Mercado brasileiro em expansão pode não ser mantido
 - Cobertura adequada dos dividendos
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _RBRX11 mantém posição de longo prazo atraente_
@@ -333,7 +333,7 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 - Mercado brasileiro em mudança
 - Dependência de cenário macroeconômico
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _RBRX11 mantém posição de longo prazo com dividendos atraentes_
@@ -351,26 +351,26 @@ A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustent
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
 - A RBRX11 apresenta um histórico consistente de dividendos e crescimento sustentado, com um payout ratio adequado e DY atrativo. - Valentina Prudente
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
 - A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial para investidores Buffett/Graham.
 - Lourdes Aluguel
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
 - A RBRX11 oferece um DY de 12,46% e P/E razoável (33,54x), indicando potencial para investidores Buffett/Graham. - Lourdes Aluguel
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -378,12 +378,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[RBRX11_STORY|📖 Storytelling completo (8 actos)]]
+- [[RBRX11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[RBRX11_2026-04-30|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[RBRX11_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[RBRX11_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[RBRX11_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[RBRX11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[RBRX11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[RBRX11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[RBRX11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -484,10 +484,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/RBRX11_2026-04-30.md`._
 
@@ -893,7 +893,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11.md` (cemetery arch
 - Sector: [[sectors/Híbrido|Híbrido]]
 - Market: [[markets/BR|BR]]
 - Peers: [[KNHF11]] · [[GARE11]] · [[HGRU11]] · [[KNRI11]] · [[TRXF11]]
-- 🎯 **Thesis**: [[wiki/holdings/RBRX11|thesis deep]]
+- 🎯 **Thesis**: [[RBRX11|thesis deep]]
 
 ##### Snapshot
 
@@ -1026,7 +1026,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRX11_DOSSIE.md` (cemete
 
 #### 📑 RBRX11 — RBR X
 
-> Generated **2026-04-26** by `ii dossier RBRX11`. Cross-links: [[RBRX11]] · [[RBRX11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RBRX11`. Cross-links: [[RBRX11]] · [[RBRX11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1044,7 +1044,7 @@ RBRX11 é FII Híbrido (RBR) com **DY 12.31%** e streak de 5 anos, market cap mo
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[RBRX11_IC_DEBATE]]
+→ Detalhe: [[RBRX11]]
 
 ##### 3. Thesis
 

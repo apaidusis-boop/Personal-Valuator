@@ -154,7 +154,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-04-30 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[ACN_STORY|ACN]]
+#### Charlie Compounder sobre [[ACN|ACN]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -185,15 +185,15 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ACN_STORY|📖 Storytelling completo (8 actos)]]
-- [[ACN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[ACN|📖 Storytelling completo (8 actos)]]
+- [[ACN|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -201,7 +201,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[ACN_STORY|ACN]]
+#### Mariana Macro sobre [[ACN|ACN]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -232,15 +232,15 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ACN_STORY|📖 Storytelling completo (8 actos)]]
-- [[ACN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[ACN|📖 Storytelling completo (8 actos)]]
+- [[ACN|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -248,7 +248,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[ACN_STORY|ACN]]
+#### Pedro Alocação sobre [[ACN|ACN]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -281,15 +281,15 @@ ACN lidera na implementação de AI e transformação digital, com ROE de 25%+ e
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[ACN_STORY|📖 Storytelling completo (8 actos)]]
-- [[ACN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[ACN|📖 Storytelling completo (8 actos)]]
+- [[ACN|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -297,7 +297,7 @@ ACN lidera na implementação de AI e transformação digital, com ROE de 25%+ e
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ACN_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[ACN_STORY|ACN]]
+#### Valentina Prudente sobre [[ACN|ACN]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -334,15 +334,15 @@ ACN beneficia de crescimento sustentável na implementação de AI e forte retor
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ACN_STORY|📖 Storytelling completo (8 actos)]]
-- [[ACN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[ACN|📖 Storytelling completo (8 actos)]]
+- [[ACN|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -508,7 +508,7 @@ A margem líquida e o giro são os principais drivers do ROE. A alavancagem fina
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[ACN_STORY|ACN]] (Accenture)
+#### Council Debate — [[ACN|ACN]] (Accenture)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -517,10 +517,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -538,7 +538,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Accenture mantém posição única em consultoria digital_
@@ -554,7 +554,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 - DY abaixo da média do setor (1.7%)
 - Margens sob pressão em serviços legacy
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Accenture mantém posição de liderança em consultoria digital_
@@ -570,7 +570,7 @@ ACN é líder global em transformação digital e implementação de IA, com ROE
 - Pressão nos serviços legados pode afetar margens
 - Possível corte em orçamentos governamentais
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Accenture mantém posição única em consultoria digital_
@@ -586,7 +586,7 @@ ACN beneficia de crescimento sustentável na implementação de AI e forte retor
 - crescimento de receita < 5% em dois trimestres
 - margens abaixo de 15%
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Accenture mantém posição única em consultoria digital_
@@ -604,7 +604,7 @@ ACN lidera na implementação de AI e transformação digital, com ROE de 25%+ e
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -613,7 +613,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Evidência nova**: Accenture continua a investir em inovação tecnológica, como o uso de robótica humanaide para operações em armazéns e fábricas, demonstrando sua capacidade de se adaptar às mudanças do mercado.
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -622,7 +622,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: Accenture recentemente investiu em General Robotics para avançar na robótica física alimentada por IA em manufatura e logística, demonstrando sua capacidade de inovar e expandir seus serviços.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -637,7 +637,7 @@ _Chief Risk Officer_
 
 **Evidência nova**: Accenture continua investindo em inovação, como o uso de humanoid robotics em operações de armazém com parceiros estratégicos.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -650,12 +650,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[ACN_STORY|📖 Storytelling completo (8 actos)]]
+- [[ACN|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[ACN_2026-04-30|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[ACN_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[ACN_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[ACN_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[ACN|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[ACN|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[ACN|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[ACN|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -769,10 +769,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/ACN_2026-04-30.md`._
 
@@ -1022,7 +1022,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN.md` (cemetery archive
 - Sector: [[sectors/Technology|Technology]]
 - Market: [[markets/US|US]]
 - Peers: [[AAPL]] · [[PLTR]] · [[TSM]] · [[IBM]] · [[JKHY]]
-- 🎯 **Thesis**: [[wiki/holdings/ACN|thesis deep]]
+- 🎯 **Thesis**: [[ACN|thesis deep]]
 
 ##### Snapshot
 
@@ -1145,7 +1145,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_DOSSIE.md` (cemetery 
 
 #### 📑 ACN — Accenture
 
-> Generated **2026-04-26** by `ii dossier ACN`. Cross-links: [[ACN]] · [[ACN_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ACN`. Cross-links: [[ACN]] · [[ACN]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1163,7 +1163,7 @@ ACN cota P/E 14.62, DY 1.74%, ROE 24.76% e streak div 22y — consultora global 
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[ACN_IC_DEBATE]]
+→ Detalhe: [[ACN]]
 
 ##### 3. Thesis
 

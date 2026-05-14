@@ -81,7 +81,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[TEN_STORY|TEN]]
+#### Charlie Compounder sobre [[TEN|TEN]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -114,15 +114,15 @@ P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; hist�
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TEN_STORY|📖 Storytelling completo (8 actos)]]
-- [[TEN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[TEN|📖 Storytelling completo (8 actos)]]
+- [[TEN|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -130,7 +130,7 @@ P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; hist�
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[TEN_STORY|TEN]]
+#### Mariana Macro sobre [[TEN|TEN]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -164,15 +164,15 @@ Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com po
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TEN_STORY|📖 Storytelling completo (8 actos)]]
-- [[TEN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[TEN|📖 Storytelling completo (8 actos)]]
+- [[TEN|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -180,7 +180,7 @@ Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com po
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[TEN_STORY|TEN]]
+#### Pedro Alocação sobre [[TEN|TEN]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -211,15 +211,15 @@ Tsakos Energy Navigation apresenta um P/E baixo (9.14x) e ROE de 9.1%, sugerindo
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[TEN_STORY|📖 Storytelling completo (8 actos)]]
-- [[TEN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[TEN|📖 Storytelling completo (8 actos)]]
+- [[TEN|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -227,7 +227,7 @@ Tsakos Energy Navigation apresenta um P/E baixo (9.14x) e ROE de 9.1%, sugerindo
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TEN_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[TEN_STORY|TEN]]
+#### Valentina Prudente sobre [[TEN|TEN]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -256,15 +256,15 @@ Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TEN_STORY|📖 Storytelling completo (8 actos)]]
-- [[TEN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[TEN|📖 Storytelling completo (8 actos)]]
+- [[TEN|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -275,7 +275,7 @@ Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[TEN_STORY|TEN]] (Tsakos Energy Navig.)
+#### Council Debate — [[TEN|TEN]] (Tsakos Energy Navig.)
 
 **Final stance**: 🟡 **HOLD**  
 **Confidence**: `low`  
@@ -284,10 +284,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -306,7 +306,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Tsakos Energy Navigation: Valor intrínseco subavaliado_
@@ -322,7 +322,7 @@ P/E baixo de 9.14x e ROE sólido de 9.09% sugerem valorização potencial; hist�
 - Altman Z-Score em zona de estresse
 - F-Score baixo (3/9)
 
-###### [[Mariana Macro]] — 🔴 **AVOID**
+###### [[council.macro]] — 🔴 **AVOID**
 _Chief Macro Strategist_
 
 **Headline**: _Baixa avaliação devido a risco operacional_
@@ -338,7 +338,7 @@ Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com po
 - Fragilidade financeira indicada por métricas de qualidade
 - Baixo ROE não sustenta preço atual
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Risco operacional elevado apesar de fundamentos atraentes_
@@ -354,7 +354,7 @@ Tsakos Energy Navigation apresenta um P/E baixo e ROE sólido, mas seu Piotroski
 - Z-Score indicando zona de estresse
 - F-Score sugerindo fragilidade operacional
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Headline**: _Avaliação mista devido a baixo P/E e ROE sólido, mas preocupações com z-score_
@@ -372,7 +372,7 @@ Tsakos Energy Navigation apresenta um P/E baixo (9.14x) e ROE de 9.1%, sugerindo
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -383,7 +383,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 - Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com potencial de insolvência. ROE baixo (9,1%) não justifica preço atual.
 - Mariana Macro - O P/E baixo e o histórico consistente de dividendos sugerem que a empresa pode estar subavaliada apesar do F-Score fraco.
 
-###### [[Mariana Macro]] — 🔴 **AVOID**
+###### [[council.macro]] — 🔴 **AVOID**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -395,14 +395,14 @@ _Chief Macro Strategist_
 - A fragilidade financeira indicada pelo Altman Z-Score e Piotroski F-Score não pode ser ignorada, pois sugere risco significativo de insolvência.
 - Valentina Prudente
 
-###### [[Valentina Prudente]] — 🔴 **AVOID** *(stance flipped)*
+###### [[risk.drift-audit]] — 🔴 **AVOID** *(stance flipped)*
 _Chief Risk Officer_
 
 **Concordou com**:
 - Piotroski F-Score de 3/9 e Altman Z-Score indicam fragilidade financeira, com potencial de insolvência.
 - Mariana Macro
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Concordou com**:
@@ -413,12 +413,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[TEN_STORY|📖 Storytelling completo (8 actos)]]
+- [[TEN|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[TEN_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[TEN_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[TEN_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[TEN_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[TEN|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[TEN|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[TEN|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[TEN|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -522,10 +522,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/TEN_2026-05-01.md`._
 
@@ -775,7 +775,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN.md` (cemetery archive
 - Sector: [[sectors/Energy|Energy]]
 - Market: [[markets/US|US]]
 - Peers: [[CVX]] · [[XOM]]
-- 🎯 **Thesis**: [[wiki/holdings/TEN|thesis deep]]
+- 🎯 **Thesis**: [[TEN|thesis deep]]
 
 ##### Snapshot
 
@@ -893,7 +893,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TEN_DOSSIE.md` (cemetery 
 
 #### 📑 TEN — Tsakos Energy Navig.
 
-> Generated **2026-04-26** by `ii dossier TEN`. Cross-links: [[TEN]] · [[TEN_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier TEN`. Cross-links: [[TEN]] · [[TEN]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -911,7 +911,7 @@ TEN negoceia a P/E 8.82 com DY 1.53% e P/B 0.63 — métricas ópticamente "bara
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[TEN_IC_DEBATE]]
+→ Detalhe: [[TEN]]
 
 ##### 3. Thesis
 

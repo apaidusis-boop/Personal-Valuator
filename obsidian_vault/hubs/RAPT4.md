@@ -324,7 +324,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RAPT4_DOSSIE.md` (cemeter
 
 #### 📑 RAPT4 — Randoncorp
 
-> Generated **2026-04-26** by `ii dossier RAPT4`. Cross-links: [[RAPT4]] · [[RAPT4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RAPT4`. Cross-links: [[RAPT4]] · [[RAPT4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -342,7 +342,7 @@ RAPT4 está em prejuízo (EPS -0.72, ROE -1.30%, P/E n/a) com DY 0.88% e P/B 0.5
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[RAPT4_IC_DEBATE]]
+→ Detalhe: [[RAPT4]]
 
 ##### 3. Thesis
 

@@ -213,7 +213,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VISC11_DOSSIE.md` (cemete
 
 #### 📑 VISC11 — Vinci Shopping Centers
 
-> Generated **2026-04-26** by `ii dossier VISC11`. Cross-links: [[VISC11]] · [[VISC11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier VISC11`. Cross-links: [[VISC11]] · [[VISC11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -231,7 +231,7 @@ VISC11 (Vinci Shopping Centers, segmento Shopping) negoceia a BRL 110.37 com DY 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[VISC11_IC_DEBATE]]
+→ Detalhe: [[VISC11]]
 
 ##### 3. Thesis
 

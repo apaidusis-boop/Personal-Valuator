@@ -206,7 +206,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\RBRY11_DOSSIE.md` (cemete
 
 #### 📑 RBRY11 — RBR CRI
 
-> Generated **2026-04-26** by `ii dossier RBRY11`. Cross-links: [[RBRY11]] · [[RBRY11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier RBRY11`. Cross-links: [[RBRY11]] · [[RBRY11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -224,7 +224,7 @@ RBRY11 (RBR CRI) é fundo papel high-yield agressivo com DY 15,06% — o mais al
 
 **🏛️ MIXED** (low confidence, 40.0% consensus)
 
-→ Detalhe: [[RBRY11_IC_DEBATE]]
+→ Detalhe: [[RBRY11]]
 
 ##### 3. Thesis
 

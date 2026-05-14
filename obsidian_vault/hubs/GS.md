@@ -132,7 +132,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-05-01 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\GS_2026-05-01.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[GS_STORY|GS]]
+#### Hank Tier-One sobre [[GS|GS]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -168,15 +168,15 @@ GS tem um P/E de 16.86x, acima do limite de 12x, e um P/B de 2.57x, além do lim
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[GS_STORY|📖 Storytelling completo (8 actos)]]
-- [[GS_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[GS|📖 Storytelling completo (8 actos)]]
+- [[GS|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -184,7 +184,7 @@ GS tem um P/E de 16.86x, acima do limite de 12x, e um P/B de 2.57x, além do lim
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\GS_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[GS_STORY|GS]]
+#### Mariana Macro sobre [[GS|GS]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -215,15 +215,15 @@ Goldman Sachs reports robust Q1 earnings with ROE of 19.8%, yet faces volatility
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[GS_STORY|📖 Storytelling completo (8 actos)]]
-- [[GS_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[GS|📖 Storytelling completo (8 actos)]]
+- [[GS|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -231,7 +231,7 @@ Goldman Sachs reports robust Q1 earnings with ROE of 19.8%, yet faces volatility
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\GS_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[GS_STORY|GS]]
+#### Pedro Alocação sobre [[GS|GS]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -262,15 +262,15 @@ A empresa apresenta um ROE de 14.6% e P/E de 16.86, acima da média do setor, re
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[GS_STORY|📖 Storytelling completo (8 actos)]]
-- [[GS_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[GS|📖 Storytelling completo (8 actos)]]
+- [[GS|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -278,7 +278,7 @@ A empresa apresenta um ROE de 14.6% e P/E de 16.86, acima da média do setor, re
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\GS_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[GS_STORY|GS]]
+#### Valentina Prudente sobre [[GS|GS]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -310,15 +310,15 @@ ROE de 14,6% está abaixo da mediana do setor (16,5%), enquanto P/E de 16,86 é 
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[GS_STORY|📖 Storytelling completo (8 actos)]]
-- [[GS_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[GS|📖 Storytelling completo (8 actos)]]
+- [[GS|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -329,7 +329,7 @@ ROE de 14,6% está abaixo da mediana do setor (16,5%), enquanto P/E de 16,86 é 
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[GS_STORY|GS]] (Goldman Sachs)
+#### Council Debate — [[GS|GS]] (Goldman Sachs)
 
 **Final stance**: 🔴 **AVOID**  
 **Confidence**: `low`  
@@ -338,10 +338,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -361,7 +361,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Headline**: _P/E e P/B acima do limite; ROE abaixo da média setorial_
@@ -380,7 +380,7 @@ GS tem um P/E de 16.86x, acima do limite de 12x, e um P/B de 2.57x, além do lim
 **Veto signals**:
 - 🚫 P/B simples sobrestima o valor real
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _Strong earnings growth but geopolitical risks persist_
@@ -396,7 +396,7 @@ Goldman Sachs reports robust Q1 earnings with ROE of 19.8%, yet faces volatility
 - Iran war volatility affecting rates business
 - Geopolitical risks to global trade and finance
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Goldman Sachs mantém posição de HOLD com riscos geopolíticos_
@@ -412,7 +412,7 @@ ROE de 14,6% está abaixo da mediana do setor (16,5%), enquanto P/E de 16,86 é 
 - Impacto de conflitos geopolíticos no negócio da empresa
 - Desempenho abaixo da média do setor em termos de ROE
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Goldman Sachs mantém-se atraente com sólidos fundamentos financeiros_
@@ -430,7 +430,7 @@ A empresa apresenta um ROE de 14.6% e P/E de 16.86, acima da média do setor, re
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -441,7 +441,7 @@ _Banks US Specialist_
 - P/E e P/B acima do limite não são aceitáveis mesmo com ROE forte
 - Pedro Alocação
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -450,7 +450,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - P/B simples sobrestima o valor real - Hank Tier-One; razão: O uso de métricas simplistas como P/B pode não capturar completamente a complexidade dos ativos intangíveis e goodwill em empresas financeiras, especialmente quando enfrentam volatilidades geopolíticas
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -460,7 +460,7 @@ _Chief Risk Officer_
 - P/E e P/B acima do limite; ROE abaixo da média setorial - Veto: a métrica P/B sobrestima o valor real por não considerar goodwill significativo
 - Volatilidade do negócio de taxas devido à guerra do Irã - A volatilidade é temporária e não indica perda permanente de capital
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -471,12 +471,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[GS_STORY|📖 Storytelling completo (8 actos)]]
+- [[GS|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[GS_2026-05-01|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[GS_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[GS_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[GS_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[GS|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[GS|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[GS|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[GS|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -645,10 +645,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/GS_2026-05-01.md`._
 
@@ -896,7 +896,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS.md` (cemetery archive)
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[JPM]] · [[NU]] · [[TFC]]
 - Vídeos: [[videos/2026-04-14_virtual-asset_klabin-mudou-o-plano-nova-ordem-de-dividendos-e-lucros-klbn11-ou-klbn4|KLABIN MUDOU O PLANO? NOVA ORDEM DE DIVI]] · [[videos/2026-04-14_o-primo-rico_por-que-o-dolar-esta-caindo-tanto-vai-cair-ainda-mais|POR QUE O DÓLAR ESTÁ CAINDO TANTO? (vai ]] · [[videos/2025-08-01_suno-noticias_banco-do-brasil-bbas3-vai-decepcionar-projecoes-para-grandes-bancos|BANCO DO BRASIL (BBAS3) vai DECEPCIONAR?]]
-- 🎯 **Thesis**: [[wiki/holdings/GS|thesis deep]]
+- 🎯 **Thesis**: [[GS|thesis deep]]
 
 ##### Snapshot
 
@@ -1028,7 +1028,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GS_DOSSIE.md` (cemetery a
 
 #### 📑 GS — Goldman Sachs
 
-> Generated **2026-04-26** by `ii dossier GS`. Cross-links: [[GS]] · [[GS_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier GS`. Cross-links: [[GS]] · [[GS]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1046,7 +1046,7 @@ GS negoceia a P/E 16.92 com DY 1.67% e ROE 14.59%, IC HOLD com alta confiança (
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[GS_IC_DEBATE]]
+→ Detalhe: [[GS]]
 
 ##### Tutor
 

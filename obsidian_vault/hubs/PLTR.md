@@ -80,7 +80,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[PLTR_STORY|PLTR]]
+#### Charlie Compounder sobre [[PLTR|PLTR]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -112,15 +112,15 @@ ROE de 26% e Piotroski F-Score de 8/9 sugerem robustez operacional, mas P/E de 2
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLTR_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLTR_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[PLTR|📖 Storytelling completo (8 actos)]]
+- [[PLTR|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -128,7 +128,7 @@ ROE de 26% e Piotroski F-Score de 8/9 sugerem robustez operacional, mas P/E de 2
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[PLTR_STORY|PLTR]]
+#### Mariana Macro sobre [[PLTR|PLTR]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -159,15 +159,15 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLTR_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLTR_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[PLTR|📖 Storytelling completo (8 actos)]]
+- [[PLTR|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -175,7 +175,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[PLTR_STORY|PLTR]]
+#### Pedro Alocação sobre [[PLTR|PLTR]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -209,15 +209,15 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[PLTR_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLTR_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[PLTR|📖 Storytelling completo (8 actos)]]
+- [[PLTR|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -225,7 +225,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLTR_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[PLTR_STORY|PLTR]]
+#### Valentina Prudente sobre [[PLTR|PLTR]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -259,15 +259,15 @@ ROE de 26% e Piotroski F-Score de 8/9 indicam solidez financeira. Z-Score seguro
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLTR_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLTR_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[PLTR|📖 Storytelling completo (8 actos)]]
+- [[PLTR|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -333,7 +333,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[PLTR_STORY|PLTR]] (Palantir)
+#### Council Debate — [[PLTR|PLTR]] (Palantir)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -342,10 +342,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md` (cemet
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -366,7 +366,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md` (cemet
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟡 **HOLD**
+###### [[council.industrials-us]] — 🟡 **HOLD**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Palantir mantém potencial de crescimento apesar de múltiplos elevados_
@@ -382,7 +382,7 @@ ROE de 26% e Piotroski F-Score de 8/9 sugerem robustez operacional, mas P/E de 2
 - Múltiplos elevados (P/E e P/B)
 - ND/EBITDA negativo
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Palantir mantém posição de liderança em soluções analíticas avançadas_
@@ -398,7 +398,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 - Múltiplo P/E de 231 é elevado
 - Risco de desaceleração nas taxas de crescimento
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Palantir mantém posição de liderança em análise de dados_
@@ -414,7 +414,7 @@ ROE de 26% e Piotroski F-Score de 8/9 indicam solidez financeira. Z-Score seguro
 - Múltiplo P/E elevado de 231,6984
 - Desaceleração nas taxas de crescimento futuras
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Palantir mantém posição de liderança em análise de dados_
@@ -432,7 +432,7 @@ A Palantir demonstra forte geração de valor com ROE de 26% e BVPS de $3,089. A
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟡 **HOLD**
+###### [[council.industrials-us]] — 🟡 **HOLD**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -442,7 +442,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 **Desafiou**:
 - A demanda por suas soluções continua alta.
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -451,7 +451,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - Múltiplos elevados (P/E e P/B) | ND/EBITDA negativo - Charlie Compounder | Esses fatores são preocupantes, mas a demanda por soluções analíticas avançadas continua alta e a empresa mantém sua liderança em mercados estratégicos
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -463,7 +463,7 @@ _Chief Risk Officer_
 
 **Evidência nova**: A parceria com a Nvidia e novos contratos governamentais indicam um pipeline robusto de receita futura
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -477,12 +477,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[PLTR_STORY|📖 Storytelling completo (8 actos)]]
+- [[PLTR|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[PLTR_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[PLTR_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[PLTR_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[PLTR_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[PLTR|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[PLTR|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[PLTR|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[PLTR|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -595,10 +595,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_STORY.md` (cemeter
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/PLTR_2026-05-01.md`._
 
@@ -826,7 +826,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR.md` (cemetery archiv
 - Sector: [[sectors/Technology|Technology]]
 - Market: [[markets/US|US]]
 - Peers: [[AAPL]] · [[ACN]] · [[TSM]] · [[IBM]] · [[JKHY]]
-- 🎯 **Thesis**: [[wiki/holdings/PLTR|thesis deep]]
+- 🎯 **Thesis**: [[PLTR|thesis deep]]
 
 ##### Snapshot
 
@@ -960,7 +960,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLTR_DOSSIE.md` (cemetery
 
 #### 📑 PLTR — Palantir
 
-> Generated **2026-04-26** by `ii dossier PLTR`. Cross-links: [[PLTR]] · [[PLTR_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PLTR`. Cross-links: [[PLTR]] · [[PLTR]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -978,7 +978,7 @@ PLTR negoceia P/E 227.13 e P/B 46.32, sem dividendo, ROE 25.98% — pure-growth 
 
 **🏛️ AVOID** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[PLTR_IC_DEBATE]]
+→ Detalhe: [[PLTR]]
 
 ##### 3. Thesis
 

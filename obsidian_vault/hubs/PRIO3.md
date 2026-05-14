@@ -145,7 +145,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-04-30 · Council review · Aderbaldo Cíclico
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
-#### Aderbaldo Cíclico sobre [[PRIO3_STORY|PRIO3]]
+#### Aderbaldo Cíclico sobre [[PRIO3|PRIO3]]
 
 **Função no debate**: Commodities BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -173,15 +173,15 @@ P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation.
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PRIO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[PRIO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Aderbaldo Cíclico|👤 Minha página de persona]]
+- [[PRIO3|📖 Storytelling completo (8 actos)]]
+- [[PRIO3|🏛️ Transcript do Council debate]]
+- [[council.commodities-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -189,7 +189,7 @@ P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation.
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[PRIO3_STORY|PRIO3]]
+#### Mariana Macro sobre [[PRIO3|PRIO3]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -217,15 +217,15 @@ P/E ratio of 23.97 and P/B of 2.09 are above peer medians, indicating potential 
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PRIO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[PRIO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[PRIO3|📖 Storytelling completo (8 actos)]]
+- [[PRIO3|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -233,7 +233,7 @@ P/E ratio of 23.97 and P/B of 2.09 are above peer medians, indicating potential 
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[PRIO3_STORY|PRIO3]]
+#### Pedro Alocação sobre [[PRIO3|PRIO3]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -270,15 +270,15 @@ PRIO3's P/E of 23.97 and P/B of 2.09 exceed peer medians, suggesting overvaluati
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[PRIO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[PRIO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[PRIO3|📖 Storytelling completo (8 actos)]]
+- [[PRIO3|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -286,7 +286,7 @@ PRIO3's P/E of 23.97 and P/B of 2.09 exceed peer medians, suggesting overvaluati
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PRIO3_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[PRIO3_STORY|PRIO3]]
+#### Valentina Prudente sobre [[PRIO3|PRIO3]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -318,15 +318,15 @@ A PRIO3 tem um Piotroski F-Score de apenas 2/9, indicando fragilidade operaciona
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PRIO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[PRIO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[PRIO3|📖 Storytelling completo (8 actos)]]
+- [[PRIO3|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -401,7 +401,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[PRIO3_STORY|PRIO3]] (PRIO3)
+#### Council Debate — [[PRIO3|PRIO3]] (PRIO3)
 
 **Final stance**: ⚪ **NEEDS_DATA**  
 **Confidence**: `low`  
@@ -410,10 +410,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Aderbaldo Cíclico]] — _Commodities BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.commodities-br]] — _Commodities BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -436,7 +436,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Aderbaldo Cíclico]] — 🔴 **AVOID**
+###### [[council.commodities-br]] — 🔴 **AVOID**
 _Commodities BR Specialist_
 
 **Headline**: _PRIO3 overvalued relative to sector peers_
@@ -452,7 +452,7 @@ P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation.
 - High P/E ratio relative to peers
 - Below average ROE
 
-###### [[Mariana Macro]] — 🔴 **AVOID**
+###### [[council.macro]] — 🔴 **AVOID**
 _Chief Macro Strategist_
 
 **Headline**: _PRIO3 overvalued relative to sector peers_
@@ -468,7 +468,7 @@ P/E ratio of 23.97 and P/B of 2.09 are above peer medians, indicating potential 
 - High P/E and P/B ratios
 - Weak Altman Z-Score indicating financial distress
 
-###### [[Valentina Prudente]] — 🔴 **AVOID**
+###### [[risk.drift-audit]] — 🔴 **AVOID**
 _Chief Risk Officer_
 
 **Headline**: _PRIO3 apresenta riscos financeiros significativos_
@@ -483,7 +483,7 @@ A PRIO3 tem um Piotroski F-Score de apenas 2/9, indicando fragilidade operaciona
 - Margem EBIT baixa e inconsistente nos últimos trimestres
 - Razão dívida bruta/EBITDA elevada (3,12)
 
-###### [[Pedro Alocação]] — 🔴 **AVOID**
+###### [[council.allocation]] — 🔴 **AVOID**
 _Capital Allocator_
 
 **Headline**: _PRIO3 overvalued relative to sector peers_
@@ -501,19 +501,19 @@ PRIO3's P/E of 23.97 and P/B of 2.09 exceed peer medians, suggesting overvaluati
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Aderbaldo Cíclico]] — 🔴 **AVOID**
+###### [[council.commodities-br]] — 🔴 **AVOID**
 _Commodities BR Specialist_
 
 **Concordou com**:
 - P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation. - Mariana Macro
 
-###### [[Mariana Macro]] — 🔴 **AVOID**
+###### [[council.macro]] — 🔴 **AVOID**
 _Chief Macro Strategist_
 
 **Concordou com**:
 - P/E ratio of 23.97 is above the median peer P/E of 8x, indicating overvaluation. ROE at 8.7% is also below peer median of 18% - Aderbaldo Cíclico
 
-###### [[Valentina Prudente]] — 🔴 **AVOID**
+###### [[risk.drift-audit]] — 🔴 **AVOID**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -524,7 +524,7 @@ _Chief Risk Officer_
 - High ND/EBITDA suggests high leverage | Low ROE relative to peers
 - Pedro Alocação - The low ROE and high ND/EBITDA are concerning, but the company's recent operational performance shows variability which may not fully reflect long-term potential. Additionally, the Piotroski F-Score of 2 out of 9 is a significant red flag for operational health.
 
-###### [[Pedro Alocação]] — ⚪ **NEEDS_DATA** *(stance flipped)*
+###### [[council.allocation]] — ⚪ **NEEDS_DATA** *(stance flipped)*
 _Capital Allocator_
 
 **Concordou com**:
@@ -541,12 +541,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[PRIO3_STORY|📖 Storytelling completo (8 actos)]]
+- [[PRIO3|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[PRIO3_2026-04-30|Aderbaldo Cíclico]] em [[Aderbaldo Cíclico]]/reviews/
-  - [[PRIO3_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[PRIO3_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[PRIO3_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[PRIO3|Aderbaldo Cíclico]] em [[council.commodities-br]]/reviews/
+  - [[PRIO3|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[PRIO3|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[PRIO3|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -725,10 +725,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Aderbaldo Cíclico]] — _Commodities BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.commodities-br]] — _Commodities BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/PRIO3_2026-04-30.md`._
 
@@ -973,7 +973,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3.md` (cemetery archi
 - Market: [[markets/BR|BR]]
 - Peers: [[PETR4]]
 - Vídeos: [[videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/2026-04-02_o-primo-rico_se-prepare-tudo-vai-ficar-mais-caro|SE PREPARE, TUDO VAI FICAR MAIS CARO]] · [[videos/2026-03-31_o-primo-rico_fique-rico-com-as-eleicoes-em-2026-onde-investir-durante-a-crise|FIQUE RICO COM AS ELEIÇÕES EM 2026 | Ond]] · [[videos/2026-03-18_o-primo-rico_a-greve-dos-caminhoneiros-vai-paralisar-o-brasil-como-vai-afetar-seu-b|A GREVE DOS CAMINHONEIROS VAI PARALISAR ]] · [[videos/2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-ira-o-que-isso-significa-pro-se|E SE OS EUA PERDEREM A GUERRA CONTRA O I]]
-- 🎯 **Thesis**: [[wiki/holdings/PRIO3|thesis deep]]
+- 🎯 **Thesis**: [[PRIO3|thesis deep]]
 
 ##### Snapshot
 
@@ -1136,7 +1136,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PRIO3_DOSSIE.md` (cemeter
 
 _(strategy: not classified)_
 
-> Generated **2026-05-05** by `ii dossier PRIO3`. Cross-links: [[PRIO3]] · [[PRIO3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-05-05** by `ii dossier PRIO3`. Cross-links: [[PRIO3]] · [[PRIO3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1189,7 +1189,7 @@ _(DCF skipped — annual FCF data not available)_
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[PRIO3_IC_DEBATE]]
+→ Detalhe: [[PRIO3]]
 
 ##### 7. Thesis
 

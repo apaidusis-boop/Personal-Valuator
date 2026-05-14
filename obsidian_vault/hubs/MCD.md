@@ -257,7 +257,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCD_DOSSIE.md` (cemetery 
 
 #### 📑 MCD — McDonald's
 
-> Generated **2026-04-26** by `ii dossier MCD`. Cross-links: [[MCD]] · [[MCD_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier MCD`. Cross-links: [[MCD]] · [[MCD]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -275,7 +275,7 @@ McDonald's transaciona a P/E 25.07 com DY 2.43% e streak de 51y (Dividend King) 
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[MCD_IC_DEBATE]]
+→ Detalhe: [[MCD]]
 
 ##### 3. Thesis
 

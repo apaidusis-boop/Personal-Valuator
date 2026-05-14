@@ -216,7 +216,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SANB11_DOSSIE.md` (cemete
 
 #### 📑 SANB11 — Santander BR
 
-> Generated **2026-04-26** by `ii dossier SANB11`. Cross-links: [[SANB11]] · [[SANB11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier SANB11`. Cross-links: [[SANB11]] · [[SANB11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -269,7 +269,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SANB11_DOSSIE.md` (cemete
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[SANB11_IC_DEBATE]]
+→ Detalhe: [[SANB11]]
 
 ##### 5. Thesis
 

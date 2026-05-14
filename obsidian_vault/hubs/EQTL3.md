@@ -349,7 +349,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\EQTL3_DOSSIE.md` (cemeter
 
 #### 📑 EQTL3 — Equatorial
 
-> Generated **2026-04-26** by `ii dossier EQTL3`. Cross-links: [[EQTL3]] · [[EQTL3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier EQTL3`. Cross-links: [[EQTL3]] · [[EQTL3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -367,7 +367,7 @@ EQTL3 negocia a P/E esticado de 45.95 com DY apenas 5.18% e ROE fraco de 6.98%, 
 
 **🏛️ AVOID** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[EQTL3_IC_DEBATE]]
+→ Detalhe: [[EQTL3]]
 
 ##### 3. Thesis
 

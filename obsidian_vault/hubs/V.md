@@ -344,7 +344,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\V_DOSSIE.md` (cemetery ar
 
 #### 📑 V — Visa
 
-> Generated **2026-04-26** by `ii dossier V`. Cross-links: [[V]] · [[V_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier V`. Cross-links: [[V]] · [[V]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -362,7 +362,7 @@ Visa negoceia a P/E 29.08 com DY 0.81% — fora do screen US (P/E≤20, DY≥2.5
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[V_IC_DEBATE]]
+→ Detalhe: [[V]]
 
 ##### Tutor
 

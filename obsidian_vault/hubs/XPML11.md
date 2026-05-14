@@ -76,7 +76,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[XPML11_STORY|XPML11]]
+#### Lourdes Aluguel sobre [[XPML11|XPML11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -109,15 +109,15 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -125,7 +125,7 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[XPML11_STORY|XPML11]]
+#### Mariana Macro sobre [[XPML11|XPML11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -156,15 +156,15 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -172,7 +172,7 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[XPML11_STORY|XPML11]]
+#### Pedro Alocação sobre [[XPML11|XPML11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -205,15 +205,15 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -221,7 +221,7 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[XPML11_STORY|XPML11]]
+#### Valentina Prudente sobre [[XPML11|XPML11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -252,15 +252,15 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -268,7 +268,7 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[XPML11_STORY|XPML11]]
+#### Lourdes Aluguel sobre [[XPML11|XPML11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -301,15 +301,15 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -317,7 +317,7 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[XPML11_STORY|XPML11]]
+#### Mariana Macro sobre [[XPML11|XPML11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -348,15 +348,15 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -364,7 +364,7 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[XPML11_STORY|XPML11]]
+#### Pedro Alocação sobre [[XPML11|XPML11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -397,15 +397,15 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -413,7 +413,7 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[XPML11_STORY|XPML11]]
+#### Valentina Prudente sobre [[XPML11|XPML11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -444,15 +444,15 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
-- [[XPML11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
+- [[XPML11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -539,7 +539,7 @@ Delta Report — XPML11 | hoje vs run anterior (2026-05-07)
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[XPML11_STORY|XPML11]] (XP Malls)
+#### Council Debate — [[XPML11|XPML11]] (XP Malls)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -548,10 +548,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -571,7 +571,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _XPML11 mantém DY atraente com gestão sólida_
@@ -587,7 +587,7 @@ Dividend yield de 9,9% e crescimento contínuo na receita sustentam posição, a
 - vacância física e financeira não detalhadas
 - impacto de eventos externos no setor
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _Dividend yield sustenta posição atual_
@@ -603,7 +603,7 @@ XP Malls mantém DY de 9.9% e pagamentos consistentes, com peso de 4.9% no portf
 - Web context não relevante para XP Malls
 - Falta de insights macro diretamente relacionados ao ticker
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Dividend yield sustenta posição, mas preocupações operacionais persistem_
@@ -619,7 +619,7 @@ XP Malls mantém DY atraente de 9,9% com histórico de dividendos consistentes, 
 - Piotroski F-Score indica fragilidade financeira
 - Notícias sobre destocking e consolidação em Asia sugerem desafios de negócios
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _DY sustentável e margens sólidas_
@@ -637,7 +637,7 @@ XPML11 apresenta DY de 9,9% com cinco anos consecutivos de dividendos pagos, ind
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
@@ -648,7 +648,7 @@ _FIIs BR Specialist_
 - Piotroski F-Score indica fragilidade financeira | Valentina Prudente
 - A aplicação do Piotroski F-Score a FIIs pode não ser adequada devido à natureza diferenciada desses ativos em relação às empresas tradicionais.
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -657,7 +657,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - Piotroski F-Score indica fragilidade financeira | Notícias sobre destocking e consolidação em Asia sugerem desafios de negócios - Valentina Prudente: A notícia mencionada não é diretamente relevante para XP Malls, pois trata mais da situação geral do setor e não especifica impacto direto na empresa.
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -666,7 +666,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - Web context não relevante para XPML11 | Lack of direct peer comparison data - Pedro Alocação | Falta de análise detalhada sobre o impacto da vacância física e financeira no desempenho futuro do fundo
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -679,12 +679,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[XPML11_STORY|📖 Storytelling completo (8 actos)]]
+- [[XPML11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[XPML11_2026-05-01|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[XPML11_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[XPML11_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[XPML11_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[XPML11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[XPML11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[XPML11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[XPML11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -779,10 +779,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/XPML11_2026-05-01.md`._
 
@@ -1039,7 +1039,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11.md` (cemetery arch
 - Sector: [[sectors/Shopping|Shopping]]
 - Market: [[markets/BR|BR]]
 - Peers: [[PMLL11]] · [[VISC11]]
-- 🎯 **Thesis**: [[wiki/holdings/XPML11|thesis deep]]
+- 🎯 **Thesis**: [[XPML11|thesis deep]]
 
 ##### Snapshot
 
@@ -1179,7 +1179,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPML11_DOSSIE.md` (cemete
 
 #### 📑 XPML11 — XP Malls
 
-> Generated **2026-04-26** by `ii dossier XPML11`. Cross-links: [[XPML11]] · [[XPML11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier XPML11`. Cross-links: [[XPML11]] · [[XPML11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1197,7 +1197,7 @@ XPML11 é o FII de Shopping (XP Malls) com **DY 9.94%** e streak de 5 anos de di
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[XPML11_IC_DEBATE]]
+→ Detalhe: [[XPML11]]
 
 ##### 3. Conviction breakdown
 

@@ -74,7 +74,7 @@ _(zero events em DB)_
 #### 2026-04-30 · Council review · Lourdes Aluguel
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\PVBI11_2026-04-30.md` (cemetery archive)_
 
-#### Lourdes Aluguel sobre [[PVBI11_STORY|PVBI11]]
+#### Lourdes Aluguel sobre [[PVBI11|PVBI11]]
 
 **Função no debate**: FIIs BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -103,15 +103,15 @@ Dividendos consistentes e P/E baixo sugerem valor atraente; entrada em R$79,04 m
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PVBI11_STORY|📖 Storytelling completo (8 actos)]]
-- [[PVBI11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Lourdes Aluguel|👤 Minha página de persona]]
+- [[PVBI11|📖 Storytelling completo (8 actos)]]
+- [[PVBI11|🏛️ Transcript do Council debate]]
+- [[council.fiis-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -119,7 +119,7 @@ Dividendos consistentes e P/E baixo sugerem valor atraente; entrada em R$79,04 m
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PVBI11_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[PVBI11_STORY|PVBI11]]
+#### Mariana Macro sobre [[PVBI11|PVBI11]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -147,15 +147,15 @@ PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete 
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PVBI11_STORY|📖 Storytelling completo (8 actos)]]
-- [[PVBI11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[PVBI11|📖 Storytelling completo (8 actos)]]
+- [[PVBI11|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -163,7 +163,7 @@ PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete 
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PVBI11_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[PVBI11_STORY|PVBI11]]
+#### Pedro Alocação sobre [[PVBI11|PVBI11]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -191,15 +191,15 @@ Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[PVBI11_STORY|📖 Storytelling completo (8 actos)]]
-- [[PVBI11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[PVBI11|📖 Storytelling completo (8 actos)]]
+- [[PVBI11|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -207,7 +207,7 @@ Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PVBI11_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[PVBI11_STORY|PVBI11]]
+#### Valentina Prudente sobre [[PVBI11|PVBI11]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -236,15 +236,15 @@ Dividend yield de 6% e P/E de 8,10 sugerem valorização atraente; sete anos con
 
 ##### Quem mais estava na sala
 
-- [[Lourdes Aluguel]] (FIIs BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.fiis-br]] (FIIs BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PVBI11_STORY|📖 Storytelling completo (8 actos)]]
-- [[PVBI11_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[PVBI11|📖 Storytelling completo (8 actos)]]
+- [[PVBI11|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -255,7 +255,7 @@ Dividend yield de 6% e P/E de 8,10 sugerem valorização atraente; sete anos con
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[PVBI11_STORY|PVBI11]] (VBI Prime Properties)
+#### Council Debate — [[PVBI11|PVBI11]] (VBI Prime Properties)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -264,10 +264,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_COUNCIL.md` (cem
 
 ##### Quem esteve na sala
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.fiis-br]] — _FIIs BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -283,7 +283,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_COUNCIL.md` (cem
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Headline**: _PVBI11 mantém atratividade com DY sustentável_
@@ -299,7 +299,7 @@ Dividendos consistentes e P/E baixo sugerem valor atraente; entrada em R$79,04 m
 - Mercado brasileiro volátil
 - Dependência do setor imobiliário
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Dividendos sustentáveis e crescimento acionário_
@@ -315,7 +315,7 @@ PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete 
 - Dependência do mercado brasileiro
 - Volatilidade cambial
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _PVBI11 mantém atratividade com dividendos sustentáveis_
@@ -331,7 +331,7 @@ Dividend yield de 6% e P/E de 8,10 sugerem valorização atraente; sete anos con
 - Dependência do mercado imobiliário brasileiro
 - Possível volatilidade econômica
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _PVBI11 mantém atratividade com DY sustentável_
@@ -349,27 +349,27 @@ Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Lourdes Aluguel]] — 🟢 **BUY**
+###### [[council.fiis-br]] — 🟢 **BUY**
 _FIIs BR Specialist_
 
 **Concordou com**:
 - Dividendos sustentáveis e crescimento acionário - Mariana Macro
 - PVBI11 oferece P/E de 8,33 e DY de 6%, com consistência em dividendos por sete anos - Valentina Prudente
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
 - Dividendos consistentes e P/E baixo sugerem valorização; sete anos consecutivos de pagamentos - Valentina Prudente
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
 - Dividendos consistentes e P/E baixo sugerem valorização; market cap de US$426M oferece base sólida.
 - Pedro Alocação
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -377,12 +377,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[PVBI11_STORY|📖 Storytelling completo (8 actos)]]
+- [[PVBI11|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[PVBI11_2026-04-30|Lourdes Aluguel]] em [[Lourdes Aluguel]]/reviews/
-  - [[PVBI11_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[PVBI11_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[PVBI11_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[PVBI11|Lourdes Aluguel]] em [[council.fiis-br]]/reviews/
+  - [[PVBI11|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[PVBI11|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[PVBI11|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -489,10 +489,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_STORY.md` (cemet
 
 ##### Quem analisou este ticker
 
-- [[Lourdes Aluguel]] — _FIIs BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.fiis-br]] — _FIIs BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/PVBI11_2026-04-30.md`._
 
@@ -753,7 +753,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PVBI11.md` (cemetery arch
 
 - Sector: [[sectors/Corporativo|Corporativo]]
 - Market: [[markets/BR|BR]]
-- 🎯 **Thesis**: [[wiki/holdings/PVBI11|thesis deep]]
+- 🎯 **Thesis**: [[PVBI11|thesis deep]]
 
 ##### Snapshot
 
@@ -894,7 +894,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PVBI11_DOSSIE.md` (cemete
 
 #### 📑 PVBI11 — VBI Prime Properties
 
-> Generated **2026-04-26** by `ii dossier PVBI11`. Cross-links: [[PVBI11]] · [[PVBI11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PVBI11`. Cross-links: [[PVBI11]] · [[PVBI11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -912,7 +912,7 @@ PVBI11 é FII Corporativo (VBI Prime, lajes Faria Lima/SP) com **DY 5.95%** abai
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[PVBI11_IC_DEBATE]]
+→ Detalhe: [[PVBI11]]
 
 ##### 3. Thesis
 

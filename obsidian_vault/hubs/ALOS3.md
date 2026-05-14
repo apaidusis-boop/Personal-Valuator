@@ -352,7 +352,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ALOS3_DOSSIE.md` (cemeter
 
 #### 📑 ALOS3 — Allos
 
-> Generated **2026-04-26** by `ii dossier ALOS3`. Cross-links: [[ALOS3]] · [[ALOS3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ALOS3`. Cross-links: [[ALOS3]] · [[ALOS3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -370,7 +370,7 @@ ALOS3 negocia a P/E 19.27 e P/B 1.20 com DY 7.17% (acima do floor 6%) e streak 6
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[ALOS3_IC_DEBATE]]
+→ Detalhe: [[ALOS3]]
 
 ##### 3. Thesis
 

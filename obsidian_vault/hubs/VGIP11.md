@@ -206,7 +206,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VGIP11_DOSSIE.md` (cemete
 
 #### 📑 VGIP11 — Valora CRI Plus
 
-> Generated **2026-04-26** by `ii dossier VGIP11`. Cross-links: [[VGIP11]] · [[VGIP11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier VGIP11`. Cross-links: [[VGIP11]] · [[VGIP11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -224,7 +224,7 @@ VGIP11 (Valora CRI Plus) é fundo papel high-yield com DY 13,50% e P/E 8,04 — 
 
 **🏛️ BUY** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[VGIP11_IC_DEBATE]]
+→ Detalhe: [[VGIP11]]
 
 ##### 3. Thesis
 

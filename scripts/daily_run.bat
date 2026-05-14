@@ -204,6 +204,14 @@ echo [HUBS-INDEX] build_tickers_index.py >> "%LOG%"
 "%PY%" scripts\build_tickers_index.py >> "%LOG%" 2>&1
 echo HUBS-INDEX exit code: %errorlevel% >> "%LOG%"
 
+REM Wikilink rewriter — kills ghost graph nodes that re-appear when build_merged_hubs
+REM re-absorbs content from cemetery (which still contains [[Charlie Compounder]]
+REM and [[<TK>_DOSSIE]] in its text). Must run AFTER build_merged_hubs.
+echo. >> "%LOG%"
+echo [HUBS-WIKILINKS] wikilink_rewrite.py  ^(rewrite persona names + ticker suffixes^) >> "%LOG%"
+"%PY%" scripts\wikilink_rewrite.py >> "%LOG%" 2>&1
+echo HUBS-WIKILINKS exit code: %errorlevel% >> "%LOG%"
+
 echo. >> "%LOG%"
 echo [ROTATE] rotate_logs.py --days 30 >> "%LOG%"
 "%PY%" scripts\rotate_logs.py --days 30 >> "%LOG%" 2>&1

@@ -132,7 +132,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\O_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[O_STORY|O]]
+#### Mariana Macro sobre [[O|O]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -163,15 +163,15 @@ Realty Income offers a consistent 5% dividend yield with 113 consecutive quarter
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.reits-us]] (REITs US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[O_STORY|📖 Storytelling completo (8 actos)]]
-- [[O_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[O|📖 Storytelling completo (8 actos)]]
+- [[O|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -179,7 +179,7 @@ Realty Income offers a consistent 5% dividend yield with 113 consecutive quarter
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\O_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[O_STORY|O]]
+#### Pedro Alocação sobre [[O|O]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -215,15 +215,15 @@ Realty Income offers a stable dividend with a long streak of increases, but its 
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.reits-us]] (REITs US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[O_STORY|📖 Storytelling completo (8 actos)]]
-- [[O_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[O|📖 Storytelling completo (8 actos)]]
+- [[O|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -231,7 +231,7 @@ Realty Income offers a stable dividend with a long streak of increases, but its 
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\O_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[O_STORY|O]]
+#### Valentina Prudente sobre [[O|O]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -265,15 +265,15 @@ P/E ratio of 54.91 and P/B of 1.52 indicate overvaluation, yet the company's str
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.reits-us]] (REITs US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[O_STORY|📖 Storytelling completo (8 actos)]]
-- [[O_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[O|📖 Storytelling completo (8 actos)]]
+- [[O|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -281,7 +281,7 @@ P/E ratio of 54.91 and P/B of 1.52 indicate overvaluation, yet the company's str
 #### 2026-05-01 · Council review · Walter Triple-Net
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\O_2026-05-01.md` (cemetery archive)_
 
-#### Walter Triple-Net sobre [[O_STORY|O]]
+#### Walter Triple-Net sobre [[O|O]]
 
 **Função no debate**: REITs US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -314,15 +314,15 @@ Realty Income offers a stable 5% dividend yield with 113 consecutive quarterly i
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[O_STORY|📖 Storytelling completo (8 actos)]]
-- [[O_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Walter Triple-Net|👤 Minha página de persona]]
+- [[O|📖 Storytelling completo (8 actos)]]
+- [[O|🏛️ Transcript do Council debate]]
+- [[council.reits-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -709,7 +709,7 @@ _source: `videos\2026-03-17_o-primo-rico_e-se-os-eua-perderem-a-guerra-contra-o-
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[O_STORY|O]] (Realty Income)
+#### Council Debate — [[O|O]] (Realty Income)
 
 **Final stance**: 🟡 **HOLD**  
 **Confidence**: `high`  
@@ -718,10 +718,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md` (cemetery
 
 ##### Quem esteve na sala
 
-- [[Walter Triple-Net]] — _REITs US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.reits-us]] — _REITs US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -738,7 +738,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md` (cemetery
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Walter Triple-Net]] — 🟡 **HOLD**
+###### [[council.reits-us]] — 🟡 **HOLD**
 _REITs US Specialist_
 
 **Headline**: _Solid dividend yield and consistent performance but high P/E ratio_
@@ -754,7 +754,7 @@ Realty Income offers a stable 5% dividend yield with 113 consecutive quarterly i
 - High P/E ratio
 - Increasing interest expense risk
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _Realty Income maintains steady dividend but faces rising interest expense_
@@ -770,7 +770,7 @@ Realty Income offers a consistent 5% dividend yield with 113 consecutive quarter
 - rising interest expense of $1.13 billion in 2025
 - recent legal officer transition
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _Realty Income shows stable dividend but faces rising interest expense_
@@ -786,7 +786,7 @@ P/E ratio of 54.91 and P/B of 1.52 indicate overvaluation, yet the company's str
 - Rising interest expense of $1.13 billion in 2025
 - Potential risk from legal officer transition
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Headline**: _Dividend yield attracts but high P/E and ROE raise concerns_
@@ -804,7 +804,7 @@ Realty Income offers a stable dividend with a long streak of increases, but its 
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Walter Triple-Net]] — 🟡 **HOLD**
+###### [[council.reits-us]] — 🟡 **HOLD**
 _REITs US Specialist_
 
 **Concordou com**:
@@ -815,7 +815,7 @@ _REITs US Specialist_
 - P/E ratio of 54.91 indicating potential overvaluation | Low ROE suggesting inefficient use of equity
 - Pedro Alocação - The focus on P/E and ROE may overlook the importance of AFFO (Adjusted Funds From Operations) which is a more relevant metric for REITs
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -824,7 +824,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: Realty Income's recent strategic partnership with Apollo for a $1 billion investment may provide financial flexibility and support future growth initiatives.
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -836,7 +836,7 @@ _Chief Risk Officer_
 - Walter Triple-Net
 - Reason: While a high P/E can indicate overvaluation, it's important to consider Realty Income's consistent dividend history and stable cash flows which may justify this multiple in the context of income-focused investors.
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Concordou com**:
@@ -852,12 +852,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[O_STORY|📖 Storytelling completo (8 actos)]]
+- [[O|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[O_2026-05-01|Walter Triple-Net]] em [[Walter Triple-Net]]/reviews/
-  - [[O_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[O_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[O_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[O|Walter Triple-Net]] em [[council.reits-us]]/reviews/
+  - [[O|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[O|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[O|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -986,10 +986,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_STORY.md` (cemetery a
 
 ##### Quem analisou este ticker
 
-- [[Walter Triple-Net]] — _REITs US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.reits-us]] — _REITs US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/O_2026-05-01.md`._
 
@@ -1211,7 +1211,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O.md` (cemetery archive)_
 - Sector: [[sectors/REIT|REIT]]
 - Market: [[markets/US|US]]
 - Peers: [[PLD]] · [[FRT]]
-- 🎯 **Thesis**: [[wiki/holdings/O|thesis deep]]
+- 🎯 **Thesis**: [[O|thesis deep]]
 
 ##### Snapshot
 
@@ -1329,7 +1329,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\O_DOSSIE.md` (cemetery ar
 
 #### 📑 O — Realty Income
 
-> Generated **2026-04-26** by `ii dossier O`. Cross-links: [[O]] · [[O_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier O`. Cross-links: [[O]] · [[O]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1347,7 +1347,7 @@ Realty Income negoceia a P/E 54.13 (REITs comparam-se via P/AFFO, não EPS) com 
 
 **🏛️ AVOID** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[O_IC_DEBATE]]
+→ Detalhe: [[O]]
 
 ##### Tutor
 

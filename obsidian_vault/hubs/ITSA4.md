@@ -143,7 +143,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-04-30 · Council review · Diego Bancário
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
-#### Diego Bancário sobre [[ITSA4_STORY|ITSA4]]
+#### Diego Bancário sobre [[ITSA4|ITSA4]]
 
 **Função no debate**: Banks BR Specialist (`sector_specialist_secondary`)  
 **Data**: 2026-04-30  
@@ -171,16 +171,16 @@ Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding pers
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
-- [[ITSA4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Diego Bancário|👤 Minha página de persona]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|🏛️ Transcript do Council debate]]
+- [[council.banks-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -188,7 +188,7 @@ Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding pers
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[ITSA4_STORY|ITSA4]]
+#### Mariana Macro sobre [[ITSA4|ITSA4]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -216,16 +216,16 @@ Itaúsa opera com ROE de ~17%, dividend yield alinhado à Selic, e desconto hold
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
-- [[ITSA4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -233,7 +233,7 @@ Itaúsa opera com ROE de ~17%, dividend yield alinhado à Selic, e desconto hold
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[ITSA4_STORY|ITSA4]]
+#### Pedro Alocação sobre [[ITSA4|ITSA4]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -261,16 +261,16 @@ Itaúsa apresenta ROE de 17.6%, DY de 8.91% alinhado com Selic, e margem EBIT al
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
-- [[ITSA4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -278,7 +278,7 @@ Itaúsa apresenta ROE de 17.6%, DY de 8.91% alinhado com Selic, e margem EBIT al
 #### 2026-04-30 · Council review · Tião Galpão
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
-#### Tião Galpão sobre [[ITSA4_STORY|ITSA4]]
+#### Tião Galpão sobre [[ITSA4|ITSA4]]
 
 **Função no debate**: Industrials & Consumer BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -306,16 +306,16 @@ ITSA4 opera com ROE de 17.6%, superior à mediana setorial, e DY de 8.91% alinha
 
 ##### Quem mais estava na sala
 
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
-- [[ITSA4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Tião Galpão|👤 Minha página de persona]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|🏛️ Transcript do Council debate]]
+- [[council.industrials-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -323,7 +323,7 @@ ITSA4 opera com ROE de 17.6%, superior à mediana setorial, e DY de 8.91% alinha
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ITSA4_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[ITSA4_STORY|ITSA4]]
+#### Valentina Prudente sobre [[ITSA4|ITSA4]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -352,16 +352,16 @@ Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto persist
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
-- [[ITSA4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -503,7 +503,7 @@ _source: `videos\2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[ITSA4_STORY|ITSA4]] (Itaúsa)
+#### Council Debate — [[ITSA4|ITSA4]] (Itaúsa)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -512,11 +512,11 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Tião Galpão]] — _Industrials & Consumer BR Specialist_ (`sector_specialist`)
-- [[Diego Bancário]] — _Banks BR Specialist_ (`sector_specialist_secondary`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-br]] — _Industrials & Consumer BR Specialist_ (`sector_specialist`)
+- [[council.banks-br]] — _Banks BR Specialist_ (`sector_specialist_secondary`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -531,7 +531,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Tião Galpão]] — 🟢 **BUY**
+###### [[council.industrials-br]] — 🟢 **BUY**
 _Industrials & Consumer BR Specialist_
 
 **Headline**: _Itaúsa mantém desconto vs NAV e payout estável_
@@ -547,7 +547,7 @@ ITSA4 opera com ROE de 17.6%, superior à mediana setorial, e DY de 8.91% alinha
 - Desconto NAV >25%
 - Mudança gestão Itaúsa
 
-###### [[Diego Bancário]] — 🟢 **BUY**
+###### [[council.banks-br]] — 🟢 **BUY**
 _Banks BR Specialist_
 
 **Headline**: _ITSA4 mantém desconto vs NAV e payout estável_
@@ -563,7 +563,7 @@ Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding pers
 - desconto NAV > 25%
 - Itaú ROE < 12% por 2 trimestres seguidos
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _ITSA4 mantém desconto persistente vs NAV e payout estável_
@@ -579,7 +579,7 @@ Itaúsa opera com ROE de ~17%, dividend yield alinhado à Selic, e desconto hold
 - Desconto NAV > 25% sem catalisador
 - Itaú ROE < 12% em 2Q consecutivos
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Headline**: _ITSA4 mantém desconto vs NAV e payout robusto_
@@ -595,7 +595,7 @@ Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto persist
 - Desconto NAV > 25% sem catalisador
 - Mudança gestão Itaúsa / Villela sair
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _ITSA4 mantém desconto persistente vs NAV e payout estável_
@@ -613,32 +613,32 @@ Itaúsa apresenta ROE de 17.6%, DY de 8.91% alinhado com Selic, e margem EBIT al
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Tião Galpão]] — 🟢 **BUY**
+###### [[council.industrials-br]] — 🟢 **BUY**
 _Industrials & Consumer BR Specialist_
 
 **Concordou com**:
 - Itaúsa apresenta ROE de 17.6%, P/E de 9.41x, DY de 8.8% e desconto holding persistente. Diego Bancário
 
-###### [[Diego Bancário]] — 🟢 **BUY**
+###### [[council.banks-br]] — 🟢 **BUY**
 _Banks BR Specialist_
 
 **Concordou com**:
 - Itaúsa opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic — Tião Galpão
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
 - Itaúsa opera com ROE de ~17%, superior à mediana setorial, e DY de 8.91% alinhado com Selic — Tião Galpão
 
-###### [[Valentina Prudente]] — 🟡 **HOLD**
+###### [[risk.drift-audit]] — 🟡 **HOLD**
 _Chief Risk Officer_
 
 **Concordou com**:
 - Itaúsa opera com ROE de ~17%, DY de 8.91% alinhado à Selic, e desconto holding persistente.
 - Mariana Macro
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -646,13 +646,13 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[ITSA4_STORY|📖 Storytelling completo (8 actos)]]
+- [[ITSA4|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[ITSA4_2026-04-30|Tião Galpão]] em [[Tião Galpão]]/reviews/
-  - [[ITSA4_2026-04-30|Diego Bancário]] em [[Diego Bancário]]/reviews/
-  - [[ITSA4_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[ITSA4_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[ITSA4_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[ITSA4|Tião Galpão]] em [[council.industrials-br]]/reviews/
+  - [[ITSA4|Diego Bancário]] em [[council.banks-br]]/reviews/
+  - [[ITSA4|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[ITSA4|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[ITSA4|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -813,11 +813,11 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Tião Galpão]] — _Industrials & Consumer BR Specialist_
-- [[Diego Bancário]] — _Banks BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-br]] — _Industrials & Consumer BR Specialist_
+- [[council.banks-br]] — _Banks BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/ITSA4_2026-04-30.md`._
 
@@ -1079,7 +1079,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4.md` (cemetery archi
 - Sector: [[sectors/Holding|Holding]]
 - Market: [[markets/BR|BR]]
 - Vídeos: [[videos/2026-04-22_virtual-asset_dividendo-r-1-bi-em-risco-na-sapr11-itsa4-mudou-o-plano-petr4-lucra-co|DIVIDENDO: R$ 1 BI EM RISCO NA SAPR11! I]] · [[videos/2026-04-07_virtual-asset_itsa4-desconto-exagerado-e-cilada-como-comprar-itub3-mais-barato-e-com|ITSA4: DESCONTO EXAGERADO É CILADA? COMO]]
-- 🎯 **Thesis**: [[wiki/holdings/ITSA4|thesis deep]]
+- 🎯 **Thesis**: [[ITSA4|thesis deep]]
 
 ##### Snapshot
 
@@ -1250,7 +1250,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITSA4_DOSSIE.md` (cemeter
 
 #### 📑 ITSA4 — Itaúsa
 
-> Generated **2026-04-26** by `ii dossier ITSA4`. Cross-links: [[ITSA4]] · [[ITSA4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ITSA4`. Cross-links: [[ITSA4]] · [[ITSA4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1268,7 +1268,7 @@ ITSA4 negocia P/E 9.61, DY 8.63% e ROE consolidado 17.57% com streak de 20 anos 
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[ITSA4_IC_DEBATE]]
+→ Detalhe: [[ITSA4]]
 
 ##### 3. Thesis
 

@@ -136,7 +136,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[BRK-B_STORY|BRK-B]] (Berkshire Hathaway B)
+#### Council Debate — [[BRK-B|BRK-B]] (Berkshire Hathaway B)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -145,10 +145,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -169,7 +169,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Berkshire Hathaway B mantém posição atraente com PE de 15 e ROE de 9.8%_
@@ -185,7 +185,7 @@ A Berkshire Hathaway B oferece uma relação preço-benefício atrativa, com um 
 - Dividend yield baixo de 46.2%
 - Relação dívida bruta/EBITDA negativa (-2.15)
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Headline**: _Berkshire Hathaway B mantém posição defensiva com PE razoável_
@@ -201,7 +201,7 @@ A Berkshire Hathaway B oferece um PE de 15.08 e ROE de 9.8%, indicando uma rela�
 - Relação dívida bruta/EBITDA negativa (-2.15)
 - DY baixo de 46.2%
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Berkshire Hathaway B mantém posição de valor com solidez financeira_
@@ -217,7 +217,7 @@ A Berkshire Hathaway B oferece uma relação preço-benefício atrativa (PE=15.2
 - Relação dívida bruta/EBITDA negativa (-2.15)
 - Dividend yield baixo (DY=46.2%)
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Berkshire Hathaway B mantém posição defensiva com PE razoável_
@@ -235,7 +235,7 @@ A Berkshire Hathaway B oferece uma relação preço-benefício atraente (PE de 1
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -248,7 +248,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 - Mariana Macro
 - Pedro Alocação
 
-###### [[Mariana Macro]] — 🟡 **HOLD**
+###### [[council.macro]] — 🟡 **HOLD**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -259,7 +259,7 @@ _Chief Macro Strategist_
 - Dividend yield baixo de 46.2% | Dividend Yield baixo (46.2%)
 - Charlie Compounder, Pedro Alocação e Valentina Prudente - O DY é um indicador relevante para investidores que buscam dividendos, mas não reflete a solidez financeira ou o potencial de crescimento da empresa
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -268,7 +268,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - Dividend yield baixo de 46.2% | DY baixo de 46.2% - Mariana Macro & Pedro Alocação | O valor do dividendo não é o único indicador de valor para uma empresa como Berkshire Hathaway, que foca em crescimento e liquidez a longo prazo.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -279,12 +279,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[BRK-B_STORY|📖 Storytelling completo (8 actos)]]
+- [[BRK-B|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[BRK-B_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[BRK-B_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[BRK-B_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[BRK-B_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[BRK-B|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[BRK-B|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[BRK-B|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[BRK-B|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -441,10 +441,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/BRK-B_2026-05-01.md`._
 
@@ -720,7 +720,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B.md` (cemetery archi
 
 - Sector: [[sectors/Holding|Holding]]
 - Market: [[markets/US|US]]
-- 🎯 **Thesis**: [[wiki/holdings/BRK-B|thesis deep]]
+- 🎯 **Thesis**: [[BRK-B|thesis deep]]
 
 ##### Snapshot
 
@@ -842,7 +842,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_DOSSIE.md` (cemeter
 
 #### 📑 BRK-B — Berkshire Hathaway B
 
-> Generated **2026-04-26** by `ii dossier BRK-B`. Cross-links: [[BRK-B]] · [[BRK-B_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BRK-B`. Cross-links: [[BRK-B]] · [[BRK-B]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -860,7 +860,7 @@ BRK-B negoceia a P/E 15.13 com market cap USD 1.01T e ROE modesto 9.81%, reflexo
 
 **🏛️ HOLD** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[BRK-B_IC_DEBATE]]
+→ Detalhe: [[BRK-B]]
 
 ##### 3. Thesis
 

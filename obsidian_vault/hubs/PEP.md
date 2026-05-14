@@ -195,7 +195,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PEP_DOSSIE.md` (cemetery 
 
 #### 📑 PEP — PepsiCo
 
-> Generated **2026-04-26** by `ii dossier PEP`. Cross-links: [[PEP]] · [[PEP_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PEP`. Cross-links: [[PEP]] · [[PEP]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -213,7 +213,7 @@ PepsiCo transaciona a P/E 24.40 com DY 3.66% e Dividend King de 55y — DY clara
 
 **🏛️ BUY** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[PEP_IC_DEBATE]]
+→ Detalhe: [[PEP]]
 
 ##### 3. Thesis
 

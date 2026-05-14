@@ -292,7 +292,7 @@ _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[JNJ_STORY|JNJ]]
+#### Charlie Compounder sobre [[JNJ|JNJ]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -325,15 +325,15 @@ Johnson & Johnson continua a demonstrar consistência financeira com 65 anos con
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JNJ_STORY|📖 Storytelling completo (8 actos)]]
-- [[JNJ_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[JNJ|📖 Storytelling completo (8 actos)]]
+- [[JNJ|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -341,7 +341,7 @@ Johnson & Johnson continua a demonstrar consistência financeira com 65 anos con
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[JNJ_STORY|JNJ]]
+#### Mariana Macro sobre [[JNJ|JNJ]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -372,15 +372,15 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JNJ_STORY|📖 Storytelling completo (8 actos)]]
-- [[JNJ_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[JNJ|📖 Storytelling completo (8 actos)]]
+- [[JNJ|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -388,7 +388,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[JNJ_STORY|JNJ]]
+#### Pedro Alocação sobre [[JNJ|JNJ]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -422,15 +422,15 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[JNJ_STORY|📖 Storytelling completo (8 actos)]]
-- [[JNJ_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[JNJ|📖 Storytelling completo (8 actos)]]
+- [[JNJ|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -438,7 +438,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JNJ_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[JNJ_STORY|JNJ]]
+#### Valentina Prudente sobre [[JNJ|JNJ]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -470,15 +470,15 @@ Johnson & Johnson continua a demonstrar consistência financeira com um históri
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[JNJ_STORY|📖 Storytelling completo (8 actos)]]
-- [[JNJ_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[JNJ|📖 Storytelling completo (8 actos)]]
+- [[JNJ|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -590,7 +590,7 @@ Delta Report — JNJ | hoje vs run anterior (2026-05-08)
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[JNJ_STORY|JNJ]] (Johnson & Johnson)
+#### Council Debate — [[JNJ|JNJ]] (Johnson & Johnson)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -599,10 +599,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -621,7 +621,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _JNJ mantém sólida tradição de dividendos e crescimento sustentável_
@@ -637,7 +637,7 @@ Johnson & Johnson continua a demonstrar consistência financeira com 65 anos con
 - P/B elevado de 6.81x
 - DY abaixo da média do setor (2.3%)
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _JNJ mantém posição de destaque com sólida história de dividendos_
@@ -653,7 +653,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 - P/B elevado de 6.81
 - impacto potencial de litígios futuros
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _JNJ mantém posição de liderança com sólidos dividendos e crescimento sustentável_
@@ -669,7 +669,7 @@ Johnson & Johnson continua a demonstrar consistência financeira com um históri
 - P/B elevado (6.81x)
 - Possível pressão sobre margens devido a desafios regulatórios e litigiosos
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _JNJ mantém posição de destaque com sólida tradição de dividendos_
@@ -687,7 +687,7 @@ Johnson & Johnson continua a demonstrar consistência financeira e crescimento s
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -698,7 +698,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Evidência nova**: Johnson & Johnson anunciou um aumento de dividendos de 3.1%, demonstrando a continuidade do compromisso com o retorno aos acionistas
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -707,7 +707,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - Possível pressão sobre margens devido a desafios regulatórios e litigiosos — Valentina Prudente | Embora os riscos regulatórios existam, a empresa tem uma forte posição financeira que pode absorver esses custos sem comprometer o crescimento sustentável
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -717,7 +717,7 @@ _Chief Risk Officer_
 - P/B elevado de 6.81x | DY abaixo da média do setor (2.3%) — Charlie Compounder; A relação Patrimônio Líquido/Patrimônio Bruto (PB) de 6.81x é alta, mas considerando a solidez financeira e o histórico de dividendos sustentável, pode ser justificada.
 - P/B elevado de 6.81 | impacto potencial de litígios futuros — Mariana Macro; Embora haja riscos associados a litígios, os resultados recentes indicam que a empresa está bem posicionada para lidar com essas questões sem comprometer sua consistência financeira.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -731,12 +731,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[JNJ_STORY|📖 Storytelling completo (8 actos)]]
+- [[JNJ|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[JNJ_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[JNJ_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[JNJ_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[JNJ_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[JNJ|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[JNJ|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[JNJ|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[JNJ|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -863,10 +863,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/JNJ_2026-05-01.md`._
 
@@ -1256,7 +1256,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ.md` (cemetery archive
 - Sector: [[sectors/Healthcare|Healthcare]]
 - Market: [[markets/US|US]]
 - Peers: [[ABBV]] · [[ABT]] · [[BDX]] · [[MDT]] · [[WST]]
-- 🎯 **Thesis**: [[wiki/holdings/JNJ|thesis deep]]
+- 🎯 **Thesis**: [[JNJ|thesis deep]]
 
 ##### Snapshot
 
@@ -1376,7 +1376,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\JNJ_DOSSIE.md` (cemetery 
 
 _Strategy: **Growth (5/12)**  ·  Secondary: Buffett/Quality (5/12)_
 
-> Generated **2026-05-05** by `ii dossier JNJ`. Cross-links: [[JNJ]] · [[JNJ_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-05-05** by `ii dossier JNJ`. Cross-links: [[JNJ]] · [[JNJ]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1449,7 +1449,7 @@ _Peer set (mixed): 5 tickers — ABBV, ABT, BDX, MDT, WST_
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[JNJ_IC_DEBATE]]
+→ Detalhe: [[JNJ]]
 
 ##### 8. Thesis
 

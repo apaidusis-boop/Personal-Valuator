@@ -174,7 +174,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[TSM_STORY|TSM]]
+#### Charlie Compounder sobre [[TSM|TSM]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -205,15 +205,15 @@ TSM apresenta um ROE sustentável de 36,21% e uma história consistente de divid
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSM_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[TSM|📖 Storytelling completo (8 actos)]]
+- [[TSM|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -221,7 +221,7 @@ TSM apresenta um ROE sustentável de 36,21% e uma história consistente de divid
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[TSM_STORY|TSM]]
+#### Mariana Macro sobre [[TSM|TSM]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -252,15 +252,15 @@ Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de divide
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSM_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[TSM|📖 Storytelling completo (8 actos)]]
+- [[TSM|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -268,7 +268,7 @@ Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de divide
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[TSM_STORY|TSM]]
+#### Pedro Alocação sobre [[TSM|TSM]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -299,15 +299,15 @@ TSM apresenta um ROE de 36,21% e uma média de 23 anos de pagamentos de dividend
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[TSM_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[TSM|📖 Storytelling completo (8 actos)]]
+- [[TSM|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -315,7 +315,7 @@ TSM apresenta um ROE de 36,21% e uma média de 23 anos de pagamentos de dividend
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSM_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[TSM_STORY|TSM]]
+#### Valentina Prudente sobre [[TSM|TSM]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -346,15 +346,15 @@ Taiwan Semiconductor demonstrates robust financial health with a high ROE of 36.
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[TSM_STORY|📖 Storytelling completo (8 actos)]]
-- [[TSM_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[TSM|📖 Storytelling completo (8 actos)]]
+- [[TSM|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -365,7 +365,7 @@ Taiwan Semiconductor demonstrates robust financial health with a high ROE of 36.
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[TSM_STORY|TSM]] (Taiwan Semiconductor)
+#### Council Debate — [[TSM|TSM]] (Taiwan Semiconductor)
 
 **Final stance**: ⚪ **NEEDS_DATA**  
 **Confidence**: `low`  
@@ -374,10 +374,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -395,7 +395,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Taiwan Semiconductor mantém forte ROE e pagamentos de dividendos_
@@ -411,7 +411,7 @@ TSM apresenta um ROE sustentável de 36,21% e uma história consistente de divid
 - P/E acima da meta
 - P/B muito elevado
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _TSM mantém posição de compra com forte ROE e crescimento sustentável_
@@ -427,7 +427,7 @@ Taiwan Semiconductor apresenta um ROE de 36,21% e 23 anos consecutivos de divide
 - ND/EBITDA=-0,83
 - P/E=33,85
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Strong fundamentals and consistent dividend payments support long-term investment_
@@ -443,7 +443,7 @@ Taiwan Semiconductor demonstrates robust financial health with a high ROE of 36.
 - High P/B ratio of 87.86 may indicate overvaluation
 - Recent insider activity and legal issues could impact reputation
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Taiwan Semiconductor mantém posição BUY com forte ROE e crescimento sustentável_
@@ -461,7 +461,7 @@ TSM apresenta um ROE de 36,21% e uma média de 23 anos de pagamentos de dividend
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — ⚪ **NEEDS_DATA** *(stance flipped)*
+###### [[council.industrials-us]] — ⚪ **NEEDS_DATA** *(stance flipped)*
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -470,7 +470,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 **Desafiou**:
 - P/B de 87,86 sugere valorização do ativo líquido - Valentina Prudente | Este P/B elevado pode sugerir que o mercado está sobreavaliando os ativos líquidos da empresa, potencialmente indicando um risco de correção
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -479,7 +479,7 @@ _Chief Macro Strategist_
 **Desafiou**:
 - P/E acima da meta | P/B muito elevado - Razão: Embora o P/E esteja alto, a empresa tem um histórico comprovado de crescimento sustentável. O P/B alto pode ser justificado pela valorização do mercado dos ativos líquidos da TSM - Charlie Compounder
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -488,7 +488,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - P/E acima da meta | P/B muito elevado - Charlie Compounder; Esses são indicadores de valorização do mercado, não necessariamente um sinal de risco permanente de perda de capital.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -499,12 +499,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[TSM_STORY|📖 Storytelling completo (8 actos)]]
+- [[TSM|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[TSM_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[TSM_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[TSM_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[TSM_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[TSM|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[TSM|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[TSM|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[TSM|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -642,10 +642,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/TSM_2026-05-01.md`._
 
@@ -883,7 +883,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM.md` (cemetery archive
 - Sector: [[sectors/Technology|Technology]]
 - Market: [[markets/US|US]]
 - Peers: [[AAPL]] · [[ACN]] · [[PLTR]] · [[IBM]] · [[JKHY]]
-- 🎯 **Thesis**: [[wiki/holdings/TSM|thesis deep]]
+- 🎯 **Thesis**: [[TSM|thesis deep]]
 
 ##### Snapshot
 
@@ -1011,7 +1011,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TSM_DOSSIE.md` (cemetery 
 
 #### 📑 TSM — Taiwan Semiconductor
 
-> Generated **2026-04-26** by `ii dossier TSM`. Cross-links: [[TSM]] · [[TSM_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier TSM`. Cross-links: [[TSM]] · [[TSM]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1029,7 +1029,7 @@ TSM negoceia a P/E 34.49 com DY 0.84% e ROE 36.21%, IC HOLD com confiança médi
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[TSM_IC_DEBATE]]
+→ Detalhe: [[TSM]]
 
 ##### 3. Thesis
 

@@ -206,7 +206,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\GARE11_DOSSIE.md` (cemete
 
 #### 📑 GARE11 — Guardian Logística
 
-> Generated **2026-04-26** by `ii dossier GARE11`. Cross-links: [[GARE11]] · [[GARE11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier GARE11`. Cross-links: [[GARE11]] · [[GARE11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -224,7 +224,7 @@ GARE11 (Guardian Logística, segmento Híbrido) negoceia a BRL 8.38 com DY 10.89
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[GARE11_IC_DEBATE]]
+→ Detalhe: [[GARE11]]
 
 ##### 3. Thesis
 

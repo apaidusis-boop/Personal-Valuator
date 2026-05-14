@@ -375,7 +375,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ITUB4_DOSSIE.md` (cemeter
 
 #### 📑 ITUB4 — Itaú Unibanco
 
-> Generated **2026-04-26** by `ii dossier ITUB4`. Cross-links: [[ITUB4]] · [[ITUB4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ITUB4`. Cross-links: [[ITUB4]] · [[ITUB4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -464,7 +464,7 @@ ITUB4 negocia a P/E 11.06 (acima do limite 10) e P/B 2.39 (acima do limite 1.5),
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[ITUB4_IC_DEBATE]]
+→ Detalhe: [[ITUB4]]
 
 ##### 6. Thesis
 

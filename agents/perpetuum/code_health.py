@@ -230,7 +230,7 @@ SKIP_PATTERNS: tuple[str, ...] = (
 
 # Paths that CH008 should NOT flag (auto-generated / bundled output).
 CH008_SKIP_PREFIXES = (
-    "obsidian_vault/skills/Helena_Mega/",
+    "obsidian_vault/skills/design.lint_mega/",
     "mission-control/.next/",
 )
 

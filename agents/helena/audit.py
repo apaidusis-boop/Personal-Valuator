@@ -195,7 +195,7 @@ def _scan_file(path: Path) -> tuple[list[Violation], dict]:
 # ────────────────── DS010 — skill file length ──────────────────
 
 _SKILLS_ROOT = ROOT / "obsidian_vault" / "skills"
-_DS010_SKIP_DIR = _SKILLS_ROOT / "Helena_Mega"
+_DS010_SKIP_DIR = _SKILLS_ROOT / "design.lint_mega"
 _DS010_SKIP_TYPES = {"roadmap", "master_plan"}
 _DS010_BODY_LIMIT = 500
 
@@ -243,7 +243,7 @@ def scan_skills_files() -> list[Violation]:
     if not _SKILLS_ROOT.is_dir():
         return violations
     for path in sorted(_SKILLS_ROOT.rglob("*.md")):
-        # skip Helena_Mega auto-generated reports
+        # skip design.lint_mega auto-generated reports
         try:
             path.relative_to(_DS010_SKIP_DIR)
             continue

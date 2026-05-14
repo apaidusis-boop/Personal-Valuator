@@ -138,7 +138,7 @@ _Sources: local SQLite (data/{br,us}_investments.db) — scoring.{moat,piotroski
 #### 2026-05-01 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PG_2026-05-01.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[PG_STORY|PG]]
+#### Charlie Compounder sobre [[PG|PG]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -167,15 +167,15 @@ PG oferece ROE elevado de 31,56% e um histórico de aumentos de dividendos de 65
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PG_STORY|📖 Storytelling completo (8 actos)]]
-- [[PG_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[PG|📖 Storytelling completo (8 actos)]]
+- [[PG|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -183,7 +183,7 @@ PG oferece ROE elevado de 31,56% e um histórico de aumentos de dividendos de 65
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PG_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[PG_STORY|PG]]
+#### Mariana Macro sobre [[PG|PG]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -214,15 +214,15 @@ A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, a
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PG_STORY|📖 Storytelling completo (8 actos)]]
-- [[PG_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[PG|📖 Storytelling completo (8 actos)]]
+- [[PG|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -230,7 +230,7 @@ A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, a
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PG_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[PG_STORY|PG]]
+#### Pedro Alocação sobre [[PG|PG]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -263,15 +263,15 @@ A empresa apresenta um sólido ROE de 31.1% e P/E de 21.5, além de uma consiste
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[PG_STORY|📖 Storytelling completo (8 actos)]]
-- [[PG_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[PG|📖 Storytelling completo (8 actos)]]
+- [[PG|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -279,7 +279,7 @@ A empresa apresenta um sólido ROE de 31.1% e P/E de 21.5, além de uma consiste
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PG_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[PG_STORY|PG]]
+#### Valentina Prudente sobre [[PG|PG]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -308,15 +308,15 @@ A Procter & Gamble apresenta um P/E de 21.50, ROE de 31.1% e uma margem EBITDA s
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PG_STORY|📖 Storytelling completo (8 actos)]]
-- [[PG_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[PG|📖 Storytelling completo (8 actos)]]
+- [[PG|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -327,7 +327,7 @@ A Procter & Gamble apresenta um P/E de 21.50, ROE de 31.1% e uma margem EBITDA s
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[PG_STORY|PG]] (Procter & Gamble)
+#### Council Debate — [[PG|PG]] (Procter & Gamble)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -336,10 +336,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -359,7 +359,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Procter & Gamble mantém posição de valor com sólidos dividendos e crescimento sustentável_
@@ -375,7 +375,7 @@ PG oferece ROE elevado de 31,56% e um histórico de aumentos de dividendos de 65
 - P/B acima do ideal (6,37)
 - Impacto de custos elevados devido a conflitos geopolíticos
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Procter & Gamble mantém posição de valor com consistência em dividendos_
@@ -391,7 +391,7 @@ A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, a
 - Impacto de custos de petróleo elevados
 - Volatilidade do câmbio
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Procter & Gamble mantém posição de valor com sólidos fundamentos financeiros_
@@ -407,7 +407,7 @@ A Procter & Gamble apresenta um P/E de 21.50, ROE de 31.1% e uma margem EBITDA s
 - Aumento dos custos de petróleo pode pressionar margens
 - Dependência de crescimento contínuo em mercados emergentes
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Procter & Gamble mantém posição de valor com crescimento sustentável_
@@ -425,14 +425,14 @@ A empresa apresenta um sólido ROE de 31.1% e P/E de 21.5, além de uma consiste
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — 🟢 **BUY**
+###### [[council.industrials-us]] — 🟢 **BUY**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
 - A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, apoiando a tese long-term.
 - Mariana Macro
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -441,14 +441,14 @@ _Chief Macro Strategist_
 **Desafiou**:
 - Aumento dos custos de petróleo pode pressionar margens | Dependência de crescimento contínuo em mercados emergentes - Valentina Prudente | Ainda que os custos elevados sejam uma preocupação, a empresa tem demonstrado resiliência e capacidade de mitigar impactos através de estratégias como aumento de preços
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
 - A empresa oferece um ROE elevado de 31.56% e uma margem líquida sustentável, apoiando a tese long-term.
 - Mariana Macro
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -461,12 +461,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[PG_STORY|📖 Storytelling completo (8 actos)]]
+- [[PG|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[PG_2026-05-01|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[PG_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[PG_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[PG_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[PG|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[PG|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[PG|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[PG|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -602,10 +602,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/PG_2026-05-01.md`._
 
@@ -855,7 +855,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG.md` (cemetery archive)
 - Sector: [[sectors/Consumer_Staples|Consumer Staples]]
 - Market: [[markets/US|US]]
 - Peers: [[KO]] · [[ADM]] · [[BF-B]] · [[CHD]] · [[CL]]
-- 🎯 **Thesis**: [[wiki/holdings/PG|thesis deep]]
+- 🎯 **Thesis**: [[PG|thesis deep]]
 
 ##### Snapshot
 
@@ -973,7 +973,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PG_DOSSIE.md` (cemetery a
 
 #### 📑 PG — Procter & Gamble
 
-> Generated **2026-04-26** by `ii dossier PG`. Cross-links: [[PG]] · [[PG_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PG`. Cross-links: [[PG]] · [[PG]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -991,7 +991,7 @@ PG negoceia a P/E 21.92 com DY 2.87% e ROE 31.12%, IC HOLD com alta confiança (
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[PG_IC_DEBATE]]
+→ Detalhe: [[PG]]
 
 ##### 3. Thesis
 

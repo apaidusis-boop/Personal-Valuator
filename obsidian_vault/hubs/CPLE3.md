@@ -111,7 +111,7 @@ Sugestão de fluxo:
 
 ##### Cross-links
 
-- [[tickers/CPLE3|Ticker page]]
+- [[CPLE3|Ticker page]]
 - [[CONSTITUTION#decision-log]]
 - Triggered by `auto_verdict_on_content.py` em 2026-05-08 19:50 UTC
 
@@ -443,7 +443,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\CPLE3_DOSSIE.md` (cemeter
 
 #### 📑 CPLE3 — Copel
 
-> Generated **2026-04-26** by `ii dossier CPLE3`. Cross-links: [[CPLE3]] · [[CPLE3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier CPLE3`. Cross-links: [[CPLE3]] · [[CPLE3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -461,7 +461,7 @@ CPLE3 negocia a P/E 18.43 e DY 4.97% com ROE moderado de 10.96%; preço subiu +5
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[CPLE3_IC_DEBATE]]
+→ Detalhe: [[CPLE3]]
 
 ##### 3. Thesis
 

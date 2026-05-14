@@ -486,7 +486,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\MOTV3_DOSSIE.md` (cemeter
 
 #### 📑 MOTV3 — Motiva
 
-> Generated **2026-04-26** by `ii dossier MOTV3`. Cross-links: [[MOTV3]] · [[MOTV3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier MOTV3`. Cross-links: [[MOTV3]] · [[MOTV3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -504,7 +504,7 @@ MOTV3 negocia P/E 11.37 e P/B 2.10 com ROE forte de 20.78%, mas DY de apenas 2.3
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[MOTV3_IC_DEBATE]]
+→ Detalhe: [[MOTV3]]
 
 ##### 3. Thesis
 

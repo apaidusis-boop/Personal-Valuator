@@ -80,7 +80,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[PLD_STORY|PLD]]
+#### Mariana Macro sobre [[PLD|PLD]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -114,15 +114,15 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.reits-us]] (REITs US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLD_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLD_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[PLD|📖 Storytelling completo (8 actos)]]
+- [[PLD|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -130,7 +130,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[PLD_STORY|PLD]]
+#### Pedro Alocação sobre [[PLD|PLD]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -161,15 +161,15 @@ Prologis apresenta um sólido histórico de crescimento de dividendos por 30 ano
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.reits-us]] (REITs US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[PLD_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLD_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[PLD|📖 Storytelling completo (8 actos)]]
+- [[PLD|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -177,7 +177,7 @@ Prologis apresenta um sólido histórico de crescimento de dividendos por 30 ano
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[PLD_STORY|PLD]]
+#### Valentina Prudente sobre [[PLD|PLD]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -211,15 +211,15 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 
 ##### Quem mais estava na sala
 
-- [[Walter Triple-Net]] (REITs US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.reits-us]] (REITs US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLD_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLD_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[PLD|📖 Storytelling completo (8 actos)]]
+- [[PLD|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -227,7 +227,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 #### 2026-05-01 · Council review · Walter Triple-Net
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\PLD_2026-05-01.md` (cemetery archive)_
 
-#### Walter Triple-Net sobre [[PLD_STORY|PLD]]
+#### Walter Triple-Net sobre [[PLD|PLD]]
 
 **Função no debate**: REITs US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -261,15 +261,15 @@ Prologis oferece segurança através de sua robusta relação dívida/EBITDA (5.
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[PLD_STORY|📖 Storytelling completo (8 actos)]]
-- [[PLD_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Walter Triple-Net|👤 Minha página de persona]]
+- [[PLD|📖 Storytelling completo (8 actos)]]
+- [[PLD|🏛️ Transcript do Council debate]]
+- [[council.reits-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -335,7 +335,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[PLD_STORY|PLD]] (Prologis)
+#### Council Debate — [[PLD|PLD]] (Prologis)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -344,10 +344,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md` (cemete
 
 ##### Quem esteve na sala
 
-- [[Walter Triple-Net]] — _REITs US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.reits-us]] — _REITs US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -366,7 +366,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md` (cemete
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Walter Triple-Net]] — 🟢 **BUY**
+###### [[council.reits-us]] — 🟢 **BUY**
 _REITs US Specialist_
 
 **Headline**: _Prologis mantém posição sólida com histórico de dividendos_
@@ -382,7 +382,7 @@ Prologis oferece segurança através de sua robusta relação dívida/EBITDA (5.
 - PE elevado
 - DY de apenas 2.9%
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Prologis mantém posição sólida com histórico de dividendos_
@@ -398,7 +398,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 - P/E de 40,01 elevado
 - expansão em setores novos pode ser arriscada
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Prologis mantém posição sólida com histórico de dividendos_
@@ -414,7 +414,7 @@ Prologis oferece segurança através de seu ROE de 6.84% e relação dívida/EBI
 - P/E alto de 40.01
 - DY baixo de 2.9%
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Prologis mantém posição devido a histórico de dividendos e robustez financeira_
@@ -432,7 +432,7 @@ Prologis apresenta um sólido histórico de crescimento de dividendos por 30 ano
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Walter Triple-Net]] — 🟢 **BUY**
+###### [[council.reits-us]] — 🟢 **BUY**
 _REITs US Specialist_
 
 **Concordou com**:
@@ -444,7 +444,7 @@ _REITs US Specialist_
 - Valentina Prudente
 - Embora o P/E seja elevado, é comum para empresas com histórico consistente de dividendos e crescimento; além disso, o DY de 2.9% ainda oferece retorno atraente comparado ao mercado
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -456,7 +456,7 @@ _Chief Macro Strategist_
 - O P/E alto pode ser justificado pelo histórico consistente e crescimento contínuo dos dividendos, além da exposição a setores em expansão como data centers.
 - Valentina Prudente
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -468,7 +468,7 @@ _Chief Risk Officer_
 - Expansão em novos setores pode ser arriscada e não foi demonstrado que isso é sustentável no longo prazo.
 - Mariana Macro
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -479,12 +479,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[PLD_STORY|📖 Storytelling completo (8 actos)]]
+- [[PLD|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[PLD_2026-05-01|Walter Triple-Net]] em [[Walter Triple-Net]]/reviews/
-  - [[PLD_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[PLD_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[PLD_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[PLD|Walter Triple-Net]] em [[council.reits-us]]/reviews/
+  - [[PLD|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[PLD|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[PLD|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -584,10 +584,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_STORY.md` (cemetery
 
 ##### Quem analisou este ticker
 
-- [[Walter Triple-Net]] — _REITs US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.reits-us]] — _REITs US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/PLD_2026-05-01.md`._
 
@@ -846,7 +846,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD.md` (cemetery archive
 - Sector: [[sectors/REIT|REIT]]
 - Market: [[markets/US|US]]
 - Peers: [[O]] · [[FRT]]
-- 🎯 **Thesis**: [[wiki/holdings/PLD|thesis deep]]
+- 🎯 **Thesis**: [[PLD|thesis deep]]
 
 ##### Snapshot
 
@@ -964,7 +964,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PLD_DOSSIE.md` (cemetery 
 
 #### 📑 PLD — Prologis
 
-> Generated **2026-04-26** by `ii dossier PLD`. Cross-links: [[PLD]] · [[PLD_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PLD`. Cross-links: [[PLD]] · [[PLD]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -982,7 +982,7 @@ PLD cota P/E 39.80 (GAAP REIT, normal), DY 2.89% e streak 30y — REIT logístic
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[PLD_IC_DEBATE]]
+→ Detalhe: [[PLD]]
 
 ##### 3. Thesis
 

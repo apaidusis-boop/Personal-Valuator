@@ -145,7 +145,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BN_2026-05-01.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[BN_STORY|BN]]
+#### Hank Tier-One sobre [[BN|BN]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -178,15 +178,15 @@ Brookfield Corp tem um P/E de 92.08, significativamente acima da média do setor
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BN_STORY|📖 Storytelling completo (8 actos)]]
-- [[BN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[BN|📖 Storytelling completo (8 actos)]]
+- [[BN|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -194,7 +194,7 @@ Brookfield Corp tem um P/E de 92.08, significativamente acima da média do setor
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BN_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[BN_STORY|BN]]
+#### Mariana Macro sobre [[BN|BN]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -228,15 +228,15 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE sólido, apesar d
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BN_STORY|📖 Storytelling completo (8 actos)]]
-- [[BN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[BN|📖 Storytelling completo (8 actos)]]
+- [[BN|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -244,7 +244,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE sólido, apesar d
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BN_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[BN_STORY|BN]]
+#### Pedro Alocação sobre [[BN|BN]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -275,15 +275,15 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE estável, apesar 
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[BN_STORY|📖 Storytelling completo (8 actos)]]
-- [[BN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[BN|📖 Storytelling completo (8 actos)]]
+- [[BN|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -291,7 +291,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE estável, apesar 
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BN_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[BN_STORY|BN]]
+#### Valentina Prudente sobre [[BN|BN]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -324,15 +324,15 @@ Brookfield Corp tem um múltiplo P/E de 92,08, muito acima da média do setor (1
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BN_STORY|📖 Storytelling completo (8 actos)]]
-- [[BN_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[BN|📖 Storytelling completo (8 actos)]]
+- [[BN|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -393,7 +393,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[BN_STORY|BN]] (Brookfield Corp)
+#### Council Debate — [[BN|BN]] (Brookfield Corp)
 
 **Final stance**: 🔴 **AVOID**  
 **Confidence**: `medium`  
@@ -402,10 +402,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -422,7 +422,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Headline**: _P/E muito elevado e ROE baixo sugerem sobreavaliação_
@@ -438,7 +438,7 @@ Brookfield Corp tem um P/E de 92.08, significativamente acima da média do setor
 - P/E muito elevado
 - ROE baixo
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Brookfield Corp mantém posição long-term devido a dividendos consistentes_
@@ -454,7 +454,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE sólido, apesar d
 - Multiplicador P/E muito alto (94.78)
 - Capacidade de manter dividendos crescentes
 
-###### [[Valentina Prudente]] — 🔴 **AVOID**
+###### [[risk.drift-audit]] — 🔴 **AVOID**
 _Chief Risk Officer_
 
 **Headline**: _Elevada P/E e ROE fraco sugerem sobreavaliação_
@@ -470,7 +470,7 @@ Brookfield Corp tem um múltiplo P/E de 92,08, muito acima da média do setor (1
 - Múltiplo P/E elevado
 - ROE fraco
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Brookfield Corp mantém sólida posição de dividendos_
@@ -488,7 +488,7 @@ Dividend Aristocrat com 40 anos de crescimento contínuo e ROE estável, apesar 
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🔴 **AVOID**
+###### [[council.banks-us]] — 🔴 **AVOID**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -499,7 +499,7 @@ _Banks US Specialist_
 - Dividend Aristocrat com 40 anos de crescimento contínuo e ROE estável, apesar do P/E elevado. - Pedro Alocação
 - O argumento baseia-se em métricas que não são consistentes com o modo B-US Banks, especialmente considerando a importância do P/TBV e CET1 para bancos.
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -511,7 +511,7 @@ _Chief Macro Strategist_
 - Hank Tier-One
 - Apesar do múltiplo elevado, a empresa mantém uma consistência em dividendos com 40 anos de crescimento contínuo e status de Dividend Aristocrat.
 
-###### [[Valentina Prudente]] — 🔴 **AVOID**
+###### [[risk.drift-audit]] — 🔴 **AVOID**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -522,7 +522,7 @@ _Chief Risk Officer_
 - Dividend Aristocrat com 40 anos de crescimento contínuo e ROE sólido, apesar do P/E elevado. - Mariana Macro
 - Embora a empresa tenha uma história consistente em dividendos, o atual múltiplo P/E sugere que os investidores já estão precificando um crescimento futuro que pode não ser sustentável dadas as atuais métricas de lucratividade e endividamento.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -533,12 +533,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[BN_STORY|📖 Storytelling completo (8 actos)]]
+- [[BN|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[BN_2026-05-01|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[BN_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[BN_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[BN_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[BN|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[BN|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[BN|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[BN|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -642,10 +642,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/BN_2026-05-01.md`._
 
@@ -903,7 +903,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN.md` (cemetery archive)
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[GS]] · [[JPM]] · [[NU]] · [[TFC]]
-- 🎯 **Thesis**: [[wiki/holdings/BN|thesis deep]]
+- 🎯 **Thesis**: [[BN|thesis deep]]
 
 ##### Snapshot
 
@@ -1021,7 +1021,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BN_DOSSIE.md` (cemetery a
 
 #### 📑 BN — Brookfield Corp
 
-> Generated **2026-04-26** by `ii dossier BN`. Cross-links: [[BN]] · [[BN_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier BN`. Cross-links: [[BN]] · [[BN]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1039,7 +1039,7 @@ BN cota P/E 92.82, DY 0.55% e ROE 1.95% (depressed por accounting GAAP que masca
 
 **🏛️ AVOID** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[BN_IC_DEBATE]]
+→ Detalhe: [[BN]]
 
 ##### 3. Thesis
 

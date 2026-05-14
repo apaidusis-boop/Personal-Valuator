@@ -143,7 +143,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-05-01 · Council review · Hank Tier-One
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\NU_2026-05-01.md` (cemetery archive)_
 
-#### Hank Tier-One sobre [[NU_STORY|NU]]
+#### Hank Tier-One sobre [[NU|NU]]
 
 **Função no debate**: Banks US Specialist (`sector_specialist`)  
 **Data**: 2026-05-01  
@@ -174,15 +174,15 @@ Despite a strong ROE of 30.28%, the high P/E (24.97) and P/B (6.23) ratios sugge
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[NU_STORY|📖 Storytelling completo (8 actos)]]
-- [[NU_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Hank Tier-One|👤 Minha página de persona]]
+- [[NU|📖 Storytelling completo (8 actos)]]
+- [[NU|🏛️ Transcript do Council debate]]
+- [[council.banks-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -190,7 +190,7 @@ Despite a strong ROE of 30.28%, the high P/E (24.97) and P/B (6.23) ratios sugge
 #### 2026-05-01 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\NU_2026-05-01.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[NU_STORY|NU]]
+#### Mariana Macro sobre [[NU|NU]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-05-01  
@@ -222,15 +222,15 @@ Nu Holdings boasts a robust ROE of 30.28% and a PEG ratio below 1, suggesting su
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[NU_STORY|📖 Storytelling completo (8 actos)]]
-- [[NU_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[NU|📖 Storytelling completo (8 actos)]]
+- [[NU|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -238,7 +238,7 @@ Nu Holdings boasts a robust ROE of 30.28% and a PEG ratio below 1, suggesting su
 #### 2026-05-01 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\NU_2026-05-01.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[NU_STORY|NU]]
+#### Pedro Alocação sobre [[NU|NU]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-05-01  
@@ -269,15 +269,15 @@ ROE de 30.28% e razão PEG de 0.87 sugerem crescimento sustentável; posição g
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[NU_STORY|📖 Storytelling completo (8 actos)]]
-- [[NU_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[NU|📖 Storytelling completo (8 actos)]]
+- [[NU|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -285,7 +285,7 @@ ROE de 30.28% e razão PEG de 0.87 sugerem crescimento sustentável; posição g
 #### 2026-05-01 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\NU_2026-05-01.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[NU_STORY|NU]]
+#### Valentina Prudente sobre [[NU|NU]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-05-01  
@@ -317,15 +317,15 @@ Nu Holdings maintains a robust ROE of 30.28% and a PEG ratio below 1, suggesting
 
 ##### Quem mais estava na sala
 
-- [[Hank Tier-One]] (Banks US Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-us]] (Banks US Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[NU_STORY|📖 Storytelling completo (8 actos)]]
-- [[NU_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[NU|📖 Storytelling completo (8 actos)]]
+- [[NU|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-05-01` — STORYT_2.0 Camada 5.5*
@@ -386,7 +386,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[NU_STORY|NU]] (Nu Holdings)
+#### Council Debate — [[NU|NU]] (Nu Holdings)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -395,10 +395,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md` (cemeter
 
 ##### Quem esteve na sala
 
-- [[Hank Tier-One]] — _Banks US Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-us]] — _Banks US Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -419,7 +419,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md` (cemeter
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Hank Tier-One]] — 🟡 **HOLD**
+###### [[council.banks-us]] — 🟡 **HOLD**
 _Banks US Specialist_
 
 **Headline**: _High P/E and P/B ratios raise valuation concerns_
@@ -435,7 +435,7 @@ Despite a strong ROE of 30.28%, the high P/E (24.97) and P/B (6.23) ratios sugge
 - High valuation metrics compared to peers
 - Lack of dividend history
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Strong ROE and projected growth justify current valuation_
@@ -451,7 +451,7 @@ Nu Holdings boasts a robust ROE of 30.28% and a PEG ratio below 1, suggesting su
 - High P/E multiple of 25.95
 - Potential for increased competition in financial services
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Strong ROE and projected growth justify current valuation_
@@ -467,7 +467,7 @@ Nu Holdings maintains a robust ROE of 30.28% and a PEG ratio below 1, suggesting
 - High P/B ratio of 6.23
 - Dependence on projected growth
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Nu Holdings mantém ROE elevado e PEG abaixo de 1_
@@ -485,7 +485,7 @@ ROE de 30.28% e razão PEG de 0.87 sugerem crescimento sustentável; posição g
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Hank Tier-One]] — 🟡 **HOLD**
+###### [[council.banks-us]] — 🟡 **HOLD**
 _Banks US Specialist_
 
 **Concordou com**:
@@ -494,7 +494,7 @@ _Banks US Specialist_
 **Desafiou**:
 - desafiar pontos específicos (cite o membro + razão de discordância + nome do colega)
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -504,7 +504,7 @@ _Chief Macro Strategist_
 - High valuation metrics compared to peers | Lack of dividend history - Hank Tier-One: Ainda que os múltiplos P/E e P/B sejam altos, a razão PEG inferior a 1 sugere crescimento sustentável não refletido no preço atual.
 - High P/B ratio of 6.23 | Dependence on projected growth - Valentina Prudente: O ROE de 30% continua sendo um indicador forte da eficiência operacional, mesmo com o alto P/B.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -514,7 +514,7 @@ _Chief Risk Officer_
 - High valuation metrics compared to peers | Lack of dividend history - Hank Tier-One; Valuation concerns are overstated given the company's projected growth and strong ROE.
 - Potential for increased competition in financial services - Mariana Macro; Current competitive landscape does not indicate imminent threats that would undermine current valuation or growth projections.
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -525,12 +525,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[NU_STORY|📖 Storytelling completo (8 actos)]]
+- [[NU|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[NU_2026-05-01|Hank Tier-One]] em [[Hank Tier-One]]/reviews/
-  - [[NU_2026-05-01|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[NU_2026-05-01|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[NU_2026-05-01|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[NU|Hank Tier-One]] em [[council.banks-us]]/reviews/
+  - [[NU|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[NU|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[NU|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -635,10 +635,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_STORY.md` (cemetery 
 
 ##### Quem analisou este ticker
 
-- [[Hank Tier-One]] — _Banks US Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-us]] — _Banks US Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/NU_2026-05-01.md`._
 
@@ -882,7 +882,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU.md` (cemetery archive)
 - Sector: [[sectors/Financials|Financials]]
 - Market: [[markets/US|US]]
 - Peers: [[BLK]] · [[BN]] · [[GS]] · [[JPM]] · [[TFC]]
-- 🎯 **Thesis**: [[wiki/holdings/NU|thesis deep]]
+- 🎯 **Thesis**: [[NU|thesis deep]]
 
 ##### Snapshot
 
@@ -992,7 +992,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\NU_DOSSIE.md` (cemetery a
 
 #### 📑 NU — Nu Holdings
 
-> Generated **2026-04-26** by `ii dossier NU`. Cross-links: [[NU]] · [[NU_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier NU`. Cross-links: [[NU]] · [[NU]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1010,7 +1010,7 @@ NU cota P/E 25.02, P/B 6.24, sem dividendo, ROE 30.28% — neobank LATAM em fase
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[NU_IC_DEBATE]]
+→ Detalhe: [[NU]]
 
 ##### 3. Thesis
 

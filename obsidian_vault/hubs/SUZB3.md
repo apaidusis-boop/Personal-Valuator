@@ -109,7 +109,7 @@ Sugestão de fluxo:
 
 ##### Cross-links
 
-- [[tickers/SUZB3|Ticker page]]
+- [[SUZB3|Ticker page]]
 - [[CONSTITUTION#decision-log]]
 - Triggered by `auto_verdict_on_content.py` em 2026-05-08 19:50 UTC
 
@@ -344,7 +344,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\SUZB3_DOSSIE.md` (cemeter
 
 #### 📑 SUZB3 — Suzano
 
-> Generated **2026-04-26** by `ii dossier SUZB3`. Cross-links: [[SUZB3]] · [[SUZB3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier SUZB3`. Cross-links: [[SUZB3]] · [[SUZB3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -362,7 +362,7 @@ SUZB3 negocia P/E baixíssimo de 4.22 e P/B 1.29 com ROE robusto de 35.19%, mas 
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[SUZB3_IC_DEBATE]]
+→ Detalhe: [[SUZB3]]
 
 ##### 3. Thesis
 

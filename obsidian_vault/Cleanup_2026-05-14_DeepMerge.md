@@ -221,7 +221,7 @@ Sobreviventes:
 
 ### O que ficou mais difícil
 1. **Hubs longos** — alguns hubs (TEN, VALE3, TSM, XPML11) têm 60-100 KB. Scrollable em Obsidian, mas grande para leitura linear. Mitigação: cada secção começa com `#### <date> · <type>` então TOC vertical funciona.
-2. **Links partidos**: notas Bibliotheca/Clippings que apontavam para `[[JNJ_DOSSIE]]` agora não resolvem. Obsidian sugere `[[JNJ]]` (o hub) — mostly OK mas é fricção visual.
+2. **Links partidos**: notas Bibliotheca/Clippings que apontavam para `[[JNJ]]` agora não resolvem. Obsidian sugere `[[JNJ]]` (o hub) — mostly OK mas é fricção visual.
 3. **Council reviews só por handle**: `council.industrials-us/reviews/` ficou vazio (todos os reviews foram absorvidos). Pasta sobrevive com `_reviews_index.md`. Quando o Council correr novamente, escreve aí.
 
 ### O que melhorou objectivamente
@@ -243,7 +243,7 @@ Sobreviventes:
 1. **Rebuild Mission Control**: se o MC frontend lia `tickers/*.md` directamente, precisa apontar para `hubs/<TK>.md` agora.
 2. **`ii deepdive` output path**: ainda escreve `reports/deepdive/<TK>_*.json` e `obsidian_vault/dossiers/<TK>.md`? Se sim, próximo deepdive ressuscita conteúdo no `dossiers/`. Solução: mudar `--save-obsidian` para escrever `hubs/<TK>.md` (append section).
 3. **Daily run hook**: o `daily_run.bat` faz `python scripts/build_merged_hubs.py` no fim para refrescar? Sugiro adicionar.
-4. **Obsidian search-and-replace** `[[JNJ_DOSSIE]]` → `[[JNJ]]` global? Posso fazer numa próxima sessão.
+4. **Obsidian search-and-replace** `[[JNJ]]` → `[[JNJ]]` global? Posso fazer numa próxima sessão.
 
 ### Stragglers conhecidos
 - SPY, VOO, BOVA11, BTLG12, MCRF11 — buried mas sem hub (não estavam no universe.yaml). Conteúdo recuperável do cemetery. Se quiseres, adiciono ao universe e crio hubs.

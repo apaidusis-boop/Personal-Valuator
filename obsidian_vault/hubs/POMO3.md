@@ -122,7 +122,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[POMO3_STORY|POMO3]]
+#### Mariana Macro sobre [[POMO3|POMO3]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -156,15 +156,15 @@ A empresa oferece um dividendo anual de 15.9% (DY) e um ROE de 31%, superando si
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[POMO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[POMO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[POMO3|📖 Storytelling completo (8 actos)]]
+- [[POMO3|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -172,7 +172,7 @@ A empresa oferece um dividendo anual de 15.9% (DY) e um ROE de 31%, superando si
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[POMO3_STORY|POMO3]]
+#### Pedro Alocação sobre [[POMO3|POMO3]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -203,15 +203,15 @@ DY de 15.9% e ROE de 31.0% superam setor, mas P/E de 6.57x é baixo comparado à
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[POMO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[POMO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[POMO3|📖 Storytelling completo (8 actos)]]
+- [[POMO3|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -219,7 +219,7 @@ DY de 15.9% e ROE de 31.0% superam setor, mas P/E de 6.57x é baixo comparado à
 #### 2026-04-30 · Council review · Tião Galpão
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
-#### Tião Galpão sobre [[POMO3_STORY|POMO3]]
+#### Tião Galpão sobre [[POMO3|POMO3]]
 
 **Função no debate**: Industrials & Consumer BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -247,15 +247,15 @@ ROE de 31% supera significativamente a média setorial (5,2%). Dividend yield de
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[POMO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[POMO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Tião Galpão|👤 Minha página de persona]]
+- [[POMO3|📖 Storytelling completo (8 actos)]]
+- [[POMO3|🏛️ Transcript do Council debate]]
+- [[council.industrials-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -263,7 +263,7 @@ ROE de 31% supera significativamente a média setorial (5,2%). Dividend yield de
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\POMO3_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[POMO3_STORY|POMO3]]
+#### Valentina Prudente sobre [[POMO3|POMO3]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -297,15 +297,15 @@ A empresa oferece um dividendo anual de 15.9%, com ROE de 31% e P/B de 2.08, sug
 
 ##### Quem mais estava na sala
 
-- [[Tião Galpão]] (Industrials & Consumer BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-br]] (Industrials & Consumer BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[POMO3_STORY|📖 Storytelling completo (8 actos)]]
-- [[POMO3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[POMO3|📖 Storytelling completo (8 actos)]]
+- [[POMO3|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -356,7 +356,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[POMO3_STORY|POMO3]] (POMO3)
+#### Council Debate — [[POMO3|POMO3]] (POMO3)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -365,10 +365,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Tião Galpão]] — _Industrials & Consumer BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-br]] — _Industrials & Consumer BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -388,7 +388,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Tião Galpão]] — 🟢 **BUY**
+###### [[council.industrials-br]] — 🟢 **BUY**
 _Industrials & Consumer BR Specialist_
 
 **Headline**: _POMO3 apresenta ROE elevado e DY atrativo_
@@ -404,7 +404,7 @@ ROE de 31% supera significativamente a média setorial (5,2%). Dividend yield de
 - P/B de 2,08x está acima da mediana setorial (1,35x)
 - Falta de informações relevantes sobre o impacto macroeconômico na empresa
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _POMO3 apresenta DY atraente e ROE forte_
@@ -420,7 +420,7 @@ A empresa oferece um dividendo anual de 15.9% (DY) e um ROE de 31%, superando si
 - P/E ligeiramente elevado em relação ao setor
 - ND/EBITDA próximo da média do setor
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _POMO3 apresenta DY atraente e indicadores financeiros sólidos_
@@ -436,7 +436,7 @@ A empresa oferece um dividendo anual de 15.9%, com ROE de 31% e P/B de 2.08, sug
 - P/E baixo em comparação com o setor
 - P/B acima da média do setor
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _POMO3 apresenta DY atraente e ROE forte_
@@ -454,13 +454,13 @@ DY de 15.9% e ROE de 31.0% superam setor, mas P/E de 6.57x é baixo comparado à
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Tião Galpão]] — 🟢 **BUY**
+###### [[council.industrials-br]] — 🟢 **BUY**
 _Industrials & Consumer BR Specialist_
 
 **Concordou com**:
 - ROE de 31% supera significativamente a média setorial (5,2%). Mariana Macro
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -472,7 +472,7 @@ _Chief Macro Strategist_
 - A alta relação P/B pode indicar que a empresa já foi precificada pelo mercado ou que há preocupações sobre o valor contábil do ativo. É importante investigar se os fundamentos financeiros sustentam essa avaliação.
 - Tião Galpão
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -484,7 +484,7 @@ _Chief Risk Officer_
 - Informações limitadas sobre o impacto macroeconômico podem não refletir completamente os riscos associados à posição. É necessário mais detalhamento para avaliar a exposição da empresa a fatores econômicos.
 - Tião Galpão
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -495,12 +495,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[POMO3_STORY|📖 Storytelling completo (8 actos)]]
+- [[POMO3|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[POMO3_2026-04-30|Tião Galpão]] em [[Tião Galpão]]/reviews/
-  - [[POMO3_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[POMO3_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[POMO3_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[POMO3|Tião Galpão]] em [[council.industrials-br]]/reviews/
+  - [[POMO3|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[POMO3|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[POMO3|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -602,10 +602,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Tião Galpão]] — _Industrials & Consumer BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-br]] — _Industrials & Consumer BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/POMO3_2026-04-30.md`._
 

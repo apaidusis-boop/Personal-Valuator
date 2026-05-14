@@ -175,7 +175,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABCB4_DOSSIE.md` (cemeter
 
 #### 📑 ABCB4 — Banco ABC Brasil
 
-> Generated **2026-04-26** by `ii dossier ABCB4`. Cross-links: [[ABCB4]] · [[ABCB4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier ABCB4`. Cross-links: [[ABCB4]] · [[ABCB4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -269,7 +269,7 @@ ABCB4 passa **5/5 critérios** do screen BR Banks (P/E 4.73, P/B 0.90, DY 10.30%
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[ABCB4_IC_DEBATE]]
+→ Detalhe: [[ABCB4]]
 
 ##### 6. Thesis
 

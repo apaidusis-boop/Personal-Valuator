@@ -103,7 +103,7 @@ A nossa vantagem específica: o [[Design_System]] v1.0 já existe em markdown es
 ## Cross-links
 
 - [[Design_System]] — paleta + princípios; injectar como contexto em cada sessão de Claude Design
-- [[Helena Linha]] — owner do fluxo
+- [[design.lint]] — owner do fluxo
 - [[Design_Watch]] — Claude Design entra como **source #4** (após GitHub + RSS + YouTube) na próxima iteração da scout, com query "claude design design system export pattern"
 
 ## Status

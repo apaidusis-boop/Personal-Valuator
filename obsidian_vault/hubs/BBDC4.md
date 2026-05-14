@@ -205,7 +205,7 @@ _Auto-gerado por `scripts/auto_verdict_on_filing.py::write_filing_dossier`. Engi
 #### 2026-04-30 · Council review · Diego Bancário
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
-#### Diego Bancário sobre [[BBDC4_STORY|BBDC4]]
+#### Diego Bancário sobre [[BBDC4|BBDC4]]
 
 **Função no debate**: Banks BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -236,15 +236,15 @@ A Bradesco oferece P/E de 9.07 e P/B de 1.15, abaixo dos benchmarks do setor, co
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BBDC4_STORY|📖 Storytelling completo (8 actos)]]
-- [[BBDC4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Diego Bancário|👤 Minha página de persona]]
+- [[BBDC4|📖 Storytelling completo (8 actos)]]
+- [[BBDC4|🏛️ Transcript do Council debate]]
+- [[council.banks-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -252,7 +252,7 @@ A Bradesco oferece P/E de 9.07 e P/B de 1.15, abaixo dos benchmarks do setor, co
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[BBDC4_STORY|BBDC4]]
+#### Mariana Macro sobre [[BBDC4|BBDC4]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -285,15 +285,15 @@ A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação at
 
 ##### Quem mais estava na sala
 
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BBDC4_STORY|📖 Storytelling completo (8 actos)]]
-- [[BBDC4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[BBDC4|📖 Storytelling completo (8 actos)]]
+- [[BBDC4|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -301,7 +301,7 @@ A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação at
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[BBDC4_STORY|BBDC4]]
+#### Pedro Alocação sobre [[BBDC4|BBDC4]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -333,15 +333,15 @@ A Bradesco oferece uma P/E de 9.07 e um DY de 7.8%, abaixo da média do setor, i
 
 ##### Quem mais estava na sala
 
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[BBDC4_STORY|📖 Storytelling completo (8 actos)]]
-- [[BBDC4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[BBDC4|📖 Storytelling completo (8 actos)]]
+- [[BBDC4|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -349,7 +349,7 @@ A Bradesco oferece uma P/E de 9.07 e um DY de 7.8%, abaixo da média do setor, i
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BBDC4_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[BBDC4_STORY|BBDC4]]
+#### Valentina Prudente sobre [[BBDC4|BBDC4]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -382,15 +382,15 @@ A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e 
 
 ##### Quem mais estava na sala
 
-- [[Diego Bancário]] (Banks BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.banks-br]] (Banks BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[BBDC4_STORY|📖 Storytelling completo (8 actos)]]
-- [[BBDC4_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[BBDC4|📖 Storytelling completo (8 actos)]]
+- [[BBDC4|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -500,7 +500,7 @@ _source: `videos\2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[BBDC4_STORY|BBDC4]] (Bradesco)
+#### Council Debate — [[BBDC4|BBDC4]] (Bradesco)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `high`  
@@ -509,10 +509,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Diego Bancário]] — _Banks BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.banks-br]] — _Banks BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -532,7 +532,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Diego Bancário]] — 🟢 **BUY**
+###### [[council.banks-br]] — 🟢 **BUY**
 _Banks BR Specialist_
 
 **Headline**: _Bradesco mantém sólidos indicadores financeiros_
@@ -548,7 +548,7 @@ A Bradesco oferece P/E de 9.07 e P/B de 1.15, abaixo dos benchmarks do setor, co
 - ambiente macroeconômico desafiador
 - pressão sobre a qualidade dos ativos
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Bradesco oferece valor atraente com sólidos dividendos_
@@ -564,7 +564,7 @@ A Bradesco opera com um P/E de 9.07 e ROE de 13.8%, indicando uma avaliação at
 - Ambiente macroeconômico desafiador
 - Pressão sobre a qualidade dos ativos
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Bradesco apresenta valorização atraente com sólidos dividendos_
@@ -580,7 +580,7 @@ A Bradesco oferece P/E de 9.07 e ROE de 13.8%, indicando avaliação atrativa e 
 - Margem EBIT baixa nos últimos trimestres
 - Possível pressão macroeconômica
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Bradesco apresenta valorização atraente com sólidos dividendos_
@@ -598,7 +598,7 @@ A Bradesco oferece uma P/E de 9.07 e um DY de 7.8%, abaixo da média do setor, i
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Diego Bancário]] — 🟢 **BUY**
+###### [[council.banks-br]] — 🟢 **BUY**
 _Banks BR Specialist_
 
 **Concordou com**:
@@ -607,7 +607,7 @@ _Banks BR Specialist_
 **Desafiou**:
 - Ambiente macroeconômico desafiador | Pressão sobre a qualidade dos ativos — Valentina Prudente | A pressão macroeconômica é um risco, mas os resultados recentes mostram que o Bradesco tem se mantido resiliente em ciclos anteriores
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -618,7 +618,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: O ambiente regulatório favorável e a dinâmica do setor fintech no Brasil podem oferecer oportunidades de crescimento adicionais para o Bradesco.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -629,7 +629,7 @@ _Chief Risk Officer_
 - Ambiente macroeconômico desafiador | Pressão sobre a qualidade dos ativos
 - Diego Bancário, Mariana Macro, Pedro Alocação — A pressão macroeconômica é um risco conhecido, mas não há evidências concretas de deterioração na qualidade dos ativos da Bradesco que justifiquem uma mudança na posição
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -641,12 +641,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[BBDC4_STORY|📖 Storytelling completo (8 actos)]]
+- [[BBDC4|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[BBDC4_2026-04-30|Diego Bancário]] em [[Diego Bancário]]/reviews/
-  - [[BBDC4_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[BBDC4_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[BBDC4_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[BBDC4|Diego Bancário]] em [[council.banks-br]]/reviews/
+  - [[BBDC4|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[BBDC4|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[BBDC4|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -761,10 +761,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Diego Bancário]] — _Banks BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.banks-br]] — _Banks BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/BBDC4_2026-04-30.md`._
 
@@ -1021,7 +1021,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4.md` (cemetery archi
 - Market: [[markets/BR|BR]]
 - Peers: [[ABCB4]] · [[BBAS3]] · [[BPAC11]] · [[ITUB4]] · [[SANB11]]
 - Vídeos: [[videos/2026-04-16_virtual-asset_bbdc3-ou-bbdc4-o-banco-mais-barato-com-145-bi-de-dividendos-e-70-de-al|BBDC3 OU BBDC4? O BANCO MAIS BARATO COM ]]
-- 🎯 **Thesis**: [[wiki/holdings/BBDC4|thesis deep]]
+- 🎯 **Thesis**: [[BBDC4|thesis deep]]
 
 ##### Snapshot
 
@@ -1198,7 +1198,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\BBDC4_DOSSIE.md` (cemeter
 
 _Strategy: **Dividend/DRIP (5/12)**_
 
-> Generated **2026-05-05** by `ii dossier BBDC4`. Cross-links: [[BBDC4]] · [[BBDC4_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-05-05** by `ii dossier BBDC4`. Cross-links: [[BBDC4]] · [[BBDC4]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1313,7 +1313,7 @@ _Peer set (db): 5 tickers — ITUB4, BBAS3, BPAC11, ABCB4, SANB11_
 
 **🏛️ BUY** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[BBDC4_IC_DEBATE]]
+→ Detalhe: [[BBDC4]]
 
 ##### 8. Thesis
 

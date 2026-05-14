@@ -207,7 +207,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\XPLG11_DOSSIE.md` (cemete
 
 #### 📑 XPLG11 — XP Log
 
-> Generated **2026-04-26** by `ii dossier XPLG11`. Cross-links: [[XPLG11]] · [[XPLG11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier XPLG11`. Cross-links: [[XPLG11]] · [[XPLG11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -225,7 +225,7 @@ XPLG11 (XP Log) é FII tijolo logístico com DY 9,73% e P/E 19,98 — múltiplo 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[XPLG11_IC_DEBATE]]
+→ Detalhe: [[XPLG11]]
 
 ##### 3. Thesis
 

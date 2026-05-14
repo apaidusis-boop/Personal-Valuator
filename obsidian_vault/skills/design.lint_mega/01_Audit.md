@@ -103,4 +103,4 @@ Top 10 ficheiros com mais violações:
 - [[Design_System]] — fonte das regras
 - [[../scripts/_theme.py]] — tokens canónicos
 - [[../scripts/_components.py]] — helpers `kpi_tile`, `status_pill`, …
-- [[Helena Linha]] — owner
+- [[design.lint]] — owner

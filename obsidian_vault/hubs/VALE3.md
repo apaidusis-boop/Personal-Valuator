@@ -156,7 +156,7 @@ Dada a pontuação Piotroski de 5, o Bear Case deve ser mais agressivo:
 #### 2026-04-30 · Council review · Aderbaldo Cíclico
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
-#### Aderbaldo Cíclico sobre [[VALE3_STORY|VALE3]]
+#### Aderbaldo Cíclico sobre [[VALE3|VALE3]]
 
 **Função no debate**: Commodities BR Specialist (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -190,15 +190,15 @@ A Vale S.A. sustenta uma posição financeira robusta, com payout ratio sustent�
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VALE3_STORY|📖 Storytelling completo (8 actos)]]
-- [[VALE3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Aderbaldo Cíclico|👤 Minha página de persona]]
+- [[VALE3|📖 Storytelling completo (8 actos)]]
+- [[VALE3|🏛️ Transcript do Council debate]]
+- [[council.commodities-br|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -206,7 +206,7 @@ A Vale S.A. sustenta uma posição financeira robusta, com payout ratio sustent�
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[VALE3_STORY|VALE3]]
+#### Mariana Macro sobre [[VALE3|VALE3]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -239,15 +239,15 @@ A Vale S.A. apresenta uma consistência em dividendos e uma gestão eficiente do
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VALE3_STORY|📖 Storytelling completo (8 actos)]]
-- [[VALE3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[VALE3|📖 Storytelling completo (8 actos)]]
+- [[VALE3|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -255,7 +255,7 @@ A Vale S.A. apresenta uma consistência em dividendos e uma gestão eficiente do
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[VALE3_STORY|VALE3]]
+#### Pedro Alocação sobre [[VALE3|VALE3]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -286,15 +286,15 @@ A Vale apresenta um histórico sólido em dividendos e geração de caixa, mas s
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[VALE3_STORY|📖 Storytelling completo (8 actos)]]
-- [[VALE3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[VALE3|📖 Storytelling completo (8 actos)]]
+- [[VALE3|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -302,7 +302,7 @@ A Vale apresenta um histórico sólido em dividendos e geração de caixa, mas s
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VALE3_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[VALE3_STORY|VALE3]]
+#### Valentina Prudente sobre [[VALE3|VALE3]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -333,15 +333,15 @@ A Vale apresenta uma geração de caixa robusta e um histórico de dividendos es
 
 ##### Quem mais estava na sala
 
-- [[Aderbaldo Cíclico]] (Commodities BR Specialist)
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.commodities-br]] (Commodities BR Specialist)
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[VALE3_STORY|📖 Storytelling completo (8 actos)]]
-- [[VALE3_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[VALE3|📖 Storytelling completo (8 actos)]]
+- [[VALE3|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -566,7 +566,7 @@ Dada a pontuação Piotroski de 5, o Bear Case deve ser mais agressivo:
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[VALE3_STORY|VALE3]] (VALE3)
+#### Council Debate — [[VALE3|VALE3]] (VALE3)
 
 **Final stance**: 🟢 **BUY**  
 **Confidence**: `medium`  
@@ -575,10 +575,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md` (ceme
 
 ##### Quem esteve na sala
 
-- [[Aderbaldo Cíclico]] — _Commodities BR Specialist_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.commodities-br]] — _Commodities BR Specialist_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -594,7 +594,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md` (ceme
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Aderbaldo Cíclico]] — 🟢 **BUY**
+###### [[council.commodities-br]] — 🟢 **BUY**
 _Commodities BR Specialist_
 
 **Headline**: _VALE3 mantém posição de longo prazo com geração de caixa sólida_
@@ -610,7 +610,7 @@ A Vale S.A. sustenta uma posição financeira robusta, com payout ratio sustent�
 - Payout ratio elevado pode comprometer investimentos futuros
 - Dependência do preço do minério de ferro
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Vale mantém posição sólida com geração de caixa robusta_
@@ -626,7 +626,7 @@ A Vale S.A. apresenta uma consistência em dividendos e uma gestão eficiente do
 - múltiplo P/E acima do setor
 - volatilidade de preços do minério de ferro
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Vale mantém posição financeira sólida e geração de caixa consistente_
@@ -642,7 +642,7 @@ A Vale apresenta uma geração de caixa robusta e um histórico de dividendos es
 - P/E ligeiramente elevado em comparação com o setor
 - Dependência do preço do minério de ferro
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Headline**: _VALE3 mantém posição de HOLD com risco elevado_
@@ -660,7 +660,7 @@ A Vale apresenta um histórico sólido em dividendos e geração de caixa, mas s
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Aderbaldo Cíclico]] — 🟢 **BUY**
+###### [[council.commodities-br]] — 🟢 **BUY**
 _Commodities BR Specialist_
 
 **Concordou com**:
@@ -672,7 +672,7 @@ _Commodities BR Specialist_
 - A relação entre a geração de caixa sólida e o payout ratio sustentável compensa o múltiplo elevado.
 - Pedro Alocação
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -683,7 +683,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: A Vale continua a expandir suas reservas minerais tanto no Brasil quanto no Canadá, o que pode fortalecer sua posição futura.
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -692,7 +692,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - múltiplo P/E acima do setor | volatilidade de preços do minério de ferro - Mariana Macro; O múltiplo P/E elevado é um reflexo da expectativa de crescimento futuro e não necessariamente indica uma posição financeira fraca, especialmente com a geração de caixa sólida que a Vale tem demonstrado consistentemente.
 
-###### [[Pedro Alocação]] — 🟡 **HOLD**
+###### [[council.allocation]] — 🟡 **HOLD**
 _Capital Allocator_
 
 **Concordou com**:
@@ -703,12 +703,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[VALE3_STORY|📖 Storytelling completo (8 actos)]]
+- [[VALE3|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[VALE3_2026-04-30|Aderbaldo Cíclico]] em [[Aderbaldo Cíclico]]/reviews/
-  - [[VALE3_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[VALE3_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[VALE3_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[VALE3|Aderbaldo Cíclico]] em [[council.commodities-br]]/reviews/
+  - [[VALE3|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[VALE3|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[VALE3|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -852,10 +852,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_STORY.md` (cemete
 
 ##### Quem analisou este ticker
 
-- [[Aderbaldo Cíclico]] — _Commodities BR Specialist_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.commodities-br]] — _Commodities BR Specialist_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/VALE3_2026-04-30.md`._
 
@@ -1107,7 +1107,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3.md` (cemetery archi
 - Sector: [[sectors/Mining|Mining]]
 - Market: [[markets/BR|BR]]
 - Vídeos: [[videos/2026-04-21_market-makers_risco-guerra-dolar-em-queda-e-petroleo-em-alta-onde-investir-agora-mar|RISCO GUERRA, DÓLAR EM QUEDA E PETRÓLEO ]] · [[videos/2026-04-20_virtual-asset_petr4-e-cple3-dividendo-extra-e-novo-chegando-vale3-supera-expectativa|PETR4 e CPLE3: DIVIDENDO EXTRA E NOVO CH]] · [[videos/2025-07-27_suno-noticias_vale-a-pena-investir-em-vale-vale3-apos-resultados-operacionais|Vale a pena INVESTIR EM VALE (VALE3) apó]]
-- 🎯 **Thesis**: [[wiki/holdings/VALE3|thesis deep]]
+- 🎯 **Thesis**: [[VALE3|thesis deep]]
 
 ##### Snapshot
 
@@ -1279,7 +1279,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\VALE3_DOSSIE.md` (cemeter
 
 #### 📑 VALE3 — Vale
 
-> Generated **2026-04-26** by `ii dossier VALE3`. Cross-links: [[VALE3]] · [[VALE3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier VALE3`. Cross-links: [[VALE3]] · [[VALE3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -1297,7 +1297,7 @@ VALE3 negocia P/E 31.0 com ROE de apenas 5.87% e DY 6.38% sustentado por streak 
 
 **🏛️ HOLD** (high confidence, 80.0% consensus)
 
-→ Detalhe: [[VALE3_IC_DEBATE]]
+→ Detalhe: [[VALE3]]
 
 ##### 3. Thesis
 

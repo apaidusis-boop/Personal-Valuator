@@ -136,4 +136,4 @@ _Não instalar — duplica capability existente, fora de scope, ou abandonware._
 
 - [[Design_Watch]] — re-scan semanal automático de novos repos
 - [[Claude_Design_Integration]] — Anthropic Labs prototyping flow
-- [[Helena Linha]] — owner
+- [[design.lint]] — owner

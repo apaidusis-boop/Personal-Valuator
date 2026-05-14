@@ -80,7 +80,7 @@ _source: `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13
 #### 2026-04-30 · Council review · Charlie Compounder
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\AAPL_2026-04-30.md` (cemetery archive)_
 
-#### Charlie Compounder sobre [[AAPL_STORY|AAPL]]
+#### Charlie Compounder sobre [[AAPL|AAPL]]
 
 **Função no debate**: Industrials & Consumer US Specialist (Buffett frame) (`sector_specialist`)  
 **Data**: 2026-04-30  
@@ -111,15 +111,15 @@ A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma 
 
 ##### Quem mais estava na sala
 
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[AAPL_STORY|📖 Storytelling completo (8 actos)]]
-- [[AAPL_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Charlie Compounder|👤 Minha página de persona]]
+- [[AAPL|📖 Storytelling completo (8 actos)]]
+- [[AAPL|🏛️ Transcript do Council debate]]
+- [[council.industrials-us|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -127,7 +127,7 @@ A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma 
 #### 2026-04-30 · Council review · Mariana Macro
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\AAPL_2026-04-30.md` (cemetery archive)_
 
-#### Mariana Macro sobre [[AAPL_STORY|AAPL]]
+#### Mariana Macro sobre [[AAPL|AAPL]]
 
 **Função no debate**: Chief Macro Strategist (`macro_strategist`)  
 **Data**: 2026-04-30  
@@ -160,15 +160,15 @@ A Apple continua gerando ROE excepcionalmente alto (152%) e tem um histórico co
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Valentina Prudente]] (Chief Risk Officer)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[risk.drift-audit]] (Chief Risk Officer)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[AAPL_STORY|📖 Storytelling completo (8 actos)]]
-- [[AAPL_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Mariana Macro|👤 Minha página de persona]]
+- [[AAPL|📖 Storytelling completo (8 actos)]]
+- [[AAPL|🏛️ Transcript do Council debate]]
+- [[council.macro|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -176,7 +176,7 @@ A Apple continua gerando ROE excepcionalmente alto (152%) e tem um histórico co
 #### 2026-04-30 · Council review · Pedro Alocação
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\AAPL_2026-04-30.md` (cemetery archive)_
 
-#### Pedro Alocação sobre [[AAPL_STORY|AAPL]]
+#### Pedro Alocação sobre [[AAPL|AAPL]]
 
 **Função no debate**: Capital Allocator (`portfolio_officer`)  
 **Data**: 2026-04-30  
@@ -209,15 +209,15 @@ A Apple continua a gerar ROE superior a 150% e um histórico consistente de divi
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Valentina Prudente]] (Chief Risk Officer)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[risk.drift-audit]] (Chief Risk Officer)
 
 ##### Documentos relacionados
 
-- [[AAPL_STORY|📖 Storytelling completo (8 actos)]]
-- [[AAPL_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Pedro Alocação|👤 Minha página de persona]]
+- [[AAPL|📖 Storytelling completo (8 actos)]]
+- [[AAPL|🏛️ Transcript do Council debate]]
+- [[council.allocation|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -225,7 +225,7 @@ A Apple continua a gerar ROE superior a 150% e um histórico consistente de divi
 #### 2026-04-30 · Council review · Valentina Prudente
 _source: `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\AAPL_2026-04-30.md` (cemetery archive)_
 
-#### Valentina Prudente sobre [[AAPL_STORY|AAPL]]
+#### Valentina Prudente sobre [[AAPL|AAPL]]
 
 **Função no debate**: Chief Risk Officer (`risk_officer`)  
 **Data**: 2026-04-30  
@@ -256,15 +256,15 @@ A Apple continua gerando lucros consistentes com um ROE de 152% e uma relação 
 
 ##### Quem mais estava na sala
 
-- [[Charlie Compounder]] (Industrials & Consumer US Specialist (Buffett frame))
-- [[Mariana Macro]] (Chief Macro Strategist)
-- [[Pedro Alocação]] (Capital Allocator)
+- [[council.industrials-us]] (Industrials & Consumer US Specialist (Buffett frame))
+- [[council.macro]] (Chief Macro Strategist)
+- [[council.allocation]] (Capital Allocator)
 
 ##### Documentos relacionados
 
-- [[AAPL_STORY|📖 Storytelling completo (8 actos)]]
-- [[AAPL_COUNCIL|🏛️ Transcript do Council debate]]
-- [[Valentina Prudente|👤 Minha página de persona]]
+- [[AAPL|📖 Storytelling completo (8 actos)]]
+- [[AAPL|🏛️ Transcript do Council debate]]
+- [[risk.drift-audit|👤 Minha página de persona]]
 
 ---
 *Gerado pelo Council `2026-04-30` — STORYT_2.0 Camada 5.5*
@@ -275,7 +275,7 @@ A Apple continua gerando lucros consistentes com um ROE de 152% e uma relação 
 #### — · Council aggregate
 _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_COUNCIL.md` (cemetery archive)_
 
-#### Council Debate — [[AAPL_STORY|AAPL]] (Apple)
+#### Council Debate — [[AAPL|AAPL]] (Apple)
 
 **Final stance**: ⚪ **NEEDS_DATA**  
 **Confidence**: `low`  
@@ -284,10 +284,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_COUNCIL.md` (cemet
 
 ##### Quem esteve na sala
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
-- [[Mariana Macro]] — _Chief Macro Strategist_ (`macro_strategist`)
-- [[Valentina Prudente]] — _Chief Risk Officer_ (`risk_officer`)
-- [[Pedro Alocação]] — _Capital Allocator_ (`portfolio_officer`)
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_ (`sector_specialist`)
+- [[council.macro]] — _Chief Macro Strategist_ (`macro_strategist`)
+- [[risk.drift-audit]] — _Chief Risk Officer_ (`risk_officer`)
+- [[council.allocation]] — _Capital Allocator_ (`portfolio_officer`)
 
 ##### Síntese
 
@@ -307,7 +307,7 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_COUNCIL.md` (cemet
 
 ##### Round 1 — Opening Statements (blind)
 
-###### [[Charlie Compounder]] — 🟡 **HOLD**
+###### [[council.industrials-us]] — 🟡 **HOLD**
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Headline**: _Apple mantém forte ROE e crescimento, mas múltiplos elevados são preocupantes_
@@ -323,7 +323,7 @@ A Apple apresenta um sólido retorno sobre o patrimônio líquido de 152% e uma 
 - Múltiplos de valuation muito altos
 - Baixo dividend yield isolado
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Headline**: _Apple mantém posição de liderança com forte geração de lucros_
@@ -339,7 +339,7 @@ A Apple continua gerando ROE excepcionalmente alto (152%) e tem um histórico co
 - P/B elevado (45.24x)
 - Dependência macro crescente
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Headline**: _Apple mantém robusta geração de lucros e ROE elevado_
@@ -355,7 +355,7 @@ A Apple continua gerando lucros consistentes com um ROE de 152% e uma relação 
 - P/E elevado de 34,39x
 - alta dependência do mercado chinês
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Headline**: _Apple mantém posição de destaque com forte geração de lucros_
@@ -373,7 +373,7 @@ A Apple continua a gerar ROE superior a 150% e um histórico consistente de divi
 
 ##### Round 2 — Respostas (peers visíveis)
 
-###### [[Charlie Compounder]] — ⚪ **NEEDS_DATA** *(stance flipped)*
+###### [[council.industrials-us]] — ⚪ **NEEDS_DATA** *(stance flipped)*
 _Industrials & Consumer US Specialist (Buffett frame)_
 
 **Concordou com**:
@@ -382,7 +382,7 @@ _Industrials & Consumer US Specialist (Buffett frame)_
 **Desafiou**:
 - A relação P/E está acima da média setorial, mas reflete a solidez operacional - Mariana Macro | Discordo pois o múltiplo elevado não é justificado pelo crescimento atual e pode indicar sobreavaliação
 
-###### [[Mariana Macro]] — 🟢 **BUY**
+###### [[council.macro]] — 🟢 **BUY**
 _Chief Macro Strategist_
 
 **Concordou com**:
@@ -393,7 +393,7 @@ _Chief Macro Strategist_
 
 **Evidência nova**: Apple continua a ver um crescimento significativo em suas divisões de serviços, mantendo o momentum financeiro da empresa
 
-###### [[Valentina Prudente]] — 🟢 **BUY**
+###### [[risk.drift-audit]] — 🟢 **BUY**
 _Chief Risk Officer_
 
 **Concordou com**:
@@ -402,7 +402,7 @@ _Chief Risk Officer_
 **Desafiou**:
 - No entanto, a relação P/E de 34,39 e P/B de 45,24 indicam que os múltiplos estão elevados — Charlie Compounder | Esses múltiplos refletem o desempenho operacional excepcional da empresa e não necessariamente sugerem um risco permanente de capital
 
-###### [[Pedro Alocação]] — 🟢 **BUY**
+###### [[council.allocation]] — 🟢 **BUY**
 _Capital Allocator_
 
 **Concordou com**:
@@ -415,12 +415,12 @@ _Capital Allocator_
 
 ##### Documentos relacionados
 
-- [[AAPL_STORY|📖 Storytelling completo (8 actos)]]
+- [[AAPL|📖 Storytelling completo (8 actos)]]
 - Reviews individuais por especialista:
-  - [[AAPL_2026-04-30|Charlie Compounder]] em [[Charlie Compounder]]/reviews/
-  - [[AAPL_2026-04-30|Mariana Macro]] em [[Mariana Macro]]/reviews/
-  - [[AAPL_2026-04-30|Valentina Prudente]] em [[Valentina Prudente]]/reviews/
-  - [[AAPL_2026-04-30|Pedro Alocação]] em [[Pedro Alocação]]/reviews/
+  - [[AAPL|Charlie Compounder]] em [[council.industrials-us]]/reviews/
+  - [[AAPL|Mariana Macro]] em [[council.macro]]/reviews/
+  - [[AAPL|Valentina Prudente]] em [[risk.drift-audit]]/reviews/
+  - [[AAPL|Pedro Alocação]] em [[council.allocation]]/reviews/
 
 ##### Dossier (factual base — same input para todos)
 
@@ -533,10 +533,10 @@ _source: `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_STORY.md` (cemeter
 
 ##### Quem analisou este ticker
 
-- [[Charlie Compounder]] — _Industrials & Consumer US Specialist (Buffett frame)_
-- [[Mariana Macro]] — _Chief Macro Strategist_
-- [[Valentina Prudente]] — _Chief Risk Officer_
-- [[Pedro Alocação]] — _Capital Allocator_
+- [[council.industrials-us]] — _Industrials & Consumer US Specialist (Buffett frame)_
+- [[council.macro]] — _Chief Macro Strategist_
+- [[risk.drift-audit]] — _Chief Risk Officer_
+- [[council.allocation]] — _Capital Allocator_
 
 _Cada especialista escreveu uma review individual em `obsidian_vault/agents/<Nome>/reviews/AAPL_2026-04-30.md`._
 
@@ -788,7 +788,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL.md` (cemetery archiv
 - Sector: [[sectors/Technology|Technology]]
 - Market: [[markets/US|US]]
 - Peers: [[ACN]] · [[PLTR]] · [[TSM]] · [[IBM]] · [[JKHY]]
-- 🎯 **Thesis**: [[wiki/holdings/AAPL|thesis deep]]
+- 🎯 **Thesis**: [[AAPL|thesis deep]]
 
 ##### Snapshot
 
@@ -930,7 +930,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL_DOSSIE.md` (cemetery
 
 #### 📑 AAPL — Apple
 
-> Generated **2026-04-26** by `ii dossier AAPL`. Cross-links: [[AAPL]] · [[AAPL_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier AAPL`. Cross-links: [[AAPL]] · [[AAPL]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -948,7 +948,7 @@ AAPL negoceia a P/E 34.35 com DY 0.38% e ROE 152.02% (alavancado por buybacks), 
 
 **🏛️ MIXED** (low confidence, 40.0% consensus)
 
-→ Detalhe: [[AAPL_IC_DEBATE]]
+→ Detalhe: [[AAPL]]
 
 ##### 3. Thesis
 

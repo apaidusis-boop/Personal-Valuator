@@ -353,7 +353,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\PGMN3_DOSSIE.md` (cemeter
 
 #### 📑 PGMN3 — Pague Menos
 
-> Generated **2026-04-26** by `ii dossier PGMN3`. Cross-links: [[PGMN3]] · [[PGMN3_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier PGMN3`. Cross-links: [[PGMN3]] · [[PGMN3]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -371,7 +371,7 @@ PGMN3 negocia P/E 13.57 e P/B 1.22 (perto do livro) com DY 4.50% e ROE 8.97% —
 
 **🏛️ HOLD** (high confidence, 100.0% consensus)
 
-→ Detalhe: [[PGMN3_IC_DEBATE]]
+→ Detalhe: [[PGMN3]]
 
 ##### 3. Thesis
 

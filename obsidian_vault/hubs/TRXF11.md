@@ -196,7 +196,7 @@ _source: `cemetery\2026-05-14\ABSORBED-tickers\tickers\TRXF11_DOSSIE.md` (cemete
 
 #### 📑 TRXF11 — TRX Real Estate
 
-> Generated **2026-04-26** by `ii dossier TRXF11`. Cross-links: [[TRXF11]] · [[TRXF11_IC_DEBATE]] · [[CONSTITUTION]]
+> Generated **2026-04-26** by `ii dossier TRXF11`. Cross-links: [[TRXF11]] · [[TRXF11]] · [[CONSTITUTION]]
 
 ##### TL;DR
 
@@ -214,7 +214,7 @@ TRXF11 (TRX Real Estate, segmento Híbrido) negoceia a BRL 91.77 com DY 11.85% e
 
 **🏛️ HOLD** (medium confidence, 60.0% consensus)
 
-→ Detalhe: [[TRXF11_IC_DEBATE]]
+→ Detalhe: [[TRXF11]]
 
 ##### 3. Thesis
 
