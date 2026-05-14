@@ -34,3 +34,539 @@ _Audit IDs: MA-FE-001, MA-FE-002, MA-FE-003_
   - Restore: `mkdir -p "obsidian_vault/market-researcher"` (if needed)
 - **MA-FE-003** `obsidian_vault/reference` (FOLDER-EMPTY) — directory was empty, removed.
   - Restore: `mkdir -p "obsidian_vault/reference"` (if needed)
+
+### Wave 8 — Per-ticker SOURCE files (merge-total absorbed into hubs)
+Date: 2026-05-14
+Total: 1002 files moved across 7 categories.
+Each ticker's content was first absorbed into `obsidian_vault/hubs/<TK>.md` (merge-total) before burial here.
+Restore command pattern: `git mv cemetery/2026-05-14/<SUBDIR>/<ORIGINAL_PATH> <ORIGINAL_PATH>`
+
+- `obsidian_vault\agents\Aderbaldo Cíclico\reviews\PRIO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\PRIO3_2026-04-30.md` — per-ticker PRIO3 review absorbed into hub
+- `obsidian_vault\agents\Aderbaldo Cíclico\reviews\VALE3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Aderbaldo Cíclico\reviews\VALE3_2026-04-30.md` — per-ticker VALE3 review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\AAPL_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\AAPL_2026-04-30.md` — per-ticker AAPL review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\ABBV_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\ABBV_2026-04-30.md` — per-ticker ABBV review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\ACN_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\ACN_2026-04-30.md` — per-ticker ACN review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\HD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\HD_2026-05-01.md` — per-ticker HD review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\JNJ_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\JNJ_2026-05-01.md` — per-ticker JNJ review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\KO_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\KO_2026-05-01.md` — per-ticker KO review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\PG_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PG_2026-05-01.md` — per-ticker PG review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\PLTR_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\PLTR_2026-05-01.md` — per-ticker PLTR review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\TEN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TEN_2026-05-01.md` — per-ticker TEN review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\TSLA_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSLA_2026-05-01.md` — per-ticker TSLA review absorbed into hub
+- `obsidian_vault\agents\Charlie Compounder\reviews\TSM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Charlie Compounder\reviews\TSM_2026-05-01.md` — per-ticker TSM review absorbed into hub
+- `obsidian_vault\agents\Diego Bancário\reviews\BBDC4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\BBDC4_2026-04-30.md` — per-ticker BBDC4 review absorbed into hub
+- `obsidian_vault\agents\Diego Bancário\reviews\ITSA4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Diego Bancário\reviews\ITSA4_2026-04-30.md` — per-ticker ITSA4 review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\BLK_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BLK_2026-04-30.md` — per-ticker BLK review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\BN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\BN_2026-05-01.md` — per-ticker BN review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\GS_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\GS_2026-05-01.md` — per-ticker GS review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\JPM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\JPM_2026-05-01.md` — per-ticker JPM review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\NU_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\NU_2026-05-01.md` — per-ticker NU review absorbed into hub
+- `obsidian_vault\agents\Hank Tier-One\reviews\XP_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Hank Tier-One\reviews\XP_2026-05-01.md` — per-ticker XP review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\BTLG11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\BTLG11_2026-04-30.md` — per-ticker BTLG11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\KLBN11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\KLBN11_2026-04-30.md` — per-ticker KLBN11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\PVBI11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\PVBI11_2026-04-30.md` — per-ticker PVBI11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\RBRX11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\RBRX11_2026-04-30.md` — per-ticker RBRX11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\VGIR11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\VGIR11_2026-04-30.md` — per-ticker VGIR11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\XPML11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-04-30.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Lourdes Aluguel\reviews\XPML11_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Lourdes Aluguel\reviews\XPML11_2026-05-01.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\AAPL_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\AAPL_2026-04-30.md` — per-ticker AAPL review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\ABBV_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ABBV_2026-04-30.md` — per-ticker ABBV review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\ACN_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ACN_2026-04-30.md` — per-ticker ACN review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\BBDC4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BBDC4_2026-04-30.md` — per-ticker BBDC4 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\BLK_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BLK_2026-04-30.md` — per-ticker BLK review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\BN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BN_2026-05-01.md` — per-ticker BN review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\BTLG11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\BTLG11_2026-04-30.md` — per-ticker BTLG11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\GS_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\GS_2026-05-01.md` — per-ticker GS review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\HD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\HD_2026-05-01.md` — per-ticker HD review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\ITSA4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\ITSA4_2026-04-30.md` — per-ticker ITSA4 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\JNJ_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JNJ_2026-05-01.md` — per-ticker JNJ review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\JPM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\JPM_2026-05-01.md` — per-ticker JPM review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\KLBN11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KLBN11_2026-04-30.md` — per-ticker KLBN11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\KO_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\KO_2026-05-01.md` — per-ticker KO review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\NU_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\NU_2026-05-01.md` — per-ticker NU review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\O_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\O_2026-05-01.md` — per-ticker O review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\PG_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PG_2026-05-01.md` — per-ticker PG review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\PLD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLD_2026-05-01.md` — per-ticker PLD review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\PLTR_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PLTR_2026-05-01.md` — per-ticker PLTR review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\POMO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\POMO3_2026-04-30.md` — per-ticker POMO3 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\PRIO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PRIO3_2026-04-30.md` — per-ticker PRIO3 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\PVBI11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\PVBI11_2026-04-30.md` — per-ticker PVBI11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\RBRX11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\RBRX11_2026-04-30.md` — per-ticker RBRX11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\TEN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TEN_2026-05-01.md` — per-ticker TEN review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\TSLA_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSLA_2026-05-01.md` — per-ticker TSLA review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\TSM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\TSM_2026-05-01.md` — per-ticker TSM review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\VALE3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VALE3_2026-04-30.md` — per-ticker VALE3 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\VGIR11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\VGIR11_2026-04-30.md` — per-ticker VGIR11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\XPML11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-04-30.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\XPML11_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XPML11_2026-05-01.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Mariana Macro\reviews\XP_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Mariana Macro\reviews\XP_2026-05-01.md` — per-ticker XP review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\AAPL_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\AAPL_2026-04-30.md` — per-ticker AAPL review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\ABBV_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ABBV_2026-04-30.md` — per-ticker ABBV review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\ACN_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ACN_2026-04-30.md` — per-ticker ACN review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\BBDC4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BBDC4_2026-04-30.md` — per-ticker BBDC4 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\BLK_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BLK_2026-04-30.md` — per-ticker BLK review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\BN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BN_2026-05-01.md` — per-ticker BN review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\BTLG11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\BTLG11_2026-04-30.md` — per-ticker BTLG11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\GS_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\GS_2026-05-01.md` — per-ticker GS review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\HD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\HD_2026-05-01.md` — per-ticker HD review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\ITSA4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\ITSA4_2026-04-30.md` — per-ticker ITSA4 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\JNJ_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JNJ_2026-05-01.md` — per-ticker JNJ review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\JPM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\JPM_2026-05-01.md` — per-ticker JPM review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\KLBN11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KLBN11_2026-04-30.md` — per-ticker KLBN11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\KO_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\KO_2026-05-01.md` — per-ticker KO review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\NU_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\NU_2026-05-01.md` — per-ticker NU review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\O_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\O_2026-05-01.md` — per-ticker O review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\PG_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PG_2026-05-01.md` — per-ticker PG review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\PLD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLD_2026-05-01.md` — per-ticker PLD review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\PLTR_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PLTR_2026-05-01.md` — per-ticker PLTR review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\POMO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\POMO3_2026-04-30.md` — per-ticker POMO3 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\PRIO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PRIO3_2026-04-30.md` — per-ticker PRIO3 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\PVBI11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\PVBI11_2026-04-30.md` — per-ticker PVBI11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\RBRX11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\RBRX11_2026-04-30.md` — per-ticker RBRX11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\TEN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TEN_2026-05-01.md` — per-ticker TEN review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\TSLA_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSLA_2026-05-01.md` — per-ticker TSLA review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\TSM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\TSM_2026-05-01.md` — per-ticker TSM review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\VALE3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VALE3_2026-04-30.md` — per-ticker VALE3 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\VGIR11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\VGIR11_2026-04-30.md` — per-ticker VGIR11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\XPML11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-04-30.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\XPML11_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XPML11_2026-05-01.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Pedro Alocação\reviews\XP_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Pedro Alocação\reviews\XP_2026-05-01.md` — per-ticker XP review absorbed into hub
+- `obsidian_vault\agents\Tião Galpão\reviews\ITSA4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\ITSA4_2026-04-30.md` — per-ticker ITSA4 review absorbed into hub
+- `obsidian_vault\agents\Tião Galpão\reviews\POMO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Tião Galpão\reviews\POMO3_2026-04-30.md` — per-ticker POMO3 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\AAPL_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\AAPL_2026-04-30.md` — per-ticker AAPL review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\ABBV_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ABBV_2026-04-30.md` — per-ticker ABBV review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\ACN_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ACN_2026-04-30.md` — per-ticker ACN review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\BBDC4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BBDC4_2026-04-30.md` — per-ticker BBDC4 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\BLK_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BLK_2026-04-30.md` — per-ticker BLK review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\BN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BN_2026-05-01.md` — per-ticker BN review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\BTLG11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\BTLG11_2026-04-30.md` — per-ticker BTLG11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\GS_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\GS_2026-05-01.md` — per-ticker GS review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\HD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\HD_2026-05-01.md` — per-ticker HD review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\ITSA4_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\ITSA4_2026-04-30.md` — per-ticker ITSA4 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\JNJ_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JNJ_2026-05-01.md` — per-ticker JNJ review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\JPM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\JPM_2026-05-01.md` — per-ticker JPM review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\KLBN11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KLBN11_2026-04-30.md` — per-ticker KLBN11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\KO_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\KO_2026-05-01.md` — per-ticker KO review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\NU_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\NU_2026-05-01.md` — per-ticker NU review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\O_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\O_2026-05-01.md` — per-ticker O review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\PG_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PG_2026-05-01.md` — per-ticker PG review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\PLD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLD_2026-05-01.md` — per-ticker PLD review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\PLTR_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PLTR_2026-05-01.md` — per-ticker PLTR review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\POMO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\POMO3_2026-04-30.md` — per-ticker POMO3 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\PRIO3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PRIO3_2026-04-30.md` — per-ticker PRIO3 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\PVBI11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\PVBI11_2026-04-30.md` — per-ticker PVBI11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\RBRX11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\RBRX11_2026-04-30.md` — per-ticker RBRX11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\TEN_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TEN_2026-05-01.md` — per-ticker TEN review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\TSLA_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSLA_2026-05-01.md` — per-ticker TSLA review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\TSM_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\TSM_2026-05-01.md` — per-ticker TSM review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\VALE3_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VALE3_2026-04-30.md` — per-ticker VALE3 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\VGIR11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\VGIR11_2026-04-30.md` — per-ticker VGIR11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\XPML11_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-04-30.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\XPML11_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XPML11_2026-05-01.md` — per-ticker XPML11 review absorbed into hub
+- `obsidian_vault\agents\Valentina Prudente\reviews\XP_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Valentina Prudente\reviews\XP_2026-05-01.md` — per-ticker XP review absorbed into hub
+- `obsidian_vault\agents\Walter Triple-Net\reviews\O_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\O_2026-05-01.md` — per-ticker O review absorbed into hub
+- `obsidian_vault\agents\Walter Triple-Net\reviews\PLD_2026-05-01.md` → `cemetery\2026-05-14\ABSORBED-council-reviews\agents\Walter Triple-Net\reviews\PLD_2026-05-01.md` — per-ticker PLD review absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\AAPL_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\AAPL_drip.md` — DRIP scenario AAPL absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\ABBV_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ABBV_drip.md` — DRIP scenario ABBV absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\ACN_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ACN_drip.md` — DRIP scenario ACN absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\BBDC4_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BBDC4_drip.md` — DRIP scenario BBDC4 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\BLK_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BLK_drip.md` — DRIP scenario BLK absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\BN_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BN_drip.md` — DRIP scenario BN absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\BTLG11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BTLG11_drip.md` — DRIP scenario BTLG11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\GREK_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\GREK_drip.md` — DRIP scenario GREK absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\GS_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\GS_drip.md` — DRIP scenario GS absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\HD_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\HD_drip.md` — DRIP scenario HD absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\ITSA4_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\ITSA4_drip.md` — DRIP scenario ITSA4 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\IVVB11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\IVVB11_drip.md` — DRIP scenario IVVB11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\JNJ_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\JNJ_drip.md` — DRIP scenario JNJ absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\JPM_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\JPM_drip.md` — DRIP scenario JPM absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\KLBN11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\KLBN11_drip.md` — DRIP scenario KLBN11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\KO_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\KO_drip.md` — DRIP scenario KO absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\LFTB11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\LFTB11_drip.md` — DRIP scenario LFTB11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\NU_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\NU_drip.md` — DRIP scenario NU absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\O_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\O_drip.md` — DRIP scenario O absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\PG_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PG_drip.md` — DRIP scenario PG absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\PLD_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PLD_drip.md` — DRIP scenario PLD absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\PLTR_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PLTR_drip.md` — DRIP scenario PLTR absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\PRIO3_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PRIO3_drip.md` — DRIP scenario PRIO3 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\PVBI11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\PVBI11_drip.md` — DRIP scenario PVBI11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\RBRX11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\RBRX11_drip.md` — DRIP scenario RBRX11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\TEN_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TEN_drip.md` — DRIP scenario TEN absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\TSLA_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TSLA_drip.md` — DRIP scenario TSLA absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\TSM_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\TSM_drip.md` — DRIP scenario TSM absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\VALE3_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\VALE3_drip.md` — DRIP scenario VALE3 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\VGIR11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\VGIR11_drip.md` — DRIP scenario VGIR11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\XPML11_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\XPML11_drip.md` — DRIP scenario XPML11 absorbed into hub
+- `obsidian_vault\briefings\drip_scenarios\XP_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\XP_drip.md` — DRIP scenario XP absorbed into hub
+- `obsidian_vault\dossiers\AAPL_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_COUNCIL.md` — per-ticker dossier for AAPL absorbed into hub
+- `obsidian_vault\dossiers\AAPL_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AAPL_STORY.md` — per-ticker dossier for AAPL absorbed into hub
+- `obsidian_vault\dossiers\ABBV_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_COUNCIL.md` — per-ticker dossier for ABBV absorbed into hub
+- `obsidian_vault\dossiers\ABBV_FILING_2017-03-20.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2017-03-20.md` — per-ticker dossier for ABBV absorbed into hub
+- `obsidian_vault\dossiers\ABBV_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2026-05-08.md` — per-ticker dossier for ABBV absorbed into hub
+- `obsidian_vault\dossiers\ABBV_FILING_2026-05-12.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_FILING_2026-05-12.md` — per-ticker dossier for ABBV absorbed into hub
+- `obsidian_vault\dossiers\ABBV_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ABBV_STORY.md` — per-ticker dossier for ABBV absorbed into hub
+- `obsidian_vault\dossiers\ACN.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN.md` — per-ticker dossier for ACN absorbed into hub
+- `obsidian_vault\dossiers\ACN_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_COUNCIL.md` — per-ticker dossier for ACN absorbed into hub
+- `obsidian_vault\dossiers\ACN_FILING_2023-02-01.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_FILING_2023-02-01.md` — per-ticker dossier for ACN absorbed into hub
+- `obsidian_vault\dossiers\ACN_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ACN_STORY.md` — per-ticker dossier for ACN absorbed into hub
+- `obsidian_vault\dossiers\ALOS3_FILING_2026-04-10.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ALOS3_FILING_2026-04-10.md` — per-ticker dossier for ALOS3 absorbed into hub
+- `obsidian_vault\dossiers\ALOS3_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ALOS3_FILING_2026-05-05.md` — per-ticker dossier for ALOS3 absorbed into hub
+- `obsidian_vault\dossiers\AXIA7_FILING_2026-04-24.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AXIA7_FILING_2026-04-24.md` — per-ticker dossier for AXIA7 absorbed into hub
+- `obsidian_vault\dossiers\AXIA7_FILING_2026-05-06.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\AXIA7_FILING_2026-05-06.md` — per-ticker dossier for AXIA7 absorbed into hub
+- `obsidian_vault\dossiers\B3SA3_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\B3SA3_FILING_2026-04-30.md` — per-ticker dossier for B3SA3 absorbed into hub
+- `obsidian_vault\dossiers\B3SA3_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\B3SA3_FILING_2026-05-07.md` — per-ticker dossier for B3SA3 absorbed into hub
+- `obsidian_vault\dossiers\BBDC4_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_COUNCIL.md` — per-ticker dossier for BBDC4 absorbed into hub
+- `obsidian_vault\dossiers\BBDC4_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-04-30.md` — per-ticker dossier for BBDC4 absorbed into hub
+- `obsidian_vault\dossiers\BBDC4_FILING_2026-05-06.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-05-06.md` — per-ticker dossier for BBDC4 absorbed into hub
+- `obsidian_vault\dossiers\BBDC4_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_FILING_2026-05-08.md` — per-ticker dossier for BBDC4 absorbed into hub
+- `obsidian_vault\dossiers\BBDC4_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BBDC4_STORY.md` — per-ticker dossier for BBDC4 absorbed into hub
+- `obsidian_vault\dossiers\BLK_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_COUNCIL.md` — per-ticker dossier for BLK absorbed into hub
+- `obsidian_vault\dossiers\BLK_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BLK_STORY.md` — per-ticker dossier for BLK absorbed into hub
+- `obsidian_vault\dossiers\BN_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_COUNCIL.md` — per-ticker dossier for BN absorbed into hub
+- `obsidian_vault\dossiers\BN_FILING_2017-11-14.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_FILING_2017-11-14.md` — per-ticker dossier for BN absorbed into hub
+- `obsidian_vault\dossiers\BN_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BN_STORY.md` — per-ticker dossier for BN absorbed into hub
+- `obsidian_vault\dossiers\BTLG11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_COUNCIL.md` — per-ticker dossier for BTLG11 absorbed into hub
+- `obsidian_vault\dossiers\BTLG11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BTLG11_STORY.md` — per-ticker dossier for BTLG11 absorbed into hub
+- `obsidian_vault\dossiers\CPLE3_CONTENT_TRIGGER_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_CONTENT_TRIGGER_2026-05-08.md` — per-ticker dossier for CPLE3 absorbed into hub
+- `obsidian_vault\dossiers\CPLE3_FILING_2026-04-22.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_FILING_2026-04-22.md` — per-ticker dossier for CPLE3 absorbed into hub
+- `obsidian_vault\dossiers\CPLE3_FILING_2026-05-06.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\CPLE3_FILING_2026-05-06.md` — per-ticker dossier for CPLE3 absorbed into hub
+- `obsidian_vault\dossiers\ENGI11_FILING_2026-04-22.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ENGI11_FILING_2026-04-22.md` — per-ticker dossier for ENGI11 absorbed into hub
+- `obsidian_vault\dossiers\ENGI11_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ENGI11_FILING_2026-05-08.md` — per-ticker dossier for ENGI11 absorbed into hub
+- `obsidian_vault\dossiers\EQTL3_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\EQTL3_FILING_2026-04-30.md` — per-ticker dossier for EQTL3 absorbed into hub
+- `obsidian_vault\dossiers\EQTL3_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\EQTL3_FILING_2026-05-08.md` — per-ticker dossier for EQTL3 absorbed into hub
+- `obsidian_vault\dossiers\GS_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_COUNCIL.md` — per-ticker dossier for GS absorbed into hub
+- `obsidian_vault\dossiers\GS_FILING_2026-05-12.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_FILING_2026-05-12.md` — per-ticker dossier for GS absorbed into hub
+- `obsidian_vault\dossiers\GS_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\GS_STORY.md` — per-ticker dossier for GS absorbed into hub
+- `obsidian_vault\dossiers\HD_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_COUNCIL.md` — per-ticker dossier for HD absorbed into hub
+- `obsidian_vault\dossiers\HD_FILING_2017-08-22.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_FILING_2017-08-22.md` — per-ticker dossier for HD absorbed into hub
+- `obsidian_vault\dossiers\HD_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\HD_STORY.md` — per-ticker dossier for HD absorbed into hub
+- `obsidian_vault\dossiers\IBM_FILING_2019-11-12.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\IBM_FILING_2019-11-12.md` — per-ticker dossier for IBM absorbed into hub
+- `obsidian_vault\dossiers\ITSA4_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_COUNCIL.md` — per-ticker dossier for ITSA4 absorbed into hub
+- `obsidian_vault\dossiers\ITSA4_FILING_2026-04-14.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_FILING_2026-04-14.md` — per-ticker dossier for ITSA4 absorbed into hub
+- `obsidian_vault\dossiers\ITSA4_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_FILING_2026-05-05.md` — per-ticker dossier for ITSA4 absorbed into hub
+- `obsidian_vault\dossiers\ITSA4_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITSA4_STORY.md` — per-ticker dossier for ITSA4 absorbed into hub
+- `obsidian_vault\dossiers\ITUB4_FILING_2026-04-14.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITUB4_FILING_2026-04-14.md` — per-ticker dossier for ITUB4 absorbed into hub
+- `obsidian_vault\dossiers\ITUB4_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\ITUB4_FILING_2026-05-05.md` — per-ticker dossier for ITUB4 absorbed into hub
+- `obsidian_vault\dossiers\JNJ.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ.md` — per-ticker dossier for JNJ absorbed into hub
+- `obsidian_vault\dossiers\JNJ_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_COUNCIL.md` — per-ticker dossier for JNJ absorbed into hub
+- `obsidian_vault\dossiers\JNJ_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JNJ_STORY.md` — per-ticker dossier for JNJ absorbed into hub
+- `obsidian_vault\dossiers\JPM.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM.md` — per-ticker dossier for JPM absorbed into hub
+- `obsidian_vault\dossiers\JPM_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_COUNCIL.md` — per-ticker dossier for JPM absorbed into hub
+- `obsidian_vault\dossiers\JPM_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_FILING_2026-05-07.md` — per-ticker dossier for JPM absorbed into hub
+- `obsidian_vault\dossiers\JPM_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\JPM_STORY.md` — per-ticker dossier for JPM absorbed into hub
+- `obsidian_vault\dossiers\KLBN11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_COUNCIL.md` — per-ticker dossier for KLBN11 absorbed into hub
+- `obsidian_vault\dossiers\KLBN11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KLBN11_STORY.md` — per-ticker dossier for KLBN11 absorbed into hub
+- `obsidian_vault\dossiers\KO.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO.md` — per-ticker dossier for KO absorbed into hub
+- `obsidian_vault\dossiers\KO_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_COUNCIL.md` — per-ticker dossier for KO absorbed into hub
+- `obsidian_vault\dossiers\KO_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\KO_STORY.md` — per-ticker dossier for KO absorbed into hub
+- `obsidian_vault\dossiers\MCD_FILING_2016-08-31.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MCD_FILING_2016-08-31.md` — per-ticker dossier for MCD absorbed into hub
+- `obsidian_vault\dossiers\MCD_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MCD_FILING_2026-05-07.md` — per-ticker dossier for MCD absorbed into hub
+- `obsidian_vault\dossiers\MOTV3_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MOTV3_COUNCIL.md` — per-ticker dossier for MOTV3 absorbed into hub
+- `obsidian_vault\dossiers\MOTV3_FILING_2026-04-29.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MOTV3_FILING_2026-04-29.md` — per-ticker dossier for MOTV3 absorbed into hub
+- `obsidian_vault\dossiers\MOTV3_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MOTV3_FILING_2026-05-08.md` — per-ticker dossier for MOTV3 absorbed into hub
+- `obsidian_vault\dossiers\MSFT_FILING_2019-12-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MSFT_FILING_2019-12-05.md` — per-ticker dossier for MSFT absorbed into hub
+- `obsidian_vault\dossiers\MULT3_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MULT3_FILING_2026-04-30.md` — per-ticker dossier for MULT3 absorbed into hub
+- `obsidian_vault\dossiers\MULT3_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\MULT3_FILING_2026-05-07.md` — per-ticker dossier for MULT3 absorbed into hub
+- `obsidian_vault\dossiers\NU_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_COUNCIL.md` — per-ticker dossier for NU absorbed into hub
+- `obsidian_vault\dossiers\NU_FILING_2022-01-03.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_FILING_2022-01-03.md` — per-ticker dossier for NU absorbed into hub
+- `obsidian_vault\dossiers\NU_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\NU_STORY.md` — per-ticker dossier for NU absorbed into hub
+- `obsidian_vault\dossiers\O_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_COUNCIL.md` — per-ticker dossier for O absorbed into hub
+- `obsidian_vault\dossiers\O_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_FILING_2026-05-08.md` — per-ticker dossier for O absorbed into hub
+- `obsidian_vault\dossiers\O_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\O_STORY.md` — per-ticker dossier for O absorbed into hub
+- `obsidian_vault\dossiers\PETR4_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PETR4_FILING_2026-04-30.md` — per-ticker dossier for PETR4 absorbed into hub
+- `obsidian_vault\dossiers\PETR4_FILING_2026-05-04.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PETR4_FILING_2026-05-04.md` — per-ticker dossier for PETR4 absorbed into hub
+- `obsidian_vault\dossiers\PGMN3_FILING_2026-03-10.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PGMN3_FILING_2026-03-10.md` — per-ticker dossier for PGMN3 absorbed into hub
+- `obsidian_vault\dossiers\PGMN3_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PGMN3_FILING_2026-05-05.md` — per-ticker dossier for PGMN3 absorbed into hub
+- `obsidian_vault\dossiers\PG_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_COUNCIL.md` — per-ticker dossier for PG absorbed into hub
+- `obsidian_vault\dossiers\PG_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PG_STORY.md` — per-ticker dossier for PG absorbed into hub
+- `obsidian_vault\dossiers\PLD_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_COUNCIL.md` — per-ticker dossier for PLD absorbed into hub
+- `obsidian_vault\dossiers\PLD_FILING_2018-10-16.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_FILING_2018-10-16.md` — per-ticker dossier for PLD absorbed into hub
+- `obsidian_vault\dossiers\PLD_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLD_STORY.md` — per-ticker dossier for PLD absorbed into hub
+- `obsidian_vault\dossiers\PLTR_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_COUNCIL.md` — per-ticker dossier for PLTR absorbed into hub
+- `obsidian_vault\dossiers\PLTR_FILING_2020-09-22.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_FILING_2020-09-22.md` — per-ticker dossier for PLTR absorbed into hub
+- `obsidian_vault\dossiers\PLTR_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PLTR_STORY.md` — per-ticker dossier for PLTR absorbed into hub
+- `obsidian_vault\dossiers\POMO3_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_COUNCIL.md` — per-ticker dossier for POMO3 absorbed into hub
+- `obsidian_vault\dossiers\POMO3_FILING_2026-04-15.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_FILING_2026-04-15.md` — per-ticker dossier for POMO3 absorbed into hub
+- `obsidian_vault\dossiers\POMO3_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_FILING_2026-05-05.md` — per-ticker dossier for POMO3 absorbed into hub
+- `obsidian_vault\dossiers\POMO3_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO3_STORY.md` — per-ticker dossier for POMO3 absorbed into hub
+- `obsidian_vault\dossiers\POMO4_FILING_2026-04-15.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO4_FILING_2026-04-15.md` — per-ticker dossier for POMO4 absorbed into hub
+- `obsidian_vault\dossiers\POMO4_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\POMO4_FILING_2026-05-05.md` — per-ticker dossier for POMO4 absorbed into hub
+- `obsidian_vault\dossiers\PRIO3_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_COUNCIL.md` — per-ticker dossier for PRIO3 absorbed into hub
+- `obsidian_vault\dossiers\PRIO3_FILING_2026-04-13.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_FILING_2026-04-13.md` — per-ticker dossier for PRIO3 absorbed into hub
+- `obsidian_vault\dossiers\PRIO3_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_FILING_2026-05-05.md` — per-ticker dossier for PRIO3 absorbed into hub
+- `obsidian_vault\dossiers\PRIO3_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PRIO3_STORY.md` — per-ticker dossier for PRIO3 absorbed into hub
+- `obsidian_vault\dossiers\PVBI11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_COUNCIL.md` — per-ticker dossier for PVBI11 absorbed into hub
+- `obsidian_vault\dossiers\PVBI11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\PVBI11_STORY.md` — per-ticker dossier for PVBI11 absorbed into hub
+- `obsidian_vault\dossiers\RAPT4_FILING_2026-04-20.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RAPT4_FILING_2026-04-20.md` — per-ticker dossier for RAPT4 absorbed into hub
+- `obsidian_vault\dossiers\RAPT4_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RAPT4_FILING_2026-05-08.md` — per-ticker dossier for RAPT4 absorbed into hub
+- `obsidian_vault\dossiers\RBRX11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_COUNCIL.md` — per-ticker dossier for RBRX11 absorbed into hub
+- `obsidian_vault\dossiers\RBRX11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_STORY.md` — per-ticker dossier for RBRX11 absorbed into hub
+- `obsidian_vault\dossiers\RBRX11_vs_KNHF11_MIGRATION.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RBRX11_vs_KNHF11_MIGRATION.md` — per-ticker dossier for RBRX11 absorbed into hub
+- `obsidian_vault\dossiers\RDOR3_FILING_2026-04-16.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RDOR3_FILING_2026-04-16.md` — per-ticker dossier for RDOR3 absorbed into hub
+- `obsidian_vault\dossiers\RDOR3_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RDOR3_FILING_2026-05-07.md` — per-ticker dossier for RDOR3 absorbed into hub
+- `obsidian_vault\dossiers\RENT3_FILING_2026-04-29.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RENT3_FILING_2026-04-29.md` — per-ticker dossier for RENT3 absorbed into hub
+- `obsidian_vault\dossiers\RENT3_FILING_2026-05-05.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\RENT3_FILING_2026-05-05.md` — per-ticker dossier for RENT3 absorbed into hub
+- `obsidian_vault\dossiers\SUZB3_CONTENT_TRIGGER_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\SUZB3_CONTENT_TRIGGER_2026-05-08.md` — per-ticker dossier for SUZB3 absorbed into hub
+- `obsidian_vault\dossiers\SUZB3_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\SUZB3_FILING_2026-04-30.md` — per-ticker dossier for SUZB3 absorbed into hub
+- `obsidian_vault\dossiers\TEN_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_COUNCIL.md` — per-ticker dossier for TEN absorbed into hub
+- `obsidian_vault\dossiers\TEN_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TEN_STORY.md` — per-ticker dossier for TEN absorbed into hub
+- `obsidian_vault\dossiers\TFC_FILING_2020-05-27.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TFC_FILING_2020-05-27.md` — per-ticker dossier for TFC absorbed into hub
+- `obsidian_vault\dossiers\TSLA_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_COUNCIL.md` — per-ticker dossier for TSLA absorbed into hub
+- `obsidian_vault\dossiers\TSLA_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSLA_STORY.md` — per-ticker dossier for TSLA absorbed into hub
+- `obsidian_vault\dossiers\TSM_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_COUNCIL.md` — per-ticker dossier for TSM absorbed into hub
+- `obsidian_vault\dossiers\TSM_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_FILING_2026-05-08.md` — per-ticker dossier for TSM absorbed into hub
+- `obsidian_vault\dossiers\TSM_FILING_2026-05-12.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_FILING_2026-05-12.md` — per-ticker dossier for TSM absorbed into hub
+- `obsidian_vault\dossiers\TSM_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TSM_STORY.md` — per-ticker dossier for TSM absorbed into hub
+- `obsidian_vault\dossiers\TTD_FILING_2026-05-08.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\TTD_FILING_2026-05-08.md` — per-ticker dossier for TTD absorbed into hub
+- `obsidian_vault\dossiers\VALE3.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3.md` — per-ticker dossier for VALE3 absorbed into hub
+- `obsidian_vault\dossiers\VALE3_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_COUNCIL.md` — per-ticker dossier for VALE3 absorbed into hub
+- `obsidian_vault\dossiers\VALE3_FILING_2026-04-30.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_FILING_2026-04-30.md` — per-ticker dossier for VALE3 absorbed into hub
+- `obsidian_vault\dossiers\VALE3_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VALE3_STORY.md` — per-ticker dossier for VALE3 absorbed into hub
+- `obsidian_vault\dossiers\VGIR11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_COUNCIL.md` — per-ticker dossier for VGIR11 absorbed into hub
+- `obsidian_vault\dossiers\VGIR11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\VGIR11_STORY.md` — per-ticker dossier for VGIR11 absorbed into hub
+- `obsidian_vault\dossiers\V_FILING_2014-11-21.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2014-11-21.md` — per-ticker dossier for V absorbed into hub
+- `obsidian_vault\dossiers\V_FILING_2026-05-11.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2026-05-11.md` — per-ticker dossier for V absorbed into hub
+- `obsidian_vault\dossiers\V_FILING_2026-05-12.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\V_FILING_2026-05-12.md` — per-ticker dossier for V absorbed into hub
+- `obsidian_vault\dossiers\XPML11.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11.md` — per-ticker dossier for XPML11 absorbed into hub
+- `obsidian_vault\dossiers\XPML11_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_COUNCIL.md` — per-ticker dossier for XPML11 absorbed into hub
+- `obsidian_vault\dossiers\XPML11_FILING_2026-04-27.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_FILING_2026-04-27.md` — per-ticker dossier for XPML11 absorbed into hub
+- `obsidian_vault\dossiers\XPML11_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XPML11_STORY.md` — per-ticker dossier for XPML11 absorbed into hub
+- `obsidian_vault\dossiers\XP_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_COUNCIL.md` — per-ticker dossier for XP absorbed into hub
+- `obsidian_vault\dossiers\XP_FILING_2019-12-13.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_FILING_2019-12-13.md` — per-ticker dossier for XP absorbed into hub
+- `obsidian_vault\dossiers\XP_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\XP_STORY.md` — per-ticker dossier for XP absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\AAPL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AAPL.md` — overnight per-ticker AAPL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ABBV.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABBV.md` — overnight per-ticker ABBV absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ABCB4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABCB4.md` — overnight per-ticker ABCB4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ABEV3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABEV3.md` — overnight per-ticker ABEV3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ABM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABM.md` — overnight per-ticker ABM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ABT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ABT.md` — overnight per-ticker ABT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ACN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ACN.md` — overnight per-ticker ACN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ADM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ADM.md` — overnight per-ticker ADM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ADP.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ADP.md` — overnight per-ticker ADP absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\AFL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AFL.md` — overnight per-ticker AFL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ALB.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ALB.md` — overnight per-ticker ALB absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ALOS3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ALOS3.md` — overnight per-ticker ALOS3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ALUP11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ALUP11.md` — overnight per-ticker ALUP11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\AOS.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AOS.md` — overnight per-ticker AOS absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\APD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\APD.md` — overnight per-ticker APD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ATO.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ATO.md` — overnight per-ticker ATO absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\AWR.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AWR.md` — overnight per-ticker AWR absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\AXIA7.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\AXIA7.md` — overnight per-ticker AXIA7 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\B3SA3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\B3SA3.md` — overnight per-ticker B3SA3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BBAS3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BBAS3.md` — overnight per-ticker BBAS3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BBDC4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BBDC4.md` — overnight per-ticker BBDC4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BBSE3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BBSE3.md` — overnight per-ticker BBSE3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BDX.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BDX.md` — overnight per-ticker BDX absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BEN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BEN.md` — overnight per-ticker BEN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BKH.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BKH.md` — overnight per-ticker BKH absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BLK.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BLK.md` — overnight per-ticker BLK absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BN.md` — overnight per-ticker BN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BPAC11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BPAC11.md` — overnight per-ticker BPAC11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BRBI11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRBI11.md` — overnight per-ticker BRBI11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BRCO11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRCO11.md` — overnight per-ticker BRCO11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BRKM5.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRKM5.md` — overnight per-ticker BRKM5 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BRO.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRO.md` — overnight per-ticker BRO absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BTLG11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BTLG11.md` — overnight per-ticker BTLG11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CAT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CAT.md` — overnight per-ticker CAT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CB.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CB.md` — overnight per-ticker CB absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CBSH.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CBSH.md` — overnight per-ticker CBSH absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CHD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CHD.md` — overnight per-ticker CHD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CHRW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CHRW.md` — overnight per-ticker CHRW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CINF.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CINF.md` — overnight per-ticker CINF absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CL.md` — overnight per-ticker CL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CLX.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CLX.md` — overnight per-ticker CLX absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CMIG4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CMIG4.md` — overnight per-ticker CMIG4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CPLE3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CPLE3.md` — overnight per-ticker CPLE3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CSMG3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CSMG3.md` — overnight per-ticker CSMG3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CTAS.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CTAS.md` — overnight per-ticker CTAS absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CVX.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CVX.md` — overnight per-ticker CVX absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\CWT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\CWT.md` — overnight per-ticker CWT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\DOV.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\DOV.md` — overnight per-ticker DOV absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ECL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ECL.md` — overnight per-ticker ECL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ED.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ED.md` — overnight per-ticker ED absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\EGIE3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EGIE3.md` — overnight per-ticker EGIE3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\EMR.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EMR.md` — overnight per-ticker EMR absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ENGI11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ENGI11.md` — overnight per-ticker ENGI11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\EQTL3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EQTL3.md` — overnight per-ticker EQTL3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ERIE.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ERIE.md` — overnight per-ticker ERIE absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ES.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ES.md` — overnight per-ticker ES absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\EXPD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EXPD.md` — overnight per-ticker EXPD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\EZTC3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\EZTC3.md` — overnight per-ticker EZTC3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\FAST.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\FAST.md` — overnight per-ticker FAST absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\FDS.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\FDS.md` — overnight per-ticker FDS absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\FRT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\FRT.md` — overnight per-ticker FRT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\FUL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\FUL.md` — overnight per-ticker FUL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GARE11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GARE11.md` — overnight per-ticker GARE11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GD.md` — overnight per-ticker GD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GMAT3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GMAT3.md` — overnight per-ticker GMAT3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GPC.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GPC.md` — overnight per-ticker GPC absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GRC.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GRC.md` — overnight per-ticker GRC absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GRND3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GRND3.md` — overnight per-ticker GRND3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GS.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GS.md` — overnight per-ticker GS absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\GWW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\GWW.md` — overnight per-ticker GWW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\HD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HD.md` — overnight per-ticker HD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\HGLG11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HGLG11.md` — overnight per-ticker HGLG11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\HGRU11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HGRU11.md` — overnight per-ticker HGRU11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\HRL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\HRL.md` — overnight per-ticker HRL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\IBM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\IBM.md` — overnight per-ticker IBM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ISAE4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ISAE4.md` — overnight per-ticker ISAE4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ITSA4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ITSA4.md` — overnight per-ticker ITSA4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ITUB4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ITUB4.md` — overnight per-ticker ITUB4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ITW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ITW.md` — overnight per-ticker ITW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\JKHY.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\JKHY.md` — overnight per-ticker JKHY absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\JNJ.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\JNJ.md` — overnight per-ticker JNJ absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\JPM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\JPM.md` — overnight per-ticker JPM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KLBN11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KLBN11.md` — overnight per-ticker KLBN11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KLBN4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KLBN4.md` — overnight per-ticker KLBN4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KMB.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KMB.md` — overnight per-ticker KMB absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KNCR11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KNCR11.md` — overnight per-ticker KNCR11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KNHF11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KNHF11.md` — overnight per-ticker KNHF11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KNRI11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KNRI11.md` — overnight per-ticker KNRI11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\KO.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\KO.md` — overnight per-ticker KO absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\LEG.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\LEG.md` — overnight per-ticker LEG absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\LIN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\LIN.md` — overnight per-ticker LIN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\LOW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\LOW.md` — overnight per-ticker LOW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MCCI11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MCCI11.md` — overnight per-ticker MCCI11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MCD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MCD.md` — overnight per-ticker MCD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MCRE11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MCRE11.md` — overnight per-ticker MCRE11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MDT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MDT.md` — overnight per-ticker MDT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MGEE.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MGEE.md` — overnight per-ticker MGEE absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MKC.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MKC.md` — overnight per-ticker MKC absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MO.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MO.md` — overnight per-ticker MO absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MOTV3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MOTV3.md` — overnight per-ticker MOTV3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MSA.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MSA.md` — overnight per-ticker MSA absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MSEX.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MSEX.md` — overnight per-ticker MSEX absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MSFT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MSFT.md` — overnight per-ticker MSFT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\MULT3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\MULT3.md` — overnight per-ticker MULT3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NDSN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NDSN.md` — overnight per-ticker NDSN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NEE.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NEE.md` — overnight per-ticker NEE absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NFG.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NFG.md` — overnight per-ticker NFG absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NU.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NU.md` — overnight per-ticker NU absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NUE.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NUE.md` — overnight per-ticker NUE absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\NWN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\NWN.md` — overnight per-ticker NWN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\O.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\O.md` — overnight per-ticker O absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PEP.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PEP.md` — overnight per-ticker PEP absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PETR4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PETR4.md` — overnight per-ticker PETR4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PG.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PG.md` — overnight per-ticker PG absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PGMN3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PGMN3.md` — overnight per-ticker PGMN3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PH.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PH.md` — overnight per-ticker PH absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PLD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PLD.md` — overnight per-ticker PLD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PLPL3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PLPL3.md` — overnight per-ticker PLPL3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PLTR.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PLTR.md` — overnight per-ticker PLTR absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PMLL11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PMLL11.md` — overnight per-ticker PMLL11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PNR.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PNR.md` — overnight per-ticker PNR absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PNVL3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PNVL3.md` — overnight per-ticker PNVL3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\POMO3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\POMO3.md` — overnight per-ticker POMO3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\POMO4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\POMO4.md` — overnight per-ticker POMO4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PPG.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PPG.md` — overnight per-ticker PPG absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PRIO3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PRIO3.md` — overnight per-ticker PRIO3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PSSA3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PSSA3.md` — overnight per-ticker PSSA3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\PVBI11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\PVBI11.md` — overnight per-ticker PVBI11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RAPT4.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RAPT4.md` — overnight per-ticker RAPT4 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RBRX11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RBRX11.md` — overnight per-ticker RBRX11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RBRY11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RBRY11.md` — overnight per-ticker RBRY11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RDOR3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RDOR3.md` — overnight per-ticker RDOR3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RECR11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RECR11.md` — overnight per-ticker RECR11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RENT3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RENT3.md` — overnight per-ticker RENT3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RLI.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RLI.md` — overnight per-ticker RLI absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\ROP.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\ROP.md` — overnight per-ticker ROP absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\RPM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\RPM.md` — overnight per-ticker RPM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SANB11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SANB11.md` — overnight per-ticker SANB11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SAPR11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SAPR11.md` — overnight per-ticker SAPR11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SCL.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SCL.md` — overnight per-ticker SCL absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SEER3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SEER3.md` — overnight per-ticker SEER3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SHW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SHW.md` — overnight per-ticker SHW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SIMH3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SIMH3.md` — overnight per-ticker SIMH3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SJM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SJM.md` — overnight per-ticker SJM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SLCE3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SLCE3.md` — overnight per-ticker SLCE3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SPGI.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SPGI.md` — overnight per-ticker SPGI absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SUZB3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SUZB3.md` — overnight per-ticker SUZB3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SWK.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SWK.md` — overnight per-ticker SWK absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\SYY.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\SYY.md` — overnight per-ticker SYY absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TAEE11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TAEE11.md` — overnight per-ticker TAEE11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TDS.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TDS.md` — overnight per-ticker TDS absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TEN.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TEN.md` — overnight per-ticker TEN absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TFC.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TFC.md` — overnight per-ticker TFC absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TGT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TGT.md` — overnight per-ticker TGT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TIMS3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TIMS3.md` — overnight per-ticker TIMS3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TNC.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TNC.md` — overnight per-ticker TNC absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TR.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TR.md` — overnight per-ticker TR absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TROW.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TROW.md` — overnight per-ticker TROW absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TRXF11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TRXF11.md` — overnight per-ticker TRXF11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TSLA.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TSLA.md` — overnight per-ticker TSLA absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TSM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TSM.md` — overnight per-ticker TSM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TTD.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TTD.md` — overnight per-ticker TTD absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TTEN3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TTEN3.md` — overnight per-ticker TTEN3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\TUPY3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\TUPY3.md` — overnight per-ticker TUPY3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\UNIP6.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\UNIP6.md` — overnight per-ticker UNIP6 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\UVV.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\UVV.md` — overnight per-ticker UVV absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\V.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\V.md` — overnight per-ticker V absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VALE3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VALE3.md` — overnight per-ticker VALE3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VAMO3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VAMO3.md` — overnight per-ticker VAMO3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VGIP11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VGIP11.md` — overnight per-ticker VGIP11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VGIR11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VGIR11.md` — overnight per-ticker VGIR11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VISC11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VISC11.md` — overnight per-ticker VISC11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VIVA3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VIVA3.md` — overnight per-ticker VIVA3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VIVT3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VIVT3.md` — overnight per-ticker VIVT3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\VRTA11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\VRTA11.md` — overnight per-ticker VRTA11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\WIZC3.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\WIZC3.md` — overnight per-ticker WIZC3 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\WMT.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\WMT.md` — overnight per-ticker WMT absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\WST.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\WST.md` — overnight per-ticker WST absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\XOM.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XOM.md` — overnight per-ticker XOM absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\XP.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XP.md` — overnight per-ticker XP absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\XPLG11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XPLG11.md` — overnight per-ticker XPLG11 absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\XPML11.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\XPML11.md` — overnight per-ticker XPML11 absorbed into hub
+- `obsidian_vault\Sessions\JNJ_Deepdive_Comparison_PreLL_vs_Now.md` → `cemetery\2026-05-14\ABSORBED-sessions-per-ticker\Sessions\JNJ_Deepdive_Comparison_PreLL_vs_Now.md` — session note JNJ absorbed into hub
+- `obsidian_vault\tickers\AAPL.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL.md` — per-ticker view AAPL absorbed into hub
+- `obsidian_vault\tickers\AAPL_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL_DOSSIE.md` — per-ticker view AAPL absorbed into hub
+- `obsidian_vault\tickers\AAPL_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL_IC_DEBATE.md` — per-ticker view AAPL absorbed into hub
+- `obsidian_vault\tickers\AAPL_VARIANT.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\AAPL_VARIANT.md` — per-ticker view AAPL absorbed into hub
+- `obsidian_vault\tickers\ABBV.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV.md` — per-ticker view ABBV absorbed into hub
+- `obsidian_vault\tickers\ABBV_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_DOSSIE.md` — per-ticker view ABBV absorbed into hub
+- `obsidian_vault\tickers\ABBV_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_IC_DEBATE.md` — per-ticker view ABBV absorbed into hub
+- `obsidian_vault\tickers\ABBV_VARIANT.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABBV_VARIANT.md` — per-ticker view ABBV absorbed into hub
+- `obsidian_vault\tickers\ABCB4.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABCB4.md` — per-ticker view ABCB4 absorbed into hub
+- `obsidian_vault\tickers\ABCB4_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABCB4_DOSSIE.md` — per-ticker view ABCB4 absorbed into hub
+- `obsidian_vault\tickers\ABCB4_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABCB4_IC_DEBATE.md` — per-ticker view ABCB4 absorbed into hub
+- `obsidian_vault\tickers\ABEV3.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABEV3.md` — per-ticker view ABEV3 absorbed into hub
+- `obsidian_vault\tickers\ABEV3_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABEV3_IC_DEBATE.md` — per-ticker view ABEV3 absorbed into hub
+- `obsidian_vault\tickers\ABM.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABM.md` — per-ticker view ABM absorbed into hub
+- `obsidian_vault\tickers\ABM_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABM_IC_DEBATE.md` — per-ticker view ABM absorbed into hub
+- `obsidian_vault\tickers\ABT.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABT.md` — per-ticker view ABT absorbed into hub
+- `obsidian_vault\tickers\ABT_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ABT_IC_DEBATE.md` — per-ticker view ABT absorbed into hub
+- `obsidian_vault\tickers\ACN.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN.md` — per-ticker view ACN absorbed into hub
+- `obsidian_vault\tickers\ACN_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_DOSSIE.md` — per-ticker view ACN absorbed into hub
+- `obsidian_vault\tickers\ACN_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_IC_DEBATE.md` — per-ticker view ACN absorbed into hub
+- `obsidian_vault\tickers\ACN_VARIANT.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ACN_VARIANT.md` — per-ticker view ACN absorbed into hub
+- `obsidian_vault\tickers\ADM.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ADM.md` — per-ticker view ADM absorbed into hub
+- `obsidian_vault\tickers\ADM_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ADM_IC_DEBATE.md` — per-ticker view ADM absorbed into hub
+- `obsidian_vault\tickers\ADP.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\ADP.md` — per-ticker view ADP absorbed into hub
+
+_(+502 more — see git history)_
+
+
+### Wave 8 — Per-ticker SOURCE files (merge-total absorbed into hubs)
+Date: 2026-05-14
+Total: 19 files moved across 5 categories.
+Each ticker's content was first absorbed into `obsidian_vault/hubs/<TK>.md` (merge-total) before burial here.
+Restore command pattern: `git mv cemetery/2026-05-14/<SUBDIR>/<ORIGINAL_PATH> <ORIGINAL_PATH>`
+
+- `obsidian_vault\briefings\drip_scenarios\BRK-B_drip.md` → `cemetery\2026-05-14\ABSORBED-drip\briefings\drip_scenarios\BRK-B_drip.md` — DRIP scenario BRK-B absorbed into hub
+- `obsidian_vault\dossiers\BRK-B_COUNCIL.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_COUNCIL.md` — per-ticker dossier for BRK-B absorbed into hub
+- `obsidian_vault\dossiers\BRK-B_FILING_2026-05-07.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_FILING_2026-05-07.md` — per-ticker dossier for BRK-B absorbed into hub
+- `obsidian_vault\dossiers\BRK-B_STORY.md` → `cemetery\2026-05-14\ABSORBED-dossiers\dossiers\BRK-B_STORY.md` — per-ticker dossier for BRK-B absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BF-B.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BF-B.md` — overnight per-ticker BF-B absorbed into hub
+- `obsidian_vault\Overnight_2026-05-13\BRK-B.md` → `cemetery\2026-05-14\ABSORBED-overnight-per-ticker\Overnight_2026-05-13\BRK-B.md` — overnight per-ticker BRK-B absorbed into hub
+- `obsidian_vault\tickers\BF-B.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BF-B.md` — per-ticker view BF-B absorbed into hub
+- `obsidian_vault\tickers\BF-B_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BF-B_IC_DEBATE.md` — per-ticker view BF-B absorbed into hub
+- `obsidian_vault\tickers\BOVA11.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BOVA11.md` — per-ticker view BOVA11 absorbed into hub
+- `obsidian_vault\tickers\BRK-B.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B.md` — per-ticker view BRK-B absorbed into hub
+- `obsidian_vault\tickers\BRK-B_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_DOSSIE.md` — per-ticker view BRK-B absorbed into hub
+- `obsidian_vault\tickers\BRK-B_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_IC_DEBATE.md` — per-ticker view BRK-B absorbed into hub
+- `obsidian_vault\tickers\BRK-B_VARIANT.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BRK-B_VARIANT.md` — per-ticker view BRK-B absorbed into hub
+- `obsidian_vault\tickers\BTLG12.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\BTLG12.md` — per-ticker view BTLG12 absorbed into hub
+- `obsidian_vault\tickers\MCRF11.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCRF11.md` — per-ticker view MCRF11 absorbed into hub
+- `obsidian_vault\tickers\MCRF11_DOSSIE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCRF11_DOSSIE.md` — per-ticker view MCRF11 absorbed into hub
+- `obsidian_vault\tickers\MCRF11_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCRF11_IC_DEBATE.md` — per-ticker view MCRF11 absorbed into hub
+- `obsidian_vault\tickers\SPY.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\SPY.md` — per-ticker view SPY absorbed into hub
+- `obsidian_vault\wiki\holdings\BRK-B.md` → `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BRK-B.md` — wiki playbook BRK-B absorbed into hub

@@ -1,0 +1,190 @@
+---
+ticker: PLTR
+name: Palantir
+market: us
+sector: Technology
+is_holding: true
+currency: USD
+price: 133.79
+price_date: 2026-05-06
+change_1d_pct: -1.56
+pe: 152.0341
+pb: 43.3118
+roe_pct: 32.59
+streak_years: 0
+aristocrat: false
+screen_score: 0.25
+screen_pass: false
+altman_z: 145.273
+piotroski: 8
+div_safety: 61.5
+div_safety_verdict: WATCH
+position_qty: 1.8673
+entry_price: 80.329
+pnl_pct: 66.55
+market_value: 249.83
+updated: "2026-05-08T15:30:29Z"
+tags: [holding, us, technology]
+---
+
+# PLTR — Palantir
+
+#holding #us #technology
+
+## 🎯 Verdict — 🟠 HOLD
+
+> **Score**: 5.2/10  |  **Confiança**: 70%  |  _2026-05-08 18:30_
+
+| Dimensão | Score | Peso | Bar |
+|---|---:|---:|---|
+| Quality    | 8.7/10 | 35% | `█████████░` |
+| Valuation  | 2.5/10 | 30% | `██░░░░░░░░` |
+| Momentum   | 4.0/10 | 20% | `████░░░░░░` |
+| Narrativa  | 4.0/10 | 15% | `████░░░░░░` |
+
+### Detalhes
+
+- **Quality**: Altman Z 145.272924089584 (SAFE), Piotroski 8/9 (STRONG), DivSafety 61.5/100
+- **Valuation**: Screen 0.25, DY percentil - (-)
+- **Momentum**: 1d -1.56%, 30d 2.53%, YTD -20.3%
+- **Narrativa**: user_note=False, YT insights 60d=0
+
+### Razões
+
+- total 5.2 na zona neutra
+- quality forte
+- valuation caro
+
+## Links
+
+- Sector: [[sectors/Technology|Technology]]
+- Market: [[markets/US|US]]
+- Peers: [[AAPL]] · [[ACN]] · [[TSM]] · [[IBM]] · [[JKHY]]
+- 🎯 **Thesis**: [[wiki/holdings/PLTR|thesis deep]]
+
+## Snapshot
+
+- **Preço**: $133.79  (2026-05-06)    _-1.56% 1d_
+- **Screen**: 0.25  ✗ fail
+- **Altman Z**: 145.273 (safe)
+- **Piotroski**: 8/9
+- **Div Safety**: 61.5/100 (WATCH)
+- **Posição**: 1.8673199999999999 sh @ $80.32902769744875  →  P&L 66.55%
+
+## Fundamentals
+
+- P/E: 152.03409 | P/B: 43.31175 | DY: None%
+- ROE: 32.59% | EPS: 0.88 | BVPS: 3.089
+- Streak div: 0y | Aristocrat: False
+
+## Eventos (SEC/CVM)
+
+- **2026-05-05** `10-Q` — 10-Q
+- **2026-05-04** `8-K` — 8-K | 2.02,7.01,9.01
+- **2026-04-24** `proxy` — DEF 14A
+- **2026-02-17** `10-K` — 10-K
+- **2026-02-02** `8-K` — 8-K | 2.02,7.01,9.01
+
+## 🎙️ Recent insights & mentions
+
+_Auto-gerado · 2026-05-13 20:46 UTC · yt=3 · analyst=7 · themes=0_
+
+### 🎬 YouTube + Podcast (últimos 90d)
+
+| Data | Fonte | Kind | Conf | Claim |
+|---|---|---|---:|---|
+| 2026-05-09 | WSJ — What's News | operational | 0.90 | A Palantir reportou receita e lucro recorde, mas suas ações caíram 4% na semana. |
+| 2026-05-09 | WSJ — What's News | thesis_bear | 0.80 | Alguns investidores começam a questionar se os produtos da Palantir são realmente indispensáveis ou apenas construídos em cima de modelos d… |
+| 2026-05-09 | WSJ — What's News | valuation | 0.70 | A Palantir está sendo negociada a cerca de 98 vezes os lucros projetados para os próximos 12 meses. |
+
+### 📰 Analyst reports (últimos 120d)
+
+| Data | Fonte | Kind | Stance | PT | Claim |
+|---|---|---|---|---:|---|
+| 2026-04-23 | FOOL | numerical | — | — | A receita da Palantir para o ano de 2025 aumentou 56% para US$4,48 bilhões. |
+| 2026-04-23 | FOOL | price_target | — | — | A avaliação das ações da Palantir é considerada excessivamente alta, com uma capitalização de mercado de aproximadamente US$338 b… |
+| 2026-04-23 | FOOL | catalyst | bull | — | A receita da Palantir no quarto trimestre aumentou 70% ano a ano para US$1,41 bilhão. |
+| 2026-04-23 | FOOL | rating | bear | — | O relatório não considera a queda nas ações da Palantir como uma oportunidade de compra. |
+| 2026-04-23 | FOOL | sector_view | — | — | O mercado está cada vez menos disposto a dar o benefício da dúvida para as ações de software. |
+| 2026-04-23 | FOOL | thesis | neutral | — | A queda nas ações da Palantir é uma oportunidade para revisitar o setup do investimento. |
+| 2026-04-23 | FOOL | risk | bear | — | A desaceleração nas taxas de crescimento dos indicadores futuros da Palantir pode levar a uma penalização das ações. |
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -35.42%
+- **Drawdown 5y**: -35.42%
+- **YTD**: -20.30%
+- **YoY (1y)**: +22.90%
+- **CAGR 3y**: +162.34%  |  **5y**: +46.61%  |  **10y**: n/a
+- **Vol annual**: +57.45%
+- **Sharpe 3y** (rf=4%): +2.46
+
+### Dividendos
+- **DY 5y avg**: n/a
+- **Div CAGR 5y**: n/a
+- **Frequency**: none
+- **Streak** (sem cortes): n/a years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 💰 Financials trend (annual)
+
+| Period | Revenue | Net Income | Free Cash Flow |
+|---|---|---|---|
+| 2021-12-31 | n/a | n/a | n/a |
+| 2022-12-31 | $1.91B | $-373.7M | $183.7M |
+| 2023-12-31 | $2.23B | $209.8M | $697.1M |
+| 2024-12-31 | $2.87B | $462.2M | $1.14B |
+| 2025-12-31 | $4.48B | $1.63B | $2.10B |
+
+## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
+
+```chart
+type: line
+title: "PLTR — 1y close"
+labels: ['2025-05-08', '2025-05-14', '2025-05-20', '2025-05-27', '2025-06-02', '2025-06-06', '2025-06-12', '2025-06-18', '2025-06-25', '2025-07-01', '2025-07-08', '2025-07-14', '2025-07-18', '2025-07-24', '2025-07-30', '2025-08-05', '2025-08-11', '2025-08-15', '2025-08-21', '2025-08-27', '2025-09-03', '2025-09-09', '2025-09-15', '2025-09-19', '2025-09-25', '2025-10-01', '2025-10-07', '2025-10-13', '2025-10-17', '2025-10-23', '2025-10-29', '2025-11-04', '2025-11-10', '2025-11-14', '2025-11-20', '2025-11-26', '2025-12-03', '2025-12-09', '2025-12-15', '2025-12-19', '2025-12-26', '2026-01-02', '2026-01-08', '2026-01-14', '2026-01-21', '2026-01-27', '2026-02-02', '2026-02-06', '2026-02-12', '2026-02-19', '2026-02-25', '2026-03-03', '2026-03-09', '2026-03-13', '2026-03-19', '2026-03-25', '2026-03-31', '2026-04-07', '2026-04-13', '2026-04-17', '2026-04-23', '2026-04-28', '2026-05-04']
+series:
+  - title: PLTR
+    data: [119.15, 130.18, 125.59, 123.39, 132.04, 127.72, 135.19, 139.96, 142.9, 130.68, 139.71, 149.15, 153.52, 154.86, 158.61, 173.27, 182.68, 177.17, 156.18, 156.72, 154.9, 162.36, 171.21, 182.39, 179.12, 184.95, 182.17, 177.21, 178.15, 180.48, 198.81, 190.74, 193.61, 174.01, 155.74, 165.77, 176.08, 181.84, 183.25, 193.38, 188.71, 167.86, 176.86, 178.4, 165.33, 165.7, 147.76, 135.9, 129.13, 134.89, 134.19, 147.22, 156.43, 150.95, 155.68, 154.96, 146.28, 150.07, 132.37, 146.39, 141.57, 141.18, 146.03]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+## 📊 Fundamentals trend
+
+```chart
+type: line
+title: "P/E over time"
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06']
+series:
+  - title: P/E
+    data: [228.9929, 225.79366, 226.60316, 232.36508, 231.55557, 231.69841, 223.57812, 227.12698, 227.12698, 227.14287, 224.09523, 215.57812, 220.80952, 231.79366, 152.70787, 152.03409]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+```chart
+type: line
+title: "ROE & DY %"
+labels: ['2026-04-15', '2026-04-16', '2026-04-17', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06']
+series:
+  - title: ROE %
+    data: [25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 25.98, 32.59]
+  - title: DY %
+    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+---
+*Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*

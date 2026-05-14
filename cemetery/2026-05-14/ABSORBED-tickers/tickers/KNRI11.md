@@ -1,0 +1,150 @@
+---
+ticker: KNRI11
+name: Kinea Renda Imobiliária
+market: br
+sector: Híbrido
+is_holding: false
+currency: BRL
+price: 168.17
+price_date: 2026-05-07
+change_1d_pct: -0.37
+pe: 11.4114
+pb: 1.0498
+dy_pct: 7.39
+roe_pct: 7.61
+streak_years: 5
+screen_score: 0.6
+screen_pass: false
+div_safety: 41.2
+div_safety_verdict: RISK
+updated: "2026-05-08T15:30:27Z"
+tags: [watchlist, br, híbrido]
+---
+
+# KNRI11 — Kinea Renda Imobiliária
+
+#watchlist #br #híbrido
+
+## Links
+
+- Sector: [[sectors/Híbrido|Híbrido]]
+- Market: [[markets/BR|BR]]
+- Peers: [[KNHF11]] · [[GARE11]] · [[HGRU11]] · [[RBRX11]] · [[TRXF11]]
+
+## Snapshot
+
+- **Preço**: R$168.17  (2026-05-07)    _-0.37% 1d_
+- **Screen**: 0.6  ✗ fail
+- **Altman Z**: n/a ()
+- **Piotroski**: None/9
+- **Div Safety**: 41.2/100 (RISK)
+
+## Fundamentals
+
+- P/E: 11.411413 | P/B: 1.0498487 | DY: 7.39%
+- ROE: 7.61% | EPS: 14.737 | BVPS: 160.185
+- Streak div: 5y | Aristocrat: None
+
+## Dividendos recentes
+
+- 2026-05-04: R$1.1000
+- 2026-04-01: R$1.1000
+- 2026-03-02: R$1.1000
+- 2026-02-02: R$0.8800
+- 2026-01-02: R$1.2500
+
+## 🎙️ Recent insights & mentions
+
+_Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=2 · themes=0_
+
+### 📰 Analyst reports (últimos 120d)
+
+| Data | Fonte | Kind | Stance | PT | Claim |
+|---|---|---|---|---:|---|
+| 2026-04-24 | SUNO | rating | neutral | 164.00 | [Suno FIIs] KNRI11 — peso 7.6%, rating Aguardar, PT R$164.0 |
+| 2026-04-24 | XP | thesis | bull | — | Kinea Real Estate é destacado por sua posição em recebíveis. |
+
+## 📈 Live snapshot (auto-gerado)
+
+### Preço
+- **Drawdown 52w**: -1.71%
+- **Drawdown 5y**: -1.71%
+- **YTD**: +9.89%
+- **YoY (1y)**: +17.82%
+- **CAGR 3y**: +3.71%  |  **5y**: +2.64%  |  **10y**: +3.47%
+- **Vol annual**: +13.86%
+- **Sharpe 3y** (rf=4%): -0.02
+
+### Dividendos
+- **DY 5y avg**: +7.37%
+- **Div CAGR 5y**: +15.17%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 3 years
+
+### Valuation
+- **P/E vs own avg**: n/a
+
+## 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
+
+```chart
+type: line
+title: "KNRI11 — 1y close"
+labels: ['2025-05-08', '2025-05-14', '2025-05-20', '2025-05-26', '2025-05-30', '2025-06-05', '2025-06-11', '2025-06-17', '2025-06-24', '2025-06-30', '2025-07-04', '2025-07-10', '2025-07-16', '2025-07-22', '2025-07-28', '2025-08-01', '2025-08-07', '2025-08-13', '2025-08-19', '2025-08-25', '2025-08-29', '2025-09-04', '2025-09-10', '2025-09-16', '2025-09-22', '2025-09-26', '2025-10-02', '2025-10-08', '2025-10-14', '2025-10-20', '2025-10-24', '2025-10-30', '2025-11-05', '2025-11-11', '2025-11-17', '2025-11-24', '2025-11-28', '2025-12-04', '2025-12-10', '2025-12-16', '2025-12-22', '2025-12-30', '2026-01-07', '2026-01-13', '2026-01-19', '2026-01-23', '2026-01-29', '2026-02-04', '2026-02-10', '2026-02-18', '2026-02-24', '2026-03-02', '2026-03-06', '2026-03-12', '2026-03-18', '2026-03-24', '2026-03-30', '2026-04-06', '2026-04-10', '2026-04-16', '2026-04-23', '2026-04-29', '2026-05-06']
+series:
+  - title: KNRI11
+    data: [141.66, 145.96, 145.5, 144.39, 146.36, 147.4, 143.25, 144.27, 142.3, 144.3, 145.2, 144.3, 144.9, 143.5, 142.31, 141.0, 139.85, 137.48, 137.35, 137.63, 140.5, 144.75, 143.1, 146.83, 147.5, 147.82, 144.31, 144.6, 146.01, 145.02, 145.47, 147.59, 145.62, 146.1, 146.15, 147.45, 150.77, 149.84, 149.48, 149.09, 152.69, 153.8, 159.22, 157.85, 159.01, 163.06, 163.19, 162.68, 164.4, 165.95, 165.59, 167.28, 167.67, 165.01, 164.0, 164.13, 167.37, 167.0, 169.69, 169.34, 167.57, 168.15, 168.8]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+## 💰 Dividendos anuais (10y)
+
+```chart
+type: bar
+title: "KNRI11 — dividend history"
+labels: ['2017', '2022', '2023', '2024', '2025', '2026']
+series:
+  - title: Dividends
+    data: [1.8341, 7.8548, 12.0812, 11.9904, 12.0, 5.43]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+## 📊 Fundamentals trend
+
+```chart
+type: line
+title: "P/E over time"
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07']
+series:
+  - title: P/E
+    data: [11.584447, 11.3707, 11.339485, 11.339485, 11.339485, 11.16238, 11.395806, 11.410055, 11.391735, 11.269593, 11.135916, 11.454163, 11.411413]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+```chart
+type: line
+title: "ROE & DY %"
+labels: ['2026-04-21', '2026-04-23', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07']
+series:
+  - title: ROE %
+    data: [7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61, 7.61]
+  - title: DY %
+    data: [7.22, 7.36, 7.38, 7.38, 7.38, 7.5, 7.34, 7.33, 7.34, 6.82, 7.57, 7.36, 7.39]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+---
+*Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*

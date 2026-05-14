@@ -1,0 +1,271 @@
+---
+type: ticker_hub
+ticker: MDT
+market: us
+sector: Healthcare
+currency: USD
+bucket: kings_aristocrats
+is_holding: false
+generated: 2026-05-14
+sources_merged: 3
+tags: [hub, ticker, merged]
+parent: "[[_TICKERS_INDEX]]"
+---
+
+# MDT — Medtronic
+
+> **Hub mergeado**. Todo o conteúdo per-ticker do vault foi absorvido aqui (panorama, dossier, story, council, IC debate, variant, RI, filings, overnights, drips, wiki, reviews por persona, sessions). Ficheiros-fonte estão no `cemetery/2026-05-14/`.
+
+`sector: Healthcare` · `market: US` · `currency: USD` · `bucket: kings_aristocrats` · `3 sources merged`
+
+## 🎯 Hoje
+
+- **Fundamentals** (2026-05-13): P/E 21.29 · P/B 2.00 · DY 3.7% · ROE 9.4% · ND/EBITDA 2.09 · Dividend streak 45 · Aristocrat yes
+
+## 📜 Histórico (conteúdo absorvido, ordem cronológica desc)
+
+> Todas as fontes consolidadas. Cada bloco mantém o título original e foi rebaixado 3 níveis (h1→h4) para encaixar.
+
+
+### 2026
+
+#### 2026-05-13 · Overnight scrape
+_source: `Overnight_2026-05-13\MDT.md` (now in cemetery)_
+
+#### MDT — Pilot Deep Dive (2026-05-12)
+
+- **Market**: US
+- **Sector**: Healthcare
+- **RI URLs scraped** (1):
+  - https://investorrelations.medtronic.com/
+- **Pilot rationale**: known (watchlist)
+
+##### Antes (estado da DB)
+
+**Posição activa**: (nenhuma — watchlist ou holding sem qty)
+
+- Total events na DB: **0**
+- deep_fundamentals (rows anuais): **4**
+- Última cotação DB: 2026-05-11 → close=74.54000091552734
+- Último fundamentals snapshot: period_end=2026-05-11 · ROE=0.0939 · DY=0.03810034833804788 · P/E=20.82123
+- Score (último run): score=0.6 · passes_screen=0
+
+**Últimos 5 events em DB**:
+
+_(zero events em DB)_
+
+##### Agora (RI scrape live)
+
+- Scrape: ❌ FALHOU — Traceback (most recent call last):
+  File "C:\Users\paidu\investment-intelligence\fetchers\portal_playwright.py", line 233, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\paidu\investment-intelligence\fetchers\portal_playwright.py", line 220, in main
+    result = fetch(
+        args.url,
+    ...<5 lines>...
+        headless=not args.no_headless,
+    )
+  File "C:\Users\paidu\investment-intellig
+
+
+### (undated)
+
+#### — · Panorama
+_source: `tickers\MDT.md` (now in cemetery)_
+
+#### MDT — Medtronic
+
+#watchlist #us #healthcare
+
+##### Links
+
+- Sector: [[sectors/Healthcare|Healthcare]]
+- Market: [[markets/US|US]]
+- Peers: [[JNJ]] · [[ABBV]] · [[ABT]] · [[BDX]] · [[WST]]
+
+##### Snapshot
+
+- **Preço**: $77.60  (2026-05-06)    _-0.24% 1d_
+- **Screen**: 0.6  ✗ fail
+- **Altman Z**: n/a ()
+- **Piotroski**: None/9
+- **Div Safety**: 60.0/100 (WATCH)
+
+##### Fundamentals
+
+- P/E: 21.675978 | P/B: 2.0330634 | DY: 3.66%
+- ROE: 9.39% | EPS: 3.58 | BVPS: 38.169
+- Streak div: 45y | Aristocrat: True
+
+##### Dividendos recentes
+
+- 2026-03-27: $0.7100
+- 2025-12-26: $0.7100
+- 2025-09-26: $0.7100
+- 2025-06-27: $0.7100
+- 2025-03-28: $0.7000
+
+##### 📈 Live snapshot (auto-gerado)
+
+###### Preço
+- **Drawdown 52w**: -26.34%
+- **Drawdown 5y**: -42.59%
+- **YTD**: -19.21%
+- **YoY (1y)**: -5.73%
+- **CAGR 3y**: -4.84%  |  **5y**: -9.34%  |  **10y**: -0.27%
+- **Vol annual**: +20.88%
+- **Sharpe 3y** (rf=4%): -0.43
+
+###### Dividendos
+- **DY 5y avg**: +3.12%
+- **Div CAGR 5y**: +3.46%
+- **Frequency**: quarterly
+- **Streak** (sem cortes): 7 years
+
+###### Valuation
+- **P/E vs own avg**: n/a
+
+##### 📈 Price history 1y
+
+_Charts plugin requerido. Se não vês o gráfico: Settings → Community plugins → instalar **Charts** (phibr0)._
+
+```chart
+type: line
+title: "MDT — 1y close"
+labels: ['2025-05-08', '2025-05-14', '2025-05-20', '2025-05-27', '2025-06-02', '2025-06-06', '2025-06-12', '2025-06-18', '2025-06-25', '2025-07-01', '2025-07-08', '2025-07-14', '2025-07-18', '2025-07-24', '2025-07-30', '2025-08-05', '2025-08-11', '2025-08-15', '2025-08-21', '2025-08-27', '2025-09-03', '2025-09-09', '2025-09-15', '2025-09-19', '2025-09-25', '2025-10-01', '2025-10-07', '2025-10-13', '2025-10-17', '2025-10-23', '2025-10-29', '2025-11-04', '2025-11-10', '2025-11-14', '2025-11-20', '2025-11-26', '2025-12-03', '2025-12-09', '2025-12-15', '2025-12-19', '2025-12-26', '2026-01-02', '2026-01-08', '2026-01-14', '2026-01-21', '2026-01-27', '2026-02-02', '2026-02-06', '2026-02-12', '2026-02-19', '2026-02-25', '2026-03-03', '2026-03-09', '2026-03-13', '2026-03-19', '2026-03-25', '2026-03-31', '2026-04-07', '2026-04-13', '2026-04-17', '2026-04-23', '2026-04-29', '2026-05-05']
+series:
+  - title: MDT
+    data: [83.62, 84.25, 86.37, 81.18, 83.74, 87.44, 88.49, 85.73, 85.97, 88.75, 88.58, 89.73, 89.61, 92.32, 91.64, 89.67, 92.74, 93.02, 91.1, 92.05, 92.25, 94.07, 93.43, 95.08, 94.3, 94.81, 98.33, 95.58, 95.78, 94.21, 91.73, 90.42, 92.66, 95.87, 99.35, 105.02, 101.97, 99.62, 98.57, 98.63, 96.52, 96.05, 98.69, 98.74, 100.29, 100.69, 102.71, 102.9, 100.88, 97.58, 96.65, 96.71, 91.34, 87.14, 86.87, 87.89, 86.65, 86.42, 88.0, 86.19, 83.79, 79.37, 77.79]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+##### 📊 Fundamentals trend
+
+```chart
+type: line
+title: "P/E over time"
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06']
+series:
+  - title: P/E
+    data: [22.90503, 23.273743, 23.273743, 23.273743, 23.162012, 22.877096, 22.170393, 22.61732, 21.87151, 21.729052, 21.675978]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+```chart
+type: line
+title: "ROE & DY %"
+labels: ['2026-04-21', '2026-04-24', '2026-04-25', '2026-04-26', '2026-04-27', '2026-04-28', '2026-04-29', '2026-04-30', '2026-05-04', '2026-05-05', '2026-05-06']
+series:
+  - title: ROE %
+    data: [9.39, 9.39, 9.39, 9.39, 9.39, 9.39, 9.39, 9.39, 9.39, 9.39, 9.39]
+  - title: DY %
+    data: [3.46, 3.41, 3.41, 3.41, 3.42, 3.47, 3.58, 3.51, 3.63, 3.65, 3.66]
+width: 80%
+beginAtZero: false
+fill: false
+tension: 0.3
+```
+
+---
+*Gerado por obsidian_bridge — 2026-05-08 15:30 UTC*
+
+#### — · IC Debate (synthetic)
+_source: `tickers\MDT_IC_DEBATE.md` (now in cemetery)_
+
+#### 🏛️ Synthetic IC Debate — MDT
+
+**Committee verdict**: **HOLD** (high confidence, 100% consensus)  
+**Votes**: BUY=0 | HOLD=5 | AVOID=0  
+**Avg conviction majority**: 5.8/10  
+**Panel**: 5 personas (failed: 0)
+
+##### 🗣️ Each persona's verdict
+
+###### 🟡 Warren Buffett — **HOLD** (conv 6/10, size: medium)
+
+**Rationale**:
+- P/B razoável
+- Dividendos atrativos
+- História sólida de pagamentos
+
+**Key risk**: ROE abaixo do desejado e pressões regulatórias no setor da saúde
+
+###### 🟡 Stan Druckenmiller — **HOLD** (conv 6/10, size: small)
+
+**Rationale**:
+- P/E ligeiramente acima da meta
+- ROE abaixo do esperado
+- Taxa de dividendos atrativa
+
+**Key risk**: Pressões regulatórias no setor da saúde e potencial queda nos lucros
+
+###### 🟡 Nassim Taleb — **HOLD** (conv 5/10, size: small)
+
+**Rationale**:
+- P/E ligeiramente alto
+- ROE abaixo do esperado
+- Dividendos sólidos
+
+**Key risk**: Sensibilidade a mudanças regulatórias e pressões de custo no setor da saúde
+
+###### 🟡 Seth Klarman — **HOLD** (conv 6/10, size: medium)
+
+**Rationale**:
+- P/B razoável
+- Dividendos atrativos
+- História sólida
+
+**Key risk**: P/E acima da meta e ROE abaixo do esperado podem indicar sobreavaliação
+
+###### 🟡 Ray Dalio — **HOLD** (conv 6/10, size: medium)
+
+**Rationale**:
+- P/E ligeiramente alto
+- ROE abaixo do esperado
+- Dividendos atrativos
+
+**Key risk**: Pressões regulatórias no setor da saúde podem afetar lucratividade e crescimento
+
+##### 📊 Context provided
+
+```
+TICKER: US:MDT
+
+FUNDAMENTALS LATEST:
+  pe: 23.273743
+  pb: 2.1829233
+  dy: 3.41%
+  roe: 9.39%
+  net_debt_ebitda: 2.085593220338983
+
+VAULT THESIS:
+**Core thesis (2026-04-25)**: Medtronic é um líder estabelecido no setor de saúde, com uma longa história de pagamentos de dividendos e uma reputação sólida. Apesar do P/E ligeiramente acima da meta (23.27 vs. ≤ 20) e ROE abaixo do esperado (9.39% vs. ≥ 15%), a empresa mantém um P/B razoável (2.18), uma taxa de dividendos atrativa (3.41%) e é classificada como Dividend Aristocrat com mais de quatro décadas de pagamentos consecutivos.
+
+**Key assumptions**:
+1. Medtronic manterá seu ritmo atual de crescimento e lucratividade, apesar das pressões regulatórias no setor da saúde
+2. A empresa continuará a expandir suas operações em mercados emergentes, aumentando sua base de clientes globalmente
+3. O P/E da Medtronic eventualmente cairá para dentro do intervalo desejado à medida que os lucros cre
+```
+
+---
+*100% Ollama local (qwen2.5:14b-instruct-q4_K_M). Zero Claude tokens. 5 personas debated.*
+
+## ⚙️ Refresh commands
+
+```bash
+ii panorama MDT --write
+ii deepdive MDT --save-obsidian
+ii verdict MDT --narrate --write
+ii fv MDT
+python -m analytics.fair_value_forward --ticker MDT
+```
+
+---
+_Gerado por `scripts/build_merged_hubs.py` em 2026-05-14. Run again to refresh._

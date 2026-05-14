@@ -1,0 +1,122 @@
+---
+type: research_dossie
+ticker: BTLG11
+name: BTG Logística
+market: br
+sector: Logística
+is_holding: True
+date: 2026-04-26
+verdict: AVOID
+verdict_confidence: medium
+verdict_consensus_pct: 60.0
+sources: [in-house DB, Synthetic IC, vault thesis]
+tokens_claude_data_gather: 0
+tags: [research, dossie, br, logística]
+---
+
+# 📑 BTLG11 — BTG Logística
+
+> Generated **2026-04-26** by `ii dossier BTLG11`. Cross-links: [[BTLG11]] · [[BTLG11_IC_DEBATE]] · [[CONSTITUTION]]
+
+## TL;DR
+
+BTLG11 é FII Logística (BTG) com **DY 9.19%**, P/B 1.00 (cota = NAV), streak 5y. **Synthetic IC: AVOID** (medium, 60% consensus) com IC consensus apenas 22 — IC é o único componente fraco; composite **conviction 64** ainda razoável por thesis health 100 e data coverage 100. Achado-chave: divergência IC vs thesis sugere cota price-to-perfection no segmento (P/E 95.27, ROE 8.62% baixo) — hold mas sem add.
+
+## 1. Fundamentals snapshot
+
+- **Período**: 2026-04-25
+- **EPS**: 1.08  |  **BVPS**: 103.43
+- **ROE**: 8.62%  |  **P/E**: 95.27  |  **P/B**: 1.00
+- **DY**: 9.19%  |  **Streak div**: 5y  |  **Market cap**: R$ 4.46B
+- **Last price**: BRL 103.18 (2026-04-26)  |  **YoY**: +2.6%
+
+## 2. Synthetic IC
+
+**🏛️ AVOID** (medium confidence, 60.0% consensus)
+
+→ Detalhe: [[BTLG11_IC_DEBATE]]
+
+## 3. Thesis
+
+**Core thesis (2026-04-24)**: A BTLG11, uma empresa de logística com um histórico consistente de dividendos por cinco anos consecutivos e um yield atual de 9.16%, oferece aos investidores Buffett/Graham a oportunidade de construir riqueza através da reinvestimento contínuo dos dividendos (DRIP). Com um preço/lucro de 95,52x e uma relação patrimônio líquido/preço próxima a 1, a empresa parece estar avaliada em linha com seu valor intrínseco. A margem de segurança é reforçada pelo retorno sobre o patrimônio próprio (ROE) de 8,62%, indicando que a empresa está gerando lucros consistentes apesar da volatilidade do mercado.
+
+**Key assumptions**:
+1. O yield atual de 9,16% continuará sustentável nos próximos anos.
+2. A relação patrimônio líquido/preço (PB) permanecerá próxima a 1, indicando um pr
+
+→ Vault: [[BTLG11]]
+
+## 4. Conviction breakdown
+
+| Component | Score |
+|---|---|
+| **Composite** | **64** |
+| Thesis health | 100 |
+| IC consensus | 22 |
+| Variant perception | 60 |
+| Data coverage | 100 |
+| Paper track | 50 |
+
+## Tutor
+
+> Leitura métrica-por-métrica vs filosofia (CLAUDE.md screen). Cada link abre [[Glossary/_Index|Glossary]] para fórmula + contraméricas.
+
+- **P/E = 95.27** → [[Glossary/PE|porquê isto importa?]]. Graham (BR equity): P/E ≤ 22.5 (em conjunto com P/B). **Actual 95.27** fora do screen.
+- **P/B = 1.00** → [[Glossary/PB|leitura completa]]. BR equity: usado dentro do Graham. **1.00** — verificar consistência com ROE.
+- **DY = 9.19%** → [[Glossary/DY|leitura + contraméricas]]. FIIs: target DY ≥ 8%. **9.19%** OK.
+- **ROE = 8.62%** → [[Glossary/ROE|porque é a métrica chave Buffett]]. Buffett quality: ≥ 15%. **8.62%** abaixo do critério.
+- **Streak div = 5y** → [[Glossary/Dividend_Streak|porque importa]]. Target BR ≥ 5y; **passa**.
+
+### Conceitos relacionados
+
+- 💰 **Status DRIP-friendly** (BR holding com DY ≥ 6%) — reinvestimento mensal/quarterly compõe.
+
+## 5. Riscos identificados
+
+- 🔴 **IC AVOID com consensus 22** — sinal forte de re-pricing pelos personas; thesis health 100 contradiz mas IC é o vector mais sensível a deterioração. Trigger: `ic_consensus_pct ≤ 22 por 2 runs consecutivos`.
+- 🟡 **ROE 8.62% baixo + P/E 95.27 esticado** — múltiplos sustentados só por DRIP narrative; reversão de yield = reversão de cota. Trigger: `fundamentals.dy < 0.085` por 2 meses.
+- 🟡 **P/B = 1.00 (cota = NAV)** — sem margem de segurança vs valor patrimonial; correções de cap-rate em galpões logísticos baterão directos. Trigger: `pb > 1.10` por 1 mês = cota acima do NAV.
+- 🟢 **Vacância em galpões** — segmento Logística com vacância tipicamente baixa mas e-commerce slowdown afecta. Trigger: relatório gerencial com vacância > 5%.
+- 🟢 **Streak quebrado** — Trigger: distribuição mensal cair > 15% MoM.
+
+## 6. Position sizing
+
+**Status atual**: holding (in portfolio)
+
+**Hold** posição (IC AVOID mas thesis intacta — não vender por sinal único). Cap em **5-8% do bolso BR de FIIs**, segmento Logística é menor parte do mix. **Não fazer add** enquanto IC AVOID persistir; reinvestimento mensal de distribuição pode rotacionar para XPML11/RBRX11. BRL doméstico, sem conversão US→BR.
+
+## 7. Tracking triggers (auto-monitoring)
+
+- **DY abaixo do piso** — `fundamentals.dy < 0.085` por 2 meses → revisar tese.
+- **IC degrada mais** — `ic_consensus_pct < 22` por 2 runs → considerar trim.
+- **Distribuição mensal cai** — `events.kind='dividend' AND amount < (avg ult 6m × 0.85)` → investigar relatório.
+- **P/B foge do par** — `pb > 1.10` por 1 mês = cota acima NAV; sinal de exit window.
+- **Conviction degrada** — `conviction.composite < 55` → re-avaliar permanência.
+
+## 8. Compute trail
+
+| Stage | Tool | Tokens Claude |
+|---|---|---|
+| Recon DB | sqlite3 | 0 |
+| Vault read | filesystem | 0 |
+| IC + thesis (cached) | Ollama prior session | 0 |
+| Skeleton render | Python f-string | 0 |
+| TODO_CLAUDE narrativa | Claude (subsequent edit) | ~600-1000 |
+
+→ Re-run desta dossier (refresh): ~0.5s + 0 tokens (data layer só) ou ~600 tokens (re-fill narrativa).
+
+---
+*Generated by `ii dossier BTLG11` on 2026-04-26. 100% in-house data. Fill TODO_CLAUDE_* markers para narrativa final.*
+
+## 🎙️ Recent insights & mentions
+
+_Auto-gerado · 2026-05-13 20:46 UTC · yt=0 · analyst=3 · themes=0_
+
+### 📰 Analyst reports (últimos 120d)
+
+| Data | Fonte | Kind | Stance | PT | Claim |
+|---|---|---|---|---:|---|
+| 2026-04-24 | SUNO | rating | bull | 132.50 | [Suno FIIs] BTLG11 — peso 6.2%, rating Comprar, PT R$132.5 |
+| 2026-04-24 | SUNO | rating | bull | 132.00 | [Suno Renda Total] BTLG11 — peso 7.5%, rating Comprar, PT R$132.0 |
+| 2026-04-24 | XP | numerical | — | — | O BTG PACTUAL LOGÍSTICA FII tem um preço de R$ 103,45 com dividend yield de 9,16%. |
+
