@@ -1,4 +1,5 @@
 ---
+handle: council.industrials-us
 type: persona
 employee: Charlie Compounder
 title: Industrials & Consumer US Specialist (Buffett frame)

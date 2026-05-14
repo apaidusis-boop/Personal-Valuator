@@ -1,4 +1,5 @@
 ---
+handle: ops.janitor
 type: persona
 employee: Noé Arquivista
 title: Data Steward

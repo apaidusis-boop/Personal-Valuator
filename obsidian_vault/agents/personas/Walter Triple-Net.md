@@ -1,4 +1,5 @@
 ---
+handle: council.reits-us
 type: persona
 employee: Walter Triple-Net
 title: REITs US Specialist

@@ -1,4 +1,5 @@
 ---
+handle: design.lint
 type: persona
 employee: Helena Linha
 title: Head of Design

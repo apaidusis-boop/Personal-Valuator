@@ -1,4 +1,5 @@
 ---
+handle: risk.drift-audit
 type: persona
 employee: Valentina Prudente
 title: Chief Risk Officer

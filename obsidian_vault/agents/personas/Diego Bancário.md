@@ -1,4 +1,5 @@
 ---
+handle: council.banks-br
 type: persona
 employee: Diego Bancário
 title: Banks BR Specialist

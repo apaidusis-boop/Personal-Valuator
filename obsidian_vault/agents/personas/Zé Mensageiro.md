@@ -1,4 +1,5 @@
 ---
+handle: ops.telegram-bridge
 type: persona
 employee: Zé Mensageiro
 title: Telegram Desk

@@ -1,4 +1,5 @@
 ---
+handle: ops.briefing
 type: persona
 employee: Aurora Matina
 title: Morning Analyst

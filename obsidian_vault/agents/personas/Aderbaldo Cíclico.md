@@ -1,4 +1,5 @@
 ---
+handle: council.commodities-br
 type: persona
 employee: Aderbaldo Cíclico
 title: Commodities BR Specialist

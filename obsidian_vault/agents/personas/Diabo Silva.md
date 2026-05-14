@@ -1,4 +1,5 @@
 ---
+handle: risk.devils-advocate
 type: persona
 employee: Diabo Silva
 title: Chief Contrarian

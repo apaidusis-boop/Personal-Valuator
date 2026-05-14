@@ -1,4 +1,5 @@
 ---
+handle: council.allocation
 type: persona
 employee: Pedro Alocação
 title: Capital Allocator

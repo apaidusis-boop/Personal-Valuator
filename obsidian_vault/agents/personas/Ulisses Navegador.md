@@ -1,4 +1,5 @@
 ---
+handle: research.scout
 type: persona
 employee: Ulisses Navegador
 title: Head of Research

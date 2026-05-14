@@ -1,4 +1,5 @@
 ---
+handle: risk.compliance
 type: persona
 employee: Regina Ordem
 title: Compliance Officer

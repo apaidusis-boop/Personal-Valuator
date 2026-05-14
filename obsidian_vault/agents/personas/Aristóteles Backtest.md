@@ -1,4 +1,5 @@
 ---
+handle: perf.backtest-analysts
 type: persona
 employee: Aristóteles Backtest
 title: Head of Performance

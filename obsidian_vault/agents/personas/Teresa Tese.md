@@ -1,4 +1,5 @@
 ---
+handle: research.thesis-refresh
 type: persona
 employee: Teresa Tese
 title: Research Coordinator

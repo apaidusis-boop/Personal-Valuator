@@ -1,4 +1,5 @@
 ---
+handle: ops.watchdog
 type: persona
 employee: Wilson Vigil
 title: Floor Trader / Desk Watch

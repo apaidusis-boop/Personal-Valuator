@@ -1,4 +1,5 @@
 ---
+handle: design.product
 type: persona
 employee: Vitória Vitrine
 title: Head of Product & Marketing

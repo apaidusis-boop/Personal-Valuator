@@ -1,4 +1,5 @@
 ---
+handle: council.industrials-br
 type: persona
 employee: Tião Galpão
 title: Industrials & Consumer BR Specialist

@@ -1,4 +1,5 @@
 ---
+handle: council.macro
 type: persona
 employee: Mariana Macro
 title: Chief Macro Strategist

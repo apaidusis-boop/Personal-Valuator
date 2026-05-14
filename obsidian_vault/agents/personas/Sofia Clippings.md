@@ -1,4 +1,5 @@
 ---
+handle: research.subscriptions
 type: persona
 employee: Sofia Clippings
 title: Research Intern
