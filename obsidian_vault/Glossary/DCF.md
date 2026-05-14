@@ -3,7 +3,7 @@ type: glossary
 slug: DCF
 title: DCF — Discounted Cash Flow
 category: valuation
-date: 2026-05-10
+date: 2026-05-13
 tags: [glossary, tutor, valuation]
 ---
 
@@ -36,4 +36,4 @@ tags: [glossary, tutor, valuation]
 ❌ Buffett: 'preferir empresa boa a preço justo do que empresa medíocre a preço barato' — DCF muito sensível ignora isto.
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-10.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-13.*

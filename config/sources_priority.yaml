@@ -23,6 +23,8 @@ br:
     - bcb_sgs         # bcb_fetcher.py (Selic, CDI, IPCA, PTAX)
   filings:
     - cvm             # monitors/cvm_monitor.py + cvm_pdf_extractor.py
+  web_news:
+    - exa             # fetchers/exa_fetcher.py::search_news — neural recall (complemento aos RSS de news_fetch.py); scripts/exa_news_monitor.py corre em batch
 
 us:
   prices:
@@ -43,6 +45,8 @@ us:
     - fred            # fetchers/fred_fetcher.py
   filings:
     - sec             # monitors/sec_monitor.py (8-K / 10-K / DEF 14A)
+  web_news:
+    - exa             # fetchers/exa_fetcher.py::search_news — neural recall (complemento ao SeekingAlpha/Reuters RSS); scripts/exa_news_monitor.py corre em batch
 
 # Cache TTLs: quanto tempo um valor cached é considerado fresh (live).
 # Após o TTL ele continua disponível como stale fallback (com flag DEGRADED).
@@ -55,6 +59,7 @@ cache:
     macro: 168       # central banks publish weekly
     filings: 24      # CVM/SEC daily polling
     analyst: 24      # consensus shifts on earnings dates
+    web_news: 6      # notícias mexem ao longo do dia; cache curto
 
 # Guards: thresholds usados pelos fetchers para rejeitar valores absurdos.
 # Mantém-se aqui (não em código) para serem ajustáveis sem deploy.

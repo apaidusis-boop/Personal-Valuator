@@ -48,4 +48,4 @@ _32 revisões registadas._
 
 ## Persona
 
-- [[personas/Valentina Prudente|👤 Página de persona]]
+- [[risk.drift-audit|👤 Página de persona]]

@@ -570,3 +570,11 @@ Restore command pattern: `git mv cemetery/2026-05-14/<SUBDIR>/<ORIGINAL_PATH> <O
 - `obsidian_vault\tickers\MCRF11_IC_DEBATE.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\MCRF11_IC_DEBATE.md` — per-ticker view MCRF11 absorbed into hub
 - `obsidian_vault\tickers\SPY.md` → `cemetery\2026-05-14\ABSORBED-tickers\tickers\SPY.md` — per-ticker view SPY absorbed into hub
 - `obsidian_vault\wiki\holdings\BRK-B.md` → `cemetery\2026-05-14\ABSORBED-wiki-holdings\wiki\holdings\BRK-B.md` — wiki playbook BRK-B absorbed into hub
+
+
+### Wave 8 — Per-ticker SOURCE files (merge-total absorbed into hubs)
+Date: 2026-05-14
+Total: 0 files moved across 0 categories.
+Each ticker's content was first absorbed into `obsidian_vault/hubs/<TK>.md` (merge-total) before burial here.
+Restore command pattern: `git mv cemetery/2026-05-14/<SUBDIR>/<ORIGINAL_PATH> <ORIGINAL_PATH>`
+

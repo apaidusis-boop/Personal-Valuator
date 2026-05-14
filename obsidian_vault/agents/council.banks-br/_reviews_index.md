@@ -18,4 +18,4 @@ _2 revisões registadas._
 
 ## Persona
 
-- [[personas/Diego Bancário|👤 Página de persona]]
+- [[council.banks-br|👤 Página de persona]]

@@ -22,4 +22,4 @@ _6 revisões registadas._
 
 ## Persona
 
-- [[personas/Hank Tier-One|👤 Página de persona]]
+- [[council.banks-us|👤 Página de persona]]

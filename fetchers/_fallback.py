@@ -380,6 +380,17 @@ def _adapter_benzinga_us_analyst(ticker: str, **kw) -> dict[str, Any]:
     return benzinga().get_analyst_consensus(ticker)
 
 
+def _adapter_exa_news(ticker: str, **kw) -> dict[str, Any]:
+    """Exa neural news search. kw: name (str), num_results (int), max_age_hours (int)."""
+    from fetchers import exa_fetcher
+    return exa_fetcher.search_news(
+        ticker,
+        name=kw.get("name"),
+        num_results=kw.get("num_results", 6),
+        max_age_hours=kw.get("max_age_hours"),
+    )
+
+
 REGISTRY: dict[tuple[str, str, str], Callable[..., Any]] = {
     # US prices
     ("us", "prices", "yfinance"): _adapter_yfinance_us_price,
@@ -400,6 +411,9 @@ REGISTRY: dict[tuple[str, str, str], Callable[..., Any]] = {
     ("br", "fundamentals", "yfinance"): _adapter_yfinance_br_fundamentals,
     # BR macro
     ("br", "macro", "bcb_sgs"): _adapter_bcb_macro,
+    # Web news (neural search — complemento aos RSS feeds + filings oficiais)
+    ("br", "web_news", "exa"): _adapter_exa_news,
+    ("us", "web_news", "exa"): _adapter_exa_news,
 }
 
 

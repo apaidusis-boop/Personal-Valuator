@@ -3,7 +3,7 @@ type: glossary
 slug: Basel_Ratio
 title: Basel Ratio — Capital Regulatório de Bancos
 category: banks_regulatory
-date: 2026-05-10
+date: 2026-05-13
 tags: [glossary, tutor, banks_regulatory]
 ---
 
@@ -37,15 +37,15 @@ Cushion mínimo de capital exigido por reguladores (BCB, Fed, ECB) para absorver
 
 ## Usado em
 
-- [[ABCB4_DOSSIE]]
-- [[BBAS3_DOSSIE]]
-- [[BBDC4_DOSSIE]]
-- [[BPAC11_DOSSIE]]
-- [[GS_DOSSIE]]
-- [[HGLG11_DOSSIE]]
-- [[ITUB4_DOSSIE]]
-- [[JPM_DOSSIE]]
-- [[SANB11_DOSSIE]]
+- [[ABCB4]]
+- [[BBAS3]]
+- [[BBDC4]]
+- [[BPAC11]]
+- [[GS]]
+- [[HGLG11]]
+- [[ITUB4]]
+- [[JPM]]
+- [[SANB11]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-10.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-13.*

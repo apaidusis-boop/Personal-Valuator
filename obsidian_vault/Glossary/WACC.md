@@ -3,7 +3,7 @@ type: glossary
 slug: WACC
 title: WACC — Weighted Average Cost of Capital
 category: valuation
-date: 2026-05-10
+date: 2026-05-13
 tags: [glossary, tutor, valuation]
 ---
 
@@ -37,4 +37,4 @@ tags: [glossary, tutor, valuation]
 ❌ Para bancos não se aplica (cost of equity sim, WACC menos).
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-10.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-13.*

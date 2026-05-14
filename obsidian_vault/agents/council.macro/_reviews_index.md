@@ -48,4 +48,4 @@ _32 revisões registadas._
 
 ## Persona
 
-- [[personas/Mariana Macro|👤 Página de persona]]
+- [[council.macro|👤 Página de persona]]

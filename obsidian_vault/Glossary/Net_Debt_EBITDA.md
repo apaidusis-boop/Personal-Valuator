@@ -3,7 +3,7 @@ type: glossary
 slug: Net_Debt_EBITDA
 title: Net Debt / EBITDA — Alavancagem
 category: balance_sheet
-date: 2026-05-10
+date: 2026-05-13
 tags: [glossary, tutor, balance_sheet]
 ---
 
@@ -37,30 +37,30 @@ Quantos anos de EBITDA seriam necessários para pagar a dívida líquida. **Maio
 
 ## Usado em
 
-- [[ABBV_DOSSIE]]
-- [[ABCB4_DOSSIE]]
-- [[ALOS3_DOSSIE]]
-- [[AXIA7_DOSSIE]]
-- [[B3SA3_DOSSIE]]
-- [[BBDC4_DOSSIE]]
-- [[BLK_DOSSIE]]
-- [[CPLE3_DOSSIE]]
-- [[ENGI11_DOSSIE]]
-- [[JNJ_DOSSIE]]
-- [[MCD_DOSSIE]]
-- [[MOTV3_DOSSIE]]
-- [[MULT3_DOSSIE]]
-- [[PEP_DOSSIE]]
-- [[PETR4_DOSSIE]]
-- [[PGMN3_DOSSIE]]
-- [[PLPL3_DOSSIE]]
-- [[PRIO3_DOSSIE]]
-- [[RAPT4_DOSSIE]]
-- [[RDOR3_DOSSIE]]
-- [[RENT3_DOSSIE]]
-- [[SUZB3_DOSSIE]]
-- [[TSLA_DOSSIE]]
-- [[TTEN3_DOSSIE]]
+- [[ABBV]]
+- [[ABCB4]]
+- [[ALOS3]]
+- [[AXIA7]]
+- [[B3SA3]]
+- [[BBDC4]]
+- [[BLK]]
+- [[CPLE3]]
+- [[ENGI11]]
+- [[JNJ]]
+- [[MCD]]
+- [[MOTV3]]
+- [[MULT3]]
+- [[PEP]]
+- [[PETR4]]
+- [[PGMN3]]
+- [[PLPL3]]
+- [[PRIO3]]
+- [[RAPT4]]
+- [[RDOR3]]
+- [[RENT3]]
+- [[SUZB3]]
+- [[TSLA]]
+- [[TTEN3]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-10.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-13.*

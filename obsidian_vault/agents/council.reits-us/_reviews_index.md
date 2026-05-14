@@ -18,4 +18,4 @@ _2 revisões registadas._
 
 ## Persona
 
-- [[personas/Walter Triple-Net|👤 Página de persona]]
+- [[council.reits-us|👤 Página de persona]]

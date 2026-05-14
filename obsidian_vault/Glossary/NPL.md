@@ -3,7 +3,7 @@ type: glossary
 slug: NPL
 title: NPL — Non-Performing Loans (E-H)
 category: banks_credit
-date: 2026-05-10
+date: 2026-05-13
 tags: [glossary, tutor, banks_credit]
 ---
 
@@ -37,17 +37,17 @@ tags: [glossary, tutor, banks_credit]
 
 ## Usado em
 
-- [[ABCB4_DOSSIE]]
-- [[BBAS3_DOSSIE]]
-- [[BBDC4_DOSSIE]]
-- [[BPAC11_DOSSIE]]
-- [[GREK_DOSSIE]]
-- [[ITUB4_DOSSIE]]
-- [[JNJ_DOSSIE]]
-- [[NU_DOSSIE]]
-- [[PRIO3_DOSSIE]]
-- [[SANB11_DOSSIE]]
-- [[TFC_DOSSIE]]
+- [[ABCB4]]
+- [[BBAS3]]
+- [[BBDC4]]
+- [[BPAC11]]
+- [[GREK]]
+- [[ITUB4]]
+- [[JNJ]]
+- [[NU]]
+- [[PRIO3]]
+- [[SANB11]]
+- [[TFC]]
 
 ---
-*Auto-build via `scripts/build_glossary.py` em 2026-05-10.*
+*Auto-build via `scripts/build_glossary.py` em 2026-05-13.*

@@ -88,7 +88,7 @@ def run_phase(phase: str, tickers: list[str], skip_extract: bool = False) -> dic
     cmd = [
         PYTHON,
         str(ROOT / "scripts" / "pilot_deep_dive.py"),
-        "--from-yaml", "--deep",
+        "--from-yaml", "--deep", "--force-fresh",
         "--per-ticker-budget", "300",
     ]
     if skip_extract:

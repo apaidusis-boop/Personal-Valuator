@@ -48,4 +48,4 @@ _32 revisões registadas._
 
 ## Persona
 
-- [[personas/Pedro Alocação|👤 Página de persona]]
+- [[council.allocation|👤 Página de persona]]

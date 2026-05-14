@@ -18,4 +18,4 @@ _2 revisões registadas._
 
 ## Persona
 
-- [[personas/Tião Galpão|👤 Página de persona]]
+- [[council.industrials-br|👤 Página de persona]]

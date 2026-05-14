@@ -42,5 +42,5 @@ Vazio (sem bullets) = perpetuum_master usa só o schedule de `config/agents.yaml
 
 ## Auto-injected (retry wrapper failures)
 
-- [ ] >> C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1  <!-- failed POD-POLL, exit=124 after 3 attempts at 2026-05-09T04:35:32+00:00 -->  <!-- ran 2026-05-09T13:49:57+00:00, exit=1 -->  <!-- ran 2026-05-09T20:38:16+00:00, exit=1 -->  <!-- ran 2026-05-10T20:39:25+00:00, exit=1 -->
+- [ ] >> C:\Users\paidu\investment-intelligence\.venv\Scripts\python.exe scripts\pod_poll.py --max-per-feed 1  <!-- failed POD-POLL, exit=124 after 3 attempts at 2026-05-09T04:35:32+00:00 -->  <!-- ran 2026-05-09T13:49:57+00:00, exit=1 -->  <!-- ran 2026-05-09T20:38:16+00:00, exit=1 -->  <!-- ran 2026-05-10T20:39:25+00:00, exit=1 -->  <!-- ran 2026-05-11T20:41:52+00:00, exit=1 -->  <!-- ran 2026-05-13T16:46:24+00:00, exit=1 -->  <!-- ran 2026-05-13T20:45:27+00:00, exit=1 -->
 <!-- scripts/_retry.py appends rows here when a daily/hourly step fails all attempts. agents._heartbeat replays them on next run. -->

@@ -18,4 +18,4 @@ _2 revisões registadas._
 
 ## Persona
 
-- [[personas/Aderbaldo Cíclico|👤 Página de persona]]
+- [[council.commodities-br|👤 Página de persona]]

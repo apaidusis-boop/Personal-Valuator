@@ -193,4 +193,4 @@ cat data/agents/telegram_controller.json
 
 ---
 
-*Para arquitectura agents, ver [[Agents_layer]]. Para Zé Mensageiro especificamente, ver [[../../agents/personas/Zé Mensageiro|persona card]].*
+*Para arquitectura agents, ver [[Agents_layer]]. Para Zé Mensageiro especificamente, ver [[ops.telegram-bridge|persona card]].*

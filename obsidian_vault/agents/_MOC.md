@@ -19,28 +19,28 @@ tags: [moc, agents, company, organization]
 ## 👥 Funcionários por departamento
 
 ### 🏛 Operations (Desk)
-- [[personas/Aurora Matina|Aurora Matina]] — Morning Analyst (`morning_briefing`)
-- [[personas/Wilson Vigil|Wilson Vigil]] — Floor Trader / Desk Watch (`watchdog`)
-- [[personas/Noé Arquivista|Noé Arquivista]] — Data Steward (`data_janitor`)
+- [[ops.briefing|Aurora Matina]] — Morning Analyst (`morning_briefing`)
+- [[ops.watchdog|Wilson Vigil]] — Floor Trader / Desk Watch (`watchdog`)
+- [[ops.janitor|Noé Arquivista]] — Data Steward (`data_janitor`)
 
 ### 🔍 Research
-- [[personas/Ulisses Navegador|Ulisses Navegador]] — Head of Research (`research_scout`)
-- [[personas/Teresa Tese|Teresa Tese]] — Research Coordinator (`thesis_refresh`)
-- [[personas/Sofia Clippings|Sofia Clippings]] — Research Intern (`subscription_fetch`)
+- [[research.scout|Ulisses Navegador]] — Head of Research (`research_scout`)
+- [[research.thesis-refresh|Teresa Tese]] — Research Coordinator (`thesis_refresh`)
+- [[research.subscriptions|Sofia Clippings]] — Research Intern (`subscription_fetch`)
 
 ### 🛡 Risk
-- [[personas/Valentina Prudente|Valentina Prudente]] — Chief Risk Officer (`risk_auditor`)
-- [[personas/Diabo Silva|Diabo Silva]] — Chief Contrarian (`devils_advocate`)
+- [[risk.drift-audit|Valentina Prudente]] — Chief Risk Officer (`risk_auditor`)
+- [[risk.devils-advocate|Diabo Silva]] — Chief Contrarian (`devils_advocate`)
 
 ### ⚖️ Compliance
-- [[personas/Regina Ordem|Regina Ordem]] — Compliance Officer (`meta_agent`)
+- [[risk.compliance|Regina Ordem]] — Compliance Officer (`meta_agent`)
 
 ### 📈 Performance
-- [[personas/Aristóteles Backtest|Aristóteles Backtest]] — Head of Performance (`analyst_backtest`)
-- [[personas/Clara Fit|Clara Fit]] — Portfolio Analyst (`portfolio_matcher`)
+- [[perf.backtest-analysts|Aristóteles Backtest]] — Head of Performance (`analyst_backtest`)
+- [[perf.portfolio-matcher|Clara Fit]] — Portfolio Analyst (`portfolio_matcher`)
 
 ### 📞 Desk (Contact)
-- [[personas/Zé Mensageiro|Zé Mensageiro]] — Telegram Desk (`telegram_controller`)
+- [[ops.telegram-bridge|Zé Mensageiro]] — Telegram Desk (`telegram_controller`)
 
 ### 🎓 Specialists — Council STORYT_2.0 (on-demand)
 

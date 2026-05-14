@@ -23,4 +23,4 @@ _7 revisões registadas._
 
 ## Persona
 
-- [[personas/Lourdes Aluguel|👤 Página de persona]]
+- [[council.fiis-br|👤 Página de persona]]

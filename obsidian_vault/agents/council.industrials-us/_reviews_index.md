@@ -28,4 +28,4 @@ _12 revisões registadas._
 
 ## Persona
 
-- [[personas/Charlie Compounder|👤 Página de persona]]
+- [[council.industrials-us|👤 Página de persona]]
